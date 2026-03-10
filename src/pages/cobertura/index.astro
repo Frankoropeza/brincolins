@@ -1,0 +1,145 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+
+const title = "Zonas de Cobertura | BRINCOLINS - Renta de Inflables CDMX y Edomex";
+const description = "Entregamos inflables en toda la CDMX (16 alcaldías) y principales municipios del Estado de México. Consulta si llegamos a tu zona.";
+
+const alcaldias = [
+  "Álvaro Obregón", "Azcapotzalco", "Benito Juárez", "Coyoacán",
+  "Cuajimalpa", "Cuauhtémoc", "Gustavo A. Madero", "Iztacalco",
+  "Iztapalapa", "Magdalena Contreras", "Miguel Hidalgo", "Milpa Alta",
+  "Tláhuac", "Tlalpan", "Venustiano Carranza", "Xochimilco",
+];
+
+const municipios = [
+  "Naucalpan", "Tlalnepantla", "Ecatepec", "Nezahualcóyotl", "Toluca",
+  "Huixquilucan", "Atizapán de Zaragoza", "Cuautitlán Izcalli", "Coacalco",
+  "Metepec", "Texcoco", "Chalco", "Nicolás Romero", "Tecámac", "Tultitlán",
+];
+
+const serviceAreaSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Renta de Inflables BRINCOLINS",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "BRINCOLINS",
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Ciudad de México",
+      "containedInPlace": { "@type": "Country", "name": "México" },
+    },
+    ...municipios.map(m => ({
+      "@type": "City",
+      "name": m,
+      "containedInPlace": { "@type": "State", "name": "Estado de México" },
+    })),
+  ],
+  "serviceType": "Renta de inflables para fiestas",
+};
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Cobertura" },
+  ]}
+>
+
+  <script type="application/ld+json" set:html={JSON.stringify(serviceAreaSchema)} />
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Cobertura</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <h1 class="hero__title">Zonas de Cobertura</h1>
+      <p class="hero__subtitle">Entregamos inflables en toda la CDMX y principales municipios del Estado de México.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-2">
+        <div>
+          <h2 style="margin-bottom:1.5rem; color:var(--color-primary);">📍 Ciudad de México — 16 Alcaldías</h2>
+          <p style="color:var(--color-text-light); margin-bottom:1.5rem; line-height:1.7;">
+            Cubrimos las 16 alcaldías de la Ciudad de México. Entrega sin costo adicional en la mayoría de las zonas.
+          </p>
+          <div class="zone-tags">
+            {alcaldias.map(z => <span class="zone-tag">{z}</span>)}
+          </div>
+        </div>
+        <div>
+          <h2 style="margin-bottom:1.5rem; color:var(--color-secondary);">📍 Estado de México — Municipios principales</h2>
+          <p style="color:var(--color-text-light); margin-bottom:1.5rem; line-height:1.7;">
+            También entregamos en los principales municipios del Edomex. Consulta el costo de envío para tu zona.
+          </p>
+          <div class="zone-tags">
+            {municipios.map(z => <span class="zone-tag">{z}</span>)}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div style="max-width:700px; margin:0 auto; text-align:center;">
+        <h2 style="margin-bottom:1rem;">Costos de envío</h2>
+        <div style="background:#fff; border-radius:var(--radius-card); padding:2rem; box-shadow:var(--shadow-card);">
+          <div class="grid-3" style="text-align:center; gap:1.5rem;">
+            <div>
+              <div style="font-size:2rem; margin-bottom:.5rem;">🟢</div>
+              <h3 style="font-size:1rem; margin-bottom:.25rem;">Zona Centro CDMX</h3>
+              <p style="color:var(--color-fun); font-weight:800; font-size:1.1rem;">Gratis</p>
+              <p style="font-size:.8rem; color:var(--color-text-light);">Benito Juárez, Coyoacán, Cuauhtémoc, Miguel Hidalgo</p>
+            </div>
+            <div>
+              <div style="font-size:2rem; margin-bottom:.5rem;">🟡</div>
+              <h3 style="font-size:1rem; margin-bottom:.25rem;">Resto CDMX</h3>
+              <p style="color:var(--color-accent); font-weight:800; font-size:1.1rem;">$100 - $200</p>
+              <p style="font-size:.8rem; color:var(--color-text-light);">Demás alcaldías de la CDMX</p>
+            </div>
+            <div>
+              <div style="font-size:2rem; margin-bottom:.5rem;">🟠</div>
+              <h3 style="font-size:1rem; margin-bottom:.25rem;">Estado de México</h3>
+              <p style="color:var(--color-primary); font-weight:800; font-size:1.1rem;">$200 - $500</p>
+              <p style="font-size:.8rem; color:var(--color-text-light);">Según distancia al municipio</p>
+            </div>
+          </div>
+        </div>
+        <p style="margin-top:1.5rem; color:var(--color-text-light); font-size:.9rem;">
+          ¿No ves tu zona? Contáctanos y con gusto verificamos si podemos llegar a tu ubicación.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark" style="text-align:center;">
+    <div class="container">
+      <h2 style="margin-bottom:1rem;">¿Entregamos en tu zona?</h2>
+      <p style="opacity:.9; margin-bottom:2rem; max-width:500px; margin-left:auto; margin-right:auto;">
+        Escríbenos tu colonia o municipio y te confirmamos disponibilidad y costo de envío al instante.
+      </p>
+      <div class="hero__actions">
+        <a href="/cotizar" class="btn btn--primary btn--lg">Solicitar cotización</a>
+        <a href="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20saber%20si%20entregan%20en%20mi%20zona."
+           class="btn btn--wa btn--lg" target="_blank" rel="noopener">
+          Consultar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+</PageLayout>

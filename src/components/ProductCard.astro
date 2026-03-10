@@ -1,31 +1,55 @@
 ---
 export interface Props {
-  slug:     string;
-  emoji:    string;
-  name:     string;
-  price:    string;
-  size:     string;
-  ages:     string;
+  slug: string;
+  emoji: string;
+  name: string;
+  description: string;
+  price: string;
+  size: string;
+  ages: string;
+  category: string;
+  categoryColor?: string;
   gradient: string;
+  whatsapp?: string;
 }
 
-const { slug, emoji, name, price, size, ages, gradient } = Astro.props;
+const {
+  slug,
+  emoji,
+  name,
+  description,
+  price,
+  size,
+  ages,
+  category,
+  categoryColor = "castillo",
+  gradient,
+  whatsapp = "5511111111",
+} = Astro.props;
+
+const waMsg = encodeURIComponent(`Hola BRINCOLINS, quiero cotizar el inflable "${name}" para mi fiesta.`);
+const waHref = `https://wa.me/${whatsapp}?text=${waMsg}`;
 ---
 
-<article class="product-card">
+<article class={`product-card product-card--${categoryColor}`}>
   <div class="product-card__image" style={`background: linear-gradient(135deg, ${gradient});`}>
-    <div class="img-placeholder">
-      <span>{emoji}</span>
-      <span class="img-placeholder__text">Foto próximamente</span>
-    </div>
-    <span class="product-card__image-label">{size}</span>
+    <span>{emoji}</span>
+    <span class="product-card__category">{category}</span>
   </div>
+
   <div class="product-card__body">
-    <h3 class="product-card__title">{name}</h3>
-    <p class="product-card__specs">{ages} · {size}</p>
-    <p class="product-card__price">Desde {price}</p>
-    <div class="product-card__cta">
-      <a href={`/inflables/${slug}`} class="btn btn--primary btn--sm">Ver detalles</a>
+    <h3 class="product-card__name">{name}</h3>
+    <p class="product-card__desc">{description}</p>
+
+    <div class="product-card__info">
+      <span class="product-card__tag">📐 {size}</span>
+      <span class="product-card__tag">👶 {ages}</span>
+      <span class="product-card__tag">💰 Desde {price}</span>
+    </div>
+
+    <div class="product-card__actions">
+      <a href={`/inflables/${slug}/`} class="btn btn-outline btn-sm">Ver detalles</a>
+      <a href={waHref} target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Cotizar</a>
     </div>
   </div>
 </article>

@@ -1,0 +1,139 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import FaqItem from "@/components/FaqItem.astro";
+
+const title = "Cotizar Inflable para tu Fiesta | BRINCOLINS CDMX";
+const description = "Solicita tu cotización de inflables para fiestas infantiles en CDMX y Edomex. Respuesta en menos de 30 minutos. Precios desde $800 MXN con entrega incluida.";
+
+const faqs = [
+  { question: "¿Cuánto cuesta rentar un inflable?", answer: "Nuestros precios van desde $800 MXN por evento. El precio final depende del modelo elegido y la zona de entrega. Todos incluyen entrega, instalación, motor y recolección." },
+  { question: "¿Cuánto tiempo tarda la cotización?", answer: "Respondemos en menos de 30 minutos durante nuestro horario de atención (8am a 8pm). Por WhatsApp la respuesta suele ser inmediata." },
+  { question: "¿Necesito pagar un anticipo para reservar?", answer: "Sí, pedimos un anticipo del 50% para confirmar la reserva de tu fecha. El resto se paga el día del evento. Aceptamos transferencia, efectivo y tarjeta." },
+  { question: "¿Puedo cotizar varios inflables para un mismo evento?", answer: "¡Claro! Ofrecemos paquetes especiales cuando rentas más de un inflable. Menciónalo en tu cotización y te haremos un precio especial." },
+  { question: "¿La cotización tiene algún costo?", answer: "No, la cotización es completamente gratuita y sin compromiso. Solicítala por formulario o WhatsApp y te responderemos a la brevedad." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Cotizar" },
+  ]}
+  faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
+>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Cotizar</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <h1 class="hero__title">Solicita tu Cotización</h1>
+      <p class="hero__subtitle">Llena el formulario y te respondemos en menos de 30 minutos. Sin compromiso.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <h2 style="margin-bottom:1.5rem;">Datos de tu evento</h2>
+          <form action="#" method="POST" id="cotizar-form">
+            <div class="form-group">
+              <label class="form-label" for="nombre">Nombre completo *</label>
+              <input class="form-input" type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="telefono">Teléfono / WhatsApp *</label>
+              <input class="form-input" type="tel" id="telefono" name="telefono" required placeholder="55 1234 5678">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="fecha">Fecha del evento *</label>
+              <input class="form-input" type="date" id="fecha" name="fecha" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="colonia">Colonia / Zona *</label>
+              <input class="form-input" type="text" id="colonia" name="colonia" required placeholder="Ej: Coyoacán, Naucalpan...">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="inflable">Tipo de inflable *</label>
+              <select class="form-select" id="inflable" name="inflable" required>
+                <option value="">Selecciona un inflable</option>
+                <option value="mini-castillo">Mini Castillo - desde $800</option>
+                <option value="castillo-princesas">Castillo de Princesas - desde $900</option>
+                <option value="casa-brinco-jungla">Casa Brinco Jungla - desde $850</option>
+                <option value="barco-pirata">Barco Pirata - desde $950</option>
+                <option value="inflable-deportivo">Inflable Deportivo - desde $1,100</option>
+                <option value="tobogan-acuatico">Tobogán Acuático - desde $1,200</option>
+                <option value="otro">Otro / No estoy seguro</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="num-ninos">Número de niños (aprox.)</label>
+              <input class="form-input" type="number" id="num-ninos" name="num-ninos" min="1" max="50" placeholder="Ej: 10">
+            </div>
+            <div class="grid-2" style="gap:1rem;">
+              <div class="form-group">
+                <label class="form-label" for="hora-inicio">Hora de inicio</label>
+                <input class="form-input" type="time" id="hora-inicio" name="hora-inicio">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="hora-fin">Hora de fin</label>
+                <input class="form-input" type="time" id="hora-fin" name="hora-fin">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="notas">Notas adicionales</label>
+              <textarea class="form-textarea" id="notas" name="notas" placeholder="¿Algo que debamos saber? Tipo de evento, espacio disponible, etc."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg" style="width:100%;">Enviar cotización</button>
+          </form>
+        </div>
+
+        <div>
+          <div style="background:var(--color-bg-alt); padding:2rem; border-radius:var(--radius-card); margin-bottom:2rem;">
+            <h3 style="margin-bottom:1rem;">¿Prefieres WhatsApp?</h3>
+            <p style="color:var(--color-text-light); margin-bottom:1.5rem; line-height:1.7;">
+              Si quieres una respuesta inmediata, escríbenos directo por WhatsApp. Te atendemos al momento.
+            </p>
+            <a href="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable%20para%20mi%20fiesta."
+               class="btn btn--wa" style="width:100%;" target="_blank" rel="noopener">
+              Cotizar por WhatsApp
+            </a>
+          </div>
+
+          <div style="background:var(--color-bg-alt); padding:2rem; border-radius:var(--radius-card);">
+            <h3 style="margin-bottom:1rem;">¿Qué incluye la renta?</h3>
+            <ul style="color:var(--color-text-light); line-height:2;">
+              <li>✅ Entrega en tu domicilio</li>
+              <li>✅ Instalación profesional</li>
+              <li>✅ Motor / soplador eléctrico</li>
+              <li>✅ Limpieza y desinfección</li>
+              <li>✅ Seguro de responsabilidad civil</li>
+              <li>✅ Recolección al finalizar</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-header__title">Preguntas frecuentes sobre cotización</h2>
+      </div>
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+</PageLayout>

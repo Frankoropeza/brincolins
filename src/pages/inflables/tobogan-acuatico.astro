@@ -1,0 +1,146 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import ProductCard from "@/components/ProductCard.astro";
+
+const title = "Renta de Tobogán Acuático Inflable | BRINCOLINS CDMX";
+const description = "Renta el Tobogán Acuático inflable para fiestas infantiles en CDMX y Edomex. Tobogán de agua con piscina inflable. Desde $1,200 MXN con entrega incluida.";
+
+const inflable = {
+  slug: "tobogan-acuatico",
+  emoji: "💦",
+  name: "Tobogán Acuático",
+  price: "$1,200",
+  priceNum: "1200",
+  size: "6×4m",
+  ages: "5-12 años",
+  gradient: "#00B8D4, #0277BD",
+  desc: "El Tobogán Acuático es la atracción estrella para fiestas de verano. Con un emocionante tobogán de agua y piscina inflable al final, los niños disfrutarán horas de diversión refrescante. Ideal para jardines amplios y eventos al aire libre.",
+  features: ["Tobogán de agua de alta velocidad", "Piscina inflable al final del tobogán", "Sistema de rociadores integrado", "Material resistente al agua y UV", "Escalera de acceso con agarraderas", "Anclaje reforzado para mayor seguridad"],
+  capacity: "Hasta 8 niños simultáneamente",
+  installTime: "30 minutos",
+  requirements: "Toma de corriente a menos de 15m, toma de agua con manguera, superficie plana",
+  image: "/img/inflables/tobogan-acuatico.avif",
+};
+
+const otrosInflables = [
+  { slug: "barco-pirata", emoji: "🚢", name: "Barco Pirata", price: "$950", size: "5×4m", ages: "4-10 años", gradient: "#1E88E5, #0D47A1" },
+  { slug: "inflable-deportivo", emoji: "⚽", name: "Inflable Deportivo", price: "$1,100", size: "5×5m", ages: "6-14 años", gradient: "#FFD600, #FF6F00" },
+  { slug: "castillo-princesas", emoji: "👸", name: "Castillo de Princesas", price: "$900", size: "4×4m", ages: "3-8 años", gradient: "#E040FB, #7C3AED" },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="product"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables" },
+    { name: inflable.name },
+  ]}
+  product={{
+    name: inflable.name,
+    slug: inflable.slug,
+    description: description,
+    image: inflable.image,
+    price: inflable.priceNum,
+  }}
+>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <a href="/inflables">Inflables</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>{inflable.name}</span>
+    </nav>
+  </div>
+
+  <section class="section" style="padding-top:1rem;">
+    <div class="container">
+      <div class="product-hero">
+        <div class="product-hero__image" style={`background: linear-gradient(135deg, ${inflable.gradient});`}>
+          <div class="img-placeholder">
+            <span style="font-size:5rem;">{inflable.emoji}</span>
+            <span class="img-placeholder__text">Foto próximamente</span>
+          </div>
+        </div>
+        <div class="product-hero__info">
+          <h1>{inflable.emoji} {inflable.name}</h1>
+          <p class="product-hero__price">Desde {inflable.price} MXN</p>
+          <div class="product-hero__specs">
+            <span class="product-hero__spec">📐 {inflable.size}</span>
+            <span class="product-hero__spec">👶 {inflable.ages}</span>
+            <span class="product-hero__spec">👥 {inflable.capacity}</span>
+            <span class="product-hero__spec">⏱️ Instalación: {inflable.installTime}</span>
+          </div>
+          <p style="margin-bottom:1.5rem; color:var(--color-text-light); line-height:1.7;">{inflable.desc}</p>
+          <div class="product-hero__actions">
+            <a href="/cotizar" class="btn btn--primary">Cotizar ahora</a>
+            <a href={`https://wa.me/5511111111?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}. ¿Tienen disponibilidad?`)}`}
+               class="btn btn--wa" target="_blank" rel="noopener">
+              WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-header__title">Características</h2>
+      </div>
+      <div class="grid-3">
+        {inflable.features.map((f: string) => (
+          <div class="feature-card">
+            <div class="feature-card__icon">✅</div>
+            <p class="feature-card__desc">{f}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-header__title">Requisitos técnicos</h2>
+      </div>
+      <div style="max-width:600px; margin:0 auto; background:var(--color-bg-alt); padding:2rem; border-radius:var(--radius-card);">
+        <p><strong>📐 Espacio necesario:</strong> {inflable.size} (mínimo)</p>
+        <p style="margin-top:.75rem;"><strong>⚡ Requisitos:</strong> {inflable.requirements}</p>
+        <p style="margin-top:.75rem;"><strong>⏱️ Tiempo de instalación:</strong> {inflable.installTime}</p>
+        <p style="margin-top:.75rem;"><strong>👥 Capacidad:</strong> {inflable.capacity}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-header__title">Otros inflables que te pueden gustar</h2>
+      </div>
+      <div class="grid-3">
+        {otrosInflables.map(p => <ProductCard {...p} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark" style="text-align:center;">
+    <div class="container">
+      <h2 style="margin-bottom:1rem;">¿Te interesa el {inflable.name}?</h2>
+      <p style="opacity:.9; margin-bottom:2rem;">Reserva ahora y asegura tu fecha. Respondemos en minutos.</p>
+      <div class="hero__actions">
+        <a href="/cotizar" class="btn btn--primary btn--lg">Solicitar cotización</a>
+        <a href={`https://wa.me/5511111111?text=${encodeURIComponent(`Hola, quiero rentar el ${inflable.name}.`)}`}
+           class="btn btn--wa btn--lg" target="_blank" rel="noopener">
+          WhatsApp directo
+        </a>
+      </div>
+    </div>
+  </section>
+
+</PageLayout>

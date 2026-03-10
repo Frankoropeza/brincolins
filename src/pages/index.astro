@@ -1,56 +1,41 @@
 ---
 import PageLayout   from "@/layouts/PageLayout.astro";
 import ProductCard  from "@/components/ProductCard.astro";
-import ProcessStep  from "@/components/ProcessStep.astro";
-import Testimonial  from "@/components/Testimonial.astro";
 import FaqItem      from "@/components/FaqItem.astro";
 
 const title = "Renta de Inflables para Fiestas en CDMX y Edomex | BRINCOLINS";
 const description = "Renta de brincolines e inflables para fiestas infantiles en CDMX y Estado de México. +20 años de experiencia. Entrega, instalación y seguro incluidos. Cotiza ahora.";
 
 const productos = [
-  { slug: "mini-castillo",       emoji: "🏰", name: "Mini Castillo",          price: "$800",  size: "4×4m", ages: "3-8 años", gradient: "#FF3D00, #ff6d3f" },
-  { slug: "castillo-princesas",  emoji: "👸", name: "Castillo de Princesas",  price: "$900",  size: "4×4m", ages: "3-8 años", gradient: "#E040FB, #7C3AED" },
-  { slug: "barco-pirata",        emoji: "🚢", name: "Barco Pirata",           price: "$950",  size: "5×4m", ages: "4-10 años", gradient: "#1E88E5, #0D47A1" },
-  { slug: "casa-brinco-jungla",  emoji: "🌴", name: "Casa Brinco Jungla",     price: "$850",  size: "4×4m", ages: "3-8 años", gradient: "#00C853, #1B5E20" },
-  { slug: "tobogan-acuatico",    emoji: "💦", name: "Tobogán Acuático",       price: "$1200", size: "6×4m", ages: "5-12 años", gradient: "#00B8D4, #0277BD" },
-  { slug: "inflable-deportivo",  emoji: "⚽", name: "Inflable Deportivo",     price: "$1100", size: "5×5m", ages: "6-14 años", gradient: "#FFD600, #FF6F00" },
-];
-
-const pasos = [
-  { number: 1, emoji: "📱", title: "Elige tu inflable", desc: "Explora nuestro catálogo y elige el inflable perfecto para tu fiesta.", color: "var(--color-primary)" },
-  { number: 2, emoji: "📅", title: "Agenda tu fecha", desc: "Selecciona fecha y horario. Reserva con un pequeño anticipo.", color: "var(--color-secondary)" },
-  { number: 3, emoji: "🚚", title: "Entrega e instalación", desc: "Llegamos puntual, instalamos y verificamos la seguridad del inflable.", color: "var(--color-fun)" },
-  { number: 4, emoji: "🎉", title: "¡A brincar!", desc: "Disfruta tu fiesta. Al terminar, nosotros recogemos todo.", color: "var(--color-accent)" },
-];
-
-const ventajas = [
-  { icon: "🏆", title: "+20 años de experiencia", desc: "Miles de fiestas exitosas en CDMX y Estado de México nos respaldan." },
-  { icon: "🚚", title: "Entrega e instalación incluida", desc: "Llevamos, instalamos y recogemos el inflable sin costo extra." },
-  { icon: "🧹", title: "Limpieza garantizada", desc: "Cada inflable se entrega perfectamente limpio y desinfectado." },
-  { icon: "💰", title: "Mejores precios", desc: "Precios competitivos con la mejor calidad. Sin costos ocultos." },
-  { icon: "🛡️", title: "Seguro incluido", desc: "Todos nuestros inflables cuentan con seguro de responsabilidad civil." },
-  { icon: "📞", title: "Atención 24/7", desc: "Estamos disponibles por WhatsApp para resolver cualquier duda." },
+  { slug: "mini-castillo", emoji: "🏰", name: "Mini Castillo", description: "El clásico castillo inflable perfecto para fiestas infantiles. Diversión garantizada para los más pequeños.", price: "$800", size: "4×4m", ages: "3-8 años", category: "Castillos", categoryColor: "castillo", gradient: "#FF3D00, #ff6d3f" },
+  { slug: "castillo-princesas", emoji: "👸", name: "Castillo de Princesas", description: "Un mágico castillo temático de princesas con torres y decoración especial para las niñas.", price: "$900", size: "4×4m", ages: "3-8 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED" },
+  { slug: "barco-pirata", emoji: "🚢", name: "Barco Pirata", description: "Aventura en altamar con tobogán y cañón de espuma. El favorito de los niños aventureros.", price: "$950", size: "5×4m", ages: "4-10 años", category: "Aventura", categoryColor: "pirata", gradient: "#1565C0, #0D47A1" },
+  { slug: "casa-brinco-jungla", emoji: "🌴", name: "Casa Brinco Jungla", description: "Temática selvática con animales y vegetación. Ideal para fiestas al aire libre.", price: "$850", size: "4×4m", ages: "3-8 años", category: "Aventura", categoryColor: "jungla", gradient: "#2E7D32, #1B5E20" },
+  { slug: "tobogan-acuatico", emoji: "💦", name: "Tobogán Acuático", description: "Diversión refrescante con tobogán y chapoteadero incluido. Perfecto para días calurosos.", price: "$1,200", size: "6×4m", ages: "5-12 años", category: "Acuáticos", categoryColor: "acuatico", gradient: "#0288D1, #01579B" },
+  { slug: "inflable-deportivo", emoji: "⚽", name: "Inflable Deportivo", description: "Cancha de fútbol inflable con porterías. Para los pequeños deportistas de la fiesta.", price: "$1,100", size: "5×5m", ages: "6-14 años", category: "Deportivos", categoryColor: "deportivo", gradient: "#FF6F00, #E65100" },
 ];
 
 const testimonios = [
-  { name: "María González", role: "Mamá de Sofía, Coyoacán", text: "Excelente servicio. Llegaron puntuales, el inflable estaba impecable y los niños no pararon de brincar. Definitivamente los volveré a contratar." },
-  { name: "Roberto Hernández", role: "Papá de Diego, Naucalpan", text: "Contraté el Barco Pirata para el cumpleaños de mi hijo y fue todo un éxito. Muy profesionales, seguros y a un precio justo. 100% recomendados." },
-  { name: "Ana Laura Martínez", role: "Mamá de Valentina, Polanco", text: "Ya es la tercera vez que rento con BRINCOLINS. Siempre puntuales, amables y los inflables en perfectas condiciones. Los mejores de CDMX sin duda." },
+  { name: "María González", location: "Coyoacán, CDMX", text: "Excelente servicio. Llegaron puntuales, el inflable estaba impecable y los niños no pararon de brincar. Definitivamente los volveré a contratar." },
+  { name: "Roberto Hernández", location: "Naucalpan, Edomex", text: "Contraté el Barco Pirata para el cumpleaños de mi hijo y fue todo un éxito. Muy profesionales, seguros y a un precio justo. 100% recomendados." },
+  { name: "Ana Laura Martínez", location: "Polanco, CDMX", text: "Ya es la tercera vez que rento con BRINCOLINS. Siempre puntuales, amables y los inflables en perfectas condiciones. Los mejores de CDMX sin duda." },
+  { name: "Carlos Mendoza", location: "Tlalpan, CDMX", text: "Renté el tobogán acuático para la fiesta de verano de mis hijos. Todos los niños del vecindario vinieron a brincar. Servicio de primera." },
+  { name: "Laura Sánchez", location: "Ecatepec, Edomex", text: "Pensé que sería complicado pero todo fue muy fácil. Cotización rápida por WhatsApp, llegaron a tiempo y el inflable estaba súper limpio." },
+  { name: "Fernando Ríos", location: "Benito Juárez, CDMX", text: "Los precios son justos y el servicio increíble. El castillo de princesas hizo muy feliz a mi hija. Ya estoy planeando la siguiente fiesta con ellos." },
 ];
 
 const faqs = [
   { question: "¿Cuáles son los precios de renta de inflables?", answer: "Nuestros precios van desde $800 MXN por evento. El precio incluye entrega, instalación, supervisión y recolección. Varía según el modelo y la zona de entrega." },
   { question: "¿Qué incluye el servicio de renta?", answer: "Incluye entrega, instalación profesional, motor/soplador, limpieza del inflable, seguro de responsabilidad civil y recolección al finalizar el evento." },
-  { question: "¿Los inflables son seguros para los niños?", answer: "Absolutamente. Todos nuestros inflables cumplen con normas de seguridad, se revisan antes de cada evento y cuentan con seguro de responsabilidad civil. Además, damos instrucciones de uso seguro." },
+  { question: "¿Los inflables son seguros para los niños?", answer: "Absolutamente. Todos nuestros inflables cumplen con normas de seguridad, se revisan antes de cada evento y cuentan con seguro de responsabilidad civil." },
   { question: "¿Para qué edades son los inflables?", answer: "Tenemos inflables para niños de 3 a 14 años. Cada inflable tiene una recomendación de edad específica. Nuestro equipo te ayuda a elegir el más adecuado." },
   { question: "¿Cuánto tiempo dura la renta?", answer: "La renta estándar es por evento (hasta 8 horas). Si necesitas más tiempo, podemos ajustar el precio. Consulta por paquetes de día completo." },
   { question: "¿Necesito dejar un depósito?", answer: "Sí, pedimos un anticipo del 50% para reservar la fecha. El resto se paga el día del evento. Aceptamos transferencia, efectivo y tarjeta." },
   { question: "¿Qué pasa si llueve o necesito cancelar?", answer: "En caso de lluvia, reprogramamos sin costo. Para cancelaciones con más de 48 horas de anticipación, devolvemos el 100% del anticipo." },
 ];
 
-const zonasCDMX = ["Coyoacán", "Benito Juárez", "Miguel Hidalgo", "Álvaro Obregón", "Tlalpan", "Cuauhtémoc", "Azcapotzalco", "Iztapalapa", "Xochimilco", "Gustavo A. Madero"];
-const zonasEdomex = ["Naucalpan", "Tlalnepantla", "Ecatepec", "Huixquilucan", "Atizapán", "Cuautitlán Izcalli", "Coacalco", "Metepec", "Toluca", "Texcoco"];
+const zonasCDMX = ["Coyoacán", "Benito Juárez", "Miguel Hidalgo", "Álvaro Obregón", "Tlalpan", "Cuauhtémoc", "Azcapotzalco", "Iztapalapa", "Xochimilco", "Gustavo A. Madero", "Iztacalco", "Venustiano Carranza", "Cuajimalpa", "Magdalena Contreras", "Tláhuac", "Milpa Alta"];
+const zonasEdomex = ["Naucalpan", "Tlalnepantla", "Ecatepec", "Huixquilucan", "Atizapán", "Cuautitlán Izcalli", "Coacalco", "Metepec", "Toluca", "Texcoco", "Nezahualcóyotl", "Chalco", "Tecámac", "Nicolás Romero", "Tultitlán"];
 ---
 
 <PageLayout
@@ -60,116 +45,254 @@ const zonasEdomex = ["Naucalpan", "Tlalnepantla", "Ecatepec", "Huixquilucan", "A
   faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
 >
 
-  <!-- HERO -->
+  <!-- HERO — Estilo Inflaty + Gama 2 columnas -->
   <section class="hero">
+    <!-- Decorative shapes -->
+    <div class="hero__shape hero__shape--1"></div>
+    <div class="hero__shape hero__shape--2"></div>
+    <div class="hero__shape hero__shape--3"></div>
+
     <div class="container">
-      <span class="hero__badge">🎪 +20 años de diversión</span>
-      <h1 class="hero__title">Renta de Inflables para Fiestas en CDMX</h1>
-      <p class="hero__subtitle">Brincolines, toboganes y castillos inflables para fiestas infantiles. Entrega, instalación y seguro incluidos.</p>
-      <div class="hero__metrics">
-        <span>🎈 +500 fiestas/año</span>
-        <span>🚚 Entrega incluida</span>
-        <span>📍 CDMX y Edomex</span>
-      </div>
-      <div class="hero__actions">
-        <a href="/inflables" class="btn btn--outline btn--lg">Ver Inflables</a>
-        <a href="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable%20para%20mi%20fiesta."
-           class="btn btn--wa btn--lg" target="_blank" rel="noopener">
-          Cotizar por WhatsApp
-        </a>
+      <div class="hero__grid">
+        <!-- Columna izquierda -->
+        <div>
+          <span class="hero__badge">🎉 +20 años de experiencia en CDMX</span>
+          <h1 class="hero__title">
+            Renta de <span class="highlight">Inflables</span> para <span class="highlight">Fiestas</span> en CDMX y Estado de México
+          </h1>
+          <p class="hero__desc">
+            Brincolines, toboganes y castillos inflables para fiestas infantiles. Entrega, instalación y seguro incluidos en todos nuestros servicios.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable%20para%20mi%20fiesta."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Cotizar por WhatsApp
+            </a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver catálogo</a>
+          </div>
+          <div class="hero__social-proof">
+            <span class="hero__stars">⭐⭐⭐⭐⭐</span>
+            <span>+200 familias felices este año</span>
+          </div>
+        </div>
+
+        <!-- Columna derecha — marketing copy -->
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            En <strong>BRINCOLINS</strong> llevamos más de 20 años convirtiendo cumpleaños, kermeses y eventos familiares en momentos inolvidables. Contamos con el catálogo más completo de inflables en CDMX y Estado de México: castillos, toboganes, inflables acuáticos, temáticos y deportivos, todos con mantenimiento certificado y seguro de responsabilidad civil incluido.
+          </p>
+          <p class="hero__copy-text">
+            Nuestro servicio es 100% sin complicaciones: cotizas por WhatsApp, confirmamos disponibilidad en minutos, llegamos a tiempo y montamos todo en menos de 2 horas. Tú solo disfruta la fiesta — nosotros nos encargamos del resto. ¿Por qué somos los favoritos de miles de familias en la ZMVM? Porque combinamos precio justo, puntualidad y un inflable limpio y seguro, garantizado.
+          </p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- PRODUCTOS DESTACADOS -->
+  <!-- BARRA DE MÉTRICAS — Estilo Gama -->
+  <section class="metrics">
+    <div class="container">
+      <div class="metrics__grid">
+        <div class="metrics__item">
+          <span class="metrics__icon">🏆</span>
+          <span class="metrics__value">+20 Años</span>
+          <span class="metrics__label">En el mercado</span>
+        </div>
+        <div class="metrics__item">
+          <span class="metrics__icon">🎪</span>
+          <span class="metrics__value">+500 Fiestas</span>
+          <span class="metrics__label">Al año</span>
+        </div>
+        <div class="metrics__item">
+          <span class="metrics__icon">⚡</span>
+          <span class="metrics__value">2 Horas</span>
+          <span class="metrics__label">Instalación</span>
+        </div>
+        <div class="metrics__item">
+          <span class="metrics__icon">📍</span>
+          <span class="metrics__value">CDMX + Edomex</span>
+          <span class="metrics__label">Cobertura total</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATÁLOGO DE INFLABLES — Estilo Inflaty -->
   <section class="section">
     <div class="container">
       <div class="section-header">
-        <span class="section-header__badge section-header__badge--primary">Catálogo</span>
-        <h2 class="section-header__title">Nuestros Inflables</h2>
-        <p class="section-header__subtitle">Elige el inflable perfecto para tu fiesta. Todos incluyen entrega, instalación y seguro.</p>
+        <span class="section-badge">🎈 Catálogo</span>
+        <h2 class="section-title">Nuestros Inflables</h2>
+        <hr class="section-separator" />
+        <p class="section-subtitle">Elige el inflable perfecto para tu fiesta. Todos incluyen entrega, instalación y seguro.</p>
       </div>
       <div class="grid-3">
         {productos.map(p => <ProductCard {...p} />)}
       </div>
       <div class="text-center mt-3">
-        <a href="/inflables" class="btn btn--secondary">Ver catálogo completo</a>
+        <a href="/inflables/" class="btn btn-secondary">Ver catálogo completo</a>
       </div>
     </div>
   </section>
 
-  <!-- CÓMO FUNCIONA -->
+  <!-- POR QUÉ ELEGIRNOS — Estilo Gama 2 columnas -->
   <section class="section section--alt">
     <div class="container">
       <div class="section-header">
-        <span class="section-header__badge section-header__badge--secondary">Súper fácil</span>
-        <h2 class="section-header__title">¿Cómo funciona?</h2>
-        <p class="section-header__subtitle">Rentar un inflable con nosotros es muy sencillo. Solo sigue estos 4 pasos.</p>
+        <span class="section-badge">✅ Confianza</span>
+        <h2 class="section-title">¿Por qué elegirnos?</h2>
+        <hr class="section-separator" />
+        <p class="section-subtitle">Más de dos décadas cuidando la diversión de tus hijos.</p>
       </div>
-      <div class="grid-4">
-        {pasos.map(p => <ProcessStep {...p} />)}
+      <div class="why__grid">
+        <div class="why__list">
+          <div class="why__item">
+            <div class="why__icon">🏆</div>
+            <div>
+              <h3 class="why__item-title">+20 años de experiencia</h3>
+              <p class="why__item-desc">Miles de fiestas exitosas en CDMX y Estado de México nos respaldan.</p>
+            </div>
+          </div>
+          <div class="why__item">
+            <div class="why__icon">🚚</div>
+            <div>
+              <h3 class="why__item-title">Entrega e instalación incluida</h3>
+              <p class="why__item-desc">Llevamos, instalamos y recogemos el inflable sin costo extra.</p>
+            </div>
+          </div>
+          <div class="why__item">
+            <div class="why__icon">🧹</div>
+            <div>
+              <h3 class="why__item-title">Limpieza garantizada</h3>
+              <p class="why__item-desc">Cada inflable se entrega perfectamente limpio y desinfectado.</p>
+            </div>
+          </div>
+          <div class="why__item">
+            <div class="why__icon">💰</div>
+            <div>
+              <h3 class="why__item-title">Mejores precios</h3>
+              <p class="why__item-desc">Precios competitivos con la mejor calidad. Sin costos ocultos.</p>
+            </div>
+          </div>
+          <div class="why__item">
+            <div class="why__icon">🛡️</div>
+            <div>
+              <h3 class="why__item-title">Seguro incluido</h3>
+              <p class="why__item-desc">Todos nuestros inflables cuentan con seguro de responsabilidad civil.</p>
+            </div>
+          </div>
+          <div class="why__item">
+            <div class="why__icon">📞</div>
+            <div>
+              <h3 class="why__item-title">Atención 24/7</h3>
+              <p class="why__item-desc">Estamos disponibles por WhatsApp para resolver cualquier duda.</p>
+            </div>
+          </div>
+        </div>
+        <div class="why__visual">
+          <div class="why__image-box">🎈</div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- POR QUÉ ELEGIRNOS -->
+  <!-- PROCESO — 4 pasos estilo Inflaty -->
   <section class="section">
     <div class="container">
       <div class="section-header">
-        <span class="section-header__badge section-header__badge--fun">Confianza</span>
-        <h2 class="section-header__title">¿Por qué elegirnos?</h2>
-        <p class="section-header__subtitle">Más de dos décadas cuidando la diversión de tus hijos.</p>
+        <span class="section-badge">📋 Súper fácil</span>
+        <h2 class="section-title">¿Cómo funciona?</h2>
+        <hr class="section-separator" />
+        <p class="section-subtitle">Rentar un inflable con nosotros es muy sencillo. Solo sigue estos 4 pasos.</p>
+      </div>
+      <div class="process__grid">
+        <div class="process__connector"></div>
+        <div class="process__step">
+          <div class="process__number">1</div>
+          <div class="process__emoji">📱</div>
+          <h3 class="process__title">Elige tu inflable</h3>
+          <p class="process__desc">Explora nuestro catálogo y elige el inflable perfecto para tu fiesta.</p>
+        </div>
+        <div class="process__step">
+          <div class="process__number">2</div>
+          <div class="process__emoji">📅</div>
+          <h3 class="process__title">Agenda tu fecha</h3>
+          <p class="process__desc">Selecciona fecha y horario. Reserva con un pequeño anticipo.</p>
+        </div>
+        <div class="process__step">
+          <div class="process__number">3</div>
+          <div class="process__emoji">🚚</div>
+          <h3 class="process__title">Entrega e instalación</h3>
+          <p class="process__desc">Llegamos puntual, instalamos y verificamos la seguridad del inflable.</p>
+        </div>
+        <div class="process__step">
+          <div class="process__number">4</div>
+          <div class="process__emoji">🎉</div>
+          <h3 class="process__title">¡A brincar!</h3>
+          <p class="process__desc">Disfruta tu fiesta. Al terminar, nosotros recogemos todo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS — 6 testimonios estilo Inflaty -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">⭐ Opiniones</span>
+        <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+        <hr class="section-separator" />
+        <p class="section-subtitle">Mamás y papás felices que ya vivieron la experiencia BRINCOLINS.</p>
       </div>
       <div class="grid-3">
-        {ventajas.map(v => (
-          <div class="feature-card">
-            <div class="feature-card__icon">{v.icon}</div>
-            <h3 class="feature-card__title">{v.title}</h3>
-            <p class="feature-card__desc">{v.desc}</p>
+        {testimonios.map(t => (
+          <div class="testimonial">
+            <div class="testimonial__stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial__text">"{t.text}"</p>
+            <p class="testimonial__author">{t.name}</p>
+            <p class="testimonial__location">{t.location}</p>
           </div>
         ))}
       </div>
     </div>
   </section>
 
-  <!-- TESTIMONIOS -->
-  <section class="section section--alt">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-header__badge section-header__badge--primary">Opiniones</span>
-        <h2 class="section-header__title">Lo que dicen nuestros clientes</h2>
-        <p class="section-header__subtitle">Mamás y papás felices que ya vivieron la experiencia BRINCOLINS.</p>
-      </div>
-      <div class="grid-3">
-        {testimonios.map(t => <Testimonial {...t} />)}
-      </div>
-    </div>
-  </section>
-
-  <!-- COBERTURA -->
+  <!-- COBERTURA CON TABS — CSS puro estilo Inflaty -->
   <section class="section">
     <div class="container">
       <div class="section-header">
-        <span class="section-header__badge section-header__badge--secondary">Cobertura</span>
-        <h2 class="section-header__title">¿Dónde entregamos?</h2>
-        <p class="section-header__subtitle">Cubrimos toda la CDMX y principales municipios del Estado de México.</p>
+        <span class="section-badge">📍 Cobertura</span>
+        <h2 class="section-title">¿Dónde entregamos?</h2>
+        <hr class="section-separator" />
+        <p class="section-subtitle">Cubrimos toda la CDMX y principales municipios del Estado de México.</p>
       </div>
-      <div class="grid-2">
-        <div>
-          <h3 style="margin-bottom:1rem; color:var(--color-primary);">📍 Ciudad de México</h3>
-          <div class="zone-tags">
-            {zonasCDMX.map(z => <span class="zone-tag">{z}</span>)}
+
+      <div>
+        <input type="radio" name="cobertura-tab" id="tab-cdmx" class="tabs__input" checked />
+        <label for="tab-cdmx" class="tabs__label">Ciudad de México</label>
+
+        <input type="radio" name="cobertura-tab" id="tab-edomex" class="tabs__input" />
+        <label for="tab-edomex" class="tabs__label">Estado de México</label>
+
+        <div class="tabs__panels">
+          <div class="tabs__panel">
+            <div class="coverage__badges">
+              {zonasCDMX.map(z => <span class="coverage__badge">{z}</span>)}
+            </div>
+          </div>
+          <div class="tabs__panel">
+            <div class="coverage__badges">
+              {zonasEdomex.map(z => <span class="coverage__badge">{z}</span>)}
+            </div>
           </div>
         </div>
-        <div>
-          <h3 style="margin-bottom:1rem; color:var(--color-secondary);">📍 Estado de México</h3>
-          <div class="zone-tags">
-            {zonasEdomex.map(z => <span class="zone-tag">{z}</span>)}
-          </div>
-        </div>
       </div>
+
       <div class="text-center mt-3">
-        <a href="/cobertura" class="btn btn--secondary btn--sm">Ver todas las zonas de cobertura</a>
+        <a href="/cobertura/" class="btn btn-secondary btn-sm">Ver todas las zonas de cobertura</a>
       </div>
     </div>
   </section>
@@ -178,9 +301,10 @@ const zonasEdomex = ["Naucalpan", "Tlalnepantla", "Ecatepec", "Huixquilucan", "A
   <section class="section section--alt">
     <div class="container">
       <div class="section-header">
-        <span class="section-header__badge section-header__badge--primary">FAQ</span>
-        <h2 class="section-header__title">Preguntas frecuentes</h2>
-        <p class="section-header__subtitle">Resolvemos tus dudas sobre la renta de inflables.</p>
+        <span class="section-badge">❓ FAQ</span>
+        <h2 class="section-title">Preguntas frecuentes</h2>
+        <hr class="section-separator" />
+        <p class="section-subtitle">Resolvemos tus dudas sobre la renta de inflables.</p>
       </div>
       <div style="max-width:800px; margin:0 auto;">
         {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
@@ -188,19 +312,22 @@ const zonasEdomex = ["Naucalpan", "Tlalnepantla", "Ecatepec", "Huixquilucan", "A
     </div>
   </section>
 
-  <!-- CTA FINAL -->
-  <section class="section section--dark" style="text-align:center;">
+  <!-- CTA FINAL — Fondo gradiente primary→secondary -->
+  <section class="cta-final">
     <div class="container">
-      <h2 style="font-size:clamp(2rem,5vw,3rem); margin-bottom:1rem;">🎉 ¿Lista la fiesta?</h2>
-      <p style="font-size:1.15rem; opacity:.9; margin-bottom:2rem; max-width:500px; margin-left:auto; margin-right:auto;">
-        Reserva tu inflable hoy y haz que la diversión de los niños sea inolvidable.
+      <h2 class="cta-final__title">🎉 ¿Lista la fiesta?</h2>
+      <p class="cta-final__desc">
+        Reserva tu inflable hoy y haz que la diversión de los niños sea inolvidable. Respondemos en minutos.
       </p>
-      <div class="hero__actions">
-        <a href="/cotizar" class="btn btn--primary btn--lg">Solicitar cotización</a>
+      <div class="cta-final__buttons">
         <a href="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
-           class="btn btn--wa btn--lg" target="_blank" rel="noopener">
+           class="btn btn-white btn-lg" target="_blank" rel="noopener noreferrer">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
           WhatsApp directo
         </a>
+        <a href="/inflables/" class="btn btn-outline--white btn-lg">Ver inflables</a>
       </div>
     </div>
   </section>

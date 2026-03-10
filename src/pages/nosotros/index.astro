@@ -1,0 +1,146 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+
+const title = "Sobre Nosotros | BRINCOLINS - Renta de Inflables CDMX";
+const description = "Conoce BRINCOLINS: +20 años de experiencia en renta de inflables para fiestas infantiles en CDMX y Edomex. Seguridad, puntualidad y diversión garantizada.";
+
+const diferenciales = [
+  { icon: "🏆", title: "+20 años de experiencia", desc: "Desde 2005, hemos sido parte de miles de fiestas infantiles en CDMX y Estado de México. Nuestra experiencia nos respalda." },
+  { icon: "🛡️", title: "Seguridad certificada", desc: "Todos nuestros inflables pasan revisiones periódicas y cuentan con seguro de responsabilidad civil para tu tranquilidad." },
+  { icon: "🚚", title: "Servicio integral incluido", desc: "Entrega, instalación profesional, limpieza, desinfección y recolección. Sin costos ocultos ni sorpresas." },
+  { icon: "💚", title: "Compromiso con la diversión", desc: "Nuestro objetivo es que cada fiesta sea inolvidable. Trabajamos con pasión para hacer felices a los más pequeños." },
+];
+
+const timeline = [
+  { year: "2005", text: "Fundamos BRINCOLINS con un solo inflable y la visión de llevar diversión segura a las fiestas infantiles de la Ciudad de México." },
+  { year: "2010", text: "Ampliamos nuestra flota a 10 inflables y comenzamos a cubrir municipios del Estado de México." },
+  { year: "2015", text: "Superamos las 5,000 fiestas realizadas. Incorporamos seguro de responsabilidad civil en todos los servicios." },
+  { year: "2020", text: "Implementamos protocolos de desinfección reforzados y sistema de reservas en línea." },
+  { year: "2024", text: "Contamos con más de 15 modelos de inflables y cubrimos toda la CDMX y principales municipios del Edomex." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Nosotros" },
+  ]}
+>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Nosotros</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <h1 class="hero__title">Sobre BRINCOLINS</h1>
+      <p class="hero__subtitle">+20 años haciendo de cada fiesta infantil un momento inolvidable en CDMX y Estado de México.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="align-items:center;">
+        <div>
+          <h2 style="margin-bottom:1rem;">Nuestra Historia</h2>
+          <p style="color:var(--color-text-light); line-height:1.8; margin-bottom:1rem;">
+            BRINCOLINS nació en 2005 con una misión clara: llevar diversión segura y de calidad a las fiestas infantiles de la Ciudad de México. Lo que comenzó con un solo inflable y mucha pasión, hoy se ha convertido en una de las empresas de renta de inflables más confiables de la zona metropolitana.
+          </p>
+          <p style="color:var(--color-text-light); line-height:1.8;">
+            A lo largo de más de dos décadas, hemos sido parte de miles de cumpleaños, bautizos, días del niño y eventos escolares. Cada fiesta nos motiva a seguir mejorando nuestro servicio y ampliar nuestra oferta de inflables.
+          </p>
+        </div>
+        <div style="background: linear-gradient(135deg, var(--color-primary), var(--color-secondary)); border-radius:var(--radius-card); padding:3rem; text-align:center; color:#fff;">
+          <div style="font-size:4rem; margin-bottom:1rem;">🎪</div>
+          <div style="font-size:3rem; font-weight:900; font-family:var(--font-heading);">+20</div>
+          <div style="font-size:1.1rem; opacity:.9;">años de experiencia</div>
+          <div style="margin-top:1.5rem; font-size:2rem; font-weight:900; font-family:var(--font-heading);">+10,000</div>
+          <div style="font-size:1.1rem; opacity:.9;">fiestas realizadas</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="grid-3" style="max-width:900px; margin:0 auto; gap:2rem;">
+        <div style="text-align:center; padding:2rem;">
+          <h3 style="color:var(--color-primary); margin-bottom:.75rem;">Misión</h3>
+          <p style="color:var(--color-text-light); line-height:1.7;">Brindar momentos de diversión seguros e inolvidables a las familias de CDMX y Edomex, con inflables de calidad y un servicio integral de excelencia.</p>
+        </div>
+        <div style="text-align:center; padding:2rem;">
+          <h3 style="color:var(--color-secondary); margin-bottom:.75rem;">Visión</h3>
+          <p style="color:var(--color-text-light); line-height:1.7;">Ser la empresa líder en renta de inflables en la zona metropolitana, reconocida por nuestra seguridad, innovación y atención al cliente.</p>
+        </div>
+        <div style="text-align:center; padding:2rem;">
+          <h3 style="color:var(--color-fun); margin-bottom:.75rem;">Valores</h3>
+          <p style="color:var(--color-text-light); line-height:1.7;">Seguridad, puntualidad, limpieza, honestidad y compromiso con la diversión de los niños y la tranquilidad de los padres.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__badge section-header__badge--primary">Confianza</span>
+        <h2 class="section-header__title">¿Por qué elegirnos?</h2>
+        <p class="section-header__subtitle">Lo que nos hace diferentes después de más de 20 años en el mercado.</p>
+      </div>
+      <div class="grid-2">
+        {diferenciales.map(d => (
+          <div class="feature-card" style="text-align:left; display:flex; gap:1.25rem;">
+            <div class="feature-card__icon" style="flex-shrink:0;">{d.icon}</div>
+            <div>
+              <h3 class="feature-card__title">{d.title}</h3>
+              <p class="feature-card__desc">{d.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__badge section-header__badge--secondary">Trayectoria</span>
+        <h2 class="section-header__title">Nuestra trayectoria</h2>
+      </div>
+      <div style="max-width:600px; margin:0 auto;">
+        <div class="timeline">
+          {timeline.map(t => (
+            <div class="timeline__item">
+              <div class="timeline__year">{t.year}</div>
+              <p class="timeline__text">{t.text}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark" style="text-align:center;">
+    <div class="container">
+      <h2 style="font-size:clamp(1.75rem,4vw,2.5rem); margin-bottom:1rem;">¿Listo para vivir la experiencia BRINCOLINS?</h2>
+      <p style="opacity:.9; margin-bottom:2rem; max-width:500px; margin-left:auto; margin-right:auto;">
+        Contáctanos y hagamos de tu próxima fiesta un evento inolvidable.
+      </p>
+      <div class="hero__actions">
+        <a href="/cotizar" class="btn btn--primary btn--lg">Solicitar cotización</a>
+        <a href="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20saber%20más%20sobre%20sus%20servicios."
+           class="btn btn--wa btn--lg" target="_blank" rel="noopener">
+          WhatsApp directo
+        </a>
+      </div>
+    </div>
+  </section>
+
+</PageLayout>
