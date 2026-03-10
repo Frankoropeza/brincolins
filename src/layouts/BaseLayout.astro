@@ -1,0 +1,256 @@
+---
+import "@/styles/global.css";
+
+export interface BreadcrumbItem { name: string; href?: string; }
+export interface FaqSeoItem     { question: string; answer: string; }
+export interface ProductSeo {
+  name:        string;
+  slug:        string;
+  description: string;
+  image:       string;
+  price:       string;
+}
+
+export interface Props {
+  title:        string;
+  description:  string;
+  canonical?:   string;
+  ogImage?:     string;
+  pageType?:    "home" | "product" | "category" | "page";
+  breadcrumbs?: BreadcrumbItem[];
+  faqItems?:    FaqSeoItem[];
+  product?:     ProductSeo;
+}
+
+const {
+  title,
+  description,
+  canonical   = Astro.url.href,
+  ogImage     = "/img/og-brincolins.jpg",
+  pageType    = "page",
+  breadcrumbs,
+  faqItems,
+  product,
+} = Astro.props;
+
+const SITE      = "https://brincolins.com";
+const SITE_NAME = "BRINCOLINS";
+const TEL       = "+525511111111";
+const EMAIL     = "info@brincolins.com";
+
+const schemaOrg = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${SITE}/#org`,
+  "name": SITE_NAME,
+  "url": SITE,
+  "logo": { "@type": "ImageObject", "url": `${SITE}/img/brincolins-logo.png` },
+  "description": "Renta de inflables para fiestas infantiles en CDMX y Estado de México. Más de 20 años de experiencia. Entrega, instalación y seguro incluidos.",
+  "telephone": TEL,
+  "email": EMAIL,
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Ciudad de México",
+    "addressRegion": "CDMX",
+    "addressCountry": "MX"
+  },
+  "areaServed": [
+    { "@type": "State", "name": "Ciudad de México" },
+    { "@type": "State", "name": "Estado de México" }
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": TEL,
+    "contactType": "sales",
+    "areaServed": "MX",
+    "availableLanguage": "Spanish"
+  }
+};
+
+const schemaLocal = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": `${SITE}/#negocio`,
+  "name": "BRINCOLINS — Renta de Inflables CDMX",
+  "url": SITE,
+  "logo": `${SITE}/img/brincolins-logo.png`,
+  "image": `${SITE}/img/og-brincolins.jpg`,
+  "description": "Empresa líder en renta de inflables y brincolines para fiestas infantiles en CDMX y Estado de México. Más de 20 años de experiencia, entrega e instalación incluida.",
+  "telephone": TEL,
+  "email": EMAIL,
+  "priceRange": "$",
+  "currenciesAccepted": "MXN",
+  "paymentAccepted": "Transferencia, Tarjeta, Efectivo",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "19:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday"], "opens": "08:00", "closes": "20:00" }
+  ],
+  "geo": { "@type": "GeoCoordinates", "latitude": 19.4326, "longitude": -99.1332 },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Ciudad de México",
+    "addressRegion": "CDMX",
+    "addressCountry": "MX"
+  },
+  "areaServed": ["Ciudad de México", "Estado de México", "Zona Metropolitana del Valle de México"]
+};
+
+const schemaWebSite = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${SITE}/#website`,
+  "name": SITE_NAME,
+  "url": SITE,
+  "publisher": { "@id": `${SITE}/#org` }
+};
+
+const schemaBreadcrumb = breadcrumbs ? {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": breadcrumbs.map((b, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": b.name,
+    ...(b.href ? { "item": `${SITE}${b.href}` } : {})
+  }))
+} : null;
+
+const schemaFaq = faqItems?.length ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqItems.map(f => ({
+    "@type": "Question",
+    "name": f.question,
+    "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+  }))
+} : null;
+
+const schemaProduct = product ? {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": product.name,
+  "description": product.description,
+  "image": `${SITE}${product.image}`,
+  "brand": { "@type": "Brand", "name": SITE_NAME },
+  "category": "Renta de Inflables",
+  "manufacturer": { "@id": `${SITE}/#org` },
+  "offers": {
+    "@type": "Offer",
+    "url": canonical,
+    "priceCurrency": "MXN",
+    "price": product.price,
+    "availability": "https://schema.org/InStock",
+    "seller": { "@id": `${SITE}/#org` },
+    "areaServed": "MX"
+  }
+} : null;
+
+const allSchemas: object[] = [schemaOrg, schemaLocal, schemaWebSite];
+if (schemaBreadcrumb) allSchemas.push(schemaBreadcrumb);
+if (schemaFaq)        allSchemas.push(schemaFaq);
+if (schemaProduct)    allSchemas.push(schemaProduct);
+
+const ogType = (pageType === "product") ? "og:product" : "website";
+---
+
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+
+    <meta name="geo.region"    content="MX-CMX" />
+    <meta name="geo.placename" content="Ciudad de México" />
+    <meta name="geo.position"  content="19.4326;-99.1332" />
+    <meta name="ICBM"          content="19.4326, -99.1332" />
+
+    <meta property="og:type"         content={ogType} />
+    <meta property="og:title"        content={title} />
+    <meta property="og:description"  content={description} />
+    <meta property="og:url"          content={canonical} />
+    <meta property="og:site_name"    content={SITE_NAME} />
+    <meta property="og:image"        content={`${SITE}${ogImage}`} />
+    <meta property="og:image:width"  content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale"       content="es_MX" />
+
+    <meta name="twitter:card"        content="summary_large_image" />
+    <meta name="twitter:title"       content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image"       content={`${SITE}${ogImage}`} />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <meta name="theme-color" content="#FF3D00" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet" />
+
+    {allSchemas.map(s => (
+      <script type="application/ld+json" set:html={JSON.stringify(s, null, 0)} />
+    ))}
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const mobileNav = document.getElementById('mobile-nav');
+  const overlay   = document.getElementById('mobile-overlay');
+
+  function openNav() {
+    mobileNav?.classList.add('mobile-nav--open');
+    overlay?.classList.add('mobile-overlay--open');
+    hamburger?.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeNav() {
+    mobileNav?.classList.remove('mobile-nav--open');
+    overlay?.classList.remove('mobile-overlay--open');
+    hamburger?.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  hamburger?.addEventListener('click', () => {
+    mobileNav?.classList.contains('mobile-nav--open') ? closeNav() : openNav();
+  });
+  overlay?.addEventListener('click', closeNav);
+
+  document.querySelectorAll('.faq__question').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item   = btn.closest('.faq__item');
+      const answer = item?.querySelector('.faq__answer');
+      const icon   = btn.querySelector('.faq__icon');
+      const isOpen = answer?.classList.contains('faq__answer--open');
+      document.querySelectorAll('.faq__answer--open').forEach(a => a.classList.remove('faq__answer--open'));
+      document.querySelectorAll('.faq__question').forEach(b => b.setAttribute('aria-expanded', 'false'));
+      document.querySelectorAll('.faq__icon').forEach(i => { (i as HTMLElement).textContent = '+'; });
+      if (!isOpen) {
+        answer?.classList.add('faq__answer--open');
+        btn.setAttribute('aria-expanded', 'true');
+        if (icon) (icon as HTMLElement).textContent = '\u2212';
+      }
+    });
+  });
+
+  document.getElementById('cotizar-form')?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const form     = e.target as HTMLFormElement;
+    const nombre   = (form.querySelector('[name="nombre"]')   as HTMLInputElement)?.value.trim();
+    const telefono = (form.querySelector('[name="telefono"]') as HTMLInputElement)?.value.trim();
+    const inflable = (form.querySelector('[name="inflable"]') as HTMLSelectElement)?.value;
+    const fecha    = (form.querySelector('[name="fecha"]')    as HTMLInputElement)?.value;
+    const mensaje  = (form.querySelector('[name="mensaje"]')  as HTMLTextAreaElement)?.value.trim();
+    const msg = encodeURIComponent(
+      `Hola BRINCOLINS, soy ${nombre}.\nQuiero rentar: ${inflable}\nFecha del evento: ${fecha}\nMensaje: ${mensaje}\nTel: ${telefono}`
+    );
+    window.open(`https://wa.me/5511111111?text=${msg}`, '_blank');
+  });
+</script>

@@ -1,0 +1,67 @@
+---
+export interface Props {
+  whatsapp?: string;
+  currentPath?: string;
+}
+
+const {
+  whatsapp    = "5511111111",
+  currentPath = Astro.url.pathname,
+} = Astro.props;
+
+const isActive = (path: string) =>
+  currentPath === path ? "nav-desktop__link--active" : "";
+const isSection = (prefix: string) =>
+  currentPath.startsWith(prefix) ? "nav-desktop__link--active" : "";
+---
+
+<a href="#contenido-principal" class="skip-link">Saltar al contenido principal</a>
+
+<header class="header" id="header" role="banner">
+  <div class="container">
+
+    <a href="/" class="header__logo" aria-label="BRINCOLINS — Renta de Inflables — Inicio">
+      <span>🎪</span> BRINCO<span>LINS</span>
+    </a>
+
+    <nav class="nav-desktop" role="navigation" aria-label="Navegación principal">
+      <ul class="nav-desktop__list">
+        <li><a href="/" class={`nav-desktop__link ${isActive("/")}`}>Inicio</a></li>
+        <li><a href="/inflables" class={`nav-desktop__link ${isSection("/inflables")}`}>Inflables</a></li>
+        <li><a href="/nosotros" class={`nav-desktop__link ${isActive("/nosotros/")}`}>Nosotros</a></li>
+        <li><a href="/cobertura" class={`nav-desktop__link ${isActive("/cobertura/")}`}>Cobertura</a></li>
+        <li><a href="/contacto" class={`nav-desktop__link ${isActive("/contacto/")}`}>Contacto</a></li>
+      </ul>
+    </nav>
+
+    <a href="/cotizar" class="btn btn--primary btn--sm header__cta">
+      Cotizar ahora
+    </a>
+
+    <button class="hamburger" id="hamburger"
+            aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+    </button>
+
+  </div>
+</header>
+
+<div class="mobile-overlay" id="mobile-overlay" aria-hidden="true"></div>
+<nav class="mobile-nav" id="mobile-nav" role="navigation" aria-label="Navegación móvil" aria-hidden="true">
+  <ul>
+    <li><a href="/" class="mobile-nav__link">Inicio</a></li>
+    <li><a href="/inflables" class="mobile-nav__link">Inflables</a></li>
+    <li><a href="/cotizar" class="mobile-nav__link">Cotizar</a></li>
+    <li><a href="/nosotros" class="mobile-nav__link">Nosotros</a></li>
+    <li><a href="/cobertura" class="mobile-nav__link">Cobertura</a></li>
+    <li><a href="/contacto" class="mobile-nav__link">Contacto</a></li>
+  </ul>
+  <div class="mobile-nav__cta">
+    <a href={`https://wa.me/${whatsapp}?text=${encodeURIComponent("Hola BRINCOLINS, quiero información sobre renta de inflables.")}`}
+       class="btn btn--wa" target="_blank" rel="noopener">
+      WhatsApp
+    </a>
+  </div>
+</nav>

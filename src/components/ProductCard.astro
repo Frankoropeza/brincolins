@@ -1,0 +1,31 @@
+---
+export interface Props {
+  slug:     string;
+  emoji:    string;
+  name:     string;
+  price:    string;
+  size:     string;
+  ages:     string;
+  gradient: string;
+}
+
+const { slug, emoji, name, price, size, ages, gradient } = Astro.props;
+---
+
+<article class="product-card">
+  <div class="product-card__image" style={`background: linear-gradient(135deg, ${gradient});`}>
+    <div class="img-placeholder">
+      <span>{emoji}</span>
+      <span class="img-placeholder__text">Foto próximamente</span>
+    </div>
+    <span class="product-card__image-label">{size}</span>
+  </div>
+  <div class="product-card__body">
+    <h3 class="product-card__title">{name}</h3>
+    <p class="product-card__specs">{ages} · {size}</p>
+    <p class="product-card__price">Desde {price}</p>
+    <div class="product-card__cta">
+      <a href={`/inflables/${slug}`} class="btn btn--primary btn--sm">Ver detalles</a>
+    </div>
+  </div>
+</article>

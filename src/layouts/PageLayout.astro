@@ -1,0 +1,54 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Header     from "@/components/Header.astro";
+import Footer     from "@/components/Footer.astro";
+import WaBubble   from "@/components/WaBubble.astro";
+
+export interface Props {
+  title:        string;
+  description:  string;
+  canonical?:   string;
+  ogImage?:     string;
+  pageType?:    "home" | "product" | "category" | "page";
+  breadcrumbs?: Array<{ name: string; href?: string }>;
+  faqItems?:    Array<{ question: string; answer: string }>;
+  product?:     { name: string; slug: string; description: string; image: string; price: string };
+  whatsapp?:    string;
+  phone?:       string;
+  email?:       string;
+}
+
+const {
+  title,
+  description,
+  canonical,
+  ogImage,
+  pageType,
+  breadcrumbs,
+  faqItems,
+  product,
+  whatsapp = "5511111111",
+  phone    = "55 1111 1111",
+  email    = "info@brincolins.com",
+} = Astro.props;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  ogImage={ogImage}
+  pageType={pageType}
+  breadcrumbs={breadcrumbs}
+  faqItems={faqItems}
+  product={product}
+>
+  <Header whatsapp={whatsapp} currentPath={Astro.url.pathname} />
+
+  <main id="contenido-principal">
+    <slot />
+  </main>
+
+  <Footer phone={phone} whatsapp={whatsapp} email={email} />
+  <WaBubble whatsapp={whatsapp} />
+</BaseLayout>

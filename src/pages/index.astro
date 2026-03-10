@@ -1,0 +1,208 @@
+---
+import PageLayout   from "@/layouts/PageLayout.astro";
+import ProductCard  from "@/components/ProductCard.astro";
+import ProcessStep  from "@/components/ProcessStep.astro";
+import Testimonial  from "@/components/Testimonial.astro";
+import FaqItem      from "@/components/FaqItem.astro";
+
+const title = "Renta de Inflables para Fiestas en CDMX y Edomex | BRINCOLINS";
+const description = "Renta de brincolines e inflables para fiestas infantiles en CDMX y Estado de México. +20 años de experiencia. Entrega, instalación y seguro incluidos. Cotiza ahora.";
+
+const productos = [
+  { slug: "mini-castillo",       emoji: "🏰", name: "Mini Castillo",          price: "$800",  size: "4×4m", ages: "3-8 años", gradient: "#FF3D00, #ff6d3f" },
+  { slug: "castillo-princesas",  emoji: "👸", name: "Castillo de Princesas",  price: "$900",  size: "4×4m", ages: "3-8 años", gradient: "#E040FB, #7C3AED" },
+  { slug: "barco-pirata",        emoji: "🚢", name: "Barco Pirata",           price: "$950",  size: "5×4m", ages: "4-10 años", gradient: "#1E88E5, #0D47A1" },
+  { slug: "casa-brinco-jungla",  emoji: "🌴", name: "Casa Brinco Jungla",     price: "$850",  size: "4×4m", ages: "3-8 años", gradient: "#00C853, #1B5E20" },
+  { slug: "tobogan-acuatico",    emoji: "💦", name: "Tobogán Acuático",       price: "$1200", size: "6×4m", ages: "5-12 años", gradient: "#00B8D4, #0277BD" },
+  { slug: "inflable-deportivo",  emoji: "⚽", name: "Inflable Deportivo",     price: "$1100", size: "5×5m", ages: "6-14 años", gradient: "#FFD600, #FF6F00" },
+];
+
+const pasos = [
+  { number: 1, emoji: "📱", title: "Elige tu inflable", desc: "Explora nuestro catálogo y elige el inflable perfecto para tu fiesta.", color: "var(--color-primary)" },
+  { number: 2, emoji: "📅", title: "Agenda tu fecha", desc: "Selecciona fecha y horario. Reserva con un pequeño anticipo.", color: "var(--color-secondary)" },
+  { number: 3, emoji: "🚚", title: "Entrega e instalación", desc: "Llegamos puntual, instalamos y verificamos la seguridad del inflable.", color: "var(--color-fun)" },
+  { number: 4, emoji: "🎉", title: "¡A brincar!", desc: "Disfruta tu fiesta. Al terminar, nosotros recogemos todo.", color: "var(--color-accent)" },
+];
+
+const ventajas = [
+  { icon: "🏆", title: "+20 años de experiencia", desc: "Miles de fiestas exitosas en CDMX y Estado de México nos respaldan." },
+  { icon: "🚚", title: "Entrega e instalación incluida", desc: "Llevamos, instalamos y recogemos el inflable sin costo extra." },
+  { icon: "🧹", title: "Limpieza garantizada", desc: "Cada inflable se entrega perfectamente limpio y desinfectado." },
+  { icon: "💰", title: "Mejores precios", desc: "Precios competitivos con la mejor calidad. Sin costos ocultos." },
+  { icon: "🛡️", title: "Seguro incluido", desc: "Todos nuestros inflables cuentan con seguro de responsabilidad civil." },
+  { icon: "📞", title: "Atención 24/7", desc: "Estamos disponibles por WhatsApp para resolver cualquier duda." },
+];
+
+const testimonios = [
+  { name: "María González", role: "Mamá de Sofía, Coyoacán", text: "Excelente servicio. Llegaron puntuales, el inflable estaba impecable y los niños no pararon de brincar. Definitivamente los volveré a contratar." },
+  { name: "Roberto Hernández", role: "Papá de Diego, Naucalpan", text: "Contraté el Barco Pirata para el cumpleaños de mi hijo y fue todo un éxito. Muy profesionales, seguros y a un precio justo. 100% recomendados." },
+  { name: "Ana Laura Martínez", role: "Mamá de Valentina, Polanco", text: "Ya es la tercera vez que rento con BRINCOLINS. Siempre puntuales, amables y los inflables en perfectas condiciones. Los mejores de CDMX sin duda." },
+];
+
+const faqs = [
+  { question: "¿Cuáles son los precios de renta de inflables?", answer: "Nuestros precios van desde $800 MXN por evento. El precio incluye entrega, instalación, supervisión y recolección. Varía según el modelo y la zona de entrega." },
+  { question: "¿Qué incluye el servicio de renta?", answer: "Incluye entrega, instalación profesional, motor/soplador, limpieza del inflable, seguro de responsabilidad civil y recolección al finalizar el evento." },
+  { question: "¿Los inflables son seguros para los niños?", answer: "Absolutamente. Todos nuestros inflables cumplen con normas de seguridad, se revisan antes de cada evento y cuentan con seguro de responsabilidad civil. Además, damos instrucciones de uso seguro." },
+  { question: "¿Para qué edades son los inflables?", answer: "Tenemos inflables para niños de 3 a 14 años. Cada inflable tiene una recomendación de edad específica. Nuestro equipo te ayuda a elegir el más adecuado." },
+  { question: "¿Cuánto tiempo dura la renta?", answer: "La renta estándar es por evento (hasta 8 horas). Si necesitas más tiempo, podemos ajustar el precio. Consulta por paquetes de día completo." },
+  { question: "¿Necesito dejar un depósito?", answer: "Sí, pedimos un anticipo del 50% para reservar la fecha. El resto se paga el día del evento. Aceptamos transferencia, efectivo y tarjeta." },
+  { question: "¿Qué pasa si llueve o necesito cancelar?", answer: "En caso de lluvia, reprogramamos sin costo. Para cancelaciones con más de 48 horas de anticipación, devolvemos el 100% del anticipo." },
+];
+
+const zonasCDMX = ["Coyoacán", "Benito Juárez", "Miguel Hidalgo", "Álvaro Obregón", "Tlalpan", "Cuauhtémoc", "Azcapotzalco", "Iztapalapa", "Xochimilco", "Gustavo A. Madero"];
+const zonasEdomex = ["Naucalpan", "Tlalnepantla", "Ecatepec", "Huixquilucan", "Atizapán", "Cuautitlán Izcalli", "Coacalco", "Metepec", "Toluca", "Texcoco"];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="home"
+  faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
+>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <span class="hero__badge">🎪 +20 años de diversión</span>
+      <h1 class="hero__title">Renta de Inflables para Fiestas en CDMX</h1>
+      <p class="hero__subtitle">Brincolines, toboganes y castillos inflables para fiestas infantiles. Entrega, instalación y seguro incluidos.</p>
+      <div class="hero__metrics">
+        <span>🎈 +500 fiestas/año</span>
+        <span>🚚 Entrega incluida</span>
+        <span>📍 CDMX y Edomex</span>
+      </div>
+      <div class="hero__actions">
+        <a href="/inflables" class="btn btn--outline btn--lg">Ver Inflables</a>
+        <a href="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable%20para%20mi%20fiesta."
+           class="btn btn--wa btn--lg" target="_blank" rel="noopener">
+          Cotizar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS DESTACADOS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__badge section-header__badge--primary">Catálogo</span>
+        <h2 class="section-header__title">Nuestros Inflables</h2>
+        <p class="section-header__subtitle">Elige el inflable perfecto para tu fiesta. Todos incluyen entrega, instalación y seguro.</p>
+      </div>
+      <div class="grid-3">
+        {productos.map(p => <ProductCard {...p} />)}
+      </div>
+      <div class="text-center mt-3">
+        <a href="/inflables" class="btn btn--secondary">Ver catálogo completo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CÓMO FUNCIONA -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__badge section-header__badge--secondary">Súper fácil</span>
+        <h2 class="section-header__title">¿Cómo funciona?</h2>
+        <p class="section-header__subtitle">Rentar un inflable con nosotros es muy sencillo. Solo sigue estos 4 pasos.</p>
+      </div>
+      <div class="grid-4">
+        {pasos.map(p => <ProcessStep {...p} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ ELEGIRNOS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__badge section-header__badge--fun">Confianza</span>
+        <h2 class="section-header__title">¿Por qué elegirnos?</h2>
+        <p class="section-header__subtitle">Más de dos décadas cuidando la diversión de tus hijos.</p>
+      </div>
+      <div class="grid-3">
+        {ventajas.map(v => (
+          <div class="feature-card">
+            <div class="feature-card__icon">{v.icon}</div>
+            <h3 class="feature-card__title">{v.title}</h3>
+            <p class="feature-card__desc">{v.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__badge section-header__badge--primary">Opiniones</span>
+        <h2 class="section-header__title">Lo que dicen nuestros clientes</h2>
+        <p class="section-header__subtitle">Mamás y papás felices que ya vivieron la experiencia BRINCOLINS.</p>
+      </div>
+      <div class="grid-3">
+        {testimonios.map(t => <Testimonial {...t} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- COBERTURA -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__badge section-header__badge--secondary">Cobertura</span>
+        <h2 class="section-header__title">¿Dónde entregamos?</h2>
+        <p class="section-header__subtitle">Cubrimos toda la CDMX y principales municipios del Estado de México.</p>
+      </div>
+      <div class="grid-2">
+        <div>
+          <h3 style="margin-bottom:1rem; color:var(--color-primary);">📍 Ciudad de México</h3>
+          <div class="zone-tags">
+            {zonasCDMX.map(z => <span class="zone-tag">{z}</span>)}
+          </div>
+        </div>
+        <div>
+          <h3 style="margin-bottom:1rem; color:var(--color-secondary);">📍 Estado de México</h3>
+          <div class="zone-tags">
+            {zonasEdomex.map(z => <span class="zone-tag">{z}</span>)}
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <a href="/cobertura" class="btn btn--secondary btn--sm">Ver todas las zonas de cobertura</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__badge section-header__badge--primary">FAQ</span>
+        <h2 class="section-header__title">Preguntas frecuentes</h2>
+        <p class="section-header__subtitle">Resolvemos tus dudas sobre la renta de inflables.</p>
+      </div>
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="section section--dark" style="text-align:center;">
+    <div class="container">
+      <h2 style="font-size:clamp(2rem,5vw,3rem); margin-bottom:1rem;">🎉 ¿Lista la fiesta?</h2>
+      <p style="font-size:1.15rem; opacity:.9; margin-bottom:2rem; max-width:500px; margin-left:auto; margin-right:auto;">
+        Reserva tu inflable hoy y haz que la diversión de los niños sea inolvidable.
+      </p>
+      <div class="hero__actions">
+        <a href="/cotizar" class="btn btn--primary btn--lg">Solicitar cotización</a>
+        <a href="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+           class="btn btn--wa btn--lg" target="_blank" rel="noopener">
+          WhatsApp directo
+        </a>
+      </div>
+    </div>
+  </section>
+
+</PageLayout>

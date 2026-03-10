@@ -1,0 +1,66 @@
+---
+import PageLayout  from "@/layouts/PageLayout.astro";
+import ProductCard from "@/components/ProductCard.astro";
+
+const title = "Catálogo de Inflables para Renta | BRINCOLINS CDMX";
+const description = "Explora nuestro catálogo completo de inflables para renta: castillos, toboganes, barcos pirata y más. Desde $800 MXN con entrega incluida en CDMX y Edomex.";
+
+const productos = [
+  { slug: "mini-castillo",       emoji: "🏰", name: "Mini Castillo",          price: "$800",  size: "4×4m", ages: "3-8 años", gradient: "#FF3D00, #ff6d3f", category: "castillos" },
+  { slug: "castillo-princesas",  emoji: "👸", name: "Castillo de Princesas",  price: "$900",  size: "4×4m", ages: "3-8 años", gradient: "#E040FB, #7C3AED", category: "castillos" },
+  { slug: "barco-pirata",        emoji: "🚢", name: "Barco Pirata",           price: "$950",  size: "5×4m", ages: "4-10 años", gradient: "#1E88E5, #0D47A1", category: "aventura" },
+  { slug: "casa-brinco-jungla",  emoji: "🌴", name: "Casa Brinco Jungla",     price: "$850",  size: "4×4m", ages: "3-8 años", gradient: "#00C853, #1B5E20", category: "aventura" },
+  { slug: "tobogan-acuatico",    emoji: "💦", name: "Tobogán Acuático",       price: "$1200", size: "6×4m", ages: "5-12 años", gradient: "#00B8D4, #0277BD", category: "acuaticos" },
+  { slug: "inflable-deportivo",  emoji: "⚽", name: "Inflable Deportivo",     price: "$1100", size: "5×5m", ages: "6-14 años", gradient: "#FFD600, #FF6F00", category: "deportivos" },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="category"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables" },
+  ]}
+>
+
+  <!-- Hero -->
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <h1 class="hero__title">Catálogo de Inflables</h1>
+      <p class="hero__subtitle">Todos nuestros inflables incluyen entrega, instalación, limpieza y seguro. Elige el tuyo.</p>
+    </div>
+  </section>
+
+  <!-- Breadcrumbs -->
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Inflables</span>
+    </nav>
+  </div>
+
+  <!-- Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="grid-3">
+        {productos.map(p => <ProductCard slug={p.slug} emoji={p.emoji} name={p.name} price={p.price} size={p.size} ages={p.ages} gradient={p.gradient} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--alt" style="text-align:center;">
+    <div class="container">
+      <h2 style="margin-bottom:1rem;">¿No encuentras lo que buscas?</h2>
+      <p style="margin-bottom:2rem; color:var(--color-text-light);">Tenemos más opciones disponibles. Contáctanos y te ayudamos a encontrar el inflable ideal para tu evento.</p>
+      <a href="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20busco%20un%20inflable%20especial%20para%20mi%20evento."
+         class="btn btn--wa" target="_blank" rel="noopener">
+        Preguntar por WhatsApp
+      </a>
+    </div>
+  </section>
+
+</PageLayout>

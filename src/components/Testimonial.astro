@@ -1,0 +1,16 @@
+---
+export interface Props {
+  name:  string;
+  role:  string;
+  text:  string;
+}
+
+const { name, role, text } = Astro.props;
+---
+
+<div class="testimonial">
+  <div class="testimonial__stars" aria-label="5 estrellas">★★★★★</div>
+  <p class="testimonial__text">{text}</p>
+  <p class="testimonial__author">{name}</p>
+  <p class="testimonial__role">{role}</p>
+</div>
