@@ -1606,3 +1606,113 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.5rem 1.2rem;
   font-size: 0.8rem;
 }
+
+/* ── Venue Card Highlight ── */
+.venue-card__highlight {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--c-primary);
+  margin: 0 0 0.75rem;
+  font-family: var(--font-head);
+}
+
+/* ── Directory Zone Cards (index hub) ── */
+.dir-zone-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--r-card);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--c-border);
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+}
+
+.dir-zone-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.dir-zone-card__header {
+  padding: 2rem 1.5rem;
+  position: relative;
+}
+
+.dir-zone-card__icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.75rem;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+.dir-zone-card__title {
+  font-family: var(--font-head);
+  font-weight: 900;
+  font-size: 1.4rem;
+  color: #fff;
+  margin: 0;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.dir-zone-card__subtitle {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.85);
+  margin: 0.25rem 0 0;
+  font-weight: 600;
+}
+
+.dir-zone-card__stats {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.dir-zone-card__stat {
+  padding: 0.35rem 0.85rem;
+  background: rgba(255,255,255,0.2);
+  border-radius: var(--r-badge);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+  backdrop-filter: blur(4px);
+}
+
+.dir-zone-card__body {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.dir-zone-card__desc {
+  font-size: 0.88rem;
+  color: var(--c-text-muted);
+  line-height: 1.7;
+  margin: 0 0 1rem;
+}
+
+.dir-zone-card__zones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.dir-zone-card__zone-tag {
+  font-size: 0.75rem;
+  padding: 0.3rem 0.7rem;
+  background: var(--c-bg-alt);
+  border: 1px solid var(--c-border);
+  border-radius: var(--r-badge);
+  color: var(--c-text-muted);
+  font-weight: 500;
+}
+
+.dir-zone-card__cta {
+  margin-top: auto;
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: var(--c-primary);
+}
