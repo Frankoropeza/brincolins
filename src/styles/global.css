@@ -444,9 +444,14 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+/* ── Main content offset for fixed header ── */
+#contenido-principal {
+  padding-top: calc(var(--topbar-h, 32px) + 72px);
+}
+
 /* ── Hero ── */
 .hero {
-  padding: clamp(7rem, 14vw, 9rem) 0 var(--section-py);
+  padding: clamp(3rem, 6vw, 5rem) 0 var(--section-py);
   position: relative;
   overflow: hidden;
   background: var(--c-bg);
@@ -524,6 +529,34 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--c-primary);
   font-weight: 800;
 }
+
+/* Hero imagen */
+.hero__img-col { position: relative; }
+.hero__img-wrap {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.18);
+}
+.hero__img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero__img-pill {
+  position: absolute;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(8px);
+  border-radius: 999px;
+  padding: 0.5rem 1.25rem;
+  font-size: 13px;
+  font-weight: 700;
+  color: #1a1a2e;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+  white-space: nowrap;
+}
+.hero__img-pill--top  { top: 1.25rem;    left: 1.25rem; }
+.hero__img-pill--bottom { bottom: 1.25rem; right: 1.25rem; }
 
 /* Decorative shapes */
 .hero__shape {
