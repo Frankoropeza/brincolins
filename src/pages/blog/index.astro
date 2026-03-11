@@ -51,21 +51,36 @@ const articulos = [
   ]}
 >
 
-  <!-- HERO DEL BLOG -->
-  <section class="blog-hero">
-    <div class="blog-hero__shapes">
-      <div class="blog-hero__shape blog-hero__shape--1"></div>
-      <div class="blog-hero__shape blog-hero__shape--2"></div>
-    </div>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Blog</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
     <div class="container">
-      <div class="blog-hero__content">
-        <span class="section-badge">📝 Blog</span>
-        <h1 class="blog-hero__title">
-          Guías, Ideas y Consejos<br/>para tu <span class="blog-hero__highlight">Fiesta Perfecta</span>
-        </h1>
-        <p class="blog-hero__desc">
-          Tips de renta de inflables, ideas de decoración y todo lo que necesitas para organizar un cumpleaños épico en CDMX y Estado de México.
-        </p>
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">📝 Blog</span>
+          <h1 class="hero__title">Guías e Ideas para tu <span class="highlight">Fiesta Perfecta</span></h1>
+          <p class="hero__desc">
+            Tips de renta de inflables, ideas de decoración y todo lo que necesitas para organizar un cumpleaños épico en CDMX y Edomex.
+          </p>
+          <div class="hero__ctas">
+            <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar inflable</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver catálogo</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            En <strong>BRINCOLINS</strong> no solo rentamos inflables — también queremos ayudarte a organizar el evento perfecto. Aquí encontrarás guías detalladas sobre cómo elegir el inflable ideal según la edad de los niños, el espacio disponible y tu presupuesto.
+          </p>
+          <p class="hero__copy-text">
+            También compartimos ideas de decoración, consejos de seguridad y listas de verificación para que la organización de la fiesta sea sin estrés. Nuevo contenido cada mes, siempre enfocado en familias de <strong>CDMX y Estado de México</strong>.
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -91,8 +106,8 @@ const articulos = [
         badge="📰 Artículos"
         title="Últimas publicaciones"
         subtitle="Todo lo que necesitas saber para rentar inflables y organizar la mejor fiesta."
-        copy1="En BRINCOLINS no solo rentamos inflables — también queremos ayudarte a organizar el evento perfecto. Aquí encontrarás guías detalladas sobre cómo elegir el inflable ideal según la edad de los niños, el espacio disponible y el presupuesto con el que cuentas."
-        copy2="También compartimos ideas de decoración, consejos de seguridad y listas de verificación para que la organización de la fiesta sea sin estrés. Nuevo contenido cada mes, siempre enfocado en familias de CDMX y Estado de México."
+        copy1="Nuestro equipo comparte guías detalladas sobre cómo elegir el inflable ideal según la edad de los niños, el espacio disponible y el presupuesto con el que cuentas. Con más de 20 años de experiencia, sabemos lo que funciona."
+        copy2="También publicamos ideas de decoración, consejos de seguridad y listas de verificación para que la organización de tu fiesta sea sin estrés. Nuevo contenido cada mes."
       />
       <div class="grid-3">
         {articulos.map(a => <BlogCard {...a} />)}
@@ -137,7 +152,7 @@ const articulos = [
 
   <!-- CTA FINAL -->
   <CtaBanner
-    title="🎪 ¿Listo para la mejor fiesta de tu vida?"
+    title="¿Listo para la mejor fiesta de tu vida?"
     subtitle="Renta tu inflable hoy. Entrega puntual, instalación profesional y seguro incluido."
     btnText="Cotizar por WhatsApp"
     btnHref="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
@@ -151,71 +166,6 @@ const articulos = [
 </PageLayout>
 
 <style>
-  /* ── Hero del Blog ── */
-  .blog-hero {
-    position: relative;
-    padding: clamp(4rem, 10vw, 7rem) 0 clamp(3rem, 6vw, 5rem);
-    background: linear-gradient(135deg, #fff8f5 0%, #fff0f8 50%, #f5f0ff 100%);
-    overflow: hidden;
-    text-align: center;
-  }
-
-  .blog-hero__shapes { pointer-events: none; }
-
-  .blog-hero__shape {
-    position: absolute;
-    border-radius: 50%;
-    opacity: 0.08;
-  }
-
-  .blog-hero__shape--1 {
-    width: 400px;
-    height: 400px;
-    background: var(--c-primary);
-    top: -100px;
-    right: -80px;
-  }
-
-  .blog-hero__shape--2 {
-    width: 250px;
-    height: 250px;
-    background: var(--c-secondary);
-    bottom: -60px;
-    left: -40px;
-  }
-
-  .blog-hero__content {
-    position: relative;
-    z-index: 1;
-    max-width: 700px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.25rem;
-  }
-
-  .blog-hero__title {
-    font-family: var(--font-head);
-    font-weight: 900;
-    font-size: clamp(2rem, 5vw, 3rem);
-    color: var(--c-text);
-    line-height: 1.15;
-    margin: 0;
-  }
-
-  .blog-hero__highlight {
-    color: var(--c-primary);
-  }
-
-  .blog-hero__desc {
-    font-size: clamp(1rem, 2vw, 1.1rem);
-    color: var(--c-text-muted);
-    line-height: 1.7;
-    margin: 0;
-    max-width: 560px;
-  }
-
   /* ── Categorías ── */
   .cat-card {
     display: flex;
@@ -229,7 +179,6 @@ const articulos = [
     border-radius: var(--r-card);
     text-decoration: none;
     text-align: center;
-    transition: all 0.25s ease;
     box-shadow: var(--shadow-sm);
   }
 
