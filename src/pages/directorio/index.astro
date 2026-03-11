@@ -1,0 +1,388 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+
+const title = "Directorio de Salones de Fiestas Infantiles CDMX y Edomex | BRINCOLINS";
+const description = "Encuentra los mejores salones de fiestas infantiles en CDMX y Estado de México. Directorio completo con ubicación, capacidad, precios y servicios incluidos.";
+
+const salonesCDMX = [
+  {
+    name: "Salón Fiesta Kids Coyoacán",
+    zone: "Coyoacán, CDMX",
+    address: "Av. Universidad 1800, Col. Oxtopulco, Coyoacán",
+    capacity: "50–120 personas",
+    price: "Desde $4,500 MXN",
+    phone: "55 1234 5678",
+    features: ["Estacionamiento", "Área de juegos", "Cocina equipada", "Paquetes todo incluido"],
+    gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)",
+    label: "⭐",
+  },
+  {
+    name: "Happy Land Benito Juárez",
+    zone: "Benito Juárez, CDMX",
+    address: "Av. Insurgentes Sur 1234, Col. Del Valle",
+    capacity: "40–100 personas",
+    price: "Desde $5,200 MXN",
+    phone: "55 2345 6789",
+    features: ["Salón climatizado", "Decoración incluida", "Meseros", "Música y luces"],
+    gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)",
+    label: "🎉",
+  },
+  {
+    name: "Mundo Mágico Infantil",
+    zone: "Tlalpan, CDMX",
+    address: "Calz. de Tlalpan 3200, Col. Santa Úrsula",
+    capacity: "60–150 personas",
+    price: "Desde $3,800 MXN",
+    phone: "55 3456 7890",
+    features: ["Jardín amplio", "Alberca de pelotas", "Área para adultos", "Paquetes económicos"],
+    gradient: "linear-gradient(135deg, #00C853, #2E7D32)",
+    label: "🌟",
+  },
+  {
+    name: "Salón Arcoíris",
+    zone: "Iztapalapa, CDMX",
+    address: "Eje 6 Sur 456, Col. Santa Martha Acatitla",
+    capacity: "80–200 personas",
+    price: "Desde $3,200 MXN",
+    phone: "55 4567 8901",
+    features: ["Gran capacidad", "Sonido profesional", "Estacionamiento amplio", "Banquete incluido"],
+    gradient: "linear-gradient(135deg, #E91E8C, #FF3D00)",
+    label: "🎈",
+  },
+  {
+    name: "Peques Party Polanco",
+    zone: "Miguel Hidalgo, CDMX",
+    address: "Av. Horacio 800, Col. Polanco",
+    capacity: "30–80 personas",
+    price: "Desde $7,500 MXN",
+    phone: "55 5678 9012",
+    features: ["Salón premium", "Chef profesional", "Shows en vivo", "Valet parking"],
+    gradient: "linear-gradient(135deg, #1565C0, #0288D1)",
+    label: "👑",
+  },
+  {
+    name: "Diversilandia Xochimilco",
+    zone: "Xochimilco, CDMX",
+    address: "Prolongación 16 de Septiembre 200, Xochimilco Centro",
+    capacity: "50–130 personas",
+    price: "Desde $3,500 MXN",
+    phone: "55 6789 0123",
+    features: ["Jardín con vista", "Juegos mecánicos", "Piñatas incluidas", "Payasos y animadores"],
+    gradient: "linear-gradient(135deg, #FFD600, #FF6F00)",
+    label: "🎪",
+  },
+  {
+    name: "Kids Palace Cuauhtémoc",
+    zone: "Cuauhtémoc, CDMX",
+    address: "Av. Chapultepec 500, Col. Roma Norte",
+    capacity: "40–90 personas",
+    price: "Desde $5,800 MXN",
+    phone: "55 7890 1234",
+    features: ["Ubicación céntrica", "Temáticas personalizadas", "Snack bar", "Fotógrafo incluido"],
+    gradient: "linear-gradient(135deg, #0288D1, #7C3AED)",
+    label: "📸",
+  },
+  {
+    name: "Salón Estrellita GAM",
+    zone: "Gustavo A. Madero, CDMX",
+    address: "Av. Insurgentes Norte 1500, Col. Lindavista",
+    capacity: "60–140 personas",
+    price: "Desde $3,000 MXN",
+    phone: "55 8901 2345",
+    features: ["Precios accesibles", "Inflables incluidos", "Dulceros", "Música y karaoke"],
+    gradient: "linear-gradient(135deg, #FF6D00, #FFD600)",
+    label: "🌈",
+  },
+];
+
+const salonesEdomex = [
+  {
+    name: "Fiesta Park Naucalpan",
+    zone: "Naucalpan, Edomex",
+    address: "Blvd. Toluca 300, Naucalpan Centro",
+    capacity: "70–180 personas",
+    price: "Desde $4,000 MXN",
+    phone: "55 1111 2222",
+    features: ["Salón y jardín", "Área de inflables", "Taquiza incluida", "Estacionamiento techado"],
+    gradient: "linear-gradient(135deg, #2E7D32, #00C853)",
+    label: "🏡",
+  },
+  {
+    name: "Magic World Tlalnepantla",
+    zone: "Tlalnepantla, Edomex",
+    address: "Av. Mario Colín 200, Tlalnepantla Centro",
+    capacity: "50–120 personas",
+    price: "Desde $3,500 MXN",
+    phone: "55 2222 3333",
+    features: ["Trampolines", "Ludoteca", "Pintacaritas", "Paquetes desde 20 niños"],
+    gradient: "linear-gradient(135deg, #9C27B0, #E91E8C)",
+    label: "🎭",
+  },
+  {
+    name: "Salón Infantil Ecatepec",
+    zone: "Ecatepec, Edomex",
+    address: "Vía Morelos Km 18, Ecatepec de Morelos",
+    capacity: "80–200 personas",
+    price: "Desde $2,800 MXN",
+    phone: "55 3333 4444",
+    features: ["El más grande de la zona", "Banquete completo", "DJ profesional", "Brincolines incluidos"],
+    gradient: "linear-gradient(135deg, #FF3D00, #E91E8C)",
+    label: "🎶",
+  },
+  {
+    name: "Happy Garden Huixquilucan",
+    zone: "Huixquilucan, Edomex",
+    address: "Av. Jesús del Monte 400, Interlomas",
+    capacity: "40–100 personas",
+    price: "Desde $6,500 MXN",
+    phone: "55 4444 5555",
+    features: ["Zona residencial", "Terraza con vista", "Menú gourmet infantil", "Seguridad privada"],
+    gradient: "linear-gradient(135deg, #1565C0, #0288D1)",
+    label: "🏔️",
+  },
+  {
+    name: "Mundo Pequeños Nezahualcóyotl",
+    zone: "Nezahualcóyotl, Edomex",
+    address: "Av. Chimalhuacán 100, Ciudad Neza",
+    capacity: "60–150 personas",
+    price: "Desde $2,500 MXN",
+    phone: "55 5555 6666",
+    features: ["Precios populares", "Paquetes completos", "Payasos y magia", "Pastel incluido"],
+    gradient: "linear-gradient(135deg, #FFD600, #FF6F00)",
+    label: "🎂",
+  },
+  {
+    name: "Fiesta Total Cuautitlán",
+    zone: "Cuautitlán Izcalli, Edomex",
+    address: "Blvd. Centro Comercial 250, Cuautitlán Izcalli",
+    capacity: "50–130 personas",
+    price: "Desde $3,800 MXN",
+    phone: "55 6666 7777",
+    features: ["Salón moderno", "Área de bebés", "Piñatas y dulceros", "Estacionamiento vigilado"],
+    gradient: "linear-gradient(135deg, #00C853, #0288D1)",
+    label: "🎀",
+  },
+  {
+    name: "Infantilandia Toluca",
+    zone: "Toluca, Edomex",
+    address: "Paseo Tollocan 1200, Toluca Centro",
+    capacity: "70–160 personas",
+    price: "Desde $3,200 MXN",
+    phone: "722 123 4567",
+    features: ["Salón amplio", "Juegos interactivos", "Shows temáticos", "Servicio de meseros"],
+    gradient: "linear-gradient(135deg, #7C3AED, #1565C0)",
+    label: "🎡",
+  },
+  {
+    name: "Party House Metepec",
+    zone: "Metepec, Edomex",
+    address: "Av. Estado de México 300, Metepec",
+    capacity: "40–100 personas",
+    price: "Desde $4,200 MXN",
+    phone: "722 234 5678",
+    features: ["Ambiente familiar", "Decoración premium", "Área verde", "Banquete y bebidas"],
+    gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)",
+    label: "🏠",
+  },
+];
+
+const directorySchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Directorio de Salones de Fiestas Infantiles CDMX y Edomex",
+  "description": description,
+  "numberOfItems": salonesCDMX.length + salonesEdomex.length,
+  "itemListElement": [...salonesCDMX, ...salonesEdomex].map((s, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "item": {
+      "@type": "LocalBusiness",
+      "name": s.name,
+      "address": { "@type": "PostalAddress", "streetAddress": s.address },
+      "telephone": s.phone,
+    },
+  })),
+};
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Directorio de Salones" },
+  ]}
+>
+
+  <script type="application/ld+json" set:html={JSON.stringify(directorySchema)} />
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Directorio de Salones</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">📋 Directorio</span>
+          <h1 class="hero__title">Salones de Fiestas <span class="highlight">Infantiles</span></h1>
+          <p class="hero__desc">
+            Encuentra el salón ideal para la fiesta de tus hijos en CDMX y Estado de México. Directorio completo con información verificada.
+          </p>
+          <div class="hero__ctas">
+            <a href="#salones-cdmx" class="btn btn-primary btn-lg">Ver salones CDMX</a>
+            <a href="#salones-edomex" class="btn btn-outline btn-lg">Ver salones Edomex</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Organizar una fiesta infantil comienza por elegir el <strong>lugar perfecto</strong>. Hemos recopilado los mejores salones de fiestas infantiles en la Ciudad de México y el Estado de México para facilitarte la búsqueda.
+          </p>
+          <p class="hero__copy-text">
+            Cada salón incluye información de contacto, capacidad, servicios y rango de precios. Y recuerda: en <strong>BRINCOLINS</strong> podemos llevar el inflable perfecto a cualquiera de estos salones para hacer la fiesta aún más divertida.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tip banner -->
+  <section class="section" style="padding-top:0; padding-bottom:2rem;">
+    <div class="container">
+      <div class="dir-tip">
+        <div class="dir-tip__icon">💡</div>
+        <div class="dir-tip__content">
+          <p class="dir-tip__title">¿Ya tienes tu salón? ¡Complementa con un inflable!</p>
+          <p class="dir-tip__text">La mayoría de estos salones permiten llevar inflables externos. <strong>BRINCOLINS</strong> se encarga de la entrega, instalación y recolección en el salón de tu elección.</p>
+        </div>
+        <a href="/cotizar/" class="btn btn-primary">Cotizar inflable</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CDMX -->
+  <section class="section section--alt" id="salones-cdmx">
+    <div class="container">
+      <SectionHeader
+        badge="🏙️ Ciudad de México"
+        title="Salones en CDMX"
+        subtitle="Los mejores salones de fiestas infantiles en las principales alcaldías de la Ciudad de México."
+        copy1="La Ciudad de México cuenta con una gran variedad de salones de fiestas infantiles para todos los presupuestos. Desde opciones premium en Polanco hasta alternativas accesibles en Iztapalapa y GAM."
+        copy2="Todos los salones listados permiten la instalación de inflables externos. Contáctanos para coordinar la entrega de tu inflable favorito en el salón que elijas."
+      />
+      <div class="grid-2">
+        {salonesCDMX.map(s => (
+          <div class="venue-card">
+            <div class="venue-card__header" style={`background: ${s.gradient};`}>
+              <span class="venue-card__label">{s.label}</span>
+              <h3 class="venue-card__name">{s.name}</h3>
+              <span class="venue-card__zone">{s.zone}</span>
+            </div>
+            <div class="venue-card__body">
+              <div class="venue-card__info">
+                <p class="venue-card__detail"><strong>📍 Dirección:</strong> {s.address}</p>
+                <p class="venue-card__detail"><strong>👥 Capacidad:</strong> {s.capacity}</p>
+                <p class="venue-card__detail"><strong>💰 Precio:</strong> {s.price}</p>
+                <p class="venue-card__detail"><strong>📞 Teléfono:</strong> {s.phone}</p>
+              </div>
+              <div class="venue-card__features">
+                {s.features.map(f => (
+                  <span class="venue-card__tag">✓ {f}</span>
+                ))}
+              </div>
+              <div class="venue-card__actions">
+                <a href={`tel:+52${s.phone.replace(/\s/g, "")}`} class="btn btn-primary btn-sm">Llamar</a>
+                <a href={`https://wa.me/52${s.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${s.name} para una fiesta infantil.`)}`}
+                   class="btn btn-wa btn-sm" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Edomex -->
+  <section class="section" id="salones-edomex">
+    <div class="container">
+      <SectionHeader
+        badge="🏘️ Estado de México"
+        title="Salones en Edomex"
+        subtitle="Salones de fiestas infantiles en los principales municipios del Estado de México."
+        copy1="El Estado de México ofrece opciones de salones con excelente relación calidad-precio. Desde salones económicos en Ecatepec y Neza hasta opciones premium en Huixquilucan e Interlomas."
+        copy2="BRINCOLINS entrega inflables en todos estos municipios. Reserva tu inflable junto con el salón y haz de la fiesta un evento completo e inolvidable."
+      />
+      <div class="grid-2">
+        {salonesEdomex.map(s => (
+          <div class="venue-card">
+            <div class="venue-card__header" style={`background: ${s.gradient};`}>
+              <span class="venue-card__label">{s.label}</span>
+              <h3 class="venue-card__name">{s.name}</h3>
+              <span class="venue-card__zone">{s.zone}</span>
+            </div>
+            <div class="venue-card__body">
+              <div class="venue-card__info">
+                <p class="venue-card__detail"><strong>📍 Dirección:</strong> {s.address}</p>
+                <p class="venue-card__detail"><strong>👥 Capacidad:</strong> {s.capacity}</p>
+                <p class="venue-card__detail"><strong>💰 Precio:</strong> {s.price}</p>
+                <p class="venue-card__detail"><strong>📞 Teléfono:</strong> {s.phone}</p>
+              </div>
+              <div class="venue-card__features">
+                {s.features.map(f => (
+                  <span class="venue-card__tag">✓ {f}</span>
+                ))}
+              </div>
+              <div class="venue-card__actions">
+                <a href={`tel:+52${s.phone.replace(/\s/g, "")}`} class="btn btn-primary btn-sm">Llamar</a>
+                <a href={`https://wa.me/52${s.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${s.name} para una fiesta infantil.`)}`}
+                   class="btn btn-wa btn-sm" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="grid-4" style="max-width:900px; margin:0 auto;">
+        <div style="text-align:center;">
+          <p style="font-size:2.5rem; font-weight:900; font-family:var(--font-head); color:var(--c-primary);">16</p>
+          <p style="color:var(--c-text-muted); font-size:0.85rem;">Salones listados</p>
+        </div>
+        <div style="text-align:center;">
+          <p style="font-size:2.5rem; font-weight:900; font-family:var(--font-head); color:var(--c-secondary);">2</p>
+          <p style="color:var(--c-text-muted); font-size:0.85rem;">Estados cubiertos</p>
+        </div>
+        <div style="text-align:center;">
+          <p style="font-size:2.5rem; font-weight:900; font-family:var(--font-head); color:var(--c-green);">$2,500</p>
+          <p style="color:var(--c-text-muted); font-size:0.85rem;">Precio más bajo</p>
+        </div>
+        <div style="text-align:center;">
+          <p style="font-size:2.5rem; font-weight:900; font-family:var(--font-head); color:var(--c-wa);">200</p>
+          <p style="color:var(--c-text-muted); font-size:0.85rem;">Capacidad máxima</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Ya elegiste tu salón? ¡Agrega un inflable!"
+    subtitle="Lleva la diversión al siguiente nivel. Entrega e instalación del inflable en el salón de tu elección."
+    btnText="Cotizar inflable"
+    btnHref="/cotizar/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="festa"
+  />
+
+</PageLayout>

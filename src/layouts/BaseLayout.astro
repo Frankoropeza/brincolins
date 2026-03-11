@@ -205,6 +205,15 @@ const ogType = (pageType === "product") ? "og:product" : "website";
   const mobileNav = document.getElementById('mobile-nav');
   const overlay   = document.getElementById('mobile-overlay');
   const header    = document.getElementById('site-header');
+  const topbar    = document.querySelector('.topbar') as HTMLElement | null;
+
+  // Set topbar height CSS variable for header positioning
+  function setTopbarHeight() {
+    const h = topbar ? topbar.offsetHeight : 0;
+    document.documentElement.style.setProperty('--topbar-h', h + 'px');
+  }
+  setTopbarHeight();
+  window.addEventListener('resize', setTopbarHeight);
 
   function openNav() {
     mobileNav?.classList.add('mobile-nav--open');
@@ -227,10 +236,16 @@ const ogType = (pageType === "product") ? "og:product" : "website";
   overlay?.addEventListener('click', closeNav);
 
   window.addEventListener('scroll', () => {
-    if (window.scrollY > 10) {
+    const topbarH = topbar ? topbar.offsetHeight : 0;
+    if (window.scrollY > topbarH) {
       header?.classList.add('header--scrolled');
+      // Hide topbar on scroll, header moves to top
+      if (topbar) topbar.style.transform = `translateY(-100%)`;
+      document.documentElement.style.setProperty('--topbar-h', '0px');
     } else {
       header?.classList.remove('header--scrolled');
+      if (topbar) topbar.style.transform = '';
+      setTopbarHeight();
     }
   });
 
