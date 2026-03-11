@@ -204,16 +204,19 @@ const ogType = (pageType === "product") ? "og:product" : "website";
   const hamburger = document.getElementById('hamburger');
   const mobileNav = document.getElementById('mobile-nav');
   const overlay   = document.getElementById('mobile-overlay');
+  const header    = document.getElementById('site-header');
 
   function openNav() {
     mobileNav?.classList.add('mobile-nav--open');
     overlay?.classList.add('mobile-overlay--open');
+    hamburger?.classList.add('hamburger--open');
     hamburger?.setAttribute('aria-expanded', 'true');
     document.body.style.overflow = 'hidden';
   }
   function closeNav() {
     mobileNav?.classList.remove('mobile-nav--open');
     overlay?.classList.remove('mobile-overlay--open');
+    hamburger?.classList.remove('hamburger--open');
     hamburger?.setAttribute('aria-expanded', 'false');
     document.body.style.overflow = '';
   }
@@ -222,6 +225,14 @@ const ogType = (pageType === "product") ? "og:product" : "website";
     mobileNav?.classList.contains('mobile-nav--open') ? closeNav() : openNav();
   });
   overlay?.addEventListener('click', closeNav);
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 10) {
+      header?.classList.add('header--scrolled');
+    } else {
+      header?.classList.remove('header--scrolled');
+    }
+  });
 
   document.querySelectorAll('.faq__question').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -238,19 +249,5 @@ const ogType = (pageType === "product") ? "og:product" : "website";
         if (icon) (icon as HTMLElement).textContent = '\u2212';
       }
     });
-  });
-
-  document.getElementById('cotizar-form')?.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const form     = e.target as HTMLFormElement;
-    const nombre   = (form.querySelector('[name="nombre"]')   as HTMLInputElement)?.value.trim();
-    const telefono = (form.querySelector('[name="telefono"]') as HTMLInputElement)?.value.trim();
-    const inflable = (form.querySelector('[name="inflable"]') as HTMLSelectElement)?.value;
-    const fecha    = (form.querySelector('[name="fecha"]')    as HTMLInputElement)?.value;
-    const mensaje  = (form.querySelector('[name="mensaje"]')  as HTMLTextAreaElement)?.value.trim();
-    const msg = encodeURIComponent(
-      `Hola BRINCOLINS, soy ${nombre}.\nQuiero rentar: ${inflable}\nFecha del evento: ${fecha}\nMensaje: ${mensaje}\nTel: ${telefono}`
-    );
-    window.open(`https://wa.me/5511111111?text=${msg}`, '_blank');
   });
 </script>

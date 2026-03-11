@@ -1,6 +1,7 @@
 ---
 import PageLayout from "@/layouts/PageLayout.astro";
 import ProductCard from "@/components/ProductCard.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
 
 const title = "Renta de Tobogán Acuático Inflable | BRINCOLINS CDMX";
 const description = "Renta el Tobogán Acuático inflable para fiestas infantiles en CDMX y Edomex. Tobogán de agua con piscina inflable. Desde $1,200 MXN con entrega incluida.";
@@ -59,7 +60,7 @@ const otrosInflables = [
 
   <section class="section" style="padding-top:1rem;">
     <div class="container">
-      <div class="product-hero">
+      <div class="product-hero__grid">
         <div class="product-hero__image" style={`background: linear-gradient(135deg, ${inflable.gradient});`}>
           <div class="img-placeholder">
             <span style="font-size:5rem;">{inflable.emoji}</span>
@@ -75,11 +76,11 @@ const otrosInflables = [
             <span class="product-hero__spec">👥 {inflable.capacity}</span>
             <span class="product-hero__spec">⏱️ Instalación: {inflable.installTime}</span>
           </div>
-          <p style="margin-bottom:1.5rem; color:var(--color-text-light); line-height:1.7;">{inflable.desc}</p>
+          <p style="margin-bottom:1.5rem; color:var(--c-text-muted); line-height:1.7;">{inflable.desc}</p>
           <div class="product-hero__actions">
-            <a href="/cotizar" class="btn btn--primary">Cotizar ahora</a>
+            <a href="/cotizar" class="btn btn-primary">Cotizar ahora</a>
             <a href={`https://wa.me/5511111111?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}. ¿Tienen disponibilidad?`)}`}
-               class="btn btn--wa" target="_blank" rel="noopener">
+               class="btn btn-wa" target="_blank" rel="noopener">
               WhatsApp
             </a>
           </div>
@@ -91,7 +92,7 @@ const otrosInflables = [
   <section class="section section--alt">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-header__title">Características</h2>
+        <h2 class="section-title">Características</h2>
       </div>
       <div class="grid-3">
         {inflable.features.map((f: string) => (
@@ -107,9 +108,9 @@ const otrosInflables = [
   <section class="section">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-header__title">Requisitos técnicos</h2>
+        <h2 class="section-title">Requisitos técnicos</h2>
       </div>
-      <div style="max-width:600px; margin:0 auto; background:var(--color-bg-alt); padding:2rem; border-radius:var(--radius-card);">
+      <div style="max-width:600px; margin:0 auto; background:var(--c-bg-alt); padding:2rem; border-radius:var(--r-card);">
         <p><strong>📐 Espacio necesario:</strong> {inflable.size} (mínimo)</p>
         <p style="margin-top:.75rem;"><strong>⚡ Requisitos:</strong> {inflable.requirements}</p>
         <p style="margin-top:.75rem;"><strong>⏱️ Tiempo de instalación:</strong> {inflable.installTime}</p>
@@ -121,7 +122,7 @@ const otrosInflables = [
   <section class="section section--alt">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-header__title">Otros inflables que te pueden gustar</h2>
+        <h2 class="section-title">Otros inflables que te pueden gustar</h2>
       </div>
       <div class="grid-3">
         {otrosInflables.map(p => <ProductCard {...p} />)}
@@ -129,18 +130,14 @@ const otrosInflables = [
     </div>
   </section>
 
-  <section class="section section--dark" style="text-align:center;">
-    <div class="container">
-      <h2 style="margin-bottom:1rem;">¿Te interesa el {inflable.name}?</h2>
-      <p style="opacity:.9; margin-bottom:2rem;">Reserva ahora y asegura tu fecha. Respondemos en minutos.</p>
-      <div class="hero__actions">
-        <a href="/cotizar" class="btn btn--primary btn--lg">Solicitar cotización</a>
-        <a href={`https://wa.me/5511111111?text=${encodeURIComponent(`Hola, quiero rentar el ${inflable.name}.`)}`}
-           class="btn btn--wa btn--lg" target="_blank" rel="noopener">
-          WhatsApp directo
-        </a>
-      </div>
-    </div>
-  </section>
+  <CtaBanner
+  title={`¿Te interesa el ${inflable.name}?`}
+  subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos."
+  btnText="Solicitar cotización"
+  btnHref="/cotizar/"
+  btnSecondaryText="WhatsApp directo"
+  btnSecondaryHref={`https://wa.me/5511111111?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}.`)}`}
+  variant="vibrant"
+/>
 
 </PageLayout>

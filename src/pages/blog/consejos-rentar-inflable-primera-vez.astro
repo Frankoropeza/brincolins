@@ -1,0 +1,264 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Primera Vez Rentando un Inflable: Lo que Nadie te Dice | BRINCOLINS";
+const description = "Guía completa para quienes rentan un inflable por primera vez en CDMX. Depósito, espacio mínimo, conexión eléctrica, seguro y todo lo que nadie te dice antes de contratar.";
+
+const faqs = [
+  { question: "¿Qué necesito tener listo el día de la entrega?", answer: "Un acceso libre de al menos 1.5m de ancho para ingresar el inflable, una toma de corriente a menos de 30m, el espacio despejado y a alguien que pueda recibirnos. El anticipo ya fue cubierto, el resto se paga en efectivo o transferencia al llegar." },
+  { question: "¿Cuánto tiempo antes llegan a instalar?", answer: "Nuestro equipo llega 1-2 horas antes del inicio de la fiesta para instalar e inflar el equipo. El tiempo de instalación es de 30-45 minutos dependiendo del modelo. Al terminar el evento, vamos a recoger en 20-30 minutos." },
+  { question: "¿Qué pasa si el inflable se poncha durante la fiesta?", answer: "Nuestros inflables tienen seguro y en caso de falla técnica, nuestro equipo acude a resolver. Siempre llevamos equipo de respaldo y herramientas de reparación. En caso de falla total, hacemos ajuste proporcional al precio." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog", href: "/blog/" },
+    { name: "Primera vez rentando un inflable" },
+  ]}
+>
+
+  <!-- HERO -->
+  <section class="art-hero">
+    <div class="container">
+      <div class="art-hero__inner">
+        <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+        <div class="art-hero__cats">
+          <span class="section-badge">💡 Consejos</span>
+        </div>
+        <h1 class="art-hero__title">
+          Primera vez rentando un inflable: lo que nadie te dice
+        </h1>
+        <div class="art-hero__meta">
+          <span>📅 5 feb 2025</span>
+          <span class="art-hero__sep">·</span>
+          <span>⏱️ 6 min lectura</span>
+          <span class="art-hero__sep">·</span>
+          <span>✍️ Equipo BRINCOLINS</span>
+        </div>
+        <p class="art-hero__intro">
+          Depósito, espacio mínimo, conexión eléctrica, seguro, tiempo de instalación... Todo lo que debes saber antes de contratar tu primer inflable para no llevarte sorpresas el día de la fiesta.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <section class="section">
+    <div class="container">
+      <div class="art-layout">
+        <article class="art-body">
+
+          <h2>Lo que más preguntan los que rentan por primera vez</h2>
+          <p>
+            Llevamos más de 20 años rentando inflables en CDMX y Edomex. En ese tiempo hemos escuchado las mismas preguntas una y otra vez de papás que se acercan por primera vez. Esta guía es un resumen de todo lo que <strong>ojalá alguien te hubiera dicho antes</strong> de contratar.
+          </p>
+
+          <h2>1. El espacio importa más de lo que crees</h2>
+          <p>
+            El error número uno de los primerizos: no medir el espacio antes de reservar. Cada inflable tiene dimensiones específicas, y necesitas <strong>al menos 1 metro adicional en cada lado</strong> para que los niños puedan subir y bajar con seguridad.
+          </p>
+          <p>
+            Antes de llamarnos, mide el largo, ancho y altura disponible. Si es interior, verifica que el techo esté a mínimo 4 metros. Si es exterior, verifica que no haya ramas bajas, cables o obstáculos cerca.
+          </p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">📐</span>
+            <p><strong>Tip de oro:</strong> Toma fotos del espacio y mándanoslas por WhatsApp. Así podemos decirte en minutos si el inflable que quieres cabe perfectamente.</p>
+          </div>
+
+          <h2>2. La conexión eléctrica — el detalle que se olvida</h2>
+          <p>
+            Todos los inflables necesitan electricidad para el soplador. Necesitas:
+          </p>
+          <ul class="art-list">
+            <li>Una toma de corriente estándar (127V / 15A)</li>
+            <li>Que esté a menos de 30 metros del lugar donde irá el inflable</li>
+            <li>Que el circuito soporte la carga (de 500W a 1.5kW según el modelo)</li>
+          </ul>
+          <p>
+            Si tu evento es en un parque sin electricidad, consúltanos — tenemos disponibilidad de generador con costo adicional.
+          </p>
+
+          <h2>3. El anticipo y cómo funciona la reserva</h2>
+          <p>
+            Para apartar tu fecha necesitas cubrir el <strong>50% del costo total como anticipo</strong>. El restante se paga el día del evento, al momento de la instalación.
+          </p>
+          <p>
+            Aceptamos transferencia bancaria, Oxxo Pay y efectivo. El anticipo confirma tu fecha y modelo — sin él, el espacio sigue disponible para otros clientes.
+          </p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">💳</span>
+            <p>Reserva con tiempo. Los sábados y domingos de mayo y diciembre se agotan 2-3 semanas antes. No te arriesgues a quedarte sin inflable para la fiesta.</p>
+          </div>
+
+          <h2>4. ¿Qué incluye el servicio — y qué no?</h2>
+          <p>Sí incluye (sin costo extra):</p>
+          <ul class="art-list">
+            <li>✅ Traslado del inflable a tu domicilio</li>
+            <li>✅ Instalación y montaje profesional</li>
+            <li>✅ Soplador/motor durante todo el evento</li>
+            <li>✅ Revisión de seguridad antes de abrir</li>
+            <li>✅ Seguro de responsabilidad civil</li>
+            <li>✅ Desinstalación y recolección al finalizar</li>
+          </ul>
+          <p>No incluye (puede tener costo extra):</p>
+          <ul class="art-list">
+            <li>❌ Supervisión permanente de niños (responsabilidad de los padres)</li>
+            <li>❌ Generador eléctrico (si no hay toma de corriente)</li>
+            <li>❌ Horas extra más allá de las 8 horas estándar</li>
+            <li>❌ Zonas fuera del radio de cobertura estándar</li>
+          </ul>
+
+          <h2>5. La supervisión es tu responsabilidad</h2>
+          <p>
+            Nuestro equipo instala y revisa seguridad antes de iniciar, pero <strong>la supervisión de los niños durante el evento es responsabilidad de los adultos presentes</strong>. Algunas reglas básicas de seguridad que siempre comunicamos:
+          </p>
+          <ul class="art-list">
+            <li>No mezclar niños muy pequeños (2-3 años) con niños grandes en el mismo espacio sin supervisión</li>
+            <li>Quitar zapatos antes de subir al inflable</li>
+            <li>No empujar ni jalar a otros niños</li>
+            <li>Respetar el límite de capacidad (siempre informamos cuántos pueden estar adentro)</li>
+            <li>No subir con comida ni bebidas</li>
+          </ul>
+
+          <h2>6. ¿Qué pasa si llueve o necesito cancelar?</h2>
+          <p>
+            Entendemos que los imprevistos ocurren. Nuestra política:
+          </p>
+          <ul class="art-list">
+            <li>🌧️ <strong>Lluvia el día del evento:</strong> Reprogramamos sin costo adicional para la fecha disponible más cercana</li>
+            <li>📅 <strong>Cancelación con +48h:</strong> Reembolso del 100% del anticipo</li>
+            <li>⚡ <strong>Cancelación con menos de 48h:</strong> El anticipo se convierte en crédito para reprogramar (no reembolsable)</li>
+          </ul>
+
+          <h2>7. Lista de verificación para el día de la fiesta</h2>
+          <div class="art-checklist">
+            <label class="art-checklist__item"><input type="checkbox" /> Toma de corriente accesible y cerca del área del inflable</label>
+            <label class="art-checklist__item"><input type="checkbox" /> Espacio limpio y despejado (sin muebles, macetas ni obstáculos)</label>
+            <label class="art-checklist__item"><input type="checkbox" /> Acceso libre de mínimo 1.5m para entrar el inflable</label>
+            <label class="art-checklist__item"><input type="checkbox" /> Dinero para el saldo del pago (50% restante)</label>
+            <label class="art-checklist__item"><input type="checkbox" /> Un adulto disponible para recibir al equipo de instalación</label>
+            <label class="art-checklist__item"><input type="checkbox" /> Reglas de seguridad comunicadas a los papás de los invitados</label>
+          </div>
+
+        </article>
+
+        <!-- Sidebar -->
+        <aside class="art-sidebar">
+          <div class="art-sidebar__box">
+            <h3 class="art-sidebar__title">💡 ¿Tienes dudas?</h3>
+            <p class="art-sidebar__text">Escríbenos por WhatsApp. Te respondemos en minutos y resolvemos cualquier pregunta.</p>
+            <a
+              href="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20es%20mi%20primera%20vez%20rentando%20un%20inflable%20y%20tengo%20dudas."
+              class="btn btn-wa"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="width:100%;justify-content:center;"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Resolver mis dudas
+            </a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--links">
+            <h3 class="art-sidebar__title">🗂️ Más artículos</h3>
+            <a href="/blog/como-elegir-inflable-fiesta-infantil/" class="art-sidebar__link">→ Cómo elegir el inflable perfecto</a>
+            <a href="/blog/ideas-fiesta-infantil-cdmx/" class="art-sidebar__link">→ 10 ideas para fiesta infantil en CDMX</a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--cat">
+            <h3 class="art-sidebar__title">🎪 Para empezar</h3>
+            <a href="/inflables/mini-castillo/" class="art-sidebar__link">→ Mini Castillo — el más fácil de instalar</a>
+            <a href="/inflables/casa-brinco-jungla/" class="art-sidebar__link">→ Casa Brinco Jungla — temático y colorido</a>
+            <a href="/cotizar/" class="art-sidebar__link art-sidebar__link--cta">→ Cotizar mi primer inflable</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div style="max-width:800px; margin:0 auto;">
+        <h2 class="section-title" style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <CtaBanner
+    title="¿Todo claro? Renta tu primer inflable ahora"
+    subtitle="Nuestro equipo te guía paso a paso. Sin complicaciones, sin sorpresas."
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20es%20mi%20primera%20vez%20y%20quiero%20cotizar%20un%20inflable."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+    whatsapp={true}
+    external={true}
+  />
+
+</PageLayout>
+
+<style>
+  .art-hero {
+    background: linear-gradient(135deg, #f0f8ff 0%, #f0f0ff 100%);
+    padding: clamp(3rem, 8vw, 5rem) 0 clamp(2rem, 4vw, 3rem);
+    border-bottom: 1px solid var(--c-border);
+  }
+  .art-hero__inner { max-width: 760px; display: flex; flex-direction: column; gap: 1rem; }
+  .art-hero__back { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; }
+  .art-hero__back:hover { gap: 0.6rem; }
+  .art-hero__cats { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  .art-hero__title { font-family: var(--font-head); font-weight: 900; font-size: clamp(1.75rem, 4vw, 2.5rem); color: var(--c-text); line-height: 1.2; margin: 0; }
+  .art-hero__meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--c-text-muted); }
+  .art-hero__sep { opacity: 0.4; }
+  .art-hero__intro { font-size: 1.05rem; color: var(--c-text-muted); line-height: 1.7; margin: 0; max-width: 680px; }
+
+  .art-layout { display: grid; grid-template-columns: 1fr 320px; gap: 3rem; align-items: start; }
+  .art-body { min-width: 0; }
+  .art-body h2 { font-family: var(--font-head); font-weight: 800; font-size: clamp(1.25rem, 2.5vw, 1.5rem); color: var(--c-text); margin: 2.5rem 0 1rem; padding-top: 0.5rem; border-top: 3px solid #0288D1; }
+  .art-body h2:first-child { margin-top: 0; }
+  .art-body p { font-size: 1rem; line-height: 1.75; color: var(--c-text); margin: 0 0 1.25rem; }
+  .art-body strong { color: #0288D1; font-weight: 700; }
+
+  .art-tip { display: flex; gap: 1rem; align-items: flex-start; background: #f0f8ff; border-left: 4px solid #0288D1; border-radius: 0 var(--r-card) var(--r-card) 0; padding: 1.25rem 1.5rem; margin: 1.5rem 0; }
+  .art-tip__icon { font-size: 1.5rem; flex-shrink: 0; }
+  .art-tip p { margin: 0; font-size: 0.95rem; }
+
+  .art-list { padding-left: 1.5rem; margin: 0 0 1.25rem; display: flex; flex-direction: column; gap: 0.6rem; }
+  .art-list li { font-size: 1rem; line-height: 1.6; color: var(--c-text); list-style: disc; }
+
+  /* Checklist interactivo */
+  .art-checklist { display: flex; flex-direction: column; gap: 0.75rem; margin: 1rem 0 1.5rem; }
+  .art-checklist__item { display: flex; align-items: center; gap: 0.75rem; font-size: 0.95rem; color: var(--c-text); cursor: pointer; padding: 0.75rem 1rem; border: 1px solid var(--c-border); border-radius: 8px; transition: background 0.2s; }
+  .art-checklist__item:hover { background: var(--c-bg-alt); }
+  .art-checklist__item input[type="checkbox"] { width: 18px; height: 18px; cursor: pointer; accent-color: var(--c-primary); flex-shrink: 0; }
+
+  .art-sidebar { display: flex; flex-direction: column; gap: 1.5rem; position: sticky; top: 90px; }
+  .art-sidebar__box { background: var(--c-bg-alt); border: 1px solid var(--c-border); border-radius: var(--r-card); padding: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem; }
+  .art-sidebar__box--links, .art-sidebar__box--cat { gap: 0.5rem; }
+  .art-sidebar__title { font-family: var(--font-head); font-weight: 800; font-size: 1rem; color: var(--c-text); margin: 0; }
+  .art-sidebar__text { font-size: 0.9rem; color: var(--c-text-muted); line-height: 1.6; margin: 0; }
+  .art-sidebar__link { font-size: 0.88rem; color: var(--c-primary); font-weight: 600; text-decoration: none; padding: 0.35rem 0; display: block; border-bottom: 1px solid var(--c-border); transition: padding-left 0.2s; }
+  .art-sidebar__link:last-child { border-bottom: none; }
+  .art-sidebar__link:hover { padding-left: 0.4rem; }
+  .art-sidebar__link--cta { color: var(--c-secondary); font-weight: 800; }
+
+  @media (max-width: 960px) {
+    .art-layout { grid-template-columns: 1fr; }
+    .art-sidebar { position: static; }
+  }
+</style>

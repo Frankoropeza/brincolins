@@ -1,0 +1,140 @@
+---
+interface Props {
+  slug:     string;
+  emoji:    string;
+  category: string;
+  title:    string;
+  excerpt:  string;
+  date:     string;
+  readTime: string;
+  gradient: string;
+}
+
+const { slug, emoji, category, title, excerpt, date, readTime, gradient } = Astro.props;
+---
+
+<article class="blog-card">
+  <div class="blog-card__thumb" style={`background: ${gradient};`}>
+    <span class="blog-card__emoji" aria-hidden="true">{emoji}</span>
+    <span class="blog-card__cat">{category}</span>
+  </div>
+  <div class="blog-card__body">
+    <div class="blog-card__meta">
+      <time class="blog-card__date">{date}</time>
+      <span class="blog-card__sep" aria-hidden="true">·</span>
+      <span class="blog-card__time">{readTime} lectura</span>
+    </div>
+    <h3 class="blog-card__title">{title}</h3>
+    <p class="blog-card__excerpt">{excerpt}</p>
+    <a href={`/blog/${slug}/`} class="blog-card__link" aria-label={`Leer: ${title}`}>
+      Leer artículo
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+</article>
+
+<style>
+  .blog-card {
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .blog-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+  }
+
+  /* Thumbnail con degradado y emoji */
+  .blog-card__thumb {
+    position: relative;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .blog-card__emoji {
+    font-size: 3.5rem;
+    line-height: 1;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
+  }
+
+  .blog-card__cat {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: rgba(255,255,255,0.95);
+    color: var(--c-primary);
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--r-badge);
+  }
+
+  /* Cuerpo */
+  .blog-card__body {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    flex: 1;
+  }
+
+  .blog-card__meta {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    color: var(--c-text-muted);
+  }
+
+  .blog-card__sep { opacity: 0.5; }
+
+  .blog-card__title {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: var(--c-text);
+    line-height: 1.3;
+    margin: 0;
+  }
+
+  .blog-card__excerpt {
+    font-size: 0.9rem;
+    color: var(--c-text-muted);
+    line-height: 1.65;
+    margin: 0;
+    flex: 1;
+  }
+
+  /* Link al final */
+  .blog-card__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: var(--c-primary);
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-top: auto;
+    transition: gap 0.2s ease;
+  }
+
+  .blog-card__link:hover {
+    gap: 0.6rem;
+  }
+</style>

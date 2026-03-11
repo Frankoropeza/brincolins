@@ -1,0 +1,98 @@
+---
+interface Props {
+  badge: string;
+  title: string;
+  subtitle: string;
+  copy1: string;
+  copy2: string;
+}
+
+const { badge, title, subtitle, copy1, copy2 } = Astro.props;
+---
+
+<div class="sh">
+  <div class="sh__left">
+    <span class="section-badge">{badge}</span>
+    <h2 class="section-title">{title}</h2>
+    <hr class="section-separator" />
+    <p class="section-subtitle">{subtitle}</p>
+  </div>
+  <div class="sh__right">
+    <p class="sh__copy">{copy1}</p>
+    <p class="sh__copy">{copy2}</p>
+  </div>
+</div>
+
+<style>
+  .sh {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+    margin-bottom: 3.5rem;
+  }
+
+  .sh__left {
+    text-align: left;
+  }
+
+  .sh__right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding-top: 0.5rem;
+  }
+
+  .sh__copy {
+    font-size: 0.95rem;
+    line-height: 1.75;
+    color: var(--c-text-muted);
+    margin: 0;
+  }
+
+  .sh__copy strong {
+    color: var(--c-primary);
+    font-weight: 700;
+  }
+
+  .sh .section-badge {
+    margin-bottom: 0.75rem;
+  }
+
+  .sh .section-title {
+    text-align: left;
+  }
+
+  .sh .section-separator {
+    margin: 0 0 1rem;
+  }
+
+  .sh .section-subtitle {
+    text-align: left;
+    margin: 0;
+  }
+
+  @media (max-width: 900px) {
+    .sh {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .sh__left {
+      text-align: center;
+    }
+
+    .sh .section-title {
+      text-align: center;
+    }
+
+    .sh .section-separator {
+      margin: 0 auto 1rem;
+    }
+
+    .sh .section-subtitle {
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+</style>

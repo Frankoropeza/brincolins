@@ -1,6 +1,7 @@
 ---
 import PageLayout  from "@/layouts/PageLayout.astro";
 import ProductCard from "@/components/ProductCard.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
 
 const title = "Catálogo de Inflables para Renta | BRINCOLINS CDMX";
 const description = "Explora nuestro catálogo completo de inflables para renta: castillos, toboganes, barcos pirata y más. Desde $800 MXN con entrega incluida en CDMX y Edomex.";
@@ -12,6 +13,8 @@ const productos = [
   { slug: "casa-brinco-jungla", emoji: "🌴", name: "Casa Brinco Jungla", description: "Temática selvática con animales y vegetación. Ideal para fiestas al aire libre.", price: "$850", size: "4×4m", ages: "3-8 años", category: "Aventura", categoryColor: "jungla", gradient: "#2E7D32, #1B5E20" },
   { slug: "tobogan-acuatico", emoji: "💦", name: "Tobogán Acuático", description: "Diversión refrescante con tobogán y chapoteadero incluido. Perfecto para días calurosos.", price: "$1,200", size: "6×4m", ages: "5-12 años", category: "Acuáticos", categoryColor: "acuatico", gradient: "#0288D1, #01579B" },
   { slug: "inflable-deportivo", emoji: "⚽", name: "Inflable Deportivo", description: "Cancha de fútbol inflable con porterías. Para los pequeños deportistas de la fiesta.", price: "$1,100", size: "5×5m", ages: "6-14 años", category: "Deportivos", categoryColor: "deportivo", gradient: "#FF6F00, #E65100" },
+  { slug: "castillo-medieval", emoji: "🏯", name: "Castillo Medieval", description: "Imponente castillo con torres, puente levadizo y área de juego amplia para los caballeros.", price: "$1,000", size: "5×5m", ages: "4-12 años", category: "Castillos", categoryColor: "castillo", gradient: "#FF3D00, #ff6d3f" },
+  { slug: "pista-obstaculos", emoji: "🏁", name: "Pista de Obstáculos", description: "Circuito inflable con túneles, muros y rampas. Ideal para competencias y diversión extrema.", price: "$1,300", size: "8×4m", ages: "5-14 años", category: "Deportivos", categoryColor: "deportivo", gradient: "#FF6F00, #E65100" },
 ];
 ---
 
@@ -25,20 +28,37 @@ const productos = [
   ]}
 >
 
-  <!-- Hero -->
   <section class="hero" style="padding:clamp(5rem,8vw,6rem) 0 clamp(2rem,4vw,3rem);">
-    <div class="container" style="text-align:center;">
-      <span class="hero__badge">🎈 Catálogo completo</span>
-      <h1 class="hero__title" style="max-width:700px;margin:0 auto 1rem;">
-        Catálogo de <span class="highlight">Inflables</span>
-      </h1>
-      <p class="hero__desc" style="margin:0 auto 0;text-align:center;">
-        Todos nuestros inflables incluyen entrega, instalación, limpieza y seguro. Elige el tuyo.
-      </p>
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🎈 Catálogo completo</span>
+          <h1 class="hero__title">
+            Catálogo de <span class="highlight">Inflables</span>
+          </h1>
+          <p class="hero__desc">
+            Todos nuestros inflables incluyen entrega, instalación, limpieza y seguro. Elige el tuyo.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              Cotizar por WhatsApp
+            </a>
+            <a href="/cotizar/" class="btn btn-outline btn-lg">Solicitar cotización</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Contamos con la mayor variedad de <strong>brincolines e inflables para renta</strong> en CDMX y Estado de México. Desde castillos clásicos hasta toboganes acuáticos y pistas de obstáculos.
+          </p>
+          <p class="hero__copy-text">
+            Todos nuestros inflables pasan por un riguroso proceso de limpieza y mantenimiento antes de cada evento. Fabricados con materiales de grado comercial y certificados en seguridad.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Breadcrumbs -->
   <div class="container">
     <nav class="breadcrumbs" aria-label="Ruta de navegación">
       <a href="/">Inicio</a>
@@ -47,30 +67,24 @@ const productos = [
     </nav>
   </div>
 
-  <!-- Grid de productos -->
   <section class="section" style="padding-top:1.5rem;">
     <div class="container">
-      <div class="grid-3">
+      <div class="grid-4">
         {productos.map(p => <ProductCard {...p} />)}
       </div>
     </div>
   </section>
 
-  <!-- CTA -->
-  <section class="cta-final">
-    <div class="container">
-      <h2 class="cta-final__title">¿No encuentras lo que buscas?</h2>
-      <p class="cta-final__desc">
-        Tenemos más opciones disponibles. Contáctanos y te ayudamos a encontrar el inflable ideal para tu evento.
-      </p>
-      <div class="cta-final__buttons">
-        <a href="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20busco%20un%20inflable%20especial%20para%20mi%20evento."
-           class="btn btn-white btn-lg" target="_blank" rel="noopener noreferrer">
-          Preguntar por WhatsApp
-        </a>
-        <a href="/cotizar/" class="btn btn-outline--white btn-lg">Solicitar cotización</a>
-      </div>
-    </div>
-  </section>
+  <CtaBanner
+    title="¿No encuentras lo que buscas?"
+    subtitle="Tenemos más opciones disponibles. Contáctanos y te ayudamos a encontrar el inflable ideal."
+    btnText="Preguntar por WhatsApp"
+    btnHref="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20busco%20un%20inflable%20especial%20para%20mi%20evento."
+    btnSecondaryText="Solicitar cotización"
+    btnSecondaryHref="/cotizar/"
+    variant="warm"
+    whatsapp={true}
+    external={true}
+  />
 
 </PageLayout>

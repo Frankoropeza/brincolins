@@ -1,0 +1,290 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "10 Ideas para Organizar una Fiesta Infantil Épica en CDMX | BRINCOLINS";
+const description = "Ideas prácticas para planear la mejor fiesta infantil en Ciudad de México: temáticas, inflables, menú, decoración y más. Guía paso a paso del equipo BRINCOLINS.";
+
+const faqs = [
+  { question: "¿Cuánto tiempo antes debo planear la fiesta?", answer: "Lo ideal es empezar a planear con 4-6 semanas de anticipación. Los fines de semana de temporada alta (mayo, diciembre) se reservan muy rápido, así que entre más pronto reserves tu inflable, mejor." },
+  { question: "¿Cuánto cuesta en promedio una fiesta infantil en CDMX?", answer: "Depende del tamaño y la producción. Una fiesta sencilla (salón + inflable + comida) puede costar desde $5,000 MXN. Una fiesta más elaborada con temática, pastel personalizado y animación puede llegar a $15,000-$25,000 MXN." },
+  { question: "¿Puedo combinar un inflable con otras actividades?", answer: "¡Claro! De hecho lo recomendamos. Un inflable más una piñata, juegos de mesa y música hacen una fiesta redonda para niños de todas las edades. El inflable generalmente ocupa a los niños 2-3 horas." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog", href: "/blog/" },
+    { name: "10 ideas para fiesta infantil en CDMX" },
+  ]}
+>
+
+  <!-- HERO ARTÍCULO -->
+  <section class="art-hero">
+    <div class="container">
+      <div class="art-hero__inner">
+        <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+        <div class="art-hero__cats">
+          <span class="section-badge">🎉 Ideas</span>
+        </div>
+        <h1 class="art-hero__title">
+          10 ideas para organizar una fiesta infantil épica en CDMX
+        </h1>
+        <div class="art-hero__meta">
+          <span>📅 20 feb 2025</span>
+          <span class="art-hero__sep">·</span>
+          <span>⏱️ 7 min lectura</span>
+          <span class="art-hero__sep">·</span>
+          <span>✍️ Equipo BRINCOLINS</span>
+        </div>
+        <p class="art-hero__intro">
+          Desde la temática hasta el menú y el inflable: ideas prácticas para planear un cumpleaños que los niños de CDMX recordarán toda la vida, sin volverte loco en el proceso.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <section class="section">
+    <div class="container">
+      <div class="art-layout">
+        <!-- Artículo -->
+        <article class="art-body">
+
+          <h2>Idea #1: Define la temática desde el principio</h2>
+          <p>
+            Antes de comprar un solo globo, <strong>pregúntale al cumpleañero qué temática quiere</strong>. Los niños tienen ideas muy claras (dinosaurios, princesas, Minecraft, Spider-Man) y cuando la fiesta gira alrededor de su personaje favorito, la magia es real. La temática guía todo lo demás: el inflable, la decoración, el pastel y hasta el menú.
+          </p>
+
+          <h2>Idea #2: El inflable como estrella central</h2>
+          <p>
+            Un brincolín no es solo diversión — es el centro de atención de la fiesta y mantiene a los niños ocupados durante horas. Elige un inflable que <strong>vaya con la temática</strong>: el Castillo de Princesas para fiestas de cuento de hadas, el Barco Pirata para aventureros, o el Tobogán Acuático para fiestas de verano.
+          </p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">💡</span>
+            <p>El inflable suele ocupar a los niños 2-3 horas seguidas. Colócalo lejos de la mesa de adultos para que los papás puedan platicar con calma.</p>
+          </div>
+
+          <h2>Idea #3: Elige el espacio correcto para CDMX</h2>
+          <p>
+            En la Ciudad de México tienes varias opciones de espacio. Cada una tiene ventajas:
+          </p>
+          <ul class="art-list">
+            <li><strong>Jardín en casa:</strong> Lo más económico, mayor libertad, pero requiere espacio mínimo de 4×4m para un inflable básico</li>
+            <li><strong>Salón de fiestas:</strong> Incluye instalaciones, meseros y cocina, pero necesitas confirmar que acepten inflables externos</li>
+            <li><strong>Parque o jardín público:</strong> Ambiente natural y amplio, pero necesitas generador de electricidad para el inflable</li>
+            <li><strong>Azotea:</strong> Muy de moda en Condesa, Roma y Polanco. Verifica el piso (necesita ser liso) y la altura libre</li>
+          </ul>
+
+          <h2>Idea #4: El menú infantil que siempre funciona</h2>
+          <p>
+            No necesitas contratar un chef para dar de comer bien en una fiesta infantil. Los menús más exitosos son los más sencillos:
+          </p>
+          <ul class="art-list">
+            <li>🌮 <strong>Taquiza:</strong> El favorito de México. Fácil de servir, económico, todos comen.</li>
+            <li>🍕 <strong>Pizza:</strong> Ideal para niños de 6+ años. Ordena con 48h de anticipación.</li>
+            <li>🌭 <strong>Hotdogs/hamburguesas:</strong> Rápidos de preparar en casa. Los niños los adoran.</li>
+            <li>🍉 <strong>Fruta y verduras:</strong> Un puesto de fruta fresca siempre es bienvenido, especialmente si hay tobogán acuático.</li>
+          </ul>
+
+          <h2>Idea #5: Actividades fuera del inflable</h2>
+          <p>
+            El inflable es la estrella, pero tener actividades adicionales hace que la fiesta fluya mejor, especialmente cuando algunos niños no quieren brincar:
+          </p>
+          <ul class="art-list">
+            <li>🎭 Mago o payaso (30-45 min de show)</li>
+            <li>🎨 Taller de manualidades o pintura</li>
+            <li>🎯 Piñata (el clásico que nunca falla)</li>
+            <li>🎵 Karaoke infantil</li>
+            <li>🎮 Zona de videojuegos para los más grandes</li>
+          </ul>
+
+          <h2>Idea #6: Timing perfecto — el orden importa</h2>
+          <p>
+            Una fiesta infantil bien organizada sigue un ritmo. Aquí un horario tipo para 4 horas de fiesta:
+          </p>
+          <div class="art-timeline">
+            <div class="art-timeline__item">
+              <span class="art-timeline__time">0:00</span>
+              <div class="art-timeline__content">
+                <strong>Llegada de invitados</strong> — Recepción, mesa de dulces, inflable disponible
+              </div>
+            </div>
+            <div class="art-timeline__item">
+              <span class="art-timeline__time">1:00</span>
+              <div class="art-timeline__content">
+                <strong>Show o actividad central</strong> — Mago, payaso o actividad especial
+              </div>
+            </div>
+            <div class="art-timeline__item">
+              <span class="art-timeline__time">2:00</span>
+              <div class="art-timeline__content">
+                <strong>Comida</strong> — Tiempo de comer, el inflable sigue disponible para quienes no tienen hambre
+              </div>
+            </div>
+            <div class="art-timeline__item">
+              <span class="art-timeline__time">3:00</span>
+              <div class="art-timeline__content">
+                <strong>Pastel y piñata</strong> — El momento cumbre. Las velitas, el Happy Birthday, la piñata.
+              </div>
+            </div>
+            <div class="art-timeline__item">
+              <span class="art-timeline__time">3:30</span>
+              <div class="art-timeline__content">
+                <strong>Tiempo libre</strong> — Inflable, regalos, despedidas
+              </div>
+            </div>
+          </div>
+
+          <h2>Idea #7: Invitaciones digitales = ahorro real</h2>
+          <p>
+            Las invitaciones digitales (WhatsApp, Canva, Instagram) son gratuitas, llegan al instante y puedes confirmar asistencia fácilmente. Ahorra el presupuesto de impresión para el pastel o los recuerditos.
+          </p>
+
+          <h2>Idea #8: Recuerditos que no cuestan una fortuna</h2>
+          <p>
+            Los recuerditos no tienen que ser caros. Algunas ideas económicas que los niños adoran:
+          </p>
+          <ul class="art-list">
+            <li>🍬 Bolsita de dulces personalizada (desde $20 por bolsita)</li>
+            <li>🎨 Lo que hicieron en el taller de manualidades</li>
+            <li>📷 Foto impresa del cumpleañero con el inflable</li>
+            <li>🌱 Semillas o planta pequeña (tendencia eco-friendly)</li>
+          </ul>
+
+          <h2>Idea #9: Zona de descanso para adultos</h2>
+          <p>
+            Los papás también necesitan su espacio. Coloca una zona cómoda con sillas, mesa y quizás una botana de adultos lejos del ruido del inflable. Una fiesta donde los adultos también están cómodos = una fiesta exitosa.
+          </p>
+
+          <h2>Idea #10: Contrata con anticipación</h2>
+          <p>
+            Los fines de semana de mayo (el mes con más cumpleaños en México) y diciembre se agotan muy rápido. <strong>Reserva tu inflable con al menos 2-3 semanas de anticipación</strong>. Con solo 50% de anticipo, tu fecha queda apartada.
+          </p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">📅</span>
+            <p>¿Tienes ya la fecha del evento? Escríbenos por WhatsApp ahora para revisar disponibilidad. Los fines de semana se reservan muy rápido.</p>
+          </div>
+
+        </article>
+
+        <!-- Sidebar -->
+        <aside class="art-sidebar">
+          <div class="art-sidebar__box">
+            <h3 class="art-sidebar__title">🎈 ¿Ya tienes fecha?</h3>
+            <p class="art-sidebar__text">Reserva tu inflable antes de que se agenden otros eventos en tu zona.</p>
+            <a
+              href="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20revisar%20disponibilidad%20para%20mi%20fiesta."
+              class="btn btn-wa"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="width:100%;justify-content:center;"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Revisar disponibilidad
+            </a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--links">
+            <h3 class="art-sidebar__title">🗂️ Más artículos</h3>
+            <a href="/blog/como-elegir-inflable-fiesta-infantil/" class="art-sidebar__link">→ Cómo elegir el inflable perfecto</a>
+            <a href="/blog/consejos-rentar-inflable-primera-vez/" class="art-sidebar__link">→ Primera vez rentando: lo que nadie te dice</a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--cat">
+            <h3 class="art-sidebar__title">🎪 Inflables populares</h3>
+            <a href="/inflables/barco-pirata/" class="art-sidebar__link">→ Barco Pirata — desde $950</a>
+            <a href="/inflables/castillo-princesas/" class="art-sidebar__link">→ Castillo Princesas — desde $900</a>
+            <a href="/inflables/tobogan-acuatico/" class="art-sidebar__link">→ Tobogán Acuático — desde $1,200</a>
+            <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Ver catálogo completo</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div style="max-width:800px; margin:0 auto;">
+        <h2 class="section-title" style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <CtaBanner
+    title="🎉 ¡Haz que la fiesta sea épica!"
+    subtitle="Renta el inflable perfecto y sorprende a los niños. Respondemos en minutos."
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20organizar%20una%20fiesta%20infantil."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="festa"
+    whatsapp={true}
+    external={true}
+  />
+
+</PageLayout>
+
+<style>
+  .art-hero {
+    background: linear-gradient(135deg, #fff8ff 0%, #f5f0ff 100%);
+    padding: clamp(3rem, 8vw, 5rem) 0 clamp(2rem, 4vw, 3rem);
+    border-bottom: 1px solid var(--c-border);
+  }
+  .art-hero__inner { max-width: 760px; display: flex; flex-direction: column; gap: 1rem; }
+  .art-hero__back { font-size: 0.85rem; color: var(--c-secondary); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; }
+  .art-hero__back:hover { gap: 0.6rem; }
+  .art-hero__cats { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  .art-hero__title { font-family: var(--font-head); font-weight: 900; font-size: clamp(1.75rem, 4vw, 2.5rem); color: var(--c-text); line-height: 1.2; margin: 0; }
+  .art-hero__meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--c-text-muted); }
+  .art-hero__sep { opacity: 0.4; }
+  .art-hero__intro { font-size: 1.05rem; color: var(--c-text-muted); line-height: 1.7; margin: 0; max-width: 680px; }
+
+  .art-layout { display: grid; grid-template-columns: 1fr 320px; gap: 3rem; align-items: start; }
+  .art-body { min-width: 0; }
+  .art-body h2 { font-family: var(--font-head); font-weight: 800; font-size: clamp(1.25rem, 2.5vw, 1.5rem); color: var(--c-text); margin: 2.5rem 0 1rem; padding-top: 0.5rem; border-top: 3px solid var(--c-secondary); }
+  .art-body h2:first-child { margin-top: 0; }
+  .art-body p { font-size: 1rem; line-height: 1.75; color: var(--c-text); margin: 0 0 1.25rem; }
+  .art-body strong { color: var(--c-secondary); font-weight: 700; }
+
+  .art-tip { display: flex; gap: 1rem; align-items: flex-start; background: #f5f0ff; border-left: 4px solid var(--c-secondary); border-radius: 0 var(--r-card) var(--r-card) 0; padding: 1.25rem 1.5rem; margin: 1.5rem 0; }
+  .art-tip__icon { font-size: 1.5rem; flex-shrink: 0; }
+  .art-tip p { margin: 0; font-size: 0.95rem; }
+
+  .art-list { padding-left: 1.5rem; margin: 0 0 1.25rem; display: flex; flex-direction: column; gap: 0.6rem; }
+  .art-list li { font-size: 1rem; line-height: 1.6; color: var(--c-text); list-style: disc; }
+
+  /* Timeline */
+  .art-timeline { display: flex; flex-direction: column; gap: 0; margin: 1rem 0 1.5rem; }
+  .art-timeline__item { display: flex; gap: 1.5rem; align-items: flex-start; padding: 1rem 0; border-bottom: 1px solid var(--c-border); }
+  .art-timeline__item:last-child { border-bottom: none; }
+  .art-timeline__time { font-family: var(--font-head); font-weight: 900; font-size: 1rem; color: var(--c-secondary); flex-shrink: 0; min-width: 3rem; }
+  .art-timeline__content { font-size: 0.95rem; line-height: 1.6; color: var(--c-text); }
+
+  .art-sidebar { display: flex; flex-direction: column; gap: 1.5rem; position: sticky; top: 90px; }
+  .art-sidebar__box { background: var(--c-bg-alt); border: 1px solid var(--c-border); border-radius: var(--r-card); padding: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem; }
+  .art-sidebar__box--links, .art-sidebar__box--cat { gap: 0.5rem; }
+  .art-sidebar__title { font-family: var(--font-head); font-weight: 800; font-size: 1rem; color: var(--c-text); margin: 0; }
+  .art-sidebar__text { font-size: 0.9rem; color: var(--c-text-muted); line-height: 1.6; margin: 0; }
+  .art-sidebar__link { font-size: 0.88rem; color: var(--c-secondary); font-weight: 600; text-decoration: none; padding: 0.35rem 0; display: block; border-bottom: 1px solid var(--c-border); transition: padding-left 0.2s; }
+  .art-sidebar__link:last-child { border-bottom: none; }
+  .art-sidebar__link:hover { padding-left: 0.4rem; }
+  .art-sidebar__link--cta { color: var(--c-primary); font-weight: 800; }
+
+  @media (max-width: 960px) {
+    .art-layout { grid-template-columns: 1fr; }
+    .art-sidebar { position: static; }
+  }
+</style>

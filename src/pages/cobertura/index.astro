@@ -1,5 +1,7 @@
 ---
 import PageLayout from "@/layouts/PageLayout.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
 
 const title = "Zonas de Cobertura | BRINCOLINS - Renta de Inflables CDMX y Edomex";
 const description = "Entregamos inflables en toda la CDMX (16 alcaldías) y principales municipios del Estado de México. Consulta si llegamos a tu zona.";
@@ -63,30 +65,59 @@ const serviceAreaSchema = {
 
   <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
     <div class="container">
-      <h1 class="hero__title">Zonas de Cobertura</h1>
-      <p class="hero__subtitle">Entregamos inflables en toda la CDMX y principales municipios del Estado de México.</p>
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">📍 Cobertura</span>
+          <h1 class="hero__title">Zonas de <span class="highlight">Cobertura</span></h1>
+          <p class="hero__desc">
+            Entregamos inflables en toda la CDMX y principales municipios del Estado de México.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20saber%20si%20entregan%20en%20mi%20zona."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              Consultar mi zona
+            </a>
+            <a href="/cotizar/" class="btn btn-outline btn-lg">Solicitar cotización</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Nuestra flota de transporte cubre las <strong>16 alcaldías de la Ciudad de México</strong> y los principales municipios del Estado de México. Ya sea que estés en Polanco, Coyoacán, Naucalpan o Ecatepec, llevamos el inflable hasta la puerta de tu evento.
+          </p>
+          <p class="hero__copy-text">
+            Contamos con rutas optimizadas y un equipo logístico que garantiza puntualidad en cada entrega. Si tu zona no aparece en la lista, contáctanos — frecuentemente cubrimos zonas adicionales bajo consulta.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
+      <SectionHeader
+        badge="🏙️ CDMX y Edomex"
+        title="Áreas de servicio"
+        subtitle="Cubrimos las 16 alcaldías de CDMX y principales municipios del Edomex."
+        copy1="Nuestra cobertura se extiende a lo largo y ancho de la Zona Metropolitana del Valle de México. Entrega sin costo adicional en la mayoría de las zonas céntricas de CDMX."
+        copy2="Para el Estado de México, el costo de envío varía según la distancia. Consulta tu zona específica para obtener una cotización precisa con entrega incluida."
+      />
       <div class="grid-2">
         <div>
-          <h2 style="margin-bottom:1.5rem; color:var(--color-primary);">📍 Ciudad de México — 16 Alcaldías</h2>
-          <p style="color:var(--color-text-light); margin-bottom:1.5rem; line-height:1.7;">
+          <h3 style="margin-bottom:1rem; color:var(--c-primary); font-family:var(--font-head); font-weight:800;">Ciudad de México — 16 Alcaldías</h3>
+          <p style="color:var(--c-text-muted); margin-bottom:1.5rem; line-height:1.7; font-size:0.9rem;">
             Cubrimos las 16 alcaldías de la Ciudad de México. Entrega sin costo adicional en la mayoría de las zonas.
           </p>
-          <div class="zone-tags">
-            {alcaldias.map(z => <span class="zone-tag">{z}</span>)}
+          <div class="coverage__badges">
+            {alcaldias.map(z => <span class="coverage__badge">{z}</span>)}
           </div>
         </div>
         <div>
-          <h2 style="margin-bottom:1.5rem; color:var(--color-secondary);">📍 Estado de México — Municipios principales</h2>
-          <p style="color:var(--color-text-light); margin-bottom:1.5rem; line-height:1.7;">
+          <h3 style="margin-bottom:1rem; color:var(--c-secondary); font-family:var(--font-head); font-weight:800;">Estado de México — Municipios principales</h3>
+          <p style="color:var(--c-text-muted); margin-bottom:1.5rem; line-height:1.7; font-size:0.9rem;">
             También entregamos en los principales municipios del Edomex. Consulta el costo de envío para tu zona.
           </p>
-          <div class="zone-tags">
-            {municipios.map(z => <span class="zone-tag">{z}</span>)}
+          <div class="coverage__badges">
+            {municipios.map(z => <span class="coverage__badge">{z}</span>)}
           </div>
         </div>
       </div>
@@ -95,51 +126,58 @@ const serviceAreaSchema = {
 
   <section class="section section--alt">
     <div class="container">
-      <div style="max-width:700px; margin:0 auto; text-align:center;">
-        <h2 style="margin-bottom:1rem;">Costos de envío</h2>
-        <div style="background:#fff; border-radius:var(--radius-card); padding:2rem; box-shadow:var(--shadow-card);">
-          <div class="grid-3" style="text-align:center; gap:1.5rem;">
-            <div>
-              <div style="font-size:2rem; margin-bottom:.5rem;">🟢</div>
-              <h3 style="font-size:1rem; margin-bottom:.25rem;">Zona Centro CDMX</h3>
-              <p style="color:var(--color-fun); font-weight:800; font-size:1.1rem;">Gratis</p>
-              <p style="font-size:.8rem; color:var(--color-text-light);">Benito Juárez, Coyoacán, Cuauhtémoc, Miguel Hidalgo</p>
-            </div>
-            <div>
-              <div style="font-size:2rem; margin-bottom:.5rem;">🟡</div>
-              <h3 style="font-size:1rem; margin-bottom:.25rem;">Resto CDMX</h3>
-              <p style="color:var(--color-accent); font-weight:800; font-size:1.1rem;">$100 - $200</p>
-              <p style="font-size:.8rem; color:var(--color-text-light);">Demás alcaldías de la CDMX</p>
-            </div>
-            <div>
-              <div style="font-size:2rem; margin-bottom:.5rem;">🟠</div>
-              <h3 style="font-size:1rem; margin-bottom:.25rem;">Estado de México</h3>
-              <p style="color:var(--color-primary); font-weight:800; font-size:1.1rem;">$200 - $500</p>
-              <p style="font-size:.8rem; color:var(--color-text-light);">Según distancia al municipio</p>
-            </div>
+      <SectionHeader
+        badge="💰 Costos"
+        title="Costos de envío"
+        subtitle="Entrega incluida en zonas céntricas. Consulta tu zona."
+        copy1="Nuestro objetivo es que el costo de envío nunca sea un obstáculo. Por eso ofrecemos entrega gratuita en las principales alcaldías de la CDMX y precios accesibles para el resto de la zona metropolitana."
+        copy2="Si tu zona no aparece en la lista o tienes dudas sobre el costo de envío, escríbenos por WhatsApp y te confirmamos disponibilidad y precio en minutos."
+      />
+      <div class="grid-3" style="max-width:900px; margin:0 auto;">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #2E7D32);">
+            <span class="why-card__img-label">GRATIS</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Zona Centro CDMX</h3>
+            <p class="why-card__desc">Benito Juárez, Coyoacán, Cuauhtémoc, Miguel Hidalgo</p>
           </div>
         </div>
-        <p style="margin-top:1.5rem; color:var(--color-text-light); font-size:.9rem;">
-          ¿No ves tu zona? Contáctanos y con gusto verificamos si podemos llegar a tu ubicación.
-        </p>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FFD600, #FF6F00);">
+            <span class="why-card__img-label">$100-$200</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Resto CDMX</h3>
+            <p class="why-card__desc">Demás alcaldías de la Ciudad de México</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+            <span class="why-card__img-label">$200-$500</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Estado de México</h3>
+            <p class="why-card__desc">Según distancia al municipio de entrega</p>
+          </div>
+        </div>
       </div>
+      <p style="text-align:center; margin-top:1.5rem; color:var(--c-text-muted); font-size:.9rem;">
+        ¿No ves tu zona? Contáctanos y con gusto verificamos si podemos llegar a tu ubicación.
+      </p>
     </div>
   </section>
 
-  <section class="section section--dark" style="text-align:center;">
-    <div class="container">
-      <h2 style="margin-bottom:1rem;">¿Entregamos en tu zona?</h2>
-      <p style="opacity:.9; margin-bottom:2rem; max-width:500px; margin-left:auto; margin-right:auto;">
-        Escríbenos tu colonia o municipio y te confirmamos disponibilidad y costo de envío al instante.
-      </p>
-      <div class="hero__actions">
-        <a href="/cotizar" class="btn btn--primary btn--lg">Solicitar cotización</a>
-        <a href="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20saber%20si%20entregan%20en%20mi%20zona."
-           class="btn btn--wa btn--lg" target="_blank" rel="noopener">
-          Consultar por WhatsApp
-        </a>
-      </div>
-    </div>
-  </section>
+  <CtaBanner
+    title="¿Entregamos en tu zona?"
+    subtitle="Escríbenos tu colonia o municipio y te confirmamos disponibilidad y costo de envío al instante."
+    btnText="Consultar por WhatsApp"
+    btnHref="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20saber%20si%20entregan%20en%20mi%20zona."
+    btnSecondaryText="Solicitar cotización"
+    btnSecondaryHref="/cotizar/"
+    variant="cool"
+    whatsapp={true}
+    external={true}
+  />
 
 </PageLayout>

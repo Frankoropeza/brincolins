@@ -1,0 +1,265 @@
+---
+import PageLayout  from "@/layouts/PageLayout.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner   from "@/components/CtaBanner.astro";
+import BlogCard    from "@/components/BlogCard.astro";
+
+const title       = "Blog de Inflables y Fiestas Infantiles | BRINCOLINS";
+const description = "Consejos, guías e ideas para organizar la mejor fiesta infantil en CDMX y Estado de México. Tips de renta de inflables, seguridad, decoración y más.";
+
+const articulos = [
+  {
+    slug:     "como-elegir-inflable-fiesta-infantil",
+    emoji:    "🎈",
+    category: "Guías",
+    title:    "Cómo elegir el inflable perfecto para tu fiesta infantil",
+    excerpt:  "Tamaño, edad, espacio disponible y presupuesto: todo lo que necesitas considerar para no equivocarte al rentar un brincolín en CDMX o Edomex.",
+    date:     "10 mar 2025",
+    readTime: "5 min",
+    gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)",
+  },
+  {
+    slug:     "ideas-fiesta-infantil-cdmx",
+    emoji:    "🎉",
+    category: "Ideas",
+    title:    "10 ideas para organizar una fiesta infantil épica en CDMX",
+    excerpt:  "Desde la temática hasta el menú y los inflables: ideas prácticas para planear un cumpleaños que los niños recordarán toda la vida.",
+    date:     "20 feb 2025",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #7C3AED, #E91E8C)",
+  },
+  {
+    slug:     "consejos-rentar-inflable-primera-vez",
+    emoji:    "💡",
+    category: "Consejos",
+    title:    "Primera vez rentando un inflable: lo que nadie te dice",
+    excerpt:  "Depósito, espacio mínimo, conexión eléctrica, seguro... Todo lo que debes saber antes de contratar un brincolín para no llevarte sorpresas.",
+    date:     "5 feb 2025",
+    readTime: "6 min",
+    gradient: "linear-gradient(135deg, #0288D1, #1565C0)",
+  },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog" },
+  ]}
+>
+
+  <!-- HERO DEL BLOG -->
+  <section class="blog-hero">
+    <div class="blog-hero__shapes">
+      <div class="blog-hero__shape blog-hero__shape--1"></div>
+      <div class="blog-hero__shape blog-hero__shape--2"></div>
+    </div>
+    <div class="container">
+      <div class="blog-hero__content">
+        <span class="section-badge">📝 Blog</span>
+        <h1 class="blog-hero__title">
+          Guías, Ideas y Consejos<br/>para tu <span class="blog-hero__highlight">Fiesta Perfecta</span>
+        </h1>
+        <p class="blog-hero__desc">
+          Tips de renta de inflables, ideas de decoración y todo lo que necesitas para organizar un cumpleaños épico en CDMX y Estado de México.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA COMPACTO -->
+  <CtaBanner
+    title="¿Ya tienes fecha? Reserva tu inflable ahora"
+    subtitle="Respondemos en minutos por WhatsApp. Entrega e instalación incluida."
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="warm"
+    whatsapp={true}
+    external={true}
+    compact={true}
+  />
+
+  <!-- ARTÍCULOS -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📰 Artículos"
+        title="Últimas publicaciones"
+        subtitle="Todo lo que necesitas saber para rentar inflables y organizar la mejor fiesta."
+        copy1="En BRINCOLINS no solo rentamos inflables — también queremos ayudarte a organizar el evento perfecto. Aquí encontrarás guías detalladas sobre cómo elegir el inflable ideal según la edad de los niños, el espacio disponible y el presupuesto con el que cuentas."
+        copy2="También compartimos ideas de decoración, consejos de seguridad y listas de verificación para que la organización de la fiesta sea sin estrés. Nuevo contenido cada mes, siempre enfocado en familias de CDMX y Estado de México."
+      />
+      <div class="grid-3">
+        {articulos.map(a => <BlogCard {...a} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORÍAS -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🗂️ Categorías"
+        title="Explora por tema"
+        subtitle="Encuentra exactamente lo que buscas."
+        copy1="Filtra los artículos por categoría para encontrar rápidamente la información que necesitas. Ya sea que vayas a organizar tu primer evento con inflable o seas un maestro de las fiestas infantiles, tenemos contenido para ti."
+        copy2="Todos nuestros artículos son escritos por el equipo de BRINCOLINS con más de 20 años de experiencia en renta de inflables para fiestas en la Zona Metropolitana del Valle de México."
+      />
+      <div class="grid-4">
+        <a href="/blog/como-elegir-inflable-fiesta-infantil/" class="cat-card">
+          <span class="cat-card__emoji" aria-hidden="true">🎈</span>
+          <span class="cat-card__label">Guías</span>
+          <span class="cat-card__count">1 artículo</span>
+        </a>
+        <a href="/blog/ideas-fiesta-infantil-cdmx/" class="cat-card">
+          <span class="cat-card__emoji" aria-hidden="true">🎉</span>
+          <span class="cat-card__label">Ideas</span>
+          <span class="cat-card__count">1 artículo</span>
+        </a>
+        <a href="/blog/consejos-rentar-inflable-primera-vez/" class="cat-card">
+          <span class="cat-card__emoji" aria-hidden="true">💡</span>
+          <span class="cat-card__label">Consejos</span>
+          <span class="cat-card__count">1 artículo</span>
+        </a>
+        <a href="/inflables/" class="cat-card cat-card--cta">
+          <span class="cat-card__emoji" aria-hidden="true">🛒</span>
+          <span class="cat-card__label">Ver inflables</span>
+          <span class="cat-card__count">Catálogo completo →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <CtaBanner
+    title="🎪 ¿Listo para la mejor fiesta de tu vida?"
+    subtitle="Renta tu inflable hoy. Entrega puntual, instalación profesional y seguro incluido."
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5511111111?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+    whatsapp={true}
+    external={true}
+  />
+
+</PageLayout>
+
+<style>
+  /* ── Hero del Blog ── */
+  .blog-hero {
+    position: relative;
+    padding: clamp(4rem, 10vw, 7rem) 0 clamp(3rem, 6vw, 5rem);
+    background: linear-gradient(135deg, #fff8f5 0%, #fff0f8 50%, #f5f0ff 100%);
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .blog-hero__shapes { pointer-events: none; }
+
+  .blog-hero__shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.08;
+  }
+
+  .blog-hero__shape--1 {
+    width: 400px;
+    height: 400px;
+    background: var(--c-primary);
+    top: -100px;
+    right: -80px;
+  }
+
+  .blog-hero__shape--2 {
+    width: 250px;
+    height: 250px;
+    background: var(--c-secondary);
+    bottom: -60px;
+    left: -40px;
+  }
+
+  .blog-hero__content {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+  }
+
+  .blog-hero__title {
+    font-family: var(--font-head);
+    font-weight: 900;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: var(--c-text);
+    line-height: 1.15;
+    margin: 0;
+  }
+
+  .blog-hero__highlight {
+    color: var(--c-primary);
+  }
+
+  .blog-hero__desc {
+    font-size: clamp(1rem, 2vw, 1.1rem);
+    color: var(--c-text-muted);
+    line-height: 1.7;
+    margin: 0;
+    max-width: 560px;
+  }
+
+  /* ── Categorías ── */
+  .cat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem 1.5rem;
+    background: var(--c-bg);
+    border: 2px solid var(--c-border);
+    border-radius: var(--r-card);
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.25s ease;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .cat-card:hover {
+    border-color: var(--c-primary);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-primary);
+  }
+
+  .cat-card--cta {
+    background: linear-gradient(135deg, #FF3D00, #FF6D00);
+    border-color: transparent;
+  }
+
+  .cat-card--cta .cat-card__label,
+  .cat-card--cta .cat-card__count {
+    color: #fff;
+  }
+
+  .cat-card__emoji { font-size: 2.25rem; line-height: 1; }
+
+  .cat-card__label {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 1rem;
+    color: var(--c-text);
+  }
+
+  .cat-card__count {
+    font-size: 0.8rem;
+    color: var(--c-text-muted);
+  }
+</style>
