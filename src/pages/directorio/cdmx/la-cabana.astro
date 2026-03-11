@@ -1,0 +1,160 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import VenueCard from "@/components/VenueCard.astro";
+import ProductCard from "@/components/ProductCard.astro";
+
+const title = "La Cabaña — Salón de Fiestas Infantiles en Iztapalapa | BRINCOLINS";
+const description = "La Cabaña: salón de fiestas infantiles en Iztapalapa, CDMX. ⭐ 4.6 en Google Maps. Capacidad 60–140 personas. Paquetes todo incluido. Teléfono: 55 1262 8816.";
+
+const salon = {
+  name: "La Cabaña",
+  zone: "Iztapalapa",
+  address: "C. Vicente Guerrero 31, San Juanico Nextipac, Iztapalapa, 09400 CDMX",
+  capacity: "60–140 personas",
+  phone: "55 1262 8816",
+  rating: "4.6",
+  highlight: "Estilo rústico con gran jardín",
+  gradient: "#795548, #4E342E",
+  features: [
+    { emoji: "🏡", name: "Ambiente rústico", desc: "Decoración rústica permanente con materiales naturales que crean un ambiente cálido y acogedor para cualquier celebración.", gradient: "#795548, #4E342E" },
+    { emoji: "🌳", name: "Jardín amplio", desc: "Extenso jardín al aire libre perfecto para actividades recreativas, inflables y fotos memorables.", gradient: "#2E7D32, #558B2F" },
+    { emoji: "🌮", name: "Taquiza incluida", desc: "Servicio de taquiza completo con variedad de guisados, salsas, complementos y bebidas para todos los invitados.", gradient: "#FF6F00, #FFD600" },
+    { emoji: "🅿️", name: "Estacionamiento", desc: "Amplio estacionamiento sin costo adicional para todos los invitados que lleguen en vehículo propio.", gradient: "#1565C0, #0288D1" },
+    { emoji: "🎶", name: "Sonido y música", desc: "Equipo de sonido profesional con bocinas de alta fidelidad y micrófono para animación durante el evento.", gradient: "#7C3AED, #9C27B0" },
+    { emoji: "🎪", name: "Área techada", desc: "Salón techado principal para proteger a los invitados del sol o la lluvia, con ventilación natural.", gradient: "#E91E8C, #FF3D00" },
+  ],
+  horario: "Martes a Domingo · 10:00 – 20:00",
+  gmapsQuery: "La+Cabana+San+Juanico+Nextipac+Iztapalapa+CDMX",
+};
+
+const salonesRelacionados = [
+  { slug: "tiger-kids", name: "Tiger Kids", zone: "Iztapalapa", rating: "4.7", capacity: "40–100 personas", phone: "55 5745 2919", gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)", label: "🐯", features: ["Juegos infantiles", "Área segura", "Paquetes todo incluido", "Estacionamiento"], highlight: "El mejor calificado de Iztapalapa" },
+  { slug: "el-potrero", name: "El Potrero", zone: "Iztapalapa", rating: "4.5", capacity: "80–200 personas", phone: "55 6465 1465", gradient: "linear-gradient(135deg, #FF3D00, #E91E8C)", label: "🎈", features: ["Gran capacidad", "Banquete completo", "DJ incluido", "Inflables propios"], highlight: "Ideal para fiestas grandes en Iztapalapa" },
+  { slug: "dino-kids", name: "Dino Kids", zone: "V. Carranza", rating: "4.6", capacity: "40–80 personas", phone: "55 9525 2096", gradient: "linear-gradient(135deg, #2E7D32, #558B2F)", label: "🦕", features: ["Temática dinosaurios", "Juegos seguros", "Piñatas incluidas", "Dulceros"], highlight: "Temática prehistórica única" },
+  { slug: "monkeys-playground", name: "Monkeys Playground", zone: "V. Carranza", rating: "4.6", capacity: "50–100 personas", phone: "56 2141 9918", gradient: "linear-gradient(135deg, #FFD600, #FF6F00)", label: "🐒", features: ["Playground moderno", "Área de bebés", "Salón climatizado", "Meseros"], highlight: "Moderno y familiar en Jardín Balbuena" },
+];
+
+const inflablesPopulares = [
+  { slug: "mini-castillo", emoji: "🏰", name: "Mini Castillo", description: "El clásico castillo inflable perfecto para fiestas infantiles.", price: "$800", size: "4×4m", ages: "3-8 años", category: "Castillos", categoryColor: "castillo", gradient: "#FF3D00, #ff6d3f" },
+  { slug: "castillo-princesas", emoji: "👸", name: "Castillo de Princesas", description: "Mágico castillo temático de princesas con torres y decoración especial.", price: "$900", size: "4×4m", ages: "3-8 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED" },
+  { slug: "barco-pirata", emoji: "🚢", name: "Barco Pirata", description: "Aventura en altamar con tobogán y cañón de espuma.", price: "$950", size: "5×4m", ages: "4-10 años", category: "Aventura", categoryColor: "pirata", gradient: "#1565C0, #0D47A1" },
+  { slug: "tobogan-acuatico", emoji: "💦", name: "Tobogán Acuático", description: "Diversión refrescante con tobogán y chapoteadero incluido.", price: "$1,200", size: "6×4m", ages: "5-12 años", category: "Acuáticos", categoryColor: "acuatico", gradient: "#0288D1, #01579B" },
+];
+
+const articulos = [
+  { slug: "como-elegir-inflable-fiesta-infantil", title: "Cómo elegir el inflable perfecto para tu fiesta" },
+  { slug: "ideas-fiesta-infantil-cdmx", title: "10 ideas para organizar una fiesta infantil en CDMX" },
+  { slug: "consejos-rentar-inflable-primera-vez", title: "Primera vez rentando un inflable: lo que nadie te dice" },
+];
+
+const salonSchema = { "@context": "https://schema.org", "@type": "LocalBusiness", "name": salon.name, "description": description, "address": { "@type": "PostalAddress", "streetAddress": salon.address, "addressLocality": salon.zone, "addressRegion": "CDMX", "addressCountry": "MX" }, "telephone": salon.phone, "aggregateRating": { "@type": "AggregateRating", "ratingValue": salon.rating, "bestRating": "5", "worstRating": "1" } };
+---
+
+<PageLayout title={title} description={description} pageType="page" breadcrumbs={[{ name: "Inicio", href: "/" }, { name: "Directorio", href: "/directorio/" }, { name: "CDMX", href: "/directorio/cdmx/" }, { name: salon.name }]}>
+
+  <script type="application/ld+json" set:html={JSON.stringify(salonSchema)} />
+
+  <div class="container"><nav class="breadcrumbs" aria-label="Ruta de navegación"><a href="/">Inicio</a><span class="breadcrumbs__sep">/</span><a href="/directorio/">Directorio</a><span class="breadcrumbs__sep">/</span><a href="/directorio/cdmx/">CDMX</a><span class="breadcrumbs__sep">/</span><span>{salon.name}</span></nav></div>
+
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;"><div class="container"><div class="hero__grid"><div><span class="hero__badge">⭐ {salon.rating} en Google Maps · {salon.zone}</span><h1 class="hero__title">{salon.name} — Salón de Fiestas <span class="highlight">Infantiles</span></h1><p class="hero__desc">Salón de fiestas infantiles en {salon.zone}, CDMX. {salon.highlight}. Capacidad para {salon.capacity}. Paquetes todo incluido con juegos, alimentos, decoración y más.</p><div class="hero__ctas"><a href={`tel:+52${salon.phone.replace(/\s/g, "")}`} class="btn btn-primary btn-lg">Llamar al salón</a><a href={`https://wa.me/52${salon.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${salon.name} para una fiesta infantil.`)}`} class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">WhatsApp del salón</a></div></div><div class="hero__copy"><p class="hero__copy-text"><strong>{salon.name}</strong> se ha consolidado como uno de los salones de fiestas infantiles con mejor reputación en {salon.zone}. Con una calificación de <strong>{salon.rating} estrellas en Google Maps</strong>, destaca por sus amplias instalaciones, su compromiso con la seguridad de los niños y la calidad de sus paquetes todo incluido que facilitan la organización de cualquier celebración.</p><p class="hero__copy-text">¿Ya reservaste tu fecha? Lleva la diversión al siguiente nivel con un inflable de <strong>BRINCOLINS</strong>. Entregamos, instalamos y recogemos directamente en {salon.name} sin costo adicional. Nuestro catálogo incluye castillos, toboganes, pistas de obstáculos y más.</p></div></div></div></section>
+
+  <section class="section section--alt"><div class="container"><div class="page-layout"><div class="page-layout__main">
+
+    <div class="salon-ficha">
+      <h2 class="salon-ficha__title">Ficha completa de {salon.name}</h2>
+      <p class="salon-ficha__subtitle">{salon.highlight} — Toda la información que necesitas para reservar tu evento</p>
+      <div class="salon-ficha__grid">
+        <div class="salon-ficha__item"><div class="salon-ficha__icon">📍</div><div><strong>Dirección</strong><p>{salon.address}</p></div></div>
+        <div class="salon-ficha__item"><div class="salon-ficha__icon">📞</div><div><strong>Teléfono de contacto</strong><p><a href={`tel:+52${salon.phone.replace(/\s/g, "")}`}>{salon.phone}</a></p></div></div>
+        <div class="salon-ficha__item"><div class="salon-ficha__icon">🕐</div><div><strong>Horario de atención</strong><p>{salon.horario}</p></div></div>
+        <div class="salon-ficha__item"><div class="salon-ficha__icon">👥</div><div><strong>Capacidad</strong><p>{salon.capacity}</p></div></div>
+        <div class="salon-ficha__item"><div class="salon-ficha__icon">⭐</div><div><strong>Calificación en Google</strong><p>{salon.rating} / 5.0 — basada en reseñas verificadas</p></div></div>
+        <div class="salon-ficha__item"><div class="salon-ficha__icon">🎉</div><div><strong>Tipo de eventos</strong><p>Cumpleaños, bautizos, primeras comuniones, graduaciones, baby showers</p></div></div>
+        <div class="salon-ficha__item"><div class="salon-ficha__icon">🅿️</div><div><strong>Estacionamiento</strong><p>Sí — estacionamiento propio incluido para invitados</p></div></div>
+        <div class="salon-ficha__item"><div class="salon-ficha__icon">🎈</div><div><strong>Inflables externos</strong><p>Permitidos — BRINCOLINS entrega e instala en el salón</p></div></div>
+      </div>
+      <div class="salon-ficha__actions">
+        <a href={`tel:+52${salon.phone.replace(/\s/g, "")}`} class="btn btn-primary">📞 Llamar ahora</a>
+        <a href={`https://wa.me/52${salon.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${salon.name} para una fiesta infantil.`)}`} class="btn btn-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a href={`https://www.google.com/maps/search/${salon.gmapsQuery}`} class="btn btn-outline" target="_blank" rel="noopener noreferrer">📍 Ver en Google Maps</a>
+      </div>
+    </div>
+
+    <div class="salon-editorial">
+      <h2>¿Por qué elegir {salon.name} para tu fiesta infantil?</h2>
+      <p>Ubicado en la colonia San Juanico Nextipac de <strong>Iztapalapa</strong>, {salon.name} ofrece una experiencia completamente diferente gracias a su <strong>estilo rústico</strong> y su generoso jardín al aire libre. A diferencia de los salones cerrados convencionales, aquí los invitados disfrutan de un ambiente campestre con vegetación, materiales naturales y espacios abiertos que permiten respirar tranquilidad mientras los niños juegan libremente.</p>
+      <p>El <strong>jardín amplio</strong> es el corazón de {salon.name}: ideal para instalar inflables, organizar juegos al aire libre y crear una atmósfera de fiesta al estilo familiar mexicano. La <strong>taquiza incluida</strong> es otro de sus grandes atractivos, con variedad de guisados caseros, tortillas recién hechas, salsas artesanales y complementos que satisfacen a todos los invitados. Es la opción perfecta para quienes prefieren la comida tradicional sobre los menús industrializados.</p>
+      <p>Con <strong>{salon.rating} estrellas en Google Maps</strong> y capacidad para hasta 140 personas, {salon.name} es ideal para eventos grandes donde se busca comodidad y autenticidad. Las reseñas destacan la <strong>calidez del servicio</strong>, la <strong>generosidad de la taquiza</strong> y el <strong>ambiente familiar</strong> que se vive en cada celebración. Una joya en Iztapalapa para quienes valoran lo natural y lo auténtico.</p>
+
+      <h3>Servicios incluidos en los paquetes</h3>
+      <p>Los paquetes de {salon.name} están diseñados para ofrecer una experiencia completa. Dependiendo del paquete seleccionado, puedes esperar los siguientes servicios:</p>
+    </div>
+
+    <div class="grid-3" style="margin-bottom:2rem;">{salon.features.map(f => (<article class="product-card"><div class="product-card__image" style={`background: linear-gradient(135deg, ${f.gradient});`}><span>{f.emoji}</span></div><div class="product-card__body"><h3 class="product-card__name">{f.name}</h3><p class="product-card__desc">{f.desc}</p></div></article>))}</div>
+
+    <div class="salon-editorial">
+      <h3>¿Cómo llegar a {salon.name}?</h3>
+      <p>{salon.name} se ubica en <strong>{salon.address}</strong>. San Juanico Nextipac es una colonia accesible desde la Calzada Ermita Iztapalapa y el Eje 6 Sur, dos de las vías principales de la alcaldía.</p>
+      <p>En transporte público, puedes tomar rutas de microbús que circulan por la zona o usar el Metro hasta la estación Constitución de 1917 (Línea 8) y de ahí un corto trayecto en taxi. Si llegas en auto, el salón cuenta con <strong>estacionamiento amplio</strong> sin costo adicional.</p>
+    </div>
+
+    <div class="dir-tip" style="margin-top:2rem;"><div class="dir-tip__icon">🎈</div><div class="dir-tip__content"><p class="dir-tip__title">¡Complementa tu fiesta en {salon.name} con un inflable!</p><p class="dir-tip__text"><strong>BRINCOLINS</strong> entrega, instala y recoge el inflable directamente en el salón. Solo necesitas confirmar que haya espacio disponible al momento de reservar.</p></div><a href="/cotizar/" class="btn btn-primary">Cotizar inflable</a></div>
+
+  </div>
+
+  <aside class="page-layout__sidebar">
+    <div class="sidebar-card sidebar-card--cta"><p class="sidebar-card__title">¿Te interesa este salón?</p><p class="sidebar-card__text">Contacta directamente a {salon.name} para consultar disponibilidad y precios.</p><a href={`tel:+52${salon.phone.replace(/\s/g, "")}`} class="btn btn-primary btn-sm" style="width:100%; justify-content:center; margin-bottom:0.5rem;">📞 {salon.phone}</a><a href={`https://wa.me/52${salon.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${salon.name} para una fiesta infantil.`)}`} class="btn btn-wa btn-sm" target="_blank" rel="noopener noreferrer" style="width:100%; justify-content:center;">WhatsApp</a></div>
+    <div class="sidebar-card"><p class="sidebar-card__title">📰 Artículos de interés</p><div class="sidebar-card__list">{articulos.map(a => (<a href={`/blog/${a.slug}/`} class="sidebar-card__list-item sidebar-card__list-item--link"><p class="sidebar-card__list-name">{a.title}</p><span class="sidebar-card__arrow">→</span></a>))}</div><a href="/blog/" class="sidebar-card__link">Ver todos los artículos →</a></div>
+    <div class="sidebar-card"><p class="sidebar-card__title">🔗 Explora BRINCOLINS</p><div class="sidebar-card__list"><a href="/directorio/cdmx/" class="sidebar-card__list-item sidebar-card__list-item--link"><p class="sidebar-card__list-name">📍 16 salones en CDMX</p><span class="sidebar-card__arrow">→</span></a><a href="/directorio/edomex/" class="sidebar-card__list-item sidebar-card__list-item--link"><p class="sidebar-card__list-name">🏘️ Salones en Edomex</p><span class="sidebar-card__arrow">→</span></a><a href="/inflables/" class="sidebar-card__list-item sidebar-card__list-item--link"><p class="sidebar-card__list-name">🎈 Catálogo de inflables</p><span class="sidebar-card__arrow">→</span></a><a href="/cobertura/" class="sidebar-card__list-item sidebar-card__list-item--link"><p class="sidebar-card__list-name">🗺️ Zona de cobertura</p><span class="sidebar-card__arrow">→</span></a><a href="/cotizar/" class="sidebar-card__list-item sidebar-card__list-item--link"><p class="sidebar-card__list-name">💬 Solicitar cotización</p><span class="sidebar-card__arrow">→</span></a></div></div>
+    <div class="sidebar-card sidebar-card--highlight"><p class="sidebar-card__title">¿Ya tienes tu salón?</p><p class="sidebar-card__text">Agrega un inflable a tu fiesta en {salon.name}. Entrega e instalación incluida.</p><a href="/cotizar/" class="btn btn-primary btn-sm" style="width:100%; justify-content:center;">Cotizar inflable</a></div>
+  </aside></div></div></section>
+
+  <section class="section"><div class="container"><SectionHeader badge="📍 Más salones en CDMX" title="Otros salones que te pueden interesar" subtitle="Explora más opciones de salones de fiestas infantiles verificados en la Ciudad de México." copy1="Si buscas alternativas a La Cabaña, aquí encontrarás otros salones con excelente calificación en Google Maps. Todos permiten inflables externos y están dentro de nuestra zona de cobertura." copy2="¿Ya elegiste tu salón? No olvides complementar la fiesta con un inflable de <strong>BRINCOLINS</strong>. Entrega e instalación incluida en cualquier salón de CDMX." /><div class="grid-4">{salonesRelacionados.map(s => <VenueCard {...s} />)}</div></div></section>
+
+  <section class="section section--alt"><div class="container"><SectionHeader badge="🎈 Inflables para tu fiesta" title="Lleva un inflable a tu fiesta" subtitle={`Complementa tu evento en ${salon.name} con uno de nuestros inflables. Entrega e instalación incluida.`} copy1="Todos nuestros inflables incluyen entrega, instalación, limpieza y seguro. Solo necesitas una toma de corriente y espacio suficiente en el salón. Confirma la disponibilidad de espacio al reservar tu salón." copy2="Desde castillos clásicos hasta toboganes acuáticos y pistas de obstáculos, tenemos opciones para todas las edades y presupuestos. <strong>Cotiza hoy y asegura tu fecha.</strong>" /><div class="grid-4">{inflablesPopulares.map(p => <ProductCard {...p} />)}</div></div></section>
+
+  <section class="section"><div class="container"><SectionHeader badge="❓ Preguntas frecuentes" title={`Sobre ${salon.name}`} subtitle="Resolvemos las dudas más comunes sobre este salón de fiestas infantiles." copy1="Antes de reservar, es importante que tengas toda la información necesaria. Aquí respondemos las preguntas que más nos hacen sobre este salón y cómo complementar tu evento con un inflable de BRINCOLINS." copy2="Si tienes alguna duda adicional, contacta directamente al salón por teléfono o WhatsApp. También puedes escribirnos a nosotros para cotizar un inflable para tu fiesta." /><div class="faq" style="max-width:800px; margin:0 auto;"><div class="faq__item"><button class="faq__question" aria-expanded="false"><span>¿Puedo llevar un inflable de BRINCOLINS a {salon.name}?</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>Sí, {salon.name} permite inflables externos. BRINCOLINS se encarga de la entrega, instalación, supervisión durante el evento y recolección al finalizar. Solo necesitamos que el salón cuente con espacio suficiente y una toma de corriente cercana. Te recomendamos confirmar con el salón al momento de reservar.</p></div></div><div class="faq__item"><button class="faq__question" aria-expanded="false"><span>¿Cuánto cuesta rentar {salon.name}?</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>Los precios varían según el paquete elegido, número de invitados y día de la semana. Te recomendamos contactar directamente al salón al {salon.phone} para obtener la cotización más actualizada. Los paquetes generalmente incluyen decoración, alimentos para niños y adultos, pastel, piñata y acceso a todas las áreas de juego.</p></div></div><div class="faq__item"><button class="faq__question" aria-expanded="false"><span>¿Qué tipo de eventos puedo celebrar en {salon.name}?</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>{salon.name} está especializado en fiestas infantiles, pero también es ideal para bautizos, primeras comuniones, graduaciones de kínder o primaria, baby showers y reuniones familiares. Su versatilidad y capacidad de {salon.capacity} lo hacen adaptable a distintos tipos de celebraciones.</p></div></div><div class="faq__item"><button class="faq__question" aria-expanded="false"><span>¿Con cuánta anticipación debo reservar?</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>Te recomendamos reservar con al menos 2 a 4 semanas de anticipación, especialmente para fines de semana y temporada alta (diciembre, abril y mayo). En días entre semana hay mayor disponibilidad y algunos salones ofrecen descuentos especiales.</p></div></div></div></div></section>
+
+  <CtaBanner title={`¿Te gustó ${salon.name}? ¡Agrega un inflable!`} subtitle="Reserva tu inflable para complementar la fiesta. Entrega e instalación incluida en el salón que elijas." btnText="Cotizar inflable" btnHref="/cotizar/" btnSecondaryText="Ver catálogo de inflables" btnSecondaryHref="/inflables/" variant="vibrant" />
+
+</PageLayout>
+
+<style>
+  .page-layout { display: grid; grid-template-columns: 1fr 340px; gap: 2.5rem; align-items: start; }
+  @media (max-width: 1024px) { .page-layout { grid-template-columns: 1fr; } }
+  .salon-ficha { background: #fff; border-radius: var(--r-card); padding: 2rem; box-shadow: var(--shadow-sm); border: 1px solid var(--c-border); margin-bottom: 2rem; }
+  .salon-ficha__title { font-family: var(--font-head); font-weight: 900; font-size: 1.3rem; margin: 0 0 0.25rem; }
+  .salon-ficha__subtitle { font-size: 0.9rem; color: var(--c-text-muted); margin: 0 0 1.5rem; line-height: 1.6; }
+  .salon-ficha__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin-bottom: 1.5rem; }
+  .salon-ficha__item { display: flex; gap: 0.75rem; align-items: flex-start; }
+  .salon-ficha__icon { font-size: 1.3rem; flex-shrink: 0; margin-top: 0.1rem; }
+  .salon-ficha__item strong { display: block; font-family: var(--font-head); font-weight: 800; font-size: 0.8rem; color: var(--c-text); margin-bottom: 0.15rem; }
+  .salon-ficha__item p { font-size: 0.85rem; color: var(--c-text-muted); line-height: 1.5; margin: 0; }
+  .salon-ficha__item a { color: var(--c-primary); text-decoration: none; font-weight: 600; }
+  .salon-ficha__item a:hover { text-decoration: underline; }
+  .salon-ficha__actions { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+  @media (max-width: 640px) { .salon-ficha__grid { grid-template-columns: 1fr; } .salon-ficha__actions { flex-direction: column; } .salon-ficha__actions .btn { width: 100%; justify-content: center; text-align: center; } }
+  .salon-editorial { margin-bottom: 2rem; }
+  .salon-editorial h2 { font-family: var(--font-head); font-weight: 900; font-size: 1.3rem; margin: 0 0 1rem; }
+  .salon-editorial h3 { font-family: var(--font-head); font-weight: 800; font-size: 1.1rem; margin: 1.5rem 0 0.75rem; }
+  .salon-editorial p { font-size: 0.95rem; color: var(--c-text-muted); line-height: 1.8; margin: 0 0 1rem; }
+  .salon-editorial strong { color: var(--c-text); }
+  .sidebar-card { background: #fff; border-radius: var(--r-card); padding: 1.25rem; box-shadow: var(--shadow-sm); border: 1px solid var(--c-border); margin-bottom: 1.25rem; }
+  .sidebar-card--cta { background: linear-gradient(135deg, #FFF8E1, #FFF3E0); border-color: #FFE0B2; }
+  .sidebar-card--highlight { background: linear-gradient(135deg, #EDE7F6, #E8EAF6); border-color: #D1C4E9; }
+  .sidebar-card__title { font-family: var(--font-head); font-weight: 800; font-size: 0.95rem; margin: 0 0 0.5rem; color: var(--c-text); }
+  .sidebar-card__text { font-size: 0.85rem; color: var(--c-text-muted); line-height: 1.6; margin: 0 0 1rem; }
+  .sidebar-card__list { display: flex; flex-direction: column; gap: 0; }
+  .sidebar-card__list-item { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.6rem 0; border-bottom: 1px solid var(--c-border); text-decoration: none; color: inherit; }
+  .sidebar-card__list-item:last-child { border-bottom: none; }
+  .sidebar-card__list-item--link:hover { background: var(--c-bg-alt); margin: 0 -0.5rem; padding: 0.6rem 0.5rem; border-radius: 8px; }
+  .sidebar-card__list-name { font-family: var(--font-head); font-weight: 700; font-size: 0.85rem; margin: 0; color: var(--c-text); }
+  .sidebar-card__list-meta { font-size: 0.75rem; color: var(--c-text-muted); margin: 0.1rem 0 0; }
+  .sidebar-card__arrow { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; flex-shrink: 0; }
+  .sidebar-card__link { display: block; text-align: center; font-family: var(--font-head); font-weight: 700; font-size: 0.8rem; color: var(--c-primary); text-decoration: none; margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid var(--c-border); }
+  .sidebar-card__link:hover { text-decoration: underline; }
+  @media (max-width: 1024px) { .page-layout__sidebar { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; } .sidebar-card { margin-bottom: 0; } }
+  @media (max-width: 640px) { .page-layout__sidebar { grid-template-columns: 1fr; } }
+</style>
