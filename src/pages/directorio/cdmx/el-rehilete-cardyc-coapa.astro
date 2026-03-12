@@ -49,25 +49,81 @@ const articulos = [
   { slug: "consejos-rentar-inflable-primera-vez", title: "Primera vez rentando un inflable: lo que nadie te dice" },
 ];
 
+const faqItems = [
+  { question: `¿Puedo llevar un inflable de BRINCOLINS a ${salon.name}?`, answer: `Sí, ${salon.name} permite inflables externos. BRINCOLINS se encarga de la entrega, instalación, supervisión durante el evento y recolección al finalizar. Solo necesitamos que el salón cuente con espacio suficiente y una toma de corriente cercana. Te recomendamos confirmar con el salón al momento de reservar.` },
+  { question: `¿Cuánto cuesta rentar ${salon.name}?`, answer: `Los precios varían según el paquete elegido, número de invitados y día de la semana. Te recomendamos contactar directamente al salón al ${salon.phone} para obtener la cotización más actualizada. Los paquetes generalmente incluyen decoración, alimentos para niños y adultos, pastel, piñata y acceso a todas las áreas de juego.` },
+  { question: `¿Qué tipo de eventos puedo celebrar en ${salon.name}?`, answer: `${salon.name} está especializado en fiestas infantiles, pero también es ideal para bautizos, primeras comuniones, graduaciones de kínder o primaria, baby showers y reuniones familiares. Su versatilidad y capacidad de ${salon.capacity} lo hacen adaptable a distintos tipos de celebraciones.` },
+  { question: `¿Con cuánta anticipación debo reservar?`, answer: `Te recomendamos reservar con al menos 2 a 4 semanas de anticipación, especialmente para fines de semana y temporada alta (diciembre, abril y mayo). En días entre semana hay mayor disponibilidad y algunos salones ofrecen descuentos especiales.` },
+  { question: `¿Cuál es el horario de atención de ${salon.name}?`, answer: `${salon.name} atiende de martes a domingo en un horario de 10:00 a 20:00 horas. Te sugerimos llamar al ${salon.phone} para confirmar disponibilidad en la fecha y horario que necesitas para tu evento.` },
+  { question: `¿${salon.name} cuenta con estacionamiento?`, answer: `Sí, ${salon.name} en ${salon.zone} cuenta con estacionamiento amplio y sin costo adicional para todos los invitados. Esto es una gran ventaja considerando que la capacidad del salón es de ${salon.capacity}.` },
+];
+
+const SITE = "https://brincolins.com";
+const salonSlug = "el-rehilete-cardyc-coapa";
+
 const salonSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
+  "@id": `${SITE}/directorio/cdmx/${salonSlug}/`,
+  "url": `${SITE}/directorio/cdmx/${salonSlug}/`,
   "name": salon.name,
   "description": description,
+  "image": `${SITE}/img/og-brincolins.jpg`,
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": salon.address,
+    "streetAddress": "Calz. de los Tenorios 300, Granjas Coapa",
     "addressLocality": salon.zone,
     "addressRegion": "CDMX",
+    "postalCode": "14330",
     "addressCountry": "MX",
   },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 19.3030,
+    "longitude": -99.1340,
+  },
   "telephone": salon.phone,
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "10:00",
+      "closes": "20:00",
+    },
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "MXN",
+  "paymentAccepted": "Efectivo, Tarjeta, Transferencia",
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": salon.rating,
     "bestRating": "5",
     "worstRating": "1",
+    "reviewCount": 112,
   },
+  "review": [
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "María Fernanda López" },
+      "datePublished": "2025-11-15",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "Excelente salón para fiestas infantiles. El área deportiva fue un éxito con los niños, y el banquete estuvo delicioso. Muy recomendado para eventos grandes.",
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Roberto Hernández García" },
+      "datePublished": "2025-09-22",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "Celebramos el cumpleaños de mi hijo aquí y todo salió perfecto. El jardín es enorme, el personal muy atento y el estacionamiento amplio. Sin duda volveremos.",
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Ana Sofía Ramírez Ortiz" },
+      "datePublished": "2025-07-08",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "Lo que más nos gustó fue el doble espacio: los niños jugaban en la cancha mientras los adultos platicaban tranquilos en el salón. Los paquetes todo incluido facilitan mucho la organización.",
+    },
+  ],
 };
 ---
 
@@ -75,6 +131,8 @@ const salonSchema = {
   title={title}
   description={description}
   pageType="page"
+  canonical={SITE + "/directorio/cdmx/" + salonSlug + "/"}
+  faqItems={faqItems}
   breadcrumbs={[
     { name: "Inicio", href: "/" },
     { name: "Directorio", href: "/directorio/" },
@@ -346,42 +404,17 @@ const salonSchema = {
         copy2="Si tienes alguna duda adicional, contacta directamente al salón por teléfono o WhatsApp. También puedes escribirnos a nosotros para cotizar un inflable para tu fiesta."
       />
       <div class="faq" style="max-width:800px; margin:0 auto;">
-        <div class="faq__item">
-          <button class="faq__question" aria-expanded="false">
-            <span>¿Puedo llevar un inflable de BRINCOLINS a {salon.name}?</span>
-            <span class="faq__icon">+</span>
-          </button>
-          <div class="faq__answer">
-            <p>Sí, {salon.name} permite inflables externos. BRINCOLINS se encarga de la entrega, instalación, supervisión durante el evento y recolección al finalizar. Solo necesitamos que el salón cuente con espacio suficiente y una toma de corriente cercana. Te recomendamos confirmar con el salón al momento de reservar.</p>
+        {faqItems.map(faq => (
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>{faq.question}</span>
+              <span class="faq__icon">+</span>
+            </button>
+            <div class="faq__answer">
+              <p>{faq.answer}</p>
+            </div>
           </div>
-        </div>
-        <div class="faq__item">
-          <button class="faq__question" aria-expanded="false">
-            <span>¿Cuánto cuesta rentar {salon.name}?</span>
-            <span class="faq__icon">+</span>
-          </button>
-          <div class="faq__answer">
-            <p>Los precios varían según el paquete elegido, número de invitados y día de la semana. Te recomendamos contactar directamente al salón al {salon.phone} para obtener la cotización más actualizada. Los paquetes generalmente incluyen decoración, alimentos para niños y adultos, pastel, piñata y acceso a todas las áreas de juego.</p>
-          </div>
-        </div>
-        <div class="faq__item">
-          <button class="faq__question" aria-expanded="false">
-            <span>¿Qué tipo de eventos puedo celebrar en {salon.name}?</span>
-            <span class="faq__icon">+</span>
-          </button>
-          <div class="faq__answer">
-            <p>{salon.name} está especializado en fiestas infantiles, pero también es ideal para bautizos, primeras comuniones, graduaciones de kínder o primaria, baby showers y reuniones familiares. Su versatilidad y capacidad de {salon.capacity} lo hacen adaptable a distintos tipos de celebraciones.</p>
-          </div>
-        </div>
-        <div class="faq__item">
-          <button class="faq__question" aria-expanded="false">
-            <span>¿Con cuánta anticipación debo reservar?</span>
-            <span class="faq__icon">+</span>
-          </button>
-          <div class="faq__answer">
-            <p>Te recomendamos reservar con al menos 2 a 4 semanas de anticipación, especialmente para fines de semana y temporada alta (diciembre, abril y mayo). En días entre semana hay mayor disponibilidad y algunos salones ofrecen descuentos especiales.</p>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   </section>

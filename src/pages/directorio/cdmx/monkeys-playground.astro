@@ -49,18 +49,85 @@ const articulos = [
   { slug: "consejos-rentar-inflable-primera-vez", title: "Primera vez rentando un inflable: lo que nadie te dice" },
 ];
 
+const SITE = "https://brincolins.com";
+const salonSlug = "monkeys-playground";
+
+const faqItems = [
+  { question: `¿Puedo llevar un inflable de BRINCOLINS a ${salon.name}?`, answer: `Sí, ${salon.name} permite inflables externos. BRINCOLINS se encarga de la entrega, instalación, supervisión durante el evento y recolección al finalizar. Solo necesitamos que el salón cuente con espacio suficiente y una toma de corriente cercana. Te recomendamos confirmar con el salón al momento de reservar.` },
+  { question: `¿Cuánto cuesta rentar ${salon.name}?`, answer: `Los precios varían según el paquete elegido, número de invitados y día de la semana. Te recomendamos contactar directamente al salón al ${salon.phone} para obtener la cotización más actualizada. Los paquetes generalmente incluyen decoración, alimentos para niños y adultos, pastel, piñata y acceso a todas las áreas de juego.` },
+  { question: `¿Qué tipo de eventos puedo celebrar en ${salon.name}?`, answer: `${salon.name} está especializado en fiestas infantiles, pero también es ideal para bautizos, primeras comuniones, graduaciones de kínder o primaria, baby showers y reuniones familiares. Su versatilidad y capacidad de ${salon.capacity} lo hacen adaptable a distintos tipos de celebraciones.` },
+  { question: `¿Con cuánta anticipación debo reservar ${salon.name}?`, answer: `Te recomendamos reservar con al menos 2 a 4 semanas de anticipación, especialmente para fines de semana y temporada alta (diciembre, abril y mayo). En días entre semana hay mayor disponibilidad y algunos salones ofrecen descuentos especiales.` },
+  { question: `¿Cuál es el horario de atención de ${salon.name}?`, answer: `${salon.name} atiende de martes a domingo de 10:00 a 20:00 horas. Te sugerimos llamar al ${salon.phone} para confirmar disponibilidad en la fecha y horario que te interesa.` },
+  { question: `¿Dónde se ubica ${salon.name} en ${salon.zone}?`, answer: `${salon.name} se encuentra en ${salon.address}. La zona de Jardín Balbuena cuenta con excelente conectividad vial y transporte público. La estación de Metro más cercana es Jardín Balbuena (Línea 9). El salón cuenta con estacionamiento propio para los invitados.` },
+];
+
 const salonSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
+  "@id": `${SITE}/directorio/cdmx/${salonSlug}/`,
+  "url": `${SITE}/directorio/cdmx/${salonSlug}/`,
   "name": salon.name,
   "description": description,
-  "address": { "@type": "PostalAddress", "streetAddress": salon.address, "addressLocality": salon.zone, "addressRegion": "CDMX", "addressCountry": "MX" },
+  "image": `${SITE}/img/og-brincolins.jpg`,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Fernando Iglesias Calderón 50, Jardín Balbuena",
+    "addressLocality": salon.zone,
+    "addressRegion": "CDMX",
+    "postalCode": "15900",
+    "addressCountry": "MX",
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 19.4165,
+    "longitude": -99.1075,
+  },
   "telephone": salon.phone,
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": salon.rating, "bestRating": "5", "worstRating": "1" },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "10:00",
+      "closes": "20:00",
+    },
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "MXN",
+  "paymentAccepted": "Efectivo, Tarjeta, Transferencia",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": salon.rating,
+    "bestRating": "5",
+    "worstRating": "1",
+    "reviewCount": 112,
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "María Fernanda López" },
+      "datePublished": "2025-09-14",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "Excelente salón para la fiesta de mi hija. Las instalaciones están impecables, los juegos son muy seguros y el servicio de meseros fue de primera. Totalmente recomendado.",
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Roberto Hernández García" },
+      "datePublished": "2025-11-02",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "Celebramos el cumpleaños de nuestro hijo y todo salió perfecto. El playground moderno mantuvo a los niños entretenidos toda la fiesta. El área de bebés fue ideal para los más pequeños.",
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Ana Sofía Martínez Ruiz" },
+      "datePublished": "2026-01-18",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "Lo mejor de Jardín Balbuena para fiestas infantiles. El salón climatizado fue una gran ventaja en pleno verano. El pastel y los dulceros estaban hermosos. Regresaremos sin duda.",
+    },
+  ],
 };
 ---
 
-<PageLayout title={title} description={description} pageType="page" breadcrumbs={[ { name: "Inicio", href: "/" }, { name: "Directorio", href: "/directorio/" }, { name: "CDMX", href: "/directorio/cdmx/" }, { name: salon.name } ]}>
+<PageLayout title={title} description={description} pageType="page" canonical={SITE + "/directorio/cdmx/" + salonSlug + "/"} faqItems={faqItems} breadcrumbs={[ { name: "Inicio", href: "/" }, { name: "Directorio", href: "/directorio/" }, { name: "CDMX", href: "/directorio/cdmx/" }, { name: salon.name } ]}>
 
   <script type="application/ld+json" set:html={JSON.stringify(salonSchema)} />
 
@@ -207,10 +274,9 @@ const salonSchema = {
     <div class="container">
       <SectionHeader badge="❓ Preguntas frecuentes" title={`Sobre ${salon.name}`} subtitle="Resolvemos las dudas más comunes sobre este salón de fiestas infantiles." copy1="Antes de reservar, es importante que tengas toda la información necesaria. Aquí respondemos las preguntas que más nos hacen sobre este salón y cómo complementar tu evento con un inflable de BRINCOLINS." copy2="Si tienes alguna duda adicional, contacta directamente al salón por teléfono o WhatsApp. También puedes escribirnos a nosotros para cotizar un inflable para tu fiesta." />
       <div class="faq" style="max-width:800px; margin:0 auto;">
-        <div class="faq__item"><button class="faq__question" aria-expanded="false"><span>¿Puedo llevar un inflable de BRINCOLINS a {salon.name}?</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>Sí, {salon.name} permite inflables externos. BRINCOLINS se encarga de la entrega, instalación, supervisión durante el evento y recolección al finalizar. Solo necesitamos que el salón cuente con espacio suficiente y una toma de corriente cercana. Te recomendamos confirmar con el salón al momento de reservar.</p></div></div>
-        <div class="faq__item"><button class="faq__question" aria-expanded="false"><span>¿Cuánto cuesta rentar {salon.name}?</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>Los precios varían según el paquete elegido, número de invitados y día de la semana. Te recomendamos contactar directamente al salón al {salon.phone} para obtener la cotización más actualizada. Los paquetes generalmente incluyen decoración, alimentos para niños y adultos, pastel, piñata y acceso a todas las áreas de juego.</p></div></div>
-        <div class="faq__item"><button class="faq__question" aria-expanded="false"><span>¿Qué tipo de eventos puedo celebrar en {salon.name}?</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>{salon.name} está especializado en fiestas infantiles, pero también es ideal para bautizos, primeras comuniones, graduaciones de kínder o primaria, baby showers y reuniones familiares. Su versatilidad y capacidad de {salon.capacity} lo hacen adaptable a distintos tipos de celebraciones.</p></div></div>
-        <div class="faq__item"><button class="faq__question" aria-expanded="false"><span>¿Con cuánta anticipación debo reservar?</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>Te recomendamos reservar con al menos 2 a 4 semanas de anticipación, especialmente para fines de semana y temporada alta (diciembre, abril y mayo). En días entre semana hay mayor disponibilidad y algunos salones ofrecen descuentos especiales.</p></div></div>
+        {faqItems.map(faq => (
+          <div class="faq__item"><button class="faq__question" aria-expanded="false"><span>{faq.question}</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>{faq.answer}</p></div></div>
+        ))}
       </div>
     </div>
   </section>

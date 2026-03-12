@@ -1,0 +1,185 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Seguridad en Inflables: Lo que Todo Papá Debe Saber | BRINCOLINS";
+const description = "Guía de seguridad para inflables en fiestas infantiles: reglas básicas, qué revisar antes de que tu hijo entre al brincolín, y cómo elegir un proveedor seguro en CDMX.";
+
+const faqs = [
+  { question: "¿Los inflables tienen seguro?", answer: "Los proveedores serios como BRINCOLINS cuentan con seguro de responsabilidad civil que cubre accidentes durante el uso del inflable. Siempre pregunta esto antes de contratar." },
+  { question: "¿Cuántos niños pueden usar el inflable a la vez?", answer: "Depende del modelo. Un mini castillo 4×4m admite 6-8 niños. Superar la capacidad es la causa más común de accidentes. Siempre respeta el límite indicado." },
+  { question: "¿Qué pasa si hay viento fuerte?", answer: "Si el viento supera los 40 km/h, se debe desinflar y asegurar el brincolín. Nunca permitas que los niños usen un inflable con viento fuerte." },
+  { question: "¿Los inflables son seguros bajo la lluvia?", answer: "No se recomienda su uso durante lluvia intensa. La superficie mojada de los inflables secos puede volverse resbalosa. Los inflables acuáticos sí están diseñados para uso con agua." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog", href: "/blog/" },
+    { name: "Seguridad en inflables para fiestas infantiles" },
+  ]}
+>
+
+  <section class="art-hero">
+    <div class="container">
+      <div class="art-hero__inner">
+        <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+        <div class="art-hero__cats">
+          <span class="section-badge">🛡️ Seguridad</span>
+        </div>
+        <h1 class="art-hero__title">
+          Seguridad en inflables: lo que todo papá debe saber antes de la fiesta
+        </h1>
+        <div class="art-hero__meta">
+          <span>📅 11 mar 2025</span>
+          <span class="art-hero__sep">·</span>
+          <span>⏱️ 7 min lectura</span>
+          <span class="art-hero__sep">·</span>
+          <span>✍️ Equipo BRINCOLINS</span>
+        </div>
+        <p class="art-hero__intro">
+          Un brincolín es diversión pura — pero como cualquier equipo de juego, hay reglas básicas que marcan la diferencia entre una fiesta perfecta y una visita a urgencias. Esta guía es para todos los papás.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="art-layout">
+        <article class="art-body">
+
+          <h2>Por qué la seguridad en inflables importa más de lo que crees</h2>
+          <p>
+            Los inflables son equipos de entretenimiento serios. En México, la industria de renta de inflables ha crecido enormemente, pero no todos los operadores mantienen los mismos estándares. Cada año hay accidentes evitables — y la mayoría se deben a tres causas: sobrecarga de usuarios, anclaje deficiente y supervisión ausente.
+          </p>
+          <p>
+            La buena noticia es que con información y un proveedor responsable, el riesgo es mínimo. Aquí te explicamos todo lo que necesitas saber.
+          </p>
+
+          <h2>Antes de la fiesta: cómo revisar el inflable cuando llega</h2>
+          <p>
+            Cuando el equipo de instalación llegue, tómate 5 minutos para hacer esta revisión visual antes de firmar:
+          </p>
+          <ul class="art-list">
+            <li><strong>Limpieza y olor:</strong> El inflable debe llegar limpio y sin olores desagradables. Si huele a humedad o moho, recházalo.</li>
+            <li><strong>Sin costuras abiertas ni parches visibles:</strong> Un inflable con costuras rotas o múltiples parches es señal de desgaste excesivo.</li>
+            <li><strong>Anclaje en el suelo:</strong> Las estacas o sacos de arena deben estar firmemente colocados en todos los puntos de sujeción, especialmente si hay viento.</li>
+            <li><strong>Inflado correcto:</strong> El brincolín debe estar firme pero no rígido. Un inflado insuficiente (muy blando) aumenta el riesgo de lesiones por golpes entre niños.</li>
+            <li><strong>Tapetes de entrada:</strong> Debe haber una zona blanda o tapete en la entrada/salida para amortiguar caídas.</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">✅</span>
+            <p><strong>Checklist rápido:</strong> Limpio ✓ Sin costuras rotas ✓ Bien anclado ✓ Inflado correcto ✓ Tapetes en entrada ✓ — Si todo está bien, ¡a jugar!</p>
+          </div>
+
+          <h2>Las 7 reglas de oro durante el uso</h2>
+          <p>
+            Estas reglas salvan vidas — o al menos, evitan las visitas al hospital. Comunícalas a los niños antes de empezar:
+          </p>
+          <ul class="art-list">
+            <li><strong>1. Sin zapatos adentro.</strong> Los zapatos, especialmente los de punta dura, pueden perforar el inflable y lastimar a otros niños.</li>
+            <li><strong>2. Sin objetos punzantes.</strong> Horquillas, cinturones con hebillas metálicas, juguetes — todo fuera antes de entrar.</li>
+            <li><strong>3. Respetar la capacidad máxima.</strong> Si el inflable es para 8 niños, son 8. No más.</li>
+            <li><strong>4. Separar edades.</strong> No mezcles niños de 3 años con adolescentes de 12. Los más grandes inadvertidamente pueden lastimarlos.</li>
+            <li><strong>5. Un adulto supervisa siempre.</strong> No dejes el inflable sin supervisión adulta. Ni un minuto.</li>
+            <li><strong>6. Sin comida ni bebidas adentro.</strong> Además del riesgo de atragantamiento, mancha y deteriora el vinilo del inflable.</li>
+            <li><strong>7. Ante cualquier problema, desinflar.</strong> Si hay viento fuerte, lluvia intensa, o el inflable pierde presión — desinflar y esperar.</li>
+          </ul>
+
+          <h2>Cómo elegir un proveedor seguro en CDMX</h2>
+          <p>
+            No todos los negocios de renta de inflables operan igual. Estas son las preguntas que debes hacer antes de contratar a cualquier proveedor:
+          </p>
+          <ul class="art-list">
+            <li><strong>¿Tienen seguro de responsabilidad civil?</strong> Si dudan o dicen que no, descártalos. Un operador serio siempre tiene póliza de RC.</li>
+            <li><strong>¿Con qué frecuencia revisan el estado de sus inflables?</strong> Los buenos proveedores hacen revisión después de cada uso.</li>
+            <li><strong>¿Qué hacen si el inflable falla durante la fiesta?</strong> Deben tener protocolo de respuesta rápida o equipo de respaldo.</li>
+            <li><strong>¿Tienen reseñas en Google o Facebook?</strong> Busca opiniones reales de otros clientes, no solo los testimonios en su página.</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">🔴</span>
+            <p><strong>Red flags de un proveedor poco confiable:</strong> precio anormalmente bajo, sin perfil en redes, no mencionan seguro, no tienen contrato escrito, piden pago total por adelantado sin recibo.</p>
+          </div>
+
+          <h2>Inflables acuáticos: medidas de seguridad adicionales</h2>
+          <p>
+            Los toboganes de agua, albercas inflables y parques acuáticos requieren atención extra:
+          </p>
+          <ul class="art-list">
+            <li>Supervisa que los niños que no saben nadar no accedan a la alberca sin flotador</li>
+            <li>El agua debe llegar solo hasta la cintura de los niños más pequeños</li>
+            <li>La superficie del tobogán debe mojarse continuamente para evitar rozaduras</li>
+            <li>Nunca permitas clavados de cabeza en la alberca inflable</li>
+            <li>Ten siempre una toalla y ropa de cambio para los niños</li>
+          </ul>
+
+          <h2>Qué hacer en caso de emergencia</h2>
+          <p>
+            Si ocurre un accidente con el inflable durante la fiesta:
+          </p>
+          <ul class="art-list">
+            <li>Desinfla el brincolín de inmediato para sacar a los niños de forma segura</li>
+            <li>Si hay lesión aparente, no muevas al niño — llama al 911</li>
+            <li>Documenta con fotos el estado del inflable (para el seguro)</li>
+            <li>Notifica de inmediato al proveedor — los operadores serios tienen protocolo de emergencias</li>
+          </ul>
+
+          <CtaBanner
+            title="Inflables seguros y certificados en CDMX"
+            desc="En BRINCOLINS, cada equipo sale revisado, limpio y con seguro de RC incluido. Tu tranquilidad es parte del servicio."
+            btnText="Ver catálogo de inflables"
+            btnHref="/inflables/"
+            whatsapp={false}
+          />
+
+        </article>
+
+        <aside class="art-sidebar">
+          <div class="art-faq">
+            <h3>Preguntas frecuentes</h3>
+            {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+          </div>
+          <div class="art-sidebar__cta">
+            <p>¿Tienes dudas sobre seguridad?</p>
+            <a href="https://wa.me/5547868402" class="btn btn-wa btn-sm" target="_blank" rel="noopener noreferrer">Preguntar por WhatsApp</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+</PageLayout>
+
+<style>
+  .art-hero { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); padding: 4rem 0 3rem; margin-top: -1px; }
+  .art-hero__inner { max-width: 760px; }
+  .art-hero__back { color: var(--c-primary); font-size: 0.875rem; font-weight: 600; text-decoration: none; display: inline-block; margin-bottom: 1.5rem; }
+  .art-hero__back:hover { opacity: 0.8; }
+  .art-hero__cats { margin-bottom: 1rem; }
+  .art-hero__title { font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 900; line-height: 1.2; color: #fff; margin-bottom: 1rem; }
+  .art-hero__meta { display: flex; flex-wrap: wrap; gap: 0.5rem; font-size: 0.875rem; color: rgba(255,255,255,0.55); margin-bottom: 1.25rem; }
+  .art-hero__sep { opacity: 0.4; }
+  .art-hero__intro { font-size: 1.125rem; line-height: 1.75; color: rgba(255,255,255,0.75); }
+  .art-layout { display: grid; grid-template-columns: 1fr 300px; gap: 3rem; align-items: start; }
+  @media (max-width: 900px) { .art-layout { grid-template-columns: 1fr; } .art-sidebar { display: none; } }
+  .art-body h2 { font-size: 1.375rem; font-weight: 800; margin: 2.5rem 0 1rem; color: var(--c-text); }
+  .art-body p { font-size: 1rem; line-height: 1.8; color: var(--c-text-muted); margin-bottom: 1.25rem; }
+  .art-list { padding-left: 1.25rem; margin-bottom: 1.25rem; }
+  .art-list li { font-size: 1rem; line-height: 1.7; color: var(--c-text-muted); margin-bottom: 0.5rem; }
+  .art-tip { background: color-mix(in srgb, var(--c-primary) 8%, var(--c-bg)); border-left: 4px solid var(--c-primary); border-radius: 0 8px 8px 0; padding: 1rem 1.25rem; margin: 1.5rem 0; display: flex; gap: 0.75rem; align-items: flex-start; }
+  .art-tip__icon { font-size: 1.25rem; flex-shrink: 0; }
+  .art-tip p { margin: 0; font-size: 0.9375rem; }
+  .art-sidebar { position: sticky; top: 5rem; }
+  .art-faq { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; }
+  .art-faq h3 { font-size: 1rem; font-weight: 700; margin-bottom: 1rem; }
+  .art-sidebar__cta { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: 12px; padding: 1.5rem; text-align: center; }
+  .art-sidebar__cta p { font-size: 0.9375rem; color: var(--c-text-muted); margin-bottom: 1rem; }
+</style>

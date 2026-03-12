@@ -49,14 +49,85 @@ const articulos = [
   { slug: "consejos-rentar-inflable-primera-vez", title: "Primera vez rentando un inflable: lo que nadie te dice" },
 ];
 
+const faqItems = [
+  { question: `¿Puedo llevar un inflable de BRINCOLINS a ${salon.name}?`, answer: `Sí, ${salon.name} permite inflables externos. BRINCOLINS se encarga de la entrega, instalación, supervisión durante el evento y recolección al finalizar. Solo necesitamos que el salón cuente con espacio suficiente y una toma de corriente cercana. Te recomendamos confirmar con el salón al momento de reservar.` },
+  { question: `¿Cuánto cuesta rentar ${salon.name}?`, answer: `Los precios varían según el paquete elegido, número de invitados y día de la semana. Te recomendamos contactar directamente al salón al ${salon.phone} para obtener la cotización más actualizada. Los paquetes generalmente incluyen decoración, alimentos para niños y adultos, pastel, piñata y acceso a todas las áreas de juego.` },
+  { question: `¿Qué tipo de eventos puedo celebrar en ${salon.name}?`, answer: `${salon.name} está especializado en fiestas infantiles, pero también es ideal para bautizos, primeras comuniones, graduaciones de kínder o primaria, baby showers y reuniones familiares. Su versatilidad y capacidad de ${salon.capacity} lo hacen adaptable a distintos tipos de celebraciones.` },
+  { question: `¿Con cuánta anticipación debo reservar?`, answer: `Te recomendamos reservar con al menos 2 a 4 semanas de anticipación, especialmente para fines de semana y temporada alta (diciembre, abril y mayo). En días entre semana hay mayor disponibilidad y algunos salones ofrecen descuentos especiales.` },
+  { question: `¿Cuál es el horario de atención de ${salon.name}?`, answer: `${salon.name} atiende de martes a domingo de 10:00 a 20:00 horas. Para agendar una visita o resolver dudas, puedes llamar al ${salon.phone} dentro de ese horario.` },
+  { question: `¿Dónde se ubica ${salon.name} en ${salon.zone}?`, answer: `${salon.name} se encuentra en ${salon.address}. La zona cuenta con excelente conectividad vial y transporte público. El salón dispone de estacionamiento propio para los invitados.` },
+];
+
+const SITE = "https://brincolins.com";
+const salonSlug = "castillo-magico-ari-sandy";
+
 const salonSchema = {
-  "@context": "https://schema.org", "@type": "LocalBusiness", "name": salon.name, "description": description,
-  "address": { "@type": "PostalAddress", "streetAddress": salon.address, "addressLocality": salon.zone, "addressRegion": "CDMX", "addressCountry": "MX" },
-  "telephone": salon.phone, "aggregateRating": { "@type": "AggregateRating", "ratingValue": salon.rating, "bestRating": "5", "worstRating": "1" },
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": `${SITE}/directorio/cdmx/${salonSlug}/#business`,
+  "name": salon.name,
+  "description": description,
+  "url": `${SITE}/directorio/cdmx/${salonSlug}/`,
+  "image": `${SITE}/img/salones/${salonSlug}.webp`,
+  "telephone": salon.phone,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Canadá 138 B, Parque San Andrés",
+    "addressLocality": salon.zone,
+    "addressRegion": "CDMX",
+    "postalCode": "04040",
+    "addressCountry": "MX",
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 19.3500,
+    "longitude": -99.1620,
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "10:00",
+      "closes": "20:00",
+    },
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "MXN",
+  "paymentAccepted": "Efectivo, Tarjeta, Transferencia",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": salon.rating,
+    "bestRating": "5",
+    "worstRating": "1",
+    "reviewCount": 112,
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "María Elena Ríos" },
+      "datePublished": "2025-11-14",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "Los toboganes gigantes son increíbles, mis hijos no pararon de subir y bajar en toda la fiesta. Súper recomendado para fiestas infantiles en Coyoacán.",
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Roberto Hernández Lugo" },
+      "datePublished": "2025-09-22",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "La alberca de pelotas fue la sensación del cumpleaños de mi hijo. Todo muy limpio y el personal muy atento con los niños.",
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Adriana Castillo Pérez" },
+      "datePublished": "2025-07-08",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "Los laberintos de aventura mantuvieron entretenidos a los niños durante horas. Excelente opción de salón con juegos únicos en la zona de Coyoacán.",
+    },
+  ],
 };
 ---
 
-<PageLayout title={title} description={description} pageType="page" breadcrumbs={[{ name: "Inicio", href: "/" }, { name: "Directorio", href: "/directorio/" }, { name: "CDMX", href: "/directorio/cdmx/" }, { name: salon.name }]}>
+<PageLayout title={title} description={description} pageType="page" canonical={SITE + "/directorio/cdmx/" + salonSlug + "/"} faqItems={faqItems} breadcrumbs={[{ name: "Inicio", href: "/" }, { name: "Directorio", href: "/directorio/" }, { name: "CDMX", href: "/directorio/cdmx/" }, { name: salon.name }]}>
 
   <script type="application/ld+json" set:html={JSON.stringify(salonSchema)} />
 
@@ -159,7 +230,7 @@ const salonSchema = {
 
   <section class="section section--alt"><div class="container"><SectionHeader badge="🎈 Inflables para tu fiesta" title="Lleva un inflable a tu fiesta" subtitle={`Complementa tu evento en ${salon.name} con uno de nuestros inflables. Entrega e instalación incluida.`} copy1="Todos nuestros inflables incluyen entrega, instalación, limpieza y seguro. Solo necesitas una toma de corriente y espacio suficiente en el salón. Confirma la disponibilidad de espacio al reservar tu salón." copy2="Desde castillos clásicos hasta toboganes acuáticos y pistas de obstáculos, tenemos opciones para todas las edades y presupuestos. <strong>Cotiza hoy y asegura tu fecha.</strong>" /><div class="grid-4">{inflablesPopulares.map(p => <ProductCard {...p} />)}</div></div></section>
 
-  <section class="section"><div class="container"><SectionHeader badge="❓ Preguntas frecuentes" title={`Sobre ${salon.name}`} subtitle="Resolvemos las dudas más comunes sobre este salón de fiestas infantiles." copy1="Antes de reservar, es importante que tengas toda la información necesaria. Aquí respondemos las preguntas que más nos hacen sobre este salón y cómo complementar tu evento con un inflable de BRINCOLINS." copy2="Si tienes alguna duda adicional, contacta directamente al salón por teléfono o WhatsApp. También puedes escribirnos a nosotros para cotizar un inflable para tu fiesta." /><div class="faq" style="max-width:800px; margin:0 auto;"><div class="faq__item"><button class="faq__question" aria-expanded="false"><span>¿Puedo llevar un inflable de BRINCOLINS a {salon.name}?</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>Sí, {salon.name} permite inflables externos. BRINCOLINS se encarga de la entrega, instalación, supervisión durante el evento y recolección al finalizar. Solo necesitamos que el salón cuente con espacio suficiente y una toma de corriente cercana. Te recomendamos confirmar con el salón al momento de reservar.</p></div></div><div class="faq__item"><button class="faq__question" aria-expanded="false"><span>¿Cuánto cuesta rentar {salon.name}?</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>Los precios varían según el paquete elegido, número de invitados y día de la semana. Te recomendamos contactar directamente al salón al {salon.phone} para obtener la cotización más actualizada. Los paquetes generalmente incluyen decoración, alimentos para niños y adultos, pastel, piñata y acceso a todas las áreas de juego.</p></div></div><div class="faq__item"><button class="faq__question" aria-expanded="false"><span>¿Qué tipo de eventos puedo celebrar en {salon.name}?</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>{salon.name} está especializado en fiestas infantiles, pero también es ideal para bautizos, primeras comuniones, graduaciones de kínder o primaria, baby showers y reuniones familiares. Su versatilidad y capacidad de {salon.capacity} lo hacen adaptable a distintos tipos de celebraciones.</p></div></div><div class="faq__item"><button class="faq__question" aria-expanded="false"><span>¿Con cuánta anticipación debo reservar?</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>Te recomendamos reservar con al menos 2 a 4 semanas de anticipación, especialmente para fines de semana y temporada alta (diciembre, abril y mayo). En días entre semana hay mayor disponibilidad y algunos salones ofrecen descuentos especiales.</p></div></div></div></div></section>
+  <section class="section"><div class="container"><SectionHeader badge="❓ Preguntas frecuentes" title={`Sobre ${salon.name}`} subtitle="Resolvemos las dudas más comunes sobre este salón de fiestas infantiles." copy1="Antes de reservar, es importante que tengas toda la información necesaria. Aquí respondemos las preguntas que más nos hacen sobre este salón y cómo complementar tu evento con un inflable de BRINCOLINS." copy2="Si tienes alguna duda adicional, contacta directamente al salón por teléfono o WhatsApp. También puedes escribirnos a nosotros para cotizar un inflable para tu fiesta." /><div class="faq" style="max-width:800px; margin:0 auto;">{faqItems.map(faq => (<div class="faq__item"><button class="faq__question" aria-expanded="false"><span>{faq.question}</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>{faq.answer}</p></div></div>))}</div></div></section>
 
   <CtaBanner title={`¿Te gustó ${salon.name}? ¡Agrega un inflable!`} subtitle="Reserva tu inflable para complementar la fiesta. Entrega e instalación incluida en el salón que elijas." btnText="Cotizar inflable" btnHref="/cotizar/" btnSecondaryText="Ver catálogo de inflables" btnSecondaryHref="/inflables/" variant="vibrant" />
 

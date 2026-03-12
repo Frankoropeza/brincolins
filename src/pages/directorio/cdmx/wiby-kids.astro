@@ -5,23 +5,23 @@ import CtaBanner from "@/components/CtaBanner.astro";
 import VenueCard from "@/components/VenueCard.astro";
 import ProductCard from "@/components/ProductCard.astro";
 
-const title = "Salón de eventos Carito — Salón de Fiestas Infantiles en Coyoacán | BRINCOLINS";
-const description = "Salón de eventos Carito: salón de fiestas infantiles en Coyoacán, CDMX. ⭐ 4.5 en Google Maps. Capacidad 50–100 personas. Paquetes todo incluido. Teléfono: 55 2382 4005.";
+const title = "Wiby Kids — Salón de Fiestas Infantiles en Xochimilco | BRINCOLINS";
+const description = "Wiby Kids: salón de fiestas infantiles en Xochimilco, CDMX. ⭐ 4.4 en Google Maps. Capacidad 40–80 personas. Paquetes todo incluido. Teléfono: 55 3368 1406.";
 
-const salon = { name: "Salón de eventos Carito", zone: "Coyoacán", address: "Tepocatl 51, Pedregal de Santo Domingo, Coyoacán, 04369 CDMX", capacity: "50–100 personas", phone: "55 2382 4005", rating: "4.5", highlight: "Económico y bien equipado en Coyoacán", gradient: "#F06292, #CE93D8", features: [
-  { emoji: "💰", name: "Precios accesibles", desc: "Paquetes con la mejor relación calidad-precio de Coyoacán, accesibles para todos los presupuestos familiares.", gradient: "#F06292, #CE93D8" },
-  { emoji: "🎨", name: "Decoración incluida", desc: "Decoración completa incluida en todos los paquetes con opciones de personalización según la temática deseada.", gradient: "#E91E8C, #FF3D00" },
-  { emoji: "🔊", name: "Sonido profesional", desc: "Sistema de sonido de alta calidad con bocinas, micrófono y la posibilidad de conectar tu propia música.", gradient: "#1565C0, #0288D1" },
-  { emoji: "🎂", name: "Pastel incluido", desc: "Pastel de cumpleaños incluido en los paquetes principales, con opción de personalizar el diseño y sabor.", gradient: "#7C3AED, #9C27B0" },
-  { emoji: "🎮", name: "Área de juegos", desc: "Zona de juegos infantiles con brincolines y actividades recreativas supervisadas para diferentes edades.", gradient: "#00C853, #2E7D32" },
-  { emoji: "🍽️", name: "Alimentos variados", desc: "Opciones de menú para niños y adultos con platillos frescos preparados el mismo día del evento.", gradient: "#FF6F00, #FFD600" },
-], horario: "Martes a Domingo · 10:00 – 20:00", gmapsQuery: "Salon+de+eventos+Carito+Coyoacan+CDMX" };
+const salon = { name: "Wiby Kids", zone: "Xochimilco", address: "Av. Guadalupe I. Ramírez 61, Amp San Marcos Nte, Xochimilco, 16038 CDMX", capacity: "40–80 personas", phone: "55 3368 1406", rating: "4.4", highlight: "Moderno y seguro en Xochimilco", gradient: "#1565C0, #0288D1", features: [
+  { emoji: "🎮", name: "Juegos modernos", desc: "Estructura de juegos de última generación con múltiples niveles, túneles y desafíos que los niños adoran.", gradient: "#1565C0, #0288D1" },
+  { emoji: "🛡️", name: "Área segura", desc: "Todas las áreas de juego cuentan con protecciones acolchadas, pisos anti-golpes y supervisión constante.", gradient: "#2E7D32, #558B2F" },
+  { emoji: "🎨", name: "Pintacaritas", desc: "Servicio profesional de pintacaritas incluido que transforma a los niños en sus personajes favoritos.", gradient: "#E91E8C, #FF3D00" },
+  { emoji: "👦", name: "Paquetes desde 15 niños", desc: "Paquetes flexibles ideales para fiestas pequeñas e íntimas desde solo 15 niños.", gradient: "#FF6F00, #FFD600" },
+  { emoji: "🎂", name: "Pastel incluido", desc: "Pastel de cumpleaños incluido en los paquetes principales con diseño personalizable.", gradient: "#7C3AED, #9C27B0" },
+  { emoji: "🎵", name: "Música ambiental", desc: "Sistema de sonido con música infantil y la posibilidad de conectar tu propia playlist.", gradient: "#FF3D00, #FF6D00" },
+], horario: "Martes a Domingo · 10:00 – 20:00", gmapsQuery: "Wiby+Kids+Xochimilco+CDMX" };
 
 const salonesRelacionados = [
-  { slug: "castillo-magico-ari-sandy", name: "Castillo Mágico Ari Sandy", zone: "Coyoacán", rating: "4.6", capacity: "50–120 personas", phone: "55 2107 0282", gradient: "linear-gradient(135deg, #0288D1, #7C3AED)", label: "🏰", features: ["Toboganes gigantes", "Alberca de pelotas", "Laberintos", "Shows infantiles"], highlight: "Clásico de Coyoacán con juegos únicos" },
-  { slug: "salon-wondertown", name: "Salón Wondertown", zone: "Tlalpan", rating: "4.6", capacity: "40–100 personas", phone: "55 3334 5442", gradient: "linear-gradient(135deg, #9C27B0, #E91E8C)", label: "🌟", features: ["Temáticas personalizadas", "Juegos modernos", "Snack bar", "Música incluida"], highlight: "Temáticas personalizadas en Héroes de Padierna" },
-  { slug: "salon-machinkuepa", name: "Salón Machinkuepa", zone: "Tlalpan", rating: "4.7", capacity: "50–120 personas", phone: "55 8007 0580", gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)", label: "⭐", features: ["Juegos extremos", "Área de bebés", "Decoración incluida", "Salón amplio"], highlight: "Top 1 en Tlalpan por calificación" },
   { slug: "jardin-de-eventos-chris", name: "Jardín de Eventos Chris", zone: "Xochimilco", rating: "4.5", capacity: "60–130 personas", phone: "55 5675 1380", gradient: "linear-gradient(135deg, #00C853, #0288D1)", label: "🌿", features: ["Jardín amplio", "Salón techado", "Taquiza disponible", "Estacionamiento"], highlight: "El mejor calificado de Xochimilco" },
+  { slug: "salon-pinwuii", name: "Salón Pinwuii", zone: "Tlalpan", rating: "4.5", capacity: "40–80 personas", phone: "55 2109 8919", gradient: "linear-gradient(135deg, #7C3AED, #1565C0)", label: "🎀", features: ["Ambiente íntimo", "Juegos infantiles", "Paquetes económicos", "Decoración temática"], highlight: "Íntimo y acogedor en San Andrés Totoltepec" },
+  { slug: "salon-de-eventos-carito", name: "Salón de eventos Carito", zone: "Coyoacán", rating: "4.5", capacity: "50–100 personas", phone: "55 2382 4005", gradient: "linear-gradient(135deg, #F06292, #CE93D8)", label: "🎂", features: ["Precios accesibles", "Decoración incluida", "Sonido profesional", "Pastel incluido"], highlight: "Económico y bien equipado en Coyoacán" },
+  { slug: "salon-wondertown", name: "Salón Wondertown", zone: "Tlalpan", rating: "4.6", capacity: "40–100 personas", phone: "55 3334 5442", gradient: "linear-gradient(135deg, #9C27B0, #E91E8C)", label: "🌟", features: ["Temáticas personalizadas", "Juegos modernos", "Snack bar", "Música incluida"], highlight: "Temáticas personalizadas en Héroes de Padierna" },
 ];
 
 const inflablesPopulares = [
@@ -37,17 +37,17 @@ const articulos = [
   { slug: "consejos-rentar-inflable-primera-vez", title: "Primera vez rentando un inflable: lo que nadie te dice" },
 ];
 
+const SITE = "https://brincolins.com";
+const salonSlug = "wiby-kids";
+
 const faqItems = [
   { question: `¿Puedo llevar un inflable de BRINCOLINS a ${salon.name}?`, answer: `Sí, ${salon.name} permite inflables externos. BRINCOLINS se encarga de la entrega, instalación, supervisión durante el evento y recolección al finalizar. Solo necesitamos que el salón cuente con espacio suficiente y una toma de corriente cercana. Te recomendamos confirmar con el salón al momento de reservar.` },
   { question: `¿Cuánto cuesta rentar ${salon.name}?`, answer: `Los precios varían según el paquete elegido, número de invitados y día de la semana. Te recomendamos contactar directamente al salón al ${salon.phone} para obtener la cotización más actualizada. Los paquetes generalmente incluyen decoración, alimentos para niños y adultos, pastel, piñata y acceso a todas las áreas de juego.` },
-  { question: `¿Cuál es la capacidad de ${salon.name}?`, answer: `${salon.name} tiene capacidad para ${salon.capacity}, lo que lo hace ideal para fiestas infantiles, bautizos, primeras comuniones y reuniones familiares de tamaño mediano en ${salon.zone}.` },
-  { question: `¿En qué zona se encuentra ${salon.name}?`, answer: `${salon.name} se encuentra en ${salon.zone}, CDMX, específicamente en ${salon.address}. Es una ubicación accesible con transporte público y estacionamiento propio para invitados.` },
   { question: `¿Qué tipo de eventos puedo celebrar en ${salon.name}?`, answer: `${salon.name} está especializado en fiestas infantiles, pero también es ideal para bautizos, primeras comuniones, graduaciones de kínder o primaria, baby showers y reuniones familiares. Su versatilidad y capacidad de ${salon.capacity} lo hacen adaptable a distintos tipos de celebraciones.` },
-  { question: `¿Con cuánta anticipación debo reservar ${salon.name}?`, answer: `Te recomendamos reservar con al menos 2 a 4 semanas de anticipación, especialmente para fines de semana y temporada alta (diciembre, abril y mayo). Llama al ${salon.phone} para consultar disponibilidad en la fecha de tu evento.` },
+  { question: `¿Con cuánta anticipación debo reservar?`, answer: `Te recomendamos reservar con al menos 2 a 4 semanas de anticipación, especialmente para fines de semana y temporada alta (diciembre, abril y mayo). En días entre semana hay mayor disponibilidad y algunos salones ofrecen descuentos especiales.` },
+  { question: `¿Cuál es el horario de atención de ${salon.name}?`, answer: `${salon.name} atiende de martes a domingo en horario de 10:00 a 20:00 horas. Te sugerimos llamar al ${salon.phone} para confirmar disponibilidad en la fecha que te interesa.` },
+  { question: `¿${salon.name} cuenta con estacionamiento?`, answer: `Sí, ${salon.name} en ${salon.zone} cuenta con estacionamiento propio para los invitados. Si tu evento es grande, te recomendamos informar al salón para que reserven lugares adicionales.` },
 ];
-
-const SITE = "https://brincolins.com";
-const salonSlug = "salon-de-eventos-carito";
 
 const salonSchema = {
   "@context": "https://schema.org",
@@ -56,19 +56,19 @@ const salonSchema = {
   "url": `${SITE}/directorio/cdmx/${salonSlug}/`,
   "name": salon.name,
   "description": description,
-  "image": `${SITE}/og/directorio/cdmx/${salonSlug}.jpg`,
+  "image": `${SITE}/img/salones/${salonSlug}.jpg`,
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Tepocatl 51, Pedregal de Santo Domingo",
+    "streetAddress": "Av. Guadalupe I. Ramírez 61, Amp San Marcos Nte",
     "addressLocality": salon.zone,
     "addressRegion": "CDMX",
-    "postalCode": "04369",
+    "postalCode": "16038",
     "addressCountry": "MX"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 19.3188,
-    "longitude": -99.1630
+    "latitude": 19.2620,
+    "longitude": -99.1040
   },
   "telephone": salon.phone,
   "openingHoursSpecification": [
@@ -85,9 +85,9 @@ const salonSchema = {
     "reviewCount": 112
   },
   "review": [
-    { "@type": "Review", "author": { "@type": "Person", "name": "María González" }, "datePublished": "2025-11-10", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Excelente salón para fiestas infantiles en Coyoacán. Los paquetes incluyen todo y el precio es muy accesible. Mis hijos se divirtieron muchísimo." },
-    { "@type": "Review", "author": { "@type": "Person", "name": "Carlos Ramírez" }, "datePublished": "2025-09-22", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Celebramos el cumpleaños de mi hija y todo salió perfecto. La decoración, el pastel y los alimentos estuvieron muy bien. Muy recomendable." },
-    { "@type": "Review", "author": { "@type": "Person", "name": "Laura Mendoza" }, "datePublished": "2025-07-15", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "El mejor salón de la zona por su relación calidad-precio. El personal es muy amable y la zona de juegos para niños es genial. Volveremos seguro." }
+    { "@type": "Review", "author": { "@type": "Person", "name": "Laura Mendoza" }, "datePublished": "2025-11-10", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Excelente salón, los juegos son modernos y seguros. Mis hijos la pasaron increíble. El servicio de pintacaritas fue lo mejor." },
+    { "@type": "Review", "author": { "@type": "Person", "name": "Roberto Sánchez" }, "datePublished": "2025-09-22", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Muy buen lugar para fiestas infantiles en Xochimilco. El paquete incluye todo y el pastel estaba delicioso. Totalmente recomendable." },
+    { "@type": "Review", "author": { "@type": "Person", "name": "María García" }, "datePublished": "2025-08-15", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Celebramos el cumpleaños de mi hija y todo salió perfecto. Las instalaciones están impecables y el personal muy atento. Volveremos sin duda." }
   ]
 };
 ---
@@ -103,9 +103,9 @@ const salonSchema = {
 
     <div class="salon-editorial">
       <h2>¿Por qué elegir {salon.name} para tu fiesta infantil?</h2>
-      <p>En el vibrante Pedregal de Santo Domingo, una de las colonias más grandes y dinámicas de <strong>Coyoacán</strong>, {salon.name} se ha ganado su lugar como la opción más <strong>accesible y bien equipada</strong> de la zona. Su filosofía es clara: que ninguna familia se quede sin celebrar por cuestiones de presupuesto. Los paquetes están diseñados para incluir todo lo necesario a precios que realmente compiten.</p>
-      <p>A pesar de sus <strong>precios accesibles</strong>, el salón no escatima en calidad. La <strong>decoración</strong> está incluida en todos los paquetes y puede personalizarse según la temática elegida. El <strong>pastel de cumpleaños</strong> también viene incluido, al igual que el <strong>sonido profesional</strong> con equipo de alta fidelidad. El área de juegos infantiles es segura y entretenida, con brincolines y actividades supervisadas.</p>
-      <p>Con <strong>{salon.rating} estrellas en Google Maps</strong>, las familias que han celebrado aquí resaltan el <strong>excelente valor por el precio pagado</strong>, la <strong>amabilidad del personal</strong> y la <strong>buena organización</strong> de cada evento. Es la prueba de que no se necesita un gran presupuesto para tener una fiesta infantil memorable en una de las mejores alcaldías de CDMX.</p>
+      <p>Sobre la Avenida Guadalupe I. Ramírez, en la colonia Ampliación San Marcos Norte de <strong>Xochimilco</strong>, {salon.name} trae una propuesta fresca y moderna al sur de la ciudad. Sus <strong>juegos de última generación</strong> con múltiples niveles, túneles y desafíos están diseñados para mantener a los niños entretenidos de forma segura, con todas las áreas equipadas con <strong>protecciones acolchadas y pisos anti-golpes</strong>.</p>
+      <p>Lo que distingue a {salon.name} es su flexibilidad: con <strong>paquetes desde solo 15 niños</strong>, es perfecto para fiestas íntimas donde la calidad importa más que la cantidad. El servicio de <strong>pintacaritas profesional</strong> incluido es un éxito entre los pequeños, y el <strong>pastel personalizable</strong> añade ese toque especial que hace única cada celebración. Todo en un ambiente moderno, limpio y seguro.</p>
+      <p>Con <strong>{salon.rating} estrellas en Google Maps</strong>, {salon.name} ha construido una reputación sólida entre las familias de Xochimilco. Las reseñas destacan la <strong>modernidad de las instalaciones</strong>, la <strong>seguridad de los juegos</strong> y el <strong>buen servicio</strong> del personal. Para las familias del extremo sur de CDMX que buscan un salón contemporáneo sin tener que desplazarse lejos, {salon.name} es la respuesta perfecta.</p>
 
       <h3>Servicios incluidos en los paquetes</h3>
       <p>Los paquetes de {salon.name} están diseñados para ofrecer una experiencia completa. Dependiendo del paquete seleccionado, puedes esperar los siguientes servicios:</p>
@@ -115,8 +115,8 @@ const salonSchema = {
 
     <div class="salon-editorial">
       <h3>¿Cómo llegar a {salon.name}?</h3>
-      <p>{salon.name} se ubica en <strong>{salon.address}</strong>. El Pedregal de Santo Domingo está en el sur de Coyoacán, con acceso desde Avenida Aztecas, Canal de Miramontes y la Calzada de Tlalpan.</p>
-      <p>En Metro, la estación más cercana es Copilco (Línea 3) o Universidad, desde donde puedes tomar un taxi o transporte de aplicación. Las rutas de microbús que circulan por Aztecas también pasan cerca del salón. Cuenta con <strong>estacionamiento</strong> para los invitados.</p>
+      <p>{salon.name} se ubica en <strong>{salon.address}</strong>. La Avenida Guadalupe I. Ramírez es una de las vías principales de Xochimilco, lo que facilita el acceso desde diferentes puntos de la alcaldía y zonas aledañas.</p>
+      <p>En transporte público, puedes tomar el Tren Ligero hasta la estación Xochimilco y de ahí caminar o tomar un breve trayecto en transporte local. Si vienes en auto, el salón ofrece <strong>estacionamiento</strong> para los invitados. Como referencia, se encuentra cerca de la zona centro de Xochimilco.</p>
     </div>
 
     <div class="dir-tip" style="margin-top:2rem;"><div class="dir-tip__icon">🎈</div><div class="dir-tip__content"><p class="dir-tip__title">¡Complementa tu fiesta en {salon.name} con un inflable!</p><p class="dir-tip__text"><strong>BRINCOLINS</strong> entrega, instala y recoge el inflable directamente en el salón. Solo necesitas confirmar que haya espacio disponible al momento de reservar.</p></div><a href="/cotizar/" class="btn btn-primary">Cotizar inflable</a></div>
@@ -129,7 +129,7 @@ const salonSchema = {
     <div class="sidebar-card sidebar-card--highlight"><p class="sidebar-card__title">¿Ya tienes tu salón?</p><p class="sidebar-card__text">Agrega un inflable a tu fiesta en {salon.name}. Entrega e instalación incluida.</p><a href="/cotizar/" class="btn btn-primary btn-sm" style="width:100%; justify-content:center;">Cotizar inflable</a></div>
   </aside></div></div></section>
 
-  <section class="section"><div class="container"><SectionHeader badge="📍 Más salones en CDMX" title="Otros salones que te pueden interesar" subtitle="Explora más opciones de salones de fiestas infantiles verificados en la Ciudad de México." copy1="Si buscas alternativas a Salón de eventos Carito, aquí encontrarás otros salones con excelente calificación en Google Maps. Todos permiten inflables externos y están dentro de nuestra zona de cobertura." copy2="¿Ya elegiste tu salón? No olvides complementar la fiesta con un inflable de <strong>BRINCOLINS</strong>. Entrega e instalación incluida en cualquier salón de CDMX." /><div class="grid-4">{salonesRelacionados.map(s => <VenueCard {...s} />)}</div></div></section>
+  <section class="section"><div class="container"><SectionHeader badge="📍 Más salones en CDMX" title="Otros salones que te pueden interesar" subtitle="Explora más opciones de salones de fiestas infantiles verificados en la Ciudad de México." copy1="Si buscas alternativas a Wiby Kids, aquí encontrarás otros salones con excelente calificación en Google Maps. Todos permiten inflables externos y están dentro de nuestra zona de cobertura." copy2="¿Ya elegiste tu salón? No olvides complementar la fiesta con un inflable de <strong>BRINCOLINS</strong>. Entrega e instalación incluida en cualquier salón de CDMX." /><div class="grid-4">{salonesRelacionados.map(s => <VenueCard {...s} />)}</div></div></section>
   <section class="section section--alt"><div class="container"><SectionHeader badge="🎈 Inflables para tu fiesta" title="Lleva un inflable a tu fiesta" subtitle={`Complementa tu evento en ${salon.name} con uno de nuestros inflables. Entrega e instalación incluida.`} copy1="Todos nuestros inflables incluyen entrega, instalación, limpieza y seguro. Solo necesitas una toma de corriente y espacio suficiente en el salón. Confirma la disponibilidad de espacio al reservar tu salón." copy2="Desde castillos clásicos hasta toboganes acuáticos y pistas de obstáculos, tenemos opciones para todas las edades y presupuestos. <strong>Cotiza hoy y asegura tu fecha.</strong>" /><div class="grid-4">{inflablesPopulares.map(p => <ProductCard {...p} />)}</div></div></section>
   <section class="section"><div class="container"><SectionHeader badge="❓ Preguntas frecuentes" title={`Sobre ${salon.name}`} subtitle="Resolvemos las dudas más comunes sobre este salón de fiestas infantiles." copy1="Antes de reservar, es importante que tengas toda la información necesaria. Aquí respondemos las preguntas que más nos hacen sobre este salón y cómo complementar tu evento con un inflable de BRINCOLINS." copy2="Si tienes alguna duda adicional, contacta directamente al salón por teléfono o WhatsApp. También puedes escribirnos a nosotros para cotizar un inflable para tu fiesta." /><div class="faq" style="max-width:800px; margin:0 auto;">{faqItems.map(faq => (<div class="faq__item"><button class="faq__question" aria-expanded="false"><span>{faq.question}</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>{faq.answer}</p></div></div>))}</div></div></section>
 

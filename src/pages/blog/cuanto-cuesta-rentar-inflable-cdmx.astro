@@ -1,0 +1,213 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "¿Cuánto Cuesta Rentar un Inflable en CDMX? Precios 2025 | BRINCOLINS";
+const description = "Guía completa de precios para rentar brincolines en CDMX y Estado de México. Desde $650 hasta $2,500 MXN. Qué incluye el precio y cómo no pagar de más.";
+
+const faqs = [
+  { question: "¿El precio incluye instalación?", answer: "En BRINCOLINS sí. Entrega, instalación y retiro están incluidos en todos nuestros precios. No hay costos ocultos de mano de obra." },
+  { question: "¿Hay costo extra por distancia?", answer: "Dentro de la ZMVM (CDMX y municipios conurbados de Edomex) el servicio de entrega está incluido. Para colonias muy alejadas puede aplicar un cargo pequeño que te comunicamos al cotizar." },
+  { question: "¿Puedo rentar por más de un día?", answer: "Sí. Para eventos de fin de semana o kermeses de 2-3 días tenemos tarifas especiales. Consulta disponibilidad al cotizar." },
+  { question: "¿Se requiere depósito?", answer: "Sí, pedimos un depósito del 30-50% al reservar para asegurar la fecha. El resto se liquida el día del evento." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog", href: "/blog/" },
+    { name: "Cuánto cuesta rentar un inflable en CDMX" },
+  ]}
+>
+
+  <!-- HERO ARTÍCULO -->
+  <section class="art-hero">
+    <div class="container">
+      <div class="art-hero__inner">
+        <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+        <div class="art-hero__cats">
+          <span class="section-badge">💰 Precios</span>
+        </div>
+        <h1 class="art-hero__title">
+          ¿Cuánto cuesta rentar un inflable en CDMX? Guía de precios 2025
+        </h1>
+        <div class="art-hero__meta">
+          <span>📅 11 mar 2025</span>
+          <span class="art-hero__sep">·</span>
+          <span>⏱️ 6 min lectura</span>
+          <span class="art-hero__sep">·</span>
+          <span>✍️ Equipo BRINCOLINS</span>
+        </div>
+        <p class="art-hero__intro">
+          El precio de renta de un brincolín en CDMX varía mucho según el tipo, tamaño y lo que incluye el servicio. Aquí te explicamos qué esperar para no llevarte sorpresas el día de la fiesta.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <section class="section">
+    <div class="container">
+      <div class="art-layout">
+        <article class="art-body">
+
+          <h2>Rangos de precios en 2025</h2>
+          <p>
+            En la Ciudad de México y el Estado de México, la renta de inflables para fiestas infantiles oscila entre <strong>$650 y $2,500 MXN por día</strong>, dependiendo del tipo de inflable y lo que incluye el servicio. Aquí el desglose:
+          </p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">💡</span>
+            <p><strong>Dato clave:</strong> El precio más barato no siempre es el mejor negocio. Un inflable sucio, sin seguro o que llega tarde puede arruinar la fiesta.</p>
+          </div>
+
+          <h2>1. Mini castillos y castillos temáticos: $650 – $950 MXN</h2>
+          <p>
+            Son los inflables más populares y accesibles. Perfectos para fiestas de niños de 3 a 8 años en espacios medianos (jardín de 20–30 m²). En este rango entran:
+          </p>
+          <ul class="art-list">
+            <li><strong>Mini castillo básico:</strong> desde $650 MXN — ideal para espacios pequeños</li>
+            <li><strong>Castillo de princesas o dragones:</strong> $850–$950 MXN — más grande y con más detalles</li>
+            <li><strong>Castillo unicornio o medieval:</strong> $950 MXN — diseños premium muy solicitados</li>
+          </ul>
+          <p>
+            La mayoría de los proveedores en CDMX incluyen instalación. Verifica que así sea antes de contratar.
+          </p>
+
+          <h2>2. Toboganes y modelos con agua: $1,100 – $1,600 MXN</h2>
+          <p>
+            Para los meses de calor (marzo–junio y septiembre en CDMX), los inflables acuáticos son los más solicitados. El tobogán acuático estándar cuesta alrededor de <strong>$1,200 MXN</strong> incluyendo instalación.
+          </p>
+          <p>
+            Considera que necesitarás una toma de agua cercana y una manguera. Pregunta al proveedor si incluyen la conexión o si debes tenerla lista.
+          </p>
+          <ul class="art-list">
+            <li><strong>Tobogán acuático básico:</strong> $1,100–$1,300 MXN</li>
+            <li><strong>Alberca inflable grande:</strong> $1,200–$1,500 MXN</li>
+            <li><strong>Parque acuático (combo):</strong> $1,800–$2,500 MXN</li>
+          </ul>
+
+          <h2>3. Inflables de obstáculos y deportivos: $1,400 – $2,200 MXN</h2>
+          <p>
+            La pista de obstáculos es perfecta para niños de 6 a 14 años que quieren adrenalina. Suelen ser inflables grandes (8×4m o más) que requieren buen espacio. El ring de boxeo inflable también entra en esta categoría.
+          </p>
+          <ul class="art-list">
+            <li><strong>Pista de obstáculos estándar:</strong> $1,400–$1,700 MXN</li>
+            <li><strong>Ring de boxeo:</strong> $1,500–$1,800 MXN</li>
+            <li><strong>Nave espacial o cueva dinosaurios (temáticos grandes):</strong> $1,600–$2,200 MXN</li>
+          </ul>
+
+          <h2>¿Qué debe incluir el precio? La lista que debes pedir</h2>
+          <p>
+            Antes de contratar, pregunta explícitamente qué incluye el precio. Un buen proveedor debe incluir:
+          </p>
+          <ul class="art-list">
+            <li>✅ <strong>Entrega y retiro</strong> — sin costo oculto de flete</li>
+            <li>✅ <strong>Instalación y desinstalación</strong> — el equipo monta y desmonta todo</li>
+            <li>✅ <strong>Compresor/motor</strong> — el inflable llega con su soplador incluido</li>
+            <li>✅ <strong>Seguro de responsabilidad civil</strong> — protección si hay un accidente</li>
+            <li>✅ <strong>Inflable limpio y desinfectado</strong> — especialmente importante post-pandemia</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">⚠️</span>
+            <p><strong>Red flag:</strong> Si el proveedor cobra extra por la instalación o no menciona el seguro, es una señal de alerta. El seguro de RC es obligatorio para cualquier operador serio.</p>
+          </div>
+
+          <h2>Costos ocultos que debes evitar</h2>
+          <p>
+            El precio de catálogo no siempre es el precio final. Estos son los extras que algunos proveedores cobran por separado:
+          </p>
+          <ul class="art-list">
+            <li>Flete o servicio de entrega: $200–$400 MXN adicionales</li>
+            <li>Operador que supervise el inflable durante la fiesta: $300–$600 MXN</li>
+            <li>Depósito de garantía no reembolsable por daños menores</li>
+            <li>Cargo por cancelación tardía (menos de 24h): hasta el 50% del total</li>
+          </ul>
+          <p>
+            En <strong>BRINCOLINS</strong>, el precio que cotizamos es el precio final. Entrega, instalación y retiro siempre incluidos en toda la ZMVM.
+          </p>
+
+          <h2>¿Vale la pena rentar o comprar un inflable?</h2>
+          <p>
+            Si organizas 1–2 fiestas al año, rentar es la opción correcta. Un inflable de calidad cuesta entre $8,000 y $25,000 MXN de compra directa, más el costo de almacenarlo, limpiarlo y mantenerlo. Por 3–5 rentas, ya pagaste lo mismo sin los dolores de cabeza del mantenimiento.
+          </p>
+          <p>
+            La compra tiene sentido solo si eres organizador de eventos o tienes más de 10 fiestas al año. En ese caso, la inversión se recupera rápido.
+          </p>
+
+          <h2>¿Cómo conseguir el mejor precio?</h2>
+          <ul class="art-list">
+            <li><strong>Reserva con anticipación:</strong> Los precios de fin de semana en temporada alta (abril, mayo, diciembre) suelen ser 15–20% más altos por la demanda.</li>
+            <li><strong>Evita quincenas y puentes:</strong> Si tu evento puede ser entre semana, los precios bajan considerablemente.</li>
+            <li><strong>Pide combo:</strong> Algunos proveedores hacen descuento si rentas 2 o más inflables para un mismo evento.</li>
+            <li><strong>Compara 3 cotizaciones:</strong> Nunca contrates el primer proveedor sin comparar. Precio, inclusiones y reseñas.</li>
+          </ul>
+
+          <CtaBanner
+            title="¿Ya sabes qué inflable quieres?"
+            desc="Cotiza en segundos por WhatsApp y te confirmamos disponibilidad al instante."
+            btnText="Cotizar ahora"
+            btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable%20para%20mi%20fiesta."
+            whatsapp={true}
+          />
+
+        </article>
+
+        <!-- Sidebar FAQs -->
+        <aside class="art-sidebar">
+          <div class="art-faq">
+            <h3>Preguntas frecuentes</h3>
+            {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+          </div>
+          <div class="art-sidebar__cta">
+            <p>¿Tienes más dudas sobre precios?</p>
+            <a href="https://wa.me/5547868402" class="btn btn-wa btn-sm" target="_blank" rel="noopener noreferrer">Preguntar por WhatsApp</a>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </section>
+
+</PageLayout>
+
+<style>
+  .art-hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    padding: 4rem 0 3rem;
+    margin-top: -1px;
+  }
+  .art-hero__inner { max-width: 760px; }
+  .art-hero__back { color: var(--c-primary); font-size: 0.875rem; font-weight: 600; text-decoration: none; display: inline-block; margin-bottom: 1.5rem; }
+  .art-hero__back:hover { opacity: 0.8; }
+  .art-hero__cats { margin-bottom: 1rem; }
+  .art-hero__title { font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 900; line-height: 1.2; color: #fff; margin-bottom: 1rem; }
+  .art-hero__meta { display: flex; flex-wrap: wrap; gap: 0.5rem; font-size: 0.875rem; color: rgba(255,255,255,0.55); margin-bottom: 1.25rem; }
+  .art-hero__sep { opacity: 0.4; }
+  .art-hero__intro { font-size: 1.125rem; line-height: 1.75; color: rgba(255,255,255,0.75); }
+
+  .art-layout { display: grid; grid-template-columns: 1fr 300px; gap: 3rem; align-items: start; }
+  @media (max-width: 900px) { .art-layout { grid-template-columns: 1fr; } .art-sidebar { display: none; } }
+
+  .art-body { max-width: 100%; }
+  .art-body h2 { font-size: 1.375rem; font-weight: 800; margin: 2.5rem 0 1rem; color: var(--c-text); }
+  .art-body p { font-size: 1rem; line-height: 1.8; color: var(--c-text-muted); margin-bottom: 1.25rem; }
+  .art-list { padding-left: 1.25rem; margin-bottom: 1.25rem; }
+  .art-list li { font-size: 1rem; line-height: 1.7; color: var(--c-text-muted); margin-bottom: 0.5rem; }
+
+  .art-tip { background: color-mix(in srgb, var(--c-primary) 8%, var(--c-bg)); border-left: 4px solid var(--c-primary); border-radius: 0 8px 8px 0; padding: 1rem 1.25rem; margin: 1.5rem 0; display: flex; gap: 0.75rem; align-items: flex-start; }
+  .art-tip__icon { font-size: 1.25rem; flex-shrink: 0; }
+  .art-tip p { margin: 0; font-size: 0.9375rem; }
+
+  .art-sidebar { position: sticky; top: 5rem; }
+  .art-faq { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; }
+  .art-faq h3 { font-size: 1rem; font-weight: 700; margin-bottom: 1rem; }
+  .art-sidebar__cta { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: 12px; padding: 1.5rem; text-align: center; }
+  .art-sidebar__cta p { font-size: 0.9375rem; color: var(--c-text-muted); margin-bottom: 1rem; }
+</style>
