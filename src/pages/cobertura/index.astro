@@ -3,6 +3,7 @@ import PageLayout from "@/layouts/PageLayout.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import FaqItem from "@/components/FaqItem.astro";
+import ZonaCard from "@/components/ZonaCard.astro";
 
 const title = "Zonas de Cobertura | Renta de Inflables en CDMX y Edomex — BRINCOLINS";
 const description = "Renta de inflables con entrega a domicilio en las 16 alcaldías de la Ciudad de México y 15 municipios del Estado de México. Consulta precios de envío y colonias con cobertura.";
@@ -11,304 +12,40 @@ const WA = "5547868402";
 const waBase = `https://wa.me/${WA}?text=`;
 
 const alcaldias = [
-  {
-    slug: "alvaro-obregon",
-    emoji: "🏙️",
-    name: "Álvaro Obregón",
-    colonias: ["Santa Fe", "San Ángel", "Pedregal", "Lomas Altas", "Altavista"],
-    tiempo: "60–90 min",
-    envio: "Incluido",
-    envioColor: "#00C853",
-    gradient: "linear-gradient(135deg, #1565C0, #0288D1)",
-  },
-  {
-    slug: "azcapotzalco",
-    emoji: "🏭",
-    name: "Azcapotzalco",
-    colonias: ["Del Gas", "Clavería", "Pasteros", "Santa Bárbara", "Ferrería"],
-    tiempo: "45–70 min",
-    envio: "Incluido",
-    envioColor: "#00C853",
-    gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)",
-  },
-  {
-    slug: "benito-juarez",
-    emoji: "⭐",
-    name: "Benito Juárez",
-    colonias: ["Del Valle", "Narvarte", "Nápoles", "Portales", "Insurgentes"],
-    tiempo: "30–50 min",
-    envio: "Incluido",
-    envioColor: "#00C853",
-    gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)",
-  },
-  {
-    slug: "coyoacan",
-    emoji: "🦌",
-    name: "Coyoacán",
-    colonias: ["Coyoacán Centro", "Pedregal", "Villa Coapa", "Copilco", "Xotepingo"],
-    tiempo: "40–60 min",
-    envio: "Incluido",
-    envioColor: "#00C853",
-    gradient: "linear-gradient(135deg, #2E7D32, #00C853)",
-  },
-  {
-    slug: "cuajimalpa",
-    emoji: "🌲",
-    name: "Cuajimalpa",
-    colonias: ["Santa Fe", "Cuajimalpa Centro", "Contadero", "El Molinito"],
-    tiempo: "60–90 min",
-    envio: "Incluido",
-    envioColor: "#00C853",
-    gradient: "linear-gradient(135deg, #00796B, #009688)",
-  },
-  {
-    slug: "cuauhtemoc",
-    emoji: "🏛️",
-    name: "Cuauhtémoc",
-    colonias: ["Centro Histórico", "Roma Norte", "Condesa", "Juárez", "Tepito"],
-    tiempo: "30–50 min",
-    envio: "Incluido",
-    envioColor: "#00C853",
-    gradient: "linear-gradient(135deg, #B71C1C, #E53935)",
-  },
-  {
-    slug: "gustavo-a-madero",
-    emoji: "🕍",
-    name: "Gustavo A. Madero",
-    colonias: ["Lindavista", "Vallejo", "Tepeyac", "Aragón", "La Villa"],
-    tiempo: "45–70 min",
-    envio: "Incluido",
-    envioColor: "#00C853",
-    gradient: "linear-gradient(135deg, #E65100, #FF6F00)",
-  },
-  {
-    slug: "iztacalco",
-    emoji: "🌆",
-    name: "Iztacalco",
-    colonias: ["Pantitlán", "Agrícola Oriental", "Granjas México", "Viaducto"],
-    tiempo: "40–60 min",
-    envio: "Incluido",
-    envioColor: "#00C853",
-    gradient: "linear-gradient(135deg, #0288D1, #01579B)",
-  },
-  {
-    slug: "iztapalapa",
-    emoji: "🌇",
-    name: "Iztapalapa",
-    colonias: ["Ermita Iztapalapa", "Peñón de los Baños", "UAM", "Santa Martha"],
-    tiempo: "50–80 min",
-    envio: "$100–$150",
-    envioColor: "#FF6F00",
-    gradient: "linear-gradient(135deg, #558B2F, #7CB342)",
-  },
-  {
-    slug: "magdalena-contreras",
-    emoji: "🌿",
-    name: "Magdalena Contreras",
-    colonias: ["La Magdalena", "San Jerónimo", "Barranca del Muerto", "El Rosal"],
-    tiempo: "60–80 min",
-    envio: "Incluido",
-    envioColor: "#00C853",
-    gradient: "linear-gradient(135deg, #4A148C, #6A1B9A)",
-  },
-  {
-    slug: "miguel-hidalgo",
-    emoji: "👑",
-    name: "Miguel Hidalgo",
-    colonias: ["Polanco", "Lomas de Chapultepec", "Tacuba", "Anzures", "Irrigación"],
-    tiempo: "30–50 min",
-    envio: "Incluido",
-    envioColor: "#00C853",
-    gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)",
-  },
-  {
-    slug: "milpa-alta",
-    emoji: "🌵",
-    name: "Milpa Alta",
-    colonias: ["Milpa Alta Centro", "San Pedro Atocpan", "San Pablo Oztotepec"],
-    tiempo: "90–120 min",
-    envio: "$200–$300",
-    envioColor: "#FF3D00",
-    gradient: "linear-gradient(135deg, #827717, #F9A825)",
-  },
-  {
-    slug: "tlahuac",
-    emoji: "🌾",
-    name: "Tláhuac",
-    colonias: ["Tláhuac Centro", "La Nopalera", "Zapotitla", "Los Olivos"],
-    tiempo: "70–100 min",
-    envio: "$100–$200",
-    envioColor: "#FF6F00",
-    gradient: "linear-gradient(135deg, #1B5E20, #388E3C)",
-  },
-  {
-    slug: "tlalpan",
-    emoji: "🏔️",
-    name: "Tlalpan",
-    colonias: ["Villa Coapa", "Pedregal de San Nicolás", "Topilejo", "Ajusco"],
-    tiempo: "50–80 min",
-    envio: "Incluido",
-    envioColor: "#00C853",
-    gradient: "linear-gradient(135deg, #1565C0, #0D47A1)",
-  },
-  {
-    slug: "venustiano-carranza",
-    emoji: "✈️",
-    name: "Venustiano Carranza",
-    colonias: ["Jardín Balbuena", "Moctezuma", "Aeropuerto", "Merced", "Peñón"],
-    tiempo: "40–60 min",
-    envio: "Incluido",
-    envioColor: "#00C853",
-    gradient: "linear-gradient(135deg, #00695C, #00897B)",
-  },
-  {
-    slug: "xochimilco",
-    emoji: "🛶",
-    name: "Xochimilco",
-    colonias: ["Xochimilco Centro", "San Gregorio", "Tulyehualco", "Tepepan"],
-    tiempo: "60–90 min",
-    envio: "$100–$150",
-    envioColor: "#FF6F00",
-    gradient: "linear-gradient(135deg, #006064, #0097A7)",
-  },
+  { slug: "alvaro-obregon",       emoji: "🏙️", name: "Álvaro Obregón",       description: "Entregamos en Santa Fe, San Ángel, Pedregal y todo Álvaro Obregón con instalación incluida.",       colonias: ["Santa Fe", "San Ángel", "Pedregal", "Lomas Altas"],        envio: "Incluido", gradient: "linear-gradient(135deg, #1565C0, #0288D1)" },
+  { slug: "azcapotzalco",         emoji: "🏭", name: "Azcapotzalco",          description: "Cobertura total en Del Gas, Clavería, Pasteros y colonias industriales de Azcapotzalco.",           colonias: ["Del Gas", "Clavería", "Pasteros", "Santa Bárbara"],         envio: "Incluido", gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)" },
+  { slug: "benito-juarez",        emoji: "⭐", name: "Benito Juárez",          description: "Zona más solicitada. Del Valle, Narvarte, Nápoles y Portales con entrega sin costo adicional.",    colonias: ["Del Valle", "Narvarte", "Nápoles", "Portales"],             envio: "Incluido", gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)" },
+  { slug: "coyoacan",             emoji: "🦌", name: "Coyoacán",               description: "Renta de inflables en Coyoacán Centro, Pedregal, Villa Coapa, Copilco y colonias aledañas.",        colonias: ["Coyoacán Centro", "Pedregal", "Villa Coapa", "Copilco"],    envio: "Incluido", gradient: "linear-gradient(135deg, #2E7D32, #00C853)" },
+  { slug: "cuajimalpa",           emoji: "🌲", name: "Cuajimalpa",             description: "Cubrimos Santa Fe, Cuajimalpa Centro, Contadero y El Molinito con puntualidad garantizada.",        colonias: ["Santa Fe", "Cuajimalpa Centro", "Contadero", "El Molinito"], envio: "Incluido", gradient: "linear-gradient(135deg, #00796B, #009688)" },
+  { slug: "cuauhtemoc",           emoji: "🏛️", name: "Cuauhtémoc",            description: "Centro Histórico, Roma, Condesa y Juárez: entrega rápida en el corazón de la Ciudad de México.",   colonias: ["Centro Histórico", "Roma Norte", "Condesa", "Juárez"],      envio: "Incluido", gradient: "linear-gradient(135deg, #B71C1C, #E53935)" },
+  { slug: "gustavo-a-madero",     emoji: "🕍", name: "Gustavo A. Madero",      description: "Inflables en Lindavista, Vallejo, Tepeyac, La Villa y toda la alcaldía de GAM.",                   colonias: ["Lindavista", "Vallejo", "Tepeyac", "Aragón"],               envio: "Incluido", gradient: "linear-gradient(135deg, #E65100, #FF6F00)" },
+  { slug: "iztacalco",            emoji: "🌆", name: "Iztacalco",              description: "Entrega en Pantitlán, Agrícola Oriental, Granjas México y colonias de Iztacalco.",                  colonias: ["Pantitlán", "Agrícola Oriental", "Granjas México", "Viaducto"], envio: "Incluido", gradient: "linear-gradient(135deg, #0288D1, #01579B)" },
+  { slug: "iztapalapa",           emoji: "🌇", name: "Iztapalapa",             description: "Renta de inflables en Ermita, UAM, Santa Martha y todas las colonias de Iztapalapa.",               colonias: ["Ermita Iztapalapa", "UAM", "Santa Martha", "Peñón"],        envio: "$100–$150", gradient: "linear-gradient(135deg, #558B2F, #7CB342)" },
+  { slug: "magdalena-contreras",  emoji: "🌿", name: "Magdalena Contreras",    description: "Llegamos a La Magdalena, San Jerónimo, Barranca del Muerto y colonias de la delegación.",         colonias: ["La Magdalena", "San Jerónimo", "Barranca del Muerto", "El Rosal"], envio: "Incluido", gradient: "linear-gradient(135deg, #4A148C, #6A1B9A)" },
+  { slug: "miguel-hidalgo",       emoji: "👑", name: "Miguel Hidalgo",         description: "Polanco, Lomas de Chapultepec, Anzures y las colonias más exclusivas de la ciudad.",               colonias: ["Polanco", "Lomas de Chapultepec", "Tacuba", "Anzures"],     envio: "Incluido", gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)" },
+  { slug: "milpa-alta",           emoji: "🌵", name: "Milpa Alta",             description: "Cobertura en Milpa Alta Centro, San Pedro Atocpan y San Pablo Oztotepec con programación.",        colonias: ["Milpa Alta Centro", "San Pedro Atocpan", "San Pablo Oztotepec", "Villa Milpa Alta"], envio: "$200–$300", gradient: "linear-gradient(135deg, #827717, #F9A825)" },
+  { slug: "tlahuac",              emoji: "🌾", name: "Tláhuac",                description: "Inflables en Tláhuac Centro, La Nopalera, Zapotitla y Los Olivos con entrega programada.",         colonias: ["Tláhuac Centro", "La Nopalera", "Zapotitla", "Los Olivos"],  envio: "$100–$200", gradient: "linear-gradient(135deg, #1B5E20, #388E3C)" },
+  { slug: "tlalpan",              emoji: "🏔️", name: "Tlalpan",               description: "Villa Coapa, Pedregal de San Nicolás, Ajusco y toda la alcaldía de Tlalpan.",                      colonias: ["Villa Coapa", "Pedregal de San Nicolás", "Topilejo", "Ajusco"], envio: "Incluido", gradient: "linear-gradient(135deg, #1565C0, #0D47A1)" },
+  { slug: "venustiano-carranza",  emoji: "✈️", name: "Venustiano Carranza",    description: "Jardín Balbuena, Moctezuma, Merced y colonias cercanas al aeropuerto con entrega puntual.",       colonias: ["Jardín Balbuena", "Moctezuma", "Aeropuerto", "Merced"],     envio: "Incluido", gradient: "linear-gradient(135deg, #00695C, #00897B)" },
+  { slug: "xochimilco",           emoji: "🛶", name: "Xochimilco",             description: "Renta de inflables en Xochimilco Centro, San Gregorio, Tulyehualco y Tepepan.",                   colonias: ["Xochimilco Centro", "San Gregorio", "Tulyehualco", "Tepepan"], envio: "$100–$150", gradient: "linear-gradient(135deg, #006064, #0097A7)" },
 ];
 
 const municipios = [
-  {
-    slug: "naucalpan",
-    emoji: "🏡",
-    name: "Naucalpan",
-    colonias: ["Satélite", "Lomas Verdes", "Interlomas", "San Rafael"],
-    envio: "$150–$250",
-    envioColor: "#FF6F00",
-    gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)",
-  },
-  {
-    slug: "tlalnepantla",
-    emoji: "🏗️",
-    name: "Tlalnepantla",
-    colonias: ["Centro", "Las Américas", "Vallejo", "Industrial"],
-    envio: "$150–$250",
-    envioColor: "#FF6F00",
-    gradient: "linear-gradient(135deg, #1565C0, #0288D1)",
-  },
-  {
-    slug: "ecatepec",
-    emoji: "🌃",
-    name: "Ecatepec",
-    colonias: ["Ciudad Azteca", "Las Américas", "San Cristóbal", "Ecatepec Centro"],
-    envio: "$200–$350",
-    envioColor: "#FF3D00",
-    gradient: "linear-gradient(135deg, #E65100, #FF6F00)",
-  },
-  {
-    slug: "nezahualcoyotl",
-    emoji: "🏘️",
-    name: "Nezahualcóyotl",
-    colonias: ["Ciudad Neza", "Jardines de Morelos", "Los Reyes", "Benito Juárez"],
-    envio: "$200–$300",
-    envioColor: "#FF3D00",
-    gradient: "linear-gradient(135deg, #2E7D32, #00C853)",
-  },
-  {
-    slug: "huixquilucan",
-    emoji: "💎",
-    name: "Huixquilucan",
-    colonias: ["Interlomas", "La Herradura", "El Molinito", "Jesús del Monte"],
-    envio: "$150–$250",
-    envioColor: "#FF6F00",
-    gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)",
-  },
-  {
-    slug: "atizapan",
-    emoji: "🌄",
-    name: "Atizapán de Zaragoza",
-    colonias: ["Ciudad Adolfo López Mateos", "Rancho Contento", "Satélite"],
-    envio: "$200–$300",
-    envioColor: "#FF3D00",
-    gradient: "linear-gradient(135deg, #B71C1C, #E53935)",
-  },
-  {
-    slug: "cuautitlan-izcalli",
-    emoji: "🏙️",
-    name: "Cuautitlán Izcalli",
-    colonias: ["Izcalli Centro", "Hacienda del Parque", "Ojo de Agua"],
-    envio: "$250–$400",
-    envioColor: "#FF3D00",
-    gradient: "linear-gradient(135deg, #0288D1, #01579B)",
-  },
-  {
-    slug: "coacalco",
-    emoji: "🌟",
-    name: "Coacalco",
-    colonias: ["Coacalco Centro", "Bosques de Morelos", "La Quebrada"],
-    envio: "$200–$300",
-    envioColor: "#FF3D00",
-    gradient: "linear-gradient(135deg, #00796B, #009688)",
-  },
-  {
-    slug: "toluca",
-    emoji: "⛰️",
-    name: "Toluca",
-    colonias: ["Centro", "Metepec", "Zinacantepec", "San Mateo Atenco"],
-    envio: "$400–$600",
-    envioColor: "#FF3D00",
-    gradient: "linear-gradient(135deg, #4A148C, #6A1B9A)",
-  },
-  {
-    slug: "metepec",
-    emoji: "🎨",
-    name: "Metepec",
-    colonias: ["Metepec Centro", "San Salvador la Gavia", "Pilares"],
-    envio: "$400–$600",
-    envioColor: "#FF3D00",
-    gradient: "linear-gradient(135deg, #827717, #F9A825)",
-  },
-  {
-    slug: "texcoco",
-    emoji: "🏛️",
-    name: "Texcoco",
-    colonias: ["Texcoco Centro", "San Miguel Coatlinchán", "Atenco"],
-    envio: "$250–$400",
-    envioColor: "#FF3D00",
-    gradient: "linear-gradient(135deg, #1B5E20, #388E3C)",
-  },
-  {
-    slug: "chalco",
-    emoji: "🌅",
-    name: "Chalco",
-    colonias: ["Chalco Centro", "Valle de Chalco", "San Gregorio"],
-    envio: "$250–$400",
-    envioColor: "#FF3D00",
-    gradient: "linear-gradient(135deg, #558B2F, #7CB342)",
-  },
-  {
-    slug: "nicolas-romero",
-    emoji: "🌳",
-    name: "Nicolás Romero",
-    colonias: ["Nicolás Romero Centro", "Ciudad Cuauhtémoc", "El Progreso"],
-    envio: "$250–$400",
-    envioColor: "#FF3D00",
-    gradient: "linear-gradient(135deg, #006064, #0097A7)",
-  },
-  {
-    slug: "tecamac",
-    emoji: "🚀",
-    name: "Tecámac",
-    colonias: ["Ciudad Real", "Real del Sol", "Tecámac Centro"],
-    envio: "$250–$400",
-    envioColor: "#FF3D00",
-    gradient: "linear-gradient(135deg, #E91E63, #C2185B)",
-  },
-  {
-    slug: "tultitlan",
-    emoji: "🏭",
-    name: "Tultitlán",
-    colonias: ["Tultitlán Centro", "San Pablo de las Salinas", "Lechería"],
-    envio: "$200–$300",
-    envioColor: "#FF3D00",
-    gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)",
-  },
+  { slug: "naucalpan",          emoji: "🏡", name: "Naucalpan",              description: "Satélite, Lomas Verdes, Interlomas y San Rafael: renta de inflables en el municipio más grande del poniente.",  colonias: ["Satélite", "Lomas Verdes", "Interlomas", "San Rafael"],              envio: "$150–$250", gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)" },
+  { slug: "tlalnepantla",       emoji: "🏗️", name: "Tlalnepantla",          description: "Entrega en Tlalnepantla Centro, Las Américas, Vallejo y zona industrial del municipio.",                        colonias: ["Centro", "Las Américas", "Vallejo", "Industrial"],                   envio: "$150–$250", gradient: "linear-gradient(135deg, #1565C0, #0288D1)" },
+  { slug: "ecatepec",           emoji: "🌃", name: "Ecatepec",               description: "Ciudad Azteca, San Cristóbal, Las Américas y todo Ecatepec con inflables entregados a domicilio.",              colonias: ["Ciudad Azteca", "Las Américas", "San Cristóbal", "Ecatepec Centro"], envio: "$200–$350", gradient: "linear-gradient(135deg, #E65100, #FF6F00)" },
+  { slug: "nezahualcoyotl",     emoji: "🏘️", name: "Nezahualcóyotl",        description: "Ciudad Neza, Jardines de Morelos, Los Reyes y colonias de Nezahualcóyotl con entrega puntual.",                colonias: ["Ciudad Neza", "Jardines de Morelos", "Los Reyes", "Benito Juárez"],  envio: "$200–$300", gradient: "linear-gradient(135deg, #2E7D32, #00C853)" },
+  { slug: "huixquilucan",       emoji: "💎", name: "Huixquilucan",           description: "La Herradura, Interlomas, Jesús del Monte: inflables para las zonas residenciales más exclusivas del Edomex.",  colonias: ["Interlomas", "La Herradura", "El Molinito", "Jesús del Monte"],      envio: "$150–$250", gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)" },
+  { slug: "atizapan",           emoji: "🌄", name: "Atizapán de Zaragoza",   description: "Renta de inflables en Ciudad López Mateos, Rancho Contento y colonias de Atizapán.",                           colonias: ["Cd. López Mateos", "Rancho Contento", "Satélite", "Las Fuentes"],    envio: "$200–$300", gradient: "linear-gradient(135deg, #B71C1C, #E53935)" },
+  { slug: "cuautitlan-izcalli", emoji: "🏙️", name: "Cuautitlán Izcalli",   description: "Izcalli Centro, Hacienda del Parque y Ojo de Agua con entrega programada de inflables.",                        colonias: ["Izcalli Centro", "Hacienda del Parque", "Ojo de Agua", "Cumbria"],   envio: "$250–$400", gradient: "linear-gradient(135deg, #0288D1, #01579B)" },
+  { slug: "coacalco",           emoji: "🌟", name: "Coacalco",               description: "Coacalco Centro, Bosques de Morelos y La Quebrada con inflables entregados a domicilio.",                       colonias: ["Coacalco Centro", "Bosques de Morelos", "La Quebrada", "San Crisanto"], envio: "$200–$300", gradient: "linear-gradient(135deg, #00796B, #009688)" },
+  { slug: "toluca",             emoji: "⛰️", name: "Toluca",                 description: "Llegamos a Toluca Centro, San Mateo Atenco, Zinacantepec y zonas del Valle de Toluca.",                         colonias: ["Toluca Centro", "San Mateo Atenco", "Zinacantepec", "Almoloya"],     envio: "$400–$600", gradient: "linear-gradient(135deg, #4A148C, #6A1B9A)" },
+  { slug: "metepec",            emoji: "🎨", name: "Metepec",                description: "Metepec Centro, San Salvador la Gavia y Pilares: inflables para los eventos más elegantes del Valle.",          colonias: ["Metepec Centro", "San Salvador la Gavia", "Pilares", "Coaxustenco"], envio: "$400–$600", gradient: "linear-gradient(135deg, #827717, #F9A825)" },
+  { slug: "texcoco",            emoji: "🏛️", name: "Texcoco",               description: "Renta de inflables en Texcoco Centro, San Miguel Coatlinchán y municipios del Oriente.",                        colonias: ["Texcoco Centro", "San Miguel Coatlinchán", "Atenco", "Chiconcuac"], envio: "$250–$400", gradient: "linear-gradient(135deg, #1B5E20, #388E3C)" },
+  { slug: "chalco",             emoji: "🌅", name: "Chalco",                 description: "Chalco Centro, Valle de Chalco y San Gregorio con entrega de inflables a domicilio en el Oriente.",             colonias: ["Chalco Centro", "Valle de Chalco", "San Gregorio", "Tlapala"],       envio: "$250–$400", gradient: "linear-gradient(135deg, #558B2F, #7CB342)" },
+  { slug: "nicolas-romero",     emoji: "🌳", name: "Nicolás Romero",         description: "Ciudad Cuauhtémoc, El Progreso y colonias de Nicolás Romero con servicio de entrega a domicilio.",              colonias: ["Nicolás Romero Centro", "Ciudad Cuauhtémoc", "El Progreso", "La Aurora"], envio: "$250–$400", gradient: "linear-gradient(135deg, #006064, #0097A7)" },
+  { slug: "tecamac",            emoji: "🚀", name: "Tecámac",                description: "Ciudad Real, Real del Sol y Tecámac Centro: inflables con entrega en el norte del Estado de México.",           colonias: ["Ciudad Real", "Real del Sol", "Tecámac Centro", "Ozumbilla"],        envio: "$250–$400", gradient: "linear-gradient(135deg, #E91E63, #C2185B)" },
+  { slug: "tultitlan",          emoji: "🏭", name: "Tultitlán",              description: "San Pablo de las Salinas, Lechería y Tultitlán Centro con inflables entregados en tiempo y forma.",             colonias: ["Tultitlán Centro", "San Pablo de las Salinas", "Lechería", "Buenavista"], envio: "$200–$300", gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)" },
 ];
 
 const faqs = [
@@ -419,26 +156,17 @@ const schemaLD = {
         copy2="Cada alcaldía tiene sus propias colonias y particularidades logísticas. Haz clic en tu alcaldía para ver las colonias con cobertura, tiempos estimados de entrega, costos y los inflables más solicitados en esa zona."
       />
 
-      <div class="cob-grid">
+      <div class="grid-4">
         {alcaldias.map(a => (
-          <a href={`/cobertura/${a.slug}/`} class="cob-card">
-            <div class="cob-card__header" style={`background: ${a.gradient};`}>
-              <span class="cob-card__emoji">{a.emoji}</span>
-              <span class="cob-card__envio" style={`background:${a.envioColor}22; color:${a.envioColor}; border:1px solid ${a.envioColor}44;`}>
-                {a.envio === "Incluido" ? "✅ Envío gratis" : `🚚 ${a.envio}`}
-              </span>
-            </div>
-            <div class="cob-card__body">
-              <h3 class="cob-card__name">{a.name}</h3>
-              <div class="cob-card__colonias">
-                {a.colonias.slice(0,4).map(c => <span class="cob-card__col">{c}</span>)}
-              </div>
-              <div class="cob-card__footer">
-                <span class="cob-card__tiempo">⏱ {a.tiempo}</span>
-                <span class="cob-card__cta">Ver zona →</span>
-              </div>
-            </div>
-          </a>
+          <ZonaCard
+            slug={a.slug}
+            emoji={a.emoji}
+            name={a.name}
+            description={a.description}
+            colonias={a.colonias}
+            envio={a.envio}
+            gradient={a.gradient}
+          />
         ))}
       </div>
     </div>
@@ -455,26 +183,18 @@ const schemaLD = {
         copy2="Para municipios del Edomex se aplica un cargo de envío adicional que varía según la distancia desde nuestro almacén central en CDMX. El tiempo de entrega es mayor, por lo que recomendamos coordinar la salida con al menos 2-3 horas de anticipación al inicio del evento."
       />
 
-      <div class="cob-grid">
+      <div class="grid-4">
         {municipios.map(m => (
-          <a href={`/cobertura/${m.slug}/`} class="cob-card">
-            <div class="cob-card__header" style={`background: ${m.gradient};`}>
-              <span class="cob-card__emoji">{m.emoji}</span>
-              <span class="cob-card__envio" style={`background:${m.envioColor}22; color:${m.envioColor}; border:1px solid ${m.envioColor}44;`}>
-                🚚 {m.envio}
-              </span>
-            </div>
-            <div class="cob-card__body">
-              <h3 class="cob-card__name">{m.name}</h3>
-              <div class="cob-card__colonias">
-                {m.colonias.slice(0,4).map(c => <span class="cob-card__col">{c}</span>)}
-              </div>
-              <div class="cob-card__footer">
-                <span class="cob-card__tiempo">📍 Edomex</span>
-                <span class="cob-card__cta">Ver zona →</span>
-              </div>
-            </div>
-          </a>
+          <ZonaCard
+            slug={m.slug}
+            emoji={m.emoji}
+            name={m.name}
+            description={m.description}
+            colonias={m.colonias}
+            envio={m.envio}
+            gradient={m.gradient}
+            tipo="edomex"
+          />
         ))}
       </div>
     </div>
@@ -556,121 +276,6 @@ const schemaLD = {
 </PageLayout>
 
 <style>
-/* ── Stats ── */
-.cob-stats {
-  display: flex;
-  gap: 1.5rem;
-  margin: 1.8rem 0 2rem;
-  flex-wrap: wrap;
-}
-.cob-stat {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-}
-.cob-stat__num {
-  font-family: var(--font-head);
-  font-size: 2rem;
-  font-weight: 900;
-  color: var(--c-primary);
-  line-height: 1;
-}
-.cob-stat__label {
-  font-size: 0.78rem;
-  color: var(--c-text-muted);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-
-/* ── Coverage grid ── */
-.cob-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.25rem;
-  margin-top: 2.5rem;
-}
-
-/* ── Coverage card ── */
-.cob-card {
-  background: var(--c-surface);
-  border-radius: var(--r-card);
-  overflow: hidden;
-  box-shadow: var(--shadow-card);
-  text-decoration: none;
-  color: inherit;
-  transition: transform .2s, box-shadow .2s;
-  display: flex;
-  flex-direction: column;
-}
-.cob-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(0,0,0,.12);
-}
-.cob-card__header {
-  padding: 1.2rem 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 70px;
-}
-.cob-card__emoji {
-  font-size: 1.8rem;
-  line-height: 1;
-}
-.cob-card__envio {
-  font-size: 0.7rem;
-  font-weight: 700;
-  padding: 0.3rem 0.6rem;
-  border-radius: 50px;
-  white-space: nowrap;
-}
-.cob-card__body {
-  padding: 1rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-.cob-card__name {
-  font-family: var(--font-head);
-  font-size: 1rem;
-  font-weight: 800;
-  color: var(--c-text);
-  line-height: 1.2;
-  margin: 0;
-}
-.cob-card__colonias {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.3rem;
-}
-.cob-card__col {
-  font-size: 0.72rem;
-  background: var(--c-bg-alt);
-  color: var(--c-text-muted);
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
-  line-height: 1.3;
-}
-.cob-card__footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: auto;
-  padding-top: 0.5rem;
-  border-top: 1px solid var(--c-border);
-}
-.cob-card__tiempo {
-  font-size: 0.75rem;
-  color: var(--c-text-muted);
-}
-.cob-card__cta {
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: var(--c-primary);
-}
-
 /* ── Envío cards ── */
 .envio-card {
   background: var(--c-surface);
@@ -712,18 +317,5 @@ const schemaLD = {
   color: var(--c-text-muted);
   line-height: 1.6;
   margin: 0;
-}
-
-/* ── Responsive ── */
-@media (max-width: 1024px) {
-  .cob-grid { grid-template-columns: repeat(3, 1fr); }
-}
-@media (max-width: 768px) {
-  .cob-grid { grid-template-columns: repeat(2, 1fr); }
-  .cob-stats { gap: 1rem; }
-  .cob-stat__num { font-size: 1.6rem; }
-}
-@media (max-width: 480px) {
-  .cob-grid { grid-template-columns: 1fr 1fr; }
 }
 </style>

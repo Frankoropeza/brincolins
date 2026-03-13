@@ -1,0 +1,64 @@
+---
+export interface Props {
+  slug: string;
+  emoji: string;
+  name: string;
+  description: string;
+  colonias: string[];
+  envio: string;
+  gradient: string;
+  image?: string;
+  whatsapp?: string;
+  tipo?: "cdmx" | "edomex";
+}
+
+const {
+  slug,
+  emoji,
+  name,
+  description,
+  colonias,
+  envio,
+  gradient,
+  image,
+  whatsapp = "5547868402",
+  tipo = "cdmx",
+} = Astro.props;
+
+const esGratis = envio === "Incluido";
+const envioLabel = esGratis ? "✅ Envío incluido" : `🚚 Envío ${envio}`;
+const envioColor = esGratis ? "castillo" : "pirata";
+
+const waMsg = encodeURIComponent(`Hola BRINCOLINS, quiero cotizar un inflable con entrega en ${name}.`);
+const waHref = `https://wa.me/${whatsapp}?text=${waMsg}`;
+---
+
+<article class={`product-card product-card--${envioColor}`}>
+  {image ? (
+    <div class="product-card__image product-card__image--photo">
+      <img src={image} alt={`Renta de inflables en ${name}`} loading="lazy" width="720" height="480" />
+      <span class="product-card__category">{envioLabel}</span>
+    </div>
+  ) : (
+    <div class="product-card__image" style={`background: ${gradient};`}>
+      <span>{emoji}</span>
+      <span class="product-card__category">{envioLabel}</span>
+    </div>
+  )}
+
+  <div class="product-card__body">
+    <h3 class="product-card__name">{name}</h3>
+    <p class="product-card__desc">{description}</p>
+
+    <div class="product-card__info">
+      {colonias.slice(0, 3).map(c => (
+        <span class="product-card__tag">📍 {c}</span>
+      ))}
+    </div>
+
+    <div class="product-card__actions">
+      <a href={`/cobertura/${slug}/`} class="btn btn-outline btn-sm">Ver zona</a>
+      <a href={waHref} target="_blank" rel="noopener noreferrer" class="btn btn-wa btn-sm">WhatsApp</a>
+    </div>
+  </div>
+</article>
