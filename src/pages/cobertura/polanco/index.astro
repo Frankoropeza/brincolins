@@ -1,0 +1,154 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Renta de Inflables en Polanco, Lomas y Santa Fe | BRINCOLINS";
+const description = "Renta de brincolines e inflables en Polanco, Lomas de Chapultepec y Santa Fe. Entrega gratuita, instalación profesional y los mejores precios de la zona.";
+
+const colonias = [
+  "Polanco I Sección", "Polanco II Sección", "Polanco III Sección",
+  "Polanco IV Sección", "Polanco V Sección", "Lomas de Chapultepec",
+  "Santa Fe", "Bosques de las Lomas", "Lomas de Bezares",
+  "Anzures", "Reforma", "Chapultepec",
+  "Palmas", "Virreyes", "Lomas Altas", "Bosque Real",
+];
+
+const faqs = [
+  { question: "¿Entregan inflables en Polanco sin costo adicional?", answer: "Sí, la entrega en Polanco, Lomas de Chapultepec, Anzures y colonias cercanas está incluida en el precio. No cobramos flete adicional para estas zonas." },
+  { question: "¿Pueden instalar un inflable en un departamento de Polanco?", answer: "Sí, siempre que el departamento cuente con terraza o roof garden con espacio suficiente. Necesitamos acceso al elevador de servicio y una toma eléctrica cercana. Coordinamos con la administración del edificio." },
+  { question: "¿Qué inflables recomiendan para jardines en Lomas de Chapultepec?", answer: "Los jardines de Lomas suelen ser amplios, así que cualquier modelo funciona perfecto. Los más solicitados en la zona son el Castillo Blanco por su estética elegante y el inflable Extremo para fiestas con niños mayores." },
+  { question: "¿Cubren también Santa Fe y Bosques de las Lomas?", answer: "Sí, toda la zona de Santa Fe, Bosques de las Lomas y Bosque Real está dentro de nuestra cobertura con entrega sin costo. Incluso cubrimos los centros comerciales y salones de eventos de la zona." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Cobertura", href: "/cobertura" },
+    { name: "Polanco" },
+  ]}
+  faqItems={faqs}
+>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <a href="/cobertura/">Cobertura</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Polanco</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">📍 Polanco</span>
+          <h1 class="hero__title">Renta de Inflables en <span class="highlight">Polanco, Lomas y Santa Fe</span></h1>
+          <p class="hero__desc">Entregamos e instalamos inflables en Polanco, Lomas de Chapultepec, Santa Fe y todas las colonias de la zona poniente de CDMX. Servicio profesional con los más altos estándares de calidad.</p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20necesito%20un%20inflable%20en%20Polanco."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              Cotizar por WhatsApp
+            </a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">Polanco, Lomas de Chapultepec y Santa Fe son zonas donde las fiestas infantiles se celebran con altos estándares de calidad. Los jardines amplios de Lomas, las terrazas y roof gardens de Polanco, y los salones de Santa Fe son espacios ideales para instalar inflables de primera línea. Nuestro equipo conoce las particularidades logísticas de cada colonia.</p>
+          <p class="hero__copy-text">Coordinamos directamente con administraciones de edificios, seguridad de fraccionamientos cerrados y personal de salones de eventos para garantizar una instalación sin contratiempos. Llevamos años atendiendo eventos en esta zona y conocemos las rutas de acceso, los horarios de carga y descarga, y los requisitos específicos de cada ubicación.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📍 Colonias"
+        title="Colonias que cubrimos en la zona Polanco-Lomas"
+        subtitle="Entrega directa en estas zonas sin costo adicional."
+        copy1="Nuestra cobertura abarca toda la zona poniente de la Ciudad de México, desde Polanco y Anzures hasta Santa Fe y Bosque Real. Cada colonia tiene sus particularidades de acceso y nosotros las conocemos todas."
+        copy2="Si tu evento es en un fraccionamiento cerrado, edificio de departamentos o salón de eventos privado, no te preocupes. Coordinamos todo el acceso logístico para que el inflable llegue puntual y sin complicaciones a tu ubicación exacta."
+      />
+      <div class="coverage__badges">
+        {colonias.map(z => <span class="coverage__badge">{z}</span>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🚚 Entrega"
+        title="Información de entrega en Polanco y Lomas"
+        subtitle="Todo lo que necesitas saber sobre nuestro servicio en la zona."
+        copy1="Polanco y Lomas de Chapultepec son zonas con regulaciones específicas de carga y descarga. Nuestro equipo está familiarizado con los horarios permitidos y las vías de acceso de cada colonia, lo que garantiza una instalación eficiente y sin multas."
+        copy2="Para edificios con elevador de servicio o accesos controlados, coordinamos previamente con la administración. Te pedimos los datos de contacto del responsable del inmueble para agendar la entrega sin contratiempos."
+      />
+      <div class="grid-3" style="max-width:900px; margin:0 auto;">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #2E7D32);">
+            <span class="why-card__img-label">GRATIS</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Entrega sin costo</h3>
+            <p class="why-card__desc">En todas las colonias de Polanco, Lomas y Santa Fe.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #1565C0, #0288D1);">
+            <span class="why-card__img-label">2h</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación rápida</h3>
+            <p class="why-card__desc">Montaje profesional en menos de 2 horas.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+            <span class="why-card__img-label">24/7</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Atención permanente</h3>
+            <p class="why-card__desc">WhatsApp disponible todo el día para resolver dudas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes sobre Polanco y Lomas"
+        subtitle="Dudas comunes sobre entrega de inflables en esta zona."
+        copy1="La zona de Polanco y Lomas tiene particularidades que no existen en otras áreas de la ciudad. Edificios de lujo, fraccionamientos cerrados y regulaciones de ruido son factores que manejamos con experiencia."
+        copy2="Si tu pregunta no aparece aquí, escríbenos por WhatsApp y te respondemos al instante. Nuestro equipo conoce esta zona a detalle y puede resolver cualquier duda logística."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Fiesta en Polanco o Lomas?"
+    subtitle="Cotiza tu inflable con entrega gratuita en toda la zona poniente de CDMX."
+    btnText="Cotizar para Polanco"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20necesito%20inflable%20en%20Polanco."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+    whatsapp={true}
+    external={true}
+  />
+
+</PageLayout>

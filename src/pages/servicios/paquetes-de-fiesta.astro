@@ -1,0 +1,236 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Paquetes de Fiesta Todo Incluido en CDMX | BRINCOLINS CDMX";
+const description = "Paquetes de fiesta todo incluido: inflable + mobiliario + iluminación. 3 niveles: Básico, Premium y VIP. Ahorra hasta 30% vs renta individual en CDMX.";
+
+const faqs = [
+  { question: "¿Cuánto ahorro con un paquete vs rentar todo por separado?", answer: "Dependiendo del paquete que elijas, puedes ahorrar entre un 15% y un 30% comparado con la renta individual de cada servicio. El paquete VIP es el que ofrece mayor ahorro porque incluye todos los servicios con descuento máximo." },
+  { question: "¿Puedo personalizar un paquete?", answer: "Sí, todos nuestros paquetes son personalizables. Si necesitas más mesas, un inflable diferente o un tipo específico de iluminación, nos adaptamos a tus necesidades. Escríbenos por WhatsApp con los detalles de tu evento y te armamos un paquete a la medida." },
+  { question: "¿Qué diferencia hay entre el paquete Básico, Premium y VIP?", answer: "El paquete Básico incluye inflable y mobiliario esencial (mesas y sillas). El Premium agrega manteles, toldo y servicio extendido de 6 horas. El VIP incluye todo lo anterior más iluminación LED completa, inflable premium y hasta 8 horas de servicio con atención personalizada." },
+  { question: "¿Los paquetes tienen algún límite de invitados?", answer: "Los paquetes están diseñados para eventos de 20 a 80 personas. El Básico cubre hasta 30 invitados con el mobiliario incluido, el Premium hasta 50 y el VIP hasta 80 invitados. Si tu evento es más grande, podemos ajustar el paquete agregando más mobiliario." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Servicios", href: "/servicios" },
+    { name: "Paquetes de Fiesta" },
+  ]}
+  faqItems={faqs}
+>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Servicios</span>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Paquetes de Fiesta</span>
+    </nav>
+  </div>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🎁 Paquetes</span>
+          <h1 class="hero__title">Paquetes de fiesta <span class="highlight">todo incluido</span></h1>
+          <p class="hero__desc">Inflable, mobiliario e iluminación en un solo paquete con descuento. Tres niveles para cada presupuesto: Básico, Premium y VIP.</p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20información%20sobre%20los%20paquetes%20de%20fiesta."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              Cotizar por WhatsApp
+            </a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">Organizar una fiesta infantil puede ser abrumador cuando tienes que coordinar múltiples proveedores. Con los paquetes de fiesta de BRINCOLINS, resuelves todo en un solo lugar: inflable, mesas, sillas, manteles, toldos e iluminación. Un solo contacto, un solo pago y la tranquilidad de saber que todo está coordinado y llegará puntualmente.</p>
+          <p class="hero__copy-text">Ofrecemos tres niveles de paquete pensados para diferentes necesidades y presupuestos. Desde el paquete Básico ideal para fiestas íntimas, hasta el VIP que incluye todo lo necesario para una celebración espectacular. Y lo mejor: al contratar un paquete completo, ahorras hasta un 30% comparado con la renta individual de cada servicio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAQUETES -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="📦 Nuestros paquetes"
+        title="Elige el paquete ideal para tu fiesta"
+        subtitle="3 opciones diseñadas para cada tipo de celebración."
+        copy1="Cada paquete ha sido diseñado pensando en las necesidades reales de nuestros clientes. Sabemos que no todas las fiestas son iguales: algunas son reuniones íntimas en casa y otras son grandes celebraciones en jardines. Por eso ofrecemos opciones que se adaptan a tu evento."
+        copy2="Todos los paquetes incluyen entrega, instalación y recolección sin costo adicional en CDMX y zona metropolitana. Además, puedes personalizar cualquier paquete para ajustarlo exactamente a lo que necesitas. Solo tienes que decirle a nuestro equipo qué quieres cambiar y te cotizamos al instante."
+      />
+      <div class="grid-4" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #2962FF, #448AFF);">
+            <span class="why-card__img-label">⭐</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Paquete Básico</h3>
+            <p class="why-card__desc">Inflable clásico + 3 mesas + 24 sillas. Ideal para fiestas de hasta 30 invitados. Duración de 4 horas. Entrega e instalación incluida. Ahorro del 15%.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FF6D00, #FFAB00);">
+            <span class="why-card__img-label">🌟</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Paquete Premium</h3>
+            <p class="why-card__desc">Inflable a elegir + 5 mesas + 40 sillas + manteles + toldo 3x6 m. Hasta 50 invitados. Duración de 6 horas. Ahorro del 20%.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #AA00FF, #D500F9);">
+            <span class="why-card__img-label">👑</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Paquete VIP</h3>
+            <p class="why-card__desc">Inflable premium + 8 mesas + 64 sillas + manteles + toldo 6x6 m + iluminación LED completa. Hasta 80 invitados. 8 horas. Ahorro del 30%.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="✅ Beneficios"
+        title="¿Por qué elegir un paquete completo?"
+        subtitle="Más fácil, más económico, más profesional."
+        copy1="Contratar un paquete completo te da ventajas que la renta individual no puede ofrecer. Además del ahorro económico significativo, tienes la comodidad de un solo proveedor que coordina todo: transporte, instalación, horarios y recolección de cada elemento."
+        copy2="Nuestros clientes que eligen paquetes reportan mayor satisfacción con sus eventos porque eliminan el estrés de coordinar con múltiples proveedores. Un solo contacto de WhatsApp, un solo pago y la certeza de que todo llega junto, a tiempo y en perfectas condiciones."
+      />
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+            <span class="why-card__img-label">💵</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Ahorro de hasta 30%</h3>
+            <p class="why-card__desc">Al contratar un paquete integral pagas menos que si rentas cada servicio por separado. El paquete VIP ofrece el mayor descuento.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #2962FF, #448AFF);">
+            <span class="why-card__img-label">🤝</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Un solo proveedor</h3>
+            <p class="why-card__desc">Olvídate de coordinar con 3 o 4 proveedores diferentes. Nosotros nos encargamos de todo: inflable, mobiliario e iluminación.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #69F0AE);">
+            <span class="why-card__img-label">⏰</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Más horas de servicio</h3>
+            <p class="why-card__desc">Los paquetes incluyen más horas que la renta individual. El VIP te da hasta 8 horas completas para disfrutar tu evento sin prisas.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #AA00FF, #D500F9);">
+            <span class="why-card__img-label">🎯</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Personalizable</h3>
+            <p class="why-card__desc">Cada paquete se puede ajustar a tus necesidades. Cambia el inflable, agrega mesas o elige el color de manteles que prefieras.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="📋 Proceso"
+        title="¿Cómo contratar tu paquete?"
+        subtitle="Resuelve todo en 4 pasos sencillos."
+        copy1="Contratar un paquete de fiesta con BRINCOLINS es rápido y sin complicaciones. Nuestro equipo te guía en cada paso para que elijas exactamente lo que necesitas, sin gastar de más y sin quedarte corto."
+        copy2="Desde el primer mensaje por WhatsApp hasta la recolección del último equipo, nos aseguramos de que tu experiencia sea impecable. Queremos que repitas con nosotros en tu próxima celebración y que nos recomiendes con tu familia y amigos."
+      />
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+            <span class="why-card__img-label">1</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Cuéntanos tu fiesta</h3>
+            <p class="why-card__desc">Dinos fecha, número de invitados, tipo de espacio y qué servicios te interesan. Te recomendamos el paquete ideal.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #2962FF, #448AFF);">
+            <span class="why-card__img-label">2</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Personaliza tu paquete</h3>
+            <p class="why-card__desc">Elige el inflable que más te guste, los colores de manteles y si quieres agregar o quitar elementos. Te cotizamos al momento.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #69F0AE);">
+            <span class="why-card__img-label">3</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Aparta con anticipo</h3>
+            <p class="why-card__desc">Reserva tu fecha con el 50% de anticipo. Aceptamos transferencia, depósito en OXXO y efectivo. Confirmación inmediata.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #AA00FF, #D500F9);">
+            <span class="why-card__img-label">4</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Nosotros hacemos todo</h3>
+            <p class="why-card__desc">Llegamos puntualmente con todo el equipo, instalamos cada elemento y al finalizar recogemos. Tú solo disfruta tu fiesta.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes"
+        subtitle="Todo sobre nuestros paquetes de fiesta."
+        copy1="Entendemos que elegir el paquete correcto puede generar dudas. Aquí recopilamos las preguntas más comunes de nuestros clientes para ayudarte a tomar la mejor decisión para tu celebración."
+        copy2="Si después de leer estas respuestas aún tienes preguntas, nuestro equipo está disponible por WhatsApp para darte una asesoría personalizada sin compromiso. Queremos que tengas toda la información que necesitas antes de decidir."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="Arma tu paquete de fiesta ideal"
+    subtitle="Inflable + mobiliario + iluminación con hasta 30% de descuento. Cotiza hoy y aparta tu fecha."
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20paquete%20de%20fiesta%20todo%20incluido."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="festa"
+    whatsapp={true}
+    external={true}
+  />
+
+</PageLayout>

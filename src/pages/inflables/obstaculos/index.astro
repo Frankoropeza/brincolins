@@ -1,0 +1,170 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Circuitos de Obstáculos Inflables en CDMX | BRINCOLINS CDMX";
+const description = "Renta de circuitos de obstáculos inflables en CDMX y Edomex. Pistas de hasta 15 metros con muros, túneles y toboganes desde $3,000 MXN todo incluido.";
+
+const productos = [
+  { slug: "extremo", emoji: "🏁", name: "Extremo", description: "Circuito de obstáculos de 12 metros con muros para escalar, túneles y tobogán final. Doble carril para carreras simultáneas.", price: "$3,000", size: "12×4×3m", ages: "6+ años", category: "Extremo", categoryColor: "extremo", gradient: "#E65100, #BF360C", image: "/img/inflables/extremo.avif" },
+  { slug: "obstaculos-extremo-xl", emoji: "🏁", name: "Obstáculos Extremo XL", description: "El circuito de obstáculos más grande de nuestro catálogo. 15 metros de pura adrenalina con muros de escalada, túneles dobles y mega tobogán final.", price: "$4,500", size: "15×5×4m", ages: "6-15 años", category: "Extremo XL", categoryColor: "extremo", gradient: "#E65100, #BF360C", image: "/img/inflables/obstaculos-extremo-xl.avif" },
+  { slug: "dragones-rojos", emoji: "🐉", name: "Dragones Rojos", description: "El inflable más rentado en CDMX y Estado de México. Dos dragones gigantes de 3 metros con resbaladilla integrada y mallas de seguridad.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
+];
+
+const faqs = [
+  { question: "¿Qué edades son recomendadas para los circuitos de obstáculos?", answer: "Nuestros circuitos están diseñados para niños a partir de 6 años. Los obstáculos requieren coordinación física y fuerza para escalar muros y atravesar túneles. Para niños menores, recomendamos nuestros brincolines clásicos." },
+  { question: "¿Cuántos niños pueden usar el circuito al mismo tiempo?", answer: "El circuito Extremo de 12 metros permite 4-6 niños simultáneamente gracias a su doble carril. El Extremo XL de 15 metros soporta hasta 8-10 participantes a la vez, ideal para competencias y eventos grandes." },
+  { question: "¿Los circuitos de obstáculos son seguros?", answer: "Absolutamente. Cada obstáculo está diseñado con bordes redondeados, superficies acolchadas y puntos de agarre ergonómicos. Las paredes laterales son lo suficientemente altas para evitar caídas, y el inflable mantiene presión constante durante todo el evento." },
+  { question: "¿Se pueden organizar competencias con los circuitos?", answer: "Sí, los modelos Extremo y Extremo XL cuentan con doble carril paralelo diseñado específicamente para carreras. Muchos de nuestros clientes organizan torneos cronometrados durante sus eventos con excelentes resultados." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="category"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables" },
+    { name: "Circuitos de Obstáculos" },
+  ]}
+  faqItems={faqs}
+>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <a href="/inflables/">Inflables</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Circuitos de Obstáculos</span>
+    </nav>
+  </div>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🏁 Obstáculos</span>
+          <h1 class="hero__title">Circuitos de <span class="highlight">Obstáculos</span> Inflables</h1>
+          <p class="hero__desc">Pistas de hasta 15 metros con muros, túneles y toboganes. Doble carril para carreras épicas.</p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              Cotizar por WhatsApp
+            </a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver todo el catálogo</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Los <strong>circuitos de obstáculos inflables</strong> son la opción definitiva para eventos donde la energía no puede parar. Diseñados para desafiar la agilidad, velocidad y coordinación de los participantes, estos inflables convierten cualquier espacio en una arena de competencia llena de adrenalina.
+          </p>
+          <p class="hero__copy-text">
+            Con longitudes de hasta 15 metros y doble carril para carreras simultáneas, nuestros circuitos son ideales para fiestas infantiles, eventos escolares y celebraciones corporativas donde se busca fomentar el trabajo en equipo y la sana competencia entre los participantes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="🎈 Catálogo"
+        title="Nuestros Circuitos de Obstáculos"
+        subtitle="Pistas inflables diseñadas para la máxima adrenalina."
+        copy1="Desde el circuito Extremo de 12 metros hasta el imponente Extremo XL de 15 metros, cada pista combina muros de escalada, túneles de gateo, columnas esquivables y toboganes de descenso rápido. Los participantes recorren el circuito completo en una experiencia que pone a prueba su destreza física."
+        copy2="Nuestros circuitos están fabricados con lona vinílica de triple refuerzo en las zonas de mayor desgaste. Los muros de escalada tienen puntos de agarre ergonómicos y las superficies de contacto son completamente acolchadas para absorber impactos durante la actividad intensa."
+      />
+      <div class="grid-4">
+        {productos.map(p => <ProductCard {...p} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ ELEGIR ESTA CATEGORÍA -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="✅ Ventajas"
+        title="¿Por qué elegir un circuito de obstáculos?"
+        subtitle="El entretenimiento que mantiene a todos activos y compitiendo."
+        copy1="Los circuitos de obstáculos ofrecen algo que ningún otro inflable puede igualar: competencia directa. La posibilidad de correr carreras en carriles paralelos genera una energía contagiosa que involucra tanto a participantes como a espectadores durante todo el evento."
+        copy2="Son la opción preferida para eventos escolares, fiestas de cumpleaños de niños mayores y celebraciones corporativas de team building. La variedad de obstáculos garantiza que cada recorrido sea un reto diferente que mantiene el interés hora tras hora."
+      />
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #E65100, #BF360C);">
+            <span class="why-card__img-label">🏆</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Competencia directa</h3>
+            <p class="why-card__desc">Doble carril paralelo para carreras simultáneas. Organiza torneos cronometrados que elevan la emoción del evento.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #1565C0, #0D47A1);">
+            <span class="why-card__img-label">🧗</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Variedad de obstáculos</h3>
+            <p class="why-card__desc">Muros de escalada, túneles de gateo, columnas esquivables y toboganes. Cada sección es un reto diferente.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #2E7D32, #1B5E20);">
+            <span class="why-card__img-label">💪</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Ejercicio disfrazado</h3>
+            <p class="why-card__desc">Los niños hacen ejercicio cardiovascular intenso mientras se divierten. Coordinación, fuerza y agilidad en cada recorrido.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #B71C1C, #E53935);">
+            <span class="why-card__img-label">👨‍👩‍👧‍👦</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Para todas las edades</h3>
+            <p class="why-card__desc">Desde niños de 6 años hasta adultos. Los circuitos soportan participantes de todos los tamaños y niveles.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes"
+        subtitle="Resolvemos tus dudas sobre circuitos de obstáculos."
+        copy1="Los circuitos de obstáculos son nuestros inflables más impresionantes y es natural tener preguntas sobre espacio, capacidad y seguridad. Aquí encontrarás las respuestas que necesitas para tomar la mejor decisión."
+        copy2="Si planeas un evento grande con múltiples actividades, podemos combinar un circuito de obstáculos con otros inflables de nuestro catálogo. Contáctanos por WhatsApp y diseñamos el paquete perfecto para tu celebración."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Listo para rentar tu circuito de obstáculos?"
+    subtitle="Cotiza sin compromiso. Respondemos en minutos por WhatsApp."
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+    btnSecondaryText="Ver catálogo completo"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+    whatsapp={true}
+    external={true}
+  />
+
+</PageLayout>

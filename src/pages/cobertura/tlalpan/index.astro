@@ -1,0 +1,155 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Renta de Inflables en Tlalpan, Xochimilco y Sur CDMX | BRINCOLINS";
+const description = "Renta de brincolines e inflables para fiestas en Tlalpan, Xochimilco y sur de CDMX. Entrega, instalación y seguro incluidos. Cotiza por WhatsApp.";
+
+const colonias = [
+  "Tlalpan Centro", "Pedregal de San Ángel", "Fuentes del Pedregal",
+  "Jardines del Pedregal", "Villa Coapa", "Héroes de Padierna",
+  "San Andrés Totoltepec", "Xochimilco Centro", "San Lorenzo Huipulco",
+  "Tepepan", "Miguel Hidalgo (Tlalpan)", "Ajusco",
+];
+
+const faqs = [
+  { question: "¿Entregan inflables en todo Tlalpan?", answer: "Sí, cubrimos toda la alcaldía de Tlalpan incluyendo Pedregal, Coapa, Ajusco y alrededores. También atendemos Xochimilco centro y colonias cercanas. La entrega es sin costo adicional en zonas principales." },
+  { question: "¿Cuánto cuesta la entrega en el sur de CDMX?", answer: "La entrega en Tlalpan centro, Coapa y Pedregal es gratuita. Para zonas más alejadas como Ajusco alto o partes rurales de Xochimilco, puede aplicar un cargo adicional de $100 a $200 MXN. Consulta tu dirección exacta por WhatsApp." },
+  { question: "¿Qué inflables tienen disponibles para esta zona?", answer: "Todos nuestros inflables están disponibles para Tlalpan y sur de CDMX: desde el Mini Castillo para bebés ($800 MXN) hasta el Obstáculos Extremo XL ($4,500 MXN). Contamos con 14 modelos diferentes para cualquier tipo de evento." },
+  { question: "¿Pueden instalar en jardines y terrenos irregulares?", answer: "Sí, nuestro equipo tiene experiencia instalando en todo tipo de terrenos. En zonas del Pedregal o Ajusco donde el terreno puede ser irregular, llevamos equipo adicional de nivelación y anclaje para garantizar una instalación segura." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Cobertura", href: "/cobertura" },
+    { name: "Tlalpan y Sur CDMX" },
+  ]}
+  faqItems={faqs}
+>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <a href="/cobertura/">Cobertura</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Tlalpan y Sur CDMX</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">📍 Tlalpan y Sur CDMX</span>
+          <h1 class="hero__title">Renta de Inflables en <span class="highlight">Tlalpan y Sur CDMX</span></h1>
+          <p class="hero__desc">
+            Entregamos inflables en Tlalpan, Xochimilco, Coapa y todas las colonias del sur de la Ciudad de México. Servicio completo con instalación incluida.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20necesito%20un%20inflable%20en%20Tlalpan."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              Cotizar por WhatsApp
+            </a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">El sur de la <strong>Ciudad de México</strong> es una de nuestras zonas de mayor demanda. Con amplios jardines en <strong>Pedregal de San Ángel</strong>, áreas verdes en <strong>Villa Coapa</strong> y espacios tradicionales en <strong>Xochimilco</strong>, esta zona es ideal para fiestas al aire libre con inflables. Nuestro equipo conoce perfectamente las rutas y accesos de la zona sur.</p>
+          <p class="hero__copy-text">Ofrecemos <strong>entrega gratuita</strong> en las principales colonias de Tlalpan y Xochimilco. Nuestros inflables van desde el <strong>Mini Castillo</strong> por <strong>$800 MXN</strong> hasta el <strong>Obstáculos Extremo XL</strong> de 15 metros. Todos incluyen instalación profesional, motor inflador, sanitización y seguro de responsabilidad civil.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📍 Colonias"
+        title="Colonias que cubrimos en Tlalpan y Sur"
+        subtitle="Entrega directa en estas zonas y alrededores."
+        copy1="Nuestra cobertura en el sur de CDMX incluye toda la alcaldía de Tlalpan, desde el centro histórico hasta las zonas más residenciales del Pedregal. También atendemos colonias de Xochimilco y zonas limítrofes con Coyoacán."
+        copy2="Si tu colonia no aparece en la lista, no te preocupes. Frecuentemente atendemos zonas adicionales. Envíanos tu dirección por WhatsApp y te confirmamos disponibilidad y costo de entrega en minutos."
+      />
+      <div class="coverage__badges">
+        {colonias.map(z => <span class="coverage__badge">{z}</span>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🚚 Entrega"
+        title="Información de entrega en Tlalpan"
+        subtitle="Todo lo que necesitas saber sobre nuestro servicio en el sur."
+        copy1="Contamos con rutas optimizadas para el sur de la ciudad que nos permiten llegar puntualmente a cualquier punto de Tlalpan y Xochimilco. Nuestro equipo sale con anticipación para garantizar que el inflable esté listo antes de que empiece tu evento."
+        copy2="Para zonas del Ajusco alto o comunidades rurales de Xochimilco, te recomendamos agendar con al menos 3 días de anticipación. En zonas urbanas como Coapa, Pedregal o Tlalpan centro, podemos atender solicitudes con 24 horas de anticipación."
+      />
+      <div class="grid-3" style="max-width:900px; margin:0 auto;">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #2E7D32);">
+            <span class="why-card__img-label">GRATIS</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Entrega sin costo</h3>
+            <p class="why-card__desc">En Tlalpan centro, Coapa, Pedregal y Xochimilco urbano.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #1565C0, #0288D1);">
+            <span class="why-card__img-label">2h</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación rápida</h3>
+            <p class="why-card__desc">Montaje profesional en menos de 2 horas en tu ubicación.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+            <span class="why-card__img-label">24/7</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Atención permanente</h3>
+            <p class="why-card__desc">WhatsApp disponible todos los días para resolver dudas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes sobre Tlalpan"
+        subtitle="Dudas comunes sobre entrega en el sur de CDMX."
+        copy1="Las familias del sur de la Ciudad de México tienen necesidades específicas por la geografía de la zona. Aquí respondemos las preguntas más frecuentes sobre entrega, instalación y disponibilidad en Tlalpan, Xochimilco y alrededores."
+        copy2="Si tienes dudas adicionales sobre tu zona específica, nuestro equipo de atención al cliente puede darte información precisa sobre tiempos de entrega y costos. Escríbenos por WhatsApp."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Fiesta en Tlalpan o Xochimilco? Te llevamos el inflable"
+    subtitle="Entrega gratuita en zonas principales del sur de CDMX. Cotiza sin compromiso."
+    btnText="Cotizar para Tlalpan"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20necesito%20un%20inflable%20en%20Tlalpan."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+    whatsapp={true}
+    external={true}
+  />
+
+</PageLayout>

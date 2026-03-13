@@ -1,0 +1,171 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Inflables Temáticos para Renta en CDMX | BRINCOLINS CDMX";
+const description = "Renta de inflables temáticos en CDMX y Edomex. Superhéroes, dinosaurios, princesas y jungla desde $1,200 MXN. Entrega, instalación y seguro incluidos.";
+
+const productos = [
+  { slug: "castillo-superhero", emoji: "🦸", name: "Castillo Superhéroe", description: "Castillo inflable con temática de superhéroes y colores vibrantes. Diseño épico con torres de 3.5 metros que inspiran aventuras heroicas.", price: "$1,500", size: "4×4×3.5m", ages: "4-12 años", category: "Superhéroes", categoryColor: "pirata", gradient: "#1565C0, #E53935", image: "/img/inflables/castillo-superhero.avif" },
+  { slug: "dinosaurios", emoji: "🦕", name: "Dinosaurios", description: "Inflable temático jurásico con dinosaurios decorativos de gran tamaño. Transporta a los niños a una era prehistórica llena de aventuras y diversión.", price: "$1,500", size: "5×4×3.5m", ages: "3-12 años", category: "Jurásico", categoryColor: "jungla", gradient: "#2E7D32, #827717", image: "/img/inflables/dinosaurios.avif" },
+  { slug: "castillo-princesas", emoji: "👸", name: "Castillo de Princesas", description: "Castillo inflable rosa y turquesa con dos princesas de 3 metros de altura y resbaladilla incluida. El favorito para fiestas de niñas.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
+  { slug: "mini-jungla", emoji: "🌴", name: "Mini Jungla", description: "Inflable temático de safari con animales decorativos de 2 metros y palmeras tropicales. Ideal para exploradores y fiestas al aire libre.", price: "$1,200", size: "4×4×3m", ages: "3-10 años", category: "Aventura", categoryColor: "jungla", gradient: "#2E7D32, #1B5E20", image: "/img/inflables/mini-jungla.avif" },
+];
+
+const faqs = [
+  { question: "¿Puedo elegir la temática del inflable según mi fiesta?", answer: "Por supuesto. Contamos con inflables de superhéroes, dinosaurios, princesas y jungla que se adaptan a la temática de tu evento. Te ayudamos a elegir el modelo perfecto según el tema de la fiesta y la edad de los invitados." },
+  { question: "¿Los inflables temáticos son del mismo tamaño que los clásicos?", answer: "Los tamaños varían según el modelo. Van desde 4×4 metros hasta 5×4 metros. Las figuras decorativas temáticas pueden agregar altura adicional, así que verifica que tu espacio tenga suficiente altura libre, especialmente en interiores." },
+  { question: "¿Las figuras decorativas de los inflables son seguras?", answer: "Todas las figuras decorativas están integradas en la estructura del inflable y fabricadas con el mismo material acolchado. No tienen partes duras, puntiagudas ni removibles. Son completamente seguras para que los niños interactúen con ellas." },
+  { question: "¿Puedo combinar un inflable temático con decoración de fiesta?", answer: "Es una excelente idea y nuestros clientes lo hacen frecuentemente. Los inflables temáticos complementan perfectamente la decoración de la fiesta. Te recomendamos coordinar los colores de la decoración con los del inflable para un resultado visual impactante." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="category"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables" },
+    { name: "Inflables Temáticos" },
+  ]}
+  faqItems={faqs}
+>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <a href="/inflables/">Inflables</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Inflables Temáticos</span>
+    </nav>
+  </div>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🎭 Temáticos</span>
+          <h1 class="hero__title">Inflables <span class="highlight">Temáticos</span> para Renta</h1>
+          <p class="hero__desc">Superhéroes, dinosaurios, princesas y safari. El inflable perfecto para complementar la temática de tu fiesta.</p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              Cotizar por WhatsApp
+            </a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver todo el catálogo</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Los <strong>inflables temáticos</strong> transforman una fiesta ordinaria en una aventura extraordinaria. Cuando el brincolín coincide con la temática del evento, la experiencia de los niños se multiplica: ya no solo están brincando, están viviendo una historia de superhéroes, explorando la jungla o viajando al mundo jurásico.
+          </p>
+          <p class="hero__copy-text">
+            Cada inflable temático de nuestro catálogo presenta figuras decorativas de gran formato integradas en la estructura, colores coordinados con la temática y detalles visuales que capturan la imaginación de los pequeños invitados desde el primer momento en que los ven llegar al evento.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="🎈 Catálogo"
+        title="Nuestros Inflables Temáticos"
+        subtitle="Cuatro mundos diferentes para vivir aventuras únicas."
+        copy1="Desde el épico Castillo Superhéroe con sus torres imponentes hasta el fascinante mundo jurásico del inflable de Dinosaurios, cada modelo cuenta una historia diferente. Las princesas reinan en su castillo rosa mientras los exploradores conquistan la jungla tropical."
+        copy2="Nuestros inflables temáticos son los más solicitados para fiestas con tema definido. Los padres que coordinan el inflable con la decoración y el pastel logran un impacto visual que sorprende a todos los invitados y genera las mejores fotos del evento."
+      />
+      <div class="grid-4">
+        {productos.map(p => <ProductCard {...p} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ ELEGIR ESTA CATEGORÍA -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="✅ Ventajas"
+        title="¿Por qué elegir un inflable temático?"
+        subtitle="Potencia la magia de tu fiesta con un inflable que cuenta una historia."
+        copy1="Un inflable temático no es solo un juego, es una extensión de la fantasía de tu evento. Los niños se sumergen en un mundo imaginario donde pueden ser superhéroes, explorar selvas, rescatar princesas o descubrir dinosaurios, todo mientras brincan y se divierten."
+        copy2="Estudios de entretenimiento infantil demuestran que los niños participan más activamente cuando el juego tiene un contexto narrativo. Un inflable temático proporciona exactamente eso: un escenario que alimenta la imaginación y multiplica las horas de diversión."
+      />
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #1565C0, #E53935);">
+            <span class="why-card__img-label">🎨</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Coherencia visual total</h3>
+            <p class="why-card__desc">Colores y figuras que complementan la decoración de tu fiesta. Un impacto visual que sorprende a todos los invitados.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #2E7D32, #827717);">
+            <span class="why-card__img-label">🌟</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Estimula la imaginación</h3>
+            <p class="why-card__desc">Los niños no solo brincan, viven aventuras. Las figuras temáticas inspiran juegos de rol y narrativas creativas.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #E91E8C, #7C3AED);">
+            <span class="why-card__img-label">📸</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Fotos espectaculares</h3>
+            <p class="why-card__desc">Las figuras decorativas de gran formato son el fondo perfecto para las fotos del cumpleaños. Recuerdos que duran toda la vida.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #E65100, #BF360C);">
+            <span class="why-card__img-label">🎭</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Variedad de temas</h3>
+            <p class="why-card__desc">Superhéroes, dinosaurios, princesas o jungla. Tenemos el inflable perfecto para cualquier temática de fiesta infantil.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes"
+        subtitle="Resolvemos tus dudas sobre inflables temáticos."
+        copy1="Elegir un inflable temático significa buscar la combinación perfecta entre diversión y estética para tu evento. Aquí respondemos las preguntas más comunes sobre nuestros modelos temáticos para que tomes la mejor decisión."
+        copy2="Si necesitas asesoría personalizada para elegir el inflable que mejor combine con la temática de tu fiesta, contáctanos por WhatsApp. Te enviamos fotos detalladas de cada modelo y te ayudamos a visualizar cómo lucirá en tu espacio."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Listo para rentar tu inflable temático?"
+    subtitle="Cotiza sin compromiso. Respondemos en minutos por WhatsApp."
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+    btnSecondaryText="Ver catálogo completo"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+    whatsapp={true}
+    external={true}
+  />
+
+</PageLayout>

@@ -1,0 +1,217 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Renta de Obstáculos Extremo XL Inflable | BRINCOLINS CDMX";
+const description = "Renta el circuito Obstáculos Extremo XL de 15m doble carril para fiestas y eventos en CDMX. Competencias épicas para niños y adolescentes. Desde $4,500 MXN.";
+
+const inflable = {
+  slug: "obstaculos-extremo-xl",
+  emoji: "🏁",
+  name: "Obstáculos Extremo XL",
+  price: "$4,500",
+  priceNum: "4500",
+  size: "15×5×4m",
+  ages: "6-15 años",
+  gradient: "#E65100, #BF360C",
+  desc: "El circuito Obstáculos Extremo XL es nuestra atracción estrella para eventos grandes. Con 15 metros de largo y doble carril, permite carreras simultáneas entre dos participantes que deben superar túneles, muros de escalada, columnas de esquive y un tobogán final. Es el inflable perfecto para kermeses, eventos corporativos y fiestas con muchos invitados.",
+  features: ["Doble carril para carreras simultáneas", "Túneles de gateo con obstáculos internos", "Muros de escalada con agarraderas reforzadas", "Columnas de esquive acolchadas", "Tobogán de salida en ambos carriles", "Dos motores infladores de alta potencia incluidos"],
+  capacity: "10-15 niños",
+  installTime: "45 minutos",
+  requirements: "Espacio mínimo 16×6m, dos tomas de corriente 110V",
+  image: "/img/inflables/obstaculos-extremo-xl.avif",
+};
+
+const faqs = [
+  { question: "¿Cuánto espacio necesito para el circuito de obstáculos?", answer: "Necesitas un espacio mínimo de 16×6 metros completamente despejado. Este inflable es ideal para jardines grandes, explanadas, estacionamientos o canchas deportivas. Además requieres dos tomas de corriente 110V independientes para los dos motores infladores." },
+  { question: "¿Pueden competir dos personas al mismo tiempo?", answer: "Sí, el diseño de doble carril permite que dos participantes compitan cara a cara recorriendo el mismo circuito de obstáculos en paralelo. Es perfecto para organizar torneos, competencias por equipos y dinámicas de grupo en eventos corporativos o escolares." },
+  { question: "¿Es seguro para adolescentes y adultos?", answer: "El circuito está diseñado para soportar usuarios de 6 a 15 años con un peso máximo de 80 kg por carril. Los obstáculos son completamente acolchados y las costuras reforzadas soportan uso intensivo. Para adultos mayores de 15 años, contáctanos para evaluar compatibilidad." },
+  { question: "¿Cuánto tiempo dura la renta del circuito?", answer: "La renta estándar es por 6 horas, tiempo suficiente para un evento completo. Si necesitas más tiempo, ofrecemos extensiones por hora a precio preferencial. La instalación de 45 minutos y el desmontaje no se descuentan de tu tiempo de renta." },
+];
+
+const otrosInflables = [
+  { slug: "extremo", emoji: "🔥", name: "Extremo", description: "Inflable de obstáculos para los más aventureros.", price: "$2,800", size: "8×4×4m", ages: "5-14 años", category: "Extremo", categoryColor: "extremo", gradient: "#E65100, #BF360C", image: "/img/inflables/extremo.avif" },
+  { slug: "barco-pirata", emoji: "🚢", name: "Barco Pirata", description: "Barco pirata épico de 7m con tobogán.", price: "$2,500", size: "7×5×4m", ages: "3-12 años", category: "Grande", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
+  { slug: "dragones-rojos", emoji: "🐉", name: "Dragones Rojos", description: "El inflable más rentado en CDMX.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="product"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables" },
+    { name: inflable.name },
+  ]}
+  faqItems={faqs}
+  product={{
+    name: inflable.name,
+    slug: inflable.slug,
+    description: description,
+    image: inflable.image,
+    price: inflable.priceNum,
+  }}
+>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <a href="/inflables/">Inflables</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>{inflable.name}</span>
+    </nav>
+  </div>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🏁 Doble carril competitivo</span>
+          <h1 class="hero__title">{inflable.emoji} <span class="highlight">{inflable.name}</span></h1>
+          <p class="hero__desc">{inflable.desc}</p>
+          <div class="product-hero__specs">
+            <span class="product-hero__spec">📐 {inflable.size}</span>
+            <span class="product-hero__spec">👶 {inflable.ages}</span>
+            <span class="product-hero__spec">👥 {inflable.capacity}</span>
+            <span class="product-hero__spec">💰 Desde {inflable.price} MXN</span>
+          </div>
+          <div class="hero__ctas">
+            <a href={`https://wa.me/5547868402?text=${encodeURIComponent('Hola BRINCOLINS, me interesa rentar el ' + inflable.name + '. ¿Tienen disponibilidad?')}`}
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              Cotizar por WhatsApp
+            </a>
+            <a href="/cotizar/" class="btn btn-outline btn-lg">Solicitar cotización</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">El Obstáculos Extremo XL es la atracción más impresionante de nuestro catálogo y la favorita para eventos a gran escala en la Ciudad de México. Con sus 15 metros de largo y sistema de doble carril, permite organizar competencias emocionantes que mantienen a todos los invitados entretenidos durante horas con carreras, torneos y desafíos.</p>
+          <p class="hero__copy-text">Diseñado para kermeses escolares, días del niño, eventos corporativos familiares y fiestas con más de 30 invitados, este circuito de obstáculos es la pieza central que convierte cualquier evento en una experiencia inolvidable. Nuestro equipo profesional se encarga del transporte, instalación con doble motor y supervisión técnica inicial.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARACTERÍSTICAS -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="✅ Características"
+        title="¿Qué incluye el Obstáculos Extremo XL?"
+        subtitle="Todo lo que necesitas para la diversión perfecta."
+        copy1="El circuito Obstáculos Extremo XL está fabricado con lona comercial de triple refuerzo en las zonas de mayor impacto. Cada obstáculo ha sido diseñado ergonómicamente para ofrecer un desafío real sin comprometer la seguridad de los participantes durante las competencias."
+        copy2="La renta incluye dos motores infladores industriales que mantienen la presión óptima en todo el circuito, cuerdas de anclaje de alta resistencia y supervisión técnica durante la primera hora para garantizar el funcionamiento correcto de todos los elementos."
+      />
+      <div class="grid-3">
+        {inflable.features.map((f: string) => (
+          <div class="feature-card">
+            <div class="feature-card__icon">✅</div>
+            <p class="feature-card__desc">{f}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO DE RENTA -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📋 Proceso"
+        title="¿Cómo rentar este inflable?"
+        subtitle="4 pasos simples para tener tu inflable listo."
+        copy1="Debido a su tamaño, recomendamos reservar el Obstáculos Extremo XL con al menos una semana de anticipación. Nuestro equipo realizará una evaluación previa del espacio para confirmar que cumple con los requisitos de instalación."
+        copy2="El día del evento, llegamos 60 minutos antes de la hora acordada para completar la instalación de 45 minutos y realizar pruebas de seguridad. Al finalizar, desmontamos y retiramos todo el equipo sin que tengas que preocuparte por nada."
+      />
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+            <span class="why-card__img-label">1</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Elige tu inflable</h3>
+            <p class="why-card__desc">Explora nuestro catálogo y selecciona el inflable perfecto.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #7C3AED, #9C27B0);">
+            <span class="why-card__img-label">2</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Cotiza por WhatsApp</h3>
+            <p class="why-card__desc">Envíanos un mensaje y te respondemos en minutos.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #1565C0, #0288D1);">
+            <span class="why-card__img-label">3</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Reserva tu fecha</h3>
+            <p class="why-card__desc">Aparta con 50% de anticipo y asegura disponibilidad.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #2E7D32);">
+            <span class="why-card__img-label">4</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">¡A brincar!</h3>
+            <p class="why-card__desc">Entregamos, instalamos y recogemos. Tú solo disfruta.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes"
+        subtitle="Resolvemos tus dudas sobre este inflable."
+        copy1="El Obstáculos Extremo XL es nuestro inflable más grande y genera preguntas específicas sobre espacio, logística e instalación. Aquí respondemos todo lo que necesitas saber antes de reservar para tu próximo evento."
+        copy2="Para eventos corporativos y escolares ofrecemos atención personalizada con visita previa al lugar. Escríbenos por WhatsApp y un asesor te guiará en todo el proceso de planeación."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- INFLABLES RELACIONADOS -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="🎈 Relacionados"
+        title="Otros inflables que te pueden gustar"
+        subtitle="Explora más opciones para tu fiesta."
+        copy1="Si te interesa el Obstáculos Extremo XL, también puedes complementar tu evento con inflables adicionales para los invitados más pequeños. Ofrecemos paquetes especiales para eventos grandes con múltiples atracciones."
+        copy2="Muchos organizadores de kermeses y eventos corporativos rentan el circuito de obstáculos junto con castillos más pequeños para cubrir todos los rangos de edad. Consulta nuestros precios por paquete y ahorra."
+      />
+      <div class="grid-3">
+        {otrosInflables.map(p => <ProductCard {...p} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title={"¿Te interesa el " + inflable.name + "?"}
+    subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos por WhatsApp."
+    btnText="Cotizar por WhatsApp"
+    btnHref={"https://wa.me/5547868402?text=" + encodeURIComponent("Hola BRINCOLINS, me interesa rentar el " + inflable.name + ".")}
+    btnSecondaryText="Ver catálogo"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+    whatsapp={true}
+    external={true}
+  />
+
+</PageLayout>

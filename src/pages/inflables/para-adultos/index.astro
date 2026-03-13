@@ -1,0 +1,171 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Inflables para Adultos en CDMX | BRINCOLINS CDMX";
+const description = "Renta de inflables para adultos en CDMX y Edomex. Circuitos de obstáculos, toboganes y castillos resistentes para eventos corporativos, bodas y fiestas.";
+
+const productos = [
+  { slug: "extremo", emoji: "🏁", name: "Extremo", description: "Circuito de obstáculos de 12 metros con muros para escalar, túneles y tobogán final. Doble carril para carreras simultáneas.", price: "$3,000", size: "12×4×3m", ages: "6+ años", category: "Extremo", categoryColor: "extremo", gradient: "#E65100, #BF360C", image: "/img/inflables/extremo.avif" },
+  { slug: "obstaculos-extremo-xl", emoji: "🏁", name: "Obstáculos Extremo XL", description: "El circuito de obstáculos más grande de nuestro catálogo. 15 metros de pura adrenalina con muros de escalada, túneles dobles y mega tobogán final.", price: "$4,500", size: "15×5×4m", ages: "6-15 años", category: "Extremo XL", categoryColor: "extremo", gradient: "#E65100, #BF360C", image: "/img/inflables/obstaculos-extremo-xl.avif" },
+  { slug: "castillo-blanco", emoji: "🤍", name: "Castillo Blanco", description: "El inflable más elegante para bodas, XV años y eventos formales. Torres decorativas de 3 metros en blanco inmaculado.", price: "$2,800", size: "6×5×4m", ages: "3+ años", category: "Bodas", categoryColor: "bodas", gradient: "#7E57C2, #9575CD", image: "/img/inflables/castillo-blanco.avif" },
+  { slug: "tobogan-seco-gigante", emoji: "🎢", name: "Tobogán Seco Gigante", description: "Tobogán inflable de 6 metros de altura con doble carril para deslizarse. Emoción vertical garantizada para niños y adolescentes por igual.", price: "$2,200", size: "6×3×6m", ages: "5-14 años", category: "Extremo", categoryColor: "extremo", gradient: "#E65100, #BF360C", image: "/img/inflables/tobogan-seco-gigante.avif" },
+];
+
+const faqs = [
+  { question: "¿Los inflables realmente soportan el peso de adultos?", answer: "Sí. Los modelos de nuestra categoría para adultos están fabricados con lona vinílica de grado comercial reforzada y costuras de cuádruple sellado. Soportan hasta 150 kg por usuario y múltiples participantes simultáneos. Están diseñados y probados para uso adulto intensivo." },
+  { question: "¿Qué inflables recomiendan para eventos corporativos?", answer: "Los circuitos de obstáculos Extremo y Extremo XL son perfectos para actividades de team building. El doble carril permite organizar competencias entre equipos. Para eventos más formales como cócteles o bodas, el Castillo Blanco ofrece elegancia sin perder la diversión." },
+  { question: "¿Hay límite de peso por persona?", answer: "El límite recomendado es de 150 kg por participante individual. El peso total máximo simultáneo varía según el modelo: el Extremo XL soporta hasta 800 kg distribuidos en todo el circuito. Nuestro equipo te asesora sobre la capacidad específica de cada modelo." },
+  { question: "¿Se pueden usar inflables para adultos en interiores?", answer: "Los modelos más grandes como el Extremo XL requieren espacios exteriores. Sin embargo, el Castillo Blanco puede instalarse en salones de eventos con techo de al menos 5 metros de altura. Envíanos las medidas de tu espacio y te confirmamos la viabilidad." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="category"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables" },
+    { name: "Inflables para Adultos" },
+  ]}
+  faqItems={faqs}
+>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <a href="/inflables/">Inflables</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Inflables para Adultos</span>
+    </nav>
+  </div>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🎯 Adultos</span>
+          <h1 class="hero__title">Inflables para <span class="highlight">Adultos</span></h1>
+          <p class="hero__desc">Diversión sin límite de edad. Circuitos de obstáculos, toboganes y castillos reforzados para eventos corporativos, bodas y fiestas.</p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              Cotizar por WhatsApp
+            </a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver todo el catálogo</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Los <strong>inflables para adultos</strong> rompen el mito de que brincar es solo para niños. Nuestros modelos reforzados están diseñados para soportar uso intensivo por parte de adultos, con materiales de grado comercial que resisten hasta 150 kg por participante y costuras de máxima resistencia.
+          </p>
+          <p class="hero__copy-text">
+            Desde competencias de team building en eventos corporativos hasta la sorpresa perfecta en una boda o fiesta de cumpleaños para adultos, estos inflables añaden un elemento de diversión inesperada que rompe el hielo y genera momentos memorables entre los invitados mayores.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="🎈 Catálogo"
+        title="Nuestros Inflables para Adultos"
+        subtitle="Modelos reforzados que soportan uso intensivo sin límite de edad."
+        copy1="Los circuitos Extremo y Extremo XL son la opción favorita para actividades de integración empresarial, con doble carril que permite organizar torneos entre departamentos o equipos de trabajo. El Castillo Blanco añade elegancia a bodas y XV años sin sacrificar la diversión."
+        copy2="El Tobogán Seco Gigante de 6 metros ofrece una descarga de adrenalina que entusiasma tanto a adolescentes como a adultos. Su estructura reforzada y zona de frenado amplia están diseñadas para soportar el peso y la velocidad de participantes de mayor tamaño."
+      />
+      <div class="grid-4">
+        {productos.map(p => <ProductCard {...p} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ ELEGIR ESTA CATEGORÍA -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="✅ Ventajas"
+        title="¿Por qué elegir inflables para adultos?"
+        subtitle="La sorpresa que convierte cualquier evento en una experiencia inolvidable."
+        copy1="Los inflables para adultos son el elemento diferenciador que transforma un evento ordinario en algo extraordinario. En el contexto corporativo, fomentan la integración y el trabajo en equipo de manera natural y divertida, rompiendo las barreras jerárquicas."
+        copy2="En celebraciones sociales como bodas, despedidas de soltero y fiestas de cumpleaños, un inflable genera un efecto sorpresa que nadie espera. Los adultos redescubren la alegría de brincar y crear momentos espontáneos que se convierten en los recuerdos favoritos del evento."
+      />
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #E65100, #BF360C);">
+            <span class="why-card__img-label">💪</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Resistencia reforzada</h3>
+            <p class="why-card__desc">Materiales de grado comercial con costuras de cuádruple sellado. Soportan hasta 150 kg por persona sin problema.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #1565C0, #0D47A1);">
+            <span class="why-card__img-label">🤝</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Team building efectivo</h3>
+            <p class="why-card__desc">Competencias en circuitos de obstáculos que fomentan integración, comunicación y trabajo en equipo entre colaboradores.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #7E57C2, #9575CD);">
+            <span class="why-card__img-label">💍</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Elegancia disponible</h3>
+            <p class="why-card__desc">El Castillo Blanco combina diversión con sofisticación para bodas, XV años y eventos formales sin perder el estilo.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #2E7D32, #1B5E20);">
+            <span class="why-card__img-label">🎉</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Factor sorpresa</h3>
+            <p class="why-card__desc">Un inflable en un evento de adultos genera un efecto wow inmediato. La diversión inesperada que todos agradecen.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes"
+        subtitle="Resolvemos tus dudas sobre inflables para adultos."
+        copy1="Es normal tener preguntas sobre resistencia, capacidad y logística cuando se trata de inflables para adultos. Aquí encontrarás toda la información que necesitas para planificar tu evento con total confianza."
+        copy2="Nuestro equipo tiene amplia experiencia instalando inflables para eventos corporativos, bodas y fiestas de adultos en toda la zona metropolitana. Escríbenos por WhatsApp y te asesoramos sobre el modelo ideal según el tipo de evento y la cantidad de invitados."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Listo para rentar tu inflable para adultos?"
+    subtitle="Cotiza sin compromiso. Respondemos en minutos por WhatsApp."
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+    btnSecondaryText="Ver catálogo completo"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+    whatsapp={true}
+    external={true}
+  />
+
+</PageLayout>

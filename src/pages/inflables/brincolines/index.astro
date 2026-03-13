@@ -1,0 +1,171 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Brincolines Clásicos para Renta en CDMX | BRINCOLINS CDMX";
+const description = "Renta de brincolines clásicos en CDMX y Edomex. Castillos inflables desde $800 MXN con entrega, instalación y seguro incluidos. Dragones, princesas y más.";
+
+const productos = [
+  { slug: "dragones-rojos", emoji: "🐉", name: "Dragones Rojos", description: "El inflable más rentado en CDMX y Estado de México. Dos dragones gigantes de 3 metros con resbaladilla integrada y mallas de seguridad.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
+  { slug: "mini-castillo", emoji: "🏰", name: "Mini Castillo", description: "Brincolín compacto diseñado para bebés y niños pequeños. Paredes suaves, fácil supervisión. Perfecto para interiores y espacios reducidos.", price: "$800", size: "2×2×2m", ages: "1-4 años", category: "Chico", categoryColor: "castillo", gradient: "#FF3D00, #ff6d3f", image: "/img/inflables/mini-castillo.avif" },
+  { slug: "castillo-princesas", emoji: "👸", name: "Castillo de Princesas", description: "Castillo inflable rosa y turquesa con dos princesas de 3 metros de altura y resbaladilla incluida. El favorito para fiestas de niñas.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
+  { slug: "gusanitos", emoji: "🐛", name: "Gusanitos", description: "Inflable tropical con gusanitos decorativos y palmeras. Amplia área de salto con colores vibrantes verde, morado, amarillo y azul.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Tropical", categoryColor: "jungla", gradient: "#558B2F, #827717", image: "/img/inflables/gusanitos.avif" },
+];
+
+const faqs = [
+  { question: "¿Qué incluye la renta de un brincolín clásico?", answer: "Cada renta incluye entrega a domicilio, instalación profesional, supervisión del inflado, limpieza previa y seguro contra accidentes. Solo necesitas un espacio plano y una toma de corriente cercana." },
+  { question: "¿Cuántos niños pueden brincar al mismo tiempo?", answer: "Depende del modelo. Los brincolines estándar de 4×4 metros permiten de 6 a 8 niños simultáneamente. El Mini Castillo, al ser más compacto, es ideal para 3 a 4 niños pequeños a la vez." },
+  { question: "¿Se puede instalar un brincolín en interiores?", answer: "Sí, siempre que el espacio tenga al menos 1 metro libre alrededor del inflable y una altura de techo suficiente. El Mini Castillo de 2×2 metros es perfecto para salones y espacios techados." },
+  { question: "¿Cuánto tiempo dura la renta de un brincolín?", answer: "La renta estándar es por 6 horas. Si necesitas más tiempo, ofrecemos paquetes extendidos de 8 y 12 horas. Contáctanos por WhatsApp para conocer las tarifas por tiempo adicional." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="category"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables" },
+    { name: "Brincolines Clásicos" },
+  ]}
+  faqItems={faqs}
+>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <a href="/inflables/">Inflables</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Brincolines Clásicos</span>
+    </nav>
+  </div>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🏰 Clásicos</span>
+          <h1 class="hero__title">Brincolines <span class="highlight">Clásicos</span> para Renta</h1>
+          <p class="hero__desc">Los castillos inflables de siempre, con la calidad y seguridad que tu fiesta merece. Desde $800 MXN.</p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              Cotizar por WhatsApp
+            </a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver todo el catálogo</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Los <strong>brincolines clásicos</strong> son la opción favorita para fiestas infantiles en la Ciudad de México. Su diseño probado garantiza horas de diversión segura, con materiales reforzados de grado comercial y mallas laterales que permiten a los padres supervisar en todo momento.
+          </p>
+          <p class="hero__copy-text">
+            Cada brincolín que rentamos pasa por un proceso de limpieza profesional con desinfectante hospitalario antes de llegar a tu evento. Nuestros técnicos se encargan del transporte, instalación y anclaje para que tú solo te preocupes por disfrutar la fiesta.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="🎈 Catálogo"
+        title="Nuestros Brincolines Clásicos"
+        subtitle="Los inflables tradicionales que nunca fallan en ninguna fiesta."
+        copy1="Nuestra línea de brincolines clásicos abarca desde el compacto Mini Castillo, perfecto para los más pequeños de la casa, hasta los imponentes Dragones Rojos que se han convertido en el inflable más solicitado de toda la zona metropolitana."
+        copy2="Cada modelo está fabricado con lona vinílica de alta resistencia y costuras selladas térmicamente. Los colores brillantes y las figuras decorativas capturan la atención de los niños desde el primer momento, convirtiendo cualquier jardín en un parque de diversiones."
+      />
+      <div class="grid-4">
+        {productos.map(p => <ProductCard {...p} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ ELEGIR ESTA CATEGORÍA -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="✅ Ventajas"
+        title="¿Por qué elegir un brincolín clásico?"
+        subtitle="La opción más confiable y versátil para cualquier celebración infantil."
+        copy1="Los brincolines clásicos han demostrado ser el entretenimiento más efectivo en fiestas infantiles durante décadas. Su diseño permite que niños de diferentes edades jueguen juntos de forma segura, fomentando la convivencia y el ejercicio al aire libre."
+        copy2="A diferencia de otros tipos de entretenimiento, un brincolín mantiene a los niños activos y entretenidos durante horas sin necesidad de supervisión constante. Las mallas de seguridad laterales y el piso acolchado minimizan cualquier riesgo de lesión."
+      />
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #B71C1C, #E53935);">
+            <span class="why-card__img-label">🛡️</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Seguridad certificada</h3>
+            <p class="why-card__desc">Mallas laterales, piso acolchado y anclajes reforzados en cada instalación. Seguro contra accidentes incluido.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #1565C0, #0D47A1);">
+            <span class="why-card__img-label">📦</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación express</h3>
+            <p class="why-card__desc">Nuestro equipo llega 2 horas antes de tu evento para dejar todo listo. Inflado y anclaje en menos de 30 minutos.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #2E7D32, #1B5E20);">
+            <span class="why-card__img-label">✨</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Limpieza garantizada</h3>
+            <p class="why-card__desc">Desinfección profesional con productos hospitalarios antes de cada evento. Llegamos con el inflable impecable.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #E65100, #BF360C);">
+            <span class="why-card__img-label">💰</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Precio todo incluido</h3>
+            <p class="why-card__desc">Sin cargos ocultos. El precio incluye transporte, instalación, retiro y seguro. Desde $800 MXN por evento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes"
+        subtitle="Resolvemos tus dudas sobre brincolines clásicos."
+        copy1="Sabemos que elegir el brincolín perfecto para tu fiesta puede generar muchas preguntas. Aquí respondemos las consultas más comunes que recibimos de nuestros clientes en la Ciudad de México y zona metropolitana."
+        copy2="Si tienes alguna duda adicional que no aparece en esta sección, no dudes en contactarnos directamente por WhatsApp. Nuestro equipo responde en minutos y te asesora sin compromiso para encontrar la mejor opción."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Listo para rentar tu brincolín clásico?"
+    subtitle="Cotiza sin compromiso. Respondemos en minutos por WhatsApp."
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+    btnSecondaryText="Ver catálogo completo"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+    whatsapp={true}
+    external={true}
+  />
+
+</PageLayout>

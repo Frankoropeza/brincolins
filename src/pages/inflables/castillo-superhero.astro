@@ -1,0 +1,217 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Renta de Castillo Súper Héroes Inflable | BRINCOLINS CDMX";
+const description = "Renta el Castillo Súper Héroes temático para fiestas infantiles en CDMX y Edomex. Decoración de héroes, resbaladilla y área de brinco. Desde $1,500 MXN.";
+
+const inflable = {
+  slug: "castillo-superhero",
+  emoji: "🦸",
+  name: "Castillo Súper Héroes",
+  price: "$1,500",
+  priceNum: "1500",
+  size: "4×4×3.5m",
+  ages: "4-12 años",
+  gradient: "#1565C0, #E53935",
+  desc: "El Castillo Súper Héroes es el inflable temático más solicitado para fiestas de niños en la Ciudad de México. Decorado con gráficos vibrantes de héroes de acción, incluye área de brinco amplia, resbaladilla integrada y torres de vigilancia que hacen sentir a cada niño como un verdadero superhéroe. Su diseño en azul, rojo y dorado cautiva a niños de 4 a 12 años.",
+  features: ["Decoración temática de súper héroes a todo color", "Resbaladilla integrada con zona de aterrizaje", "Torres de vigilancia decorativas en las esquinas", "Área de brinco amplia para 6-8 niños", "Mallas de seguridad laterales transparentes", "Motor inflador silencioso incluido"],
+  capacity: "6-8 niños",
+  installTime: "20 minutos",
+  requirements: "Espacio mínimo 5×5m, toma de corriente 110V",
+  image: "/img/inflables/castillo-superhero.avif",
+};
+
+const faqs = [
+  { question: "¿De qué superhéroes es la temática del castillo?", answer: "El castillo tiene una temática genérica de superhéroes con gráficos de acción, estrellas, rayos y escudos en colores azul, rojo y dorado. No utiliza personajes con licencia específica, lo que lo hace perfecto para cualquier fiesta de temática heroica." },
+  { question: "¿Es adecuado para una fiesta temática de superhéroes?", answer: "Es la opción ideal. Combina perfectamente con decoración de superhéroes, piñatas temáticas y disfraces. Muchos clientes lo rentan junto con mesas y manteles temáticos para crear una experiencia completa de fiesta heroica." },
+  { question: "¿Cuál es la capacidad máxima del castillo?", answer: "El castillo tiene capacidad para 6 a 8 niños brincando simultáneamente. Recomendamos organizar turnos de 15 minutos cuando hay más invitados para que todos disfruten y se mantenga la seguridad. Un adulto debe supervisar en todo momento." },
+  { question: "¿Se puede instalar en un salón de fiestas?", answer: "Sí, siempre que el salón tenga al menos 5×5 metros de espacio libre y un techo mínimo de 4 metros de altura. Necesitas una toma de corriente 110V cerca. Nuestro equipo puede verificar las condiciones del salón antes de la renta." },
+];
+
+const otrosInflables = [
+  { slug: "castillo-princesas", emoji: "👸", name: "Castillo de Princesas", description: "Castillo rosa con princesas y resbaladilla.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
+  { slug: "dragones-rojos", emoji: "🐉", name: "Dragones Rojos", description: "El inflable más rentado en CDMX.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
+  { slug: "mini-castillo", emoji: "🏰", name: "Mini Castillo", description: "Brincolín compacto para bebés e interiores.", price: "$800", size: "2×2×2m", ages: "1-4 años", category: "Chico", categoryColor: "castillo", gradient: "#FF3D00, #ff6d3f", image: "/img/inflables/mini-castillo.avif" },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="product"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables" },
+    { name: inflable.name },
+  ]}
+  faqItems={faqs}
+  product={{
+    name: inflable.name,
+    slug: inflable.slug,
+    description: description,
+    image: inflable.image,
+    price: inflable.priceNum,
+  }}
+>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <a href="/inflables/">Inflables</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>{inflable.name}</span>
+    </nav>
+  </div>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🦸 Temático de héroes</span>
+          <h1 class="hero__title">{inflable.emoji} <span class="highlight">{inflable.name}</span></h1>
+          <p class="hero__desc">{inflable.desc}</p>
+          <div class="product-hero__specs">
+            <span class="product-hero__spec">📐 {inflable.size}</span>
+            <span class="product-hero__spec">👶 {inflable.ages}</span>
+            <span class="product-hero__spec">👥 {inflable.capacity}</span>
+            <span class="product-hero__spec">💰 Desde {inflable.price} MXN</span>
+          </div>
+          <div class="hero__ctas">
+            <a href={`https://wa.me/5547868402?text=${encodeURIComponent('Hola BRINCOLINS, me interesa rentar el ' + inflable.name + '. ¿Tienen disponibilidad?')}`}
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              Cotizar por WhatsApp
+            </a>
+            <a href="/cotizar/" class="btn btn-outline btn-lg">Solicitar cotización</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">El Castillo Súper Héroes de BRINCOLINS transforma cualquier fiesta infantil en una aventura épica. Los niños se sienten como verdaderos superhéroes mientras brincan entre torres decorativas, se deslizan por la resbaladilla y defienden su fortaleza imaginaria. Es el complemento perfecto para fiestas temáticas con disfraces y decoración heroica.</p>
+          <p class="hero__copy-text">Este inflable temático es uno de los favoritos para cumpleaños de niños de 4 a 12 años en toda la Ciudad de México. Su tamaño de 4×4 metros lo hace versátil para jardines medianos, patios y salones de fiestas. Incluimos transporte, instalación profesional y recogida al finalizar tu evento sin costos ocultos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARACTERÍSTICAS -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="✅ Características"
+        title="¿Qué incluye el Castillo Súper Héroes?"
+        subtitle="Todo lo que necesitas para la diversión perfecta."
+        copy1="El Castillo Súper Héroes está fabricado con lona comercial de alta calidad e impresión digital de alta definición que mantiene los colores vibrantes incluso después de múltiples usos. Los gráficos de acción cubren toda la superficie exterior e interior del inflable."
+        copy2="Cada detalle ha sido pensado para crear una experiencia inmersiva: desde las torres de vigilancia en las esquinas hasta la resbaladilla con zona de aterrizaje acolchada. Las mallas laterales transparentes permiten supervisión completa por parte de los padres."
+      />
+      <div class="grid-3">
+        {inflable.features.map((f: string) => (
+          <div class="feature-card">
+            <div class="feature-card__icon">✅</div>
+            <p class="feature-card__desc">{f}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO DE RENTA -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📋 Proceso"
+        title="¿Cómo rentar este inflable?"
+        subtitle="4 pasos simples para tener tu inflable listo."
+        copy1="Reservar el Castillo Súper Héroes es tan fácil como enviar un mensaje. En BRINCOLINS nos encargamos de la logística completa para que tú solo te preocupes por disfrutar la fiesta con tus invitados."
+        copy2="Ofrecemos horarios de entrega flexibles y cubrimos toda la CDMX y área metropolitana. Nuestro personal capacitado instala el inflable en 20 minutos y verifica todas las condiciones de seguridad antes de entregarlo."
+      />
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+            <span class="why-card__img-label">1</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Elige tu inflable</h3>
+            <p class="why-card__desc">Explora nuestro catálogo y selecciona el inflable perfecto.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #7C3AED, #9C27B0);">
+            <span class="why-card__img-label">2</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Cotiza por WhatsApp</h3>
+            <p class="why-card__desc">Envíanos un mensaje y te respondemos en minutos.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #1565C0, #0288D1);">
+            <span class="why-card__img-label">3</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Reserva tu fecha</h3>
+            <p class="why-card__desc">Aparta con 50% de anticipo y asegura disponibilidad.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #2E7D32);">
+            <span class="why-card__img-label">4</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">¡A brincar!</h3>
+            <p class="why-card__desc">Entregamos, instalamos y recogemos. Tú solo disfruta.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes"
+        subtitle="Resolvemos tus dudas sobre este inflable."
+        copy1="Antes de rentar el Castillo Súper Héroes, es natural que tengas preguntas sobre temática, espacio y capacidad. Aquí compilamos las consultas más frecuentes de nuestros clientes para facilitarte la decisión."
+        copy2="Si necesitas información adicional o quieres verificar disponibilidad para tu fecha, escríbenos directamente por WhatsApp. Nuestro equipo responde en minutos con toda la información que necesitas."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- INFLABLES RELACIONADOS -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="🎈 Relacionados"
+        title="Otros inflables que te pueden gustar"
+        subtitle="Explora más opciones para tu fiesta."
+        copy1="Si te gusta el Castillo Súper Héroes, también te encantarán nuestros otros castillos temáticos. Cada uno ofrece una experiencia única con decoración diferente para adaptarse a la temática de tu fiesta."
+        copy2="Combina el Castillo Súper Héroes con un inflable más pequeño para los invitados menores y asegura que todos los niños tengan una opción perfecta para su edad. Pregunta por descuentos en paquetes."
+      />
+      <div class="grid-3">
+        {otrosInflables.map(p => <ProductCard {...p} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title={"¿Te interesa el " + inflable.name + "?"}
+    subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos por WhatsApp."
+    btnText="Cotizar por WhatsApp"
+    btnHref={"https://wa.me/5547868402?text=" + encodeURIComponent("Hola BRINCOLINS, me interesa rentar el " + inflable.name + ".")}
+    btnSecondaryText="Ver catálogo"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+    whatsapp={true}
+    external={true}
+  />
+
+</PageLayout>

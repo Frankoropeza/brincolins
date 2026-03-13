@@ -1,0 +1,170 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Inflables Acuáticos para Renta en CDMX | BRINCOLINS CDMX";
+const description = "Renta de inflables acuáticos en CDMX y Edomex. Piscinas inflables, barcos y toboganes con agua desde $1,200 MXN. Entrega, instalación y seguro incluidos.";
+
+const productos = [
+  { slug: "piscina-inflable", emoji: "💧", name: "Piscina Inflable", description: "Piscina inflable amplia de 5×5 metros con paredes acolchadas y entrada segura. Ideal para refrescarse en temporada de calor con total diversión.", price: "$1,800", size: "5×5×1m", ages: "3-12 años", category: "Acuático", categoryColor: "pirata", gradient: "#0288D1, #0EA5E9", image: "/img/inflables/piscina-inflable.avif" },
+  { slug: "barco-pirata", emoji: "🚢", name: "Barco Pirata", description: "Épico barco pirata con velas, mástil de 4 metros y tobogán gigante. Capacidad para 10-15 niños simultáneamente.", price: "$2,500", size: "7×5×4m", ages: "3-12 años", category: "Grande", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
+  { slug: "mini-jungla", emoji: "🌴", name: "Mini Jungla", description: "Inflable temático de safari con animales decorativos de 2 metros y palmeras tropicales. Ideal para exploradores y fiestas al aire libre.", price: "$1,200", size: "4×4×3m", ages: "3-10 años", category: "Aventura", categoryColor: "jungla", gradient: "#2E7D32, #1B5E20", image: "/img/inflables/mini-jungla.avif" },
+];
+
+const faqs = [
+  { question: "¿Los inflables acuáticos necesitan conexión de agua?", answer: "Sí, necesitas una toma de agua con manguera de jardín estándar. Nuestros inflables acuáticos tienen conexiones universales que se adaptan a cualquier llave. El consumo de agua es moderado y recircula constantemente." },
+  { question: "¿Se pueden usar inflables acuáticos en temporada de frío?", answer: "Técnicamente sí, pero recomendamos su uso entre marzo y octubre cuando las temperaturas en CDMX son más cálidas. Fuera de temporada, estos mismos inflables pueden usarse en modo seco sin problema." },
+  { question: "¿Qué superficie se necesita para un inflable acuático?", answer: "Necesitas una superficie plana de pasto o concreto con al menos 1 metro libre alrededor del inflable. Es importante que el área tenga buen drenaje para evitar encharcamientos durante el uso." },
+  { question: "¿Es seguro para niños pequeños?", answer: "Nuestros inflables acuáticos tienen niveles de agua muy bajos (máximo 15 cm) y paredes acolchadas. Sin embargo, siempre recomendamos supervisión de un adulto, especialmente con niños menores de 5 años." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="category"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables" },
+    { name: "Inflables Acuáticos" },
+  ]}
+  faqItems={faqs}
+>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <a href="/inflables/">Inflables</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Inflables Acuáticos</span>
+    </nav>
+  </div>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">💧 Acuáticos</span>
+          <h1 class="hero__title">Inflables <span class="highlight">Acuáticos</span> para Renta</h1>
+          <p class="hero__desc">Diversión refrescante para fiestas de verano en CDMX. Piscinas, toboganes y barcos con agua desde $1,200 MXN.</p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              Cotizar por WhatsApp
+            </a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver todo el catálogo</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Los <strong>inflables acuáticos</strong> son la estrella de cualquier fiesta durante la temporada de calor en la Ciudad de México. Combinan la emoción de brincar con la frescura del agua, creando una experiencia que los niños recuerdan por meses. Perfectos para jardines y terrazas amplias.
+          </p>
+          <p class="hero__copy-text">
+            Nuestros modelos acuáticos están diseñados con materiales resistentes al agua y sistemas de recirculación que mantienen un flujo constante sin desperdiciar. Las superficies antideslizantes y las paredes reforzadas garantizan seguridad incluso en la diversión más intensa.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="🎈 Catálogo"
+        title="Nuestros Inflables Acuáticos"
+        subtitle="Refresca tu fiesta con nuestros modelos favoritos."
+        copy1="Desde piscinas inflables de baja profundidad hasta imponentes barcos pirata con tobogán, nuestra colección acuática se adapta a diferentes edades y espacios. Cada inflable cuenta con zonas de chapoteo seguras y entradas graduales para los más pequeños."
+        copy2="Todos los inflables acuáticos se entregan con conexiones de agua listas para usar y superficies tratadas con material antideslizante. El equipo de BRINCOLINS se encarga de verificar el correcto funcionamiento del sistema de agua antes de retirarse."
+      />
+      <div class="grid-4">
+        {productos.map(p => <ProductCard {...p} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ ELEGIR ESTA CATEGORÍA -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="✅ Ventajas"
+        title="¿Por qué elegir inflables acuáticos?"
+        subtitle="La mejor opción para fiestas de primavera y verano en CDMX."
+        copy1="Cuando el termómetro sube en la Ciudad de México, los inflables acuáticos se convierten en el centro de atención de cualquier celebración al aire libre. Los niños pasan horas jugando sin sentir el calor, y los padres disfrutan viendo a sus hijos activos y refrescados."
+        copy2="A diferencia de las albercas tradicionales, nuestros inflables acuáticos son completamente portátiles, se instalan en minutos y tienen niveles de agua seguros para todas las edades. Son la alternativa perfecta cuando quieres ofrecer diversión con agua sin los riesgos de una piscina convencional."
+      />
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #0288D1, #0EA5E9);">
+            <span class="why-card__img-label">🌊</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Diversión refrescante</h3>
+            <p class="why-card__desc">Combina el salto con la frescura del agua. Los niños se divierten sin sufrir el calor de la temporada.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #1565C0, #0D47A1);">
+            <span class="why-card__img-label">🔒</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Nivel de agua seguro</h3>
+            <p class="why-card__desc">Máximo 15 cm de profundidad con superficies antideslizantes. Mucho más seguro que una alberca convencional.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #2E7D32, #1B5E20);">
+            <span class="why-card__img-label">♻️</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Bajo consumo de agua</h3>
+            <p class="why-card__desc">Sistema de recirculación que mantiene el flujo constante sin desperdicio. Uso responsable del recurso hídrico.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #E65100, #BF360C);">
+            <span class="why-card__img-label">🎉</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Doble uso seco/mojado</h3>
+            <p class="why-card__desc">Fuera de temporada de calor, estos inflables funcionan perfectamente en modo seco. Dos experiencias en uno.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes"
+        subtitle="Resolvemos tus dudas sobre inflables acuáticos."
+        copy1="Rentar un inflable acuático requiere consideraciones especiales como la conexión de agua y el tipo de superficie. Aquí respondemos las preguntas más frecuentes para que planifiques tu evento sin contratiempos."
+        copy2="Nuestro equipo tiene amplia experiencia instalando inflables acuáticos en todo tipo de espacios dentro de CDMX y zona metropolitana. Si tu duda no aparece aquí, escríbenos por WhatsApp y te asesoramos al momento."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Listo para rentar tu inflable acuático?"
+    subtitle="Cotiza sin compromiso. Respondemos en minutos por WhatsApp."
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+    btnSecondaryText="Ver catálogo completo"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+    whatsapp={true}
+    external={true}
+  />
+
+</PageLayout>
