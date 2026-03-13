@@ -921,9 +921,28 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer__grid {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr;
-  gap: 2.5rem;
+  grid-template-columns: 1.4fr 0.9fr 0.9fr 0.9fr 1.2fr;
+  gap: 2rem;
   padding-bottom: 3rem;
+}
+
+/* Sucursales */
+.footer__branch {
+  margin-bottom: 1.2rem;
+}
+.footer__branch-label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.25rem;
+  letter-spacing: 0.01em;
+}
+.footer__branch-addr {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.65);
+  line-height: 1.55;
+  margin: 0;
 }
 
 .footer__brand-logo {
