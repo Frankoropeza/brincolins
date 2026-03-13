@@ -24,27 +24,40 @@ const faqs = [
   ]}
 >
 
-  <!-- HERO ARTÍCULO -->
-  <section class="art-hero">
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
     <div class="container">
-      <div class="art-hero__inner">
-        <a href="/blog/" class="art-hero__back">← Volver al blog</a>
-        <div class="art-hero__cats">
-          <span class="section-badge">🎈 Guías</span>
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">🎈 Guías</span>
+          <h1 class="hero__title">
+            Cómo Elegir el <span class="highlight">Inflable Perfecto</span> para tu Fiesta Infantil
+          </h1>
+          <div class="art-hero__meta">
+            <span>📅 10 mar 2025</span>
+            <span class="art-hero__sep">·</span>
+            <span>⏱️ 5 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">
+            Tamaño, edad, espacio disponible, conexión eléctrica y presupuesto: todo lo que necesitas considerar para no equivocarte al rentar un brincolín en CDMX o Estado de México.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20le%C3%AD%20su%20gu%C3%ADa%20y%20quiero%20ayuda%20para%20elegir%20un%20inflable."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Pedir asesoría gratis</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
         </div>
-        <h1 class="art-hero__title">
-          Cómo elegir el inflable perfecto para tu fiesta infantil
-        </h1>
-        <div class="art-hero__meta">
-          <span>📅 10 mar 2025</span>
-          <span class="art-hero__sep">·</span>
-          <span>⏱️ 5 min lectura</span>
-          <span class="art-hero__sep">·</span>
-          <span>✍️ Equipo BRINCOLINS</span>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Elegir el inflable correcto puede ser la diferencia entre una fiesta inolvidable y una experiencia frustrante. En <strong>BRINCOLINS</strong> hemos participado en más de 500 eventos infantiles en la <strong>Ciudad de México y Estado de México</strong>, y sabemos exactamente qué funciona y qué no según el tipo de evento, la edad de los niños, el espacio disponible y el presupuesto de cada familia.
+          </p>
+          <p class="hero__copy-text">
+            Esta guía resume todo lo que hemos aprendido en años de experiencia. Desde cómo medir correctamente tu espacio hasta qué modelo de inflable es ideal para cada rango de edad, pasando por tips de seguridad eléctrica y cómo aprovechar al máximo tu presupuesto. Al final, tendrás claridad total para hacer la reserva perfecta — o simplemente escríbenos por <strong>WhatsApp</strong> y te asesoramos personalmente.
+          </p>
         </div>
-        <p class="art-hero__intro">
-          Tamaño, edad, espacio disponible, conexión eléctrica y presupuesto: todo lo que necesitas considerar para no equivocarte al rentar un brincolín en CDMX o Estado de México.
-        </p>
       </div>
     </div>
   </section>
@@ -192,19 +205,6 @@ const faqs = [
 
 <style>
   /* ── Hero del artículo ── */
-  .art-hero {
-    background: linear-gradient(135deg, #fff8f5 0%, #fff0f8 100%);
-    padding: clamp(3rem, 8vw, 5rem) 0 clamp(2rem, 4vw, 3rem);
-    border-bottom: 1px solid var(--c-border);
-  }
-
-  .art-hero__inner {
-    max-width: 760px;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-
   .art-hero__back {
     font-size: 0.85rem;
     color: var(--c-primary);
@@ -214,19 +214,9 @@ const faqs = [
     align-items: center;
     gap: 0.3rem;
     transition: gap 0.2s;
+    margin-bottom: 0.5rem;
   }
   .art-hero__back:hover { gap: 0.6rem; }
-
-  .art-hero__cats { display: flex; gap: 0.5rem; flex-wrap: wrap; }
-
-  .art-hero__title {
-    font-family: var(--font-head);
-    font-weight: 900;
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
-    color: var(--c-text);
-    line-height: 1.2;
-    margin: 0;
-  }
 
   .art-hero__meta {
     display: flex;
@@ -235,16 +225,9 @@ const faqs = [
     flex-wrap: wrap;
     font-size: 0.85rem;
     color: var(--c-text-muted);
+    margin-bottom: 0.5rem;
   }
   .art-hero__sep { opacity: 0.4; }
-
-  .art-hero__intro {
-    font-size: 1.05rem;
-    color: var(--c-text-muted);
-    line-height: 1.7;
-    margin: 0;
-    max-width: 680px;
-  }
 
   /* ── Layout artículo + sidebar ── */
   .art-layout {
