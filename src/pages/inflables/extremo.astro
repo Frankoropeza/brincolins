@@ -3,30 +3,30 @@ import PageLayout from "@/layouts/PageLayout.astro";
 import ProductCard from "@/components/ProductCard.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 
-const title = "Renta de Castillo Dragón Inflable para Fiestas | BRINCOLINS CDMX";
-const description = "Renta el Castillo Dragón inflable para fiestas de aventura en CDMX y Edomex. Desde $1,050 MXN con entrega e instalación incluida.";
+const title = "Renta de Extremo Inflable | BRINCOLINS CDMX";
+const description = "Renta el inflable Extremo para fiestas infantiles en CDMX y Edomex. Circuito de obstáculos con resbaladilla para competencias. Desde $2,300 MXN con entrega incluida.";
 
 const inflable = {
-  slug: "castillo-dragon",
-  emoji: "🐉",
-  name: "Castillo Dragón",
-  price: "$1,050",
-  priceNum: "1050",
-  size: "5×4m",
-  ages: "4-10 años",
-  gradient: "#2E7D32, #1B5E20",
-  desc: "Imponente castillo dragón inflable con cueva oscura, tobogán de escape y decoración de fuego. La aventura más épica para los pequeños guerreros de la fiesta.",
-  features: ["Diseño dragón con escamas decorativas", "Cueva de entrada temática", "Tobogán de escape lateral", "Colores verde y negro vibrantes", "Estructura de doble cámara", "Material ignífugo certificado"],
-  capacity: "Hasta 8 niños simultáneamente",
-  installTime: "30 minutos",
-  requirements: "Toma de corriente a menos de 15m, superficie plana de 5×4m",
-  image: "/img/inflables/castillo-dragon.avif",
+  slug: "extremo",
+  emoji: "🏁",
+  name: "Extremo",
+  price: "$2,300",
+  priceNum: "2300",
+  size: "4.8×3.3m",
+  ages: "6-14 años",
+  gradient: "#E65100, #BF360C",
+  desc: "El inflable Extremo es un circuito de obstáculos diseñado para la máxima diversión y competencia. Ideal para carreras, eventos escolares, fiestas de cumpleaños con niños grandes y eventos corporativos. Su diseño desafiante mantiene a los participantes entretenidos por horas.",
+  features: ["Circuito de obstáculos completo", "Ideal para carreras y competencias", "Resbaladilla de alta velocidad", "Estructura de grado comercial", "Fácil de instalar en patios y jardines", "Perfecto para eventos escolares"],
+  capacity: "Hasta 10 niños simultáneamente",
+  installTime: "25 minutos",
+  requirements: "Toma de corriente a menos de 15m, superficie plana",
+  image: "/img/inflables/extremo.avif",
 };
 
 const otrosInflables = [
-  { slug: "castillo-medieval", emoji: "🏯", name: "Castillo Medieval", price: "$1,000", size: "5×5m", ages: "4-12 años", gradient: "#B71C1C, #E53935" },
-  { slug: "barco-pirata", emoji: "🚢", name: "Barco Pirata", price: "$950", size: "5×4m", ages: "4-10 años", gradient: "#1565C0, #0D47A1" },
-  { slug: "mini-castillo", emoji: "🏰", name: "Mini Castillo", price: "$800", size: "4×4m", ages: "3-8 años", gradient: "#FF3D00, #ff6d3f" },
+  { slug: "barco-pirata", emoji: "🚢", name: "Barco Pirata", description: "Barco pirata gigante con tobogán de alta velocidad.", price: "$2,500", size: "7×5m", ages: "4-14 años", category: "Grande", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
+  { slug: "pista-obstaculos", emoji: "🏁", name: "Pista de Obstáculos", description: "Circuito con túneles, muros y rampas para competencias.", price: "$2,500", size: "8×4m", ages: "5-14 años", category: "Deportivos", categoryColor: "deportivo", gradient: "#E65100, #BF360C", image: "/img/inflables/pista-obstaculos.avif" },
+  { slug: "dragones-rojos", emoji: "🐉", name: "Dragones Rojos", description: "El inflable más popular en CDMX. Castillo con dragones y resbaladilla.", price: "$1,800", size: "4×4m", ages: "4-12 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
 ];
 ---
 
@@ -62,9 +62,7 @@ const otrosInflables = [
     <div class="container">
       <div class="product-hero__grid">
         <div class="product-hero__image">
-          <img src="/img/inflables/castillo-dragon.avif" alt="castillo-dragon" width="1200" height="675" loading="eager" style="width:100%;height:100%;object-fit:cover;border-radius:var(--r-card);" />
-          
-          </div>
+          <img src={inflable.image} alt={inflable.name} width="1200" height="675" loading="eager" style="width:100%;height:100%;object-fit:cover;border-radius:var(--r-card);" />
         </div>
         <div class="product-hero__info">
           <h1>{inflable.emoji} {inflable.name}</h1>
@@ -130,13 +128,13 @@ const otrosInflables = [
   </section>
 
   <CtaBanner
-  title={`¿Te interesa el ${inflable.name}?`}
-  subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos."
-  btnText="Solicitar cotización"
-  btnHref="/cotizar/"
-  btnSecondaryText="WhatsApp directo"
-  btnSecondaryHref={`https://wa.me/5547868402?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}.`)}`}
-  variant="vibrant"
-/>
+    title={`¿Te interesa el ${inflable.name}?`}
+    subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos."
+    btnText="Solicitar cotización"
+    btnHref="/cotizar/"
+    btnSecondaryText="WhatsApp directo"
+    btnSecondaryHref={`https://wa.me/5547868402?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}.`)}`}
+    variant="vibrant"
+  />
 
 </PageLayout>

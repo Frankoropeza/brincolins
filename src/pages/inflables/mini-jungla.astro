@@ -3,30 +3,30 @@ import PageLayout from "@/layouts/PageLayout.astro";
 import ProductCard from "@/components/ProductCard.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 
-const title = "Renta de Castillo Unicornio Inflable para Fiestas | BRINCOLINS CDMX";
-const description = "Renta el Castillo Unicornio inflable para fiestas de princesas en CDMX y Edomex. Colores pastel y arcoíris. Desde $950 MXN con entrega incluida.";
+const title = "Renta de Mini Jungla Inflable | BRINCOLINS CDMX";
+const description = "Renta el inflable Mini Jungla para fiestas infantiles en CDMX y Edomex. Aventura selvática con obstáculos y animales del safari. Desde $1,800 MXN con entrega incluida.";
 
 const inflable = {
-  slug: "castillo-unicornio",
-  emoji: "🦄",
-  name: "Castillo Unicornio",
-  price: "$950",
-  priceNum: "950",
-  size: "4×4m",
-  ages: "3-8 años",
-  gradient: "#F06292, #CE93D8",
-  desc: "Mágico castillo unicornio inflable lleno de colores pastel, arcoíris y destellos. El sueño de cualquier niña hecho realidad para su fiesta infantil en CDMX y Estado de México.",
-  features: ["Diseño unicornio con arcoíris", "Colores pastel suaves y vibrantes", "Torres de ensueño decoradas", "Entrada con arco de nubes", "Material de primera calidad", "Apto para uso interior y exterior"],
-  capacity: "Hasta 8 niños simultáneamente",
-  installTime: "25 minutos",
-  requirements: "Toma de corriente a menos de 15m, superficie plana de 4×4m",
-  image: "/img/inflables/castillo-unicornio.avif",
+  slug: "mini-jungla",
+  emoji: "🌴",
+  name: "Mini Jungla",
+  price: "$1,800",
+  priceNum: "1800",
+  size: "4.5×4m",
+  ages: "5-10 años",
+  gradient: "#2E7D32, #1B5E20",
+  desc: "El inflable Mini Jungla transporta a los niños a una aventura selvática llena de obstáculos, lianas y animales del safari. Con colores vibrantes y múltiples áreas de juego, es perfecto para fiestas al aire libre y niños exploradores que aman la naturaleza.",
+  features: ["Temática de jungla con animales del safari", "Obstáculos y lianas interactivas", "Colores vibrantes y llamativos", "Múltiples áreas de juego", "Material resistente a uso intensivo", "Ideal para exterior e interior"],
+  capacity: "Hasta 7 niños simultáneamente",
+  installTime: "20 minutos",
+  requirements: "Toma de corriente a menos de 15m, superficie plana",
+  image: "/img/inflables/mini-jungla.avif",
 };
 
 const otrosInflables = [
-  { slug: "castillo-princesas", emoji: "👸", name: "Castillo de Princesas", price: "$900", size: "4×4m", ages: "3-8 años", gradient: "#E040FB, #7C3AED" },
-  { slug: "mini-castillo", emoji: "🏰", name: "Mini Castillo", price: "$800", size: "4×4m", ages: "3-8 años", gradient: "#FF3D00, #ff6d3f" },
-  { slug: "casa-brinco-jungla", emoji: "🌴", name: "Casa Brinco Jungla", price: "$850", size: "4×4m", ages: "3-8 años", gradient: "#2E7D32, #1B5E20" },
+  { slug: "gusanitos", emoji: "🐛", name: "Gusanitos", description: "Túneles coloridos interactivos para todas las edades.", price: "$1,800", size: "5×3m", ages: "3-12 años", category: "Túneles", categoryColor: "jungla", gradient: "#558B2F, #827717", image: "/img/inflables/gusanitos.avif" },
+  { slug: "dragones-rojos", emoji: "🐉", name: "Dragones Rojos", description: "El inflable más popular en CDMX. Castillo con dragones y resbaladilla.", price: "$1,800", size: "4×4m", ages: "4-12 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
+  { slug: "barco-pirata", emoji: "🚢", name: "Barco Pirata", description: "Barco pirata gigante con tobogán de alta velocidad.", price: "$2,500", size: "7×5m", ages: "4-14 años", category: "Grande", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
 ];
 ---
 
@@ -62,9 +62,7 @@ const otrosInflables = [
     <div class="container">
       <div class="product-hero__grid">
         <div class="product-hero__image">
-          <img src="/img/inflables/castillo-unicornio.avif" alt="castillo-unicornio" width="1200" height="675" loading="eager" style="width:100%;height:100%;object-fit:cover;border-radius:var(--r-card);" />
-          
-          </div>
+          <img src={inflable.image} alt={inflable.name} width="1200" height="675" loading="eager" style="width:100%;height:100%;object-fit:cover;border-radius:var(--r-card);" />
         </div>
         <div class="product-hero__info">
           <h1>{inflable.emoji} {inflable.name}</h1>
@@ -130,13 +128,13 @@ const otrosInflables = [
   </section>
 
   <CtaBanner
-  title={`¿Te interesa el ${inflable.name}?`}
-  subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos."
-  btnText="Solicitar cotización"
-  btnHref="/cotizar/"
-  btnSecondaryText="WhatsApp directo"
-  btnSecondaryHref={`https://wa.me/5547868402?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}.`)}`}
-  variant="vibrant"
-/>
+    title={`¿Te interesa el ${inflable.name}?`}
+    subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos."
+    btnText="Solicitar cotización"
+    btnHref="/cotizar/"
+    btnSecondaryText="WhatsApp directo"
+    btnSecondaryHref={`https://wa.me/5547868402?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}.`)}`}
+    variant="vibrant"
+  />
 
 </PageLayout>

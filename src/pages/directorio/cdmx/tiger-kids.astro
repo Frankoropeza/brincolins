@@ -648,8 +648,16 @@ const salonSchema = {
 
   .salon-servicios__grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.25rem;
+  }
+
+  .salon-servicios .product-card__image { min-height: 80px; } .salon-servicios .product-card__image span { font-size: 2rem; } .salon-servicios .product-card__name { font-size: 0.85rem; } .salon-servicios .product-card__desc { font-size: 0.8rem; }
+
+  @media (max-width: 768px) {
+    .salon-servicios__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   @media (max-width: 640px) {

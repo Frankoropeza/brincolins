@@ -99,38 +99,184 @@ const salonSchema = {
 
   <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;"><div class="container"><div class="hero__grid"><div><span class="hero__badge">⭐ {salon.rating} en Google Maps · {salon.zone}</span><h1 class="hero__title">{salon.name} — Salón de Fiestas <span class="highlight">Infantiles</span></h1><p class="hero__desc">Salón de fiestas infantiles en {salon.zone}, CDMX. {salon.highlight}. Capacidad para {salon.capacity}. Paquetes todo incluido con juegos, alimentos, decoración y más.</p><div class="hero__ctas"><a href={`tel:+52${salon.phone.replace(/\s/g, "")}`} class="btn btn-primary btn-lg">Llamar al salón</a><a href={`https://wa.me/52${salon.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${salon.name} para una fiesta infantil.`)}`} class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">WhatsApp del salón</a></div></div><div class="hero__copy"><p class="hero__copy-text"><strong>{salon.name}</strong> se ha consolidado como uno de los salones de fiestas infantiles con mejor reputación en {salon.zone}. Con una calificación de <strong>{salon.rating} estrellas en Google Maps</strong>, destaca por sus amplias instalaciones, su compromiso con la seguridad de los niños y la calidad de sus paquetes todo incluido que facilitan la organización de cualquier celebración.</p><p class="hero__copy-text">¿Ya reservaste tu fecha? Lleva la diversión al siguiente nivel con un inflable de <strong>BRINCOLINS</strong>. Entregamos, instalamos y recogemos directamente en {salon.name} sin costo adicional. Nuestro catálogo incluye castillos, toboganes, pistas de obstáculos y más.</p></div></div></div></section>
 
-  <section class="section section--alt"><div class="container"><div class="page-layout"><div class="page-layout__main">
+  <!-- Contenido principal + Sidebar -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="page-layout">
 
-    <div class="salon-ficha"><h2 class="salon-ficha__title">Ficha completa de {salon.name}</h2><p class="salon-ficha__subtitle">{salon.highlight} — Toda la información que necesitas para reservar tu evento</p><div class="salon-ficha__grid"><div class="salon-ficha__item"><div class="salon-ficha__icon">📍</div><div><strong>Dirección</strong><p>{salon.address}</p></div></div><div class="salon-ficha__item"><div class="salon-ficha__icon">📞</div><div><strong>Teléfono de contacto</strong><p><a href={`tel:+52${salon.phone.replace(/\s/g, "")}`}>{salon.phone}</a></p></div></div><div class="salon-ficha__item"><div class="salon-ficha__icon">🕐</div><div><strong>Horario de atención</strong><p>{salon.horario}</p></div></div><div class="salon-ficha__item"><div class="salon-ficha__icon">👥</div><div><strong>Capacidad</strong><p>{salon.capacity}</p></div></div><div class="salon-ficha__item"><div class="salon-ficha__icon">⭐</div><div><strong>Calificación en Google</strong><p>{salon.rating} / 5.0 — basada en reseñas verificadas</p></div></div><div class="salon-ficha__item"><div class="salon-ficha__icon">🎉</div><div><strong>Tipo de eventos</strong><p>Cumpleaños, bautizos, primeras comuniones, graduaciones, baby showers</p></div></div><div class="salon-ficha__item"><div class="salon-ficha__icon">🅿️</div><div><strong>Estacionamiento</strong><p>Sí — estacionamiento propio incluido para invitados</p></div></div><div class="salon-ficha__item"><div class="salon-ficha__icon">🎈</div><div><strong>Inflables externos</strong><p>Permitidos — BRINCOLINS entrega e instala en el salón</p></div></div></div><div class="salon-ficha__actions"><a href={`tel:+52${salon.phone.replace(/\s/g, "")}`} class="btn btn-primary">📞 Llamar ahora</a><a href={`https://wa.me/52${salon.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${salon.name} para una fiesta infantil.`)}`} class="btn btn-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a><a href={`https://www.google.com/maps/search/${salon.gmapsQuery}`} class="btn btn-outline" target="_blank" rel="noopener noreferrer">📍 Ver en Google Maps</a></div></div>
+        <!-- MAIN CONTENT -->
+        <div class="page-layout__main">
 
-    <div class="salon-editorial">
-      <h2>¿Por qué elegir {salon.name} para tu fiesta infantil?</h2>
-      <p>En la colonia Héroes de Padierna, al sur de <strong>Tlalpan</strong>, {salon.name} se ha convertido en el destino favorito de las familias que buscan una fiesta verdaderamente personalizada. Su principal diferenciador son las <strong>temáticas completamente personalizables</strong>: desde superhéroes y princesas hasta unicornios, dinosaurios o cualquier tema que el cumpleañero desee. Cada detalle de la decoración se adapta para crear una experiencia inmersiva.</p>
-      <p>Además de la personalización, el salón cuenta con <strong>juegos modernos</strong> de última generación, un <strong>snack bar</strong> con palomitas, algodones de azúcar y nachos, y un <strong>photobooth temático</strong> con props que permite capturar los mejores momentos de la fiesta. La música está incluida con un sistema de sonido profesional y la posibilidad de personalizar la playlist.</p>
-      <p>Con <strong>{salon.rating} estrellas en Google Maps</strong>, las familias que han celebrado en {salon.name} elogian la <strong>creatividad en la decoración</strong>, la <strong>calidad del entretenimiento</strong> y el <strong>profesionalismo del equipo</strong>. Si buscas un salón donde cada fiesta sea única y memorable en el sur de CDMX, {salon.name} es la opción que necesitas.</p>
+          <!-- Ficha técnica del salón -->
+          <div class="salon-ficha">
+            <div class="salon-ficha__header">
+              <div class="salon-ficha__badge">⭐ {salon.rating} / 5.0</div>
+              <div>
+                <h2 class="salon-ficha__title">{salon.name}</h2>
+                <p class="salon-ficha__subtitle">{salon.highlight}</p>
+              </div>
+            </div>
 
-      <h3>Servicios incluidos en los paquetes</h3>
-      <p>Los paquetes de {salon.name} están diseñados para ofrecer una experiencia completa. Dependiendo del paquete seleccionado, puedes esperar los siguientes servicios:</p>
+            <table class="salon-ficha__table">
+              <tbody>
+                <tr>
+                  <td class="salon-ficha__label">Dirección</td>
+                  <td class="salon-ficha__value">{salon.address}</td>
+                </tr>
+                <tr>
+                  <td class="salon-ficha__label">Teléfono</td>
+                  <td class="salon-ficha__value"><a href={`tel:+52${salon.phone.replace(/\s/g, "")}`} class="salon-ficha__link">{salon.phone}</a></td>
+                </tr>
+                <tr>
+                  <td class="salon-ficha__label">Horario</td>
+                  <td class="salon-ficha__value">{salon.horario}</td>
+                </tr>
+                <tr>
+                  <td class="salon-ficha__label">Capacidad</td>
+                  <td class="salon-ficha__value">{salon.capacity}</td>
+                </tr>
+                <tr>
+                  <td class="salon-ficha__label">Eventos</td>
+                  <td class="salon-ficha__value">Cumpleaños, bautizos, primeras comuniones, graduaciones, baby showers</td>
+                </tr>
+                <tr>
+                  <td class="salon-ficha__label">Estacionamiento</td>
+                  <td class="salon-ficha__value">Sí — estacionamiento propio incluido para invitados</td>
+                </tr>
+                <tr>
+                  <td class="salon-ficha__label">Inflables externos</td>
+                  <td class="salon-ficha__value">Permitidos — BRINCOLINS entrega e instala en el salón</td>
+                </tr>
+                <tr>
+                  <td class="salon-ficha__label">Calificación</td>
+                  <td class="salon-ficha__value">⭐ {salon.rating} / 5.0 — basada en reseñas verificadas de Google Maps</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="salon-ficha__actions">
+              <a href={`tel:+52${salon.phone.replace(/\s/g, "")}`} class="btn btn-primary">Llamar ahora</a>
+              <a href={`https://wa.me/52${salon.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${salon.name} para una fiesta infantil.`)}`}
+                 class="btn btn-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              <a href={`https://www.google.com/maps/search/${salon.gmapsQuery}`}
+                 class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver en Google Maps</a>
+            </div>
+          </div>
+
+          <!-- Descripción editorial -->
+          <div class="salon-editorial">
+            <h2 class="salon-editorial__heading">¿Por qué elegir {salon.name} para tu fiesta infantil?</h2>
+            <p>En la colonia Héroes de Padierna, al sur de <strong>Tlalpan</strong>, {salon.name} se ha convertido en el destino favorito de las familias que buscan una fiesta verdaderamente personalizada. Su principal diferenciador son las <strong>temáticas completamente personalizables</strong>: desde superhéroes y princesas hasta unicornios, dinosaurios o cualquier tema que el cumpleañero desee. Cada detalle de la decoración se adapta para crear una experiencia inmersiva.</p>
+            <p>Además de la personalización, el salón cuenta con <strong>juegos modernos</strong> de última generación, un <strong>snack bar</strong> con palomitas, algodones de azúcar y nachos, y un <strong>photobooth temático</strong> con props que permite capturar los mejores momentos de la fiesta. La música está incluida con un sistema de sonido profesional y la posibilidad de personalizar la playlist.</p>
+            <p>Con <strong>{salon.rating} estrellas en Google Maps</strong>, las familias que han celebrado en {salon.name} elogian la <strong>creatividad en la decoración</strong>, la <strong>calidad del entretenimiento</strong> y el <strong>profesionalismo del equipo</strong>. Si buscas un salón donde cada fiesta sea única y memorable en el sur de CDMX, {salon.name} es la opción que necesitas.</p>
+          </div>
+
+          <!-- Servicios -->
+          <div class="salon-servicios">
+            <h3 class="salon-servicios__heading">Servicios incluidos en los paquetes</h3>
+            <p class="salon-servicios__intro">Los paquetes de {salon.name} están diseñados para ofrecer una experiencia completa. Dependiendo del paquete seleccionado, puedes esperar los siguientes servicios:</p>
+            <div class="salon-servicios__grid">
+              {salon.features.map(f => (
+                <article class="product-card">
+                  <div class="product-card__image" style={`background: linear-gradient(135deg, ${f.gradient});`}>
+                    <span>{f.emoji}</span>
+                  </div>
+                  <div class="product-card__body">
+                    <h3 class="product-card__name">{f.name}</h3>
+                    <p class="product-card__desc">{f.desc}</p>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+
+          <!-- Cómo llegar -->
+          <div class="salon-editorial salon-editorial--location">
+            <h3 class="salon-editorial__subheading">¿Cómo llegar a {salon.name}?</h3>
+            <p>{salon.name} se ubica en <strong>{salon.address}</strong>. Héroes de Padierna es una colonia bien conectada en Tlalpan, accesible desde Periférico Sur y la Calzada de Tlalpan.</p>
+            <p>En transporte público, puedes tomar el Metrobús hasta la estación Perisur o el Tren Ligero. Desde ahí, un corto trayecto en taxi o transporte de aplicación te lleva al salón. Si vienes en auto, cuentas con <strong>estacionamiento</strong> disponible para los invitados.</p>
+          </div>
+
+          <!-- Tip inflable -->
+          <div class="dir-tip" style="margin-top:2rem;">
+            <div class="dir-tip__icon">🎈</div>
+            <div class="dir-tip__content">
+              <p class="dir-tip__title">¡Complementa tu fiesta en {salon.name} con un inflable!</p>
+              <p class="dir-tip__text"><strong>BRINCOLINS</strong> entrega, instala y recoge el inflable directamente en el salón. Solo necesitas confirmar que haya espacio disponible al momento de reservar.</p>
+            </div>
+            <a href="/cotizar/" class="btn btn-primary">Cotizar inflable</a>
+          </div>
+
+        </div>
+
+        <!-- SIDEBAR -->
+        <aside class="page-layout__sidebar">
+
+          <!-- CTA principal sidebar -->
+          <div class="sidebar-card sidebar-card--cta">
+            <div class="sidebar-card__cta-badge">Contacto directo</div>
+            <p class="sidebar-card__title">¿Te interesa {salon.name}?</p>
+            <p class="sidebar-card__text">Consulta disponibilidad y precios directamente con el salón.</p>
+            <a href={`tel:+52${salon.phone.replace(/\s/g, "")}`} class="btn btn-primary btn-sm sidebar-card__btn">{salon.phone}</a>
+            <a href={`https://wa.me/52${salon.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${salon.name} para una fiesta infantil.`)}`}
+               class="btn btn-wa btn-sm sidebar-card__btn" target="_blank" rel="noopener noreferrer">WhatsApp directo</a>
+            <a href={`https://www.google.com/maps/search/${salon.gmapsQuery}`}
+               class="btn btn-outline btn-sm sidebar-card__btn" target="_blank" rel="noopener noreferrer">Ver en Google Maps</a>
+          </div>
+
+          <!-- Artículos de interés -->
+          <div class="sidebar-card">
+            <p class="sidebar-card__title">Artículos de interés</p>
+            <div class="sidebar-card__list">
+              {articulos.map(a => (
+                <a href={`/blog/${a.slug}/`} class="sidebar-card__list-item sidebar-card__list-item--link">
+                  <p class="sidebar-card__list-name">{a.title}</p>
+                  <span class="sidebar-card__arrow">→</span>
+                </a>
+              ))}
+            </div>
+            <a href="/blog/" class="sidebar-card__link">Ver todos los artículos →</a>
+          </div>
+
+          <!-- Links rápidos -->
+          <div class="sidebar-card">
+            <p class="sidebar-card__title">Explora BRINCOLINS</p>
+            <div class="sidebar-card__list">
+              <a href="/directorio/cdmx/" class="sidebar-card__list-item sidebar-card__list-item--link">
+                <p class="sidebar-card__list-name">16 salones en CDMX</p>
+                <span class="sidebar-card__arrow">→</span>
+              </a>
+              <a href="/directorio/edomex/" class="sidebar-card__list-item sidebar-card__list-item--link">
+                <p class="sidebar-card__list-name">Salones en Edomex</p>
+                <span class="sidebar-card__arrow">→</span>
+              </a>
+              <a href="/inflables/" class="sidebar-card__list-item sidebar-card__list-item--link">
+                <p class="sidebar-card__list-name">Catálogo de inflables</p>
+                <span class="sidebar-card__arrow">→</span>
+              </a>
+              <a href="/cobertura/" class="sidebar-card__list-item sidebar-card__list-item--link">
+                <p class="sidebar-card__list-name">Zona de cobertura</p>
+                <span class="sidebar-card__arrow">→</span>
+              </a>
+              <a href="/cotizar/" class="sidebar-card__list-item sidebar-card__list-item--link">
+                <p class="sidebar-card__list-name">Solicitar cotización</p>
+                <span class="sidebar-card__arrow">→</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Cotizar inflable -->
+          <div class="sidebar-card sidebar-card--highlight">
+            <p class="sidebar-card__title">¿Ya tienes tu salón?</p>
+            <p class="sidebar-card__text">Agrega un inflable a tu fiesta en {salon.name}. Entrega e instalación incluida.</p>
+            <a href="/cotizar/" class="btn btn-primary btn-sm sidebar-card__btn">Cotizar inflable</a>
+          </div>
+
+        </aside>
+
+      </div>
     </div>
-
-    <div class="grid-3" style="margin-bottom:2rem;">{salon.features.map(f => (<article class="product-card"><div class="product-card__image" style={`background: linear-gradient(135deg, ${f.gradient});`}><span>{f.emoji}</span></div><div class="product-card__body"><h3 class="product-card__name">{f.name}</h3><p class="product-card__desc">{f.desc}</p></div></article>))}</div>
-
-    <div class="salon-editorial">
-      <h3>¿Cómo llegar a {salon.name}?</h3>
-      <p>{salon.name} se ubica en <strong>{salon.address}</strong>. Héroes de Padierna es una colonia bien conectada en Tlalpan, accesible desde Periférico Sur y la Calzada de Tlalpan.</p>
-      <p>En transporte público, puedes tomar el Metrobús hasta la estación Perisur o el Tren Ligero. Desde ahí, un corto trayecto en taxi o transporte de aplicación te lleva al salón. Si vienes en auto, cuentas con <strong>estacionamiento</strong> disponible para los invitados.</p>
-    </div>
-
-    <div class="dir-tip" style="margin-top:2rem;"><div class="dir-tip__icon">🎈</div><div class="dir-tip__content"><p class="dir-tip__title">¡Complementa tu fiesta en {salon.name} con un inflable!</p><p class="dir-tip__text"><strong>BRINCOLINS</strong> entrega, instala y recoge el inflable directamente en el salón. Solo necesitas confirmar que haya espacio disponible al momento de reservar.</p></div><a href="/cotizar/" class="btn btn-primary">Cotizar inflable</a></div>
-
-  </div>
-
-  <aside class="page-layout__sidebar">
-    <div class="sidebar-card sidebar-card--cta"><p class="sidebar-card__title">¿Te interesa este salón?</p><p class="sidebar-card__text">Contacta directamente a {salon.name} para consultar disponibilidad y precios.</p><a href={`tel:+52${salon.phone.replace(/\s/g, "")}`} class="btn btn-primary btn-sm" style="width:100%; justify-content:center; margin-bottom:0.5rem;">📞 {salon.phone}</a><a href={`https://wa.me/52${salon.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${salon.name} para una fiesta infantil.`)}`} class="btn btn-wa btn-sm" target="_blank" rel="noopener noreferrer" style="width:100%; justify-content:center;">WhatsApp</a></div>
-    <div class="sidebar-card"><p class="sidebar-card__title">📰 Artículos de interés</p><div class="sidebar-card__list">{articulos.map(a => (<a href={`/blog/${a.slug}/`} class="sidebar-card__list-item sidebar-card__list-item--link"><p class="sidebar-card__list-name">{a.title}</p><span class="sidebar-card__arrow">→</span></a>))}</div><a href="/blog/" class="sidebar-card__link">Ver todos los artículos →</a></div>
-    <div class="sidebar-card"><p class="sidebar-card__title">🔗 Explora BRINCOLINS</p><div class="sidebar-card__list"><a href="/directorio/cdmx/" class="sidebar-card__list-item sidebar-card__list-item--link"><p class="sidebar-card__list-name">📍 16 salones en CDMX</p><span class="sidebar-card__arrow">→</span></a><a href="/directorio/edomex/" class="sidebar-card__list-item sidebar-card__list-item--link"><p class="sidebar-card__list-name">🏘️ Salones en Edomex</p><span class="sidebar-card__arrow">→</span></a><a href="/inflables/" class="sidebar-card__list-item sidebar-card__list-item--link"><p class="sidebar-card__list-name">🎈 Catálogo de inflables</p><span class="sidebar-card__arrow">→</span></a><a href="/cobertura/" class="sidebar-card__list-item sidebar-card__list-item--link"><p class="sidebar-card__list-name">🗺️ Zona de cobertura</p><span class="sidebar-card__arrow">→</span></a><a href="/cotizar/" class="sidebar-card__list-item sidebar-card__list-item--link"><p class="sidebar-card__list-name">💬 Solicitar cotización</p><span class="sidebar-card__arrow">→</span></a></div></div>
-    <div class="sidebar-card sidebar-card--highlight"><p class="sidebar-card__title">¿Ya tienes tu salón?</p><p class="sidebar-card__text">Agrega un inflable a tu fiesta en {salon.name}. Entrega e instalación incluida.</p><a href="/cotizar/" class="btn btn-primary btn-sm" style="width:100%; justify-content:center;">Cotizar inflable</a></div>
-  </aside></div></div></section>
+  </section>
 
   <section class="section"><div class="container"><SectionHeader badge="📍 Más salones en CDMX" title="Otros salones que te pueden interesar" subtitle="Explora más opciones de salones de fiestas infantiles verificados en la Ciudad de México." copy1="Si buscas alternativas a Salón Wondertown, aquí encontrarás otros salones con excelente calificación en Google Maps. Todos permiten inflables externos y están dentro de nuestra zona de cobertura." copy2="¿Ya elegiste tu salón? No olvides complementar la fiesta con un inflable de <strong>BRINCOLINS</strong>. Entrega e instalación incluida en cualquier salón de CDMX." /><div class="grid-4">{salonesRelacionados.map(s => <VenueCard {...s} />)}</div></div></section>
 
@@ -178,4 +324,6 @@ const salonSchema = {
   .sidebar-card__link:hover { text-decoration: underline; }
   @media (max-width: 1024px) { .page-layout__sidebar { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; } .sidebar-card { margin-bottom: 0; } }
   @media (max-width: 640px) { .page-layout__sidebar { grid-template-columns: 1fr; } }
+  .salon-servicios { margin-bottom: 2.5rem; } .salon-servicios__heading { font-family: var(--font-head); font-weight: 900; font-size: 1.2rem; margin: 0 0 0.5rem; } .salon-servicios__intro { font-size: 0.9rem; color: var(--c-text-muted); line-height: 1.7; margin: 0 0 1.5rem; } .salon-servicios__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; } @media (max-width: 768px) { .salon-servicios__grid { grid-template-columns: repeat(2, 1fr); } } @media (max-width: 640px) { .salon-servicios__grid { grid-template-columns: 1fr; } }
+  .salon-servicios .product-card__image { min-height: 80px; } .salon-servicios .product-card__image span { font-size: 2rem; } .salon-servicios .product-card__name { font-size: 0.85rem; } .salon-servicios .product-card__desc { font-size: 0.8rem; }
 </style>

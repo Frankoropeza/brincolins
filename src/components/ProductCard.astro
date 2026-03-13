@@ -10,6 +10,7 @@ export interface Props {
   category: string;
   categoryColor?: string;
   gradient: string;
+  image?: string;
   whatsapp?: string;
 }
 
@@ -24,6 +25,7 @@ const {
   category,
   categoryColor = "castillo",
   gradient,
+  image,
   whatsapp = "5547868402",
 } = Astro.props;
 
@@ -32,10 +34,17 @@ const waHref = `https://wa.me/${whatsapp}?text=${waMsg}`;
 ---
 
 <article class={`product-card product-card--${categoryColor}`}>
-  <div class="product-card__image" style={`background: linear-gradient(135deg, ${gradient});`}>
-    <span>{emoji}</span>
-    <span class="product-card__category">{category}</span>
-  </div>
+  {image ? (
+    <div class="product-card__image product-card__image--photo">
+      <img src={image} alt={name} loading="lazy" width="720" height="480" />
+      <span class="product-card__category">{category}</span>
+    </div>
+  ) : (
+    <div class="product-card__image" style={`background: linear-gradient(135deg, ${gradient});`}>
+      <span>{emoji}</span>
+      <span class="product-card__category">{category}</span>
+    </div>
+  )}
 
   <div class="product-card__body">
     <h3 class="product-card__name">{name}</h3>
