@@ -2,44 +2,355 @@
 import PageLayout from "@/layouts/PageLayout.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
+import FaqItem from "@/components/FaqItem.astro";
 
-const title = "Zonas de Cobertura | BRINCOLINS - Renta de Inflables CDMX y Edomex";
-const description = "Entregamos inflables en toda la CDMX (16 alcaldías) y principales municipios del Estado de México. Consulta si llegamos a tu zona.";
+const title = "Zonas de Cobertura | Renta de Inflables en CDMX y Edomex — BRINCOLINS";
+const description = "Renta de inflables con entrega a domicilio en las 16 alcaldías de la Ciudad de México y 15 municipios del Estado de México. Consulta precios de envío y colonias con cobertura.";
+
+const WA = "5547868402";
+const waBase = `https://wa.me/${WA}?text=`;
 
 const alcaldias = [
-  "Álvaro Obregón", "Azcapotzalco", "Benito Juárez", "Coyoacán",
-  "Cuajimalpa", "Cuauhtémoc", "Gustavo A. Madero", "Iztacalco",
-  "Iztapalapa", "Magdalena Contreras", "Miguel Hidalgo", "Milpa Alta",
-  "Tláhuac", "Tlalpan", "Venustiano Carranza", "Xochimilco",
+  {
+    slug: "alvaro-obregon",
+    emoji: "🏙️",
+    name: "Álvaro Obregón",
+    colonias: ["Santa Fe", "San Ángel", "Pedregal", "Lomas Altas", "Altavista"],
+    tiempo: "60–90 min",
+    envio: "Incluido",
+    envioColor: "#00C853",
+    gradient: "linear-gradient(135deg, #1565C0, #0288D1)",
+  },
+  {
+    slug: "azcapotzalco",
+    emoji: "🏭",
+    name: "Azcapotzalco",
+    colonias: ["Del Gas", "Clavería", "Pasteros", "Santa Bárbara", "Ferrería"],
+    tiempo: "45–70 min",
+    envio: "Incluido",
+    envioColor: "#00C853",
+    gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)",
+  },
+  {
+    slug: "benito-juarez",
+    emoji: "⭐",
+    name: "Benito Juárez",
+    colonias: ["Del Valle", "Narvarte", "Nápoles", "Portales", "Insurgentes"],
+    tiempo: "30–50 min",
+    envio: "Incluido",
+    envioColor: "#00C853",
+    gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)",
+  },
+  {
+    slug: "coyoacan",
+    emoji: "🦌",
+    name: "Coyoacán",
+    colonias: ["Coyoacán Centro", "Pedregal", "Villa Coapa", "Copilco", "Xotepingo"],
+    tiempo: "40–60 min",
+    envio: "Incluido",
+    envioColor: "#00C853",
+    gradient: "linear-gradient(135deg, #2E7D32, #00C853)",
+  },
+  {
+    slug: "cuajimalpa",
+    emoji: "🌲",
+    name: "Cuajimalpa",
+    colonias: ["Santa Fe", "Cuajimalpa Centro", "Contadero", "El Molinito"],
+    tiempo: "60–90 min",
+    envio: "Incluido",
+    envioColor: "#00C853",
+    gradient: "linear-gradient(135deg, #00796B, #009688)",
+  },
+  {
+    slug: "cuauhtemoc",
+    emoji: "🏛️",
+    name: "Cuauhtémoc",
+    colonias: ["Centro Histórico", "Roma Norte", "Condesa", "Juárez", "Tepito"],
+    tiempo: "30–50 min",
+    envio: "Incluido",
+    envioColor: "#00C853",
+    gradient: "linear-gradient(135deg, #B71C1C, #E53935)",
+  },
+  {
+    slug: "gustavo-a-madero",
+    emoji: "🕍",
+    name: "Gustavo A. Madero",
+    colonias: ["Lindavista", "Vallejo", "Tepeyac", "Aragón", "La Villa"],
+    tiempo: "45–70 min",
+    envio: "Incluido",
+    envioColor: "#00C853",
+    gradient: "linear-gradient(135deg, #E65100, #FF6F00)",
+  },
+  {
+    slug: "iztacalco",
+    emoji: "🌆",
+    name: "Iztacalco",
+    colonias: ["Pantitlán", "Agrícola Oriental", "Granjas México", "Viaducto"],
+    tiempo: "40–60 min",
+    envio: "Incluido",
+    envioColor: "#00C853",
+    gradient: "linear-gradient(135deg, #0288D1, #01579B)",
+  },
+  {
+    slug: "iztapalapa",
+    emoji: "🌇",
+    name: "Iztapalapa",
+    colonias: ["Ermita Iztapalapa", "Peñón de los Baños", "UAM", "Santa Martha"],
+    tiempo: "50–80 min",
+    envio: "$100–$150",
+    envioColor: "#FF6F00",
+    gradient: "linear-gradient(135deg, #558B2F, #7CB342)",
+  },
+  {
+    slug: "magdalena-contreras",
+    emoji: "🌿",
+    name: "Magdalena Contreras",
+    colonias: ["La Magdalena", "San Jerónimo", "Barranca del Muerto", "El Rosal"],
+    tiempo: "60–80 min",
+    envio: "Incluido",
+    envioColor: "#00C853",
+    gradient: "linear-gradient(135deg, #4A148C, #6A1B9A)",
+  },
+  {
+    slug: "miguel-hidalgo",
+    emoji: "👑",
+    name: "Miguel Hidalgo",
+    colonias: ["Polanco", "Lomas de Chapultepec", "Tacuba", "Anzures", "Irrigación"],
+    tiempo: "30–50 min",
+    envio: "Incluido",
+    envioColor: "#00C853",
+    gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)",
+  },
+  {
+    slug: "milpa-alta",
+    emoji: "🌵",
+    name: "Milpa Alta",
+    colonias: ["Milpa Alta Centro", "San Pedro Atocpan", "San Pablo Oztotepec"],
+    tiempo: "90–120 min",
+    envio: "$200–$300",
+    envioColor: "#FF3D00",
+    gradient: "linear-gradient(135deg, #827717, #F9A825)",
+  },
+  {
+    slug: "tlahuac",
+    emoji: "🌾",
+    name: "Tláhuac",
+    colonias: ["Tláhuac Centro", "La Nopalera", "Zapotitla", "Los Olivos"],
+    tiempo: "70–100 min",
+    envio: "$100–$200",
+    envioColor: "#FF6F00",
+    gradient: "linear-gradient(135deg, #1B5E20, #388E3C)",
+  },
+  {
+    slug: "tlalpan",
+    emoji: "🏔️",
+    name: "Tlalpan",
+    colonias: ["Villa Coapa", "Pedregal de San Nicolás", "Topilejo", "Ajusco"],
+    tiempo: "50–80 min",
+    envio: "Incluido",
+    envioColor: "#00C853",
+    gradient: "linear-gradient(135deg, #1565C0, #0D47A1)",
+  },
+  {
+    slug: "venustiano-carranza",
+    emoji: "✈️",
+    name: "Venustiano Carranza",
+    colonias: ["Jardín Balbuena", "Moctezuma", "Aeropuerto", "Merced", "Peñón"],
+    tiempo: "40–60 min",
+    envio: "Incluido",
+    envioColor: "#00C853",
+    gradient: "linear-gradient(135deg, #00695C, #00897B)",
+  },
+  {
+    slug: "xochimilco",
+    emoji: "🛶",
+    name: "Xochimilco",
+    colonias: ["Xochimilco Centro", "San Gregorio", "Tulyehualco", "Tepepan"],
+    tiempo: "60–90 min",
+    envio: "$100–$150",
+    envioColor: "#FF6F00",
+    gradient: "linear-gradient(135deg, #006064, #0097A7)",
+  },
 ];
 
 const municipios = [
-  "Naucalpan", "Tlalnepantla", "Ecatepec", "Nezahualcóyotl", "Toluca",
-  "Huixquilucan", "Atizapán de Zaragoza", "Cuautitlán Izcalli", "Coacalco",
-  "Metepec", "Texcoco", "Chalco", "Nicolás Romero", "Tecámac", "Tultitlán",
+  {
+    slug: "naucalpan",
+    emoji: "🏡",
+    name: "Naucalpan",
+    colonias: ["Satélite", "Lomas Verdes", "Interlomas", "San Rafael"],
+    envio: "$150–$250",
+    envioColor: "#FF6F00",
+    gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)",
+  },
+  {
+    slug: "tlalnepantla",
+    emoji: "🏗️",
+    name: "Tlalnepantla",
+    colonias: ["Centro", "Las Américas", "Vallejo", "Industrial"],
+    envio: "$150–$250",
+    envioColor: "#FF6F00",
+    gradient: "linear-gradient(135deg, #1565C0, #0288D1)",
+  },
+  {
+    slug: "ecatepec",
+    emoji: "🌃",
+    name: "Ecatepec",
+    colonias: ["Ciudad Azteca", "Las Américas", "San Cristóbal", "Ecatepec Centro"],
+    envio: "$200–$350",
+    envioColor: "#FF3D00",
+    gradient: "linear-gradient(135deg, #E65100, #FF6F00)",
+  },
+  {
+    slug: "nezahualcoyotl",
+    emoji: "🏘️",
+    name: "Nezahualcóyotl",
+    colonias: ["Ciudad Neza", "Jardines de Morelos", "Los Reyes", "Benito Juárez"],
+    envio: "$200–$300",
+    envioColor: "#FF3D00",
+    gradient: "linear-gradient(135deg, #2E7D32, #00C853)",
+  },
+  {
+    slug: "huixquilucan",
+    emoji: "💎",
+    name: "Huixquilucan",
+    colonias: ["Interlomas", "La Herradura", "El Molinito", "Jesús del Monte"],
+    envio: "$150–$250",
+    envioColor: "#FF6F00",
+    gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)",
+  },
+  {
+    slug: "atizapan",
+    emoji: "🌄",
+    name: "Atizapán de Zaragoza",
+    colonias: ["Ciudad Adolfo López Mateos", "Rancho Contento", "Satélite"],
+    envio: "$200–$300",
+    envioColor: "#FF3D00",
+    gradient: "linear-gradient(135deg, #B71C1C, #E53935)",
+  },
+  {
+    slug: "cuautitlan-izcalli",
+    emoji: "🏙️",
+    name: "Cuautitlán Izcalli",
+    colonias: ["Izcalli Centro", "Hacienda del Parque", "Ojo de Agua"],
+    envio: "$250–$400",
+    envioColor: "#FF3D00",
+    gradient: "linear-gradient(135deg, #0288D1, #01579B)",
+  },
+  {
+    slug: "coacalco",
+    emoji: "🌟",
+    name: "Coacalco",
+    colonias: ["Coacalco Centro", "Bosques de Morelos", "La Quebrada"],
+    envio: "$200–$300",
+    envioColor: "#FF3D00",
+    gradient: "linear-gradient(135deg, #00796B, #009688)",
+  },
+  {
+    slug: "toluca",
+    emoji: "⛰️",
+    name: "Toluca",
+    colonias: ["Centro", "Metepec", "Zinacantepec", "San Mateo Atenco"],
+    envio: "$400–$600",
+    envioColor: "#FF3D00",
+    gradient: "linear-gradient(135deg, #4A148C, #6A1B9A)",
+  },
+  {
+    slug: "metepec",
+    emoji: "🎨",
+    name: "Metepec",
+    colonias: ["Metepec Centro", "San Salvador la Gavia", "Pilares"],
+    envio: "$400–$600",
+    envioColor: "#FF3D00",
+    gradient: "linear-gradient(135deg, #827717, #F9A825)",
+  },
+  {
+    slug: "texcoco",
+    emoji: "🏛️",
+    name: "Texcoco",
+    colonias: ["Texcoco Centro", "San Miguel Coatlinchán", "Atenco"],
+    envio: "$250–$400",
+    envioColor: "#FF3D00",
+    gradient: "linear-gradient(135deg, #1B5E20, #388E3C)",
+  },
+  {
+    slug: "chalco",
+    emoji: "🌅",
+    name: "Chalco",
+    colonias: ["Chalco Centro", "Valle de Chalco", "San Gregorio"],
+    envio: "$250–$400",
+    envioColor: "#FF3D00",
+    gradient: "linear-gradient(135deg, #558B2F, #7CB342)",
+  },
+  {
+    slug: "nicolas-romero",
+    emoji: "🌳",
+    name: "Nicolás Romero",
+    colonias: ["Nicolás Romero Centro", "Ciudad Cuauhtémoc", "El Progreso"],
+    envio: "$250–$400",
+    envioColor: "#FF3D00",
+    gradient: "linear-gradient(135deg, #006064, #0097A7)",
+  },
+  {
+    slug: "tecamac",
+    emoji: "🚀",
+    name: "Tecámac",
+    colonias: ["Ciudad Real", "Real del Sol", "Tecámac Centro"],
+    envio: "$250–$400",
+    envioColor: "#FF3D00",
+    gradient: "linear-gradient(135deg, #E91E63, #C2185B)",
+  },
+  {
+    slug: "tultitlan",
+    emoji: "🏭",
+    name: "Tultitlán",
+    colonias: ["Tultitlán Centro", "San Pablo de las Salinas", "Lechería"],
+    envio: "$200–$300",
+    envioColor: "#FF3D00",
+    gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)",
+  },
 ];
 
-const serviceAreaSchema = {
+const faqs = [
+  {
+    question: "¿El costo de entrega está incluido en el precio del inflable?",
+    answer: "En la mayoría de las alcaldías céntricas de la Ciudad de México, la entrega está incluida sin costo adicional: Benito Juárez, Cuauhtémoc, Miguel Hidalgo, Coyoacán, Álvaro Obregón, entre otras. Para alcaldías más alejadas y municipios del Estado de México se aplica un cargo de envío que varía según la distancia. Consúltanos por WhatsApp para confirmar el costo exacto a tu zona.",
+  },
+  {
+    question: "¿Cuánto tiempo tardan en llegar a mi evento?",
+    answer: "Nuestro equipo llega siempre a la hora acordada en la cotización. Para zonas céntricas de CDMX, la instalación toma entre 30 y 60 minutos desde la salida del almacén. Para zonas del Estado de México o alcaldías más alejadas, coordinamos la salida con anticipación para garantizar puntualidad absoluta.",
+  },
+  {
+    question: "¿Puedo reservar si no aparece mi colonia en la lista?",
+    answer: "¡Sí! Las colonias que mostramos son solo una muestra de nuestra cobertura. Si tu colonia no aparece, escríbenos por WhatsApp con tu dirección completa y verificamos disponibilidad. Frecuentemente cubrimos zonas adicionales sin costo extra o con un pequeño cargo de envío.",
+  },
+  {
+    question: "¿Hacen entregas los fines de semana y días festivos?",
+    answer: "Sí. Operamos los 7 días de la semana, incluyendo sábados, domingos y días festivos. De hecho, los fines de semana son nuestros días con más eventos. Solo asegúrate de reservar con anticipación ya que la disponibilidad se llena rápido, especialmente en temporada alta.",
+  },
+  {
+    question: "¿Qué pasa si vivo en una zona sin acceso vehicular o interior de condominio?",
+    answer: "No hay problema. Nuestro equipo está preparado para acceder a condominios, unidades habitacionales, jardines privados e incluso lugares con acceso restringido. Solo indícanos el tipo de acceso al momento de cotizar para coordinar el ingreso correctamente.",
+  },
+];
+
+const schemaLD = {
   "@context": "https://schema.org",
   "@type": "Service",
   "name": "Renta de Inflables BRINCOLINS",
+  "url": "https://brincolins.com/cobertura/",
   "provider": {
     "@type": "LocalBusiness",
     "name": "BRINCOLINS",
+    "telephone": "+525547868402",
+    "url": "https://brincolins.com",
   },
   "areaServed": [
-    {
-      "@type": "City",
-      "name": "Ciudad de México",
-      "containedInPlace": { "@type": "Country", "name": "México" },
-    },
-    ...municipios.map(m => ({
-      "@type": "City",
-      "name": m,
-      "containedInPlace": { "@type": "State", "name": "Estado de México" },
-    })),
+    ...alcaldias.map(a => ({ "@type": "City", "name": a.name, "containedInPlace": { "@type": "Country", "name": "México" } })),
+    ...municipios.map(m => ({ "@type": "City", "name": m.name, "containedInPlace": { "@type": "State", "name": "Estado de México" } })),
   ],
-  "serviceType": "Renta de inflables para fiestas",
+  "serviceType": "Renta de inflables para fiestas a domicilio",
+  "description": "Entregamos inflables e instalamos en domicilio en las 16 alcaldías de CDMX y 15 municipios del Estado de México.",
 };
 ---
 
@@ -47,13 +358,10 @@ const serviceAreaSchema = {
   title={title}
   description={description}
   pageType="page"
-  breadcrumbs={[
-    { name: "Inicio", href: "/" },
-    { name: "Cobertura" },
-  ]}
+  breadcrumbs={[{ name: "Inicio", href: "/" }, { name: "Cobertura" }]}
+  faqItems={faqs}
 >
-
-  <script type="application/ld+json" set:html={JSON.stringify(serviceAreaSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(schemaLD)} />
 
   <div class="container">
     <nav class="breadcrumbs" aria-label="Ruta de navegación">
@@ -63,121 +371,379 @@ const serviceAreaSchema = {
     </nav>
   </div>
 
+  <!-- ═══════════════ HERO ═══════════════ -->
   <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
     <div class="container">
       <div class="hero__grid">
+        <!-- Col izquierda -->
         <div>
-          <span class="hero__badge">📍 Cobertura</span>
-          <h1 class="hero__title">Zonas de <span class="highlight">Cobertura</span></h1>
+          <span class="hero__badge">📍 Cobertura total ZMVM</span>
+          <h1 class="hero__title">
+            Renta de Inflables con <span class="highlight">Entrega a Domicilio</span> en CDMX y Edomex
+          </h1>
           <p class="hero__desc">
-            Entregamos inflables en toda la CDMX y principales municipios del Estado de México.
+            Cubrimos las <strong>16 alcaldías</strong> de la Ciudad de México y los <strong>15 principales municipios</strong> del Estado de México. Llegamos a tu evento con el inflable instalado y listo.
           </p>
+
+          <!-- Stats -->
+          <div class="cob-stats">
+            <div class="cob-stat">
+              <span class="cob-stat__num">16</span>
+              <span class="cob-stat__label">Alcaldías CDMX</span>
+            </div>
+            <div class="cob-stat">
+              <span class="cob-stat__num">15</span>
+              <span class="cob-stat__label">Municipios Edomex</span>
+            </div>
+            <div class="cob-stat">
+              <span class="cob-stat__num">+500</span>
+              <span class="cob-stat__label">Eventos al año</span>
+            </div>
+            <div class="cob-stat">
+              <span class="cob-stat__num">24h</span>
+              <span class="cob-stat__label">Reserva express</span>
+            </div>
+          </div>
+
           <div class="hero__ctas">
-            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20saber%20si%20entregan%20en%20mi%20zona."
+            <a href={`${waBase}${encodeURIComponent("Hola BRINCOLINS, quiero saber si entregan en mi zona.")}`}
                class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
               Consultar mi zona
             </a>
             <a href="/cotizar/" class="btn btn-outline btn-lg">Solicitar cotización</a>
           </div>
         </div>
+
+        <!-- Col derecha — copy SEO -->
         <div class="hero__copy">
           <p class="hero__copy-text">
-            Nuestra flota de transporte cubre las <strong>16 alcaldías de la Ciudad de México</strong> y los principales municipios del Estado de México. Ya sea que estés en Polanco, Coyoacán, Naucalpan o Ecatepec, llevamos el inflable hasta la puerta de tu evento.
+            <strong>BRINCOLINS</strong> es la empresa de renta de inflables con mayor cobertura en la <strong>Zona Metropolitana del Valle de México</strong>. Contamos con una flota de transporte especializada y rutas logísticas optimizadas para garantizar entrega puntual en las <strong>16 alcaldías de la Ciudad de México</strong>: desde <strong>Polanco y Condesa</strong> hasta <strong>Xochimilco y Tláhuac</strong>. Incluye instalación profesional, motor inflador, supervisión de seguridad y recolección al finalizar el evento.
           </p>
           <p class="hero__copy-text">
-            Contamos con rutas optimizadas y un equipo logístico que garantiza puntualidad en cada entrega. Si tu zona no aparece en la lista, contáctanos — frecuentemente cubrimos zonas adicionales bajo consulta.
+            Para el <strong>Estado de México</strong>, llegamos a <strong>Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Nezahualcóyotl, Atizapán, Cuautitlán Izcalli, Metepec y Toluca</strong>, entre otros municipios. Entrega de lunes a domingo, incluyendo días festivos. Reserva con mínimo 24 horas de anticipación y recibe confirmación inmediata vía WhatsApp.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section">
-    <div class="container">
-      <SectionHeader
-        badge="🏙️ CDMX y Edomex"
-        title="Áreas de servicio"
-        subtitle="Cubrimos las 16 alcaldías de CDMX y principales municipios del Edomex."
-        copy1="Nuestra cobertura se extiende a lo largo y ancho de la Zona Metropolitana del Valle de México. Entrega sin costo adicional en la mayoría de las zonas céntricas de CDMX."
-        copy2="Para el Estado de México, el costo de envío varía según la distancia. Consulta tu zona específica para obtener una cotización precisa con entrega incluida."
-      />
-      <div class="grid-2">
-        <div>
-          <h3 style="margin-bottom:1rem; color:var(--c-primary); font-family:var(--font-head); font-weight:800;">Ciudad de México — 16 Alcaldías</h3>
-          <p style="color:var(--c-text-muted); margin-bottom:1.5rem; line-height:1.7; font-size:0.9rem;">
-            Cubrimos las 16 alcaldías de la Ciudad de México. Entrega sin costo adicional en la mayoría de las zonas.
-          </p>
-          <div class="coverage__badges">
-            {alcaldias.map(z => <span class="coverage__badge">{z}</span>)}
-          </div>
-        </div>
-        <div>
-          <h3 style="margin-bottom:1rem; color:var(--c-secondary); font-family:var(--font-head); font-weight:800;">Estado de México — Municipios principales</h3>
-          <p style="color:var(--c-text-muted); margin-bottom:1.5rem; line-height:1.7; font-size:0.9rem;">
-            También entregamos en los principales municipios del Edomex. Consulta el costo de envío para tu zona.
-          </p>
-          <div class="coverage__badges">
-            {municipios.map(z => <span class="coverage__badge">{z}</span>)}
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
+  <!-- ═══════════════ ALCALDÍAS CDMX ═══════════════ -->
   <section class="section section--alt">
     <div class="container">
       <SectionHeader
-        badge="💰 Costos"
-        title="Costos de envío"
-        subtitle="Entrega incluida en zonas céntricas. Consulta tu zona."
-        copy1="Nuestro objetivo es que el costo de envío nunca sea un obstáculo. Por eso ofrecemos entrega gratuita en las principales alcaldías de la CDMX y precios accesibles para el resto de la zona metropolitana."
-        copy2="Si tu zona no aparece en la lista o tienes dudas sobre el costo de envío, escríbenos por WhatsApp y te confirmamos disponibilidad y precio en minutos."
+        badge="🏙️ Ciudad de México"
+        title="Las 16 Alcaldías de CDMX"
+        subtitle="Cobertura total en la Ciudad de México. Entrega incluida en la mayoría de las zonas."
+        copy1="Cubrimos las 16 alcaldías de la Ciudad de México sin excepción. En las alcaldías céntricas como Benito Juárez, Cuauhtémoc, Miguel Hidalgo, Coyoacán y Álvaro Obregón, el costo de entrega está incluido en el precio del inflable. Lleva el inflable directamente a tu domicilio, jardín, salón o espacio del evento."
+        copy2="Cada alcaldía tiene sus propias colonias y particularidades logísticas. Haz clic en tu alcaldía para ver las colonias con cobertura, tiempos estimados de entrega, costos y los inflables más solicitados en esa zona."
       />
-      <div class="grid-3" style="max-width:900px; margin:0 auto;">
-        <div class="why-card">
-          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #2E7D32);">
-            <span class="why-card__img-label">GRATIS</span>
+
+      <div class="cob-grid">
+        {alcaldias.map(a => (
+          <a href={`/cobertura/${a.slug}/`} class="cob-card">
+            <div class="cob-card__header" style={`background: ${a.gradient};`}>
+              <span class="cob-card__emoji">{a.emoji}</span>
+              <span class="cob-card__envio" style={`background:${a.envioColor}22; color:${a.envioColor}; border:1px solid ${a.envioColor}44;`}>
+                {a.envio === "Incluido" ? "✅ Envío gratis" : `🚚 ${a.envio}`}
+              </span>
+            </div>
+            <div class="cob-card__body">
+              <h3 class="cob-card__name">{a.name}</h3>
+              <div class="cob-card__colonias">
+                {a.colonias.slice(0,4).map(c => <span class="cob-card__col">{c}</span>)}
+              </div>
+              <div class="cob-card__footer">
+                <span class="cob-card__tiempo">⏱ {a.tiempo}</span>
+                <span class="cob-card__cta">Ver zona →</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ MUNICIPIOS EDOMEX ═══════════════ -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="🗺️ Estado de México"
+        title="15 Municipios del Estado de México"
+        subtitle="También llegamos a los principales municipios del Edomex con entrega programada."
+        copy1="Nuestra cobertura en el Estado de México abarca los 15 municipios con mayor densidad de población y actividad económica de la entidad. Desde la zona poniente (Naucalpan, Huixquilucan, Atizapán) hasta la zona oriente (Ecatepec, Nezahualcóyotl, Chalco, Texcoco), llegamos a tu evento con el mismo nivel de servicio."
+        copy2="Para municipios del Edomex se aplica un cargo de envío adicional que varía según la distancia desde nuestro almacén central en CDMX. El tiempo de entrega es mayor, por lo que recomendamos coordinar la salida con al menos 2-3 horas de anticipación al inicio del evento."
+      />
+
+      <div class="cob-grid">
+        {municipios.map(m => (
+          <a href={`/cobertura/${m.slug}/`} class="cob-card">
+            <div class="cob-card__header" style={`background: ${m.gradient};`}>
+              <span class="cob-card__emoji">{m.emoji}</span>
+              <span class="cob-card__envio" style={`background:${m.envioColor}22; color:${m.envioColor}; border:1px solid ${m.envioColor}44;`}>
+                🚚 {m.envio}
+              </span>
+            </div>
+            <div class="cob-card__body">
+              <h3 class="cob-card__name">{m.name}</h3>
+              <div class="cob-card__colonias">
+                {m.colonias.slice(0,4).map(c => <span class="cob-card__col">{c}</span>)}
+              </div>
+              <div class="cob-card__footer">
+                <span class="cob-card__tiempo">📍 Edomex</span>
+                <span class="cob-card__cta">Ver zona →</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ COSTOS DE ENVÍO ═══════════════ -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="💰 Costos de envío"
+        title="¿Cuánto cuesta la entrega?"
+        subtitle="Entrega gratuita en zonas céntricas de CDMX. Cargo adicional en zonas alejadas y Edomex."
+        copy1="Nuestro objetivo es que el costo de envío nunca sea una barrera para rentar un inflable. Por eso ofrecemos entrega gratuita en todas las alcaldías céntricas de la Ciudad de México. Para zonas más alejadas, el cargo es mínimo y siempre transparente antes de confirmar tu reserva."
+        copy2="El precio del envío depende de la distancia a tu domicilio desde nuestro almacén. Al cotizar por WhatsApp, te informamos el costo exacto de inmediato. Sin sorpresas, sin cargos ocultos."
+      />
+
+      <div class="grid-3" style="max-width:960px; margin:0 auto;">
+        <div class="envio-card">
+          <div class="envio-card__icon" style="background:linear-gradient(135deg,#00C853,#2E7D32);">
+            <span>✅</span>
           </div>
-          <div class="why-card__body">
-            <h3 class="why-card__title">Zona Centro CDMX</h3>
-            <p class="why-card__desc">Benito Juárez, Coyoacán, Cuauhtémoc, Miguel Hidalgo</p>
-          </div>
+          <h3 class="envio-card__title">Zona A — Gratis</h3>
+          <p class="envio-card__precio">$0 MXN</p>
+          <p class="envio-card__desc">Alcaldías céntricas de CDMX: Benito Juárez, Cuauhtémoc, Miguel Hidalgo, Coyoacán, Álvaro Obregón, Azcapotzalco, Venustiano Carranza, Cuajimalpa, GAM, Iztacalco, Tlalpan y Magdalena Contreras.</p>
         </div>
-        <div class="why-card">
-          <div class="why-card__img" style="background: linear-gradient(135deg, #FFD600, #FF6F00);">
-            <span class="why-card__img-label">$100-$200</span>
+        <div class="envio-card">
+          <div class="envio-card__icon" style="background:linear-gradient(135deg,#FF6F00,#E65100);">
+            <span>🚚</span>
           </div>
-          <div class="why-card__body">
-            <h3 class="why-card__title">Resto CDMX</h3>
-            <p class="why-card__desc">Demás alcaldías de la Ciudad de México</p>
-          </div>
+          <h3 class="envio-card__title">Zona B — Bajo costo</h3>
+          <p class="envio-card__precio">$100–$300 MXN</p>
+          <p class="envio-card__desc">Alcaldías alejadas de CDMX (Iztapalapa, Tláhuac, Xochimilco, Milpa Alta) y municipios cercanos de Edomex: Naucalpan, Tlalnepantla, Huixquilucan, Coacalco, Tultitlán.</p>
         </div>
-        <div class="why-card">
-          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
-            <span class="why-card__img-label">$200-$500</span>
+        <div class="envio-card">
+          <div class="envio-card__icon" style="background:linear-gradient(135deg,#FF3D00,#B71C1C);">
+            <span>📍</span>
           </div>
-          <div class="why-card__body">
-            <h3 class="why-card__title">Estado de México</h3>
-            <p class="why-card__desc">Según distancia al municipio de entrega</p>
-          </div>
+          <h3 class="envio-card__title">Zona C — Edomex lejano</h3>
+          <p class="envio-card__precio">$300–$600 MXN</p>
+          <p class="envio-card__desc">Municipios más alejados del Edomex: Ecatepec, Nezahualcóyotl, Chalco, Texcoco, Toluca, Metepec, Nicolás Romero, Tecámac, Cuautitlán Izcalli y Atizapán.</p>
         </div>
       </div>
-      <p style="text-align:center; margin-top:1.5rem; color:var(--c-text-muted); font-size:.9rem;">
-        ¿No ves tu zona? Contáctanos y con gusto verificamos si podemos llegar a tu ubicación.
+
+      <p style="text-align:center; margin-top:2rem; color:var(--c-text-muted); font-size:.9rem;">
+        * Los precios de envío son aproximados. El costo exacto se confirma al cotizar según tu dirección específica.
       </p>
     </div>
   </section>
 
+  <!-- ═══════════════ CTA BANNER ═══════════════ -->
   <CtaBanner
-    title="¿Entregamos en tu zona?"
-    subtitle="Escríbenos tu colonia o municipio y te confirmamos disponibilidad y costo de envío al instante."
+    title="¿Tu zona tiene cobertura?"
+    subtitle="Escríbenos tu colonia y te confirmamos disponibilidad, precio de envío y fecha al instante."
     btnText="Consultar por WhatsApp"
-    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20saber%20si%20entregan%20en%20mi%20zona."
-    btnSecondaryText="Solicitar cotización"
-    btnSecondaryHref="/cotizar/"
-    variant="cool"
+    btnHref={`${waBase}${encodeURIComponent("Hola BRINCOLINS, quiero saber si entregan en mi zona y el costo de envío.")}`}
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
     whatsapp={true}
     external={true}
   />
 
+  <!-- ═══════════════ FAQ ═══════════════ -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="❓ Preguntas frecuentes"
+        title="Dudas sobre cobertura y envío"
+        subtitle="Todo lo que necesitas saber sobre nuestra logística de entrega."
+        copy1="La entrega puntual es uno de nuestros principales compromisos. Sabemos que tu fiesta tiene un horario fijo y no podemos fallar. Por eso contamos con rutas optimizadas y personal dedicado a la logística de cada evento."
+        copy2="Si tienes alguna duda que no está aquí resuelta, escríbenos directamente por WhatsApp. Nuestro equipo responde en minutos con información precisa sobre tu zona y disponibilidad."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
 </PageLayout>
+
+<style>
+/* ── Stats ── */
+.cob-stats {
+  display: flex;
+  gap: 1.5rem;
+  margin: 1.8rem 0 2rem;
+  flex-wrap: wrap;
+}
+.cob-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.cob-stat__num {
+  font-family: var(--font-head);
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--c-primary);
+  line-height: 1;
+}
+.cob-stat__label {
+  font-size: 0.78rem;
+  color: var(--c-text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ── Coverage grid ── */
+.cob-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+/* ── Coverage card ── */
+.cob-card {
+  background: var(--c-surface);
+  border-radius: var(--r-card);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  text-decoration: none;
+  color: inherit;
+  transition: transform .2s, box-shadow .2s;
+  display: flex;
+  flex-direction: column;
+}
+.cob-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0,0,0,.12);
+}
+.cob-card__header {
+  padding: 1.2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 70px;
+}
+.cob-card__emoji {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+.cob-card__envio {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.3rem 0.6rem;
+  border-radius: 50px;
+  white-space: nowrap;
+}
+.cob-card__body {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.cob-card__name {
+  font-family: var(--font-head);
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--c-text);
+  line-height: 1.2;
+  margin: 0;
+}
+.cob-card__colonias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+.cob-card__col {
+  font-size: 0.72rem;
+  background: var(--c-bg-alt);
+  color: var(--c-text-muted);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  line-height: 1.3;
+}
+.cob-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--c-border);
+}
+.cob-card__tiempo {
+  font-size: 0.75rem;
+  color: var(--c-text-muted);
+}
+.cob-card__cta {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--c-primary);
+}
+
+/* ── Envío cards ── */
+.envio-card {
+  background: var(--c-surface);
+  border-radius: var(--r-card);
+  padding: 2rem 1.5rem;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.75rem;
+}
+.envio-card__icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.envio-card__title {
+  font-family: var(--font-head);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--c-text);
+  margin: 0;
+}
+.envio-card__precio {
+  font-family: var(--font-head);
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--c-primary);
+  margin: 0;
+}
+.envio-card__desc {
+  font-size: 0.85rem;
+  color: var(--c-text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .cob-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 768px) {
+  .cob-grid { grid-template-columns: repeat(2, 1fr); }
+  .cob-stats { gap: 1rem; }
+  .cob-stat__num { font-size: 1.6rem; }
+}
+@media (max-width: 480px) {
+  .cob-grid { grid-template-columns: 1fr 1fr; }
+}
+</style>
