@@ -17,21 +17,46 @@ const description = "Descubre los mejores inflables para adultos en eventos corp
   ]}
 >
 
-  <div class="container">
-    <nav class="breadcrumbs" aria-label="Ruta de navegación">
-      <a href="/">Inicio</a>
-      <span class="breadcrumbs__sep">/</span>
-      <a href="/blog/">Blog</a>
-      <span class="breadcrumbs__sep">/</span>
-      <span>Inflables para adultos y eventos corporativos</span>
-    </nav>
-  </div>
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">🎯 Eventos</span>
+          <h1 class="hero__title">
+            Inflables para Adultos y <span class="highlight">Eventos Corporativos:</span> La Guía Completa
+          </h1>
+          <div class="art-hero__meta">
+            <span>📅 12 mar 2025</span>
+            <span class="art-hero__sep">·</span>
+            <span>⏱️ 9 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">
+            Los inflables ya no son exclusivos de las fiestas infantiles. Cada vez más empresas en CDMX incorporan estructuras inflables en eventos corporativos, team building y celebraciones de fin de año.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20inflables%20para%20un%20evento%20corporativo."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Cotizar evento corporativo</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Los <strong>inflables para adultos y eventos corporativos</strong> son la tendencia de team building más efectiva en la <strong>Ciudad de México</strong>. Pistas de obstáculos, rings de boxeo y canchas deportivas inflables generan integración real entre equipos de trabajo — algo que una presentación de PowerPoint nunca logrará. En <strong>BRINCOLINS</strong> hemos trabajado con empresas de todos los tamaños en la <strong>ZMVM</strong>, desde startups hasta corporativos de 500+ empleados.
+          </p>
+          <p class="hero__copy-text">
+            Esta guía cubre tipos de inflables aptos para adultos, beneficios comprobados del team building con actividades físicas, logística para <strong>eventos corporativos en CDMX y Edomex</strong>, y precios por tamaño de evento. Generamos <strong>factura fiscal</strong> sin costo adicional para todas las empresas. Escríbenos por <strong>WhatsApp</strong> para una cotización personalizada sin compromiso.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <article class="section" style="padding-top:1rem;">
     <div class="container" style="max-width:800px;">
-      <span class="section-badge">🎯 Eventos</span>
-      <h1 style="font-size:clamp(1.8rem,4vw,2.5rem); font-weight:900; margin-bottom:1rem;">Inflables para Adultos y Eventos Corporativos: La Guía Completa</h1>
-      <p style="color:var(--c-text-muted); margin-bottom:2rem; font-size:1.05rem; line-height:1.7;">Los inflables ya no son exclusivos de las fiestas infantiles. Cada vez más empresas en la Ciudad de México incorporan estructuras inflables en sus eventos corporativos, actividades de team building y celebraciones de fin de año. Si estás planeando un evento empresarial diferente, aquí te explicamos todo lo que necesitas saber para integrar inflables de manera profesional y divertida.</p>
 
       <h2 style="margin-top:2.5rem; margin-bottom:1rem;">¿Por qué usar inflables en eventos corporativos?</h2>
       <p style="color:var(--c-text-muted); line-height:1.7; margin-bottom:1.25rem;">La tendencia de integrar actividades lúdicas en el entorno empresarial no es nueva, pero ha crecido significativamente en los últimos años. Los departamentos de recursos humanos y los organizadores de eventos corporativos han descubierto que las actividades físicas y recreativas generan un impacto positivo medible en la moral del equipo, la comunicación entre departamentos y la retención de talento.</p>
@@ -140,3 +165,10 @@ const description = "Descubre los mejores inflables para adultos en eventos corp
   />
 
 </PageLayout>
+
+<style>
+  .art-hero__back { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; margin-bottom: 0.5rem; }
+  .art-hero__back:hover { gap: 0.6rem; }
+  .art-hero__meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--c-text-muted); margin-bottom: 0.5rem; }
+  .art-hero__sep { opacity: 0.4; }
+</style>

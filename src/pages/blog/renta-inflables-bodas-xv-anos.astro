@@ -17,21 +17,46 @@ const description = "Cómo integrar inflables en bodas, quinceañeras y eventos 
   ]}
 >
 
-  <div class="container">
-    <nav class="breadcrumbs" aria-label="Ruta de navegación">
-      <a href="/">Inicio</a>
-      <span class="breadcrumbs__sep">/</span>
-      <a href="/blog/">Blog</a>
-      <span class="breadcrumbs__sep">/</span>
-      <span>Inflables para bodas y XV años</span>
-    </nav>
-  </div>
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">💒 Eventos</span>
+          <h1 class="hero__title">
+            Renta de Inflables para <span class="highlight">Bodas y XV Años:</span> Diversión en Eventos Formales
+          </h1>
+          <div class="art-hero__meta">
+            <span>📅 12 mar 2025</span>
+            <span class="art-hero__sep">·</span>
+            <span>⏱️ 9 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">
+            Las bodas y quinceañeras están evolucionando. Las nuevas generaciones buscan celebraciones que combinen elegancia con diversión auténtica. Descubre cómo integrar inflables con estilo.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable%20para%20mi%20boda%20%2F%20XV%20a%C3%B1os."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Cotizar para mi evento</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Cada vez más parejas y quinceañeras en la <strong>Ciudad de México</strong> incluyen inflables en sus eventos formales. En <strong>BRINCOLINS</strong> contamos con modelos elegantes como el <strong>Castillo Blanco</strong> — diseño monocromático que se integra con cualquier decoración de <strong>boda o XV años</strong> sin romper la estética. Los invitados lo recuerdan durante años como el momento más divertido de la noche.
+          </p>
+          <p class="hero__copy-text">
+            Esta guía cubre qué inflables funcionan para <strong>eventos formales en CDMX y Edomex</strong>, cómo ubicarlos estratégicamente para que complementen la celebración, coordinación con el banquete, precios y paquetes especiales para bodas. Si ya tienes fecha, escríbenos por <strong>WhatsApp</strong> — te asesoramos sobre el modelo ideal para la estética de tu evento sin compromiso.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <article class="section" style="padding-top:1rem;">
     <div class="container" style="max-width:800px;">
-      <span class="section-badge">💒 Eventos</span>
-      <h1 style="font-size:clamp(1.8rem,4vw,2.5rem); font-weight:900; margin-bottom:1rem;">Renta de Inflables para Bodas y XV Años: Cómo Integrar Diversión en Eventos Formales</h1>
-      <p style="color:var(--c-text-muted); margin-bottom:2rem; font-size:1.05rem; line-height:1.7;">Las bodas y las quinceañeras están evolucionando. Las nuevas generaciones buscan celebraciones que combinen la elegancia tradicional con momentos de diversión auténtica. Los inflables, lejos de ser exclusivos de fiestas infantiles, se han convertido en un elemento diferenciador que los invitados recuerdan durante años. Aquí te explicamos cómo integrarlos con estilo.</p>
 
       <h2 style="margin-top:2.5rem; margin-bottom:1rem;">¿Inflables en una boda o XV años? La nueva tendencia</h2>
       <p style="color:var(--c-text-muted); line-height:1.7; margin-bottom:1.25rem;">Puede sonar poco convencional, pero cada vez más parejas y quinceañeras están incluyendo inflables en sus eventos formales. La razón es simple: los inflables resuelven un problema real. En toda boda o fiesta de XV años hay niños que necesitan entretenimiento, adolescentes que buscan algo diferente y adultos que, después de unas horas de baile y comida, agradecen una actividad lúdica que rompa la rutina del evento.</p>
@@ -134,3 +159,10 @@ const description = "Cómo integrar inflables en bodas, quinceañeras y eventos 
   />
 
 </PageLayout>
+
+<style>
+  .art-hero__back { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; margin-bottom: 0.5rem; }
+  .art-hero__back:hover { gap: 0.6rem; }
+  .art-hero__meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--c-text-muted); margin-bottom: 0.5rem; }
+  .art-hero__sep { opacity: 0.4; }
+</style>

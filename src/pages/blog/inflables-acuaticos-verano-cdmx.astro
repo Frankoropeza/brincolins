@@ -25,26 +25,40 @@ const faqs = [
   ]}
 >
 
-  <section class="art-hero">
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
     <div class="container">
-      <div class="art-hero__inner">
-        <a href="/blog/" class="art-hero__back">← Volver al blog</a>
-        <div class="art-hero__cats">
-          <span class="section-badge">💧 Acuáticos</span>
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">💧 Acuáticos</span>
+          <h1 class="hero__title">
+            <span class="highlight">Inflables Acuáticos</span> para el Verano en CDMX: Todo lo que Necesitas Saber
+          </h1>
+          <div class="art-hero__meta">
+            <span>📅 11 mar 2025</span>
+            <span class="art-hero__sep">·</span>
+            <span>⏱️ 6 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">
+            El calor de la primavera en CDMX y los inflables acuáticos son una combinación perfecta. Aquí te contamos todo sobre toboganes, albercas y parques de agua para que tu fiesta sea la más refrescante del año.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable%20acu%C3%A1tico%20para%20mi%20fiesta."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Cotizar inflable acuático</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
         </div>
-        <h1 class="art-hero__title">
-          Inflables acuáticos para el verano en CDMX: todo lo que necesitas saber
-        </h1>
-        <div class="art-hero__meta">
-          <span>📅 11 mar 2025</span>
-          <span class="art-hero__sep">·</span>
-          <span>⏱️ 6 min lectura</span>
-          <span class="art-hero__sep">·</span>
-          <span>✍️ Equipo BRINCOLINS</span>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            De marzo a junio, la <strong>Ciudad de México y el Estado de México</strong> viven su temporada más calurosa, y los <strong>inflables acuáticos</strong> se convierten en la atracción más solicitada para fiestas infantiles, kermeses y cumpleaños al aire libre. En <strong>BRINCOLINS</strong> contamos con toboganes acuáticos, albercas inflables y parques de agua que transforman cualquier jardín en una aventura refrescante para niños de 3 a 14 años.
+          </p>
+          <p class="hero__copy-text">
+            En esta guía te explicamos los tipos de <strong>inflables acuáticos disponibles en CDMX</strong>, precios actualizados, qué necesitas tener listo en casa y los mejores meses para rentarlos. Si ya tienes fecha, reserva con anticipación — los fines de semana de temporada alta se agotan rápido. Escríbenos por <strong>WhatsApp</strong> y te confirmamos disponibilidad al instante.
+          </p>
         </div>
-        <p class="art-hero__intro">
-          El calor de la primavera en CDMX y los inflables acuáticos son una combinación perfecta. Aquí te contamos todo sobre toboganes, albercas y parques de agua para que tu fiesta sea la más refrescante del año.
-        </p>
       </div>
     </div>
   </section>
@@ -166,15 +180,10 @@ const faqs = [
 </PageLayout>
 
 <style>
-  .art-hero { background: linear-gradient(135deg, #0c2340 0%, #0a3d62 50%, #0288d1 100%); padding: 4rem 0 3rem; margin-top: -1px; }
-  .art-hero__inner { max-width: 760px; }
-  .art-hero__back { color: #7dd3fc; font-size: 0.875rem; font-weight: 600; text-decoration: none; display: inline-block; margin-bottom: 1.5rem; }
-  .art-hero__back:hover { opacity: 0.8; }
-  .art-hero__cats { margin-bottom: 1rem; }
-  .art-hero__title { font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 900; line-height: 1.2; color: #fff; margin-bottom: 1rem; }
-  .art-hero__meta { display: flex; flex-wrap: wrap; gap: 0.5rem; font-size: 0.875rem; color: rgba(255,255,255,0.55); margin-bottom: 1.25rem; }
+  .art-hero__back { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; margin-bottom: 0.5rem; }
+  .art-hero__back:hover { gap: 0.6rem; }
+  .art-hero__meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--c-text-muted); margin-bottom: 0.5rem; }
   .art-hero__sep { opacity: 0.4; }
-  .art-hero__intro { font-size: 1.125rem; line-height: 1.75; color: rgba(255,255,255,0.75); }
   .art-layout { display: grid; grid-template-columns: 1fr 300px; gap: 3rem; align-items: start; }
   @media (max-width: 900px) { .art-layout { grid-template-columns: 1fr; } .art-sidebar { display: none; } }
   .art-body h2 { font-size: 1.375rem; font-weight: 800; margin: 2.5rem 0 1rem; color: var(--c-text); }

@@ -17,21 +17,46 @@ const description = "Aprende a decorar una fiesta infantil alrededor del inflabl
   ]}
 >
 
-  <div class="container">
-    <nav class="breadcrumbs" aria-label="Ruta de navegación">
-      <a href="/">Inicio</a>
-      <span class="breadcrumbs__sep">/</span>
-      <a href="/blog/">Blog</a>
-      <span class="breadcrumbs__sep">/</span>
-      <span>Decoración para fiesta infantil con inflable</span>
-    </nav>
-  </div>
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">🎨 Decoración</span>
+          <h1 class="hero__title">
+            Cómo Decorar una <span class="highlight">Fiesta Infantil</span> Alrededor del Inflable
+          </h1>
+          <div class="art-hero__meta">
+            <span>📅 12 mar 2025</span>
+            <span class="art-hero__sep">·</span>
+            <span>⏱️ 8 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">
+            El inflable es la atracción principal de la fiesta, pero la decoración es lo que transforma un evento común en una experiencia mágica. Ideas prácticas y accesibles para coordinar colores, mobiliario y elementos decorativos con tu brincolín.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable%20y%20pedir%20ideas%20de%20decoraci%C3%B3n."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Pedir ideas de decoración</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            La <strong>decoración de una fiesta infantil</strong> no tiene que ser cara para verse espectacular. El secreto está en coordinar los colores del inflable con manteles, globos, vajilla y la mesa de dulces. En <strong>BRINCOLINS</strong> asesoramos a familias de toda la <strong>Ciudad de México y Estado de México</strong> sobre qué paleta de colores combina mejor con cada modelo de nuestro catálogo — sin costo adicional.
+          </p>
+          <p class="hero__copy-text">
+            En esta guía encontrarás ideas de <strong>decoración para fiesta con inflable</strong>: desde arcos de globos y distribución de zonas, hasta iluminación para eventos nocturnos y presupuestos realistas para CDMX. Todo lo que necesitas para que tu evento se vea profesional sin contratar un wedding planner. Escríbenos por <strong>WhatsApp</strong> al cotizar tu inflable y te compartimos recomendaciones personalizadas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <article class="section" style="padding-top:1rem;">
     <div class="container" style="max-width:800px;">
-      <span class="section-badge">🎨 Decoración</span>
-      <h1 style="font-size:clamp(1.8rem,4vw,2.5rem); font-weight:900; margin-bottom:1rem;">Cómo Decorar una Fiesta Infantil Alrededor del Inflable</h1>
-      <p style="color:var(--c-text-muted); margin-bottom:2rem; font-size:1.05rem; line-height:1.7;">El inflable es la atracción principal de la fiesta, pero la decoración es lo que transforma un evento común en una experiencia mágica. Coordinar los colores, la disposición del mobiliario y los elementos decorativos con el inflable que elegiste puede hacer que tu fiesta se vea profesional sin necesidad de contratar un wedding planner. Aquí te damos ideas prácticas y accesibles para lograrlo.</p>
 
       <h2 style="margin-top:2.5rem; margin-bottom:1rem;">El inflable como centro del diseño</h2>
       <p style="color:var(--c-text-muted); line-height:1.7; margin-bottom:1.25rem;">El error más común al decorar una fiesta con inflable es tratar la decoración y el inflable como dos elementos separados. En realidad, el inflable debería ser el punto de partida de toda tu paleta de colores y temática. Si rentaste un castillo de princesas en tonos rosa y morado, esos deberían ser los colores dominantes en manteles, globos, platos y servilletas. Si elegiste un inflable de dragones rojos, trabaja con tonos rojos, negros y dorados para crear cohesión visual.</p>
@@ -142,3 +167,10 @@ const description = "Aprende a decorar una fiesta infantil alrededor del inflabl
   />
 
 </PageLayout>
+
+<style>
+  .art-hero__back { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; margin-bottom: 0.5rem; }
+  .art-hero__back:hover { gap: 0.6rem; }
+  .art-hero__meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--c-text-muted); margin-bottom: 0.5rem; }
+  .art-hero__sep { opacity: 0.4; }
+</style>

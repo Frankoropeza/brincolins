@@ -24,27 +24,40 @@ const faqs = [
   ]}
 >
 
-  <!-- HERO -->
-  <section class="art-hero">
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
     <div class="container">
-      <div class="art-hero__inner">
-        <a href="/blog/" class="art-hero__back">← Volver al blog</a>
-        <div class="art-hero__cats">
-          <span class="section-badge">💡 Consejos</span>
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">💡 Consejos</span>
+          <h1 class="hero__title">
+            Primera Vez Rentando un Inflable: <span class="highlight">Lo que Nadie te Dice</span>
+          </h1>
+          <div class="art-hero__meta">
+            <span>📅 5 feb 2025</span>
+            <span class="art-hero__sep">·</span>
+            <span>⏱️ 6 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">
+            Depósito, espacio mínimo, conexión eléctrica, seguro, tiempo de instalación... Todo lo que debes saber antes de contratar tu primer inflable para no llevarte sorpresas el día de la fiesta.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20es%20mi%20primera%20vez%20rentando%20un%20inflable%20y%20tengo%20dudas."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Resolver mis dudas</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
         </div>
-        <h1 class="art-hero__title">
-          Primera vez rentando un inflable: lo que nadie te dice
-        </h1>
-        <div class="art-hero__meta">
-          <span>📅 5 feb 2025</span>
-          <span class="art-hero__sep">·</span>
-          <span>⏱️ 6 min lectura</span>
-          <span class="art-hero__sep">·</span>
-          <span>✍️ Equipo BRINCOLINS</span>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Si es tu <strong>primera vez rentando un brincolín</strong>, es normal tener muchas preguntas. En <strong>BRINCOLINS</strong> llevamos más de 20 años atendiendo familias en la <strong>Ciudad de México y Estado de México</strong> que se acercan por primera vez al mundo de los inflables. Hemos resuelto miles de dudas sobre espacio, electricidad, anticipo y logística para que cada fiesta salga perfecta desde el primer intento.
+          </p>
+          <p class="hero__copy-text">
+            Esta guía reúne las preguntas más frecuentes que recibimos de papás primerizos: desde cómo medir tu espacio y verificar la conexión eléctrica, hasta qué incluye el precio y qué hacer si llueve. Al terminar, tendrás la confianza de un experto — o simplemente escríbenos por <strong>WhatsApp</strong> y te guiamos paso a paso en tu primera <strong>renta de inflable en CDMX</strong>.
+          </p>
         </div>
-        <p class="art-hero__intro">
-          Depósito, espacio mínimo, conexión eléctrica, seguro, tiempo de instalación... Todo lo que debes saber antes de contratar tu primer inflable para no llevarte sorpresas el día de la fiesta.
-        </p>
       </div>
     </div>
   </section>
@@ -213,19 +226,10 @@ const faqs = [
 </PageLayout>
 
 <style>
-  .art-hero {
-    background: linear-gradient(135deg, #f0f8ff 0%, #f0f0ff 100%);
-    padding: clamp(3rem, 8vw, 5rem) 0 clamp(2rem, 4vw, 3rem);
-    border-bottom: 1px solid var(--c-border);
-  }
-  .art-hero__inner { max-width: 760px; display: flex; flex-direction: column; gap: 1rem; }
-  .art-hero__back { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; }
+  .art-hero__back { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; margin-bottom: 0.5rem; }
   .art-hero__back:hover { gap: 0.6rem; }
-  .art-hero__cats { display: flex; gap: 0.5rem; flex-wrap: wrap; }
-  .art-hero__title { font-family: var(--font-head); font-weight: 900; font-size: clamp(1.75rem, 4vw, 2.5rem); color: var(--c-text); line-height: 1.2; margin: 0; }
-  .art-hero__meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--c-text-muted); }
+  .art-hero__meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--c-text-muted); margin-bottom: 0.5rem; }
   .art-hero__sep { opacity: 0.4; }
-  .art-hero__intro { font-size: 1.05rem; color: var(--c-text-muted); line-height: 1.7; margin: 0; max-width: 680px; }
 
   .art-layout { display: grid; grid-template-columns: 1fr 320px; gap: 3rem; align-items: start; }
   .art-body { min-width: 0; }

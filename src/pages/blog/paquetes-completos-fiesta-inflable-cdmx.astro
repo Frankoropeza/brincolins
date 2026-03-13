@@ -17,21 +17,46 @@ const description = "Guía de paquetes de fiesta con inflable en CDMX: qué incl
   ]}
 >
 
-  <div class="container">
-    <nav class="breadcrumbs" aria-label="Ruta de navegación">
-      <a href="/">Inicio</a>
-      <span class="breadcrumbs__sep">/</span>
-      <a href="/blog/">Blog</a>
-      <span class="breadcrumbs__sep">/</span>
-      <span>Paquetes completos fiesta con inflable</span>
-    </nav>
-  </div>
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">🎁 Paquetes</span>
+          <h1 class="hero__title">
+            <span class="highlight">Paquetes Completos</span> para Fiesta con Inflable en CDMX: Precios y Opciones
+          </h1>
+          <div class="art-hero__meta">
+            <span>📅 12 mar 2025</span>
+            <span class="art-hero__sep">·</span>
+            <span>⏱️ 8 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">
+            Organizar una fiesta infantil implica coordinar inflable, mesas, sillas, iluminación y sonido. Los paquetes completos simplifican todo en una sola contratación con precio fijo.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20paquete%20completo%20para%20mi%20fiesta."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Cotizar paquete</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Los <strong>paquetes de fiesta con inflable en CDMX</strong> te permiten ahorrar entre un 15-25% respecto a contratar cada servicio por separado. En <strong>BRINCOLINS</strong> armamos paquetes personalizados que combinan brincolín, mobiliario, toldo, iluminación y extras como máquinas de palomitas — todo con un solo responsable y un precio cerrado para familias de la <strong>Ciudad de México y Estado de México</strong>.
+          </p>
+          <p class="hero__copy-text">
+            En esta guía comparamos los 3 niveles de <strong>paquetes para fiesta infantil</strong> más comunes en la ZMVM: básico, intermedio y premium. Incluimos tabla de precios, qué debe incluir cada nivel, errores comunes al contratar y estrategias para ahorrar. Si ya sabes cuántos invitados tendrás, escríbenos por <strong>WhatsApp</strong> y te enviamos una cotización a la medida en minutos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <article class="section" style="padding-top:1rem;">
     <div class="container" style="max-width:800px;">
-      <span class="section-badge">🎁 Paquetes</span>
-      <h1 style="font-size:clamp(1.8rem,4vw,2.5rem); font-weight:900; margin-bottom:1rem;">Paquetes Completos para Fiesta con Inflable en CDMX: Guía de Precios y Opciones</h1>
-      <p style="color:var(--c-text-muted); margin-bottom:2rem; font-size:1.05rem; line-height:1.7;">Organizar una fiesta infantil implica coordinar muchos elementos: el inflable, las mesas, las sillas, la iluminación, el sonido y a veces hasta el payaso. Los paquetes completos simplifican todo al concentrar varios servicios en una sola contratación con un precio fijo. En esta guía te explicamos qué incluyen los diferentes niveles de paquetes disponibles en la Ciudad de México, cuánto cuestan y cómo elegir el que mejor se ajuste a tu presupuesto.</p>
 
       <h2 style="margin-top:2.5rem; margin-bottom:1rem;">¿Qué es un paquete completo de fiesta?</h2>
       <p style="color:var(--c-text-muted); line-height:1.7; margin-bottom:1.25rem;">Un paquete completo combina la renta de inflable con otros servicios esenciales para la fiesta. En lugar de contratar por separado al proveedor de inflables, la empresa de mobiliario, el servicio de iluminación y los animadores, un paquete te ofrece todo en un solo contrato, con un precio cerrado y una sola coordinación logística.</p>
@@ -171,3 +196,10 @@ const description = "Guía de paquetes de fiesta con inflable en CDMX: qué incl
   />
 
 </PageLayout>
+
+<style>
+  .art-hero__back { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; margin-bottom: 0.5rem; }
+  .art-hero__back:hover { gap: 0.6rem; }
+  .art-hero__meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--c-text-muted); margin-bottom: 0.5rem; }
+  .art-hero__sep { opacity: 0.4; }
+</style>

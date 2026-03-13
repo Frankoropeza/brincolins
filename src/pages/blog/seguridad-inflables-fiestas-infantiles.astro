@@ -25,26 +25,40 @@ const faqs = [
   ]}
 >
 
-  <section class="art-hero">
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
     <div class="container">
-      <div class="art-hero__inner">
-        <a href="/blog/" class="art-hero__back">← Volver al blog</a>
-        <div class="art-hero__cats">
-          <span class="section-badge">🛡️ Seguridad</span>
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">🛡️ Seguridad</span>
+          <h1 class="hero__title">
+            <span class="highlight">Seguridad en Inflables:</span> Lo que Todo Papá Debe Saber Antes de la Fiesta
+          </h1>
+          <div class="art-hero__meta">
+            <span>📅 11 mar 2025</span>
+            <span class="art-hero__sep">·</span>
+            <span>⏱️ 7 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">
+            Un brincolín es diversión pura — pero como cualquier equipo de juego, hay reglas básicas que marcan la diferencia entre una fiesta perfecta y una visita a urgencias. Esta guía es para todos los papás.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20saber%20m%C3%A1s%20sobre%20la%20seguridad%20de%20sus%20inflables."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Consultar seguridad</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
         </div>
-        <h1 class="art-hero__title">
-          Seguridad en inflables: lo que todo papá debe saber antes de la fiesta
-        </h1>
-        <div class="art-hero__meta">
-          <span>📅 11 mar 2025</span>
-          <span class="art-hero__sep">·</span>
-          <span>⏱️ 7 min lectura</span>
-          <span class="art-hero__sep">·</span>
-          <span>✍️ Equipo BRINCOLINS</span>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            La <strong>seguridad en inflables</strong> es lo que separa a un proveedor profesional de uno improvisado. En <strong>BRINCOLINS</strong> cada brincolín sale revisado, limpio y con <strong>seguro de responsabilidad civil</strong> incluido. Llevamos más de 20 años operando en la <strong>Ciudad de México y Estado de México</strong> sin incidentes graves gracias a protocolos estrictos de anclaje, capacidad máxima y revisión post-uso.
+          </p>
+          <p class="hero__copy-text">
+            Esta guía es para papás que quieren estar seguros antes de que sus hijos suban al <strong>brincolín</strong>. Te explicamos qué revisar cuando llega el inflable, las 7 reglas de oro durante el uso, cómo elegir un proveedor confiable en <strong>CDMX</strong> y qué hacer en caso de emergencia. Información clara para que disfrutes la fiesta con total tranquilidad.
+          </p>
         </div>
-        <p class="art-hero__intro">
-          Un brincolín es diversión pura — pero como cualquier equipo de juego, hay reglas básicas que marcan la diferencia entre una fiesta perfecta y una visita a urgencias. Esta guía es para todos los papás.
-        </p>
       </div>
     </div>
   </section>
@@ -159,15 +173,10 @@ const faqs = [
 </PageLayout>
 
 <style>
-  .art-hero { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); padding: 4rem 0 3rem; margin-top: -1px; }
-  .art-hero__inner { max-width: 760px; }
-  .art-hero__back { color: var(--c-primary); font-size: 0.875rem; font-weight: 600; text-decoration: none; display: inline-block; margin-bottom: 1.5rem; }
-  .art-hero__back:hover { opacity: 0.8; }
-  .art-hero__cats { margin-bottom: 1rem; }
-  .art-hero__title { font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 900; line-height: 1.2; color: #fff; margin-bottom: 1rem; }
-  .art-hero__meta { display: flex; flex-wrap: wrap; gap: 0.5rem; font-size: 0.875rem; color: rgba(255,255,255,0.55); margin-bottom: 1.25rem; }
+  .art-hero__back { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; margin-bottom: 0.5rem; }
+  .art-hero__back:hover { gap: 0.6rem; }
+  .art-hero__meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--c-text-muted); margin-bottom: 0.5rem; }
   .art-hero__sep { opacity: 0.4; }
-  .art-hero__intro { font-size: 1.125rem; line-height: 1.75; color: rgba(255,255,255,0.75); }
   .art-layout { display: grid; grid-template-columns: 1fr 300px; gap: 3rem; align-items: start; }
   @media (max-width: 900px) { .art-layout { grid-template-columns: 1fr; } .art-sidebar { display: none; } }
   .art-body h2 { font-size: 1.375rem; font-weight: 800; margin: 2.5rem 0 1rem; color: var(--c-text); }
