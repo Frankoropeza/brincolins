@@ -1,0 +1,155 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import FaqItem from "@/components/FaqItem.astro";
+
+const title = "Renta de Inflables en Gustavo A. Madero | BRINCOLINS";
+const description = "Renta de inflables en Gustavo A. Madero. Renta de inflables en Gustavo A. Madero CDMX. Envío incluido en Lindavista, Vallejo, Tepeyac, La Vil";
+
+const colonias = [
+  "Lindavista",
+  "Vallejo",
+  "Tepeyac Insurgentes",
+  "La Villa",
+  "Aragón",
+  "Martín Carrera",
+  "San Bartolo Atepehuacan",
+  "Gustavo A. Madero",
+  "Cuautepec",
+  "Zacatenco",
+  "Pensador Mexicano",
+  "Nueva Atzacoalco"
+];
+
+const faqs = [
+  { question: "¿Cuánto cuesta el envío a Gustavo A. Madero?", answer: "El envío está incluido en todas las colonias de Gustavo A. Madero. No hay cargos adicionales de flete para ninguna zona de la alcaldía." },
+  { question: "¿Qué inflables son más populares en Gustavo A. Madero?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos toboganes, combinados con alberca y temáticos para todo tipo de fiestas." },
+  { question: "¿Atienden fines de semana en Gustavo A. Madero?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos en toda la zona de Gustavo A. Madero." },
+  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1-2 semanas de anticipación. Para fines de semana y temporadas altas (Semana Santa, verano, diciembre), lo ideal es reservar con 3 semanas de anticipación." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Cobertura", href: "/cobertura/" },
+    { name: "Gustavo A. Madero" }
+  ]}
+  faqItems={faqs}
+>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a><span class="breadcrumbs__sep">/</span>
+      <a href="/cobertura/">Cobertura</a><span class="breadcrumbs__sep">/</span>
+      <span>Gustavo A. Madero</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🕍 Gustavo A. Madero</span>
+          <h1 class="hero__title">Renta de Inflables en <span class="highlight">Gustavo A. Madero</span></h1>
+          <p class="hero__desc">Renta de inflables en Gustavo A. Madero CDMX. Envío incluido en Lindavista, Vallejo, Tepeyac, La Villa, Aragón y toda la alcaldía GAM. Servicio profesional garantizado.</p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20necesito%20un%20inflable%20en%20Gustavo%20A.%20Madero."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">La alcaldía Gustavo A. Madero es una de las más grandes de la CDMX y una zona de altísima demanda para renta de inflables. Colonias como Lindavista, Vallejo y La Villa tienen una fuerte tradición de fiestas familiares y eventos infantiles. BRINCOLINS cubre toda la alcaldía con puntualidad y experiencia, conociendo cada colonia y sus particularidades.</p>
+          <p class="hero__copy-text">En GAM atendemos desde casas con jardín en Lindavista hasta eventos en unidades habitacionales de Aragón y Vallejo. Nuestros equipos planifican las rutas con anticipación para evitar el tráfico del Eje Central y el Circuito Interior. Envío incluido, instalación completa y retiro al finalizar tu evento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📍 Colonias"
+        title="Colonias con cobertura en Gustavo A. Madero"
+        subtitle="Entrega directa en estas colonias y zonas."
+        copy1="Cubrimos toda la extensa alcaldía Gustavo A. Madero, desde Lindavista y Vallejo en el sur hasta Cuautepec en el norte. Conocemos cada colonia y sus condiciones de acceso."
+        copy2="GAM es una de las alcaldías más grandes de la CDMX. Si tu colonia no aparece en la lista, escríbenos — todas las colonias de GAM tienen envío incluido."
+      />
+      <div class="coverage__badges">
+        {colonias.map(c => <span class="coverage__badge">{c}</span>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🚚 Entrega"
+        title="Servicio de entrega en Gustavo A. Madero"
+        subtitle="Puntualidad y profesionalismo garantizados."
+        copy1="La alcaldía GAM tiene excelentes accesos por el Eje Central, el Circuito Interior y el Anillo Periférico. Para colonias del norte como Cuautepec, planificamos salidas más tempranas para garantizar puntualidad."
+        copy2="Conocemos bien las unidades habitacionales de Vallejo y Aragón. Coordinamos con la administración de los conjuntos para los horarios de carga y descarga cuando es necesario."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#00C853,#2E7D32);">
+            <span class="why-card__img-label">GRATIS</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Costo de envío</h3>
+            <p class="why-card__desc">Envío incluido en el precio para todas las colonias de Gustavo A. Madero: Lindavista, Vallejo, La Villa, Tepeyac, Aragón y más.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#1565C0,#0288D1);">
+            <span class="why-card__img-label">2h</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación rápida</h3>
+            <p class="why-card__desc">Montaje profesional en menos de 2 horas desde la llegada.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+            <span class="why-card__img-label">24/7</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Atención permanente</h3>
+            <p class="why-card__desc">WhatsApp disponible todo el día para confirmar y resolver dudas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes sobre Gustavo A. Madero"
+        subtitle="Dudas comunes sobre entrega de inflables en esta zona."
+        copy1="Hemos atendido cientos de eventos en Gustavo A. Madero y conocemos las particularidades de cada colonia. Aquí respondemos las preguntas más frecuentes de nuestros clientes en la zona."
+        copy2="¿Tienes otra duda? Escríbenos por WhatsApp y te respondemos en minutos con toda la información que necesitas para tu evento."
+      />
+      <div style="max-width:800px;margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Evento en Gustavo A. Madero?"
+    subtitle="Cotiza tu inflable con entrega incluida en Lindavista, Vallejo, La Villa, Aragón y toda la alcaldía GAM."
+    btnText="Cotizar para Gustavo A. Madero"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20necesito%20inflable%20en%20Gustavo%20A.%20Madero."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+    whatsapp={true}
+    external={true}
+  />
+</PageLayout>

@@ -1,0 +1,155 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import FaqItem from "@/components/FaqItem.astro";
+
+const title = "Renta de Inflables en Cuautitlán Izcalli | BRINCOLINS";
+const description = "Renta de inflables en Cuautitlán Izcalli, Edomex. Servicio profesional con entrega programada. Renta de inflables en Cuautitlán Izcalli, Edomex. Entre";
+
+const colonias = [
+  "Izcalli Centro",
+  "Hacienda del Parque",
+  "Ojo de Agua",
+  "Cumbria",
+  "Cuautitlán Izcalli Centro",
+  "Santiago Cuautlalpan",
+  "San Juan Atlamica",
+  "San Buenaventura",
+  "URBI Villa Cuautitlán",
+  "Banthí Izcalli",
+  "Las Alamedas",
+  "Villas del Campo"
+];
+
+const faqs = [
+  { question: "¿Cuánto cuesta el envío a Cuautitlán Izcalli?", answer: "En Cuautitlán Izcalli el cargo de envío es de $250 a $400. Es un costo fijo que cubre el traslado adicional desde nuestro almacén." },
+  { question: "¿Qué inflables son más populares en Cuautitlán Izcalli?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos toboganes, combinados con alberca y temáticos para todo tipo de fiestas." },
+  { question: "¿Atienden fines de semana en Cuautitlán Izcalli?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos en toda la zona de Cuautitlán Izcalli." },
+  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1-2 semanas de anticipación. Para fines de semana y temporadas altas (Semana Santa, verano, diciembre), lo ideal es reservar con 3 semanas de anticipación." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Cobertura", href: "/cobertura/" },
+    { name: "Cuautitlán Izcalli" }
+  ]}
+  faqItems={faqs}
+>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a><span class="breadcrumbs__sep">/</span>
+      <a href="/cobertura/">Cobertura</a><span class="breadcrumbs__sep">/</span>
+      <span>Cuautitlán Izcalli</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🏙️ Cuautitlán Izcalli</span>
+          <h1 class="hero__title">Renta de Inflables en <span class="highlight">Cuautitlán Izcalli</span></h1>
+          <p class="hero__desc">Renta de inflables en Cuautitlán Izcalli, Edomex. Entrega en Izcalli Centro, Hacienda del Parque, Ojo de Agua, Cumbria y todo el municipio. Servicio profesional con envío programado.</p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20necesito%20un%20inflable%20en%20Cuautitlan%20Izcalli."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">Cuautitlán Izcalli es un municipio moderno del norte del Estado de México, con colonias residenciales bien planificadas como Izcalli Centro y Hacienda del Parque. BRINCOLINS llega hasta Cuautitlán Izcalli con un servicio profesional y un cargo de envío de $250 a $400 que cubre la distancia adicional.</p>
+          <p class="hero__copy-text">El municipio tiene excelente conectividad por la autopista México-Querétaro. Planificamos la entrega con anticipación para garantizar puntualidad. Instalación completa y retiro al finalizar. Reserva con suficiente tiempo para asegurar disponibilidad en tu fecha.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📍 Colonias"
+        title="Colonias con cobertura en Cuautitlán Izcalli"
+        subtitle="Entrega directa en estas colonias y zonas."
+        copy1="Cubrimos todas las colonias de Cuautitlán Izcalli, desde Izcalli Centro hasta las zonas residenciales más nuevas como Cumbria y Hacienda del Parque."
+        copy2="El cargo de $250-$400 es fijo para todo el municipio. Para colonias en los límites con Cuautitlán de García Barragán o Tultitlán, confirmamos el costo al cotizar."
+      />
+      <div class="coverage__badges">
+        {colonias.map(c => <span class="coverage__badge">{c}</span>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🚚 Entrega"
+        title="Servicio de entrega en Cuautitlán Izcalli"
+        subtitle="Puntualidad y profesionalismo garantizados."
+        copy1="La autopista México-Querétaro es nuestra ruta principal para llegar a Cuautitlán Izcalli. Es una ruta directa que nos permite garantizar tiempos de entrega razonables."
+        copy2="Recomendamos reservar con 2-3 semanas de anticipación para asegurar disponibilidad en Cuautitlán Izcalli, especialmente para fines de semana."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#00C853,#2E7D32);">
+            <span class="why-card__img-label">$250–$400</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Costo de envío</h3>
+            <p class="why-card__desc">Cargo de envío de $250 a $400 para Cuautitlán Izcalli por la distancia desde nuestro almacén central.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#1565C0,#0288D1);">
+            <span class="why-card__img-label">2h</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación rápida</h3>
+            <p class="why-card__desc">Montaje profesional en menos de 2 horas desde la llegada.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+            <span class="why-card__img-label">24/7</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Atención permanente</h3>
+            <p class="why-card__desc">WhatsApp disponible todo el día para confirmar y resolver dudas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes sobre Cuautitlán Izcalli"
+        subtitle="Dudas comunes sobre entrega de inflables en esta zona."
+        copy1="Hemos atendido eventos en Cuautitlán Izcalli y conocemos las particularidades del municipio. Aquí respondemos las preguntas más frecuentes de nuestros clientes en la zona."
+        copy2="¿Tienes otra duda? Escríbenos por WhatsApp y te respondemos en minutos con toda la información que necesitas para tu evento."
+      />
+      <div style="max-width:800px;margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Evento en Cuautitlán Izcalli?"
+    subtitle="Cotiza tu inflable con entrega en Izcalli Centro, Hacienda del Parque, Ojo de Agua y todo el municipio."
+    btnText="Cotizar para Cuautitlán Izcalli"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20necesito%20inflable%20en%20Cuautitlan%20Izcalli."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+    whatsapp={true}
+    external={true}
+  />
+</PageLayout>

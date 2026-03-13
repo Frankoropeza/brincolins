@@ -1,0 +1,120 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import ZonaCard from "@/components/ZonaCard.astro";
+
+const title = "Renta de Inflables en el Estado de México | BRINCOLINS";
+const description = "Renta de inflables y brincolines en los principales municipios del Estado de México. Servicio profesional con entrega programada en Edomex.";
+
+const municipios = [
+  { slug:"naucalpan", emoji:"🏡", name:"Naucalpan", description:"Satélite, Lomas Verdes, Interlomas y San Rafael con envío accesible.", colonias:["Satélite","Lomas Verdes","Interlomas","San Rafael"], envio:"$150–$250", gradient:"linear-gradient(135deg,#7C3AED,#9C27B0)" },
+  { slug:"tlalnepantla", emoji:"🏗️", name:"Tlalnepantla", description:"Centro, Las Américas, Vallejo e Industrial con entrega programada.", colonias:["Centro","Las Américas","Vallejo","Industrial"], envio:"$150–$250", gradient:"linear-gradient(135deg,#1565C0,#0288D1)" },
+  { slug:"ecatepec", emoji:"🌃", name:"Ecatepec", description:"Ciudad Azteca, Las Américas, San Cristóbal y Ecatepec Centro.", colonias:["Ciudad Azteca","Las Américas","San Cristóbal","Ecatepec Centro"], envio:"$200–$350", gradient:"linear-gradient(135deg,#E65100,#FF6F00)" },
+  { slug:"nezahualcoyotl", emoji:"🏘️", name:"Nezahualcóyotl", description:"Ciudad Neza, Jardines de Morelos, Los Reyes y Benito Juárez.", colonias:["Ciudad Neza","Jardines de Morelos","Los Reyes","Benito Juárez"], envio:"$200–$300", gradient:"linear-gradient(135deg,#2E7D32,#00C853)" },
+  { slug:"huixquilucan", emoji:"💎", name:"Huixquilucan", description:"La Herradura, Interlomas y Jesús del Monte — zonas residenciales premium.", colonias:["Interlomas","La Herradura","El Molinito","Jesús del Monte"], envio:"$150–$250", gradient:"linear-gradient(135deg,#E91E8C,#7C3AED)" },
+  { slug:"atizapan", emoji:"🌄", name:"Atizapán de Zaragoza", description:"Ciudad López Mateos, Rancho Contento y Satélite.", colonias:["Cd. López Mateos","Rancho Contento","Satélite","Las Fuentes"], envio:"$200–$300", gradient:"linear-gradient(135deg,#B71C1C,#E53935)" },
+  { slug:"cuautitlan-izcalli", emoji:"🏙️", name:"Cuautitlán Izcalli", description:"Izcalli Centro, Hacienda del Parque y Ojo de Agua.", colonias:["Izcalli Centro","Hacienda del Parque","Ojo de Agua","Cumbria"], envio:"$250–$400", gradient:"linear-gradient(135deg,#0288D1,#01579B)" },
+  { slug:"coacalco", emoji:"🌟", name:"Coacalco", description:"Coacalco Centro, Bosques de Morelos y La Quebrada.", colonias:["Coacalco Centro","Bosques de Morelos","La Quebrada","San Crisanto"], envio:"$200–$300", gradient:"linear-gradient(135deg,#00796B,#009688)" },
+  { slug:"toluca", emoji:"⛰️", name:"Toluca", description:"Toluca Centro, San Mateo Atenco, Zinacantepec y Valle de Toluca.", colonias:["Toluca Centro","San Mateo Atenco","Zinacantepec","Almoloya"], envio:"$400–$600", gradient:"linear-gradient(135deg,#4A148C,#6A1B9A)" },
+  { slug:"metepec", emoji:"🎨", name:"Metepec", description:"Metepec Centro, San Salvador la Gavia y Pilares — zona exclusiva del Valle.", colonias:["Metepec Centro","San Salvador la Gavia","Pilares","Coaxustenco"], envio:"$400–$600", gradient:"linear-gradient(135deg,#827717,#F9A825)" },
+  { slug:"texcoco", emoji:"🏛️", name:"Texcoco", description:"Texcoco Centro, San Miguel Coatlinchán y Atenco.", colonias:["Texcoco Centro","San Miguel Coatlinchán","Atenco","Chiconcuac"], envio:"$250–$400", gradient:"linear-gradient(135deg,#1B5E20,#388E3C)" },
+  { slug:"chalco", emoji:"🌅", name:"Chalco", description:"Chalco Centro, Valle de Chalco y San Gregorio en el Oriente.", colonias:["Chalco Centro","Valle de Chalco","San Gregorio","Tlapala"], envio:"$250–$400", gradient:"linear-gradient(135deg,#558B2F,#7CB342)" },
+  { slug:"nicolas-romero", emoji:"🌳", name:"Nicolás Romero", description:"Ciudad Cuauhtémoc, El Progreso y colonias del municipio.", colonias:["Nicolás Romero Centro","Ciudad Cuauhtémoc","El Progreso","La Aurora"], envio:"$250–$400", gradient:"linear-gradient(135deg,#006064,#0097A7)" },
+  { slug:"tecamac", emoji:"🚀", name:"Tecámac", description:"Ciudad Real, Real del Sol y Tecámac Centro en el norte del Edomex.", colonias:["Ciudad Real","Real del Sol","Tecámac Centro","Ozumbilla"], envio:"$250–$400", gradient:"linear-gradient(135deg,#E91E63,#C2185B)" },
+  { slug:"tultitlan", emoji:"🏭", name:"Tultitlán", description:"San Pablo de las Salinas, Lechería y Tultitlán Centro.", colonias:["Tultitlán Centro","San Pablo de las Salinas","Lechería","Buenavista"], envio:"$200–$300", gradient:"linear-gradient(135deg,#FF3D00,#FF6D00)" },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Renta de Inflables Estado de México — BRINCOLINS",
+  "description": "Renta de inflables y brincolines en los principales municipios del Estado de México con entrega programada.",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "BRINCOLINS",
+    "telephone": "+525547868402",
+    "areaServed": "Estado de México"
+  },
+  "areaServed": { "@type": "State", "name": "Estado de México" }
+};
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="category"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Cobertura", href: "/cobertura/" },
+    { name: "Estado de México" }
+  ]}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} slot="head" />
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a><span class="breadcrumbs__sep">/</span>
+      <a href="/cobertura/">Cobertura</a><span class="breadcrumbs__sep">/</span>
+      <span>Estado de México</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🌟 Estado de México</span>
+          <h1 class="hero__title">Renta de Inflables en el <span class="highlight">Estado de México</span></h1>
+          <p class="hero__desc">Llevamos inflables y brincolines a los principales municipios del Edomex: Naucalpan, Tlalnepantla, Ecatepec, Neza, Toluca y más. Entrega programada y servicio profesional garantizado.</p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20necesito%20un%20inflable%20en%20el%20Estado%20de%20Mexico."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">BRINCOLINS atiende los municipios más importantes del Estado de México con un servicio de renta de inflables confiable y profesional. Desde las zonas residenciales de Naucalpan, Huixquilucan e Interlomas hasta los grandes municipios de Ecatepec y Nezahualcóyotl, nuestro equipo de logística cubre toda la región metropolitana. Contamos con rutas optimizadas para garantizar puntualidad en cada entrega, sin importar la distancia.</p>
+          <p class="hero__copy-text">A diferencia de la CDMX, en el Estado de México aplicamos un cargo de envío que varía según la distancia al municipio. Este costo se indica claramente en cada página de municipio para que puedas planificar tu presupuesto sin sorpresas. Todos nuestros inflables incluyen instalación profesional, supervisión durante el evento si se requiere y retiro al finalizar. Reserva con anticipación para asegurar disponibilidad en tu fecha.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="🗺️ Municipios"
+        title="Municipios con cobertura en el Estado de México"
+        subtitle="Selecciona tu municipio para ver colonias, costo de envío y más detalles."
+        copy1="Cubrimos 15 municipios del Estado de México, desde los más cercanos a la capital como Tlalnepantla y Naucalpan hasta zonas más alejadas como Toluca, Metepec y Tecámac. Cada municipio tiene su propia página con información detallada de colonias y costos."
+        copy2="El costo de envío varía según la distancia. Municipios del Valle de México como Naucalpan, Tlalnepantla y Huixquilucan tienen cargos menores. Municipios más distantes como Toluca o Metepec requieren coordinación previa y tienen un cargo mayor."
+      />
+      <div class="grid-4">
+        {municipios.map(m => (
+          <ZonaCard
+            slug={m.slug}
+            emoji={m.emoji}
+            name={m.name}
+            description={m.description}
+            colonias={m.colonias}
+            envio={m.envio}
+            gradient={m.gradient}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Tu evento es en el Estado de México?"
+    subtitle="Cotiza tu inflable con entrega programada en los principales municipios del Edomex."
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20necesito%20un%20inflable%20en%20el%20Estado%20de%20Mexico."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+    whatsapp={true}
+    external={true}
+  />
+</PageLayout>
