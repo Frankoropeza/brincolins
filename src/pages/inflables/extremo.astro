@@ -1,6 +1,6 @@
 ---
 import PageLayout from "@/layouts/PageLayout.astro";
-import ProductCard from "@/components/ProductCard.astro";
+import Sidebar from "@/components/Sidebar.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 
 const title = "Renta de Extremo Inflable | BRINCOLINS CDMX";
@@ -22,12 +22,6 @@ const inflable = {
   requirements: "Espacio mínimo 13×5m, toma de corriente 110V, uso exterior",
   image: "/img/inflables/extremo.avif",
 };
-
-const otrosInflables = [
-  { slug: "barco-pirata", emoji: "🚢", name: "Barco Pirata", description: "Barco pirata épico de 7m con tobogán gigante.", price: "$2,500", size: "7×5×4m", ages: "3-12 años", category: "Grande", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
-  { slug: "castillo-blanco", emoji: "🤍", name: "Castillo Blanco", description: "Elegante castillo blanco para bodas y eventos formales.", price: "$2,800", size: "6×5×4m", ages: "3+ años", category: "Bodas", categoryColor: "bodas", gradient: "#7E57C2, #9575CD", image: "/img/inflables/castillo-blanco.avif" },
-  { slug: "dragones-rojos", emoji: "🐉", name: "Dragones Rojos", description: "El más rentado en CDMX. Dos dragones de 3m con resbaladilla.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
-];
 ---
 
 <PageLayout
@@ -87,15 +81,6 @@ const otrosInflables = [
     </div>
   </section>
 
-  <!-- FOTO DEL PRODUCTO -->
-  <section style="padding:0 0 2rem;">
-    <div class="container">
-      <img src={inflable.image} alt="Renta de inflable Extremo circuito de obstáculos en CDMX" width="1200" height="675"
-           loading="eager" style="width:100%;max-height:500px;object-fit:cover;border-radius:var(--r-card);display:block;" />
-    </div>
-  </section>
-
-
   <!-- GALERÍA DE IMÁGENES -->
   <section style="padding:0 0 2rem;">
     <div class="container">
@@ -107,62 +92,59 @@ const otrosInflables = [
     </div>
   </section>
 
-  <!-- INFO DEL PRODUCTO -->
-  <section class="section">
-    <div class="container">
-      <div class="product-info">
-        <p class="product-info__desc">{inflable.desc}</p>
-        <div class="product-info__specs">
-          <div class="product-info__spec"><span class="product-info__label">Medidas</span><strong>{inflable.size}</strong></div>
-          <div class="product-info__spec"><span class="product-info__label">Edad recomendada</span><strong>{inflable.ages}</strong></div>
-          <div class="product-info__spec"><span class="product-info__label">Capacidad</span><strong>{inflable.capacity}</strong></div>
-          <div class="product-info__spec"><span class="product-info__label">Instalación</span><strong>{inflable.installTime}</strong></div>
-          <div class="product-info__spec"><span class="product-info__label">Precio</span><strong style="color:var(--c-primary);">Desde {inflable.price} MXN</strong></div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- Contenido + Sidebar -->
+  <div class="page-with-sidebar">
+    <main class="page-with-sidebar__main">
 
-  <section class="section section--alt">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Características</h2>
-      </div>
-      <div class="grid-3">
-        {inflable.features.map((f: string) => (
-          <div class="feature-card">
-            <div class="feature-card__icon">✅</div>
-            <p class="feature-card__desc">{f}</p>
+      <section class="section">
+        <div class="product-info">
+          <p class="product-info__desc">{inflable.desc}</p>
+          <div class="product-info__specs">
+            <div class="product-info__spec"><span class="product-info__label">Medidas</span><strong>{inflable.size}</strong></div>
+            <div class="product-info__spec"><span class="product-info__label">Edad recomendada</span><strong>{inflable.ages}</strong></div>
+            <div class="product-info__spec"><span class="product-info__label">Capacidad</span><strong>{inflable.capacity}</strong></div>
+            <div class="product-info__spec"><span class="product-info__label">Instalación</span><strong>{inflable.installTime}</strong></div>
+            <div class="product-info__spec"><span class="product-info__label">Precio</span><strong style="color:var(--c-primary);">Desde {inflable.price} MXN</strong></div>
           </div>
-        ))}
-      </div>
-    </div>
-  </section>
 
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Requisitos técnicos</h2>
+      <div style="margin-top:1.5rem;">
+        <img src={inflable.image} alt="Renta de inflable Extremo circuito de obstáculos en CDMX" width="1200" height="675"
+           loading="eager" style="width:100%;max-height:500px;object-fit:cover;border-radius:var(--r-card);display:block;" />
       </div>
-      <div style="max-width:600px; margin:0 auto; background:var(--c-bg-alt); padding:2rem; border-radius:var(--r-card);">
-        <p><strong>Espacio necesario:</strong> {inflable.size} (mínimo)</p>
-        <p style="margin-top:.75rem;"><strong>Requisitos:</strong> {inflable.requirements}</p>
-        <p style="margin-top:.75rem;"><strong>Tiempo de instalación:</strong> {inflable.installTime}</p>
-        <p style="margin-top:.75rem;"><strong>Capacidad:</strong> {inflable.capacity}</p>
       </div>
-    </div>
-  </section>
+      </section>
 
-  <section class="section section--alt">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Otros inflables que te pueden gustar</h2>
-      </div>
-      <div class="grid-3">
-        {otrosInflables.map(p => <ProductCard {...p} />)}
-      </div>
-    </div>
-  </section>
+      <section class="section section--alt">
+        <div class="section-header">
+          <h2 class="section-title">Características</h2>
+        </div>
+        <div class="grid-3">
+          {inflable.features.map((f: string) => (
+            <div class="feature-card">
+              <div class="feature-card__icon">✅</div>
+              <p class="feature-card__desc">{f}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2 class="section-title">Requisitos técnicos</h2>
+        </div>
+        <div style="max-width:600px; background:var(--c-bg-alt); padding:2rem; border-radius:var(--r-card);">
+          <p><strong>Espacio necesario:</strong> {inflable.size} (mínimo)</p>
+          <p style="margin-top:.75rem;"><strong>Requisitos:</strong> {inflable.requirements}</p>
+          <p style="margin-top:.75rem;"><strong>Tiempo de instalación:</strong> {inflable.installTime}</p>
+          <p style="margin-top:.75rem;"><strong>Capacidad:</strong> {inflable.capacity}</p>
+        </div>
+      </section>
+
+    </main>
+    <aside>
+      <Sidebar currentSlug={inflable.slug} />
+    </aside>
+  </div>
 
   <CtaBanner
     title={`¿Te interesa el ${inflable.name}?`}

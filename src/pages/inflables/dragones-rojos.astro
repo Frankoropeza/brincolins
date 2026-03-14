@@ -81,14 +81,6 @@ const inflable = {
     </div>
   </section>
 
-  <!-- FOTO DEL PRODUCTO -->
-  <section style="padding:0 0 2rem;">
-    <div class="container">
-      <img src={inflable.image} alt="Renta de inflable Dragones Rojos en CDMX" width="1200" height="675"
-           loading="eager" style="width:100%;max-height:500px;object-fit:cover;border-radius:var(--r-card);display:block;" />
-    </div>
-  </section>
-
   <!-- Contenido + Sidebar -->
   <div class="page-with-sidebar">
     <main class="page-with-sidebar__main">
@@ -103,7 +95,12 @@ const inflable = {
             <div class="product-info__spec"><span class="product-info__label">Instalación</span><strong>{inflable.installTime}</strong></div>
             <div class="product-info__spec"><span class="product-info__label">Precio</span><strong style="color:var(--c-primary);">Desde {inflable.price} MXN</strong></div>
           </div>
-        </div>
+
+      <div style="margin-top:1.5rem;">
+        <img src={inflable.image} alt="Renta de inflable Dragones Rojos en CDMX" width="1200" height="675"
+           loading="eager" style="width:100%;max-height:500px;object-fit:cover;border-radius:var(--r-card);display:block;" />
+      </div>
+      </div>
       </section>
 
       <section class="section section--alt">
