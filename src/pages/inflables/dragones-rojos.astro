@@ -90,11 +90,31 @@ const inflable = {
     </div>
   </section>
 
-  <!-- GALERÍA -->
-  <section class="section" style="padding-bottom:0;">
-    <div class="container">
-      <h2 class="section-title" style="margin-bottom:1.25rem;">Galería de fotos</h2>
-      <div class="gallery">
+
+<!-- Contenido + Sidebar -->
+  <div class="page-with-sidebar">
+    <main class="page-with-sidebar__main">
+
+      <section class="section">
+        <div class="product-info">
+          <h2 class="product-info__title">Renta de Inflable Dragones Rojos en CDMX — El Favorito de las Fiestas Infantiles</h2>
+          <p class="product-info__desc">{inflable.desc}</p>
+          <div class="product-info__specs">
+            <div class="product-info__spec"><span class="product-info__label">Medidas</span><strong>{inflable.size}</strong></div>
+            <div class="product-info__spec"><span class="product-info__label">Edad recomendada</span><strong>{inflable.ages}</strong></div>
+            <div class="product-info__spec"><span class="product-info__label">Capacidad</span><strong>{inflable.capacity}</strong></div>
+            <div class="product-info__spec"><span class="product-info__label">Instalación</span><strong>{inflable.installTime}</strong></div>
+            <div class="product-info__spec"><span class="product-info__label">Precio</span><strong style="color:var(--c-primary);">Desde {inflable.price} MXN</strong></div>
+          </div></div>
+      </section>
+
+      
+      
+      
+      <section class="section" style="padding-top:0;">
+        <div class="product-info">
+          <h3 style="font-family:var(--font-head);font-weight:800;font-size:1.05rem;margin-bottom:1rem;color:var(--c-text);">Galería de fotos</h3>
+          <div class="gallery">
         <a href="/img/inflables/dragones-rojos/castillo-dragones-exterior-jardin.avif" class="gallery__item" target="_blank" rel="noopener">
           <img src="/img/inflables/dragones-rojos/castillo-dragones-exterior-jardin.avif" alt="dragones-rojos renta CDMX" loading="lazy" width="400" height="267" />
         </a>
@@ -123,29 +143,9 @@ const inflable = {
           <img src="/img/inflables/dragones-rojos/dragones-interior-lateral.avif" alt="dragones-rojos renta CDMX" loading="lazy" width="400" height="267" />
         </a>
       </div>
-    </div>
-  </section>
-
-<!-- Contenido + Sidebar -->
-  <div class="page-with-sidebar">
-    <main class="page-with-sidebar__main">
-
-      <section class="section">
-        <div class="product-info">
-          <h2 class="product-info__title">Renta de Inflable Dragones Rojos en CDMX — El Favorito de las Fiestas Infantiles</h2>
-          <p class="product-info__desc">{inflable.desc}</p>
-          <div class="product-info__specs">
-            <div class="product-info__spec"><span class="product-info__label">Medidas</span><strong>{inflable.size}</strong></div>
-            <div class="product-info__spec"><span class="product-info__label">Edad recomendada</span><strong>{inflable.ages}</strong></div>
-            <div class="product-info__spec"><span class="product-info__label">Capacidad</span><strong>{inflable.capacity}</strong></div>
-            <div class="product-info__spec"><span class="product-info__label">Instalación</span><strong>{inflable.installTime}</strong></div>
-            <div class="product-info__spec"><span class="product-info__label">Precio</span><strong style="color:var(--c-primary);">Desde {inflable.price} MXN</strong></div>
-          </div></div>
+        </div>
       </section>
 
-      
-      
-      
       <section class="section section--alt">
         <div class="section-header">
           <h2 class="section-title">Características</h2>
