@@ -2351,3 +2351,41 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 900px) {
   .wa-bubble__tooltip { display: block; }
 }
+
+/* ── Product Info (debajo del hero en páginas de detalle) ── */
+.product-info {
+  max-width: 860px;
+  margin: 0 auto;
+}
+.product-info__desc {
+  font-size: 1.05rem;
+  color: var(--c-text-muted);
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+.product-info__specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.product-info__spec {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  background: var(--c-bg-alt);
+  border-radius: var(--r-card);
+  padding: 0.85rem 1.25rem;
+  min-width: 140px;
+}
+.product-info__label {
+  font-size: 0.75rem;
+  color: var(--c-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+.product-info__spec strong {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--c-text);
+}
