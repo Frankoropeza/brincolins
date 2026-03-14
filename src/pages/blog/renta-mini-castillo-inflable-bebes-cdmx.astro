@@ -1,0 +1,230 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Renta Mini Castillo Inflable para Bebés en CDMX | BRINCOLINS";
+const description = "Renta el mini castillo inflable perfecto para bebés y niños pequeños en CDMX. Seguro, compacto y colorido. Entrega e instalación incluida.";
+
+const faqs = [
+  { question: "¿A partir de qué edad pueden usar el mini castillo inflable?", answer: "El mini castillo está diseñado para niños desde 1 año de edad. Su altura reducida y paredes acolchadas lo hacen completamente seguro para bebés que ya caminan y niños hasta 5 años." },
+  { question: "¿El mini castillo cabe en un departamento o espacio pequeño?", answer: "Sí, el mini castillo es nuestro inflable más compacto. Se adapta perfectamente a departamentos, patios pequeños, jardines reducidos y salones de fiestas. Solo necesitas un espacio de aproximadamente 3×3 metros y un contacto eléctrico cercano." },
+  { question: "¿Qué medidas de seguridad tiene el mini castillo para bebés?", answer: "Cuenta con paredes altas de malla que permiten la visibilidad, piso acolchado extra grueso, entrada con rampa suave para evitar caídas, y materiales certificados libres de sustancias tóxicas. Además, nuestro equipo se asegura de una instalación segura." },
+  { question: "¿La renta incluye entrega, instalación y recolección?", answer: "Sí, la renta del mini castillo incluye entrega a domicilio en CDMX y área metropolitana, instalación profesional, supervisión de arranque y recolección al finalizar tu evento. No tienes que preocuparte por nada." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog", href: "/blog/" },
+    { name: "Mini Castillo para Bebés" },
+  ]}
+>
+
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">👶 Mini Castillo</span>
+          <h1 class="hero__title">
+            Renta <span class="highlight">Mini Castillo Inflable</span> para Bebés en CDMX
+          </h1>
+          <div class="art-hero__meta">
+            <span>⏱️ 7 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">El inflable más seguro y compacto para los más pequeños de la casa.</p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">Si estás organizando una fiesta para tu bebé o niño pequeño en la <strong>Ciudad de México</strong>, el <strong>mini castillo inflable</strong> es la opción ideal. Diseñado especialmente para niños de 1 a 5 años, este inflable compacto ofrece toda la diversión de un brincolín grande pero en un tamaño perfecto para <strong>espacios reducidos</strong> y con las máximas medidas de seguridad para los más chiquitos.</p>
+          <p class="hero__copy-text">En <strong>BRINCOLINS</strong> nos especializamos en la <strong>renta de inflables para bebés en CDMX</strong> con entrega, instalación profesional y recolección incluida. Nuestro mini castillo es el favorito de los papás porque combina colores vibrantes, materiales seguros y un diseño que mantiene a los pequeños entretenidos durante horas sin riesgos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGEN DE PORTADA -->
+  <section style="padding:0 0 1rem;">
+    <div class="container">
+      <img src="/img/inflables/mini-castillo-v3.avif" alt="Mini castillo inflable para bebés en fiesta infantil CDMX" width="1200" height="675" loading="eager"
+           style="width:100%;max-height:480px;object-fit:cover;border-radius:var(--r-card);display:block;box-shadow:var(--shadow-md);" />
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <section class="section">
+    <div class="container">
+      <div class="art-layout">
+        <article class="art-body">
+
+          <h2>¿Por qué el mini castillo es perfecto para bebés?</h2>
+          <p>Cuando hablamos de entretenimiento para los más pequeños, la seguridad siempre es la prioridad número uno. El <strong>mini castillo inflable</strong> fue diseñado pensando exclusivamente en bebés y niños pequeños que están comenzando a explorar el mundo. A diferencia de los inflables grandes, este modelo tiene una altura reducida que permite a los papás supervisar fácilmente desde afuera.</p>
+          <p>Las paredes del mini castillo son más altas en proporción al tamaño del inflable, lo que evita que los niños se salgan accidentalmente. Además, el piso cuenta con un acolchado extra grueso que amortigua cada brinco y caída, algo fundamental cuando hablamos de niños que todavía están desarrollando su equilibrio y coordinación motriz.</p>
+          <p>Los colores brillantes y el diseño de castillo estimulan la imaginación de los pequeños, convirtiéndolo en mucho más que un simple brincolín: es un espacio de juego seguro donde los niños pueden saltar, gatear y socializar con otros niños de su edad.</p>
+
+          <h2>Características de seguridad del mini castillo</h2>
+          <p>En <strong>BRINCOLINS</strong> tomamos la seguridad muy en serio, especialmente cuando se trata de inflables para bebés. Nuestro mini castillo cuenta con múltiples características diseñadas para proteger a los más pequeños.</p>
+          <ul class="art-list">
+            <li><strong>Paredes de malla transparente:</strong> permiten que los papás vean a sus hijos en todo momento sin necesidad de entrar al inflable.</li>
+            <li><strong>Piso extra acolchado:</strong> con doble capa de material para amortiguar brincos y caídas suaves.</li>
+            <li><strong>Rampa de entrada suave:</strong> con inclinación mínima para que los bebés entren y salgan sin riesgo de tropezar.</li>
+            <li><strong>Materiales certificados:</strong> tela de PVC laminado libre de ftalatos y sustancias tóxicas, seguro para el contacto con la piel sensible de los bebés.</li>
+            <li><strong>Costuras reforzadas:</strong> cada unión está sellada y revisada para garantizar la integridad estructural del inflable.</li>
+            <li><strong>Sistema de anclaje:</strong> incluye estacas o pesas según la superficie para evitar cualquier movimiento del inflable.</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">🛡️</span>
+            <p><strong>Tip de seguridad:</strong> Aunque el mini castillo está diseñado para ser muy seguro, siempre recomendamos que un adulto supervise a los niños mientras juegan. Limitar el número de niños dentro del inflable también ayuda a prevenir accidentes.</p>
+          </div>
+
+          <h2>Rango de edad ideal: de 1 a 5 años</h2>
+          <p>El <strong>mini castillo inflable</strong> está optimizado para niños entre 1 y 5 años de edad. Este rango es crucial porque los inflables regulares suelen ser demasiado grandes y tienen demasiada potencia de rebote para los más chiquitos, lo que puede resultar intimidante o incluso peligroso.</p>
+          <p>Para los bebés de 1 a 2 años, el mini castillo funciona como un espacio de exploración sensorial. Los pequeños pueden gatear, tocar las paredes coloridas y experimentar la textura suave del piso inflado. Es una experiencia nueva y emocionante que estimula su desarrollo motriz.</p>
+          <p>Los niños de 3 a 5 años ya pueden brincar con más confianza y disfrutar al máximo la experiencia del brincolín. El tamaño compacto del mini castillo asegura que los brincos se mantengan controlados y que los niños no alcancen alturas peligrosas.</p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">👶</span>
+            <p><strong>Recomendación:</strong> Para fiestas donde habrá niños de diferentes edades, te sugerimos rentar el mini castillo para los más pequeños y un inflable más grande para los mayores. Así todos se divierten de manera segura y apropiada para su edad.</p>
+          </div>
+
+          <h2>Dimensiones compactas para espacios reducidos</h2>
+          <p>Una de las mayores ventajas del mini castillo es su tamaño compacto. Muchas familias en la <strong>Ciudad de México</strong> viven en departamentos o casas con patios pequeños, y encontrar un inflable que se adapte a estos espacios puede ser un reto. El mini castillo resuelve este problema perfectamente.</p>
+          <p>Con dimensiones pensadas para espacios reducidos, este inflable cabe cómodamente en la mayoría de los patios, jardines pequeños e incluso en interiores con techo suficientemente alto. Solo necesitas un área plana de aproximadamente 3×3 metros y acceso a un contacto eléctrico para el motor que mantiene el inflable en funcionamiento.</p>
+          <p>Además, su peso reducido facilita la instalación rápida. Nuestro equipo puede tener listo el mini castillo en menos de 15 minutos, y la desinstalación es igual de rápida. No necesitas preocuparte por la logística: nosotros nos encargamos de todo.</p>
+
+          <h3>Superficies compatibles</h3>
+          <ul class="art-list">
+            <li><strong>Pasto natural:</strong> la superficie ideal, permite anclaje con estacas.</li>
+            <li><strong>Pasto sintético:</strong> funciona muy bien, se anclan con pesas.</li>
+            <li><strong>Concreto o firme:</strong> perfectamente viable con sacos de arena como anclaje.</li>
+            <li><strong>Pisos de salón:</strong> compatible con cualquier piso liso usando el sistema de pesas.</li>
+          </ul>
+
+          <h2>Cómo instalar el mini castillo en casa</h2>
+          <p>Aunque nuestro equipo de <strong>BRINCOLINS</strong> se encarga de la instalación completa, es útil que conozcas el proceso para preparar el espacio antes de nuestra llegada.</p>
+          <p>Primero, elige el área donde colocarás el inflable. Asegúrate de que el piso esté limpio y libre de objetos punzocortantes como piedras, ramas o juguetes con partes afiladas. Verifica que haya un contacto eléctrico a no más de 10 metros de distancia.</p>
+          <p>Si vas a colocar el inflable en interiores, mide la altura del techo para confirmar que hay espacio suficiente. También asegúrate de que haya buena ventilación en el área, ya que el motor del inflable genera un flujo constante de aire.</p>
+
+          <h3>Preparación del espacio paso a paso</h3>
+          <ul class="art-list art-list--ordered">
+            <li>Despeja el área de muebles, juguetes y objetos que puedan estorbar.</li>
+            <li>Barre o limpia el piso para eliminar cualquier objeto punzante.</li>
+            <li>Verifica el acceso a corriente eléctrica cercana.</li>
+            <li>Si es en exterior, revisa que no haya cables eléctricos o ramas de árboles sobre el área.</li>
+            <li>Prepara una zona junto al inflable donde los papás puedan sentarse y supervisar.</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">⚡</span>
+            <p><strong>Dato importante:</strong> El motor del mini castillo consume muy poca energía, similar a una aspiradora doméstica. No necesitas una instalación eléctrica especial, cualquier contacto estándar de 110V funciona perfectamente.</p>
+          </div>
+
+          <h2>Reserva tu mini castillo con BRINCOLINS</h2>
+          <p>Reservar el mini castillo inflable para la fiesta de tu bebé es muy sencillo. En <strong>BRINCOLINS</strong> ofrecemos un proceso rápido y sin complicaciones para que tú solo te preocupes por disfrutar el evento.</p>
+          <p>Contáctanos por WhatsApp y cuéntanos los detalles de tu evento: la edad de los niños, el espacio disponible y la zona de entrega en CDMX o área metropolitana. Nuestro equipo te dará una cotización inmediata y te ayudará a elegir el inflable perfecto.</p>
+          <p>El servicio incluye entrega puntual a domicilio, instalación profesional con revisión de seguridad, y recolección al finalizar tu evento. No hay cargos ocultos ni sorpresas. Además, si necesitas combinar el mini castillo con otros inflables o servicios para la fiesta, podemos armar un paquete a tu medida con precios especiales.</p>
+          <p>No dejes la diversión de los más pequeños al azar. El <strong>mini castillo inflable</strong> de BRINCOLINS es la garantía de que tu bebé y sus amiguitos tendrán una fiesta inolvidable, segura y llena de risas.</p>
+
+        </article>
+        <aside class="art-sidebar">
+          <div class="art-sidebar__box">
+            <h3 class="art-sidebar__title">🎈 ¿Listo para reservar?</h3>
+            <p class="art-sidebar__text">Cotiza el mini castillo inflable para la fiesta de tu bebé. Entrega e instalación incluida en CDMX.</p>
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable." class="btn btn-wa" target="_blank" rel="noopener noreferrer" style="width:100%;justify-content:center;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Pedir asesoría gratis
+            </a>
+          </div>
+          <div class="art-sidebar__box art-sidebar__box--links">
+            <h3 class="art-sidebar__title">🗂️ Más artículos</h3>
+            <a href="/blog/como-elegir-inflable-fiesta-infantil/" class="art-sidebar__link">→ Cómo elegir el inflable perfecto</a>
+            <a href="/blog/inflable-pequeno-fiestas-interiores-cdmx/" class="art-sidebar__link">→ Inflables pequeños para interiores</a>
+            <a href="/blog/brincolines-para-ninos-pequenos-cdmx/" class="art-sidebar__link">→ Brincolines para niños pequeños</a>
+          </div>
+          <div class="art-sidebar__box art-sidebar__box--cat">
+            <h3 class="art-sidebar__title">🎪 Nuestros inflables</h3>
+            <a href="/inflables/mini-castillo/" class="art-sidebar__link">→ Mini Castillo</a>
+            <a href="/inflables/mini-jungla/" class="art-sidebar__link">→ Mini Jungla</a>
+            <a href="/inflables/gusanitos/" class="art-sidebar__link">→ Gusanitos</a>
+            <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Ver catálogo completo</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div style="max-width:800px; margin:0 auto;">
+        <h2 class="section-title" style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="Dale a tu bebé la fiesta que merece"
+    subtitle="Renta el mini castillo inflable con entrega e instalación en CDMX"
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+    whatsapp={true}
+    external={true}
+  />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "author": { "@type": "Organization", "name": "BRINCOLINS" },
+    "publisher": { "@type": "Organization", "name": "BRINCOLINS", "url": "https://brincolins.com" },
+    "mainEntityOfPage": "https://brincolins.com/blog/renta-mini-castillo-inflable-bebes-cdmx/"
+  })} />
+
+</PageLayout>
+
+<style>
+  .art-hero__back { font-size:0.85rem;color:var(--c-primary);font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:0.3rem;transition:gap 0.2s;margin-bottom:0.5rem; }
+  .art-hero__back:hover { gap:0.6rem; }
+  .art-hero__meta { display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap;font-size:0.85rem;color:var(--c-text-muted);margin-bottom:0.5rem; }
+  .art-hero__sep { opacity:0.4; }
+  .art-layout { display:grid;grid-template-columns:1fr 320px;gap:3rem;align-items:start; }
+  .art-body { min-width:0; }
+  .art-body h2 { font-family:var(--font-head);font-weight:800;font-size:clamp(1.25rem,2.5vw,1.5rem);color:var(--c-text);margin:2.5rem 0 1rem;padding-top:0.5rem;border-top:3px solid var(--c-primary); }
+  .art-body h2:first-child { margin-top:0; }
+  .art-body p { font-size:1rem;line-height:1.75;color:var(--c-text);margin:0 0 1.25rem; }
+  .art-body strong { color:var(--c-primary);font-weight:700; }
+  .art-tip { display:flex;gap:1rem;align-items:flex-start;background:#fff8f5;border-left:4px solid var(--c-primary);border-radius:0 var(--r-card) var(--r-card) 0;padding:1.25rem 1.5rem;margin:1.5rem 0; }
+  .art-tip__icon { font-size:1.5rem;flex-shrink:0; }
+  .art-tip p { margin:0;font-size:0.95rem; }
+  .art-list { padding-left:1.5rem;margin:0 0 1.25rem;display:flex;flex-direction:column;gap:0.6rem; }
+  .art-list li { font-size:1rem;line-height:1.6;color:var(--c-text);list-style:disc; }
+  .art-list--ordered li { list-style:decimal; }
+  .art-sidebar { display:flex;flex-direction:column;gap:1.5rem;position:sticky;top:90px; }
+  .art-sidebar__box { background:var(--c-bg-alt);border:1px solid var(--c-border);border-radius:var(--r-card);padding:1.5rem;display:flex;flex-direction:column;gap:0.75rem; }
+  .art-sidebar__box--links, .art-sidebar__box--cat { gap:0.5rem; }
+  .art-sidebar__title { font-family:var(--font-head);font-weight:800;font-size:1rem;color:var(--c-text);margin:0; }
+  .art-sidebar__text { font-size:0.9rem;color:var(--c-text-muted);line-height:1.6;margin:0; }
+  .art-sidebar__link { font-size:0.88rem;color:var(--c-primary);font-weight:600;text-decoration:none;padding:0.35rem 0;display:block;border-bottom:1px solid var(--c-border);transition:padding-left 0.2s; }
+  .art-sidebar__link:last-child { border-bottom:none; }
+  .art-sidebar__link:hover { padding-left:0.4rem; }
+  .art-sidebar__link--cta { color:var(--c-secondary);font-weight:800; }
+  @media (max-width:960px) { .art-layout { grid-template-columns:1fr; } .art-sidebar { position:static; } }
+</style>
