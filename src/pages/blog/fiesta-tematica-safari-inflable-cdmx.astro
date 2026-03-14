@@ -1,0 +1,263 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Fiesta Temática Safari con Inflable en CDMX | BRINCOLINS";
+const description = "Guía completa para organizar una fiesta temática safari con inflable en Ciudad de México. Decoración, actividades, comida y el inflable perfecto para una aventura selvática.";
+
+const faqs = [
+  { question: "¿Qué inflable es mejor para una fiesta temática safari?", answer: "El inflable Mini Jungla es la opción ideal para fiestas safari. Su diseño con animales de la selva y colores tropicales complementa perfectamente la temática. También puedes combinarlo con actividades de explorador para una experiencia completa." },
+  { question: "¿Cuántos niños pueden usar el inflable durante una fiesta safari?", answer: "El Mini Jungla puede recibir entre 4 y 6 niños simultáneamente, dependiendo de sus edades. Para fiestas con más de 15 niños, recomendamos organizar turnos de 15-20 minutos para que todos disfruten sin aglomeraciones." },
+  { question: "¿Puedo rentar el inflable y también contratar decoración safari?", answer: "En BRINCOLINS nos especializamos en la renta de inflables. Sin embargo, podemos recomendarte proveedores de decoración temática que trabajan con nosotros frecuentemente y ofrecen paquetes complementarios para fiestas safari en CDMX." },
+  { question: "¿La temática safari funciona para niños y niñas por igual?", answer: "¡Absolutamente! La temática safari es una de las más inclusivas. A todos los niños les fascinan los animales de la selva, sin importar género. Es una de las razones por las que se ha convertido en tendencia para fiestas infantiles en la Ciudad de México." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog", href: "/blog/" },
+    { name: "Fiesta Safari con Inflable CDMX" },
+  ]}
+>
+
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">🦁 Safari</span>
+          <h1 class="hero__title">
+            Fiesta Temática <span class="highlight">Safari</span> con Inflable en CDMX
+          </h1>
+          <div class="art-hero__meta">
+            <span>⏱️ 9 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">
+            Organiza una fiesta safari espectacular con inflable temático, decoración selvática, actividades de explorador y un menú tropical que dejará a todos con la boca abierta.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable." class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            La <strong>fiesta temática safari</strong> se ha convertido en una de las opciones más populares para cumpleaños infantiles en la <strong>Ciudad de México</strong>. Combinar un <strong>inflable temático de jungla</strong> con decoración selvática, actividades de exploración y un menú tropical crea una experiencia inmersiva que los niños recordarán durante años. En <strong>BRINCOLINS</strong> te ayudamos con la pieza central: el inflable perfecto para tu aventura safari.
+          </p>
+          <p class="hero__copy-text">
+            En esta guía completa te compartimos todo lo que necesitas para organizar una <strong>fiesta safari inolvidable</strong>: desde la elección del inflable adecuado hasta ideas de decoración, actividades complementarias y opciones de comida temática. Atendemos toda la <strong>CDMX</strong> y municipios del <strong>Estado de México</strong>. Escríbenos por <strong>WhatsApp</strong> para cotizar tu inflable y empezar a planear la aventura.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGEN DE PORTADA -->
+  <section style="padding:0 0 1rem;">
+    <div class="container">
+      <img src="/img/inflables/mini-jungla-v4.avif" alt="Fiesta temática safari con inflable de jungla en CDMX - BRINCOLINS" width="1200" height="675" loading="eager"
+           style="width:100%;max-height:480px;object-fit:cover;border-radius:var(--r-card);display:block;box-shadow:var(--shadow-md);" />
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <section class="section">
+    <div class="container">
+      <div class="art-layout">
+        <article class="art-body">
+
+          <h2>Por qué la temática safari es tendencia en fiestas infantiles</h2>
+          <p>
+            Las fiestas con <strong>temática safari</strong> están viviendo un auge impresionante en la Ciudad de México. Cada vez más papás eligen esta opción por encima de los temas clásicos como princesas o superhéroes, y hay razones muy claras para ello.
+          </p>
+          <p>
+            En primer lugar, el safari es una temática <strong>universal e inclusiva</strong>. Funciona perfectamente para niños y niñas de todas las edades porque a todos les fascinan los animales salvajes. No hay niño que no se emocione al ver un león, una jirafa o un elefante, y eso convierte al safari en la opción más segura cuando la fiesta incluye invitados de diferentes géneros y edades.
+          </p>
+          <p>
+            Además, la paleta de colores del safari — verdes selváticos, dorados, marrones terrosos y toques de animal print — es visualmente impactante y fácil de ejecutar. No necesitas gastar una fortuna en decoración porque los elementos naturales son accesibles y el resultado siempre se ve profesional. Las fotos quedan espectaculares, algo que los papás valoran muchísimo en la era de Instagram y TikTok.
+          </p>
+          <p>
+            Finalmente, la temática safari permite crear una <strong>narrativa de aventura</strong> que mantiene a los niños entretenidos durante toda la fiesta. No es solo una decoración bonita; es un mundo entero donde los pequeños se convierten en exploradores, rastreadores de animales y aventureros de la selva.
+          </p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">📈</span>
+            <p><strong>Tendencia real:</strong> En nuestros más de 20 años rentando inflables en CDMX, las fiestas safari han crecido un 40% en los últimos tres años. Es la temática que más rápido se ha popularizado, especialmente en zonas como Coyoacán, Del Valle, Polanco y Satélite.</p>
+          </div>
+
+          <h2>Cómo elegir el inflable perfecto para tu fiesta safari</h2>
+          <p>
+            El <strong>inflable es la pieza central</strong> de cualquier fiesta con brincolín, y en una fiesta safari esto es aún más importante. El inflable no solo es un juego; es un elemento decorativo que establece el tono visual de todo el evento. Elegir el modelo correcto marca la diferencia entre una fiesta "con tema" y una experiencia verdaderamente inmersiva.
+          </p>
+          <p>
+            Nuestro <strong>inflable Mini Jungla</strong> es la opción estrella para fiestas safari. Su diseño incorpora animales de la selva, colores tropicales vibrantes y detalles de vegetación que complementan la decoración selvática de tu evento. Los niños sienten que están brincando en medio de la jungla.
+          </p>
+          <ul class="art-list">
+            <li><strong>Mini Jungla:</strong> El favorito para fiestas safari. Diseño con animales, colores tropicales y tamaño compacto ideal para jardines y salones en CDMX.</li>
+            <li><strong>Gusanitos:</strong> Excelente opción complementaria si tienes niños muy pequeños (1-4 años). Su diseño colorido combina con la paleta safari y es ultra seguro para los más chiquitos.</li>
+            <li><strong>Barco Pirata:</strong> Si quieres darle un giro de "aventura selvática + exploración", el barco pirata combina sorprendentemente bien con temáticas de expedición y descubrimiento.</li>
+          </ul>
+
+          <h3>Consideraciones de espacio y logística</h3>
+          <p>
+            Antes de elegir el inflable, evalúa el espacio disponible para tu fiesta. El Mini Jungla requiere un área mínima de 4×4 metros más perímetro de seguridad. Si tu fiesta es en un salón, verifica la altura del techo (mínimo 3.5 metros). Si es en jardín, asegúrate de tener acceso a electricidad para el motor de inflado continuo.
+          </p>
+
+          <h2>Ideas de decoración para una fiesta safari completa</h2>
+          <p>
+            La decoración es lo que transforma un espacio ordinario en una selva emocionante. Aquí te compartimos las ideas más efectivas y accesibles para decorar tu fiesta safari en la Ciudad de México:
+          </p>
+
+          <h3>Entrada de la fiesta</h3>
+          <p>
+            Crea un arco de bienvenida con globos verdes, dorados y marrones. Agrega hojas tropicales artificiales (las encuentras en tiendas de manualidades en el Centro de CDMX o en línea) y un letrero grande que diga "Bienvenidos al Safari" o "Zona de Exploradores". Si el presupuesto lo permite, coloca animales de peluche grandes flanqueando la entrada.
+          </p>
+
+          <h3>Zona del inflable</h3>
+          <p>
+            Rodea el <strong>inflable Mini Jungla</strong> con plantas artificiales altas, palmeras de cartón y animales de peluche distribuidos estratégicamente. Coloca un tapete de pasto artificial frente a la entrada del inflable para reforzar la sensación selvática. Los niños sentirán que entran a la jungla cada vez que suban al brincolín.
+          </p>
+
+          <h3>Mesa principal y área de comida</h3>
+          <ul class="art-list">
+            <li><strong>Manteles:</strong> Usa manteles en verde oscuro como base y corre un camino de mesa con estampado animal print (leopardo o cebra).</li>
+            <li><strong>Centro de mesa:</strong> Cajas de madera con musgo artificial, animales de juguete y hojas verdes. Agrega velas LED dentro de frascos de vidrio para un toque cálido.</li>
+            <li><strong>Vajilla:</strong> Platos de cartón con estampado de hojas tropicales y vasos verdes o dorados. Las servilletas con estampado de leopardo son un detalle que marca diferencia.</li>
+            <li><strong>Backdrop del pastel:</strong> Tela verde con hojas artificiales pegadas, letras doradas con el nombre del cumpleañero y guirnaldas de luces cálidas.</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">💰</span>
+            <p><strong>Tip de presupuesto:</strong> No necesitas comprar todo nuevo. Las hojas tropicales artificiales, los animales de peluche y las guirnaldas se reutilizan en futuras fiestas o se revenden fácilmente en marketplace. Invierte bien una vez y amortiza el costo.</p>
+          </div>
+
+          <h2>Actividades complementarias para una aventura safari</h2>
+          <p>
+            El inflable es la atracción principal, pero una fiesta safari memorable necesita actividades complementarias que mantengan a los niños entretenidos durante todo el evento. Estas son las que más éxito tienen en las fiestas de nuestros clientes:
+          </p>
+          <ul class="art-list">
+            <li><strong>Safari fotográfico:</strong> Entrega a cada niño unos "binoculares" de cartón y una cámara desechable o un celular viejo. Esconde animales de peluche por todo el espacio de la fiesta y pídeles que los encuentren y les tomen foto. El niño que capture más animales gana un premio.</li>
+            <li><strong>Estación de pintura de caras:</strong> Contrata (o hazlo tú mismo con pinturas hipoalergénicas) una estación donde los niños se pinten como su animal favorito: tigre, leopardo, cebra o mariposa.</li>
+            <li><strong>Excavación de fósiles:</strong> Llena una caja grande con arena y entierra huesos de plástico o figuras de dinosaurios. Los niños usan brochas para "descubrir" los fósiles. Es una actividad que combina perfectamente con la temática de exploración.</li>
+            <li><strong>Búsqueda del tesoro selvática:</strong> Crea un mapa del tesoro con pistas escondidas por diferentes estaciones de la fiesta (incluido el inflable). El tesoro final puede ser una bolsa de dulces para todos los participantes.</li>
+            <li><strong>Taller de máscaras de animales:</strong> Proporciona plantillas de máscaras de animales pre-cortadas, colores, plumas y pegamento. Los niños crean su propia máscara y se la llevan como recuerdo de la fiesta.</li>
+          </ul>
+
+          <h2>Menú y bebidas con temática safari</h2>
+          <p>
+            La comida es otro elemento que puede elevar tu fiesta safari de "bonita" a "increíble". No se trata de cocinar platillos complicados, sino de presentar comida familiar de manera temática:
+          </p>
+          <ul class="art-list">
+            <li><strong>"Bananas de la selva":</strong> Plátanos con chocolate y chispas de colores, insertados en palitos. Los niños los devoran.</li>
+            <li><strong>"Huellas de león":</strong> Galletas redondas con betún naranja y rayas de chocolate. Fáciles de hacer y visualmente impactantes.</li>
+            <li><strong>"Agua de la cascada":</strong> Limonada natural con colorante azul, servida en dispensador transparente con hojas artificiales alrededor.</li>
+            <li><strong>"Frutas del trópico":</strong> Brochetas de frutas tropicales (mango, piña, kiwi, fresa) clavadas en medio sandía cortada como base.</li>
+            <li><strong>Pastel safari:</strong> Un pastel con fondant verde, animales de azúcar en la parte superior y detalles de hojas comestibles. Si el presupuesto es limitado, un pastel sencillo con toppers de animales funciona igual de bien.</li>
+          </ul>
+          <p>
+            Para los adultos, ofrece <strong>agua de jamaica con toques de jengibre</strong> (le puedes poner la etiqueta "Brebaje de la Selva") y botanas como mezcla de cacahuates con chile y limón en vasitos etiquetados como "Comida de Explorador".
+          </p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">🍰</span>
+            <p><strong>Idea ganadora:</strong> Los cupcakes con toppers de animales son más prácticos que un pastel grande. Cada niño toma el suyo, no hay que partir rebanadas y puedes tener diferentes sabores. Compra toppers en Amazon o en papelerías del Centro de CDMX.</p>
+          </div>
+
+          <h2>Guía completa de planeación para tu fiesta safari</h2>
+          <p>
+            Organizar una fiesta temática safari puede parecer abrumador, pero con esta guía paso a paso tendrás todo bajo control. Aquí el cronograma que recomendamos a nuestros clientes:
+          </p>
+          <ul class="art-list">
+            <li><strong>3-4 semanas antes:</strong> Define el espacio, la cantidad de invitados y el presupuesto. Reserva el inflable Mini Jungla con BRINCOLINS por WhatsApp para asegurar disponibilidad.</li>
+            <li><strong>2-3 semanas antes:</strong> Compra la decoración principal (globos, hojas artificiales, animales de peluche, manteles). Envía las invitaciones con diseño safari.</li>
+            <li><strong>1 semana antes:</strong> Confirma asistentes, prepara las actividades (imprime mapas del tesoro, prepara máscaras, compra pinturas para caras). Confirma con BRINCOLINS la hora de instalación del inflable.</li>
+            <li><strong>1-2 días antes:</strong> Compra los ingredientes para el menú, prepara lo que se pueda adelantar (galletas, brochetas de fruta) y arma los centros de mesa.</li>
+            <li><strong>El día de la fiesta:</strong> El equipo de BRINCOLINS llega 1-2 horas antes para instalar el inflable. Tú te enfocas en la decoración final, la mesa de comida y recibir a los invitados.</li>
+          </ul>
+          <p>
+            Lo más importante es <strong>no querer hacer todo tú solo</strong>. Delega tareas a familiares, contrata lo que puedas permitirte (el inflable es la mejor inversión) y recuerda que los niños se divierten con menos de lo que crees. El inflable + una o dos actividades + comida rica = fiesta safari exitosa garantizada.
+          </p>
+
+        </article>
+
+        <!-- Sidebar -->
+        <aside class="art-sidebar">
+          <div class="art-sidebar__box">
+            <h3 class="art-sidebar__title">🎈 ¿Listo para reservar?</h3>
+            <p class="art-sidebar__text">El inflable perfecto para tu fiesta safari te espera. Cotiza en minutos por WhatsApp.</p>
+            <a
+              href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+              class="btn btn-wa"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="width:100%;justify-content:center;"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Pedir asesoría gratis
+            </a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--links">
+            <h3 class="art-sidebar__title">🗂️ Más artículos</h3>
+            <a href="/blog/renta-inflable-jungla-cdmx/" class="art-sidebar__link">→ Renta inflable de jungla en CDMX</a>
+            <a href="/blog/inflables-tematicos-infantiles-cdmx/" class="art-sidebar__link">→ Inflables temáticos para fiestas</a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--cat">
+            <h3 class="art-sidebar__title">🎪 Nuestros inflables</h3>
+            <a href="/inflables/mini-jungla/" class="art-sidebar__link">→ Mini Jungla</a>
+            <a href="/inflables/gusanitos/" class="art-sidebar__link">→ Gusanitos</a>
+            <a href="/inflables/barco-pirata/" class="art-sidebar__link">→ Barco Pirata</a>
+            <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Ver catálogo completo</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div style="max-width:800px; margin:0 auto;">
+        <h2 class="section-title" style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <CtaBanner
+    title="🦁 ¡Organiza la fiesta safari perfecta!"
+    subtitle="El inflable temático + tu creatividad = una aventura que los niños jamás olvidarán. Cotiza ahora."
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+    whatsapp={true}
+    external={true}
+  />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "author": { "@type": "Organization", "name": "BRINCOLINS" },
+    "publisher": { "@type": "Organization", "name": "BRINCOLINS", "url": "https://brincolins.com" },
+    "mainEntityOfPage": "https://brincolins.com/blog/fiesta-tematica-safari-inflable-cdmx/"
+  })} />
+
+</PageLayout>
+
+<style>
+  .art-hero__back{font-size:.85rem;color:var(--c-primary);font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:.3rem;transition:gap .2s;margin-bottom:.5rem}.art-hero__back:hover{gap:.6rem}.art-hero__meta{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-size:.85rem;color:var(--c-text-muted);margin-bottom:.5rem}.art-hero__sep{opacity:.4}.art-layout{display:grid;grid-template-columns:1fr 320px;gap:3rem;align-items:start}.art-body{min-width:0}.art-body h2{font-family:var(--font-head);font-weight:800;font-size:clamp(1.25rem,2.5vw,1.5rem);color:var(--c-text);margin:2.5rem 0 1rem;padding-top:.5rem;border-top:3px solid var(--c-primary)}.art-body h2:first-child{margin-top:0}.art-body p{font-size:1rem;line-height:1.75;color:var(--c-text);margin:0 0 1.25rem}.art-body strong{color:var(--c-primary);font-weight:700}.art-tip{display:flex;gap:1rem;align-items:flex-start;background:#fff8f5;border-left:4px solid var(--c-primary);border-radius:0 var(--r-card) var(--r-card) 0;padding:1.25rem 1.5rem;margin:1.5rem 0}.art-tip__icon{font-size:1.5rem;flex-shrink:0}.art-tip p{margin:0;font-size:.95rem}.art-list{padding-left:1.5rem;margin:0 0 1.25rem;display:flex;flex-direction:column;gap:.6rem}.art-list li{font-size:1rem;line-height:1.6;color:var(--c-text);list-style:disc}.art-list--ordered li{list-style:decimal}.art-sidebar{display:flex;flex-direction:column;gap:1.5rem;position:sticky;top:90px}.art-sidebar__box{background:var(--c-bg-alt);border:1px solid var(--c-border);border-radius:var(--r-card);padding:1.5rem;display:flex;flex-direction:column;gap:.75rem}.art-sidebar__box--links,.art-sidebar__box--cat{gap:.5rem}.art-sidebar__title{font-family:var(--font-head);font-weight:800;font-size:1rem;color:var(--c-text);margin:0}.art-sidebar__text{font-size:.9rem;color:var(--c-text-muted);line-height:1.6;margin:0}.art-sidebar__link{font-size:.88rem;color:var(--c-primary);font-weight:600;text-decoration:none;padding:.35rem 0;display:block;border-bottom:1px solid var(--c-border);transition:padding-left .2s}.art-sidebar__link:last-child{border-bottom:none}.art-sidebar__link:hover{padding-left:.4rem}.art-sidebar__link--cta{color:var(--c-secondary);font-weight:800}@media(max-width:960px){.art-layout{grid-template-columns:1fr}.art-sidebar{position:static}}
+</style>

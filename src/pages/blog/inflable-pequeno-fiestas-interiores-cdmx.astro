@@ -1,0 +1,223 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Inflables Pequeños para Fiestas en Interiores en CDMX | BRINCOLINS";
+const description = "Descubre los mejores inflables pequeños para fiestas en interiores en CDMX. Ideales para salones, departamentos y espacios reducidos.";
+
+const faqs = [
+  { question: "¿Se puede usar un inflable dentro de un departamento?", answer: "Sí, siempre y cuando cuentes con espacio suficiente (mínimo 3×3 metros libres) y una altura de techo de al menos 2.5 metros. Nuestros inflables pequeños están diseñados específicamente para funcionar en interiores sin problemas." },
+  { question: "¿El motor del inflable hace mucho ruido en interiores?", answer: "Los motores de nuestros inflables pequeños son de bajo ruido, comparables al sonido de un ventilador. No generan molestias significativas durante la fiesta y permiten que la música y la conversación fluyan con normalidad." },
+  { question: "¿Es necesario tener ventilación especial para usar un inflable en interiores?", answer: "No necesitas ventilación especial, pero sí recomendamos que el espacio tenga al menos una ventana abierta o ventilación natural. El motor genera un flujo de aire constante que puede elevar ligeramente la temperatura en espacios completamente cerrados." },
+  { question: "¿Qué pasa si no tengo contacto eléctrico cerca del área del inflable?", answer: "Nuestro equipo lleva extensiones industriales de uso rudo que pueden cubrir distancias de hasta 15 metros. Solo necesitas tener un contacto eléctrico estándar de 110V disponible en algún punto del espacio." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog", href: "/blog/" },
+    { name: "Inflables para Interiores" },
+  ]}
+>
+
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">🏠 Interiores</span>
+          <h1 class="hero__title">
+            Inflables Pequeños para <span class="highlight">Fiestas en Interiores</span> en CDMX
+          </h1>
+          <div class="art-hero__meta">
+            <span>⏱️ 8 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">La solución perfecta para fiestas en salones, departamentos y espacios cerrados.</p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">Organizar una fiesta infantil en la <strong>CDMX</strong> no siempre significa tener un jardín enorme. Muchas familias celebran en <strong>salones de fiestas, departamentos o espacios reducidos</strong>, y la buena noticia es que existen inflables diseñados específicamente para funcionar en interiores. Los <strong>inflables pequeños</strong> son compactos, seguros y tan divertidos como sus versiones de mayor tamaño.</p>
+          <p class="hero__copy-text">En <strong>BRINCOLINS</strong> contamos con una línea de <strong>inflables para fiestas en interiores en CDMX</strong> que se adaptan a cualquier espacio cerrado. Desde mini castillos hasta gusanitos, nuestros modelos compactos garantizan que los niños se diviertan al máximo sin importar el tamaño del lugar. Incluimos entrega, instalación profesional y asesoría para elegir el inflable ideal según tu espacio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGEN DE PORTADA -->
+  <section style="padding:0 0 1rem;">
+    <div class="container">
+      <img src="/img/inflables/mini-castillo-v4.avif" alt="Inflable pequeño para fiesta en interior en CDMX" width="1200" height="675" loading="eager"
+           style="width:100%;max-height:480px;object-fit:cover;border-radius:var(--r-card);display:block;box-shadow:var(--shadow-md);" />
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <section class="section">
+    <div class="container">
+      <div class="art-layout">
+        <article class="art-body">
+
+          <h2>Ventajas de rentar inflables pequeños para interiores</h2>
+          <p>Los <strong>inflables pequeños para interiores</strong> ofrecen una serie de ventajas que los hacen la opción ideal para fiestas en espacios cerrados. La primera y más obvia es que no dependes del clima. En la Ciudad de México, las lluvias pueden arruinar una fiesta al aire libre en cuestión de minutos, pero con un inflable en interiores, la diversión está garantizada sin importar el pronóstico.</p>
+          <p>Otra ventaja importante es la supervisión. En un espacio cerrado, los papás pueden ver a los niños en todo momento sin perderlos de vista. Esto reduce significativamente el estrés de los padres y permite que todos disfruten la fiesta con mayor tranquilidad.</p>
+          <p>Los inflables pequeños también son más silenciosos que los modelos grandes, lo que es una consideración importante en departamentos o salones donde el ruido excesivo puede ser un problema con los vecinos. Los motores de baja potencia generan un sonido similar al de un ventilador doméstico.</p>
+          <ul class="art-list">
+            <li><strong>Independencia del clima:</strong> lluvia, viento o sol intenso no afectan tu fiesta.</li>
+            <li><strong>Mayor control:</strong> los niños están en un espacio contenido y fácil de supervisar.</li>
+            <li><strong>Menos ruido:</strong> motores de baja potencia ideales para zonas residenciales.</li>
+            <li><strong>Instalación rápida:</strong> en menos de 15 minutos el inflable está listo.</li>
+            <li><strong>Sin preocupaciones:</strong> no necesitas jardín, pasto ni espacio exterior.</li>
+          </ul>
+
+          <h2>Requisitos de espacio para inflables en interiores</h2>
+          <p>Antes de rentar un inflable para interiores, es fundamental conocer los requisitos mínimos de espacio. No todos los inflables son aptos para cualquier espacio cerrado, y elegir el modelo correcto marcará la diferencia entre una fiesta exitosa y un problema logístico.</p>
+          <p>Como regla general, necesitas un área libre de al menos <strong>3×3 metros</strong> para los modelos más compactos y hasta 4×4 metros para inflables medianos. Además, la <strong>altura del techo</strong> es un factor crucial: necesitas al menos 2.5 metros de altura libre para que el inflable pueda inflarse completamente y los niños brinquen con comodidad.</p>
+          <p>También debes considerar un margen de seguridad de al menos 50 centímetros alrededor del inflable para que los niños puedan entrar y salir sin obstáculos. Este espacio adicional también facilita la supervisión por parte de los adultos.</p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">📏</span>
+            <p><strong>Tip:</strong> Antes de reservar, mide tu espacio con una cinta métrica y comparte las medidas con nuestro equipo por WhatsApp. Te recomendaremos el inflable que mejor se adapte a tus dimensiones disponibles.</p>
+          </div>
+
+          <h2>Consideraciones eléctricas para inflables en interiores</h2>
+          <p>Cada inflable necesita un motor eléctrico que funciona de manera continua para mantener la estructura inflada. Entender los requerimientos eléctricos te ayudará a preparar tu espacio adecuadamente.</p>
+          <p>Los inflables pequeños utilizan motores de baja potencia que funcionan con corriente doméstica estándar de <strong>110V</strong>. Esto significa que cualquier contacto eléctrico regular de tu casa, departamento o salón es suficiente. No necesitas instalaciones especiales ni generadores de energía.</p>
+          <p>Es importante que el contacto eléctrico esté en buen estado y que el circuito no esté sobrecargado con otros aparatos de alto consumo como refrigeradores industriales o equipos de sonido potentes conectados al mismo circuito.</p>
+
+          <h3>Recomendaciones eléctricas</h3>
+          <ul class="art-list">
+            <li>Usa un contacto eléctrico dedicado o con poca carga en el circuito.</li>
+            <li>Evita conectar el motor del inflable con multicontactos baratos o en cadena.</li>
+            <li>Si el contacto está lejos, nuestro equipo lleva extensiones industriales de uso rudo.</li>
+            <li>Nunca conectes el inflable a un regulador de voltaje, puede afectar el funcionamiento del motor.</li>
+          </ul>
+
+          <h2>Los mejores modelos de inflables para interiores</h2>
+          <p>En <strong>BRINCOLINS</strong> contamos con varios modelos diseñados para funcionar perfectamente en espacios cerrados. Cada uno tiene características únicas que lo hacen ideal para diferentes tipos de fiestas y edades.</p>
+          <p>El <strong>Mini Castillo</strong> es nuestro modelo estrella para interiores. Con su diseño compacto y colorido, es perfecto para fiestas de niños pequeños de 1 a 5 años. Sus paredes de malla permiten la visibilidad completa y su altura reducida se adapta a la mayoría de los techos.</p>
+          <p>Los <strong>Gusanitos</strong> son otra excelente opción para interiores. Su diseño alargado y bajo los hace ideales para espacios donde la altura del techo es limitada. Los niños pueden gatear, deslizarse y explorar los túneles en un ambiente seguro y controlado.</p>
+          <p>El <strong>Castillo de Princesas</strong> combina la diversión del brincolín con una temática encantadora que fascina a los niños. Es ligeramente más grande que el mini castillo pero sigue siendo apto para la mayoría de los salones de fiestas.</p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">🏆</span>
+            <p><strong>Recomendación:</strong> Si no estás seguro de qué modelo elegir, envíanos fotos de tu espacio por WhatsApp. Nuestro equipo te asesorará de forma gratuita para encontrar el inflable perfecto para tu fiesta en interiores.</p>
+          </div>
+
+          <h2>Consejos de ventilación para inflables en espacios cerrados</h2>
+          <p>La ventilación es un aspecto que muchos pasan por alto al planear un inflable en interiores, pero es fundamental para la comodidad de los niños y el correcto funcionamiento del equipo.</p>
+          <p>El motor del inflable genera un flujo constante de aire que puede elevar ligeramente la temperatura en espacios completamente cerrados. Por eso, recomendamos mantener al menos una ventana abierta o contar con ventilación cruzada durante el uso del inflable.</p>
+          <p>Si tu espacio cuenta con aire acondicionado o ventiladores de techo, estos pueden ayudar a mantener una temperatura agradable. Sin embargo, evita dirigir el flujo de aire frío directamente hacia el inflable, ya que puede afectar la experiencia de los niños, especialmente de los más pequeños.</p>
+          <ul class="art-list">
+            <li>Abre al menos una ventana para permitir la circulación de aire fresco.</li>
+            <li>Si tienes ventiladores, colócalos para crear una corriente suave sin dirigirla al inflable.</li>
+            <li>En temporada de calor, considera tener agua y bebidas frías cerca para los niños.</li>
+            <li>Haz pausas cada 30-40 minutos para que los niños se hidraten y descansen.</li>
+          </ul>
+
+          <h2>Cómo reservar tu inflable para interiores con BRINCOLINS</h2>
+          <p>Reservar un inflable pequeño para tu fiesta en interiores es muy fácil con <strong>BRINCOLINS</strong>. Nuestro proceso está diseñado para que tengas tu inflable confirmado en minutos, sin complicaciones ni trámites innecesarios.</p>
+          <p>Simplemente contáctanos por WhatsApp y cuéntanos sobre tu evento: el espacio disponible, la edad de los niños, el número aproximado de invitados y la zona de entrega. Con esa información, te recomendaremos el modelo ideal y te enviaremos una cotización al momento.</p>
+          <p>Nuestro servicio incluye entrega a domicilio en toda la <strong>CDMX y zona metropolitana</strong>, instalación profesional con revisión completa de seguridad, y recolección al finalizar el evento. Tú solo te preocupas por disfrutar la fiesta y nosotros nos encargamos de la diversión inflable.</p>
+
+        </article>
+        <aside class="art-sidebar">
+          <div class="art-sidebar__box">
+            <h3 class="art-sidebar__title">🎈 ¿Listo para reservar?</h3>
+            <p class="art-sidebar__text">Encuentra el inflable perfecto para tu fiesta en interiores. Asesoría gratuita por WhatsApp.</p>
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable." class="btn btn-wa" target="_blank" rel="noopener noreferrer" style="width:100%;justify-content:center;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Pedir asesoría gratis
+            </a>
+          </div>
+          <div class="art-sidebar__box art-sidebar__box--links">
+            <h3 class="art-sidebar__title">🗂️ Más artículos</h3>
+            <a href="/blog/como-elegir-inflable-fiesta-infantil/" class="art-sidebar__link">→ Cómo elegir el inflable perfecto</a>
+            <a href="/blog/renta-mini-castillo-inflable-bebes-cdmx/" class="art-sidebar__link">→ Mini castillo inflable para bebés</a>
+            <a href="/blog/brincolines-para-ninos-pequenos-cdmx/" class="art-sidebar__link">→ Brincolines para niños pequeños</a>
+          </div>
+          <div class="art-sidebar__box art-sidebar__box--cat">
+            <h3 class="art-sidebar__title">🎪 Nuestros inflables</h3>
+            <a href="/inflables/mini-castillo/" class="art-sidebar__link">→ Mini Castillo</a>
+            <a href="/inflables/gusanitos/" class="art-sidebar__link">→ Gusanitos</a>
+            <a href="/inflables/castillo-princesas/" class="art-sidebar__link">→ Castillo de Princesas</a>
+            <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Ver catálogo completo</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div style="max-width:800px; margin:0 auto;">
+        <h2 class="section-title" style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="Tu fiesta en interiores con inflable garantizado"
+    subtitle="Inflables compactos ideales para salones y departamentos en CDMX"
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+    whatsapp={true}
+    external={true}
+  />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "author": { "@type": "Organization", "name": "BRINCOLINS" },
+    "publisher": { "@type": "Organization", "name": "BRINCOLINS", "url": "https://brincolins.com" },
+    "mainEntityOfPage": "https://brincolins.com/blog/inflable-pequeno-fiestas-interiores-cdmx/"
+  })} />
+
+</PageLayout>
+
+<style>
+  .art-hero__back { font-size:0.85rem;color:var(--c-primary);font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:0.3rem;transition:gap 0.2s;margin-bottom:0.5rem; }
+  .art-hero__back:hover { gap:0.6rem; }
+  .art-hero__meta { display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap;font-size:0.85rem;color:var(--c-text-muted);margin-bottom:0.5rem; }
+  .art-hero__sep { opacity:0.4; }
+  .art-layout { display:grid;grid-template-columns:1fr 320px;gap:3rem;align-items:start; }
+  .art-body { min-width:0; }
+  .art-body h2 { font-family:var(--font-head);font-weight:800;font-size:clamp(1.25rem,2.5vw,1.5rem);color:var(--c-text);margin:2.5rem 0 1rem;padding-top:0.5rem;border-top:3px solid var(--c-primary); }
+  .art-body h2:first-child { margin-top:0; }
+  .art-body p { font-size:1rem;line-height:1.75;color:var(--c-text);margin:0 0 1.25rem; }
+  .art-body strong { color:var(--c-primary);font-weight:700; }
+  .art-tip { display:flex;gap:1rem;align-items:flex-start;background:#fff8f5;border-left:4px solid var(--c-primary);border-radius:0 var(--r-card) var(--r-card) 0;padding:1.25rem 1.5rem;margin:1.5rem 0; }
+  .art-tip__icon { font-size:1.5rem;flex-shrink:0; }
+  .art-tip p { margin:0;font-size:0.95rem; }
+  .art-list { padding-left:1.5rem;margin:0 0 1.25rem;display:flex;flex-direction:column;gap:0.6rem; }
+  .art-list li { font-size:1rem;line-height:1.6;color:var(--c-text);list-style:disc; }
+  .art-list--ordered li { list-style:decimal; }
+  .art-sidebar { display:flex;flex-direction:column;gap:1.5rem;position:sticky;top:90px; }
+  .art-sidebar__box { background:var(--c-bg-alt);border:1px solid var(--c-border);border-radius:var(--r-card);padding:1.5rem;display:flex;flex-direction:column;gap:0.75rem; }
+  .art-sidebar__box--links, .art-sidebar__box--cat { gap:0.5rem; }
+  .art-sidebar__title { font-family:var(--font-head);font-weight:800;font-size:1rem;color:var(--c-text);margin:0; }
+  .art-sidebar__text { font-size:0.9rem;color:var(--c-text-muted);line-height:1.6;margin:0; }
+  .art-sidebar__link { font-size:0.88rem;color:var(--c-primary);font-weight:600;text-decoration:none;padding:0.35rem 0;display:block;border-bottom:1px solid var(--c-border);transition:padding-left 0.2s; }
+  .art-sidebar__link:last-child { border-bottom:none; }
+  .art-sidebar__link:hover { padding-left:0.4rem; }
+  .art-sidebar__link--cta { color:var(--c-secondary);font-weight:800; }
+  @media (max-width:960px) { .art-layout { grid-template-columns:1fr; } .art-sidebar { position:static; } }
+</style>

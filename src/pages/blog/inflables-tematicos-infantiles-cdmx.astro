@@ -1,0 +1,281 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Inflables Temáticos para Fiestas Infantiles en CDMX | BRINCOLINS";
+const description = "Descubre todos los inflables temáticos disponibles para fiestas infantiles en Ciudad de México: jungla, princesas, piratas, dragones y más. Guía completa para elegir el tema perfecto.";
+
+const faqs = [
+  { question: "¿Cuántos inflables temáticos tiene BRINCOLINS disponibles?", answer: "Contamos con más de 8 modelos temáticos diferentes: Mini Jungla (safari), Castillo Princesas, Barco Pirata, Dragones Rojos (medieval/fantasía), Mini Castillo, Gusanitos, Extremo y Castillo Blanco. Cada uno está diseñado para complementar una temática específica de fiesta." },
+  { question: "¿Puedo ver los inflables antes de rentarlos?", answer: "¡Claro! Puedes ver fotos reales de todos nuestros inflables en nuestra página web, en la sección de catálogo. También puedes pedirnos fotos adicionales o videos por WhatsApp. Si lo prefieres, podemos coordinar una visita a nuestro almacén con cita previa." },
+  { question: "¿Qué inflable temático recomiendan para una fiesta mixta (niños y niñas)?", answer: "Para fiestas mixtas, los inflables más versátiles son el Mini Jungla (temática safari que encanta a todos) y el Mini Castillo (neutro y colorido). Ambos funcionan perfecto sin importar el género de los invitados y tienen diseños que gustan universalmente." },
+  { question: "¿Los inflables temáticos cuestan más que los genéricos?", answer: "No, en BRINCOLINS todos nuestros inflables tienen precios competitivos sin importar la temática. El precio depende del tamaño del inflable y la duración de la renta, no del diseño. Todos incluyen transporte, instalación y seguro de responsabilidad civil." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog", href: "/blog/" },
+    { name: "Inflables Temáticos CDMX" },
+  ]}
+>
+
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">🎭 Temáticos</span>
+          <h1 class="hero__title">
+            Inflables <span class="highlight">Temáticos</span> para Fiestas Infantiles en CDMX
+          </h1>
+          <div class="art-hero__meta">
+            <span>⏱️ 9 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">
+            Guía completa de inflables temáticos: jungla, princesas, piratas, dragones y más. Descubre cuál es el modelo perfecto para la temática de tu fiesta.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable." class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Elegir un <strong>inflable temático</strong> en lugar de uno genérico transforma por completo la experiencia de una fiesta infantil. En <strong>BRINCOLINS</strong> contamos con modelos diseñados para las temáticas más populares en la <strong>Ciudad de México</strong>: desde safaris salvajes y castillos de princesas hasta barcos piratas y fortalezas de dragones. Cada inflable funciona como entretenimiento y decoración al mismo tiempo.
+          </p>
+          <p class="hero__copy-text">
+            En esta guía te presentamos todas las opciones temáticas disponibles, te ayudamos a elegir la que mejor combina con tu fiesta y te explicamos cómo sacar el máximo provecho de cada modelo. Atendemos toda la <strong>CDMX</strong> y municipios del <strong>Estado de México</strong> como Naucalpan, Tlalnepantla, Huixquilucan y Atizapán. Escríbenos por <strong>WhatsApp</strong> y te asesoramos sin compromiso.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGEN DE PORTADA -->
+  <section style="padding:0 0 1rem;">
+    <div class="container">
+      <img src="/img/inflables/mini-jungla-v3.avif" alt="Inflables temáticos para fiestas infantiles en CDMX - BRINCOLINS" width="1200" height="675" loading="eager"
+           style="width:100%;max-height:480px;object-fit:cover;border-radius:var(--r-card);display:block;box-shadow:var(--shadow-md);" />
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <section class="section">
+    <div class="container">
+      <div class="art-layout">
+        <article class="art-body">
+
+          <h2>Por qué los inflables temáticos marcan la diferencia en una fiesta</h2>
+          <p>
+            Hay una diferencia enorme entre una fiesta con un <strong>brincolín genérico</strong> y una fiesta con un <strong>inflable temático</strong> que complementa toda la decoración. Los inflables temáticos no solo entretienen a los niños — se convierten en la pieza central visual del evento, establecen la narrativa de la fiesta y multiplican las oportunidades de juego imaginativo.
+          </p>
+          <p>
+            Cuando un niño entra a un inflable con forma de barco pirata, no solo brinca: se imagina navegando mares peligrosos, buscando tesoros y luchando contra enemigos imaginarios. Cuando brinca en un castillo de princesas, se transporta a un reino de fantasía. Esa capacidad de <strong>detonar la imaginación</strong> es lo que convierte a un inflable temático en una inversión mucho más valiosa que un brincolín sin identidad.
+          </p>
+          <p>
+            Además, los inflables temáticos facilitan enormemente la planificación de la fiesta. Una vez que eliges el inflable, tienes automáticamente el tema de la decoración, los colores de los globos, el estilo del pastel y las actividades complementarias. Todo gira alrededor del inflable como eje central, y el resultado es una fiesta visualmente coherente que impresiona tanto a niños como a adultos.
+          </p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">💡</span>
+            <p><strong>Dato importante:</strong> Según nuestra experiencia de más de 20 años, las fiestas con inflables temáticos reciben un 60% más de comentarios positivos de los papás invitados comparadas con fiestas con inflables genéricos. La razón es simple: se ven más profesionales y los niños se divierten más.</p>
+          </div>
+
+          <h2>Temática Jungla y Safari: aventura tropical</h2>
+          <p>
+            La temática <strong>jungla y safari</strong> es una de las más versátiles y populares en fiestas infantiles de la Ciudad de México. Funciona igual de bien para niños y niñas, para edades de 2 a 10 años, y la decoración es accesible y visualmente espectacular.
+          </p>
+          <p>
+            Nuestro <strong>inflable Mini Jungla</strong> es la estrella de esta temática. Su diseño incorpora animales de la selva en colores tropicales vibrantes — verdes selváticos, amarillos dorados y toques naranjas — que transforman cualquier espacio en una expedición emocionante. Los niños sienten que están brincando en medio de la naturaleza salvaje.
+          </p>
+          <ul class="art-list">
+            <li><strong>Ideal para:</strong> Fiestas mixtas, cumpleaños de 2 a 10 años, fiestas de fin de cursos, eventos en jardines</li>
+            <li><strong>Combina con:</strong> Hojas tropicales, animales de peluche, globos verdes y dorados, mesa de dulces con frutas tropicales</li>
+            <li><strong>Actividades complementarias:</strong> Safari fotográfico, búsqueda del tesoro selvática, pintura de caras de animales</li>
+          </ul>
+          <p>
+            La paleta de colores del safari (verde, dorado, marrón, animal print) es una de las más fotogénicas. Las fotos de la fiesta quedan profesionales incluso con un celular, lo que los papás valoran muchísimo para compartir en redes sociales.
+          </p>
+
+          <h3>El inflable Mini Jungla en detalle</h3>
+          <p>
+            Fabricado en lona comercial de alta resistencia con costuras reforzadas, el Mini Jungla es compacto (cabe en jardines medianos y salones de fiestas) pero lo suficientemente grande para que 4-6 niños brinquen simultáneamente. Incluye paredes de malla protectora para que los papás vean a los niños en todo momento y rampa de acceso acolchada para los más pequeños.
+          </p>
+
+          <h2>Temática Princesas: magia y elegancia</h2>
+          <p>
+            El <strong>Castillo Princesas</strong> es uno de nuestros inflables más solicitados, especialmente para cumpleaños de niñas de 3 a 8 años. Su diseño en tonos rosa, morado y dorado evoca los castillos de los cuentos de hadas, y las niñas literalmente gritan de emoción cuando lo ven instalado en su fiesta.
+          </p>
+          <p>
+            Pero la temática de princesas ha evolucionado mucho en los últimos años. Ya no se trata solo de vestidos y coronas — las princesas modernas son valientes, aventureras e independientes. Eso hace que el Castillo Princesas funcione perfectamente con temáticas como <strong>Frozen, Encanto, Brave, Rapunzel</strong> y todas las princesas de Disney que priorizan la valentía sobre la pasividad.
+          </p>
+          <ul class="art-list">
+            <li><strong>Ideal para:</strong> Cumpleaños de niñas de 3 a 8 años, fiestas de princesas Disney, baby showers temáticos, fiestas de hadas</li>
+            <li><strong>Combina con:</strong> Globos rosas y morados, guirnaldas de flores, coronas y varitas mágicas, tul y telas brillantes</li>
+            <li><strong>Actividades complementarias:</strong> Estación de coronas y joyería, desfile de princesas, taller de varitas mágicas</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">👑</span>
+            <p><strong>Tip de temática:</strong> Si la fiesta incluye niños y niñas, combina la temática de princesas con caballeros. El Castillo Princesas se convierte en el castillo del reino, y los niños pueden ser los caballeros que lo defienden. Todos participan y se divierten por igual.</p>
+          </div>
+
+          <h2>Temática Piratas: aventura en altamar</h2>
+          <p>
+            El <strong>Barco Pirata</strong> es un inflable que genera una emoción instantánea. Su diseño con forma de navío pirata, complementado con detalles de velas, timón y banderas, transporta a los niños a una aventura en altamar donde son capitanes de su propia tripulación.
+          </p>
+          <p>
+            La temática pirata es especialmente popular entre niños de <strong>5 a 12 años</strong>, una edad donde la imaginación está en su punto máximo y los juegos de rol son enormemente atractivos. Combinado con accesorios temáticos como parches, sombreros, espadas de foam y mapas del tesoro, el Barco Pirata crea una experiencia de juego completa que mantiene a los niños entretenidos durante horas.
+          </p>
+          <ul class="art-list">
+            <li><strong>Ideal para:</strong> Cumpleaños de niños de 5 a 12 años, fiestas de aventura, eventos al aire libre, fiestas en jardines grandes</li>
+            <li><strong>Combina con:</strong> Banderas piratas, cofres del tesoro, mapas antiguos, globos negros y rojos, red de pesca decorativa</li>
+            <li><strong>Actividades complementarias:</strong> Búsqueda del tesoro con pistas, taller de sombreros piratas, concurso del mejor grito pirata</li>
+          </ul>
+          <p>
+            Un detalle que encanta a los papás: la temática pirata es de las más económicas de decorar. Con una bandera pirata, un cofre de cartón con monedas de chocolate y unos cuantos globos negros, ya tienes el 80% de la ambientación resuelta. El Barco Pirata hace el resto del trabajo visual.
+          </p>
+
+          <h2>Temática Dragones y Castillos: fantasía épica</h2>
+          <p>
+            Para los niños que sueñan con mundos de fantasía, caballeros medievales y criaturas míticas, el <strong>inflable Dragones Rojos</strong> es la elección perfecta. Su diseño impactante — un castillo en tonos rojos intensos con figuras de dragones en relieve — genera un efecto "wow" inmediato que ningún otro inflable iguala.
+          </p>
+          <p>
+            Esta temática ha crecido exponencialmente gracias a la popularidad de películas como <strong>How to Train Your Dragon</strong>, series de fantasía adaptadas para niños y la cultura de juegos de mesa como Calabozos y Dragones en su versión infantil. Los niños que eligen esta temática suelen ser creativos, imaginativos y amantes de las historias épicas.
+          </p>
+          <ul class="art-list">
+            <li><strong>Ideal para:</strong> Cumpleaños de niños de 4 a 12 años, fiestas medievales, temáticas de fantasía, eventos de How to Train Your Dragon</li>
+            <li><strong>Combina con:</strong> Espadas y escudos de foam, capas y coronas, banderines medievales, globos rojos y negros</li>
+            <li><strong>Actividades complementarias:</strong> Torneo de caballeros con espadas de foam, búsqueda del huevo de dragón, taller de escudos decorados</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">🐉</span>
+            <p><strong>Combinación ganadora:</strong> El Dragones Rojos + un pastel con fondant de dragón + espadas de foam como recuerdo para cada invitado = la fiesta más épica del año escolar. Los niños hablarán de ella durante meses.</p>
+          </div>
+
+          <h2>Cómo elegir el tema perfecto para tu fiesta</h2>
+          <p>
+            Con tantas opciones disponibles, elegir la temática correcta puede ser abrumador. Aquí te compartimos un método sencillo que nuestros clientes usan para tomar la mejor decisión:
+          </p>
+
+          <h3>Paso 1: Pregunta al cumpleañero</h3>
+          <p>
+            Parece obvio, pero muchos papás eligen el tema sin consultar al festejado. Si tu hijo tiene 3 años o más, pregúntale qué le gustaría. Puedes mostrarle fotos de nuestros inflables y ver cuál le genera más emoción. La reacción espontánea del niño es el mejor indicador.
+          </p>
+
+          <h3>Paso 2: Considera la audiencia</h3>
+          <p>
+            Si la fiesta es solo para niños del mismo género y edad similar, puedes elegir una temática más específica (princesas, piratas). Si la fiesta es mixta con rangos de edad amplios, opta por temáticas universales como <strong>safari/jungla</strong> que funcionan para todos.
+          </p>
+
+          <h3>Paso 3: Evalúa tu espacio</h3>
+          <p>
+            No todos los inflables caben en todos los espacios. El Mini Jungla y el Mini Castillo son compactos y versátiles; el Barco Pirata y los Dragones Rojos requieren más espacio. Si tienes dudas, mándanos una foto de tu espacio por WhatsApp y te recomendamos el modelo ideal.
+          </p>
+
+          <h3>Paso 4: Define tu presupuesto total</h3>
+          <p>
+            Recuerda que el inflable no es el único gasto. Calcula cuánto invertirás en decoración, comida, pastel y actividades, y elige una temática que se ajuste al presupuesto total. La buena noticia es que en BRINCOLINS <strong>todos los inflables temáticos tienen precios accesibles</strong> e incluyen transporte, instalación y seguro.
+          </p>
+
+          <ul class="art-list">
+            <li><strong>Presupuesto ajustado:</strong> Elige Mini Jungla o Mini Castillo + decoración básica con globos y manteles temáticos. Resultado profesional con inversión mínima.</li>
+            <li><strong>Presupuesto medio:</strong> Cualquier inflable + decoración completa + 2-3 actividades temáticas + mesa de dulces. La combinación más popular entre nuestros clientes.</li>
+            <li><strong>Presupuesto amplio:</strong> Inflable premium + decoración profesional + entretenimiento adicional (payaso, mago, animador) + menú completo. La fiesta que todo niño sueña.</li>
+          </ul>
+
+          <p>
+            Sin importar tu presupuesto, lo más importante es la <strong>coherencia temática</strong>. Una fiesta con pocos elementos pero todos alineados al mismo tema siempre se verá mejor que una fiesta con muchos elementos sin conexión entre sí. El inflable temático es tu mejor aliado para lograr esa coherencia, porque establece el tono visual desde el momento en que los invitados llegan.
+          </p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">📱</span>
+            <p><strong>Asesoría gratuita:</strong> Si no estás seguro de qué inflable elegir, escríbenos por WhatsApp con la edad del festejado, la temática que te gustaría y una foto de tu espacio. Nuestro equipo te recomienda la mejor opción sin compromiso.</p>
+          </div>
+
+        </article>
+
+        <!-- Sidebar -->
+        <aside class="art-sidebar">
+          <div class="art-sidebar__box">
+            <h3 class="art-sidebar__title">🎈 ¿Listo para reservar?</h3>
+            <p class="art-sidebar__text">Elige tu inflable temático favorito y cotiza en minutos. Transporte, instalación y seguro incluidos.</p>
+            <a
+              href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+              class="btn btn-wa"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="width:100%;justify-content:center;"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Pedir asesoría gratis
+            </a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--links">
+            <h3 class="art-sidebar__title">🗂️ Más artículos</h3>
+            <a href="/blog/renta-inflable-jungla-cdmx/" class="art-sidebar__link">→ Renta inflable de jungla en CDMX</a>
+            <a href="/blog/fiesta-tematica-safari-inflable-cdmx/" class="art-sidebar__link">→ Fiesta temática safari con inflable</a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--cat">
+            <h3 class="art-sidebar__title">🎪 Nuestros inflables</h3>
+            <a href="/inflables/mini-jungla/" class="art-sidebar__link">→ Mini Jungla</a>
+            <a href="/inflables/castillo-princesas/" class="art-sidebar__link">→ Castillo Princesas</a>
+            <a href="/inflables/barco-pirata/" class="art-sidebar__link">→ Barco Pirata</a>
+            <a href="/inflables/dragones-rojos/" class="art-sidebar__link">→ Dragones Rojos</a>
+            <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Ver catálogo completo</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div style="max-width:800px; margin:0 auto;">
+        <h2 class="section-title" style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <CtaBanner
+    title="🎭 ¡Elige tu inflable temático favorito!"
+    subtitle="Jungla, princesas, piratas o dragones — tenemos el inflable perfecto para la fiesta de tus sueños. Cotiza ahora."
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+    whatsapp={true}
+    external={true}
+  />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "author": { "@type": "Organization", "name": "BRINCOLINS" },
+    "publisher": { "@type": "Organization", "name": "BRINCOLINS", "url": "https://brincolins.com" },
+    "mainEntityOfPage": "https://brincolins.com/blog/inflables-tematicos-infantiles-cdmx/"
+  })} />
+
+</PageLayout>
+
+<style>
+  .art-hero__back{font-size:.85rem;color:var(--c-primary);font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:.3rem;transition:gap .2s;margin-bottom:.5rem}.art-hero__back:hover{gap:.6rem}.art-hero__meta{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-size:.85rem;color:var(--c-text-muted);margin-bottom:.5rem}.art-hero__sep{opacity:.4}.art-layout{display:grid;grid-template-columns:1fr 320px;gap:3rem;align-items:start}.art-body{min-width:0}.art-body h2{font-family:var(--font-head);font-weight:800;font-size:clamp(1.25rem,2.5vw,1.5rem);color:var(--c-text);margin:2.5rem 0 1rem;padding-top:.5rem;border-top:3px solid var(--c-primary)}.art-body h2:first-child{margin-top:0}.art-body p{font-size:1rem;line-height:1.75;color:var(--c-text);margin:0 0 1.25rem}.art-body strong{color:var(--c-primary);font-weight:700}.art-tip{display:flex;gap:1rem;align-items:flex-start;background:#fff8f5;border-left:4px solid var(--c-primary);border-radius:0 var(--r-card) var(--r-card) 0;padding:1.25rem 1.5rem;margin:1.5rem 0}.art-tip__icon{font-size:1.5rem;flex-shrink:0}.art-tip p{margin:0;font-size:.95rem}.art-list{padding-left:1.5rem;margin:0 0 1.25rem;display:flex;flex-direction:column;gap:.6rem}.art-list li{font-size:1rem;line-height:1.6;color:var(--c-text);list-style:disc}.art-list--ordered li{list-style:decimal}.art-sidebar{display:flex;flex-direction:column;gap:1.5rem;position:sticky;top:90px}.art-sidebar__box{background:var(--c-bg-alt);border:1px solid var(--c-border);border-radius:var(--r-card);padding:1.5rem;display:flex;flex-direction:column;gap:.75rem}.art-sidebar__box--links,.art-sidebar__box--cat{gap:.5rem}.art-sidebar__title{font-family:var(--font-head);font-weight:800;font-size:1rem;color:var(--c-text);margin:0}.art-sidebar__text{font-size:.9rem;color:var(--c-text-muted);line-height:1.6;margin:0}.art-sidebar__link{font-size:.88rem;color:var(--c-primary);font-weight:600;text-decoration:none;padding:.35rem 0;display:block;border-bottom:1px solid var(--c-border);transition:padding-left .2s}.art-sidebar__link:last-child{border-bottom:none}.art-sidebar__link:hover{padding-left:.4rem}.art-sidebar__link--cta{color:var(--c-secondary);font-weight:800}@media(max-width:960px){.art-layout{grid-template-columns:1fr}.art-sidebar{position:static}}
+</style>

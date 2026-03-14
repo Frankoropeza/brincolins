@@ -1,0 +1,207 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Inflables para Jardín y Exterior en CDMX | BRINCOLINS";
+const description = "Todo sobre inflables para jardín y espacios exteriores en CDMX. Consejos de instalación, terreno, clima y los mejores modelos para tu evento al aire libre.";
+
+const faqs = [
+  { question: "¿Se puede instalar un inflable sobre pasto natural?", answer: "Sí, el pasto natural es una de las mejores superficies para inflables. Usamos estacas de anclaje que se clavan en la tierra para mayor estabilidad. El pasto además amortigua la zona de entrada y salida del inflable. Solo asegúrate de que el pasto esté seco y el terreno sea plano, sin hoyos ni desniveles mayores a 10 cm." },
+  { question: "¿Qué pasa si llueve durante mi evento con inflable?", answer: "Si empieza a llover, el inflable debe desinflarse y cubrirse como medida de seguridad. La superficie mojada se vuelve resbaladiza y puede haber riesgo eléctrico con el soplador. Recomendamos siempre tener un plan B (carpa, toldo o mover a interior) especialmente en temporada de lluvias de CDMX (junio a octubre)." },
+  { question: "¿Cuánto cable eléctrico necesito para exteriores?", answer: "El soplador del inflable necesita una toma de corriente de 110V a menos de 15 metros. Si tu toma está más lejos, necesitarás una extensión de uso rudo calibre 12 o 14. Nosotros llevamos extensiones profesionales, pero es importante que la toma eléctrica esté en buenas condiciones y no comparta circuito con equipos de alto consumo." },
+  { question: "¿Puedo instalar un inflable en una azotea o terraza?", answer: "Sí, siempre que la superficie sea plana, firme y tenga barandal o protección perimetral. En azoteas usamos contrapesos de arena en lugar de estacas. Verifica que el acceso permita subir el inflable (escaleras amplias o elevador) y que haya toma eléctrica disponible. Nuestro equipo evalúa la viabilidad antes de confirmar la instalación." },
+];
+---
+
+<PageLayout title={title} description={description} pageType="page"
+  breadcrumbs={[{ name: "Inicio", href: "/" }, { name: "Blog", href: "/blog/" }, { name: "Inflables para jardín y exterior" }]}>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container"><div class="hero__grid">
+      <div>
+        <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+        <span class="hero__badge">🌳 Exterior</span>
+        <h1 class="hero__title">Inflables para <span class="highlight">Jardín y Exterior</span> en CDMX</h1>
+        <div class="art-hero__meta"><span>⏱️ 7 min lectura</span><span class="art-hero__sep">·</span><span>✍️ Equipo BRINCOLINS</span></div>
+        <p class="hero__desc">Guía completa para instalar inflables en jardines, patios y espacios al aire libre en la Ciudad de México. Terreno, clima, electricidad y los mejores modelos para exteriores.</p>
+        <div class="hero__ctas">
+          <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable." class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
+          <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+        </div>
+      </div>
+      <div class="hero__copy">
+        <p class="hero__copy-text">
+          Las fiestas al aire libre tienen una magia especial, y un <strong>inflable en el jardín</strong> las lleva al siguiente nivel. Sin embargo, instalar un brincolín en exteriores requiere considerar factores que no existen en un salón de fiestas: el tipo de terreno, las condiciones del clima en la <strong>Ciudad de México</strong>, la conexión eléctrica al aire libre y la protección contra el sol. En <strong>BRINCOLINS</strong> hemos instalado cientos de inflables en jardines, patios, azoteas y terrenos abiertos en toda la ZMVM.
+        </p>
+        <p class="hero__copy-text">
+          Esta guía reúne toda nuestra experiencia para que tu <strong>evento al aire libre</strong> sea un éxito total. Desde cómo preparar el terreno hasta qué hacer si amenaza lluvia, pasando por los modelos que mejor funcionan en exteriores y cómo planear la logística eléctrica. Al terminar de leer, tendrás todo el conocimiento necesario para organizar una fiesta con inflable en tu jardín — o simplemente escríbenos por <strong>WhatsApp</strong> y nos encargamos de todo.
+        </p>
+      </div>
+    </div></div>
+  </section>
+
+  <section style="padding:0 0 1rem;"><div class="container">
+    <img src="/img/inflables/gusanitos-v3.avif" alt="Inflable instalado en jardín exterior en CDMX — renta BRINCOLINS" width="1200" height="675" loading="eager" style="width:100%;max-height:480px;object-fit:cover;border-radius:var(--r-card);display:block;box-shadow:var(--shadow-md);" />
+  </div></section>
+
+  <section class="section"><div class="container"><div class="art-layout">
+    <article class="art-body">
+
+      <h2>1. Ventajas de los inflables en espacios exteriores</h2>
+      <p>
+        Instalar un inflable al aire libre ofrece ventajas que simplemente no existen en espacios cerrados. La primera y más obvia es el <strong>espacio ilimitado</strong>. En un jardín no tienes las restricciones de altura y metros cuadrados que impone un salón de fiestas. Esto permite usar modelos más grandes, como toboganes o pistas de obstáculos, que serían imposibles de instalar en interiores.
+      </p>
+      <p>
+        La segunda gran ventaja es la <strong>ventilación natural</strong>. Los inflables en exteriores se mantienen frescos gracias al flujo de aire constante, lo que significa que los niños pueden brincar por más tiempo sin sobrecalentarse. En un salón cerrado, el calor se acumula dentro del inflable y los niños se cansan más rápido.
+      </p>
+      <ul class="art-list">
+        <li><strong>Más espacio de juego:</strong> Los niños pueden correr alrededor del inflable, formar filas cómodamente y tener zona de descanso sin sentirse apretados.</li>
+        <li><strong>Mejor iluminación:</strong> La luz natural hace que los colores del inflable se vean más vibrantes y las fotos queden espectaculares sin necesidad de flash.</li>
+        <li><strong>Ambiente relajado:</strong> Los papás disfrutan más la fiesta al aire libre, con espacio para sentarse, platicar y vigilar a los niños sin aglomeraciones.</li>
+        <li><strong>Conexión con la naturaleza:</strong> Los niños combinan el brinco en el inflable con correr en el pasto, explorar el jardín y disfrutar del aire fresco.</li>
+      </ul>
+      <div class="art-tip">
+        <span class="art-tip__icon">🌿</span>
+        <p><strong>Ventaja extra:</strong> Las fiestas en jardín con inflable generan menos estrés logístico que las de salón. No hay horarios estrictos de salida, no pagas renta de local y puedes extender la fiesta si todos la están pasando increíble.</p>
+      </div>
+
+      <h2>2. Preparación del terreno para instalar tu inflable</h2>
+      <p>
+        La preparación correcta del terreno es el factor más importante para una instalación segura y exitosa de tu inflable en exteriores. Un terreno mal preparado puede causar que el inflable se incline, que los niños resbalen o incluso que el equipo se dañe. En <strong>BRINCOLINS</strong> siempre verificamos las condiciones del terreno antes de instalar, pero tú puedes adelantar el trabajo con estos consejos:
+      </p>
+
+      <h3>Superficie plana y nivelada</h3>
+      <p>
+        El terreno donde se instalará el inflable debe ser lo más plano posible. Un desnivel mayor a 10 centímetros en el área de instalación puede hacer que el inflable se incline y los niños se acumulen en un lado. Si tu jardín tiene pendiente, busca la zona más plana o considera nivelar con tierra o arena antes del evento.
+      </p>
+
+      <h3>Limpieza del área</h3>
+      <p>
+        Antes de la instalación, retira del área cualquier piedra, rama, juguete, herramienta de jardín o escombro. Incluso objetos pequeños debajo del inflable pueden sentirse a través de la lona y causar incomodidad o daño al material. Revisa también que no haya hormigueros, vidrios rotos o clavos en la zona.
+      </p>
+
+      <h3>Tipos de superficie compatibles</h3>
+      <ul class="art-list">
+        <li><strong>Pasto natural:</strong> La mejor superficie. Suave, amortiguante y permite usar estacas de anclaje. Solo verifica que esté seco y podado.</li>
+        <li><strong>Concreto o firme:</strong> Funciona bien. Usamos contrapesos de arena en lugar de estacas. Coloca una lona debajo del inflable para proteger la base.</li>
+        <li><strong>Adoquín:</strong> Compatible siempre que sea una superficie plana sin piezas sueltas. Se usan contrapesos para el anclaje.</li>
+        <li><strong>Tierra compacta:</strong> Aceptable si está seca y nivelada. Se recomienda colocar una lona o tapete debajo para evitar polvo y humedad.</li>
+        <li><strong>Arena:</strong> No recomendada. La arena se mete en el inflable, afecta el soplador y la superficie es inestable para el anclaje.</li>
+      </ul>
+
+      <h2>3. Consideraciones climáticas en la Ciudad de México</h2>
+      <p>
+        El clima de la <strong>CDMX</strong> tiene patrones muy definidos que debes considerar al planear una fiesta con inflable al aire libre. Conocer estas condiciones te ayuda a elegir la mejor fecha, horario y preparar planes de contingencia.
+      </p>
+
+      <h3>Temporada de lluvias (junio a octubre)</h3>
+      <p>
+        Durante estos meses, las lluvias vespertinas son prácticamente diarias en la Ciudad de México. Generalmente empiezan entre las 3:00 y 5:00 PM y duran de 30 minutos a 2 horas. Si tu evento es en temporada de lluvias, programa la actividad del inflable por la mañana (10:00 AM a 2:00 PM) y ten un plan B por si la lluvia se adelanta.
+      </p>
+      <p>
+        <strong>Si empieza a llover:</strong> el inflable debe desinflarse inmediatamente. La superficie mojada se vuelve resbaladiza y existe riesgo eléctrico con el soplador y las conexiones. Nuestro equipo te asesora sobre protocolos de seguridad al momento de la instalación.
+      </p>
+
+      <h3>Temporada seca (noviembre a mayo)</h3>
+      <p>
+        Es la mejor época para fiestas con inflable en exteriores. Los días son soleados, secos y con temperaturas agradables (18-26°C). El único factor a considerar es el sol directo. Coloca el inflable en una zona con algo de sombra parcial si es posible, o instala un toldo para proteger a los niños del sol intenso del mediodía.
+      </p>
+      <div class="art-tip">
+        <span class="art-tip__icon">☀️</span>
+        <p><strong>Consejo de temporada:</strong> Si tu fiesta es entre noviembre y febrero, considera que las tardes pueden ser frescas. Programa el inflable para las horas más cálidas del día (11:00 AM a 3:00 PM) y ten suéteres a la mano para los niños.</p>
+      </div>
+
+      <h2>4. Los mejores modelos para jardines y exteriores</h2>
+      <p>
+        No todos los inflables funcionan igual en exteriores. Algunos modelos están especialmente diseñados para brillar al aire libre gracias a sus colores, dimensiones y características. Estos son nuestros favoritos para eventos en jardín:
+      </p>
+
+      <h3>Gusanitos Tropical</h3>
+      <p>
+        El <strong>Gusanitos Tropical</strong> es un modelo compacto pero visualmente impactante que se ve espectacular en jardines. Sus colores tropicales combinan naturalmente con el verde del pasto y las plantas, creando una estética que parece parte del paisaje. Su tamaño lo hace ideal para jardines medianos donde no quieres que el inflable ocupe todo el espacio disponible.
+      </p>
+
+      <h3>Barco Pirata</h3>
+      <p>
+        El <strong>Barco Pirata</strong> es uno de nuestros modelos más grandes y se luce al máximo en espacios abiertos donde puede apreciarse desde lejos. Su altura y diseño temático crean un punto focal impresionante en cualquier jardín o terreno. Es perfecto para fiestas con muchos invitados donde necesitas un inflable que entretenga a grupos grandes.
+      </p>
+
+      <h3>Inflable Extremo</h3>
+      <p>
+        Para eventos al aire libre con niños más grandes (7-14 años), el <strong>Inflable Extremo</strong> ofrece retos de escalada, tobogán y zona de obstáculos que mantienen entretenidos incluso a los adolescentes. Requiere un espacio más amplio pero el resultado es una fiesta llena de adrenalina y actividad física al aire libre.
+      </p>
+
+      <h2>5. Instalación eléctrica en exteriores</h2>
+      <p>
+        La conexión eléctrica es un aspecto crítico para inflables al aire libre que muchos papás pasan por alto. El soplador del inflable funciona de forma continua con corriente de 110V y consume entre 700 y 1,500 watts dependiendo del modelo. Aquí te explicamos cómo preparar la instalación eléctrica correctamente:
+      </p>
+      <ul class="art-list">
+        <li><strong>Ubicación de la toma:</strong> Identifica la toma de corriente más cercana al área donde estará el inflable. Idealmente debe estar a menos de 15 metros. Si está más lejos, necesitas una extensión de uso rudo.</li>
+        <li><strong>Tipo de extensión:</strong> Usa extensiones calibre 12 o 14 de uso rudo (cable naranja o amarillo grueso). Las extensiones delgadas de uso doméstico se sobrecalientan y representan un riesgo de incendio. Nosotros llevamos extensiones profesionales a cada evento.</li>
+        <li><strong>Protección contra agua:</strong> Si hay posibilidad de lluvia, las conexiones eléctricas deben estar protegidas. Eleva los enchufes del suelo y cúbrelos con bolsas impermeables. Nunca dejes cables en charcos de agua.</li>
+        <li><strong>Circuito dedicado:</strong> El soplador consume mucha energía. Evita conectar el inflable en el mismo circuito que el equipo de sonido, las luces de la fiesta o la parrilla eléctrica. Un circuito sobrecargado puede hacer que se bote el interruptor en plena fiesta.</li>
+      </ul>
+      <div class="art-tip">
+        <span class="art-tip__icon">⚡</span>
+        <p><strong>Tip de seguridad:</strong> Nuestro equipo verifica las condiciones eléctricas antes de conectar cualquier inflable. Si detectamos una instalación eléctrica insegura, te lo informamos y buscamos soluciones alternativas. La seguridad siempre es prioridad.</p>
+      </div>
+
+      <h2>6. Planificación completa de tu fiesta al aire libre</h2>
+      <p>
+        Organizar una <strong>fiesta con inflable en tu jardín</strong> requiere planificación, pero no tiene por qué ser complicado. Aquí te damos un checklist completo para que no se te pase nada:
+      </p>
+      <ul class="art-list art-list--ordered">
+        <li><strong>Mide tu espacio:</strong> Necesitas al menos el área del inflable más un metro de perímetro de seguridad. Mide largo, ancho y altura libre (cuidado con ramas y cables).</li>
+        <li><strong>Verifica electricidad:</strong> Confirma que tienes una toma de 110V funcional a menos de 15 metros del área de instalación. Prueba que el circuito soporte la carga del soplador.</li>
+        <li><strong>Planea la distribución:</strong> Define dónde irá el inflable, dónde las mesas de comida, dónde la zona de descanso y por dónde entrarán los invitados. Deja espacio de circulación entre todas las áreas.</li>
+        <li><strong>Considera el clima:</strong> Revisa el pronóstico una semana antes y el día anterior. Si es temporada de lluvias, ten un toldo o carpa como plan B. Si es temporada seca, provee sombra y agua para hidratación.</li>
+        <li><strong>Prepara el terreno:</strong> Poda el pasto, retira piedras y objetos, nivela si es necesario. Todo esto hazlo al menos un día antes para que el área esté lista cuando llegue nuestro equipo.</li>
+        <li><strong>Reserva tu inflable:</strong> Contáctanos por WhatsApp con la fecha, ubicación y fotos del espacio. Te confirmamos disponibilidad, precio y horario de instalación. Llegamos con anticipación para tener todo listo antes de que lleguen los invitados.</li>
+      </ul>
+      <p>
+        En <strong>BRINCOLINS</strong> servimos toda la <strong>Ciudad de México y Zona Metropolitana</strong>. Ya sea que tengas un jardín en Coyoacán, un patio en Naucalpan, una azotea en la Benito Juárez o un terreno en Ecatepec, llegamos con tu inflable, lo instalamos y lo recogemos al finalizar. Todo incluido, sin costos ocultos.
+      </p>
+
+    </article>
+    <aside class="art-sidebar">
+      <div class="art-sidebar__box">
+        <h3 class="art-sidebar__title">🎈 ¿Listo para reservar?</h3>
+        <p class="art-sidebar__text">Cuéntanos sobre tu jardín o espacio exterior y te recomendamos el inflable perfecto. Envíanos fotos por WhatsApp y te damos una cotización personalizada.</p>
+        <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable." class="btn btn-wa" target="_blank" rel="noopener noreferrer" style="width:100%;justify-content:center;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Pedir asesoría gratis
+        </a>
+      </div>
+      <div class="art-sidebar__box art-sidebar__box--links">
+        <h3 class="art-sidebar__title">🗂️ Más artículos</h3>
+        <a href="/blog/como-elegir-inflable-fiesta-infantil/" class="art-sidebar__link">→ Cómo elegir el inflable perfecto</a>
+        <a href="/blog/renta-inflable-gusanitos-cdmx/" class="art-sidebar__link">→ Renta inflable Gusanitos Tropical</a>
+        <a href="/blog/seguridad-inflables-fiestas-infantiles/" class="art-sidebar__link">→ Seguridad en inflables</a>
+      </div>
+      <div class="art-sidebar__box art-sidebar__box--cat">
+        <h3 class="art-sidebar__title">🎪 Nuestros inflables</h3>
+        <a href="/inflables/gusanitos/" class="art-sidebar__link">→ Gusanitos Tropical</a>
+        <a href="/inflables/barco-pirata/" class="art-sidebar__link">→ Barco Pirata</a>
+        <a href="/inflables/extremo/" class="art-sidebar__link">→ Inflable Extremo</a>
+        <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Ver catálogo completo</a>
+      </div>
+    </aside>
+  </div></div></section>
+
+  <section class="section section--alt"><div class="container">
+    <div style="max-width:800px; margin:0 auto;">
+      <h2 class="section-title" style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
+      {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+    </div>
+  </div></section>
+
+  <CtaBanner title="¡Tu jardín + nuestro inflable = fiesta perfecta!" subtitle="Entrega, instalación y recolección incluidos en toda la CDMX y Zona Metropolitana." btnText="Cotizar por WhatsApp" btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable." btnSecondaryText="Ver inflables" btnSecondaryHref="/inflables/" variant="vibrant" whatsapp={true} external={true} />
+
+  <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"author":{"@type":"Organization","name":"BRINCOLINS"},"publisher":{"@type":"Organization","name":"BRINCOLINS","url":"https://brincolins.com"},"mainEntityOfPage":"https://brincolins.com/blog/inflables-jardin-exterior-cdmx/"})} />
+
+</PageLayout>
+
+<style>
+  .art-hero__back{font-size:.85rem;color:var(--c-primary);font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:.3rem;transition:gap .2s;margin-bottom:.5rem}.art-hero__back:hover{gap:.6rem}.art-hero__meta{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-size:.85rem;color:var(--c-text-muted);margin-bottom:.5rem}.art-hero__sep{opacity:.4}.art-layout{display:grid;grid-template-columns:1fr 320px;gap:3rem;align-items:start}.art-body{min-width:0}.art-body h2{font-family:var(--font-head);font-weight:800;font-size:clamp(1.25rem,2.5vw,1.5rem);color:var(--c-text);margin:2.5rem 0 1rem;padding-top:.5rem;border-top:3px solid var(--c-primary)}.art-body h2:first-child{margin-top:0}.art-body p{font-size:1rem;line-height:1.75;color:var(--c-text);margin:0 0 1.25rem}.art-body strong{color:var(--c-primary);font-weight:700}.art-tip{display:flex;gap:1rem;align-items:flex-start;background:#fff8f5;border-left:4px solid var(--c-primary);border-radius:0 var(--r-card) var(--r-card) 0;padding:1.25rem 1.5rem;margin:1.5rem 0}.art-tip__icon{font-size:1.5rem;flex-shrink:0}.art-tip p{margin:0;font-size:.95rem}.art-list{padding-left:1.5rem;margin:0 0 1.25rem;display:flex;flex-direction:column;gap:.6rem}.art-list li{font-size:1rem;line-height:1.6;color:var(--c-text);list-style:disc}.art-list--ordered li{list-style:decimal}.art-sidebar{display:flex;flex-direction:column;gap:1.5rem;position:sticky;top:90px}.art-sidebar__box{background:var(--c-bg-alt);border:1px solid var(--c-border);border-radius:var(--r-card);padding:1.5rem;display:flex;flex-direction:column;gap:.75rem}.art-sidebar__box--links,.art-sidebar__box--cat{gap:.5rem}.art-sidebar__title{font-family:var(--font-head);font-weight:800;font-size:1rem;color:var(--c-text);margin:0}.art-sidebar__text{font-size:.9rem;color:var(--c-text-muted);line-height:1.6;margin:0}.art-sidebar__link{font-size:.88rem;color:var(--c-primary);font-weight:600;text-decoration:none;padding:.35rem 0;display:block;border-bottom:1px solid var(--c-border);transition:padding-left .2s}.art-sidebar__link:last-child{border-bottom:none}.art-sidebar__link:hover{padding-left:.4rem}.art-sidebar__link--cta{color:var(--c-secondary);font-weight:800}@media(max-width:960px){.art-layout{grid-template-columns:1fr}.art-sidebar{position:static}}
+</style>

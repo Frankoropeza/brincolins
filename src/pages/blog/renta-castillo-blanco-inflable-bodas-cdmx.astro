@@ -1,0 +1,193 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Renta Castillo Blanco Inflable para Bodas en CDMX | BRINCOLINS";
+const description = "Renta el castillo blanco inflable perfecto para bodas en CDMX. Elegante, sofisticado y divertido. Ideal para la sección infantil de tu boda.";
+
+const faqs = [
+  { question: "¿El castillo blanco inflable realmente combina con la decoración de una boda?", answer: "Sí, el castillo blanco inflable fue diseñado específicamente para eventos elegantes. Su color blanco neutro se integra armoniosamente con cualquier paleta de colores de boda: desde tonos pastel hasta combinaciones clásicas con dorado, plateado o verde. Muchas wedding planners en CDMX ya lo solicitan como parte de sus paquetes de entretenimiento infantil." },
+  { question: "¿Cuántos niños pueden usar el castillo blanco al mismo tiempo en una boda?", answer: "El castillo blanco tiene capacidad para 8 a 10 niños brincando simultáneamente. En una boda, esto suele ser más que suficiente para la sección infantil. Si esperas más de 15 niños, te recomendamos organizar turnos o complementar con otro inflable como el mini castillo." },
+  { question: "¿Hacen mucho ruido los inflables? ¿Interrumpirán la ceremonia?", answer: "El motor inflador genera un ruido moderado similar al de un ventilador. Recomendamos ubicar el inflable a una distancia prudente de la zona de ceremonia o del salón principal. En la recepción y la fiesta, el ruido es imperceptible entre la música y la conversación. Para la ceremonia, simplemente se apaga temporalmente." },
+  { question: "¿Se puede instalar el castillo blanco en un jardín de eventos o hacienda?", answer: "Absolutamente. El castillo blanco se adapta perfectamente a jardines de eventos, haciendas, fincas y salones con área exterior en toda la CDMX y zona metropolitana. Solo necesitamos una superficie plana y un contacto eléctrico. Nuestro equipo se encarga de todo: transporte, instalación y recolección." },
+];
+---
+
+<PageLayout title={title} description={description} pageType="page"
+  breadcrumbs={[{ name: "Inicio", href: "/" }, { name: "Blog", href: "/blog/" }, { name: "Castillo Blanco para Bodas" }]}>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container"><div class="hero__grid">
+      <div>
+        <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+        <span class="hero__badge">💒 Bodas</span>
+        <h1 class="hero__title">Renta el <span class="highlight">Castillo Blanco</span> Inflable para Bodas en CDMX</h1>
+        <div class="art-hero__meta"><span>⏱️ 7 min lectura</span><span class="art-hero__sep">·</span><span>✍️ Equipo BRINCOLINS</span></div>
+        <p class="hero__desc">El inflable más elegante para la zona infantil de tu boda. Color blanco, diseño sofisticado y diversión garantizada para los pequeños invitados.</p>
+        <div class="hero__ctas">
+          <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable." class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
+          <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+        </div>
+      </div>
+      <div class="hero__copy">
+        <p class="hero__copy-text">
+          Organizar una <strong>boda en la Ciudad de México</strong> implica cuidar cada detalle, y la diversión de los niños no puede quedar fuera. El <strong>castillo blanco inflable</strong> de <strong>BRINCOLINS</strong> es la solución perfecta para que los pequeños invitados se diviertan durante horas sin que el inflable desentone con la estética elegante de tu celebración. Su color blanco puro y su diseño sofisticado lo convierten en el favorito de las parejas que buscan un toque de entretenimiento infantil con clase.
+        </p>
+        <p class="hero__copy-text">
+          En <strong>BRINCOLINS</strong> sabemos que una boda exige un nivel de presentación superior. Por eso, nuestro <strong>castillo blanco para bodas en CDMX</strong> ha sido seleccionado por decenas de wedding planners y coordinadores de eventos que buscan un inflable que se integre visualmente con la decoración nupcial. Incluimos transporte, instalación profesional y recolección para que tú solo te preocupes por disfrutar el día más importante de tu vida.
+        </p>
+      </div>
+    </div></div>
+  </section>
+
+  <section style="padding:0 0 1rem;"><div class="container">
+    <img src="/img/inflables/castillo-blanco-v3.avif" alt="Castillo blanco inflable elegante para bodas en CDMX — BRINCOLINS" width="1200" height="675" loading="eager" style="width:100%;max-height:480px;object-fit:cover;border-radius:var(--r-card);display:block;box-shadow:var(--shadow-md);" />
+  </div></section>
+
+  <section class="section"><div class="container"><div class="art-layout">
+    <article class="art-body">
+
+      <h2>El inflable perfecto para bodas en CDMX</h2>
+      <p>
+        Cuando piensas en una <strong>boda elegante</strong>, probablemente no imaginas un inflable. Pero eso es exactamente lo que hace especial al <strong>castillo blanco inflable</strong>: rompe el estereotipo de que los brincolines son solo para fiestas infantiles informales. Este modelo fue pensado para <strong>eventos formales y sofisticados</strong> donde la diversión de los niños es tan importante como la estética del evento.
+      </p>
+      <p>
+        En la <strong>Ciudad de México</strong>, cada vez más parejas incluyen una zona infantil en sus bodas. Y es lógico: cuando los niños están entretenidos, los papás pueden relajarse y disfrutar la celebración. El castillo blanco de BRINCOLINS ofrece esa tranquilidad sin sacrificar la armonía visual de tu boda. Las parejas que lo han rentado nos comentan que fue una de las mejores decisiones que tomaron para su gran día.
+      </p>
+
+      <div class="art-tip">
+        <span class="art-tip__icon" aria-hidden="true">💒</span>
+        <p><strong>Dato BRINCOLINS:</strong> El 90% de las bodas con zona infantil reportan que los papás pudieron disfrutar más la fiesta. Un inflable bien ubicado cambia por completo la dinámica del evento.</p>
+      </div>
+
+      <h2>Diseño elegante del castillo blanco</h2>
+      <p>
+        El <strong>castillo blanco inflable</strong> se distingue por su acabado impecable y su diseño minimalista que evoca la elegancia de un verdadero castillo. A diferencia de los inflables tradicionales llenos de colores brillantes, este modelo utiliza el <strong>blanco como protagonista absoluto</strong>, logrando un look limpio y sofisticado que se adapta a cualquier temática de boda.
+      </p>
+
+      <h3>Características del diseño</h3>
+      <ul class="art-list">
+        <li><strong>Color blanco puro:</strong> Se integra con decoraciones clásicas, vintage, rústicas, bohemias y modernas sin desentonar</li>
+        <li><strong>Torres estilizadas:</strong> Estructura con torres que evocan un castillo de cuento sin ser infantil en exceso</li>
+        <li><strong>Material premium:</strong> Lona comercial de alta calidad, limpia y en perfecto estado para tu evento especial</li>
+        <li><strong>Paredes de malla:</strong> Permiten visibilidad total para que los papás supervisen a los niños desde sus mesas</li>
+        <li><strong>Entrada con rampa:</strong> Acceso seguro para niños de todas las edades, desde los más pequeños hasta los más grandes</li>
+      </ul>
+      <p>
+        Este diseño permite que el inflable funcione como un elemento decorativo más de la boda. Muchas parejas lo complementan con guirnaldas de flores blancas, luces cálidas o telas que unifican su presencia con el resto de la ambientación del jardín o salón.
+      </p>
+
+      <h2>Cómo integrarlo en la decoración de tu boda</h2>
+      <p>
+        La clave para que un inflable luzca perfecto en una <strong>boda en CDMX</strong> es la integración visual. No se trata solo de poner un brincolin en una esquina; se trata de convertirlo en parte de la experiencia. Aquí te compartimos las mejores estrategias que hemos aprendido trabajando con wedding planners de la ciudad.
+      </p>
+
+      <h3>Ideas de integración</h3>
+      <ul class="art-list">
+        <li><strong>Guirnaldas florales:</strong> Coloca arreglos de flores naturales o artificiales alrededor de la base del castillo para fusionarlo con la decoración</li>
+        <li><strong>Señalización elegante:</strong> Un letrero con caligrafía que diga "Zona de diversión" o "Kids Corner" en un caballete de madera</li>
+        <li><strong>Iluminación cálida:</strong> Luces tipo fairy lights alrededor del inflable crean un ambiente mágico cuando oscurece</li>
+        <li><strong>Alfombra o tapete:</strong> Una alfombra verde o beige frente a la entrada del castillo le da un toque más cuidado</li>
+        <li><strong>Mesa de snacks infantiles:</strong> Junto al inflable, una mesita con agua, fruta y galletas mantiene a los niños contentos</li>
+      </ul>
+
+      <div class="art-tip">
+        <span class="art-tip__icon" aria-hidden="true">✨</span>
+        <p><strong>Tip de wedding planner:</strong> Ubica el inflable donde sea visible pero no compita con la mesa principal o la pista de baile. Un rincón del jardín con buena iluminación es la ubicación ideal.</p>
+      </div>
+
+      <h2>Zona infantil en bodas: por qué es indispensable</h2>
+      <p>
+        Si has asistido a una boda con niños sin entretenimiento, sabes lo que pasa: los pequeños se aburren, corren entre las mesas, lloran, y los papás pasan toda la noche persiguiéndolos en lugar de disfrutar la celebración. Una <strong>zona infantil con inflable</strong> resuelve todo esto de manera inmediata.
+      </p>
+      <p>
+        El <strong>castillo blanco</strong> se convierte en el centro de atención de los niños desde el momento en que lo ven. Los pequeños se organizan solos, hacen amigos nuevos dentro del castillo y se entretienen durante horas. Mientras tanto, los adultos pueden bailar, platicar y disfrutar la boda como se debe.
+      </p>
+
+      <h3>Beneficios concretos</h3>
+      <ul class="art-list">
+        <li><strong>Papás relajados:</strong> Saben exactamente dónde están sus hijos y que están seguros</li>
+        <li><strong>Niños felices:</strong> Prefieren brincar en el castillo que estar sentados en una mesa de adultos</li>
+        <li><strong>Menos estrés para los novios:</strong> No hay interrupciones por niños inquietos durante brindis o primer baile</li>
+        <li><strong>Fotos increíbles:</strong> Los niños brincando en un castillo blanco generan fotos preciosas para el álbum</li>
+        <li><strong>Valor agregado:</strong> Tus invitados recordarán que pensaste en cada detalle, incluyendo la diversión de los más pequeños</li>
+      </ul>
+
+      <h2>Logística para eventos formales</h2>
+      <p>
+        Sabemos que la <strong>logística de una boda</strong> es compleja y que cada proveedor debe coordinarse con precisión. En <strong>BRINCOLINS</strong> estamos acostumbrados a trabajar con coordinadores de eventos, banqueteros y wedding planners para que la instalación del inflable sea fluida y sin contratiempos.
+      </p>
+
+      <h3>Así funciona nuestro servicio para bodas</h3>
+      <ul class="art-list art-list--ordered">
+        <li><strong>Coordinación previa:</strong> Nos comunicamos con tu wedding planner o coordinador para definir horarios exactos de instalación y retiro</li>
+        <li><strong>Llegada anticipada:</strong> Nuestro equipo llega con tiempo suficiente para instalar antes de que lleguen los invitados</li>
+        <li><strong>Discreción total:</strong> Instalamos sin generar ruido ni desorden, respetando la preparación del evento</li>
+        <li><strong>Retiro programado:</strong> Recogemos el inflable a la hora que tú indiques, ya sea durante la fiesta o al día siguiente</li>
+      </ul>
+      <p>
+        Entendemos que una boda no es cualquier evento, por eso nuestro trato es especialmente profesional y discreto. Nos adaptamos a tus tiempos, a las indicaciones de tu organizadora y a cualquier requerimiento especial del venue donde se celebre tu boda.
+      </p>
+
+      <div class="art-tip">
+        <span class="art-tip__icon" aria-hidden="true">📋</span>
+        <p><strong>Importante:</strong> Si tu boda es en una hacienda o jardín de eventos, podemos coordinar directamente con la administración del lugar para cumplir con sus protocolos de acceso y montaje.</p>
+      </div>
+
+      <h2>Cómo reservar el castillo blanco para tu boda</h2>
+      <p>
+        Reservar el <strong>castillo blanco inflable para tu boda</strong> es sencillo y rápido. Te recomendamos hacerlo con anticipación, ya que los fines de semana en temporada alta de bodas (octubre a marzo) se llenan rápidamente.
+      </p>
+      <ul class="art-list art-list--ordered">
+        <li><strong>Escríbenos por WhatsApp:</strong> Cuéntanos la fecha de tu boda, el lugar del evento y el horario estimado para la zona infantil</li>
+        <li><strong>Recibe tu cotización personalizada:</strong> Te enviamos un presupuesto con todo incluido en menos de 10 minutos</li>
+        <li><strong>Aparta con anticipo:</strong> Reserva tu castillo con el 50% del total por transferencia o depósito</li>
+        <li><strong>Nosotros nos encargamos de todo:</strong> Transporte, instalación puntual, monitoreo y recolección al finalizar</li>
+      </ul>
+      <p>
+        No dejes que la diversión de los niños sea lo último en tu lista de pendientes. Un <strong>castillo blanco bien ubicado</strong> en tu boda hará que todos tus invitados, grandes y pequeños, recuerden tu celebración como un evento excepcional donde cada detalle estuvo pensado con cariño y buen gusto.
+      </p>
+
+    </article>
+    <aside class="art-sidebar">
+      <div class="art-sidebar__box">
+        <h3 class="art-sidebar__title">🎈 ¿Listo para reservar?</h3>
+        <p class="art-sidebar__text">Cotiza el castillo blanco para tu boda en menos de 10 minutos. Transporte, instalación y recolección incluidos en CDMX.</p>
+        <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable." class="btn btn-wa" target="_blank" rel="noopener noreferrer" style="width:100%;justify-content:center;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Pedir asesoría gratis
+        </a>
+      </div>
+      <div class="art-sidebar__box art-sidebar__box--links">
+        <h3 class="art-sidebar__title">🗂️ Más artículos</h3>
+        <a href="/blog/como-elegir-inflable-fiesta-infantil/" class="art-sidebar__link">→ Cómo elegir el inflable perfecto</a>
+        <a href="/blog/inflable-elegante-quince-anos-cdmx/" class="art-sidebar__link">→ Inflable elegante para XV años</a>
+        <a href="/blog/inflables-eventos-formales-cdmx/" class="art-sidebar__link">→ Inflables para eventos formales</a>
+      </div>
+      <div class="art-sidebar__box art-sidebar__box--cat">
+        <h3 class="art-sidebar__title">🎪 Nuestros inflables</h3>
+        <a href="/inflables/castillo-blanco/" class="art-sidebar__link">→ Castillo Blanco</a>
+        <a href="/inflables/castillo-princesas/" class="art-sidebar__link">→ Castillo Princesas</a>
+        <a href="/inflables/mini-castillo/" class="art-sidebar__link">→ Mini Castillo</a>
+        <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Ver catálogo completo</a>
+      </div>
+    </aside>
+  </div></div></section>
+
+  <section class="section section--alt"><div class="container">
+    <div style="max-width:800px; margin:0 auto;">
+      <h2 class="section-title" style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
+      {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+    </div>
+  </div></section>
+
+  <CtaBanner title="💒 ¡El inflable perfecto para tu boda!" subtitle="Castillo blanco elegante que se integra con la decoración de tu evento. Reserva ahora y sorprende a tus invitados." btnText="Cotizar por WhatsApp" btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable." btnSecondaryText="Ver inflables" btnSecondaryHref="/inflables/" variant="vibrant" whatsapp={true} external={true} />
+
+  <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"author":{"@type":"Organization","name":"BRINCOLINS"},"publisher":{"@type":"Organization","name":"BRINCOLINS","url":"https://brincolins.com"},"mainEntityOfPage":"https://brincolins.com/blog/renta-castillo-blanco-inflable-bodas-cdmx/"})} />
+
+</PageLayout>
+
+<style>
+  .art-hero__back{font-size:.85rem;color:var(--c-primary);font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:.3rem;transition:gap .2s;margin-bottom:.5rem}.art-hero__back:hover{gap:.6rem}.art-hero__meta{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-size:.85rem;color:var(--c-text-muted);margin-bottom:.5rem}.art-hero__sep{opacity:.4}.art-layout{display:grid;grid-template-columns:1fr 320px;gap:3rem;align-items:start}.art-body{min-width:0}.art-body h2{font-family:var(--font-head);font-weight:800;font-size:clamp(1.25rem,2.5vw,1.5rem);color:var(--c-text);margin:2.5rem 0 1rem;padding-top:.5rem;border-top:3px solid var(--c-primary)}.art-body h2:first-child{margin-top:0}.art-body p{font-size:1rem;line-height:1.75;color:var(--c-text);margin:0 0 1.25rem}.art-body strong{color:var(--c-primary);font-weight:700}.art-tip{display:flex;gap:1rem;align-items:flex-start;background:#fff8f5;border-left:4px solid var(--c-primary);border-radius:0 var(--r-card) var(--r-card) 0;padding:1.25rem 1.5rem;margin:1.5rem 0}.art-tip__icon{font-size:1.5rem;flex-shrink:0}.art-tip p{margin:0;font-size:.95rem}.art-list{padding-left:1.5rem;margin:0 0 1.25rem;display:flex;flex-direction:column;gap:.6rem}.art-list li{font-size:1rem;line-height:1.6;color:var(--c-text);list-style:disc}.art-list--ordered li{list-style:decimal}.art-sidebar{display:flex;flex-direction:column;gap:1.5rem;position:sticky;top:90px}.art-sidebar__box{background:var(--c-bg-alt);border:1px solid var(--c-border);border-radius:var(--r-card);padding:1.5rem;display:flex;flex-direction:column;gap:.75rem}.art-sidebar__box--links,.art-sidebar__box--cat{gap:.5rem}.art-sidebar__title{font-family:var(--font-head);font-weight:800;font-size:1rem;color:var(--c-text);margin:0}.art-sidebar__text{font-size:.9rem;color:var(--c-text-muted);line-height:1.6;margin:0}.art-sidebar__link{font-size:.88rem;color:var(--c-primary);font-weight:600;text-decoration:none;padding:.35rem 0;display:block;border-bottom:1px solid var(--c-border);transition:padding-left .2s}.art-sidebar__link:last-child{border-bottom:none}.art-sidebar__link:hover{padding-left:.4rem}.art-sidebar__link--cta{color:var(--c-secondary);font-weight:800}@media(max-width:960px){.art-layout{grid-template-columns:1fr}.art-sidebar{position:static}}
+</style>
