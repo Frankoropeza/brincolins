@@ -1,0 +1,286 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Castillo Inflable para Cumpleaños Infantil en CDMX";
+const description = "Guía completa para hacer un cumpleaños infantil increíble con castillo inflable en Ciudad de México. Consejos de planificación, edades, espacio y cómo reservar con BRINCOLINS.";
+
+const faqs = [
+  { question: "¿A partir de qué edad pueden usar el castillo inflable?", answer: "Los castillos inflables de BRINCOLINS son seguros para niños desde los 3 años. Para los más pequeños recomendamos el Mini Castillo (4×4m), y para niños de 6 en adelante cualquier modelo de nuestro catálogo funciona perfecto." },
+  { question: "¿Cuántos niños caben en un castillo inflable al mismo tiempo?", answer: "Depende del modelo. Un Mini Castillo admite 6-8 niños simultáneamente. Los modelos más grandes como Dragones Rojos o Castillo Princesas pueden recibir hasta 10-12 niños. Siempre respetar la capacidad máxima es clave para la seguridad." },
+  { question: "¿Qué pasa si llueve el día de la fiesta?", answer: "Si llueve antes del evento y para a tiempo, podemos instalar sin problema en superficie seca. Si la lluvia es durante el evento, por seguridad se debe desinflar el brincolín. Podemos reagendar sin costo adicional si el clima no permite la instalación." },
+  { question: "¿Puedo rentar el castillo inflable para un salón de fiestas?", answer: "Sí, siempre y cuando el salón tenga espacio suficiente (mínimo 5×5m libres) y altura de techo adecuada (mínimo 4m). Muchos salones en CDMX permiten inflables externos. Te recomendamos confirmar con el salón antes de reservar." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog", href: "/blog/" },
+    { name: "Castillo inflable para cumpleaños infantil" },
+  ]}
+>
+
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">🏰 Cumpleaños</span>
+          <h1 class="hero__title">
+            <span class="highlight">Castillo Inflable</span> para Cumpleaños Infantil en CDMX
+          </h1>
+          <div class="art-hero__meta">
+            <span>⏱️ 8 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">
+            Un castillo inflable transforma cualquier cumpleaños infantil en una experiencia mágica. Te explicamos cómo planear la fiesta perfecta en la Ciudad de México.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20rentar%20un%20castillo%20inflable%20para%20un%20cumplea%C3%B1os%20infantil."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Cotizar para cumpleaños</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            El <strong>castillo inflable</strong> es, sin duda, el elemento que más emociona a los niños en un <strong>cumpleaños infantil</strong>. En <strong>BRINCOLINS</strong> lo vemos en cada evento: cuando los pequeños ven el brincolín instalado, sus ojos se iluminan y corren directo a brincar. Con más de 20 años organizando la diversión en fiestas de la <strong>Ciudad de México y Estado de México</strong>, sabemos exactamente qué modelo funciona para cada tipo de celebración.
+          </p>
+          <p class="hero__copy-text">
+            Esta guía te ayudará a planear un <strong>cumpleaños infantil con castillo inflable</strong> paso a paso: desde elegir el modelo correcto según la edad de los niños, hasta calcular el espacio necesario, coordinar horarios y complementar con actividades que hagan la <strong>fiesta inolvidable</strong>. Si prefieres que te asesoremos directamente, escríbenos por <strong>WhatsApp</strong> y armamos el plan juntos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGEN DE PORTADA -->
+  <section style="padding:0 0 1rem;">
+    <div class="container">
+      <img src="/img/inflables/castillo-v4.avif" alt="Castillo inflable para cumpleaños infantil en CDMX" width="1200" height="675" loading="eager"
+           style="width:100%;max-height:480px;object-fit:cover;border-radius:var(--r-card);display:block;box-shadow:var(--shadow-md);" />
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <section class="section">
+    <div class="container">
+      <div class="art-layout">
+        <article class="art-body">
+
+          <h2>Por qué los castillos inflables son la opción número 1 para cumpleaños</h2>
+          <p>
+            Hay muchas formas de entretener a los niños en una fiesta: payasos, magos, piñatas, juegos organizados. Pero ninguna tiene el poder magnético de un <strong>castillo inflable</strong>. Los niños se autogestionan — brincan, juegan, se cansan y vuelven a brincar — sin necesidad de que un adulto dirija la actividad.
+          </p>
+          <p>
+            Según nuestra experiencia en cientos de fiestas en CDMX, un brincolín mantiene a los niños entretenidos entre <strong>2 y 4 horas continuas</strong>. Eso significa que los papás pueden relajarse, platicar y disfrutar la fiesta sin estrés. Es la inversión más rentable que puedes hacer para un cumpleaños infantil.
+          </p>
+          <p>
+            Además, el castillo inflable funciona como punto focal visual de la fiesta. Su tamaño y colores vistosos generan un ambiente festivo automático. No necesitas gastar miles en decoración cuando tienes un castillo de 4 metros de alto dominando el espacio.
+          </p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">💡</span>
+            <p><strong>Dato importante:</strong> El 85% de nuestros clientes repiten al siguiente cumpleaños. Una vez que los niños experimentan un inflable en su fiesta, lo piden todos los años.</p>
+          </div>
+
+          <h2>Cómo planear el cumpleaños perfecto con castillo inflable</h2>
+          <p>
+            La planificación es la diferencia entre una fiesta estresante y una que disfrutas como anfitrión. Aquí van los pasos clave para organizar un cumpleaños con inflable en la Ciudad de México:
+          </p>
+
+          <h3>Define el espacio y confirma medidas</h3>
+          <p>
+            Lo primero es saber dónde será la fiesta. Si es en tu casa, mide el patio o jardín. Si es en un salón, confirma que permiten inflables externos y que hay suficiente espacio y altura. La mayoría de nuestros castillos necesitan entre <strong>4×4 y 5×5 metros</strong> de área libre.
+          </p>
+
+          <h3>Elige el modelo según la temática</h3>
+          <p>
+            ¿Fiesta de princesas? El <strong>Castillo Princesas</strong> es perfecto. ¿Aventura y fantasía? Los <strong>Dragones Rojos</strong> son la opción. ¿Algo sencillo y universal? El <strong>Mini Castillo</strong> funciona para cualquier temática. Pregúntale al cumpleañero qué prefiere — los niños siempre tienen opiniones muy claras.
+          </p>
+
+          <h3>Reserva con anticipación</h3>
+          <p>
+            Los fines de semana en CDMX son muy demandados. Te recomendamos reservar tu inflable con al menos <strong>2-3 semanas de anticipación</strong>. En temporada alta (mayo, junio, diciembre) lo ideal es apartar con un mes. Con solo el 50% de anticipo, tu fecha queda garantizada.
+          </p>
+
+          <h3>Coordina los tiempos del evento</h3>
+          <p>
+            El equipo de BRINCOLINS llega <strong>1-2 horas antes</strong> del inicio de tu fiesta para instalar. La renta estándar es por el tiempo de tu evento (generalmente 4-6 horas). Al terminar, recogemos todo. Tú no tienes que mover un dedo.
+          </p>
+
+          <h2>Consideraciones de edad: elige el inflable correcto</h2>
+          <p>
+            No todos los inflables son para todas las edades. Elegir el modelo adecuado según los invitados es fundamental para la seguridad y la diversión:
+          </p>
+          <ul class="art-list">
+            <li><strong>Niños de 2 a 4 años:</strong> El Mini Castillo es ideal. Altura baja, entrada accesible, superficie amplia para brincar sin riesgo. Siempre con supervisión adulta cercana.</li>
+            <li><strong>Niños de 5 a 8 años:</strong> Cualquier modelo funciona. Es la edad donde más disfrutan los inflables temáticos como Dragones Rojos o Castillo Princesas.</li>
+            <li><strong>Niños de 9 a 12 años:</strong> Prefieren modelos más grandes o con elementos extras. El inflable Extremo o los modelos con tobogán son los favoritos de este grupo.</li>
+            <li><strong>Fiesta mixta (varias edades):</strong> Organiza turnos de 30 minutos para cada grupo de edad. Los pequeños primero, los grandes después. Así todos brincan seguros.</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">⚠️</span>
+            <p><strong>Regla de oro:</strong> Nunca permitas que niños menores de 5 años brinquen al mismo tiempo que niños mayores de 10. La diferencia de peso y fuerza puede causar accidentes.</p>
+          </div>
+
+          <h2>Planificación del espacio: jardín, salón o parque</h2>
+          <p>
+            En la Ciudad de México, cada tipo de espacio tiene sus consideraciones especiales para instalar un castillo inflable:
+          </p>
+          <ul class="art-list">
+            <li><strong>Jardín o patio en casa:</strong> La opción más cómoda y económica. Solo necesitas espacio libre y una toma de corriente. Ideal para fiestas íntimas de hasta 20 niños.</li>
+            <li><strong>Salón de fiestas:</strong> Confirma que el salón permite inflables externos, que la altura del techo es suficiente (mínimo 4 metros) y que hay toma de corriente accesible. Muchos salones en colonias como Del Valle, Narvarte y Coyoacán aceptan inflables.</li>
+            <li><strong>Parque o jardín público:</strong> Necesitas generador eléctrico (nosotros lo proporcionamos). Verifica que el municipio permita inflables en el parque elegido. Las explanadas de Chapultepec, Viveros y parques municipales del Estado de México son opciones populares.</li>
+            <li><strong>Azotea o terraza:</strong> Muy de moda en zonas como Roma, Condesa y Polanco. Verifica que el piso sea plano y que no haya cables o tendederos cercanos.</li>
+          </ul>
+
+          <h2>Actividades complementarias para un cumpleaños redondo</h2>
+          <p>
+            El castillo inflable es la estrella, pero estas actividades adicionales hacen que la fiesta sea perfecta:
+          </p>
+          <ul class="art-list">
+            <li><strong>Piñata:</strong> El clásico mexicano que nunca falla. Programa la piñata para la mitad de la fiesta, cuando los niños necesitan un descanso del inflable.</li>
+            <li><strong>Mesa de dulces:</strong> Una mesa decorada con la temática del cumpleaños es un atractivo visual y un complemento delicioso.</li>
+            <li><strong>Pintura de caritas:</strong> Funciona perfecto mientras algunos niños brincan y otros esperan turno.</li>
+            <li><strong>Show de magia o payaso:</strong> Un espectáculo de 30-45 minutos da un respiro y cambia el ritmo de la fiesta.</li>
+            <li><strong>Zona de fotos:</strong> Coloca un fondo temático junto al inflable para que los papás tomen fotos memorables.</li>
+          </ul>
+          <p>
+            La clave es intercalar actividades. No pongas todo al mismo tiempo — distribuye los momentos a lo largo de las 4 horas de fiesta para mantener la energía y evitar que los niños se aburran.
+          </p>
+
+          <h2>Consejos para reservar tu castillo inflable con BRINCOLINS</h2>
+          <p>
+            Reservar con nosotros es rápido y sencillo. Estos consejos te ayudarán a tener la mejor experiencia:
+          </p>
+          <ul class="art-list">
+            <li><strong>Escríbenos por WhatsApp</strong> con el tipo de evento, número de niños, espacio disponible y horario deseado. Te respondemos en menos de 10 minutos.</li>
+            <li><strong>Pide asesoría sobre el modelo ideal.</strong> No necesitas saber exactamente qué inflable quieres — te recomendamos el mejor según tu fiesta.</li>
+            <li><strong>Aparta con anticipación.</strong> Los fines de semana vuelan. Con el 50% de anticipo tu fecha queda reservada.</li>
+            <li><strong>Confirma los detalles logísticos</strong> una semana antes: dirección exacta, hora de llegada, acceso para descarga y contacto el día del evento.</li>
+          </ul>
+          <p>
+            Nuestro servicio incluye <strong>transporte, instalación profesional, seguro de responsabilidad civil y retiro</strong> al finalizar. Sin costos ocultos ni sorpresas. El precio que te cotizamos es el precio final.
+          </p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">🎂</span>
+            <p><strong>Tip de cumpleaños:</strong> Reserva tu inflable y pregúntanos por paquetes completos que incluyen más de un brincolín para fiestas grandes. Entre más diversión, mejor precio por inflable.</p>
+          </div>
+
+        </article>
+
+        <!-- Sidebar -->
+        <aside class="art-sidebar">
+          <div class="art-sidebar__box">
+            <h3 class="art-sidebar__title">🎂 ¿Planeas un cumpleaños?</h3>
+            <p class="art-sidebar__text">Te ayudamos a elegir el castillo inflable perfecto para la edad de los invitados y tu espacio.</p>
+            <a
+              href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20castillo%20inflable%20para%20un%20cumplea%C3%B1os%20infantil."
+              class="btn btn-wa"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="width:100%;justify-content:center;"
+            >
+              Cotizar por WhatsApp
+            </a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--links">
+            <h3 class="art-sidebar__title">🗂️ Artículos relacionados</h3>
+            <a href="/blog/inflable-dragones-rojos-cdmx/" class="art-sidebar__link">→ Inflable Dragones Rojos en CDMX</a>
+            <a href="/blog/brincolines-cdmx-precios-modelos/" class="art-sidebar__link">→ Precios y modelos en CDMX</a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--cat">
+            <h3 class="art-sidebar__title">🎪 Castillos populares</h3>
+            <a href="/inflables/dragones-rojos/" class="art-sidebar__link">→ Dragones Rojos</a>
+            <a href="/inflables/mini-castillo/" class="art-sidebar__link">→ Mini Castillo</a>
+            <a href="/inflables/castillo-princesas/" class="art-sidebar__link">→ Castillo Princesas</a>
+            <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Ver catálogo completo</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div style="max-width:800px; margin:0 auto;">
+        <h2 class="section-title" style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <CtaBanner
+    title="🏰 ¡El cumpleaños perfecto empieza aquí!"
+    subtitle="Renta un castillo inflable y haz que los niños vivan la mejor fiesta de su vida."
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20un%20castillo%20inflable%20para%20cumplea%C3%B1os."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="festa"
+    whatsapp={true}
+    external={true}
+  />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "author": { "@type": "Organization", "name": "BRINCOLINS" },
+    "publisher": { "@type": "Organization", "name": "BRINCOLINS", "url": "https://brincolins.com" },
+    "mainEntityOfPage": "https://brincolins.com/blog/castillo-inflable-cumpleanos-infantil-cdmx/"
+  })} />
+
+</PageLayout>
+
+<style>
+  .art-hero__back { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; margin-bottom: 0.5rem; }
+  .art-hero__back:hover { gap: 0.6rem; }
+  .art-hero__meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--c-text-muted); margin-bottom: 0.5rem; }
+  .art-hero__sep { opacity: 0.4; }
+
+  .art-layout { display: grid; grid-template-columns: 1fr 320px; gap: 3rem; align-items: start; }
+  .art-body { min-width: 0; }
+  .art-body h2 { font-family: var(--font-head); font-weight: 800; font-size: clamp(1.25rem, 2.5vw, 1.5rem); color: var(--c-text); margin: 2.5rem 0 1rem; padding-top: 0.5rem; border-top: 3px solid var(--c-primary); }
+  .art-body h2:first-child { margin-top: 0; }
+  .art-body h3 { font-family: var(--font-head); font-weight: 700; font-size: 1.1rem; color: var(--c-text); margin: 1.5rem 0 0.75rem; }
+  .art-body p { font-size: 1rem; line-height: 1.75; color: var(--c-text); margin: 0 0 1.25rem; }
+  .art-body strong { color: var(--c-primary); font-weight: 700; }
+
+  .art-tip { display: flex; gap: 1rem; align-items: flex-start; background: #fff8f5; border-left: 4px solid var(--c-primary); border-radius: 0 var(--r-card) var(--r-card) 0; padding: 1.25rem 1.5rem; margin: 1.5rem 0; }
+  .art-tip__icon { font-size: 1.5rem; flex-shrink: 0; }
+  .art-tip p { margin: 0; font-size: 0.95rem; }
+
+  .art-list { padding-left: 1.5rem; margin: 0 0 1.25rem; display: flex; flex-direction: column; gap: 0.6rem; }
+  .art-list li { font-size: 1rem; line-height: 1.6; color: var(--c-text); list-style: disc; }
+
+  .art-sidebar { display: flex; flex-direction: column; gap: 1.5rem; position: sticky; top: 90px; }
+  .art-sidebar__box { background: var(--c-bg-alt); border: 1px solid var(--c-border); border-radius: var(--r-card); padding: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem; }
+  .art-sidebar__box--links, .art-sidebar__box--cat { gap: 0.5rem; }
+  .art-sidebar__title { font-family: var(--font-head); font-weight: 800; font-size: 1rem; color: var(--c-text); margin: 0; }
+  .art-sidebar__text { font-size: 0.9rem; color: var(--c-text-muted); line-height: 1.6; margin: 0; }
+  .art-sidebar__link { font-size: 0.88rem; color: var(--c-primary); font-weight: 600; text-decoration: none; padding: 0.35rem 0; display: block; border-bottom: 1px solid var(--c-border); transition: padding-left 0.2s; }
+  .art-sidebar__link:last-child { border-bottom: none; }
+  .art-sidebar__link:hover { padding-left: 0.4rem; }
+  .art-sidebar__link--cta { color: var(--c-secondary); font-weight: 800; }
+
+  @media (max-width: 960px) {
+    .art-layout { grid-template-columns: 1fr; }
+    .art-sidebar { position: static; }
+  }
+</style>

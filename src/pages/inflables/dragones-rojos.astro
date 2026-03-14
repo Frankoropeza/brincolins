@@ -17,7 +17,7 @@ const inflable = {
   gradient: "#B71C1C, #E53935",
   desc: "El inflable Dragones Rojos es el más rentado en CDMX y Estado de México. Con dos impresionantes dragones de 3 metros de altura custodiando el castillo, resbaladilla integrada y mallas de seguridad laterales para visibilidad total, es la atracción estrella de cualquier fiesta infantil. Su diseño en rojo y dorado vibrante garantiza horas de diversión segura.",
   features: ["Dos dragones decorativos de 3 metros", "Resbaladilla integrada de alta velocidad", "Cuatro torres decorativas", "Mallas de seguridad laterales", "Material comercial de alta resistencia", "Motor inflador silencioso incluido"],
-  featureImages: ["/img/inflables/dragones-rojos/castillo-dragones-exterior-jardin.avif", "/img/inflables/dragones-rojos/castillo-dragones-lateral-cdmx.avif", "/img/inflables/dragones-rojos/castillo-dragones-renta-cdmx.avif", "/img/inflables/dragones-rojos/dragones-inflable-corporativo.avif", "/img/inflables/dragones-rojos/dragones-inflable-fiesta-infantil.avif", "/img/inflables/dragones-rojos/dragones-rojos-brincolin-evento.avif"],
+  featureImages: ["/img/inflables/dragones-rojos/castillo-dragones-renta-cdmx.avif", "/img/inflables/dragones-rojos/dragones-frontal-resbaladilla.avif", "/img/inflables/dragones-rojos/dragones-interior-lateral.avif", "/img/inflables/dragones-rojos/dragones-frontal-centrado.avif", "/img/inflables/dragones-rojos/dragones-terraza-exterior.avif", "/img/inflables/dragones-rojos/dragones-detalle-exterior.avif"],
   capacity: "5-7 niños simultáneamente",
   installTime: "20 minutos",
   requirements: "Espacio mínimo 5×5m, toma de corriente 110V a menos de 15m",
@@ -122,6 +122,7 @@ const inflable = {
       </section>
 
       
+      
       <section class="section section--alt">
         <div class="section-header">
           <h2 class="section-title">Características</h2>
@@ -130,14 +131,17 @@ const inflable = {
           {inflable.features.map((f: string, i: number) => {
             const img = inflable.featureImages[i % inflable.featureImages.length];
             return (
-              <div class="feature-img-card">
-                <div class="feature-img-card__img">
+              <article class="product-card">
+                <div class="product-card__image product-card__image--photo">
                   <img src={img} alt={f} loading="lazy" width="400" height="267" />
+                  <div class="product-card__overlay">
+                    <div class="product-card__stars">★★★★★</div>
+                  </div>
                 </div>
-                <div class="feature-img-card__body">
-                  <p class="feature-img-card__text">{f}</p>
+                <div class="product-card__body">
+                  <h3 class="product-card__name">{f}</h3>
                 </div>
-              </div>
+              </article>
             );
           })}
         </div>

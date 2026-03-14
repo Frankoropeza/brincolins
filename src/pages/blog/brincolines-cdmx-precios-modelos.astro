@@ -1,0 +1,299 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Brincolines en CDMX: Precios y Modelos 2025";
+const description = "Guía completa de precios y modelos de brincolines en la Ciudad de México. Compara inflables, descubre qué incluye la renta y encuentra la mejor opción para tu evento.";
+
+const faqs = [
+  { question: "¿Cuánto cuesta rentar un brincolín en CDMX?", answer: "Los precios van desde $900 MXN para modelos básicos como el Mini Castillo, hasta $1,500 MXN o más para inflables grandes como el Extremo o los acuáticos. El precio incluye transporte, instalación, seguro y retiro." },
+  { question: "¿El precio incluye transporte e instalación?", answer: "Sí. En BRINCOLINS el precio que te cotizamos es todo incluido: transporte a tu domicilio en CDMX o Estado de México, instalación profesional, uso durante tu evento, seguro de responsabilidad civil y retiro al finalizar. Sin costos ocultos." },
+  { question: "¿Hay descuento si rento más de un inflable?", answer: "Sí, manejamos precios especiales por paquetes de 2 o más inflables. También tenemos promociones para eventos entre semana. Escríbenos por WhatsApp y te damos la mejor cotización según tu evento." },
+  { question: "¿Necesito dejar anticipo para reservar?", answer: "Sí, con el 50% de anticipo por transferencia o depósito tu fecha queda apartada. El resto se liquida el día del evento antes de la instalación. Te enviamos comprobante de reservación por WhatsApp." },
+  { question: "¿Los precios cambian en temporada alta?", answer: "Nuestros precios base se mantienen todo el año. Sin embargo, en temporada alta (mayo, junio, diciembre) la disponibilidad se reduce rápidamente, así que te recomendamos reservar con más anticipación para garantizar tu inflable favorito." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog", href: "/blog/" },
+    { name: "Brincolines CDMX: precios y modelos" },
+  ]}
+>
+
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">💰 Precios</span>
+          <h1 class="hero__title">
+            Brincolines en CDMX: <span class="highlight">Precios y Modelos</span> 2025
+          </h1>
+          <div class="art-hero__meta">
+            <span>⏱️ 9 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">
+            La guía más completa de precios de brincolines en la Ciudad de México. Compara modelos, descubre qué incluye cada renta y elige la mejor opción para tu presupuesto.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20conocer%20los%20precios%20de%20sus%20brincolines."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">Pedir cotización</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Buscar <strong>precios de brincolines en CDMX</strong> puede ser confuso: algunos proveedores cobran transporte aparte, otros no incluyen instalación, y los precios varían enormemente según el modelo y la temporada. En <strong>BRINCOLINS</strong> queremos que tengas toda la información clara antes de decidir. Por eso creamos esta guía con <strong>precios reales, modelos disponibles y todo lo que incluye</strong> cada renta.
+          </p>
+          <p class="hero__copy-text">
+            Llevamos más de 20 años rentando inflables en la <strong>Ciudad de México</strong> y municipios del <strong>Estado de México</strong>. Nuestros precios incluyen transporte, instalación profesional, <strong>seguro de responsabilidad civil</strong> y retiro al terminar. Sin letra chica, sin sorpresas. Compara, pregunta y elige el <strong>brincolín perfecto para tu evento</strong> al mejor precio.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGEN DE PORTADA -->
+  <section style="padding:0 0 1rem;">
+    <div class="container">
+      <img src="/img/inflables/castillo-v3.avif" alt="Brincolines en CDMX precios y modelos - catálogo BRINCOLINS" width="1200" height="675" loading="eager"
+           style="width:100%;max-height:480px;object-fit:cover;border-radius:var(--r-card);display:block;box-shadow:var(--shadow-md);" />
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <section class="section">
+    <div class="container">
+      <div class="art-layout">
+        <article class="art-body">
+
+          <h2>Rangos de precios por modelo de inflable</h2>
+          <p>
+            Los precios de renta de <strong>brincolines en la Ciudad de México</strong> varían según el tamaño, la temática y las características del inflable. Aquí te presentamos los rangos de precio de nuestros modelos más populares para que puedas comparar y elegir el que mejor se ajuste a tu presupuesto:
+          </p>
+          <ul class="art-list">
+            <li><strong>Mini Castillo (4×4m):</strong> Desde $900 MXN. El modelo más compacto y económico. Perfecto para patios pequeños y niños de 2 a 7 años. Capacidad para 6-8 niños.</li>
+            <li><strong>Castillo Princesas (5×4m):</strong> Desde $950 MXN. Diseño en tonos rosas y morados con torres de princesa. Ideal para fiestas temáticas de cuento de hadas. Capacidad para 8-10 niños.</li>
+            <li><strong>Dragones Rojos (5×5m):</strong> Desde $1,000 MXN. Castillo rojo con dragones decorativos. El favorito para fiestas de aventura y fantasía. Capacidad para 10-12 niños.</li>
+            <li><strong>Barco Pirata (5×4m):</strong> Desde $1,000 MXN. Diseño de barco con mástil y banderas. Temática de piratas y aventura marina. Capacidad para 8-10 niños.</li>
+            <li><strong>Granja (5×5m):</strong> Desde $1,000 MXN. Decorado con animales de granja, ideal para los más pequeños. Capacidad para 10-12 niños.</li>
+            <li><strong>Tobogán Doble (6×4m):</strong> Desde $1,100 MXN. Incluye rampa de subida y doble tobogán de bajada. Diversión garantizada para niños de 5 a 12 años.</li>
+            <li><strong>Extremo (7×5m):</strong> Desde $1,300 MXN. Nuestro modelo más grande con área de salto, obstáculos y tobogán. Para fiestas grandes y eventos con muchos niños.</li>
+            <li><strong>Tobogán Acuático (6×4m):</strong> Desde $1,200 MXN. Con conexión de agua y alberca inflable. La estrella de las fiestas de verano. Capacidad para 8-10 niños.</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">💡</span>
+            <p><strong>Precios actualizados:</strong> Estos precios son referenciales. Para obtener una cotización exacta con disponibilidad en tu zona, escríbenos por WhatsApp. Respondemos en menos de 10 minutos.</p>
+          </div>
+
+          <h2>Qué incluye la renta de un brincolín con BRINCOLINS</h2>
+          <p>
+            Uno de los errores más comunes al comparar precios de inflables es no revisar qué incluye cada cotización. Algunos proveedores te dan un precio bajo pero luego cobran transporte, instalación o seguro por separado. En <strong>BRINCOLINS</strong>, nuestro precio siempre incluye todo:
+          </p>
+          <ul class="art-list">
+            <li><strong>Transporte ida y vuelta</strong> a tu domicilio en CDMX y zona metropolitana (Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Atizapán y más)</li>
+            <li><strong>Instalación profesional</strong> por nuestro equipo capacitado — anclaje seguro, inflado correcto y revisión completa</li>
+            <li><strong>Seguro de responsabilidad civil</strong> que cubre accidentes durante el uso del inflable</li>
+            <li><strong>Uso durante tu evento</strong> (generalmente 4-6 horas, flexible según tu necesidad)</li>
+            <li><strong>Retiro y desmontaje</strong> al finalizar tu evento — no tienes que hacer nada</li>
+            <li><strong>Sanitización previa:</strong> Cada inflable se limpia y desinfecta con productos biodegradables antes de cada renta</li>
+            <li><strong>Asesoría personalizada</strong> para elegir el modelo ideal según tu espacio, edades de los niños y temática</li>
+          </ul>
+          <p>
+            Cuando compares precios con otros proveedores, asegúrate de que su cotización incluya todos estos elementos. Un precio "barato" que no incluye transporte ni seguro termina siendo más caro al final.
+          </p>
+
+          <h2>Factores que afectan el precio de renta</h2>
+          <p>
+            Más allá del modelo elegido, hay factores que pueden influir en el precio final de tu renta de brincolín:
+          </p>
+          <ul class="art-list">
+            <li><strong>Ubicación del evento:</strong> Entregas dentro de CDMX y municipios cercanos del Estado de México tienen el transporte incluido. Para ubicaciones más alejadas puede aplicar un cargo adicional mínimo por kilometraje.</li>
+            <li><strong>Duración del evento:</strong> La renta estándar cubre 4-6 horas. Si necesitas el inflable por más tiempo (eventos de día completo), podemos ajustar el precio con un pequeño cargo extra.</li>
+            <li><strong>Día de la semana:</strong> Los eventos entre semana (lunes a jueves) suelen tener mejor disponibilidad y en ocasiones ofrecemos promociones especiales.</li>
+            <li><strong>Número de inflables:</strong> Si rentas 2 o más inflables para el mismo evento, aplicamos descuento por paquete. Entre más inflables, mejor precio unitario.</li>
+            <li><strong>Accesorios adicionales:</strong> Generador eléctrico (para eventos sin toma de corriente) tiene un costo extra moderado.</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">📞</span>
+            <p><strong>Cotización exacta en minutos:</strong> Cada evento es diferente. Mándanos por WhatsApp los detalles de tu fiesta (lugar, número de niños, horario) y te enviamos una cotización personalizada sin compromiso.</p>
+          </div>
+
+          <h2>Cómo ahorrar en la renta de tu brincolín</h2>
+          <p>
+            Queremos que tengas la mejor experiencia al mejor precio. Aquí van consejos prácticos para optimizar tu presupuesto:
+          </p>
+          <ul class="art-list">
+            <li><strong>Reserva con anticipación:</strong> No esperes a la última semana. Reservar con 2-3 semanas de anticipación te asegura disponibilidad y evita precios de urgencia con otros proveedores.</li>
+            <li><strong>Considera eventos entre semana:</strong> Si la fiesta puede ser un viernes por la tarde en vez de sábado, la disponibilidad es mayor y en ocasiones hay promociones.</li>
+            <li><strong>Elige el modelo correcto:</strong> No necesitas el inflable más grande si la fiesta es para 10 niños en un patio pequeño. Un Mini Castillo puede ser la opción perfecta y más económica.</li>
+            <li><strong>Renta paquetes:</strong> Si necesitas más de un inflable, el precio por unidad baja significativamente. Pregunta por nuestros paquetes de 2 y 3 inflables.</li>
+            <li><strong>Comparte con vecinos:</strong> Algunos de nuestros clientes más creativos organizan fiestas compartidas entre 2-3 familias del vecindario, dividiendo el costo del inflable entre todos.</li>
+          </ul>
+
+          <h2>Comparación de modelos: cuál te conviene más</h2>
+          <p>
+            Para facilitar tu decisión, aquí va una comparación directa de nuestros modelos más solicitados según diferentes criterios:
+          </p>
+
+          <h3>Por presupuesto</h3>
+          <ul class="art-list">
+            <li><strong>Presupuesto ajustado (menos de $1,000):</strong> Mini Castillo o Castillo Princesas — excelente relación calidad-precio para fiestas íntimas</li>
+            <li><strong>Presupuesto medio ($1,000-$1,200):</strong> Dragones Rojos, Barco Pirata o Granja — modelos temáticos con mayor capacidad</li>
+            <li><strong>Sin límite de presupuesto ($1,200+):</strong> Extremo, Tobogán Acuático o paquete de 2 inflables — la experiencia completa</li>
+          </ul>
+
+          <h3>Por edad de los niños</h3>
+          <ul class="art-list">
+            <li><strong>Niños de 2-5 años:</strong> Mini Castillo o Granja (acceso fácil, altura baja, superficie amplia)</li>
+            <li><strong>Niños de 6-9 años:</strong> Castillo Princesas, Dragones Rojos o Barco Pirata (temáticos, divertidos, con espacio para jugar en grupo)</li>
+            <li><strong>Niños de 10-12 años:</strong> Extremo o Tobogán Doble (más desafiantes, con obstáculos y toboganes)</li>
+            <li><strong>Verano:</strong> Tobogán Acuático (la opción número 1 para fiestas de calor en CDMX)</li>
+          </ul>
+
+          <h3>Por tamaño de espacio</h3>
+          <ul class="art-list">
+            <li><strong>Espacio pequeño (4×4m):</strong> Mini Castillo es tu única opción, pero es excelente</li>
+            <li><strong>Espacio mediano (5×5m):</strong> Castillo Princesas, Dragones Rojos, Barco Pirata, Granja</li>
+            <li><strong>Espacio grande (6×5m o más):</strong> Extremo, Tobogán Doble, Tobogán Acuático — aprovecha el espacio al máximo</li>
+          </ul>
+
+          <h2>Por qué BRINCOLINS ofrece la mejor relación calidad-precio</h2>
+          <p>
+            En un mercado con muchos proveedores, la diferencia no siempre es el precio — es lo que recibes por ese precio. Esto es lo que hace que <strong>BRINCOLINS</strong> sea la mejor inversión para tu evento:
+          </p>
+          <ul class="art-list">
+            <li><strong>Más de 20 años de trayectoria:</strong> No somos improvisados. Conocemos cada colonia de CDMX, cada tipo de espacio, cada posible complicación logística.</li>
+            <li><strong>Inflables en excelente estado:</strong> Renovamos nuestro inventario constantemente. No verás inflables descoloridos ni parchados.</li>
+            <li><strong>Todo incluido de verdad:</strong> Transporte, instalación, seguro, sanitización y retiro. El precio que ves es el precio que pagas.</li>
+            <li><strong>Atención por WhatsApp en tiempo real:</strong> Cotizamos en minutos, no en días. Respondemos dudas antes, durante y después del evento.</li>
+            <li><strong>Flexibilidad:</strong> ¿Cambió tu fecha? ¿Necesitas otro modelo? Nos adaptamos sin problema ni penalizaciones.</li>
+            <li><strong>Garantía de satisfacción:</strong> Si el inflable falla durante tu evento, lo reemplazamos o te devolvemos tu dinero.</li>
+          </ul>
+          <p>
+            Nuestros clientes nos eligen no solo por precio, sino por la tranquilidad de saber que todo va a salir bien. Cuando contratas con <strong>BRINCOLINS</strong>, la diversión está garantizada.
+          </p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">⭐</span>
+            <p><strong>Clientes satisfechos:</strong> Más del 85% de nuestras rentas vienen de recomendaciones de clientes anteriores. Esa es nuestra mejor publicidad.</p>
+          </div>
+
+        </article>
+
+        <!-- Sidebar -->
+        <aside class="art-sidebar">
+          <div class="art-sidebar__box">
+            <h3 class="art-sidebar__title">💰 Cotización rápida</h3>
+            <p class="art-sidebar__text">Dinos el modelo que te interesa y te enviamos precio exacto con disponibilidad en tu zona.</p>
+            <a
+              href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20una%20cotizaci%C3%B3n%20de%20brincolines%20para%20mi%20evento."
+              class="btn btn-wa"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="width:100%;justify-content:center;"
+            >
+              Pedir cotización
+            </a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--links">
+            <h3 class="art-sidebar__title">🗂️ Artículos relacionados</h3>
+            <a href="/blog/inflable-dragones-rojos-cdmx/" class="art-sidebar__link">→ Inflable Dragones Rojos en CDMX</a>
+            <a href="/blog/castillo-inflable-cumpleanos-infantil-cdmx/" class="art-sidebar__link">→ Castillo inflable para cumpleaños</a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--cat">
+            <h3 class="art-sidebar__title">🎪 Modelos populares</h3>
+            <a href="/inflables/mini-castillo/" class="art-sidebar__link">→ Mini Castillo — desde $900</a>
+            <a href="/inflables/dragones-rojos/" class="art-sidebar__link">→ Dragones Rojos — desde $1,000</a>
+            <a href="/inflables/extremo/" class="art-sidebar__link">→ Extremo — desde $1,300</a>
+            <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Ver catálogo completo</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div style="max-width:800px; margin:0 auto;">
+        <h2 class="section-title" style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <CtaBanner
+    title="💰 ¡Los mejores precios en brincolines de CDMX!"
+    subtitle="Cotiza sin compromiso y descubre por qué somos la opción favorita de las familias en la Ciudad de México."
+    btnText="Cotizar por WhatsApp"
+    btnHref="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20conocer%20precios%20de%20brincolines."
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+    whatsapp={true}
+    external={true}
+  />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "author": { "@type": "Organization", "name": "BRINCOLINS" },
+    "publisher": { "@type": "Organization", "name": "BRINCOLINS", "url": "https://brincolins.com" },
+    "mainEntityOfPage": "https://brincolins.com/blog/brincolines-cdmx-precios-modelos/"
+  })} />
+
+</PageLayout>
+
+<style>
+  .art-hero__back { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; margin-bottom: 0.5rem; }
+  .art-hero__back:hover { gap: 0.6rem; }
+  .art-hero__meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--c-text-muted); margin-bottom: 0.5rem; }
+  .art-hero__sep { opacity: 0.4; }
+
+  .art-layout { display: grid; grid-template-columns: 1fr 320px; gap: 3rem; align-items: start; }
+  .art-body { min-width: 0; }
+  .art-body h2 { font-family: var(--font-head); font-weight: 800; font-size: clamp(1.25rem, 2.5vw, 1.5rem); color: var(--c-text); margin: 2.5rem 0 1rem; padding-top: 0.5rem; border-top: 3px solid var(--c-primary); }
+  .art-body h2:first-child { margin-top: 0; }
+  .art-body h3 { font-family: var(--font-head); font-weight: 700; font-size: 1.1rem; color: var(--c-text); margin: 1.5rem 0 0.75rem; }
+  .art-body p { font-size: 1rem; line-height: 1.75; color: var(--c-text); margin: 0 0 1.25rem; }
+  .art-body strong { color: var(--c-primary); font-weight: 700; }
+
+  .art-tip { display: flex; gap: 1rem; align-items: flex-start; background: #fff8f5; border-left: 4px solid var(--c-primary); border-radius: 0 var(--r-card) var(--r-card) 0; padding: 1.25rem 1.5rem; margin: 1.5rem 0; }
+  .art-tip__icon { font-size: 1.5rem; flex-shrink: 0; }
+  .art-tip p { margin: 0; font-size: 0.95rem; }
+
+  .art-list { padding-left: 1.5rem; margin: 0 0 1.25rem; display: flex; flex-direction: column; gap: 0.6rem; }
+  .art-list li { font-size: 1rem; line-height: 1.6; color: var(--c-text); list-style: disc; }
+
+  .art-sidebar { display: flex; flex-direction: column; gap: 1.5rem; position: sticky; top: 90px; }
+  .art-sidebar__box { background: var(--c-bg-alt); border: 1px solid var(--c-border); border-radius: var(--r-card); padding: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem; }
+  .art-sidebar__box--links, .art-sidebar__box--cat { gap: 0.5rem; }
+  .art-sidebar__title { font-family: var(--font-head); font-weight: 800; font-size: 1rem; color: var(--c-text); margin: 0; }
+  .art-sidebar__text { font-size: 0.9rem; color: var(--c-text-muted); line-height: 1.6; margin: 0; }
+  .art-sidebar__link { font-size: 0.88rem; color: var(--c-primary); font-weight: 600; text-decoration: none; padding: 0.35rem 0; display: block; border-bottom: 1px solid var(--c-border); transition: padding-left 0.2s; }
+  .art-sidebar__link:last-child { border-bottom: none; }
+  .art-sidebar__link:hover { padding-left: 0.4rem; }
+  .art-sidebar__link--cta { color: var(--c-secondary); font-weight: 800; }
+
+  @media (max-width: 960px) {
+    .art-layout { grid-template-columns: 1fr; }
+    .art-sidebar { position: static; }
+  }
+</style>
