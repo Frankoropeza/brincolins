@@ -2578,10 +2578,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.3s ease;
-}
-.gallery__item:hover img {
-  transform: scale(1.05);
 }
 @media (max-width: 600px) {
   .gallery { grid-template-columns: repeat(2, 1fr); }
