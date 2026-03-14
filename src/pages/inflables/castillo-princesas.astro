@@ -2,6 +2,7 @@
 import PageLayout from "@/layouts/PageLayout.astro";
 import Sidebar from "@/components/Sidebar.astro";
 import ProductCard from "@/components/ProductCard.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 
 const title = "Renta de Castillo de Princesas Inflable | BRINCOLINS CDMX";
@@ -115,42 +116,7 @@ const inflable = {
       </section>
 
       <section class="section section--alt">
-        <div class="section-header">
-          <span class="section-badge">✅ Incluido en tu renta</span>
-          <h2 class="section-title">Características</h2>
-        </div>
-        <div class="grid-3">
-          {inflable.features.map((f: string, i: number) => {
-            const img = inflable.featureImages[i % inflable.featureImages.length];
-            return (
-              <div class="feature-img-card">
-                <div class="feature-img-card__img">
-                  <img src={img} alt={f} loading="lazy" width="400" height="267" />
-                </div>
-                <div class="feature-img-card__body">
-                  <p class="feature-img-card__text">{f}</p>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </section>
-
-    </main>
-    <aside>
-      <Sidebar currentSlug={inflable.slug} />
-    </aside>
-  </div>
-
-
-  <section class="section section--alt">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-badge">🎈 Más inflables</span>
-          <h2 class="section-title">Otros inflables que te pueden interesar</h2>
-          <hr class="section-separator">
-          <p class="section-subtitle">Todos incluyen entrega, instalación y seguro en CDMX y Edomex</p>
-      </div>
+        <SectionHeader badge="✅ Incluido en tu renta" title="Características del Inflable" subtitle="Todo lo que incluye tu renta del Castillo de Princesas" copy1="El Castillo de Princesas es el favorito para fiestas de niñas en CDMX. Fabricado con PVC de grado comercial, sus torres rosas y turquesa y la resbaladilla integrada crean el escenario mágico perfecto." copy2="Incluye motor inflador silencioso, mallas de seguridad en todos los costados y proceso de sanitización certificado. Capacidad para 5-7 niñas simultáneamente con supervisión total desde el exterior." />
       <div class="grid-4">
           <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más rentado. Dos dragones de 3m con resbaladilla y mallas de seguridad." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
           <ProductCard slug="mini-jungla" emoji="🌴" name="Mini Jungla" description="Inflable temático con animales y palmeras tropicales." price="$1,200" size="4×4×3m" ages="3-10 años" category="Aventura" categoryColor="jungla" gradient="#2E7D32, #1B5E20" image="/img/inflables/mini-jungla.avif" />

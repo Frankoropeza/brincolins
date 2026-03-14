@@ -2,6 +2,7 @@
 import PageLayout from "@/layouts/PageLayout.astro";
 import Sidebar from "@/components/Sidebar.astro";
 import ProductCard from "@/components/ProductCard.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 
 const title = "Renta de Extremo Inflable | BRINCOLINS CDMX";
@@ -120,42 +121,7 @@ const inflable = {
       </section>
 
       <section class="section section--alt">
-        <div class="section-header">
-          <span class="section-badge">✅ Incluido en tu renta</span>
-          <h2 class="section-title">Características</h2>
-        </div>
-        <div class="grid-3">
-          {inflable.features.map((f: string, i: number) => {
-            const img = inflable.featureImages[i % inflable.featureImages.length];
-            return (
-              <div class="feature-img-card">
-                <div class="feature-img-card__img">
-                  <img src={img} alt={f} loading="lazy" width="400" height="267" />
-                </div>
-                <div class="feature-img-card__body">
-                  <p class="feature-img-card__text">{f}</p>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </section>
-
-    </main>
-    <aside>
-      <Sidebar currentSlug={inflable.slug} />
-    </aside>
-  </div>
-
-
-  <section class="section section--alt">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-badge">🎈 Más inflables</span>
-          <h2 class="section-title">Otros inflables que te pueden interesar</h2>
-          <hr class="section-separator">
-          <p class="section-subtitle">Todos incluyen entrega, instalación y seguro en CDMX y Edomex</p>
-      </div>
+        <SectionHeader badge="✅ Incluido en tu renta" title="Características del Inflable" subtitle="Todo lo que incluye tu renta del Extremo" copy1="El Extremo es el circuito de obstáculos más completo disponible en CDMX. Con 12 metros de largo, doble carril para carreras simultáneas, muros para escalar, túneles y tobogán final, es la atracción perfecta para eventos grandes." copy2="Capacidad para 10-20 niños simultáneamente. Incluye motor industrial de alta potencia, señalización de seguridad, operador de supervisión opcional y sanitización certificada antes de cada instalación." />
       <div class="grid-4">
           <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más rentado. Dos dragones de 3m con resbaladilla y mallas de seguridad." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
           <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla incluida." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
