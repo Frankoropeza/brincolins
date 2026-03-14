@@ -2558,3 +2558,31 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.75rem;
   line-height: 1.3;
 }
+
+/* ── Galería 3×3 de producto ── */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  border-radius: var(--r-card);
+  overflow: hidden;
+}
+.gallery__item {
+  display: block;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+.gallery__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.gallery__item:hover img {
+  transform: scale(1.05);
+}
+@media (max-width: 600px) {
+  .gallery { grid-template-columns: repeat(2, 1fr); }
+}
