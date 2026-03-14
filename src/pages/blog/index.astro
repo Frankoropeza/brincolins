@@ -14,7 +14,6 @@ const articulos = [
     category: "Guías",
     title:    "Cómo elegir el inflable perfecto para tu fiesta infantil",
     excerpt:  "Tamaño, edad, espacio disponible y presupuesto: todo lo que necesitas considerar para no equivocarte al rentar un brincolín en CDMX o Edomex.",
-    date:     "10 mar 2025",
     readTime: "5 min",
     gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)",
     image:    "/img/inflables/castillo-v3.avif",
@@ -25,7 +24,6 @@ const articulos = [
     category: "Ideas",
     title:    "10 ideas para organizar una fiesta infantil épica en CDMX",
     excerpt:  "Desde la temática hasta el menú y los inflables: ideas prácticas para planear un cumpleaños que los niños recordarán toda la vida.",
-    date:     "20 feb 2025",
     readTime: "7 min",
     gradient: "linear-gradient(135deg, #7C3AED, #E91E8C)",
     image:    "/img/inflables/mini-castillo-v3.avif",
@@ -36,7 +34,6 @@ const articulos = [
     category: "Consejos",
     title:    "Primera vez rentando un inflable: lo que nadie te dice",
     excerpt:  "Depósito, espacio mínimo, conexión eléctrica, seguro... Todo lo que debes saber antes de contratar un brincolín para no llevarte sorpresas.",
-    date:     "5 feb 2025",
     readTime: "6 min",
     gradient: "linear-gradient(135deg, #0288D1, #1565C0)",
     image:    "/img/inflables/gusanitos-v3.avif",
@@ -47,7 +44,6 @@ const articulos = [
     category: "Precios",
     title:    "¿Cuánto cuesta rentar un inflable en CDMX? Guía de precios 2025",
     excerpt:  "Desde $650 hasta $2,500 MXN: todo sobre precios de brincolines en CDMX, qué incluye el servicio y cómo evitar costos ocultos.",
-    date:     "11 mar 2025",
     readTime: "6 min",
     gradient: "linear-gradient(135deg, #F59E0B, #D97706)",
     image:    "/img/inflables/mini-jungla-v4.avif",
@@ -58,7 +54,6 @@ const articulos = [
     category: "Seguridad",
     title:    "Seguridad en inflables: lo que todo papá debe saber",
     excerpt:  "Cómo revisar un inflable al llegar, reglas básicas de uso y cómo elegir un proveedor seguro en CDMX. Guía completa para papás.",
-    date:     "11 mar 2025",
     readTime: "7 min",
     gradient: "linear-gradient(135deg, #10B981, #059669)",
     image:    "/img/inflables/extremo-v3.avif",
@@ -69,7 +64,6 @@ const articulos = [
     category: "Acuáticos",
     title:    "Inflables acuáticos para el verano en CDMX: guía completa",
     excerpt:  "Todo sobre toboganes, albercas y parques acuáticos para fiestas en primavera. Precios, temporada y consejos para la fiesta más refrescante del año.",
-    date:     "11 mar 2025",
     readTime: "6 min",
     gradient: "linear-gradient(135deg, #0288D1, #0EA5E9)",
     image:    "/img/inflables/castillo-v4.avif",
@@ -80,7 +74,6 @@ const articulos = [
     category: "Eventos",
     title:    "Inflables para adultos: eventos corporativos y team building",
     excerpt:  "Descubre cómo los inflables pueden transformar tu evento corporativo en una experiencia memorable de integración y diversión para adultos.",
-    date:     "12 mar 2025",
     readTime: "7 min",
     gradient: "linear-gradient(135deg, #E65100, #BF360C)",
     image:    "/img/inflables/extremo-v4.avif",
@@ -91,7 +84,6 @@ const articulos = [
     category: "Decoración",
     title:    "Cómo decorar tu fiesta infantil alrededor del inflable",
     excerpt:  "Tips de decoración, coordinación de colores, mesas temáticas y áreas de fotos para complementar el inflable de tu fiesta.",
-    date:     "12 mar 2025",
     readTime: "6 min",
     gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)",
     image:    "/img/inflables/castillo-princesas-v3.avif",
@@ -102,7 +94,6 @@ const articulos = [
     category: "Eventos",
     title:    "Inflables para bodas y XV años: elegancia y diversión",
     excerpt:  "Cómo integrar inflables en eventos formales. Castillo Blanco, opciones elegantes y tips para que la diversión no comprometa la estética.",
-    date:     "12 mar 2025",
     readTime: "6 min",
     gradient: "linear-gradient(135deg, #7E57C2, #9575CD)",
     image:    "/img/inflables/castillo-blanco-v4.avif",
@@ -113,7 +104,6 @@ const articulos = [
     category: "Paquetes",
     title:    "Paquetes completos para fiesta con inflable en CDMX",
     excerpt:  "Guía de paquetes todo incluido: inflable + mobiliario + iluminación. Cuánto cuestan, qué incluyen y cómo ahorrar en tu fiesta.",
-    date:     "12 mar 2025",
     readTime: "7 min",
     gradient: "linear-gradient(135deg, #00C853, #2E7D32)",
     image:    "/img/inflables/barco-pirata-v4.avif",
@@ -179,9 +169,8 @@ const [featured, ...resto] = articulos;
         </a>
         <div class="featured-body">
           <div class="featured-meta">
-            <time>{featured.date}</time>
-            <span>·</span>
-            <span>{featured.readTime} lectura</span>
+            <span class="featured-cat-pill">{featured.category}</span>
+            <span>⏱ {featured.readTime} lectura</span>
           </div>
           <h2 class="featured-title">
             <a href={`/blog/${featured.slug}/`}>{featured.title}</a>
