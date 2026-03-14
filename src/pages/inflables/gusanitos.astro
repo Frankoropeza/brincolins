@@ -5,8 +5,8 @@ import ProductCard from "@/components/ProductCard.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 
-const title = "Renta de Gusanitos Inflable | BRINCOLINS CDMX";
-const description = "Renta el inflable Gusanitos para fiestas infantiles en CDMX y Edomex. Gusanitos coloridos con palmeras tropicales. Desde $1,200 MXN con entrega incluida.";
+const title = "Renta Inflable Gusanitos | BRINCOLINS CDMX y Edomex";
+const description = "Renta el inflable Gusanitos para fiestas infantiles en CDMX y Edomex. Diseño tropical vibrante con resbaladilla. Desde $1,200 MXN con entrega incluida.";
 
 const inflable = {
   slug: "gusanitos",
@@ -19,10 +19,10 @@ const inflable = {
   gradient: "#558B2F, #827717",
   desc: "El inflable Gusanitos destaca por sus coloridos personajes de gusanitos verde y morado con palmeras tropicales decorativas. Con una amplia área de salto en colores verde, morado, amarillo y azul, es uno de los inflables más originales y divertidos de nuestro catálogo. Su diseño vibrante lo hace perfecto para cumpleaños y eventos al aire libre.",
   features: ["Gusanitos decorativos verde y morado", "Palmeras tropicales decorativas", "Amplia área de salto", "Colores vibrantes y llamativos", "Motor inflador silencioso", "Extensión eléctrica incluida"],
+  featureExcerpts: ["Personajes de gusanito verde y morado de 2 metros de altura — decoración única que distingue esta renta de cualquier otra.", "Palmeras tropicales en los extremos que crean un ambiente de fiesta hawaiana o safari en cualquier jardín.", "Zona de salto amplia para 5-7 niños simultáneos. Superficie acolchonada de PVC de grado comercial 18oz.", "Combinación cromática en verde, morado, amarillo y azul que hace de este inflable el más fotografiado de las fiestas.", "Motor de bajo ruido que no interfiere con la música ni las pláticas durante el evento. Incluido sin costo extra.", "Extensión eléctrica de 15 metros incluida — sin necesidad de tener un contacto justo al lado del inflable."],
   featureImages: ["/img/inflables/gusanitos/gusanitos-brincolin-evento.avif", "/img/inflables/gusanitos/gusanitos-exterior-jardin.avif", "/img/inflables/gusanitos/gusanitos-inflable-fiesta.avif", "/img/inflables/gusanitos/gusanitos-lateral-cdmx.avif", "/img/inflables/gusanitos/gusanitos-renta-cdmx.avif", "/img/inflables/gusanitos/gusanitos-vista-general.avif"],
   capacity: "5-7 niños simultáneamente",
   installTime: "20 minutos",
-  requirements: "Espacio mínimo 5×5m, toma de corriente 110V a menos de 15m",
   image: "/img/inflables/gusanitos.avif",
 };
 ---
@@ -60,10 +60,10 @@ const inflable = {
     <div class="container">
       <div class="hero__grid">
 
-        <!-- Columna 1: título + CTAs -->
+        <!-- Columna 1: badge + H1 + CTAs -->
         <div>
-          <span class="hero__badge">🐛 Diversión tropical y colorida</span>
-          <h1 class="hero__title">Renta <span class="highlight">Gusanitos</span> para tu Fiesta</h1>
+          <span class="hero__badge">🐛 El más colorido y tropical</span>
+          <h1 class="hero__title">Renta Inflable <span class="highlight">Gusanitos</span> para tu Fiesta en CDMX</h1>
           <div class="hero__ctas">
             <a href={`https://wa.me/5547868402?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}. ¿Tienen disponibilidad?`)}`}
                class="btn btn-wa btn-lg" target="_blank" rel="noopener">
@@ -76,21 +76,21 @@ const inflable = {
 
         <!-- Columna 2: 2 párrafos SEO -->
         <div class="hero__copy">
-          <p class="hero__copy-text">El <strong>inflable Gusanitos de BRINCOLINS</strong> es uno de los diseños más originales y coloridos de nuestro catálogo para fiestas infantiles en <strong>CDMX y Estado de México</strong>. Con simpáticos gusanitos decorativos en verde y morado, palmeras tropicales y una amplia zona de salto multicolor, garantiza horas de diversión para niños de 4 a 10 años. Fabricado con <strong>material de grado comercial</strong> y sanitizado antes de cada evento.</p>
-          <p class="hero__copy-text">La renta incluye <strong>entrega a domicilio, instalación profesional en 20 minutos, motor inflador silencioso, extensión eléctrica y seguro de responsabilidad civil</strong> sin costo adicional. Perfecto para cumpleaños y eventos al aire libre. Cubrimos las <strong>16 alcaldías de CDMX</strong> y municipios del Estado de México: Naucalpan, Tlalnepantla, Ecatepec y más. Reserva con el 50% de anticipo.</p>
+          <p class="hero__copy-text">El <strong>inflable Gusanitos de BRINCOLINS</strong> destaca por su diseño tropical multicolor con gusanitos decorativos en verde y morado, palmeras y una amplia zona de salto. Es uno de los inflables más originales y fotografiados de nuestro catálogo, perfecto para <strong>cumpleaños y eventos al aire libre</strong> en CDMX y Estado de México. Fabricado en <strong>PVC de grado comercial resistente</strong>.</p>
+          <p class="hero__copy-text">La renta incluye <strong>entrega, instalación en 20 minutos, motor silencioso, extensión eléctrica y seguro de responsabilidad civil</strong> sin costo adicional. Atendemos las <strong>16 alcaldías de CDMX</strong> y los principales municipios del Estado de México. Reserva con el 50% de anticipo — cotiza por WhatsApp y recibe respuesta en minutos.</p>
         </div>
 
       </div>
     </div>
   </section>
 
-<!-- Contenido + Sidebar -->
+  <!-- Contenido + Sidebar -->
   <div class="page-with-sidebar">
     <main class="page-with-sidebar__main">
 
       <section class="section">
         <div class="product-info">
-          <h2 class="product-info__title">Renta de Gusanitos Inflable en CDMX — Diversión Colorida para Fiestas Infantiles</h2>
+          <h2 class="product-info__title">Renta de Inflable Gusanitos en CDMX — Diversión Tropical y Colores Vibrantes</h2>
           <p class="product-info__desc">{inflable.desc}</p>
           <div class="product-info__specs">
             <div class="product-info__spec"><span class="product-info__label">Medidas</span><strong>{inflable.size}</strong></div>
@@ -98,13 +98,16 @@ const inflable = {
             <div class="product-info__spec"><span class="product-info__label">Capacidad</span><strong>{inflable.capacity}</strong></div>
             <div class="product-info__spec"><span class="product-info__label">Instalación</span><strong>{inflable.installTime}</strong></div>
             <div class="product-info__spec"><span class="product-info__label">Precio</span><strong style="color:var(--c-primary);">Desde {inflable.price} MXN</strong></div>
-          </div></div>
+          </div>
+        </div>
       </section>
 
-      
       <section class="section" style="padding-top:0;">
         <div class="product-info">
-          <h3 style="font-family:var(--font-head);font-weight:800;font-size:1.05rem;margin-bottom:1rem;color:var(--c-text);">Galería de fotos</h3>
+          <div class="section-header" style="margin-bottom:1.25rem;">
+            <span class="section-badge">📸 Fotos reales</span>
+            <h2 class="section-title">Galería de fotos</h2>
+          </div>
           <div class="gallery">
         <div class="gallery__item"><img src="/img/inflables/gusanitos/gusanitos-brincolin-evento.avif" alt="gusanitos renta CDMX" loading="lazy" width="400" height="267" /></div>
         <div class="gallery__item"><img src="/img/inflables/gusanitos/gusanitos-exterior-jardin.avif" alt="gusanitos renta CDMX" loading="lazy" width="400" height="267" /></div>
@@ -112,17 +115,58 @@ const inflable = {
         <div class="gallery__item"><img src="/img/inflables/gusanitos/gusanitos-lateral-cdmx.avif" alt="gusanitos renta CDMX" loading="lazy" width="400" height="267" /></div>
         <div class="gallery__item"><img src="/img/inflables/gusanitos/gusanitos-renta-cdmx.avif" alt="gusanitos renta CDMX" loading="lazy" width="400" height="267" /></div>
         <div class="gallery__item"><img src="/img/inflables/gusanitos/gusanitos-vista-general.avif" alt="gusanitos renta CDMX" loading="lazy" width="400" height="267" /></div>
-      </div>
+          </div>
         </div>
       </section>
 
       <section class="section section--alt">
-        <SectionHeader badge="✅ Incluido en tu renta" title="Características del Inflable" subtitle="Todo lo que incluye tu renta de Gusanitos" copy1="Los Gusanitos son un inflable tropical ideal para fiestas infantiles en CDMX. Su diseño multicolor con gusanitos decorativos y arcos de colores vibrantes crea un ambiente divertido y alegre para niños de 4 a 10 años." copy2="Fabricado en PVC de grado comercial. Incluye resbaladilla integrada, motor silencioso, mallas de seguridad y sanitización certificada antes de cada evento en tu domicilio." />
+        <SectionHeader
+          badge="✅ Incluido en tu renta"
+          title="Características del Inflable"
+          subtitle="Todo lo que incluye tu renta de Gusanitos"
+          copy1="El inflable Gusanitos es el más colorido y original de nuestro catálogo. Sus personajes tropicales de 2 metros, las palmeras decorativas y la combinación de colores vibrantes lo convierten en el inflable más fotografiado de cualquier fiesta infantil."
+          copy2="Incluye resbaladilla integrada, motor silencioso, extensión eléctrica de 15m, mallas de seguridad y sanitización certificada antes de cada evento en CDMX y Edomex."
+        />
+        <div class="grid-3">
+          {inflable.features.map((f: string, i: number) => {
+            const img = inflable.featureImages[i % inflable.featureImages.length];
+            const excerpt = inflable.featureExcerpts ? inflable.featureExcerpts[i] : "";
+            return (
+              <article class="feat-card">
+                <div class="feat-card__img">
+                  <img src={img} alt={f} loading="lazy" width="400" height="267" />
+                  <span class="feat-card__num">{String(i + 1).padStart(2, "0")}</span>
+                </div>
+                <div class="feat-card__body">
+                  <h3 class="feat-card__title">{f}</h3>
+                  {excerpt && <p class="feat-card__excerpt">{excerpt}</p>}
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+
+    </main>
+    <aside>
+      <Sidebar currentSlug={inflable.slug} />
+    </aside>
+  </div>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🎈 Más inflables"
+        title="Otros inflables que te pueden interesar"
+        subtitle="Todos con entrega, instalación y seguro incluidos en CDMX y Edomex"
+        copy1="Complementa tu fiesta con otros inflables: la Mini Jungla para aventura selvática, el Castillo de Princesas para niñas, los Dragones Rojos para los más pequeños aventureros o el épico Barco Pirata."
+        copy2="Todos los inflables incluyen entrega, instalación y seguro. Cotiza sin compromiso por WhatsApp — respuesta en minutos y reserva con el 50% de anticipo para asegurar la fecha de tu evento."
+      />
       <div class="grid-4">
-          <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más rentado. Dos dragones de 3m con resbaladilla y mallas de seguridad." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
-          <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla incluida." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
-          <ProductCard slug="mini-jungla" emoji="🌴" name="Mini Jungla" description="Inflable temático con animales y palmeras tropicales." price="$1,200" size="4×4×3m" ages="3-10 años" category="Aventura" categoryColor="jungla" gradient="#2E7D32, #1B5E20" image="/img/inflables/mini-jungla.avif" />
-          <ProductCard slug="mini-castillo" emoji="🏰" name="Mini Castillo" description="Compacto para bebés. Perfecto para interiores y espacios reducidos." price="$800" size="2×2×2m" ages="1-4 años" category="Chico" categoryColor="castillo" gradient="#FF3D00, #ff6d3f" image="/img/inflables/mini-castillo.avif" />
+          <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El inflable Dragones Rojos es el más rentado en CDMX y Estado de México. Con dos impresionantes dragones de 3 metros de altura custodiando el castillo, resbaladilla integrada y mallas de seguridad laterales para visibilidad total, es la atracción estrella de cualquier fiesta infantil. Su diseño en rojo y dorado vibrante garantiza horas de diversión segura." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
+          <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="El Castillo de Princesas es un inflable rosa y turquesa con dos elegantes princesas de 3 metros de altura y resbaladilla incluida. Con mallas de seguridad laterales para supervisión total, es el favorito absoluto para fiestas temáticas de niñas. Su diseño colorido y sus detalles de torres lo convierten en la atracción más fotografiada de cualquier celebración." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
+          <ProductCard slug="mini-castillo" emoji="🏰" name="Mini Castillo" description="El Mini Castillo es el inflable perfecto para bebés y niños pequeños. Con dimensiones compactas de 2×2 metros y solo 2 metros de altura, cabe perfectamente en departamentos, salones pequeños y jardines reducidos. Sus paredes suaves están diseñadas especialmente para la seguridad de los más pequeños, y su tamaño permite una fácil supervisión desde cualquier ángulo." price="$800" size="2×2×2m" ages="1-4 años" category="Chico" categoryColor="castillo" gradient="#FF3D00, #ff6d3f" image="/img/inflables/mini-castillo.avif" />
+          <ProductCard slug="barco-pirata" emoji="🚢" name="Barco Pirata" description="El Barco Pirata es nuestro inflable más épico: un barco pirata de gran escala con velas imponentes, mástil de 4 metros y tobogán gigante. Con capacidad para 10-15 niños jugando simultáneamente, es la atracción perfecta para cumpleaños grandes, eventos escolares, kermeses y festivales. Su diseño temático de aventura pirata cautiva a niños y niñas por igual." price="$2,500" size="7×5×4m" ages="3-12 años" category="Grande" categoryColor="pirata" gradient="#1565C0, #0D47A1" image="/img/inflables/barco-pirata.avif" />
       </div>
     </div>
   </section>
@@ -138,7 +182,3 @@ const inflable = {
   />
 
 </PageLayout>
-
-<style>
-  .gal__item:hover img{transform:scale(1.06);}
-</style>

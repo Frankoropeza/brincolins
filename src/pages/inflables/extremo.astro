@@ -5,8 +5,8 @@ import ProductCard from "@/components/ProductCard.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 
-const title = "Renta de Extremo Inflable | BRINCOLINS CDMX";
-const description = "Renta el inflable Extremo para fiestas y eventos en CDMX y Edomex. Circuito de 12m con obstáculos y doble carril. Desde $3,000 MXN con entrega incluida.";
+const title = "Renta Circuito Extremo Inflable | BRINCOLINS CDMX y Edomex";
+const description = "Renta el circuito Extremo inflable de 12 metros para kermeses, eventos escolares y corporativos en CDMX. Doble carril, tobogán, obstáculos. Desde $3,000 MXN.";
 
 const inflable = {
   slug: "extremo",
@@ -19,10 +19,10 @@ const inflable = {
   gradient: "#E65100, #BF360C",
   desc: "El Extremo es un épico circuito de obstáculos de 12 metros de largo con doble carril para carreras simultáneas. Incluye muros para escalar, túneles para arrastrarse, barreras de salto y un tobogán final de alta velocidad. Ideal para eventos corporativos, team building, fiestas de cumpleaños con niños grandes, eventos escolares y activaciones de marca.",
   features: ["12 metros de circuito de obstáculos", "Doble carril para carreras simultáneas", "Muros para escalar y túneles", "Tobogán final de alta velocidad", "Ideal para eventos corporativos", "Instalación profesional en 30 minutos"],
+  featureExcerpts: ["El circuito más largo disponible en renta en CDMX — 12 metros de obstáculos que mantienen a todos entretenidos por horas.", "Dos carriles paralelos permiten carreras simultáneas — ideal para competencias, torneos y activaciones grupales.", "Tres zonas de obstáculos: muros verticales para escalar, túneles horizontales y barreras de salto en secuencia.", "Tobogán de descenso rápido al final del recorrido — el premio al completar el circuito de obstáculos.", "Perfecto para team building, kermeses escolares, festivales y activaciones de marca en exteriores.", "Motor industrial de alta potencia para circuitos de uso intensivo. Instalación coordinada por equipo especializado."],
   featureImages: ["/img/inflables/extremo/alquiler-brincolin-extremo-fiestas-infantiles.avif", "/img/inflables/extremo/alquiler-circuito-extremo-fiestas-mexico.avif", "/img/inflables/extremo/alquiler-circuito-obstaculos-inflable-cdmx.avif", "/img/inflables/extremo/alquiler-inflable-extremo-grande-fiestas.avif", "/img/inflables/extremo/brincolin-extremo-angulo-renta-eventos.avif", "/img/inflables/extremo/extremo-angulo-corporativo.avif", "/img/inflables/extremo/extremo-carrera-cdmx.avif", "/img/inflables/extremo/extremo-circuito-completo.avif", "/img/inflables/extremo/extremo-circuito-renta-cdmx.avif", "/img/inflables/extremo/extremo-frontal-cdmx.avif", "/img/inflables/extremo/extremo-lateral-evento.avif", "/img/inflables/extremo/extremo-pista-obstaculos.avif", "/img/inflables/extremo/extremo-tobogan-doble.avif", "/img/inflables/extremo/extremo-vista-general.avif"],
   capacity: "2-4 personas simultáneamente (doble carril)",
   installTime: "30 minutos",
-  requirements: "Espacio mínimo 13×5m, toma de corriente 110V, uso exterior",
   image: "/img/inflables/extremo.avif",
 };
 ---
@@ -60,10 +60,10 @@ const inflable = {
     <div class="container">
       <div class="hero__grid">
 
-        <!-- Columna 1: título + CTAs -->
+        <!-- Columna 1: badge + H1 + CTAs -->
         <div>
-          <span class="hero__badge">🏁 Adrenalina para los más grandes</span>
-          <h1 class="hero__title">Renta <span class="highlight">Inflable Extremo</span> para tu Evento</h1>
+          <span class="hero__badge">🏁 Circuito de 12 metros — el más completo</span>
+          <h1 class="hero__title">Renta <span class="highlight">Circuito Extremo</span> Inflable en CDMX y Edomex</h1>
           <div class="hero__ctas">
             <a href={`https://wa.me/5547868402?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}. ¿Tienen disponibilidad?`)}`}
                class="btn btn-wa btn-lg" target="_blank" rel="noopener">
@@ -76,21 +76,21 @@ const inflable = {
 
         <!-- Columna 2: 2 párrafos SEO -->
         <div class="hero__copy">
-          <p class="hero__copy-text">El <strong>inflable Extremo de BRINCOLINS</strong> es un circuito de obstáculos de 12 metros con doble carril, diseñado para los eventos más competitivos en <strong>CDMX y Estado de México</strong>. Con muros para escalar, túneles, barreras de salto y tobogán final de alta velocidad, es la atracción perfecta para niños grandes, adolescentes y adultos. Fabricado con <strong>material de grado comercial reforzado</strong> para soportar uso intensivo.</p>
-          <p class="hero__copy-text">La renta incluye <strong>entrega a domicilio, instalación profesional en 30 minutos, motor inflador de alto rendimiento, extensión eléctrica y seguro de responsabilidad civil</strong>. Ideal para eventos corporativos, team building, kermeses y activaciones de marca. Cubrimos las <strong>16 alcaldías de CDMX</strong> y municipios del Edomex. Reserva con el 50% de anticipo — cotiza por WhatsApp y recibe respuesta inmediata.</p>
+          <p class="hero__copy-text">El <strong>Extremo de BRINCOLINS</strong> es el circuito de obstáculos inflable más completo disponible en <strong>CDMX y Estado de México</strong>. Con 12 metros de largo, doble carril para carreras simultáneas, muros para escalar, túneles y tobogán final de alta velocidad, es la atracción ideal para <strong>kermeses, eventos escolares, team building corporativo</strong> y fiestas de cumpleaños grandes.</p>
+          <p class="hero__copy-text">La renta incluye <strong>entrega, instalación en 30 minutos, motor industrial, extensión eléctrica y seguro de responsabilidad civil</strong>. Requiere espacio exterior mínimo de 13×5m. Atendemos CDMX completa y los principales municipios del Estado de México — cotiza por WhatsApp y recibe respuesta inmediata para asegurar tu fecha.</p>
         </div>
 
       </div>
     </div>
   </section>
 
-<!-- Contenido + Sidebar -->
+  <!-- Contenido + Sidebar -->
   <div class="page-with-sidebar">
     <main class="page-with-sidebar__main">
 
       <section class="section">
         <div class="product-info">
-          <h2 class="product-info__title">Renta de Circuito Extremo Inflable en CDMX — Adrenalina y Diversión sin Límites</h2>
+          <h2 class="product-info__title">Renta del Circuito Extremo en CDMX — Obstáculos, Carreras y Tobogán Gigante</h2>
           <p class="product-info__desc">{inflable.desc}</p>
           <div class="product-info__specs">
             <div class="product-info__spec"><span class="product-info__label">Medidas</span><strong>{inflable.size}</strong></div>
@@ -98,13 +98,16 @@ const inflable = {
             <div class="product-info__spec"><span class="product-info__label">Capacidad</span><strong>{inflable.capacity}</strong></div>
             <div class="product-info__spec"><span class="product-info__label">Instalación</span><strong>{inflable.installTime}</strong></div>
             <div class="product-info__spec"><span class="product-info__label">Precio</span><strong style="color:var(--c-primary);">Desde {inflable.price} MXN</strong></div>
-          </div></div>
+          </div>
+        </div>
       </section>
 
-      
       <section class="section" style="padding-top:0;">
         <div class="product-info">
-          <h3 style="font-family:var(--font-head);font-weight:800;font-size:1.05rem;margin-bottom:1rem;color:var(--c-text);">Galería de fotos</h3>
+          <div class="section-header" style="margin-bottom:1.25rem;">
+            <span class="section-badge">📸 Fotos reales</span>
+            <h2 class="section-title">Galería de fotos</h2>
+          </div>
           <div class="gallery">
         <div class="gallery__item"><img src="/img/inflables/extremo/alquiler-brincolin-extremo-fiestas-infantiles.avif" alt="extremo renta CDMX" loading="lazy" width="400" height="267" /></div>
         <div class="gallery__item"><img src="/img/inflables/extremo/alquiler-circuito-extremo-fiestas-mexico.avif" alt="extremo renta CDMX" loading="lazy" width="400" height="267" /></div>
@@ -115,17 +118,58 @@ const inflable = {
         <div class="gallery__item"><img src="/img/inflables/extremo/extremo-carrera-cdmx.avif" alt="extremo renta CDMX" loading="lazy" width="400" height="267" /></div>
         <div class="gallery__item"><img src="/img/inflables/extremo/extremo-circuito-completo.avif" alt="extremo renta CDMX" loading="lazy" width="400" height="267" /></div>
         <div class="gallery__item"><img src="/img/inflables/extremo/extremo-circuito-renta-cdmx.avif" alt="extremo renta CDMX" loading="lazy" width="400" height="267" /></div>
-      </div>
+          </div>
         </div>
       </section>
 
       <section class="section section--alt">
-        <SectionHeader badge="✅ Incluido en tu renta" title="Características del Inflable" subtitle="Todo lo que incluye tu renta del Extremo" copy1="El Extremo es el circuito de obstáculos más completo disponible en CDMX. Con 12 metros de largo, doble carril para carreras simultáneas, muros para escalar, túneles y tobogán final, es la atracción perfecta para eventos grandes." copy2="Capacidad para 10-20 niños simultáneamente. Incluye motor industrial de alta potencia, señalización de seguridad, operador de supervisión opcional y sanitización certificada antes de cada instalación." />
+        <SectionHeader
+          badge="✅ Incluido en tu renta"
+          title="Características del Inflable"
+          subtitle="Todo lo que incluye tu renta del Extremo"
+          copy1="El circuito Extremo es el inflable más largo y completo de nuestro catálogo. Con 12 metros de obstáculos en doble carril, muros, túneles y tobogán final, es la atracción ideal para grupos de 6 años en adelante."
+          copy2="Incluye motor industrial de alta potencia para uso prolongado, señalización de seguridad, sanitización certificada y seguro de responsabilidad civil. Instalación profesional en 30 minutos para exterior."
+        />
+        <div class="grid-3">
+          {inflable.features.map((f: string, i: number) => {
+            const img = inflable.featureImages[i % inflable.featureImages.length];
+            const excerpt = inflable.featureExcerpts ? inflable.featureExcerpts[i] : "";
+            return (
+              <article class="feat-card">
+                <div class="feat-card__img">
+                  <img src={img} alt={f} loading="lazy" width="400" height="267" />
+                  <span class="feat-card__num">{String(i + 1).padStart(2, "0")}</span>
+                </div>
+                <div class="feat-card__body">
+                  <h3 class="feat-card__title">{f}</h3>
+                  {excerpt && <p class="feat-card__excerpt">{excerpt}</p>}
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+
+    </main>
+    <aside>
+      <Sidebar currentSlug={inflable.slug} />
+    </aside>
+  </div>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🎈 Más inflables"
+        title="Otros inflables que te pueden interesar"
+        subtitle="Todos con entrega, instalación y seguro incluidos en CDMX y Edomex"
+        copy1="Para fiestas infantiles más íntimas, nuestros inflables medianos son perfectos: Dragones Rojos, Barco Pirata, Gusanitos y más, desde $1,200 MXN con entrega y instalación en CDMX y Edomex."
+        copy2="Para los más pequeños, el Mini Castillo desde $800 MXN es la opción más segura. Para bodas y eventos formales, el Castillo Blanco es nuestra joya premium. Cotiza sin compromiso por WhatsApp."
+      />
       <div class="grid-4">
-          <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más rentado. Dos dragones de 3m con resbaladilla y mallas de seguridad." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
-          <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla incluida." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
-          <ProductCard slug="mini-jungla" emoji="🌴" name="Mini Jungla" description="Inflable temático con animales y palmeras tropicales." price="$1,200" size="4×4×3m" ages="3-10 años" category="Aventura" categoryColor="jungla" gradient="#2E7D32, #1B5E20" image="/img/inflables/mini-jungla.avif" />
-          <ProductCard slug="gusanitos" emoji="🐛" name="Gusanitos" description="Inflable tropical con gusanitos y colores vibrantes." price="$1,200" size="4×4×3m" ages="4-10 años" category="Tropical" categoryColor="jungla" gradient="#558B2F, #827717" image="/img/inflables/gusanitos.avif" />
+          <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El inflable Dragones Rojos es el más rentado en CDMX y Estado de México. Con dos impresionantes dragones de 3 metros de altura custodiando el castillo, resbaladilla integrada y mallas de seguridad laterales para visibilidad total, es la atracción estrella de cualquier fiesta infantil. Su diseño en rojo y dorado vibrante garantiza horas de diversión segura." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
+          <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="El Castillo de Princesas es un inflable rosa y turquesa con dos elegantes princesas de 3 metros de altura y resbaladilla incluida. Con mallas de seguridad laterales para supervisión total, es el favorito absoluto para fiestas temáticas de niñas. Su diseño colorido y sus detalles de torres lo convierten en la atracción más fotografiada de cualquier celebración." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
+          <ProductCard slug="mini-castillo" emoji="🏰" name="Mini Castillo" description="El Mini Castillo es el inflable perfecto para bebés y niños pequeños. Con dimensiones compactas de 2×2 metros y solo 2 metros de altura, cabe perfectamente en departamentos, salones pequeños y jardines reducidos. Sus paredes suaves están diseñadas especialmente para la seguridad de los más pequeños, y su tamaño permite una fácil supervisión desde cualquier ángulo." price="$800" size="2×2×2m" ages="1-4 años" category="Chico" categoryColor="castillo" gradient="#FF3D00, #ff6d3f" image="/img/inflables/mini-castillo.avif" />
+          <ProductCard slug="barco-pirata" emoji="🚢" name="Barco Pirata" description="El Barco Pirata es nuestro inflable más épico: un barco pirata de gran escala con velas imponentes, mástil de 4 metros y tobogán gigante. Con capacidad para 10-15 niños jugando simultáneamente, es la atracción perfecta para cumpleaños grandes, eventos escolares, kermeses y festivales. Su diseño temático de aventura pirata cautiva a niños y niñas por igual." price="$2,500" size="7×5×4m" ages="3-12 años" category="Grande" categoryColor="pirata" gradient="#1565C0, #0D47A1" image="/img/inflables/barco-pirata.avif" />
       </div>
     </div>
   </section>
@@ -141,7 +185,3 @@ const inflable = {
   />
 
 </PageLayout>
-
-<style>
-  .gal__item:hover img{transform:scale(1.06);}
-</style>

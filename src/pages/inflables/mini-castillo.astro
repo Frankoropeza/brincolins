@@ -5,8 +5,8 @@ import ProductCard from "@/components/ProductCard.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 
-const title = "Renta de Mini Castillo Inflable | BRINCOLINS CDMX";
-const description = "Renta el Mini Castillo inflable para fiestas infantiles en CDMX y Edomex. Compacto e ideal para bebés y primeros cumpleaños. Desde $800 MXN con entrega incluida.";
+const title = "Renta Mini Castillo Inflable para Bebés | BRINCOLINS CDMX";
+const description = "Renta el Mini Castillo inflable para bebés y niños de 1 a 4 años en CDMX. Compacto, seguro, apto para interiores. Desde $800 MXN con entrega incluida.";
 
 const inflable = {
   slug: "mini-castillo",
@@ -19,10 +19,10 @@ const inflable = {
   gradient: "#FF3D00, #ff6d3f",
   desc: "El Mini Castillo es el inflable perfecto para bebés y niños pequeños. Con dimensiones compactas de 2×2 metros y solo 2 metros de altura, cabe perfectamente en departamentos, salones pequeños y jardines reducidos. Sus paredes suaves están diseñadas especialmente para la seguridad de los más pequeños, y su tamaño permite una fácil supervisión desde cualquier ángulo.",
   features: ["Diseño compacto para espacios reducidos", "Paredes suaves para bebés", "Torres decorativas coloridas", "Motor inflador silencioso", "Cabe en interiores y departamentos", "Fácil supervisión desde cualquier ángulo"],
+  featureExcerpts: ["Solo 2×2m — cabe en departamentos, salones y jardines pequeños sin problema. La opción más versátil del catálogo.", "Superficies acolchonadas sin bordes rígidos, diseñadas específicamente para niños de 1 a 4 años. Máxima seguridad.", "Colores vivos y torres decorativas que capturan la atención de los pequeños desde el primer momento.", "Motor de ultra bajo ruido que no perturba el ambiente de la fiesta ni interfiere con la música.", "El único inflable de nuestro catálogo apto para interiores con techo normal y departamentos.", "Los padres mantienen vista total en todo momento sin necesidad de acercarse al inflable."],
   featureImages: ["/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif", "/img/inflables/mini-castillo/mini-castillo-exterior.avif", "/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif", "/img/inflables/mini-castillo/mini-castillo-renta-cdmx.avif"],
   capacity: "3-4 niños simultáneamente",
   installTime: "15 minutos",
-  requirements: "Espacio mínimo 3×3m, toma de corriente 110V, apto para interiores",
   image: "/img/inflables/mini-castillo.avif",
 };
 ---
@@ -60,10 +60,10 @@ const inflable = {
     <div class="container">
       <div class="hero__grid">
 
-        <!-- Columna 1: título + CTAs -->
+        <!-- Columna 1: badge + H1 + CTAs -->
         <div>
-          <span class="hero__badge">🏰 Perfecto para los más pequeños</span>
-          <h1 class="hero__title">Renta <span class="highlight">Mini Castillo</span> para tu Fiesta</h1>
+          <span class="hero__badge">🏰 Ideal para bebés y niños pequeños</span>
+          <h1 class="hero__title">Renta <span class="highlight">Mini Castillo</span> — Inflable para Bebés en CDMX</h1>
           <div class="hero__ctas">
             <a href={`https://wa.me/5547868402?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}. ¿Tienen disponibilidad?`)}`}
                class="btn btn-wa btn-lg" target="_blank" rel="noopener">
@@ -76,21 +76,21 @@ const inflable = {
 
         <!-- Columna 2: 2 párrafos SEO -->
         <div class="hero__copy">
-          <p class="hero__copy-text">El <strong>Mini Castillo de BRINCOLINS</strong> es el brincolín ideal para <strong>bebés y niños de 1 a 4 años</strong> en la Ciudad de México y Estado de México. Con dimensiones compactas de 2×2 metros, cabe en departamentos, salones pequeños y jardines reducidos. Sus paredes suaves y baja altura están diseñadas para la <strong>seguridad de los más pequeños</strong>, permitiendo supervisión total desde cualquier ángulo.</p>
-          <p class="hero__copy-text">La renta incluye <strong>entrega a domicilio, instalación en solo 15 minutos, motor inflador silencioso y extensión eléctrica</strong> sin costo adicional. Es la opción más accesible de nuestro catálogo, perfecta para primeros cumpleaños y reuniones familiares. Cubrimos las <strong>16 alcaldías de CDMX</strong> y municipios del Edomex. Reserva con el 50% de anticipo — cotiza por WhatsApp.</p>
+          <p class="hero__copy-text">El <strong>Mini Castillo de BRINCOLINS</strong> es el inflable más seguro y compacto para bebés y niños de 1 a 4 años en <strong>CDMX y Estado de México</strong>. Con dimensiones de solo 2×2 metros y 2m de altura, cabe perfectamente en departamentos, salones pequeños y jardines reducidos. Sus paredes suaves sin puntos de impacto están diseñadas específicamente para la <strong>seguridad de los más pequeños</strong>.</p>
+          <p class="hero__copy-text">La renta incluye <strong>entrega, instalación en 15 minutos, motor silencioso, extensión eléctrica y seguro de responsabilidad civil</strong> sin costo adicional. Con <strong>precio desde $800 MXN</strong>, es la opción más accesible de nuestro catálogo. Atendemos CDMX y Edomex — cotiza por WhatsApp y recibe respuesta inmediata para asegurar la fecha de tu festejo.</p>
         </div>
 
       </div>
     </div>
   </section>
 
-<!-- Contenido + Sidebar -->
+  <!-- Contenido + Sidebar -->
   <div class="page-with-sidebar">
     <main class="page-with-sidebar__main">
 
       <section class="section">
         <div class="product-info">
-          <h2 class="product-info__title">Renta de Mini Castillo Inflable en CDMX — Ideal para Bebés y Niños Pequeños</h2>
+          <h2 class="product-info__title">Renta de Mini Castillo Inflable en CDMX — Seguro y Compacto para Niños Pequeños</h2>
           <p class="product-info__desc">{inflable.desc}</p>
           <div class="product-info__specs">
             <div class="product-info__spec"><span class="product-info__label">Medidas</span><strong>{inflable.size}</strong></div>
@@ -98,29 +98,73 @@ const inflable = {
             <div class="product-info__spec"><span class="product-info__label">Capacidad</span><strong>{inflable.capacity}</strong></div>
             <div class="product-info__spec"><span class="product-info__label">Instalación</span><strong>{inflable.installTime}</strong></div>
             <div class="product-info__spec"><span class="product-info__label">Precio</span><strong style="color:var(--c-primary);">Desde {inflable.price} MXN</strong></div>
-          </div></div>
+          </div>
+        </div>
       </section>
 
-      
       <section class="section" style="padding-top:0;">
         <div class="product-info">
-          <h3 style="font-family:var(--font-head);font-weight:800;font-size:1.05rem;margin-bottom:1rem;color:var(--c-text);">Galería de fotos</h3>
+          <div class="section-header" style="margin-bottom:1.25rem;">
+            <span class="section-badge">📸 Fotos reales</span>
+            <h2 class="section-title">Galería de fotos</h2>
+          </div>
           <div class="gallery">
         <div class="gallery__item"><img src="/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif" alt="mini-castillo renta CDMX" loading="lazy" width="400" height="267" /></div>
         <div class="gallery__item"><img src="/img/inflables/mini-castillo/mini-castillo-exterior.avif" alt="mini-castillo renta CDMX" loading="lazy" width="400" height="267" /></div>
         <div class="gallery__item"><img src="/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif" alt="mini-castillo renta CDMX" loading="lazy" width="400" height="267" /></div>
         <div class="gallery__item"><img src="/img/inflables/mini-castillo/mini-castillo-renta-cdmx.avif" alt="mini-castillo renta CDMX" loading="lazy" width="400" height="267" /></div>
-      </div>
+          </div>
         </div>
       </section>
 
       <section class="section section--alt">
-        <SectionHeader badge="✅ Incluido en tu renta" title="Características del Inflable" subtitle="Todo lo que incluye tu renta del Mini Castillo" copy1="El Mini Castillo es el inflable ideal para niños de 1 a 4 años. Compacto, seguro y fácil de supervisar, es perfecto para interiores, departamentos y jardines pequeños en CDMX y Edomex." copy2="Paredes suaves sin puntos de impacto, entrada baja para niños pequeños y materiales sin BPA. Incluye motor inflador, extensión eléctrica y sanitización antes de cada evento." />
+        <SectionHeader
+          badge="✅ Incluido en tu renta"
+          title="Características del Inflable"
+          subtitle="Todo lo que incluye tu renta del Mini Castillo"
+          copy1="El Mini Castillo es el inflable más pequeño y seguro de nuestro catálogo. Diseñado específicamente para bebés y niños de 1 a 4 años, es el único modelo apto para interiores, departamentos y espacios con techo bajo."
+          copy2="Incluye motor de ultra bajo ruido, paredes acolchonadas sin puntos de impacto y proceso de sanitización certificado. Instalación en solo 15 minutos — el más rápido de toda nuestra flota."
+        />
+        <div class="grid-3">
+          {inflable.features.map((f: string, i: number) => {
+            const img = inflable.featureImages[i % inflable.featureImages.length];
+            const excerpt = inflable.featureExcerpts ? inflable.featureExcerpts[i] : "";
+            return (
+              <article class="feat-card">
+                <div class="feat-card__img">
+                  <img src={img} alt={f} loading="lazy" width="400" height="267" />
+                  <span class="feat-card__num">{String(i + 1).padStart(2, "0")}</span>
+                </div>
+                <div class="feat-card__body">
+                  <h3 class="feat-card__title">{f}</h3>
+                  {excerpt && <p class="feat-card__excerpt">{excerpt}</p>}
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+
+    </main>
+    <aside>
+      <Sidebar currentSlug={inflable.slug} />
+    </aside>
+  </div>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🎈 Más inflables"
+        title="Otros inflables que te pueden interesar"
+        subtitle="Todos con entrega, instalación y seguro incluidos en CDMX y Edomex"
+        copy1="¿Los niños ya crecieron? Tenemos modelos para niños más grandes: Dragones Rojos, Castillo de Princesas y Gusanitos desde $1,200 MXN. Para grupos grandes, el Barco Pirata y el Extremo son los favoritos."
+        copy2="Todos los inflables incluyen entrega, instalación profesional, motor y seguro. Cotiza sin compromiso por WhatsApp — reserva con el 50% de anticipo y nosotros nos encargamos del resto el día del evento."
+      />
       <div class="grid-4">
-          <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más rentado. Dos dragones de 3m con resbaladilla y mallas de seguridad." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
-          <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla incluida." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
-          <ProductCard slug="mini-jungla" emoji="🌴" name="Mini Jungla" description="Inflable temático con animales y palmeras tropicales." price="$1,200" size="4×4×3m" ages="3-10 años" category="Aventura" categoryColor="jungla" gradient="#2E7D32, #1B5E20" image="/img/inflables/mini-jungla.avif" />
-          <ProductCard slug="gusanitos" emoji="🐛" name="Gusanitos" description="Inflable tropical con gusanitos y colores vibrantes." price="$1,200" size="4×4×3m" ages="4-10 años" category="Tropical" categoryColor="jungla" gradient="#558B2F, #827717" image="/img/inflables/gusanitos.avif" />
+          <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El inflable Dragones Rojos es el más rentado en CDMX y Estado de México. Con dos impresionantes dragones de 3 metros de altura custodiando el castillo, resbaladilla integrada y mallas de seguridad laterales para visibilidad total, es la atracción estrella de cualquier fiesta infantil. Su diseño en rojo y dorado vibrante garantiza horas de diversión segura." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
+          <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="El Castillo de Princesas es un inflable rosa y turquesa con dos elegantes princesas de 3 metros de altura y resbaladilla incluida. Con mallas de seguridad laterales para supervisión total, es el favorito absoluto para fiestas temáticas de niñas. Su diseño colorido y sus detalles de torres lo convierten en la atracción más fotografiada de cualquier celebración." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
+          <ProductCard slug="barco-pirata" emoji="🚢" name="Barco Pirata" description="El Barco Pirata es nuestro inflable más épico: un barco pirata de gran escala con velas imponentes, mástil de 4 metros y tobogán gigante. Con capacidad para 10-15 niños jugando simultáneamente, es la atracción perfecta para cumpleaños grandes, eventos escolares, kermeses y festivales. Su diseño temático de aventura pirata cautiva a niños y niñas por igual." price="$2,500" size="7×5×4m" ages="3-12 años" category="Grande" categoryColor="pirata" gradient="#1565C0, #0D47A1" image="/img/inflables/barco-pirata.avif" />
+          <ProductCard slug="extremo" emoji="🏁" name="Extremo" description="El Extremo es un épico circuito de obstáculos de 12 metros de largo con doble carril para carreras simultáneas. Incluye muros para escalar, túneles para arrastrarse, barreras de salto y un tobogán final de alta velocidad. Ideal para eventos corporativos, team building, fiestas de cumpleaños con niños grandes, eventos escolares y activaciones de marca." price="$3,000" size="12×4×3m" ages="6+ años" category="Extremo" categoryColor="extremo" gradient="#E65100, #BF360C" image="/img/inflables/extremo.avif" />
       </div>
     </div>
   </section>
@@ -136,7 +180,3 @@ const inflable = {
   />
 
 </PageLayout>
-
-<style>
-  .gal__item:hover img{transform:scale(1.06);}
-</style>

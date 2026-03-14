@@ -5,8 +5,8 @@ import ProductCard from "@/components/ProductCard.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 
-const title = "Renta de Barco Pirata Inflable | BRINCOLINS CDMX";
-const description = "Renta el Barco Pirata inflable para fiestas infantiles en CDMX y Edomex. Barco épico de 7m con tobogán gigante. Desde $2,500 MXN con entrega incluida.";
+const title = "Renta Barco Pirata Inflable | BRINCOLINS CDMX y Edomex";
+const description = "Renta el Barco Pirata inflable para fiestas, kermeses y eventos en CDMX y Edomex. 7 metros, tobogán gigante, capacidad 10-15 niños. Desde $2,500 MXN.";
 
 const inflable = {
   slug: "barco-pirata",
@@ -19,10 +19,10 @@ const inflable = {
   gradient: "#1565C0, #0D47A1",
   desc: "El Barco Pirata es nuestro inflable más épico: un barco pirata de gran escala con velas imponentes, mástil de 4 metros y tobogán gigante. Con capacidad para 10-15 niños jugando simultáneamente, es la atracción perfecta para cumpleaños grandes, eventos escolares, kermeses y festivales. Su diseño temático de aventura pirata cautiva a niños y niñas por igual.",
   features: ["Velas y mástil de 4 metros", "Tobogán gigante integrado", "Capacidad para 10-15 niños", "Diseño temático pirata detallado", "Instalación profesional en 30 minutos", "Seguro de responsabilidad civil incluido"],
+  featureExcerpts: ["Mástil de 4 metros con velas decorativas que crean la atmósfera perfecta de aventura pirata para cualquier evento.", "Tobogán de alta velocidad integrado al costado del barco — la atracción favorita de todos los niños de 3 a 12 años.", "El inflable más grande del catálogo con capacidad para 10-15 niños activos al mismo tiempo.", "Cañones, anclas, timón y detalles pirata en todo el barco — el telón de fondo perfecto para fotos del evento.", "Motor industrial de bajo ruido para eventos de larga duración. Instalación coordinada por equipo profesional.", "Seguro de responsabilidad civil incluido en cada renta — tranquilidad total para el organizador del evento."],
   featureImages: ["/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif", "/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif", "/img/inflables/barco-pirata/barco-pirata-renta-cdmx.avif"],
   capacity: "10-15 niños simultáneamente",
   installTime: "30 minutos",
-  requirements: "Espacio mínimo 8×6m, toma de corriente 110V, uso exterior recomendado",
   image: "/img/inflables/barco-pirata.avif",
 };
 ---
@@ -60,10 +60,10 @@ const inflable = {
     <div class="container">
       <div class="hero__grid">
 
-        <!-- Columna 1: título + CTAs -->
+        <!-- Columna 1: badge + H1 + CTAs -->
         <div>
-          <span class="hero__badge">🚢 El más épico de nuestro catálogo</span>
-          <h1 class="hero__title">Renta <span class="highlight">Barco Pirata</span> para tu Fiesta</h1>
+          <span class="hero__badge">🚢 El más épico — 7 metros de pura aventura</span>
+          <h1 class="hero__title">Renta <span class="highlight">Barco Pirata</span> Inflable para tu Evento en CDMX</h1>
           <div class="hero__ctas">
             <a href={`https://wa.me/5547868402?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}. ¿Tienen disponibilidad?`)}`}
                class="btn btn-wa btn-lg" target="_blank" rel="noopener">
@@ -76,21 +76,21 @@ const inflable = {
 
         <!-- Columna 2: 2 párrafos SEO -->
         <div class="hero__copy">
-          <p class="hero__copy-text">El <strong>Barco Pirata de BRINCOLINS</strong> es el inflable más imponente de nuestro catálogo para fiestas en la <strong>Ciudad de México y Estado de México</strong>. Con 7 metros de largo, velas decorativas, mástil de 4 metros y tobogán gigante integrado, es la atracción estrella de cualquier evento grande. Fabricado con <strong>material de grado comercial de alta resistencia</strong> y limpiado con protocolo certificado antes de cada uso.</p>
-          <p class="hero__copy-text">La renta incluye <strong>entrega a domicilio, instalación profesional en 30 minutos, motor inflador de alto rendimiento, extensión eléctrica y seguro de responsabilidad civil</strong>. Con capacidad para 10-15 niños, es perfecto para cumpleaños grandes, kermeses y eventos escolares. Cubrimos las <strong>16 alcaldías de CDMX</strong> y municipios del Edomex. Reserva con el 50% de anticipo — cotiza ahora por WhatsApp.</p>
+          <p class="hero__copy-text">El <strong>Barco Pirata de BRINCOLINS</strong> es el inflable más imponente para eventos y fiestas grandes en <strong>CDMX y Estado de México</strong>. Con 7 metros de eslora, mástil de 4 metros de altura y tobogán gigante integrado, es la atracción central que transforma cualquier cumpleaños, kermés o evento escolar en una aventura pirata épica. Capacidad para <strong>10-15 niños simultáneamente</strong>.</p>
+          <p class="hero__copy-text">La renta incluye <strong>entrega, instalación profesional en 30 minutos, motor industrial de bajo ruido, extensión eléctrica y seguro de responsabilidad civil</strong>. Requiere espacio mínimo de 8×6m en exterior. Atendemos CDMX completa y Edomex — cotiza por WhatsApp y asegura tu fecha con el 50% de anticipo. Respuesta en minutos.</p>
         </div>
 
       </div>
     </div>
   </section>
 
-<!-- Contenido + Sidebar -->
+  <!-- Contenido + Sidebar -->
   <div class="page-with-sidebar">
     <main class="page-with-sidebar__main">
 
       <section class="section">
         <div class="product-info">
-          <h2 class="product-info__title">Renta de Barco Pirata Inflable en CDMX — La Atracción Grande de tu Fiesta</h2>
+          <h2 class="product-info__title">Renta de Barco Pirata en CDMX — La Atracción Estrella para Eventos Grandes</h2>
           <p class="product-info__desc">{inflable.desc}</p>
           <div class="product-info__specs">
             <div class="product-info__spec"><span class="product-info__label">Medidas</span><strong>{inflable.size}</strong></div>
@@ -98,28 +98,72 @@ const inflable = {
             <div class="product-info__spec"><span class="product-info__label">Capacidad</span><strong>{inflable.capacity}</strong></div>
             <div class="product-info__spec"><span class="product-info__label">Instalación</span><strong>{inflable.installTime}</strong></div>
             <div class="product-info__spec"><span class="product-info__label">Precio</span><strong style="color:var(--c-primary);">Desde {inflable.price} MXN</strong></div>
-          </div></div>
+          </div>
+        </div>
       </section>
 
-      
       <section class="section" style="padding-top:0;">
         <div class="product-info">
-          <h3 style="font-family:var(--font-head);font-weight:800;font-size:1.05rem;margin-bottom:1rem;color:var(--c-text);">Galería de fotos</h3>
+          <div class="section-header" style="margin-bottom:1.25rem;">
+            <span class="section-badge">📸 Fotos reales</span>
+            <h2 class="section-title">Galería de fotos</h2>
+          </div>
           <div class="gallery">
         <div class="gallery__item"><img src="/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif" alt="barco-pirata renta CDMX" loading="lazy" width="400" height="267" /></div>
         <div class="gallery__item"><img src="/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif" alt="barco-pirata renta CDMX" loading="lazy" width="400" height="267" /></div>
         <div class="gallery__item"><img src="/img/inflables/barco-pirata/barco-pirata-renta-cdmx.avif" alt="barco-pirata renta CDMX" loading="lazy" width="400" height="267" /></div>
-      </div>
+          </div>
         </div>
       </section>
 
       <section class="section section--alt">
-        <SectionHeader badge="✅ Incluido en tu renta" title="Características del Inflable" subtitle="Todo lo que incluye tu renta del Barco Pirata" copy1="El Barco Pirata es el inflable grande más solicitado en CDMX. Con 7 metros de longitud, tobogán gigante y capacidad para 10-15 niños, es la atracción central de cualquier fiesta o evento escolar." copy2="Fabricado con PVC de 18oz de alta resistencia. Incluye motor industrial de bajo ruido, mallas de seguridad perimetrales, sanitización certificada y equipo de instalación profesional." />
+        <SectionHeader
+          badge="✅ Incluido en tu renta"
+          title="Características del Inflable"
+          subtitle="Todo lo que incluye tu renta del Barco Pirata"
+          copy1="El Barco Pirata es el inflable más grande y espectacular de nuestra flota. Con 7 metros de longitud y mástil de 4 metros, es la atracción central perfecta para eventos con muchos invitados en CDMX y Edomex."
+          copy2="Incluye motor industrial de bajo ruido para uso de larga duración, tobogán gigante, mallas de seguridad perimetrales, sanitización certificada y seguro de responsabilidad civil sin costo adicional."
+        />
+        <div class="grid-3">
+          {inflable.features.map((f: string, i: number) => {
+            const img = inflable.featureImages[i % inflable.featureImages.length];
+            const excerpt = inflable.featureExcerpts ? inflable.featureExcerpts[i] : "";
+            return (
+              <article class="feat-card">
+                <div class="feat-card__img">
+                  <img src={img} alt={f} loading="lazy" width="400" height="267" />
+                  <span class="feat-card__num">{String(i + 1).padStart(2, "0")}</span>
+                </div>
+                <div class="feat-card__body">
+                  <h3 class="feat-card__title">{f}</h3>
+                  {excerpt && <p class="feat-card__excerpt">{excerpt}</p>}
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+
+    </main>
+    <aside>
+      <Sidebar currentSlug={inflable.slug} />
+    </aside>
+  </div>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🎈 Más inflables"
+        title="Otros inflables que te pueden interesar"
+        subtitle="Todos con entrega, instalación y seguro incluidos en CDMX y Edomex"
+        copy1="Para eventos más íntimos, nuestros inflables medianos son perfectos: Dragones Rojos, Castillo de Princesas, Gusanitos y Mini Jungla desde $1,200 MXN. Para bebés, el Mini Castillo desde $800 MXN."
+        copy2="¿Buscas algo aún más extremo? El circuito Extremo de 12 metros con doble carril y tobogán final es ideal para kermeses, eventos escolares y corporativos en toda la ZMVM."
+      />
       <div class="grid-4">
-          <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más rentado. Dos dragones de 3m con resbaladilla y mallas de seguridad." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
-          <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla incluida." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
-          <ProductCard slug="mini-jungla" emoji="🌴" name="Mini Jungla" description="Inflable temático con animales y palmeras tropicales." price="$1,200" size="4×4×3m" ages="3-10 años" category="Aventura" categoryColor="jungla" gradient="#2E7D32, #1B5E20" image="/img/inflables/mini-jungla.avif" />
-          <ProductCard slug="gusanitos" emoji="🐛" name="Gusanitos" description="Inflable tropical con gusanitos y colores vibrantes." price="$1,200" size="4×4×3m" ages="4-10 años" category="Tropical" categoryColor="jungla" gradient="#558B2F, #827717" image="/img/inflables/gusanitos.avif" />
+          <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El inflable Dragones Rojos es el más rentado en CDMX y Estado de México. Con dos impresionantes dragones de 3 metros de altura custodiando el castillo, resbaladilla integrada y mallas de seguridad laterales para visibilidad total, es la atracción estrella de cualquier fiesta infantil. Su diseño en rojo y dorado vibrante garantiza horas de diversión segura." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
+          <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="El Castillo de Princesas es un inflable rosa y turquesa con dos elegantes princesas de 3 metros de altura y resbaladilla incluida. Con mallas de seguridad laterales para supervisión total, es el favorito absoluto para fiestas temáticas de niñas. Su diseño colorido y sus detalles de torres lo convierten en la atracción más fotografiada de cualquier celebración." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
+          <ProductCard slug="mini-castillo" emoji="🏰" name="Mini Castillo" description="El Mini Castillo es el inflable perfecto para bebés y niños pequeños. Con dimensiones compactas de 2×2 metros y solo 2 metros de altura, cabe perfectamente en departamentos, salones pequeños y jardines reducidos. Sus paredes suaves están diseñadas especialmente para la seguridad de los más pequeños, y su tamaño permite una fácil supervisión desde cualquier ángulo." price="$800" size="2×2×2m" ages="1-4 años" category="Chico" categoryColor="castillo" gradient="#FF3D00, #ff6d3f" image="/img/inflables/mini-castillo.avif" />
+          <ProductCard slug="extremo" emoji="🏁" name="Extremo" description="El Extremo es un épico circuito de obstáculos de 12 metros de largo con doble carril para carreras simultáneas. Incluye muros para escalar, túneles para arrastrarse, barreras de salto y un tobogán final de alta velocidad. Ideal para eventos corporativos, team building, fiestas de cumpleaños con niños grandes, eventos escolares y activaciones de marca." price="$3,000" size="12×4×3m" ages="6+ años" category="Extremo" categoryColor="extremo" gradient="#E65100, #BF360C" image="/img/inflables/extremo.avif" />
       </div>
     </div>
   </section>
@@ -135,7 +179,3 @@ const inflable = {
   />
 
 </PageLayout>
-
-<style>
-  .gal__item:hover img{transform:scale(1.06);}
-</style>
