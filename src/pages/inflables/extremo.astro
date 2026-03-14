@@ -17,6 +17,7 @@ const inflable = {
   gradient: "#E65100, #BF360C",
   desc: "El Extremo es un épico circuito de obstáculos de 12 metros de largo con doble carril para carreras simultáneas. Incluye muros para escalar, túneles para arrastrarse, barreras de salto y un tobogán final de alta velocidad. Ideal para eventos corporativos, team building, fiestas de cumpleaños con niños grandes, eventos escolares y activaciones de marca.",
   features: ["12 metros de circuito de obstáculos", "Doble carril para carreras simultáneas", "Muros para escalar y túneles", "Tobogán final de alta velocidad", "Ideal para eventos corporativos", "Instalación profesional en 30 minutos"],
+  featureImages: ["/img/inflables/extremo/alquiler-brincolin-extremo-fiestas-infantiles.avif", "/img/inflables/extremo/alquiler-circuito-extremo-fiestas-mexico.avif", "/img/inflables/extremo/alquiler-circuito-obstaculos-inflable-cdmx.avif", "/img/inflables/extremo/alquiler-inflable-extremo-grande-fiestas.avif", "/img/inflables/extremo/brincolin-extremo-angulo-renta-eventos.avif", "/img/inflables/extremo/extremo-angulo-corporativo.avif", "/img/inflables/extremo/extremo-carrera-cdmx.avif", "/img/inflables/extremo/extremo-circuito-completo.avif", "/img/inflables/extremo/extremo-circuito-renta-cdmx.avif", "/img/inflables/extremo/extremo-frontal-cdmx.avif", "/img/inflables/extremo/extremo-lateral-evento.avif", "/img/inflables/extremo/extremo-pista-obstaculos.avif", "/img/inflables/extremo/extremo-tobogan-doble.avif", "/img/inflables/extremo/extremo-vista-general.avif"],
   capacity: "2-4 personas simultáneamente (doble carril)",
   installTime: "30 minutos",
   requirements: "Espacio mínimo 13×5m, toma de corriente 110V, uso exterior",
@@ -140,17 +141,25 @@ const inflable = {
       </div>
       </section>
 
+      
       <section class="section section--alt">
         <div class="section-header">
           <h2 class="section-title">Características</h2>
         </div>
         <div class="grid-3">
-          {inflable.features.map((f: string) => (
-            <div class="feature-card">
-              <div class="feature-card__icon">✅</div>
-              <p class="feature-card__desc">{f}</p>
-            </div>
-          ))}
+          {inflable.features.map((f: string, i: number) => {
+            const img = inflable.featureImages[i % inflable.featureImages.length];
+            return (
+              <div class="feature-img-card">
+                <div class="feature-img-card__img">
+                  <img src={img} alt={f} loading="lazy" width="400" height="267" />
+                </div>
+                <div class="feature-img-card__body">
+                  <p class="feature-img-card__text">{f}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 

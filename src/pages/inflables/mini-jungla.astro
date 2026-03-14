@@ -17,6 +17,7 @@ const inflable = {
   gradient: "#2E7D32, #1B5E20",
   desc: "El inflable Mini Jungla transporta a los niños a una aventura selvática con animales decorativos de 2 metros y palmeras tropicales. Su diseño compacto pero dinámico es ideal tanto para exteriores como interiores con techos altos, perfecto para fiestas safari y niños exploradores que aman la naturaleza.",
   features: ["Temática safari con animales de 2 metros", "Palmeras decorativas tropicales", "Diseño compacto y versátil", "Apto para interior y exterior", "Material resistente a uso intensivo", "Instalación rápida en 15 minutos"],
+  featureImages: ["/img/inflables/mini-jungla/mini-jungla-dinosaurios-palmeras.avif", "/img/inflables/mini-jungla/mini-jungla-exterior-evento.avif", "/img/inflables/mini-jungla/mini-jungla-frontal-jardin.avif", "/img/inflables/mini-jungla/mini-jungla-lateral-cdmx.avif", "/img/inflables/mini-jungla/mini-jungla-renta-cdmx.avif", "/img/inflables/mini-jungla/mini-jungla-vista-general.avif"],
   capacity: "5-7 niños simultáneamente",
   installTime: "15 minutos",
   requirements: "Espacio mínimo 5×5m, toma de corriente 110V a menos de 15m",
@@ -131,17 +132,25 @@ const inflable = {
       </div>
       </section>
 
+      
       <section class="section section--alt">
         <div class="section-header">
           <h2 class="section-title">Características</h2>
         </div>
         <div class="grid-3">
-          {inflable.features.map((f: string) => (
-            <div class="feature-card">
-              <div class="feature-card__icon">✅</div>
-              <p class="feature-card__desc">{f}</p>
-            </div>
-          ))}
+          {inflable.features.map((f: string, i: number) => {
+            const img = inflable.featureImages[i % inflable.featureImages.length];
+            return (
+              <div class="feature-img-card">
+                <div class="feature-img-card__img">
+                  <img src={img} alt={f} loading="lazy" width="400" height="267" />
+                </div>
+                <div class="feature-img-card__body">
+                  <p class="feature-img-card__text">{f}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 

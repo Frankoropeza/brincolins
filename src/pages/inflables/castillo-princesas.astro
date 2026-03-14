@@ -17,6 +17,7 @@ const inflable = {
   gradient: "#E91E8C, #7C3AED",
   desc: "El Castillo de Princesas es un inflable rosa y turquesa con dos elegantes princesas de 3 metros de altura y resbaladilla incluida. Con mallas de seguridad laterales para supervisión total, es el favorito absoluto para fiestas temáticas de niñas. Su diseño colorido y sus detalles de torres lo convierten en la atracción más fotografiada de cualquier celebración.",
   features: ["Dos princesas decorativas de 3 metros", "Resbaladilla integrada", "Colores rosa y turquesa vibrantes", "Mallas de seguridad laterales", "Material comercial de alta resistencia", "Sanitización certificada incluida"],
+  featureImages: ["/img/inflables/castillo-princesas/castillo-princesas-exterior-jardin.avif", "/img/inflables/castillo-princesas/castillo-princesas-renta-cdmx.avif", "/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif", "/img/inflables/castillo-princesas/mini-princess-renta-cdmx.avif"],
   capacity: "5-7 niños simultáneamente",
   installTime: "20 minutos",
   requirements: "Espacio mínimo 5×5m, toma de corriente 110V a menos de 15m",
@@ -125,17 +126,25 @@ const inflable = {
       </div>
       </section>
 
+      
       <section class="section section--alt">
         <div class="section-header">
           <h2 class="section-title">Características</h2>
         </div>
         <div class="grid-3">
-          {inflable.features.map((f: string) => (
-            <div class="feature-card">
-              <div class="feature-card__icon">✅</div>
-              <p class="feature-card__desc">{f}</p>
-            </div>
-          ))}
+          {inflable.features.map((f: string, i: number) => {
+            const img = inflable.featureImages[i % inflable.featureImages.length];
+            return (
+              <div class="feature-img-card">
+                <div class="feature-img-card__img">
+                  <img src={img} alt={f} loading="lazy" width="400" height="267" />
+                </div>
+                <div class="feature-img-card__body">
+                  <p class="feature-img-card__text">{f}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 

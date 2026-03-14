@@ -17,6 +17,7 @@ const inflable = {
   gradient: "#1565C0, #0D47A1",
   desc: "El Barco Pirata es nuestro inflable más épico: un barco pirata de gran escala con velas imponentes, mástil de 4 metros y tobogán gigante. Con capacidad para 10-15 niños jugando simultáneamente, es la atracción perfecta para cumpleaños grandes, eventos escolares, kermeses y festivales. Su diseño temático de aventura pirata cautiva a niños y niñas por igual.",
   features: ["Velas y mástil de 4 metros", "Tobogán gigante integrado", "Capacidad para 10-15 niños", "Diseño temático pirata detallado", "Instalación profesional en 30 minutos", "Seguro de responsabilidad civil incluido"],
+  featureImages: ["/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif", "/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif", "/img/inflables/barco-pirata/barco-pirata-renta-cdmx.avif"],
   capacity: "10-15 niños simultáneamente",
   installTime: "30 minutos",
   requirements: "Espacio mínimo 8×6m, toma de corriente 110V, uso exterior recomendado",
@@ -122,17 +123,25 @@ const inflable = {
       </div>
       </section>
 
+      
       <section class="section section--alt">
         <div class="section-header">
           <h2 class="section-title">Características</h2>
         </div>
         <div class="grid-3">
-          {inflable.features.map((f: string) => (
-            <div class="feature-card">
-              <div class="feature-card__icon">✅</div>
-              <p class="feature-card__desc">{f}</p>
-            </div>
-          ))}
+          {inflable.features.map((f: string, i: number) => {
+            const img = inflable.featureImages[i % inflable.featureImages.length];
+            return (
+              <div class="feature-img-card">
+                <div class="feature-img-card__img">
+                  <img src={img} alt={f} loading="lazy" width="400" height="267" />
+                </div>
+                <div class="feature-img-card__body">
+                  <p class="feature-img-card__text">{f}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 

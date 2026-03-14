@@ -17,6 +17,7 @@ const inflable = {
   gradient: "#558B2F, #827717",
   desc: "El inflable Gusanitos destaca por sus coloridos personajes de gusanitos verde y morado con palmeras tropicales decorativas. Con una amplia área de salto en colores verde, morado, amarillo y azul, es uno de los inflables más originales y divertidos de nuestro catálogo. Su diseño vibrante lo hace perfecto para cumpleaños y eventos al aire libre.",
   features: ["Gusanitos decorativos verde y morado", "Palmeras tropicales decorativas", "Amplia área de salto", "Colores vibrantes y llamativos", "Motor inflador silencioso", "Extensión eléctrica incluida"],
+  featureImages: ["/img/inflables/gusanitos/gusanitos-brincolin-evento.avif", "/img/inflables/gusanitos/gusanitos-exterior-jardin.avif", "/img/inflables/gusanitos/gusanitos-inflable-fiesta.avif", "/img/inflables/gusanitos/gusanitos-lateral-cdmx.avif", "/img/inflables/gusanitos/gusanitos-renta-cdmx.avif", "/img/inflables/gusanitos/gusanitos-vista-general.avif"],
   capacity: "5-7 niños simultáneamente",
   installTime: "20 minutos",
   requirements: "Espacio mínimo 5×5m, toma de corriente 110V a menos de 15m",
@@ -131,17 +132,25 @@ const inflable = {
       </div>
       </section>
 
+      
       <section class="section section--alt">
         <div class="section-header">
           <h2 class="section-title">Características</h2>
         </div>
         <div class="grid-3">
-          {inflable.features.map((f: string) => (
-            <div class="feature-card">
-              <div class="feature-card__icon">✅</div>
-              <p class="feature-card__desc">{f}</p>
-            </div>
-          ))}
+          {inflable.features.map((f: string, i: number) => {
+            const img = inflable.featureImages[i % inflable.featureImages.length];
+            return (
+              <div class="feature-img-card">
+                <div class="feature-img-card__img">
+                  <img src={img} alt={f} loading="lazy" width="400" height="267" />
+                </div>
+                <div class="feature-img-card__body">
+                  <p class="feature-img-card__text">{f}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 

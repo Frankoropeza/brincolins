@@ -17,6 +17,7 @@ const inflable = {
   gradient: "#7E57C2, #9575CD",
   desc: "El Castillo Blanco es nuestro inflable más elegante, diseñado exclusivamente para bodas, XV años, bautizos y eventos formales. En blanco inmaculado con torres decorativas de 3 metros, combina perfectamente con cualquier tipo de decoración floral o temática. Su tamaño imponente de 6×5 metros y capacidad para 8-10 personas lo convierten en una atracción espectacular que eleva el nivel de cualquier celebración.",
   features: ["Blanco inmaculado elegante", "Torres decorativas de 3 metros", "Combina con cualquier decoración", "Capacidad para 8-10 personas", "Ideal para bodas y XV años", "Sanitización premium incluida"],
+  featureImages: ["/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-decoracion.avif", "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-terraza-cdmx.avif", "/img/inflables/castillo-blanco/alquiler-inflable-blanco-bodas-rosas-cdmx.avif", "/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif", "/img/inflables/castillo-blanco/brincolin-blanco-bodas-decoracion-globos.avif"],
   capacity: "8-10 personas simultáneamente",
   installTime: "30 minutos",
   requirements: "Espacio mínimo 7×6m, toma de corriente 110V, uso exterior recomendado",
@@ -128,17 +129,25 @@ const inflable = {
       </div>
       </section>
 
+      
       <section class="section section--alt">
         <div class="section-header">
           <h2 class="section-title">Características</h2>
         </div>
         <div class="grid-3">
-          {inflable.features.map((f: string) => (
-            <div class="feature-card">
-              <div class="feature-card__icon">✅</div>
-              <p class="feature-card__desc">{f}</p>
-            </div>
-          ))}
+          {inflable.features.map((f: string, i: number) => {
+            const img = inflable.featureImages[i % inflable.featureImages.length];
+            return (
+              <div class="feature-img-card">
+                <div class="feature-img-card__img">
+                  <img src={img} alt={f} loading="lazy" width="400" height="267" />
+                </div>
+                <div class="feature-img-card__body">
+                  <p class="feature-img-card__text">{f}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 

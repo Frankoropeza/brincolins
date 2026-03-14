@@ -17,6 +17,7 @@ const inflable = {
   gradient: "#FF3D00, #ff6d3f",
   desc: "El Mini Castillo es el inflable perfecto para bebés y niños pequeños. Con dimensiones compactas de 2×2 metros y solo 2 metros de altura, cabe perfectamente en departamentos, salones pequeños y jardines reducidos. Sus paredes suaves están diseñadas especialmente para la seguridad de los más pequeños, y su tamaño permite una fácil supervisión desde cualquier ángulo.",
   features: ["Diseño compacto para espacios reducidos", "Paredes suaves para bebés", "Torres decorativas coloridas", "Motor inflador silencioso", "Cabe en interiores y departamentos", "Fácil supervisión desde cualquier ángulo"],
+  featureImages: ["/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif", "/img/inflables/mini-castillo/mini-castillo-exterior.avif", "/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif", "/img/inflables/mini-castillo/mini-castillo-renta-cdmx.avif"],
   capacity: "3-4 niños simultáneamente",
   installTime: "15 minutos",
   requirements: "Espacio mínimo 3×3m, toma de corriente 110V, apto para interiores",
@@ -125,17 +126,25 @@ const inflable = {
       </div>
       </section>
 
+      
       <section class="section section--alt">
         <div class="section-header">
           <h2 class="section-title">Características</h2>
         </div>
         <div class="grid-3">
-          {inflable.features.map((f: string) => (
-            <div class="feature-card">
-              <div class="feature-card__icon">✅</div>
-              <p class="feature-card__desc">{f}</p>
-            </div>
-          ))}
+          {inflable.features.map((f: string, i: number) => {
+            const img = inflable.featureImages[i % inflable.featureImages.length];
+            return (
+              <div class="feature-img-card">
+                <div class="feature-img-card__img">
+                  <img src={img} alt={f} loading="lazy" width="400" height="267" />
+                </div>
+                <div class="feature-img-card__body">
+                  <p class="feature-img-card__text">{f}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 

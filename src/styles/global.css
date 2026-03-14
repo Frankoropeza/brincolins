@@ -2586,3 +2586,31 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 600px) {
   .gallery { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* ── Feature Cards con imagen ── */
+.feature-img-card {
+  background: #fff;
+  border-radius: var(--r-card);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--c-border);
+}
+.feature-img-card__img {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+.feature-img-card__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.feature-img-card__body {
+  padding: 1rem 1.1rem;
+}
+.feature-img-card__text {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--c-text);
+  line-height: 1.4;
+}
