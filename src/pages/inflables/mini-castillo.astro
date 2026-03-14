@@ -1,6 +1,7 @@
 ---
 import PageLayout from "@/layouts/PageLayout.astro";
 import Sidebar from "@/components/Sidebar.astro";
+import ProductCard from "@/components/ProductCard.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 
 const title = "Renta de Mini Castillo Inflable | BRINCOLINS CDMX";
@@ -139,6 +140,23 @@ const inflable = {
       <Sidebar currentSlug={inflable.slug} />
     </aside>
   </div>
+
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">🎈 Más inflables</span>
+        <h2 class="section-title">Otros inflables que te pueden interesar</h2>
+        <p class="section-subtitle">Todos incluyen entrega, instalación y seguro en CDMX y Edomex</p>
+      </div>
+      <div class="grid-4">
+          <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más rentado. Dos dragones de 3m con resbaladilla y mallas de seguridad." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
+          <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla incluida." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
+          <ProductCard slug="mini-jungla" emoji="🌴" name="Mini Jungla" description="Inflable temático con animales y palmeras tropicales." price="$1,200" size="4×4×3m" ages="3-10 años" category="Aventura" categoryColor="jungla" gradient="#2E7D32, #1B5E20" image="/img/inflables/mini-jungla.avif" />
+          <ProductCard slug="gusanitos" emoji="🐛" name="Gusanitos" description="Inflable tropical con gusanitos y colores vibrantes." price="$1,200" size="4×4×3m" ages="4-10 años" category="Tropical" categoryColor="jungla" gradient="#558B2F, #827717" image="/img/inflables/gusanitos.avif" />
+      </div>
+    </div>
+  </section>
 
   <CtaBanner
     title={`¿Te interesa el ${inflable.name}?`}
