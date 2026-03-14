@@ -8,23 +8,32 @@ interface Props {
   date:     string;
   readTime: string;
   gradient: string;
+  image?:   string;
+  featured?: boolean;
 }
 
-const { slug, emoji, category, title, excerpt, date, readTime, gradient } = Astro.props;
+const { slug, emoji, category, title, excerpt, date, readTime, gradient, image, featured } = Astro.props;
 ---
 
-<article class="blog-card">
-  <div class="blog-card__thumb" style={`background: ${gradient};`}>
-    <span class="blog-card__emoji" aria-hidden="true">{emoji}</span>
+<article class={`blog-card${featured ? ' blog-card--featured' : ''}`}>
+  <a href={`/blog/${slug}/`} class="blog-card__thumb-link" tabindex="-1" aria-hidden="true">
+    {image
+      ? <img src={image} alt={title} width="800" height="450" loading="lazy" class="blog-card__img" />
+      : <div class="blog-card__gradient" style={`background: ${gradient};`}>
+          <span class="blog-card__emoji" aria-hidden="true">{emoji}</span>
+        </div>
+    }
     <span class="blog-card__cat">{category}</span>
-  </div>
+  </a>
   <div class="blog-card__body">
     <div class="blog-card__meta">
       <time class="blog-card__date">{date}</time>
       <span class="blog-card__sep" aria-hidden="true">·</span>
       <span class="blog-card__time">{readTime} lectura</span>
     </div>
-    <h3 class="blog-card__title">{title}</h3>
+    <h3 class="blog-card__title">
+      <a href={`/blog/${slug}/`}>{title}</a>
+    </h3>
     <p class="blog-card__excerpt">{excerpt}</p>
     <a href={`/blog/${slug}/`} class="blog-card__link" aria-label={`Leer: ${title}`}>
       Leer artículo
@@ -53,14 +62,34 @@ const { slug, emoji, category, title, excerpt, date, readTime, gradient } = Astr
     box-shadow: var(--shadow-md);
   }
 
-  /* Thumbnail con degradado y emoji */
-  .blog-card__thumb {
+  /* Thumbnail */
+  .blog-card__thumb-link {
     position: relative;
-    height: 160px;
+    display: block;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-decoration: none;
+  }
+
+  .blog-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+  }
+
+  .blog-card:hover .blog-card__img {
+    transform: scale(1.04);
+  }
+
+  .blog-card__gradient {
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
   }
 
   .blog-card__emoji {
@@ -71,25 +100,26 @@ const { slug, emoji, category, title, excerpt, date, readTime, gradient } = Astr
 
   .blog-card__cat {
     position: absolute;
-    top: 1rem;
-    left: 1rem;
-    background: rgba(255,255,255,0.95);
+    top: 0.75rem;
+    left: 0.75rem;
+    background: rgba(255,255,255,0.96);
     color: var(--c-primary);
     font-family: var(--font-head);
     font-weight: 800;
-    font-size: 0.7rem;
+    font-size: 0.68rem;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    padding: 0.25rem 0.75rem;
+    padding: 0.2rem 0.6rem;
     border-radius: var(--r-badge);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
   }
 
   /* Cuerpo */
   .blog-card__body {
-    padding: 1.5rem;
+    padding: 1.25rem 1.5rem 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
+    gap: 0.6rem;
     flex: 1;
   }
 
@@ -97,7 +127,7 @@ const { slug, emoji, category, title, excerpt, date, readTime, gradient } = Astr
     display: flex;
     align-items: center;
     gap: 0.4rem;
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     color: var(--c-text-muted);
   }
 
@@ -106,21 +136,33 @@ const { slug, emoji, category, title, excerpt, date, readTime, gradient } = Astr
   .blog-card__title {
     font-family: var(--font-head);
     font-weight: 800;
-    font-size: clamp(1rem, 2vw, 1.15rem);
+    font-size: clamp(1rem, 2vw, 1.1rem);
     color: var(--c-text);
     line-height: 1.3;
     margin: 0;
   }
 
+  .blog-card__title a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .blog-card__title a:hover {
+    color: var(--c-primary);
+  }
+
   .blog-card__excerpt {
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     color: var(--c-text-muted);
     line-height: 1.65;
     margin: 0;
     flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
-  /* Link al final */
   .blog-card__link {
     display: inline-flex;
     align-items: center;
@@ -134,7 +176,14 @@ const { slug, emoji, category, title, excerpt, date, readTime, gradient } = Astr
     transition: gap 0.2s ease;
   }
 
-  .blog-card__link:hover {
-    gap: 0.6rem;
+  .blog-card__link:hover { gap: 0.6rem; }
+
+  /* Variante featured */
+  .blog-card--featured .blog-card__title {
+    font-size: clamp(1.15rem, 2.5vw, 1.4rem);
+  }
+
+  .blog-card--featured .blog-card__excerpt {
+    -webkit-line-clamp: 4;
   }
 </style>

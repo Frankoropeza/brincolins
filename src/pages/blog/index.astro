@@ -1,8 +1,8 @@
 ---
-import PageLayout  from "@/layouts/PageLayout.astro";
+import PageLayout    from "@/layouts/PageLayout.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
-import CtaBanner   from "@/components/CtaBanner.astro";
-import BlogCard    from "@/components/BlogCard.astro";
+import CtaBanner     from "@/components/CtaBanner.astro";
+import BlogCard      from "@/components/BlogCard.astro";
 
 const title       = "Blog de Inflables y Fiestas Infantiles | BRINCOLINS";
 const description = "Consejos, guías e ideas para organizar la mejor fiesta infantil en CDMX y Estado de México. Tips de renta de inflables, seguridad, decoración y más.";
@@ -17,6 +17,7 @@ const articulos = [
     date:     "10 mar 2025",
     readTime: "5 min",
     gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)",
+    image:    "/img/inflables/castillo-v3.avif",
   },
   {
     slug:     "ideas-fiesta-infantil-cdmx",
@@ -27,6 +28,7 @@ const articulos = [
     date:     "20 feb 2025",
     readTime: "7 min",
     gradient: "linear-gradient(135deg, #7C3AED, #E91E8C)",
+    image:    "/img/inflables/mini-castillo-v3.avif",
   },
   {
     slug:     "consejos-rentar-inflable-primera-vez",
@@ -37,6 +39,7 @@ const articulos = [
     date:     "5 feb 2025",
     readTime: "6 min",
     gradient: "linear-gradient(135deg, #0288D1, #1565C0)",
+    image:    "/img/inflables/gusanitos-v3.avif",
   },
   {
     slug:     "cuanto-cuesta-rentar-inflable-cdmx",
@@ -47,6 +50,7 @@ const articulos = [
     date:     "11 mar 2025",
     readTime: "6 min",
     gradient: "linear-gradient(135deg, #F59E0B, #D97706)",
+    image:    "/img/inflables/mini-jungla-v4.avif",
   },
   {
     slug:     "seguridad-inflables-fiestas-infantiles",
@@ -57,6 +61,7 @@ const articulos = [
     date:     "11 mar 2025",
     readTime: "7 min",
     gradient: "linear-gradient(135deg, #10B981, #059669)",
+    image:    "/img/inflables/extremo-v3.avif",
   },
   {
     slug:     "inflables-acuaticos-verano-cdmx",
@@ -67,6 +72,7 @@ const articulos = [
     date:     "11 mar 2025",
     readTime: "6 min",
     gradient: "linear-gradient(135deg, #0288D1, #0EA5E9)",
+    image:    "/img/inflables/castillo-v4.avif",
   },
   {
     slug:     "inflables-para-adultos-eventos-corporativos",
@@ -77,6 +83,7 @@ const articulos = [
     date:     "12 mar 2025",
     readTime: "7 min",
     gradient: "linear-gradient(135deg, #E65100, #BF360C)",
+    image:    "/img/inflables/extremo-v4.avif",
   },
   {
     slug:     "decoracion-fiesta-infantil-inflable",
@@ -87,6 +94,7 @@ const articulos = [
     date:     "12 mar 2025",
     readTime: "6 min",
     gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)",
+    image:    "/img/inflables/castillo-princesas-v3.avif",
   },
   {
     slug:     "renta-inflables-bodas-xv-anos",
@@ -97,6 +105,7 @@ const articulos = [
     date:     "12 mar 2025",
     readTime: "6 min",
     gradient: "linear-gradient(135deg, #7E57C2, #9575CD)",
+    image:    "/img/inflables/castillo-blanco-v4.avif",
   },
   {
     slug:     "paquetes-completos-fiesta-inflable-cdmx",
@@ -107,8 +116,11 @@ const articulos = [
     date:     "12 mar 2025",
     readTime: "7 min",
     gradient: "linear-gradient(135deg, #00C853, #2E7D32)",
+    image:    "/img/inflables/barco-pirata-v4.avif",
   },
 ];
+
+const [featured, ...resto] = articulos;
 ---
 
 <PageLayout
@@ -129,12 +141,16 @@ const articulos = [
     </nav>
   </div>
 
+  <!-- HERO -->
   <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
     <div class="container">
       <div class="hero__grid">
         <div>
-          <span class="hero__badge">📝 Blog</span>
+          <span class="hero__badge">📝 Blog BRINCOLINS</span>
           <h1 class="hero__title">Guías e Ideas para tu <span class="highlight">Fiesta Perfecta</span></h1>
+          <p style="color:var(--c-text-muted);font-size:1.05rem;margin:.75rem 0 1.5rem;line-height:1.7;">
+            Consejos prácticos de expertos con más de 20 años en renta de inflables. Todo lo que necesitas para organizar la mejor fiesta en CDMX y Edomex.
+          </p>
           <div class="hero__ctas">
             <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar inflable</a>
             <a href="/inflables/" class="btn btn-outline btn-lg">Ver catálogo</a>
@@ -147,6 +163,34 @@ const articulos = [
           <p class="hero__copy-text">
             También compartimos ideas de decoración, consejos de seguridad y listas de verificación para que la organización de la fiesta sea sin estrés. Nuevo contenido cada mes, siempre enfocado en familias de <strong>CDMX y Estado de México</strong>.
           </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARTÍCULO DESTACADO -->
+  <section style="padding:0 0 3rem;">
+    <div class="container">
+      <div class="featured-wrap">
+        <a href={`/blog/${featured.slug}/`} class="featured-thumb">
+          <img src={featured.image} alt={featured.title} width="1200" height="675" loading="eager" />
+          <span class="featured-badge">⭐ Artículo destacado</span>
+          <span class="blog-cat-pill">{featured.category}</span>
+        </a>
+        <div class="featured-body">
+          <div class="featured-meta">
+            <time>{featured.date}</time>
+            <span>·</span>
+            <span>{featured.readTime} lectura</span>
+          </div>
+          <h2 class="featured-title">
+            <a href={`/blog/${featured.slug}/`}>{featured.title}</a>
+          </h2>
+          <p class="featured-excerpt">{featured.excerpt}</p>
+          <a href={`/blog/${featured.slug}/`} class="btn btn-primary" style="align-self:flex-start">
+            Leer artículo
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left:4px"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
         </div>
       </div>
     </div>
@@ -166,7 +210,7 @@ const articulos = [
     compact={true}
   />
 
-  <!-- ARTÍCULOS -->
+  <!-- TODOS LOS ARTÍCULOS -->
   <section class="section">
     <div class="container">
       <SectionHeader
@@ -176,8 +220,8 @@ const articulos = [
         copy1="Nuestro equipo comparte guías detalladas sobre cómo elegir el inflable ideal según la edad de los niños, el espacio disponible y el presupuesto con el que cuentas. Con más de 20 años de experiencia, sabemos lo que funciona."
         copy2="También publicamos ideas de decoración, consejos de seguridad y listas de verificación para que la organización de tu fiesta sea sin estrés. Nuevo contenido cada mes."
       />
-      <div class="grid-3">
-        {articulos.map(a => <BlogCard {...a} />)}
+      <div class="blog-grid">
+        {resto.map(a => <BlogCard {...a} />)}
       </div>
     </div>
   </section>
@@ -233,6 +277,120 @@ const articulos = [
 </PageLayout>
 
 <style>
+  /* ── Blog grid ── */
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.75rem;
+  }
+
+  /* ── Featured ── */
+  .featured-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    align-items: center;
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+  }
+
+  @media (max-width: 768px) {
+    .featured-wrap { grid-template-columns: 1fr; }
+  }
+
+  .featured-thumb {
+    position: relative;
+    display: block;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    text-decoration: none;
+  }
+
+  .featured-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+  }
+
+  .featured-thumb:hover img { transform: scale(1.04); }
+
+  .featured-badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: var(--c-primary);
+    color: #fff;
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--r-badge);
+  }
+
+  .blog-cat-pill {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    background: rgba(255,255,255,0.95);
+    color: var(--c-primary);
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.2rem 0.6rem;
+    border-radius: var(--r-badge);
+  }
+
+  .featured-body {
+    padding: 2rem 2rem 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .featured-body { padding: 1.5rem; }
+  }
+
+  .featured-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    color: var(--c-text-muted);
+  }
+
+  .featured-title {
+    font-family: var(--font-head);
+    font-weight: 900;
+    font-size: clamp(1.3rem, 2.5vw, 1.75rem);
+    line-height: 1.25;
+    color: var(--c-text);
+    margin: 0;
+  }
+
+  .featured-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .featured-title a:hover { color: var(--c-primary); }
+
+  .featured-excerpt {
+    font-size: 1rem;
+    color: var(--c-text-muted);
+    line-height: 1.7;
+    margin: 0;
+  }
+
   /* ── Categorías ── */
   .cat-card {
     display: flex;
@@ -247,6 +405,7 @@ const articulos = [
     text-decoration: none;
     text-align: center;
     box-shadow: var(--shadow-sm);
+    transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
   }
 
   .cat-card:hover {
@@ -261,9 +420,7 @@ const articulos = [
   }
 
   .cat-card--cta .cat-card__label,
-  .cat-card--cta .cat-card__count {
-    color: #fff;
-  }
+  .cat-card--cta .cat-card__count { color: #fff; }
 
   .cat-card__emoji { font-size: 2.25rem; line-height: 1; }
 

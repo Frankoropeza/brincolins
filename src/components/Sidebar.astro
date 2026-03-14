@@ -1,0 +1,104 @@
+---
+interface Props {
+  currentSlug?: string;
+}
+
+const { currentSlug } = Astro.props;
+
+const allInflables = [
+  { slug: "dragones-rojos", name: "Dragones Rojos", price: "$1,200", image: "/img/inflables/dragones-rojos.avif", category: "Más popular" },
+  { slug: "castillo-princesas", name: "Castillo de Princesas", price: "$1,200", image: "/img/inflables/castillo-princesas.avif", category: "Princesas" },
+  { slug: "mini-jungla", name: "Mini Jungla", price: "$1,200", image: "/img/inflables/mini-jungla.avif", category: "Aventura" },
+  { slug: "gusanitos", name: "Gusanitos", price: "$1,200", image: "/img/inflables/gusanitos.avif", category: "Tropical" },
+  { slug: "mini-castillo", name: "Mini Castillo", price: "$800", image: "/img/inflables/mini-castillo.avif", category: "Chico" },
+  { slug: "barco-pirata", name: "Barco Pirata", price: "$2,500", image: "/img/inflables/barco-pirata.avif", category: "Grande" },
+  { slug: "extremo", name: "Extremo", price: "$3,000", image: "/img/inflables/extremo.avif", category: "Extremo" },
+  { slug: "castillo-blanco", name: "Castillo Blanco", price: "$2,800", image: "/img/inflables/castillo-blanco.avif", category: "Bodas" },
+];
+
+const allArticulos = [
+  { slug: "como-elegir-inflable-fiesta-infantil", title: "Cómo elegir el inflable perfecto", category: "Guías", readTime: "5 min" },
+  { slug: "cuanto-cuesta-rentar-inflable-cdmx", title: "¿Cuánto cuesta rentar un inflable en CDMX?", category: "Precios", readTime: "6 min" },
+  { slug: "seguridad-inflables-fiestas-infantiles", title: "Seguridad en inflables: lo que todo papá debe saber", category: "Seguridad", readTime: "7 min" },
+];
+
+const filteredInflables = allInflables.filter(i => i.slug !== currentSlug);
+---
+
+<div class="sidebar">
+  <!-- Bloque 1: Otros Inflables -->
+  <div class="sidebar-block">
+    <div class="sidebar-block__header">Otros Inflables</div>
+    <div class="sidebar-block__body">
+      {filteredInflables.map(item => (
+        <a href={`/inflables/${item.slug}/`} class="sidebar-inflable" data-item style="display:none">
+          <img src={item.image} alt={item.name} width="72" height="54" loading="lazy" class="sidebar-inflable__img" />
+          <div class="sidebar-inflable__info">
+            <div class="sidebar-inflable__name">{item.name}</div>
+            <div class="sidebar-inflable__meta">
+              <span class="sidebar-inflable__price">{item.price}</span>
+              <span class="sidebar-inflable__cat">{item.category}</span>
+            </div>
+          </div>
+          <span class="sidebar-inflable__arrow">→</span>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <!-- Bloque 2: Artículos de Interés -->
+  <div class="sidebar-block">
+    <div class="sidebar-block__header">Artículos de Interés</div>
+    <div class="sidebar-block__body">
+      {allArticulos.map(art => (
+        <a href={`/blog/${art.slug}/`} class="sidebar-article" data-item style="display:none">
+          <div class="sidebar-article__cat">{art.category}</div>
+          <div class="sidebar-article__title">{art.title}</div>
+          <div class="sidebar-article__time">{art.readTime} de lectura</div>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <!-- Bloque 3: Contacto Rápido -->
+  <div class="sidebar-block">
+    <div class="sidebar-contact">
+      <div class="sidebar-contact__title">¿Listo para reservar?</div>
+      <div class="sidebar-contact__sub">Respondemos en minutos</div>
+      <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable." class="sidebar-contact__btn" target="_blank" rel="noopener">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp directo
+      </a>
+      <div class="sidebar-contact__info">
+        📍 CDMX y Estado de México<br/>
+        ⏰ Atención 7 días a la semana
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function shuffle(arr: Element[]) {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  const inflableItems = Array.from(document.querySelectorAll(".sidebar-inflable[data-item]"));
+  if (inflableItems.length) {
+    shuffle(inflableItems);
+    inflableItems.forEach((el, i) => {
+      (el as HTMLElement).style.display = i < 3 ? "flex" : "none";
+    });
+  }
+
+  const artItems = Array.from(document.querySelectorAll(".sidebar-article[data-item]"));
+  if (artItems.length) {
+    shuffle(artItems);
+    artItems.forEach((el, i) => {
+      (el as HTMLElement).style.display = i < 2 ? "block" : "none";
+    });
+  }
+</script>
