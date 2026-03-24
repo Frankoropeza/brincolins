@@ -9,7 +9,7 @@ import PricingCards from "@/components/PricingCards.astro";
 import CtaBar from "@/components/CtaBar.astro";
 import FaqSection from "@/components/FaqSection.astro";
 
-const title = "Renta de Barco Pirata Inflable | BRINCOLINS CDMX";
+const title = "Barco Pirata Inflable CDMX — Desde $2,500 | BRINCOLINS";
 const description = "Renta el inflable Barco Pirata de 7×5×4m para fiestas en CDMX y Edomex. Resbaladilla de altura y capacidad para 15 niños. Desde $2,500 MXN con entrega.";
 
 const inflable = {
@@ -167,21 +167,21 @@ const ctaBarItems = [
 
   <section class="section" id="galeria">
     <div class="container">
-      <SectionHeader badge="📸 Galería" title={`Fotos del ${inflable.name}`} subtitle="Imágenes reales de nuestros eventos" copy1="El Barco Pirata impresiona desde cualquier ángulo: su imponente estructura de 4 metros de altura con decoración de anclas, calaveras y colores azul marino lo convierte en el centro de atención de cualquier evento al aire libre." copy2="Estas fotografías son de fiestas reales en CDMX y Estado de México donde el Barco Pirata fue la atracción estrella. Los niños no quieren bajarse de esta aventura inflable." />
+      <SectionHeader badge="📸 Galería" title={`Galería del ${inflable.name} en fiestas reales`} subtitle="Imágenes reales de nuestros eventos" copy1="El Barco Pirata impresiona desde cualquier ángulo: su imponente estructura de 4 metros de altura con decoración de anclas, calaveras y colores azul marino lo convierte en el centro de atención de cualquier evento al aire libre." copy2="Estas fotografías son de fiestas reales en CDMX y Estado de México donde el Barco Pirata fue la atracción estrella. Los niños no quieren bajarse de esta aventura inflable." />
       <Gallery4x4 images={galleryImages} />
     </div>
   </section>
 
   <section class="section section--alt" id="precios">
     <div class="container">
-      <SectionHeader badge="💰 Paquetes" title={`Precios de Renta — ${inflable.name}`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="El Barco Pirata es ideal para fiestas grandes donde necesitas una atracción que mantenga entretenidos a muchos niños al mismo tiempo. Con capacidad para 15 niños, el costo por invitado es increíblemente accesible." copy2="El paquete Estándar es el más solicitado porque incluye instalación profesional y seguro de responsabilidad civil. Para kermeses y eventos escolares, el paquete Día Completo ofrece 12 horas continuas de diversión." />
+      <SectionHeader badge="💰 Paquetes" title={`¿Cuánto cuesta rentar el ${inflable.name} en CDMX?`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="El Barco Pirata es ideal para fiestas grandes donde necesitas una atracción que mantenga entretenidos a muchos niños al mismo tiempo. Con capacidad para 15 niños, el costo por invitado es increíblemente accesible." copy2="El paquete Estándar es el más solicitado porque incluye instalación profesional y seguro de responsabilidad civil. Para kermeses y eventos escolares, el paquete Día Completo ofrece 12 horas continuas de diversión." />
       <PricingCards packages={pricingPackages} />
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <SectionHeader badge="❓ Preguntas frecuentes" title={`Dudas sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Barco Pirata es nuestro inflable mediano más impresionante y es normal tener dudas sobre espacio, capacidad e instalación. Aquí respondemos las preguntas que más nos hacen nuestros clientes." copy2="¿Tienes una pregunta que no aparece aquí? Escríbenos por WhatsApp y nuestro equipo te responde en minutos con toda la información que necesitas para tu evento." />
+      <SectionHeader badge="❓ Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Barco Pirata es nuestro inflable mediano más impresionante y es normal tener dudas sobre espacio, capacidad e instalación. Aquí respondemos las preguntas que más nos hacen nuestros clientes." copy2="¿Tienes una pregunta que no aparece aquí? Escríbenos por WhatsApp y nuestro equipo te responde en minutos con toda la información que necesitas para tu evento." />
     </div>
     <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
   </section>

@@ -4,9 +4,91 @@ import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import FaqItem from "@/components/FaqItem.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
+import Gallery4x4 from "@/components/Gallery4x4.astro";
+import PricingCards from "@/components/PricingCards.astro";
 
 const title = "Renta de Inflables para Fiestas en CDMX | BRINCOLINS CDMX";
 const description = "Renta de inflables para fiestas infantiles en CDMX. Incluye entrega, instalación, motor, limpieza, seguro y recolección. Cotiza hoy por WhatsApp.";
+
+const galleryImages = [
+  { src: "/img/inflables/castillo-blanco-v3.avif", alt: "Inflable castillo blanco para renta en fiestas CDMX" },
+  { src: "/img/inflables/barco-pirata-v3.avif", alt: "Inflable barco pirata para eventos infantiles CDMX" },
+  { src: "/img/inflables/extremo-v3.avif", alt: "Inflable extremo con obstáculos para fiestas grandes" },
+  { src: "/img/inflables/castillo-princesas-v3.avif", alt: "Inflable castillo de princesas para niñas en CDMX" },
+  { src: "/img/inflables/mini-castillo-v3.avif", alt: "Mini castillo inflable para fiestas infantiles" },
+  { src: "/img/inflables/gusanitos-v3.avif", alt: "Inflable gusanitos para los más pequeños" },
+  { src: "/img/inflables/mini-jungla-v3.avif", alt: "Inflable mini jungla para niños en CDMX" },
+  { src: "/img/inflables/castillo-blanco-v5.avif", alt: "Castillo blanco inflable en evento al aire libre" },
+];
+
+const pricingPackages = [
+  {
+    name: "Inflable Básico",
+    price: "$1,200",
+    priceNote: "por evento (4 horas)",
+    description: "Ideal para fiestas pequeñas con los más chiquitos. Incluye mini castillo o gusanitos.",
+    features: [
+      { text: "Mini castillo o gusanitos", included: true },
+      { text: "Entrega e instalación", included: true },
+      { text: "Motor de inflado continuo", included: true },
+      { text: "Limpieza y sanitización", included: true },
+      { text: "Seguro incluido", included: true },
+      { text: "Recolección al finalizar", included: true },
+      { text: "Inflable grande o extremo", included: false },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Inflable Clásico",
+    badge: "Popular",
+    highlight: true,
+    price: "$1,800",
+    priceNote: "por evento (5 horas)",
+    description: "El favorito de nuestros clientes. Castillos y barcos para todas las edades.",
+    features: [
+      { text: "Castillo, barco pirata o princesas", included: true },
+      { text: "Entrega e instalación", included: true },
+      { text: "Motor de inflado continuo", included: true },
+      { text: "Limpieza y sanitización", included: true },
+      { text: "Seguro incluido", included: true },
+      { text: "Recolección al finalizar", included: true },
+      { text: "5 horas de servicio", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Inflable Extremo",
+    price: "$2,800",
+    priceNote: "por evento (5 horas)",
+    description: "Para fiestas grandes con adolescentes y adultos. Circuito de obstáculos completo.",
+    features: [
+      { text: "Inflable extremo con obstáculos", included: true },
+      { text: "Entrega e instalación", included: true },
+      { text: "Motor de inflado continuo", included: true },
+      { text: "Limpieza y sanitización", included: true },
+      { text: "Seguro incluido", included: true },
+      { text: "Recolección al finalizar", included: true },
+      { text: "Ideal para todas las edades", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Inflable Acuático",
+    price: "$3,500",
+    priceNote: "por evento (5 horas)",
+    description: "Perfecto para fiestas de verano. Tobogán con zona de splash incluida.",
+    features: [
+      { text: "Inflable acuático con tobogán", included: true },
+      { text: "Entrega e instalación", included: true },
+      { text: "Motor de inflado continuo", included: true },
+      { text: "Conexión de agua incluida", included: true },
+      { text: "Seguro incluido", included: true },
+      { text: "Recolección al finalizar", included: true },
+      { text: "Manguera y adaptadores", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+];
 
 const faqs = [
   { question: "¿Qué incluye la renta de un inflable?", answer: "Cada renta incluye entrega a domicilio, instalación profesional, motor de inflado continuo, limpieza y sanitización previa, seguro contra accidentes y recolección al finalizar tu evento. No hay costos ocultos." },
@@ -48,10 +130,39 @@ const faqs = [
           </div>
         </div>
         <div class="hero__copy">
+          <img src="/img/inflables/castillo-blanco-v4.avif" alt="Renta de inflables para fiestas infantiles en CDMX - BRINCOLINS" width="600" height="338" style="border-radius: var(--r-card); width:100%; height:auto; margin-bottom:1.5rem;" />
           <p class="hero__copy-text">En BRINCOLINS ofrecemos el servicio más completo de renta de inflables en la Ciudad de México. Cada renta incluye transporte de ida y vuelta, instalación profesional por nuestro equipo capacitado, motor eléctrico de inflado continuo, limpieza y sanitización del inflable antes de cada evento, y seguro de responsabilidad civil para que tu fiesta sea 100% segura.</p>
           <p class="hero__copy-text">Contamos con más de 15 modelos de inflables para todas las edades: desde mini castillos para los más pequeños hasta inflables extremos para adolescentes y adultos. Nuestro servicio cubre toda la CDMX y zona metropolitana, con horarios flexibles y precios accesibles que se adaptan a cualquier presupuesto familiar.</p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="📸 Galería"
+        title="Nuestros inflables en acción"
+        subtitle="Mira cómo lucen nuestros inflables en eventos reales."
+        copy1="Cada inflable que rentamos está diseñado para ofrecer diversión segura y horas de entretenimiento para niños de todas las edades. Desde castillos clásicos hasta circuitos extremos, nuestro catálogo tiene opciones para todo tipo de fiesta."
+        copy2="Todos los inflables que ves en las fotos están disponibles para renta en CDMX y zona metropolitana. Contáctanos por WhatsApp para conocer la disponibilidad del modelo que más te guste para la fecha de tu evento."
+      />
+      <Gallery4x4 images={galleryImages} />
+    </div>
+  </section>
+
+  <!-- PRECIOS -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="💰 Precios"
+        title="Precios de renta de inflables"
+        subtitle="Opciones para cada presupuesto. Todo incluido."
+        copy1="Nuestros precios incluyen entrega, instalación, motor de inflado, limpieza, sanitización, seguro de responsabilidad civil y recolección. No hay costos ocultos ni sorpresas al momento de pagar."
+        copy2="El precio final puede variar según la distancia de entrega y la duración del evento. Contáctanos para recibir una cotización personalizada según las necesidades de tu fiesta."
+      />
+      <PricingCards packages={pricingPackages} />
     </div>
   </section>
 

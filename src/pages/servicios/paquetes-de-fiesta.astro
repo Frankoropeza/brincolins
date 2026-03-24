@@ -4,9 +4,82 @@ import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import FaqItem from "@/components/FaqItem.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
+import Gallery4x4 from "@/components/Gallery4x4.astro";
+import PricingCards from "@/components/PricingCards.astro";
 
 const title = "Paquetes de Fiesta Todo Incluido en CDMX | BRINCOLINS CDMX";
 const description = "Paquetes de fiesta todo incluido: inflable + mobiliario + iluminación. 3 niveles: Básico, Premium y VIP. Ahorra hasta 30% vs renta individual en CDMX.";
+
+const galleryImages = [
+  { src: "/img/inflables/castillo-blanco-v9.avif", alt: "Paquete de fiesta completo con inflable castillo blanco" },
+  { src: "/img/inflables/extremo-v8.avif", alt: "Paquete VIP con inflable extremo y mobiliario" },
+  { src: "/img/inflables/castillo-princesas-v8.avif", alt: "Paquete de fiesta infantil con castillo de princesas" },
+  { src: "/img/inflables/barco-pirata-v8.avif", alt: "Paquete Premium con barco pirata e iluminación" },
+  { src: "/img/servicios/paquetes-fiesta-completo-cdmx.avif", alt: "Paquete todo incluido con inflable y mobiliario CDMX" },
+  { src: "/img/inflables/mini-castillo-v8.avif", alt: "Paquete básico con mini castillo para fiestas" },
+  { src: "/img/inflables/gusanitos-v8.avif", alt: "Paquete infantil con gusanitos y mesas" },
+  { src: "/img/inflables/mini-jungla-v8.avif", alt: "Paquete completo con mini jungla y decoración" },
+];
+
+const pricingPackages = [
+  {
+    name: "Paquete Básico",
+    price: "$2,800",
+    priceNote: "hasta 30 invitados / 4 hrs",
+    description: "Ideal para fiestas íntimas. Inflable clásico + mobiliario esencial para 30 personas.",
+    features: [
+      { text: "Inflable clásico a elegir", included: true },
+      { text: "3 mesas rectangulares", included: true },
+      { text: "24 sillas plegables", included: true },
+      { text: "Entrega e instalación", included: true },
+      { text: "4 horas de servicio", included: true },
+      { text: "Recolección incluida", included: true },
+      { text: "Ahorro del 15% vs individual", included: true },
+      { text: "Manteles y toldo", included: false },
+      { text: "Iluminación LED", included: false },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Paquete Premium",
+    badge: "Recomendado",
+    highlight: true,
+    price: "$4,500",
+    priceNote: "hasta 50 invitados / 6 hrs",
+    description: "El más solicitado. Inflable + mobiliario completo + toldo para 50 personas.",
+    features: [
+      { text: "Inflable a elegir (cualquier modelo)", included: true },
+      { text: "5 mesas rectangulares", included: true },
+      { text: "40 sillas plegables", included: true },
+      { text: "Manteles a elegir color", included: true },
+      { text: "Toldo 3x6 m incluido", included: true },
+      { text: "6 horas de servicio", included: true },
+      { text: "Entrega, instalación y recolección", included: true },
+      { text: "Ahorro del 20% vs individual", included: true },
+      { text: "Iluminación LED", included: false },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Paquete VIP",
+    badge: "Mejor valor",
+    price: "$6,800",
+    priceNote: "hasta 80 invitados / 8 hrs",
+    description: "La experiencia completa. Inflable premium + mobiliario + toldo + iluminación LED.",
+    features: [
+      { text: "Inflable premium (extremo o acuático)", included: true },
+      { text: "8 mesas rectangulares", included: true },
+      { text: "64 sillas plegables", included: true },
+      { text: "Manteles a elegir color", included: true },
+      { text: "Toldo 6x6 m incluido", included: true },
+      { text: "Iluminación LED completa", included: true },
+      { text: "8 horas de servicio", included: true },
+      { text: "Atención personalizada", included: true },
+      { text: "Ahorro del 30% vs individual", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+];
 
 const faqs = [
   { question: "¿Cuánto ahorro con un paquete vs rentar todo por separado?", answer: "Dependiendo del paquete que elijas, puedes ahorrar entre un 15% y un 30% comparado con la renta individual de cada servicio. El paquete VIP es el que ofrece mayor ahorro porque incluye todos los servicios con descuento máximo." },
@@ -56,8 +129,22 @@ const faqs = [
     </div>
   </section>
 
-  <!-- PAQUETES -->
+  <!-- GALERÍA -->
   <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="📸 Galería"
+        title="Nuestros paquetes en acción"
+        subtitle="Así lucen los eventos de nuestros clientes con paquetes completos."
+        copy1="Cada paquete incluye todo lo necesario para una fiesta perfecta: inflable, mobiliario y, en el paquete VIP, iluminación profesional. Nuestro equipo se encarga de la logística completa para que tú solo disfrutes."
+        copy2="Mira cómo hemos transformado jardines, patios y terrazas en espacios de fiesta completos. Desde reuniones íntimas hasta grandes celebraciones, tenemos el paquete ideal para tu evento."
+      />
+      <Gallery4x4 images={galleryImages} />
+    </div>
+  </section>
+
+  <!-- PAQUETES / PRECIOS -->
+  <section class="section">
     <div class="container">
       <SectionHeader
         badge="📦 Nuestros paquetes"
@@ -66,35 +153,7 @@ const faqs = [
         copy1="Cada paquete ha sido diseñado pensando en las necesidades reales de nuestros clientes. Sabemos que no todas las fiestas son iguales: algunas son reuniones íntimas en casa y otras son grandes celebraciones en jardines. Por eso ofrecemos opciones que se adaptan a tu evento."
         copy2="Todos los paquetes incluyen entrega, instalación y recolección sin costo adicional en CDMX y zona metropolitana. Además, puedes personalizar cualquier paquete para ajustarlo exactamente a lo que necesitas. Solo tienes que decirle a nuestro equipo qué quieres cambiar y te cotizamos al instante."
       />
-      <div class="grid-4" style="grid-template-columns: repeat(3, 1fr);">
-        <div class="why-card">
-          <div class="why-card__img" style="background: linear-gradient(135deg, #2962FF, #448AFF);">
-            <span class="why-card__img-label">⭐</span>
-          </div>
-          <div class="why-card__body">
-            <h3 class="why-card__title">Paquete Básico</h3>
-            <p class="why-card__desc">Inflable clásico + 3 mesas + 24 sillas. Ideal para fiestas de hasta 30 invitados. Duración de 4 horas. Entrega e instalación incluida. Ahorro del 15%.</p>
-          </div>
-        </div>
-        <div class="why-card">
-          <div class="why-card__img" style="background: linear-gradient(135deg, #FF6D00, #FFAB00);">
-            <span class="why-card__img-label">🌟</span>
-          </div>
-          <div class="why-card__body">
-            <h3 class="why-card__title">Paquete Premium</h3>
-            <p class="why-card__desc">Inflable a elegir + 5 mesas + 40 sillas + manteles + toldo 3x6 m. Hasta 50 invitados. Duración de 6 horas. Ahorro del 20%.</p>
-          </div>
-        </div>
-        <div class="why-card">
-          <div class="why-card__img" style="background: linear-gradient(135deg, #AA00FF, #D500F9);">
-            <span class="why-card__img-label">👑</span>
-          </div>
-          <div class="why-card__body">
-            <h3 class="why-card__title">Paquete VIP</h3>
-            <p class="why-card__desc">Inflable premium + 8 mesas + 64 sillas + manteles + toldo 6x6 m + iluminación LED completa. Hasta 80 invitados. 8 horas. Ahorro del 30%.</p>
-          </div>
-        </div>
-      </div>
+      <PricingCards packages={pricingPackages} />
     </div>
   </section>
 

@@ -4,9 +4,72 @@ import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import FaqItem from "@/components/FaqItem.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
+import Gallery4x4 from "@/components/Gallery4x4.astro";
+import PricingCards from "@/components/PricingCards.astro";
 
 const title = "Iluminación para Eventos y Fiestas en CDMX | BRINCOLINS CDMX";
 const description = "Servicio de iluminación para eventos y fiestas en CDMX. Luces LED, series, proyectores y ambientación profesional. Ideal para fiestas nocturnas.";
+
+const galleryImages = [
+  { src: "/img/servicios/iluminacion-eventos-cdmx.avif", alt: "Iluminación LED profesional para eventos en CDMX" },
+  { src: "/img/servicios/guirnaldas-luz-eventos.avif", alt: "Guirnaldas de luces cálidas para fiestas al aire libre" },
+  { src: "/img/servicios/iluminacion-profesional.avif", alt: "Iluminación profesional para eventos nocturnos" },
+  { src: "/img/servicios/neon-fiesta-uv.avif", alt: "Iluminación neón UV para fiestas temáticas" },
+  { src: "/img/inflables/castillo-blanco-v8.avif", alt: "Evento nocturno con inflable iluminado en CDMX" },
+  { src: "/img/inflables/extremo-v7.avif", alt: "Fiesta con inflable e iluminación decorativa" },
+  { src: "/img/inflables/barco-pirata-v7.avif", alt: "Evento infantil con luces y brincolin" },
+  { src: "/img/inflables/castillo-princesas-v7.avif", alt: "Fiesta nocturna con iluminación y castillo inflable" },
+];
+
+const pricingPackages = [
+  {
+    name: "Series Decorativas",
+    price: "$500",
+    priceNote: "por evento (hasta 6 hrs)",
+    description: "Series de luces cálidas estilo vintage. Perfectas para crear ambiente acogedor.",
+    features: [
+      { text: "Series de luces cálidas", included: true },
+      { text: "Hasta 20 metros lineales", included: true },
+      { text: "Instalación incluida", included: true },
+      { text: "Extensiones y contactos", included: true },
+      { text: "Recolección incluida", included: true },
+      { text: "Reflectores LED", included: false },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Iluminación Ambiental",
+    badge: "Popular",
+    highlight: true,
+    price: "$900",
+    priceNote: "por evento (hasta 6 hrs)",
+    description: "Series + reflectores LED de colores. Lo más solicitado para fiestas nocturnas.",
+    features: [
+      { text: "Series de luces cálidas", included: true },
+      { text: "4 reflectores LED de colores", included: true },
+      { text: "Hasta 30 metros lineales", included: true },
+      { text: "Instalación profesional", included: true },
+      { text: "Extensiones y multicontactos", included: true },
+      { text: "Recolección incluida", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Iluminación Premium",
+    price: "$1,500",
+    priceNote: "por evento (hasta 8 hrs)",
+    description: "Paquete completo con cortinas de luces, reflectores y series. Para eventos espectaculares.",
+    features: [
+      { text: "Cortinas de luces decorativas", included: true },
+      { text: "6 reflectores LED RGB", included: true },
+      { text: "Series cálidas + de colores", included: true },
+      { text: "Hasta 50 metros lineales", included: true },
+      { text: "Instalación 2 hrs antes", included: true },
+      { text: "8 horas de servicio", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+];
 
 const faqs = [
   { question: "¿Qué tipos de iluminación ofrecen?", answer: "Ofrecemos luces LED de colores, series de luces cálidas estilo vintage, proyectores de luz ambiental, reflectores LED para exteriores y cortinas de luces decorativas. Cada tipo de iluminación se adapta a diferentes estilos de fiesta y espacios." },
@@ -53,6 +116,34 @@ const faqs = [
           <p class="hero__copy-text">Ya sea que tu fiesta sea en un jardín, una terraza, un salón o el patio de tu casa, tenemos las opciones perfectas para iluminar cada rincón. La instalación y desinstalación están incluidas en el servicio, y te asesoramos sobre la mejor combinación de luces para que tu evento luzca espectacular cuando caiga la noche.</p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="📸 Galería"
+        title="Iluminación en eventos reales"
+        subtitle="Así transformamos los espacios de nuestros clientes."
+        copy1="Cada evento es diferente y por eso diseñamos la iluminación según tu espacio, estilo y presupuesto. Desde series de luces cálidas para un ambiente íntimo hasta reflectores LED de colores para fiestas dinámicas."
+        copy2="La iluminación correcta marca la diferencia entre una fiesta común y una celebración memorable. Mira cómo hemos transformado jardines, terrazas y patios con nuestro servicio profesional de iluminación."
+      />
+      <Gallery4x4 images={galleryImages} />
+    </div>
+  </section>
+
+  <!-- PRECIOS -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="💰 Precios"
+        title="Precios de iluminación para eventos"
+        subtitle="Desde series sencillas hasta montajes espectaculares."
+        copy1="Todos nuestros paquetes de iluminación incluyen instalación profesional, extensiones, multicontactos y recolección al finalizar tu evento. Usamos tecnología LED de bajo consumo que no sobrecarga tu instalación eléctrica."
+        copy2="Los precios pueden variar según el tamaño del espacio y la complejidad de la instalación. Envíanos fotos de tu espacio por WhatsApp y te hacemos una propuesta personalizada sin compromiso."
+      />
+      <PricingCards packages={pricingPackages} />
     </div>
   </section>
 

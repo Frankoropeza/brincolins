@@ -4,9 +4,87 @@ import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import FaqItem from "@/components/FaqItem.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
+import Gallery4x4 from "@/components/Gallery4x4.astro";
+import PricingCards from "@/components/PricingCards.astro";
 
 const title = "Renta de Mobiliario para Fiestas en CDMX | BRINCOLINS CDMX";
 const description = "Renta de mesas, sillas, manteles y toldos para fiestas y eventos en CDMX. Combina con inflables y ahorra. Entrega a domicilio incluida.";
+
+const galleryImages = [
+  { src: "/img/inflables/castillo-blanco-v6.avif", alt: "Evento con inflable y mobiliario para fiestas en CDMX" },
+  { src: "/img/inflables/castillo-princesas-v5.avif", alt: "Fiesta infantil con mobiliario y decoración completa" },
+  { src: "/img/inflables/extremo-v5.avif", alt: "Evento al aire libre con mesas, sillas e inflable" },
+  { src: "/img/inflables/barco-pirata-v5.avif", alt: "Montaje completo de fiesta con mobiliario y brincolin" },
+  { src: "/img/inflables/mini-castillo-v5.avif", alt: "Fiesta infantil con mesas y sillas en jardín" },
+  { src: "/img/inflables/gusanitos-v5.avif", alt: "Evento con mobiliario completo para niños" },
+  { src: "/img/inflables/mini-jungla-v5.avif", alt: "Fiesta con sillas, mesas y zona de juegos" },
+  { src: "/img/inflables/castillo-blanco-v7.avif", alt: "Montaje profesional de mobiliario para evento" },
+];
+
+const pricingPackages = [
+  {
+    name: "Paquete Sillas",
+    price: "$15",
+    priceNote: "por silla / evento",
+    description: "Sillas plegables resistentes en color blanco o negro. Mínimo 20 piezas.",
+    features: [
+      { text: "Sillas plegables tipo jardín", included: true },
+      { text: "Color blanco o negro", included: true },
+      { text: "Entrega a domicilio", included: true },
+      { text: "Recolección incluida", included: true },
+      { text: "Mínimo 20 piezas", included: true },
+      { text: "Manteles incluidos", included: false },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Paquete Mesas + Sillas",
+    badge: "Popular",
+    highlight: true,
+    price: "$250",
+    priceNote: "por mesa con 8 sillas",
+    description: "Mesa rectangular de 1.80 m con 8 sillas plegables. Lo más solicitado.",
+    features: [
+      { text: "Mesa rectangular 1.80 m", included: true },
+      { text: "8 sillas plegables incluidas", included: true },
+      { text: "Entrega e instalación", included: true },
+      { text: "Recolección incluida", included: true },
+      { text: "Descuento por volumen", included: true },
+      { text: "Manteles disponibles (+$50 c/u)", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Paquete Toldo",
+    price: "$800",
+    priceNote: "toldo 3x3 m / evento",
+    description: "Toldo tipo carpa blanco con instalación profesional. Ideal para exteriores.",
+    features: [
+      { text: "Toldo carpa 3x3 m blanco", included: true },
+      { text: "Estructura metálica resistente", included: true },
+      { text: "Instalación profesional", included: true },
+      { text: "Protección sol y lluvia", included: true },
+      { text: "Recolección incluida", included: true },
+      { text: "Tamaños 3x6 y 6x6 disponibles", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Paquete Completo",
+    price: "$1,500",
+    priceNote: "30 personas / evento",
+    description: "Todo para 30 invitados: 4 mesas, 30 sillas, manteles y toldo 3x3 m.",
+    features: [
+      { text: "4 mesas rectangulares", included: true },
+      { text: "30 sillas plegables", included: true },
+      { text: "Manteles a elegir color", included: true },
+      { text: "Toldo 3x3 m incluido", included: true },
+      { text: "Entrega e instalación", included: true },
+      { text: "Recolección incluida", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+];
 
 const faqs = [
   { question: "¿Qué tipos de sillas y mesas manejan?", answer: "Contamos con sillas plegables tipo jardín en color blanco y negro, mesas rectangulares de 1.80 m para 8 personas y mesas redondas para 10 personas. Todo nuestro mobiliario es resistente, limpio y en excelentes condiciones para tu evento." },
@@ -53,6 +131,34 @@ const faqs = [
           <p class="hero__copy-text">Lo mejor de todo es que al combinar la renta de mobiliario con un inflable, obtienes precios especiales de paquete. Nos encargamos de entregar, instalar y recoger todo el mobiliario para que tú solo te preocupes por pasarla bien con tu familia y amigos.</p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="📸 Galería"
+        title="Nuestro mobiliario en eventos"
+        subtitle="Mesas, sillas y toldos listos para tu celebración."
+        copy1="Todo nuestro mobiliario se entrega limpio, en excelentes condiciones y listo para usar. Nos aseguramos de que cada pieza luzca impecable para que tu evento se vea profesional y tus invitados estén cómodos."
+        copy2="Ya sea una fiesta infantil en el jardín o una celebración más formal, nuestro mobiliario se adapta a cualquier tipo de evento. Consulta disponibilidad para la fecha de tu fiesta."
+      />
+      <Gallery4x4 images={galleryImages} />
+    </div>
+  </section>
+
+  <!-- PRECIOS -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="💰 Precios"
+        title="Precios de renta de mobiliario"
+        subtitle="Opciones flexibles para cada tipo de evento."
+        copy1="Ofrecemos renta individual de sillas, mesas y toldos, o paquetes completos con descuento. Todos los precios incluyen entrega a domicilio y recolección en CDMX y zona metropolitana."
+        copy2="Al combinar la renta de mobiliario con un inflable, obtienes un descuento adicional. Escríbenos para recibir tu cotización personalizada según el tamaño de tu evento."
+      />
+      <PricingCards packages={pricingPackages} />
     </div>
   </section>
 

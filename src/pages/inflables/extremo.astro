@@ -9,7 +9,7 @@ import PricingCards from "@/components/PricingCards.astro";
 import CtaBar from "@/components/CtaBar.astro";
 import FaqSection from "@/components/FaqSection.astro";
 
-const title = "Renta de Extremo Inflable | BRINCOLINS CDMX";
+const title = "Extremo Inflable CDMX — Desde $3,000 | BRINCOLINS";
 const description = "Renta el circuito inflable Extremo de 12m con obstáculos y tobogán doble en CDMX. Ideal para eventos corporativos y kermeses. Desde $3,000 MXN.";
 
 const inflable = {
@@ -172,21 +172,21 @@ const ctaBarItems = [
 
   <section class="section" id="galeria">
     <div class="container">
-      <SectionHeader badge="📸 Galería" title={`Fotos del ${inflable.name}`} subtitle="Imágenes reales de nuestros eventos" copy1="El circuito Extremo impresiona por su tamaño: 12 metros de pura diversión inflable que domina cualquier espacio al aire libre. Estas fotos muestran el Extremo en eventos reales como kermeses, fiestas corporativas y cumpleaños en CDMX y Estado de México." copy2="Desde la pista de obstáculos hasta el tobogán doble, cada sección del Extremo ofrece una experiencia diferente. Los participantes corren, escalan, esquivan y se deslizan en un circuito que no deja a nadie sentado." />
+      <SectionHeader badge="📸 Galería" title={`Galería del ${inflable.name} en fiestas reales`} subtitle="Imágenes reales de nuestros eventos" copy1="El circuito Extremo impresiona por su tamaño: 12 metros de pura diversión inflable que domina cualquier espacio al aire libre. Estas fotos muestran el Extremo en eventos reales como kermeses, fiestas corporativas y cumpleaños en CDMX y Estado de México." copy2="Desde la pista de obstáculos hasta el tobogán doble, cada sección del Extremo ofrece una experiencia diferente. Los participantes corren, escalan, esquivan y se deslizan en un circuito que no deja a nadie sentado." />
       <Gallery4x4 images={galleryImages} />
     </div>
   </section>
 
   <section class="section section--alt" id="precios">
     <div class="container">
-      <SectionHeader badge="💰 Paquetes" title={`Precios de Renta — ${inflable.name}`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="El Extremo es nuestra opción premium para eventos que necesitan una atracción de alto impacto. Con su doble carril y rotación rápida, puede entretener a cientos de personas en un solo evento, haciendo que el costo por participante sea mínimo." copy2="Para eventos corporativos y kermeses recomendamos el paquete Día Completo que incluye 12 horas, 2 operadores dedicados y seguro de responsabilidad civil. Los operadores organizan torneos y gestionan la rotación de participantes." />
+      <SectionHeader badge="💰 Paquetes" title={`¿Cuánto cuesta rentar el ${inflable.name} en CDMX?`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="El Extremo es nuestra opción premium para eventos que necesitan una atracción de alto impacto. Con su doble carril y rotación rápida, puede entretener a cientos de personas en un solo evento, haciendo que el costo por participante sea mínimo." copy2="Para eventos corporativos y kermeses recomendamos el paquete Día Completo que incluye 12 horas, 2 operadores dedicados y seguro de responsabilidad civil. Los operadores organizan torneos y gestionan la rotación de participantes." />
       <PricingCards packages={pricingPackages} />
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <SectionHeader badge="❓ Preguntas frecuentes" title={`Dudas sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Extremo es un inflable único por su tamaño y formato de circuito competitivo. Es normal tener preguntas sobre espacio, capacidad y logística. Aquí respondemos las dudas más frecuentes de empresas y organizadores de eventos." copy2="Si necesitas información adicional para tu evento corporativo o escolar, contáctanos por WhatsApp. Podemos enviar fichas técnicas, fotos adicionales y cotizaciones personalizadas para eventos grandes." />
+      <SectionHeader badge="❓ Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Extremo es un inflable único por su tamaño y formato de circuito competitivo. Es normal tener preguntas sobre espacio, capacidad y logística. Aquí respondemos las dudas más frecuentes de empresas y organizadores de eventos." copy2="Si necesitas información adicional para tu evento corporativo o escolar, contáctanos por WhatsApp. Podemos enviar fichas técnicas, fotos adicionales y cotizaciones personalizadas para eventos grandes." />
     </div>
     <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
   </section>

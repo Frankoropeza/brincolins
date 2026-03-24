@@ -2267,7 +2267,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.95rem;
   text-decoration: none;
   margin-bottom: 0.85rem;
-  transition: background 0.2s, transform 0.2s;
+  transition: background 0.2s;
 }
 .sidebar-contact__btn:hover { background: #20B558; }
 .sidebar-contact__info {
