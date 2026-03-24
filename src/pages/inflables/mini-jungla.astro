@@ -1,0 +1,234 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import Gallery4x4 from "@/components/Gallery4x4.astro";
+import PricingCards from "@/components/PricingCards.astro";
+import CtaBar from "@/components/CtaBar.astro";
+import FaqSection from "@/components/FaqSection.astro";
+
+const title = "Renta de Mini Jungla Inflable | BRINCOLINS CDMX";
+const description = "Renta el inflable Mini Jungla para fiestas safari e infantiles en CDMX y Edomex. Dinosaurios, palmeras y colores vibrantes. Desde $1,200 MXN con entrega incluida.";
+
+const inflable = {
+  slug: "mini-jungla",
+  emoji: "🌴",
+  name: "Mini Jungla",
+  price: "$1,200",
+  priceNum: "1200",
+  size: "4×4×3m",
+  ages: "3-10 años",
+  capacity: "5-7 niños",
+  installTime: "15 minutos",
+  image: "/img/inflables/mini-jungla.avif",
+  desc: "El inflable Mini Jungla transporta a los niños a una aventura tropical. Con dinosaurios, palmeras y colores vibrantes de la selva, es ideal para fiestas con temática de animales y naturaleza.",
+};
+
+const galleryImages = [
+  { src: "/img/inflables/mini-jungla/mini-jungla-dinosaurios-palmeras.avif", alt: "Inflable Mini Jungla con dinosaurios y palmeras tropicales" },
+  { src: "/img/inflables/mini-jungla/mini-jungla-exterior-evento.avif", alt: "Mini Jungla inflable instalada en evento al aire libre" },
+  { src: "/img/inflables/mini-jungla/mini-jungla-frontal-jardin.avif", alt: "Vista frontal del inflable Mini Jungla en jardín" },
+  { src: "/img/inflables/mini-jungla/mini-jungla-lateral-cdmx.avif", alt: "Vista lateral del inflable Mini Jungla en CDMX" },
+  { src: "/img/inflables/mini-jungla/mini-jungla-renta-cdmx.avif", alt: "Renta de inflable Mini Jungla en Ciudad de México" },
+  { src: "/img/inflables/mini-jungla/mini-jungla-vista-general.avif", alt: "Vista general del inflable Mini Jungla con decoración selvática" },
+];
+
+const pricingPackages = [
+  {
+    name: "Básico",
+    price: "$1,200",
+    priceNote: "+ IVA",
+    description: "Evento de 4 horas",
+    features: [
+      { text: "Inflable Mini Jungla 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "4 horas de uso continuo", included: true },
+      { text: "Instalación profesional", included: false },
+      { text: "Operadores dedicados", included: false },
+      { text: "Seguro de responsabilidad civil", included: false },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Estándar",
+    badge: "Más popular",
+    highlight: true,
+    price: "$1,600",
+    priceNote: "+ IVA",
+    description: "Evento de 6 horas",
+    features: [
+      { text: "Inflable Mini Jungla 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "6 horas de uso continuo", included: true },
+      { text: "Instalación y retiro incluidos", included: true },
+      { text: "Extensión eléctrica de 15m", included: true },
+      { text: "Seguro de responsabilidad civil", included: true },
+    ],
+    ctaHref: "/contacto/",
+    ctaLabel: "Cotizar Estándar",
+  },
+  {
+    name: "Premium",
+    price: "$2,200",
+    priceNote: "+ IVA",
+    description: "Evento de 8 horas",
+    features: [
+      { text: "Inflable Mini Jungla 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "8 horas de uso continuo", included: true },
+      { text: "Instalación y retiro incluidos", included: true },
+      { text: "2 operadores dedicados", included: true },
+      { text: "Seguro de responsabilidad civil", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Día Completo",
+    price: "$2,800",
+    priceNote: "+ IVA",
+    description: "12 horas, ideal kermeses",
+    features: [
+      { text: "Inflable Mini Jungla 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "12 horas de uso continuo", included: true },
+      { text: "Instalación y retiro incluidos", included: true },
+      { text: "2 operadores dedicados", included: true },
+      { text: "Seguro de responsabilidad civil", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+];
+
+const faqItems = [
+  {
+    question: "¿El inflable Mini Jungla tiene dinosaurios reales en su diseño?",
+    answer: "El inflable Mini Jungla cuenta con figuras decorativas de dinosaurios y palmeras tropicales que crean un ambiente de aventura selvática. Son figuras inflables integradas al diseño, de colores vibrantes y seguros para los niños. La temática es perfecta para fiestas safari, de dinosaurios o de animales.",
+  },
+  {
+    question: "¿A partir de qué edad pueden usar la Mini Jungla?",
+    answer: "La Mini Jungla está diseñada para niños de 3 a 10 años de edad. Es uno de los pocos inflables del catálogo que acepta niños desde los 3 años, ya que su diseño compacto y su altura accesible facilitan el uso seguro por parte de los más pequeños bajo supervisión.",
+  },
+  {
+    question: "¿Se puede instalar la Mini Jungla en interiores?",
+    answer: "Sí, la Mini Jungla es uno de los inflables más versátiles del catálogo. Se puede instalar en interiores siempre que el techo tenga al menos 3.5 metros de altura y haya un espacio libre de 5×5 metros. Solo necesitas una toma de corriente 110V cerca del área de instalación.",
+  },
+  {
+    question: "¿Por qué la Mini Jungla se instala más rápido que otros inflables?",
+    answer: "La Mini Jungla tiene el tiempo de instalación más rápido del catálogo: solo 15 minutos. Esto se debe a su diseño compacto y optimizado que permite un inflado más eficiente. Es ideal si necesitas que todo esté listo con poco tiempo de anticipación.",
+  },
+  {
+    question: "¿La Mini Jungla es adecuada para fiestas temáticas de dinosaurios?",
+    answer: "Es perfecta para fiestas de dinosaurios. Las figuras decorativas de dinosaurios y las palmeras tropicales crean el escenario ideal. Muchos de nuestros clientes la combinan con decoración de Jurassic Park, safari o explorador para crear una experiencia temática completa.",
+  },
+  {
+    question: "¿Qué zonas de entrega cubren para la Mini Jungla?",
+    answer: "Entregamos en las 16 alcaldías de CDMX y los principales municipios del Estado de México: Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Atizapán, Cuautitlán Izcalli y más. La entrega e instalación están incluidas sin costo adicional en los paquetes Estándar, Premium y Día Completo.",
+  },
+];
+
+const ctaBarItems = [
+  { label: "Cotizar ahora", href: "/contacto/", icon: "cotizar" },
+  { label: "Ver galería", href: "#galeria", icon: "galeria" },
+  { label: "Ver precios", href: "#precios", icon: "precios" },
+  { label: "WhatsApp", href: `https://wa.me/5547868402?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}.`)}`, icon: "whatsapp" },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="product"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables/" },
+    { name: inflable.name },
+  ]}
+  faqItems={faqItems}
+  product={{
+    name: inflable.name,
+    slug: inflable.slug,
+    description: description,
+    image: inflable.image,
+    price: inflable.priceNum,
+  }}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Inflables",href:"/inflables/"},{label:"Mini Jungla"}]} />
+  </Fragment>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🌴 Aventura tropical para exploradores</span>
+          <h1 class="hero__title">Renta <span class="highlight">Mini Jungla</span> para tu Fiesta</h1>
+          <div class="hero__specs">
+            <span class="hero__spec">📏 {inflable.size}</span>
+            <span class="hero__spec">👶 {inflable.ages}</span>
+            <span class="hero__spec">👥 {inflable.capacity}</span>
+            <span class="hero__spec">💰 Desde {inflable.price} MXN</span>
+          </div>
+          <div class="hero__ctas">
+            <a href="/contacto/" class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/contacto/" class="btn btn-outline btn-lg">Ver disponibilidad</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">El <strong>inflable Mini Jungla de BRINCOLINS</strong> transporta a los niños a una aventura selvática llena de dinosaurios y palmeras tropicales. Ideal para <strong>fiestas safari, temáticas de animales y cumpleaños de niños exploradores</strong> en CDMX y Estado de México. Su diseño compacto y versátil funciona tanto en jardines al aire libre como en interiores con techo alto, aceptando niños desde los 3 años de edad.</p>
+          <p class="hero__copy-text">La renta incluye <strong>entrega a domicilio, instalación rápida en solo 15 minutos, motor inflador silencioso, extensión eléctrica y seguro de responsabilidad civil</strong> sin costo adicional. Atendemos las <strong>16 alcaldías de CDMX</strong> y los municipios del Estado de México como Naucalpan, Tlalnepantla, Huixquilucan y Ecatepec. Reserva con el 50% de anticipo y asegura tu fecha.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CtaBar items={ctaBarItems} />
+
+  <!-- Gallery -->
+  <section class="section" id="galeria">
+    <div class="container">
+      <SectionHeader badge="📸 Galería" title={`Fotos del ${inflable.name}`} subtitle="Imágenes reales de nuestros eventos" copy1="Fotografías reales de la Mini Jungla en acción durante fiestas infantiles y eventos al aire libre en CDMX y Edomex. Los dinosaurios decorativos y las palmeras tropicales crean un escenario de aventura que fascina a los niños exploradores." copy2="El inflable se adapta a diferentes espacios: jardines amplios, patios residenciales, terrazas techadas e incluso interiores con techo alto. Nuestro equipo garantiza una instalación impecable en solo 15 minutos." />
+      <Gallery4x4 images={galleryImages} />
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="section section--alt" id="precios">
+    <div class="container">
+      <SectionHeader badge="💰 Paquetes" title={`Precios de Renta — ${inflable.name}`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="Escoge el paquete según la duración de tu fiesta safari o de dinosaurios. La Mini Jungla es ideal para eventos de 4 a 6 horas, aunque también la rentamos para kermeses escolares y festivales de día completo." copy2="Precios en pesos mexicanos antes de IVA. El paquete Estándar de 6 horas incluye todo lo necesario para un evento sin complicaciones: instalación, retiro, motor y seguro. Reserva con el 50% de anticipo." />
+      <PricingCards packages={pricingPackages} />
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader badge="❓ Preguntas frecuentes" title={`Dudas sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="Resolvemos las preguntas más frecuentes sobre el inflable Mini Jungla: edades, capacidad, instalación en interiores, temáticas compatibles y zonas de entrega en la Ciudad de México." copy2="Si tienes una duda específica que no aparece aquí, escríbenos por WhatsApp. Nuestro equipo conoce cada detalle de la Mini Jungla y te ayuda a planear la fiesta safari perfecta." />
+    </div>
+    <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
+  </section>
+
+  <!-- Related -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader badge="🎈 Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y seguro incluidos" copy1="Explora más opciones para tu fiesta: los Gusanitos son perfectos para temática tropical, el Castillo de Princesas para niñas, los Dragones Rojos para aventuras medievales y el Barco Pirata para grupos más grandes." copy2="Todos los inflables incluyen sanitización certificada y motor silencioso. Cotiza varios modelos sin compromiso por WhatsApp y arma la combinación ideal para tu evento." />
+      <div class="grid-4">
+        <ProductCard slug="gusanitos" emoji="🐛" name="Gusanitos" description="Inflable tropical con gusanitos y colores vibrantes." price="$1,200" size="4×4×3m" ages="4-10 años" category="Tropical" categoryColor="jungla" gradient="#558B2F, #827717" image="/img/inflables/gusanitos.avif" />
+        <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="Castillo rosa con torres decorativas y resbaladilla incluida." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
+        <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más rentado en CDMX con dragones de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
+        <ProductCard slug="barco-pirata" emoji="🚢" name="Barco Pirata" description="Barco pirata de gran escala con velas y tobogán gigante." price="$2,500" size="7×5×4m" ages="3-12 años" category="Grande" categoryColor="pirata" gradient="#1565C0, #0D47A1" image="/img/inflables/barco-pirata.avif" />
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title={`¿Te interesa el ${inflable.name}?`}
+    subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    variant="vibrant"
+  />
+
+</PageLayout>

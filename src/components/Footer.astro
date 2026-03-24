@@ -1,0 +1,101 @@
+---
+export interface Props {
+  phone?: string;
+  whatsapp?: string;
+  email?: string;
+}
+
+const {
+  phone = "55 1111 1111",
+  whatsapp = "5547868402",
+  email = "info@brincolins.com",
+} = Astro.props;
+
+const waHref = `https://wa.me/${whatsapp}?text=${encodeURIComponent("Hola BRINCOLINS, quiero información sobre renta de inflables.")}`;
+---
+
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__grid">
+      <!-- Brand -->
+      <div>
+        <div class="footer__brand-logo">🎪 BRINCOLINS</div>
+        <p class="footer__brand-desc">
+          Empresa líder en renta de inflables y brincolines para fiestas infantiles en CDMX y Estado de México. Más de 20 años haciendo felices a las familias.
+        </p>
+        <div class="footer__contact-item">
+          <span>📞</span>
+          <a href={`tel:+52${whatsapp}`}>{phone}</a>
+        </div>
+        <div class="footer__contact-item">
+          <span>💬</span>
+          <a href={waHref} target="_blank" rel="noopener noreferrer">WhatsApp: {phone}</a>
+        </div>
+        <div class="footer__contact-item">
+          <span>✉️</span>
+          <a href={`mailto:${email}`}>{email}</a>
+        </div>
+      </div>
+
+      <!-- Empresa -->
+      <div>
+        <h4 class="footer__col-title">Empresa</h4>
+        <a href="/inflables/" class="footer__link">Catálogo</a>
+        <a href="/servicios/" class="footer__link">Servicios</a>
+        <a href="/cotizar/" class="footer__link">Cotizar</a>
+        <a href="/cobertura/" class="footer__link">Cobertura</a>
+        <a href="/blog/" class="footer__link">Blog</a>
+        <a href="/contacto/" class="footer__link">Contacto</a>
+      </div>
+
+      <!-- Inflables -->
+      <div>
+        <h4 class="footer__col-title">Inflables</h4>
+        <a href="/inflables/dragones-rojos/" class="footer__link">Dragones Rojos</a>
+        <a href="/inflables/castillo-princesas/" class="footer__link">Castillo de Princesas</a>
+        <a href="/inflables/barco-pirata/" class="footer__link">Barco Pirata</a>
+        <a href="/inflables/extremo/" class="footer__link">Extremo</a>
+        <a href="/inflables/castillo-blanco/" class="footer__link">Castillo Blanco</a>
+        <a href="/inflables/mini-castillo/" class="footer__link">Mini Castillo</a>
+        <a href="/inflables/gusanitos/" class="footer__link">Gusanitos</a>
+        <a href="/inflables/mini-jungla/" class="footer__link">Mini Jungla</a>
+      </div>
+
+      <!-- Cobertura -->
+      <div>
+        <h4 class="footer__col-title">Cobertura CDMX</h4>
+        <a href="/cobertura/polanco/" class="footer__link">Polanco y Lomas</a>
+        <a href="/cobertura/tlalpan/" class="footer__link">Tlalpan y Sur</a>
+        <a href="/cobertura/" class="footer__link">Ver todas las zonas</a>
+        <h4 class="footer__col-title" style="margin-top:1.2rem;">Cobertura Edomex</h4>
+        <a href="/cobertura/naucalpan/" class="footer__link">Naucalpan y Satélite</a>
+        <a href="/cobertura/" class="footer__link">Ver todas las zonas</a>
+      </div>
+
+      <!-- Sucursales -->
+      <div>
+        <h4 class="footer__col-title">Nuestras Sucursales</h4>
+
+        <div class="footer__branch">
+          <span class="footer__branch-label">📍 Polanco — CDMX</span>
+          <p class="footer__branch-addr">Av. Presidente Masaryk 111, Piso 1<br>Col. Polanco Chapultepec<br>Miguel Hidalgo, 11560</p>
+        </div>
+
+        <div class="footer__branch">
+          <span class="footer__branch-label">📍 Santa Fe — CDMX</span>
+          <p class="footer__branch-addr">Prolongación Paseo de la Reforma 600<br>Col. Lomas de Santa Fe<br>Álvaro Obregón, 01210</p>
+        </div>
+
+        <div class="footer__branch">
+          <span class="footer__branch-label">📍 Interlomas — Edomex</span>
+          <p class="footer__branch-addr">Blvd. Magnocentro 8<br>Col. Interlomas<br>Huixquilucan, 52760</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>&copy; {new Date().getFullYear()} BRINCOLINS. Todos los derechos reservados.</span>
+      <span>Hecho con ❤️ para las fiestas de México</span>
+    </div>
+  </div>
+</footer>

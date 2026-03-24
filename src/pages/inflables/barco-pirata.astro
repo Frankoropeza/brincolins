@@ -1,0 +1,209 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import Gallery4x4 from "@/components/Gallery4x4.astro";
+import PricingCards from "@/components/PricingCards.astro";
+import CtaBar from "@/components/CtaBar.astro";
+import FaqSection from "@/components/FaqSection.astro";
+
+const title = "Renta de Barco Pirata Inflable | BRINCOLINS CDMX";
+const description = "Renta el inflable Barco Pirata de 7×5×4m para fiestas en CDMX y Edomex. Resbaladilla de altura y capacidad para 15 niños. Desde $2,500 MXN con entrega.";
+
+const inflable = {
+  slug: "barco-pirata",
+  emoji: "🚢",
+  name: "Barco Pirata",
+  price: "$2,500",
+  priceNum: 2500,
+  size: "7×5×4m",
+  ages: "3-12 años",
+  capacity: "10-15 niños",
+  installTime: "30 minutos",
+  image: "/img/inflables/barco-pirata.avif",
+  desc: "El Barco Pirata es nuestro inflable más impresionante en tamaño mediano. Con 7×5×4 metros de aventura, resbaladilla de altura, zona de brinco amplia y decoración de barco pirata que encanta a niños de todas las edades.",
+};
+
+const galleryImages = [
+  { src: "/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif", alt: "Renta inflable Barco Pirata en CDMX - evento exterior" },
+  { src: "/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif", alt: "Renta inflable Barco Pirata en CDMX - vista lateral" },
+  { src: "/img/inflables/barco-pirata/barco-pirata-renta-cdmx.avif", alt: "Renta inflable Barco Pirata en CDMX - renta a domicilio" },
+];
+
+const pricingPackages = [
+  {
+    name: "Básico",
+    price: "$2,500",
+    priceNote: "+ IVA",
+    description: "Evento de 4 horas",
+    features: [
+      { text: "Inflable Barco Pirata", included: true },
+      { text: "Motor inflador", included: true },
+      { text: "4 horas de evento", included: true },
+      { text: "Instalación profesional", included: false },
+      { text: "Operadores dedicados", included: false },
+      { text: "Seguro de responsabilidad", included: false },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Estándar",
+    badge: "Más popular",
+    highlight: true,
+    price: "$3,200",
+    priceNote: "+ IVA",
+    description: "Evento de 6 horas",
+    features: [
+      { text: "Inflable Barco Pirata", included: true },
+      { text: "Motor inflador", included: true },
+      { text: "6 horas de evento", included: true },
+      { text: "Instalación profesional", included: true },
+      { text: "Operador dedicado", included: false },
+      { text: "Seguro de responsabilidad", included: true },
+    ],
+    ctaHref: "/contacto/",
+    ctaLabel: "Cotizar Estándar",
+  },
+  {
+    name: "Premium",
+    price: "$4,000",
+    priceNote: "+ IVA",
+    description: "Evento de 8 horas",
+    features: [
+      { text: "Inflable Barco Pirata", included: true },
+      { text: "Motor inflador", included: true },
+      { text: "8 horas de evento", included: true },
+      { text: "Instalación profesional", included: true },
+      { text: "2 operadores dedicados", included: true },
+      { text: "Seguro de responsabilidad", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Día Completo",
+    price: "$5,000",
+    priceNote: "+ IVA",
+    description: "12 horas, ideal kermeses",
+    features: [
+      { text: "Inflable Barco Pirata", included: true },
+      { text: "Motor inflador", included: true },
+      { text: "12 horas de evento", included: true },
+      { text: "Instalación profesional", included: true },
+      { text: "2 operadores dedicados", included: true },
+      { text: "Seguro de responsabilidad", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+];
+
+const faqItems = [
+  { question: "¿Qué tan grande es el Barco Pirata?", answer: "El Barco Pirata mide 7 metros de largo, 5 metros de ancho y 4 metros de altura. Necesitas un espacio libre de al menos 8×6 metros para la instalación segura, considerando el espacio de acceso y circulación alrededor." },
+  { question: "¿Cuántos niños pueden usar el Barco Pirata al mismo tiempo?", answer: "El Barco Pirata tiene capacidad para 10 a 15 niños simultáneamente, dependiendo de sus edades y tamaños. Recomendamos grupos de edades similares para mayor seguridad y diversión." },
+  { question: "¿Tiene resbaladilla el Barco Pirata?", answer: "Sí, el Barco Pirata incluye una resbaladilla de altura integrada en la popa del barco. Es una de las características favoritas de los niños y está diseñada con laterales de seguridad para un descenso controlado." },
+  { question: "¿Se puede instalar el Barco Pirata en concreto?", answer: "Sí, el Barco Pirata se instala en pasto, concreto, loseta o cualquier superficie plana. En superficies duras utilizamos anclajes especiales con sacos de arena para garantizar la estabilidad durante todo el evento." },
+  { question: "¿El Barco Pirata es apto para fiestas temáticas de piratas?", answer: "Es la opción perfecta. Su diseño con decoración de barco pirata, colores azul marino y detalles de anclas y calaveras complementa cualquier fiesta temática de piratas. Muchos clientes lo combinan con decoración y piñatas del mismo tema." },
+  { question: "¿Cuánto tiempo tardan en instalar el Barco Pirata?", answer: "La instalación toma aproximadamente 30 minutos. Nuestro equipo llega con anticipación para tener todo listo antes de que lleguen los invitados. Necesitamos una toma de corriente 110V a menos de 15 metros del lugar de instalación." },
+];
+
+const ctaBarItems = [
+  { label: "Cotizar ahora", href: "/contacto/", icon: "cotizar" },
+  { label: "Ver galería", href: "#galeria", icon: "galeria" },
+  { label: "Ver precios", href: "#precios", icon: "precios" },
+  { label: "WhatsApp", href: `https://wa.me/5547868402?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}.`)}`, icon: "whatsapp" },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="product"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables/" },
+    { name: inflable.name },
+  ]}
+  faqItems={faqItems}
+  product={{
+    name: inflable.name,
+    slug: inflable.slug,
+    description: description,
+    image: inflable.image,
+    price: inflable.priceNum,
+  }}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Inflables",href:"/inflables/"},{label:"Barco Pirata"}]} />
+  </Fragment>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🚢 Aventura pirata de gran tamaño</span>
+          <h1 class="hero__title">Renta <span class="highlight">Barco Pirata</span> para tu Fiesta</h1>
+          <div class="hero__specs">
+            <span class="hero__spec">📏 {inflable.size}</span>
+            <span class="hero__spec">👶 {inflable.ages}</span>
+            <span class="hero__spec">👥 {inflable.capacity}</span>
+            <span class="hero__spec">💰 Desde {inflable.price} MXN</span>
+          </div>
+          <div class="hero__ctas">
+            <a href="/contacto/" class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/contacto/" class="btn btn-outline btn-lg">Ver disponibilidad</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">El <strong>Barco Pirata de BRINCOLINS</strong> es el inflable de aventura más espectacular de nuestro catálogo en tamaño mediano. Con <strong>7 metros de largo, 5 de ancho y 4 de altura</strong>, ofrece una zona de brinco amplia, resbaladilla de altura integrada y una decoración de barco pirata que transporta a los niños a una verdadera aventura en alta mar. Su capacidad para <strong>10 a 15 niños simultáneamente</strong> lo convierte en la atracción principal de cualquier fiesta infantil grande.</p>
+          <p class="hero__copy-text">Cada renta incluye <strong>entrega a domicilio, instalación profesional en 30 minutos, motor inflador de grado comercial y extensión eléctrica</strong>. El Barco Pirata es perfecto para <strong>fiestas temáticas de piratas, cumpleaños, kermeses escolares y eventos comunitarios</strong> en CDMX y Estado de México. Atendemos Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Coyoacán, Benito Juárez y todas las alcaldías. Reserva con el 50% de anticipo y asegura tu fecha.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CtaBar items={ctaBarItems} />
+
+  <section class="section" id="galeria">
+    <div class="container">
+      <SectionHeader badge="📸 Galería" title={`Fotos del ${inflable.name}`} subtitle="Imágenes reales de nuestros eventos" copy1="El Barco Pirata impresiona desde cualquier ángulo: su imponente estructura de 4 metros de altura con decoración de anclas, calaveras y colores azul marino lo convierte en el centro de atención de cualquier evento al aire libre." copy2="Estas fotografías son de fiestas reales en CDMX y Estado de México donde el Barco Pirata fue la atracción estrella. Los niños no quieren bajarse de esta aventura inflable." />
+      <Gallery4x4 images={galleryImages} />
+    </div>
+  </section>
+
+  <section class="section section--alt" id="precios">
+    <div class="container">
+      <SectionHeader badge="💰 Paquetes" title={`Precios de Renta — ${inflable.name}`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="El Barco Pirata es ideal para fiestas grandes donde necesitas una atracción que mantenga entretenidos a muchos niños al mismo tiempo. Con capacidad para 15 niños, el costo por invitado es increíblemente accesible." copy2="El paquete Estándar es el más solicitado porque incluye instalación profesional y seguro de responsabilidad civil. Para kermeses y eventos escolares, el paquete Día Completo ofrece 12 horas continuas de diversión." />
+      <PricingCards packages={pricingPackages} />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader badge="❓ Preguntas frecuentes" title={`Dudas sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Barco Pirata es nuestro inflable mediano más impresionante y es normal tener dudas sobre espacio, capacidad e instalación. Aquí respondemos las preguntas que más nos hacen nuestros clientes." copy2="¿Tienes una pregunta que no aparece aquí? Escríbenos por WhatsApp y nuestro equipo te responde en minutos con toda la información que necesitas para tu evento." />
+    </div>
+    <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader badge="🎈 Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y seguro incluidos" copy1="Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana." copy2="Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza y recibe respuesta en minutos." />
+      <div class="grid-4">
+        <ProductCard slug="extremo" emoji="🏁" name="Extremo" description="Circuito de 12m con obstáculos y tobogán doble." price="$3,000" size="12×4×3m" ages="6+ años" category="Extremo" categoryColor="extremo" gradient="#E65100, #BF360C" image="/img/inflables/extremo.avif" />
+        <ProductCard slug="castillo-blanco" emoji="🤍" name="Castillo Blanco" description="Elegante para bodas, bautizos y XV años." price="$2,800" size="6×5×4m" ages="3+ años" category="Bodas" categoryColor="bodas" gradient="#7E57C2, #9575CD" image="/img/inflables/castillo-blanco.avif" />
+        <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más popular con dragones de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Castillo" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
+        <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title={`¿Te interesa el ${inflable.name}?`}
+    subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    variant="vibrant"
+  />
+
+</PageLayout>

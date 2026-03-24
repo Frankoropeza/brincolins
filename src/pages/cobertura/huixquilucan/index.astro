@@ -1,0 +1,153 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import FaqItem from "@/components/FaqItem.astro";
+
+const title = "Renta de Inflables en Huixquilucan | BRINCOLINS";
+const description = "Renta de inflables en Huixquilucan, Edomex. Servicio profesional con entrega programada. Renta de inflables en Huixquilucan, Edomex. Entrega en La He";
+
+const colonias = [
+  "Interlomas",
+  "La Herradura",
+  "El Molinito",
+  "Jesús del Monte",
+  "Lomas de Bezares",
+  "Bosque Real",
+  "Santa Fe de las Lomas",
+  "Hacienda de las Palmas",
+  "Pedregal de las Animas",
+  "Fraccionamiento La Herradura",
+  "Zacamulpa",
+  "San Cristóbal Texcalucan"
+];
+
+const faqs = [
+  { question: "¿Cuánto cuesta el envío a Huixquilucan?", answer: "En Huixquilucan el cargo de envío es de $150 a $250 según la zona. Interlomas y La Herradura tienen el cargo menor por su cercanía con la autopista." },
+  { question: "¿Qué inflables son más populares en Huixquilucan?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos toboganes, combinados con alberca y temáticos para todo tipo de fiestas." },
+  { question: "¿Atienden fines de semana en Huixquilucan?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos en toda la zona de Huixquilucan." },
+  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1-2 semanas de anticipación. Para fines de semana y temporadas altas (Semana Santa, verano, diciembre), lo ideal es reservar con 3 semanas de anticipación." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Cobertura", href: "/cobertura/" },
+    { name: "Huixquilucan" }
+  ]}
+  faqItems={faqs}
+>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a><span class="breadcrumbs__sep">/</span>
+      <a href="/cobertura/">Cobertura</a><span class="breadcrumbs__sep">/</span>
+      <span>Huixquilucan</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">💎 Huixquilucan</span>
+          <h1 class="hero__title">Renta de Inflables en <span class="highlight">Huixquilucan</span></h1>
+          <p class="hero__desc">Renta de inflables en Huixquilucan, Edomex. Entrega en La Herradura, Interlomas, Jesús del Monte, El Molinito y todo el municipio. Servicio premium para las zonas residenciales más exclusivas.</p>
+          <div class="hero__ctas">
+            <a href="/contacto/"
+               class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">Huixquilucan alberga algunas de las zonas residenciales más exclusivas del área metropolitana: La Herradura, Interlomas y Jesús del Monte. BRINCOLINS tiene amplia experiencia en estas zonas, conociendo los accesos de los fraccionamientos cerrados, los reglamentos internos y las expectativas de calidad de los eventos en estas colonias.</p>
+          <p class="hero__copy-text">Nuestro servicio en Huixquilucan incluye inflatables premium, equipos de instalación uniformados y presentables, y coordinación previa con los accesos de seguridad. Cargo de envío de $150 a $250 según la zona. Instalación profesional y retiro al finalizar tu evento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📍 Colonias"
+        title="Colonias con cobertura en Huixquilucan"
+        subtitle="Entrega directa en estas colonias y zonas."
+        copy1="Cubrimos toda la zona residencial de Huixquilucan: Interlomas, La Herradura, Jesús del Monte y los fraccionamientos exclusivos de la zona poniente."
+        copy2="Para fraccionamientos cerrados como Bosque Real o Hacienda de las Palmas, coordinamos el acceso con la caseta de seguridad. Requerimos los datos del residente con anticipación."
+      />
+      <div class="coverage__badges">
+        {colonias.map(c => <span class="coverage__badge">{c}</span>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🚚 Entrega"
+        title="Servicio de entrega en Huixquilucan"
+        subtitle="Puntualidad y profesionalismo garantizados."
+        copy1="Huixquilucan tiene acceso por la autopista México-Toluca, el Periférico y el Boulevard Magnocentro. Para Interlomas y La Herradura, conocemos los accesos de cada fraccionamiento."
+        copy2="Para eventos en zonas residenciales de alto nivel, garantizamos que nuestros equipos van uniformados y con todo el material necesario. Coordinamos previamente para cumplir con los reglamentos internos."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#00C853,#2E7D32);">
+            <span class="why-card__img-label">$150–$250</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Costo de envío</h3>
+            <p class="why-card__desc">Cargo de envío de $150 a $250 para Huixquilucan. Las zonas residenciales premium de Interlomas y La Herradura tienen el cargo menor.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#1565C0,#0288D1);">
+            <span class="why-card__img-label">2h</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación rápida</h3>
+            <p class="why-card__desc">Montaje profesional en menos de 2 horas desde la llegada.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+            <span class="why-card__img-label">24/7</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Atención permanente</h3>
+            <p class="why-card__desc">WhatsApp disponible todo el día para confirmar y resolver dudas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes sobre Huixquilucan"
+        subtitle="Dudas comunes sobre entrega de inflables en esta zona."
+        copy1="Hemos atendido eventos en Huixquilucan y conocemos las particularidades del municipio. Aquí respondemos las preguntas más frecuentes de nuestros clientes en la zona."
+        copy2="¿Tienes otra duda? Escríbenos por WhatsApp y te respondemos en minutos con toda la información que necesitas para tu evento."
+      />
+      <div style="max-width:800px;margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Evento en Huixquilucan?"
+    subtitle="Cotiza tu inflable con entrega en La Herradura, Interlomas, Jesús del Monte y todo Huixquilucan."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+  />
+</PageLayout>

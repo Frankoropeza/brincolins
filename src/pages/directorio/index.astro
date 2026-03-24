@@ -1,0 +1,225 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+
+const title = "Directorio de Salones de Fiestas Infantiles CDMX y Edomex | BRINCOLINS";
+const description = "Encuentra los mejores salones de fiestas infantiles en CDMX y Estado de México. Directorio completo con ubicación, capacidad, precios y servicios incluidos.";
+
+const categorias = [
+  {
+    title: "Salones en CDMX",
+    subtitle: "Ciudad de México — 16 Alcaldías",
+    desc: "Explora los mejores salones de fiestas infantiles en las principales alcaldías de la Ciudad de México. Opciones para todos los presupuestos, desde salones premium en Polanco hasta alternativas accesibles en Iztapalapa y GAM.",
+    count: "16 salones",
+    price: "⭐ 4.4+ en Google",
+    href: "/directorio/cdmx/",
+    gradient: "linear-gradient(135deg, #FF3D00, #FF6D00, #7C3AED)",
+    icon: "🏙️",
+    zones: ["Coyoacán", "Tlalpan", "Iztapalapa", "Azcapotzalco", "Xochimilco", "Gustavo A. Madero", "Venustiano Carranza"],
+  },
+  {
+    title: "Salones en Edomex",
+    subtitle: "Estado de México — Municipios principales",
+    desc: "Descubre salones de fiestas infantiles con excelente relación calidad-precio en los principales municipios del Estado de México. Desde opciones económicas hasta salones premium en zona residencial.",
+    count: "8 salones",
+    price: "Desde $2,500 MXN",
+    href: "/directorio/edomex/",
+    gradient: "linear-gradient(135deg, #00C853, #0288D1, #1565C0)",
+    icon: "🏘️",
+    zones: ["Naucalpan", "Tlalnepantla", "Ecatepec", "Huixquilucan", "Nezahualcóyotl", "Cuautitlán Izcalli", "Toluca", "Metepec"],
+  },
+];
+
+const directorySchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Directorio de Salones de Fiestas Infantiles",
+  "description": description,
+  "hasPart": categorias.map(c => ({
+    "@type": "WebPage",
+    "name": c.title,
+    "url": `https://brincolins.com${c.href}`,
+  })),
+};
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Directorio" },
+  ]}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Directorio"}]} />
+  </Fragment>
+
+  <script type="application/ld+json" set:html={JSON.stringify(directorySchema)} />
+
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">📋 Directorio</span>
+          <h1 class="hero__title">Salones de Fiestas <span class="highlight">Infantiles</span></h1>
+          <p class="hero__desc">
+            Encuentra el salón ideal para la fiesta de tus hijos en CDMX y Estado de México. Directorio completo con información verificada.
+          </p>
+          <div class="hero__ctas">
+            <a href="/directorio/cdmx/" class="btn btn-primary btn-lg">Salones CDMX</a>
+            <a href="/directorio/edomex/" class="btn btn-outline btn-lg">Salones Edomex</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Organizar una fiesta infantil comienza por elegir el <strong>lugar perfecto</strong>. Hemos recopilado los mejores salones de fiestas infantiles en la Ciudad de México y el Estado de México para facilitarte la búsqueda.
+          </p>
+          <p class="hero__copy-text">
+            Cada salón incluye información de contacto, capacidad, servicios y rango de precios. Y recuerda: en <strong>BRINCOLINS</strong> podemos llevar el inflable perfecto a cualquiera de estos salones para hacer la fiesta aún más divertida.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tip banner -->
+  <section class="section" style="padding-top:0; padding-bottom:2rem;">
+    <div class="container">
+      <div class="dir-tip">
+        <div class="dir-tip__icon">💡</div>
+        <div class="dir-tip__content">
+          <p class="dir-tip__title">¿Ya tienes tu salón? ¡Complementa con un inflable!</p>
+          <p class="dir-tip__text">La mayoría de estos salones permiten llevar inflables externos. <strong>BRINCOLINS</strong> se encarga de la entrega, instalación y recolección en el salón de tu elección.</p>
+        </div>
+        <a href="/cotizar/" class="btn btn-primary">Cotizar inflable</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categorías del directorio -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="📍 Explora por zona"
+        title="Elige tu zona"
+        subtitle="Selecciona la zona donde buscas salón de fiestas y explora todas las opciones disponibles."
+        copy1="Nuestro directorio está organizado por zona geográfica para facilitarte la búsqueda. Cada sección incluye salones verificados con información completa: dirección, capacidad, precios, teléfono y servicios incluidos."
+        copy2="Todos los salones del directorio permiten inflables externos. <strong>BRINCOLINS</strong> entrega e instala el inflable directamente en el salón que elijas, sin complicaciones."
+      />
+      <div class="grid-2" style="max-width:1000px; margin:0 auto;">
+        {categorias.map(c => (
+          <a href={c.href} class="dir-zone-card">
+            <div class="dir-zone-card__header" style={`background: ${c.gradient};`}>
+              <span class="dir-zone-card__icon">{c.icon}</span>
+              <h3 class="dir-zone-card__title">{c.title}</h3>
+              <p class="dir-zone-card__subtitle">{c.subtitle}</p>
+              <div class="dir-zone-card__stats">
+                <span class="dir-zone-card__stat">{c.count}</span>
+                <span class="dir-zone-card__stat">{c.price}</span>
+              </div>
+            </div>
+            <div class="dir-zone-card__body">
+              <p class="dir-zone-card__desc">{c.desc}</p>
+              <div class="dir-zone-card__zones">
+                {c.zones.map(z => (
+                  <span class="dir-zone-card__zone-tag">{z}</span>
+                ))}
+              </div>
+              <span class="dir-zone-card__cta">Ver todos los salones →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="section">
+    <div class="container">
+      <div class="grid-4" style="max-width:900px; margin:0 auto;">
+        <div style="text-align:center;">
+          <p style="font-size:2.5rem; font-weight:900; font-family:var(--font-head); color:var(--c-primary);">24+</p>
+          <p style="color:var(--c-text-muted); font-size:0.85rem;">Salones verificados</p>
+        </div>
+        <div style="text-align:center;">
+          <p style="font-size:2.5rem; font-weight:900; font-family:var(--font-head); color:var(--c-secondary);">2</p>
+          <p style="color:var(--c-text-muted); font-size:0.85rem;">Zonas cubiertas</p>
+        </div>
+        <div style="text-align:center;">
+          <p style="font-size:2.5rem; font-weight:900; font-family:var(--font-head); color:var(--c-green);">4.4+</p>
+          <p style="color:var(--c-text-muted); font-size:0.85rem;">Estrellas en Google</p>
+        </div>
+        <div style="text-align:center;">
+          <p style="font-size:2.5rem; font-weight:900; font-family:var(--font-head); color:var(--c-wa);">14</p>
+          <p style="color:var(--c-text-muted); font-size:0.85rem;">Alcaldías y municipios</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="❓ Preguntas frecuentes"
+        title="Sobre el directorio"
+        subtitle="Resolvemos tus dudas sobre los salones y nuestro servicio de inflables."
+        copy1="Sabemos que organizar una fiesta infantil requiere coordinar muchos detalles. Por eso, además de listar los mejores salones, te brindamos información útil para que tomes la mejor decisión."
+        copy2="Si tienes alguna duda adicional, no dudes en contactarnos por WhatsApp. Nuestro equipo puede ayudarte a elegir el salón ideal y coordinamos la entrega del inflable."
+      />
+      <div class="faq" style="max-width:800px; margin:0 auto;">
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>¿Puedo llevar un inflable de BRINCOLINS a cualquier salón?</span>
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Sí, la mayoría de los salones listados en nuestro directorio permiten inflables externos. Nosotros nos encargamos de la entrega, instalación, supervisión y recolección. Solo necesitamos que el salón cuente con espacio suficiente y una toma de corriente cercana.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>¿Los precios de los salones incluyen inflable?</span>
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Los precios mostrados son del salón únicamente. La renta del inflable se cotiza por separado con BRINCOLINS. Algunos salones incluyen brincolines propios dentro de sus paquetes — verifica directamente con el salón.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>¿Cómo reservo un salón del directorio?</span>
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Contacta directamente al salón de tu interés usando el teléfono o WhatsApp que aparece en su ficha. Una vez confirmado tu salón, cotiza tu inflable favorito con nosotros y coordinamos la entrega el día del evento.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>¿BRINCOLINS cobra extra por entregar en un salón?</span>
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>No. La entrega e instalación en cualquier salón dentro de nuestra zona de cobertura (CDMX y Edomex) ya está incluida en el precio de renta del inflable. Consulta nuestra página de cobertura para más detalles.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Ya elegiste tu salón? ¡Agrega un inflable!"
+    subtitle="Lleva la diversión al siguiente nivel. Entrega e instalación del inflable en el salón de tu elección."
+    btnText="Cotizar inflable"
+    btnHref="/cotizar/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="festa"
+  />
+
+</PageLayout>

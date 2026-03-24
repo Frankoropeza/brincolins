@@ -1,0 +1,214 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import Gallery4x4 from "@/components/Gallery4x4.astro";
+import PricingCards from "@/components/PricingCards.astro";
+import CtaBar from "@/components/CtaBar.astro";
+import FaqSection from "@/components/FaqSection.astro";
+
+const title = "Renta de Extremo Inflable | BRINCOLINS CDMX";
+const description = "Renta el circuito inflable Extremo de 12m con obstáculos y tobogán doble en CDMX. Ideal para eventos corporativos y kermeses. Desde $3,000 MXN.";
+
+const inflable = {
+  slug: "extremo",
+  emoji: "🏁",
+  name: "Extremo",
+  price: "$3,000",
+  priceNum: 3000,
+  size: "12×4×3m",
+  ages: "6+ años",
+  capacity: "2-4 personas simultáneamente (doble carril)",
+  installTime: "30 minutos",
+  image: "/img/inflables/extremo.avif",
+  desc: "El circuito Extremo es el inflable más grande y emocionante de nuestro catálogo. Con 12 metros de largo, incluye pista de obstáculos, tobogán doble y doble carril para competencias. Ideal para eventos corporativos, kermeses y fiestas con niños mayores y adolescentes.",
+};
+
+const galleryImages = [
+  { src: "/img/inflables/extremo/extremo-circuito-completo.avif", alt: "Renta inflable Extremo en CDMX - circuito completo" },
+  { src: "/img/inflables/extremo/extremo-frontal-cdmx.avif", alt: "Renta inflable Extremo en CDMX - vista frontal" },
+  { src: "/img/inflables/extremo/extremo-lateral-evento.avif", alt: "Renta inflable Extremo en CDMX - lateral en evento" },
+  { src: "/img/inflables/extremo/extremo-tobogan-doble.avif", alt: "Renta inflable Extremo en CDMX - tobogán doble" },
+  { src: "/img/inflables/extremo/extremo-pista-obstaculos.avif", alt: "Renta inflable Extremo en CDMX - pista de obstáculos" },
+  { src: "/img/inflables/extremo/extremo-carrera-cdmx.avif", alt: "Renta inflable Extremo en CDMX - carrera competitiva" },
+  { src: "/img/inflables/extremo/extremo-vista-general.avif", alt: "Renta inflable Extremo en CDMX - vista general" },
+  { src: "/img/inflables/extremo/extremo-circuito-renta-cdmx.avif", alt: "Renta inflable Extremo en CDMX - circuito renta" },
+];
+
+const pricingPackages = [
+  {
+    name: "Básico",
+    price: "$3,000",
+    priceNote: "+ IVA",
+    description: "Evento de 4 horas",
+    features: [
+      { text: "Inflable Extremo", included: true },
+      { text: "Motor inflador", included: true },
+      { text: "4 horas de evento", included: true },
+      { text: "Instalación profesional", included: false },
+      { text: "Operadores dedicados", included: false },
+      { text: "Seguro de responsabilidad", included: false },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Estándar",
+    badge: "Más popular",
+    highlight: true,
+    price: "$3,800",
+    priceNote: "+ IVA",
+    description: "Evento de 6 horas",
+    features: [
+      { text: "Inflable Extremo", included: true },
+      { text: "Motor inflador", included: true },
+      { text: "6 horas de evento", included: true },
+      { text: "Instalación profesional", included: true },
+      { text: "Operador dedicado", included: false },
+      { text: "Seguro de responsabilidad", included: true },
+    ],
+    ctaHref: "/contacto/",
+    ctaLabel: "Cotizar Estándar",
+  },
+  {
+    name: "Premium",
+    price: "$4,800",
+    priceNote: "+ IVA",
+    description: "Evento de 8 horas",
+    features: [
+      { text: "Inflable Extremo", included: true },
+      { text: "Motor inflador", included: true },
+      { text: "8 horas de evento", included: true },
+      { text: "Instalación profesional", included: true },
+      { text: "2 operadores dedicados", included: true },
+      { text: "Seguro de responsabilidad", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Día Completo",
+    price: "$6,000",
+    priceNote: "+ IVA",
+    description: "12 horas, ideal kermeses",
+    features: [
+      { text: "Inflable Extremo", included: true },
+      { text: "Motor inflador", included: true },
+      { text: "12 horas de evento", included: true },
+      { text: "Instalación profesional", included: true },
+      { text: "2 operadores dedicados", included: true },
+      { text: "Seguro de responsabilidad", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+];
+
+const faqItems = [
+  { question: "¿Qué tan grande es el circuito Extremo?", answer: "El Extremo mide 12 metros de largo, 4 metros de ancho y 3 metros de altura. Es el inflable más grande de nuestro catálogo. Necesitas un espacio libre de al menos 14×6 metros para su instalación, lo que lo hace ideal para patios amplios, explanadas y campos deportivos." },
+  { question: "¿Pueden usarlo adultos y adolescentes?", answer: "Sí, el Extremo está diseñado para personas de 6 años en adelante, incluyendo adolescentes y adultos. Su estructura comercial reforzada soporta el uso intensivo y su doble carril permite competencias entre participantes de diferentes edades." },
+  { question: "¿Qué incluye el circuito de obstáculos?", answer: "El Extremo incluye pista de obstáculos con barreras inflables, túneles, columnas esquivables, zona de escalada y tobogán doble al final. El doble carril permite que dos personas compitan simultáneamente, creando una experiencia emocionante de carreras." },
+  { question: "¿Es adecuado para eventos corporativos?", answer: "El Extremo es nuestra opción número uno para eventos corporativos, team buildings y activaciones de marca. Su formato de competencia en doble carril fomenta el trabajo en equipo y la sana competencia. Incluimos operadores que organizan torneos y dinámicas grupales." },
+  { question: "¿Cuántas personas pueden usarlo simultáneamente?", answer: "El circuito permite 2 a 4 personas simultáneamente gracias a su doble carril. Sin embargo, la rotación es rápida — cada recorrido toma aproximadamente 1-2 minutos — por lo que en una hora pueden participar entre 60 y 120 personas." },
+  { question: "¿Sirve para kermeses y eventos escolares?", answer: "Es la opción ideal para kermeses y festivales escolares. El paquete Día Completo de 12 horas está diseñado para estos eventos de larga duración. Incluye 2 operadores que gestionan filas, seguridad y rotación de participantes durante todo el día." },
+];
+
+const ctaBarItems = [
+  { label: "Cotizar ahora", href: "/contacto/", icon: "cotizar" },
+  { label: "Ver galería", href: "#galeria", icon: "galeria" },
+  { label: "Ver precios", href: "#precios", icon: "precios" },
+  { label: "WhatsApp", href: `https://wa.me/5547868402?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}.`)}`, icon: "whatsapp" },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="product"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables/" },
+    { name: inflable.name },
+  ]}
+  faqItems={faqItems}
+  product={{
+    name: inflable.name,
+    slug: inflable.slug,
+    description: description,
+    image: inflable.image,
+    price: inflable.priceNum,
+  }}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Inflables",href:"/inflables/"},{label:"Extremo"}]} />
+  </Fragment>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🏁 El inflable más grande del catálogo</span>
+          <h1 class="hero__title">Renta <span class="highlight">Extremo</span> para tu Fiesta</h1>
+          <div class="hero__specs">
+            <span class="hero__spec">📏 {inflable.size}</span>
+            <span class="hero__spec">👶 {inflable.ages}</span>
+            <span class="hero__spec">👥 {inflable.capacity}</span>
+            <span class="hero__spec">💰 Desde {inflable.price} MXN</span>
+          </div>
+          <div class="hero__ctas">
+            <a href="/contacto/" class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/contacto/" class="btn btn-outline btn-lg">Ver disponibilidad</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">El <strong>circuito Extremo de BRINCOLINS</strong> es el inflable más grande e impactante de todo nuestro catálogo. Con <strong>12 metros de largo</strong>, incluye una pista de obstáculos completa con barreras, túneles, zona de escalada y <strong>tobogán doble con doble carril para competencias</strong>. Diseñado para niños mayores de 6 años, adolescentes y adultos, es la atracción que transforma cualquier evento en una experiencia inolvidable de adrenalina y diversión.</p>
+          <p class="hero__copy-text">Ideal para <strong>eventos corporativos, team buildings, kermeses escolares, activaciones de marca y fiestas grandes</strong>. Su doble carril permite que dos personas compitan simultáneamente, generando emoción y participación grupal. Cada renta incluye <strong>entrega, instalación profesional en 30 minutos, motor inflador industrial y extensión eléctrica</strong>. Cubrimos toda la <strong>CDMX y Estado de México</strong>: Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Coyoacán y más.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CtaBar items={ctaBarItems} />
+
+  <section class="section" id="galeria">
+    <div class="container">
+      <SectionHeader badge="📸 Galería" title={`Fotos del ${inflable.name}`} subtitle="Imágenes reales de nuestros eventos" copy1="El circuito Extremo impresiona por su tamaño: 12 metros de pura diversión inflable que domina cualquier espacio al aire libre. Estas fotos muestran el Extremo en eventos reales como kermeses, fiestas corporativas y cumpleaños en CDMX y Estado de México." copy2="Desde la pista de obstáculos hasta el tobogán doble, cada sección del Extremo ofrece una experiencia diferente. Los participantes corren, escalan, esquivan y se deslizan en un circuito que no deja a nadie sentado." />
+      <Gallery4x4 images={galleryImages} />
+    </div>
+  </section>
+
+  <section class="section section--alt" id="precios">
+    <div class="container">
+      <SectionHeader badge="💰 Paquetes" title={`Precios de Renta — ${inflable.name}`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="El Extremo es nuestra opción premium para eventos que necesitan una atracción de alto impacto. Con su doble carril y rotación rápida, puede entretener a cientos de personas en un solo evento, haciendo que el costo por participante sea mínimo." copy2="Para eventos corporativos y kermeses recomendamos el paquete Día Completo que incluye 12 horas, 2 operadores dedicados y seguro de responsabilidad civil. Los operadores organizan torneos y gestionan la rotación de participantes." />
+      <PricingCards packages={pricingPackages} />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader badge="❓ Preguntas frecuentes" title={`Dudas sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Extremo es un inflable único por su tamaño y formato de circuito competitivo. Es normal tener preguntas sobre espacio, capacidad y logística. Aquí respondemos las dudas más frecuentes de empresas y organizadores de eventos." copy2="Si necesitas información adicional para tu evento corporativo o escolar, contáctanos por WhatsApp. Podemos enviar fichas técnicas, fotos adicionales y cotizaciones personalizadas para eventos grandes." />
+    </div>
+    <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader badge="🎈 Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y seguro incluidos" copy1="Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana." copy2="Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza y recibe respuesta en minutos." />
+      <div class="grid-4">
+        <ProductCard slug="barco-pirata" emoji="🚢" name="Barco Pirata" description="Aventura pirata con resbaladilla de altura." price="$2,500" size="7×5×4m" ages="3-12 años" category="Aventura" categoryColor="pirata" gradient="#1565C0, #0D47A1" image="/img/inflables/barco-pirata.avif" />
+        <ProductCard slug="castillo-blanco" emoji="🤍" name="Castillo Blanco" description="Elegante para bodas, bautizos y XV años." price="$2,800" size="6×5×4m" ages="3+ años" category="Bodas" categoryColor="bodas" gradient="#7E57C2, #9575CD" image="/img/inflables/castillo-blanco.avif" />
+        <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más popular con dragones de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Castillo" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
+        <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title={`¿Te interesa el ${inflable.name}?`}
+    subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    variant="vibrant"
+  />
+
+</PageLayout>

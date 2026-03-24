@@ -1,0 +1,275 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Renta Inflable Dragones Rojos en CDMX | BRINCOLINS";
+const description = "Renta el inflable Dragones Rojos en Ciudad de México: castillo temático con dragones, ideal para fiestas infantiles medievales y de fantasía. Entrega, instalación y seguro incluidos.";
+
+const faqs = [
+  { question: "¿Para qué edades es adecuado el inflable Dragones Rojos?", answer: "El inflable Dragones Rojos está diseñado para niños de 3 a 12 años. Los más pequeños (3-5 años) pueden usarlo con supervisión, mientras que los niños de 6 a 12 lo disfrutan al máximo saltando y jugando con total libertad." },
+  { question: "¿Cuánto espacio necesito para instalar el inflable de dragones?", answer: "Necesitas un área libre de al menos 5×5 metros con acceso a corriente eléctrica (toma de 110V). El piso debe ser plano — funciona en pasto, concreto o piso firme. También necesitas 1 metro libre alrededor del inflable por seguridad." },
+  { question: "¿El inflable Dragones Rojos incluye instalación y operador?", answer: "Sí. El servicio de BRINCOLINS incluye transporte, instalación profesional, supervisión durante el evento y retiro al finalizar. También incluye seguro de responsabilidad civil sin costo adicional." },
+  { question: "¿Puedo combinar el inflable de dragones con decoración medieval?", answer: "¡Por supuesto! De hecho es lo que más recomendamos. El diseño rojo con dragones combina perfecto con temáticas de caballeros, castillos medievales, calabozos y dragones. Muchos clientes complementan con banderines, espadas de foam y escudos decorativos." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog", href: "/blog/" },
+    { name: "Inflable Dragones Rojos CDMX" },
+  ]}
+>
+
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">🐉 Dragones Rojos</span>
+          <h1 class="hero__title">
+            Renta el Inflable <span class="highlight">Dragones Rojos</span> en CDMX
+          </h1>
+          <div class="art-hero__meta">
+            <span>⏱️ 8 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">
+            El castillo inflable con dragones rojos es la estrella de las fiestas temáticas de fantasía y aventura. Descubre por qué es el favorito de los niños en la Ciudad de México.
+          </p>
+          <div class="hero__ctas">
+            <a href="/contacto/"
+               class="btn btn-primary btn-lg">Cotizar Dragones Rojos</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            El <strong>inflable Dragones Rojos</strong> es uno de los modelos más solicitados en la <strong>Ciudad de México</strong> para fiestas infantiles temáticas. Su diseño impactante — un castillo rojo decorado con imponentes dragones — transporta a los niños a un mundo de caballeros, princesas guerreras y aventuras medievales. En <strong>BRINCOLINS</strong> lo entregamos limpio, instalado y con <strong>seguro de responsabilidad civil</strong> incluido en cada renta.
+          </p>
+          <p class="hero__copy-text">
+            Si tu hijo o hija sueña con dragones, castillos y batallas épicas, este <strong>brincolín temático</strong> es la pieza central perfecta para su cumpleaños. Atendemos colonias de toda la <strong>CDMX</strong> y municipios del <strong>Estado de México</strong> como Naucalpan, Tlalnepantla, Ecatepec y Huixquilucan. Escríbenos por <strong>WhatsApp</strong> y te cotizamos en minutos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGEN DE PORTADA -->
+  <section style="padding:0 0 1rem;">
+    <div class="container">
+      <img src="/img/inflables/castillo-v3.avif" alt="Inflable Dragones Rojos para renta en CDMX - BRINCOLINS" width="1200" height="675" loading="eager"
+           style="width:100%;max-height:480px;object-fit:cover;border-radius:var(--r-card);display:block;box-shadow:var(--shadow-md);" />
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <section class="section">
+    <div class="container">
+      <div class="art-layout">
+        <article class="art-body">
+
+          <h2>Qué hace especial al inflable Dragones Rojos</h2>
+          <p>
+            No todos los inflables son iguales. El <strong>Dragones Rojos</strong> destaca por su diseño visual impactante: un castillo en tonos rojos intensos con figuras de dragones en relieve que capturan la atención de los niños desde el momento en que lo ven. A diferencia de un brincolín genérico, este modelo cuenta una historia — y eso lo convierte en mucho más que un juego inflable.
+          </p>
+          <p>
+            Los niños no solo brincan; imaginan que están defendiendo un castillo, domando dragones o rescatando tesoros. Esa capacidad de detonar la imaginación es lo que lo hace tan popular en fiestas temáticas de <strong>fantasía, caballeros medievales y aventuras épicas</strong>. Es un inflable que funciona como decoración y como entretenimiento al mismo tiempo.
+          </p>
+          <p>
+            El material es lona comercial de alta resistencia, con costuras reforzadas y colores que no se desgastan con el uso. Cada vez que sale de nuestro almacén, pasa por un proceso de limpieza y revisión para garantizar que llegue en condiciones impecables a tu evento.
+          </p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">🐉</span>
+            <p><strong>Dato curioso:</strong> El inflable Dragones Rojos es el modelo más fotografiado en nuestras redes sociales. Los papás nos envían fotos de los niños posando junto a los dragones — es un hit en Instagram y TikTok.</p>
+          </div>
+
+          <h2>Rango de edades ideal para este inflable</h2>
+          <p>
+            El <strong>Dragones Rojos</strong> está diseñado para recibir niños de <strong>3 a 12 años</strong>. Sin embargo, la experiencia varía según la edad:
+          </p>
+          <ul class="art-list">
+            <li><strong>3 a 5 años:</strong> Los más pequeños disfrutan enormemente del brincolín, pero recomendamos que un adulto esté cerca de la entrada vigilando. A esta edad, el atractivo principal es brincar y rodar en la superficie acolchada.</li>
+            <li><strong>6 a 8 años:</strong> La edad dorada para este inflable. Los niños ya tienen coordinación para brincar alto, inventan juegos de dragones y caballeros, y pueden usar el inflable durante horas sin cansarse.</li>
+            <li><strong>9 a 12 años:</strong> Siguen disfrutándolo, especialmente si lo combinamos con una temática de aventura. A esta edad valoran más el diseño temático y la posibilidad de jugar en grupo.</li>
+          </ul>
+          <p>
+            Una recomendación importante: <strong>no mezcles grupos de edades muy dispares</strong>. Si hay niños de 3 años y de 12 en la fiesta, organiza turnos para que los pequeños brinquen primero y los grandes después. Esto previene accidentes y todos disfrutan más.
+          </p>
+
+          <h2>Dimensiones y espacio necesario para la instalación</h2>
+          <p>
+            Antes de reservar cualquier inflable, necesitas verificar que tu espacio sea suficiente. El <strong>Dragones Rojos</strong> requiere:
+          </p>
+          <ul class="art-list">
+            <li><strong>Área mínima:</strong> 5 × 5 metros de espacio libre, más 1 metro de perímetro de seguridad por cada lado</li>
+            <li><strong>Altura libre:</strong> Al menos 4 metros de altura sin obstáculos (cables, ramas, techos bajos)</li>
+            <li><strong>Superficie:</strong> Piso plano y firme — funciona en pasto, concreto, adoquín o piso de loseta</li>
+            <li><strong>Electricidad:</strong> Una toma de corriente de 110V a menos de 15 metros del punto de instalación para conectar el motor de inflado continuo</li>
+          </ul>
+          <p>
+            Si tu fiesta es en un parque público o terreno sin electricidad, no te preocupes: podemos llevar un generador eléctrico por un costo adicional mínimo. Pregúntanos al cotizar y te damos la solución completa.
+          </p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">📏</span>
+            <p><strong>Tip de espacio:</strong> Si no estás seguro de las medidas, mándanos una foto del área por WhatsApp y te decimos si el Dragones Rojos cabe perfectamente o si te conviene otro modelo.</p>
+          </div>
+
+          <h2>Cómo combinar el inflable con tu temática de fiesta</h2>
+          <p>
+            El <strong>Dragones Rojos</strong> es increíblemente versátil para temas de fiesta. Aquí las combinaciones más populares entre nuestros clientes en CDMX:
+          </p>
+          <ul class="art-list">
+            <li><strong>Fiesta de caballeros y dragones:</strong> Complementa con espadas de foam, escudos de cartón, capas y coronas. El inflable se convierte en el castillo central de la aventura.</li>
+            <li><strong>Calabozos y dragones (D&D kids):</strong> Cada vez más popular. Agrega un mapa del tesoro, cofres decorativos y disfraces de magos y guerreros.</li>
+            <li><strong>Fiesta de How to Train Your Dragon:</strong> La temática perfecta. Combina con globos negros y rojos, figuras de dragones y un pastel temático.</li>
+            <li><strong>Fiesta medieval general:</strong> Banderines de colores, música de época y un menú de "banquete real" con nuggets, frutas y jugos en copas de plástico.</li>
+            <li><strong>Fiesta de superhéroes:</strong> Aunque no es obvio, el rojo del inflable combina perfecto con temáticas de Spider-Man, Iron Man o Flash.</li>
+          </ul>
+          <p>
+            La clave es que el inflable no sea un elemento aislado, sino parte integral de la decoración y la narrativa de la fiesta. Cuando todo tiene coherencia visual, el resultado es espectacular y los niños se sumergen completamente en la experiencia.
+          </p>
+
+          <h2>Por qué rentar con BRINCOLINS es diferente</h2>
+          <p>
+            En la Ciudad de México hay decenas de proveedores de inflables. Lo que nos distingue en <strong>BRINCOLINS</strong> es la combinación de servicio profesional y atención personalizada:
+          </p>
+          <ul class="art-list">
+            <li><strong>Más de 20 años de experiencia</strong> rentando inflables en CDMX y Estado de México</li>
+            <li><strong>Seguro de responsabilidad civil incluido</strong> en cada renta, sin costo adicional</li>
+            <li><strong>Inflables sanitizados</strong> después de cada uso con productos biodegradables</li>
+            <li><strong>Instalación y retiro profesional</strong> — nuestro equipo llega puntual y se encarga de todo</li>
+            <li><strong>Respuesta rápida por WhatsApp</strong> — cotizamos en menos de 10 minutos, sin formularios engorrosos</li>
+            <li><strong>Sin letra chica:</strong> El precio que te cotizamos incluye transporte, instalación, uso durante tu evento y retiro</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">⭐</span>
+            <p><strong>Garantía BRINCOLINS:</strong> Si el inflable presenta alguna falla durante tu evento, lo reemplazamos o te devolvemos tu dinero. Así de simple.</p>
+          </div>
+
+          <h2>Cómo reservar tu inflable Dragones Rojos paso a paso</h2>
+          <p>
+            Rentar el <strong>Dragones Rojos</strong> con BRINCOLINS es un proceso sencillo y rápido. Así funciona:
+          </p>
+          <ul class="art-list">
+            <li><strong>Paso 1:</strong> Escríbenos por WhatsApp con los datos de tu evento: lugar, horario y número aproximado de niños.</li>
+            <li><strong>Paso 2:</strong> Te confirmamos disponibilidad y te enviamos la cotización detallada en menos de 10 minutos.</li>
+            <li><strong>Paso 3:</strong> Aparta tu inflable con el 50% de anticipo por transferencia o depósito.</li>
+            <li><strong>Paso 4:</strong> El equipo de instalación llega puntual el día de tu evento, instala el inflable y lo deja listo para la diversión.</li>
+            <li><strong>Paso 5:</strong> Al terminar tu fiesta, recogemos el equipo. Tú solo preocúpate por disfrutar.</li>
+          </ul>
+          <p>
+            Los fines de semana se reservan rápido, especialmente en temporada alta (mayo, junio y diciembre). Te recomendamos apartar con al menos 2 semanas de anticipación para garantizar disponibilidad.
+          </p>
+
+        </article>
+
+        <!-- Sidebar -->
+        <aside class="art-sidebar">
+          <div class="art-sidebar__box">
+            <h3 class="art-sidebar__title">🐉 ¿Te gustó el Dragones Rojos?</h3>
+            <p class="art-sidebar__text">Cotiza en menos de 10 minutos por WhatsApp. Incluye transporte, instalación y seguro.</p>
+            <a
+              href="/contacto/"
+              class="btn btn-primary"
+              style="width:100%;justify-content:center;"
+            >
+              Solicitar cotización
+            </a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--links">
+            <h3 class="art-sidebar__title">🗂️ Artículos relacionados</h3>
+            <a href="/blog/castillo-inflable-cumpleanos-infantil-cdmx/" class="art-sidebar__link">→ Castillo inflable para cumpleaños</a>
+            <a href="/blog/brincolines-cdmx-precios-modelos/" class="art-sidebar__link">→ Precios y modelos en CDMX</a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--cat">
+            <h3 class="art-sidebar__title">🎪 Inflables relacionados</h3>
+            <a href="/inflables/dragones-rojos/" class="art-sidebar__link">→ Dragones Rojos</a>
+            <a href="/inflables/castillo-princesas/" class="art-sidebar__link">→ Castillo Princesas</a>
+            <a href="/inflables/barco-pirata/" class="art-sidebar__link">→ Barco Pirata</a>
+            <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Ver catálogo completo</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div style="max-width:800px; margin:0 auto;">
+        <h2 class="section-title" style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <CtaBanner
+    title="🐉 ¡Lleva los Dragones Rojos a tu fiesta!"
+    subtitle="El inflable favorito de los niños aventureros. Reserva ahora y haz que tu fiesta sea épica."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+  />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "author": { "@type": "Organization", "name": "BRINCOLINS" },
+    "publisher": { "@type": "Organization", "name": "BRINCOLINS", "url": "https://brincolins.com" },
+    "mainEntityOfPage": "https://brincolins.com/blog/inflable-dragones-rojos-cdmx/"
+  })} />
+
+</PageLayout>
+
+<style>
+  .art-hero__back { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; margin-bottom: 0.5rem; }
+  .art-hero__back:hover { gap: 0.6rem; }
+  .art-hero__meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--c-text-muted); margin-bottom: 0.5rem; }
+  .art-hero__sep { opacity: 0.4; }
+
+  .art-layout { display: grid; grid-template-columns: 1fr 320px; gap: 3rem; align-items: start; }
+  .art-body { min-width: 0; }
+  .art-body h2 { font-family: var(--font-head); font-weight: 800; font-size: clamp(1.25rem, 2.5vw, 1.5rem); color: var(--c-text); margin: 2.5rem 0 1rem; padding-top: 0.5rem; border-top: 3px solid var(--c-primary); }
+  .art-body h2:first-child { margin-top: 0; }
+  .art-body p { font-size: 1rem; line-height: 1.75; color: var(--c-text); margin: 0 0 1.25rem; }
+  .art-body strong { color: var(--c-primary); font-weight: 700; }
+
+  .art-tip { display: flex; gap: 1rem; align-items: flex-start; background: #fff8f5; border-left: 4px solid var(--c-primary); border-radius: 0 var(--r-card) var(--r-card) 0; padding: 1.25rem 1.5rem; margin: 1.5rem 0; }
+  .art-tip__icon { font-size: 1.5rem; flex-shrink: 0; }
+  .art-tip p { margin: 0; font-size: 0.95rem; }
+
+  .art-list { padding-left: 1.5rem; margin: 0 0 1.25rem; display: flex; flex-direction: column; gap: 0.6rem; }
+  .art-list li { font-size: 1rem; line-height: 1.6; color: var(--c-text); list-style: disc; }
+
+  .art-sidebar { display: flex; flex-direction: column; gap: 1.5rem; position: sticky; top: 90px; }
+  .art-sidebar__box { background: var(--c-bg-alt); border: 1px solid var(--c-border); border-radius: var(--r-card); padding: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem; }
+  .art-sidebar__box--links, .art-sidebar__box--cat { gap: 0.5rem; }
+  .art-sidebar__title { font-family: var(--font-head); font-weight: 800; font-size: 1rem; color: var(--c-text); margin: 0; }
+  .art-sidebar__text { font-size: 0.9rem; color: var(--c-text-muted); line-height: 1.6; margin: 0; }
+  .art-sidebar__link { font-size: 0.88rem; color: var(--c-primary); font-weight: 600; text-decoration: none; padding: 0.35rem 0; display: block; border-bottom: 1px solid var(--c-border); transition: padding-left 0.2s; }
+  .art-sidebar__link:last-child { border-bottom: none; }
+  .art-sidebar__link:hover { padding-left: 0.4rem; }
+  .art-sidebar__link--cta { color: var(--c-secondary); font-weight: 800; }
+
+  @media (max-width: 960px) {
+    .art-layout { grid-template-columns: 1fr; }
+    .art-sidebar { position: static; }
+  }
+</style>

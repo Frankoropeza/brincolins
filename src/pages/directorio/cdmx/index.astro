@@ -1,0 +1,384 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+
+const title = "Salones de Fiestas Infantiles en CDMX | Directorio BRINCOLINS";
+const description = "Directorio de los mejores salones de fiestas infantiles en la Ciudad de México. Salones verificados en Coyoacán, Tlalpan, Iztapalapa, GAM, Azcapotzalco, Xochimilco y más.";
+
+const salones = [
+  {
+    name: "Tiger Kids",
+    zone: "Iztapalapa",
+    address: "Calle Gral. José María Parras 216, Juan Escutia, Iztapalapa, 09200",
+    capacity: "40–100 personas",
+    price: "Consultar",
+    phone: "55 5745 2919",
+    rating: "4.7",
+    features: ["Juegos infantiles", "Área segura", "Paquetes todo incluido", "Estacionamiento"],
+    gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)",
+    label: "⭐",
+    highlight: "El mejor calificado de Iztapalapa",
+  },
+  {
+    name: "Salón Machinkuepa",
+    zone: "Tlalpan",
+    address: "Tlalayote 49, San Pedro Apostol, Tlalpan, 14070",
+    capacity: "50–120 personas",
+    price: "Consultar",
+    phone: "55 8007 0580",
+    rating: "4.7",
+    features: ["Juegos extremos", "Área de bebés", "Decoración incluida", "Salón amplio"],
+    gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)",
+    label: "⭐",
+    highlight: "Top 1 en Tlalpan por calificación",
+  },
+  {
+    name: "Laberinto de Aventuras",
+    zone: "Azcapotzalco",
+    address: "C. Heliópolis 241, Clavería, Azcapotzalco, 02080",
+    capacity: "40–100 personas",
+    price: "Consultar",
+    phone: "55 7652 2817",
+    rating: "4.7",
+    features: ["Laberinto temático", "Juegos interactivos", "Paquetes accesibles", "Zona para adultos"],
+    gradient: "linear-gradient(135deg, #00C853, #2E7D32)",
+    label: "⭐",
+    highlight: "El favorito de Azcapotzalco",
+  },
+  {
+    name: "Fantasía Extremo Kids",
+    zone: "Azcapotzalco",
+    address: "Campo Chichapo 12, Santo Domingo, Azcapotzalco, 02160",
+    capacity: "40–80 personas",
+    price: "Consultar",
+    phone: "55 4182 4596",
+    rating: "4.7",
+    features: ["Juegos extremos", "Alberca de pelotas", "Pintacaritas", "Paquetes desde 20 niños"],
+    gradient: "linear-gradient(135deg, #E91E8C, #FF3D00)",
+    label: "🎉",
+    highlight: "Diversión extrema para los más aventureros",
+  },
+  {
+    name: "El Rehilete y CARDYC Coapa",
+    zone: "Tlalpan",
+    address: "Calz. de los Tenorios 300, Granjas Coapa, Tlalpan, 14330",
+    capacity: "60–150 personas",
+    price: "Consultar",
+    phone: "55 4337 2422",
+    rating: "4.7",
+    features: ["Gran capacidad", "Área deportiva", "Jardín amplio", "Banquete incluido"],
+    gradient: "linear-gradient(135deg, #1565C0, #0288D1)",
+    label: "🏆",
+    highlight: "Doble espacio: salón + área deportiva",
+  },
+  {
+    name: "Dino Kids",
+    zone: "Venustiano Carranza",
+    address: "Calle Ote. 182 94, Moctezuma 2a Sección, Venustiano Carranza, 15530",
+    capacity: "40–80 personas",
+    price: "Consultar",
+    phone: "55 9525 2096",
+    rating: "4.6",
+    features: ["Temática dinosaurios", "Juegos seguros", "Piñatas incluidas", "Dulceros"],
+    gradient: "linear-gradient(135deg, #2E7D32, #558B2F)",
+    label: "🦕",
+    highlight: "Temática prehistórica única",
+  },
+  {
+    name: "Monkeys Playground",
+    zone: "Venustiano Carranza",
+    address: "Fernando Iglesias Calderón 50, Jardín Balbuena, Venustiano Carranza, 15900",
+    capacity: "50–100 personas",
+    price: "Consultar",
+    phone: "56 2141 9918",
+    rating: "4.6",
+    features: ["Playground moderno", "Área de bebés", "Salón climatizado", "Meseros"],
+    gradient: "linear-gradient(135deg, #FFD600, #FF6F00)",
+    label: "🐒",
+    highlight: "Moderno y familiar en Jardín Balbuena",
+  },
+  {
+    name: "Castillo Mágico Ari Sandy (Parque San Andrés)",
+    zone: "Coyoacán",
+    address: "Canadá 138 B, Parque San Andrés, Coyoacán, 04040",
+    capacity: "50–120 personas",
+    price: "Consultar",
+    phone: "55 2107 0282",
+    rating: "4.6",
+    features: ["Toboganes gigantes", "Alberca de pelotas", "Laberintos", "Shows infantiles"],
+    gradient: "linear-gradient(135deg, #0288D1, #7C3AED)",
+    label: "🏰",
+    highlight: "Clásico de Coyoacán con juegos únicos",
+  },
+  {
+    name: "La Cabaña",
+    zone: "Iztapalapa",
+    address: "C. Vicente Guerrero 31, San Juanico Nextipac, Iztapalapa, 09400",
+    capacity: "60–140 personas",
+    price: "Consultar",
+    phone: "55 1262 8816",
+    rating: "4.6",
+    features: ["Ambiente rústico", "Jardín amplio", "Taquiza incluida", "Estacionamiento"],
+    gradient: "linear-gradient(135deg, #795548, #4E342E)",
+    label: "🏡",
+    highlight: "Estilo rústico con gran jardín",
+  },
+  {
+    name: "Salón Wondertown",
+    zone: "Tlalpan",
+    address: "C. Contoy 280, Héroes de Padierna, Tlalpan, 14200",
+    capacity: "40–100 personas",
+    price: "Consultar",
+    phone: "55 3334 5442",
+    rating: "4.6",
+    features: ["Temáticas personalizadas", "Juegos modernos", "Snack bar", "Música incluida"],
+    gradient: "linear-gradient(135deg, #9C27B0, #E91E8C)",
+    label: "🌟",
+    highlight: "Temáticas personalizadas en Héroes de Padierna",
+  },
+  {
+    name: "Sipirily Congreso",
+    zone: "Gustavo A. Madero",
+    address: "Eje 2 Oriente Av. H. Congreso de la Unión 39, Granjas Modernas, GAM, 07080",
+    capacity: "50–120 personas",
+    price: "Consultar",
+    phone: "55 1742 9513",
+    rating: "4.5",
+    features: ["Juegos de altura", "Resbaladillas", "Paquetes completos", "Zona de adultos"],
+    gradient: "linear-gradient(135deg, #FF6D00, #FFD600)",
+    label: "🎪",
+    highlight: "Cadena reconocida al norte de CDMX",
+  },
+  {
+    name: "Salón de eventos Carito",
+    zone: "Coyoacán",
+    address: "Tepocatl 51, Pedregal de Santo Domingo, Coyoacán, 04369",
+    capacity: "50–100 personas",
+    price: "Consultar",
+    phone: "55 2382 4005",
+    rating: "4.5",
+    features: ["Precios accesibles", "Decoración incluida", "Sonido profesional", "Pastel incluido"],
+    gradient: "linear-gradient(135deg, #F06292, #CE93D8)",
+    label: "🎂",
+    highlight: "Económico y bien equipado en Coyoacán",
+  },
+  {
+    name: "Jardín de Eventos Chris",
+    zone: "Xochimilco",
+    address: "Encuentro de Acatempan 73, San Lorenzo la Cebada, Xochimilco, 16035",
+    capacity: "60–130 personas",
+    price: "Consultar",
+    phone: "55 5675 1380",
+    rating: "4.5",
+    features: ["Jardín amplio", "Salón techado", "Taquiza disponible", "Estacionamiento"],
+    gradient: "linear-gradient(135deg, #00C853, #0288D1)",
+    label: "🌿",
+    highlight: "El mejor calificado de Xochimilco",
+  },
+  {
+    name: "El Potrero",
+    zone: "Iztapalapa",
+    address: "Esteban Coronado 60, Progresista, Iztapalapa, 09240",
+    capacity: "80–200 personas",
+    price: "Consultar",
+    phone: "55 6465 1465",
+    rating: "4.5",
+    features: ["Gran capacidad", "Banquete completo", "DJ incluido", "Inflables propios"],
+    gradient: "linear-gradient(135deg, #FF3D00, #E91E8C)",
+    label: "🎈",
+    highlight: "Ideal para fiestas grandes en Iztapalapa",
+  },
+  {
+    name: "Salón Pinwuii",
+    zone: "Tlalpan",
+    address: "Palma 34, San Andrés Totoltepec, Tlalpan, 14400",
+    capacity: "40–80 personas",
+    price: "Consultar",
+    phone: "55 2109 8919",
+    rating: "4.5",
+    features: ["Ambiente íntimo", "Juegos infantiles", "Paquetes económicos", "Decoración temática"],
+    gradient: "linear-gradient(135deg, #7C3AED, #1565C0)",
+    label: "🎀",
+    highlight: "Íntimo y acogedor en San Andrés Totoltepec",
+  },
+  {
+    name: "Wiby Kids",
+    zone: "Xochimilco",
+    address: "Av. Guadalupe I. Ramírez 61, Amp San Marcos Nte, Xochimilco, 16038",
+    capacity: "40–80 personas",
+    price: "Consultar",
+    phone: "55 3368 1406",
+    rating: "4.4",
+    features: ["Juegos modernos", "Área segura", "Pintacaritas", "Paquetes desde 15 niños"],
+    gradient: "linear-gradient(135deg, #1565C0, #0288D1)",
+    label: "🎭",
+    highlight: "Moderno y seguro en Xochimilco",
+  },
+];
+
+const alcaldias = [...new Set(salones.map(s => s.zone))];
+
+const schemaList = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Salones de Fiestas Infantiles en Ciudad de México",
+  "description": description,
+  "numberOfItems": salones.length,
+  "itemListElement": salones.map((s, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "item": {
+      "@type": "LocalBusiness",
+      "name": s.name,
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": s.address,
+        "addressLocality": s.zone,
+        "addressRegion": "CDMX",
+        "addressCountry": "MX",
+      },
+      "telephone": s.phone,
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": s.rating,
+        "bestRating": "5",
+      },
+    },
+  })),
+};
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Directorio", href: "/directorio/" },
+    { name: "CDMX" },
+  ]}
+>
+
+  <script type="application/ld+json" set:html={JSON.stringify(schemaList)} />
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <a href="/directorio/">Directorio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>CDMX</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🏙️ Ciudad de México</span>
+          <h1 class="hero__title">Salones de Fiestas Infantiles en <span class="highlight">CDMX</span></h1>
+          <p class="hero__desc">
+            {salones.length} salones verificados en {alcaldias.length} alcaldías de la Ciudad de México. Información real de Google Maps.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20busco%20salón%20de%20fiestas%20en%20CDMX%20y%20quiero%20cotizar%20un%20inflable."
+               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              WhatsApp directo
+            </a>
+            <a href="/directorio/edomex/" class="btn btn-outline btn-lg">Ver salones Edomex</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Hemos seleccionado los <strong>salones de fiestas infantiles mejor calificados</strong> en Google Maps en las principales alcaldías de la Ciudad de México. Todos con calificación de 4.4 estrellas o más y datos verificados directamente de sus perfiles.
+          </p>
+          <p class="hero__copy-text">
+            Todos estos salones permiten inflables externos. Elige tu favorito y complementa la fiesta con un inflable de <strong>BRINCOLINS</strong> — nosotros nos encargamos de la entrega e instalación directamente en el salón.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Alcaldías cubiertas -->
+  <section class="section" style="padding-top:0; padding-bottom:2rem;">
+    <div class="container">
+      <div class="dir-tip">
+        <div class="dir-tip__icon">📍</div>
+        <div class="dir-tip__content">
+          <p class="dir-tip__title">Alcaldías con salones en este directorio</p>
+          <div class="coverage__badges" style="margin-top:0.5rem;">
+            {alcaldias.map(z => <span class="coverage__badge">{z}</span>)}
+          </div>
+        </div>
+        <a href="/cotizar/" class="btn btn-primary">Cotizar inflable</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Salones -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge={`⭐ ${salones.length} salones verificados`}
+        title="Salones en Ciudad de México"
+        subtitle="Directorio con datos reales de Google Maps. Calificación, dirección, teléfono y servicios de cada salón."
+        copy1="Cada ficha incluye la calificación real de Google Maps, dirección verificada y teléfono de contacto para que puedas comunicarte directamente. Los salones están ordenados por calificación de mayor a menor."
+        copy2="¿Ya encontraste tu salón? Cotiza un inflable de BRINCOLINS para complementar la fiesta. Entregamos e instalamos directamente en el salón sin costo adicional dentro de CDMX."
+      />
+      <div class="grid-4">
+        {salones.map(s => (
+          <div class="venue-card">
+            <div class="venue-card__header" style={`background: ${s.gradient};`}>
+              <span class="venue-card__label">{s.label}</span>
+              <h3 class="venue-card__name">{s.name}</h3>
+              <span class="venue-card__zone">{s.zone}, CDMX · ⭐ {s.rating}</span>
+            </div>
+            <div class="venue-card__body">
+              <p class="venue-card__highlight">{s.highlight}</p>
+              <div class="venue-card__info">
+                <p class="venue-card__detail"><strong>📍</strong> {s.address}</p>
+                <p class="venue-card__detail"><strong>👥</strong> {s.capacity}</p>
+                <p class="venue-card__detail"><strong>📞</strong> {s.phone}</p>
+              </div>
+              <div class="venue-card__features">
+                {s.features.map(f => (
+                  <span class="venue-card__tag">✓ {f}</span>
+                ))}
+              </div>
+              <div class="venue-card__actions">
+                <a href={`tel:+52${s.phone.replace(/\s/g, "")}`} class="btn btn-primary btn-sm">Llamar</a>
+                <a href={`https://wa.me/52${s.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${s.name} para una fiesta infantil.`)}`}
+                   class="btn btn-wa btn-sm" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Navegación -->
+  <section class="section">
+    <div class="container" style="text-align:center;">
+      <p style="font-family:var(--font-head); font-weight:800; font-size:1.1rem; margin-bottom:0.5rem;">¿Buscas salones en otra zona?</p>
+      <p style="color:var(--c-text-muted); margin-bottom:1.5rem;">También tenemos directorio de salones en el Estado de México.</p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <a href="/directorio/edomex/" class="btn btn-primary btn-lg">Ver salones en Edomex</a>
+        <a href="/directorio/" class="btn btn-outline btn-lg">Volver al directorio</a>
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Ya elegiste tu salón en CDMX? ¡Agrega un inflable!"
+    subtitle="Entrega e instalación del inflable en el salón que elijas, sin costo adicional en CDMX."
+    btnText="Cotizar inflable"
+    btnHref="/cotizar/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+  />
+
+</PageLayout>

@@ -1,0 +1,153 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import FaqItem from "@/components/FaqItem.astro";
+
+const title = "Renta de Inflables en Xochimilco | BRINCOLINS";
+const description = "Renta de inflables en Xochimilco. Renta de inflables en Xochimilco CDMX. Entrega accesible en Xochimilco Centro, San Gregorio, Tulyehu";
+
+const colonias = [
+  "Xochimilco Centro",
+  "San Gregorio Atlapulco",
+  "Tulyehualco",
+  "Tepepan",
+  "Santiago Tepalcatlalpan",
+  "Santa Cruz Acalpixca",
+  "San Lucas Xochimanca",
+  "Barrio La Lupita",
+  "Santa María Nativitas",
+  "San Mateo Xalpa",
+  "San Lorenzo Atemoaya",
+  "Xochitepec"
+];
+
+const faqs = [
+  { question: "¿Cuánto cuesta el envío a Xochimilco?", answer: "En Xochimilco aplicamos un cargo de $100 a $150 de envío según la colonia. El monto exacto se confirma al cotizar." },
+  { question: "¿Qué inflables son más populares en Xochimilco?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos toboganes, combinados con alberca y temáticos para todo tipo de fiestas." },
+  { question: "¿Atienden fines de semana en Xochimilco?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos en toda la zona de Xochimilco." },
+  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1-2 semanas de anticipación. Para fines de semana y temporadas altas (Semana Santa, verano, diciembre), lo ideal es reservar con 3 semanas de anticipación." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Cobertura", href: "/cobertura/" },
+    { name: "Xochimilco" }
+  ]}
+  faqItems={faqs}
+>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a><span class="breadcrumbs__sep">/</span>
+      <a href="/cobertura/">Cobertura</a><span class="breadcrumbs__sep">/</span>
+      <span>Xochimilco</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🛶 Xochimilco</span>
+          <h1 class="hero__title">Renta de Inflables en <span class="highlight">Xochimilco</span></h1>
+          <p class="hero__desc">Renta de inflables en Xochimilco CDMX. Entrega accesible en Xochimilco Centro, San Gregorio, Tulyehualco, Tepepan y toda la alcaldía. Servicio profesional en la alcaldía chinampera.</p>
+          <div class="hero__ctas">
+            <a href="/contacto/"
+               class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">Xochimilco es una de las alcaldías más emblemáticas de la Ciudad de México, famosa por sus chinampas, canales y tradición festiva. BRINCOLINS atiende toda la alcaldía con un cargo de envío accesible de $100 a $150. Los grandes jardines y espacios abiertos de Xochimilco son ideales para inflables de todos los tamaños.</p>
+          <p class="hero__copy-text">Conocemos perfectamente los accesos a Xochimilco: la Calzada Xochimilco, el Periférico Sur y las rutas internas de los pueblos. Para colonias como San Gregorio Atlapulco y Tulyehualco, planificamos la ruta con anticipación. Instalación profesional incluida y retiro al terminar tu fiesta.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📍 Colonias"
+        title="Colonias con cobertura en Xochimilco"
+        subtitle="Entrega directa en estas colonias y zonas."
+        copy1="Cubrimos Xochimilco Centro y todos sus pueblos y colonias circundantes. La alcaldía tiene una geografía especial con canales y zonas verdes únicas en la CDMX."
+        copy2="El cargo de $100-$150 aplica para toda la alcaldía. Para pueblos más alejados como San Mateo Xalpa, el costo puede ser ligeramente mayor; confirmamos antes de la reserva."
+      />
+      <div class="coverage__badges">
+        {colonias.map(c => <span class="coverage__badge">{c}</span>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🚚 Entrega"
+        title="Servicio de entrega en Xochimilco"
+        subtitle="Puntualidad y profesionalismo garantizados."
+        copy1="Para Xochimilco salimos con anticipación para garantizar la puntualidad. Conocemos las rutas alternas para evitar el tráfico en el acceso principal de la alcaldía."
+        copy2="Los pueblos de Xochimilco tienen espacios comunitarios amplios y una fuerte cultura de fiestas. Si organizas un evento grande, contáctanos para recomendarte el inflable adecuado para el espacio disponible."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#00C853,#2E7D32);">
+            <span class="why-card__img-label">$100–$150</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Costo de envío</h3>
+            <p class="why-card__desc">En Xochimilco aplicamos un cargo de $100 a $150 de envío según la colonia y distancia desde nuestro almacén.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#1565C0,#0288D1);">
+            <span class="why-card__img-label">2h</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación rápida</h3>
+            <p class="why-card__desc">Montaje profesional en menos de 2 horas desde la llegada.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+            <span class="why-card__img-label">24/7</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Atención permanente</h3>
+            <p class="why-card__desc">WhatsApp disponible todo el día para confirmar y resolver dudas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes sobre Xochimilco"
+        subtitle="Dudas comunes sobre entrega de inflables en esta zona."
+        copy1="Hemos atendido cientos de eventos en Xochimilco y conocemos las particularidades de cada colonia. Aquí respondemos las preguntas más frecuentes de nuestros clientes en la zona."
+        copy2="¿Tienes otra duda? Escríbenos por WhatsApp y te respondemos en minutos con toda la información que necesitas para tu evento."
+      />
+      <div style="max-width:800px;margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Evento en Xochimilco?"
+    subtitle="Cotiza tu inflable con entrega accesible en Xochimilco Centro, San Gregorio, Tulyehualco y toda la alcaldía."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+  />
+</PageLayout>

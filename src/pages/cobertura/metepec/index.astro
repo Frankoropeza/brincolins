@@ -1,0 +1,153 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import FaqItem from "@/components/FaqItem.astro";
+
+const title = "Renta de Inflables en Metepec | BRINCOLINS";
+const description = "Renta de inflables en Metepec, Edomex. Servicio profesional con entrega programada. Renta de inflables en Metepec, Estado de México. Entrega en ";
+
+const colonias = [
+  "Metepec Centro",
+  "San Salvador la Gavia",
+  "Pilares",
+  "Coaxustenco",
+  "San Jorge Pueblo Nuevo",
+  "San Jerónimo Chicahualco",
+  "La Asunción",
+  "Santa María Magdalena Ocotitlán",
+  "San Lucas Tunco",
+  "El Calvario",
+  "Barbabosa",
+  "Del Parque"
+];
+
+const faqs = [
+  { question: "¿Cuánto cuesta el envío a Metepec?", answer: "El cargo de envío para Metepec es de $400 a $600. Es transparente y se informa antes de confirmar la reserva." },
+  { question: "¿Qué inflables son más populares en Metepec?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos toboganes, combinados con alberca y temáticos para todo tipo de fiestas." },
+  { question: "¿Atienden fines de semana en Metepec?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos en toda la zona de Metepec." },
+  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1-2 semanas de anticipación. Para fines de semana y temporadas altas (Semana Santa, verano, diciembre), lo ideal es reservar con 3 semanas de anticipación." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Cobertura", href: "/cobertura/" },
+    { name: "Metepec" }
+  ]}
+  faqItems={faqs}
+>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a><span class="breadcrumbs__sep">/</span>
+      <a href="/cobertura/">Cobertura</a><span class="breadcrumbs__sep">/</span>
+      <span>Metepec</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🎨 Metepec</span>
+          <h1 class="hero__title">Renta de Inflables en <span class="highlight">Metepec</span></h1>
+          <p class="hero__desc">Renta de inflables en Metepec, Estado de México. Entrega en Metepec Centro, San Salvador la Gavia, Pilares, Coaxustenco y toda la zona residencial del Valle de Toluca.</p>
+          <div class="hero__ctas">
+            <a href="/contacto/"
+               class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">Metepec es uno de los municipios más exclusivos del Estado de México, conocido por sus colonias residenciales de alto nivel y su artesanía del árbol de la vida. BRINCOLINS llega hasta Metepec con un servicio de calidad y un cargo de envío de $400 a $600. Atendemos Metepec Centro, San Salvador la Gavia, Pilares y todas las colonias del municipio.</p>
+          <p class="hero__copy-text">Las residencias y jardines de Metepec son perfectos para eventos con inflables. Las colonias residenciales tienen amplios espacios al aire libre y excelentes condiciones para instalación. Coordinamos con los fraccionamientos cerrados para garantizar el acceso sin contratiempos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📍 Colonias"
+        title="Colonias con cobertura en Metepec"
+        subtitle="Entrega directa en estas colonias y zonas."
+        copy1="Cubrimos todas las colonias y fraccionamientos de Metepec, incluyendo las zonas residenciales premium y los pueblos con historia del municipio."
+        copy2="Para fraccionamientos cerrados de alto nivel en Metepec, coordinamos el acceso previamente. Garantizamos un servicio a la altura de las expectativas de la zona."
+      />
+      <div class="coverage__badges">
+        {colonias.map(c => <span class="coverage__badge">{c}</span>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🚚 Entrega"
+        title="Servicio de entrega en Metepec"
+        subtitle="Puntualidad y profesionalismo garantizados."
+        copy1="Para Metepec usamos la autopista México-Toluca y la carretera Toluca-Metepec. La distancia desde la CDMX es de aproximadamente 70 km con condiciones viales normales."
+        copy2="En Metepec los eventos suelen ser en residencias con jardín. Tenemos inflables de todos los tamaños para adaptarnos al espacio disponible, desde brincolines compactos hasta grandes combinados."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#00C853,#2E7D32);">
+            <span class="why-card__img-label">$400–$600</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Costo de envío</h3>
+            <p class="why-card__desc">Cargo de envío de $400 a $600 para Metepec, municipio exclusivo del Valle de Toluca. Se coordina con anticipación.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#1565C0,#0288D1);">
+            <span class="why-card__img-label">2h</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación rápida</h3>
+            <p class="why-card__desc">Montaje profesional en menos de 2 horas desde la llegada.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+            <span class="why-card__img-label">24/7</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Atención permanente</h3>
+            <p class="why-card__desc">WhatsApp disponible todo el día para confirmar y resolver dudas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes sobre Metepec"
+        subtitle="Dudas comunes sobre entrega de inflables en esta zona."
+        copy1="Hemos atendido eventos en Metepec y conocemos las particularidades del municipio. Aquí respondemos las preguntas más frecuentes de nuestros clientes en la zona."
+        copy2="¿Tienes otra duda? Escríbenos por WhatsApp y te respondemos en minutos con toda la información que necesitas para tu evento."
+      />
+      <div style="max-width:800px;margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Evento en Metepec?"
+    subtitle="Cotiza tu inflable con entrega en Metepec Centro, San Salvador la Gavia, Pilares y todo el municipio."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+  />
+</PageLayout>

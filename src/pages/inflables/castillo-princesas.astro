@@ -1,0 +1,232 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import Gallery4x4 from "@/components/Gallery4x4.astro";
+import PricingCards from "@/components/PricingCards.astro";
+import CtaBar from "@/components/CtaBar.astro";
+import FaqSection from "@/components/FaqSection.astro";
+
+const title = "Renta de Castillo de Princesas Inflable | BRINCOLINS CDMX";
+const description = "Renta el Castillo de Princesas para fiestas infantiles en CDMX y Edomex. Diseño rosa y morado con torres decorativas y resbaladilla. Desde $1,200 MXN con entrega.";
+
+const inflable = {
+  slug: "castillo-princesas",
+  emoji: "👸",
+  name: "Castillo de Princesas",
+  price: "$1,200",
+  priceNum: "1200",
+  size: "4×4×3m",
+  ages: "4-10 años",
+  capacity: "5-7 niños",
+  installTime: "20 minutos",
+  image: "/img/inflables/castillo-princesas.avif",
+  desc: "El Castillo de Princesas es el inflable favorito para fiestas temáticas de princesas. Su diseño en rosa y morado con torres decorativas, resbaladilla y mallas de seguridad lo hacen perfecto para eventos mágicos.",
+};
+
+const galleryImages = [
+  { src: "/img/inflables/castillo-princesas/castillo-princesas-exterior-jardin.avif", alt: "Castillo de Princesas inflable instalado en jardín exterior" },
+  { src: "/img/inflables/castillo-princesas/castillo-princesas-renta-cdmx.avif", alt: "Renta de Castillo de Princesas inflable en CDMX" },
+  { src: "/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif", alt: "Castillo de Princesas en fiesta infantil temática" },
+  { src: "/img/inflables/castillo-princesas/mini-princess-renta-cdmx.avif", alt: "Inflable princesas disponible para renta en Ciudad de México" },
+];
+
+const pricingPackages = [
+  {
+    name: "Básico",
+    price: "$1,200",
+    priceNote: "+ IVA",
+    description: "Evento de 4 horas",
+    features: [
+      { text: "Inflable Castillo de Princesas 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "4 horas de uso continuo", included: true },
+      { text: "Instalación profesional", included: false },
+      { text: "Operadores dedicados", included: false },
+      { text: "Seguro de responsabilidad civil", included: false },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Estándar",
+    badge: "Más popular",
+    highlight: true,
+    price: "$1,600",
+    priceNote: "+ IVA",
+    description: "Evento de 6 horas",
+    features: [
+      { text: "Inflable Castillo de Princesas 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "6 horas de uso continuo", included: true },
+      { text: "Instalación y retiro incluidos", included: true },
+      { text: "Extensión eléctrica de 15m", included: true },
+      { text: "Seguro de responsabilidad civil", included: true },
+    ],
+    ctaHref: "/contacto/",
+    ctaLabel: "Cotizar Estándar",
+  },
+  {
+    name: "Premium",
+    price: "$2,200",
+    priceNote: "+ IVA",
+    description: "Evento de 8 horas",
+    features: [
+      { text: "Inflable Castillo de Princesas 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "8 horas de uso continuo", included: true },
+      { text: "Instalación y retiro incluidos", included: true },
+      { text: "2 operadores dedicados", included: true },
+      { text: "Seguro de responsabilidad civil", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Día Completo",
+    price: "$2,800",
+    priceNote: "+ IVA",
+    description: "12 horas, ideal kermeses",
+    features: [
+      { text: "Inflable Castillo de Princesas 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "12 horas de uso continuo", included: true },
+      { text: "Instalación y retiro incluidos", included: true },
+      { text: "2 operadores dedicados", included: true },
+      { text: "Seguro de responsabilidad civil", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+];
+
+const faqItems = [
+  {
+    question: "¿El Castillo de Princesas es adecuado para fiestas temáticas de princesas?",
+    answer: "Sí, es el inflable ideal para fiestas temáticas de princesas. Su diseño en rosa y morado con torres decorativas crea la atmósfera perfecta de cuento de hadas. Combina perfectamente con decoraciones de Cenicienta, Rapunzel, Frozen o cualquier temática de princesas que elijas para tu evento.",
+  },
+  {
+    question: "¿Cuántos niños pueden usar el Castillo de Princesas al mismo tiempo?",
+    answer: "El inflable tiene capacidad para 5 a 7 niños brincando simultáneamente. Está diseñado para niños de 4 a 10 años de edad. Si en tu fiesta hay más niños, nuestros operadores organizan turnos para que todos disfruten de forma segura.",
+  },
+  {
+    question: "¿Qué dimensiones tiene el Castillo de Princesas?",
+    answer: "El inflable mide 4 metros de largo por 4 metros de ancho y 3 metros de alto. Necesitas un espacio libre mínimo de 5×5 metros y acceso a una toma de corriente 110V a no más de 15 metros. Funciona perfectamente en jardines, patios y salones amplios.",
+  },
+  {
+    question: "¿El Castillo de Princesas incluye resbaladilla?",
+    answer: "Sí, el Castillo de Princesas cuenta con una resbaladilla integrada que forma parte del diseño del castillo. Los niños pueden subir, saltar y deslizarse con total seguridad gracias a las mallas de seguridad laterales que permiten a los padres supervisar en todo momento.",
+  },
+  {
+    question: "¿Pueden instalar el Castillo de Princesas en un salón de fiestas?",
+    answer: "Sí, siempre que el salón cuente con un techo de al menos 3.5 metros de altura y un espacio libre de 5×5 metros. También necesitamos acceso a una toma de corriente 110V. Nuestro equipo verifica las condiciones antes de la instalación para garantizar la seguridad.",
+  },
+  {
+    question: "¿Qué incluye la renta del Castillo de Princesas?",
+    answer: "Dependiendo del paquete, la renta incluye el inflable, motor silencioso, extensión eléctrica, instalación profesional en 20 minutos, retiro al finalizar, operadores dedicados y seguro de responsabilidad civil. Todos los inflables pasan por sanitización certificada antes de cada evento.",
+  },
+];
+
+const ctaBarItems = [
+  { label: "Cotizar ahora", href: "/contacto/", icon: "cotizar" },
+  { label: "Ver galería", href: "#galeria", icon: "galeria" },
+  { label: "Ver precios", href: "#precios", icon: "precios" },
+  { label: "WhatsApp", href: `https://wa.me/5547868402?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}.`)}`, icon: "whatsapp" },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="product"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables/" },
+    { name: inflable.name },
+  ]}
+  faqItems={faqItems}
+  product={{
+    name: inflable.name,
+    slug: inflable.slug,
+    description: description,
+    image: inflable.image,
+    price: inflable.priceNum,
+  }}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Inflables",href:"/inflables/"},{label:"Castillo de Princesas"}]} />
+  </Fragment>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">👸 Favorito para fiestas de niñas</span>
+          <h1 class="hero__title">Renta <span class="highlight">Castillo de Princesas</span> para tu Fiesta</h1>
+          <div class="hero__specs">
+            <span class="hero__spec">📏 {inflable.size}</span>
+            <span class="hero__spec">👶 {inflable.ages}</span>
+            <span class="hero__spec">👥 {inflable.capacity}</span>
+            <span class="hero__spec">💰 Desde {inflable.price} MXN</span>
+          </div>
+          <div class="hero__ctas">
+            <a href="/contacto/" class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/contacto/" class="btn btn-outline btn-lg">Ver disponibilidad</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">El <strong>Castillo de Princesas de BRINCOLINS</strong> es el inflable más solicitado para fiestas temáticas de niñas en <strong>CDMX y Estado de México</strong>. Con torres decorativas en rosa y morado, resbaladilla integrada y mallas de seguridad perimetrales, transforma cualquier jardín o salón en un verdadero castillo de cuento de hadas. Fabricado con <strong>PVC de grado comercial resistente a rasgaduras</strong>, cada pieza pasa por sanitización certificada antes de llegar a tu evento.</p>
+          <p class="hero__copy-text">La renta incluye <strong>entrega a domicilio, instalación profesional en 20 minutos, motor inflador silencioso, extensión eléctrica y seguro de responsabilidad civil</strong> sin costo adicional. Cubrimos las <strong>16 alcaldías de CDMX</strong> y municipios del Edomex como Naucalpan, Tlalnepantla, Huixquilucan y Ecatepec. Reserva con el 50% de anticipo y asegura la fecha de tu celebración.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CtaBar items={ctaBarItems} />
+
+  <!-- Gallery -->
+  <section class="section" id="galeria">
+    <div class="container">
+      <SectionHeader badge="📸 Galería" title={`Fotos del ${inflable.name}`} subtitle="Imágenes reales de nuestros eventos" copy1="Estas fotografías muestran el Castillo de Princesas instalado en fiestas reales en CDMX y Estado de México. El diseño en rosa y morado con torres decorativas convierte cualquier espacio en un escenario de cuento de hadas para las niñas." copy2="Nuestro equipo instala el inflable en jardines, terrazas, patios y salones de fiestas. Cada evento queda documentado para que veas exactamente cómo lucirá el castillo en tu celebración." />
+      <Gallery4x4 images={galleryImages} />
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="section section--alt" id="precios">
+    <div class="container">
+      <SectionHeader badge="💰 Paquetes" title={`Precios de Renta — ${inflable.name}`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="Selecciona el paquete ideal según la duración de tu fiesta de princesas. El paquete Estándar de 6 horas es el favorito para cumpleaños porque incluye instalación, retiro y seguro sin costo adicional." copy2="Los precios son en pesos mexicanos antes de IVA. Para eventos escolares y kermeses, el paquete Día Completo de 12 horas ofrece la mejor relación precio-tiempo. Reserva con el 50% de anticipo." />
+      <PricingCards packages={pricingPackages} />
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader badge="❓ Preguntas frecuentes" title={`Dudas sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="Respondemos las consultas más frecuentes sobre el Castillo de Princesas. Desde dimensiones y capacidad hasta detalles de instalación y temáticas compatibles para tu fiesta." copy2="Si no encuentras la respuesta que buscas, escríbenos por WhatsApp y nuestro equipo te asesora en minutos sobre el paquete ideal para tu evento temático de princesas." />
+    </div>
+    <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
+  </section>
+
+  <!-- Related -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader badge="🎈 Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y seguro incluidos" copy1="Complementa tu fiesta de princesas con otros inflables del catálogo. Los Dragones Rojos son perfectos si buscas una temática de aventura, la Mini Jungla para safari tropical y el Mini Castillo para los más pequeños de la fiesta." copy2="Todos nuestros inflables incluyen sanitización certificada, entrega y motor silencioso. Cotiza varios modelos sin compromiso y arma la combinación perfecta para tu evento." />
+      <div class="grid-4">
+        <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más rentado en CDMX con dragones de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
+        <ProductCard slug="mini-jungla" emoji="🌴" name="Mini Jungla" description="Inflable temático con animales y palmeras tropicales." price="$1,200" size="4×4×3m" ages="3-10 años" category="Aventura" categoryColor="jungla" gradient="#2E7D32, #1B5E20" image="/img/inflables/mini-jungla.avif" />
+        <ProductCard slug="mini-castillo" emoji="🏰" name="Mini Castillo" description="Compacto para bebés. Perfecto para interiores y espacios reducidos." price="$800" size="2×2×2m" ages="1-4 años" category="Chico" categoryColor="castillo" gradient="#FF3D00, #ff6d3f" image="/img/inflables/mini-castillo.avif" />
+        <ProductCard slug="gusanitos" emoji="🐛" name="Gusanitos" description="Inflable tropical con gusanitos y colores vibrantes." price="$1,200" size="4×4×3m" ages="4-10 años" category="Tropical" categoryColor="jungla" gradient="#558B2F, #827717" image="/img/inflables/gusanitos.avif" />
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title={`¿Te interesa el ${inflable.name}?`}
+    subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    variant="vibrant"
+  />
+
+</PageLayout>

@@ -1,0 +1,239 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import Gallery4x4 from "@/components/Gallery4x4.astro";
+import PricingCards from "@/components/PricingCards.astro";
+import CtaBar from "@/components/CtaBar.astro";
+import FaqSection from "@/components/FaqSection.astro";
+
+const title = "Renta de Dragones Rojos Inflable | BRINCOLINS CDMX";
+const description = "Renta el inflable Dragones Rojos para fiestas infantiles en CDMX y Edomex. El más popular con dragones de 3m y resbaladilla. Desde $1,200 MXN con entrega incluida.";
+
+const inflable = {
+  slug: "dragones-rojos",
+  emoji: "🐉",
+  name: "Dragones Rojos",
+  price: "$1,200",
+  priceNum: "1200",
+  size: "4×4×3m",
+  ages: "4-10 años",
+  capacity: "5-7 niños",
+  installTime: "20 minutos",
+  image: "/img/inflables/dragones-rojos.avif",
+  desc: "El inflable Dragones Rojos es el más rentado en CDMX y Estado de México. Con dos impresionantes dragones de 3 metros de altura custodiando el castillo, resbaladilla integrada y mallas de seguridad laterales.",
+};
+
+const galleryImages = [
+  { src: "/img/inflables/dragones-rojos/castillo-dragones-exterior-jardin.avif", alt: "Inflable Dragones Rojos en jardín exterior para fiesta infantil CDMX" },
+  { src: "/img/inflables/dragones-rojos/castillo-dragones-lateral-cdmx.avif", alt: "Vista lateral del castillo Dragones Rojos en evento CDMX" },
+  { src: "/img/inflables/dragones-rojos/castillo-dragones-renta-cdmx.avif", alt: "Renta de castillo inflable Dragones Rojos en Ciudad de México" },
+  { src: "/img/inflables/dragones-rojos/dragones-detalle-exterior.avif", alt: "Detalle de los dragones decorativos del inflable rojo" },
+  { src: "/img/inflables/dragones-rojos/dragones-frontal-centrado.avif", alt: "Vista frontal centrada del inflable Dragones Rojos" },
+  { src: "/img/inflables/dragones-rojos/dragones-frontal-resbaladilla.avif", alt: "Resbaladilla frontal del inflable Dragones Rojos" },
+  { src: "/img/inflables/dragones-rojos/dragones-inflable-corporativo.avif", alt: "Inflable Dragones Rojos en evento corporativo" },
+  { src: "/img/inflables/dragones-rojos/dragones-inflable-fiesta-infantil.avif", alt: "Dragones Rojos en fiesta infantil con niños jugando" },
+  { src: "/img/inflables/dragones-rojos/dragones-interior-lateral.avif", alt: "Interior lateral del inflable Dragones Rojos con mallas de seguridad" },
+  { src: "/img/inflables/dragones-rojos/dragones-rojos-brincolin-evento.avif", alt: "Brincolin Dragones Rojos instalado en evento al aire libre" },
+  { src: "/img/inflables/dragones-rojos/dragones-terraza-exterior.avif", alt: "Inflable Dragones Rojos en terraza exterior" },
+];
+
+const pricingPackages = [
+  {
+    name: "Básico",
+    price: "$1,200",
+    priceNote: "+ IVA",
+    description: "Evento de 4 horas",
+    features: [
+      { text: "Inflable Dragones Rojos 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "4 horas de uso continuo", included: true },
+      { text: "Instalación profesional", included: false },
+      { text: "Operadores dedicados", included: false },
+      { text: "Seguro de responsabilidad civil", included: false },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Estándar",
+    badge: "Más popular",
+    highlight: true,
+    price: "$1,600",
+    priceNote: "+ IVA",
+    description: "Evento de 6 horas",
+    features: [
+      { text: "Inflable Dragones Rojos 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "6 horas de uso continuo", included: true },
+      { text: "Instalación y retiro incluidos", included: true },
+      { text: "Extensión eléctrica de 15m", included: true },
+      { text: "Seguro de responsabilidad civil", included: true },
+    ],
+    ctaHref: "/contacto/",
+    ctaLabel: "Cotizar Estándar",
+  },
+  {
+    name: "Premium",
+    price: "$2,200",
+    priceNote: "+ IVA",
+    description: "Evento de 8 horas",
+    features: [
+      { text: "Inflable Dragones Rojos 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "8 horas de uso continuo", included: true },
+      { text: "Instalación y retiro incluidos", included: true },
+      { text: "2 operadores dedicados", included: true },
+      { text: "Seguro de responsabilidad civil", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Día Completo",
+    price: "$2,800",
+    priceNote: "+ IVA",
+    description: "12 horas, ideal kermeses",
+    features: [
+      { text: "Inflable Dragones Rojos 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "12 horas de uso continuo", included: true },
+      { text: "Instalación y retiro incluidos", included: true },
+      { text: "2 operadores dedicados", included: true },
+      { text: "Seguro de responsabilidad civil", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+];
+
+const faqItems = [
+  {
+    question: "¿Cuántos niños pueden brincar a la vez en el Dragones Rojos?",
+    answer: "El inflable Dragones Rojos tiene capacidad para 5 a 7 niños brincando simultáneamente. Recomendamos que los niños tengan entre 4 y 10 años de edad para un uso seguro y divertido. Un operador puede supervisar los turnos si hay más niños en el evento.",
+  },
+  {
+    question: "¿Qué medidas tiene el inflable Dragones Rojos y cuánto espacio necesito?",
+    answer: "El inflable mide 4 metros de largo por 4 metros de ancho y 3 metros de alto. Necesitas un espacio libre mínimo de 5×5 metros para la instalación segura, más acceso a una toma de corriente 110V a no más de 15 metros de distancia.",
+  },
+  {
+    question: "¿El inflable Dragones Rojos incluye resbaladilla?",
+    answer: "Sí, el Dragones Rojos cuenta con una resbaladilla integrada de alta velocidad que es parte del diseño del castillo. Los niños pueden subir, brincar y deslizarse de forma segura gracias a las mallas de seguridad laterales que permiten la supervisión de los padres en todo momento.",
+  },
+  {
+    question: "¿Cuánto tiempo toma instalar el Dragones Rojos?",
+    answer: "La instalación profesional del inflable Dragones Rojos toma aproximadamente 20 minutos. Nuestro equipo llega con anticipación para tener todo listo antes de que inicie tu evento. El retiro al finalizar también está incluido en los paquetes Estándar, Premium y Día Completo.",
+  },
+  {
+    question: "¿En qué zonas de CDMX y Edomex entregan el inflable Dragones Rojos?",
+    answer: "Cubrimos las 16 alcaldías de la Ciudad de México y los principales municipios del Estado de México: Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Atizapán, Cuautitlán Izcalli y más. La entrega está incluida en el precio sin costo adicional dentro de nuestra zona de cobertura.",
+  },
+  {
+    question: "¿El Dragones Rojos es seguro para fiestas infantiles?",
+    answer: "Absolutamente. El inflable Dragones Rojos está fabricado con PVC de grado comercial de 18oz resistente a rasgaduras. Cuenta con mallas de seguridad en todos los costados para visibilidad total de los padres, piso acolchonado y pasa por un proceso de sanitización certificada antes de cada evento.",
+  },
+];
+
+const ctaBarItems = [
+  { label: "Cotizar ahora", href: "/contacto/", icon: "cotizar" },
+  { label: "Ver galería", href: "#galeria", icon: "galeria" },
+  { label: "Ver precios", href: "#precios", icon: "precios" },
+  { label: "WhatsApp", href: `https://wa.me/5547868402?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}.`)}`, icon: "whatsapp" },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="product"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables/" },
+    { name: inflable.name },
+  ]}
+  faqItems={faqItems}
+  product={{
+    name: inflable.name,
+    slug: inflable.slug,
+    description: description,
+    image: inflable.image,
+    price: inflable.priceNum,
+  }}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Inflables",href:"/inflables/"},{label:"Dragones Rojos"}]} />
+  </Fragment>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🐉 Inflable más rentado en CDMX</span>
+          <h1 class="hero__title">Renta <span class="highlight">Dragones Rojos</span> para tu Fiesta</h1>
+          <div class="hero__specs">
+            <span class="hero__spec">📏 {inflable.size}</span>
+            <span class="hero__spec">👶 {inflable.ages}</span>
+            <span class="hero__spec">👥 {inflable.capacity}</span>
+            <span class="hero__spec">💰 Desde {inflable.price} MXN</span>
+          </div>
+          <div class="hero__ctas">
+            <a href="/contacto/" class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/contacto/" class="btn btn-outline btn-lg">Ver disponibilidad</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">El <strong>inflable Dragones Rojos de BRINCOLINS</strong> es el brincolin más rentado en la <strong>Ciudad de México y Estado de México</strong>. Con dos imponentes dragones decorativos de 3 metros custodiando el castillo, resbaladilla integrada de alta velocidad y mallas de seguridad en todos los costados, ofrece horas de diversión segura para niños de 4 a 10 años. Fabricado con <strong>material de grado comercial resistente a rasgaduras</strong>, pasa por limpieza y sanitización certificada antes de cada evento.</p>
+          <p class="hero__copy-text">El servicio de renta incluye <strong>entrega a domicilio, instalación profesional en 20 minutos, motor inflador silencioso, extensión eléctrica y seguro de responsabilidad civil</strong> sin costo adicional. Atendemos las <strong>16 alcaldías de CDMX</strong> y los principales municipios del Estado de México: Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan y más. Reserva con solo el 50% de anticipo — cotiza ahora y recibe respuesta en minutos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CtaBar items={ctaBarItems} />
+
+  <!-- Gallery -->
+  <section class="section" id="galeria">
+    <div class="container">
+      <SectionHeader badge="📸 Galería" title={`Fotos del ${inflable.name}`} subtitle="Imágenes reales de nuestros eventos" copy1="Estas son fotografías reales del inflable Dragones Rojos tomadas en fiestas infantiles, eventos corporativos y celebraciones familiares en CDMX y Estado de México. El diseño en rojo y dorado con los dos dragones de 3 metros es el imán visual de cualquier evento." copy2="Cada imagen muestra el inflable instalado en diferentes escenarios: jardines, terrazas, salones y patios. Nuestro equipo se encarga de la instalación completa para que el inflable luzca perfecto sin importar el espacio disponible." />
+      <Gallery4x4 images={galleryImages} />
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="section section--alt" id="precios">
+    <div class="container">
+      <SectionHeader badge="💰 Paquetes" title={`Precios de Renta — ${inflable.name}`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="Elige el paquete que mejor se adapte a la duración de tu evento. El Dragones Rojos es ideal para cumpleaños de 4 a 6 horas, pero también lo rentamos para kermeses escolares y eventos de día completo con operadores dedicados." copy2="Todos los precios son en pesos mexicanos antes de IVA. El paquete Estándar es el más solicitado porque incluye instalación, retiro y seguro de responsabilidad civil. Reserva con el 50% de anticipo para asegurar tu fecha." />
+      <PricingCards packages={pricingPackages} />
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader badge="❓ Preguntas frecuentes" title={`Dudas sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="Hemos recopilado las preguntas más comunes de nuestros clientes sobre el inflable Dragones Rojos. Si tu duda no aparece aquí, escríbenos por WhatsApp y te respondemos en minutos." copy2="Nuestro equipo tiene más de 5 años de experiencia rentando inflables en CDMX y Edomex. Conocemos cada detalle del Dragones Rojos y podemos asesorarte sobre el mejor paquete para tu evento." />
+    </div>
+    <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
+  </section>
+
+  <!-- Related -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader badge="🎈 Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y seguro incluidos" copy1="Si el Dragones Rojos no se ajusta a lo que buscas, explora nuestro catálogo completo. El Castillo de Princesas es perfecto para fiestas de niñas, la Mini Jungla para temáticas safari y los Gusanitos para eventos tropicales al aire libre." copy2="Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza sin compromiso y recibe respuesta en minutos — reserva con el 50% de anticipo y asegura tu fecha." />
+      <div class="grid-4">
+        <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla incluida." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
+        <ProductCard slug="mini-jungla" emoji="🌴" name="Mini Jungla" description="Inflable temático con animales y palmeras tropicales." price="$1,200" size="4×4×3m" ages="3-10 años" category="Aventura" categoryColor="jungla" gradient="#2E7D32, #1B5E20" image="/img/inflables/mini-jungla.avif" />
+        <ProductCard slug="gusanitos" emoji="🐛" name="Gusanitos" description="Inflable tropical con gusanitos y colores vibrantes." price="$1,200" size="4×4×3m" ages="4-10 años" category="Tropical" categoryColor="jungla" gradient="#558B2F, #827717" image="/img/inflables/gusanitos.avif" />
+        <ProductCard slug="mini-castillo" emoji="🏰" name="Mini Castillo" description="Compacto para bebés. Perfecto para interiores y espacios reducidos." price="$800" size="2×2×2m" ages="1-4 años" category="Chico" categoryColor="castillo" gradient="#FF3D00, #ff6d3f" image="/img/inflables/mini-castillo.avif" />
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title={`¿Te interesa el ${inflable.name}?`}
+    subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    variant="vibrant"
+  />
+
+</PageLayout>

@@ -1,0 +1,153 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import FaqItem from "@/components/FaqItem.astro";
+
+const title = "Renta de Inflables en Tecámac | BRINCOLINS";
+const description = "Renta de inflables en Tecámac, Edomex. Servicio profesional con entrega programada. Renta de inflables en Tecámac, Estado de México. Entrega en ";
+
+const colonias = [
+  "Ciudad Real",
+  "Real del Sol",
+  "Tecámac Centro",
+  "Ozumbilla",
+  "San Pedro Atzompa",
+  "Tonanitla",
+  "Santa Cruz Tecámac",
+  "Los Héroes Tecámac",
+  "San Juan Pueblo Nuevo",
+  "Hacienda La Trinidad",
+  "Real Minas",
+  "Bosques del Valle"
+];
+
+const faqs = [
+  { question: "¿Cuánto cuesta el envío a Tecámac?", answer: "El cargo de envío para Tecámac es de $250 a $400. El monto exacto se confirma según tu colonia y conjunto habitacional." },
+  { question: "¿Qué inflables son más populares en Tecámac?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos toboganes, combinados con alberca y temáticos para todo tipo de fiestas." },
+  { question: "¿Atienden fines de semana en Tecámac?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos en toda la zona de Tecámac." },
+  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1-2 semanas de anticipación. Para fines de semana y temporadas altas (Semana Santa, verano, diciembre), lo ideal es reservar con 3 semanas de anticipación." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Cobertura", href: "/cobertura/" },
+    { name: "Tecámac" }
+  ]}
+  faqItems={faqs}
+>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a><span class="breadcrumbs__sep">/</span>
+      <a href="/cobertura/">Cobertura</a><span class="breadcrumbs__sep">/</span>
+      <span>Tecámac</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🚀 Tecámac</span>
+          <h1 class="hero__title">Renta de Inflables en <span class="highlight">Tecámac</span></h1>
+          <p class="hero__desc">Renta de inflables en Tecámac, Estado de México. Entrega en Ciudad Real, Real del Sol, Tecámac Centro, Ozumbilla y todo el municipio. Servicio profesional garantizado.</p>
+          <div class="hero__ctas">
+            <a href="/contacto/"
+               class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">Tecámac es uno de los municipios con mayor crecimiento del norte del Estado de México, con grandes conjuntos habitacionales como Ciudad Real y Real del Sol que concentran miles de familias con alta demanda de servicios para eventos. BRINCOLINS cubre Tecámac con un cargo de $250 a $400 y servicio profesional de instalación.</p>
+          <p class="hero__copy-text">La autopista México-Pachuca es nuestra ruta principal para llegar a Tecámac. Conocemos los accesos de Ciudad Real, Real del Sol y los principales conjuntos del municipio. Instalación profesional y retiro incluidos. Reserva con anticipación para fines de semana.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📍 Colonias"
+        title="Colonias con cobertura en Tecámac"
+        subtitle="Entrega directa en estas colonias y zonas."
+        copy1="Cubrimos todo Tecámac, incluyendo los grandes conjuntos habitacionales de Ciudad Real y Real del Sol, además del Centro y los pueblos del municipio."
+        copy2="El cargo de $250-$400 aplica para todo el municipio. Para los conjuntos más alejados del norte del municipio, el costo puede ser el extremo superior del rango."
+      />
+      <div class="coverage__badges">
+        {colonias.map(c => <span class="coverage__badge">{c}</span>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🚚 Entrega"
+        title="Servicio de entrega en Tecámac"
+        subtitle="Puntualidad y profesionalismo garantizados."
+        copy1="La autopista México-Pachuca nos da acceso directo a Tecámac. Salimos con suficiente anticipación para compensar el tráfico de la zona norte."
+        copy2="Los grandes conjuntos habitacionales de Tecámac tienen áreas comunes y jardines ideales para eventos con inflables. Para accesos con caseta, coordinamos previamente."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#00C853,#2E7D32);">
+            <span class="why-card__img-label">$250–$400</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Costo de envío</h3>
+            <p class="why-card__desc">Cargo de envío de $250 a $400 para Tecámac según la colonia y distancia desde nuestro almacén.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#1565C0,#0288D1);">
+            <span class="why-card__img-label">2h</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación rápida</h3>
+            <p class="why-card__desc">Montaje profesional en menos de 2 horas desde la llegada.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+            <span class="why-card__img-label">24/7</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Atención permanente</h3>
+            <p class="why-card__desc">WhatsApp disponible todo el día para confirmar y resolver dudas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes sobre Tecámac"
+        subtitle="Dudas comunes sobre entrega de inflables en esta zona."
+        copy1="Hemos atendido eventos en Tecámac y conocemos las particularidades del municipio. Aquí respondemos las preguntas más frecuentes de nuestros clientes en la zona."
+        copy2="¿Tienes otra duda? Escríbenos por WhatsApp y te respondemos en minutos con toda la información que necesitas para tu evento."
+      />
+      <div style="max-width:800px;margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Evento en Tecámac?"
+    subtitle="Cotiza tu inflable con entrega en Ciudad Real, Real del Sol, Tecámac Centro y todo el municipio."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+  />
+</PageLayout>

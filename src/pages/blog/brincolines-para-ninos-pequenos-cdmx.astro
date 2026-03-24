@@ -1,0 +1,217 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Brincolines para Niños Pequeños en CDMX — Guía Completa | BRINCOLINS";
+const description = "Guía completa de brincolines para niños pequeños en CDMX. Modelos seguros para edades de 1 a 6 años. Renta con entrega e instalación.";
+
+const faqs = [
+  { question: "¿Cuál es la edad mínima para que un niño use un brincolín?", answer: "Los niños pueden usar nuestros brincolines desde 1 año de edad, siempre y cuando ya caminen de manera independiente. Para los más pequeñitos (1-2 años), recomendamos el mini castillo o los gusanitos, que tienen rebote suave y paredes más protectoras." },
+  { question: "¿Pueden brincar niños de diferentes edades en el mismo inflable?", answer: "No lo recomendamos. La diferencia de peso y fuerza entre un niño de 2 años y uno de 8 puede causar que el más pequeño salga rebotado. Lo ideal es separar por rangos de edad o rentar dos inflables: uno para pequeños y otro para los más grandes." },
+  { question: "¿Cuántos niños pequeños pueden usar el brincolín al mismo tiempo?", answer: "Para niños de 1 a 3 años, recomendamos máximo 3-4 niños a la vez en el mini castillo. Para niños de 4 a 6 años, pueden ser hasta 5-6 niños dependiendo del modelo. Nuestro equipo te indicará la capacidad exacta del inflable que elijas." },
+  { question: "¿Qué debo hacer si un niño tiene miedo de entrar al brincolín?", answer: "Es completamente normal. Sugerimos que un adulto acompañe al niño dentro del inflable los primeros minutos, que entre junto con un amiguito o hermano mayor, y que no lo fuerces. Muchos niños tímidos terminan siendo los que más disfrutan una vez que pierden el miedo." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog", href: "/blog/" },
+    { name: "Brincolines para Niños Pequeños" },
+  ]}
+>
+
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">🧒 Niños Pequeños</span>
+          <h1 class="hero__title">
+            Brincolines para <span class="highlight">Niños Pequeños</span> en CDMX — Guía Completa
+          </h1>
+          <div class="art-hero__meta">
+            <span>⏱️ 8 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">Todo lo que necesitas saber para elegir el brincolín perfecto para tu pequeño.</p>
+          <div class="hero__ctas">
+            <a href="/contacto/"
+               class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">Elegir el <strong>brincolín adecuado para niños pequeños</strong> puede parecer complicado, pero con la información correcta es más sencillo de lo que piensas. En esta guía completa te explicamos todo lo que necesitas saber sobre <strong>renta de brincolines para niños de 1 a 6 años en CDMX</strong>: desde cómo elegir según la edad, hasta los modelos más seguros y las mejores prácticas de supervisión.</p>
+          <p class="hero__copy-text">En <strong>BRINCOLINS</strong> somos expertos en <strong>inflables para niños pequeños en la Ciudad de México</strong>. Contamos con modelos diseñados específicamente para las necesidades de los más chiquitos: rebote suave, paredes altas, materiales seguros y dimensiones compactas. Nuestra experiencia nos permite asesorarte para que elijas el brincolín perfecto según la edad de los niños y el espacio de tu evento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGEN DE PORTADA -->
+  <section style="padding:0 0 1rem;">
+    <div class="container">
+      <img src="/img/inflables/mini-castillo-v3.avif" alt="Brincolín para niños pequeños en fiesta infantil CDMX" width="1200" height="675" loading="eager"
+           style="width:100%;max-height:480px;object-fit:cover;border-radius:var(--r-card);display:block;box-shadow:var(--shadow-md);" />
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <section class="section">
+    <div class="container">
+      <div class="art-layout">
+        <article class="art-body">
+
+          <h2>Cómo elegir el brincolín según la edad de los niños</h2>
+          <p>No todos los brincolines son iguales, y la edad de los niños es el factor más importante a considerar al momento de elegir. Un inflable que es perfecto para un niño de 5 años puede ser demasiado grande o tener demasiado rebote para un bebé de 18 meses. Aquí te explicamos qué buscar según cada rango de edad.</p>
+
+          <h3>Bebés de 1 a 2 años</h3>
+          <p>Para los más chiquitos, lo ideal es un inflable con <strong>rebote muy suave</strong> y paredes altas que eviten cualquier posibilidad de que se salgan. El <strong>mini castillo</strong> es nuestra recomendación estrella para este rango de edad. Su piso extra acolchado protege a los bebés que todavía están aprendiendo a mantener el equilibrio, y las paredes de malla permiten que los papás supervisen todo el tiempo.</p>
+          <p>A esta edad, los niños no necesariamente brincan: gatean, se sientan, se ponen de pie y exploran. El inflable se convierte en un espacio sensorial seguro donde pueden experimentar texturas y movimiento de una forma controlada.</p>
+
+          <h3>Niños de 3 a 4 años</h3>
+          <p>A los 3 y 4 años, los niños ya tienen mejor coordinación y pueden brincar con más confianza. Para este rango, tanto el <strong>mini castillo</strong> como la <strong>mini jungla</strong> son excelentes opciones. Estos modelos ofrecen suficiente espacio para brincar sin que el rebote sea excesivo.</p>
+          <p>En esta etapa los niños empiezan a socializar más activamente, por lo que les encanta compartir el inflable con sus amiguitos. Es la edad perfecta para fiestas con brincolín porque los niños son lo suficientemente independientes para disfrutar pero aún necesitan modelos seguros y de tamaño apropiado.</p>
+
+          <h3>Niños de 5 a 6 años</h3>
+          <p>Los niños de 5 y 6 años ya pueden usar una mayor variedad de inflables. Además de los modelos compactos, pueden disfrutar del <strong>castillo de princesas</strong> y otros inflables medianos. Sin embargo, si la fiesta incluye niños de este rango junto con más pequeños, te recomendamos mantener separados los grupos por edad.</p>
+
+          <h2>Consideraciones de seguridad para niños pequeños</h2>
+          <p>La seguridad es la preocupación número uno de cualquier papá, y con razón. Los brincolines son increíblemente divertidos, pero como cualquier actividad física, requieren ciertas precauciones, especialmente cuando se trata de niños pequeños.</p>
+          <ul class="art-list">
+            <li><strong>Supervisión constante:</strong> siempre debe haber al menos un adulto vigilando a los niños mientras usan el brincolín.</li>
+            <li><strong>Separar por edades:</strong> nunca mezcles niños de edades muy diferentes en el mismo inflable.</li>
+            <li><strong>Sin zapatos:</strong> los niños deben quitarse los zapatos antes de entrar para evitar resbalones y daños al material.</li>
+            <li><strong>Sin alimentos:</strong> no permitir comida ni bebidas dentro del inflable para evitar ahogamientos y resbalones.</li>
+            <li><strong>Límite de capacidad:</strong> respetar el número máximo de niños permitido en el inflable.</li>
+            <li><strong>Sin objetos duros:</strong> quitar lentes, relojes, pulseras y cualquier objeto que pueda causar lesiones.</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">⚠️</span>
+            <p><strong>Importante:</strong> Nunca dejes que niños mayores de 7 años brinquen al mismo tiempo que niños de 1 a 3 años. La diferencia de peso y fuerza puede hacer que los más pequeños salgan rebotados o se lastimen con un brinco fuerte del niño mayor.</p>
+          </div>
+
+          <h2>Los mejores modelos de brincolines para niños pequeños</h2>
+          <p>En <strong>BRINCOLINS</strong> hemos seleccionado cuidadosamente los modelos que mejor se adaptan a las necesidades de los niños más pequeños. Cada uno tiene características específicas que lo hacen ideal para cierto tipo de evento y rango de edad.</p>
+          <p>El <strong>Mini Castillo</strong> es nuestro inflable más popular para fiestas de niños pequeños. Su diseño clásico de castillo en colores vibrantes atrae la atención de los pequeños desde el primer momento. Las paredes altas con malla transparente, el piso extra acolchado y la rampa de entrada suave lo convierten en el modelo más seguro de nuestro catálogo para bebés y toddlers.</p>
+          <p>La <strong>Mini Jungla</strong> es perfecta para niños aventureros de 2 a 6 años. Con temática de selva y elementos interactivos, este inflable no solo permite brincar sino también explorar, estimulando la imaginación y el juego creativo. Es ligeramente más grande que el mini castillo pero mantiene las mismas medidas de seguridad.</p>
+          <p>El <strong>Castillo de Princesas</strong> es ideal para fiestas temáticas donde los niños quieren sentirse como en un cuento de hadas. Aunque es un poco más grande, sigue siendo apto para niños desde 3 años y su diseño encanta por igual a niños y niñas.</p>
+
+          <h2>Consejos de supervisión durante la fiesta</h2>
+          <p>La supervisión adecuada es clave para que todos los niños se diviertan sin incidentes. Aquí te compartimos los mejores consejos para mantener el control durante la fiesta sin ser el papá o la mamá aguafiestas.</p>
+          <p>Designa a un adulto como "responsable del brincolín" durante la fiesta. Esta persona se encargará exclusivamente de supervisar que los niños sigan las reglas básicas: no empujarse, no brincar sobre otros niños, quitarse los zapatos y respetar el turno si hay muchos niños esperando.</p>
+          <p>Establece turnos de 15 a 20 minutos para que todos los niños puedan disfrutar del inflable. Esto evita que el brincolín se sature y permite que los niños descansen, se hidraten y coman algo entre turnos. Es mucho más efectivo que dejar el acceso libre durante toda la fiesta.</p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">💡</span>
+            <p><strong>Tip:</strong> Coloca una mesa con agua y snacks cerca del inflable. Cuando los niños terminan su turno, tienen un lugar atractivo donde ir mientras esperan. Esto facilita enormemente la rotación de grupos.</p>
+          </div>
+
+          <h2>Combinar el brincolín con otras actividades</h2>
+          <p>Un brincolín es la estrella de cualquier fiesta infantil, pero combinarlo con otras actividades puede hacer que la celebración sea aún más memorable. Para niños pequeños, te recomendamos actividades complementarias que mantengan la energía y la diversión durante toda la fiesta.</p>
+          <p>Una mesa de manualidades con plastilina, colores y hojas para dibujar es perfecta para los momentos de descanso entre turnos del brincolín. Los niños pequeños disfrutan mucho las actividades manuales y esto les da una alternativa tranquila cuando necesitan un respiro.</p>
+          <p>Las burbujas de jabón son otro complemento fantástico. Son económicas, seguras para todas las edades y fascinan a los niños pequeños. Puedes tener una máquina de burbujas cerca del área del inflable para crear un ambiente mágico.</p>
+          <p>Si el espacio lo permite, una pequeña pista de obstáculos con conos y túneles de tela complementa perfectamente al brincolín y mantiene a los niños activos y entretenidos con variedad de estímulos.</p>
+
+          <h2>Guía de renta con BRINCOLINS</h2>
+          <p>Rentar un brincolín para niños pequeños con <strong>BRINCOLINS</strong> es un proceso sencillo y transparente. Queremos que tu experiencia sea tan fácil como enviar un mensaje de WhatsApp.</p>
+          <p>Al contactarnos, cuéntanos la edad de los niños, el número de invitados, el tipo de espacio (interior o exterior) y la zona de entrega en CDMX. Con esa información te recomendaremos el modelo ideal y te daremos un precio final sin sorpresas ni cargos ocultos.</p>
+          <p>Nuestro servicio completo incluye <strong>entrega puntual a domicilio</strong>, instalación profesional con revisión de seguridad, asesoría sobre la ubicación ideal del inflable en tu espacio, y recolección al terminar el evento. No necesitas herramientas, experiencia ni ayuda extra: nosotros nos encargamos de absolutamente todo.</p>
+          <p>Si tienes dudas sobre qué modelo elegir, envíanos fotos de tu espacio y las edades de los niños. Nuestro equipo tiene la experiencia para recomendarte exactamente lo que necesitas para que tu fiesta sea un éxito rotundo y todos los pequeños invitados la pasen increíble.</p>
+
+        </article>
+        <aside class="art-sidebar">
+          <div class="art-sidebar__box">
+            <h3 class="art-sidebar__title">🎈 ¿Listo para reservar?</h3>
+            <p class="art-sidebar__text">Encuentra el brincolín ideal para los más pequeños. Asesoría personalizada y cotización al momento.</p>
+            <a href="/contacto/" class="btn btn-primary" style="width:100%;justify-content:center;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Pedir asesoría gratis
+            </a>
+          </div>
+          <div class="art-sidebar__box art-sidebar__box--links">
+            <h3 class="art-sidebar__title">🗂️ Más artículos</h3>
+            <a href="/blog/como-elegir-inflable-fiesta-infantil/" class="art-sidebar__link">→ Cómo elegir el inflable perfecto</a>
+            <a href="/blog/renta-mini-castillo-inflable-bebes-cdmx/" class="art-sidebar__link">→ Mini castillo inflable para bebés</a>
+            <a href="/blog/inflable-pequeno-fiestas-interiores-cdmx/" class="art-sidebar__link">→ Inflables pequeños para interiores</a>
+          </div>
+          <div class="art-sidebar__box art-sidebar__box--cat">
+            <h3 class="art-sidebar__title">🎪 Nuestros inflables</h3>
+            <a href="/inflables/mini-castillo/" class="art-sidebar__link">→ Mini Castillo</a>
+            <a href="/inflables/mini-jungla/" class="art-sidebar__link">→ Mini Jungla</a>
+            <a href="/inflables/castillo-princesas/" class="art-sidebar__link">→ Castillo de Princesas</a>
+            <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Ver catálogo completo</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div style="max-width:800px; margin:0 auto;">
+        <h2 class="section-title" style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="El brincolín perfecto para los más pequeños"
+    subtitle="Modelos seguros para niños de 1 a 6 años con entrega en CDMX"
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+  />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "author": { "@type": "Organization", "name": "BRINCOLINS" },
+    "publisher": { "@type": "Organization", "name": "BRINCOLINS", "url": "https://brincolins.com" },
+    "mainEntityOfPage": "https://brincolins.com/blog/brincolines-para-ninos-pequenos-cdmx/"
+  })} />
+
+</PageLayout>
+
+<style>
+  .art-hero__back { font-size:0.85rem;color:var(--c-primary);font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:0.3rem;transition:gap 0.2s;margin-bottom:0.5rem; }
+  .art-hero__back:hover { gap:0.6rem; }
+  .art-hero__meta { display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap;font-size:0.85rem;color:var(--c-text-muted);margin-bottom:0.5rem; }
+  .art-hero__sep { opacity:0.4; }
+  .art-layout { display:grid;grid-template-columns:1fr 320px;gap:3rem;align-items:start; }
+  .art-body { min-width:0; }
+  .art-body h2 { font-family:var(--font-head);font-weight:800;font-size:clamp(1.25rem,2.5vw,1.5rem);color:var(--c-text);margin:2.5rem 0 1rem;padding-top:0.5rem;border-top:3px solid var(--c-primary); }
+  .art-body h2:first-child { margin-top:0; }
+  .art-body p { font-size:1rem;line-height:1.75;color:var(--c-text);margin:0 0 1.25rem; }
+  .art-body strong { color:var(--c-primary);font-weight:700; }
+  .art-tip { display:flex;gap:1rem;align-items:flex-start;background:#fff8f5;border-left:4px solid var(--c-primary);border-radius:0 var(--r-card) var(--r-card) 0;padding:1.25rem 1.5rem;margin:1.5rem 0; }
+  .art-tip__icon { font-size:1.5rem;flex-shrink:0; }
+  .art-tip p { margin:0;font-size:0.95rem; }
+  .art-list { padding-left:1.5rem;margin:0 0 1.25rem;display:flex;flex-direction:column;gap:0.6rem; }
+  .art-list li { font-size:1rem;line-height:1.6;color:var(--c-text);list-style:disc; }
+  .art-list--ordered li { list-style:decimal; }
+  .art-sidebar { display:flex;flex-direction:column;gap:1.5rem;position:sticky;top:90px; }
+  .art-sidebar__box { background:var(--c-bg-alt);border:1px solid var(--c-border);border-radius:var(--r-card);padding:1.5rem;display:flex;flex-direction:column;gap:0.75rem; }
+  .art-sidebar__box--links, .art-sidebar__box--cat { gap:0.5rem; }
+  .art-sidebar__title { font-family:var(--font-head);font-weight:800;font-size:1rem;color:var(--c-text);margin:0; }
+  .art-sidebar__text { font-size:0.9rem;color:var(--c-text-muted);line-height:1.6;margin:0; }
+  .art-sidebar__link { font-size:0.88rem;color:var(--c-primary);font-weight:600;text-decoration:none;padding:0.35rem 0;display:block;border-bottom:1px solid var(--c-border);transition:padding-left 0.2s; }
+  .art-sidebar__link:last-child { border-bottom:none; }
+  .art-sidebar__link:hover { padding-left:0.4rem; }
+  .art-sidebar__link--cta { color:var(--c-secondary);font-weight:800; }
+  @media (max-width:960px) { .art-layout { grid-template-columns:1fr; } .art-sidebar { position:static; } }
+</style>

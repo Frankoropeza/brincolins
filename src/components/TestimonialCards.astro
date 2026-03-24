@@ -1,0 +1,100 @@
+---
+/**
+ * TestimonialCards — BRINCOLINS
+ * Cards de reseñas con estrellas, nombre y texto.
+ * CSS 100% scoped.
+ */
+interface Testimonial {
+  name: string;
+  text: string;
+  rating: number;
+  event?: string;
+}
+
+interface Props {
+  testimonials: Testimonial[];
+}
+
+const { testimonials } = Astro.props;
+---
+
+<div class="tc__grid">
+  {testimonials.map((t) => (
+    <div class="tc__card">
+      <div class="tc__stars">
+        {Array.from({ length: t.rating }).map(() => (
+          <span class="tc__star">★</span>
+        ))}
+      </div>
+      <p class="tc__text">"{t.text}"</p>
+      <div class="tc__author">
+        <span class="tc__name">{t.name}</span>
+        {t.event && <span class="tc__event">{t.event}</span>}
+      </div>
+    </div>
+  ))}
+</div>
+
+<style>
+  .tc__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .tc__card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tc__stars {
+    display: flex;
+    gap: 0.15rem;
+    margin-bottom: 1rem;
+  }
+
+  .tc__star {
+    color: #ff5722;
+    font-size: 1.125rem;
+  }
+
+  .tc__text {
+    font-size: 0.9375rem;
+    color: #495057;
+    line-height: 1.7;
+    font-style: italic;
+    flex: 1;
+    margin: 0 0 1.25rem;
+  }
+
+  .tc__author {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 1rem;
+  }
+
+  .tc__name {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #1a1a2e;
+  }
+
+  .tc__event {
+    font-size: 0.75rem;
+    color: #6c757d;
+  }
+
+  @media (max-width: 768px) {
+    .tc__grid {
+      grid-template-columns: 1fr;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+  }
+</style>

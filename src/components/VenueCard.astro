@@ -1,0 +1,60 @@
+---
+export interface Props {
+  slug: string;
+  name: string;
+  zone: string;
+  rating: string;
+  capacity: string;
+  phone: string;
+  label: string;
+  gradient: string;
+  features: string[];
+  highlight: string;
+}
+
+const {
+  slug,
+  name,
+  zone,
+  rating,
+  capacity,
+  phone,
+  label,
+  gradient,
+  features,
+  highlight,
+} = Astro.props;
+
+const waMsg = encodeURIComponent(`Hola, me interesa información sobre su salón ${name} para una fiesta infantil.`);
+const waHref = `https://wa.me/52${phone.replace(/\s/g, "")}?text=${waMsg}`;
+const telHref = `tel:+52${phone.replace(/\s/g, "")}`;
+---
+
+<article class="product-card">
+  <div class="product-card__image" style={`background: ${gradient};`}>
+    <span>{label}</span>
+    <span class="product-card__category">⭐ {rating}</span>
+  </div>
+
+  <div class="product-card__body">
+    <h3 class="product-card__name">{name}</h3>
+    <p class="product-card__desc">{highlight}</p>
+
+    <div class="product-card__info">
+      <span class="product-card__tag">📍 {zone}</span>
+      <span class="product-card__tag">👥 {capacity}</span>
+      <span class="product-card__tag">📞 {phone}</span>
+    </div>
+
+    <div class="venue-card__features" style="margin-bottom:1rem;">
+      {features.map(f => (
+        <span class="venue-card__tag">✓ {f}</span>
+      ))}
+    </div>
+
+    <div class="product-card__actions">
+      <a href={`/directorio/cdmx/${slug}/`} class="btn btn-outline btn-sm">Ver salón</a>
+      <a href={waHref} target="_blank" rel="noopener noreferrer" class="btn btn-wa btn-sm">WhatsApp</a>
+    </div>
+  </div>
+</article>

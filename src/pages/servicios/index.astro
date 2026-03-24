@@ -1,0 +1,90 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Servicios para Fiestas y Eventos | BRINCOLINS CDMX";
+const description = "Servicios completos para tu fiesta: renta de inflables, mobiliario, iluminación y paquetes todo incluido en CDMX y Estado de México.";
+
+const servicios = [
+  { emoji: "🎈", name: "Renta de Inflables", desc: "Nuestro servicio principal: brincolines, toboganes, castillos y circuitos de obstáculos con entrega, instalación y seguro incluidos.", href: "/servicios/renta-de-inflables/", gradient: "#FF3D00, #FF6D00" },
+  { emoji: "🪑", name: "Mobiliario para Fiestas", desc: "Mesas, sillas, manteles y toldos para complementar tu evento. Combina con inflables y ahorra.", href: "/servicios/mobiliario-para-fiestas/", gradient: "#7C3AED, #9C27B0" },
+  { emoji: "💡", name: "Iluminación para Eventos", desc: "Luces LED, proyectores, series de luces y ambientación profesional para eventos nocturnos.", href: "/servicios/iluminacion-eventos/", gradient: "#1565C0, #0288D1" },
+  { emoji: "🎁", name: "Paquetes de Fiesta", desc: "Combos todo incluido: inflable + mobiliario + iluminación. Ahorra hasta 25% vs renta individual.", href: "/servicios/paquetes-de-fiesta/", gradient: "#00C853, #2E7D32" },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Servicios" },
+  ]}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Servicios"}]} />
+  </Fragment>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🎉 Servicios completos</span>
+          <h1 class="hero__title">Servicios para tu <span class="highlight">Fiesta Perfecta</span></h1>
+          <p class="hero__desc">
+            No solo rentamos inflables — ofrecemos todo lo que necesitas para que tu evento sea inolvidable. Mobiliario, iluminación y paquetes completos.
+          </p>
+          <div class="hero__ctas">
+            <a href="/contacto/"
+               class="btn btn-primary btn-lg">
+              Solicitar cotización
+            </a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text"><strong>BRINCOLINS</strong> ha evolucionado de ser una empresa de renta de inflables a convertirse en un <strong>proveedor integral para fiestas y eventos</strong> en CDMX y Estado de México. Con más de 20 años de experiencia, entendemos que una fiesta perfecta requiere más que un brincolín: necesitas mobiliario cómodo, iluminación adecuada y la tranquilidad de tener todo resuelto.</p>
+          <p class="hero__copy-text">Nuestros servicios complementarios están diseñados para <strong>simplificar la organización de tu evento</strong>. Al contratar varios servicios juntos, obtienes descuentos especiales y la comodidad de un solo proveedor que se encarga de todo. Cotiza sin compromiso por WhatsApp y descubre nuestros paquetes con precios preferenciales.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="🎯 Nuestros servicios"
+        title="Todo para tu evento"
+        subtitle="Servicios profesionales con la confianza de más de 20 años."
+        copy1="Cada servicio incluye entrega, montaje y recolección en toda la Zona Metropolitana del Valle de México. Trabajamos con equipo profesional y personal capacitado para garantizar que tu evento sea impecable."
+        copy2="Combina servicios y obtén descuentos especiales. Nuestros paquetes están diseñados para ofrecerte la mejor relación calidad-precio con la comodidad de un solo proveedor."
+      />
+      <div class="grid-4">
+        {servicios.map(s => (
+          <a href={s.href} class="cat-card-home">
+            <div class="cat-card-home__icon" style={`background: linear-gradient(135deg, ${s.gradient});`}>
+              <span>{s.emoji}</span>
+            </div>
+            <h3 class="cat-card-home__name">{s.name}</h3>
+            <p class="cat-card-home__desc">{s.desc}</p>
+            <span class="cat-card-home__link">Ver detalles</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Necesitas varios servicios? Pregunta por nuestros paquetes"
+    subtitle="Combina inflable + mobiliario + iluminación y ahorra hasta 25%. Cotiza sin compromiso."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver paquetes"
+    btnSecondaryHref="/servicios/paquetes-de-fiesta/"
+    variant="vibrant"
+  />
+
+</PageLayout>

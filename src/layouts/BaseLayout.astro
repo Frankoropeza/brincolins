@@ -1,0 +1,398 @@
+---
+import "@/styles/global.css";
+import TopBar from '../components/TopBar.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+export interface BreadcrumbItem { name: string; href?: string; }
+export interface FaqSeoItem     { question: string; answer: string; }
+export interface ProductSeo {
+  name:        string;
+  slug:        string;
+  description: string;
+  image:       string;
+  price:       string;
+}
+
+export interface Props {
+  title:        string;
+  description:  string;
+  canonical?:   string;
+  ogImage?:     string;
+  pageType?:    "home" | "product" | "category" | "page";
+  breadcrumbs?: BreadcrumbItem[];
+  faqItems?:    FaqSeoItem[];
+  product?:     ProductSeo;
+  schemaMarkup?: string;
+}
+
+const {
+  title,
+  description,
+  canonical   = Astro.url.href,
+  ogImage     = "/img/og-brincolins.jpg",
+  pageType    = "page",
+  breadcrumbs,
+  faqItems,
+  product,
+  schemaMarkup,
+} = Astro.props;
+
+const SITE      = "https://brincolins.com";
+const SITE_NAME = "BRINCOLINS";
+const TEL       = "+525547868402";
+const EMAIL     = "info@brincolins.com";
+
+// ── BreadcrumbList schema — auto-generated from canonical URL ──
+const urlPath = new URL(canonical, SITE).pathname;
+const pathSegments = urlPath.split('/').filter(Boolean);
+
+const slugNames: Record<string, string> = {
+  'inflables': 'Inflables',
+  'servicios': 'Servicios',
+  'cobertura': 'Cobertura',
+  'blog': 'Blog',
+  'nosotros': 'Nosotros',
+  'contacto': 'Contacto',
+  'directorio': 'Directorio',
+  'cotizar': 'Cotizar',
+  'dragones-rojos': 'Dragones Rojos',
+  'castillo-princesas': 'Castillo de Princesas',
+  'mini-jungla': 'Mini Jungla',
+  'gusanitos': 'Gusanitos',
+  'mini-castillo': 'Mini Castillo',
+  'barco-pirata': 'Barco Pirata',
+  'extremo': 'Extremo',
+  'castillo-blanco': 'Castillo Blanco',
+  'renta-de-inflables': 'Renta de Inflables',
+  'paquetes-de-fiesta': 'Paquetes de Fiesta',
+  'mobiliario-para-fiestas': 'Mobiliario para Fiestas',
+  'iluminacion-eventos': 'Iluminación para Eventos',
+  'cdmx': 'CDMX',
+  'edomex': 'Estado de México',
+  'coyoacan': 'Coyoacán',
+  'benito-juarez': 'Benito Juárez',
+  'miguel-hidalgo': 'Miguel Hidalgo',
+  'alvaro-obregon': 'Álvaro Obregón',
+  'tlalpan': 'Tlalpan',
+  'cuauhtemoc': 'Cuauhtémoc',
+  'azcapotzalco': 'Azcapotzalco',
+  'iztapalapa': 'Iztapalapa',
+  'xochimilco': 'Xochimilco',
+  'gustavo-a-madero': 'Gustavo A. Madero',
+  'iztacalco': 'Iztacalco',
+  'venustiano-carranza': 'Venustiano Carranza',
+  'cuajimalpa': 'Cuajimalpa',
+  'magdalena-contreras': 'Magdalena Contreras',
+  'tlahuac': 'Tláhuac',
+  'milpa-alta': 'Milpa Alta',
+  'naucalpan': 'Naucalpan',
+  'tlalnepantla': 'Tlalnepantla',
+  'ecatepec': 'Ecatepec',
+  'huixquilucan': 'Huixquilucan',
+  'atizapan': 'Atizapán',
+  'cuautitlan-izcalli': 'Cuautitlán Izcalli',
+  'coacalco': 'Coacalco',
+  'metepec': 'Metepec',
+  'toluca': 'Toluca',
+  'texcoco': 'Texcoco',
+  'nezahualcoyotl': 'Nezahualcóyotl',
+  'chalco': 'Chalco',
+  'tecamac': 'Tecámac',
+  'nicolas-romero': 'Nicolás Romero',
+  'tultitlan': 'Tultitlán',
+  'polanco': 'Polanco',
+};
+
+let breadcrumbSchema: string | null = null;
+if (pathSegments.length > 0) {
+  const items: Array<Record<string, unknown>> = [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": SITE + "/" }
+  ];
+  let currentPath = '';
+  pathSegments.forEach((seg, i) => {
+    currentPath += '/' + seg;
+    const isLast = i === pathSegments.length - 1;
+    const name = slugNames[seg] || seg.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase());
+    const entry: Record<string, unknown> = {
+      "@type": "ListItem",
+      "position": i + 2,
+      "name": name,
+    };
+    if (!isLast) {
+      entry["item"] = SITE + currentPath + "/";
+    }
+    items.push(entry);
+  });
+  breadcrumbSchema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": items
+  });
+}
+
+// ── Structured Data schemas ──
+const schemaOrg = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${SITE}/#org`,
+  "name": SITE_NAME,
+  "url": SITE,
+  "logo": { "@type": "ImageObject", "url": `${SITE}/img/brincolins-logo.png` },
+  "description": "Renta de inflables para fiestas infantiles en CDMX y Estado de México. Más de 20 años de experiencia. Entrega, instalación y seguro incluidos.",
+  "telephone": TEL,
+  "email": EMAIL,
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Ciudad de México",
+    "addressRegion": "CDMX",
+    "addressCountry": "MX"
+  },
+  "areaServed": [
+    { "@type": "State", "name": "Ciudad de México" },
+    { "@type": "State", "name": "Estado de México" }
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": TEL,
+    "contactType": "sales",
+    "areaServed": "MX",
+    "availableLanguage": "Spanish"
+  }
+};
+
+const schemaLocal = {
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "EventVenue"],
+  "@id": `${SITE}/#negocio`,
+  "name": "BRINCOLINS — Renta de Inflables CDMX",
+  "url": SITE,
+  "logo": `${SITE}/img/brincolins-logo.png`,
+  "image": `${SITE}/img/og-brincolins.jpg`,
+  "description": "Empresa líder en renta de inflables y brincolines para fiestas infantiles en CDMX y Estado de México. Más de 20 años de experiencia, entrega e instalación incluida.",
+  "telephone": TEL,
+  "email": EMAIL,
+  "priceRange": "$",
+  "currenciesAccepted": "MXN",
+  "paymentAccepted": "Transferencia, Tarjeta, Efectivo",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "19:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday"], "opens": "08:00", "closes": "20:00" }
+  ],
+  "geo": { "@type": "GeoCoordinates", "latitude": 19.4326, "longitude": -99.1332 },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Ciudad de México",
+    "addressRegion": "CDMX",
+    "addressCountry": "MX"
+  },
+  "areaServed": ["Ciudad de México", "Estado de México", "Zona Metropolitana del Valle de México"]
+};
+
+const schemaWebSite = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${SITE}/#website`,
+  "name": SITE_NAME,
+  "url": SITE,
+  "publisher": { "@id": `${SITE}/#org` }
+};
+
+const schemaFaq = faqItems?.length ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqItems.map(f => ({
+    "@type": "Question",
+    "name": f.question,
+    "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+  }))
+} : null;
+
+const schemaProduct = product ? {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": product.name,
+  "description": product.description,
+  "image": `${SITE}${product.image}`,
+  "brand": { "@type": "Brand", "name": SITE_NAME },
+  "category": "Renta de Inflables",
+  "manufacturer": { "@id": `${SITE}/#org` },
+  "offers": {
+    "@type": "Offer",
+    "url": canonical,
+    "priceCurrency": "MXN",
+    "price": product.price,
+    "availability": "https://schema.org/InStock",
+    "seller": { "@id": `${SITE}/#org` },
+    "areaServed": "MX"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.9,
+    "reviewCount": 47,
+    "bestRating": 5
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "María González" },
+      "reviewRating": { "@type": "Rating", "ratingValue": 5 },
+      "reviewBody": "Excelente servicio, los niños la pasaron increíble con el inflable. Muy recomendados."
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Carlos Ramírez" },
+      "reviewRating": { "@type": "Rating", "ratingValue": 5 },
+      "reviewBody": "Entrega muy puntual y el inflable estaba impecable, súper limpio. Gran experiencia."
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Ana López" },
+      "reviewRating": { "@type": "Rating", "ratingValue": 4 },
+      "reviewBody": "Buen precio y la instalación fue muy profesional. Quedamos contentos con el servicio."
+    }
+  ]
+} : null;
+
+const ogType = (pageType === "product") ? "og:product" : "website";
+---
+
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Critical CSS Inline (LCP optimization) -->
+  <style>
+    :root {
+      --topbar-height: 36px;
+      --header-height: 64px;
+      --c-primary: #FF3D00;
+      --c-secondary: #7C3AED;
+      --font-head: 'Nunito', system-ui, -apple-system, sans-serif;
+      --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: var(--font-body); color: #1A1A2E; background: #ffffff; }
+    main { display: block; }
+    .hdr-stack {
+      position: fixed;
+      top: var(--topbar-height, 36px);
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      transition: top 0.3s ease;
+    }
+  </style>
+
+  <title>{title}</title>
+  <meta name="description" content={description}>
+  <meta name="author" content="BRINCOLINS">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <link rel="canonical" href={canonical}>
+
+  <meta name="geo.region"    content="MX-CMX">
+  <meta name="geo.placename" content="Ciudad de México">
+  <meta name="geo.position"  content="19.4326;-99.1332">
+  <meta name="ICBM"          content="19.4326, -99.1332">
+
+  <meta property="og:type"         content={ogType}>
+  <meta property="og:url"          content={canonical}>
+  <meta property="og:title"        content={title}>
+  <meta property="og:description"  content={description}>
+  <meta property="og:image"        content={`${SITE}${ogImage}`}>
+  <meta property="og:image:width"  content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale"       content="es_MX">
+  <meta property="og:site_name"    content={SITE_NAME}>
+
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content={title}>
+  <meta name="twitter:description" content={description}>
+  <meta name="twitter:image"       content={`${SITE}${ogImage}`}>
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <meta name="theme-color" content="#FF3D00">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json" set:html={JSON.stringify(schemaOrg)} />
+  <script type="application/ld+json" set:html={JSON.stringify(schemaLocal)} />
+  <script type="application/ld+json" set:html={JSON.stringify(schemaWebSite)} />
+  {breadcrumbSchema && <script type="application/ld+json" set:html={breadcrumbSchema} />}
+  {schemaFaq && <script type="application/ld+json" set:html={JSON.stringify(schemaFaq)} />}
+  {schemaProduct && <script type="application/ld+json" set:html={JSON.stringify(schemaProduct)} />}
+  {schemaMarkup && <script type="application/ld+json" set:html={schemaMarkup} />}
+
+  <!-- Measure TopBar height dynamically for hero padding -->
+  <script is:inline>
+    (function(){
+      function setHeights(){
+        var tb = document.querySelector('.topbar');
+        var hdr = document.getElementById('hdr');
+        var h = tb ? tb.offsetHeight : 36;
+        var hh = hdr ? hdr.offsetHeight : 70;
+        document.documentElement.style.setProperty('--topbar-height', h + 'px');
+        document.documentElement.style.setProperty('--header-height', hh + 'px');
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', setHeights);
+      } else {
+        setHeights();
+      }
+      window.addEventListener('resize', setHeights, {passive:true});
+    })();
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <TopBar />
+  <div class="hdr-stack">
+    <Header />
+    <slot name="breadcrumbs" />
+  </div>
+
+  <main id="main-content">
+    <slot />
+  </main>
+
+  <Footer />
+
+  <!-- Sticky CTA Mobile -->
+  <div class="sticky-cta-mobile">
+    <a href="https://wa.me/5547868402?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable%20para%20mi%20fiesta." class="sticky-cta__wa" target="_blank" rel="noopener noreferrer">
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp
+    </a>
+    <a href="/contacto/" class="sticky-cta__cotizar">
+      Cotizar Gratis
+    </a>
+  </div>
+
+  <!-- FAQ accordion script -->
+  <script is:inline>
+    document.querySelectorAll('.faq__question').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var item   = btn.closest('.faq__item');
+        var answer = item ? item.querySelector('.faq__answer') : null;
+        var icon   = btn.querySelector('.faq__icon');
+        var isOpen = answer && answer.classList.contains('faq__answer--open');
+        document.querySelectorAll('.faq__answer--open').forEach(function(a) { a.classList.remove('faq__answer--open'); });
+        document.querySelectorAll('.faq__question').forEach(function(b) { b.setAttribute('aria-expanded', 'false'); });
+        document.querySelectorAll('.faq__icon').forEach(function(i) { i.textContent = '+'; });
+        if (!isOpen && answer) {
+          answer.classList.add('faq__answer--open');
+          btn.setAttribute('aria-expanded', 'true');
+          if (icon) icon.textContent = '\u2212';
+        }
+      });
+    });
+  </script>
+</body>
+</html>

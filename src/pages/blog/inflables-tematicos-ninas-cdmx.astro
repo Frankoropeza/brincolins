@@ -1,0 +1,223 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Los Mejores Inflables Temáticos para Niñas en CDMX | BRINCOLINS";
+const description = "Descubre los inflables temáticos más populares para niñas en CDMX. Princesas, castillos rosas y más. Guía completa con precios y modelos.";
+
+const faqs = [
+  { question: "¿Cuál es el inflable más popular para fiestas de niñas?", answer: "El castillo de princesas rosa es por mucho el más solicitado. Su diseño con torres, color rosa vibrante y espacio amplio para brincar lo convierten en el favorito de las niñas de 3 a 10 años. Le sigue el castillo blanco para eventos más elegantes." },
+  { question: "¿Los inflables temáticos son solo para niñas?", answer: "No necesariamente. Si bien modelos como el castillo de princesas son diseñados pensando en niñas, en la práctica los niños también disfrutan brincando en ellos. Los inflables son diversión para todos, sin importar el género." },
+  { question: "¿Puedo ver los inflables antes de reservar?", answer: "Sí, en nuestra página de inflables tenemos fotos reales de cada modelo. También puedes escribirnos por WhatsApp y te enviamos fotos adicionales y videos para que veas los detalles de cada inflable antes de decidir." },
+  { question: "¿Qué inflable recomiendan para niñas menores de 3 años?", answer: "Para las más pequeñitas recomendamos el mini castillo. Es más compacto, tiene paredes más bajas y su superficie acolchada es ideal para bebés que ya caminan y niñas hasta 4 años. Es el más seguro para las edades más tempranas." },
+];
+---
+
+<PageLayout title={title} description={description} pageType="page"
+  breadcrumbs={[{ name: "Inicio", href: "/" }, { name: "Blog", href: "/blog/" }, { name: "Inflables temáticos para niñas" }]}>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container"><div class="hero__grid">
+      <div>
+        <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+        <span class="hero__badge">💖 Para Niñas</span>
+        <h1 class="hero__title">Los Mejores <span class="highlight">Inflables Temáticos</span> para Niñas en CDMX</h1>
+        <div class="art-hero__meta"><span>⏱️ 7 min lectura</span><span class="art-hero__sep">·</span><span>✍️ Equipo BRINCOLINS</span></div>
+        <p class="hero__desc">Guía completa de los inflables favoritos de las niñas: castillo de princesas, castillo blanco elegante y mini castillo para las más pequeñas. Encuentra el modelo perfecto para tu fiesta.</p>
+        <div class="hero__ctas">
+          <a href="/contacto/" class="btn btn-primary btn-lg">Solicitar cotización</a>
+          <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+        </div>
+      </div>
+      <div class="hero__copy">
+        <p class="hero__copy-text">
+          Elegir el <strong>inflable perfecto para una fiesta de niñas</strong> puede parecer complicado con tantas opciones disponibles. En <strong>BRINCOLINS</strong> hemos identificado los tres modelos que las niñas de <strong>CDMX</strong> más piden: el castillo de princesas rosa, el elegante castillo blanco y el mini castillo para las más pequeñas. Cada uno tiene características únicas que los hacen ideales para diferentes edades y tipos de evento.
+        </p>
+        <p class="hero__copy-text">
+          En esta guía te presentamos una comparativa detallada de nuestros <strong>inflables temáticos para niñas</strong>, con información sobre edades recomendadas, dimensiones, temáticas compatibles y tips para elegir el modelo que hará de la fiesta de tu hija una experiencia inolvidable. Conoce cada opción y toma la mejor decisión para tu próximo evento en la <strong>Ciudad de México</strong>.
+        </p>
+      </div>
+    </div></div>
+  </section>
+
+  <section style="padding:0 0 1rem;"><div class="container">
+    <img src="/img/inflables/castillo-princesas-v3.avif" alt="Inflables temáticos para niñas en CDMX — castillo princesas BRINCOLINS" width="1200" height="675" loading="eager" style="width:100%;max-height:480px;object-fit:cover;border-radius:var(--r-card);display:block;box-shadow:var(--shadow-md);" />
+  </div></section>
+
+  <section class="section"><div class="container"><div class="art-layout">
+    <article class="art-body">
+
+      <h2>Los inflables favoritos de las niñas en CDMX</h2>
+      <p>
+        Después de cientos de eventos infantiles en la <strong>Ciudad de México y zona metropolitana</strong>, en BRINCOLINS tenemos muy claro cuáles son los inflables que las niñas más piden. La tendencia es consistente: los modelos con temática de princesas, castillos y colores como rosa, blanco y lila son los que generan más emoción entre las pequeñas.
+      </p>
+      <p>
+        Nuestro catálogo incluye tres modelos especialmente diseñados que se han convertido en los favoritos para <strong>fiestas de niñas</strong>:
+      </p>
+      <ul class="art-list">
+        <li><strong>Castillo de Princesas:</strong> El rey indiscutible. Rosa vibrante con torres imponentes, ideal para fiestas temáticas de princesas y cumpleaños de niñas de 3 a 10 años.</li>
+        <li><strong>Castillo Blanco:</strong> Elegancia pura. Perfecto para bautizos, primeras comuniones, fiestas de estilo clásico y eventos donde se busca un look sofisticado.</li>
+        <li><strong>Mini Castillo:</strong> El consentido de las más chiquitas. Compacto, seguro y colorido, diseñado especialmente para bebés y niñas de 1 a 5 años.</li>
+      </ul>
+      <p>
+        Cada modelo tiene su personalidad y su público ideal. A continuación te explicamos en detalle las diferencias para que puedas elegir con confianza el que mejor se adapte a la fiesta de tu hija.
+      </p>
+
+      <div class="art-tip">
+        <span class="art-tip__icon" aria-hidden="true">💖</span>
+        <p><strong>Dato curioso:</strong> El 65% de nuestras rentas para fiestas de niñas son del castillo de princesas. Sin embargo, el castillo blanco ha crecido mucho en popularidad para eventos más formales como bautizos y primeras comuniones.</p>
+      </div>
+
+      <h2>Castillo de Princesas vs Castillo Blanco</h2>
+      <p>
+        La pregunta más frecuente que recibimos es: "¿cuál es la diferencia entre el <strong>castillo de princesas</strong> y el <strong>castillo blanco</strong>?" Aunque ambos son castillos inflables, están pensados para ocasiones y gustos muy diferentes.
+      </p>
+
+      <h3>Castillo de Princesas</h3>
+      <p>
+        El <strong>castillo de princesas</strong> es una explosión de color rosa. Está diseñado para fiestas donde la fantasía y la diversión son las protagonistas. Sus torres altas, su color vibrante y su amplio espacio de brinco lo hacen ideal para cumpleaños temáticos de princesas, fiestas en jardines y celebraciones informales donde las niñas quieren sentirse como realeza.
+      </p>
+      <ul class="art-list">
+        <li><strong>Mejor para:</strong> Cumpleaños, fiestas temáticas de princesas, eventos al aire libre</li>
+        <li><strong>Color dominante:</strong> Rosa vibrante con detalles decorativos</li>
+        <li><strong>Edad ideal:</strong> 3 a 10 años</li>
+        <li><strong>Ambiente:</strong> Divertido, fantasioso, lleno de energía</li>
+      </ul>
+
+      <h3>Castillo Blanco</h3>
+      <p>
+        El <strong>castillo blanco</strong> es la opción elegante. Su color neutro y su diseño sofisticado lo hacen perfecto para eventos donde se busca una estética más refinada. Es el favorito para bautizos, primeras comuniones, fiestas de estilo garden party y celebraciones donde la decoración es en tonos claros.
+      </p>
+      <ul class="art-list">
+        <li><strong>Mejor para:</strong> Bautizos, primeras comuniones, fiestas elegantes, garden parties</li>
+        <li><strong>Color dominante:</strong> Blanco con detalles sutiles</li>
+        <li><strong>Edad ideal:</strong> 3 a 10 años</li>
+        <li><strong>Ambiente:</strong> Elegante, clásico, sofisticado</li>
+      </ul>
+
+      <div class="art-tip">
+        <span class="art-tip__icon" aria-hidden="true">🤔</span>
+        <p><strong>No sabes cuál elegir?</strong> Envíanos por WhatsApp una foto del espacio y cuéntanos el tipo de evento. Te recomendamos el modelo ideal sin compromiso.</p>
+      </div>
+
+      <h2>Edad y modelo ideal para cada niña</h2>
+      <p>
+        La edad de las invitadas es un factor clave para elegir el <strong>inflable temático</strong> correcto. Cada modelo está optimizado para un rango de edad específico, garantizando la máxima diversión y seguridad.
+      </p>
+
+      <h3>De 1 a 3 años: Mini Castillo</h3>
+      <p>
+        Para las más pequeñas, el <strong>mini castillo</strong> es la opción perfecta. Su tamaño compacto, paredes bajas y superficie extra acolchada están diseñados para que las bebés y niñas pequeñas puedan explorar y dar sus primeros saltos con total seguridad. Cabe en departamentos, patios pequeños y salones reducidos.
+      </p>
+
+      <h3>De 3 a 7 años: Castillo de Princesas o Castillo Blanco</h3>
+      <p>
+        Esta es la edad dorada para disfrutar los inflables temáticos. Las niñas tienen la energía y coordinación para brincar durante horas, y la imaginación para convertir el castillo en su palacio personal. Tanto el <strong>castillo de princesas</strong> como el <strong>castillo blanco</strong> son excelentes opciones en este rango.
+      </p>
+
+      <h3>De 7 a 10 años: Cualquier modelo</h3>
+      <p>
+        Las niñas más grandes siguen disfrutando de los inflables, especialmente cuando juegan con amigas. En esta edad, la elección depende más del tipo de fiesta que de la edad. Para cumpleaños divertidos, el castillo de princesas sigue siendo ideal. Para eventos formales, el castillo blanco es perfecto.
+      </p>
+
+      <h2>Temáticas más populares para fiestas de niñas</h2>
+      <p>
+        Nuestros <strong>inflables temáticos</strong> se adaptan a las tendencias de fiestas infantiles que más se piden en <strong>CDMX</strong>. Aquí te compartimos las temáticas que mejor combinan con cada modelo:
+      </p>
+
+      <h3>Con el Castillo de Princesas</h3>
+      <ul class="art-list">
+        <li><strong>Princesas clásicas:</strong> Cenicienta, Bella, Aurora — decoración rosa y dorada con detalles de cuentos de hadas</li>
+        <li><strong>Princesas modernas:</strong> Frozen, Moana, Encanto — mezcla el rosa del castillo con elementos de la película favorita</li>
+        <li><strong>Unicornios:</strong> El rosa del castillo combina perfecto con decoración de unicornios en tonos pastel</li>
+        <li><strong>Hadas y mariposas:</strong> Alas, brillantina y flores complementan el look del castillo</li>
+      </ul>
+
+      <h3>Con el Castillo Blanco</h3>
+      <ul class="art-list">
+        <li><strong>Bautizo clásico:</strong> Blanco con toques dorados o plateados, flores y detalles religiosos</li>
+        <li><strong>Primera comunión:</strong> Elegancia en blanco con arreglos florales y lazos</li>
+        <li><strong>Garden party:</strong> Estilo bohemio con flores naturales, tul y luces cálidas</li>
+        <li><strong>Fiesta de té:</strong> Un tea party inglés con el castillo blanco como fondo</li>
+      </ul>
+
+      <div class="art-tip">
+        <span class="art-tip__icon" aria-hidden="true">🎨</span>
+        <p><strong>Tip de decoración:</strong> El color del inflable define la paleta de tu fiesta. Con el castillo de princesas, usa rosa y dorado. Con el castillo blanco, juega con tonos pastel o metálicos. La coherencia visual hace que todo se vea profesional.</p>
+      </div>
+
+      <h2>Cómo personalizar la experiencia</h2>
+      <p>
+        Aunque nuestros inflables ya son espectaculares por sí solos, hay varias formas de <strong>personalizar la experiencia</strong> y hacer que la fiesta de tu hija sea única e irrepetible.
+      </p>
+      <ul class="art-list">
+        <li><strong>Nombre de la cumpleañera:</strong> Coloca un banner con el nombre de tu hija cerca del inflable para fotos personalizadas</li>
+        <li><strong>Arco de globos:</strong> Un arco en la entrada del inflable le da un toque de evento especial</li>
+        <li><strong>Música temática:</strong> Una bocina con playlist de las canciones favoritas de tu hija ambienta la zona del inflable</li>
+        <li><strong>Disfraces:</strong> Invita a las niñas a llegar disfrazadas de princesas y toma fotos grupales frente al castillo</li>
+        <li><strong>Zona de fotos:</strong> Arma un photobooth al lado del inflable con props de coronas, varitas y capas</li>
+      </ul>
+      <p>
+        Estos detalles no requieren una gran inversión pero multiplican el impacto de la fiesta. Las mamás quedan encantadas cuando ven que todo está pensado y coordinado, y las fotos quedan increíbles para compartir en redes sociales.
+      </p>
+
+      <h2>Reserva y precios de inflables para niñas</h2>
+      <p>
+        En <strong>BRINCOLINS</strong> hacemos que el proceso de renta sea lo más simple posible. Todos nuestros <strong>inflables temáticos para niñas</strong> incluyen transporte, instalación profesional y recolección en toda la <strong>CDMX y zona metropolitana</strong>.
+      </p>
+
+      <h3>Proceso de reserva</h3>
+      <ul class="art-list art-list--ordered">
+        <li><strong>Escríbenos por WhatsApp:</strong> Cuéntanos qué tipo de fiesta planeas, la edad de las niñas y el espacio disponible.</li>
+        <li><strong>Recibe recomendación personalizada:</strong> Te sugerimos el modelo ideal y te enviamos cotización con todo incluido.</li>
+        <li><strong>Aparta con anticipo:</strong> Reserva tu inflable con el 50% de anticipo para asegurar tu fecha.</li>
+        <li><strong>Día de la fiesta:</strong> Nuestro equipo llega puntual, instala todo y al terminar recoge el equipo.</li>
+      </ul>
+
+      <div class="art-tip">
+        <span class="art-tip__icon" aria-hidden="true">⚡</span>
+        <p><strong>Reserva pronto:</strong> Los inflables de princesas son los más solicitados, especialmente los fines de semana. Te recomendamos apartar con al menos 2 semanas de anticipación para garantizar disponibilidad.</p>
+      </div>
+
+    </article>
+    <aside class="art-sidebar">
+      <div class="art-sidebar__box">
+        <h3 class="art-sidebar__title">💖 ¿Buscas el inflable ideal para ella?</h3>
+        <p class="art-sidebar__text">Te ayudamos a elegir el modelo perfecto según la edad, el espacio y el tipo de fiesta. Cotiza gratis.</p>
+        <a href="/contacto/" class="btn btn-primary" style="width:100%;justify-content:center;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Pedir asesoría gratis
+        </a>
+      </div>
+      <div class="art-sidebar__box art-sidebar__box--links">
+        <h3 class="art-sidebar__title">🗂️ Más artículos</h3>
+        <a href="/blog/renta-castillo-princesas-inflable-cdmx/" class="art-sidebar__link">→ Renta castillo de princesas</a>
+        <a href="/blog/fiesta-princesas-ninas-inflable-cdmx/" class="art-sidebar__link">→ Fiesta de princesas con inflable</a>
+        <a href="/blog/como-elegir-inflable-fiesta-infantil/" class="art-sidebar__link">→ Cómo elegir el inflable perfecto</a>
+      </div>
+      <div class="art-sidebar__box art-sidebar__box--cat">
+        <h3 class="art-sidebar__title">🎪 Nuestros inflables</h3>
+        <a href="/inflables/castillo-princesas/" class="art-sidebar__link">→ Castillo Princesas</a>
+        <a href="/inflables/castillo-blanco/" class="art-sidebar__link">→ Castillo Blanco</a>
+        <a href="/inflables/mini-castillo/" class="art-sidebar__link">→ Mini Castillo</a>
+        <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Ver catálogo completo</a>
+      </div>
+    </aside>
+  </div></div></section>
+
+  <section class="section section--alt"><div class="container">
+    <div style="max-width:800px; margin:0 auto;">
+      <h2 class="section-title" style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
+      {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+    </div>
+  </div></section>
+
+
+  <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"author":{"@type":"Organization","name":"BRINCOLINS"},"publisher":{"@type":"Organization","name":"BRINCOLINS","url":"https://brincolins.com"},"mainEntityOfPage":"https://brincolins.com/blog/inflables-tematicos-ninas-cdmx/"})} />
+
+</PageLayout>
+
+<style>
+  .art-hero__back{font-size:.85rem;color:var(--c-primary);font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:.3rem;transition:gap .2s;margin-bottom:.5rem}.art-hero__back:hover{gap:.6rem}.art-hero__meta{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-size:.85rem;color:var(--c-text-muted);margin-bottom:.5rem}.art-hero__sep{opacity:.4}.art-layout{display:grid;grid-template-columns:1fr 320px;gap:3rem;align-items:start}.art-body{min-width:0}.art-body h2{font-family:var(--font-head);font-weight:800;font-size:clamp(1.25rem,2.5vw,1.5rem);color:var(--c-text);margin:2.5rem 0 1rem;padding-top:.5rem;border-top:3px solid var(--c-primary)}.art-body h2:first-child{margin-top:0}.art-body p{font-size:1rem;line-height:1.75;color:var(--c-text);margin:0 0 1.25rem}.art-body strong{color:var(--c-primary);font-weight:700}.art-tip{display:flex;gap:1rem;align-items:flex-start;background:#fff8f5;border-left:4px solid var(--c-primary);border-radius:0 var(--r-card) var(--r-card) 0;padding:1.25rem 1.5rem;margin:1.5rem 0}.art-tip__icon{font-size:1.5rem;flex-shrink:0}.art-tip p{margin:0;font-size:.95rem}.art-list{padding-left:1.5rem;margin:0 0 1.25rem;display:flex;flex-direction:column;gap:.6rem}.art-list li{font-size:1rem;line-height:1.6;color:var(--c-text);list-style:disc}.art-list--ordered li{list-style:decimal}.art-sidebar{display:flex;flex-direction:column;gap:1.5rem;position:sticky;top:90px}.art-sidebar__box{background:var(--c-bg-alt);border:1px solid var(--c-border);border-radius:var(--r-card);padding:1.5rem;display:flex;flex-direction:column;gap:.75rem}.art-sidebar__box--links,.art-sidebar__box--cat{gap:.5rem}.art-sidebar__title{font-family:var(--font-head);font-weight:800;font-size:1rem;color:var(--c-text);margin:0}.art-sidebar__text{font-size:.9rem;color:var(--c-text-muted);line-height:1.6;margin:0}.art-sidebar__link{font-size:.88rem;color:var(--c-primary);font-weight:600;text-decoration:none;padding:.35rem 0;display:block;border-bottom:1px solid var(--c-border);transition:padding-left .2s}.art-sidebar__link:last-child{border-bottom:none}.art-sidebar__link:hover{padding-left:.4rem}.art-sidebar__link--cta{color:var(--c-secondary);font-weight:800}@media(max-width:960px){.art-layout{grid-template-columns:1fr}.art-sidebar{position:static}}
+</style>

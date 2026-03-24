@@ -1,0 +1,186 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Renta de Inflables para Fiestas en CDMX | BRINCOLINS CDMX";
+const description = "Renta de inflables para fiestas infantiles en CDMX. Incluye entrega, instalación, motor, limpieza, seguro y recolección. Cotiza hoy por WhatsApp.";
+
+const faqs = [
+  { question: "¿Qué incluye la renta de un inflable?", answer: "Cada renta incluye entrega a domicilio, instalación profesional, motor de inflado continuo, limpieza y sanitización previa, seguro contra accidentes y recolección al finalizar tu evento. No hay costos ocultos." },
+  { question: "¿Cuánto cuesta rentar un inflable en CDMX?", answer: "Nuestros precios van desde $1,200 MXN para inflables básicos hasta $3,500 MXN para inflables extremos y acuáticos. El precio final depende del modelo, tamaño y duración del evento. Contáctanos por WhatsApp para una cotización personalizada." },
+  { question: "¿Cuál es el área de cobertura para la entrega?", answer: "Cubrimos toda la Ciudad de México y zona metropolitana, incluyendo Naucalpan, Tlalnepantla, Ecatepec, Coacalco, Nezahualcóyotl y Huixquilucan. Para zonas alejadas puede aplicar un cargo adicional por traslado." },
+  { question: "¿Con cuánta anticipación debo reservar?", answer: "Recomendamos reservar con al menos 5 días de anticipación, especialmente en temporada alta (abril-junio y noviembre-diciembre). Para fines de semana, te sugerimos apartar con 2 semanas de anticipación para garantizar disponibilidad del modelo que deseas." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Servicios", href: "/servicios" },
+    { name: "Renta de Inflables" },
+  ]}
+  faqItems={faqs}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Servicios",href:"/servicios/"},{label:"Renta de Inflables"}]} />
+  </Fragment>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🎈 Servicio principal</span>
+          <h1 class="hero__title">Renta de <span class="highlight">inflables</span> para fiestas en CDMX</h1>
+          <p class="hero__desc">Haz de tu fiesta infantil un evento inolvidable con nuestros inflables profesionales. Servicio completo con entrega, instalación y recolección en toda la Ciudad de México.</p>
+          <div class="hero__ctas">
+            <a href="/contacto/"
+               class="btn btn-primary btn-lg">
+              Solicitar cotización
+            </a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">En BRINCOLINS ofrecemos el servicio más completo de renta de inflables en la Ciudad de México. Cada renta incluye transporte de ida y vuelta, instalación profesional por nuestro equipo capacitado, motor eléctrico de inflado continuo, limpieza y sanitización del inflable antes de cada evento, y seguro de responsabilidad civil para que tu fiesta sea 100% segura.</p>
+          <p class="hero__copy-text">Contamos con más de 15 modelos de inflables para todas las edades: desde mini castillos para los más pequeños hasta inflables extremos para adolescentes y adultos. Nuestro servicio cubre toda la CDMX y zona metropolitana, con horarios flexibles y precios accesibles que se adaptan a cualquier presupuesto familiar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="✅ Beneficios"
+        title="¿Por qué rentar con BRINCOLINS?"
+        subtitle="Todo incluido, sin sorpresas ni costos ocultos."
+        copy1="Nuestro servicio de renta de inflables está diseñado para que tú no te preocupes por nada. Desde el momento en que confirmas tu reservación, nuestro equipo se encarga de cada detalle: coordinamos la hora de entrega, instalamos el inflable en el espacio que nos indiques y verificamos que todo funcione perfectamente antes de retirarnos."
+        copy2="Al finalizar tu evento, regresamos a recoger el inflable sin que tengas que mover un dedo. Además, todos nuestros inflables pasan por un riguroso proceso de limpieza y desinfección después de cada uso, garantizando la higiene y seguridad de los niños en cada fiesta."
+      />
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+            <span class="why-card__img-label">🚚</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Entrega y recolección gratis</h3>
+            <p class="why-card__desc">Llevamos y recogemos el inflable en tu domicilio sin costo adicional en toda la CDMX y zona metropolitana.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #2962FF, #448AFF);">
+            <span class="why-card__img-label">🔧</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación profesional</h3>
+            <p class="why-card__desc">Nuestro equipo capacitado instala y asegura el inflable correctamente, verificando anclajes y motor antes de retirarse.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #69F0AE);">
+            <span class="why-card__img-label">🛡️</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Seguro incluido</h3>
+            <p class="why-card__desc">Todos nuestros inflables cuentan con seguro de responsabilidad civil para proteger a los pequeños durante el evento.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #AA00FF, #D500F9);">
+            <span class="why-card__img-label">🧹</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Limpieza y sanitización</h3>
+            <p class="why-card__desc">Cada inflable se limpia y desinfecta antes de cada evento con productos seguros para niños.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📋 Proceso"
+        title="¿Cómo funciona la renta?"
+        subtitle="4 pasos sencillos para tener tu inflable."
+        copy1="Rentar un inflable con BRINCOLINS es muy fácil. Nuestro proceso está pensado para que ahorres tiempo y te concentres en lo que realmente importa: disfrutar la fiesta con tu familia y amigos."
+        copy2="Desde la cotización hasta la recolección del inflable, te acompañamos en cada paso. Nuestro equipo de atención al cliente está disponible por WhatsApp para resolver cualquier duda que tengas antes, durante y después del evento."
+      />
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+            <span class="why-card__img-label">1</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Elige tu inflable</h3>
+            <p class="why-card__desc">Explora nuestro catálogo y selecciona el inflable ideal para tu fiesta. Tenemos opciones para todas las edades y espacios.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #2962FF, #448AFF);">
+            <span class="why-card__img-label">2</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Cotiza por WhatsApp</h3>
+            <p class="why-card__desc">Envíanos un mensaje con la fecha, dirección y modelo que te interesa. Te respondemos en menos de 30 minutos con tu cotización.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #69F0AE);">
+            <span class="why-card__img-label">3</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Confirma y aparta</h3>
+            <p class="why-card__desc">Aparta tu fecha con un anticipo del 50%. Aceptamos transferencia bancaria, depósito en OXXO y efectivo.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #AA00FF, #D500F9);">
+            <span class="why-card__img-label">4</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Disfruta tu fiesta</h3>
+            <p class="why-card__desc">Llegamos puntualmente, instalamos todo y al terminar recogemos. Tú solo disfruta el evento con tus invitados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes"
+        subtitle="Resolvemos tus dudas sobre la renta de inflables."
+        copy1="Sabemos que organizar una fiesta implica muchas decisiones. Aquí respondemos las preguntas más comunes que recibimos de nuestros clientes para que tengas toda la información antes de reservar."
+        copy2="Si tu pregunta no aparece aquí, no dudes en escribirnos por WhatsApp. Nuestro equipo está listo para ayudarte con cualquier detalle sobre el servicio, disponibilidad de modelos o cobertura en tu zona."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Listo para hacer tu fiesta inolvidable?"
+    subtitle="Cotiza tu inflable hoy y aparta tu fecha antes de que se agote la disponibilidad."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+  />
+
+</PageLayout>

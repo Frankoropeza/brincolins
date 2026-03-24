@@ -1,0 +1,317 @@
+---
+/**
+ * TopBar Component — Origenlab Standard
+ * ─────────────────────────────────────
+ * Configurable via /src/data/topbar.md (frontmatter).
+ * Supports: promo message, phone, WhatsApp, email, schedule, delivery note.
+ * Variants: dark | primary | accent
+ * Responsive: single promo line on mobile, full row on desktop.
+ * Enable/disable from markdown without touching code.
+ */
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import matter from 'gray-matter';
+
+// ── Load config from markdown frontmatter ──
+let config: Record<string, any> = {};
+try {
+  const raw = readFileSync(join(process.cwd(), 'src/data/topbar.md'), 'utf-8');
+  config = matter(raw).data;
+} catch {
+  // If file missing, topbar won't render
+}
+
+// ── Defaults ──
+const enabled   = config.enabled ?? true;
+const promo     = config.promo ?? '';
+const phone     = config.phone ?? '';
+const whatsapp  = config.whatsapp ?? '';
+const waMessage = config.waMessage ?? 'Hola, quiero información.';
+const email     = config.email ?? '';
+const schedule  = config.schedule ?? '';
+const delivery  = config.delivery ?? '';
+const style     = config.style ?? 'dark';
+
+// ── WhatsApp link ──
+const waHref = whatsapp
+  ? `https://wa.me/${whatsapp}?text=${encodeURIComponent(waMessage)}`
+  : '';
+
+// ── Style variant class ──
+const variantClass = `topbar--${style}`;
+---
+
+{enabled && (
+  <div class={`topbar ${variantClass}`} role="banner" aria-label="Información de contacto">
+    <div class="topbar__inner">
+
+      {/* ── Left: keyword/promo ── */}
+      <div class="topbar__left">
+        {promo && (
+          <span class="topbar__promo">{promo}</span>
+        )}
+      </div>
+
+      {/* ── Center: phone + schedule ── */}
+      <div class="topbar__center">
+        {phone && (
+          <a href={`tel:+52${whatsapp || phone.replace(/\s/g, '')}`} class="topbar__item topbar__link">
+            <svg class="topbar__icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+            <span>{phone}</span>
+          </a>
+        )}
+        {phone && schedule && <span class="topbar__sep" aria-hidden="true">|</span>}
+        {schedule && (
+          <span class="topbar__item">
+            <svg class="topbar__icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+            <span>{schedule}</span>
+          </span>
+        )}
+      </div>
+
+      {/* ── Right: delivery + email + WA ── */}
+      <div class="topbar__right">
+        {delivery && (
+          <span class="topbar__item topbar__delivery">
+            <svg class="topbar__icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+            </svg>
+            <span>{delivery}</span>
+          </span>
+        )}
+        {delivery && email && <span class="topbar__sep topbar__sep--hide-tablet" aria-hidden="true">|</span>}
+        {email && (
+          <a href={`mailto:${email}`} class="topbar__item topbar__link topbar__sep--hide-tablet">
+            <svg class="topbar__icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <span>{email}</span>
+          </a>
+        )}
+        {waHref && (
+          <>
+            {email && <span class="topbar__sep topbar__sep--hide-tablet" aria-hidden="true">|</span>}
+            <a href={waHref} target="_blank" rel="noopener noreferrer" class="topbar__item topbar__link topbar__wa">
+              <svg class="topbar__icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              <span>WhatsApp</span>
+            </a>
+          </>
+        )}
+      </div>
+
+    </div>
+  </div>
+)}
+
+<style>
+  .topbar {
+    width: 100%;
+    font-size: 0.8rem;
+    line-height: 1;
+    z-index: 10000;
+  }
+
+  /* ── Variants ── */
+  .topbar--dark {
+    background: #111827;
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .topbar--primary {
+    background: var(--c-primary, #FF3D00);
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .topbar--accent {
+    background: var(--c-accent, #FFD600);
+    color: #1a1a1a;
+  }
+
+  /* ── Inner layout ── */
+  .topbar__inner {
+    max-width: var(--container, 1400px);
+    margin: 0 auto;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: 36px;
+  }
+
+  /* ── Sections ── */
+  .topbar__left {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+  }
+
+  .topbar__right {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+  }
+
+  .topbar__center {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    min-width: 0;
+  }
+
+  /* ── Items ── */
+  .topbar__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    white-space: nowrap;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
+
+  .topbar__icon {
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .topbar__link {
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.2s var(--ease, ease);
+  }
+
+  .topbar__link:hover {
+    opacity: 1;
+  }
+
+  .topbar__sep {
+    opacity: 0.3;
+    font-size: 0.75rem;
+    user-select: none;
+  }
+
+  /* ── Promo badge ── */
+  .topbar__promo {
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    animation: topbar-promo-pulse 3s ease-in-out infinite;
+  }
+
+  @keyframes topbar-promo-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.75; }
+  }
+
+  /* ── WhatsApp highlight ── */
+  .topbar__wa {
+    font-weight: 600;
+    color: #25D366;
+    transition: color 0.2s, opacity 0.2s;
+  }
+
+  .topbar--accent .topbar__wa {
+    color: #128C7E;
+  }
+
+  .topbar__wa:hover {
+    opacity: 0.85;
+  }
+
+  /* ══════════════════════════════════════
+     Responsive
+     ══════════════════════════════════════ */
+
+  /* Tablet: hide delivery + email, keep phone + promo + WA */
+  @media (max-width: 1024px) {
+    .topbar__sep--hide-tablet,
+    .topbar__delivery {
+      display: none;
+    }
+  }
+
+  /* Mobile: show promo + WA only */
+  @media (max-width: 768px) {
+    .topbar__inner {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0.4rem 1rem;
+      min-height: auto;
+      gap: 0.25rem 0.75rem;
+    }
+
+    .topbar__left {
+      width: 100%;
+      justify-content: center;
+      order: -1;
+    }
+
+    .topbar__center {
+      display: none;
+    }
+
+    .topbar__right {
+      display: flex;
+      justify-content: center;
+    }
+
+    .topbar__delivery {
+      display: none;
+    }
+
+    .topbar__right .topbar__sep--hide-tablet,
+    .topbar__right a[href^="mailto"] {
+      display: none;
+    }
+
+    .topbar__promo {
+      font-size: 0.75rem;
+    }
+
+    .topbar__right .topbar__item,
+    .topbar__right .topbar__link {
+      font-size: 0.75rem;
+    }
+
+    .topbar__sep--hide-tablet {
+      display: none;
+    }
+  }
+
+  /* Very small: tighten spacing */
+  @media (max-width: 480px) {
+    .topbar__item {
+      white-space: normal;
+      word-break: break-word;
+      max-width: 100%;
+    }
+    .topbar__promo {
+      white-space: normal;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .topbar__inner {
+      padding: 0.35rem 0.75rem;
+      gap: 0.2rem 0.5rem;
+    }
+
+    .topbar__promo {
+      font-size: 0.7rem;
+    }
+
+    .topbar__right .topbar__item span,
+    .topbar__right .topbar__link span {
+      font-size: 0.7rem;
+    }
+  }
+</style>

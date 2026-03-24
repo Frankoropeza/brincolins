@@ -1,0 +1,188 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Renta Castillo de Princesas Inflable en CDMX | BRINCOLINS";
+const description = "Renta el castillo de princesas inflable más hermoso de CDMX. Rosa, con torres y decoración mágica. Perfecto para fiestas de niñas. Entrega incluida.";
+
+const faqs = [
+  { question: "¿Para qué edades es el castillo de princesas inflable?", answer: "El castillo de princesas está diseñado para niñas y niños de 3 a 10 años. Su tamaño, altura de paredes y diseño interior están pensados para que los pequeños brinquen con total seguridad y se diviertan durante horas." },
+  { question: "¿El castillo de princesas se puede usar en interiores?", answer: "Sí, siempre y cuando el espacio cuente con altura suficiente (mínimo 3.5 metros) y un contacto eléctrico cercano. Se adapta perfectamente a salones de fiestas, patios techados y jardines." },
+  { question: "¿La renta incluye transporte e instalación?", answer: "Sí, la renta del castillo de princesas incluye transporte a cualquier punto de CDMX y zona metropolitana, instalación profesional por nuestro equipo, supervisión de arranque y recolección al terminar tu evento." },
+  { question: "¿Cuántas niñas pueden brincar al mismo tiempo?", answer: "El castillo de princesas tiene capacidad para 8 a 10 niños brincando simultáneamente, dependiendo de sus edades y tamaños. Nuestro equipo te asesora sobre la capacidad ideal según tu evento." },
+];
+---
+
+<PageLayout title={title} description={description} pageType="page"
+  breadcrumbs={[{ name: "Inicio", href: "/" }, { name: "Blog", href: "/blog/" }, { name: "Castillo de Princesas Inflable" }]}>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container"><div class="hero__grid">
+      <div>
+        <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+        <span class="hero__badge">👑 Princesas</span>
+        <h1 class="hero__title">Renta el <span class="highlight">Castillo de Princesas</span> Inflable en CDMX</h1>
+        <div class="art-hero__meta"><span>⏱️ 6 min lectura</span><span class="art-hero__sep">·</span><span>✍️ Equipo BRINCOLINS</span></div>
+        <p class="hero__desc">El castillo rosa con torres y decoración mágica que toda niña sueña. Renta con entrega, instalación y recolección incluida en toda la CDMX y zona metropolitana.</p>
+        <div class="hero__ctas">
+          <a href="/contacto/" class="btn btn-primary btn-lg">Solicitar cotización</a>
+          <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+        </div>
+      </div>
+      <div class="hero__copy">
+        <p class="hero__copy-text">
+          Si tu hija sueña con ser princesa, nada hará su fiesta más especial que un <strong>castillo de princesas inflable</strong> de verdad. En <strong>BRINCOLINS</strong> ofrecemos el modelo más hermoso y solicitado de la <strong>Ciudad de México</strong>: un castillo completamente rosa con torres imponentes, decoración de realeza y espacio de sobra para que las pequeñas brinquen, jueguen y vivan una experiencia mágica.
+        </p>
+        <p class="hero__copy-text">
+          Nuestro <strong>castillo de princesas</strong> es el inflable favorito para <strong>fiestas de niñas en CDMX</strong>, cumpleaños temáticos y celebraciones donde la fantasía es la protagonista. Incluimos transporte, instalación profesional y recolección en toda la zona metropolitana. Descubre por qué cientos de familias ya lo eligieron para hacer realidad la fiesta soñada de sus pequeñas.
+        </p>
+      </div>
+    </div></div>
+  </section>
+
+  <section style="padding:0 0 1rem;"><div class="container">
+    <img src="/img/inflables/castillo-princesas-v3.avif" alt="Castillo de princesas inflable rosa para renta en CDMX — BRINCOLINS" width="1200" height="675" loading="eager" style="width:100%;max-height:480px;object-fit:cover;border-radius:var(--r-card);display:block;box-shadow:var(--shadow-md);" />
+  </div></section>
+
+  <section class="section"><div class="container"><div class="art-layout">
+    <article class="art-body">
+
+      <h2>El castillo de princesas más popular de CDMX</h2>
+      <p>
+        Cuando se trata de <strong>fiestas infantiles para niñas</strong>, el castillo de princesas inflable se ha convertido en el favorito absoluto. No es casualidad: su diseño combina el color rosa que las pequeñas adoran, torres que evocan los cuentos de hadas y una zona de brinco amplia donde la diversión no tiene límites. En <strong>BRINCOLINS</strong>, este modelo es nuestro inflable más solicitado para eventos en la <strong>Ciudad de México y Estado de México</strong>.
+      </p>
+      <p>
+        Lo que distingue a nuestro castillo de princesas de otros en el mercado es la calidad de los materiales, la viveza de los colores y los detalles de decoración que lo hacen lucir como un verdadero palacio de cuento. Las niñas se emocionan desde el momento en que lo ven instalado y no quieren dejar de brincar durante toda la fiesta.
+      </p>
+
+      <div class="art-tip">
+        <span class="art-tip__icon" aria-hidden="true">👑</span>
+        <p><strong>Dato BRINCOLINS:</strong> El castillo de princesas es nuestro inflable con más fotos compartidas en redes sociales. Las mamás aman tomarse fotos con sus hijas frente a las torres rosas.</p>
+      </div>
+
+      <h2>Diseño y características del castillo de princesas</h2>
+      <p>
+        El <strong>castillo de princesas inflable</strong> de BRINCOLINS fue diseñado pensando en cada detalle que hace soñar a las niñas. Su estructura principal es de un rosa vibrante que destaca en cualquier espacio, complementado con torres laterales que le dan ese aspecto majestuoso de palacio real.
+      </p>
+
+      <h3>Elementos que lo hacen único</h3>
+      <ul class="art-list">
+        <li><strong>Color rosa vibrante:</strong> Tonos llamativos que resisten la exposición al sol sin decolorarse</li>
+        <li><strong>Torres decorativas:</strong> Diseño con torres en las esquinas que simulan un castillo real de princesas</li>
+        <li><strong>Zona de brinco amplia:</strong> Espacio interior generoso para que las niñas salten con libertad</li>
+        <li><strong>Paredes de malla:</strong> Permiten la visibilidad desde fuera para que los papás supervisen en todo momento</li>
+        <li><strong>Entrada con rampa:</strong> Acceso seguro y fácil para niñas de todas las edades</li>
+        <li><strong>Material premium:</strong> Lona comercial de alta resistencia, fácil de limpiar y libre de sustancias tóxicas</li>
+      </ul>
+      <p>
+        Cada elemento está pensado para que la experiencia sea segura, divertida y visualmente impactante. El castillo no solo entretiene a las niñas: se convierte en el centro de atención de toda la fiesta y en el fondo perfecto para las fotos del recuerdo.
+      </p>
+
+      <h2>Edades ideales: de 3 a 10 años</h2>
+      <p>
+        El <strong>castillo de princesas</strong> está especialmente diseñado para niñas de <strong>3 a 10 años</strong>. Este rango de edad es perfecto porque las pequeñas ya tienen la coordinación motriz para brincar con seguridad, pero aún están en la etapa donde la fantasía de ser princesas es parte fundamental de su mundo.
+      </p>
+
+      <h3>Por rango de edad</h3>
+      <ul class="art-list">
+        <li><strong>3 a 5 años:</strong> Las más pequeñas disfrutan explorando el interior del castillo, sentándose en la superficie acolchada y dando sus primeros saltos. La altura de las paredes les brinda seguridad total.</li>
+        <li><strong>6 a 8 años:</strong> La edad perfecta para sacarle el máximo provecho. Las niñas brincan con energía, inventan juegos de princesas dentro del castillo y no quieren salirse.</li>
+        <li><strong>9 a 10 años:</strong> Siguen disfrutando del brinco y pueden jugar con las más pequeñas, creando una dinámica de grupo divertida para toda la fiesta.</li>
+      </ul>
+
+      <div class="art-tip">
+        <span class="art-tip__icon" aria-hidden="true">💡</span>
+        <p><strong>Consejo:</strong> Si tu fiesta tiene niñas de edades muy variadas, te recomendamos organizar turnos para que las más pequeñas brinquen por separado. Nuestro equipo te ayuda a coordinar.</p>
+      </div>
+
+      <h2>Cómo crear la fiesta de princesas perfecta</h2>
+      <p>
+        El castillo de princesas inflable es el punto de partida ideal para una <strong>fiesta temática de princesas</strong>. Pero con algunos toques adicionales, puedes transformar tu evento en una experiencia verdaderamente mágica que tus invitadas recordarán por mucho tiempo.
+      </p>
+
+      <h3>Complementos que recomendamos</h3>
+      <ul class="art-list">
+        <li><strong>Decoración rosa y dorada:</strong> Globos, manteles y centros de mesa en tonos que combinen con el castillo</li>
+        <li><strong>Coronas y varitas:</strong> Regala una corona a cada invitada al llegar para que se sienta parte de la realeza</li>
+        <li><strong>Pastel temático:</strong> Un pastel de castillo o con figuras de princesas complementa la experiencia</li>
+        <li><strong>Música de cuentos:</strong> Una playlist con canciones de películas de princesas ambienta perfectamente</li>
+        <li><strong>Estación de maquillaje:</strong> Un rincón donde las niñas puedan pintarse las uñas o usar glitter facial</li>
+      </ul>
+      <p>
+        La combinación del <strong>inflable de princesas</strong> con estos elementos decorativos crea una atmósfera coherente que hace que cada niña se sienta como verdadera realeza. Los papás quedan encantados con el resultado y las fotos son espectaculares.
+      </p>
+
+      <h2>Dimensiones y espacio necesario</h2>
+      <p>
+        Antes de reservar tu <strong>castillo de princesas inflable</strong>, es importante verificar que cuentas con el espacio adecuado. Nuestro modelo tiene dimensiones pensadas para adaptarse a la mayoría de jardines, patios y salones de fiestas en la Ciudad de México.
+      </p>
+
+      <h3>Requisitos de espacio</h3>
+      <ul class="art-list">
+        <li><strong>Superficie plana:</strong> El inflable necesita instalarse sobre una superficie lo más plana posible, ya sea pasto, concreto o piso firme</li>
+        <li><strong>Margen de seguridad:</strong> Recomendamos dejar al menos 1 metro libre alrededor del inflable para circulación segura</li>
+        <li><strong>Altura libre:</strong> Si es un espacio techado, asegúrate de que la altura sea suficiente para las torres del castillo (mínimo 3.5 metros)</li>
+        <li><strong>Contacto eléctrico:</strong> Se necesita una toma de corriente a no más de 15 metros del punto de instalación para conectar el motor inflador</li>
+      </ul>
+
+      <div class="art-tip">
+        <span class="art-tip__icon" aria-hidden="true">📏</span>
+        <p><strong>No estás segura del espacio?</strong> Envíanos una foto de tu patio o jardín por WhatsApp y te decimos si el castillo de princesas cabe perfectamente. Es un servicio gratuito que ofrecemos a todas nuestras clientas.</p>
+      </div>
+
+      <h2>Cómo reservar tu castillo de princesas con BRINCOLINS</h2>
+      <p>
+        Reservar el <strong>castillo de princesas inflable</strong> es rápido y sencillo. En BRINCOLINS nos encargamos de todo para que tú solo te preocupes por disfrutar la fiesta de tu pequeña.
+      </p>
+      <ul class="art-list art-list--ordered">
+        <li><strong>Escríbenos por WhatsApp:</strong> Cuéntanos los detalles de tu evento: lugar, horario y número aproximado de niñas invitadas.</li>
+        <li><strong>Recibe tu cotización:</strong> En menos de 10 minutos te enviamos el precio con todo incluido: transporte, instalación y recolección.</li>
+        <li><strong>Aparta con anticipo:</strong> Reserva tu castillo con el 50% de anticipo por transferencia o depósito.</li>
+        <li><strong>Disfruta tu fiesta:</strong> Nuestro equipo llega puntual, instala el castillo y lo deja listo para la diversión. Al terminar, lo recogemos.</li>
+      </ul>
+      <p>
+        Los fines de semana se llenan rápido, especialmente el castillo de princesas que es nuestro modelo más solicitado. Te recomendamos reservar con al menos <strong>2 semanas de anticipación</strong> para garantizar disponibilidad en la fecha de tu evento.
+      </p>
+
+    </article>
+    <aside class="art-sidebar">
+      <div class="art-sidebar__box">
+        <h3 class="art-sidebar__title">👑 ¿Quieres el castillo de princesas?</h3>
+        <p class="art-sidebar__text">Cotiza en menos de 10 minutos por WhatsApp. Transporte, instalación y recolección incluidos.</p>
+        <a href="/contacto/" class="btn btn-primary" style="width:100%;justify-content:center;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Pedir asesoría gratis
+        </a>
+      </div>
+      <div class="art-sidebar__box art-sidebar__box--links">
+        <h3 class="art-sidebar__title">🗂️ Más artículos</h3>
+        <a href="/blog/fiesta-princesas-ninas-inflable-cdmx/" class="art-sidebar__link">→ Fiesta de princesas con inflable</a>
+        <a href="/blog/inflables-tematicos-ninas-cdmx/" class="art-sidebar__link">→ Inflables temáticos para niñas</a>
+        <a href="/blog/como-elegir-inflable-fiesta-infantil/" class="art-sidebar__link">→ Cómo elegir el inflable perfecto</a>
+      </div>
+      <div class="art-sidebar__box art-sidebar__box--cat">
+        <h3 class="art-sidebar__title">🎪 Nuestros inflables</h3>
+        <a href="/inflables/castillo-princesas/" class="art-sidebar__link">→ Castillo Princesas</a>
+        <a href="/inflables/mini-castillo/" class="art-sidebar__link">→ Mini Castillo</a>
+        <a href="/inflables/castillo-blanco/" class="art-sidebar__link">→ Castillo Blanco</a>
+        <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Ver catálogo completo</a>
+      </div>
+    </aside>
+  </div></div></section>
+
+  <section class="section section--alt"><div class="container">
+    <div style="max-width:800px; margin:0 auto;">
+      <h2 class="section-title" style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
+      {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+    </div>
+  </div></section>
+
+
+  <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"author":{"@type":"Organization","name":"BRINCOLINS"},"publisher":{"@type":"Organization","name":"BRINCOLINS","url":"https://brincolins.com"},"mainEntityOfPage":"https://brincolins.com/blog/renta-castillo-princesas-inflable-cdmx/"})} />
+
+</PageLayout>
+
+<style>
+  .art-hero__back{font-size:.85rem;color:var(--c-primary);font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:.3rem;transition:gap .2s;margin-bottom:.5rem}.art-hero__back:hover{gap:.6rem}.art-hero__meta{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-size:.85rem;color:var(--c-text-muted);margin-bottom:.5rem}.art-hero__sep{opacity:.4}.art-layout{display:grid;grid-template-columns:1fr 320px;gap:3rem;align-items:start}.art-body{min-width:0}.art-body h2{font-family:var(--font-head);font-weight:800;font-size:clamp(1.25rem,2.5vw,1.5rem);color:var(--c-text);margin:2.5rem 0 1rem;padding-top:.5rem;border-top:3px solid var(--c-primary)}.art-body h2:first-child{margin-top:0}.art-body p{font-size:1rem;line-height:1.75;color:var(--c-text);margin:0 0 1.25rem}.art-body strong{color:var(--c-primary);font-weight:700}.art-tip{display:flex;gap:1rem;align-items:flex-start;background:#fff8f5;border-left:4px solid var(--c-primary);border-radius:0 var(--r-card) var(--r-card) 0;padding:1.25rem 1.5rem;margin:1.5rem 0}.art-tip__icon{font-size:1.5rem;flex-shrink:0}.art-tip p{margin:0;font-size:.95rem}.art-list{padding-left:1.5rem;margin:0 0 1.25rem;display:flex;flex-direction:column;gap:.6rem}.art-list li{font-size:1rem;line-height:1.6;color:var(--c-text);list-style:disc}.art-list--ordered li{list-style:decimal}.art-sidebar{display:flex;flex-direction:column;gap:1.5rem;position:sticky;top:90px}.art-sidebar__box{background:var(--c-bg-alt);border:1px solid var(--c-border);border-radius:var(--r-card);padding:1.5rem;display:flex;flex-direction:column;gap:.75rem}.art-sidebar__box--links,.art-sidebar__box--cat{gap:.5rem}.art-sidebar__title{font-family:var(--font-head);font-weight:800;font-size:1rem;color:var(--c-text);margin:0}.art-sidebar__text{font-size:.9rem;color:var(--c-text-muted);line-height:1.6;margin:0}.art-sidebar__link{font-size:.88rem;color:var(--c-primary);font-weight:600;text-decoration:none;padding:.35rem 0;display:block;border-bottom:1px solid var(--c-border);transition:padding-left .2s}.art-sidebar__link:last-child{border-bottom:none}.art-sidebar__link:hover{padding-left:.4rem}.art-sidebar__link--cta{color:var(--c-secondary);font-weight:800}@media(max-width:960px){.art-layout{grid-template-columns:1fr}.art-sidebar{position:static}}
+</style>

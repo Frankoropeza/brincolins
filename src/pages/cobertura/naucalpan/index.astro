@@ -1,0 +1,151 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Renta de Inflables en Naucalpan, Satélite e Interlomas | BRINCOLINS";
+const description = "Renta de brincolines e inflables en Naucalpan, Ciudad Satélite e Interlomas. Entrega incluida, instalación profesional y precios accesibles en Edomex.";
+
+const colonias = [
+  "Ciudad Satélite", "Interlomas", "Lomas Verdes", "Echegaray",
+  "Valle Dorado", "San Mateo", "La Florida", "Las Américas",
+  "Jardines de San Mateo", "Club de Golf Bellavista",
+  "Lomas de Tecamachalco", "Hacienda de Echegaray",
+];
+
+const faqs = [
+  { question: "¿Cuánto cuesta el envío de inflables a Naucalpan?", answer: "La entrega en las principales colonias de Naucalpan (Satélite, Echegaray, Lomas Verdes, Valle Dorado) está incluida en el precio del inflable. No cobramos flete adicional para estas zonas." },
+  { question: "¿Atienden eventos en Interlomas y Lomas de Tecamachalco?", answer: "Sí, Interlomas y Lomas de Tecamachalco están dentro de nuestra zona de cobertura con entrega sin costo. Conocemos los accesos de los principales fraccionamientos y condominios de la zona." },
+  { question: "¿Pueden instalar en salones de eventos de Ciudad Satélite?", answer: "Por supuesto. Hemos trabajado en múltiples salones de eventos de Satélite y alrededores. Coordinamos con el personal del salón para cumplir sus reglamentos de acceso y horarios." },
+  { question: "¿Cuánto tiempo antes debo reservar para un evento en Naucalpan?", answer: "Recomendamos reservar con al menos 1-2 semanas de anticipación, especialmente para fines de semana. En temporada alta (abril-junio y noviembre-diciembre) sugerimos 3-4 semanas de anticipación para garantizar disponibilidad." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Cobertura", href: "/cobertura" },
+    { name: "Naucalpan" },
+  ]}
+  faqItems={faqs}
+>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span class="breadcrumbs__sep">/</span>
+      <a href="/cobertura/">Cobertura</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span>Naucalpan</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">📍 Naucalpan</span>
+          <h1 class="hero__title">Renta de Inflables en <span class="highlight">Naucalpan, Satélite e Interlomas</span></h1>
+          <p class="hero__desc">Llevamos inflables y brincolines a todo Naucalpan de Juárez: Ciudad Satélite, Interlomas, Lomas Verdes, Echegaray y más. Entrega incluida y servicio profesional garantizado.</p>
+          <div class="hero__ctas">
+            <a href="/contacto/"
+               class="btn btn-primary btn-lg">
+              Solicitar cotización
+            </a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">Naucalpan de Juárez es uno de los municipios con mayor demanda de renta de inflables en el Estado de México. Colonias como Ciudad Satélite, Echegaray y Lomas Verdes cuentan con amplios jardines y espacios residenciales perfectos para instalar brincolines de todos los tamaños. Interlomas y Lomas de Tecamachalco, por su parte, tienen fraccionamientos modernos con áreas comunes ideales para eventos.</p>
+          <p class="hero__copy-text">Nuestro equipo de logística tiene rutas optimizadas para llegar a cualquier punto de Naucalpan con puntualidad. Conocemos los accesos de los principales fraccionamientos cerrados, las regulaciones de los condominios y los horarios permitidos de carga y descarga en cada zona. Tu inflable llega a tiempo, se instala profesionalmente y se retira al finalizar el evento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📍 Colonias"
+        title="Colonias que cubrimos en Naucalpan"
+        subtitle="Entrega directa en estas zonas."
+        copy1="Cubrimos las colonias más importantes de Naucalpan de Juárez, desde las zonas residenciales de Satélite y Echegaray hasta los desarrollos modernos de Interlomas. Cada entrega incluye instalación profesional y retiro al finalizar."
+        copy2="Si tu colonia no aparece en la lista pero está dentro del municipio de Naucalpan o zonas aledañas como Huixquilucan o Atizapán, contáctanos. Es muy probable que podamos atenderte sin costo adicional de envío."
+      />
+      <div class="coverage__badges">
+        {colonias.map(z => <span class="coverage__badge">{z}</span>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🚚 Entrega"
+        title="Información de entrega en Naucalpan"
+        subtitle="Todo lo que necesitas saber sobre nuestro servicio."
+        copy1="Naucalpan tiene la ventaja de estar muy bien conectado con la Ciudad de México a través de las autopistas México-Toluca y Chamapa. Esto nos permite garantizar tiempos de entrega competitivos incluso en horas de alta demanda vial."
+        copy2="Para eventos en fraccionamientos cerrados como los de Interlomas o Club de Golf Bellavista, coordinamos previamente el acceso con la caseta de seguridad. Solo necesitamos los datos del residente y el nombre del fraccionamiento para gestionar la entrada de nuestro equipo."
+      />
+      <div class="grid-3" style="max-width:900px; margin:0 auto;">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #2E7D32);">
+            <span class="why-card__img-label">GRATIS</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Entrega sin costo</h3>
+            <p class="why-card__desc">En colonias principales de Naucalpan y Satélite.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #1565C0, #0288D1);">
+            <span class="why-card__img-label">2h</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación rápida</h3>
+            <p class="why-card__desc">Montaje profesional en menos de 2 horas.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+            <span class="why-card__img-label">24/7</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Atención permanente</h3>
+            <p class="why-card__desc">WhatsApp disponible todo el día para resolver dudas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes sobre Naucalpan"
+        subtitle="Dudas comunes sobre entrega de inflables en esta zona."
+        copy1="Naucalpan es uno de los municipios que más atendemos en el Estado de México. A lo largo de los años hemos resuelto todo tipo de situaciones logísticas en la zona, desde instalaciones en roof gardens de Interlomas hasta eventos en parques de Satélite."
+        copy2="Estas son las preguntas más frecuentes que recibimos de clientes en Naucalpan. Si la tuya no aparece aquí, escríbenos por WhatsApp y te respondemos en minutos."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Evento en Naucalpan o Satélite?"
+    subtitle="Cotiza tu inflable con entrega gratuita en todo el municipio de Naucalpan."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+  />
+
+</PageLayout>

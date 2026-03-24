@@ -1,0 +1,207 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Inflables Acuáticos para Verano en CDMX: Guía Completa 2025 | BRINCOLINS";
+const description = "Todo sobre renta de toboganes acuáticos, albercas inflables y parques de agua en CDMX y Estado de México. Precios, temporada y consejos para la fiesta más refrescante.";
+
+const faqs = [
+  { question: "¿En qué meses es mejor rentar inflables acuáticos en CDMX?", answer: "La temporada alta es de marzo a junio, antes de que comiencen las lluvias frecuentes. Septiembre y octubre también son buenos meses. En diciembre-enero hace demasiado frío para que los niños disfruten el agua." },
+  { question: "¿Cuánta agua necesita un tobogán acuático?", answer: "Un tobogán estándar usa unos 200-400 litros durante toda la fiesta, que se circulan continuamente. Necesitas una manguera de jardín conectada a la toma de agua de la casa." },
+  { question: "¿Puedo rentar un inflable acuático para uso en interior?", answer: "No es recomendable. Los inflables acuáticos generan derrames de agua que pueden dañar pisos interiores. Siempre se instalan en exterior (jardín, terraza o patio)." },
+  { question: "¿Qué tan diferente es el precio del acuático vs el normal?", answer: "Los inflables acuáticos cuestan entre 20-40% más que su equivalente seco. El tobogán estándar parte de $1,200 MXN vs $950 del castillo equivalente. La diferencia refleja el equipo adicional (bomba de agua, conexiones)." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog", href: "/blog/" },
+    { name: "Inflables acuáticos para verano CDMX" },
+  ]}
+>
+
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">💧 Acuáticos</span>
+          <h1 class="hero__title">
+            <span class="highlight">Inflables Acuáticos</span> para el Verano en CDMX: Todo lo que Necesitas Saber
+          </h1>
+          <div class="art-hero__meta">
+            <span>⏱️ 6 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>✍️ Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">
+            El calor de la primavera en CDMX y los inflables acuáticos son una combinación perfecta. Aquí te contamos todo sobre toboganes, albercas y parques de agua para que tu fiesta sea la más refrescante del año.
+          </p>
+          <div class="hero__ctas">
+            <a href="/contacto/"
+               class="btn btn-primary btn-lg">Cotizar inflable acuático</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            De marzo a junio, la <strong>Ciudad de México y el Estado de México</strong> viven su temporada más calurosa, y los <strong>inflables acuáticos</strong> se convierten en la atracción más solicitada para fiestas infantiles, kermeses y cumpleaños al aire libre. En <strong>BRINCOLINS</strong> contamos con toboganes acuáticos, albercas inflables y parques de agua que transforman cualquier jardín en una aventura refrescante para niños de 3 a 14 años.
+          </p>
+          <p class="hero__copy-text">
+            En esta guía te explicamos los tipos de <strong>inflables acuáticos disponibles en CDMX</strong>, precios actualizados, qué necesitas tener listo en casa y los mejores meses para rentarlos. Si ya tienes fecha, reserva con anticipación — los fines de semana de temporada alta se agotan rápido. Escríbenos por <strong>WhatsApp</strong> y te confirmamos disponibilidad al instante.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGEN DE PORTADA -->
+  <section style="padding:0 0 1rem;">
+    <div class="container">
+      <img src="/img/blog/blog-inflables-acuaticos-verano-cdmx.avif" alt="Inflables acuáticos para verano en CDMX" width="1200" height="675" loading="eager"
+           style="width:100%;max-height:480px;object-fit:cover;border-radius:var(--r-card);display:block;box-shadow:var(--shadow-md);" />
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="art-layout">
+        <article class="art-body">
+
+          <h2>¿Por qué los inflables acuáticos son los favoritos en primavera?</h2>
+          <p>
+            De marzo a junio, la Ciudad de México y el Estado de México viven su temporada más calurosa. Las tardes alcanzan los 28–32°C con facilidad, y un cumpleaños o kermés en el jardín se convierte en el mejor pretexto para refrescarse. Un tobogán de agua o una alberca inflable transforma cualquier reunión en una aventura.
+          </p>
+          <p>
+            Los inflables acuáticos son los más solicitados en esta temporada, especialmente para edades de 5 a 12 años. La demanda supera al resto del año, así que lo que te vamos a recomendar primero es: <strong>reserva con anticipación</strong>.
+          </p>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">📅</span>
+            <p><strong>Reserva con al menos 2 semanas de anticipación</strong> en temporada alta (abril-mayo). Los fines de semana de estas fechas se agotan rápido.</p>
+          </div>
+
+          <h2>Los inflables acuáticos más populares en CDMX</h2>
+
+          <h2>1. Tobogán acuático estándar — el clásico</h2>
+          <p>
+            El tobogán acuático es el más solicitado. Con una rampa de 4–6 metros de largo, una piscina de aterrizaje y un sistema de recirculación de agua en la parte superior, genera horas de diversión. El agua sube por una manguera y cae suavemente por la rampa para que los niños se deslicen.
+          </p>
+          <ul class="art-list">
+            <li>Dimensiones típicas: 6×4m o 8×4m</li>
+            <li>Ideal para: 5-12 años</li>
+            <li>Capacidad simultánea: 6-10 niños</li>
+            <li>Precio en CDMX: $1,100–$1,400 MXN</li>
+          </ul>
+
+          <h2>2. Alberca inflable grande — para los más pequeños</h2>
+          <p>
+            La alberca inflable es perfecta para niños de 2 a 7 años. No tiene tobogán de altura, lo que la hace más segura para los más chiquitos. Se llena con agua (unos 300-500 litros) y los niños juegan adentro con juguetes.
+          </p>
+          <ul class="art-list">
+            <li>Dimensiones típicas: 3×3m a 5×3m</li>
+            <li>Ideal para: 2-7 años</li>
+            <li>Profundidad del agua: 30-40 cm (segura para niños pequeños)</li>
+            <li>Precio en CDMX: $1,200–$1,500 MXN</li>
+          </ul>
+
+          <h2>3. Parque acuático inflable — la opción premium</h2>
+          <p>
+            El parque acuático combina tobogán, alberca, área de spray y obstáculos en una sola unidad. Es la opción más grande y espectacular — perfecta para eventos con muchos niños (kermeses escolares, posadas con agua, cumpleaños grandes).
+          </p>
+          <ul class="art-list">
+            <li>Dimensiones típicas: 8×6m o más</li>
+            <li>Ideal para: 5-14 años</li>
+            <li>Capacidad simultánea: hasta 15-20 niños</li>
+            <li>Precio en CDMX: $1,800–$2,500 MXN</li>
+          </ul>
+
+          <h2>Lo que necesitas tener listo en casa</h2>
+          <p>
+            A diferencia de los inflables secos, los acuáticos requieren preparación adicional de tu parte:
+          </p>
+          <ul class="art-list">
+            <li><strong>Toma de agua exterior:</strong> Una llave de jardín o un grifo de lavadero accesible desde el jardín.</li>
+            <li><strong>Manguera larga:</strong> Idealmente de 15-20 metros para llegar desde la toma de agua hasta el inflable. Si no tienes, algunos proveedores la rentan.</li>
+            <li><strong>Espacio nivelado:</strong> El terreno debe ser relativamente plano. Un desnivel grande puede hacer que el agua se acumule en un solo lado.</li>
+            <li><strong>Toldo o sombra cercana:</strong> Para que los niños descansen del sol entre sesiones en el agua.</li>
+            <li><strong>Toallas suficientes:</strong> Una por niño mínimo. Suena obvio pero siempre se olvida.</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon" aria-hidden="true">☀️</span>
+            <p><strong>Protector solar:</strong> Aplica protector solar a los niños antes de empezar. El agua en el inflable remueve el bloqueador rápidamente — reaplicar cada 2 horas.</p>
+          </div>
+
+          <h2>¿Qué meses evitar para inflables acuáticos?</h2>
+          <p>
+            En CDMX, el clima dicta la temporada:
+          </p>
+          <ul class="art-list">
+            <li><strong>Noviembre – Febrero:</strong> Demasiado frío. Los niños no disfrutan el agua y pueden enfermarse.</li>
+            <li><strong>Julio – Agosto:</strong> Temporada de lluvias fuerte. El granizo y las tormentas eléctricas hacen el uso exterior riesgoso.</li>
+            <li><strong>Marzo – Junio:</strong> ✅ Temporada perfecta. Caluroso, seco, ideal.</li>
+            <li><strong>Septiembre – Octubre:</strong> ✅ Buena opción en días soleados, pero ten plan B por si llueve.</li>
+          </ul>
+
+          <h2>Consejos para la fiesta acuática perfecta</h2>
+          <ul class="art-list">
+            <li>Avisa a los papás con anticipación para que lleven traje de baño y cambio de ropa</li>
+            <li>Instala el inflable 1-2 horas antes de que lleguen los niños para que el agua esté a temperatura ambiente</li>
+            <li>Ten una zona seca con sillas y sombra para los niños que no quieran mojarse</li>
+            <li>Prepara una lonchera con frutas y agua — el calor deshidrata más de lo que parece</li>
+            <li>Si tienes mascotas, cíerralas en un cuarto — el agua y los niños corriendo las estresa</li>
+          </ul>
+
+          <CtaBanner
+            title="¿Listo para la fiesta más refrescante del año?"
+            desc="Consulta disponibilidad de nuestros toboganes y parques acuáticos para tu fecha. Reserva hoy antes de que se agoten."
+            btnText="Cotizar inflable acuático"
+            btnHref="/contacto/"
+          />
+
+        </article>
+
+        <aside class="art-sidebar">
+          <div class="art-faq">
+            <h3>Preguntas frecuentes</h3>
+            {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+          </div>
+          <div class="art-sidebar__cta">
+            <p>¿Tienes dudas sobre el inflable acuático ideal?</p>
+            <a href="/contacto/" class="btn btn-primary btn-sm">Solicitar cotización</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+</PageLayout>
+
+<style>
+  .art-hero__back { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; margin-bottom: 0.5rem; }
+  .art-hero__back:hover { gap: 0.6rem; }
+  .art-hero__meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--c-text-muted); margin-bottom: 0.5rem; }
+  .art-hero__sep { opacity: 0.4; }
+  .art-layout { display: grid; grid-template-columns: 1fr 300px; gap: 3rem; align-items: start; }
+  @media (max-width: 900px) { .art-layout { grid-template-columns: 1fr; } .art-sidebar { display: none; } }
+  .art-body h2 { font-size: 1.375rem; font-weight: 800; margin: 2.5rem 0 1rem; color: var(--c-text); }
+  .art-body p { font-size: 1rem; line-height: 1.8; color: var(--c-text-muted); margin-bottom: 1.25rem; }
+  .art-list { padding-left: 1.25rem; margin-bottom: 1.25rem; }
+  .art-list li { font-size: 1rem; line-height: 1.7; color: var(--c-text-muted); margin-bottom: 0.5rem; }
+  .art-tip { background: color-mix(in srgb, var(--c-primary) 8%, var(--c-bg)); border-left: 4px solid var(--c-primary); border-radius: 0 8px 8px 0; padding: 1rem 1.25rem; margin: 1.5rem 0; display: flex; gap: 0.75rem; align-items: flex-start; }
+  .art-tip__icon { font-size: 1.25rem; flex-shrink: 0; }
+  .art-tip p { margin: 0; font-size: 0.9375rem; }
+  .art-sidebar { position: sticky; top: 5rem; }
+  .art-faq { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; }
+  .art-faq h3 { font-size: 1rem; font-weight: 700; margin-bottom: 1rem; }
+  .art-sidebar__cta { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: 12px; padding: 1.5rem; text-align: center; }
+  .art-sidebar__cta p { font-size: 0.9375rem; color: var(--c-text-muted); margin-bottom: 1rem; }
+</style>

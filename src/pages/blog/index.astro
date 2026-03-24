@@ -1,0 +1,655 @@
+---
+import PageLayout    from "@/layouts/PageLayout.astro";
+import Breadcrumbs   from "@/components/Breadcrumbs.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner     from "@/components/CtaBanner.astro";
+import BlogCard      from "@/components/BlogCard.astro";
+
+const title       = "Blog de Inflables y Fiestas Infantiles | BRINCOLINS";
+const description = "Consejos, guías e ideas para organizar la mejor fiesta infantil en CDMX y Estado de México. Tips de renta de inflables, seguridad, decoración y más.";
+
+const articulos = [
+  {
+    slug:     "como-elegir-inflable-fiesta-infantil",
+    emoji:    "🎈",
+    category: "Guías",
+    title:    "Cómo elegir el inflable perfecto para tu fiesta infantil",
+    excerpt:  "Tamaño, edad, espacio disponible y presupuesto: todo lo que necesitas considerar para no equivocarte al rentar un brincolín en CDMX o Edomex.",
+    readTime: "5 min",
+    gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)",
+    image:    "/img/inflables/castillo-v3.avif",
+  },
+  {
+    slug:     "ideas-fiesta-infantil-cdmx",
+    emoji:    "🎉",
+    category: "Ideas",
+    title:    "10 ideas para organizar una fiesta infantil épica en CDMX",
+    excerpt:  "Desde la temática hasta el menú y los inflables: ideas prácticas para planear un cumpleaños que los niños recordarán toda la vida.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #7C3AED, #E91E8C)",
+    image:    "/img/inflables/mini-castillo-v3.avif",
+  },
+  {
+    slug:     "consejos-rentar-inflable-primera-vez",
+    emoji:    "💡",
+    category: "Consejos",
+    title:    "Primera vez rentando un inflable: lo que nadie te dice",
+    excerpt:  "Depósito, espacio mínimo, conexión eléctrica, seguro... Todo lo que debes saber antes de contratar un brincolín para no llevarte sorpresas.",
+    readTime: "6 min",
+    gradient: "linear-gradient(135deg, #0288D1, #1565C0)",
+    image:    "/img/inflables/gusanitos-v3.avif",
+  },
+  {
+    slug:     "cuanto-cuesta-rentar-inflable-cdmx",
+    emoji:    "💰",
+    category: "Precios",
+    title:    "¿Cuánto cuesta rentar un inflable en CDMX? Guía de precios 2025",
+    excerpt:  "Desde $650 hasta $2,500 MXN: todo sobre precios de brincolines en CDMX, qué incluye el servicio y cómo evitar costos ocultos.",
+    readTime: "6 min",
+    gradient: "linear-gradient(135deg, #F59E0B, #D97706)",
+    image:    "/img/inflables/mini-jungla-v4.avif",
+  },
+  {
+    slug:     "seguridad-inflables-fiestas-infantiles",
+    emoji:    "🛡️",
+    category: "Seguridad",
+    title:    "Seguridad en inflables: lo que todo papá debe saber",
+    excerpt:  "Cómo revisar un inflable al llegar, reglas básicas de uso y cómo elegir un proveedor seguro en CDMX. Guía completa para papás.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #10B981, #059669)",
+    image:    "/img/inflables/extremo-v3.avif",
+  },
+  {
+    slug:     "inflables-acuaticos-verano-cdmx",
+    emoji:    "💧",
+    category: "Acuáticos",
+    title:    "Inflables acuáticos para el verano en CDMX: guía completa",
+    excerpt:  "Todo sobre toboganes, albercas y parques acuáticos para fiestas en primavera. Precios, temporada y consejos para la fiesta más refrescante del año.",
+    readTime: "6 min",
+    gradient: "linear-gradient(135deg, #0288D1, #0EA5E9)",
+    image:    "/img/inflables/castillo-v4.avif",
+  },
+  {
+    slug:     "inflables-para-adultos-eventos-corporativos",
+    emoji:    "🎯",
+    category: "Eventos",
+    title:    "Inflables para adultos: eventos corporativos y team building",
+    excerpt:  "Descubre cómo los inflables pueden transformar tu evento corporativo en una experiencia memorable de integración y diversión para adultos.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #E65100, #BF360C)",
+    image:    "/img/inflables/extremo-v4.avif",
+  },
+  {
+    slug:     "decoracion-fiesta-infantil-inflable",
+    emoji:    "🎨",
+    category: "Decoración",
+    title:    "Cómo decorar tu fiesta infantil alrededor del inflable",
+    excerpt:  "Tips de decoración, coordinación de colores, mesas temáticas y áreas de fotos para complementar el inflable de tu fiesta.",
+    readTime: "6 min",
+    gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)",
+    image:    "/img/inflables/castillo-princesas-v3.avif",
+  },
+  {
+    slug:     "renta-inflables-bodas-xv-anos",
+    emoji:    "💒",
+    category: "Eventos",
+    title:    "Inflables para bodas y XV años: elegancia y diversión",
+    excerpt:  "Cómo integrar inflables en eventos formales. Castillo Blanco, opciones elegantes y tips para que la diversión no comprometa la estética.",
+    readTime: "6 min",
+    gradient: "linear-gradient(135deg, #7E57C2, #9575CD)",
+    image:    "/img/inflables/castillo-blanco-v4.avif",
+  },
+  {
+    slug:     "paquetes-completos-fiesta-inflable-cdmx",
+    emoji:    "🎁",
+    category: "Paquetes",
+    title:    "Paquetes completos para fiesta con inflable en CDMX",
+    excerpt:  "Guía de paquetes todo incluido: inflable + mobiliario + iluminación. Cuánto cuestan, qué incluyen y cómo ahorrar en tu fiesta.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #00C853, #2E7D32)",
+    image:    "/img/inflables/barco-pirata-v4.avif",
+  },
+  {
+    slug:     "inflable-dragones-rojos-cdmx",
+    emoji:    "🐉",
+    category: "Temáticos",
+    title:    "Renta Inflable Dragones Rojos en CDMX",
+    excerpt:  "El castillo inflable con dragones rojos más impresionante de CDMX. Temática medieval, colores vibrantes y diversión garantizada para niños de 3 a 12 años.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #BF360C, #FF3D00)",
+    image:    "/img/inflables/castillo-v3.avif",
+  },
+  {
+    slug:     "castillo-inflable-cumpleanos-infantil-cdmx",
+    emoji:    "🏰",
+    category: "Ideas",
+    title:    "Castillo Inflable para Cumpleaños Infantil en CDMX",
+    excerpt:  "Cómo hacer del cumpleaños de tu hijo una fiesta épica con un castillo inflable. Guía completa de planificación, edades y modelos disponibles.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #FF6D00, #FF3D00)",
+    image:    "/img/inflables/castillo-v4.avif",
+  },
+  {
+    slug:     "brincolines-cdmx-precios-modelos",
+    emoji:    "💰",
+    category: "Precios",
+    title:    "Brincolines en CDMX: Precios y Modelos 2025",
+    excerpt:  "Guía completa de precios de brincolines en CDMX. Comparativa de 8 modelos, qué incluye cada renta y cómo obtener el mejor valor.",
+    readTime: "8 min",
+    gradient: "linear-gradient(135deg, #F59E0B, #D97706)",
+    image:    "/img/inflables/castillo-v3.avif",
+  },
+  {
+    slug:     "renta-mini-castillo-inflable-bebes-cdmx",
+    emoji:    "👶",
+    category: "Guías",
+    title:    "Renta Mini Castillo Inflable para Bebés en CDMX",
+    excerpt:  "El mini castillo inflable perfecto para bebés y niños pequeños de 1 a 5 años. Seguro, compacto y colorido. Entrega incluida en ZMVM.",
+    readTime: "6 min",
+    gradient: "linear-gradient(135deg, #7C3AED, #E91E8C)",
+    image:    "/img/inflables/mini-castillo-v3.avif",
+  },
+  {
+    slug:     "inflable-pequeno-fiestas-interiores-cdmx",
+    emoji:    "🏠",
+    category: "Consejos",
+    title:    "Inflables Pequeños para Fiestas en Interiores en CDMX",
+    excerpt:  "Los mejores inflables pequeños para fiestas en interiores. Ideales para salones, departamentos y espacios reducidos en CDMX.",
+    readTime: "6 min",
+    gradient: "linear-gradient(135deg, #0288D1, #0EA5E9)",
+    image:    "/img/inflables/mini-castillo-v4.avif",
+  },
+  {
+    slug:     "brincolines-para-ninos-pequenos-cdmx",
+    emoji:    "🧒",
+    category: "Guías",
+    title:    "Brincolines para Niños Pequeños — Guía Completa CDMX",
+    excerpt:  "Guía completa de brincolines para niños pequeños de 1 a 6 años en CDMX. Modelos seguros, supervision y tips para la mejor experiencia.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #10B981, #059669)",
+    image:    "/img/inflables/mini-castillo-v3.avif",
+  },
+  {
+    slug:     "renta-inflable-jungla-cdmx",
+    emoji:    "🌴",
+    category: "Temáticos",
+    title:    "Renta inflable de jungla en CDMX: aventura safari garantizada",
+    excerpt:  "Todo sobre el inflable Mini Jungla: diseño tropical, animales de la selva, edades ideales y cómo combinarlo con una fiesta safari espectacular.",
+    readTime: "8 min",
+    gradient: "linear-gradient(135deg, #2E7D32, #66BB6A)",
+    image:    "/img/inflables/mini-jungla-v3.avif",
+  },
+  {
+    slug:     "fiesta-tematica-safari-inflable-cdmx",
+    emoji:    "🦁",
+    category: "Ideas",
+    title:    "Fiesta temática safari con inflable en CDMX: guía completa",
+    excerpt:  "Cómo organizar una fiesta safari inolvidable: decoración selvática, actividades de explorador, menú tropical y el inflable perfecto.",
+    readTime: "9 min",
+    gradient: "linear-gradient(135deg, #F59E0B, #92400E)",
+    image:    "/img/inflables/mini-jungla-v4.avif",
+  },
+  {
+    slug:     "inflables-tematicos-infantiles-cdmx",
+    emoji:    "🎭",
+    category: "Guías",
+    title:    "Inflables temáticos para fiestas infantiles en CDMX",
+    excerpt:  "Jungla, princesas, piratas o dragones: descubre todos los inflables temáticos disponibles y cómo elegir el perfecto para tu fiesta.",
+    readTime: "9 min",
+    gradient: "linear-gradient(135deg, #7C3AED, #4338CA)",
+    image:    "/img/inflables/mini-jungla-v3.avif",
+  },
+  {
+    slug:     "renta-inflable-gusanitos-cdmx",
+    emoji:    "🐛",
+    category: "Temáticos",
+    title:    "Renta Inflable Gusanitos Tropical en CDMX",
+    excerpt:  "Inflable Gusanitos Tropical: colorido, divertido y seguro para niños de 3 a 10 años. Diseño tropical único con entrega incluida en ZMVM.",
+    readTime: "6 min",
+    gradient: "linear-gradient(135deg, #00C853, #66BB6A)",
+    image:    "/img/inflables/gusanitos-v3.avif",
+  },
+  {
+    slug:     "inflables-coloridos-fiestas-infantiles-cdmx",
+    emoji:    "🌈",
+    category: "Ideas",
+    title:    "Inflables Coloridos para Fiestas Infantiles en CDMX",
+    excerpt:  "Los inflables más coloridos y divertidos para fiestas infantiles. Modelos tropicales, jungla y fantasía que transforman cualquier evento.",
+    readTime: "6 min",
+    gradient: "linear-gradient(135deg, #E91E8C, #F59E0B)",
+    image:    "/img/inflables/gusanitos-v4.avif",
+  },
+  {
+    slug:     "inflables-jardin-exterior-cdmx",
+    emoji:    "🌳",
+    category: "Consejos",
+    title:    "Inflables para Jardín y Exterior en CDMX",
+    excerpt:  "Todo sobre inflables para jardín y exteriores en CDMX. Consejos de instalación, terreno, clima y los mejores modelos para tu evento al aire libre.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #2E7D32, #4CAF50)",
+    image:    "/img/inflables/gusanitos-v3.avif",
+  },
+  {
+    slug:     "renta-castillo-princesas-inflable-cdmx",
+    emoji:    "👑",
+    category: "Temáticos",
+    title:    "Renta Castillo de Princesas Inflable en CDMX",
+    excerpt:  "El castillo de princesas inflable más hermoso de CDMX. Rosa, con torres y decoración mágica. Perfecto para fiestas de niñas de 3 a 10 años.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #E91E8C, #F48FB1)",
+    image:    "/img/inflables/castillo-princesas-v3.avif",
+  },
+  {
+    slug:     "fiesta-princesas-ninas-inflable-cdmx",
+    emoji:    "🏰",
+    category: "Ideas",
+    title:    "Fiesta de Princesas con Inflable para Niñas en CDMX",
+    excerpt:  "Organiza la fiesta de princesas perfecta con inflable. Ideas de decoración, actividades y el castillo rosa ideal para niñas en CDMX.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #7C3AED, #E91E8C)",
+    image:    "/img/inflables/castillo-princesas-v4.avif",
+  },
+  {
+    slug:     "inflables-tematicos-ninas-cdmx",
+    emoji:    "💖",
+    category: "Guías",
+    title:    "Los Mejores Inflables Temáticos para Niñas en CDMX",
+    excerpt:  "Descubre los inflables temáticos más populares para niñas. Princesas, castillos rosas y opciones elegantes con precios y modelos.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #CE93D8, #7C3AED)",
+    image:    "/img/inflables/castillo-princesas-v3.avif",
+  },
+  {
+    slug:     "renta-barco-pirata-inflable-grande-cdmx",
+    emoji:    "🏴‍☠️",
+    category: "Temáticos",
+    title:    "Renta Barco Pirata Inflable Grande en CDMX",
+    excerpt:  "El barco pirata inflable más impresionante de CDMX. Grande, con tobogán integrado y diseño pirata. Entrega e instalación incluida.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #1565C0, #0288D1)",
+    image:    "/img/inflables/barco-pirata-v3.avif",
+  },
+  {
+    slug:     "fiesta-pirata-infantil-tobogan-cdmx",
+    emoji:    "⚓",
+    category: "Ideas",
+    title:    "Fiesta Pirata Infantil con Tobogán Inflable en CDMX",
+    excerpt:  "Organiza la fiesta pirata más épica con tobogán inflable. Ideas de decoración, actividades y el barco pirata perfecto para niños aventureros.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #BF360C, #E65100)",
+    image:    "/img/inflables/barco-pirata-v4.avif",
+  },
+  {
+    slug:     "inflables-grandes-con-tobogan-cdmx",
+    emoji:    "🎢",
+    category: "Guías",
+    title:    "Inflables Grandes con Tobogán para Eventos en CDMX",
+    excerpt:  "Los mejores inflables grandes con tobogán. Barco pirata, pista de obstáculos y más. Perfectos para eventos grandes y fiestas al aire libre.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #E65100, #FF3D00)",
+    image:    "/img/inflables/barco-pirata-v3.avif",
+  },
+  {
+    slug:     "renta-pista-inflable-obstaculos-cdmx",
+    emoji:    "🏁",
+    category: "Obstáculos",
+    title:    "Renta pista inflable de obstáculos en CDMX",
+    excerpt:  "Competencias épicas, adrenalina pura y diversión garantizada. Conoce la pista inflable de obstáculos más emocionante para fiestas y eventos.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #E65100, #FF3D00)",
+    image:    "/img/inflables/extremo-v3.avif",
+  },
+  {
+    slug:     "inflable-extremo-eventos-corporativos-cdmx",
+    emoji:    "🏢",
+    category: "Corporativos",
+    title:    "Inflable Extremo para eventos corporativos en CDMX",
+    excerpt:  "Team building, integraciones y activaciones de marca con pista de obstáculos inflable. Factura CFDI y entrega incluida.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #1565C0, #0288D1)",
+    image:    "/img/inflables/extremo-v4.avif",
+  },
+  {
+    slug:     "inflables-para-adolescentes-jovenes-cdmx",
+    emoji:    "🔥",
+    category: "Adolescentes",
+    title:    "Inflables para adolescentes y jóvenes en CDMX",
+    excerpt:  "Pistas de obstáculos y modelos extremos perfectos para fiestas de 12 a 18 años. Los inflables no son solo para niños pequeños.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #BF360C, #E65100)",
+    image:    "/img/inflables/extremo-v3.avif",
+  },
+  {
+    slug:     "renta-castillo-blanco-inflable-bodas-cdmx",
+    emoji:    "💒",
+    category: "Bodas",
+    title:    "Renta Castillo Blanco Inflable para Bodas en CDMX",
+    excerpt:  "El inflable más elegante para la zona infantil de tu boda. Diseño sofisticado en color blanco que se integra con cualquier decoración nupcial.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #7E57C2, #CE93D8)",
+    image:    "/img/inflables/castillo-blanco-v3.avif",
+  },
+  {
+    slug:     "inflable-elegante-quince-anos-cdmx",
+    emoji:    "🎀",
+    category: "XV Años",
+    title:    "Inflable Elegante para XV Años en CDMX",
+    excerpt:  "Castillo blanco sofisticado que complementa la estética de tu quinceañera. Diversión garantizada para los invitados jóvenes sin romper la elegancia.",
+    readTime: "7 min",
+    gradient: "linear-gradient(135deg, #E91E8C, #F48FB1)",
+    image:    "/img/inflables/castillo-blanco-v4.avif",
+  },
+  {
+    slug:     "inflables-eventos-formales-cdmx",
+    emoji:    "🥂",
+    category: "Eventos",
+    title:    "Inflables para Eventos Formales y Bodas en CDMX",
+    excerpt:  "Guía completa para incluir inflables elegantes en bodas, XV años, bautizos y eventos corporativos sin sacrificar la estética de tu celebración.",
+    readTime: "8 min",
+    gradient: "linear-gradient(135deg, #F59E0B, #78350F)",
+    image:    "/img/inflables/castillo-blanco-v3.avif",
+  },
+];
+
+const [featured, ...resto] = articulos;
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog" },
+  ]}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Blog"}]} />
+  </Fragment>
+
+  <!-- HERO -->
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">📝 Blog BRINCOLINS</span>
+          <h1 class="hero__title">Guías e Ideas para tu <span class="highlight">Fiesta Perfecta</span></h1>
+          <p style="color:var(--c-text-muted);font-size:1.05rem;margin:.75rem 0 1.5rem;line-height:1.7;">
+            Consejos prácticos de expertos con más de 20 años en renta de inflables. Todo lo que necesitas para organizar la mejor fiesta en CDMX y Edomex.
+          </p>
+          <div class="hero__ctas">
+            <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar inflable</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver catálogo</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            En <strong>BRINCOLINS</strong> no solo rentamos inflables — también queremos ayudarte a organizar el evento perfecto. Aquí encontrarás guías detalladas sobre cómo elegir el inflable ideal según la edad de los niños, el espacio disponible y tu presupuesto.
+          </p>
+          <p class="hero__copy-text">
+            También compartimos ideas de decoración, consejos de seguridad y listas de verificación para que la organización de la fiesta sea sin estrés. Nuevo contenido cada mes, siempre enfocado en familias de <strong>CDMX y Estado de México</strong>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARTÍCULO DESTACADO -->
+  <section style="padding:0 0 3rem;">
+    <div class="container">
+      <div class="featured-wrap">
+        <a href={`/blog/${featured.slug}/`} class="featured-thumb">
+          <img src={featured.image} alt={featured.title} width="1200" height="675" loading="eager" />
+          <span class="featured-badge">⭐ Artículo destacado</span>
+          <span class="blog-cat-pill">{featured.category}</span>
+        </a>
+        <div class="featured-body">
+          <div class="featured-meta">
+            <span class="featured-cat-pill">{featured.category}</span>
+            <span>⏱ {featured.readTime} lectura</span>
+          </div>
+          <h2 class="featured-title">
+            <a href={`/blog/${featured.slug}/`}>{featured.title}</a>
+          </h2>
+          <p class="featured-excerpt">{featured.excerpt}</p>
+          <a href={`/blog/${featured.slug}/`} class="btn btn-primary" style="align-self:flex-start">
+            Leer artículo
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left:4px"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA COMPACTO -->
+  <CtaBanner
+    title="¿Ya tienes fecha? Reserva tu inflable ahora"
+    subtitle="Respondemos en minutos por WhatsApp. Entrega e instalación incluida."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="warm"
+    compact={true}
+  />
+
+  <!-- TODOS LOS ARTÍCULOS -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📰 Artículos"
+        title="Últimas publicaciones"
+        subtitle="Todo lo que necesitas saber para rentar inflables y organizar la mejor fiesta."
+        copy1="Nuestro equipo comparte guías detalladas sobre cómo elegir el inflable ideal según la edad de los niños, el espacio disponible y el presupuesto con el que cuentas. Con más de 20 años de experiencia, sabemos lo que funciona."
+        copy2="También publicamos ideas de decoración, consejos de seguridad y listas de verificación para que la organización de tu fiesta sea sin estrés. Nuevo contenido cada mes."
+      />
+      <div class="blog-grid">
+        {resto.map(a => <BlogCard {...a} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORÍAS -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🗂️ Categorías"
+        title="Explora por tema"
+        subtitle="Encuentra exactamente lo que buscas."
+        copy1="Filtra los artículos por categoría para encontrar rápidamente la información que necesitas. Ya sea que vayas a organizar tu primer evento con inflable o seas un maestro de las fiestas infantiles, tenemos contenido para ti."
+        copy2="Todos nuestros artículos son escritos por el equipo de BRINCOLINS con más de 20 años de experiencia en renta de inflables para fiestas en la Zona Metropolitana del Valle de México."
+      />
+      <div class="grid-4">
+        <a href="/blog/como-elegir-inflable-fiesta-infantil/" class="cat-card">
+          <span class="cat-card__emoji" aria-hidden="true">🎈</span>
+          <span class="cat-card__label">Guías</span>
+          <span class="cat-card__count">2 artículos</span>
+        </a>
+        <a href="/blog/ideas-fiesta-infantil-cdmx/" class="cat-card">
+          <span class="cat-card__emoji" aria-hidden="true">🎉</span>
+          <span class="cat-card__label">Ideas</span>
+          <span class="cat-card__count">2 artículos</span>
+        </a>
+        <a href="/blog/inflables-para-adultos-eventos-corporativos/" class="cat-card">
+          <span class="cat-card__emoji" aria-hidden="true">🎯</span>
+          <span class="cat-card__label">Eventos</span>
+          <span class="cat-card__count">3 artículos</span>
+        </a>
+        <a href="/inflables/" class="cat-card cat-card--cta">
+          <span class="cat-card__emoji" aria-hidden="true">🛒</span>
+          <span class="cat-card__label">Ver inflables</span>
+          <span class="cat-card__count">Catálogo completo →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <CtaBanner
+    title="¿Listo para la mejor fiesta de tu vida?"
+    subtitle="Renta tu inflable hoy. Entrega puntual, instalación profesional y seguro incluido."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+  />
+
+</PageLayout>
+
+<style>
+  /* ── Blog grid ── */
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.75rem;
+  }
+
+  /* ── Featured ── */
+  .featured-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    align-items: center;
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+  }
+
+  @media (max-width: 768px) {
+    .featured-wrap { grid-template-columns: 1fr; }
+  }
+
+  .featured-thumb {
+    position: relative;
+    display: block;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    text-decoration: none;
+  }
+
+  .featured-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .featured-badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: var(--c-primary);
+    color: #fff;
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--r-badge);
+  }
+
+  .blog-cat-pill {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    background: rgba(255,255,255,0.95);
+    color: var(--c-primary);
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.2rem 0.6rem;
+    border-radius: var(--r-badge);
+  }
+
+  .featured-body {
+    padding: 2rem 2rem 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .featured-body { padding: 1.5rem; }
+  }
+
+  .featured-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    color: var(--c-text-muted);
+  }
+
+  .featured-title {
+    font-family: var(--font-head);
+    font-weight: 900;
+    font-size: clamp(1.3rem, 2.5vw, 1.75rem);
+    line-height: 1.25;
+    color: var(--c-text);
+    margin: 0;
+  }
+
+  .featured-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .featured-title a:hover { color: var(--c-primary); }
+
+  .featured-excerpt {
+    font-size: 1rem;
+    color: var(--c-text-muted);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* ── Categorías ── */
+  .cat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem 1.5rem;
+    background: var(--c-bg);
+    border: 2px solid var(--c-border);
+    border-radius: var(--r-card);
+    text-decoration: none;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .cat-card:hover {
+    border-color: var(--c-primary);
+    box-shadow: var(--shadow-primary);
+  }
+
+  .cat-card--cta {
+    background: linear-gradient(135deg, #FF3D00, #FF6D00);
+    border-color: transparent;
+  }
+
+  .cat-card--cta .cat-card__label,
+  .cat-card--cta .cat-card__count { color: #fff; }
+
+  .cat-card__emoji { font-size: 2.25rem; line-height: 1; }
+
+  .cat-card__label {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 1rem;
+    color: var(--c-text);
+  }
+
+  .cat-card__count {
+    font-size: 0.8rem;
+    color: var(--c-text-muted);
+  }
+</style>

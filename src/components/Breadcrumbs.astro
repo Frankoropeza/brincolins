@@ -1,0 +1,121 @@
+---
+/**
+ * Breadcrumbs Component — Origenlab Standard
+ * ─────────────────────────────────────────
+ * Migas de pan con Schema BreadcrumbList.
+ * Se posiciona debajo del hdr-stack.
+ */
+interface BreadcrumbItem {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props;
+
+const schemaItems = items.map((item, index) => ({
+  "@type": "ListItem",
+  "position": index + 1,
+  "name": item.label,
+  ...(item.href ? { "item": `https://brincolins.com${item.href}` } : {})
+}));
+
+const breadcrumbSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": schemaItems
+});
+---
+
+<nav class="crumbs" aria-label="Breadcrumb">
+  <div class="crumbs__inner">
+    <ol class="crumbs__list">
+      {items.map((item, index) => (
+        <li class="crumbs__item">
+          {item.href && index < items.length - 1 ? (
+            <a href={item.href} class="crumbs__link">
+              {index === 0 && (
+                <svg class="crumbs__home-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+                </svg>
+              )}
+              {item.label}
+            </a>
+          ) : (
+            <span class="crumbs__current" aria-current="page">{item.label}</span>
+          )}
+        </li>
+      ))}
+    </ol>
+  </div>
+</nav>
+
+<script type="application/ld+json" set:html={breadcrumbSchema} />
+
+<style>
+  .crumbs {
+    background: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    padding: 0.625rem 0;
+  }
+
+  .crumbs__inner {
+    max-width: var(--container, 1400px);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .crumbs__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.825rem;
+  }
+
+  .crumbs__item {
+    display: inline-flex;
+    align-items: center;
+    color: var(--c-text-muted, #6c757d);
+  }
+
+  .crumbs__item:not(:last-child)::after {
+    content: '/';
+    margin-left: 0.35rem;
+    color: #ced4da;
+    font-size: 0.825rem;
+  }
+
+  .crumbs__link {
+    color: var(--c-text-muted, #6c757d);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .crumbs__link:hover {
+    color: var(--c-primary, #FF3D00);
+  }
+
+  .crumbs__current {
+    color: #FF3D00;
+    font-weight: 600;
+  }
+
+  .crumbs__home-icon {
+    display: inline-block;
+    vertical-align: -2px;
+    margin-right: 0.2rem;
+  }
+
+  .crumbs__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+  }
+</style>

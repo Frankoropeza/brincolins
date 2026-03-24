@@ -1,0 +1,450 @@
+---
+import PageLayout   from "@/layouts/PageLayout.astro";
+import ProductCard  from "@/components/ProductCard.astro";
+import BlogCard     from "@/components/BlogCard.astro";
+import FaqSection   from "@/components/FaqSection.astro";
+import CtaBanner      from "@/components/CtaBanner.astro";
+import CtaBar         from "@/components/CtaBar.astro";
+import SectionHeader  from "@/components/SectionHeader.astro";
+
+const title = "Renta de Inflables para Fiestas en CDMX y Edomex | BRINCOLINS";
+const description = "Renta de brincolines e inflables para fiestas infantiles en CDMX y Estado de México. Dragones Rojos, Castillo de Princesas, Barco Pirata y Extremo. Desde $800 MXN con entrega, instalación y seguro incluidos.";
+
+const productos = [
+  { slug: "dragones-rojos", emoji: "🐉", name: "Dragones Rojos", description: "El inflable más rentado en CDMX y Estado de México. Dos dragones gigantes de 3 metros con resbaladilla integrada y mallas de seguridad.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
+  { slug: "castillo-princesas", emoji: "👸", name: "Castillo de Princesas", description: "Castillo inflable rosa y turquesa con dos princesas de 3 metros de altura y resbaladilla incluida. El favorito para fiestas de niñas.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
+  { slug: "mini-jungla", emoji: "🌴", name: "Mini Jungla", description: "Inflable temático de safari con animales decorativos de 2 metros y palmeras tropicales. Ideal para exploradores y fiestas al aire libre.", price: "$1,200", size: "4×4×3m", ages: "3-10 años", category: "Aventura", categoryColor: "jungla", gradient: "#2E7D32, #1B5E20", image: "/img/inflables/mini-jungla.avif" },
+  { slug: "gusanitos", emoji: "🐛", name: "Gusanitos", description: "Inflable tropical con gusanitos decorativos y palmeras. Amplia área de salto con colores vibrantes verde, morado, amarillo y azul.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Tropical", categoryColor: "jungla", gradient: "#558B2F, #827717", image: "/img/inflables/gusanitos.avif" },
+  { slug: "mini-castillo", emoji: "🏰", name: "Mini Castillo", description: "Brincolín compacto diseñado para bebés y niños pequeños. Paredes suaves, fácil supervisión. Perfecto para interiores y espacios reducidos.", price: "$800", size: "2×2×2m", ages: "1-4 años", category: "Chico", categoryColor: "castillo", gradient: "#FF3D00, #ff6d3f", image: "/img/inflables/mini-castillo.avif" },
+  { slug: "barco-pirata", emoji: "🚢", name: "Barco Pirata", description: "Épico barco pirata con velas, mástil de 4 metros y tobogán gigante. Capacidad para 10-15 niños simultáneamente.", price: "$2,500", size: "7×5×4m", ages: "3-12 años", category: "Grande", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
+  { slug: "extremo", emoji: "🏁", name: "Extremo", description: "Circuito de obstáculos de 12 metros con muros para escalar, túneles y tobogán final. Doble carril para carreras simultáneas.", price: "$3,000", size: "12×4×3m", ages: "6+ años", category: "Extremo", categoryColor: "extremo", gradient: "#E65100, #BF360C", image: "/img/inflables/extremo.avif" },
+  { slug: "castillo-blanco", emoji: "🤍", name: "Castillo Blanco", description: "El inflable más elegante para bodas, XV años y eventos formales. Torres decorativas de 3 metros en blanco inmaculado.", price: "$2,800", size: "6×5×4m", ages: "3+ años", category: "Bodas", categoryColor: "bodas", gradient: "#7E57C2, #9575CD", image: "/img/inflables/castillo-blanco.avif" },
+];
+
+const testimonios = [
+  { name: "María González", location: "Coyoacán, CDMX", text: "Excelente servicio. Llegaron puntuales, el inflable estaba impecable y los niños no pararon de brincar. Definitivamente los volveré a contratar." },
+  { name: "Roberto Hernández", location: "Naucalpan, Edomex", text: "Contraté el Barco Pirata para el cumpleaños de mi hijo y fue todo un éxito. Muy profesionales, seguros y a un precio justo. 100% recomendados." },
+  { name: "Ana Laura Martínez", location: "Polanco, CDMX", text: "Ya es la tercera vez que rento con BRINCOLINS. Siempre puntuales, amables y los inflables en perfectas condiciones. Los mejores de CDMX sin duda." },
+  { name: "Carlos Mendoza", location: "Tlalpan, CDMX", text: "Renté el tobogán acuático para la fiesta de verano de mis hijos. Todos los niños del vecindario vinieron a brincar. Servicio de primera." },
+  { name: "Laura Sánchez", location: "Ecatepec, Edomex", text: "Pensé que sería complicado pero todo fue muy fácil. Cotización rápida por WhatsApp, llegaron a tiempo y el inflable estaba súper limpio." },
+  { name: "Fernando Ríos", location: "Benito Juárez, CDMX", text: "Los precios son justos y el servicio increíble. El castillo de princesas hizo muy feliz a mi hija. Ya estoy planeando la siguiente fiesta con ellos." },
+];
+
+const faqs = [
+  { question: "¿Cuáles son los precios de renta de inflables?", answer: "Nuestros precios van desde $800 MXN por evento (Mini Castillo). Los inflables medianos como Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos desde $1,200 MXN. Los grandes como Barco Pirata desde $2,500 MXN y el Extremo desde $3,000 MXN. Todos incluyen entrega, instalación, motor inflador, seguro y recolección." },
+  { question: "¿Qué incluye el servicio de renta?", answer: "Incluye entrega, instalación profesional, motor/soplador, limpieza del inflable, seguro de responsabilidad civil y recolección al finalizar el evento." },
+  { question: "¿Los inflables son seguros para los niños?", answer: "Absolutamente. Todos nuestros inflables cumplen con normas de seguridad, se revisan antes de cada evento y cuentan con seguro de responsabilidad civil." },
+  { question: "¿Para qué edades son los inflables?", answer: "Tenemos inflables para niños de 3 a 14 años. Cada inflable tiene una recomendación de edad específica. Nuestro equipo te ayuda a elegir el más adecuado." },
+  { question: "¿Cuánto tiempo dura la renta?", answer: "La renta estándar es por evento (hasta 8 horas). Si necesitas más tiempo, podemos ajustar el precio. Consulta por paquetes de día completo." },
+  { question: "¿Necesito dejar un depósito?", answer: "Sí, pedimos un anticipo del 50% para reservar la fecha. El resto se paga el día del evento. Aceptamos transferencia, efectivo y tarjeta." },
+  { question: "¿Qué pasa si llueve o necesito cancelar?", answer: "En caso de lluvia, reprogramamos sin costo. Para cancelaciones con más de 48 horas de anticipación, devolvemos el 100% del anticipo." },
+];
+
+const zonasCDMX = ["Coyoacán", "Benito Juárez", "Miguel Hidalgo", "Álvaro Obregón", "Tlalpan", "Cuauhtémoc", "Azcapotzalco", "Iztapalapa", "Xochimilco", "Gustavo A. Madero", "Iztacalco", "Venustiano Carranza", "Cuajimalpa", "Magdalena Contreras", "Tláhuac", "Milpa Alta"];
+const zonasEdomex = ["Naucalpan", "Tlalnepantla", "Ecatepec", "Huixquilucan", "Atizapán", "Cuautitlán Izcalli", "Coacalco", "Metepec", "Toluca", "Texcoco", "Nezahualcóyotl", "Chalco", "Tecámac", "Nicolás Romero", "Tultitlán"];
+
+const categorias = [
+  {
+    name: "Chicos (1-4 años)",
+    badge: "Desde $800",
+    desc: "Brincolines compactos y seguros diseñados para bebés y niños pequeños. Paredes suaves, fácil supervisión y espacio reducido.",
+    href: "/inflables/mini-castillo/",
+    image: "/img/inflables/mini-castillo.avif",
+    alt: "Renta de mini castillo inflable para niños pequeños CDMX",
+  },
+  {
+    name: "Medianos (3-10 años)",
+    badge: "Desde $1,200 — Los más rentados",
+    desc: "Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos. Los favoritos para cumpleaños infantiles en CDMX y Edomex.",
+    href: "/inflables/dragones-rojos/",
+    image: "/img/inflables/dragones-rojos.avif",
+    alt: "Renta de inflables medianos dragones rojos para fiestas infantiles CDMX",
+  },
+  {
+    name: "Grandes (3-14 años)",
+    badge: "Desde $2,500",
+    desc: "Barco Pirata, Extremo y Castillo Blanco. Para kermeses, eventos escolares, bodas y celebraciones que quieren impactar.",
+    href: "/inflables/barco-pirata/",
+    image: "/img/inflables/barco-pirata.avif",
+    alt: "Renta de barco pirata inflable grande para eventos y kermeses CDMX",
+  },
+];
+
+const blogArticulos = [
+  { slug: "como-elegir-inflable-fiesta-infantil", emoji: "🎈", category: "Guías", title: "Cómo elegir el inflable perfecto para tu fiesta infantil", excerpt: "Tamaño, edad, espacio disponible y presupuesto: todo lo que necesitas considerar.", readTime: "5 min", gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)", image: "/img/blog/blog-elegir-inflable-fiesta-infantil-cdmx.avif" },
+  { slug: "cuanto-cuesta-rentar-inflable-cdmx", emoji: "💰", category: "Precios", title: "¿Cuánto cuesta rentar un inflable en CDMX?", excerpt: "Guía de precios 2025: desde $800 hasta $4,500 MXN. Qué incluye y cómo ahorrar.", readTime: "6 min", gradient: "linear-gradient(135deg, #F59E0B, #D97706)", image: "/img/blog/blog-cuanto-cuesta-rentar-inflable-cdmx.avif" },
+  { slug: "seguridad-inflables-fiestas-infantiles", emoji: "🛡️", category: "Seguridad", title: "Seguridad en inflables: lo que todo papá debe saber", excerpt: "Cómo revisar un inflable, reglas de uso y cómo elegir un proveedor seguro.", readTime: "7 min", gradient: "linear-gradient(135deg, #10B981, #059669)", image: "/img/blog/blog-seguridad-inflables-fiestas-infantiles.avif" },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="home"
+  faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
+>
+
+  <!-- HERO — 2 columnas: izquierda CTA + derecha grilla visual 2×2 -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__grid">
+        <!-- Columna izquierda -->
+        <div>
+          <span class="hero__badge">🎉 +20 años de experiencia en CDMX y Edomex</span>
+          <h1 class="hero__title">
+            Renta de <span class="highlight">Inflables</span> y <span class="highlight">Brincolines</span> para Fiestas Infantiles
+          </h1>
+          <p class="hero__desc">
+            Castillos, toboganes, barcos pirata y circuitos de obstáculos para cumpleaños, kermeses y eventos. Entrega, instalación, limpieza y seguro incluidos en toda la Zona Metropolitana.
+          </p>
+          <div class="hero__ctas">
+            <a href="/contacto/" class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver catálogo completo</a>
+          </div>
+        </div>
+
+        <!-- Columna derecha — 2 párrafos marketing SEO -->
+        <div class="hero__copy">
+          <p class="hero__copy-text"><strong>BRINCOLINS</strong> es la empresa líder en renta de inflables para fiestas infantiles en la <strong>Ciudad de México y Estado de México</strong>. Con más de dos décadas de experiencia y más de <strong>500 eventos al año</strong>, ofrecemos inflables para cada tipo de celebración: el <strong>Dragones Rojos</strong> y <strong>Castillo de Princesas</strong> desde <strong>$1,200 MXN</strong>, el épico <strong>Barco Pirata</strong> de 7 metros desde <strong>$2,500 MXN</strong>, y el circuito <strong>Extremo</strong> de 12 metros desde <strong>$3,000 MXN</strong> — todos fabricados con materiales de grado comercial y certificados en seguridad.</p>
+          <p class="hero__copy-text">Cada renta incluye <strong>entrega a domicilio gratuita, instalación profesional, motor inflador silencioso, sanitización certificada, extensión eléctrica y seguro de responsabilidad civil</strong> en las 16 alcaldías de CDMX y los principales municipios del Edomex. Desde fiestas íntimas con nuestro <strong>Mini Castillo para bebés</strong> desde <strong>$800 MXN</strong> hasta bodas elegantes con el <strong>Castillo Blanco</strong> — cotiza sin compromiso por WhatsApp y recibe respuesta en minutos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- CTA BANNER — Llamada a la acción colorida -->
+  <CtaBanner
+    title="Reserva hoy y obtén entrega GRATIS en CDMX y Edomex"
+    subtitle="Respondemos en minutos. +500 fiestas al año con +20 años de experiencia."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+  />
+
+  <!-- CATEGORÍAS DE INFLABLES -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="🗂️ Categorías"
+        title="Categorías de Inflables"
+        subtitle="Encuentra el tipo de inflable ideal para tu evento."
+        copy1="Organizamos nuestro catálogo por categorías para que encuentres el inflable perfecto en segundos. Desde brincolines clásicos para fiestas infantiles hasta circuitos de obstáculos para eventos corporativos, tenemos opciones para cada tipo de celebración en CDMX y Edomex."
+        copy2="Cada categoría incluye inflables de diferentes tamaños y precios. Explora la que más te interese y descubre todas las opciones disponibles con entrega, instalación y seguro incluidos."
+      />
+      <div class="cat-grid">
+        {categorias.map(c => (
+          <a href={c.href} class="cat-card">
+            <div class="cat-card__img-wrap">
+              <img src={c.image} alt={c.alt} width="600" height="338" loading="lazy" class="cat-card__img" />
+              <span class="cat-card__badge">{c.badge}</span>
+            </div>
+            <div class="cat-card__body">
+              <h3 class="cat-card__name">{c.name}</h3>
+              <p class="cat-card__desc">{c.desc}</p>
+              <span class="cat-card__cta">Ver inflables →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CATÁLOGO DE INFLABLES DESTACADOS -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🎈 Destacados"
+        title="Inflables Destacados"
+        subtitle="Elige el inflable perfecto para tu fiesta. Todos incluyen entrega, instalación y seguro."
+        copy1="Contamos con la mayor variedad de brincolines e inflables para renta en CDMX y Estado de México. Desde castillos clásicos hasta toboganes acuáticos y pistas de obstáculos, cada inflable está diseñado para ofrecer horas de diversión segura en fiestas infantiles, cumpleaños, kermeses y eventos escolares."
+        copy2="Todos nuestros inflables pasan por un riguroso proceso de limpieza y mantenimiento antes de cada evento. Fabricados con materiales de grado comercial, certificados en seguridad y con capacidad para múltiples niños simultáneamente. Elige el que más te guste y nosotros nos encargamos del resto."
+      />
+      <div class="grid-4">
+        {productos.map(p => <ProductCard {...p} />)}
+      </div>
+      <div class="text-center mt-3">
+        <a href="/inflables/" class="btn btn-secondary">Ver catálogo completo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ ELEGIRNOS — Íconos SVG reales -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="✅ Confianza"
+        title="¿Por qué elegirnos?"
+        subtitle="Más de dos décadas cuidando la diversión de tus hijos."
+        copy1="Somos la empresa de renta de inflables con más trayectoria en la Zona Metropolitana del Valle de México. Con más de 20 años en el mercado y más de 500 eventos al año, hemos perfeccionado cada detalle del servicio: desde la cotización rápida por WhatsApp hasta la instalación profesional en menos de 2 horas."
+        copy2="Nuestro compromiso va más allá de entregar un inflable. Cada renta incluye seguro de responsabilidad civil, supervisión de seguridad, motor/soplador profesional y un equipo capacitado que garantiza que tu evento sea memorable. Por eso miles de familias en CDMX y Edomex nos eligen una y otra vez."
+      />
+      <div class="why-sc-grid">
+
+        <div class="why-sc">
+          <div class="why-sc__img-wrap">
+            <img src="/img/why/why-20-anos-experiencia-inflables-cdmx.avif" alt="Más de 20 años rentando inflables en CDMX" width="400" height="225" loading="lazy" />
+          </div>
+          <div class="why-sc__body">
+            <h3 class="why-sc__title">+20 años de experiencia</h3>
+            <p class="why-sc__desc">Miles de fiestas exitosas en CDMX y Estado de México nos respaldan.</p>
+          </div>
+        </div>
+
+        <div class="why-sc">
+          <div class="why-sc__img-wrap">
+            <img src="/img/why/why-entrega-instalacion-inflables-cdmx.avif" alt="Entrega e instalación de inflables incluida CDMX" width="400" height="225" loading="lazy" />
+          </div>
+          <div class="why-sc__body">
+            <h3 class="why-sc__title">Entrega e instalación incluida</h3>
+            <p class="why-sc__desc">Llevamos, instalamos y recogemos el inflable sin costo extra.</p>
+          </div>
+        </div>
+
+        <div class="why-sc">
+          <div class="why-sc__img-wrap">
+            <img src="/img/why/why-limpieza-inflables-desinfectados.avif" alt="Inflables limpios y desinfectados para fiestas infantiles" width="400" height="225" loading="lazy" />
+          </div>
+          <div class="why-sc__body">
+            <h3 class="why-sc__title">Limpieza garantizada</h3>
+            <p class="why-sc__desc">Cada inflable se entrega perfectamente limpio y desinfectado.</p>
+          </div>
+        </div>
+
+        <div class="why-sc">
+          <div class="why-sc__img-wrap">
+            <img src="/img/why/why-mejores-precios-inflables-cdmx.avif" alt="Mejores precios en renta de inflables CDMX y Edomex" width="400" height="225" loading="lazy" />
+          </div>
+          <div class="why-sc__body">
+            <h3 class="why-sc__title">Mejores precios</h3>
+            <p class="why-sc__desc">Precios competitivos con la mejor calidad. Sin costos ocultos.</p>
+          </div>
+        </div>
+
+        <div class="why-sc">
+          <div class="why-sc__img-wrap">
+            <img src="/img/why/why-seguro-responsabilidad-civil-inflables.avif" alt="Inflables con seguro de responsabilidad civil incluido" width="400" height="225" loading="lazy" />
+          </div>
+          <div class="why-sc__body">
+            <h3 class="why-sc__title">Seguro incluido</h3>
+            <p class="why-sc__desc">Todos nuestros inflables cuentan con seguro de responsabilidad civil.</p>
+          </div>
+        </div>
+
+        <div class="why-sc">
+          <div class="why-sc__img-wrap">
+            <img src="/img/why/why-atencion-24-horas-whatsapp-inflables.avif" alt="Atención 24 horas por WhatsApp renta de inflables" width="400" height="225" loading="lazy" />
+          </div>
+          <div class="why-sc__body">
+            <h3 class="why-sc__title">Atención 24/7</h3>
+            <p class="why-sc__desc">Disponibles por WhatsApp para resolver cualquier duda al instante.</p>
+          </div>
+        </div>
+
+        <div class="why-sc">
+          <div class="why-sc__img-wrap">
+            <img src="/img/why/why-instalacion-2-horas-inflables-cdmx.avif" alt="Instalación profesional de inflables en 2 horas CDMX" width="400" height="225" loading="lazy" />
+          </div>
+          <div class="why-sc__body">
+            <h3 class="why-sc__title">Instalación en 2 horas</h3>
+            <p class="why-sc__desc">Nuestro equipo profesional instala el inflable rápidamente en tu evento.</p>
+          </div>
+        </div>
+
+        <div class="why-sc">
+          <div class="why-sc__img-wrap">
+            <img src="/img/why/why-cobertura-cdmx-edomex-inflables.avif" alt="Renta de inflables con cobertura en CDMX y Estado de México" width="400" height="225" loading="lazy" />
+          </div>
+          <div class="why-sc__body">
+            <h3 class="why-sc__title">Cobertura total CDMX y Edomex</h3>
+            <p class="why-sc__desc">Cubrimos las 16 alcaldías y principales municipios del Estado de México.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO — 4 pasos simplificados -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="📋 Súper fácil"
+        title="¿Cómo funciona?"
+        subtitle="Rentar un inflable con nosotros es muy sencillo. Solo sigue estos 4 pasos."
+        copy1="Sabemos que organizar una fiesta infantil puede ser estresante. Por eso simplificamos todo el proceso de renta de inflables para que tú solo te preocupes por disfrutar. Desde la primera consulta hasta la recolección del equipo, nuestro equipo se encarga de cada paso con profesionalismo y puntualidad."
+        copy2="El proceso es 100% digital y rápido: cotizas por WhatsApp, confirmas disponibilidad en minutos, apartas tu fecha con un anticipo y listo. El día del evento llegamos a la hora acordada, instalamos en tu domicilio y al terminar recogemos todo sin que tengas que mover un dedo."
+      />
+      <div class="grid-4">
+        <div class="why-sc">
+          <div class="why-sc__img">
+            <img src="/img/proceso/proceso-elige-inflable.avif" alt="Elige tu inflable favorito del catálogo BRINCOLINS" width="400" height="225" loading="lazy" />
+          </div>
+          <div class="why-sc__body">
+            <span class="proceso-num">1</span>
+            <h3 class="why-sc__title">Elige tu inflable</h3>
+            <p class="why-sc__desc">Explora nuestro catálogo y elige el inflable perfecto para tu fiesta.</p>
+          </div>
+        </div>
+        <div class="why-sc">
+          <div class="why-sc__img">
+            <img src="/img/proceso/proceso-cotiza-whatsapp.avif" alt="Cotiza tu inflable por WhatsApp con BRINCOLINS" width="400" height="225" loading="lazy" />
+          </div>
+          <div class="why-sc__body">
+            <span class="proceso-num">2</span>
+            <h3 class="why-sc__title">Cotiza por WhatsApp</h3>
+            <p class="why-sc__desc">Envíanos un mensaje y te respondemos en minutos con precio y disponibilidad.</p>
+          </div>
+        </div>
+        <div class="why-sc">
+          <div class="why-sc__img">
+            <img src="/img/proceso/proceso-aparta-fecha.avif" alt="Aparta tu fecha de fiesta con anticipo BRINCOLINS" width="400" height="225" loading="lazy" />
+          </div>
+          <div class="why-sc__body">
+            <span class="proceso-num">3</span>
+            <h3 class="why-sc__title">Aparta tu fecha</h3>
+            <p class="why-sc__desc">Reserva con un anticipo del 50%. Aceptamos transferencia, efectivo y tarjeta.</p>
+          </div>
+        </div>
+        <div class="why-sc">
+          <div class="why-sc__img">
+            <img src="/img/proceso/proceso-disfruta-fiesta.avif" alt="Disfruta la fiesta con inflables BRINCOLINS" width="400" height="225" loading="lazy" />
+          </div>
+          <div class="why-sc__body">
+            <span class="proceso-num">4</span>
+            <h3 class="why-sc__title">¡Disfrutas la fiesta!</h3>
+            <p class="why-sc__desc">Llegamos, instalamos y los niños brincan. Al terminar, recogemos todo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS — 6 testimonios mejorados -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="⭐ Opiniones"
+        title="Lo que dicen nuestros clientes"
+        subtitle="Mamás y papás felices que ya vivieron la experiencia BRINCOLINS."
+        copy1="La satisfacción de nuestros clientes es nuestra mejor carta de presentación. Cada reseña refleja nuestro compromiso con la puntualidad, la limpieza de los inflables y la atención personalizada que brindamos en cada evento en CDMX y Estado de México."
+        copy2="Más de 200 familias nos han confiado sus fiestas solo este año. Desde cumpleaños íntimos en Coyoacán hasta grandes kermeses en Naucalpan, cada evento recibe el mismo nivel de dedicación y servicio profesional que nos ha ganado la calificación de 5 estrellas."
+      />
+      <div class="grid-3">
+        {testimonios.map((t, i) => {
+          const avatars = [
+            "/img/testimonios/avatar-mujer-1.avif",
+            "/img/testimonios/avatar-hombre-1.avif",
+            "/img/testimonios/avatar-mujer-2.avif",
+            "/img/testimonios/avatar-hombre-2.avif",
+            "/img/testimonios/avatar-mujer-3.avif",
+            "/img/testimonios/avatar-hombre-3.avif",
+          ];
+          return (
+            <div class="testimonial">
+              <span class="testimonial__quote">"</span>
+              <div class="testimonial__header">
+                <img class="testimonial__avatar-img" src={avatars[i]} alt={t.name} width="56" height="56" loading="lazy" />
+                <div class="testimonial__meta">
+                  <p class="testimonial__author">{t.name}</p>
+                  <p class="testimonial__location">{t.location}</p>
+                </div>
+              </div>
+              <div class="testimonial__stars">★★★★★</div>
+              <p class="testimonial__text">"{t.text}"</p>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <!-- COBERTURA CON TABS — CSS puro estilo Inflaty -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📍 Cobertura"
+        title="¿Dónde entregamos?"
+        subtitle="Cubrimos toda la CDMX y principales municipios del Estado de México."
+        copy1="Nuestra flota de transporte cubre las 16 alcaldías de la Ciudad de México y los principales municipios del Estado de México. Ya sea que estés en Polanco, Coyoacán, Naucalpan o Ecatepec, llevamos el inflable hasta la puerta de tu evento sin costo adicional de entrega."
+        copy2="Contamos con rutas optimizadas y un equipo logístico que garantiza puntualidad en cada entrega. Si tu zona no aparece en la lista, contáctanos de todas formas: frecuentemente cubrimos zonas adicionales bajo consulta. La cobertura amplia es parte de nuestro compromiso con las familias de la ZMVM."
+      />
+
+      <div>
+        <input type="radio" name="cobertura-tab" id="tab-cdmx" class="tabs__input" checked />
+        <label for="tab-cdmx" class="tabs__label">Ciudad de México</label>
+
+        <input type="radio" name="cobertura-tab" id="tab-edomex" class="tabs__input" />
+        <label for="tab-edomex" class="tabs__label">Estado de México</label>
+
+        <div class="tabs__panels">
+          <div class="tabs__panel">
+            <div class="coverage__badges">
+              {zonasCDMX.map(z => <span class="coverage__badge">{z}</span>)}
+            </div>
+          </div>
+          <div class="tabs__panel">
+            <div class="coverage__badges">
+              {zonasEdomex.map(z => <span class="coverage__badge">{z}</span>)}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-3">
+        <a href="/cobertura/" class="btn btn-secondary btn-sm">Ver todas las zonas de cobertura</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG — Últimos artículos -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📝 Blog"
+        title="Últimos artículos"
+        subtitle="Guías, consejos e ideas para organizar la fiesta perfecta."
+        copy1="En nuestro blog compartimos todo lo que hemos aprendido en más de 20 años organizando fiestas con inflables en CDMX y Estado de México. Desde cómo elegir el inflable ideal hasta consejos de seguridad y tendencias en decoración."
+        copy2="Nuevo contenido cada mes para ayudarte a planear un evento inolvidable. Ya sea tu primera fiesta con inflable o la número cien, siempre hay algo nuevo que aprender."
+      />
+      <div class="grid-3">
+        {blogArticulos.map(a => <BlogCard {...a} />)}
+      </div>
+      <div class="text-center mt-3">
+        <a href="/blog/" class="btn btn-secondary btn-sm">Ver todos los artículos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ + FORMULARIO COTIZACIÓN — 2 columnas -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="❓ Preguntas frecuentes"
+        title="Resolvemos tus dudas"
+        subtitle="Las preguntas más comunes sobre renta de inflables en CDMX y Edomex."
+        copy1="Sabemos que rentar un inflable por primera vez puede generar muchas preguntas sobre precios, disponibilidad, seguridad y formas de pago. Aquí las respondemos todas."
+        copy2="Si aún tienes dudas, escríbenos por WhatsApp y te respondemos en minutos."
+      />
+    </div>
+    <FaqSection items={faqs} whatsapp="5547868402" />
+  </section>
+
+  <!-- CTA FINAL — Fondo gradiente primary→secondary -->
+  <section class="cta-final">
+    <div class="container">
+      <h2 class="cta-final__title">🎉 ¿Lista la fiesta?</h2>
+      <p class="cta-final__desc">
+        Reserva tu inflable hoy y haz que la diversión de los niños sea inolvidable. Respondemos en minutos.
+      </p>
+      <div class="cta-final__buttons">
+        <a href="/contacto/" class="btn btn-white btn-lg">Solicitar cotización</a>
+        <a href="/inflables/" class="btn btn-outline--white btn-lg">Ver inflables</a>
+      </div>
+    </div>
+  </section>
+
+</PageLayout>

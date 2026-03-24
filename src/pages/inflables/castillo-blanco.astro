@@ -1,0 +1,211 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import Gallery4x4 from "@/components/Gallery4x4.astro";
+import PricingCards from "@/components/PricingCards.astro";
+import CtaBar from "@/components/CtaBar.astro";
+import FaqSection from "@/components/FaqSection.astro";
+
+const title = "Renta de Castillo Blanco Inflable | BRINCOLINS CDMX";
+const description = "Renta el Castillo Blanco inflable premium para bodas, bautizos y XV años en CDMX. Elegante diseño blanco 6×5×4m. Desde $2,800 MXN con entrega incluida.";
+
+const inflable = {
+  slug: "castillo-blanco",
+  emoji: "🤍",
+  name: "Castillo Blanco",
+  price: "$2,800",
+  priceNum: 2800,
+  size: "6×5×4m",
+  ages: "3+ años",
+  capacity: "8-10 personas",
+  installTime: "30 minutos",
+  image: "/img/inflables/castillo-blanco.avif",
+  desc: "El Castillo Blanco es nuestro inflable premium para bodas, bautizos y XV años. Su elegante diseño blanco puro se integra perfectamente con la decoración de eventos formales. Con capacidad para 8-10 personas, es ideal para adultos y niños por igual.",
+};
+
+const galleryImages = [
+  { src: "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-decoracion.avif", alt: "Renta inflable Castillo Blanco en CDMX - bodas decoración" },
+  { src: "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-terraza-cdmx.avif", alt: "Renta inflable Castillo Blanco en CDMX - bodas terraza" },
+  { src: "/img/inflables/castillo-blanco/alquiler-inflable-blanco-bodas-rosas-cdmx.avif", alt: "Renta inflable Castillo Blanco en CDMX - bodas con rosas" },
+  { src: "/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif", alt: "Renta inflable Castillo Blanco en CDMX - ceremonia de boda" },
+  { src: "/img/inflables/castillo-blanco/brincolin-blanco-bodas-decoracion-globos.avif", alt: "Renta inflable Castillo Blanco en CDMX - decoración con globos" },
+];
+
+const pricingPackages = [
+  {
+    name: "Básico",
+    price: "$2,800",
+    priceNote: "+ IVA",
+    description: "Evento de 4 horas",
+    features: [
+      { text: "Inflable Castillo Blanco", included: true },
+      { text: "Motor inflador", included: true },
+      { text: "4 horas de evento", included: true },
+      { text: "Instalación profesional", included: false },
+      { text: "Operadores dedicados", included: false },
+      { text: "Seguro de responsabilidad", included: false },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Estándar",
+    badge: "Más popular",
+    highlight: true,
+    price: "$3,500",
+    priceNote: "+ IVA",
+    description: "Evento de 6 horas",
+    features: [
+      { text: "Inflable Castillo Blanco", included: true },
+      { text: "Motor inflador", included: true },
+      { text: "6 horas de evento", included: true },
+      { text: "Instalación profesional", included: true },
+      { text: "Operador dedicado", included: false },
+      { text: "Seguro de responsabilidad", included: true },
+    ],
+    ctaHref: "/contacto/",
+    ctaLabel: "Cotizar Estándar",
+  },
+  {
+    name: "Premium",
+    price: "$4,500",
+    priceNote: "+ IVA",
+    description: "Evento de 8 horas",
+    features: [
+      { text: "Inflable Castillo Blanco", included: true },
+      { text: "Motor inflador", included: true },
+      { text: "8 horas de evento", included: true },
+      { text: "Instalación profesional", included: true },
+      { text: "2 operadores dedicados", included: true },
+      { text: "Seguro de responsabilidad", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Día Completo",
+    price: "$5,500",
+    priceNote: "+ IVA",
+    description: "12 horas, ideal bodas",
+    features: [
+      { text: "Inflable Castillo Blanco", included: true },
+      { text: "Motor inflador", included: true },
+      { text: "12 horas de evento", included: true },
+      { text: "Instalación profesional", included: true },
+      { text: "2 operadores dedicados", included: true },
+      { text: "Seguro de responsabilidad", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+];
+
+const faqItems = [
+  { question: "¿El Castillo Blanco es apto para bodas?", answer: "Es nuestra opción número uno para bodas. Su diseño blanco puro combina perfectamente con la decoración nupcial, arreglos florales y temáticas elegantes. Muchos de nuestros clientes lo decoran con tules, luces y globos blancos para integrarlo completamente al ambiente de la boda." },
+  { question: "¿Pueden usarlo adultos?", answer: "Sí, el Castillo Blanco tiene capacidad para 8-10 personas y soporta uso por parte de adultos y niños. Su estructura comercial reforzada está diseñada para eventos donde invitados de todas las edades quieren participar en la diversión." },
+  { question: "¿Es adecuado para XV años y bautizos?", answer: "Perfecto para ambos. En quinceañeras, el Castillo Blanco se convierte en un área de diversión elegante que complementa la estética del evento. Para bautizos, su color neutro y tamaño familiar lo hacen ideal para celebraciones íntimas y formales." },
+  { question: "¿Puedo decorar el Castillo Blanco?", answer: "Sí, el Castillo Blanco es un lienzo perfecto para personalizar. Puedes agregar flores, tules, globos, luces LED y letreros. Solo pedimos que la decoración no use tachuelas, grapas o cualquier elemento punzocortante que pueda dañar el material." },
+  { question: "¿Qué espacio necesito para instalar el Castillo Blanco?", answer: "El Castillo Blanco mide 6×5×4 metros. Necesitas un espacio libre de al menos 7×6 metros y una toma de corriente 110V a menos de 15 metros. Se instala en pasto, concreto, loseta o tarimas de madera. La instalación toma 30 minutos." },
+  { question: "¿El color blanco se mantiene limpio?", answer: "Realizamos limpieza profunda y sanitización certificada antes de cada evento. El Castillo Blanco se entrega impecable y reluciente. Durante el evento, el material de PVC comercial es fácil de limpiar y resistente a manchas superficiales." },
+];
+
+const ctaBarItems = [
+  { label: "Cotizar ahora", href: "/contacto/", icon: "cotizar" },
+  { label: "Ver galería", href: "#galeria", icon: "galeria" },
+  { label: "Ver precios", href: "#precios", icon: "precios" },
+  { label: "WhatsApp", href: `https://wa.me/5547868402?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}.`)}`, icon: "whatsapp" },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="product"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables/" },
+    { name: inflable.name },
+  ]}
+  faqItems={faqItems}
+  product={{
+    name: inflable.name,
+    slug: inflable.slug,
+    description: description,
+    image: inflable.image,
+    price: inflable.priceNum,
+  }}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Inflables",href:"/inflables/"},{label:"Castillo Blanco"}]} />
+  </Fragment>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🤍 Premium para bodas y eventos elegantes</span>
+          <h1 class="hero__title">Renta <span class="highlight">Castillo Blanco</span> para tu Fiesta</h1>
+          <div class="hero__specs">
+            <span class="hero__spec">📏 {inflable.size}</span>
+            <span class="hero__spec">👶 {inflable.ages}</span>
+            <span class="hero__spec">👥 {inflable.capacity}</span>
+            <span class="hero__spec">💰 Desde {inflable.price} MXN</span>
+          </div>
+          <div class="hero__ctas">
+            <a href="/contacto/" class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/contacto/" class="btn btn-outline btn-lg">Ver disponibilidad</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">El <strong>Castillo Blanco de BRINCOLINS</strong> es nuestro inflable premium diseñado para <strong>bodas, bautizos, quinceañeras y eventos formales</strong>. Su elegante diseño en blanco puro se integra a la perfección con cualquier decoración nupcial, arreglos florales y temáticas sofisticadas. Con <strong>6 metros de largo, 5 de ancho y 4 de altura</strong>, tiene capacidad para 8-10 personas simultáneamente, incluyendo adultos que quieran unirse a la diversión sin comprometer la estética del evento.</p>
+          <p class="hero__copy-text">A diferencia de los inflables coloridos, el Castillo Blanco funciona como un <strong>lienzo elegante que puedes personalizar con tules, luces LED, globos y flores</strong> para que combine con tu paleta de colores. Cada renta incluye <strong>entrega a domicilio, instalación profesional en 30 minutos, motor inflador y sanitización certificada</strong>. Servicio disponible en las <strong>16 alcaldías de CDMX</strong> y municipios del Estado de México: Huixquilucan, Naucalpan, Atizapán, Interlomas y zonas residenciales.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CtaBar items={ctaBarItems} />
+
+  <section class="section" id="galeria">
+    <div class="container">
+      <SectionHeader badge="📸 Galería" title={`Fotos del ${inflable.name}`} subtitle="Imágenes reales de nuestros eventos" copy1="El Castillo Blanco se ve espectacular en bodas, bautizos y quinceañeras. Estas fotos muestran cómo nuestros clientes lo han integrado en eventos elegantes con decoraciones de flores, globos y tules que complementan el diseño blanco puro." copy2="Cada imagen es de un evento real en CDMX y Estado de México. El Castillo Blanco es el inflable más fotografiado de nuestro catálogo gracias a su apariencia premium que eleva la estética de cualquier celebración." />
+      <Gallery4x4 images={galleryImages} />
+    </div>
+  </section>
+
+  <section class="section section--alt" id="precios">
+    <div class="container">
+      <SectionHeader badge="💰 Paquetes" title={`Precios de Renta — ${inflable.name}`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="El Castillo Blanco es un inflable premium con acabados superiores, pensado para eventos donde la estética importa tanto como la diversión. Nuestros paquetes incluyen sanitización especial para mantener el blanco impecable." copy2="Para bodas y XV años recomendamos el paquete Día Completo de 12 horas, que cubre desde la preparación del evento hasta la despedida. Incluye 2 operadores dedicados que cuidan el inflable y supervisan la seguridad de todos los invitados." />
+      <PricingCards packages={pricingPackages} />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader badge="❓ Preguntas frecuentes" title={`Dudas sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Castillo Blanco es nuestra opción favorita para novias, quinceañeras y organizadores de eventos elegantes. Sabemos que tienes preguntas específicas sobre cómo integrarlo en tu celebración formal." copy2="Si estás planeando una boda o quinceañera y necesitas asesoría personalizada sobre cómo incorporar el Castillo Blanco en tu evento, escríbenos por WhatsApp y te ayudamos con gusto." />
+    </div>
+    <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader badge="🎈 Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y seguro incluidos" copy1="Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana." copy2="Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza y recibe respuesta en minutos." />
+      <div class="grid-4">
+        <ProductCard slug="barco-pirata" emoji="🚢" name="Barco Pirata" description="Aventura pirata con resbaladilla de altura." price="$2,500" size="7×5×4m" ages="3-12 años" category="Aventura" categoryColor="pirata" gradient="#1565C0, #0D47A1" image="/img/inflables/barco-pirata.avif" />
+        <ProductCard slug="extremo" emoji="🏁" name="Extremo" description="Circuito de 12m con obstáculos y tobogán doble." price="$3,000" size="12×4×3m" ages="6+ años" category="Extremo" categoryColor="extremo" gradient="#E65100, #BF360C" image="/img/inflables/extremo.avif" />
+        <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
+        <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más popular con dragones de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Castillo" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title={`¿Te interesa el ${inflable.name}?`}
+    subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    variant="vibrant"
+  />
+
+</PageLayout>

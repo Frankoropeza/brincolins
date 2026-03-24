@@ -1,0 +1,153 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import FaqItem from "@/components/FaqItem.astro";
+
+const title = "Renta de Inflables en Texcoco | BRINCOLINS";
+const description = "Renta de inflables en Texcoco, Edomex. Servicio profesional con entrega programada. Renta de inflables en Texcoco, Estado de México. Entrega en ";
+
+const colonias = [
+  "Texcoco Centro",
+  "San Miguel Coatlinchán",
+  "Atenco",
+  "Chiconcuac",
+  "Tepetlaoxtoc",
+  "Papalotla",
+  "San Andrés de las Peras",
+  "Santa Cruz de Abajo",
+  "Montecillo",
+  "La Purísima",
+  "Tlaminca",
+  "San Bernardino"
+];
+
+const faqs = [
+  { question: "¿Cuánto cuesta el envío a Texcoco?", answer: "En Texcoco el cargo de envío es de $250 a $400 según la colonia. El monto se confirma al momento de cotizar." },
+  { question: "¿Qué inflables son más populares en Texcoco?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos toboganes, combinados con alberca y temáticos para todo tipo de fiestas." },
+  { question: "¿Atienden fines de semana en Texcoco?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos en toda la zona de Texcoco." },
+  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1-2 semanas de anticipación. Para fines de semana y temporadas altas (Semana Santa, verano, diciembre), lo ideal es reservar con 3 semanas de anticipación." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Cobertura", href: "/cobertura/" },
+    { name: "Texcoco" }
+  ]}
+  faqItems={faqs}
+>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a><span class="breadcrumbs__sep">/</span>
+      <a href="/cobertura/">Cobertura</a><span class="breadcrumbs__sep">/</span>
+      <span>Texcoco</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🏛️ Texcoco</span>
+          <h1 class="hero__title">Renta de Inflables en <span class="highlight">Texcoco</span></h1>
+          <p class="hero__desc">Renta de inflables en Texcoco, Estado de México. Entrega en Texcoco Centro, San Miguel Coatlinchán, Atenco, Chiconcuac y todo el municipio. Servicio profesional y puntual.</p>
+          <div class="hero__ctas">
+            <a href="/contacto/"
+               class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">Texcoco de Mora es un municipio histórico del oriente del Estado de México, con zonas universitarias, pueblos tradicionales y colonias residenciales. BRINCOLINS cubre Texcoco con un cargo de envío de $250 a $400. Atendemos Texcoco Centro, San Miguel Coatlinchán, Atenco y todos los municipios de la zona oriente.</p>
+          <p class="hero__copy-text">La carretera Federal 142 y la autopista Texcoco-Peñón nos permiten llegar con puntualidad a la zona. Conocemos los accesos de Texcoco Centro y los pueblos aledaños. Instalación profesional incluida en el precio del inflable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📍 Colonias"
+        title="Colonias con cobertura en Texcoco"
+        subtitle="Entrega directa en estas colonias y zonas."
+        copy1="Cubrimos Texcoco Centro y todos los municipios y colonias de la región oriente del Estado de México. Desde Atenco hasta Tepetlaoxtoc y Chiconcuac."
+        copy2="El cargo de $250-$400 aplica para Texcoco y los municipios cercanos. Para zonas más alejadas del oriente del Edomex, consultamos el costo."
+      />
+      <div class="coverage__badges">
+        {colonias.map(c => <span class="coverage__badge">{c}</span>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🚚 Entrega"
+        title="Servicio de entrega en Texcoco"
+        subtitle="Puntualidad y profesionalismo garantizados."
+        copy1="Para Texcoco usamos la autopista Texcoco-Peñón y la Federal 142. La ruta es directa y nos permite garantizar puntualidad en la entrega."
+        copy2="Los pueblos de la región texcocana tienen espacios amplios para eventos. Si planeas un evento grande en un área comunitaria, contáctanos para recomendarte el inflable adecuado."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#00C853,#2E7D32);">
+            <span class="why-card__img-label">$250–$400</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Costo de envío</h3>
+            <p class="why-card__desc">Cargo de envío de $250 a $400 para Texcoco según la colonia y distancia desde nuestro almacén.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#1565C0,#0288D1);">
+            <span class="why-card__img-label">2h</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación rápida</h3>
+            <p class="why-card__desc">Montaje profesional en menos de 2 horas desde la llegada.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+            <span class="why-card__img-label">24/7</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Atención permanente</h3>
+            <p class="why-card__desc">WhatsApp disponible todo el día para confirmar y resolver dudas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes sobre Texcoco"
+        subtitle="Dudas comunes sobre entrega de inflables en esta zona."
+        copy1="Hemos atendido eventos en Texcoco y conocemos las particularidades del municipio. Aquí respondemos las preguntas más frecuentes de nuestros clientes en la zona."
+        copy2="¿Tienes otra duda? Escríbenos por WhatsApp y te respondemos en minutos con toda la información que necesitas para tu evento."
+      />
+      <div style="max-width:800px;margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Evento en Texcoco?"
+    subtitle="Cotiza tu inflable con entrega en Texcoco Centro, San Miguel Coatlinchán, Atenco y todo el municipio."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+  />
+</PageLayout>

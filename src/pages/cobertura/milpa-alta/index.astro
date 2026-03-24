@@ -1,0 +1,153 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import FaqItem from "@/components/FaqItem.astro";
+
+const title = "Renta de Inflables en Milpa Alta | BRINCOLINS";
+const description = "Renta de inflables en Milpa Alta. Renta de inflables en Milpa Alta CDMX. Entrega a Milpa Alta Centro, San Pedro Atocpan, San Pablo Ozt";
+
+const colonias = [
+  "Milpa Alta Centro",
+  "San Pedro Atocpan",
+  "San Pablo Oztotepec",
+  "Villa Milpa Alta",
+  "San Jerónimo Miacatlán",
+  "San Agustín Ohtenco",
+  "San Antonio Tecómitl",
+  "Santa Ana Tlacotenco",
+  "San Juan Tepenahuac",
+  "San Lorenzo Tlacoyucan",
+  "San Francisco Tecoxpa",
+  "Juchitepec de Mariano Riva Palacio"
+];
+
+const faqs = [
+  { question: "¿Cuánto cuesta el envío a Milpa Alta?", answer: "En Milpa Alta aplicamos un cargo de $200 a $300 de envío debido a la distancia. Este costo se informa claramente antes de confirmar la reserva." },
+  { question: "¿Qué inflables son más populares en Milpa Alta?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos toboganes, combinados con alberca y temáticos para todo tipo de fiestas." },
+  { question: "¿Atienden fines de semana en Milpa Alta?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos en toda la zona de Milpa Alta." },
+  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1-2 semanas de anticipación. Para fines de semana y temporadas altas (Semana Santa, verano, diciembre), lo ideal es reservar con 3 semanas de anticipación." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Cobertura", href: "/cobertura/" },
+    { name: "Milpa Alta" }
+  ]}
+  faqItems={faqs}
+>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a><span class="breadcrumbs__sep">/</span>
+      <a href="/cobertura/">Cobertura</a><span class="breadcrumbs__sep">/</span>
+      <span>Milpa Alta</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🌵 Milpa Alta</span>
+          <h1 class="hero__title">Renta de Inflables en <span class="highlight">Milpa Alta</span></h1>
+          <p class="hero__desc">Renta de inflables en Milpa Alta CDMX. Entrega a Milpa Alta Centro, San Pedro Atocpan, San Pablo Oztotepec y toda la alcaldía. Servicio profesional con cargo de envío accesible.</p>
+          <div class="hero__ctas">
+            <a href="/contacto/"
+               class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">Milpa Alta es la alcaldía más rural y sureña de la CDMX, con amplios espacios al aire libre perfectos para eventos con inflables. Aunque la distancia desde nuestro almacén es mayor, BRINCOLINS llega a toda Milpa Alta con un cargo de envío de $200 a $300 que cubre el traslado adicional. Vale la pena: los espacios de esta alcaldía son ideales para grandes inflables.</p>
+          <p class="hero__copy-text">Los jardines y patios de Milpa Alta son generalmente amplios, lo que permite instalar inflables grandes que en otras zonas no cabrían. Planificamos las rutas con anticipación para llegar puntualmente a San Pedro Atocpan, Villa Milpa Alta y todas las colonias. Instalación profesional incluida en el precio del inflable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📍 Colonias"
+        title="Colonias con cobertura en Milpa Alta"
+        subtitle="Entrega directa en estas colonias y zonas."
+        copy1="Cubrimos todas las localidades y colonias de Milpa Alta. La alcaldía tiene una geografía especial con pueblos bien definidos, cada uno con sus espacios comunitarios."
+        copy2="El cargo de $200-$300 aplica para toda la alcaldía. Te confirmamos el costo exacto al momento de cotizar según tu colonia específica."
+      />
+      <div class="coverage__badges">
+        {colonias.map(c => <span class="coverage__badge">{c}</span>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🚚 Entrega"
+        title="Servicio de entrega en Milpa Alta"
+        subtitle="Puntualidad y profesionalismo garantizados."
+        copy1="Para Milpa Alta salimos con mayor anticipación para garantizar la puntualidad. La ruta por la Calzada México-Xochimilco o el Periférico Sur son nuestros accesos habituales."
+        copy2="Los espacios amplios de Milpa Alta son ideales para instalar inflables de gran tamaño. Si tienes un jardín o área comunitaria grande, tenemos inflables perfectos para aprovechar al máximo el espacio."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#00C853,#2E7D32);">
+            <span class="why-card__img-label">$200–$300</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Costo de envío</h3>
+            <p class="why-card__desc">Para Milpa Alta aplicamos un cargo de envío de $200 a $300 según la colonia, debido a la distancia desde nuestro almacén central.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#1565C0,#0288D1);">
+            <span class="why-card__img-label">2h</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación rápida</h3>
+            <p class="why-card__desc">Montaje profesional en menos de 2 horas desde la llegada.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+            <span class="why-card__img-label">24/7</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Atención permanente</h3>
+            <p class="why-card__desc">WhatsApp disponible todo el día para confirmar y resolver dudas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes sobre Milpa Alta"
+        subtitle="Dudas comunes sobre entrega de inflables en esta zona."
+        copy1="Hemos atendido cientos de eventos en Milpa Alta y conocemos las particularidades de cada colonia. Aquí respondemos las preguntas más frecuentes de nuestros clientes en la zona."
+        copy2="¿Tienes otra duda? Escríbenos por WhatsApp y te respondemos en minutos con toda la información que necesitas para tu evento."
+      />
+      <div style="max-width:800px;margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Evento en Milpa Alta?"
+    subtitle="Cotiza tu inflable con entrega programada en Milpa Alta Centro, San Pedro Atocpan y toda la alcaldía."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+  />
+</PageLayout>

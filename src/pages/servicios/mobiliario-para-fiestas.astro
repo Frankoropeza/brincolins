@@ -1,0 +1,187 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Renta de Mobiliario para Fiestas en CDMX | BRINCOLINS CDMX";
+const description = "Renta de mesas, sillas, manteles y toldos para fiestas y eventos en CDMX. Combina con inflables y ahorra. Entrega a domicilio incluida.";
+
+const faqs = [
+  { question: "¿Qué tipos de sillas y mesas manejan?", answer: "Contamos con sillas plegables tipo jardín en color blanco y negro, mesas rectangulares de 1.80 m para 8 personas y mesas redondas para 10 personas. Todo nuestro mobiliario es resistente, limpio y en excelentes condiciones para tu evento." },
+  { question: "¿Puedo rentar solo mobiliario sin inflable?", answer: "Por supuesto. Ofrecemos la renta de mobiliario de forma independiente. Sin embargo, al combinarlo con un inflable obtienes un descuento especial en el paquete completo. Pregunta por nuestras promociones vigentes." },
+  { question: "¿Los manteles están incluidos en la renta de mesas?", answer: "Los manteles se rentan por separado para que puedas elegir el color y estilo que mejor combine con la temática de tu fiesta. Tenemos manteles lisos en más de 10 colores diferentes. El precio por mantel es desde $50 MXN." },
+  { question: "¿Ofrecen toldos o carpas para eventos al aire libre?", answer: "Sí, contamos con toldos tipo carpa de 3x3 m, 3x6 m y 6x6 m en color blanco. Son ideales para proteger a tus invitados del sol o la lluvia. La instalación y desinstalación está incluida en el precio de renta." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Servicios", href: "/servicios" },
+    { name: "Mobiliario para Fiestas" },
+  ]}
+  faqItems={faqs}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Servicios",href:"/servicios/"},{label:"Mobiliario para Fiestas"}]} />
+  </Fragment>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🪑 Mobiliario</span>
+          <h1 class="hero__title">Renta de <span class="highlight">mobiliario</span> para fiestas</h1>
+          <p class="hero__desc">Mesas, sillas, manteles y toldos para que tu evento luzca impecable. Entrega a domicilio en toda la CDMX con instalación incluida.</p>
+          <div class="hero__ctas">
+            <a href="/contacto/"
+               class="btn btn-primary btn-lg">
+              Solicitar cotización
+            </a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <img src="/img/servicios/mobiliario-fiestas-cdmx.avif" alt="Renta de mobiliario para fiestas en CDMX - mesas, sillas y decoración" width="600" height="338" style="border-radius: var(--r-card); width:100%; height:auto; margin-bottom:1.5rem;" />
+          <p class="hero__copy-text">Complementa tu fiesta con el mobiliario perfecto. En BRINCOLINS no solo rentamos inflables: también te ofrecemos todo lo que necesitas para que tus invitados estén cómodos y tu evento se vea profesional. Desde sillas plegables y mesas resistentes hasta manteles de colores y toldos para exteriores, cubrimos cada necesidad.</p>
+          <p class="hero__copy-text">Lo mejor de todo es que al combinar la renta de mobiliario con un inflable, obtienes precios especiales de paquete. Nos encargamos de entregar, instalar y recoger todo el mobiliario para que tú solo te preocupes por pasarla bien con tu familia y amigos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="✅ Beneficios"
+        title="¿Por qué rentar mobiliario con nosotros?"
+        subtitle="Calidad, variedad y precios justos para tu evento."
+        copy1="Nuestro mobiliario para fiestas se mantiene en condiciones impecables. Cada mesa, silla y mantel pasa por un proceso de revisión y limpieza antes de ser entregado a tu evento. Trabajamos con materiales resistentes que soportan uso intensivo y lucen elegantes en cualquier celebración."
+        copy2="Ofrecemos la mayor variedad de mobiliario para eventos en la zona: sillas plegables, mesas rectangulares y redondas, manteles en más de 10 colores, y toldos de diferentes tamaños. Además, al ser parte del servicio BRINCOLINS, disfrutas de la misma puntualidad y profesionalismo que nos caracteriza en la renta de inflables."
+      />
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+            <span class="why-card__img-label">💰</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Precios combo con inflables</h3>
+            <p class="why-card__desc">Al rentar mobiliario junto con un inflable, obtienes un descuento especial que puede ahorrarte hasta un 20% del costo total.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #2962FF, #448AFF);">
+            <span class="why-card__img-label">✨</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Mobiliario impecable</h3>
+            <p class="why-card__desc">Todas las piezas se limpian y revisan antes de cada evento. Recibes mesas firmes, sillas sin daños y manteles planchados.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #69F0AE);">
+            <span class="why-card__img-label">🎨</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Variedad de colores</h3>
+            <p class="why-card__desc">Manteles disponibles en más de 10 colores para que combines perfectamente con la temática de tu celebración.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #AA00FF, #D500F9);">
+            <span class="why-card__img-label">⛺</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Toldos profesionales</h3>
+            <p class="why-card__desc">Carpas y toldos de diferentes tamaños para proteger tu evento del sol o la lluvia. Instalación incluida en el precio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📋 Proceso"
+        title="¿Cómo rentar mobiliario?"
+        subtitle="Un proceso rápido y sin complicaciones."
+        copy1="Sabemos que organizar un evento requiere coordinar muchos detalles. Por eso, simplificamos al máximo el proceso de renta de mobiliario para que resuelvas esta parte en minutos y puedas concentrarte en lo demás."
+        copy2="Nuestro equipo te asesora sobre las cantidades ideales según el número de invitados, el espacio disponible y el tipo de evento. Así te aseguras de tener el mobiliario justo sin gastar de más ni quedarte corto."
+      />
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+            <span class="why-card__img-label">1</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Cuéntanos tu evento</h3>
+            <p class="why-card__desc">Dinos cuántos invitados esperas, el tipo de evento y si es en interior o exterior. Te recomendamos la cantidad exacta de mobiliario.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #2962FF, #448AFF);">
+            <span class="why-card__img-label">2</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Recibe tu cotización</h3>
+            <p class="why-card__desc">En minutos te enviamos el desglose completo por WhatsApp con precios unitarios y descuentos por volumen o combo con inflable.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #69F0AE);">
+            <span class="why-card__img-label">3</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Confirma tu pedido</h3>
+            <p class="why-card__desc">Aparta tu fecha con un anticipo. Aceptamos transferencia, depósito en OXXO y efectivo. Te enviamos confirmación al instante.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #AA00FF, #D500F9);">
+            <span class="why-card__img-label">4</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Entrega e instalación</h3>
+            <p class="why-card__desc">Llegamos a la hora acordada, acomodamos mesas, sillas y toldos. Al terminar el evento, recogemos todo sin costo extra.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes"
+        subtitle="Todo lo que necesitas saber sobre la renta de mobiliario."
+        copy1="Rentar mobiliario para tu fiesta no tiene por qué ser complicado. Aquí respondemos las dudas más frecuentes de nuestros clientes para que tomes la mejor decisión para tu evento."
+        copy2="Recuerda que puedes combinar la renta de mobiliario con nuestros inflables y servicio de iluminación para obtener un paquete integral con precio preferencial. Escríbenos por WhatsApp para más información."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="Completa tu fiesta con el mobiliario perfecto"
+    subtitle="Mesas, sillas, manteles y toldos con entrega a domicilio. Pregunta por nuestros combos con inflable."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="warm"
+  />
+
+</PageLayout>

@@ -1,0 +1,234 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import Gallery4x4 from "@/components/Gallery4x4.astro";
+import PricingCards from "@/components/PricingCards.astro";
+import CtaBar from "@/components/CtaBar.astro";
+import FaqSection from "@/components/FaqSection.astro";
+
+const title = "Renta de Gusanitos Inflable | BRINCOLINS CDMX";
+const description = "Renta el inflable Gusanitos para fiestas infantiles en CDMX y Edomex. Diseño tropical vibrante con gusanitos decorativos y resbaladilla. Desde $1,200 MXN con entrega incluida.";
+
+const inflable = {
+  slug: "gusanitos",
+  emoji: "🐛",
+  name: "Gusanitos",
+  price: "$1,200",
+  priceNum: "1200",
+  size: "4×4×3m",
+  ages: "4-10 años",
+  capacity: "5-7 niños",
+  installTime: "20 minutos",
+  image: "/img/inflables/gusanitos.avif",
+  desc: "El inflable Gusanitos combina diversión y color con su temática tropical. Con gusanitos decorativos, colores vibrantes y resbaladilla integrada, es perfecto para fiestas infantiles al aire libre.",
+};
+
+const galleryImages = [
+  { src: "/img/inflables/gusanitos/gusanitos-brincolin-evento.avif", alt: "Brincolin Gusanitos instalado en evento infantil" },
+  { src: "/img/inflables/gusanitos/gusanitos-exterior-jardin.avif", alt: "Inflable Gusanitos en jardín exterior para fiesta" },
+  { src: "/img/inflables/gusanitos/gusanitos-inflable-fiesta.avif", alt: "Gusanitos inflable en fiesta infantil con niños jugando" },
+  { src: "/img/inflables/gusanitos/gusanitos-lateral-cdmx.avif", alt: "Vista lateral del inflable Gusanitos en CDMX" },
+  { src: "/img/inflables/gusanitos/gusanitos-renta-cdmx.avif", alt: "Renta de inflable Gusanitos en Ciudad de México" },
+  { src: "/img/inflables/gusanitos/gusanitos-vista-general.avif", alt: "Vista general del inflable Gusanitos con colores vibrantes" },
+];
+
+const pricingPackages = [
+  {
+    name: "Básico",
+    price: "$1,200",
+    priceNote: "+ IVA",
+    description: "Evento de 4 horas",
+    features: [
+      { text: "Inflable Gusanitos 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "4 horas de uso continuo", included: true },
+      { text: "Instalación profesional", included: false },
+      { text: "Operadores dedicados", included: false },
+      { text: "Seguro de responsabilidad civil", included: false },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Estándar",
+    badge: "Más popular",
+    highlight: true,
+    price: "$1,600",
+    priceNote: "+ IVA",
+    description: "Evento de 6 horas",
+    features: [
+      { text: "Inflable Gusanitos 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "6 horas de uso continuo", included: true },
+      { text: "Instalación y retiro incluidos", included: true },
+      { text: "Extensión eléctrica de 15m", included: true },
+      { text: "Seguro de responsabilidad civil", included: true },
+    ],
+    ctaHref: "/contacto/",
+    ctaLabel: "Cotizar Estándar",
+  },
+  {
+    name: "Premium",
+    price: "$2,200",
+    priceNote: "+ IVA",
+    description: "Evento de 8 horas",
+    features: [
+      { text: "Inflable Gusanitos 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "8 horas de uso continuo", included: true },
+      { text: "Instalación y retiro incluidos", included: true },
+      { text: "2 operadores dedicados", included: true },
+      { text: "Seguro de responsabilidad civil", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Día Completo",
+    price: "$2,800",
+    priceNote: "+ IVA",
+    description: "12 horas, ideal kermeses",
+    features: [
+      { text: "Inflable Gusanitos 4×4×3m", included: true },
+      { text: "Motor inflador silencioso", included: true },
+      { text: "12 horas de uso continuo", included: true },
+      { text: "Instalación y retiro incluidos", included: true },
+      { text: "2 operadores dedicados", included: true },
+      { text: "Seguro de responsabilidad civil", included: true },
+    ],
+    ctaHref: "/contacto/",
+  },
+];
+
+const faqItems = [
+  {
+    question: "¿Qué hace especial al inflable Gusanitos frente a otros modelos?",
+    answer: "El Gusanitos destaca por su diseño tropical multicolor con gusanitos decorativos en verde y morado, palmeras laterales y una combinación de colores vibrantes en verde, morado, amarillo y azul. Es el inflable más original y fotografiado de nuestro catálogo, perfecto para fiestas al aire libre donde quieras un toque de color único.",
+  },
+  {
+    question: "¿Para qué edades es recomendable el inflable Gusanitos?",
+    answer: "El Gusanitos está diseñado para niños de 4 a 10 años de edad. Su amplia zona de salto con piso acolchonado y mallas de seguridad laterales garantizan que los niños se diviertan de forma segura mientras los padres mantienen visibilidad total desde fuera.",
+  },
+  {
+    question: "¿El Gusanitos incluye resbaladilla?",
+    answer: "Sí, el inflable Gusanitos cuenta con una resbaladilla integrada que es parte de su diseño tropical. Los niños pueden subir, brincar en la zona de salto y deslizarse con total seguridad. Las mallas de seguridad perimetrales protegen en todo momento.",
+  },
+  {
+    question: "¿Cuántos niños pueden brincar a la vez en el Gusanitos?",
+    answer: "El inflable tiene capacidad para 5 a 7 niños brincando simultáneamente. Sus dimensiones de 4×4×3 metros ofrecen un área de salto amplia. Si tu fiesta tiene más niños, nuestros operadores organizan turnos para que todos participen.",
+  },
+  {
+    question: "¿El Gusanitos se puede usar para fiestas temáticas hawaianas o tropicales?",
+    answer: "Es la opción ideal para fiestas temáticas hawaianas, tropicales o de verano. Las palmeras decorativas y los colores vibrantes combinan perfectamente con decoraciones de luau, fiesta en la playa o temática de frutas tropicales. Muchos clientes lo eligen para pool parties y fiestas de jardín.",
+  },
+  {
+    question: "¿Qué necesito tener listo antes de que lleguen a instalar el Gusanitos?",
+    answer: "Necesitas un espacio libre de al menos 5×5 metros en una superficie plana (pasto, concreto o piso firme) y acceso a una toma de corriente 110V a no más de 15 metros. Nuestro equipo llega con anticipación y la instalación completa toma solo 20 minutos. Incluimos extensión eléctrica de 15 metros en los paquetes Estándar, Premium y Día Completo.",
+  },
+];
+
+const ctaBarItems = [
+  { label: "Cotizar ahora", href: "/contacto/", icon: "cotizar" },
+  { label: "Ver galería", href: "#galeria", icon: "galeria" },
+  { label: "Ver precios", href: "#precios", icon: "precios" },
+  { label: "WhatsApp", href: `https://wa.me/5547868402?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${inflable.name}.`)}`, icon: "whatsapp" },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="product"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables/" },
+    { name: inflable.name },
+  ]}
+  faqItems={faqItems}
+  product={{
+    name: inflable.name,
+    slug: inflable.slug,
+    description: description,
+    image: inflable.image,
+    price: inflable.priceNum,
+  }}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Inflables",href:"/inflables/"},{label:"Gusanitos"}]} />
+  </Fragment>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">🐛 El más colorido y tropical</span>
+          <h1 class="hero__title">Renta <span class="highlight">Gusanitos</span> para tu Fiesta</h1>
+          <div class="hero__specs">
+            <span class="hero__spec">📏 {inflable.size}</span>
+            <span class="hero__spec">👶 {inflable.ages}</span>
+            <span class="hero__spec">👥 {inflable.capacity}</span>
+            <span class="hero__spec">💰 Desde {inflable.price} MXN</span>
+          </div>
+          <div class="hero__ctas">
+            <a href="/contacto/" class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/contacto/" class="btn btn-outline btn-lg">Ver disponibilidad</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">El <strong>inflable Gusanitos de BRINCOLINS</strong> es el brincolin más colorido y original de nuestro catálogo. Con gusanitos decorativos en verde y morado, palmeras tropicales laterales y una <strong>combinación de colores vibrantes</strong> en verde, morado, amarillo y azul, es el inflable más fotografiado de cualquier fiesta. Perfecto para <strong>cumpleaños y eventos al aire libre</strong> en CDMX y Estado de México donde quieras un toque tropical único.</p>
+          <p class="hero__copy-text">La renta incluye <strong>entrega a domicilio, instalación profesional en 20 minutos, motor inflador silencioso, extensión eléctrica y seguro de responsabilidad civil</strong> sin costo adicional. Atendemos las <strong>16 alcaldías de CDMX</strong> y los principales municipios del Estado de México: Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan y más. Reserva con el 50% de anticipo y recibe respuesta en minutos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CtaBar items={ctaBarItems} />
+
+  <!-- Gallery -->
+  <section class="section" id="galeria">
+    <div class="container">
+      <SectionHeader badge="📸 Galería" title={`Fotos del ${inflable.name}`} subtitle="Imágenes reales de nuestros eventos" copy1="Estas son imágenes reales del inflable Gusanitos en fiestas infantiles y eventos familiares en CDMX y Edomex. Sus colores vibrantes en verde, morado, amarillo y azul lo convierten en el centro de atención y la atracción más fotografiada." copy2="El Gusanitos luce espectacular en jardines, patios y terrazas al aire libre. Nuestro equipo se encarga de la instalación completa para que el inflable quede perfectamente colocado y seguro para los niños." />
+      <Gallery4x4 images={galleryImages} />
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="section section--alt" id="precios">
+    <div class="container">
+      <SectionHeader badge="💰 Paquetes" title={`Precios de Renta — ${inflable.name}`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="Elige el paquete según la duración de tu fiesta tropical. El Gusanitos es ideal para cumpleaños de 4 a 6 horas y también para fiestas de verano, pool parties y eventos al aire libre de día completo." copy2="Precios en pesos mexicanos antes de IVA. El paquete Estándar es el más solicitado porque incluye instalación, retiro, extensión eléctrica y seguro de responsabilidad civil sin costo adicional. Reserva con el 50% de anticipo." />
+      <PricingCards packages={pricingPackages} />
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader badge="❓ Preguntas frecuentes" title={`Dudas sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="Aquí encontrarás las preguntas más frecuentes sobre el inflable Gusanitos: capacidad, edades, temáticas compatibles, requisitos de espacio y detalles de instalación para tu evento." copy2="Si tu duda no aparece en la lista, escríbenos por WhatsApp y te respondemos en minutos. Nuestro equipo tiene amplia experiencia con el Gusanitos y puede asesorarte sobre el mejor paquete." />
+    </div>
+    <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
+  </section>
+
+  <!-- Related -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader badge="🎈 Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y seguro incluidos" copy1="Si buscas más opciones para tu evento, la Mini Jungla comparte la temática tropical con dinosaurios y palmeras, el Castillo de Princesas es perfecto para fiestas de niñas y los Dragones Rojos son el favorito absoluto de CDMX." copy2="Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza sin compromiso y recibe respuesta en minutos — reserva con el 50% de anticipo para asegurar tu fecha." />
+      <div class="grid-4">
+        <ProductCard slug="mini-jungla" emoji="🌴" name="Mini Jungla" description="Inflable temático con animales y palmeras tropicales." price="$1,200" size="4×4×3m" ages="3-10 años" category="Aventura" categoryColor="jungla" gradient="#2E7D32, #1B5E20" image="/img/inflables/mini-jungla.avif" />
+        <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="Castillo rosa con torres decorativas y resbaladilla incluida." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
+        <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más rentado en CDMX con dragones de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
+        <ProductCard slug="mini-castillo" emoji="🏰" name="Mini Castillo" description="Compacto para bebés. Perfecto para interiores y espacios reducidos." price="$800" size="2×2×2m" ages="1-4 años" category="Chico" categoryColor="castillo" gradient="#FF3D00, #ff6d3f" image="/img/inflables/mini-castillo.avif" />
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title={`¿Te interesa el ${inflable.name}?`}
+    subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    variant="vibrant"
+  />
+
+</PageLayout>

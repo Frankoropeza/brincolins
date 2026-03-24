@@ -1,0 +1,187 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Iluminación para Eventos y Fiestas en CDMX | BRINCOLINS CDMX";
+const description = "Servicio de iluminación para eventos y fiestas en CDMX. Luces LED, series, proyectores y ambientación profesional. Ideal para fiestas nocturnas.";
+
+const faqs = [
+  { question: "¿Qué tipos de iluminación ofrecen?", answer: "Ofrecemos luces LED de colores, series de luces cálidas estilo vintage, proyectores de luz ambiental, reflectores LED para exteriores y cortinas de luces decorativas. Cada tipo de iluminación se adapta a diferentes estilos de fiesta y espacios." },
+  { question: "¿La iluminación funciona en espacios exteriores?", answer: "Sí, toda nuestra iluminación es apta para uso en exteriores. Contamos con equipo resistente a la intemperie y extensiones de uso rudo con protección. Nuestro equipo se encarga de la instalación segura en jardines, terrazas y patios." },
+  { question: "¿Necesito tener contactos eléctricos especiales?", answer: "No, trabajamos con voltaje estándar doméstico (110V). Solo necesitas contar con al menos un contacto eléctrico cerca del área del evento. Nosotros llevamos las extensiones y multicontactos necesarios sin costo adicional." },
+  { question: "¿Puedo combinar iluminación con la renta de inflable?", answer: "Por supuesto, y es la opción más popular entre nuestros clientes. Al contratar iluminación junto con un inflable, obtienes un precio especial de paquete. También puedes agregar mobiliario para tener un servicio integral completo." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Servicios", href: "/servicios" },
+    { name: "Iluminación para Eventos" },
+  ]}
+  faqItems={faqs}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Servicios",href:"/servicios/"},{label:"Iluminación para Eventos"}]} />
+  </Fragment>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">💡 Iluminación</span>
+          <h1 class="hero__title"><span class="highlight">Iluminación</span> profesional para tu evento</h1>
+          <p class="hero__desc">Transforma el ambiente de tu fiesta con iluminación decorativa y profesional. Perfecto para eventos nocturnos, jardines y celebraciones al aire libre en CDMX.</p>
+          <div class="hero__ctas">
+            <a href="/contacto/"
+               class="btn btn-primary btn-lg">
+              Solicitar cotización
+            </a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <img src="/img/servicios/iluminacion-eventos-cdmx.avif" alt="Iluminación LED profesional para eventos y fiestas en CDMX" width="600" height="338" style="border-radius: var(--r-card); width:100%; height:auto; margin-bottom:1.5rem;" />
+          <p class="hero__copy-text">La iluminación adecuada puede transformar por completo la atmósfera de tu fiesta. En BRINCOLINS ofrecemos un servicio profesional de iluminación para eventos que incluye desde series de luces cálidas para crear un ambiente acogedor, hasta reflectores LED de colores para fiestas más dinámicas y modernas. Nuestro equipo se encarga de diseñar la distribución ideal según tu espacio.</p>
+          <p class="hero__copy-text">Ya sea que tu fiesta sea en un jardín, una terraza, un salón o el patio de tu casa, tenemos las opciones perfectas para iluminar cada rincón. La instalación y desinstalación están incluidas en el servicio, y te asesoramos sobre la mejor combinación de luces para que tu evento luzca espectacular cuando caiga la noche.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="✅ Beneficios"
+        title="¿Por qué agregar iluminación a tu fiesta?"
+        subtitle="Dale ese toque mágico que tus invitados van a recordar."
+        copy1="Una fiesta bien iluminada no solo se ve mejor en las fotos: crea un ambiente especial que hace que tus invitados se sientan cómodos y disfruten más. La iluminación correcta define zonas, resalta la decoración y extiende la duración de tu evento hasta la noche sin perder el encanto."
+        copy2="Nuestro servicio de iluminación utiliza tecnología LED de bajo consumo energético, lo que significa que no necesitas preocuparte por sobrecargar tu instalación eléctrica. Además, las luces LED no generan calor excesivo, haciéndolas seguras para usar cerca de niños y decoraciones."
+      />
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+            <span class="why-card__img-label">🌟</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Ambiente inolvidable</h3>
+            <p class="why-card__desc">Crea una atmósfera mágica con luces cálidas, de colores o dinámicas que transforman cualquier espacio en un lugar especial.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #2962FF, #448AFF);">
+            <span class="why-card__img-label">🔋</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Bajo consumo LED</h3>
+            <p class="why-card__desc">Toda nuestra iluminación es LED de alta eficiencia. Consume poca energía, no genera calor y es segura para cualquier espacio.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #69F0AE);">
+            <span class="why-card__img-label">🌙</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Eventos nocturnos</h3>
+            <p class="why-card__desc">Extiende tu fiesta hasta la noche sin preocupaciones. La iluminación permite que la diversión continúe después del atardecer.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #AA00FF, #D500F9);">
+            <span class="why-card__img-label">📸</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Fotos espectaculares</h3>
+            <p class="why-card__desc">Las luces decorativas crean fondos perfectos para las fotos de tu evento. Tus invitados van a querer capturar cada momento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📋 Proceso"
+        title="¿Cómo funciona el servicio?"
+        subtitle="Te acompañamos de principio a fin."
+        copy1="Contratar nuestro servicio de iluminación es muy sencillo. Nos adaptamos a tus necesidades y te proponemos la mejor solución para tu espacio y presupuesto, ya sea una instalación sencilla o un montaje más elaborado."
+        copy2="Nuestro equipo llega con anticipación al evento para instalar toda la iluminación y hacer pruebas. Nos aseguramos de que todo funcione perfectamente antes de que lleguen tus invitados, y al finalizar recogemos todo el equipo."
+      />
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+            <span class="why-card__img-label">1</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Describe tu espacio</h3>
+            <p class="why-card__desc">Envíanos fotos o medidas de tu espacio por WhatsApp. Indícanos si es interior o exterior y qué ambiente deseas crear.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #2962FF, #448AFF);">
+            <span class="why-card__img-label">2</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Recibe nuestra propuesta</h3>
+            <p class="why-card__desc">Te enviamos una propuesta personalizada con tipos de luces, cantidad y distribución recomendada, junto con la cotización detallada.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #69F0AE);">
+            <span class="why-card__img-label">3</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación anticipada</h3>
+            <p class="why-card__desc">Llegamos 2 horas antes de tu evento para instalar toda la iluminación. Hacemos pruebas y ajustes para que todo quede perfecto.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background: linear-gradient(135deg, #AA00FF, #D500F9);">
+            <span class="why-card__img-label">4</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Recolección incluida</h3>
+            <p class="why-card__desc">Al terminar tu evento, nuestro equipo retira toda la iluminación y cableado. Dejamos tu espacio tal como lo encontramos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes"
+        subtitle="Dudas comunes sobre nuestro servicio de iluminación."
+        copy1="La iluminación es un elemento que muchas veces se pasa por alto al organizar una fiesta, pero marca una diferencia enorme en la experiencia de tus invitados. Aquí respondemos las preguntas más frecuentes para que tomes una decisión informada."
+        copy2="Si tienes un requerimiento especial de iluminación o necesitas cubrir un espacio particularmente grande, escríbenos por WhatsApp y con gusto te hacemos una propuesta a la medida de tu evento."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="Ilumina tu fiesta y hazla memorable"
+    subtitle="Luces LED, series decorativas y reflectores profesionales para que tu evento brille toda la noche."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+  />
+
+</PageLayout>

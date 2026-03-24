@@ -1,0 +1,144 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import FaqItem from "@/components/FaqItem.astro";
+
+const title = "Renta de Inflables en Azcapotzalco, Clavería y Del Gas | BRINCOLINS";
+const description = "Renta de inflables en Azcapotzalco CDMX. Entrega sin costo en Del Gas, Clavería, Pasteros, Santa Bárbara y todas las colonias. Servicio profesional.";
+
+const colonias = [
+  "Del Gas", "Clavería", "Pasteros", "Santa Bárbara", "Ángel Zimbrón",
+  "Tezozomoc", "San Álvaro", "Popotla", "Reynosa Tamaulipas",
+  "Pensador Mexicano", "Cosmopolita", "Nextengo"
+];
+
+const faqs = [
+  { question: "¿Cuánto cuesta el envío a Azcapotzalco?", answer: "El envío está completamente incluido en el precio del inflable para todas las colonias de Azcapotzalco. No aplicamos cargos adicionales de flete en ninguna colonia de la alcaldía." },
+  { question: "¿Qué inflables son más populares en Azcapotzalco?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. Los combinados con alberca son muy populares en los patios y jardines de colonias como Del Gas y Clavería." },
+  { question: "¿Atienden fines de semana en Azcapotzalco?", answer: "Sí, operamos los 7 días de la semana. Los sábados son nuestros días de mayor demanda en Azcapotzalco, especialmente en las colonias Del Gas y Pasteros." },
+  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1 semana de anticipación para días entre semana, y 2 semanas para fines de semana. En temporadas altas como vacaciones y diciembre, lo ideal es reservar 3-4 semanas antes." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Cobertura", href: "/cobertura/" },
+    { name: "Azcapotzalco" }
+  ]}
+  faqItems={faqs}
+>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a><span class="breadcrumbs__sep">/</span>
+      <a href="/cobertura/">Cobertura</a><span class="breadcrumbs__sep">/</span>
+      <span>Azcapotzalco</span>
+    </nav>
+  </div>
+
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">📍 Azcapotzalco</span>
+          <h1 class="hero__title">Renta de Inflables en <span class="highlight">Azcapotzalco</span></h1>
+          <p class="hero__desc">Renta de inflables y brincolines en toda la alcaldía Azcapotzalco: Del Gas, Clavería, Pasteros, Santa Bárbara y más. Envío sin costo, instalación profesional y servicio 7 días.</p>
+          <div class="hero__ctas">
+            <a href="/contacto/"
+               class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">Azcapotzalco es una alcaldía con fuerte tradición familiar y gran densidad de colonias populares con patios y jardines ideales para eventos infantiles. BRINCOLINS atiende toda la alcaldía con un servicio de entrega puntual: conocemos las calles de Clavería, los accesos de Del Gas y las particularidades de cada colonia para garantizar que tu inflable llegue a tiempo.</p>
+          <p class="hero__copy-text">Nuestro servicio en Azcapotzalco incluye traslado, instalación, supervisión y retiro, todo sin costo de envío. Contamos con inflables de todos los tamaños: pequeños para interiores y patios compactos, medianos para jardines familiares y grandes para eventos en canchas o áreas al aire libre. Contáctanos y recibe tu cotización al instante.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="📍 Colonias"
+        title="Colonias con cobertura en Azcapotzalco"
+        subtitle="Entrega directa en estas colonias y zonas."
+        copy1="Atendemos todas las colonias de Azcapotzalco sin excepción. Desde las zonas más céntricas como Clavería y Del Gas hasta colonias más alejadas como Nextengo y Cosmopolita."
+        copy2="¿Tu colonia no aparece? Escríbenos — si está dentro de la alcaldía o en zonas limítrofes de GAM o Miguel Hidalgo, con toda seguridad podemos atenderte."
+      />
+      <div class="coverage__badges">
+        {colonias.map(c => <span class="coverage__badge">{c}</span>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="🚚 Entrega"
+        title="Servicio de entrega en Azcapotzalco"
+        subtitle="Puntualidad y profesionalismo garantizados."
+        copy1="La alcaldía Azcapotzalco tiene excelente conectividad: el Periférico Norte, la Calzada Vallejo y el Anillo Periférico nos permiten llegar rápidamente a cualquier punto de la alcaldía. Optimizamos nuestras rutas para cumplir el horario acordado."
+        copy2="Nuestros equipos llegan con todo el material necesario: el inflable, el compresor, las extensiones y los elementos de seguridad. La instalación toma entre 30 y 90 minutos según el tamaño del inflable."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#00C853,#2E7D32);">
+            <span class="why-card__img-label">GRATIS</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Costo de envío</h3>
+            <p class="why-card__desc">Envío sin costo en todas las colonias de Azcapotzalco.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#1565C0,#0288D1);">
+            <span class="why-card__img-label">2h</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación rápida</h3>
+            <p class="why-card__desc">Montaje profesional en menos de 2 horas desde la llegada.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+            <span class="why-card__img-label">24/7</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Atención permanente</h3>
+            <p class="why-card__desc">WhatsApp disponible todo el día para confirmar y resolver dudas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="❓ FAQ"
+        title="Preguntas frecuentes sobre Azcapotzalco"
+        subtitle="Dudas comunes sobre entrega de inflables en esta zona."
+        copy1="Llevamos años atendiendo eventos en Azcapotzalco. Conocemos las particularidades de cada colonia y hemos trabajado en todo tipo de espacios: desde patios pequeños hasta jardines amplios y áreas comunitarias."
+        copy2="¿Tienes una duda específica sobre tu evento? Escríbenos por WhatsApp y te respondemos rápidamente con toda la información que necesitas."
+      />
+      <div style="max-width:800px;margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="¿Evento en Azcapotzalco?"
+    subtitle="Cotiza tu inflable con entrega incluida en Del Gas, Clavería, Pasteros y toda la alcaldía."
+    btnText="Solicitar cotización"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="cool"
+  />
+</PageLayout>

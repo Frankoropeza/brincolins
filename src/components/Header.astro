@@ -1,0 +1,633 @@
+---
+/**
+ * Header Component — Origenlab Standard
+ * ─────────────────────────────────────
+ * Configurable via /src/data/header.md
+ * Features:
+ *   - Sticky header with optional glassmorphism
+ *   - Desktop nav with dropdown submenus
+ *   - Mobile slide-in panel with accordion submenus
+ *   - Active link state detection
+ *   - CTA button (optional, configurable)
+ *   - Scroll shadow effect
+ *   - Minimal JS, semantic HTML, ARIA accessible
+ */
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import matter from 'gray-matter';
+
+// ── Load config ──
+interface NavItem {
+  label: string;
+  href: string;
+  children?: { label: string; href: string }[];
+}
+
+let config: Record<string, any> = {};
+try {
+  const raw = readFileSync(join(process.cwd(), 'src/data/header.md'), 'utf-8');
+  config = matter(raw).data;
+} catch { /* defaults below */ }
+
+const brand       = config.brand ?? 'BRINCOLINS';
+const brandAccent = config.brandAccent ?? '';
+const logoHref    = config.logoHref ?? '/';
+const navLinks    = (config.nav ?? []) as NavItem[];
+const cta         = config.cta ?? { enabled: false, label: '', href: '' };
+const scrollEffect = config.scrollEffect ?? true;
+const blurBg       = config.blurBg ?? false;
+
+// ── Active link detection ──
+const currentPath = Astro.url.pathname;
+
+function isActive(href: string, children?: { href: string }[]): boolean {
+  if (href === '/') return currentPath === '/';
+  if (currentPath.startsWith(href)) return true;
+  if (children?.some(c => currentPath.startsWith(c.href))) return true;
+  return false;
+}
+---
+
+<header
+  class:list={['hdr', { 'hdr--blur': blurBg }]}
+  id="hdr"
+  data-scroll={scrollEffect ? 'true' : undefined}
+>
+  <div class="hdr__inner">
+    {/* ── Logo ── */}
+    <a href={logoHref} class="hdr__logo" aria-label={`${brand} — Inicio`}>
+      <svg class="hdr__logo-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M12 2C8 2 4 6 4 10c0 2 .5 3.5 1.5 4.5L4 22h16l-1.5-7.5C19.5 13.5 20 12 20 10c0-4-4-8-8-8z" fill="#FF3D00" opacity="0.9"/>
+        <path d="M8 10c0-2.2 1.8-4 4-4s4 1.8 4 4" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+        <circle cx="10" cy="12" r="1" fill="#fff"/>
+        <circle cx="14" cy="12" r="1" fill="#fff"/>
+        <path d="M9 15c1 1.5 5 1.5 6 0" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>
+      </svg>
+      <span class="hdr__logo-text">{brand}</span>
+      {brandAccent && <span class="hdr__logo-dot">{brandAccent}</span>}
+    </a>
+
+    {/* ── Desktop Navigation ── */}
+    <nav class="hdr__nav" aria-label="Navegación principal">
+      <ul class="hdr__list" role="menubar">
+        {navLinks.map((link) => (
+          <li class:list={[{ 'hdr__has-sub': !!link.children }]} role="none">
+            <a
+              href={link.href}
+              role="menuitem"
+              class:list={['hdr__link', { 'hdr__link--active': isActive(link.href, link.children) }]}
+              aria-haspopup={link.children ? 'true' : undefined}
+            >
+              {link.label}
+              {link.children && (
+                <svg class="hdr__chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true">
+                  <path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              )}
+            </a>
+            {link.children && (
+              <ul class="hdr__dropdown" role="menu">
+                {link.children.map((sub) => (
+                  <li role="none">
+                    <a
+                      href={sub.href}
+                      role="menuitem"
+                      class:list={['hdr__drop-link', { 'hdr__drop-link--active': currentPath === sub.href }]}
+                    >
+                      {sub.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    {/* ── CTA Button ── */}
+    {cta.enabled && (
+      <a href={cta.href} class="hdr__cta btn btn-primary">{cta.label}</a>
+    )}
+
+    {/* ── Hamburger ── */}
+    <button
+      class="hdr__toggle"
+      id="hdrToggle"
+      type="button"
+      aria-label="Abrir menú"
+      aria-expanded="false"
+      aria-controls="hdrPanel"
+    >
+      <span class="hdr__bar"></span>
+    </button>
+  </div>
+</header>
+
+{/* ── Mobile overlay ── */}
+<div class="hdr__overlay" id="hdrOverlay" aria-hidden="true"></div>
+
+{/* ── Mobile panel ── */}
+<nav class="hdr__panel" id="hdrPanel" aria-label="Menú móvil" aria-hidden="true">
+  <div class="hdr__panel-head">
+    <span class="hdr__panel-brand">{brand}<span class="hdr__logo-dot">{brandAccent}</span></span>
+    <button class="hdr__panel-close" id="hdrClose" type="button" aria-label="Cerrar menú">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <path d="M1 1l14 14M15 1L1 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+
+  <ul class="hdr__panel-list">
+    {navLinks.map((link) => (
+      <li class:list={[{ 'hdr__panel-hassub': !!link.children }]}>
+        {link.children ? (
+          <>
+            <button class="hdr__panel-link hdr__panel-subtoggle" type="button" data-sub>
+              <span>{link.label}</span>
+              <svg class="hdr__panel-chev" width="12" height="7" viewBox="0 0 12 7" fill="none" aria-hidden="true">
+                <path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <ul class="hdr__panel-sub">
+              {link.children.map((sub) => (
+                <li>
+                  <a
+                    href={sub.href}
+                    class:list={['hdr__panel-link hdr__panel-sublink', { 'hdr__panel-link--active': currentPath === sub.href }]}
+                  >
+                    {sub.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </>
+        ) : (
+          <a
+            href={link.href}
+            class:list={['hdr__panel-link', { 'hdr__panel-link--active': isActive(link.href) }]}
+          >
+            {link.label}
+          </a>
+        )}
+      </li>
+    ))}
+  </ul>
+
+  {cta.enabled && (
+    <div class="hdr__panel-foot">
+      <a href={cta.href} class="btn btn-primary hdr__panel-cta">{cta.label}</a>
+    </div>
+  )}
+</nav>
+
+<style>
+  /* ══════════════════════════════════════
+     Header — Core
+     ══════════════════════════════════════ */
+  .hdr {
+    height: 64px;
+    background: #ffffff;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    align-items: center;
+  }
+
+  .hdr--blur {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .hdr--scrolled {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .hdr__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--container, 1400px);
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  /* ── Logo ── */
+  .hdr__logo {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    height: 64px;
+    font-family: var(--font-head, 'Nunito', sans-serif);
+    font-weight: 900;
+    font-size: 1.4rem;
+    text-decoration: none;
+  }
+
+  .hdr__logo-icon {
+    flex-shrink: 0;
+  }
+
+  .hdr__logo-text {
+    color: #FF3D00;
+  }
+
+  .hdr__logo:hover { opacity: 0.85; }
+
+  /* ── Desktop Nav ── */
+  .hdr__nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .hdr__list {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .hdr__link {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #333;
+    transition: color 0.2s var(--ease, ease);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0.25rem 0;
+    position: relative;
+    line-height: 1;
+  }
+
+  .hdr__link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--c-primary, #FF3D00);
+    border-radius: 1px;
+    transition: width 0.25s var(--ease, ease);
+  }
+
+  .hdr__link:hover { color: var(--c-primary, #FF3D00); }
+  .hdr__link:hover::after { width: 100%; }
+  .hdr__link--active { color: #FF3D00; font-weight: 700; }
+  .hdr__link--active::after { width: 100%; }
+
+  .hdr__chevron {
+    transition: transform 0.2s var(--ease, ease);
+  }
+
+  /* ── Dropdown ── */
+  .hdr__has-sub {
+    position: relative;
+    padding-bottom: 8px;
+    margin-bottom: -8px;
+  }
+
+  .hdr__dropdown {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    min-width: 230px;
+    max-height: 70vh;
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 12px;
+    border-top: 2px solid #FF3D00;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.04);
+    padding: 0.5rem 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50%);
+    transition: opacity 0.15s ease, visibility 0.15s;
+    pointer-events: none;
+    z-index: 99999;
+  }
+
+  /* Puente invisible — zona segura entre link y dropdown */
+  .hdr__has-sub::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: -20px;
+    right: -20px;
+    height: 20px;
+  }
+
+  .hdr__has-sub:hover .hdr__dropdown,
+  .hdr__has-sub:focus-within .hdr__dropdown {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .hdr__has-sub:hover .hdr__chevron {
+    transform: rotate(180deg);
+  }
+
+  .hdr__drop-link {
+    display: block;
+    padding: 0.55rem 1.25rem;
+    font-size: 0.875rem;
+    color: var(--c-text, #1a1a1a);
+    transition: background 0.15s, color 0.15s;
+    white-space: nowrap;
+  }
+
+  .hdr__drop-link:hover,
+  .hdr__drop-link--active {
+    background: #FFF4ED;
+    color: var(--c-primary, #FF3D00);
+  }
+
+  /* ── CTA ── */
+  .hdr__cta {
+    padding: 0.5rem 1.25rem;
+    font-size: 0.875rem;
+    flex-shrink: 0;
+    line-height: 1;
+    background: #FF3D00;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 700;
+  }
+
+  /* ── Hamburger ── */
+  .hdr__toggle {
+    display: none;
+    width: 44px;
+    height: 44px;
+    position: relative;
+    flex-shrink: 0;
+    cursor: pointer;
+    border: 1.5px solid #e2e8f0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hdr__bar,
+  .hdr__bar::before,
+  .hdr__bar::after {
+    width: 22px;
+    height: 2px;
+    background: var(--c-text, #1a1a2e);
+    border-radius: 2px;
+    transition: all 0.25s ease;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .hdr__bar { top: 50%; margin-top: -1px; }
+  .hdr__bar::before { content: ''; top: -7px; margin-top: 0; }
+  .hdr__bar::after  { content: ''; top:  7px; margin-top: 0; }
+
+  .hdr__toggle--open {
+    border-color: var(--c-primary, #FF3D00);
+    background: #fff8f6;
+  }
+  .hdr__toggle--open .hdr__bar { background: transparent; }
+  .hdr__toggle--open .hdr__bar::before { top: 0; transform: translateX(-50%) rotate(45deg); }
+  .hdr__toggle--open .hdr__bar::after  { top: 0; transform: translateX(-50%) rotate(-45deg); }
+
+  /* ══════════════════════════════════════
+     Mobile Overlay
+     ══════════════════════════════════════ */
+  .hdr__overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 99998;
+    opacity: 0;
+    transition: opacity 0.3s var(--ease, ease);
+  }
+
+  .hdr__overlay--visible {
+    display: block;
+    opacity: 1;
+  }
+
+  /* ══════════════════════════════════════
+     Mobile Panel
+     ══════════════════════════════════════ */
+  .hdr__panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 85%;
+    max-width: 360px;
+    background: var(--c-bg, #fff);
+    z-index: 99999;
+    transform: translateX(100%);
+    transition: transform 0.35s var(--ease, ease);
+    display: none;
+    flex-direction: column;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .hdr__panel--open {
+    transform: translateX(0);
+  }
+
+  .hdr__panel-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.25rem;
+    height: 64px;
+    border-bottom: 1px solid var(--c-border, #e5e7eb);
+    flex-shrink: 0;
+  }
+
+  .hdr__panel-brand {
+    font-family: var(--font-head, 'Nunito', sans-serif);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--c-primary, #FF3D00);
+  }
+
+  .hdr__panel-close {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--c-text-muted, #6b7280);
+    border-radius: 8px;
+    border: 1px solid var(--c-border, #e5e7eb);
+    background: transparent;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .hdr__panel-close:hover {
+    background: var(--c-bg-alt, #F8F9FA);
+    color: var(--c-text, #1a1a1a);
+  }
+
+  .hdr__panel-list {
+    flex: 1;
+    padding: 0.75rem 0;
+  }
+
+  .hdr__panel-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 48px;
+    padding: 0 1.5rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: var(--c-text, #1a1a1a);
+    transition: background 0.15s;
+    text-align: left;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: inherit;
+  }
+
+  .hdr__panel-link:hover { background: var(--c-bg-alt, #F8F9FA); }
+  .hdr__panel-link--active { color: var(--c-primary, #FF3D00); font-weight: 600; }
+
+  .hdr__panel-chev {
+    transition: transform 0.25s var(--ease, ease);
+    flex-shrink: 0;
+    color: var(--c-text-muted, #6b7280);
+  }
+
+  .hdr__panel-subtoggle--open .hdr__panel-chev {
+    transform: rotate(180deg);
+  }
+
+  .hdr__panel-sub {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s var(--ease, ease);
+    background: var(--c-bg-alt, #F8F9FA);
+  }
+
+  .hdr__panel-sub--open { max-height: 500px; }
+
+  .hdr__panel-sublink {
+    padding-left: 2.25rem;
+    font-size: 0.875rem;
+    min-height: 44px;
+  }
+
+  .hdr__panel-foot {
+    padding: 1rem 1.5rem;
+    border-top: 1px solid var(--c-border, #e5e7eb);
+    flex-shrink: 0;
+  }
+
+  .hdr__panel-cta {
+    width: 100%;
+    justify-content: center;
+    padding: 0.875rem 1.5rem;
+    font-size: 0.9375rem;
+  }
+
+  /* ══════════════════════════════════════
+     Responsive
+     ══════════════════════════════════════ */
+  @media (max-width: 768px) {
+    .hdr__nav,
+    .hdr__cta { display: none; }
+    .hdr__toggle { display: block; }
+    .hdr__panel { display: flex; }
+  }
+
+  @media (max-width: 400px) {
+    .hdr__panel { width: 100%; max-width: none; }
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var hdr     = document.getElementById('hdr');
+    var toggle  = document.getElementById('hdrToggle');
+    var panel   = document.getElementById('hdrPanel');
+    var overlay = document.getElementById('hdrOverlay');
+    var close   = document.getElementById('hdrClose');
+    var topbar  = document.querySelector('.topbar');
+
+    /* ── Mobile menu ── */
+    function open() {
+      toggle.classList.add('hdr__toggle--open');
+      toggle.setAttribute('aria-expanded', 'true');
+      panel.classList.add('hdr__panel--open');
+      panel.setAttribute('aria-hidden', 'false');
+      overlay.classList.add('hdr__overlay--visible');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function shut() {
+      toggle.classList.remove('hdr__toggle--open');
+      toggle.setAttribute('aria-expanded', 'false');
+      panel.classList.remove('hdr__panel--open');
+      panel.setAttribute('aria-hidden', 'true');
+      overlay.classList.remove('hdr__overlay--visible');
+      document.body.style.overflow = '';
+    }
+
+    if (toggle) toggle.addEventListener('click', function () {
+      panel.classList.contains('hdr__panel--open') ? shut() : open();
+    });
+    if (close)   close.addEventListener('click', shut);
+    if (overlay) overlay.addEventListener('click', shut);
+
+    /* Close on link click */
+    if (panel) {
+      var links = panel.querySelectorAll('a');
+      for (var i = 0; i < links.length; i++) links[i].addEventListener('click', shut);
+    }
+
+    /* ── Accordion submenus ── */
+    var subs = document.querySelectorAll('[data-sub]');
+    for (var j = 0; j < subs.length; j++) {
+      subs[j].addEventListener('click', function () {
+        this.classList.toggle('hdr__panel-subtoggle--open');
+        var sub = this.nextElementSibling;
+        if (sub) sub.classList.toggle('hdr__panel-sub--open');
+      });
+    }
+
+    /* ── Scroll: hide topbar, add shadow ── */
+    if (hdr && hdr.dataset.scroll === 'true') {
+      var stack = document.querySelector('.hdr-stack');
+
+      function getTopbarH() {
+        return topbar ? topbar.offsetHeight : 0;
+      }
+
+      window.addEventListener('scroll', function () {
+        var topbarH = getTopbarH();
+        var y = window.pageYOffset || document.documentElement.scrollTop;
+        if (y > topbarH) {
+          hdr.classList.add('hdr--scrolled');
+          if (stack) stack.style.top = '0';
+          if (topbar) topbar.style.transform = 'translateY(-100%)';
+        } else {
+          hdr.classList.remove('hdr--scrolled');
+          if (stack) stack.style.top = topbarH + 'px';
+          if (topbar) topbar.style.transform = '';
+        }
+      }, { passive: true });
+    }
+  })();
+</script>
