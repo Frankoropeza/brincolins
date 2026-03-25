@@ -1,5 +1,5 @@
 ---
-title: "⚓ ¡Organiza la fiesta pirata más épica de CDMX!"
+title: "¡Organiza la fiesta pirata más épica de CDMX!"
 description: "Todo sobre fiesta-pirata-infantil-tobogan-cdmx — guía completa para tu fiesta infantil en CDMX."
 publishDate: "2025-03-15"
 category: "fiestas"

@@ -1,5 +1,5 @@
 ---
-title: "🌴 ¡Lleva la aventura de la jungla a tu fiesta!"
+title: "¡Lleva la aventura de la jungla a tu fiesta!"
 description: "Todo sobre renta-inflable-jungla-cdmx — guía completa para tu fiesta infantil en CDMX."
 publishDate: "2025-03-15"
 category: "inflables"

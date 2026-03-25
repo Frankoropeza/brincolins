@@ -9,26 +9,26 @@ const title = "Salón Pinwuii — Salón de Fiestas Infantiles en Tlalpan | BRIN
 const description = "Salón Pinwuii: salón de fiestas infantiles en Tlalpan, CDMX. ⭐ 4.5 en Google Maps. Capacidad 40–80 personas. Paquetes todo incluido. Teléfono: 55 2109 8919.";
 
 const salon = { name: "Salón Pinwuii", zone: "Tlalpan", address: "Palma 34, San Andrés Totoltepec, Tlalpan, 14400 CDMX", capacity: "40–80 personas", phone: "55 2109 8919", rating: "4.5", highlight: "Íntimo y acogedor en San Andrés Totoltepec", gradient: "#7C3AED, #1565C0", features: [
-  { emoji: "🏠", name: "Ambiente íntimo", desc: "Espacio acogedor y bien decorado que crea un ambiente cálido e íntimo perfecto para celebraciones familiares.", gradient: "#7C3AED, #1565C0" },
-  { emoji: "🎮", name: "Juegos infantiles", desc: "Área de juegos con brincolines, resbaladillas y actividades recreativas adaptadas para niños de todas las edades.", gradient: "#00C853, #2E7D32" },
-  { emoji: "💰", name: "Paquetes económicos", desc: "Opciones de paquetes accesibles que incluyen lo esencial sin comprometer la calidad del servicio.", gradient: "#FF6F00, #FFD600" },
-  { emoji: "🎨", name: "Decoración temática", desc: "Decoración personalizable incluida en los paquetes, con múltiples temáticas disponibles para elegir.", gradient: "#E91E8C, #FF3D00" },
-  { emoji: "🍕", name: "Alimentos incluidos", desc: "Menú para niños y adultos con opciones frescas y variadas, preparadas especialmente para el evento.", gradient: "#1565C0, #0288D1" },
-  { emoji: "🎵", name: "Música y sonido", desc: "Equipo de sonido con música ambiental y micrófono disponible para animación y momentos especiales.", gradient: "#9C27B0, #7C3AED" },
+  { emoji: "", name: "Ambiente íntimo", desc: "Espacio acogedor y bien decorado que crea un ambiente cálido e íntimo perfecto para celebraciones familiares.", gradient: "#7C3AED, #1565C0" },
+  { emoji: "", name: "Juegos infantiles", desc: "Área de juegos con brincolines, resbaladillas y actividades recreativas adaptadas para niños de todas las edades.", gradient: "#00C853, #2E7D32" },
+  { emoji: "", name: "Paquetes económicos", desc: "Opciones de paquetes accesibles que incluyen lo esencial sin comprometer la calidad del servicio.", gradient: "#FF6F00, #FFD600" },
+  { emoji: "", name: "Decoración temática", desc: "Decoración personalizable incluida en los paquetes, con múltiples temáticas disponibles para elegir.", gradient: "#E91E8C, #FF3D00" },
+  { emoji: "", name: "Alimentos incluidos", desc: "Menú para niños y adultos con opciones frescas y variadas, preparadas especialmente para el evento.", gradient: "#1565C0, #0288D1" },
+  { emoji: "", name: "Música y sonido", desc: "Equipo de sonido con música ambiental y micrófono disponible para animación y momentos especiales.", gradient: "#9C27B0, #7C3AED" },
 ], horario: "Martes a Domingo · 10:00 – 20:00", gmapsQuery: "Salon+Pinwuii+Tlalpan+CDMX" };
 
 const salonesRelacionados = [
   { slug: "salon-machinkuepa", name: "Salón Machinkuepa", zone: "Tlalpan", rating: "4.7", capacity: "50–120 personas", phone: "55 8007 0580", gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)", label: "⭐", features: ["Juegos extremos", "Área de bebés", "Decoración incluida", "Salón amplio"], highlight: "Top 1 en Tlalpan por calificación" },
-  { slug: "salon-wondertown", name: "Salón Wondertown", zone: "Tlalpan", rating: "4.6", capacity: "40–100 personas", phone: "55 3334 5442", gradient: "linear-gradient(135deg, #9C27B0, #E91E8C)", label: "🌟", features: ["Temáticas personalizadas", "Juegos modernos", "Snack bar", "Música incluida"], highlight: "Temáticas personalizadas en Héroes de Padierna" },
-  { slug: "el-rehilete-cardyc-coapa", name: "El Rehilete y CARDYC Coapa", zone: "Tlalpan", rating: "4.7", capacity: "60–150 personas", phone: "55 4337 2422", gradient: "linear-gradient(135deg, #1565C0, #0288D1)", label: "🏆", features: ["Gran capacidad", "Área deportiva", "Jardín amplio", "Banquete incluido"], highlight: "Doble espacio: salón + área deportiva" },
-  { slug: "wiby-kids", name: "Wiby Kids", zone: "Xochimilco", rating: "4.4", capacity: "40–80 personas", phone: "55 3368 1406", gradient: "linear-gradient(135deg, #1565C0, #0288D1)", label: "🎭", features: ["Juegos modernos", "Área segura", "Pintacaritas", "Paquetes desde 15 niños"], highlight: "Moderno y seguro en Xochimilco" },
+  { slug: "salon-wondertown", name: "Salón Wondertown", zone: "Tlalpan", rating: "4.6", capacity: "40–100 personas", phone: "55 3334 5442", gradient: "linear-gradient(135deg, #9C27B0, #E91E8C)", label: "Destacado", features: ["Temáticas personalizadas", "Juegos modernos", "Snack bar", "Música incluida"], highlight: "Temáticas personalizadas en Héroes de Padierna" },
+  { slug: "el-rehilete-cardyc-coapa", name: "El Rehilete y CARDYC Coapa", zone: "Tlalpan", rating: "4.7", capacity: "60–150 personas", phone: "55 4337 2422", gradient: "linear-gradient(135deg, #1565C0, #0288D1)", label: "Top", features: ["Gran capacidad", "Área deportiva", "Jardín amplio", "Banquete incluido"], highlight: "Doble espacio: salón + área deportiva" },
+  { slug: "wiby-kids", name: "Wiby Kids", zone: "Xochimilco", rating: "4.4", capacity: "40–80 personas", phone: "55 3368 1406", gradient: "linear-gradient(135deg, #1565C0, #0288D1)", label: "Teatro", features: ["Juegos modernos", "Área segura", "Pintacaritas", "Paquetes desde 15 niños"], highlight: "Moderno y seguro en Xochimilco" },
 ];
 
 const inflablesPopulares = [
-  { slug: "dragones-rojos", emoji: "🐉", name: "Dragones Rojos", description: "El inflable más popular en CDMX. Castillo con dragones gigantes y resbaladilla.", price: "$1,800", size: "4×4m", ages: "4-12 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
-  { slug: "castillo-princesas", emoji: "👸", name: "Castillo de Princesas", description: "Castillo rosa con resbaladilla incluida para fiestas de princesas.", price: "$1,800", size: "4×4m", ages: "3-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
-  { slug: "barco-pirata", emoji: "🚢", name: "Barco Pirata", description: "Barco pirata gigante con tobogán de alta velocidad incluido.", price: "$2,500", size: "7×5m", ages: "4-14 años", category: "Grande", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
-  { slug: "extremo", emoji: "🏁", name: "Extremo", description: "Circuito de obstáculos para competencias y diversión extrema.", price: "$2,300", size: "4.8×3.3m", ages: "6-14 años", category: "Extremo", categoryColor: "extremo", gradient: "#E65100, #BF360C", image: "/img/inflables/extremo.avif" },
+  { slug: "dragones-rojos", emoji: "", name: "Dragones Rojos", description: "El inflable más popular en CDMX. Castillo con dragones gigantes y resbaladilla.", price: "$1,800", size: "4×4m", ages: "4-12 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
+  { slug: "castillo-princesas", emoji: "", name: "Castillo de Princesas", description: "Castillo rosa con resbaladilla incluida para fiestas de princesas.", price: "$1,800", size: "4×4m", ages: "3-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
+  { slug: "barco-pirata", emoji: "", name: "Barco Pirata", description: "Barco pirata gigante con tobogán de alta velocidad incluido.", price: "$2,500", size: "7×5m", ages: "4-14 años", category: "Grande", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
+  { slug: "extremo", emoji: "", name: "Extremo", description: "Circuito de obstáculos para competencias y diversión extrema.", price: "$2,300", size: "4.8×3.3m", ages: "6-14 años", category: "Extremo", categoryColor: "extremo", gradient: "#E65100, #BF360C", image: "/img/inflables/extremo.avif" },
 ];
 
 const articulos = [
@@ -96,7 +96,7 @@ const salonSchema = {
   <script type="application/ld+json" set:html={JSON.stringify(salonSchema)} />
   <div class="container"><nav class="breadcrumbs" aria-label="Ruta de navegación"><a href="/">Inicio</a><span class="breadcrumbs__sep">/</span><a href="/directorio/">Directorio</a><span class="breadcrumbs__sep">/</span><a href="/directorio/cdmx/">CDMX</a><span class="breadcrumbs__sep">/</span><span>{salon.name}</span></nav></div>
 
-  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;"><div class="container"><div class="hero__grid"><div><span class="hero__badge">⭐ {salon.rating} en Google Maps · {salon.zone}</span><h1 class="hero__title">{salon.name} — Salón de Fiestas <span class="highlight">Infantiles</span></h1><p class="hero__desc">Salón de fiestas infantiles en {salon.zone}, CDMX. {salon.highlight}. Capacidad para {salon.capacity}. Paquetes todo incluido con juegos, alimentos, decoración y más.</p><div class="hero__ctas"><a href={`tel:+52${salon.phone.replace(/\s/g, "")}`} class="btn btn-primary btn-lg">Llamar al salón</a><a href={`https://wa.me/52${salon.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${salon.name} para una fiesta infantil.`)}`} class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">WhatsApp del salón</a></div></div><div class="hero__copy"><p class="hero__copy-text"><strong>{salon.name}</strong> se ha consolidado como uno de los salones de fiestas infantiles con mejor reputación en {salon.zone}. Con una calificación de <strong>{salon.rating} estrellas en Google Maps</strong>, destaca por sus amplias instalaciones, su compromiso con la seguridad de los niños y la calidad de sus paquetes todo incluido que facilitan la organización de cualquier celebración.</p><p class="hero__copy-text">¿Ya reservaste tu fecha? Lleva la diversión al siguiente nivel con un inflable de <strong>BRINCOLINS</strong>. Entregamos, instalamos y recogemos directamente en {salon.name} sin costo adicional. Nuestro catálogo incluye castillos, toboganes, pistas de obstáculos y más.</p></div></div></div></section>
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;"><div class="container"><div class="hero__grid"><div><span class="hero__badge">{salon.rating} en Google Maps · {salon.zone}</span><h1 class="hero__title">{salon.name} — Salón de Fiestas <span class="highlight">Infantiles</span></h1><p class="hero__desc">Salón de fiestas infantiles en {salon.zone}, CDMX. {salon.highlight}. Capacidad para {salon.capacity}. Paquetes todo incluido con juegos, alimentos, decoración y más.</p><div class="hero__ctas"><a href={`tel:+52${salon.phone.replace(/\s/g, "")}`} class="btn btn-primary btn-lg">Llamar al salón</a><a href={`https://wa.me/52${salon.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${salon.name} para una fiesta infantil.`)}`} class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">WhatsApp del salón</a></div></div><div class="hero__copy"><p class="hero__copy-text"><strong>{salon.name}</strong> se ha consolidado como uno de los salones de fiestas infantiles con mejor reputación en {salon.zone}. Con una calificación de <strong>{salon.rating} estrellas en Google Maps</strong>, destaca por sus amplias instalaciones, su compromiso con la seguridad de los niños y la calidad de sus paquetes todo incluido que facilitan la organización de cualquier celebración.</p><p class="hero__copy-text">¿Ya reservaste tu fecha? Lleva la diversión al siguiente nivel con un inflable de <strong>BRINCOLINS</strong>. Entregamos, instalamos y recogemos directamente en {salon.name} sin costo adicional. Nuestro catálogo incluye castillos, toboganes, pistas de obstáculos y más.</p></div></div></div></section>
 
   <!-- Contenido principal + Sidebar -->
   <section class="section section--alt">
@@ -109,7 +109,7 @@ const salonSchema = {
           <!-- Ficha técnica del salón -->
           <div class="salon-ficha">
             <div class="salon-ficha__header">
-              <div class="salon-ficha__badge">⭐ {salon.rating} / 5.0</div>
+              <div class="salon-ficha__badge">{salon.rating} / 5.0</div>
               <div>
                 <h2 class="salon-ficha__title">{salon.name}</h2>
                 <p class="salon-ficha__subtitle">{salon.highlight}</p>
@@ -148,7 +148,7 @@ const salonSchema = {
                 </tr>
                 <tr>
                   <td class="salon-ficha__label">Calificación</td>
-                  <td class="salon-ficha__value">⭐ {salon.rating} / 5.0 — basada en reseñas verificadas de Google Maps</td>
+                  <td class="salon-ficha__value">{salon.rating} / 5.0 — basada en reseñas verificadas de Google Maps</td>
                 </tr>
               </tbody>
             </table>
@@ -178,7 +178,7 @@ const salonSchema = {
               {salon.features.map(f => (
                 <article class="product-card">
                   <div class="product-card__image" style={`background: linear-gradient(135deg, ${f.gradient});`}>
-                    <span>{f.emoji}</span>
+                    
                   </div>
                   <div class="product-card__body">
                     <h3 class="product-card__name">{f.name}</h3>
@@ -198,7 +198,7 @@ const salonSchema = {
 
           <!-- Tip inflable -->
           <div class="dir-tip" style="margin-top:2rem;">
-            <div class="dir-tip__icon">🎈</div>
+            <div class="dir-tip__icon"></div>
             <div class="dir-tip__content">
               <p class="dir-tip__title">¡Complementa tu fiesta en {salon.name} con un inflable!</p>
               <p class="dir-tip__text"><strong>BRINCOLINS</strong> entrega, instala y recoge el inflable directamente en el salón. Solo necesitas confirmar que haya espacio disponible al momento de reservar.</p>
@@ -277,9 +277,9 @@ const salonSchema = {
     </div>
   </section>
 
-  <section class="section"><div class="container"><SectionHeader badge="📍 Más salones en CDMX" title="Otros salones que te pueden interesar" subtitle="Explora más opciones de salones de fiestas infantiles verificados en la Ciudad de México." copy1="Si buscas alternativas a Salón Pinwuii, aquí encontrarás otros salones con excelente calificación en Google Maps. Todos permiten inflables externos y están dentro de nuestra zona de cobertura." copy2="¿Ya elegiste tu salón? No olvides complementar la fiesta con un inflable de <strong>BRINCOLINS</strong>. Entrega e instalación incluida en cualquier salón de CDMX." /><div class="grid-4">{salonesRelacionados.map(s => <VenueCard {...s} />)}</div></div></section>
-  <section class="section section--alt"><div class="container"><SectionHeader badge="🎈 Inflables para tu fiesta" title="Lleva un inflable a tu fiesta" subtitle={`Complementa tu evento en ${salon.name} con uno de nuestros inflables. Entrega e instalación incluida.`} copy1="Todos nuestros inflables incluyen entrega, instalación, limpieza y seguro. Solo necesitas una toma de corriente y espacio suficiente en el salón. Confirma la disponibilidad de espacio al reservar tu salón." copy2="Desde castillos clásicos hasta toboganes acuáticos y pistas de obstáculos, tenemos opciones para todas las edades y presupuestos. <strong>Cotiza hoy y asegura tu fecha.</strong>" /><div class="grid-4">{inflablesPopulares.map(p => <ProductCard {...p} />)}</div></div></section>
-  <section class="section"><div class="container"><SectionHeader badge="❓ Preguntas frecuentes" title={`Sobre ${salon.name}`} subtitle="Resolvemos las dudas más comunes sobre este salón de fiestas infantiles." copy1="Antes de reservar, es importante que tengas toda la información necesaria. Aquí respondemos las preguntas que más nos hacen sobre este salón y cómo complementar tu evento con un inflable de BRINCOLINS." copy2="Si tienes alguna duda adicional, contacta directamente al salón por teléfono o WhatsApp. También puedes escribirnos a nosotros para cotizar un inflable para tu fiesta." /><div class="faq" style="max-width:800px; margin:0 auto;">{faqItems.map(faq => (<div class="faq__item"><button class="faq__question" aria-expanded="false"><span>{faq.question}</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>{faq.answer}</p></div></div>))}</div></div></section>
+  <section class="section"><div class="container"><SectionHeader badge="Más salones en CDMX" title="Otros salones que te pueden interesar" subtitle="Explora más opciones de salones de fiestas infantiles verificados en la Ciudad de México." copy1="Si buscas alternativas a Salón Pinwuii, aquí encontrarás otros salones con excelente calificación en Google Maps. Todos permiten inflables externos y están dentro de nuestra zona de cobertura." copy2="¿Ya elegiste tu salón? No olvides complementar la fiesta con un inflable de <strong>BRINCOLINS</strong>. Entrega e instalación incluida en cualquier salón de CDMX." /><div class="grid-4">{salonesRelacionados.map(s => <VenueCard {...s} />)}</div></div></section>
+  <section class="section section--alt"><div class="container"><SectionHeader badge="Inflables para tu fiesta" title="Lleva un inflable a tu fiesta" subtitle={`Complementa tu evento en ${salon.name} con uno de nuestros inflables. Entrega e instalación incluida.`} copy1="Todos nuestros inflables incluyen entrega, instalación, limpieza y seguro. Solo necesitas una toma de corriente y espacio suficiente en el salón. Confirma la disponibilidad de espacio al reservar tu salón." copy2="Desde castillos clásicos hasta toboganes acuáticos y pistas de obstáculos, tenemos opciones para todas las edades y presupuestos. <strong>Cotiza hoy y asegura tu fecha.</strong>" /><div class="grid-4">{inflablesPopulares.map(p => <ProductCard {...p} />)}</div></div></section>
+  <section class="section"><div class="container"><SectionHeader badge="Preguntas frecuentes" title={`Sobre ${salon.name}`} subtitle="Resolvemos las dudas más comunes sobre este salón de fiestas infantiles." copy1="Antes de reservar, es importante que tengas toda la información necesaria. Aquí respondemos las preguntas que más nos hacen sobre este salón y cómo complementar tu evento con un inflable de BRINCOLINS." copy2="Si tienes alguna duda adicional, contacta directamente al salón por teléfono o WhatsApp. También puedes escribirnos a nosotros para cotizar un inflable para tu fiesta." /><div class="faq" style="max-width:800px; margin:0 auto;">{faqItems.map(faq => (<div class="faq__item"><button class="faq__question" aria-expanded="false"><span>{faq.question}</span><span class="faq__icon">+</span></button><div class="faq__answer"><p>{faq.answer}</p></div></div>))}</div></div></section>
 
   <CtaBanner title={`¿Te gustó ${salon.name}? ¡Agrega un inflable!`} subtitle="Reserva tu inflable para complementar la fiesta. Entrega e instalación incluida en el salón que elijas." btnText="Cotizar inflable" btnHref="/cotizar/" btnSecondaryText="Ver catálogo de inflables" btnSecondaryHref="/inflables/" variant="vibrant" />
 </PageLayout>

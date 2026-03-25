@@ -1,5 +1,5 @@
 ---
-title: "🐉 ¡Lleva los Dragones Rojos a tu fiesta!"
+title: "¡Lleva los Dragones Rojos a tu fiesta!"
 description: "Todo sobre inflable-dragones-rojos-cdmx — guía completa para tu fiesta infantil en CDMX."
 publishDate: "2025-03-15"
 category: "inflables"

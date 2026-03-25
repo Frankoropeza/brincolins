@@ -1,0 +1,505 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import FaqItem    from "@/components/FaqItem.astro";
+
+const title       = "Cómo Planear una Fiesta Infantil en Jardín con Inflables | BRINCOLINS";
+const description = "Guía paso a paso para organizar la fiesta infantil perfecta en tu jardín con inflables. Espacio, seguridad, menú, inflable ideal y checklist completo para CDMX.";
+
+const faqs = [
+  { question: "¿Mi jardín es lo suficientemente grande para un inflable?", answer: "Idealmente necesitas un espacio de al menos 4×4 metros completamente plano y libre de objetos. Si tienes menos espacio, podemos ofrecerte un mini inflable de 3×3 metros. Para toboganes acuáticos, requiere mínimo 6×4 metros. Mide tu zona y contactanos — asesoramos sin compromiso." },
+  { question: "¿Qué pasa si llueve el día de la fiesta?", answer: "Los inflables funcionan bajo lluvia normal. Sin embargo, si hay tormentas eléctricas, debe apagarse por seguridad. Recomienda tener un plan B: carpa amplia o salón cercano. En la CDMX es común tener lloviznas en abril-mayo, así que prepara coberturas extras." },
+  { question: "¿Cuánta electricidad consume un inflable?", answer: "El soplador consume entre 500W y 1.5kW. Si tu instalación es estándar (127V, 15A), funciona perfecto. Si tienes dudas sobre tu capacidad eléctrica, contactanos antes para verificar. Podemos llevar generador si es necesario." },
+  { question: "¿Cuántos niños pueden jugar en un inflable a la vez?", answer: "Un castillo 4×4m soporta 6-8 niños simultáneamente. Un tobogán 6×4m hasta 10 niños. Para fiestas grandes con 25+ niños, recomendamos dos inflables o rotación de turnos (30-40 min cada grupo)." },
+  { question: "¿Es seguro dejar a los niños jugando sin supervisión?", answer: "Nunca. Siempre debe haber un adulto vigilando el inflable. No es responsabilidad del prestador, pero es esencial para evitar lesiones. Asigna a un papá o mamá solo para eso durante toda la fiesta." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog", href: "/blog/" },
+    { name: "Fiesta infantil en jardín con inflables" },
+  ]}
+>
+
+  <!-- HERO 2 COLUMNAS -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <a href="/blog/" class="art-hero__back">← Volver al blog</a>
+          <span class="hero__badge">Guías</span>
+          <h1 class="hero__title">
+            Cómo Planear una <span class="highlight">Fiesta Infantil en Jardín</span> con Inflables
+          </h1>
+          <div class="art-hero__meta">
+            <span>8 min lectura</span>
+            <span class="art-hero__sep">·</span>
+            <span>Equipo BRINCOLINS</span>
+          </div>
+          <p class="hero__desc">
+            Organiza el cumpleaños perfecto en tu jardín: medidas de espacio, checklist de seguridad, cálculo de menú, inflable ideal y cronograma de evento. Nada se improvisa.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/525531281706?text=Hola%20BRINCOLINS,%20quiero%20rentar%20un%20inflable%20para%20fiesta%20en%20jardín"
+               class="btn btn-primary btn-lg">Reservar por WhatsApp</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Una <strong>fiesta infantil en jardín</strong> es el escenario ideal para un inflable. Espacio abierto, luz natural, libertad para jugar y ese ambiente relajado que los adultos también agradecen. Pero planearla requiere más que decir "voy a rentar un brincolín". Necesitas medir, confirmar electricidad, coordinar tiempos, calcular comida y tener un plan B para el clima.
+          </p>
+          <p class="hero__copy-text">
+            En <strong>BRINCOLINS</strong> llevamos años rentando inflables en jardines de toda la <strong>CDMX, Naucalpan, Tlalnepantla, Coyoacán, Polanco, Iztapalapa</strong> y más. Hemos visto lo que funciona y lo que causa caos. Esta guía es lo que aprendimos: la checklist que necesitas, paso a paso, para que el cumpleaños salga perfecto. Al final, puedes escríbir por <strong>WhatsApp</strong> y reservas en minutos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGEN DE PORTADA -->
+  <section style="padding:0 0 1rem;">
+    <div class="container">
+      <img src="/img/blog/fiesta-jardin-inflable-cdmx.avif" alt="Fiesta infantil en jardín con inflables CDMX — BRINCOLINS" width="1200" height="675" loading="eager"
+           style="width:100%;max-height:480px;object-fit:cover;border-radius:var(--r-card);display:block;box-shadow:var(--shadow-md);" />
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <section class="section">
+    <div class="container">
+      <div class="art-layout">
+        <!-- Artículo principal -->
+        <article class="art-body">
+
+          <h2>Paso 1: Mide tu jardín (esto NO se improvisa)</h2>
+          <p>
+            Lo primero es saber exactamente qué espacio tienes. Muchas familias rentan el inflable "más bonito" del catálogo y luego descubren que no cabe. <strong>Mide largo, ancho y marca una zona completamente plana</strong>.
+          </p>
+          <p>
+            El espacio ideal debe ser:
+          </p>
+          <ul class="art-list">
+            <li><strong>Plano:</strong> Sin desniveles, charcos ni piedras. Si hay inclinación, nos da problemas de estabilidad</li>
+            <li><strong>Libre de obstáculos:</strong> Sin árboles bajitos, líneas de electricidad (cuidado!), antenas, o estructuras que límiten</li>
+            <li><strong>Con 1 metro de zona de seguridad:</strong> Espacio libre alrededor del inflable para que los niños no choquen con la cerca</li>
+            <li><strong>Acceso claro:</strong> Puerta o entrada amplia para que nuestro equipo pueda entrar con la lona del inflable</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon">📐</span>
+            <p><strong>Pro tip:</strong> Toma una foto de tu jardín desde arriba (con el celular) y comparte la zona donde irá el inflable. Así podemos confirmar sin errores si cabe el modelo que quieres.</p>
+          </div>
+
+          <h2>Paso 2: Confirma la electricidad disponible</h2>
+          <p>
+            Todos los inflables necesitan un soplador eléctrico. Es tu responsabilidad como anfitrión verificar que haya una <strong>toma de corriente (enchufe) a menos de 30 metros</strong> del área donde irá el inflable.
+          </p>
+          <p>
+            Considera esto:
+          </p>
+          <ul class="art-list">
+            <li>- El soplador necesita <strong>127V estándar</strong> (corriente normal del hogar)</li>
+            <li>- Consume entre <strong>500W y 1.5kW</strong> — verifica que tu circuito aguante (no sobrecargues)</li>
+            <li>- Si el enchufe está muy lejos, necesitas un <strong>alargador de calidad</strong> (mínimo 10 metros)</li>
+            <li>- Si NO tienes electricidad disponible, podemos rentarte un <strong>generador portátil</strong> por costo adicional</li>
+          </ul>
+
+          <h2>Paso 3: Elige el inflable correcto para tu jardín</h2>
+          <p>
+            Ahora que sabes qué espacio tienes, elige el inflable. En un jardín típico (4×6 metros o más) tienes varias opciones:
+          </p>
+          <ul class="art-list">
+            <li><strong>Mini Castillo 3×3m:</strong> Para espacios pequeños, de 3 a 8 años, hasta 6 niños. Desde $800</li>
+            <li><strong>Castillo 4×4m:</strong> Versátil, edad 3-10 años, hasta 8 niños. Desde $900</li>
+            <li><strong>Barco Pirata o Temático 5×4m:</strong> Mayor impacto visual, edad 5-12 años. Desde $1,100</li>
+            <li><strong>Tobogán Acuático 6×4m:</strong> Perfecto verano, edad 5-14 años, hasta 10 niños. Desde $1,200</li>
+          </ul>
+          <p>
+            Para una <strong>fiesta en jardín CDMX</strong>, recomendamos un <strong>Castillo temático o Barco Pirata</strong> — buen tamaño, fácil de instalar en 20 minutos, y los niños se entretienen 3-4 horas seguidas.
+          </p>
+
+          <h2>Paso 4: Prepara el jardín el día anterior</h2>
+          <p>
+            <strong>Un día antes de la fiesta:</strong>
+          </p>
+          <ul class="art-list">
+            <li>☐ Limpia la zona del inflable: retira juguetes, ramas, piedras</li>
+            <li>☐ Corta el pasto si lo necesita (pasto alto afecta estabilidad)</li>
+            <li>☐ Verifica que el piso esté seco o ponlo a secar con cuidado</li>
+            <li>☐ Retira macetas y objetos decorativos de esa zona</li>
+            <li>☐ Pon línea de seguridad: cuerda o cintas alrededor del inflable para marcar zona</li>
+            <li>☐ Prepara estacionamiento: los papás llegaran a la vez, necesitas espacio</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon">⚡</span>
+            <p><strong>Seguridad eléctrica:</strong> Aisle los cables del soplador en una zona donde los adultos sepan dónde están. No deben quedar sueltos donde alguien tropiece.</p>
+          </div>
+
+          <h2>Paso 5: Coordina instalación y cronograma</h2>
+          <p>
+            Cuando reserved el inflable con BRINCOLINS, confirmamos <strong>horario exacto de entrega</strong>. Típicamente es así:
+          </p>
+          <div class="art-timeline">
+            <div class="art-timeline__item">
+              <span class="art-timeline__time">-30min</span>
+              <div class="art-timeline__content">
+                <strong>Llega nuestro equipo</strong> — Se instala el inflable, se prueba, toma 15-20 minutos
+              </div>
+            </div>
+            <div class="art-timeline__item">
+              <span class="art-timeline__time">0:00</span>
+              <div class="art-timeline__content">
+                <strong>Comienza la fiesta</strong> — Inflable listo, recepción de invitados
+              </div>
+            </div>
+            <div class="art-timeline__item">
+              <span class="art-timeline__time">1:00h</span>
+              <div class="art-timeline__content">
+                <strong>Pico de actividad</strong> — Los niños están en el inflable a todo volumen
+              </div>
+            </div>
+            <div class="art-timeline__item">
+              <span class="art-timeline__time">2:30h</span>
+              <div class="art-timeline__content">
+                <strong>Comida y pastel</strong> — Pausa del inflable, piñata, velas
+              </div>
+            </div>
+            <div class="art-timeline__item">
+              <span class="art-timeline__time">3:30h</span>
+              <div class="art-timeline__content">
+                <strong>Tiempo libre</strong> — Inflable, juegos, despedidas
+              </div>
+            </div>
+            <div class="art-timeline__item">
+              <span class="art-timeline__time">4:00h</span>
+              <div class="art-timeline__content">
+                <strong>Se retira el equipo</strong> — Nuestro equipo recoge el inflable
+              </div>
+            </div>
+          </div>
+
+          <h2>Paso 6: Calcula menú y cantidad de comida</h2>
+          <p>
+            <strong>Regla de oro:</strong> Los niños en fiesta comen poco (están entretenidos). Calcula <strong>60% de lo que normalmente comen</strong>.
+          </p>
+          <p>
+            Para una fiesta con 20 niños:
+          </p>
+          <ul class="art-list">
+            <li><strong>Taquiza:</strong> 40-50 tacos (3-4 tacos por niño, pero muchos no terminan)</li>
+            <li><strong>Bebidas:</strong> 1.5 litros por cada 10 niños (agua, jugos, refrescos)</li>
+            <li><strong>Frutas:</strong> Sandía, piña, melón (frescura total, especialmente con un tobogán acuático)</li>
+            <li><strong>Dulces:</strong> Mesa de dulces (chicles, paletas, choclocolates) — los niños siempre quieren más</li>
+            <li><strong>Pastel:</strong> 1/4 de kilo por cada 5-6 niños (un pastel de 2kg rinde para 20 niños)</li>
+          </ul>
+
+          <h2>Paso 7: Seguridad — lo que NO debes olvidar</h2>
+          <p>
+            Las fiestas en jardín son relajadas, pero la seguridad de los niños es lo primero:
+          </p>
+          <ul class="art-list">
+            <li>☐ <strong>Zona de vigilancia:</strong> Un adulto designado viendo el inflable TODO el tiempo (no dos minutos, TODO)</li>
+            <li>☐ <strong>Reglas claras:</strong> Comunica a los niños: nada de gafas, nada de objetos duros, turnos ordenados</li>
+            <li>☐ <strong>Botiquín:</strong> Curitas, gasas, alcohol — los rasguños en el inflable son raros pero pasan</li>
+            <li>☐ <strong>Clima:</strong> Si llueve, toma la decisión rápido (continúa o pausa)</li>
+            <li>☐ <strong>Energía y cansancio:</strong> Después de 3 horas, algunos niños están agotados — cambia a actividades más tranquilas</li>
+          </ul>
+
+          <div class="art-tip">
+            <span class="art-tip__icon">🛡️</span>
+            <p><strong>Nunca dejes que los niños jueguen sin vigilancia.</strong> Aunque el inflable es seguro, los accidentes ocurren cuando nadie mira. Asigna a un adulto solo para eso.</p>
+          </div>
+
+          <h2>Paso 8: Plan B para el clima</h2>
+          <p>
+            En CDMX, marzo a mayo es temporada de lloviznas esporádicas. Tener un plan B NO es paranoia, es profesionalismo.
+          </p>
+          <ul class="art-list">
+            <li>- <strong>Carpa grande:</strong> Si es llovizna, cubre el área del inflable</li>
+            <li>- <strong>Salón alternativo:</strong> Negocia con un amigo o vecino por si truena</li>
+            <li>- <strong>Posponer:</strong> Contacta con BRINCOLINS para cambiar fecha (hasta 48h antes)</li>
+            <li>- <strong>Reprograma rápido:</strong> Con nuestro equipo, podemos mover la renta al próximo fin de semana disponible</li>
+          </ul>
+
+          <h2>Checklist final: 3 días antes de la fiesta</h2>
+          <p>
+            Imprimi esto y checa:
+          </p>
+          <ol class="art-list art-list--ordered">
+            <li>☐ Jardín medido y zona de inflable confirmada con BRINCOLINS</li>
+            <li>☐ Electricidad verificada (enchufe disponible a <30m)</li>
+            <li>☐ Inflable reservado con 50% de anticipo</li>
+            <li>☐ Catering o menú confirmado</li>
+            <li>☐ Pastel ordenado</li>
+            <li>☐ Invitaciones enviadas, confirmaciones recibidas</li>
+            <li>☐ Decoración comprada (globos, guirnaldas)</li>
+            <li>☐ Botiquín básico listo</li>
+            <li>☐ Carpa o plan de lluvia definido</li>
+            <li>☐ Adulto designado para vigilancia del inflable</li>
+          </ol>
+
+          <h2>Listo. Ahora, reserva tu inflable</h2>
+          <p>
+            Si tu jardín mide más de 4×4m, tienes electricidad disponible y estás en <strong>CDMX, Naucalpan, Tlalnepantla, Coyoacán o zonas aledañas</strong>, podemos ayudarte. 
+          </p>
+          <p>
+            Escribe por <strong>WhatsApp</strong> con estos datos:
+          </p>
+          <ul class="art-list">
+            <li>- Fecha de la fiesta</li>
+            <li>- Edad del cumpleañero</li>
+            <li>- Número de niños invitados</li>
+            <li>- Tamaño aproximado de tu jardín (o envía foto)</li>
+            <li>- Temática o inflable que te interesa</li>
+          </ul>
+          <p>
+            Te respondemos en minutos con cotización, opciones de inflables y disponibilidad. Es gratis y sin compromiso.
+          </p>
+
+        </article>
+
+        <!-- Sidebar -->
+        <aside class="art-sidebar">
+          <div class="art-sidebar__box">
+            <h3 class="art-sidebar__title">Reserva tu inflable</h3>
+            <p class="art-sidebar__text">Manda un WhatsApp con los detalles de tu evento. Respondemos en minutos.</p>
+            <a
+              href="https://wa.me/525531281706?text=Hola%20BRINCOLINS,%20quiero%20rentar%20un%20inflable%20para%20fiesta%20infantil"
+              class="btn btn-primary"
+              style="width:100%;justify-content:center;"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Escribir por WhatsApp
+            </a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--links">
+            <h3 class="art-sidebar__title">Más artículos</h3>
+            <a href="/blog/como-elegir-inflable-fiesta-infantil/" class="art-sidebar__link">→ Cómo elegir el inflable perfecto</a>
+            <a href="/blog/ideas-fiesta-infantil-cdmx/" class="art-sidebar__link">→ 10 ideas para fiesta infantil CDMX</a>
+            <a href="/blog/consejos-rentar-inflable-primera-vez/" class="art-sidebar__link">→ Primera vez rentando inflables</a>
+          </div>
+
+          <div class="art-sidebar__box art-sidebar__box--cat">
+            <h3 class="art-sidebar__title">Inflables para jardín</h3>
+            <a href="/inflables/castillo-princesas/" class="art-sidebar__link">→ Castillo Princesas — desde $900</a>
+            <a href="/inflables/barco-pirata/" class="art-sidebar__link">→ Barco Pirata — desde $950</a>
+            <a href="/inflables/tobogan-acuatico/" class="art-sidebar__link">→ Tobogán Acuático — desde $1,200</a>
+            <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Ver todos los inflables</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div style="max-width:800px; margin:0 auto;">
+        <h2 class="section-title" style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <CtaBanner
+    title="Tu fiesta en jardín merece el inflable perfecto"
+    subtitle="Renta con BRINCOLINS: entrega, instalación, vigilancia y seguro incluidos. Disponibles en CDMX y alrededores."
+    btnText="Reservar ahora por WhatsApp"
+    btnHref="https://wa.me/525531281706?text=Hola%20BRINCOLINS,%20quiero%20rentar%20un%20inflable%20para%20mi%20fiesta%20en%20jardín"
+    btnSecondaryText="Ver catálogo"
+    btnSecondaryHref="/inflables/"
+    variant="festa"
+  />
+
+</PageLayout>
+
+<style>
+  .art-hero__back {
+    font-size: 0.85rem;
+    color: var(--c-primary);
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: gap 0.2s;
+    margin-bottom: 0.5rem;
+  }
+  .art-hero__back:hover { gap: 0.6rem; }
+
+  .art-hero__meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    color: var(--c-text-muted);
+    margin-bottom: 0.5rem;
+  }
+  .art-hero__sep { opacity: 0.4; }
+
+  .art-layout {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  .art-body {
+    min-width: 0;
+  }
+
+  .art-body h2 {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    color: var(--c-text);
+    margin: 2.5rem 0 1rem;
+    padding-top: 0.5rem;
+    border-top: 3px solid var(--c-primary);
+  }
+
+  .art-body h2:first-child { margin-top: 0; }
+
+  .art-body p {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: var(--c-text);
+    margin: 0 0 1.25rem;
+  }
+
+  .art-body strong { color: var(--c-primary); font-weight: 700; }
+
+  .art-tip {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    background: #fff8f5;
+    border-left: 4px solid var(--c-primary);
+    border-radius: 0 var(--r-card) var(--r-card) 0;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .art-tip__icon { font-size: 1.5rem; flex-shrink: 0; }
+  .art-tip p { margin: 0; font-size: 0.95rem; }
+
+  .art-list {
+    padding-left: 1.5rem;
+    margin: 0 0 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .art-list li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--c-text);
+    list-style: disc;
+  }
+
+  .art-list--ordered li { list-style: decimal; }
+
+  .art-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 1rem 0 1.5rem;
+  }
+
+  .art-timeline__item {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--c-border);
+  }
+
+  .art-timeline__item:last-child { border-bottom: none; }
+
+  .art-timeline__time {
+    font-family: var(--font-head);
+    font-weight: 900;
+    font-size: 1rem;
+    color: var(--c-primary);
+    flex-shrink: 0;
+    min-width: 3rem;
+  }
+
+  .art-timeline__content {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--c-text);
+  }
+
+  .art-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: sticky;
+    top: 90px;
+  }
+
+  .art-sidebar__box {
+    background: var(--c-bg-alt);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .art-sidebar__box--links,
+  .art-sidebar__box--cat { gap: 0.5rem; }
+
+  .art-sidebar__title {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 1rem;
+    color: var(--c-text);
+    margin: 0;
+  }
+
+  .art-sidebar__text {
+    font-size: 0.9rem;
+    color: var(--c-text-muted);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .art-sidebar__link {
+    font-size: 0.88rem;
+    color: var(--c-primary);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.35rem 0;
+    display: block;
+    border-bottom: 1px solid var(--c-border);
+    transition: padding-left 0.2s;
+  }
+  .art-sidebar__link:last-child { border-bottom: none; }
+  .art-sidebar__link:hover { padding-left: 0.4rem; }
+  .art-sidebar__link--cta { color: var(--c-secondary); font-weight: 800; }
+
+  @media (max-width: 960px) {
+    .art-layout {
+      grid-template-columns: 1fr;
+    }
+    .art-sidebar {
+      position: static;
+    }
+  }
+</style>

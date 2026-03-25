@@ -1,5 +1,5 @@
 ---
-title: "🎢 ¡Lleva un inflable grande con tobogán a tu evento!"
+title: "¡Lleva un inflable grande con tobogán a tu evento!"
 description: "Todo sobre inflables-grandes-con-tobogan-cdmx — guía completa para tu fiesta infantil en CDMX."
 publishDate: "2025-03-15"
 category: "inflables"

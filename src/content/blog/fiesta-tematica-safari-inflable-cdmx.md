@@ -1,5 +1,5 @@
 ---
-title: "🦁 ¡Organiza la fiesta safari perfecta!"
+title: "¡Organiza la fiesta safari perfecta!"
 description: "Todo sobre fiesta-tematica-safari-inflable-cdmx — guía completa para tu fiesta infantil en CDMX."
 publishDate: "2025-03-15"
 category: "fiestas"

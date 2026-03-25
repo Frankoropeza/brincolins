@@ -14,7 +14,7 @@ const description = "Renta el inflable Barco Pirata de 7×5×4m para fiestas en 
 
 const inflable = {
   slug: "barco-pirata",
-  emoji: "🚢",
+  emoji: "",
   name: "Barco Pirata",
   price: "$2,500",
   priceNum: 2500,
@@ -142,13 +142,13 @@ const ctaBarItems = [
     <div class="container">
       <div class="hero__grid">
         <div>
-          <span class="hero__badge">🚢 Aventura pirata de gran tamaño</span>
+          <span class="hero__badge">Aventura pirata de gran tamaño</span>
           <h1 class="hero__title">Renta <span class="highlight">Barco Pirata</span> para tu Fiesta</h1>
           <div class="hero__specs">
-            <span class="hero__spec">📏 {inflable.size}</span>
-            <span class="hero__spec">👶 {inflable.ages}</span>
-            <span class="hero__spec">👥 {inflable.capacity}</span>
-            <span class="hero__spec">💰 Desde {inflable.price} MXN</span>
+            <span class="hero__spec">Tamaño: {inflable.size}</span>
+            <span class="hero__spec">Edad: {inflable.ages}</span>
+            <span class="hero__spec">Capacidad: {inflable.capacity}</span>
+            <span class="hero__spec">Desde {inflable.price} MXN</span>
           </div>
           <div class="hero__ctas">
             <a href="/contacto/" class="btn btn-primary btn-lg">Solicitar cotización</a>
@@ -167,33 +167,33 @@ const ctaBarItems = [
 
   <section class="section" id="galeria">
     <div class="container">
-      <SectionHeader badge="📸 Galería" title={`Galería del ${inflable.name} en fiestas reales`} subtitle="Imágenes reales de nuestros eventos" copy1="El Barco Pirata impresiona desde cualquier ángulo: su imponente estructura de 4 metros de altura con decoración de anclas, calaveras y colores azul marino lo convierte en el centro de atención de cualquier evento al aire libre." copy2="Estas fotografías son de fiestas reales en CDMX y Estado de México donde el Barco Pirata fue la atracción estrella. Los niños no quieren bajarse de esta aventura inflable." />
+      <SectionHeader badge="Galería" title={`Galería del ${inflable.name} en fiestas reales`} subtitle="Imágenes reales de nuestros eventos" copy1="El Barco Pirata impresiona desde cualquier ángulo: su imponente estructura de 4 metros de altura con decoración de anclas, calaveras y colores azul marino lo convierte en el centro de atención de cualquier evento al aire libre." copy2="Estas fotografías son de fiestas reales en CDMX y Estado de México donde el Barco Pirata fue la atracción estrella. Los niños no quieren bajarse de esta aventura inflable." />
       <Gallery4x4 images={galleryImages} />
     </div>
   </section>
 
   <section class="section section--alt" id="precios">
     <div class="container">
-      <SectionHeader badge="💰 Paquetes" title={`¿Cuánto cuesta rentar el ${inflable.name} en CDMX?`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="El Barco Pirata es ideal para fiestas grandes donde necesitas una atracción que mantenga entretenidos a muchos niños al mismo tiempo. Con capacidad para 15 niños, el costo por invitado es increíblemente accesible." copy2="El paquete Estándar es el más solicitado porque incluye instalación profesional y seguro de responsabilidad civil. Para kermeses y eventos escolares, el paquete Día Completo ofrece 12 horas continuas de diversión." />
+      <SectionHeader badge="Paquetes" title={`¿Cuánto cuesta rentar el ${inflable.name} en CDMX?`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="El Barco Pirata es ideal para fiestas grandes donde necesitas una atracción que mantenga entretenidos a muchos niños al mismo tiempo. Con capacidad para 15 niños, el costo por invitado es increíblemente accesible." copy2="El paquete Estándar es el más solicitado porque incluye instalación profesional y seguro de responsabilidad civil. Para kermeses y eventos escolares, el paquete Día Completo ofrece 12 horas continuas de diversión." />
       <PricingCards packages={pricingPackages} />
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <SectionHeader badge="❓ Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Barco Pirata es nuestro inflable mediano más impresionante y es normal tener dudas sobre espacio, capacidad e instalación. Aquí respondemos las preguntas que más nos hacen nuestros clientes." copy2="¿Tienes una pregunta que no aparece aquí? Escríbenos por WhatsApp y nuestro equipo te responde en minutos con toda la información que necesitas para tu evento." />
+      <SectionHeader badge="Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Barco Pirata es nuestro inflable mediano más impresionante y es normal tener dudas sobre espacio, capacidad e instalación. Aquí respondemos las preguntas que más nos hacen nuestros clientes." copy2="¿Tienes una pregunta que no aparece aquí? Escríbenos por WhatsApp y nuestro equipo te responde en minutos con toda la información que necesitas para tu evento." />
     </div>
     <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
   </section>
 
   <section class="section section--alt">
     <div class="container">
-      <SectionHeader badge="🎈 Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y seguro incluidos" copy1="Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana." copy2="Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza y recibe respuesta en minutos." />
+      <SectionHeader badge="Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y seguro incluidos" copy1="Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana." copy2="Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza y recibe respuesta en minutos." />
       <div class="grid-4">
-        <ProductCard slug="extremo" emoji="🏁" name="Extremo" description="Circuito de 12m con obstáculos y tobogán doble." price="$3,000" size="12×4×3m" ages="6+ años" category="Extremo" categoryColor="extremo" gradient="#E65100, #BF360C" image="/img/inflables/extremo.avif" />
-        <ProductCard slug="castillo-blanco" emoji="🤍" name="Castillo Blanco" description="Elegante para bodas, bautizos y XV años." price="$2,800" size="6×5×4m" ages="3+ años" category="Bodas" categoryColor="bodas" gradient="#7E57C2, #9575CD" image="/img/inflables/castillo-blanco.avif" />
-        <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más popular con dragones de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Castillo" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
-        <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
+        <ProductCard slug="extremo" emoji="" name="Extremo" description="Circuito de 12m con obstáculos y tobogán doble." price="$3,000" size="12×4×3m" ages="6+ años" category="Extremo" categoryColor="extremo" gradient="#E65100, #BF360C" image="/img/inflables/extremo.avif" />
+        <ProductCard slug="castillo-blanco" emoji="" name="Castillo Blanco" description="Elegante para bodas, bautizos y XV años." price="$2,800" size="6×5×4m" ages="3+ años" category="Bodas" categoryColor="bodas" gradient="#7E57C2, #9575CD" image="/img/inflables/castillo-blanco.avif" />
+        <ProductCard slug="dragones-rojos" emoji="" name="Dragones Rojos" description="El más popular con dragones de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Castillo" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
+        <ProductCard slug="castillo-princesas" emoji="" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
       </div>
     </div>
   </section>

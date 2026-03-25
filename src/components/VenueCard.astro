@@ -32,8 +32,7 @@ const telHref = `tel:+52${phone.replace(/\s/g, "")}`;
 
 <article class="product-card">
   <div class="product-card__image" style={`background: ${gradient};`}>
-    <span>{label}</span>
-    <span class="product-card__category">⭐ {rating}</span>
+    <span class="product-card__category">{rating}★</span>
   </div>
 
   <div class="product-card__body">
@@ -41,9 +40,9 @@ const telHref = `tel:+52${phone.replace(/\s/g, "")}`;
     <p class="product-card__desc">{highlight}</p>
 
     <div class="product-card__info">
-      <span class="product-card__tag">📍 {zone}</span>
-      <span class="product-card__tag">👥 {capacity}</span>
-      <span class="product-card__tag">📞 {phone}</span>
+      <span class="product-card__tag">{zone}</span>
+      <span class="product-card__tag">{capacity}</span>
+      <span class="product-card__tag">{phone}</span>
     </div>
 
     <div class="venue-card__features" style="margin-bottom:1rem;">

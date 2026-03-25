@@ -1,5 +1,5 @@
 ---
-title: "🎭 ¡Elige tu inflable temático favorito!"
+title: "¡Elige tu inflable temático favorito!"
 description: "Todo sobre inflables-tematicos-infantiles-cdmx — guía completa para tu fiesta infantil en CDMX."
 publishDate: "2025-03-15"
 category: "inflables"

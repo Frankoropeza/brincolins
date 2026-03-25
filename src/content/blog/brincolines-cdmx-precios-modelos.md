@@ -1,5 +1,5 @@
 ---
-title: "💰 ¡Los mejores precios en brincolines de CDMX!"
+title: "¡Los mejores precios en brincolines de CDMX!"
 description: "Todo sobre brincolines-cdmx-precios-modelos — guía completa para tu fiesta infantil en CDMX."
 publishDate: "2025-03-15"
 category: "precios"

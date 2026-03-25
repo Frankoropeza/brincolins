@@ -14,7 +14,7 @@ const description = "Renta el circuito inflable Extremo de 12m con obstáculos y
 
 const inflable = {
   slug: "extremo",
-  emoji: "🏁",
+  emoji: "",
   name: "Extremo",
   price: "$3,000",
   priceNum: 3000,
@@ -147,13 +147,13 @@ const ctaBarItems = [
     <div class="container">
       <div class="hero__grid">
         <div>
-          <span class="hero__badge">🏁 El inflable más grande del catálogo</span>
+          <span class="hero__badge">El inflable más grande del catálogo</span>
           <h1 class="hero__title">Renta <span class="highlight">Extremo</span> para tu Fiesta</h1>
           <div class="hero__specs">
-            <span class="hero__spec">📏 {inflable.size}</span>
-            <span class="hero__spec">👶 {inflable.ages}</span>
-            <span class="hero__spec">👥 {inflable.capacity}</span>
-            <span class="hero__spec">💰 Desde {inflable.price} MXN</span>
+            <span class="hero__spec">Tamaño: {inflable.size}</span>
+            <span class="hero__spec">Edad: {inflable.ages}</span>
+            <span class="hero__spec">Capacidad: {inflable.capacity}</span>
+            <span class="hero__spec">Desde {inflable.price} MXN</span>
           </div>
           <div class="hero__ctas">
             <a href="/contacto/" class="btn btn-primary btn-lg">Solicitar cotización</a>
@@ -172,33 +172,33 @@ const ctaBarItems = [
 
   <section class="section" id="galeria">
     <div class="container">
-      <SectionHeader badge="📸 Galería" title={`Galería del ${inflable.name} en fiestas reales`} subtitle="Imágenes reales de nuestros eventos" copy1="El circuito Extremo impresiona por su tamaño: 12 metros de pura diversión inflable que domina cualquier espacio al aire libre. Estas fotos muestran el Extremo en eventos reales como kermeses, fiestas corporativas y cumpleaños en CDMX y Estado de México." copy2="Desde la pista de obstáculos hasta el tobogán doble, cada sección del Extremo ofrece una experiencia diferente. Los participantes corren, escalan, esquivan y se deslizan en un circuito que no deja a nadie sentado." />
+      <SectionHeader badge="Galería" title={`Galería del ${inflable.name} en fiestas reales`} subtitle="Imágenes reales de nuestros eventos" copy1="El circuito Extremo impresiona por su tamaño: 12 metros de pura diversión inflable que domina cualquier espacio al aire libre. Estas fotos muestran el Extremo en eventos reales como kermeses, fiestas corporativas y cumpleaños en CDMX y Estado de México." copy2="Desde la pista de obstáculos hasta el tobogán doble, cada sección del Extremo ofrece una experiencia diferente. Los participantes corren, escalan, esquivan y se deslizan en un circuito que no deja a nadie sentado." />
       <Gallery4x4 images={galleryImages} />
     </div>
   </section>
 
   <section class="section section--alt" id="precios">
     <div class="container">
-      <SectionHeader badge="💰 Paquetes" title={`¿Cuánto cuesta rentar el ${inflable.name} en CDMX?`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="El Extremo es nuestra opción premium para eventos que necesitan una atracción de alto impacto. Con su doble carril y rotación rápida, puede entretener a cientos de personas en un solo evento, haciendo que el costo por participante sea mínimo." copy2="Para eventos corporativos y kermeses recomendamos el paquete Día Completo que incluye 12 horas, 2 operadores dedicados y seguro de responsabilidad civil. Los operadores organizan torneos y gestionan la rotación de participantes." />
+      <SectionHeader badge="Paquetes" title={`¿Cuánto cuesta rentar el ${inflable.name} en CDMX?`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="El Extremo es nuestra opción premium para eventos que necesitan una atracción de alto impacto. Con su doble carril y rotación rápida, puede entretener a cientos de personas en un solo evento, haciendo que el costo por participante sea mínimo." copy2="Para eventos corporativos y kermeses recomendamos el paquete Día Completo que incluye 12 horas, 2 operadores dedicados y seguro de responsabilidad civil. Los operadores organizan torneos y gestionan la rotación de participantes." />
       <PricingCards packages={pricingPackages} />
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <SectionHeader badge="❓ Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Extremo es un inflable único por su tamaño y formato de circuito competitivo. Es normal tener preguntas sobre espacio, capacidad y logística. Aquí respondemos las dudas más frecuentes de empresas y organizadores de eventos." copy2="Si necesitas información adicional para tu evento corporativo o escolar, contáctanos por WhatsApp. Podemos enviar fichas técnicas, fotos adicionales y cotizaciones personalizadas para eventos grandes." />
+      <SectionHeader badge="Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Extremo es un inflable único por su tamaño y formato de circuito competitivo. Es normal tener preguntas sobre espacio, capacidad y logística. Aquí respondemos las dudas más frecuentes de empresas y organizadores de eventos." copy2="Si necesitas información adicional para tu evento corporativo o escolar, contáctanos por WhatsApp. Podemos enviar fichas técnicas, fotos adicionales y cotizaciones personalizadas para eventos grandes." />
     </div>
     <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
   </section>
 
   <section class="section section--alt">
     <div class="container">
-      <SectionHeader badge="🎈 Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y seguro incluidos" copy1="Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana." copy2="Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza y recibe respuesta en minutos." />
+      <SectionHeader badge="Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y seguro incluidos" copy1="Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana." copy2="Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza y recibe respuesta en minutos." />
       <div class="grid-4">
-        <ProductCard slug="barco-pirata" emoji="🚢" name="Barco Pirata" description="Aventura pirata con resbaladilla de altura." price="$2,500" size="7×5×4m" ages="3-12 años" category="Aventura" categoryColor="pirata" gradient="#1565C0, #0D47A1" image="/img/inflables/barco-pirata.avif" />
-        <ProductCard slug="castillo-blanco" emoji="🤍" name="Castillo Blanco" description="Elegante para bodas, bautizos y XV años." price="$2,800" size="6×5×4m" ages="3+ años" category="Bodas" categoryColor="bodas" gradient="#7E57C2, #9575CD" image="/img/inflables/castillo-blanco.avif" />
-        <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más popular con dragones de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Castillo" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
-        <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
+        <ProductCard slug="barco-pirata" emoji="" name="Barco Pirata" description="Aventura pirata con resbaladilla de altura." price="$2,500" size="7×5×4m" ages="3-12 años" category="Aventura" categoryColor="pirata" gradient="#1565C0, #0D47A1" image="/img/inflables/barco-pirata.avif" />
+        <ProductCard slug="castillo-blanco" emoji="" name="Castillo Blanco" description="Elegante para bodas, bautizos y XV años." price="$2,800" size="6×5×4m" ages="3+ años" category="Bodas" categoryColor="bodas" gradient="#7E57C2, #9575CD" image="/img/inflables/castillo-blanco.avif" />
+        <ProductCard slug="dragones-rojos" emoji="" name="Dragones Rojos" description="El más popular con dragones de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Castillo" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
+        <ProductCard slug="castillo-princesas" emoji="" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
       </div>
     </div>
   </section>

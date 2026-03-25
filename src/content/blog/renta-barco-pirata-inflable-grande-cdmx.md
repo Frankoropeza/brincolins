@@ -1,5 +1,5 @@
 ---
-title: "🏴‍☠️ ¡Zarpa hacia la diversión con el barco pirata!"
+title: "¡Zarpa hacia la diversión con el barco pirata!"
 description: "Todo sobre renta-barco-pirata-inflable-grande-cdmx — guía completa para tu fiesta infantil en CDMX."
 publishDate: "2025-03-15"
 category: "inflables"

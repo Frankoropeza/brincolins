@@ -8,22 +8,22 @@ const title = "Renta de Inflables en la Ciudad de México — Las 16 Alcaldías 
 const description = "Renta de inflables y brincolines en las 16 alcaldías de la CDMX. Entrega incluida en la mayoría de las zonas, instalación profesional y precios accesibles.";
 
 const alcaldias = [
-  { slug:"alvaro-obregon", emoji:"🏙️", name:"Álvaro Obregón", description:"Santa Fe, San Ángel, Pedregal y Altavista con entrega incluida.", colonias:["Santa Fe","San Ángel","Pedregal","Lomas Altas"], envio:"Incluido", gradient:"linear-gradient(135deg,#1565C0,#0288D1)" },
-  { slug:"azcapotzalco", emoji:"🏭", name:"Azcapotzalco", description:"Del Gas, Clavería, Pasteros y Santa Bárbara con entrega sin costo.", colonias:["Del Gas","Clavería","Pasteros","Santa Bárbara"], envio:"Incluido", gradient:"linear-gradient(135deg,#7C3AED,#9C27B0)" },
-  { slug:"benito-juarez", emoji:"⭐", name:"Benito Juárez", description:"Del Valle, Narvarte, Nápoles y Portales — zona más solicitada, envío gratis.", colonias:["Del Valle","Narvarte","Nápoles","Portales"], envio:"Incluido", gradient:"linear-gradient(135deg,#FF3D00,#FF6D00)" },
-  { slug:"coyoacan", emoji:"🦌", name:"Coyoacán", description:"Coyoacán Centro, Pedregal, Villa Coapa y Copilco con instalación incluida.", colonias:["Coyoacán Centro","Pedregal","Villa Coapa","Copilco"], envio:"Incluido", gradient:"linear-gradient(135deg,#2E7D32,#00C853)" },
-  { slug:"cuajimalpa", emoji:"🌲", name:"Cuajimalpa", description:"Santa Fe, Cuajimalpa Centro y Contadero con entrega puntual.", colonias:["Santa Fe","Cuajimalpa Centro","Contadero","El Molinito"], envio:"Incluido", gradient:"linear-gradient(135deg,#00796B,#009688)" },
-  { slug:"cuauhtemoc", emoji:"🏛️", name:"Cuauhtémoc", description:"Centro Histórico, Roma, Condesa y Juárez con entrega rápida.", colonias:["Centro Histórico","Roma Norte","Condesa","Juárez"], envio:"Incluido", gradient:"linear-gradient(135deg,#B71C1C,#E53935)" },
-  { slug:"gustavo-a-madero", emoji:"🕍", name:"Gustavo A. Madero", description:"Lindavista, Vallejo, Tepeyac, La Villa y toda la alcaldía GAM.", colonias:["Lindavista","Vallejo","Tepeyac","Aragón"], envio:"Incluido", gradient:"linear-gradient(135deg,#E65100,#FF6F00)" },
-  { slug:"iztacalco", emoji:"🌆", name:"Iztacalco", description:"Pantitlán, Agrícola Oriental, Granjas México y Viaducto.", colonias:["Pantitlán","Agrícola Oriental","Granjas México","Viaducto"], envio:"Incluido", gradient:"linear-gradient(135deg,#0288D1,#01579B)" },
-  { slug:"iztapalapa", emoji:"🌇", name:"Iztapalapa", description:"Ermita, UAM, Santa Martha y Peñón con entrega a bajo costo.", colonias:["Ermita Iztapalapa","UAM","Santa Martha","Peñón"], envio:"$100–$150", gradient:"linear-gradient(135deg,#558B2F,#7CB342)" },
-  { slug:"magdalena-contreras", emoji:"🌿", name:"Magdalena Contreras", description:"La Magdalena, San Jerónimo y Barranca del Muerto.", colonias:["La Magdalena","San Jerónimo","Barranca del Muerto","El Rosal"], envio:"Incluido", gradient:"linear-gradient(135deg,#4A148C,#6A1B9A)" },
-  { slug:"miguel-hidalgo", emoji:"👑", name:"Miguel Hidalgo", description:"Polanco, Lomas de Chapultepec, Tacuba y Anzures.", colonias:["Polanco","Lomas de Chapultepec","Tacuba","Anzures"], envio:"Incluido", gradient:"linear-gradient(135deg,#E91E8C,#7C3AED)" },
-  { slug:"milpa-alta", emoji:"🌵", name:"Milpa Alta", description:"Milpa Alta Centro, San Pedro Atocpan y San Pablo Oztotepec.", colonias:["Milpa Alta Centro","San Pedro Atocpan","San Pablo Oztotepec","Villa Milpa Alta"], envio:"$200–$300", gradient:"linear-gradient(135deg,#827717,#F9A825)" },
-  { slug:"tlahuac", emoji:"🌾", name:"Tláhuac", description:"Tláhuac Centro, La Nopalera, Zapotitla y Los Olivos.", colonias:["Tláhuac Centro","La Nopalera","Zapotitla","Los Olivos"], envio:"$100–$200", gradient:"linear-gradient(135deg,#1B5E20,#388E3C)" },
-  { slug:"tlalpan", emoji:"🏔️", name:"Tlalpan", description:"Villa Coapa, Pedregal de San Nicolás, Ajusco y toda la alcaldía.", colonias:["Villa Coapa","Pedregal de San Nicolás","Topilejo","Ajusco"], envio:"Incluido", gradient:"linear-gradient(135deg,#1565C0,#0D47A1)" },
-  { slug:"venustiano-carranza", emoji:"✈️", name:"Venustiano Carranza", description:"Jardín Balbuena, Moctezuma, Merced y zona aeropuerto.", colonias:["Jardín Balbuena","Moctezuma","Aeropuerto","Merced"], envio:"Incluido", gradient:"linear-gradient(135deg,#00695C,#00897B)" },
-  { slug:"xochimilco", emoji:"🛶", name:"Xochimilco", description:"Xochimilco Centro, San Gregorio, Tulyehualco y Tepepan.", colonias:["Xochimilco Centro","San Gregorio","Tulyehualco","Tepepan"], envio:"$100–$150", gradient:"linear-gradient(135deg,#006064,#0097A7)" },
+  { slug:"alvaro-obregon", emoji:"", name:"Álvaro Obregón", description:"Santa Fe, San Ángel, Pedregal y Altavista con entrega incluida.", colonias:["Santa Fe","San Ángel","Pedregal","Lomas Altas"], envio:"Incluido", gradient:"linear-gradient(135deg,#1565C0,#0288D1)" },
+  { slug:"azcapotzalco", emoji:"", name:"Azcapotzalco", description:"Del Gas, Clavería, Pasteros y Santa Bárbara con entrega sin costo.", colonias:["Del Gas","Clavería","Pasteros","Santa Bárbara"], envio:"Incluido", gradient:"linear-gradient(135deg,#7C3AED,#9C27B0)" },
+  { slug:"benito-juarez", emoji:"", name:"Benito Juárez", description:"Del Valle, Narvarte, Nápoles y Portales — zona más solicitada, envío gratis.", colonias:["Del Valle","Narvarte","Nápoles","Portales"], envio:"Incluido", gradient:"linear-gradient(135deg,#FF3D00,#FF6D00)" },
+  { slug:"coyoacan", emoji:"", name:"Coyoacán", description:"Coyoacán Centro, Pedregal, Villa Coapa y Copilco con instalación incluida.", colonias:["Coyoacán Centro","Pedregal","Villa Coapa","Copilco"], envio:"Incluido", gradient:"linear-gradient(135deg,#2E7D32,#00C853)" },
+  { slug:"cuajimalpa", emoji:"", name:"Cuajimalpa", description:"Santa Fe, Cuajimalpa Centro y Contadero con entrega puntual.", colonias:["Santa Fe","Cuajimalpa Centro","Contadero","El Molinito"], envio:"Incluido", gradient:"linear-gradient(135deg,#00796B,#009688)" },
+  { slug:"cuauhtemoc", emoji:"", name:"Cuauhtémoc", description:"Centro Histórico, Roma, Condesa y Juárez con entrega rápida.", colonias:["Centro Histórico","Roma Norte","Condesa","Juárez"], envio:"Incluido", gradient:"linear-gradient(135deg,#B71C1C,#E53935)" },
+  { slug:"gustavo-a-madero", emoji:"", name:"Gustavo A. Madero", description:"Lindavista, Vallejo, Tepeyac, La Villa y toda la alcaldía GAM.", colonias:["Lindavista","Vallejo","Tepeyac","Aragón"], envio:"Incluido", gradient:"linear-gradient(135deg,#E65100,#FF6F00)" },
+  { slug:"iztacalco", emoji:"", name:"Iztacalco", description:"Pantitlán, Agrícola Oriental, Granjas México y Viaducto.", colonias:["Pantitlán","Agrícola Oriental","Granjas México","Viaducto"], envio:"Incluido", gradient:"linear-gradient(135deg,#0288D1,#01579B)" },
+  { slug:"iztapalapa", emoji:"", name:"Iztapalapa", description:"Ermita, UAM, Santa Martha y Peñón con entrega a bajo costo.", colonias:["Ermita Iztapalapa","UAM","Santa Martha","Peñón"], envio:"$100–$150", gradient:"linear-gradient(135deg,#558B2F,#7CB342)" },
+  { slug:"magdalena-contreras", emoji:"", name:"Magdalena Contreras", description:"La Magdalena, San Jerónimo y Barranca del Muerto.", colonias:["La Magdalena","San Jerónimo","Barranca del Muerto","El Rosal"], envio:"Incluido", gradient:"linear-gradient(135deg,#4A148C,#6A1B9A)" },
+  { slug:"miguel-hidalgo", emoji:"", name:"Miguel Hidalgo", description:"Polanco, Lomas de Chapultepec, Tacuba y Anzures.", colonias:["Polanco","Lomas de Chapultepec","Tacuba","Anzures"], envio:"Incluido", gradient:"linear-gradient(135deg,#E91E8C,#7C3AED)" },
+  { slug:"milpa-alta", emoji:"", name:"Milpa Alta", description:"Milpa Alta Centro, San Pedro Atocpan y San Pablo Oztotepec.", colonias:["Milpa Alta Centro","San Pedro Atocpan","San Pablo Oztotepec","Villa Milpa Alta"], envio:"$200–$300", gradient:"linear-gradient(135deg,#827717,#F9A825)" },
+  { slug:"tlahuac", emoji:"", name:"Tláhuac", description:"Tláhuac Centro, La Nopalera, Zapotitla y Los Olivos.", colonias:["Tláhuac Centro","La Nopalera","Zapotitla","Los Olivos"], envio:"$100–$200", gradient:"linear-gradient(135deg,#1B5E20,#388E3C)" },
+  { slug:"tlalpan", emoji:"", name:"Tlalpan", description:"Villa Coapa, Pedregal de San Nicolás, Ajusco y toda la alcaldía.", colonias:["Villa Coapa","Pedregal de San Nicolás","Topilejo","Ajusco"], envio:"Incluido", gradient:"linear-gradient(135deg,#1565C0,#0D47A1)" },
+  { slug:"venustiano-carranza", emoji:"", name:"Venustiano Carranza", description:"Jardín Balbuena, Moctezuma, Merced y zona aeropuerto.", colonias:["Jardín Balbuena","Moctezuma","Aeropuerto","Merced"], envio:"Incluido", gradient:"linear-gradient(135deg,#00695C,#00897B)" },
+  { slug:"xochimilco", emoji:"", name:"Xochimilco", description:"Xochimilco Centro, San Gregorio, Tulyehualco y Tepepan.", colonias:["Xochimilco Centro","San Gregorio","Tulyehualco","Tepepan"], envio:"$100–$150", gradient:"linear-gradient(135deg,#006064,#0097A7)" },
 ];
 
 const schema = {
@@ -65,7 +65,7 @@ const schema = {
     <div class="container">
       <div class="hero__grid">
         <div>
-          <span class="hero__badge">🏙️ Ciudad de México</span>
+          <span class="hero__badge">Ciudad de México</span>
           <h1 class="hero__title">Renta de Inflables en la <span class="highlight">Ciudad de México</span> — Las 16 Alcaldías</h1>
           <p class="hero__desc">Llevamos inflables y brincolines a las 16 alcaldías de la CDMX. Entrega incluida en la mayoría de las zonas, instalación profesional y atención 7 días de la semana.</p>
           <div class="hero__ctas">
@@ -85,7 +85,7 @@ const schema = {
   <section class="section">
     <div class="container">
       <SectionHeader
-        badge="🗺️ Alcaldías"
+        badge="Alcaldías"
         title="Cobertura en las 16 Alcaldías de la CDMX"
         subtitle="Selecciona tu alcaldía para ver colonias, costo de envío y más detalles."
         copy1="Cubrimos la totalidad de la Ciudad de México, desde Xochimilco al sur hasta Gustavo A. Madero al norte. Cada alcaldía tiene su propia página con información de colonias cubiertas, costos de envío y preguntas frecuentes."

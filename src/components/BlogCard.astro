@@ -18,7 +18,7 @@ const { slug, emoji, category, title, excerpt, readTime, gradient, image, featur
 // Color por categoría
 const catColors: Record<string, string> = {
   'Guías':       '#FF3D00',
-  'Ideas':       '#7C3AED',
+  'Ideas':       '#1A1A2E',
   'Consejos':    '#0288D1',
   'Precios':     '#D97706',
   'Seguridad':   '#059669',
@@ -41,7 +41,7 @@ const catColor = catColors[category] || 'var(--c-primary)';
     <span class="blog-card__cat" style={`background:${catColor};color:#fff;`}>{category}</span>
   </a>
   <div class="blog-card__body">
-    <span class="blog-card__readtime">⏱ {readTime} lectura</span>
+    <span class="blog-card__readtime">{readTime} lectura</span>
     <h3 class="blog-card__title">
       <a href={`/blog/${slug}/`}>{title}</a>
     </h3>

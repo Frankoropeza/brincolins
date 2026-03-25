@@ -14,7 +14,7 @@ const description = "Renta el Castillo de Princesas para fiestas infantiles en C
 
 const inflable = {
   slug: "castillo-princesas",
-  emoji: "👸",
+  emoji: "",
   name: "Castillo de Princesas",
   price: "$1,200",
   priceNum: "1200",
@@ -161,13 +161,13 @@ const ctaBarItems = [
     <div class="container">
       <div class="hero__grid">
         <div>
-          <span class="hero__badge">👸 Favorito para fiestas de niñas</span>
+          <span class="hero__badge">Favorito para fiestas de niñas</span>
           <h1 class="hero__title">Renta <span class="highlight">Castillo de Princesas</span> para tu Fiesta</h1>
           <div class="hero__specs">
-            <span class="hero__spec">📏 {inflable.size}</span>
-            <span class="hero__spec">👶 {inflable.ages}</span>
-            <span class="hero__spec">👥 {inflable.capacity}</span>
-            <span class="hero__spec">💰 Desde {inflable.price} MXN</span>
+            <span class="hero__spec">Tamaño: {inflable.size}</span>
+            <span class="hero__spec">Edad: {inflable.ages}</span>
+            <span class="hero__spec">Capacidad: {inflable.capacity}</span>
+            <span class="hero__spec">Desde {inflable.price} MXN</span>
           </div>
           <div class="hero__ctas">
             <a href="/contacto/" class="btn btn-primary btn-lg">Solicitar cotización</a>
@@ -187,7 +187,7 @@ const ctaBarItems = [
   <!-- Gallery -->
   <section class="section" id="galeria">
     <div class="container">
-      <SectionHeader badge="📸 Galería" title={`Galería del ${inflable.name} en fiestas reales`} subtitle="Imágenes reales de nuestros eventos" copy1="Estas fotografías muestran el Castillo de Princesas instalado en fiestas reales en CDMX y Estado de México. El diseño en rosa y morado con torres decorativas convierte cualquier espacio en un escenario de cuento de hadas para las niñas." copy2="Nuestro equipo instala el inflable en jardines, terrazas, patios y salones de fiestas. Cada evento queda documentado para que veas exactamente cómo lucirá el castillo en tu celebración." />
+      <SectionHeader badge="Galería" title={`Galería del ${inflable.name} en fiestas reales`} subtitle="Imágenes reales de nuestros eventos" copy1="Estas fotografías muestran el Castillo de Princesas instalado en fiestas reales en CDMX y Estado de México. El diseño en rosa y morado con torres decorativas convierte cualquier espacio en un escenario de cuento de hadas para las niñas." copy2="Nuestro equipo instala el inflable en jardines, terrazas, patios y salones de fiestas. Cada evento queda documentado para que veas exactamente cómo lucirá el castillo en tu celebración." />
       <Gallery4x4 images={galleryImages} />
     </div>
   </section>
@@ -195,7 +195,7 @@ const ctaBarItems = [
   <!-- Pricing -->
   <section class="section section--alt" id="precios">
     <div class="container">
-      <SectionHeader badge="💰 Paquetes" title={`¿Cuánto cuesta rentar el ${inflable.name} en CDMX?`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="Selecciona el paquete ideal según la duración de tu fiesta de princesas. El paquete Estándar de 6 horas es el favorito para cumpleaños porque incluye instalación, retiro y seguro sin costo adicional." copy2="Los precios son en pesos mexicanos antes de IVA. Para eventos escolares y kermeses, el paquete Día Completo de 12 horas ofrece la mejor relación precio-tiempo. Reserva con el 50% de anticipo." />
+      <SectionHeader badge="Paquetes" title={`¿Cuánto cuesta rentar el ${inflable.name} en CDMX?`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="Selecciona el paquete ideal según la duración de tu fiesta de princesas. El paquete Estándar de 6 horas es el favorito para cumpleaños porque incluye instalación, retiro y seguro sin costo adicional." copy2="Los precios son en pesos mexicanos antes de IVA. Para eventos escolares y kermeses, el paquete Día Completo de 12 horas ofrece la mejor relación precio-tiempo. Reserva con el 50% de anticipo." />
       <PricingCards packages={pricingPackages} />
     </div>
   </section>
@@ -203,7 +203,7 @@ const ctaBarItems = [
   <!-- FAQ -->
   <section class="section">
     <div class="container">
-      <SectionHeader badge="❓ Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="Respondemos las consultas más frecuentes sobre el Castillo de Princesas. Desde dimensiones y capacidad hasta detalles de instalación y temáticas compatibles para tu fiesta." copy2="Si no encuentras la respuesta que buscas, escríbenos por WhatsApp y nuestro equipo te asesora en minutos sobre el paquete ideal para tu evento temático de princesas." />
+      <SectionHeader badge="Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="Respondemos las consultas más frecuentes sobre el Castillo de Princesas. Desde dimensiones y capacidad hasta detalles de instalación y temáticas compatibles para tu fiesta." copy2="Si no encuentras la respuesta que buscas, escríbenos por WhatsApp y nuestro equipo te asesora en minutos sobre el paquete ideal para tu evento temático de princesas." />
     </div>
     <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
   </section>
@@ -211,12 +211,12 @@ const ctaBarItems = [
   <!-- Related -->
   <section class="section section--alt">
     <div class="container">
-      <SectionHeader badge="🎈 Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y seguro incluidos" copy1="Complementa tu fiesta de princesas con otros inflables del catálogo. Los Dragones Rojos son perfectos si buscas una temática de aventura, la Mini Jungla para safari tropical y el Mini Castillo para los más pequeños de la fiesta." copy2="Todos nuestros inflables incluyen sanitización certificada, entrega y motor silencioso. Cotiza varios modelos sin compromiso y arma la combinación perfecta para tu evento." />
+      <SectionHeader badge="Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y seguro incluidos" copy1="Complementa tu fiesta de princesas con otros inflables del catálogo. Los Dragones Rojos son perfectos si buscas una temática de aventura, la Mini Jungla para safari tropical y el Mini Castillo para los más pequeños de la fiesta." copy2="Todos nuestros inflables incluyen sanitización certificada, entrega y motor silencioso. Cotiza varios modelos sin compromiso y arma la combinación perfecta para tu evento." />
       <div class="grid-4">
-        <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más rentado en CDMX con dragones de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
-        <ProductCard slug="mini-jungla" emoji="🌴" name="Mini Jungla" description="Inflable temático con animales y palmeras tropicales." price="$1,200" size="4×4×3m" ages="3-10 años" category="Aventura" categoryColor="jungla" gradient="#2E7D32, #1B5E20" image="/img/inflables/mini-jungla.avif" />
-        <ProductCard slug="mini-castillo" emoji="🏰" name="Mini Castillo" description="Compacto para bebés. Perfecto para interiores y espacios reducidos." price="$800" size="2×2×2m" ages="1-4 años" category="Chico" categoryColor="castillo" gradient="#FF3D00, #ff6d3f" image="/img/inflables/mini-castillo.avif" />
-        <ProductCard slug="gusanitos" emoji="🐛" name="Gusanitos" description="Inflable tropical con gusanitos y colores vibrantes." price="$1,200" size="4×4×3m" ages="4-10 años" category="Tropical" categoryColor="jungla" gradient="#558B2F, #827717" image="/img/inflables/gusanitos.avif" />
+        <ProductCard slug="dragones-rojos" emoji="" name="Dragones Rojos" description="El más rentado en CDMX con dragones de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Más popular" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
+        <ProductCard slug="mini-jungla" emoji="" name="Mini Jungla" description="Inflable temático con animales y palmeras tropicales." price="$1,200" size="4×4×3m" ages="3-10 años" category="Aventura" categoryColor="jungla" gradient="#2E7D32, #1B5E20" image="/img/inflables/mini-jungla.avif" />
+        <ProductCard slug="mini-castillo" emoji="" name="Mini Castillo" description="Compacto para bebés. Perfecto para interiores y espacios reducidos." price="$800" size="2×2×2m" ages="1-4 años" category="Chico" categoryColor="castillo" gradient="#FF3D00, #ff6d3f" image="/img/inflables/mini-castillo.avif" />
+        <ProductCard slug="gusanitos" emoji="" name="Gusanitos" description="Inflable tropical con gusanitos y colores vibrantes." price="$1,200" size="4×4×3m" ages="4-10 años" category="Tropical" categoryColor="jungla" gradient="#558B2F, #827717" image="/img/inflables/gusanitos.avif" />
       </div>
     </div>
   </section>

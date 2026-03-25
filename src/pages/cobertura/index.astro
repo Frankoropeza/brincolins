@@ -13,40 +13,40 @@ const WA = "5547868402";
 const waBase = `https://wa.me/${WA}?text=`;
 
 const alcaldias = [
-  { slug: "alvaro-obregon",       emoji: "🏙️", name: "Álvaro Obregón",       description: "Entregamos en Santa Fe, San Ángel, Pedregal y todo Álvaro Obregón con instalación incluida.",       colonias: ["Santa Fe", "San Ángel", "Pedregal", "Lomas Altas"],        envio: "Incluido", gradient: "linear-gradient(135deg, #1565C0, #0288D1)" },
-  { slug: "azcapotzalco",         emoji: "🏭", name: "Azcapotzalco",          description: "Cobertura total en Del Gas, Clavería, Pasteros y colonias industriales de Azcapotzalco.",           colonias: ["Del Gas", "Clavería", "Pasteros", "Santa Bárbara"],         envio: "Incluido", gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)" },
-  { slug: "benito-juarez",        emoji: "⭐", name: "Benito Juárez",          description: "Zona más solicitada. Del Valle, Narvarte, Nápoles y Portales con entrega sin costo adicional.",    colonias: ["Del Valle", "Narvarte", "Nápoles", "Portales"],             envio: "Incluido", gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)" },
-  { slug: "coyoacan",             emoji: "🦌", name: "Coyoacán",               description: "Renta de inflables en Coyoacán Centro, Pedregal, Villa Coapa, Copilco y colonias aledañas.",        colonias: ["Coyoacán Centro", "Pedregal", "Villa Coapa", "Copilco"],    envio: "Incluido", gradient: "linear-gradient(135deg, #2E7D32, #00C853)" },
-  { slug: "cuajimalpa",           emoji: "🌲", name: "Cuajimalpa",             description: "Cubrimos Santa Fe, Cuajimalpa Centro, Contadero y El Molinito con puntualidad garantizada.",        colonias: ["Santa Fe", "Cuajimalpa Centro", "Contadero", "El Molinito"], envio: "Incluido", gradient: "linear-gradient(135deg, #00796B, #009688)" },
-  { slug: "cuauhtemoc",           emoji: "🏛️", name: "Cuauhtémoc",            description: "Centro Histórico, Roma, Condesa y Juárez: entrega rápida en el corazón de la Ciudad de México.",   colonias: ["Centro Histórico", "Roma Norte", "Condesa", "Juárez"],      envio: "Incluido", gradient: "linear-gradient(135deg, #B71C1C, #E53935)" },
-  { slug: "gustavo-a-madero",     emoji: "🕍", name: "Gustavo A. Madero",      description: "Inflables en Lindavista, Vallejo, Tepeyac, La Villa y toda la alcaldía de GAM.",                   colonias: ["Lindavista", "Vallejo", "Tepeyac", "Aragón"],               envio: "Incluido", gradient: "linear-gradient(135deg, #E65100, #FF6F00)" },
-  { slug: "iztacalco",            emoji: "🌆", name: "Iztacalco",              description: "Entrega en Pantitlán, Agrícola Oriental, Granjas México y colonias de Iztacalco.",                  colonias: ["Pantitlán", "Agrícola Oriental", "Granjas México", "Viaducto"], envio: "Incluido", gradient: "linear-gradient(135deg, #0288D1, #01579B)" },
-  { slug: "iztapalapa",           emoji: "🌇", name: "Iztapalapa",             description: "Renta de inflables en Ermita, UAM, Santa Martha y todas las colonias de Iztapalapa.",               colonias: ["Ermita Iztapalapa", "UAM", "Santa Martha", "Peñón"],        envio: "$100–$150", gradient: "linear-gradient(135deg, #558B2F, #7CB342)" },
-  { slug: "magdalena-contreras",  emoji: "🌿", name: "Magdalena Contreras",    description: "Llegamos a La Magdalena, San Jerónimo, Barranca del Muerto y colonias de la delegación.",         colonias: ["La Magdalena", "San Jerónimo", "Barranca del Muerto", "El Rosal"], envio: "Incluido", gradient: "linear-gradient(135deg, #4A148C, #6A1B9A)" },
-  { slug: "miguel-hidalgo",       emoji: "👑", name: "Miguel Hidalgo",         description: "Polanco, Lomas de Chapultepec, Anzures y las colonias más exclusivas de la ciudad.",               colonias: ["Polanco", "Lomas de Chapultepec", "Tacuba", "Anzures"],     envio: "Incluido", gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)" },
-  { slug: "milpa-alta",           emoji: "🌵", name: "Milpa Alta",             description: "Cobertura en Milpa Alta Centro, San Pedro Atocpan y San Pablo Oztotepec con programación.",        colonias: ["Milpa Alta Centro", "San Pedro Atocpan", "San Pablo Oztotepec", "Villa Milpa Alta"], envio: "$200–$300", gradient: "linear-gradient(135deg, #827717, #F9A825)" },
-  { slug: "tlahuac",              emoji: "🌾", name: "Tláhuac",                description: "Inflables en Tláhuac Centro, La Nopalera, Zapotitla y Los Olivos con entrega programada.",         colonias: ["Tláhuac Centro", "La Nopalera", "Zapotitla", "Los Olivos"],  envio: "$100–$200", gradient: "linear-gradient(135deg, #1B5E20, #388E3C)" },
-  { slug: "tlalpan",              emoji: "🏔️", name: "Tlalpan",               description: "Villa Coapa, Pedregal de San Nicolás, Ajusco y toda la alcaldía de Tlalpan.",                      colonias: ["Villa Coapa", "Pedregal de San Nicolás", "Topilejo", "Ajusco"], envio: "Incluido", gradient: "linear-gradient(135deg, #1565C0, #0D47A1)" },
-  { slug: "venustiano-carranza",  emoji: "✈️", name: "Venustiano Carranza",    description: "Jardín Balbuena, Moctezuma, Merced y colonias cercanas al aeropuerto con entrega puntual.",       colonias: ["Jardín Balbuena", "Moctezuma", "Aeropuerto", "Merced"],     envio: "Incluido", gradient: "linear-gradient(135deg, #00695C, #00897B)" },
-  { slug: "xochimilco",           emoji: "🛶", name: "Xochimilco",             description: "Renta de inflables en Xochimilco Centro, San Gregorio, Tulyehualco y Tepepan.",                   colonias: ["Xochimilco Centro", "San Gregorio", "Tulyehualco", "Tepepan"], envio: "$100–$150", gradient: "linear-gradient(135deg, #006064, #0097A7)" },
+  { slug: "alvaro-obregon",       emoji: "", name: "Álvaro Obregón",       description: "Entregamos en Santa Fe, San Ángel, Pedregal y todo Álvaro Obregón con instalación incluida.",       colonias: ["Santa Fe", "San Ángel", "Pedregal", "Lomas Altas"],        envio: "Incluido", gradient: "linear-gradient(135deg, #1565C0, #0288D1)" },
+  { slug: "azcapotzalco",         emoji: "", name: "Azcapotzalco",          description: "Cobertura total en Del Gas, Clavería, Pasteros y colonias industriales de Azcapotzalco.",           colonias: ["Del Gas", "Clavería", "Pasteros", "Santa Bárbara"],         envio: "Incluido", gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)" },
+  { slug: "benito-juarez",        emoji: "", name: "Benito Juárez",          description: "Zona más solicitada. Del Valle, Narvarte, Nápoles y Portales con entrega sin costo adicional.",    colonias: ["Del Valle", "Narvarte", "Nápoles", "Portales"],             envio: "Incluido", gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)" },
+  { slug: "coyoacan",             emoji: "", name: "Coyoacán",               description: "Renta de inflables en Coyoacán Centro, Pedregal, Villa Coapa, Copilco y colonias aledañas.",        colonias: ["Coyoacán Centro", "Pedregal", "Villa Coapa", "Copilco"],    envio: "Incluido", gradient: "linear-gradient(135deg, #2E7D32, #00C853)" },
+  { slug: "cuajimalpa",           emoji: "", name: "Cuajimalpa",             description: "Cubrimos Santa Fe, Cuajimalpa Centro, Contadero y El Molinito con puntualidad garantizada.",        colonias: ["Santa Fe", "Cuajimalpa Centro", "Contadero", "El Molinito"], envio: "Incluido", gradient: "linear-gradient(135deg, #00796B, #009688)" },
+  { slug: "cuauhtemoc",           emoji: "", name: "Cuauhtémoc",            description: "Centro Histórico, Roma, Condesa y Juárez: entrega rápida en el corazón de la Ciudad de México.",   colonias: ["Centro Histórico", "Roma Norte", "Condesa", "Juárez"],      envio: "Incluido", gradient: "linear-gradient(135deg, #B71C1C, #E53935)" },
+  { slug: "gustavo-a-madero",     emoji: "", name: "Gustavo A. Madero",      description: "Inflables en Lindavista, Vallejo, Tepeyac, La Villa y toda la alcaldía de GAM.",                   colonias: ["Lindavista", "Vallejo", "Tepeyac", "Aragón"],               envio: "Incluido", gradient: "linear-gradient(135deg, #E65100, #FF6F00)" },
+  { slug: "iztacalco",            emoji: "", name: "Iztacalco",              description: "Entrega en Pantitlán, Agrícola Oriental, Granjas México y colonias de Iztacalco.",                  colonias: ["Pantitlán", "Agrícola Oriental", "Granjas México", "Viaducto"], envio: "Incluido", gradient: "linear-gradient(135deg, #0288D1, #01579B)" },
+  { slug: "iztapalapa",           emoji: "", name: "Iztapalapa",             description: "Renta de inflables en Ermita, UAM, Santa Martha y todas las colonias de Iztapalapa.",               colonias: ["Ermita Iztapalapa", "UAM", "Santa Martha", "Peñón"],        envio: "$100–$150", gradient: "linear-gradient(135deg, #558B2F, #7CB342)" },
+  { slug: "magdalena-contreras",  emoji: "", name: "Magdalena Contreras",    description: "Llegamos a La Magdalena, San Jerónimo, Barranca del Muerto y colonias de la delegación.",         colonias: ["La Magdalena", "San Jerónimo", "Barranca del Muerto", "El Rosal"], envio: "Incluido", gradient: "linear-gradient(135deg, #4A148C, #6A1B9A)" },
+  { slug: "miguel-hidalgo",       emoji: "", name: "Miguel Hidalgo",         description: "Polanco, Lomas de Chapultepec, Anzures y las colonias más exclusivas de la ciudad.",               colonias: ["Polanco", "Lomas de Chapultepec", "Tacuba", "Anzures"],     envio: "Incluido", gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)" },
+  { slug: "milpa-alta",           emoji: "", name: "Milpa Alta",             description: "Cobertura en Milpa Alta Centro, San Pedro Atocpan y San Pablo Oztotepec con programación.",        colonias: ["Milpa Alta Centro", "San Pedro Atocpan", "San Pablo Oztotepec", "Villa Milpa Alta"], envio: "$200–$300", gradient: "linear-gradient(135deg, #827717, #F9A825)" },
+  { slug: "tlahuac",              emoji: "", name: "Tláhuac",                description: "Inflables en Tláhuac Centro, La Nopalera, Zapotitla y Los Olivos con entrega programada.",         colonias: ["Tláhuac Centro", "La Nopalera", "Zapotitla", "Los Olivos"],  envio: "$100–$200", gradient: "linear-gradient(135deg, #1B5E20, #388E3C)" },
+  { slug: "tlalpan",              emoji: "", name: "Tlalpan",               description: "Villa Coapa, Pedregal de San Nicolás, Ajusco y toda la alcaldía de Tlalpan.",                      colonias: ["Villa Coapa", "Pedregal de San Nicolás", "Topilejo", "Ajusco"], envio: "Incluido", gradient: "linear-gradient(135deg, #1565C0, #0D47A1)" },
+  { slug: "venustiano-carranza",  emoji: "", name: "Venustiano Carranza",    description: "Jardín Balbuena, Moctezuma, Merced y colonias cercanas al aeropuerto con entrega puntual.",       colonias: ["Jardín Balbuena", "Moctezuma", "Aeropuerto", "Merced"],     envio: "Incluido", gradient: "linear-gradient(135deg, #00695C, #00897B)" },
+  { slug: "xochimilco",           emoji: "", name: "Xochimilco",             description: "Renta de inflables en Xochimilco Centro, San Gregorio, Tulyehualco y Tepepan.",                   colonias: ["Xochimilco Centro", "San Gregorio", "Tulyehualco", "Tepepan"], envio: "$100–$150", gradient: "linear-gradient(135deg, #006064, #0097A7)" },
 ];
 
 const municipios = [
-  { slug: "naucalpan",          emoji: "🏡", name: "Naucalpan",              description: "Satélite, Lomas Verdes, Interlomas y San Rafael: renta de inflables en el municipio más grande del poniente.",  colonias: ["Satélite", "Lomas Verdes", "Interlomas", "San Rafael"],              envio: "$150–$250", gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)" },
-  { slug: "tlalnepantla",       emoji: "🏗️", name: "Tlalnepantla",          description: "Entrega en Tlalnepantla Centro, Las Américas, Vallejo y zona industrial del municipio.",                        colonias: ["Centro", "Las Américas", "Vallejo", "Industrial"],                   envio: "$150–$250", gradient: "linear-gradient(135deg, #1565C0, #0288D1)" },
-  { slug: "ecatepec",           emoji: "🌃", name: "Ecatepec",               description: "Ciudad Azteca, San Cristóbal, Las Américas y todo Ecatepec con inflables entregados a domicilio.",              colonias: ["Ciudad Azteca", "Las Américas", "San Cristóbal", "Ecatepec Centro"], envio: "$200–$350", gradient: "linear-gradient(135deg, #E65100, #FF6F00)" },
-  { slug: "nezahualcoyotl",     emoji: "🏘️", name: "Nezahualcóyotl",        description: "Ciudad Neza, Jardines de Morelos, Los Reyes y colonias de Nezahualcóyotl con entrega puntual.",                colonias: ["Ciudad Neza", "Jardines de Morelos", "Los Reyes", "Benito Juárez"],  envio: "$200–$300", gradient: "linear-gradient(135deg, #2E7D32, #00C853)" },
-  { slug: "huixquilucan",       emoji: "💎", name: "Huixquilucan",           description: "La Herradura, Interlomas, Jesús del Monte: inflables para las zonas residenciales más exclusivas del Edomex.",  colonias: ["Interlomas", "La Herradura", "El Molinito", "Jesús del Monte"],      envio: "$150–$250", gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)" },
-  { slug: "atizapan",           emoji: "🌄", name: "Atizapán de Zaragoza",   description: "Renta de inflables en Ciudad López Mateos, Rancho Contento y colonias de Atizapán.",                           colonias: ["Cd. López Mateos", "Rancho Contento", "Satélite", "Las Fuentes"],    envio: "$200–$300", gradient: "linear-gradient(135deg, #B71C1C, #E53935)" },
-  { slug: "cuautitlan-izcalli", emoji: "🏙️", name: "Cuautitlán Izcalli",   description: "Izcalli Centro, Hacienda del Parque y Ojo de Agua con entrega programada de inflables.",                        colonias: ["Izcalli Centro", "Hacienda del Parque", "Ojo de Agua", "Cumbria"],   envio: "$250–$400", gradient: "linear-gradient(135deg, #0288D1, #01579B)" },
-  { slug: "coacalco",           emoji: "🌟", name: "Coacalco",               description: "Coacalco Centro, Bosques de Morelos y La Quebrada con inflables entregados a domicilio.",                       colonias: ["Coacalco Centro", "Bosques de Morelos", "La Quebrada", "San Crisanto"], envio: "$200–$300", gradient: "linear-gradient(135deg, #00796B, #009688)" },
-  { slug: "toluca",             emoji: "⛰️", name: "Toluca",                 description: "Llegamos a Toluca Centro, San Mateo Atenco, Zinacantepec y zonas del Valle de Toluca.",                         colonias: ["Toluca Centro", "San Mateo Atenco", "Zinacantepec", "Almoloya"],     envio: "$400–$600", gradient: "linear-gradient(135deg, #4A148C, #6A1B9A)" },
-  { slug: "metepec",            emoji: "🎨", name: "Metepec",                description: "Metepec Centro, San Salvador la Gavia y Pilares: inflables para los eventos más elegantes del Valle.",          colonias: ["Metepec Centro", "San Salvador la Gavia", "Pilares", "Coaxustenco"], envio: "$400–$600", gradient: "linear-gradient(135deg, #827717, #F9A825)" },
-  { slug: "texcoco",            emoji: "🏛️", name: "Texcoco",               description: "Renta de inflables en Texcoco Centro, San Miguel Coatlinchán y municipios del Oriente.",                        colonias: ["Texcoco Centro", "San Miguel Coatlinchán", "Atenco", "Chiconcuac"], envio: "$250–$400", gradient: "linear-gradient(135deg, #1B5E20, #388E3C)" },
-  { slug: "chalco",             emoji: "🌅", name: "Chalco",                 description: "Chalco Centro, Valle de Chalco y San Gregorio con entrega de inflables a domicilio en el Oriente.",             colonias: ["Chalco Centro", "Valle de Chalco", "San Gregorio", "Tlapala"],       envio: "$250–$400", gradient: "linear-gradient(135deg, #558B2F, #7CB342)" },
-  { slug: "nicolas-romero",     emoji: "🌳", name: "Nicolás Romero",         description: "Ciudad Cuauhtémoc, El Progreso y colonias de Nicolás Romero con servicio de entrega a domicilio.",              colonias: ["Nicolás Romero Centro", "Ciudad Cuauhtémoc", "El Progreso", "La Aurora"], envio: "$250–$400", gradient: "linear-gradient(135deg, #006064, #0097A7)" },
-  { slug: "tecamac",            emoji: "🚀", name: "Tecámac",                description: "Ciudad Real, Real del Sol y Tecámac Centro: inflables con entrega en el norte del Estado de México.",           colonias: ["Ciudad Real", "Real del Sol", "Tecámac Centro", "Ozumbilla"],        envio: "$250–$400", gradient: "linear-gradient(135deg, #E91E63, #C2185B)" },
-  { slug: "tultitlan",          emoji: "🏭", name: "Tultitlán",              description: "San Pablo de las Salinas, Lechería y Tultitlán Centro con inflables entregados en tiempo y forma.",             colonias: ["Tultitlán Centro", "San Pablo de las Salinas", "Lechería", "Buenavista"], envio: "$200–$300", gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)" },
+  { slug: "naucalpan",          emoji: "", name: "Naucalpan",              description: "Satélite, Lomas Verdes, Interlomas y San Rafael: renta de inflables en el municipio más grande del poniente.",  colonias: ["Satélite", "Lomas Verdes", "Interlomas", "San Rafael"],              envio: "$150–$250", gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)" },
+  { slug: "tlalnepantla",       emoji: "", name: "Tlalnepantla",          description: "Entrega en Tlalnepantla Centro, Las Américas, Vallejo y zona industrial del municipio.",                        colonias: ["Centro", "Las Américas", "Vallejo", "Industrial"],                   envio: "$150–$250", gradient: "linear-gradient(135deg, #1565C0, #0288D1)" },
+  { slug: "ecatepec",           emoji: "", name: "Ecatepec",               description: "Ciudad Azteca, San Cristóbal, Las Américas y todo Ecatepec con inflables entregados a domicilio.",              colonias: ["Ciudad Azteca", "Las Américas", "San Cristóbal", "Ecatepec Centro"], envio: "$200–$350", gradient: "linear-gradient(135deg, #E65100, #FF6F00)" },
+  { slug: "nezahualcoyotl",     emoji: "", name: "Nezahualcóyotl",        description: "Ciudad Neza, Jardines de Morelos, Los Reyes y colonias de Nezahualcóyotl con entrega puntual.",                colonias: ["Ciudad Neza", "Jardines de Morelos", "Los Reyes", "Benito Juárez"],  envio: "$200–$300", gradient: "linear-gradient(135deg, #2E7D32, #00C853)" },
+  { slug: "huixquilucan",       emoji: "", name: "Huixquilucan",           description: "La Herradura, Interlomas, Jesús del Monte: inflables para las zonas residenciales más exclusivas del Edomex.",  colonias: ["Interlomas", "La Herradura", "El Molinito", "Jesús del Monte"],      envio: "$150–$250", gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)" },
+  { slug: "atizapan",           emoji: "", name: "Atizapán de Zaragoza",   description: "Renta de inflables en Ciudad López Mateos, Rancho Contento y colonias de Atizapán.",                           colonias: ["Cd. López Mateos", "Rancho Contento", "Satélite", "Las Fuentes"],    envio: "$200–$300", gradient: "linear-gradient(135deg, #B71C1C, #E53935)" },
+  { slug: "cuautitlan-izcalli", emoji: "", name: "Cuautitlán Izcalli",   description: "Izcalli Centro, Hacienda del Parque y Ojo de Agua con entrega programada de inflables.",                        colonias: ["Izcalli Centro", "Hacienda del Parque", "Ojo de Agua", "Cumbria"],   envio: "$250–$400", gradient: "linear-gradient(135deg, #0288D1, #01579B)" },
+  { slug: "coacalco",           emoji: "", name: "Coacalco",               description: "Coacalco Centro, Bosques de Morelos y La Quebrada con inflables entregados a domicilio.",                       colonias: ["Coacalco Centro", "Bosques de Morelos", "La Quebrada", "San Crisanto"], envio: "$200–$300", gradient: "linear-gradient(135deg, #00796B, #009688)" },
+  { slug: "toluca",             emoji: "", name: "Toluca",                 description: "Llegamos a Toluca Centro, San Mateo Atenco, Zinacantepec y zonas del Valle de Toluca.",                         colonias: ["Toluca Centro", "San Mateo Atenco", "Zinacantepec", "Almoloya"],     envio: "$400–$600", gradient: "linear-gradient(135deg, #4A148C, #6A1B9A)" },
+  { slug: "metepec",            emoji: "", name: "Metepec",                description: "Metepec Centro, San Salvador la Gavia y Pilares: inflables para los eventos más elegantes del Valle.",          colonias: ["Metepec Centro", "San Salvador la Gavia", "Pilares", "Coaxustenco"], envio: "$400–$600", gradient: "linear-gradient(135deg, #827717, #F9A825)" },
+  { slug: "texcoco",            emoji: "", name: "Texcoco",               description: "Renta de inflables en Texcoco Centro, San Miguel Coatlinchán y municipios del Oriente.",                        colonias: ["Texcoco Centro", "San Miguel Coatlinchán", "Atenco", "Chiconcuac"], envio: "$250–$400", gradient: "linear-gradient(135deg, #1B5E20, #388E3C)" },
+  { slug: "chalco",             emoji: "", name: "Chalco",                 description: "Chalco Centro, Valle de Chalco y San Gregorio con entrega de inflables a domicilio en el Oriente.",             colonias: ["Chalco Centro", "Valle de Chalco", "San Gregorio", "Tlapala"],       envio: "$250–$400", gradient: "linear-gradient(135deg, #558B2F, #7CB342)" },
+  { slug: "nicolas-romero",     emoji: "", name: "Nicolás Romero",         description: "Ciudad Cuauhtémoc, El Progreso y colonias de Nicolás Romero con servicio de entrega a domicilio.",              colonias: ["Nicolás Romero Centro", "Ciudad Cuauhtémoc", "El Progreso", "La Aurora"], envio: "$250–$400", gradient: "linear-gradient(135deg, #006064, #0097A7)" },
+  { slug: "tecamac",            emoji: "", name: "Tecámac",                description: "Ciudad Real, Real del Sol y Tecámac Centro: inflables con entrega en el norte del Estado de México.",           colonias: ["Ciudad Real", "Real del Sol", "Tecámac Centro", "Ozumbilla"],        envio: "$250–$400", gradient: "linear-gradient(135deg, #E91E63, #C2185B)" },
+  { slug: "tultitlan",          emoji: "", name: "Tultitlán",              description: "San Pablo de las Salinas, Lechería y Tultitlán Centro con inflables entregados en tiempo y forma.",             colonias: ["Tultitlán Centro", "San Pablo de las Salinas", "Lechería", "Buenavista"], envio: "$200–$300", gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)" },
 ];
 
 const faqs = [
@@ -110,7 +110,7 @@ const schemaLD = {
       <div class="hero__grid">
         <!-- Col izquierda -->
         <div>
-          <span class="hero__badge">📍 Cobertura total ZMVM</span>
+          <span class="hero__badge">Cobertura total ZMVM</span>
           <h1 class="hero__title">
             Renta de Inflables con <span class="highlight">Entrega a Domicilio</span> en CDMX y Edomex
           </h1>
@@ -141,7 +141,7 @@ const schemaLD = {
   <section class="section section--alt">
     <div class="container">
       <SectionHeader
-        badge="🏙️ Ciudad de México"
+        badge="Ciudad de México"
         title="Las 16 Alcaldías de CDMX"
         subtitle="Cobertura total en la Ciudad de México. Entrega incluida en la mayoría de las zonas."
         copy1="Cubrimos las 16 alcaldías de la Ciudad de México sin excepción. En las alcaldías céntricas como Benito Juárez, Cuauhtémoc, Miguel Hidalgo, Coyoacán y Álvaro Obregón, el costo de entrega está incluido en el precio del inflable. Lleva el inflable directamente a tu domicilio, jardín, salón o espacio del evento."
@@ -168,7 +168,7 @@ const schemaLD = {
   <section class="section">
     <div class="container">
       <SectionHeader
-        badge="🗺️ Estado de México"
+        badge="Estado de México"
         title="15 Municipios del Estado de México"
         subtitle="También llegamos a los principales municipios del Edomex con entrega programada."
         copy1="Nuestra cobertura en el Estado de México abarca los 15 municipios con mayor densidad de población y actividad económica de la entidad. Desde la zona poniente (Naucalpan, Huixquilucan, Atizapán) hasta la zona oriente (Ecatepec, Nezahualcóyotl, Chalco, Texcoco), llegamos a tu evento con el mismo nivel de servicio."
@@ -196,7 +196,7 @@ const schemaLD = {
   <section class="section section--alt">
     <div class="container">
       <SectionHeader
-        badge="💰 Costos de envío"
+        badge="Costos de envío"
         title="¿Cuánto cuesta la entrega?"
         subtitle="Entrega gratuita en zonas céntricas de CDMX. Cargo adicional en zonas alejadas y Edomex."
         copy1="Nuestro objetivo es que el costo de envío nunca sea una barrera para rentar un inflable. Por eso ofrecemos entrega gratuita en todas las alcaldías céntricas de la Ciudad de México. Para zonas más alejadas, el cargo es mínimo y siempre transparente antes de confirmar tu reserva."
@@ -206,7 +206,7 @@ const schemaLD = {
       <div class="grid-3" style="max-width:960px; margin:0 auto;">
         <div class="envio-card">
           <div class="envio-card__icon" style="background:linear-gradient(135deg,#00C853,#2E7D32);">
-            <span>✅</span>
+            
           </div>
           <h3 class="envio-card__title">Zona A — Gratis</h3>
           <p class="envio-card__precio">$0 MXN</p>
@@ -214,7 +214,7 @@ const schemaLD = {
         </div>
         <div class="envio-card">
           <div class="envio-card__icon" style="background:linear-gradient(135deg,#FF6F00,#E65100);">
-            <span>🚚</span>
+            
           </div>
           <h3 class="envio-card__title">Zona B — Bajo costo</h3>
           <p class="envio-card__precio">$100–$300 MXN</p>
@@ -222,7 +222,7 @@ const schemaLD = {
         </div>
         <div class="envio-card">
           <div class="envio-card__icon" style="background:linear-gradient(135deg,#FF3D00,#B71C1C);">
-            <span>📍</span>
+            
           </div>
           <h3 class="envio-card__title">Zona C — Edomex lejano</h3>
           <p class="envio-card__precio">$300–$600 MXN</p>
@@ -253,7 +253,7 @@ const schemaLD = {
   <section class="section section--alt">
     <div class="container">
       <SectionHeader
-        badge="❓ Preguntas frecuentes"
+        badge="Preguntas frecuentes"
         title="Dudas sobre cobertura y envío"
         subtitle="Todo lo que necesitas saber sobre nuestra logística de entrega."
         copy1="La entrega puntual es uno de nuestros principales compromisos. Sabemos que tu fiesta tiene un horario fijo y no podemos fallar. Por eso contamos con rutas optimizadas y personal dedicado a la logística de cada evento."

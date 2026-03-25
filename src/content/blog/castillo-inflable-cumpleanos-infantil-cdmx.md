@@ -1,5 +1,5 @@
 ---
-title: "🏰 ¡El cumpleaños perfecto empieza aquí!"
+title: "¡El cumpleaños perfecto empieza aquí!"
 description: "Todo sobre castillo-inflable-cumpleanos-infantil-cdmx — guía completa para tu fiesta infantil en CDMX."
 publishDate: "2025-03-15"
 category: "cumpleaños"

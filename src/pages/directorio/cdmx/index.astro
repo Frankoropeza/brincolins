@@ -56,7 +56,7 @@ const salones = [
     rating: "4.7",
     features: ["Juegos extremos", "Alberca de pelotas", "Pintacaritas", "Paquetes desde 20 niños"],
     gradient: "linear-gradient(135deg, #E91E8C, #FF3D00)",
-    label: "🎉",
+    label: "Popular",
     highlight: "Diversión extrema para los más aventureros",
   },
   {
@@ -69,7 +69,7 @@ const salones = [
     rating: "4.7",
     features: ["Gran capacidad", "Área deportiva", "Jardín amplio", "Banquete incluido"],
     gradient: "linear-gradient(135deg, #1565C0, #0288D1)",
-    label: "🏆",
+    label: "Top",
     highlight: "Doble espacio: salón + área deportiva",
   },
   {
@@ -82,7 +82,7 @@ const salones = [
     rating: "4.6",
     features: ["Temática dinosaurios", "Juegos seguros", "Piñatas incluidas", "Dulceros"],
     gradient: "linear-gradient(135deg, #2E7D32, #558B2F)",
-    label: "🦕",
+    label: "Dino",
     highlight: "Temática prehistórica única",
   },
   {
@@ -95,7 +95,7 @@ const salones = [
     rating: "4.6",
     features: ["Playground moderno", "Área de bebés", "Salón climatizado", "Meseros"],
     gradient: "linear-gradient(135deg, #FFD600, #FF6F00)",
-    label: "🐒",
+    label: "Monos",
     highlight: "Moderno y familiar en Jardín Balbuena",
   },
   {
@@ -108,7 +108,7 @@ const salones = [
     rating: "4.6",
     features: ["Toboganes gigantes", "Alberca de pelotas", "Laberintos", "Shows infantiles"],
     gradient: "linear-gradient(135deg, #0288D1, #7C3AED)",
-    label: "🏰",
+    label: "Castillo",
     highlight: "Clásico de Coyoacán con juegos únicos",
   },
   {
@@ -121,7 +121,7 @@ const salones = [
     rating: "4.6",
     features: ["Ambiente rústico", "Jardín amplio", "Taquiza incluida", "Estacionamiento"],
     gradient: "linear-gradient(135deg, #795548, #4E342E)",
-    label: "🏡",
+    label: "Casa",
     highlight: "Estilo rústico con gran jardín",
   },
   {
@@ -134,7 +134,7 @@ const salones = [
     rating: "4.6",
     features: ["Temáticas personalizadas", "Juegos modernos", "Snack bar", "Música incluida"],
     gradient: "linear-gradient(135deg, #9C27B0, #E91E8C)",
-    label: "🌟",
+    label: "Destacado",
     highlight: "Temáticas personalizadas en Héroes de Padierna",
   },
   {
@@ -147,7 +147,7 @@ const salones = [
     rating: "4.5",
     features: ["Juegos de altura", "Resbaladillas", "Paquetes completos", "Zona de adultos"],
     gradient: "linear-gradient(135deg, #FF6D00, #FFD600)",
-    label: "🎪",
+    label: "Diversión",
     highlight: "Cadena reconocida al norte de CDMX",
   },
   {
@@ -160,7 +160,7 @@ const salones = [
     rating: "4.5",
     features: ["Precios accesibles", "Decoración incluida", "Sonido profesional", "Pastel incluido"],
     gradient: "linear-gradient(135deg, #F06292, #CE93D8)",
-    label: "🎂",
+    label: "Festejo",
     highlight: "Económico y bien equipado en Coyoacán",
   },
   {
@@ -173,7 +173,7 @@ const salones = [
     rating: "4.5",
     features: ["Jardín amplio", "Salón techado", "Taquiza disponible", "Estacionamiento"],
     gradient: "linear-gradient(135deg, #00C853, #0288D1)",
-    label: "🌿",
+    label: "Jardín",
     highlight: "El mejor calificado de Xochimilco",
   },
   {
@@ -186,7 +186,7 @@ const salones = [
     rating: "4.5",
     features: ["Gran capacidad", "Banquete completo", "DJ incluido", "Inflables propios"],
     gradient: "linear-gradient(135deg, #FF3D00, #E91E8C)",
-    label: "🎈",
+    label: "Festivo",
     highlight: "Ideal para fiestas grandes en Iztapalapa",
   },
   {
@@ -199,7 +199,7 @@ const salones = [
     rating: "4.5",
     features: ["Ambiente íntimo", "Juegos infantiles", "Paquetes económicos", "Decoración temática"],
     gradient: "linear-gradient(135deg, #7C3AED, #1565C0)",
-    label: "🎀",
+    label: "Decoración",
     highlight: "Íntimo y acogedor en San Andrés Totoltepec",
   },
   {
@@ -212,7 +212,7 @@ const salones = [
     rating: "4.4",
     features: ["Juegos modernos", "Área segura", "Pintacaritas", "Paquetes desde 15 niños"],
     gradient: "linear-gradient(135deg, #1565C0, #0288D1)",
-    label: "🎭",
+    label: "Teatro",
     highlight: "Moderno y seguro en Xochimilco",
   },
 ];
@@ -276,7 +276,7 @@ const schemaList = {
     <div class="container">
       <div class="hero__grid">
         <div>
-          <span class="hero__badge">🏙️ Ciudad de México</span>
+          <span class="hero__badge">Ciudad de México</span>
           <h1 class="hero__title">Salones de Fiestas Infantiles en <span class="highlight">CDMX</span></h1>
           <p class="hero__desc">
             {salones.length} salones verificados en {alcaldias.length} alcaldías de la Ciudad de México. Información real de Google Maps.
@@ -305,7 +305,7 @@ const schemaList = {
   <section class="section" style="padding-top:0; padding-bottom:2rem;">
     <div class="container">
       <div class="dir-tip">
-        <div class="dir-tip__icon">📍</div>
+        <div class="dir-tip__icon"></div>
         <div class="dir-tip__content">
           <p class="dir-tip__title">Alcaldías con salones en este directorio</p>
           <div class="coverage__badges" style="margin-top:0.5rem;">
@@ -331,16 +331,16 @@ const schemaList = {
         {salones.map(s => (
           <div class="venue-card">
             <div class="venue-card__header" style={`background: ${s.gradient};`}>
-              <span class="venue-card__label">{s.label}</span>
+              
               <h3 class="venue-card__name">{s.name}</h3>
-              <span class="venue-card__zone">{s.zone}, CDMX · ⭐ {s.rating}</span>
+              <span class="venue-card__zone">{s.zone}, CDMX · {s.rating}★</span>
             </div>
             <div class="venue-card__body">
               <p class="venue-card__highlight">{s.highlight}</p>
               <div class="venue-card__info">
-                <p class="venue-card__detail"><strong>📍</strong> {s.address}</p>
-                <p class="venue-card__detail"><strong>👥</strong> {s.capacity}</p>
-                <p class="venue-card__detail"><strong>📞</strong> {s.phone}</p>
+                <p class="venue-card__detail"><strong>Dirección:</strong> {s.address}</p>
+                <p class="venue-card__detail"><strong>Capacidad:</strong> {s.capacity}</p>
+                <p class="venue-card__detail"><strong>Tel:</strong> {s.phone}</p>
               </div>
               <div class="venue-card__features">
                 {s.features.map(f => (

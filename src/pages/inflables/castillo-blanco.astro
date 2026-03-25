@@ -14,7 +14,7 @@ const description = "Renta el Castillo Blanco inflable premium para bodas, bauti
 
 const inflable = {
   slug: "castillo-blanco",
-  emoji: "🤍",
+  emoji: "",
   name: "Castillo Blanco",
   price: "$2,800",
   priceNum: 2800,
@@ -144,13 +144,13 @@ const ctaBarItems = [
     <div class="container">
       <div class="hero__grid">
         <div>
-          <span class="hero__badge">🤍 Premium para bodas y eventos elegantes</span>
+          <span class="hero__badge">Premium para bodas y eventos elegantes</span>
           <h1 class="hero__title">Renta <span class="highlight">Castillo Blanco</span> para tu Fiesta</h1>
           <div class="hero__specs">
-            <span class="hero__spec">📏 {inflable.size}</span>
-            <span class="hero__spec">👶 {inflable.ages}</span>
-            <span class="hero__spec">👥 {inflable.capacity}</span>
-            <span class="hero__spec">💰 Desde {inflable.price} MXN</span>
+            <span class="hero__spec">Tamaño: {inflable.size}</span>
+            <span class="hero__spec">Edad: {inflable.ages}</span>
+            <span class="hero__spec">Capacidad: {inflable.capacity}</span>
+            <span class="hero__spec">Desde {inflable.price} MXN</span>
           </div>
           <div class="hero__ctas">
             <a href="/contacto/" class="btn btn-primary btn-lg">Solicitar cotización</a>
@@ -169,33 +169,33 @@ const ctaBarItems = [
 
   <section class="section" id="galeria">
     <div class="container">
-      <SectionHeader badge="📸 Galería" title={`Galería del ${inflable.name} en fiestas reales`} subtitle="Imágenes reales de nuestros eventos" copy1="El Castillo Blanco se ve espectacular en bodas, bautizos y quinceañeras. Estas fotos muestran cómo nuestros clientes lo han integrado en eventos elegantes con decoraciones de flores, globos y tules que complementan el diseño blanco puro." copy2="Cada imagen es de un evento real en CDMX y Estado de México. El Castillo Blanco es el inflable más fotografiado de nuestro catálogo gracias a su apariencia premium que eleva la estética de cualquier celebración." />
+      <SectionHeader badge="Galería" title={`Galería del ${inflable.name} en fiestas reales`} subtitle="Imágenes reales de nuestros eventos" copy1="El Castillo Blanco se ve espectacular en bodas, bautizos y quinceañeras. Estas fotos muestran cómo nuestros clientes lo han integrado en eventos elegantes con decoraciones de flores, globos y tules que complementan el diseño blanco puro." copy2="Cada imagen es de un evento real en CDMX y Estado de México. El Castillo Blanco es el inflable más fotografiado de nuestro catálogo gracias a su apariencia premium que eleva la estética de cualquier celebración." />
       <Gallery4x4 images={galleryImages} />
     </div>
   </section>
 
   <section class="section section--alt" id="precios">
     <div class="container">
-      <SectionHeader badge="💰 Paquetes" title={`¿Cuánto cuesta rentar el ${inflable.name} en CDMX?`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="El Castillo Blanco es un inflable premium con acabados superiores, pensado para eventos donde la estética importa tanto como la diversión. Nuestros paquetes incluyen sanitización especial para mantener el blanco impecable." copy2="Para bodas y XV años recomendamos el paquete Día Completo de 12 horas, que cubre desde la preparación del evento hasta la despedida. Incluye 2 operadores dedicados que cuidan el inflable y supervisan la seguridad de todos los invitados." />
+      <SectionHeader badge="Paquetes" title={`¿Cuánto cuesta rentar el ${inflable.name} en CDMX?`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="El Castillo Blanco es un inflable premium con acabados superiores, pensado para eventos donde la estética importa tanto como la diversión. Nuestros paquetes incluyen sanitización especial para mantener el blanco impecable." copy2="Para bodas y XV años recomendamos el paquete Día Completo de 12 horas, que cubre desde la preparación del evento hasta la despedida. Incluye 2 operadores dedicados que cuidan el inflable y supervisan la seguridad de todos los invitados." />
       <PricingCards packages={pricingPackages} />
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <SectionHeader badge="❓ Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Castillo Blanco es nuestra opción favorita para novias, quinceañeras y organizadores de eventos elegantes. Sabemos que tienes preguntas específicas sobre cómo integrarlo en tu celebración formal." copy2="Si estás planeando una boda o quinceañera y necesitas asesoría personalizada sobre cómo incorporar el Castillo Blanco en tu evento, escríbenos por WhatsApp y te ayudamos con gusto." />
+      <SectionHeader badge="Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Castillo Blanco es nuestra opción favorita para novias, quinceañeras y organizadores de eventos elegantes. Sabemos que tienes preguntas específicas sobre cómo integrarlo en tu celebración formal." copy2="Si estás planeando una boda o quinceañera y necesitas asesoría personalizada sobre cómo incorporar el Castillo Blanco en tu evento, escríbenos por WhatsApp y te ayudamos con gusto." />
     </div>
     <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
   </section>
 
   <section class="section section--alt">
     <div class="container">
-      <SectionHeader badge="🎈 Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y seguro incluidos" copy1="Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana." copy2="Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza y recibe respuesta en minutos." />
+      <SectionHeader badge="Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y seguro incluidos" copy1="Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana." copy2="Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza y recibe respuesta en minutos." />
       <div class="grid-4">
-        <ProductCard slug="barco-pirata" emoji="🚢" name="Barco Pirata" description="Aventura pirata con resbaladilla de altura." price="$2,500" size="7×5×4m" ages="3-12 años" category="Aventura" categoryColor="pirata" gradient="#1565C0, #0D47A1" image="/img/inflables/barco-pirata.avif" />
-        <ProductCard slug="extremo" emoji="🏁" name="Extremo" description="Circuito de 12m con obstáculos y tobogán doble." price="$3,000" size="12×4×3m" ages="6+ años" category="Extremo" categoryColor="extremo" gradient="#E65100, #BF360C" image="/img/inflables/extremo.avif" />
-        <ProductCard slug="castillo-princesas" emoji="👸" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
-        <ProductCard slug="dragones-rojos" emoji="🐉" name="Dragones Rojos" description="El más popular con dragones de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Castillo" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
+        <ProductCard slug="barco-pirata" emoji="" name="Barco Pirata" description="Aventura pirata con resbaladilla de altura." price="$2,500" size="7×5×4m" ages="3-12 años" category="Aventura" categoryColor="pirata" gradient="#1565C0, #0D47A1" image="/img/inflables/barco-pirata.avif" />
+        <ProductCard slug="extremo" emoji="" name="Extremo" description="Circuito de 12m con obstáculos y tobogán doble." price="$3,000" size="12×4×3m" ages="6+ años" category="Extremo" categoryColor="extremo" gradient="#E65100, #BF360C" image="/img/inflables/extremo.avif" />
+        <ProductCard slug="castillo-princesas" emoji="" name="Castillo de Princesas" description="Castillo rosa con princesas de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Princesas" categoryColor="princesas" gradient="#E91E8C, #7C3AED" image="/img/inflables/castillo-princesas.avif" />
+        <ProductCard slug="dragones-rojos" emoji="" name="Dragones Rojos" description="El más popular con dragones de 3m y resbaladilla." price="$1,200" size="4×4×3m" ages="4-10 años" category="Castillo" categoryColor="castillo" gradient="#B71C1C, #E53935" image="/img/inflables/dragones-rojos.avif" />
       </div>
     </div>
   </section>

@@ -16,7 +16,7 @@ const salones = [
     phone: "55 1111 2222",
     features: ["Salón y jardín", "Área de inflables", "Taquiza incluida", "Estacionamiento techado"],
     gradient: "linear-gradient(135deg, #2E7D32, #00C853)",
-    label: "🏡",
+    label: "Salón",
     highlight: "El más completo de Naucalpan",
   },
   {
@@ -28,7 +28,7 @@ const salones = [
     phone: "55 2222 3333",
     features: ["Trampolines", "Ludoteca", "Pintacaritas", "Paquetes desde 20 niños"],
     gradient: "linear-gradient(135deg, #9C27B0, #E91E8C)",
-    label: "🎭",
+    label: "Teatro",
     highlight: "Ideal para grupos pequeños y medianos",
   },
   {
@@ -40,7 +40,7 @@ const salones = [
     phone: "55 3333 4444",
     features: ["El más grande de la zona", "Banquete completo", "DJ profesional", "Brincolines incluidos"],
     gradient: "linear-gradient(135deg, #FF3D00, #E91E8C)",
-    label: "🎶",
+    label: "Música",
     highlight: "Mayor capacidad al mejor precio",
   },
   {
@@ -52,7 +52,7 @@ const salones = [
     phone: "55 4444 5555",
     features: ["Zona residencial", "Terraza con vista", "Menú gourmet infantil", "Seguridad privada"],
     gradient: "linear-gradient(135deg, #1565C0, #0288D1)",
-    label: "🏔️",
+    label: "Montaña",
     highlight: "Experiencia premium en Interlomas",
   },
   {
@@ -64,7 +64,7 @@ const salones = [
     phone: "55 5555 6666",
     features: ["Precios populares", "Paquetes completos", "Payasos y magia", "Pastel incluido"],
     gradient: "linear-gradient(135deg, #FFD600, #FF6F00)",
-    label: "🎂",
+    label: "Festejo",
     highlight: "La opción más económica del Edomex",
   },
   {
@@ -76,7 +76,7 @@ const salones = [
     phone: "55 6666 7777",
     features: ["Salón moderno", "Área de bebés", "Piñatas y dulceros", "Estacionamiento vigilado"],
     gradient: "linear-gradient(135deg, #00C853, #0288D1)",
-    label: "🎀",
+    label: "Decoración",
     highlight: "Moderno y familiar al norte del Edomex",
   },
   {
@@ -88,7 +88,7 @@ const salones = [
     phone: "722 123 4567",
     features: ["Salón amplio", "Juegos interactivos", "Shows temáticos", "Servicio de meseros"],
     gradient: "linear-gradient(135deg, #7C3AED, #1565C0)",
-    label: "🎡",
+    label: "Diversión",
     highlight: "El favorito de la capital mexiquense",
   },
   {
@@ -100,7 +100,7 @@ const salones = [
     phone: "722 234 5678",
     features: ["Ambiente familiar", "Decoración premium", "Área verde", "Banquete y bebidas"],
     gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)",
-    label: "🏠",
+    label: "Casa",
     highlight: "Decoración premium en el pueblo mágico",
   },
 ];
@@ -157,7 +157,7 @@ const schemaList = {
     <div class="container">
       <div class="hero__grid">
         <div>
-          <span class="hero__badge">🏘️ Estado de México</span>
+          <span class="hero__badge">Estado de México</span>
           <h1 class="hero__title">Salones de Fiestas Infantiles en <span class="highlight">Edomex</span></h1>
           <p class="hero__desc">
             Los mejores salones para fiestas infantiles en los principales municipios del Estado de México. {salones.length} opciones verificadas.
@@ -186,7 +186,7 @@ const schemaList = {
   <section class="section" style="padding-top:0; padding-bottom:2rem;">
     <div class="container">
       <div class="dir-tip">
-        <div class="dir-tip__icon">📍</div>
+        <div class="dir-tip__icon"></div>
         <div class="dir-tip__content">
           <p class="dir-tip__title">Municipios con salones en este directorio</p>
           <div class="coverage__badges" style="margin-top:0.5rem;">
@@ -201,7 +201,7 @@ const schemaList = {
   <section class="section section--alt">
     <div class="container">
       <SectionHeader
-        badge="⭐ {salones.length} salones verificados"
+        badge="{salones.length} salones verificados"
         title="Salones en Estado de México"
         subtitle="Directorio completo con dirección, capacidad, precios, teléfono y servicios de cada salón."
         copy1="El Estado de México cuenta con opciones para todos los presupuestos. Desde salones con paquetes desde $2,500 MXN hasta experiencias gourmet en zonas residenciales. Los precios son referenciales y pueden variar."
@@ -211,17 +211,17 @@ const schemaList = {
         {salones.map(s => (
           <div class="venue-card">
             <div class="venue-card__header" style={`background: ${s.gradient};`}>
-              <span class="venue-card__label">{s.label}</span>
+              
               <h3 class="venue-card__name">{s.name}</h3>
               <span class="venue-card__zone">{s.zone}, Edomex</span>
             </div>
             <div class="venue-card__body">
               <p class="venue-card__highlight">{s.highlight}</p>
               <div class="venue-card__info">
-                <p class="venue-card__detail"><strong>📍</strong> {s.address}</p>
-                <p class="venue-card__detail"><strong>👥</strong> {s.capacity}</p>
-                <p class="venue-card__detail"><strong>💰</strong> {s.price}</p>
-                <p class="venue-card__detail"><strong>📞</strong> {s.phone}</p>
+                <p class="venue-card__detail"><strong>Dirección:</strong> {s.address}</p>
+                <p class="venue-card__detail"><strong>Capacidad:</strong> {s.capacity}</p>
+                <p class="venue-card__detail"><strong>Precio:</strong> {s.price}</p>
+                <p class="venue-card__detail"><strong>Tel:</strong> {s.phone}</p>
               </div>
               <div class="venue-card__features">
                 {s.features.map(f => (

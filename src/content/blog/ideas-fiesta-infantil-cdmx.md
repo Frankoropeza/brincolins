@@ -1,5 +1,5 @@
 ---
-title: "🎉 ¡Haz que la fiesta sea épica!"
+title: "¡Haz que la fiesta sea épica!"
 description: "Todo sobre ideas-fiesta-infantil-cdmx — guía completa para tu fiesta infantil en CDMX."
 publishDate: "2025-03-15"
 category: "fiestas"
