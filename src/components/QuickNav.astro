@@ -1,0 +1,99 @@
+---
+/**
+ * QuickNav — Barra de acceso rápido full-width bajo el hero
+ * Estilo: fondo oscuro, pills con hover naranja, scroll horizontal en móvil
+ */
+const links = [
+  { label: "🎪 Inflables",         href: "/inflables/" },
+  { label: "🎉 Servicios",         href: "/servicios/" },
+  { label: "📍 Cobertura",         href: "/cobertura/" },
+  { label: "📝 Blog",              href: "/blog/" },
+  { label: "👋 Nosotros",          href: "/nosotros/" },
+  { label: "📞 Cotizar Gratis",    href: "/contacto/", cta: true },
+];
+
+const current = Astro.url.pathname;
+---
+
+<nav class="qnav" aria-label="Acceso rápido">
+  <div class="qnav__inner">
+    {links.map(l => (
+      <a
+        href={l.href}
+        class:list={["qnav__link", { "qnav__link--active": current.startsWith(l.href) && l.href !== "/", "qnav__link--cta": l.cta }]}
+      >
+        {l.label}
+      </a>
+    ))}
+  </div>
+</nav>
+
+<style>
+.qnav {
+  width: 100%;
+  background: #1a1a2e;
+  border-bottom: 3px solid #FF3D00;
+}
+
+.qnav__inner {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.65rem clamp(1rem, 3vw, 2.5rem);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  width: 100%;
+}
+
+.qnav__inner::-webkit-scrollbar { display: none; }
+
+.qnav__link {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  padding: 0.45rem 1rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.78);
+  text-decoration: none;
+  transition: background 0.18s ease, color 0.18s ease, transform 0.2s cubic-bezier(0.34,1.56,0.64,1);
+  letter-spacing: 0.01em;
+  border: 1.5px solid transparent;
+  flex-shrink: 0;
+}
+
+.qnav__link:hover {
+  background: rgba(255,61,0,0.15);
+  border-color: rgba(255,61,0,0.4);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.qnav__link--active {
+  background: rgba(255,61,0,0.12);
+  border-color: rgba(255,61,0,0.35);
+  color: #FF6B35;
+}
+
+.qnav__link--cta {
+  background: linear-gradient(135deg, #FF3D00, #FF6B00);
+  color: #fff !important;
+  border-color: transparent;
+  margin-left: auto;
+  box-shadow: 0 3px 10px rgba(255,61,0,0.35);
+  font-weight: 700;
+}
+
+.qnav__link--cta:hover {
+  filter: brightness(1.1);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 16px rgba(255,61,0,0.45);
+}
+
+@media (max-width: 640px) {
+  .qnav__link--cta { margin-left: 0.35rem; }
+  .qnav__link { font-size: 0.82rem; padding: 0.4rem 0.85rem; }
+}
+</style>
