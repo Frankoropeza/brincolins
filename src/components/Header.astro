@@ -235,7 +235,7 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   --hdr-border: rgba(0,0,0,0.07);
   --hdr-shadow: 0 4px 24px rgba(0,0,0,0.08);
   --hdr-ease: cubic-bezier(0.4, 0, 0.2, 1);
-  --hdr-logo-h: 156px;
+  --hdr-logo-h: 72px;
 }
 
 /* ══════════════════════════════════════════
@@ -249,6 +249,13 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   background: #fff;
   border-bottom: 1px solid var(--hdr-border);
   box-shadow: var(--hdr-shadow);
+  transform: translateY(0);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+
+.hdr--hidden {
+  transform: translateY(-110%);
 }
 
 .hdr__inner {
@@ -808,18 +815,18 @@ function isActive(href: string, children?: { href: string }[]): boolean {
 @media (max-width: 1024px) {
   .hdr__wa-btn span { display: none; }
   .hdr__wa-btn { padding: 0.5rem; border-radius: 10px; }
-  :root { --hdr-logo-h: 132px; }
+  :root { --hdr-logo-h: 64px; }
 }
 
 @media (max-width: 900px) {
   .hdr__nav, .hdr__wa-btn { display: none; }
   .hdr__toggle { display: flex; }
   .hdr__panel { display: flex; }
-  :root { --hdr-logo-h: 110px; }
+  :root { --hdr-logo-h: 58px; }
 }
 
 @media (max-width: 480px) {
-  :root { --hdr-logo-h: 90px; }
+  :root { --hdr-logo-h: 50px; }
   .hdr__panel { width: 100%; }
 }
 </style>
@@ -871,6 +878,21 @@ function isActive(href: string, children?: { href: string }[]): boolean {
       if (sub) sub.classList.toggle('hdr__panel-sub--open');
     });
   });
+
+  /* Hide on scroll down, show on scroll up */
+  if (hdr) {
+    var lastY = 0;
+    var threshold = 80;
+    window.addEventListener('scroll', function () {
+      var y = window.pageYOffset || document.documentElement.scrollTop;
+      if (y > lastY && y > threshold) {
+        hdr.classList.add('hdr--hidden');
+      } else {
+        hdr.classList.remove('hdr--hidden');
+      }
+      lastY = y;
+    }, { passive: true });
+  }
 
 })();
 </script>
