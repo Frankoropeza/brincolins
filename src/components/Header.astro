@@ -55,16 +55,17 @@ function isActive(href: string, children?: { href: string }[]): boolean {
 >
   <div class="hdr__inner">
     {/* ── Logo ── */}
-    <a href={logoHref} class="hdr__logo" aria-label={`${brand} — Inicio`}>
-      <svg class="hdr__logo-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-        <path d="M12 2C8 2 4 6 4 10c0 2 .5 3.5 1.5 4.5L4 22h16l-1.5-7.5C19.5 13.5 20 12 20 10c0-4-4-8-8-8z" fill="#FF3D00" opacity="0.9"/>
-        <path d="M8 10c0-2.2 1.8-4 4-4s4 1.8 4 4" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
-        <circle cx="10" cy="12" r="1" fill="#fff"/>
-        <circle cx="14" cy="12" r="1" fill="#fff"/>
-        <path d="M9 15c1 1.5 5 1.5 6 0" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>
-      </svg>
-      <span class="hdr__logo-text">{brand}</span>
-      {brandAccent && <span class="hdr__logo-dot">{brandAccent}</span>}
+    <a href={logoHref} class="hdr__logo" aria-label={`${brand} — Renta de inflables CDMX`}>
+      <img
+        src="/img/branding/renta-de-inflables.avif"
+        alt="Brincolins — Renta de inflables en CDMX"
+        class="hdr__logo-img"
+        width="132"
+        height="88"
+        loading="eager"
+        decoding="async"
+        fetchpriority="high"
+      />
     </a>
 
     {/* ── Desktop Navigation ── */}
@@ -130,7 +131,15 @@ function isActive(href: string, children?: { href: string }[]): boolean {
 {/* ── Mobile panel ── */}
 <nav class="hdr__panel" id="hdrPanel" aria-label="Menú móvil" aria-hidden="true">
   <div class="hdr__panel-head">
-    <span class="hdr__panel-brand">{brand}<span class="hdr__logo-dot">{brandAccent}</span></span>
+    <img
+      src="/img/branding/renta-de-inflables.avif"
+      alt="Brincolins — Renta de inflables en CDMX"
+      class="hdr__panel-logo"
+      width="99"
+      height="66"
+      loading="lazy"
+      decoding="async"
+    />
     <button class="hdr__panel-close" id="hdrClose" type="button" aria-label="Cerrar menú">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
         <path d="M1 1l14 14M15 1L1 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
@@ -207,11 +216,11 @@ function isActive(href: string, children?: { href: string }[]): boolean {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: var(--container, 1400px);
+    max-width: 100%;
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 clamp(1.25rem, 4vw, 4rem);
   }
 
   /* ── Logo ── */
@@ -219,23 +228,25 @@ function isActive(href: string, children?: { href: string }[]): boolean {
     flex-shrink: 0;
     display: flex;
     align-items: center;
-    gap: 0.4rem;
     height: 64px;
-    font-family: var(--font-head, 'Nunito', sans-serif);
-    font-weight: 900;
-    font-size: 1.4rem;
     text-decoration: none;
   }
 
-  .hdr__logo-icon {
-    flex-shrink: 0;
-  }
-
-  .hdr__logo-text {
-    color: #FF3D00;
+  .hdr__logo-img {
+    height: 44px;
+    width: auto;
+    display: block;
+    object-fit: contain;
   }
 
   .hdr__logo:hover { opacity: 0.85; }
+
+  .hdr__panel-logo {
+    height: 36px;
+    width: auto;
+    display: block;
+    object-fit: contain;
+  }
 
   /* ── Desktop Nav ── */
   .hdr__nav {
