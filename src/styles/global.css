@@ -25,7 +25,7 @@
   --shadow-lg: 0 8px 32px rgba(230,50,0,0.08);
   --shadow-primary: 0 8px 25px rgba(255, 61, 0, 0.15);
   --shadow-wa: 0 4px 20px rgba(37, 211, 102, 0.4);
-  --container: 1400px;
+  --container: 100%;
   --section-py: clamp(4rem, 8vw, 6rem);
 
   /* Colores por categoría */
@@ -74,9 +74,9 @@ h1, h2, h3, h4, h5, h6 {
 /* ── Container ── */
 .container {
   width: 100%;
-  max-width: var(--container);
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 clamp(1.25rem, 4vw, 4rem);
 }
 
 /* ── Skip link ── */
@@ -282,9 +282,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* TopBar + Header + hdr-stack styles are scoped in their respective .astro components */
 
-/* ── Main content offset for fixed header + topbar ── */
+/* ── Main content offset — header ya no es fixed ── */
 #main-content {
-  padding-top: calc(var(--topbar-height, 36px) + var(--header-height, 70px));
+  padding-top: 0;
 }
 
 /* ── Sticky CTA Mobile ── */
@@ -340,7 +340,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ── Hero ── */
 .hero {
-  padding-top: calc(var(--topbar-height, 36px) + var(--header-height, 70px) + 3rem);
+  padding-top: 4rem;
   padding-bottom: 4rem;
   background: linear-gradient(160deg, #C62800 0%, #E63200 50%, #FF5722 100%);
   color: #fff;
@@ -2132,9 +2132,9 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-columns: 1fr 320px;
   gap: 2.5rem;
   align-items: start;
-  max-width: var(--container);
+  width: 100%;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 clamp(1.25rem, 4vw, 4rem);
 }
 .page-with-sidebar__main { min-width: 0; }
 
