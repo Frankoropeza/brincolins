@@ -228,8 +228,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
    Variables internas
    ══════════════════════════════════════════ */
 :root {
-  --hdr-h: 176px;
-  --hdr-h-sm: 120px;
   --hdr-primary: #FF3D00;
   --hdr-primary-dark: #E03500;
   --hdr-text: #1a1a2e;
@@ -238,7 +236,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   --hdr-shadow: 0 4px 24px rgba(0,0,0,0.08);
   --hdr-ease: cubic-bezier(0.4, 0, 0.2, 1);
   --hdr-logo-h: 156px;
-  --hdr-logo-h-sm: 102px;
 }
 
 /* ══════════════════════════════════════════
@@ -249,19 +246,9 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   top: 0;
   z-index: 9000;
   width: 100%;
-  height: var(--hdr-h);
   background: #fff;
   border-bottom: 1px solid var(--hdr-border);
-  transition: height 0.3s var(--hdr-ease), box-shadow 0.3s var(--hdr-ease), background 0.3s var(--hdr-ease);
-  will-change: height;
-}
-
-.hdr--scrolled {
-  height: var(--hdr-h-sm);
   box-shadow: var(--hdr-shadow);
-  background: rgba(255,255,255,0.96);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
 }
 
 .hdr__inner {
@@ -269,10 +256,9 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   align-items: center;
   justify-content: space-between;
   gap: 1.5rem;
-  height: 100%;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 clamp(1rem, 4vw, 3.5rem);
+  padding: 6px clamp(1rem, 4vw, 3.5rem);
 }
 
 /* ══════════════════════════════════════════
@@ -296,11 +282,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   width: auto;
   display: block;
   object-fit: contain;
-  transition: height 0.3s var(--hdr-ease);
-}
-
-.hdr--scrolled .hdr__logo-img {
-  height: var(--hdr-logo-h-sm);
 }
 
 /* ══════════════════════════════════════════
@@ -827,18 +808,18 @@ function isActive(href: string, children?: { href: string }[]): boolean {
 @media (max-width: 1024px) {
   .hdr__wa-btn span { display: none; }
   .hdr__wa-btn { padding: 0.5rem; border-radius: 10px; }
-  :root { --hdr-logo-h: 132px; --hdr-logo-h-sm: 90px; }
+  :root { --hdr-logo-h: 132px; }
 }
 
 @media (max-width: 900px) {
   .hdr__nav, .hdr__wa-btn { display: none; }
   .hdr__toggle { display: flex; }
   .hdr__panel { display: flex; }
-  :root { --hdr-h: 144px; --hdr-h-sm: 108px; --hdr-logo-h: 120px; --hdr-logo-h-sm: 88px; }
+  :root { --hdr-logo-h: 110px; }
 }
 
 @media (max-width: 480px) {
-  :root { --hdr-h: 120px; --hdr-h-sm: 96px; --hdr-logo-h: 102px; --hdr-logo-h-sm: 76px; }
+  :root { --hdr-logo-h: 90px; }
   .hdr__panel { width: 100%; }
 }
 </style>
@@ -891,19 +872,5 @@ function isActive(href: string, children?: { href: string }[]): boolean {
     });
   });
 
-  /* Sticky shrink on scroll */
-  if (hdr) {
-    var topbar = document.querySelector('.topbar');
-
-    window.addEventListener('scroll', function () {
-      var topbarH = topbar ? topbar.offsetHeight : 0;
-      var y = window.pageYOffset || document.documentElement.scrollTop;
-      if (y > topbarH + 10) {
-        hdr.classList.add('hdr--scrolled');
-      } else {
-        hdr.classList.remove('hdr--scrolled');
-      }
-    }, { passive: true });
-  }
 })();
 </script>
