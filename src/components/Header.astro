@@ -1,22 +1,20 @@
 ---
 /**
- * Header Component — Origenlab Standard
- * ─────────────────────────────────────
+ * Header Component — Brincolins
+ * ─────────────────────────────
  * Configurable via /src/data/header.md
  * Features:
- *   - Sticky header with optional glassmorphism
- *   - Desktop nav with dropdown submenus
- *   - Mobile slide-in panel with accordion submenus
- *   - Active link state detection
- *   - CTA button (optional, configurable)
- *   - Scroll shadow effect
- *   - Minimal JS, semantic HTML, ARIA accessible
+ *   - Sticky con shrink on scroll (90px → 70px)
+ *   - Logo grande centrado visualmente
+ *   - Dropdown mejorado con grid
+ *   - WhatsApp CTA en desktop
+ *   - Panel móvil full con contacto al pie
+ *   - ARIA accesible
  */
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import matter from 'gray-matter';
 
-// ── Load config ──
 interface NavItem {
   label: string;
   href: string;
@@ -24,20 +22,27 @@ interface NavItem {
 }
 
 let config: Record<string, any> = {};
+let topbarConfig: Record<string, any> = {};
 try {
   const raw = readFileSync(join(process.cwd(), 'src/data/header.md'), 'utf-8');
   config = matter(raw).data;
-} catch { /* defaults below */ }
+} catch { /* defaults */ }
+try {
+  const raw2 = readFileSync(join(process.cwd(), 'src/data/topbar.md'), 'utf-8');
+  topbarConfig = matter(raw2).data;
+} catch { /* defaults */ }
 
-const brand       = config.brand ?? 'BRINCOLINS';
-const brandAccent = config.brandAccent ?? '';
-const logoHref    = config.logoHref ?? '/';
-const navLinks    = (config.nav ?? []) as NavItem[];
-const cta         = config.cta ?? { enabled: false, label: '', href: '' };
-const scrollEffect = config.scrollEffect ?? true;
-const blurBg       = config.blurBg ?? false;
+const brand      = config.brand ?? 'BRINCOLINS';
+const logoHref   = config.logoHref ?? '/';
+const navLinks   = (config.nav ?? []) as NavItem[];
+const cta        = config.cta ?? { enabled: false, label: '', href: '' };
 
-// ── Active link detection ──
+const waNum      = topbarConfig.whatsapp ?? '';
+const waMsg      = topbarConfig.waMessage ?? 'Hola, quiero cotizar un inflable.';
+const phone      = topbarConfig.phone ?? '';
+const schedule   = topbarConfig.schedule ?? '';
+const waHref     = waNum ? `https://wa.me/${waNum}?text=${encodeURIComponent(waMsg)}` : '';
+
 const currentPath = Astro.url.pathname;
 
 function isActive(href: string, children?: { href: string }[]): boolean {
@@ -48,114 +53,122 @@ function isActive(href: string, children?: { href: string }[]): boolean {
 }
 ---
 
-<header
-  class:list={['hdr', { 'hdr--blur': blurBg }]}
-  id="hdr"
-  data-scroll={scrollEffect ? 'true' : undefined}
->
+<header class="hdr" id="hdr" role="banner">
   <div class="hdr__inner">
+
     {/* ── Logo ── */}
-    <a href={logoHref} class="hdr__logo" aria-label={`${brand} — Renta de inflables CDMX`}>
+    <a href={logoHref} class="hdr__logo" aria-label={`${brand} — Inicio`}>
       <img
         src="/img/branding/renta-de-inflables.avif"
         alt="Brincolins — Renta de inflables en CDMX"
         class="hdr__logo-img"
-        width="132"
-        height="88"
+        width="630"
+        height="420"
         loading="eager"
         decoding="async"
         fetchpriority="high"
       />
     </a>
 
-    {/* ── Desktop Navigation ── */}
+    {/* ── Desktop nav ── */}
     <nav class="hdr__nav" aria-label="Navegación principal">
-      <ul class="hdr__list" role="menubar">
+      <ul class="hdr__list">
         {navLinks.map((link) => (
-          <li class:list={[{ 'hdr__has-sub': !!link.children }]} role="none">
+          <li class:list={['hdr__item', { 'hdr__item--sub': !!link.children }]}>
             <a
               href={link.href}
-              role="menuitem"
               class:list={['hdr__link', { 'hdr__link--active': isActive(link.href, link.children) }]}
               aria-haspopup={link.children ? 'true' : undefined}
             >
               {link.label}
               {link.children && (
-                <svg class="hdr__chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true">
-                  <path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <svg class="hdr__chev" width="11" height="7" viewBox="0 0 11 7" fill="none" aria-hidden="true">
+                  <path d="M1 1l4.5 4.5L10 1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               )}
             </a>
             {link.children && (
-              <ul class="hdr__dropdown" role="menu">
-                {link.children.map((sub) => (
-                  <li role="none">
-                    <a
-                      href={sub.href}
-                      role="menuitem"
-                      class:list={['hdr__drop-link', { 'hdr__drop-link--active': currentPath === sub.href }]}
-                    >
-                      {sub.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
+              <div class="hdr__dropdown" role="menu">
+                <ul class="hdr__drop-list">
+                  {link.children.map((sub) => (
+                    <li role="none">
+                      <a
+                        href={sub.href}
+                        role="menuitem"
+                        class:list={['hdr__drop-link', { 'hdr__drop-link--active': currentPath === sub.href }]}
+                      >
+                        <span class="hdr__drop-dot" aria-hidden="true"></span>
+                        {sub.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             )}
           </li>
         ))}
       </ul>
     </nav>
 
-    {/* ── CTA Button ── */}
-    {cta.enabled && (
-      <a href={cta.href} class="hdr__cta btn btn-primary">{cta.label}</a>
-    )}
+    {/* ── Acciones desktop ── */}
+    <div class="hdr__actions">
+      {waHref && (
+        <a href={waHref} target="_blank" rel="nofollow noopener noreferrer" class="hdr__wa-btn" aria-label="Contactar por WhatsApp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          <span>WhatsApp</span>
+        </a>
+      )}
+      {cta.enabled && (
+        <a href={cta.href} class="hdr__cta">
+          {cta.label}
+        </a>
+      )}
+      <button class="hdr__toggle" id="hdrToggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="hdrPanel">
+        <span class="hdr__burger" aria-hidden="true"></span>
+      </button>
+    </div>
 
-    {/* ── Hamburger ── */}
-    <button
-      class="hdr__toggle"
-      id="hdrToggle"
-      type="button"
-      aria-label="Abrir menú"
-      aria-expanded="false"
-      aria-controls="hdrPanel"
-    >
-      <span class="hdr__bar"></span>
-    </button>
   </div>
 </header>
 
-{/* ── Mobile overlay ── */}
+{/* ── Overlay ── */}
 <div class="hdr__overlay" id="hdrOverlay" aria-hidden="true"></div>
 
-{/* ── Mobile panel ── */}
+{/* ── Panel móvil ── */}
 <nav class="hdr__panel" id="hdrPanel" aria-label="Menú móvil" aria-hidden="true">
+
+  {/* Cabecera panel */}
   <div class="hdr__panel-head">
-    <img
-      src="/img/branding/renta-de-inflables.avif"
-      alt="Brincolins — Renta de inflables en CDMX"
-      class="hdr__panel-logo"
-      width="99"
-      height="66"
-      loading="lazy"
-      decoding="async"
-    />
+    <a href={logoHref} class="hdr__panel-logo-link" onclick="document.getElementById('hdrPanel').classList.remove('hdr__panel--open')">
+      <img
+        src="/img/branding/renta-de-inflables.avif"
+        alt={`${brand}`}
+        class="hdr__panel-logo"
+        width="630"
+        height="420"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
     <button class="hdr__panel-close" id="hdrClose" type="button" aria-label="Cerrar menú">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-        <path d="M1 1l14 14M15 1L1 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+        <path d="M1.5 1.5l15 15M16.5 1.5l-15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
       </svg>
     </button>
   </div>
 
+  {/* Nav items */}
   <ul class="hdr__panel-list">
     {navLinks.map((link) => (
-      <li class:list={[{ 'hdr__panel-hassub': !!link.children }]}>
+      <li class:list={['hdr__panel-item', { 'hdr__panel-item--sub': !!link.children }]}>
         {link.children ? (
           <>
             <button class="hdr__panel-link hdr__panel-subtoggle" type="button" data-sub>
               <span>{link.label}</span>
-              <svg class="hdr__panel-chev" width="12" height="7" viewBox="0 0 12 7" fill="none" aria-hidden="true">
-                <path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <svg class="hdr__panel-chev" width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true">
+                <path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </button>
             <ul class="hdr__panel-sub">
@@ -163,8 +176,9 @@ function isActive(href: string, children?: { href: string }[]): boolean {
                 <li>
                   <a
                     href={sub.href}
-                    class:list={['hdr__panel-link hdr__panel-sublink', { 'hdr__panel-link--active': currentPath === sub.href }]}
+                    class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath === sub.href }]}
                   >
+                    <span class="hdr__panel-subdot" aria-hidden="true"></span>
                     {sub.label}
                   </a>
                 </li>
@@ -183,462 +197,713 @@ function isActive(href: string, children?: { href: string }[]): boolean {
     ))}
   </ul>
 
-  {cta.enabled && (
-    <div class="hdr__panel-foot">
-      <a href={cta.href} class="btn btn-primary hdr__panel-cta">{cta.label}</a>
-    </div>
-  )}
+  {/* Pie de panel: CTA + contacto */}
+  <div class="hdr__panel-foot">
+    {cta.enabled && (
+      <a href={cta.href} class="hdr__panel-cta">{cta.label}</a>
+    )}
+    {waHref && (
+      <a href={waHref} target="_blank" rel="nofollow noopener noreferrer" class="hdr__panel-wa">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        Escríbenos por WhatsApp
+      </a>
+    )}
+    {phone && (
+      <a href={`tel:+52${waNum || phone.replace(/\s/g,'')}`} class="hdr__panel-phone">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+        </svg>
+        {phone}
+      </a>
+    )}
+    {schedule && <p class="hdr__panel-schedule">{schedule}</p>}
+  </div>
+
 </nav>
 
 <style>
-  /* ══════════════════════════════════════
-     Header — Core
-     ══════════════════════════════════════ */
-  .hdr {
-    height: 160px;
-    background: #ffffff;
-    border-bottom: 1px solid #f0f0f0;
-    display: flex;
-    align-items: center;
-  }
+/* ══════════════════════════════════════════
+   Variables internas
+   ══════════════════════════════════════════ */
+:root {
+  --hdr-h: 90px;
+  --hdr-h-sm: 68px;
+  --hdr-primary: #FF3D00;
+  --hdr-primary-dark: #E03500;
+  --hdr-text: #1a1a2e;
+  --hdr-text-muted: #6b7280;
+  --hdr-border: rgba(0,0,0,0.07);
+  --hdr-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  --hdr-ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --hdr-logo-h: 72px;
+  --hdr-logo-h-sm: 52px;
+}
 
-  .hdr--blur {
-    background: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-  }
+/* ══════════════════════════════════════════
+   Header base
+   ══════════════════════════════════════════ */
+.hdr {
+  position: sticky;
+  top: 0;
+  z-index: 9000;
+  width: 100%;
+  height: var(--hdr-h);
+  background: #fff;
+  border-bottom: 1px solid var(--hdr-border);
+  transition: height 0.3s var(--hdr-ease), box-shadow 0.3s var(--hdr-ease), background 0.3s var(--hdr-ease);
+  will-change: height;
+}
 
-  .hdr--scrolled {
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
-  }
+.hdr--scrolled {
+  height: var(--hdr-h-sm);
+  box-shadow: var(--hdr-shadow);
+  background: rgba(255,255,255,0.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
 
-  .hdr__inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 0 clamp(1.25rem, 4vw, 4rem);
-  }
+.hdr__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  height: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 4vw, 3.5rem);
+}
 
-  /* ── Logo ── */
-  .hdr__logo {
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    height: 160px;
-    text-decoration: none;
-  }
+/* ══════════════════════════════════════════
+   Logo
+   ══════════════════════════════════════════ */
+.hdr__logo {
+  flex-shrink: 0;
+  display: block;
+  text-decoration: none;
+  line-height: 0;
+  transition: opacity 0.2s var(--hdr-ease), transform 0.2s var(--hdr-ease);
+}
 
-  .hdr__logo-img {
-    height: 140px;
-    width: auto;
-    display: block;
-    object-fit: contain;
-  }
+.hdr__logo:hover {
+  opacity: 0.88;
+  transform: scale(0.98);
+}
 
-  .hdr__logo:hover { opacity: 0.85; }
+.hdr__logo-img {
+  height: var(--hdr-logo-h);
+  width: auto;
+  display: block;
+  object-fit: contain;
+  transition: height 0.3s var(--hdr-ease);
+}
 
-  .hdr__panel-logo {
-    height: 48px;
-    width: auto;
-    display: block;
-    object-fit: contain;
-  }
+.hdr--scrolled .hdr__logo-img {
+  height: var(--hdr-logo-h-sm);
+}
 
-  /* ── Desktop Nav ── */
-  .hdr__nav {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+/* ══════════════════════════════════════════
+   Nav desktop
+   ══════════════════════════════════════════ */
+.hdr__nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  min-width: 0;
+}
 
-  .hdr__list {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-  }
+.hdr__list {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-  .hdr__link {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: #333;
-    transition: color 0.2s var(--ease, ease);
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    padding: 0.25rem 0;
-    position: relative;
-    line-height: 1;
-  }
+.hdr__item {
+  position: relative;
+}
 
-  .hdr__link::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: var(--c-primary, #FF3D00);
-    border-radius: 1px;
-    transition: width 0.25s var(--ease, ease);
-  }
+/* Safe bridge so dropdown doesn't close while moving cursor */
+.hdr__item--sub {
+  padding-bottom: 6px;
+  margin-bottom: -6px;
+}
 
-  .hdr__link:hover { color: var(--c-primary, #FF3D00); }
-  .hdr__link:hover::after { width: 100%; }
-  .hdr__link--active { color: #FF3D00; font-weight: 700; }
-  .hdr__link--active::after { width: 100%; }
+.hdr__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0.45rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--hdr-text);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.18s var(--hdr-ease), background 0.18s var(--hdr-ease);
+  position: relative;
+}
 
-  .hdr__chevron {
-    transition: transform 0.2s var(--ease, ease);
-  }
+.hdr__link:hover {
+  color: var(--hdr-primary);
+  background: rgba(255, 61, 0, 0.06);
+}
 
-  /* ── Dropdown ── */
-  .hdr__has-sub {
-    position: relative;
-    padding-bottom: 8px;
-    margin-bottom: -8px;
-  }
+.hdr__link--active {
+  color: var(--hdr-primary);
+  font-weight: 700;
+}
 
-  .hdr__dropdown {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    min-width: 230px;
-    max-height: 70vh;
-    overflow-y: auto;
-    background: #fff;
-    border-radius: 12px;
-    border-top: 2px solid #FF3D00;
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.04);
-    padding: 0.5rem 0;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateX(-50%);
-    transition: opacity 0.15s ease, visibility 0.15s;
-    pointer-events: none;
-    z-index: 99999;
-  }
+.hdr__link--active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0.75rem;
+  right: 0.75rem;
+  height: 2px;
+  background: var(--hdr-primary);
+  border-radius: 1px;
+}
 
-  /* Puente invisible — zona segura entre link y dropdown */
-  .hdr__has-sub::after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: -20px;
-    right: -20px;
-    height: 20px;
-  }
+.hdr__chev {
+  opacity: 0.55;
+  transition: transform 0.2s var(--hdr-ease), opacity 0.2s;
+  flex-shrink: 0;
+}
 
-  .hdr__has-sub:hover .hdr__dropdown,
-  .hdr__has-sub:focus-within .hdr__dropdown {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-  }
+.hdr__item--sub:hover .hdr__chev,
+.hdr__item--sub:focus-within .hdr__chev {
+  transform: rotate(180deg);
+  opacity: 1;
+}
 
-  .hdr__has-sub:hover .hdr__chevron {
-    transform: rotate(180deg);
-  }
+/* ── Dropdown ── */
+.hdr__dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-6px);
+  min-width: 220px;
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid var(--hdr-border);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10), 0 2px 8px rgba(0,0,0,0.06);
+  padding: 0.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.18s var(--hdr-ease), transform 0.18s var(--hdr-ease), visibility 0.18s;
+  pointer-events: none;
+  z-index: 9999;
+}
 
-  .hdr__drop-link {
-    display: block;
-    padding: 0.55rem 1.25rem;
-    font-size: 0.875rem;
-    color: var(--c-text, #1a1a1a);
-    transition: background 0.15s, color 0.15s;
-    white-space: nowrap;
-  }
+.hdr__item--sub:hover .hdr__dropdown,
+.hdr__item--sub:focus-within .hdr__dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+  pointer-events: auto;
+}
 
-  .hdr__drop-link:hover,
-  .hdr__drop-link--active {
-    background: #FFF4ED;
-    color: var(--c-primary, #FF3D00);
-  }
+.hdr__drop-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
 
-  /* ── CTA ── */
-  .hdr__cta {
-    padding: 0.5rem 1.25rem;
-    font-size: 0.875rem;
-    flex-shrink: 0;
-    line-height: 1;
-    background: #FF3D00;
-    color: #fff;
-    border-radius: 6px;
-    font-weight: 700;
-  }
+.hdr__drop-link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.55rem 0.9rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--hdr-text);
+  text-decoration: none;
+  transition: background 0.14s var(--hdr-ease), color 0.14s var(--hdr-ease);
+  white-space: nowrap;
+}
 
-  /* ── Hamburger ── */
-  .hdr__toggle {
-    display: none;
-    width: 44px;
-    height: 44px;
-    position: relative;
-    flex-shrink: 0;
-    cursor: pointer;
-    border: 1.5px solid #e2e8f0;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-    align-items: center;
-    justify-content: center;
-  }
+.hdr__drop-link:hover,
+.hdr__drop-link--active {
+  background: rgba(255, 61, 0, 0.07);
+  color: var(--hdr-primary);
+}
 
-  .hdr__bar,
-  .hdr__bar::before,
-  .hdr__bar::after {
-    width: 22px;
-    height: 2px;
-    background: var(--c-text, #1a1a2e);
-    border-radius: 2px;
-    transition: all 0.25s ease;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+.hdr__drop-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--hdr-border);
+  flex-shrink: 0;
+  transition: background 0.14s;
+}
 
-  .hdr__bar { top: 50%; margin-top: -1px; }
-  .hdr__bar::before { content: ''; top: -7px; margin-top: 0; }
-  .hdr__bar::after  { content: ''; top:  7px; margin-top: 0; }
+.hdr__drop-link:hover .hdr__drop-dot,
+.hdr__drop-link--active .hdr__drop-dot {
+  background: var(--hdr-primary);
+}
 
-  .hdr__toggle--open {
-    border-color: var(--c-primary, #FF3D00);
-    background: #fff8f6;
-  }
-  .hdr__toggle--open .hdr__bar { background: transparent; }
-  .hdr__toggle--open .hdr__bar::before { top: 0; transform: translateX(-50%) rotate(45deg); }
-  .hdr__toggle--open .hdr__bar::after  { top: 0; transform: translateX(-50%) rotate(-45deg); }
+/* ══════════════════════════════════════════
+   Acciones desktop
+   ══════════════════════════════════════════ */
+.hdr__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-shrink: 0;
+}
 
-  /* ══════════════════════════════════════
-     Mobile Overlay
-     ══════════════════════════════════════ */
-  .hdr__overlay {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.4);
-    z-index: 99998;
-    opacity: 0;
-    transition: opacity 0.3s var(--ease, ease);
-  }
+/* WhatsApp pill */
+.hdr__wa-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #128C7E;
+  background: rgba(37, 211, 102, 0.08);
+  border: 1px solid rgba(37, 211, 102, 0.25);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.18s var(--hdr-ease), border-color 0.18s, transform 0.18s;
+}
 
-  .hdr__overlay--visible {
-    display: block;
-    opacity: 1;
-  }
+.hdr__wa-btn:hover {
+  background: rgba(37, 211, 102, 0.14);
+  border-color: rgba(37, 211, 102, 0.4);
+  transform: translateY(-1px);
+}
 
-  /* ══════════════════════════════════════
-     Mobile Panel
-     ══════════════════════════════════════ */
-  .hdr__panel {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 85%;
-    max-width: 360px;
-    background: var(--c-bg, #fff);
-    z-index: 99999;
-    transform: translateX(100%);
-    transition: transform 0.35s var(--ease, ease);
-    display: none;
-    flex-direction: column;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-  }
+/* CTA principal */
+.hdr__cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 1.3rem;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, #FF3D00 0%, #FF6B00 100%);
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 3px 12px rgba(255, 61, 0, 0.30);
+  transition: transform 0.18s var(--hdr-ease), box-shadow 0.18s var(--hdr-ease), filter 0.18s;
+  letter-spacing: 0.01em;
+}
 
-  .hdr__panel--open {
-    transform: translateX(0);
-  }
+.hdr__cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 61, 0, 0.38);
+  filter: brightness(1.06);
+}
 
-  .hdr__panel-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1.25rem;
-    height: 72px;
-    border-bottom: 1px solid var(--c-border, #e5e7eb);
-    flex-shrink: 0;
-  }
+.hdr__cta:active {
+  transform: translateY(0);
+}
 
-  .hdr__panel-brand {
-    font-family: var(--font-head, 'Nunito', sans-serif);
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: var(--c-primary, #FF3D00);
-  }
+/* ── Hamburger ── */
+.hdr__toggle {
+  display: none;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  cursor: pointer;
+  border: 1.5px solid var(--hdr-border);
+  background: #fff;
+  border-radius: 10px;
+  transition: border-color 0.2s, background 0.2s;
+  position: relative;
+}
 
-  .hdr__panel-close {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--c-text-muted, #6b7280);
-    border-radius: 8px;
-    border: 1px solid var(--c-border, #e5e7eb);
-    background: transparent;
-    cursor: pointer;
-    transition: background 0.15s, color 0.15s;
-  }
+.hdr__burger,
+.hdr__burger::before,
+.hdr__burger::after {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--hdr-text);
+  border-radius: 2px;
+  transition: all 0.25s var(--hdr-ease);
+  position: absolute;
+}
 
-  .hdr__panel-close:hover {
-    background: var(--c-bg-alt, #F8F9FA);
-    color: var(--c-text, #1a1a1a);
-  }
+.hdr__burger { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.hdr__burger::before { content: ''; top: -6px; left: 0; }
+.hdr__burger::after  { content: ''; top:  6px; left: 0; }
 
-  .hdr__panel-list {
-    flex: 1;
-    padding: 0.75rem 0;
-  }
+.hdr__toggle--open {
+  border-color: var(--hdr-primary);
+  background: rgba(255,61,0,0.04);
+}
 
-  .hdr__panel-link {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    min-height: 48px;
-    padding: 0 1.5rem;
-    font-size: 0.9375rem;
-    font-weight: 400;
-    color: var(--c-text, #1a1a1a);
-    transition: background 0.15s;
-    text-align: left;
-    cursor: pointer;
-    border: none;
-    background: none;
-    font-family: inherit;
-  }
+.hdr__toggle--open .hdr__burger { background: transparent; }
+.hdr__toggle--open .hdr__burger::before { top: 0; transform: rotate(45deg); background: var(--hdr-primary); }
+.hdr__toggle--open .hdr__burger::after  { top: 0; transform: rotate(-45deg); background: var(--hdr-primary); }
 
-  .hdr__panel-link:hover { background: var(--c-bg-alt, #F8F9FA); }
-  .hdr__panel-link--active { color: var(--c-primary, #FF3D00); font-weight: 600; }
+/* ══════════════════════════════════════════
+   Overlay
+   ══════════════════════════════════════════ */
+.hdr__overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  backdrop-filter: blur(2px);
+  z-index: 9100;
+  opacity: 0;
+  transition: opacity 0.3s var(--hdr-ease);
+}
 
-  .hdr__panel-chev {
-    transition: transform 0.25s var(--ease, ease);
-    flex-shrink: 0;
-    color: var(--c-text-muted, #6b7280);
-  }
+.hdr__overlay--visible {
+  display: block;
+  opacity: 1;
+}
 
-  .hdr__panel-subtoggle--open .hdr__panel-chev {
-    transform: rotate(180deg);
-  }
+/* ══════════════════════════════════════════
+   Panel móvil
+   ══════════════════════════════════════════ */
+.hdr__panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(88vw, 380px);
+  background: #fff;
+  z-index: 9200;
+  transform: translateX(100%);
+  transition: transform 0.35s var(--hdr-ease);
+  display: none;
+  flex-direction: column;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: -8px 0 40px rgba(0,0,0,0.12);
+}
 
-  .hdr__panel-sub {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s var(--ease, ease);
-    background: var(--c-bg-alt, #F8F9FA);
-  }
+.hdr__panel--open {
+  transform: translateX(0);
+}
 
-  .hdr__panel-sub--open { max-height: 500px; }
+/* Cabecera panel */
+.hdr__panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+  height: 72px;
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+  flex-shrink: 0;
+}
 
-  .hdr__panel-sublink {
-    padding-left: 2.25rem;
-    font-size: 0.875rem;
-    min-height: 44px;
-  }
+.hdr__panel-logo-link {
+  display: block;
+  line-height: 0;
+  text-decoration: none;
+}
 
-  .hdr__panel-foot {
-    padding: 1rem 1.5rem;
-    border-top: 1px solid var(--c-border, #e5e7eb);
-    flex-shrink: 0;
-  }
+.hdr__panel-logo {
+  height: 52px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
 
-  .hdr__panel-cta {
-    width: 100%;
-    justify-content: center;
-    padding: 0.875rem 1.5rem;
-    font-size: 0.9375rem;
-  }
+.hdr__panel-close {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.1);
+  background: transparent;
+  color: var(--hdr-text-muted);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  flex-shrink: 0;
+}
 
-  /* ══════════════════════════════════════
-     Responsive
-     ══════════════════════════════════════ */
-  @media (max-width: 768px) {
-    .hdr__nav,
-    .hdr__cta { display: none; }
-    .hdr__toggle { display: block; }
-    .hdr__panel { display: flex; }
-  }
+.hdr__panel-close:hover {
+  background: rgba(255,61,0,0.06);
+  border-color: rgba(255,61,0,0.2);
+  color: var(--hdr-primary);
+}
 
-  @media (max-width: 400px) {
-    .hdr__panel { width: 100%; max-width: none; }
-  }
+/* Lista nav panel */
+.hdr__panel-list {
+  flex: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+.hdr__panel-item {
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+
+.hdr__panel-item:last-child {
+  border-bottom: none;
+}
+
+.hdr__panel-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 52px;
+  padding: 0 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--hdr-text);
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s;
+  text-align: left;
+}
+
+.hdr__panel-link:hover {
+  color: var(--hdr-primary);
+  background: rgba(255,61,0,0.04);
+}
+
+.hdr__panel-link--active {
+  color: var(--hdr-primary);
+  border-left: 3px solid var(--hdr-primary);
+  padding-left: calc(1.5rem - 3px);
+}
+
+.hdr__panel-chev {
+  transition: transform 0.25s var(--hdr-ease);
+  opacity: 0.4;
+  flex-shrink: 0;
+}
+
+.hdr__panel-subtoggle--open .hdr__panel-chev {
+  transform: rotate(180deg);
+  opacity: 1;
+  color: var(--hdr-primary);
+}
+
+/* Submenu panel */
+.hdr__panel-sub {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s var(--hdr-ease);
+  background: #fafafa;
+  border-top: 1px solid rgba(0,0,0,0.04);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hdr__panel-sub--open {
+  max-height: 600px;
+}
+
+.hdr__panel-sublink {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-height: 46px;
+  padding: 0 1.5rem 0 2rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--hdr-text-muted);
+  text-decoration: none;
+  transition: color 0.14s, background 0.14s;
+}
+
+.hdr__panel-sublink:hover,
+.hdr__panel-sublink--active {
+  color: var(--hdr-primary);
+  background: rgba(255,61,0,0.04);
+}
+
+.hdr__panel-subdot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #d1d5db;
+  flex-shrink: 0;
+  transition: background 0.14s;
+}
+
+.hdr__panel-sublink:hover .hdr__panel-subdot,
+.hdr__panel-sublink--active .hdr__panel-subdot {
+  background: var(--hdr-primary);
+}
+
+/* Pie panel */
+.hdr__panel-foot {
+  padding: 1.25rem 1.25rem 1.75rem;
+  border-top: 1px solid rgba(0,0,0,0.07);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex-shrink: 0;
+  background: #fafafa;
+}
+
+.hdr__panel-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 1.5rem;
+  border-radius: 50px;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, #FF3D00 0%, #FF6B00 100%);
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(255,61,0,0.3);
+  transition: transform 0.18s var(--hdr-ease), box-shadow 0.18s;
+  letter-spacing: 0.01em;
+}
+
+.hdr__panel-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255,61,0,0.38);
+}
+
+.hdr__panel-wa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #128C7E;
+  background: rgba(37, 211, 102, 0.09);
+  border: 1.5px solid rgba(37, 211, 102, 0.3);
+  text-decoration: none;
+  transition: background 0.18s, border-color 0.18s;
+}
+
+.hdr__panel-wa:hover {
+  background: rgba(37, 211, 102, 0.15);
+  border-color: rgba(37, 211, 102, 0.5);
+}
+
+.hdr__panel-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--hdr-text);
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity 0.15s;
+}
+
+.hdr__panel-phone:hover { opacity: 1; }
+
+.hdr__panel-schedule {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--hdr-text-muted);
+  margin: 0;
+}
+
+/* ══════════════════════════════════════════
+   Responsive
+   ══════════════════════════════════════════ */
+@media (max-width: 1024px) {
+  .hdr__wa-btn span { display: none; }
+  .hdr__wa-btn { padding: 0.5rem; border-radius: 10px; }
+  :root { --hdr-logo-h: 62px; --hdr-logo-h-sm: 46px; }
+}
+
+@media (max-width: 900px) {
+  .hdr__nav, .hdr__wa-btn { display: none; }
+  .hdr__toggle { display: flex; }
+  .hdr__panel { display: flex; }
+  :root { --hdr-h: 76px; --hdr-h-sm: 62px; --hdr-logo-h: 58px; --hdr-logo-h-sm: 44px; }
+}
+
+@media (max-width: 480px) {
+  :root { --hdr-h: 66px; --hdr-h-sm: 56px; --hdr-logo-h: 50px; --hdr-logo-h-sm: 40px; }
+  .hdr__panel { width: 100%; }
+}
 </style>
 
 <script is:inline>
-  (function () {
-    var hdr     = document.getElementById('hdr');
-    var toggle  = document.getElementById('hdrToggle');
-    var panel   = document.getElementById('hdrPanel');
-    var overlay = document.getElementById('hdrOverlay');
-    var close   = document.getElementById('hdrClose');
-    var topbar  = document.querySelector('.topbar');
+(function () {
+  var hdr     = document.getElementById('hdr');
+  var toggle  = document.getElementById('hdrToggle');
+  var panel   = document.getElementById('hdrPanel');
+  var overlay = document.getElementById('hdrOverlay');
+  var close   = document.getElementById('hdrClose');
 
-    /* ── Mobile menu ── */
-    function open() {
-      toggle.classList.add('hdr__toggle--open');
-      toggle.setAttribute('aria-expanded', 'true');
-      panel.classList.add('hdr__panel--open');
-      panel.setAttribute('aria-hidden', 'false');
-      overlay.classList.add('hdr__overlay--visible');
-      document.body.style.overflow = 'hidden';
-    }
+  function openPanel() {
+    toggle.classList.add('hdr__toggle--open');
+    toggle.setAttribute('aria-expanded', 'true');
+    panel.classList.add('hdr__panel--open');
+    panel.setAttribute('aria-hidden', 'false');
+    overlay.classList.add('hdr__overlay--visible');
+    document.body.style.overflow = 'hidden';
+  }
 
-    function shut() {
-      toggle.classList.remove('hdr__toggle--open');
-      toggle.setAttribute('aria-expanded', 'false');
-      panel.classList.remove('hdr__panel--open');
-      panel.setAttribute('aria-hidden', 'true');
-      overlay.classList.remove('hdr__overlay--visible');
-      document.body.style.overflow = '';
-    }
+  function closePanel() {
+    toggle.classList.remove('hdr__toggle--open');
+    toggle.setAttribute('aria-expanded', 'false');
+    panel.classList.remove('hdr__panel--open');
+    panel.setAttribute('aria-hidden', 'true');
+    overlay.classList.remove('hdr__overlay--visible');
+    document.body.style.overflow = '';
+  }
 
-    if (toggle) toggle.addEventListener('click', function () {
-      panel.classList.contains('hdr__panel--open') ? shut() : open();
+  if (toggle) toggle.addEventListener('click', function () {
+    panel.classList.contains('hdr__panel--open') ? closePanel() : openPanel();
+  });
+  if (close)   close.addEventListener('click', closePanel);
+  if (overlay) overlay.addEventListener('click', closePanel);
+
+  /* Cerrar al hacer click en link del panel */
+  if (panel) {
+    panel.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', closePanel);
     });
-    if (close)   close.addEventListener('click', shut);
-    if (overlay) overlay.addEventListener('click', shut);
+  }
 
-    /* Close on link click */
-    if (panel) {
-      var links = panel.querySelectorAll('a');
-      for (var i = 0; i < links.length; i++) links[i].addEventListener('click', shut);
-    }
+  /* Accordion submenús panel */
+  document.querySelectorAll('[data-sub]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      this.classList.toggle('hdr__panel-subtoggle--open');
+      var sub = this.nextElementSibling;
+      if (sub) sub.classList.toggle('hdr__panel-sub--open');
+    });
+  });
 
-    /* ── Accordion submenus ── */
-    var subs = document.querySelectorAll('[data-sub]');
-    for (var j = 0; j < subs.length; j++) {
-      subs[j].addEventListener('click', function () {
-        this.classList.toggle('hdr__panel-subtoggle--open');
-        var sub = this.nextElementSibling;
-        if (sub) sub.classList.toggle('hdr__panel-sub--open');
-      });
-    }
+  /* Sticky shrink on scroll */
+  if (hdr) {
+    var topbar = document.querySelector('.topbar');
 
-    /* ── Scroll: hide topbar, add shadow ── */
-    if (hdr && hdr.dataset.scroll === 'true') {
-      var stack = document.querySelector('.hdr-stack');
-
-      function getTopbarH() {
-        return topbar ? topbar.offsetHeight : 0;
+    window.addEventListener('scroll', function () {
+      var topbarH = topbar ? topbar.offsetHeight : 0;
+      var y = window.pageYOffset || document.documentElement.scrollTop;
+      if (y > topbarH + 10) {
+        hdr.classList.add('hdr--scrolled');
+      } else {
+        hdr.classList.remove('hdr--scrolled');
       }
-
-      window.addEventListener('scroll', function () {
-        var topbarH = getTopbarH();
-        var y = window.pageYOffset || document.documentElement.scrollTop;
-        if (y > topbarH) {
-          hdr.classList.add('hdr--scrolled');
-          if (stack) stack.style.top = '0';
-          if (topbar) topbar.style.transform = 'translateY(-100%)';
-        } else {
-          hdr.classList.remove('hdr--scrolled');
-          if (stack) stack.style.top = topbarH + 'px';
-          if (topbar) topbar.style.transform = '';
-        }
-      }, { passive: true });
-    }
-  })();
+    }, { passive: true });
+  }
+})();
 </script>
