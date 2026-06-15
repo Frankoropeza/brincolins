@@ -23,10 +23,10 @@ const colonias = [
 ];
 
 const faqs = [
-  { question: "¿Cuánto cuesta el envío a Cuautitlán Izcalli?", answer: "En Cuautitlán Izcalli el cargo de envío es de $250 a $400. Es un costo fijo que cubre el traslado adicional desde nuestro almacén." },
-  { question: "¿Qué inflables son más populares en Cuautitlán Izcalli?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos toboganes, combinados con alberca y temáticos para todo tipo de fiestas." },
-  { question: "¿Atienden fines de semana en Cuautitlán Izcalli?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos en toda la zona de Cuautitlán Izcalli." },
-  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1-2 semanas de anticipación. Para fines de semana y temporadas altas (Semana Santa, verano, diciembre), lo ideal es reservar con 3 semanas de anticipación." },
+  { question: "¿Cuánto es el cargo de envío a Cuautitlán Izcalli?", answer: "El cargo de envío a Cuautitlán Izcalli varía entre $200 y $350 dependiendo de la colonia. Izcalli Centro, Hacienda del Parque y Ojo de Agua tienen el cargo base. Para Cumbria y zonas más alejadas el costo puede ser ligeramente mayor." },
+  { question: "¿Pueden entregar en los fraccionamientos planeados de Izcalli?", answer: "Sí. Cuautitlán Izcalli es un municipio muy bien planeado con amplias avenidas y fácil acceso. Hemos entregado en Izcalli Centro, Ciudad Cuauhtémoc y otros fraccionamientos. Para los que tienen caseta de seguridad, coordinamos el acceso con anticipación." },
+  { question: "¿Qué inflables recomiendan para las amplias áreas comunes en Izcalli?", answer: "Los fraccionamientos de Cuautitlán Izcalli suelen tener áreas comunes amplias perfectas para nuestros modelos grandes. Los Dragones Rojos y el Inflable Extremo son los más solicitados por ser los de mayor capacidad. Para eventos con más de 20 niños son ideales." },
+  { question: "¿Con cuánta anticipación hay que reservar para Cuautitlán Izcalli?", answer: "Recomendamos reservar con 2-3 semanas de anticipación. Cuautitlán Izcalli tiene alta demanda los fines de semana. En temporadas altas (Semana Santa, verano, diciembre) reserva con un mes de anticipación para asegurar disponibilidad." },
 ];
 ---
 
@@ -129,6 +129,50 @@ const faqs = [
   <section class="section">
     <div class="container">
       <SectionHeader
+        badge="Recomendados"
+        title="Inflables más rentados en Cuautitlán Izcalli"
+        subtitle="Selección perfecta para los fraccionamientos y amplias áreas de Izcalli."
+        copy1="Cuautitlán Izcalli es uno de los municipios más ordenados del Edomex con amplios fraccionamientos y áreas comunes. Sus espacios bien planeados son ideales para instalar inflables de todos los tamaños."
+        copy2="¿Área común de fraccionamiento o jardín privado? Tenemos el inflable perfecto para cada tipo de espacio en Cuautitlán Izcalli."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <a href="/inflables/castillo-blanco/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#546E7A,#37474F);">
+            <span class="inflable-rec-card__tag">Eventos premium</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Castillo Blanco</h3>
+            <p class="inflable-rec-card__desc">Diseño elegante para los eventos en los fraccionamientos residenciales de Cuautitlán Izcalli. Neutro y sofisticado para cualquier celebración.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/dragones-rojos/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#B71C1C,#E53935);">
+            <span class="inflable-rec-card__tag">Más rentado</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Dragones Rojos</h3>
+            <p class="inflable-rec-card__desc">El más solicitado en Izcalli. Alta capacidad y mucha diversión. Perfecto para las amplias áreas comunes de los fraccionamientos de la zona.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/castillo-princesas/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#E91E8C,#C2185B);">
+            <span class="inflable-rec-card__tag">Favorito niñas</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Castillo de Princesas</h3>
+            <p class="inflable-rec-card__desc">La elección número uno para cumpleaños de niñas en Cuautitlán Izcalli. Colorido y temático para hacer de la fiesta una experiencia especial.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
         badge="FAQ"
         title="Preguntas frecuentes sobre Cuautitlán Izcalli"
         subtitle="Dudas comunes sobre entrega de inflables en esta zona."
@@ -150,4 +194,15 @@ const faqs = [
     btnSecondaryHref="/inflables/"
     variant="cool"
   />
+
+  <style>
+    .inflable-rec-card { display: block; text-decoration: none; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; background: var(--color-bg-card, #fff); color: inherit; }
+    .inflable-rec-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.12); }
+    .inflable-rec-card__head { height: 88px; display: flex; align-items: flex-end; padding: 10px 14px; }
+    .inflable-rec-card__tag { background: rgba(0,0,0,0.3); color: #fff; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 3px 8px; border-radius: 20px; }
+    .inflable-rec-card__body { padding: 16px; }
+    .inflable-rec-card__name { font-size: 1rem; font-weight: 700; margin: 0 0 6px; }
+    .inflable-rec-card__desc { font-size: 0.875rem; color: var(--color-text-muted, #666); line-height: 1.5; margin-bottom: 12px; }
+    .inflable-rec-card__cta { font-size: 0.875rem; font-weight: 600; color: var(--color-primary, #FF3D00); }
+  </style>
 </PageLayout>

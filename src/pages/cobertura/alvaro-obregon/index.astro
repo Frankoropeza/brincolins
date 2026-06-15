@@ -4,8 +4,8 @@ import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import FaqItem from "@/components/FaqItem.astro";
 
-const title = "Renta de Inflables en Álvaro Obregón, Santa Fe y San Ángel | BRINCOLINS";
-const description = "Renta de inflables en Álvaro Obregón CDMX. Entrega incluida en Santa Fe, San Ángel, Pedregal, Lomas Altas y toda la alcaldía. Instalación profesional.";
+const title = "Renta de Inflables en Álvaro Obregón y Santa Fe CDMX";
+const description = "Entregamos inflables en Álvaro Obregón, Santa Fe, San Ángel y Pedregal. Precios desde $800 MXN con instalación incluida. Cotiza por WhatsApp.";
 
 const colonias = [
   "Santa Fe", "San Ángel", "Pedregal", "Lomas Altas", "Altavista",
@@ -14,10 +14,10 @@ const colonias = [
 ];
 
 const faqs = [
-  { question: "¿Cuánto cuesta el envío a Álvaro Obregón?", answer: "El envío está incluido en el precio del inflable para las colonias principales de Álvaro Obregón: Santa Fe, San Ángel, Pedregal, Lomas Altas y Altavista. No hay cargos adicionales de flete." },
-  { question: "¿Qué inflables son más populares en Álvaro Obregón?", answer: "Los más solicitados en esta alcaldía son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos mucha demanda de combinados con alberca y tobogán para eventos en jardines amplios de Santa Fe y San Ángel." },
-  { question: "¿Atienden fines de semana en Álvaro Obregón?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos. La alcaldía Álvaro Obregón es una de nuestras zonas de mayor demanda en sábados y domingos." },
-  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con al menos 1 semana de anticipación. Para fines de semana y temporada alta (vacaciones de verano, Semana Santa y diciembre), lo ideal es reservar con 2-3 semanas para garantizar disponibilidad." },
+  { question: "¿Pueden instalar inflables en residencias con jardín en San Ángel o Lomas Altas?", answer: "Sí, San Ángel y Lomas Altas tienen jardines amplios ideales para nuestros inflables. Coordinamos el acceso a fraccionamientos cerrados con 24h de anticipación. Solo necesitamos el nombre del residente." },
+  { question: "¿Tienen experiencia en eventos en Santa Fe CDMX?", answer: "Sí. Los condominios y residencias de Santa Fe son una zona de alta demanda para BRINCOLINS. Tenemos experiencia en roof gardens y áreas comunes con normas estrictas de acceso. Evaluamos tu espacio vía foto antes de confirmar." },
+  { question: "¿Cubren el Pedregal y Altavista en Álvaro Obregón?", answer: "Sí. El Pedregal de Álvaro Obregón, Altavista y Axotla están dentro de nuestra cobertura con entrega sin costo adicional. Los jardines amplios del Pedregal son perfectos para inflables grandes como el Extremo o los Dragones Rojos." },
+  { question: "¿Qué inflable recomiendan para una casa en Olivar del Conde o Tetelpan?", answer: "Para jardines medianos en Olivar del Conde o Tetelpan, los Dragones Rojos son la opción ideal. Si el espacio es más compacto, el Mini Castillo encaja en patios de 3×3m. Mándanos foto del espacio y te recomendamos al instante." },
 ];
 ---
 
@@ -120,6 +120,50 @@ const faqs = [
   <section class="section">
     <div class="container">
       <SectionHeader
+        badge="Recomendados"
+        title="Inflables más rentados en Álvaro Obregón"
+        subtitle="Selección perfecta para jardines de San Ángel, Pedregal, Santa Fe y Lomas Altas."
+        copy1="Álvaro Obregón tiene gran variedad de espacios: residencias coloniales en San Ángel, roof gardens en Santa Fe y amplios jardines en el Pedregal. Tenemos el modelo perfecto para cada tipo."
+        copy2="¿No sabes cuál encaja? Mándanos foto del espacio por WhatsApp y te recomendamos el inflable ideal."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <a href="/inflables/castillo-blanco/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#546E7A,#37474F);">
+            <span class="inflable-rec-card__tag">San Ángel premium</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Castillo Blanco</h3>
+            <p class="inflable-rec-card__desc">Diseño elegante y neutro. El favorito en residencias de San Ángel y Santa Fe donde se busca estética cuidada para el evento.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/dragones-rojos/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#B71C1C,#E53935);">
+            <span class="inflable-rec-card__tag">Más rentado</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Dragones Rojos</h3>
+            <p class="inflable-rec-card__desc">El más solicitado en Álvaro Obregón. Jardines en el Pedregal y Altavista son el escenario perfecto para este modelo de gran capacidad.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/mini-castillo/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#7C3AED,#9C27B0);">
+            <span class="inflable-rec-card__tag">Espacios compactos</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Mini Castillo</h3>
+            <p class="inflable-rec-card__desc">Para patios compactos en Olivar del Conde o Tetelpan. Solo necesita 3×3m libres. Perfecto para niños de 2 a 7 años.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
         badge="FAQ"
         title="Preguntas frecuentes sobre Álvaro Obregón"
         subtitle="Dudas comunes sobre entrega de inflables en esta zona."
@@ -141,4 +185,15 @@ const faqs = [
     btnSecondaryHref="/inflables/"
     variant="cool"
   />
+
+  <style>
+    .inflable-rec-card { display: block; text-decoration: none; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; background: var(--color-bg-card, #fff); color: inherit; }
+    .inflable-rec-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.12); }
+    .inflable-rec-card__head { height: 88px; display: flex; align-items: flex-end; padding: 10px 14px; }
+    .inflable-rec-card__tag { background: rgba(0,0,0,0.3); color: #fff; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 3px 8px; border-radius: 20px; }
+    .inflable-rec-card__body { padding: 16px; }
+    .inflable-rec-card__name { font-size: 1rem; font-weight: 700; margin: 0 0 6px; }
+    .inflable-rec-card__desc { font-size: 0.875rem; color: var(--color-text-muted, #666); line-height: 1.5; margin-bottom: 12px; }
+    .inflable-rec-card__cta { font-size: 0.875rem; font-weight: 600; color: var(--color-primary, #FF3D00); }
+  </style>
 </PageLayout>

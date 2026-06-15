@@ -23,10 +23,10 @@ const colonias = [
 ];
 
 const faqs = [
-  { question: "¿Cuánto cuesta el envío a Coyoacán?", answer: "El envío está incluido en el precio para todas las colonias de Coyoacán. No hay cargos adicionales de flete." },
-  { question: "¿Qué inflables son más populares en Coyoacán?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos toboganes, combinados con alberca y temáticos para todo tipo de fiestas." },
-  { question: "¿Atienden fines de semana en Coyoacán?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos en toda la zona de Coyoacán." },
-  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1-2 semanas de anticipación. Para fines de semana y temporadas altas (Semana Santa, verano, diciembre), lo ideal es reservar con 3 semanas de anticipación." },
+  { question: "¿Pueden instalar inflables en patios pequeños en Coyoacán Centro?", answer: "Sí. Para las casas coloniales con patios del Centro de Coyoacán tenemos el Mini Castillo (3×3m) y los Gusanitos para bebés. Evaluamos el espacio vía foto por WhatsApp antes de confirmar la reserva." },
+  { question: "¿El acceso a fraccionamientos del Pedregal es complicado?", answer: "No. Llevamos años entregando en los fraccionamientos cerrados del Pedregal. Solo necesitamos el nombre del residente y número de acceso para registrar nuestro vehículo en caseta de seguridad con 24h de anticipación." },
+  { question: "¿Llevan inflables de agua para el verano en Coyoacán?", answer: "Sí. Los combinados con alberca inflable y toboganes de agua son muy populares en los jardines de Villa Coapa y el Pedregal de mayo a septiembre. Disponibles sujeto a temporada — consulta al cotizar." },
+  { question: "¿Cubren Pedregal de San Ángel y los límites con Tlalpan?", answer: "Sí. Toda la zona del Pedregal hasta los límites de Coyoacán con Tlalpan y Álvaro Obregón está cubierta con entrega sin costo adicional. Si tu colonia limita con otra alcaldía, escríbenos y confirmamos en minutos." },
 ];
 ---
 
@@ -129,6 +129,50 @@ const faqs = [
   <section class="section">
     <div class="container">
       <SectionHeader
+        badge="Recomendados"
+        title="Inflables más rentados en Coyoacán"
+        subtitle="Selección ideal para los jardines y espacios de la alcaldía."
+        copy1="Coyoacán tiene gran variedad de espacios: desde patios coloniales compactos en el Centro hasta amplios jardines en el Pedregal. Tenemos el modelo perfecto para cada tipo de espacio."
+        copy2="¿No sabes cuál elegir? Mándanos una foto de tu espacio por WhatsApp y te recomendamos el inflable ideal para tu evento en Coyoacán."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <a href="/inflables/extremo/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+            <span class="inflable-rec-card__tag">Jardines grandes</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Inflable Extremo</h3>
+            <p class="inflable-rec-card__desc">Circuito de obstáculos, tobogán y zona de escalar. Perfecto para los amplios jardines del Pedregal y Villa Coapa. Capacidad para 6–8 niños simultáneamente.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/castillo-princesas/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#E91E8C,#C2185B);">
+            <span class="inflable-rec-card__tag">Favorito niñas</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Castillo de Princesas</h3>
+            <p class="inflable-rec-card__desc">El más solicitado para cumpleaños de niñas en Coyoacán. Colores vibrantes y diseño temático que hace brillar cualquier festejo familiar.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/mini-castillo/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#7C3AED,#9C27B0);">
+            <span class="inflable-rec-card__tag">Espacios compactos</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Mini Castillo</h3>
+            <p class="inflable-rec-card__desc">Ideal para los patios coloniales del Centro de Coyoacán. Solo necesita 3×3m libres — la solución perfecta para casas históricas con espacio limitado.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
         badge="FAQ"
         title="Preguntas frecuentes sobre Coyoacán"
         subtitle="Dudas comunes sobre entrega de inflables en esta zona."
@@ -150,4 +194,54 @@ const faqs = [
     btnSecondaryHref="/inflables/"
     variant="cool"
   />
+
+  <style>
+    .inflable-rec-card {
+      display: block;
+      text-decoration: none;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(0,0,0,0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+      background: var(--color-bg-card, #fff);
+      color: inherit;
+    }
+    .inflable-rec-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+    }
+    .inflable-rec-card__head {
+      height: 88px;
+      display: flex;
+      align-items: flex-end;
+      padding: 10px 14px;
+    }
+    .inflable-rec-card__tag {
+      background: rgba(0,0,0,0.3);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 3px 8px;
+      border-radius: 20px;
+    }
+    .inflable-rec-card__body { padding: 16px; }
+    .inflable-rec-card__name {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0 0 6px;
+    }
+    .inflable-rec-card__desc {
+      font-size: 0.875rem;
+      color: var(--color-text-muted, #666);
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+    .inflable-rec-card__cta {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--color-primary, #FF3D00);
+    }
+  </style>
 </PageLayout>

@@ -14,10 +14,10 @@ const colonias = [
 ];
 
 const faqs = [
-  { question: "¿Cuánto cuesta el envío a Azcapotzalco?", answer: "El envío está completamente incluido en el precio del inflable para todas las colonias de Azcapotzalco. No aplicamos cargos adicionales de flete en ninguna colonia de la alcaldía." },
-  { question: "¿Qué inflables son más populares en Azcapotzalco?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. Los combinados con alberca son muy populares en los patios y jardines de colonias como Del Gas y Clavería." },
-  { question: "¿Atienden fines de semana en Azcapotzalco?", answer: "Sí, operamos los 7 días de la semana. Los sábados son nuestros días de mayor demanda en Azcapotzalco, especialmente en las colonias Del Gas y Pasteros." },
-  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1 semana de anticipación para días entre semana, y 2 semanas para fines de semana. En temporadas altas como vacaciones y diciembre, lo ideal es reservar 3-4 semanas antes." },
+  { question: "¿Cuánto cuesta el envío a Azcapotzalco?", answer: "El envío está incluido en el precio para todas las colonias de Azcapotzalco: Del Gas, Pasteros, Tezozomoc, San Marcos, Coltongo y todas las demás. No hay cargo adicional de flete." },
+  { question: "¿Qué tipo de espacios son más comunes para eventos en Azcapotzalco?", answer: "En Azcapotzalco la mayoría de nuestros eventos son en casas con patio o jardín, salones de fiestas y áreas comunes de unidades habitacionales. Los jardines en colonias como San Marcos y Del Gas son perfectos para inflables medianos y grandes." },
+  { question: "¿Pueden llevar inflables a kermeses en escuelas de Azcapotzalco?", answer: "Sí. Atendemos kermeses escolares en Azcapotzalco con regularidad. Coordinamos directamente con la dirección de la escuela para el acceso y montaje. Para kermeses recomendamos reservar con 3-4 semanas de anticipación." },
+  { question: "¿Cubren la zona industrial de Azcapotzalco para eventos corporativos?", answer: "Sí. También atendemos eventos corporativos en la zona industrial de Azcapotzalco — activaciones, kermeses de empresa y días familiares. Consulta nuestros paquetes para eventos en /servicios/inflables-para-eventos/." },
 ];
 ---
 
@@ -120,6 +120,50 @@ const faqs = [
   <section class="section">
     <div class="container">
       <SectionHeader
+        badge="Recomendados"
+        title="Inflables más rentados en Azcapotzalco"
+        subtitle="Los favoritos para fiestas familiares y eventos en la alcaldía del norte."
+        copy1="Azcapotzalco tiene una mezcla única de colonias residenciales con jardines bien establecidos y zonas industriales que nos contratan para eventos corporativos y kermeses."
+        copy2="Para kermeses escolares o eventos corporativos en Azcapotzalco, revisa nuestros paquetes multi-inflable."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <a href="/inflables/dragones-rojos/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#B71C1C,#E53935);">
+            <span class="inflable-rec-card__tag">Más rentado</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Dragones Rojos</h3>
+            <p class="inflable-rec-card__desc">El número uno en Azcapotzalco. Resistente, colorido y con capacidad para grupos grandes. El favorito en fiestas del norte de la ciudad.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/barco-pirata/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#0277BD,#01579B);">
+            <span class="inflable-rec-card__tag">Favorito temático</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Barco Pirata</h3>
+            <p class="inflable-rec-card__desc">Diseño de galeón que encanta a niños de 4 a 12 años. Muy popular en las fiestas familiares de colonias como Del Gas y Pasteros.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/extremo/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+            <span class="inflable-rec-card__tag">Kermeses</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Inflable Extremo</h3>
+            <p class="inflable-rec-card__desc">El modelo de mayor capacidad. Perfecto para kermeses escolares y eventos con muchos niños en los amplios espacios de Azcapotzalco.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
         badge="FAQ"
         title="Preguntas frecuentes sobre Azcapotzalco"
         subtitle="Dudas comunes sobre entrega de inflables en esta zona."
@@ -141,4 +185,15 @@ const faqs = [
     btnSecondaryHref="/inflables/"
     variant="cool"
   />
+
+  <style>
+    .inflable-rec-card { display: block; text-decoration: none; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; background: var(--color-bg-card, #fff); color: inherit; }
+    .inflable-rec-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.12); }
+    .inflable-rec-card__head { height: 88px; display: flex; align-items: flex-end; padding: 10px 14px; }
+    .inflable-rec-card__tag { background: rgba(0,0,0,0.3); color: #fff; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 3px 8px; border-radius: 20px; }
+    .inflable-rec-card__body { padding: 16px; }
+    .inflable-rec-card__name { font-size: 1rem; font-weight: 700; margin: 0 0 6px; }
+    .inflable-rec-card__desc { font-size: 0.875rem; color: var(--color-text-muted, #666); line-height: 1.5; margin-bottom: 12px; }
+    .inflable-rec-card__cta { font-size: 0.875rem; font-weight: 600; color: var(--color-primary, #FF3D00); }
+  </style>
 </PageLayout>

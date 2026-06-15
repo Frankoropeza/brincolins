@@ -23,10 +23,10 @@ const colonias = [
 ];
 
 const faqs = [
-  { question: "¿Cuánto cuesta el envío a Iztacalco?", answer: "El envío está completamente incluido en Iztacalco. No hay cargos adicionales de flete." },
-  { question: "¿Qué inflables son más populares en Iztacalco?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos toboganes, combinados con alberca y temáticos para todo tipo de fiestas." },
-  { question: "¿Atienden fines de semana en Iztacalco?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos en toda la zona de Iztacalco." },
-  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1-2 semanas de anticipación. Para fines de semana y temporadas altas (Semana Santa, verano, diciembre), lo ideal es reservar con 3 semanas de anticipación." },
+  { question: "¿Cuánto cuesta el envío a Iztacalco?", answer: "El envío está completamente incluido en el precio para todas las colonias de Iztacalco: Agrícola Oriental, Jardín Balbuena, Canal de Sur, Viaducto Piedad, La Asunción y todas las demás. Sin cargos adicionales." },
+  { question: "¿Pueden entregar inflables en unidades habitacionales de Iztacalco?", answer: "Sí. Atendemos regularmente a clientes en las unidades habitacionales de Iztacalco. Coordinamos el acceso con la administración del conjunto para los horarios de carga y descarga, y la autorización del uso del área común o jardín." },
+  { question: "¿Cubren la zona de Jardín Balbuena y Viaducto Piedad?", answer: "Sí. Jardín Balbuena, Viaducto Piedad y toda la alcaldía Iztacalco están cubiertos con entrega sin costo adicional. Son zonas con buena conectividad vial que nos permiten llegar puntualmente." },
+  { question: "¿Qué inflables recomiendan para eventos en Iztacalco con muchos niños?", answer: "Para eventos con muchos niños en Iztacalco, los Dragones Rojos y el Inflable Extremo son los más solicitados por su alta capacidad (6-8 niños simultáneos). Para niños menores de 5 años, los Gusanitos son perfectos y seguros." },
 ];
 ---
 
@@ -129,6 +129,50 @@ const faqs = [
   <section class="section">
     <div class="container">
       <SectionHeader
+        badge="Recomendados"
+        title="Inflables más rentados en Iztacalco"
+        subtitle="Los favoritos para fiestas familiares en Agrícola Oriental, Balbuena y toda la alcaldía."
+        copy1="Iztacalco tiene una tradición de fiestas familiares llenas de niños. La conectividad vial de la alcaldía nos facilita llegar puntualmente a cualquier colonia."
+        copy2="¿Fiesta en unidad habitacional? Coordina el acceso con tu administración y nosotros nos encargamos del resto."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <a href="/inflables/dragones-rojos/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#B71C1C,#E53935);">
+            <span class="inflable-rec-card__tag">Más rentado</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Dragones Rojos</h3>
+            <p class="inflable-rec-card__desc">El favorito en Iztacalco. Alta capacidad y colores vibrantes. Funciona perfectamente en patios, jardines y áreas comunes de la alcaldía.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/castillo-princesas/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#E91E8C,#C2185B);">
+            <span class="inflable-rec-card__tag">Favorito niñas</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Castillo de Princesas</h3>
+            <p class="inflable-rec-card__desc">La reina de los inflables en fiestas de niñas en Iztacalco. Diseño temático con colores pastel que alegra cualquier celebración.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/barco-pirata/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#0277BD,#01579B);">
+            <span class="inflable-rec-card__tag">Favorito niños</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Barco Pirata</h3>
+            <p class="inflable-rec-card__desc">El aventurero más popular entre los niños de Iztacalco. Diseño de galeón que hace de cualquier cumpleaños una fiesta épica.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
         badge="FAQ"
         title="Preguntas frecuentes sobre Iztacalco"
         subtitle="Dudas comunes sobre entrega de inflables en esta zona."
@@ -150,4 +194,15 @@ const faqs = [
     btnSecondaryHref="/inflables/"
     variant="cool"
   />
+
+  <style>
+    .inflable-rec-card { display: block; text-decoration: none; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; background: var(--color-bg-card, #fff); color: inherit; }
+    .inflable-rec-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.12); }
+    .inflable-rec-card__head { height: 88px; display: flex; align-items: flex-end; padding: 10px 14px; }
+    .inflable-rec-card__tag { background: rgba(0,0,0,0.3); color: #fff; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 3px 8px; border-radius: 20px; }
+    .inflable-rec-card__body { padding: 16px; }
+    .inflable-rec-card__name { font-size: 1rem; font-weight: 700; margin: 0 0 6px; }
+    .inflable-rec-card__desc { font-size: 0.875rem; color: var(--color-text-muted, #666); line-height: 1.5; margin-bottom: 12px; }
+    .inflable-rec-card__cta { font-size: 0.875rem; font-weight: 600; color: var(--color-primary, #FF3D00); }
+  </style>
 </PageLayout>

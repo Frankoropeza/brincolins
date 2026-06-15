@@ -23,10 +23,10 @@ const colonias = [
 ];
 
 const faqs = [
-  { question: "¿Cuánto cuesta el envío a Venustiano Carranza?", answer: "El envío está completamente incluido en todas las colonias de Venustiano Carranza." },
-  { question: "¿Qué inflables son más populares en Venustiano Carranza?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos toboganes, combinados con alberca y temáticos para todo tipo de fiestas." },
-  { question: "¿Atienden fines de semana en Venustiano Carranza?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos en toda la zona de Venustiano Carranza." },
-  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1-2 semanas de anticipación. Para fines de semana y temporadas altas (Semana Santa, verano, diciembre), lo ideal es reservar con 3 semanas de anticipación." },
+  { question: "¿Cuánto cuesta el envío a Venustiano Carranza?", answer: "El envío está completamente incluido en el precio para todas las colonias de Venustiano Carranza: Jamaica, Morelos, Aeropuerto, Moctezuma, Peñón de los Baños, Jardín Balbuena y todas las demás." },
+  { question: "¿Pueden instalar inflables en casas con patio en Venustiano Carranza?", answer: "Sí. En Venustiano Carranza los patios interiores y jardines son el tipo de espacio más común para nuestros eventos. Para evaluar si el inflable cabe, mándanos una foto del espacio y en minutos te confirmamos cuál modelo es el más adecuado." },
+  { question: "¿Cubren la zona de Aeropuerto y Peñón de los Baños?", answer: "Sí, toda la zona del Aeropuerto y Peñón de los Baños está cubierta con entrega incluida. Conocemos bien la vialidad de la zona, incluyendo los accesos por el Circuito Interior y el Eje 1 Norte." },
+  { question: "¿Atienden eventos en Jamaica y colonias populares de Venustiano Carranza?", answer: "Por supuesto. Jamaica y Morelos son dos de las colonias con mayor demanda de inflables en la alcaldía. Atendemos desde pequeñas fiestas de cumpleaños hasta eventos más grandes en salones de la zona." },
 ];
 ---
 
@@ -129,6 +129,50 @@ const faqs = [
   <section class="section">
     <div class="container">
       <SectionHeader
+        badge="Recomendados"
+        title="Inflables más rentados en Venustiano Carranza"
+        subtitle="Los favoritos para cumpleaños y fiestas familiares en Jamaica, Morelos y toda la alcaldía."
+        copy1="Venustiano Carranza es una alcaldía con gran tradición de fiestas familiares. Los inflables se instalan en patios, jardines y salones de toda la zona con puntualidad garantizada."
+        copy2="¿Patio pequeño en Jamaica o espacio de salón? Mándanos foto y te recomendamos el inflable que mejor funcione para tu evento."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <a href="/inflables/dragones-rojos/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#B71C1C,#E53935);">
+            <span class="inflable-rec-card__tag">Más rentado</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Dragones Rojos</h3>
+            <p class="inflable-rec-card__desc">El más rentado en Venustiano Carranza. Colores brillantes y gran capacidad. El hit de las fiestas en Jamaica y Morelos.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/barco-pirata/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#0277BD,#01579B);">
+            <span class="inflable-rec-card__tag">Temático popular</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Barco Pirata</h3>
+            <p class="inflable-rec-card__desc">Diseño de aventura pirata que entusiasma a niños de todas las edades. Muy solicitado en cumpleaños y eventos familiares en Venustiano Carranza.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/castillo-princesas/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#E91E8C,#C2185B);">
+            <span class="inflable-rec-card__tag">Favorito niñas</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Castillo de Princesas</h3>
+            <p class="inflable-rec-card__desc">La reina de las fiestas de niñas en la alcaldía. Colores vivos y diseño temático que convierte cualquier cumpleaños en un evento mágico.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
         badge="FAQ"
         title="Preguntas frecuentes sobre Venustiano Carranza"
         subtitle="Dudas comunes sobre entrega de inflables en esta zona."
@@ -150,4 +194,15 @@ const faqs = [
     btnSecondaryHref="/inflables/"
     variant="cool"
   />
+
+  <style>
+    .inflable-rec-card { display: block; text-decoration: none; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; background: var(--color-bg-card, #fff); color: inherit; }
+    .inflable-rec-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.12); }
+    .inflable-rec-card__head { height: 88px; display: flex; align-items: flex-end; padding: 10px 14px; }
+    .inflable-rec-card__tag { background: rgba(0,0,0,0.3); color: #fff; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 3px 8px; border-radius: 20px; }
+    .inflable-rec-card__body { padding: 16px; }
+    .inflable-rec-card__name { font-size: 1rem; font-weight: 700; margin: 0 0 6px; }
+    .inflable-rec-card__desc { font-size: 0.875rem; color: var(--color-text-muted, #666); line-height: 1.5; margin-bottom: 12px; }
+    .inflable-rec-card__cta { font-size: 0.875rem; font-weight: 600; color: var(--color-primary, #FF3D00); }
+  </style>
 </PageLayout>

@@ -23,10 +23,10 @@ const colonias = [
 ];
 
 const faqs = [
-  { question: "¿Cuánto cuesta el envío a Magdalena Contreras?", answer: "El envío está incluido para las principales colonias de Magdalena Contreras. Para zonas más apartadas en las lomas, contáctanos para confirmar costo." },
-  { question: "¿Qué inflables son más populares en Magdalena Contreras?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos toboganes, combinados con alberca y temáticos para todo tipo de fiestas." },
-  { question: "¿Atienden fines de semana en Magdalena Contreras?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos en toda la zona de Magdalena Contreras." },
-  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1-2 semanas de anticipación. Para fines de semana y temporadas altas (Semana Santa, verano, diciembre), lo ideal es reservar con 3 semanas de anticipación." },
+  { question: "¿Cubren San Jerónimo Aculco y Pedregal de San Nicolás en La Magdalena Contreras?", answer: "Sí. San Jerónimo Aculco, Pedregal de San Nicolás y todas las colonias de La Magdalena Contreras están dentro de nuestra cobertura. El envío está incluido en el precio para toda la alcaldía." },
+  { question: "¿Pueden instalar en terrenos con pendiente en La Magdalena Contreras?", answer: "La Magdalena Contreras es una alcaldía montañosa con muchos terrenos en pendiente. Nuestro equipo lleva niveladores y anclas para instalación segura en terrenos irregulares. Si la pendiente es pronunciada (más de 15°), te informamos antes de confirmar." },
+  { question: "¿Qué accesos usan para llegar a La Magdalena Contreras?", answer: "Principalmente Insurgentes Sur y la carretera Picacho-Ajusco nos dan acceso a las colonias principales. Para zonas más internas y elevadas, planificamos salidas más tempranas para garantizar puntualidad en tu evento." },
+  { question: "¿Tienen inflables adecuados para los jardines de La Contreras?", answer: "Sí. Las casas en La Magdalena Contreras suelen tener jardines bien establecidos y espacio generoso. Los Dragones Rojos y el Castillo de Princesas son los más rentados en la zona. Para eventos grandes, el Inflable Extremo es la mejor opción." },
 ];
 ---
 
@@ -129,6 +129,50 @@ const faqs = [
   <section class="section">
     <div class="container">
       <SectionHeader
+        badge="Recomendados"
+        title="Inflables más rentados en La Magdalena Contreras"
+        subtitle="Selección perfecta para los jardines y espacios de la alcaldía serrana."
+        copy1="La Magdalena Contreras tiene algo especial: casas con jardines reales en un ambiente más tranquilo que el resto de la ciudad. Los inflables encajan perfectamente en este tipo de espacios."
+        copy2="¿Jardín con pendiente o terreno irregular? No te preocupes — llevamos equipo de nivelación y lo instalamos de forma segura."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <a href="/inflables/dragones-rojos/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#B71C1C,#E53935);">
+            <span class="inflable-rec-card__tag">Más rentado</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Dragones Rojos</h3>
+            <p class="inflable-rec-card__desc">El favorito en los jardines de La Contreras. Colores vibrantes y espacio para varios niños jugando al mismo tiempo en terrenos planos.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/castillo-princesas/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#E91E8C,#C2185B);">
+            <span class="inflable-rec-card__tag">Favorito niñas</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Castillo de Princesas</h3>
+            <p class="inflable-rec-card__desc">El más solicitado para cumpleaños de niñas en toda la alcaldía. Destaca especialmente en los jardines verdes del sur de la ciudad.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/extremo/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+            <span class="inflable-rec-card__tag">Eventos grandes</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Inflable Extremo</h3>
+            <p class="inflable-rec-card__desc">Para los jardines más amplios de La Magdalena Contreras. El circuito más completo de BRINCOLINS, perfecto para grupos numerosos de niños.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
         badge="FAQ"
         title="Preguntas frecuentes sobre Magdalena Contreras"
         subtitle="Dudas comunes sobre entrega de inflables en esta zona."
@@ -150,4 +194,15 @@ const faqs = [
     btnSecondaryHref="/inflables/"
     variant="cool"
   />
+
+  <style>
+    .inflable-rec-card { display: block; text-decoration: none; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; background: var(--color-bg-card, #fff); color: inherit; }
+    .inflable-rec-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.12); }
+    .inflable-rec-card__head { height: 88px; display: flex; align-items: flex-end; padding: 10px 14px; }
+    .inflable-rec-card__tag { background: rgba(0,0,0,0.3); color: #fff; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 3px 8px; border-radius: 20px; }
+    .inflable-rec-card__body { padding: 16px; }
+    .inflable-rec-card__name { font-size: 1rem; font-weight: 700; margin: 0 0 6px; }
+    .inflable-rec-card__desc { font-size: 0.875rem; color: var(--color-text-muted, #666); line-height: 1.5; margin-bottom: 12px; }
+    .inflable-rec-card__cta { font-size: 0.875rem; font-weight: 600; color: var(--color-primary, #FF3D00); }
+  </style>
 </PageLayout>

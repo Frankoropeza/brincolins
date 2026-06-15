@@ -23,10 +23,10 @@ const colonias = [
 ];
 
 const faqs = [
-  { question: "¿Cuánto cuesta el envío a Coacalco?", answer: "El cargo de envío para Coacalco es de $200 a $300. El monto exacto depende de tu colonia." },
-  { question: "¿Qué inflables son más populares en Coacalco?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos toboganes, combinados con alberca y temáticos para todo tipo de fiestas." },
-  { question: "¿Atienden fines de semana en Coacalco?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos en toda la zona de Coacalco." },
-  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1-2 semanas de anticipación. Para fines de semana y temporadas altas (Semana Santa, verano, diciembre), lo ideal es reservar con 3 semanas de anticipación." },
+  { question: "¿Cuánto es el cargo de envío a Coacalco?", answer: "El cargo de envío a Coacalco varía entre $150 y $250 dependiendo de la colonia. Coacalco Centro, Bosques de Morelos y La Quebrada tienen el cargo base. Te confirmamos el costo exacto al cotizar con tu dirección." },
+  { question: "¿Pueden entregar en los fraccionamientos de Coacalco?", answer: "Sí. Coacalco tiene varios fraccionamientos residenciales bien establecidos. Para los que tienen acceso controlado, coordinamos el registro de nuestro vehículo con 24h de anticipación. Solo necesitamos datos del residente y nombre del fraccionamiento." },
+  { question: "¿Cubren Bosques de Morelos y San Crisanto?", answer: "Sí, Bosques de Morelos, San Crisanto, La Quebrada y todas las colonias de Coacalco están dentro de nuestra cobertura en el Estado de México. El cargo de envío aplica por la distancia desde nuestro almacén." },
+  { question: "¿Qué inflables son más populares en Coacalco?", answer: "En Coacalco los más solicitados son los Dragones Rojos por su alta capacidad y el Castillo de Princesas para cumpleaños de niñas. El Inflable Extremo es muy popular para eventos con muchos niños en los jardines y áreas comunes de la zona." },
 ];
 ---
 
@@ -129,6 +129,50 @@ const faqs = [
   <section class="section">
     <div class="container">
       <SectionHeader
+        badge="Recomendados"
+        title="Inflables más rentados en Coacalco"
+        subtitle="Los favoritos para fiestas en Bosques de Morelos, La Quebrada y toda la zona."
+        copy1="Coacalco tiene fraccionamientos residenciales bien consolidados con espacios adecuados para inflables de todos los tamaños. La zona norte del Edomex tiene gran demanda de renta de inflables."
+        copy2="¿Fraccionamiento con acceso controlado? Coordina el registro con 24h de anticipación y llegamos sin contratiempos."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <a href="/inflables/dragones-rojos/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#B71C1C,#E53935);">
+            <span class="inflable-rec-card__tag">Más rentado</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Dragones Rojos</h3>
+            <p class="inflable-rec-card__desc">El favorito en Coacalco. Alta capacidad y colores vivos. Funciona perfecto en jardines de fraccionamientos y casas de la zona norte del Edomex.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/castillo-princesas/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#E91E8C,#C2185B);">
+            <span class="inflable-rec-card__tag">Favorito niñas</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Castillo de Princesas</h3>
+            <p class="inflable-rec-card__desc">El más solicitado para cumpleaños de niñas en Coacalco. Sus colores y diseño temático hacen de cualquier fiesta una celebración especial.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/extremo/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+            <span class="inflable-rec-card__tag">Eventos con grupos grandes</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Inflable Extremo</h3>
+            <p class="inflable-rec-card__desc">Para fiestas con muchos niños en Coacalco. El modelo de mayor capacidad de BRINCOLINS, ideal para eventos en áreas comunes de fraccionamientos.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
         badge="FAQ"
         title="Preguntas frecuentes sobre Coacalco"
         subtitle="Dudas comunes sobre entrega de inflables en esta zona."
@@ -150,4 +194,15 @@ const faqs = [
     btnSecondaryHref="/inflables/"
     variant="cool"
   />
+
+  <style>
+    .inflable-rec-card { display: block; text-decoration: none; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; background: var(--color-bg-card, #fff); color: inherit; }
+    .inflable-rec-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.12); }
+    .inflable-rec-card__head { height: 88px; display: flex; align-items: flex-end; padding: 10px 14px; }
+    .inflable-rec-card__tag { background: rgba(0,0,0,0.3); color: #fff; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 3px 8px; border-radius: 20px; }
+    .inflable-rec-card__body { padding: 16px; }
+    .inflable-rec-card__name { font-size: 1rem; font-weight: 700; margin: 0 0 6px; }
+    .inflable-rec-card__desc { font-size: 0.875rem; color: var(--color-text-muted, #666); line-height: 1.5; margin-bottom: 12px; }
+    .inflable-rec-card__cta { font-size: 0.875rem; font-weight: 600; color: var(--color-primary, #FF3D00); }
+  </style>
 </PageLayout>

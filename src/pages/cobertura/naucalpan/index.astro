@@ -126,6 +126,50 @@ const faqs = [
   <section class="section">
     <div class="container">
       <SectionHeader
+        badge="Recomendados"
+        title="Inflables más rentados en Naucalpan"
+        subtitle="Selección perfecta para los espacios de Satélite, Interlomas y Lomas Verdes."
+        copy1="Naucalpan tiene una mezcla única: residencias clásicas en Ciudad Satélite con jardines generosos, y desarrollos modernos en Interlomas con áreas comunes y salones de eventos. Tenemos inflables para cada tipo."
+        copy2="¿Evento en fraccionamiento cerrado en Interlomas o Club de Golf? Coordinamos el acceso con anticipación — solo necesitamos los datos del residente."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <a href="/inflables/castillo-blanco/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#546E7A,#37474F);">
+            <span class="inflable-rec-card__tag">Estética premium</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Castillo Blanco</h3>
+            <p class="inflable-rec-card__desc">El favorito en las residencias de Satélite e Interlomas. Diseño elegante y neutro que combina con cualquier decoración de evento en zonas residenciales de Naucalpan.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/dragones-rojos/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#B71C1C,#E53935);">
+            <span class="inflable-rec-card__tag">Más rentado</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Dragones Rojos</h3>
+            <p class="inflable-rec-card__desc">El inflable más solicitado en todo Naucalpan. Perfecto para los jardines amplios de Lomas Verdes y Valle Dorado. Grupos grandes de niños, garantía total.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/extremo/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+            <span class="inflable-rec-card__tag">Eventos grandes</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Inflable Extremo</h3>
+            <p class="inflable-rec-card__desc">Para kermeses en Satélite o eventos en clubes de Naucalpan. El modelo de mayor capacidad con circuito de obstáculos para muchos niños simultáneamente.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
         badge="FAQ"
         title="Preguntas frecuentes sobre Naucalpan"
         subtitle="Dudas comunes sobre entrega de inflables en esta zona."
@@ -148,4 +192,14 @@ const faqs = [
     variant="cool"
   />
 
+  <style>
+    .inflable-rec-card { display: block; text-decoration: none; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; background: var(--color-bg-card, #fff); color: inherit; }
+    .inflable-rec-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.12); }
+    .inflable-rec-card__head { height: 88px; display: flex; align-items: flex-end; padding: 10px 14px; }
+    .inflable-rec-card__tag { background: rgba(0,0,0,0.3); color: #fff; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 3px 8px; border-radius: 20px; }
+    .inflable-rec-card__body { padding: 16px; }
+    .inflable-rec-card__name { font-size: 1rem; font-weight: 700; margin: 0 0 6px; }
+    .inflable-rec-card__desc { font-size: 0.875rem; color: var(--color-text-muted, #666); line-height: 1.5; margin-bottom: 12px; }
+    .inflable-rec-card__cta { font-size: 0.875rem; font-weight: 600; color: var(--color-primary, #FF3D00); }
+  </style>
 </PageLayout>

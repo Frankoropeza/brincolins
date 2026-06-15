@@ -23,10 +23,10 @@ const colonias = [
 ];
 
 const faqs = [
-  { question: "¿Cuánto cuesta el envío a Atizapán de Zaragoza?", answer: "En Atizapán el cargo de envío es de $200 a $300. El monto exacto depende de tu colonia y se confirma al cotizar." },
-  { question: "¿Qué inflables son más populares en Atizapán de Zaragoza?", answer: "Los más solicitados son los Dragones Rojos, el Castillo de Princesas y el Barco Pirata. También tenemos toboganes, combinados con alberca y temáticos para todo tipo de fiestas." },
-  { question: "¿Atienden fines de semana en Atizapán de Zaragoza?", answer: "Sí, operamos los 7 días de la semana, incluyendo fines de semana y días festivos en toda la zona de Atizapán de Zaragoza." },
-  { question: "¿Cuánto tiempo antes debo reservar?", answer: "Recomendamos reservar con 1-2 semanas de anticipación. Para fines de semana y temporadas altas (Semana Santa, verano, diciembre), lo ideal es reservar con 3 semanas de anticipación." },
+  { question: "¿Cuánto es el cargo de envío a Atizapán de Zaragoza?", answer: "El cargo de envío a Atizapán varía entre $150 y $250 dependiendo de la colonia. Ciudad López Mateos, Rancho Contento y Las Fuentes tienen el cargo base. Colonias más alejadas pueden tener un costo mayor. Te confirmamos al cotizar." },
+  { question: "¿Pueden entregar en fraccionamientos cerrados de Atizapán?", answer: "Sí. Tenemos experiencia entregando en los fraccionamientos cerrados de Atizapán. Solo necesitamos los datos del residente y el nombre del fraccionamiento para registrar nuestro vehículo con 24h de anticipación en la caseta de seguridad." },
+  { question: "¿Cubren Ciudad López Mateos completo?", answer: "Sí, toda Ciudad López Mateos — desde las colonias más cercanas al Boulevard hasta las más alejadas — está dentro de nuestra cobertura en Atizapán. El cargo de envío se aplica por ser municipio del Estado de México." },
+  { question: "¿Con cuánta anticipación reservar para Atizapán en temporada alta?", answer: "Recomendamos reservar con 2-3 semanas de anticipación para fines de semana normales. En temporada alta (Semana Santa, verano, diciembre) la disponibilidad se llena rápido — reserva con un mes de margen para garantizar tu fecha." },
 ];
 ---
 
@@ -129,6 +129,50 @@ const faqs = [
   <section class="section">
     <div class="container">
       <SectionHeader
+        badge="Recomendados"
+        title="Inflables más rentados en Atizapán"
+        subtitle="Los favoritos para fiestas en Ciudad López Mateos, Rancho Contento y toda la zona."
+        copy1="Atizapán de Zaragoza tiene una mezcla de colonias residenciales clásicas y fraccionamientos modernos con jardines bien establecidos, perfectos para inflables de todos los tamaños."
+        copy2="¿Fraccionamiento con caseta de seguridad? Coordina el registro de nuestro vehículo con 24h de anticipación y garantizamos una entrega sin contratiempos."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <a href="/inflables/dragones-rojos/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#B71C1C,#E53935);">
+            <span class="inflable-rec-card__tag">Más rentado</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Dragones Rojos</h3>
+            <p class="inflable-rec-card__desc">El favorito en Atizapán. Funciona perfecto en los jardines de Ciudad López Mateos y Rancho Contento. Alta capacidad y gran diversión.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/castillo-princesas/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#E91E8C,#C2185B);">
+            <span class="inflable-rec-card__tag">Favorito niñas</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Castillo de Princesas</h3>
+            <p class="inflable-rec-card__desc">El más solicitado para fiestas de niñas en toda Atizapán. Colores vibrantes y diseño temático que hace brillar cualquier cumpleaños.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+        <a href="/inflables/castillo-blanco/" class="inflable-rec-card">
+          <div class="inflable-rec-card__head" style="background:linear-gradient(135deg,#546E7A,#37474F);">
+            <span class="inflable-rec-card__tag">Eventos premium</span>
+          </div>
+          <div class="inflable-rec-card__body">
+            <h3 class="inflable-rec-card__name">Castillo Blanco</h3>
+            <p class="inflable-rec-card__desc">Para los eventos más cuidados en Atizapán. Diseño neutro y elegante que combina con cualquier decoración en fraccionamientos residenciales.</p>
+            <span class="inflable-rec-card__cta">Ver inflable →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
         badge="FAQ"
         title="Preguntas frecuentes sobre Atizapán de Zaragoza"
         subtitle="Dudas comunes sobre entrega de inflables en esta zona."
@@ -150,4 +194,15 @@ const faqs = [
     btnSecondaryHref="/inflables/"
     variant="cool"
   />
+
+  <style>
+    .inflable-rec-card { display: block; text-decoration: none; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; background: var(--color-bg-card, #fff); color: inherit; }
+    .inflable-rec-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.12); }
+    .inflable-rec-card__head { height: 88px; display: flex; align-items: flex-end; padding: 10px 14px; }
+    .inflable-rec-card__tag { background: rgba(0,0,0,0.3); color: #fff; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 3px 8px; border-radius: 20px; }
+    .inflable-rec-card__body { padding: 16px; }
+    .inflable-rec-card__name { font-size: 1rem; font-weight: 700; margin: 0 0 6px; }
+    .inflable-rec-card__desc { font-size: 0.875rem; color: var(--color-text-muted, #666); line-height: 1.5; margin-bottom: 12px; }
+    .inflable-rec-card__cta { font-size: 0.875rem; font-weight: 600; color: var(--color-primary, #FF3D00); }
+  </style>
 </PageLayout>
