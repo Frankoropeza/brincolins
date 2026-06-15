@@ -242,20 +242,11 @@ function isActive(href: string, children?: { href: string }[]): boolean {
    Header base
    ══════════════════════════════════════════ */
 .hdr {
-  position: sticky;
-  top: 0;
-  z-index: 9000;
+  position: relative;
   width: 100%;
   background: #fff;
   border-bottom: 1px solid var(--hdr-border);
   box-shadow: var(--hdr-shadow);
-  transform: translateY(0);
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  will-change: transform;
-}
-
-.hdr--hidden {
-  transform: translateY(-110%);
 }
 
 .hdr__inner {
@@ -879,20 +870,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
     });
   });
 
-  /* Hide on scroll down, show on scroll up */
-  if (hdr) {
-    var lastY = 0;
-    var threshold = 80;
-    window.addEventListener('scroll', function () {
-      var y = window.pageYOffset || document.documentElement.scrollTop;
-      if (y > lastY && y > threshold) {
-        hdr.classList.add('hdr--hidden');
-      } else {
-        hdr.classList.remove('hdr--hidden');
-      }
-      lastY = y;
-    }, { passive: true });
-  }
 
 })();
 </script>
