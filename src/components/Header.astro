@@ -235,7 +235,7 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   --hdr-border: rgba(0,0,0,0.07);
   --hdr-shadow: 0 4px 24px rgba(0,0,0,0.08);
   --hdr-ease: cubic-bezier(0.4, 0, 0.2, 1);
-  --hdr-logo-h: 72px;
+  --hdr-logo-h: 88px;
 }
 
 /* ══════════════════════════════════════════
@@ -815,18 +815,18 @@ function isActive(href: string, children?: { href: string }[]): boolean {
 @media (max-width: 1024px) {
   .hdr__wa-btn span { display: none; }
   .hdr__wa-btn { padding: 0.5rem; border-radius: 10px; }
-  :root { --hdr-logo-h: 64px; }
+  :root { --hdr-logo-h: 76px; }
 }
 
 @media (max-width: 900px) {
   .hdr__nav, .hdr__wa-btn { display: none; }
   .hdr__toggle { display: flex; }
   .hdr__panel { display: flex; }
-  :root { --hdr-logo-h: 58px; }
+  :root { --hdr-logo-h: 70px; }
 }
 
 @media (max-width: 480px) {
-  :root { --hdr-logo-h: 50px; }
+  :root { --hdr-logo-h: 60px; }
   .hdr__panel { width: 100%; }
 }
 </style>
