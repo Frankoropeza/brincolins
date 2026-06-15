@@ -31,7 +31,7 @@ const catColor = catColors[category] || 'var(--c-primary)';
 ---
 
 <article class={`blog-card${featured ? ' blog-card--featured' : ''}`}>
-  <a href={`/blog/${slug}/`} class="blog-card__thumb-link" tabindex="-1" aria-hidden="true">
+  <div class="blog-card__thumb-link">
     {image
       ? <img src={image} alt={title} width="800" height="450" loading="lazy" class="blog-card__img" />
       : <div class="blog-card__gradient" style={`background: ${gradient};`}>
@@ -39,7 +39,7 @@ const catColor = catColors[category] || 'var(--c-primary)';
         </div>
     }
     <span class="blog-card__cat" style={`background:${catColor};color:#fff;`}>{category}</span>
-  </a>
+  </div>
   <div class="blog-card__body">
     <span class="blog-card__readtime">{readTime} lectura</span>
     <h3 class="blog-card__title">

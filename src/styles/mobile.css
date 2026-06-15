@@ -1,0 +1,425 @@
+/* ════════════════════════════════════════════════════════════════════
+   BRINCOLINS — mobile.css
+   Overrides responsive profesionales. Importado al final del cascade
+   en BaseLayout.astro (después de global.css). Usa !important quirúrgico
+   donde estilos scoped de componentes ganan por especificidad.
+
+   Breakpoints: 1024 (tablet) · 768 (mobile-L) · 640 (mobile) ·
+                480 (small) · 380 (XS — uso real Zona Metro)
+
+   Reglas clave:
+   · Touch targets ≥ 44px en todos los elementos tappables
+   · font-size ≥ 16px en inputs para evitar zoom iOS
+   · Safe-area insets para notch / Dynamic Island
+   · Overflow-x protegido en todo el viewport
+   ════════════════════════════════════════════════════════════════════ */
+
+
+/* ──────────────────────────────────────────────────────────────────
+   0. OVERFLOW PROTECTION — base del documento
+   ────────────────────────────────────────────────────────────────── */
+html, body { overflow-x: hidden; }
+img, picture, video, svg, iframe { max-width: 100%; }
+
+
+/* ──────────────────────────────────────────────────────────────────
+   1. CONTAINER FLUIDO — padding inline ajustado por viewport
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .container { padding-inline: 1.5rem; }
+}
+
+@media (max-width: 640px) {
+  .container { padding-inline: 1rem; }
+}
+
+@media (max-width: 380px) {
+  .container { padding-inline: 0.875rem; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   2. SECTION PADDING — reducir espacio vertical en móvil
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .section { padding-block: 3rem !important; }
+  .section-header { margin-bottom: 2rem !important; }
+}
+
+@media (max-width: 480px) {
+  .section { padding-block: 2.5rem !important; }
+  .section-header { margin-bottom: 1.75rem !important; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   3. SECTION HEADER — tipografía compacta en móvil chico
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .section-title { font-size: clamp(1.5rem, 6vw, 1.875rem) !important; }
+  .section-subtitle { font-size: 0.9375rem !important; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   4. HERO — complementa los media queries ya en global.css
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .hero { padding-top: 3rem !important; padding-bottom: 3rem !important; }
+}
+
+@media (max-width: 640px) {
+  .hero { padding-top: 2.25rem !important; padding-bottom: 2.5rem !important; }
+  .hero__title { font-size: clamp(1.875rem, 8vw, 2.5rem) !important; }
+  .hero__desc { font-size: 0.9375rem !important; max-width: 100% !important; }
+
+  /* Trust bar compacta */
+  .hero__trust {
+    gap: 0.4rem 0.875rem !important;
+    margin-top: 1.25rem !important;
+    padding-top: 1rem !important;
+  }
+  .trust-sep { height: 1.5rem; }
+  .trust-item__label { font-size: 0.65rem !important; letter-spacing: 0.03em; }
+
+  /* Ocultar columna de texto largo — visible en HTML para SEO */
+  .hero__copy { display: none; }
+
+  /* Pills de imagen pequeñas */
+  .hero__img-pill { font-size: 11px !important; padding: 0.35rem 0.875rem !important; }
+}
+
+@media (max-width: 480px) {
+  .hero { padding-top: 2rem !important; padding-bottom: 2rem !important; }
+  .hero__title { font-size: clamp(1.75rem, 8vw, 2.25rem) !important; }
+  /* Ocultar separadores del trust bar en pantalla muy chica */
+  .trust-sep { display: none; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   5. STATS BAR — pulido en móvil chico
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .stats-bar { padding: 1.25rem 0; }
+  .stats-bar__number { font-size: 1.25rem; }
+  .stats-bar__label { font-size: 0.75rem; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   6. PRODUCT GRIDS — grid-4 a 2col en tablet, 1col en móvil chico
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .grid-4 { grid-template-columns: repeat(2, 1fr) !important; gap: 1.25rem !important; }
+}
+
+@media (max-width: 540px) {
+  .grid-3,
+  .grid-4 { grid-template-columns: 1fr !important; gap: 1rem !important; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   7. CAT GRID — 2col en móvil (mejor que 1col brusco a 768)
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .cat-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 1rem !important; }
+  .cat-card__body { padding: 1rem 1rem 1.25rem !important; }
+  .cat-card__name { font-size: 0.95rem !important; }
+}
+
+@media (max-width: 380px) {
+  .cat-grid { grid-template-columns: 1fr !important; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   8. WHY-SC GRID — ya es 2col en 1024; en <480 reducir gaps
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .why-sc-grid { gap: 0.75rem !important; }
+  .why-sc__body { padding: 0.875rem 1rem 1.1rem !important; }
+  .why-sc__title { font-size: 0.875rem !important; }
+  .why-sc__desc { font-size: 0.8rem !important; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   9. PILAR SECTIONS (index) — pilar-inner ya colapsa a 900px
+      Ajustes de tipografía y espaciado
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .pilar-title { font-size: clamp(1.375rem, 5.5vw, 1.75rem) !important; }
+  .pilar-desc { font-size: 0.9375rem !important; margin-bottom: 1.5rem !important; }
+  .price-box { padding: 1.25rem !important; }
+  .price-box__amount { font-size: 2rem !important; }
+}
+
+@media (max-width: 480px) {
+  .pilar-features { gap: 0.625rem !important; }
+  .pilar-feature { font-size: 0.875rem !important; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   10. FIESTA / EVENTO CARDS — padding compact en móvil chico
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .fiesta-card { padding: 1.25rem !important; gap: 0.625rem !important; }
+  .fiesta-card__title { font-size: 1rem !important; }
+  .evento-card { padding: 1.25rem 1.375rem !important; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   11. CTA FINAL — stack vertical + botones full-width
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .cta-final { padding-block: 3rem !important; }
+  .cta-final__title { font-size: clamp(1.5rem, 6vw, 1.875rem) !important; }
+  .cta-final__desc { font-size: 0.9375rem !important; }
+  .cta-final__buttons {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.75rem !important;
+  }
+  .cta-final__buttons .btn {
+    width: 100% !important;
+    justify-content: center !important;
+    min-height: 48px;
+  }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   12. FORMULARIOS — iOS no-zoom (≥16px) + touch targets ≥44px
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  /* Anti-zoom iOS: cualquier input < 16px dispara zoom automático */
+  .form-input,
+  .form-select,
+  .form-textarea {
+    font-size: 16px !important;
+    min-height: 48px;
+  }
+  .form-textarea { min-height: 100px !important; }
+
+  /* Quote form */
+  .quote-form { padding: 1.5rem !important; }
+  .quote-form__submit {
+    min-width: unset !important;
+    width: 100% !important;
+    min-height: 48px;
+  }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   13. TABS — scroll horizontal compacto en móvil chico
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .tabs {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs__label {
+    padding: 0.75rem 1.1rem !important;
+    font-size: 0.875rem !important;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   14. COVERAGE BADGES — compactos en móvil chico
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .coverage__badge {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.75rem;
+  }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   15. FAQ — touch-friendly
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .faq__question {
+    padding: 1rem 1.1rem !important;
+    font-size: 0.9375rem !important;
+    min-height: 52px;
+  }
+  .faq__answer-inner {
+    padding: 0 1.1rem 1rem !important;
+    font-size: 0.875rem !important;
+  }
+  .faq__answer p { font-size: 0.875rem !important; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   16. BUTTONS GLOBALES — touch targets ≥ 44px
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .btn,
+  .btn-primary,
+  .btn-secondary,
+  .btn-outline,
+  .btn-wa,
+  .btn-white {
+    min-height: 44px;
+    padding: 0.875rem 1.25rem;
+    font-size: 0.9375rem;
+  }
+  .btn-sm {
+    min-height: 40px;
+    padding: 0.5rem 1.1rem;
+    font-size: 0.825rem;
+  }
+  .btn-lg {
+    min-height: 48px;
+    padding: 0.975rem 1.75rem;
+    font-size: 1rem;
+  }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   17. HAMBURGER — asegurar touch target 44px
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .hdr__toggle {
+    width: 44px !important;
+    height: 44px !important;
+  }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   18. WHATSAPP BUBBLE — por encima de la barra sticky
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  /* La sticky-cta-mobile ocupa 56px — el bubble debe quedar arriba */
+  .wa-bubble {
+    bottom: calc(56px + 1rem) !important;
+    right: 1rem !important;
+  }
+  .wa-bubble__btn {
+    width: 52px !important;
+    height: 52px !important;
+  }
+  /* Ocultar tooltip en móvil (ya se hace en global @min-width:900px) */
+  .wa-bubble__tooltip { display: none !important; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   19. STICKY CTA MOBILE — safe area para notch / Dynamic Island
+   ────────────────────────────────────────────────────────────────── */
+@supports (padding: max(0px)) {
+  .sticky-cta-mobile {
+    height: auto;
+    min-height: 56px;
+    padding-bottom: max(0.4rem, env(safe-area-inset-bottom));
+  }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   20. SAFE-AREA iOS — notch + bottom bar + landscape
+   ────────────────────────────────────────────────────────────────── */
+@supports (padding: max(0px)) {
+  .container {
+    padding-left:  max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+  }
+  @media (max-width: 640px) {
+    .container {
+      padding-left:  max(1rem, env(safe-area-inset-left));
+      padding-right: max(1rem, env(safe-area-inset-right));
+    }
+  }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   21. FOOTER — pulido móvil chico
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .footer { padding-top: 2.5rem !important; }
+  .footer__grid { gap: 1.25rem !important; }
+  .footer__col-title { font-size: 0.925rem; margin-bottom: 0.875rem; }
+  .footer__link { padding: 0.35rem 0; font-size: 0.85rem; }
+  .footer__contact-item { font-size: 0.85rem; }
+  .footer__brand-logo { font-size: 1.2rem; }
+  .footer__brand-desc { font-size: 0.85rem; }
+  .footer__bottom { font-size: 0.75rem !important; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   22. TESTIMONIALS — compactos en móvil chico
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .testimonial { padding: 1.25rem !important; }
+  .testimonial__text { font-size: 0.875rem !important; }
+  .testimonial__author { font-size: 0.9rem !important; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   23. PRODUCT CARDS — body compacto en pantallas chicas
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .product-card__body { padding: 1rem !important; }
+  .product-card__name { font-size: 1rem !important; }
+  .product-card__desc { font-size: 0.82rem !important; }
+  .product-card__actions .btn { font-size: 0.78rem !important; padding: 0.5rem 0.6rem !important; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   24. TAP HIGHLIGHT — feedback táctil suave en iOS/Android
+   ────────────────────────────────────────────────────────────────── */
+@media (hover: none) and (pointer: coarse) {
+  a, button, .btn, .btn-primary, .btn-secondary, .btn-outline,
+  .btn-wa, .btn-white, .hdr__link, .hdr__panel-link,
+  .sticky-cta__wa, .sticky-cta__cotizar {
+    -webkit-tap-highlight-color: rgba(255, 61, 0, 0.15);
+  }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   25. BREADCRUMBS — compactos en móvil
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .breadcrumbs { padding: 0.625rem 0; font-size: 0.78rem; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   26. DIR-TIP — ya colapsa a 768, afinar < 480
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .dir-tip { padding: 1rem !important; gap: 0.875rem !important; }
+  .dir-tip__title { font-size: 0.875rem; }
+  .dir-tip__text { font-size: 0.8rem; }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────
+   27. PILAR STAT GRID — compacto en pantalla chica
+   ────────────────────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .pilar-stat { padding: 0.875rem !important; }
+  .pilar-stat__num { font-size: 1.25rem !important; }
+  .pilar-stat__txt { font-size: 0.7rem !important; }
+}

@@ -1,0 +1,946 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Precios de Renta de Inflables en CDMX 2026 | BRINCOLINS";
+const description = "Consulta los precios de renta de inflables en CDMX y Edomex. Desde $800 MXN. Todos incluyen entrega, instalación, motor y seguro. Sin costos ocultos. Cotiza hoy.";
+
+const inflables = [
+  {
+    slug:        "mini-castillo",
+    name:        "Mini Castillo",
+    category:    "Chico",
+    price:       800,
+    size:        "2×2×2 m",
+    ages:        "1–4 años",
+    capacity:    "3–4 niños",
+    highlight:   false,
+    tag:         "El más accesible",
+    tagColor:    "green",
+    ideal:       "Bebés, primer año, interiores, departamentos",
+    image:       "/img/inflables/mini-castillo.avif",
+  },
+  {
+    slug:        "dragones-rojos",
+    name:        "Dragones Rojos",
+    category:    "Mediano",
+    price:       1200,
+    size:        "4×4×3 m",
+    ages:        "4–10 años",
+    capacity:    "6–8 niños",
+    highlight:   true,
+    tag:         "El más rentado",
+    tagColor:    "primary",
+    ideal:       "Cumpleaños infantiles, jardines, eventos escolares",
+    image:       "/img/inflables/dragones-rojos.avif",
+  },
+  {
+    slug:        "castillo-princesas",
+    name:        "Castillo de Princesas",
+    category:    "Mediano",
+    price:       1200,
+    size:        "4×4×3 m",
+    ages:        "4–10 años",
+    capacity:    "6–8 niños",
+    highlight:   false,
+    tag:         "Favorito para niñas",
+    tagColor:    "pink",
+    ideal:       "Fiestas de niñas, temáticas de princesas",
+    image:       "/img/inflables/castillo-princesas.avif",
+  },
+  {
+    slug:        "mini-jungla",
+    name:        "Mini Jungla",
+    category:    "Mediano",
+    price:       1200,
+    size:        "4×4×3 m",
+    ages:        "3–10 años",
+    capacity:    "6–8 niños",
+    highlight:   false,
+    tag:         "Temático aventura",
+    tagColor:    "green",
+    ideal:       "Fiestas de safari, aventura y naturaleza",
+    image:       "/img/inflables/mini-jungla.avif",
+  },
+  {
+    slug:        "gusanitos",
+    name:        "Gusanitos",
+    category:    "Mediano",
+    price:       1200,
+    size:        "4×4×3 m",
+    ages:        "4–10 años",
+    capacity:    "6–8 niños",
+    highlight:   false,
+    tag:         "Colores vibrantes",
+    tagColor:    "blue",
+    ideal:       "Fiestas tropical, colores vivos, exteriores",
+    image:       "/img/inflables/gusanitos.avif",
+  },
+  {
+    slug:        "barco-pirata",
+    name:        "Barco Pirata",
+    category:    "Grande",
+    price:       2500,
+    size:        "7×5×4 m",
+    ages:        "3–12 años",
+    capacity:    "10–15 niños",
+    highlight:   false,
+    tag:         "Alto impacto",
+    tagColor:    "blue",
+    ideal:       "Kermeses, cumpleaños grandes, eventos escolares",
+    image:       "/img/inflables/barco-pirata.avif",
+  },
+  {
+    slug:        "castillo-blanco",
+    name:        "Castillo Blanco",
+    category:    "Grande",
+    price:       2800,
+    size:        "6×5×4 m",
+    ages:        "3+ años",
+    capacity:    "8–12 personas",
+    highlight:   false,
+    tag:         "Elegante y formal",
+    tagColor:    "purple",
+    ideal:       "Bodas, XV años, eventos formales, garden parties",
+    image:       "/img/inflables/castillo-blanco.avif",
+  },
+  {
+    slug:        "extremo",
+    name:        "Circuito Extremo",
+    category:    "Extremo",
+    price:       3000,
+    size:        "12×4×3 m",
+    ages:        "6+ años",
+    capacity:    "2 carriles simultáneos",
+    highlight:   false,
+    tag:         "Para teens y adultos",
+    tagColor:    "orange",
+    ideal:       "Team building, kermeses, eventos corporativos",
+    image:       "/img/inflables/extremo.avif",
+  },
+];
+
+const tagColors: Record<string, { bg: string; text: string }> = {
+  primary: { bg: "#FEF2F2", text: "#DC2626" },
+  green:   { bg: "#F0FDF4", text: "#15803D" },
+  pink:    { bg: "#FDF2F8", text: "#9D174D" },
+  blue:    { bg: "#EFF6FF", text: "#1D4ED8" },
+  purple:  { bg: "#F5F3FF", text: "#6D28D9" },
+  orange:  { bg: "#FFF7ED", text: "#C2410C" },
+};
+
+const includes = [
+  { icon: "🚚", label: "Entrega a domicilio",     desc: "Llevamos el inflable a tu domicilio en CDMX y Edomex sin costo extra." },
+  { icon: "🔧", label: "Instalación profesional", desc: "Nuestro equipo monta el inflable en menos de 30 minutos." },
+  { icon: "⚡", label: "Motor inflador",           desc: "Motor silencioso de inflado continuo e instalación eléctrica incluidos." },
+  { icon: "🧼", label: "Limpieza certificada",     desc: "Cada inflable se desinfecta con protocolo certificado antes de entregarse." },
+  { icon: "🛡️", label: "Seguro de RC",             desc: "Seguro de responsabilidad civil incluido en cada renta, sin excepción." },
+  { icon: "📦", label: "Recolección",              desc: "Al finalizar el evento recogemos todo. Tú no tienes que hacer nada." },
+];
+
+const factores = [
+  {
+    titulo:  "Zona de entrega",
+    desc:    "Cubrimos las 16 alcaldías de CDMX y los principales municipios de Edomex sin cargo extra. Zonas más alejadas o fuera de nuestra cobertura estándar pueden tener un cargo adicional de traslado.",
+    icono:   "📍",
+  },
+  {
+    titulo:  "Duración del evento",
+    desc:    "El precio estándar cubre un evento completo de hasta 8 horas. Si necesitas el inflable por más tiempo, consulta nuestra tarifa de hora adicional o paquetes de día completo.",
+    icono:   "⏱️",
+  },
+  {
+    titulo:  "Temporada y disponibilidad",
+    desc:    "En temporada alta (Semana Santa, vacaciones de verano, noviembre–diciembre) la demanda es mayor. Te recomendamos reservar con 2 a 3 semanas de anticipación para garantizar disponibilidad.",
+    icono:   "📅",
+  },
+  {
+    titulo:  "Número de inflables",
+    desc:    "Al rentar 2 o más inflables para el mismo evento aplican descuentos por volumen. Consulta nuestros paquetes para eventos o escríbenos para una cotización personalizada.",
+    icono:   "🎪",
+  },
+];
+
+const faqs = [
+  {
+    question: "¿Cuánto cuesta rentar un inflable en CDMX?",
+    answer:   "Los precios de renta de inflables en CDMX van desde $800 MXN por el Mini Castillo (ideal para bebés) hasta $3,000 MXN por el Circuito Extremo de 12 metros. Los inflables medianos — Dragones Rojos, Castillo Princesas, Mini Jungla y Gusanitos — tienen un precio de $1,200 MXN. Todos los precios incluyen entrega, instalación, motor, limpieza, seguro de responsabilidad civil y recolección.",
+  },
+  {
+    question: "¿Los precios publicados incluyen todo o hay costos adicionales?",
+    answer:   "Los precios que publicamos son precios completos sin letra chica. Incluyen entrega a domicilio, instalación, motor inflador silencioso, extensión eléctrica, limpieza y sanitización certificada, seguro de responsabilidad civil y recolección al finalizar el evento. El único cargo adicional posible es por zonas muy alejadas fuera de nuestra cobertura estándar, del cual te informamos al cotizar.",
+  },
+  {
+    question: "¿El precio varía según la zona de entrega en CDMX?",
+    answer:   "Para las 16 alcaldías de la Ciudad de México y los principales municipios del Estado de México, el precio de entrega está incluido en el costo del inflable. Solo para zonas fuera de nuestra cobertura habitual puede aplicar un cargo adicional de traslado que te informamos antes de confirmar la reserva.",
+  },
+  {
+    question: "¿Hay descuento si rento más de un inflable?",
+    answer:   "Sí. Al rentar 2 o más inflables para el mismo evento aplicamos precios preferenciales. Nuestros paquetes para eventos inician desde $2,400 MXN por 2 inflables. Contáctanos con los detalles de tu evento y te enviamos una propuesta con el precio total por paquete.",
+  },
+  {
+    question: "¿Cómo puedo reservar y cuánto anticipo necesito?",
+    answer:   "Para reservar tu inflable pedimos un anticipo del 50% del precio total. El saldo restante se paga el día del evento antes de la instalación. Aceptamos transferencia bancaria, efectivo y pago con tarjeta. Una vez realizado el anticipo, tu fecha queda apartada y recibes confirmación por WhatsApp.",
+  },
+  {
+    question: "¿Los precios cambian en temporada alta?",
+    answer:   "Nuestros precios por modelo son fijos durante todo el año. Lo que puede verse afectado en temporada alta (Semana Santa, verano, noviembre y diciembre) es la disponibilidad: los fines de semana se agotan rápido. Recomendamos reservar con al menos 2 semanas de anticipación en esas fechas.",
+  },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio",   href: "/" },
+    { name: "Precios de Inflables" },
+  ]}
+  faqItems={faqs}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[
+      { label: "Inicio", href: "/" },
+      { label: "Precios de Inflables" },
+    ]} />
+  </Fragment>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       HERO — KW "precios renta inflables CDMX" · precios visibles de inmediato
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="hero pr-hero">
+    <div class="container">
+      <div class="hero__grid">
+
+        <div>
+          <span class="hero__badge">Precios transparentes · Sin costos ocultos</span>
+          <h1 class="hero__title">
+            Precios de <span class="highlight">Renta de Inflables</span> en CDMX 2026
+          </h1>
+          <p class="hero__desc">
+            Todos nuestros precios incluyen entrega, instalación, motor, limpieza, seguro de responsabilidad civil y recolección. Lo que ves es lo que pagas — sin sorpresas ni cargos de último minuto.
+          </p>
+          <div class="hero__ctas">
+            <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar mi inflable</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver catálogo</a>
+          </div>
+        </div>
+
+        <!-- Resumen de precios en hero — ancla cognitiva inmediata -->
+        <div class="pr-hero-summary">
+          <p class="pr-hero-summary__label">Rango de precios 2026</p>
+          <div class="pr-hero-summary__range">
+            <div class="pr-hero-summary__item">
+              <span class="pr-hero-summary__amount">$800</span>
+              <span class="pr-hero-summary__note">Mini Castillo (bebés)</span>
+            </div>
+            <div class="pr-hero-summary__arrow">→</div>
+            <div class="pr-hero-summary__item">
+              <span class="pr-hero-summary__amount">$3,000</span>
+              <span class="pr-hero-summary__note">Circuito Extremo</span>
+            </div>
+          </div>
+          <ul class="pr-hero-summary__includes">
+            <li>✓ Entrega e instalación incluidas</li>
+            <li>✓ Motor inflador y extensión eléctrica</li>
+            <li>✓ Limpieza y sanitización certificada</li>
+            <li>✓ Seguro de responsabilidad civil</li>
+            <li>✓ Recolección al finalizar</li>
+          </ul>
+          <a href="/cotizar/" class="btn btn-primary" style="width:100%;text-align:center;">
+            Obtener cotización gratis
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       TABLA DE PRECIOS POR MODELO — El contenido central de la página
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="Precios por modelo"
+        title="Precios de Renta de Inflables por Modelo"
+        subtitle="Todos los precios incluyen entrega, instalación, motor, seguro y recolección en CDMX y Edomex."
+        copy1="Publicamos nuestros precios abiertamente porque creemos que la transparencia es parte del buen servicio. Cada precio que ves aquí es el precio real que pagarás — sin cuotas ocultas de entrega, sin cargos por el motor, sin sorpresas el día del evento."
+        copy2="Si tienes dudas sobre qué inflable elegir según el espacio disponible, el número de niños o el tipo de evento, escríbenos por WhatsApp y te asesoramos sin compromiso."
+      />
+
+      <!-- Cards de precio por modelo -->
+      <div class="pr-grid">
+        {inflables.map(inf => {
+          const tc = tagColors[inf.tagColor] ?? { bg: "#F3F4F6", text: "#374151" };
+          return (
+            <div class:list={["pr-card", { "pr-card--highlight": inf.highlight }]}>
+
+              {inf.highlight && <div class="pr-card__ribbon">Más rentado</div>}
+
+              <div class="pr-card__img-wrap">
+                <img
+                  src={inf.image}
+                  alt={`Precio renta ${inf.name} CDMX`}
+                  width="400" height="225"
+                  loading="lazy"
+                  class="pr-card__img"
+                />
+              </div>
+
+              <div class="pr-card__body">
+                <div class="pr-card__meta">
+                  <span class="pr-card__tag" style={`background:${tc.bg}; color:${tc.text};`}>{inf.tag}</span>
+                  <span class="pr-card__category">{inf.category}</span>
+                </div>
+
+                <h2 class="pr-card__name">{inf.name}</h2>
+
+                <div class="pr-card__price">
+                  <span class="pr-card__amount">${inf.price.toLocaleString('es-MX')}</span>
+                  <span class="pr-card__currency">MXN</span>
+                  <span class="pr-card__period">/ evento</span>
+                </div>
+
+                <div class="pr-card__specs">
+                  <div class="pr-card__spec">
+                    <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1a.75.75 0 01.75.75V6h3.5a.75.75 0 010 1.5h-3.5v3.5a.75.75 0 01-1.5 0V7.5H3.75a.75.75 0 010-1.5h3.5V1.75A.75.75 0 018 1z"/></svg>
+                    <span>{inf.size}</span>
+                  </div>
+                  <div class="pr-card__spec">
+                    <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 8a3 3 0 100-6 3 3 0 000 6zM12.735 14c.618 0 1.093-.561.872-1.139a6.002 6.002 0 00-11.215 0c-.22.578.254 1.139.872 1.139h9.47z"/></svg>
+                    <span>{inf.ages}</span>
+                  </div>
+                  <div class="pr-card__spec">
+                    <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"/></svg>
+                    <span>{inf.capacity}</span>
+                  </div>
+                </div>
+
+                <p class="pr-card__ideal"><strong>Ideal para:</strong> {inf.ideal}</p>
+
+                <a href={`/inflables/${inf.slug}/`} class="btn btn-outline btn-sm pr-card__btn">
+                  Ver detalles →
+                </a>
+              </div>
+
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       ¿QUÉ INCLUYE EL PRECIO? — Desglose completo
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="Todo incluido"
+        title="¿Qué Incluye el Precio de Renta?"
+        subtitle="Cada peso que pagas cubre un servicio completo. Sin extras sorpresa al final."
+        copy1="Una de las preguntas más frecuentes que recibimos es: ¿el precio incluye la entrega? ¿y el motor? ¿y la instalación? La respuesta a todas es sí. En BRINCOLINS el precio que cotizamos es el precio completo del servicio de principio a fin. No existen cargos adicionales por ninguno de estos conceptos."
+        copy2="El único costo que podría añadirse es un cargo de traslado para zonas muy alejadas de nuestra cobertura estándar — y siempre te lo informamos antes de confirmar la reserva. Nunca recibirás una sorpresa el día del evento."
+      />
+
+      <div class="pr-includes">
+        {includes.map(item => (
+          <div class="pr-include">
+            <div class="pr-include__icon" aria-hidden="true">{item.icon}</div>
+            <div class="pr-include__body">
+              <h3 class="pr-include__label">{item.label}</h3>
+              <p class="pr-include__desc">{item.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       FACTORES QUE AFECTAN EL PRECIO
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="Transparencia"
+        title="Factores que Pueden Afectar tu Precio Final"
+        subtitle="La mayoría de los clientes paga exactamente el precio publicado. Estas son las excepciones."
+        copy1="Para la gran mayoría de los eventos en CDMX y los municipios del Estado de México más comunes, el precio que ves en la tabla de arriba es el precio final. Pero queremos ser completamente transparentes sobre los factores que en algunos casos podrían modificarlo."
+        copy2=""
+      />
+
+      <div class="pr-factores">
+        {factores.map(f => (
+          <div class="pr-factor">
+            <div class="pr-factor__icon" aria-hidden="true">{f.icono}</div>
+            <div>
+              <h3 class="pr-factor__title">{f.titulo}</h3>
+              <p class="pr-factor__desc">{f.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       PRECIOS PARA EVENTOS CON MÚLTIPLES INFLABLES
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="Paquetes para eventos"
+        title="Precios para Eventos con Más de un Inflable"
+        subtitle="Kermeses, team building y ferias — precios especiales al rentar 2 o más inflables."
+        copy1="Cuando el evento necesita varios inflables simultáneos, el precio por inflable disminuye gracias a nuestros paquetes. A partir de 2 inflables en el mismo evento aplicamos precios preferenciales que incluyen coordinación logística sin costo adicional para eventos de 3 o más equipos."
+        copy2=""
+      />
+
+      <div class="pr-paquetes">
+
+        <div class="pr-paquete">
+          <div class="pr-paquete__header">
+            <h3 class="pr-paquete__name">Paquete Kermesse</h3>
+            <div class="pr-paquete__price">
+              <span class="pr-paquete__amount">Desde $2,400</span>
+              <span class="pr-paquete__note">2 inflables · evento completo</span>
+            </div>
+          </div>
+          <ul class="pr-paquete__list">
+            <li>2 inflables a elegir del catálogo estándar</li>
+            <li>Entrega, instalación y recolección de ambos</li>
+            <li>2 motores de inflado incluidos</li>
+            <li>Seguro de RC por cada inflable</li>
+          </ul>
+          <a href="/servicios/inflables-para-eventos/" class="pr-paquete__link">Ver detalles del paquete →</a>
+        </div>
+
+        <div class="pr-paquete pr-paquete--highlight">
+          <div class="pr-paquete__badge">Más solicitado</div>
+          <div class="pr-paquete__header">
+            <h3 class="pr-paquete__name">Paquete Evento</h3>
+            <div class="pr-paquete__price">
+              <span class="pr-paquete__amount">Desde $4,500</span>
+              <span class="pr-paquete__note">3–4 inflables · coordinación incluida</span>
+            </div>
+          </div>
+          <ul class="pr-paquete__list">
+            <li>3 a 4 inflables a elegir del catálogo</li>
+            <li>Entrega, instalación y recolección de todos</li>
+            <li>Motor de inflado por cada inflable</li>
+            <li>Seguro de RC individual por equipo</li>
+            <li>Coordinador logístico en sitio incluido</li>
+          </ul>
+          <a href="/servicios/inflables-para-eventos/" class="pr-paquete__link">Ver detalles del paquete →</a>
+        </div>
+
+        <div class="pr-paquete">
+          <div class="pr-paquete__header">
+            <h3 class="pr-paquete__name">Paquete Corporativo</h3>
+            <div class="pr-paquete__price">
+              <span class="pr-paquete__amount">Cotización</span>
+              <span class="pr-paquete__note">5+ inflables · personalizado</span>
+            </div>
+          </div>
+          <ul class="pr-paquete__list">
+            <li>5 o más inflables simultáneos</li>
+            <li>Coordinador logístico dedicado</li>
+            <li>Seguro de RC por cada inflable</li>
+            <li>Facturación fiscal disponible</li>
+          </ul>
+          <a href="/servicios/inflables-para-eventos/" class="pr-paquete__link">Solicitar cotización corporativa →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       VENTAJA COMPETITIVA — Por qué mostramos precios
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="pr-ventaja">
+        <div class="pr-ventaja__content">
+          <span class="pr-ventaja__badge">Transparencia total</span>
+          <h2 class="pr-ventaja__title">Precios Claros. Sin Letra Chica. Siempre.</h2>
+          <p class="pr-ventaja__desc">
+            En BRINCOLINS publicamos nuestros precios porque creemos que el primer paso de un buen servicio es la honestidad. No tendrás que llamar para "preguntar el precio" ni esperar a que alguien te responda antes de saber si está dentro de tu presupuesto.
+          </p>
+          <p class="pr-ventaja__desc">
+            El precio que ves en esta página es el precio real del servicio completo. Lo que incluye, lo que no incluye y los posibles cargos adicionales están explicados con detalle arriba. Así tomamos cada decisión de negocio: con respeto al tiempo de nuestros clientes.
+          </p>
+          <div class="pr-ventaja__ctas">
+            <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar mi inflable gratis</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver catálogo completo</a>
+          </div>
+        </div>
+        <div class="pr-ventaja__stats">
+          <div class="pr-ventaja__stat">
+            <span class="pr-ventaja__stat-num">+20</span>
+            <span class="pr-ventaja__stat-txt">años con precios honestos</span>
+          </div>
+          <div class="pr-ventaja__stat">
+            <span class="pr-ventaja__stat-num">$0</span>
+            <span class="pr-ventaja__stat-txt">costos ocultos ni sorpresas</span>
+          </div>
+          <div class="pr-ventaja__stat">
+            <span class="pr-ventaja__stat-num">100%</span>
+            <span class="pr-ventaja__stat-txt">precio todo incluido</span>
+          </div>
+          <div class="pr-ventaja__stat">
+            <span class="pr-ventaja__stat-num">+500</span>
+            <span class="pr-ventaja__stat-txt">eventos al año en CDMX</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FAQ DE PRECIOS -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="Preguntas frecuentes"
+        title="Preguntas sobre Precios y Pagos"
+        subtitle="Todo lo que necesitas saber sobre costos, anticipos y formas de pago."
+        copy1="Reunimos las dudas más comunes sobre precios de renta de inflables en CDMX para que no tengas que buscar más. Si algo no quedó claro, escríbenos directamente por WhatsApp."
+        copy2=""
+      />
+      <div style="max-width: 800px; margin: 0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CTA FINAL -->
+  <CtaBanner
+    title="¿Ya sabes cuál inflable quieres? Cotiza en 2 minutos."
+    subtitle="Escríbenos por WhatsApp con la fecha y modelo — te respondemos con precio y disponibilidad al instante."
+    btnText="Cotizar por WhatsApp"
+    btnHref="/cotizar/"
+    btnSecondaryText="Ver catálogo de inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+  />
+
+</PageLayout>
+
+
+<style>
+  /* ─── Hero Precios ───────────────────────────────────────── */
+  .pr-hero { padding: clamp(2rem, 4vw, 3rem) 0; }
+
+  .pr-hero-summary {
+    background: #fff;
+    border: 2px solid var(--c-primary, #FF3D00);
+    border-radius: 1.25rem;
+    padding: 2rem;
+    box-shadow: 0 4px 28px rgba(255,61,0,.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .pr-hero-summary__label {
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: #6B7280;
+  }
+  .pr-hero-summary__range {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .pr-hero-summary__item {
+    display: flex;
+    flex-direction: column;
+    gap: .15rem;
+  }
+  .pr-hero-summary__amount {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: var(--c-primary, #FF3D00);
+    line-height: 1;
+  }
+  .pr-hero-summary__note {
+    font-size: .75rem;
+    color: #6B7280;
+  }
+  .pr-hero-summary__arrow {
+    font-size: 1.5rem;
+    color: #D1D5DB;
+  }
+  .pr-hero-summary__includes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .35rem;
+    font-size: .85rem;
+    color: #374151;
+  }
+  .pr-hero-summary__includes li {
+    color: #374151;
+  }
+  .pr-hero-summary__includes li::first-letter { color: #16A34A; }
+
+  /* ─── Price Cards Grid ───────────────────────────────────── */
+  .pr-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+  }
+  @media (max-width: 1100px) { .pr-grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 750px)  { .pr-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 480px)  { .pr-grid { grid-template-columns: 1fr; } }
+
+  .pr-card {
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow .2s ease, transform .2s ease;
+    position: relative;
+  }
+  .pr-card:hover {
+    box-shadow: 0 8px 32px rgba(0,0,0,.1);
+    transform: translateY(-2px);
+  }
+  .pr-card--highlight {
+    border-color: var(--c-primary, #FF3D00);
+    box-shadow: 0 0 0 2px var(--c-primary, #FF3D00), 0 8px 32px rgba(255,61,0,.12);
+  }
+  .pr-card__ribbon {
+    position: absolute;
+    top: .75rem;
+    left: -1px;
+    background: var(--c-primary, #FF3D00);
+    color: #fff;
+    font-size: .7rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    padding: .25rem .65rem .25rem .5rem;
+    border-radius: 0 .35rem .35rem 0;
+    z-index: 2;
+  }
+  .pr-card__img-wrap { aspect-ratio: 16/9; overflow: hidden; }
+  .pr-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform .35s ease;
+  }
+  .pr-card:hover .pr-card__img { transform: scale(1.04); }
+
+  .pr-card__body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    flex-grow: 1;
+  }
+  .pr-card__meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+  }
+  .pr-card__tag {
+    font-size: .7rem;
+    font-weight: 700;
+    letter-spacing: .04em;
+    padding: .2rem .55rem;
+    border-radius: 99px;
+  }
+  .pr-card__category {
+    font-size: .72rem;
+    color: #9CA3AF;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+  }
+  .pr-card__name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1A1A2E;
+    margin: 0;
+    line-height: 1.2;
+  }
+  .pr-card__price {
+    display: flex;
+    align-items: baseline;
+    gap: .25rem;
+  }
+  .pr-card__amount {
+    font-size: 1.65rem;
+    font-weight: 900;
+    color: var(--c-primary, #FF3D00);
+    line-height: 1;
+  }
+  .pr-card__currency {
+    font-size: .75rem;
+    font-weight: 600;
+    color: #6B7280;
+  }
+  .pr-card__period {
+    font-size: .75rem;
+    color: #9CA3AF;
+  }
+  .pr-card__specs {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+  }
+  .pr-card__spec {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    font-size: .8rem;
+    color: #6B7280;
+  }
+  .pr-card__spec svg { width: .9rem; height: .9rem; color: #9CA3AF; flex-shrink: 0; }
+  .pr-card__ideal {
+    font-size: .8rem;
+    color: #4B5563;
+    line-height: 1.5;
+    margin: 0;
+    flex-grow: 1;
+  }
+  .pr-card__btn {
+    margin-top: auto;
+    text-align: center;
+  }
+
+  /* ─── Qué Incluye ────────────────────────────────────────── */
+  .pr-includes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-top: 2rem;
+  }
+  @media (max-width: 860px) { .pr-includes { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 480px) { .pr-includes { grid-template-columns: 1fr; } }
+
+  .pr-include {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: .875rem;
+    padding: 1.25rem;
+  }
+  .pr-include__icon {
+    font-size: 1.75rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .pr-include__label {
+    font-size: .95rem;
+    font-weight: 700;
+    color: #1A1A2E;
+    margin: 0 0 .25rem;
+  }
+  .pr-include__desc {
+    font-size: .85rem;
+    color: #4B5563;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  /* ─── Factores de precio ─────────────────────────────────── */
+  .pr-factores {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    margin-top: 2rem;
+  }
+  @media (max-width: 640px) { .pr-factores { grid-template-columns: 1fr; } }
+
+  .pr-factor {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: .875rem;
+    padding: 1.5rem;
+  }
+  .pr-factor__icon { font-size: 1.75rem; line-height: 1; flex-shrink: 0; }
+  .pr-factor__title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1A1A2E;
+    margin: 0 0 .4rem;
+  }
+  .pr-factor__desc {
+    font-size: .875rem;
+    color: #4B5563;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* ─── Paquetes multi-inflable ────────────────────────────── */
+  .pr-paquetes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-top: 2rem;
+  }
+  @media (max-width: 860px) { .pr-paquetes { grid-template-columns: 1fr; } }
+
+  .pr-paquete {
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 1rem;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+  }
+  .pr-paquete--highlight {
+    border-color: var(--c-primary, #FF3D00);
+    box-shadow: 0 0 0 2px var(--c-primary, #FF3D00);
+  }
+  .pr-paquete__badge {
+    position: absolute;
+    top: -1px;
+    right: 1.25rem;
+    background: var(--c-primary, #FF3D00);
+    color: #fff;
+    font-size: .7rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    padding: .3rem .75rem;
+    border-radius: 0 0 .5rem .5rem;
+  }
+  .pr-paquete__name {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #1A1A2E;
+    margin: 0;
+  }
+  .pr-paquete__amount {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--c-primary, #FF3D00);
+    display: block;
+    line-height: 1.1;
+  }
+  .pr-paquete__note {
+    font-size: .78rem;
+    color: #6B7280;
+    display: block;
+  }
+  .pr-paquete__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    font-size: .875rem;
+    color: #374151;
+    flex-grow: 1;
+  }
+  .pr-paquete__list li::before {
+    content: "✓ ";
+    color: #16A34A;
+    font-weight: 700;
+  }
+  .pr-paquete__link {
+    font-size: .875rem;
+    font-weight: 700;
+    color: var(--c-primary, #FF3D00);
+    text-decoration: none;
+    margin-top: auto;
+  }
+  .pr-paquete__link:hover { text-decoration: underline; }
+
+  /* ─── Sección ventaja competitiva ───────────────────────── */
+  .pr-ventaja {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 3rem;
+    align-items: center;
+  }
+  @media (max-width: 860px) { .pr-ventaja { grid-template-columns: 1fr; } }
+
+  .pr-ventaja__badge {
+    display: inline-block;
+    background: var(--c-primary, #FF3D00);
+    color: #fff;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding: .3rem .75rem;
+    border-radius: 99px;
+    margin-bottom: 1rem;
+  }
+  .pr-ventaja__title {
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    font-weight: 800;
+    color: #1A1A2E;
+    line-height: 1.2;
+    margin: 0 0 1rem;
+  }
+  .pr-ventaja__desc {
+    font-size: .95rem;
+    color: #4B5563;
+    line-height: 1.7;
+    margin: 0 0 .75rem;
+  }
+  .pr-ventaja__ctas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+    margin-top: 1.5rem;
+  }
+  .pr-ventaja__stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .875rem;
+  }
+  .pr-ventaja__stat {
+    background: #F9FAFB;
+    border-radius: .875rem;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+  }
+  .pr-ventaja__stat-num {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: var(--c-primary, #FF3D00);
+    line-height: 1;
+  }
+  .pr-ventaja__stat-txt {
+    font-size: .75rem;
+    color: #6B7280;
+    line-height: 1.35;
+  }
+</style>

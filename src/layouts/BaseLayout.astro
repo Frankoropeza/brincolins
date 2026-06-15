@@ -1,5 +1,6 @@
 ---
 import "@/styles/global.css";
+import "@/styles/mobile.css";
 import TopBar from '../components/TopBar.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -264,7 +265,7 @@ const ogType = (pageType === "product") ? "og:product" : "website";
 <html lang="es-MX">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
   <!-- Critical CSS Inline (LCP optimization) -->
   <style>

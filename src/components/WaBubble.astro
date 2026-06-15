@@ -6,7 +6,7 @@ export interface Props {
 }
 
 const {
-  whatsapp = "5547868402",
+  whatsapp = "5531281706",
   message  = "Hola BRINCOLINS, quiero cotizar un inflable.",
   tooltip  = "Cotizar ahora",
 } = Astro.props;
@@ -15,7 +15,7 @@ const href = `https://wa.me/${whatsapp}?text=${encodeURIComponent(message)}`;
 ---
 
 <a class="wa-bubble" href={href}
-   target="_blank" rel="noopener noreferrer"
+   target="_blank" rel="nofollow noopener noreferrer"
    aria-label="Contactar por WhatsApp">
   <span class="wa-bubble__tooltip">{tooltip}</span>
   <span class="wa-bubble__btn">

@@ -165,7 +165,7 @@ const salonSchema = {
           <div class="hero__ctas">
             <a href={`tel:+52${salon.phone.replace(/\s/g, "")}`} class="btn btn-primary btn-lg">Llamar al salón</a>
             <a href={`https://wa.me/52${salon.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${salon.name} para una fiesta infantil.`)}`}
-               class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+               class="btn btn-wa btn-lg" target="_blank" rel="nofollow noopener noreferrer">
               WhatsApp del salón
             </a>
           </div>
@@ -240,7 +240,7 @@ const salonSchema = {
             <div class="salon-ficha__actions">
               <a href={`tel:+52${salon.phone.replace(/\s/g, "")}`} class="btn btn-primary">Llamar ahora</a>
               <a href={`https://wa.me/52${salon.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${salon.name} para una fiesta infantil.`)}`}
-                 class="btn btn-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                 class="btn btn-wa" target="_blank" rel="nofollow noopener noreferrer">WhatsApp</a>
               <a href={`https://www.google.com/maps/search/${salon.gmapsQuery}`}
                  class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver en Google Maps</a>
             </div>
@@ -302,7 +302,7 @@ const salonSchema = {
             <p class="sidebar-card__text">Consulta disponibilidad y precios directamente con el salón.</p>
             <a href={`tel:+52${salon.phone.replace(/\s/g, "")}`} class="btn btn-primary btn-sm sidebar-card__btn">{salon.phone}</a>
             <a href={`https://wa.me/52${salon.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${salon.name} para una fiesta infantil.`)}`}
-               class="btn btn-wa btn-sm sidebar-card__btn" target="_blank" rel="noopener noreferrer">WhatsApp directo</a>
+               class="btn btn-wa btn-sm sidebar-card__btn" target="_blank" rel="nofollow noopener noreferrer">WhatsApp directo</a>
             <a href={`https://www.google.com/maps/search/${salon.gmapsQuery}`}
                class="btn btn-outline btn-sm sidebar-card__btn" target="_blank" rel="noopener noreferrer">Ver en Google Maps</a>
           </div>

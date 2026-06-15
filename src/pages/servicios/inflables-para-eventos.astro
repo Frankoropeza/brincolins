@@ -1,0 +1,740 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import Gallery4x4 from "@/components/Gallery4x4.astro";
+import PricingCards from "@/components/PricingCards.astro";
+
+const title = "Inflables para Eventos Corporativos y Kermeses en CDMX | BRINCOLINS";
+const description = "Renta de inflables para eventos corporativos, kermeses escolares, ferias y celebraciones masivas en CDMX y Edomex. Paquetes multi-inflable, coordinación logística y facturación disponible. +20 años de experiencia.";
+
+const galleryImages = [
+  { src: "/img/inflables/extremo-v3.avif",          alt: "Circuito Extremo inflable para eventos corporativos y kermeses CDMX" },
+  { src: "/img/inflables/barco-pirata-v3.avif",      alt: "Barco pirata inflable para kermesses escolares CDMX" },
+  { src: "/img/inflables/castillo-blanco-v3.avif",   alt: "Castillo blanco inflable para eventos formales y corporativos CDMX" },
+  { src: "/img/inflables/dragones-rojos-v3.avif",    alt: "Inflable dragones rojos para eventos infantiles masivos CDMX" },
+  { src: "/img/inflables/castillo-princesas-v3.avif",alt: "Castillo de princesas inflable para ferias escolares CDMX" },
+  { src: "/img/inflables/mini-jungla-v3.avif",       alt: "Mini jungla inflable para eventos familiares CDMX" },
+  { src: "/img/inflables/gusanitos-v3.avif",         alt: "Inflable gusanitos para eventos infantiles y kermeses" },
+  { src: "/img/inflables/mini-castillo-v3.avif",     alt: "Mini castillo inflable para eventos con niños pequeños CDMX" },
+];
+
+const paquetes = [
+  {
+    name: "Paquete Kermesse",
+    price: "Desde $2,400",
+    priceNote: "2 inflables · evento completo",
+    description: "Ideal para kermeses escolares pequeñas y reuniones familiares. Dos inflables simultáneos del catálogo estándar.",
+    features: [
+      { text: "2 inflables a elegir del catálogo", included: true },
+      { text: "Entrega, instalación y recolección", included: true },
+      { text: "2 motores de inflado incluidos", included: true },
+      { text: "Limpieza y sanitización certificada", included: true },
+      { text: "Seguro de responsabilidad civil", included: true },
+      { text: "Atención por WhatsApp el día del evento", included: true },
+      { text: "Coordinador logístico en sitio", included: false },
+    ],
+    ctaLabel: "Cotizar kermesse",
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Paquete Evento",
+    badge: "Más solicitado",
+    highlight: true,
+    price: "Desde $4,500",
+    priceNote: "3–4 inflables · coordinación incluida",
+    description: "Para kermeses grandes, family days corporativos y eventos escolares con múltiples grupos simultáneos.",
+    features: [
+      { text: "3 a 4 inflables a elegir del catálogo", included: true },
+      { text: "Entrega, instalación y recolección", included: true },
+      { text: "Motores de inflado por cada inflable", included: true },
+      { text: "Limpieza y sanitización certificada", included: true },
+      { text: "Seguro de responsabilidad civil", included: true },
+      { text: "Atención por WhatsApp el día del evento", included: true },
+      { text: "Coordinador logístico en sitio", included: true },
+    ],
+    ctaLabel: "Cotizar evento",
+    ctaHref: "/contacto/",
+  },
+  {
+    name: "Paquete Corporativo",
+    price: "Cotización",
+    priceNote: "5+ inflables · personalizado",
+    description: "Para ferias, activaciones de marca, eventos corporativos masivos o cualquier evento de más de 200 personas.",
+    features: [
+      { text: "5 o más inflables simultáneos", included: true },
+      { text: "Entrega, instalación y recolección", included: true },
+      { text: "Motores de inflado incluidos", included: true },
+      { text: "Limpieza y sanitización certificada", included: true },
+      { text: "Seguro de responsabilidad civil", included: true },
+      { text: "Coordinador logístico dedicado", included: true },
+      { text: "Factura fiscal disponible", included: true },
+    ],
+    ctaLabel: "Solicitar cotización",
+    ctaHref: "/contacto/",
+  },
+];
+
+const faqs = [
+  {
+    question: "¿Pueden coordinar múltiples inflables en el mismo evento?",
+    answer: "Sí. Tenemos capacidad logística para coordinar 2 a 8 inflables simultáneos en el mismo evento. Para eventos con 3 o más inflables, incluimos un coordinador en sitio que supervisa la operación, los tiempos de montaje y la seguridad durante todo el evento."
+  },
+  {
+    question: "¿Con cuánta anticipación debo cotizar un evento corporativo o kermesse?",
+    answer: "Para kermeses escolares o eventos de empresa, recomendamos cotizar con al menos 2 a 3 semanas de anticipación, especialmente si el evento es en fin de semana. Para eventos masivos con 5 o más inflables, es ideal planificarlo con 1 mes de anticipación para garantizar disponibilidad y coordinar la logística completa."
+  },
+  {
+    question: "¿Emiten factura para eventos corporativos?",
+    answer: "Sí. Para eventos corporativos, instituciones educativas y empresas emitimos factura fiscal. Indícanos al momento de cotizar que necesitas facturación y te pediremos los datos necesarios para incluirla en el proceso."
+  },
+  {
+    question: "¿Qué inflables recomiendan para un evento corporativo de team building?",
+    answer: "Para team building corporativo, el Circuito Extremo de 12 metros con doble carril es la opción más popular: permite carreras simultáneas entre equipos y es adecuado para adultos. También el Barco Pirata (capacidad 10-15 personas) es muy dinámico para grupos. Podemos asesorarte según el número de personas y el objetivo de la dinámica."
+  },
+  {
+    question: "¿Cuánto espacio necesito para instalar varios inflables en un evento?",
+    answer: "Depende de los modelos. Un inflable mediano (Dragones Rojos, Castillo Princesas) necesita aproximadamente 5×5 metros con zona de seguridad perimetral. El Circuito Extremo requiere 14×5 metros. Para coordinar el layout óptimo de múltiples inflables, compártenos el plano o dimensiones del espacio y te hacemos una propuesta de distribución sin costo."
+  },
+  {
+    question: "¿Los inflables para eventos incluyen supervisor o monitor de seguridad?",
+    answer: "Nuestro equipo de instalación verifica que todo esté en regla antes de retirarse y el coordinador logístico (incluido en paquetes de 3+ inflables) está disponible durante el evento. Si necesitas supervisión continua de los inflables por parte de nuestro personal, es un servicio adicional que cotizamos según el número de inflables y la duración del evento."
+  },
+  {
+    question: "¿Pueden llevar inflables a recintos privados, escuelas o parques?",
+    answer: "Sí. Cubrimos escuelas, empresas, parques, recintos deportivos, jardines y espacios abiertos en CDMX y Estado de México. Solo necesitamos que el espacio cuente con acceso a toma de corriente eléctrica cercana (extensión incluida) y que el piso sea plano. Para eventos en espacios públicos, consulta si requieres permisos con la autoridad local."
+  },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Servicios", href: "/servicios/" },
+    { name: "Inflables para Eventos" },
+  ]}
+  faqItems={faqs}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[
+      { label: "Inicio",    href: "/" },
+      { label: "Servicios", href: "/servicios/" },
+      { label: "Inflables para Eventos" },
+    ]} />
+  </Fragment>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       HERO — Tono B2B · KW "inflables para eventos" en H1
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="hero ev-hero">
+    <div class="container">
+      <div class="hero__grid">
+
+        <!-- Columna izquierda -->
+        <div>
+          <span class="hero__badge">Eventos Profesionales en CDMX y Edomex</span>
+          <h1 class="hero__title">
+            <span class="highlight">Inflables para Eventos</span> Corporativos, Kermeses y Celebraciones Masivas
+          </h1>
+          <p class="hero__desc">
+            Coordinamos la renta de múltiples inflables simultáneos para kermeses escolares, team building corporativo, ferias comunitarias y activaciones de marca. Logística completa, seguro incluido y facturación disponible en toda la Zona Metropolitana de CDMX.
+          </p>
+          <div class="hero__ctas">
+            <a href="/contacto/" class="btn btn-primary btn-lg">Cotizar mi evento</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver catálogo de inflables</a>
+          </div>
+
+          <!-- Trust signals B2B -->
+          <div class="ev-trust">
+            <div class="ev-trust__item">
+              <strong>+20 años</strong>
+              <span>experiencia en eventos</span>
+            </div>
+            <div class="ev-trust__sep"></div>
+            <div class="ev-trust__item">
+              <strong>+500</strong>
+              <span>eventos por año</span>
+            </div>
+            <div class="ev-trust__sep"></div>
+            <div class="ev-trust__item">
+              <strong>Hasta 8+</strong>
+              <span>inflables simultáneos</span>
+            </div>
+            <div class="ev-trust__sep"></div>
+            <div class="ev-trust__item">
+              <strong>Factura</strong>
+              <span>fiscal disponible</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Columna derecha -->
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Más allá de los cumpleaños infantiles, <strong>BRINCOLINS</strong> es el proveedor de confianza para organizadores de eventos profesionales en la <strong>Ciudad de México y Estado de México</strong>. Con más de dos décadas de experiencia y la capacidad logística para desplegar múltiples equipos simultáneamente, garantizamos la puntualidad, seguridad y coordinación que los <strong>eventos corporativos, kermeses escolares y ferias masivas</strong> exigen.
+          </p>
+          <p class="hero__copy-text">
+            Nuestros paquetes para eventos incluyen coordinador logístico en sitio, seguro de responsabilidad civil por cada inflable y atención directa por WhatsApp el día del evento. Contamos con el <strong>Circuito Extremo de 12 metros</strong> — el inflable de mayor impacto para adultos y teens — y con más de 8 modelos adicionales para cubrir simultáneamente niños de todas las edades. Solicita tu cotización sin compromiso.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       TIPOS DE EVENTO — 4 casos de uso con detalle
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="Casos de Uso"
+        title="Inflables para Todo Tipo de Evento"
+        subtitle="Del aula al auditorio corporativo — tenemos la solución logística para cada escala."
+        copy1="Cada tipo de evento tiene requerimientos distintos: número de participantes, edades, espacio disponible, duración y presupuesto. En BRINCOLINS adaptamos el paquete de inflables a las necesidades específicas de tu evento, no al revés."
+        copy2="Trabajamos con organizadores de eventos, coordinadores de RRHH, directores de escuelas, wedding planners y mamás que quieren hacer algo diferente. Todos reciben el mismo nivel de atención y servicio profesional que nos distingue desde hace más de 20 años en CDMX."
+      />
+
+      <div class="ev-casos">
+
+        <div class="ev-caso">
+          <div class="ev-caso__header">
+            <div class="ev-caso__icon ev-caso__icon--red">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+              </svg>
+            </div>
+            <div>
+              <h2 class="ev-caso__title">Kermeses Escolares</h2>
+              <p class="ev-caso__tag">Escuelas primarias, secundarias y preparatorias</p>
+            </div>
+          </div>
+          <p class="ev-caso__desc">Coordinamos de 2 a 8 inflables simultáneos para que todos los grupos participen al mismo tiempo sin hacer largas filas. Ofrecemos precios especiales por paquete e incluimos coordinador logístico en eventos de 3 o más inflables. Llevamos y retiramos todo sin interrumpir las demás actividades de la escuela.</p>
+          <ul class="ev-caso__list">
+            <li>Múltiples inflables funcionando en paralelo</li>
+            <li>Rotación sugerida de grupos por inflable</li>
+            <li>Precios especiales para instituciones educativas</li>
+            <li>Coordinador logístico incluido desde 3 inflables</li>
+          </ul>
+          <a href="/contacto/" class="ev-caso__cta">Cotizar kermesse escolar →</a>
+        </div>
+
+        <div class="ev-caso">
+          <div class="ev-caso__header">
+            <div class="ev-caso__icon ev-caso__icon--blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+              </svg>
+            </div>
+            <div>
+              <h2 class="ev-caso__title">Team Building Corporativo</h2>
+              <p class="ev-caso__tag">Family days, convenciones y dinámicas de empresa</p>
+            </div>
+          </div>
+          <p class="ev-caso__desc">El Circuito Extremo de 12 metros con doble carril es la pieza central ideal para dinámicas de competencia entre equipos de trabajo. Adecuado para adultos, genera momentos de diversión genuina y competencia sana. Complementa con inflables adicionales para que todos los empleados, incluyendo quienes lleven a sus hijos, participen activamente.</p>
+          <ul class="ev-caso__list">
+            <li>Circuito Extremo doble carril para adultos</li>
+            <li>Competencias por equipos con cronometraje</li>
+            <li>Combinación de inflables para distintas edades</li>
+            <li>Factura fiscal para deducción de gastos</li>
+          </ul>
+          <a href="/contacto/" class="ev-caso__cta">Cotizar team building →</a>
+        </div>
+
+        <div class="ev-caso">
+          <div class="ev-caso__header">
+            <div class="ev-caso__icon ev-caso__icon--amber">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z" />
+              </svg>
+            </div>
+            <div>
+              <h2 class="ev-caso__title">Ferias y Activaciones de Marca</h2>
+              <p class="ev-caso__tag">Plazas, parques y espacios abiertos</p>
+            </div>
+          </div>
+          <p class="ev-caso__desc">Para eventos masivos en espacios abiertos, plazas comerciales o parques, contamos con la flota y la experiencia para montar múltiples inflables de forma coordinada. Los inflables grandes como el Barco Pirata de 7 metros y el Circuito Extremo de 12 metros generan alto impacto visual y atraen naturalmente a las familias hacia el área de activación.</p>
+          <ul class="ev-caso__list">
+            <li>Inflables de alto impacto visual para espacios abiertos</li>
+            <li>Capacidad para 200 a 500+ asistentes</li>
+            <li>Montaje coordinado de múltiples equipos en paralelo</li>
+            <li>Logística de traslado y montaje bajo supervisión</li>
+          </ul>
+          <a href="/contacto/" class="ev-caso__cta">Cotizar feria o activación →</a>
+        </div>
+
+        <div class="ev-caso">
+          <div class="ev-caso__header">
+            <div class="ev-caso__icon ev-caso__icon--green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+            </div>
+            <div>
+              <h2 class="ev-caso__title">Reuniones Familiares y Garden Parties</h2>
+              <p class="ev-caso__tag">Jardines privados y eventos multigeneracionales</p>
+            </div>
+          </div>
+          <p class="ev-caso__desc">Cuando la reunión incluye varias generaciones — abuelos, adultos, adolescentes y niños pequeños al mismo tiempo — la combinación correcta de inflables crea zonas de entretenimiento para cada grupo. El Mini Castillo para los más pequeños, el Barco Pirata para los medianos y el Circuito Extremo para los mayores: todos funcionando simultáneamente en tu jardín.</p>
+          <ul class="ev-caso__list">
+            <li>Combinación de inflables por grupo etario</li>
+            <li>Inflables que se adaptan a jardines y espacios privados</li>
+            <li>Posibilidad de combinar con mobiliario para fiestas</li>
+            <li>Ideal para bodas, XV años y eventos de jardín</li>
+          </ul>
+          <a href="/servicios/paquetes-de-fiesta/" class="ev-caso__cta">Ver paquetes completos →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- GALERÍA — Inflables recomendados para eventos -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="Catálogo para Eventos"
+        title="Inflables Más Usados en Eventos Profesionales"
+        subtitle="Desde el Circuito Extremo de 12 metros hasta el Barco Pirata de 7 metros — equipos de alto impacto para cualquier escala."
+        copy1="Nuestro catálogo incluye inflables de diferentes tamaños y capacidades para cubrir simultáneamente a distintos grupos de edad en el mismo evento. El Circuito Extremo es el inflable de mayor impacto para teens y adultos, mientras que el Barco Pirata con capacidad de 10-15 participantes simultáneos es ideal para grupos escolares."
+        copy2="Todos los inflables para eventos pasan por el mismo protocolo de limpieza, revisión de estructuras y verificación de motores antes de cada salida. Al confirmar tu paquete, te enviamos fotografías del estado de los equipos y acordamos el horario de montaje con al menos 48 horas de anticipación."
+      />
+      <Gallery4x4 images={galleryImages} />
+      <div class="text-center mt-3">
+        <a href="/inflables/" class="btn btn-secondary">Ver catálogo completo de inflables</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- PAQUETES DE PRECIOS PARA EVENTOS -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="Paquetes"
+        title="Paquetes de Inflables para Eventos"
+        subtitle="Precios diseñados para eventos que necesitan más de un inflable simultáneo."
+        copy1="A diferencia de una fiesta de cumpleaños donde se renta un solo inflable, los eventos corporativos y kermeses escolares necesitan varios equipos funcionando al mismo tiempo. Por eso diseñamos paquetes específicos para eventos que incluyen coordinación logística, múltiples inflables y seguro de responsabilidad civil por cada equipo."
+        copy2="Todos los paquetes incluyen entrega, instalación, operación y recolección. Para eventos con necesidades muy específicas o más de 5 inflables, solicitamos una llamada o visita previa para verificar el espacio y diseñar el layout óptimo de los equipos."
+      />
+      <PricingCards packages={paquetes} />
+
+      <!-- Nota de cotización personalizada -->
+      <div class="ev-cotiz-nota">
+        <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a.75.75 0 000 1.5h.253a.25.25 0 01.244.304l-.459 2.066A1.75 1.75 0 0010.747 15H11a.75.75 0 000-1.5h-.253a.25.25 0 01-.244-.304l.459-2.066A1.75 1.75 0 009.253 9H9z" clip-rule="evenodd"/></svg>
+        <p><strong>¿Tu evento no encaja en ningún paquete?</strong> Cotizamos eventos a medida: número exacto de inflables, modelos específicos, horarios especiales y requerimientos de espacio. Escríbenos por WhatsApp con los detalles y te enviamos propuesta en menos de 24 horas.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- DIFERENCIADORES B2B — Por qué BRINCOLINS para eventos -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="Ventajas Competitivas"
+        title="¿Por Qué Elegir BRINCOLINS para tu Evento?"
+        subtitle="La diferencia entre rentar un inflable y contar con un proveedor de eventos profesional."
+        copy1="Cuando el evento es para 50, 200 o 500 personas, no puedes darte el lujo de que algo falle. En BRINCOLINS garantizamos la logística completa: llegamos con tiempo, tenemos equipo de respaldo disponible y mantenemos comunicación directa contigo durante todo el evento."
+        copy2="Somos el proveedor de confianza de organizadores de eventos, coordinadores de RRHH y directivos escolares en CDMX y Zona Metropolitana. Nuestra experiencia de más de 20 años atendiendo desde kermeses de 80 niños hasta ferias con 500 asistentes nos da la capacidad de anticipar problemas antes de que ocurran."
+      />
+
+      <div class="ev-diffs-grid">
+
+        <div class="ev-diff-card">
+          <div class="ev-diff-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" /></svg>
+          </div>
+          <h3 class="ev-diff-card__title">Capacidad multi-inflable</h3>
+          <p class="ev-diff-card__desc">Flota suficiente para desplegar hasta 8 inflables simultáneos en el mismo evento, con montaje coordinado y tiempos de instalación mínimos.</p>
+        </div>
+
+        <div class="ev-diff-card">
+          <div class="ev-diff-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" /></svg>
+          </div>
+          <h3 class="ev-diff-card__title">Coordinador logístico en sitio</h3>
+          <p class="ev-diff-card__desc">Para eventos con 3 o más inflables, incluimos un coordinador de BRINCOLINS presente durante el montaje y el evento para garantizar operación sin contratiempos.</p>
+        </div>
+
+        <div class="ev-diff-card">
+          <div class="ev-diff-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" /></svg>
+          </div>
+          <h3 class="ev-diff-card__title">Facturación fiscal disponible</h3>
+          <p class="ev-diff-card__desc">Emitimos factura fiscal para empresas, instituciones educativas y organismos que requieran comprobante de gasto deducible. Indica tu RFC al cotizar.</p>
+        </div>
+
+        <div class="ev-diff-card">
+          <div class="ev-diff-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" /></svg>
+          </div>
+          <h3 class="ev-diff-card__title">Seguro RC por cada inflable</h3>
+          <p class="ev-diff-card__desc">Cada inflable cuenta con póliza de seguro de responsabilidad civil individual, independientemente del número de equipos en operación simultánea. Tu evento siempre protegido.</p>
+        </div>
+
+        <div class="ev-diff-card">
+          <div class="ev-diff-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          </div>
+          <h3 class="ev-diff-card__title">Puntualidad garantizada</h3>
+          <p class="ev-diff-card__desc">Llegamos mínimo 90 minutos antes del inicio del evento para tener todos los inflables instalados, revisados y listos cuando lleguen los asistentes. Sin improvisaciones.</p>
+        </div>
+
+        <div class="ev-diff-card">
+          <div class="ev-diff-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" /></svg>
+          </div>
+          <h3 class="ev-diff-card__title">Atención WhatsApp el día del evento</h3>
+          <p class="ev-diff-card__desc">Disponemos de una línea directa de atención para organizadores activa el día del evento. Cualquier imprevisto se resuelve en minutos con comunicación directa con nuestro equipo.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- PROCESO DE COTIZACIÓN B2B -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="Proceso de Cotización"
+        title="¿Cómo Cotizar Inflables para tu Evento?"
+        subtitle="Un proceso ágil diseñado para organizadores profesionales que necesitan respuesta rápida."
+        copy1="Sabemos que los organizadores de eventos trabajan con tiempos ajustados y necesitan proveedores que respondan rápido y cumplan lo que prometen. Por eso simplificamos nuestro proceso de cotización para eventos al mínimo indispensable."
+        copy2="Desde que nos contactas hasta que tienes tu propuesta formal, el proceso toma menos de 24 horas en la mayoría de los casos. Para eventos complejos con más de 5 inflables o requerimientos de espacio especiales, podemos agendar una visita previa sin costo."
+      />
+
+      <div class="ev-proceso">
+
+        <div class="ev-paso">
+          <div class="ev-paso__num">01</div>
+          <div class="ev-paso__body">
+            <h3 class="ev-paso__title">Envíanos los detalles del evento</h3>
+            <p class="ev-paso__desc">Por WhatsApp o formulario: fecha, horario, tipo de evento, número estimado de asistentes, edades predominantes y dirección o zona del evento. Mientras más información, más precisa será tu cotización.</p>
+          </div>
+        </div>
+
+        <div class="ev-paso">
+          <div class="ev-paso__num">02</div>
+          <div class="ev-paso__body">
+            <h3 class="ev-paso__title">Recibe propuesta en menos de 24 hrs</h3>
+            <p class="ev-paso__desc">Te enviamos una propuesta detallada con los inflables recomendados para tu evento, el layout sugerido, desglose de costos por paquete y condiciones de servicio. Sin letra chica.</p>
+          </div>
+        </div>
+
+        <div class="ev-paso">
+          <div class="ev-paso__num">03</div>
+          <div class="ev-paso__body">
+            <h3 class="ev-paso__title">Confirma y aparta con anticipo</h3>
+            <p class="ev-paso__desc">Una vez aceptada la propuesta, reservas la fecha con un anticipo del 50%. Aceptamos transferencia bancaria, efectivo y tarjeta. Para eventos corporativos, emitimos factura en ese momento.</p>
+          </div>
+        </div>
+
+        <div class="ev-paso">
+          <div class="ev-paso__num">04</div>
+          <div class="ev-paso__body">
+            <h3 class="ev-paso__title">Tu evento, sin preocupaciones</h3>
+            <p class="ev-paso__desc">El día del evento llegamos con tiempo, montamos todo antes del inicio, operamos durante el evento y recogemos al finalizar. Tú te concentras en lo que importa: que el evento salga perfecto.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-3">
+        <a href="/contacto/" class="btn btn-primary btn-lg">Iniciar cotización de evento</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FAQ ESPECÍFICO PARA EVENTOS -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="Preguntas Frecuentes"
+        title="Dudas sobre Inflables para Eventos"
+        subtitle="Las preguntas más frecuentes de organizadores, coordinadores de RRHH y directivos escolares."
+        copy1="Reunimos las preguntas más comunes que recibimos de organizadores de eventos profesionales para que tengas toda la información antes de contactarnos. Si algo no quedó claro, escríbenos directamente."
+        copy2=""
+      />
+      <div style="max-width: 800px; margin: 0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CTA FINAL -->
+  <CtaBanner
+    title="¿Listo para hacer de tu evento algo memorable?"
+    subtitle="Cotiza tu paquete de inflables hoy. Respondemos en menos de 24 horas con propuesta detallada."
+    btnText="Cotizar mi evento"
+    btnHref="/contacto/"
+    btnSecondaryText="Ver catálogo de inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+  />
+
+</PageLayout>
+
+
+<style>
+  /* ─── Hero Eventos ───────────────────────────────────────── */
+  .ev-hero {
+    padding: clamp(2rem, 4vw, 3rem) 0;
+  }
+  .ev-trust {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .5rem 1.25rem;
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid rgba(255,255,255,.2);
+  }
+  .ev-trust__item {
+    display: flex;
+    flex-direction: column;
+    gap: .1rem;
+  }
+  .ev-trust__item strong {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1;
+  }
+  .ev-trust__item span {
+    font-size: .72rem;
+    color: rgba(255,255,255,.75);
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    white-space: nowrap;
+  }
+  .ev-trust__sep {
+    width: 1px;
+    height: 2rem;
+    background: rgba(255,255,255,.25);
+  }
+
+  /* ─── Casos de Uso ───────────────────────────────────────── */
+  .ev-casos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  @media (max-width: 768px) {
+    .ev-casos { grid-template-columns: 1fr; }
+  }
+  .ev-caso {
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 1rem;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: .85rem;
+    transition: box-shadow .2s ease;
+  }
+  .ev-caso:hover {
+    box-shadow: 0 6px 28px rgba(0,0,0,.09);
+  }
+  .ev-caso__header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .ev-caso__icon {
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: .75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .ev-caso__icon svg { width: 1.35rem; height: 1.35rem; }
+  .ev-caso__icon--red    { background: #FEF2F2; color: #DC2626; }
+  .ev-caso__icon--blue   { background: #EFF6FF; color: #2563EB; }
+  .ev-caso__icon--amber  { background: #FFFBEB; color: #D97706; }
+  .ev-caso__icon--green  { background: #F0FDF4; color: #16A34A; }
+  .ev-caso__title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1A1A2E;
+    margin: 0;
+  }
+  .ev-caso__tag {
+    font-size: .78rem;
+    color: #6B7280;
+    margin: .15rem 0 0;
+  }
+  .ev-caso__desc {
+    font-size: .9rem;
+    color: #4B5563;
+    line-height: 1.65;
+    margin: 0;
+  }
+  .ev-caso__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    font-size: .83rem;
+    color: #6B7280;
+  }
+  .ev-caso__list li::before {
+    content: "✓ ";
+    color: #16A34A;
+    font-weight: 700;
+  }
+  .ev-caso__cta {
+    font-size: .88rem;
+    font-weight: 700;
+    color: var(--c-primary, #FF3D00);
+    text-decoration: none;
+    margin-top: auto;
+    padding-top: .5rem;
+  }
+  .ev-caso__cta:hover { text-decoration: underline; }
+
+  /* ─── Nota de cotización ─────────────────────────────────── */
+  .ev-cotiz-nota {
+    display: flex;
+    align-items: flex-start;
+    gap: .75rem;
+    background: #F0FDF4;
+    border: 1px solid #BBF7D0;
+    border-radius: .75rem;
+    padding: 1.25rem 1.5rem;
+    margin-top: 2rem;
+  }
+  .ev-cotiz-nota svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #16A34A;
+    flex-shrink: 0;
+    margin-top: .15rem;
+  }
+  .ev-cotiz-nota p {
+    font-size: .9rem;
+    color: #374151;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* ─── Diferenciadores B2B Grid ───────────────────────────── */
+  .ev-diffs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-top: 2rem;
+  }
+  @media (max-width: 900px) {
+    .ev-diffs-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 580px) {
+    .ev-diffs-grid { grid-template-columns: 1fr; }
+  }
+  .ev-diff-card {
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: .875rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+  }
+  .ev-diff-card__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #FEF2F2;
+    border-radius: .65rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--c-primary, #FF3D00);
+  }
+  .ev-diff-card__icon svg { width: 1.25rem; height: 1.25rem; }
+  .ev-diff-card__title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1A1A2E;
+    margin: 0;
+  }
+  .ev-diff-card__desc {
+    font-size: .875rem;
+    color: #4B5563;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* ─── Proceso B2B ────────────────────────────────────────── */
+  .ev-proceso {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    max-width: 780px;
+    margin: 2rem auto 0;
+    position: relative;
+  }
+  .ev-proceso::before {
+    content: "";
+    position: absolute;
+    left: 1.375rem;
+    top: 2.75rem;
+    bottom: 2rem;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--c-primary, #FF3D00), #E5E7EB);
+  }
+  .ev-paso {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0 0 2rem;
+    position: relative;
+  }
+  .ev-paso__num {
+    width: 2.75rem;
+    height: 2.75rem;
+    min-width: 2.75rem;
+    background: var(--c-primary, #FF3D00);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: .85rem;
+    letter-spacing: .05em;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 0 4px #fff;
+  }
+  .ev-paso__body {
+    padding-top: .35rem;
+    flex: 1;
+  }
+  .ev-paso__title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #1A1A2E;
+    margin: 0 0 .4rem;
+  }
+  .ev-paso__desc {
+    font-size: .9rem;
+    color: #4B5563;
+    line-height: 1.65;
+    margin: 0;
+  }
+</style>

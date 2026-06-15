@@ -6,8 +6,8 @@ export interface Props {
 }
 
 const {
-  phone = "55 1111 1111",
-  whatsapp = "5547868402",
+  phone = "55 3128 1706",
+  whatsapp = "5531281706",
   email = "info@brincolins.com",
 } = Astro.props;
 
@@ -29,11 +29,11 @@ const waHref = `https://wa.me/${whatsapp}?text=${encodeURIComponent("Hola BRINCO
         </div>
         <div class="footer__contact-item">
           
-          <a href={waHref} target="_blank" rel="noopener noreferrer">WhatsApp: {phone}</a>
+          <a href={waHref} target="_blank" rel="nofollow noopener noreferrer">WhatsApp: {phone}</a>
         </div>
         <div class="footer__contact-item">
           <span>Email:</span>
-          <a href={`mailto:${email}`}>{email}</a>
+          <a href={`mailto:${email}`} data-noptimize="1"><Fragment set:html={`<!--email_off-->${email}<!--/email_off-->`} /></a>
         </div>
       </div>
 

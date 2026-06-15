@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://brincolins.com/sitemap-index.xml
+
+# Bloquear rutas innecesarias
+Disallow: /cdn-cgi/

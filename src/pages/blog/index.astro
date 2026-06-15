@@ -5,7 +5,7 @@ import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner     from "@/components/CtaBanner.astro";
 import BlogCard      from "@/components/BlogCard.astro";
 
-const title       = "Blog de Inflables y Fiestas Infantiles | BRINCOLINS";
+const title       = "Blog de Inflables y Fiestas Infantiles — CDMX y Edomex";
 const description = "Consejos, guías e ideas para organizar la mejor fiesta infantil en CDMX y Estado de México. Tips de renta de inflables, seguridad, decoración y más.";
 
 const articulos = [
@@ -444,7 +444,7 @@ const [featured, ...resto] = articulos;
         copy2="También publicamos ideas de decoración, consejos de seguridad y listas de verificación para que la organización de tu fiesta sea sin estrés. Nuevo contenido cada mes."
       />
       <div class="blog-grid">
-        {resto.map(a => <BlogCard {...a} />)}
+        {resto.slice(0, 12).map(a => <BlogCard {...a} />)}
       </div>
     </div>
   </section>
