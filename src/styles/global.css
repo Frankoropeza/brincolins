@@ -26,6 +26,8 @@
   --shadow-primary: 0 8px 25px rgba(255, 61, 0, 0.15);
   --shadow-wa: 0 4px 20px rgba(37, 211, 102, 0.4);
   --container: 100%;
+  --container-max: 1400px;
+  --container-px: clamp(1.5rem, 5vw, 5rem);
   --section-py: clamp(3rem, 5vw, 4rem);
 
   /* Colores por categoría */
@@ -74,9 +76,9 @@ h1, h2, h3, h4, h5, h6 {
 /* ── Container ── */
 .container {
   width: 100%;
-  max-width: 100%;
+  max-width: var(--container-max);
   margin: 0 auto;
-  padding: 0 clamp(1.25rem, 4vw, 4rem);
+  padding: 0 var(--container-px);
 }
 
 /* ── Skip link ── */
@@ -1581,9 +1583,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
 }
 
-.dir-zone-card:hover {
-  box-shadow: var(--shadow-lg);
-}
+
 
 .dir-zone-card__header {
   padding: 2rem 1.5rem;
@@ -1688,9 +1688,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: var(--shadow-sm);
 }
 
-.cat-card:hover {
-  box-shadow: var(--shadow-md);
-}
+
 
 .cat-card__img-wrap {
   position: relative;
@@ -2133,8 +2131,9 @@ h1, h2, h3, h4, h5, h6 {
   gap: 2.5rem;
   align-items: start;
   width: 100%;
+  max-width: var(--container-max);
   margin: 0 auto;
-  padding: 0 clamp(1.25rem, 4vw, 4rem);
+  padding: 0 var(--container-px);
 }
 .page-with-sidebar__main { min-width: 0; }
 
@@ -2501,9 +2500,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
 }
 
-.why-sc:hover {
-  box-shadow: var(--shadow-md);
-}
+
 
 .why-sc__img-wrap {
   aspect-ratio: 16 / 9;

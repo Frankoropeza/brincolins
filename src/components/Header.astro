@@ -246,7 +246,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   width: 100%;
   background: #fff;
   border-bottom: 3px solid #FF3D00;
-  transition: box-shadow 0.25s ease, padding 0.25s ease;
 }
 
 .hdr--scrolled {
@@ -260,7 +259,9 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   justify-content: space-between;
   gap: 1.5rem;
   width: 100%;
-  padding: 8px clamp(1rem, 3vw, 2.5rem);
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 8px var(--container-px);
 }
 
 /* ══════════════════════════════════════════
@@ -320,14 +321,12 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   text-decoration: none;
   white-space: nowrap;
   letter-spacing: 0.01em;
-  transition: color 0.18s var(--hdr-ease-out), background 0.18s var(--hdr-ease-out), transform 0.2s var(--hdr-ease);
   position: relative;
 }
 
 .hdr__link:hover {
   color: var(--hdr-primary);
   background: rgba(255, 61, 0, 0.08);
-  transform: translateY(-2px);
 }
 
 .hdr__link--active {
@@ -353,7 +352,7 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   position: absolute;
   top: calc(100% + 4px);
   left: 50%;
-  transform: translateX(-50%) translateY(-8px) scale(0.96);
+  transform: translateX(-50%);
   min-width: 210px;
   background: #fff;
   border-radius: 20px;
@@ -362,7 +361,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   padding: 0.5rem;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.2s var(--hdr-ease-out), transform 0.2s var(--hdr-ease-out), visibility 0.2s;
   pointer-events: none;
   z-index: 9999;
   overflow: hidden;
@@ -382,7 +380,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
 .hdr__item--sub:focus-within .hdr__dropdown {
   opacity: 1;
   visibility: visible;
-  transform: translateX(-50%) translateY(0) scale(1);
   pointer-events: auto;
 }
 
@@ -405,7 +402,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   font-weight: 600;
   color: var(--hdr-text);
   text-decoration: none;
-  transition: background 0.15s var(--hdr-ease-out), color 0.15s, transform 0.2s var(--hdr-ease);
   white-space: nowrap;
 }
 
@@ -413,7 +409,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
 .hdr__drop-link--active {
   background: rgba(255, 61, 0, 0.07);
   color: var(--hdr-primary);
-  transform: translateX(4px);
 }
 
 .hdr__drop-dot {
@@ -422,13 +417,11 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   border-radius: 50%;
   background: #ffd0c4;
   flex-shrink: 0;
-  transition: background 0.15s, transform 0.2s var(--hdr-ease);
 }
 
 .hdr__drop-link:hover .hdr__drop-dot,
 .hdr__drop-link--active .hdr__drop-dot {
   background: var(--hdr-primary);
-  transform: scale(1.4);
 }
 
 /* ══════════════════════════════════════════
@@ -455,13 +448,12 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   border: 2px solid rgba(37, 211, 102, 0.3);
   text-decoration: none;
   white-space: nowrap;
-  transition: background 0.18s, border-color 0.18s, transform 0.2s var(--hdr-ease);
+  transition: background 0.18s, border-color 0.18s;
 }
 
 .hdr__wa-btn:hover {
   background: #d0fae9;
   border-color: rgba(37, 211, 102, 0.55);
-  transform: translateY(-3px);
 }
 
 /* CTA principal */
@@ -477,17 +469,15 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   text-decoration: none;
   white-space: nowrap;
   box-shadow: 0 4px 0 #c42e00, 0 6px 16px rgba(255,61,0,0.28);
-  transition: transform 0.2s var(--hdr-ease), box-shadow 0.2s;
+  transition: box-shadow 0.15s;
   letter-spacing: 0.02em;
 }
 
 .hdr__cta:hover {
-  transform: translateY(-3px);
   box-shadow: 0 6px 0 #c42e00, 0 10px 24px rgba(255,61,0,0.35);
 }
 
 .hdr__cta:active {
-  transform: translateY(1px);
   box-shadow: 0 2px 0 #c42e00, 0 4px 10px rgba(255,61,0,0.25);
 }
 
@@ -503,7 +493,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   border: 1.5px solid var(--hdr-border);
   background: #fff;
   border-radius: 10px;
-  transition: border-color 0.2s, background 0.2s;
   position: relative;
 }
 
@@ -515,7 +504,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   height: 2px;
   background: var(--hdr-text);
   border-radius: 2px;
-  transition: all 0.25s var(--hdr-ease);
   position: absolute;
 }
 
@@ -543,7 +531,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   backdrop-filter: blur(2px);
   z-index: 9100;
   opacity: 0;
-  transition: opacity 0.3s var(--hdr-ease);
 }
 
 .hdr__overlay--visible {
@@ -563,7 +550,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   background: #fff;
   z-index: 9200;
   transform: translateX(100%);
-  transition: transform 0.35s var(--hdr-ease);
   display: none;
   flex-direction: column;
   overflow-y: auto;
@@ -610,7 +596,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   background: transparent;
   color: var(--hdr-text-muted);
   cursor: pointer;
-  transition: background 0.15s, color 0.15s, border-color 0.15s;
   flex-shrink: 0;
 }
 
@@ -651,7 +636,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   border: none;
   font-family: inherit;
   cursor: pointer;
-  transition: color 0.15s, background 0.15s;
   text-align: left;
 }
 
@@ -667,7 +651,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
 }
 
 .hdr__panel-chev {
-  transition: transform 0.25s var(--hdr-ease);
   opacity: 0.4;
   flex-shrink: 0;
 }
@@ -682,7 +665,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
 .hdr__panel-sub {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s var(--hdr-ease);
   background: #fafafa;
   border-top: 1px solid rgba(0,0,0,0.04);
   list-style: none;
@@ -704,7 +686,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   font-weight: 500;
   color: var(--hdr-text-muted);
   text-decoration: none;
-  transition: color 0.14s, background 0.14s;
 }
 
 .hdr__panel-sublink:hover,
@@ -719,7 +700,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   border-radius: 50%;
   background: #d1d5db;
   flex-shrink: 0;
-  transition: background 0.14s;
 }
 
 .hdr__panel-sublink:hover .hdr__panel-subdot,
@@ -750,12 +730,11 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   background: linear-gradient(135deg, #FF3D00 0%, #FF6B00 100%);
   text-decoration: none;
   box-shadow: 0 4px 14px rgba(255,61,0,0.3);
-  transition: transform 0.18s var(--hdr-ease), box-shadow 0.18s;
+  transition: box-shadow 0.15s;
   letter-spacing: 0.01em;
 }
 
 .hdr__panel-cta:hover {
-  transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(255,61,0,0.38);
 }
 
@@ -790,7 +769,6 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   color: var(--hdr-text);
   text-decoration: none;
   opacity: 0.75;
-  transition: opacity 0.15s;
 }
 
 .hdr__panel-phone:hover { opacity: 1; }

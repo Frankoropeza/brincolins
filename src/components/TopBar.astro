@@ -135,9 +135,9 @@ const variantClass = `topbar--${style}`;
 
   /* ── Inner layout ── */
   .topbar__inner {
-    max-width: 100%;
+    max-width: var(--container-max);
     margin: 0 auto;
-    padding: 0.5rem clamp(1.25rem, 4vw, 4rem);
+    padding: 0.5rem var(--container-px);
     display: flex;
     align-items: center;
     justify-content: space-between;
