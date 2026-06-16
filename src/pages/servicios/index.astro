@@ -8,11 +8,11 @@ const title = "Inflables para Fiestas y Eventos | Servicios de Renta de Inflable
 const description = "Servicios de renta de inflables para fiestas infantiles, eventos corporativos y celebraciones en CDMX. Instalación profesional, seguro incluido y atención personalizada.";
 
 const servicios = [
-  { emoji: "", name: "Renta de Inflables", desc: "Nuestro servicio principal: brincolines, toboganes, castillos y circuitos de obstáculos con entrega, instalación y seguro incluidos.", href: "/servicios/renta-de-inflables/", gradient: "#FF3D00, #FF6D00" },
-  { emoji: "", name: "Inflables para Eventos", desc: "Paquetes multi-inflable para kermeses escolares, team building corporativo, ferias y activaciones de marca. Coordinación logística y facturación incluidas.", href: "/servicios/inflables-para-eventos/", gradient: "#1A56DB, #1E40AF" },
-  { emoji: "", name: "Mobiliario para Fiestas", desc: "Mesas, sillas, manteles y toldos para complementar tu evento. Combina con inflables y ahorra.", href: "/servicios/mobiliario-para-fiestas/", gradient: "#1A1A2E, #2a2a40" },
-  { emoji: "", name: "Iluminación para Eventos", desc: "Luces LED, proyectores, series de luces y ambientación profesional para eventos nocturnos.", href: "/servicios/iluminacion-eventos/", gradient: "#1565C0, #0288D1" },
-  { emoji: "", name: "Paquetes de Fiesta", desc: "Combos todo incluido: inflable + mobiliario + iluminación. Ahorra hasta 25% vs renta individual.", href: "/servicios/paquetes-de-fiesta/", gradient: "#00C853, #2E7D32" },
+  { emoji: "", name: "Renta de Inflables", desc: "Nuestro servicio principal: brincolines, toboganes, castillos y circuitos de obstáculos con entrega, instalación y seguro incluidos.", href: "/servicios/renta-de-inflables/", gradient: "#FF3D00, #FF6D00", cta: "Ver Renta de Inflables →" },
+  { emoji: "", name: "Inflables para Eventos", desc: "Paquetes multi-inflable para kermeses escolares, team building corporativo, ferias y activaciones de marca. Coordinación logística y facturación incluidas.", href: "/servicios/inflables-para-eventos/", gradient: "#1A56DB, #1E40AF", cta: "Ver Inflables para Eventos →" },
+  { emoji: "", name: "Mobiliario para Fiestas", desc: "Mesas, sillas, manteles y toldos para complementar tu evento. Combina con inflables y ahorra.", href: "/servicios/mobiliario-para-fiestas/", gradient: "#1A1A2E, #2a2a40", cta: "Ver Mobiliario para Fiestas →" },
+  { emoji: "", name: "Iluminación para Eventos", desc: "Luces LED, proyectores, series de luces y ambientación profesional para eventos nocturnos.", href: "/servicios/iluminacion-eventos/", gradient: "#1565C0, #0288D1", cta: "Ver Iluminación para Eventos →" },
+  { emoji: "", name: "Paquetes de Fiesta", desc: "Combos todo incluido: inflable + mobiliario + iluminación. Ahorra hasta 25% vs renta individual.", href: "/servicios/paquetes-de-fiesta/", gradient: "#00C853, #2E7D32", cta: "Ver Paquetes de Fiesta →" },
 ];
 ---
 
@@ -34,16 +34,16 @@ const servicios = [
       <div class="hero__grid">
         <div>
           <span class="hero__badge">Servicios completos</span>
-          <h1 class="hero__title">Servicios para tu <span class="highlight">Fiesta Perfecta</span></h1>
+          <h1 class="hero__title">Renta de Inflables y Servicios para tu <span class="highlight">Fiesta Perfecta</span> en CDMX</h1>
           <p class="hero__desc">
             No solo rentamos inflables — ofrecemos todo lo que necesitas para que tu evento sea inolvidable. Mobiliario, iluminación y paquetes completos.
           </p>
           <div class="hero__ctas">
             <a href="/contacto/"
                class="btn btn-primary btn-lg">
-              Solicitar cotización
+              Cotizar Renta de Inflables
             </a>
-            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver Catálogo de Inflables</a>
           </div>
         </div>
         <div class="hero__copy">
@@ -58,7 +58,7 @@ const servicios = [
     <div class="container">
       <SectionHeader
         badge="Nuestros servicios"
-        title="Todo para tu evento"
+        title="Renta de Inflables y Servicios Complementarios en CDMX"
         subtitle="Servicios profesionales con la confianza de más de 20 años."
         copy1="Cada servicio incluye entrega, montaje y recolección en toda la Zona Metropolitana del Valle de México. Trabajamos con equipo profesional y personal capacitado para garantizar que tu evento sea impecable."
         copy2="Combina servicios y obtén descuentos especiales. Nuestros paquetes están diseñados para ofrecerte la mejor relación calidad-precio con la comodidad de un solo proveedor."
@@ -71,7 +71,7 @@ const servicios = [
             </div>
             <h3 class="cat-card-home__name">{s.name}</h3>
             <p class="cat-card-home__desc">{s.desc}</p>
-            <span class="cat-card-home__link">Ver detalles</span>
+            <span class="cat-card-home__link">{s.cta}</span>
           </a>
         ))}
       </div>
@@ -81,7 +81,7 @@ const servicios = [
   <CtaBanner
     title="¿Necesitas varios servicios? Pregunta por nuestros paquetes"
     subtitle="Combina inflable + mobiliario + iluminación y ahorra hasta 25%. Cotiza sin compromiso."
-    btnText="Solicitar cotización"
+    btnText="Cotizar Renta de Inflables"
     btnHref="/contacto/"
     btnSecondaryText="Ver paquetes"
     btnSecondaryHref="/servicios/paquetes-de-fiesta/"
