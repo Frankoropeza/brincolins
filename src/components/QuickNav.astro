@@ -1,7 +1,17 @@
 ---
+/**
+ * QuickNav — BRINCOLINS
+ * ────────────────────────────────────────────────
+ * Barra de navegación rápida bajo el hero. Auto-contextual:
+ * muestra enlaces distintos según la sección del sitio.
+ * Se puede sobreescribir pasando `links`.
+ */
+interface Link { label: string; href: string; color: string; }
+interface Props { links?: Link[]; }
+
 const current = Astro.url.pathname;
 
-const links = [
+const MAIN: Link[] = [
   { label: "Inflables",  href: "/inflables/",  color: "#FF1F8E" },
   { label: "Servicios",  href: "/servicios/",  color: "#FF8C00" },
   { label: "Precios",    href: "/precios/",    color: "#5C35B1" },
@@ -9,11 +19,46 @@ const links = [
   { label: "Blog",       href: "/blog/",       color: "#00ACC1" },
   { label: "Nosotros",   href: "/nosotros/",   color: "#2E7D32" },
 ];
+
+const SERVICIOS: Link[] = [
+  { label: "Inflables",   href: "/servicios/renta-de-inflables/",    color: "#FF3D00" },
+  { label: "Paquetes",    href: "/servicios/paquetes-de-fiesta/",    color: "#2E7D32" },
+  { label: "Eventos",     href: "/servicios/inflables-para-eventos/", color: "#1565C0" },
+  { label: "Mobiliario",  href: "/servicios/mobiliario-para-fiestas/", color: "#5C35B1" },
+  { label: "Iluminación", href: "/servicios/iluminacion-eventos/",   color: "#FF8C00" },
+  { label: "Cotizar",     href: "/cotizar/",                         color: "#25D366" },
+];
+
+const INFLABLES: Link[] = [
+  { label: "Dragones",  href: "/inflables/dragones-rojos/",     color: "#D32F2F" },
+  { label: "Princesas", href: "/inflables/castillo-princesas/", color: "#E91E8C" },
+  { label: "Pirata",    href: "/inflables/barco-pirata/",       color: "#1565C0" },
+  { label: "Extremo",   href: "/inflables/extremo/",            color: "#E65100" },
+  { label: "Blanco",    href: "/inflables/castillo-blanco/",    color: "#7E57C2" },
+  { label: "Catálogo",  href: "/inflables/",                    color: "#FF3D00" },
+];
+
+const COBERTURA: Link[] = [
+  { label: "Coyoacán",      href: "/cobertura/coyoacan/",      color: "#FF1F8E" },
+  { label: "Benito Juárez", href: "/cobertura/benito-juarez/", color: "#FF8C00" },
+  { label: "Iztapalapa",    href: "/cobertura/iztapalapa/",    color: "#5C35B1" },
+  { label: "Naucalpan",     href: "/cobertura/naucalpan/",     color: "#D32F2F" },
+  { label: "Tlalpan",       href: "/cobertura/tlalpan/",       color: "#00ACC1" },
+  { label: "Ver zonas",     href: "/cobertura/",               color: "#2E7D32" },
+];
+
+let links = Astro.props.links;
+if (!links) {
+  if (current.startsWith("/servicios")) links = SERVICIOS;
+  else if (current.startsWith("/inflables")) links = INFLABLES;
+  else if (current.startsWith("/cobertura")) links = COBERTURA;
+  else links = MAIN;
+}
 ---
 
-<nav class="qnav">
+<nav class="qnav" aria-label="Navegación rápida">
   {links.map(l => {
-    const active = current.startsWith(l.href);
+    const active = current === l.href;
     return (
       <a
         href={l.href}
@@ -42,20 +87,22 @@ const links = [
   color: #fff !important;
   font-family: var(--font-head, sans-serif);
   font-weight: 900;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   text-decoration: none !important;
   text-align: center;
   white-space: nowrap;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  box-shadow: inset -1px 0 0 rgba(255,255,255,0.12);
 }
+.qnav__item:last-child { box-shadow: none; }
 
 .qnav__item:hover {
-  filter: brightness(0.88);
+  filter: brightness(0.9);
 }
 
 .qnav__item[aria-current="page"] {
-  filter: brightness(0.80);
+  filter: brightness(0.82);
   box-shadow: inset 0 -5px 0 rgba(255,255,255,0.5);
 }
 

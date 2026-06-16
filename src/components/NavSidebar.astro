@@ -1,0 +1,221 @@
+---
+/**
+ * NavSidebar — BRINCOLINS
+ * ────────────────────────────────────────────────
+ * Sidebar de navegación para mejorar el interlinking del sitio.
+ * Widgets: CTA WhatsApp, Servicios, Inflables destacados, Cobertura, Blog.
+ * Homologado con el sistema de diseño (tokens globales, sin animaciones de entrada).
+ */
+interface Props {
+  /** slug del servicio actual para resaltarlo / excluirlo (opcional) */
+  current?: string;
+  whatsapp?: string;
+  waMessage?: string;
+}
+
+const {
+  current,
+  whatsapp = "5531281706",
+  waMessage = "Hola BRINCOLINS, quiero cotizar para mi evento.",
+} = Astro.props;
+
+const waHref = `https://wa.me/${whatsapp}?text=${encodeURIComponent(waMessage)}`;
+
+const servicios = [
+  { label: "Renta de Inflables", href: "/servicios/renta-de-inflables/" },
+  { label: "Paquetes de Fiesta", href: "/servicios/paquetes-de-fiesta/" },
+  { label: "Inflables para Eventos", href: "/servicios/inflables-para-eventos/" },
+  { label: "Mobiliario para Fiestas", href: "/servicios/mobiliario-para-fiestas/" },
+  { label: "Iluminación para Eventos", href: "/servicios/iluminacion-eventos/" },
+];
+
+const inflables = [
+  { label: "Dragones Rojos", href: "/inflables/dragones-rojos/" },
+  { label: "Castillo de Princesas", href: "/inflables/castillo-princesas/" },
+  { label: "Barco Pirata", href: "/inflables/barco-pirata/" },
+  { label: "Circuito Extremo", href: "/inflables/extremo/" },
+  { label: "Castillo Blanco", href: "/inflables/castillo-blanco/" },
+];
+
+const zonas = [
+  { label: "Coyoacán", href: "/cobertura/coyoacan/" },
+  { label: "Benito Juárez", href: "/cobertura/benito-juarez/" },
+  { label: "Álvaro Obregón", href: "/cobertura/alvaro-obregon/" },
+  { label: "Tlalpan", href: "/cobertura/tlalpan/" },
+  { label: "Naucalpan", href: "/cobertura/naucalpan/" },
+  { label: "Coacalco", href: "/cobertura/coacalco/" },
+];
+
+const articulos = [
+  { label: "Cómo elegir el inflable perfecto", href: "/blog/como-elegir-inflable-fiesta-infantil/" },
+  { label: "¿Cuánto cuesta rentar un inflable?", href: "/blog/cuanto-cuesta-rentar-inflable-cdmx/" },
+  { label: "Seguridad en inflables", href: "/blog/seguridad-inflables-fiestas-infantiles/" },
+];
+
+const arrow = '<path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd"/>';
+---
+
+<aside class="nav-sidebar" aria-label="Navegación de servicios y secciones">
+  <!-- CTA -->
+  <div class="nav-box nav-box--cta">
+    <h2 class="nav-box__title">¿Listo para tu evento?</h2>
+    <p class="nav-box__cta-text">Cotiza en minutos por WhatsApp. Entrega, instalación y seguro incluidos.</p>
+    <a href={waHref} target="_blank" rel="nofollow noopener noreferrer" class="nav-cta-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Cotizar por WhatsApp
+    </a>
+  </div>
+
+  <!-- Servicios -->
+  <nav class="nav-box">
+    <h2 class="nav-box__title">Nuestros servicios</h2>
+    {servicios.map(s => (
+      <a href={s.href} class:list={["nav-link", { "nav-link--active": current && s.href.includes(current) }]}>
+        <span>{s.label}</span>
+        <svg class="nav-link__arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" set:html={arrow} />
+      </a>
+    ))}
+  </nav>
+
+  <!-- Inflables destacados -->
+  <nav class="nav-box">
+    <h2 class="nav-box__title">Inflables más rentados</h2>
+    {inflables.map(i => (
+      <a href={i.href} class="nav-link">
+        <span>{i.label}</span>
+        <svg class="nav-link__arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" set:html={arrow} />
+      </a>
+    ))}
+    <a href="/inflables/" class="nav-box__all">Ver catálogo completo →</a>
+  </nav>
+
+  <!-- Cobertura -->
+  <nav class="nav-box">
+    <h2 class="nav-box__title">Cobertura en CDMX y Edomex</h2>
+    <div class="nav-chips">
+      {zonas.map(z => <a href={z.href} class="nav-chip">{z.label}</a>)}
+    </div>
+    <a href="/cobertura/" class="nav-box__all">Ver todas las zonas →</a>
+  </nav>
+
+  <!-- Blog -->
+  <nav class="nav-box">
+    <h2 class="nav-box__title">Guías para tu fiesta</h2>
+    {articulos.map(a => (
+      <a href={a.href} class="nav-link">
+        <span>{a.label}</span>
+        <svg class="nav-link__arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" set:html={arrow} />
+      </a>
+    ))}
+    <a href="/blog/" class="nav-box__all">Ver todo el blog →</a>
+  </nav>
+</aside>
+
+<style>
+  .nav-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    position: sticky;
+    top: 90px;
+  }
+
+  .nav-box {
+    background: var(--c-bg-alt);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    padding: 1.25rem 1.35rem;
+  }
+  .nav-box__title {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: .95rem;
+    color: var(--c-text);
+    margin: 0 0 .85rem;
+  }
+
+  /* CTA box */
+  .nav-box--cta {
+    background: linear-gradient(135deg, #FF3D00, #FF6D00);
+    border: none;
+    text-align: center;
+  }
+  .nav-box--cta .nav-box__title { color: #fff; }
+  .nav-box__cta-text {
+    font-size: .85rem;
+    color: rgba(255,255,255,.92);
+    line-height: 1.5;
+    margin: 0 0 1rem;
+  }
+  .nav-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .45rem;
+    width: 100%;
+    background: #fff;
+    color: var(--c-primary);
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: .85rem;
+    padding: .7rem 1rem;
+    border-radius: var(--r-btn);
+    text-decoration: none;
+    transition: transform .15s ease;
+  }
+  .nav-cta-btn:hover { transform: translateY(-1px); }
+
+  /* Link rows */
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .6rem;
+    padding: .55rem 0;
+    font-size: .86rem;
+    color: var(--c-text);
+    text-decoration: none;
+    border-bottom: 1px solid var(--c-border);
+    line-height: 1.35;
+  }
+  .nav-link:last-of-type { border-bottom: none; }
+  .nav-link:hover { color: var(--c-primary); }
+  .nav-link--active { color: var(--c-primary); font-weight: 700; }
+  .nav-link__arrow {
+    width: .85rem;
+    height: .85rem;
+    flex-shrink: 0;
+    color: var(--c-primary);
+    opacity: .6;
+  }
+  .nav-link:hover .nav-link__arrow { opacity: 1; }
+
+  .nav-box__all {
+    display: inline-block;
+    margin-top: .85rem;
+    font-family: var(--font-head);
+    font-size: .82rem;
+    font-weight: 800;
+    color: var(--c-primary);
+    text-decoration: none;
+  }
+  .nav-box__all:hover { text-decoration: underline; }
+
+  /* Chips (cobertura) */
+  .nav-chips { display: flex; flex-wrap: wrap; gap: .4rem; }
+  .nav-chip {
+    font-size: .78rem;
+    font-weight: 600;
+    color: var(--c-text);
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-badge);
+    padding: .3rem .7rem;
+    text-decoration: none;
+  }
+  .nav-chip:hover { border-color: var(--c-primary); color: var(--c-primary); }
+
+  @media (max-width: 960px) {
+    .nav-sidebar { position: static; }
+  }
+</style>

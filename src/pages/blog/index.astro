@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import PageLayout    from "@/layouts/PageLayout.astro";
+import QuickNav      from "@/components/QuickNav.astro";
 import Breadcrumbs   from "@/components/Breadcrumbs.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner     from "@/components/CtaBanner.astro";
@@ -89,6 +90,8 @@ const topCats = Object.entries(counts)
       </div>
     </div>
   </section>
+
+  <QuickNav />
 
   <!-- ARTÍCULO DESTACADO -->
   {featured && (

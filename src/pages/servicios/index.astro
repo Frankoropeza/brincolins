@@ -1,19 +1,100 @@
 ---
 import PageLayout from "@/layouts/PageLayout.astro";
+import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
+import NavSidebar from "@/components/NavSidebar.astro";
 
-const title = "Inflables para Fiestas y Eventos | Servicios de Renta de Inflables | CDMX";
-const description = "Servicios de renta de inflables para fiestas infantiles, eventos corporativos y celebraciones en CDMX. Instalación profesional, seguro incluido y atención personalizada.";
+const title = "Servicios para Fiestas y Eventos en CDMX | Renta de Inflables, Mobiliario e Iluminación";
+const description = "Servicios de renta de inflables, mobiliario, iluminación y paquetes todo incluido para fiestas infantiles y eventos en CDMX y Estado de México. Un solo proveedor, entrega e instalación incluidas.";
+
+const WA = "5531281706";
+const wa = (msg) => `https://wa.me/${WA}?text=${encodeURIComponent(msg)}`;
 
 const servicios = [
-  { emoji: "", name: "Renta de Inflables", desc: "Nuestro servicio principal: brincolines, toboganes, castillos y circuitos de obstáculos con entrega, instalación y seguro incluidos.", href: "/servicios/renta-de-inflables/", gradient: "#FF3D00, #FF6D00", cta: "Ver Renta de Inflables →" },
-  { emoji: "", name: "Inflables para Eventos", desc: "Paquetes multi-inflable para kermeses escolares, team building corporativo, ferias y activaciones de marca. Coordinación logística y facturación incluidas.", href: "/servicios/inflables-para-eventos/", gradient: "#1A56DB, #1E40AF", cta: "Ver Inflables para Eventos →" },
-  { emoji: "", name: "Mobiliario para Fiestas", desc: "Mesas, sillas, manteles y toldos para complementar tu evento. Combina con inflables y ahorra.", href: "/servicios/mobiliario-para-fiestas/", gradient: "#1A1A2E, #2a2a40", cta: "Ver Mobiliario para Fiestas →" },
-  { emoji: "", name: "Iluminación para Eventos", desc: "Luces LED, proyectores, series de luces y ambientación profesional para eventos nocturnos.", href: "/servicios/iluminacion-eventos/", gradient: "#1565C0, #0288D1", cta: "Ver Iluminación para Eventos →" },
-  { emoji: "", name: "Paquetes de Fiesta", desc: "Combos todo incluido: inflable + mobiliario + iluminación. Ahorra hasta 25% vs renta individual.", href: "/servicios/paquetes-de-fiesta/", gradient: "#00C853, #2E7D32", cta: "Ver Paquetes de Fiesta →" },
+  {
+    name: "Renta de Inflables",
+    badge: "Servicio principal",
+    featured: true,
+    desc: "Brincolines, castillos, toboganes y circuitos de obstáculos para cada edad y tipo de fiesta.",
+    href: "/servicios/renta-de-inflables/",
+    allLabel: "Ver todo el catálogo",
+    image: "/img/inflables/dragones-rojos.avif",
+    alt: "Renta de inflables para fiestas infantiles en CDMX",
+    waMsg: "Hola BRINCOLINS, quiero cotizar la renta de un inflable.",
+    subs: [
+      { title: "Inflables para bebés", desc: "Mini castillo · 1–4 años", href: "/inflables/mini-castillo/" },
+      { title: "Inflables medianos", desc: "Dragones, princesas y jungla · 3–10 años", href: "/inflables/dragones-rojos/" },
+      { title: "Inflables grandes con tobogán", desc: "Barco pirata y circuito extremo", href: "/inflables/barco-pirata/" },
+      { title: "Castillo blanco para bodas y XV", desc: "Elegante · todas las edades", href: "/inflables/castillo-blanco/" },
+    ],
+  },
+  {
+    name: "Paquetes de Fiesta",
+    badge: "Ahorra hasta 25%",
+    desc: "Combos todo incluido con un precio cerrado: inflable + mobiliario + iluminación.",
+    href: "/servicios/paquetes-de-fiesta/",
+    allLabel: "Ver paquetes",
+    image: "/img/servicios/paquetes-fiesta-completo-cdmx.avif",
+    alt: "Paquetes de fiesta todo incluido en CDMX",
+    waMsg: "Hola BRINCOLINS, quiero cotizar un paquete de fiesta todo incluido.",
+    subs: [
+      { title: "Paquete Básico", desc: "Inflable + esenciales · 15–30 invitados", href: "/servicios/paquetes-de-fiesta/" },
+      { title: "Paquete Intermedio", desc: "+ mobiliario y toldo · 30–60 invitados", href: "/servicios/paquetes-de-fiesta/" },
+      { title: "Paquete Premium", desc: "Todo incluido · 60–100+ invitados", href: "/servicios/paquetes-de-fiesta/" },
+    ],
+  },
+  {
+    name: "Inflables para Eventos",
+    badge: "Empresas y escuelas",
+    desc: "Paquetes multi-inflable con coordinación logística para eventos profesionales.",
+    href: "/servicios/inflables-para-eventos/",
+    allLabel: "Ver inflables para eventos",
+    image: "/img/inflables/extremo.avif",
+    alt: "Inflables para eventos corporativos y kermeses escolares en CDMX",
+    waMsg: "Hola BRINCOLINS, quiero cotizar inflables para un evento corporativo o escolar.",
+    subs: [
+      { title: "Kermeses escolares", desc: "2–5 inflables simultáneos", href: "/servicios/inflables-para-eventos/" },
+      { title: "Team building corporativo", desc: "Circuito extremo para adultos", href: "/servicios/inflables-para-eventos/" },
+      { title: "Ferias y activaciones de marca", desc: "Eventos de 200 a 500+ personas", href: "/servicios/inflables-para-eventos/" },
+      { title: "Garden parties familiares", desc: "Inflable + mobiliario", href: "/servicios/inflables-para-eventos/" },
+    ],
+  },
+  {
+    name: "Mobiliario para Fiestas",
+    badge: "Complemento",
+    desc: "Mesas, sillas, toldos y mantelería para completar tu evento con un solo proveedor.",
+    href: "/servicios/mobiliario-para-fiestas/",
+    allLabel: "Ver mobiliario",
+    image: "/img/servicios/mobiliario-fiestas-cdmx.avif",
+    alt: "Renta de mobiliario para fiestas en CDMX",
+    waMsg: "Hola BRINCOLINS, quiero cotizar mobiliario para mi fiesta.",
+    subs: [
+      { title: "Mesas y sillas", desc: "Plegables, para todo tipo de evento", href: "/servicios/mobiliario-para-fiestas/" },
+      { title: "Toldos y carpas", desc: "Medidas 3×6 y 6×6 m", href: "/servicios/mobiliario-para-fiestas/" },
+      { title: "Mantelería", desc: "Manteles y cubresillas", href: "/servicios/mobiliario-para-fiestas/" },
+    ],
+  },
+  {
+    name: "Iluminación para Eventos",
+    badge: "Ambientación",
+    desc: "Series LED, neón y proyección profesional para que tu evento brille de día y de noche.",
+    href: "/servicios/iluminacion-eventos/",
+    allLabel: "Ver iluminación",
+    image: "/img/servicios/iluminacion-eventos-cdmx.avif",
+    alt: "Iluminación profesional para eventos y fiestas en CDMX",
+    waMsg: "Hola BRINCOLINS, quiero cotizar iluminación para mi evento.",
+    subs: [
+      { title: "Series LED y guirnaldas", desc: "Ambiente cálido para jardines", href: "/servicios/iluminacion-eventos/" },
+      { title: "Neón y luz UV", desc: "Fiestas temáticas y eventos de noche", href: "/servicios/iluminacion-eventos/" },
+      { title: "Iluminación profesional", desc: "Reflectores y proyección", href: "/servicios/iluminacion-eventos/" },
+    ],
+  },
 ];
+
+const waIcon = '<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>';
+const chevron = '<path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd"/>';
 ---
 
 <PageLayout
@@ -36,56 +117,238 @@ const servicios = [
           <span class="hero__badge">Servicios completos</span>
           <h1 class="hero__title">Renta de Inflables y Servicios para tu <span class="highlight">Fiesta Perfecta</span> en CDMX</h1>
           <p class="hero__desc">
-            No solo rentamos inflables — ofrecemos todo lo que necesitas para que tu evento sea inolvidable. Mobiliario, iluminación y paquetes completos.
+            No solo rentamos inflables — ofrecemos todo lo que necesitas para que tu evento sea inolvidable: mobiliario, iluminación y paquetes completos con un solo proveedor.
           </p>
           <div class="hero__ctas">
-            <a href="/contacto/"
-               class="btn btn-primary btn-lg">
-              Cotizar Renta de Inflables
-            </a>
+            <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar mi evento</a>
             <a href="/inflables/" class="btn btn-outline btn-lg">Ver Catálogo de Inflables</a>
           </div>
         </div>
         <div class="hero__copy">
-          <p class="hero__copy-text"><strong>BRINCOLINS</strong> ha evolucionado de ser una empresa de renta de inflables a convertirse en un <strong>proveedor integral para fiestas y eventos</strong> en CDMX y Estado de México. Con más de 20 años de experiencia, entendemos que una fiesta perfecta requiere más que un brincolín: necesitas mobiliario cómodo, iluminación adecuada y la tranquilidad de tener todo resuelto.</p>
-          <p class="hero__copy-text">Nuestros servicios complementarios están diseñados para <strong>simplificar la organización de tu evento</strong>. Al contratar varios servicios juntos, obtienes descuentos especiales y la comodidad de un solo proveedor que se encarga de todo. Cotiza sin compromiso por WhatsApp y descubre nuestros paquetes con precios preferenciales.</p>
+          <p class="hero__copy-text"><strong>BRINCOLINS</strong> evolucionó de ser una empresa de renta de inflables a un <strong>proveedor integral para fiestas y eventos</strong> en CDMX y Estado de México. Con más de 20 años de experiencia, sabemos que una fiesta perfecta necesita más que un brincolín: mobiliario cómodo, iluminación adecuada y la tranquilidad de tener todo resuelto.</p>
+          <p class="hero__copy-text">Nuestros servicios están diseñados para <strong>simplificar la organización de tu evento</strong>. Al contratar varios juntos obtienes descuentos especiales y la comodidad de un solo responsable. Cotiza sin compromiso por WhatsApp y descubre nuestros paquetes con precios preferenciales.</p>
         </div>
       </div>
     </div>
   </section>
 
+  <QuickNav />
+
   <section class="section">
     <div class="container">
       <SectionHeader
         badge="Nuestros servicios"
-        title="Renta de Inflables y Servicios Complementarios en CDMX"
-        subtitle="Servicios profesionales con la confianza de más de 20 años."
-        copy1="Cada servicio incluye entrega, montaje y recolección en toda la Zona Metropolitana del Valle de México. Trabajamos con equipo profesional y personal capacitado para garantizar que tu evento sea impecable."
-        copy2="Combina servicios y obtén descuentos especiales. Nuestros paquetes están diseñados para ofrecerte la mejor relación calidad-precio con la comodidad de un solo proveedor."
+        title="Todos los Servicios para tu Fiesta o Evento en CDMX"
+        subtitle="Renta de inflables, mobiliario, iluminación y paquetes — con la confianza de más de 20 años."
+        copy1="Cada servicio incluye entrega, montaje y recolección en toda la Zona Metropolitana del Valle de México. Trabajamos con equipo profesional y personal capacitado para que tu evento quede impecable de principio a fin."
+        copy2="Combina servicios y obtén descuentos especiales: nuestros paquetes están pensados para darte la mejor relación calidad-precio con la comodidad de coordinar todo con un solo proveedor de confianza."
       />
-      <div class="grid-4">
+      <div class="svc-layout">
+        <div class="svc-main">
+      <div class="svc-grid">
         {servicios.map(s => (
-          <a href={s.href} class="cat-card-home">
-            <div class="cat-card-home__icon" style={`background: linear-gradient(135deg, ${s.gradient});`}>
-              <span>{s.emoji}</span>
+          <article class={`svc-card${s.featured ? " svc-card--featured" : ""}`}>
+            <a href={s.href} class="svc-card__media" aria-label={s.name}>
+              <img src={s.image} alt={s.alt} width="720" height="450" loading="lazy" />
+              <span class="svc-card__badge">{s.badge}</span>
+            </a>
+            <div class="svc-card__body">
+              <h3 class="svc-card__name"><a href={s.href}>{s.name}</a></h3>
+              <p class="svc-card__desc">{s.desc}</p>
+
+              <ul class="svc-card__subs" role="list">
+                {s.subs.map(sub => (
+                  <li>
+                    <a href={sub.href} class="svc-sub">
+                      <span class="svc-sub__text">
+                        <span class="svc-sub__title">{sub.title}</span>
+                        <span class="svc-sub__desc">{sub.desc}</span>
+                      </span>
+                      <svg class="svc-sub__arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" set:html={chevron} />
+                    </a>
+                  </li>
+                ))}
+              </ul>
+
+              <div class="svc-card__actions">
+                <a href={s.href} class="btn btn-outline btn-sm">Ver servicio</a>
+                <a href={wa(s.waMsg)} target="_blank" rel="nofollow noopener noreferrer" class="btn btn-wa btn-sm svc-card__wa">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" set:html={waIcon} />
+                  Cotizar
+                </a>
+              </div>
             </div>
-            <h3 class="cat-card-home__name">{s.name}</h3>
-            <p class="cat-card-home__desc">{s.desc}</p>
-            <span class="cat-card-home__link">{s.cta}</span>
-          </a>
+          </article>
         ))}
+      </div>
+        </div>
+        <NavSidebar />
       </div>
     </div>
   </section>
 
   <CtaBanner
     title="¿Necesitas varios servicios? Pregunta por nuestros paquetes"
-    subtitle="Combina inflable + mobiliario + iluminación y ahorra hasta 25%. Cotiza sin compromiso."
-    btnText="Cotizar Renta de Inflables"
-    btnHref="/contacto/"
+    subtitle="Combina inflable + mobiliario + iluminación y ahorra hasta 25%. Cotiza sin compromiso por WhatsApp."
+    btnText="Cotizar mi evento"
+    btnHref="/cotizar/"
     btnSecondaryText="Ver paquetes"
     btnSecondaryHref="/servicios/paquetes-de-fiesta/"
     variant="vibrant"
   />
 
 </PageLayout>
+
+<style>
+  .svc-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 2.5rem;
+    align-items: start;
+  }
+  .svc-main { min-width: 0; }
+
+  .svc-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.4rem;
+  }
+
+  .svc-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+  }
+  .svc-card--featured { border-color: var(--c-primary); }
+
+  /* ── Media ── */
+  .svc-card__media {
+    position: relative;
+    display: block;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+  }
+  .svc-card__media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .svc-card__media::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,.30), rgba(0,0,0,0) 45%);
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .svc-card__badge {
+    position: absolute;
+    top: .8rem;
+    left: .8rem;
+    z-index: 2;
+    background: rgba(255,255,255,.95);
+    color: var(--c-primary);
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: .66rem;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    padding: .3rem .75rem;
+    border-radius: var(--r-badge);
+    box-shadow: 0 2px 10px rgba(0,0,0,.18);
+  }
+  .svc-card--featured .svc-card__badge { background: var(--c-primary); color: #fff; }
+
+  /* ── Body ── */
+  .svc-card__body {
+    display: flex;
+    flex-direction: column;
+    padding: 1.15rem 1.25rem 1.3rem;
+    flex: 1;
+  }
+  .svc-card__name {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 1.1rem;
+    line-height: 1.25;
+    color: var(--c-text);
+    margin: 0 0 .35rem;
+  }
+  .svc-card__name a { color: inherit; text-decoration: none; }
+  .svc-card__name a:hover { color: var(--c-primary); }
+  .svc-card__desc {
+    font-size: .85rem;
+    color: var(--c-text-muted);
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  /* ── Sub-servicios: lista dividida limpia ── */
+  .svc-card__subs {
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+    border-top: 1px solid var(--c-border);
+  }
+  .svc-sub {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    padding: .62rem .3rem;
+    border-bottom: 1px solid var(--c-border);
+    text-decoration: none;
+  }
+  .svc-sub:hover { background: rgba(255,61,0,.045); }
+  .svc-sub__text { display: flex; flex-direction: column; gap: .08rem; min-width: 0; flex: 1; }
+  .svc-sub__title {
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: .83rem;
+    color: var(--c-text);
+    line-height: 1.25;
+  }
+  .svc-sub__desc {
+    font-size: .75rem;
+    color: var(--c-text-muted);
+    line-height: 1.3;
+  }
+  .svc-sub__arrow {
+    width: .85rem;
+    height: .85rem;
+    flex-shrink: 0;
+    color: var(--c-primary);
+    opacity: .55;
+  }
+
+  /* ── Acciones ── */
+  .svc-card__actions {
+    display: flex;
+    gap: .5rem;
+    margin-top: auto;
+    padding-top: 1.15rem;
+  }
+  .svc-card__actions .btn {
+    flex: 1;
+    justify-content: center;
+    padding: .62rem .5rem;
+    font-size: .82rem;
+  }
+  .svc-card__wa { gap: .35rem; }
+  .svc-card__wa svg { flex-shrink: 0; }
+
+  /* ── Responsive ── */
+  @media (max-width: 1280px) {
+    .svc-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 960px) {
+    .svc-layout { grid-template-columns: 1fr; }
+    .svc-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 820px) {
+    .svc-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 520px) {
+    .svc-grid { grid-template-columns: 1fr; }
+  }
+</style>

@@ -1,5 +1,6 @@
 ---
 import PageLayout from "@/layouts/PageLayout.astro";
+import QuickNav from "@/components/QuickNav.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import VenueCard from "@/components/VenueCard.astro";
@@ -121,6 +122,8 @@ const salonSchema = {
   <div class="container"><nav class="breadcrumbs" aria-label="Ruta de navegación"><a href="/">Inicio</a><span class="breadcrumbs__sep">/</span><a href="/directorio/">Directorio</a><span class="breadcrumbs__sep">/</span><a href="/directorio/cdmx/">CDMX</a><span class="breadcrumbs__sep">/</span><span>{salon.name}</span></nav></div>
 
   <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;"><div class="container"><div class="hero__grid"><div><span class="hero__badge">{salon.rating} en Google Maps · {salon.zone}</span><h1 class="hero__title">{salon.name} — Salón de Fiestas <span class="highlight">Infantiles</span></h1><p class="hero__desc">Salón de fiestas infantiles en {salon.zone}, CDMX. {salon.highlight}. Capacidad para {salon.capacity}. Paquetes todo incluido con juegos, alimentos, decoración y más.</p><div class="hero__ctas"><a href={`tel:+52${salon.phone.replace(/\s/g, "")}`} class="btn btn-primary btn-lg">Llamar al salón</a><a href={`https://wa.me/52${salon.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${salon.name} para una fiesta infantil.`)}`} class="btn btn-wa btn-lg" target="_blank" rel="nofollow noopener noreferrer">WhatsApp del salón</a></div></div><div class="hero__copy"><p class="hero__copy-text"><strong>{salon.name}</strong> se ha consolidado como uno de los salones de fiestas infantiles con mejor reputación en {salon.zone}. Con una calificación de <strong>{salon.rating} estrellas en Google Maps</strong>, destaca por sus amplias instalaciones, su compromiso con la seguridad de los niños y la calidad de sus paquetes todo incluido que facilitan la organización de cualquier celebración.</p><p class="hero__copy-text">¿Ya reservaste tu fecha? Lleva la diversión al siguiente nivel con un inflable de <strong>BRINCOLINS</strong>. Entregamos, instalamos y recogemos directamente en {salon.name} sin costo adicional. Nuestro catálogo incluye castillos, toboganes, pistas de obstáculos y más.</p></div></div></div></section>
+
+  <QuickNav />
 
   <!-- Contenido principal + Sidebar -->
   <section class="section section--alt">

@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import PageLayout from "@/layouts/PageLayout.astro";
+import QuickNav from "@/components/QuickNav.astro";
 import CtaBanner  from "@/components/CtaBanner.astro";
 import FaqItem    from "@/components/FaqItem.astro";
 
@@ -98,6 +99,8 @@ const blogSchema = {
       </div>
     </div>
   </section>
+
+  <QuickNav />
 
   <!-- PORTADA -->
   {d.heroImage && (
