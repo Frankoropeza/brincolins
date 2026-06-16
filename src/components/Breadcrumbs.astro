@@ -16,18 +16,9 @@ interface Props {
 
 const { items } = Astro.props;
 
-const schemaItems = items.map((item, index) => ({
-  "@type": "ListItem",
-  "position": index + 1,
-  "name": item.label,
-  ...(item.href ? { "item": `https://brincolins.com${item.href}` } : {})
-}));
-
-const breadcrumbSchema = JSON.stringify({
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": schemaItems
-});
+// NOTA: el JSON-LD de BreadcrumbList lo emite BaseLayout.astro (auto-generado
+// desde la URL canónica) para TODAS las páginas. Este componente es solo visual
+// para evitar BreadcrumbList duplicado en el mismo documento.
 ---
 
 <nav class="crumbs" aria-label="Breadcrumb">
@@ -52,8 +43,6 @@ const breadcrumbSchema = JSON.stringify({
     </ol>
   </div>
 </nav>
-
-<script type="application/ld+json" set:html={breadcrumbSchema} />
 
 <style>
   .crumbs {

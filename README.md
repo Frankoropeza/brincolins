@@ -1,43 +1,54 @@
-# Astro Starter Kit: Minimal
+# BRINCOLINS — Renta de Inflables CDMX
 
-```sh
-npm create astro@latest -- --template minimal
+Sitio web de [brincolins.com](https://brincolins.com) — renta de inflables y brincolines para fiestas infantiles y eventos en la Ciudad de México y Estado de México.
+
+## Stack
+
+- **Astro 6** (static output) + TypeScript
+- **CSS** scoped por componente + tokens globales en `src/styles/global.css`
+- **Content Collections** para el blog (Markdown)
+- **@astrojs/sitemap** para `sitemap-index.xml`
+- Deploy automático a **GitHub Pages** (`.github/workflows/deploy.yml`, rama `main`)
+
+## Estructura
+
+```
+src/
+├── components/        # Header, Footer, tarjetas, FAQ, CTA, etc. (CSS scoped)
+├── content/blog/      # Artículos del blog en Markdown (fuente única)
+├── content.config.ts  # Schema de la colección "blog"
+├── data/              # Config de header y topbar (Markdown frontmatter)
+├── layouts/
+│   ├── BaseLayout.astro   # <head>, JSON-LD (Organization/LocalBusiness/Breadcrumb), chrome
+│   └── PageLayout.astro    # Wrapper + burbuja de WhatsApp
+├── pages/
+│   ├── blog/
+│   │   ├── [slug].astro    # Plantilla única que renderiza cada Markdown
+│   │   └── index.astro     # Índice del blog (lee de la colección)
+│   ├── cobertura/          # 35 páginas de cobertura por alcaldía/municipio
+│   ├── inflables/          # Catálogo + fichas de producto
+│   ├── servicios/          # Páginas de servicio
+│   └── directorio/         # Directorio de salones
+└── styles/            # global.css + mobile.css
+public/img/            # Imágenes en AVIF (productos, blog, why, proceso…)
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Blog (Markdown)
 
-## 🚀 Project Structure
+El contenido del blog vive **solo** en `src/content/blog/*.md`. Una sola plantilla
+`src/pages/blog/[slug].astro` los renderiza. Para publicar un artículo nuevo basta
+crear un `.md` con el frontmatter completo (ver `content.config.ts` para el schema).
+Imágenes por artículo en `public/img/blog/<slug>/` (`main.avif` = portada,
+`img1..4.avif` = galería).
 
-Inside of your Astro project, you'll see the following folders and files:
+## Comandos
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+| Comando            | Acción                                       |
+| :----------------- | :------------------------------------------- |
+| `npm install`      | Instala dependencias                         |
+| `npm run dev`      | Servidor local en `localhost:4321`           |
+| `npm run build`    | Build de producción a `./dist/`              |
+| `npm run preview`  | Previsualiza el build                        |
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+> Nota: el build requiere los binarios de Rollup de la plataforma actual. Si vienes
+> de otro SO, borra `node_modules` y `package-lock.json` y reinstala (`npm install`).
