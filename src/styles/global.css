@@ -27,7 +27,7 @@
   --shadow-wa: 0 4px 20px rgba(37, 211, 102, 0.4);
   --container: 100%;
   --container-max: 1400px;
-  --container-px: clamp(1.5rem, 5vw, 5rem);
+  --container-px: clamp(0.9rem, 3vw, 3rem);
   --section-py: clamp(3rem, 5vw, 4rem);
 
   /* Colores por categoría */
