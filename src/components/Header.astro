@@ -242,9 +242,16 @@ function isActive(href: string, children?: { href: string }[]): boolean {
    ══════════════════════════════════════════ */
 .hdr {
   position: relative;
+  z-index: 9000;
   width: 100%;
   background: #fff;
   border-bottom: 3px solid #FF3D00;
+  transition: box-shadow 0.25s ease, padding 0.25s ease;
+}
+
+.hdr--scrolled {
+  box-shadow: 0 2px 20px rgba(0,0,0,0.10);
+  --hdr-logo-h: 70px;
 }
 
 .hdr__inner {
@@ -276,6 +283,7 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   width: auto;
   display: block;
   object-fit: contain;
+  transition: height 0.25s ease;
 }
 
 /* ══════════════════════════════════════════
@@ -598,8 +606,8 @@ function isActive(href: string, children?: { href: string }[]): boolean {
 }
 
 .hdr__panel-close {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -870,6 +878,19 @@ function isActive(href: string, children?: { href: string }[]): boolean {
     });
   });
 
+  /* Sticky shrink on scroll */
+  if (hdr) {
+    var SHRINK_AT = 60;
+    function onScroll() {
+      if (window.scrollY > SHRINK_AT) {
+        hdr.classList.add('hdr--scrolled');
+      } else {
+        hdr.classList.remove('hdr--scrolled');
+      }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll(); /* apply immediately if page already scrolled */
+  }
 
 })();
 </script>

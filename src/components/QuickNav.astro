@@ -1,99 +1,231 @@
 ---
 /**
  * QuickNav — Barra de acceso rápido full-width bajo el hero
- * Estilo: fondo oscuro, pills con hover naranja, scroll horizontal en móvil
+ * Diseño profesional con SVG icons, indicador activo, CTA destacado
  */
-const links = [
-  { label: "🎪 Inflables",         href: "/inflables/" },
-  { label: "🎉 Servicios",         href: "/servicios/" },
-  { label: "📍 Cobertura",         href: "/cobertura/" },
-  { label: "📝 Blog",              href: "/blog/" },
-  { label: "👋 Nosotros",          href: "/nosotros/" },
-  { label: "📞 Cotizar Gratis",    href: "/contacto/", cta: true },
-];
-
 const current = Astro.url.pathname;
+
+const links = [
+  { label: "Inflables",  href: "/inflables/" },
+  { label: "Servicios",  href: "/servicios/" },
+  { label: "Precios",    href: "/precios/" },
+  { label: "Cobertura",  href: "/cobertura/" },
+  { label: "Blog",       href: "/blog/" },
+  { label: "Nosotros",   href: "/nosotros/" },
+];
 ---
 
 <nav class="qnav" aria-label="Acceso rápido">
   <div class="qnav__inner">
-    {links.map(l => (
-      <a
-        href={l.href}
-        class:list={["qnav__link", { "qnav__link--active": current.startsWith(l.href) && l.href !== "/", "qnav__link--cta": l.cta }]}
-      >
-        {l.label}
-      </a>
-    ))}
+
+    <div class="qnav__links">
+      {links.map(l => {
+        const active = current.startsWith(l.href);
+        return (
+          <a
+            href={l.href}
+            class={active ? "qnav__link qnav__link--active" : "qnav__link"}
+            aria-current={active ? "page" : undefined}
+          >
+            {l.label === "Inflables" && (
+              <svg class="qnav__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="9"/><path d="M9 12a3 3 0 006 0 3 3 0 00-6 0"/>
+              </svg>
+            )}
+            {l.label === "Servicios" && (
+              <svg class="qnav__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+            )}
+            {l.label === "Precios" && (
+              <svg class="qnav__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/>
+              </svg>
+            )}
+            {l.label === "Cobertura" && (
+              <svg class="qnav__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+              </svg>
+            )}
+            {l.label === "Blog" && (
+              <svg class="qnav__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/>
+              </svg>
+            )}
+            {l.label === "Nosotros" && (
+              <svg class="qnav__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+              </svg>
+            )}
+            <span class="qnav__label">{l.label}</span>
+          </a>
+        );
+      })}
+    </div>
+
+    <a href="/contacto/" class="qnav__cta">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .93h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15.92z"/>
+      </svg>
+      <span>Cotizar Gratis</span>
+      <svg class="qnav__arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M3 8h10M9 4l4 4-4 4"/>
+      </svg>
+    </a>
+
   </div>
 </nav>
 
 <style>
+/* ── Contenedor ─────────────────────────────────────────── */
 .qnav {
   width: 100%;
-  background: #1a1a2e;
-  border-bottom: 3px solid #FF3D00;
+  background: linear-gradient(180deg, #16182b 0%, #1a1a2e 100%);
+  border-bottom: 2px solid rgba(255, 61, 0, 0.55);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 10;
 }
 
+.qnav::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.07), transparent);
+  pointer-events: none;
+}
+
+/* ── Inner layout ───────────────────────────────────────── */
 .qnav__inner {
   display: flex;
   align-items: center;
-  gap: 0.35rem;
-  padding: 0.65rem clamp(1rem, 3vw, 2.5rem);
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0 clamp(1rem, 4vw, 3rem);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* ── Grupo de links ─────────────────────────────────────── */
+.qnav__links {
+  display: flex;
+  align-items: stretch;
   overflow-x: auto;
   scrollbar-width: none;
   -ms-overflow-style: none;
-  width: 100%;
+  flex: 1;
 }
+.qnav__links::-webkit-scrollbar { display: none; }
 
-.qnav__inner::-webkit-scrollbar { display: none; }
-
+/* ── Link base ──────────────────────────────────────────── */
 .qnav__link {
   display: inline-flex;
   align-items: center;
+  gap: 0.4rem;
   white-space: nowrap;
-  padding: 0.45rem 1rem;
-  border-radius: 50px;
-  font-size: 0.85rem;
+  padding: 0.85rem 1.05rem;
+  font-size: 0.78rem;
   font-weight: 600;
-  color: rgba(255,255,255,0.78);
+  color: rgba(255, 255, 255, 0.58);
   text-decoration: none;
-  transition: background 0.18s ease, color 0.18s ease, transform 0.2s cubic-bezier(0.34,1.56,0.64,1);
-  letter-spacing: 0.01em;
-  border: 1.5px solid transparent;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: color 0.15s ease, background 0.15s ease;
+  position: relative;
   flex-shrink: 0;
 }
 
+/* Barra inferior animada */
+.qnav__link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0.75rem;
+  right: 0.75rem;
+  height: 2px;
+  background: #FF3D00;
+  border-radius: 2px 2px 0 0;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.2s cubic-bezier(0.34, 1.4, 0.64, 1);
+}
+
 .qnav__link:hover {
-  background: rgba(255,61,0,0.15);
-  border-color: rgba(255,61,0,0.4);
   color: #fff;
-  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.04);
+}
+.qnav__link:hover::after {
+  transform: scaleX(1);
 }
 
 .qnav__link--active {
-  background: rgba(255,61,0,0.12);
-  border-color: rgba(255,61,0,0.35);
-  color: #FF6B35;
+  color: #ff7043;
+}
+.qnav__link--active::after {
+  transform: scaleX(1);
+  background: #ff7043;
 }
 
-.qnav__link--cta {
-  background: linear-gradient(135deg, #FF3D00, #FF6B00);
-  color: #fff !important;
-  border-color: transparent;
-  margin-left: auto;
-  box-shadow: 0 3px 10px rgba(255,61,0,0.35);
+/* ── Iconos ─────────────────────────────────────────────── */
+.qnav__icon {
+  width: 0.95rem;
+  height: 0.95rem;
+  flex-shrink: 0;
+  stroke-width: 2;
+}
+
+/* ── CTA ────────────────────────────────────────────────── */
+.qnav__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  white-space: nowrap;
+  padding: 0.5rem 1.15rem;
+  border-radius: 50px;
+  font-size: 0.78rem;
   font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #FF3D00 0%, #ff6a00 100%);
+  box-shadow: 0 3px 12px rgba(255,61,0,0.4), inset 0 1px 0 rgba(255,255,255,0.12);
+  transition: box-shadow 0.15s ease, transform 0.15s ease, filter 0.15s ease;
+  flex-shrink: 0;
+  margin: 0.5rem 0;
 }
-
-.qnav__link--cta:hover {
+.qnav__cta svg:first-child {
+  width: 0.9rem;
+  height: 0.9rem;
+  stroke-width: 2.5;
+}
+.qnav__cta:hover {
   filter: brightness(1.1);
-  transform: translateY(-2px);
-  box-shadow: 0 5px 16px rgba(255,61,0,0.45);
+  box-shadow: 0 6px 18px rgba(255,61,0,0.5), inset 0 1px 0 rgba(255,255,255,0.12);
+  transform: translateY(-1px);
+}
+.qnav__cta:active {
+  transform: translateY(0);
+  filter: brightness(0.95);
 }
 
-@media (max-width: 640px) {
-  .qnav__link--cta { margin-left: 0.35rem; }
-  .qnav__link { font-size: 0.82rem; padding: 0.4rem 0.85rem; }
+.qnav__arrow {
+  width: 0.8rem;
+  height: 0.8rem;
+  transition: transform 0.15s ease;
+}
+.qnav__cta:hover .qnav__arrow {
+  transform: translateX(3px);
+}
+
+/* ── Mobile ─────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .qnav__inner { padding: 0 0.75rem; gap: 0.5rem; }
+  .qnav__link  { padding: 0.75rem 0.65rem; font-size: 0; gap: 0; }
+  .qnav__label { display: none; }
+  .qnav__icon  { width: 1.2rem; height: 1.2rem; }
+  .qnav__cta   { padding: 0.45rem 0.9rem; font-size: 0.74rem; gap: 0.3rem; }
+  .qnav__cta svg:first-child { display: none; }
 }
 </style>

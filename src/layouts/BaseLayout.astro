@@ -281,10 +281,14 @@ const ogType = (pageType === "product") ? "og:product" : "website";
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: var(--font-body); color: #1A1A2E; background: #ffffff; }
     main { display: block; }
+    /* sticky en el wrapper, no en .hdr — .hdr-stack tiene <body> como padre (altura completa) */
     .hdr-stack {
-      position: relative;
-      z-index: 1000;
+      position: sticky;
+      top: 0;
+      z-index: 9000;
     }
+    /* overflow-x: clip NO crea scroll-container → position:sticky funciona en el header */
+    html, body { overflow-x: clip !important; }
   </style>
 
   <title>{title}</title>

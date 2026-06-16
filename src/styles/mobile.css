@@ -18,7 +18,10 @@
 /* ──────────────────────────────────────────────────────────────────
    0. OVERFLOW PROTECTION — base del documento
    ────────────────────────────────────────────────────────────────── */
-html, body { overflow-x: hidden; }
+/* overflow-x: clip NO crea scroll-container → position:sticky funciona.
+   !important necesario porque Vite bundlea mobile.css antes de global.css */
+html { overflow-x: clip !important; }
+body { overflow-x: clip !important; }
 img, picture, video, svg, iframe { max-width: 100%; }
 
 
