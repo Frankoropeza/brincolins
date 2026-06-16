@@ -27,11 +27,9 @@ img, picture, video, svg, iframe { max-width: 100%; }
 
 /* ──────────────────────────────────────────────────────────────────
    1. CONTAINER FLUIDO — padding inline ajustado por viewport
+      Usa --container-px (definida en global.css :root con clamp)
+      Estos overrides sólo aplican bajo 640px donde queremos mínimos fijos
    ────────────────────────────────────────────────────────────────── */
-@media (max-width: 1024px) {
-  .container { padding-inline: 1.5rem; }
-}
-
 @media (max-width: 640px) {
   .container { padding-inline: 1rem; }
 }
@@ -340,14 +338,8 @@ img, picture, video, svg, iframe { max-width: 100%; }
    ────────────────────────────────────────────────────────────────── */
 @supports (padding: max(0px)) {
   .container {
-    padding-left:  max(1rem, env(safe-area-inset-left));
-    padding-right: max(1rem, env(safe-area-inset-right));
-  }
-  @media (max-width: 640px) {
-    .container {
-      padding-left:  max(1rem, env(safe-area-inset-left));
-      padding-right: max(1rem, env(safe-area-inset-right));
-    }
+    padding-left:  max(var(--container-px), env(safe-area-inset-left));
+    padding-right: max(var(--container-px), env(safe-area-inset-right));
   }
 }
 
