@@ -26,7 +26,7 @@
   --shadow-primary: 0 8px 25px rgba(255, 61, 0, 0.15);
   --shadow-wa: 0 4px 20px rgba(37, 211, 102, 0.4);
   --container: 100%;
-  --section-py: clamp(4rem, 8vw, 6rem);
+  --section-py: clamp(3rem, 5vw, 4rem);
 
   /* Colores por categoría */
   --c-castillo: #FF3D00;
@@ -349,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero__grid {
   display: grid;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 55fr 45fr;
   gap: 3rem;
   align-items: center;
 }
