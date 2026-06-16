@@ -618,12 +618,10 @@ const faqs = [
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    transition: box-shadow .2s ease, transform .2s ease;
     position: relative;
   }
   .pr-card:hover {
     box-shadow: 0 8px 32px rgba(0,0,0,.1);
-    transform: translateY(-2px);
   }
   .pr-card--highlight {
     border-color: var(--c-primary, #FF3D00);
@@ -649,9 +647,8 @@ const faqs = [
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform .35s ease;
   }
-  .pr-card:hover .pr-card__img { transform: scale(1.04); }
+  .pr-card:hover .pr-card__img { }
 
   .pr-card__body {
     padding: 1.25rem;

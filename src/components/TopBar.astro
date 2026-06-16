@@ -185,11 +185,6 @@ const variantClass = `topbar--${style}`;
   .topbar__link {
     text-decoration: none;
     color: inherit;
-    transition: opacity 0.2s var(--ease, ease);
-  }
-
-  .topbar__link:hover {
-    opacity: 1;
   }
 
   .topbar__sep {
@@ -203,19 +198,12 @@ const variantClass = `topbar--${style}`;
     display: inline-block;
     font-weight: 600;
     letter-spacing: 0.02em;
-    animation: topbar-promo-pulse 3s ease-in-out infinite;
-  }
-
-  @keyframes topbar-promo-pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.75; }
   }
 
   /* ── WhatsApp highlight ── */
   .topbar__wa {
     font-weight: 600;
     color: #25D366;
-    transition: color 0.2s, opacity 0.2s;
   }
 
   .topbar--accent .topbar__wa {

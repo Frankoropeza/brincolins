@@ -2169,7 +2169,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.6rem 1.25rem;
   text-decoration: none;
   color: inherit;
-  transition: background 0.15s;
   border-bottom: 1px solid var(--c-border);
 }
 .sidebar-inflable:last-child { border-bottom: none; }
@@ -2218,7 +2217,6 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   color: inherit;
   border-bottom: 1px solid var(--c-border);
-  transition: background 0.15s;
 }
 .sidebar-article:last-child { border-bottom: none; }
 .sidebar-article:hover { background: var(--c-bg-alt); }

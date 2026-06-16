@@ -131,12 +131,11 @@ const links = [
   text-decoration: none;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  transition: color 0.15s ease, background 0.15s ease;
   position: relative;
   flex-shrink: 0;
 }
 
-/* Barra inferior animada */
+/* Barra inferior activo */
 .qnav__link::after {
   content: "";
   position: absolute;
@@ -148,7 +147,6 @@ const links = [
   border-radius: 2px 2px 0 0;
   transform: scaleX(0);
   transform-origin: center;
-  transition: transform 0.2s cubic-bezier(0.34, 1.4, 0.64, 1);
 }
 
 .qnav__link:hover {
