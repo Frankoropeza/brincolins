@@ -229,11 +229,6 @@ const inflables: SidebarInflable[] = [
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform 0.3s ease;
-  }
-
-  .csb__item:hover .csb__item-img img {
-    transform: scale(1.08);
   }
 
   /* Info */
@@ -278,12 +273,11 @@ const inflables: SidebarInflable[] = [
   .csb__item-arrow {
     color: var(--c-border);
     flex-shrink: 0;
-    transition: color 0.15s, transform 0.15s;
+    transition: color 0.15s;
   }
 
   .csb__item:hover .csb__item-arrow {
     color: var(--item-color);
-    transform: translateX(3px);
   }
 
   /* ── Divider ── */

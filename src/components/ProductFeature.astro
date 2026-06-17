@@ -356,12 +356,6 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     background: #22c55e;
     flex-shrink: 0;
     box-shadow: 0 0 0 3px rgba(34,197,94,0.2);
-    animation: pulse-green 2s infinite;
-  }
-
-  @keyframes pulse-green {
-    0%, 100% { box-shadow: 0 0 0 3px rgba(34,197,94,0.2); }
-    50% { box-shadow: 0 0 0 5px rgba(34,197,94,0.08); }
   }
 
   /* Description */
@@ -545,12 +539,7 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform 0.5s ease;
     aspect-ratio: 4/3;
-  }
-
-  .pf__gallery-main:hover img {
-    transform: scale(1.04);
   }
 
   .pf__gallery-overlay {
@@ -606,11 +595,6 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform 0.3s ease;
-  }
-
-  .pf__gallery-thumb:hover img {
-    transform: scale(1.06);
   }
 
   .pf__thumb-more {
