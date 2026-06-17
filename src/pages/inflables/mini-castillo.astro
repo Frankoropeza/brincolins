@@ -8,7 +8,6 @@ import CtaBanner from "@/components/CtaBanner.astro";
 import Gallery4x4 from "@/components/Gallery4x4.astro";
 import PricingCards from "@/components/PricingCards.astro";
 import CtaBar from "@/components/CtaBar.astro";
-import FaqSection from "@/components/FaqSection.astro";
 
 const title = "Renta de Mini Castillo Inflable | Inflables para Fiestas Pequeñas | CDMX";
 const description = "Renta de Mini Castillo inflable para fiestas en espacios pequeños. Solo 3×3m de base. El inflable más accesible de BRINCOLINS desde $800 MXN. Ideal para terrazas y patios en CDMX.";
@@ -32,6 +31,15 @@ const galleryImages = [
   { src: "/img/inflables/mini-castillo/mini-castillo-exterior.avif", alt: "Renta inflable Mini Castillo en CDMX - evento exterior" },
   { src: "/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif", alt: "Renta inflable Mini Castillo en CDMX - fiesta en interior" },
   { src: "/img/inflables/mini-castillo/mini-castillo-renta-cdmx.avif", alt: "Renta inflable Mini Castillo en CDMX - entrega a domicilio" },
+  { src: "/img/inflables/mini-castillo-primer-cumpleanos-bebe.avif", alt: "Mini Castillo inflable compacto para bebés CDMX" },
+  { src: "/img/inflables/mini-castillo-interior-departamento-cdmx.avif", alt: "Renta Mini Castillo inflable para niños pequeños" },
+  { src: "/img/inflables/mini-castillo-fiesta-interior-pequeno.avif", alt: "Inflable Mini Castillo vista frontal en interior de fiesta" },
+  { src: "/img/inflables/mini-castillo-bautizo-nino-pequeno.avif", alt: "Mini Castillo brincolin compacto evento departamento" },
+  { src: "/img/inflables/mini-castillo-vista-frontal-fiesta.avif", alt: "Renta Mini Castillo inflable primer cumpleaños bebé" },
+  { src: "/img/inflables/mini-castillo-salon-bebe-renta.avif", alt: "Mini Castillo inflable en bautizo fiesta familiar" },
+  { src: "/img/inflables/mini-castillo-instalacion-terraza-cdmx.avif", alt: "Inflable Mini Castillo renta a domicilio CDMX" },
+  { src: "/img/inflables/mini-castillo-evento-familiar-cdmx.avif", alt: "Mini Castillo inflable instalado en salón de fiestas" },
+  { src: "/img/inflables/mini-castillo-brincolin-compacto-cdmx.avif", alt: "Brincolin Mini Castillo para bebés Estado de México" },
 ];
 
 const pricingPackages = [
@@ -157,9 +165,12 @@ const ctaBarItems = [
             <a href="/inflables/" class="btn btn-outline btn-lg">Ver Catálogo de Inflables</a>
           </div>
         </div>
-        <div class="hero__copy">
-          <p class="hero__copy-text">El <strong>Mini Castillo de BRINCOLINS</strong> es el inflable más compacto y seguro de nuestro catálogo, diseñado exclusivamente para <strong>bebés y niños de 1 a 4 años</strong>. Con solo 2×2 metros de base y 2 metros de altura, es el único brincolin que cabe en <strong>departamentos, salones de fiestas pequeños y terrazas techadas</strong>. Sus paredes acolchonadas sin bordes rígidos y su altura reducida garantizan la máxima seguridad para los más pequeños de la casa.</p>
-          <p class="hero__copy-text">El servicio de renta incluye <strong>entrega a domicilio, motor inflador silencioso ideal para interiores y extensión eléctrica</strong>. Instalación en solo 15 minutos sin complicaciones. Atendemos las <strong>16 alcaldías de CDMX</strong> y municipios del Estado de México como Naucalpan, Huixquilucan, Tlalnepantla y Satélite. Perfecto para <strong>cumpleaños de primer año, bautizos y reuniones familiares</strong> donde los invitados más pequeños merecen su propia diversión segura.</p>
+        <div class="hero__img-col">
+          <div class="hero__img-wrap">
+            <img src={inflable.image} alt={`Inflable ${inflable.name} — renta BRINCOLINS CDMX`} class="hero__img" width="600" height="450" loading="eager" />
+            <div class="hero__img-pill hero__img-pill--top">Desde {inflable.price} MXN</div>
+            <div class="hero__img-pill hero__img-pill--bottom">⚡ Instalación en {inflable.installTime}</div>
+          </div>
         </div>
       </div>
     </div>
@@ -183,12 +194,6 @@ const ctaBarItems = [
     </div>
   </section>
 
-  <section class="section">
-    <div class="container">
-      <SectionHeader badge="Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="Sabemos que rentar un inflable para bebés genera dudas especiales sobre seguridad y espacio. Aquí respondemos las preguntas más comunes que recibimos de papás y mamás sobre el Mini Castillo." copy2="Si no encuentras la respuesta que buscas, escríbenos por WhatsApp y te respondemos en minutos. Nuestro equipo está disponible los 7 días de la semana para ayudarte a planear la fiesta perfecta." />
-    </div>
-    <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
-  </section>
 
   <section class="section section--alt">
     <div class="container">

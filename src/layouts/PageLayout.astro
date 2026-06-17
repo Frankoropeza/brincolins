@@ -1,6 +1,8 @@
 ---
-import BaseLayout from "@/layouts/BaseLayout.astro";
-import WaBubble   from "@/components/WaBubble.astro";
+import BaseLayout  from "@/layouts/BaseLayout.astro";
+import WaBubble    from "@/components/WaBubble.astro";
+import FaqSection  from "@/components/FaqSection.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
 
 export interface Props {
   title:        string;
@@ -27,6 +29,44 @@ const {
   product,
   whatsapp = "5531281706",
 } = Astro.props;
+
+/* ── FAQs universales de respaldo ── */
+const defaultFaqs = [
+  {
+    question: "¿Cuáles son los precios de renta de inflables?",
+    answer:   "Nuestros precios van desde $800 MXN por evento (Mini Castillo para bebés). Los inflables medianos —Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos— desde $1,200 MXN. El Barco Pirata desde $2,500 MXN y el Circuito Extremo desde $3,000 MXN. Todos incluyen entrega, instalación, motor inflador, limpieza y seguro de responsabilidad civil.",
+  },
+  {
+    question: "¿Qué incluye el servicio de renta?",
+    answer:   "Incluye entrega a domicilio sin costo adicional, instalación profesional en menos de 30 minutos, motor inflador silencioso, sanitización certificada antes del evento, seguro de responsabilidad civil y recolección al finalizar. El precio publicado es el precio final, sin cargos ocultos ni sorpresas.",
+  },
+  {
+    question: "¿Los inflables son seguros para los niños?",
+    answer:   "Sí. Todos nuestros inflables se revisan, limpian y desinfectan con protocolo certificado antes de cada evento. Están fabricados con materiales de grado comercial y cuentan con seguro de responsabilidad civil incluido en cada renta.",
+  },
+  {
+    question: "¿Cómo reservo mi fecha?",
+    answer:   "Escríbenos por WhatsApp con el inflable que te interesa, la fecha y la zona de entrega. Confirmamos disponibilidad en minutos. Para apartar la fecha se requiere un anticipo del 50%. Aceptamos transferencia bancaria, efectivo y tarjeta. El saldo se liquida el día del evento antes de la instalación.",
+  },
+  {
+    question: "¿Cuánto tiempo dura la renta?",
+    answer:   "La renta estándar es por evento completo, hasta 8 horas. Si necesitas más tiempo contamos con paquetes de día completo o renta multi-día. Consúltanos directamente por WhatsApp para ajustar el paquete a tu evento.",
+  },
+  {
+    question: "¿Qué pasa si llueve o necesito cancelar?",
+    answer:   "En caso de lluvia, reprogramamos tu evento sin costo adicional en la fecha disponible que prefieras. Para cancelaciones con más de 48 horas de anticipación devolvemos el 100% del anticipo. Tu tranquilidad es nuestra prioridad.",
+  },
+  {
+    question: "¿Cubren toda la CDMX y el Estado de México?",
+    answer:   "Cubrimos las 16 alcaldías de la Ciudad de México y los principales municipios del Estado de México: Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Atizapán, Cuautitlán Izcalli, Coacalco, Nezahualcóyotl y más. La entrega es sin costo en toda nuestra zona de cobertura.",
+  },
+  {
+    question: "¿Cuánto espacio necesito para instalar un inflable?",
+    answer:   "El Mini Castillo solo necesita 3×3 metros y funciona en interiores. Los inflables medianos requieren aproximadamente 5×5 metros. El Barco Pirata necesita 8×6 metros y el Circuito Extremo al menos 14×5 metros. Si tienes dudas, compártenos una foto del espacio y te orientamos al instante.",
+  },
+];
+
+const resolvedFaqs = faqItems && faqItems.length > 0 ? faqItems : defaultFaqs;
 ---
 
 <BaseLayout
@@ -41,5 +81,23 @@ const {
 >
   <slot name="breadcrumbs" slot="breadcrumbs" />
   <slot />
+
+  <!-- ═══════════════════════════════════════════════════════════
+       MÓDULO PRE-FOOTER — FAQ + Formulario de cotización
+       Aparece en todas las páginas del sitio automáticamente.
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="section pre-footer-faq">
+    <div class="container">
+      <SectionHeader
+        badge="Preguntas frecuentes"
+        title="Resolvemos tus Dudas sobre Renta de Inflables"
+        subtitle="Las preguntas más comunes sobre precios, servicio, seguridad y cobertura."
+        copy1="Reunimos aquí las dudas que más nos llegan antes de una reserva: precios, qué incluye el servicio, cómo apartar la fecha y qué pasa si llueve. Si no encuentras lo que buscas, escríbenos por WhatsApp y una persona real te responde en minutos."
+        copy2="Con más de 20 años atendiendo fiestas infantiles y eventos en CDMX y Estado de México, sabemos exactamente qué necesitas saber para reservar con confianza. Sin bots, sin esperas largas."
+      />
+    </div>
+    <FaqSection items={resolvedFaqs} whatsapp={whatsapp} />
+  </section>
+
   <WaBubble whatsapp={whatsapp} />
 </BaseLayout>

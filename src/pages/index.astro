@@ -2,7 +2,6 @@
 import PageLayout   from "@/layouts/PageLayout.astro";
 import ProductCard  from "@/components/ProductCard.astro";
 import BlogCard     from "@/components/BlogCard.astro";
-import FaqSection   from "@/components/FaqSection.astro";
 import CtaBanner      from "@/components/CtaBanner.astro";
 import CtaBar         from "@/components/CtaBar.astro";
 import SectionHeader  from "@/components/SectionHeader.astro";
@@ -23,13 +22,13 @@ const productos = [
 ];
 
 const testimonios = [
-  { name: "Palomita.mx", location: "palomita.mx · CDMX", text: "Llevamos más de un año coordinando eventos junto a BRINCOLINS. Los recomendamos sin dudar a nuestros clientes: llegan puntual, el montaje es profesional y los inflables siempre impecables. Una alianza que funciona de verdad.", isPartner: true },
-  { name: "Ana Laura Martínez", location: "Polanco, CDMX",       text: "Ya es la tercera vez que rento con BRINCOLINS. Siempre puntuales, amables y los inflables en perfectas condiciones. Los mejores de CDMX sin duda." },
-  { name: "Carlos Mendoza", location: "Tlalpan, CDMX",           text: "Renté el tobogán acuático para la fiesta de verano de mis hijos. Todos los niños del vecindario vinieron a brincar. Servicio de primera." },
-  { name: "Laura Sánchez", location: "Ecatepec, Edomex",         text: "Pensé que sería complicado pero todo fue muy fácil. Cotización rápida por WhatsApp, llegaron a tiempo y el inflable estaba súper limpio." },
-  { name: "María González", location: "Coyoacán, CDMX",          text: "Excelente servicio. Llegaron puntuales, el inflable estaba impecable y los niños no pararon de brincar. Definitivamente los volveré a contratar." },
-  { name: "Fernando Ríos", location: "Benito Juárez, CDMX",      text: "Los precios son justos y el servicio increíble. El castillo de princesas hizo muy feliz a mi hija. Ya estoy planeando la siguiente fiesta con ellos." },
-  { name: "Roberto Hernández", location: "Naucalpan, Edomex",    text: "Contraté el Barco Pirata para el cumpleaños de mi hijo y fue todo un éxito. Muy profesionales, seguros y a un precio justo. 100% recomendados." },
+  { name: "Palomita.mx", location: "palomita.mx · CDMX", text: "Llevamos más de un año coordinando eventos junto a BRINCOLINS. Los recomendamos sin dudar a nuestros clientes: llegan puntual, el montaje es profesional y los inflables siempre impecables. Una alianza que funciona de verdad.", isPartner: true, partnerUrl: "https://palomita.mx", partnerEmoji: "🍿" },
+  { name: "MEDEDUL", location: "mededul.com · CDMX", text: "Cuando llegamos a montar la mesa de dulces, BRINCOLINS ya tiene los inflables listos. Esa puntualidad cambia todo en eventos infantiles. Llevamos varios cumpleaños en conjunto y cada vez que los recomendamos a un cliente, el resultado es el mismo: papás felices y niños que no quieren irse. Alianza 100% recomendada.", isPartner: true, partnerUrl: "https://mededul.com", partnerEmoji: "🍬" },
+  { name: "DEGLOB", location: "fantasyglobos.com.mx · CDMX", text: "En los cumpleaños donde coincidimos con BRINCOLINS, el resultado siempre es el mismo: nosotros instalamos el arco de globos y el backdrop, ellos instalan los inflables, y los niños tienen todo en el mismo espacio. Su equipo monta ordenado y respeta los tiempos. Ya los recomendamos de forma natural cuando un cliente busca inflables para su fiesta.", isPartner: true, partnerUrl: "https://fantasyglobos.com.mx", partnerEmoji: "🎈" },
+  { name: "MESPIC", location: "mesaspicnic.com · CDMX", text: "En fiestas infantiles al aire libre, los inflables de BRINCOLINS y nuestras bancas de madera se reparten el espacio sin pisarse: los niños juegan en un lado y se sientan a comer en el otro. Su equipo llega temprano, monta ordenado y no interfiere con los demás proveedores. Ya los incluimos en nuestras recomendaciones para quienes buscan inflables.", isPartner: true, partnerUrl: "https://mesaspicnic.com", partnerEmoji: "🧺" },
+  { name: "INFLABLEE", location: "inflablee.com · CDMX", text: "Somos colegas en el mismo giro y eso hace que la referencia valga más. Cuando tenemos la agenda llena o un cliente necesita zona que nosotros no cubrimos, BRINCOLINS es a quien llamamos. Mismo estándar de limpieza, puntualidad y supervisión. Se nota que cuidan su operación igual que nosotros la nuestra.", isPartner: true, partnerUrl: "https://inflablee.com", partnerEmoji: "🎡" },
+  { name: "INFLAPY", location: "inflapy.com · CDMX", text: "Treinta años en el giro te enseñan a reconocer quién trabaja bien. BRINCOLINS tiene el estándar que uno espera de un aliado serio: inflables limpios, equipo puntual y operación sin contratiempos. Cuando un cliente nos busca en fechas que ya tenemos comprometidas, es la primera empresa que recomendamos. Y nunca hemos recibido una queja.", isPartner: true, partnerUrl: "https://inflapy.com", partnerEmoji: "🎠" },
+  { name: "PANTALLA LED", location: "pantalla-led.com · Edomex", text: "Contraté el Barco Pirata para el cumpleaños de mi hijo y fue todo un éxito. Muy profesionales, seguros y a un precio justo. 100% recomendados.", isPartner: true, partnerUrl: "https://pantalla-led.com/", partnerEmoji: "💡" },
   { name: "Karla Domínguez", location: "Tlalnepantla, Edomex",   text: "Perfecto para la kermesse de la escuela. Coordinaron 3 inflables al mismo tiempo sin ningún problema. Los papás y los niños quedaron encantados." },
 ];
 
@@ -47,40 +46,40 @@ const faqs = [
 ];
 
 const zonasCDMX = [
-  { name: "Coyoacán", href: "/cobertura/coyoacan/" },
-  { name: "Benito Juárez", href: "/cobertura/benito-juarez/" },
-  { name: "Miguel Hidalgo", href: "/cobertura/miguel-hidalgo/" },
-  { name: "Álvaro Obregón", href: "/cobertura/alvaro-obregon/" },
-  { name: "Tlalpan", href: "/cobertura/tlalpan/" },
-  { name: "Cuauhtémoc", href: "/cobertura/cuauhtemoc/" },
-  { name: "Azcapotzalco", href: "/cobertura/azcapotzalco/" },
-  { name: "Iztapalapa", href: "/cobertura/iztapalapa/" },
-  { name: "Xochimilco", href: "/cobertura/xochimilco/" },
-  { name: "Gustavo A. Madero", href: "/cobertura/gustavo-a-madero/" },
-  { name: "Iztacalco", href: "/cobertura/iztacalco/" },
-  { name: "Venustiano Carranza", href: "/cobertura/venustiano-carranza/" },
-  { name: "Cuajimalpa", href: "/cobertura/cuajimalpa/" },
-  { name: "Magdalena Contreras", href: "/cobertura/magdalena-contreras/" },
-  { name: "Tláhuac", href: "/cobertura/tlahuac/" },
-  { name: "Milpa Alta", href: "/cobertura/milpa-alta/" },
+  { name: "Álvaro Obregón",       href: "/cobertura/alvaro-obregon/" },
+  { name: "Azcapotzalco",         href: "/cobertura/azcapotzalco/" },
+  { name: "Benito Juárez",        href: "/cobertura/benito-juarez/" },
+  { name: "Coyoacán",             href: "/cobertura/coyoacan/" },
+  { name: "Cuajimalpa",           href: "/cobertura/cuajimalpa/" },
+  { name: "Cuauhtémoc",           href: "/cobertura/cuauhtemoc/" },
+  { name: "Gustavo A. Madero",    href: "/cobertura/gustavo-a-madero/" },
+  { name: "Iztacalco",            href: "/cobertura/iztacalco/" },
+  { name: "Iztapalapa",           href: "/cobertura/iztapalapa/" },
+  { name: "Magdalena Contreras",  href: "/cobertura/magdalena-contreras/" },
+  { name: "Miguel Hidalgo",       href: "/cobertura/miguel-hidalgo/" },
+  { name: "Milpa Alta",           href: "/cobertura/milpa-alta/" },
+  { name: "Tláhuac",              href: "/cobertura/tlahuac/" },
+  { name: "Tlalpan",              href: "/cobertura/tlalpan/" },
+  { name: "Venustiano Carranza",  href: "/cobertura/venustiano-carranza/" },
+  { name: "Xochimilco",           href: "/cobertura/xochimilco/" },
 ];
 
 const zonasEdomex = [
-  { name: "Naucalpan", href: "/cobertura/naucalpan/" },
-  { name: "Tlalnepantla", href: "/cobertura/tlalnepantla/" },
-  { name: "Ecatepec", href: "/cobertura/ecatepec/" },
-  { name: "Huixquilucan", href: "/cobertura/huixquilucan/" },
-  { name: "Atizapán", href: "/cobertura/atizapan/" },
-  { name: "Cuautitlán Izcalli", href: "/cobertura/cuautitlan-izcalli/" },
-  { name: "Coacalco", href: "/cobertura/coacalco/" },
-  { name: "Metepec", href: "/cobertura/metepec/" },
-  { name: "Toluca", href: "/cobertura/toluca/" },
-  { name: "Texcoco", href: "/cobertura/texcoco/" },
-  { name: "Nezahualcóyotl", href: "/cobertura/nezahualcoyotl/" },
-  { name: "Chalco", href: "/cobertura/chalco/" },
-  { name: "Tecámac", href: "/cobertura/tecamac/" },
-  { name: "Nicolás Romero", href: "/cobertura/nicolas-romero/" },
-  { name: "Tultitlán", href: "/cobertura/tultitlan/" },
+  { name: "Atizapán",          href: "/cobertura/atizapan/" },
+  { name: "Chalco",            href: "/cobertura/chalco/" },
+  { name: "Coacalco",          href: "/cobertura/coacalco/" },
+  { name: "Cuautitlán Izcalli",href: "/cobertura/cuautitlan-izcalli/" },
+  { name: "Ecatepec",          href: "/cobertura/ecatepec/" },
+  { name: "Huixquilucan",      href: "/cobertura/huixquilucan/" },
+  { name: "Metepec",           href: "/cobertura/metepec/" },
+  { name: "Naucalpan",         href: "/cobertura/naucalpan/" },
+  { name: "Nezahualcóyotl",    href: "/cobertura/nezahualcoyotl/" },
+  { name: "Nicolás Romero",    href: "/cobertura/nicolas-romero/" },
+  { name: "Tecámac",           href: "/cobertura/tecamac/" },
+  { name: "Texcoco",           href: "/cobertura/texcoco/" },
+  { name: "Tlalnepantla",      href: "/cobertura/tlalnepantla/" },
+  { name: "Toluca",            href: "/cobertura/toluca/" },
+  { name: "Tultitlán",         href: "/cobertura/tultitlan/" },
 ];
 
 const categorias = [
@@ -624,12 +623,12 @@ const eventos = [
         {testimonios.map((t, i) => {
           const avatars = [
             null,
-            "/img/testimonios/avatar-mujer-1.avif",
-            "/img/testimonios/avatar-hombre-1.avif",
-            "/img/testimonios/avatar-mujer-2.avif",
-            "/img/testimonios/avatar-mujer-3.avif",
-            "/img/testimonios/avatar-hombre-2.avif",
-            "/img/testimonios/avatar-hombre-3.avif",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
             "/img/testimonios/avatar-mujer-2.avif",
           ];
           return (
@@ -638,13 +637,13 @@ const eventos = [
               <p class="testi-card__text">"{t.text}"</p>
               <div class="testi-card__author">
                 {t.isPartner
-                  ? <div class="testi-card__avatar-icon" aria-hidden="true">🍿</div>
+                  ? <div class="testi-card__avatar-icon" aria-hidden="true">{t.partnerEmoji}</div>
                   : <img src={avatars[i]} alt={t.name} width="40" height="40" loading="lazy" class="testi-card__avatar" />
                 }
                 <div>
                   <p class="testi-card__name">{t.name}</p>
                   {t.isPartner
-                    ? <a href="https://palomita.mx" target="_blank" rel="noopener noreferrer" class="testi-card__loc testi-card__loc--link">{t.location}</a>
+                    ? <a href={t.partnerUrl} target="_blank" rel="noopener noreferrer" class="testi-card__loc testi-card__loc--link">{t.location}</a>
                     : <p class="testi-card__loc">{t.location}</p>
                   }
                 </div>
@@ -668,28 +667,47 @@ const eventos = [
         copy2="Contamos con rutas optimizadas y un equipo logístico que garantiza puntualidad en cada entrega. Si tu zona no aparece en la lista, contáctanos: frecuentemente atendemos zonas adicionales bajo consulta. La cobertura amplia es parte de nuestro compromiso con las familias de la Zona Metropolitana del Valle de México."
       />
 
-      <div>
-        <input type="radio" name="cobertura-tab" id="tab-cdmx" class="tabs__input" checked />
-        <label for="tab-cdmx" class="tabs__label">Ciudad de México</label>
-
-        <input type="radio" name="cobertura-tab" id="tab-edomex" class="tabs__input" />
-        <label for="tab-edomex" class="tabs__label">Estado de México</label>
-
-        <div class="tabs__panels">
-          <div class="tabs__panel">
-            <div class="coverage__badges">
-              {zonasCDMX.map(z => (
-                <a href={z.href} class="coverage__badge coverage__badge--link">{z.name}</a>
-              ))}
+      <div class="cob-grid">
+        <!-- CDMX -->
+        <div class="cob-panel">
+          <div class="cob-panel__head">
+            <span class="cob-panel__icon">🏙️</span>
+            <div>
+              <p class="cob-panel__title">Ciudad de México</p>
+              <p class="cob-panel__sub">{zonasCDMX.length} alcaldías cubiertas</p>
             </div>
           </div>
-          <div class="tabs__panel">
-            <div class="coverage__badges">
-              {zonasEdomex.map(z => (
-                <a href={z.href} class="coverage__badge coverage__badge--link">{z.name}</a>
-              ))}
+          <ul class="cob-panel__list">
+            {zonasCDMX.map(z => (
+              <li>
+                <a href={z.href} class="cob-panel__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg>
+                  {z.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <!-- Edomex -->
+        <div class="cob-panel cob-panel--edomex">
+          <div class="cob-panel__head cob-panel__head--edomex">
+            <span class="cob-panel__icon">🗺️</span>
+            <div>
+              <p class="cob-panel__title">Estado de México</p>
+              <p class="cob-panel__sub">{zonasEdomex.length} municipios cubiertos</p>
             </div>
           </div>
+          <ul class="cob-panel__list">
+            {zonasEdomex.map(z => (
+              <li>
+                <a href={z.href} class="cob-panel__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg>
+                  {z.name}
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
 
@@ -717,21 +735,6 @@ const eventos = [
         <a href="/blog/" class="btn btn-secondary btn-sm">Ver todos los artículos del blog</a>
       </div>
     </div>
-  </section>
-
-
-  <!-- FAQ + FORMULARIO -->
-  <section class="section">
-    <div class="container">
-      <SectionHeader
-        badge="Preguntas frecuentes"
-        title="Preguntas Frecuentes sobre Renta de Inflables en CDMX"
-        subtitle="Las 10 preguntas más comunes sobre renta de inflables para fiestas y eventos en CDMX."
-        copy1="Sabemos que rentar un inflable por primera vez genera muchas preguntas: ¿cuánto cuesta? ¿qué incluye? ¿es seguro? ¿cuánto espacio necesito? Aquí respondemos las dudas más frecuentes sobre nuestro servicio de renta de inflables para fiestas infantiles y eventos corporativos en CDMX y Edomex."
-        copy2="Si tienes alguna pregunta que no aparece aquí, escríbenos directamente por WhatsApp y te respondemos en minutos. Nuestro equipo está disponible todos los días para ayudarte a elegir el inflable perfecto y coordinar los detalles de tu evento."
-      />
-    </div>
-    <FaqSection items={faqs} whatsapp="5531281706" />
   </section>
 
 
@@ -1153,13 +1156,106 @@ const eventos = [
     flex-shrink: 0;
   }
 
-  /* ─── Coverage Links ─────────────────────────────────────── */
-  .coverage__badge--link {
-    text-decoration: none;
+  /* ─── Coverage panels ────────────────────────────────────── */
+  .cob-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
   }
-  .coverage__badge--link:hover {
-    background: var(--c-primary, #FF3D00);
+  .cob-panel {
+    border-radius: var(--r-card);
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  }
+
+  /* ── Cabeceras ── */
+  .cob-panel__head {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem 1.5rem;
+    background: linear-gradient(135deg, #FF4500 0%, #C62800 100%);
     color: #fff;
+  }
+  .cob-panel__head--edomex {
+    background: linear-gradient(135deg, #2563eb 0%, #1e3a8a 100%);
+  }
+  .cob-panel__icon {
+    font-size: 1.8rem;
+    line-height: 1;
+    flex-shrink: 0;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.25));
+  }
+  .cob-panel__title {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin: 0;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+  }
+  .cob-panel__sub {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    margin: 0.2rem 0 0;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+
+  /* ── Cuerpo con botones ── */
+  .cob-panel__list {
+    list-style: none;
+    padding: 1.25rem;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    background: #fff;
+  }
+
+  /* Botón CDMX — rojo */
+  .cob-panel__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.4rem 0.85rem;
+    border-radius: 999px;
+    border: 1.5px solid #fca5a5;
+    background: #fff5f5;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #c62800;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 1;
+  }
+  .cob-panel__link:hover {
+    background: #FF4500;
+    border-color: #FF4500;
+    color: #fff;
+  }
+  .cob-panel__link svg {
+    width: 0.75rem;
+    height: 0.75rem;
+    flex-shrink: 0;
+  }
+
+  /* Botón Edomex — azul */
+  .cob-panel--edomex .cob-panel__link {
+    border-color: #93c5fd;
+    background: #eff6ff;
+    color: #1e3a8a;
+  }
+  .cob-panel--edomex .cob-panel__link:hover {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #fff;
+  }
+
+  @media (max-width: 640px) {
+    .cob-grid { grid-template-columns: 1fr; }
   }
 
   /* ─── Testimonios grid 4 columnas ───────────────────────── */
@@ -1182,10 +1278,6 @@ const eventos = [
     flex-direction: column;
     gap: .75rem;
     box-shadow: 0 2px 8px rgba(0,0,0,.05);
-  }
-  .testi-card:hover {
-    box-shadow: 0 6px 20px rgba(0,0,0,.09);
-    transform: translateY(-2px);
   }
 
   /* ─── Badge verificado ──────────────────────────────────── */

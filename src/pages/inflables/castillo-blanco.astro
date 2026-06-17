@@ -8,7 +8,6 @@ import CtaBanner from "@/components/CtaBanner.astro";
 import Gallery4x4 from "@/components/Gallery4x4.astro";
 import PricingCards from "@/components/PricingCards.astro";
 import CtaBar from "@/components/CtaBar.astro";
-import FaqSection from "@/components/FaqSection.astro";
 
 const title = "Renta de Castillo Blanco Inflable | Inflables para Eventos Premium | CDMX";
 const description = "Renta de Castillo Blanco inflable para fiestas y eventos en CDMX. Diseño elegante y neutro para XV años, bodas y eventos premium. Instalación profesional incluida.";
@@ -33,6 +32,15 @@ const galleryImages = [
   { src: "/img/inflables/castillo-blanco/alquiler-inflable-blanco-bodas-rosas-cdmx.avif", alt: "Renta inflable Castillo Blanco en CDMX - bodas con rosas" },
   { src: "/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif", alt: "Renta inflable Castillo Blanco en CDMX - ceremonia de boda" },
   { src: "/img/inflables/castillo-blanco/brincolin-blanco-bodas-decoracion-globos.avif", alt: "Renta inflable Castillo Blanco en CDMX - decoración con globos" },
+  { src: "/img/inflables/castillo-blanco-inflable-boda-cdmx.avif", alt: "Castillo Blanco inflable para eventos elegantes CDMX" },
+  { src: "/img/inflables/castillo-blanco-boda-terraza-cdmx.avif", alt: "Inflable blanco premium para bodas en CDMX" },
+  { src: "/img/inflables/castillo-blanco-xv-anos-inflable-cdmx.avif", alt: "Castillo Blanco inflable vista frontal evento formal" },
+  { src: "/img/inflables/castillo-blanco-bautizo-evento-formal.avif", alt: "Renta de castillo inflable blanco para XV años CDMX" },
+  { src: "/img/inflables/castillo-blanco-decoracion-elegante-cdmx.avif", alt: "Castillo Blanco inflable instalado en jardín" },
+  { src: "/img/inflables/castillo-blanco-instalacion-jardin-boda.avif", alt: "Inflable Castillo Blanco en bautizo decoración elegante" },
+  { src: "/img/inflables/castillo-blanco-vista-frontal-evento.avif", alt: "Castillo Blanco inflable vista lateral evento CDMX" },
+  { src: "/img/inflables/castillo-blanco-salon-bodas-cdmx.avif", alt: "Renta inflable blanco para eventos formales Estado de México" },
+  { src: "/img/inflables/castillo-blanco-terraza-boda-edomex.avif", alt: "Castillo Blanco inflable en terraza para boda" },
 ];
 
 const pricingPackages = [
@@ -158,9 +166,12 @@ const ctaBarItems = [
             <a href="/inflables/" class="btn btn-outline btn-lg">Ver Catálogo de Inflables</a>
           </div>
         </div>
-        <div class="hero__copy">
-          <p class="hero__copy-text">El <strong>Castillo Blanco de BRINCOLINS</strong> es nuestro inflable premium diseñado para <strong>bodas, bautizos, quinceañeras y eventos formales</strong>. Su elegante diseño en blanco puro se integra a la perfección con cualquier decoración nupcial, arreglos florales y temáticas sofisticadas. Con <strong>6 metros de largo, 5 de ancho y 4 de altura</strong>, tiene capacidad para 8-10 personas simultáneamente, incluyendo adultos que quieran unirse a la diversión sin comprometer la estética del evento.</p>
-          <p class="hero__copy-text">A diferencia de los inflables coloridos, el Castillo Blanco funciona como un <strong>lienzo elegante que puedes personalizar con tules, luces LED, globos y flores</strong> para que combine con tu paleta de colores. Cada renta incluye <strong>entrega a domicilio, instalación profesional en 30 minutos, motor inflador y sanitización certificada</strong>. Servicio disponible en las <strong>16 alcaldías de CDMX</strong> y municipios del Estado de México: Huixquilucan, Naucalpan, Atizapán, Interlomas y zonas residenciales.</p>
+        <div class="hero__img-col">
+          <div class="hero__img-wrap">
+            <img src={inflable.image} alt={`Inflable ${inflable.name} — renta BRINCOLINS CDMX`} class="hero__img" width="600" height="450" loading="eager" />
+            <div class="hero__img-pill hero__img-pill--top">Desde {inflable.price} MXN</div>
+            <div class="hero__img-pill hero__img-pill--bottom">⚡ Instalación en {inflable.installTime}</div>
+          </div>
         </div>
       </div>
     </div>
@@ -184,12 +195,6 @@ const ctaBarItems = [
     </div>
   </section>
 
-  <section class="section">
-    <div class="container">
-      <SectionHeader badge="Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Castillo Blanco es nuestra opción favorita para novias, quinceañeras y organizadores de eventos elegantes. Sabemos que tienes preguntas específicas sobre cómo integrarlo en tu celebración formal." copy2="Si estás planeando una boda o quinceañera y necesitas asesoría personalizada sobre cómo incorporar el Castillo Blanco en tu evento, escríbenos por WhatsApp y te ayudamos con gusto." />
-    </div>
-    <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
-  </section>
 
   <section class="section section--alt">
     <div class="container">

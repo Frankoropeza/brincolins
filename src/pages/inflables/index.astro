@@ -3,10 +3,25 @@ import PageLayout  from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import ProductCard from "@/components/ProductCard.astro";
+import ProductFeature from "@/components/ProductFeature.astro";
+import CatalogSidebar from "@/components/CatalogSidebar.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
-
 const title = "Catálogo de Inflables para Fiestas | Renta de Inflables en CDMX y Edomex";
 const description = "Catálogo completo de inflables para fiestas y eventos en CDMX. Más de 8 modelos disponibles: castillos, barco pirata, inflable extremo, gusanitos y más. Entrega e instalación incluida.";
+
+const faqs = [
+  { question: "¿Cuáles son los inflables disponibles para rentar?", answer: "Contamos con 8 modelos: Dragones Rojos, Castillo de Princesas, Mini Jungla, Gusanitos, Mini Castillo (para bebés), Barco Pirata, Circuito Extremo y Castillo Blanco (para bodas y XV años). Cada uno tiene precios, dimensiones y edades recomendadas distintas para adaptarse a cualquier evento." },
+  { question: "¿Cuál es el inflable más económico?", answer: "El Mini Castillo es el más accesible desde $800 MXN. Está diseñado para bebés y niños de 1 a 4 años, mide 2×2×2 metros y es perfecto para interiores y espacios reducidos. Los inflables medianos (Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos) inician desde $1,200 MXN." },
+  { question: "¿Cuál es el inflable más popular para cumpleaños?", answer: "Los Dragones Rojos es el más rentado de nuestro catálogo en CDMX y Estado de México. Con dos dragones de 3 metros, resbaladilla integrada y mallas de seguridad, es el favorito para niños de 4 a 10 años. El Castillo de Princesas es el número uno para fiestas de niñas." },
+  { question: "¿Qué inflable me recomiendas para niños pequeños?", answer: "El Mini Castillo es ideal para bebés y niños de 1 a 4 años. Tiene paredes suaves, altura manejable y diseño abierto para supervisión constante. Solo mide 2×2×2 metros, por lo que cabe en interiores, departamentos y terrazas. Para niños de 3 a 10 años, los inflables medianos como Dragones Rojos o Mini Jungla son perfectos." },
+  { question: "¿Qué inflable necesita más espacio?", answer: "El Circuito Extremo necesita al menos 14×5 metros (es una pista de 12 metros). El Barco Pirata requiere 8×6 metros. Los inflables medianos (Dragones Rojos, Castillo de Princesas, Mini Jungla, Gusanitos) necesitan unos 5×5 metros. El Mini Castillo solo 3×3 metros y funciona en interiores." },
+  { question: "¿Hay inflables para adultos o para bodas?", answer: "Sí. El Castillo Blanco es nuestro modelo premium para bodas, XV años, bautizos y eventos formales. Mide 6×5×4 metros, tiene torres decorativas en blanco inmaculado y es apto para adultos y niños (capacidad 8-10 personas). El Circuito Extremo de 12 metros también es muy popular para team building corporativo y adultos." },
+  { question: "¿Cuántos niños pueden usar el inflable al mismo tiempo?", answer: "Depende del modelo: el Mini Castillo admite 3-4 niños; los medianos (Dragones Rojos, Princesas, Mini Jungla, Gusanitos) entre 5-7 niños; el Barco Pirata hasta 10-15 niños simultáneamente; el Castillo Blanco 8-10 personas; el Circuito Extremo 2-4 por carril en carreras." },
+  { question: "¿Todos los inflables incluyen entrega e instalación?", answer: "Sí, todos incluyen entrega a domicilio sin costo extra, instalación profesional en menos de 30 minutos, motor inflador silencioso, limpieza y sanitización certificada, seguro de responsabilidad civil y recolección al finalizar. El precio que ves es el precio final, sin costos ocultos." },
+  { question: "¿Cómo aparto mi fecha con un inflable del catálogo?", answer: "Escríbenos por WhatsApp con el inflable que te interesa, la fecha y la zona de entrega. Te confirmamos disponibilidad en minutos. Para apartar la fecha se requiere un anticipo del 50%. Aceptamos transferencia bancaria, efectivo y tarjeta. El saldo se paga el día del evento." },
+  { question: "¿Puedo rentar más de un inflable para mi evento?", answer: "Sí, y contamos con paquetes multi-inflable para kermeses escolares, eventos corporativos y ferias. Desde 3 inflables incluimos coordinador de logística sin costo adicional. Cuéntanos las necesidades de tu evento y te armamos un paquete a la medida con precio especial." },
+];
 
 const productos = [
   { slug: "dragones-rojos", emoji: "", name: "Dragones Rojos", description: "El inflable más rentado en CDMX y Estado de México. Dos dragones gigantes de 3 metros con resbaladilla integrada y mallas de seguridad.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
@@ -24,6 +39,7 @@ const productos = [
   title={title}
   description={description}
   pageType="category"
+  faqItems={faqs}
   breadcrumbs={[
     { name: "Inicio", href: "/" },
     { name: "Inflables" },
@@ -62,9 +78,417 @@ const productos = [
 
   <section class="section" style="padding-top:1.5rem;">
     <div class="container">
+      <SectionHeader
+        badge="Catálogo"
+        title="Catálogo de Inflables para Fiestas y Eventos en CDMX"
+        subtitle="Encuentra el inflable perfecto según el tipo y tamaño de tu evento."
+        copy1="Organizamos nuestro catálogo de brincolines e inflables por categorías para que encuentres exactamente lo que buscas en segundos. Desde el Mini Castillo para los más pequeños hasta circuitos de obstáculos para eventos masivos, cada categoría incluye inflables de diferentes tamaños, temas y precios para CDMX y Estado de México."
+        copy2="Todos los inflables incluyen entrega, instalación profesional y seguro de responsabilidad civil. Explora la categoría que más te interese y descubre las opciones disponibles con sus precios, dimensiones y edades recomendadas."
+      />
       <div class="grid-4">
         {productos.map(p => <ProductCard {...p} />)}
       </div>
+    </div>
+  </section>
+
+  <!-- ── Sección destacada: ProductFeature + CatalogSidebar ── -->
+  <section class="section section--alt featured-section">
+    <div class="container">
+
+      <SectionHeader
+        badge="🔥 Más rentado"
+        title="Conoce nuestro inflable estrella"
+        subtitle="Detalle completo · galería de fotos reales · precios transparentes"
+        copy1="El inflable Dragones Rojos es el más solicitado de nuestro catálogo en CDMX y Estado de México. Con sus dos dragones de 3 metros, resbaladilla integrada y colores en rojo y dorado, se convierte en el centro de atención de cualquier fiesta infantil."
+        copy2="Disponible desde $1,200 MXN con entrega, instalación, motor inflador y seguro de responsabilidad civil incluidos. Cabe en un espacio de 5×5 metros — ideal para jardines, patios y salones de eventos."
+      />
+
+      <!-- Layout main + sidebar -->
+      <div class="featured-layout">
+        <div class="featured-layout__main">
+          <ProductFeature
+            name="Dragones Rojos"
+            slug="dragones-rojos"
+            category="Más popular"
+            categoryColor="castillo"
+            price="$1,200"
+            size="4×4×3m"
+            ages="4-10 años"
+            capacity="5-7 niños"
+            installTime="20 minutos"
+            description="El inflable más rentado en Ciudad de México y Estado de México. Dos dragones gigantes de 3 metros custodian el castillo, con resbaladilla integrada de alta velocidad y mallas de seguridad en todos los costados. Fabricado con PVC de grado comercial — el favorito para cumpleaños de 4 a 10 años."
+            features={[
+              { icon: "🐉", text: "Dos dragones decorativos de 3 metros de altura" },
+              { icon: "🛝", text: "Resbaladilla integrada de alta velocidad" },
+              { icon: "🔒", text: "Mallas de seguridad perimetrales para supervisión" },
+              { icon: "🧼", text: "Sanitización certificada antes de cada evento" },
+              { icon: "🚚", text: "Entrega, instalación y motor inflador incluidos" },
+              { icon: "📋", text: "Seguro de responsabilidad civil disponible" },
+            ]}
+            image="/img/inflables/dragones-rojos.avif"
+            imageAlt="Inflable Dragones Rojos — el más rentado en CDMX y Estado de México"
+            gallery={[
+              { src: "/img/inflables/dragones-rojos/castillo-dragones-exterior-jardin.avif", alt: "Inflable Dragones Rojos instalado en jardín exterior" },
+              { src: "/img/inflables/dragones-rojos/dragones-frontal-resbaladilla.avif", alt: "Resbaladilla frontal del inflable Dragones Rojos" },
+            ]}
+          />
+        </div>
+
+        <div class="featured-layout__sidebar">
+          <CatalogSidebar activeSlug="dragones-rojos" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Sección destacada: Castillo de Princesas ── -->
+  <section class="section featured-section">
+    <div class="container">
+
+      <SectionHeader
+        badge="👑 Favorito para niñas"
+        title="El Castillo de Princesas más solicitado"
+        subtitle="Rosa · turquesa · resbaladilla incluida · perfecto para cumpleaños temáticos"
+        copy1="Transforma el cumpleaños de tu hija en un cuento de hadas con el Castillo de Princesas. Su diseño en rosa y turquesa con dos princesas decorativas de 3 metros y resbaladilla integrada lo convierten en el inflable más solicitado para fiestas temáticas de niñas."
+        copy2="Ideal para niñas de 4 a 10 años con capacidad para 5-7 simultáneamente. Disponible desde $1,200 MXN con entrega, instalación y seguro incluidos en toda la CDMX y Estado de México."
+      />
+
+      <div class="featured-layout">
+        <div class="featured-layout__main">
+          <ProductFeature
+            name="Castillo de Princesas"
+            slug="castillo-princesas"
+            category="Princesas"
+            categoryColor="princesas"
+            price="$1,200"
+            size="4×4×3m"
+            ages="4-10 años"
+            capacity="5-7 niños"
+            installTime="20 minutos"
+            description="El favorito indiscutible para fiestas de niñas. Castillo inflable en rosa y turquesa con dos princesas de 3 metros de altura como decoración principal, resbaladilla integrada y mallas de seguridad perimetrales. El sueño de toda cumpleañera hecho realidad."
+            features={[
+              { icon: "👸", text: "Dos princesas decorativas de 3 metros de altura" },
+              { icon: "🛝", text: "Resbaladilla integrada de alta velocidad" },
+              { icon: "🌸", text: "Diseño rosa y turquesa temático de princesas" },
+              { icon: "🔒", text: "Mallas de seguridad perimetrales para supervisión" },
+              { icon: "🚚", text: "Entrega, instalación y motor inflador incluidos" },
+              { icon: "🧼", text: "Sanitización certificada antes de cada evento" },
+            ]}
+            image="/img/inflables/castillo-princesas.avif"
+            imageAlt="Castillo de Princesas inflable — el favorito para fiestas de niñas en CDMX"
+            gallery={[
+              { src: "/img/inflables/castillo-princesas/castillo-princesas-exterior-jardin.avif", alt: "Castillo de Princesas instalado en jardín exterior" },
+              { src: "/img/inflables/castillo-princesas/castillo-princesas-renta-cdmx.avif", alt: "Renta de Castillo de Princesas en CDMX" },
+            ]}
+          />
+        </div>
+
+        <div class="featured-layout__sidebar">
+          <CatalogSidebar activeSlug="castillo-princesas" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Sección destacada: Mini Jungla ── -->
+  <section class="section section--alt featured-section">
+    <div class="container">
+
+      <SectionHeader
+        badge="🌿 Aventura tropical"
+        title="Mini Jungla — Safari en tu fiesta"
+        subtitle="Dinosaurios · palmeras · animales decorativos · ideal para exteriores"
+        copy1="La Mini Jungla lleva la aventura selvática a tu fiesta. Con animales decorativos de 2 metros, dinosaurios y palmeras tropicales, es el inflable perfecto para temáticas de safari, naturaleza y exploración. Sus colores vivos destacan en cualquier jardín o terraza."
+        copy2="Diseñado para niños de 3 a 10 años con capacidad para 5-7 simultáneamente. Ideal para fiestas al aire libre. Disponible desde $1,200 MXN con instalación profesional en 15 minutos incluida."
+      />
+
+      <div class="featured-layout">
+        <div class="featured-layout__main">
+          <ProductFeature
+            name="Mini Jungla"
+            slug="mini-jungla"
+            category="Aventura"
+            categoryColor="jungla"
+            price="$1,200"
+            size="4×4×3m"
+            ages="3-10 años"
+            capacity="5-7 niños"
+            installTime="15 minutos"
+            description="Inflable temático de safari que transporta a los niños a una aventura tropical. Animales decorativos de 2 metros, palmeras y dinosaurios rodean el área de salto con colores vibrantes de la selva. Ideal para exploradores y fiestas al aire libre con temática de naturaleza."
+            features={[
+              { icon: "🦕", text: "Animales y dinosaurios decorativos de 2 metros" },
+              { icon: "🌴", text: "Palmeras tropicales en el diseño perimetral" },
+              { icon: "🛝", text: "Resbaladilla integrada con diseño selvático" },
+              { icon: "🔒", text: "Mallas de seguridad para supervisión continua" },
+              { icon: "🌤️", text: "Perfecto para jardines, terrazas y espacios al aire libre" },
+              { icon: "🚚", text: "Entrega, instalación y motor inflador incluidos" },
+            ]}
+            image="/img/inflables/mini-jungla.avif"
+            imageAlt="Inflable Mini Jungla — temática safari con animales y palmeras tropicales"
+            gallery={[
+              { src: "/img/inflables/mini-jungla/mini-jungla-dinosaurios-palmeras.avif", alt: "Inflable Mini Jungla con dinosaurios y palmeras tropicales" },
+              { src: "/img/inflables/mini-jungla/mini-jungla-exterior-evento.avif", alt: "Mini Jungla instalada en evento al aire libre" },
+            ]}
+          />
+        </div>
+
+        <div class="featured-layout__sidebar">
+          <CatalogSidebar activeSlug="mini-jungla" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Sección destacada: Gusanitos ── -->
+  <section class="section featured-section">
+    <div class="container">
+
+      <SectionHeader
+        badge="🐛 Tropical"
+        title="Gusanitos — Colores y diversión desbordante"
+        subtitle="Verde · morado · amarillo · azul · el más colorido del catálogo"
+        copy1="El Gusanitos es el inflable más colorido y alegre del catálogo. Sus personajes de gusanitos multicolor y palmeras tropicales crean un ambiente festivo irresistible. Amplia área de salto con resbaladilla integrada para máxima diversión al aire libre."
+        copy2="Perfecto para niños de 4 a 10 años con capacidad para 5-7 simultáneamente. Disponible desde $1,200 MXN con entrega e instalación incluidas en CDMX y Estado de México."
+      />
+
+      <div class="featured-layout">
+        <div class="featured-layout__main">
+          <ProductFeature
+            name="Gusanitos"
+            slug="gusanitos"
+            category="Tropical"
+            categoryColor="jungla"
+            price="$1,200"
+            size="4×4×3m"
+            ages="4-10 años"
+            capacity="5-7 niños"
+            installTime="20 minutos"
+            description="El inflable más colorido del catálogo. Gusanitos decorativos y palmeras tropicales rodean una amplia área de salto con colores vibrantes en verde, morado, amarillo y azul. El brincolin favorito para fiestas con mucho color y energía al aire libre."
+            features={[
+              { icon: "🐛", text: "Gusanitos decorativos multicolor como personajes principales" },
+              { icon: "🌴", text: "Palmeras tropicales integradas en el diseño perimetral" },
+              { icon: "🌈", text: "Colores vibrantes: verde, morado, amarillo y azul" },
+              { icon: "🛝", text: "Resbaladilla integrada con amplia área de salto" },
+              { icon: "🔒", text: "Mallas de seguridad perimetrales para supervisión" },
+              { icon: "🚚", text: "Entrega, instalación y motor inflador incluidos" },
+            ]}
+            image="/img/inflables/gusanitos.avif"
+            imageAlt="Inflable Gusanitos — colores tropicales vibrantes para fiestas infantiles"
+            gallery={[
+              { src: "/img/inflables/gusanitos/gusanitos-exterior-jardin.avif", alt: "Inflable Gusanitos en jardín exterior para fiesta" },
+              { src: "/img/inflables/gusanitos/gusanitos-inflable-fiesta.avif", alt: "Gusanitos inflable en fiesta infantil con niños jugando" },
+            ]}
+          />
+        </div>
+
+        <div class="featured-layout__sidebar">
+          <CatalogSidebar activeSlug="gusanitos" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Sección destacada: Mini Castillo ── -->
+  <section class="section section--alt featured-section">
+    <div class="container">
+
+      <SectionHeader
+        badge="🍼 Para los más pequeños"
+        title="Mini Castillo — Ideal para bebés y niños"
+        subtitle="Compacto · paredes suaves · perfecto para interiores y espacios reducidos"
+        copy1="El Mini Castillo es la opción perfecta cuando los invitados son los más pequeños de la casa. Diseñado para bebés y niños de 1 a 4 años con paredes suaves acolchonadas y altura manejable que facilita la supervisión de los padres en todo momento."
+        copy2="Su tamaño compacto de 2×2×2 metros lo hace ideal para interiores, departamentos y terrazas donde los modelos grandes no caben. Disponible desde $800 MXN — el más accesible del catálogo."
+      />
+
+      <div class="featured-layout">
+        <div class="featured-layout__main">
+          <ProductFeature
+            name="Mini Castillo"
+            slug="mini-castillo"
+            category="Chico"
+            categoryColor="castillo"
+            price="$800"
+            size="2×2×2m"
+            ages="1-4 años"
+            capacity="3-4 niños"
+            installTime="15 minutos"
+            description="El brincolín compacto diseñado especialmente para bebés y niños pequeños de 1 a 4 años. Paredes suaves, altura manejable y diseño abierto que facilita la supervisión de los padres en todo momento. Perfecto para interiores, departamentos y espacios reducidos donde los modelos grandes no caben."
+            features={[
+              { icon: "🍼", text: "Diseñado específicamente para bebés y niños de 1-4 años" },
+              { icon: "🛡️", text: "Paredes suaves y acolchonadas sin riesgo de golpes" },
+              { icon: "👁️", text: "Diseño abierto para supervisión total de los padres" },
+              { icon: "🏠", text: "Compacto: cabe en interiores, pasillos y terrazas pequeñas" },
+              { icon: "⚡", text: "Instalación rápida: listo en 15 minutos" },
+              { icon: "🚚", text: "Entrega, instalación y motor inflador incluidos" },
+            ]}
+            image="/img/inflables/mini-castillo.avif"
+            imageAlt="Mini Castillo inflable — compacto para bebés y niños pequeños de 1 a 4 años"
+            gallery={[
+              { src: "/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif", alt: "Mini Castillo instalado en interior de fiesta" },
+              { src: "/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif", alt: "Mini Castillo en cumpleaños infantil" },
+            ]}
+          />
+        </div>
+
+        <div class="featured-layout__sidebar">
+          <CatalogSidebar activeSlug="mini-castillo" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Sección destacada: Barco Pirata ── -->
+  <section class="section featured-section">
+    <div class="container">
+
+      <SectionHeader
+        badge="⚓ El más grande"
+        title="Barco Pirata — Aventura épica en tu fiesta"
+        subtitle="7×5×4m · tobogán gigante · hasta 15 niños simultáneos"
+        copy1="El Barco Pirata es nuestra opción más impresionante para grupos grandes. Con 7×5×4 metros de extensión, mástil de 4 metros, velas decorativas y tobogán gigante de alta velocidad, es el inflable que convierte cualquier fiesta en una aventura memorable."
+        copy2="Con capacidad para 10-15 niños simultáneamente, es ideal para cumpleaños grandes, kermeses y eventos al aire libre. Disponible desde $2,500 MXN con instalación profesional en 30 minutos incluida."
+      />
+
+      <div class="featured-layout">
+        <div class="featured-layout__main">
+          <ProductFeature
+            name="Barco Pirata"
+            slug="barco-pirata"
+            category="Grande"
+            categoryColor="pirata"
+            price="$2,500"
+            size="7×5×4m"
+            ages="3-12 años"
+            capacity="10-15 niños"
+            installTime="30 minutos"
+            description="Nuestro inflable más impresionante en tamaño mediano. Con 7×5×4 metros de aventura pirata, velas decorativas, mástil de 4 metros, tobogán gigante de alta velocidad y zona de brinco amplia. Capacidad para 10-15 niños simultáneamente — el centro de atención de cualquier fiesta."
+            features={[
+              { icon: "⚓", text: "Mástil decorativo de 4 metros con velas de barco pirata" },
+              { icon: "🛝", text: "Tobogán gigante de alta velocidad integrado" },
+              { icon: "👥", text: "Capacidad para 10-15 niños brincando al mismo tiempo" },
+              { icon: "🔒", text: "Mallas de seguridad perimetrales en todo el perímetro" },
+              { icon: "📐", text: "Requiere espacio mínimo de 8×6m para instalación" },
+              { icon: "🚚", text: "Entrega, instalación y motor inflador incluidos" },
+            ]}
+            image="/img/inflables/barco-pirata.avif"
+            imageAlt="Barco Pirata inflable — el más grande con tobogán gigante para fiestas en CDMX"
+            gallery={[
+              { src: "/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif", alt: "Barco Pirata instalado en evento exterior" },
+              { src: "/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif", alt: "Vista lateral del Barco Pirata en CDMX" },
+            ]}
+          />
+        </div>
+
+        <div class="featured-layout__sidebar">
+          <CatalogSidebar activeSlug="barco-pirata" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Sección destacada: Extremo ── -->
+  <section class="section section--alt featured-section">
+    <div class="container">
+
+      <SectionHeader
+        badge="🔥 Nivel extremo"
+        title="Circuito Extremo — 12 metros de adrenalina"
+        subtitle="Obstáculos · túneles · tobogán doble · carril de carreras · para 6+ años"
+        copy1="El Circuito Extremo es el inflable más emocionante del catálogo para niños mayores y adolescentes. 12 metros de pista con muros para escalar, túneles de arrastre y tobogán final en doble carril para competencias cabeza a cabeza."
+        copy2="Ideal para eventos corporativos, kermeses escolares y fiestas con grupos de 6+ años. El doble carril permite carreras simultáneas que generan ambiente competitivo y adrenalina. Disponible desde $3,000 MXN."
+      />
+
+      <div class="featured-layout">
+        <div class="featured-layout__main">
+          <ProductFeature
+            name="Extremo"
+            slug="extremo"
+            category="Extremo"
+            categoryColor="extremo"
+            price="$3,000"
+            size="12×4×3m"
+            ages="6+ años"
+            capacity="2-4 por carril"
+            installTime="30 minutos"
+            description="El inflable más grande y emocionante del catálogo. 12 metros de circuito de obstáculos con muros para escalar, túneles de arrastre y tobogán final en doble carril para carreras simultáneas. Ideal para eventos corporativos, kermeses escolares y fiestas con adolescentes que buscan adrenalina."
+            features={[
+              { icon: "🏃", text: "12 metros de circuito de obstáculos completo" },
+              { icon: "🧱", text: "Muros para escalar integrados en el recorrido" },
+              { icon: "🕳️", text: "Túneles de arrastre para máxima adrenalina" },
+              { icon: "🛝", text: "Tobogán final con doble carril para carreras" },
+              { icon: "🏢", text: "Ideal para eventos corporativos y kermeses escolares" },
+              { icon: "🚚", text: "Entrega, instalación y motor inflador incluidos" },
+            ]}
+            image="/img/inflables/extremo.avif"
+            imageAlt="Circuito Extremo inflable — 12 metros de obstáculos y tobogán doble para eventos en CDMX"
+            gallery={[
+              { src: "/img/inflables/extremo/extremo-circuito-completo.avif", alt: "Vista completa del circuito Extremo" },
+              { src: "/img/inflables/extremo/extremo-tobogan-doble.avif", alt: "Tobogán doble del inflable Extremo" },
+            ]}
+          />
+        </div>
+
+        <div class="featured-layout__sidebar">
+          <CatalogSidebar activeSlug="extremo" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Sección destacada: Castillo Blanco ── -->
+  <section class="section featured-section">
+    <div class="container">
+
+      <SectionHeader
+        badge="💍 Eventos formales"
+        title="Castillo Blanco — Elegancia para bodas y XV años"
+        subtitle="Blanco inmaculado · torres decorativas · perfecto para eventos formales"
+        copy1="El Castillo Blanco es nuestra opción premium para eventos formales. Su diseño en blanco inmaculado con torres decorativas de 3 metros se integra perfectamente con la decoración de bodas, XV años y bautizos sin romper la estética del evento."
+        copy2="A diferencia de otros inflables, es apto para adultos y niños con capacidad para 8-10 personas simultáneamente. Disponible desde $2,800 MXN — elegancia y diversión sin compromisos."
+      />
+
+      <div class="featured-layout">
+        <div class="featured-layout__main">
+          <ProductFeature
+            name="Castillo Blanco"
+            slug="castillo-blanco"
+            category="Bodas"
+            categoryColor="bodas"
+            price="$2,800"
+            size="6×5×4m"
+            ages="3+ años"
+            capacity="8-10 personas"
+            installTime="30 minutos"
+            description="El inflable más elegante del catálogo, diseñado para bodas, XV años, bautizos y eventos formales. Blanco inmaculado con torres decorativas de 3 metros que se integra perfectamente con cualquier decoración de evento. Capacidad para 8-10 personas — adultos y niños por igual."
+            features={[
+              { icon: "🏰", text: "Torres decorativas de 3 metros en blanco inmaculado" },
+              { icon: "💍", text: "Diseño premium para bodas, XV años y bautizos" },
+              { icon: "👨‍👩‍👧", text: "Apto para adultos y niños: capacidad 8-10 personas" },
+              { icon: "🎨", text: "Blanco neutro que combina con cualquier decoración" },
+              { icon: "🔒", text: "Mallas de seguridad discretas y elegantes" },
+              { icon: "🚚", text: "Entrega, instalación y motor inflador incluidos" },
+            ]}
+            image="/img/inflables/castillo-blanco.avif"
+            imageAlt="Castillo Blanco inflable premium — ideal para bodas, XV años y eventos formales en CDMX"
+            gallery={[
+              { src: "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-decoracion.avif", alt: "Castillo Blanco en decoración de boda" },
+              { src: "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-terraza-cdmx.avif", alt: "Castillo Blanco en terraza para boda en CDMX" },
+            ]}
+          />
+        </div>
+
+        <div class="featured-layout__sidebar">
+          <CatalogSidebar activeSlug="castillo-blanco" />
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -79,3 +503,41 @@ const productos = [
   />
 
 </PageLayout>
+
+<style>
+  /* ── Featured layout: main 65% + sidebar 35% ── */
+  .featured-layout {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .featured-layout__main {
+    min-width: 0;
+  }
+
+  .featured-layout__sidebar {
+    min-width: 0;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 1100px) {
+    .featured-layout {
+      grid-template-columns: 1fr 280px;
+      gap: 1.5rem;
+    }
+  }
+
+  @media (max-width: 860px) {
+    .featured-layout {
+      grid-template-columns: 1fr;
+    }
+
+    .featured-layout__sidebar {
+      max-width: 560px;
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+</style>

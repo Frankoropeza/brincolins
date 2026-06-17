@@ -1,0 +1,680 @@
+---
+/**
+ * ProductFeature — BRINCOLINS
+ * Módulo editorial premium: info detallada + galería 1+2
+ * Diseñado para la sección destacada de /inflables/
+ */
+
+export interface FeatureItem {
+  icon: string;
+  text: string;
+}
+
+export interface Props {
+  name: string;
+  slug: string;
+  category: string;
+  categoryColor?: string;
+  price: string;
+  size: string;
+  ages: string;
+  capacity?: string;
+  installTime?: string;
+  description: string;
+  features: FeatureItem[];
+  image: string;
+  imageAlt: string;
+  gallery: { src: string; alt: string }[];
+  waMessage?: string;
+}
+
+const {
+  name,
+  slug,
+  categoryColor = "castillo",
+  price,
+  size,
+  ages,
+  capacity,
+  installTime,
+  description,
+  features,
+  image,
+  imageAlt,
+  gallery,
+  waMessage,
+} = Astro.props;
+
+const waMsg = waMessage ?? `Hola BRINCOLINS, quiero cotizar el inflable "${name}" para mi fiesta.`;
+const waHref = `https://wa.me/5531281706?text=${encodeURIComponent(waMsg)}`;
+const detailHref = `/inflables/${slug}/`;
+
+const categoryColors: Record<string, string> = {
+  castillo: "#FF3D00",
+  princesas: "#E91E8C",
+  pirata: "#1565C0",
+  jungla: "#2E7D32",
+  acuatico: "#0288D1",
+  deportivo: "#FF6F00",
+  extremo: "#E65100",
+  bodas: "#7E57C2",
+};
+const accentColor = categoryColors[categoryColor] ?? "#FF3D00";
+const accentColorLight = accentColor + "14"; // ~8% opacity
+---
+
+<article class="pf" style={`--pf-accent: ${accentColor}; --pf-accent-light: ${accentColorLight};`}>
+
+  <!-- Accent top bar -->
+  <div class="pf__accent-bar"></div>
+
+  <div class="pf__inner">
+    <!-- ── COLUMNA INFO ── -->
+    <div class="pf__info">
+
+      <!-- Encabezado: badge + estrellas -->
+      <div class="pf__header">
+        <span class="pf__cat-badge">
+          <span class="pf__cat-dot"></span>
+          Más popular
+        </span>
+        <div class="pf__rating">
+          <span class="pf__stars">★★★★★</span>
+          <span class="pf__rating-text">5.0 · +200 rentas</span>
+        </div>
+      </div>
+
+      <h2 class="pf__title">{name}</h2>
+
+      <!-- Precio + disponibilidad -->
+      <div class="pf__price-row">
+        <div class="pf__price-block">
+          <span class="pf__price-label">Desde</span>
+          <span class="pf__price">{price} <span class="pf__price-currency">MXN</span></span>
+          <span class="pf__price-note">por evento · entrega incluida</span>
+        </div>
+        <div class="pf__availability">
+          <span class="pf__avail-dot"></span>
+          Disponible hoy
+        </div>
+      </div>
+
+      <p class="pf__desc">{description}</p>
+
+      <!-- Features -->
+      <ul class="pf__features">
+        {features.map(f => (
+          <li class="pf__feature">
+            <span class="pf__feature-icon">{f.icon}</span>
+            <span class="pf__feature-text">{f.text}</span>
+          </li>
+        ))}
+      </ul>
+
+      <!-- Specs strip -->
+      <div class="pf__specs">
+        <div class="pf__spec">
+          <span class="pf__spec-ico">📐</span>
+          <span class="pf__spec-val">{size}</span>
+          <span class="pf__spec-lbl">Tamaño</span>
+        </div>
+        <div class="pf__spec-divider"></div>
+        <div class="pf__spec">
+          <span class="pf__spec-ico">👦</span>
+          <span class="pf__spec-val">{ages}</span>
+          <span class="pf__spec-lbl">Edades</span>
+        </div>
+        {capacity && <>
+          <div class="pf__spec-divider"></div>
+          <div class="pf__spec">
+            <span class="pf__spec-ico">👥</span>
+            <span class="pf__spec-val">{capacity}</span>
+            <span class="pf__spec-lbl">Capacidad</span>
+          </div>
+        </>}
+        {installTime && <>
+          <div class="pf__spec-divider"></div>
+          <div class="pf__spec">
+            <span class="pf__spec-ico">⚡</span>
+            <span class="pf__spec-val">{installTime}</span>
+            <span class="pf__spec-lbl">Instalación</span>
+          </div>
+        </>}
+      </div>
+
+      <!-- CTAs -->
+      <div class="pf__actions">
+        <a href={waHref} target="_blank" rel="nofollow noopener noreferrer" class="pf__btn pf__btn--wa">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Cotizar por WhatsApp
+        </a>
+        <a href={detailHref} class="pf__btn pf__btn--detail">
+          Ver todos los detalles
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Trust strip -->
+      <div class="pf__trust">
+        <span class="pf__trust-item">🔒 50% anticipo</span>
+        <span class="pf__trust-sep">·</span>
+        <span class="pf__trust-item">🧼 Sanitizado</span>
+        <span class="pf__trust-sep">·</span>
+        <span class="pf__trust-item">🏙️ CDMX y Edomex</span>
+      </div>
+    </div>
+
+    <!-- ── COLUMNA GALERÍA ── -->
+    <div class="pf__gallery">
+      <!-- Imagen principal -->
+      <div class="pf__gallery-main">
+        <img src={image} alt={imageAlt} width="720" height="540" loading="lazy" />
+        <div class="pf__gallery-overlay">
+          <a href={detailHref} class="pf__gallery-cta">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            Ver galería completa
+          </a>
+        </div>
+      </div>
+
+      <!-- Thumbnails -->
+      {gallery.length >= 2 && (
+        <div class="pf__gallery-thumbs">
+          {gallery.slice(0, 2).map((img, i) => (
+            <div class="pf__gallery-thumb">
+              <img src={img.src} alt={img.alt} width="360" height="270" loading="lazy" />
+              {i === 1 && (
+                <div class="pf__thumb-more">
+                  <a href={detailHref}>+9 fotos →</a>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+</article>
+
+<style>
+  /* ── Card wrapper ── */
+  .pf {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 24px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .pf__accent-bar {
+    height: 4px;
+    background: linear-gradient(90deg, var(--pf-accent) 0%, color-mix(in srgb, var(--pf-accent) 60%, #FFD600) 100%);
+  }
+
+  .pf__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    align-items: stretch;
+  }
+
+  /* ── Info ── */
+  .pf__info {
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border-right: 1px solid #f0f0f0;
+  }
+
+  /* Header row */
+  .pf__header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .pf__cat-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.3rem 0.9rem 0.3rem 0.7rem;
+    background: var(--pf-accent-light);
+    border: 1px solid var(--pf-accent);
+    border-radius: 50px;
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 0.72rem;
+    color: var(--pf-accent);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .pf__cat-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--pf-accent);
+    flex-shrink: 0;
+  }
+
+  .pf__rating {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .pf__stars {
+    color: #F59E0B;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+  }
+
+  .pf__rating-text {
+    font-size: 0.78rem;
+    color: var(--c-text-muted);
+    font-weight: 600;
+  }
+
+  /* Title */
+  .pf__title {
+    font-family: var(--font-head);
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    color: var(--c-text);
+    margin-bottom: 1.25rem;
+  }
+
+  /* Price row */
+  .pf__price-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    background: var(--pf-accent-light);
+    border: 1px solid color-mix(in srgb, var(--pf-accent) 20%, transparent);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .pf__price-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .pf__price-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--c-text-muted);
+    font-weight: 600;
+  }
+
+  .pf__price {
+    font-family: var(--font-head);
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: var(--pf-accent);
+    line-height: 1;
+  }
+
+  .pf__price-currency {
+    font-size: 1rem;
+    font-weight: 700;
+    opacity: 0.7;
+  }
+
+  .pf__price-note {
+    font-size: 0.73rem;
+    color: var(--c-text-muted);
+  }
+
+  .pf__availability {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #16a34a;
+    white-space: nowrap;
+  }
+
+  .pf__avail-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #22c55e;
+    flex-shrink: 0;
+    box-shadow: 0 0 0 3px rgba(34,197,94,0.2);
+    animation: pulse-green 2s infinite;
+  }
+
+  @keyframes pulse-green {
+    0%, 100% { box-shadow: 0 0 0 3px rgba(34,197,94,0.2); }
+    50% { box-shadow: 0 0 0 5px rgba(34,197,94,0.08); }
+  }
+
+  /* Description */
+  .pf__desc {
+    font-size: 0.93rem;
+    line-height: 1.75;
+    color: var(--c-text-muted);
+    margin-bottom: 1.25rem;
+  }
+
+  /* Features */
+  .pf__features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 1rem;
+  }
+
+  .pf__feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.45rem;
+    font-size: 0.83rem;
+    color: var(--c-text);
+    line-height: 1.45;
+  }
+
+  .pf__feature-icon {
+    font-size: 1rem;
+    flex-shrink: 0;
+    line-height: 1.4;
+  }
+
+  .pf__feature-text {
+    color: var(--c-text-muted);
+  }
+
+  /* Specs strip */
+  .pf__specs {
+    display: flex;
+    align-items: center;
+    background: #f8fafc;
+    border: 1px solid var(--c-border);
+    border-radius: 10px;
+    padding: 0.85rem 1rem;
+    margin-bottom: 1.5rem;
+    gap: 0;
+  }
+
+  .pf__spec {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+    text-align: center;
+  }
+
+  .pf__spec-ico {
+    font-size: 1.1rem;
+    line-height: 1;
+    margin-bottom: 0.1rem;
+  }
+
+  .pf__spec-val {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.88rem;
+    color: var(--c-text);
+    line-height: 1.2;
+  }
+
+  .pf__spec-lbl {
+    font-size: 0.67rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--c-text-muted);
+    font-weight: 600;
+  }
+
+  .pf__spec-divider {
+    width: 1px;
+    height: 2.5rem;
+    background: var(--c-border);
+    flex-shrink: 0;
+  }
+
+  /* CTAs */
+  .pf__actions {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .pf__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.85rem 1.5rem;
+    border-radius: 50px;
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.88rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .pf__btn--wa {
+    background: #25D366;
+    color: #fff;
+    flex: 1;
+    box-shadow: 0 4px 16px rgba(37,211,102,0.3);
+  }
+
+  .pf__btn--wa:hover {
+    background: #1fb855;
+    box-shadow: 0 6px 20px rgba(37,211,102,0.4);
+    transform: translateY(-1px);
+  }
+
+  .pf__btn--detail {
+    background: #f8fafc;
+    color: var(--c-text);
+    border: 1.5px solid var(--c-border);
+    flex: 1;
+  }
+
+  .pf__btn--detail:hover {
+    background: var(--c-text);
+    color: #fff;
+    border-color: var(--c-text);
+    transform: translateY(-1px);
+  }
+
+  /* Trust strip */
+  .pf__trust {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    font-size: 0.77rem;
+    color: var(--c-text-muted);
+    padding-top: 1rem;
+    border-top: 1px solid #f0f0f0;
+  }
+
+  .pf__trust-sep {
+    color: var(--c-border);
+  }
+
+  .pf__trust-item {
+    font-weight: 600;
+  }
+
+  /* ── Gallery ── */
+  .pf__gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 1rem;
+    background: #fafafa;
+  }
+
+  .pf__gallery-main {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    flex: 1;
+    min-height: 0;
+    background: #eee;
+  }
+
+  .pf__gallery-main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+    aspect-ratio: 4/3;
+  }
+
+  .pf__gallery-main:hover img {
+    transform: scale(1.04);
+  }
+
+  .pf__gallery-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.45) 0%, transparent 50%);
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+
+  .pf__gallery-main:hover .pf__gallery-overlay {
+    opacity: 1;
+  }
+
+  .pf__gallery-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: rgba(255,255,255,0.95);
+    color: var(--c-text);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: var(--font-head);
+    transition: background 0.2s;
+  }
+
+  .pf__gallery-cta:hover {
+    background: #fff;
+  }
+
+  .pf__gallery-thumbs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .pf__gallery-thumb {
+    border-radius: 10px;
+    overflow: hidden;
+    aspect-ratio: 4/3;
+    background: #eee;
+    position: relative;
+  }
+
+  .pf__gallery-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .pf__gallery-thumb:hover img {
+    transform: scale(1.06);
+  }
+
+  .pf__thumb-more {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pf__thumb-more a {
+    color: #fff;
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.85rem;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    transition: opacity 0.2s;
+  }
+
+  .pf__thumb-more a:hover {
+    opacity: 0.8;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 1100px) {
+    .pf__info {
+      padding: 2rem 2rem;
+    }
+
+    .pf__features {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 860px) {
+    .pf__inner {
+      grid-template-columns: 1fr;
+    }
+
+    .pf__info {
+      border-right: none;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .pf__gallery {
+      padding: 1.25rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .pf__info {
+      padding: 1.5rem;
+    }
+
+    .pf__actions {
+      flex-direction: column;
+    }
+
+    .pf__price-row {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+  }
+</style>

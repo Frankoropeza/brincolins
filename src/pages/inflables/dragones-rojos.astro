@@ -8,7 +8,6 @@ import CtaBanner from "@/components/CtaBanner.astro";
 import Gallery4x4 from "@/components/Gallery4x4.astro";
 import PricingCards from "@/components/PricingCards.astro";
 import CtaBar from "@/components/CtaBar.astro";
-import FaqSection from "@/components/FaqSection.astro";
 
 const title = "Renta de Dragones Rojos | Inflables para Fiestas | El Más Rentado CDMX";
 const description = "Renta de Dragones Rojos en CDMX y Estado de México. El inflable más solicitado: alta capacidad para grupos de niños, colores llamativos y diversión garantizada. Entrega e instalación incluidas.";
@@ -182,9 +181,12 @@ const ctaBarItems = [
             <a href="/inflables/" class="btn btn-outline btn-lg">Ver Catálogo de Inflables</a>
           </div>
         </div>
-        <div class="hero__copy">
-          <p class="hero__copy-text">El <strong>inflable Dragones Rojos de BRINCOLINS</strong> es el brincolin más rentado en la <strong>Ciudad de México y Estado de México</strong>. Con dos imponentes dragones decorativos de 3 metros custodiando el castillo, resbaladilla integrada de alta velocidad y mallas de seguridad en todos los costados, ofrece horas de diversión segura para niños de 4 a 10 años. Fabricado con <strong>material de grado comercial resistente a rasgaduras</strong>, pasa por limpieza y sanitización certificada antes de cada evento.</p>
-          <p class="hero__copy-text">El servicio de renta incluye <strong>entrega a domicilio, instalación profesional en 20 minutos, motor inflador silencioso, extensión eléctrica y seguro de responsabilidad civil</strong> sin costo adicional. Atendemos las <strong>16 alcaldías de CDMX</strong> y los principales municipios del Estado de México: Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan y más. Reserva con solo el 50% de anticipo — cotiza ahora y recibe respuesta en minutos.</p>
+        <div class="hero__img-col">
+          <div class="hero__img-wrap">
+            <img src={inflable.image} alt={`Inflable ${inflable.name} — renta BRINCOLINS CDMX`} class="hero__img" width="600" height="450" loading="eager" />
+            <div class="hero__img-pill hero__img-pill--top">Desde {inflable.price} MXN</div>
+            <div class="hero__img-pill hero__img-pill--bottom">⚡ Instalación en {inflable.installTime}</div>
+          </div>
         </div>
       </div>
     </div>
@@ -208,14 +210,6 @@ const ctaBarItems = [
       <SectionHeader badge="Paquetes" title={`¿Cuánto cuesta rentar el ${inflable.name} en CDMX?`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="Elige el paquete que mejor se adapte a la duración de tu evento. El Dragones Rojos es ideal para cumpleaños de 4 a 6 horas, pero también lo rentamos para kermeses escolares y eventos de día completo con operadores dedicados." copy2="Todos los precios son en pesos mexicanos antes de IVA. El paquete Estándar es el más solicitado porque incluye instalación, retiro y seguro de responsabilidad civil. Reserva con el 50% de anticipo para asegurar tu fecha." />
       <PricingCards packages={pricingPackages} />
     </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="section">
-    <div class="container">
-      <SectionHeader badge="Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="Hemos recopilado las preguntas más comunes de nuestros clientes sobre el inflable Dragones Rojos. Si tu duda no aparece aquí, escríbenos por WhatsApp y te respondemos en minutos." copy2="Nuestro equipo tiene más de 5 años de experiencia rentando inflables en CDMX y Edomex. Conocemos cada detalle del Dragones Rojos y podemos asesorarte sobre el mejor paquete para tu evento." />
-    </div>
-    <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
   </section>
 
   <!-- Related -->

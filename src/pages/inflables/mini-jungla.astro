@@ -8,7 +8,6 @@ import CtaBanner from "@/components/CtaBanner.astro";
 import Gallery4x4 from "@/components/Gallery4x4.astro";
 import PricingCards from "@/components/PricingCards.astro";
 import CtaBar from "@/components/CtaBar.astro";
-import FaqSection from "@/components/FaqSection.astro";
 
 const title = "Renta de Mini Jungla Inflable | Inflables para Niños Pequeños | CDMX";
 const description = "Renta de Mini Jungla inflable para fiestas infantiles en CDMX y Estado de México. Diseño temático de jungla compacto para niños de 2 a 7 años. Entrega incluida en toda la ciudad.";
@@ -177,9 +176,12 @@ const ctaBarItems = [
             <a href="/inflables/" class="btn btn-outline btn-lg">Ver Catálogo de Inflables</a>
           </div>
         </div>
-        <div class="hero__copy">
-          <p class="hero__copy-text">El <strong>inflable Mini Jungla de BRINCOLINS</strong> transporta a los niños a una aventura selvática llena de dinosaurios y palmeras tropicales. Ideal para <strong>fiestas safari, temáticas de animales y cumpleaños de niños exploradores</strong> en CDMX y Estado de México. Su diseño compacto y versátil funciona tanto en jardines al aire libre como en interiores con techo alto, aceptando niños desde los 3 años de edad.</p>
-          <p class="hero__copy-text">La renta incluye <strong>entrega a domicilio, instalación rápida en solo 15 minutos, motor inflador silencioso, extensión eléctrica y seguro de responsabilidad civil</strong> sin costo adicional. Atendemos las <strong>16 alcaldías de CDMX</strong> y los municipios del Estado de México como Naucalpan, Tlalnepantla, Huixquilucan y Ecatepec. Reserva con el 50% de anticipo y asegura tu fecha.</p>
+        <div class="hero__img-col">
+          <div class="hero__img-wrap">
+            <img src={inflable.image} alt={`Inflable ${inflable.name} — renta BRINCOLINS CDMX`} class="hero__img" width="600" height="450" loading="eager" />
+            <div class="hero__img-pill hero__img-pill--top">Desde {inflable.price} MXN</div>
+            <div class="hero__img-pill hero__img-pill--bottom">⚡ Instalación en {inflable.installTime}</div>
+          </div>
         </div>
       </div>
     </div>
@@ -203,14 +205,6 @@ const ctaBarItems = [
       <SectionHeader badge="Paquetes" title={`¿Cuánto cuesta rentar el ${inflable.name} en CDMX?`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="Escoge el paquete según la duración de tu fiesta safari o de dinosaurios. La Mini Jungla es ideal para eventos de 4 a 6 horas, aunque también la rentamos para kermeses escolares y festivales de día completo." copy2="Precios en pesos mexicanos antes de IVA. El paquete Estándar de 6 horas incluye todo lo necesario para un evento sin complicaciones: instalación, retiro, motor y seguro. Reserva con el 50% de anticipo." />
       <PricingCards packages={pricingPackages} />
     </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="section">
-    <div class="container">
-      <SectionHeader badge="Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="Resolvemos las preguntas más frecuentes sobre el inflable Mini Jungla: edades, capacidad, instalación en interiores, temáticas compatibles y zonas de entrega en la Ciudad de México." copy2="Si tienes una duda específica que no aparece aquí, escríbenos por WhatsApp. Nuestro equipo conoce cada detalle de la Mini Jungla y te ayuda a planear la fiesta safari perfecta." />
-    </div>
-    <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
   </section>
 
   <!-- Related -->

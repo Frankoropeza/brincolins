@@ -8,7 +8,6 @@ import CtaBanner from "@/components/CtaBanner.astro";
 import Gallery4x4 from "@/components/Gallery4x4.astro";
 import PricingCards from "@/components/PricingCards.astro";
 import CtaBar from "@/components/CtaBar.astro";
-import FaqSection from "@/components/FaqSection.astro";
 
 const title = "Renta de Castillo de Princesas | Inflables para Fiestas de Niñas | CDMX";
 const description = "Renta de Castillo de Princesas para fiestas infantiles en CDMX y Edomex. El favorito para cumpleaños de niñas: colores vibrantes, diseño temático y mucha diversión. Entrega incluida.";
@@ -32,6 +31,15 @@ const galleryImages = [
   { src: "/img/inflables/castillo-princesas/castillo-princesas-renta-cdmx.avif", alt: "Renta de Castillo de Princesas inflable en CDMX" },
   { src: "/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif", alt: "Castillo de Princesas en fiesta infantil temática" },
   { src: "/img/inflables/castillo-princesas/mini-princess-renta-cdmx.avif", alt: "Inflable princesas disponible para renta en Ciudad de México" },
+  { src: "/img/inflables/castillo-princesas-cumpleanos-nina-cdmx.avif", alt: "Castillo de Princesas inflable rosa cumpleaños niña CDMX" },
+  { src: "/img/inflables/castillo-princesas-fiesta-tematica-rosa.avif", alt: "Renta de castillo inflable princesas fiesta temática" },
+  { src: "/img/inflables/castillo-princesas-vista-frontal-cdmx.avif", alt: "Inflable Castillo de Princesas vista frontal CDMX" },
+  { src: "/img/inflables/castillo-princesas-resbaladilla-decoracion.avif", alt: "Castillo princesas inflable decoración rosa y morado" },
+  { src: "/img/inflables/castillo-princesas-jardin-exterior-fiesta.avif", alt: "Inflable princesas instalado en jardín para cumpleaños" },
+  { src: "/img/inflables/castillo-princesas-salon-cumpleanos.avif", alt: "Renta Castillo Princesas para fiesta de niña CDMX" },
+  { src: "/img/inflables/castillo-princesas-vista-lateral-cdmx.avif", alt: "Castillo de Princesas inflable vista lateral evento" },
+  { src: "/img/inflables/castillo-princesas-terraza-evento-nina.avif", alt: "Inflable princesas en terraza para fiesta infantil" },
+  { src: "/img/inflables/castillo-princesas-renta-domicilio-cdmx.avif", alt: "Castillo de Princesas inflable renta a domicilio CDMX" },
 ];
 
 const pricingPackages = [
@@ -175,9 +183,12 @@ const ctaBarItems = [
             <a href="/inflables/" class="btn btn-outline btn-lg">Ver Catálogo de Inflables</a>
           </div>
         </div>
-        <div class="hero__copy">
-          <p class="hero__copy-text">El <strong>Castillo de Princesas de BRINCOLINS</strong> es el inflable más solicitado para fiestas temáticas de niñas en <strong>CDMX y Estado de México</strong>. Con torres decorativas en rosa y morado, resbaladilla integrada y mallas de seguridad perimetrales, transforma cualquier jardín o salón en un verdadero castillo de cuento de hadas. Fabricado con <strong>PVC de grado comercial resistente a rasgaduras</strong>, cada pieza pasa por sanitización certificada antes de llegar a tu evento.</p>
-          <p class="hero__copy-text">La renta incluye <strong>entrega a domicilio, instalación profesional en 20 minutos, motor inflador silencioso, extensión eléctrica y seguro de responsabilidad civil</strong> sin costo adicional. Cubrimos las <strong>16 alcaldías de CDMX</strong> y municipios del Edomex como Naucalpan, Tlalnepantla, Huixquilucan y Ecatepec. Reserva con el 50% de anticipo y asegura la fecha de tu celebración.</p>
+        <div class="hero__img-col">
+          <div class="hero__img-wrap">
+            <img src={inflable.image} alt={`Inflable ${inflable.name} — renta BRINCOLINS CDMX`} class="hero__img" width="600" height="450" loading="eager" />
+            <div class="hero__img-pill hero__img-pill--top">Desde {inflable.price} MXN</div>
+            <div class="hero__img-pill hero__img-pill--bottom">⚡ Instalación en {inflable.installTime}</div>
+          </div>
         </div>
       </div>
     </div>
@@ -201,14 +212,6 @@ const ctaBarItems = [
       <SectionHeader badge="Paquetes" title={`¿Cuánto cuesta rentar el ${inflable.name} en CDMX?`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="Selecciona el paquete ideal según la duración de tu fiesta de princesas. El paquete Estándar de 6 horas es el favorito para cumpleaños porque incluye instalación, retiro y seguro sin costo adicional." copy2="Los precios son en pesos mexicanos antes de IVA. Para eventos escolares y kermeses, el paquete Día Completo de 12 horas ofrece la mejor relación precio-tiempo. Reserva con el 50% de anticipo." />
       <PricingCards packages={pricingPackages} />
     </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="section">
-    <div class="container">
-      <SectionHeader badge="Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="Respondemos las consultas más frecuentes sobre el Castillo de Princesas. Desde dimensiones y capacidad hasta detalles de instalación y temáticas compatibles para tu fiesta." copy2="Si no encuentras la respuesta que buscas, escríbenos por WhatsApp y nuestro equipo te asesora en minutos sobre el paquete ideal para tu evento temático de princesas." />
-    </div>
-    <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
   </section>
 
   <!-- Related -->

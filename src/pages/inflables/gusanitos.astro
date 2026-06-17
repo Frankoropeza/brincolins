@@ -8,7 +8,6 @@ import CtaBanner from "@/components/CtaBanner.astro";
 import Gallery4x4 from "@/components/Gallery4x4.astro";
 import PricingCards from "@/components/PricingCards.astro";
 import CtaBar from "@/components/CtaBar.astro";
-import FaqSection from "@/components/FaqSection.astro";
 
 const title = "Renta de Gusanitos Inflables | Inflables para Bebés y Niños Pequeños | CDMX";
 const description = "Renta de Gusanitos inflables para fiestas de bebés y niños pequeños en CDMX. Diseño seguro y colorido para menores de 5 años. Entrega e instalación incluidas en toda la ciudad.";
@@ -177,9 +176,12 @@ const ctaBarItems = [
             <a href="/inflables/" class="btn btn-outline btn-lg">Ver Catálogo de Inflables</a>
           </div>
         </div>
-        <div class="hero__copy">
-          <p class="hero__copy-text">El <strong>inflable Gusanitos de BRINCOLINS</strong> es el brincolin más colorido y original de nuestro catálogo. Con gusanitos decorativos en verde y morado, palmeras tropicales laterales y una <strong>combinación de colores vibrantes</strong> en verde, morado, amarillo y azul, es el inflable más fotografiado de cualquier fiesta. Perfecto para <strong>cumpleaños y eventos al aire libre</strong> en CDMX y Estado de México donde quieras un toque tropical único.</p>
-          <p class="hero__copy-text">La renta incluye <strong>entrega a domicilio, instalación profesional en 20 minutos, motor inflador silencioso, extensión eléctrica y seguro de responsabilidad civil</strong> sin costo adicional. Atendemos las <strong>16 alcaldías de CDMX</strong> y los principales municipios del Estado de México: Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan y más. Reserva con el 50% de anticipo y recibe respuesta en minutos.</p>
+        <div class="hero__img-col">
+          <div class="hero__img-wrap">
+            <img src={inflable.image} alt={`Inflable ${inflable.name} — renta BRINCOLINS CDMX`} class="hero__img" width="600" height="450" loading="eager" />
+            <div class="hero__img-pill hero__img-pill--top">Desde {inflable.price} MXN</div>
+            <div class="hero__img-pill hero__img-pill--bottom">⚡ Instalación en {inflable.installTime}</div>
+          </div>
         </div>
       </div>
     </div>
@@ -203,14 +205,6 @@ const ctaBarItems = [
       <SectionHeader badge="Paquetes" title={`¿Cuánto cuesta rentar el ${inflable.name} en CDMX?`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1="Elige el paquete según la duración de tu fiesta tropical. El Gusanitos es ideal para cumpleaños de 4 a 6 horas y también para fiestas de verano, pool parties y eventos al aire libre de día completo." copy2="Precios en pesos mexicanos antes de IVA. El paquete Estándar es el más solicitado porque incluye instalación, retiro, extensión eléctrica y seguro de responsabilidad civil sin costo adicional. Reserva con el 50% de anticipo." />
       <PricingCards packages={pricingPackages} />
     </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="section">
-    <div class="container">
-      <SectionHeader badge="Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="Aquí encontrarás las preguntas más frecuentes sobre el inflable Gusanitos: capacidad, edades, temáticas compatibles, requisitos de espacio y detalles de instalación para tu evento." copy2="Si tu duda no aparece en la lista, escríbenos por WhatsApp y te respondemos en minutos. Nuestro equipo tiene amplia experiencia con el Gusanitos y puede asesorarte sobre el mejor paquete." />
-    </div>
-    <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
   </section>
 
   <!-- Related -->

@@ -1,0 +1,636 @@
+---
+/**
+ * ServiceFeature — BRINCOLINS
+ * Módulo editorial premium para servicios: info detallada + galería 1+2
+ * Homologado con ProductFeature — mismo sistema visual, props adaptados.
+ */
+
+export interface FeatureItem {
+  icon: string;
+  text: string;
+}
+
+export interface StatItem {
+  icon: string;
+  value: string;
+  label: string;
+}
+
+export interface Props {
+  name: string;
+  href: string;
+  badge: string;
+  accentColor?: string;
+  price: string;
+  priceNote?: string;
+  availability?: string;
+  description: string;
+  features: FeatureItem[];
+  stat1: StatItem;
+  stat2: StatItem;
+  stat3: StatItem;
+  stat4?: StatItem;
+  image: string;
+  imageAlt: string;
+  gallery: { src: string; alt: string }[];
+  waMessage?: string;
+  trust?: string[];
+}
+
+const {
+  name,
+  href,
+  badge,
+  accentColor = "#FF3D00",
+  price,
+  priceNote = "por evento · entrega incluida",
+  availability = "Disponible hoy",
+  description,
+  features,
+  stat1,
+  stat2,
+  stat3,
+  stat4,
+  image,
+  imageAlt,
+  gallery,
+  waMessage,
+  trust = ["🔒 50% anticipo", "🚚 Entrega incluida", "🏙️ CDMX y Edomex"],
+} = Astro.props;
+
+const waMsg = waMessage ?? `Hola BRINCOLINS, quiero cotizar el servicio "${name}" para mi evento.`;
+const waHref = `https://wa.me/5531281706?text=${encodeURIComponent(waMsg)}`;
+
+const accentColorLight = accentColor + "14";
+---
+
+<article class="sf" style={`--sf-accent: ${accentColor}; --sf-accent-light: ${accentColorLight};`}>
+
+  <!-- Accent top bar -->
+  <div class="sf__accent-bar"></div>
+
+  <div class="sf__inner">
+    <!-- ── COLUMNA INFO ── -->
+    <div class="sf__info">
+
+      <!-- Badge + disponibilidad -->
+      <div class="sf__header">
+        <span class="sf__badge">
+          <span class="sf__badge-dot"></span>
+          {badge}
+        </span>
+        <div class="sf__avail">
+          <span class="sf__avail-dot"></span>
+          {availability}
+        </div>
+      </div>
+
+      <h2 class="sf__title">{name}</h2>
+
+      <!-- Precio -->
+      <div class="sf__price-row">
+        <div class="sf__price-block">
+          <span class="sf__price-label">Precio</span>
+          <span class="sf__price">{price}</span>
+          <span class="sf__price-note">{priceNote}</span>
+        </div>
+        <a
+          href={waHref}
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          class="sf__price-cta"
+        >
+          Cotizar gratis →
+        </a>
+      </div>
+
+      <p class="sf__desc">{description}</p>
+
+      <!-- Features -->
+      <ul class="sf__features">
+        {features.map(f => (
+          <li class="sf__feature">
+            <span class="sf__feature-icon">{f.icon}</span>
+            <span class="sf__feature-text">{f.text}</span>
+          </li>
+        ))}
+      </ul>
+
+      <!-- Stats strip -->
+      <div class="sf__specs">
+        <div class="sf__spec">
+          <span class="sf__spec-ico">{stat1.icon}</span>
+          <span class="sf__spec-val">{stat1.value}</span>
+          <span class="sf__spec-lbl">{stat1.label}</span>
+        </div>
+        <div class="sf__spec-divider"></div>
+        <div class="sf__spec">
+          <span class="sf__spec-ico">{stat2.icon}</span>
+          <span class="sf__spec-val">{stat2.value}</span>
+          <span class="sf__spec-lbl">{stat2.label}</span>
+        </div>
+        {stat3 && <>
+          <div class="sf__spec-divider"></div>
+          <div class="sf__spec">
+            <span class="sf__spec-ico">{stat3.icon}</span>
+            <span class="sf__spec-val">{stat3.value}</span>
+            <span class="sf__spec-lbl">{stat3.label}</span>
+          </div>
+        </>}
+        {stat4 && <>
+          <div class="sf__spec-divider"></div>
+          <div class="sf__spec">
+            <span class="sf__spec-ico">{stat4.icon}</span>
+            <span class="sf__spec-val">{stat4.value}</span>
+            <span class="sf__spec-lbl">{stat4.label}</span>
+          </div>
+        </>}
+      </div>
+
+      <!-- CTAs -->
+      <div class="sf__actions">
+        <a href={waHref} target="_blank" rel="nofollow noopener noreferrer" class="sf__btn sf__btn--wa">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Cotizar por WhatsApp
+        </a>
+        <a href={href} class="sf__btn sf__btn--detail">
+          Ver todos los detalles
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Trust strip -->
+      <div class="sf__trust">
+        {trust.map((item, i) => (<>
+          {i > 0 && <span class="sf__trust-sep">·</span>}
+          <span class="sf__trust-item">{item}</span>
+        </>))}
+      </div>
+    </div>
+
+    <!-- ── COLUMNA GALERÍA ── -->
+    <div class="sf__gallery">
+      <div class="sf__gallery-main">
+        <img src={image} alt={imageAlt} width="720" height="540" loading="lazy" />
+        <div class="sf__gallery-overlay">
+          <a href={href} class="sf__gallery-cta">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            Ver servicio completo
+          </a>
+        </div>
+      </div>
+
+      {gallery.length >= 2 && (
+        <div class="sf__gallery-thumbs">
+          {gallery.slice(0, 2).map((img, i) => (
+            <div class="sf__gallery-thumb">
+              <img src={img.src} alt={img.alt} width="360" height="270" loading="lazy" />
+              {i === 1 && (
+                <div class="sf__thumb-more">
+                  <a href={href}>Ver más →</a>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+</article>
+
+<style>
+  /* ── Card wrapper ── */
+  .sf {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 24px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .sf__accent-bar {
+    height: 4px;
+    background: linear-gradient(90deg, var(--sf-accent) 0%, color-mix(in srgb, var(--sf-accent) 60%, #FFD600) 100%);
+  }
+
+  .sf__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    align-items: stretch;
+  }
+
+  /* ── Info ── */
+  .sf__info {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border-right: 1px solid #f0f0f0;
+  }
+
+  /* Header row */
+  .sf__header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .sf__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.3rem 0.9rem 0.3rem 0.7rem;
+    background: var(--sf-accent-light);
+    border: 1px solid var(--sf-accent);
+    border-radius: 50px;
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 0.72rem;
+    color: var(--sf-accent);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .sf__badge-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--sf-accent);
+    flex-shrink: 0;
+  }
+
+  .sf__avail {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #16a34a;
+    white-space: nowrap;
+  }
+
+  .sf__avail-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #22c55e;
+    flex-shrink: 0;
+    box-shadow: 0 0 0 3px rgba(34,197,94,0.2);
+    animation: sf-pulse 2s infinite;
+  }
+
+  @keyframes sf-pulse {
+    0%, 100% { box-shadow: 0 0 0 3px rgba(34,197,94,0.2); }
+    50%       { box-shadow: 0 0 0 5px rgba(34,197,94,0.08); }
+  }
+
+  /* Title */
+  .sf__title {
+    font-family: var(--font-head);
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    color: var(--c-text);
+    margin-bottom: 1.25rem;
+  }
+
+  /* Price row */
+  .sf__price-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    background: var(--sf-accent-light);
+    border: 1px solid color-mix(in srgb, var(--sf-accent) 20%, transparent);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .sf__price-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .sf__price-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--c-text-muted);
+    font-weight: 600;
+  }
+
+  .sf__price {
+    font-family: var(--font-head);
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: var(--sf-accent);
+    line-height: 1;
+  }
+
+  .sf__price-note {
+    font-size: 0.73rem;
+    color: var(--c-text-muted);
+  }
+
+  .sf__price-cta {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.82rem;
+    color: var(--sf-accent);
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    border-radius: 50px;
+    border: 1.5px solid var(--sf-accent);
+    transition: all 0.2s;
+  }
+  .sf__price-cta:hover {
+    background: var(--sf-accent);
+    color: #fff;
+  }
+
+  /* Description */
+  .sf__desc {
+    font-size: 0.93rem;
+    line-height: 1.75;
+    color: var(--c-text-muted);
+    margin-bottom: 1.25rem;
+  }
+
+  /* Features */
+  .sf__features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 1rem;
+  }
+
+  .sf__feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.45rem;
+    font-size: 0.83rem;
+    color: var(--c-text);
+    line-height: 1.45;
+  }
+
+  .sf__feature-icon {
+    font-size: 1rem;
+    flex-shrink: 0;
+    line-height: 1.4;
+  }
+
+  .sf__feature-text {
+    color: var(--c-text-muted);
+  }
+
+  /* Specs strip */
+  .sf__specs {
+    display: flex;
+    align-items: center;
+    background: #f8fafc;
+    border: 1px solid var(--c-border);
+    border-radius: 10px;
+    padding: 0.85rem 1rem;
+    margin-bottom: 1.5rem;
+    gap: 0;
+  }
+
+  .sf__spec {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+    text-align: center;
+  }
+
+  .sf__spec-ico {
+    font-size: 1.1rem;
+    line-height: 1;
+    margin-bottom: 0.1rem;
+  }
+
+  .sf__spec-val {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.88rem;
+    color: var(--c-text);
+    line-height: 1.2;
+  }
+
+  .sf__spec-lbl {
+    font-size: 0.67rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--c-text-muted);
+    font-weight: 600;
+  }
+
+  .sf__spec-divider {
+    width: 1px;
+    height: 2.5rem;
+    background: var(--c-border);
+    flex-shrink: 0;
+  }
+
+  /* CTAs */
+  .sf__actions {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .sf__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.85rem 1.5rem;
+    border-radius: 50px;
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.88rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .sf__btn--wa {
+    background: #25D366;
+    color: #fff;
+    flex: 1;
+    box-shadow: 0 4px 16px rgba(37,211,102,0.3);
+  }
+
+  .sf__btn--wa:hover {
+    background: #1fb855;
+    box-shadow: 0 6px 20px rgba(37,211,102,0.4);
+    transform: translateY(-1px);
+  }
+
+  .sf__btn--detail {
+    background: #f8fafc;
+    color: var(--c-text);
+    border: 1.5px solid var(--c-border);
+    flex: 1;
+  }
+
+  .sf__btn--detail:hover {
+    background: var(--c-text);
+    color: #fff;
+    border-color: var(--c-text);
+    transform: translateY(-1px);
+  }
+
+  /* Trust strip */
+  .sf__trust {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    font-size: 0.77rem;
+    color: var(--c-text-muted);
+    padding-top: 1rem;
+    border-top: 1px solid #f0f0f0;
+  }
+
+  .sf__trust-sep { color: var(--c-border); }
+  .sf__trust-item { font-weight: 600; }
+
+  /* ── Gallery ── */
+  .sf__gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 1rem;
+    background: #fafafa;
+  }
+
+  .sf__gallery-main {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    flex: 1;
+    min-height: 0;
+    background: #eee;
+  }
+
+  .sf__gallery-main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+    aspect-ratio: 4/3;
+  }
+
+  .sf__gallery-main:hover img { transform: scale(1.04); }
+
+  .sf__gallery-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.45) 0%, transparent 50%);
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+
+  .sf__gallery-main:hover .sf__gallery-overlay { opacity: 1; }
+
+  .sf__gallery-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: rgba(255,255,255,0.95);
+    color: var(--c-text);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: var(--font-head);
+    transition: background 0.2s;
+  }
+
+  .sf__gallery-cta:hover { background: #fff; }
+
+  .sf__gallery-thumbs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .sf__gallery-thumb {
+    border-radius: 10px;
+    overflow: hidden;
+    aspect-ratio: 4/3;
+    background: #eee;
+    position: relative;
+  }
+
+  .sf__gallery-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .sf__gallery-thumb:hover img { transform: scale(1.06); }
+
+  .sf__thumb-more {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sf__thumb-more a {
+    color: #fff;
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.85rem;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+  }
+
+  .sf__thumb-more a:hover { opacity: 0.8; }
+
+  /* ── Responsive ── */
+  @media (max-width: 1100px) {
+    .sf__info { padding: 2rem; }
+    .sf__features { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 860px) {
+    .sf__inner { grid-template-columns: 1fr; }
+    .sf__info { border-right: none; border-bottom: 1px solid #f0f0f0; }
+    .sf__gallery { padding: 1.25rem; }
+  }
+
+  @media (max-width: 480px) {
+    .sf__info { padding: 1.5rem; }
+    .sf__actions { flex-direction: column; }
+    .sf__price-row { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+  }
+</style>

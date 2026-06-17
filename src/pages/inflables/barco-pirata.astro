@@ -8,7 +8,6 @@ import CtaBanner from "@/components/CtaBanner.astro";
 import Gallery4x4 from "@/components/Gallery4x4.astro";
 import PricingCards from "@/components/PricingCards.astro";
 import CtaBar from "@/components/CtaBar.astro";
-import FaqSection from "@/components/FaqSection.astro";
 
 const title = "Renta de Barco Pirata Inflable | Inflables para Fiestas Temáticas | CDMX";
 const description = "Renta de Barco Pirata inflable para fiestas temáticas en CDMX y Estado de México. El galeón pirata favorito de los niños de 4 a 12 años. Entrega e instalación incluidas.";
@@ -31,6 +30,15 @@ const galleryImages = [
   { src: "/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif", alt: "Renta inflable Barco Pirata en CDMX - evento exterior" },
   { src: "/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif", alt: "Renta inflable Barco Pirata en CDMX - vista lateral" },
   { src: "/img/inflables/barco-pirata/barco-pirata-renta-cdmx.avif", alt: "Renta inflable Barco Pirata en CDMX - renta a domicilio" },
+  { src: "/img/inflables/barco-pirata-inflable-vista-frontal-cdmx.avif", alt: "Inflable Barco Pirata decoración pirata CDMX" },
+  { src: "/img/inflables/barco-pirata-decoracion-pirata-evento.avif", alt: "Barco Pirata inflable vista frontal para fiesta infantil" },
+  { src: "/img/inflables/barco-pirata-tobogan-altura-fiesta-cdmx.avif", alt: "Renta de Barco Pirata inflable en evento CDMX" },
+  { src: "/img/inflables/barco-pirata-zona-brinco-jardin-cdmx.avif", alt: "Barco Pirata inflable instalado en jardín exterior" },
+  { src: "/img/inflables/barco-pirata-instalacion-exterior-cdmx.avif", alt: "Inflable temático pirata para cumpleaños infantil" },
+  { src: "/img/inflables/barco-pirata-vista-lateral-evento.avif", alt: "Barco Pirata inflable vista lateral con tobogán" },
+  { src: "/img/inflables/barco-pirata-fiesta-tematica-pirata.avif", alt: "Renta Barco Pirata inflable fiesta grande CDMX" },
+  { src: "/img/inflables/barco-pirata-kermess-escolar-cdmx.avif", alt: "Inflable Barco Pirata en evento al aire libre" },
+  { src: "/img/inflables/barco-pirata-renta-evento-grande-cdmx.avif", alt: "Barco Pirata inflable instalado en terraza para kermés" },
 ];
 
 const pricingPackages = [
@@ -156,9 +164,12 @@ const ctaBarItems = [
             <a href="/inflables/" class="btn btn-outline btn-lg">Ver Catálogo de Inflables</a>
           </div>
         </div>
-        <div class="hero__copy">
-          <p class="hero__copy-text">El <strong>Barco Pirata de BRINCOLINS</strong> es el inflable de aventura más espectacular de nuestro catálogo en tamaño mediano. Con <strong>7 metros de largo, 5 de ancho y 4 de altura</strong>, ofrece una zona de brinco amplia, resbaladilla de altura integrada y una decoración de barco pirata que transporta a los niños a una verdadera aventura en alta mar. Su capacidad para <strong>10 a 15 niños simultáneamente</strong> lo convierte en la atracción principal de cualquier fiesta infantil grande.</p>
-          <p class="hero__copy-text">Cada renta incluye <strong>entrega a domicilio, instalación profesional en 30 minutos, motor inflador de grado comercial y extensión eléctrica</strong>. El Barco Pirata es perfecto para <strong>fiestas temáticas de piratas, cumpleaños, kermeses escolares y eventos comunitarios</strong> en CDMX y Estado de México. Atendemos Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Coyoacán, Benito Juárez y todas las alcaldías. Reserva con el 50% de anticipo y asegura tu fecha.</p>
+        <div class="hero__img-col">
+          <div class="hero__img-wrap">
+            <img src={inflable.image} alt={`Inflable ${inflable.name} — renta BRINCOLINS CDMX`} class="hero__img" width="600" height="450" loading="eager" />
+            <div class="hero__img-pill hero__img-pill--top">Desde {inflable.price} MXN</div>
+            <div class="hero__img-pill hero__img-pill--bottom">⚡ Instalación en {inflable.installTime}</div>
+          </div>
         </div>
       </div>
     </div>
@@ -182,12 +193,6 @@ const ctaBarItems = [
     </div>
   </section>
 
-  <section class="section">
-    <div class="container">
-      <SectionHeader badge="Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Barco Pirata es nuestro inflable mediano más impresionante y es normal tener dudas sobre espacio, capacidad e instalación. Aquí respondemos las preguntas que más nos hacen nuestros clientes." copy2="¿Tienes una pregunta que no aparece aquí? Escríbenos por WhatsApp y nuestro equipo te responde en minutos con toda la información que necesitas para tu evento." />
-    </div>
-    <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
-  </section>
 
   <section class="section section--alt">
     <div class="container">

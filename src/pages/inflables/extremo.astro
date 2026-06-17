@@ -8,7 +8,6 @@ import CtaBanner from "@/components/CtaBanner.astro";
 import Gallery4x4 from "@/components/Gallery4x4.astro";
 import PricingCards from "@/components/PricingCards.astro";
 import CtaBar from "@/components/CtaBar.astro";
-import FaqSection from "@/components/FaqSection.astro";
 
 const title = "Renta de Inflable Extremo | Inflables para Eventos y Kermeses | CDMX";
 const description = "Renta de Inflable Extremo para eventos, kermeses y fiestas con muchos niños en CDMX. El circuito de obstáculos más completo: alta capacidad y diversión máxima. Cotiza hoy.";
@@ -36,6 +35,12 @@ const galleryImages = [
   { src: "/img/inflables/extremo/extremo-carrera-cdmx.avif", alt: "Renta inflable Extremo en CDMX - carrera competitiva" },
   { src: "/img/inflables/extremo/extremo-vista-general.avif", alt: "Renta inflable Extremo en CDMX - vista general" },
   { src: "/img/inflables/extremo/extremo-circuito-renta-cdmx.avif", alt: "Renta inflable Extremo en CDMX - circuito renta" },
+  { src: "/img/inflables/extremo/alquiler-brincolin-extremo-fiestas-infantiles.avif", alt: "Alquiler brincolin Extremo para fiestas infantiles" },
+  { src: "/img/inflables/extremo/alquiler-circuito-extremo-fiestas-mexico.avif", alt: "Alquiler circuito Extremo para fiestas en México" },
+  { src: "/img/inflables/extremo/alquiler-circuito-obstaculos-inflable-cdmx.avif", alt: "Alquiler circuito de obstáculos inflable CDMX" },
+  { src: "/img/inflables/extremo/alquiler-inflable-extremo-grande-fiestas.avif", alt: "Alquiler inflable Extremo grande para fiestas" },
+  { src: "/img/inflables/extremo/brincolin-extremo-angulo-renta-eventos.avif", alt: "Brincolin Extremo desde otro ángulo en renta de eventos" },
+  { src: "/img/inflables/extremo/extremo-angulo-corporativo.avif", alt: "Circuito Extremo en evento corporativo CDMX" },
 ];
 
 const pricingPackages = [
@@ -161,9 +166,12 @@ const ctaBarItems = [
             <a href="/inflables/" class="btn btn-outline btn-lg">Ver Catálogo de Inflables</a>
           </div>
         </div>
-        <div class="hero__copy">
-          <p class="hero__copy-text">El <strong>circuito Extremo de BRINCOLINS</strong> es el inflable más grande e impactante de todo nuestro catálogo. Con <strong>12 metros de largo</strong>, incluye una pista de obstáculos completa con barreras, túneles, zona de escalada y <strong>tobogán doble con doble carril para competencias</strong>. Diseñado para niños mayores de 6 años, adolescentes y adultos, es la atracción que transforma cualquier evento en una experiencia inolvidable de adrenalina y diversión.</p>
-          <p class="hero__copy-text">Ideal para <strong>eventos corporativos, team buildings, kermeses escolares, activaciones de marca y fiestas grandes</strong>. Su doble carril permite que dos personas compitan simultáneamente, generando emoción y participación grupal. Cada renta incluye <strong>entrega, instalación profesional en 30 minutos, motor inflador industrial y extensión eléctrica</strong>. Cubrimos toda la <strong>CDMX y Estado de México</strong>: Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Coyoacán y más.</p>
+        <div class="hero__img-col">
+          <div class="hero__img-wrap">
+            <img src={inflable.image} alt={`Inflable ${inflable.name} — renta BRINCOLINS CDMX`} class="hero__img" width="600" height="450" loading="eager" />
+            <div class="hero__img-pill hero__img-pill--top">Desde {inflable.price} MXN</div>
+            <div class="hero__img-pill hero__img-pill--bottom">⚡ Instalación en {inflable.installTime}</div>
+          </div>
         </div>
       </div>
     </div>
@@ -187,12 +195,6 @@ const ctaBarItems = [
     </div>
   </section>
 
-  <section class="section">
-    <div class="container">
-      <SectionHeader badge="Preguntas frecuentes" title={`Preguntas frecuentes sobre el ${inflable.name}`} subtitle="Todo lo que necesitas saber" copy1="El Extremo es un inflable único por su tamaño y formato de circuito competitivo. Es normal tener preguntas sobre espacio, capacidad y logística. Aquí respondemos las dudas más frecuentes de empresas y organizadores de eventos." copy2="Si necesitas información adicional para tu evento corporativo o escolar, contáctanos por WhatsApp. Podemos enviar fichas técnicas, fotos adicionales y cotizaciones personalizadas para eventos grandes." />
-    </div>
-    <FaqSection items={faqItems} waMessage={`Hola BRINCOLINS, tengo una duda sobre el inflable ${inflable.name}.`} />
-  </section>
 
   <section class="section section--alt">
     <div class="container">

@@ -1,0 +1,403 @@
+---
+/**
+ * CatalogSidebar — BRINCOLINS
+ * Sidebar sticky del catálogo completo de inflables.
+ * Muestra todos los modelos con thumbnail, badge de categoría,
+ * precio y enlace directo. Sticky mientras se hace scroll.
+ */
+
+interface SidebarInflable {
+  slug: string;
+  name: string;
+  price: string;
+  image: string;
+  category: string;
+  categoryColor: string;
+}
+
+interface Props {
+  activeSlug?: string;
+}
+
+const { activeSlug } = Astro.props;
+
+const categoryColors: Record<string, string> = {
+  castillo: "#FF3D00",
+  princesas: "#E91E8C",
+  pirata: "#1565C0",
+  jungla: "#2E7D32",
+  acuatico: "#0288D1",
+  deportivo: "#FF6F00",
+  extremo: "#E65100",
+  bodas: "#7E57C2",
+};
+
+const inflables: SidebarInflable[] = [
+  { slug: "dragones-rojos",    name: "Dragones Rojos",        price: "$1,200", image: "/img/inflables/dragones-rojos.avif",    category: "Más popular", categoryColor: "castillo"  },
+  { slug: "castillo-princesas",name: "Castillo de Princesas", price: "$1,200", image: "/img/inflables/castillo-princesas.avif",category: "Princesas",   categoryColor: "princesas" },
+  { slug: "mini-jungla",       name: "Mini Jungla",           price: "$1,200", image: "/img/inflables/mini-jungla.avif",       category: "Aventura",    categoryColor: "jungla"   },
+  { slug: "gusanitos",         name: "Gusanitos",             price: "$1,200", image: "/img/inflables/gusanitos.avif",         category: "Tropical",    categoryColor: "jungla"   },
+  { slug: "mini-castillo",     name: "Mini Castillo",         price: "$800",   image: "/img/inflables/mini-castillo.avif",     category: "Chico",       categoryColor: "castillo" },
+  { slug: "barco-pirata",      name: "Barco Pirata",          price: "$2,500", image: "/img/inflables/barco-pirata.avif",      category: "Grande",      categoryColor: "pirata"   },
+  { slug: "extremo",           name: "Extremo",               price: "$3,000", image: "/img/inflables/extremo.avif",           category: "Extremo",     categoryColor: "extremo"  },
+  { slug: "castillo-blanco",   name: "Castillo Blanco",       price: "$2,800", image: "/img/inflables/castillo-blanco.avif",   category: "Bodas",       categoryColor: "bodas"    },
+];
+---
+
+<aside class="csb">
+
+  <!-- Header -->
+  <div class="csb__header">
+    <h3 class="csb__title">Catálogo de Inflables</h3>
+    <span class="csb__count">{inflables.length} modelos</span>
+  </div>
+
+  <!-- Lista de inflables -->
+  <nav class="csb__list" aria-label="Catálogo de inflables">
+    {inflables.map(item => {
+      const isActive = item.slug === activeSlug;
+      const color = categoryColors[item.categoryColor] ?? "#FF3D00";
+      return (
+        <a
+          href={`/inflables/${item.slug}/`}
+          class={`csb__item ${isActive ? "csb__item--active" : ""}`}
+          style={`--item-color: ${color};`}
+          aria-current={isActive ? "page" : undefined}
+        >
+          {isActive && <span class="csb__item-bar"></span>}
+          <div class="csb__item-img">
+            <img src={item.image} alt={item.name} width="80" height="60" loading="lazy" />
+          </div>
+          <div class="csb__item-info">
+            <span class="csb__item-cat" style={`color: ${color};`}>{item.category}</span>
+            <span class="csb__item-name">{item.name}</span>
+            <span class="csb__item-price">{item.price} MXN</span>
+          </div>
+          <span class="csb__item-arrow" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </a>
+      );
+    })}
+  </nav>
+
+  <!-- Divisor -->
+  <div class="csb__divider"></div>
+
+  <!-- Bloque CTA principal -->
+  <div class="csb__cta">
+    <div class="csb__cta-icon">💬</div>
+    <p class="csb__cta-title">¿Cuál te interesa?</p>
+    <p class="csb__cta-sub">Cotizamos en minutos — sin compromiso</p>
+    <a
+      href="https://wa.me/5531281706?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable%20para%20mi%20fiesta."
+      target="_blank"
+      rel="nofollow noopener noreferrer"
+      class="csb__cta-btn csb__cta-btn--wa"
+    >
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+      Cotizar por WhatsApp
+    </a>
+    <a href="/cotizar/" class="csb__cta-btn csb__cta-btn--cotizar">
+      Ver precios completos
+    </a>
+  </div>
+
+  <!-- Trust micro -->
+  <div class="csb__trust">
+    <div class="csb__trust-item">
+      <span class="csb__trust-icon">⭐</span>
+      <span>+200 eventos realizados</span>
+    </div>
+    <div class="csb__trust-item">
+      <span class="csb__trust-icon">🚚</span>
+      <span>Entrega incluida CDMX y Edomex</span>
+    </div>
+    <div class="csb__trust-item">
+      <span class="csb__trust-icon">📅</span>
+      <span>Atención 7 días a la semana</span>
+    </div>
+  </div>
+
+</aside>
+
+<style>
+  .csb {
+    position: sticky;
+    top: 1.5rem;
+    background: #fff;
+    border-radius: 18px;
+    border: 1px solid var(--c-border);
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+    max-height: calc(100vh - 3rem);
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ── Header ── */
+  .csb__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 1.25rem 1rem;
+    border-bottom: 1px solid var(--c-border);
+    flex-shrink: 0;
+    background: #fff;
+  }
+
+  .csb__title {
+    font-family: var(--font-head);
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: var(--c-text);
+    letter-spacing: -0.01em;
+  }
+
+  .csb__count {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--c-primary);
+    background: rgba(255,61,0,0.08);
+    border: 1px solid rgba(255,61,0,0.15);
+    padding: 0.2rem 0.6rem;
+    border-radius: 50px;
+    letter-spacing: 0.02em;
+  }
+
+  /* ── List ── */
+  .csb__list {
+    overflow-y: auto;
+    flex: 1;
+    padding: 0.5rem 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--c-border) transparent;
+  }
+
+  .csb__list::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .csb__list::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .csb__list::-webkit-scrollbar-thumb {
+    background: var(--c-border);
+    border-radius: 2px;
+  }
+
+  /* ── Item ── */
+  .csb__item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.7rem 1.25rem 0.7rem 1rem;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.15s ease;
+    position: relative;
+    border-left: 3px solid transparent;
+  }
+
+  .csb__item:hover {
+    background: #f8fafc;
+    border-left-color: var(--item-color);
+  }
+
+  .csb__item--active {
+    background: color-mix(in srgb, var(--item-color) 6%, #fff);
+    border-left-color: var(--item-color);
+  }
+
+  /* Image thumbnail */
+  .csb__item-img {
+    width: 64px;
+    height: 48px;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #f0f0f0;
+  }
+
+  .csb__item-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .csb__item:hover .csb__item-img img {
+    transform: scale(1.08);
+  }
+
+  /* Info */
+  .csb__item-info {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .csb__item-cat {
+    font-size: 0.67rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    line-height: 1;
+  }
+
+  .csb__item-name {
+    font-family: var(--font-head);
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--c-text);
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .csb__item--active .csb__item-name {
+    color: var(--item-color);
+  }
+
+  .csb__item-price {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--c-text-muted);
+  }
+
+  /* Arrow */
+  .csb__item-arrow {
+    color: var(--c-border);
+    flex-shrink: 0;
+    transition: color 0.15s, transform 0.15s;
+  }
+
+  .csb__item:hover .csb__item-arrow {
+    color: var(--item-color);
+    transform: translateX(3px);
+  }
+
+  /* ── Divider ── */
+  .csb__divider {
+    height: 1px;
+    background: var(--c-border);
+    flex-shrink: 0;
+    margin: 0;
+  }
+
+  /* ── CTA block ── */
+  .csb__cta {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    flex-shrink: 0;
+    background: #fff;
+  }
+
+  .csb__cta-icon {
+    font-size: 1.75rem;
+    line-height: 1;
+    margin-bottom: 0.1rem;
+  }
+
+  .csb__cta-title {
+    font-family: var(--font-head);
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--c-text);
+    text-align: center;
+    margin: 0;
+  }
+
+  .csb__cta-sub {
+    font-size: 0.78rem;
+    color: var(--c-text-muted);
+    text-align: center;
+    margin: 0 0 0.2rem;
+  }
+
+  .csb__cta-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border-radius: 50px;
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .csb__cta-btn--wa {
+    background: #25D366;
+    color: #fff;
+    box-shadow: 0 4px 14px rgba(37,211,102,0.3);
+  }
+
+  .csb__cta-btn--wa:hover {
+    background: #1fb855;
+    box-shadow: 0 6px 18px rgba(37,211,102,0.4);
+    transform: translateY(-1px);
+  }
+
+  .csb__cta-btn--cotizar {
+    background: #f8fafc;
+    color: var(--c-text);
+    border: 1.5px solid var(--c-border);
+  }
+
+  .csb__cta-btn--cotizar:hover {
+    background: var(--c-text);
+    color: #fff;
+    border-color: var(--c-text);
+  }
+
+  /* ── Trust micro ── */
+  .csb__trust {
+    padding: 0.75rem 1.25rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    border-top: 1px solid var(--c-border);
+    flex-shrink: 0;
+    background: #f8fafc;
+  }
+
+  .csb__trust-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--c-text-muted);
+    font-weight: 500;
+  }
+
+  .csb__trust-icon {
+    font-size: 0.9rem;
+    flex-shrink: 0;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 1024px) {
+    .csb {
+      max-height: none;
+      position: static;
+    }
+  }
+</style>

@@ -1,0 +1,367 @@
+---
+/**
+ * ServicesSidebar — BRINCOLINS
+ * Sidebar compacto para la página /servicios/.
+ * Misma estructura que CatalogSidebar: tarjeta unificada, lista scrollable,
+ * CTA fijo al fondo. Equilibra el alto con ServiceFeature.
+ */
+
+interface Props {
+  /** slug del servicio activo para resaltarlo */
+  current?: string;
+  whatsapp?: string;
+  waMessage?: string;
+}
+
+const {
+  current,
+  whatsapp = "5531281706",
+  waMessage = "Hola BRINCOLINS, quiero cotizar para mi evento.",
+} = Astro.props;
+
+const waHref = `https://wa.me/${whatsapp}?text=${encodeURIComponent(waMessage)}`;
+
+const servicios = [
+  {
+    slug: "renta-de-inflables",
+    name: "Renta de Inflables",
+    label: "Servicio principal",
+    color: "#FF3D00",
+    icon: "🎪",
+    href: "/servicios/renta-de-inflables/",
+    price: "desde $800",
+  },
+  {
+    slug: "paquetes-de-fiesta",
+    name: "Paquetes de Fiesta",
+    label: "Ahorra hasta 25%",
+    color: "#7C3AED",
+    icon: "🎁",
+    href: "/servicios/paquetes-de-fiesta/",
+    price: "desde $2,500",
+  },
+  {
+    slug: "inflables-para-eventos",
+    name: "Inflables para Eventos",
+    label: "Empresas y escuelas",
+    color: "#15803d",
+    icon: "🏟️",
+    href: "/servicios/inflables-para-eventos/",
+    price: "Cotización",
+  },
+  {
+    slug: "mobiliario-para-fiestas",
+    name: "Mobiliario para Fiestas",
+    label: "Complemento esencial",
+    color: "#0369a1",
+    icon: "🪑",
+    href: "/servicios/mobiliario-para-fiestas/",
+    price: "Cotización",
+  },
+  {
+    slug: "iluminacion-eventos",
+    name: "Iluminación para Eventos",
+    label: "Ambientación premium",
+    color: "#b45309",
+    icon: "💡",
+    href: "/servicios/iluminacion-eventos/",
+    price: "Cotización",
+  },
+];
+---
+
+<aside class="ssb">
+
+  <!-- Header -->
+  <div class="ssb__header">
+    <h3 class="ssb__title">Nuestros servicios</h3>
+    <span class="ssb__count">5 servicios</span>
+  </div>
+
+  <!-- Lista de servicios -->
+  <nav class="ssb__list" aria-label="Catálogo de servicios">
+    {servicios.map(s => {
+      const isActive = current ? s.slug === current || s.href.includes(current) : false;
+      return (
+        <a
+          href={s.href}
+          class={`ssb__item ${isActive ? "ssb__item--active" : ""}`}
+          style={`--item-color: ${s.color};`}
+          aria-current={isActive ? "page" : undefined}
+        >
+          <div class="ssb__item-icon" style={`background: color-mix(in srgb, ${s.color} 10%, #fff); color: ${s.color};`}>
+            {s.icon}
+          </div>
+          <div class="ssb__item-info">
+            <span class="ssb__item-label" style={`color: ${s.color};`}>{s.label}</span>
+            <span class="ssb__item-name">{s.name}</span>
+            <span class="ssb__item-price">{s.price}</span>
+          </div>
+          <span class="ssb__item-arrow" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </a>
+      );
+    })}
+  </nav>
+
+  <!-- Divider -->
+  <div class="ssb__divider"></div>
+
+  <!-- CTA -->
+  <div class="ssb__cta">
+    <p class="ssb__cta-title">💬 ¿Cuál necesitas?</p>
+    <p class="ssb__cta-sub">Cotizamos en minutos — sin compromiso</p>
+    <a
+      href={waHref}
+      target="_blank"
+      rel="nofollow noopener noreferrer"
+      class="ssb__btn ssb__btn--wa"
+    >
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+      Cotizar por WhatsApp
+    </a>
+    <a href="/cotizar/" class="ssb__btn ssb__btn--cotizar">
+      Ver todos los servicios
+    </a>
+  </div>
+
+  <!-- Trust -->
+  <div class="ssb__trust">
+    <div class="ssb__trust-item"><span>⭐</span><span>+500 eventos realizados</span></div>
+    <div class="ssb__trust-item"><span>🚚</span><span>Entrega incluida CDMX y Edomex</span></div>
+    <div class="ssb__trust-item"><span>📅</span><span>Atención 7 días a la semana</span></div>
+  </div>
+
+</aside>
+
+<style>
+  .ssb {
+    position: sticky;
+    top: 1.5rem;
+    background: #fff;
+    border-radius: 18px;
+    border: 1px solid var(--c-border);
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+    height: 100%;
+    max-height: calc(100vh - 3rem);
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ── Header ── */
+  .ssb__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 1.25rem 1rem;
+    border-bottom: 1px solid var(--c-border);
+    flex-shrink: 0;
+    background: #fff;
+  }
+  .ssb__title {
+    font-family: var(--font-head);
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: var(--c-text);
+    letter-spacing: -0.01em;
+  }
+  .ssb__count {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--c-primary);
+    background: rgba(255,61,0,0.08);
+    border: 1px solid rgba(255,61,0,0.15);
+    padding: 0.2rem 0.6rem;
+    border-radius: 50px;
+    letter-spacing: 0.02em;
+  }
+
+  /* ── List ── */
+  .ssb__list {
+    overflow-y: auto;
+    flex: 1;
+    padding: 0.35rem 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--c-border) transparent;
+    min-height: 0;
+  }
+  .ssb__list::-webkit-scrollbar { width: 4px; }
+  .ssb__list::-webkit-scrollbar-track { background: transparent; }
+  .ssb__list::-webkit-scrollbar-thumb { background: var(--c-border); border-radius: 2px; }
+
+  /* ── Item ── */
+  .ssb__item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.65rem 1.25rem 0.65rem 1rem;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.15s ease;
+    border-left: 3px solid transparent;
+  }
+  .ssb__item:hover {
+    background: #f8fafc;
+    border-left-color: var(--item-color);
+  }
+  .ssb__item--active {
+    background: color-mix(in srgb, var(--item-color) 6%, #fff);
+    border-left-color: var(--item-color);
+  }
+
+  /* Icon */
+  .ssb__item-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+  }
+
+  /* Info */
+  .ssb__item-info {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.05rem;
+  }
+  .ssb__item-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    line-height: 1;
+  }
+  .ssb__item-name {
+    font-family: var(--font-head);
+    font-size: 0.83rem;
+    font-weight: 700;
+    color: var(--c-text);
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ssb__item--active .ssb__item-name { color: var(--item-color); }
+  .ssb__item-price {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--c-text-muted);
+  }
+
+  /* Arrow */
+  .ssb__item-arrow {
+    color: var(--c-border);
+    flex-shrink: 0;
+    transition: color 0.15s, transform 0.15s;
+  }
+  .ssb__item:hover .ssb__item-arrow {
+    color: var(--item-color);
+    transform: translateX(3px);
+  }
+
+  /* ── Divider ── */
+  .ssb__divider {
+    height: 1px;
+    background: var(--c-border);
+    flex-shrink: 0;
+  }
+
+  /* ── CTA ── */
+  .ssb__cta {
+    padding: 1.1rem 1.25rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.55rem;
+    flex-shrink: 0;
+    background: #fff;
+  }
+  .ssb__cta-title {
+    font-family: var(--font-head);
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: var(--c-text);
+    text-align: center;
+    margin: 0;
+  }
+  .ssb__cta-sub {
+    font-size: 0.76rem;
+    color: var(--c-text-muted);
+    text-align: center;
+    margin: 0 0 0.15rem;
+  }
+  .ssb__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: 50px;
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.82rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    line-height: 1;
+    text-align: center;
+  }
+  .ssb__btn--wa {
+    background: #25D366;
+    color: #fff;
+    box-shadow: 0 4px 14px rgba(37,211,102,0.3);
+  }
+  .ssb__btn--wa:hover {
+    background: #1fb855;
+    box-shadow: 0 6px 18px rgba(37,211,102,0.4);
+    transform: translateY(-1px);
+  }
+  .ssb__btn--cotizar {
+    background: #f8fafc;
+    color: var(--c-text);
+    border: 1.5px solid var(--c-border);
+  }
+  .ssb__btn--cotizar:hover {
+    background: var(--c-text);
+    color: #fff;
+    border-color: var(--c-text);
+  }
+
+  /* ── Trust ── */
+  .ssb__trust {
+    padding: 0.75rem 1.25rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    border-top: 1px solid var(--c-border);
+    flex-shrink: 0;
+    background: #f8fafc;
+  }
+  .ssb__trust-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.73rem;
+    color: var(--c-text-muted);
+    font-weight: 500;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 1024px) {
+    .ssb {
+      max-height: none;
+      position: static;
+    }
+  }
+</style>

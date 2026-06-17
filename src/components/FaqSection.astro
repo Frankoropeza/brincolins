@@ -1,265 +1,509 @@
 ---
 /**
  * FaqSection — BRINCOLINS
- * 2 columnas: FAQ acordeón izquierda + formulario cotización WA derecha
+ * Rediseño profesional: acordeón numerado + tarjeta de cotización con header dark
  */
 interface FaqItem {
   question: string;
   answer:   string;
 }
-
 interface Props {
-  items:      FaqItem[];
-  whatsapp?:  string;
+  items:     FaqItem[];
+  whatsapp?: string;
 }
-
-const {
-  items,
-  whatsapp = "5531281706",
-} = Astro.props;
+const { items, whatsapp = "5531281706" } = Astro.props;
 ---
 
-<div class="faq-layout container">
+<div class="pfaq container">
+  <div class="pfaq__grid">
 
-  <!-- ═══ COLUMNA 1: FAQ ═══ -->
-  <div class="faq-layout__faqs">
-    {items.map((item) => (
-      <details class="faq-item">
-        <summary class="faq-item__q">{item.question}</summary>
-        <div class="faq-item__a"><p>{item.answer}</p></div>
-      </details>
-    ))}
-  </div>
-
-  <!-- ═══ COLUMNA 2: Formulario cotización ═══ -->
-  <div class="faq-layout__contact">
-    <div class="faq-contact">
-      <h3 class="faq-contact__title">Cotiza tu inflable ahora</h3>
-      <p class="faq-contact__desc">Completa el formulario y te respondemos por WhatsApp en minutos. Sin compromiso.</p>
-
-      <form id="faq-cotiza-form" class="faq-form">
-        <div class="faq-form__group">
-          <label class="faq-form__label" for="fc-nombre">Nombre *</label>
-          <input class="faq-form__input" type="text" id="fc-nombre" name="nombre" placeholder="Ej. María González" required />
-        </div>
-        <div class="faq-form__group">
-          <label class="faq-form__label" for="fc-tel">Teléfono / WhatsApp *</label>
-          <input class="faq-form__input" type="tel" id="fc-tel" name="telefono" placeholder="Ej. 55 1234 5678" required />
-        </div>
-        <div class="faq-form__group">
-          <label class="faq-form__label" for="fc-fecha">Fecha del evento *</label>
-          <input class="faq-form__input" type="date" id="fc-fecha" name="fecha" required />
-        </div>
-        <div class="faq-form__group">
-          <label class="faq-form__label" for="fc-inflable">¿Qué inflable te interesa? *</label>
-          <select class="faq-form__select" id="fc-inflable" name="inflable" required>
-            <option value="">Selecciona un inflable</option>
-            <option value="Dragones Rojos">Dragones Rojos — $1,200</option>
-            <option value="Castillo de Princesas">Castillo de Princesas — $1,200</option>
-            <option value="Mini Jungla">Mini Jungla — $1,200</option>
-            <option value="Gusanitos">Gusanitos — $1,200</option>
-            <option value="Mini Castillo">Mini Castillo — $800 (bebés)</option>
-            <option value="Barco Pirata">Barco Pirata — $2,500</option>
-            <option value="Extremo">Extremo — $3,000</option>
-            <option value="Castillo Blanco">Castillo Blanco — $2,800</option>
-            <option value="No estoy seguro">No estoy seguro / Quiero asesoría</option>
-          </select>
-        </div>
-        <div class="faq-form__group">
-          <label class="faq-form__label" for="fc-zona">Colonia / Zona *</label>
-          <input class="faq-form__input" type="text" id="fc-zona" name="zona" placeholder="Ej. Coyoacán, CDMX" required />
-        </div>
-        <button type="submit" class="faq-form__btn">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-          </svg>
-          Enviar por WhatsApp
-        </button>
-        <p class="faq-form__note">Se abrirá WhatsApp con tu información. Respondemos en minutos.</p>
-      </form>
+    <!-- ══════ Columna FAQ ══════ -->
+    <div class="pfaq__faq-col">
+      {items.map((item, i) => (
+        <details class="pfaq__item">
+          <summary class="pfaq__q">
+            <span class="pfaq__num">{String(i + 1).padStart(2, '0')}</span>
+            <span class="pfaq__qtext">{item.question}</span>
+            <span class="pfaq__chevron" aria-hidden="true">
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+              </svg>
+            </span>
+          </summary>
+          <div class="pfaq__a"><p>{item.answer}</p></div>
+        </details>
+      ))}
     </div>
-  </div>
 
+    <!-- ══════ Columna Formulario ══════ -->
+    <div class="pfaq__form-col">
+      <div class="pfaq__card">
+
+        <!-- Cabecera dark -->
+        <div class="pfaq__card-head">
+          <span class="pfaq__card-eyebrow">Cotización sin compromiso</span>
+          <h3 class="pfaq__card-title">Solicita tu inflable ahora</h3>
+          <p class="pfaq__card-desc">
+            Completa el formulario y te respondemos con precio y disponibilidad confirmados en minutos.
+          </p>
+          <div class="pfaq__stats">
+            <div class="pfaq__stat">
+              <strong>+500</strong>
+              <span>eventos / año</span>
+            </div>
+            <div class="pfaq__stat-sep" aria-hidden="true"></div>
+            <div class="pfaq__stat">
+              <strong>4.9 ★</strong>
+              <span>calificación</span>
+            </div>
+            <div class="pfaq__stat-sep" aria-hidden="true"></div>
+            <div class="pfaq__stat">
+              <strong>+20</strong>
+              <span>años en CDMX</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cuerpo blanco con formulario -->
+        <div class="pfaq__card-body">
+          <form id="pfaq-cotiza-form" class="pfaq-form" novalidate>
+
+            <div class="pfaq-form__row">
+              <div class="pfaq-form__group">
+                <label class="pfaq-form__label" for="pf-nombre">Nombre completo *</label>
+                <input class="pfaq-form__input" type="text" id="pf-nombre" name="nombre"
+                  placeholder="Ej. María González" required autocomplete="name" />
+              </div>
+              <div class="pfaq-form__group">
+                <label class="pfaq-form__label" for="pf-tel">WhatsApp *</label>
+                <input class="pfaq-form__input" type="tel" id="pf-tel" name="telefono"
+                  placeholder="55 1234 5678" required autocomplete="tel" />
+              </div>
+            </div>
+
+            <div class="pfaq-form__row">
+              <div class="pfaq-form__group">
+                <label class="pfaq-form__label" for="pf-fecha">Fecha del evento *</label>
+                <input class="pfaq-form__input" type="date" id="pf-fecha" name="fecha" required />
+              </div>
+              <div class="pfaq-form__group">
+                <label class="pfaq-form__label" for="pf-zona">Colonia / Zona *</label>
+                <input class="pfaq-form__input" type="text" id="pf-zona" name="zona"
+                  placeholder="Ej. Coyoacán, CDMX" required />
+              </div>
+            </div>
+
+            <div class="pfaq-form__group">
+              <label class="pfaq-form__label" for="pf-inflable">¿Qué inflable te interesa? *</label>
+              <select class="pfaq-form__select" id="pf-inflable" name="inflable" required>
+                <option value="">Selecciona un inflable</option>
+                <option value="Dragones Rojos">Dragones Rojos — $1,200</option>
+                <option value="Castillo de Princesas">Castillo de Princesas — $1,200</option>
+                <option value="Mini Jungla">Mini Jungla — $1,200</option>
+                <option value="Gusanitos">Gusanitos — $1,200</option>
+                <option value="Mini Castillo">Mini Castillo — $800 (bebés 1-4 años)</option>
+                <option value="Barco Pirata">Barco Pirata — $2,500</option>
+                <option value="Extremo">Circuito Extremo — $3,000</option>
+                <option value="Castillo Blanco">Castillo Blanco — $2,800</option>
+                <option value="No estoy seguro">No sé cuál elegir — quiero asesoría</option>
+              </select>
+            </div>
+
+            <button type="submit" class="pfaq-form__submit">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Solicitar cotización por WhatsApp
+            </button>
+          </form>
+
+          <!-- Señales de confianza -->
+          <div class="pfaq-trust">
+            <div class="pfaq-trust__item">
+              <svg viewBox="0 0 20 20" fill="currentColor" width="13" height="13" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"/>
+              </svg>
+              <span>Sin costo de cotización</span>
+            </div>
+            <div class="pfaq-trust__item">
+              <svg viewBox="0 0 20 20" fill="currentColor" width="13" height="13" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd"/>
+              </svg>
+              <span>Datos 100% privados</span>
+            </div>
+            <div class="pfaq-trust__item">
+              <svg viewBox="0 0 20 20" fill="currentColor" width="13" height="13" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/>
+              </svg>
+              <span>Respuesta en minutos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 <script is:inline define:vars={{ whatsapp }}>
-  document.getElementById('faq-cotiza-form')?.addEventListener('submit', function(e) {
-    e.preventDefault();
-    const f = new FormData(e.target);
-    let msg = "Hola BRINCOLINS, quiero cotizar un inflable.\n\n";
-    msg += "*Nombre:* " + f.get('nombre') + "\n";
-    msg += "*Teléfono:* " + f.get('telefono') + "\n";
-    msg += "*Fecha:* " + f.get('fecha') + "\n";
-    msg += "*Inflable:* " + f.get('inflable') + "\n";
-    msg += "*Zona:* " + f.get('zona') + "\n";
-    window.open("https://wa.me/" + whatsapp + "?text=" + encodeURIComponent(msg), '_blank');
-  });
+  (function () {
+    var form = document.getElementById('pfaq-cotiza-form');
+    if (!form) return;
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var f = new FormData(e.target);
+      var msg =
+        "Hola BRINCOLINS, quiero cotizar un inflable.\n\n" +
+        "*Nombre:* "             + (f.get('nombre')   || '') + "\n" +
+        "*WhatsApp:* "           + (f.get('telefono') || '') + "\n" +
+        "*Fecha del evento:* "   + (f.get('fecha')    || '') + "\n" +
+        "*Inflable de interés:* "+ (f.get('inflable') || '') + "\n" +
+        "*Colonia / Zona:* "     + (f.get('zona')     || '');
+      window.open("https://wa.me/" + whatsapp + "?text=" + encodeURIComponent(msg), '_blank');
+    });
+  })();
 </script>
 
 <style>
-  .faq-layout {
+  /* ── Grid principal ── */
+  .pfaq {
+    /* .container ya da max-width y padding lateral */
+  }
+
+  .pfaq__grid {
     display: grid;
-    grid-template-columns: 1fr 360px;
-    gap: 3rem;
+    grid-template-columns: 1fr 380px;
+    gap: 4rem;
     align-items: start;
   }
 
-  /* ── FAQ Items ── */
-  .faq-layout__faqs {
+  /* ── Columna FAQ ── */
+  .pfaq__faq-col {
     display: flex;
     flex-direction: column;
-    gap: 0.625rem;
   }
 
-  .faq-item {
-    background: #fff;
-    border: 1px solid var(--c-border);
-    border-radius: 8px;
-    overflow: hidden;
+  .pfaq__item {
+    border-bottom: 1px solid var(--c-border, #e2e8f0);
   }
 
-  .faq-item__q {
-    padding: 1.125rem 1.5rem;
-    font-weight: 600;
-    font-size: 0.9375rem;
+  .pfaq__item:first-child {
+    border-top: 1px solid var(--c-border, #e2e8f0);
+  }
+
+  .pfaq__q {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem 0.25rem;
     cursor: pointer;
     list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--c-text);
+    user-select: none;
+    transition: background 0.15s;
   }
 
-  .faq-item__q::-webkit-details-marker { display: none; }
+  .pfaq__q::-webkit-details-marker { display: none; }
 
-  .faq-item__q::after {
-    content: '+';
-    font-size: 1.25rem;
-    font-weight: 300;
-    color: var(--c-text-muted);
+  .pfaq__num {
+    font-family: var(--font-head);
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: var(--c-primary, #FF3D00);
+    letter-spacing: 0.06em;
+    min-width: 1.75rem;
     flex-shrink: 0;
-    margin-left: 1rem;
+    opacity: 0.6;
+    transition: opacity 0.15s;
   }
 
-  .faq-item[open] .faq-item__q::after { content: '−'; }
-  .faq-item[open] .faq-item__q { background: #fff8f6; }
+  .pfaq__qtext {
+    flex: 1;
+    font-family: var(--font-head);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--c-text, #0f172a);
+    line-height: 1.4;
+    transition: color 0.15s;
+  }
 
-  .faq-item__a {
-    padding: 0 1.5rem 1.125rem;
-    color: var(--c-text-muted);
+  .pfaq__chevron {
+    flex-shrink: 0;
+    color: var(--c-text-muted, #64748b);
+    display: flex;
+    align-items: center;
+    transition: transform 0.25s ease, color 0.15s;
+  }
+
+  /* Estado abierto */
+  .pfaq__item[open] .pfaq__num    { opacity: 1; }
+  .pfaq__item[open] .pfaq__qtext  { color: var(--c-primary, #FF3D00); }
+  .pfaq__item[open] .pfaq__chevron {
+    transform: rotate(180deg);
+    color: var(--c-primary, #FF3D00);
+  }
+
+  .pfaq__a {
+    padding: 0 0.25rem 1.25rem calc(1.75rem + 1rem);
+    animation: pfaq-in 0.2s ease both;
+  }
+
+  @keyframes pfaq-in {
+    from { opacity: 0; transform: translateY(-4px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .pfaq__a p {
+    margin: 0;
     font-size: 0.9rem;
-    line-height: 1.7;
+    line-height: 1.8;
+    color: var(--c-text-muted, #475569);
   }
 
-  .faq-item__a p { margin: 0; }
-
-  /* ── Sidebar formulario ── */
-  .faq-contact {
-    background: #fff;
-    border: 1px solid var(--c-border);
-    border-radius: 12px;
-    padding: 1.75rem 1.5rem;
+  /* ── Columna formulario ── */
+  .pfaq__form-col {
     position: sticky;
     top: calc(var(--header-height, 70px) + 1.5rem);
   }
 
-  .faq-contact__title {
-    font-family: var(--font-head);
-    font-weight: 800;
-    font-size: 1.1rem;
-    color: var(--c-text);
-    margin: 0 0 0.4rem;
+  /* Tarjeta */
+  .pfaq__card {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow:
+      0 1px 3px rgba(0,0,0,0.06),
+      0 8px 24px rgba(0,0,0,0.1),
+      0 24px 48px -12px rgba(0,0,0,0.08);
+    border: 1px solid rgba(0,0,0,0.05);
   }
 
-  .faq-contact__desc {
-    font-size: 0.85rem;
-    color: var(--c-text-muted);
-    line-height: 1.55;
+  /* Cabecera dark */
+  .pfaq__card-head {
+    position: relative;
+    background: #0f172a;
+    padding: 1.75rem 1.5rem 1.5rem;
+    overflow: hidden;
+  }
+
+  .pfaq__card-head::before {
+    content: '';
+    position: absolute;
+    inset-block-start: 0;
+    left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #FF3D00 0%, #FF6B00 100%);
+  }
+
+  .pfaq__card-eyebrow {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.45);
+    margin-bottom: 0.5rem;
+  }
+
+  .pfaq__card-title {
+    font-family: var(--font-head);
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #fff;
+    margin: 0 0 0.5rem;
+    line-height: 1.25;
+  }
+
+  .pfaq__card-desc {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.65;
     margin: 0 0 1.25rem;
   }
 
-  /* ── Formulario ── */
-  .faq-form {
+  /* Stats bar */
+  .pfaq__stats {
     display: flex;
-    flex-direction: column;
-    gap: 0.875rem;
+    align-items: center;
+    gap: 0;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.07);
   }
 
-  .faq-form__group {
+  .pfaq__stat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+    text-align: center;
+  }
+
+  .pfaq__stat strong {
+    font-family: var(--font-head);
+    font-size: 0.875rem;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1;
+  }
+
+  .pfaq__stat span {
+    font-size: 0.62rem;
+    color: rgba(255,255,255,0.4);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .pfaq__stat-sep {
+    width: 1px;
+    height: 2rem;
+    background: rgba(255,255,255,0.1);
+    flex-shrink: 0;
+  }
+
+  /* Cuerpo blanco */
+  .pfaq__card-body {
+    background: #fff;
+    padding: 1.5rem;
+  }
+
+  /* Formulario */
+  .pfaq-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .pfaq-form__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+
+  .pfaq-form__group {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
   }
 
-  .faq-form__label {
-    font-size: 0.8rem;
+  .pfaq-form__label {
+    font-size: 0.74rem;
     font-weight: 600;
-    color: var(--c-text);
+    color: var(--c-text, #0f172a);
+    letter-spacing: 0.01em;
   }
 
-  .faq-form__input,
-  .faq-form__select {
+  .pfaq-form__input,
+  .pfaq-form__select {
     width: 100%;
-    padding: 0.6rem 0.875rem;
-    border: 1px solid var(--c-border);
-    border-radius: 6px;
+    padding: 0.625rem 0.875rem;
+    border: 1.5px solid var(--c-border, #e2e8f0);
+    border-radius: 8px;
     font-size: 0.875rem;
-    color: var(--c-text);
+    color: var(--c-text, #0f172a);
     background: #fff;
     font-family: var(--font-body);
+    transition: border-color 0.15s, box-shadow 0.15s;
+    line-height: 1.4;
+    appearance: none;
+    -webkit-appearance: none;
   }
 
-  .faq-form__input:focus,
-  .faq-form__select:focus {
+  .pfaq-form__input::placeholder { color: #94a3b8; }
+
+  .pfaq-form__input:focus,
+  .pfaq-form__select:focus {
     outline: none;
-    border-color: var(--c-primary);
+    border-color: var(--c-primary, #FF3D00);
+    box-shadow: 0 0 0 3px rgba(255,61,0,0.1);
   }
 
-  .faq-form__btn {
+  .pfaq-form__select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%2394a3b8'%3E%3Cpath fill-rule='evenodd' d='M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z' clip-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1.1rem;
+    padding-right: 2.25rem;
+  }
+
+  .pfaq-form__submit {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 0.625rem;
     width: 100%;
-    padding: 0.875rem 1rem;
-    background: #25D366;
+    padding: 0.9rem 1.25rem;
+    background: #22c55e;
     color: #fff;
+    font-family: var(--font-head);
     font-size: 0.9375rem;
     font-weight: 700;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
-    font-family: var(--font-head);
-    transition: background 0.2s;
+    transition: background 0.2s, transform 0.1s, box-shadow 0.2s;
     margin-top: 0.25rem;
+    letter-spacing: 0.01em;
+    box-shadow: 0 4px 12px rgba(34,197,94,0.3);
   }
 
-  .faq-form__btn:hover { background: #128C7E; }
-
-  .faq-form__note {
-    font-size: 0.75rem;
-    color: var(--c-text-muted);
-    text-align: center;
-    margin: 0;
-    line-height: 1.4;
+  .pfaq-form__submit:hover {
+    background: #16a34a;
+    box-shadow: 0 6px 16px rgba(34,197,94,0.35);
   }
+
+  .pfaq-form__submit:active { transform: scale(0.98); }
+
+  /* Trust signals */
+  .pfaq-trust {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding-top: 0.875rem;
+    border-top: 1px solid var(--c-border, #e2e8f0);
+  }
+
+  .pfaq-trust__item {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.69rem;
+    color: var(--c-text-muted, #64748b);
+    line-height: 1.3;
+    white-space: nowrap;
+  }
+
+  .pfaq-trust__item svg { color: #22c55e; flex-shrink: 0; }
 
   /* ── Responsive ── */
-  @media (max-width: 1024px) {
-    .faq-layout {
-      grid-template-columns: 1fr 300px;
-      gap: 2rem;
+  @media (max-width: 1100px) {
+    .pfaq__grid {
+      grid-template-columns: 1fr 340px;
+      gap: 3rem;
     }
   }
 
   @media (max-width: 860px) {
-    .faq-layout {
+    .pfaq__grid {
       grid-template-columns: 1fr;
+      gap: 2.5rem;
     }
-    .faq-contact {
+
+    .pfaq__form-col {
       position: static;
-      max-width: 480px;
+      max-width: 520px;
       margin: 0 auto;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .pfaq-form__row { grid-template-columns: 1fr; }
+
+    .pfaq-trust {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 0.5rem 1rem;
     }
   }
 </style>
