@@ -10,7 +10,7 @@ heroImage: "/img/blog/blog-decoracion-fiesta-infantil-inflable.avif"
 heroImageAlt: "Arcos de globos e inflable para fiesta infantil en CDMX"
 intro:
   - "Organizar una fiesta infantil en la **Ciudad de México** que se vea increíble no requiere un presupuesto millonario — requiere saber combinar los elementos correctos. Y la combinación que más impacto visual genera, a cualquier presupuesto, es un **inflable temático + arcos y decoración de globos** coordinados. El resultado: una fiesta que parece de revista y que los niños recordarán por años."
-  - "En **BRINCOLINS**, con más de 20 años rentando inflables en CDMX y Estado de México, hemos visto de cerca cómo esta combinación transforma cualquier jardín o salón en un espacio mágico. Y nuestros aliados de decoración, [DEGLOB (Fantasy Globos)](https://fantasyglobos.com.mx), son especialistas en arcos orgánicos, backdrops de globos y decoración completa para fiestas en CDMX. Juntos cubrimos todo lo que tu fiesta necesita: la diversión con nuestro [catálogo de inflables](/inflables/) y el impacto visual con su magia en globos."
+  - "En **BRINCOLINS**, con más de 20 años rentando inflables en CDMX y Estado de México, hemos visto de cerca cómo esta combinación transforma cualquier jardín o salón en un espacio mágico. Y nuestros aliados de decoración, DEGLOB (Fantasy Globos), son especialistas en arcos orgánicos, backdrops de globos y decoración completa para fiestas en CDMX. Juntos cubrimos todo lo que tu fiesta necesita: la diversión con nuestro [catálogo de inflables](/inflables/) y el impacto visual con su magia en globos."
 tags:
   - "renta inflables CDMX"
   - "arcos de globos fiesta infantil"
@@ -48,7 +48,7 @@ La clave para que la decoración se vea profesional es la coordinación de color
 | Extremo | Deportes / Aventura | Rojo, azul, amarillo, verde | Globos cromados + banderines |
 | Castillo Blanco | Elegancia / Boda infantil | Blanco, plateado, rosa pastel | Arco minimalista + flores |
 
-Esta tabla es un punto de partida. Los especialistas de [DEGLOB (Fantasy Globos)](https://fantasyglobos.com.mx) pueden personalizar cualquier combinación según el tema específico de tu fiesta, el espacio disponible y tu presupuesto.
+Esta tabla es un punto de partida. Los especialistas de DEGLOB (Fantasy Globos) pueden personalizar cualquier combinación según el tema específico de tu fiesta, el espacio disponible y tu presupuesto.
 
 ## Cómo dividir el espacio: cuatro zonas que cambian todo
 

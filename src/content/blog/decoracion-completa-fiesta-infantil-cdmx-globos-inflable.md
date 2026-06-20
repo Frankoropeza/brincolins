@@ -10,7 +10,7 @@ heroImage: "/img/blog/blog-decoracion-fiesta-infantil-inflable.avif"
 heroImageAlt: "Decoración completa fiesta infantil CDMX con globos backdrop e inflable"
 intro:
   - "Una fiesta infantil verdaderamente memorable necesita dos cosas: **entretenimiento que mantenga a los niños felices** y **decoración que deje a los papás con la mandíbula en el piso**. Cuando combinas globos artesanales, un backdrop diseñado a medida y un brincolín de primera calidad, el resultado supera cualquier expectativa — sin importar el tamaño del presupuesto."
-  - "En **BRINCOLINS** llevamos más de 20 años haciendo que las fiestas infantiles en la **Ciudad de México y Estado de México** sean inolvidables con nuestros [inflables](/inflables/). Y nuestros aliados de [DEGLOB (Fantasy Globos)](https://fantasyglobos.com.mx) son los expertos en decoración con globos, backdrops y ambientación temática para fiestas en CDMX. Esta guía reúne la experiencia de ambos para darte el mapa completo hacia la fiesta perfecta."
+  - "En **BRINCOLINS** llevamos más de 20 años haciendo que las fiestas infantiles en la **Ciudad de México y Estado de México** sean inolvidables con nuestros [inflables](/inflables/). Y nuestros aliados de DEGLOB (Fantasy Globos) son los expertos en decoración con globos, backdrops y ambientación temática para fiestas en CDMX. Esta guía reúne la experiencia de ambos para darte el mapa completo hacia la fiesta perfecta."
 tags:
   - "renta inflables CDMX"
   - "decoracion completa fiesta infantil cdmx"

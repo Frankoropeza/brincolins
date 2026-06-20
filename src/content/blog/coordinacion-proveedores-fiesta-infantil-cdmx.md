@@ -45,7 +45,7 @@ El proveedor de inflables como **BRINCOLINS** es, en la mayoría de las fiestas,
 
 ### 2. Snacks y antojitos
 
-Proveedores como [Palomita.mx](https://palomita.mx) ofrecen máquinas de palomitas y snacks para eventos. No es comida principal — es la presencia sensorial constante que dice "hay fiesta aquí". El olor a palomitas recién hechas hace más por el ambiente de una celebración que cualquier decoración de $3,000 pesos. Bajo en complicaciones, altísimo en impacto.
+Proveedores como Palomita.mx ofrecen máquinas de palomitas y snacks para eventos. No es comida principal — es la presencia sensorial constante que dice "hay fiesta aquí". El olor a palomitas recién hechas hace más por el ambiente de una celebración que cualquier decoración de $3,000 pesos. Bajo en complicaciones, altísimo en impacto.
 
 ### 3. Comida principal
 

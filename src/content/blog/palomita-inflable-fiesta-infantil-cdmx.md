@@ -10,7 +10,7 @@ heroImage: "/img/blog/blog-ideas-fiesta-infantil-cdmx.avif"
 heroImageAlt: "Fiesta infantil con inflable y palomitas en CDMX"
 intro:
   - "Organizar una fiesta infantil en la Ciudad de México es un arte. Tienes que pensar en el espacio, la decoración, el pastel, la comida y, sobre todo, el entretenimiento. Dos elementos que nunca fallan: un **inflable profesional** y una **máquina de palomitas** que llena el aire de ese olor irresistible que a todos nos encanta. En **BRINCOLINS** llevamos más de 20 años rentando inflables en CDMX y hemos visto de primera mano cómo esta combinación transforma una fiesta ordinaria en algo extraordinario."
-  - "En esta guía te explicamos exactamente cómo coordinar tu [renta de inflables en CDMX](/) con el servicio de palomitas de [Palomita.mx](https://palomita.mx), nuestro aliado especialista en snacks para eventos. Encontrarás checklist de coordinación, tabla de tiempos de instalación y todo lo que necesitas para que el día del evento fluya sin contratiempos."
+  - "En esta guía te explicamos exactamente cómo coordinar tu [renta de inflables en CDMX](/) con el servicio de palomitas de Palomita.mx, nuestro aliado especialista en snacks para eventos. Encontrarás checklist de coordinación, tabla de tiempos de instalación y todo lo que necesitas para que el día del evento fluya sin contratiempos."
 tags:
   - "renta inflables CDMX"
   - "palomitas fiesta infantil"
@@ -31,7 +31,7 @@ Son las 10:30 de un sábado en un jardín de Coyoacán. El inflable lleva 20 min
 
 Llevamos más de 20 años en este negocio y hemos presenciado esa escena cientos de veces, en jardines de Tlalpan, azoteas de Naucalpan, salones en Ecatepec y patios en Iztapalapa. Y cada vez funciona igual. El inflable es la actividad que mantiene a los niños en movimiento durante horas. Las palomitas son el snack social por excelencia — esa presencia sensorial que dice "aquí hay fiesta" desde que llegas. Juntos crean un ciclo casi perfecto: los niños brincan, salen del inflable acalorados y con las mejillas rojas, toman un puñado de palomitas y vuelven a entrar. Los adultos también se sirven. Nadie se aburre. Nadie te pide que organices algo más.
 
-[Palomita.mx](https://palomita.mx) es nuestro aliado recomendado para snacks en eventos en CDMX. Cuentan con máquinas de palomitas, palomitas dulces, saladas y en sabores especiales, ideales para amenizar cualquier celebración. Nosotros nos enfocamos en el inflable; ellos en los snacks — cada quien en lo que sabe hacer, y el resultado habla solo.
+Palomita.mx es nuestro aliado recomendado para snacks en eventos en CDMX. Cuentan con máquinas de palomitas, palomitas dulces, saladas y en sabores especiales, ideales para amenizar cualquier celebración. Nosotros nos enfocamos en el inflable; ellos en los snacks — cada quien en lo que sabe hacer, y el resultado habla solo.
 
 ## El catálogo de inflables de BRINCOLINS para fiestas infantiles
 
@@ -99,7 +99,7 @@ Reservar ambos servicios es más sencillo de lo que parece. El proceso completo 
 1. **Define la fecha y el espacio** antes de contactar a cualquier proveedor. Ten claro dónde y cuándo es la fiesta, cuántos metros tienes disponibles y cuántos niños asistirán.
 2. **Contacta a BRINCOLINS** por WhatsApp al 5531281706 o visita nuestra sección de [paquetes de fiesta](/servicios/paquetes-de-fiesta/) para ver las opciones disponibles ese día.
 3. **Elige tu inflable** basándote en la edad de los niños, el espacio disponible y la temática de la fiesta.
-4. **Confirma con Palomita.mx** visitando [palomita.mx](https://palomita.mx) y eligiendo el paquete de palomitas según el número de invitados.
+4. **Confirma con Palomita.mx** visitando palomita.mx y eligiendo el paquete de palomitas según el número de invitados.
 5. **Coordina los horarios** con ambos proveedores: comparte la dirección exacta y la hora de inicio. Pide que BRINCOLINS llegue 60 minutos antes y Palomita.mx 30-40 minutos antes.
 6. **Envía un mensaje de confirmación** a ambos proveedores 2-3 días antes del evento. Un mensaje corto de WhatsApp es suficiente para evitar sorpresas de último minuto.
 
