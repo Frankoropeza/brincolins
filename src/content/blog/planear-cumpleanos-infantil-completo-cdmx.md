@@ -1,6 +1,6 @@
 ---
-title: "Cómo Planear un Cumpleaños Infantil Completo en CDMX: Inflable, Mesa de Dulces y Todo lo Necesario"
-description: "Guía completa para planear el cumpleaños infantil perfecto en CDMX: timeline de 6 semanas, presupuesto real, inflables por edad, mesa de dulces con MEDEDUL y los errores más comunes."
+title: "Cómo Planear un Cumpleaños Infantil Completo en CDMX: Inflable."
+description: "Guía completa para planear el cumpleaños infantil perfecto en CDMX: timeline de 6 semanas, presupuesto real, inflables por edad, mesa de dulces con MEDEDUL y los."
 excerpt: "Todo lo que necesitas saber para planear un cumpleaños infantil completo en CDMX: desde 6 semanas antes hasta el día del evento, con inflable, mesa de dulces y un presupuesto claro."
 publishDate: "2026-06-12"
 category: "Guías"

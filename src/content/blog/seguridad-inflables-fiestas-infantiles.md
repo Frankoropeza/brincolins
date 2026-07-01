@@ -1,14 +1,14 @@
 ---
 title: "Seguridad en Inflables para Fiestas Infantiles — Guía 2026"
 h1: "Seguridad en Inflables: Lo que Todo Papá Debe Saber Antes de la Fiesta"
-description: "Inflables para fiestas infantiles seguros: todo lo que necesitas saber sobre normas de seguridad, supervisión y el seguro de responsabilidad civil que incluye BRINCOLINS."
+description: "Inflables para fiestas infantiles seguros: todo lo que necesitas saber sobre normas de seguridad, supervisión y el seguro de responsabilidad civil que incluye."
 excerpt: "Un brincolín es diversión pura — pero como cualquier equipo de juego, hay reglas básicas que marcan la diferencia entre una fiesta perfecta y una visita a urgencias. Esta guía es para todos los papás."
 publishDate: "2025-03-15"
 updatedDate: "2026-06-16"
 category: "Seguridad"
 author: "Equipo BRINCOLINS"
 readTime: "7 min"
-heroImage: "/img/inflables/extremo-v3.avif"
+heroImage: "/img/inflables/extremo-v3.jpg"
 heroImageAlt: "Seguridad en inflables para fiestas infantiles CDMX"
 galleryImages:
   - "/img/blog/seguridad-inflables-fiestas-infantiles/img1.avif"

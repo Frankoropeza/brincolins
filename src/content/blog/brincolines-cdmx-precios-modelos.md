@@ -1,6 +1,6 @@
 ---
 title: "Brincolines en CDMX: Precios y Modelos 2026"
-description: "Guía completa de precios y modelos de brincolines en la Ciudad de México. Compara inflables, descubre qué incluye la renta y encuentra la mejor opción para tu evento."
+description: "Guía completa de precios y modelos de brincolines en la Ciudad de México. Compara inflables, descubre qué incluye la renta y encuentra la mejor opción para tu."
 excerpt: "La guía más completa de precios de brincolines en la Ciudad de México. Compara modelos, descubre qué incluye cada renta y elige la mejor opción para tu presupuesto."
 publishDate: "2025-03-15"
 updatedDate: "2026-06-16"

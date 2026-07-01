@@ -8,7 +8,7 @@ blurBg: false
 cta:
   enabled: true
   label: "Cotiza Gratis"
-  href: "/contacto/"
+  href: "/cotizar/"
 
 nav:
   - label: "Inflables"

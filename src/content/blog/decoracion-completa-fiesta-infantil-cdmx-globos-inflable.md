@@ -1,6 +1,6 @@
 ---
-title: "Decoración Completa para Fiestas Infantiles en CDMX: Globos, Backdrop e Inflable en un Solo Evento"
-description: "Aprende a lograr la decoración perfecta combinando globos, backdrop e inflable en tu fiesta infantil en CDMX. Checklist, presupuestos y los 5 temas más populares 2026."
+title: "Decoración Completa para Fiestas Infantiles en CDMX: Globos."
+description: "Aprende a lograr la decoración perfecta combinando globos, backdrop e inflable en tu fiesta infantil en CDMX. Checklist, presupuestos y los 5 temas más populares."
 excerpt: "Globos orgánicos, un backdrop espectacular y un inflable que entretiene a todos los niños: así se ve la fiesta infantil perfecta en la Ciudad de México. Guía completa con checklist, presupuestos reales y los errores que debes evitar a toda costa."
 publishDate: "2026-06-07"
 category: "Decoración"

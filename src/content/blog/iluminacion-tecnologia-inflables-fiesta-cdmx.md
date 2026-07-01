@@ -1,6 +1,6 @@
 ---
-title: "Iluminación, Tecnología e Inflables en una Fiesta en CDMX: La Guía para un Evento Memorable"
-description: "Guía completa sobre cómo combinar iluminación LED, tecnología visual e inflables para crear fiestas memorables en CDMX. Comparativa, presupuestos y tips para eventos nocturnos."
+title: "Iluminación, Tecnología e Inflables en una Fiesta en CDMX: La."
+description: "Guía completa sobre cómo combinar iluminación LED, tecnología visual e inflables para crear fiestas memorables en CDMX. Comparativa, presupuestos y tips para."
 excerpt: "La tecnología visual ya no es exclusiva de eventos corporativos: descubre cómo la iluminación LED, las pantallas y los inflables se combinan para crear fiestas en CDMX que todos van a querer fotografiar."
 publishDate: "2026-06-13"
 category: "Eventos"

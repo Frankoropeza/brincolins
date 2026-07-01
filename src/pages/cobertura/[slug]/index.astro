@@ -1,0 +1,240 @@
+---
+/**
+ * src/pages/cobertura/[slug]/index.astro
+ * Plantilla dinámica para las 34 páginas de zona de cobertura.
+ * Reemplaza los 34 directorios estáticos — Fase 5.1.
+ *
+ * AGENTS.md:
+ *  ✅ Hero siempre 2 columnas
+ *  ✅ H2 como preguntas en páginas GEO
+ *  ✅ CTAs → /cotizar/
+ *  ✅ CSS scoped
+ *  ✅ Cero animaciones de entrada
+ */
+import PageLayout from "@/layouts/PageLayout.astro";
+import QuickNav from "@/components/QuickNav.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import { COVERAGE_ZONES } from "@/data/coverage";
+
+export async function getStaticPaths() {
+  return COVERAGE_ZONES.map(zone => ({
+    params: { slug: zone.slug },
+    props:  { zone },
+  }));
+}
+
+const { zone } = Astro.props;
+---
+
+<PageLayout
+  title={zone.title}
+  description={zone.description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio",    href: "/" },
+    { name: "Cobertura", href: "/cobertura/" },
+    { name: zone.zone },
+  ]}
+  faqItems={zone.faqs}
+>
+  <!-- Breadcrumbs inline -->
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a><span class="breadcrumbs__sep">/</span>
+      <a href="/cobertura/">Cobertura</a><span class="breadcrumbs__sep">/</span>
+      <span>{zone.zone}</span>
+    </nav>
+  </div>
+
+  <!-- ── Hero 2 columnas ──────────────────────────────────────────── -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">{zone.badge}</span>
+          <h1 class="hero__title">
+            Renta de Inflables en <span class="highlight">{zone.zone}</span>
+          </h1>
+          <p class="hero__desc">{zone.heroDesc}</p>
+          <div class="hero__ctas">
+            <a href="/cotizar/" class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">{zone.heroCopy1}</p>
+          <p class="hero__copy-text">{zone.heroCopy2}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <QuickNav />
+
+  <!-- ── Colonias ─────────────────────────────────────────────────── -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="Colonias"
+        title={`¿Qué colonias de ${zone.zone} cubrimos?`}
+        subtitle="Entrega directa en estas colonias y zonas."
+        copy1={`Cubrimos toda la zona ${zone.zone}, incluyendo colonias residenciales, populares e históricas. Conocemos bien los accesos y particularidades de cada área.`}
+        copy2={`Si tu colonia está en ${zone.zone} o en zonas limítrofes, contáctanos. Es muy probable que podamos atenderte sin costo adicional de envío.`}
+      />
+      <div class="coverage__badges">
+        {zone.colonias.map(c => <span class="coverage__badge">{c}</span>)}
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Entrega ───────────────────────────────────────────────────── -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="Entrega"
+        title={`¿Cómo entregamos en ${zone.zone}?`}
+        subtitle="Puntualidad y profesionalismo garantizados."
+        copy1={`Conocemos la vialidad y los accesos en ${zone.zone}. Nuestros equipos planifican la ruta con anticipación para llegar a tiempo, sin importar el tipo de colonia o fraccionamiento.`}
+        copy2="Para zonas con calles angostas o accesos controlados, coordinamos de antemano. Tu comodidad y la puntualidad de entrega son nuestra prioridad."
+      />
+      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#00C853,#2E7D32);">
+            <span class="why-card__img-label">GRATIS</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Costo de envío</h3>
+            <p class="why-card__desc">Envío incluido en el precio para toda la zona {zone.zone}. Sin cargos adicionales de flete.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#1565C0,#0288D1);">
+            <span class="why-card__img-label">2h</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Instalación rápida</h3>
+            <p class="why-card__desc">Montaje profesional en menos de 2 horas desde la llegada al domicilio.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-card__img" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+            <span class="why-card__img-label">24/7</span>
+          </div>
+          <div class="why-card__body">
+            <h3 class="why-card__title">Atención permanente</h3>
+            <p class="why-card__desc">WhatsApp disponible todo el día para confirmar tu reserva y resolver dudas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Inflables recomendados ────────────────────────────────────── -->
+  {zone.inflablesRec.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <SectionHeader
+          badge="Recomendados"
+          title={`¿Qué inflables son ideales para ${zone.zone}?`}
+          subtitle="Selección perfecta para los espacios de esta zona."
+          copy1={`En ${zone.zone} los espacios varían mucho: desde jardines amplios hasta patios más compactos. Tenemos el modelo correcto para cada situación.`}
+          copy2="¿No sabes cuál elegir? Mándanos una foto de tu espacio por WhatsApp y te recomendamos el inflable ideal para tu evento."
+        />
+        <div class="grid-3" style="max-width:900px;margin:0 auto;">
+          {zone.inflablesRec.map(rec => (
+            <a href={rec.href} class="inflable-rec-card">
+              <div class="inflable-rec-card__head" style={`background:${rec.gradient};`}>
+                <span class="inflable-rec-card__tag">{rec.tag}</span>
+              </div>
+              <div class="inflable-rec-card__body">
+                <h3 class="inflable-rec-card__name">{rec.name}</h3>
+                <p class="inflable-rec-card__desc">{rec.desc}</p>
+                <span class="inflable-rec-card__cta">Ver inflable →</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- ── FAQ ──────────────────────────────────────────────────────── -->
+  {zone.faqs.length > 0 && (
+    <section class="section section--alt">
+      <div class="container">
+        <SectionHeader
+          badge="FAQ"
+          title={`¿Tienes dudas sobre entrega en ${zone.zone}?`}
+          subtitle="Preguntas frecuentes de clientes en esta zona."
+          copy1={`Hemos atendido decenas de eventos en ${zone.zone} y conocemos las particularidades de cada colonia. Aquí respondemos las dudas más comunes de la zona.`}
+          copy2="¿Tienes otra pregunta? Escríbenos por WhatsApp y te respondemos en minutos con todo lo que necesitas para tu evento."
+        />
+        <div style="max-width:800px;margin:0 auto;">
+          {zone.faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- ── CTA Banner ────────────────────────────────────────────────── -->
+  <CtaBanner
+    title={zone.ctaBannerTitle}
+    subtitle={zone.ctaBannerSubtitle}
+    btnText="Solicitar cotización"
+    btnHref="/cotizar/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant={zone.ctaBannerVariant}
+  />
+
+  <style>
+    .inflable-rec-card {
+      display: block;
+      text-decoration: none;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(0,0,0,0.08);
+      background: var(--color-bg-card, #fff);
+      color: inherit;
+      transition: box-shadow 0.2s ease;
+    }
+    .inflable-rec-card:hover {
+      box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+    }
+    .inflable-rec-card__head {
+      height: 88px;
+      display: flex;
+      align-items: flex-end;
+      padding: 10px 14px;
+    }
+    .inflable-rec-card__tag {
+      background: rgba(0,0,0,0.3);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 3px 8px;
+      border-radius: 20px;
+    }
+    .inflable-rec-card__body { padding: 16px; }
+    .inflable-rec-card__name {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0 0 6px;
+    }
+    .inflable-rec-card__desc {
+      font-size: 0.875rem;
+      color: var(--color-text-muted, #666);
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+    .inflable-rec-card__cta {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--color-primary, #FF3D00);
+    }
+  </style>
+</PageLayout>

@@ -1,6 +1,6 @@
 ---
-title: "Pantalla LED e Inflable para Eventos en CDMX: Cómo Crear una Celebración de Alto Impacto"
-description: "Descubre cómo combinar una pantalla LED y un inflable para crear eventos memorables en CDMX. Guía completa con tipos de eventos, distribución del espacio y checklist de instalación."
+title: "Pantalla LED e Inflable para Eventos en CDMX: Cómo Crear una."
+description: "Descubre cómo combinar una pantalla LED y un inflable para crear eventos memorables en CDMX. Guía completa con tipos de eventos, distribución del espacio y."
 excerpt: "La combinación de una pantalla LED de alta resolución y un inflable premium transforma cualquier evento en CDMX en una experiencia visual y física que nadie olvida. Descubre cómo lograrlo."
 publishDate: "2026-06-06"
 category: "Eventos"

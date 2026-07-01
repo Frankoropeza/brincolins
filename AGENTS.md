@@ -30,3 +30,5 @@
 - JSON-LD (Organization, LocalBusiness, WebSite, BreadcrumbList) centralizado en `src/layouts/BaseLayout.astro`.
 - `BreadcrumbList` se auto-genera desde la URL en BaseLayout. El componente `Breadcrumbs.astro` es solo visual (no duplicar schema).
 - Logo de schema: `public/img/brincolins-logo.png`.
+
+## Imported Claude Cowork project instructions

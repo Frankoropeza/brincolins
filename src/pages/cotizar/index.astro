@@ -4,9 +4,10 @@ import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import FaqItem from "@/components/FaqItem.astro";
+import { INFLABLES_SELECT_OPTIONS } from "@/data/inflables";
 
-const title = "Cotizar Renta de Inflables | Inflables para Fiestas en CDMX | Sin Compromiso";
-const description = "Cotiza tu renta de inflables para fiestas y eventos en CDMX. Llena el formulario y recibe tu presupuesto personalizado en menos de 30 minutos. Sin compromiso de compra.";
+const title = "Cotizar Renta de Inflables en CDMX | Sin Compromiso";
+const description = "Cotiza tu inflable para fiestas en CDMX. Llena el formulario y recibe tu presupuesto personalizado por WhatsApp en menos de 30 minutos. Sin compromiso.";
 
 const faqs = [
   { question: "¿Cuánto cuesta rentar un inflable?", answer: "Nuestros precios van desde $800 MXN por evento. El precio final depende del modelo elegido y la zona de entrega. Todos incluyen entrega, instalación, motor y recolección." },
@@ -38,7 +39,7 @@ const faqs = [
           <span class="hero__badge">Cotización gratuita</span>
           <h1 class="hero__title">Solicita tu <span class="highlight">Cotización</span></h1>
           <div class="hero__ctas">
-            <a href="/contacto/" class="btn btn-primary btn-lg">Solicitar cotización</a>
+            <a href="#cotizar-form" class="btn btn-primary btn-lg">Solicitar cotización</a>
             <a href="/inflables/" class="btn btn-outline btn-lg">Ver catálogo</a>
           </div>
         </div>
@@ -90,15 +91,9 @@ const faqs = [
               <label class="form-label" for="cot-inflable">Tipo de inflable *</label>
               <select class="form-select" id="cot-inflable" name="inflable" required>
                 <option value="">Selecciona un inflable</option>
-                <option value="Mini Castillo">Mini Castillo — $800</option>
-                <option value="Castillo de Princesas">Castillo de Princesas — $900</option>
-                <option value="Barco Pirata">Barco Pirata — $950</option>
-                <option value="Casa Brinco Jungla">Casa Brinco Jungla — $850</option>
-                <option value="Tobogán Acuático">Tobogán Acuático — $1,200</option>
-                <option value="Inflable Deportivo">Inflable Deportivo — $1,100</option>
-                <option value="Castillo Medieval">Castillo Medieval — $1,000</option>
-                <option value="Pista de Obstáculos">Pista de Obstáculos — $1,300</option>
-                <option value="No estoy seguro">No estoy seguro / Quiero asesoría</option>
+                {INFLABLES_SELECT_OPTIONS.map(opt => (
+                  <option value={opt.value}>{opt.label}</option>
+                ))}
               </select>
             </div>
             <div class="form-group">

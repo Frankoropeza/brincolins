@@ -6,7 +6,7 @@ publishDate: "2025-03-15"
 category: "Para Niñas"
 author: "Equipo BRINCOLINS"
 readTime: "7 min"
-heroImage: "/img/inflables/castillo-princesas-v3.avif"
+heroImage: "/img/inflables/castillo-princesas-v3.jpg"
 heroImageAlt: "Inflables temáticos para niñas en CDMX — castillo princesas BRINCOLINS"
 galleryImages:
   - "/img/blog/inflables-tematicos-ninas-cdmx/img1.avif"

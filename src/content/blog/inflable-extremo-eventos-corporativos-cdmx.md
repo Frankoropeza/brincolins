@@ -6,7 +6,7 @@ publishDate: "2025-03-15"
 category: "Corporativos"
 author: "Equipo BRINCOLINS"
 readTime: "7 min"
-heroImage: "/img/inflables/extremo-v4.avif"
+heroImage: "/img/inflables/extremo-v4.jpg"
 heroImageAlt: "Inflable extremo para eventos corporativos y team building en CDMX — BRINCOLINS"
 galleryImages:
   - "/img/blog/inflable-extremo-eventos-corporativos-cdmx/img4.avif"

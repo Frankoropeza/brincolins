@@ -1,6 +1,6 @@
 ---
-title: "Guía Definitiva para Coordinar Proveedores en una Fiesta Infantil en CDMX"
-description: "Aprende a coordinar inflables, palomitas, decoración y más proveedores para una fiesta infantil perfecta en CDMX. Tablas de roles, checklist y timeline de la fiesta perfecta."
+title: "Guía Definitiva para Coordinar Proveedores en una Fiesta."
+description: "Aprende a coordinar inflables, palomitas, decoración y más proveedores para una fiesta infantil perfecta en CDMX. Tablas de roles, checklist y timeline de la."
 excerpt: "Gestionar múltiples proveedores para una fiesta infantil en CDMX no tiene que ser caótico. Esta guía te da el sistema completo: roles, tiempos, errores comunes y el timeline perfecto."
 publishDate: "2026-06-05"
 category: "Guías"

@@ -1,5 +1,5 @@
 ---
-title: "10 Ideas para Organizar una Fiesta Infantil Épica en CDMX | BRINCOLINS"
+title: "10 Ideas para Organizar una Fiesta Infantil Épica en CDMX |."
 h1: "10 Ideas para Organizar una Fiesta Infantil Épica en CDMX"
 description: "Inflables para fiestas infantiles en CDMX: ideas creativas y originales para organizar una celebración inolvidable con inflables, decoración temática y actividades."
 excerpt: "Desde la temática hasta el menú y el inflable: ideas prácticas para planear un cumpleaños que los niños de CDMX recordarán toda la vida, sin volverte loco en el proceso."

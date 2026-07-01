@@ -1,6 +1,6 @@
 ---
-title: "Más de 20 Años Rentando Inflables en CDMX: Lo que la Experiencia le Enseña a un Proveedor Serio"
-description: "Descubre cómo 20+ años de experiencia en renta de inflables en CDMX forjan la diferencia: seguridad, puntualidad, limpieza y conocimiento profundo del mercado. BRINCOLINS."
+title: "Más de 20 Años Rentando Inflables en CDMX: Lo que la."
+description: "Descubre cómo 20+ años de experiencia en renta de inflables en CDMX forjan la diferencia: seguridad, puntualidad, limpieza y conocimiento profundo del mercado."
 excerpt: "Desde los materiales hasta la logística de 500 eventos anuales: lo que solo aprende un proveedor de inflables que lleva décadas operando en Ciudad de México y Estado de México."
 publishDate: "2026-06-11"
 category: "Empresa"

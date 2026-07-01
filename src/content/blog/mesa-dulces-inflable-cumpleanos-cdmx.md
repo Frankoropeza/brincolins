@@ -1,6 +1,6 @@
 ---
-title: "Mesa de Dulces e Inflable para Cumpleaños en CDMX: La Combinación que Todos Recuerdan"
-description: "Descubre por qué mesa de dulces + inflable es la combinación perfecta para cumpleaños en CDMX. Guía de BRINCOLINS y MEDEDUL: sincronización, temas, ahorro y consejos prácticos."
+title: "Mesa de Dulces e Inflable para Cumpleaños en CDMX: La."
+description: "Descubre por qué mesa de dulces + inflable es la combinación perfecta para cumpleaños en CDMX. Guía de BRINCOLINS y MEDEDUL: sincronización, temas, ahorro y."
 excerpt: "Mesa de dulces + inflable: la combinación que convierte un cumpleaños infantil en CDMX en un evento que todos recuerdan. Aprende a sincronizar ambos, elegir temas y ahorrar al combinarlos."
 publishDate: "2026-06-09"
 category: "Ideas"

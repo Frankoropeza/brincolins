@@ -1,5 +1,5 @@
 ---
-title: "Cómo Planear una Fiesta Infantil en Jardín con Inflables | BRINCOLINS"
+title: "Cómo Planear una Fiesta Infantil en Jardín con Inflables |."
 h1: "Cómo Planear una Fiesta Infantil en Jardín con Inflables"
 description: "Inflables para fiestas en jardín en CDMX. Guía completa para organizar una fiesta infantil al aire libre con inflable: espacio, logística y tips de decoración."
 excerpt: "Organiza el cumpleaños perfecto en tu jardín: medidas de espacio, checklist de seguridad, cálculo de menú, inflable ideal y cronograma de evento. Nada se improvisa."

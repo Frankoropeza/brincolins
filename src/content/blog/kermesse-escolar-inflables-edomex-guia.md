@@ -1,6 +1,6 @@
 ---
-title: "Kermesse Escolar con Inflables en Edomex: Guía Completa para Coordinadores y Directores"
-description: "Guía definitiva para coordinadores y directores escolares que organizan una kermesse con inflables en Edomex. Planeación, checklist de 30 puntos, tablas de inflables por número de alumnos y más."
+title: "Kermesse Escolar con Inflables en Edomex: Guía Completa para."
+description: "Guía definitiva para coordinadores y directores escolares que organizan una kermesse con inflables en Edomex. Planeación, checklist de 30 puntos, tablas de."
 excerpt: "Organizar una kermesse escolar con inflables en Edomex requiere planeación estratégica. Esta guía completa para coordinadores y directores cubre desde la selección de inflables hasta la distribución del espacio para que no haya filas eternas."
 publishDate: "2026-06-16"
 category: "Eventos"

@@ -1,6 +1,6 @@
 ---
 title: "Ideas de Decoración con Inflable para XV Años en CDMX"
-description: "Descubre cómo integrar un inflable en la decoración de tus XV años en CDMX. Tips de paletas de color, ubicación, iluminación y combinaciones temáticas para quinceañeras."
+description: "Descubre cómo integrar un inflable en la decoración de tus XV años en CDMX. Tips de paletas de color, ubicación, iluminación y combinaciones temáticas para."
 excerpt: "Cómo integrar un inflable en la decoración de tu quinceañera sin que se vea fuera de lugar. Paletas de color, ubicación estratégica, iluminación y combinaciones temáticas que funcionan."
 publishDate: "2025-03-15"
 category: "XV Años"

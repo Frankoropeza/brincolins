@@ -1,6 +1,6 @@
 ---
-title: "Garden Party con Inflable y Mesas Picnic en CDMX: Cómo Organizar la Fiesta Perfecta al Aire Libre"
-description: "Guía completa para organizar un garden party con inflable y mesas picnic en CDMX. Distribución del espacio, inflables para exterior, tips de seguridad y la tendencia 2026."
+title: "Garden Party con Inflable y Mesas Picnic en CDMX: Cómo."
+description: "Guía completa para organizar un garden party con inflable y mesas picnic en CDMX. Distribución del espacio, inflables para exterior, tips de seguridad y la."
 excerpt: "El garden party con inflable y mesas picnic es la tendencia de fiestas infantiles que está arrasando en CDMX en 2026. Descubre cómo organizar el espacio, qué inflables funcionan mejor en exterior y todos los tips para que tu fiesta al aire libre sea un éxito."
 publishDate: "2026-06-10"
 category: "Ideas"

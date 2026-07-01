@@ -15,7 +15,6 @@ export default defineConfig({
       filter: (page) => !page.includes('/cdn-cgi/'),
       changefreq: 'weekly',
       priority: 0.7,
-      lastmod: new Date(),
       customPages: [],
       serialize(item) {
         // Homepage — máxima prioridad

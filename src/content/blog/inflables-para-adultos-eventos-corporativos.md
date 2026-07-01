@@ -1,7 +1,7 @@
 ---
 title: "Inflables para Adultos y Eventos Corporativos en CDMX"
 h1: "Inflables para Adultos y Eventos Corporativos: La Guía Completa"
-description: "Inflables para eventos corporativos en CDMX: opciones especiales para equipos adultos, activaciones de marca y kermeses de empresa. Paquetes especializados disponibles."
+description: "Inflables para eventos corporativos en CDMX: opciones especiales para equipos adultos, activaciones de marca y kermeses de empresa. Paquetes especializados."
 excerpt: "Los inflables ya no son exclusivos de las fiestas infantiles. Cada vez más empresas en CDMX incorporan estructuras inflables en eventos corporativos, team building y celebraciones de fin de año."
 publishDate: "2025-03-15"
 category: "Eventos"
