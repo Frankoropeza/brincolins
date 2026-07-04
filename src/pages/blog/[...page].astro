@@ -1,0 +1,601 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@/layouts/PageLayout.astro";
+import QuickNav   from "@/components/QuickNav.astro";
+import CtaBanner  from "@/components/CtaBanner.astro";
+import BlogCard   from "@/components/BlogCard.astro";
+
+const PER_PAGE = 12;
+
+// ── Paginación server-side ─────────────────────────────────────────────────
+export async function getStaticPaths({ paginate }) {
+  const all = (await getCollection("blog"))
+    .filter((p) => !p.data.draft)
+    .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime());
+
+  const featured = all[0];
+  const rest     = all.slice(1); // el featured no va al grid paginado
+
+  return paginate(rest, {
+    pageSize: 12,
+    props: { featured },
+  });
+}
+
+const { page, featured } = Astro.props;
+const isFirstPage = page.currentPage === 1;
+
+// ── Datos globales para el sidebar (se calculan en cada página) ────────────
+const allPosts = (await getCollection("blog"))
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime());
+
+const CAT_META: Record<string, { color: string; gradient: string }> = {
+  "Guías":       { color: "#FF3D00", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00)" },
+  "Ideas":       { color: "#7C3AED", gradient: "linear-gradient(135deg,#7C3AED,#E91E8C)" },
+  "Consejos":    { color: "#0288D1", gradient: "linear-gradient(135deg,#0288D1,#1565C0)" },
+  "Precios":     { color: "#D97706", gradient: "linear-gradient(135deg,#F59E0B,#D97706)" },
+  "Seguridad":   { color: "#059669", gradient: "linear-gradient(135deg,#10B981,#059669)" },
+  "Eventos":     { color: "#E65100", gradient: "linear-gradient(135deg,#E65100,#BF360C)" },
+  "Decoración":  { color: "#E91E8C", gradient: "linear-gradient(135deg,#E91E8C,#9C27B0)" },
+  "Paquetes":    { color: "#2E7D32", gradient: "linear-gradient(135deg,#2E7D32,#1B5E20)" },
+  "Acuáticos":   { color: "#0EA5E9", gradient: "linear-gradient(135deg,#0EA5E9,#0369A1)" },
+};
+const gradientFor = (cat: string) => CAT_META[cat]?.gradient || "linear-gradient(135deg,#FF3D00,#FF6D00)";
+const colorFor    = (cat: string) => CAT_META[cat]?.color    || "#FF3D00";
+
+const catCounts: Record<string, number> = {};
+for (const p of allPosts) catCounts[p.data.category] = (catCounts[p.data.category] || 0) + 1;
+const categories = Object.entries(catCounts)
+  .sort((a, b) => b[1] - a[1])
+  .map(([name, count]) => ({
+    name, count,
+    color: colorFor(name),
+    href: `/blog/${allPosts.find(p => p.data.category === name)!.id}/`,
+  }));
+
+const recentSidebar = allPosts.slice(0, 5);
+
+const inflablesSidebar = [
+  { href: "/inflables/barco-pirata/",        label: "Barco Pirata",          price: "$2,500" },
+  { href: "/inflables/extremo/",             label: "Extremo",               price: "$3,000" },
+  { href: "/inflables/castillo-princesas/",  label: "Castillo de Princesas", price: "$1,200" },
+  { href: "/inflables/mini-castillo/",       label: "Mini Castillo",         price: "$800"   },
+];
+
+// ── Cards de la página actual ──────────────────────────────────────────────
+const toCard = (p: typeof allPosts[number]) => ({
+  slug:     p.id,
+  emoji:    "",
+  category: p.data.category,
+  title:    p.data.title,
+  excerpt:  p.data.excerpt || p.data.description,
+  readTime: p.data.readTime || "6 min",
+  image:    p.data.heroImage,
+  gradient: gradientFor(p.data.category),
+});
+const pageCards = page.data.map(toCard);
+
+// ── URL helper para paginación ─────────────────────────────────────────────
+const pageUrl = (n: number) => n === 1 ? "/blog/" : `/blog/${n}/`;
+
+// ── Pre-computar items de paginación ──────────────────────────────────────
+type PaginationItem =
+  | { kind: "page"; n: number }
+  | { kind: "current"; n: number }
+  | { kind: "ellipsis"; id: string };
+
+const paginationItems: PaginationItem[] = [];
+if (page.lastPage > 1) {
+  for (let n = 1; n <= page.lastPage; n++) {
+    const show = page.lastPage <= 7 || n === 1 || n === page.lastPage || Math.abs(n - page.currentPage) <= 1;
+    if (show) {
+      paginationItems.push(n === page.currentPage ? { kind: "current", n } : { kind: "page", n });
+    } else {
+      const last = paginationItems[paginationItems.length - 1];
+      if (!last || last.kind !== "ellipsis") {
+        paginationItems.push({ kind: "ellipsis", id: `e${n}` });
+      }
+    }
+  }
+}
+
+// ── Meta ───────────────────────────────────────────────────────────────────
+const pageLabel  = page.currentPage > 1 ? ` — Página ${page.currentPage}` : "";
+const title      = `Blog de Inflables BRINCOLINS | Guías y Consejos para Fiestas en CDMX${pageLabel}`;
+const description = "Guías y consejos de expertos sobre renta de inflables para fiestas en CDMX. Cómo elegir el inflable ideal, precios, seguridad y decoración para tu evento.";
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Blog",   href: "/blog/" },
+    ...(page.currentPage > 1 ? [{ name: `Página ${page.currentPage}` }] : []),
+  ]}
+>
+
+  <!-- ── HERO (solo página 1) ──────────────────────────────────────────── -->
+  {isFirstPage ? (
+    <section class="hero" style="padding:clamp(2.5rem,5vw,4rem) 0;">
+      <div class="container">
+        <div class="hero__grid">
+          <div>
+            <span class="hero__badge">Blog BRINCOLINS</span>
+            <h1 class="hero__title">Guías e Ideas para tu <span class="highlight">Fiesta Perfecta</span></h1>
+            <p class="hero-sub">
+              Consejos prácticos de expertos con más de 20 años en renta de inflables. Todo lo que necesitas para organizar la mejor fiesta en CDMX y Edomex.
+            </p>
+            <div class="hero__ctas">
+              <a href="/cotizar/"   class="btn btn-primary btn-lg">Cotizar inflable</a>
+              <a href="/inflables/" class="btn btn-outline  btn-lg">Ver catálogo</a>
+            </div>
+          </div>
+          <div class="hero__copy">
+            <p class="hero__copy-text">
+              En <strong>BRINCOLINS</strong> no solo rentamos inflables — también queremos ayudarte a organizar el evento perfecto. Guías detalladas sobre cómo elegir el inflable ideal según la edad, el espacio y tu presupuesto.
+            </p>
+            <p class="hero__copy-text">
+              Ideas de decoración, consejos de seguridad, listas de verificación y las tendencias más recientes en fiestas infantiles de <strong>CDMX y Estado de México</strong>. Nuevo contenido cada mes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  ) : (
+    <section class="page-header">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Ruta de navegación">
+          <a href="/">Inicio</a><span class="breadcrumbs__sep">/</span>
+          <a href="/blog/">Blog</a><span class="breadcrumbs__sep">/</span>
+          <span>Página {page.currentPage}</span>
+        </nav>
+        <h1 class="page-header__title">
+          Blog BRINCOLINS
+          <span class="page-header__page">Página {page.currentPage} de {page.lastPage}</span>
+        </h1>
+      </div>
+    </section>
+  )}
+
+  <QuickNav />
+
+  <!-- ── ARTÍCULO DESTACADO (solo página 1) ────────────────────────────── -->
+  {isFirstPage && featured && (
+    <section class="section" style="padding-bottom:0;">
+      <div class="container">
+        <div class="featured-card">
+          <a href={`/blog/${featured.id}/`} class="featured-card__thumb">
+            {featured.data.heroImage
+              ? <img src={featured.data.heroImage} alt={featured.data.title}
+                     width="1200" height="675" loading="eager" class="featured-card__img" />
+              : <div class="featured-card__gradient"
+                     style={`background:${gradientFor(featured.data.category)};`} />
+            }
+            <div class="featured-card__overlay">
+              <span class="pill pill--white">{featured.data.category}</span>
+            </div>
+            <span class="featured-card__badge">Artículo destacado</span>
+          </a>
+          <div class="featured-card__body">
+            <div class="featured-card__meta">
+              <span class="pill" style={`background:${colorFor(featured.data.category)}18;color:${colorFor(featured.data.category)};`}>
+                {featured.data.category}
+              </span>
+              {featured.data.readTime && (
+                <span class="featured-card__time">⏱ {featured.data.readTime} lectura</span>
+              )}
+            </div>
+            <h2 class="featured-card__title">
+              <a href={`/blog/${featured.id}/`}>{featured.data.title}</a>
+            </h2>
+            <p class="featured-card__excerpt">{featured.data.excerpt || featured.data.description}</p>
+            <div class="featured-card__actions">
+              <a href={`/blog/${featured.id}/`} class="btn btn-primary">
+                Leer artículo
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="/cotizar/" class="btn btn-outline">Cotizar inflable</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- ── CUERPO: GRID + SIDEBAR ────────────────────────────────────────── -->
+  <section class="section">
+    <div class="container">
+      <div class="blog-body">
+
+        <!-- COLUMNA PRINCIPAL -->
+        <div class="blog-main">
+
+          <!-- Contador -->
+          <div class="grid-meta">
+            <p class="grid-meta__count">
+              {page.currentPage === 1
+                ? `${page.total} artículos · Página 1 de ${page.lastPage}`
+                : `Página ${page.currentPage} de ${page.lastPage} · ${page.total} artículos en total`
+              }
+            </p>
+          </div>
+
+          <!-- Grid — solo las {PER_PAGE} cards de esta página -->
+          <div class="blog-grid">
+            {pageCards.map(card => <BlogCard {...card} />)}
+          </div>
+
+          <!-- Paginación -->
+          {page.lastPage > 1 && (
+            <nav class="pagination" aria-label="Paginación del blog">
+
+              {page.url.prev
+                ? <a href={page.url.prev} class="page-btn" aria-label="Página anterior">←</a>
+                : <span class="page-btn page-btn--disabled" aria-disabled="true">←</span>
+              }
+
+              {paginationItems.map(item =>
+                item.kind === "current"
+                  ? <span class="page-btn page-btn--active" aria-current="page">{item.n}</span>
+                  : item.kind === "page"
+                  ? <a href={pageUrl(item.n)} class="page-btn" aria-label={`Página ${item.n}`}>{item.n}</a>
+                  : <span class="page-ellipsis">…</span>
+              )}
+
+              {page.url.next
+                ? <a href={page.url.next} class="page-btn" aria-label="Página siguiente">→</a>
+                : <span class="page-btn page-btn--disabled" aria-disabled="true">→</span>
+              }
+
+            </nav>
+          )}
+
+        </div>
+
+        <!-- SIDEBAR -->
+        <aside class="blog-sidebar">
+
+          <!-- CTA -->
+          <div class="sb-box sb-box--cta">
+            <div class="sb-box__icon">🎈</div>
+            <h2 class="sb-box__title">¿Ya tienes fecha?</h2>
+            <p class="sb-box__text">Cotiza tu inflable en minutos. Entrega, instalación y seguro incluidos en toda la ZMVM.</p>
+            <a href="/cotizar/" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:.25rem;">
+              Solicitar cotización gratis
+            </a>
+            <a href="https://wa.me/5531281706?text=Hola%2C%20quiero%20cotizar%20un%20inflable"
+               class="sb-wa-link" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Escribir por WhatsApp
+            </a>
+          </div>
+
+          <!-- Categorías -->
+          <div class="sb-box">
+            <h2 class="sb-box__heading">Categorías</h2>
+            <ul class="sb-cat-list">
+              {categories.map(c => (
+                <li>
+                  <a href={c.href} class="sb-cat-link">
+                    <span class="sb-cat-dot" style={`background:${c.color};`}></span>
+                    <span class="sb-cat-name">{c.name}</span>
+                    <span class="sb-cat-count">{c.count}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <!-- Artículos recientes -->
+          <div class="sb-box">
+            <h2 class="sb-box__heading">Artículos recientes</h2>
+            <ul class="sb-recent-list">
+              {recentSidebar.map(p => (
+                <li class="sb-recent-item">
+                  <a href={`/blog/${p.id}/`} class="sb-recent-link">
+                    <span class="sb-recent-cat"
+                          style={`background:${colorFor(p.data.category)}18;color:${colorFor(p.data.category)};`}>
+                      {p.data.category}
+                    </span>
+                    <span class="sb-recent-title">{p.data.title}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <!-- Inflables populares -->
+          <div class="sb-box">
+            <h2 class="sb-box__heading">Inflables populares</h2>
+            <ul class="sb-inflable-list">
+              {inflablesSidebar.map(it => (
+                <li>
+                  <a href={it.href} class="sb-inflable-link">
+                    <span class="sb-inflable-name">{it.label}</span>
+                    <span class="sb-inflable-price">{it.price}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <a href="/inflables/" class="sb-catalog-link">Ver catálogo completo →</a>
+          </div>
+
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA FINAL ─────────────────────────────────────────────────────── -->
+  <CtaBanner
+    title="¿Listo para la mejor fiesta de tu vida?"
+    subtitle="Renta tu inflable hoy. Entrega puntual, instalación profesional y seguro incluido en toda la ZMVM."
+    btnText="Solicitar cotización"
+    btnHref="/cotizar/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+  />
+
+</PageLayout>
+
+<style>
+  /* ── Hero sub ── */
+  .hero-sub {
+    color: rgba(255,255,255,0.85);
+    font-size: 1.05rem;
+    margin: .75rem 0 1.5rem;
+    line-height: 1.7;
+  }
+
+  /* ── Page header (páginas 2+) ── */
+  .page-header {
+    padding: 2rem 0 1.5rem;
+    border-bottom: 1px solid var(--c-border);
+    margin-bottom: 0;
+  }
+  .page-header__title {
+    font-family: var(--font-head);
+    font-weight: 900;
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    color: var(--c-text);
+    margin: .5rem 0 0;
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .page-header__page {
+    font-size: .9rem;
+    font-weight: 500;
+    color: var(--c-text-muted);
+  }
+
+  /* ── Featured card ── */
+  .featured-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    background: var(--c-bg);
+  }
+  .featured-card__thumb {
+    position: relative;
+    display: block;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  .featured-card__img {
+    width: 100%; height: 100%;
+    object-fit: cover; display: block;
+    transition: transform .4s ease;
+  }
+  .featured-card__thumb:hover .featured-card__img { transform: scale(1.04); }
+  .featured-card__gradient { width: 100%; height: 100%; }
+  .featured-card__overlay {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    padding: 2rem 1.25rem .85rem;
+    background: linear-gradient(to top, rgba(0,0,0,.55), transparent);
+  }
+  .featured-card__badge {
+    position: absolute; top: .85rem; left: .85rem;
+    background: var(--c-primary); color: #fff;
+    font-family: var(--font-head); font-weight: 800;
+    font-size: .65rem; text-transform: uppercase; letter-spacing: .07em;
+    padding: .22rem .7rem; border-radius: 99px;
+  }
+  .featured-card__body {
+    padding: 2rem 2.25rem;
+    display: flex; flex-direction: column; gap: 1rem; justify-content: center;
+  }
+  .featured-card__meta { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+  .featured-card__time { font-size: .8rem; color: var(--c-text-muted); }
+  .featured-card__title {
+    font-family: var(--font-head); font-weight: 900;
+    font-size: clamp(1.2rem, 2.5vw, 1.65rem); line-height: 1.25;
+    color: var(--c-text); margin: 0;
+  }
+  .featured-card__title a { color: inherit; text-decoration: none; }
+  .featured-card__title a:hover { color: var(--c-primary); }
+  .featured-card__excerpt {
+    font-size: 1rem; color: var(--c-text-muted); line-height: 1.7; margin: 0;
+    display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .featured-card__actions { display: flex; gap: .75rem; flex-wrap: wrap; align-items: center; }
+
+  /* ── Pills ── */
+  .pill {
+    display: inline-block; font-family: var(--font-head); font-weight: 800;
+    font-size: .66rem; text-transform: uppercase; letter-spacing: .08em;
+    padding: .22rem .65rem; border-radius: 99px;
+  }
+  .pill--white { background: rgba(255,255,255,.9); color: #111; }
+
+  /* ── Blog body layout ── */
+  .blog-body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  /* ── Grid meta ── */
+  .grid-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--c-border);
+  }
+  .grid-meta__count {
+    font-size: .85rem;
+    color: var(--c-text-muted);
+    margin: 0;
+  }
+
+  /* ── Blog grid (solo cards de la página actual) ── */
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+  }
+
+  /* ── Paginación ── */
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+    margin-top: 2.5rem;
+    flex-wrap: wrap;
+  }
+  .page-btn {
+    display: flex; align-items: center; justify-content: center;
+    min-width: 40px; height: 40px; padding: 0 .65rem;
+    border-radius: 8px; border: 1.5px solid var(--c-border);
+    background: var(--c-bg); color: var(--c-text);
+    font-family: var(--font-head); font-size: .875rem; font-weight: 700;
+    text-decoration: none;
+  }
+  .page-btn:hover:not(.page-btn--disabled):not(.page-btn--active) {
+    border-color: var(--c-primary); color: var(--c-primary);
+  }
+  .page-btn--active {
+    background: var(--c-primary); border-color: var(--c-primary); color: #fff;
+  }
+  .page-btn--disabled { opacity: .35; cursor: default; }
+  .page-ellipsis {
+    display: flex; align-items: center; justify-content: center;
+    width: 32px; color: var(--c-text-muted); font-size: .875rem;
+  }
+
+  /* ── Sidebar ── */
+  .blog-sidebar {
+    display: flex; flex-direction: column; gap: 1.5rem;
+    position: sticky; top: 96px;
+  }
+  .sb-box {
+    background: var(--c-bg-alt, var(--c-bg));
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    padding: 1.4rem;
+    display: flex; flex-direction: column; gap: .75rem;
+  }
+  .sb-box--cta {
+    background: linear-gradient(160deg,#fff8f5,#fff4f0);
+    border-color: rgba(255,61,0,.15);
+    text-align: center;
+  }
+  .sb-box__icon { font-size: 2rem; line-height: 1; }
+  .sb-box__title {
+    font-family: var(--font-head); font-weight: 900; font-size: 1.1rem;
+    color: var(--c-text); margin: 0;
+  }
+  .sb-box__text { font-size: .875rem; color: var(--c-text-muted); line-height: 1.6; margin: 0; }
+  .sb-wa-link {
+    display: flex; align-items: center; justify-content: center; gap: .45rem;
+    color: #25D366; font-family: var(--font-head); font-weight: 700;
+    font-size: .85rem; text-decoration: none; padding: .5rem 0 0;
+  }
+  .sb-wa-link:hover { text-decoration: underline; }
+
+  .sb-box__heading {
+    font-family: var(--font-head); font-weight: 800; font-size: .95rem;
+    color: var(--c-text); margin: 0;
+    padding-bottom: .6rem; border-bottom: 2px solid var(--c-border);
+  }
+
+  /* Categorías */
+  .sb-cat-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .2rem; }
+  .sb-cat-link {
+    display: flex; align-items: center; gap: .6rem; width: 100%;
+    padding: .45rem .4rem; border-radius: 6px; text-decoration: none;
+  }
+  .sb-cat-link:hover { background: rgba(0,0,0,.04); }
+  .sb-cat-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+  .sb-cat-name { font-size: .875rem; font-weight: 600; color: var(--c-text); flex: 1; }
+  .sb-cat-count {
+    font-size: .75rem; color: var(--c-text-muted);
+    background: var(--c-bg); border: 1px solid var(--c-border);
+    padding: .1rem .45rem; border-radius: 99px;
+  }
+
+  /* Recientes */
+  .sb-recent-list { list-style: none; margin: 0; padding: 0; }
+  .sb-recent-item:last-child .sb-recent-link { border-bottom: none; }
+  .sb-recent-link {
+    display: flex; flex-direction: column; gap: .3rem;
+    padding: .6rem 0; text-decoration: none; border-bottom: 1px solid var(--c-border);
+  }
+  .sb-recent-link:hover .sb-recent-title { color: var(--c-primary); }
+  .sb-recent-cat {
+    display: inline-block; font-size: .65rem; font-family: var(--font-head);
+    font-weight: 800; text-transform: uppercase; letter-spacing: .07em;
+    padding: .1rem .45rem; border-radius: 99px; width: fit-content;
+  }
+  .sb-recent-title {
+    font-size: .825rem; font-weight: 600; color: var(--c-text); line-height: 1.4;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+
+  /* Inflables */
+  .sb-inflable-list { list-style: none; margin: 0; padding: 0; }
+  .sb-inflable-link {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: .55rem 0; border-bottom: 1px solid var(--c-border); text-decoration: none;
+  }
+  .sb-inflable-list li:last-child .sb-inflable-link { border-bottom: none; }
+  .sb-inflable-name { font-size: .875rem; font-weight: 600; color: var(--c-text); }
+  .sb-inflable-link:hover .sb-inflable-name { color: var(--c-primary); }
+  .sb-inflable-price { font-size: .8rem; font-weight: 800; color: var(--c-primary); font-family: var(--font-head); }
+  .sb-catalog-link {
+    display: block; text-align: center; font-size: .825rem;
+    font-weight: 700; font-family: var(--font-head); color: var(--c-primary);
+    text-decoration: none; padding-top: .5rem;
+    border-top: 1px solid var(--c-border); margin-top: .25rem;
+  }
+  .sb-catalog-link:hover { text-decoration: underline; }
+
+  /* ── Responsive ── */
+  @media (max-width: 1100px) {
+    .blog-body { grid-template-columns: minmax(0,1fr) 270px; gap: 2rem; }
+  }
+  @media (max-width: 880px) {
+    .blog-body { grid-template-columns: 1fr; }
+    .blog-sidebar { position: static; display: grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); }
+    .sb-box--cta { grid-column: 1 / -1; }
+  }
+  @media (max-width: 700px) {
+    .featured-card { grid-template-columns: 1fr; }
+    .featured-card__thumb { aspect-ratio: 16/9; }
+    .featured-card__body { padding: 1.5rem; }
+    .blog-sidebar { grid-template-columns: 1fr; }
+  }
+</style>
