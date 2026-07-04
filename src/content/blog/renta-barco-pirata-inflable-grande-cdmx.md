@@ -30,7 +30,7 @@ faqs:
     answer: "Sí, rentamos el barco pirata para eventos en parques, jardines, terrenos y salones. Si el lugar no tiene acceso a electricidad, podemos llevar un generador eléctrico por un costo adicional mínimo. Solo necesitamos que el piso sea plano y firme."
 ---
 
-## El barco pirata inflable más espectacular de CDMX
+## El [barco pirata](/inflables/barco-pirata/) inflable más espectacular de CDMX
 
 Cuando hablamos del **barco pirata inflable** de BRINCOLINS, no nos referimos a un brincolín cualquiera con una bandera pirata pegada. Este modelo es una réplica inflable de un galeón pirata completo, con mástiles decorativos, cañones laterales, una cubierta de brinco amplia y un **tobogán de gran altura** que sale por la popa del barco. Es, literalmente, el inflable más impresionante que puedes rentar en la **Ciudad de México**.
 

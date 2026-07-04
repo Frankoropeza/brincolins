@@ -42,8 +42,8 @@ Una regla de oro: necesitas **al menos 1 metro de espacio libre** alrededor del 
 
 Los inflables no son universales. Cada modelo está diseñado para un rango de edad específico por razones de seguridad y diversión:
 
-- **3-6 años:** Mini castillo, Castillo de Princesas, Casa Brinco Jungla — sin tobogán alto, entrada baja, colores suaves
-- **5-10 años:** Barco Pirata, Tobogán Acuático — mayor adrenalina, tobogán más alto
+- **3-6 años:** [Mini castillo](/inflables/mini-castillo/), [Castillo de Princesas](/inflables/castillo-princesas/), Casa Brinco Jungla — sin tobogán alto, entrada baja, colores suaves
+- **5-10 años:** [Barco Pirata](/inflables/barco-pirata/), Tobogán Acuático — mayor adrenalina, tobogán más alto
 - **6-14 años:** Pista de Obstáculos, Inflable Deportivo — retos físicos, ideal para niños más grandes
 
 Si tu evento mezcla varias edades, considera rentar **dos inflables de diferentes categorías** para mantener a todos entretenidos y seguros.

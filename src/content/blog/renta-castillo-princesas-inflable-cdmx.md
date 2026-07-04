@@ -30,7 +30,7 @@ faqs:
     answer: "El castillo de princesas tiene capacidad para 8 a 10 niños brincando simultáneamente, dependiendo de sus edades y tamaños. Nuestro equipo te asesora sobre la capacidad ideal según tu evento."
 ---
 
-## El castillo de princesas más popular de CDMX
+## El [castillo de princesas](/inflables/castillo-princesas/) más popular de CDMX
 
 Cuando se trata de **fiestas infantiles para niñas**, el castillo de princesas inflable se ha convertido en el favorito absoluto. No es casualidad: su diseño combina el color rosa que las pequeñas adoran, torres que evocan los cuentos de hadas y una zona de brinco amplia donde la diversión no tiene límites. En **BRINCOLINS**, este modelo es nuestro inflable más solicitado para eventos en la **Ciudad de México y Estado de México**.
 

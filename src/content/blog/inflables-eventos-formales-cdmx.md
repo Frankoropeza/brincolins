@@ -34,7 +34,7 @@ faqs:
 
 Durante mucho tiempo, los inflables estuvieron asociados exclusivamente con **fiestas infantiles casuales**: cumpleaños en el jardín, kermeses escolares y eventos de barrio. Pero esa percepción ha cambiado radicalmente. Hoy, los **inflables elegantes** forman parte de bodas en haciendas, quinceañeras en salones premium y bautizos en jardines de eventos de la Ciudad de México.
 
-El secreto está en la selección del modelo. No todos los inflables son iguales: mientras que un brincolin de colores primarios con personajes de caricatura desentona en un evento formal, un **castillo blanco con diseño sofisticado** se integra de forma natural con manteles de lino, arreglos florales y centros de mesa elegantes. La diferencia es abismal, y quienes lo han probado confirman que es una de las mejores inversiones para mantener felices a los invitados más jóvenes.
+El secreto está en la selección del modelo. No todos los inflables son iguales: mientras que un brincolin de colores primarios con personajes de caricatura desentona en un evento formal, un **[castillo blanco](/inflables/castillo-blanco/) con diseño sofisticado** se integra de forma natural con manteles de lino, arreglos florales y centros de mesa elegantes. La diferencia es abismal, y quienes lo han probado confirman que es una de las mejores inversiones para mantener felices a los invitados más jóvenes.
 
 > **Dato importante:** Según organizadores de eventos en CDMX, las bodas con zona infantil de entretenimiento reciben mejores calificaciones de los invitados. Los papás agradecen profundamente que alguien haya pensado en la diversión de sus hijos.
 
@@ -66,11 +66,11 @@ En **BRINCOLINS** tenemos un catálogo variado, pero no todos los modelos son ap
 
 El **castillo blanco inflable** es nuestro modelo estrella para eventos formales. Su color neutro, torres estilizadas y acabado premium lo hacen perfecto para **bodas, XV años y bautizos**. Se adapta a cualquier paleta decorativa y genera un impacto visual positivo sin ser invasivo.
 
-### Castillo de Princesas — Para eventos con temática fantástica
+### [Castillo de Princesas](/inflables/castillo-princesas/) — Para eventos con temática fantástica
 
 Si tu evento tiene una **temática de cuento de hadas** o de princesas, el castillo de princesas rosa es una excelente opción. Funciona especialmente bien en quinceañeras con temática de realeza y en fiestas de primeras comuniones para niñas.
 
-### Mini Castillo — Para espacios reducidos
+### [Mini Castillo](/inflables/mini-castillo/) — Para espacios reducidos
 
 Cuando el **venue es compacto** o el número de niños invitados es pequeño, el mini castillo es la opción ideal. Ocupa menos espacio, es más discreto y mantiene a los pequeños entretenidos sin necesidad de un área grande dedicada.
 

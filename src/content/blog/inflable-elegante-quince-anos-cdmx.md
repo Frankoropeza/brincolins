@@ -34,7 +34,7 @@ faqs:
 
 Las **fiestas de XV años** han evolucionado mucho en los últimos años. Ya no se trata solo del vals, la cena y el DJ: las familias mexicanas buscan ofrecer experiencias memorables para todos los invitados, incluyendo a los más jóvenes. Es aquí donde los **inflables elegantes** se han convertido en una tendencia imparable en la Ciudad de México.
 
-La realidad es que en toda fiesta de quinceañera hay un grupo importante de niños y adolescentes que no participan del brindis ni de las tradiciones principales. Sin una actividad que los entretenga, terminan aburridos, corriendo entre las mesas o pegados al celular. Un **castillo blanco inflable** les da exactamente lo que necesitan: un espacio propio donde divertirse sin que los adultos tengan que preocuparse por supervisarlos cada segundo.
+La realidad es que en toda fiesta de quinceañera hay un grupo importante de niños y adolescentes que no participan del brindis ni de las tradiciones principales. Sin una actividad que los entretenga, terminan aburridos, corriendo entre las mesas o pegados al celular. Un **[castillo blanco](/inflables/castillo-blanco/) inflable** les da exactamente lo que necesitan: un espacio propio donde divertirse sin que los adultos tengan que preocuparse por supervisarlos cada segundo.
 
 > **Dato BRINCOLINS:** Las fiestas de XV años son nuestro segundo evento más solicitado después de los cumpleaños infantiles. El castillo blanco es el modelo preferido para esta celebración por su diseño elegante.
 

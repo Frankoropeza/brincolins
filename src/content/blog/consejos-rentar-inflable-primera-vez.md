@@ -99,3 +99,7 @@ Entendemos que los imprevistos ocurren. Nuestra política:
 ## 7. Lista de verificación para el día de la fiesta
 
  Toma de corriente accesible y cerca del área del inflable  Espacio limpio y despejado (sin muebles, macetas ni obstáculos)  Acceso libre de mínimo 1.5m para entrar el inflable  Dinero para el saldo del pago (50% restante)  Un adulto disponible para recibir al equipo de instalación  Reglas de seguridad comunicadas a los papás de los invitados
+
+---
+
+**¿Buscas el inflable perfecto para tu fiesta?** Tenemos opciones para todos los eventos: el [Mini Castillo](/inflables/mini-castillo/) ideal para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas y el [Circuito Extremo](/inflables/extremo/) para niños aventureros. [Ver catálogo completo →](/inflables/)

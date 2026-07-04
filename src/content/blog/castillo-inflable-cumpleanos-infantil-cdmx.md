@@ -51,7 +51,7 @@ Lo primero es saber dónde será la fiesta. Si es en tu casa, mide el patio o ja
 
 ### Elige el modelo según la temática
 
-¿Fiesta de princesas? El **Castillo Princesas** es perfecto. ¿Aventura y fantasía? Los **Dragones Rojos** son la opción. ¿Algo sencillo y universal? El **Mini Castillo** funciona para cualquier temática. Pregúntale al cumpleañero qué prefiere — los niños siempre tienen opiniones muy claras.
+¿Fiesta de princesas? El **[Castillo Princesas](/inflables/castillo-princesas/)** es perfecto. ¿Aventura y fantasía? Los **[Dragones Rojos](/inflables/dragones-rojos/)** son la opción. ¿Algo sencillo y universal? El **[Mini Castillo](/inflables/mini-castillo/)** funciona para cualquier temática. Pregúntale al cumpleañero qué prefiere — los niños siempre tienen opiniones muy claras.
 
 ### Reserva con anticipación
 
@@ -67,7 +67,7 @@ No todos los inflables son para todas las edades. Elegir el modelo adecuado seg�
 
 - **Niños de 2 a 4 años:** El Mini Castillo es ideal. Altura baja, entrada accesible, superficie amplia para brincar sin riesgo. Siempre con supervisión adulta cercana.
 - **Niños de 5 a 8 años:** Cualquier modelo funciona. Es la edad donde más disfrutan los inflables temáticos como Dragones Rojos o Castillo Princesas.
-- **Niños de 9 a 12 años:** Prefieren modelos más grandes o con elementos extras. El inflable Extremo o los modelos con tobogán son los favoritos de este grupo.
+- **Niños de 9 a 12 años:** Prefieren modelos más grandes o con elementos extras. El [inflable Extremo](/inflables/extremo/) o los modelos con tobogán son los favoritos de este grupo.
 - **Fiesta mixta (varias edades):** Organiza turnos de 30 minutos para cada grupo de edad. Los pequeños primero, los grandes después. Así todos brincan seguros.
 
 > **Regla de oro:** Nunca permitas que niños menores de 5 años brinquen al mismo tiempo que niños mayores de 10. La diferencia de peso y fuerza puede causar accidentes.

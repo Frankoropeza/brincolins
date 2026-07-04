@@ -29,7 +29,7 @@ faqs:
     answer: "¡Es la combinación perfecta! El diseño tropical del Mini Jungla se complementa ideal con globos verdes y dorados, animales de peluche, hojas tropicales artificiales y manteles con estampado animal print. Muchos clientes logran fiestas espectaculares con esta temática."
 ---
 
-## Qué es el inflable Mini Jungla y por qué es tan popular
+## Qué es el inflable [Mini Jungla](/inflables/mini-jungla/) y por qué es tan popular
 
 El **Mini Jungla** es un inflable temático que reproduce la emoción de una expedición por la selva. A diferencia de los brincolines genéricos, este modelo incorpora elementos decorativos de animales salvajes — jirafas, leones, elefantes y monos — que transforman la experiencia de brincar en una aventura con narrativa propia.
 

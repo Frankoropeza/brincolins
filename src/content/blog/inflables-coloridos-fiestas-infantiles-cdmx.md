@@ -40,15 +40,15 @@ Este efecto no es menor. La primera impresión visual de una fiesta determina el
 
 En **BRINCOLINS** tenemos un catálogo diverso de inflables, pero algunos modelos destacan especialmente por su explosión de color. Estos son los favoritos de papás y niños por su impacto visual:
 
-### Gusanitos Tropical
+### [Gusanitos](/inflables/gusanitos/) Tropical
 
 Nuestro modelo estrella en cuanto a color. El **Gusanitos Tropical** combina segmentos de colores tropicales — verde lima, naranja intenso, amarillo sol y rojo vibrante — en la forma divertida de un gusanito. Es como tener un arcoíris tridimensional en tu jardín. Cada sección del gusanito tiene un tono diferente, creando un efecto visual que encanta a niños y adultos por igual.
 
-### Mini Jungla
+### [Mini Jungla](/inflables/mini-jungla/)
 
 Con una paleta de verdes selváticos, cafés tierra y toques de color en los detalles de animales, el **Mini Jungla** transporta a los niños a una aventura tropical. Los tonos naturales se combinan con acentos brillantes que hacen que este inflable se vea increíble tanto en jardines como en salones de fiestas.
 
-### Castillo de Princesas
+### [Castillo de Princesas](/inflables/castillo-princesas/)
 
 Para quienes buscan una paleta de colores más fantasía, el **Castillo de Princesas** ofrece rosas, morados, azules cielo y toques dorados que recrean un castillo de cuento de hadas. Es el modelo perfecto para fiestas temáticas de princesas, hadas y mundos mágicos.
 

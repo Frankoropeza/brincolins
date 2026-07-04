@@ -29,7 +29,7 @@ faqs:
     answer: "Sí, la renta del mini castillo incluye entrega a domicilio en CDMX y área metropolitana, instalación profesional, supervisión de arranque y recolección al finalizar tu evento. No tienes que preocuparte por nada."
 ---
 
-## ¿Por qué el mini castillo es perfecto para bebés?
+## ¿Por qué el [mini castillo](/inflables/mini-castillo/) es perfecto para bebés?
 
 Cuando hablamos de entretenimiento para los más pequeños, la seguridad siempre es la prioridad número uno. El **mini castillo inflable** fue diseñado pensando exclusivamente en bebés y niños pequeños que están comenzando a explorar el mundo. A diferencia de los inflables grandes, este modelo tiene una altura reducida que permite a los papás supervisar fácilmente desde afuera.
 

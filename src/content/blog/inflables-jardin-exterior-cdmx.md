@@ -82,15 +82,15 @@ Es la mejor época para fiestas con inflable en exteriores. Los días son solead
 
 No todos los inflables funcionan igual en exteriores. Algunos modelos están especialmente diseñados para brillar al aire libre gracias a sus colores, dimensiones y características. Estos son nuestros favoritos para eventos en jardín:
 
-### Gusanitos Tropical
+### [Gusanitos](/inflables/gusanitos/) Tropical
 
 El **Gusanitos Tropical** es un modelo compacto pero visualmente impactante que se ve espectacular en jardines. Sus colores tropicales combinan naturalmente con el verde del pasto y las plantas, creando una estética que parece parte del paisaje. Su tamaño lo hace ideal para jardines medianos donde no quieres que el inflable ocupe todo el espacio disponible.
 
-### Barco Pirata
+### [Barco Pirata](/inflables/barco-pirata/)
 
 El **Barco Pirata** es uno de nuestros modelos más grandes y se luce al máximo en espacios abiertos donde puede apreciarse desde lejos. Su altura y diseño temático crean un punto focal impresionante en cualquier jardín o terreno. Es perfecto para fiestas con muchos invitados donde necesitas un inflable que entretenga a grupos grandes.
 
-### Inflable Extremo
+### [Inflable Extremo](/inflables/extremo/)
 
 Para eventos al aire libre con niños más grandes (7-14 años), el **Inflable Extremo** ofrece retos de escalada, tobogán y zona de obstáculos que mantienen entretenidos incluso a los adolescentes. Requiere un espacio más amplio pero el resultado es una fiesta llena de adrenalina y actividad física al aire libre.
 

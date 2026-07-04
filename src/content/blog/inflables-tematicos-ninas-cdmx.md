@@ -35,9 +35,9 @@ Después de cientos de eventos infantiles en la **Ciudad de México y zona metro
 
 Nuestro catálogo incluye tres modelos especialmente diseñados que se han convertido en los favoritos para **fiestas de niñas**:
 
-- **Castillo de Princesas:** El rey indiscutible. Rosa vibrante con torres imponentes, ideal para fiestas temáticas de princesas y cumpleaños de niñas de 3 a 10 años.
-- **Castillo Blanco:** Elegancia pura. Perfecto para bautizos, primeras comuniones, fiestas de estilo clásico y eventos donde se busca un look sofisticado.
-- **Mini Castillo:** El consentido de las más chiquitas. Compacto, seguro y colorido, diseñado especialmente para bebés y niñas de 1 a 5 años.
+- **[Castillo de Princesas](/inflables/castillo-princesas/):** El rey indiscutible. Rosa vibrante con torres imponentes, ideal para fiestas temáticas de princesas y cumpleaños de niñas de 3 a 10 años.
+- **[Castillo Blanco](/inflables/castillo-blanco/):** Elegancia pura. Perfecto para bautizos, primeras comuniones, fiestas de estilo clásico y eventos donde se busca un look sofisticado.
+- **[Mini Castillo](/inflables/mini-castillo/):** El consentido de las más chiquitas. Compacto, seguro y colorido, diseñado especialmente para bebés y niñas de 1 a 5 años.
 
 Cada modelo tiene su personalidad y su público ideal. A continuación te explicamos en detalle las diferencias para que puedas elegir con confianza el que mejor se adapte a la fiesta de tu hija.
 

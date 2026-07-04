@@ -31,7 +31,7 @@ faqs:
     answer: "¡Por supuesto! De hecho es lo que más recomendamos. El diseño rojo con dragones combina perfecto con temáticas de caballeros, castillos medievales, calabozos y dragones. Muchos clientes complementan con banderines, espadas de foam y escudos decorativos."
 ---
 
-## Qué hace especial al inflable Dragones Rojos
+## Qué hace especial al inflable [Dragones Rojos](/inflables/dragones-rojos/)
 
 No todos los inflables son iguales. El **Dragones Rojos** destaca por su diseño visual impactante: un castillo en tonos rojos intensos con figuras de dragones en relieve que capturan la atención de los niños desde el momento en que lo ven. A diferencia de un brincolín genérico, este modelo cuenta una historia — y eso lo convierte en mucho más que un juego inflable.
 

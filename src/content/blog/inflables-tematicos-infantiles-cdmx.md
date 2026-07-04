@@ -32,7 +32,7 @@ faqs:
 
 Hay una diferencia enorme entre una fiesta con un **brincolín genérico** y una fiesta con un **inflable temático** que complementa toda la decoración. Los inflables temáticos no solo entretienen a los niños — se convierten en la pieza central visual del evento, establecen la narrativa de la fiesta y multiplican las oportunidades de juego imaginativo.
 
-Cuando un niño entra a un inflable con forma de barco pirata, no solo brinca: se imagina navegando mares peligrosos, buscando tesoros y luchando contra enemigos imaginarios. Cuando brinca en un castillo de princesas, se transporta a un reino de fantasía. Esa capacidad de **detonar la imaginación** es lo que convierte a un inflable temático en una inversión mucho más valiosa que un brincolín sin identidad.
+Cuando un niño entra a un inflable con forma de [barco pirata](/inflables/barco-pirata/), no solo brinca: se imagina navegando mares peligrosos, buscando tesoros y luchando contra enemigos imaginarios. Cuando brinca en un [castillo de princesas](/inflables/castillo-princesas/), se transporta a un reino de fantasía. Esa capacidad de **detonar la imaginación** es lo que convierte a un inflable temático en una inversión mucho más valiosa que un brincolín sin identidad.
 
 Además, los inflables temáticos facilitan enormemente la planificación de la fiesta. Una vez que eliges el inflable, tienes automáticamente el tema de la decoración, los colores de los globos, el estilo del pastel y las actividades complementarias. Todo gira alrededor del inflable como eje central, y el resultado es una fiesta visualmente coherente que impresiona tanto a niños como a adultos.
 
@@ -42,7 +42,7 @@ Además, los inflables temáticos facilitan enormemente la planificación de la 
 
 La temática **jungla y safari** es una de las más versátiles y populares en fiestas infantiles de la Ciudad de México. Funciona igual de bien para niños y niñas, para edades de 2 a 10 años, y la decoración es accesible y visualmente espectacular.
 
-Nuestro **inflable Mini Jungla** es la estrella de esta temática. Su diseño incorpora animales de la selva en colores tropicales vibrantes — verdes selváticos, amarillos dorados y toques naranjas — que transforman cualquier espacio en una expedición emocionante. Los niños sienten que están brincando en medio de la naturaleza salvaje.
+Nuestro **inflable [Mini Jungla](/inflables/mini-jungla/)** es la estrella de esta temática. Su diseño incorpora animales de la selva en colores tropicales vibrantes — verdes selváticos, amarillos dorados y toques naranjas — que transforman cualquier espacio en una expedición emocionante. Los niños sienten que están brincando en medio de la naturaleza salvaje.
 
 - **Ideal para:** Fiestas mixtas, cumpleaños de 2 a 10 años, fiestas de fin de cursos, eventos en jardines
 - **Combina con:** Hojas tropicales, animales de peluche, globos verdes y dorados, mesa de dulces con frutas tropicales
@@ -80,7 +80,7 @@ Un detalle que encanta a los papás: la temática pirata es de las más económi
 
 ## Temática Dragones y Castillos: fantasía épica
 
-Para los niños que sueñan con mundos de fantasía, caballeros medievales y criaturas míticas, el **inflable Dragones Rojos** es la elección perfecta. Su diseño impactante — un castillo en tonos rojos intensos con figuras de dragones en relieve — genera un efecto "wow" inmediato que ningún otro inflable iguala.
+Para los niños que sueñan con mundos de fantasía, caballeros medievales y criaturas míticas, el **inflable [Dragones Rojos](/inflables/dragones-rojos/)** es la elección perfecta. Su diseño impactante — un castillo en tonos rojos intensos con figuras de dragones en relieve — genera un efecto "wow" inmediato que ningún otro inflable iguala.
 
 Esta temática ha crecido exponencialmente gracias a la popularidad de películas como **How to Train Your Dragon**, series de fantasía adaptadas para niños y la cultura de juegos de mesa como Calabozos y Dragones en su versión infantil. Los niños que eligen esta temática suelen ser creativos, imaginativos y amantes de las historias épicas.
 
@@ -104,7 +104,7 @@ Si la fiesta es solo para niños del mismo género y edad similar, puedes elegir
 
 ### Paso 3: Evalúa tu espacio
 
-No todos los inflables caben en todos los espacios. El Mini Jungla y el Mini Castillo son compactos y versátiles; el Barco Pirata y los Dragones Rojos requieren más espacio. Si tienes dudas, mándanos una foto de tu espacio por WhatsApp y te recomendamos el modelo ideal.
+No todos los inflables caben en todos los espacios. El Mini Jungla y el [Mini Castillo](/inflables/mini-castillo/) son compactos y versátiles; el Barco Pirata y los Dragones Rojos requieren más espacio. Si tienes dudas, mándanos una foto de tu espacio por WhatsApp y te recomendamos el modelo ideal.
 
 ### Paso 4: Define tu presupuesto total
 

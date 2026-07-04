@@ -112,3 +112,7 @@ Más allá de simplemente colocar un inflable, puedes diseñar experiencias memo
 - **Fiesta de fin de año temática:** Integra el inflable con la temática del evento y complementa con DJ, comida y premiación.
 
 En BRINCOLINS hemos trabajado con empresas de todos los tamaños en la zona metropolitana de la Ciudad de México. Nuestro equipo puede ayudarte a diseñar la dinámica perfecta para tu evento, desde la selección de inflables hasta la coordinación logística el día del evento. Contáctanos por WhatsApp para una cotización personalizada sin compromiso.
+
+---
+
+**¿Buscas el inflable perfecto para tu fiesta?** Tenemos opciones para todos los eventos: el [Mini Castillo](/inflables/mini-castillo/) ideal para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas y el [Circuito Extremo](/inflables/extremo/) para niños aventureros. [Ver catálogo completo →](/inflables/)

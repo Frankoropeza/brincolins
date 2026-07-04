@@ -34,7 +34,7 @@ Una pista inflable de obstáculos es una estructura hinchable de gran tamaño qu
 
 El concepto está inspirado en los famosos programas de televisión de competencias de obstáculos que se han vuelto virales en todo el mundo. La diferencia es que aquí todo está acolchado, inflado y completamente seguro para que niños, adolescentes y adultos puedan competir sin riesgo de lesiones. Es la combinación perfecta entre **actividad física y diversión**, algo que pocos elementos de entretenimiento logran.
 
-## Características y diseño del inflable Extremo
+## Características y diseño del [inflable Extremo](/inflables/extremo/)
 
 Nuestro modelo de pista de obstáculos, conocido como **Inflable Extremo**, es uno de los más solicitados del catálogo de BRINCOLINS. Estas son sus principales características:
 

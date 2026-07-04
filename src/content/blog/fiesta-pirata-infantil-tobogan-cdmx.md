@@ -43,7 +43,7 @@ Otra gran ventaja es la **versatilidad decorativa**. Los colores clásicos de un
 
 ## El tobogán inflable como atracción principal de la fiesta
 
-Un **tobogán inflable con temática pirata** no es solo un juego más: es la pieza central que define toda la experiencia de la fiesta. Cuando los niños llegan y ven un barco pirata gigante con tobogán en el jardín, inmediatamente saben que esta fiesta va a ser diferente a todas las que han ido antes.
+Un **tobogán inflable con temática pirata** no es solo un juego más: es la pieza central que define toda la experiencia de la fiesta. Cuando los niños llegan y ven un [barco pirata](/inflables/barco-pirata/) gigante con tobogán en el jardín, inmediatamente saben que esta fiesta va a ser diferente a todas las que han ido antes.
 
 El **barco pirata inflable de BRINCOLINS** combina tres actividades en una sola estructura: zona de brinco en la cubierta del barco, rampa de escalada para subir al tobogán y el tobogán mismo con aterrizaje acolchado. Esta variedad de actividades mantiene a los niños entretenidos durante horas sin que se aburran de hacer siempre lo mismo.
 

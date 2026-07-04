@@ -38,10 +38,10 @@ faqs:
 
 Los precios de renta de **brincolines en la Ciudad de México** varían según el tamaño, la temática y las características del inflable. Aquí te presentamos los rangos de precio de nuestros modelos más populares para que puedas comparar y elegir el que mejor se ajuste a tu presupuesto:
 
-- **Mini Castillo (4×4m):** Desde $900 MXN. El modelo más compacto y económico. Perfecto para patios pequeños y niños de 2 a 7 años. Capacidad para 6-8 niños.
-- **Castillo Princesas (5×4m):** Desde $950 MXN. Diseño en tonos rosas y morados con torres de princesa. Ideal para fiestas temáticas de cuento de hadas. Capacidad para 8-10 niños.
-- **Dragones Rojos (5×5m):** Desde $1,000 MXN. Castillo rojo con dragones decorativos. El favorito para fiestas de aventura y fantasía. Capacidad para 10-12 niños.
-- **Barco Pirata (5×4m):** Desde $1,000 MXN. Diseño de barco con mástil y banderas. Temática de piratas y aventura marina. Capacidad para 8-10 niños.
+- **[Mini Castillo](/inflables/mini-castillo/) (4×4m):** Desde $900 MXN. El modelo más compacto y económico. Perfecto para patios pequeños y niños de 2 a 7 años. Capacidad para 6-8 niños.
+- **[Castillo Princesas](/inflables/castillo-princesas/) (5×4m):** Desde $950 MXN. Diseño en tonos rosas y morados con torres de princesa. Ideal para fiestas temáticas de cuento de hadas. Capacidad para 8-10 niños.
+- **[Dragones Rojos](/inflables/dragones-rojos/) (5×5m):** Desde $1,000 MXN. Castillo rojo con dragones decorativos. El favorito para fiestas de aventura y fantasía. Capacidad para 10-12 niños.
+- **[Barco Pirata](/inflables/barco-pirata/) (5×4m):** Desde $1,000 MXN. Diseño de barco con mástil y banderas. Temática de piratas y aventura marina. Capacidad para 8-10 niños.
 - **Granja (5×5m):** Desde $1,000 MXN. Decorado con animales de granja, ideal para los más pequeños. Capacidad para 10-12 niños.
 - **Tobogán Doble (6×4m):** Desde $1,100 MXN. Incluye rampa de subida y doble tobogán de bajada. Diversión garantizada para niños de 5 a 12 años.
 - **Extremo (7×5m):** Desde $1,300 MXN. Nuestro modelo más grande con área de salto, obstáculos y tobogán. Para fiestas grandes y eventos con muchos niños.

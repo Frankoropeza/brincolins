@@ -24,7 +24,7 @@ Puede sonar poco convencional, pero cada vez más parejas y quinceañeras están
 
 La clave está en elegir el inflable correcto y ubicarlo estratégicamente para que complemente la celebración sin competir con ella. No se trata de colocar un castillo multicolor en medio de la pista de baile, sino de crear una zona de diversión separada que los invitados puedan disfrutar cuando quieran.
 
-## El Castillo Blanco: diseñado para eventos elegantes
+## El [Castillo Blanco](/inflables/castillo-blanco/): diseñado para eventos elegantes
 
 En BRINCOLINS, nuestro modelo **Castillo Blanco** fue pensado específicamente para eventos donde la estética importa. A diferencia de los inflables infantiles con colores brillantes, el Castillo Blanco tiene un diseño monocromático en blanco y tonos plateados que se integra naturalmente con la decoración de una boda o quinceañera.
 
@@ -40,7 +40,7 @@ Sus características lo hacen ideal para eventos formales:
 | Evento | Inflable recomendado | ¿Por qué? |
 | --- | --- | --- |
 | Boda clásica | Castillo Blanco | Color neutro, elegante, fotogénico |
-| Boda en jardín | Castillo Blanco + Mini Jungla | El blanco para fotos, la jungla para niños |
+| Boda en jardín | Castillo Blanco + [Mini Jungla](/inflables/mini-jungla/) | El blanco para fotos, la jungla para niños |
 | XV años temáticos | Castillo Princesas | Temática de fantasía, colores vibrantes |
 | XV años modernos | Extremo (obstáculos) | Actividad dinámica para adolescentes |
 | Boda de verano | Tobogán acuático | Diversión refrescante para todos |
@@ -82,7 +82,7 @@ Es fundamental coordinar los tiempos del inflable con el programa del evento. Aq
 
 En las quinceañeras, los inflables tienen un papel más protagónico que en las bodas. La mayoría de los invitados son adolescentes que prefieren actividades físicas antes que quedarse sentados. Un inflable de obstáculos tipo Extremo o un tobogán gigante puede ser la atracción más popular de la noche, incluso por encima del DJ.
 
-Para quinceañeras temáticas de fantasía o princesas, el Castillo de Princesas o el Castillo Blanco complementan perfectamente la decoración. Muchas quinceañeras usan el castillo inflable como fondo para su sesión de fotos casual, generando imágenes divertidas que contrastan con las fotos formales del estudio.
+Para quinceañeras temáticas de fantasía o princesas, el [Castillo de Princesas](/inflables/castillo-princesas/) o el Castillo Blanco complementan perfectamente la decoración. Muchas quinceañeras usan el castillo inflable como fondo para su sesión de fotos casual, generando imágenes divertidas que contrastan con las fotos formales del estudio.
 
 ## Precios y paquetes para eventos formales
 

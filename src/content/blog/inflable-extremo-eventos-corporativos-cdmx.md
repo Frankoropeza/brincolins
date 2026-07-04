@@ -36,7 +36,7 @@ Las pistas de obstáculos inflables han ganado terreno en el segmento corporativ
 
 ## Beneficios concretos para el team building
 
-Más allá de la diversión evidente, incorporar un inflable extremo en tu evento corporativo genera beneficios medibles para la cultura organizacional:
+Más allá de la diversión evidente, incorporar un [inflable extremo](/inflables/extremo/) en tu evento corporativo genera beneficios medibles para la cultura organizacional:
 
 - **Comunicación efectiva:** las carreras por relevos obligan a los equipos a coordinarse, establecer estrategias y comunicarse bajo presión. Estas habilidades se transfieren directamente al ambiente laboral.
 - **Liderazgo emergente:** en las dinámicas de competencia surgen líderes naturales que motivan a su equipo. Es una oportunidad para que RH observe habilidades de liderazgo en un contexto informal.

@@ -48,11 +48,11 @@ Finalmente, la temática safari permite crear una **narrativa de aventura** que 
 
 El **inflable es la pieza central** de cualquier fiesta con brincolín, y en una fiesta safari esto es aún más importante. El inflable no solo es un juego; es un elemento decorativo que establece el tono visual de todo el evento. Elegir el modelo correcto marca la diferencia entre una fiesta "con tema" y una experiencia verdaderamente inmersiva.
 
-Nuestro **inflable Mini Jungla** es la opción estrella para fiestas safari. Su diseño incorpora animales de la selva, colores tropicales vibrantes y detalles de vegetación que complementan la decoración selvática de tu evento. Los niños sienten que están brincando en medio de la jungla.
+Nuestro **inflable [Mini Jungla](/inflables/mini-jungla/)** es la opción estrella para fiestas safari. Su diseño incorpora animales de la selva, colores tropicales vibrantes y detalles de vegetación que complementan la decoración selvática de tu evento. Los niños sienten que están brincando en medio de la jungla.
 
 - **Mini Jungla:** El favorito para fiestas safari. Diseño con animales, colores tropicales y tamaño compacto ideal para jardines y salones en CDMX.
-- **Gusanitos:** Excelente opción complementaria si tienes niños muy pequeños (1-4 años). Su diseño colorido combina con la paleta safari y es ultra seguro para los más chiquitos.
-- **Barco Pirata:** Si quieres darle un giro de "aventura selvática + exploración", el barco pirata combina sorprendentemente bien con temáticas de expedición y descubrimiento.
+- **[Gusanitos](/inflables/gusanitos/):** Excelente opción complementaria si tienes niños muy pequeños (1-4 años). Su diseño colorido combina con la paleta safari y es ultra seguro para los más chiquitos.
+- **[Barco Pirata](/inflables/barco-pirata/):** Si quieres darle un giro de "aventura selvática + exploración", el barco pirata combina sorprendentemente bien con temáticas de expedición y descubrimiento.
 
 ### Consideraciones de espacio y logística
 

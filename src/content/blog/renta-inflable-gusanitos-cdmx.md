@@ -28,7 +28,7 @@ faqs:
     answer: "¡Claro que sí! El Gusanitos Tropical es un modelo compacto que se adapta perfectamente a salones de fiestas, patios techados y espacios cerrados. Solo verifica que la altura libre sea de al menos 3.5 metros y que haya una toma eléctrica cercana. Nuestro equipo confirma las condiciones antes de la instalación."
 ---
 
-## 1. ¿Qué hace especial al inflable Gusanitos Tropical?
+## 1. ¿Qué hace especial al inflable [Gusanitos](/inflables/gusanitos/) Tropical?
 
 El inflable **Gusanitos Tropical** no es un brincolín convencional. Su diseño temático de gusanito con colores tropicales intensos — verdes, naranjas, amarillos y rojos — lo distingue de cualquier otro modelo en el mercado de **renta de inflables en CDMX**. Desde el primer momento en que los niños lo ven, quieren subirse a brincar.
 

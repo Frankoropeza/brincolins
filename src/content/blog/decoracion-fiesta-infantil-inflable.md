@@ -25,7 +25,7 @@ tags:
 
 ## El inflable como centro del diseño
 
-El error más común al decorar una fiesta con inflable es tratar la decoración y el inflable como dos elementos separados. En realidad, el inflable debería ser el punto de partida de toda tu paleta de colores y temática. Si rentaste un castillo de princesas en tonos rosa y morado, esos deberían ser los colores dominantes en manteles, globos, platos y servilletas. Si elegiste un inflable de dragones rojos, trabaja con tonos rojos, negros y dorados para crear cohesión visual.
+El error más común al decorar una fiesta con inflable es tratar la decoración y el inflable como dos elementos separados. En realidad, el inflable debería ser el punto de partida de toda tu paleta de colores y temática. Si rentaste un [castillo de princesas](/inflables/castillo-princesas/) en tonos rosa y morado, esos deberían ser los colores dominantes en manteles, globos, platos y servilletas. Si elegiste un inflable de [dragones rojos](/inflables/dragones-rojos/), trabaja con tonos rojos, negros y dorados para crear cohesión visual.
 
 Esta coordinación no requiere gastar más dinero, simplemente requiere planificación. Cuando reserves tu inflable, pide fotos del modelo exacto que te entregarán para que puedas comprar la decoración con los colores correctos.
 
@@ -37,9 +37,9 @@ Para facilitar la elección, aquí te presentamos combinaciones probadas que fun
 | --- | --- | --- |
 | Castillo de princesas | Rosa, lila, blanco | Dorado |
 | Dragones rojos | Rojo, negro | Dorado o naranja |
-| Barco pirata | Azul marino, café, rojo | Dorado |
-| Castillo blanco | Blanco, plateado | Rosa pastel o azul cielo |
-| Mini jungla | Verde, café, amarillo | Naranja |
+| [Barco pirata](/inflables/barco-pirata/) | Azul marino, café, rojo | Dorado |
+| [Castillo blanco](/inflables/castillo-blanco/) | Blanco, plateado | Rosa pastel o azul cielo |
+| [Mini jungla](/inflables/mini-jungla/) | Verde, café, amarillo | Naranja |
 | Extremo (obstáculos) | Azul, rojo, amarillo | Verde neón |
 
 ## Distribución del espacio: zonas que toda fiesta necesita

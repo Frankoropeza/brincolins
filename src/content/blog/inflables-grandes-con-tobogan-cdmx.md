@@ -48,11 +48,11 @@ La segunda ventaja es el **factor impacto visual**. Un inflable grande con tobog
 
 En **BRINCOLINS** ofrecemos varios modelos de **inflables grandes con tobogán**, cada uno con características únicas que se adaptan a diferentes tipos de eventos y temáticas. Aquí te presentamos los más populares:
 
-### Barco Pirata con Tobogán
+### [Barco Pirata](/inflables/barco-pirata/) con Tobogán
 
 Nuestro modelo estrella. Un **galeón pirata inflable** de gran formato con cubierta de brinco, rampa de escalada y tobogán de gran altura que sale por la popa del barco. Es la opción perfecta para fiestas con **temática pirata**, eventos al aire libre y kermeses escolares. Su diseño detallado con cañones, mástiles y bandera pirata lo convierte en una pieza espectacular que transforma cualquier espacio.
 
-### Inflable Extremo
+### [Inflable Extremo](/inflables/extremo/)
 
 Para los eventos que buscan la máxima adrenalina. El **inflable Extremo** combina una pista de obstáculos con tobogán, ofreciendo un recorrido completo que desafía la agilidad y coordinación de los niños. Incluye túneles, paredes de escalada, zonas de brinco y un deslizadero final que remata la experiencia. Ideal para niños de 6 a 14 años que buscan un reto mayor.
 

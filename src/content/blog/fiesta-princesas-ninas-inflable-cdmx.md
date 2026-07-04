@@ -35,7 +35,7 @@ faqs:
 
 No importa la generación: las princesas siguen siendo la temática número uno para **fiestas infantiles de niñas**. Desde las princesas clásicas hasta las heroínas modernas, el concepto de realeza sigue cautivando a las pequeñas. La razón es simple: cada niña quiere sentirse especial, y una fiesta de princesas le dice exactamente eso.
 
-En nuestra experiencia organizando eventos en **CDMX y zona metropolitana**, las fiestas de princesas representan casi el 40% de todas las solicitudes que recibimos para niñas. Los papás buscan crear una atmósfera mágica y coherente, y el **inflable de castillo de princesas** se ha convertido en el elemento central que une toda la decoración y las actividades.
+En nuestra experiencia organizando eventos en **CDMX y zona metropolitana**, las fiestas de princesas representan casi el 40% de todas las solicitudes que recibimos para niñas. Los papás buscan crear una atmósfera mágica y coherente, y el **inflable de [castillo de princesas](/inflables/castillo-princesas/)** se ha convertido en el elemento central que une toda la decoración y las actividades.
 
 Lo mejor es que una fiesta de princesas no necesita un presupuesto enorme para lucir espectacular. Con los elementos correctos, como un inflable temático, decoración sencilla pero bien pensada y actividades divertidas, puedes crear una celebración que las invitadas y sus mamás no olvidarán.
 

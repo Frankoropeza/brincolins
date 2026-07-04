@@ -90,3 +90,7 @@ Si ocurre un accidente con el inflable durante la fiesta:
 - Si hay lesión aparente, no muevas al niño — llama al 911
 - Documenta con fotos el estado del inflable (para el seguro)
 - Notifica de inmediato al proveedor — los operadores serios tienen protocolo de emergencias
+
+---
+
+**¿Buscas el inflable perfecto para tu fiesta?** Tenemos opciones para todos los eventos: el [Mini Castillo](/inflables/mini-castillo/) ideal para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas y el [Circuito Extremo](/inflables/extremo/) para niños aventureros. [Ver catálogo completo →](/inflables/)

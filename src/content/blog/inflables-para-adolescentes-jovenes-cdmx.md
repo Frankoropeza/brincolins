@@ -35,7 +35,7 @@ Existe un mito muy extendido que dice que los inflables son exclusivamente para 
 
 Piensa en los programas de televisión de retos físicos que se han vuelto populares en todo el mundo. Los participantes son adultos que se enfrentan a circuitos de obstáculos con túneles, muros de escalada, plataformas inestables y toboganes. Nuestros inflables de línea extrema llevan esa misma experiencia a tu fiesta, adaptada para ser **completamente segura** pero igual de emocionante.
 
-Los adolescentes viven en un mundo donde todo se comparte en redes sociales. Un inflable extremo no solo les da diversión: les da **contenido**. Las fotos y videos de ellos compitiendo en la pista de obstáculos, cayendo del tobogán o celebrando una victoria se convierten en historias de Instagram y TikToks que sus amigos comentan durante semanas.
+Los adolescentes viven en un mundo donde todo se comparte en redes sociales. Un [inflable extremo](/inflables/extremo/) no solo les da diversión: les da **contenido**. Las fotos y videos de ellos compitiendo en la pista de obstáculos, cayendo del tobogán o celebrando una victoria se convierten en historias de Instagram y TikToks que sus amigos comentan durante semanas.
 
 ## Los modelos favoritos de los adolescentes
 
@@ -45,7 +45,7 @@ No todos los inflables funcionan para adolescentes. Los modelos pequeños y tem�
 
 Sin duda el favorito de los adolescentes. El **Inflable Extremo** es una pista de obstáculos completa con túneles, columnas esquivables, muro de escalada y tobogán de salida. Permite carreras simultáneas entre dos competidores, lo que convierte cada ronda en un enfrentamiento directo lleno de adrenalina. Los jóvenes pueden organizar torneos eliminatorios, carreras contra reloj y competencias por equipos que los mantienen **enganchados durante horas**.
 
-### Barco Pirata — Tobogán de altura
+### [Barco Pirata](/inflables/barco-pirata/) — Tobogán de altura
 
 Para los adolescentes que buscan la emoción de la altura, el **Barco Pirata** con tobogán incorporado es una atracción espectacular. Su diseño temático de barco pirata con torre de escalada y resbaladilla amplia lo convierte en un punto focal impresionante para cualquier fiesta. A los jóvenes les fascina subir, deslizarse y repetir una y otra vez.
 

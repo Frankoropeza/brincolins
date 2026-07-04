@@ -53,9 +53,9 @@ Considera esto:
 
 Ahora que sabes qué espacio tienes, elige el inflable. En un jardín típico (4×6 metros o más) tienes varias opciones:
 
-- **Mini Castillo 3×3m:** Para espacios pequeños, de 3 a 8 años, hasta 6 niños. Desde $800
+- **[Mini Castillo](/inflables/mini-castillo/) 3×3m:** Para espacios pequeños, de 3 a 8 años, hasta 6 niños. Desde $800
 - **Castillo 4×4m:** Versátil, edad 3-10 años, hasta 8 niños. Desde $900
-- **Barco Pirata o Temático 5×4m:** Mayor impacto visual, edad 5-12 años. Desde $1,100
+- **[Barco Pirata](/inflables/barco-pirata/) o Temático 5×4m:** Mayor impacto visual, edad 5-12 años. Desde $1,100
 - **Tobogán Acuático 6×4m:** Perfecto verano, edad 5-14 años, hasta 10 niños. Desde $1,200
 
 Para una **fiesta en jardín CDMX**, recomendamos un **Castillo temático o Barco Pirata** — buen tamaño, fácil de instalar en 20 minutos, y los niños se entretienen 3-4 horas seguidas.

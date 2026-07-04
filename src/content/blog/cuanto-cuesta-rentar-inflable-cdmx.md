@@ -43,8 +43,8 @@ En la Ciudad de México y el Estado de México, la renta de inflables para fiest
 
 Son los inflables más populares y accesibles. Perfectos para fiestas de niños de 3 a 8 años en espacios medianos (jardín de 20–30 m²). En este rango entran:
 
-- **Mini castillo básico:** desde $650 MXN — ideal para espacios pequeños
-- **Castillo de princesas o dragones:** $850–$950 MXN — más grande y con más detalles
+- **[Mini castillo](/inflables/mini-castillo/) básico:** desde $650 MXN — ideal para espacios pequeños
+- **[Castillo de princesas](/inflables/castillo-princesas/) o dragones:** $850–$950 MXN — más grande y con más detalles
 - **Castillo unicornio o medieval:** $950 MXN — diseños premium muy solicitados
 
 La mayoría de los proveedores en CDMX incluyen instalación. Verifica que así sea antes de contratar.

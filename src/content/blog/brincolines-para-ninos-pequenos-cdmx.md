@@ -37,19 +37,19 @@ No todos los brincolines son iguales, y la edad de los niños es el factor más 
 
 ### Bebés de 1 a 2 años
 
-Para los más chiquitos, lo ideal es un inflable con **rebote muy suave** y paredes altas que eviten cualquier posibilidad de que se salgan. El **mini castillo** es nuestra recomendación estrella para este rango de edad. Su piso extra acolchado protege a los bebés que todavía están aprendiendo a mantener el equilibrio, y las paredes de malla permiten que los papás supervisen todo el tiempo.
+Para los más chiquitos, lo ideal es un inflable con **rebote muy suave** y paredes altas que eviten cualquier posibilidad de que se salgan. El **[mini castillo](/inflables/mini-castillo/)** es nuestra recomendación estrella para este rango de edad. Su piso extra acolchado protege a los bebés que todavía están aprendiendo a mantener el equilibrio, y las paredes de malla permiten que los papás supervisen todo el tiempo.
 
 A esta edad, los niños no necesariamente brincan: gatean, se sientan, se ponen de pie y exploran. El inflable se convierte en un espacio sensorial seguro donde pueden experimentar texturas y movimiento de una forma controlada.
 
 ### Niños de 3 a 4 años
 
-A los 3 y 4 años, los niños ya tienen mejor coordinación y pueden brincar con más confianza. Para este rango, tanto el **mini castillo** como la **mini jungla** son excelentes opciones. Estos modelos ofrecen suficiente espacio para brincar sin que el rebote sea excesivo.
+A los 3 y 4 años, los niños ya tienen mejor coordinación y pueden brincar con más confianza. Para este rango, tanto el **mini castillo** como la **[mini jungla](/inflables/mini-jungla/)** son excelentes opciones. Estos modelos ofrecen suficiente espacio para brincar sin que el rebote sea excesivo.
 
 En esta etapa los niños empiezan a socializar más activamente, por lo que les encanta compartir el inflable con sus amiguitos. Es la edad perfecta para fiestas con brincolín porque los niños son lo suficientemente independientes para disfrutar pero aún necesitan modelos seguros y de tamaño apropiado.
 
 ### Niños de 5 a 6 años
 
-Los niños de 5 y 6 años ya pueden usar una mayor variedad de inflables. Además de los modelos compactos, pueden disfrutar del **castillo de princesas** y otros inflables medianos. Sin embargo, si la fiesta incluye niños de este rango junto con más pequeños, te recomendamos mantener separados los grupos por edad.
+Los niños de 5 y 6 años ya pueden usar una mayor variedad de inflables. Además de los modelos compactos, pueden disfrutar del **[castillo de princesas](/inflables/castillo-princesas/)** y otros inflables medianos. Sin embargo, si la fiesta incluye niños de este rango junto con más pequeños, te recomendamos mantener separados los grupos por edad.
 
 ## Consideraciones de seguridad para niños pequeños
 

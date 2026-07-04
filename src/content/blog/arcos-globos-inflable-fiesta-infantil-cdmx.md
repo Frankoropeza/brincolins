@@ -27,7 +27,7 @@ faqs:
 
 ## Son las 11 de la mañana en un jardín en Tlalpan
 
-El arco de globos todavía huele a latex fresco. Los tonos rosas y lilas del arco orgánico se curvan sobre la entrada del jardín, y a unos diez metros, el Castillo de Princesas de BRINCOLINS lleva media hora encendido — ese sonido suave y constante del motor soplador que ya conocemos tan bien después de tantos eventos. Los primeros niños que van llegando se detienen a mitad del camino. No saben a dónde mirar primero: si al arco que los enmarca como si entraran a un cuento de hadas, o al castillo inflable rosado que los espera al fondo del jardín, brillando bajo el sol de la mañana.
+El arco de globos todavía huele a latex fresco. Los tonos rosas y lilas del arco orgánico se curvan sobre la entrada del jardín, y a unos diez metros, el [Castillo de Princesas](/inflables/castillo-princesas/) de BRINCOLINS lleva media hora encendido — ese sonido suave y constante del motor soplador que ya conocemos tan bien después de tantos eventos. Los primeros niños que van llegando se detienen a mitad del camino. No saben a dónde mirar primero: si al arco que los enmarca como si entraran a un cuento de hadas, o al castillo inflable rosado que los espera al fondo del jardín, brillando bajo el sol de la mañana.
 
 Cuando nuestro equipo llega a una fiesta y ya hay un arco de DEGLOB instalado en la entrada, sabemos que va a ser una fiesta de primer nivel. No porque el arco sea caro — muchas veces no lo es — sino porque la familia tomó una decisión de coordinación que lo cambia todo: decidieron que el inflable y la decoración iban a hablar el mismo idioma visual. Esa decisión, que parece pequeña, es la diferencia entre una fiesta que se ve improvisada y una que parece de producción profesional.
 
@@ -40,13 +40,13 @@ La clave para que la decoración se vea profesional es la coordinación de color
 | Inflable BRINCOLINS | Tema sugerido | Colores de globos | Tipo de decoración recomendada |
 |---|---|---|---|
 | Castillo de Princesas | Cuento de hadas / Frozen | Rosa, lila, blanco, dorado | Arco orgánico + corona backdrop |
-| Dragones Rojos | Dragones / Fantasía épica | Rojo, negro, dorado, naranja | Columnas de globos + guirnalda |
-| Barco Pirata | Piratas del Caribe | Azul marino, negro, rojo, dorado | Arco orgánico + fondo de tela |
-| Mini Jungla | Safari / Animales | Verde, amarillo, café, naranja | Globos orgánicos + palmeras |
-| Gusanitos | Bugs / Naturaleza | Verde, rojo, amarillo, azul | Garland colorida + centros mesa |
-| Mini Castillo | Realeza / Medieval | Azul, dorado, rojo, plateado | Arco de entrada + columnas |
+| [Dragones Rojos](/inflables/dragones-rojos/) | Dragones / Fantasía épica | Rojo, negro, dorado, naranja | Columnas de globos + guirnalda |
+| [Barco Pirata](/inflables/barco-pirata/) | Piratas del Caribe | Azul marino, negro, rojo, dorado | Arco orgánico + fondo de tela |
+| [Mini Jungla](/inflables/mini-jungla/) | Safari / Animales | Verde, amarillo, café, naranja | Globos orgánicos + palmeras |
+| [Gusanitos](/inflables/gusanitos/) | Bugs / Naturaleza | Verde, rojo, amarillo, azul | Garland colorida + centros mesa |
+| [Mini Castillo](/inflables/mini-castillo/) | Realeza / Medieval | Azul, dorado, rojo, plateado | Arco de entrada + columnas |
 | Extremo | Deportes / Aventura | Rojo, azul, amarillo, verde | Globos cromados + banderines |
-| Castillo Blanco | Elegancia / Boda infantil | Blanco, plateado, rosa pastel | Arco minimalista + flores |
+| [Castillo Blanco](/inflables/castillo-blanco/) | Elegancia / Boda infantil | Blanco, plateado, rosa pastel | Arco minimalista + flores |
 
 Esta tabla es un punto de partida. Los especialistas de DEGLOB (Fantasy Globos) pueden personalizar cualquier combinación según el tema específico de tu fiesta, el espacio disponible y tu presupuesto.
 
@@ -84,7 +84,7 @@ Basados en las fiestas que hemos servido en los últimos meses, estos son los te
 
 1. **Dinosaurios y mundo jurásico** — inflable de jungla o extremo, globos en verde, café y rojo con globos con forma de dino
 2. **Unicornios y arcoíris** — cualquier castillo claro, globos en toda la paleta del arcoíris con cromados rosados
-3. **Superheroes (Avengers o DC)** — inflable extremo o dragones rojos, globos en los colores del héroe favorito
+3. **Superheroes (Avengers o DC)** — [inflable extremo](/inflables/extremo/) o dragones rojos, globos en los colores del héroe favorito
 4. **Princesas Disney** — castillo de princesas, globos en azul cielo o rosa lila según el personaje
 5. **Safari y animales de la selva** — mini jungla o gusanitos, globos en verde, dorado y naranja con animales impresos
 

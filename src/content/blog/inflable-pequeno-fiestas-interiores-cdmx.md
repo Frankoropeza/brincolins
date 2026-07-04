@@ -71,11 +71,11 @@ Es importante que el contacto eléctrico esté en buen estado y que el circuito 
 
 En **BRINCOLINS** contamos con varios modelos diseñados para funcionar perfectamente en espacios cerrados. Cada uno tiene características únicas que lo hacen ideal para diferentes tipos de fiestas y edades.
 
-El **Mini Castillo** es nuestro modelo estrella para interiores. Con su diseño compacto y colorido, es perfecto para fiestas de niños pequeños de 1 a 5 años. Sus paredes de malla permiten la visibilidad completa y su altura reducida se adapta a la mayoría de los techos.
+El **[Mini Castillo](/inflables/mini-castillo/)** es nuestro modelo estrella para interiores. Con su diseño compacto y colorido, es perfecto para fiestas de niños pequeños de 1 a 5 años. Sus paredes de malla permiten la visibilidad completa y su altura reducida se adapta a la mayoría de los techos.
 
-Los **Gusanitos** son otra excelente opción para interiores. Su diseño alargado y bajo los hace ideales para espacios donde la altura del techo es limitada. Los niños pueden gatear, deslizarse y explorar los túneles en un ambiente seguro y controlado.
+Los **[Gusanitos](/inflables/gusanitos/)** son otra excelente opción para interiores. Su diseño alargado y bajo los hace ideales para espacios donde la altura del techo es limitada. Los niños pueden gatear, deslizarse y explorar los túneles en un ambiente seguro y controlado.
 
-El **Castillo de Princesas** combina la diversión del brincolín con una temática encantadora que fascina a los niños. Es ligeramente más grande que el mini castillo pero sigue siendo apto para la mayoría de los salones de fiestas.
+El **[Castillo de Princesas](/inflables/castillo-princesas/)** combina la diversión del brincolín con una temática encantadora que fascina a los niños. Es ligeramente más grande que el mini castillo pero sigue siendo apto para la mayoría de los salones de fiestas.
 
 > **Recomendación:** Si no estás seguro de qué modelo elegir, envíanos fotos de tu espacio por WhatsApp. Nuestro equipo te asesorará de forma gratuita para encontrar el inflable perfecto para tu fiesta en interiores.
 

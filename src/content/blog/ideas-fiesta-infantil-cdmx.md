@@ -36,7 +36,7 @@ Antes de comprar un solo globo, **pregúntale al cumpleañero qué temática qui
 
 ## Idea #2: El inflable como estrella central
 
-Un brincolín no es solo diversión — es el centro de atención de la fiesta y mantiene a los niños ocupados durante horas. Elige un inflable que **vaya con la temática**: el Castillo de Princesas para fiestas de cuento de hadas, el Barco Pirata para aventureros, o el Tobogán Acuático para fiestas de verano.
+Un brincolín no es solo diversión — es el centro de atención de la fiesta y mantiene a los niños ocupados durante horas. Elige un inflable que **vaya con la temática**: el [Castillo de Princesas](/inflables/castillo-princesas/) para fiestas de cuento de hadas, el [Barco Pirata](/inflables/barco-pirata/) para aventureros, o el Tobogán Acuático para fiestas de verano.
 
 > El inflable suele ocupar a los niños 2-3 horas seguidas. Colócalo lejos de la mesa de adultos para que los papás puedan platicar con calma.
 

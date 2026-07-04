@@ -95,3 +95,7 @@ En CDMX, el clima dicta la temporada:
 - Ten una zona seca con sillas y sombra para los niños que no quieran mojarse
 - Prepara una lonchera con frutas y agua — el calor deshidrata más de lo que parece
 - Si tienes mascotas, cíerralas en un cuarto — el agua y los niños corriendo las estresa
+
+---
+
+**¿Buscas el inflable perfecto para tu fiesta?** Tenemos opciones para todos los eventos: el [Mini Castillo](/inflables/mini-castillo/) ideal para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas y el [Circuito Extremo](/inflables/extremo/) para niños aventureros. [Ver catálogo completo →](/inflables/)

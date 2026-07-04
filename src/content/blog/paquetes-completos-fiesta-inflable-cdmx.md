@@ -132,3 +132,7 @@ El paquete conviene cuando necesitas varios servicios y quieres simplicidad. Con
 | Fiesta grande (+80 invitados) | Paquete premium personalizado |
 
 En BRINCOLINS armamos paquetes personalizados según las necesidades de cada cliente. No te obligamos a contratar servicios que no necesitas. Escríbenos por WhatsApp con los detalles de tu evento (número de invitados, tipo de espacio, servicios que necesitas) y te enviamos una cotización a la medida en minutos.
+
+---
+
+**¿Buscas el inflable perfecto para tu fiesta?** Tenemos opciones para todos los eventos: el [Mini Castillo](/inflables/mini-castillo/) ideal para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas y el [Circuito Extremo](/inflables/extremo/) para niños aventureros. [Ver catálogo completo →](/inflables/)

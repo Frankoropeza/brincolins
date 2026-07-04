@@ -34,7 +34,7 @@ faqs:
 
 ## El inflable perfecto para bodas en CDMX
 
-Cuando piensas en una **boda elegante**, probablemente no imaginas un inflable. Pero eso es exactamente lo que hace especial al **castillo blanco inflable**: rompe el estereotipo de que los brincolines son solo para fiestas infantiles informales. Este modelo fue pensado para **eventos formales y sofisticados** donde la diversión de los niños es tan importante como la estética del evento.
+Cuando piensas en una **boda elegante**, probablemente no imaginas un inflable. Pero eso es exactamente lo que hace especial al **[castillo blanco](/inflables/castillo-blanco/) inflable**: rompe el estereotipo de que los brincolines son solo para fiestas infantiles informales. Este modelo fue pensado para **eventos formales y sofisticados** donde la diversión de los niños es tan importante como la estética del evento.
 
 En la **Ciudad de México**, cada vez más parejas incluyen una zona infantil en sus bodas. Y es lógico: cuando los niños están entretenidos, los papás pueden relajarse y disfrutar la celebración. El castillo blanco de BRINCOLINS ofrece esa tranquilidad sin sacrificar la armonía visual de tu boda. Las parejas que lo han rentado nos comentan que fue una de las mejores decisiones que tomaron para su gran día.
 
