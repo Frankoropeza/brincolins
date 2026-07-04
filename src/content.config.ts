@@ -23,6 +23,15 @@ const blog = defineCollection({
       question: z.string(),
       answer: z.string(),
     })).optional(),
+    /** Pasos para schema HowTo (contenido instructivo) */
+    howto: z.object({
+      name: z.string(),                        // ej. "Cómo rentar un inflable paso a paso"
+      totalTime: z.string().optional(),        // ISO 8601, ej. "PT10M"
+      steps: z.array(z.object({
+        name: z.string(),
+        text: z.string(),
+      })),
+    }).optional(),
   }),
 });
 

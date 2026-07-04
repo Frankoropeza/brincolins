@@ -1,0 +1,410 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import QuickNav from "@/components/QuickNav.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import FaqItem from "@/components/FaqItem.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+
+const title = "Renta de Inflables para Fiestas Infantiles en CDMX y Edomex";
+const description = "Renta de inflables para fiestas infantiles con entrega, instalación, sanitización y seguro incluidos. Brincolines por edad desde $800 MXN en CDMX y Estado de México. Cotiza por WhatsApp.";
+
+// ── Inflables por edad ──
+const porEdad = [
+  {
+    rango: "1 a 4 años",
+    titulo: "Bebés y niños pequeños",
+    modelos: "Mini Castillo",
+    precio: "desde $800 MXN",
+    desc: "Inflables chicos de paredes suaves y altura baja, pensados para primeros cumpleaños y fiestas en interiores o departamentos. Fácil supervisión de los papás en todo momento.",
+    href: "/inflables/mini-castillo/",
+  },
+  {
+    rango: "4 a 10 años",
+    titulo: "Fiestas infantiles clásicas",
+    modelos: "Dragones Rojos · Castillo de Princesas · Mini Jungla · Gusanitos",
+    precio: "desde $1,200 MXN",
+    desc: "Los brincolines medianos más rentados para cumpleaños: castillos temáticos con resbaladilla integrada y mallas de seguridad. Capacidad de 5 a 7 niños simultáneos.",
+    href: "/inflables/",
+  },
+  {
+    rango: "3 a 12 años",
+    titulo: "Fiestas grandes con tobogán",
+    modelos: "Barco Pirata",
+    precio: "desde $2,500 MXN",
+    desc: "Inflable grande de 7×5×4 metros con tobogán de altura y zona de brinco amplia. Capacidad de 10 a 15 niños: ideal para jardines, salones grandes y fiestas numerosas.",
+    href: "/inflables/barco-pirata/",
+  },
+  {
+    rango: "6 años en adelante",
+    titulo: "Adolescentes, kermeses y eventos",
+    modelos: "Circuito Extremo",
+    precio: "desde $3,000 MXN",
+    desc: "Circuito de obstáculos de 12 metros con doble carril para competencias. La opción favorita para kermeses escolares, eventos corporativos y fiestas con adolescentes.",
+    href: "/inflables/extremo/",
+  },
+];
+
+// ── Catálogo destacado ──
+const productos = [
+  { slug: "mini-castillo", emoji: "", name: "Mini Castillo", description: "Brincolín compacto para bebés y niños pequeños. Perfecto para interiores y espacios reducidos.", price: "$800", size: "2×2×2m", ages: "1-4 años", category: "Chico", categoryColor: "castillo", gradient: "#FF3D00, #ff6d3f", image: "/img/inflables/mini-castillo.avif" },
+  { slug: "dragones-rojos", emoji: "", name: "Dragones Rojos", description: "El inflable más rentado en CDMX. Dos dragones gigantes con resbaladilla integrada y mallas de seguridad.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
+  { slug: "castillo-princesas", emoji: "", name: "Castillo de Princesas", description: "Castillo rosa y turquesa con princesas de 3 metros. El favorito para fiestas de niñas.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
+  { slug: "barco-pirata", emoji: "", name: "Barco Pirata", description: "Épico barco con velas, mástil de 4 metros y tobogán gigante para 10-15 niños.", price: "$2,500", size: "7×5×4m", ages: "3-12 años", category: "Grande", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
+];
+
+// ── Qué incluye ──
+const incluye = [
+  { title: "Entrega a domicilio sin costo", desc: "En CDMX y los principales municipios del Estado de México." },
+  { title: "Instalación profesional", desc: "Montaje con anclajes y verificación de seguridad en menos de 30 minutos." },
+  { title: "Motor inflador silencioso", desc: "Soplador de grado comercial con extensión eléctrica incluida." },
+  { title: "Sanitización certificada", desc: "Limpieza y desinfección con protocolo certificado antes de cada evento." },
+  { title: "Seguro de responsabilidad civil", desc: "Cada renta está protegida durante todo el evento." },
+  { title: "Recolección al finalizar", desc: "Al terminar la fiesta recogemos todo. Tú no mueves un dedo." },
+];
+
+// ── Zonas de cobertura ──
+const zonasCdmx = [
+  { name: "Coyoacán", href: "/cobertura/coyoacan/" },
+  { name: "Benito Juárez", href: "/cobertura/benito-juarez/" },
+  { name: "Miguel Hidalgo", href: "/cobertura/miguel-hidalgo/" },
+  { name: "Álvaro Obregón", href: "/cobertura/alvaro-obregon/" },
+  { name: "Tlalpan", href: "/cobertura/tlalpan/" },
+  { name: "Cuauhtémoc", href: "/cobertura/cuauhtemoc/" },
+  { name: "Gustavo A. Madero", href: "/cobertura/gustavo-a-madero/" },
+  { name: "Iztapalapa", href: "/cobertura/iztapalapa/" },
+];
+const zonasEdomex = [
+  { name: "Ecatepec", href: "/cobertura/ecatepec/" },
+  { name: "Naucalpan", href: "/cobertura/naucalpan/" },
+  { name: "Tlalnepantla", href: "/cobertura/tlalnepantla/" },
+  { name: "Nezahualcóyotl", href: "/cobertura/nezahualcoyotl/" },
+  { name: "Huixquilucan", href: "/cobertura/huixquilucan/" },
+  { name: "Atizapán", href: "/cobertura/atizapan/" },
+  { name: "Cuautitlán Izcalli", href: "/cobertura/cuautitlan-izcalli/" },
+  { name: "Toluca", href: "/cobertura/toluca/" },
+];
+
+// ── Proceso de cotización ──
+const proceso = [
+  { n: "1", title: "Elige el inflable por edad", desc: "Revisa el catálogo o dinos la edad de los niños y el espacio disponible: te recomendamos el modelo ideal." },
+  { n: "2", title: "Cotiza por WhatsApp", desc: "Envía fecha, dirección y modelo al 55 3128 1706. Respondemos con precio y disponibilidad en minutos." },
+  { n: "3", title: "Aparta con el 50%", desc: "Reserva tu fecha con anticipo por transferencia, efectivo o tarjeta. El saldo se liquida el día del evento." },
+  { n: "4", title: "Disfruta la fiesta", desc: "Llegamos puntuales, instalamos, supervisamos la seguridad y recogemos al terminar." },
+];
+
+// ── FAQ específicas de fiestas infantiles ──
+const faqs = [
+  { question: "¿Cuánto cuesta rentar un inflable para una fiesta infantil?", answer: "Desde $800 MXN por evento (hasta 8 horas) para el Mini Castillo de bebés. Los brincolines medianos para niños de 4 a 10 años —Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos— cuestan $1,200 MXN. El Barco Pirata con tobogán cuesta $2,500 MXN y el Circuito Extremo $3,000 MXN. Todos los precios incluyen entrega, instalación, sanitización, seguro y recolección." },
+  { question: "¿Qué inflable es mejor según la edad de los niños?", answer: "Para 1-4 años, el Mini Castillo (paredes suaves, altura baja, apto para interiores). Para 4-10 años, cualquier mediano: Dragones Rojos, Castillo de Princesas, Mini Jungla o Gusanitos. Para fiestas numerosas de 3-12 años, el Barco Pirata con tobogán. Para 6+ años, adolescentes y kermeses, el Circuito Extremo de obstáculos." },
+  { question: "¿Los inflables están limpios y son seguros para los niños?", answer: "Sí. Cada inflable se limpia y desinfecta con protocolo de sanitización certificado antes de cada evento, está fabricado con materiales de grado comercial, se instala con anclajes verificados y cuenta con seguro de responsabilidad civil incluido en el precio." },
+  { question: "¿Qué pasa si llueve el día de la fiesta infantil?", answer: "Reprogramamos tu evento sin costo adicional en la fecha disponible que prefieras. No pierdes tu anticipo ni pagas cargos extra por mover la fecha a causa del clima." },
+  { question: "¿Puedo poner el inflable dentro de un salón o departamento?", answer: "Sí, el Mini Castillo (2×2×2 m) está diseñado para interiores y solo necesita ~3×3 m de espacio y una toma de corriente. Los medianos requieren techos de al menos 3.5 m de altura, comunes en salones de fiestas." },
+  { question: "¿Con cuánta anticipación debo reservar para un cumpleaños?", answer: "Recomendamos 1-2 semanas de anticipación, especialmente para sábados y domingos. En temporada alta (diciembre, fin de cursos) conviene apartar antes. Si tu fecha es pronto, pregunta: a veces hay disponibilidad de último momento." },
+  { question: "¿Entregan inflables en Ecatepec, Naucalpan y otros municipios del Edomex?", answer: "Sí. Entregamos sin costo en los principales municipios del Estado de México: Ecatepec, Naucalpan, Tlalnepantla, Nezahualcóyotl, Huixquilucan, Atizapán, Cuautitlán Izcalli, Coacalco, Tecámac y zona de Toluca, además de las 16 alcaldías de CDMX." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Fiestas Infantiles" },
+  ]}
+  faqItems={faqs}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Fiestas Infantiles"}]} />
+  </Fragment>
+
+  <!-- HERO 2 columnas -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">+20 años haciendo fiestas infantiles</span>
+          <h1 class="hero__title">Renta de <span class="highlight">Inflables</span> para <span class="highlight">Fiestas Infantiles</span></h1>
+          <p class="hero__desc">Brincolines y castillos inflables para cumpleaños en CDMX y Estado de México, con entrega e instalación incluidas. Sanitización certificada, seguro de responsabilidad civil y precios desde $800 MXN.</p>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">La renta de inflables para fiestas infantiles es nuestra especialidad desde hace más de dos décadas. En <strong>BRINCOLINS</strong> tenemos un modelo para cada edad: el <strong>Mini Castillo para bebés de 1 a 4 años</strong>, castillos temáticos de <strong>princesas, dragones y jungla para niños de 4 a 10</strong>, el <strong>Barco Pirata con tobogán</strong> para fiestas grandes y el <strong>circuito Extremo</strong> para adolescentes y kermeses escolares.</p>
+          <p class="hero__copy-text">Cada renta incluye <strong>entrega a domicilio, instalación profesional, sanitización certificada, seguro de responsabilidad civil y recolección</strong> en las 16 alcaldías de CDMX y municipios del Estado de México como Ecatepec, Naucalpan, Tlalnepantla, Nezahualcóyotl y Toluca. Cotiza por WhatsApp y recibe respuesta en minutos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <QuickNav />
+
+  <!-- INFLABLES POR EDAD -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="Por edad"
+        title="Inflables para Fiestas Infantiles según la Edad de los Niños"
+        subtitle="El modelo correcto depende de la edad, el espacio y el número de invitados."
+        copy1="Elegir el inflable por edad es la decisión más importante para que la fiesta sea segura y divertida. Un brincolín para bebés no funciona con niños de 10 años, y un circuito de obstáculos queda grande para un primer cumpleaños."
+        copy2="Esta guía rápida resume qué modelo conviene para cada rango de edad, con su precio orientativo. Si tienes dudas, mándanos la edad de los niños por WhatsApp y te recomendamos el ideal."
+      />
+      <div class="edad-grid">
+        {porEdad.map(e => (
+          <a href={e.href} class="edad-card">
+            <span class="edad-card__rango">{e.rango}</span>
+            <h3 class="edad-card__title">{e.titulo}</h3>
+            <p class="edad-card__modelos">{e.modelos}</p>
+            <p class="edad-card__desc">{e.desc}</p>
+            <span class="edad-card__precio">{e.precio}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CATÁLOGO DESTACADO -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="Catálogo"
+        title="Inflables para Fiestas Infantiles Más Rentados en CDMX"
+        subtitle="Todos incluyen entrega, instalación, sanitización y seguro."
+        copy1="Estos son los modelos que más rentan las familias de CDMX y Estado de México para cumpleaños infantiles. Cada uno está fabricado con materiales de grado comercial y pasa por sanitización certificada antes de tu evento."
+        copy2="Toca cualquier modelo para ver fotos, dimensiones, capacidad y edades recomendadas, o visita el catálogo completo con los 8 inflables disponibles."
+      />
+      <div class="grid-4">
+        {productos.map(p => <ProductCard {...p} />)}
+      </div>
+      <div class="text-center mt-3">
+        <a href="/inflables/" class="btn btn-secondary">Ver catálogo completo de inflables</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUÉ INCLUYE -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="Todo incluido"
+        title="Inflables con Entrega, Instalación, Sanitización y Seguro"
+        subtitle="Un solo precio final. Sin cargos ocultos."
+        copy1="El precio que te cotizamos es el precio que pagas. Cada renta de inflable para fiesta infantil incluye el servicio completo de principio a fin, operado por personal propio con experiencia."
+        copy2="No pagas extra por la entrega, el motor, la limpieza ni la recolección. El seguro de responsabilidad civil está incluido en todos los modelos y todas las zonas de cobertura."
+      />
+      <ul class="inc-grid" role="list">
+        {incluye.map(f => (
+          <li class="inc-card">
+            <span class="inc-card__check" aria-hidden="true">✓</span>
+            <span class="inc-card__text">
+              <span class="inc-card__title">{f.title}</span>
+              <span class="inc-card__desc">{f.desc}</span>
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- ZONAS DE COBERTURA -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="Cobertura"
+        title="Renta de Inflables para Fiestas Infantiles en CDMX y Estado de México"
+        subtitle="Entrega sin costo en toda la Zona Metropolitana del Valle de México."
+        copy1="Llevamos inflables a fiestas infantiles en las 16 alcaldías de la Ciudad de México y en los principales municipios del Estado de México. La entrega, instalación y recolección están incluidas en el precio dentro de nuestra zona de cobertura."
+        copy2="¿Tu zona no aparece en la lista? Escríbenos por WhatsApp: es muy probable que también lleguemos, y te confirmamos el costo de traslado al momento."
+      />
+      <div class="zonas-cols">
+        <div class="zonas-col">
+          <h3 class="zonas-col__title">Alcaldías CDMX</h3>
+          <ul class="zonas-list" role="list">
+            {zonasCdmx.map(z => <li><a href={z.href} class="zonas-link">{z.name}</a></li>)}
+          </ul>
+        </div>
+        <div class="zonas-col">
+          <h3 class="zonas-col__title">Municipios Estado de México</h3>
+          <ul class="zonas-list" role="list">
+            {zonasEdomex.map(z => <li><a href={z.href} class="zonas-link">{z.name}</a></li>)}
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <a href="/cobertura/" class="btn btn-secondary">Ver todas las zonas de cobertura</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO DE COTIZACIÓN -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="Cómo funciona"
+        title="Cómo Cotizar tu Inflable para Fiesta Infantil en 4 Pasos"
+        subtitle="De la cotización a la fiesta en menos de 5 minutos de tu tiempo."
+        copy1="Cotizar la renta de un inflable con BRINCOLINS es inmediato: no necesitas llenar formularios largos ni esperar días por una respuesta. Todo se resuelve por WhatsApp con una persona real."
+        copy2="Una vez apartada tu fecha, nosotros nos encargamos de todo el día del evento: llegada puntual, instalación segura y recolección al finalizar."
+      />
+      <div class="paso-grid">
+        {proceso.map(p => (
+          <div class="paso-card">
+            <span class="paso-card__num">{p.n}</span>
+            <h3 class="paso-card__title">{p.title}</h3>
+            <p class="paso-card__desc">{p.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="Preguntas frecuentes"
+        title="Preguntas Frecuentes sobre Inflables para Fiestas Infantiles"
+        subtitle="Precios, edades, lluvia, espacio y reservas."
+        copy1="Estas son las dudas que más nos preguntan los papás antes de rentar un inflable para un cumpleaños infantil. Si tu pregunta no aparece, consulta la página completa de preguntas frecuentes o escríbenos por WhatsApp."
+        copy2="Con más de 500 eventos atendidos al año, hemos visto de todo: fiestas en azoteas, salones, jardines y calles cerradas. Sea cual sea tu caso, te orientamos sin compromiso."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+      <div class="text-center mt-3">
+        <a href="/preguntas-frecuentes/" class="btn btn-secondary">Ver todas las preguntas frecuentes</a>
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="Haz inolvidable la fiesta de tu peque"
+    subtitle="Cotiza tu inflable para fiesta infantil hoy. Respuesta en minutos por WhatsApp."
+    btnText="Cotizar gratis por WhatsApp"
+    btnHref="/cotizar/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="vibrant"
+  />
+</PageLayout>
+
+<style>
+  /* ── Tarjetas por edad (módulos homologados, sin zig-zag) ── */
+  .edad-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  .edad-card {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    padding: 1.4rem 1.3rem;
+    text-decoration: none;
+    transition: box-shadow .2s ease, transform .2s ease;
+  }
+  .edad-card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
+  .edad-card__rango {
+    align-self: flex-start;
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: .78rem;
+    color: var(--c-primary);
+    background: rgba(255,61,0,.1);
+    border-radius: 999px;
+    padding: .25rem .7rem;
+  }
+  .edad-card__title { font-family: var(--font-head); font-weight: 800; font-size: 1.05rem; color: var(--c-text); margin: 0; }
+  .edad-card__modelos { font-size: .82rem; font-weight: 700; color: var(--c-secondary); margin: 0; }
+  .edad-card__desc { font-size: .85rem; color: var(--c-text-muted); line-height: 1.55; margin: 0; flex: 1; }
+  .edad-card__precio { font-family: var(--font-head); font-weight: 900; font-size: 1rem; color: var(--c-primary); }
+
+  /* ── Todo incluido ── */
+  .inc-grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+  .inc-card {
+    display: flex;
+    align-items: flex-start;
+    gap: .8rem;
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    padding: 1.1rem 1.25rem;
+  }
+  .inc-card__check {
+    flex-shrink: 0;
+    width: 2.3rem;
+    height: 2.3rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: rgba(255,61,0,.1);
+    color: var(--c-primary);
+    font-weight: 900;
+    font-size: 1.1rem;
+  }
+  .inc-card__text { display: flex; flex-direction: column; gap: .15rem; min-width: 0; }
+  .inc-card__title { font-family: var(--font-head); font-weight: 700; font-size: .95rem; color: var(--c-text); line-height: 1.25; }
+  .inc-card__desc { font-size: .82rem; color: var(--c-text-muted); line-height: 1.45; }
+
+  /* ── Zonas ── */
+  .zonas-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+  .zonas-col {
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    padding: 1.5rem;
+  }
+  .zonas-col__title { font-family: var(--font-head); font-weight: 800; font-size: 1.05rem; color: var(--c-text); margin: 0 0 1rem; }
+  .zonas-list { list-style: none; display: grid; grid-template-columns: repeat(2, 1fr); gap: .5rem; padding: 0; margin: 0; }
+  .zonas-link { font-size: .9rem; color: var(--c-primary); font-weight: 600; text-decoration: none; }
+  .zonas-link:hover { text-decoration: underline; }
+
+  /* ── Pasos ── */
+  .paso-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+  .paso-card {
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    padding: 1.4rem 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  .paso-card__num {
+    width: 2.2rem;
+    height: 2.2rem;
+    display: grid;
+    place-items: center;
+    background: var(--c-primary);
+    color: #fff;
+    font-family: var(--font-head);
+    font-weight: 900;
+    font-size: 1.05rem;
+    border-radius: 50%;
+  }
+  .paso-card__title { font-family: var(--font-head); font-weight: 800; font-size: 1rem; color: var(--c-text); margin: 0; }
+  .paso-card__desc { font-size: .85rem; color: var(--c-text-muted); line-height: 1.55; margin: 0; }
+
+  /* ── Responsive ── */
+  @media (max-width: 1024px) {
+    .edad-grid, .paso-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 900px) {
+    .inc-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 640px) {
+    .edad-grid, .paso-grid, .zonas-cols { grid-template-columns: 1fr; }
+    .inc-grid { grid-template-columns: 1fr; }
+    .zonas-list { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>

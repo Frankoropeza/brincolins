@@ -17,6 +17,8 @@ export default defineConfig({
       priority: 0.7,
       customPages: [],
       serialize(item) {
+        // lastmod en cada build para señal de frescura
+        item.lastmod = new Date().toISOString();
         // Homepage — máxima prioridad
         if (item.url === 'https://brincolins.com/') {
           return { ...item, priority: 1.0, changefreq: 'daily' };

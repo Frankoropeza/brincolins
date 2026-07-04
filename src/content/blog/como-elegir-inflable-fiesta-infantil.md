@@ -21,6 +21,19 @@ tags:
   - "renta inflables CDMX"
   - "como elegir inflable fiesta infantil"
   - "fiestas infantiles"
+howto:
+  name: "Cómo elegir el inflable correcto para tu fiesta infantil"
+  steps:
+    - name: "Define la edad de los invitados"
+      text: "Para 1-4 años elige un inflable chico como el Mini Castillo ($800 MXN). Para 4-10 años, un mediano como Dragones Rojos o Castillo de Princesas ($1,200 MXN). Para 6 años en adelante y adolescentes, un grande como el Barco Pirata o el circuito Extremo."
+    - name: "Mide tu espacio disponible"
+      text: "Deja al menos 1 metro libre alrededor del inflable: el Mini Castillo requiere ~3×3 m, los medianos ~5×5 m, el Barco Pirata ~8×6 m y el Extremo al menos 14×5 m."
+    - name: "Verifica la conexión eléctrica"
+      text: "El motor inflador necesita una toma de corriente doméstica a menos de 30 metros. BRINCOLINS incluye la extensión eléctrica."
+    - name: "Ajusta al presupuesto y tema de la fiesta"
+      text: "Elige el modelo según la temática (princesas, piratas, jungla) y tu presupuesto: los precios van de $800 a $3,000 MXN con entrega, instalación, sanitización y seguro incluidos."
+    - name: "Cotiza y reserva por WhatsApp"
+      text: "Envía fecha, zona y modelo al 55 3128 1706. Confirma disponibilidad en minutos y aparta con el 50% de anticipo."
 faqs:
   - question: "¿Qué tamaño de inflable necesito?"
     answer: "Para jardines o salones pequeños (hasta 30m²), un mini castillo 4×4m es ideal. Para espacios más grandes, un tobogán 6×4m o pista de obstáculos 8×4m son excelentes opciones. Siempre mide tu espacio antes de reservar."
