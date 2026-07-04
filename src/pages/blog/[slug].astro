@@ -45,6 +45,9 @@ const heading = d.h1 || d.title;
 const SITE = "https://brincolins.com";
 const canonical = `${SITE}/blog/${post.id}/`;
 
+// ── WordCount desde el cuerpo Markdown crudo ──
+const wordCount = post.body ? post.body.trim().split(/\s+/).length : undefined;
+
 // ── BlogPosting JSON-LD ──
 const blogSchema = {
   "@context": "https://schema.org",
@@ -58,6 +61,9 @@ const blogSchema = {
   "publisher": { "@id": `${SITE}/#org` },
   "mainEntityOfPage": { "@type": "WebPage", "@id": canonical },
   "articleSection": d.category,
+  "inLanguage": "es-MX",
+  ...(d.tags?.length ? { "keywords": d.tags.join(", ") } : {}),
+  ...(wordCount ? { "wordCount": wordCount } : {}),
 };
 ---
 
