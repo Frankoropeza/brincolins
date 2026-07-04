@@ -16,6 +16,15 @@ tags:
   - "renta inflables CDMX"
   - "inflables para adultos eventos corporativos"
   - "fiestas infantiles"
+faqs:
+  - question: "¿Qué inflables son aptos para adultos en eventos corporativos?"
+    answer: "Los más solicitados son pistas de obstáculos (soportan hasta 150 kg por sección), toboganes gigantes de 6+ metros, rings de boxeo inflable y canchas deportivas inflables. Todos tienen costuras reforzadas y certificación de carga para uso adulto intensivo."
+  - question: "¿Cuánto cuesta rentar inflables para un evento de empresa en CDMX?"
+    answer: "Para eventos de 20-40 personas: $2,000 a $3,500 MXN por día completo. Para 40-100 personas con 2-3 inflables: $5,000 a $9,000 MXN. Para 100+ personas con 4 inflables o más: desde $10,000 MXN. Generamos factura fiscal sin costo adicional."
+  - question: "¿Emiten factura para eventos corporativos?"
+    answer: "Sí, en BRINCOLINS generamos factura fiscal sin costo adicional para todos los eventos corporativos. El gasto puede registrarse como evento de integración de personal. Solicítala al cotizar."
+  - question: "¿Con cuánta anticipación debo reservar para un evento de empresa?"
+    answer: "Recomendamos reservar con mínimo 2 semanas de anticipación. En temporadas altas como fin de año (noviembre-diciembre) o verano (julio-agosto), lo ideal es hacerlo con 3-4 semanas. Escríbenos por WhatsApp con tu fecha y verificamos disponibilidad al momento."
 ---
 
 ## ¿Por qué usar inflables en eventos corporativos?

@@ -19,6 +19,15 @@ tags:
   - "renta inflables CDMX"
   - "paquetes completos fiesta inflable cdmx"
   - "fiestas infantiles"
+faqs:
+  - question: "¿Qué incluye el paquete básico de fiesta con inflable?"
+    answer: "El paquete básico incluye el inflable elegido de nuestro catálogo, entrega, instalación y retiro sin costo, motor soplador con extensiones, uso por 6-8 horas y seguro de responsabilidad civil. Ideal para fiestas de 15-30 invitados."
+  - question: "¿Cuánto ahorro con un paquete completo vs contratar todo por separado?"
+    answer: "Los paquetes completos representan un ahorro del 15 al 25% respecto a contratar cada servicio por separado. Para una fiesta de 40 personas con inflable, mobiliario y toldo, el ahorro puede ser de $500 a $1,500 MXN dependiendo de los servicios incluidos."
+  - question: "¿Puedo personalizar el paquete según mis necesidades?"
+    answer: "Sí. En BRINCOLINS no te obligamos a contratar servicios que no necesitas. Cuéntanos el número de invitados, tipo de espacio y qué servicios requieres, y armamos un paquete a tu medida. Escríbenos por WhatsApp para recibir tu cotización en minutos."
+  - question: "¿Todos los paquetes incluyen seguro de responsabilidad civil?"
+    answer: "Sí, absolutamente todos nuestros paquetes incluyen seguro de responsabilidad civil vigente. Es un requisito no negociable en BRINCOLINS. Si un proveedor no puede mostrarte el comprobante, busca otra empresa."
 ---
 
 ## ¿Qué es un paquete completo de fiesta?

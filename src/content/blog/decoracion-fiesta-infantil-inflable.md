@@ -21,6 +21,15 @@ tags:
   - "renta inflables CDMX"
   - "decoracion fiesta infantil inflable"
   - "fiestas infantiles"
+faqs:
+  - question: "¿Cómo elijo la decoración para que combine con el inflable?"
+    answer: "Parte del color principal del inflable y úsalo como base de toda la paleta. Si rentaste un castillo de princesas en tonos rosa y morado, esos serán los colores de manteles, globos y vajilla. Al cotizar por WhatsApp te compartimos recomendaciones de paleta para cada modelo."
+  - question: "¿Cuánto cuesta decorar una fiesta infantil con inflable en CDMX?"
+    answer: "Con $1,000 a $1,500 MXN puedes lograr una decoración DIY espectacular: arco de globos ($200-350 MXN), mantelería y vajilla temática ($300-500 MXN) y detalles decorativos adicionales ($200-400 MXN). Un decorador profesional puede cobrar entre $2,000 y $5,000 MXN por todo el montaje."
+  - question: "¿Qué zonas necesito definir en la fiesta para que fluya bien?"
+    answer: "Una fiesta bien organizada tiene al menos 4 zonas: zona de juego con el inflable, zona de alimentos separada, zona de descanso para adultos con línea de vista al inflable, y zona de fotos. Esta separación evita el caos y facilita la supervisión de los niños."
+  - question: "¿Los inflables se pueden instalar en salones cerrados?"
+    answer: "Sí, siempre que el techo tenga mínimo 4 metros de altura libre y haya espacio suficiente alrededor. Contáctanos con las medidas de tu salón y te confirmamos qué modelos aplican para instalación en interior sin costo de asesoría."
 ---
 
 ## El inflable como centro del diseño

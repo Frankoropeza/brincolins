@@ -93,4 +93,4 @@ Si ocurre un accidente con el inflable durante la fiesta:
 
 ---
 
-**¿Buscas el inflable perfecto para tu fiesta?** Tenemos opciones para todos los eventos: el [Mini Castillo](/inflables/mini-castillo/) ideal para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas y el [Circuito Extremo](/inflables/extremo/) para niños aventureros. [Ver catálogo completo →](/inflables/)
+**¿Buscas el inflable perfecto para tu fiesta?** Tenemos opciones para todos los eventos: el [Mini Castillo](/inflables/mini-castillo/) para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas y el [Circuito Extremo](/inflables/extremo/) para niños aventureros. [Solicita tu cotización gratuita →](/cotizar/)

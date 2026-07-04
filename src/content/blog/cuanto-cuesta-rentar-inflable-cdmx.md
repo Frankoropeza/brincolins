@@ -102,3 +102,5 @@ La compra tiene sentido solo si eres organizador de eventos o tienes más de 10 
 - **Evita quincenas y puentes:** Si tu evento puede ser entre semana, los precios bajan considerablemente.
 - **Pide combo:** Algunos proveedores hacen descuento si rentas 2 o más inflables para un mismo evento.
 - **Compara 3 cotizaciones:** Nunca contrates el primer proveedor sin comparar. Precio, inclusiones y reseñas.
+
+¿Listo para reservar? En BRINCOLINS el precio que cotizamos es el precio final, sin sorpresas. [Pide tu cotización gratis →](/cotizar/)
