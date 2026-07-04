@@ -35,6 +35,8 @@ nav:
     children:
       - label: "Renta de Inflables"
         href: "/servicios/renta-de-inflables/"
+      - label: "Fiestas Infantiles"
+        href: "/fiestas-infantiles/"
       - label: "Paquetes de Fiesta"
         href: "/servicios/paquetes-de-fiesta/"
       - label: "Mobiliario para Fiestas"

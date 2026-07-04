@@ -12,12 +12,13 @@ interface Props { links?: Link[]; }
 const current = Astro.url.pathname;
 
 const MAIN: Link[] = [
-  { label: "Inflables",  href: "/inflables/",  color: "#FF1F8E" },
-  { label: "Servicios",  href: "/servicios/",  color: "#FF8C00" },
-  { label: "Precios",    href: "/precios/",    color: "#5C35B1" },
-  { label: "Cobertura",  href: "/cobertura/",  color: "#D32F2F" },
-  { label: "Blog",       href: "/blog/",       color: "#00ACC1" },
-  { label: "Nosotros",   href: "/nosotros/",   color: "#2E7D32" },
+  { label: "Inflables",          href: "/inflables/",            color: "#FF1F8E" },
+  { label: "Fiestas Infantiles", href: "/fiestas-infantiles/",   color: "#E91E8C" },
+  { label: "Servicios",          href: "/servicios/",            color: "#FF8C00" },
+  { label: "Precios",            href: "/precios/",              color: "#5C35B1" },
+  { label: "Cobertura",          href: "/cobertura/",            color: "#D32F2F" },
+  { label: "Blog",               href: "/blog/",                 color: "#00ACC1" },
+  { label: "FAQ",                href: "/preguntas-frecuentes/", color: "#2E7D32" },
 ];
 
 const SERVICIOS: Link[] = [

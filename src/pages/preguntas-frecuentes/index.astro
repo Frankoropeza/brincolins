@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import WaBubble from "@/components/WaBubble.astro";
+import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import FaqItem from "@/components/FaqItem.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
@@ -9,22 +10,40 @@ import SectionHeader from "@/components/SectionHeader.astro";
 const title = "Preguntas Frecuentes — Renta de Inflables CDMX | BRINCOLINS";
 const description = "Resolvemos todas tus dudas sobre renta de inflables en CDMX y Edomex: qué pasa si llueve, tiempo de instalación, espacio mínimo, cancelaciones, anticipo, seguridad y sanitización.";
 
+// ── QuickNav contextual (anclas a categorías + enlaces clave) ──
+const quickLinks = [
+  { label: "Precios",    href: "#precios",              color: "#FF1F8E" },
+  { label: "El evento",  href: "#evento",               color: "#FF8C00" },
+  { label: "Espacio",    href: "#espacio",              color: "#5C35B1" },
+  { label: "Seguridad",  href: "#seguridad",            color: "#D32F2F" },
+  { label: "Inflables",  href: "/inflables/",           color: "#00ACC1" },
+  { label: "Cotizar",    href: "/cotizar/",             color: "#25D366" },
+];
+
 // ── FAQ por categorías ──
 const categorias = [
   {
+    id: "precios",
     badge: "Precios y reservas",
     titulo: "Precios, Anticipo y Reservas",
+    subtitle: "Cuánto cuesta, cómo apartar tu fecha y qué pasa si cancelas.",
+    copy1: "La renta de un inflable en CDMX cuesta desde $800 MXN por evento completo, con todo incluido. Aquí resolvemos las dudas sobre precios por modelo, formas de pago, anticipo y las políticas de cancelación y reprogramación.",
+    copy2: "Si prefieres ver los precios de cada modelo con fotos y dimensiones, visita la página de precios o el catálogo de inflables. Para una cotización exacta según tu zona y fecha, escríbenos por WhatsApp.",
     faqs: [
       { question: "¿Cuánto cuesta rentar un inflable en CDMX?", answer: "Desde $800 MXN por evento (hasta 8 horas): Mini Castillo $800, inflables medianos (Dragones Rojos, Castillo de Princesas, Mini Jungla, Gusanitos) $1,200, Barco Pirata $2,500, Castillo Blanco $2,800 y Circuito Extremo $3,000. El precio incluye entrega, instalación, motor, sanitización, seguro de responsabilidad civil y recolección: es el precio final, sin cargos ocultos." },
       { question: "¿Cómo aparto mi fecha y cuánto es el anticipo?", answer: "Escríbenos por WhatsApp al 55 3128 1706 con el modelo, la fecha y la zona de entrega. Confirmamos disponibilidad en minutos. Para apartar la fecha se requiere un anticipo del 50% por transferencia bancaria, efectivo o tarjeta. El saldo se liquida el día del evento, antes de la instalación." },
       { question: "¿Cuál es la política de cancelación?", answer: "Si cancelas con más de 48 horas de anticipación, devolvemos el 100% del anticipo. Con menos de 48 horas, puedes reprogramar tu evento a otra fecha disponible sin costo adicional en lugar de perder el anticipo." },
       { question: "¿Con cuánta anticipación debo reservar?", answer: "Recomendamos reservar con al menos 5 días de anticipación, y 2 semanas para fines de semana. En temporada alta (diciembre, semana santa, fin de cursos) los sábados y domingos se agotan rápido. Si tu fecha es pronto, pregunta de todas formas: a veces hay disponibilidad de último momento." },
-      { question: "¿La renta de varios inflables tiene descuento?", answer: "Sí, para kermeses, festivales escolares y eventos grandes que requieren varios inflables preparamos paquetes con precio preferencial. Cotiza por WhatsApp indicando cuántos inflables necesitas y el tipo de evento." },
+      { question: "¿La renta de varios inflables tiene descuento?", answer: "Sí, para kermeses, festivales escolares y eventos grandes que requieren varios inflables preparamos paquetes con precio preferencial. Cotiza por WhatsApp indicando cuántos inflables necesitas y el tipo de evento, o visita la página de inflables para eventos." },
     ],
   },
   {
+    id: "evento",
     badge: "El día del evento",
     titulo: "Entrega, Instalación y Horarios",
+    subtitle: "Qué pasa si llueve, cuánto tarda la instalación y cuánto dura la renta.",
+    copy1: "El día de tu evento nuestro equipo llega puntual, instala el inflable en 15-30 minutos según el modelo y lo recoge al finalizar. Aquí respondemos las dudas sobre lluvia, horarios, duración de la renta y qué necesitas tener listo.",
+    copy2: "La política de lluvia es simple: reprogramación gratuita sin perder tu anticipo. Es una de las razones por las que más de 500 familias al año confían en BRINCOLINS para sus fiestas infantiles y eventos.",
     faqs: [
       { question: "¿Cuánto tiempo tarda la instalación?", answer: "Entre 15 y 30 minutos según el modelo: el Mini Castillo se instala en 15 minutos, los medianos en 20 y los grandes (Barco Pirata, Castillo Blanco, Extremo) en 30. Llegamos con anticipación suficiente para que el inflable esté listo antes de que empiece tu fiesta." },
       { question: "¿Qué pasa si llueve el día de mi evento?", answer: "Reprogramamos tu evento sin costo adicional en la fecha disponible que prefieras. No pierdes tu anticipo. Si la lluvia empieza durante el evento, el operador desinfla el equipo por seguridad y puede reactivarlo cuando pase; los inflables no deben usarse mojados." },
@@ -34,18 +53,26 @@ const categorias = [
     ],
   },
   {
+    id: "espacio",
     badge: "Espacio y logística",
     titulo: "Espacio Mínimo y Tipos de Superficie",
+    subtitle: "Cuántos metros necesitas y dónde se puede instalar un inflable.",
+    copy1: "La duda más común antes de rentar: ¿cabe el inflable en mi espacio? La regla general es dejar 1 metro libre alrededor del equipo. El Mini Castillo funciona hasta en departamentos; el Circuito Extremo necesita una explanada o patio escolar.",
+    copy2: "Instalamos sobre pasto, concreto, adoquín y pisos de salón, en jardines, azoteas, patios y calles cerradas. Si no estás seguro de tu espacio, mándanos una foto por WhatsApp: te confirmamos viabilidad al instante y sin compromiso.",
     faqs: [
       { question: "¿Cuánto espacio necesito para instalar un inflable?", answer: "Depende del modelo: el Mini Castillo necesita ~3×3 m (funciona en interiores), los medianos ~5×5 m, el Barco Pirata ~8×6 m y el Circuito Extremo al menos 14×5 m. Considera 1 metro libre alrededor y, para modelos con torres, altura libre suficiente si es bajo techo. Si tienes dudas, mándanos una foto del espacio por WhatsApp y te orientamos al instante." },
       { question: "¿Se puede instalar en cualquier superficie?", answer: "Instalamos sobre pasto, tierra firme, concreto, adoquín y pisos de salón. En superficies duras usamos anclajes con pesos; en pasto y tierra, estacas. No instalamos sobre grava suelta, pendientes pronunciadas ni superficies con vidrios u objetos punzantes." },
       { question: "¿Pueden instalar en azoteas, patios interiores o calles cerradas?", answer: "Sí, siempre que el espacio cumpla las medidas del modelo y haya acceso para el equipo. Para calles cerradas te recomendamos tramitar el permiso vecinal correspondiente. Comparte fotos del lugar por WhatsApp y confirmamos viabilidad de inmediato." },
-      { question: "¿Hasta dónde llegan sin costo de envío?", answer: "La entrega es gratuita en las 16 alcaldías de CDMX y los principales municipios del Estado de México: Ecatepec, Naucalpan, Tlalnepantla, Nezahualcóyotl, Huixquilucan, Atizapán, Cuautitlán Izcalli, Coacalco, Tecámac y más. Para zonas más alejadas (por ejemplo Toluca o Texcoco) puede aplicar un cargo de traslado que te confirmamos al cotizar." },
+      { question: "¿Hasta dónde llegan sin costo de envío?", answer: "La entrega es gratuita en la mayoría de las alcaldías céntricas de CDMX: Benito Juárez, Cuauhtémoc, Miguel Hidalgo, Coyoacán, Álvaro Obregón, Tlalpan y más. Para municipios del Estado de México (Ecatepec, Naucalpan, Tlalnepantla, Nezahualcóyotl, Toluca) aplica un cargo de envío según la distancia que te confirmamos al cotizar. Consulta tu zona en la página de cobertura." },
     ],
   },
   {
+    id: "seguridad",
     badge: "Seguridad",
     titulo: "Seguridad, Limpieza y Seguro",
+    subtitle: "Sanitización certificada, seguro de responsabilidad civil y reglas de uso.",
+    copy1: "La seguridad es el diferencial más importante entre una empresa establecida y un proveedor informal. Cada inflable BRINCOLINS pasa por sanitización certificada, se instala con anclajes verificados y está protegido por una póliza de responsabilidad civil.",
+    copy2: "Para kermeses y eventos escolares incluimos operador certificado que gestiona filas, turnos por edad y seguridad durante todo el evento. Lee también nuestra guía de seguridad en inflables para saber qué revisar en cualquier proveedor.",
     faqs: [
       { question: "¿Los inflables son seguros para los niños?", answer: "Sí. Están fabricados con materiales de grado comercial, tienen mallas de seguridad laterales y se instalan con anclajes verificados por nuestro equipo. Cada renta incluye seguro de responsabilidad civil. Recomendamos siempre la supervisión de un adulto y separar turnos por edades." },
       { question: "¿Cómo limpian y desinfectan los inflables?", answer: "Cada inflable pasa por un protocolo de sanitización certificado antes de cada evento: limpieza profunda, desinfección con productos seguros para niños y revisión de costuras, mallas y anclajes. El inflable llega limpio y revisado a tu fiesta." },
@@ -54,6 +81,14 @@ const categorias = [
       { question: "¿Cuántos niños pueden usar el inflable a la vez?", answer: "Depende del modelo: el Mini Castillo admite 3-4 niños pequeños, los medianos 5-7 niños, el Barco Pirata 10-15 y el Circuito Extremo 2-4 personas simultáneas en formato de carrera. Respetar la capacidad es clave para la seguridad; el rango exacto viene en la página de cada inflable." },
     ],
   },
+];
+
+// ── Recursos relacionados (interlinking homologado) ──
+const recursos = [
+  { href: "/fiestas-infantiles/", img: "/img/inflables/castillo-princesas.avif", title: "Inflables para fiestas infantiles", desc: "La guía completa por edades: modelos, precios, zonas de cobertura y proceso de cotización." },
+  { href: "/precios/", img: "/img/inflables/dragones-rojos.avif", title: "Lista de precios 2026", desc: "Todos los modelos con precio, dimensiones, capacidad y qué incluye cada renta." },
+  { href: "/cobertura/", img: "/img/inflables/barco-pirata.avif", title: "Zonas de cobertura", desc: "Las 16 alcaldías de CDMX y municipios del Edomex con costo de envío por zona." },
+  { href: "/blog/seguridad-inflables-fiestas-infantiles/", img: "/img/blog/blog-seguridad-inflables-fiestas-infantiles.avif", title: "Guía de seguridad en inflables", desc: "Qué revisar en un inflable, reglas de uso por edad y cómo identificar un proveedor seguro." },
 ];
 
 // Todas las FAQs planas para el schema FAQPage
@@ -74,29 +109,43 @@ const allFaqs = categorias.flatMap(c => c.faqs);
     <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Preguntas Frecuentes"}]} />
   </Fragment>
 
-  <!-- HERO 2 columnas -->
+  <!-- ═══════════════════════════════════════════════════════════
+       HERO — 2 columnas homologado
+  ═══════════════════════════════════════════════════════════ -->
   <section class="hero">
     <div class="container">
       <div class="hero__grid">
         <div>
-          <span class="hero__badge">Centro de ayuda</span>
+          <span class="hero__badge">Centro de ayuda · Respuestas de nuestro equipo real</span>
           <h1 class="hero__title">Preguntas Frecuentes sobre <span class="highlight">Renta de Inflables</span></h1>
           <p class="hero__desc">Todo lo que necesitas saber antes de rentar un inflable en CDMX o Estado de México: precios, lluvia, instalación, espacio, cancelaciones y seguridad.</p>
+          <div class="hero__ctas">
+            <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar por WhatsApp</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+          </div>
         </div>
         <div class="hero__copy">
-          <p class="hero__copy-text">Reunimos en una sola página las respuestas a las dudas que recibimos todos los días: <strong>qué pasa si llueve, cuánto tarda la instalación, cuánto espacio se necesita, cómo funciona el anticipo y qué cubre el seguro</strong>. Son las mismas respuestas que te daría nuestro equipo por WhatsApp.</p>
-          <p class="hero__copy-text">Si tu duda no aparece aquí, escríbenos al <strong>55 3128 1706</strong>. Una persona real —no un bot— te responde en minutos, de lunes a viernes de 9:00 a 19:00 y fines de semana de 8:00 a 20:00.</p>
+          <p class="hero__copy-text">Reunimos en una sola página las respuestas a las dudas que recibimos todos los días: <strong>qué pasa si llueve, cuánto tarda la instalación, cuánto espacio se necesita, cómo funciona el anticipo y qué cubre el seguro de responsabilidad civil</strong>. Son las mismas respuestas que te daría nuestro equipo por WhatsApp, organizadas en cuatro categorías para que encuentres lo tuyo en segundos.</p>
+          <p class="hero__copy-text">Si tu duda no aparece aquí, escríbenos al <strong>55 3128 1706</strong>. Una persona real —no un bot— te responde en minutos, de lunes a viernes de 9:00 a 19:00 y fines de semana de 8:00 a 20:00. Con más de <strong>20 años de experiencia y 500 eventos al año</strong>, seguro ya resolvimos un caso como el tuyo.</p>
         </div>
       </div>
     </div>
   </section>
 
+  <QuickNav links={quickLinks} />
+
+  <!-- ═══════════════════════════════════════════════════════════
+       CATEGORÍAS DE FAQ — SectionHeader + FaqItem homologados
+  ═══════════════════════════════════════════════════════════ -->
   {categorias.map((cat, i) => (
-    <section class={`section${i % 2 === 1 ? " section--alt" : ""}`}>
+    <section class={`section${i % 2 === 1 ? " section--alt" : ""}`} id={cat.id}>
       <div class="container">
         <SectionHeader
           badge={cat.badge}
           title={cat.titulo}
+          subtitle={cat.subtitle}
+          copy1={cat.copy1}
+          copy2={cat.copy2}
         />
         <div style="max-width:800px; margin:0 auto;">
           {cat.faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
@@ -104,6 +153,35 @@ const allFaqs = categorias.flatMap(c => c.faqs);
       </div>
     </section>
   ))}
+
+  <!-- ═══════════════════════════════════════════════════════════
+       RECURSOS RELACIONADOS — why-card homologado (interlinking)
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="Sigue explorando"
+        title="Recursos para Planear tu Fiesta con Inflable"
+        subtitle="Precios, cobertura, guías de seguridad y la página completa de fiestas infantiles."
+        copy1="Ya resolviste tus dudas: estos recursos te ayudan a dar el siguiente paso. Consulta los precios de cada modelo, verifica que cubrimos tu zona y revisa la guía completa de inflables para fiestas infantiles organizada por edades."
+        copy2="Y si prefieres saltarte la lectura, cotiza directo por WhatsApp: dinos fecha, zona y edad de los niños, y te recomendamos el inflable ideal con precio exacto en minutos."
+      />
+      <div class="grid-4">
+        {recursos.map(r => (
+          <a href={r.href} class="why-card recurso-card">
+            <div class="why-card__img">
+              <img src={r.img} alt={r.title} width="400" height="225" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <div class="why-card__body">
+              <h3 class="why-card__title">{r.title}</h3>
+              <p class="why-card__desc">{r.desc}</p>
+              <span class="recurso-link">Ver más →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
 
   <CtaBanner
     title="¿Resolviste tus dudas? Aparta tu fecha"
@@ -117,3 +195,16 @@ const allFaqs = categorias.flatMap(c => c.faqs);
 
   <WaBubble whatsapp="5531281706" />
 </BaseLayout>
+
+<style>
+  .recurso-card { text-decoration: none; display: block; }
+  .recurso-link {
+    display: inline-block;
+    margin-top: .5rem;
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: .85rem;
+    color: var(--c-primary);
+  }
+  .recurso-card:hover .recurso-link { text-decoration: underline; }
+</style>
