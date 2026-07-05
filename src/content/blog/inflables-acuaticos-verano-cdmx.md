@@ -4,7 +4,7 @@ h1: "Inflables Acuáticos para el Verano en CDMX: Todo lo que Necesitas Saber"
 description: "Renta de inflables acuáticos en CDMX para fiestas de verano. Diversión refrescante para niños y adultos en cualquier jardín o espacio al aire libre."
 excerpt: "El calor de la primavera en CDMX y los inflables acuáticos son una combinación perfecta. Aquí te contamos todo sobre toboganes, albercas y parques de agua para que tu fiesta sea la más refrescante del año."
 publishDate: "2025-03-15"
-updatedDate: "2026-06-16"
+updatedDate: "2026-07-04"
 category: "Acuáticos"
 author: "Equipo BRINCOLINS"
 readTime: "6 min"
@@ -28,6 +28,10 @@ faqs:
     answer: "No es recomendable. Los inflables acuáticos generan derrames de agua que pueden dañar pisos interiores. Siempre se instalan en exterior (jardín, terraza o patio)."
   - question: "¿Qué tan diferente es el precio del acuático vs el normal?"
     answer: "Los inflables acuáticos cuestan entre 20-40% más que su equivalente seco. El tobogán estándar parte de $1,200 MXN vs $950 del castillo equivalente. La diferencia refleja el equipo adicional (bomba de agua, conexiones)."
+  - question: "¿A partir de qué edad pueden usar los inflables acuáticos?"
+    answer: "Desde los 3 años con supervisión adulta cercana. Para menores de 6 años recomendamos profundidad mínima de agua (15-30 cm) y turnos separados de los niños grandes. Siempre debe haber un adulto vigilando mientras los pequeños brincan y se mojan."
+  - question: "¿Qué temperatura debe tener el agua?"
+    answer: "Lo ideal es entre 25 y 28°C. En verano en CDMX el agua se templa naturalmente con el sol en un par de horas. Si tu evento es en primavera u otoño y te preocupa el frío, inicia el llenado temprano o usa agua templada al arrancar."
 ---
 
 ## ¿Por qué los inflables acuáticos son los favoritos en primavera?
