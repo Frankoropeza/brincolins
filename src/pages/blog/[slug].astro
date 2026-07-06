@@ -51,7 +51,7 @@ const wordCount = post.body ? post.body.trim().split(/\s+/).length : undefined;
 // ── BlogPosting JSON-LD ──
 const blogSchema = {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@type": ["Article", "BlogPosting"],
   "headline": d.title,
   "description": d.description,
   "image": d.heroImage ? `${SITE}${d.heroImage}` : `${SITE}/img/og-brincolins.jpg`,

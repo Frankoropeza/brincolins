@@ -52,4 +52,5 @@ User-agent: CCBot
 Allow: /
 
 # ── Sitemap y descubrimiento ──
+Sitemap: https://brincolins.com/sitemap.xml
 Sitemap: https://brincolins.com/sitemap-index.xml
