@@ -110,11 +110,13 @@ const variantClass = `topbar--${style}`;
 )}
 
 <style>
+  /* Sin z-index: el elemento es position:static y z-index no aplica —
+     era una declaración inerte. La TopBar scrollea y el header sticky
+     (z-index 9000) pasa por encima, que es el comportamiento correcto. */
   .topbar {
     width: 100%;
     font-size: 0.8rem;
     line-height: 1;
-    z-index: 10000;
   }
 
   /* ── Variants ── */

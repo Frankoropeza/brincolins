@@ -449,12 +449,27 @@ const serviciosItems = [
 /* ══════════════════════════════════════════
    Header base
    ══════════════════════════════════════════ */
+/* Sticky: se ancla al viewport tras scrollear la TopBar.
+   Funciona porque .hdr-stack usa display:contents (global.css) y
+   <body> usa overflow-x: clip en vez de hidden. No romper ninguna
+   de las dos cosas o el header vuelve a perderse al hacer scroll. */
 .hdr {
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 9000;
   width: 100%;
   background: #fff;
   border-bottom: 3px solid #FF3D00;
+  /* Solo box-shadow: se compone en GPU, no dispara layout.
+     NO animar `height` ni `--hdr-logo-h`: el header sticky está EN el
+     flujo, así que una transición de altura refluye todo el documento
+     de abajo durante 200ms en cada cruce del umbral de scroll. El
+     cambio de tamaño del logo es instantáneo a propósito. */
+  transition: box-shadow 0.2s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hdr { transition: none; }
 }
 
 .hdr--scrolled {
@@ -1233,22 +1248,47 @@ const serviciosItems = [
   }
 }
 
+/* ── Escala del logo ──────────────────────────────────────────────
+   Cada breakpoint declara el par reposo / --scrolled.
+
+   .hdr--scrolled fija la variable SOBRE el elemento .hdr, así que
+   siempre gana a :root sin importar la media query. Por eso cada
+   breakpoint debe redeclarar su propio valor scrolled: si se omite,
+   hereda el 70px de escritorio y el header NO encoge en móvil.
+
+   Altura resultante del header = logo + 16px (padding .hdr__inner)
+   + 3px de borde:
+     ≤900px →  91px reposo /  67px scrolled
+     ≤640px →  75px reposo /  63px scrolled
+     ≤380px →  69px reposo /  59px scrolled
+   ───────────────────────────────────────────────────────────────── */
 @media (max-width: 1024px) {
   .hdr__wa-btn span { display: none; }
   .hdr__wa-btn { padding: 0.5rem; border-radius: 10px; }
-  :root { --hdr-logo-h: 90px; }
+  :root          { --hdr-logo-h: 90px; }
+  .hdr--scrolled { --hdr-logo-h: 64px; }
 }
 
 @media (max-width: 900px) {
   .hdr__nav, .hdr__wa-btn { display: none; }
   .hdr__toggle { display: flex; }
   .hdr__panel { display: flex; }
-  :root { --hdr-logo-h: 82px; }
+  :root          { --hdr-logo-h: 72px; }
+  .hdr--scrolled { --hdr-logo-h: 48px; }
+}
+
+@media (max-width: 640px) {
+  :root          { --hdr-logo-h: 56px; }
+  .hdr--scrolled { --hdr-logo-h: 44px; }
 }
 
 @media (max-width: 480px) {
-  :root { --hdr-logo-h: 70px; }
   .hdr__panel { width: 100%; }
+}
+
+@media (max-width: 380px) {
+  :root          { --hdr-logo-h: 50px; }
+  .hdr--scrolled { --hdr-logo-h: 40px; }
 }
 </style>
 

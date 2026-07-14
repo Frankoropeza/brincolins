@@ -17,11 +17,17 @@
 
 /* ──────────────────────────────────────────────────────────────────
    0. OVERFLOW PROTECTION — base del documento
+
+   NOTA (jul 2026): aquí había `html/body { overflow-x: clip !important }`
+   justificado con "Vite bundlea mobile.css antes de global.css".
+   Eso era FALSO — verificado por offset de bytes en el bundle:
+     global.css      → offset      776
+     Header scoped   → offset   52,007
+     mobile.css      → offset   60,418  (de 62,330 totales)
+   mobile.css se bundlea AL FINAL, que es justo donde debe ir.
+   La declaración de overflow-x vive ahora solo en global.css, sin
+   !important y sin duplicarse.
    ────────────────────────────────────────────────────────────────── */
-/* overflow-x: clip NO crea scroll-container → position:sticky funciona.
-   !important necesario porque Vite bundlea mobile.css antes de global.css */
-html { overflow-x: clip !important; }
-body { overflow-x: clip !important; }
 img, picture, video, svg, iframe { max-width: 100%; }
 
 
@@ -197,18 +203,29 @@ img, picture, video, svg, iframe { max-width: 100%; }
    12. FORMULARIOS — iOS no-zoom (≥16px) + touch targets ≥44px
    ────────────────────────────────────────────────────────────────── */
 @media (max-width: 640px) {
-  /* Anti-zoom iOS: cualquier input < 16px dispara zoom automático */
+  /* Anti-zoom iOS: Safari hace zoom automático en CUALQUIER input con
+     font-size < 16px al enfocarlo, y luego deja la página desencuadrada.
+
+     .pfaq-form__* es el formulario del módulo pre-footer (FaqSection.astro),
+     que PageLayout.astro inyecta en TODAS las páginas del sitio. Estaba a
+     14px y con targets de 42px: se coló porque este bloque solo enumeraba
+     las clases del form de cotización. Verificado en /cotizar/ a 375px. */
   .form-input,
   .form-select,
-  .form-textarea {
+  .form-textarea,
+  .pfaq-form__input,
+  .pfaq-form__select,
+  .pfaq-form__textarea {
     font-size: 16px !important;
     min-height: 48px;
   }
-  .form-textarea { min-height: 100px !important; }
+  .form-textarea,
+  .pfaq-form__textarea { min-height: 100px !important; }
 
   /* Quote form */
   .quote-form { padding: 1.5rem !important; }
-  .quote-form__submit {
+  .quote-form__submit,
+  .pfaq-form__submit {
     min-width: unset !important;
     width: 100% !important;
     min-height: 48px;
@@ -304,37 +321,27 @@ img, picture, video, svg, iframe { max-width: 100%; }
 
 
 /* ──────────────────────────────────────────────────────────────────
-   18. WHATSAPP BUBBLE — por encima de la barra sticky
+   18. WHATSAPP BUBBLE — único CTA flotante del sitio
+       Antes esquivaba la .sticky-cta-mobile con bottom:calc(56px+1rem).
+       Esa barra ya no existe (jul 2026) → vuelve a la esquina, con
+       safe-area para el home indicator de iOS.
    ────────────────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
-  /* La sticky-cta-mobile ocupa 56px — el bubble debe quedar arriba */
   .wa-bubble {
-    bottom: calc(56px + 1rem) !important;
-    right: 1rem !important;
+    bottom: max(1rem, env(safe-area-inset-bottom));
+    right: 1rem;
   }
   .wa-bubble__btn {
-    width: 52px !important;
-    height: 52px !important;
+    width: 52px;
+    height: 52px;
   }
-  /* Ocultar tooltip en móvil (ya se hace en global @min-width:900px) */
-  .wa-bubble__tooltip { display: none !important; }
+  /* Tooltip oculto en móvil (global.css ya lo muestra solo @min-width:900px) */
+  .wa-bubble__tooltip { display: none; }
 }
 
 
 /* ──────────────────────────────────────────────────────────────────
-   19. STICKY CTA MOBILE — safe area para notch / Dynamic Island
-   ────────────────────────────────────────────────────────────────── */
-@supports (padding: max(0px)) {
-  .sticky-cta-mobile {
-    height: auto;
-    min-height: 56px;
-    padding-bottom: max(0.4rem, env(safe-area-inset-bottom));
-  }
-}
-
-
-/* ──────────────────────────────────────────────────────────────────
-   20. SAFE-AREA iOS — notch + bottom bar + landscape
+   19. SAFE-AREA iOS — notch + landscape
    ────────────────────────────────────────────────────────────────── */
 @supports (padding: max(0px)) {
   .container {
@@ -386,7 +393,7 @@ img, picture, video, svg, iframe { max-width: 100%; }
 @media (hover: none) and (pointer: coarse) {
   a, button, .btn, .btn-primary, .btn-secondary, .btn-outline,
   .btn-wa, .btn-white, .hdr__link, .hdr__panel-link,
-  .sticky-cta__wa, .sticky-cta__cotizar {
+  .hdr__panel-sublink, .wa-bubble {
     -webkit-tap-highlight-color: rgba(255, 61, 0, 0.15);
   }
 }
