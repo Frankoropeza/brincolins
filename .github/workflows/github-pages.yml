@@ -1,3 +1,12 @@
+# Deploy único del sitio. brincolins.com lo sirve GitHub Pages; Cloudflare
+# solo actúa de proxy DNS por delante (las cabeceras de producción muestran
+# `server: cloudflare` pero `x-github-request-id` + varnish como origen).
+#
+# Antes convivía con deploy.yml (Cloudflare Pages), que publicaba a
+# brincolins.pages.dev — una segunda copia que nadie visitaba. Se retiró en
+# jul 2026, junto con deploy.yml.cfbak. El `astro check` que corría aquel
+# workflow se rescató a este: era el único gate de calidad del repo, y estaba
+# en el pipeline que NO servía producción.
 name: Deploy to GitHub Pages
 on:
   push:
@@ -18,7 +27,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm ci || npm install
+      # --include=dev explícito: si el runner trae NODE_ENV=production o
+      # npm config omit=dev, npm se salta las devDependencies en silencio y
+      # @astrojs/check no se instala. Sin él, `astro check` intentaría
+      # descargarse en cada run (lento y frágil) o directamente fallaría.
+      - run: npm ci --include=dev || npm install --include=dev
+      # Gate de tipos ANTES del build: si falla, no se publica nada.
+      # Es lo que destapó que PageLayout descartaba en silencio el JSON-LD
+      # de los salones del directorio.
+      - run: npx astro check
       - run: npm run build
       - run: touch dist/.nojekyll
       - uses: actions/upload-pages-artifact@v3
