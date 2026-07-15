@@ -140,8 +140,20 @@ const ogType = (pageType === "product") ? "og:product" : "website";
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
+  <!-- Fuente self-hosted (antes: Google Fonts render-blocking, 6 pesos,
+       2 conexiones externas). Un solo WOFF2 variable (400-900, latin, 32KB)
+       servido desde el propio dominio con cache de 1 año. -->
+  <link rel="preload" href="/fonts/outfit-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+
   <!-- Critical CSS Inline (LCP optimization) -->
   <style>
+    @font-face {
+      font-family: 'Outfit';
+      font-style: normal;
+      font-weight: 400 900;
+      font-display: swap;
+      src: url('/fonts/outfit-latin-var.woff2') format('woff2');
+    }
     :root {
       --topbar-height: 36px;
       --header-height: 64px;
@@ -188,10 +200,6 @@ const ogType = (pageType === "product") ? "og:product" : "website";
   <link rel="icon" href="/favicon.ico" sizes="any">
   <meta name="theme-color" content="#FF3D00">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-
   <!-- Structured Data -->
   <script type="application/ld+json" set:html={JSON.stringify(buildOrganizationSchema())} />
   <script type="application/ld+json" set:html={JSON.stringify(buildLocalBusinessSchema())} />
@@ -222,6 +230,22 @@ const ogType = (pageType === "product") ? "og:product" : "website";
   </script>
 </head>
 <body>
+  <!-- Sprite SVG global (jul 2026): los íconos WhatsApp (~1.1KB), check y
+       chevron se repetían inline decenas de veces por página (la home tenía
+       47KB de SVG, 90 nodos y solo 36 únicos). Cada repetición ahora es un
+       <use> de ~40 bytes. -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-wa" viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 20 20">
+      <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"/>
+    </symbol>
+    <symbol id="i-chev" viewBox="0 0 20 20">
+      <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+    </symbol>
+  </svg>
+
   <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
 
   <TopBar />
@@ -241,24 +265,7 @@ const ogType = (pageType === "product") ? "og:product" : "website";
        56px de viewport. El CTA flotante persistente es <WaBubble>, que
        inyecta PageLayout.astro. -->
 
-  <!-- FAQ accordion script -->
-  <script is:inline>
-    document.querySelectorAll('.faq__question').forEach(function(btn) {
-      btn.addEventListener('click', function() {
-        var item   = btn.closest('.faq__item');
-        var answer = item ? item.querySelector('.faq__answer') : null;
-        var icon   = btn.querySelector('.faq__icon');
-        var isOpen = answer && answer.classList.contains('faq__answer--open');
-        document.querySelectorAll('.faq__answer--open').forEach(function(a) { a.classList.remove('faq__answer--open'); });
-        document.querySelectorAll('.faq__question').forEach(function(b) { b.setAttribute('aria-expanded', 'false'); });
-        document.querySelectorAll('.faq__icon').forEach(function(i) { i.textContent = '+'; });
-        if (!isOpen && answer) {
-          answer.classList.add('faq__answer--open');
-          btn.setAttribute('aria-expanded', 'true');
-          if (icon) icon.textContent = '\u2212';
-        }
-      });
-    });
-  </script>
+  <!-- Script del acorde\u00f3n FAQ movido a FaqItem.astro (jul 2026): aqu\u00ed se
+       enviaba en TODAS las p\u00e1ginas, tuvieran FAQ o no. -->
 </body>
 </html>

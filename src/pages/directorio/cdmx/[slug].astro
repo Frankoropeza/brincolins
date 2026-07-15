@@ -16,6 +16,7 @@ import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import VenueCard from "@/components/VenueCard.astro";
 import ProductCard from "@/components/ProductCard.astro";
+import FaqItem from "@/components/FaqItem.astro";
 import { SALONES_CDMX } from "@/data/directorio";
 import { SITE_URL } from "@/data/site";
 
@@ -405,15 +406,7 @@ const mapsHref = `https://www.google.com/maps/search/${salon.gmapsQuery}`;
       />
       <div class="faq" style="max-width:800px; margin:0 auto;">
         {faqItems.map(faq => (
-          <div class="faq__item">
-            <button class="faq__question" aria-expanded="false">
-              <span>{faq.question}</span>
-              <span class="faq__icon">+</span>
-            </button>
-            <div class="faq__answer">
-              <p>{faq.answer}</p>
-            </div>
-          </div>
+          <FaqItem question={faq.question} answer={faq.answer} />
         ))}
       </div>
     </div>

@@ -1,5 +1,22 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
+import { readFileSync, readdirSync } from "node:fs";
+import { join } from "node:path";
+import matter from "gray-matter";
+
+/* lastmod REAL por post (updatedDate > publishDate). Antes se marcaba TODA
+   URL con new Date() en cada build: Google detecta lastmod inflado y aprende
+   a ignorarlo, así que la señal de frescura se perdía justo donde importa. */
+const blogLastmod = {};
+try {
+  const dir = join(process.cwd(), "src/content/blog");
+  for (const f of readdirSync(dir)) {
+    if (!f.endsWith(".md")) continue;
+    const d = matter(readFileSync(join(dir, f), "utf-8")).data;
+    const date = d.updatedDate || d.publishDate;
+    if (date) blogLastmod[f.replace(/\.md$/, "")] = new Date(date).toISOString();
+  }
+} catch { /* sin blog no hay lastmod */ }
 
 export default defineConfig({
   site: "https://brincolins.com",
@@ -24,8 +41,13 @@ export default defineConfig({
       priority: 0.7,
       customPages: [],
       serialize(item) {
-        // lastmod en cada build para señal de frescura
-        item.lastmod = new Date().toISOString();
+        // lastmod solo donde hay fecha real (posts del blog)
+        const m = item.url.match(/\/blog\/([^/]+)\/$/);
+        if (m && blogLastmod[m[1]]) {
+          item.lastmod = blogLastmod[m[1]];
+        } else {
+          delete item.lastmod;
+        }
         // Homepage — máxima prioridad
         if (item.url === 'https://brincolins.com/') {
           return { ...item, priority: 1.0, changefreq: 'daily' };

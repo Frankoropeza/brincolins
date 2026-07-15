@@ -16,3 +16,26 @@ const { question, answer } = Astro.props;
     <p>{answer}</p>
   </div>
 </div>
+
+<!-- Acordeón FAQ. Antes vivía inline en BaseLayout y se enviaba en TODAS
+     las páginas, tuvieran FAQ o no. Astro deduplica este script aunque el
+     componente se renderice N veces, y solo lo incluye en páginas que usan
+     FaqItem. -->
+<script>
+  document.querySelectorAll('.faq__question').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const item   = btn.closest('.faq__item');
+      const answer = item ? item.querySelector('.faq__answer') : null;
+      const icon   = btn.querySelector('.faq__icon');
+      const isOpen = answer && answer.classList.contains('faq__answer--open');
+      document.querySelectorAll('.faq__answer--open').forEach((a) => a.classList.remove('faq__answer--open'));
+      document.querySelectorAll('.faq__question').forEach((b) => b.setAttribute('aria-expanded', 'false'));
+      document.querySelectorAll('.faq__icon').forEach((i) => { i.textContent = '+'; });
+      if (!isOpen && answer) {
+        answer.classList.add('faq__answer--open');
+        btn.setAttribute('aria-expanded', 'true');
+        if (icon) icon.textContent = '−';
+      }
+    });
+  });
+</script>
