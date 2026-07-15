@@ -841,11 +841,34 @@
 }
 
 @media (max-width: 900px) {
-  .hdr__nav, .hdr__wa-btn { display: none; }
+  /* Header móvil minimalista (jul 2026): SOLO logo + hamburguesa.
+     El CTA "Cotizar" salía aquí apretado junto al burger; las vías de
+     conversión en móvil son el panel (CTA arriba), la WaBubble flotante
+     y la TopBar. En desktop el botón sigue visible. */
+  .hdr__nav, .hdr__wa-btn, .hdr__cta { display: none; }
   .hdr__toggle { display: flex; }
   .hdr__panel { display: flex; }
   :root          { --hdr-logo-h: 72px; }
   .hdr--scrolled { --hdr-logo-h: 48px; }
+
+  /* ── Auto-hide: el header se esconde al bajar y reaparece al subir ──
+     "Header no estático": en móvil el header sticky comía ~75px de un
+     viewport de ~660px útiles. Con auto-hide el contenido recupera esa
+     franja mientras se lee, y el menú vuelve con un gesto de scroll-up.
+     La clase .hdr--hidden la pone el script del Header (rAF, pasivo).
+     transform no refluye el documento: se compone en GPU. */
+  .hdr {
+    transition: box-shadow 0.2s ease, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
+  }
+  .hdr--hidden {
+    transform: translateY(calc(-100% - 4px)); /* -4px cubre el borde inferior */
+    box-shadow: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hdr--hidden { transition: none; }
 }
 
 @media (max-width: 640px) {
