@@ -1,18 +1,38 @@
 ---
 import BaseLayout  from "@/layouts/BaseLayout.astro";
+import type { BreadcrumbItem, FaqSeoItem, ProductSeo } from "@/layouts/BaseLayout.astro";
 import WaBubble    from "@/components/WaBubble.astro";
 import FaqSection  from "@/components/FaqSection.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 
+/* Los tipos se REUTILIZAN de BaseLayout en vez de redeclararse.
+
+   Antes `product` se declaraba aquí inline con `price: string`, duplicando
+   ProductSeo de BaseLayout. Cuando ProductSeo se amplió a `string | number`
+   (schema.ts ya normalizaba ambos con normalizePrice), esta copia se quedó
+   atrás y las 9 páginas de producto —que montan PageLayout, no BaseLayout—
+   siguieron fallando con ts(2322).
+
+   Es el mismo patrón de fuente de verdad duplicada que tenía el catálogo de
+   inflables: dos declaraciones de lo mismo que se desincronizan en silencio.
+   Reexportar desde BaseLayout lo hace imposible por construcción. */
 export interface Props {
   title:        string;
   description:  string;
   canonical?:   string;
   ogImage?:     string;
   pageType?:    "home" | "product" | "category" | "page";
-  breadcrumbs?: Array<{ name: string; href?: string }>;
-  faqItems?:    Array<{ question: string; answer: string }>;
-  product?:     { name: string; slug: string; description: string; image: string; price: string };
+  breadcrumbs?: BreadcrumbItem[];
+  faqItems?:    FaqSeoItem[];
+  product?:     ProductSeo;
+  /* BUG (jul 2026): PageLayout no declaraba NI reenviaba schemaMarkup, pero
+     directorio/cdmx/[slug].astro se lo pasaba. El resultado no era solo un
+     error de tipos: el JSON-LD de cada salón se descartaba en silencio y
+     nunca llegaba al HTML. Verificado en el build — el único LocalBusiness
+     de esas páginas era el global de BRINCOLINS, no el del salón.
+     TypeScript llevaba tiempo señalándolo; el error estaba entre los 55
+     que nadie veía porque @astrojs/check no estaba instalado. */
+  schemaMarkup?: string;
   whatsapp?:    string;
   phone?:       string;
   email?:       string;
@@ -27,6 +47,7 @@ const {
   breadcrumbs,
   faqItems,
   product,
+  schemaMarkup,
   whatsapp = "5531281706",
 } = Astro.props;
 
@@ -78,6 +99,7 @@ const resolvedFaqs = faqItems && faqItems.length > 0 ? faqItems : defaultFaqs;
   breadcrumbs={breadcrumbs}
   faqItems={faqItems}
   product={product}
+  schemaMarkup={schemaMarkup}
 >
   <slot name="breadcrumbs" slot="breadcrumbs" />
   <slot />

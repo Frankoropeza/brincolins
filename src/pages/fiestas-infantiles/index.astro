@@ -7,6 +7,7 @@ import CtaBanner from "@/components/CtaBanner.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import PricingCards from "@/components/PricingCards.astro";
 import ZonaCard from "@/components/ZonaCard.astro";
+import type { Props as ZonaCardProps } from "@/components/ZonaCard.astro";
 import TestimonialCards from "@/components/TestimonialCards.astro";
 
 const title = "Renta de Inflables para Fiestas Infantiles en CDMX y Edomex";
@@ -146,14 +147,19 @@ const pricingPackages = [
   },
 ];
 
-// ── Zonas destacadas (ZonaCard homologado con /cobertura/) ──
-const zonasCdmx = [
+/* ── Zonas destacadas (ZonaCard homologado con /cobertura/) ──
+   Anotados con ZonaCardProps[]: sin la anotación TS infiere `tipo: "edomex"`
+   como `string` (ensanchamiento de literales) y deja de encajar en la unión
+   `"cdmx" | "edomex"` que declara el componente. Anotar el array también
+   valida el resto de campos contra el componente en vez de confiar en el
+   spread {...z}. */
+const zonasCdmx: ZonaCardProps[] = [
   { slug: "benito-juarez",  emoji: "", name: "Benito Juárez",  description: "Zona más solicitada. Del Valle, Narvarte, Nápoles y Portales con entrega sin costo adicional.", colonias: ["Del Valle", "Narvarte", "Nápoles", "Portales"],          envio: "Incluido", gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)" },
   { slug: "coyoacan",       emoji: "", name: "Coyoacán",        description: "Renta de inflables en Coyoacán Centro, Pedregal, Villa Coapa, Copilco y colonias aledañas.",     colonias: ["Coyoacán Centro", "Pedregal", "Villa Coapa", "Copilco"], envio: "Incluido", gradient: "linear-gradient(135deg, #2E7D32, #00C853)" },
   { slug: "miguel-hidalgo", emoji: "", name: "Miguel Hidalgo",  description: "Polanco, Lomas de Chapultepec, Anzures y las colonias más exclusivas de la ciudad.",             colonias: ["Polanco", "Lomas de Chapultepec", "Tacuba", "Anzures"],  envio: "Incluido", gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)" },
   { slug: "tlalpan",        emoji: "", name: "Tlalpan",         description: "Villa Coapa, Pedregal de San Nicolás, Ajusco y toda la alcaldía de Tlalpan.",                    colonias: ["Villa Coapa", "Pedregal de San Nicolás", "Topilejo", "Ajusco"], envio: "Incluido", gradient: "linear-gradient(135deg, #1565C0, #0D47A1)" },
 ];
-const zonasEdomex = [
+const zonasEdomex: ZonaCardProps[] = [
   { slug: "naucalpan",      emoji: "", name: "Naucalpan",       description: "Satélite, Lomas Verdes, Interlomas y San Rafael: renta de inflables en el poniente.",             colonias: ["Satélite", "Lomas Verdes", "Interlomas", "San Rafael"],  envio: "$150–$250", gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)", tipo: "edomex" },
   { slug: "tlalnepantla",   emoji: "", name: "Tlalnepantla",    description: "Entrega en Tlalnepantla Centro, Las Américas, Vallejo y zona industrial del municipio.",          colonias: ["Centro", "Las Américas", "Vallejo", "Industrial"],       envio: "$150–$250", gradient: "linear-gradient(135deg, #1565C0, #0288D1)", tipo: "edomex" },
   { slug: "ecatepec",       emoji: "", name: "Ecatepec",        description: "Ciudad Azteca, San Cristóbal, Las Américas y todo Ecatepec con inflables a domicilio.",           colonias: ["Ciudad Azteca", "Las Américas", "San Cristóbal", "Ecatepec Centro"], envio: "$200–$350", gradient: "linear-gradient(135deg, #E65100, #FF6F00)", tipo: "edomex" },

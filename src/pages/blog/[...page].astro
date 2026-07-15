@@ -1,14 +1,24 @@
 ---
 import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import type { GetStaticPathsOptions, Page } from "astro";
 import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav   from "@/components/QuickNav.astro";
 import CtaBanner  from "@/components/CtaBanner.astro";
 import BlogCard   from "@/components/BlogCard.astro";
 
+type BlogPost = CollectionEntry<"blog">;
+
 const PER_PAGE = 12;
 
-// ── Paginación server-side ─────────────────────────────────────────────────
-export async function getStaticPaths({ paginate }) {
+/* ── Paginación server-side ────────────────────────────────────────────────
+   `paginate` iba sin tipo, así que era implícitamente `any` y TypeScript
+   infería el retorno como `never`. Consecuencia: CADA acceso a `page`
+   (page.url.prev, page.lastPage, page.total…) daba ts(2339) — 45 errores
+   de una sola causa, que además bloqueaban el deploy a Cloudflare porque
+   su workflow corre `astro check` como gate antes del build.
+   ─────────────────────────────────────────────────────────────────────── */
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
   const all = (await getCollection("blog"))
     .filter((p) => !p.data.draft)
     .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime());
@@ -22,7 +32,10 @@ export async function getStaticPaths({ paginate }) {
   });
 }
 
-const { page, featured } = Astro.props;
+const { page, featured } = Astro.props as {
+  page: Page<BlogPost>;
+  featured: BlogPost;
+};
 const isFirstPage = page.currentPage === 1;
 
 // ── Datos globales para el sidebar (se calculan en cada página) ────────────

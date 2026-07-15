@@ -27,7 +27,9 @@ export interface CoverageZone {
   inflablesRec:      InflableRec[];
   ctaBannerTitle:    string;
   ctaBannerSubtitle: string;
-  ctaBannerVariant:  string;
+  /* Debe encajar con la unión que declara CtaBanner.astro. Tipado como
+     `string` genérico, TS rechazaba pasarlo con {...} a ese componente. */
+  ctaBannerVariant:  "vibrant" | "warm" | "cool" | "festa";
 }
 
 export const COVERAGE_ZONES: CoverageZone[] = [

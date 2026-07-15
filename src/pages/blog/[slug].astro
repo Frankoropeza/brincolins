@@ -1,9 +1,12 @@
 ---
 import { getCollection, render } from "astro:content";
+import type { CollectionEntry } from "astro:content";
 import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import CtaBanner  from "@/components/CtaBanner.astro";
 import FaqItem    from "@/components/FaqItem.astro";
+
+type BlogPost = CollectionEntry<"blog">;
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
@@ -18,7 +21,7 @@ const { Content } = await render(post);
 
 // ── Artículos relacionados (misma categoría, luego recientes) ──
 const all = (await getCollection("blog")).filter((p) => !p.data.draft);
-const byDate = (a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime();
+const byDate = (a: BlogPost, b: BlogPost) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime();
 let related = all
   .filter((p) => p.id !== post.id && p.data.category === d.category)
   .sort(byDate)
@@ -37,8 +40,8 @@ const inflablesSidebar = [
 ];
 
 // ── Helpers ──
-const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
-const mdInline = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+const esc = (s: unknown) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
+const mdInline = (s: unknown) => esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
 const fechaFmt = new Date(d.publishDate).toLocaleDateString("es-MX", { year: "numeric", month: "long", day: "numeric" });
 
 const heading = d.h1 || d.title;
