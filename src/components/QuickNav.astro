@@ -6,6 +6,8 @@
  * muestra enlaces distintos según la sección del sitio.
  * Se puede sobreescribir pasando `links`.
  */
+import { textOn } from '@/lib/contrast';
+
 interface Link { label: string; href: string; color: string; }
 interface Props { links?: Link[]; }
 
@@ -13,7 +15,7 @@ const current = Astro.url.pathname;
 
 const MAIN: Link[] = [
   { label: "Inflables",          href: "/inflables/",            color: "#FF1F8E" },
-  { label: "Fiestas Infantiles", href: "/fiestas-infantiles/",   color: "#E91E8C" },
+  { label: "Fiestas Infantiles", href: "/fiestas-infantiles/",   color: "#DF1C86" },
   { label: "Servicios",          href: "/servicios/",            color: "#FF8C00" },
   { label: "Precios",            href: "/precios/",              color: "#5C35B1" },
   { label: "Cobertura",          href: "/cobertura/",            color: "#D32F2F" },
@@ -32,7 +34,7 @@ const SERVICIOS: Link[] = [
 
 const INFLABLES: Link[] = [
   { label: "Dragones",  href: "/inflables/dragones-rojos/",     color: "#D32F2F" },
-  { label: "Princesas", href: "/inflables/castillo-princesas/", color: "#E91E8C" },
+  { label: "Princesas", href: "/inflables/castillo-princesas/", color: "#DF1C86" },
   { label: "Pirata",    href: "/inflables/barco-pirata/",       color: "#1565C0" },
   { label: "Extremo",   href: "/inflables/extremo/",            color: "#E65100" },
   { label: "Blanco",    href: "/inflables/castillo-blanco/",    color: "#7E57C2" },
@@ -55,6 +57,12 @@ if (!links) {
   else if (current.startsWith("/cobertura")) links = COBERTURA;
   else links = MAIN;
 }
+
+/* Contraste automático del texto (WCAG 2.1 AA). Antes el texto era blanco
+   fijo: sobre #FF8C00 daba 2.33:1, muy por debajo del 4.5:1 que exige AA
+   para texto normal (estos items van a 0.68rem, no aplica texto grande).
+   textOn() elige blanco u oscuro según la luminancia del fondo, así el
+   naranja sigue siendo naranja. Ver src/lib/contrast.ts. */
 ---
 
 <nav class="qnav" aria-label="Navegación rápida">
@@ -64,7 +72,7 @@ if (!links) {
       <a
         href={l.href}
         class="qnav__item"
-        style={`background-color:${l.color};`}
+        style={`background-color:${l.color}; color:${textOn(l.color)};`}
         aria-current={active ? "page" : undefined}
       >
         {l.label}
@@ -85,7 +93,8 @@ if (!links) {
   align-items: center;
   justify-content: center;
   padding: 1.25rem 0.5rem;
-  color: #fff !important;
+  /* El color de texto lo calcula textOn() por luminancia del fondo y va
+     inline. Antes había `color:#fff !important` aquí, que lo pisaría. */
   font-family: var(--font-head, sans-serif);
   font-weight: 900;
   font-size: 1.05rem;

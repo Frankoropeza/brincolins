@@ -13,11 +13,16 @@
     "astro": "astro",
     "validate:assets": "node scripts/validate-assets.mjs",
     "validate:content": "node scripts/validate-content.mjs",
-    "qa": "npm run validate:assets && npm run validate:content && npm run build"
+    "qa": "npm run validate:assets && npm run validate:content && npm run build",
+    "check": "astro check"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.1",
     "astro": "^6.0.1",
     "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "typescript": "^5.9.3"
   }
 }

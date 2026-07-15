@@ -1,4 +1,5 @@
 ---
+import { ensureContrast } from '@/lib/contrast';
 /**
  * CatalogSidebar — BRINCOLINS
  * Sidebar sticky del catálogo completo de inflables.
@@ -56,7 +57,7 @@ const inflables: SidebarInflable[] = [
   <nav class="csb__list" aria-label="Catálogo de inflables">
     {inflables.map(item => {
       const isActive = item.slug === activeSlug;
-      const color = categoryColors[item.categoryColor] ?? "#FF3D00";
+      const color = ensureContrast(categoryColors[item.categoryColor] ?? "#FF3D00", "#FFFFFF");
       return (
         <a
           href={`/inflables/${item.slug}/`}
@@ -339,8 +340,10 @@ const inflables: SidebarInflable[] = [
   }
 
   .csb__cta-btn--wa {
-    background: #25D366;
-    color: #fff;
+    /* Verde brillante + texto oscuro, igual que .btn-wa global.
+       Blanco sobre #25D366 daba 1.98:1 — el peor del sitio. Ahora 8.80:1. */
+    background: var(--c-wa, #25D366);
+    color: var(--c-on-light-vivid, #111B21);
     box-shadow: 0 4px 14px rgba(37,211,102,0.3);
   }
 

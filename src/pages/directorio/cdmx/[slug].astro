@@ -203,6 +203,7 @@ const mapsHref = `https://www.google.com/maps/search/${salon.gmapsQuery}`;
                 <p class="salon-ficha__subtitle">{salon.highlight}</p>
               </div>
             </div>
+            <div class="salon-ficha__table-wrap">
             <table class="salon-ficha__table">
               <tbody>
                 <tr>
@@ -237,6 +238,7 @@ const mapsHref = `https://www.google.com/maps/search/${salon.gmapsQuery}`;
                 </tr>
               </tbody>
             </table>
+            </div>
             <div class="salon-ficha__actions">
               <a href={telHref} class="btn btn-primary">Llamar ahora</a>
               <a href={waHref} class="btn btn-wa" target="_blank" rel="nofollow noopener noreferrer">WhatsApp</a>
@@ -437,7 +439,16 @@ const mapsHref = `https://www.google.com/maps/search/${salon.gmapsQuery}`;
     .salon-ficha__badge { background: linear-gradient(135deg, #FF3D00, #FF6D00); color: #fff; font-size: 1rem; font-weight: 900; padding: 0.4rem 0.8rem; border-radius: 8px; white-space: nowrap; flex-shrink: 0; }
     .salon-ficha__title { font-family: var(--font-head); font-weight: 900; font-size: 1.3rem; margin: 0 0 0.25rem; }
     .salon-ficha__subtitle { font-size: 0.9rem; color: var(--c-text-muted); margin: 0; line-height: 1.6; }
-    .salon-ficha__table { width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.875rem; }
+    /* Wrapper de scroll: sin él, una tabla de 3+ columnas a 380px empuja el
+       ancho del documento. Y como <body> usa overflow-x:clip, no generaría
+       scroll — se recortaría en silencio (el mismo modo de fallo que dejó 3
+       enlaces de QuickNav inalcanzables). El scroll se confina a la tabla. */
+    .salon-ficha__table-wrap {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin-bottom: 1.5rem;
+    }
+    .salon-ficha__table { width: 100%; min-width: 380px; border-collapse: collapse; margin-bottom: 0; font-size: 0.875rem; }
     .salon-ficha__label { padding: 0.5rem 1rem 0.5rem 0; font-weight: 700; color: var(--c-text); white-space: nowrap; vertical-align: top; width: 140px; border-bottom: 1px solid var(--c-border); }
     .salon-ficha__value { padding: 0.5rem 0; color: var(--c-text-muted); line-height: 1.5; border-bottom: 1px solid var(--c-border); }
     .salon-ficha__link { color: var(--c-primary); text-decoration: none; font-weight: 600; }

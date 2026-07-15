@@ -208,11 +208,13 @@ const { items, whatsapp = "5531281706" } = Astro.props;
     font-family: var(--font-head);
     font-size: 0.7rem;
     font-weight: 800;
-    color: var(--c-primary, #FF3D00);
+    /* La opacity:0.6 mezclaba #FF3D00 con el blanco del fondo y daba
+       #FF8B66 → 2.29:1. Se sustituye por un color sólido ya validado en
+       vez de un naranja aguado: mismo efecto visual, 5.48:1. */
+    color: var(--c-primary-text, #C82D00);
     letter-spacing: 0.06em;
     min-width: 1.75rem;
     flex-shrink: 0;
-    opacity: 0.6;
     transition: opacity 0.15s;
   }
 
@@ -431,7 +433,7 @@ const { items, whatsapp = "5531281706" } = Astro.props;
     gap: 0.625rem;
     width: 100%;
     padding: 0.9rem 1.25rem;
-    background: #22c55e;
+    background: #15803D; /* blanco sobre #22c55e daba 2.27 → 5.5 */
     color: #fff;
     font-family: var(--font-head);
     font-size: 0.9375rem;
@@ -446,7 +448,7 @@ const { items, whatsapp = "5531281706" } = Astro.props;
   }
 
   .pfaq-form__submit:hover {
-    background: #16a34a;
+    background: #126634;
     box-shadow: 0 6px 16px rgba(34,197,94,0.35);
   }
 

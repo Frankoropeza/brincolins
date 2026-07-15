@@ -91,7 +91,8 @@ const { items } = Astro.props;
   }
 
   .crumbs__current {
-    color: #FF3D00;
+    /* #FF3D00 sobre el #f8f9fa de .crumbs daba 3.36:1 */
+    color: var(--c-primary-text, #C82D00);
     font-weight: 600;
   }
 

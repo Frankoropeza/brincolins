@@ -1,4 +1,6 @@
 ---
+import { textOn } from '@/lib/contrast';
+
 interface Props {
   slug:      string;
   emoji:     string;
@@ -27,7 +29,17 @@ const catColors: Record<string, string> = {
   'Decoración':  '#E91E8C',
   'Paquetes':    '#2E7D32',
 };
-const catColor = catColors[category] || 'var(--c-primary)';
+
+/* El badge llevaba `color:#fff` fijo sobre estos fondos. Varios reprobaban
+   WCAG AA a 0.66rem: #FF3D00 → 3.54:1, #D97706 → 3.18:1, #059669 → 3.76:1.
+   textOn() elige blanco u oscuro según la luminancia, conservando el color
+   de la categoría. Ver src/lib/contrast.ts.
+
+   Ojo con el fallback: era la cadena 'var(--c-primary)', que NO es un hex y
+   haría que textOn() devolviera NaN. Se usa el literal y se resuelve el
+   color de marca aquí mismo. */
+const catColor = catColors[category] ?? '#FF3D00';
+const catText  = textOn(catColor);
 ---
 
 <article class={`blog-card${featured ? ' blog-card--featured' : ''}`}>
@@ -38,7 +50,7 @@ const catColor = catColors[category] || 'var(--c-primary)';
           <span class="blog-card__emoji" aria-hidden="true">{emoji}</span>
         </div>
     }
-    <span class="blog-card__cat" style={`background:${catColor};color:#fff;`}>{category}</span>
+    <span class="blog-card__cat" style={`background:${catColor};color:${catText};`}>{category}</span>
   </div>
   <div class="blog-card__body">
     <span class="blog-card__readtime">{readTime} lectura</span>
@@ -46,7 +58,14 @@ const catColor = catColors[category] || 'var(--c-primary)';
       <a href={`/blog/${slug}/`}>{title}</a>
     </h3>
     <p class="blog-card__excerpt">{excerpt}</p>
-    <a href={`/blog/${slug}/`} class="blog-card__link" aria-label={`Leer: ${title}`}>
+    {/* WCAG 2.5.3 (Label in Name): el nombre accesible debe CONTENER el
+        texto visible. Antes era aria-label="Leer: {title}" con el texto
+        visible "Leer artículo": un usuario de control por voz que dice
+        "pulsa Leer artículo" no activaba nada, porque el nombre accesible
+        decía otra cosa. Ahora empieza por el texto visible y el título va
+        detrás como contexto — así el enlace sigue siendo distinguible
+        para un lector de pantalla que lista enlaces fuera de contexto. */}
+    <a href={`/blog/${slug}/`} class="blog-card__link" aria-label={`Leer artículo: ${title}`}>
       Leer artículo
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -163,7 +182,8 @@ const catColor = catColors[category] || 'var(--c-primary)';
     display: inline-flex;
     align-items: center;
     gap: 0.35rem;
-    color: var(--c-primary);
+    /* 3.54:1 sobre blanco a .82rem */
+    color: var(--c-primary-text, #C82D00);
     font-family: var(--font-head);
     font-weight: 700;
     font-size: 0.82rem;

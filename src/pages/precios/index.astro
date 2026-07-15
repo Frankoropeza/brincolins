@@ -125,7 +125,7 @@ const inflables = [
 ];
 
 const tagColors: Record<string, { bg: string; text: string }> = {
-  primary: { bg: "#FEF2F2", text: "#DC2626" },
+  primary: { bg: "#FEF2F2", text: "#C81E1E" },   // #DC2626 daba 4.41:1
   green:   { bg: "#F0FDF4", text: "#15803D" },
   pink:    { bg: "#FDF2F8", text: "#9D174D" },
   blue:    { bg: "#EFF6FF", text: "#1D4ED8" },
@@ -634,7 +634,8 @@ const faqs = [
     position: absolute;
     top: .75rem;
     left: -1px;
-    background: var(--c-primary, #FF3D00);
+    /* texto blanco a .7rem → necesita --c-primary-deep (4.80:1) */
+    background: var(--c-primary-deep, #D93000);
     color: #fff;
     font-size: .7rem;
     font-weight: 700;
@@ -675,7 +676,9 @@ const faqs = [
   }
   .pr-card__category {
     font-size: .72rem;
-    color: #9CA3AF;
+    /* #9CA3AF sobre blanco daba 2.54:1 — gris demasiado claro para 0.72rem.
+       #6B7280 conserva el mismo tono neutro con 4.83:1. */
+    color: #6B7280;
     text-transform: uppercase;
     letter-spacing: .05em;
   }
@@ -704,7 +707,7 @@ const faqs = [
   }
   .pr-card__period {
     font-size: .75rem;
-    color: #9CA3AF;
+    color: #6B7280; /* 2.53 → 4.83 */
   }
   .pr-card__specs {
     display: flex;

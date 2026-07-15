@@ -1,4 +1,7 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
+// Astro 6 deprecó reexportar `z` desde 'astro:content' (31 avisos de
+// astro check). Se importa zod directamente: mismo API, sin deprecación.
+import { z } from 'zod';
 import { glob } from 'astro/loaders';
 
 const blog = defineCollection({

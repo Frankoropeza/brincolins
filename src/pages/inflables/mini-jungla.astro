@@ -1,4 +1,5 @@
 ---
+import { INFLABLES } from "@/data/inflables";
 import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
@@ -12,18 +13,30 @@ import CtaBar from "@/components/CtaBar.astro";
 const title = "Renta de Mini Jungla Inflable | Inflables para Niños Pequeños | CDMX";
 const description = "Renta de Mini Jungla inflable para fiestas infantiles en CDMX y Estado de México. Diseño temático de jungla compacto para niños de 2 a 7 años. Entrega incluida en toda la ciudad.";
 
+/* ── Fuente única de verdad ──────────────────────────────────────────
+   Antes esta página redefinía a mano name/price/size/ages/... duplicando
+   src/data/inflables.ts, que se anuncia como "catálogo canónico" pero al
+   que nadie importaba. El campo local se llamaba `priceNum` (el canónico
+   es `priceNumber`), así que TypeScript nunca cruzó los dos y la
+   divergencia era invisible.
+
+   Consecuencia real: subir precios en data/inflables.ts no cambiaba nada
+   en las 8 páginas de producto. Ahora sí.
+   ──────────────────────────────────────────────────────────────────── */
+const canon = INFLABLES.find(i => i.slug === "mini-jungla")!;
+
 const inflable = {
-  slug: "mini-jungla",
-  emoji: "",
-  name: "Mini Jungla",
-  price: "$1,200",
-  priceNum: "1200",
-  size: "4×4×3m",
-  ages: "3-10 años",
-  capacity: "5-7 niños",
-  installTime: "15 minutos",
-  image: "/img/inflables/mini-jungla.avif",
-  desc: "El inflable Mini Jungla transporta a los niños a una aventura tropical. Con dinosaurios, palmeras y colores vibrantes de la selva, es ideal para fiestas con temática de animales y naturaleza.",
+  slug:        canon.slug,
+  emoji:       "",
+  name:        canon.name,
+  price:       canon.price,
+  priceNum:    canon.priceNumber,
+  size:        canon.size,
+  ages:        canon.ages,
+  capacity:    canon.capacity,
+  installTime: canon.installTime,
+  image:       canon.image,
+  desc:        canon.description,
 };
 
 const galleryImages = [

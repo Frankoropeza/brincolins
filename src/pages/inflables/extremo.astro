@@ -1,4 +1,5 @@
 ---
+import { INFLABLES } from "@/data/inflables";
 import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
@@ -12,18 +13,30 @@ import CtaBar from "@/components/CtaBar.astro";
 const title = "Renta de Inflable Extremo | Inflables para Eventos y Kermeses | CDMX";
 const description = "Renta de Inflable Extremo para eventos, kermeses y fiestas con muchos niños en CDMX. El circuito de obstáculos más completo: alta capacidad y diversión máxima. Cotiza hoy.";
 
+/* ── Fuente única de verdad ──────────────────────────────────────────
+   Antes esta página redefinía a mano name/price/size/ages/... duplicando
+   src/data/inflables.ts, que se anuncia como "catálogo canónico" pero al
+   que nadie importaba. El campo local se llamaba `priceNum` (el canónico
+   es `priceNumber`), así que TypeScript nunca cruzó los dos y la
+   divergencia era invisible.
+
+   Consecuencia real: subir precios en data/inflables.ts no cambiaba nada
+   en las 8 páginas de producto. Ahora sí.
+   ──────────────────────────────────────────────────────────────────── */
+const canon = INFLABLES.find(i => i.slug === "extremo")!;
+
 const inflable = {
-  slug: "extremo",
-  emoji: "",
-  name: "Extremo",
-  price: "$3,000",
-  priceNum: 3000,
-  size: "12×4×3m",
-  ages: "6+ años",
-  capacity: "2-4 personas simultáneamente (doble carril)",
-  installTime: "30 minutos",
-  image: "/img/inflables/extremo.avif",
-  desc: "El circuito Extremo es el inflable más grande y emocionante de nuestro catálogo. Con 12 metros de largo, incluye pista de obstáculos, tobogán doble y doble carril para competencias. Ideal para eventos corporativos, kermeses y fiestas con niños mayores y adolescentes.",
+  slug:        canon.slug,
+  emoji:       "",
+  name:        canon.name,
+  price:       canon.price,
+  priceNum:    canon.priceNumber,
+  size:        canon.size,
+  ages:        canon.ages,
+  capacity:    canon.capacity,
+  installTime: canon.installTime,
+  image:       canon.image,
+  desc:        canon.description,
 };
 
 const galleryImages = [

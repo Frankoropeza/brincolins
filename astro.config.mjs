@@ -3,6 +3,13 @@ import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
   site: "https://brincolins.com",
+  /* Sin esto, `page.url.prev/next` de paginate() genera enlaces SIN barra
+     final (/blog/2) mientras el resto del sitio y las canónicas SÍ la llevan.
+     GitHub Pages responde 301 → /blog/2/, así que cada clic en la paginación
+     costaba un viaje de red extra y el enlace interno que rastrea Google no
+     era el canónico. Verificado en producción antes del cambio:
+       /blog/2 → 301 → https://brincolins.com/blog/2/ */
+  trailingSlash: "always",
   vite: {
     resolve: {
       alias: {

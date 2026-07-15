@@ -331,7 +331,8 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
   .pf__price-currency {
     font-size: 1rem;
     font-weight: 700;
-    opacity: 0.7;
+    /* La opacity:0.7 mezclaba el color con el fondo del badge y daba
+       2.42:1. Sin opacidad hereda el color del contenedor, ya validado. */
   }
 
   .pf__price-note {
@@ -345,7 +346,7 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     gap: 0.4rem;
     font-size: 0.8rem;
     font-weight: 700;
-    color: #16a34a;
+    color: #10783A; /* 2.95 → 4.6 sobre badges claros */
     white-space: nowrap;
   }
 
@@ -470,8 +471,10 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
   }
 
   .pf__btn--wa {
-    background: #25D366;
-    color: #fff;
+    /* Verde brillante + texto oscuro, igual que .btn-wa global.
+       Blanco sobre #25D366 daba 1.98:1 — el peor del sitio. Ahora 8.80:1. */
+    background: var(--c-wa, #25D366);
+    color: var(--c-on-light-vivid, #111B21);
     flex: 1;
     box-shadow: 0 4px 16px rgba(37,211,102,0.3);
   }

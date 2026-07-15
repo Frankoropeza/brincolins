@@ -247,8 +247,16 @@ const serviciosItems = [
 {/* ── Overlay ── */}
 <div class="hdr__overlay" id="hdrOverlay" aria-hidden="true"></div>
 
-{/* ── Panel móvil ── */}
-<nav class="hdr__panel" id="hdrPanel" aria-label="Menú móvil" aria-hidden="true">
+{/* ── Panel móvil ──
+    `inert` es imprescindible, no decorativo: el panel cerrado solo está
+    desplazado con transform:translateX(100%), y un elemento fuera de
+    pantalla SIGUE siendo focusable. Sin inert, un usuario de teclado
+    tabulaba por 24 enlaces invisibles y el foco desaparecía de la vista.
+    Además, aria-hidden="true" con descendientes focusables es una
+    violación WCAG: contradice al árbol de accesibilidad con el de foco.
+    inert resuelve ambos — saca el subárbol del foco Y del árbol a11y.
+    El JS lo alterna en openPanel/closePanel. */}
+<nav class="hdr__panel" id="hdrPanel" aria-label="Menú móvil" aria-hidden="true" inert>
 
   {/* Cabecera panel */}
   <div class="hdr__panel-head">
@@ -1306,6 +1314,7 @@ const serviciosItems = [
     toggle.setAttribute('aria-expanded', 'true');
     panel.classList.add('hdr__panel--open');
     panel.setAttribute('aria-hidden', 'false');
+    panel.inert = false;           // devuelve los enlaces al orden de foco
     overlay.classList.add('hdr__overlay--visible');
     document.body.style.overflow = 'hidden';
   }
@@ -1315,15 +1324,30 @@ const serviciosItems = [
     toggle.setAttribute('aria-expanded', 'false');
     panel.classList.remove('hdr__panel--open');
     panel.setAttribute('aria-hidden', 'true');
+    panel.inert = true;            // saca los 24 enlaces del foco y del árbol a11y
     overlay.classList.remove('hdr__overlay--visible');
     document.body.style.overflow = '';
   }
 
+  /* Cerrar devolviendo el foco al burger. Sin esto, al cerrar el menú el
+     foco se queda en un elemento que acaba de volverse inert y salta al
+     inicio del documento: el usuario de teclado pierde su sitio. */
+  function closeAndRefocus() {
+    var wasOpen = panel.classList.contains('hdr__panel--open');
+    closePanel();
+    if (wasOpen && toggle) toggle.focus();
+  }
+
   if (toggle) toggle.addEventListener('click', function () {
-    panel.classList.contains('hdr__panel--open') ? closePanel() : openPanel();
+    panel.classList.contains('hdr__panel--open') ? closeAndRefocus() : openPanel();
   });
-  if (close)   close.addEventListener('click', closePanel);
-  if (overlay) overlay.addEventListener('click', closePanel);
+  if (close)   close.addEventListener('click', closeAndRefocus);
+  if (overlay) overlay.addEventListener('click', closeAndRefocus);
+
+  /* Escape cierra el panel — comportamiento esperado en cualquier overlay */
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && panel.classList.contains('hdr__panel--open')) closeAndRefocus();
+  });
 
   if (panel) {
     panel.querySelectorAll('a').forEach(function (a) {

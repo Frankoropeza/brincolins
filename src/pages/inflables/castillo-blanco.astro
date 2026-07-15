@@ -1,4 +1,5 @@
 ---
+import { INFLABLES } from "@/data/inflables";
 import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
@@ -12,18 +13,30 @@ import CtaBar from "@/components/CtaBar.astro";
 const title = "Renta de Castillo Blanco Inflable | Inflables para Eventos Premium | CDMX";
 const description = "Renta de Castillo Blanco inflable para fiestas y eventos en CDMX. Diseño elegante y neutro para XV años, bodas y eventos premium. Instalación profesional incluida.";
 
+/* ── Fuente única de verdad ──────────────────────────────────────────
+   Antes esta página redefinía a mano name/price/size/ages/... duplicando
+   src/data/inflables.ts, que se anuncia como "catálogo canónico" pero al
+   que nadie importaba. El campo local se llamaba `priceNum` (el canónico
+   es `priceNumber`), así que TypeScript nunca cruzó los dos y la
+   divergencia era invisible.
+
+   Consecuencia real: subir precios en data/inflables.ts no cambiaba nada
+   en las 8 páginas de producto. Ahora sí.
+   ──────────────────────────────────────────────────────────────────── */
+const canon = INFLABLES.find(i => i.slug === "castillo-blanco")!;
+
 const inflable = {
-  slug: "castillo-blanco",
-  emoji: "",
-  name: "Castillo Blanco",
-  price: "$2,800",
-  priceNum: 2800,
-  size: "6×5×4m",
-  ages: "3+ años",
-  capacity: "8-10 personas",
-  installTime: "30 minutos",
-  image: "/img/inflables/castillo-blanco.avif",
-  desc: "El Castillo Blanco es nuestro inflable premium para bodas, bautizos y XV años. Su elegante diseño blanco puro se integra perfectamente con la decoración de eventos formales. Con capacidad para 8-10 personas, es ideal para adultos y niños por igual.",
+  slug:        canon.slug,
+  emoji:       "",
+  name:        canon.name,
+  price:       canon.price,
+  priceNum:    canon.priceNumber,
+  size:        canon.size,
+  ages:        canon.ages,
+  capacity:    canon.capacity,
+  installTime: canon.installTime,
+  image:       canon.image,
+  desc:        canon.description,
 };
 
 const galleryImages = [

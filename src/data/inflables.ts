@@ -169,7 +169,7 @@ export const INFLABLES: Inflable[] = [
     priceNumber: 3000,
     size:        "12×4×3m",
     ages:        "6+ años",
-    capacity:    "2-4 personas simultáneas (doble carril)",
+    capacity:    "2-4 personas simultáneamente (doble carril)",
     installTime: "30 minutos",
     image:       "/img/inflables/extremo.avif",
     description: "El circuito Extremo es el inflable más grande del catálogo. Con 12 metros de largo, pista de obstáculos, tobogán doble y doble carril para competencias. Ideal para eventos corporativos, kermeses y adolescentes.",
