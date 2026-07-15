@@ -6,7 +6,7 @@ publishDate: "2025-03-15"
 category: "Mini Castillo"
 author: "Equipo BRINCOLINS"
 readTime: "7 min"
-heroImage: "/img/inflables/mini-castillo-v3.jpg"
+heroImage: "/img/inflables/mini-castillo-v3.avif"
 heroImageAlt: "Mini castillo inflable para bebés en fiesta infantil CDMX"
 galleryImages:
   - "/img/blog/renta-mini-castillo-inflable-bebes-cdmx/img1.avif"

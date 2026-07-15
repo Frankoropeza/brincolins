@@ -7,7 +7,7 @@ publishDate: "2025-03-15"
 category: "XV Años"
 author: "Equipo BRINCOLINS"
 readTime: "7 min"
-heroImage: "/img/inflables/castillo-blanco-v4.jpg"
+heroImage: "/img/inflables/castillo-blanco-v4.avif"
 heroImageAlt: "Castillo blanco inflable elegante para fiestas de XV años en CDMX — BRINCOLINS"
 galleryImages:
   - "/img/blog/inflable-elegante-quince-anos-cdmx/img1.avif"

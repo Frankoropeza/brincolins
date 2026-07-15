@@ -7,7 +7,7 @@ publishDate: "2025-03-15"
 category: "Bodas"
 author: "Equipo BRINCOLINS"
 readTime: "7 min"
-heroImage: "/img/inflables/castillo-blanco-v3.jpg"
+heroImage: "/img/inflables/castillo-blanco-v3.avif"
 heroImageAlt: "Castillo blanco inflable elegante para bodas en CDMX — BRINCOLINS"
 galleryImages:
   - "/img/blog/renta-castillo-blanco-inflable-bodas-cdmx/img1.avif"

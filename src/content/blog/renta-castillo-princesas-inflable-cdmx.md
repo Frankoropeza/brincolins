@@ -7,7 +7,7 @@ publishDate: "2025-03-15"
 category: "Princesas"
 author: "Equipo BRINCOLINS"
 readTime: "6 min"
-heroImage: "/img/inflables/castillo-princesas-v3.jpg"
+heroImage: "/img/inflables/castillo-princesas-v3.avif"
 heroImageAlt: "Castillo de princesas inflable rosa para renta en CDMX — BRINCOLINS"
 galleryImages:
   - "/img/blog/renta-castillo-princesas-inflable-cdmx/img1.avif"

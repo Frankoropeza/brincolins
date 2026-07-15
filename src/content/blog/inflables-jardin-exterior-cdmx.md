@@ -6,7 +6,7 @@ publishDate: "2025-03-15"
 category: "Exterior"
 author: "Equipo BRINCOLINS"
 readTime: "7 min"
-heroImage: "/img/inflables/gusanitos-v3.jpg"
+heroImage: "/img/inflables/gusanitos-v3.avif"
 heroImageAlt: "Inflable instalado en jardín exterior en CDMX — renta BRINCOLINS"
 galleryImages:
   - "/img/blog/inflables-jardin-exterior-cdmx/img1.avif"

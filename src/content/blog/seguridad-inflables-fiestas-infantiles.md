@@ -8,7 +8,7 @@ updatedDate: "2026-06-16"
 category: "Seguridad"
 author: "Equipo BRINCOLINS"
 readTime: "7 min"
-heroImage: "/img/inflables/extremo-v3.jpg"
+heroImage: "/img/inflables/extremo-v3.avif"
 heroImageAlt: "Seguridad en inflables para fiestas infantiles CDMX"
 galleryImages:
   - "/img/blog/seguridad-inflables-fiestas-infantiles/img1.avif"

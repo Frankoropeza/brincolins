@@ -7,7 +7,7 @@ publishDate: "2025-03-15"
 category: "Jungla"
 author: "Equipo BRINCOLINS"
 readTime: "8 min"
-heroImage: "/img/inflables/mini-jungla-v3.jpg"
+heroImage: "/img/inflables/mini-jungla-v3.avif"
 heroImageAlt: "Inflable Mini Jungla temático safari para renta en CDMX - BRINCOLINS"
 galleryImages:
   - "/img/blog/renta-inflable-jungla-cdmx/img2.avif"

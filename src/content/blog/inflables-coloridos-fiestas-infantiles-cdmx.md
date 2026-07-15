@@ -6,7 +6,7 @@ publishDate: "2025-03-15"
 category: "Coloridos"
 author: "Equipo BRINCOLINS"
 readTime: "7 min"
-heroImage: "/img/inflables/gusanitos-v4.jpg"
+heroImage: "/img/inflables/gusanitos-v4.avif"
 heroImageAlt: "Inflables coloridos para fiestas infantiles en CDMX — modelos vibrantes BRINCOLINS"
 galleryImages:
   - "/img/blog/inflables-coloridos-fiestas-infantiles-cdmx/img1.avif"

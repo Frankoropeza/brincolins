@@ -6,7 +6,7 @@ publishDate: "2025-03-15"
 category: "Obstáculos"
 author: "Equipo BRINCOLINS"
 readTime: "7 min"
-heroImage: "/img/inflables/extremo-v3.jpg"
+heroImage: "/img/inflables/extremo-v3.avif"
 heroImageAlt: "Pista inflable de obstáculos para renta en CDMX — BRINCOLINS"
 galleryImages:
   - "/img/blog/renta-pista-inflable-obstaculos-cdmx/img1.avif"

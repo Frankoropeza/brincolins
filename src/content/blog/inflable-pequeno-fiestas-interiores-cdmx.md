@@ -6,7 +6,7 @@ publishDate: "2025-03-15"
 category: "Interiores"
 author: "Equipo BRINCOLINS"
 readTime: "8 min"
-heroImage: "/img/inflables/mini-castillo-v4.jpg"
+heroImage: "/img/inflables/mini-castillo-v4.avif"
 heroImageAlt: "Inflable pequeño para fiesta en interior en CDMX"
 galleryImages:
   - "/img/blog/inflable-pequeno-fiestas-interiores-cdmx/img2.avif"

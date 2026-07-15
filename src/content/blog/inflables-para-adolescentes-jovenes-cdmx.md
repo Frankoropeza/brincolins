@@ -6,7 +6,7 @@ publishDate: "2025-03-15"
 category: "Adolescentes"
 author: "Equipo BRINCOLINS"
 readTime: "7 min"
-heroImage: "/img/inflables/extremo-v3.jpg"
+heroImage: "/img/inflables/extremo-v3.avif"
 heroImageAlt: "Inflables para adolescentes y jóvenes en CDMX — pista de obstáculos BRINCOLINS"
 galleryImages:
   - "/img/blog/inflables-para-adolescentes-jovenes-cdmx/img1.avif"
