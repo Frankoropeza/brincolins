@@ -13,6 +13,8 @@ import {
   buildProductSchema,
 } from "@/lib/schema";
 import { SITE_URL, SITE_NAME } from "@/data/site";
+import { COVERAGE_ZONES } from "@/data/coverage";
+import { INFLABLES } from "@/data/inflables";
 
 export interface BreadcrumbItem { name: string; href?: string; }
 export interface FaqSeoItem     { question: string; answer: string; }
@@ -53,7 +55,12 @@ const {
 
 const SITE = SITE_URL;
 
-// ── Slug → display name map para BreadcrumbList ──
+/* ── Slug → display name map para BreadcrumbList ──────────────────────
+   Generado desde los catálogos canónicos (jul 2026). Antes eran ~60
+   entradas hardcodeadas aquí: agregar una zona en coverage.ts o un
+   inflable en inflables.ts NO actualizaba los breadcrumbs del schema y
+   la migaja mostraba el slug crudo. Ahora se generan solos; solo las
+   secciones estáticas del sitio viven en este mapa base. */
 const slugNames: Record<string, string> = {
   'inflables': 'Inflables',
   'servicios': 'Servicios',
@@ -65,53 +72,18 @@ const slugNames: Record<string, string> = {
   'cotizar': 'Cotizar',
   'fiestas-infantiles': 'Fiestas Infantiles',
   'preguntas-frecuentes': 'Preguntas Frecuentes',
-  'dragones-rojos': 'Dragones Rojos',
-  'castillo-princesas': 'Castillo de Princesas',
-  'mini-jungla': 'Mini Jungla',
-  'gusanitos': 'Gusanitos',
-  'mini-castillo': 'Mini Castillo',
-  'barco-pirata': 'Barco Pirata',
-  'extremo': 'Extremo',
-  'castillo-blanco': 'Castillo Blanco',
+  'brincolines': 'Brincolines',
   'renta-de-inflables': 'Renta de Inflables',
   'paquetes-de-fiesta': 'Paquetes de Fiesta',
   'mobiliario-para-fiestas': 'Mobiliario para Fiestas',
   'iluminacion-eventos': 'Iluminación para Eventos',
+  'inflables-para-eventos': 'Inflables para Eventos',
   'cdmx': 'CDMX',
   'edomex': 'Estado de México',
-  'coyoacan': 'Coyoacán',
-  'benito-juarez': 'Benito Juárez',
-  'miguel-hidalgo': 'Miguel Hidalgo',
-  'alvaro-obregon': 'Álvaro Obregón',
-  'tlalpan': 'Tlalpan',
-  'cuauhtemoc': 'Cuauhtémoc',
-  'azcapotzalco': 'Azcapotzalco',
-  'iztapalapa': 'Iztapalapa',
-  'xochimilco': 'Xochimilco',
-  'gustavo-a-madero': 'Gustavo A. Madero',
-  'iztacalco': 'Iztacalco',
-  'venustiano-carranza': 'Venustiano Carranza',
-  'cuajimalpa': 'Cuajimalpa',
-  'magdalena-contreras': 'Magdalena Contreras',
-  'tlahuac': 'Tláhuac',
-  'milpa-alta': 'Milpa Alta',
-  'naucalpan': 'Naucalpan',
-  'tlalnepantla': 'Tlalnepantla',
-  'ecatepec': 'Ecatepec',
-  'huixquilucan': 'Huixquilucan',
-  'atizapan': 'Atizapán',
-  'cuautitlan-izcalli': 'Cuautitlán Izcalli',
-  'coacalco': 'Coacalco',
-  'metepec': 'Metepec',
-  'toluca': 'Toluca',
-  'texcoco': 'Texcoco',
-  'nezahualcoyotl': 'Nezahualcóyotl',
-  'chalco': 'Chalco',
-  'tecamac': 'Tecámac',
-  'nicolas-romero': 'Nicolás Romero',
-  'tultitlan': 'Tultitlán',
   'polanco': 'Polanco',
 };
+for (const i of INFLABLES)      slugNames[i.slug] ??= i.name;
+for (const z of COVERAGE_ZONES) slugNames[z.slug] ??= z.zone;
 
 // ── Schemas via lib/schema.ts ─────────────────────────────────────────────────
 const urlPath      = new URL(canonical, SITE).pathname;
