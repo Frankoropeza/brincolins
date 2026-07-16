@@ -24,3 +24,6 @@ pnpm-debug.log*
 .idea/
 *.sh
 *.cfbak
+
+# Credenciales de Cowork (llave SSH) — nunca al repo
+.cowork/
