@@ -27,3 +27,5 @@ pnpm-debug.log*
 
 # Credenciales de Cowork (llave SSH) — nunca al repo
 .cowork/
+*.log
+.wrangler
