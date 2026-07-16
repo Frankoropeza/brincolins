@@ -23,7 +23,7 @@ faqs:
   - question: "¿Es segura la pista inflable de obstáculos para niños de 6 años?"
     answer: "Sí, la pista está diseñada con obstáculos acolchados y paredes laterales de seguridad. Para niños de 6 a 8 años recomendamos supervisión directa de un adulto, y nuestro equipo te orienta sobre las mejores prácticas al momento de la instalación."
   - question: "¿Cuánto espacio necesito para instalar la pista de obstáculos inflable?"
-    answer: "Necesitas un área plana de aproximadamente 10×5 metros como mínimo, con acceso a una toma de corriente de 110V. Nuestro equipo llega con anticipación para verificar el espacio y realizar la instalación completa."
+    answer: "Necesitas un área plana de aproximadamente 8×5 metros como mínimo, con acceso a una toma de corriente de 110V. Nuestro equipo llega con anticipación para verificar el espacio y realizar la instalación completa."
   - question: "¿Puedo rentar la pista de obstáculos para un evento en parque o jardín público?"
     answer: "Sí, rentamos la pista para eventos en parques, jardines, escuelas y salones de fiestas en toda la CDMX y Estado de México. Solo necesitas contar con acceso a corriente eléctrica o podemos asesorarte sobre alternativas con generador."
 ---
@@ -80,7 +80,7 @@ Divide a los participantes en equipos de 4 o 5 personas. Cada integrante recorre
 Antes de reservar tu pista inflable de obstáculos, es importante que verifiques estos requisitos para garantizar una instalación segura y exitosa:
 
 - **Superficie plana:** el terreno debe ser lo más plano posible. Funciona perfectamente en pasto, concreto o tierra firme. Evita superficies inclinadas o irregulares.
-- **Espacio mínimo:** necesitas un área de aproximadamente 10×5 metros libres, más un metro adicional de perímetro por seguridad.
+- **Espacio mínimo:** necesitas un área de aproximadamente 8×5 metros libres, más un metro adicional de perímetro por seguridad.
 - **Conexión eléctrica:** se requiere una toma de corriente de 110V a no más de 20 metros de distancia. El motor soplador debe funcionar de manera continua durante todo el evento.
 - **Acceso para descarga:** nuestro equipo necesita poder estacionar cerca del punto de instalación para descargar el inflable y el equipo de inflado.
 - **Protección contra viento:** en caso de viento fuerte (superiores a 40 km/h), la instalación podría reprogramarse por seguridad.

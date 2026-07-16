@@ -94,7 +94,7 @@ Los colores saturados del inflable hacen que las fotos se vean profesionales sin
 En **BRINCOLINS** rentamos los inflables más coloridos de la Ciudad de México con un servicio completo que incluye todo lo necesario para tu evento. El proceso es simple y sin complicaciones:
 
 - **Elige tu modelo:** Navega nuestro catálogo o escríbenos por WhatsApp describiendo tu temática y te recomendamos el inflable más colorido para tu fiesta.
-- **Confirma espacio y fecha:** Verifica que tengas al menos 4×4 metros de espacio libre con toma eléctrica. Dinos la fecha y ubicación de tu evento.
+- **Confirma espacio y fecha:** Verifica cuánto espacio libre tienes y que haya toma eléctrica cerca. El Mini Castillo entra en 3×3 metros; los medianos piden 5×5 y los grandes hasta 8×6. Dinos la fecha y ubicación de tu evento.
 - **Reserva con anticipo:** Aparta tu inflable con un anticipo y recibe confirmación inmediata. Sin letras chiquitas ni costos sorpresa.
 - **Nosotros hacemos el resto:** Llegamos con anticipación, instalamos, verificamos seguridad y al finalizar recogemos todo. Tú solo disfrutas.
 

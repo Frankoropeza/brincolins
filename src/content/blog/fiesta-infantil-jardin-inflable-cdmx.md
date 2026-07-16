@@ -14,13 +14,13 @@ intro:
   - "En **BRINCOLINS** llevamos años rentando inflables en jardines de toda la **CDMX, Naucalpan, Tlalnepantla, Coyoacán, Polanco, Iztapalapa** y más. Hemos visto lo que funciona y lo que causa caos. Esta guía es lo que aprendimos: la checklist que necesitas, paso a paso, para que el cumpleaños salga perfecto. Al final, puedes escríbir por **WhatsApp** y reservas en minutos."
 faqs:
   - question: "¿Mi jardín es lo suficientemente grande para un inflable?"
-    answer: "Idealmente necesitas un espacio de al menos 4×4 metros completamente plano y libre de objetos. Si tienes menos espacio, podemos ofrecerte un mini inflable de 3×3 metros. Para toboganes acuáticos, requiere mínimo 6×4 metros. Mide tu zona y contactanos — asesoramos sin compromiso."
+    answer: "El Mini Castillo necesita apenas 3×3 metros planos y libres de objetos. Los medianos como Dragones Rojos y Castillo de Princesas piden 5×5 metros; el Mini Jungla 6×5 y los Gusanitos 6×4. Los grandes necesitan más: Castillo Blanco 7×6, Extremo 8×5 y Barco Pirata 8×6. Mide tu zona y contáctanos — asesoramos sin compromiso."
   - question: "¿Qué pasa si llueve el día de la fiesta?"
     answer: "Los inflables funcionan bajo lluvia normal. Sin embargo, si hay tormentas eléctricas, debe apagarse por seguridad. Recomienda tener un plan B: carpa amplia o salón cercano. En la CDMX es común tener lloviznas en abril-mayo, así que prepara coberturas extras."
   - question: "¿Cuánta electricidad consume un inflable?"
     answer: "El soplador consume entre 500W y 1.5kW. Si tu instalación es estándar (127V, 15A), funciona perfecto. Si tienes dudas sobre tu capacidad eléctrica, contactanos antes para verificar. Podemos llevar generador si es necesario."
   - question: "¿Cuántos niños pueden jugar en un inflable a la vez?"
-    answer: "Un castillo 4×4m soporta 6-8 niños simultáneamente. Un tobogán 6×4m hasta 10 niños. Para fiestas grandes con 25+ niños, recomendamos dos inflables o rotación de turnos (30-40 min cada grupo)."
+    answer: "El Mini Castillo soporta 6-8 niños simultáneamente. El Barco Pirata recibe 8-10 niños desde 4 años y el Extremo 6-10 desde 6 años. Para fiestas grandes con 25+ niños, recomendamos dos inflables o rotación de turnos (30-40 min cada grupo)."
   - question: "¿Es seguro dejar a los niños jugando sin supervisión?"
     answer: "Nunca. Siempre debe haber un adulto vigilando el inflable. No es responsabilidad del prestador, pero es esencial para evitar lesiones. Asigna a un papá o mamá solo para eso durante toda la fiesta."
 ---
@@ -54,9 +54,10 @@ Considera esto:
 Ahora que sabes qué espacio tienes, elige el inflable. En un jardín típico (4×6 metros o más) tienes varias opciones:
 
 - **[Mini Castillo](/inflables/mini-castillo/) 3×3m:** Para espacios pequeños, de 3 a 8 años, hasta 6 niños. Desde $800
-- **Castillo 4×4m:** Versátil, edad 3-10 años, hasta 8 niños. Desde $900
-- **[Barco Pirata](/inflables/barco-pirata/) o Temático 5×4m:** Mayor impacto visual, edad 5-12 años. Desde $1,100
-- **Tobogán Acuático 6×4m:** Perfecto verano, edad 5-14 años, hasta 10 niños. Desde $1,200
+- **[Castillo de Princesas](/inflables/castillo-princesas/) o [Dragones Rojos](/inflables/dragones-rojos/) 5×5m:** Versátil, edad 3-10 años, hasta 8 niños. Desde $1,200
+- **[Gusanitos](/inflables/gusanitos/) 6×4m:** Alargado estilo túneles, entrada baja para los más pequeños. Desde $1,350
+- **[Barco Pirata](/inflables/barco-pirata/) 8×6m:** Mayor impacto visual y tobogán de altura, desde 4 años, 8-10 niños. Desde $1,800
+- **[Extremo](/inflables/extremo/) 8×5m:** Circuito de obstáculos en doble carril, desde 6 años, 6-10 niños. Desde $1,900
 
 Para una **fiesta en jardín CDMX**, recomendamos un **Castillo temático o Barco Pirata** — buen tamaño, fácil de instalar en 20 minutos, y los niños se entretienen 3-4 horas seguidas.
 
@@ -109,7 +110,7 @@ Para una fiesta con 20 niños:
 
 - **Taquiza:** 40-50 tacos (3-4 tacos por niño, pero muchos no terminan)
 - **Bebidas:** 1.5 litros por cada 10 niños (agua, jugos, refrescos)
-- **Frutas:** Sandía, piña, melón (frescura total, especialmente con un tobogán acuático)
+- **Frutas:** Sandía, piña, melón (frescura total, especialmente si la fiesta es a pleno sol)
 - **Dulces:** Mesa de dulces (chicles, paletas, choclocolates) — los niños siempre quieren más
 - **Pastel:** 1/4 de kilo por cada 5-6 niños (un pastel de 2kg rinde para 20 niños)
 

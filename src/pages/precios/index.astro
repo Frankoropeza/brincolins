@@ -7,7 +7,7 @@ import CtaBanner from "@/components/CtaBanner.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 
 const title = "Precios de Renta de Inflables en CDMX | Inflables para Fiestas | Tarifas 2026";
-const description = "Precios transparentes de renta de inflables para fiestas en CDMX. Desde $800 hasta $4,500 MXN con entrega e instalación incluidas. Sin cargos ocultos. Cotiza tu evento hoy.";
+const description = "Precios transparentes de renta de inflables para fiestas en CDMX. Desde $800 hasta $1,900 MXN con entrega e instalación incluidas. Sin cargos ocultos. Cotiza tu evento hoy.";
 
 const inflables = [
   {
@@ -15,7 +15,7 @@ const inflables = [
     name:        "Mini Castillo",
     category:    "Chico",
     price:       800,
-    size:        "2×2×2 m",
+    size:        "2×2×2.5 m",
     ages:        "1–4 años",
     capacity:    "3–4 niños",
     highlight:   false,
@@ -29,7 +29,7 @@ const inflables = [
     name:        "Dragones Rojos",
     category:    "Mediano",
     price:       1200,
-    size:        "4×4×3 m",
+    size:        "4×4×3.8 m",
     ages:        "4–10 años",
     capacity:    "6–8 niños",
     highlight:   true,
@@ -43,7 +43,7 @@ const inflables = [
     name:        "Castillo de Princesas",
     category:    "Mediano",
     price:       1200,
-    size:        "4×4×3 m",
+    size:        "4×4×3.5 m",
     ages:        "4–10 años",
     capacity:    "6–8 niños",
     highlight:   false,
@@ -56,8 +56,8 @@ const inflables = [
     slug:        "mini-jungla",
     name:        "Mini Jungla",
     category:    "Mediano",
-    price:       1200,
-    size:        "4×4×3 m",
+    price:       1300,
+    size:        "4.5×4×3.5 m",
     ages:        "3–10 años",
     capacity:    "6–8 niños",
     highlight:   false,
@@ -70,8 +70,8 @@ const inflables = [
     slug:        "gusanitos",
     name:        "Gusanitos",
     category:    "Mediano",
-    price:       1200,
-    size:        "4×4×3 m",
+    price:       1350,
+    size:        "5×3×2.5 m",
     ages:        "4–10 años",
     capacity:    "6–8 niños",
     highlight:   false,
@@ -84,8 +84,8 @@ const inflables = [
     slug:        "barco-pirata",
     name:        "Barco Pirata",
     category:    "Grande",
-    price:       2500,
-    size:        "7×5×4 m",
+    price:       1800,
+    size:        "7×5×4.5 m",
     ages:        "3–12 años",
     capacity:    "10–15 niños",
     highlight:   false,
@@ -98,7 +98,7 @@ const inflables = [
     slug:        "castillo-blanco",
     name:        "Castillo Blanco",
     category:    "Grande",
-    price:       2800,
+    price:       1700,
     size:        "6×5×4 m",
     ages:        "3+ años",
     capacity:    "8–12 personas",
@@ -112,8 +112,8 @@ const inflables = [
     slug:        "extremo",
     name:        "Circuito Extremo",
     category:    "Extremo",
-    price:       3000,
-    size:        "12×4×3 m",
+    price:       1900,
+    size:        "7×4×3.8 m",
     ages:        "6+ años",
     capacity:    "2 carriles simultáneos",
     highlight:   false,
@@ -150,7 +150,7 @@ const factores = [
   },
   {
     titulo:  "Duración del evento",
-    desc:    "El precio estándar cubre un evento completo de hasta 8 horas. Si necesitas el inflable por más tiempo, consulta nuestra tarifa de hora adicional o paquetes de día completo.",
+    desc:    "El precio estándar cubre un evento completo de 4 a 6 horas. Si necesitas el inflable por más tiempo, escríbenos por WhatsApp y te cotizamos la extensión.",
     icono:   "⏱️",
   },
   {
@@ -168,7 +168,7 @@ const factores = [
 const faqs = [
   {
     question: "¿Cuánto cuesta rentar un inflable en CDMX?",
-    answer:   "Los precios de renta de inflables en CDMX van desde $800 MXN por el Mini Castillo (ideal para bebés) hasta $3,000 MXN por el Circuito Extremo de 12 metros. Los inflables medianos — Dragones Rojos, Castillo Princesas, Mini Jungla y Gusanitos — tienen un precio de $1,200 MXN. Todos los precios incluyen entrega, instalación, motor, limpieza, seguro de responsabilidad civil y recolección.",
+    answer:   "Los precios de renta de inflables en CDMX van desde $800 MXN por el Mini Castillo (ideal para bebés) hasta $1,900 MXN por el Circuito Extremo de 7 metros. Los inflables medianos — Dragones Rojos, Castillo Princesas, Mini Jungla y Gusanitos — van de $1,200 a $1,350 MXN. Todos los precios incluyen entrega, instalación, motor, limpieza, seguro de responsabilidad civil y recolección.",
   },
   {
     question: "¿Los precios publicados incluyen todo o hay costos adicionales?",
@@ -180,7 +180,7 @@ const faqs = [
   },
   {
     question: "¿Hay descuento si rento más de un inflable?",
-    answer:   "Sí. Al rentar 2 o más inflables para el mismo evento aplicamos precios preferenciales. Nuestros paquetes para eventos inician desde $2,400 MXN por 2 inflables. Contáctanos con los detalles de tu evento y te enviamos una propuesta con el precio total por paquete.",
+    answer:   "Sí. Al rentar 2 o más inflables para el mismo evento aplicamos precios preferenciales. El total depende de los modelos que elijas y del tamaño del evento, así que lo cotizamos caso por caso. Escríbenos por WhatsApp con los detalles y te enviamos una propuesta con el precio cerrado del paquete.",
   },
   {
     question: "¿Cómo puedo reservar y cuánto anticipo necesito?",
@@ -242,7 +242,7 @@ const faqs = [
             </div>
             <div class="pr-hero-summary__arrow">→</div>
             <div class="pr-hero-summary__item">
-              <span class="pr-hero-summary__amount">$3,000</span>
+              <span class="pr-hero-summary__amount">$1,900</span>
               <span class="pr-hero-summary__note">Circuito Extremo</span>
             </div>
           </div>
@@ -416,7 +416,7 @@ const faqs = [
           <div class="pr-paquete__header">
             <h3 class="pr-paquete__name">Paquete Kermesse</h3>
             <div class="pr-paquete__price">
-              <span class="pr-paquete__amount">Desde $2,400</span>
+              <span class="pr-paquete__amount">Cotización</span>
               <span class="pr-paquete__note">2 inflables · evento completo</span>
             </div>
           </div>

@@ -73,7 +73,7 @@ Desconfía de perfiles con solo cinco estrellas perfectas sin ningún comentario
 
 ### 6. Precios claros y transparentes desde el primer contacto
 
-En **BRINCOLINS** publicamos nuestros precios sin rodeos: el Mini Castillo desde **$800 MXN**, modelos intermedios (Dragones Rojos, Castillo Princesas, Mini Jungla, Gusanitos) desde **$1,200 MXN**, Barco Pirata **$2,500 MXN**, Castillo Blanco **$2,800 MXN** y el Extremo **$3,000 MXN**. Los informamos desde el primer contacto, sin necesidad de negociación, sin cargos ocultos que aparecen el día del evento.
+En **BRINCOLINS** publicamos nuestros precios sin rodeos: el Mini Castillo desde **$800 MXN**, modelos intermedios (Dragones Rojos y Castillo Princesas **$1,200 MXN**, Mini Jungla **$1,300 MXN**, Gusanitos **$1,350 MXN**), Castillo Blanco **$1,700 MXN**, Barco Pirata **$1,800 MXN** y el Extremo **$1,900 MXN**. Los informamos desde el primer contacto, sin necesidad de negociación, sin cargos ocultos que aparecen el día del evento.
 
 Cuando un proveedor demora mucho en darte un precio o lo condiciona a "muchos factores" antes de cotizar, puede significar que los precios cambian según el cliente —o que hay costos que prefieren revelar tarde, cuando ya reservaste.
 

@@ -22,7 +22,7 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿A partir de qué edad pueden usar el castillo inflable?"
-    answer: "Los castillos inflables de BRINCOLINS son seguros para niños desde los 3 años. Para los más pequeños recomendamos el Mini Castillo (4×4m), y para niños de 6 en adelante cualquier modelo de nuestro catálogo funciona perfecto."
+    answer: "Los castillos inflables de BRINCOLINS son seguros para niños desde los 3 años. Para los más pequeños recomendamos el Mini Castillo (2×2×2.5 m), y para niños de 6 en adelante cualquier modelo de nuestro catálogo funciona perfecto."
   - question: "¿Cuántos niños caben en un castillo inflable al mismo tiempo?"
     answer: "Depende del modelo. Un Mini Castillo admite 6-8 niños simultáneamente. Los modelos más grandes como Dragones Rojos o Castillo Princesas pueden recibir hasta 10-12 niños. Siempre respetar la capacidad máxima es clave para la seguridad."
   - question: "¿Qué pasa si llueve el día de la fiesta?"
@@ -47,7 +47,7 @@ La planificación es la diferencia entre una fiesta estresante y una que disfrut
 
 ### Define el espacio y confirma medidas
 
-Lo primero es saber dónde será la fiesta. Si es en tu casa, mide el patio o jardín. Si es en un salón, confirma que permiten inflables externos y que hay suficiente espacio y altura. La mayoría de nuestros castillos necesitan entre **4×4 y 5×5 metros** de área libre.
+Lo primero es saber dónde será la fiesta. Si es en tu casa, mide el patio o jardín. Si es en un salón, confirma que permiten inflables externos y que hay suficiente espacio y altura. El Mini Castillo necesita **3×3 metros** de área libre; los medianos como Dragones Rojos y Castillo de Princesas, **5×5 metros**; y el Castillo Blanco, **7×6 metros**.
 
 ### Elige el modelo según la temática
 

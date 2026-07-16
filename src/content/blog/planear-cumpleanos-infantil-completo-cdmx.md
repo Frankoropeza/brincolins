@@ -23,9 +23,9 @@ faqs:
   - question: "¿Cuánto cuesta en promedio un cumpleaños infantil completo en CDMX en 2026?"
     answer: "Una fiesta infantil mediana en CDMX con inflable, mesa de dulces, comida, pastel y decoración básica puede costar entre $8,000 y $18,000 MXN. Una fiesta sencilla solo con inflable, comida y pastel puede organizarse desde $4,000-$6,000 MXN. La clave es priorizar: elige 2-3 elementos de alto impacto (el inflable y la mesa de dulces son los más recomendados) y simplifica el resto."
   - question: "¿Qué inflable es mejor para un niño de 5 años?"
-    answer: "Para niños de 5 años, el Castillo de Princesas o los Dragones Rojos son perfectos: tienen la altura correcta, son seguros y tienen elementos temáticos que a esa edad les encantan. El Mini Jungla también es una excelente opción si el grupo de niños es mixto. Todos están disponibles desde $1,200 MXN."
+    answer: "Para niños de 5 años, el Castillo de Princesas o los Dragones Rojos son perfectos: tienen la altura correcta, son seguros y tienen elementos temáticos que a esa edad les encantan. El Mini Jungla también es una excelente opción si el grupo de niños es mixto. El Castillo de Princesas y los Dragones Rojos están disponibles desde $1,200 MXN, y el Mini Jungla desde $1,300 MXN."
   - question: "¿Puedo tener inflable y mesa de dulces en mi casa o jardín?"
-    answer: "Sí, siempre que tengas el espacio mínimo. El inflable más compacto de BRINCOLINS necesita 4×4 metros. Una mesa de dulces estándar de MEDEDUL necesita unos 1.5-2 metros lineales. En total, con un jardín o patio de unos 30-40 m² puedes tener ambos cómodamente. Contáctanos y te asesoramos según las medidas de tu espacio."
+    answer: "Sí, siempre que tengas el espacio mínimo. El inflable más compacto de BRINCOLINS, el Mini Castillo, necesita 3×3 metros. Una mesa de dulces estándar de MEDEDUL necesita unos 1.5-2 metros lineales. En total, con un jardín o patio de unos 30-40 m² puedes tener ambos cómodamente. Contáctanos y te asesoramos según las medidas de tu espacio."
 ---
 
 ## Por qué planear con tiempo cambia todo
@@ -94,7 +94,7 @@ Esta tabla te da rangos reales basados en nuestra experiencia. Úsala para plane
 
 | Elemento | Fiesta sencilla | Fiesta mediana | Fiesta premium |
 |---|---|---|---|
-| Inflable (BRINCOLINS) | $800 - $1,200 MXN | $1,200 - $2,800 MXN | $2,800 - $3,000 MXN |
+| Inflable (BRINCOLINS) | $800 - $1,200 MXN | $1,200 - $1,350 MXN | $1,700 - $1,900 MXN |
 | Mesa de dulces (MEDEDUL) | No incluida | $1,500 - $2,500 MXN | $2,500 - $5,000 MXN |
 | Decoración | $500 - $1,000 MXN | $1,000 - $2,500 MXN | $2,500 - $6,000 MXN |
 | Comida (30 personas) | $1,500 - $2,500 MXN | $2,500 - $5,000 MXN | $5,000 - $10,000 MXN |
@@ -102,7 +102,7 @@ Esta tabla te da rangos reales basados en nuestra experiencia. Úsala para plane
 | Animador | No incluido | $1,200 - $2,000 MXN | $2,000 - $4,000 MXN |
 | Recuerditos (30 pzas) | $300 - $600 MXN | $600 - $1,500 MXN | $1,500 - $3,000 MXN |
 | Fotografía | No incluida | $800 - $1,500 MXN | $1,500 - $4,000 MXN |
-| **Total estimado** | **$3,500 - $6,100 MXN** | **$9,600 - $19,000 MXN** | **$19,000 - $39,000 MXN** |
+| **Total estimado** | **$3,500 - $6,100 MXN** | **$9,600 - $17,850 MXN** | **$18,200 - $37,900 MXN** |
 
 Lo que aprendimos después de cientos de fiestas es que las familias que organizan las celebraciones más memorables no son las que gastan más — son las que priorizan mejor. Un inflable de calidad más una mesa de dulces bien diseñada más una taquiza caliente es una fiesta que los niños recuerdan durante años. No necesitas todo en la columna premium para lograr eso.
 
@@ -112,7 +112,7 @@ Uno de los errores más comunes que vemos es elegir el inflable equivocado para 
 
 ### 2-3 años: los más pequeños
 
-**Recomendados:** Gusanitos o Mini Castillo — ambos desde **$800 MXN**.
+**Recomendados:** Mini Castillo desde **$800 MXN** o Gusanitos desde **$1,350 MXN**.
 
 A esta edad, la seguridad es lo más importante. El **Gusanitos** tiene entradas bajas, colores vibrantes que estimulan visualmente y una superficie suave que amortigua bien las caídas inevitables. El **Mini Castillo** también funciona bien — su escala compacta no intimida a niños que todavía están aprendiendo a brincar con confianza.
 
@@ -120,7 +120,7 @@ Lo que hemos visto en campo es que los niños de 2 y 3 años no necesitan obstá
 
 ### 4-6 años: la edad de oro del brincolín
 
-**Recomendados:** Castillo de Princesas, Dragones Rojos o Mini Jungla — todos desde **$1,200 MXN**.
+**Recomendados:** Castillo de Princesas y Dragones Rojos desde **$1,200 MXN**; Mini Jungla desde **$1,300 MXN**.
 
 Esta es la edad donde los inflables generan más impacto emocional. Los niños de 4 a 6 años tienen la energía y la capacidad física para sacarle el máximo provecho a cualquier inflable temático — pueden brincar durante horas seguidas y aún así pedir más tiempo cuando el inflable se apaga.
 
@@ -128,15 +128,15 @@ El **Castillo de Princesas** es el favorito indiscutible de las niñas en este r
 
 ### 7-9 años: buscan más emoción
 
-**Recomendados:** Mini Jungla, Barco Pirata o Dragones Rojos — desde **$1,200 MXN** el Mini Jungla y los Dragones, desde **$2,500 MXN** el Barco Pirata.
+**Recomendados:** Mini Jungla, Barco Pirata o Dragones Rojos — desde **$1,200 MXN** los Dragones, **$1,300 MXN** el Mini Jungla y **$1,800 MXN** el Barco Pirata.
 
 A esta edad les empieza a importar que el inflable sea "cool". Los colores pastel dejan de impresionar — quieren obstáculos, elementos de aventura, algo que puedan presumirles a sus amigos. El **Mini Jungla** tiene túneles y escaladas que a esta edad generan competencia amistosa entre los niños. El **Barco Pirata** tiene una estética de aventura que a los niños de esta edad les encanta: se sienten piratas de verdad, no simplemente niños brincando en un inflable.
 
 ### 10-12 años: los más exigentes
 
-**Recomendados:** Extremo o Barco Pirata — desde **$2,500 MXN** el Barco, desde **$3,000 MXN** el Extremo.
+**Recomendados:** Extremo o Barco Pirata — desde **$1,800 MXN** el Barco, desde **$1,900 MXN** el Extremo.
 
-Los niños de 10 años en adelante quieren el inflable más grande y el más demandante físicamente. El **Extremo** es exactamente eso: el más grande del catálogo, el que impresiona por su escala antes de que nadie entre. Si hay mezcla de edades — 10 años junto con 6 o 7 — el Extremo también funciona para los más chicos siempre que haya supervisión de adulto que gestione el turno entre grupos de edades.
+Los niños de 10 años en adelante quieren el inflable más grande y el más demandante físicamente. El **Extremo** es exactamente eso: el circuito más demandante del catálogo, el que impresiona por su doble carril antes de que nadie entre. Si hay mezcla de edades — 10 años junto con 6 o 7 — el Extremo también funciona para los más chicos siempre que haya supervisión de adulto que gestione el turno entre grupos de edades.
 
 Puedes ver todos los modelos y sus especificaciones en el [catálogo de inflables](/inflables/).
 

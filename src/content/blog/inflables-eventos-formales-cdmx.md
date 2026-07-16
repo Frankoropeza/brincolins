@@ -21,7 +21,7 @@ faqs:
   - question: "¿Los inflables son apropiados para eventos formales?"
     answer: "Sí, siempre y cuando elijas el modelo correcto. Los inflables de colores brillantes con personajes no son adecuados para bodas o XV años, pero modelos como el castillo blanco de BRINCOLINS fueron diseñados específicamente para eventos elegantes. Su color neutro y diseño sofisticado se integran perfectamente con cualquier decoración formal."
   - question: "¿Cuánto espacio necesito para instalar un inflable en mi evento?"
-    answer: "Depende del modelo. El castillo blanco necesita aproximadamente un espacio de 5x5 metros con margen de seguridad incluido. El mini castillo requiere menos espacio y es ideal para venues más compactos. En ambos casos, necesitas una superficie plana y un contacto eléctrico cercano. Envíanos fotos de tu espacio y te asesoramos sin costo."
+    answer: "Depende del modelo. El castillo blanco necesita aproximadamente un espacio de 7x6 metros con margen de seguridad incluido. El mini castillo requiere menos espacio y es ideal para venues más compactos. En ambos casos, necesitas una superficie plana y un contacto eléctrico cercano. Envíanos fotos de tu espacio y te asesoramos sin costo."
   - question: "¿Pueden coordinar la instalación con mi wedding planner o coordinador de eventos?"
     answer: "Por supuesto. Estamos acostumbrados a trabajar con organizadores de eventos, wedding planners y coordinadores de venues en toda la CDMX. Nos adaptamos a sus tiempos de montaje, respetamos sus protocolos y nos comunicamos directamente con ellos para que todo fluya sin contratiempos."
   - question: "¿Ofrecen paquetes especiales para bodas o XV años?"

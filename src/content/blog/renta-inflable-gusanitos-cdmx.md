@@ -21,11 +21,11 @@ faqs:
   - question: "¿Para qué edades es ideal el inflable Gusanitos Tropical?"
     answer: "El inflable Gusanitos Tropical está diseñado para niños de 3 a 10 años. Los más pequeños (3-5 años) disfrutan la zona de brinco con supervisión de un adulto, mientras que los niños de 6 a 10 años pueden saltar y jugar con total libertad gracias a las paredes protectoras de malla y los materiales acolchados."
   - question: "¿Cuánto espacio necesito para instalar el inflable Gusanitos?"
-    answer: "Necesitas un área libre de al menos 4×4 metros con un metro adicional de perímetro de seguridad en todos los lados. El terreno debe ser plano y firme — funciona en pasto, concreto o piso de salón. También se requiere una toma de corriente de 110V a menos de 15 metros."
+    answer: "Necesitas un área libre de al menos 6×4 metros con un metro adicional de perímetro de seguridad en todos los lados. El terreno debe ser plano y firme — funciona en pasto, concreto o piso de salón. También se requiere una toma de corriente de 110V a menos de 15 metros."
   - question: "¿El inflable Gusanitos incluye instalación y soplador?"
     answer: "Sí, la renta del inflable Gusanitos Tropical incluye entrega, instalación profesional, soplador eléctrico continuo, estacas o contrapesos de seguridad y recolección al finalizar tu evento. Nuestro equipo se encarga de todo para que tú solo disfrutes la fiesta."
   - question: "¿Puedo rentar el inflable Gusanitos para eventos en interiores?"
-    answer: "¡Claro que sí! El Gusanitos Tropical es un modelo compacto que se adapta perfectamente a salones de fiestas, patios techados y espacios cerrados. Solo verifica que la altura libre sea de al menos 3.5 metros y que haya una toma eléctrica cercana. Nuestro equipo confirma las condiciones antes de la instalación."
+    answer: "El Gusanitos mide 5×3×2.5 m: es alargado y bajo, así que la altura casi nunca es el obstáculo — con 2.5 metros libres basta. Lo que sí necesitas es superficie: 6×4 metros libres, que es más de lo que da un salón chico. Si el espacio interior es reducido, el Mini Castillo (2×2×2.5 m, solo 3×3 m de área) es el modelo indicado. Mándanos las medidas y te confirmamos antes de la instalación."
 ---
 
 ## 1. ¿Qué hace especial al inflable [Gusanitos](/inflables/gusanitos/) Tropical?
@@ -60,8 +60,9 @@ El inflable Gusanitos Tropical está diseñado pensando en la seguridad y divers
 
 Antes de reservar el **Gusanitos Tropical**, es fundamental verificar que cuentas con el espacio adecuado para la instalación. El inflable requiere un área plana y firme donde el soplador pueda mantenerse conectado durante todo el evento.
 
-- **Área mínima:** 4 × 4 metros de superficie plana, más un metro adicional en cada lado como perímetro de seguridad.
-- **Altura libre:** Al menos 3.5 metros de altura sin obstáculos (ramas, cables, techos bajos).
+- **Medidas del inflable:** 5 × 3 × 2.5 metros. Es un modelo alargado, no cuadrado — su forma de gusano con túneles se extiende a lo largo, así que revisa que tengas el largo, no solo la superficie total.
+- **Área mínima:** 6 × 4 metros de superficie plana, más un metro adicional en cada lado como perímetro de seguridad.
+- **Altura libre:** 2.5 metros sin obstáculos (ramas, cables, techos bajos). Junto con el Mini Castillo, es el modelo más bajo del catálogo.
 - **Tipo de piso:** Funciona sobre pasto, concreto, adoquín o piso de salón. En pasto usamos estacas de anclaje; en superficies duras, contrapesos de arena.
 - **Electricidad:** Una toma de corriente de 110V a menos de 15 metros del inflable. El soplador debe funcionar de forma continua.
 

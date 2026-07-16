@@ -27,9 +27,18 @@ interface Props {
 }
 
 const { packages } = Astro.props;
+
+/**
+ * El grid se adapta al número de paquetes. Con un solo precio (caso de las
+ * páginas de producto, que publican un precio por modelo como el master) la
+ * tarjeta se centra y se muestra como bloque de precio único; con 2-4 se
+ * reparte en columnas. Antes era `repeat(4, 1fr)` fijo, lo que dejaba hueco
+ * en las páginas de 3 paquetes y una tarjeta a 1/4 de ancho con uno solo.
+ */
+const cols = Math.min(Math.max(packages.length, 1), 4);
 ---
 
-<div class="pk__grid">
+<div class:list={['pk__grid', `pk__grid--${cols}`]}>
   {packages.map((pkg) => (
     <div class:list={['pk__card', { 'pk__card--highlight': pkg.highlight }]}>
       {pkg.badge && <span class="pk__badge">{pkg.badge}</span>}
@@ -57,9 +66,34 @@ const { packages } = Astro.props;
 <style>
   .pk__grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 1.25rem;
     align-items: start;
+  }
+
+  .pk__grid--4 { grid-template-columns: repeat(4, 1fr); }
+  .pk__grid--3 { grid-template-columns: repeat(3, 1fr); }
+  .pk__grid--2 { grid-template-columns: repeat(2, 1fr); }
+
+  /* Precio único: tarjeta centrada, sin estirarse a todo el ancho */
+  .pk__grid--1 {
+    grid-template-columns: minmax(0, 460px);
+    justify-content: center;
+  }
+
+  .pk__grid--1 .pk__card {
+    padding: 2.25rem 2rem;
+  }
+
+  .pk__grid--1 .pk__price-value {
+    font-size: 2.75rem;
+  }
+
+  .pk__grid--1 .pk__desc {
+    font-size: 0.9375rem;
+  }
+
+  .pk__grid--1 .pk__features li {
+    font-size: 0.875rem;
   }
 
   .pk__card {
@@ -195,7 +229,9 @@ const { packages } = Astro.props;
 
   /* ── Responsive ── */
   @media (max-width: 1100px) {
-    .pk__grid {
+    .pk__grid--4,
+    .pk__grid--3,
+    .pk__grid--2 {
       grid-template-columns: repeat(2, 1fr);
     }
   }
@@ -206,6 +242,14 @@ const { packages } = Astro.props;
       max-width: 100%;
       margin: 0;
       padding: 0 0.5rem;
+    }
+
+    .pk__grid--1 {
+      justify-content: stretch;
+    }
+
+    .pk__grid--1 .pk__price-value {
+      font-size: 2.25rem;
     }
   }
 </style>

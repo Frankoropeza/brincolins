@@ -20,7 +20,7 @@ faqs:
   - question: "¿Puedo rentar más de un inflable para el mismo evento?"
     answer: "Claro. Para kermesses, fiestas escolares o eventos corporativos grandes, podemos combinar modelos según el espacio y el perfil de los asistentes. Cotiza el paquete completo con nosotros."
   - question: "¿Los inflables funcionan en interiores como salones o departamentos?"
-    answer: "Algunos sí — especialmente el Mini Castillo y los Gusanitos. La condición principal es altura libre suficiente (mínimo 3 metros) y buena ventilación. Pregúntanos con las medidas de tu espacio y te decimos si aplica."
+    answer: "El Mini Castillo sí: mide 2×2×2.5 m y necesita apenas 3×3 m de área y 2.5 m de altura libre. Los Gusanitos también son bajos (2.5 m de alto), pero al ser alargados piden 6×4 m de superficie, así que solo entran en salones amplios. El resto del catálogo mide de 3.5 a 4.5 m de alto y va en exterior. Pregúntanos con las medidas de tu espacio y te decimos si aplica."
   - question: "¿Qué pasa si el espacio que tengo no alcanza para el modelo que quiero?"
     answer: "Lo detectamos durante la cotización cuando nos das las medidas del área. Si el modelo ideal no cabe, te proponemos la alternativa más cercana que sí funcione. Preferimos decirte la verdad antes que llegarte con sorpresas el día del evento."
 ---
@@ -56,7 +56,7 @@ El [Mini Castillo](/inflables/mini-castillo/) es nuestro modelo más chico y el 
 Lo usamos mucho en fiestas de primer cumpleaños, pero también en eventos de preescolar donde los niños son todos pequeños y el espacio puede ser limitado.
 
 **Lo que debes saber antes de rentarlo:**
-- Requiere aproximadamente 3.5 x 3.5 metros de espacio libre.
+- Requiere aproximadamente 3 x 3 metros de espacio libre.
 - Funciona en interiores con techo de al menos 3 metros.
 - Es el modelo más accesible en precio — desde $800.
 - No tiene tobogán, lo cual es correcto para su rango de edad.
@@ -74,9 +74,9 @@ Los [Gusanitos](/inflables/gusanitos/) son la elección cuando el jardín o la t
 No es el más espectacular de nuestra flota — no tiene tobogán ni múltiples secciones. Pero cumple muy bien su función: dar a los niños pequeños un espacio seguro para saltar y jugar durante horas.
 
 **Lo que debes saber antes de rentarlo:**
-- Cabe en espacios de aproximadamente 4 x 3 metros.
+- Cabe en espacios de aproximadamente 6 x 4 metros.
 - Puede instalarse en interiores con buena ventilación.
-- Precio desde $1,200.
+- Precio desde $1,350.
 - Ideal para grupos de niños de edad homogénea (todos chicos).
 
 ---
@@ -90,9 +90,9 @@ La [Mini Jungla](/inflables/mini-jungla/) es nuestra propuesta temática para qu
 Incluye un tobogán pequeño que los niños de entre 4 y 7 años disfrutan mucho. No es alto ni de alta velocidad — es el tipo de tobogán correcto para esa edad.
 
 **Lo que debes saber antes de rentarlo:**
-- Requiere aproximadamente 5 x 4 metros de espacio.
+- Requiere aproximadamente 6 x 5 metros de espacio.
 - El tobogán pequeño está diseñado para niños, no adolescentes.
-- Precio desde $1,200.
+- Precio desde $1,300.
 - Si la temática de tu fiesta es safari, animales o jungla, este modelo hace el doble de trabajo.
 
 ---
@@ -106,7 +106,7 @@ Los [Dragones Rojos](/inflables/dragones-rojos/) son el modelo que más reaccion
 Es el inflable que eliges cuando no tienes una temática fija pero quieres que el inflable sea el elemento que "lleve" la fiesta.
 
 **Lo que debes saber antes de rentarlo:**
-- Dimensiones aproximadas de 5.5 x 4.5 metros.
+- Requiere aproximadamente 5 x 5 metros de espacio.
 - Mejor para exterior — el diseño pierde impacto en espacios muy cerrados.
 - Precio desde $1,200.
 - El rango de edad es más amplio que el Mini Castillo o la Mini Jungla — aguanta bien niños de primaria.
@@ -138,9 +138,9 @@ El [Barco Pirata](/inflables/barco-pirata/) es el modelo que más recomendamos c
 Es el inflable favorito de kermesses escolares por una razón simple: funciona para todos. No necesitas saber exactamente quién va a usarlo — si hay niños de entre 5 y 14 años en el evento, el Barco Pirata los entretiene a todos.
 
 **Lo que debes saber antes de rentarlo:**
-- Es el inflable más grande de rango medio — necesitas unos 7 x 5 metros de espacio.
+- Es el que más espacio pide de toda la flota — necesitas unos 8 x 6 metros.
 - El tobogán tiene altura real — los niños muy pequeños no son su usuario ideal.
-- Precio desde $2,500 — el salto de precio respecto a los modelos anteriores refleja su mayor tamaño y capacidad.
+- Precio desde $1,800 — el salto de precio respecto a los modelos anteriores refleja su mayor tamaño y capacidad.
 - Si solo puedes rentar uno y no sabes qué edades van a la fiesta, este es la apuesta más segura.
 
 ---
@@ -154,9 +154,9 @@ El [Castillo Blanco](/inflables/castillo-blanco/) es nuestro modelo más sorpren
 El diseño en blanco puro, sin colores llamativos ni personajes infantiles, se adapta a ambientes donde la estética del evento importa. Es elegante sin dejar de ser divertido.
 
 **Lo que debes saber antes de rentarlo:**
-- Requiere aproximadamente 6 x 6 metros — es un modelo grande.
+- Requiere aproximadamente 7 x 6 metros — es un modelo grande.
 - Funciona para adultos y niños por igual.
-- Precio desde $2,800.
+- Precio desde $1,700.
 - Es la opción cuando quieres sorprender a tus invitados con algo inesperado sin romper el tono del evento.
 
 ---
@@ -170,9 +170,9 @@ El [Circuito Extremo](/inflables/extremo/) es el modelo más físicamente demand
 En eventos corporativos funciona extraordinariamente bien: adultos que nunca habrían dicho que iban a subirse a un inflable terminan haciendo fila para repetir.
 
 **Lo que debes saber antes de rentarlo:**
-- Es el más grande de la flota — necesitas al menos 12 x 4 metros de espacio.
+- Es uno de los más grandes de la flota — necesitas al menos 8 x 5 metros de espacio.
 - No apto para niños menores de 8 años.
-- Precio desde $3,000 — refleja su tamaño y complejidad de instalación.
+- Precio desde $1,900 — refleja su tamaño y complejidad de instalación.
 - El uso es rotativo — no todos al mismo tiempo, sino por turnos. Para eventos grandes esto significa que muchas personas lo pueden disfrutar a lo largo del evento.
 
 ---

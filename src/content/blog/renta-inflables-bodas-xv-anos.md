@@ -22,7 +22,7 @@ faqs:
   - question: "¿El inflable se puede instalar en un salón de eventos con techo?"
     answer: "Sí, siempre que el techo tenga mínimo 4 metros de altura libre y el espacio sea suficiente. Coordinamos previamente con el encargado del venue para revisar acceso y conexiones eléctricas. Comparte las medidas del salón y confirmamos viabilidad sin compromiso."
   - question: "¿Cuánto cuesta rentar un inflable para boda o XV años en CDMX?"
-    answer: "El precio base es desde $850 MXN por 6-8 horas, igual que para cualquier evento. Para bodas y quinceañeras con horario extendido hasta 12 horas, el incremento es del 30-40% sobre el precio base. Solicita tu cotización personalizada con la fecha y duración de tu evento."
+    answer: "El precio base es desde $800 MXN por 4 a 6 horas, igual que para cualquier evento. Si tu boda o quinceañera necesita un horario más largo, cotizamos el tiempo adicional caso por caso. Solicita tu cotización personalizada con la fecha y duración de tu evento."
   - question: "¿Cómo coordino el inflable con el programa del evento?"
     answer: "La secuencia que mejor funciona: cerrado durante la ceremonia; abierto en el cóctel y recepción; cerrado durante la comida y el brindis; abierto nuevamente después del pastel hasta el cierre del evento. Así los niños se entretienen sin interrumpir los momentos importantes."
 ---
@@ -52,7 +52,7 @@ Sus características lo hacen ideal para eventos formales:
 | Boda en jardín | Castillo Blanco + [Mini Jungla](/inflables/mini-jungla/) | El blanco para fotos, la jungla para niños |
 | XV años temáticos | Castillo Princesas | Temática de fantasía, colores vibrantes |
 | XV años modernos | Extremo (obstáculos) | Actividad dinámica para adolescentes |
-| Boda de verano | Tobogán acuático | Diversión refrescante para todos |
+| Boda de verano | Castillo Blanco + [Barco Pirata](/inflables/barco-pirata/) | El blanco para la estética del evento, el barco y su tobogán para entretener a los niños |
 
 ## Ubicación estratégica del inflable en el evento
 
@@ -89,7 +89,7 @@ Es fundamental coordinar los tiempos del inflable con el programa del evento. Aq
 
 ## Quinceañeras: inflables como atracción principal
 
-En las quinceañeras, los inflables tienen un papel más protagónico que en las bodas. La mayoría de los invitados son adolescentes que prefieren actividades físicas antes que quedarse sentados. Un inflable de obstáculos tipo Extremo o un tobogán gigante puede ser la atracción más popular de la noche, incluso por encima del DJ.
+En las quinceañeras, los inflables tienen un papel más protagónico que en las bodas. La mayoría de los invitados son adolescentes que prefieren actividades físicas antes que quedarse sentados. El [Extremo](/inflables/extremo/) y su circuito de obstáculos en doble carril puede ser la atracción más popular de la noche, incluso por encima del DJ.
 
 Para quinceañeras temáticas de fantasía o princesas, el [Castillo de Princesas](/inflables/castillo-princesas/) o el Castillo Blanco complementan perfectamente la decoración. Muchas quinceañeras usan el castillo inflable como fondo para su sesión de fotos casual, generando imágenes divertidas que contrastan con las fotos formales del estudio.
 
@@ -97,8 +97,8 @@ Para quinceañeras temáticas de fantasía o princesas, el [Castillo de Princesa
 
 Los precios para bodas y quinceañeras son los mismos que para cualquier evento. La diferencia está en que estos eventos suelen requerir horarios extendidos o combinaciones especiales:
 
-- **Inflable individual (6-8 horas):** desde $850 MXN dependiendo del modelo
-- **Horario extendido (+4 horas):** incremento del 30-40% sobre el precio base
+- **Inflable individual (4 a 6 horas):** desde $800 MXN dependiendo del modelo
+- **Horario extendido:** se cotiza según la duración real de tu evento
 - **Combo 2 inflables:** descuento del 15% sobre el precio individual de cada uno
 - **Paquete boda (inflable + operador dedicado):** desde $1,500 MXN
 

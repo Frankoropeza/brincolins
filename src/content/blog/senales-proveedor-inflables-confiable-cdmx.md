@@ -22,7 +22,7 @@ faqs:
   - question: "¿Qué pasa si llueve el día de mi evento?"
     answer: "Un proveedor confiable tiene política clara de reprogramación por lluvia. BRINCOLINS permite reagendar el evento sin costo adicional cuando las condiciones climáticas impiden el uso seguro del inflable. Esta política debe quedar establecida por escrito antes de la reserva — si el proveedor no la tiene definida, es una señal de alerta."
   - question: "¿Los precios que publica BRINCOLINS en línea son los precios finales?"
-    answer: "Sí. BRINCOLINS publica precios transparentes y los comunica desde el primer contacto: Mini Castillo desde $800 MXN, modelos medianos desde $1,200, Barco Pirata $2,500, Castillo Blanco $2,800, Extremo $3,000. Estos precios incluyen entrega, instalación y motor de inflado dentro de las zonas de cobertura estándar."
+    answer: "Sí. BRINCOLINS publica precios transparentes y los comunica desde el primer contacto: Mini Castillo desde $800 MXN, modelos medianos de $1,200 a $1,350, Castillo Blanco $1,700, Barco Pirata $1,800, Extremo $1,900. Estos precios incluyen entrega, instalación y motor de inflado dentro de las zonas de cobertura estándar."
   - question: "¿Por qué es importante que el proveedor tenga fotos reales de sus inflables?"
     answer: "Las fotos reales muestran el estado actual del equipo — no cómo se veía cuando era nuevo, sino cómo está hoy. Un proveedor que usa imágenes de stock o de catálogo puede estar entregando inflables en peores condiciones de las que muestran. Las fotos reales con sus propios equipos en eventos reales son una señal de transparencia y confianza."
 ---
@@ -62,10 +62,12 @@ La opacidad en precios no es una casualidad ni una estrategia de marketing sofis
 **Cómo lo cumple BRINCOLINS:** publicamos precios claros desde el primer contacto, sin sorpresas ni negociaciones:
 
 - Mini Castillo: **$800 MXN**
-- Dragones Rojos, Castillo Princesas, Mini Jungla, Gusanitos: **$1,200 MXN** cada uno
-- Barco Pirata: **$2,500 MXN**
-- Castillo Blanco: **$2,800 MXN**
-- Extremo: **$3,000 MXN**
+- Dragones Rojos y Castillo Princesas: **$1,200 MXN** cada uno
+- Mini Jungla: **$1,300 MXN**
+- Gusanitos: **$1,350 MXN**
+- Castillo Blanco: **$1,700 MXN**
+- Barco Pirata: **$1,800 MXN**
+- Extremo: **$1,900 MXN**
 
 Todos incluyen entrega, instalación y motor de inflado dentro de las zonas de cobertura estándar. Lo que cotizamos en el primer mensaje es lo que cobraremos el día del evento.
 

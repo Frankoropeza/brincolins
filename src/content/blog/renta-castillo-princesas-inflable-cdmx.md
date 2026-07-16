@@ -23,7 +23,7 @@ faqs:
   - question: "¿Para qué edades es el castillo de princesas inflable?"
     answer: "El castillo de princesas está diseñado para niñas y niños de 3 a 10 años. Su tamaño, altura de paredes y diseño interior están pensados para que los pequeños brinquen con total seguridad y se diviertan durante horas."
   - question: "¿El castillo de princesas se puede usar en interiores?"
-    answer: "Sí, siempre y cuando el espacio cuente con altura suficiente (mínimo 3.5 metros) y un contacto eléctrico cercano. Se adapta perfectamente a salones de fiestas, patios techados y jardines."
+    answer: "El Castillo de Princesas mide 4×4×3.5 m, así que en la práctica va en exterior: jardín, patio o explanada con 5×5 m libres. Un salón o patio techado tendría que superar con margen los 3.5 metros de altura del castillo, y eso es poco común — si tu evento es en interior, el Mini Castillo (2×2×2.5 m) es el modelo indicado. Mándanos las medidas de tu espacio y te confirmamos sin costo."
   - question: "¿La renta incluye transporte e instalación?"
     answer: "Sí, la renta del castillo de princesas incluye transporte a cualquier punto de CDMX y zona metropolitana, instalación profesional por nuestro equipo, supervisión de arranque y recolección al terminar tu evento."
   - question: "¿Cuántas niñas pueden brincar al mismo tiempo?"
@@ -87,7 +87,7 @@ Antes de reservar tu **castillo de princesas inflable**, es importante verificar
 
 - **Superficie plana:** El inflable necesita instalarse sobre una superficie lo más plana posible, ya sea pasto, concreto o piso firme
 - **Margen de seguridad:** Recomendamos dejar al menos 1 metro libre alrededor del inflable para circulación segura
-- **Altura libre:** Si es un espacio techado, asegúrate de que la altura sea suficiente para las torres del castillo (mínimo 3.5 metros)
+- **Altura libre:** El castillo mide 3.5 metros de alto con sus torres, así que necesita exterior o un espacio techado que supere esa altura con margen. Verifica también que no haya cables, ramas ni tendederos encima
 - **Contacto eléctrico:** Se necesita una toma de corriente a no más de 15 metros del punto de instalación para conectar el motor inflador
 
 > **No estás segura del espacio?** Envíanos una foto de tu patio o jardín por WhatsApp y te decimos si el castillo de princesas cabe perfectamente. Es un servicio gratuito que ofrecemos a todas nuestras clientas.

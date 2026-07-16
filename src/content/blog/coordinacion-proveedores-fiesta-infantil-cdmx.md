@@ -149,14 +149,14 @@ Para reservar tu inflable con BRINCOLINS, escríbenos por WhatsApp al **55312817
 
 Para ayudarte a planear, aquí hay rangos de precios reales en CDMX (2026):
 
-- **Inflable BRINCOLINS:** desde $800 hasta $3,000 MXN (según modelo y tamaño)
+- **Inflable BRINCOLINS:** desde $800 hasta $1,900 MXN (según modelo y tamaño)
 - **Palomitas / snacks (Palomita.mx):** desde $500 MXN dependiendo del paquete
 - **Decoración básica (globos, manteles):** $800 - $2,500 MXN
 - **Comida (taquiza para 30 personas):** $2,000 - $4,000 MXN
 - **Pastel personalizado:** $600 - $2,000 MXN
 - **Animador (mago o payaso):** $1,200 - $2,500 MXN
 
-**Total estimado para una fiesta mediana:** $6,000 - $14,000 MXN
+**Total estimado para una fiesta mediana:** $6,000 - $13,400 MXN
 
 Muchas familias en CDMX organizan fiestas que sus hijos recuerdan durante años con presupuestos de $8,000-$10,000 pesos, eligiendo bien sus prioridades: el inflable, la comida y el pastel como anclas, y el resto como complementos. No siempre más proveedores significa mejor fiesta — significa más coordinación. Elige con inteligencia, coordina con anticipación y disfruta el resultado.
 

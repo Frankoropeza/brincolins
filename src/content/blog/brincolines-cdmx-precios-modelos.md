@@ -23,7 +23,7 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Cuánto cuesta rentar un brincolín en CDMX?"
-    answer: "Los precios van desde $900 MXN para modelos básicos como el Mini Castillo, hasta $1,500 MXN o más para inflables grandes como el Extremo o los acuáticos. El precio incluye transporte, instalación, seguro y retiro."
+    answer: "Los precios van desde $800 MXN para modelos básicos como el Mini Castillo, hasta $1,900 MXN para inflables grandes como el Extremo. El precio incluye transporte, instalación, seguro y retiro."
   - question: "¿El precio incluye transporte e instalación?"
     answer: "Sí. En BRINCOLINS el precio que te cotizamos es todo incluido: transporte a tu domicilio en CDMX o Estado de México, instalación profesional, uso durante tu evento, seguro de responsabilidad civil y retiro al finalizar. Sin costos ocultos."
   - question: "¿Hay descuento si rento más de un inflable?"
@@ -38,14 +38,14 @@ faqs:
 
 Los precios de renta de **brincolines en la Ciudad de México** varían según el tamaño, la temática y las características del inflable. Aquí te presentamos los rangos de precio de nuestros modelos más populares para que puedas comparar y elegir el que mejor se ajuste a tu presupuesto:
 
-- **[Mini Castillo](/inflables/mini-castillo/) (4×4m):** Desde $900 MXN. El modelo más compacto y económico. Perfecto para patios pequeños y niños de 2 a 7 años. Capacidad para 6-8 niños.
-- **[Castillo Princesas](/inflables/castillo-princesas/) (5×4m):** Desde $950 MXN. Diseño en tonos rosas y morados con torres de princesa. Ideal para fiestas temáticas de cuento de hadas. Capacidad para 8-10 niños.
-- **[Dragones Rojos](/inflables/dragones-rojos/) (5×5m):** Desde $1,000 MXN. Castillo rojo con dragones decorativos. El favorito para fiestas de aventura y fantasía. Capacidad para 10-12 niños.
-- **[Barco Pirata](/inflables/barco-pirata/) (5×4m):** Desde $1,000 MXN. Diseño de barco con mástil y banderas. Temática de piratas y aventura marina. Capacidad para 8-10 niños.
-- **Granja (5×5m):** Desde $1,000 MXN. Decorado con animales de granja, ideal para los más pequeños. Capacidad para 10-12 niños.
-- **Tobogán Doble (6×4m):** Desde $1,100 MXN. Incluye rampa de subida y doble tobogán de bajada. Diversión garantizada para niños de 5 a 12 años.
-- **Extremo (7×5m):** Desde $1,300 MXN. Nuestro modelo más grande con área de salto, obstáculos y tobogán. Para fiestas grandes y eventos con muchos niños.
-- **Tobogán Acuático (6×4m):** Desde $1,200 MXN. Con conexión de agua y alberca inflable. La estrella de las fiestas de verano. Capacidad para 8-10 niños.
+- **[Mini Castillo](/inflables/mini-castillo/) (espacio 3×3 m):** $800 MXN. El modelo más compacto y económico. Perfecto para patios pequeños y niños de 2 a 7 años. Capacidad para 6-8 niños.
+- **[Dragones Rojos](/inflables/dragones-rojos/) (espacio 5×5 m):** $1,200 MXN. Castillo rojo con dragones decorativos. El favorito para fiestas de aventura y fantasía. Capacidad para 10-12 niños.
+- **[Castillo Princesas](/inflables/castillo-princesas/) (espacio 5×5 m):** $1,200 MXN. Diseño en tonos rosas y morados con torres de princesa. Ideal para fiestas temáticas de cuento de hadas. Capacidad para 8-10 niños.
+- **[Mini Jungla](/inflables/mini-jungla/) (espacio 6×5 m):** $1,300 MXN. Temática de safari con animales de la selva y tobogán pequeño. Ideal para niños de 3 a 8 años.
+- **[Gusanitos](/inflables/gusanitos/) (espacio 6×4 m):** $1,350 MXN. Colores tropicales y entrada baja, pensado para los más pequeños de la fiesta.
+- **[Castillo Blanco](/inflables/castillo-blanco/) (espacio 7×6 m):** $1,700 MXN. Estética neutra en blanco, el indicado para bodas, XV años y eventos formales.
+- **[Barco Pirata](/inflables/barco-pirata/) (espacio 8×6 m):** $1,800 MXN. Diseño de barco con mástil y banderas. Temática de piratas y aventura marina. El modelo más grande del catálogo (7×5×4.5 m). Capacidad para 8-10 niños desde 4 años.
+- **[Extremo](/inflables/extremo/) (espacio 8×5 m):** $1,900 MXN. Circuito de obstáculos de 7 m en doble carril, ideal para carreras. Para fiestas grandes y eventos con muchos niños.
 
 > **Precios actualizados:** Estos precios son referenciales. Para obtener una cotización exacta con disponibilidad en tu zona, escríbenos por WhatsApp. Respondemos en menos de 10 minutos.
 
@@ -91,22 +91,22 @@ Para facilitar tu decisión, aquí va una comparación directa de nuestros model
 
 ### Por presupuesto
 
-- **Presupuesto ajustado (menos de $1,000):** Mini Castillo o Castillo Princesas — excelente relación calidad-precio para fiestas íntimas
-- **Presupuesto medio ($1,000-$1,200):** Dragones Rojos, Barco Pirata o Granja — modelos temáticos con mayor capacidad
-- **Sin límite de presupuesto ($1,200+):** Extremo, Tobogán Acuático o paquete de 2 inflables — la experiencia completa
+- **Presupuesto ajustado ($800):** Mini Castillo — excelente relación calidad-precio para fiestas íntimas
+- **Presupuesto medio ($1,200-$1,350):** Dragones Rojos, Castillo Princesas, Mini Jungla o Gusanitos — modelos temáticos con mayor capacidad
+- **Presupuesto amplio ($1,700-$1,900):** Castillo Blanco, Barco Pirata o Extremo — la experiencia completa
 
 ### Por edad de los niños
 
-- **Niños de 2-5 años:** Mini Castillo o Granja (acceso fácil, altura baja, superficie amplia)
-- **Niños de 6-9 años:** Castillo Princesas, Dragones Rojos o Barco Pirata (temáticos, divertidos, con espacio para jugar en grupo)
-- **Niños de 10-12 años:** Extremo o Tobogán Doble (más desafiantes, con obstáculos y toboganes)
-- **Verano:** Tobogán Acuático (la opción número 1 para fiestas de calor en CDMX)
+- **Niños de 2-5 años:** Mini Castillo o Gusanitos (acceso fácil, altura baja, superficie amplia)
+- **Niños de 6-9 años:** Castillo Princesas, Dragones Rojos, Mini Jungla o Barco Pirata (temáticos, divertidos, con espacio para jugar en grupo)
+- **Niños de 10-12 años:** Extremo (más desafiante, con circuito de obstáculos en doble carril)
+- **Eventos formales:** Castillo Blanco (estética neutra para bodas y XV años)
 
 ### Por tamaño de espacio
 
-- **Espacio pequeño (4×4m):** Mini Castillo es tu única opción, pero es excelente
-- **Espacio mediano (5×5m):** Castillo Princesas, Dragones Rojos, Barco Pirata, Granja
-- **Espacio grande (6×5m o más):** Extremo, Tobogán Doble, Tobogán Acuático — aprovecha el espacio al máximo
+- **Espacio pequeño (3×3 m):** Mini Castillo es tu única opción, pero es excelente
+- **Espacio mediano (5×5 a 6×5 m):** Castillo Princesas, Dragones Rojos, Mini Jungla, Gusanitos
+- **Espacio grande (7×6 m o más):** Castillo Blanco, Extremo o Barco Pirata — aprovecha el espacio al máximo
 
 ## Por qué BRINCOLINS ofrece la mejor relación calidad-precio
 

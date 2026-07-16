@@ -52,7 +52,7 @@ Esta tabla es un punto de partida. Los especialistas de DEGLOB (Fantasy Globos) 
 
 ## Cómo dividir el espacio: cuatro zonas que cambian todo
 
-Una de las preguntas que más nos hacen los papás cuando empiezan a planear es cómo distribuir el espacio para que el inflable y la decoración de globos coexistan sin estorbarse. Después de 500 eventos, tenemos una respuesta clara: hay que pensar en el espacio como si tuviera cuatro zonas con funciones distintas. Cuando cada elemento va a su zona, la fiesta fluye sola. Cuando los elementos se mezclan sin plan, el caos llega antes que los invitados.
+Una de las preguntas que más nos hacen los papás cuando empiezan a planear es cómo distribuir el espacio para que el inflable y la decoración de globos coexistan sin estorbarse. Después de dos décadas montando fiestas, tenemos una respuesta clara: hay que pensar en el espacio como si tuviera cuatro zonas con funciones distintas. Cuando cada elemento va a su zona, la fiesta fluye sola. Cuando los elementos se mezclan sin plan, el caos llega antes que los invitados.
 
 La primera vez que le explicamos este sistema a una familia en un jardín de Pedregal — no sabían cómo acomodar el inflable grande que habían pedido junto con el arco de entrada y la mesa de pastel — la mamá nos dijo que nadie le había dicho eso antes en cinco años de organizar fiestas. Ahora lo aplicamos en todos los eventos y la diferencia es inmediata.
 
@@ -133,8 +133,8 @@ Para que puedas planear con claridad, aquí un rango de presupuesto para diferen
 | Tipo de evento | Inflable BRINCOLINS | Decoración DEGLOB | Total aproximado |
 |---|---|---|---|
 | Fiesta íntima (hasta 20 niños) | $800 - $1,200 MXN | $800 - $1,500 MXN | $1,600 - $2,700 MXN |
-| Fiesta mediana (20-50 niños) | $1,200 - $2,500 MXN | $1,500 - $3,000 MXN | $2,700 - $5,500 MXN |
-| Fiesta grande (+50 niños) | $2,500 - $3,000 MXN | $3,000 - $6,000 MXN | $5,500 - $9,000 MXN |
+| Fiesta mediana (20-50 niños) | $1,200 - $1,800 MXN | $1,500 - $3,000 MXN | $2,700 - $4,800 MXN |
+| Fiesta grande (+50 niños) | $1,700 - $1,900 MXN | $3,000 - $6,000 MXN | $4,700 - $7,900 MXN |
 
 Los precios de inflables de BRINCOLINS incluyen transporte, instalación, seguro de responsabilidad civil y retiro. Para cotizar tu combinación personalizada, escríbenos por WhatsApp al **5531281706** y te conectamos con el equipo de DEGLOB para que recibas ambas cotizaciones de forma coordinada.
 

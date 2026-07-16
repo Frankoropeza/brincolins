@@ -19,9 +19,9 @@ tags:
   - "mededul cdmx"
 faqs:
   - question: "¿Cuánto espacio necesito para tener inflable y mesa de dulces en la misma fiesta?"
-    answer: "Para el inflable más pequeño de BRINCOLINS necesitas un área mínima de 4×4 metros. Para una mesa de dulces estándar de MEDEDUL, entre 1.5 y 2 metros lineales son suficientes. En total, un espacio de jardín o salón de aproximadamente 30-40 m² te permite tener ambos sin que se estorben. Lo importante es planear la distribución con anticipación."
+    answer: "Para el inflable más pequeño de BRINCOLINS necesitas un área mínima de 3×3 metros. Para una mesa de dulces estándar de MEDEDUL, entre 1.5 y 2 metros lineales son suficientes. En total, un espacio de jardín o salón de aproximadamente 30-40 m² te permite tener ambos sin que se estorben. Lo importante es planear la distribución con anticipación."
   - question: "¿Es caro combinar inflable y mesa de dulces para un cumpleaños en CDMX?"
-    answer: "Es sorprendentemente accesible. Un inflable de BRINCOLINS comienza desde $800 MXN y los modelos más populares están entre $1,200 y $2,500 MXN. Una mesa de dulces de MEDEDUL puede comenzar desde $1,500-$2,000 MXN dependiendo del tamaño y los elementos. Combinados, son posiblemente la inversión de mayor impacto visual y de entretenimiento que puedes hacer en una fiesta infantil."
+    answer: "Es sorprendentemente accesible. Un inflable de BRINCOLINS comienza desde $800 MXN y los modelos más populares están entre $1,200 y $1,800 MXN. Una mesa de dulces de MEDEDUL puede comenzar desde $1,500-$2,000 MXN dependiendo del tamaño y los elementos. Combinados, son posiblemente la inversión de mayor impacto visual y de entretenimiento que puedes hacer en una fiesta infantil."
   - question: "¿Qué temas funcionan bien tanto para el inflable como para la mesa de dulces?"
     answer: "Los temas más versátiles son los que tienen paleta de colores definida: princesas (rosa y lila), piratas (azul y negro), jungla (verde y marrón), unicornio (colores pastel), superhéroes (rojo y azul). BRINCOLINS tiene inflables que se adaptan a varios de estos temas, y MEDEDUL puede diseñar la mesa en colores y elementos que complementen perfectamente."
 ---
@@ -43,13 +43,13 @@ Lo que hemos aprendido después de años coordinando estas dos experiencias es q
 Con más de 20 años en el mercado de la [renta de inflables en CDMX](/), BRINCOLINS ofrece una variedad de inflables para todos los gustos y espacios. Aquí el catálogo con los precios reales:
 
 - **Mini Castillo** — versión compacta del clásico, funciona en patios pequeños. Desde **$800 MXN**.
-- **Gusanitos** — el ideal para los más pequeños (2-4 años), suave y seguro, colores vibrantes. Desde **$800 MXN**.
 - **Dragones Rojos** — aventura y acción, colores rojo intenso y negro, ideal para niños de 4-10 años. Desde **$1,200 MXN**.
 - **Castillo de Princesas** — elegante y mágico, el favorito de las niñas, colores rosa y lila. Desde **$1,200 MXN**.
-- **Mini Jungla** — compacto con obstáculos internos, perfecto para espacios medianos y niños inquietos. Desde **$1,200 MXN**.
-- **Barco Pirata** — temática de aventura, azul y detalles de madera, los niños se transforman en piratas. Desde **$2,500 MXN**.
-- **Castillo Blanco** — versátil y elegante, funciona para cualquier temática, también para eventos formales. Desde **$2,800 MXN**.
-- **Extremo** — el más grande del catálogo, para fiestas con muchos invitados o cuando quieres que la escala sea parte del espectáculo. Desde **$3,000 MXN**.
+- **Mini Jungla** — compacto con obstáculos internos, perfecto para espacios medianos y niños inquietos. Desde **$1,300 MXN**.
+- **Gusanitos** — el ideal para los más pequeños (2-4 años), suave y seguro, colores vibrantes. Desde **$1,350 MXN**.
+- **Castillo Blanco** — versátil y elegante, funciona para cualquier temática, también para eventos formales. Desde **$1,700 MXN**.
+- **Barco Pirata** — temática de aventura, azul y detalles de madera, los niños se transforman en piratas. Desde **$1,800 MXN**.
+- **Extremo** — el circuito de obstáculos del catálogo, para fiestas con muchos invitados o cuando quieres que la competencia sea parte del espectáculo. Desde **$1,900 MXN**.
 
 Visita el [catálogo completo de inflables](/inflables/) para ver medidas y disponibilidad.
 
@@ -69,8 +69,8 @@ Esta es la tabla que más nos piden los papás que están planificando su presup
 | Impacto visual / foto | ★★ | ★★★★★ | ★★★★★ |
 | Duración del entretenimiento | 3-4 horas | 30-60 min | 4+ horas |
 | Recuerdo en los invitados | Alto | Alto | Muy alto |
-| Presupuesto requerido | $800-$3,000 | $1,500-$4,000 | $2,300-$7,000 |
-| Espacio necesario | 4×4 m mínimo | 1.5-2 m lineal | Combina ambos |
+| Presupuesto requerido | $800-$1,900 | $1,500-$4,000 | $2,300-$5,900 |
+| Espacio necesario | 3×3 m mínimo | 1.5-2 m lineal | Combina ambos |
 | Supervisión adulta requerida | Moderada | Baja | Moderada |
 | Apto para todas las edades | Sí (2-12 años) | Sí (todas) | Sí (todas) |
 | Opción para foto | Limitada | Excelente | Excelente |
@@ -124,7 +124,7 @@ Contratar dos proveedores especializados puede parecer más caro que una sola em
 
 **Reserva con anticipación.** Tanto BRINCOLINS como MEDEDUL tienen mejor disponibilidad — y a veces precios especiales — para reservas con más de 3-4 semanas de anticipación. Cuando reservas tarde, te quedas con lo que queda disponible, que no siempre es lo que quieres.
 
-**Elige el inflable según el espacio real, no el más grande.** Un **Mini Castillo** a $800 puede generar exactamente el mismo nivel de emoción que el **Extremo** a $3,000 si el grupo son 12 niños en un jardín pequeño. El impacto no viene del tamaño sino de la adecuación al espacio y la edad de los niños. No pagues por metros cúbicos de inflable que no van a usar.
+**Elige el inflable según el espacio real, no el más grande.** Un **Mini Castillo** a $800 puede generar exactamente el mismo nivel de emoción que el **Extremo** a $1,900 si el grupo son 12 niños en un jardín pequeño. El impacto no viene del tamaño sino de la adecuación al espacio y la edad de los niños. No pagues por metros cúbicos de inflable que no van a usar.
 
 **Define el tamaño de la mesa según el número de invitados.** MEDEDUL tiene opciones en varios tamaños. Para 20-25 invitados, una mesa mediana bien diseñada supera en impacto a una mesa grande pero genérica. El diseño siempre importa más que la escala.
 

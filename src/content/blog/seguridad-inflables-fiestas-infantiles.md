@@ -24,11 +24,11 @@ faqs:
   - question: "¿Los inflables tienen seguro?"
     answer: "Los proveedores serios como BRINCOLINS cuentan con seguro de responsabilidad civil que cubre accidentes durante el uso del inflable. Siempre pregunta esto antes de contratar."
   - question: "¿Cuántos niños pueden usar el inflable a la vez?"
-    answer: "Depende del modelo. Un mini castillo 4×4m admite 6-8 niños. Superar la capacidad es la causa más común de accidentes. Siempre respeta el límite indicado."
+    answer: "Depende del modelo. Un Mini Castillo (2×2×2.5 m) admite 6-8 niños; el Barco Pirata, 8-10 niños desde 4 años; y el Extremo, 6-10 niños desde 6 años. Superar la capacidad es la causa más común de accidentes. Siempre respeta el límite indicado."
   - question: "¿Qué pasa si hay viento fuerte?"
     answer: "Si el viento supera los 40 km/h, se debe desinflar y asegurar el brincolín. Nunca permitas que los niños usen un inflable con viento fuerte."
   - question: "¿Los inflables son seguros bajo la lluvia?"
-    answer: "No se recomienda su uso durante lluvia intensa. La superficie mojada de los inflables secos puede volverse resbalosa. Los inflables acuáticos sí están diseñados para uso con agua."
+    answer: "No se recomienda su uso durante lluvia intensa. La superficie mojada del inflable puede volverse resbalosa, y todos nuestros modelos son de uso en seco. Si llueve el día de tu evento, contáctanos: tenemos protocolo para reprogramar."
 ---
 
 ## Por qué la seguridad en inflables importa más de lo que crees
@@ -71,16 +71,6 @@ No todos los negocios de renta de inflables operan igual. Estas son las pregunta
 - **¿Tienen reseñas en Google o Facebook?** Busca opiniones reales de otros clientes, no solo los testimonios en su página.
 
 > **Red flags de un proveedor poco confiable:** precio anormalmente bajo, sin perfil en redes, no mencionan seguro, no tienen contrato escrito, piden pago total por adelantado sin recibo.
-
-## Inflables acuáticos: medidas de seguridad adicionales
-
-Los toboganes de agua, albercas inflables y parques acuáticos requieren atención extra:
-
-- Supervisa que los niños que no saben nadar no accedan a la alberca sin flotador
-- El agua debe llegar solo hasta la cintura de los niños más pequeños
-- La superficie del tobogán debe mojarse continuamente para evitar rozaduras
-- Nunca permitas clavados de cabeza en la alberca inflable
-- Ten siempre una toalla y ropa de cambio para los niños
 
 ## Qué hacer en caso de emergencia
 

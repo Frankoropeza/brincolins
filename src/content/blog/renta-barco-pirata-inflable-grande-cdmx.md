@@ -21,7 +21,7 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Qué tan grande es el barco pirata inflable?"
-    answer: "El barco pirata inflable es uno de nuestros modelos más grandes. Necesitas un área libre de al menos 7×5 metros más un metro de perímetro de seguridad por cada lado. La altura total supera los 4 metros, así que es ideal para espacios al aire libre o salones con techo alto."
+    answer: "El barco pirata inflable es el que más espacio pide de nuestro catálogo. Necesitas un área libre de al menos 8×6 metros más un metro de perímetro de seguridad por cada lado. La altura total es de 4.5 metros, así que es ideal para espacios al aire libre o salones con techo alto."
   - question: "¿El barco pirata inflable incluye tobogán?"
     answer: "Sí, el barco pirata inflable cuenta con un tobogán integrado en la parte trasera del barco. Los niños suben por un lado, exploran la cubierta del barco y se deslizan por el tobogán. Es una experiencia completa de juego que combina saltar, escalar y deslizarse."
   - question: "¿Para qué edades es adecuado el barco pirata?"
@@ -69,7 +69,7 @@ Por su tamaño y las actividades que ofrece, el **barco pirata inflable** está 
 
 El barco pirata es un **inflable de gran formato**, y como tal requiere espacio generoso. Antes de reservar, verifica que tu espacio cumpla con estos requisitos:
 
-- **Área mínima:** 7 × 5 metros de espacio libre, más 1.5 metros de perímetro de seguridad por cada lado
+- **Área mínima:** 8 × 6 metros de espacio libre, más 1.5 metros de perímetro de seguridad por cada lado
 - **Altura libre:** Al menos 5 metros sin obstáculos (cables eléctricos, ramas de árboles, techos bajos)
 - **Superficie:** Piso plano y firme — pasto, concreto, adoquín o tierra compacta
 - **Electricidad:** Una toma de corriente de 110V a menos de 20 metros del punto de instalación para el motor de inflado continuo

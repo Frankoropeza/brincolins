@@ -56,7 +56,7 @@ Nuestro **inflable [Mini Jungla](/inflables/mini-jungla/)** es la opción estrel
 
 ### Consideraciones de espacio y logística
 
-Antes de elegir el inflable, evalúa el espacio disponible para tu fiesta. El Mini Jungla requiere un área mínima de 4×4 metros más perímetro de seguridad. Si tu fiesta es en un salón, verifica la altura del techo (mínimo 3.5 metros). Si es en jardín, asegúrate de tener acceso a electricidad para el motor de inflado continuo.
+Antes de elegir el inflable, evalúa el espacio disponible para tu fiesta. El Mini Jungla mide 4.5×4×3.5 metros y requiere un área mínima de 6×5 metros incluyendo el perímetro de seguridad. Por sus 3.5 metros de altura va en exterior — jardín, patio o explanada — donde además tendrás acceso a electricidad para el motor de inflado continuo. Si tu fiesta es en salón, el Mini Castillo (2×2×2.5 m) es el único modelo que entra cómodamente.
 
 ## Ideas de decoración para una fiesta safari completa
 

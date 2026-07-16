@@ -63,12 +63,12 @@ La transparencia en los costos es fundamental para que puedas planear sin sorpre
 
 | Elemento | Fiesta íntima (hasta 20 niños) | Fiesta mediana (20-50 niños) | Fiesta grande (+50 niños) |
 |---|---|---|---|
-| Inflable BRINCOLINS | $800 - $1,200 MXN | $1,200 - $2,500 MXN | $2,500 - $3,000 MXN |
+| Inflable BRINCOLINS | $800 - $1,200 MXN | $1,200 - $1,800 MXN | $1,700 - $1,900 MXN |
 | Arco orgánico de globos | $800 - $1,200 MXN | $1,200 - $2,000 MXN | $2,000 - $4,000 MXN |
 | Backdrop temático | $600 - $1,000 MXN | $1,000 - $1,800 MXN | $1,800 - $3,500 MXN |
 | Centros de mesa (por pieza) | $80 - $150 MXN | $80 - $150 MXN | $80 - $150 MXN |
 | Decoración adicional (banderines, etc.) | $200 - $400 MXN | $400 - $700 MXN | $700 - $1,500 MXN |
-| **Total estimado** | **$2,400 - $3,950 MXN** | **$3,880 - $7,150 MXN** | **$7,080 - $12,150 MXN** |
+| **Total estimado** | **$2,400 - $3,950 MXN** | **$3,880 - $6,450 MXN** | **$6,280 - $11,050 MXN** |
 
 Estos rangos son orientativos. Para obtener una cotización exacta adaptada a tu evento, espacio y tema, escríbenos por WhatsApp al **5531281706**. También puedes revisar nuestros [servicios completos](/servicios/) para ver las opciones de paquetes que ya incluyen varios elementos combinados.
 

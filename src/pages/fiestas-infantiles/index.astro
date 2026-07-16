@@ -44,7 +44,7 @@ const porEdad = [
   {
     rango: "3 a 12 años",
     title: "Barco Pirata con tobogán",
-    desc: "7×5×4 metros con tobogán de altura y zona de brinco amplia para 10-15 niños. Perfecto para fiestas numerosas. Desde $2,500 MXN.",
+    desc: "7×5×4.5 metros con tobogán de altura y zona de brinco amplia para 8-10 niños. Perfecto para fiestas numerosas. Desde $1,800 MXN.",
     img: "/img/inflables/barco-pirata.avif",
     href: "/inflables/barco-pirata/",
     cta: "Ver Barco Pirata",
@@ -52,7 +52,7 @@ const porEdad = [
   {
     rango: "6 años en adelante",
     title: "Circuito Extremo",
-    desc: "12 metros de obstáculos con doble carril para competencias. El favorito de adolescentes, kermeses y eventos. Desde $3,000 MXN.",
+    desc: "7 metros de obstáculos con doble carril para competencias. El favorito de adolescentes, kermeses y eventos. Desde $1,900 MXN.",
     img: "/img/inflables/extremo.avif",
     href: "/inflables/extremo/",
     cta: "Ver Circuito Extremo",
@@ -61,10 +61,10 @@ const porEdad = [
 
 // ── Catálogo destacado (mismas cards del sitio) ──
 const productos = [
-  { slug: "mini-castillo", emoji: "", name: "Mini Castillo", description: "Brincolín compacto diseñado para bebés y niños pequeños. Paredes suaves, fácil supervisión. Perfecto para interiores y espacios reducidos.", price: "$800", size: "2×2×2m", ages: "1-4 años", category: "Chico", categoryColor: "castillo", gradient: "#FF3D00, #ff6d3f", image: "/img/inflables/mini-castillo.avif" },
-  { slug: "dragones-rojos", emoji: "", name: "Dragones Rojos", description: "El inflable más rentado en CDMX y Estado de México. Dos dragones gigantes de 3 metros con resbaladilla integrada y mallas de seguridad.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
-  { slug: "castillo-princesas", emoji: "", name: "Castillo de Princesas", description: "Castillo inflable rosa y turquesa con dos princesas de 3 metros de altura y resbaladilla incluida. El favorito para fiestas de niñas.", price: "$1,200", size: "4×4×3m", ages: "4-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
-  { slug: "barco-pirata", emoji: "", name: "Barco Pirata", description: "Épico barco pirata con velas, mástil de 4 metros y tobogán gigante. Capacidad para 10-15 niños simultáneamente.", price: "$2,500", size: "7×5×4m", ages: "3-12 años", category: "Grande", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
+  { slug: "mini-castillo", emoji: "", name: "Mini Castillo", description: "Brincolín compacto diseñado para bebés y niños pequeños. Paredes suaves, fácil supervisión. Perfecto para interiores y espacios reducidos.", price: "$800", size: "2×2×2.5m", ages: "1-4 años", category: "Chico", categoryColor: "castillo", gradient: "#FF3D00, #ff6d3f", image: "/img/inflables/mini-castillo.avif" },
+  { slug: "dragones-rojos", emoji: "", name: "Dragones Rojos", description: "El inflable más rentado en CDMX y Estado de México. Dos dragones gigantes con resbaladilla integrada y mallas de seguridad.", price: "$1,200", size: "4×4×3.8m", ages: "4-10 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
+  { slug: "castillo-princesas", emoji: "", name: "Castillo de Princesas", description: "Castillo inflable rosa y turquesa con dos princesas decorativas y resbaladilla incluida. El favorito para fiestas de niñas.", price: "$1,200", size: "4×4×3.5m", ages: "4-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
+  { slug: "barco-pirata", emoji: "", name: "Barco Pirata", description: "Épico barco pirata con velas, mástil de 4 metros y tobogán gigante. Capacidad para 8-10 niños simultáneamente.", price: "$1,800", size: "7×5×4.5m", ages: "4+ años", category: "Grande", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
 ];
 
 // ── Todo incluido (inc-card homologado con el resto del sitio) ──
@@ -82,7 +82,7 @@ const pricingPackages = [
   {
     name: "Inflable Básico",
     price: "$800",
-    priceNote: "por evento · hasta 8 horas",
+    priceNote: "por evento · 4 a 6 horas",
     description: "Ideal para fiestas pequeñas con los más chiquitos. Mini castillo para interiores y espacios reducidos.",
     features: [
       { text: "Mini Castillo (1–4 años)", included: true },
@@ -100,7 +100,7 @@ const pricingPackages = [
     badge: "Más popular",
     highlight: true,
     price: "$1,200",
-    priceNote: "por evento · hasta 8 horas",
+    priceNote: "por evento · 4 a 6 horas",
     description: "El favorito para cumpleaños infantiles. Castillos y temáticos medianos para niños de 4 a 10 años.",
     features: [
       { text: "Dragones, Princesas, Jungla o Gusanitos", included: true },
@@ -115,8 +115,8 @@ const pricingPackages = [
   },
   {
     name: "Inflable Grande",
-    price: "$2,500",
-    priceNote: "por evento · hasta 8 horas",
+    price: "$1,700",
+    priceNote: "por evento · 4 a 6 horas",
     description: "Para fiestas grandes con tobogán. Barco Pirata y Castillo Blanco para eventos que impactan.",
     features: [
       { text: "Barco Pirata o Castillo Blanco", included: true },
@@ -131,9 +131,9 @@ const pricingPackages = [
   },
   {
     name: "Inflable Extremo",
-    price: "$3,000",
-    priceNote: "por evento · hasta 8 horas",
-    description: "Circuito de obstáculos de 12 m con doble carril. Para adolescentes, kermeses y eventos escolares.",
+    price: "$1,900",
+    priceNote: "por evento · 4 a 6 horas",
+    description: "Circuito de obstáculos de 7 m con doble carril. Para adolescentes, kermeses y eventos escolares.",
     features: [
       { text: "Circuito Extremo (6+ años)", included: true },
       { text: "Entrega, instalación y recolección", included: true },
@@ -184,19 +184,19 @@ const testimonios = [
 // ── Guías recomendadas del blog (interlinking) ──
 const guias = [
   { href: "/blog/como-elegir-inflable-fiesta-infantil/", img: "/img/blog/como-elegir-inflable-fiesta-infantil/main.avif", title: "Cómo elegir el inflable perfecto", desc: "Tamaño, edad, espacio disponible y presupuesto: la guía completa para no equivocarte." },
-  { href: "/blog/cuanto-cuesta-rentar-inflable-cdmx/", img: "/img/blog/blog-cuanto-cuesta-rentar-inflable-cdmx.avif", title: "¿Cuánto cuesta rentar un inflable?", desc: "Guía de precios 2026: desde $800 hasta $3,000 MXN. Qué incluye cada paquete y cómo ahorrar." },
+  { href: "/blog/cuanto-cuesta-rentar-inflable-cdmx/", img: "/img/blog/blog-cuanto-cuesta-rentar-inflable-cdmx.avif", title: "¿Cuánto cuesta rentar un inflable?", desc: "Guía de precios 2026: desde $800 hasta $1,900 MXN. Qué incluye cada paquete y cómo ahorrar." },
   { href: "/blog/seguridad-inflables-fiestas-infantiles/", img: "/img/blog/blog-seguridad-inflables-fiestas-infantiles.avif", title: "Seguridad en inflables", desc: "Cómo revisar un inflable, reglas de uso por edad y cómo identificar un proveedor seguro." },
   { href: "/blog/brincolin-vs-otras-alternativas-fiesta-infantil/", img: "/img/blog/blog-elegir-inflable-fiesta-infantil-cdmx.avif", title: "Brincolín vs. otras alternativas", desc: "Comparativa real: inflable, show infantil, trampolín o salón de juegos. Qué conviene según tu fiesta." },
 ];
 
 // ── FAQ (schema FAQPage vía PageLayout) ──
 const faqs = [
-  { question: "¿Cuánto cuesta rentar un inflable para una fiesta infantil?", answer: "Desde $800 MXN por evento (hasta 8 horas) para el Mini Castillo de bebés. Los brincolines medianos para niños de 4 a 10 años —Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos— cuestan $1,200 MXN. El Barco Pirata con tobogán cuesta $2,500 MXN y el Circuito Extremo $3,000 MXN. Todos los precios incluyen entrega, instalación, sanitización, seguro y recolección." },
+  { question: "¿Cuánto cuesta rentar un inflable para una fiesta infantil?", answer: "Desde $800 MXN por evento (de 4 a 6 horas) para el Mini Castillo de bebés. Los brincolines medianos para niños de 4 a 10 años van de $1,200 a $1,350 MXN: Dragones Rojos $1,200, Castillo de Princesas $1,200, Mini Jungla $1,300 y Gusanitos $1,350. El Castillo Blanco cuesta $1,700 MXN, el Barco Pirata con tobogán $1,800 MXN y el Circuito Extremo $1,900 MXN. Todos los precios incluyen entrega, instalación, sanitización, seguro y recolección." },
   { question: "¿Qué inflable es mejor según la edad de los niños?", answer: "Para 1-4 años, el Mini Castillo (paredes suaves, altura baja, apto para interiores). Para 4-10 años, cualquier mediano: Dragones Rojos, Castillo de Princesas, Mini Jungla o Gusanitos. Para fiestas numerosas de 3-12 años, el Barco Pirata con tobogán. Para 6+ años, adolescentes y kermeses, el Circuito Extremo de obstáculos." },
   { question: "¿Los inflables están limpios y son seguros para los niños?", answer: "Sí. Cada inflable se limpia y desinfecta con protocolo de sanitización certificado antes de cada evento, está fabricado con materiales de grado comercial, se instala con anclajes verificados y cuenta con seguro de responsabilidad civil incluido en el precio." },
   { question: "¿Qué pasa si llueve el día de la fiesta infantil?", answer: "Reprogramamos tu evento sin costo adicional en la fecha disponible que prefieras. No pierdes tu anticipo ni pagas cargos extra por mover la fecha a causa del clima." },
-  { question: "¿Puedo poner el inflable dentro de un salón o departamento?", answer: "Sí, el Mini Castillo (2×2×2 m) está diseñado para interiores y solo necesita ~3×3 m de espacio y una toma de corriente. Los medianos requieren techos de al menos 3.5 m de altura, comunes en salones de fiestas." },
-  { question: "¿Qué tamaño de inflable necesito según el número de invitados?", answer: "Para fiestas de hasta 8 niños basta el Mini Castillo ($800 MXN) o un mediano; de 8 a 15 invitados el punto ideal es un mediano de $1,200 MXN (5-7 niños brincando a la vez); de 15 a 30 conviene un grande como el Barco Pirata ($2,500 MXN) con capacidad de 10-15 niños simultáneos; y para más de 30 niños o kermeses se combinan dos o más inflables separados por edad, con precio especial por volumen." },
+  { question: "¿Puedo poner el inflable dentro de un salón o departamento?", answer: "Sí, el Mini Castillo (2×2×2.5 m) está diseñado para interiores y solo necesita ~3×3 m de espacio, 2.5 m de altura libre y una toma de corriente. Los medianos requieren techos más altos: el Castillo de Princesas y la Mini Jungla miden 3.5 m de alto y los Dragones Rojos 3.8 m, así que necesitas un salón con esa altura libre." },
+  { question: "¿Qué tamaño de inflable necesito según el número de invitados?", answer: "Para fiestas de hasta 8 niños basta el Mini Castillo ($800 MXN) o un mediano; de 8 a 15 invitados el punto ideal es un mediano desde $1,200 MXN (5-7 niños brincando a la vez); de 15 a 30 conviene un grande como el Barco Pirata ($1,800 MXN), con capacidad de 8-10 niños simultáneos y rotación por turnos; y para más de 30 niños o kermeses se combinan dos o más inflables separados por edad, con precio especial por volumen." },
   { question: "¿Con cuánta anticipación debo reservar para un cumpleaños?", answer: "Recomendamos 1-2 semanas de anticipación, especialmente para sábados y domingos. En temporada alta (diciembre, fin de cursos) conviene apartar antes. Si tu fecha es pronto, pregunta: a veces hay disponibilidad de último momento." },
   { question: "¿Entregan inflables en Ecatepec, Naucalpan y otros municipios del Edomex?", answer: "Sí. Entregamos en los principales municipios del Estado de México: Ecatepec, Naucalpan, Tlalnepantla, Nezahualcóyotl, Huixquilucan, Atizapán, Cuautitlán Izcalli, Coacalco, Tecámac y zona de Toluca, además de las 16 alcaldías de CDMX. Consulta el costo de envío de tu zona por WhatsApp." },
 ];
@@ -329,7 +329,7 @@ const faqs = [
         badge="Precios"
         title="Precios de Inflables para Fiestas Infantiles 2026"
         subtitle="Opciones para cada presupuesto. Todo incluido, desde $800 MXN."
-        copy1="Nuestros precios son por evento completo (hasta 8 horas) e incluyen entrega, instalación, motor de inflado, sanitización, seguro de responsabilidad civil y recolección. No hay costos ocultos ni sorpresas al momento de pagar."
+        copy1="Nuestros precios son por evento completo (de 4 a 6 horas) e incluyen entrega, instalación, motor de inflado, sanitización, seguro de responsabilidad civil y recolección. No hay costos ocultos ni sorpresas al momento de pagar."
         copy2="El precio final puede variar según la distancia de entrega. Cotiza por WhatsApp para recibir una propuesta exacta según tu zona y la fecha de tu fiesta. También puedes consultar la lista completa en la página de precios."
       />
       <PricingCards packages={pricingPackages} />

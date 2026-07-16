@@ -20,11 +20,11 @@ tags:
   - "inflables grandes con tobogán"
 faqs:
   - question: "¿Qué es más barato: un brincolín clásico o un tobogán inflable?"
-    answer: "El brincolín clásico. En CDMX un brincolín mediano con resbaladilla integrada (Dragones Rojos, Castillo de Princesas) cuesta $1,200 MXN por evento de hasta 8 horas, mientras que un inflable grande con tobogán como el Barco Pirata cuesta $2,500 MXN. Ambos incluyen entrega, instalación, sanitización, seguro de responsabilidad civil y recolección."
+    answer: "El brincolín clásico. En CDMX un brincolín mediano con resbaladilla integrada (Dragones Rojos, Castillo de Princesas) cuesta $1,200 MXN por evento de 4 a 6 horas, mientras que un inflable grande con tobogán como el Barco Pirata cuesta $1,800 MXN. Ambos incluyen entrega, instalación, sanitización, seguro de responsabilidad civil y recolección."
   - question: "¿Desde qué edad pueden usar un tobogán inflable los niños?"
-    answer: "Los inflables con tobogán como el Barco Pirata están recomendados de 3 a 12 años, porque subir la escalera y deslizarse requiere más coordinación que solo brincar. Para bebés de 1 a 4 años lo seguro es un brincolín de piso como el Mini Castillo, con paredes suaves y sin alturas."
+    answer: "Los inflables con tobogán como el Barco Pirata están recomendados desde los 4 años, porque subir la escalera y deslizarse requiere más coordinación que solo brincar. Para bebés de 1 a 4 años lo seguro es un brincolín de piso como el Mini Castillo, con paredes suaves y sin alturas."
   - question: "¿Cuánto espacio necesita un inflable con tobogán comparado con un brincolín?"
-    answer: "Un brincolín mediano necesita unos 5×5 m de espacio libre (el inflable mide 4×4×3 m). El Barco Pirata con tobogán mide 7×5×4 m, así que necesitas al menos 8×6 m y 4.5 m de altura libre — normalmente jardín, patio grande o explanada. En ambos casos se requiere una toma de corriente a menos de 30 m."
+    answer: "Un brincolín mediano necesita unos 5×5 m de espacio libre (Dragones Rojos mide 4×4×3.8 m y Castillo de Princesas 4×4×3.5 m). El Barco Pirata con tobogán mide 7×5×4.5 m, así que necesitas al menos 8×6 m y 4.5 m de altura libre — normalmente jardín, patio grande o explanada. En ambos casos se requiere una toma de corriente a menos de 30 m."
   - question: "¿Se puede combinar un brincolín y un tobogán inflable en el mismo evento?"
     answer: "Sí, y es la configuración más común en kermeses y eventos escolares: un brincolín para los pequeños de 1-4 años y un inflable grande con tobogán para los mayores. Al rentar dos o más inflables en BRINCOLINS puedes pedir cotización de paquete por WhatsApp al 55 3128 1706."
 ---
@@ -35,27 +35,27 @@ Los dos tipos hacen cosas distintas: el **brincolín clásico** es una zona de b
 
 | Criterio | Brincolín clásico | Inflable con tobogán |
 |---|---|---|
-| **Precio en CDMX (2026)** | $800 – $1,200 MXN | $2,500 – $3,000 MXN |
-| **Edades recomendadas** | 1 a 10 años | 3 a 12 años |
-| **Capacidad simultánea** | 3 – 7 niños | 10 – 15 niños |
+| **Precio en CDMX (2026)** | $800 – $1,350 MXN | $1,700 – $1,900 MXN |
+| **Edades recomendadas** | 1 a 10 años | Desde 4 años |
+| **Capacidad simultánea** | 3 – 7 niños | 8 – 10 niños |
 | **Espacio necesario** | Desde 3×3 m | Desde 8×6 m |
-| **Altura libre** | 2.5 – 3.5 m | 4.5 m o exterior |
+| **Altura libre** | 2.5 m (Mini Castillo) – 3.8 m (Dragones Rojos) | 4.5 m o exterior |
 | **Interior / departamento** | Sí (Mini Castillo) | No, solo exteriores amplios |
 | **Impacto visual** | Medio | Alto — es la foto de la fiesta |
 
 ## Cuándo conviene el brincolín clásico
 
-El brincolín es la opción correcta para **la mayoría de los cumpleaños en casa**. Un modelo mediano como los [Dragones Rojos](/inflables/dragones-rojos/) o el [Castillo de Princesas](/inflables/castillo-princesas/) cuesta **$1,200 MXN por hasta 8 horas**, cabe en patios y jardines normales de CDMX y ya trae resbaladilla integrada de baja altura — los niños no extrañan el tobogán grande.
+El brincolín es la opción correcta para **la mayoría de los cumpleaños en casa**. Un modelo mediano como los [Dragones Rojos](/inflables/dragones-rojos/) o el [Castillo de Princesas](/inflables/castillo-princesas/) cuesta **$1,200 MXN por 4 a 6 horas**, cabe en patios y jardines normales de CDMX y ya trae resbaladilla integrada de baja altura — los niños no extrañan el tobogán grande.
 
-Para fiestas de bebés (1 a 4 años) o espacios interiores, el [Mini Castillo](/inflables/mini-castillo/) de **$800 MXN** es la única opción realmente segura: paredes suaves, sin escaleras y solo 2×2×2 m.
+Para fiestas de bebés (1 a 4 años) o espacios interiores, el [Mini Castillo](/inflables/mini-castillo/) de **$800 MXN** es la única opción realmente segura: paredes suaves, sin escaleras y solo 2×2×2.5 m.
 
 **Elígelo si:** la fiesta es en casa, los niños tienen menos de 10 años, tu espacio libre es menor a 8×6 m o tu presupuesto de entretenimiento es de ~$1,200 MXN.
 
 ## Cuándo conviene el tobogán inflable
 
-El inflable con tobogán es el rey de las **fiestas numerosas y los espacios grandes**. El [Barco Pirata](/inflables/barco-pirata/) (7×5×4 m, **$2,500 MXN**) recibe 10-15 niños a la vez entre zona de brinco, mástil y tobogán gigante — con 20 o más invitados, un brincolín mediano se queda corto y se forma fila.
+El inflable con tobogán es el rey de las **fiestas numerosas y los espacios grandes**. El [Barco Pirata](/inflables/barco-pirata/) (7×5×4.5 m, **$1,800 MXN**) es el modelo más grande del catálogo y recibe 8-10 niños a la vez entre zona de brinco, mástil y tobogán gigante — con 20 o más invitados, un brincolín mediano se queda corto y se forma fila.
 
-Además del rendimiento, está el efecto visual: un barco de 4 metros de altura con velas **es la decoración de la fiesta**. Para eventos escolares y kermeses, el [Circuito Extremo](/inflables/extremo/) de 12 metros ($3,000 MXN) escala todavía más con doble carril para competencias.
+Además del rendimiento, está el efecto visual: un barco de 4.5 metros de altura con velas **es la decoración de la fiesta**. Para eventos escolares y kermeses, el [Circuito Extremo](/inflables/extremo/) de 7 metros ($1,900 MXN) escala todavía más con doble carril para competencias.
 
 **Elígelo si:** esperas más de 15 niños, la fiesta es en jardín amplio, salón con explanada o kermés, y los niños tienen 3 años o más.
 

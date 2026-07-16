@@ -258,7 +258,7 @@ La documentación post-kermesse es la inversión más rentable que puede hacer u
 ## Los errores más comunes al organizar kermesses con inflables (y cómo evitarlos)
 
 **Error 1: Contratar tarde**
-El error más frecuente y el más costoso. Los inflables de mayor demanda —Barco Pirata ($2,500) y Extremo ($3,000)— se agotan con semanas de anticipación en temporada alta. En mayo y junio, que es cuando concentramos la mayor parte de las kermesses de fin de ciclo en CDMX y Edomex, la lista de espera puede ser de semanas. Solución: inicia el proceso de cotización y reservación en la Fase 1, cuando faltan 8 semanas.
+El error más frecuente y el más costoso. Los inflables de mayor demanda —Barco Pirata ($1,800) y Extremo ($1,900)— se agotan con semanas de anticipación en temporada alta. En mayo y junio, que es cuando concentramos la mayor parte de las kermesses de fin de ciclo en CDMX y Edomex, la lista de espera puede ser de semanas. Solución: inicia el proceso de cotización y reservación en la Fase 1, cuando faltan 8 semanas.
 
 **Error 2: No verificar la capacidad eléctrica**
 Conectar el motor de un inflable a un circuito sobrecargado provoca cortes de luz que interrumpen el evento en los peores momentos. Solución: habla directamente con el encargado de mantenimiento de la escuela —no con la secretaria, no con el director— y pregúntale cuántos amperes hay disponibles en el área del patio y en qué circuitos.
@@ -277,10 +277,10 @@ Los accidentes en inflables casi siempre ocurren por uso inadecuado: demasiados 
 | Asistentes estimados | Inflables recomendados | Costo aproximado inflables | Presupuesto total evento sugerido |
 |---|---|---|---|
 | 100-200 personas | 1 inflable mediano ($1,200) | $1,200 | $8,000 - $15,000 |
-| 200-400 personas | 1 inflable grande ($2,500) | $2,500 | $15,000 - $25,000 |
-| 400-600 personas | 2 inflables ($1,200 + $2,500) | $3,700 | $25,000 - $40,000 |
-| 600-900 personas | 3 inflables ($3,000 + $2,500 + $1,200) | $6,700 | $40,000 - $65,000 |
-| Más de 900 personas | 4+ inflables (combinación) | $8,000+ | $65,000+ |
+| 200-400 personas | 1 inflable grande ($1,800) | $1,800 | $15,000 - $25,000 |
+| 400-600 personas | 2 inflables ($1,200 + $1,800) | $3,000 | $25,000 - $40,000 |
+| 600-900 personas | 3 inflables ($1,900 + $1,800 + $1,200) | $4,900 | $40,000 - $65,000 |
+| Más de 900 personas | 4+ inflables (combinación) | $6,000+ | $65,000+ |
 
 *Los costos de inflables corresponden al catálogo vigente de BRINCOLINS. El presupuesto total del evento incluye comida, decoración, sonido, mobiliario y otros proveedores además de los inflables.*
 

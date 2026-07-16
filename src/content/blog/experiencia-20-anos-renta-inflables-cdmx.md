@@ -1,7 +1,7 @@
 ---
 title: "Más de 20 Años Rentando Inflables en CDMX: Lo que la."
 description: "Descubre cómo 20+ años de experiencia en renta de inflables en CDMX forjan la diferencia: seguridad, puntualidad, limpieza y conocimiento profundo del mercado."
-excerpt: "Desde los materiales hasta la logística de 500 eventos anuales: lo que solo aprende un proveedor de inflables que lleva décadas operando en Ciudad de México y Estado de México."
+excerpt: "Desde los materiales hasta la logística de cada montaje: lo que solo aprende un proveedor de inflables que lleva décadas operando en Ciudad de México y Estado de México."
 publishDate: "2026-06-11"
 category: "Empresa"
 author: "Equipo BRINCOLINS"
@@ -120,7 +120,7 @@ Comenzamos cuando el mercado de inflables en México era todavía pequeño y los
 
 El resultado es un servicio en el que los clientes pueden confiar desde el momento en que reservan. No porque prometamos mucho — sino porque nuestro historial demuestra que cumplimos.
 
-Tenemos disponibles inflables desde **$800 MXN** (Mini Castillo) hasta modelos como el Barco Pirata (**$2,500 MXN**), el Castillo Blanco (**$2,800 MXN**) y el Extremo (**$3,000 MXN**), con cobertura en toda la Ciudad de México y Estado de México.
+Tenemos disponibles inflables desde **$800 MXN** (Mini Castillo) hasta modelos como el Castillo Blanco (**$1,700 MXN**), el Barco Pirata (**$1,800 MXN**) y el Extremo (**$1,900 MXN**), con cobertura en toda la Ciudad de México y Estado de México.
 
 Consulta nuestro **[catálogo completo](/inflables/)**, revisa nuestros **[servicios de renta](/servicios/renta-de-inflables/)** o contáctanos directamente por WhatsApp al **5531281706** para platicar sobre tu próximo evento.
 

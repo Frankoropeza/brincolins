@@ -36,7 +36,7 @@ Antes de comprar un solo globo, **pregúntale al cumpleañero qué temática qui
 
 ## Idea #2: El inflable como estrella central
 
-Un brincolín no es solo diversión — es el centro de atención de la fiesta y mantiene a los niños ocupados durante horas. Elige un inflable que **vaya con la temática**: el [Castillo de Princesas](/inflables/castillo-princesas/) para fiestas de cuento de hadas, el [Barco Pirata](/inflables/barco-pirata/) para aventureros, o el Tobogán Acuático para fiestas de verano.
+Un brincolín no es solo diversión — es el centro de atención de la fiesta y mantiene a los niños ocupados durante horas. Elige un inflable que **vaya con la temática**: el [Castillo de Princesas](/inflables/castillo-princesas/) para fiestas de cuento de hadas, el [Barco Pirata](/inflables/barco-pirata/) para aventureros, el [Mini Jungla](/inflables/mini-jungla/) para safaris o el [Extremo](/inflables/extremo/) para los que quieren retos y carreras.
 
 > El inflable suele ocupar a los niños 2-3 horas seguidas. Colócalo lejos de la mesa de adultos para que los papás puedan platicar con calma.
 
@@ -44,7 +44,7 @@ Un brincolín no es solo diversión — es el centro de atención de la fiesta y
 
 En la Ciudad de México tienes varias opciones de espacio. Cada una tiene ventajas:
 
-- **Jardín en casa:** Lo más económico, mayor libertad, pero requiere espacio mínimo de 4×4m para un inflable básico
+- **Jardín en casa:** Lo más económico, mayor libertad, pero requiere espacio mínimo de 3×3 m para el Mini Castillo, nuestro modelo más compacto
 - **Salón de fiestas:** Incluye instalaciones, meseros y cocina, pero necesitas confirmar que acepten inflables externos
 - **Parque o jardín público:** Ambiente natural y amplio, pero necesitas generador de electricidad para el inflable
 - **Azotea:** Muy de moda en Condesa, Roma y Polanco. Verifica el piso (necesita ser liso) y la altura libre
@@ -56,7 +56,7 @@ No necesitas contratar un chef para dar de comer bien en una fiesta infantil. Lo
 - **Taquiza:** El favorito de México. Fácil de servir, económico, todos comen.
 - **Pizza:** Ideal para niños de 6+ años. Ordena con 48h de anticipación.
 - **Hotdogs/hamburguesas:** Rápidos de preparar en casa. Los niños los adoran.
-- **Fruta y verduras:** Un puesto de fruta fresca siempre es bienvenido, especialmente si hay tobogán acuático.
+- **Fruta y verduras:** Un puesto de fruta fresca siempre es bienvenido, sobre todo si la fiesta es al aire libre y hace calor.
 
 ## Idea #5: Actividades fuera del inflable
 

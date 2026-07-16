@@ -75,7 +75,7 @@ No incluye (puede tener costo extra):
 
 - Supervisión permanente de niños (responsabilidad de los padres)
 - Generador eléctrico (si no hay toma de corriente)
-- Horas extra más allá de las 8 horas estándar
+- Horas extra más allá de las 4 a 6 horas estándar
 - Zonas fuera del radio de cobertura estándar
 
 ## 5. La supervisión es tu responsabilidad

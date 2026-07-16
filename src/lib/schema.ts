@@ -30,7 +30,7 @@ export interface ProductSchemaInput {
   name:        string;
   description: string;
   image:       string;          // ruta relativa, ej. "/img/inflables/extremo.avif"
-  price:       string | number; // acepta "$3,000", "3000" o 3000
+  price:       string | number; // acepta "$1,900", "1900" o 1900
   canonical:   string;
 }
 
@@ -86,7 +86,7 @@ export function buildLocalBusinessSchema() {
     "description": "Empresa líder en renta de inflables y brincolines para fiestas infantiles en CDMX y Estado de México. Más de 20 años de experiencia, entrega e instalación incluida.",
     "telephone": PHONE_TEL,
     "email": EMAIL,
-    "priceRange": "$",
+    "priceRange": "$800 - $1,900",
     "currenciesAccepted": "MXN",
     "paymentAccepted": "Transferencia, Tarjeta, Efectivo",
     "openingHoursSpecification": [

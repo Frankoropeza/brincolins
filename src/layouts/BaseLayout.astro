@@ -24,7 +24,7 @@ export interface ProductSeo {
   description: string;
   image:       string;
   /* string | number: lib/schema.ts lo normaliza con normalizePrice(), que
-     acepta "$3,000", "3000" o 3000. Declararlo solo como string producía
+     acepta "$1,900", "1900" o 1900. Declararlo solo como string producía
      4 errores ts(2322) en las páginas que pasan el precio numérico. */
   price:       string | number;
 }

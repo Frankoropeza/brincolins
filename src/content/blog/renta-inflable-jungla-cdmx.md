@@ -22,9 +22,9 @@ faqs:
   - question: "¿Para qué edades es adecuado el inflable Mini Jungla?"
     answer: "El inflable Mini Jungla está diseñado para niños de 2 a 10 años. Los más pequeños (2-4 años) lo disfrutan con supervisión cercana de un adulto, mientras que los niños de 5 a 10 años pueden brincar y jugar con total libertad gracias a sus paredes protectoras y materiales acolchados."
   - question: "¿Cuánto espacio necesito para instalar el inflable de jungla?"
-    answer: "Necesitas un área libre de al menos 4×4 metros con 1 metro de perímetro de seguridad y acceso a una toma de corriente de 110V. El piso debe ser plano — funciona en pasto, concreto o piso firme. Nuestro equipo verifica el espacio antes de instalar."
+    answer: "Necesitas un área libre de al menos 6×5 metros con 1 metro de perímetro de seguridad y acceso a una toma de corriente de 110V. El piso debe ser plano — funciona en pasto, concreto o piso firme. Nuestro equipo verifica el espacio antes de instalar."
   - question: "¿El inflable de jungla se puede instalar en interiores?"
-    answer: "Sí, el Mini Jungla es uno de nuestros modelos más compactos y se adapta perfectamente a salones de fiestas, patios techados y jardines pequeños. Solo necesitas verificar la altura libre (mínimo 3.5 metros) y la toma de corriente cercana."
+    answer: "El Mini Jungla mide 4.5×4×3.5 m y necesita 6×5 m de espacio libre, así que su lugar natural es el exterior: jardín, patio o explanada. Sus 3.5 metros de altura hacen que un salón o patio techado rara vez funcione — tendría que superar esa altura con margen. Si tu evento es en interior, el Mini Castillo (2×2×2.5 m) es el modelo indicado. Pásanos las medidas de tu espacio y te confirmamos sin costo."
   - question: "¿Puedo combinar el inflable de jungla con decoración safari?"
     answer: "¡Es la combinación perfecta! El diseño tropical del Mini Jungla se complementa ideal con globos verdes y dorados, animales de peluche, hojas tropicales artificiales y manteles con estampado animal print. Muchos clientes logran fiestas espectaculares con esta temática."
 ---
@@ -83,8 +83,8 @@ La clave para una fiesta memorable no es gastar mucho dinero, sino que todos los
 
 Antes de reservar el inflable de jungla, verifica que tu espacio cumpla con estos requisitos básicos de instalación:
 
-- **Área mínima:** 4 × 4 metros de espacio libre, más 1 metro de perímetro de seguridad por cada lado (total: 6 × 6 metros ideales)
-- **Altura libre:** Al menos 3.5 metros sin obstáculos como cables, ramas, techos bajos o tendederos
+- **Área mínima:** 6 × 5 metros de espacio libre. El inflable mide 4.5 × 4 metros, así que esos 6 × 5 ya incluyen el perímetro de seguridad alrededor
+- **Altura libre:** El Mini Jungla mide 3.5 metros de alto, así que necesita esa altura con margen y sin obstáculos como cables, ramas, techos bajos o tendederos
 - **Superficie:** Piso plano y firme — funciona perfectamente en pasto, concreto, adoquín, loseta o piso de salón de fiestas
 - **Electricidad:** Una toma de corriente de 110V a menos de 15 metros del punto de instalación para el motor de inflado continuo
 - **Acceso vehicular:** Nuestro equipo necesita estacionar la camioneta cerca del punto de instalación para descargar el equipo

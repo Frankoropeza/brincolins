@@ -75,9 +75,9 @@ Al menos el 20% del espacio debe quedar libre para circulación: el camino desde
 
 | Tamaño del jardín | Inflable recomendado | Mesas picnic (aprox.) | Espacio circulación |
 |---|---|---|---|
-| 8×10 m (80 m²) | Mini Castillo (4×4 m) o Gusanitos | 2-3 mesas | 20-25 m² |
-| 10×15 m (150 m²) | Castillo Princesas, Barco Pirata o Mini Jungla (5×4 m) | 4-6 mesas | 35-45 m² |
-| 15×20 m (300 m²) | Dragones Rojos o Extremo (hasta 7×5 m) | 8-12 mesas | 60-80 m² |
+| 8×10 m (80 m²) | Mini Castillo (3×3 m) o Gusanitos (6×4 m) | 2-3 mesas | 20-25 m² |
+| 10×15 m (150 m²) | Castillo Princesas (5×5 m) o Mini Jungla (6×5 m) | 4-6 mesas | 35-45 m² |
+| 15×20 m (300 m²) | Dragones Rojos, Extremo (8×5 m) o Barco Pirata (8×6 m) | 8-12 mesas | 60-80 m² |
 | +20×20 m (+400 m²) | 2 inflables de cualquier modelo | 12-20 mesas | 80-120 m² |
 
 Para confirmar qué modelo de inflable funciona mejor en tu espacio específico, escríbenos por WhatsApp al **5531281706** y con gusto te asesoramos. También puedes explorar todo nuestro [catálogo de inflables](/inflables/) para comparar dimensiones.
@@ -86,15 +86,15 @@ Para confirmar qué modelo de inflable funciona mejor en tu espacio específico,
 
 No todos los inflables se comportan igual cuando se usan al aire libre. El sol directo, el viento, el pasto húmedo, la distancia a la toma de corriente — todos estos factores afectan el desempeño. Después de instalar inflables en jardines desde Tlalpan hasta Neza, estos son los modelos de BRINCOLINS que más consistentemente funcionan bien en exterior:
 
-**[Barco Pirata](/inflables/barco-pirata/)** — Uno de nuestros favoritos para jardines. Su diseño vertical aprovecha bien el espacio horizontal y su temática de aventura marina encaja naturalmente con el ambiente de fiesta en jardín. Los niños se vuelven piratas desde el momento en que lo ven. Desde **$2,500 MXN**.
+**[Barco Pirata](/inflables/barco-pirata/)** — Uno de nuestros favoritos para jardines. Su diseño vertical aprovecha bien el espacio horizontal y su temática de aventura marina encaja naturalmente con el ambiente de fiesta en jardín. Los niños se vuelven piratas desde el momento en que lo ven. Desde **$1,800 MXN**.
 
 **Dragones Rojos** — El modelo más solicitado para jardines grandes. Su tamaño permite acomodar muchos niños simultáneamente, reduciendo las filas de espera. Su colorido rojo y negro es llamativo incluso bajo la luz directa del sol del mediodía. Desde **$1,200 MXN**.
 
-**Mini Jungla** — Perfecto para jardines medianos y para niños de 3-8 años. Su temática de jungla verde complementa naturalmente cualquier espacio con vegetación — cuando está en un jardín con pasto y árboles, parece que fue diseñado exactamente para ese espacio. Desde **$1,200 MXN**.
+**Mini Jungla** — Perfecto para jardines medianos y para niños de 3-8 años. Su temática de jungla verde complementa naturalmente cualquier espacio con vegetación — cuando está en un jardín con pasto y árboles, parece que fue diseñado exactamente para ese espacio. Desde **$1,300 MXN**.
 
-**Extremo** — Para jardines amplios y fiestas con muchos niños mayores de 6 años. Su diseño de obstáculos y tobogán es la atracción más impactante de nuestro catálogo. Hemos visto papás formarse para usarlo. Desde **$3,000 MXN**.
+**Extremo** — Para jardines amplios y fiestas con muchos niños mayores de 6 años. Su diseño de obstáculos y tobogán es la atracción más impactante de nuestro catálogo. Hemos visto papás formarse para usarlo. Desde **$1,900 MXN**.
 
-**Mini Castillo** — La opción más compacta para jardines pequeños. Ocupa solo 4×4 metros y es ideal para grupos de hasta 15 niños. Ideal para jardines de casa en colonias donde el espacio es más limitado. Desde **$800 MXN**.
+**Mini Castillo** — La opción más compacta para jardines pequeños. Mide 2×2×2.5 metros, ocupa solo 3×3 metros de área libre y recibe 6-8 niños. Ideal para jardines de casa en colonias donde el espacio es más limitado, y el único modelo que entra en interiores con 2.5 m de altura libre. Desde **$800 MXN**.
 
 ## Tips de seguridad al aire libre: lo que todo papá debe saber
 

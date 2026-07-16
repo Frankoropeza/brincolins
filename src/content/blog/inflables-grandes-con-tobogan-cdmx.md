@@ -20,7 +20,7 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Cuánto espacio necesito para un inflable grande con tobogán?"
-    answer: "Los inflables grandes con tobogán requieren un área mínima de 7×5 metros más 1.5 metros de perímetro de seguridad por cada lado. La altura libre debe ser de al menos 5 metros. Son ideales para jardines amplios, explanadas, parques y salones con techo alto. Si no estás seguro, mándanos una foto del espacio por WhatsApp y te asesoramos."
+    answer: "Los inflables grandes con tobogán requieren un área mínima de 8×6 metros más 1.5 metros de perímetro de seguridad por cada lado. La altura libre debe ser de al menos 5 metros. Son ideales para jardines amplios, explanadas, parques y salones con techo alto. Si no estás seguro, mándanos una foto del espacio por WhatsApp y te asesoramos."
   - question: "¿Los inflables grandes con tobogán son seguros para niños?"
     answer: "Absolutamente. Todos nuestros inflables cumplen con normas de seguridad comercial. Los toboganes tienen paredes laterales altas, pendiente controlada y zonas de aterrizaje con colchón extra grueso. Además, cada renta incluye seguro de responsabilidad civil y nuestro equipo de instalación verifica las condiciones de seguridad antes de entregar el inflable."
   - question: "¿Para qué tipo de eventos funcionan los inflables grandes?"
@@ -66,7 +66,7 @@ Para eventos con más de 30 niños, muchos clientes optan por combinar un **infl
 
 Los **inflables grandes** requieren más espacio que un brincolín estándar. Antes de reservar, es fundamental verificar que tu espacio cumpla con los requisitos mínimos para una instalación segura. Aquí te detallamos las especificaciones generales:
 
-- **Área de instalación:** Mínimo 7 × 5 metros de espacio completamente libre, sin obstáculos ni objetos cerca.
+- **Área de instalación:** Mínimo 8 × 6 metros de espacio completamente libre, sin obstáculos ni objetos cerca.
 - **Perímetro de seguridad:** 1.5 metros adicionales por cada lado del inflable, libres de mesas, sillas, bardas o cualquier objeto contra el que un niño pueda chocar.
 - **Altura libre:** Al menos 5 metros sin cables eléctricos, ramas de árboles, lonas, techos bajos o cualquier obstáculo aéreo.
 - **Superficie del piso:** Plana y firme. Funciona en pasto, concreto, adoquín, tierra compacta o piso de loseta. No recomendamos arena suelta ni terrenos inclinados.

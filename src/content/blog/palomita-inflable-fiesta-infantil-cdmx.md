@@ -22,7 +22,7 @@ faqs:
   - question: "¿Cuánto tiempo antes debo instalar el inflable antes de la fiesta?"
     answer: "Lo recomendable es instalar el inflable entre 45 y 60 minutos antes del inicio de la fiesta. Esto da tiempo para inflado, pruebas de seguridad y acomodar el área alrededor. La máquina de palomitas puede estar lista en 15-20 minutos, así que puede llegar un poco después."
   - question: "¿Cuánto cuesta combinar un inflable con palomitas para una fiesta en CDMX?"
-    answer: "Un inflable básico de BRINCOLINS comienza desde $800 MXN y los modelos más grandes o temáticos pueden llegar a $2,500-$3,000 MXN. El costo de la máquina de palomitas de Palomita.mx varía según la cantidad de porciones. En total, esta combinación representa una de las inversiones más eficientes para el entretenimiento de una fiesta infantil."
+    answer: "Un inflable básico de BRINCOLINS comienza desde $800 MXN y los modelos más grandes o temáticos llegan a $1,900 MXN. El costo de la máquina de palomitas de Palomita.mx varía según la cantidad de porciones. En total, esta combinación representa una de las inversiones más eficientes para el entretenimiento de una fiesta infantil."
 ---
 
 ## La escena que nos enamoró de esta combinación
@@ -40,16 +40,15 @@ Antes de coordinar proveedores, hay que elegir bien el inflable. Esta decisión 
 En nuestro [catálogo de inflables](/inflables/) encontrarás opciones para cada tipo de fiesta. Aquí un resumen honesto de cada uno:
 
 - **Mini Castillo** — Versión compacta del clásico. Perfecto para jardines pequeños o azoteas. Los colores vivos funcionan con casi cualquier temática. Desde **$800 MXN**.
-- **Gusanitos** — El favorito de las familias con niños de 2 a 4 años. Entrada baja, colores vibrantes, diseño muy seguro para los más pequeños. Desde **$800 MXN**.
 - **Castillo de Princesas** — Rosa, lila y detalles que parecen sacados de un cuento. Ideal para niñas de 3 a 8 años. Desde **$1,200 MXN**.
 - **Dragones Rojos** — Temática de aventura y fantasía, colores rojos y negros. Perfecto para niños que quieren "algo de acción". Desde **$1,200 MXN**.
-- **Mini Jungla** — Compacto pero con obstáculos internos: túneles, escaladas cortas, rampas. Ideal para espacios medianos y niños con energía desbordante. Desde **$1,200 MXN**.
-- **Gusanitos** — Colores brillantes y acceso seguro para los más pequeños de la fiesta. Desde **$1,200 MXN**.
-- **Barco Pirata** — Azul intenso, detalles de madera y velas. Los niños llegan siendo niños y salen siendo piratas. Desde **$2,500 MXN**.
-- **Castillo Blanco** — Elegante, neutro, versátil. Funciona para cualquier temática y también para eventos más formales o XV años. Desde **$2,800 MXN**.
-- **Extremo** — El más grande del catálogo. Para fiestas con muchos niños, eventos grandes o cuando simplemente quieres que la fiesta sea memorable por su escala. Desde **$3,000 MXN**.
+- **Mini Jungla** — Compacto pero con obstáculos internos: túneles, escaladas cortas, rampas. Ideal para espacios medianos y niños con energía desbordante. Desde **$1,300 MXN**.
+- **Gusanitos** — El favorito de las familias con niños de 2 a 4 años. Entrada baja, colores vibrantes, diseño muy seguro para los más pequeños. Desde **$1,350 MXN**.
+- **Castillo Blanco** — Elegante, neutro, versátil. Funciona para cualquier temática y también para eventos más formales o XV años. Desde **$1,700 MXN**.
+- **Barco Pirata** — Azul intenso, detalles de madera y velas. Los niños llegan siendo niños y salen siendo piratas. Desde **$1,800 MXN**.
+- **Extremo** — El circuito de obstáculos del catálogo. Para fiestas con muchos niños, eventos grandes o cuando simplemente quieres que la competencia sea parte del espectáculo. Desde **$1,900 MXN**.
 
-La mayoría de los inflables requieren un mínimo de 4×4 metros de área libre. Si tienes dudas sobre el espacio disponible, escríbenos y te ayudamos a elegir antes de que reserves.
+La mayoría de los inflables requieren un mínimo de 5×5 metros de área libre. Si tienes dudas sobre el espacio disponible, escríbenos y te ayudamos a elegir antes de que reserves.
 
 ## Tabla de tiempos de instalación: inflable y palomitas
 

@@ -78,10 +78,10 @@ Elegir el inflable correcto para tu espacio no es solo una cuestión estética �
 
 | Jardín | Metros disponibles | Inflable ideal | Precio aprox. | Capacidad |
 |---|---|---|---|---|
-| Muy pequeño | Hasta 6×6 m (36 m²) | Mini Castillo o Gusanitos | Desde $800 MXN | 6-10 niños |
-| Pequeño | 6×8 m a 8×10 m | Castillo Princesas o Mini Jungla | Desde $1,200 MXN | 8-15 niños |
-| Mediano | 10×12 m a 12×15 m | Dragones Rojos o Barco Pirata | Desde $1,200 MXN | 12-20 niños |
-| Grande | 15×20 m o más | Extremo o 2 inflables medianos | Desde $3,000 MXN | 20-40 niños |
+| Muy pequeño | Hasta 6×6 m (36 m²) | Mini Castillo o Gusanitos | $800 – $1,350 MXN | 6-10 niños |
+| Pequeño | 6×8 m a 8×10 m | Castillo Princesas o Mini Jungla | $1,200 – $1,300 MXN | 8-15 niños |
+| Mediano | 10×12 m a 12×15 m | Dragones Rojos o Barco Pirata | $1,200 – $1,800 MXN | 12-20 niños |
+| Grande | 15×20 m o más | Extremo o 2 inflables medianos | Desde $1,900 MXN | 20-40 niños |
 
 Para confirmar cuál es el modelo más adecuado para las dimensiones exactas de tu jardín, escríbenos por WhatsApp y te orientamos sin compromiso. También puedes revisar las fichas completas en nuestro [catálogo de inflables](/inflables/).
 
@@ -114,20 +114,20 @@ Organizar una fiesta en jardín en CDMX en 2026 puede costar desde $3,500 hasta 
 - **Total: $3,500 - $6,600 MXN**
 
 **Fiesta mediana (25-50 invitados):**
-- Inflable BRINCOLINS: $1,200 - $2,500 MXN
+- Inflable BRINCOLINS: $1,200 - $1,800 MXN
 - Mesas picnic MESPIC (6-8 mesas): $1,200 - $2,000 MXN
 - Carpa o toldo grande: $800 - $2,000 MXN
 - Decoración completa: $1,500 - $3,000 MXN
 - Comida y pastel: $3,000 - $6,000 MXN
-- **Total: $7,700 - $15,500 MXN**
+- **Total: $7,700 - $14,800 MXN**
 
 **Fiesta grande (+50 invitados):**
-- 2 inflables BRINCOLINS: $3,000 - $6,000 MXN
+- 2 inflables BRINCOLINS: $2,400 - $3,700 MXN
 - Mesas picnic MESPIC (12-15 mesas): $2,400 - $4,500 MXN
 - Carpa grande: $2,000 - $4,000 MXN
 - Decoración profesional: $3,000 - $6,000 MXN
 - Comida y pastel: $6,000 - $15,000 MXN
-- **Total: $16,400 - $35,500 MXN**
+- **Total: $15,800 - $33,200 MXN**
 
 ## Recomendaciones por temporada: cuándo es ideal en CDMX
 

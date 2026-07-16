@@ -306,7 +306,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     faqs:              [
     { question: "¿Pueden instalar inflables en patios pequeños en Coyoacán Centro?", answer: "Sí. Para las casas coloniales con patios del Centro de Coyoacán tenemos el Mini Castillo (3×3m) y los Gusanitos para bebés. Evaluamos el espacio vía foto por WhatsApp antes de confirmar la reserva." },
     { question: "¿El acceso a fraccionamientos del Pedregal es complicado?", answer: "No. Llevamos años entregando en los fraccionamientos cerrados del Pedregal. Solo necesitamos el nombre del residente y número de acceso para registrar nuestro vehículo en caseta de seguridad con 24h de anticipación." },
-    { question: "¿Llevan inflables de agua para el verano en Coyoacán?", answer: "Sí. Los combinados con alberca inflable y toboganes de agua son muy populares en los jardines de Villa Coapa y el Pedregal de mayo a septiembre. Disponibles sujeto a temporada — consulta al cotizar." },
+    { question: "¿Llevan inflables de agua para el verano en Coyoacán?", answer: "No. Nuestro catálogo son 8 inflables secos, sin modelos de agua ni albercas. Para los jardines de Villa Coapa y el Pedregal, los más pedidos son el Barco Pirata (7×5×4.5 m, requiere 8×6 m) y el Castillo Blanco (6×5×4 m, requiere 7×6 m)." },
     { question: "¿Cubren Pedregal de San Ángel y los límites con Tlalpan?", answer: "Sí. Toda la zona del Pedregal hasta los límites de Coyoacán con Tlalpan y Álvaro Obregón está cubierta con entrega sin costo adicional. Si tu colonia limita con otra alcaldía, escríbenos y confirmamos en minutos." },
   ],
     inflablesRec:      [

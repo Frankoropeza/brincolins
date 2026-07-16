@@ -21,9 +21,9 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Qué incluye el paquete básico de fiesta con inflable?"
-    answer: "El paquete básico incluye el inflable elegido de nuestro catálogo, entrega, instalación y retiro sin costo, motor soplador con extensiones, uso por 6-8 horas y seguro de responsabilidad civil. Ideal para fiestas de 15-30 invitados."
-  - question: "¿Cuánto ahorro con un paquete completo vs contratar todo por separado?"
-    answer: "Los paquetes completos representan un ahorro del 15 al 25% respecto a contratar cada servicio por separado. Para una fiesta de 40 personas con inflable, mobiliario y toldo, el ahorro puede ser de $500 a $1,500 MXN dependiendo de los servicios incluidos."
+    answer: "El paquete básico incluye el inflable elegido de nuestro catálogo, entrega, instalación y retiro sin costo, motor soplador con extensiones, uso por 4 a 6 horas y seguro de responsabilidad civil. Ideal para fiestas de 15-30 invitados."
+  - question: "¿Qué ventaja tiene un paquete completo vs contratar todo por separado?"
+    answer: "Un solo proveedor coordina inflable, mobiliario y toldo: una sola entrega, una sola instalación y un solo número de WhatsApp si algo falla. El precio queda cerrado desde la cotización, sin costos ocultos. Si prefieres armar tu evento pieza por pieza, también cotizamos cada servicio por separado."
   - question: "¿Puedo personalizar el paquete según mis necesidades?"
     answer: "Sí. En BRINCOLINS no te obligamos a contratar servicios que no necesitas. Cuéntanos el número de invitados, tipo de espacio y qué servicios requieres, y armamos un paquete a tu medida. Escríbenos por WhatsApp para recibir tu cotización en minutos."
   - question: "¿Todos los paquetes incluyen seguro de responsabilidad civil?"
@@ -34,7 +34,7 @@ faqs:
 
 Un paquete completo combina la renta de inflable con otros servicios esenciales para la fiesta. En lugar de contratar por separado al proveedor de inflables, la empresa de mobiliario, el servicio de iluminación y los animadores, un paquete te ofrece todo en un solo contrato, con un precio cerrado y una sola coordinación logística.
 
-La ventaja principal no es solo el ahorro económico (que suele ser del 15-25% respecto a contratar todo por separado), sino la tranquilidad de tener un solo responsable que coordine todos los elementos. Si algo falla, tienes un solo número de WhatsApp al cual llamar.
+La ventaja principal es la tranquilidad de tener un solo responsable que coordine todos los elementos, con el precio cerrado desde la cotización. Si algo falla, tienes un solo número de WhatsApp al cual llamar.
 
 ## Los 3 niveles de paquete más comunes en CDMX
 
@@ -47,7 +47,7 @@ Es el paquete más accesible y el más contratado para fiestas íntimas de 15-30
 - 1 inflable a elegir del catálogo (modelos estándar)
 - Entrega, instalación y retiro incluidos
 - Motor soplador y extensiones eléctricas
-- Uso por 6-8 horas
+- Uso por 4 a 6 horas
 - Seguro de responsabilidad civil
 
 ### Paquete Intermedio
@@ -58,7 +58,6 @@ Diseñado para fiestas de 30-60 invitados. Añade mobiliario y elementos que nor
 - 5-10 mesas plegables con manteles
 - 30-60 sillas plegables
 - 1 toldo o carpa (3×6 o 6×6 m)
-- Extensión de horario hasta 10 horas
 
 ### Paquete Premium
 
@@ -81,7 +80,7 @@ Para fiestas de 60-100+ invitados que quieren una experiencia completa sin preoc
 | Sonido | No | No | Bocina + mic |
 | Iluminación | No | No | Series LED |
 | Extras | — | — | Máquina palomitas/algodón |
-| Horas de servicio | 6-8 hrs | 8-10 hrs | 10-12 hrs |
+| Horas de servicio | 4-6 hrs | 4-6 hrs | 4-6 hrs |
 | Precio aproximado | $800 - $1,500 | $2,500 - $4,500 | $5,000 - $9,000 |
 
 ## Qué incluye el servicio de mobiliario
@@ -110,7 +109,7 @@ Una bocina Bluetooth de buena potencia con micrófono inalámbrico permite poner
 
 ## Cómo ahorrar dinero en tu paquete de fiesta
 
-Contratar un paquete ya es un ahorro respecto a comprar todo por separado, pero hay estrategias adicionales para optimizar tu presupuesto:
+Más allá de elegir el paquete, hay estrategias para optimizar tu presupuesto:
 
 - **Fiesta entre semana:** Los precios de lunes a jueves suelen ser 20-30% menores que los de fin de semana. Si el cumpleaños cae entre semana, aprovecha.
 - **Reserva con anticipación:** Muchos proveedores ofrecen descuento del 10% por reservar con 3-4 semanas de anticipación.

@@ -83,15 +83,15 @@ Ideal para fiestas pequeñas de 15-20 niños en jardín o terraza. Coloca tiras 
 Para fiestas de 30-50 invitados donde quieres un ambiente de calidad sin llegar al tope del presupuesto. La iluminación LED programable permite cambiar los colores durante el evento: ambiente festivo al inicio, tonos más cálidos durante la comida, efectos de colores para el momento del pastel. Los niños lo notan y reaccionan a los cambios de luz de forma instintiva.
 
 ### Combinación Avanzada — Desde $6,000 extras
-**Pantalla LED pequeña + iluminación LED + Barco Pirata ($2,500)**
+**Pantalla LED pequeña + iluminación LED + Barco Pirata ($1,800)**
 Para eventos de 50-80 invitados donde la experiencia visual es una prioridad. La pantalla LED de [Pantalla LED](https://pantalla-led.com/) proyecta fotos en tiempo real y animaciones personalizadas, mientras la iluminación LED crea el ambiente general. El Barco Pirata actúa como escenografía espectacular de fondo: su estructura vertical y su estética dramática capturan la luz de la pantalla y la amplifican en todas las direcciones.
 
 ### Combinación Premium — Desde $10,000 extras
-**Pantalla LED grande + sistema de iluminación completo + Extremo ($3,000)**
-Para eventos corporativos, kermesses masivas o XV años de alto impacto. El Extremo con su circuito de 12 metros de doble carril se convierte en un espectáculo completo cuando la pantalla LED transmite las competencias en tiempo real y el sistema de iluminación cambia con la música. Esto es lo más cercano a una producción profesional de evento en el mercado de fiestas privadas de CDMX.
+**Pantalla LED grande + sistema de iluminación completo + Extremo ($1,900)**
+Para eventos corporativos, kermesses masivas o XV años de alto impacto. El Extremo con su circuito de 7 metros de doble carril se convierte en un espectáculo completo cuando la pantalla LED transmite las competencias en tiempo real y el sistema de iluminación cambia con la música. Esto es lo más cercano a una producción profesional de evento en el mercado de fiestas privadas de CDMX.
 
 ### Combinación Mágica Nocturna — Desde $4,000 extras
-**Luces de efectos especiales + iluminación perimetral + Castillo Blanco ($2,800)**
+**Luces de efectos especiales + iluminación perimetral + Castillo Blanco ($1,700)**
 El Castillo Blanco es el ideal para eventos nocturnos porque su superficie blanca refleja cualquier color de luz con intensidad máxima. Añade un par de luces de efectos y tienes un inflable que parece sacado de un parque de diversiones profesional. Hemos instalado esta combinación en varios jardines de casas en Coyoacán y Tlalpan, y el resultado es consistentemente el tipo de evento que los invitados siguen comentando semanas después.
 
 ## Cómo coordinar la instalación eléctrica: el factor que más se subestima
