@@ -1,13 +1,18 @@
-# Homologación BRINCOLINS ↔ INFLAPY
+# Homologación BRINCOLINS ↔ INFLAPY ↔ EVENTECH
 
 **Fecha:** 15-jul-2026 · **Ley:** https://inflablesparafiestas.com.mx/ — decisión del DG (Frank)
 
-| Repo | Rama | Commits | Estado |
-|---|---|---|---|
-| **BRINCOLINS** (`Frankoropeza/brincolins`) | `homologacion-precios-inflapy` | `fa14e99` — 67 archivos | ✅ verificado, **sin push** |
-| **INFLAPY** (`Origenlab/INFLAPY`) | `main` | `e12efa1` (45) + `0e2686a` (91) | ✅ verificado, **sin push** |
+## ✅ PUBLICADO — los tres dominios sirven su commit
 
-## Cruce final — 8/8 en los tres sitios
+| Repo | Commits | Deploy | Gate: `build-id` = HEAD |
+|---|---|---|---|
+| **BRINCOLINS** (`Frankoropeza/brincolins`) | `fa14e99` + `15ee055` — 68 archivos | GitHub Pages | ✅ `15ee055` |
+| **INFLAPY** (`Origenlab/INFLAPY`) | `e12efa1` (45) + `0e2686a` (91) | Cloudflare Pages | ✅ `0e2686a` |
+| **EVENTECH** (`Origenlab/EVENTECH`) | `aea39319` — 3 archivos | Cloudflare Pages | ✅ `aea39319` |
+
+> Gate verificado contra el **dominio**, no contra la Action verde. Las 3 páginas L4 de aliados responden 200.
+
+## Cruce final — 8/8 EN VIVO en los tres sitios
 
 | Modelo | Ley | BRINCOLINS | INFLAPY | Medida | Espacio |
 |---|---|---|---|---|---|
@@ -109,23 +114,32 @@ Solo se publica el toldo 3×3 a $800. Sin esos dos datos, cualquier % sería inv
 
 ---
 
-## Cómo cerrar
+## EVENTECH — lo que se corrigió y lo que NO
 
-Ambos repos están commiteados **sin push**. Desde la Mac:
-```bash
-# BRINCOLINS — la rama necesita merge a main o PR
-cd ~/Documents/Claude/Projects/BRINCOLINS
-git checkout main && git merge homologacion-precios-inflapy && git push
+**Corregido** (`aea39319`): las páginas L4 de aliados `/servicios/inflables/inflapy/` y `/brincolins/` + sus tarjetas en el índice. Estaban desalineadas por las decisiones de hoy:
+- INFLAPY: `527 reseñas` → **312** · *"su flota pasa de 50 modelos"* → **8** (era falso)
+- BRINCOLINS: VIP `8 horas` → **6 h** · `4.9★ y más de 500 eventos al año` → fuera
 
-# INFLAPY — ya está en main
-cd ~/Documents/Claude/Projects/INFLAPY && git push
+Esas páginas ya hacían bien lo difícil, y se conservó: no citan `+50,000 celebraciones` ni `200,000 familias` de INFLAPY (un comentario en el código documenta que se descartaron **porque su home y su footer se contradicen**), y no mezclan las dos historias de fundación.
+
+**NO corregido, a propósito — la contradicción no existía.** Se planteó que EVENTECH decía `+1,500 eventos` en 2 archivos vs `500 eventos` en 124. **Falso.** Los dos archivos son:
+- `podiumex-...md:49` → es de **PODIUMEX**, aliado de podiums. La frase abre con *"Su cobertura abarca…"*
+- `salon-azcapotzalco-eventos.md:174` → trayectoria del **Salón Azcapotzalco**, venue de terceros
+
+EVENTECH dice `500 eventos` de forma **consistente** en ~157 líneas y no se contradice con nadie. Ejecutar el barrido habría triplicado su historial publicitado copiando la cifra de otra empresa: contenido fabricado, en vivo. **El error fue grepear una cifra sin verificar el sujeto** — la misma trampa que este mismo reporte documenta. Se detuvo antes de editar; 0 archivos tocados.
+
+---
+
+## Notas de cierre
+
+**semgrep no está instalado** en la Mac. El escaneo de secretos de los 3 pushes se hizo con grep sobre el diff (0 hallazgos; remotes sin token embebido). Vale instalarlo: el CLAUDE.md lo pide antes de cada push.
+
+**BRINCOLINS deploya por GitHub Pages**, no Cloudflare — relevante para el mapa de drift (27 CF / 21 GHP).
+
+Gate verificado en los tres:
 ```
-**semgrep no está instalado** en la Mac; el escaneo de secretos se hizo con grep sobre el diff (0 hallazgos, remotes sin token). Vale instalarlo: la regla del CLAUDE.md lo pide antes de cada push.
-
-Después del push, el gate real **no es la Action verde** — es que el dominio sirva el commit:
-```bash
-curl -s https://brincolins.com/build-id.txt              # vs git rev-parse HEAD
-curl -s https://inflablesparafiestas.com.mx/build-id.txt # ya lo tiene y hoy pasa
+brincolins.com              build-id 15ee055 = HEAD  ✅
+inflablesparafiestas.com.mx build-id 0e2686a = HEAD  ✅
+eventech.mx                 build-id aea3931 = HEAD  ✅
 ```
-
-**Falta el tercer lado:** `eventech.mx` publica 4–6 hrs y el data file 8/8 correcto, pero conviene revisar que no cite cifras de volumen ni el rating viejo de INFLAPY.
+Ojo: la Action de EVENTECH tardó 3m53s y el dominio siguió sirviendo el commit viejo ~2 min después de que la Action arrancó. **Action verde ≠ dominio actualizado**; hay que esperar y volver a medir.
