@@ -70,3 +70,7 @@ pnpm-debug.log*
 # worktrees: copias de trabajo, nunca se versionan
 .worktrees/
 .claude/worktrees/
+
+# Artefactos de auditoria / trabajo (no versionar)
+_patch-*.patch
+INVENTARIO-URLS.csv
