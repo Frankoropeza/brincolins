@@ -371,7 +371,7 @@ const mapsHref = `https://www.google.com/maps/search/${salon.gmapsQuery}`;
           copy1={`Si buscas alternativas a ${salon.name}, aquí encontrarás otros salones con excelente calificación en Google Maps. Todos permiten inflables externos y están dentro de nuestra zona de cobertura.`}
           copy2="¿Ya elegiste tu salón? No olvides complementar la fiesta con un inflable de BRINCOLINS. Entrega e instalación incluida en cualquier salón de CDMX."
         />
-        <div class="grid-4">
+        <div class="grid-4 zonas-grid">
           {salon.relacionados.map(s => <VenueCard {...s} />)}
         </div>
       </div>

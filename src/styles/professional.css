@@ -31,3 +31,34 @@
   .zonas-grid { gap: 0.6rem !important; }
   .zonas-grid .product-card__name { font-size: 0.9rem !important; }
 }
+
+/* ── Fase 2 ─────────────────────────────────────────────────────────── */
+
+/* Tipografía: cortes de línea profesionales (moderno; degrada sin romper).
+   balance = titulares parejos sin huérfanas; pretty = evita última línea
+   de una sola palabra en párrafos. */
+h1, h2, h3,
+.hero__title, .section-title, .cta-final__title, .cta-banner__title, .pilar-title {
+  text-wrap: balance;
+}
+p, .hero__desc, .section-subtitle, .why-sc__desc {
+  text-wrap: pretty;
+}
+
+/* Hero de home: CTAs + línea de confianza en la primera pantalla.
+   La línea va sobre el fondo naranja → texto blanco, estrellas ámbar. */
+.hero__trust-line {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.92);
+}
+.hero__trust-line .hero__stars {
+  color: var(--c-accent);
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
