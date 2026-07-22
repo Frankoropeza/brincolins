@@ -1,6 +1,6 @@
 ---
 title: "Fiesta en el Jardín en CDMX: Inflable, Mesas Picnic y Todo lo."
-description: "Guía completa para organizar una fiesta en el jardín en CDMX con inflable y mesas picnic. Checklist, presupuesto, comparativa salón vs jardín, qué inflable elegir."
+description: "Organiza una fiesta en el jardín en CDMX con inflable y mesas picnic. Checklist, presupuesto, salón vs jardín y qué inflable elegir."
 excerpt: "Las fiestas en jardín están viviendo su mejor momento en la Ciudad de México. Aprende a organizar la tuya con inflable, mesas picnic de MESPIC y todo el checklist que necesitas para que no se te escape nada — más una comparativa honesta entre fiesta en salón y fiesta en jardín."
 publishDate: "2026-06-14"
 category: "Ideas"

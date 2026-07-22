@@ -1,6 +1,6 @@
 ---
 title: "Arcos de Globos e Inflables para Fiestas Infantiles en CDMX: La."
-description: "Combina arcos de globos e inflables para fiestas infantiles en CDMX. Guía completa con temas, paletas de color, distribución de espacios y tips de instalación para."
+description: "Combina arcos de globos e inflables en fiestas infantiles en CDMX. Temas, paletas de color, distribución de espacios y tips de instalación."
 excerpt: "El secreto de las fiestas infantiles más fotografiadas en CDMX: combinar un inflable llamativo con la decoración de globos correcta. Aprende a coordinar colores, distribuir el espacio y lograr esas fotos que los papás siempre sueñan."
 publishDate: "2026-06-03"
 category: "Decoración"

@@ -11,7 +11,7 @@ import type { Props as ZonaCardProps } from "@/components/ZonaCard.astro";
 import TestimonialCards from "@/components/TestimonialCards.astro";
 
 const title = "Renta de Inflables para Fiestas Infantiles en CDMX y Edomex";
-const description = "Renta de inflables para fiestas infantiles con entrega, instalación, sanitización y seguro incluidos. Brincolines por edad desde $800 MXN en CDMX y Estado de México. Cotiza por WhatsApp.";
+const description = "Renta de inflables para fiestas infantiles con entrega, instalación y seguro incluidos. Brincolines por edad desde $800 MXN en CDMX y Edomex.";
 
 // ── QuickNav contextual de la página ──
 const quickLinks = [
@@ -351,10 +351,10 @@ const faqs = [
         copy1="Llevamos inflables a fiestas infantiles en toda la Zona Metropolitana del Valle de México. En las alcaldías céntricas de CDMX la entrega está incluida sin costo; para municipios del Estado de México aplica un cargo de envío según la distancia, que te confirmamos al cotizar."
         copy2="Estas son las zonas más solicitadas para fiestas infantiles. Cada tarjeta enlaza a la página de tu zona con colonias cubiertas, preguntas frecuentes locales e inflables recomendados. Si tu zona no aparece, consulta el mapa completo de cobertura."
       />
-      <div class="grid-4 zonas-grid">
+      <div class="grid-4">
         {zonasCdmx.map(z => <ZonaCard {...z} />)}
       </div>
-      <div class="grid-4 mt-3 zonas-grid">
+      <div class="grid-4 mt-3">
         {zonasEdomex.map(z => <ZonaCard {...z} />)}
       </div>
       <div class="text-center mt-3">

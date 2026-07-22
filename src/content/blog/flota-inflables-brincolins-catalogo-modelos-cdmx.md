@@ -1,6 +1,6 @@
 ---
 title: "Los 8 Inflables de BRINCOLINS: Cuál es el Tuyo Según tu Fiesta"
-description: "Conoce cada modelo de inflable de BRINCOLINS con detalles reales: para qué edades sirve, cuánto espacio necesita, qué tipo de fiesta potencia y desde qué precio sale."
+description: "Cada modelo de inflable BRINCOLINS con detalles reales: edades, espacio necesario, tipo de fiesta que potencia y desde qué precio sale."
 excerpt: "No todos los inflables son para todas las fiestas. Aquí te explicamos cada modelo con honestidad — sus virtudes, sus limitaciones y para quién es ideal cada uno."
 publishDate: "2026-07-04"
 category: "Guías"

@@ -1,6 +1,6 @@
 ---
 title: "Estándares de Calidad en Renta de Inflables en CDMX: La Guía."
-description: "Conoce los estándares mínimos de calidad que debes exigir al rentar inflables en CDMX: limpieza certificada, seguro RC, motor profesional y más. Guía completa de."
+description: "Estándares de calidad que debes exigir al rentar inflables en CDMX: limpieza certificada, seguro RC, motor profesional y más."
 excerpt: "Limpieza certificada, seguro de responsabilidad civil, motor de inflado profesional y puntualidad: los estándares que separan a las empresas serias del mercado informal de inflables en CDMX."
 publishDate: "2026-06-08"
 category: "Guías"

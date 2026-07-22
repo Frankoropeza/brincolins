@@ -1,7 +1,7 @@
 ---
 title: "Inflables para Eventos Corporativos en CDMX | BRINCOLINS"
 h1: "Inflables para Eventos Corporativos: La Guía Completa"
-description: "Inflables para eventos corporativos en CDMX: family day, kermeses de empresa e integración. Nuestros 8 modelos, precios reales de $800 a $1,900 MXN y factura sin costo."
+description: "Inflables para eventos corporativos en CDMX: family day, kermeses e integración. 8 modelos, precios de $800 a $1,900 MXN y factura sin costo."
 excerpt: "Cada vez más empresas en CDMX incorporan inflables en su family day, kermés de empresa o cierre de año. Te decimos con qué modelos contamos de verdad, cuánto cuestan y qué necesitas para montarlos."
 publishDate: "2025-03-15"
 category: "Eventos"

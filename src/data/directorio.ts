@@ -54,8 +54,8 @@ export interface SalonDirectorio {
 export const SALONES_CDMX: SalonDirectorio[] = [
   {
     slug:           "castillo-magico-ari-sandy",
-    title:          "Castillo Mágico Ari Sandy — Salón de Fiestas Infantiles en Coyoacán | BRINCOLINS",
-    description:    "Castillo Mágico Ari Sandy: salón de fiestas infantiles en Coyoacán, CDMX. ⭐ 4.6 en Google Maps. Capacidad 50–120 personas. Paquetes todo incluido. Teléfono: 55 2107 0282.",
+    title: "Castillo Mágico Ari Sandy — Salón de Fiestas en Coyoacán | BRINCOLINS",
+    description: "Castillo Mágico Ari Sandy: salón de fiestas infantiles en Coyoacán, CDMX. ⭐ 4.6 en Google Maps. Capacidad 50–120 personas. Paquetes todo incluido.",
     name:           "Castillo Mágico Ari Sandy",
     zone:           "Coyoacán",
     address:        "Canadá 138 B, Parque San Andrés, Coyoacán, 04040 CDMX",
@@ -106,8 +106,8 @@ export const SALONES_CDMX: SalonDirectorio[] = [
   },
   {
     slug:           "dino-kids",
-    title:          "Dino Kids — Salón de Fiestas Infantiles en Venustiano Carranza | BRINCOLINS",
-    description:    "Dino Kids: salón de fiestas infantiles en Venustiano Carranza, CDMX. ⭐ 4.6 en Google Maps. Capacidad 40–80 personas. Paquetes todo incluido. Teléfono: 55 9525 2096.",
+    title: "Dino Kids — Salón de Fiestas en Venustiano Carranza | BRINCOLINS",
+    description: "Dino Kids: salón de fiestas infantiles en Venustiano Carranza, CDMX. ⭐ 4.6 en Google Maps. Capacidad 40–80 personas. Paquetes todo incluido.",
     name:           "Dino Kids",
     zone:           "Venustiano Carranza",
     address:        "Calle Ote. 182 94, Moctezuma 2a Sección, Venustiano Carranza, 15530 CDMX",
@@ -158,7 +158,7 @@ export const SALONES_CDMX: SalonDirectorio[] = [
   },
   {
     slug:           "el-potrero",
-    title:          "El Potrero — Salón de Fiestas Infantiles en Iztapalapa | BRINCOLINS",
+    title: "El Potrero — Salón de Fiestas en Iztapalapa | BRINCOLINS",
     description:    "El Potrero: salón de fiestas infantiles en Iztapalapa, CDMX. ⭐ 4.5 en Google Maps. Capacidad 80–200 personas. Paquetes todo incluido. Teléfono: 55 6465 1465.",
     name:           "El Potrero",
     zone:           "Iztapalapa",
@@ -210,8 +210,8 @@ export const SALONES_CDMX: SalonDirectorio[] = [
   },
   {
     slug:           "el-rehilete-cardyc-coapa",
-    title:          "El Rehilete y CARDYC Coapa — Salón de Fiestas Infantiles en Tlalpan | BRINCOLINS",
-    description:    "El Rehilete y CARDYC Coapa: salón de fiestas infantiles en Tlalpan, CDMX. ⭐ 4.7 en Google Maps. Capacidad 60–150 personas. Paquetes todo incluido. Teléfono: 55 4337 2422.",
+    title: "El Rehilete y CARDYC Coapa — Salón de Fiestas en Tlalpan | BRINCOLINS",
+    description: "El Rehilete y CARDYC Coapa: salón de fiestas infantiles en Tlalpan, CDMX. ⭐ 4.7 en Google Maps. Capacidad 60–150 personas. Paquetes todo incluido.",
     name:           "El Rehilete y CARDYC Coapa",
     zone:           "Tlalpan",
     address:        "Calz. de los Tenorios 300, Granjas Coapa, Tlalpan, 14330 CDMX",
@@ -262,8 +262,8 @@ export const SALONES_CDMX: SalonDirectorio[] = [
   },
   {
     slug:           "fantasia-extremo-kids",
-    title:          "Fantasía Extremo Kids — Salón de Fiestas Infantiles en Azcapotzalco | BRINCOLINS",
-    description:    "Fantasía Extremo Kids: salón de fiestas infantiles en Azcapotzalco, CDMX. ⭐ 4.7 en Google Maps. Capacidad 40–80 personas. Paquetes todo incluido. Teléfono: 55 4182 4596.",
+    title: "Fantasía Extremo Kids — Salón de Fiestas en Azcapotzalco | BRINCOLINS",
+    description: "Fantasía Extremo Kids: salón de fiestas infantiles en Azcapotzalco, CDMX. ⭐ 4.7 en Google Maps. Capacidad 40–80 personas. Paquetes todo incluido.",
     name:           "Fantasía Extremo Kids",
     zone:           "Azcapotzalco",
     address:        "Campo Chichapo 12, Santo Domingo, Azcapotzalco, 02160 CDMX",
@@ -314,8 +314,8 @@ export const SALONES_CDMX: SalonDirectorio[] = [
   },
   {
     slug:           "jardin-de-eventos-chris",
-    title:          "Jardín de Eventos Chris — Salón de Fiestas Infantiles en Xochimilco | BRINCOLINS",
-    description:    "Jardín de Eventos Chris: salón de fiestas infantiles en Xochimilco, CDMX. ⭐ 4.5 en Google Maps. Capacidad 60–130 personas. Paquetes todo incluido. Teléfono: 55 5675 1380.",
+    title: "Jardín de Eventos Chris — Salón de Fiestas en Xochimilco | BRINCOLINS",
+    description: "Jardín de Eventos Chris: salón de fiestas infantiles en Xochimilco, CDMX. ⭐ 4.5 en Google Maps. Capacidad 60–130 personas. Paquetes todo incluido.",
     name:           "Jardín de Eventos Chris",
     zone:           "Xochimilco",
     address:        "Encuentro de Acatempan 73, San Lorenzo la Cebada, Xochimilco, 16035 CDMX",
@@ -366,7 +366,7 @@ export const SALONES_CDMX: SalonDirectorio[] = [
   },
   {
     slug:           "la-cabana",
-    title:          "La Cabaña — Salón de Fiestas Infantiles en Iztapalapa | BRINCOLINS",
+    title: "La Cabaña — Salón de Fiestas en Iztapalapa | BRINCOLINS",
     description:    "La Cabaña: salón de fiestas infantiles en Iztapalapa, CDMX. ⭐ 4.6 en Google Maps. Capacidad 60–140 personas. Paquetes todo incluido. Teléfono: 55 1262 8816.",
     name:           "La Cabaña",
     zone:           "Iztapalapa",
@@ -418,8 +418,8 @@ export const SALONES_CDMX: SalonDirectorio[] = [
   },
   {
     slug:           "laberinto-de-aventuras",
-    title:          "Laberinto de Aventuras — Salón de Fiestas Infantiles en Azcapotzalco | BRINCOLINS",
-    description:    "Laberinto de Aventuras: salón de fiestas infantiles en Azcapotzalco, CDMX. ⭐ 4.7 en Google Maps. Capacidad 40–100 personas. Paquetes todo incluido. Teléfono: 55 7652 2817.",
+    title: "Laberinto de Aventuras — Salón de Fiestas en Azcapotzalco | BRINCOLINS",
+    description: "Laberinto de Aventuras: salón de fiestas infantiles en Azcapotzalco, CDMX. ⭐ 4.7 en Google Maps. Capacidad 40–100 personas. Paquetes todo incluido.",
     name:           "Laberinto de Aventuras",
     zone:           "Azcapotzalco",
     address:        "C. Heliópolis 241, Clavería, Azcapotzalco, 02080 CDMX",
@@ -470,8 +470,8 @@ export const SALONES_CDMX: SalonDirectorio[] = [
   },
   {
     slug:           "monkeys-playground",
-    title:          "Monkeys Playground — Salón de Fiestas Infantiles en Venustiano Carranza | BRINCOLINS",
-    description:    "Monkeys Playground: salón de fiestas infantiles en Venustiano Carranza, CDMX. ⭐ 4.6 en Google Maps. Capacidad 50–100 personas. Paquetes todo incluido. Teléfono: 56 2141 9918.",
+    title: "Monkeys Playground — Salón de Fiestas en Venustiano Carranza",
+    description: "Monkeys Playground: salón de fiestas infantiles en Venustiano Carranza, CDMX. ⭐ 4.6 en Google Maps. Capacidad 50–100 personas. Paquetes todo incluido.",
     name:           "Monkeys Playground",
     zone:           "Venustiano Carranza",
     address:        "Fernando Iglesias Calderón 50, Jardín Balbuena, Venustiano Carranza, 15900 CDMX",
@@ -522,8 +522,8 @@ export const SALONES_CDMX: SalonDirectorio[] = [
   },
   {
     slug:           "salon-de-eventos-carito",
-    title:          "Salón de eventos Carito — Salón de Fiestas Infantiles en Coyoacán | BRINCOLINS",
-    description:    "Salón de eventos Carito: salón de fiestas infantiles en Coyoacán, CDMX. ⭐ 4.5 en Google Maps. Capacidad 50–100 personas. Paquetes todo incluido. Teléfono: 55 2382 4005.",
+    title: "Salón de eventos Carito — Salón de Fiestas en Coyoacán | BRINCOLINS",
+    description: "Salón de eventos Carito: salón de fiestas infantiles en Coyoacán, CDMX. ⭐ 4.5 en Google Maps. Capacidad 50–100 personas. Paquetes todo incluido.",
     name:           "Salón de eventos Carito",
     zone:           "Coyoacán",
     address:        "Tepocatl 51, Pedregal de Santo Domingo, Coyoacán, 04369 CDMX",
@@ -574,8 +574,8 @@ export const SALONES_CDMX: SalonDirectorio[] = [
   },
   {
     slug:           "salon-machinkuepa",
-    title:          "Salón Machinkuepa — Salón de Fiestas Infantiles en Tlalpan | BRINCOLINS",
-    description:    "Salón Machinkuepa: salón de fiestas infantiles en Tlalpan, CDMX. ⭐ 4.7 en Google Maps. Capacidad 50–120 personas. Paquetes todo incluido. Teléfono: 55 8007 0580.",
+    title: "Salón Machinkuepa — Salón de Fiestas en Tlalpan | BRINCOLINS",
+    description: "Salón Machinkuepa: salón de fiestas infantiles en Tlalpan, CDMX. ⭐ 4.7 en Google Maps. Capacidad 50–120 personas. Paquetes todo incluido.",
     name:           "Salón Machinkuepa",
     zone:           "Tlalpan",
     address:        "Tlalayote 49, San Pedro Apostol, Tlalpan, 14070 CDMX",
@@ -626,7 +626,7 @@ export const SALONES_CDMX: SalonDirectorio[] = [
   },
   {
     slug:           "salon-pinwuii",
-    title:          "Salón Pinwuii — Salón de Fiestas Infantiles en Tlalpan | BRINCOLINS",
+    title: "Salón Pinwuii — Salón de Fiestas en Tlalpan | BRINCOLINS",
     description:    "Salón Pinwuii: salón de fiestas infantiles en Tlalpan, CDMX. ⭐ 4.5 en Google Maps. Capacidad 40–80 personas. Paquetes todo incluido. Teléfono: 55 2109 8919.",
     name:           "Salón Pinwuii",
     zone:           "Tlalpan",
@@ -678,8 +678,8 @@ export const SALONES_CDMX: SalonDirectorio[] = [
   },
   {
     slug:           "salon-wondertown",
-    title:          "Salón Wondertown — Salón de Fiestas Infantiles en Tlalpan | BRINCOLINS",
-    description:    "Salón Wondertown: salón de fiestas infantiles en Tlalpan, CDMX. ⭐ 4.6 en Google Maps. Capacidad 40–100 personas. Paquetes todo incluido. Teléfono: 55 3334 5442.",
+    title: "Salón Wondertown — Salón de Fiestas en Tlalpan | BRINCOLINS",
+    description: "Salón Wondertown: salón de fiestas infantiles en Tlalpan, CDMX. ⭐ 4.6 en Google Maps. Capacidad 40–100 personas. Paquetes todo incluido.",
     name:           "Salón Wondertown",
     zone:           "Tlalpan",
     address:        "C. Contoy 280, Héroes de Padierna, Tlalpan, 14200 CDMX",
@@ -730,8 +730,8 @@ export const SALONES_CDMX: SalonDirectorio[] = [
   },
   {
     slug:           "sipirily-congreso",
-    title:          "Sipirily Congreso — Salón de Fiestas Infantiles en Gustavo A. Madero | BRINCOLINS",
-    description:    "Sipirily Congreso: salón de fiestas infantiles en Gustavo A. Madero, CDMX. ⭐ 4.5 en Google Maps. Capacidad 50–120 personas. Paquetes todo incluido. Teléfono: 55 1742 9513.",
+    title: "Sipirily Congreso — Salón de Fiestas en Gustavo A. Madero | BRINCOLINS",
+    description: "Sipirily Congreso: salón de fiestas infantiles en Gustavo A. Madero, CDMX. ⭐ 4.5 en Google Maps. Capacidad 50–120 personas. Paquetes todo incluido.",
     name:           "Sipirily Congreso",
     zone:           "Gustavo A. Madero",
     address:        "Eje 2 Oriente Av. H. Congreso de la Unión 39, Granjas Modernas, GAM, 07080 CDMX",
@@ -782,7 +782,7 @@ export const SALONES_CDMX: SalonDirectorio[] = [
   },
   {
     slug:           "tiger-kids",
-    title:          "Tiger Kids — Salón de Fiestas Infantiles en Iztapalapa | BRINCOLINS",
+    title: "Tiger Kids — Salón de Fiestas en Iztapalapa | BRINCOLINS",
     description:    "Tiger Kids: salón de fiestas infantiles en Iztapalapa, CDMX. ⭐ 4.7 en Google Maps. Capacidad 40–100 personas. Paquetes todo incluido. Teléfono: 55 5745 2919.",
     name:           "Tiger Kids",
     zone:           "Iztapalapa",
@@ -834,7 +834,7 @@ export const SALONES_CDMX: SalonDirectorio[] = [
   },
   {
     slug:           "wiby-kids",
-    title:          "Wiby Kids — Salón de Fiestas Infantiles en Xochimilco | BRINCOLINS",
+    title: "Wiby Kids — Salón de Fiestas en Xochimilco | BRINCOLINS",
     description:    "Wiby Kids: salón de fiestas infantiles en Xochimilco, CDMX. ⭐ 4.4 en Google Maps. Capacidad 40–80 personas. Paquetes todo incluido. Teléfono: 55 3368 1406.",
     name:           "Wiby Kids",
     zone:           "Xochimilco",

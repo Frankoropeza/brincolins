@@ -1,7 +1,7 @@
 ---
 title: "Consejos para Rentar un Inflable por Primera Vez en CDMX"
 h1: "Primera Vez Rentando un Inflable: Lo que Nadie te Dice"
-description: "Renta de inflables por primera vez: todo lo que necesitas saber antes de contratar. Checklist de seguridad, preguntas al proveedor y tips para el día del evento."
+description: "Renta de inflables por primera vez: checklist de seguridad, preguntas al proveedor y tips para el día del evento."
 excerpt: "Depósito, espacio mínimo, conexión eléctrica, seguro, tiempo de instalación... Todo lo que debes saber antes de contratar tu primer inflable para no llevarte sorpresas el día de la fiesta."
 publishDate: "2025-03-15"
 category: "Consejos"

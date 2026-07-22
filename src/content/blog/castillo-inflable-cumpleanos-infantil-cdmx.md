@@ -1,6 +1,6 @@
 ---
 title: "Castillo Inflable para Cumpleaños Infantil en CDMX"
-description: "Renta de inflables tipo castillo para cumpleaños infantiles en CDMX. Modelos para niñas y niños con diferentes temas y tamaños. Entrega incluida en toda la ciudad."
+description: "Renta de castillos inflables para cumpleaños infantiles en CDMX. Modelos para niñas y niños con distintos temas y tamaños. Entrega incluida."
 excerpt: "Un castillo inflable transforma cualquier cumpleaños infantil en una experiencia mágica. Te explicamos cómo planear la fiesta perfecta en la Ciudad de México."
 publishDate: "2025-03-15"
 category: "Cumpleaños"

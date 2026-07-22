@@ -50,8 +50,8 @@ export interface ProductoPagina {
 
 export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
   "barco-pirata": {
-    title: "Renta de Barco Pirata Inflable | Inflables para Fiestas Temáticas | CDMX",
-    description: "Renta de Barco Pirata inflable para fiestas temáticas en CDMX y Estado de México. El galeón pirata favorito de los niños desde los 4 años. Entrega e instalación incluidas.",
+    title: "Renta de Barco Pirata Inflable | Fiestas Temáticas | CDMX",
+    description: "Renta de Barco Pirata inflable para fiestas temáticas en CDMX y Edomex. El galeón favorito de los niños desde los 4 años. Entrega e instalación incluidas.",
     badge: "Aventura pirata de gran tamaño",
     cta: "Cotizar Barco Pirata",
     galeria: {
@@ -115,8 +115,8 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     ],
   },
   "castillo-blanco": {
-    title: "Renta de Castillo Blanco Inflable | Inflables para Eventos Premium | CDMX",
-    description: "Renta de Castillo Blanco inflable para fiestas y eventos en CDMX. Diseño elegante y neutro para XV años, bodas y eventos premium. Instalación profesional incluida.",
+    title: "Renta de Castillo Blanco Inflable | Eventos Premium | CDMX",
+    description: "Renta de Castillo Blanco inflable en CDMX. Diseño elegante y neutro para XV años, bodas y eventos premium. Instalación profesional incluida.",
     badge: "Premium para bodas y eventos elegantes",
     cta: "Cotizar Castillo Blanco",
     galeria: {
@@ -182,8 +182,8 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     ],
   },
   "castillo-princesas": {
-    title: "Renta de Castillo de Princesas | Inflables para Fiestas de Niñas | CDMX",
-    description: "Renta de Castillo de Princesas para fiestas infantiles en CDMX y Edomex. El favorito para cumpleaños de niñas: colores vibrantes, diseño temático y mucha diversión. Entrega incluida.",
+    title: "Renta de Castillo de Princesas | Fiestas de Niñas | CDMX",
+    description: "Renta de Castillo de Princesas en CDMX y Edomex. El favorito para cumpleaños de niñas: colores vibrantes y diseño temático. Entrega incluida.",
     badge: "Favorito para fiestas de niñas",
     cta: "Cotizar Castillo de Princesas",
     galeria: {
@@ -267,7 +267,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
   },
   "dragones-rojos": {
     title: "Renta de Dragones Rojos | Inflables para Fiestas | El Más Rentado CDMX",
-    description: "Renta de Dragones Rojos en CDMX y Estado de México. El inflable más solicitado: alta capacidad para grupos de niños, colores llamativos y diversión garantizada. Entrega e instalación incluidas.",
+    description: "Renta de Dragones Rojos en CDMX y Edomex. El inflable más solicitado: alta capacidad, colores llamativos y diversión garantizada. Entrega incluida.",
     badge: "Inflable más rentado en CDMX",
     cta: "Cotizar Dragones Rojos",
     galeria: {
@@ -349,7 +349,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
   },
   "extremo": {
     title: "Renta de Inflable Extremo | Inflables para Eventos y Kermeses | CDMX",
-    description: "Renta de Inflable Extremo para eventos, kermeses y fiestas con muchos niños en CDMX. El circuito de obstáculos más completo: alta capacidad y diversión máxima. Cotiza hoy.",
+    description: "Renta de Inflable Extremo para eventos, kermeses y fiestas con muchos niños en CDMX. Circuito de obstáculos de alta capacidad. Cotiza hoy.",
     badge: "Circuito de carreras con doble carril",
     cta: "Cotizar Inflable Extremo",
     galeria: {
@@ -415,8 +415,8 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     ],
   },
   "gusanitos": {
-    title: "Renta de Gusanitos Inflables | Inflables para Bebés y Niños Pequeños | CDMX",
-    description: "Renta de Gusanitos inflables para fiestas de bebés y niños pequeños en CDMX. Diseño seguro y colorido para menores de 5 años. Entrega e instalación incluidas en toda la ciudad.",
+    title: "Renta de Gusanitos Inflables | Bebés y Niños Pequeños | CDMX",
+    description: "Renta de Gusanitos inflables para fiestas de bebés y niños pequeños en CDMX. Diseño seguro y colorido para menores de 5 años. Entrega incluida.",
     badge: "El más colorido y tropical",
     cta: "Cotizar Gusanitos",
     galeria: {
@@ -492,8 +492,8 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     ],
   },
   "mini-castillo": {
-    title: "Renta de Mini Castillo Inflable | Inflables para Fiestas Pequeñas | CDMX",
-    description: "Renta de Mini Castillo inflable para fiestas en espacios pequeños. Base de solo 2×2 m. El inflable más accesible de BRINCOLINS desde $800 MXN. Ideal para interiores, terrazas y patios en CDMX.",
+    title: "Renta de Mini Castillo Inflable | Fiestas Pequeñas | CDMX",
+    description: "Renta de Mini Castillo inflable para espacios pequeños. Base de 2×2 m, desde $800 MXN. Ideal para interiores, terrazas y patios en CDMX.",
     badge: "Ideal para bebés y espacios pequeños",
     cta: "Cotizar Mini Castillo",
     galeria: {
@@ -559,7 +559,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
   },
   "mini-jungla": {
     title: "Renta de Mini Jungla Inflable | Inflables para Niños Pequeños | CDMX",
-    description: "Renta de Mini Jungla inflable para fiestas infantiles en CDMX y Estado de México. Diseño temático de jungla compacto para niños de 2 a 7 años. Entrega incluida en toda la ciudad.",
+    description: "Renta de Mini Jungla inflable para fiestas infantiles en CDMX y Edomex. Diseño temático de jungla compacto para niños de 2 a 7 años. Entrega incluida.",
     badge: "Aventura tropical para exploradores",
     cta: "Cotizar Mini Jungla",
     galeria: {

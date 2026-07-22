@@ -1,7 +1,7 @@
 ---
-title: "¿Inflable Chico o Grande? Qué Rentar Según el Número de Invitados | CDMX 2026"
+title: "¿Inflable Chico o Grande? Según tus Invitados | CDMX 2026"
 h1: "Inflable Chico vs. Grande: la Guía por Número de Invitados"
-description: "Tabla práctica para elegir el tamaño de inflable según tus invitados: hasta 8 niños, 8-15, 15-30 o kermés. Precios reales de renta 2026 en CDMX y Estado de México desde $800 MXN."
+description: "Tabla para elegir el tamaño de inflable según tus invitados: hasta 8 niños, 8-15, 15-30 o kermés. Precios reales 2026 en CDMX desde $800 MXN."
 excerpt: "¿10 niños? ¿25? ¿Toda la escuela? El tamaño correcto del inflable depende de cuántos niños brincarán a la vez. Guía directa con precios reales de CDMX para no pagar de más ni quedarte corto."
 publishDate: "2026-07-05"
 category: "Guías"

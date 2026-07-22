@@ -1,6 +1,6 @@
 ---
 title: "Palomitas e Inflable para Fiestas Infantiles en CDMX: Cómo."
-description: "Descubre cómo combinar un inflable de BRINCOLINS con las palomitas de Palomita.mx para una fiesta infantil perfecta en CDMX. Checklist, tiempos de instalación y."
+description: "Combina un inflable de BRINCOLINS con palomitas de Palomita.mx para una fiesta infantil perfecta en CDMX. Checklist y tiempos de instalación."
 excerpt: "La combinación ganadora para fiestas infantiles en CDMX: inflable + palomitas. Aprende a coordinar ambos proveedores, optimizar tiempos y lograr una fiesta que los niños recordarán."
 publishDate: "2026-06-02"
 category: "Guías"

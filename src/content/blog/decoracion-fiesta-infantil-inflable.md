@@ -1,7 +1,7 @@
 ---
 title: "Decoración para Fiesta Infantil con Inflable en CDMX"
 h1: "Cómo Decorar una Fiesta Infantil Alrededor del Inflable"
-description: "Inflables para fiestas infantiles como elemento de decoración y diversión. Ideas para combinar colores, temas y actividades alrededor del inflable en tu próxima."
+description: "Inflables como elemento de decoración y diversión: ideas para combinar colores, temas y actividades alrededor del inflable en tu fiesta."
 excerpt: "El inflable es la atracción principal de la fiesta, pero la decoración es lo que transforma un evento común en una experiencia mágica. Ideas prácticas y accesibles para coordinar colores, mobiliario y elementos decorativos con tu brincolín."
 publishDate: "2025-03-15"
 category: "Decoración"

@@ -1,6 +1,6 @@
 ---
 title: "Checklist Definitivo para Organizar una Kermesse Escolar con."
-description: "Checklist maestro por fases para organizar una kermesse escolar perfecta con inflables en CDMX y Edomex. Tablas de presupuesto, errores comunes y cómo coordinar."
+description: "Checklist por fases para una kermesse escolar perfecta con inflables en CDMX y Edomex. Presupuesto, errores comunes y coordinación."
 excerpt: "Desde 8 semanas antes hasta el día del evento: el checklist maestro que todo coordinador escolar necesita para organizar una kermesse con inflables en CDMX y Edomex sin contratiempos ni sorpresas de último momento."
 publishDate: "2026-06-17"
 category: "Eventos"
