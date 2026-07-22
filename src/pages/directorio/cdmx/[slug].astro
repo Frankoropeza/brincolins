@@ -61,7 +61,7 @@ const faqItems = [
 // ── JSON-LD del salón ─────────────────────────────────────────────
 const salonSchema = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": "EventVenue",
   "@id": `${SITE}/directorio/cdmx/${salon.slug}/`,
   "url": `${SITE}/directorio/cdmx/${salon.slug}/`,
   "name": salon.name,
@@ -92,13 +92,6 @@ const salonSchema = {
   "priceRange": "$$",
   "currenciesAccepted": "MXN",
   "paymentAccepted": "Efectivo, Tarjeta de crédito, Tarjeta de débito, Transferencia",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": salon.rating,
-    "bestRating": "5",
-    "worstRating": "1",
-    "reviewCount": salon.reviewCount,
-  },
 };
 
 // ── Inflables populares (fijos — mismos en todas las páginas) ─────

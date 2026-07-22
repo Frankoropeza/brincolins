@@ -14,7 +14,6 @@ const salones = [
     address: "Blvd. Toluca 300, Naucalpan Centro",
     capacity: "70–180 personas",
     price: "Desde $4,000 MXN",
-    phone: "55 1111 2222",
     features: ["Salón y jardín", "Área de inflables", "Taquiza incluida", "Estacionamiento techado"],
     gradient: "linear-gradient(135deg, #2E7D32, #00C853)",
     label: "Salón",
@@ -26,7 +25,6 @@ const salones = [
     address: "Av. Mario Colín 200, Tlalnepantla Centro",
     capacity: "50–120 personas",
     price: "Desde $3,500 MXN",
-    phone: "55 2222 3333",
     features: ["Trampolines", "Ludoteca", "Pintacaritas", "Paquetes desde 20 niños"],
     gradient: "linear-gradient(135deg, #9C27B0, #E91E8C)",
     label: "Teatro",
@@ -38,7 +36,6 @@ const salones = [
     address: "Vía Morelos Km 18, Ecatepec de Morelos",
     capacity: "80–200 personas",
     price: "Desde $2,800 MXN",
-    phone: "55 3333 4444",
     features: ["El más grande de la zona", "Banquete completo", "DJ profesional", "Brincolines incluidos"],
     gradient: "linear-gradient(135deg, #FF3D00, #E91E8C)",
     label: "Música",
@@ -50,7 +47,6 @@ const salones = [
     address: "Av. Jesús del Monte 400, Interlomas",
     capacity: "40–100 personas",
     price: "Desde $6,500 MXN",
-    phone: "55 4444 5555",
     features: ["Zona residencial", "Terraza con vista", "Menú gourmet infantil", "Seguridad privada"],
     gradient: "linear-gradient(135deg, #1565C0, #0288D1)",
     label: "Montaña",
@@ -62,7 +58,6 @@ const salones = [
     address: "Av. Chimalhuacán 100, Ciudad Neza",
     capacity: "60–150 personas",
     price: "Desde $2,500 MXN",
-    phone: "55 5555 6666",
     features: ["Precios populares", "Paquetes completos", "Payasos y magia", "Pastel incluido"],
     gradient: "linear-gradient(135deg, #FFD600, #FF6F00)",
     label: "Festejo",
@@ -74,7 +69,6 @@ const salones = [
     address: "Blvd. Centro Comercial 250, Cuautitlán Izcalli",
     capacity: "50–130 personas",
     price: "Desde $3,800 MXN",
-    phone: "55 6666 7777",
     features: ["Salón moderno", "Área de bebés", "Piñatas y dulceros", "Estacionamiento vigilado"],
     gradient: "linear-gradient(135deg, #00C853, #0288D1)",
     label: "Decoración",
@@ -86,7 +80,6 @@ const salones = [
     address: "Paseo Tollocan 1200, Toluca Centro",
     capacity: "70–160 personas",
     price: "Desde $3,200 MXN",
-    phone: "722 123 4567",
     features: ["Salón amplio", "Juegos interactivos", "Shows temáticos", "Servicio de meseros"],
     gradient: "linear-gradient(135deg, #7C3AED, #1565C0)",
     label: "Diversión",
@@ -98,7 +91,6 @@ const salones = [
     address: "Av. Estado de México 300, Metepec",
     capacity: "40–100 personas",
     price: "Desde $4,200 MXN",
-    phone: "722 234 5678",
     features: ["Ambiente familiar", "Decoración premium", "Área verde", "Banquete y bebidas"],
     gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)",
     label: "Casa",
@@ -116,7 +108,7 @@ const schemaList = {
     "@type": "ListItem",
     "position": i + 1,
     "item": {
-      "@type": "LocalBusiness",
+      "@type": "EventVenue",
       "name": s.name,
       "address": {
         "@type": "PostalAddress",
@@ -125,7 +117,6 @@ const schemaList = {
         "addressRegion": "Estado de México",
         "addressCountry": "MX",
       },
-      "telephone": s.phone,
     },
   })),
 };
@@ -206,7 +197,7 @@ const schemaList = {
       <SectionHeader
         badge="{salones.length} salones verificados"
         title="Salones en Estado de México"
-        subtitle="Directorio completo con dirección, capacidad, precios, teléfono y servicios de cada salón."
+        subtitle="Directorio con dirección, capacidad, precios y servicios de cada salón."
         copy1="El Estado de México cuenta con opciones para todos los presupuestos. Desde salones con paquetes desde $2,500 MXN hasta experiencias gourmet en zonas residenciales. Los precios son referenciales y pueden variar."
         copy2="BRINCOLINS entrega inflables en todos estos municipios. Reserva tu inflable junto con el salón y haz de la fiesta un evento completo e inolvidable."
       />
@@ -224,17 +215,15 @@ const schemaList = {
                 <p class="venue-card__detail"><strong>Dirección:</strong> {s.address}</p>
                 <p class="venue-card__detail"><strong>Capacidad:</strong> {s.capacity}</p>
                 <p class="venue-card__detail"><strong>Precio:</strong> {s.price}</p>
-                <p class="venue-card__detail"><strong>Tel:</strong> {s.phone}</p>
-              </div>
+                              </div>
               <div class="venue-card__features">
                 {s.features.map(f => (
                   <span class="venue-card__tag">✓ {f}</span>
                 ))}
               </div>
               <div class="venue-card__actions">
-                <a href={`tel:+52${s.phone.replace(/\s/g, "")}`} class="btn btn-primary btn-sm">Llamar</a>
-                <a href={`https://wa.me/52${s.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${s.name} para una fiesta infantil.`)}`}
-                   class="btn btn-wa btn-sm" target="_blank" rel="nofollow noopener noreferrer">WhatsApp</a>
+                <a href={`https://www.google.com/maps/search/${encodeURIComponent(`${s.name} ${s.zone} Estado de México`)}`}
+                   class="btn btn-primary btn-sm" target="_blank" rel="nofollow noopener noreferrer">Ver en Google Maps</a>
               </div>
             </div>
           </div>

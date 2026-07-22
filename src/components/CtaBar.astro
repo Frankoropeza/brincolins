@@ -32,7 +32,7 @@ const icons: Record<string, string> = {
     {headline && <p class="ctabar__headline">{headline}</p>}
     <div class="ctabar__grid">
       {items.map((item) => (
-        <a href={item.href} class="ctabar__item" target={item.href.startsWith('http') ? '_blank' : undefined} rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}>
+        <a href={item.href} class="ctabar__item" target={item.href.startsWith('http') ? '_blank' : undefined} rel={item.href.startsWith('http') ? 'nofollow noopener noreferrer' : undefined}>
           {item.icon && icons[item.icon] && (
             <span class="ctabar__icon" set:html={icons[item.icon]} />
           )}

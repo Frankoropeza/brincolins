@@ -230,7 +230,7 @@ const schemaList = {
     "@type": "ListItem",
     "position": i + 1,
     "item": {
-      "@type": "LocalBusiness",
+      "@type": "EventVenue",
       "name": s.name,
       "address": {
         "@type": "PostalAddress",
@@ -240,11 +240,6 @@ const schemaList = {
         "addressCountry": "MX",
       },
       "telephone": s.phone,
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": s.rating,
-        "bestRating": "5",
-      },
     },
   })),
 };
