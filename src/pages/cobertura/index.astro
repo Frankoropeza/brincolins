@@ -151,7 +151,7 @@ const schemaLD = {
         copy2="Cada alcaldía tiene sus propias colonias y particularidades logísticas. Haz clic en tu alcaldía para ver las colonias con cobertura, tiempos estimados de entrega, costos y los inflables más solicitados en esa zona."
       />
 
-      <div class="grid-4">
+      <div class="grid-4 zonas-grid">
         {alcaldias.map(a => (
           <ZonaCard
             slug={a.slug}
@@ -178,7 +178,7 @@ const schemaLD = {
         copy2="Para municipios del Edomex se aplica un cargo de envío adicional que varía según la distancia desde nuestro almacén central en CDMX. El tiempo de entrega es mayor, por lo que recomendamos coordinar la salida con al menos 2-3 horas de anticipación al inicio del evento."
       />
 
-      <div class="grid-4">
+      <div class="grid-4 zonas-grid">
         {municipios.map(m => (
           <ZonaCard
             slug={m.slug}

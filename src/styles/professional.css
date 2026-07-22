@@ -1,0 +1,33 @@
+/* ════════════════════════════════════════════════════════════════════
+   professional.css — capa de refinamiento profesional (jul 2026)
+   Se importa AL FINAL en BaseLayout. Additiva y reversible: quitar el
+   import restaura el look previo. Refina foco, superficie y densidad SIN
+   tocar el layout responsive (ese vive en mobile.css).
+   ════════════════════════════════════════════════════════════════════ */
+
+/* Foco visible accesible y consistente (navegación por teclado, WCAG 2.4.7).
+   :where() mantiene especificidad 0 para no pisar estilos de componente. */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--c-primary);
+  outline-offset: 2px;
+}
+
+/* ── Cobertura / Directorio: rejilla de ZONAS a 2 columnas en móvil ──────
+   Las ZonaCard son .product-card completas; a 1 columna la página de
+   cobertura medía ~22,000px. En 2 columnas compactas (sin descripción)
+   se navega mucho mejor. Solo afecta rejillas marcadas .zonas-grid — el
+   catálogo (.grid-4 sin la marca) sigue a 1 columna en móvil chico. */
+@media (max-width: 640px) {
+  .zonas-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 0.75rem !important; }
+  .zonas-grid .product-card__desc { display: none; }
+  .zonas-grid .product-card__body { padding: 0.8rem 0.85rem 0.9rem !important; gap: 0.5rem; }
+  .zonas-grid .product-card__name { font-size: 0.98rem !important; }
+  .zonas-grid .product-card__info { gap: 0.3rem !important; }
+  .zonas-grid .product-card__tag { font-size: 0.66rem !important; padding: 0.15rem 0.5rem !important; }
+  .zonas-grid .product-card__actions { margin-top: 0.25rem; }
+  .zonas-grid .product-card__actions .btn { width: 100%; justify-content: center; }
+}
+@media (max-width: 360px) {
+  .zonas-grid { gap: 0.6rem !important; }
+  .zonas-grid .product-card__name { font-size: 0.9rem !important; }
+}

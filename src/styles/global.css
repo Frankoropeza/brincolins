@@ -43,9 +43,9 @@
   --r-card: 16px;
   --r-btn: 50px;
   --r-badge: 50px;
-  --shadow-sm: 0 2px 8px rgba(230,50,0,0.04);
-  --shadow-md: 0 4px 20px rgba(230,50,0,0.06);
-  --shadow-lg: 0 8px 32px rgba(230,50,0,0.08);
+  --shadow-sm: 0 1px 2px rgba(16,24,40,0.05), 0 1px 3px rgba(16,24,40,0.05);
+  --shadow-md: 0 4px 10px -2px rgba(16,24,40,0.08), 0 2px 6px -1px rgba(16,24,40,0.05);
+  --shadow-lg: 0 16px 32px -8px rgba(16,24,40,0.12), 0 6px 12px -4px rgba(16,24,40,0.07);
   --shadow-primary: 0 8px 25px rgba(255, 61, 0, 0.15);
   --shadow-wa: 0 4px 20px rgba(37, 211, 102, 0.4);
   --container: 100%;

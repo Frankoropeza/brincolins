@@ -72,7 +72,7 @@ if (!links) {
       <a
         href={l.href}
         class="qnav__item"
-        style={`background-color:${l.color}; color:${textOn(l.color)};`}
+        style={`--dot:${l.color}`}
         aria-current={active ? "page" : undefined}
       >
         {l.label}
@@ -82,82 +82,69 @@ if (!links) {
 </nav>
 
 <style is:global>
+/* QuickNav — rediseño premium (jul 2026): de barra multicolor (arcoíris)
+   a fila de chips sobrios sobre barra blanca. Cada chip lleva un punto del
+   color de su categoría (identidad) pero el texto es oscuro y legible.
+   Envuelve solo (sin carrusel) en cualquier ancho. El color va por la
+   variable --dot (inline desde el componente). */
 .qnav {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
   width: 100%;
+  padding: 1.1rem var(--container-px, 1rem);
+  background: #fff;
+  border-bottom: 1px solid var(--c-border, #e2e8f0);
 }
 
 .qnav__item {
-  flex: 1 1 0%;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  padding: 1.25rem 0.5rem;
-  /* El color de texto lo calcula textOn() por luminancia del fondo y va
-     inline. Antes había `color:#fff !important` aquí, que lo pisaría. */
+  gap: 0.5rem;
+  padding: 0.62rem 1.15rem;
+  border-radius: 50px;
+  background: var(--c-bg-alt, #f8fafc);
+  border: 1px solid var(--c-border, #e2e8f0);
+  color: var(--c-text, #0f172a);
   font-family: var(--font-head, sans-serif);
-  font-weight: 900;
-  font-size: 1.05rem;
+  font-weight: 700;
+  font-size: 0.92rem;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: none;
   text-decoration: none !important;
-  text-align: center;
   white-space: nowrap;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  box-shadow: inset -1px 0 0 rgba(255,255,255,0.12);
+  transition: background .15s ease, border-color .15s ease, color .15s ease;
 }
-.qnav__item:last-child { box-shadow: none; }
+
+.qnav__item::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--dot, var(--c-primary, #FF3D00));
+  flex-shrink: 0;
+}
 
 .qnav__item:hover {
-  filter: brightness(0.9);
+  background: #fff;
+  border-color: var(--c-primary, #FF3D00);
+  color: var(--c-primary-text, #C82D00);
 }
 
 .qnav__item[aria-current="page"] {
-  filter: brightness(0.82);
-  box-shadow: inset 0 -5px 0 rgba(255,255,255,0.5);
+  background: var(--c-primary-deep, #D93000);
+  border-color: var(--c-primary-deep, #D93000);
+  color: #fff;
 }
+.qnav__item[aria-current="page"]::before { background: #fff; }
 
-/* ── Móvil: la tira no cabía en una línea ─────────────────────────────
-   BUG (corregido jul 2026): .qnav__item usa `flex: 1 1 0%` + `white-space:
-   nowrap`. En flexbox el `min-width` por defecto es `auto`, así que un item
-   NUNCA encoge por debajo del ancho de su propio texto — el flex-shrink no
-   puede actuar. Resultado medido a 375px: los 7 enlaces sumaban
-   scrollWidth=476px contra clientWidth=360px.
-
-   Y como <body> usa overflow-x: clip, ese desbordamiento NO producía scroll
-   horizontal: se recortaba en silencio. 3 de los 7 enlaces (Cobertura, Blog,
-   FAQ) quedaban invisibles E inalcanzables en móvil, en las 33 páginas que
-   montan este componente.
-
-   Solución: envolver en filas y soltar el `nowrap` para que las etiquetas
-   largas ("Fiestas Infantiles") caigan a dos líneas dentro de su celda.
-   Se prefiere wrap sobre scroll horizontal: no exige que el usuario
-   descubra que ahí se puede deslizar.
-   ──────────────────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
-  .qnav {
-    flex-wrap: wrap;
-  }
-  .qnav__item {
-    flex: 1 0 25%;          /* 4 por fila → 2 filas con 7 items */
-    min-width: 0;           /* desactiva el min-width:auto de flexbox */
-    white-space: normal;    /* deja respirar las etiquetas largas */
-    font-size: 0.68rem;
-    padding: 0.75rem 0.35rem;
-    min-height: 48px;       /* touch target */
-    line-height: 1.2;
-    letter-spacing: 0;
-    box-shadow: inset -1px 0 0 rgba(255,255,255,0.12),
-                inset 0 -1px 0 rgba(255,255,255,0.12);
-  }
+  .qnav { gap: 0.45rem; padding: 0.9rem 1rem; }
+  .qnav__item { font-size: 0.82rem; padding: 0.55rem 0.95rem; }
 }
-
-/* En pantallas muy chicas se mantienen 4 por fila (2 filas, no 3) y se
-   ajusta el cuerpo de letra. A 320px cada celda son 80px: "INFANTILES"
-   a 0.62rem entra de sobra en dos líneas. */
 @media (max-width: 380px) {
-  .qnav__item {
-    font-size: 0.62rem;
-    padding: 0.7rem 0.25rem;
-  }
+  .qnav__item { font-size: 0.78rem; padding: 0.5rem 0.8rem; }
 }
 </style>
