@@ -11,8 +11,8 @@
    · Touch targets ≥ 44px en todos los elementos tappables
    · font-size ≥ 16px en inputs para evitar zoom iOS
    · Safe-area insets para notch / Dynamic Island
-   · Header auto-hide en móvil (ver styles/header.css) — los anclajes
-     usan scroll-margin-top para no quedar debajo del header al volver
+   · Header NO fijo (viaja con la página) — anclas con scroll-margin-top
+     pequeño; ver styles/header.css
    ════════════════════════════════════════════════════════════════════ */
 
 
@@ -55,11 +55,11 @@ img, picture, video, svg, iframe { max-width: 100%; }
 
 
 /* ──────────────────────────────────────────────────────────────────
-   3. ANCLAJES vs HEADER STICKY/AUTO-HIDE
-      Al navegar a #galeria / #precios (CtaBar) el destino no debe
-      quedar oculto bajo el header cuando éste reaparece.
+   3. ANCLAJES — header ya NO es fijo
+      Sin header sticky que compensar, basta un margen pequeño para que
+      el destino de #galeria / #precios no quede pegado al borde.
    ────────────────────────────────────────────────────────────────── */
-[id] { scroll-margin-top: calc(var(--header-height, 64px) + 16px); }
+[id] { scroll-margin-top: 1rem; }
 
 
 /* ──────────────────────────────────────────────────────────────────
@@ -131,33 +131,40 @@ img, picture, video, svg, iframe { max-width: 100%; }
 
 
 /* ──────────────────────────────────────────────────────────────────
-   6. QUICKNAV — carrusel horizontal con snap
-      Antes: 7 chips forzados en 2 filas a 0.68rem (ilegible y apretado).
-      Ahora: una fila deslizable con snap, chips legibles de 40px+.
-      El overflow horizontal es descubrible: el último chip asoma cortado.
+   6. QUICKNAV — rejilla que ENVUELVE (sin carrusel, sin cortes)
+      Antes esta hoja forzaba nowrap + scroll-x y el último chip quedaba
+      cortado a media palabra ("SERVICIOS"/"COYOACÁN" partidos) y algunos
+      enlaces quedaban escondidos fuera de vista. Se vuelve al wrap que el
+      componente ya prefería: 4 por fila, TODOS los chips visibles y
+      alcanzables, con tamaño cómodo (no el 0.68rem apretado de antes).
    ────────────────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .qnav {
-    flex-wrap: nowrap !important;
-    overflow-x: auto !important;
-    scroll-snap-type: x proximity;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    justify-content: flex-start !important;
+    flex-wrap: wrap !important;
+    overflow: visible !important;
+    justify-content: center !important;
     gap: 0 !important;
   }
-  .qnav::-webkit-scrollbar { display: none; }
   .qnav__item {
-    flex: 0 0 auto !important;
-    min-width: max-content !important;
-    white-space: nowrap !important;
-    scroll-snap-align: start;
-    font-size: 0.75rem !important;
-    padding: 0.8rem 1.1rem !important;
-    min-height: 42px;
-    display: inline-flex;
-    align-items: center;
+    flex: 1 0 25% !important;      /* 4 por fila; la última fila crece a llenar */
+    min-width: 0 !important;
+    white-space: normal !important;
+    font-size: 0.74rem !important;
+    padding: 0.8rem 0.4rem !important;
+    min-height: 50px !important;
+    line-height: 1.18 !important;
+    letter-spacing: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center;
+    box-shadow: inset -1px 0 0 rgba(255,255,255,0.14),
+                inset 0 -1px 0 rgba(255,255,255,0.14) !important;
   }
+}
+
+@media (max-width: 380px) {
+  .qnav__item { font-size: 0.68rem !important; padding: 0.75rem 0.3rem !important; }
 }
 
 

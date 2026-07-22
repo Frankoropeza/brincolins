@@ -14,38 +14,21 @@
   --hdr-text:       #1a1a2e;
   --hdr-text-muted: #6b7280;
   --hdr-border:     rgba(0,0,0,0.07);
-  --hdr-logo-h:     106px;
+  --hdr-logo-h:     74px;
 }
 
 /* ══════════════════════════════════════════
    Header base
    ══════════════════════════════════════════ */
-/* Sticky: se ancla al viewport tras scrollear la TopBar.
-   Funciona porque .hdr-stack usa display:contents (global.css) y
-   <body> usa overflow-x: clip en vez de hidden. No romper ninguna
-   de las dos cosas o el header vuelve a perderse al hacer scroll. */
+/* El header viaja dentro del flujo del documento: al hacer scroll se
+   va con la página y NO reaparece hasta volver arriba. (Antes era
+   position: sticky con auto-hide en móvil; se quitó a pedido del cliente.) */
 .hdr {
-  position: sticky;
-  top: 0;
-  z-index: 9000;
+  position: relative;   /* NO fijo: viaja con el documento y se va al hacer scroll */
+  z-index: 100;         /* mantiene dropdowns / mega-menú por encima del contenido de abajo */
   width: 100%;
   background: #fff;
   border-bottom: 3px solid #FF3D00;
-  /* Solo box-shadow: se compone en GPU, no dispara layout.
-     NO animar `height` ni `--hdr-logo-h`: el header sticky está EN el
-     flujo, así que una transición de altura refluye todo el documento
-     de abajo durante 200ms en cada cruce del umbral de scroll. El
-     cambio de tamaño del logo es instantáneo a propósito. */
-  transition: box-shadow 0.2s ease;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hdr { transition: none; }
-}
-
-.hdr--scrolled {
-  box-shadow: 0 2px 20px rgba(0,0,0,0.10);
-  --hdr-logo-h: 70px;
 }
 
 .hdr__inner {
@@ -820,60 +803,29 @@
 }
 
 /* ── Escala del logo ──────────────────────────────────────────────
-   Cada breakpoint declara el par reposo / --scrolled.
-
-   .hdr--scrolled fija la variable SOBRE el elemento .hdr, así que
-   siempre gana a :root sin importar la media query. Por eso cada
-   breakpoint debe redeclarar su propio valor scrolled: si se omite,
-   hereda el 70px de escritorio y el header NO encoge en móvil.
-
-   Altura resultante del header = logo + 16px (padding .hdr__inner)
-   + 3px de borde:
-     ≤900px →  91px reposo /  67px scrolled
-     ≤640px →  75px reposo /  63px scrolled
-     ≤380px →  69px reposo /  59px scrolled
+   El header ya NO es fijo ni encoge al hacer scroll: cada breakpoint
+   declara UN solo tamaño de logo. Altura del header = logo + 16px
+   (padding de .hdr__inner) + 3px de borde inferior.
    ───────────────────────────────────────────────────────────────── */
 @media (max-width: 1024px) {
   .hdr__wa-btn span { display: none; }
   .hdr__wa-btn { padding: 0.5rem; border-radius: 10px; }
-  :root          { --hdr-logo-h: 90px; }
-  .hdr--scrolled { --hdr-logo-h: 64px; }
+  :root { --hdr-logo-h: 66px; }
 }
 
 @media (max-width: 900px) {
-  /* Header móvil minimalista (jul 2026): SOLO logo + hamburguesa.
-     El CTA "Cotizar" salía aquí apretado junto al burger; las vías de
-     conversión en móvil son el panel (CTA arriba), la WaBubble flotante
-     y la TopBar. En desktop el botón sigue visible. */
+  /* Header móvil minimalista: SOLO logo + hamburguesa.
+     Ya NO es fijo — viaja con la página y se va al hacer scroll (lo pidió
+     el cliente). El acceso persistente a conversión en móvil son la
+     WaBubble flotante (abajo-derecha) y la TopBar superior. */
   .hdr__nav, .hdr__wa-btn, .hdr__cta { display: none; }
   .hdr__toggle { display: flex; }
   .hdr__panel { display: flex; }
-  :root          { --hdr-logo-h: 72px; }
-  .hdr--scrolled { --hdr-logo-h: 48px; }
-
-  /* ── Auto-hide: el header se esconde al bajar y reaparece al subir ──
-     "Header no estático": en móvil el header sticky comía ~75px de un
-     viewport de ~660px útiles. Con auto-hide el contenido recupera esa
-     franja mientras se lee, y el menú vuelve con un gesto de scroll-up.
-     La clase .hdr--hidden la pone el script del Header (rAF, pasivo).
-     transform no refluye el documento: se compone en GPU. */
-  .hdr {
-    transition: box-shadow 0.2s ease, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    will-change: transform;
-  }
-  .hdr--hidden {
-    transform: translateY(calc(-100% - 4px)); /* -4px cubre el borde inferior */
-    box-shadow: none;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hdr--hidden { transition: none; }
+  :root { --hdr-logo-h: 56px; }
 }
 
 @media (max-width: 640px) {
-  :root          { --hdr-logo-h: 56px; }
-  .hdr--scrolled { --hdr-logo-h: 44px; }
+  :root { --hdr-logo-h: 52px; }
 }
 
 @media (max-width: 480px) {
@@ -881,6 +833,5 @@
 }
 
 @media (max-width: 380px) {
-  :root          { --hdr-logo-h: 50px; }
-  .hdr--scrolled { --hdr-logo-h: 40px; }
+  :root { --hdr-logo-h: 46px; }
 }

@@ -456,7 +456,6 @@ const serviciosItems = [
 
   /* ── Mobile panel ── */
   function openPanel() {
-    if (hdr) hdr.classList.remove('hdr--hidden');
     toggle.classList.add('hdr__toggle--open');
     toggle.setAttribute('aria-expanded', 'true');
     panel.classList.add('hdr__panel--open');
@@ -532,41 +531,9 @@ const serviciosItems = [
     });
   });
 
-  /* ── Sticky shrink + auto-hide móvil ──
-     Shrink: reduce el logo tras 60px de scroll (todos los viewports).
-     Auto-hide (≤900px): oculta el header al bajar y lo muestra al subir.
-     Umbrales asimétricos (bajar 8px / subir 4px) para que no parpadee
-     con el rebote del scroll táctil. Nunca se oculta con el panel
-     abierto ni cerca del top. */
-  if (hdr) {
-    var SHRINK_AT = 60;
-    var SHOW_ZONE = 140;   // px superiores donde el header nunca se oculta
-    var lastY = window.scrollY;
-    var ticking = false;
-    var mqMobile = window.matchMedia('(max-width: 900px)');
-
-    function update() {
-      var y = window.scrollY;
-      hdr.classList.toggle('hdr--scrolled', y > SHRINK_AT);
-
-      if (!mqMobile.matches || (panel && panel.classList.contains('hdr__panel--open'))) {
-        hdr.classList.remove('hdr--hidden');
-      } else if (y < SHOW_ZONE) {
-        hdr.classList.remove('hdr--hidden');
-      } else if (y - lastY > 8) {
-        hdr.classList.add('hdr--hidden');
-      } else if (lastY - y > 4) {
-        hdr.classList.remove('hdr--hidden');
-      }
-      lastY = y;
-      ticking = false;
-    }
-
-    window.addEventListener('scroll', function () {
-      if (!ticking) { ticking = true; requestAnimationFrame(update); }
-    }, { passive: true });
-    update();
-  }
+  /* El header ya NO es fijo: sin shrink ni auto-hide en scroll.
+     Se eliminó el listener de scroll (antes alternaba hdr--scrolled /
+     hdr--hidden). El header viaja con el documento. */
 
 })();
 </script>

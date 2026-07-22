@@ -91,9 +91,9 @@
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
-  /* Compensa el header sticky al saltar a anclas (#catalogo, #cotizar-form).
-     --header-height la mide en vivo el script de BaseLayout.astro. */
-  scroll-padding-top: calc(var(--header-height, 64px) + 0.5rem);
+  /* Header ya NO es fijo: las anclas no necesitan compensar su altura.
+     Un respiro pequeño basta para que el título no quede pegado arriba. */
+  scroll-padding-top: 1rem;
 }
 
 body {
