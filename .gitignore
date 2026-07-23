@@ -74,3 +74,6 @@ pnpm-debug.log*
 # Artefactos de auditoria / trabajo (no versionar)
 _patch-*.patch
 INVENTARIO-URLS.csv
+
+# Analisis SEO interno (no publicar / no versionar)
+_analisis-seo/
