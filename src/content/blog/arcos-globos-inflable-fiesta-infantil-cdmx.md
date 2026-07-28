@@ -136,6 +136,6 @@ Para que puedas planear con claridad, aquí un rango de presupuesto para diferen
 | Fiesta mediana (20-50 niños) | $1,200 - $1,800 MXN | $1,500 - $3,000 MXN | $2,700 - $4,800 MXN |
 | Fiesta grande (+50 niños) | $1,700 - $1,900 MXN | $3,000 - $6,000 MXN | $4,700 - $7,900 MXN |
 
-Los precios de inflables de BRINCOLINS incluyen transporte, instalación, seguro de responsabilidad civil y retiro. Para cotizar tu combinación personalizada, escríbenos por WhatsApp al **5531281706** y te conectamos con el equipo de DEGLOB para que recibas ambas cotizaciones de forma coordinada.
+Los precios de inflables de BRINCOLINS incluyen transporte, instalación y retiro. Para cotizar tu combinación personalizada, escríbenos por WhatsApp al **5531281706** y te conectamos con el equipo de DEGLOB para que recibas ambas cotizaciones de forma coordinada.
 
 Lo que aprendimos después de veinte años es que las fiestas que más recordamos no son las más caras — son las mejor planeadas. Un arco en la entrada, un inflable bien elegido para el espacio, colores que hablan el mismo idioma. Eso es todo lo que necesitas. Nosotros ponemos el inflable y la experiencia; DEGLOB pone la magia visual. La fiesta que resulta de esa combinación es tuya.

@@ -60,7 +60,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     precios: {
       copy1: "El Barco Pirata es ideal para fiestas grandes donde necesitas una atracción que mantenga entretenidos a varios niños al mismo tiempo. Con capacidad para 8 a 10 niños simultáneos y 7 metros de largo, es el modelo más grande del catálogo.",
-      copy2: "Un solo precio de 4 a 6 horas de renta, con entrega, instalación profesional, recolección y seguro de responsabilidad civil incluidos. Sin costos ocultos ni cargos extra el día del evento. Reserva con el 50% de anticipo.",
+      copy2: "Un solo precio de 4 a 6 horas de renta, con entrega, instalación profesional y recolección incluidos. Sin costos ocultos ni cargos extra el día del evento. Reserva con el 50% de anticipo.",
     },
     relacionados: {
       copy1: "Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana.",
@@ -92,7 +92,6 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Seguro de responsabilidad civil", included: true },
           { text: "Sanitización certificada antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",
@@ -125,7 +124,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     precios: {
       copy1: "El Castillo Blanco es un inflable premium con acabados superiores, pensado para eventos donde la estética importa tanto como la diversión. La renta incluye sanitización certificada para mantener el blanco impecable.",
-      copy2: "Un solo precio de 4 a 6 horas de renta, con entrega, instalación profesional, recolección y seguro de responsabilidad civil incluidos. Coordinamos la hora de montaje con el venue para no interferir con la logística del evento.",
+      copy2: "Un solo precio de 4 a 6 horas de renta, con entrega, instalación profesional y recolección incluidos. Coordinamos la hora de montaje con el venue para no interferir con la logística del evento.",
     },
     relacionados: {
       copy1: "Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana.",
@@ -159,7 +158,6 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Seguro de responsabilidad civil", included: true },
           { text: "Sanitización certificada antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",
@@ -225,7 +223,6 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Seguro de responsabilidad civil", included: true },
           { text: "Sanitización certificada antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",
@@ -255,7 +252,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       },
       {
         question: "¿Qué incluye la renta del Castillo de Princesas?",
-        answer: "La renta incluye el inflable de 4 a 6 horas, motor silencioso, extensión eléctrica, entrega a domicilio, instalación profesional, retiro al finalizar y seguro de responsabilidad civil. Todos los inflables pasan por sanitización certificada antes de cada evento.",
+        answer: "La renta incluye el inflable de 4 a 6 horas, motor silencioso, extensión eléctrica, entrega a domicilio, instalación profesional y retiro al finalizar. Todos los inflables pasan por sanitización certificada antes de cada evento.",
       },
     ],
     cards: [
@@ -276,7 +273,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     precios: {
       copy1: "El Dragones Rojos es el modelo más pedido del catálogo y se renta de 4 a 6 horas, la duración típica de un cumpleaños. Un solo precio, sin escalera de paquetes.",
-      copy2: "Todos los precios son en pesos mexicanos antes de IVA e incluyen instalación, retiro y seguro de responsabilidad civil. Reserva con el 50% de anticipo para asegurar tu fecha.",
+      copy2: "Todos los precios son en pesos mexicanos antes de IVA e incluyen instalación y retiro. Reserva con el 50% de anticipo para asegurar tu fecha.",
     },
     relacionados: {
       copy1: "Si el Dragones Rojos no se ajusta a lo que buscas, explora nuestro catálogo completo. El Castillo de Princesas es perfecto para fiestas de niñas, la Mini Jungla para temáticas safari y los Gusanitos para eventos tropicales al aire libre.",
@@ -307,7 +304,6 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Seguro de responsabilidad civil", included: true },
           { text: "Sanitización certificada antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",
@@ -358,7 +354,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     precios: {
       copy1: "El Extremo es nuestra opción premium para eventos que necesitan una atracción de alto impacto. Es un circuito de obstáculos para competencias por equipos, con capacidad para 6 a 10 niños por turno y rotación continua.",
-      copy2: "Un solo precio de 4 a 6 horas de renta, con entrega, instalación profesional, recolección y seguro de responsabilidad civil incluidos. La dinámica de competencia por equipos hace que los turnos se regulen solos.",
+      copy2: "Un solo precio de 4 a 6 horas de renta, con entrega, instalación profesional y recolección incluidos. La dinámica de competencia por equipos hace que los turnos se regulen solos.",
     },
     relacionados: {
       copy1: "Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana.",
@@ -392,7 +388,6 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Seguro de responsabilidad civil", included: true },
           { text: "Sanitización certificada antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",
@@ -425,7 +420,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     precios: {
       copy1: "Un solo precio para tu fiesta: el Gusanitos se renta de 4 a 6 horas, la duración típica de un cumpleaños, y también funciona para fiestas de verano, pool parties y eventos al aire libre.",
-      copy2: "Precios en pesos mexicanos antes de IVA. La renta incluye instalación, retiro, extensión eléctrica y seguro de responsabilidad civil sin costo adicional. Reserva con el 50% de anticipo.",
+      copy2: "Precios en pesos mexicanos antes de IVA. La renta incluye instalación, retiro y extensión eléctrica sin costo adicional. Reserva con el 50% de anticipo.",
     },
     relacionados: {
       copy1: "Si buscas más opciones para tu evento, la Mini Jungla comparte la temática tropical con dinosaurios y palmeras, el Castillo de Princesas es perfecto para fiestas de niñas y los Dragones Rojos son el favorito absoluto de CDMX.",
@@ -451,7 +446,6 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Seguro de responsabilidad civil", included: true },
           { text: "Sanitización certificada antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",
@@ -502,7 +496,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     precios: {
       copy1: "El Mini Castillo es nuestro inflable más accesible, desde $800 MXN por 4 a 6 horas de renta, pensado para fiestas de cumpleaños de primer año, bautizos y reuniones íntimas donde los bebés son los protagonistas.",
-      copy2: "La renta incluye el inflable sanitizado, motor inflador silencioso, entrega a domicilio, instalación profesional, recolección al terminar y seguro de responsabilidad civil. Un solo precio, sin cargos extra.",
+      copy2: "La renta incluye el inflable sanitizado, motor inflador silencioso, entrega a domicilio, instalación profesional, recolección al terminar. Un solo precio, sin cargos extra.",
     },
     relacionados: {
       copy1: "Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana.",
@@ -535,7 +529,6 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Seguro de responsabilidad civil", included: true },
           { text: "Sanitización certificada antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",
@@ -594,7 +587,6 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Seguro de responsabilidad civil", included: true },
           { text: "Sanitización certificada antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",

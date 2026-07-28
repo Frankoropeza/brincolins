@@ -26,7 +26,7 @@ faqs:
   - question: "¿Para una fiesta de 30 niños es mejor un inflable grande o dos medianos?"
     answer: "Si las edades son homogéneas (4-10 años), un grande como el Barco Pirata ($1,800 MXN) resuelve bien. Si hay mezcla de bebés y niños grandes, conviene más combinar un Mini Castillo ($800) con un mediano (desde $1,200): separas edades, pagas casi lo mismo y los pequeños brincan seguros."
   - question: "¿Cuánto cuesta rentar un inflable según el tamaño en CDMX?"
-    answer: "Precios 2026 por evento de 4 a 6 horas: Mini Castillo $800 MXN; Dragones Rojos y Castillo de Princesas $1,200; Mini Jungla $1,300; Gusanitos $1,350; Castillo Blanco $1,700; Barco Pirata $1,800; Circuito Extremo $1,900. Todos incluyen entrega, instalación, motor, sanitización, seguro de responsabilidad civil y recolección."
+    answer: "Precios 2026 por evento de 4 a 6 horas: Mini Castillo $800 MXN; Dragones Rojos y Castillo de Princesas $1,200; Mini Jungla $1,300; Gusanitos $1,350; Castillo Blanco $1,700; Barco Pirata $1,800; Circuito Extremo $1,900. Todos incluyen entrega, instalación, motor, sanitización y recolección."
 ---
 
 ## La tabla que resuelve la decisión
@@ -60,4 +60,4 @@ Ningún inflable individual entretiene solo a 50+ niños. Las escuelas y kermese
 
 **2. Mide tu espacio antes de cotizar.** El mediano necesita ~5×5 m libres; el grande, ~8×6 m y 4.5 m de altura. Una foto del espacio por WhatsApp evita sorpresas el día del evento.
 
-Todos los precios incluyen entrega, instalación, motor, sanitización certificada, seguro de responsabilidad civil y recolección en CDMX y Edomex. Consulta la [guía completa de precios](/blog/cuanto-cuesta-rentar-inflable-cdmx/) o la página de [renta de inflables para fiestas infantiles](/fiestas-infantiles/).
+Todos los precios incluyen entrega, instalación, motor, sanitización certificada y recolección en CDMX y Edomex. Consulta la [guía completa de precios](/blog/cuanto-cuesta-rentar-inflable-cdmx/) o la página de [renta de inflables para fiestas infantiles](/fiestas-infantiles/).

@@ -16,7 +16,7 @@ galleryImages:
   - "/img/blog/brincolines-cdmx-precios-modelos/img4.avif"
 intro:
   - "Buscar **precios de brincolines en CDMX** puede ser confuso: algunos proveedores cobran transporte aparte, otros no incluyen instalación, y los precios varían enormemente según el modelo y la temporada. En **BRINCOLINS** queremos que tengas toda la información clara antes de decidir. Por eso creamos esta guía con **precios reales, modelos disponibles y todo lo que incluye** cada renta."
-  - "Llevamos más de 20 años rentando inflables en la **Ciudad de México** y municipios del **Estado de México**. Nuestros precios incluyen transporte, instalación profesional, **seguro de responsabilidad civil** y retiro al terminar. Sin letra chica, sin sorpresas. Compara, pregunta y elige el **brincolín perfecto para tu evento** al mejor precio."
+  - "Llevamos más de 20 años rentando inflables en la **Ciudad de México** y municipios del **Estado de México**. Nuestros precios incluyen transporte, instalación profesional y retiro al terminar. Sin letra chica, sin sorpresas. Compara, pregunta y elige el **brincolín perfecto para tu evento** al mejor precio."
 tags:
   - "renta inflables CDMX"
   - "brincolines cdmx precios modelos"
@@ -25,7 +25,7 @@ faqs:
   - question: "¿Cuánto cuesta rentar un brincolín en CDMX?"
     answer: "Los precios van desde $800 MXN para modelos básicos como el Mini Castillo, hasta $1,900 MXN para inflables grandes como el Extremo. El precio incluye transporte, instalación, seguro y retiro."
   - question: "¿El precio incluye transporte e instalación?"
-    answer: "Sí. En BRINCOLINS el precio que te cotizamos es todo incluido: transporte a tu domicilio en CDMX o Estado de México, instalación profesional, uso durante tu evento, seguro de responsabilidad civil y retiro al finalizar. Sin costos ocultos."
+    answer: "Sí. En BRINCOLINS el precio que te cotizamos es todo incluido: transporte a tu domicilio en CDMX o Estado de México, instalación profesional, uso durante tu evento y retiro al finalizar. Sin costos ocultos."
   - question: "¿Hay descuento si rento más de un inflable?"
     answer: "Sí, manejamos precios especiales por paquetes de 2 o más inflables. También tenemos promociones para eventos entre semana. Escríbenos por WhatsApp y te damos la mejor cotización según tu evento."
   - question: "¿Necesito dejar anticipo para reservar?"
@@ -55,7 +55,6 @@ Uno de los errores más comunes al comparar precios de inflables es no revisar q
 
 - **Transporte ida y vuelta** a tu domicilio en CDMX y zona metropolitana (Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Atizapán y más)
 - **Instalación profesional** por nuestro equipo capacitado — anclaje seguro, inflado correcto y revisión completa
-- **Seguro de responsabilidad civil** que cubre accidentes durante el uso del inflable
 - **Uso durante tu evento** (generalmente 4-6 horas, flexible según tu necesidad)
 - **Retiro y desmontaje** al finalizar tu evento — no tienes que hacer nada
 - **Sanitización previa:** Cada inflable se limpia y desinfecta con productos biodegradables antes de cada renta

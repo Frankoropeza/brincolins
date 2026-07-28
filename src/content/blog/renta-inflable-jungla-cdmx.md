@@ -12,7 +12,7 @@ heroImageAlt: "Inflable Mini Jungla temático safari para renta en CDMX - BRINCO
 galleryImages:
   - "/img/blog/renta-inflable-jungla-cdmx/img2.avif"
 intro:
-  - "El **inflable Mini Jungla** es uno de los modelos más solicitados en la **Ciudad de México** para fiestas infantiles con temática safari y aventura tropical. Su diseño vibrante — decorado con animales de la selva, vegetación exuberante y colores que evocan la naturaleza salvaje — convierte cualquier patio o salón en una expedición emocionante. En **BRINCOLINS** lo entregamos limpio, instalado y con **seguro de responsabilidad civil** incluido."
+  - "El **inflable Mini Jungla** es uno de los modelos más solicitados en la **Ciudad de México** para fiestas infantiles con temática safari y aventura tropical. Su diseño vibrante — decorado con animales de la selva, vegetación exuberante y colores que evocan la naturaleza salvaje — convierte cualquier patio o salón en una expedición emocionante. En **BRINCOLINS** lo entregamos limpio e instalado."
   - "Si buscas un **brincolín temático** que combine entretenimiento y decoración en una sola pieza, el Mini Jungla es la elección perfecta. Atendemos colonias de toda la **CDMX** y municipios del **Estado de México** como Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan y Atizapán. Escríbenos por **WhatsApp** y recibe tu cotización en minutos."
 tags:
   - "renta inflables CDMX"
@@ -53,7 +53,7 @@ Todo el inflable pasa por un riguroso proceso de limpieza y sanitización despu�
 
 ### Materiales y seguridad certificada
 
-La lona que utilizamos es de grado comercial, fabricada con PVC laminado de alta densidad que resiste rasgaduras, perforaciones y el desgaste natural del uso frecuente. Las costuras son dobles y selladas con calor, lo que impide filtraciones de aire y garantiza que el inflable mantenga su firmeza durante todo el evento. Además, cada renta incluye **seguro de responsabilidad civil** sin costo adicional.
+La lona que utilizamos es de grado comercial, fabricada con PVC laminado de alta densidad que resiste rasgaduras, perforaciones y el desgaste natural del uso frecuente. Las costuras son dobles y selladas con calor, lo que impide filtraciones de aire y garantiza que el inflable mantenga su firmeza durante todo el evento.
 
 ## Edades ideales para el inflable Mini Jungla
 
@@ -103,4 +103,4 @@ El proceso de renta es sencillo, rápido y transparente. Así funciona paso a pa
 - **Paso 4 — Instalación profesional:** El equipo de BRINCOLINS llega puntual al lugar de tu evento, instala el inflable y lo deja listo para la acción.
 - **Paso 5 — Disfruta y despreocúpate:** Al terminar tu fiesta, recogemos todo el equipo. Tú solo preocúpate por pasarla increíble con tu familia.
 
-El servicio incluye transporte, instalación profesional, uso durante tu evento y retiro. También incluimos **seguro de responsabilidad civil** sin costo adicional. Los fines de semana se reservan rápido, especialmente en temporada de cumpleaños (abril a junio y octubre a diciembre), así que te recomendamos apartar con al menos 2 semanas de anticipación.
+El servicio incluye transporte, instalación profesional, uso durante tu evento y retiro. Los fines de semana se reservan rápido, especialmente en temporada de cumpleaños (abril a junio y octubre a diciembre), así que te recomendamos apartar con al menos 2 semanas de anticipación.

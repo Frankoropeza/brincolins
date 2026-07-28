@@ -18,7 +18,7 @@ const faqs = [
   { question: "¿Qué inflable necesita más espacio?", answer: "El Barco Pirata es el más grande del catálogo y requiere 8×6 metros. El Circuito Extremo necesita al menos 8×5 metros (es una pista de 7 metros) y el Castillo Blanco 7×6. Entre los medianos, Dragones Rojos y Castillo de Princesas necesitan unos 5×5 metros, la Mini Jungla 6×5 y Gusanitos 6×4. El Mini Castillo solo 3×3 metros y funciona en interiores." },
   { question: "¿Hay inflables para adultos o para bodas?", answer: "Sí. El Castillo Blanco es nuestro modelo premium para bodas, XV años, bautizos y eventos formales. Mide 6×5×4 metros, tiene torres decorativas en blanco inmaculado y es apto para adultos y niños (capacidad 8-10 personas). El Circuito Extremo de 7 metros también es muy popular para team building corporativo y adultos." },
   { question: "¿Cuántos niños pueden usar el inflable al mismo tiempo?", answer: "Depende del modelo: el Mini Castillo admite 3-4 niños; los medianos (Dragones Rojos, Princesas, Mini Jungla, Gusanitos) entre 5-7 niños; el Barco Pirata 8-10 niños simultáneamente; el Castillo Blanco 8-10 personas; el Circuito Extremo 6-10 personas, 2-4 por carril en carreras." },
-  { question: "¿Todos los inflables incluyen entrega e instalación?", answer: "Sí, todos incluyen entrega a domicilio sin costo extra, instalación profesional en menos de 30 minutos, motor inflador silencioso, limpieza y sanitización certificada, seguro de responsabilidad civil y recolección al finalizar. El precio que ves es el precio final, sin costos ocultos." },
+  { question: "¿Todos los inflables incluyen entrega e instalación?", answer: "Sí, todos incluyen entrega a domicilio sin costo extra, instalación profesional en menos de 30 minutos, motor inflador silencioso, limpieza y sanitización certificada, y recolección al finalizar. El precio que ves es el precio final, sin costos ocultos." },
   { question: "¿Cómo aparto mi fecha con un inflable del catálogo?", answer: "Escríbenos por WhatsApp con el inflable que te interesa, la fecha y la zona de entrega. Te confirmamos disponibilidad en minutos. Para apartar la fecha se requiere un anticipo del 50%. Aceptamos transferencia bancaria, efectivo y tarjeta. El saldo se paga el día del evento." },
   { question: "¿Puedo rentar más de un inflable para mi evento?", answer: "Sí, y contamos con paquetes multi-inflable para kermeses escolares, eventos corporativos y ferias. Desde 3 inflables incluimos coordinador de logística sin costo adicional. Cuéntanos las necesidades de tu evento y te armamos un paquete a la medida con precio especial." },
 ];
@@ -83,7 +83,7 @@ const productos = [
         title="Catálogo de Inflables para Fiestas y Eventos en CDMX"
         subtitle="Encuentra el inflable perfecto según el tipo y tamaño de tu evento."
         copy1="Organizamos nuestro catálogo de brincolines e inflables por categorías para que encuentres exactamente lo que buscas en segundos. Desde el Mini Castillo para los más pequeños hasta circuitos de obstáculos para eventos masivos, cada categoría incluye inflables de diferentes tamaños, temas y precios para CDMX y Estado de México."
-        copy2="Todos los inflables incluyen entrega, instalación profesional y seguro de responsabilidad civil. Explora la categoría que más te interese y descubre las opciones disponibles con sus precios, dimensiones y edades recomendadas."
+        copy2="Todos los inflables incluyen entrega e instalación profesional. Explora la categoría que más te interese y descubre las opciones disponibles con sus precios, dimensiones y edades recomendadas."
       />
       <div class="grid-4">
         {productos.map(p => <ProductCard {...p} />)}
@@ -100,7 +100,7 @@ const productos = [
         title="Conoce nuestro inflable estrella"
         subtitle="Detalle completo · galería de fotos reales · precios transparentes"
         copy1="El inflable Dragones Rojos es el más solicitado de nuestro catálogo en CDMX y Estado de México. Con sus dos dragones gigantes, resbaladilla integrada y colores en rojo y dorado, se convierte en el centro de atención de cualquier fiesta infantil."
-        copy2="Disponible desde $1,200 MXN con entrega, instalación, motor inflador y seguro de responsabilidad civil incluidos. Cabe en un espacio de 5×5 metros — ideal para jardines, patios y salones de eventos."
+        copy2="Disponible desde $1,200 MXN con entrega, instalación y motor inflador incluidos. Cabe en un espacio de 5×5 metros — ideal para jardines, patios y salones de eventos."
       />
 
       <!-- Layout main + sidebar -->
@@ -123,7 +123,6 @@ const productos = [
               { icon: "🔒", text: "Mallas de seguridad perimetrales para supervisión" },
               { icon: "🧼", text: "Sanitización certificada antes de cada evento" },
               { icon: "🚚", text: "Entrega, instalación y motor inflador incluidos" },
-              { icon: "📋", text: "Seguro de responsabilidad civil disponible" },
             ]}
             image="/img/inflables/dragones-rojos.avif"
             imageAlt="Inflable Dragones Rojos — el más rentado en CDMX y Estado de México"

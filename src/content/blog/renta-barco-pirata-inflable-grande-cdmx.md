@@ -13,7 +13,7 @@ galleryImages:
   - "/img/blog/renta-barco-pirata-inflable-grande-cdmx/img1.avif"
   - "/img/blog/renta-barco-pirata-inflable-grande-cdmx/img3.avif"
 intro:
-  - "El **barco pirata inflable grande** es la atracción estrella de **BRINCOLINS** para fiestas y eventos en la **Ciudad de México**. Con su diseño espectacular de navío pirata, **tobogán integrado** y zona de brinco en la cubierta, este inflable transforma cualquier espacio en una aventura en altamar. Incluimos **transporte, instalación profesional y seguro de responsabilidad civil** en cada renta dentro de la ZMVM."
+  - "El **barco pirata inflable grande** es la atracción estrella de **BRINCOLINS** para fiestas y eventos en la **Ciudad de México**. Con su diseño espectacular de navío pirata, **tobogán integrado** y zona de brinco en la cubierta, este inflable transforma cualquier espacio en una aventura en altamar. Incluimos **transporte e instalación profesional** en cada renta dentro de la ZMVM."
   - "Si buscas un **inflable grande para fiestas infantiles en CDMX**, el barco pirata es la opción que garantiza diversión para todos los niños. Atendemos colonias de toda la **Ciudad de México** y municipios del **Estado de México** como Naucalpan, Huixquilucan, Tlalnepantla y Atizapán. Escríbenos por **WhatsApp** y recibe tu cotización en minutos."
 tags:
   - "renta inflables CDMX"

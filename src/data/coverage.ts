@@ -1103,7 +1103,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     badge:             "Tlalpan y Sur CDMX",
     heroDesc:          "Entregamos inflables en Tlalpan, Xochimilco, Coapa y todas las colonias del sur de la Ciudad de México. Servicio completo con instalación incluida.",
     heroCopy1:         "El sur de la <strong>Ciudad de México</strong> es una de nuestras zonas de mayor demanda. Con amplios jardines en <strong>Pedregal de San Ángel</strong>, áreas verdes en <strong>Villa Coapa</strong> y espacios tradicionales en <strong>Xochimilco</strong>, esta zona es ideal para fiestas al aire libre con inflables. Nuestro equipo conoce perfectamente las rutas y accesos de la zona sur.",
-    heroCopy2:         "Ofrecemos <strong>entrega gratuita</strong> en las principales colonias de Tlalpan y Xochimilco. Nuestros inflables van desde el <strong>Mini Castillo</strong> por <strong>$800 MXN</strong> hasta el <strong>Obstáculos Extremo XL</strong> de 15 metros. Todos incluyen instalación profesional, motor inflador, sanitización y seguro de responsabilidad civil.",
+    heroCopy2:         "Ofrecemos <strong>entrega gratuita</strong> en las principales colonias de Tlalpan y Xochimilco. Nuestros inflables van desde el <strong>Mini Castillo</strong> por <strong>$800 MXN</strong> hasta el <strong>Obstáculos Extremo XL</strong> de 15 metros. Todos incluyen instalación profesional, motor inflador y sanitización.",
     ctaBannerTitle:    "Entrega gratuita en zonas principales del sur de CDMX. Cotiza sin compromiso.",
     ctaBannerSubtitle: "Entrega gratuita en zonas principales del sur de CDMX. Cotiza sin compromiso.",
     ctaBannerVariant:  "cool",

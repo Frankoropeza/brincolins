@@ -73,10 +73,9 @@ Antes de contratar, pregunta explícitamente qué incluye el precio. Un buen pro
 - **Entrega y retiro** — sin costo oculto de flete
 - **Instalación y desinstalación** — el equipo monta y desmonta todo
 - **Compresor/motor** — el inflable llega con su soplador incluido
-- **Seguro de responsabilidad civil** — protección si hay un accidente
 - **Inflable limpio y desinfectado** — especialmente importante post-pandemia
 
-> **Red flag:** Si el proveedor cobra extra por la instalación o no menciona el seguro, es una señal de alerta. El seguro de RC es obligatorio para cualquier operador serio.
+> **Red flag:** Si el proveedor cobra extra por la instalación básica, es una señal de alerta. Un operador serio incluye la instalación en el precio.
 
 ## Costos ocultos que debes evitar
 

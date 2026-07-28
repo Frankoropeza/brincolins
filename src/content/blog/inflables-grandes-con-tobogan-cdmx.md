@@ -12,7 +12,7 @@ galleryImages:
   - "/img/blog/inflables-grandes-con-tobogan-cdmx/img1.avif"
   - "/img/blog/inflables-grandes-con-tobogan-cdmx/img3.avif"
 intro:
-  - "Los **inflables grandes con tobogán** son la atracción definitiva para eventos y fiestas que quieren ir más allá del brincolín tradicional. En **BRINCOLINS** contamos con los modelos más impresionantes de la **Ciudad de México**: desde el **barco pirata con tobogán integrado** hasta pistas de obstáculos con deslizaderos de gran altura. Todos incluyen **transporte, instalación profesional y seguro de responsabilidad civil**."
+  - "Los **inflables grandes con tobogán** son la atracción definitiva para eventos y fiestas que quieren ir más allá del brincolín tradicional. En **BRINCOLINS** contamos con los modelos más impresionantes de la **Ciudad de México**: desde el **barco pirata con tobogán integrado** hasta pistas de obstáculos con deslizaderos de gran altura. Todos incluyen **transporte e instalación profesional**."
   - "Si estás organizando un evento grande — una kermés escolar, un festival comunitario, un cumpleaños con muchos invitados o un evento corporativo familiar — un **inflable grande con tobogán** es la pieza central que garantiza diversión para todos. Atendemos toda la **ZMVM** incluyendo **CDMX**, Naucalpan, Huixquilucan, Tlalnepantla, Atizapán y más. **Cotiza por WhatsApp** y recibe respuesta en minutos."
 tags:
   - "renta inflables CDMX"
@@ -22,7 +22,7 @@ faqs:
   - question: "¿Cuánto espacio necesito para un inflable grande con tobogán?"
     answer: "Los inflables grandes con tobogán requieren un área mínima de 8×6 metros más 1.5 metros de perímetro de seguridad por cada lado. La altura libre debe ser de al menos 5 metros. Son ideales para jardines amplios, explanadas, parques y salones con techo alto. Si no estás seguro, mándanos una foto del espacio por WhatsApp y te asesoramos."
   - question: "¿Los inflables grandes con tobogán son seguros para niños?"
-    answer: "Absolutamente. Todos nuestros inflables cumplen con normas de seguridad comercial. Los toboganes tienen paredes laterales altas, pendiente controlada y zonas de aterrizaje con colchón extra grueso. Además, cada renta incluye seguro de responsabilidad civil y nuestro equipo de instalación verifica las condiciones de seguridad antes de entregar el inflable."
+    answer: "Absolutamente. Todos nuestros inflables cumplen con normas de seguridad comercial. Los toboganes tienen paredes laterales altas, pendiente controlada y zonas de aterrizaje con colchón extra grueso. Además, nuestro equipo de instalación verifica las condiciones de seguridad antes de entregar el inflable."
   - question: "¿Para qué tipo de eventos funcionan los inflables grandes?"
     answer: "Los inflables grandes con tobogán son perfectos para fiestas infantiles con muchos invitados, kermeses escolares, eventos corporativos familiares, festivales comunitarios, fiestas de día del niño y eventos en parques o explanadas. Su tamaño los hace ideales cuando esperas más de 20 niños."
   - question: "¿Puedo rentar dos inflables grandes para un evento?"
@@ -98,7 +98,6 @@ La seguridad es la prioridad número uno cuando se trata de **inflables grandes 
 - **Anclaje profesional:** Cada inflable se ancla al piso con estacas industriales (en pasto) o pesas de contrapeso (en concreto). El equipo no se mueve ni con viento moderado.
 - **Toboganes con protección:** Los toboganes tienen paredes laterales altas que evitan caídas, pendiente controlada para velocidad segura y zona de aterrizaje con colchón extra grueso.
 - **Motor de inflado continuo:** El motor mantiene el inflable firme en todo momento. Si se interrumpe la electricidad, el inflable se desinfla lentamente (no colapsa) dando tiempo a que los niños salgan con seguridad.
-- **Seguro de responsabilidad civil:** Cada renta incluye seguro sin costo adicional. Esto te protege ante cualquier eventualidad durante el uso del inflable.
 - **Revisión pre-evento:** Antes de entregar cada inflable, nuestro equipo realiza una revisión completa de costuras, material, motor y sistema de anclaje.
 
 ### Reglas de uso que compartimos contigo

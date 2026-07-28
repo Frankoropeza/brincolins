@@ -55,7 +55,7 @@ Con esa expansión llegó también la proliferación. Lo que antes era un giro c
 
 ### Los años 2010: madurez y el desafío del mercado informal
 
-Para la segunda década, el mercado ya ofrecía una variedad notable: inflables combinados con chapoteadero, modelos deportivos, pistas de varios metros, temáticas renovadas cada temporada. Los materiales certificados con mayor vida útil se volvieron accesibles. Las empresas serias desarrollaron protocolos de limpieza, mantenimiento preventivo y seguro de responsabilidad civil.
+Para la segunda década, el mercado ya ofrecía una variedad notable: inflables combinados con chapoteadero, modelos deportivos, pistas de varios metros, temáticas renovadas cada temporada. Los materiales certificados con mayor vida útil se volvieron accesibles. Las empresas serias desarrollaron protocolos de limpieza y mantenimiento preventivo.
 
 Pero también creció el sector informal a un ritmo acelerado. La entrada de capital bajo, la ausencia de regulación y la facilidad de vender por redes sociales crearon condiciones perfectas para que cualquiera pudiera operar un inflable sin ningún estándar, compitiendo por precio contra empresas que sí absorbían el costo de operar correctamente.
 
@@ -74,7 +74,7 @@ Pero la brecha entre el sector formal y el informal se ha ampliado, no reducido.
 | 1990-2000 | Lona básica, PVC grueso | Castillos simples | Mínimos, sin regulación | Pocos proveedores, alta demanda |
 | 2000-2010 | PVC mejorado, más liviano | Temáticos, toboganes, pistas | Mejores anclajes, motores más potentes | Expansión acelerada del giro |
 | 2010-2018 | PVC de alta densidad, costuras reforzadas | Combinados, acuáticos, deportivos | Protocolos de limpieza en empresas serias | Mercado maduro + crecimiento informal |
-| 2018-hoy | Materiales certificados, mayor vida útil | Más de 20 modelos distintos por empresa | Seguro RC en empresas establecidas | Competencia entre formales e informales |
+| 2018-hoy | Materiales certificados, mayor vida útil | Más de 20 modelos distintos por empresa | Estándares de seguridad más altos | Competencia entre formales e informales |
 
 ---
 

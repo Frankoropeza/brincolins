@@ -102,6 +102,6 @@ Reservar con nosotros es rápido y sencillo. Estos consejos te ayudarán a tener
 - **Aparta con anticipación.** Los fines de semana vuelan. Con el 50% de anticipo tu fecha queda reservada.
 - **Confirma los detalles logísticos** una semana antes: dirección exacta, hora de llegada, acceso para descarga y contacto el día del evento.
 
-Nuestro servicio incluye **transporte, instalación profesional, seguro de responsabilidad civil y retiro** al finalizar. Sin costos ocultos ni sorpresas. El precio que te cotizamos es el precio final.
+Nuestro servicio incluye **transporte, instalación profesional y retiro** al finalizar. Sin costos ocultos ni sorpresas. El precio que te cotizamos es el precio final.
 
 > **Tip de cumpleaños:** Reserva tu inflable y pregúntanos por paquetes completos que incluyen más de un brincolín para fiestas grandes. Entre más diversión, mejor precio por inflable.

@@ -14,7 +14,7 @@ galleryImages:
   - "/img/blog/fiesta-pirata-infantil-tobogan-cdmx/img3.avif"
   - "/img/blog/fiesta-pirata-infantil-tobogan-cdmx/img4.avif"
 intro:
-  - "La **fiesta pirata infantil** es una de las temáticas más populares y emocionantes para cumpleaños en la **Ciudad de México**. Cuando le agregas un **tobogán inflable con diseño de barco pirata**, la experiencia pasa de divertida a absolutamente inolvidable. En **BRINCOLINS** te ayudamos a crear esa fiesta épica con nuestro inflable pirata con tobogán integrado, entrega profesional y **seguro de responsabilidad civil** incluido."
+  - "La **fiesta pirata infantil** es una de las temáticas más populares y emocionantes para cumpleaños en la **Ciudad de México**. Cuando le agregas un **tobogán inflable con diseño de barco pirata**, la experiencia pasa de divertida a absolutamente inolvidable. En **BRINCOLINS** te ayudamos a crear esa fiesta épica con nuestro inflable pirata con tobogán integrado, entrega profesional."
   - "En esta guía te compartimos todo lo que necesitas para organizar una **fiesta pirata completa en CDMX**: desde la decoración y los juegos hasta la comida temática y, por supuesto, el **inflable perfecto** como pieza central. Atendemos toda la **Zona Metropolitana del Valle de México** — escríbenos por **WhatsApp** y recibe tu cotización en minutos."
 tags:
   - "renta inflables CDMX"
@@ -24,7 +24,7 @@ faqs:
   - question: "¿A partir de qué edad pueden los niños usar el tobogán inflable pirata?"
     answer: "El tobogán inflable del barco pirata es adecuado para niños de 5 años en adelante. Los niños de 5 y 6 años deben usarlo con supervisión cercana, mientras que los de 7 a 12 años pueden disfrutarlo con total independencia. La pendiente es controlada y la zona de aterrizaje tiene colchón extra grueso."
   - question: "¿Qué incluye la renta del inflable pirata con tobogán?"
-    answer: "La renta incluye transporte del inflable hasta tu domicilio, instalación profesional, motor de inflado continuo, supervisión durante el evento, seguro de responsabilidad civil y retiro al finalizar. No hay costos ocultos ni cargos adicionales por el tobogán."
+    answer: "La renta incluye transporte del inflable hasta tu domicilio, instalación profesional, motor de inflado continuo, supervisión durante el evento y retiro al finalizar. No hay costos ocultos ni cargos adicionales por el tobogán."
   - question: "¿Puedo decorar el inflable pirata con elementos adicionales?"
     answer: "El inflable ya tiene un diseño pirata completo integrado, pero puedes complementar con banderas piratas, globos negros y rojos, y elementos decorativos alrededor del inflable. Solo te pedimos no pegar nada directamente sobre la lona para no dañar el material."
   - question: "¿Cuántos niños pueden usar el inflable pirata al mismo tiempo?"

@@ -21,13 +21,11 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Qué incluye el paquete básico de fiesta con inflable?"
-    answer: "El paquete básico incluye el inflable elegido de nuestro catálogo, entrega, instalación y retiro sin costo, motor soplador con extensiones, uso por 4 a 6 horas y seguro de responsabilidad civil. Ideal para fiestas de 15-30 invitados."
+    answer: "El paquete básico incluye el inflable elegido de nuestro catálogo, entrega, instalación y retiro sin costo, motor soplador con extensiones y uso por 4 a 6 horas. Ideal para fiestas de 15-30 invitados."
   - question: "¿Qué ventaja tiene un paquete completo vs contratar todo por separado?"
     answer: "Un solo proveedor coordina inflable, mobiliario y toldo: una sola entrega, una sola instalación y un solo número de WhatsApp si algo falla. El precio queda cerrado desde la cotización, sin costos ocultos. Si prefieres armar tu evento pieza por pieza, también cotizamos cada servicio por separado."
   - question: "¿Puedo personalizar el paquete según mis necesidades?"
     answer: "Sí. En BRINCOLINS no te obligamos a contratar servicios que no necesitas. Cuéntanos el número de invitados, tipo de espacio y qué servicios requieres, y armamos un paquete a tu medida. Escríbenos por WhatsApp para recibir tu cotización en minutos."
-  - question: "¿Todos los paquetes incluyen seguro de responsabilidad civil?"
-    answer: "Sí, absolutamente todos nuestros paquetes incluyen seguro de responsabilidad civil vigente. Es un requisito no negociable en BRINCOLINS. Si un proveedor no puede mostrarte el comprobante, busca otra empresa."
 ---
 
 ## ¿Qué es un paquete completo de fiesta?
@@ -48,7 +46,6 @@ Es el paquete más accesible y el más contratado para fiestas íntimas de 15-30
 - Entrega, instalación y retiro incluidos
 - Motor soplador y extensiones eléctricas
 - Uso por 4 a 6 horas
-- Seguro de responsabilidad civil
 
 ### Paquete Intermedio
 
@@ -125,7 +122,6 @@ Evita estos errores que pueden arruinar tu experiencia:
 - **No preguntar por costos adicionales:** Flete, horas extra, distancia de entrega. Pregunta explícitamente si hay algún cargo adicional al precio cotizado.
 - **Contratar sin ver fotos reales:** Pide fotos del equipo real, no imágenes de stock o de catálogos genéricos.
 - **No confirmar el acceso al lugar:** Si tu fiesta es en un departamento alto o un lugar con acceso restringido, informa al proveedor antes de contratar.
-- **No pedir seguro de RC:** Todo proveedor serio debe tener seguro de responsabilidad civil vigente. Si no lo tiene, busca otro.
 
 ## ¿Paquete o todo por separado? Cuándo conviene cada opción
 

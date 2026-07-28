@@ -42,7 +42,7 @@ faqs:
 
 El inflable es la opción con mejor **costo por hora de entretenimiento**: un modelo mediano como los Dragones Rojos o el Castillo de Princesas cuesta **$1,200 MXN por 4 a 6 horas**, es decir, entre $200 y $300 por hora para entretener a 5-7 niños simultáneos — sin coordinar horarios ni depender de un artista.
 
-**Ventajas:** funciona toda la fiesta, cubre rangos de edad amplios (hay modelos desde 1 año hasta adolescentes), los niños se autogestionan y el adulto solo supervisa. Con un proveedor serio incluye **entrega, instalación, sanitización, seguro de responsabilidad civil y recolección**.
+**Ventajas:** funciona toda la fiesta, cubre rangos de edad amplios (hay modelos desde 1 año hasta adolescentes), los niños se autogestionan y el adulto solo supervisa. Con un proveedor serio incluye **entrega, instalación, sanitización y recolección**.
 
 **Desventajas:** requiere espacio y una toma de corriente. Si tu fiesta es en un departamento chico sin acceso a patio, techo alto o salón, quizá no es tu opción — con la excepción del Mini Castillo, diseñado justo para interiores.
 
@@ -56,7 +56,7 @@ Un buen show infantil genera un momento memorable y concentra a todos los niños
 
 ## Cama elástica o trampolín: la opción austera
 
-Más barata que un inflable mediano, pero con limitaciones serias: capacidad de 1-2 niños a la vez (la fila se hace larga), sin temática visual, y el riesgo de lesiones es mayor sin red y supervisión constante. Los proveedores de trampolines rara vez incluyen seguro de responsabilidad civil.
+Más barata que un inflable mediano, pero con limitaciones serias: capacidad de 1-2 niños a la vez (la fila se hace larga), sin temática visual, y el riesgo de lesiones es mayor sin red y supervisión constante.
 
 ## Salón de juegos: cero logística, costo por invitado
 
@@ -70,4 +70,4 @@ Llevar la fiesta a un salón resuelve todo — juegos, mobiliario, a veces comid
 - **Sin espacio propio y pocos invitados:** salón de juegos.
 - **Kermeses y eventos escolares:** varios inflables con operador certificado — ninguna otra alternativa escala igual para cientos de niños.
 
-Si eliges inflable, verifica siempre que el proveedor incluya **sanitización certificada, seguro de responsabilidad civil e instalación profesional**. Es lo que separa a una empresa establecida de un particular con un brincolín en la cochera.
+Si eliges inflable, verifica siempre que el proveedor incluya **sanitización certificada e instalación profesional**. Es lo que separa a una empresa establecida de un particular con un brincolín en la cochera.

@@ -20,7 +20,7 @@ tags:
   - "inflables grandes con tobogán"
 faqs:
   - question: "¿Qué es más barato: un brincolín clásico o un tobogán inflable?"
-    answer: "El brincolín clásico. En CDMX un brincolín mediano con resbaladilla integrada (Dragones Rojos, Castillo de Princesas) cuesta $1,200 MXN por evento de 4 a 6 horas, mientras que un inflable grande con tobogán como el Barco Pirata cuesta $1,800 MXN. Ambos incluyen entrega, instalación, sanitización, seguro de responsabilidad civil y recolección."
+    answer: "El brincolín clásico. En CDMX un brincolín mediano con resbaladilla integrada (Dragones Rojos, Castillo de Princesas) cuesta $1,200 MXN por evento de 4 a 6 horas, mientras que un inflable grande con tobogán como el Barco Pirata cuesta $1,800 MXN. Ambos incluyen entrega, instalación, sanitización y recolección."
   - question: "¿Desde qué edad pueden usar un tobogán inflable los niños?"
     answer: "Los inflables con tobogán como el Barco Pirata están recomendados desde los 4 años, porque subir la escalera y deslizarse requiere más coordinación que solo brincar. Para bebés de 1 a 4 años lo seguro es un brincolín de piso como el Mini Castillo, con paredes suaves y sin alturas."
   - question: "¿Cuánto espacio necesita un inflable con tobogán comparado con un brincolín?"

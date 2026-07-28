@@ -14,7 +14,7 @@ galleryImages:
   - "/img/blog/inflable-dragones-rojos-cdmx/img2.avif"
   - "/img/blog/inflable-dragones-rojos-cdmx/img3.avif"
 intro:
-  - "El **inflable Dragones Rojos** es uno de los modelos más solicitados en la **Ciudad de México** para fiestas infantiles temáticas. Su diseño impactante — un castillo rojo decorado con imponentes dragones — transporta a los niños a un mundo de caballeros, princesas guerreras y aventuras medievales. En **BRINCOLINS** lo entregamos limpio, instalado y con **seguro de responsabilidad civil** incluido en cada renta."
+  - "El **inflable Dragones Rojos** es uno de los modelos más solicitados en la **Ciudad de México** para fiestas infantiles temáticas. Su diseño impactante — un castillo rojo decorado con imponentes dragones — transporta a los niños a un mundo de caballeros, princesas guerreras y aventuras medievales. En **BRINCOLINS** lo entregamos limpio e instalado en cada renta."
   - "Si tu hijo o hija sueña con dragones, castillos y batallas épicas, este **brincolín temático** es la pieza central perfecta para su cumpleaños. Atendemos colonias de toda la **CDMX** y municipios del **Estado de México** como Naucalpan, Tlalnepantla, Ecatepec y Huixquilucan. Escríbenos por **WhatsApp** y te cotizamos en minutos."
 tags:
   - "renta inflables CDMX"
@@ -26,7 +26,7 @@ faqs:
   - question: "¿Cuánto espacio necesito para instalar el inflable de dragones?"
     answer: "Necesitas un área libre de al menos 5×5 metros con acceso a corriente eléctrica (toma de 110V). El piso debe ser plano — funciona en pasto, concreto o piso firme. También necesitas 1 metro libre alrededor del inflable por seguridad."
   - question: "¿El inflable Dragones Rojos incluye instalación y operador?"
-    answer: "Sí. El servicio de BRINCOLINS incluye transporte, instalación profesional, supervisión durante el evento y retiro al finalizar. También incluye seguro de responsabilidad civil sin costo adicional."
+    answer: "Sí. El servicio de BRINCOLINS incluye transporte, instalación profesional, supervisión durante el evento y retiro al finalizar."
   - question: "¿Puedo combinar el inflable de dragones con decoración medieval?"
     answer: "¡Por supuesto! De hecho es lo que más recomendamos. El diseño rojo con dragones combina perfecto con temáticas de caballeros, castillos medievales, calabozos y dragones. Muchos clientes complementan con banderines, espadas de foam y escudos decorativos."
 ---
@@ -81,7 +81,6 @@ La clave es que el inflable no sea un elemento aislado, sino parte integral de l
 En la Ciudad de México hay decenas de proveedores de inflables. Lo que nos distingue en **BRINCOLINS** es la combinación de servicio profesional y atención personalizada:
 
 - **Más de 20 años de experiencia** rentando inflables en CDMX y Estado de México
-- **Seguro de responsabilidad civil incluido** en cada renta, sin costo adicional
 - **Inflables sanitizados** después de cada uso con productos biodegradables
 - **Instalación y retiro profesional** — nuestro equipo llega puntual y se encarga de todo
 - **Respuesta rápida por WhatsApp** — cotizamos en menos de 10 minutos, sin formularios engorrosos

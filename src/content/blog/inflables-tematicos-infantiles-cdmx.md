@@ -25,7 +25,7 @@ faqs:
   - question: "¿Qué inflable temático recomiendan para una fiesta mixta (niños y niñas)?"
     answer: "Para fiestas mixtas, los inflables más versátiles son el Mini Jungla (temática safari que encanta a todos) y el Mini Castillo (neutro y colorido). Ambos funcionan perfecto sin importar el género de los invitados y tienen diseños que gustan universalmente."
   - question: "¿Los inflables temáticos cuestan más que los genéricos?"
-    answer: "No, en BRINCOLINS todos nuestros inflables tienen precios competitivos sin importar la temática. El precio depende del tamaño del inflable y la duración de la renta, no del diseño. Todos incluyen transporte, instalación y seguro de responsabilidad civil."
+    answer: "No, en BRINCOLINS todos nuestros inflables tienen precios competitivos sin importar la temática. El precio depende del tamaño del inflable y la duración de la renta, no del diseño. Todos incluyen transporte e instalación."
 ---
 
 ## Por qué los inflables temáticos marcan la diferencia en una fiesta

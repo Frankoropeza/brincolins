@@ -20,7 +20,7 @@ faqs:
   - question: "¿Qué inflables tiene BRINCOLINS para un evento corporativo?"
     answer: "Nuestro catálogo son 8 modelos: Mini Castillo, Dragones Rojos, Castillo de Princesas, Mini Jungla, Gusanitos, Castillo Blanco, Barco Pirata y Extremo. El más solicitado para eventos de empresa es el Extremo ($1,900 MXN), un circuito de obstáculos de 7 m en doble carril recomendado desde los 6 años. Para un family day con hijos de colaboradores, lo habitual es combinar el Extremo con un modelo para los más pequeños."
   - question: "¿Cuánto cuesta rentar inflables para un evento de empresa en CDMX?"
-    answer: "El precio es por inflable y va de $800 a $1,900 MXN por evento de 4 a 6 horas, con entrega, instalación, sanitización, seguro de responsabilidad civil y recolección incluidos. Si rentas 2 o más inflables aplicamos descuento por paquete: mándanos el número de asistentes y las medidas del espacio por WhatsApp y te armamos la cotización. Generamos factura fiscal sin costo adicional."
+    answer: "El precio es por inflable y va de $800 a $1,900 MXN por evento de 4 a 6 horas, con entrega, instalación, sanitización y recolección incluidos. Si rentas 2 o más inflables aplicamos descuento por paquete: mándanos el número de asistentes y las medidas del espacio por WhatsApp y te armamos la cotización. Generamos factura fiscal sin costo adicional."
   - question: "¿Emiten factura para eventos corporativos?"
     answer: "Sí, en BRINCOLINS generamos factura fiscal sin costo adicional para todos los eventos corporativos. El gasto puede registrarse como evento de integración de personal. Solicítala al cotizar."
   - question: "¿Con cuánta anticipación debo reservar para un evento de empresa?"
@@ -66,7 +66,7 @@ En un family day siempre hay hijos de colaboradores de 2 a 6 años, y meterlos a
 | Barco Pirata | 8 × 6 m | 7×5×4.5 m | $1,800 MXN |
 | Extremo | 8 × 5 m | 7×4×3.8 m | $1,900 MXN |
 
-Todos los precios son por evento de 4 a 6 horas e incluyen entrega, instalación, sanitización, seguro de responsabilidad civil y recolección.
+Todos los precios son por evento de 4 a 6 horas e incluyen entrega, instalación, sanitización y recolección.
 
 ## Beneficios comprobados del team building con inflables
 
@@ -116,7 +116,6 @@ Nuestros inflables están diseñados para niños — el Extremo desde los 6 año
 
 - Respetar la capacidad indicada de cada modelo: el Barco Pirata recibe 8-10 niños y el Extremo 6-10
 - Anclaje profesional con estacas o sacos de arena según la superficie
-- Seguro de responsabilidad civil vigente
 - Supervisión de un adulto responsable durante todo el uso
 - Turnos por edades: no mezclar a los más pequeños con los grandes en el mismo inflable
 

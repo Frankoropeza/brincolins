@@ -68,7 +68,6 @@ Sí incluye (sin costo extra):
 - Instalación y montaje profesional
 - Soplador/motor durante todo el evento
 - Revisión de seguridad antes de abrir
-- Seguro de responsabilidad civil
 - Desinstalación y recolección al finalizar
 
 No incluye (puede tener costo extra):

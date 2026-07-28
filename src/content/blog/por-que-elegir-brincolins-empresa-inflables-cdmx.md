@@ -20,7 +20,7 @@ faqs:
   - question: "¿Qué pasa si el inflable tiene un problema el día del evento?"
     answer: "Tienes contacto directo con el responsable de tu entrega — no un call center, no un formulario. Si algo sale mal, respondemos. Hemos llegado a cambiar un motor en el patio de una casa en Ecatepec a las 11 de la mañana de un sábado. Eso es lo que hacemos."
   - question: "¿Por qué BRINCOLINS es más caro que algunas opciones que encuentro en Facebook?"
-    answer: "Porque incluimos cosas que en esas opciones no están en el precio: el seguro de responsabilidad civil, el personal capacitado, el mantenimiento del equipo y el soporte durante el evento. No somos la opción más barata — somos la opción más completa."
+    answer: "Porque incluimos cosas que en esas opciones no están en el precio: el personal capacitado, el mantenimiento del equipo y el soporte durante el evento. No somos la opción más barata — somos la opción más completa."
   - question: "¿BRINCOLINS atiende fuera de CDMX?"
     answer: "Sí, cubrimos buena parte del Estado de México también: Naucalpan, Tlalnepantla, Ecatepec, Atizapán, Nicolás Romero, Metepec y más. Consulta nuestra página de cobertura para confirmar si llegamos a tu zona."
 ---
@@ -73,18 +73,6 @@ Esto cambia muchas cosas:
 **Cuando el equipo llega a tu casa**, es el mismo que reservaste — no "algo similar" que consiguieron de emergencia.
 
 Nuestra [flota tiene 8 modelos](/inflables/) para cubrir desde la fiesta de cumpleaños de un bebé hasta un evento corporativo con 200 personas. [El Mini Castillo](/inflables/mini-castillo/) para los más chiquitos, [el Barco Pirata](/inflables/barco-pirata/) para los aventureros, [el Circuito Extremo](/inflables/extremo/) para los que quieren adrenalina de verdad, [el Castillo Blanco](/inflables/castillo-blanco/) para bodas y XV años donde la elegancia importa.
-
----
-
-## El Tema del Seguro (Que Mucha Gente Ignora Hasta Que lo Necesita)
-
-Este es un punto que pocos clientes preguntan pero que todos deberían: **¿el inflable que estás rentando tiene seguro de responsabilidad civil?**
-
-No es un tema menor. Si un niño se lastima usando un inflable sin seguro, la responsabilidad recae directamente sobre quien organizó el evento — es decir, sobre ti.
-
-En BRINCOLINS, el seguro de responsabilidad civil está incluido en cada renta, sin costo adicional. No porque la ley nos lo exija — sino porque es lo correcto.
-
-Si estás comparando opciones, pregunta esto a cada proveedor antes de decidir. La respuesta te va a decir mucho sobre cómo opera esa empresa.
 
 ---
 

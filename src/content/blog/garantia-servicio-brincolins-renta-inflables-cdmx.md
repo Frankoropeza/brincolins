@@ -17,8 +17,6 @@ tags:
 faqs:
   - question: "¿Qué pasa si el inflable llega tarde o no llega?"
     answer: "En más de 20 años de operación esto nos ha pasado muy pocas veces, y en todos los casos fue por causas de fuerza mayor que comunicamos al cliente con el mayor tiempo posible. Si el servicio no se puede realizar por nuestra causa, el anticipo se devuelve completo. Sin discusión."
-  - question: "¿El seguro cubre accidentes de los niños durante la fiesta?"
-    answer: "Nuestro seguro es de responsabilidad civil — cubre daños a terceros derivados del uso del inflable. Complementariamente, entregamos instrucciones claras de uso seguro para que quienes supervisen el evento puedan prevenir accidentes. La supervisión de adultos sigue siendo fundamental."
   - question: "¿Puedo extender el tiempo de renta el día del evento?"
     answer: "Si tenemos disponibilidad (el inflable no tiene otra entrega ese día), sí podemos extender. Hay que acordarlo ese mismo día con el responsable de tu entrega y tiene un costo adicional proporcional. Nunca te dejamos colgado sin opciones."
   - question: "¿Qué tan limpios llegan los inflables?"
@@ -64,18 +62,6 @@ En BRINCOLINS cada inflable pasa por una revisión después de cada evento y ant
 Si en esa revisión algo no pasa — un motor con rendimiento irregular, una costura que empieza a ceder — ese inflable no sale al evento. Usamos el siguiente disponible o buscamos solución. Pero no enviamos algo que no está en condiciones.
 
 ¿Por qué? Porque mandarlo igual es tentador a veces — la fecha está comprometida, el cliente espera, el tiempo apremia. Pero mandar algo que falla en tu fiesta nos sale más caro a nosotros a largo plazo que absorber la solución ese día.
-
----
-
-## La Promesa del Seguro (Esto No Es Opcional)
-
-Antes de contratar cualquier servicio de inflables en CDMX, pregunta una cosa: **¿tienen seguro de responsabilidad civil?**
-
-No como crítica a otras empresas — sino porque es información que necesitas tener. Si el inflable no tiene seguro y ocurre un accidente durante tu evento, la responsabilidad puede recaer sobre ti como organizador.
-
-En BRINCOLINS el seguro está incluido en cada renta. No es un extra, no tiene costo adicional, no hay que pedirlo especialmente — está ahí, en cada servicio, porque es lo mínimo responsable.
-
-Si quieres el comprobante del seguro antes de confirmar tu renta, te lo damos. Sin problema.
 
 ---
 
