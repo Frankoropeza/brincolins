@@ -74,7 +74,6 @@ Entendemos que los eventos corporativos tienen requerimientos específicos que d
 - **Montaje anticipado:** llegamos con suficiente tiempo para que todo esté listo antes de que lleguen los colaboradores. El inflado completo toma aproximadamente 15 minutos.
 - **Horarios flexibles:** nos adaptamos a la agenda de tu evento, ya sea una actividad de media mañana, un evento de medio día o una dinámica de cierre por la tarde.
 - **Facturación empresarial:** emitimos CFDI con los datos fiscales de tu empresa para que el gasto quede registrado correctamente.
-- **Seguro de responsabilidad:** todos nuestros inflables cuentan con las medidas de seguridad necesarias para proteger a los participantes.
 
 > **Para organizadores:** Si necesitas complementar el inflable con otras actividades, podemos asesorarte sobre cómo estructurar la agenda del evento para maximizar el tiempo y la diversión de los participantes.
 
