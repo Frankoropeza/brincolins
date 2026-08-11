@@ -6,6 +6,8 @@ import CtaBanner      from "@/components/CtaBanner.astro";
 import CtaBar         from "@/components/CtaBar.astro";
 import SectionHeader  from "@/components/SectionHeader.astro";
 import QuickNav       from "@/components/QuickNav.astro";
+import EnlacesCategoria from "@/components/EnlacesCategoria.astro";
+import { CATEGORIAS_P1, inflablesDeCategoria } from "@/data/categorias";
 
 const title = "Renta de Inflables y Brincolines en CDMX | BRINCOLINS";
 const description = "Renta de brincolines e inflables para fiestas infantiles en CDMX y Edomex. 8 modelos desde $800 MXN con entrega e instalación incluidas. Cotiza por WhatsApp.";
@@ -134,6 +136,20 @@ const eventos = [
   { name: "Ferias y Activaciones de Marca", category: "Marca", color: "extremo", headline: "200–500+ pers", tag1: "Alto impacto", tag2: "Plazas y ferias", description: "Inflables de alto impacto para plazas, ferias y eventos masivos. Capacidad logística para transportar y montar varios equipos en paralelo. Formatos para 200 a 500+ asistentes.", image: "/img/inflables/barco-pirata.avif", alt: "Inflables para ferias y activaciones de marca en CDMX", href: "/servicios/inflables-para-eventos/", wa: "Hola BRINCOLINS, quiero cotizar inflables para una feria o activación de marca." },
   { name: "Garden Parties y Reuniones Familiares", category: "Familiar", color: "bodas", headline: "Todo en uno", tag1: "Inflable + mobiliario", tag2: "Multigeneracional", description: "Combina un inflable grande con mobiliario para jardín y crea un ambiente completo. Ideal para reuniones familiares donde adultos y niños comparten el espacio.", image: "/img/servicios/mobiliario-fiestas-cdmx.avif", alt: "Inflables y mobiliario para garden party y reunión familiar en CDMX", href: "/servicios/paquetes-de-fiesta/", wa: "Hola BRINCOLINS, quiero cotizar inflables para un garden party o reunión familiar." },
 ];
+
+/* Franja de categorías de la home.
+   La home venía canibalizando las keywords específicas del catálogo
+   porque era la única página que Google veía para "inflables para
+   niños", "castillo inflable" o "inflables para adultos". Estos cuatro
+   enlaces con anchor exacto le dicen cuál es la página correcta. */
+const categoriasHome = CATEGORIAS_P1.map((c) => {
+  const n = inflablesDeCategoria(c).length;
+  return {
+    href:   `/inflables/${c.slug}/`,
+    anchor: c.anchor,
+    nota:   `${n} ${n === 1 ? "modelo" : "modelos"} · ${c.guiaSub}`,
+  };
+});
 ---
 
 <PageLayout
@@ -230,6 +246,17 @@ const eventos = [
       <div class="text-center mt-3">
         <a href="/inflables/" class="btn btn-secondary">Ver Catálogo Completo de Inflables para Fiestas</a>
       </div>
+    </div>
+  </section>
+
+  <!-- CATEGORÍAS DEL CATÁLOGO — enlaces con anchor exacto -->
+  <section class="section">
+    <div class="container">
+      <EnlacesCategoria
+        titulo="Encuentra tu inflable por categoría"
+        intro="Cada categoría lista sólo los modelos que aplican, con su tabla comparativa de medidas, espacio libre necesario y capacidad."
+        items={categoriasHome}
+      />
     </div>
   </section>
 

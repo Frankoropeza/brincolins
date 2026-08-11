@@ -24,6 +24,8 @@ import {
   PRICE_RANGE,
 } from "@/data/inflables";
 import { SITE_URL } from "@/data/site";
+import EnlacesCategoria from "@/components/EnlacesCategoria.astro";
+import { categoriasParaZona, anchorEnZona } from "@/data/categorias";
 
 export async function getStaticPaths() {
   return COVERAGE_ZONES.map(zone => ({
@@ -63,6 +65,20 @@ const coloniasCopy2 = hasFee
    alcaldía o municipio. provider referencia el #org global: NO se crea
    un LocalBusiness por zona. */
 const canonical = `${SITE_URL}/cobertura/${zone.slug}/`;
+
+/* Enlaces a categorías con anchor localizado. Las 35 páginas de zona eran
+   el mayor bloque de páginas del sitio y sólo enlazaban al catálogo plano
+   con "Ver inflables": cero señal de keyword hacia ninguna categoría. */
+const catsZona = categoriasParaZona(zone.slug).map((c) => ({
+  href:   `/inflables/${c.slug}/`,
+  anchor: anchorEnZona(c, zonePhrase),
+  nota:   c.guiaSub,
+}));
+catsZona.push({
+  href:   "/precios/",
+  anchor: `precios de renta de inflables en ${zonePhrase}`,
+  nota:   "Tarifas por modelo, cargo de envío y qué incluye cada renta.",
+});
 const areaName  = zone.areaName ?? zone.zone;
 const areaType  = zone.areaType ?? "AdministrativeArea";
 
@@ -183,6 +199,17 @@ const serviceSchema = {
   </section>
 
   <QuickNav />
+
+  <!-- ── Categorías del catálogo con anchor de zona ── -->
+  <section class="section">
+    <div class="container">
+      <EnlacesCategoria
+        titulo={`¿Qué inflables rentamos en ${zonePhrase}?`}
+        intro={`Entra por la categoría que corresponde a tu evento: cada una lista sólo los modelos que aplican, con medidas, espacio libre necesario y capacidad. Todos con entrega en ${zonePhrase}.`}
+        items={catsZona}
+      />
+    </div>
+  </section>
 
   <!-- ── Zonas hijas (páginas hub: /cobertura/cdmx/ y /cobertura/edomex/) ── -->
   {zone.childZones && zone.childZones.length > 0 && (

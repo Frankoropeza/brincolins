@@ -496,3 +496,33 @@ export function categoriasDeGrupo(grupo: GrupoFaceta): Categoria[] {
 /** Slugs de categoría — se usa en el build para verificar que ninguno
     colisiona con un slug de producto de /inflables/[slug].astro. */
 export const CATEGORIA_SLUGS = CATEGORIAS.map((c) => c.slug);
+
+/* ──────────────────────────────────────────────────────────────
+   Enlazado interno — las categorías sólo valen si algo las enlaza
+   ────────────────────────────────────────────────────────────── */
+
+/** Las 4 categorías prioritarias que enlaza la home con keyword exacta. */
+export const CATEGORIAS_P1 = CATEGORIAS.filter((c) => c.prioridad === 1);
+
+/**
+ * Categorías que enlaza una página de zona.
+ *
+ * Dos fijas —las que concentran la intención de renta local— más una
+ * rotativa derivada del slug de la zona. Sin la rotación, las 35 páginas
+ * de cobertura repetirían el mismo par de enlaces y Google leería el
+ * bloque como plantilla en vez de como recomendación.
+ */
+export function categoriasParaZona(zoneSlug: string): Categoria[] {
+  const fijas     = ["para-ninos", "castillos"];
+  const rotativas = ["grandes", "chicos", "para-adultos", "para-interiores", "toboganes", "medianos"];
+  const hash      = [...zoneSlug].reduce((a, c) => a + c.charCodeAt(0), 0);
+  const elegida   = rotativas[hash % rotativas.length];
+  return [...fijas, elegida]
+    .map((s) => getCategoria(s))
+    .filter((c): c is Categoria => Boolean(c));
+}
+
+/** Anchor localizado: "inflables para niños en Coyoacán". */
+export function anchorEnZona(cat: Categoria, zonePhrase: string): string {
+  return `${cat.anchor} en ${zonePhrase}`;
+}

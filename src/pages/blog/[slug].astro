@@ -5,6 +5,9 @@ import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import CtaBanner  from "@/components/CtaBanner.astro";
 import FaqItem    from "@/components/FaqItem.astro";
+import EnlacesCategoria from "@/components/EnlacesCategoria.astro";
+import { BLOG_CATEGORIA } from "@/data/blogCategorias";
+import { getCategoria, inflablesDeCategoria } from "@/data/categorias";
 
 type BlogPost = CollectionEntry<"blog">;
 
@@ -30,6 +33,19 @@ if (related.length < 3) {
   const ids = new Set([post.id, ...related.map((r) => r.id)]);
   related = related.concat(all.filter((p) => !ids.has(p.id)).sort(byDate).slice(0, 3 - related.length));
 }
+
+/* ── Categoría del catálogo a la que apunta este post ──
+   Los 59 posts enlazaban al catálogo plano con anchors genéricos
+   ("Ver inflables"). Ahora cada uno manda una señal de keyword a UNA
+   categoría, arriba del artículo y con el anchor exacto de destino. */
+const catPost   = getCategoria(BLOG_CATEGORIA[post.id] ?? "");
+const catModelos = catPost ? inflablesDeCategoria(catPost) : [];
+const catItems  = catPost
+  ? [
+      { href: `/inflables/${catPost.slug}/`, anchor: catPost.anchor, nota: `${catModelos.length} ${catModelos.length === 1 ? "modelo" : "modelos"} con medidas, capacidad y precio` },
+      ...catModelos.slice(0, 2).map((i) => ({ href: `/inflables/${i.slug}/`, anchor: i.name, nota: `desde ${i.price}` })),
+    ]
+  : [];
 
 // ── Catálogo destacado para el sidebar ──
 const inflablesSidebar = [
@@ -145,6 +161,15 @@ const howToSchema = d.howto
     <div class="container">
       <div class="art-layout">
         <article class="art-body">
+          {catPost && (
+            <EnlacesCategoria
+              variante="inline"
+              titulo={`Lo que buscas: ${catPost.name.toLowerCase()}`}
+              intro={catPost.guiaSub}
+              items={catItems}
+            />
+          )}
+
           <Content />
 
           {d.galleryImages?.length ? (

@@ -1,0 +1,153 @@
+---
+/**
+ * EnlacesCategoria — BRINCOLINS
+ * ──────────────────────────────────────────────────────────────
+ * Bloque de enlaces contextuales hacia las categorías del catálogo.
+ *
+ * Existe porque publicar 11 categorías no sirve de nada si nada las
+ * enlaza: sin este bloque son hojas que reciben tráfico cero y no
+ * transmiten autoridad. Se usa en las 35 páginas de cobertura, en los
+ * 59 posts del blog y en la home.
+ *
+ * Regla de anchors: el texto del enlace es la keyword objetivo de la
+ * categoría destino. Nunca "ver más", "clic aquí" ni "conoce más".
+ */
+interface Item {
+  href:   string;
+  anchor: string;
+  nota?:  string;
+}
+
+interface Props {
+  titulo:    string;
+  intro?:    string;
+  items:     Item[];
+  /** `inline` = párrafo compacto dentro del contenido (blog).
+      `cards`  = rejilla de tarjetas (cobertura, home). */
+  variante?: "inline" | "cards";
+}
+
+const { titulo, intro, items, variante = "cards" } = Astro.props;
+---
+
+{variante === "inline" ? (
+  <aside class="enl-inline" aria-label={titulo}>
+    <p class="enl-inline__title">{titulo}</p>
+    {intro && <p class="enl-inline__intro">{intro}</p>}
+    <ul class="enl-inline__list">
+      {items.map((i) => (
+        <li>
+          <a href={i.href}>{i.anchor}</a>
+          {i.nota && <span class="enl-inline__nota"> — {i.nota}</span>}
+        </li>
+      ))}
+    </ul>
+  </aside>
+) : (
+  <nav class="enl-cards" aria-label={titulo}>
+    <div class="enl-cards__head">
+      <h2 class="enl-cards__title">{titulo}</h2>
+      {intro && <p class="enl-cards__intro">{intro}</p>}
+    </div>
+    <ul class="enl-cards__grid">
+      {items.map((i) => (
+        <li class="enl-cards__item">
+          <a class="enl-cards__link" href={i.href}>
+            <span class="enl-cards__anchor">{i.anchor}</span>
+            {i.nota && <span class="enl-cards__nota">{i.nota}</span>}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+)}
+
+<style>
+  /* ── Variante inline (blog) ── */
+  .enl-inline {
+    border-left: 4px solid var(--brand, #FF3D00);
+    background: var(--surface-alt, #f7f7f9);
+    border-radius: 0 12px 12px 0;
+    padding: 1.1rem 1.25rem;
+    margin: 1.75rem 0;
+  }
+
+  .enl-inline__title {
+    margin: 0 0 .35rem;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .enl-inline__intro {
+    margin: 0 0 .6rem;
+    font-size: .93rem;
+    color: var(--text-muted, #5a5a66);
+    line-height: 1.6;
+  }
+
+  .enl-inline__list {
+    margin: 0;
+    padding-left: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    font-size: .95rem;
+  }
+
+  .enl-inline__nota { color: var(--text-muted, #5a5a66); }
+
+  /* ── Variante cards (cobertura, home) ── */
+  .enl-cards__head { margin-bottom: 1.25rem; }
+
+  .enl-cards__title {
+    margin: 0 0 .35rem;
+    font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+    line-height: 1.25;
+  }
+
+  .enl-cards__intro {
+    margin: 0;
+    color: var(--text-muted, #5a5a66);
+    font-size: .95rem;
+    max-width: 70ch;
+  }
+
+  .enl-cards__grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+  }
+
+  .enl-cards__link {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    min-height: 44px;
+    height: 100%;
+    padding: 1rem 1.15rem;
+    border: 1px solid var(--border, #e2e2e6);
+    border-radius: 12px;
+    background: var(--surface, #fff);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color .15s ease, box-shadow .15s ease, transform .15s ease;
+  }
+
+  .enl-cards__link:hover,
+  .enl-cards__link:focus-visible {
+    border-color: var(--brand, #FF3D00);
+    box-shadow: 0 6px 20px rgba(20, 20, 30, .08);
+    transform: translateY(-2px);
+  }
+
+  .enl-cards__anchor { font-weight: 700; line-height: 1.35; }
+
+  .enl-cards__nota {
+    font-size: .88rem;
+    color: var(--text-muted, #5a5a66);
+    line-height: 1.5;
+  }
+</style>
