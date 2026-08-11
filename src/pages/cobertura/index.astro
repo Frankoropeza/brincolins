@@ -1,4 +1,5 @@
 ---
+import { WHATSAPP } from '../../data/site';
 import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
@@ -10,7 +11,7 @@ import ZonaCard from "@/components/ZonaCard.astro";
 const title = "Renta de Inflables a Domicilio en CDMX y Estado de México";
 const description = "Inflables con entrega en las 16 alcaldías de CDMX y municipios de Edomex. Instalación profesional y retiro incluidos.";
 
-const WA = "5531281706";
+const WA = WHATSAPP;
 const waBase = `https://wa.me/${WA}?text=`;
 
 const alcaldias = [

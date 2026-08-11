@@ -1,4 +1,5 @@
 ---
+import { WHATSAPP } from '../data/site';
 /**
  * FaqSection — BRINCOLINS
  * Rediseño profesional: acordeón numerado + tarjeta de cotización con header dark
@@ -11,7 +12,7 @@ interface Props {
   items:     FaqItem[];
   whatsapp?: string;
 }
-const { items, whatsapp = "5531281706" } = Astro.props;
+const { items, whatsapp = WHATSAPP } = Astro.props;
 ---
 
 <div class="pfaq container">
@@ -116,6 +117,13 @@ const { items, whatsapp = "5531281706" } = Astro.props;
               Solicitar cotización por WhatsApp
             </button>
           </form>
+          <noscript>
+            <p class="lead-noscript">
+              Este formulario necesita JavaScript. Escríbenos por
+              <a href="https://wa.me/525531281706?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable." target="_blank" rel="nofollow noopener noreferrer">WhatsApp</a>
+              o llámanos al <a href="tel:+525531281706">55 3128 1706</a>.
+            </p>
+          </noscript>
 
           <!-- Señales de confianza -->
           <div class="pfaq-trust">
@@ -145,23 +153,21 @@ const { items, whatsapp = "5531281706" } = Astro.props;
   </div>
 </div>
 
-<script is:inline define:vars={{ whatsapp }}>
-  (function () {
-    var form = document.getElementById('pfaq-cotiza-form');
-    if (!form) return;
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var f = new FormData(e.target);
-      var msg =
-        "Hola BRINCOLINS, quiero cotizar un inflable.\n\n" +
-        "*Nombre:* "             + (f.get('nombre')   || '') + "\n" +
-        "*WhatsApp:* "           + (f.get('telefono') || '') + "\n" +
-        "*Fecha del evento:* "   + (f.get('fecha')    || '') + "\n" +
-        "*Inflable de interés:* "+ (f.get('inflable') || '') + "\n" +
-        "*Colonia / Zona:* "     + (f.get('zona')     || '');
-      window.open("https://wa.me/" + whatsapp + "?text=" + encodeURIComponent(msg), '_blank');
-    });
-  })();
+<script>
+  import { initLeadForm } from '../lib/leadForm';
+
+  initLeadForm({
+    formId: 'pfaq-cotiza-form',
+    source: 'Pre-footer (cotización rápida)',
+    buildMessage(f) {
+      return 'Hola BRINCOLINS, quiero cotizar un inflable.\n\n' +
+        `*Nombre:* ${f.get('nombre') || ''}\n` +
+        `*WhatsApp:* ${f.get('telefono') || ''}\n` +
+        `*Fecha del evento:* ${f.get('fecha') || ''}\n` +
+        `*Inflable de interés:* ${f.get('inflable') || ''}\n` +
+        `*Colonia / Zona:* ${f.get('zona') || ''}`;
+    },
+  });
 </script>
 
 <style>

@@ -2543,3 +2543,91 @@ h1, h2, h3, h4, h5, h6 {
     gap: 0.75rem;
   }
 }
+
+/* ══════════════════════════════════════════════════════════════
+   Confirmación de formularios de lead (src/lib/leadForm.ts)
+   ──────────────────────────────────────────────────────────────
+   Sustituye al <form> tras un envío correcto. Antes no existía
+   ningún estado de confirmación: el usuario enviaba y la página
+   quedaba idéntica, así que no sabía si su solicitud había salido.
+   ══════════════════════════════════════════════════════════════ */
+.lead-ok {
+  text-align: center;
+  padding: 2rem 1.25rem;
+  border: 1px solid var(--c-border);
+  border-radius: 14px;
+  background: #fff;
+}
+.lead-ok:focus { outline: none; }
+
+.lead-ok__icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 1rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #E8F8EE;
+  color: #0B7A3B; /* 5.6:1 sobre #E8F8EE */
+}
+
+.lead-ok__title {
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: 1.4rem;
+  margin: 0 0 .5rem;
+  color: var(--c-text);
+}
+
+.lead-ok__text {
+  color: var(--c-text-muted);
+  margin: 0 auto 1.25rem;
+  max-width: 44ch;
+  line-height: 1.6;
+}
+
+.lead-ok__wa {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  min-height: 48px;
+  padding: .8rem 1.5rem;
+  border-radius: 999px;
+  background: var(--c-wa, #25D366);
+  color: #111B21; /* 8.8:1 — no usar blanco sobre verde WhatsApp */
+  font-weight: 700;
+  text-decoration: none;
+}
+.lead-ok__wa:hover { filter: brightness(.95); }
+
+.lead-ok__small {
+  margin: 1rem 0 0;
+  font-size: .875rem;
+  color: var(--c-text-muted);
+}
+.lead-ok__small a { color: var(--c-primary-text); font-weight: 600; }
+
+.lead-err {
+  margin: 1rem 0 0;
+  padding: .85rem 1rem;
+  border-radius: 10px;
+  background: #FDECEA;
+  color: #A31408; /* 6.4:1 sobre #FDECEA */
+  font-size: .9rem;
+  line-height: 1.5;
+}
+.lead-err a { color: inherit; font-weight: 700; }
+
+/* Fallback sin JavaScript: los formularios dependen de JS para
+   enviarse, así que sin él hay que dar una ruta de contacto visible. */
+.lead-noscript {
+  margin-top: 1rem;
+  padding: .85rem 1rem;
+  border-radius: 10px;
+  background: #FFF4E5;
+  color: #8A4B00; /* 5.9:1 sobre #FFF4E5 */
+  font-size: .9rem;
+  line-height: 1.5;
+}
+.lead-noscript a { color: inherit; font-weight: 700; }

@@ -126,35 +126,37 @@ const faqs = [
           <p class="quote-form__note">Al enviar, se abrirá WhatsApp con tu información para que nuestro equipo te responda al instante.</p>
         </div>
       </form>
+      <noscript>
+        <p class="lead-noscript">
+          Este formulario necesita JavaScript. Escríbenos por
+          <a href="https://wa.me/525531281706?text=Hola%20BRINCOLINS%2C%20quiero%20cotizar%20un%20inflable." target="_blank" rel="nofollow noopener noreferrer">WhatsApp</a>
+          o llámanos al <a href="tel:+525531281706">55 3128 1706</a>.
+        </p>
+      </noscript>
     </div>
   </section>
 
   <script>
-    document.getElementById('cotizar-form')?.addEventListener('submit', function(e) {
-      e.preventDefault();
-      const form = e.target as HTMLFormElement;
-      const data = new FormData(form);
-      const nombre = data.get('nombre') || '';
-      const telefono = data.get('telefono') || '';
-      const fecha = data.get('fecha') || '';
-      const colonia = data.get('colonia') || '';
-      const inflable = data.get('inflable') || '';
-      const horario = data.get('horario') || '';
-      const ninos = data.get('ninos') || '';
-      const notas = data.get('notas') || '';
+    import { initLeadForm } from '../../lib/leadForm';
 
-      let text = `Hola BRINCOLINS, quiero cotizar un inflable.\n\n`;
-      text += `*Nombre:* ${nombre}\n`;
-      text += `*Teléfono:* ${telefono}\n`;
-      text += `*Fecha:* ${fecha}\n`;
-      text += `*Zona:* ${colonia}\n`;
-      text += `*Inflable:* ${inflable}\n`;
-      if (horario) text += `*Horario:* ${horario}\n`;
-      if (ninos) text += `*Niños:* ${ninos}\n`;
-      if (notas) text += `*Notas:* ${notas}\n`;
-
-      const encoded = encodeURIComponent(text);
-      window.open(`https://wa.me/5531281706?text=${encoded}`, '_blank');
+    initLeadForm({
+      formId: 'cotizar-form',
+      source: 'Cotizar (formulario largo)',
+      buildMessage(f) {
+        const horario = f.get('horario');
+        const ninos   = f.get('ninos');
+        const notas   = f.get('notas');
+        let text = 'Hola BRINCOLINS, quiero cotizar un inflable.\n\n';
+        text += `*Nombre:* ${f.get('nombre') || ''}\n`;
+        text += `*Teléfono:* ${f.get('telefono') || ''}\n`;
+        text += `*Fecha:* ${f.get('fecha') || ''}\n`;
+        text += `*Zona:* ${f.get('colonia') || ''}\n`;
+        text += `*Inflable:* ${f.get('inflable') || ''}\n`;
+        if (horario) text += `*Horario:* ${horario}\n`;
+        if (ninos)   text += `*Niños:* ${ninos}\n`;
+        if (notas)   text += `*Notas:* ${notas}\n`;
+        return text;
+      },
     });
   </script>
 

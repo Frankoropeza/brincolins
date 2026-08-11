@@ -13,7 +13,7 @@ import {
   buildFaqSchema,
   buildProductSchema,
 } from "@/lib/schema";
-import { SITE_URL, SITE_NAME } from "@/data/site";
+import { SITE_URL, SITE_NAME, GA4_ID } from "@/data/site";
 import { COVERAGE_ZONES } from "@/data/coverage";
 import { INFLABLES } from "@/data/inflables";
 
@@ -40,6 +40,9 @@ export interface Props {
   faqItems?:     FaqSeoItem[];
   product?:      ProductSeo;
   schemaMarkup?: string;
+  /** Excluye la página del índice de Google. Además omite el canonical:
+      el 404 apuntaba a https://brincolins.com/404/, una URL inexistente. */
+  noindex?:      boolean;
 }
 
 const {
@@ -52,6 +55,7 @@ const {
   faqItems,
   product,
   schemaMarkup,
+  noindex      = false,
 } = Astro.props;
 
 const SITE = SITE_URL;
@@ -104,7 +108,9 @@ const schemaProduct = product
     })
   : null;
 
-const ogType = (pageType === "product") ? "og:product" : "website";
+// Open Graph acepta "product", no "og:product". Con el valor inválido
+// Facebook/WhatsApp caían a "website" y perdían el objeto producto.
+const ogType = (pageType === "product") ? "product" : "website";
 ---
 
 <!doctype html>
@@ -147,8 +153,10 @@ const ogType = (pageType === "product") ? "og:product" : "website";
   <title>{title}</title>
   <meta name="description" content={description}>
   <meta name="author" content="BRINCOLINS">
-  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-  <link rel="canonical" href={canonical}>
+  <meta name="robots" content={noindex
+    ? "noindex, follow"
+    : "index, follow, max-snippet:-1, max-image-preview:large"}>
+  {!noindex && <link rel="canonical" href={canonical} />}
 
   <meta name="geo.region"    content="MX-CMX">
   <meta name="geo.placename" content="Ciudad de México">
@@ -201,6 +209,26 @@ const ogType = (pageType === "product") ? "og:product" : "website";
       window.addEventListener('resize', setHeights, {passive:true});
     })();
   </script>
+
+  {/* ── Analítica (GA4) ──────────────────────────────────────────
+       Nada se carga mientras GA4_ID esté vacío en src/data/site.ts:
+       cero scripts de terceros, cero cookies, cero banner de consentimiento.
+       Al pegar el Measurement ID se activan pageviews + los eventos
+       personalizados de abajo (clic en WhatsApp / teléfono) y el
+       `generate_lead` que dispara src/lib/leadForm.ts.
+       ─────────────────────────────────────────────────────────── */}
+  {GA4_ID && (
+    <>
+      <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}></script>
+      <script is:inline define:vars={{ GA4_ID }}>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', GA4_ID);
+      </script>
+    </>
+  )}
 </head>
 <body>
   <!-- Sprite SVG global (jul 2026): los íconos WhatsApp (~1.1KB), check y
@@ -240,5 +268,33 @@ const ogType = (pageType === "product") ? "og:product" : "website";
 
   <!-- Script del acorde\u00f3n FAQ movido a FaqItem.astro (jul 2026): aqu\u00ed se
        enviaba en TODAS las p\u00e1ginas, tuvieran FAQ o no. -->
+
+  <!-- Medici\u00f3n de CTAs de contacto (ago 2026).
+       Los ~894 enlaces de WhatsApp y 425 de tel\u00e9fono no reportaban nada:
+       no hab\u00eda forma de saber qu\u00e9 p\u00e1gina ni qu\u00e9 bot\u00f3n generaba contactos.
+       Empuja a dataLayer siempre, as\u00ed los eventos quedan disponibles tanto
+       para GA4 como para GTM sin acoplarse a ninguno de los dos. -->
+  <script>
+    (() => {
+      const push = (name: string, params: Record<string, unknown>) => {
+        const w = window as unknown as { dataLayer?: unknown[]; gtag?: (...a: unknown[]) => void };
+        if (typeof w.gtag === 'function') w.gtag('event', name, params);
+        else (w.dataLayer = w.dataLayer || []).push({ event: name, ...params });
+      };
+
+      document.addEventListener('click', (e) => {
+        const a = (e.target as HTMLElement | null)?.closest?.('a[href]') as HTMLAnchorElement | null;
+        if (!a) return;
+        const href = a.getAttribute('href') || '';
+        const common = {
+          page_path: window.location.pathname,
+          link_text: (a.textContent || '').trim().slice(0, 60),
+        };
+        if (href.includes('wa.me')) push('contact_whatsapp', common);
+        else if (href.startsWith('tel:')) push('contact_phone', common);
+        else if (href.startsWith('mailto:')) push('contact_email', common);
+      }, { passive: true });
+    })();
+  </script>
 </body>
 </html>
