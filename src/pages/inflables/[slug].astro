@@ -18,6 +18,8 @@ import CtaBanner from "@/components/CtaBanner.astro";
 import Gallery4x4 from "@/components/Gallery4x4.astro";
 import PricingCards from "@/components/PricingCards.astro";
 import CtaBar from "@/components/CtaBar.astro";
+import FacetasInflables from "@/components/FacetasInflables.astro";
+import { categoriasDeInflable } from "@/data/categorias";
 
 export function getStaticPaths() {
   return Object.keys(PRODUCTOS_PAGINAS).map((slug) => ({ params: { slug } }));
@@ -26,6 +28,11 @@ export function getStaticPaths() {
 const { slug } = Astro.params;
 const page = PRODUCTOS_PAGINAS[slug!];
 const canon = INFLABLES.find((i) => i.slug === slug)!;
+
+/* Enlace de regreso a las categorías donde vive este modelo. Sin él las
+   11 categorías serían hojas muertas: reciben enlaces pero no devuelven
+   autoridad al catálogo. */
+const categorias = categoriasDeInflable(canon.slug);
 
 const ctaBarItems = [
   { label: "Cotizar ahora", href: "/contacto/", icon: "cotizar" },
@@ -166,6 +173,24 @@ const ctaBarItems = [
     </div>
   </section>
 
+  <!-- También en — enlaces de regreso a las categorías -->
+  <section class="section">
+    <div class="container">
+      {categorias.length > 0 && (
+        <p class="tambien-en">
+          <strong>{canon.name} también aparece en:</strong>{" "}
+          {categorias.map((c, i) => (
+            <>
+              {i > 0 && " · "}
+              <a href={`/inflables/${c.slug}/`}>{c.anchor}</a>
+            </>
+          ))}
+        </p>
+      )}
+      <FacetasInflables />
+    </div>
+  </section>
+
   <CtaBanner
     title={`¿Te interesa el ${canon.name}?`}
     subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos."
@@ -175,3 +200,13 @@ const ctaBarItems = [
   />
 
 </PageLayout>
+
+<style>
+  .tambien-en {
+    margin: 0 0 1.5rem;
+    font-size: .95rem;
+    line-height: 1.7;
+    color: var(--text-muted, #5a5a66);
+  }
+  .tambien-en a { font-weight: 600; }
+</style>

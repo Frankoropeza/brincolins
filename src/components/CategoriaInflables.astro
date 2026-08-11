@@ -1,0 +1,205 @@
+---
+/**
+ * CategoriaInflables — BRINCOLINS
+ * ──────────────────────────────────────────────────────────────
+ * Plantilla ÚNICA de las 11 páginas de categoría.
+ *
+ * Ingeniería inversa de las páginas que le dan el 95% del tráfico a
+ * cocoy.com y pelotinas.com (hub → facetas → producto anidado), más
+ * lo que ellos NO tienen: precios visibles, fichas técnicas, tabla
+ * comparativa, FAQ exclusiva y schema de colección.
+ *
+ * Estructura (fija en las 11, regla de módulos homologados):
+ *   1 breadcrumb · 2 H1 · 3 intro · 4 grid de productos
+ *   5 tabla comparativa · 6 bloque guía · 7 facetas (silo)
+ *   8 FAQ única · 9 CTA · 10 schema
+ *
+ * Una sola página de contenido por categoría vive en data/categorias.ts.
+ * Aquí no hay copy ni cifras: sólo maquetado.
+ */
+import PageLayout    from "@/layouts/PageLayout.astro";
+import Breadcrumbs   from "@/components/Breadcrumbs.astro";
+import QuickNav      from "@/components/QuickNav.astro";
+import ProductCard   from "@/components/ProductCard.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import FaqItem       from "@/components/FaqItem.astro";
+import CtaBanner     from "@/components/CtaBanner.astro";
+import FacetasInflables from "@/components/FacetasInflables.astro";
+import TablaComparativa from "@/components/TablaComparativa.astro";
+import { inflablesDeCategoria, cardProps, type Categoria } from "@/data/categorias";
+import { PRICE_NOTE_LONG } from "@/data/inflables";
+import { SITE_URL } from "@/data/site";
+
+interface Props { categoria: Categoria; }
+const { categoria: cat } = Astro.props;
+
+const items   = inflablesDeCategoria(cat);
+const desde   = items.length ? items.reduce((m, i) => (i.priceNumber < m.priceNumber ? i : m)).price : "";
+const url     = `${SITE_URL}/inflables/${cat.slug}/`;
+
+/* CollectionPage + ItemList. Los competidores que rankean en estas
+   keywords sólo declaran Organization o SiteNavigationElement. */
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": `${url}#categoria`,
+  name: cat.name,
+  description: cat.description,
+  url,
+  isPartOf: { "@id": `${SITE_URL}/#website` },
+  about:    { "@id": `${SITE_URL}/#org` },
+  mainEntity: {
+    "@type": "ItemList",
+    name: cat.name,
+    numberOfItems: items.length,
+    itemListOrder: "https://schema.org/ItemListOrderAscending",
+    itemListElement: items.map((inf, idx) => ({
+      "@type": "ListItem",
+      position: idx + 1,
+      item: {
+        "@type": "Product",
+        "@id": `${SITE_URL}/inflables/${inf.slug}/#producto`,
+        name: inf.name,
+        description: inf.description,
+        image: `${SITE_URL}${inf.image}`,
+        url: `${SITE_URL}/inflables/${inf.slug}/`,
+        category: cat.name,
+        offers: {
+          "@type": "Offer",
+          url: `${SITE_URL}/inflables/${inf.slug}/`,
+          priceCurrency: "MXN",
+          price: inf.priceNumber,
+          availability: "https://schema.org/InStock",
+          seller: { "@id": `${SITE_URL}/#org` },
+          areaServed: ["Ciudad de México", "Estado de México"],
+        },
+      },
+    })),
+  },
+};
+---
+
+<PageLayout
+  title={cat.title}
+  description={cat.description}
+  pageType="category"
+  faqItems={cat.faqs}
+  schemaMarkup={JSON.stringify(schema)}
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables", href: "/inflables/" },
+    { name: cat.name },
+  ]}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[
+      { label: "Inicio", href: "/" },
+      { label: "Inflables", href: "/inflables/" },
+      { label: cat.nav },
+    ]} />
+  </Fragment>
+
+  <!-- 2-3 · H1 + INTRO -->
+  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">{cat.badge}</span>
+          <h1 class="hero__title">{cat.h1}</h1>
+          <p class="hero__desc">{items.length} {items.length === 1 ? "modelo disponible" : "modelos disponibles"} en CDMX y Estado de México{desde ? ` desde ${desde} MXN` : ""}, con entrega, instalación y recolección incluidas.</p>
+          <div class="hero__ctas">
+            <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar {cat.name.toLowerCase()}</a>
+            <a href="/precios/" class="btn btn-outline btn-lg">Ver precios de renta de inflables</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">{cat.intro[0]}</p>
+          <p class="hero__copy-text">{cat.intro[1]}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <QuickNav />
+
+  <!-- 4 · GRID DE PRODUCTOS -->
+  <section class="section" style="padding-top:1.5rem;">
+    <div class="container">
+      <SectionHeader
+        badge="Modelos"
+        title={`${cat.name} disponibles para renta`}
+        subtitle="Precio, medidas, edades y capacidad de cada modelo de esta categoría."
+        copy1={cat.intro[0]}
+        copy2="Cada ficha incluye las medidas del inflable, el área libre que hay que despejar, la altura necesaria y la capacidad simultánea. Si tienes dudas sobre cuál cabe en tu espacio, mándanos las medidas por WhatsApp y te confirmamos antes de que apartes la fecha."
+      />
+      <div class="grid-4">
+        {items.map((inf) => <ProductCard {...cardProps(inf)} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 · TABLA COMPARATIVA -->
+  {items.length > 1 && (
+    <section class="section section--alt">
+      <div class="container">
+        <TablaComparativa inflables={items} caption={`Comparativa de ${cat.name.toLowerCase()} — medidas, espacio y capacidad`} />
+        <p class="cat-nota">{PRICE_NOTE_LONG}</p>
+      </div>
+    </section>
+  )}
+
+  <!-- 6 · BLOQUE GUÍA -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="Cómo elegir"
+        title={cat.guiaTitle}
+        subtitle={cat.guiaSub}
+        copy1={cat.guia[0]}
+        copy2={cat.guia[1]}
+      />
+    </div>
+  </section>
+
+  <!-- 7 · FACETAS (el silo) -->
+  <section class="section section--alt">
+    <div class="container">
+      <FacetasInflables activeSlug={cat.slug} />
+    </div>
+  </section>
+
+  <!-- 8 · FAQ ÚNICA DE ESTA CATEGORÍA -->
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="FAQ"
+        title={`Preguntas frecuentes sobre ${cat.name.toLowerCase()}`}
+        subtitle="Dudas específicas de esta categoría, no las generales del sitio."
+        copy1={cat.guiaSub}
+        copy2="Si tu pregunta no está aquí, escríbenos por WhatsApp con las medidas de tu espacio y la edad de los invitados: contestamos en minutos y sin compromiso."
+      />
+      <div style="max-width:800px; margin:0 auto;">
+        {cat.faqs.map((f) => <FaqItem question={f.question} answer={f.answer} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- 9 · CTA -->
+  <CtaBanner
+    title={`¿Listo para rentar ${cat.name.toLowerCase()}?`}
+    subtitle="Cotiza sin compromiso. Entrega en tu alcaldía o municipio, con instalación incluida."
+    btnText="Cotizar ahora"
+    btnHref="/cotizar/"
+    btnSecondaryText="Ver zonas de entrega"
+    btnSecondaryHref="/cobertura/"
+    variant="vibrant"
+  />
+</PageLayout>
+
+<style>
+  .cat-nota {
+    margin: 1rem 0 0;
+    font-size: .9rem;
+    color: var(--text-muted, #5a5a66);
+  }
+</style>

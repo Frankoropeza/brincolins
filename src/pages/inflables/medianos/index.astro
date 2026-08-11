@@ -1,6 +1,6 @@
 ---
 /**
- * /inflables/brincolines/
+ * /inflables/medianos/
  * Página de categoría. Todo el contenido vive en data/categorias.ts y
  * todo el maquetado en components/CategoriaInflables.astro — este archivo
  * sólo conecta los dos. Homologado con las otras 10 categorías.
@@ -8,7 +8,7 @@
 import CategoriaInflables from "@/components/CategoriaInflables.astro";
 import { getCategoria } from "@/data/categorias";
 
-const categoria = getCategoria("brincolines")!;
+const categoria = getCategoria("medianos")!;
 ---
 
 <CategoriaInflables categoria={categoria} />

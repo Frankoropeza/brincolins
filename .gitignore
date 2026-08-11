@@ -77,3 +77,4 @@ INVENTARIO-URLS.csv
 
 # Analisis SEO interno (no publicar / no versionar)
 _analisis-seo/
+_to_delete/
