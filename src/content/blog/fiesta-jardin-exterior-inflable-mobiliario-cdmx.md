@@ -1,6 +1,6 @@
 ---
-title: "Fiesta en el Jardín en CDMX: Inflable, Mesas Picnic y Todo lo."
-description: "Organiza una fiesta en el jardín en CDMX con inflable y mesas picnic. Checklist, presupuesto, salón vs jardín y qué inflable elegir."
+title: "Fiesta en el Jardín en CDMX: Inflable y Mesas Picnic"
+description: "Organiza tu fiesta en el jardín en CDMX con inflable y mesas picnic: checklist completo, presupuesto real por tamaño, salón vs jardín y qué modelo elegir."
 excerpt: "Las fiestas en jardín están viviendo su mejor momento en la Ciudad de México. Aprende a organizar la tuya con inflable, mesas picnic de MESPIC y todo el checklist que necesitas para que no se te escape nada — más una comparativa honesta entre fiesta en salón y fiesta en jardín."
 publishDate: "2026-06-14"
 category: "Ideas"
@@ -62,7 +62,7 @@ Organizar una fiesta en jardín tiene más variables que una en salón — el cl
 
 **El espacio:** Mide el jardín en metros cuadrados y traza un plano simple con las zonas de sombra natural y las zonas de sol directo. Verifica la disponibilidad de tomas eléctricas — el inflable necesita corriente y mientras más cerca esté del motor, mejor. Confirma el tipo de piso (pasto, concreto, tierra, loseta) para que podamos decirte cuál es el mejor método de anclaje. Verifica el acceso para vehículos de carga, ya que los inflables y las mesas picnic de MESPIC llegan en camioneta y necesitan poder entrar sin maniobras complicadas. Revisa que no haya árboles con ramas bajas que interfieran con la altura del inflable cuando esté inflado.
 
-**El inflable:** Elige el modelo según el tamaño del jardín consultando la tabla de esta misma guía. Reserva con BRINCOLINS con mínimo 2-3 semanas de anticipación escribiéndonos por WhatsApp al 5531281706. Confirma el horario de llegada del equipo de instalación y asegúrate de que haya un adulto en casa para recibirnos. Ten libre el acceso para la camioneta desde temprano — no hay nada más frustrante para todos que llegar a instalar y no poder entrar.
+**El inflable:** Elige el modelo según el tamaño del jardín consultando la tabla de esta misma guía —van de 3×3 m de área libre para el Mini Castillo a 9×7 m para el Barco Pirata— y según la edad de los invitados, criterio que desarrollamos en la guía de [cómo elegir el inflable correcto](/blog/como-elegir-inflable-fiesta-infantil/). Reserva con BRINCOLINS con mínimo 2 o 3 semanas de anticipación escribiéndonos por WhatsApp al 5531281706. Confirma el horario de llegada del equipo de instalación y asegúrate de que haya un adulto en casa para recibirnos. Ten libre el acceso para la camioneta desde temprano — no hay nada más frustrante para todos que llegar a instalar y no poder entrar.
 
 **El mobiliario:** Cuenta el número de adultos invitados y define cuántas mesas picnic necesitas. Las mesas de MESPIC tienen capacidad para unas 8 personas cada una. Reserva con MESPIC coordinando la entrega el mismo día que el inflable. Define si necesitas toldo o carpa — esto es indispensable si no hay sombra natural suficiente o si la fiesta es en temporada de lluvias. Considera sillas adicionales con respaldo para adultos mayores que prefieren no sentarse en las bancas corridas de las mesas picnic.
 
@@ -78,12 +78,12 @@ Elegir el inflable correcto para tu espacio no es solo una cuestión estética �
 
 | Jardín | Metros disponibles | Inflable ideal | Precio aprox. | Capacidad |
 |---|---|---|---|---|
-| Muy pequeño | Hasta 6×6 m (36 m²) | Mini Castillo o Gusanitos | $800 – $1,350 MXN | 6-10 niños |
-| Pequeño | 6×8 m a 8×10 m | Castillo Princesas o Mini Jungla | $1,200 – $1,300 MXN | 8-15 niños |
-| Mediano | 10×12 m a 12×15 m | Dragones Rojos o Barco Pirata | $1,200 – $1,800 MXN | 12-20 niños |
-| Grande | 15×20 m o más | Extremo o 2 inflables medianos | Desde $1,900 MXN | 20-40 niños |
+| Muy pequeño | Hasta 6×6 m (36 m²) | Mini Castillo (3×3 m) | $800 MXN | 3-4 niños de 1 a 4 años |
+| Pequeño | 6×8 m a 8×10 m | Castillo de Princesas o Dragones Rojos (6×6 m), Mini Jungla (6.5×6 m) o Gusanitos (7×5 m) | $1,200 – $1,350 MXN | 5-7 niños |
+| Mediano | 10×12 m a 12×15 m | Castillo Blanco (8×7 m) o Barco Pirata (9×7 m) | $1,700 – $1,800 MXN | 8-10 personas |
+| Grande | 15×20 m o más | Extremo (9×6 m) o 2 inflables medianos | Desde $1,900 MXN | 6-10 por turno, o 10-14 con dos inflables |
 
-Para confirmar cuál es el modelo más adecuado para las dimensiones exactas de tu jardín, escríbenos por WhatsApp y te orientamos sin compromiso. También puedes revisar las fichas completas en nuestro [catálogo de inflables](/inflables/).
+La capacidad de la última columna es la del inflable, no la de la fiesta: con 20 invitados y un mediano de 5 a 7 niños se organizan turnos, no se meten todos. Para confirmar cuál es el modelo más adecuado para las dimensiones exactas de tu jardín, escríbenos por WhatsApp y te orientamos sin compromiso. También puedes revisar las fichas completas en nuestro [catálogo de inflables](/inflables/), los ocho precios en la [página de precios](/precios/) y el paso a paso de la [fiesta infantil en jardín](/blog/fiesta-infantil-jardin-inflable-cdmx/).
 
 ## Cómo protegerse del sol y la lluvia: opciones reales para CDMX
 
@@ -99,11 +99,13 @@ Si tu jardín tiene árboles con buena copa — como muchos jardines en Coyoacá
 
 En temporada de lluvias (junio-octubre), la lluvia en CDMX suele presentarse entre las 3 PM y las 7 PM. Planear fiestas con inicio a las 11 AM y término a las 3 PM reduce significativamente el riesgo y casi nunca requiere plan B. Si la fiesta necesariamente es vespertina, la carpa es indispensable y no negociable.
 
-El inflable puede usarse con lluvia ligera sin problema, pero debe detenerse ante lluvia fuerte o tormentas con rayos. Nuestro equipo te explicará el protocolo de seguridad antes de retirarse — y siempre puedes llamarnos si tienes dudas durante la fiesta.
+El inflable puede usarse con lluvia ligera sin problema, pero debe detenerse ante lluvia fuerte o tormentas con rayos. Nuestro equipo te explicará el protocolo de seguridad antes de retirarse — está resumido en la [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/) — y siempre puedes llamarnos si tienes dudas durante la fiesta.
 
 ## Cuánto presupuesto asignar a cada elemento
 
 Organizar una fiesta en jardín en CDMX en 2026 puede costar desde $3,500 hasta más de $15,000 MXN dependiendo del tamaño del evento y los elementos elegidos. Lo que hemos aprendido es que los presupuestos más exitosos no son los más altos sino los mejor distribuidos — priorizando los elementos que más impacto tienen en la experiencia.
+
+Los precios de inflable que aparecen abajo son netos: se agrega IVA solo si necesitas factura, y en municipios lejanos de Edomex ($150 a $600) o en algunas alcaldías del sur y oriente de la CDMX ($100 a $200) se suma el envío según la distancia. Consulta si tu zona lleva cargo en la [página de cobertura](/cobertura/).
 
 **Fiesta íntima (hasta 25 invitados):**
 - Inflable BRINCOLINS: $800 - $1,200 MXN
@@ -145,6 +147,6 @@ Ese mensaje, transmitido de forma silenciosa desde que los invitados llegan y ve
 
 Desde el punto de vista fotográfico, la madera natural de las mesas picnic complementa perfectamente el verde del jardín y los colores del inflable. Son las mesas que se ven bien en todas las fotos, con cualquier tipo de luz, sin necesidad de mantelería elaborada ni decoración excesiva.
 
-Para reservar tus mesas picnic para la fiesta, visita a nuestros aliados en [mesaspicnic.com](https://mesaspicnic.com) y menciona que vienes de BRINCOLINS. Y para el inflable que va a entretener a los niños durante horas, escríbenos al WhatsApp **5531281706** o [cotiza directamente aquí](/cotizar/).
+Para reservar tus mesas picnic para la fiesta, visita a nuestros aliados en [mesaspicnic.com](https://mesaspicnic.com) y menciona que vienes de BRINCOLINS. Y para el inflable que va a entretener a los niños durante horas, escríbenos al WhatsApp **5531281706** o [cotiza directamente aquí](/cotizar/). Si tu fiesta va en la línea del [garden party con mesas picnic](/blog/garden-party-inflable-mesas-picnic-cdmx/), ahí desglosamos la distribución del jardín por zonas.
 
 Lo que más nos importa después de 20 años en este negocio no es que reserves con nosotros — es que tu fiesta salga bien. Que los niños briquen, que los papás descansen, que el jardín se vea exactamente como lo imaginaste. Esa satisfacción es la que hace que las familias nos llamen para el siguiente cumpleaños. Y para el siguiente. Y para el siguiente.

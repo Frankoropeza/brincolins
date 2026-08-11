@@ -45,6 +45,8 @@ nav:
         href: "/servicios/iluminacion-eventos/"
       - label: "Inflables para Eventos"
         href: "/servicios/inflables-para-eventos/"
+  - label: "Precios"
+    href: "/precios/"
   - label: "Cobertura"
     href: "/cobertura/"
   - label: "Blog"

@@ -1,6 +1,6 @@
 ---
-title: "Kermesse Escolar con Inflables en Edomex: Guía Completa para."
-description: "Guía definitiva para coordinadores y directores escolares que organizan una kermesse con inflables en Edomex. Planeación, checklist de 30 puntos, tablas de."
+title: "Kermesse Escolar con Inflables en Edomex: Guía 2026"
+description: "Guía para coordinadores y directores que organizan una kermesse con inflables en Edomex: cuántos inflables por alumno, espacio, tiempos, costos y checklist."
 excerpt: "Organizar una kermesse escolar con inflables en Edomex requiere planeación estratégica. Esta guía completa para coordinadores y directores cubre desde la selección de inflables hasta la distribución del espacio para que no haya filas eternas."
 publishDate: "2026-06-16"
 category: "Eventos"
@@ -21,7 +21,7 @@ faqs:
   - question: "¿Puede BRINCOLINS coordinar múltiples inflables simultáneos en una kermesse escolar?"
     answer: "Sí, tenemos experiencia operando múltiples inflables en simultáneo en eventos escolares de gran formato. Nuestro equipo asigna un operador por inflable, garantizando supervisión constante, control del tiempo de uso por alumno y mantenimiento de la presión adecuada durante todo el evento. Para kermesses con tres o más inflables coordinamos una reunión previa de planificación con el equipo directivo para definir el layout del espacio, los horarios de operación y los protocolos de seguridad. Comunícate con nosotros al WhatsApp 5531281706 con al menos 3 semanas de anticipación para eventos de esta escala."
   - question: "¿Cuánto espacio necesita cada inflable para instalarse correctamente en un patio escolar?"
-    answer: "Cada inflable requiere un área libre que supere sus dimensiones físicas en al menos un metro por cada lado para el anclaje y la ventilación del motor. El Mini Castillo ($800) requiere aproximadamente 3x3 metros; los medianos (Dragones Rojos y Castillo Princesas $1,200, Mini Jungla $1,300, Gusanitos $1,350) necesitan entre 5x5 y 6x5 metros; el Barco Pirata ($1,800) necesita 8x6 metros; y el Extremo ($1,900) requiere un área de al menos 8x5 metros. Antes de confirmar el número de inflables, te recomendamos medir el espacio disponible y compartir esas dimensiones con nuestro equipo para validar la distribución."
+    answer: "Cada inflable requiere un área libre que supere sus dimensiones físicas en un metro por cada lado para el anclaje y la ventilación del motor. Las cifras ya incluyen ese margen: el Mini Castillo ($800) pide 3×3 metros; los medianos —Dragones Rojos y Castillo de Princesas $1,200 con 6×6 m, Mini Jungla $1,300 con 6.5×6 m, Gusanitos $1,350 con 7×5 m—; el Castillo Blanco ($1,700) 8×7 m; el Barco Pirata ($1,800) 9×7 m; y el Extremo ($1,900) 9×6 m. Antes de confirmar el número de inflables, mide el espacio disponible y comparte esas dimensiones con nuestro equipo."
   - question: "¿Con cuánta anticipación debe contratar la escuela los inflables para una kermesse?"
     answer: "Para kermesses escolares en Edomex recomendamos una anticipación mínima de 3 semanas, y de 4 a 6 semanas para kermesses de gran formato con 3 o más inflables. Los fines de semana de temporada alta (mayo, junio, octubre y diciembre) tienen alta demanda y los inflables más populares se agotan rápidamente. Reservar con tiempo también permite hacer una visita previa al espacio para planificar la distribución óptima. Para asegurar disponibilidad, escríbenos al WhatsApp 5531281706 con los detalles de tu evento."
   - question: "¿BRINCOLINS emite factura CFDI para instituciones educativas?"
@@ -44,7 +44,7 @@ Esta guía existe porque hemos aprendido, evento tras evento, qué hace la difer
 
 Las kermesses escolares modernas enfrentan un reto que hace 20 años no existía: los alumnos actuales compiten en atención con smartphones, videojuegos y plataformas de streaming. Para que una kermesse sea verdaderamente memorable y logre el objetivo de convivencia que busca la institución, necesita ofrecer experiencias físicas que ninguna pantalla puede replicar.
 
-Los inflables cumplen exactamente esa función. Son atractivos para todas las edades —desde preescolar hasta secundaria—, no requieren habilidades previas para participar, son seguros cuando se operan correctamente, y generan ese tipo de diversión espontánea que crea recuerdos genuinos entre compañeros de clase. Hemos visto alumnos de secundaria que llevan toda la mañana mirando el teléfono decidirse a hacer fila para el Extremo cuando ven a un compañero competir contra otro en el circuito de doble carril. El inflable correcto puede más que cualquier invitación verbal.
+Los inflables cumplen exactamente esa función. Son atractivos para todas las edades —desde preescolar hasta secundaria—, no requieren habilidades previas y son seguros cuando se respetan la capacidad y la separación por edades, las dos reglas que explicamos en la [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/). Bien operados, y generan ese tipo de diversión espontánea que crea recuerdos genuinos entre compañeros de clase. Hemos visto alumnos de secundaria que llevan toda la mañana mirando el teléfono decidirse a hacer fila para el Extremo cuando ven a un compañero competir contra otro en el circuito de doble carril. El inflable correcto puede más que cualquier invitación verbal.
 
 Para la institución educativa, la presencia de inflables de calidad también comunica algo importante: la escuela invierte en la experiencia de sus alumnos y se toma en serio la organización de sus eventos. Ese mensaje, percibido por los padres de familia durante la kermesse, refuerza la confianza en la institución de una forma que ninguna circular o junta puede replicar. Los papás que ven una kermesse bien organizada —con inflables funcionando sin contratiempos, con supervisión visible, con filas ordenadas— se van del evento con una imagen más positiva de la escuela.
 
@@ -54,29 +54,31 @@ Uno de los errores más frecuentes en kermesses escolares es subestimar el núme
 
 | Número de alumnos | Inflables recomendados | Opciones sugeridas | Capacidad por turno |
 |---|---|---|---|
-| Hasta 200 alumnos | 1 inflable grande | Barco Pirata o Extremo | 8-10 niños simultáneos |
-| 200 a 350 alumnos | 2 inflables | Barco Pirata + Dragones Rojos | 15-18 niños simultáneos |
-| 350 a 500 alumnos | 2-3 inflables | Barco Pirata + Dragones Rojos + Castillo Princesas | 22-28 niños simultáneos |
-| 500 a 700 alumnos | 3 inflables | Extremo + Barco Pirata + inflable de $1,200 | 25-32 niños simultáneos |
-| Más de 700 alumnos | 4 o más inflables | Extremo + 3 inflables de distintos formatos | 35-45 niños simultáneos |
+| Hasta 200 alumnos | 1 inflable grande | Barco Pirata (8-10) o Extremo (6-10 por turno) | 8-10 niños simultáneos |
+| 200 a 350 alumnos | 2 inflables | Barco Pirata (8-10) + Dragones Rojos (5-7) | 13-17 niños simultáneos |
+| 350 a 500 alumnos | 3 inflables | Barco Pirata + Dragones Rojos + Castillo de Princesas | 18-24 niños simultáneos |
+| 500 a 700 alumnos | 3-4 inflables | Extremo + Barco Pirata + dos medianos de $1,200 | 24-31 niños simultáneos |
+| Más de 700 alumnos | 4 o más inflables | Extremo + Barco Pirata + 2 medianos + Mini Castillo para preescolar | 27-34 niños simultáneos |
 
-**Nota importante:** estas cifras consideran turnos rotatorios de 10-15 minutos por grupo. Si la kermesse tiene un formato de acceso libre sin control de turnos, las colas serán significativamente más largas independientemente del número de inflables. Siempre recomendamos implementar un sistema de turnos por grado escolar.
+Antes de decidir cuántos contratar, conviene revisar cuántos niños admite realmente cada modelo: lo desglosamos en la [comparativa de inflable chico contra grande según invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/).
+
+**Nota importante:** la capacidad por turno es la suma de las capacidades reales de cada modelo —3 a 4 niños en el Mini Castillo, 5 a 7 en los medianos, 8 a 10 en el Barco Pirata y 6 a 10 en el Extremo— y no se puede rebasar ni en kermesse. Estas cifras consideran turnos rotatorios de 10 a 15 minutos por grupo. Si la kermesse tiene un formato de acceso libre sin control de turnos, las colas serán significativamente más largas independientemente del número de inflables. Siempre recomendamos implementar un sistema de turnos por grado escolar.
 
 ## Qué inflables son ideales para una kermesse escolar
 
 No todos los inflables se adaptan igual a un contexto escolar. Los años de trabajo en patios de primarias y secundarias de Edomex nos permiten recomendar con criterio cuál funciona mejor para cada grupo de edad y formato de evento:
 
-### Dragones Rojos — $1,200
-Perfecto para grupos de primaria (1° a 4° grado). Su diseño visual impactante con la temática de dragones genera entusiasmo inmediato, y su dimensión es manejable para patios escolares de tamaño medio. Es uno de los inflables más populares en kermesses porque mantiene a los niños entretenidos durante períodos prolongados sin que pierdan el interés. El motor hace ese ruido que los niños ya reconocen desde que llegan al patio, y la expectativa que genera es parte del entretenimiento.
+### [Dragones Rojos](/inflables/dragones-rojos/) — $1,200
+Perfecto para grupos de primaria (1° a 4° grado). Mide 4×4×3.8 m, pide 6×6 m de patio libre y recibe de 5 a 7 alumnos de 4 a 10 años por turno. Es el modelo más rentado de todo nuestro catálogo, y en kermesse funciona porque mantiene a los niños entretenidos durante períodos prolongados sin que pierdan el interés. El motor hace ese ruido que los niños ya reconocen desde que llegan al patio, y la expectativa que genera es parte del entretenimiento.
 
-### Castillo Princesas — $1,200
-Ideal para grupos de preescolar y primaria baja. Si tu escuela tiene desde nivel inicial, el Castillo Princesas es una opción segura que funciona bien con los más pequeños sin representar riesgos de alturas o velocidades excesivas. Su estética de cuento de hadas genera una emoción específica que los niños pequeños adoran, y los papás que los acompañan también lo encuentran visualmente atractivo para las fotos.
+### [Castillo de Princesas](/inflables/castillo-princesas/) — $1,200
+Ideal para primaria baja. Mide 4×4×3.5 m sobre 6×6 m libres y recibe de 5 a 7 alumnos de 4 a 10 años. Si tu escuela tiene nivel preescolar con niños de 3 años o menos, el modelo correcto para ellos es el [Mini Castillo](/inflables/mini-castillo/) de $800, que atiende de 1 a 4 años en grupos de 3 o 4. Su estética de cuento de hadas genera una emoción específica que los niños pequeños adoran, y los papás que los acompañan también lo encuentran visualmente atractivo para las fotos.
 
 ### [Barco Pirata](/inflables/barco-pirata/) — $1,800
-El más versátil de la colección para kermesses. Su estructura grande lo hace visible desde cualquier punto del patio, funciona para un rango de edades amplio —de 4 a 12 años aproximadamente—, y su diseño temático genera emoción incluso en niños que ya tienen experiencia con inflables. Para escuelas que solo pueden rentar un inflable, el Barco Pirata es la opción más rentable en términos de atención y capacidad. Cuando el Barco Pirata está instalado en el centro del patio, es el primero que ven los niños cuando entran y el último que miran cuando se van.
+El más versátil de la colección para kermesses. Con 7×5×4.5 m es el modelo más grande del catálogo, pide 9×7 m de patio libre y 5.2 m de altura, recibe de 8 a 10 alumnos desde 4 años y es visible desde cualquier punto del patio. Para escuelas que solo pueden rentar un inflable, el Barco Pirata es la opción más rentable en términos de atención y capacidad. Cuando el Barco Pirata está instalado en el centro del patio, es el primero que ven los niños cuando entran y el último que miran cuando se van.
 
 ### [Extremo](/inflables/extremo/) — $1,900
-El inflable estrella para kermesses de secundaria o para eventos donde se quiere un formato de competencia. El circuito de obstáculos de 7 metros en doble carril permite organizar carreras entre dos participantes simultáneos, lo que genera un espectáculo que entretiene no solo a quien está brincando sino a todos los que esperan en fila. Para los alumnos mayores que ya no se entusiasman con los castillos tradicionales, el Extremo es la solución. Hemos visto alumnos de tercer grado de secundaria haciendo fila voluntariamente —algo que rara vez sucede con otras actividades de kermesse.
+El modelo que más se renta para kermesses de secundaria y eventos con formato de competencia. Mide 7×4×3.8 m, pide 9×6 m libres, recibe de 6 a 10 participantes por turno desde los 6 años, y su circuito de obstáculos de 7 metros en doble carril permite organizar carreras entre dos participantes simultáneos, lo que genera un espectáculo que entretiene no solo a quien está brincando sino a todos los que esperan en fila. Para los alumnos mayores que ya no se entusiasman con los castillos tradicionales, el Extremo es la solución. Hemos visto alumnos de tercer grado de secundaria haciendo fila voluntariamente —algo que rara vez sucede con otras actividades de kermesse.
 
 ## Checklist de 30 puntos para la kermesse perfecta
 
@@ -161,7 +163,7 @@ El costo de los inflables en una kermesse puede financiarse de múltiples formas
 
 **Sistema de boletos por atracción:** vende boletos específicos para el uso del inflable a $10-$15 pesos cada uno. Para una kermesse con 400 alumnos, si cada uno usa el inflable una vez, la recaudación de boletos puede cubrir completamente el costo del inflable. En muchas escuelas los alumnos compran dos o tres boletos porque quieren usar el inflable más de una vez, lo que aumenta la recaudación. Los papás generalmente apoyan este modelo porque entienden que el costo es razonable y van directamente a financiar el entretenimiento de sus hijos.
 
-**Patrocinadores locales:** papás que tienen negocios locales —una taquería, una papelería, un negocio de servicios— frecuentemente están dispuestos a patrocinar una atracción de la kermesse a cambio de visibilidad: su logo en un letrero junto al inflable, o mención en la circular del evento. Hemos visto kermesses donde el 100% del costo del inflable fue cubierto por un solo patrocinador local que quería visibilidad frente a las familias de la zona.
+**Patrocinadores locales:** papás que tienen negocios locales —una taquería, una papelería, un negocio de servicios— frecuentemente están dispuestos a patrocinar una atracción de la kermesse a cambio de visibilidad: su logo en un letrero junto al inflable, o mención en la circular del evento. Hemos visto kermesses donde el costo completo del inflable lo cubrió un solo patrocinador local que quería visibilidad frente a las familias de la zona.
 
 **Fondo de eventos escolares:** si la escuela recauda cuotas de eventos al inicio del ciclo escolar, el presupuesto de inflables puede planearse desde el inicio del año, distribuyendo el costo entre todos los alumnos. Una cuota de $30-$50 pesos por alumno al inicio del ciclo, destinada específicamente a la kermesse de fin de año, hace que el evento sea financieramente viable sin depender de recaudación el día del evento.
 
@@ -179,4 +181,6 @@ Los inflables son la atracción principal, pero una kermesse completa necesita a
 4. **Torneos deportivos de patio:** fútbol, basquetbol o carreras de costales complementan los inflables y ofrecen alternativas para los alumnos más deportistas que prefieren actividades de equipo.
 5. **Exposición de proyectos o trabajos de los alumnos:** aprovechar la kermesse para mostrar los logros académicos del ciclo escolar refuerza el sentido de comunidad y el orgullo institucional. Los papás que ven el trabajo de sus hijos exhibido en el mismo evento donde los ven brincar en un inflable se van con una imagen integral de lo que la escuela ofrece.
 
-En [BRINCOLINS](/) estamos disponibles para asesorarte en la planeación de tu kermesse escolar en Edomex. Hemos coordinado eventos en Tlalnepantla, Ecatepec, Naucalpan, Cuautitlán y decenas de municipios más. Escríbenos al WhatsApp **5531281706** para recibir una cotización personalizada según el número de alumnos, el espacio disponible y el presupuesto de tu institución. También puedes visitar nuestra sección de [inflables para eventos](/servicios/inflables-para-eventos/) para ver todas las opciones disponibles y consultar directamente los inflables en nuestra [galería completa](/inflables/).
+En [BRINCOLINS](/) estamos disponibles para asesorarte en la planeación de tu kermesse escolar en Edomex. Hemos coordinado eventos en [Tlalnepantla](/cobertura/tlalnepantla/), [Ecatepec](/cobertura/ecatepec/), [Naucalpan](/cobertura/naucalpan/), Cuautitlán y decenas de municipios más; en los más lejanos aplica un cargo de envío de $150 a $600 según la zona, que te decimos al cotizar. Escríbenos al WhatsApp **5531281706** para recibir una cotización personalizada según el número de alumnos, el espacio disponible y el presupuesto de tu institución.
+
+Si lo que necesitas es la lista de tareas fase por fase, el [checklist definitivo para organizar una kermesse escolar](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/) la tiene completa. También puedes revisar la sección de [inflables para eventos](/servicios/inflables-para-eventos/), los ocho precios en la [página de precios](/precios/) y las fichas en la [galería completa](/inflables/).

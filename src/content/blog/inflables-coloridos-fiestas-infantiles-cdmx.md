@@ -30,11 +30,11 @@ faqs:
 
 ## 1. Por qué el color importa en las fiestas infantiles
 
-Los niños perciben el mundo de forma mucho más visual que los adultos. Un estudio de la Universidad de British Columbia demostró que los **colores vibrantes** activan las zonas del cerebro asociadas con la alegría, la curiosidad y la energía en los niños de 3 a 10 años. Cuando un pequeño llega a una fiesta y ve un inflable lleno de colores tropicales, su cerebro interpreta inmediatamente: "aquí va a ser divertido".
+Los niños perciben el mundo de forma mucho más visual que los adultos, y eso se nota desde que cruzan la puerta. Cuando un pequeño llega a una fiesta y ve un inflable lleno de colores tropicales, la lectura es inmediata: "aquí va a ser divertido". Lo hemos visto en cientos de eventos — la reacción es la misma antes de que nadie les explique nada.
 
 Este efecto no es menor. La primera impresión visual de una fiesta determina el nivel de emoción y participación de los niños durante todo el evento. Un inflable gris o de colores apagados simplemente no genera el mismo impacto que uno con verdes selváticos, naranjas tropicales, amarillos brillantes y rojos intensos. La diferencia es visible en las caras de los niños y en las fotos del evento.
 
-> **Dato interesante:** Los papás que eligen inflables coloridos reportan que los niños pasan un 30% más de tiempo jugando en ellos comparado con modelos de colores neutros. El color literalmente mantiene a los pequeños entretenidos por más tiempo.
+> **Lo que nos cuentan los papás:** cuando el inflable es muy colorido, los niños tardan más en salirse de él. No tenemos un porcentaje que ofrecerte, pero sí la observación repetida evento tras evento: el color sostiene la atención. Si quieres el criterio completo para escoger modelo, está en la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/).
 
 ## 2. Los modelos más coloridos disponibles en BRINCOLINS
 
@@ -42,15 +42,15 @@ En **BRINCOLINS** tenemos un catálogo diverso de inflables, pero algunos modelo
 
 ### [Gusanitos](/inflables/gusanitos/) Tropical
 
-Nuestro modelo estrella en cuanto a color. El **Gusanitos Tropical** combina segmentos de colores tropicales — verde lima, naranja intenso, amarillo sol y rojo vibrante — en la forma divertida de un gusanito. Es como tener un arcoíris tridimensional en tu jardín. Cada sección del gusanito tiene un tono diferente, creando un efecto visual que encanta a niños y adultos por igual.
+El modelo más colorido del catálogo. El **Gusanitos** combina segmentos de verde lima, naranja intenso, amarillo sol y rojo vibrante en un circuito de túneles de 5×3×2.5 m. Pide 7×5 m de área libre, recibe de 5 a 7 niños de 4 a 10 años y cuesta **$1,350 MXN**. Al medir solo 2.5 m de alto, es uno de los dos modelos que caben bajo techo. Su ficha completa está en la [guía del inflable Gusanitos](/blog/renta-inflable-gusanitos-cdmx/).
 
 ### [Mini Jungla](/inflables/mini-jungla/)
 
-Con una paleta de verdes selváticos, cafés tierra y toques de color en los detalles de animales, el **Mini Jungla** transporta a los niños a una aventura tropical. Los tonos naturales se combinan con acentos brillantes que hacen que este inflable se vea increíble tanto en jardines como en salones de fiestas.
+Con una paleta de verdes selváticos, cafés tierra y acentos brillantes en los animales, el **Mini Jungla** transporta a los niños a una aventura tropical. Mide 4.5×4×3.5 m, pide 6.5×6 m de área libre, recibe de 5 a 7 niños de 3 a 10 años y cuesta **$1,300 MXN**. Por sus 3.5 m de alto va en exterior.
 
 ### [Castillo de Princesas](/inflables/castillo-princesas/)
 
-Para quienes buscan una paleta de colores más fantasía, el **Castillo de Princesas** ofrece rosas, morados, azules cielo y toques dorados que recrean un castillo de cuento de hadas. Es el modelo perfecto para fiestas temáticas de princesas, hadas y mundos mágicos.
+Para quienes buscan una paleta más de fantasía, el **Castillo de Princesas** ofrece rosas, morados, azules cielo y toques dorados. Mide 4×4×3.5 m sobre 6×6 m de área libre, recibe de 5 a 7 niñas de 4 a 10 años y cuesta **$1,200 MXN**. Es el modelo más solicitado para fiestas de niñas — más ideas en la guía de [inflables temáticos para niñas](/blog/inflables-tematicos-ninas-cdmx/).
 
 ## 3. Psicología del color aplicada a fiestas de niños
 
@@ -94,8 +94,8 @@ Los colores saturados del inflable hacen que las fotos se vean profesionales sin
 En **BRINCOLINS** rentamos los inflables más coloridos de la Ciudad de México con un servicio completo que incluye todo lo necesario para tu evento. El proceso es simple y sin complicaciones:
 
 - **Elige tu modelo:** Navega nuestro catálogo o escríbenos por WhatsApp describiendo tu temática y te recomendamos el inflable más colorido para tu fiesta.
-- **Confirma espacio y fecha:** Verifica cuánto espacio libre tienes y que haya toma eléctrica cerca. El Mini Castillo entra en 3×3 metros; los medianos piden 5×5 y los grandes hasta 8×6. Dinos la fecha y ubicación de tu evento.
-- **Reserva con anticipo:** Aparta tu inflable con un anticipo y recibe confirmación inmediata. Sin letras chiquitas ni costos sorpresa.
+- **Confirma espacio y fecha:** Verifica cuánto espacio libre tienes y que haya toma eléctrica cerca. El Mini Castillo entra en 3×3 metros; los medianos piden de 6×6 a 7×5, y los grandes hasta 9×7. Dinos la fecha y ubicación de tu evento.
+- **Reserva con anticipo:** Aparta tu inflable con el 50% de anticipo y recibe confirmación inmediata. Los precios están publicados en la [página de precios](/precios/) y son netos: se agrega IVA solo si necesitas factura.
 - **Nosotros hacemos el resto:** Llegamos con anticipación, instalamos, verificamos seguridad y al finalizar recogemos todo. Tú solo disfrutas.
 
-Cubrimos toda la **CDMX y Zona Metropolitana** incluyendo Naucalpan, Tlalnepantla, Ecatepec, Coacalco, Atizapán y municipios aledaños. La entrega, instalación, soplador y recolección están incluidos en el precio de renta.
+Cubrimos toda la **CDMX y Zona Metropolitana**, incluidos [Naucalpan](/cobertura/naucalpan/), [Tlalnepantla](/cobertura/tlalnepantla/), [Ecatepec](/cobertura/ecatepec/), Coacalco, Atizapán y municipios aledaños. La entrega, instalación, soplador y recolección están incluidos en el precio de renta; en los municipios más lejanos de Edomex y en algunas alcaldías del sur y oriente de la CDMX se suma un cargo de envío según la distancia, que te decimos al [cotizar](/cotizar/).

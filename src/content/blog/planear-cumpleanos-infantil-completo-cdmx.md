@@ -1,5 +1,5 @@
 ---
-title: "Cómo Planear un Cumpleaños Infantil Completo en CDMX: Inflable."
+title: "Cómo Planear un Cumpleaños Infantil Completo en CDMX"
 description: "Planea el cumpleaños infantil perfecto en CDMX: timeline de 6 semanas, presupuesto real, inflables por edad y mesa de dulces con MEDEDUL."
 excerpt: "Todo lo que necesitas saber para planear un cumpleaños infantil completo en CDMX: desde 6 semanas antes hasta el día del evento, con inflable, mesa de dulces y un presupuesto claro."
 publishDate: "2026-06-12"
@@ -48,7 +48,7 @@ Este es el momento de las decisiones grandes, las que determinan todo lo demás.
 
 Segundo: define el número aproximado de invitados. Esta cifra determina el tamaño del inflable, la cantidad de comida y el presupuesto general. Una fiesta de 15 niños y 20 adultos necesita soluciones muy diferentes a una de 40 niños y 60 adultos.
 
-Tercero — y esto es lo más importante de las 6 semanas previas — **reserva el inflable con BRINCOLINS**. Los fines de semana de mayo y diciembre son los más solicitados del año. Hemos tenido semanas donde llegaban tres o cuatro solicitudes para el mismo sábado y solo podíamos cubrir una. El que reservó primero, tiene el inflable. El que llamó después, busca alternativas con menos tiempo. Escríbenos por WhatsApp al **5531281706** o visita nuestra sección de [inicio](/) para reservar con anticipo del 50%.
+Tercero — y esto es lo más importante de las 6 semanas previas — **reserva el inflable con BRINCOLINS**. Los fines de semana de mayo y diciembre son los más solicitados del año. Hemos tenido semanas donde llegaban tres o cuatro solicitudes para el mismo sábado y solo podíamos cubrir una. El que reservó primero, tiene el inflable. Escríbenos por WhatsApp al **5531281706** o [pide tu cotización](/cotizar/) y aparta con el 50% de anticipo. Los ocho precios, de $800 a $1,900 MXN, están publicados en la [página de precios](/precios/).
 
 En esta misma semana, contacta a [MEDEDUL](https://mededul.com) para comenzar a diseñar la mesa de dulces según la temática. El diseño de una mesa personalizada toma tiempo — no es algo que se improvisa en 48 horas.
 
@@ -110,33 +110,33 @@ Lo que aprendimos después de cientos de fiestas es que las familias que organiz
 
 Uno de los errores más comunes que vemos es elegir el inflable equivocado para la edad de los niños. Un inflable diseñado para niños de 4 años puede resultar aburrido para niños de 8, y uno diseñado para los más grandes puede ser intimidante o peligroso para los más pequeños. Aquí la guía que usamos en BRINCOLINS:
 
-### 2-3 años: los más pequeños
+### 1-4 años: los más pequeños
 
-**Recomendados:** Mini Castillo desde **$800 MXN** o Gusanitos desde **$1,350 MXN**.
+**Recomendado:** [Mini Castillo](/inflables/mini-castillo/), **$800 MXN**.
 
-A esta edad, la seguridad es lo más importante. El **Gusanitos** tiene entradas bajas, colores vibrantes que estimulan visualmente y una superficie suave que amortigua bien las caídas inevitables. El **Mini Castillo** también funciona bien — su escala compacta no intimida a niños que todavía están aprendiendo a brincar con confianza.
+A esta edad la seguridad manda, y el Mini Castillo es el único modelo del catálogo diseñado para este rango: 2×2×2.5 m sobre 3×3 m de área libre, con capacidad para **3 o 4 niños** a la vez. Su escala compacta no intimida a niños que todavía están aprendiendo a brincar con confianza, y con 3.2 m de altura libre cabe hasta bajo techo.
 
-Lo que hemos visto en campo es que los niños de 2 y 3 años no necesitan obstáculos ni retos — necesitan espacio para saltar y explorar a su propio ritmo, con supervisión de adulto obligatoria en todo momento.
+Lo que hemos visto en campo es que los niños de 2 y 3 años no necesitan obstáculos ni retos — necesitan espacio para saltar y explorar a su ritmo, con supervisión adulta obligatoria en todo momento. La guía completa está en [renta de Mini Castillo para bebés](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
 
 ### 4-6 años: la edad de oro del brincolín
 
-**Recomendados:** Castillo de Princesas y Dragones Rojos desde **$1,200 MXN**; Mini Jungla desde **$1,300 MXN**.
+**Recomendados:** [Castillo de Princesas](/inflables/castillo-princesas/) y [Dragones Rojos](/inflables/dragones-rojos/), **$1,200 MXN**; [Mini Jungla](/inflables/mini-jungla/), **$1,300 MXN**; [Gusanitos](/inflables/gusanitos/), **$1,350 MXN**. Los cuatro reciben de 5 a 7 niños a la vez.
 
-Esta es la edad donde los inflables generan más impacto emocional. Los niños de 4 a 6 años tienen la energía y la capacidad física para sacarle el máximo provecho a cualquier inflable temático — pueden brincar durante horas seguidas y aún así pedir más tiempo cuando el inflable se apaga.
+Esta es la edad donde los inflables generan más impacto emocional. Los niños de 4 a 6 años tienen la energía y la capacidad física para sacarle el máximo provecho a cualquier inflable temático.
 
-El **Castillo de Princesas** es el favorito indiscutible de las niñas en este rango de edad: rosa, lila, con detalles que parecen sacados de un cuento. Los **Dragones Rojos** son el equivalente para los niños que quieren aventura y acción. El **Mini Jungla** es la opción perfecta para grupos mixtos, con sus elementos de obstáculos que agregan un pequeño reto sin ser intimidantes.
+El **Castillo de Princesas** es el más pedido para fiestas de niñas: rosa, lila y torres de cuento, sobre 6×6 m de área libre. Los **Dragones Rojos** —el modelo más rentado del catálogo, mismas medidas— son el equivalente para quienes quieren aventura y acción. El **Mini Jungla** (6.5×6 m) funciona muy bien en grupos mixtos, y los **Gusanitos** (7×5 m, circuito de túneles) son la mejor opción cuando las edades están mezcladas.
 
 ### 7-9 años: buscan más emoción
 
-**Recomendados:** Mini Jungla, Barco Pirata o Dragones Rojos — desde **$1,200 MXN** los Dragones, **$1,300 MXN** el Mini Jungla y **$1,800 MXN** el Barco Pirata.
+**Recomendados:** Mini Jungla ($1,300, 5-7 niños), Dragones Rojos ($1,200, 5-7 niños) o [Barco Pirata](/inflables/barco-pirata/) ($1,800, 8-10 niños desde 4 años y 9×7 m de área libre).
 
 A esta edad les empieza a importar que el inflable sea "cool". Los colores pastel dejan de impresionar — quieren obstáculos, elementos de aventura, algo que puedan presumirles a sus amigos. El **Mini Jungla** tiene túneles y escaladas que a esta edad generan competencia amistosa entre los niños. El **Barco Pirata** tiene una estética de aventura que a los niños de esta edad les encanta: se sienten piratas de verdad, no simplemente niños brincando en un inflable.
 
 ### 10-12 años: los más exigentes
 
-**Recomendados:** Extremo o Barco Pirata — desde **$1,800 MXN** el Barco, desde **$1,900 MXN** el Extremo.
+**Recomendados:** [Extremo](/inflables/extremo/) (**$1,900 MXN**, 9×6 m de área libre, 6 a 10 participantes por turno) o Barco Pirata (**$1,800 MXN**).
 
-Los niños de 10 años en adelante quieren el inflable más grande y el más demandante físicamente. El **Extremo** es exactamente eso: el circuito más demandante del catálogo, el que impresiona por su doble carril antes de que nadie entre. Si hay mezcla de edades — 10 años junto con 6 o 7 — el Extremo también funciona para los más chicos siempre que haya supervisión de adulto que gestione el turno entre grupos de edades.
+Los niños de 10 años en adelante quieren el inflable más grande y el más demandante físicamente. El **Extremo** es exactamente eso: el circuito de 7 metros en doble carril, recomendado desde los 6 años. Si hay mezcla de edades, funciona también para los de 6 y 7 siempre que un adulto gestione los turnos. Para adolescentes y XV años, el argumento completo está en la guía de [inflables para adolescentes y jóvenes](/blog/inflables-para-adolescentes-jovenes-cdmx/).
 
 Puedes ver todos los modelos y sus especificaciones en el [catálogo de inflables](/inflables/).
 
@@ -158,7 +158,7 @@ Años de experiencia nos enseñaron a reconocer los patrones que llevan a los mi
 
 **Error 1: Esperar demasiado para reservar.** Los inflables y salones de fiesta se agotan los fines de semana, especialmente en mayo y diciembre. Hemos tenido papás que llamaron un miércoles para el sábado siguiente y no encontramos disponibilidad. Reserva con 4 a 6 semanas de anticipación mínimo, 8 a 10 semanas en temporada alta.
 
-**Error 2: No medir el espacio disponible.** Contratar un inflable grande para un espacio pequeño resulta en que el inflable no cabe, queda muy apretado o no se puede instalar sin riesgo. Mide tu espacio antes de elegir el modelo — largo, ancho y alto si hay techo de por medio.
+**Error 2: No medir el espacio disponible.** El área libre va de 3×3 m (Mini Castillo) a 9×7 m (Barco Pirata), y si la fiesta es bajo techo solo entran el Mini Castillo y los Gusanitos, ambos con 3.2 m de altura libre. Mide largo, ancho y alto antes de elegir el modelo; la tabla completa está en la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/).
 
 **Error 3: No comunicar los accesos a los proveedores.** En condominios y edificios de CDMX — especialmente en zonas como Satélite, Santa Fe, Interlomas o Del Valle — el acceso para proveedores puede tener protocolos específicos. Informa con anticipación: nombre del portero, código de acceso, dónde estacionarse.
 
@@ -188,7 +188,7 @@ Al finalizar: verifica que BRINCOLINS recoja el inflable correctamente y que MED
 
 ## Reserva tu inflable hoy con BRINCOLINS
 
-Con más de 20 años en el mercado, somos el aliado de confianza para tu fiesta infantil en CDMX y Estado de México. Nuestros inflables están disponibles desde **$800 MXN** y cubrimos colonias en Benito Juárez, Coyoacán, Xochimilco, Tlalpan, Iztapalapa y municipios del Edomex como Naucalpan, Tlalnepantla, Ecatepec y más.
+Con más de 20 años en el mercado, somos el aliado de confianza para tu fiesta infantil en CDMX y Estado de México. Nuestros inflables van de **$800 a $1,900 MXN** y cubrimos [Benito Juárez](/cobertura/benito-juarez/), [Coyoacán](/cobertura/coyoacan/), [Xochimilco](/cobertura/xochimilco/), [Tlalpan](/cobertura/tlalpan/), [Iztapalapa](/cobertura/iztapalapa/) y municipios del Edomex como [Naucalpan](/cobertura/naucalpan/), [Tlalnepantla](/cobertura/tlalnepantla/) y [Ecatepec](/cobertura/ecatepec/). Son precios netos: se agrega IVA solo si necesitas factura, y en los municipios más lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma un cargo de envío según la distancia.
 
 Para hacer tu reservación:
 

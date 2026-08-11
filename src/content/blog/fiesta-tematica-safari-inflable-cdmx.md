@@ -23,9 +23,9 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Qué inflable es mejor para una fiesta temática safari?"
-    answer: "El inflable Mini Jungla es la opción ideal para fiestas safari. Su diseño con animales de la selva y colores tropicales complementa perfectamente la temática. También puedes combinarlo con actividades de explorador para una experiencia completa."
+    answer: "El inflable Mini Jungla: 4.5×4×3.5 m sobre 6.5×6 m de área libre, para 5 a 7 niños de 3 a 10 años, a $1,300 MXN. Su diseño con animales de la selva y colores tropicales complementa la temática y funciona como decoración. Combínalo con actividades de explorador para una experiencia completa."
   - question: "¿Cuántos niños pueden usar el inflable durante una fiesta safari?"
-    answer: "El Mini Jungla puede recibir entre 4 y 6 niños simultáneamente, dependiendo de sus edades. Para fiestas con más de 15 niños, recomendamos organizar turnos de 15-20 minutos para que todos disfruten sin aglomeraciones."
+    answer: "El Mini Jungla recibe de 5 a 7 niños de 3 a 10 años simultáneamente. Para fiestas con más de 15 niños, recomendamos organizar turnos de 15 a 20 minutos para que todos disfruten sin aglomeraciones, o sumar un segundo inflable."
   - question: "¿Puedo rentar el inflable y también contratar decoración safari?"
     answer: "En BRINCOLINS nos especializamos en la renta de inflables. Sin embargo, podemos recomendarte proveedores de decoración temática que trabajan con nosotros frecuentemente y ofrecen paquetes complementarios para fiestas safari en CDMX."
   - question: "¿La temática safari funciona para niños y niñas por igual?"
@@ -42,7 +42,7 @@ Además, la paleta de colores del safari — verdes selváticos, dorados, marron
 
 Finalmente, la temática safari permite crear una **narrativa de aventura** que mantiene a los niños entretenidos durante toda la fiesta. No es solo una decoración bonita; es un mundo entero donde los pequeños se convierten en exploradores, rastreadores de animales y aventureros de la selva.
 
-> **Tendencia real:** En nuestros más de 20 años rentando inflables en CDMX, las fiestas safari han crecido un 40% en los últimos tres años. Es la temática que más rápido se ha popularizado, especialmente en zonas como Coyoacán, Del Valle, Polanco y Satélite.
+> **Tendencia real:** en nuestros más de 20 años rentando inflables en CDMX, la safari es la temática que más ha crecido en los últimos años. Nos la piden sobre todo en zonas como [Coyoacán](/cobertura/coyoacan/), Del Valle, [Polanco](/cobertura/polanco/) y Satélite. En la guía de [inflables temáticos infantiles](/blog/inflables-tematicos-infantiles-cdmx/) la comparamos con las otras tres temáticas del catálogo.
 
 ## Cómo elegir el inflable perfecto para tu fiesta safari
 
@@ -50,13 +50,14 @@ El **inflable es la pieza central** de cualquier fiesta con brincolín, y en una
 
 Nuestro **inflable [Mini Jungla](/inflables/mini-jungla/)** es la opción estrella para fiestas safari. Su diseño incorpora animales de la selva, colores tropicales vibrantes y detalles de vegetación que complementan la decoración selvática de tu evento. Los niños sienten que están brincando en medio de la jungla.
 
-- **Mini Jungla:** El favorito para fiestas safari. Diseño con animales, colores tropicales y tamaño compacto ideal para jardines y salones en CDMX.
-- **[Gusanitos](/inflables/gusanitos/):** Excelente opción complementaria si tienes niños muy pequeños (1-4 años). Su diseño colorido combina con la paleta safari y es ultra seguro para los más chiquitos.
+- **Mini Jungla ($1,300 MXN):** el modelo más solicitado para fiestas safari. Animales, colores tropicales y 5 a 7 niños de 3 a 10 años a la vez. Pide 6.5×6 m de área libre, así que va en jardín o patio.
+- **[Gusanitos](/inflables/gusanitos/) ($1,350 MXN):** circuito de túneles de 5×3×2.5 m sobre 7×5 m, para 5 a 7 niños de 4 a 10 años. Su paleta combina con el safari y, al medir solo 2.5 m de alto, es uno de los dos modelos que caben bajo techo.
+- **[Mini Castillo](/inflables/mini-castillo/) ($800 MXN):** si en la lista hay bebés de 1 a 4 años, este es el único modelo pensado para ellos. Recibe de 3 a 4 y ocupa apenas 3×3 m.
 - **[Barco Pirata](/inflables/barco-pirata/):** Si quieres darle un giro de "aventura selvática + exploración", el barco pirata combina sorprendentemente bien con temáticas de expedición y descubrimiento.
 
 ### Consideraciones de espacio y logística
 
-Antes de elegir el inflable, evalúa el espacio disponible para tu fiesta. El Mini Jungla mide 4.5×4×3.5 metros y requiere un área mínima de 6×5 metros incluyendo el perímetro de seguridad. Por sus 3.5 metros de altura va en exterior — jardín, patio o explanada — donde además tendrás acceso a electricidad para el motor de inflado continuo. Si tu fiesta es en salón, el Mini Castillo (2×2×2.5 m) es el único modelo que entra cómodamente.
+Antes de elegir el inflable, evalúa el espacio disponible. El Mini Jungla mide 4.5×4×3.5 metros y requiere un área mínima de **6.5×6 metros** incluyendo el perímetro de seguridad, más 4.2 m de altura libre. Por esa altura va siempre en exterior — jardín, patio o explanada — con acceso a una toma de 110V para el motor. Si tu fiesta es en salón, los dos modelos que entran son el Mini Castillo (3×3 m) y los Gusanitos (7×5 m), ambos con 3.2 m de altura libre; los comparamos en la guía de [inflables pequeños para interiores](/blog/inflable-pequeno-fiestas-interiores-cdmx/).
 
 ## Ideas de decoración para una fiesta safari completa
 
@@ -107,10 +108,10 @@ Para los adultos, ofrece **agua de jamaica con toques de jengibre** (le puedes p
 
 Organizar una fiesta temática safari puede parecer abrumador, pero con esta guía paso a paso tendrás todo bajo control. Aquí el cronograma que recomendamos a nuestros clientes:
 
-- **3-4 semanas antes:** Define el espacio, la cantidad de invitados y el presupuesto. Reserva el inflable Mini Jungla con BRINCOLINS por WhatsApp para asegurar disponibilidad.
+- **3-4 semanas antes:** Define el espacio, la cantidad de invitados y el presupuesto. Reserva el [Mini Jungla](/inflables/mini-jungla/) con BRINCOLINS por WhatsApp o desde el [formulario de cotización](/cotizar/) con el 50% de anticipo. Cuesta **$1,300 MXN** netos: se agrega IVA solo si necesitas factura y hay cargo de envío según distancia en zonas lejanas. Los ocho precios están en la [página de precios](/precios/).
 - **2-3 semanas antes:** Compra la decoración principal (globos, hojas artificiales, animales de peluche, manteles). Envía las invitaciones con diseño safari.
 - **1 semana antes:** Confirma asistentes, prepara las actividades (imprime mapas del tesoro, prepara máscaras, compra pinturas para caras). Confirma con BRINCOLINS la hora de instalación del inflable.
 - **1-2 días antes:** Compra los ingredientes para el menú, prepara lo que se pueda adelantar (galletas, brochetas de fruta) y arma los centros de mesa.
 - **El día de la fiesta:** El equipo de BRINCOLINS llega 1-2 horas antes para instalar el inflable. Tú te enfocas en la decoración final, la mesa de comida y recibir a los invitados.
 
-Lo más importante es **no querer hacer todo tú solo**. Delega tareas a familiares, contrata lo que puedas permitirte (el inflable es la mejor inversión) y recuerda que los niños se divierten con menos de lo que crees. El inflable + una o dos actividades + comida rica = fiesta safari exitosa garantizada.
+Lo más importante es **no querer hacer todo tú solo**. Delega tareas a familiares, contrata lo que puedas permitirte (el inflable es la mejor inversión) y recuerda que los niños se divierten con menos de lo que crees. El inflable + una o dos actividades + comida rica = fiesta safari exitosa garantizada. La ficha completa del modelo está en la [guía de renta del inflable de jungla](/blog/renta-inflable-jungla-cdmx/).

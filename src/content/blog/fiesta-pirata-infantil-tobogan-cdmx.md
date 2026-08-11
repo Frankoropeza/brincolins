@@ -22,9 +22,9 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿A partir de qué edad pueden los niños usar el tobogán inflable pirata?"
-    answer: "El tobogán inflable del barco pirata es adecuado para niños de 5 años en adelante. Los niños de 5 y 6 años deben usarlo con supervisión cercana, mientras que los de 7 a 12 años pueden disfrutarlo con total independencia. La pendiente es controlada y la zona de aterrizaje tiene colchón extra grueso."
+    answer: "El Barco Pirata está recomendado desde los 4 años. Los de 4, 5 y 6 años deben usar el tobogán con supervisión cercana, mientras que de 7 en adelante lo disfrutan con total independencia. La pendiente es controlada y la zona de aterrizaje tiene colchón extra grueso."
   - question: "¿Qué incluye la renta del inflable pirata con tobogán?"
-    answer: "La renta incluye transporte del inflable hasta tu domicilio, instalación profesional, motor de inflado continuo, supervisión durante el evento y retiro al finalizar. No hay costos ocultos ni cargos adicionales por el tobogán."
+    answer: "Por $1,800 MXN la renta incluye transporte, instalación profesional, motor de inflado continuo, sanitización previa y retiro al finalizar. No hay cargo adicional por el tobogán. Es precio neto: se agrega IVA solo si necesitas factura, y en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma el envío según la distancia."
   - question: "¿Puedo decorar el inflable pirata con elementos adicionales?"
     answer: "El inflable ya tiene un diseño pirata completo integrado, pero puedes complementar con banderas piratas, globos negros y rojos, y elementos decorativos alrededor del inflable. Solo te pedimos no pegar nada directamente sobre la lona para no dañar el material."
   - question: "¿Cuántos niños pueden usar el inflable pirata al mismo tiempo?"
@@ -39,13 +39,13 @@ A diferencia de temáticas basadas en personajes de moda que pierden vigencia r�
 
 Otra gran ventaja es la **versatilidad decorativa**. Los colores clásicos de una fiesta pirata — negro, rojo, dorado y blanco — son fáciles de encontrar y combinan con casi cualquier espacio. No necesitas comprar decoración de licencia cara; con elementos creativos y económicos puedes transformar tu jardín o salón en un puerto pirata espectacular.
 
-> **Dato pirata:** Según nuestros registros, las fiestas con temática pirata tienen un 40% más de participación en juegos y actividades que las fiestas sin temática definida. Los niños se involucran más cuando hay una historia que los conecta.
+> **Dato pirata:** en las fiestas que atendemos, las que tienen una temática clara son siempre las que más participación generan en los juegos. Los niños se involucran más cuando hay una historia que los conecta — y el barco es de los inflables que mejor la cuentan. En la guía de [inflables temáticos infantiles](/blog/inflables-tematicos-infantiles-cdmx/) comparamos las cuatro temáticas del catálogo.
 
 ## El tobogán inflable como atracción principal de la fiesta
 
 Un **tobogán inflable con temática pirata** no es solo un juego más: es la pieza central que define toda la experiencia de la fiesta. Cuando los niños llegan y ven un [barco pirata](/inflables/barco-pirata/) gigante con tobogán en el jardín, inmediatamente saben que esta fiesta va a ser diferente a todas las que han ido antes.
 
-El **barco pirata inflable de BRINCOLINS** combina tres actividades en una sola estructura: zona de brinco en la cubierta del barco, rampa de escalada para subir al tobogán y el tobogán mismo con aterrizaje acolchado. Esta variedad de actividades mantiene a los niños entretenidos durante horas sin que se aburran de hacer siempre lo mismo.
+El **[barco pirata inflable](/inflables/barco-pirata/) de BRINCOLINS** combina tres actividades en una sola estructura: zona de brinco en la cubierta, rampa de escalada y tobogán con aterrizaje acolchado. Mide 7×5×4.5 m —es el modelo más grande del catálogo—, pide 9×7 m de área libre con 5.2 m de altura, recibe de 8 a 10 niños desde los 4 años y cuesta **$1,800 MXN**. La ficha completa está en la [guía del Barco Pirata](/blog/renta-barco-pirata-inflable-grande-cdmx/).
 
 ### Ventajas del tobogán integrado
 
@@ -94,10 +94,10 @@ La comida es parte fundamental de la experiencia. No necesitas platos gourmet, s
 
 Para que nada se te escape, aquí tienes un resumen de todo lo que necesitas para organizar la **fiesta pirata perfecta con tobogán inflable en CDMX**:
 
-- **3 semanas antes:** Reserva tu inflable pirata con BRINCOLINS por WhatsApp. Los fines de semana se agotan rápido.
+- **3 semanas antes:** Mide el jardín —necesitas 9×7 m libres— y reserva tu inflable pirata con BRINCOLINS por WhatsApp o desde el [formulario de cotización](/cotizar/), con el 50% de anticipo. Los fines de semana se agotan rápido.
 - **2 semanas antes:** Envía las invitaciones temáticas (pueden ser digitales con diseño pirata). Pide a los invitados que vengan disfrazados.
 - **1 semana antes:** Compra la decoración, los ingredientes para la comida temática y los premios para los juegos.
 - **2 días antes:** Prepara el mapa del tesoro, las pistas de la búsqueda y las bolsas de dulces para los invitados.
 - **El día de la fiesta:** Nuestro equipo de BRINCOLINS llega puntual a instalar el inflable. Tú solo preocúpate por la decoración y la comida.
 
-Con el **barco pirata inflable como pieza central**, la decoración temática, juegos creativos y comida divertida, tu fiesta será la más comentada del grupo escolar. Los niños hablarán de ella durante semanas y los papás te felicitarán por la organización. Todo empieza con un mensaje por WhatsApp a BRINCOLINS — cotizamos en menos de 10 minutos.
+Con el **barco pirata inflable como pieza central**, la decoración temática, juegos creativos y comida divertida, tu fiesta será la más comentada del grupo escolar. Los niños hablarán de ella durante semanas y los papás te felicitarán por la organización. Todo empieza con un mensaje por WhatsApp a BRINCOLINS — cotizamos en menos de 10 minutos, de lunes a domingo de 8:00 a 20:00. Si aún dudas entre un brincolín simple y uno con tobogán, la [comparativa entre ambos](/blog/brincolin-vs-tobogan-inflable-cdmx/) lo resuelve con precios, y los ocho modelos están en la [página de precios](/precios/).

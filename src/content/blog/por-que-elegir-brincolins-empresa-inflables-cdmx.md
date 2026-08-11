@@ -20,9 +20,9 @@ faqs:
   - question: "¿Qué pasa si el inflable tiene un problema el día del evento?"
     answer: "Tienes contacto directo con el responsable de tu entrega — no un call center, no un formulario. Si algo sale mal, respondemos. Hemos llegado a cambiar un motor en el patio de una casa en Ecatepec a las 11 de la mañana de un sábado. Eso es lo que hacemos."
   - question: "¿Por qué BRINCOLINS es más caro que algunas opciones que encuentro en Facebook?"
-    answer: "Porque incluimos cosas que en esas opciones no están en el precio: el personal capacitado, el mantenimiento del equipo y el soporte durante el evento. No somos la opción más barata — somos la opción más completa."
+    answer: "Porque incluimos cosas que en esas opciones no están en el precio: personal capacitado, mantenimiento del equipo, sanitización entre eventos y soporte durante la fiesta. Nuestros precios van de $800 a $1,900 MXN según el modelo, son netos y se les agrega IVA solo si necesitas factura. No somos la opción más barata — somos la opción más completa."
   - question: "¿BRINCOLINS atiende fuera de CDMX?"
-    answer: "Sí, cubrimos buena parte del Estado de México también: Naucalpan, Tlalnepantla, Ecatepec, Atizapán, Nicolás Romero, Metepec y más. Consulta nuestra página de cobertura para confirmar si llegamos a tu zona."
+    answer: "Sí, cubrimos buena parte del Estado de México también: Naucalpan, Tlalnepantla, Ecatepec, Atizapán, Nicolás Romero, Metepec y más. En los municipios más lejanos aplica un cargo de envío de $150 a $600 según la zona, y en algunas alcaldías del sur y oriente de la CDMX, de $100 a $200. Consulta nuestra página de cobertura para confirmar si llegamos a tu zona y si lleva cargo."
 ---
 
 Hace unos años nos llamó una mamá un viernes por la tarde. Tenía la fiesta de su hijo al día siguiente — un sábado — y el proveedor que había contratado le acababa de avisar que no podía ir. Sin explicación. Sin alternativa. La fiesta estaba armada, los niños invitados, el pastel encargado.
@@ -39,7 +39,7 @@ Eso no es un anuncio — es solo un ejemplo de lo que pasa cuando llevas más de
 
 No somos la empresa más barata de CDMX. Si buscas el precio más bajo del mercado, probablemente lo vas a encontrar en alguien que tiene un inflable en su casa y lo renta los fines de semana. No está mal — pero es una apuesta diferente a la que nosotros ofrecemos.
 
-Lo que ofrecemos nosotros es otra cosa: la tranquilidad de que el equipo va a llegar, va a estar limpio, va a funcionar y va a estar asegurado. Y si algo sale mal — que en 20 años ha pasado alguna vez — vas a tener a alguien del otro lado del teléfono que resuelve.
+Lo que ofrecemos nosotros es otra cosa: la tranquilidad de que el equipo va a llegar, va a estar limpio, va a estar bien anclado y va a funcionar durante toda la fiesta. No vendemos seguro —no lo tenemos y no vamos a fingir que sí—; vendemos entrega puntual, instalación revisada, motor profesional y recolección. Y si algo sale mal — que en 20 años ha pasado alguna vez — vas a tener a alguien del otro lado del teléfono que resuelve. El detalle completo está en [lo que te prometemos el día de tu fiesta](/blog/garantia-servicio-brincolins-renta-inflables-cdmx/).
 
 ¿Vale esa tranquilidad un poco más de dinero? Eso lo decides tú. Nosotros solo somos honestos sobre lo que ofrecemos y lo que no.
 
@@ -52,9 +52,9 @@ Hay conocimiento que no se puede comprar ni estudiar. Solo se acumula. Después 
 - En qué colonias de Iztapalapa las calles son tan angostas que el camión no cabe y hay que cargar el inflable a mano.
 - En qué temporada del año el tráfico en Periférico puede hacer que una entrega de una hora tarde tres.
 - Qué tipo de anclaje funciona en jardines con tierra arcillosa del Estado de México vs. el piso de concreto de un departamento en Polanco.
-- Cuándo una reunión de cuántos niños supera la capacidad de qué modelo y qué problemas genera.
+- Cuándo una reunión de cuántos niños supera la capacidad de qué modelo: 3 o 4 en el Mini Castillo, 5 a 7 en los medianos, 8 a 10 en el Castillo Blanco y el Barco Pirata, 6 a 10 por turno en el Extremo.
 
-Ese conocimiento es nuestro activo más valioso. Y lo ponemos a trabajar para que tu fiesta salga bien.
+Ese conocimiento es nuestro activo más valioso, y lo ponemos a trabajar para que tu fiesta salga bien. Si quieres hacer esa cuenta tú mismo, la [comparativa de inflable chico contra grande según invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/) la resuelve con precios.
 
 ---
 
@@ -72,7 +72,7 @@ Esto cambia muchas cosas:
 
 **Cuando el equipo llega a tu casa**, es el mismo que reservaste — no "algo similar" que consiguieron de emergencia.
 
-Nuestra [flota tiene 8 modelos](/inflables/) para cubrir desde la fiesta de cumpleaños de un bebé hasta un evento corporativo con 200 personas. [El Mini Castillo](/inflables/mini-castillo/) para los más chiquitos, [el Barco Pirata](/inflables/barco-pirata/) para los aventureros, [el Circuito Extremo](/inflables/extremo/) para los que quieren adrenalina de verdad, [el Castillo Blanco](/inflables/castillo-blanco/) para bodas y XV años donde la elegancia importa.
+Nuestra [flota tiene 8 modelos](/inflables/) —ni uno más— para cubrir desde la fiesta de cumpleaños de un bebé hasta un evento corporativo con 200 personas, con precios de $800 a $1,900 MXN publicados en la [página de precios](/precios/). El recorrido modelo por modelo está en [los 8 inflables de BRINCOLINS](/blog/flota-inflables-brincolins-catalogo-modelos-cdmx/). [El Mini Castillo](/inflables/mini-castillo/) para los más chiquitos, [el Barco Pirata](/inflables/barco-pirata/) para los aventureros, [el Circuito Extremo](/inflables/extremo/) para los que quieren adrenalina de verdad, [el Castillo Blanco](/inflables/castillo-blanco/) para bodas y XV años donde la elegancia importa.
 
 ---
 
@@ -93,7 +93,7 @@ En un mercado donde las promesas son baratas y la confianza es escasa, ser gente
 Seamos directos en algo que pocas empresas dicen:
 
 **BRINCOLINS es para ti si:**
-- Quieres la tranquilidad de que el equipo llegue, funcione y esté asegurado.
+- Quieres la tranquilidad de que el equipo llegue puntual, limpio, bien anclado y funcionando toda la fiesta.
 - Estás organizando un evento donde la confiabilidad importa más que el precio mínimo.
 - Quieres trato directo con la gente que va a entregar — no un intermediario.
 
@@ -107,4 +107,4 @@ No buscamos ser la opción de todos — buscamos ser la opción correcta para qu
 
 Si después de leer esto sientes que podemos ser la empresa que necesitas para tu fiesta, el siguiente paso es sencillo: [cuéntanos los detalles de tu evento y te damos cotización en menos de una hora](/cotizar/).
 
-Si tienes preguntas antes de cotizar, también estamos disponibles por WhatsApp. Respondemos — siempre.
+Si tienes preguntas antes de cotizar, estamos disponibles por WhatsApp de lunes a domingo, de 8:00 a 20:00. Y las dudas que más se repiten ya están contestadas en las [preguntas frecuentes](/preguntas-frecuentes/).

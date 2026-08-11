@@ -41,32 +41,34 @@ Nuestro catálogo son **8 modelos**, y estos son los que mejor funcionan en un e
 
 ### Extremo — el circuito de obstáculos
 
-Es el modelo estrella para eventos corporativos. Un **circuito de obstáculos de 7 metros en doble carril** que permite competencias por equipos: dos participantes arrancan al mismo tiempo, escalan, gatean y se deslizan contra el reloj. Es la dinámica que mejor rompe barreras jerárquicas, porque dentro del circuito todos compiten en las mismas condiciones. Mide 7×4×3.8 m, pide 8×5 m de espacio y está recomendado desde los 6 años.
+Es el modelo que más se renta para eventos corporativos. Un **circuito de obstáculos de 7 metros en doble carril** que permite competencias por equipos: dos participantes arrancan al mismo tiempo, escalan, gatean y se deslizan contra el reloj. Mide 7×4×3.8 m, pide **9×6 m** de área libre con 4.5 m de altura, recibe de 6 a 10 participantes por turno y está recomendado desde los 6 años. Las dinámicas que mejor funcionan están en la guía del [inflable Extremo para eventos corporativos](/blog/inflable-extremo-eventos-corporativos-cdmx/).
 
 ### Barco Pirata — el más grande del catálogo
 
-Con 7×5×4.5 m es el modelo más imponente que tenemos y el que más llama la atención de lejos: mástil, banderas y tobogán de altura. Recibe 8-10 niños desde los 4 años y necesita 8×6 m. En un family day es el que genera la fila de fotos.
+Con 7×5×4.5 m es el modelo más imponente que tenemos y el que más llama la atención de lejos: mástil, banderas y tobogán de altura. Recibe de 8 a 10 niños desde los 4 años y necesita **9×7 m** de área libre con 5.2 m de altura. En un family day es el que genera la fila de fotos.
 
 ### Castillo Blanco — para el evento formal
 
-Si tu evento tiene una estética cuidada (aniversario de la empresa, inauguración, activación de marca), el Castillo Blanco de 6×5×4 m tiene la ventaja de ser neutro: no pelea con los colores de tu marca ni con la decoración. Requiere 7×6 m.
+Si tu evento tiene una estética cuidada (aniversario de la empresa, inauguración, activación de marca), el Castillo Blanco de 6×5×4 m tiene la ventaja de ser neutro: no pelea con los colores de tu marca ni con la decoración. Requiere **8×7 m** de área libre y 4.7 m de altura, y recibe de 8 a 10 personas desde los 3 años.
 
 ### Los modelos para los más pequeños
 
-En un family day siempre hay hijos de colaboradores de 2 a 6 años, y meterlos al Extremo no es opción. Para ellos van el **Mini Castillo** (2×2×2.5 m, entra hasta en interiores con 2.5 m de altura libre), los **Gusanitos** (5×3×2.5 m, alargado, estilo túneles) o los temáticos **Dragones Rojos**, **Castillo de Princesas** y **Mini Jungla**.
+En un family day siempre hay hijos de colaboradores pequeños, y meterlos al Extremo no es opción. Para los de 1 a 4 años va el **[Mini Castillo](/inflables/mini-castillo/)** (2×2×2.5 m, 3 a 4 niños, uno de los dos modelos que entran bajo techo con 3.2 m de altura libre). De 3 y 4 años en adelante ya funcionan los **Gusanitos** (5×3×2.5 m, circuito de túneles) y los temáticos **[Dragones Rojos](/inflables/dragones-rojos/)**, **Castillo de Princesas** y **Mini Jungla**, todos de 5 a 7 niños por turno.
 
 | Modelo | Espacio requerido | Medidas | Precio |
 | --- | --- | --- | --- |
-| Mini Castillo | 3 × 3 m | 2×2×2.5 m | $800 MXN |
-| Dragones Rojos | 5 × 5 m | 4×4×3.8 m | $1,200 MXN |
-| Castillo de Princesas | 5 × 5 m | 4×4×3.5 m | $1,200 MXN |
-| Mini Jungla | 6 × 5 m | 4.5×4×3.5 m | $1,300 MXN |
-| Gusanitos | 6 × 4 m | 5×3×2.5 m | $1,350 MXN |
-| Castillo Blanco | 7 × 6 m | 6×5×4 m | $1,700 MXN |
-| Barco Pirata | 8 × 6 m | 7×5×4.5 m | $1,800 MXN |
-| Extremo | 8 × 5 m | 7×4×3.8 m | $1,900 MXN |
+| Modelo | Espacio libre | Medidas | Capacidad | Precio |
+| --- | --- | --- | --- | --- |
+| Mini Castillo | 3 × 3 m | 2×2×2.5 m | 3-4 niños (1-4 años) | $800 MXN |
+| Dragones Rojos | 6 × 6 m | 4×4×3.8 m | 5-7 niños (4-10 años) | $1,200 MXN |
+| Castillo de Princesas | 6 × 6 m | 4×4×3.5 m | 5-7 niños (4-10 años) | $1,200 MXN |
+| Mini Jungla | 6.5 × 6 m | 4.5×4×3.5 m | 5-7 niños (3-10 años) | $1,300 MXN |
+| Gusanitos | 7 × 5 m | 5×3×2.5 m | 5-7 niños (4-10 años) | $1,350 MXN |
+| Castillo Blanco | 8 × 7 m | 6×5×4 m | 8-10 personas (3+ años) | $1,700 MXN |
+| Barco Pirata | 9 × 7 m | 7×5×4.5 m | 8-10 niños (4+ años) | $1,800 MXN |
+| Extremo | 9 × 6 m | 7×4×3.8 m | 6-10 por turno (6+ años) | $1,900 MXN |
 
-Todos los precios son por evento de 4 a 6 horas e incluyen entrega, instalación, sanitización y recolección.
+Todos los precios son netos, por evento de 4 a 6 horas, e incluyen entrega, instalación, sanitización y recolección. Se agrega el 16% de IVA cuando pides factura CFDI, y en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma el envío según la distancia. La tabla también está publicada en la [página de precios](/precios/).
 
 ## Beneficios comprobados del team building con inflables
 
@@ -88,7 +90,7 @@ Antes de elegir el inflable, determina qué quieres lograr. Si el objetivo es in
 
 ### 2. Evalúa el espacio disponible
 
-Cada modelo tiene su requerimiento y conviene medir antes de prometer. El Extremo pide 8×5 m y el Barco Pirata 8×6 m — con 3.8 y 4.5 metros de altura respectivamente, ambos van en exterior. Los estacionamientos corporativos, explanadas y jardines de hoteles suelen ser excelentes opciones. Si tu evento es en un salón cerrado, el único modelo que entra cómodamente es el Mini Castillo, que necesita 3×3 m y 2.5 m de altura libre.
+Cada modelo tiene su requerimiento y conviene medir antes de prometer. El Extremo pide 9×6 m y el Barco Pirata 9×7 m — con 4.5 y 5.2 metros de altura libre respectivamente, ambos van en exterior. Los estacionamientos corporativos, explanadas y jardines de hoteles suelen ser excelentes opciones. Si tu evento es bajo techo, los dos únicos modelos que entran son el Mini Castillo (3×3 m) y los Gusanitos (7×5 m), ambos con 3.2 m de altura libre.
 
 ### 3. Considera el número de participantes
 
@@ -106,7 +108,7 @@ Aquí no hay tarifa corporativa inflada: **el precio es por inflable y es el mis
 - **2 inflables (family day típico):** el Extremo para los grandes + un modelo chico para los hijos pequeños de los colaboradores
 - **3 o más inflables (evento masivo):** conviene combinar por edades y armar estaciones
 
-Si rentas 2 o más inflables aplicamos **descuento por paquete** — el precio unitario baja. Mándanos por WhatsApp el número de asistentes, el rango de edades y las medidas del espacio, y te devolvemos la cotización con el total exacto.
+Si rentas 2 o más inflables aplicamos **descuento por paquete** — el precio unitario baja. Mándanos por WhatsApp el número de asistentes, el rango de edades y las medidas del espacio, o [pide la cotización en línea](/cotizar/), y te devolvemos el total exacto. Si el evento es escolar y no corporativo, el [checklist para organizar una kermesse](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/) cubre el resto de la logística.
 
 Muchas empresas solicitan factura para deducir el gasto como evento de integración. En BRINCOLINS generamos factura fiscal sin costo adicional para todos los eventos corporativos.
 
@@ -114,7 +116,7 @@ Muchas empresas solicitan factura para deducir el gasto como evento de integraci
 
 Nuestros inflables están diseñados para niños — el Extremo desde los 6 años y el Barco Pirata desde los 4 — así que en un evento de empresa la regla es respetar la capacidad y no convertir el inflable en algo que no es. Un proveedor serio debe garantizar:
 
-- Respetar la capacidad indicada de cada modelo: el Barco Pirata recibe 8-10 niños y el Extremo 6-10
+- Respetar la capacidad indicada de cada modelo: el Mini Castillo 3-4 niños, los medianos 5-7, el Castillo Blanco y el Barco Pirata 8-10, y el Extremo 6-10 por turno. Las reglas completas están en la [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/)
 - Anclaje profesional con estacas o sacos de arena según la superficie
 - Supervisión de un adulto responsable durante todo el uso
 - Turnos por edades: no mezclar a los más pequeños con los grandes en el mismo inflable

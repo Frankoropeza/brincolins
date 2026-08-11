@@ -1,5 +1,5 @@
 ---
-title: "Palomitas e Inflable para Fiestas Infantiles en CDMX: Cómo."
+title: "Palomitas e Inflable para Fiestas Infantiles en CDMX"
 description: "Combina un inflable de BRINCOLINS con palomitas de Palomita.mx para una fiesta infantil perfecta en CDMX. Checklist y tiempos de instalación."
 excerpt: "La combinación ganadora para fiestas infantiles en CDMX: inflable + palomitas. Aprende a coordinar ambos proveedores, optimizar tiempos y lograr una fiesta que los niños recordarán."
 publishDate: "2026-06-02"
@@ -35,26 +35,26 @@ Palomita.mx es nuestro aliado recomendado para snacks en eventos en CDMX. Cuenta
 
 ## El catálogo de inflables de BRINCOLINS para fiestas infantiles
 
-Antes de coordinar proveedores, hay que elegir bien el inflable. Esta decisión importa más de lo que parece: el modelo equivocado para la edad de los niños o para el tamaño del espacio puede arruinar la experiencia antes de que empiece. En nuestra experiencia, el 80% de las dudas que nos llegan por WhatsApp se resuelven con tres preguntas: ¿cuántos años tiene el festejado?, ¿cuántos metros tienes disponibles? y ¿cuál es el tema de la fiesta?
+Antes de coordinar proveedores, hay que elegir bien el inflable. Esta decisión importa más de lo que parece: el modelo equivocado para la edad de los niños o para el tamaño del espacio puede arruinar la experiencia antes de que empiece. En nuestra experiencia, casi todas las dudas que nos llegan por WhatsApp se resuelven con tres preguntas: ¿cuántos años tiene el festejado?, ¿cuántos metros tienes disponibles? y ¿cuál es el tema de la fiesta? El criterio completo está en la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/).
 
 En nuestro [catálogo de inflables](/inflables/) encontrarás opciones para cada tipo de fiesta. Aquí un resumen honesto de cada uno:
 
-- **Mini Castillo** — Versión compacta del clásico. Perfecto para jardines pequeños o azoteas. Los colores vivos funcionan con casi cualquier temática. Desde **$800 MXN**.
-- **Castillo de Princesas** — Rosa, lila y detalles que parecen sacados de un cuento. Ideal para niñas de 3 a 8 años. Desde **$1,200 MXN**.
-- **Dragones Rojos** — Temática de aventura y fantasía, colores rojos y negros. Perfecto para niños que quieren "algo de acción". Desde **$1,200 MXN**.
-- **Mini Jungla** — Compacto pero con obstáculos internos: túneles, escaladas cortas, rampas. Ideal para espacios medianos y niños con energía desbordante. Desde **$1,300 MXN**.
-- **Gusanitos** — El favorito de las familias con niños de 2 a 4 años. Entrada baja, colores vibrantes, diseño muy seguro para los más pequeños. Desde **$1,350 MXN**.
-- **Castillo Blanco** — Elegante, neutro, versátil. Funciona para cualquier temática y también para eventos más formales o XV años. Desde **$1,700 MXN**.
-- **Barco Pirata** — Azul intenso, detalles de madera y velas. Los niños llegan siendo niños y salen siendo piratas. Desde **$1,800 MXN**.
-- **Extremo** — El circuito de obstáculos del catálogo. Para fiestas con muchos niños, eventos grandes o cuando simplemente quieres que la competencia sea parte del espectáculo. Desde **$1,900 MXN**.
+- **[Mini Castillo](/inflables/mini-castillo/)** — 2×2×2.5 m sobre 3×3 m libres, para 3 o 4 niños de 1 a 4 años. El único modelo pensado para bebés y uno de los dos que caben bajo techo. **$800 MXN**.
+- **[Castillo de Princesas](/inflables/castillo-princesas/)** — 4×4×3.5 m sobre 6×6 m, para 5 a 7 niñas de 4 a 10 años. Rosa, lila y torres de cuento. **$1,200 MXN**.
+- **[Dragones Rojos](/inflables/dragones-rojos/)** — 4×4×3.8 m sobre 6×6 m, para 5 a 7 niños de 4 a 10 años. Es el modelo más rentado del catálogo. **$1,200 MXN**.
+- **[Mini Jungla](/inflables/mini-jungla/)** — 4.5×4×3.5 m sobre 6.5×6 m, para 5 a 7 niños de 3 a 10 años. Temática safari. **$1,300 MXN**.
+- **[Gusanitos](/inflables/gusanitos/)** — 5×3×2.5 m sobre 7×5 m, circuito de túneles para 5 a 7 niños de 4 a 10 años. Funciona muy bien con edades mezcladas y también entra bajo techo. **$1,350 MXN**.
+- **[Castillo Blanco](/inflables/castillo-blanco/)** — 6×5×4 m sobre 8×7 m, para 8 a 10 personas desde los 3 años. El indicado para eventos formales y XV años. **$1,700 MXN**.
+- **[Barco Pirata](/inflables/barco-pirata/)** — 7×5×4.5 m sobre 9×7 m, para 8 a 10 niños desde los 4 años. El más grande del catálogo. **$1,800 MXN**.
+- **[Extremo](/inflables/extremo/)** — 7×4×3.8 m sobre 9×6 m, circuito de obstáculos para 6 a 10 participantes por turno desde los 6 años. **$1,900 MXN**.
 
-La mayoría de los inflables requieren un mínimo de 5×5 metros de área libre. Si tienes dudas sobre el espacio disponible, escríbenos y te ayudamos a elegir antes de que reserves.
+El área libre va de 3×3 metros a 9×7 según el modelo, y esas cifras ya incluyen el metro de margen por lado. Todos los precios son netos —IVA solo si necesitas factura— y están publicados en la [página de precios](/precios/). Si tienes dudas sobre el espacio disponible, escríbenos antes de reservar.
 
 ## Tabla de tiempos de instalación: inflable y palomitas
 
 Una fiesta bien coordinada empieza antes de que llegue el primer invitado. Lo que más nos preguntan los papás que coordinan por primera vez es: ¿a qué hora tiene que llegar cada quién? La respuesta depende de lo que cada servicio necesita para quedar impecable.
 
-Lo que aprendimos después de cientos de eventos es que el error más común no es llegar tarde — es hacer llegar a todos al mismo tiempo. Cuando el equipo de inflable y el de palomitas coinciden en el mismo acceso, se genera una pequeña caos que es 100% evitable. La solución es escalonar los horarios con al menos 20 minutos de diferencia.
+Lo que aprendimos después de cientos de eventos es que el error más común no es llegar tarde — es hacer llegar a todos al mismo tiempo. Cuando el equipo de inflable y el de palomitas coinciden en el mismo acceso, se genera un caos perfectamente evitable. La solución es escalonar los horarios con al menos 20 minutos de diferencia; si además tienes decoradora, animador y banquete, el timeline completo está en la [guía para coordinar proveedores](/blog/coordinacion-proveedores-fiesta-infantil-cdmx/).
 
 | Tarea | Quién | Tiempo estimado | ¿Cuándo llegar? |
 |---|---|---|---|
@@ -112,4 +112,4 @@ Pon la máquina de palomitas cerca de la entrada o del área de adultos. El olor
 
 Si la fiesta es de día en verano — lo cual es muy común en CDMX — verifica que el inflable tenga algo de sombra o pregúntanos sobre modelos con material con filtro UV. Un inflable bajo el sol del mediodía en julio puede calentarse demasiado en la superficie. No es peligroso si hay sombra parcial, pero vale la pena considerar la orientación del espacio.
 
-Y lo último: al terminar la fiesta, BRINCOLINS se encarga de desinflar y recoger el equipo. No tienes que hacer nada. Solo asegúrate de tener el área accesible cuando lleguemos a recoger — generalmente 30-40 minutos después de terminada la fiesta.
+Y lo último: al terminar la fiesta, BRINCOLINS se encarga de desinflar y recoger el equipo. No tienes que hacer nada, solo tener el área accesible cuando lleguemos — generalmente 30 o 40 minutos después de terminada la fiesta. Para reservar, [pide tu cotización](/cotizar/) o escríbenos al 5531281706, de lunes a domingo de 8:00 a 20:00. Y si quieres sumar mesa de dulces al combo, lo desarrollamos en la guía de [mesa de dulces e inflable para cumpleaños](/blog/mesa-dulces-inflable-cumpleanos-cdmx/).

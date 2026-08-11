@@ -11,6 +11,8 @@
  * La URL /inflables/<slug>/ se genera sola.
  */
 
+import { PRICE_NOTE } from "./inflables";
+
 export interface GalleryImage { src: string; alt: string; }
 export interface PricingFeature { text: string; included: boolean; }
 export interface PricingPackage {
@@ -84,7 +86,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       {
         name: "Renta del Barco Pirata",
         price: "$1,800",
-        priceNote: "+ IVA",
+        priceNote: PRICE_NOTE,
         description: "Renta de 4 a 6 horas",
         features: [
           { text: "Inflable Barco Pirata 7×5×4.5m", included: true },
@@ -150,7 +152,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       {
         name: "Renta del Castillo Blanco",
         price: "$1,700",
-        priceNote: "+ IVA",
+        priceNote: PRICE_NOTE,
         description: "Renta de 4 a 6 horas",
         features: [
           { text: "Inflable Castillo Blanco 6×5×4m", included: true },
@@ -190,7 +192,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     precios: {
       copy1: "Un solo precio para tu fiesta de princesas: de 4 a 6 horas de renta con instalación y retiro incluidos sin costo adicional. Sin escalera de paquetes ni cargos sorpresa el día del evento.",
-      copy2: "Los precios son en pesos mexicanos antes de IVA e incluyen entrega, instalación profesional y recolección al terminar. Reserva con el 50% de anticipo para asegurar tu fecha.",
+      copy2: "Los precios son netos, en pesos mexicanos, e incluyen entrega, instalación profesional y recolección al terminar. Si necesitas factura se agrega el 16% de IVA. Reserva con el 50% de anticipo para asegurar tu fecha.",
     },
     relacionados: {
       copy1: "Complementa tu fiesta de princesas con otros inflables del catálogo. Los Dragones Rojos son perfectos si buscas una temática de aventura, la Mini Jungla para safari tropical y el Mini Castillo para los más pequeños de la fiesta.",
@@ -215,7 +217,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       {
         name: "Renta del Castillo de Princesas",
         price: "$1,200",
-        priceNote: "+ IVA",
+        priceNote: PRICE_NOTE,
         description: "Renta de 4 a 6 horas",
         features: [
           { text: "Inflable Castillo de Princesas 4×4×3.5m", included: true },
@@ -263,7 +265,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     ],
   },
   "dragones-rojos": {
-    title: "Renta de Dragones Rojos | Inflables para Fiestas | El Más Rentado CDMX",
+    title: "Renta de Dragones Rojos | El Inflable Más Rentado en CDMX",
     description: "Renta de Dragones Rojos en CDMX y Edomex. El inflable más solicitado: alta capacidad, colores llamativos y diversión garantizada. Entrega incluida.",
     badge: "Inflable más rentado en CDMX",
     cta: "Cotizar Dragones Rojos",
@@ -273,7 +275,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     precios: {
       copy1: "El Dragones Rojos es el modelo más pedido del catálogo y se renta de 4 a 6 horas, la duración típica de un cumpleaños. Un solo precio, sin escalera de paquetes.",
-      copy2: "Todos los precios son en pesos mexicanos antes de IVA e incluyen instalación y retiro. Reserva con el 50% de anticipo para asegurar tu fecha.",
+      copy2: "Todos los precios son netos, en pesos mexicanos, e incluyen instalación y retiro. Si necesitas factura se agrega el 16% de IVA. Reserva con el 50% de anticipo para asegurar tu fecha.",
     },
     relacionados: {
       copy1: "Si el Dragones Rojos no se ajusta a lo que buscas, explora nuestro catálogo completo. El Castillo de Princesas es perfecto para fiestas de niñas, la Mini Jungla para temáticas safari y los Gusanitos para eventos tropicales al aire libre.",
@@ -296,7 +298,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       {
         name: "Renta del Dragones Rojos",
         price: "$1,200",
-        priceNote: "+ IVA",
+        priceNote: PRICE_NOTE,
         description: "Renta de 4 a 6 horas",
         features: [
           { text: "Inflable Dragones Rojos 4×4×3.8m", included: true },
@@ -344,7 +346,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     ],
   },
   "extremo": {
-    title: "Renta de Inflable Extremo | Inflables para Eventos y Kermeses | CDMX",
+    title: "Renta de Inflable Extremo | Kermeses y Eventos en CDMX",
     description: "Renta de Inflable Extremo para eventos, kermeses y fiestas con muchos niños en CDMX. Circuito de obstáculos de alta capacidad. Cotiza hoy.",
     badge: "Circuito de carreras con doble carril",
     cta: "Cotizar Inflable Extremo",
@@ -380,7 +382,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       {
         name: "Renta del Extremo",
         price: "$1,900",
-        priceNote: "+ IVA",
+        priceNote: PRICE_NOTE,
         description: "Renta de 4 a 6 horas",
         features: [
           { text: "Inflable Extremo 7×4×3.8m", included: true },
@@ -410,7 +412,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     ],
   },
   "gusanitos": {
-    title: "Renta de Gusanitos Inflables | Bebés y Niños Pequeños | CDMX",
+    title: "Renta de Gusanitos Inflable para Fiestas en CDMX",
     description: "Renta de Gusanitos inflables para fiestas de bebés y niños pequeños en CDMX. Diseño seguro y colorido para menores de 5 años. Entrega incluida.",
     badge: "El más colorido y tropical",
     cta: "Cotizar Gusanitos",
@@ -420,7 +422,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     precios: {
       copy1: "Un solo precio para tu fiesta: el Gusanitos se renta de 4 a 6 horas, la duración típica de un cumpleaños, y también funciona para fiestas de verano, pool parties y eventos al aire libre.",
-      copy2: "Precios en pesos mexicanos antes de IVA. La renta incluye instalación, retiro y extensión eléctrica sin costo adicional. Reserva con el 50% de anticipo.",
+      copy2: "Precios netos en pesos mexicanos; con factura se agrega el 16% de IVA. La renta incluye instalación, retiro y extensión eléctrica sin costo adicional. Reserva con el 50% de anticipo.",
     },
     relacionados: {
       copy1: "Si buscas más opciones para tu evento, la Mini Jungla comparte la temática tropical con dinosaurios y palmeras, el Castillo de Princesas es perfecto para fiestas de niñas y los Dragones Rojos son el favorito absoluto de CDMX.",
@@ -438,7 +440,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       {
         name: "Renta del Gusanitos",
         price: "$1,350",
-        priceNote: "+ IVA",
+        priceNote: PRICE_NOTE,
         description: "Renta de 4 a 6 horas",
         features: [
           { text: "Inflable Gusanitos 5×3×2.5m", included: true },
@@ -521,7 +523,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       {
         name: "Renta del Mini Castillo",
         price: "$800",
-        priceNote: "+ IVA",
+        priceNote: PRICE_NOTE,
         description: "Renta de 4 a 6 horas",
         features: [
           { text: "Inflable Mini Castillo 2×2×2.5m", included: true },
@@ -551,7 +553,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     ],
   },
   "mini-jungla": {
-    title: "Renta de Mini Jungla Inflable | Inflables para Niños Pequeños | CDMX",
+    title: "Renta de Mini Jungla Inflable para Fiestas en CDMX",
     description: "Renta de Mini Jungla inflable para fiestas infantiles en CDMX y Edomex. Diseño temático de jungla compacto para niños de 2 a 7 años. Entrega incluida.",
     badge: "Aventura tropical para exploradores",
     cta: "Cotizar Mini Jungla",
@@ -561,7 +563,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     precios: {
       copy1: "Un solo precio para tu fiesta safari o de dinosaurios: la Mini Jungla se renta de 4 a 6 horas, la duración típica de un cumpleaños o de una kermés escolar.",
-      copy2: "Precios en pesos mexicanos antes de IVA. La renta incluye todo lo necesario para un evento sin complicaciones: instalación, retiro, motor y sanitización. Reserva con el 50% de anticipo.",
+      copy2: "Precios netos en pesos mexicanos; con factura se agrega el 16% de IVA. La renta incluye todo lo necesario para un evento sin complicaciones: instalación, retiro, motor y sanitización. Reserva con el 50% de anticipo.",
     },
     relacionados: {
       copy1: "Explora más opciones para tu fiesta: los Gusanitos son perfectos para temática tropical, el Castillo de Princesas para niñas, los Dragones Rojos para aventuras medievales y el Barco Pirata para grupos más grandes.",
@@ -579,7 +581,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       {
         name: "Renta del Mini Jungla",
         price: "$1,300",
-        priceNote: "+ IVA",
+        priceNote: PRICE_NOTE,
         description: "Renta de 4 a 6 horas",
         features: [
           { text: "Inflable Mini Jungla 4.5×4×3.5m", included: true },

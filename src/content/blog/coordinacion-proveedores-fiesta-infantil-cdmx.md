@@ -1,6 +1,6 @@
 ---
-title: "Guía Definitiva para Coordinar Proveedores en una Fiesta."
-description: "Aprende a coordinar inflables, palomitas, decoración y más proveedores para una fiesta infantil perfecta en CDMX. Tablas de roles, checklist y timeline de la."
+title: "Cómo Coordinar Proveedores en una Fiesta Infantil"
+description: "Cómo coordinar inflable, palomitas, decoración y comida en una fiesta infantil en CDMX: roles de cada proveedor, timeline de 4 horas y los 7 errores comunes."
 excerpt: "Gestionar múltiples proveedores para una fiesta infantil en CDMX no tiene que ser caótico. Esta guía te da el sistema completo: roles, tiempos, errores comunes y el timeline perfecto."
 publishDate: "2026-06-05"
 category: "Guías"
@@ -41,7 +41,7 @@ Antes de coordinar, necesitas saber quiénes son los jugadores y qué papel cump
 
 ### 1. Entretenimiento: el inflable
 
-El proveedor de inflables como **BRINCOLINS** es, en la mayoría de las fiestas, el ancla de toda la experiencia. Un inflable del [catálogo de inflables](/inflables/) puede mantener ocupados a los niños durante 3-4 horas sin que nadie tenga que organizar actividades adicionales. Los niños se autoorganizan alrededor del inflable: turnos espontáneos, amistades que se forman en la fila, reglas inventadas sobre quién salta más alto. Es entretenimiento que se genera solo.
+El proveedor de inflables como **BRINCOLINS** es, en la mayoría de las fiestas, el ancla de toda la experiencia. Un inflable del [catálogo de inflables](/inflables/) —8 modelos de $800 a $1,900 MXN, con precios publicados en la [página de precios](/precios/)— puede mantener ocupados a los niños durante 3 o 4 horas sin que nadie organice actividades adicionales. El criterio para escoger el modelo según edad y espacio está en la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/). Los niños se autoorganizan alrededor del inflable: turnos espontáneos, amistades que se forman en la fila, reglas inventadas sobre quién salta más alto. Es entretenimiento que se genera solo.
 
 ### 2. Snacks y antojitos
 
@@ -105,9 +105,9 @@ En más de 20 años de experiencia, hemos visto casi todos los errores posibles.
 
 **Error 3: Hacer llegar a todos al mismo tiempo.** Cuando decoradora, equipo de inflable y proveedor de snacks llegan en el mismo horario de 15 minutos, se genera confusión en el acceso, en el espacio y en las prioridades. Escalona los horarios y designa a alguien — no el anfitrión principal — que reciba y oriente a cada proveedor.
 
-**Error 4: Subestimar el espacio necesario.** El inflable necesita espacio libre, la decoración necesita superficie, el animador necesita área despejada para su show. Hemos llegado a instalaciones donde el espacio prometido tenía un árbol en medio, una pileta que nadie mencionó o un cobertor que ocupaba la mitad del jardín. Haz un "mapa" mental realista de tu espacio antes de confirmar todos los servicios.
+**Error 4: Subestimar el espacio necesario.** El inflable necesita entre 3×3 m (Mini Castillo) y 9×7 m (Barco Pirata) de área completamente libre, la decoración necesita superficie y el animador un área despejada para su show. Hemos llegado a instalaciones donde el espacio prometido tenía un árbol en medio, una pileta que nadie mencionó o un cobertor que ocupaba la mitad del jardín. Haz un "mapa" mental realista de tu espacio antes de confirmar todos los servicios.
 
-**Error 5: No verificar los requerimientos eléctricos.** Un inflable grande requiere una toma de corriente estable de 110V. Una máquina de palomitas también consume electricidad. Si ambos van en el mismo circuito de baja capacidad, el interruptor puede dispararse. Verifica el acceso eléctrico y usa extensiones de calibre adecuado.
+**Error 5: No verificar los requerimientos eléctricos.** Un inflable grande requiere una toma estable de 110V a menos de 20 metros. Una máquina de palomitas también consume electricidad. Si ambos van en el mismo circuito de baja capacidad, el interruptor puede dispararse. La combinación exacta de inflable y palomitas la desglosamos en la guía de [palomitas e inflable para fiestas infantiles](/blog/palomita-inflable-fiesta-infantil-cdmx/).
 
 **Error 6: Olvidar dar instrucciones de acceso.** En condominios, fraccionamientos o edificios de CDMX — especialmente en zonas como Satélite, Santa Fe o Del Valle — el acceso para proveedores puede tener protocolos específicos. Comunica con anticipación el nombre del portero, el código de acceso y dónde pueden estacionar el vehículo.
 
@@ -137,19 +137,19 @@ Este es el ritmo que funciona mejor para una fiesta infantil de 4 horas con infl
 
 **Después de la fiesta:** BRINCOLINS recoge el inflable en 30-40 minutos. Cada proveedor recoge su equipo en el orden en que termina.
 
-## Comunicación que previene el 90% de los problemas
+## La comunicación previene casi todos los problemas
 
 La mayoría de los problemas que hemos visto en eventos no son problemas logísticos — son problemas de comunicación. Alguien asumió algo que nadie confirmó. Alguien llegó a una hora diferente a la acordada porque el acuerdo quedó solo en la memoria de alguien.
 
 Algunas estrategias que funcionan en la práctica: crea un grupo de WhatsApp con todos los proveedores donde puedas compartir la dirección exacta, el horario y cualquier cambio de último minuto. Manda un mensaje de confirmación 48 horas antes con todos los detalles en un solo mensaje. Ten el número directo de la persona que va a llegar el día del evento — no solo el número del negocio. Comparte ubicación en tiempo real el día del evento si algún proveedor tiene dificultades para encontrar el lugar.
 
-Para reservar tu inflable con BRINCOLINS, escríbenos por WhatsApp al **5531281706** o visita la sección de [inicio](/) para ver todas las opciones disponibles.
+Para reservar tu inflable con BRINCOLINS, escríbenos por WhatsApp al **5531281706** —atendemos de lunes a domingo de 8:00 a 20:00— o [pide tu cotización en línea](/cotizar/). Las dudas de logística que más se repiten ya están resueltas en las [preguntas frecuentes](/preguntas-frecuentes/).
 
 ## Presupuesto estimado para una fiesta con múltiples proveedores
 
 Para ayudarte a planear, aquí hay rangos de precios reales en CDMX (2026):
 
-- **Inflable BRINCOLINS:** desde $800 hasta $1,900 MXN (según modelo y tamaño)
+- **Inflable BRINCOLINS:** de $800 a $1,900 MXN según el modelo. Son precios netos, con IVA solo si necesitas factura y cargo de envío según distancia en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX
 - **Palomitas / snacks (Palomita.mx):** desde $500 MXN dependiendo del paquete
 - **Decoración básica (globos, manteles):** $800 - $2,500 MXN
 - **Comida (taquiza para 30 personas):** $2,000 - $4,000 MXN
@@ -160,4 +160,4 @@ Para ayudarte a planear, aquí hay rangos de precios reales en CDMX (2026):
 
 Muchas familias en CDMX organizan fiestas que sus hijos recuerdan durante años con presupuestos de $8,000-$10,000 pesos, eligiendo bien sus prioridades: el inflable, la comida y el pastel como anclas, y el resto como complementos. No siempre más proveedores significa mejor fiesta — significa más coordinación. Elige con inteligencia, coordina con anticipación y disfruta el resultado.
 
-Recuerda que puedes usar nuestros [paquetes de fiesta](/servicios/paquetes-de-fiesta/) para simplificar parte de la logística y posiblemente ahorrar en el proceso.
+Recuerda que puedes usar nuestros [paquetes de fiesta](/servicios/paquetes-de-fiesta/), desde $4,500 MXN, para simplificar parte de la logística. Y si quieres el plan completo semana por semana desde seis semanas antes, está en [cómo planear un cumpleaños infantil en CDMX](/blog/planear-cumpleanos-infantil-completo-cdmx/).

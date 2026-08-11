@@ -21,7 +21,7 @@ faqs:
   - question: "¿Los inflables son apropiados para eventos formales?"
     answer: "Sí, siempre y cuando elijas el modelo correcto. Los inflables de colores brillantes con personajes no son adecuados para bodas o XV años, pero modelos como el castillo blanco de BRINCOLINS fueron diseñados específicamente para eventos elegantes. Su color neutro y diseño sofisticado se integran perfectamente con cualquier decoración formal."
   - question: "¿Cuánto espacio necesito para instalar un inflable en mi evento?"
-    answer: "Depende del modelo. El castillo blanco necesita aproximadamente un espacio de 7x6 metros con margen de seguridad incluido. El mini castillo requiere menos espacio y es ideal para venues más compactos. En ambos casos, necesitas una superficie plana y un contacto eléctrico cercano. Envíanos fotos de tu espacio y te asesoramos sin costo."
+    answer: "Depende del modelo. El Castillo Blanco (6×5×4 m) necesita 8×7 metros de área libre con 4.7 m de altura, margen de seguridad incluido. El Castillo de Princesas pide 6×6 m y el Mini Castillo apenas 3×3 m, ideal para venues compactos. En todos los casos necesitas superficie plana y un contacto de 110V cercano. Envíanos fotos de tu espacio y te asesoramos sin costo."
   - question: "¿Pueden coordinar la instalación con mi wedding planner o coordinador de eventos?"
     answer: "Por supuesto. Estamos acostumbrados a trabajar con organizadores de eventos, wedding planners y coordinadores de venues en toda la CDMX. Nos adaptamos a sus tiempos de montaje, respetamos sus protocolos y nos comunicamos directamente con ellos para que todo fluya sin contratiempos."
   - question: "¿Ofrecen paquetes especiales para bodas o XV años?"
@@ -36,7 +36,7 @@ Durante mucho tiempo, los inflables estuvieron asociados exclusivamente con **fi
 
 El secreto está en la selección del modelo. No todos los inflables son iguales: mientras que un brincolin de colores primarios con personajes de caricatura desentona en un evento formal, un **[castillo blanco](/inflables/castillo-blanco/) con diseño sofisticado** se integra de forma natural con manteles de lino, arreglos florales y centros de mesa elegantes. La diferencia es abismal, y quienes lo han probado confirman que es una de las mejores inversiones para mantener felices a los invitados más jóvenes.
 
-> **Dato importante:** Según organizadores de eventos en CDMX, las bodas con zona infantil de entretenimiento reciben mejores calificaciones de los invitados. Los papás agradecen profundamente que alguien haya pensado en la diversión de sus hijos.
+> **Lo que vemos en cada boda:** cuando hay zona infantil, los papás se quedan más tiempo y disfrutan más la fiesta. Es el comentario que más nos llega después del evento. La ficha del modelo pensado para esto está en la [guía del Castillo Blanco para bodas](/blog/renta-castillo-blanco-inflable-bodas-cdmx/).
 
 ## Tipos de eventos formales donde un inflable funciona
 
@@ -64,15 +64,15 @@ En **BRINCOLINS** tenemos un catálogo variado, pero no todos los modelos son ap
 
 ### Castillo Blanco — El favorito para eventos elegantes
 
-El **castillo blanco inflable** es nuestro modelo estrella para eventos formales. Su color neutro, torres estilizadas y acabado premium lo hacen perfecto para **bodas, XV años y bautizos**. Se adapta a cualquier paleta decorativa y genera un impacto visual positivo sin ser invasivo.
+El **castillo blanco inflable** es el modelo más rentado para bodas y XV años. Mide 6×5×4 m, pide 8×7 m de área libre con 4.7 m de altura, recibe de 8 a 10 personas desde los 3 años y cuesta **$1,700 MXN**. Su color neutro, torres estilizadas y acabado premium lo hacen perfecto para **bodas, XV años y bautizos**.
 
 ### [Castillo de Princesas](/inflables/castillo-princesas/) — Para eventos con temática fantástica
 
-Si tu evento tiene una **temática de cuento de hadas** o de princesas, el castillo de princesas rosa es una excelente opción. Funciona especialmente bien en quinceañeras con temática de realeza y en fiestas de primeras comuniones para niñas.
+Si tu evento tiene una **temática de cuento de hadas** o de princesas, el castillo de princesas rosa es una excelente opción: 4×4×3.5 m sobre 6×6 m de área libre, de 5 a 7 niñas de 4 a 10 años, **$1,200 MXN**. Funciona especialmente bien en quinceañeras con temática de realeza y en primeras comuniones.
 
 ### [Mini Castillo](/inflables/mini-castillo/) — Para espacios reducidos
 
-Cuando el **venue es compacto** o el número de niños invitados es pequeño, el mini castillo es la opción ideal. Ocupa menos espacio, es más discreto y mantiene a los pequeños entretenidos sin necesidad de un área grande dedicada.
+Cuando el **venue es compacto** o los invitados más chicos tienen entre 1 y 4 años, el Mini Castillo es la opción correcta: 2×2×2.5 m sobre 3×3 m de área, de 3 a 4 niños a la vez y **$800 MXN**. Junto con los Gusanitos, es uno de los dos modelos que caben bajo techo.
 
 > **Recomendación:** Si no estás seguro de qué modelo elegir, envíanos por WhatsApp las fotos de tu venue y cuéntanos el tipo de evento. Te asesoramos sin costo para que elijas el inflable perfecto.
 
@@ -86,7 +86,8 @@ La ubicación del inflable es tan importante como el modelo que elijas. Una buen
 - **Visible pero no protagonista:** El inflable debe ser fácil de encontrar para los invitados con niños, pero no debe competir visualmente con la mesa principal, el pastel o la pista de baile
 - **Cerca de los baños:** Los niños que brincan necesitan acceso rápido a los baños. Ubica el inflable en una zona con acceso fácil
 - **Superficie adecuada:** Busca una zona plana de pasto, concreto o piso firme. Evita pendientes, superficies irregulares o áreas con piedras
-- **Contacto eléctrico accesible:** El motor inflador necesita una toma de corriente a no más de 15 metros. Verifica esto con el venue antes de reservar
+- **Contacto eléctrico accesible:** El motor inflador necesita una toma de 110V a no más de 20 metros. Verifica esto con el venue antes de reservar
+- **Altura libre confirmada:** el Castillo Blanco pide 4.7 m; si el evento es bajo techo, mide antes de decidir. El detalle de cada modelo está en la [comparativa completa de la flota](/blog/flota-inflables-brincolins-catalogo-modelos-cdmx/)
 - **Sombra si es posible:** En eventos de día, un inflable bajo sombra parcial (árbol grande, lona o toldo) es más cómodo para los niños
 
 ## Tips de coordinación con wedding planners
@@ -116,4 +117,4 @@ En **BRINCOLINS** manejamos precios transparentes y competitivos para **eventos 
 - **Coordinación con organizadores:** Comunicación directa con tu wedding planner o coordinador de venue
 - **Asesoría de ubicación:** Te ayudamos a definir el mejor lugar para instalar el inflable según tu espacio
 
-Los precios varían según el modelo, la duración del servicio y la ubicación del evento. Para recibir una **cotización personalizada**, escríbenos por WhatsApp con los detalles de tu celebración. Respondemos en minutos y te enviamos un presupuesto detallado con todo incluido. No esperes a que se llene tu fecha: los fines de semana en temporada de bodas y XV años se reservan con semanas de anticipación.
+Los precios van de $800 a $1,900 MXN según el modelo y están publicados en la [página de precios](/precios/). Son netos: se agrega IVA solo si necesitas factura, y en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma el cargo de envío según la distancia. Si además quieres mobiliario e iluminación, los [paquetes de fiesta](/servicios/paquetes-de-fiesta/) empiezan en $4,500 MXN. Para una **cotización personalizada**, escríbenos por WhatsApp o [pídela en línea](/cotizar/). No esperes a que se llene tu fecha: los fines de semana en temporada de bodas y XV años se reservan con semanas de anticipación, y la [guía de inflables para bodas y XV años](/blog/renta-inflables-bodas-xv-anos/) tiene el cronograma completo.

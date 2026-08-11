@@ -35,29 +35,29 @@ faqs:
 |---|---|---|---|
 | **Hasta 8** | [Mini Castillo](/inflables/mini-castillo/) (1-4 años) o mediano | $800 – $1,350 MXN | 3 – 7 niños |
 | **8 a 15** | Mediano: [Dragones Rojos](/inflables/dragones-rojos/), [Castillo de Princesas](/inflables/castillo-princesas/) | $1,200 MXN | 5 – 7 niños |
-| **15 a 30** | Grande: [Castillo Blanco](/inflables/castillo-blanco/) o [Barco Pirata](/inflables/barco-pirata/) | $1,700 – $1,800 MXN | 10 – 15 niños |
+| **15 a 30** | Grande: [Castillo Blanco](/inflables/castillo-blanco/) o [Barco Pirata](/inflables/barco-pirata/) | $1,700 – $1,800 MXN | 8 – 10 personas |
 | **30+ / kermés** | [Circuito Extremo](/inflables/extremo/) o 2+ inflables combinados | Desde $1,900 MXN | Grupos continuos |
 
 ## Hasta 8 invitados: no pagues de más
 
-Con pocos niños, el inflable grande es dinero desperdiciado. Si son bebés de 1 a 4 años, el **Mini Castillo ($800 MXN)** es la elección obvia — cabe hasta en interiores de 3×3 m. Si son de 4 a 10 años, un mediano desde $1,200 MXN les da temática y resbaladilla sin que sobre espacio.
+Con pocos niños, el inflable grande es dinero desperdiciado. Si son bebés de 1 a 4 años, el **Mini Castillo ($800 MXN)** es la elección obvia — cabe hasta en interiores, con 3×3 m de área y 3.2 m de altura libre. Es el modelo que desglosamos en la [guía del Mini Castillo para bebés](/blog/renta-mini-castillo-inflable-bebes-cdmx/). Si son de 4 a 10 años, un mediano desde $1,200 MXN les da temática y resbaladilla sin que sobre espacio.
 
 ## 8 a 15 invitados: el punto dulce del mediano
 
-La fiesta infantil típica de CDMX. Un **mediano de 4×4 m (desde $1,200 MXN)** con capacidad de 5-7 niños simultáneos funciona sin filas: mientras unos brincan, otros comen o juegan. Es el rango donde están los modelos más rentados del catálogo y donde el costo por niño es el más bajo (~$80-$150 por invitado).
+La fiesta infantil típica de CDMX. Un **mediano de 4×4 m (desde $1,200 MXN)** con capacidad de 5-7 niños simultáneos funciona sin filas: mientras unos brincan, otros comen o juegan. Es el rango donde está el modelo más rentado del catálogo —los [Dragones Rojos](/inflables/dragones-rojos/)— y donde el costo por niño es el más bajo (~$80 a $150 por invitado). Los ocho precios, con medidas y capacidad, están en la [página de precios](/precios/).
 
 ## 15 a 30 invitados: aquí ya conviene el grande
 
-Con más de 15 niños, el mediano genera fila y pleitos por turno. El **Barco Pirata ($1,800 MXN)** recibe 8-10 niños a la vez y su tobogán mantiene el flujo constante. Para eventos elegantes (bautizos, primeras comuniones) el **Castillo Blanco ($1,700 MXN)** da la misma escala con estética neutra. ¿Dudas entre tipos? Revisa la comparativa [brincolín vs. tobogán inflable](/blog/brincolin-vs-tobogan-inflable-cdmx/).
+Con más de 15 niños, el mediano genera fila y pleitos por turno. El **Barco Pirata ($1,800 MXN)** recibe 8 a 10 niños a la vez y su tobogán mantiene el flujo constante; ocupa 9×7 m de área libre, así que mide el jardín antes. Para eventos elegantes (bautizos, primeras comuniones) el **Castillo Blanco ($1,700 MXN)** da la misma escala con estética neutra. ¿Dudas entre tipos? Revisa la comparativa [brincolín vs. tobogán inflable](/blog/brincolin-vs-tobogan-inflable-cdmx/).
 
 ## Más de 30 niños o kermés: combina
 
-Ningún inflable individual entretiene solo a 50+ niños. Las escuelas y kermeses combinan: **Circuito Extremo** para los grandes (su doble carril de 7 m procesa competencias continuas) + un mediano temático + Mini Castillo para preescolar. Separar por edades no es lujo, es seguridad. Cotiza paquete de varios inflables por WhatsApp al 55 3128 1706 — hay precio especial por volumen. Más detalle en la guía de [inflables para kermeses y eventos escolares](/servicios/inflables-para-eventos/).
+Ningún inflable individual entretiene solo a 50+ niños. Las escuelas y kermeses combinan: **Circuito Extremo** para los grandes (su doble carril de 7 m procesa competencias continuas) + un mediano temático + Mini Castillo para preescolar. Separar por edades no es lujo, es seguridad. Cotiza paquete de varios inflables por WhatsApp al 55 3128 1706 — hay precio especial por volumen. Más detalle en la guía de [inflables para kermeses y eventos escolares](/servicios/inflables-para-eventos/) y en el [checklist para organizar una kermesse escolar](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/).
 
 ## Dos reglas finales
 
 **1. La edad manda sobre el tamaño.** Un bebé de 2 años no entra al Barco Pirata por más invitados que haya — combina tamaños si hay mezcla de edades.
 
-**2. Mide tu espacio antes de cotizar.** El mediano necesita ~5×5 m libres; el grande, ~8×6 m y 4.5 m de altura. Una foto del espacio por WhatsApp evita sorpresas el día del evento.
+**2. Mide tu espacio antes de cotizar.** El Mini Castillo pide 3×3 m; los medianos, de 6×6 a 7×5 m; el Castillo Blanco 8×7 m; el Extremo 9×6 m y el Barco Pirata 9×7 m con 5.2 m de altura libre. Una foto del espacio por WhatsApp evita sorpresas el día del evento, y la [guía para elegir el inflable según edad y espacio](/blog/como-elegir-inflable-fiesta-infantil/) trae la tabla completa.
 
-Todos los precios incluyen entrega, instalación, motor, sanitización certificada y recolección en CDMX y Edomex. Consulta la [guía completa de precios](/blog/cuanto-cuesta-rentar-inflable-cdmx/) o la página de [renta de inflables para fiestas infantiles](/fiestas-infantiles/).
+Todos los precios incluyen entrega, instalación, motor, sanitización y recolección en CDMX y Edomex. Son netos: se agrega IVA solo si necesitas factura, y en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX hay cargo de envío según distancia. Consulta la [guía completa de precios](/blog/cuanto-cuesta-rentar-inflable-cdmx/), la [tabla oficial de precios](/precios/) o la página de [renta de inflables para fiestas infantiles](/fiestas-infantiles/).

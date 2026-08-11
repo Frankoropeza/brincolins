@@ -1,5 +1,5 @@
 ---
-title: "Checklist Definitivo para Organizar una Kermesse Escolar con."
+title: "Checklist para Organizar una Kermesse Escolar con Inflables"
 description: "Checklist por fases para una kermesse escolar perfecta con inflables en CDMX y Edomex. Presupuesto, errores comunes y coordinación."
 excerpt: "Desde 8 semanas antes hasta el día del evento: el checklist maestro que todo coordinador escolar necesita para organizar una kermesse con inflables en CDMX y Edomex sin contratiempos ni sorpresas de último momento."
 publishDate: "2026-06-17"
@@ -21,7 +21,7 @@ faqs:
   - question: "¿Cuál es el error más común que cometen las escuelas al contratar inflables para su kermesse?"
     answer: "El error más frecuente es contratar con muy poco tiempo de anticipación, especialmente en temporada alta (mayo, junio y diciembre). Los inflables más populares se agotan con 2 a 3 semanas de anticipación en temporada alta, y las escuelas que esperan a la última semana frecuentemente quedan con opciones limitadas o, en el peor de los casos, sin disponibilidad. La segunda falla más común es no verificar los requerimientos eléctricos con anticipación, lo que resulta en cortes de luz el día del evento por sobrecargar los circuitos disponibles. Ambos problemas se resuelven con planeación temprana y comunicación clara con el proveedor."
   - question: "¿Cómo se maneja el anticipo y el pago de los inflables para una institución escolar?"
-    answer: "Para escuelas e instituciones educativas, BRINCOLINS trabaja con un esquema de anticipo del 30-50% para confirmar la reservación, y el saldo restante se liquida el día del evento antes de la instalación o mediante transferencia bancaria con anticipación. Para instituciones que requieren proceso de órdenes de compra o pagos por tesorería escolar, recomendamos iniciar el proceso administrativo con al menos 4 semanas de anticipación para que los tiempos institucionales no comprometan la reservación. Emitimos cotización formal, carta compromiso y factura CFDI para facilitar el proceso administrativo."
+    answer: "Para escuelas e instituciones educativas, BRINCOLINS trabaja con un anticipo del 50% para confirmar la reservación, y el saldo restante se liquida el día del evento antes de la instalación o mediante transferencia bancaria con anticipación. Para instituciones que requieren proceso de órdenes de compra o pagos por tesorería escolar, recomendamos iniciar el proceso administrativo con al menos 4 semanas de anticipación para que los tiempos institucionales no comprometan la reservación. Emitimos cotización formal, carta compromiso y factura CFDI para facilitar el proceso administrativo."
   - question: "¿Qué pasa si llueve el día de la kermesse y los inflables no se pueden usar en exterior?"
     answer: "En BRINCOLINS siempre coordinamos un plan de contingencia para eventos escolares que incluye: verificar si existe la posibilidad de instalar bajo techado (techumbres, auditorios con altura suficiente, porterías cubiertas), definir un protocolo de cancelación o reprogramación con condiciones claras, y acordar los términos de devolución del anticipo en caso de cancelación por causa de fuerza mayor meteorológica. Para Edomex, donde los eventos de temporada de lluvias son frecuentes en junio-septiembre, recomendamos tener un techado alternativo identificado desde la planeación inicial o considerar una fecha en meses de menor probabilidad de lluvia."
   - question: "¿Puede BRINCOLINS hacer una visita previa al espacio escolar antes de la kermesse?"
@@ -34,7 +34,7 @@ Organizar una kermesse escolar es un proyecto que involucra a docenas de persona
 
 Un checklist estructurado por fases no solo garantiza que no se olvide ningún detalle: también distribuye la carga de trabajo en el tiempo, permite delegar responsabilidades específicas a diferentes miembros del equipo y ofrece un registro documentado del proceso que puede reutilizarse y mejorarse para la siguiente kermesse. Cuando el coordinador de este año se convierte en el director del siguiente, ese checklist archivado vale más que cualquier recuerdo.
 
-En el contexto específico de los inflables, la coordinación temprana es especialmente crítica porque los equipos más populares tienen disponibilidad limitada y los requerimientos logísticos —espacio, electricidad, acceso vehicular— necesitan verificarse con tiempo. Este checklist integra esa coordinación en cada fase del proceso.
+En el contexto específico de los inflables, la coordinación temprana es especialmente crítica porque los modelos con más demanda tienen disponibilidad limitada y los requerimientos logísticos —espacio, electricidad, acceso vehicular— necesitan verificarse con tiempo. Este checklist integra esa coordinación en cada fase del proceso. Si además buscas los criterios para decidir cuántos inflables contratar según el número de alumnos, esa tabla está en la [guía de kermesse escolar con inflables en Edomex](/blog/kermesse-escolar-inflables-edomex-guia/).
 
 ## FASE 1: 8 semanas antes — Definición y planeación estratégica
 
@@ -270,19 +270,19 @@ Un inflable sin supervisión adulta constante es un riesgo para los niños. Las 
 Sin un sistema de turnos, los alumnos más grandes o más rápidos acaparan el inflable durante todo el evento, mientras que los más tímidos o pequeños no llegan a usarlo. El resultado son quejas de padres y la percepción de que el evento fue injusto. Solución: implementa el sistema de turnos por grado desde la planeación, con horarios publicados que los maestros puedan comunicar a sus grupos.
 
 **Error 5: No comunicar las reglas de uso a los alumnos**
-Los accidentes en inflables casi siempre ocurren por uso inadecuado: demasiados usuarios al mismo tiempo, objetos punzantes dentro de la estructura, o comportamientos que el inflable no está diseñado para soportar. Solución: comunica las reglas de uso claramente antes de la kermesse —en clases, mediante circular a padres— y repásalas con los alumnos en el momento de acceso al inflable.
+Los accidentes en inflables casi siempre ocurren por uso inadecuado: demasiados usuarios al mismo tiempo, objetos punzantes dentro de la estructura, o comportamientos que el inflable no está diseñado para soportar. Solución: comunica las reglas de uso claramente antes de la kermesse —en clases, mediante circular a padres— y repásalas con los alumnos en el momento de acceso al inflable. Las [7 reglas de oro de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/) sirven tal cual como texto de circular.
 
 ## Tabla de presupuesto estimado por número de asistentes
 
 | Asistentes estimados | Inflables recomendados | Costo aproximado inflables | Presupuesto total evento sugerido |
 |---|---|---|---|
-| 100-200 personas | 1 inflable mediano ($1,200) | $1,200 | $8,000 - $15,000 |
-| 200-400 personas | 1 inflable grande ($1,800) | $1,800 | $15,000 - $25,000 |
+| 100-200 personas | 1 inflable mediano ($1,200, 5-7 niños por turno) | $1,200 | $8,000 - $15,000 |
+| 200-400 personas | 1 inflable grande ($1,800, 8-10 niños por turno) | $1,800 | $15,000 - $25,000 |
 | 400-600 personas | 2 inflables ($1,200 + $1,800) | $3,000 | $25,000 - $40,000 |
 | 600-900 personas | 3 inflables ($1,900 + $1,800 + $1,200) | $4,900 | $40,000 - $65,000 |
 | Más de 900 personas | 4+ inflables (combinación) | $6,000+ | $65,000+ |
 
-*Los costos de inflables corresponden al catálogo vigente de BRINCOLINS. El presupuesto total del evento incluye comida, decoración, sonido, mobiliario y otros proveedores además de los inflables.*
+*Los costos de inflables corresponden al catálogo vigente de BRINCOLINS: 8 modelos de $800 a $1,900 MXN, publicados con sus medidas y capacidades en la [página de precios](/precios/). Son precios netos —el IVA se agrega si la escuela requiere factura CFDI, que sí emitimos— y en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma el cargo de envío según la distancia; verifícalo en la [página de cobertura](/cobertura/). El presupuesto total del evento incluye comida, decoración, sonido, mobiliario y otros proveedores además de los inflables.*
 
 ## Cómo coordinar con BRINCOLINS para una kermesse: paso a paso
 
@@ -294,7 +294,7 @@ En más de 20 años coordinando eventos escolares en CDMX y Edomex, hemos refina
 
 **Paso 3 — Visita de reconocimiento (opcional):** para kermesses con múltiples inflables o espacios que no conocemos, coordinamos una visita previa sin costo para verificar el espacio y definir el layout óptimo.
 
-**Paso 4 — Confirmación y anticipo:** una vez aprobada la cotización, confirmas la reservación con un anticipo del 30-50%. Emitimos carta compromiso y comprobante de pago.
+**Paso 4 — Confirmación y anticipo:** una vez aprobada la cotización, confirmas la reservación con el 50% de anticipo. Emitimos carta compromiso y comprobante de pago.
 
 **Paso 5 — Coordinación logística:** en la semana previa al evento, te confirmamos el horario de llegada, el nombre del operador y el número de contacto para el día del evento.
 
@@ -306,7 +306,7 @@ La comunicación con los padres de familia es parte integral del éxito de la ke
 
 - El inflable tiene un límite de usuarios simultáneos por seguridad: la fila avanza rápidamente cuando todos respetan el turno.
 - Los alumnos deben usar ropa cómoda y sin accesorios que puedan dañar el inflable (hebillas grandes, zapatos con punta metálica, objetos en los bolsillos).
-- Los niños menores de una determinada edad deben usar el inflable diseñado para su rango de edad.
+- Cada inflable tiene su rango de edad: el Mini Castillo es de 1 a 4 años y recibe 3 o 4 niños; los medianos, de 4 a 10 años con 5 a 7 por turno; el Barco Pirata desde los 4 con 8 a 10; el circuito Extremo desde los 6, con 6 a 10 por turno.
 - La supervisión adulta está garantizada en todo momento por personal de BRINCOLINS y voluntarios de la escuela.
 - Las fotos y videos dentro del inflable son bienvenidos, pero pedimos que no interfieran con el flujo de uso.
 
@@ -323,4 +323,4 @@ La kermesse de este año es el manual de la kermesse del siguiente. Estos son lo
 
 El coordinador que archiva este documento no solo hace mejor su propio trabajo: hace un regalo genuino a quien venga después. En BRINCOLINS hemos llegado a kermesses donde el coordinador tenía el archivo de las últimas tres ediciones del evento. Esas kermesses son las que salen perfectas desde el primer momento del día.
 
-Con este checklist en mano, tu kermesse escolar con inflables en CDMX o Edomex tiene todo para ser un éxito. Comienza hoy: visita nuestra sección de [inflables para eventos](/servicios/inflables-para-eventos/), explora el catálogo completo de [inflables](/inflables/), llena nuestro formulario de [cotización](/cotizar/) o escríbenos directamente al WhatsApp **5531281706**. En [BRINCOLINS](/) llevamos más de 20 años haciendo que los eventos escolares sean memorables, un checklist bien ejecutado a la vez.
+Con este checklist en mano, tu kermesse escolar con inflables en CDMX o Edomex tiene todo para ser un éxito. Comienza hoy: visita nuestra sección de [inflables para eventos](/servicios/inflables-para-eventos/), explora el catálogo completo de [inflables](/inflables/), revisa las dudas administrativas resueltas en las [preguntas frecuentes](/preguntas-frecuentes/), llena nuestro formulario de [cotización](/cotizar/) o escríbenos al WhatsApp **5531281706**, de lunes a domingo de 8:00 a 20:00. En [BRINCOLINS](/) llevamos más de 20 años haciendo que los eventos escolares sean memorables, un checklist bien ejecutado a la vez.

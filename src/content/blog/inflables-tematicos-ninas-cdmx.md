@@ -20,13 +20,13 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Cuál es el inflable más popular para fiestas de niñas?"
-    answer: "El castillo de princesas rosa es por mucho el más solicitado. Su diseño con torres, color rosa vibrante y espacio amplio para brincar lo convierten en el favorito de las niñas de 3 a 10 años. Le sigue el castillo blanco para eventos más elegantes."
+    answer: "El Castillo de Princesas rosa es por mucho el más solicitado para fiestas de niñas. Mide 4×4×3.5 m, pide 6×6 m de área libre, recibe de 5 a 7 niñas de 4 a 10 años y cuesta $1,200 MXN. Le sigue el Castillo Blanco para eventos más elegantes."
   - question: "¿Los inflables temáticos son solo para niñas?"
     answer: "No necesariamente. Si bien modelos como el castillo de princesas son diseñados pensando en niñas, en la práctica los niños también disfrutan brincando en ellos. Los inflables son diversión para todos, sin importar el género."
   - question: "¿Puedo ver los inflables antes de reservar?"
     answer: "Sí, en nuestra página de inflables tenemos fotos reales de cada modelo. También puedes escribirnos por WhatsApp y te enviamos fotos adicionales y videos para que veas los detalles de cada inflable antes de decidir."
   - question: "¿Qué inflable recomiendan para niñas menores de 3 años?"
-    answer: "Para las más pequeñitas recomendamos el mini castillo. Es más compacto, tiene paredes más bajas y su superficie acolchada es ideal para bebés que ya caminan y niñas hasta 4 años. Es el más seguro para las edades más tempranas."
+    answer: "Para las más pequeñitas, el Mini Castillo. Mide 2×2×2.5 m, pide solo 3×3 m de área libre, recibe de 3 a 4 niñas de 1 a 4 años y cuesta $800 MXN. Es el único modelo del catálogo diseñado para esas edades, y uno de los dos que caben bajo techo."
 ---
 
 ## Los inflables favoritos de las niñas en CDMX
@@ -35,13 +35,13 @@ Después de cientos de eventos infantiles en la **Ciudad de México y zona metro
 
 Nuestro catálogo incluye tres modelos especialmente diseñados que se han convertido en los favoritos para **fiestas de niñas**:
 
-- **[Castillo de Princesas](/inflables/castillo-princesas/):** El rey indiscutible. Rosa vibrante con torres imponentes, ideal para fiestas temáticas de princesas y cumpleaños de niñas de 3 a 10 años.
-- **[Castillo Blanco](/inflables/castillo-blanco/):** Elegancia pura. Perfecto para bautizos, primeras comuniones, fiestas de estilo clásico y eventos donde se busca un look sofisticado.
-- **[Mini Castillo](/inflables/mini-castillo/):** El consentido de las más chiquitas. Compacto, seguro y colorido, diseñado especialmente para bebés y niñas de 1 a 5 años.
+- **[Castillo de Princesas](/inflables/castillo-princesas/) — $1,200 MXN:** el más solicitado para fiestas de niñas. Rosa vibrante con torres, 4×4×3.5 m sobre 6×6 m de área libre, para 5 a 7 niñas de 4 a 10 años.
+- **[Castillo Blanco](/inflables/castillo-blanco/) — $1,700 MXN:** elegancia pura para bautizos, primeras comuniones y eventos formales. Mide 6×5×4 m sobre 8×7 m libres y recibe de 8 a 10 personas desde los 3 años.
+- **[Mini Castillo](/inflables/mini-castillo/) — $800 MXN:** el consentido de las más chiquitas. Compacto (2×2×2.5 m sobre 3×3 m), para 3 o 4 niñas de 1 a 4 años.
 
 Cada modelo tiene su personalidad y su público ideal. A continuación te explicamos en detalle las diferencias para que puedas elegir con confianza el que mejor se adapte a la fiesta de tu hija.
 
-> **Dato curioso:** El 65% de nuestras rentas para fiestas de niñas son del castillo de princesas. Sin embargo, el castillo blanco ha crecido mucho en popularidad para eventos más formales como bautizos y primeras comuniones.
+> **Lo que más nos piden:** en fiestas de niñas, la mayoría de las solicitudes que recibimos son del Castillo de Princesas. El Castillo Blanco, en cambio, se ha vuelto el habitual para eventos más formales como bautizos y primeras comuniones — lo desarrollamos en la guía de [inflables para eventos formales](/blog/inflables-eventos-formales-cdmx/).
 
 ## Castillo de Princesas vs Castillo Blanco
 
@@ -53,7 +53,8 @@ El **castillo de princesas** es una explosión de color rosa. Está diseñado pa
 
 - **Mejor para:** Cumpleaños, fiestas temáticas de princesas, eventos al aire libre
 - **Color dominante:** Rosa vibrante con detalles decorativos
-- **Edad ideal:** 3 a 10 años
+- **Edad ideal:** 4 a 10 años, de 5 a 7 niñas a la vez
+- **Medidas:** 4×4×3.5 m sobre 6×6 m de área libre — $1,200 MXN
 - **Ambiente:** Divertido, fantasioso, lleno de energía
 
 ### Castillo Blanco
@@ -62,7 +63,8 @@ El **castillo blanco** es la opción elegante. Su color neutro y su diseño sofi
 
 - **Mejor para:** Bautizos, primeras comuniones, fiestas elegantes, garden parties
 - **Color dominante:** Blanco con detalles sutiles
-- **Edad ideal:** 3 a 10 años
+- **Edad ideal:** desde los 3 años, de 8 a 10 personas a la vez
+- **Medidas:** 6×5×4 m sobre 8×7 m de área libre — $1,700 MXN
 - **Ambiente:** Elegante, clásico, sofisticado
 
 > **No sabes cuál elegir?** Envíanos por WhatsApp una foto del espacio y cuéntanos el tipo de evento. Te recomendamos el modelo ideal sin compromiso.
@@ -71,13 +73,13 @@ El **castillo blanco** es la opción elegante. Su color neutro y su diseño sofi
 
 La edad de las invitadas es un factor clave para elegir el **inflable temático** correcto. Cada modelo está optimizado para un rango de edad específico, garantizando la máxima diversión y seguridad.
 
-### De 1 a 3 años: Mini Castillo
+### De 1 a 4 años: Mini Castillo
 
-Para las más pequeñas, el **mini castillo** es la opción perfecta. Su tamaño compacto, paredes bajas y superficie extra acolchada están diseñados para que las bebés y niñas pequeñas puedan explorar y dar sus primeros saltos con total seguridad. Cabe en departamentos, patios pequeños y salones reducidos.
+Para las más pequeñas, el **Mini Castillo** es la única opción correcta. Su tamaño compacto, paredes bajas y superficie extra acolchada están diseñados para que las bebés y niñas pequeñas exploren y den sus primeros saltos con total seguridad, en grupos de 3 o 4. Cabe en departamentos, patios pequeños y salones reducidos: 3×3 m de área y 3.2 m de altura libre. La guía completa está en [renta de Mini Castillo para bebés](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
 
-### De 3 a 7 años: Castillo de Princesas o Castillo Blanco
+### De 4 a 7 años: Castillo de Princesas o Castillo Blanco
 
-Esta es la edad dorada para disfrutar los inflables temáticos. Las niñas tienen la energía y coordinación para brincar durante horas, y la imaginación para convertir el castillo en su palacio personal. Tanto el **castillo de princesas** como el **castillo blanco** son excelentes opciones en este rango.
+Esta es la edad dorada para disfrutar los inflables temáticos. Las niñas tienen la energía y coordinación para brincar durante horas, y la imaginación para convertir el castillo en su palacio personal. Tanto el **Castillo de Princesas** (4 a 10 años) como el **Castillo Blanco** (desde 3 años) funcionan aquí. Si quieres el plan completo de la celebración, revisa la guía de [fiesta de princesas con inflable para niñas](/blog/fiesta-princesas-ninas-inflable-cdmx/).
 
 ### De 7 a 10 años: Cualquier modelo
 
@@ -122,8 +124,8 @@ En **BRINCOLINS** hacemos que el proceso de renta sea lo más simple posible. To
 ### Proceso de reserva
 
 - **Escríbenos por WhatsApp:** Cuéntanos qué tipo de fiesta planeas, la edad de las niñas y el espacio disponible.
-- **Recibe recomendación personalizada:** Te sugerimos el modelo ideal y te enviamos cotización con todo incluido.
+- **Recibe recomendación personalizada:** Te sugerimos el modelo ideal y te enviamos la cotización. Los precios están publicados en la [página de precios](/precios/) e incluyen transporte, instalación, motor y retiro; son netos, con IVA solo si necesitas factura y cargo de envío según distancia en las zonas más lejanas.
 - **Aparta con anticipo:** Reserva tu inflable con el 50% de anticipo para asegurar tu fecha.
 - **Día de la fiesta:** Nuestro equipo llega puntual, instala todo y al terminar recoge el equipo.
 
-> **Reserva pronto:** Los inflables de princesas son los más solicitados, especialmente los fines de semana. Te recomendamos apartar con al menos 2 semanas de anticipación para garantizar disponibilidad.
+> **Reserva pronto:** Los inflables de princesas son los que más se piden para cumpleaños de niñas, especialmente los fines de semana. Te recomendamos apartar con al menos 2 semanas de anticipación: [pide tu cotización aquí](/cotizar/).

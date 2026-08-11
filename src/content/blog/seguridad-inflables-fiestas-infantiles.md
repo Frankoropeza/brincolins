@@ -22,7 +22,7 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Cuántos niños pueden usar el inflable a la vez?"
-    answer: "Depende del modelo. Un Mini Castillo (2×2×2.5 m) admite 6-8 niños; el Barco Pirata, 8-10 niños desde 4 años; y el Extremo, 6-10 niños desde 6 años. Superar la capacidad es la causa más común de accidentes. Siempre respeta el límite indicado."
+    answer: "Depende del modelo, y la diferencia es grande. El Mini Castillo (2×2×2.5 m) admite 3 a 4 niños de 1 a 4 años; los medianos —Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos— de 5 a 7 niños; el Castillo Blanco, 8 a 10 personas; el Barco Pirata, 8 a 10 niños desde 4 años; y el Extremo, 6 a 10 por turno desde 6 años. Superar la capacidad es la causa más común de accidentes. Siempre respeta el límite indicado."
   - question: "¿Qué pasa si hay viento fuerte?"
     answer: "Si el viento supera los 40 km/h, se debe desinflar y asegurar el brincolín. Nunca permitas que los niños usen un inflable con viento fuerte."
   - question: "¿Los inflables son seguros bajo la lluvia?"
@@ -33,7 +33,7 @@ faqs:
 
 Los inflables son equipos de entretenimiento serios. En México, la industria de renta de inflables ha crecido enormemente, pero no todos los operadores mantienen los mismos estándares. Cada año hay accidentes evitables — y la mayoría se deben a tres causas: sobrecarga de usuarios, anclaje deficiente y supervisión ausente.
 
-La buena noticia es que con información y un proveedor responsable, el riesgo es mínimo. Aquí te explicamos todo lo que necesitas saber.
+La buena noticia es que con información y un proveedor responsable, el riesgo es mínimo. Aquí te explicamos todo lo que necesitas saber, y si además quieres el criterio para escoger bien el modelo, la [guía para elegir el inflable según edad y espacio](/blog/como-elegir-inflable-fiesta-infantil/) es el complemento natural de este artículo.
 
 ## Antes de la fiesta: cómo revisar el inflable cuando llega
 
@@ -53,8 +53,8 @@ Estas reglas salvan vidas — o al menos, evitan las visitas al hospital. Comun�
 
 - **1. Sin zapatos adentro.** Los zapatos, especialmente los de punta dura, pueden perforar el inflable y lastimar a otros niños.
 - **2. Sin objetos punzantes.** Horquillas, cinturones con hebillas metálicas, juguetes — todo fuera antes de entrar.
-- **3. Respetar la capacidad máxima.** Si el inflable es para 8 niños, son 8. No más.
-- **4. Separar edades.** No mezcles niños de 3 años con adolescentes de 12. Los más grandes inadvertidamente pueden lastimarlos.
+- **3. Respetar la capacidad máxima.** Es el número de la ficha del modelo, no una sugerencia: 3 a 4 niños en el Mini Castillo, 5 a 7 en los medianos, 8 a 10 en el Castillo Blanco y el Barco Pirata, 6 a 10 por turno en el Extremo. Si son 4, son 4.
+- **4. Separar edades.** No mezcles niños de 3 años con adolescentes de 12. Los más grandes inadvertidamente pueden lastimarlos. Cuando la lista de invitados mezcla edades, la [comparativa de inflable chico contra grande](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/) explica cuándo conviene rentar dos modelos.
 - **5. Un adulto supervisa siempre.** No dejes el inflable sin supervisión adulta. Ni un minuto.
 - **6. Sin comida ni bebidas adentro.** Además del riesgo de atragantamiento, mancha y deteriora el vinilo del inflable.
 - **7. Ante cualquier problema, desinflar.** Si hay viento fuerte, lluvia intensa, o el inflable pierde presión — desinflar y esperar.
@@ -66,8 +66,11 @@ No todos los negocios de renta de inflables operan igual. Estas son las pregunta
 - **¿Con qué frecuencia revisan el estado de sus inflables?** Los buenos proveedores hacen revisión después de cada uso.
 - **¿Qué hacen si el inflable falla durante la fiesta?** Deben tener protocolo de respuesta rápida o equipo de respaldo.
 - **¿Tienen reseñas en Google o Facebook?** Busca opiniones reales de otros clientes, no solo los testimonios en su página.
+- **¿Publican la capacidad y las medidas de cada modelo?** Un proveedor que no sabe decirte cuántos niños admite su inflable tampoco va a hacerlos respetar el límite. Nosotros publicamos ambas cifras junto al precio en la [página de precios](/precios/).
 
-> **Red flags de un proveedor poco confiable:** precio anormalmente bajo, sin perfil en redes, no mencionan seguro, no tienen contrato escrito, piden pago total por adelantado sin recibo.
+Si quieres el checklist largo, lo desarrollamos en las [7 señales de un proveedor de inflables confiable](/blog/senales-proveedor-inflables-confiable-cdmx/).
+
+> **Red flags de un proveedor poco confiable:** precio anormalmente bajo, sin perfil en redes, sin contrato escrito, capacidad y medidas que "ya te digo luego", y pago total por adelantado sin recibo.
 
 ## Qué hacer en caso de emergencia
 
@@ -75,8 +78,10 @@ Si ocurre un accidente con el inflable durante la fiesta:
 
 - Desinfla el brincolín de inmediato para sacar a los niños de forma segura
 - Si hay lesión aparente, no muevas al niño — llama al 911
-- Documenta con fotos el estado del inflable (para el seguro)
+- Documenta con fotos el estado del inflable y las condiciones del área
 - Notifica de inmediato al proveedor — los operadores serios tienen protocolo de emergencias
+
+Seamos claros en algo que muchos proveedores dejan ambiguo: **BRINCOLINS no ofrece seguro**. Lo que sí entregamos en cada renta es equipo revisado y sanitizado, entrega e instalación con anclaje verificado, motor profesional durante todo el evento y recolección al terminar. Las condiciones exactas están en nuestras [preguntas frecuentes](/preguntas-frecuentes/).
 
 ---
 

@@ -21,7 +21,7 @@ faqs:
   - question: "¿El inflable extremo soporta el peso de adultos?"
     answer: "Sí, nuestro inflable Extremo está fabricado con lona comercial de alta resistencia diseñada para soportar el uso intensivo de adultos. Las costuras son reforzadas y el motor de inflado continuo mantiene la presión adecuada durante todo el evento."
   - question: "¿Pueden instalar el inflable dentro de un salón de eventos o centro de convenciones?"
-    answer: "Sí, siempre que el espacio cuente con la altura de techo suficiente y acceso a corriente eléctrica de 110V. Hemos instalado en hoteles, centros de convenciones, estacionamientos techados y explanadas corporativas en toda la CDMX."
+    answer: "Solo si el techo supera los 4.5 metros de altura libre, que es lo que pide el circuito Extremo (mide 7×4×3.8 m y necesita 9×6 m de área). Muy pocos salones lo cumplen, así que lo habitual es instalarlo en explanadas, estacionamientos descubiertos y jardines corporativos. Envíanos las medidas del espacio y te confirmamos antes de reservar."
   - question: "¿Ofrecen factura fiscal para empresas?"
     answer: "Sí, emitimos factura CFDI para todas las empresas que lo soliciten. Al momento de cotizar, indícanos que necesitas factura y te pedimos los datos fiscales correspondientes."
   - question: "¿Con cuánta anticipación debo reservar para un evento corporativo?"
@@ -36,7 +36,7 @@ Las pistas de obstáculos inflables han ganado terreno en el segmento corporativ
 
 ## Beneficios concretos para el team building
 
-Más allá de la diversión evidente, incorporar un [inflable extremo](/inflables/extremo/) en tu evento corporativo genera beneficios medibles para la cultura organizacional:
+Más allá de la diversión evidente, incorporar un [inflable Extremo](/inflables/extremo/) —7×4×3.8 m, circuito de obstáculos en doble carril, desde 6 años, 6 a 10 participantes por turno y **$1,900 MXN**— en tu evento corporativo genera beneficios concretos para la cultura organizacional:
 
 - **Comunicación efectiva:** las carreras por relevos obligan a los equipos a coordinarse, establecer estrategias y comunicarse bajo presión. Estas habilidades se transfieren directamente al ambiente laboral.
 - **Liderazgo emergente:** en las dinámicas de competencia surgen líderes naturales que motivan a su equipo. Es una oportunidad para que RH observe habilidades de liderazgo en un contexto informal.
@@ -44,7 +44,7 @@ Más allá de la diversión evidente, incorporar un [inflable extremo](/inflable
 - **Sentido de pertenencia:** los empleados valoran cuando la empresa invierte en experiencias fuera de lo común. Estos momentos generan recuerdos que fortalecen el vínculo emocional con la organización.
 - **Contenido para redes:** las fotos y videos del equipo en el inflable son contenido orgánico perfecto para las redes sociales corporativas y la marca empleadora.
 
-> **Dato corporativo:** Según estudios de engagement laboral, las empresas que organizan al menos un evento de integración con actividades físicas al trimestre reportan un 23% más de satisfacción entre sus colaboradores.
+> **Lo que vemos en los eventos de empresa:** las compañías que repiten actividad física en sus integraciones son las que nos vuelven a llamar año con año. El circuito es el modelo que más se renta para eventos corporativos, y en la guía de [inflables para eventos corporativos](/blog/inflables-para-adultos-eventos-corporativos/) explicamos cómo combinarlo cuando también hay hijos de colaboradores.
 
 ## Tipos de dinámicas con el inflable Extremo
 
@@ -83,7 +83,7 @@ Estos son los escenarios corporativos donde el inflable extremo genera el mayor 
 
 ### Integración de equipos
 
-El clásico team building trimestral o semestral. La pista de obstáculos funciona como actividad central del evento, complementada con comida, música y premiación. Es ideal para empresas de 20 a 200 personas.
+El clásico team building trimestral o semestral. La pista de obstáculos funciona como actividad central del evento, complementada con comida, música y premiación. Con 6 a 10 participantes por turno y recorridos de 30 a 60 segundos, funciona bien para grupos de 20 a 200 personas si organizas rondas. La mecánica completa está en la guía de [renta de pista inflable de obstáculos](/blog/renta-pista-inflable-obstaculos-cdmx/).
 
 ### Lanzamientos de producto o marca
 
@@ -91,7 +91,7 @@ Las activaciones de marca con inflables generan un alto nivel de interacción. L
 
 ### Family Day corporativo
 
-Cuando la empresa invita a las familias de los colaboradores, el inflable extremo se convierte en la atracción estrella. Los hijos adolescentes que normalmente se aburren en estos eventos encuentran una actividad a su nivel, y los papás también pueden competir. Toda la familia se divierte.
+Cuando la empresa invita a las familias de los colaboradores, el inflable Extremo se convierte en la atracción estrella para los mayores de 6 años. Los hijos adolescentes que normalmente se aburren encuentran una actividad a su nivel, y los papás también pueden competir. Para los hijos más chicos conviene sumar un [Mini Castillo](/inflables/mini-castillo/) de $800 MXN, que es el modelo de 1 a 4 años.
 
 ### Cierre de año y celebraciones
 
@@ -102,8 +102,8 @@ Las posadas corporativas y fiestas de cierre de año cobran una dimensión difer
 En **BRINCOLINS** sabemos que los organizadores de eventos corporativos necesitan respuestas rápidas y cotizaciones claras. Nuestro proceso es simple:
 
 1.  **Contáctanos por WhatsApp:** escríbenos con los detalles de tu evento (fecha, lugar, número de participantes, tipo de dinámica).
-2.  **Cotización en minutos:** te enviamos una propuesta con precio cerrado que incluye transporte, instalación, operación durante el evento y desmontaje.
+2.  **Cotización en minutos:** te enviamos una propuesta con precio cerrado. El Extremo cuesta **$1,900 MXN** netos e incluye transporte, instalación, operación durante el evento y desmontaje; se agrega IVA cuando pides factura CFDI, y hay cargo de envío según distancia en zonas lejanas. Todos los precios están en la [página de precios](/precios/) y también puedes [pedir tu cotización en línea](/cotizar/).
 3.  **Confirmación y factura:** una vez aprobado, apartas la fecha y te generamos la factura CFDI que necesites.
 4.  **Ejecución impecable:** nos encargamos de toda la logística para que tú te concentres en el éxito de tu evento.
 
-No importa si es tu primer evento con inflables o si ya eres un organizador experimentado: nuestro equipo te acompaña en cada paso para que todo salga perfecto. **Escríbenos hoy** y transforma tu próximo evento corporativo en algo que tus colaboradores recordarán por mucho tiempo.
+No importa si es tu primer evento con inflables o si ya eres un organizador experimentado: nuestro equipo te acompaña en cada paso. Atendemos de lunes a domingo de 8:00 a 20:00, y las dudas administrativas —factura, anticipo, cancelaciones— están resueltas en las [preguntas frecuentes](/preguntas-frecuentes/). **Escríbenos hoy** y transforma tu próximo evento corporativo en algo que tus colaboradores recordarán por mucho tiempo.

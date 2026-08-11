@@ -1,6 +1,6 @@
 ---
-title: "Mesa de Dulces e Inflable para Cumpleaños en CDMX: La."
-description: "Descubre por qué mesa de dulces + inflable es la combinación perfecta para cumpleaños en CDMX. Guía de BRINCOLINS y MEDEDUL: sincronización, temas, ahorro y."
+title: "Mesa de Dulces e Inflable para Cumpleaños en CDMX"
+description: "Mesa de dulces e inflable para cumpleaños en CDMX: cómo sincronizar ambos proveedores, qué modelo va con cada tema y cuánto cuesta la combinación completa."
 excerpt: "Mesa de dulces + inflable: la combinación que convierte un cumpleaños infantil en CDMX en un evento que todos recuerdan. Aprende a sincronizar ambos, elegir temas y ahorrar al combinarlos."
 publishDate: "2026-06-09"
 category: "Ideas"
@@ -42,16 +42,16 @@ Lo que hemos aprendido después de años coordinando estas dos experiencias es q
 
 Con más de 20 años en el mercado de la [renta de inflables en CDMX](/), BRINCOLINS ofrece una variedad de inflables para todos los gustos y espacios. Aquí el catálogo con los precios reales:
 
-- **Mini Castillo** — versión compacta del clásico, funciona en patios pequeños. Desde **$800 MXN**.
-- **Dragones Rojos** — aventura y acción, colores rojo intenso y negro, ideal para niños de 4-10 años. Desde **$1,200 MXN**.
-- **Castillo de Princesas** — elegante y mágico, el favorito de las niñas, colores rosa y lila. Desde **$1,200 MXN**.
-- **Mini Jungla** — compacto con obstáculos internos, perfecto para espacios medianos y niños inquietos. Desde **$1,300 MXN**.
-- **Gusanitos** — el ideal para los más pequeños (2-4 años), suave y seguro, colores vibrantes. Desde **$1,350 MXN**.
-- **Castillo Blanco** — versátil y elegante, funciona para cualquier temática, también para eventos formales. Desde **$1,700 MXN**.
-- **Barco Pirata** — temática de aventura, azul y detalles de madera, los niños se transforman en piratas. Desde **$1,800 MXN**.
-- **Extremo** — el circuito de obstáculos del catálogo, para fiestas con muchos invitados o cuando quieres que la competencia sea parte del espectáculo. Desde **$1,900 MXN**.
+- **[Mini Castillo](/inflables/mini-castillo/)** — 2×2×2.5 m sobre 3×3 m libres, 3 a 4 niños de 1 a 4 años. **$800 MXN**.
+- **[Dragones Rojos](/inflables/dragones-rojos/)** — 4×4×3.8 m sobre 6×6 m, 5 a 7 niños de 4 a 10 años. El modelo más rentado del catálogo. **$1,200 MXN**.
+- **[Castillo de Princesas](/inflables/castillo-princesas/)** — 4×4×3.5 m sobre 6×6 m, 5 a 7 niñas de 4 a 10 años. El más pedido para fiestas de niñas. **$1,200 MXN**.
+- **[Mini Jungla](/inflables/mini-jungla/)** — 4.5×4×3.5 m sobre 6.5×6 m, 5 a 7 niños de 3 a 10 años. **$1,300 MXN**.
+- **[Gusanitos](/inflables/gusanitos/)** — 5×3×2.5 m sobre 7×5 m, circuito de túneles para 5 a 7 niños de 4 a 10 años; funciona muy bien con edades mezcladas. **$1,350 MXN**.
+- **[Castillo Blanco](/inflables/castillo-blanco/)** — 6×5×4 m sobre 8×7 m, 8 a 10 personas desde 3 años. También para eventos formales. **$1,700 MXN**.
+- **[Barco Pirata](/inflables/barco-pirata/)** — 7×5×4.5 m sobre 9×7 m, 8 a 10 niños desde 4 años. El más grande. **$1,800 MXN**.
+- **[Extremo](/inflables/extremo/)** — 7×4×3.8 m sobre 9×6 m, circuito de obstáculos para 6 a 10 por turno desde 6 años. **$1,900 MXN**.
 
-Visita el [catálogo completo de inflables](/inflables/) para ver medidas y disponibilidad.
+Son precios netos: se agrega IVA solo si necesitas factura y, en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX, un cargo de envío según distancia. Visita el [catálogo completo de inflables](/inflables/) o la [página de precios](/precios/) para ver medidas y disponibilidad.
 
 ### MEDEDUL: el experto en mesas de dulces
 
@@ -108,7 +108,7 @@ El **Barco Pirata** de BRINCOLINS, con su azul intenso y detalles de madera, se 
 
 ### Jungla y animales
 
-El **Mini Jungla** o los **Dragones Rojos** combinan bien con una mesa en tonos verdes, amarillos y tierra, con animales de peluche decorativos, hojas tropicales y dulces en formas de animalitos. Es un tema que funciona especialmente bien para grupos mixtos de niños y niñas de 3 a 7 años.
+El **Mini Jungla** o los **Dragones Rojos** combinan bien con una mesa en tonos verdes, amarillos y tierra, con animales de peluche decorativos, hojas tropicales y dulces en formas de animalitos. Funciona especialmente bien para grupos mixtos de 4 a 10 años — las ideas completas de ambientación están en la guía de [fiesta temática safari con inflable](/blog/fiesta-tematica-safari-inflable-cdmx/).
 
 ### Unicornio y fantasía
 
@@ -116,7 +116,7 @@ El **Castillo Blanco** — neutro, versátil, elegante — es la base perfecta p
 
 ### Superhéroes
 
-Para niños más grandes, de 6 a 10 años, el **Extremo** o los **Dragones Rojos** combinan con mesas de superhéroes en rojo, azul y amarillo. Los dulces pueden tener formas de escudos, estrellas y rayos. Es el tema más pedido para niños que ya tienen opinión fuerte sobre cuál es su héroe favorito.
+Para niños más grandes, de 6 a 10 años, el **Extremo** (recomendado justo desde los 6) o los **Dragones Rojos** combinan con mesas de superhéroes en rojo, azul y amarillo. Los dulces pueden tener formas de escudos, estrellas y rayos. Es el tema más pedido para niños que ya tienen opinión fuerte sobre su héroe favorito.
 
 ## Cómo ahorrar al combinar ambos proveedores
 
@@ -124,11 +124,11 @@ Contratar dos proveedores especializados puede parecer más caro que una sola em
 
 **Reserva con anticipación.** Tanto BRINCOLINS como MEDEDUL tienen mejor disponibilidad — y a veces precios especiales — para reservas con más de 3-4 semanas de anticipación. Cuando reservas tarde, te quedas con lo que queda disponible, que no siempre es lo que quieres.
 
-**Elige el inflable según el espacio real, no el más grande.** Un **Mini Castillo** a $800 puede generar exactamente el mismo nivel de emoción que el **Extremo** a $1,900 si el grupo son 12 niños en un jardín pequeño. El impacto no viene del tamaño sino de la adecuación al espacio y la edad de los niños. No pagues por metros cúbicos de inflable que no van a usar.
+**Elige el inflable según el espacio y la edad reales, no por tamaño.** Un **Mini Castillo** a $800 genera la misma emoción que el **Extremo** a $1,900 si los invitados son niños de 1 a 4 años; y al revés, un Mini Castillo con 12 niños de ocho años se queda corto porque su capacidad son 3 o 4. El impacto viene de la adecuación, no de los metros. La cuenta por número de invitados está en la [comparativa de inflable chico contra grande](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/).
 
 **Define el tamaño de la mesa según el número de invitados.** MEDEDUL tiene opciones en varios tamaños. Para 20-25 invitados, una mesa mediana bien diseñada supera en impacto a una mesa grande pero genérica. El diseño siempre importa más que la escala.
 
-**Consulta nuestros [paquetes de fiesta](/servicios/paquetes-de-fiesta/).** Tenemos combinaciones que pueden simplificar la logística y reducir el costo total en comparación con contratar cada elemento por separado.
+**Consulta nuestros [paquetes de fiesta](/servicios/paquetes-de-fiesta/), desde $4,500 MXN.** Combinan inflable, mobiliario y extras, simplifican la logística y salen mejor que contratar cada elemento por separado; el desglose por tier está en la guía de [paquetes completos para fiesta con inflable](/blog/paquetes-completos-fiesta-inflable-cdmx/).
 
 **Comparte la logística.** Cuando coordinamos los mismos horarios de llegada y recogida con ambos proveedores, el tiempo que necesitas destinar a coordinar se reduce significativamente. Menos gestión, misma calidad.
 

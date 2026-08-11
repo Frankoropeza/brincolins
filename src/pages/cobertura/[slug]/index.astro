@@ -17,6 +17,13 @@ import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import FaqItem from "@/components/FaqItem.astro";
 import { COVERAGE_ZONES } from "@/data/coverage";
+import {
+  INFLABLES_ACTIVOS,
+  getInflableBySlug,
+  MODELOS_COUNT,
+  PRICE_RANGE,
+} from "@/data/inflables";
+import { SITE_URL } from "@/data/site";
 
 export async function getStaticPaths() {
   return COVERAGE_ZONES.map(zone => ({
@@ -26,6 +33,109 @@ export async function getStaticPaths() {
 }
 
 const { zone } = Astro.props;
+
+/* Nombre para usar dentro de una frase: "en el Estado de México", no
+   "en Estado de México". Las zonas normales no declaran zonePhrase. */
+const zonePhrase = zone.zonePhrase ?? zone.zone;
+
+/* ── Envío ────────────────────────────────────────────────────────────
+   La tarjeta decía "GRATIS · Envío incluido" en las 34 zonas mientras el
+   FAQ de 18 de ellas cobraba de $100 a $600. Ahora el importe sale de
+   coverage.ts (shippingFee), que es la misma fuente que citan el hero y
+   el FAQ: si hay cargo, la tarjeta lo dice. */
+const fee     = (zone.shippingFee ?? "").trim();
+const hasFee  = fee.length > 0;
+const feeLabel = hasFee ? fee : "GRATIS";
+const feeTitle = hasFee ? "Costo de envío" : "Costo de envío";
+const feeText  = zone.shippingNote ?? (hasFee
+  ? `Cargo de envío de ${fee} según la colonia, por la distancia desde nuestro almacén. Instalación y retiro van incluidos en el precio del inflable.`
+  : `Envío incluido en el precio para toda la zona ${zonePhrase}. Sin cargos adicionales de flete.`);
+const feeGradient = hasFee
+  ? "linear-gradient(135deg,#FF6F00,#E65100)"
+  : "linear-gradient(135deg,#00C853,#2E7D32)";
+const coloniasCopy2 = hasFee
+  ? `Si tu colonia está en ${zonePhrase} o en zonas limítrofes, contáctanos. Te confirmamos disponibilidad y el cargo de envío exacto (${fee}) antes de que apartes la fecha.`
+  : `Si tu colonia está en ${zonePhrase} o en zonas limítrofes, contáctanos. Es muy probable que podamos atenderte sin costo adicional de envío.`;
+
+/* ── Schema Service con areaServed de la zona ─────────────────────────
+   Las páginas de zona heredaban Organization/LocalBusiness/WebSite de
+   BaseLayout, pero ninguna declaraba el servicio local que ofrece en su
+   alcaldía o municipio. provider referencia el #org global: NO se crea
+   un LocalBusiness por zona. */
+const canonical = `${SITE_URL}/cobertura/${zone.slug}/`;
+const areaName  = zone.areaName ?? zone.zone;
+const areaType  = zone.areaType ?? "AdministrativeArea";
+
+const areaServed = {
+  "@type": areaType,
+  "name":  areaName,
+  ...(areaType === "State"
+    ? { "containedInPlace": { "@type": "Country", "name": "México" } }
+    : zone.areaParent
+      ? { "containedInPlace": { "@type": "State", "name": zone.areaParent } }
+      : {}),
+};
+
+/* Los modelos recomendados de la zona, resueltos contra el catálogo
+   canónico para que el precio del schema sea el real de inflables.ts. */
+const recModels = zone.inflablesRec
+  .map(r => getInflableBySlug(r.href.replace("/inflables/", "").replace(/\/$/, "")))
+  .filter((i): i is NonNullable<typeof i> => Boolean(i));
+const catalog = recModels.length > 0 ? recModels : INFLABLES_ACTIVOS;
+
+const serviceSchema = {
+  "@context":    "https://schema.org",
+  "@type":       "Service",
+  "@id":         `${canonical}#service`,
+  "name":        `Renta de inflables en ${areaName}`,
+  "serviceType": "Renta de inflables para fiestas infantiles a domicilio",
+  "url":         canonical,
+  "description": hasFee
+    ? `Renta de inflables a domicilio en ${zonePhrase}: entrega, instalación y retiro. Cargo de envío de ${fee} según la colonia. ${MODELOS_COUNT} modelos de ${PRICE_RANGE} MXN.`
+    : `Renta de inflables a domicilio en ${zonePhrase}: entrega, instalación y retiro incluidos, sin cargo de envío. ${MODELOS_COUNT} modelos de ${PRICE_RANGE} MXN.`,
+  "provider":    { "@id": `${SITE_URL}/#org` },
+  "areaServed":  areaServed,
+  "availableChannel": {
+    "@type":     "ServiceChannel",
+    "name":      "Cotización en línea",
+    "serviceUrl": `${SITE_URL}/cotizar/`,
+    "availableLanguage": { "@type": "Language", "name": "Spanish", "alternateName": "es-MX" },
+  },
+  "hoursAvailable": {
+    "@type":     "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens":     "08:00",
+    "closes":    "20:00",
+  },
+  "offers": {
+    "@type":         "AggregateOffer",
+    "priceCurrency": "MXN",
+    "lowPrice":      String(catalog.reduce((m, i) => Math.min(m, i.priceNumber), Infinity)),
+    "highPrice":     String(catalog.reduce((m, i) => Math.max(m, i.priceNumber), 0)),
+    "offerCount":    catalog.length,
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name":  `Inflables disponibles en ${areaName}`,
+    "itemListElement": catalog.map(i => ({
+      "@type":         "Offer",
+      "url":           `${SITE_URL}/inflables/${i.slug}/`,
+      "price":         String(i.priceNumber),
+      "priceCurrency": "MXN",
+      "availability":  "https://schema.org/InStock",
+      "seller":        { "@id": `${SITE_URL}/#org` },
+      "itemOffered": {
+        "@type":       "Product",
+        "name":        i.name,
+        "url":         `${SITE_URL}/inflables/${i.slug}/`,
+        "image":       `${SITE_URL}${i.image}`,
+        "category":    "Renta de Inflables",
+        "size":        i.size,
+        "audience":    { "@type": "PeopleAudience", "suggestedMinAge": parseInt(i.ages, 10) || 1 },
+      },
+    })),
+  },
+};
 ---
 
 <PageLayout
@@ -38,6 +148,7 @@ const { zone } = Astro.props;
     { name: zone.zone },
   ]}
   faqItems={zone.faqs}
+  schemaMarkup={JSON.stringify(serviceSchema)}
 >
   <!-- Breadcrumbs inline -->
   <div class="container">
@@ -55,7 +166,7 @@ const { zone } = Astro.props;
         <div>
           <span class="hero__badge">{zone.badge}</span>
           <h1 class="hero__title">
-            Renta de Inflables en <span class="highlight">{zone.zone}</span>
+            Renta de Inflables en <span class="highlight">{zonePhrase}</span>
           </h1>
           <p class="hero__desc">{zone.heroDesc}</p>
           <div class="hero__ctas">
@@ -73,49 +184,74 @@ const { zone } = Astro.props;
 
   <QuickNav />
 
-  <!-- ── Colonias ─────────────────────────────────────────────────── -->
-  <section class="section">
-    <div class="container">
-      <SectionHeader
-        badge="Colonias"
-        title={`¿Qué colonias de ${zone.zone} cubrimos?`}
-        subtitle="Entrega directa en estas colonias y zonas."
-        copy1={`Cubrimos toda la zona ${zone.zone}, incluyendo colonias residenciales, populares e históricas. Conocemos bien los accesos y particularidades de cada área.`}
-        copy2={`Si tu colonia está en ${zone.zone} o en zonas limítrofes, contáctanos. Es muy probable que podamos atenderte sin costo adicional de envío.`}
-      />
-      <div class="coverage__badges">
-        {zone.colonias.map(c => <span class="coverage__badge">{c}</span>)}
+  <!-- ── Zonas hijas (páginas hub: /cobertura/cdmx/ y /cobertura/edomex/) ── -->
+  {zone.childZones && zone.childZones.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <SectionHeader
+          badge="Zonas"
+          title={zone.childZonesTitle ?? `¿Qué zonas de ${zonePhrase} cubrimos?`}
+          subtitle="Cada zona tiene su propia página con colonias, cargo de envío y modelos recomendados."
+          copy1={`Estas son todas las zonas de ${zonePhrase} a las que llevamos inflables. En la página de cada una encontrarás las colonias con entrega directa, el cargo de envío exacto y los modelos que mejor funcionan en los espacios de esa zona.`}
+          copy2="¿No ves tu zona en la lista? Escríbenos por WhatsApp con tu dirección: cubrimos también colonias limítrofes y te confirmamos disponibilidad y costo en minutos."
+        />
+        <div class="zone-hub-grid">
+          {zone.childZones.map(c => (
+            <a href={c.href} class="zone-hub-card">
+              <span class="zone-hub-card__name">{c.name}</span>
+              <span class="zone-hub-card__note">{c.note}</span>
+            </a>
+          ))}
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  )}
+
+  <!-- ── Colonias ─────────────────────────────────────────────────── -->
+  {zone.colonias.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <SectionHeader
+          badge="Colonias"
+          title={`¿Qué colonias de ${zonePhrase} cubrimos?`}
+          subtitle="Entrega directa en estas colonias y zonas."
+          copy1={`Cubrimos toda la zona de ${zonePhrase}, incluyendo colonias residenciales, populares e históricas. Conocemos bien los accesos y particularidades de cada área.`}
+          copy2={coloniasCopy2}
+        />
+        <div class="coverage__badges">
+          {zone.colonias.map(c => <span class="coverage__badge">{c}</span>)}
+        </div>
+      </div>
+    </section>
+  )}
 
   <!-- ── Entrega ───────────────────────────────────────────────────── -->
   <section class="section section--alt">
     <div class="container">
       <SectionHeader
         badge="Entrega"
-        title={`¿Cómo entregamos en ${zone.zone}?`}
+        title={`¿Cómo entregamos en ${zonePhrase}?`}
         subtitle="Puntualidad y profesionalismo garantizados."
-        copy1={`Conocemos la vialidad y los accesos en ${zone.zone}. Nuestros equipos planifican la ruta con anticipación para llegar a tiempo, sin importar el tipo de colonia o fraccionamiento.`}
+        copy1={`Conocemos la vialidad y los accesos en ${zonePhrase}. Nuestros equipos planifican la ruta con anticipación para llegar a tiempo, sin importar el tipo de colonia o fraccionamiento.`}
         copy2="Para zonas con calles angostas o accesos controlados, coordinamos de antemano. Tu comodidad y la puntualidad de entrega son nuestra prioridad."
       />
       <div class="grid-3" style="max-width:900px;margin:0 auto;">
         <div class="why-card">
-          <div class="why-card__img" style="background:linear-gradient(135deg,#00C853,#2E7D32);">
-            <span class="why-card__img-label">GRATIS</span>
+          <div class="why-card__img" style={`background:${feeGradient};`}>
+            <span class="why-card__img-label" style={hasFee ? "font-size:1.35rem;" : undefined}>{feeLabel}</span>
           </div>
           <div class="why-card__body">
-            <h3 class="why-card__title">Costo de envío</h3>
-            <p class="why-card__desc">Envío incluido en el precio para toda la zona {zone.zone}. Sin cargos adicionales de flete.</p>
+            <h3 class="why-card__title">{feeTitle}</h3>
+            <p class="why-card__desc">{feeText}</p>
           </div>
         </div>
         <div class="why-card">
           <div class="why-card__img" style="background:linear-gradient(135deg,#1565C0,#0288D1);">
-            <span class="why-card__img-label">2h</span>
+            <span class="why-card__img-label">30min</span>
           </div>
           <div class="why-card__body">
             <h3 class="why-card__title">Instalación rápida</h3>
-            <p class="why-card__desc">Montaje profesional en menos de 2 horas desde la llegada al domicilio.</p>
+            <p class="why-card__desc">El montaje toma de 15 a 30 minutos según el modelo, y llegamos con antelación para que esté listo antes de tu hora.</p>
           </div>
         </div>
         <div class="why-card">
@@ -137,9 +273,9 @@ const { zone } = Astro.props;
       <div class="container">
         <SectionHeader
           badge="Recomendados"
-          title={`¿Qué inflables son ideales para ${zone.zone}?`}
+          title={`¿Qué inflables son ideales para ${zonePhrase}?`}
           subtitle="Selección perfecta para los espacios de esta zona."
-          copy1={`En ${zone.zone} los espacios varían mucho: desde jardines amplios hasta patios más compactos. Tenemos el modelo correcto para cada situación.`}
+          copy1={`En ${zonePhrase} los espacios varían mucho: desde jardines amplios hasta patios más compactos. Tenemos el modelo correcto para cada situación.`}
           copy2="¿No sabes cuál elegir? Mándanos una foto de tu espacio por WhatsApp y te recomendamos el inflable ideal para tu evento."
         />
         <div class="grid-3" style="max-width:900px;margin:0 auto;">
@@ -166,9 +302,9 @@ const { zone } = Astro.props;
       <div class="container">
         <SectionHeader
           badge="FAQ"
-          title={`¿Tienes dudas sobre entrega en ${zone.zone}?`}
+          title={`¿Tienes dudas sobre entrega en ${zonePhrase}?`}
           subtitle="Preguntas frecuentes de clientes en esta zona."
-          copy1={`Hemos atendido decenas de eventos en ${zone.zone} y conocemos las particularidades de cada colonia. Aquí respondemos las dudas más comunes de la zona.`}
+          copy1={`Hemos atendido decenas de eventos en ${zonePhrase} y conocemos las particularidades de cada colonia. Aquí respondemos las dudas más comunes de la zona.`}
           copy2="¿Tienes otra pregunta? Escríbenos por WhatsApp y te respondemos en minutos con todo lo que necesitas para tu evento."
         />
         <div style="max-width:800px;margin:0 auto;">
@@ -235,6 +371,39 @@ const { zone } = Astro.props;
       font-size: 0.875rem;
       font-weight: 600;
       color: var(--color-primary, #FF3D00);
+    }
+
+    /* ── Zonas hijas de las páginas hub ── */
+    .zone-hub-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 12px;
+    }
+    .zone-hub-card {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      padding: 14px 16px;
+      border-radius: 12px;
+      border: 1px solid rgba(0,0,0,0.08);
+      background: var(--color-bg-card, #fff);
+      text-decoration: none;
+      color: inherit;
+      transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+    .zone-hub-card:hover {
+      border-color: var(--color-primary, #FF3D00);
+      box-shadow: 0 10px 24px rgba(0,0,0,0.10);
+    }
+    .zone-hub-card__name {
+      font-family: var(--font-head);
+      font-size: 1rem;
+      font-weight: 800;
+    }
+    .zone-hub-card__note {
+      font-size: 0.8125rem;
+      line-height: 1.5;
+      color: var(--c-text-muted, #666);
     }
   </style>
 </PageLayout>

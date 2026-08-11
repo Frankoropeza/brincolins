@@ -19,7 +19,7 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Se puede usar un inflable dentro de un departamento?"
-    answer: "Sí, siempre y cuando cuentes con espacio suficiente (mínimo 3×3 metros libres) y una altura de techo de al menos 2.5 metros. Nuestros inflables pequeños están diseñados específicamente para funcionar en interiores sin problemas."
+    answer: "Sí, con el Mini Castillo: mide 2×2×2.5 m, necesita 3×3 metros libres y 3.2 metros de altura de techo. El otro modelo que entra bajo techo son los Gusanitos, que también miden 2.5 m de alto pero piden 7×5 metros de superficie. El resto del catálogo va en exterior."
   - question: "¿El motor del inflable hace mucho ruido en interiores?"
     answer: "Los motores de nuestros inflables pequeños son de bajo ruido, comparables al sonido de un ventilador. No generan molestias significativas durante la fiesta y permiten que la música y la conversación fluyan con normalidad."
   - question: "¿Es necesario tener ventilación especial para usar un inflable en interiores?"
@@ -46,11 +46,11 @@ Los inflables pequeños también son más silenciosos que los modelos grandes, l
 
 Antes de rentar un inflable para interiores, es fundamental conocer los requisitos mínimos de espacio. No todos los inflables son aptos para cualquier espacio cerrado, y elegir el modelo correcto marcará la diferencia entre una fiesta exitosa y un problema logístico.
 
-Como regla general, necesitas un área libre de al menos **3×3 metros** para los modelos más compactos y hasta 4×4 metros para inflables medianos. Además, la **altura del techo** es un factor crucial: necesitas al menos 2.5 metros de altura libre para que el inflable pueda inflarse completamente y los niños brinquen con comodidad.
+En interiores solo caben dos de los ocho modelos del catálogo, y la cifra que manda es la altura libre: **3.2 metros**. El Mini Castillo (2×2×2.5 m) pide **3×3 metros** de área; los Gusanitos (5×3×2.5 m), **7×5 metros**, porque son alargados. El resto del catálogo mide de 3.5 a 4.5 m de alto y necesita entre 4.2 y 5.2 m de altura libre, algo que casi ningún salón tiene.
 
 También debes considerar un margen de seguridad de al menos 50 centímetros alrededor del inflable para que los niños puedan entrar y salir sin obstáculos. Este espacio adicional también facilita la supervisión por parte de los adultos.
 
-> **Tip:** Antes de reservar, mide tu espacio con una cinta métrica y comparte las medidas con nuestro equipo por WhatsApp. Te recomendaremos el inflable que mejor se adapte a tus dimensiones disponibles.
+> **Tip:** Antes de reservar, mide tu espacio con una cinta métrica —largo, ancho y **altura del techo**— y comparte las medidas con nuestro equipo por WhatsApp. Si resulta que el salón no da, la alternativa es mover la fiesta al jardín: la [guía de fiesta infantil en jardín con inflable](/blog/fiesta-infantil-jardin-inflable-cdmx/) cubre ese escenario paso a paso.
 
 ## Consideraciones eléctricas para inflables en interiores
 
@@ -71,11 +71,11 @@ Es importante que el contacto eléctrico esté en buen estado y que el circuito 
 
 En **BRINCOLINS** contamos con varios modelos diseñados para funcionar perfectamente en espacios cerrados. Cada uno tiene características únicas que lo hacen ideal para diferentes tipos de fiestas y edades.
 
-El **[Mini Castillo](/inflables/mini-castillo/)** es nuestro modelo estrella para interiores. Con su diseño compacto y colorido, es perfecto para fiestas de niños pequeños de 1 a 5 años. Sus paredes de malla permiten la visibilidad completa y su altura reducida se adapta a la mayoría de los techos.
+El **[Mini Castillo](/inflables/mini-castillo/)** es el modelo más rentado para fiestas bajo techo. Mide 2×2×2.5 m, pide 3×3 m de área con 3.2 m de altura libre, recibe de 3 a 4 niños de 1 a 4 años y cuesta **$800 MXN**. Sus paredes de malla permiten visibilidad completa. Su guía completa está en [renta de Mini Castillo para bebés](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
 
-Los **[Gusanitos](/inflables/gusanitos/)** son otra excelente opción para interiores. Su diseño alargado y bajo los hace ideales para espacios donde la altura del techo es limitada. Los niños pueden gatear, deslizarse y explorar los túneles en un ambiente seguro y controlado.
+Los **[Gusanitos](/inflables/gusanitos/)** son el otro modelo que entra bajo techo: 5×3×2.5 m de circuito de túneles, con la misma altura libre de 3.2 m pero 7×5 m de superficie, para 5 a 7 niños de 4 a 10 años y **$1,350 MXN**. Como es alargado, lo que hay que medir es el largo del salón.
 
-El **[Castillo de Princesas](/inflables/castillo-princesas/)** combina la diversión del brincolín con una temática encantadora que fascina a los niños. Es ligeramente más grande que el mini castillo pero sigue siendo apto para la mayoría de los salones de fiestas.
+Y aquí la parte honesta: **no hay un tercer modelo**. El [Castillo de Princesas](/inflables/castillo-princesas/) (4×4×3.5 m) y los demás medianos necesitan 4.2 m o más de altura libre, así que van en exterior aunque el salón parezca amplio. Preferimos decírtelo antes de reservar; el resto de las medidas está en la [comparativa completa de modelos](/blog/flota-inflables-brincolins-catalogo-modelos-cdmx/).
 
 > **Recomendación:** Si no estás seguro de qué modelo elegir, envíanos fotos de tu espacio por WhatsApp. Nuestro equipo te asesorará de forma gratuita para encontrar el inflable perfecto para tu fiesta en interiores.
 
@@ -98,4 +98,4 @@ Reservar un inflable pequeño para tu fiesta en interiores es muy fácil con **B
 
 Simplemente contáctanos por WhatsApp y cuéntanos sobre tu evento: el espacio disponible, la edad de los niños, el número aproximado de invitados y la zona de entrega. Con esa información, te recomendaremos el modelo ideal y te enviaremos una cotización al momento.
 
-Nuestro servicio incluye entrega a domicilio en toda la **CDMX y zona metropolitana**, instalación profesional con revisión completa de seguridad, y recolección al finalizar el evento. Tú solo te preocupas por disfrutar la fiesta y nosotros nos encargamos de la diversión inflable.
+Nuestro servicio incluye entrega a domicilio en toda la **CDMX y zona metropolitana**, instalación profesional con revisión completa de seguridad, y recolección al finalizar el evento. Los precios están publicados en la [página de precios](/precios/): son netos, con IVA solo si necesitas factura y cargo de envío según distancia en municipios lejanos de Edomex y en algunas alcaldías del sur y oriente de la CDMX. Cuando tengas la fecha, [pide tu cotización](/cotizar/) y te confirmamos disponibilidad el mismo día.

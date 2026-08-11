@@ -15,7 +15,15 @@ export interface Inflable {
   name:        string;
   price:       string;    // formato "$X,XXX" para display
   priceNumber: number;    // número para schema / ordenamiento
-  size:        string;
+  size:        string;    // medidas del inflable: largo×ancho×alto
+  /** Área libre que hay que despejar: medidas + 1 m de margen por lado.
+      Es la regla de seguridad que el propio sitio publica. */
+  spaceRequired: string;
+  /** Altura libre necesaria: alto del inflable + 0.7 m. Determina si cabe bajo techo. */
+  heightClearance: string;
+  /** true si la altura libre requerida permite instalarlo en interiores
+      (salón, terraza techada, departamento con techo estándar de 2.4-3 m). */
+  indoor:      boolean;
   ages:        string;
   capacity:    string;
   installTime: string;
@@ -27,6 +35,23 @@ export interface Inflable {
   gallery?:    string[];
 }
 
+/* ──────────────────────────────────────────────────────────────
+   Política de precios — UNA sola redacción para todo el sitio
+   ──────────────────────────────────────────────────────────────
+   Antes había dos fuentes en conflicto: las 8 fichas de producto
+   mostraban "+ IVA" mientras las otras 133 páginas prometían
+   "el precio final, sin cargos ocultos". Un Castillo de Princesas
+   pasaba de $1,200 a $1,392 sin avisar.
+   ────────────────────────────────────────────────────────────── */
+export const PRICE_NOTE       = "+ IVA si requieres factura";
+export const PRICE_NOTE_LONG  = "Los precios son netos. Si necesitas factura, se agrega el 16% de IVA.";
+
+/* Requisitos operativos comunes a todos los modelos. Estaban repetidos
+   a mano en ~10 archivos y derivaban entre sí. */
+export const REQ_POWER   = "Toma de corriente de 110V a menos de 20 m del área de instalación";
+export const REQ_SURFACE = "Superficie plana y despejada, sin vidrio ni objetos punzantes";
+export const REQ_ADULT   = "Supervisión de una persona adulta durante todo el evento";
+
 export const INFLABLES: Inflable[] = [
   {
     slug:        "mini-castillo",
@@ -34,6 +59,9 @@ export const INFLABLES: Inflable[] = [
     price:       "$800",
     priceNumber: 800,
     size:        "2×2×2.5m",
+    spaceRequired:   "3×3 m",
+    heightClearance: "3.2 m",
+    indoor:      true,
     ages:        "1-4 años",
     capacity:    "3-4 niños",
     installTime: "15 minutos",
@@ -54,6 +82,9 @@ export const INFLABLES: Inflable[] = [
     price:       "$1,200",
     priceNumber: 1200,
     size:        "4×4×3.8m",
+    spaceRequired:   "6×6 m",
+    heightClearance: "4.5 m",
+    indoor:      false,
     ages:        "4-10 años",
     capacity:    "5-7 niños",
     installTime: "20 minutos",
@@ -68,6 +99,9 @@ export const INFLABLES: Inflable[] = [
     price:       "$1,200",
     priceNumber: 1200,
     size:        "4×4×3.5m",
+    spaceRequired:   "6×6 m",
+    heightClearance: "4.2 m",
+    indoor:      false,
     ages:        "4-10 años",
     capacity:    "5-7 niños",
     installTime: "20 minutos",
@@ -88,6 +122,9 @@ export const INFLABLES: Inflable[] = [
     price:       "$1,300",
     priceNumber: 1300,
     size:        "4.5×4×3.5m",
+    spaceRequired:   "6.5×6 m",
+    heightClearance: "4.2 m",
+    indoor:      false,
     ages:        "3-10 años",
     capacity:    "5-7 niños",
     installTime: "15 minutos",
@@ -108,6 +145,9 @@ export const INFLABLES: Inflable[] = [
     price:       "$1,350",
     priceNumber: 1350,
     size:        "5×3×2.5m",
+    spaceRequired:   "7×5 m",
+    heightClearance: "3.2 m",
+    indoor:      true,
     ages:        "4-10 años",
     capacity:    "5-7 niños",
     installTime: "20 minutos",
@@ -128,6 +168,9 @@ export const INFLABLES: Inflable[] = [
     price:       "$1,800",
     priceNumber: 1800,
     size:        "7×5×4.5m",
+    spaceRequired:   "9×7 m",
+    heightClearance: "5.2 m",
+    indoor:      false,
     ages:        "4+ años",
     capacity:    "8-10 niños",
     installTime: "30 minutos",
@@ -148,6 +191,9 @@ export const INFLABLES: Inflable[] = [
     price:       "$1,700",
     priceNumber: 1700,
     size:        "6×5×4m",
+    spaceRequired:   "8×7 m",
+    heightClearance: "4.7 m",
+    indoor:      false,
     ages:        "3+ años",
     capacity:    "8-10 personas",
     installTime: "30 minutos",
@@ -168,6 +214,9 @@ export const INFLABLES: Inflable[] = [
     price:       "$1,900",
     priceNumber: 1900,
     size:        "7×4×3.8m",
+    spaceRequired:   "9×6 m",
+    heightClearance: "4.5 m",
+    indoor:      false,
     ages:        "6+ años",
     capacity:    "6-10 niños por turno",
     installTime: "30 minutos",
@@ -201,4 +250,41 @@ export const INFLABLES_SELECT_OPTIONS = [
 /** Encuentra un inflable por slug */
 export function getInflableBySlug(slug: string): Inflable | undefined {
   return INFLABLES.find(i => i.slug === slug);
+}
+
+/** Modelos que caben bajo techo (altura libre ≤ 3.2 m). */
+export const INFLABLES_INTERIOR = INFLABLES_ACTIVOS.filter(i => i.indoor);
+
+/** Número real de modelos activos. Había 3 cifras circulando por el sitio:
+    "8 modelos", "más de 8 modelos" y "14 modelos". */
+export const MODELOS_COUNT = INFLABLES_ACTIVOS.length;
+
+/** Rango de precios para schema y copy: "$800 - $1,900". */
+export const PRICE_RANGE =
+  `${INFLABLES_ACTIVOS[0].price} - ${INFLABLES_ACTIVOS[INFLABLES_ACTIVOS.length - 1].price}`;
+
+/** Etiqueta y color de badge por modelo — los mismos que usa /inflables/,
+    para que la tarjeta se vea igual en cualquier página que la consuma. */
+export const BADGE: Record<string, { label: string; color: string }> = {
+  "dragones-rojos":     { label: "Más rentado",  color: "castillo"  },
+  "castillo-princesas": { label: "Princesas",    color: "princesas" },
+  "mini-jungla":        { label: "Aventura",     color: "jungla"    },
+  "gusanitos":          { label: "Tropical",     color: "jungla"    },
+  "mini-castillo":      { label: "Para bebés",   color: "castillo"  },
+  "barco-pirata":       { label: "El más grande", color: "pirata"   },
+  "extremo":            { label: "Obstáculos",   color: "extremo"   },
+  "castillo-blanco":    { label: "Bodas y XV",   color: "bodas"     },
+};
+
+/** Ficha de specs lista para renderizar, en el mismo orden en todas las páginas. */
+export function getSpecRows(i: Inflable) {
+  return [
+    { label: "Medidas",          value: i.size },
+    { label: "Espacio libre",    value: i.spaceRequired },
+    { label: "Altura libre",     value: i.heightClearance },
+    { label: "Edades",           value: i.ages },
+    { label: "Capacidad",        value: i.capacity },
+    { label: "Instalación",      value: i.installTime },
+    { label: "Apto interiores",  value: i.indoor ? "Sí" : "No — sólo exteriores" },
+  ];
 }

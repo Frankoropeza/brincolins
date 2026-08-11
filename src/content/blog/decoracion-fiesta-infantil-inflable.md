@@ -29,18 +29,18 @@ faqs:
   - question: "¿Qué zonas necesito definir en la fiesta para que fluya bien?"
     answer: "Una fiesta bien organizada tiene al menos 4 zonas: zona de juego con el inflable, zona de alimentos separada, zona de descanso para adultos con línea de vista al inflable, y zona de fotos. Esta separación evita el caos y facilita la supervisión de los niños."
   - question: "¿Los inflables se pueden instalar en salones cerrados?"
-    answer: "Sí, siempre que el techo tenga mínimo 4 metros de altura libre y haya espacio suficiente alrededor. Contáctanos con las medidas de tu salón y te confirmamos qué modelos aplican para instalación en interior sin costo de asesoría."
+    answer: "Solo dos de los ocho modelos entran bajo techo: el Mini Castillo (2×2×2.5 m, 3×3 m de área) y los Gusanitos (5×3×2.5 m, 7×5 m de área), ambos con 3.2 m de altura libre. Los medianos piden 4.2 m de altura y los grandes hasta 5.2 m, algo que casi ningún salón alcanza. Contáctanos con las medidas de tu espacio y te confirmamos sin costo."
 ---
 
 ## El inflable como centro del diseño
 
-El error más común al decorar una fiesta con inflable es tratar la decoración y el inflable como dos elementos separados. En realidad, el inflable debería ser el punto de partida de toda tu paleta de colores y temática. Si rentaste un [castillo de princesas](/inflables/castillo-princesas/) en tonos rosa y morado, esos deberían ser los colores dominantes en manteles, globos, platos y servilletas. Si elegiste un inflable de [dragones rojos](/inflables/dragones-rojos/), trabaja con tonos rojos, negros y dorados para crear cohesión visual.
+El error más común al decorar una fiesta con inflable es tratar la decoración y el inflable como dos elementos separados. En realidad, el inflable debería ser el punto de partida de toda tu paleta de colores y temática — el mismo criterio que aplicamos en la guía de [inflables temáticos para fiestas infantiles](/blog/inflables-tematicos-infantiles-cdmx/). Si rentaste un [castillo de princesas](/inflables/castillo-princesas/) en tonos rosa y morado, esos deberían ser los colores dominantes en manteles, globos, platos y servilletas. Si elegiste un inflable de [dragones rojos](/inflables/dragones-rojos/), trabaja con tonos rojos, negros y dorados para crear cohesión visual.
 
-Esta coordinación no requiere gastar más dinero, simplemente requiere planificación. Cuando reserves tu inflable, pide fotos del modelo exacto que te entregarán para que puedas comprar la decoración con los colores correctos.
+Esta coordinación no requiere gastar más dinero, simplemente planificación. Cuando reserves tu inflable, pide fotos del modelo exacto que te entregarán para comprar la decoración con los colores correctos. Los ocho modelos, con foto, medidas y precio de $800 a $1,900 MXN, están en la [página de precios](/precios/).
 
 ## Paletas de color según tipo de inflable
 
-Para facilitar la elección, aquí te presentamos combinaciones probadas que funcionan con los inflables más populares:
+Para facilitar la elección, aquí van combinaciones probadas para cada uno de los modelos del catálogo. Si todavía no sabes cuál rentar, la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/) parte de la edad y el espacio:
 
 | Inflable | Colores principales | Acento |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ Una fiesta infantil bien organizada tiene zonas definidas. Esto evita el caos, f
 
 ### Zona de juego (el inflable)
 
-El inflable debe estar en un área despejada con al menos 2 metros de espacio libre alrededor. Coloca un tapete o lona debajo de la entrada para que los niños se quiten los zapatos sin pisar el piso directamente. Puedes delimitar el área con banderines o guirnaldas que combinen con la temática. Un letrero de bienvenida tipo "Zona de diversión" le da un toque profesional.
+El inflable debe estar en un área despejada: 3×3 m para el Mini Castillo, de 6×6 a 7×5 m para los medianos y hasta 9×7 m para el Barco Pirata, siempre con un metro de margen por lado ya incluido en esas cifras. Coloca un tapete o lona debajo de la entrada para que los niños se quiten los zapatos sin pisar el piso directamente. Puedes delimitar el área con banderines o guirnaldas que combinen con la temática. Un letrero de bienvenida tipo "Zona de diversión" le da un toque profesional.
 
 ### Zona de alimentos
 
@@ -89,7 +89,7 @@ Si tu fiesta es en un jardín y se extiende hasta la tarde-noche, la iluminació
 - **Series de luces cálidas (fairy lights):** Cuelga tiras de luces LED cálidas entre árboles o postes. Cuestan entre $100-200 MXN por tira de 10 metros y crean un ambiente mágico.
 - **Lámparas de papel:** Las lámparas chinas de papel en colores de la temática se ven hermosas colgadas a diferentes alturas.
 - **Velas LED en frascos:** Seguros para niños y crean un ambiente cálido en las mesas de adultos.
-- **Reflectores de colores:** Un par de reflectores LED apuntando al inflable lo hacen lucir espectacular cuando oscurece.
+- **Reflectores de colores:** Un par de reflectores LED apuntando al inflable lo hacen lucir espectacular cuando oscurece. Si quieres llevar la iluminación más lejos, en la guía de [iluminación, tecnología e inflables](/blog/iluminacion-tecnologia-inflables-fiesta-cdmx/) desglosamos tres niveles de montaje con presupuesto.
 
 ## Mesa de pastel y dulces: el segundo protagonista
 

@@ -31,7 +31,7 @@ faqs:
 
 ## 1. Ventajas de los inflables en espacios exteriores
 
-Instalar un inflable al aire libre ofrece ventajas que simplemente no existen en espacios cerrados. La primera y más obvia es el **espacio ilimitado**. En un jardín no tienes las restricciones de altura y metros cuadrados que impone un salón de fiestas. Esto permite usar modelos más grandes, como toboganes o pistas de obstáculos, que serían imposibles de instalar en interiores.
+Instalar un inflable al aire libre ofrece ventajas que simplemente no existen en espacios cerrados. La primera y más obvia es el **espacio ilimitado**. En un jardín no tienes las restricciones de altura y metros cuadrados que impone un salón de fiestas. Esto permite usar modelos más grandes, como el Barco Pirata (9×7 m de área libre y 5.2 m de altura) o el circuito Extremo (9×6 m), que serían imposibles de instalar bajo techo: los únicos dos modelos del catálogo que caben en interiores son el Mini Castillo y los Gusanitos, y los comparamos en la guía de [inflables pequeños para fiestas en interiores](/blog/inflable-pequeno-fiestas-interiores-cdmx/).
 
 La segunda gran ventaja es la **ventilación natural**. Los inflables en exteriores se mantienen frescos gracias al flujo de aire constante, lo que significa que los niños pueden brincar por más tiempo sin sobrecalentarse. En un salón cerrado, el calor se acumula dentro del inflable y los niños se cansan más rápido.
 
@@ -84,15 +84,15 @@ No todos los inflables funcionan igual en exteriores. Algunos modelos están esp
 
 ### [Gusanitos](/inflables/gusanitos/) Tropical
 
-El **Gusanitos Tropical** es un modelo compacto pero visualmente impactante que se ve espectacular en jardines. Sus colores tropicales combinan naturalmente con el verde del pasto y las plantas, creando una estética que parece parte del paisaje. Su tamaño lo hace ideal para jardines medianos donde no quieres que el inflable ocupe todo el espacio disponible.
+El **Gusanitos** es un circuito de túneles de 5×3×2.5 m que pide 7×5 m de área libre: compacto en altura pero alargado, así que mide el largo del jardín antes de decidir. Sus colores tropicales combinan naturalmente con el verde del pasto, recibe de 5 a 7 niños de 4 a 10 años y cuesta **$1,350 MXN**.
 
 ### [Barco Pirata](/inflables/barco-pirata/)
 
-El **Barco Pirata** es uno de nuestros modelos más grandes y se luce al máximo en espacios abiertos donde puede apreciarse desde lejos. Su altura y diseño temático crean un punto focal impresionante en cualquier jardín o terreno. Es perfecto para fiestas con muchos invitados donde necesitas un inflable que entretenga a grupos grandes.
+El **Barco Pirata** es el modelo más grande del catálogo —7×5×4.5 m sobre 9×7 m de área libre— y se luce al máximo en espacios abiertos donde puede apreciarse desde lejos. Recibe de 8 a 10 niños desde los 4 años y cuesta **$1,800 MXN**. Es la elección obvia para fiestas con muchos invitados; en la guía de [inflables grandes con tobogán](/blog/inflables-grandes-con-tobogan-cdmx/) lo comparamos con el Extremo.
 
 ### [Inflable Extremo](/inflables/extremo/)
 
-Para eventos al aire libre con niños más grandes (7-14 años), el **Inflable Extremo** ofrece retos de escalada, tobogán y zona de obstáculos que mantienen entretenidos incluso a los adolescentes. Requiere un espacio más amplio pero el resultado es una fiesta llena de adrenalina y actividad física al aire libre.
+Para eventos al aire libre con niños desde 6 años y adolescentes, el **circuito Extremo** ofrece retos de escalada, tobogán y zona de obstáculos. Mide 7×4×3.8 m, pide 9×6 m de área libre, recibe de 6 a 10 participantes por turno y cuesta **$1,900 MXN**. Requiere más espacio, pero el resultado es una fiesta llena de adrenalina.
 
 ## 5. Instalación eléctrica en exteriores
 
@@ -109,11 +109,11 @@ La conexión eléctrica es un aspecto crítico para inflables al aire libre que 
 
 Organizar una **fiesta con inflable en tu jardín** requiere planificación, pero no tiene por qué ser complicado. Aquí te damos un checklist completo para que no se te pase nada:
 
-- **Mide tu espacio:** Necesitas al menos el área del inflable más un metro de perímetro de seguridad. Mide largo, ancho y altura libre (cuidado con ramas y cables).
+- **Mide tu espacio:** Necesitas al menos el área del inflable más un metro de perímetro de seguridad por lado. Va de 3×3 m para el Mini Castillo a 9×7 m para el Barco Pirata; la [guía para elegir inflable según edad y espacio](/blog/como-elegir-inflable-fiesta-infantil/) trae la tabla completa. Mide largo, ancho y altura libre (cuidado con ramas y cables).
 - **Verifica electricidad:** Confirma que tienes una toma de 110V funcional a menos de 15 metros del área de instalación. Prueba que el circuito soporte la carga del soplador.
 - **Planea la distribución:** Define dónde irá el inflable, dónde las mesas de comida, dónde la zona de descanso y por dónde entrarán los invitados. Deja espacio de circulación entre todas las áreas.
 - **Considera el clima:** Revisa el pronóstico una semana antes y el día anterior. Si es temporada de lluvias, ten un toldo o carpa como plan B. Si es temporada seca, provee sombra y agua para hidratación.
 - **Prepara el terreno:** Poda el pasto, retira piedras y objetos, nivela si es necesario. Todo esto hazlo al menos un día antes para que el área esté lista cuando llegue nuestro equipo.
-- **Reserva tu inflable:** Contáctanos por WhatsApp con la fecha, ubicación y fotos del espacio. Te confirmamos disponibilidad, precio y horario de instalación. Llegamos con anticipación para tener todo listo antes de que lleguen los invitados.
+- **Reserva tu inflable:** Contáctanos por WhatsApp o desde el [formulario de cotización](/cotizar/) con la fecha, ubicación y fotos del espacio. Te confirmamos disponibilidad, precio y horario de instalación. Llegamos con anticipación para tener todo listo antes de que lleguen los invitados.
 
-En **BRINCOLINS** servimos toda la **Ciudad de México y Zona Metropolitana**. Ya sea que tengas un jardín en Coyoacán, un patio en Naucalpan, una azotea en la Benito Juárez o un terreno en Ecatepec, llegamos con tu inflable, lo instalamos y lo recogemos al finalizar. Todo incluido, sin costos ocultos.
+En **BRINCOLINS** servimos toda la **Ciudad de México y Zona Metropolitana**: un jardín en [Coyoacán](/cobertura/coyoacan/), un patio en [Naucalpan](/cobertura/naucalpan/), una azotea en [Benito Juárez](/cobertura/benito-juarez/) o un terreno en [Ecatepec](/cobertura/ecatepec/). Llegamos con tu inflable, lo instalamos y lo recogemos al finalizar. Los precios son netos —IVA solo si necesitas factura— y en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX se cobra el envío según la distancia.

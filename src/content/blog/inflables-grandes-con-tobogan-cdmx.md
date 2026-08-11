@@ -20,7 +20,7 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Cuánto espacio necesito para un inflable grande con tobogán?"
-    answer: "Los inflables grandes con tobogán requieren un área mínima de 8×6 metros más 1.5 metros de perímetro de seguridad por cada lado. La altura libre debe ser de al menos 5 metros. Son ideales para jardines amplios, explanadas, parques y salones con techo alto. Si no estás seguro, mándanos una foto del espacio por WhatsApp y te asesoramos."
+    answer: "El Barco Pirata (7×5×4.5 m) necesita 9×7 metros de área libre y 5.2 metros de altura; el circuito Extremo (7×4×3.8 m), 9×6 metros y 4.5 m de altura. Esas cifras ya incluyen el margen de seguridad por lado. Por la altura, ambos van en exterior: jardines amplios, explanadas o parques. Si no estás seguro, mándanos una foto del espacio por WhatsApp y te asesoramos."
   - question: "¿Los inflables grandes con tobogán son seguros para niños?"
     answer: "Absolutamente. Todos nuestros inflables cumplen con normas de seguridad comercial. Los toboganes tienen paredes laterales altas, pendiente controlada y zonas de aterrizaje con colchón extra grueso. Además, nuestro equipo de instalación verifica las condiciones de seguridad antes de entregar el inflable."
   - question: "¿Para qué tipo de eventos funcionan los inflables grandes?"
@@ -37,12 +37,12 @@ La primera ventaja es la **variedad de actividades en una sola estructura**. Mie
 
 La segunda ventaja es el **factor impacto visual**. Un inflable grande con tobogán se ve impresionante desde lejos y atrae la atención de todos los asistentes. En eventos como kermeses o festivales, funciona como punto focal que organiza el espacio y genera expectativa. Los niños corren hacia él en cuanto lo ven, y los adultos sacan sus teléfonos para tomar fotos.
 
-- **Mayor capacidad:** Los inflables grandes pueden recibir más niños simultáneamente, reduciendo tiempos de espera.
+- **Mayor capacidad:** el Barco Pirata recibe de 8 a 10 niños y el Extremo de 6 a 10 por turno, contra los 5 a 7 de un modelo mediano. Menos fila, menos pleitos por turno.
 - **Ejercicio completo:** Escalar, brincar y deslizarse trabajan diferentes grupos musculares y mejoran la coordinación motriz.
 - **Entretenimiento prolongado:** Los niños pasan hasta 3 horas usando un inflable con tobogán sin aburrirse, versus 45-60 minutos en un brincolín simple.
 - **Valor percibido:** Los invitados perciben un inflable grande como algo premium, elevando la experiencia general de tu evento.
 
-> **Dato de experiencia:** Según nuestros registros, los eventos con inflables grandes con tobogán reciben un 60% más de comentarios positivos de los padres que los eventos con brincolines simples. La diferencia es notable.
+> **Dato de experiencia:** cuando el inflable tiene tobogán, los niños tardan mucho más en cansarse de él — rotan entre brincar, escalar y deslizarse en lugar de repetir una sola acción. Es la diferencia que más nos comentan los papás después del evento. La comparativa completa está en [brincolín vs. tobogán inflable](/blog/brincolin-vs-tobogan-inflable-cdmx/).
 
 ## Modelos grandes con tobogán disponibles en BRINCOLINS
 
@@ -50,15 +50,15 @@ En **BRINCOLINS** ofrecemos varios modelos de **inflables grandes con tobogán**
 
 ### [Barco Pirata](/inflables/barco-pirata/) con Tobogán
 
-Nuestro modelo estrella. Un **galeón pirata inflable** de gran formato con cubierta de brinco, rampa de escalada y tobogán de gran altura que sale por la popa del barco. Es la opción perfecta para fiestas con **temática pirata**, eventos al aire libre y kermeses escolares. Su diseño detallado con cañones, mástiles y bandera pirata lo convierte en una pieza espectacular que transforma cualquier espacio.
+El modelo más grande del catálogo: 7×5×4.5 m sobre 9×7 m de área libre, para 8 a 10 niños desde los 4 años, a **$1,800 MXN**. Un **galeón pirata inflable** con cubierta de brinco, rampa de escalada y tobogán de gran altura que sale por la popa. Es la opción perfecta para fiestas con **temática pirata**, eventos al aire libre y kermeses escolares. Su diseño detallado con cañones, mástiles y bandera pirata lo convierte en una pieza espectacular que transforma cualquier espacio.
 
 ### [Inflable Extremo](/inflables/extremo/)
 
-Para los eventos que buscan la máxima adrenalina. El **inflable Extremo** combina una pista de obstáculos con tobogán, ofreciendo un recorrido completo que desafía la agilidad y coordinación de los niños. Incluye túneles, paredes de escalada, zonas de brinco y un deslizadero final que remata la experiencia. Ideal para niños de 6 a 14 años que buscan un reto mayor.
+Para los eventos que buscan la máxima adrenalina. El **inflable Extremo** mide 7×4×3.8 m, pide 9×6 m de área libre y cuesta **$1,900 MXN**. Combina pista de obstáculos y tobogán en un recorrido con túneles, paredes de escalada y deslizadero final, para 6 a 10 participantes por turno. Recomendado **desde los 6 años** y sin tope por arriba: funciona igual con adolescentes y adultos, como explicamos en la guía de [inflables para adolescentes y jóvenes](/blog/inflables-para-adolescentes-jovenes-cdmx/).
 
 ### Combinaciones para eventos grandes
 
-Para eventos con más de 30 niños, muchos clientes optan por combinar un **inflable grande con tobogán** con un modelo más compacto para los pequeños. Por ejemplo: el barco pirata para niños de 6 a 12 años y un castillo de brinco para niños de 3 a 6 años. Esta combinación asegura que todos los rangos de edad tengan su propia atracción adecuada.
+Para eventos con más de 30 niños, muchos clientes combinan un **inflable grande con tobogán** con un modelo compacto para los pequeños. Por ejemplo: el Barco Pirata para los de 4 años en adelante y un [Mini Castillo](/inflables/mini-castillo/) de $800 MXN para los de 1 a 4. La cuenta por número de invitados está en la [comparativa de inflable chico contra grande](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/).
 
 > **Tip de selección:** Si no estás seguro de cuál modelo elegir, escríbenos por WhatsApp y cuéntanos los detalles de tu evento: número de niños, edades, espacio disponible y tipo de evento. Te recomendamos la mejor opción en minutos.
 
@@ -66,9 +66,9 @@ Para eventos con más de 30 niños, muchos clientes optan por combinar un **infl
 
 Los **inflables grandes** requieren más espacio que un brincolín estándar. Antes de reservar, es fundamental verificar que tu espacio cumpla con los requisitos mínimos para una instalación segura. Aquí te detallamos las especificaciones generales:
 
-- **Área de instalación:** Mínimo 8 × 6 metros de espacio completamente libre, sin obstáculos ni objetos cerca.
-- **Perímetro de seguridad:** 1.5 metros adicionales por cada lado del inflable, libres de mesas, sillas, bardas o cualquier objeto contra el que un niño pueda chocar.
-- **Altura libre:** Al menos 5 metros sin cables eléctricos, ramas de árboles, lonas, techos bajos o cualquier obstáculo aéreo.
+- **Área de instalación:** 9 × 7 metros libres para el Barco Pirata y 9 × 6 para el Extremo. Esas cifras ya incluyen el metro de margen por lado, y deben estar completamente despejadas.
+- **Perímetro de seguridad:** dentro del área indicada, sin mesas, sillas ni bardas contra las que un niño pueda chocar.
+- **Altura libre:** 5.2 metros para el Barco Pirata y 4.5 para el Extremo, sin cables eléctricos, ramas, lonas ni techos bajos.
 - **Superficie del piso:** Plana y firme. Funciona en pasto, concreto, adoquín, tierra compacta o piso de loseta. No recomendamos arena suelta ni terrenos inclinados.
 - **Electricidad:** Una toma de corriente de 110V estándar a no más de 20 metros del punto de instalación. El motor de inflado continuo consume aproximadamente lo mismo que una aspiradora doméstica.
 - **Acceso de entrada:** Portón vehicular o puerta amplia por donde pueda pasar el equipo empacado. Los inflables grandes se transportan en bolsas industriales que requieren espacio para maniobrar.
@@ -81,7 +81,7 @@ Si no estás seguro de que tu espacio sea suficiente, **mándanos fotos o un vid
 
 Los **inflables grandes con tobogán** no son solo para fiestas de cumpleaños. Su tamaño y capacidad los hacen perfectos para una variedad de eventos donde necesitas entretener a muchos niños simultáneamente:
 
-- **Kermeses escolares:** El inflable grande es la atracción estrella de cualquier kermés. Genera filas de niños emocionados y permite que la escuela ofrezca una experiencia premium a sus alumnos y familias.
+- **Kermeses escolares:** El inflable grande es la atracción estrella de cualquier kermés. Cuántos necesitas según el número de alumnos está en la [guía de kermesse escolar con inflables](/blog/kermesse-escolar-inflables-edomex-guia/).
 - **Eventos corporativos familiares:** Empresas que organizan día de la familia o eventos navideños para empleados con hijos. El inflable grande entretiene a los niños mientras los adultos disfrutan del evento.
 - **Festivales comunitarios:** Fiestas de colonia, eventos de día del niño, celebraciones patrias y festivales religiosos donde se espera alta afluencia de familias.
 - **Cumpleaños con muchos invitados:** Fiestas infantiles con más de 20 niños donde un brincolín pequeño no alcanzaría. El inflable grande absorbe la demanda y mantiene a todos entretenidos.
@@ -114,6 +114,6 @@ Reservar un **inflable grande con tobogán** en BRINCOLINS es rápido y sin comp
 - **Paso 4:** El día de tu evento, nuestro equipo llega puntual con el inflable, lo instala profesionalmente y lo deja listo para la diversión.
 - **Paso 5:** Al finalizar tu evento, recogemos todo el equipo. Tú no te preocupas por nada.
 
-Los **inflables grandes con tobogán** son nuestros modelos más solicitados, especialmente en fines de semana y temporadas de fiestas como mayo (Día del Niño), junio (fin de curso) y diciembre (posadas). **Te recomendamos reservar con 2 a 3 semanas de anticipación** para garantizar disponibilidad del modelo que prefieras.
+Los **inflables grandes con tobogán** son los que más se piden para eventos numerosos, especialmente en fines de semana y temporadas como mayo (Día del Niño), junio (fin de curso) y diciembre (posadas). **Te recomendamos reservar con 2 a 3 semanas de anticipación**. Los precios son netos y están en la [página de precios](/precios/): se agrega IVA solo si necesitas factura y hay cargo de envío según distancia en las zonas más lejanas.
 
 No te quedes con las ganas. Escríbenos ahora por WhatsApp, cuéntanos sobre tu evento y te ayudamos a elegir el **inflable grande con tobogán perfecto** para hacer de tu celebración algo verdaderamente memorable.

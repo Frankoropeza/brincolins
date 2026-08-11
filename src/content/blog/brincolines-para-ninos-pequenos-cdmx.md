@@ -22,18 +22,18 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Cuál es la edad mínima para que un niño use un brincolín?"
-    answer: "Los niños pueden usar nuestros brincolines desde 1 año de edad, siempre y cuando ya caminen de manera independiente. Para los más pequeñitos (1-2 años), recomendamos el mini castillo o los gusanitos, que tienen rebote suave y paredes más protectoras."
+    answer: "Los niños pueden usar nuestros brincolines desde 1 año de edad, siempre y cuando ya caminen de manera independiente. Para los más pequeñitos, de 1 a 4 años, el único modelo diseñado para esa edad es el Mini Castillo, con rebote suave, paredes protectoras y capacidad para 3 o 4 niños."
   - question: "¿Pueden brincar niños de diferentes edades en el mismo inflable?"
     answer: "No lo recomendamos. La diferencia de peso y fuerza entre un niño de 2 años y uno de 8 puede causar que el más pequeño salga rebotado. Lo ideal es separar por rangos de edad o rentar dos inflables: uno para pequeños y otro para los más grandes."
   - question: "¿Cuántos niños pequeños pueden usar el brincolín al mismo tiempo?"
-    answer: "Para niños de 1 a 3 años, recomendamos máximo 3-4 niños a la vez en el mini castillo. Para niños de 4 a 6 años, pueden ser hasta 5-6 niños dependiendo del modelo. Nuestro equipo te indicará la capacidad exacta del inflable que elijas."
+    answer: "El Mini Castillo, que es el modelo de 1 a 4 años, admite 3 o 4 niños a la vez: es su capacidad de fábrica, no una recomendación flexible. Los modelos medianos —Mini Jungla desde 3 años, Castillo de Princesas, Dragones Rojos y Gusanitos desde 4— reciben de 5 a 7 niños. Nuestro equipo te confirma la cifra exacta del inflable que elijas."
   - question: "¿Qué debo hacer si un niño tiene miedo de entrar al brincolín?"
     answer: "Es completamente normal. Sugerimos que un adulto acompañe al niño dentro del inflable los primeros minutos, que entre junto con un amiguito o hermano mayor, y que no lo fuerces. Muchos niños tímidos terminan siendo los que más disfrutan una vez que pierden el miedo."
 ---
 
 ## Cómo elegir el brincolín según la edad de los niños
 
-No todos los brincolines son iguales, y la edad de los niños es el factor más importante a considerar al momento de elegir. Un inflable que es perfecto para un niño de 5 años puede ser demasiado grande o tener demasiado rebote para un bebé de 18 meses. Aquí te explicamos qué buscar según cada rango de edad.
+No todos los brincolines son iguales, y la edad de los niños es el factor más importante a considerar al momento de elegir. Un inflable perfecto para un niño de 5 años puede tener demasiado rebote para un bebé de 18 meses. Aquí te explicamos qué buscar según cada rango de edad; si quieres el criterio completo con espacio y presupuesto, está en la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/).
 
 ### Bebés de 1 a 2 años
 
@@ -43,13 +43,13 @@ A esta edad, los niños no necesariamente brincan: gatean, se sientan, se ponen 
 
 ### Niños de 3 a 4 años
 
-A los 3 y 4 años, los niños ya tienen mejor coordinación y pueden brincar con más confianza. Para este rango, tanto el **mini castillo** como la **[mini jungla](/inflables/mini-jungla/)** son excelentes opciones. Estos modelos ofrecen suficiente espacio para brincar sin que el rebote sea excesivo.
+A los 3 y 4 años, los niños ya tienen mejor coordinación y pueden brincar con más confianza. Para este rango, el **Mini Castillo** (1 a 4 años, $800 MXN, 3×3 m de área) sigue funcionando y la **[Mini Jungla](/inflables/mini-jungla/)** (3 a 10 años, $1,300 MXN, 6.5×6 m) ya es viable. Los dos ofrecen suficiente espacio para brincar sin que el rebote sea excesivo.
 
 En esta etapa los niños empiezan a socializar más activamente, por lo que les encanta compartir el inflable con sus amiguitos. Es la edad perfecta para fiestas con brincolín porque los niños son lo suficientemente independientes para disfrutar pero aún necesitan modelos seguros y de tamaño apropiado.
 
 ### Niños de 5 a 6 años
 
-Los niños de 5 y 6 años ya pueden usar una mayor variedad de inflables. Además de los modelos compactos, pueden disfrutar del **[castillo de princesas](/inflables/castillo-princesas/)** y otros inflables medianos. Sin embargo, si la fiesta incluye niños de este rango junto con más pequeños, te recomendamos mantener separados los grupos por edad.
+A partir de los 5 años el Mini Castillo se les queda chico: ya toca un mediano. El **[Castillo de Princesas](/inflables/castillo-princesas/)** y los **[Dragones Rojos](/inflables/dragones-rojos/)** ($1,200 MXN cada uno, 4 a 10 años, 5 a 7 niños a la vez) son los modelos de este rango, y los **[Gusanitos](/inflables/gusanitos/)** funcionan muy bien cuando las edades están mezcladas. Si la fiesta incluye también bebés, lo correcto es separar los grupos o rentar dos inflables — la cuenta con precios está en la [comparativa de inflable chico contra grande](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/).
 
 ## Consideraciones de seguridad para niños pequeños
 
@@ -59,7 +59,7 @@ La seguridad es la preocupación número uno de cualquier papá, y con razón. L
 - **Separar por edades:** nunca mezcles niños de edades muy diferentes en el mismo inflable.
 - **Sin zapatos:** los niños deben quitarse los zapatos antes de entrar para evitar resbalones y daños al material.
 - **Sin alimentos:** no permitir comida ni bebidas dentro del inflable para evitar ahogamientos y resbalones.
-- **Límite de capacidad:** respetar el número máximo de niños permitido en el inflable.
+- **Límite de capacidad:** respetar el número máximo de niños del modelo — 3 o 4 en el Mini Castillo, 5 a 7 en los medianos. Es la regla que más se rompe y la que más golpes causa; la desarrollamos en la [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/).
 - **Sin objetos duros:** quitar lentes, relojes, pulseras y cualquier objeto que pueda causar lesiones.
 
 > **Importante:** Nunca dejes que niños mayores de 7 años brinquen al mismo tiempo que niños de 1 a 3 años. La diferencia de peso y fuerza puede hacer que los más pequeños salgan rebotados o se lastimen con un brinco fuerte del niño mayor.
@@ -68,11 +68,13 @@ La seguridad es la preocupación número uno de cualquier papá, y con razón. L
 
 En **BRINCOLINS** hemos seleccionado cuidadosamente los modelos que mejor se adaptan a las necesidades de los niños más pequeños. Cada uno tiene características específicas que lo hacen ideal para cierto tipo de evento y rango de edad.
 
-El **Mini Castillo** es nuestro inflable más popular para fiestas de niños pequeños. Su diseño clásico de castillo en colores vibrantes atrae la atención de los pequeños desde el primer momento. Las paredes altas con malla transparente, el piso extra acolchado y la rampa de entrada suave lo convierten en el modelo más seguro de nuestro catálogo para bebés y toddlers.
+El **Mini Castillo** es el modelo que más rentamos para primeros cumpleaños. Mide 2×2×2.5 m, pide 3×3 m de área libre, recibe de 3 a 4 niños de 1 a 4 años y cuesta **$800 MXN**. Las paredes altas con malla transparente, el piso extra acolchado y la rampa de entrada suave lo convierten en el modelo más seguro del catálogo para bebés. La guía completa está en [renta de Mini Castillo para bebés](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
 
-La **Mini Jungla** es perfecta para niños aventureros de 2 a 6 años. Con temática de selva y elementos interactivos, este inflable no solo permite brincar sino también explorar, estimulando la imaginación y el juego creativo. Es ligeramente más grande que el mini castillo pero mantiene las mismas medidas de seguridad.
+La **Mini Jungla** funciona desde los 3 años. Mide 4.5×4×3.5 m, pide 6.5×6 m de área, recibe de 5 a 7 niños y cuesta **$1,300 MXN**. Con temática de selva y elementos interactivos, no solo permite brincar sino explorar.
 
-El **Castillo de Princesas** es ideal para fiestas temáticas donde los niños quieren sentirse como en un cuento de hadas. Aunque es un poco más grande, sigue siendo apto para niños desde 3 años y su diseño encanta por igual a niños y niñas.
+Los **Gusanitos** ($1,350 MXN, 5×3×2.5 m sobre 7×5 m) son un circuito de túneles para niños de 4 a 10 años, y junto con el Mini Castillo son los dos únicos modelos que caben bajo techo.
+
+El **Castillo de Princesas** ($1,200 MXN, 4×4×3.5 m sobre 6×6 m) es para niñas de 4 a 10 años, de 5 a 7 a la vez, en fiestas temáticas de cuento de hadas.
 
 ## Consejos de supervisión durante la fiesta
 
@@ -98,8 +100,8 @@ Si el espacio lo permite, una pequeña pista de obstáculos con conos y túneles
 
 Rentar un brincolín para niños pequeños con **BRINCOLINS** es un proceso sencillo y transparente. Queremos que tu experiencia sea tan fácil como enviar un mensaje de WhatsApp.
 
-Al contactarnos, cuéntanos la edad de los niños, el número de invitados, el tipo de espacio (interior o exterior) y la zona de entrega en CDMX. Con esa información te recomendaremos el modelo ideal y te daremos un precio final sin sorpresas ni cargos ocultos.
+Al contactarnos, cuéntanos la edad de los niños, el número de invitados, el tipo de espacio (interior o exterior) y la zona de entrega en CDMX. Con esa información te recomendaremos el modelo ideal y te daremos el precio cerrado. Los ocho precios están publicados en la [página de precios](/precios/): son netos, se agrega IVA solo si necesitas factura, y en zonas lejanas hay cargo de envío según la distancia.
 
 Nuestro servicio completo incluye **entrega puntual a domicilio**, instalación profesional con revisión de seguridad, asesoría sobre la ubicación ideal del inflable en tu espacio, y recolección al terminar el evento. No necesitas herramientas, experiencia ni ayuda extra: nosotros nos encargamos de absolutamente todo.
 
-Si tienes dudas sobre qué modelo elegir, envíanos fotos de tu espacio y las edades de los niños. Nuestro equipo tiene la experiencia para recomendarte exactamente lo que necesitas para que tu fiesta sea un éxito rotundo y todos los pequeños invitados la pasen increíble.
+Si tienes dudas sobre qué modelo elegir, envíanos fotos de tu espacio y las edades de los niños, o [pide tu cotización en línea](/cotizar/). Nuestro equipo tiene la experiencia para recomendarte exactamente lo que necesitas para que tu fiesta sea un éxito rotundo.

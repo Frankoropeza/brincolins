@@ -1,7 +1,7 @@
 ---
 title: "Renta Castillo de Princesas Inflable en CDMX"
 h1: "Renta el Castillo de Princesas Inflable en CDMX"
-description: "Renta el castillo de princesas inflable más hermoso de CDMX. Rosa, con torres y decoración mágica. Perfecto para fiestas de niñas. Entrega incluida."
+description: "Renta del Castillo de Princesas inflable en CDMX: 4×4×3.5 m, 5 a 7 niñas de 4 a 10 años, desde $1,200 MXN con entrega e instalación incluidas."
 excerpt: "El castillo rosa con torres y decoración mágica que toda niña sueña. Renta con entrega, instalación y recolección incluida en toda la CDMX y zona metropolitana."
 publishDate: "2025-03-15"
 category: "Princesas"
@@ -21,18 +21,18 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Para qué edades es el castillo de princesas inflable?"
-    answer: "El castillo de princesas está diseñado para niñas y niños de 3 a 10 años. Su tamaño, altura de paredes y diseño interior están pensados para que los pequeños brinquen con total seguridad y se diviertan durante horas."
+    answer: "El castillo de princesas está diseñado para niñas y niños de 4 a 10 años. Su tamaño, altura de paredes y diseño interior están pensados para que brinquen con total seguridad. Para invitadas de 1 a 4 años el modelo correcto es el Mini Castillo."
   - question: "¿El castillo de princesas se puede usar en interiores?"
-    answer: "El Castillo de Princesas mide 4×4×3.5 m, así que en la práctica va en exterior: jardín, patio o explanada con 5×5 m libres. Un salón o patio techado tendría que superar con margen los 3.5 metros de altura del castillo, y eso es poco común — si tu evento es en interior, el Mini Castillo (2×2×2.5 m) es el modelo indicado. Mándanos las medidas de tu espacio y te confirmamos sin costo."
+    answer: "El Castillo de Princesas mide 4×4×3.5 m, así que en la práctica va en exterior: jardín, patio o explanada con 6×6 m libres. Un salón o patio techado tendría que superar con margen los 3.5 metros de altura del castillo, y eso es poco común — si tu evento es en interior, el Mini Castillo (2×2×2.5 m) es el modelo indicado. Mándanos las medidas de tu espacio y te confirmamos sin costo."
   - question: "¿La renta incluye transporte e instalación?"
     answer: "Sí, la renta del castillo de princesas incluye transporte a cualquier punto de CDMX y zona metropolitana, instalación profesional por nuestro equipo, supervisión de arranque y recolección al terminar tu evento."
   - question: "¿Cuántas niñas pueden brincar al mismo tiempo?"
-    answer: "El castillo de princesas tiene capacidad para 8 a 10 niños brincando simultáneamente, dependiendo de sus edades y tamaños. Nuestro equipo te asesora sobre la capacidad ideal según tu evento."
+    answer: "El castillo de princesas tiene capacidad para 5 a 7 niños brincando simultáneamente. Si esperas más invitadas, lo que funciona es organizar turnos de 15 a 20 minutos en vez de meter a todas a la vez: superar la capacidad es la causa más común de golpes."
 ---
 
-## El [castillo de princesas](/inflables/castillo-princesas/) más popular de CDMX
+## El [castillo de princesas](/inflables/castillo-princesas/) más rentado para fiestas de niñas
 
-Cuando se trata de **fiestas infantiles para niñas**, el castillo de princesas inflable se ha convertido en el favorito absoluto. No es casualidad: su diseño combina el color rosa que las pequeñas adoran, torres que evocan los cuentos de hadas y una zona de brinco amplia donde la diversión no tiene límites. En **BRINCOLINS**, este modelo es nuestro inflable más solicitado para eventos en la **Ciudad de México y Estado de México**.
+Cuando se trata de **fiestas infantiles para niñas**, el castillo de princesas inflable se ha convertido en el favorito absoluto. No es casualidad: su diseño combina el color rosa que las pequeñas adoran, torres que evocan los cuentos de hadas y una zona de brinco amplia donde la diversión no tiene límites. En **BRINCOLINS**, este modelo es el más solicitado para fiestas de niñas en la **Ciudad de México y Estado de México** — en el catálogo general el más rentado sigue siendo el Dragones Rojos, con el que comparte medidas y [precio de $1,200 MXN](/precios/).
 
 Lo que distingue a nuestro castillo de princesas de otros en el mercado es la calidad de los materiales, la viveza de los colores y los detalles de decoración que lo hacen lucir como un verdadero palacio de cuento. Las niñas se emocionan desde el momento en que lo ven instalado y no quieren dejar de brincar durante toda la fiesta.
 
@@ -53,13 +53,13 @@ El **castillo de princesas inflable** de BRINCOLINS fue diseñado pensando en ca
 
 Cada elemento está pensado para que la experiencia sea segura, divertida y visualmente impactante. El castillo no solo entretiene a las niñas: se convierte en el centro de atención de toda la fiesta y en el fondo perfecto para las fotos del recuerdo.
 
-## Edades ideales: de 3 a 10 años
+## Edades ideales: de 4 a 10 años
 
-El **castillo de princesas** está especialmente diseñado para niñas de **3 a 10 años**. Este rango de edad es perfecto porque las pequeñas ya tienen la coordinación motriz para brincar con seguridad, pero aún están en la etapa donde la fantasía de ser princesas es parte fundamental de su mundo.
+El **castillo de princesas** está especialmente diseñado para niñas de **4 a 10 años** y recibe de **5 a 7 niñas** brincando a la vez. Este rango de edad es perfecto porque las pequeñas ya tienen la coordinación motriz para brincar con seguridad, pero aún están en la etapa donde la fantasía de ser princesas es parte fundamental de su mundo. Si la festejada tiene 3 años o menos, el [Mini Castillo](/inflables/mini-castillo/) de $800 MXN es el modelo indicado.
 
 ### Por rango de edad
 
-- **3 a 5 años:** Las más pequeñas disfrutan explorando el interior del castillo, sentándose en la superficie acolchada y dando sus primeros saltos. La altura de las paredes les brinda seguridad total.
+- **4 a 5 años:** Las más pequeñas disfrutan explorando el interior del castillo, sentándose en la superficie acolchada y dando sus primeros saltos. La altura de las paredes les brinda seguridad total.
 - **6 a 8 años:** La edad perfecta para sacarle el máximo provecho. Las niñas brincan con energía, inventan juegos de princesas dentro del castillo y no quieren salirse.
 - **9 a 10 años:** Siguen disfrutando del brinco y pueden jugar con las más pequeñas, creando una dinámica de grupo divertida para toda la fiesta.
 
@@ -67,7 +67,7 @@ El **castillo de princesas** está especialmente diseñado para niñas de **3 a 
 
 ## Cómo crear la fiesta de princesas perfecta
 
-El castillo de princesas inflable es el punto de partida ideal para una **fiesta temática de princesas**. Pero con algunos toques adicionales, puedes transformar tu evento en una experiencia verdaderamente mágica que tus invitadas recordarán por mucho tiempo.
+El castillo de princesas inflable es el punto de partida ideal para una **fiesta temática de princesas**. Pero con algunos toques adicionales, puedes transformar tu evento en una experiencia verdaderamente mágica que tus invitadas recordarán por mucho tiempo. Tenemos dos guías dedicadas al tema: cómo montar una [fiesta de princesas de principio a fin](/blog/fiesta-princesas-ninas-inflable-cdmx/) y el repaso de [inflables temáticos para niñas](/blog/inflables-tematicos-ninas-cdmx/).
 
 ### Complementos que recomendamos
 
@@ -81,13 +81,13 @@ La combinación del **inflable de princesas** con estos elementos decorativos cr
 
 ## Dimensiones y espacio necesario
 
-Antes de reservar tu **castillo de princesas inflable**, es importante verificar que cuentas con el espacio adecuado. Nuestro modelo tiene dimensiones pensadas para adaptarse a la mayoría de jardines, patios y salones de fiestas en la Ciudad de México.
+Antes de reservar tu **castillo de princesas inflable**, es importante verificar que cuentas con el espacio adecuado. El castillo mide **4×4×3.5 metros** y pide **6×6 metros de área libre** con **4.2 m de altura libre**: esa es la cifra que tienes que medir en tu jardín antes de apartar la fecha.
 
 ### Requisitos de espacio
 
+- **Medidas y área:** 4×4×3.5 m de inflable sobre 6×6 m despejados — los dos metros extra son el margen de seguridad por lado
 - **Superficie plana:** El inflable necesita instalarse sobre una superficie lo más plana posible, ya sea pasto, concreto o piso firme
-- **Margen de seguridad:** Recomendamos dejar al menos 1 metro libre alrededor del inflable para circulación segura
-- **Altura libre:** El castillo mide 3.5 metros de alto con sus torres, así que necesita exterior o un espacio techado que supere esa altura con margen. Verifica también que no haya cables, ramas ni tendederos encima
+- **Altura libre:** 4.2 metros. El castillo mide 3.5 metros de alto con sus torres, así que necesita exterior o un espacio techado que supere esa altura con margen. Verifica también que no haya cables, ramas ni tendederos encima
 - **Contacto eléctrico:** Se necesita una toma de corriente a no más de 15 metros del punto de instalación para conectar el motor inflador
 
 > **No estás segura del espacio?** Envíanos una foto de tu patio o jardín por WhatsApp y te decimos si el castillo de princesas cabe perfectamente. Es un servicio gratuito que ofrecemos a todas nuestras clientas.
@@ -97,8 +97,8 @@ Antes de reservar tu **castillo de princesas inflable**, es importante verificar
 Reservar el **castillo de princesas inflable** es rápido y sencillo. En BRINCOLINS nos encargamos de todo para que tú solo te preocupes por disfrutar la fiesta de tu pequeña.
 
 - **Escríbenos por WhatsApp:** Cuéntanos los detalles de tu evento: lugar, horario y número aproximado de niñas invitadas.
-- **Recibe tu cotización:** En menos de 10 minutos te enviamos el precio con todo incluido: transporte, instalación y recolección.
+- **Recibe tu cotización:** En menos de 10 minutos te enviamos el precio: **$1,200 MXN** con transporte, instalación y recolección. Es precio neto — se agrega IVA solo si pides factura — y si tu domicilio queda en un municipio lejano de Edomex o en ciertas alcaldías del sur y oriente de la CDMX, se suma un cargo de envío según la distancia.
 - **Aparta con anticipo:** Reserva tu castillo con el 50% de anticipo por transferencia o depósito.
 - **Disfruta tu fiesta:** Nuestro equipo llega puntual, instala el castillo y lo deja listo para la diversión. Al terminar, lo recogemos.
 
-Los fines de semana se llenan rápido, especialmente el castillo de princesas que es nuestro modelo más solicitado. Te recomendamos reservar con al menos **2 semanas de anticipación** para garantizar disponibilidad en la fecha de tu evento.
+Los fines de semana se llenan rápido, especialmente el castillo de princesas, que es el modelo que más nos piden para cumpleaños de niñas. Te recomendamos reservar con al menos **2 semanas de anticipación** para garantizar disponibilidad en la fecha de tu evento.

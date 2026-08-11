@@ -1,6 +1,6 @@
 ---
 title: "Cómo Opera BRINCOLINS: 20 Años de Valores que No Cambiamos"
-description: "La historia real detrás de BRINCOLINS: cómo empezamos, qué aprendimos, en qué creemos y por qué seguimos operando igual después de más de dos décadas en CDMX."
+description: "La historia real de BRINCOLINS desde 2005: cómo empezamos, qué nos enseñó la CDMX y los tres compromisos que no hemos cambiado en más de veinte años."
 excerpt: "No somos la empresa más grande ni la más barata. Somos la empresa que lleva 20 años haciendo la misma cosa con el mismo cuidado — y eso, con el tiempo, es lo que más vale."
 publishDate: "2026-07-05"
 category: "Empresa"
@@ -35,7 +35,7 @@ Eso no es un slogan — es la forma más honesta que encontramos de describir c�
 
 ## Cómo Empezamos
 
-BRINCOLINS comenzó como lo que en México llaman un negocio familiar — una apuesta pequeña, con pocos equipos y mucho trabajo de campo. Los primeros años fueron de aprender haciendo: qué funciona, qué falla, qué problemas se repiten y cómo anticiparlos.
+BRINCOLINS arrancó en **2005** como lo que en México llaman un negocio familiar: una apuesta pequeña, con pocos equipos y mucho trabajo de campo. Los primeros años fueron de aprender haciendo — qué funciona, qué falla, qué problemas se repiten y cómo anticiparlos. Hoy el catálogo son **8 modelos**, de $800 a $1,900 MXN, y están todos en la [página de precios](/precios/).
 
 Había cosas que en ese momento nos parecían obvias y después resultaron ser las que más nos diferenciaban: llegar puntual, entregar el equipo limpio, cobrar lo que se dijo desde el principio. Cosas que deberían ser el estándar mínimo de cualquier servicio — pero que en la práctica muchos no cumplen.
 
@@ -57,11 +57,11 @@ Esa capacidad de resolución, acumulada en dos décadas de eventos reales, es pr
 
 En 20 años han cambiado muchas cosas: tenemos mejor flota, mejor logística, mejores herramientas para comunicarnos con los clientes. Pero hay cosas que no hemos cambiado y no planeamos cambiar.
 
-**El precio que cotizamos es el precio que cobras.** Hubo momentos en los que podríamos haber aumentado el precio el día del evento por alguna razón — acceso difícil, tiempo extra, cualquier cosa. No lo hacemos. Una vez que cotizamos, ese precio es un compromiso.
+**El precio que cotizamos es el precio que cobras.** Hubo momentos en los que podríamos haber aumentado el precio el día del evento por alguna razón — acceso difícil, tiempo extra, cualquier cosa. No lo hacemos. Una vez que cotizamos, ese precio es un compromiso. Lo que sí desglosamos desde el primer mensaje: los precios son netos y se agrega IVA solo si necesitas factura, y hay cargo de envío por distancia en municipios lejanos de Edomex y en algunas alcaldías del sur y oriente de la CDMX. Puedes verificar tu zona en la [página de cobertura](/cobertura/).
 
 **Si el equipo no está en condiciones, no sale.** Ha habido veces en que preferimos buscar una solución de emergencia antes de mandar algo que no funciona bien. No es solo una cuestión de reputación — es que no queremos fallarle a nadie el día de su fiesta.
 
-**Siempre hay alguien que contesta.** Esto parece básico pero no lo es. Hay empresas de inflables que el día del evento no contestan el teléfono. Nosotros no operamos así.
+**Siempre hay alguien que contesta.** Esto parece básico pero no lo es. Hay empresas de inflables que el día del evento no contestan el teléfono. Nosotros atendemos de lunes a domingo, de 8:00 a 20:00, y el responsable de tu entrega te deja su número directo. En [lo que BRINCOLINS te promete el día de tu fiesta](/blog/garantia-servicio-brincolins-renta-inflables-cdmx/) está escrito con detalle qué cubrimos y qué no.
 
 Estas tres cosas parecen simples. Y lo son — en el papel. La dificultad está en mantenerlas cuando estás cansado, cuando el sábado fue largo, cuando tienes tres entregas el mismo día. Ahí es donde se prueba si una promesa es real o decorativa.
 
@@ -87,7 +87,9 @@ No somos la empresa más grande tampoco. No buscamos tener la flota más extensa
 
 No somos perfectos. En 20 años hemos cometido errores — llegadas tarde por accidentes en la autopista, un motor que falló en un evento, una comunicación que no fue tan clara como debería. Cada uno de esos casos nos enseñó algo y lo incorporamos al proceso.
 
-Lo que sí somos: una empresa que lleva más de dos décadas cumpliendo sus compromisos con las familias de CDMX y Edomex, que cuida sus equipos, que trata a sus clientes como personas y que no toma atajos cuando la calidad del servicio está en juego.
+Tampoco ofrecemos seguro de responsabilidad civil, y preferimos decirlo aquí que dejarlo insinuado: lo que sí entregamos en cada renta es entrega, instalación con anclaje verificado, motor profesional durante todo el evento, equipo sanitizado y recolección al terminar.
+
+Lo que sí somos: una empresa que lleva más de dos décadas cumpliendo sus compromisos con las familias de CDMX y Edomex, que cuida sus equipos, que trata a sus clientes como personas y que no toma atajos cuando la calidad del servicio está en juego. Eso se ve mejor en la práctica: en [más de 20 años rentando inflables en CDMX](/blog/experiencia-20-anos-renta-inflables-cdmx/) contamos qué nos enseñó el campo, y en [por qué elegir BRINCOLINS](/blog/por-que-elegir-brincolins-empresa-inflables-cdmx/), en qué casos conviene y en cuáles no.
 
 Si eso es lo que buscas para tu próxima fiesta, con gusto hablamos.
 

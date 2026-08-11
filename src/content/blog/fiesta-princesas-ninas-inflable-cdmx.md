@@ -22,20 +22,20 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Qué inflable es mejor para una fiesta de princesas?"
-    answer: "El castillo de princesas rosa es el modelo ideal. Su diseño con torres, colores rosas vibrantes y espacio amplio para brincar lo convierten en el centro perfecto de cualquier fiesta temática de princesas. También el castillo blanco funciona excelente para fiestas de estilo elegante."
+    answer: "El Castillo de Princesas rosa: 4×4×3.5 m sobre 6×6 m de área libre, para 5 a 7 niñas de 4 a 10 años, a $1,200 MXN. Sus torres y su color lo convierten en el centro de cualquier fiesta temática. Para invitadas de 1 a 4 años el modelo indicado es el Mini Castillo ($800 MXN), y para fiestas de estilo elegante, el Castillo Blanco ($1,700 MXN)."
   - question: "¿Puedo combinar el inflable con decoración temática?"
     answer: "Por supuesto. El castillo de princesas combina perfectamente con decoración rosa, dorada y blanca. Globos, manteles, centros de mesa y hasta un arco de globos alrededor del inflable crean un ambiente mágico completo."
   - question: "¿Cuánto dura la renta del inflable para la fiesta?"
     answer: "La renta estándar cubre el horario de tu evento (generalmente de 4 a 6 horas). Si necesitas más tiempo, contáctanos por WhatsApp y te damos opciones flexibles según la disponibilidad."
   - question: "¿Qué necesito tener listo para la instalación del inflable?"
-    answer: "Solo necesitas un espacio plano suficiente para el inflable, un contacto eléctrico a no más de 15 metros y acceso para que nuestro equipo pueda entrar con el equipo. Nosotros nos encargamos de todo lo demás."
+    answer: "Un espacio plano de 6×6 metros libres con 4.2 m de altura para el Castillo de Princesas, un contacto eléctrico de 110V a no más de 20 metros y acceso para que nuestro equipo entre con el equipo. Nosotros nos encargamos de todo lo demás."
 ---
 
 ## Por qué las fiestas de princesas son las más pedidas
 
 No importa la generación: las princesas siguen siendo la temática número uno para **fiestas infantiles de niñas**. Desde las princesas clásicas hasta las heroínas modernas, el concepto de realeza sigue cautivando a las pequeñas. La razón es simple: cada niña quiere sentirse especial, y una fiesta de princesas le dice exactamente eso.
 
-En nuestra experiencia organizando eventos en **CDMX y zona metropolitana**, las fiestas de princesas representan casi el 40% de todas las solicitudes que recibimos para niñas. Los papás buscan crear una atmósfera mágica y coherente, y el **inflable de [castillo de princesas](/inflables/castillo-princesas/)** se ha convertido en el elemento central que une toda la decoración y las actividades.
+En nuestra experiencia organizando eventos en **CDMX y zona metropolitana**, las princesas son con diferencia la temática que más nos piden cuando la festejada es una niña. Los papás buscan crear una atmósfera mágica y coherente, y el **inflable de [castillo de princesas](/inflables/castillo-princesas/)** —$1,200 MXN, 4×4×3.5 m, para 5 a 7 niñas de 4 a 10 años— se ha convertido en el elemento central que une toda la decoración y las actividades. Si quieres comparar con los otros modelos que funcionan para niñas, la guía de [inflables temáticos para niñas](/blog/inflables-tematicos-ninas-cdmx/) los pone lado a lado.
 
 Lo mejor es que una fiesta de princesas no necesita un presupuesto enorme para lucir espectacular. Con los elementos correctos, como un inflable temático, decoración sencilla pero bien pensada y actividades divertidas, puedes crear una celebración que las invitadas y sus mamás no olvidarán.
 
@@ -49,7 +49,7 @@ A diferencia de contratar múltiples actividades sueltas, un inflable temático 
 
 ### Ventajas del inflable como centro de fiesta
 
-- **Entretenimiento garantizado:** Las niñas pueden brincar durante 3 a 4 horas sin aburrirse
+- **Entretenimiento garantizado:** Las niñas pueden brincar durante 3 o 4 horas sin aburrirse, en grupos de 5 a 7 a la vez
 - **Decoración instantánea:** El castillo rosa transforma cualquier espacio en un escenario de cuento
 - **Fotos espectaculares:** Es el fondo perfecto para la sesión de fotos de la cumpleañera
 - **Socialización:** Las niñas juegan juntas dentro del castillo, fortaleciendo amistades
@@ -71,7 +71,7 @@ La combinación más exitosa es **rosa, dorado y blanco**. El rosa combina perfe
 - **Mantel y vajilla temática:** Platos, vasos y servilletas con motivos de princesas o en colores lisos rosa y dorado
 - **Cortina de fondo:** Una cortina de tul rosa detrás de la mesa principal para fotos
 
-> **Tip económico:** No necesitas comprar toda la decoración nueva. Globos, tul y flores artificiales del mercado de Jamaica o Sonora en CDMX te dan resultados hermosos a una fracción del costo.
+> **Tip económico:** No necesitas comprar toda la decoración nueva. Globos, tul y flores artificiales del mercado de Jamaica o Sonora en CDMX te dan resultados hermosos a una fracción del costo. Cómo combinarlos con el inflable sin que se peleen visualmente está en la guía de [decoración para fiesta infantil con inflable](/blog/decoracion-fiesta-infantil-inflable/).
 
 ## Actividades complementarias para la fiesta
 
@@ -106,7 +106,7 @@ La mesa de dulces es el segundo elemento visual más importante después del inf
 Para que no se te escape ningún detalle, aquí te dejamos un resumen paso a paso de todo lo que necesitas organizar para la **fiesta de princesas perfecta en CDMX**.
 
 - **Define espacio y presupuesto:** Mide tu jardín o salón y establece cuánto quieres invertir en la fiesta completa.
-- **Reserva el inflable:** Escríbenos por WhatsApp para apartar el castillo de princesas en tu fecha. Hazlo con al menos 2 semanas de anticipación.
+- **Reserva el inflable:** Escríbenos por WhatsApp o [pide tu cotización](/cotizar/) para apartar el castillo de princesas en tu fecha, con al menos 2 semanas de anticipación y el 50% de anticipo. Cuesta **$1,200 MXN** netos; se agrega IVA solo si necesitas factura y hay cargo de envío según distancia en zonas lejanas. Todos los precios están en la [página de precios](/precios/), y la ficha completa del modelo en [renta de Castillo de Princesas](/blog/renta-castillo-princesas-inflable-cdmx/).
 - **Elige la paleta de colores:** Rosa, dorado y blanco es la combinación ganadora. Compra la decoración con tiempo.
 - **Planea las actividades:** Prepara 2 o 3 actividades complementarias al inflable para mantener el ritmo de la fiesta.
 - **Encarga el pastel y dulces:** Con al menos una semana de anticipación para asegurar que queden perfectos.

@@ -1,5 +1,5 @@
 ---
-title: "Arcos de Globos e Inflables para Fiestas Infantiles en CDMX: La."
+title: "Arcos de Globos e Inflables para Fiestas en CDMX"
 description: "Combina arcos de globos e inflables en fiestas infantiles en CDMX. Temas, paletas de color, distribución de espacios y tips de instalación."
 excerpt: "El secreto de las fiestas infantiles más fotografiadas en CDMX: combinar un inflable llamativo con la decoración de globos correcta. Aprende a coordinar colores, distribuir el espacio y lograr esas fotos que los papás siempre sueñan."
 publishDate: "2026-06-03"
@@ -44,11 +44,11 @@ La clave para que la decoración se vea profesional es la coordinación de color
 | [Barco Pirata](/inflables/barco-pirata/) | Piratas del Caribe | Azul marino, negro, rojo, dorado | Arco orgánico + fondo de tela |
 | [Mini Jungla](/inflables/mini-jungla/) | Safari / Animales | Verde, amarillo, café, naranja | Globos orgánicos + palmeras |
 | [Gusanitos](/inflables/gusanitos/) | Bugs / Naturaleza | Verde, rojo, amarillo, azul | Garland colorida + centros mesa |
-| [Mini Castillo](/inflables/mini-castillo/) | Realeza / Medieval | Azul, dorado, rojo, plateado | Arco de entrada + columnas |
+| [Mini Castillo](/inflables/mini-castillo/) (1-4 años) | Realeza / Medieval | Azul, dorado, rojo, plateado | Arco de entrada + columnas |
 | Extremo | Deportes / Aventura | Rojo, azul, amarillo, verde | Globos cromados + banderines |
 | [Castillo Blanco](/inflables/castillo-blanco/) | Elegancia / Boda infantil | Blanco, plateado, rosa pastel | Arco minimalista + flores |
 
-Esta tabla es un punto de partida. Los especialistas de DEGLOB (Fantasy Globos) pueden personalizar cualquier combinación según el tema específico de tu fiesta, el espacio disponible y tu presupuesto.
+Esta tabla es un punto de partida. Los especialistas de DEGLOB (Fantasy Globos) pueden personalizar cualquier combinación según el tema, el espacio y tu presupuesto. Antes de elegir el inflable conviene revisar dos cosas: la edad del festejado y los metros libres que tienes, criterios que desarrollamos en la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/).
 
 ## Cómo dividir el espacio: cuatro zonas que cambian todo
 
@@ -58,7 +58,7 @@ La primera vez que le explicamos este sistema a una familia en un jardín de Ped
 
 ### Zona 1: El inflable (zona de juego activo)
 
-El inflable debe ocupar el área más amplia y despejada del espacio disponible. Necesita al menos 2 metros libres en todos sus lados para que los niños puedan correr, entrar y salir con seguridad. El motor soplador se coloca a un costado y debe tener acceso a corriente eléctrica.
+El inflable debe ocupar el área más amplia y despejada del espacio disponible. Cada modelo pide su superficie: 3×3 m el Mini Castillo, 6×6 m los medianos como Dragones Rojos y Castillo de Princesas, 7×5 m los Gusanitos, 8×7 m el Castillo Blanco, 9×6 m el Extremo y 9×7 m el Barco Pirata — cifras que ya incluyen el margen de seguridad por lado. El motor soplador se coloca a un costado, con acceso a una toma de 110V.
 
 La decoración de globos en esta zona debe ser perimetral y elevada: guirnaldas colgadas en las paredes o postes a más de 2 metros de altura, o columnas de globos en los extremos del área, nunca en el centro ni bloqueando el acceso al inflable. Los globos y los niños corriendo a toda velocidad no son buena combinación cuando están al mismo nivel.
 
@@ -104,7 +104,7 @@ La coordinación logística es tan importante como el diseño visual. Hay una ve
 
 **Globos de mylar vs. latex:** los globos de mylar (metálicos) duran más y resisten mejor el calor del sol. Para exteriores, préfierlos sobre el latex en zonas expuestas directamente al sol de mediodía.
 
-**Confirma los horarios 48 horas antes:** una llamada o mensaje de confirmación entre ambos proveedores la tarde anterior al evento evita el 90% de los problemas logísticos que hemos visto en dos décadas de trabajo.
+**Confirma los horarios 48 horas antes:** una llamada o mensaje de confirmación entre ambos proveedores la tarde anterior al evento evita casi todos los problemas logísticos que hemos visto en dos décadas de trabajo. Si vas a coordinar más de dos proveedores, la [guía para coordinar proveedores en una fiesta infantil](/blog/coordinacion-proveedores-fiesta-infantil-cdmx/) tiene el timeline completo.
 
 > **Desde el campo:** el error que más se repite no es de decoración ni de inflable — es de secuencia. Cuando ambos proveedores llegan al mismo tiempo sin saber quién va primero, la tensión se siente y la familia lo vive. La solución es simple: el inflable siempre llega antes, y el decorador sabe que llegará después. Escríbelo en el chat con ambos, con hora exacta.
 
@@ -136,6 +136,6 @@ Para que puedas planear con claridad, aquí un rango de presupuesto para diferen
 | Fiesta mediana (20-50 niños) | $1,200 - $1,800 MXN | $1,500 - $3,000 MXN | $2,700 - $4,800 MXN |
 | Fiesta grande (+50 niños) | $1,700 - $1,900 MXN | $3,000 - $6,000 MXN | $4,700 - $7,900 MXN |
 
-Los precios de inflables de BRINCOLINS incluyen transporte, instalación y retiro. Para cotizar tu combinación personalizada, escríbenos por WhatsApp al **5531281706** y te conectamos con el equipo de DEGLOB para que recibas ambas cotizaciones de forma coordinada.
+Los precios de inflables de BRINCOLINS incluyen transporte, instalación y retiro, y están publicados modelo por modelo en la [página de precios](/precios/): son netos, con IVA solo si necesitas factura y cargo de envío según distancia en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX. Para cotizar tu combinación personalizada, [pide tu cotización](/cotizar/) o escríbenos por WhatsApp al **5531281706** y te conectamos con el equipo de DEGLOB.
 
-Lo que aprendimos después de veinte años es que las fiestas que más recordamos no son las más caras — son las mejor planeadas. Un arco en la entrada, un inflable bien elegido para el espacio, colores que hablan el mismo idioma. Eso es todo lo que necesitas. Nosotros ponemos el inflable y la experiencia; DEGLOB pone la magia visual. La fiesta que resulta de esa combinación es tuya.
+Lo que aprendimos después de veinte años es que las fiestas que más recordamos no son las más caras — son las mejor planeadas. Un arco en la entrada, un inflable bien elegido para el espacio, colores que hablan el mismo idioma. Si quieres el panorama completo de la decoración, incluidos backdrops y mesa de dulces, está en la guía de [decoración completa para fiestas infantiles](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/). Nosotros ponemos el inflable y la experiencia; DEGLOB pone la magia visual. La fiesta que resulta de esa combinación es tuya.

@@ -23,7 +23,7 @@ faqs:
   - question: "¿Un inflable no es muy infantil para una fiesta de XV años?"
     answer: "Para nada. El castillo blanco inflable tiene un diseño elegante y sofisticado que se aleja completamente de los inflables coloridos infantiles. Además, en las fiestas de XV años siempre hay niños invitados que necesitan entretenimiento. El inflable resuelve eso sin afectar la estética del evento."
   - question: "¿También pueden subirse los adolescentes al inflable?"
-    answer: "Sí, el castillo blanco soporta tanto niños como adolescentes. Su estructura reforzada permite que jóvenes de hasta 15 años lo usen con seguridad. De hecho, en las fiestas de XV años es común que los chambelanes y las damas se suban a brincar durante la fiesta."
+    answer: "Sí. El Castillo Blanco está recomendado desde los 3 años y recibe de 8 a 10 personas a la vez, adolescentes incluidos. En las fiestas de XV años es común que los chambelanes y las damas se suban a brincar. Si quieres algo más físico para ellos, el circuito Extremo ($1,900 MXN, desde 6 años) es el modelo indicado."
   - question: "¿Se puede instalar el inflable junto a la pista de baile?"
     answer: "Recomendamos ubicarlo a una distancia prudente de la pista de baile para que el sonido del motor no interfiera con la música. Un rincón del jardín o un área lateral del salón son las mejores opciones. Nuestro equipo te asesora sobre la mejor ubicación según tu venue."
   - question: "¿Cuánto tiempo antes deben instalar el inflable?"
@@ -34,9 +34,9 @@ faqs:
 
 Las **fiestas de XV años** han evolucionado mucho en los últimos años. Ya no se trata solo del vals, la cena y el DJ: las familias mexicanas buscan ofrecer experiencias memorables para todos los invitados, incluyendo a los más jóvenes. Es aquí donde los **inflables elegantes** se han convertido en una tendencia imparable en la Ciudad de México.
 
-La realidad es que en toda fiesta de quinceañera hay un grupo importante de niños y adolescentes que no participan del brindis ni de las tradiciones principales. Sin una actividad que los entretenga, terminan aburridos, corriendo entre las mesas o pegados al celular. Un **[castillo blanco](/inflables/castillo-blanco/) inflable** les da exactamente lo que necesitan: un espacio propio donde divertirse sin que los adultos tengan que preocuparse por supervisarlos cada segundo.
+La realidad es que en toda fiesta de quinceañera hay un grupo importante de niños y adolescentes que no participan del brindis ni de las tradiciones principales. Sin una actividad que los entretenga, terminan aburridos, corriendo entre las mesas o pegados al celular. Un **[castillo blanco](/inflables/castillo-blanco/) inflable** —6×5×4 m, para 8 a 10 personas desde los 3 años, **$1,700 MXN**— les da exactamente lo que necesitan: un espacio propio donde divertirse sin que los adultos tengan que supervisarlos cada segundo.
 
-> **Dato BRINCOLINS:** Las fiestas de XV años son nuestro segundo evento más solicitado después de los cumpleaños infantiles. El castillo blanco es el modelo preferido para esta celebración por su diseño elegante.
+> **Dato BRINCOLINS:** después de los cumpleaños infantiles, las fiestas de XV años son el tipo de evento que más atendemos. El Castillo Blanco es el modelo favorito para bodas y quinceañeras por su diseño neutro — la ficha completa está en la [guía del Castillo Blanco](/blog/renta-castillo-blanco-inflable-bodas-cdmx/).
 
 ## Por qué el castillo blanco es ideal para quinceañeras
 
@@ -46,7 +46,7 @@ No cualquier inflable funciona en una **fiesta de XV años**. Un brincolin de co
 
 - **Color neutro:** El blanco combina con absolutamente cualquier paleta decorativa: rosa, dorado, plateado, azul, lila o temáticas personalizadas
 - **Diseño no infantil:** Sus torres estilizadas y su acabado limpio no parecen un juguete, sino un elemento arquitectónico del evento
-- **Resistencia para adolescentes:** La estructura soporta el peso de jóvenes, no solo de niños pequeños
+- **Resistencia para adolescentes:** La estructura soporta el peso de jóvenes, no solo de niños pequeños. Capacidad: 8 a 10 personas a la vez, sobre 8×7 m de área libre con 4.7 m de altura
 - **Fácil de decorar:** Se puede complementar con flores, telas, luces o globos que combinen con el tema de la fiesta
 - **Impacto visual:** Los invitados lo ven como un detalle sofisticado, no como algo fuera de lugar
 
@@ -73,7 +73,7 @@ El **castillo blanco inflable** no es lo único que puedes ofrecer a los invitad
 - **Barra de dulces:** Una candy bar junto a la zona del inflable es el combo perfecto para niños y adolescentes
 - **Rincón gamer:** Una consola con pantalla cerca del inflable crea una zona juvenil integral
 - **DJ para jóvenes:** Si el espacio lo permite, una bocina con playlist para adolescentes junto al castillo genera un mini-ambiente propio
-- **Concursos de brinco:** Organiza competencias amistosas dentro del inflable con premios pequeños para generar emoción
+- **Concursos de brinco:** Organiza competencias amistosas dentro del inflable con premios pequeños. Si los invitados jóvenes son mayoría, el circuito Extremo permite carreras en doble carril — lo desarrollamos en la guía de [inflables para adolescentes y jóvenes](/blog/inflables-para-adolescentes-jovenes-cdmx/)
 
 La combinación de estas actividades con el **castillo blanco** crea un espacio donde los jóvenes se sienten atendidos y no como invitados de segunda. Esto eleva la experiencia general de tu fiesta de XV años y hace que todos hablen de tu evento como uno de los mejores a los que han asistido.
 
@@ -96,8 +96,8 @@ Cada **fiesta de XV años** tiene una temática o concepto visual diferente. El 
 En **BRINCOLINS** entendemos que organizar unos **XV años** implica coordinar muchos proveedores y detalles. Por eso hacemos el proceso lo más sencillo posible para ti y tu familia.
 
 - **Contáctanos por WhatsApp:** Cuéntanos los detalles de tu fiesta: lugar, horario, número de invitados jóvenes y temática del evento
-- **Cotización inmediata:** En minutos recibes tu presupuesto con todo incluido: transporte, instalación profesional y recolección en CDMX
+- **Cotización inmediata:** En minutos recibes tu presupuesto: **$1,700 MXN** netos con transporte, instalación profesional y recolección. Se agrega IVA solo si necesitas factura y hay cargo de envío según distancia si el venue queda lejos. Compara con el resto del catálogo en la [página de precios](/precios/) o [pide tu cotización en línea](/cotizar/)
 - **Aparta tu fecha:** Con el 50% de anticipo aseguras el castillo blanco para el día de tu fiesta
 - **Disfruta sin preocupaciones:** Nuestro equipo llega puntual, instala con discreción y recoge al terminar tu evento
 
-Las fiestas de **XV años en CDMX** tienen fechas muy solicitadas, especialmente los sábados. Te recomendamos reservar con al menos **3 semanas de anticipación** para garantizar disponibilidad. Escríbenos hoy y deja que el **castillo blanco inflable** sea el toque de diversión elegante que tu quinceañera merece.
+Las fiestas de **XV años en CDMX** tienen fechas muy solicitadas, especialmente los sábados. Te recomendamos reservar con al menos **3 semanas de anticipación**. Si además quieres integrarlo visualmente con la decoración, la guía de [ideas de decoración con inflable para XV años](/blog/decoracion-inflable-xv-anos-cdmx/) tiene las paletas y el presupuesto. Escríbenos hoy y deja que el **castillo blanco inflable** sea el toque de diversión elegante que tu quinceañera merece.

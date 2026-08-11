@@ -1,6 +1,6 @@
 ---
 title: "Renta Pista Inflable de Obstáculos en CDMX"
-description: "Renta la pista inflable de obstáculos más emocionante de CDMX. Ideal para competencias, team building y fiestas de adolescentes. Entrega incluida."
+description: "Renta del circuito Extremo en CDMX: pista inflable de obstáculos de 7×4×3.8 m para 6 a 10 participantes desde 6 años, $1,900 MXN con instalación."
 excerpt: "Competencias épicas, adrenalina pura y diversión garantizada para niños, adolescentes y adultos. Conoce todo sobre nuestra pista inflable de obstáculos y cómo rentarla en la Ciudad de México."
 publishDate: "2025-03-15"
 category: "Obstáculos"
@@ -19,11 +19,11 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Cuántas personas pueden competir al mismo tiempo en la pista de obstáculos?"
-    answer: "La pista de obstáculos inflable permite que dos participantes compitan simultáneamente en carriles paralelos. Esto hace posible organizar torneos eliminatorios con muchos competidores, ya que las rondas son rápidas y dinámicas."
+    answer: "La pista de obstáculos inflable permite que dos participantes compitan simultáneamente en carriles paralelos, y admite de 6 a 10 niños por turno dentro del circuito. Esto hace posible organizar torneos eliminatorios con muchos competidores, ya que las rondas son rápidas y dinámicas."
   - question: "¿Es segura la pista inflable de obstáculos para niños de 6 años?"
     answer: "Sí, la pista está diseñada con obstáculos acolchados y paredes laterales de seguridad. Para niños de 6 a 8 años recomendamos supervisión directa de un adulto, y nuestro equipo te orienta sobre las mejores prácticas al momento de la instalación."
   - question: "¿Cuánto espacio necesito para instalar la pista de obstáculos inflable?"
-    answer: "Necesitas un área plana de aproximadamente 8×5 metros como mínimo, con acceso a una toma de corriente de 110V. Nuestro equipo llega con anticipación para verificar el espacio y realizar la instalación completa."
+    answer: "El circuito Extremo mide 7×4×3.8 m y necesitas 9×6 metros de área libre —esa cifra ya incluye el margen de seguridad por lado— más 4.5 m de altura libre y una toma de corriente de 110V. Nuestro equipo llega con anticipación para verificar el espacio y realizar la instalación completa."
   - question: "¿Puedo rentar la pista de obstáculos para un evento en parque o jardín público?"
     answer: "Sí, rentamos la pista para eventos en parques, jardines, escuelas y salones de fiestas en toda la CDMX y Estado de México. Solo necesitas contar con acceso a corriente eléctrica o podemos asesorarte sobre alternativas con generador."
 ---
@@ -36,9 +36,10 @@ El concepto está inspirado en los famosos programas de televisión de competenc
 
 ## Características y diseño del [inflable Extremo](/inflables/extremo/)
 
-Nuestro modelo de pista de obstáculos, conocido como **Inflable Extremo**, es uno de los más solicitados del catálogo de BRINCOLINS. Estas son sus principales características:
+Nuestro modelo de pista de obstáculos, conocido como **Inflable Extremo**, es el que más se renta para eventos de empresa y kermeses de secundaria. Cuesta **$1,900 MXN**, el precio más alto del [catálogo](/precios/), y estas son sus principales características:
 
-- **Dimensiones amplias:** lo suficientemente grande para permitir carreras simultáneas entre dos competidores en carriles paralelos.
+- **Medidas:** 7 × 4 × 3.8 metros sobre 9 × 6 m de área libre y 4.5 m de altura libre, lo suficientemente grande para permitir carreras simultáneas entre dos competidores en carriles paralelos.
+- **Capacidad:** de 6 a 10 participantes por turno, desde los 6 años.
 - **Obstáculos variados:** incluye columnas inflables para esquivar, túneles de paso, muros de escalada con agarraderas y tobogán de descenso al final del circuito.
 - **Lona comercial de alta resistencia:** fabricado con materiales grado comercial que soportan el uso intensivo durante todo el evento.
 - **Colores vibrantes:** diseño llamativo con combinación de colores que atrae la atención y luce espectacular en fotografías.
@@ -48,14 +49,14 @@ El diseño está pensado para que cada recorrido dure entre 30 y 60 segundos, lo
 
 > **Tip de organización:** Designa a una persona como "juez de salida" que controle que ambos competidores arranquen al mismo tiempo. Esto genera mucha más emoción y hace que la competencia se sienta profesional.
 
-## Edades ideales: de los 6 hasta los 16 años y más
+## Edades ideales: desde los 6 años, sin tope por arriba
 
-Una de las grandes ventajas de la pista inflable de obstáculos es su **rango de edades extremadamente amplio**. Mientras que un castillo inflable tradicional pierde atractivo para niños mayores de 10 años, la pista de obstáculos mantiene enganchados incluso a los adolescentes y adultos jóvenes.
+Una de las grandes ventajas de la pista inflable de obstáculos es su **rango de edades extremadamente amplio**: está recomendada desde los 6 años y no tiene límite superior. Mientras que un castillo inflable tradicional pierde atractivo para niños mayores de 10 años, la pista de obstáculos mantiene enganchados incluso a los adolescentes y adultos jóvenes — es justo el argumento de la guía de [inflables para adolescentes y jóvenes](/blog/inflables-para-adolescentes-jovenes-cdmx/).
 
 - **6 a 8 años:** los más pequeños disfrutan del recorrido a su propio ritmo. Les encanta el tobogán final y los túneles. Se recomienda que un adulto esté cerca para orientarlos en los obstáculos.
 - **9 a 12 años:** esta es la edad dorada para las pistas de obstáculos. Los niños ya tienen la coordinación y fuerza para completar el circuito a toda velocidad, y el elemento competitivo los engancha por completo.
 - **13 a 16 años:** los adolescentes aman las competencias cronometradas. Puedes organizar torneos eliminatorios con tabla de posiciones y verás cómo se involucran al máximo.
-- **Adultos:** en eventos corporativos o fiestas familiares, los adultos también pueden recorrer la pista. Es una actividad perfecta para romper el hielo y generar recuerdos divertidos.
+- **Adultos:** en eventos corporativos o fiestas familiares, los adultos también pueden recorrer la pista. Es una actividad perfecta para romper el hielo y generar recuerdos divertidos; en el artículo sobre el [circuito Extremo en eventos corporativos](/blog/inflable-extremo-eventos-corporativos-cdmx/) explicamos cómo estructurar la dinámica por equipos.
 
 ## Cómo organizar competencias y carreras épicas
 
@@ -80,7 +81,8 @@ Divide a los participantes en equipos de 4 o 5 personas. Cada integrante recorre
 Antes de reservar tu pista inflable de obstáculos, es importante que verifiques estos requisitos para garantizar una instalación segura y exitosa:
 
 - **Superficie plana:** el terreno debe ser lo más plano posible. Funciona perfectamente en pasto, concreto o tierra firme. Evita superficies inclinadas o irregulares.
-- **Espacio mínimo:** necesitas un área de aproximadamente 8×5 metros libres, más un metro adicional de perímetro por seguridad.
+- **Espacio mínimo:** necesitas 9×6 metros libres para el circuito de 7×4 metros; esa cifra ya incluye el metro de margen por lado.
+- **Altura libre:** 4.5 metros sin cables, ramas ni techos. Por esa altura, el Extremo siempre va en exterior.
 - **Conexión eléctrica:** se requiere una toma de corriente de 110V a no más de 20 metros de distancia. El motor soplador debe funcionar de manera continua durante todo el evento.
 - **Acceso para descarga:** nuestro equipo necesita poder estacionar cerca del punto de instalación para descargar el inflable y el equipo de inflado.
 - **Protección contra viento:** en caso de viento fuerte (superiores a 40 km/h), la instalación podría reprogramarse por seguridad.
@@ -92,8 +94,8 @@ Nuestro equipo de logística llega con **anticipación suficiente** para montar 
 Reservar con **BRINCOLINS** es un proceso sencillo y rápido. Estos son los pasos para tener tu pista inflable de obstáculos lista para tu evento:
 
 1.  **Escríbenos por WhatsApp:** cuéntanos la fecha de tu evento, el lugar, el número aproximado de participantes y las edades.
-2.  **Recibe tu cotización:** en minutos te enviamos el precio con todo incluido: transporte, instalación, desmontaje y asesoría.
-3.  **Confirma tu reserva:** aparta tu fecha con un anticipo y queda todo asegurado.
+2.  **Recibe tu cotización:** en minutos te enviamos el precio: **$1,900 MXN** netos con transporte, instalación, desmontaje y asesoría. Se agrega IVA solo si necesitas factura, y en municipios lejanos de Edomex o en ciertas alcaldías del sur y oriente de la CDMX se suma un cargo de envío según distancia. También puedes [pedirla en línea](/cotizar/).
+3.  **Confirma tu reserva:** aparta tu fecha con el 50% de anticipo y queda todo confirmado.
 4.  **Disfruta tu evento:** llegamos puntuales, instalamos todo y tú solo te preocupas por pasarla increíble.
 
 Atendemos eventos en todas las delegaciones de la **Ciudad de México** y municipios del **Estado de México**. Ya sea una fiesta de cumpleaños, un evento escolar, una kermés o una activación de marca, la pista de obstáculos inflable es la atracción que hará que tu evento destaque por encima de los demás.

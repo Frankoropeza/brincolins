@@ -2,7 +2,7 @@
 import { WHATSAPP } from '../data/site';
 export interface Props {
   slug: string;
-  emoji: string;
+  emoji?: string;
   name: string;
   description: string;
   price: string;
@@ -10,14 +10,14 @@ export interface Props {
   ages: string;
   category: string;
   categoryColor?: string;
-  gradient: string;
+  gradient?: string;
   image?: string;
   whatsapp?: string;
 }
 
 const {
   slug,
-  emoji,
+  emoji = "",
   name,
   description,
   price,
@@ -25,7 +25,7 @@ const {
   ages,
   category,
   categoryColor = "castillo",
-  gradient,
+  gradient = "#FF3D00, #FF6D00",
   image,
   whatsapp = WHATSAPP,
 } = Astro.props;

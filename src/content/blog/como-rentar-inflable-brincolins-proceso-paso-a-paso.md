@@ -1,5 +1,5 @@
 ---
-title: "Primera Vez Rentando un Inflable en CDMX: Todo lo que Necesitas Saber"
+title: "Primera Vez Rentando un Inflable en CDMX: Guía Real"
 description: "Guía honesta para quien renta un inflable por primera vez en CDMX: qué preguntar, qué datos necesitas, cómo confirmar y qué esperar el día de la fiesta."
 excerpt: "Nadie nace sabiendo cómo rentar un inflable. Esta guía es lo que le explicaríamos a un amigo que nos llama por primera vez sin saber por dónde empezar."
 publishDate: "2026-07-03"
@@ -56,7 +56,7 @@ La fecha y el horario son lo primero que necesitamos para verificar disponibilid
 No necesitas medidas exactas, pero sí necesitamos saber si es jardín, terraza, interior, salón rentado. Cada espacio tiene implicaciones distintas para la instalación.
 
 **3. ¿Qué edades tienen los niños?**
-Esto determina qué modelo es el adecuado. Un inflable pensado para adolescentes no es seguro para bebés de dos años, y uno para bebés va a aburrir a niños de 8.
+Esto determina qué modelo es el adecuado. El Mini Castillo es de 1 a 4 años; los medianos —Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos— de 3 o 4 a 10; el Barco Pirata desde los 4 y el circuito Extremo desde los 6. Un inflable pensado para adolescentes no es seguro para un bebé de dos años, y uno para bebés aburre a un niño de 8. El criterio completo está en la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/).
 
 Con esas tres cosas, podemos orientarte en menos de cinco minutos.
 
@@ -66,17 +66,17 @@ Con esas tres cosas, podemos orientarte en menos de cinco minutos.
 
 Tienes dos caminos:
 
-**Por WhatsApp** — el más rápido. Manda un mensaje con los datos de tu evento y te respondemos en minutos durante horario de atención. La mayoría de las cotizaciones las resolvemos por chat sin necesidad de llamada.
+**Por WhatsApp** — el más rápido. Manda un mensaje con los datos de tu evento y te respondemos en minutos, de lunes a domingo de 8:00 a 20:00. La mayoría de las cotizaciones las resolvemos por chat sin necesidad de llamada.
 
 **Por el formulario en línea** — si prefieres escribir con calma y recibir una propuesta por escrito. [Puedes llenarlo aquí.](/cotizar/)
 
-Cuando cotizamos, te decimos claramente: el modelo que te recomendamos, por qué, el precio total con todo incluido, el horario de entrega e instalación, y el horario de retiro. Sin letra chica, sin "ese costo lo vemos después."
+Cuando cotizamos, te decimos claramente: el modelo que te recomendamos, por qué, el precio total, el horario de entrega e instalación y el de retiro. Los precios van de $800 a $1,900 MXN según el modelo y están publicados en la [página de precios](/precios/). Son netos, así que te avisamos desde el primer mensaje si aplica IVA —solo cuando pides factura— y si tu zona lleva cargo de envío por distancia. Nada de "ese costo lo vemos después".
 
 ---
 
 ## Qué Esperar Después de Cotizar
 
-Si el precio y el modelo te convencen, confirmas la reservación con un anticipo — generalmente el 30 o 50% del total, dependiendo del modelo y la fecha. El resto se liquida el día del evento.
+Si el precio y el modelo te convencen, confirmas la reservación con el **50% de anticipo**. El resto se liquida el día del evento, antes de la instalación.
 
 Una vez confirmado, te mandamos por escrito los datos completos: fecha, horario, dirección, modelo reservado, monto pagado y saldo pendiente. Guardas ese mensaje y ya — la fiesta está apartada.
 
@@ -106,7 +106,7 @@ Aquí hay algo que vale la pena decir con claridad: un inflable instalado correc
 
 Lo que sí te pedimos:
 
-Que haya un adulto pendiente del inflable mientras los niños lo usan. No tiene que estar parado al lado todo el tiempo, pero sí atento. Las situaciones que pueden volverse un problema — demasiados niños al mismo tiempo, alguien que entra con zapatos de tacón, un niño muy chico mezclado con adolescentes — se evitan con supervisión básica.
+Que haya un adulto pendiente del inflable mientras los niños lo usan. No tiene que estar parado al lado todo el tiempo, pero sí atento. Las situaciones que pueden volverse un problema — más niños de los que aguanta el modelo, alguien que entra con zapatos de tacón, un niño muy chico mezclado con adolescentes — se evitan con supervisión básica. Las [7 reglas de oro de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/) son las que conviene comunicar antes de empezar.
 
 Si algo cambia durante el evento — el motor hace un ruido raro, el inflable pierde presión más rápido de lo normal — llamas al número que te dejó el responsable de la entrega. Respondemos.
 
@@ -126,12 +126,14 @@ Firmas la hoja de devolución del equipo y listo. La fiesta terminó, los niños
 
 ¿Puedes cancelar si algo pasa?
 
-Sí. Si cancelas con suficiente anticipación, podemos reembolsar el anticipo o aplicarlo a una fecha futura. Las condiciones exactas dependen de cuánto tiempo falta para el evento — te las explicamos al confirmar, no en letra chica.
+Sí. Si cancelas con suficiente anticipación, podemos reembolsar el anticipo o aplicarlo a una fecha futura. Las condiciones exactas dependen de cuánto tiempo falta para el evento y también están publicadas en las [preguntas frecuentes](/preguntas-frecuentes/) — te las explicamos al confirmar, no en letra chica.
 
 Si la cancelación viene de nuestro lado — algo que en 20 años ha pasado rarísimas veces — el anticipo se devuelve completo. Sin discusión.
 
 ---
 
-Si tienes preguntas que no están aquí, escríbenos. Estamos disponibles para resolver cualquier duda antes de que decidas — sin presión y sin que tengas que comprometerte a nada para que te respondamos.
+Si tienes preguntas que no están aquí, escríbenos. Estamos disponibles de lunes a domingo, de 8:00 a 20:00, para resolver cualquier duda antes de que decidas — sin presión y sin que tengas que comprometerte a nada.
+
+Dos lecturas que complementan esta guía: los [consejos para rentar un inflable por primera vez](/blog/consejos-rentar-inflable-primera-vez/), con el checklist del anfitrión, y [lo que BRINCOLINS te promete el día de tu fiesta](/blog/garantia-servicio-brincolins-renta-inflables-cdmx/), con lo que cubrimos y lo que no.
 
 [Solicitar cotización →](/cotizar/)

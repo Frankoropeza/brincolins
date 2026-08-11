@@ -1,7 +1,7 @@
 ---
-title: "Cómo Planear una Fiesta Infantil en Jardín con Inflables |."
+title: "Fiesta Infantil en Jardín con Inflable: Guía Paso a Paso"
 h1: "Cómo Planear una Fiesta Infantil en Jardín con Inflables"
-description: "Inflables para fiestas en jardín en CDMX. Guía completa para organizar una fiesta infantil al aire libre con inflable: espacio, logística y tips de decoración."
+description: "Cómo organizar una fiesta infantil en jardín con inflable en CDMX: cuánto espacio pide cada modelo, electricidad, menú, cronograma y plan B para la lluvia."
 excerpt: "Organiza el cumpleaños perfecto en tu jardín: medidas de espacio, checklist de seguridad, cálculo de menú, inflable ideal y cronograma de evento. Nada se improvisa."
 publishDate: "2025-01-15"
 category: "Guías"
@@ -14,13 +14,13 @@ intro:
   - "En **BRINCOLINS** llevamos años rentando inflables en jardines de toda la **CDMX, Naucalpan, Tlalnepantla, Coyoacán, Polanco, Iztapalapa** y más. Hemos visto lo que funciona y lo que causa caos. Esta guía es lo que aprendimos: la checklist que necesitas, paso a paso, para que el cumpleaños salga perfecto. Al final, puedes escríbir por **WhatsApp** y reservas en minutos."
 faqs:
   - question: "¿Mi jardín es lo suficientemente grande para un inflable?"
-    answer: "El Mini Castillo necesita apenas 3×3 metros planos y libres de objetos. Los medianos como Dragones Rojos y Castillo de Princesas piden 5×5 metros; el Mini Jungla 6×5 y los Gusanitos 6×4. Los grandes necesitan más: Castillo Blanco 7×6, Extremo 8×5 y Barco Pirata 8×6. Mide tu zona y contáctanos — asesoramos sin compromiso."
+    answer: "El Mini Castillo necesita apenas 3×3 metros planos y libres de objetos. Los medianos como Dragones Rojos y Castillo de Princesas piden 6×6 metros; el Mini Jungla 6.5×6 y los Gusanitos 7×5. Los grandes necesitan más: Castillo Blanco 8×7, Extremo 9×6 y Barco Pirata 9×7. Esas cifras ya incluyen el metro de margen por lado. Mide tu zona y contáctanos: asesoramos sin compromiso."
   - question: "¿Qué pasa si llueve el día de la fiesta?"
     answer: "Los inflables funcionan bajo lluvia normal. Sin embargo, si hay tormentas eléctricas, debe apagarse por seguridad. Recomienda tener un plan B: carpa amplia o salón cercano. En la CDMX es común tener lloviznas en abril-mayo, así que prepara coberturas extras."
   - question: "¿Cuánta electricidad consume un inflable?"
     answer: "El soplador consume entre 500W y 1.5kW. Si tu instalación es estándar (127V, 15A), funciona perfecto. Si tienes dudas sobre tu capacidad eléctrica, contactanos antes para verificar. Podemos llevar generador si es necesario."
   - question: "¿Cuántos niños pueden jugar en un inflable a la vez?"
-    answer: "El Mini Castillo soporta 6-8 niños simultáneamente. El Barco Pirata recibe 8-10 niños desde 4 años y el Extremo 6-10 desde 6 años. Para fiestas grandes con 25+ niños, recomendamos dos inflables o rotación de turnos (30-40 min cada grupo)."
+    answer: "El Mini Castillo soporta 3 a 4 niños de 1 a 4 años. Los medianos —Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos— reciben de 5 a 7 niños. El Barco Pirata y el Castillo Blanco, de 8 a 10; el Extremo, de 6 a 10 por turno desde los 6 años. Para fiestas con 25 o más niños, recomendamos dos inflables o rotación de turnos de 30 a 40 minutos por grupo."
   - question: "¿Es seguro dejar a los niños jugando sin supervisión?"
     answer: "Nunca. Siempre debe haber un adulto vigilando el inflable. No es responsabilidad del prestador, pero es esencial para evitar lesiones. Asigna a un papá o mamá solo para eso durante toda la fiesta."
 ---
@@ -36,7 +36,7 @@ El espacio ideal debe ser:
 - **Con 1 metro de zona de seguridad:** Espacio libre alrededor del inflable para que los niños no choquen con la cerca
 - **Acceso claro:** Puerta o entrada amplia para que nuestro equipo pueda entrar con la lona del inflable
 
-> **Pro tip:** Toma una foto de tu jardín desde arriba (con el celular) y comparte la zona donde irá el inflable. Así podemos confirmar sin errores si cabe el modelo que quieres.
+> **Pro tip:** Toma una foto de tu jardín desde arriba (con el celular) y comparte la zona donde irá el inflable. Así podemos confirmar sin errores si cabe el modelo que quieres. Si prefieres decidir tú, la [guía para elegir el inflable según edad y espacio](/blog/como-elegir-inflable-fiesta-infantil/) tiene todas las medidas juntas.
 
 ## Paso 2: Confirma la electricidad disponible
 
@@ -53,13 +53,14 @@ Considera esto:
 
 Ahora que sabes qué espacio tienes, elige el inflable. En un jardín típico (4×6 metros o más) tienes varias opciones:
 
-- **[Mini Castillo](/inflables/mini-castillo/) 3×3m:** Para espacios pequeños, de 3 a 8 años, hasta 6 niños. Desde $800
-- **[Castillo de Princesas](/inflables/castillo-princesas/) o [Dragones Rojos](/inflables/dragones-rojos/) 5×5m:** Versátil, edad 3-10 años, hasta 8 niños. Desde $1,200
-- **[Gusanitos](/inflables/gusanitos/) 6×4m:** Alargado estilo túneles, entrada baja para los más pequeños. Desde $1,350
-- **[Barco Pirata](/inflables/barco-pirata/) 8×6m:** Mayor impacto visual y tobogán de altura, desde 4 años, 8-10 niños. Desde $1,800
-- **[Extremo](/inflables/extremo/) 8×5m:** Circuito de obstáculos en doble carril, desde 6 años, 6-10 niños. Desde $1,900
+- **[Mini Castillo](/inflables/mini-castillo/) — 3×3 m de área:** para espacios pequeños, de 1 a 4 años, 3 a 4 niños. $800 MXN
+- **[Castillo de Princesas](/inflables/castillo-princesas/) o [Dragones Rojos](/inflables/dragones-rojos/) — 6×6 m:** versátiles, de 4 a 10 años, 5 a 7 niños. $1,200 MXN
+- **[Mini Jungla](/inflables/mini-jungla/) — 6.5×6 m:** temática safari, de 3 a 10 años, 5 a 7 niños. $1,300 MXN
+- **[Gusanitos](/inflables/gusanitos/) — 7×5 m:** circuito de túneles alargado, de 4 a 10 años, 5 a 7 niños. $1,350 MXN
+- **[Barco Pirata](/inflables/barco-pirata/) — 9×7 m:** mayor impacto visual y tobogán de altura, desde 4 años, 8 a 10 niños. $1,800 MXN
+- **[Extremo](/inflables/extremo/) — 9×6 m:** circuito de obstáculos en doble carril, desde 6 años, 6 a 10 por turno. $1,900 MXN
 
-Para una **fiesta en jardín CDMX**, recomendamos un **Castillo temático o Barco Pirata** — buen tamaño, fácil de instalar en 20 minutos, y los niños se entretienen 3-4 horas seguidas.
+Para una **fiesta en jardín CDMX**, recomendamos un **castillo temático o el Barco Pirata**: buen tamaño, fácil de instalar en 20 minutos, y los niños se entretienen 3 o 4 horas seguidas. Los precios completos, con medidas y capacidad, están en la [página de precios](/precios/); si además vas a montar mesas y mobiliario, revisa la guía de [fiesta en el jardín con inflable y mesas picnic](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/).
 
 ## Paso 4: Prepara el jardín el día anterior
 
@@ -118,7 +119,7 @@ Para una fiesta con 20 niños:
 
 Las fiestas en jardín son relajadas, pero la seguridad de los niños es lo primero:
 
-- ☐ **Zona de vigilancia:** Un adulto designado viendo el inflable TODO el tiempo (no dos minutos, TODO)
+- ☐ **Zona de vigilancia:** Un adulto designado viendo el inflable TODO el tiempo (no dos minutos, TODO). Las [7 reglas de oro de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/) son las que conviene comunicar a los niños antes de empezar
 - ☐ **Reglas claras:** Comunica a los niños: nada de gafas, nada de objetos duros, turnos ordenados
 - ☐ **Botiquín:** Curitas, gasas, alcohol — los rasguños en el inflable son raros pero pasan
 - ☐ **Clima:** Si llueve, toma la decisión rápido (continúa o pausa)
@@ -152,7 +153,7 @@ Imprimi esto y checa:
 
 ## Listo. Ahora, reserva tu inflable
 
-Si tu jardín mide más de 4×4m, tienes electricidad disponible y estás en **CDMX, Naucalpan, Tlalnepantla, Coyoacán o zonas aledañas**, podemos ayudarte.
+Si tu jardín mide más de 3×3 m, tienes electricidad disponible y estás en **CDMX, Naucalpan, Tlalnepantla, Coyoacán o zonas aledañas**, podemos ayudarte. Confirma si tu zona lleva cargo de envío en la [página de cobertura](/cobertura/) — en municipios lejanos de Edomex va de $150 a $600 y en algunas alcaldías del sur y oriente de la CDMX, de $100 a $200.
 
 Escribe por **WhatsApp** con estos datos:
 
@@ -162,4 +163,4 @@ Escribe por **WhatsApp** con estos datos:
 - Tamaño aproximado de tu jardín (o envía foto)
 - Temática o inflable que te interesa
 
-Te respondemos en minutos con cotización, opciones de inflables y disponibilidad. Es gratis y sin compromiso.
+Te respondemos en minutos con cotización, opciones de inflables y disponibilidad. Es gratis y sin compromiso: [pide tu cotización aquí](/cotizar/).

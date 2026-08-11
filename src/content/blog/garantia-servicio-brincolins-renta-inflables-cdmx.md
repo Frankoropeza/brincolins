@@ -1,6 +1,6 @@
 ---
 title: "Lo que BRINCOLINS Te Promete el Día de tu Fiesta"
-description: "Rentar un inflable con garantía en CDMX: puntualidad, equipo limpio, sanitización garantizada y alguien que responde si algo falla. Así opera BRINCOLINS."
+description: "Qué promete BRINCOLINS el día de tu fiesta en CDMX: puntualidad, equipo revisado y sanitizado, precio sin cambios y alguien que contesta si algo falla."
 excerpt: "Una promesa de servicio es fácil de escribir. Lo difícil es cumplirla un sábado lluvioso con tráfico en Periférico y la fiesta empezando en dos horas. Eso es lo que hacemos."
 publishDate: "2026-07-02"
 category: "Empresa"
@@ -59,7 +59,7 @@ En BRINCOLINS cada inflable pasa por una revisión después de cada evento y ant
 - Limpieza exterior e interior con productos seguros para niños
 - Verificación de todos los accesorios y elementos decorativos
 
-Si en esa revisión algo no pasa — un motor con rendimiento irregular, una costura que empieza a ceder — ese inflable no sale al evento. Usamos el siguiente disponible o buscamos solución. Pero no enviamos algo que no está en condiciones.
+Si en esa revisión algo no pasa — un motor con rendimiento irregular, una costura que empieza a ceder — ese inflable no sale al evento. Usamos el siguiente disponible del [catálogo de 8 modelos](/inflables/) o buscamos solución. Pero no enviamos algo que no está en condiciones; los [estándares de calidad que debe cumplir cualquier proveedor](/blog/calidad-servicio-inflables-cdmx-estandares/) están descritos con detalle en otra guía.
 
 ¿Por qué? Porque mandarlo igual es tentador a veces — la fecha está comprometida, el cliente espera, el tiempo apremia. Pero mandar algo que falla en tu fiesta nos sale más caro a nosotros a largo plazo que absorber la solución ese día.
 
@@ -83,7 +83,7 @@ En todos esos casos, alguien contestó y resolvió.
 
 Nada destroza la confianza más rápido que un precio que sube el día del evento.
 
-Cuando BRINCOLINS te cotiza, el precio que te decimos es el precio que pagas. Incluye el inflable, el transporte de ida y vuelta, la instalación, el retiro y el seguro. Si tu zona tiene un cargo por distancia, te lo decimos antes de confirmar — no cuando ya estamos llegando a tu casa.
+Cuando BRINCOLINS te cotiza, el precio que te decimos es el precio que pagas. Incluye el inflable, el transporte de ida y vuelta, la instalación, la sanitización previa y el retiro. Es precio neto: se agrega IVA solo si necesitas factura. Y si tu zona tiene cargo por distancia —$150 a $600 en municipios lejanos de Edomex, $100 a $200 en algunas alcaldías del sur y oriente de la CDMX— te lo decimos antes de confirmar, no cuando ya estamos llegando a tu casa. Las cifras de los ocho modelos están publicadas en la [página de precios](/precios/) y las zonas, en la [página de cobertura](/cobertura/).
 
 Así de simple.
 
@@ -99,9 +99,11 @@ Hay cosas fuera de nuestro control y no vamos a prometerte lo que no podemos gar
 
 **Accesos imposibles.** Si el espacio donde quieres poner el inflable físicamente no lo permite — una azotea sin elevador para un inflable de 6 metros, por ejemplo — lo detectamos durante la cotización preguntando las dimensiones del espacio. Si por alguna razón llegamos y el acceso es inviable, lo resolvemos juntos en el momento, sin cobrarte por un servicio que no pudimos prestar.
 
-**El comportamiento de los usuarios.** Instrucciones claras, capacidad máxima, supervisión de adultos — eso está de nuestro lado. Lo que pasa dentro del inflable cuando hay adultos que entran sin avisar, o cuando se supera la capacidad, ya no depende de nosotros.
+**El comportamiento de los usuarios.** Te decimos la capacidad exacta del modelo que rentaste —3 a 4 niños en el Mini Castillo, 5 a 7 en los medianos, 8 a 10 en los grandes— y damos las instrucciones al instalar. Lo que pasa dentro del inflable cuando hay adultos que entran sin avisar, o cuando se supera esa capacidad, ya no depende de nosotros. La [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/) es la que conviene leer antes de la fiesta.
 
-Ser honestos sobre los límites es tan importante como cumplir las promesas. Ningún proveedor honesto promete el 100% de todo.
+**Un seguro de responsabilidad civil.** No lo ofrecemos, y no vamos a sugerir lo contrario. Lo que entregamos es equipo revisado y sanitizado, instalación con anclaje verificado, motor profesional durante todo el evento y recolección puntual.
+
+Ser honestos sobre los límites es tan importante como cumplir las promesas. Ningún proveedor honesto promete todo.
 
 ---
 
@@ -109,4 +111,4 @@ Ser honestos sobre los límites es tan importante como cumplir las promesas. Nin
 
 El proceso completo de inicio a fin dura menos de lo que imaginas y es más sencillo de lo que parece. [Acá te explicamos paso a paso cómo rentar con BRINCOLINS](/blog/como-rentar-inflable-brincolins-proceso-paso-a-paso/).
 
-Si ya tienes la fecha en mente, el camino más corto es [cotizar directamente](/cotizar/). Te respondemos en menos de una hora.
+Si ya tienes la fecha en mente, el camino más corto es [cotizar directamente](/cotizar/). Te respondemos en menos de una hora, de lunes a domingo entre las 8:00 y las 20:00. Y si te quedan dudas antes de reservar, las más frecuentes ya están resueltas en las [preguntas frecuentes](/preguntas-frecuentes/).

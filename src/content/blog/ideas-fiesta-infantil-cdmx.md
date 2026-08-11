@@ -1,5 +1,5 @@
 ---
-title: "10 Ideas para Organizar una Fiesta Infantil Épica en CDMX |."
+title: "10 Ideas para una Fiesta Infantil Épica en CDMX"
 h1: "10 Ideas para Organizar una Fiesta Infantil Épica en CDMX"
 description: "Ideas creativas para organizar una fiesta infantil inolvidable en CDMX con inflables, decoración temática y actividades."
 excerpt: "Desde la temática hasta el menú y el inflable: ideas prácticas para planear un cumpleaños que los niños de CDMX recordarán toda la vida, sin volverte loco en el proceso."
@@ -36,16 +36,16 @@ Antes de comprar un solo globo, **pregúntale al cumpleañero qué temática qui
 
 ## Idea #2: El inflable como estrella central
 
-Un brincolín no es solo diversión — es el centro de atención de la fiesta y mantiene a los niños ocupados durante horas. Elige un inflable que **vaya con la temática**: el [Castillo de Princesas](/inflables/castillo-princesas/) para fiestas de cuento de hadas, el [Barco Pirata](/inflables/barco-pirata/) para aventureros, el [Mini Jungla](/inflables/mini-jungla/) para safaris o el [Extremo](/inflables/extremo/) para los que quieren retos y carreras.
+Un brincolín no es solo diversión — es el centro de atención de la fiesta y mantiene a los niños ocupados durante horas. Elige un inflable que **vaya con la temática y con la edad**: el [Castillo de Princesas](/inflables/castillo-princesas/) ($1,200, de 4 a 10 años) para fiestas de cuento de hadas, el [Barco Pirata](/inflables/barco-pirata/) ($1,800, desde 4 años) para aventureros, el [Mini Jungla](/inflables/mini-jungla/) ($1,300, de 3 a 10 años) para safaris o el [Extremo](/inflables/extremo/) ($1,900, desde 6 años) para los que quieren retos y carreras. Si el festejado tiene 4 años o menos, el modelo correcto es el [Mini Castillo](/inflables/mini-castillo/) de $800 MXN. La tabla completa está en la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/).
 
-> El inflable suele ocupar a los niños 2-3 horas seguidas. Colócalo lejos de la mesa de adultos para que los papás puedan platicar con calma.
+> El inflable suele ocupar a los niños 2 o 3 horas seguidas. Colócalo lejos de la mesa de adultos para que los papás puedan platicar con calma, y respeta la capacidad del modelo: 3 a 4 niños en el Mini Castillo, 5 a 7 en los medianos, 8 a 10 en los grandes.
 
 ## Idea #3: Elige el espacio correcto para CDMX
 
 En la Ciudad de México tienes varias opciones de espacio. Cada una tiene ventajas:
 
-- **Jardín en casa:** Lo más económico, mayor libertad, pero requiere espacio mínimo de 3×3 m para el Mini Castillo, nuestro modelo más compacto
-- **Salón de fiestas:** Incluye instalaciones, meseros y cocina, pero necesitas confirmar que acepten inflables externos
+- **Jardín en casa:** Lo más económico y con mayor libertad. Necesitas de 3×3 m (Mini Castillo) a 9×7 m (Barco Pirata) según el modelo; el paso a paso está en la guía de [fiesta infantil en jardín con inflable](/blog/fiesta-infantil-jardin-inflable-cdmx/)
+- **Salón de fiestas:** Incluye instalaciones, meseros y cocina, pero verifica la altura del techo: bajo techo solo caben el Mini Castillo y los Gusanitos, ambos con 3.2 m de altura libre
 - **Parque o jardín público:** Ambiente natural y amplio, pero necesitas generador de electricidad para el inflable
 - **Azotea:** Muy de moda en Condesa, Roma y Polanco. Verifica el piso (necesita ser liso) y la altura libre
 
@@ -111,6 +111,6 @@ Los papás también necesitan su espacio. Coloca una zona cómoda con sillas, me
 
 ## Idea #10: Contrata con anticipación
 
-Los fines de semana de mayo (el mes con más cumpleaños en México) y diciembre se agotan muy rápido. **Reserva tu inflable con al menos 2-3 semanas de anticipación**. Con solo 50% de anticipo, tu fecha queda apartada.
+Los fines de semana de mayo (el mes con más cumpleaños en México) y diciembre se agotan muy rápido. **Reserva tu inflable con al menos 2 o 3 semanas de anticipación**. Con el 50% de anticipo, tu fecha queda apartada. Los precios van de $800 a $1,900 MXN y están publicados en la [página de precios](/precios/); son netos, con IVA solo si necesitas factura y cargo de envío según distancia en las zonas más lejanas.
 
-> ¿Tienes ya la fecha del evento? Escríbenos por WhatsApp ahora para revisar disponibilidad. Los fines de semana se reservan muy rápido.
+> ¿Tienes ya la fecha del evento? [Pide tu cotización](/cotizar/) o escríbenos por WhatsApp para revisar disponibilidad. Y si quieres el plan completo semana por semana, está en [cómo planear un cumpleaños infantil en CDMX](/blog/planear-cumpleanos-infantil-completo-cdmx/).

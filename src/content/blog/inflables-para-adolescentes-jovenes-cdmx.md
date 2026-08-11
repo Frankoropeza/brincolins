@@ -20,7 +20,7 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Los inflables de BRINCOLINS aguantan el peso de adolescentes y jóvenes?"
-    answer: "Sí, nuestros modelos Extremo y Barco Pirata están fabricados con lona comercial de alta resistencia y costuras reforzadas, diseñados para soportar el uso intensivo de adolescentes y adultos jóvenes sin ningún problema."
+    answer: "Sí. El Extremo (7×4×3.8 m, desde 6 años, 6 a 10 participantes por turno, $1,900 MXN) y el Barco Pirata (7×5×4.5 m, desde 4 años, 8 a 10 niños, $1,800 MXN) están fabricados con lona comercial de alta resistencia y costuras reforzadas, diseñados para soportar el uso intensivo de adolescentes y adultos jóvenes."
   - question: "¿Qué inflable recomiendan para una fiesta de XV años?"
     answer: "Para XV años recomendamos el inflable Extremo (pista de obstáculos) porque es la atracción que más engancha a los jóvenes de 13 a 18 años. También el Barco Pirata con tobogán es una excelente opción. Ambos generan fotos y videos increíbles para las redes sociales."
   - question: "¿Los adolescentes no se aburrirán del inflable?"
@@ -43,11 +43,11 @@ No todos los inflables funcionan para adolescentes. Los modelos pequeños y tem�
 
 ### Inflable Extremo — Pista de obstáculos
 
-Sin duda el favorito de los adolescentes. El **Inflable Extremo** es una pista de obstáculos completa con túneles, columnas esquivables, muro de escalada y tobogán de salida. Permite carreras simultáneas entre dos competidores, lo que convierte cada ronda en un enfrentamiento directo lleno de adrenalina. Los jóvenes pueden organizar torneos eliminatorios, carreras contra reloj y competencias por equipos que los mantienen **enganchados durante horas**.
+Sin duda el favorito de los adolescentes, y el modelo que más se renta para fiestas de este perfil. El **[Inflable Extremo](/inflables/extremo/)** es una pista de obstáculos de 7×4×3.8 m —pide 9×6 m de área libre y 4.5 m de altura— con túneles, columnas esquivables, muro de escalada y tobogán de salida. Recibe de 6 a 10 participantes por turno desde los 6 años y cuesta **$1,900 MXN**. Permite carreras simultáneas entre dos competidores, lo que convierte cada ronda en un enfrentamiento directo lleno de adrenalina. Los jóvenes pueden organizar torneos eliminatorios, carreras contra reloj y competencias por equipos que los mantienen **enganchados durante horas**.
 
 ### [Barco Pirata](/inflables/barco-pirata/) — Tobogán de altura
 
-Para los adolescentes que buscan la emoción de la altura, el **Barco Pirata** con tobogán incorporado es una atracción espectacular. Su diseño temático de barco pirata con torre de escalada y resbaladilla amplia lo convierte en un punto focal impresionante para cualquier fiesta. A los jóvenes les fascina subir, deslizarse y repetir una y otra vez.
+Para los adolescentes que buscan la emoción de la altura, el **Barco Pirata** con tobogán incorporado es una atracción espectacular. Con 7×5×4.5 m es el modelo más grande del catálogo, pide 9×7 m de área libre con 5.2 m de altura, recibe de 8 a 10 personas y cuesta **$1,800 MXN**. La comparativa entre los dos formatos está en [brincolín vs. tobogán inflable](/blog/brincolin-vs-tobogan-inflable-cdmx/). A los jóvenes les fascina subir, deslizarse y repetir una y otra vez.
 
 > **Recomendación:** Si tu presupuesto lo permite, combinar el Inflable Extremo (competencias) con el Barco Pirata (tobogán) crea una experiencia completa donde los adolescentes rotan entre ambas atracciones sin aburrirse jamás.
 
@@ -55,7 +55,7 @@ Para los adolescentes que buscan la emoción de la altura, el **Barco Pirata** c
 
 Dos de los eventos más importantes en la vida de un adolescente mexicano son la **fiesta de XV años** y la **graduación de secundaria o preparatoria**. Tradicionalmente, estos eventos se enfocan en la cena, el vals y la música. Sin embargo, cada vez más familias están incorporando inflables extremos como complemento perfecto para la parte de diversión.
 
-En una fiesta de XV años, el inflable funciona espectacular durante la recepción o como actividad posterior al protocolo formal. Mientras los adultos conviven en las mesas, los jóvenes tienen su propia zona de diversión con la pista de obstáculos. Esto resuelve uno de los mayores retos de los XV años: **mantener entretenidos a los amigos de la quinceañera** durante las horas de fiesta.
+En una fiesta de XV años, el inflable funciona espectacular durante la recepción o como actividad posterior al protocolo formal — la coordinación con el programa del evento la desarrollamos en la guía de [inflables para bodas y XV años](/blog/renta-inflables-bodas-xv-anos/). Mientras los adultos conviven en las mesas, los jóvenes tienen su propia zona de diversión con la pista de obstáculos. Esto resuelve uno de los mayores retos de los XV años: **mantener entretenidos a los amigos de la quinceañera** durante las horas de fiesta.
 
 Para las graduaciones, el inflable extremo es ideal porque los compañeros de generación pueden competir entre sí en un ambiente festivo y relajado. Es la actividad perfecta para celebrar el cierre de un ciclo escolar, generar recuerdos de grupo y tomarse fotos divertidas que quedarán para siempre.
 
@@ -94,10 +94,10 @@ En BRINCOLINS nos tomamos la seguridad muy en serio. Cada inflable pasa por revi
 
 Sabemos que organizar una fiesta para adolescentes implica considerar el presupuesto. En **BRINCOLINS** ofrecemos opciones que se adaptan a diferentes necesidades:
 
-- **Inflable Extremo individual:** perfecto como atracción central de la fiesta. Incluye transporte, instalación, operación durante el evento y desmontaje.
-- **Combinación de inflables:** para fiestas más grandes, puedes combinar el Extremo con el Barco Pirata u otro modelo para crear una zona de diversión completa.
+- **Inflable Extremo individual — $1,900 MXN:** perfecto como atracción central de la fiesta. Incluye transporte, instalación, operación durante el evento y desmontaje.
+- **Combinación de inflables:** para fiestas más grandes, puedes combinar el Extremo con el Barco Pirata ($1,800 MXN) y crear una zona de diversión completa. Los ocho precios del catálogo están en la [página de precios](/precios/).
 - **Eventos escolares:** ofrecemos precios especiales para escuelas y organizaciones que buscan actividades para grupos grandes de adolescentes.
 
-El proceso de cotización es rápido y transparente. Solo escríbenos por **WhatsApp** con la fecha, el lugar y el número de invitados, y en minutos te enviamos una propuesta con precio cerrado sin sorpresas ni costos ocultos. Atendemos toda la **CDMX y Estado de México** con entrega e instalación incluida.
+El proceso de cotización es rápido y transparente. Solo escríbenos por **WhatsApp** o [pídela en línea](/cotizar/) con la fecha, el lugar y el número de invitados, y en minutos te enviamos una propuesta con precio cerrado. Son precios netos: se agrega IVA solo si necesitas factura, y en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma el cargo de envío según la distancia. Atendemos toda la **CDMX y Estado de México**.
 
 > **Consejo para papás:** Involucra a tu hijo o hija en la elección del inflable. Muéstrale las fotos de nuestros modelos y deja que participe en la decisión. Esto genera emoción anticipada y asegura que la atracción sea exactamente lo que los jóvenes esperan.
