@@ -4,15 +4,20 @@ import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
+import { INFLABLES_ACTIVOS } from "@/data/inflables";
 
 const title = "Sobre Nosotros — Renta de Inflables en CDMX | BRINCOLINS";
 const description = "Conoce BRINCOLINS: +20 años de experiencia en renta de inflables para fiestas infantiles en CDMX y Edomex. Seguridad, puntualidad y diversión garantizada.";
 
+/* Antes cada tarjeta mostraba un bloque de color con las siglas "+20",
+   "SEG", "E&I" y "100%". Las dos de en medio son abreviaturas internas que
+   nadie fuera del equipo entiende. Ahora la cifra dice algo verificable y
+   el dato clave va como pie. */
 const diferenciales = [
-  { label: "+20", gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)", title: "+20 años de experiencia", desc: "Desde 2005, hemos sido parte de miles de fiestas infantiles en CDMX y Estado de México." },
-  { label: "SEG", gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)", title: "Seguridad certificada", desc: "Todos nuestros inflables se revisan y sanitizan antes de cada evento para tu tranquilidad." },
-  { label: "E&I", gradient: "linear-gradient(135deg, #1565C0, #0288D1)", title: "Servicio integral incluido", desc: "Entrega, instalación profesional, limpieza, desinfección y recolección sin costos ocultos." },
-  { label: "100%", gradient: "linear-gradient(135deg, #00C853, #2E7D32)", title: "Compromiso con la diversión", desc: "Nuestro objetivo es que cada fiesta sea inolvidable para los más pequeños." },
+  { num: "2005",  unit: "año de fundación", gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)", title: "Más de 20 años en el oficio", desc: "Desde 2005 montando fiestas infantiles en la Ciudad de México y el Estado de México. Empezamos con un inflable." },
+  { num: "8",     unit: "modelos en flota",  gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)", title: "Flota propia y revisada", desc: "No subcontratamos. Cada inflable se revisa, limpia y sanitiza antes de salir a un evento." },
+  { num: "32",    unit: "zonas de entrega",  gradient: "linear-gradient(135deg, #1565C0, #0288D1)", title: "Entrega, montaje y recolección", desc: "Las 16 alcaldías de la CDMX y 16 municipios del Estado de México, con el cargo de envío publicado por zona." },
+  { num: "15-30", unit: "min de montaje",    gradient: "linear-gradient(135deg, #00695C, #00897B)", title: "Llegamos antes de tu hora", desc: "El montaje toma de 15 a 30 minutos según el modelo, y llegamos con antelación para que esté listo a tiempo." },
 ];
 
 const timeline = [
@@ -61,6 +66,26 @@ const timeline = [
 
   <QuickNav />
 
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="La flota"
+        title="Los 8 inflables que operamos"
+        subtitle="Equipo propio, no subcontratado."
+        copy1="Estos son los modelos que salen de nuestra bodega. Los ves aquí tal como llegan a tu evento: cada uno se revisa, se limpia y se sanitiza antes de cargarse a la camioneta."
+        copy2="Trabajar con flota propia es lo que nos permite responder por el estado del equipo y por el horario de entrega. Cuando un proveedor subcontrata, ninguna de las dos cosas depende de él."
+      />
+      <div class="nos-flota">
+        {INFLABLES_ACTIVOS.map((inf) => (
+          <a href={`/inflables/${inf.slug}/`} class="nos-flota__item">
+            <img src={inf.image} alt={`Inflable ${inf.name} de la flota de BRINCOLINS`} width="720" height="480" loading="lazy" decoding="async" />
+            <span class="nos-flota__name">{inf.name}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <section class="section section--alt">
     <div class="container">
       <div class="grid-3" style="max-width:900px; margin:0 auto;">
@@ -93,7 +118,8 @@ const timeline = [
         {diferenciales.map(d => (
           <div class="why-card">
             <div class="why-card__img" style={`background: ${d.gradient};`}>
-              <span class="why-card__img-label">{d.label}</span>
+              <span class="why-card__img-label">{d.num}</span>
+              <span class="why-card__img-unit">{d.unit}</span>
             </div>
             <div class="why-card__body">
               <h3 class="why-card__title">{d.title}</h3>
@@ -138,3 +164,53 @@ const timeline = [
   />
 
 </PageLayout>
+
+<style>
+  /* Rejilla de flota — /nosotros/ no tenía ni una imagen, siendo la página
+     donde se construye la confianza. */
+  .nos-flota {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+
+  .nos-flota__item {
+    display: block;
+    border: 1px solid var(--c-border);
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    text-decoration: none;
+    transition: transform .15s ease, border-color .15s ease;
+  }
+  .nos-flota__item:hover { transform: translateY(-2px); border-color: var(--c-primary); }
+
+  .nos-flota__item img {
+    display: block;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .nos-flota__name {
+    display: block;
+    padding: .7rem .85rem;
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: .9rem;
+    color: var(--c-text);
+  }
+
+  .why-card__img-unit {
+    display: block;
+    margin-top: .2rem;
+    font-size: .7rem;
+    font-weight: 600;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .88);
+  }
+
+  @media (max-width: 900px) { .nos-flota { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 460px) { .nos-flota { grid-template-columns: 1fr; } }
+</style>

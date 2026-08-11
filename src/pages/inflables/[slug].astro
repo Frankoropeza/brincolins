@@ -7,7 +7,7 @@
  * y el contenido editorial de data/productos.ts. Las URLs no cambian:
  * /inflables/<slug>/ se genera igual que antes.
  */
-import { INFLABLES } from "@/data/inflables";
+import { INFLABLES, getSpecRows, REQ_POWER, REQ_SURFACE, REQ_ADULT, PRICE_NOTE_LONG } from "@/data/inflables";
 import { PRODUCTOS_PAGINAS } from "@/data/productos";
 import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
@@ -93,8 +93,56 @@ const ctaBarItems = [
   <!-- Gallery -->
   <section class="section" id="galeria">
     <div class="container">
-      <SectionHeader badge="Galería" title={`Galería del ${canon.name} en fiestas reales`} subtitle="Imágenes reales de nuestros eventos" copy1={page.galeria.copy1} copy2={page.galeria.copy2} />
+      <SectionHeader badge="Galería" title={`Galería del ${canon.name} en fiestas reales`} subtitle={`El ${canon.name} instalado y en uso`} copy1={page.galeria.copy1} copy2={page.galeria.copy2} />
       <Gallery4x4 images={page.galleryImages} />
+    </div>
+  </section>
+
+  <!-- Especificaciones y requisitos -->
+  <section class="section" id="especificaciones">
+    <div class="container">
+      <SectionHeader
+        badge="Especificaciones"
+        title={`¿Cabe el ${canon.name} en tu espacio?`}
+        subtitle="Medidas exactas, área libre necesaria y qué hace falta en el domicilio."
+        copy1={`El ${canon.name} mide ${canon.size} y necesita un área libre de ${canon.spaceRequired} con ${canon.heightClearance} de altura despejada. Ese margen no es capricho: incluye el espacio de anclaje y la zona de seguridad alrededor del inflable, donde no puede haber muros, ramas ni cables.`}
+        copy2={canon.indoor
+          ? `Con ${canon.heightClearance} de altura libre, es uno de los dos modelos que caben bajo techo: funciona en salones, terrazas cubiertas y departamentos con techo estándar.`
+          : `Por su altura necesita instalarse al aire libre o en un salón con techo alto. Si tu evento es bajo techo, el Mini Castillo y los Gusanitos son los modelos que sí caben.`}
+      />
+
+      <div class="spec-layout">
+        <table class="spec-table">
+          <caption class="sr-only">Especificaciones del {canon.name}</caption>
+          <tbody>
+            {getSpecRows(canon).map((r) => (
+              <tr>
+                <th scope="row">{r.label}</th>
+                <td>{r.value}</td>
+              </tr>
+            ))}
+            <tr>
+              <th scope="row">Precio</th>
+              <td>Desde {canon.price} MXN por evento</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="spec-req">
+          <h3 class="spec-req__title">Qué necesitas tener listo</h3>
+          <ul class="spec-req__list">
+            <li>{REQ_SURFACE}</li>
+            <li>{REQ_POWER}</li>
+            <li>{REQ_ADULT}</li>
+            <li>Acceso para el vehículo de entrega. Si es condominio o salón, avísanos para gestionar el permiso.</li>
+          </ul>
+          <p class="spec-req__note">
+            {PRICE_NOTE_LONG} ¿No estás seguro de que quepa? Mándanos una foto del
+            espacio por <a href={ctaBarItems[3].href} target="_blank" rel="nofollow noopener noreferrer">WhatsApp</a>
+            y te lo confirmamos antes de que apartes la fecha.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
