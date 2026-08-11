@@ -38,6 +38,7 @@ export interface Props {
   phone?:       string;
   email?:       string;
   noindex?:     boolean;
+  servicio?:    "inflable" | "mobiliario" | "iluminacion";
 }
 
 const {
@@ -52,17 +53,18 @@ const {
   schemaMarkup,
   whatsapp = WHATSAPP,
   noindex,
+  servicio,
 } = Astro.props;
 
 /* ── FAQs universales de respaldo ── */
 const defaultFaqs = [
   {
     question: "¿Cuáles son los precios de renta de inflables?",
-    answer:   "Nuestros precios van desde $800 MXN por evento (Mini Castillo para bebés). Los inflables medianos —Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos— van de $1,200 a $1,350 MXN. Los grandes —Castillo Blanco, Barco Pirata y Circuito Extremo— desde $1,700 MXN. Todos incluyen entrega, instalación, motor inflador y limpieza.",
+    answer:   "Nuestros precios van desde $800 MXN por evento (Mini Castillo para bebés). Los inflables medianos —Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos— van de $1,200 a $1,350 MXN. Los grandes —Castillo Blanco, Barco Pirata y Circuito Extremo— desde $1,700 MXN. Todos incluyen entrega, instalación, motor inflador, sanitización y recolección. Son precios netos: si necesitas factura se agrega el 16% de IVA.",
   },
   {
     question: "¿Qué incluye el servicio de renta?",
-    answer:   "Incluye entrega a domicilio sin costo adicional, instalación profesional en menos de 30 minutos, motor inflador silencioso, sanitización certificada antes del evento y recolección al finalizar. El precio publicado es el precio final, sin cargos ocultos ni sorpresas.",
+    answer:   "Incluye entrega a domicilio sin costo adicional, instalación profesional en menos de 30 minutos, motor inflador silencioso, sanitización certificada antes del evento y recolección al finalizar. Lo único que puede sumarse al precio publicado es el IVA, si necesitas factura, y el cargo de envío en zonas distantes — ambos te los decimos antes de que apartes la fecha.",
   },
   {
     question: "¿Los inflables son seguros para los niños?",
@@ -82,15 +84,22 @@ const defaultFaqs = [
   },
   {
     question: "¿Cubren toda la CDMX y el Estado de México?",
-    answer:   "Cubrimos las 16 alcaldías de la Ciudad de México y los principales municipios del Estado de México: Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Atizapán, Cuautitlán Izcalli, Coacalco, Nezahualcóyotl y más. La entrega es sin costo en toda nuestra zona de cobertura.",
+    answer:   "Cubrimos las 16 alcaldías de la Ciudad de México y los principales municipios del Estado de México: Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Atizapán, Cuautitlán Izcalli, Coacalco, Nezahualcóyotl y más. En la mayoría de las alcaldías la entrega va incluida; en municipios distantes aplica un cargo de envío que publicamos en la página de cada zona.",
   },
   {
     question: "¿Cuánto espacio necesito para instalar un inflable?",
-    answer:   "El Mini Castillo solo necesita 3×3 metros y funciona en interiores. Los inflables medianos requieren aproximadamente 5×5 metros. El Barco Pirata necesita 8×6 metros y el Circuito Extremo al menos 8×5 metros. Si tienes dudas, compártenos una foto del espacio y te orientamos al instante.",
+    answer:   "El Mini Castillo necesita 3×3 metros y es uno de los dos modelos que caben bajo techo, junto con Gusanitos. Los medianos piden unos 6×6 metros. El Barco Pirata necesita 9×7 metros, el Castillo Blanco 8×7 y el Circuito Extremo 9×6. Si tienes dudas, compártenos una foto del espacio y te orientamos al instante.",
   },
 ];
 
-const resolvedFaqs = faqItems && faqItems.length > 0 ? faqItems : defaultFaqs;
+/* El pre-footer repetía literalmente las FAQ que la página ya mostraba en su
+   cuerpo: en /precios/ eran 6 preguntas idénticas seguidas, en /cotizar/ 5.
+   Ahora el pre-footer complementa en vez de repetir: muestra las universales
+   que la página NO cubre. Si las cubre todas, el bloque no se renderiza. */
+const ownQuestions = new Set((faqItems ?? []).map(f => f.question.trim().toLowerCase()));
+const resolvedFaqs = (faqItems && faqItems.length > 0)
+  ? defaultFaqs.filter(d => !ownQuestions.has(d.question.trim().toLowerCase())).slice(0, 5)
+  : defaultFaqs;
 ---
 
 <BaseLayout
@@ -112,6 +121,7 @@ const resolvedFaqs = faqItems && faqItems.length > 0 ? faqItems : defaultFaqs;
        MÓDULO PRE-FOOTER — FAQ + Formulario de cotización
        Aparece en todas las páginas del sitio automáticamente.
   ═══════════════════════════════════════════════════════════ -->
+  {resolvedFaqs.length > 0 && (
   <section class="section pre-footer-faq">
     <div class="container">
       <SectionHeader
@@ -122,11 +132,12 @@ const resolvedFaqs = faqItems && faqItems.length > 0 ? faqItems : defaultFaqs;
         copy2="Con más de 20 años atendiendo fiestas infantiles y eventos en CDMX y Estado de México, sabemos exactamente qué necesitas saber para reservar con confianza. Sin bots, sin esperas largas."
       />
     </div>
-    <FaqSection items={resolvedFaqs} whatsapp={whatsapp} />
+    <FaqSection items={resolvedFaqs} whatsapp={whatsapp} servicio={servicio} />
     <div class="container" style="text-align:center; margin-top:2rem;">
       <a href="/preguntas-frecuentes/" class="btn btn-secondary">Ver todas las preguntas frecuentes</a>
     </div>
   </section>
+  )}
 
   <WaBubble whatsapp={whatsapp} />
 </BaseLayout>

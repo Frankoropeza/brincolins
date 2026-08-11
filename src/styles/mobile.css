@@ -523,3 +523,175 @@ img, picture, video, svg, iframe { max-width: 100%; }
     -webkit-tap-highlight-color: rgba(255, 61, 0, 0.15);
   }
 }
+
+
+/* ══════════════════════════════════════════════════════════════════
+   32. TOUCH TARGETS — mínimo 44px (WCAG 2.5.8 / Apple HIG)
+   ──────────────────────────────────────────────────────────────────
+   Auditoría ago 2026: medidos en un viewport de 390px, casi todos los
+   elementos tappables recurrentes estaban por debajo del mínimo —
+   topbar 14px, teléfono del panel móvil 22px, breadcrumbs 21px, chips
+   del QuickNav 33px, enlaces del footer 35px, "Volver al blog" 22px,
+   enlaces de tarjeta 18-28px.
+
+   Se resuelve con padding vertical y min-height en vez de agrandar la
+   tipografía: el diseño no cambia de aspecto, sólo crece el área que
+   responde al dedo.
+   ══════════════════════════════════════════════════════════════════ */
+@media (max-width: 900px) {
+
+  /* Barra superior y panel del header */
+  .topbar__item,
+  .topbar__link {
+    min-height: 44px !important;
+    padding-block: 0.5rem !important;
+  }
+
+  .hdr__panel-phone,
+  .hdr__panel-link,
+  .hdr__panel-sublink {
+    min-height: 44px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  /* Migas de pan */
+  .crumbs__link,
+  .crumbs a {
+    min-height: 44px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    padding-block: 0.4rem !important;
+  }
+
+  /* Chips de navegación rápida — presentes en 144 páginas */
+  .qnav__item {
+    min-height: 44px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+
+  /* Enlaces de tarjeta: blog, testimonios, cobertura, precios, fiestas */
+  .blog-card__link,
+  .testi-card__loc,
+  .cob-panel__link,
+  .pr-paquete__link,
+  .fiesta-card__cta,
+  .art-sidebar__link,
+  .art-hero__back,
+  .cerca-zona {
+    min-height: 44px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+
+  /* Teléfono y correo de /contacto/: son destinos tappables por sí solos,
+     no enlaces dentro de una frase, así que sí les aplica el mínimo. */
+  .contact-info__value a {
+    min-height: 44px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+
+  /* Footer: enlaces de columna, contacto, legales y redes */
+  .footer__link,
+  .footer__legal-link,
+  .footer__contact-item a,
+  .footer__social-link {
+    min-height: 44px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  /* Botones que se quedaban en 40-42px */
+  .btn,
+  .btn-sm {
+    min-height: 44px !important;
+  }
+
+  /* Casilla de consentimiento: el input mide 18px, así que el área
+     tappable la aporta la etiqueta. */
+  .form-consent {
+    min-height: 44px !important;
+    align-items: center !important;
+  }
+  .form-consent input[type="checkbox"] {
+    width: 22px !important;
+    height: 22px !important;
+    margin-top: 0 !important;
+  }
+
+  /* Salto al contenido: sólo visible con teclado, pero al enfocarlo
+     desde un teclado externo en tablet debe ser tappable. */
+  .skip-link:focus {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   33. BURBUJA DE WHATSAPP — dejar de tapar contenido
+   ──────────────────────────────────────────────────────────────────
+   En móvil el círculo flotante se superponía a los chips del QuickNav
+   (recortaba "Cobertura" a "Cobertur") y al badge de la foto de
+   producto. Se sube por encima de la safe-area y se reserva un hueco
+   al final del documento para que nunca quede encima del último
+   elemento interactivo.
+   ══════════════════════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+  .wa-bubble {
+    bottom: calc(1rem + env(safe-area-inset-bottom, 0px)) !important;
+    right: 1rem !important;
+  }
+
+  /* El tooltip "Cotizar ahora" pisaba el texto de la columna derecha. */
+  .wa-bubble__label,
+  .wa-bubble span:not([class]) {
+    display: none !important;
+  }
+
+  body { padding-bottom: 4.5rem; }
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   34. BADGE DE CATEGORÍA — recorte en la home móvil
+   ──────────────────────────────────────────────────────────────────
+   Medido en 390px: .cat-card__badge de "Medianos" se extendía 78px
+   fuera del viewport y el overflow:hidden del padre lo cortaba a
+   media frase ("Desde $1,200 — Los m"). El badge era una línea sin
+   wrap dentro de una tarjeta de 169px.
+   ══════════════════════════════════════════════════════════════════ */
+@media (max-width: 640px) {
+  .cat-card__badge {
+    position: static !important;
+    display: block !important;
+    width: auto !important;
+    max-width: 100% !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    font-size: 0.72rem !important;
+    line-height: 1.4 !important;
+  }
+
+}
+
+/* A 390px dos columnas dejan tarjetas de 169px y parten los títulos
+   ("Chicos (1-4 / años)"). El bloque 10 elige 2col a 640 a propósito,
+   así que aquí sólo se baja a 1col donde de verdad se rompe. */
+@media (max-width: 430px) {
+  .cat-grid { grid-template-columns: 1fr !important; }
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   35. SAFE-AREA iOS — notch y dynamic island
+   ══════════════════════════════════════════════════════════════════ */
+@supports (padding: max(0px)) {
+  .container {
+    padding-left: max(var(--container-px, 1rem), env(safe-area-inset-left));
+    padding-right: max(var(--container-px, 1rem), env(safe-area-inset-right));
+  }
+}

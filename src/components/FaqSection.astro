@@ -11,8 +11,47 @@ interface FaqItem {
 interface Props {
   items:     FaqItem[];
   whatsapp?: string;
+  /** Servicio que se cotiza. Cambia el encabezado y el campo de interés:
+      en /servicios/mobiliario-para-fiestas/ e /iluminacion-eventos/ pedir
+      obligatoriamente "¿Qué inflable te interesa?" no tiene sentido. */
+  servicio?: "inflable" | "mobiliario" | "iluminacion";
 }
-const { items, whatsapp = WHATSAPP } = Astro.props;
+const { items, whatsapp = WHATSAPP, servicio = "inflable" } = Astro.props;
+
+const COPY = {
+  inflable: {
+    title: "Solicita tu inflable ahora",
+    desc:  "Completa el formulario y te respondemos con precio y disponibilidad confirmados en minutos.",
+    label: "¿Qué inflable te interesa? *",
+    btn:   "Solicitar cotización por WhatsApp",
+    options: [
+      "Dragones Rojos — $1,200", "Castillo de Princesas — $1,200", "Mini Jungla — $1,300",
+      "Gusanitos — $1,350", "Mini Castillo — $800 (bebés 1-4 años)", "Barco Pirata — $1,800",
+      "Extremo — $1,900 (circuito de obstáculos)", "Castillo Blanco — $1,700 (bodas y XV)",
+      "No sé cuál elegir — quiero asesoría",
+    ],
+  },
+  mobiliario: {
+    title: "Cotiza tu mobiliario",
+    desc:  "Dinos qué necesitas para tu evento y te respondemos con precio y disponibilidad en minutos.",
+    label: "¿Qué necesitas? *",
+    btn:   "Solicitar cotización por WhatsApp",
+    options: [
+      "Sillas", "Mesas con sillas", "Toldo o carpa", "Mesa de postres",
+      "Mobiliario + inflable", "No sé qué necesito — quiero asesoría",
+    ],
+  },
+  iluminacion: {
+    title: "Cotiza tu iluminación",
+    desc:  "Dinos cómo es tu espacio y qué ambiente buscas, y te respondemos en minutos.",
+    label: "¿Qué necesitas? *",
+    btn:   "Solicitar cotización por WhatsApp",
+    options: [
+      "Iluminación ambiental", "Luces de colores / efectos", "Iluminación para pista",
+      "Iluminación + inflable", "No sé qué necesito — quiero asesoría",
+    ],
+  },
+}[servicio];
 ---
 
 <div class="pfaq container">
@@ -43,10 +82,8 @@ const { items, whatsapp = WHATSAPP } = Astro.props;
         <!-- Cabecera dark -->
         <div class="pfaq__card-head">
           <span class="pfaq__card-eyebrow">Cotización sin compromiso</span>
-          <h3 class="pfaq__card-title">Solicita tu inflable ahora</h3>
-          <p class="pfaq__card-desc">
-            Completa el formulario y te respondemos con precio y disponibilidad confirmados en minutos.
-          </p>
+          <h3 class="pfaq__card-title">{COPY.title}</h3>
+          <p class="pfaq__card-desc">{COPY.desc}</p>
           <div class="pfaq__stats">
             <div class="pfaq__stat">
               <strong>8</strong>
@@ -95,18 +132,10 @@ const { items, whatsapp = WHATSAPP } = Astro.props;
             </div>
 
             <div class="pfaq-form__group">
-              <label class="pfaq-form__label" for="pf-inflable">¿Qué inflable te interesa? *</label>
+              <label class="pfaq-form__label" for="pf-inflable">{COPY.label}</label>
               <select class="pfaq-form__select" id="pf-inflable" name="inflable" required>
-                <option value="">Selecciona un inflable</option>
-                <option value="Dragones Rojos">Dragones Rojos — $1,200</option>
-                <option value="Castillo de Princesas">Castillo de Princesas — $1,200</option>
-                <option value="Mini Jungla">Mini Jungla — $1,300</option>
-                <option value="Gusanitos">Gusanitos — $1,350</option>
-                <option value="Mini Castillo">Mini Castillo — $800 (bebés 1-4 años)</option>
-                <option value="Barco Pirata">Barco Pirata — $1,800</option>
-                <option value="Extremo">Circuito Extremo — $1,900</option>
-                <option value="Castillo Blanco">Castillo Blanco — $1,700</option>
-                <option value="No estoy seguro">No sé cuál elegir — quiero asesoría</option>
+                <option value="">Selecciona una opción</option>
+                {COPY.options.map(o => <option value={o.split(" — ")[0]}>{o}</option>)}
               </select>
             </div>
 
@@ -121,7 +150,7 @@ const { items, whatsapp = WHATSAPP } = Astro.props;
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <use href="#i-wa"/>
               </svg>
-              Solicitar cotización por WhatsApp
+              {COPY.btn}
             </button>
           </form>
           <noscript>
@@ -471,8 +500,11 @@ const { items, whatsapp = WHATSAPP } = Astro.props;
   .pfaq-trust {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 0.5rem;
+    justify-content: flex-start;
+    /* Antes: space-between sin wrap. El tercer badge ("Respuesta en
+       minutos") se salía de la tarjeta y quedaba cortado a media palabra. */
+    flex-wrap: wrap;
+    gap: 0.45rem 0.9rem;
     margin-top: 1rem;
     padding-top: 0.875rem;
     border-top: 1px solid var(--c-border, #e2e8f0);
@@ -481,6 +513,7 @@ const { items, whatsapp = WHATSAPP } = Astro.props;
   .pfaq-trust__item {
     display: flex;
     align-items: center;
+    white-space: nowrap;
     gap: 0.3rem;
     font-size: 0.69rem;
     color: var(--c-text-muted, #64748b);

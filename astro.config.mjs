@@ -18,8 +18,30 @@ try {
   }
 } catch { /* sin blog no hay lastmod */ }
 
+/* Los enlaces externos escritos en Markdown salían sin `rel` ni `target`:
+   los mismos dominios aliados (mededul.com, pantalla-led.com, mesaspicnic.com)
+   sí llevaban rel="noopener noreferrer" cuando se escribían en .astro, así que
+   el tratamiento dependía de dónde se hubiera redactado el enlace.
+   Plugin propio en vez de rehype-external-links para no añadir dependencia. */
+function externalLinks() {
+  const isExternal = (h) => /^https?:\/\//i.test(h) && !/^https?:\/\/(www\.)?brincolins\.com/i.test(h);
+  return (tree) => {
+    const walk = (node) => {
+      if (node.type === "element" && node.tagName === "a" && isExternal(node.properties?.href ?? "")) {
+        node.properties.rel = ["nofollow", "noopener", "noreferrer"];
+        node.properties.target = "_blank";
+      }
+      (node.children ?? []).forEach(walk);
+    };
+    walk(tree);
+  };
+}
+
 export default defineConfig({
   site: "https://brincolins.com",
+  markdown: {
+    rehypePlugins: [externalLinks],
+  },
   /* Sin esto, `page.url.prev/next` de paginate() genera enlaces SIN barra
      final (/blog/2) mientras el resto del sitio y las canónicas SÍ la llevan.
      GitHub Pages responde 301 → /blog/2/, así que cada clic en la paginación

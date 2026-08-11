@@ -1230,9 +1230,11 @@ const eventos = [
     white-space: nowrap;
     line-height: 1;
   }
+  /* El hover pintaba blanco sobre #FF4500 (3.44:1). --c-primary-deep
+     mantiene el naranja y llega a 4.80:1. */
   .cob-panel__link:hover {
-    background: #FF4500;
-    border-color: #FF4500;
+    background: var(--c-primary-deep, #D93000);
+    border-color: var(--c-primary-deep, #D93000);
     color: #fff;
   }
   .cob-panel__link svg {
@@ -1248,8 +1250,8 @@ const eventos = [
     color: #1e3a8a;
   }
   .cob-panel--edomex .cob-panel__link:hover {
-    background: #2563eb;
-    border-color: #2563eb;
+    background: #1d4ed8; /* blanco encima: 6.70:1 */
+    border-color: #1d4ed8;
     color: #fff;
   }
 

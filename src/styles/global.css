@@ -128,11 +128,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ── Skip link ── */
+/* El fondo era --c-primary: blanco encima daba 3.55:1. --c-primary-deep
+   sube a 4.80:1 sin salirse de la paleta. Es el primer elemento que ve
+   quien navega con teclado, así que conviene que se lea. */
 .skip-link {
   position: absolute;
   top: -100%;
   left: 1rem;
-  background: var(--c-primary);
+  background: var(--c-primary-deep);
   color: #fff;
   padding: .5rem 1rem;
   border-radius: var(--r-btn);
@@ -204,7 +207,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero .highlight {
-  color: #FFD600;
+  /* #FFD600 sobre el naranja del hero daba 2.51:1 — por debajo del 3:1 que
+     pide WCAG incluso para texto grande. #FFF176 conserva el amarillo de
+     marca y llega a 3.06:1. */
+  color: #FFF176;
   font-weight: 900;
 }
 
