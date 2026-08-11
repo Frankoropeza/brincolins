@@ -13,7 +13,9 @@ type BlogPost = CollectionEntry<"blog">;
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
-  return posts.filter((p) => !p.data.draft).map((post) => ({ params: { slug: post.id }, props: { post } }));
+  return posts
+.filter((p) => !p.data.draft)
+.map((post) => ({ params: { slug: post.id }, props: { post } }));
 }
 
 const { post } = Astro.props;
@@ -23,7 +25,10 @@ const { Content } = await render(post);
 // ── Artículos relacionados (misma categoría, luego recientes) ──
 const all = (await getCollection("blog")).filter((p) => !p.data.draft);
 const byDate = (a: BlogPost, b: BlogPost) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime();
-let related = all.filter((p) => p.id !== post.id && p.data.category === d.category).sort(byDate).slice(0, 3);
+let related = all
+.filter((p) => p.id !== post.id && p.data.category === d.category)
+.sort(byDate)
+.slice(0, 3);
 if (related.length < 3) {
   const ids = new Set([post.id, ...related.map((r) => r.id)]);
   related = related.concat(all.filter((p) => !ids.has(p.id)).sort(byDate).slice(0, 3 - related.length));
@@ -33,11 +38,12 @@ if (related.length < 3) {
    Los 59 posts enlazaban al catálogo plano con anchors genéricos
    ("Ver inflables"). Ahora cada uno manda una señal de keyword a UNA
    categoría, arriba del artículo y con el anchor exacto de destino. */
-const catPost   = getCategoria(BLOG_CATEGORIA[post.id] ?? "");
+const catPost    = getCategoria(BLOG_CATEGORIA[post.id] ?? "");
 const catModelos = catPost ? inflablesDeCategoria(catPost) : [];
-const catItems  = catPost
+const catItems   = catPost
   ? [
-      { href: `/inflables/${catPost.slug}/`, anchor: catPost.anchor, nota: `${catModelos.length} ${catModelos.length === 1 ? "modelo" : "modelos"} con medidas, capacidad y precio` },...catModelos.slice(0, 2).map((i) => ({ href: `/inflables/${i.slug}/`, anchor: i.name, nota: `desde ${i.price}` })),
+      { href: `/inflables/${catPost.slug}/`, anchor: catPost.anchor, nota: `${catModelos.length} ${catModelos.length === 1 ? "modelo" : "modelos"} con medidas, capacidad y precio` },
+...catModelos.slice(0, 2).map((i) => ({ href: `/inflables/${i.slug}/`, anchor: i.name, nota: `desde ${i.price}` })),
     ]
   : [];
 
@@ -74,7 +80,9 @@ const blogSchema = {
   "publisher": { "@id": `${SITE}/#org` },
   "mainEntityOfPage": { "@type": "WebPage", "@id": canonical },
   "articleSection": d.category,
-  "inLanguage": "es-MX",...(d.tags?.length ? { "keywords": d.tags.join(", ") } : {}),...(wordCount ? { "wordCount": wordCount } : {}),
+  "inLanguage": "es-MX",
+...(d.tags?.length ? { "keywords": d.tags.join(", ") } : {}),
+...(wordCount ? { "wordCount": wordCount } : {}),
 };
 
 // ── HowTo JSON-LD (solo posts instructivos con frontmatter `howto`) ──
@@ -84,7 +92,8 @@ const howToSchema = d.howto
       "@type": "HowTo",
       "name": d.howto.name,
       "description": d.description,
-      "image": d.heroImage ? `${SITE}${d.heroImage}` : `${SITE}/img/og-brincolins.jpg`,...(d.howto.totalTime ? { "totalTime": d.howto.totalTime } : {}),
+      "image": d.heroImage ? `${SITE}${d.heroImage}` : `${SITE}/img/og-brincolins.jpg`,
+...(d.howto.totalTime ? { "totalTime": d.howto.totalTime } : {}),
       "step": d.howto.steps.map((s, i) => ({
         "@type": "HowToStep",
         "position": i + 1,
@@ -233,47 +242,84 @@ const howToSchema = d.howto
 </PageLayout>
 
 <style>
-  /* ── Hero del artículo ── */.art-hero__back {
+  /* ── Hero del artículo ── */
+.art-hero__back {
     font-size: .85rem; color: var(--c-primary-text); font-weight: 700;
     text-decoration: none; display: inline-flex; align-items: center;
     gap: .3rem; margin-bottom: .5rem;
-  }.art-hero__back:hover { gap: .6rem; }.art-hero__meta {
+  }
+.art-hero__back:hover { gap: .6rem; }
+.art-hero__meta {
     display: flex; align-items: center; gap: .5rem; flex-wrap: wrap;
     font-size: .85rem; color: var(--c-text-muted); margin-bottom: .75rem;
-  }.art-hero__sep { opacity: .4; }
+  }
+.art-hero__sep { opacity: .4; }
 
-  /* ── Layout artículo + sidebar ── */.art-layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 3rem; align-items: start; }.art-body { min-width: 0; max-width: 75ch; }
+  /* ── Layout artículo + sidebar ── */
+.art-layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 3rem; align-items: start; }
+.art-body { min-width: 0; max-width: 75ch; }
 
-  /* ── Prosa (Markdown renderizado) ── */.art-body :global(h2) {
+  /* ── Prosa (Markdown renderizado) ── */
+.art-body :global(h2) {
     font-family: var(--font-head); font-weight: 800;
     font-size: clamp(1.25rem, 2.5vw, 1.55rem); color: var(--c-text);
     margin: 2.5rem 0 1rem; padding-top: .65rem; border-top: 3px solid var(--c-primary);
-  }.art-body :global(h2:first-child) { margin-top: 0; }.art-body :global(h3) {
+  }
+.art-body :global(h2:first-child) { margin-top: 0; }
+.art-body :global(h3) {
     font-family: var(--font-head); font-weight: 700;
     font-size: clamp(1.1rem, 2vw, 1.25rem); color: var(--c-text); margin: 1.75rem 0 .75rem;
-  }.art-body :global(p) { font-size: 1rem; line-height: 1.75; color: var(--c-text); margin: 0 0 1.25rem; }.art-body :global(strong) { color: var(--c-primary); font-weight: 700; }.art-body :global(a) { color: var(--c-primary); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }.art-body :global(ul), .art-body :global(ol) { padding-left: 1.5rem; margin: 0 0 1.25rem; display: flex; flex-direction: column; gap: .55rem; }.art-body :global(ul li) { list-style: disc; }.art-body :global(ol li) { list-style: decimal; }.art-body :global(li) { font-size: 1rem; line-height: 1.6; color: var(--c-text); }
+  }
+.art-body :global(p) { font-size: 1rem; line-height: 1.75; color: var(--c-text); margin: 0 0 1.25rem; }
+.art-body :global(strong) { color: var(--c-primary); font-weight: 700; }
+.art-body :global(a) { color: var(--c-primary); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+.art-body :global(ul), .art-body :global(ol) { padding-left: 1.5rem; margin: 0 0 1.25rem; display: flex; flex-direction: column; gap: .55rem; }
+.art-body :global(ul li) { list-style: disc; }
+.art-body :global(ol li) { list-style: decimal; }
+.art-body :global(li) { font-size: 1rem; line-height: 1.6; color: var(--c-text); }
 
-  /* Callouts (antes .art-tip) ── blockquote */.art-body :global(blockquote) {
+  /* Callouts (antes .art-tip) ── blockquote */
+.art-body :global(blockquote) {
     background: #fff8f5; border-left: 4px solid var(--c-primary);
     border-radius: 0 var(--r-card) var(--r-card) 0; padding: 1.1rem 1.4rem;
     margin: 1.5rem 0; color: var(--c-text);
-  }.art-body :global(blockquote p) { margin: 0; font-size: .95rem; }
+  }
+.art-body :global(blockquote p) { margin: 0; font-size: .95rem; }
 
-  /* Tablas */.art-body :global(table) { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .95rem; }.art-body :global(th) { text-align: left; padding: .75rem; border-bottom: 2px solid var(--c-border); font-family: var(--font-head); font-weight: 800; }.art-body :global(td) { padding: .75rem; border-bottom: 1px solid var(--c-border); color: var(--c-text); }.art-body :global(img) { border-radius: var(--r-card); margin: 1.5rem 0; box-shadow: var(--shadow-sm); }
+  /* Tablas */
+.art-body :global(table) { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .95rem; }
+.art-body :global(th) { text-align: left; padding: .75rem; border-bottom: 2px solid var(--c-border); font-family: var(--font-head); font-weight: 800; }
+.art-body :global(td) { padding: .75rem; border-bottom: 1px solid var(--c-border); color: var(--c-text); }
+.art-body :global(img) { border-radius: var(--r-card); margin: 1.5rem 0; box-shadow: var(--shadow-sm); }
 
-  /* ── Galería ── */.art-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 2.5rem; }.art-gallery__img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: var(--r-card); box-shadow: var(--shadow-sm); }
+  /* ── Galería ── */
+.art-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 2.5rem; }
+.art-gallery__img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: var(--r-card); box-shadow: var(--shadow-sm); }
 
-  /* ── Sidebar ── */.art-sidebar { display: flex; flex-direction: column; gap: 1.5rem; position: sticky; top: 90px; }.art-sidebar__box {
+  /* ── Sidebar ── */
+.art-sidebar { display: flex; flex-direction: column; gap: 1.5rem; position: sticky; top: 90px; }
+.art-sidebar__box {
     background: var(--c-bg-alt); border: 1px solid var(--c-border);
     border-radius: var(--r-card); padding: 1.5rem; display: flex; flex-direction: column; gap: .75rem;
-  }.art-sidebar__box--links, .art-sidebar__box--cat { gap: .4rem; }.art-sidebar__title { font-family: var(--font-head); font-weight: 800; font-size: 1rem; color: var(--c-text); margin: 0; }.art-sidebar__text { font-size: .9rem; color: var(--c-text-muted); line-height: 1.6; margin: 0; }.art-sidebar__link {
+  }
+.art-sidebar__box--links, .art-sidebar__box--cat { gap: .4rem; }
+.art-sidebar__title { font-family: var(--font-head); font-weight: 800; font-size: 1rem; color: var(--c-text); margin: 0; }
+.art-sidebar__text { font-size: .9rem; color: var(--c-text-muted); line-height: 1.6; margin: 0; }
+.art-sidebar__link {
     font-size: .88rem; color: var(--c-primary); font-weight: 600; text-decoration: none;
     padding: .4rem 0; display: block; border-bottom: 1px solid var(--c-border); line-height: 1.4;
-  }.art-sidebar__box--links .art-sidebar__link:last-child,.art-sidebar__box--cat .art-sidebar__link:last-child { border-bottom: none; }.art-sidebar__link:hover { padding-left: .35rem; }.art-sidebar__link--cta { color: var(--c-secondary); font-weight: 800; }
+  }
+.art-sidebar__box--links .art-sidebar__link:last-child,
+.art-sidebar__box--cat .art-sidebar__link:last-child { border-bottom: none; }
+.art-sidebar__link:hover { padding-left: .35rem; }
+.art-sidebar__link--cta { color: var(--c-secondary); font-weight: 800; }
 
   /* ── Responsive ── */
-  @media (max-width: 960px) {.art-layout { grid-template-columns: 1fr; }.art-sidebar { position: static; }
+  @media (max-width: 960px) {
+.art-layout { grid-template-columns: 1fr; }
+.art-sidebar { position: static; }
   }
-  @media (max-width: 560px) {.art-gallery { grid-template-columns: 1fr; }
+  @media (max-width: 560px) {
+.art-gallery { grid-template-columns: 1fr; }
   }
 </style>

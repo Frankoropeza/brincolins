@@ -451,7 +451,9 @@ export function getCategoria(slug: string): Categoria | undefined {
 /** Los inflables de una categoría, resueltos contra el catálogo canónico
     y en el orden declarado en `productos`. */
 export function inflablesDeCategoria(cat: Categoria): Inflable[] {
-  return cat.productos.map((slug) => INFLABLES.find((i) => i.slug === slug)).filter((i): i is Inflable => Boolean(i) && i!.active);
+  return cat.productos
+.map((slug) => INFLABLES.find((i) => i.slug === slug))
+.filter((i): i is Inflable => Boolean(i) && i!.active);
 }
 
 /** Categorías en las que aparece un inflable. Alimenta el bloque
@@ -515,7 +517,9 @@ export function categoriasParaZona(zoneSlug: string): Categoria[] {
   const rotativas = ["grandes", "chicos", "para-adultos", "para-interiores", "toboganes", "medianos"];
   const hash      = [...zoneSlug].reduce((a, c) => a + c.charCodeAt(0), 0);
   const elegida   = rotativas[hash % rotativas.length];
-  return [...fijas, elegida].map((s) => getCategoria(s)).filter((c): c is Categoria => Boolean(c));
+  return [...fijas, elegida]
+.map((s) => getCategoria(s))
+.filter((c): c is Categoria => Boolean(c));
 }
 
 /** Anchor localizado: "inflables para niños en Coyoacán". */
