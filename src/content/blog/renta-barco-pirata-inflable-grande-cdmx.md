@@ -1,108 +1,119 @@
 ---
-title: "Renta Barco Pirata Inflable Grande en CDMX"
-h1: "Renta el Barco Pirata Inflable más Grande de CDMX"
-description: "Renta del Barco Pirata inflable en CDMX: 7×5×4.5 m, el más grande del catálogo, 8 a 10 niños desde 4 años, $1,800 MXN con entrega e instalación."
-excerpt: "El barco pirata inflable con tobogán integrado es nuestra atracción más imponente. Descubre por qué es el favorito para fiestas y eventos grandes en la Ciudad de México."
+title: "Inflable de 7 Metros: ¿Te Cabe en el Jardín?"
+h1: "Inflable de 7 Metros: Cómo Saber si te Cabe Antes de Apartar"
+description: "Cómo medir tu jardín antes de rentar un inflable grande en CDMX: área libre, altura, cables, acceso vehicular y los errores que impiden la instalación."
+excerpt: "Casi nadie mide mal el jardín: mide bien el suelo y se olvida de la altura, del portón y de los cables. Así se revisa un espacio antes de apartar un inflable grande."
 publishDate: "2025-03-15"
+updatedDate: "2026-08-11"
 category: "Barco Pirata"
 author: "Equipo BRINCOLINS"
 readTime: "9 min"
 heroImage: "/img/blog/renta-barco-pirata-inflable-grande-cdmx/main.avif"
-heroImageAlt: "Barco pirata inflable grande para renta en CDMX - BRINCOLINS"
+heroImageAlt: "Barco Pirata inflable de 7 metros instalado en un jardín de CDMX - BRINCOLINS"
 galleryImages:
   - "/img/blog/renta-barco-pirata-inflable-grande-cdmx/img1.avif"
   - "/img/blog/renta-barco-pirata-inflable-grande-cdmx/img3.avif"
 intro:
-  - "El **barco pirata inflable grande** es la atracción estrella de **BRINCOLINS** para fiestas y eventos en la **Ciudad de México**. Con su diseño espectacular de navío pirata, **tobogán integrado** y zona de brinco en la cubierta, este inflable transforma cualquier espacio en una aventura en altamar. Incluimos **transporte e instalación profesional** en cada renta dentro de la ZMVM."
-  - "Si buscas un **inflable grande para fiestas infantiles en CDMX**, el barco pirata es la opción que garantiza diversión para todos los niños. Atendemos colonias de toda la **Ciudad de México** y municipios del **Estado de México** como Naucalpan, Huixquilucan, Tlalnepantla y Atizapán. Escríbenos por **WhatsApp** y recibe tu cotización en minutos."
+  - "La llamada más incómoda de este oficio es la que hacemos desde la banqueta: llegamos con el equipo, medimos y el inflable no entra. No pasa porque la gente mida mal el pasto — pasa porque midió el pasto y nada más. La altura, el portón, el cable de la calle y el desnivel deciden tanto como la superficie."
+  - "Esta guía es el mismo repaso que hace nuestro equipo cuando alguien nos manda una foto de su jardín por WhatsApp. Sirve para cualquiera de los ocho modelos, pero está escrita pensando en los grandes, que son los que de verdad ponen a prueba un espacio en la **Ciudad de México** y el **Estado de México**."
 tags:
-  - "renta inflables CDMX"
-  - "renta barco pirata inflable grande cdmx"
+  - "espacio para inflable"
+  - "inflables grandes CDMX"
   - "fiestas infantiles"
 faqs:
-  - question: "¿Qué tan grande es el barco pirata inflable?"
-    answer: "El barco pirata mide 7×5×4.5 m y es el modelo más grande del catálogo. Necesitas 9×7 metros de área libre —esa cifra ya incluye el margen de seguridad por lado— y 5.2 m de altura libre, así que va siempre en exterior: jardín amplio, explanada o patio de escuela."
-  - question: "¿El barco pirata inflable incluye tobogán?"
-    answer: "Sí, el barco pirata inflable cuenta con un tobogán integrado en la parte trasera del barco. Los niños suben por un lado, exploran la cubierta del barco y se deslizan por el tobogán. Es una experiencia completa de juego que combina saltar, escalar y deslizarse."
-  - question: "¿Para qué edades es adecuado el barco pirata?"
-    answer: "El barco pirata inflable está recomendado desde los 4 años y recibe de 8 a 10 niños a la vez. Por el tobogán integrado, los de 4 y 5 años deben usarlo con supervisión directa de un adulto; de los 6 años en adelante lo recorren solos sin problema."
-  - question: "¿Puedo rentar el barco pirata para un evento en parque público?"
-    answer: "Sí, rentamos el barco pirata para eventos en parques, jardines, terrenos y salones. Si el lugar no tiene acceso a electricidad, podemos llevar un generador eléctrico por un costo adicional mínimo. Solo necesitamos que el piso sea plano y firme."
+  - question: "¿Qué se mide exactamente antes de rentar un inflable?"
+    answer: "Cuatro cosas, en este orden: el área libre despejada (no las medidas del inflable), la altura libre sin cables ni ramas, el ancho del acceso por donde va a entrar el equipo empacado y la distancia a la toma de corriente de 110V, que debe estar a menos de 20 metros. Si cualquiera de las cuatro falla, la instalación no procede."
+  - question: "¿Por qué el área libre es mayor que las medidas del inflable?"
+    answer: "Porque hace falta un metro de margen por lado para el anclaje, para la zona de caída y para que los niños entren y salgan sin pegarse con un muro. Por eso el Barco Pirata mide 7×5 m pero pide 9×7 m libres, y el Castillo de Princesas mide 4×4 m pero pide 6×6 m."
+  - question: "¿Un inflable grande cabe en un salón de fiestas?"
+    answer: "No. Los modelos grandes piden entre 4.5 y 5.2 metros de altura libre y prácticamente ningún salón los alcanza. Solo dos modelos del catálogo caben bajo techo: el Mini Castillo, con 3.2 m de altura libre, y los Gusanitos, también con 3.2 m."
+  - question: "¿Qué pasa si el equipo llega y el espacio no alcanza?"
+    answer: "Intentamos reubicar el inflable dentro del predio o, si hay disponibilidad, ofrecerte un modelo más chico. Cuando ninguna de las dos es posible, la instalación no se realiza. Por eso insistimos en revisar las medidas antes de apartar: una foto por WhatsApp toma dos minutos y evita el problema completo."
 ---
 
-## El [barco pirata](/inflables/barco-pirata/) inflable más espectacular de CDMX
+## ¿Qué significa "área libre" y por qué no es lo mismo que las medidas?
 
-Cuando hablamos del **barco pirata inflable** de BRINCOLINS, no nos referimos a un brincolín cualquiera con una bandera pirata pegada. Este modelo es una réplica inflable de un galeón pirata completo, con mástiles decorativos, cañones laterales, una cubierta de brinco amplia y un **tobogán de gran altura** que sale por la popa del barco. Es, literalmente, el inflable más impresionante que puedes rentar en la **Ciudad de México**.
+Cada modelo tiene dos números distintos y confundirlos es el error más caro. Están las **medidas del inflable** —lo que ocupa la lona una vez inflada— y el **área libre**, que es la superficie despejada que hay que dejar alrededor: aproximadamente un metro por lado para el anclaje, la zona de caída y el paso de entrada y salida.
 
-Desde el momento en que los niños lo ven, sus ojos se iluminan. No es solo un juego: es un escenario de aventura donde pueden imaginar que son capitanes piratas navegando los siete mares, defendiendo su tesoro de corsarios enemigos o lanzándose al mar por el tobogán. La experiencia inmersiva que ofrece este inflable no tiene comparación con modelos genéricos.
+El caso extremo del catálogo es el [Barco Pirata](/inflables/barco-pirata/): mide 7×5×4.5 m y pide 9×7 m de área libre con 5.2 m de altura, recibe de 8 a 10 niños desde los 4 años y cuesta $1,800 MXN netos — todos los datos, la galería y la disponibilidad están en su ficha. Ese metro de diferencia por lado es lo que separa un montaje limpio de una cancelación en la banqueta.
 
-El **barco pirata** está fabricado con lona comercial de alta resistencia, costuras cuádruples reforzadas y materiales certificados para uso comercial intensivo. Los colores — negro, rojo y dorado — están impresos con tecnología de sublimación que garantiza que no se desgasten con el uso ni con la exposición al sol.
+Los ocho modelos, con sus medidas y su área libre lado a lado, están en la [página de precios](/precios/). Anótalos antes de medir.
 
-> **Dato de capitán:** con 7×5×4.5 metros, el barco pirata es el inflable más grande del catálogo y el que más nos piden cuando la fiesta es al aire libre y hay muchos invitados. Su tamaño impone respeto y atrae la atención de todo el evento; para eventos de empresa y kermeses de secundaria, el que más se renta es el circuito [Extremo](/inflables/extremo/).
+## ¿Cómo se mide el suelo sin equivocarse?
 
-## Diseño y tobogán integrado: dos atracciones en una
+Con una cinta métrica y treinta minutos. No con la vista.
 
-Lo que hace único al **barco pirata inflable** es que no es solo un brincolín, sino una estructura de juego completa con múltiples zonas de diversión. Los niños pueden disfrutar de varias actividades en un solo inflable:
+- **Mide el rectángulo útil, no el terreno.** Si el jardín tiene 10 metros de largo pero hay un árbol a la mitad, tu rectángulo útil son los 4 metros que quedan de un lado.
+- **Descuenta lo que no se va a mover.** Asador fijo, jardinera, tinaco, escalones. Todo lo que siga ahí el día de la fiesta no cuenta como área libre.
+- **Marca las esquinas con algo físico.** Cuatro botellas o cuatro sillas en las esquinas del área libre. Verlo dibujado en el piso cambia por completo la percepción del tamaño.
+- **Camina el perímetro.** Si no puedes dar la vuelta completa alrededor de las cuatro botellas sin brincar nada, el espacio está justo.
 
-- **Zona de brinco en la cubierta:** El área principal del barco donde los niños saltan libremente sobre la superficie acolchada, simulando la cubierta de un galeón pirata.
-- **Escalada lateral:** Para llegar al tobogán, los niños suben por una rampa de escalada con agarraderas que desarrolla su coordinación motriz mientras se divierten.
-- **Tobogán de gran altura:** La atracción estrella. Un tobogán amplio y seguro que sale por la parte trasera del barco, proporcionando una bajada emocionante con un aterrizaje suave en la zona acolchada inferior.
-- **Elementos decorativos interactivos:** Cañones, timón y detalles piratas que los niños pueden "usar" durante su aventura imaginaria.
+Si el rectángulo útil te da menos de 9×7 m, el Barco Pirata queda fuera y hay que bajar de categoría. La [comparativa de inflable chico contra grande según tus invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/) explica qué se pierde y qué no al cambiar de tamaño.
 
-Esta combinación de actividades hace que los niños permanezcan entretenidos durante horas, rotando entre brincar, escalar y deslizarse. A diferencia de un brincolín simple donde la actividad es solo saltar, aquí hay un circuito completo de diversión.
+## ¿Por qué la altura tumba más eventos que el suelo?
 
-### El tobogán: seguridad y emoción
+Porque nadie la mide. La altura libre que pide cada modelo es su altura más un margen de seguridad, y en la Ciudad de México el estorbo casi nunca es el techo: son los cables.
 
-El **tobogán integrado** del barco pirata está diseñado con pendiente controlada y paredes laterales altas para evitar caídas. La zona de aterrizaje cuenta con colchón inflable extra grueso que amortigua el impacto. Está recomendado desde los 4 años, y los más grandes pueden lanzarse con total confianza. Si dudas entre un brincolín simple y uno con tobogán, la [comparativa de brincolín contra tobogán inflable](/blog/brincolin-vs-tobogan-inflable-cdmx/) resuelve la duda con precios.
+Revisa los cuatro sospechosos habituales:
 
-## Edades ideales para el barco pirata: desde los 4 años
+- **Cable de luz o de teléfono cruzando el predio.** Muy común en colonias con cableado aéreo. Un cable a 4 metros descarta cualquier modelo grande.
+- **Ramas de árbol.** Se ven altas hasta que el inflable está montado y roza. Poda o cambia de lugar.
+- **Tendederos y toldos.** Se quitan, pero hay que decidirlo antes, no el día del evento.
+- **Techos y voladizos parciales.** Media terraza techada no sirve: el inflable no se puede montar en dos alturas.
 
-Por su tamaño y las actividades que ofrece, el **barco pirata inflable** está recomendado **desde los 4 años** y recibe **8 a 10 niños** al mismo tiempo. Aquí te explicamos cómo lo disfruta cada grupo de edad:
+Los números de referencia: los medianos piden entre 4.2 y 4.5 m de altura libre, el Castillo Blanco 4.7 m, el Extremo 4.5 m y el Barco Pirata 5.2 m. Bajo techo solo entran el Mini Castillo y los Gusanitos, ambos con 3.2 m.
 
-- **4 a 6 años:** Los más pequeños dentro del rango recomendado. Disfrutan enormemente la zona de brinco y el tobogán con supervisión. La temática pirata les encanta porque están en la edad de juegos de imaginación.
-- **7 a 9 años:** La edad perfecta. Tienen la coordinación para aprovechar todas las zonas del inflable, inventan juegos elaborados de piratas y pueden usar el tobogán de forma independiente.
-- **10 a 12 años:** Siguen disfrutándolo al máximo, especialmente el tobogán y la escalada. A esta edad, el diseño temático del barco les parece "épico" y lo usan como base para juegos grupales competitivos.
+## ¿Por dónde va a entrar el inflable?
 
-> **Importante:** No recomendamos el barco pirata para niños menores de 4 años. Si tu fiesta incluye bebés y niños de 1 a 4, lo que funciona es combinarlo con un [Mini Castillo](/inflables/mini-castillo/) de $800 MXN para los menores y dejar el barco para los más grandes. En la guía de [qué tamaño de inflable pedir según tus invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/) desglosamos esa combinación.
+El inflable llega empacado y pesa. Esta es la parte de la revisión que casi nadie hace y la que más problemas nos ha dado en departamentos y privadas.
 
-## Espacio necesario para instalar este inflable grande
+- **Ancho de acceso mínimo de 1.5 metros** libres desde la calle hasta el punto de instalación.
+- **Acceso vehicular cercano.** La camioneta tiene que quedar a una distancia razonable para descargar; si el predio está al fondo de una privada larga, avísanos.
+- **Escaleras y rampas.** Un tramo de escaleras es manejable; tres pisos sin elevador, no.
+- **Reglas del condominio.** Muchos fraccionamientos piden aviso previo para entrar con equipo, y algunos limitan horarios. Averígualo con la administración antes de apartar la fecha, no la mañana del sábado.
 
-El barco pirata es un **inflable de gran formato**, y como tal requiere espacio generoso. Antes de reservar, verifica que tu espacio cumpla con estos requisitos:
+## ¿Qué superficie sirve y cuál no?
 
-- **Medidas del inflable:** 7 × 5 × 4.5 metros — el más grande del catálogo
-- **Área mínima:** 9 × 7 metros de espacio libre; esa cifra ya incluye el margen de seguridad por cada lado
-- **Altura libre:** 5.2 metros sin obstáculos (cables eléctricos, ramas de árboles, techos bajos)
-- **Capacidad:** 8 a 10 niños desde 4 años
-- **Superficie:** Piso plano y firme — pasto, concreto, adoquín o tierra compacta
-- **Electricidad:** Una toma de corriente de 110V a menos de 20 metros del punto de instalación para el motor de inflado continuo
-- **Acceso:** Entrada lo suficientemente amplia para pasar el equipo empacado (portón vehicular o puerta amplia)
+El piso decide el sistema de anclaje, y el anclaje es seguridad, no un detalle.
 
-Los lugares ideales para este inflable son jardines amplios, explanadas de escuelas, terrenos para eventos y parques. Si tu fiesta es en un salón, la respuesta corta es que no cabe: prácticamente ningún salón de eventos alcanza los 5.2 metros de altura libre que pide. Para interiores, los únicos dos modelos viables son el Mini Castillo y los Gusanitos.
+- **Pasto natural:** la superficie ideal. Se ancla con estacas.
+- **Concreto, adoquín o loseta:** perfectamente viable. Se ancla con contrapesos de arena.
+- **Tierra compacta:** funciona si está firme y pareja.
+- **Desnivel pronunciado, escombro, vidrio o material punzante:** no. Son causa directa de que la instalación no proceda.
 
-### Sin electricidad, sin problema
+Barre el área el día anterior. Una piedra o un pedazo de vidrio bajo la lona es el tipo de detalle que arruina un evento y un inflable.
 
-Si tu evento es en un espacio sin acceso a corriente eléctrica, podemos llevar un **generador de electricidad** por un costo adicional mínimo. Solo avísanos al momento de cotizar y lo incluimos en tu presupuesto.
+## ¿Qué otras condiciones hay que revisar?
 
-## Cómo organizar una fiesta pirata completa con este inflable
+- **Corriente de 110V a menos de 20 metros** del punto de instalación. El motor tiene que trabajar de forma continua durante todo el evento; no se apaga entre turnos. Si el lugar no tiene toma —un parque, un terreno—, podemos llevar generador con un costo adicional.
+- **Un adulto en el domicilio** para recibir al equipo e indicar dónde va el inflable.
+- **Viento.** Con rachas fuertes la instalación se reprograma por seguridad. No es negociable.
+- **Tiempo de montaje.** Entre 15 y 30 minutos según el modelo; el Barco Pirata está en el extremo alto. Considéralo al fijar la hora de llegada del equipo.
 
-El **barco pirata inflable** es la pieza central perfecta para una fiesta con temática de piratas — tenemos una guía entera dedicada a la [fiesta pirata con tobogán inflable](/blog/fiesta-pirata-infantil-tobogan-cdmx/) y otra sobre [inflables grandes con tobogán](/blog/inflables-grandes-con-tobogan-cdmx/). Aquí te damos ideas para crear una experiencia completa:
+## ¿Y si el espacio no da para el más grande?
 
-- **Decoración:** Banderas piratas, redes de pesca decorativas, cofres del tesoro con monedas de chocolate y mapas del tesoro en las paredes. El inflable ya aporta el elemento visual principal.
-- **Disfraces:** Pide a los invitados que lleguen disfrazados de piratas. Prepara parches, sombreros y espadas de foam como kit de bienvenida para los que no traigan disfraz.
-- **Actividades complementarias:** Búsqueda del tesoro en el jardín, estación de maquillaje pirata, juego de caminar por la plancha (una tabla sobre cojines) y concurso del mejor grito pirata.
-- **Comida temática:** Nuggets servidos como "patas de loro", frutas cortadas como "botín tropical", palomitas en bolsas con calavera y jugos en vasos con forma de calavera.
-- **Música:** Playlist de películas de piratas y canciones infantiles de aventura marina.
+Casi siempre da para otro. Bajar de modelo no es bajar de fiesta:
 
-> **Tip pro:** Crea un mapa del tesoro real del jardín o salón donde será la fiesta. Los niños siguen las pistas mientras usan el barco pirata como base de operaciones. Al final encuentran un cofre con dulces y recuerdos para todos.
+- **Si te falta altura pero te sobra suelo:** los [Gusanitos](/inflables/gusanitos/) son alargados y bajos —5×3×2.5 m sobre 7×5 m libres, 3.2 m de altura— y funcionan donde un castillo no entra.
+- **Si te falta suelo:** el [Mini Castillo](/inflables/mini-castillo/) pide 3×3 m y cuesta $800 MXN. Es el que resuelve patios chicos y niños de 1 a 4 años.
+- **Si lo que buscabas era el tobogán:** el Barco Pirata es el que lo tiene, y la [comparativa entre brincolín y tobogán inflable](/blog/brincolin-vs-tobogan-inflable-cdmx/) explica cuándo vale la pena el modelo grande. El repaso completo de esa categoría está en [inflables grandes con tobogán](/blog/inflables-grandes-con-tobogan-cdmx/).
+- **Si lo que buscabas era competencia y no brinco:** el circuito [Extremo](/inflables/extremo/) pide 9×6 m, un poco menos de ancho que el barco.
 
-## Cómo reservar tu barco pirata inflable
+## Checklist de cinco minutos antes de apartar
 
-Reservar el **barco pirata inflable grande** con BRINCOLINS es rápido y sencillo. Sigue estos pasos:
+Contesta estas seis y ya sabes si tu espacio aguanta un inflable grande:
 
-- **Paso 1:** Escríbenos por WhatsApp con la información de tu evento: lugar, horario aproximado y número de niños esperados.
-- **Paso 2:** Te confirmamos disponibilidad y te enviamos una cotización detallada en menos de 10 minutos. El barco pirata cuesta **$1,800 MXN** netos con transporte, instalación y retiro; se agrega IVA solo si pides factura y un cargo de envío según distancia en municipios lejanos de Edomex o en ciertas alcaldías del sur y oriente de la CDMX. Todo el catálogo está en la [página de precios](/precios/).
-- **Paso 3:** Aparta tu inflable con el 50% de anticipo vía transferencia bancaria o depósito.
-- **Paso 4:** Nuestro equipo llega puntual el día de tu evento, instala el barco pirata y lo deja listo para la acción.
-- **Paso 5:** Al terminar tu fiesta, recogemos todo el equipo. Tú solo preocúpate por disfrutar.
+1. ¿Tengo un rectángulo despejado de al menos 9×7 metros?
+2. ¿Hay 5.2 metros de altura sin cables, ramas ni techos?
+3. ¿El acceso desde la calle mide más de 1.5 metros de ancho?
+4. ¿La superficie es plana y firme, sin escombro ni vidrio?
+5. ¿Hay una toma de 110V a menos de 20 metros?
+6. ¿Habrá una persona adulta para recibir al equipo?
 
-El barco pirata es el **modelo grande que más nos piden**, especialmente en fines de semana y temporada de fiestas. Te recomendamos reservar con al menos **2 a 3 semanas de anticipación** para garantizar disponibilidad. No esperes al último momento — los inflables grandes se agotan rápido.
+Si dudas de cualquiera, mándanos una foto del área por WhatsApp con algo que dé escala —una puerta, un coche— y te confirmamos sin costo si el modelo entra o cuál conviene.
+
+## Aparta con las medidas ya resueltas
+
+Cuando el espacio está verificado, lo demás es rápido. Escríbenos por WhatsApp con la fecha, la zona y las medidas que tomaste, o [pide tu cotización en línea](/cotizar/). Te contestamos con precio y disponibilidad; la fecha se aparta con el 50% de anticipo y atendemos de lunes a domingo de 8:00 a 20:00.
+
+Los precios son netos, con IVA solo si necesitas factura, y en municipios lejanos del Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma un cargo de envío según la distancia. Si ya sabes que tu jardín aguanta el modelo grande, puedes [ver precio y disponibilidad del Barco Pirata](/inflables/barco-pirata/); y si la fiesta va con temática, la guía de [fiesta pirata infantil con tobogán](/blog/fiesta-pirata-infantil-tobogan-cdmx/) tiene el resto del plan.

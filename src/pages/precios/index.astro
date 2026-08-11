@@ -137,7 +137,7 @@ const includes = [
   { icon: "🚚", label: "Entrega a domicilio",     desc: "Llevamos el inflable a tu domicilio en CDMX y Edomex sin costo extra." },
   { icon: "🔧", label: "Instalación profesional", desc: "Nuestro equipo monta el inflable en menos de 30 minutos." },
   { icon: "⚡", label: "Motor inflador",           desc: "Motor silencioso de inflado continuo e instalación eléctrica incluidos." },
-  { icon: "🧼", label: "Limpieza certificada",     desc: "Cada inflable se desinfecta con protocolo certificado antes de entregarse." },
+  { icon: "🧼", label: "Limpieza documentada",     desc: "Cada inflable se desinfecta con protocolo propio antes de entregarse." },
   { icon: "📦", label: "Recolección",              desc: "Al finalizar el evento recogemos todo. Tú no tienes que hacer nada." },
 ];
 
@@ -171,7 +171,7 @@ const faqs = [
   },
   {
     question: "¿Los precios publicados incluyen todo o hay costos adicionales?",
-    answer:   "Los precios que publicamos son precios completos sin letra chica. Incluyen entrega a domicilio, instalación, motor inflador silencioso, extensión eléctrica, limpieza y sanitización certificada, y recolección al finalizar el evento. El único cargo adicional posible es por zonas muy alejadas fuera de nuestra cobertura estándar, del cual te informamos al cotizar.",
+    answer:   "Los precios que publicamos son precios completos sin letra chica. Incluyen entrega a domicilio, instalación, motor inflador silencioso, extensión eléctrica, limpieza y sanitización, y recolección al finalizar el evento. El único cargo adicional posible es por zonas muy alejadas fuera de nuestra cobertura estándar, del cual te informamos al cotizar.",
   },
   {
     question: "¿El precio varía según la zona de entrega en CDMX?",
@@ -248,7 +248,7 @@ const faqs = [
           <ul class="pr-hero-summary__includes">
             <li>✓ Entrega e instalación incluidas</li>
             <li>✓ Motor inflador y extensión eléctrica</li>
-            <li>✓ Limpieza y sanitización certificada</li>
+            <li>✓ Limpieza y sanitización</li>
             <li>✓ Recolección al finalizar</li>
           </ul>
           <a href="/cotizar/" class="btn btn-primary" style="width:100%;text-align:center;">
@@ -272,7 +272,7 @@ const faqs = [
         badge="Precios por modelo"
         title="Precios de Renta de Inflables por Modelo"
         subtitle="Todos los precios incluyen entrega, instalación, motor, sanitización y recolección en CDMX y Edomex."
-        copy1="Publicamos nuestros precios abiertamente porque creemos que la transparencia es parte del buen servicio. Cada precio que ves aquí es el precio neto de la renta: sin cargos por el motor, sin cuotas de instalación y sin sorpresas el día del evento. Las dos únicas cosas que pueden sumarse son el IVA, si necesitas factura, y el envío en zonas distantes — ambas te las decimos por escrito antes de que apartes la fecha."
+        copy1="Si buscas la opción más accesible, la guía de <a href='/renta-de-inflables-economicos/'>inflables económicos</a> explica qué incluye el precio y cuándo NO conviene el modelo más barato. Publicamos nuestros precios abiertamente porque creemos que la transparencia es parte del buen servicio. Cada precio que ves aquí es el precio neto de la renta: sin cargos por el motor, sin cuotas de instalación y sin sorpresas el día del evento. Las dos únicas cosas que pueden sumarse son el IVA, si necesitas factura, y el envío en zonas distantes — ambas te las decimos por escrito antes de que apartes la fecha."
         copy2="Si tienes dudas sobre qué inflable elegir según el espacio disponible, el número de niños o el tipo de evento, escríbenos por WhatsApp y te asesoramos sin compromiso."
       />
 
@@ -540,10 +540,7 @@ const faqs = [
 
 
 <style>
-  /* ─── Hero Precios ───────────────────────────────────────── */
-  .pr-hero { padding: clamp(2rem, 4vw, 3rem) 0; }
-
-  .pr-hero-summary {
+  /* ─── Hero Precios ───────────────────────────────────────── */.pr-hero { padding: clamp(2rem, 4vw, 3rem) 0; }.pr-hero-summary {
     background: #fff;
     border: 2px solid var(--c-primary, #FF3D00);
     border-radius: 1.25rem;
@@ -552,39 +549,32 @@ const faqs = [
     display: flex;
     flex-direction: column;
     gap: 1rem;
-  }
-  .pr-hero-summary__label {
+  }.pr-hero-summary__label {
     font-size: .75rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .08em;
     color: #6B7280;
-  }
-  .pr-hero-summary__range {
+  }.pr-hero-summary__range {
     display: flex;
     align-items: center;
     gap: 1rem;
-  }
-  .pr-hero-summary__item {
+  }.pr-hero-summary__item {
     display: flex;
     flex-direction: column;
     gap: .15rem;
-  }
-  .pr-hero-summary__amount {
+  }.pr-hero-summary__amount {
     font-size: 1.75rem;
     font-weight: 900;
     color: var(--c-primary-text, #C82D00);
     line-height: 1;
-  }
-  .pr-hero-summary__note {
+  }.pr-hero-summary__note {
     font-size: .75rem;
     color: #6B7280;
-  }
-  .pr-hero-summary__arrow {
+  }.pr-hero-summary__arrow {
     font-size: 1.5rem;
     color: #D1D5DB;
-  }
-  .pr-hero-summary__includes {
+  }.pr-hero-summary__includes {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -593,23 +583,18 @@ const faqs = [
     gap: .35rem;
     font-size: .85rem;
     color: #374151;
-  }
-  .pr-hero-summary__includes li {
+  }.pr-hero-summary__includes li {
     color: #374151;
-  }
-  .pr-hero-summary__includes li::first-letter { color: #16A34A; }
+  }.pr-hero-summary__includes li::first-letter { color: #16A34A; }
 
-  /* ─── Price Cards Grid ───────────────────────────────────── */
-  .pr-grid {
+  /* ─── Price Cards Grid ───────────────────────────────────── */.pr-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.25rem;
   }
   @media (max-width: 1100px) { .pr-grid { grid-template-columns: repeat(3, 1fr); } }
   @media (max-width: 750px)  { .pr-grid { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 480px)  { .pr-grid { grid-template-columns: 1fr; } }
-
-  .pr-card {
+  @media (max-width: 480px)  { .pr-grid { grid-template-columns: 1fr; } }.pr-card {
     background: #fff;
     border: 1px solid #E5E7EB;
     border-radius: 1rem;
@@ -617,15 +602,12 @@ const faqs = [
     display: flex;
     flex-direction: column;
     position: relative;
-  }
-  .pr-card:hover {
+  }.pr-card:hover {
     box-shadow: 0 8px 32px rgba(0,0,0,.1);
-  }
-  .pr-card--highlight {
+  }.pr-card--highlight {
     border-color: var(--c-primary, #FF3D00);
     box-shadow: 0 0 0 2px var(--c-primary, #FF3D00), 0 8px 32px rgba(255,61,0,.12);
-  }
-  .pr-card__ribbon {
+  }.pr-card__ribbon {
     position: absolute;
     top: .75rem;
     left: -1px;
@@ -639,107 +621,86 @@ const faqs = [
     padding: .25rem .65rem .25rem .5rem;
     border-radius: 0 .35rem .35rem 0;
     z-index: 2;
-  }
-  .pr-card__img-wrap { aspect-ratio: 16/9; overflow: hidden; }
-  .pr-card__img {
+  }.pr-card__img-wrap { aspect-ratio: 16/9; overflow: hidden; }.pr-card__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-  }
-  .pr-card:hover .pr-card__img { }
-
-  .pr-card__body {
+  }.pr-card:hover .pr-card__img { }.pr-card__body {
     padding: 1.25rem;
     display: flex;
     flex-direction: column;
     gap: .6rem;
     flex-grow: 1;
-  }
-  .pr-card__meta {
+  }.pr-card__meta {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: .5rem;
-  }
-  .pr-card__tag {
+  }.pr-card__tag {
     font-size: .7rem;
     font-weight: 700;
     letter-spacing: .04em;
     padding: .2rem .55rem;
     border-radius: 99px;
-  }
-  .pr-card__category {
+  }.pr-card__category {
     font-size: .72rem;
     /* #9CA3AF sobre blanco daba 2.54:1 — gris demasiado claro para 0.72rem.
        #6B7280 conserva el mismo tono neutro con 4.83:1. */
     color: #6B7280;
     text-transform: uppercase;
     letter-spacing: .05em;
-  }
-  .pr-card__name {
+  }.pr-card__name {
     font-size: 1rem;
     font-weight: 700;
     color: #1A1A2E;
     margin: 0;
     line-height: 1.2;
-  }
-  .pr-card__price {
+  }.pr-card__price {
     display: flex;
     align-items: baseline;
     gap: .25rem;
-  }
-  .pr-card__amount {
+  }.pr-card__amount {
     font-size: 1.65rem;
     font-weight: 900;
     color: var(--c-primary, #FF3D00);
     line-height: 1;
-  }
-  .pr-card__currency {
+  }.pr-card__currency {
     font-size: .75rem;
     font-weight: 600;
     color: #6B7280;
-  }
-  .pr-card__period {
+  }.pr-card__period {
     font-size: .75rem;
     color: #6B7280; /* 2.53 → 4.83 */
-  }
-  .pr-card__specs {
+  }.pr-card__specs {
     display: flex;
     flex-direction: column;
     gap: .25rem;
-  }
-  .pr-card__spec {
+  }.pr-card__spec {
     display: flex;
     align-items: center;
     gap: .4rem;
     font-size: .8rem;
     color: #6B7280;
-  }
-  .pr-card__spec svg { width: .9rem; height: .9rem; color: #9CA3AF; flex-shrink: 0; }
-  .pr-card__ideal {
+  }.pr-card__spec svg { width: .9rem; height: .9rem; color: #9CA3AF; flex-shrink: 0; }.pr-card__ideal {
     font-size: .8rem;
     color: #4B5563;
     line-height: 1.5;
     margin: 0;
     flex-grow: 1;
-  }
-  .pr-card__btn {
+  }.pr-card__btn {
     margin-top: auto;
     text-align: center;
   }
 
-  /* ─── Qué Incluye ────────────────────────────────────────── */
-  .pr-includes {
+  /* ─── Qué Incluye ────────────────────────────────────────── */.pr-includes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.25rem;
     margin-top: 2rem;
   }
   @media (max-width: 860px) { .pr-includes { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 480px) { .pr-includes { grid-template-columns: 1fr; } }
-
-  .pr-include {
+  @media (max-width: 480px) { .pr-includes { grid-template-columns: 1fr; } }.pr-include {
     display: flex;
     gap: 1rem;
     align-items: flex-start;
@@ -747,35 +708,29 @@ const faqs = [
     border: 1px solid #E5E7EB;
     border-radius: .875rem;
     padding: 1.25rem;
-  }
-  .pr-include__icon {
+  }.pr-include__icon {
     font-size: 1.75rem;
     line-height: 1;
     flex-shrink: 0;
-  }
-  .pr-include__label {
+  }.pr-include__label {
     font-size: .95rem;
     font-weight: 700;
     color: #1A1A2E;
     margin: 0 0 .25rem;
-  }
-  .pr-include__desc {
+  }.pr-include__desc {
     font-size: .85rem;
     color: #4B5563;
     line-height: 1.55;
     margin: 0;
   }
 
-  /* ─── Factores de precio ─────────────────────────────────── */
-  .pr-factores {
+  /* ─── Factores de precio ─────────────────────────────────── */.pr-factores {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.25rem;
     margin-top: 2rem;
   }
-  @media (max-width: 640px) { .pr-factores { grid-template-columns: 1fr; } }
-
-  .pr-factor {
+  @media (max-width: 640px) { .pr-factores { grid-template-columns: 1fr; } }.pr-factor {
     display: flex;
     gap: 1rem;
     align-items: flex-start;
@@ -783,31 +738,25 @@ const faqs = [
     border: 1px solid #E5E7EB;
     border-radius: .875rem;
     padding: 1.5rem;
-  }
-  .pr-factor__icon { font-size: 1.75rem; line-height: 1; flex-shrink: 0; }
-  .pr-factor__title {
+  }.pr-factor__icon { font-size: 1.75rem; line-height: 1; flex-shrink: 0; }.pr-factor__title {
     font-size: 1rem;
     font-weight: 700;
     color: #1A1A2E;
     margin: 0 0 .4rem;
-  }
-  .pr-factor__desc {
+  }.pr-factor__desc {
     font-size: .875rem;
     color: #4B5563;
     line-height: 1.6;
     margin: 0;
   }
 
-  /* ─── Paquetes multi-inflable ────────────────────────────── */
-  .pr-paquetes {
+  /* ─── Paquetes multi-inflable ────────────────────────────── */.pr-paquetes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.25rem;
     margin-top: 2rem;
   }
-  @media (max-width: 860px) { .pr-paquetes { grid-template-columns: 1fr; } }
-
-  .pr-paquete {
+  @media (max-width: 860px) { .pr-paquetes { grid-template-columns: 1fr; } }.pr-paquete {
     background: #fff;
     border: 1px solid #E5E7EB;
     border-radius: 1rem;
@@ -816,12 +765,10 @@ const faqs = [
     flex-direction: column;
     gap: 1rem;
     position: relative;
-  }
-  .pr-paquete--highlight {
+  }.pr-paquete--highlight {
     border-color: var(--c-primary, #FF3D00);
     box-shadow: 0 0 0 2px var(--c-primary, #FF3D00);
-  }
-  .pr-paquete__badge {
+  }.pr-paquete__badge {
     position: absolute;
     top: -1px;
     right: 1.25rem;
@@ -833,26 +780,22 @@ const faqs = [
     text-transform: uppercase;
     padding: .3rem .75rem;
     border-radius: 0 0 .5rem .5rem;
-  }
-  .pr-paquete__name {
+  }.pr-paquete__name {
     font-size: 1.1rem;
     font-weight: 800;
     color: #1A1A2E;
     margin: 0;
-  }
-  .pr-paquete__amount {
+  }.pr-paquete__amount {
     font-size: 1.5rem;
     font-weight: 900;
     color: var(--c-primary, #FF3D00);
     display: block;
     line-height: 1.1;
-  }
-  .pr-paquete__note {
+  }.pr-paquete__note {
     font-size: .78rem;
     color: #6B7280;
     display: block;
-  }
-  .pr-paquete__list {
+  }.pr-paquete__list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -862,31 +805,25 @@ const faqs = [
     font-size: .875rem;
     color: #374151;
     flex-grow: 1;
-  }
-  .pr-paquete__list li::before {
+  }.pr-paquete__list li::before {
     content: "✓ ";
     color: #16A34A;
     font-weight: 700;
-  }
-  .pr-paquete__link {
+  }.pr-paquete__link {
     font-size: .875rem;
     font-weight: 700;
     color: var(--c-primary, #FF3D00);
     text-decoration: none;
     margin-top: auto;
-  }
-  .pr-paquete__link:hover { text-decoration: underline; }
+  }.pr-paquete__link:hover { text-decoration: underline; }
 
-  /* ─── Sección ventaja competitiva ───────────────────────── */
-  .pr-ventaja {
+  /* ─── Sección ventaja competitiva ───────────────────────── */.pr-ventaja {
     display: grid;
     grid-template-columns: 1fr 340px;
     gap: 3rem;
     align-items: center;
   }
-  @media (max-width: 860px) { .pr-ventaja { grid-template-columns: 1fr; } }
-
-  .pr-ventaja__badge {
+  @media (max-width: 860px) { .pr-ventaja { grid-template-columns: 1fr; } }.pr-ventaja__badge {
     display: inline-block;
     background: var(--c-primary, #FF3D00);
     color: #fff;
@@ -897,46 +834,39 @@ const faqs = [
     padding: .3rem .75rem;
     border-radius: 99px;
     margin-bottom: 1rem;
-  }
-  .pr-ventaja__title {
+  }.pr-ventaja__title {
     font-size: clamp(1.5rem, 2.5vw, 2rem);
     font-weight: 800;
     color: #1A1A2E;
     line-height: 1.2;
     margin: 0 0 1rem;
-  }
-  .pr-ventaja__desc {
+  }.pr-ventaja__desc {
     font-size: .95rem;
     color: #4B5563;
     line-height: 1.7;
     margin: 0 0 .75rem;
-  }
-  .pr-ventaja__ctas {
+  }.pr-ventaja__ctas {
     display: flex;
     flex-wrap: wrap;
     gap: .75rem;
     margin-top: 1.5rem;
-  }
-  .pr-ventaja__stats {
+  }.pr-ventaja__stats {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: .875rem;
-  }
-  .pr-ventaja__stat {
+  }.pr-ventaja__stat {
     background: #F9FAFB;
     border-radius: .875rem;
     padding: 1.25rem;
     display: flex;
     flex-direction: column;
     gap: .2rem;
-  }
-  .pr-ventaja__stat-num {
+  }.pr-ventaja__stat-num {
     font-size: 1.75rem;
     font-weight: 900;
     color: var(--c-primary, #FF3D00);
     line-height: 1;
-  }
-  .pr-ventaja__stat-txt {
+  }.pr-ventaja__stat-txt {
     font-size: .75rem;
     color: #6B7280;
     line-height: 1.35;

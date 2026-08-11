@@ -53,7 +53,7 @@ La clave es pensar en el jardín como cuatro zonas con funciones distintas, y no
 
 ### Zona de juego activo: el inflable
 
-Ocupa entre el 30-40% del espacio disponible. Debe estar en el área más amplia y despejada, idealmente sobre pasto natural. Requiere mínimo 2 metros de espacio libre en todos sus lados para que los niños puedan correr, entrar y salir con seguridad.
+Ocupa entre el 30-40% del espacio disponible. Debe estar en el área más amplia y despejada, idealmente sobre pasto natural. Requiere como mínimo un metro de espacio libre por lado —ese margen ya viene incluido en el área que pide cada modelo— para que los niños puedan entrar y salir con seguridad.
 
 Lo que aprendimos con el tiempo es que el inflable debe colocarse en el extremo del jardín más alejado de la entrada principal. Esto hace que los niños no interfieran con la llegada de invitados, y que el inflable sea visible desde la zona de descanso adulta — lo que permite supervisión constante sin necesidad de estar parado al lado.
 

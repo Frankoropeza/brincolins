@@ -110,7 +110,7 @@ La conexión eléctrica es un aspecto crítico para inflables al aire libre que 
 Organizar una **fiesta con inflable en tu jardín** requiere planificación, pero no tiene por qué ser complicado. Aquí te damos un checklist completo para que no se te pase nada:
 
 - **Mide tu espacio:** Necesitas al menos el área del inflable más un metro de perímetro de seguridad por lado. Va de 3×3 m para el Mini Castillo a 9×7 m para el Barco Pirata; la [guía para elegir inflable según edad y espacio](/blog/como-elegir-inflable-fiesta-infantil/) trae la tabla completa. Mide largo, ancho y altura libre (cuidado con ramas y cables).
-- **Verifica electricidad:** Confirma que tienes una toma de 110V funcional a menos de 15 metros del área de instalación. Prueba que el circuito soporte la carga del soplador.
+- **Verifica electricidad:** Confirma que tienes una toma de 110V funcional a menos de 20 metros del área de instalación. Prueba que el circuito soporte la carga del soplador.
 - **Planea la distribución:** Define dónde irá el inflable, dónde las mesas de comida, dónde la zona de descanso y por dónde entrarán los invitados. Deja espacio de circulación entre todas las áreas.
 - **Considera el clima:** Revisa el pronóstico una semana antes y el día anterior. Si es temporada de lluvias, ten un toldo o carpa como plan B. Si es temporada seca, provee sombra y agua para hidratación.
 - **Prepara el terreno:** Poda el pasto, retira piedras y objetos, nivela si es necesario. Todo esto hazlo al menos un día antes para que el área esté lista cuando llegue nuestro equipo.

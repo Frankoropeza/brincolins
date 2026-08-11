@@ -8,6 +8,12 @@ interface Props {
 }
 
 const { badge, title, subtitle, copy1, copy2 } = Astro.props;
+
+/* copy1/copy2 se renderizaban como texto plano, así que cualquier <a> o
+   <strong> escrito ahí salía impreso literalmente en la página (ya pasó
+   antes con los <strong> del hero de cobertura). Se renderizan como HTML
+   sólo cuando el texto contiene una etiqueta; si no, va como texto. */
+const hasTag = (s: string) => /<[a-z][\s\S]*>/i.test(s);
 ---
 
 <div class="sh">
@@ -18,79 +24,53 @@ const { badge, title, subtitle, copy1, copy2 } = Astro.props;
     <p class="section-subtitle">{subtitle}</p>
   </div>
   <div class="sh__right">
-    <p class="sh__copy">{copy1}</p>
-    <p class="sh__copy">{copy2}</p>
+    {hasTag(copy1) ? <p class="sh__copy" set:html={copy1} /> : <p class="sh__copy">{copy1}</p>}
+    {hasTag(copy2) ? <p class="sh__copy" set:html={copy2} /> : <p class="sh__copy">{copy2}</p>}
   </div>
 </div>
 
-<style>
-  .sh {
+<style>.sh {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
     align-items: start;
     margin-bottom: 3.5rem;
-  }
-
-  .sh__left {
+  }.sh__left {
     text-align: left;
-  }
-
-  .sh__right {
+  }.sh__right {
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
     padding-top: 0.5rem;
-  }
-
-  .sh__copy {
+  }.sh__copy {
     font-size: 0.95rem;
     line-height: 1.75;
     color: var(--c-text-muted);
     margin: 0;
-  }
-
-  .sh__copy strong {
+  }.sh__copy strong {
     color: var(--c-primary);
     font-weight: 700;
-  }
-
-  .sh .section-badge {
+  }.sh .section-badge {
     margin-bottom: 0.75rem;
-  }
-
-  .sh .section-title {
+  }.sh .section-title {
     text-align: left;
-  }
-
-  .sh .section-separator {
+  }.sh .section-separator {
     margin: 0 0 1rem;
-  }
-
-  .sh .section-subtitle {
+  }.sh .section-subtitle {
     text-align: left;
     margin: 0;
   }
 
-  @media (max-width: 900px) {
-    .sh {
+  @media (max-width: 900px) {.sh {
       grid-template-columns: 1fr;
       gap: 1.5rem;
-    }
-
-    .sh__left {
+    }.sh__left {
       text-align: center;
-    }
-
-    .sh .section-title {
+    }.sh .section-title {
       text-align: center;
-    }
-
-    .sh .section-separator {
+    }.sh .section-separator {
       margin: 0 auto 1rem;
-    }
-
-    .sh .section-subtitle {
+    }.sh .section-subtitle {
       text-align: center;
       margin: 0 auto;
     }

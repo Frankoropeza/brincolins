@@ -94,7 +94,7 @@ Los **inflables grandes con tobogán** no son solo para fiestas de cumpleaños. 
 
 La seguridad es la prioridad número uno cuando se trata de **inflables grandes con tobogán**. En BRINCOLINS tomamos esto muy en serio y cumplimos con todos los estándares de seguridad para uso comercial. Aquí te explicamos cómo garantizamos la seguridad de los niños:
 
-- **Material certificado:** Todos nuestros inflables están fabricados con lona comercial de alta resistencia, con costuras cuádruples reforzadas y materiales no tóxicos certificados para uso infantil.
+- **Material de grado comercial:** Todos nuestros inflables están fabricados con lona comercial de alta resistencia, con costuras cuádruples reforzadas y materiales no tóxicos aptos para uso infantil.
 - **Anclaje profesional:** Cada inflable se ancla al piso con estacas industriales (en pasto) o pesas de contrapeso (en concreto). El equipo no se mueve ni con viento moderado.
 - **Toboganes con protección:** Los toboganes tienen paredes laterales altas que evitan caídas, pendiente controlada para velocidad segura y zona de aterrizaje con colchón extra grueso.
 - **Motor de inflado continuo:** El motor mantiene el inflable firme en todo momento. Si se interrumpe la electricidad, el inflable se desinfla lentamente (no colapsa) dando tiempo a que los niños salgan con seguridad.

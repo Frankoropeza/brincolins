@@ -234,13 +234,10 @@ export const INFLABLES: Inflable[] = [
 ];
 
 /** Solo inflables activos, ordenados por precio ascendente */
-export const INFLABLES_ACTIVOS = INFLABLES
-  .filter(i => i.active)
-  .sort((a, b) => a.priceNumber - b.priceNumber);
+export const INFLABLES_ACTIVOS = INFLABLES.filter(i => i.active).sort((a, b) => a.priceNumber - b.priceNumber);
 
 /** Opciones para select de formulario */
-export const INFLABLES_SELECT_OPTIONS = [
-  ...INFLABLES_ACTIVOS.map(i => ({
+export const INFLABLES_SELECT_OPTIONS = [...INFLABLES_ACTIVOS.map(i => ({
     value: i.name,
     label: `${i.name} — ${i.price}`,
   })),

@@ -63,65 +63,47 @@ const { titulo, intro, items, variante = "cards" } = Astro.props;
 )}
 
 <style>
-  /* ── Variante inline (blog) ── */
-  .enl-inline {
+  /* ── Variante inline (blog) ── */.enl-inline {
     border-left: 4px solid var(--brand, #FF3D00);
     background: var(--surface-alt, #f7f7f9);
     border-radius: 0 12px 12px 0;
     padding: 1.1rem 1.25rem;
     margin: 1.75rem 0;
-  }
-
-  .enl-inline__title {
+  }.enl-inline__title {
     margin: 0 0 .35rem;
     font-weight: 700;
     font-size: 1rem;
-  }
-
-  .enl-inline__intro {
+  }.enl-inline__intro {
     margin: 0 0 .6rem;
     font-size: .93rem;
     color: var(--text-muted, #5a5a66);
     line-height: 1.6;
-  }
-
-  .enl-inline__list {
+  }.enl-inline__list {
     margin: 0;
     padding-left: 1.1rem;
     display: flex;
     flex-direction: column;
     gap: .3rem;
     font-size: .95rem;
-  }
+  }.enl-inline__nota { color: var(--text-muted, #5a5a66); }
 
-  .enl-inline__nota { color: var(--text-muted, #5a5a66); }
-
-  /* ── Variante cards (cobertura, home) ── */
-  .enl-cards__head { margin-bottom: 1.25rem; }
-
-  .enl-cards__title {
+  /* ── Variante cards (cobertura, home) ── */.enl-cards__head { margin-bottom: 1.25rem; }.enl-cards__title {
     margin: 0 0 .35rem;
     font-size: clamp(1.25rem, 2.2vw, 1.6rem);
     line-height: 1.25;
-  }
-
-  .enl-cards__intro {
+  }.enl-cards__intro {
     margin: 0;
     color: var(--text-muted, #5a5a66);
     font-size: .95rem;
     max-width: 70ch;
-  }
-
-  .enl-cards__grid {
+  }.enl-cards__grid {
     list-style: none;
     margin: 0;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 1rem;
-  }
-
-  .enl-cards__link {
+  }.enl-cards__link {
     display: flex;
     flex-direction: column;
     gap: .3rem;
@@ -134,18 +116,11 @@ const { titulo, intro, items, variante = "cards" } = Astro.props;
     text-decoration: none;
     color: inherit;
     transition: border-color .15s ease, box-shadow .15s ease, transform .15s ease;
-  }
-
-  .enl-cards__link:hover,
-  .enl-cards__link:focus-visible {
+  }.enl-cards__link:hover,.enl-cards__link:focus-visible {
     border-color: var(--brand, #FF3D00);
     box-shadow: 0 6px 20px rgba(20, 20, 30, .08);
     transform: translateY(-2px);
-  }
-
-  .enl-cards__anchor { font-weight: 700; line-height: 1.35; }
-
-  .enl-cards__nota {
+  }.enl-cards__anchor { font-weight: 700; line-height: 1.35; }.enl-cards__nota {
     font-size: .88rem;
     color: var(--text-muted, #5a5a66);
     line-height: 1.5;

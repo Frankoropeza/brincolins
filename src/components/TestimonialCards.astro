@@ -35,63 +35,47 @@ const { testimonials } = Astro.props;
   ))}
 </div>
 
-<style>
-  .tc__grid {
+<style>.tc__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-  }
-
-  .tc__card {
+  }.tc__card {
     background: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 12px;
     padding: 1.75rem;
     display: flex;
     flex-direction: column;
-  }
-
-  .tc__stars {
+  }.tc__stars {
     display: flex;
     gap: 0.15rem;
     margin-bottom: 1rem;
-  }
-
-  .tc__star {
+  }.tc__star {
     color: #ff5722;
     font-size: 1.125rem;
-  }
-
-  .tc__text {
+  }.tc__text {
     font-size: 0.9375rem;
     color: #495057;
     line-height: 1.7;
     font-style: italic;
     flex: 1;
     margin: 0 0 1.25rem;
-  }
-
-  .tc__author {
+  }.tc__author {
     display: flex;
     flex-direction: column;
     gap: 0.15rem;
     border-top: 1px solid #f0f0f0;
     padding-top: 1rem;
-  }
-
-  .tc__name {
+  }.tc__name {
     font-size: 0.875rem;
     font-weight: 700;
     color: #1a1a2e;
-  }
-
-  .tc__event {
+  }.tc__event {
     font-size: 0.75rem;
     color: #6c757d;
   }
 
-  @media (max-width: 768px) {
-    .tc__grid {
+  @media (max-width: 768px) {.tc__grid {
       grid-template-columns: 1fr;
       max-width: 520px;
       margin: 0 auto;

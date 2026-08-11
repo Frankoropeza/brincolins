@@ -84,7 +84,7 @@ El precio de catálogo no siempre es el precio final. Estos son los extras que a
 - Flete o servicio de entrega: $200–$400 MXN adicionales
 - Operador que supervise el inflable durante la fiesta: $300–$600 MXN
 - Depósito de garantía no reembolsable por daños menores
-- Cargo por cancelación tardía (menos de 24h): hasta el 50% del total
+- Cargos por cancelación tardía o por cambio de fecha, cuando el proveedor no publica su política por escrito
 
 En **BRINCOLINS** nada de eso aparece a última hora: entrega, instalación, motor y retiro siempre están incluidos. Los dos conceptos que se suman al precio neto los decimos al cotizar — IVA si pides factura y envío si tu zona está lejos. Verifícalo en la [página de cobertura](/cobertura/) antes de reservar.
 
@@ -96,9 +96,9 @@ La compra tiene sentido solo si eres organizador de eventos o tienes más de 10 
 
 ## ¿Cómo conseguir el mejor precio?
 
-- **Reserva con anticipación:** Los precios de fin de semana en temporada alta (abril, mayo, diciembre) suelen ser 15–20% más altos por la demanda.
-- **Evita quincenas y puentes:** Si tu evento puede ser entre semana, los precios bajan considerablemente.
-- **Pide combo:** Algunos proveedores hacen descuento si rentas 2 o más inflables para un mismo evento.
+- **Reserva con anticipación:** en BRINCOLINS el precio del modelo no cambia por el día ni por la temporada, pero los sábados de abril, mayo y diciembre se agotan primero. Reservar temprano no te ahorra dinero: te asegura la fecha.
+- **Evita quincenas y puentes:** entre semana hay mucha más disponibilidad y más margen para elegir horario de instalación.
+- **Pregunta por el segundo inflable:** si la fiesta mezcla edades, cotiza los dos modelos juntos desde el principio en vez de agregar uno a última hora.
 - **Compara 3 cotizaciones:** Nunca contrates el primer proveedor sin comparar. Precio, inclusiones y reseñas. Los criterios exactos están en las [7 señales de un proveedor de inflables confiable](/blog/senales-proveedor-inflables-confiable-cdmx/).
 - **Elige por capacidad, no por tamaño:** pagar $600 más por un modelo grande no sirve si solo van 8 niños. La [comparativa de inflable chico contra grande](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/) hace la cuenta por número de invitados.
 

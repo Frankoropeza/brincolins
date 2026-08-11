@@ -62,7 +62,7 @@ Lo usamos mucho en fiestas de primer cumpleaños, pero también en eventos de pr
 - Es el modelo más accesible en precio: **$800 MXN**.
 - No tiene tobogán, lo cual es correcto para su rango de edad.
 
-Si tu hijo mayor ya tiene 5 años o más y quiere usar el inflable también, este lo va a aburrir. Para grupos de edades mixtas, el Barco Pirata funciona mejor. La guía completa del modelo está en [renta de Mini Castillo para bebés](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
+Si tu hijo mayor ya tiene 5 años o más y quiere usar el inflable también, este lo va a aburrir. Para grupos de edades mixtas, el Barco Pirata funciona mejor. Cómo planear una fiesta de 1 año alrededor de este modelo está en la guía del [primer cumpleaños](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
 
 ---
 

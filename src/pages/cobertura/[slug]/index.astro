@@ -84,8 +84,7 @@ const areaType  = zone.areaType ?? "AdministrativeArea";
 
 const areaServed = {
   "@type": areaType,
-  "name":  areaName,
-  ...(areaType === "State"
+  "name":  areaName,...(areaType === "State"
     ? { "containedInPlace": { "@type": "Country", "name": "México" } }
     : zone.areaParent
       ? { "containedInPlace": { "@type": "State", "name": zone.areaParent } }
@@ -94,9 +93,7 @@ const areaServed = {
 
 /* Los modelos recomendados de la zona, resueltos contra el catálogo
    canónico para que el precio del schema sea el real de inflables.ts. */
-const recModels = zone.inflablesRec
-  .map(r => getInflableBySlug(r.href.replace("/inflables/", "").replace(/\/$/, "")))
-  .filter((i): i is NonNullable<typeof i> => Boolean(i));
+const recModels = zone.inflablesRec.map(r => getInflableBySlug(r.href.replace("/inflables/", "").replace(/\/$/, ""))).filter((i): i is NonNullable<typeof i> => Boolean(i));
 const catalog = recModels.length > 0 ? recModels : INFLABLES_ACTIVOS;
 
 const serviceSchema = {
@@ -258,7 +255,7 @@ const serviceSchema = {
       <SectionHeader
         badge="Entrega"
         title={`¿Cómo entregamos en ${zonePhrase}?`}
-        subtitle="Puntualidad y profesionalismo garantizados."
+        subtitle="Puntualidad y trato profesional."
         copy1={`Conocemos la vialidad y los accesos en ${zonePhrase}. Nuestros equipos planifican la ruta con anticipación para llegar a tiempo, sin importar el tipo de colonia o fraccionamiento.`}
         copy2="Para zonas con calles angostas o accesos controlados, coordinamos de antemano. Tu comodidad y la puntualidad de entrega son nuestra prioridad."
       />
@@ -352,8 +349,7 @@ const serviceSchema = {
     variant={zone.ctaBannerVariant}
   />
 
-  <style>
-    .inflable-rec-card {
+  <style>.inflable-rec-card {
       display: block;
       text-decoration: none;
       border-radius: 12px;
@@ -362,17 +358,14 @@ const serviceSchema = {
       background: var(--color-bg-card, #fff);
       color: inherit;
       transition: box-shadow 0.2s ease;
-    }
-    .inflable-rec-card:hover {
+    }.inflable-rec-card:hover {
       box-shadow: 0 12px 32px rgba(0,0,0,0.12);
-    }
-    .inflable-rec-card__head {
+    }.inflable-rec-card__head {
       height: 88px;
       display: flex;
       align-items: flex-end;
       padding: 10px 14px;
-    }
-    .inflable-rec-card__tag {
+    }.inflable-rec-card__tag {
       background: rgba(0,0,0,0.3);
       color: #fff;
       font-size: 11px;
@@ -381,32 +374,26 @@ const serviceSchema = {
       letter-spacing: 0.04em;
       padding: 3px 8px;
       border-radius: 20px;
-    }
-    .inflable-rec-card__body { padding: 16px; }
-    .inflable-rec-card__name {
+    }.inflable-rec-card__body { padding: 16px; }.inflable-rec-card__name {
       font-size: 1rem;
       font-weight: 700;
       margin: 0 0 6px;
-    }
-    .inflable-rec-card__desc {
+    }.inflable-rec-card__desc {
       font-size: 0.875rem;
       color: var(--color-text-muted, #666);
       line-height: 1.5;
       margin-bottom: 12px;
-    }
-    .inflable-rec-card__cta {
+    }.inflable-rec-card__cta {
       font-size: 0.875rem;
       font-weight: 600;
       color: var(--color-primary, #FF3D00);
     }
 
-    /* ── Zonas hijas de las páginas hub ── */
-    .zone-hub-grid {
+    /* ── Zonas hijas de las páginas hub ── */.zone-hub-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
       gap: 12px;
-    }
-    .zone-hub-card {
+    }.zone-hub-card {
       display: flex;
       flex-direction: column;
       gap: 4px;
@@ -417,17 +404,14 @@ const serviceSchema = {
       text-decoration: none;
       color: inherit;
       transition: box-shadow 0.2s ease, border-color 0.2s ease;
-    }
-    .zone-hub-card:hover {
+    }.zone-hub-card:hover {
       border-color: var(--color-primary, #FF3D00);
       box-shadow: 0 10px 24px rgba(0,0,0,0.10);
-    }
-    .zone-hub-card__name {
+    }.zone-hub-card__name {
       font-family: var(--font-head);
       font-size: 1rem;
       font-weight: 800;
-    }
-    .zone-hub-card__note {
+    }.zone-hub-card__note {
       font-size: 0.8125rem;
       line-height: 1.5;
       color: var(--c-text-muted, #666);

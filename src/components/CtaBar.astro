@@ -43,28 +43,21 @@ const icons: Record<string, string> = {
   </div>
 </section>
 
-<style>
-  .ctabar {
+<style>.ctabar {
     background: #FF3D00;
     padding: 2rem 0;
-  }
-
-  .ctabar__headline {
+  }.ctabar__headline {
     text-align: center;
     color: rgba(255, 255, 255, 0.8);
     font-size: 0.9375rem;
     font-weight: 500;
     margin-bottom: 1.25rem;
     letter-spacing: 0.01em;
-  }
-
-  .ctabar__grid {
+  }.ctabar__grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0.75rem;
-  }
-
-  .ctabar__item {
+  }.ctabar__item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,36 +71,25 @@ const icons: Record<string, string> = {
     font-weight: 600;
     text-align: center;
     text-decoration: none;
-  }
-
-  .ctabar__item:hover {
+  }.ctabar__item:hover {
     background: rgba(255, 255, 255, 0.18);
     border-color: rgba(255, 255, 255, 0.3);
-  }
-
-  .ctabar__icon {
+  }.ctabar__icon {
     display: flex;
     flex-shrink: 0;
     opacity: 0.85;
-  }
-
-  .ctabar__label {
+  }.ctabar__label {
     white-space: nowrap;
   }
 
-  @media (max-width: 768px) {
-    .ctabar__grid {
+  @media (max-width: 768px) {.ctabar__grid {
       grid-template-columns: repeat(2, 1fr);
     }
   }
 
-  @media (max-width: 500px) {
-    .ctabar__label { font-size: 0.75rem; }
-    .ctabar__icon { display: none; }
+  @media (max-width: 500px) {.ctabar__label { font-size: 0.75rem; }.ctabar__icon { display: none; }
   }
 
-  @media (max-width: 400px) {
-    .ctabar__grid { grid-template-columns: 1fr; }
-    .ctabar__item { padding: 0.75rem 1rem; }
+  @media (max-width: 400px) {.ctabar__grid { grid-template-columns: 1fr; }.ctabar__item { padding: 0.75rem 1rem; }
   }
 </style>

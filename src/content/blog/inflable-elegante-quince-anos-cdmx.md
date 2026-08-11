@@ -36,7 +36,7 @@ Las **fiestas de XV años** han evolucionado mucho en los últimos años. Ya no 
 
 La realidad es que en toda fiesta de quinceañera hay un grupo importante de niños y adolescentes que no participan del brindis ni de las tradiciones principales. Sin una actividad que los entretenga, terminan aburridos, corriendo entre las mesas o pegados al celular. Un **[castillo blanco](/inflables/castillo-blanco/) inflable** —6×5×4 m, para 8 a 10 personas desde los 3 años, **$1,700 MXN**— les da exactamente lo que necesitan: un espacio propio donde divertirse sin que los adultos tengan que supervisarlos cada segundo.
 
-> **Dato BRINCOLINS:** después de los cumpleaños infantiles, las fiestas de XV años son el tipo de evento que más atendemos. El Castillo Blanco es el modelo favorito para bodas y quinceañeras por su diseño neutro — la ficha completa está en la [guía del Castillo Blanco](/blog/renta-castillo-blanco-inflable-bodas-cdmx/).
+> **Dato BRINCOLINS:** después de los cumpleaños infantiles, las fiestas de XV años son el tipo de evento que más atendemos. El Castillo Blanco es el modelo favorito para bodas y quinceañeras por su diseño neutro — las specs están en [la ficha del Castillo Blanco](/inflables/castillo-blanco/) y el montaje de la zona infantil en la guía de [cómo diseñarla y ubicarla](/blog/renta-castillo-blanco-inflable-bodas-cdmx/).
 
 ## Por qué el castillo blanco es ideal para quinceañeras
 

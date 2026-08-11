@@ -32,7 +32,7 @@ const paquetes = [
       { text: "2 inflables a elegir del catálogo", included: true },
       { text: "Entrega, instalación y recolección", included: true },
       { text: "2 motores de inflado incluidos", included: true },
-      { text: "Limpieza y sanitización certificada", included: true },
+      { text: "Limpieza y sanitización", included: true },
       { text: "Atención por WhatsApp el día del evento", included: true },
       { text: "Coordinador logístico en sitio", included: false },
     ],
@@ -50,7 +50,7 @@ const paquetes = [
       { text: "3 a 4 inflables a elegir del catálogo", included: true },
       { text: "Entrega, instalación y recolección", included: true },
       { text: "Motores de inflado por cada inflable", included: true },
-      { text: "Limpieza y sanitización certificada", included: true },
+      { text: "Limpieza y sanitización", included: true },
       { text: "Atención por WhatsApp el día del evento", included: true },
       { text: "Coordinador logístico en sitio", included: true },
     ],
@@ -66,7 +66,7 @@ const paquetes = [
       { text: "5 o más inflables simultáneos", included: true },
       { text: "Entrega, instalación y recolección", included: true },
       { text: "Motores de inflado incluidos", included: true },
-      { text: "Limpieza y sanitización certificada", included: true },
+      { text: "Limpieza y sanitización", included: true },
       { text: "Coordinador logístico dedicado", included: true },
       { text: "Factura fiscal disponible", included: true },
     ],
@@ -151,7 +151,7 @@ const faqs = [
             Más allá de los cumpleaños infantiles, <strong>BRINCOLINS</strong> es el proveedor de confianza para organizadores de eventos profesionales en la <strong>Ciudad de México y Estado de México</strong>. Con más de dos décadas de experiencia y la capacidad logística para desplegar múltiples equipos simultáneamente, garantizamos la puntualidad, seguridad y coordinación que los <strong>eventos corporativos, kermeses escolares y ferias masivas</strong> exigen.
           </p>
           <p class="hero__copy-text">
-            Nuestros paquetes para eventos incluyen coordinador logístico en sitio, <strong>operador certificado por inflable durante todo el evento</strong>, protocolos de sanitización certificada y atención directa por WhatsApp el día del evento. Contamos con el <strong>Circuito Extremo de 7 metros</strong> — el inflable de mayor impacto para adultos y teens — y con 8 modelos en total para cubrir simultáneamente niños de todas las edades. Solicita tu cotización sin compromiso.
+            Nuestros paquetes para eventos incluyen coordinador logístico en sitio, <strong>operador dedicado por inflable durante todo el evento</strong>, protocolo de sanitización propio y atención directa por WhatsApp el día del evento. Contamos con el <strong>Circuito Extremo de 7 metros</strong> — el inflable de mayor impacto para adultos y teens — y con 8 modelos en total para cubrir simultáneamente niños de todas las edades. Solicita tu cotización sin compromiso.
           </p>
         </div>
 
@@ -351,7 +351,7 @@ const faqs = [
           <div class="ev-diff-card__icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           </div>
-          <h3 class="ev-diff-card__title">Puntualidad garantizada</h3>
+          <h3 class="ev-diff-card__title">Llegamos con antelación</h3>
           <p class="ev-diff-card__desc">Llegamos mínimo 90 minutos antes del inicio del evento para tener todos los inflables instalados, revisados y listos cuando lleguen los asistentes. Sin improvisaciones.</p>
         </div>
 
@@ -454,11 +454,9 @@ const faqs = [
 
 
 <style>
-  /* ─── Hero Eventos ───────────────────────────────────────── */
-  .ev-hero {
+  /* ─── Hero Eventos ───────────────────────────────────────── */.ev-hero {
     padding: clamp(2rem, 4vw, 3rem) 0;
-  }
-  .ev-trust {
+  }.ev-trust {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -466,42 +464,35 @@ const faqs = [
     margin-top: 1.5rem;
     padding-top: 1.25rem;
     border-top: 1px solid rgba(255,255,255,.2);
-  }
-  .ev-trust__item {
+  }.ev-trust__item {
     display: flex;
     flex-direction: column;
     gap: .1rem;
-  }
-  .ev-trust__item strong {
+  }.ev-trust__item strong {
     font-size: 1.15rem;
     font-weight: 800;
     color: #fff;
     line-height: 1;
-  }
-  .ev-trust__item span {
+  }.ev-trust__item span {
     font-size: .72rem;
     color: rgba(255,255,255,.75);
     text-transform: uppercase;
     letter-spacing: .04em;
     white-space: nowrap;
-  }
-  .ev-trust__sep {
+  }.ev-trust__sep {
     width: 1px;
     height: 2rem;
     background: rgba(255,255,255,.25);
   }
 
-  /* ─── Casos de Uso ───────────────────────────────────────── */
-  .ev-casos {
+  /* ─── Casos de Uso ───────────────────────────────────────── */.ev-casos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     margin-top: 2rem;
   }
-  @media (max-width: 768px) {
-    .ev-casos { grid-template-columns: 1fr; }
-  }
-  .ev-caso {
+  @media (max-width: 768px) {.ev-casos { grid-template-columns: 1fr; }
+  }.ev-caso {
     background: #fff;
     border: 1px solid #E5E7EB;
     border-radius: 1rem;
@@ -509,16 +500,13 @@ const faqs = [
     display: flex;
     flex-direction: column;
     gap: .85rem;
-  }
-  .ev-caso:hover {
+  }.ev-caso:hover {
     box-shadow: 0 6px 28px rgba(0,0,0,.09);
-  }
-  .ev-caso__header {
+  }.ev-caso__header {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
-  }
-  .ev-caso__icon {
+  }.ev-caso__icon {
     width: 2.75rem;
     height: 2.75rem;
     border-radius: .75rem;
@@ -526,30 +514,21 @@ const faqs = [
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-  }
-  .ev-caso__icon svg { width: 1.35rem; height: 1.35rem; }
-  .ev-caso__icon--red    { background: #FEF2F2; color: #DC2626; }
-  .ev-caso__icon--blue   { background: #EFF6FF; color: #2563EB; }
-  .ev-caso__icon--amber  { background: #FFFBEB; color: #D97706; }
-  .ev-caso__icon--green  { background: #F0FDF4; color: #16A34A; }
-  .ev-caso__title {
+  }.ev-caso__icon svg { width: 1.35rem; height: 1.35rem; }.ev-caso__icon--red    { background: #FEF2F2; color: #DC2626; }.ev-caso__icon--blue   { background: #EFF6FF; color: #2563EB; }.ev-caso__icon--amber  { background: #FFFBEB; color: #D97706; }.ev-caso__icon--green  { background: #F0FDF4; color: #16A34A; }.ev-caso__title {
     font-size: 1.1rem;
     font-weight: 700;
     color: #1A1A2E;
     margin: 0;
-  }
-  .ev-caso__tag {
+  }.ev-caso__tag {
     font-size: .78rem;
     color: #6B7280;
     margin: .15rem 0 0;
-  }
-  .ev-caso__desc {
+  }.ev-caso__desc {
     font-size: .9rem;
     color: #4B5563;
     line-height: 1.65;
     margin: 0;
-  }
-  .ev-caso__list {
+  }.ev-caso__list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -558,24 +537,20 @@ const faqs = [
     gap: .3rem;
     font-size: .83rem;
     color: #6B7280;
-  }
-  .ev-caso__list li::before {
+  }.ev-caso__list li::before {
     content: "✓ ";
     color: #16A34A;
     font-weight: 700;
-  }
-  .ev-caso__cta {
+  }.ev-caso__cta {
     font-size: .88rem;
     font-weight: 700;
     color: var(--c-primary, #FF3D00);
     text-decoration: none;
     margin-top: auto;
     padding-top: .5rem;
-  }
-  .ev-caso__cta:hover { text-decoration: underline; }
+  }.ev-caso__cta:hover { text-decoration: underline; }
 
-  /* ─── Nota de cotización ─────────────────────────────────── */
-  .ev-cotiz-nota {
+  /* ─── Nota de cotización ─────────────────────────────────── */.ev-cotiz-nota {
     display: flex;
     align-items: flex-start;
     gap: .75rem;
@@ -584,35 +559,29 @@ const faqs = [
     border-radius: .75rem;
     padding: 1.25rem 1.5rem;
     margin-top: 2rem;
-  }
-  .ev-cotiz-nota svg {
+  }.ev-cotiz-nota svg {
     width: 1.25rem;
     height: 1.25rem;
     color: #16A34A;
     flex-shrink: 0;
     margin-top: .15rem;
-  }
-  .ev-cotiz-nota p {
+  }.ev-cotiz-nota p {
     font-size: .9rem;
     color: #374151;
     line-height: 1.6;
     margin: 0;
   }
 
-  /* ─── Diferenciadores B2B Grid ───────────────────────────── */
-  .ev-diffs-grid {
+  /* ─── Diferenciadores B2B Grid ───────────────────────────── */.ev-diffs-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.25rem;
     margin-top: 2rem;
   }
-  @media (max-width: 900px) {
-    .ev-diffs-grid { grid-template-columns: repeat(2, 1fr); }
+  @media (max-width: 900px) {.ev-diffs-grid { grid-template-columns: repeat(2, 1fr); }
   }
-  @media (max-width: 580px) {
-    .ev-diffs-grid { grid-template-columns: 1fr; }
-  }
-  .ev-diff-card {
+  @media (max-width: 580px) {.ev-diffs-grid { grid-template-columns: 1fr; }
+  }.ev-diff-card {
     background: #fff;
     border: 1px solid #E5E7EB;
     border-radius: .875rem;
@@ -620,8 +589,7 @@ const faqs = [
     display: flex;
     flex-direction: column;
     gap: .6rem;
-  }
-  .ev-diff-card__icon {
+  }.ev-diff-card__icon {
     width: 2.5rem;
     height: 2.5rem;
     background: #FEF2F2;
@@ -630,31 +598,26 @@ const faqs = [
     align-items: center;
     justify-content: center;
     color: var(--c-primary, #FF3D00);
-  }
-  .ev-diff-card__icon svg { width: 1.25rem; height: 1.25rem; }
-  .ev-diff-card__title {
+  }.ev-diff-card__icon svg { width: 1.25rem; height: 1.25rem; }.ev-diff-card__title {
     font-size: 1rem;
     font-weight: 700;
     color: #1A1A2E;
     margin: 0;
-  }
-  .ev-diff-card__desc {
+  }.ev-diff-card__desc {
     font-size: .875rem;
     color: #4B5563;
     line-height: 1.6;
     margin: 0;
   }
 
-  /* ─── Proceso B2B ────────────────────────────────────────── */
-  .ev-proceso {
+  /* ─── Proceso B2B ────────────────────────────────────────── */.ev-proceso {
     display: flex;
     flex-direction: column;
     gap: 0;
     max-width: 780px;
     margin: 2rem auto 0;
     position: relative;
-  }
-  .ev-proceso::before {
+  }.ev-proceso::before {
     content: "";
     position: absolute;
     left: 1.375rem;
@@ -662,14 +625,12 @@ const faqs = [
     bottom: 2rem;
     width: 2px;
     background: linear-gradient(to bottom, var(--c-primary, #FF3D00), #E5E7EB);
-  }
-  .ev-paso {
+  }.ev-paso {
     display: flex;
     gap: 1.5rem;
     padding: 0 0 2rem;
     position: relative;
-  }
-  .ev-paso__num {
+  }.ev-paso__num {
     width: 2.75rem;
     height: 2.75rem;
     min-width: 2.75rem;
@@ -685,18 +646,15 @@ const faqs = [
     position: relative;
     z-index: 1;
     box-shadow: 0 0 0 4px #fff;
-  }
-  .ev-paso__body {
+  }.ev-paso__body {
     padding-top: .35rem;
     flex: 1;
-  }
-  .ev-paso__title {
+  }.ev-paso__title {
     font-size: 1.05rem;
     font-weight: 700;
     color: #1A1A2E;
     margin: 0 0 .4rem;
-  }
-  .ev-paso__desc {
+  }.ev-paso__desc {
     font-size: .9rem;
     color: #4B5563;
     line-height: 1.65;

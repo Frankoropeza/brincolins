@@ -42,7 +42,7 @@ En **BRINCOLINS** tenemos un catálogo diverso de inflables, pero algunos modelo
 
 ### [Gusanitos](/inflables/gusanitos/) Tropical
 
-El modelo más colorido del catálogo. El **Gusanitos** combina segmentos de verde lima, naranja intenso, amarillo sol y rojo vibrante en un circuito de túneles de 5×3×2.5 m. Pide 7×5 m de área libre, recibe de 5 a 7 niños de 4 a 10 años y cuesta **$1,350 MXN**. Al medir solo 2.5 m de alto, es uno de los dos modelos que caben bajo techo. Su ficha completa está en la [guía del inflable Gusanitos](/blog/renta-inflable-gusanitos-cdmx/).
+El modelo más colorido del catálogo. El **Gusanitos** combina segmentos de verde lima, naranja intenso, amarillo sol y rojo vibrante en un circuito de túneles de 5×3×2.5 m. Pide 7×5 m de área libre, recibe de 5 a 7 niños de 4 a 10 años y cuesta **$1,350 MXN**. Al medir solo 2.5 m de alto, es uno de los dos modelos que caben bajo techo. Sus specs están en [la ficha de Gusanitos](/inflables/gusanitos/) y por qué funciona con grupos diversos, en la guía de [fiestas con niños de edades mezcladas](/blog/renta-inflable-gusanitos-cdmx/).
 
 ### [Mini Jungla](/inflables/mini-jungla/)
 

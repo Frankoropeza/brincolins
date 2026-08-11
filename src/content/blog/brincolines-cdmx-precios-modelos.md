@@ -121,6 +121,6 @@ En un mercado con muchos proveedores, la diferencia no siempre es el precio — 
 - **Flexibilidad:** ¿Cambió tu fecha? ¿Necesitas otro modelo? Nos adaptamos sin problema ni penalizaciones.
 - **Garantía de satisfacción:** Si el inflable falla durante tu evento, lo reemplazamos o te devolvemos tu dinero.
 
-Nuestros clientes nos eligen no solo por precio, sino por la tranquilidad de saber que todo va a salir bien. Cuando contratas con **BRINCOLINS**, la diversión está garantizada.
+Nuestros clientes nos eligen no solo por precio, sino por la tranquilidad de saber que todo va a salir bien. Cuando contratas con **BRINCOLINS**, la fiesta se resuelve sola.
 
 > **Clientes que regresan:** la mayor parte de nuestras rentas llega por recomendación de familias que ya nos contrataron, no por publicidad pagada. Esa es la señal que más cuidamos. Si es tu primera vez, en las [preguntas frecuentes](/preguntas-frecuentes/) están resueltas las dudas que más nos llegan por WhatsApp.

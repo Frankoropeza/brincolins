@@ -53,7 +53,7 @@ Para fiestas de bebés (1 a 4 años) o espacios interiores, el [Mini Castillo](/
 
 ## Cuándo conviene el tobogán inflable
 
-El inflable con tobogán es el rey de las **fiestas numerosas y los espacios grandes**. El [Barco Pirata](/inflables/barco-pirata/) (7×5×4.5 m sobre 9×7 m libres, **$1,800 MXN**) es el modelo más grande del catálogo y recibe de 8 a 10 niños desde 4 años entre zona de brinco, mástil y tobogán — con 20 o más invitados, un brincolín mediano se queda corto y se forma fila. La [guía del Barco Pirata](/blog/renta-barco-pirata-inflable-grande-cdmx/) tiene sus requisitos completos de instalación.
+El inflable con tobogán es el rey de las **fiestas numerosas y los espacios grandes**. El [Barco Pirata](/inflables/barco-pirata/) (7×5×4.5 m sobre 9×7 m libres, **$1,800 MXN**) es el modelo más grande del catálogo y recibe de 8 a 10 niños desde 4 años entre zona de brinco, mástil y tobogán — con 20 o más invitados, un brincolín mediano se queda corto y se forma fila. La guía de [cómo saber si un inflable de 7 metros te cabe](/blog/renta-barco-pirata-inflable-grande-cdmx/) tiene el repaso completo de espacio, altura y acceso.
 
 Además del rendimiento, está el efecto visual: un barco de 4.5 metros de altura con velas **es la decoración de la fiesta**. Para eventos escolares y kermeses, el [Circuito Extremo](/inflables/extremo/) de 7 metros ($1,900 MXN) escala todavía más con doble carril para competencias.
 

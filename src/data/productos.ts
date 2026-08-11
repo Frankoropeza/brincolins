@@ -66,7 +66,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     relacionados: {
       copy1: "Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana.",
-      copy2: "Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza y recibe respuesta en minutos.",
+      copy2: "Todos nuestros inflables pasan por sanitización antes de cada evento. Cotiza y recibe respuesta en minutos.",
     },
     galleryImages: [
       { src: "/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif", alt: "Renta inflable Barco Pirata en CDMX - evento exterior" },
@@ -94,7 +94,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Sanitización certificada antes de cada evento", included: true },
+          { text: "Sanitización antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",
         ctaLabel: "Cotizar Barco Pirata",
@@ -125,12 +125,12 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       copy2: "Cada imagen es de un evento real en CDMX y Estado de México. El Castillo Blanco es el inflable más fotografiado de nuestro catálogo gracias a su apariencia premium que eleva la estética de cualquier celebración.",
     },
     precios: {
-      copy1: "El Castillo Blanco es un inflable premium con acabados superiores, pensado para eventos donde la estética importa tanto como la diversión. La renta incluye sanitización certificada para mantener el blanco impecable.",
+      copy1: "El Castillo Blanco es un inflable premium con acabados superiores, pensado para eventos donde la estética importa tanto como la diversión. La renta incluye sanitización para mantener el blanco impecable.",
       copy2: "Un solo precio de 4 a 6 horas de renta, con entrega, instalación profesional y recolección incluidos. Coordinamos la hora de montaje con el venue para no interferir con la logística del evento.",
     },
     relacionados: {
       copy1: "Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana.",
-      copy2: "Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza y recibe respuesta en minutos.",
+      copy2: "Todos nuestros inflables pasan por sanitización antes de cada evento. Cotiza y recibe respuesta en minutos.",
     },
     galleryImages: [
       { src: "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-decoracion.avif", alt: "Renta inflable Castillo Blanco en CDMX - bodas decoración" },
@@ -160,7 +160,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Sanitización certificada antes de cada evento", included: true },
+          { text: "Sanitización antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",
         ctaLabel: "Cotizar Castillo Blanco",
@@ -172,7 +172,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       { question: "¿Es adecuado para XV años y bautizos?", answer: "Perfecto para ambos. En quinceañeras, el Castillo Blanco se convierte en un área de diversión elegante que complementa la estética del evento. Para bautizos, su color neutro y tamaño familiar lo hacen ideal para celebraciones íntimas y formales." },
       { question: "¿Puedo decorar el Castillo Blanco?", answer: "Sí, el Castillo Blanco es un lienzo perfecto para personalizar. Puedes agregar flores, tules, globos, luces LED y letreros. Solo pedimos que la decoración no use tachuelas, grapas o cualquier elemento punzocortante que pueda dañar el material." },
       { question: "¿Qué espacio necesito para instalar el Castillo Blanco?", answer: "El Castillo Blanco mide 6×5×4 metros. Necesitas un espacio libre de al menos 7×6 metros y una toma de corriente 110V a menos de 15 metros. Se instala en pasto, concreto, loseta o tarimas de madera. La instalación toma 30 minutos." },
-      { question: "¿El color blanco se mantiene limpio?", answer: "Realizamos limpieza profunda y sanitización certificada antes de cada evento. El Castillo Blanco se entrega impecable y reluciente. Durante el evento, el material de PVC comercial es fácil de limpiar y resistente a manchas superficiales." },
+      { question: "¿El color blanco se mantiene limpio?", answer: "Realizamos limpieza profunda y sanitización antes de cada evento. El Castillo Blanco se entrega impecable y reluciente. Durante el evento, el material de PVC comercial es fácil de limpiar y resistente a manchas superficiales." },
     ],
     cards: [
       { slug: "barco-pirata", name: "Barco Pirata", description: "Aventura pirata con resbaladilla de altura.", price: "$1,800", size: "7×5×4.5m", ages: "4+ años", category: "Aventura", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
@@ -196,7 +196,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     relacionados: {
       copy1: "Complementa tu fiesta de princesas con otros inflables del catálogo. Los Dragones Rojos son perfectos si buscas una temática de aventura, la Mini Jungla para safari tropical y el Mini Castillo para los más pequeños de la fiesta.",
-      copy2: "Todos nuestros inflables incluyen sanitización certificada, entrega y motor silencioso. Cotiza varios modelos sin compromiso y arma la combinación perfecta para tu evento.",
+      copy2: "Todos nuestros inflables incluyen sanitización, entrega y motor silencioso. Cotiza varios modelos sin compromiso y arma la combinación perfecta para tu evento.",
     },
     galleryImages: [
       { src: "/img/inflables/castillo-princesas/castillo-princesas-exterior-jardin.avif", alt: "Castillo de Princesas inflable instalado en jardín exterior" },
@@ -225,7 +225,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Sanitización certificada antes de cada evento", included: true },
+          { text: "Sanitización antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",
         ctaLabel: "Cotizar Castillo de Princesas",
@@ -254,7 +254,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       },
       {
         question: "¿Qué incluye la renta del Castillo de Princesas?",
-        answer: "La renta incluye el inflable de 4 a 6 horas, motor silencioso, extensión eléctrica, entrega a domicilio, instalación profesional y retiro al finalizar. Todos los inflables pasan por sanitización certificada antes de cada evento.",
+        answer: "La renta incluye el inflable de 4 a 6 horas, motor silencioso, extensión eléctrica, entrega a domicilio, instalación profesional y retiro al finalizar. Todos los inflables pasan por sanitización antes de cada evento.",
       },
     ],
     cards: [
@@ -266,7 +266,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
   },
   "dragones-rojos": {
     title: "Renta de Dragones Rojos | El Inflable Más Rentado en CDMX",
-    description: "Renta de Dragones Rojos en CDMX y Edomex. El inflable más solicitado: alta capacidad, colores llamativos y diversión garantizada. Entrega incluida.",
+    description: "Renta de Dragones Rojos en CDMX y Edomex. El inflable más rentado del catálogo: alta capacidad, colores llamativos y entrega incluida.",
     badge: "Inflable más rentado en CDMX",
     cta: "Cotizar Dragones Rojos",
     galeria: {
@@ -279,7 +279,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     relacionados: {
       copy1: "Si el Dragones Rojos no se ajusta a lo que buscas, explora nuestro catálogo completo. El Castillo de Princesas es perfecto para fiestas de niñas, la Mini Jungla para temáticas safari y los Gusanitos para eventos tropicales al aire libre.",
-      copy2: "Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza sin compromiso y recibe respuesta en minutos — reserva con el 50% de anticipo y asegura tu fecha.",
+      copy2: "Todos nuestros inflables pasan por sanitización antes de cada evento. Cotiza sin compromiso y recibe respuesta en minutos — reserva con el 50% de anticipo y asegura tu fecha.",
     },
     galleryImages: [
       { src: "/img/inflables/dragones-rojos/castillo-dragones-exterior-jardin.avif", alt: "Inflable Dragones Rojos en jardín exterior para fiesta infantil CDMX" },
@@ -306,7 +306,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Sanitización certificada antes de cada evento", included: true },
+          { text: "Sanitización antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",
         ctaLabel: "Cotizar Dragones Rojos",
@@ -335,7 +335,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       },
       {
         question: "¿El Dragones Rojos es seguro para fiestas infantiles?",
-        answer: "Absolutamente. El inflable Dragones Rojos está fabricado con PVC de grado comercial de 18oz resistente a rasgaduras. Cuenta con mallas de seguridad en todos los costados para visibilidad total de los padres, piso acolchonado y pasa por un proceso de sanitización certificada antes de cada evento.",
+        answer: "Absolutamente. El inflable Dragones Rojos está fabricado con PVC de grado comercial de 18oz resistente a rasgaduras. Cuenta con mallas de seguridad en todos los costados para visibilidad total de los padres, piso acolchonado y pasa por un proceso de sanitización antes de cada evento.",
       },
     ],
     cards: [
@@ -360,7 +360,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     relacionados: {
       copy1: "Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana.",
-      copy2: "Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza y recibe respuesta en minutos.",
+      copy2: "Todos nuestros inflables pasan por sanitización antes de cada evento. Cotiza y recibe respuesta en minutos.",
     },
     galleryImages: [
       { src: "/img/inflables/extremo/extremo-circuito-completo.avif", alt: "Renta inflable Extremo en CDMX - circuito completo" },
@@ -390,7 +390,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Sanitización certificada antes de cada evento", included: true },
+          { text: "Sanitización antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",
         ctaLabel: "Cotizar Extremo",
@@ -426,7 +426,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     relacionados: {
       copy1: "Si buscas más opciones para tu evento, la Mini Jungla comparte la temática tropical con dinosaurios y palmeras, el Castillo de Princesas es perfecto para fiestas de niñas y los Dragones Rojos son el favorito absoluto de CDMX.",
-      copy2: "Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza sin compromiso y recibe respuesta en minutos — reserva con el 50% de anticipo para asegurar tu fecha.",
+      copy2: "Todos nuestros inflables pasan por sanitización antes de cada evento. Cotiza sin compromiso y recibe respuesta en minutos — reserva con el 50% de anticipo para asegurar tu fecha.",
     },
     galleryImages: [
       { src: "/img/inflables/gusanitos/gusanitos-brincolin-evento.avif", alt: "Brincolin Gusanitos instalado en evento infantil" },
@@ -448,7 +448,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Sanitización certificada antes de cada evento", included: true },
+          { text: "Sanitización antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",
         ctaLabel: "Cotizar Gusanitos",
@@ -502,7 +502,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     relacionados: {
       copy1: "Contamos con 8 modelos de inflables para fiestas infantiles, bodas y eventos en toda la Zona Metropolitana.",
-      copy2: "Todos nuestros inflables pasan por sanitización certificada antes de cada evento. Cotiza y recibe respuesta en minutos.",
+      copy2: "Todos nuestros inflables pasan por sanitización antes de cada evento. Cotiza y recibe respuesta en minutos.",
     },
     galleryImages: [
       { src: "/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif", alt: "Renta inflable Mini Castillo en CDMX - cumpleaños infantil" },
@@ -531,7 +531,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Sanitización certificada antes de cada evento", included: true },
+          { text: "Sanitización antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",
         ctaLabel: "Cotizar Mini Castillo",
@@ -567,7 +567,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     relacionados: {
       copy1: "Explora más opciones para tu fiesta: los Gusanitos son perfectos para temática tropical, el Castillo de Princesas para niñas, los Dragones Rojos para aventuras medievales y el Barco Pirata para grupos más grandes.",
-      copy2: "Todos los inflables incluyen sanitización certificada y motor silencioso. Cotiza varios modelos sin compromiso por WhatsApp y arma la combinación ideal para tu evento.",
+      copy2: "Todos los inflables incluyen sanitización y motor silencioso. Cotiza varios modelos sin compromiso por WhatsApp y arma la combinación ideal para tu evento.",
     },
     galleryImages: [
       { src: "/img/inflables/mini-jungla/mini-jungla-dinosaurios-palmeras.avif", alt: "Inflable Mini Jungla con dinosaurios y palmeras tropicales" },
@@ -589,7 +589,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
           { text: "Entrega a domicilio e instalación profesional", included: true },
           { text: "Motor inflador silencioso con extensión eléctrica", included: true },
           { text: "Recolección al terminar el evento", included: true },
-          { text: "Sanitización certificada antes de cada evento", included: true },
+          { text: "Sanitización antes de cada evento", included: true },
         ],
         ctaHref: "/contacto/",
         ctaLabel: "Cotizar Mini Jungla",

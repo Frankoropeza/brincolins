@@ -101,7 +101,7 @@ Los precios para bodas y quinceañeras son los mismos que para cualquier evento.
 
 - **Inflable individual (4 a 6 horas):** de $800 a $1,900 MXN según el modelo. El Castillo Blanco, que es el indicado para eventos formales, cuesta **$1,700 MXN**
 - **Horario extendido:** se cotiza según la duración real de tu evento
-- **Combo 2 inflables:** descuento del 15% sobre el precio individual de cada uno
+- **Dos inflables en el mismo evento:** se cotizan juntos; es la combinación habitual cuando hay bebés y niños grandes en la lista
 - **Paquetes de fiesta completos:** desde $4,500 MXN, con [inflable, mobiliario e iluminación](/servicios/paquetes-de-fiesta/)
 
 Todos los precios son netos y están publicados en la [página de precios](/precios/). Se agrega IVA solo si necesitas factura, y si el venue está en un municipio lejano de Edomex o en ciertas alcaldías del sur y oriente de la CDMX, se suma el cargo de envío según la distancia.

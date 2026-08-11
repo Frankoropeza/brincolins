@@ -52,57 +52,37 @@ const { inflables, caption } = Astro.props;
 </div>
 <p class="tabla-comp__nota">Precios netos por evento, con entrega, instalación y recolección incluidas. {PRICE_NOTE}.</p>
 
-<style>
-  .tabla-wrap {
+<style>.tabla-wrap {
     overflow-x: auto;
     border: 1px solid var(--border, #e2e2e6);
     border-radius: 14px;
     background: var(--surface, #fff);
-  }
-
-  .tabla-comp {
+  }.tabla-comp {
     width: 100%;
     border-collapse: collapse;
     font-size: .94rem;
     min-width: 720px;
-  }
-
-  .tabla-comp__caption {
+  }.tabla-comp__caption {
     text-align: left;
     padding: 1rem 1.15rem .25rem;
     font-weight: 700;
     color: var(--text, #1c1c22);
-  }
-
-  .tabla-comp th,
-  .tabla-comp td {
+  }.tabla-comp th,.tabla-comp td {
     padding: .8rem 1.15rem;
     text-align: left;
     border-bottom: 1px solid var(--border, #e2e2e6);
     vertical-align: middle;
-  }
-
-  .tabla-comp thead th {
+  }.tabla-comp thead th {
     font-size: .78rem;
     text-transform: uppercase;
     letter-spacing: .05em;
     color: var(--text-muted, #5a5a66);
     background: var(--surface-alt, #f7f7f9);
     white-space: nowrap;
-  }
-
-  .tabla-comp tbody th {
+  }.tabla-comp tbody th {
     font-weight: 700;
     white-space: nowrap;
-  }
-
-  .tabla-comp tbody tr:last-child th,
-  .tabla-comp tbody tr:last-child td { border-bottom: 0; }
-
-  .tabla-comp a { text-decoration: none; }
-  .tabla-comp a:hover { text-decoration: underline; }
-
-  .tabla-comp__nota {
+  }.tabla-comp tbody tr:last-child th,.tabla-comp tbody tr:last-child td { border-bottom: 0; }.tabla-comp a { text-decoration: none; }.tabla-comp a:hover { text-decoration: underline; }.tabla-comp__nota {
     margin: .75rem 0 0;
     font-size: .88rem;
     color: var(--text-muted, #5a5a66);

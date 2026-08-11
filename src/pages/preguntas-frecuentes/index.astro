@@ -71,13 +71,13 @@ const categorias = [
     id: "seguridad",
     badge: "Seguridad",
     titulo: "Seguridad, Limpieza y Seguro",
-    subtitle: "Sanitización certificada, anclajes verificados y reglas de uso.",
-    copy1: "La seguridad es el diferencial más importante entre una empresa establecida y un proveedor informal. Cada inflable BRINCOLINS pasa por sanitización certificada y se instala con anclajes verificados.",
-    copy2: "Para kermeses y eventos escolares incluimos operador certificado que gestiona filas, turnos por edad y seguridad durante todo el evento. Lee también nuestra guía de seguridad en inflables para saber qué revisar en cualquier proveedor.",
+    subtitle: "Sanitización antes de cada evento, anclajes verificados y reglas de uso.",
+    copy1: "La seguridad es el diferencial más importante entre una empresa establecida y un proveedor informal. Cada inflable BRINCOLINS pasa por sanitización y se instala con anclajes verificados.",
+    copy2: "Para kermeses y eventos escolares incluimos un operador dedicado que gestiona filas, turnos por edad y seguridad durante todo el evento. Lee también nuestra guía de seguridad en inflables para saber qué revisar en cualquier proveedor.",
     faqs: [
       { question: "¿Los inflables son seguros para los niños?", answer: "Sí. Están fabricados con materiales de grado comercial, tienen mallas de seguridad laterales y se instalan con anclajes verificados por nuestro equipo. Recomendamos siempre la supervisión de un adulto y separar turnos por edades." },
-      { question: "¿Cómo limpian y desinfectan los inflables?", answer: "Cada inflable pasa por un protocolo de sanitización certificado antes de cada evento: limpieza profunda, desinfección con productos seguros para niños y revisión de costuras, mallas y anclajes. El inflable llega limpio y revisado a tu fiesta." },
-      { question: "¿Incluyen operador durante el evento?", answer: "Los paquetes de kermeses, eventos escolares y corporativos incluyen operador certificado que gestiona filas, turnos y seguridad durante todo el evento. Para fiestas particulares el operador es opcional; pídelo al cotizar." },
+      { question: "¿Cómo limpian y desinfectan los inflables?", answer: "Cada inflable pasa por nuestro protocolo de sanitización antes de cada evento: limpieza profunda, desinfección con productos seguros para niños y revisión de costuras, mallas y anclajes. El inflable llega limpio y revisado a tu fiesta." },
+      { question: "¿Incluyen operador durante el evento?", answer: "Los paquetes de kermeses, eventos escolares y corporativos incluyen un operador dedicado que gestiona filas, turnos y seguridad durante todo el evento. Para fiestas particulares el operador es opcional; pídelo al cotizar." },
       { question: "¿Cuántos niños pueden usar el inflable a la vez?", answer: "Depende del modelo: el Mini Castillo admite 3-4 niños pequeños, los medianos 5-7 niños, el Barco Pirata 8-10 y el Circuito Extremo 6-10 en formato de carrera por doble carril. Respetar la capacidad es clave para la seguridad; el rango exacto viene en la página de cada inflable." },
     ],
   },
@@ -196,15 +196,12 @@ const allFaqs = categorias.flatMap(c => c.faqs);
   <WaBubble whatsapp={WHATSAPP} />
 </BaseLayout>
 
-<style>
-  .recurso-card { text-decoration: none; display: block; }
-  .recurso-link {
+<style>.recurso-card { text-decoration: none; display: block; }.recurso-link {
     display: inline-block;
     margin-top: .5rem;
     font-family: var(--font-head);
     font-weight: 700;
     font-size: .85rem;
     color: var(--c-primary);
-  }
-  .recurso-card:hover .recurso-link { text-decoration: underline; }
+  }.recurso-card:hover .recurso-link { text-decoration: underline; }
 </style>

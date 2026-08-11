@@ -34,7 +34,7 @@ const alcaldias = [
   { slug: "azcapotzalco",         emoji: "", name: "Azcapotzalco",          description: "Cobertura total en Del Gas, Clavería, Pasteros y colonias industriales de Azcapotzalco.",           colonias: ["Del Gas", "Clavería", "Pasteros", "Santa Bárbara"],         gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)" },
   { slug: "benito-juarez",        emoji: "", name: "Benito Juárez",          description: "Zona más solicitada. Del Valle, Narvarte, Nápoles y Portales con entrega sin costo adicional.",    colonias: ["Del Valle", "Narvarte", "Nápoles", "Portales"],             gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)" },
   { slug: "coyoacan",             emoji: "", name: "Coyoacán",               description: "Renta de inflables en Coyoacán Centro, Pedregal, Villa Coapa, Copilco y colonias aledañas.",        colonias: ["Coyoacán Centro", "Pedregal", "Villa Coapa", "Copilco"],    gradient: "linear-gradient(135deg, #2E7D32, #00C853)" },
-  { slug: "cuajimalpa",           emoji: "", name: "Cuajimalpa",             description: "Cubrimos Santa Fe, Cuajimalpa Centro, Contadero y El Molinito con puntualidad garantizada.",        colonias: ["Santa Fe", "Cuajimalpa Centro", "Contadero", "El Molinito"], gradient: "linear-gradient(135deg, #00796B, #009688)" },
+  { slug: "cuajimalpa",           emoji: "", name: "Cuajimalpa",             description: "Cubrimos Santa Fe, Cuajimalpa Centro, Contadero y El Molinito con entrega a la hora acordada.",        colonias: ["Santa Fe", "Cuajimalpa Centro", "Contadero", "El Molinito"], gradient: "linear-gradient(135deg, #00796B, #009688)" },
   { slug: "cuauhtemoc",           emoji: "", name: "Cuauhtémoc",            description: "Centro Histórico, Roma, Condesa y Juárez: entrega rápida en el corazón de la Ciudad de México.",   colonias: ["Centro Histórico", "Roma Norte", "Condesa", "Juárez"],      gradient: "linear-gradient(135deg, #B71C1C, #E53935)" },
   { slug: "gustavo-a-madero",     emoji: "", name: "Gustavo A. Madero",      description: "Inflables en Lindavista, Vallejo, Tepeyac, La Villa y toda la alcaldía de GAM.",                   colonias: ["Lindavista", "Vallejo", "Tepeyac", "Aragón"],               gradient: "linear-gradient(135deg, #E65100, #FF6F00)" },
   { slug: "iztacalco",            emoji: "", name: "Iztacalco",              description: "Entrega en Pantitlán, Agrícola Oriental, Granjas México y colonias de Iztacalco.",                  colonias: ["Pantitlán", "Agrícola Oriental", "Granjas México", "Viaducto"], gradient: "linear-gradient(135deg, #0288D1, #01579B)" },
@@ -121,8 +121,7 @@ const schemaLD = {
   "provider": { "@id": `${SITE_URL}/#org` },
   "areaServed": zonasReales.map(z => ({
     "@type": z.areaType ?? "AdministrativeArea",
-    "name":  nombreDe(z),
-    ...(z.areaParent ? { "containedInPlace": { "@type": "State", "name": z.areaParent } } : {}),
+    "name":  nombreDe(z),...(z.areaParent ? { "containedInPlace": { "@type": "State", "name": z.areaParent } } : {}),
   })),
   "serviceType": "Renta de inflables para fiestas a domicilio",
   "description": "Entregamos e instalamos inflables en las 16 alcaldías de CDMX y 15 municipios del Estado de México. Envío incluido en las alcaldías centrales y en Naucalpan; en el resto aplica un cargo por distancia de $100 a $600.",

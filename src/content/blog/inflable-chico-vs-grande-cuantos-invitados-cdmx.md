@@ -40,7 +40,7 @@ faqs:
 
 ## Hasta 8 invitados: no pagues de más
 
-Con pocos niños, el inflable grande es dinero desperdiciado. Si son bebés de 1 a 4 años, el **Mini Castillo ($800 MXN)** es la elección obvia — cabe hasta en interiores, con 3×3 m de área y 3.2 m de altura libre. Es el modelo que desglosamos en la [guía del Mini Castillo para bebés](/blog/renta-mini-castillo-inflable-bebes-cdmx/). Si son de 4 a 10 años, un mediano desde $1,200 MXN les da temática y resbaladilla sin que sobre espacio.
+Con pocos niños, el inflable grande es dinero desperdiciado. Si son bebés de 1 a 4 años, el **Mini Castillo ($800 MXN)** es la elección obvia — cabe hasta en interiores, con 3×3 m de área y 3.2 m de altura libre. Es el modelo que usamos en la guía para organizar el [primer cumpleaños](/blog/renta-mini-castillo-inflable-bebes-cdmx/). Si son de 4 a 10 años, un mediano desde $1,200 MXN les da temática y resbaladilla sin que sobre espacio.
 
 ## 8 a 15 invitados: el punto dulce del mediano
 

@@ -325,7 +325,7 @@ export const CATEGORIAS: Categoria[] = [
     ],
     productos: ["mini-castillo", "dragones-rojos", "castillo-princesas", "mini-jungla", "gusanitos", "castillo-blanco", "barco-pirata", "extremo"],
     faqs: [
-      { question: "¿Qué incluye la renta de un brincolín?", answer: "Entrega a domicilio, instalación profesional, motor inflador, sanitización certificada antes del evento y recolección al finalizar. El precio publicado es neto: si necesitas factura se agrega el 16% de IVA, y en municipios distantes del Estado de México aplica un cargo de envío que te indicamos al cotizar." },
+      { question: "¿Qué incluye la renta de un brincolín?", answer: "Entrega a domicilio, instalación profesional, motor inflador, sanitización antes del evento y recolección al finalizar. El precio publicado es neto: si necesitas factura se agrega el 16% de IVA, y en municipios distantes del Estado de México aplica un cargo de envío que te indicamos al cotizar." },
       { question: "¿Cuánto tiempo dura la renta de un brincolín?", answer: "La renta estándar cubre el evento completo, de 4 a 6 horas. Llegamos a instalar con anticipación y recogemos al terminar. Si necesitas más horas, se cotiza la extensión por WhatsApp antes de apartar la fecha." },
       { question: "¿Cuál es la diferencia entre un brincolín y un inflable?", answer: "Ninguna en la práctica: en México se usan como sinónimos, junto con castillo inflable y saltarín. Técnicamente un brincolín de resorte es un trampolín de estructura metálica, que es un producto distinto y que nosotros no rentamos. Todo nuestro catálogo es de inflables de aire continuo." },
       { question: "¿Con cuánta anticipación debo apartar un brincolín?", answer: "En temporada alta —fines de semana de mayo a diciembre— recomendamos apartar con dos o tres semanas. Para apartar la fecha se requiere un anticipo del 50%; el saldo se liquida el día del evento antes de la instalación." },
@@ -451,9 +451,7 @@ export function getCategoria(slug: string): Categoria | undefined {
 /** Los inflables de una categoría, resueltos contra el catálogo canónico
     y en el orden declarado en `productos`. */
 export function inflablesDeCategoria(cat: Categoria): Inflable[] {
-  return cat.productos
-    .map((slug) => INFLABLES.find((i) => i.slug === slug))
-    .filter((i): i is Inflable => Boolean(i) && i!.active);
+  return cat.productos.map((slug) => INFLABLES.find((i) => i.slug === slug)).filter((i): i is Inflable => Boolean(i) && i!.active);
 }
 
 /** Categorías en las que aparece un inflable. Alimenta el bloque
@@ -517,9 +515,7 @@ export function categoriasParaZona(zoneSlug: string): Categoria[] {
   const rotativas = ["grandes", "chicos", "para-adultos", "para-interiores", "toboganes", "medianos"];
   const hash      = [...zoneSlug].reduce((a, c) => a + c.charCodeAt(0), 0);
   const elegida   = rotativas[hash % rotativas.length];
-  return [...fijas, elegida]
-    .map((s) => getCategoria(s))
-    .filter((c): c is Categoria => Boolean(c));
+  return [...fijas, elegida].map((s) => getCategoria(s)).filter((c): c is Categoria => Boolean(c));
 }
 
 /** Anchor localizado: "inflables para niños en Coyoacán". */

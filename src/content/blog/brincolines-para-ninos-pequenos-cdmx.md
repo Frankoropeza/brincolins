@@ -68,7 +68,7 @@ La seguridad es la preocupación número uno de cualquier papá, y con razón. L
 
 En **BRINCOLINS** hemos seleccionado cuidadosamente los modelos que mejor se adaptan a las necesidades de los niños más pequeños. Cada uno tiene características específicas que lo hacen ideal para cierto tipo de evento y rango de edad.
 
-El **Mini Castillo** es el modelo que más rentamos para primeros cumpleaños. Mide 2×2×2.5 m, pide 3×3 m de área libre, recibe de 3 a 4 niños de 1 a 4 años y cuesta **$800 MXN**. Las paredes altas con malla transparente, el piso extra acolchado y la rampa de entrada suave lo convierten en el modelo más seguro del catálogo para bebés. La guía completa está en [renta de Mini Castillo para bebés](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
+El **Mini Castillo** es el modelo que más rentamos para primeros cumpleaños. Mide 2×2×2.5 m, pide 3×3 m de área libre, recibe de 3 a 4 niños de 1 a 4 años y cuesta **$800 MXN**. Las paredes altas con malla transparente, el piso extra acolchado y la rampa de entrada suave lo convierten en el modelo más seguro del catálogo para bebés. Las specs y la disponibilidad están en [la ficha del Mini Castillo](/inflables/mini-castillo/), y cómo se planea la fiesta completa en la guía del [primer cumpleaños](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
 
 La **Mini Jungla** funciona desde los 3 años. Mide 4.5×4×3.5 m, pide 6.5×6 m de área, recibe de 5 a 7 niños y cuesta **$1,300 MXN**. Con temática de selva y elementos interactivos, no solo permite brincar sino explorar.
 

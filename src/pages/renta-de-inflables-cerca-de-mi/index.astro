@@ -263,21 +263,16 @@ const serviceSchema = {
 </PageLayout>
 
 <style>
-  /* ── Pasos ── */
-  .cerca-pasos {
+  /* ── Pasos ── */.cerca-pasos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.25rem;
-  }
-
-  .cerca-paso {
+  }.cerca-paso {
     padding: 1.5rem 1.25rem;
     border: 1px solid var(--c-border);
     border-radius: 14px;
     background: #fff;
-  }
-
-  .cerca-paso__num {
+  }.cerca-paso__num {
     display: grid;
     place-items: center;
     width: 36px;
@@ -288,49 +283,37 @@ const serviceSchema = {
     color: #fff;
     font-family: var(--font-head);
     font-weight: 800;
-  }
-
-  .cerca-paso__title {
+  }.cerca-paso__title {
     font-family: var(--font-head);
     font-weight: 700;
     font-size: 1rem;
     margin: 0 0 .4rem;
     color: var(--c-text);
-  }
-
-  .cerca-paso__desc {
+  }.cerca-paso__desc {
     margin: 0;
     font-size: .9rem;
     line-height: 1.6;
     color: var(--c-text-muted);
   }
 
-  /* ── Zonas ── */
-  .cerca-zonas__title {
+  /* ── Zonas ── */.cerca-zonas__title {
     font-family: var(--font-head);
     font-weight: 800;
     font-size: 1.15rem;
     margin: 2rem 0 .3rem;
     color: var(--c-text);
-  }
-  .cerca-zonas__title:first-of-type { margin-top: 0; }
-
-  .cerca-zonas__note {
+  }.cerca-zonas__title:first-of-type { margin-top: 0; }.cerca-zonas__note {
     margin: 0 0 1rem;
     font-size: .9rem;
     color: var(--c-text-muted);
-  }
-
-  .cerca-zonas {
+  }.cerca-zonas {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: .6rem;
     list-style: none;
     margin: 0 0 1.5rem;
     padding: 0;
-  }
-
-  .cerca-zona {
+  }.cerca-zona {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -342,19 +325,14 @@ const serviceSchema = {
     background: #fff;
     text-decoration: none;
     transition: border-color .15s ease, transform .15s ease;
-  }
-  .cerca-zona:hover {
+  }.cerca-zona:hover {
     border-color: var(--c-primary);
     transform: translateY(-1px);
-  }
-
-  .cerca-zona__name {
+  }.cerca-zona__name {
     font-weight: 600;
     font-size: .92rem;
     color: var(--c-text);
-  }
-
-  .cerca-zona__fee {
+  }.cerca-zona__fee {
     flex-shrink: 0;
     font-size: .78rem;
     font-weight: 700;
@@ -362,27 +340,19 @@ const serviceSchema = {
     border-radius: 999px;
     background: #FFF1E6;
     color: #A34700; /* 5.4:1 sobre #FFF1E6 */
-  }
-
-  .cerca-zona__fee--free {
+  }.cerca-zona__fee--free {
     background: #E8F8EE;
     color: #0B7A3B; /* 5.6:1 sobre #E8F8EE */
-  }
-
-  .cerca-zonas__foot {
+  }.cerca-zonas__foot {
     margin: 1.25rem 0 0;
     font-size: .95rem;
     line-height: 1.7;
     color: var(--c-text-muted);
-  }
-  .cerca-zonas__foot a { color: var(--c-primary-text); font-weight: 600; }
+  }.cerca-zonas__foot a { color: var(--c-primary-text); font-weight: 600; }
 
-  @media (max-width: 900px) {
-    .cerca-pasos { grid-template-columns: repeat(2, 1fr); }
+  @media (max-width: 900px) {.cerca-pasos { grid-template-columns: repeat(2, 1fr); }
   }
 
-  @media (max-width: 560px) {
-    .cerca-pasos { grid-template-columns: 1fr; }
-    .cerca-zonas { grid-template-columns: 1fr; }
+  @media (max-width: 560px) {.cerca-pasos { grid-template-columns: 1fr; }.cerca-zonas { grid-template-columns: 1fr; }
   }
 </style>

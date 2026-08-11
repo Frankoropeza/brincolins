@@ -140,7 +140,7 @@ Aunque no forma parte del checklist de 30 puntos, lo que se documenta después d
 
 La distribución espacial de los inflables es el factor logístico que más determina el éxito o fracaso de la kermesse. El objetivo es que todos los alumnos de todos los grados puedan disfrutar los inflables sin esperar más de 20 minutos, independientemente del tamaño de la escuela.
 
-**Sistema de rotación por grado:** en lugar de acceso libre, asigna franjas horarias a cada grado. Por ejemplo: 10:00-10:30 — 1° y 2° de primaria; 10:30-11:00 — 3° y 4°; 11:00-11:30 — 5° y 6°. Este sistema distribuye la demanda en el tiempo y garantiza que cada grupo tenga acceso garantizado. Los maestros pueden llevar a sus alumnos en grupo ordenado, lo que también facilita la supervisión.
+**Sistema de rotación por grado:** en lugar de acceso libre, asigna franjas horarias a cada grado. Por ejemplo: 10:00-10:30 — 1° y 2° de primaria; 10:30-11:00 — 3° y 4°; 11:00-11:30 — 5° y 6°. Este sistema distribuye la demanda en el tiempo y garantiza que cada grupo tenga su turno. Los maestros pueden llevar a sus alumnos en grupo ordenado, lo que también facilita la supervisión.
 
 **Asignación de inflable por rango de edad:** si tienes múltiples inflables, asigna cada uno a un rango de edad específico. El Castillo Princesas para preescolar y primaria baja, el Barco Pirata para primaria media, el Extremo para primaria alta y secundaria. Esto reduce el conflicto entre alumnos de diferentes edades y garantiza que cada grupo tenga una opción diseñada para su nivel. También hace que los papás que acompañan a sus hijos más pequeños no tengan que competir con adolescentes por el espacio.
 

@@ -207,33 +207,23 @@ const COPY = {
 </script>
 
 <style>
-  /* ── Grid principal ── */
-  .pfaq {
+  /* ── Grid principal ── */.pfaq {
     /* .container ya da max-width y padding lateral */
-  }
-
-  .pfaq__grid {
+  }.pfaq__grid {
     display: grid;
     grid-template-columns: 1fr 380px;
     gap: 4rem;
     align-items: start;
   }
 
-  /* ── Columna FAQ ── */
-  .pfaq__faq-col {
+  /* ── Columna FAQ ── */.pfaq__faq-col {
     display: flex;
     flex-direction: column;
-  }
-
-  .pfaq__item {
+  }.pfaq__item {
     border-bottom: 1px solid var(--c-border, #e2e8f0);
-  }
-
-  .pfaq__item:first-child {
+  }.pfaq__item:first-child {
     border-top: 1px solid var(--c-border, #e2e8f0);
-  }
-
-  .pfaq__q {
+  }.pfaq__q {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -242,11 +232,7 @@ const COPY = {
     list-style: none;
     user-select: none;
     transition: background 0.15s;
-  }
-
-  .pfaq__q::-webkit-details-marker { display: none; }
-
-  .pfaq__num {
+  }.pfaq__q::-webkit-details-marker { display: none; }.pfaq__num {
     font-family: var(--font-head);
     font-size: 0.7rem;
     font-weight: 800;
@@ -258,9 +244,7 @@ const COPY = {
     min-width: 1.75rem;
     flex-shrink: 0;
     transition: opacity 0.15s;
-  }
-
-  .pfaq__qtext {
+  }.pfaq__qtext {
     flex: 1;
     font-family: var(--font-head);
     font-size: 0.9375rem;
@@ -268,9 +252,7 @@ const COPY = {
     color: var(--c-text, #0f172a);
     line-height: 1.4;
     transition: color 0.15s;
-  }
-
-  .pfaq__chevron {
+  }.pfaq__chevron {
     flex-shrink: 0;
     color: var(--c-text-muted, #64748b);
     display: flex;
@@ -278,15 +260,10 @@ const COPY = {
     transition: transform 0.25s ease, color 0.15s;
   }
 
-  /* Estado abierto */
-  .pfaq__item[open] .pfaq__num    { opacity: 1; }
-  .pfaq__item[open] .pfaq__qtext  { color: var(--c-primary, #FF3D00); }
-  .pfaq__item[open] .pfaq__chevron {
+  /* Estado abierto */.pfaq__item[open] .pfaq__num    { opacity: 1; }.pfaq__item[open] .pfaq__qtext  { color: var(--c-primary, #FF3D00); }.pfaq__item[open] .pfaq__chevron {
     transform: rotate(180deg);
     color: var(--c-primary, #FF3D00);
-  }
-
-  .pfaq__a {
+  }.pfaq__a {
     padding: 0 0.25rem 1.25rem calc(1.75rem + 1rem);
     animation: pfaq-in 0.2s ease both;
   }
@@ -294,23 +271,19 @@ const COPY = {
   @keyframes pfaq-in {
     from { opacity: 0; transform: translateY(-4px); }
     to   { opacity: 1; transform: translateY(0); }
-  }
-
-  .pfaq__a p {
+  }.pfaq__a p {
     margin: 0;
     font-size: 0.9rem;
     line-height: 1.8;
     color: var(--c-text-muted, #475569);
   }
 
-  /* ── Columna formulario ── */
-  .pfaq__form-col {
+  /* ── Columna formulario ── */.pfaq__form-col {
     position: sticky;
     top: calc(var(--header-height, 70px) + 1.5rem);
   }
 
-  /* Tarjeta */
-  .pfaq__card {
+  /* Tarjeta */.pfaq__card {
     border-radius: 16px;
     overflow: hidden;
     box-shadow:
@@ -320,24 +293,19 @@ const COPY = {
     border: 1px solid rgba(0,0,0,0.05);
   }
 
-  /* Cabecera dark */
-  .pfaq__card-head {
+  /* Cabecera dark */.pfaq__card-head {
     position: relative;
     background: #0f172a;
     padding: 1.75rem 1.5rem 1.5rem;
     overflow: hidden;
-  }
-
-  .pfaq__card-head::before {
+  }.pfaq__card-head::before {
     content: '';
     position: absolute;
     inset-block-start: 0;
     left: 0; right: 0;
     height: 3px;
     background: linear-gradient(90deg, #FF3D00 0%, #FF6B00 100%);
-  }
-
-  .pfaq__card-eyebrow {
+  }.pfaq__card-eyebrow {
     display: inline-block;
     font-size: 0.68rem;
     font-weight: 700;
@@ -345,98 +313,74 @@ const COPY = {
     text-transform: uppercase;
     color: rgba(255,255,255,0.45);
     margin-bottom: 0.5rem;
-  }
-
-  .pfaq__card-title {
+  }.pfaq__card-title {
     font-family: var(--font-head);
     font-size: 1.2rem;
     font-weight: 800;
     color: #fff;
     margin: 0 0 0.5rem;
     line-height: 1.25;
-  }
-
-  .pfaq__card-desc {
+  }.pfaq__card-desc {
     font-size: 0.8rem;
     color: rgba(255,255,255,0.6);
     line-height: 1.65;
     margin: 0 0 1.25rem;
   }
 
-  /* Stats bar */
-  .pfaq__stats {
+  /* Stats bar */.pfaq__stats {
     display: flex;
     align-items: center;
     gap: 0;
     padding-top: 1rem;
     border-top: 1px solid rgba(255,255,255,0.07);
-  }
-
-  .pfaq__stat {
+  }.pfaq__stat {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.15rem;
     text-align: center;
-  }
-
-  .pfaq__stat strong {
+  }.pfaq__stat strong {
     font-family: var(--font-head);
     font-size: 0.875rem;
     font-weight: 800;
     color: #fff;
     line-height: 1;
-  }
-
-  .pfaq__stat span {
+  }.pfaq__stat span {
     font-size: 0.62rem;
     color: rgba(255,255,255,0.4);
     text-transform: uppercase;
     letter-spacing: 0.04em;
-  }
-
-  .pfaq__stat-sep {
+  }.pfaq__stat-sep {
     width: 1px;
     height: 2rem;
     background: rgba(255,255,255,0.1);
     flex-shrink: 0;
   }
 
-  /* Cuerpo blanco */
-  .pfaq__card-body {
+  /* Cuerpo blanco */.pfaq__card-body {
     background: #fff;
     padding: 1.5rem;
   }
 
-  /* Formulario */
-  .pfaq-form {
+  /* Formulario */.pfaq-form {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-  }
-
-  .pfaq-form__row {
+  }.pfaq-form__row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.75rem;
-  }
-
-  .pfaq-form__group {
+  }.pfaq-form__group {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
-  }
-
-  .pfaq-form__label {
+  }.pfaq-form__label {
     font-size: 0.74rem;
     font-weight: 600;
     color: var(--c-text, #0f172a);
     letter-spacing: 0.01em;
-  }
-
-  .pfaq-form__input,
-  .pfaq-form__select {
+  }.pfaq-form__input,.pfaq-form__select {
     width: 100%;
     padding: 0.625rem 0.875rem;
     border: 1.5px solid var(--c-border, #e2e8f0);
@@ -449,26 +393,17 @@ const COPY = {
     line-height: 1.4;
     appearance: none;
     -webkit-appearance: none;
-  }
-
-  .pfaq-form__input::placeholder { color: #94a3b8; }
-
-  .pfaq-form__input:focus,
-  .pfaq-form__select:focus {
+  }.pfaq-form__input::placeholder { color: #94a3b8; }.pfaq-form__input:focus,.pfaq-form__select:focus {
     outline: none;
     border-color: var(--c-primary, #FF3D00);
     box-shadow: 0 0 0 3px rgba(255,61,0,0.1);
-  }
-
-  .pfaq-form__select {
+  }.pfaq-form__select {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%2394a3b8'%3E%3Cpath fill-rule='evenodd' d='M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z' clip-rule='evenodd'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 0.75rem center;
     background-size: 1.1rem;
     padding-right: 2.25rem;
-  }
-
-  .pfaq-form__submit {
+  }.pfaq-form__submit {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -487,17 +422,12 @@ const COPY = {
     margin-top: 0.25rem;
     letter-spacing: 0.01em;
     box-shadow: 0 4px 12px rgba(34,197,94,0.3);
-  }
-
-  .pfaq-form__submit:hover {
+  }.pfaq-form__submit:hover {
     background: #126634;
     box-shadow: 0 6px 16px rgba(34,197,94,0.35);
-  }
+  }.pfaq-form__submit:active { transform: scale(0.98); }
 
-  .pfaq-form__submit:active { transform: scale(0.98); }
-
-  /* Trust signals */
-  .pfaq-trust {
+  /* Trust signals */.pfaq-trust {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -508,9 +438,7 @@ const COPY = {
     margin-top: 1rem;
     padding-top: 0.875rem;
     border-top: 1px solid var(--c-border, #e2e8f0);
-  }
-
-  .pfaq-trust__item {
+  }.pfaq-trust__item {
     display: flex;
     align-items: center;
     white-space: nowrap;
@@ -519,25 +447,19 @@ const COPY = {
     color: var(--c-text-muted, #64748b);
     line-height: 1.3;
     white-space: nowrap;
-  }
-
-  .pfaq-trust__item svg { color: #22c55e; flex-shrink: 0; }
+  }.pfaq-trust__item svg { color: #22c55e; flex-shrink: 0; }
 
   /* ── Responsive ── */
-  @media (max-width: 1100px) {
-    .pfaq__grid {
+  @media (max-width: 1100px) {.pfaq__grid {
       grid-template-columns: 1fr 340px;
       gap: 3rem;
     }
   }
 
-  @media (max-width: 860px) {
-    .pfaq__grid {
+  @media (max-width: 860px) {.pfaq__grid {
       grid-template-columns: 1fr;
       gap: 2.5rem;
-    }
-
-    .pfaq__form-col {
+    }.pfaq__form-col {
       position: static;
       max-width: 520px;
       margin: 0 auto;
@@ -545,10 +467,7 @@ const COPY = {
     }
   }
 
-  @media (max-width: 520px) {
-    .pfaq-form__row { grid-template-columns: 1fr; }
-
-    .pfaq-trust {
+  @media (max-width: 520px) {.pfaq-form__row { grid-template-columns: 1fr; }.pfaq-trust {
       flex-wrap: wrap;
       justify-content: flex-start;
       gap: 0.5rem 1rem;

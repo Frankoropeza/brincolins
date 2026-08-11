@@ -54,100 +54,66 @@ const { title, description, h1, intro, updated, updatedText, crumb } = Astro.pro
   </section>
 </PageLayout>
 
-<style>
-  .legal__wrap { max-width: 780px; }
-
-  .legal__head {
+<style>.legal__wrap { max-width: 780px; }.legal__head {
     padding-bottom: 1.75rem;
     margin-bottom: 2.25rem;
     border-bottom: 1px solid var(--c-border);
-  }
-
-  .legal__title {
+  }.legal__title {
     font-family: var(--font-head);
     font-weight: 800;
     font-size: clamp(1.9rem, 4vw, 2.6rem);
     line-height: 1.15;
     margin: 0 0 .85rem;
     color: var(--c-text);
-  }
-
-  .legal__intro {
+  }.legal__intro {
     font-size: 1.05rem;
     line-height: 1.7;
     color: var(--c-text-muted);
     margin: 0 0 1rem;
-  }
-
-  .legal__updated {
+  }.legal__updated {
     font-size: .85rem;
     color: var(--c-text-muted);
     margin: 0;
-  }
-
-  .legal__body { font-size: 1rem; line-height: 1.75; color: var(--c-text); }
-
-  .legal__body :global(h2) {
+  }.legal__body { font-size: 1rem; line-height: 1.75; color: var(--c-text); }.legal__body :global(h2) {
     font-family: var(--font-head);
     font-weight: 800;
     font-size: 1.3rem;
     line-height: 1.3;
     margin: 2.5rem 0 .85rem;
     color: var(--c-text);
-  }
-
-  .legal__body :global(h3) {
+  }.legal__body :global(h3) {
     font-family: var(--font-head);
     font-weight: 700;
     font-size: 1.05rem;
     margin: 1.75rem 0 .6rem;
     color: var(--c-text);
-  }
-
-  .legal__body :global(p)  { margin: 0 0 1.1rem; }
-  .legal__body :global(ul),
-  .legal__body :global(ol) { margin: 0 0 1.1rem; padding-left: 1.35rem; }
-  .legal__body :global(li) { margin-bottom: .5rem; }
-
-  .legal__body :global(a) {
+  }.legal__body :global(p)  { margin: 0 0 1.1rem; }.legal__body :global(ul),.legal__body :global(ol) { margin: 0 0 1.1rem; padding-left: 1.35rem; }.legal__body :global(li) { margin-bottom: .5rem; }.legal__body :global(a) {
     color: var(--c-primary-text);
     font-weight: 600;
-  }
-
-  .legal__body :global(strong) { font-weight: 700; }
+  }.legal__body :global(strong) { font-weight: 700; }
 
   /* Bloque destacado para lo que el cliente más busca:
-     cuánto pierde si cancela, cómo ejercer sus derechos. */
-  .legal__body :global(.legal-key) {
+     cuánto pierde si cancela, cómo ejercer sus derechos. */.legal__body :global(.legal-key) {
     margin: 1.5rem 0;
     padding: 1.1rem 1.25rem;
     border-left: 4px solid var(--c-primary);
     border-radius: 0 10px 10px 0;
     background: #FFF6F3;
-  }
-  .legal__body :global(.legal-key p:last-child) { margin-bottom: 0; }
-
-  .legal__body :global(table) {
+  }.legal__body :global(.legal-key p:last-child) { margin-bottom: 0; }.legal__body :global(table) {
     width: 100%;
     border-collapse: collapse;
     margin: 0 0 1.4rem;
     font-size: .95rem;
-  }
-  .legal__body :global(th),
-  .legal__body :global(td) {
+  }.legal__body :global(th),.legal__body :global(td) {
     padding: .7rem .8rem;
     text-align: left;
     border-bottom: 1px solid var(--c-border);
-  }
-  .legal__body :global(th) {
+  }.legal__body :global(th) {
     font-family: var(--font-head);
     font-weight: 700;
     background: var(--c-bg-alt);
   }
 
-  @media (max-width: 640px) {
-    .legal__body :global(table) { font-size: .875rem; }
-    .legal__body :global(th),
-    .legal__body :global(td) { padding: .55rem .5rem; }
+  @media (max-width: 640px) {.legal__body :global(table) { font-size: .875rem; }.legal__body :global(th),.legal__body :global(td) { padding: .55rem .5rem; }
   }
 </style>

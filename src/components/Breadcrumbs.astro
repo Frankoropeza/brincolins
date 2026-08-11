@@ -44,20 +44,15 @@ const { items } = Astro.props;
   </div>
 </nav>
 
-<style>
-  .crumbs {
+<style>.crumbs {
     background: #f8f9fa;
     border-bottom: 1px solid #e9ecef;
     padding: 0.625rem 0;
-  }
-
-  .crumbs__inner {
+  }.crumbs__inner {
     max-width: var(--container, 1400px);
     margin: 0 auto;
     padding: 0 1.5rem;
-  }
-
-  .crumbs__list {
+  }.crumbs__list {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -66,43 +61,29 @@ const { items } = Astro.props;
     padding: 0;
     list-style: none;
     font-size: 0.825rem;
-  }
-
-  .crumbs__item {
+  }.crumbs__item {
     display: inline-flex;
     align-items: center;
     color: var(--c-text-muted, #6c757d);
-  }
-
-  .crumbs__item:not(:last-child)::after {
+  }.crumbs__item:not(:last-child)::after {
     content: '/';
     margin-left: 0.35rem;
     color: #ced4da;
     font-size: 0.825rem;
-  }
-
-  .crumbs__link {
+  }.crumbs__link {
     color: var(--c-text-muted, #6c757d);
     text-decoration: none;
-  }
-
-  .crumbs__link:hover {
+  }.crumbs__link:hover {
     color: var(--c-primary, #FF3D00);
-  }
-
-  .crumbs__current {
+  }.crumbs__current {
     /* #FF3D00 sobre el #f8f9fa de .crumbs daba 3.36:1 */
     color: var(--c-primary-text, #C82D00);
     font-weight: 600;
-  }
-
-  .crumbs__home-icon {
+  }.crumbs__home-icon {
     display: inline-block;
     vertical-align: -2px;
     margin-right: 0.2rem;
-  }
-
-  .crumbs__link {
+  }.crumbs__link {
     display: inline-flex;
     align-items: center;
     gap: 0.2rem;

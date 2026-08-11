@@ -7,7 +7,7 @@ import CtaBanner from "@/components/CtaBanner.astro";
 import { INFLABLES_ACTIVOS } from "@/data/inflables";
 
 const title = "Sobre Nosotros — Renta de Inflables en CDMX | BRINCOLINS";
-const description = "Conoce BRINCOLINS: +20 años de experiencia en renta de inflables para fiestas infantiles en CDMX y Edomex. Seguridad, puntualidad y diversión garantizada.";
+const description = "Conoce BRINCOLINS: +20 años de experiencia en renta de inflables para fiestas infantiles en CDMX y Edomex. Seguridad, puntualidad y flota propia.";
 
 /* Antes cada tarjeta mostraba un bloque de color con las siglas "+20",
    "SEG", "E&I" y "100%". Las dos de en medio son abreviaturas internas que
@@ -167,14 +167,11 @@ const timeline = [
 
 <style>
   /* Rejilla de flota — /nosotros/ no tenía ni una imagen, siendo la página
-     donde se construye la confianza. */
-  .nos-flota {
+     donde se construye la confianza. */.nos-flota {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
-  }
-
-  .nos-flota__item {
+  }.nos-flota__item {
     display: block;
     border: 1px solid var(--c-border);
     border-radius: 12px;
@@ -182,26 +179,19 @@ const timeline = [
     background: #fff;
     text-decoration: none;
     transition: transform .15s ease, border-color .15s ease;
-  }
-  .nos-flota__item:hover { transform: translateY(-2px); border-color: var(--c-primary); }
-
-  .nos-flota__item img {
+  }.nos-flota__item:hover { transform: translateY(-2px); border-color: var(--c-primary); }.nos-flota__item img {
     display: block;
     width: 100%;
     height: 150px;
     object-fit: cover;
-  }
-
-  .nos-flota__name {
+  }.nos-flota__name {
     display: block;
     padding: .7rem .85rem;
     font-family: var(--font-head);
     font-weight: 700;
     font-size: .9rem;
     color: var(--c-text);
-  }
-
-  .why-card__img-unit {
+  }.why-card__img-unit {
     display: block;
     margin-top: .2rem;
     font-size: .7rem;

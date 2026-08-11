@@ -53,8 +53,7 @@ export function buildOrganizationSchema() {
     /* sameAs vincula el dominio con la entidad de negocio (ficha de Google
        Business Profile y perfiles sociales). Se omite mientras no haya
        perfiles: un sameAs vacío no aporta y ensucia el schema.
-       Pegar las URLs en SOCIAL_PROFILES de src/data/site.ts. */
-    ...(SAME_AS.length ? { "sameAs": SAME_AS } : {}),
+       Pegar las URLs en SOCIAL_PROFILES de src/data/site.ts. */...(SAME_AS.length ? { "sameAs": SAME_AS } : {}),
     "logo": { "@type": "ImageObject", "url": LOGO },
     "description": "Renta de inflables para fiestas infantiles en CDMX y Estado de México. Más de 20 años de experiencia. Entrega, instalación y recolección incluidas.",
     "telephone": PHONE_TEL,
@@ -85,8 +84,7 @@ export function buildLocalBusinessSchema() {
     "@type": ["LocalBusiness", "EventVenue"],
     "@id": `${SITE}/#negocio`,
     "name": `${SITE_NAME} — Renta de Inflables CDMX`,
-    "url": SITE,
-    ...(SAME_AS.length ? { "sameAs": SAME_AS } : {}),
+    "url": SITE,...(SAME_AS.length ? { "sameAs": SAME_AS } : {}),
     "logo": LOGO,
     "image": OG,
     "description": "Empresa líder en renta de inflables y brincolines para fiestas infantiles en CDMX y Estado de México. Más de 20 años de experiencia, entrega e instalación incluida.",

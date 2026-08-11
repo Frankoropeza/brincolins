@@ -307,7 +307,7 @@ La comunicación con los padres de familia es parte integral del éxito de la ke
 - El inflable tiene un límite de usuarios simultáneos por seguridad: la fila avanza rápidamente cuando todos respetan el turno.
 - Los alumnos deben usar ropa cómoda y sin accesorios que puedan dañar el inflable (hebillas grandes, zapatos con punta metálica, objetos en los bolsillos).
 - Cada inflable tiene su rango de edad: el Mini Castillo es de 1 a 4 años y recibe 3 o 4 niños; los medianos, de 4 a 10 años con 5 a 7 por turno; el Barco Pirata desde los 4 con 8 a 10; el circuito Extremo desde los 6, con 6 a 10 por turno.
-- La supervisión adulta está garantizada en todo momento por personal de BRINCOLINS y voluntarios de la escuela.
+- La supervisión adulta se cubre en todo momento entre el personal de BRINCOLINS y los voluntarios de la escuela.
 - Las fotos y videos dentro del inflable son bienvenidos, pero pedimos que no interfieran con el flujo de uso.
 
 ## Cómo documentar el evento para el próximo año

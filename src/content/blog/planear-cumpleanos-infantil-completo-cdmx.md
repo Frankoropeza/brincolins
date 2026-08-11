@@ -116,7 +116,7 @@ Uno de los errores más comunes que vemos es elegir el inflable equivocado para 
 
 A esta edad la seguridad manda, y el Mini Castillo es el único modelo del catálogo diseñado para este rango: 2×2×2.5 m sobre 3×3 m de área libre, con capacidad para **3 o 4 niños** a la vez. Su escala compacta no intimida a niños que todavía están aprendiendo a brincar con confianza, y con 3.2 m de altura libre cabe hasta bajo techo.
 
-Lo que hemos visto en campo es que los niños de 2 y 3 años no necesitan obstáculos ni retos — necesitan espacio para saltar y explorar a su ritmo, con supervisión adulta obligatoria en todo momento. La guía completa está en [renta de Mini Castillo para bebés](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
+Lo que hemos visto en campo es que los niños de 2 y 3 años no necesitan obstáculos ni retos — necesitan espacio para saltar y explorar a su ritmo, con supervisión adulta obligatoria en todo momento. Cómo se arma la fiesta de 1 año completa —horario, duración e invitados— está en la guía del [primer cumpleaños](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
 
 ### 4-6 años: la edad de oro del brincolín
 

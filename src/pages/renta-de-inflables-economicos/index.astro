@@ -1,0 +1,249 @@
+---
+/**
+ * /renta-de-inflables-economicos/ — nueva ago 2026
+ * ─────────────────────────────────────────────────────────────
+ * "renta de inflables economicos" — 100 búsquedas/mes, KD 0, y varias
+ * variantes cercanas ("inflables baratos", "renta de brincolines
+ * precios"). Sumadas rondan las 300/mes y ninguna tenía página.
+ *
+ * La intención es de presupuesto, y la trampa del nicho es responderla
+ * con un "desde $800" y nada más. Aquí se responde de verdad: qué es
+ * lo barato, qué encarece la cuenta y cuándo NO conviene ir al modelo
+ * más barato. Eso es lo que diferencia esta página de /precios/, que
+ * es la lista completa.
+ */
+import PageLayout from "@/layouts/PageLayout.astro";
+import QuickNav from "@/components/QuickNav.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import { INFLABLES_ACTIVOS, BADGE, PRICE_NOTE_LONG } from "@/data/inflables";
+import { COVERAGE_ZONES } from "@/data/coverage";
+import { SITE_URL } from "@/data/site";
+
+const title = "Inflables Económicos en CDMX | Desde $800 MXN";
+const description = "Renta de inflables económicos en CDMX y Edomex desde $800 MXN. Qué incluye el precio, qué lo encarece y cuándo no conviene el modelo más barato.";
+
+/* Los cuatro más accesibles del catálogo, ordenados por precio. */
+const BARATOS = INFLABLES_ACTIVOS.slice(0, 4);
+const MAS_BARATO = INFLABLES_ACTIVOS[0];
+const SIN_CARGO = COVERAGE_ZONES.filter(z => !z.shippingFee && !["cdmx", "edomex"].includes(z.slug));
+
+const faqs = [
+  {
+    question: "¿Cuál es el inflable más barato que rentan?",
+    answer: `El ${MAS_BARATO.name}, desde ${MAS_BARATO.price} MXN por evento de 4 a 6 horas. Mide ${MAS_BARATO.size}, necesita ${MAS_BARATO.spaceRequired} libres y está dimensionado para ${MAS_BARATO.capacity} de ${MAS_BARATO.ages}. Es barato porque es pequeño, no porque sea de menor calidad: se revisa y sanitiza igual que los demás.`,
+  },
+  {
+    question: "¿El precio barato esconde cargos extra?",
+    answer: `No hay cargos ocultos, pero sí dos cosas que pueden sumarse y que preferimos decir por delante. Una: ${PRICE_NOTE_LONG.toLowerCase()} Dos: en municipios distantes del Estado de México y en algunas alcaldías del sur y oriente de la CDMX hay un cargo de envío de $100 a $600 según la distancia, que publicamos en la página de cada zona. En ${SIN_CARGO.length} zonas el envío ya va incluido.`,
+  },
+  {
+    question: "¿Sale más barato si lo recojo yo?",
+    answer: "No ofrecemos esa opción. La instalación y el anclaje los hace nuestro equipo porque de eso depende que el inflable se use con seguridad, y el motor necesita conectarse y supervisarse. La entrega y el montaje van siempre incluidos en el precio.",
+  },
+  {
+    question: "¿Hay descuento por rentar varios inflables?",
+    answer: "Para eventos con tres o más inflables —kermeses escolares, ferias, activaciones— armamos un paquete con precio propio e incluimos coordinación en sitio. No es un porcentaje fijo: depende de cuántos modelos, la zona y la duración. Cuéntanos el evento y te lo cotizamos.",
+  },
+  {
+    question: "¿Conviene siempre el más barato?",
+    answer: `Sólo si la edad y el número de niños encajan. El ${MAS_BARATO.name} admite ${MAS_BARATO.capacity} de ${MAS_BARATO.ages}: en una fiesta de ocho niños de siete años se satura en minutos y acaba generando filas y pleitos. Ahorrar $400 para que el inflable no se use es el gasto más caro de la fiesta.`,
+  },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": `${SITE_URL}/renta-de-inflables-economicos/#coleccion`,
+  name: "Inflables económicos para renta en CDMX y Estado de México",
+  description,
+  url: `${SITE_URL}/renta-de-inflables-economicos/`,
+  isPartOf: { "@id": `${SITE_URL}/#website` },
+  about: { "@id": `${SITE_URL}/#org` },
+  mainEntity: {
+    "@type": "ItemList",
+    numberOfItems: BARATOS.length,
+    itemListOrder: "https://schema.org/ItemListOrderAscending",
+    itemListElement: BARATOS.map((inf, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `${SITE_URL}/inflables/${inf.slug}/`,
+      name: inf.name,
+    })),
+  },
+};
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="category"
+  faqItems={faqs}
+  schemaMarkup={JSON.stringify(schema)}
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Inflables económicos" },
+  ]}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Inflables económicos"}]} />
+  </Fragment>
+
+  <section class="hero" style="padding:clamp(3rem,6vw,5rem) 0;">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">Presupuesto</span>
+          <h1 class="hero__title">Inflables <span class="highlight">Económicos</span> en CDMX</h1>
+          <p class="hero__trust-line"><span>Desde {MAS_BARATO.price} MXN · entrega e instalación incluidas</span></p>
+          <div class="hero__ctas">
+            <a href="#opciones" class="btn btn-primary btn-lg">Ver opciones desde {MAS_BARATO.price}</a>
+            <a href="/precios/" class="btn btn-outline btn-lg">Lista completa de precios</a>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <p class="hero__copy-text">
+            Un inflable económico no debería significar uno más viejo ni peor cuidado.
+            En nuestro catálogo la diferencia de precio es <strong>de tamaño, no de
+            calidad</strong>: los ocho modelos se revisan, se limpian y se sanitizan igual
+            antes de cada evento.
+          </p>
+          <p class="hero__copy-text">
+            Abajo están los cuatro más accesibles, qué incluye el precio y —lo que casi
+            nadie publica— <strong>qué puede encarecerlo</strong>. Preferimos que lo sepas
+            antes de apartar la fecha y no el día del evento.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <QuickNav />
+
+  <section class="section" id="opciones">
+    <div class="container">
+      <SectionHeader
+        badge="Los más accesibles"
+        title={`Cuatro opciones de ${BARATOS[0].price} a ${BARATOS[BARATOS.length - 1].price}`}
+        subtitle="Ordenados de menor a mayor precio."
+        copy1={`El ${MAS_BARATO.name} es el más barato del catálogo y funciona muy bien en su rango: ${MAS_BARATO.ages}, ${MAS_BARATO.capacity} a la vez, y sólo pide ${MAS_BARATO.spaceRequired} libres. Es además uno de los dos modelos que caben bajo techo, así que evita el gasto de una carpa si el clima falla.`}
+        copy2="A partir de ahí el salto de precio compra capacidad y edad: los medianos aguantan de 5 a 7 niños de 4 a 10 años. Si tu grupo entra en esa franja, el mediano sale más rentable por niño que el chico."
+      />
+      <div class="grid-4">
+        {BARATOS.map((inf) => (
+          <ProductCard
+            slug={inf.slug}
+            name={inf.name}
+            description={inf.description}
+            price={inf.price}
+            size={inf.size}
+            ages={inf.ages}
+            category={BADGE[inf.slug]?.label ?? inf.category}
+            categoryColor={BADGE[inf.slug]?.color}
+            image={inf.image}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="Sin letra chica"
+        title="Qué incluye el precio y qué puede sumarse"
+        subtitle="Las dos únicas cosas que cambian la cuenta."
+        copy1="Publicamos esto porque es la queja más común del giro: se cotiza un precio por teléfono y el día del evento aparece un cargo que nadie mencionó. Aquí están las dos cosas que sí pueden sumarse, y las decimos por escrito antes de que apartes la fecha."
+        copy2="Todo lo demás va dentro del precio publicado. No cobramos aparte el motor, la instalación, la sanitización ni la recolección."
+      />
+      <div class="eco-cols">
+        <div class="eco-col eco-col--in">
+          <h3 class="eco-col__title">Incluido en el precio</h3>
+          <ul class="eco-col__list">
+            <li>Entrega a domicilio dentro de la zona de cobertura</li>
+            <li>Instalación profesional y anclaje (15 a 30 min según el modelo)</li>
+            <li>Motor inflador y su operación</li>
+            <li>Limpieza y sanitización previas</li>
+            <li>Recolección y desinstalación al terminar</li>
+            <li>De 4 a 6 horas de renta según el modelo</li>
+          </ul>
+        </div>
+        <div class="eco-col eco-col--out">
+          <h3 class="eco-col__title">Puede sumarse</h3>
+          <ul class="eco-col__list">
+            <li>
+              <strong>IVA</strong> — sólo si necesitas factura. Los precios publicados son netos.
+            </li>
+            <li>
+              <strong>Envío</strong> — de $100 a $600 según la distancia, en municipios
+              distantes del Estado de México y algunas alcaldías del sur y oriente.
+              En {SIN_CARGO.length} zonas va incluido.
+              <a href="/renta-de-inflables-cerca-de-mi/">Consulta el cargo de tu zona</a>.
+            </li>
+            <li>
+              <strong>Planta de luz</strong> — sólo si el lugar no tiene toma de corriente.
+            </li>
+            <li>
+              <strong>Horas extra</strong> — si el evento se alarga más allá de lo contratado.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="Consejo honesto"
+        title="Cuándo NO conviene el más barato"
+        subtitle="Ahorrar en el modelo equivocado sale caro."
+        copy1={`El ${MAS_BARATO.name} cuesta ${MAS_BARATO.price} y admite ${MAS_BARATO.capacity} de ${MAS_BARATO.ages}. Si tu fiesta tiene ocho niños de siete años, se satura en los primeros minutos: se forman filas, los grandes desplazan a los chicos y el inflable acaba desocupado a media tarde. La diferencia con un mediano son $400 y evita justo eso.`}
+        copy2="La forma barata de verdad de bajar la cuenta no es elegir el modelo más chico, sino ajustar la duración y la fecha: entre semana y en temporada baja hay más disponibilidad. Escríbenos con la fecha y te decimos qué hay libre."
+      />
+      <div class="eco-regla">
+        <p><strong>Regla corta:</strong> elige el modelo por el número de niños y su edad, no por el precio. Después ajusta el presupuesto con la duración.</p>
+        <p>
+          Si dudas entre dos modelos, dinos cuántos niños esperas, sus edades y el espacio
+          que tienes. Te decimos cuál cabe y cuál rinde — incluso si es el más barato.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner
+    title={`Cotiza desde ${MAS_BARATO.price} MXN, sin sorpresas`}
+    subtitle="Te damos el precio cerrado con el envío de tu zona ya sumado, antes de apartar la fecha."
+    btnText="Solicitar cotización"
+    btnHref="/cotizar/"
+    btnSecondaryText="Ver todos los precios"
+    btnSecondaryHref="/precios/"
+    variant="vibrant"
+  />
+</PageLayout>
+
+<style>.eco-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }.eco-col {
+    padding: 1.5rem;
+    border: 1px solid var(--c-border);
+    border-radius: 14px;
+    background: #fff;
+  }.eco-col--in  { border-left: 4px solid #0B7A3B; }.eco-col--out { border-left: 4px solid var(--c-primary); }.eco-col__title {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin: 0 0 .9rem;
+    color: var(--c-text);
+  }.eco-col__list { margin: 0; padding-left: 1.15rem; color: var(--c-text-muted); line-height: 1.7; }.eco-col__list li { margin-bottom: .6rem; }.eco-col__list a { color: var(--c-primary-text); font-weight: 600; }.eco-regla {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 1.35rem 1.5rem;
+    border-left: 4px solid var(--c-primary);
+    border-radius: 0 12px 12px 0;
+    background: #FFF6F3;
+  }.eco-regla p { margin: 0 0 .75rem; line-height: 1.7; color: var(--c-text); }.eco-regla p:last-child { margin-bottom: 0; color: var(--c-text-muted); }
+
+  @media (max-width: 760px) {.eco-cols { grid-template-columns: 1fr; }
+  }
+</style>

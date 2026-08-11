@@ -69,6 +69,6 @@ Llevar la fiesta a un salón resuelve todo — juegos, mobiliario, a veces comid
 - **Duda entre brincolín simple y uno con tobogán:** la resolvemos con precios en [brincolín vs. tobogán inflable](/blog/brincolin-vs-tobogan-inflable-cdmx/).
 - **Presupuesto amplio y fiesta grande:** inflable + show. La fórmula ganadora.
 - **Sin espacio propio y pocos invitados:** salón de juegos.
-- **Kermeses y eventos escolares:** varios inflables con operador certificado — ninguna otra alternativa escala igual para cientos de niños.
+- **Kermeses y eventos escolares:** varios inflables con operador dedicado — ninguna otra alternativa escala igual para cientos de niños.
 
 Si eliges inflable, verifica siempre que el proveedor incluya **sanitización e instalación profesional** y que te diga la capacidad real del modelo. Es lo que separa a una empresa establecida de un particular con un brincolín en la cochera — el checklist completo está en las [7 señales de un proveedor confiable](/blog/senales-proveedor-inflables-confiable-cdmx/). Cuando tengas la fecha, [pide tu cotización](/cotizar/) y te confirmamos disponibilidad.

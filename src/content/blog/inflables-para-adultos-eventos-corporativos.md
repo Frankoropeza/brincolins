@@ -41,7 +41,7 @@ Nuestro catálogo son **8 modelos**, y estos son los que mejor funcionan en un e
 
 ### Extremo — el circuito de obstáculos
 
-Es el modelo que más se renta para eventos corporativos. Un **circuito de obstáculos de 7 metros en doble carril** que permite competencias por equipos: dos participantes arrancan al mismo tiempo, escalan, gatean y se deslizan contra el reloj. Mide 7×4×3.8 m, pide **9×6 m** de área libre con 4.5 m de altura, recibe de 6 a 10 participantes por turno y está recomendado desde los 6 años. Las dinámicas que mejor funcionan están en la guía del [inflable Extremo para eventos corporativos](/blog/inflable-extremo-eventos-corporativos-cdmx/).
+Es el modelo que más se renta para eventos corporativos. Un **circuito de obstáculos de 7 metros en doble carril** que permite competencias por equipos: dos participantes arrancan al mismo tiempo, escalan, gatean y se deslizan contra el reloj. Mide 7×4×3.8 m, pide **9×6 m** de área libre con 4.5 m de altura, recibe de 6 a 10 participantes por turno y está recomendado desde los 6 años. Las dinámicas que mejor funcionan están en la guía de [team building con retos físicos](/blog/inflable-extremo-eventos-corporativos-cdmx/).
 
 ### Barco Pirata — el más grande del catálogo
 

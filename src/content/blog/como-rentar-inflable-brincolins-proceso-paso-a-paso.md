@@ -25,7 +25,7 @@ howto:
     - name: "Aparta tu fecha con el 50% de anticipo"
       text: "Reserva con un anticipo del 50% por transferencia, depósito o efectivo. El saldo se liquida el día del evento antes de la instalación."
     - name: "Recibe la instalación y disfruta"
-      text: "El equipo llega puntual, instala el inflable en menos de 30 minutos con motor, anclajes y sanitización certificada, y lo recoge al finalizar tu evento."
+      text: "El equipo llega puntual, instala el inflable en menos de 30 minutos con motor, anclajes y sanitización, y lo recoge al finalizar tu evento."
 faqs:
   - question: "¿Con cuánta anticipación debo apartar el inflable?"
     answer: "Lo ideal es con dos semanas o más, especialmente en temporada alta. Los fines de semana de diciembre, semana santa y fin de cursos se llenan muy rápido. Dicho eso, hemos atendido pedidos de un día para otro cuando hay disponibilidad — pregunta sin pena aunque tu fecha sea pronto."

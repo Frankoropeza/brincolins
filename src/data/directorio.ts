@@ -762,7 +762,7 @@ export const SALONES_CDMX: SalonDirectorio[] = [
     { name: "Paquetes completos", desc: "Paquetes integrales que incluyen decoración, alimentos, pastel, piñata, dulceros y acceso a todos los juegos.", gradient: "#7C3AED, #9C27B0" },
     { name: "Zona de adultos", desc: "Área separada y cómoda para los adultos con sillones, pantallas y servicio de alimentos y bebidas.", gradient: "#2E7D32, #558B2F" },
     { name: "Animación profesional", desc: "Equipo de animadores experimentados que organizan dinámicas, juegos y actividades durante todo el evento.", gradient: "#E91E8C, #FF3D00" },
-    { name: "Seguridad certificada", desc: "Instalaciones que cumplen con normas de seguridad, material anti-golpes y personal capacitado en primeros auxilios.", gradient: "#FF3D00, #FF6D00" },
+    { name: "Instalación supervisada", desc: "Instalaciones que cumplen con normas de seguridad, material anti-golpes y personal capacitado en primeros auxilios.", gradient: "#FF3D00, #FF6D00" },
   ],
     relacionados:   [
     { slug: "laberinto-de-aventuras", name: "Laberinto de Aventuras", zone: "Azcapotzalco", rating: "4.7", capacity: "40–100 personas", phone: "55 7652 2817", gradient: "linear-gradient(135deg, #00C853, #2E7D32)", label: "⭐", features: [], highlight: "\"Laberinto temático\", \"Juegos interactivos\", \"Paquetes accesibles\", \"Zona para adultos\"" },
@@ -773,7 +773,7 @@ export const SALONES_CDMX: SalonDirectorio[] = [
     editorialParas: [
     "Ubicado sobre la concurrida Avenida Congreso de la Unión, en la colonia Granjas Modernas de Gustavo A. Madero, Sipirily Congreso forma parte de una cadena reconocida de salones infantiles que se ha ganado la confianza de miles de familias en la Ciudad de México. Su experiencia y profesionalismo se notan desde el primer contacto, con paquetes completos bien estructurados que no dejan ningún detalle al azar.",
     "Los juegos de altura son la estrella del salón: estructuras multinivel con puentes colgantes, redes de escalada y resbaladillas de diferentes intensidades que mantienen a los niños entretenidos durante horas. La zona de adultos está completamente separada, con sillones cómodos, pantallas y un área de alimentos dedicada, para que los papás también disfruten del evento sin perder de vista a los pequeños.",
-    "Con 4.5 estrellas en Google Maps, Sipirily Congreso es valorado por la consistencia en su servicio, la seguridad certificada de sus instalaciones y la profesionalidad de su equipo de animación. Como parte de una cadena, los estándares de calidad están estandarizados, lo que brinda la tranquilidad de saber exactamente qué esperar. Es la opción ideal para familias del norte de CDMX.",
+    "Con 4.5 estrellas en Google Maps, Sipirily Congreso es valorado por la consistencia en su servicio, las medidas de seguridad de sus instalaciones y la profesionalidad de su equipo de animación. Como parte de una cadena, los estándares de calidad están estandarizados, lo que brinda la tranquilidad de saber exactamente qué esperar. Es la opción ideal para familias del norte de CDMX.",
   ],
     llegarParas:    [
     "Sipirily Congreso se ubica en Eje 2 Oriente Av. H. Congreso de la Unión 39, Granjas Modernas, GAM, 07080 CDMX. La Avenida Congreso de la Unión es una de las arterias principales del norte de CDMX, lo que facilita enormemente el acceso desde cualquier punto de la ciudad.",

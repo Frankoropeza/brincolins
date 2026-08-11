@@ -204,29 +204,23 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
 </article>
 
 <style>
-  /* ── Card wrapper ── */
-  .pf {
+  /* ── Card wrapper ── */.pf {
     background: #fff;
     border-radius: 20px;
     box-shadow: 0 2px 24px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04);
     overflow: hidden;
     position: relative;
-  }
-
-  .pf__accent-bar {
+  }.pf__accent-bar {
     height: 4px;
     background: linear-gradient(90deg, var(--pf-accent) 0%, color-mix(in srgb, var(--pf-accent) 60%, #FFD600) 100%);
-  }
-
-  .pf__inner {
+  }.pf__inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0;
     align-items: stretch;
   }
 
-  /* ── Info ── */
-  .pf__info {
+  /* ── Info ── */.pf__info {
     padding: 2.5rem 2.5rem 2.5rem 2.5rem;
     display: flex;
     flex-direction: column;
@@ -234,16 +228,13 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     border-right: 1px solid #f0f0f0;
   }
 
-  /* Header row */
-  .pf__header {
+  /* Header row */.pf__header {
     display: flex;
     align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
     flex-wrap: wrap;
-  }
-
-  .pf__cat-badge {
+  }.pf__cat-badge {
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
@@ -257,36 +248,27 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     color: var(--pf-accent);
     letter-spacing: 0.05em;
     text-transform: uppercase;
-  }
-
-  .pf__cat-dot {
+  }.pf__cat-dot {
     width: 6px;
     height: 6px;
     border-radius: 50%;
     background: var(--pf-accent);
     flex-shrink: 0;
-  }
-
-  .pf__rating {
+  }.pf__rating {
     display: flex;
     align-items: center;
     gap: 0.4rem;
-  }
-
-  .pf__stars {
+  }.pf__stars {
     color: #F59E0B;
     font-size: 0.85rem;
     letter-spacing: 1px;
-  }
-
-  .pf__rating-text {
+  }.pf__rating-text {
     font-size: 0.78rem;
     color: var(--c-text-muted);
     font-weight: 600;
   }
 
-  /* Title */
-  .pf__title {
+  /* Title */.pf__title {
     font-family: var(--font-head);
     font-size: clamp(1.6rem, 3vw, 2.2rem);
     font-weight: 900;
@@ -296,8 +278,7 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     margin-bottom: 1.25rem;
   }
 
-  /* Price row */
-  .pf__price-row {
+  /* Price row */.pf__price-row {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -307,43 +288,31 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     border-radius: 12px;
     padding: 1rem 1.25rem;
     margin-bottom: 1.25rem;
-  }
-
-  .pf__price-block {
+  }.pf__price-block {
     display: flex;
     flex-direction: column;
     gap: 0.1rem;
-  }
-
-  .pf__price-label {
+  }.pf__price-label {
     font-size: 0.7rem;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     color: var(--c-text-muted);
     font-weight: 600;
-  }
-
-  .pf__price {
+  }.pf__price {
     font-family: var(--font-head);
     font-size: 1.9rem;
     font-weight: 900;
     color: var(--pf-accent);
     line-height: 1;
-  }
-
-  .pf__price-currency {
+  }.pf__price-currency {
     font-size: 1rem;
     font-weight: 700;
     /* La opacity:0.7 mezclaba el color con el fondo del badge y daba
        2.42:1. Sin opacidad hereda el color del contenedor, ya validado. */
-  }
-
-  .pf__price-note {
+  }.pf__price-note {
     font-size: 0.73rem;
     color: var(--c-text-muted);
-  }
-
-  .pf__availability {
+  }.pf__availability {
     display: flex;
     align-items: center;
     gap: 0.4rem;
@@ -351,9 +320,7 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     font-weight: 700;
     color: #10783A; /* 2.95 → 4.6 sobre badges claros */
     white-space: nowrap;
-  }
-
-  .pf__avail-dot {
+  }.pf__avail-dot {
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -362,45 +329,36 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     box-shadow: 0 0 0 3px rgba(34,197,94,0.2);
   }
 
-  /* Description */
-  .pf__desc {
+  /* Description */.pf__desc {
     font-size: 0.93rem;
     line-height: 1.75;
     color: var(--c-text-muted);
     margin-bottom: 1.25rem;
   }
 
-  /* Features */
-  .pf__features {
+  /* Features */.pf__features {
     list-style: none;
     padding: 0;
     margin: 0 0 1.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem 1rem;
-  }
-
-  .pf__feature {
+  }.pf__feature {
     display: flex;
     align-items: flex-start;
     gap: 0.45rem;
     font-size: 0.83rem;
     color: var(--c-text);
     line-height: 1.45;
-  }
-
-  .pf__feature-icon {
+  }.pf__feature-icon {
     font-size: 1rem;
     flex-shrink: 0;
     line-height: 1.4;
-  }
-
-  .pf__feature-text {
+  }.pf__feature-text {
     color: var(--c-text-muted);
   }
 
-  /* Specs strip */
-  .pf__specs {
+  /* Specs strip */.pf__specs {
     display: flex;
     align-items: center;
     background: #f8fafc;
@@ -409,55 +367,42 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     padding: 0.85rem 1rem;
     margin-bottom: 1.5rem;
     gap: 0;
-  }
-
-  .pf__spec {
+  }.pf__spec {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.1rem;
     text-align: center;
-  }
-
-  .pf__spec-ico {
+  }.pf__spec-ico {
     font-size: 1.1rem;
     line-height: 1;
     margin-bottom: 0.1rem;
-  }
-
-  .pf__spec-val {
+  }.pf__spec-val {
     font-family: var(--font-head);
     font-weight: 800;
     font-size: 0.88rem;
     color: var(--c-text);
     line-height: 1.2;
-  }
-
-  .pf__spec-lbl {
+  }.pf__spec-lbl {
     font-size: 0.67rem;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--c-text-muted);
     font-weight: 600;
-  }
-
-  .pf__spec-divider {
+  }.pf__spec-divider {
     width: 1px;
     height: 2.5rem;
     background: var(--c-border);
     flex-shrink: 0;
   }
 
-  /* CTAs */
-  .pf__actions {
+  /* CTAs */.pf__actions {
     display: flex;
     gap: 0.75rem;
     margin-bottom: 1.25rem;
     flex-wrap: wrap;
-  }
-
-  .pf__btn {
+  }.pf__btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -471,39 +416,30 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     transition: all 0.2s ease;
     line-height: 1;
     white-space: nowrap;
-  }
-
-  .pf__btn--wa {
+  }.pf__btn--wa {
     /* Verde brillante + texto oscuro, igual que .btn-wa global.
        Blanco sobre #25D366 daba 1.98:1 — el peor del sitio. Ahora 8.80:1. */
     background: var(--c-wa, #25D366);
     color: var(--c-on-light-vivid, #111B21);
     flex: 1;
     box-shadow: 0 4px 16px rgba(37,211,102,0.3);
-  }
-
-  .pf__btn--wa:hover {
+  }.pf__btn--wa:hover {
     background: #1fb855;
     box-shadow: 0 6px 20px rgba(37,211,102,0.4);
     transform: translateY(-1px);
-  }
-
-  .pf__btn--detail {
+  }.pf__btn--detail {
     background: #f8fafc;
     color: var(--c-text);
     border: 1.5px solid var(--c-border);
     flex: 1;
-  }
-
-  .pf__btn--detail:hover {
+  }.pf__btn--detail:hover {
     background: var(--c-text);
     color: #fff;
     border-color: var(--c-text);
     transform: translateY(-1px);
   }
 
-  /* Trust strip */
-  .pf__trust {
+  /* Trust strip */.pf__trust {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -512,43 +448,32 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     color: var(--c-text-muted);
     padding-top: 1rem;
     border-top: 1px solid #f0f0f0;
-  }
-
-  .pf__trust-sep {
+  }.pf__trust-sep {
     color: var(--c-border);
-  }
-
-  .pf__trust-item {
+  }.pf__trust-item {
     font-weight: 600;
   }
 
-  /* ── Gallery ── */
-  .pf__gallery {
+  /* ── Gallery ── */.pf__gallery {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     padding: 1.5rem 1.5rem 1.5rem 1rem;
     background: #fafafa;
-  }
-
-  .pf__gallery-main {
+  }.pf__gallery-main {
     position: relative;
     border-radius: 12px;
     overflow: hidden;
     flex: 1;
     min-height: 0;
     background: #eee;
-  }
-
-  .pf__gallery-main img {
+  }.pf__gallery-main img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
     aspect-ratio: 4/3;
-  }
-
-  .pf__gallery-overlay {
+  }.pf__gallery-overlay {
     position: absolute;
     inset: 0;
     background: linear-gradient(to top, rgba(0,0,0,0.45) 0%, transparent 50%);
@@ -557,13 +482,9 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     padding: 1rem;
     opacity: 0;
     transition: opacity 0.25s ease;
-  }
-
-  .pf__gallery-main:hover .pf__gallery-overlay {
+  }.pf__gallery-main:hover .pf__gallery-overlay {
     opacity: 1;
-  }
-
-  .pf__gallery-cta {
+  }.pf__gallery-cta {
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
@@ -576,43 +497,31 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     text-decoration: none;
     font-family: var(--font-head);
     transition: background 0.2s;
-  }
-
-  .pf__gallery-cta:hover {
+  }.pf__gallery-cta:hover {
     background: #fff;
-  }
-
-  .pf__gallery-thumbs {
+  }.pf__gallery-thumbs {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
-  }
-
-  .pf__gallery-thumb {
+  }.pf__gallery-thumb {
     border-radius: 10px;
     overflow: hidden;
     aspect-ratio: 4/3;
     background: #eee;
     position: relative;
-  }
-
-  .pf__gallery-thumb img {
+  }.pf__gallery-thumb img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-  }
-
-  .pf__thumb-more {
+  }.pf__thumb-more {
     position: absolute;
     inset: 0;
     background: rgba(0,0,0,0.45);
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .pf__thumb-more a {
+  }.pf__thumb-more a {
     color: #fff;
     font-family: var(--font-head);
     font-weight: 800;
@@ -620,48 +529,33 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
     text-decoration: none;
     letter-spacing: 0.03em;
     transition: opacity 0.2s;
-  }
-
-  .pf__thumb-more a:hover {
+  }.pf__thumb-more a:hover {
     opacity: 0.8;
   }
 
   /* ── Responsive ── */
-  @media (max-width: 1100px) {
-    .pf__info {
+  @media (max-width: 1100px) {.pf__info {
       padding: 2rem 2rem;
-    }
-
-    .pf__features {
+    }.pf__features {
       grid-template-columns: 1fr;
     }
   }
 
-  @media (max-width: 860px) {
-    .pf__inner {
+  @media (max-width: 860px) {.pf__inner {
       grid-template-columns: 1fr;
-    }
-
-    .pf__info {
+    }.pf__info {
       border-right: none;
       border-bottom: 1px solid #f0f0f0;
-    }
-
-    .pf__gallery {
+    }.pf__gallery {
       padding: 1.25rem;
     }
   }
 
-  @media (max-width: 480px) {
-    .pf__info {
+  @media (max-width: 480px) {.pf__info {
       padding: 1.5rem;
-    }
-
-    .pf__actions {
+    }.pf__actions {
       flex-direction: column;
-    }
-
-    .pf__price-row {
+    }.pf__price-row {
       flex-direction: column;
       align-items: flex-start;
       gap: 0.75rem;

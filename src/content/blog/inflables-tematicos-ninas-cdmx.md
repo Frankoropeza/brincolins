@@ -75,7 +75,7 @@ La edad de las invitadas es un factor clave para elegir el **inflable temático*
 
 ### De 1 a 4 años: Mini Castillo
 
-Para las más pequeñas, el **Mini Castillo** es la única opción correcta. Su tamaño compacto, paredes bajas y superficie extra acolchada están diseñados para que las bebés y niñas pequeñas exploren y den sus primeros saltos con total seguridad, en grupos de 3 o 4. Cabe en departamentos, patios pequeños y salones reducidos: 3×3 m de área y 3.2 m de altura libre. La guía completa está en [renta de Mini Castillo para bebés](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
+Para las más pequeñas, el **Mini Castillo** es la única opción correcta. Su tamaño compacto, paredes bajas y superficie extra acolchada están diseñados para que las bebés y niñas pequeñas exploren y den sus primeros saltos con total seguridad, en grupos de 3 o 4. Cabe en departamentos, patios pequeños y salones reducidos: 3×3 m de área y 3.2 m de altura libre. Cómo organizar la fiesta a esa edad está en la guía del [primer cumpleaños](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
 
 ### De 4 a 7 años: Castillo de Princesas o Castillo Blanco
 

@@ -126,8 +126,7 @@ const inflables: SidebarInflable[] = [
 
 </aside>
 
-<style>
-  .csb {
+<style>.csb {
     position: sticky;
     top: 1.5rem;
     background: #fff;
@@ -140,8 +139,7 @@ const inflables: SidebarInflable[] = [
     flex-direction: column;
   }
 
-  /* ── Header ── */
-  .csb__header {
+  /* ── Header ── */.csb__header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -149,17 +147,13 @@ const inflables: SidebarInflable[] = [
     border-bottom: 1px solid var(--c-border);
     flex-shrink: 0;
     background: #fff;
-  }
-
-  .csb__title {
+  }.csb__title {
     font-family: var(--font-head);
     font-size: 0.95rem;
     font-weight: 800;
     color: var(--c-text);
     letter-spacing: -0.01em;
-  }
-
-  .csb__count {
+  }.csb__count {
     font-size: 0.72rem;
     font-weight: 700;
     color: var(--c-primary);
@@ -170,30 +164,22 @@ const inflables: SidebarInflable[] = [
     letter-spacing: 0.02em;
   }
 
-  /* ── List ── */
-  .csb__list {
+  /* ── List ── */.csb__list {
     overflow-y: auto;
     flex: 1;
     padding: 0.5rem 0;
     scrollbar-width: thin;
     scrollbar-color: var(--c-border) transparent;
-  }
-
-  .csb__list::-webkit-scrollbar {
+  }.csb__list::-webkit-scrollbar {
     width: 4px;
-  }
-
-  .csb__list::-webkit-scrollbar-track {
+  }.csb__list::-webkit-scrollbar-track {
     background: transparent;
-  }
-
-  .csb__list::-webkit-scrollbar-thumb {
+  }.csb__list::-webkit-scrollbar-thumb {
     background: var(--c-border);
     border-radius: 2px;
   }
 
-  /* ── Item ── */
-  .csb__item {
+  /* ── Item ── */.csb__item {
     display: flex;
     align-items: center;
     gap: 0.75rem;
@@ -203,53 +189,41 @@ const inflables: SidebarInflable[] = [
     transition: background 0.15s ease;
     position: relative;
     border-left: 3px solid transparent;
-  }
-
-  .csb__item:hover {
+  }.csb__item:hover {
     background: #f8fafc;
     border-left-color: var(--item-color);
-  }
-
-  .csb__item--active {
+  }.csb__item--active {
     background: color-mix(in srgb, var(--item-color) 6%, #fff);
     border-left-color: var(--item-color);
   }
 
-  /* Image thumbnail */
-  .csb__item-img {
+  /* Image thumbnail */.csb__item-img {
     width: 64px;
     height: 48px;
     border-radius: 8px;
     overflow: hidden;
     flex-shrink: 0;
     background: #f0f0f0;
-  }
-
-  .csb__item-img img {
+  }.csb__item-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
   }
 
-  /* Info */
-  .csb__item-info {
+  /* Info */.csb__item-info {
     flex: 1;
     min-width: 0;
     display: flex;
     flex-direction: column;
     gap: 0.1rem;
-  }
-
-  .csb__item-cat {
+  }.csb__item-cat {
     font-size: 0.67rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     line-height: 1;
-  }
-
-  .csb__item-name {
+  }.csb__item-name {
     font-family: var(--font-head);
     font-size: 0.85rem;
     font-weight: 700;
@@ -258,39 +232,30 @@ const inflables: SidebarInflable[] = [
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
-
-  .csb__item--active .csb__item-name {
+  }.csb__item--active .csb__item-name {
     color: var(--item-color);
-  }
-
-  .csb__item-price {
+  }.csb__item-price {
     font-size: 0.78rem;
     font-weight: 700;
     color: var(--c-text-muted);
   }
 
-  /* Arrow */
-  .csb__item-arrow {
+  /* Arrow */.csb__item-arrow {
     color: var(--c-border);
     flex-shrink: 0;
     transition: color 0.15s;
-  }
-
-  .csb__item:hover .csb__item-arrow {
+  }.csb__item:hover .csb__item-arrow {
     color: var(--item-color);
   }
 
-  /* ── Divider ── */
-  .csb__divider {
+  /* ── Divider ── */.csb__divider {
     height: 1px;
     background: var(--c-border);
     flex-shrink: 0;
     margin: 0;
   }
 
-  /* ── CTA block ── */
-  .csb__cta {
+  /* ── CTA block ── */.csb__cta {
     padding: 1.25rem;
     display: flex;
     flex-direction: column;
@@ -298,31 +263,23 @@ const inflables: SidebarInflable[] = [
     gap: 0.6rem;
     flex-shrink: 0;
     background: #fff;
-  }
-
-  .csb__cta-icon {
+  }.csb__cta-icon {
     font-size: 1.75rem;
     line-height: 1;
     margin-bottom: 0.1rem;
-  }
-
-  .csb__cta-title {
+  }.csb__cta-title {
     font-family: var(--font-head);
     font-size: 1rem;
     font-weight: 800;
     color: var(--c-text);
     text-align: center;
     margin: 0;
-  }
-
-  .csb__cta-sub {
+  }.csb__cta-sub {
     font-size: 0.78rem;
     color: var(--c-text-muted);
     text-align: center;
     margin: 0 0 0.2rem;
-  }
-
-  .csb__cta-btn {
+  }.csb__cta-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -337,36 +294,27 @@ const inflables: SidebarInflable[] = [
     transition: all 0.2s ease;
     line-height: 1;
     text-align: center;
-  }
-
-  .csb__cta-btn--wa {
+  }.csb__cta-btn--wa {
     /* Verde brillante + texto oscuro, igual que .btn-wa global.
        Blanco sobre #25D366 daba 1.98:1 — el peor del sitio. Ahora 8.80:1. */
     background: var(--c-wa, #25D366);
     color: var(--c-on-light-vivid, #111B21);
     box-shadow: 0 4px 14px rgba(37,211,102,0.3);
-  }
-
-  .csb__cta-btn--wa:hover {
+  }.csb__cta-btn--wa:hover {
     background: #1fb855;
     box-shadow: 0 6px 18px rgba(37,211,102,0.4);
     transform: translateY(-1px);
-  }
-
-  .csb__cta-btn--cotizar {
+  }.csb__cta-btn--cotizar {
     background: #f8fafc;
     color: var(--c-text);
     border: 1.5px solid var(--c-border);
-  }
-
-  .csb__cta-btn--cotizar:hover {
+  }.csb__cta-btn--cotizar:hover {
     background: var(--c-text);
     color: #fff;
     border-color: var(--c-text);
   }
 
-  /* ── Trust micro ── */
-  .csb__trust {
+  /* ── Trust micro ── */.csb__trust {
     padding: 0.75rem 1.25rem 1.25rem;
     display: flex;
     flex-direction: column;
@@ -374,25 +322,20 @@ const inflables: SidebarInflable[] = [
     border-top: 1px solid var(--c-border);
     flex-shrink: 0;
     background: #f8fafc;
-  }
-
-  .csb__trust-item {
+  }.csb__trust-item {
     display: flex;
     align-items: center;
     gap: 0.5rem;
     font-size: 0.75rem;
     color: var(--c-text-muted);
     font-weight: 500;
-  }
-
-  .csb__trust-icon {
+  }.csb__trust-icon {
     font-size: 0.9rem;
     flex-shrink: 0;
   }
 
   /* ── Responsive ── */
-  @media (max-width: 1024px) {
-    .csb {
+  @media (max-width: 1024px) {.csb {
       max-height: none;
       position: static;
     }

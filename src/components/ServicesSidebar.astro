@@ -140,8 +140,7 @@ const servicios = [
 
 </aside>
 
-<style>
-  .ssb {
+<style>.ssb {
     position: sticky;
     top: 1.5rem;
     background: #fff;
@@ -155,8 +154,7 @@ const servicios = [
     flex-direction: column;
   }
 
-  /* ── Header ── */
-  .ssb__header {
+  /* ── Header ── */.ssb__header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -164,15 +162,13 @@ const servicios = [
     border-bottom: 1px solid var(--c-border);
     flex-shrink: 0;
     background: #fff;
-  }
-  .ssb__title {
+  }.ssb__title {
     font-family: var(--font-head);
     font-size: 0.95rem;
     font-weight: 800;
     color: var(--c-text);
     letter-spacing: -0.01em;
-  }
-  .ssb__count {
+  }.ssb__count {
     font-size: 0.72rem;
     font-weight: 700;
     color: var(--c-primary);
@@ -183,21 +179,16 @@ const servicios = [
     letter-spacing: 0.02em;
   }
 
-  /* ── List ── */
-  .ssb__list {
+  /* ── List ── */.ssb__list {
     overflow-y: auto;
     flex: 1;
     padding: 0.35rem 0;
     scrollbar-width: thin;
     scrollbar-color: var(--c-border) transparent;
     min-height: 0;
-  }
-  .ssb__list::-webkit-scrollbar { width: 4px; }
-  .ssb__list::-webkit-scrollbar-track { background: transparent; }
-  .ssb__list::-webkit-scrollbar-thumb { background: var(--c-border); border-radius: 2px; }
+  }.ssb__list::-webkit-scrollbar { width: 4px; }.ssb__list::-webkit-scrollbar-track { background: transparent; }.ssb__list::-webkit-scrollbar-thumb { background: var(--c-border); border-radius: 2px; }
 
-  /* ── Item ── */
-  .ssb__item {
+  /* ── Item ── */.ssb__item {
     display: flex;
     align-items: center;
     gap: 0.75rem;
@@ -206,18 +197,15 @@ const servicios = [
     color: inherit;
     transition: background 0.15s ease;
     border-left: 3px solid transparent;
-  }
-  .ssb__item:hover {
+  }.ssb__item:hover {
     background: #f8fafc;
     border-left-color: var(--item-color);
-  }
-  .ssb__item--active {
+  }.ssb__item--active {
     background: color-mix(in srgb, var(--item-color) 6%, #fff);
     border-left-color: var(--item-color);
   }
 
-  /* Icon */
-  .ssb__item-icon {
+  /* Icon */.ssb__item-icon {
     width: 40px;
     height: 40px;
     border-radius: 10px;
@@ -228,22 +216,19 @@ const servicios = [
     flex-shrink: 0;
   }
 
-  /* Info */
-  .ssb__item-info {
+  /* Info */.ssb__item-info {
     flex: 1;
     min-width: 0;
     display: flex;
     flex-direction: column;
     gap: 0.05rem;
-  }
-  .ssb__item-label {
+  }.ssb__item-label {
     font-size: 0.65rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     line-height: 1;
-  }
-  .ssb__item-name {
+  }.ssb__item-name {
     font-family: var(--font-head);
     font-size: 0.83rem;
     font-weight: 700;
@@ -252,33 +237,27 @@ const servicios = [
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
-  .ssb__item--active .ssb__item-name { color: var(--item-color); }
-  .ssb__item-price {
+  }.ssb__item--active .ssb__item-name { color: var(--item-color); }.ssb__item-price {
     font-size: 0.75rem;
     font-weight: 600;
     color: var(--c-text-muted);
   }
 
-  /* Arrow */
-  .ssb__item-arrow {
+  /* Arrow */.ssb__item-arrow {
     color: var(--c-border);
     flex-shrink: 0;
     transition: color 0.15s;
-  }
-  .ssb__item:hover .ssb__item-arrow {
+  }.ssb__item:hover .ssb__item-arrow {
     color: var(--item-color);
   }
 
-  /* ── Divider ── */
-  .ssb__divider {
+  /* ── Divider ── */.ssb__divider {
     height: 1px;
     background: var(--c-border);
     flex-shrink: 0;
   }
 
-  /* ── CTA ── */
-  .ssb__cta {
+  /* ── CTA ── */.ssb__cta {
     padding: 1.1rem 1.25rem 1rem;
     display: flex;
     flex-direction: column;
@@ -286,22 +265,19 @@ const servicios = [
     gap: 0.55rem;
     flex-shrink: 0;
     background: #fff;
-  }
-  .ssb__cta-title {
+  }.ssb__cta-title {
     font-family: var(--font-head);
     font-size: 0.95rem;
     font-weight: 800;
     color: var(--c-text);
     text-align: center;
     margin: 0;
-  }
-  .ssb__cta-sub {
+  }.ssb__cta-sub {
     font-size: 0.76rem;
     color: var(--c-text-muted);
     text-align: center;
     margin: 0 0 0.15rem;
-  }
-  .ssb__btn {
+  }.ssb__btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -316,30 +292,25 @@ const servicios = [
     transition: all 0.2s ease;
     line-height: 1;
     text-align: center;
-  }
-  .ssb__btn--wa {
+  }.ssb__btn--wa {
     background: #25D366;
     color: var(--c-on-light-vivid, #111B21); /* 1.98:1 → 8.80:1 */
     box-shadow: 0 4px 14px rgba(37,211,102,0.3);
-  }
-  .ssb__btn--wa:hover {
+  }.ssb__btn--wa:hover {
     background: #1fb855;
     box-shadow: 0 6px 18px rgba(37,211,102,0.4);
     transform: translateY(-1px);
-  }
-  .ssb__btn--cotizar {
+  }.ssb__btn--cotizar {
     background: #f8fafc;
     color: var(--c-text);
     border: 1.5px solid var(--c-border);
-  }
-  .ssb__btn--cotizar:hover {
+  }.ssb__btn--cotizar:hover {
     background: var(--c-text);
     color: #fff;
     border-color: var(--c-text);
   }
 
-  /* ── Trust ── */
-  .ssb__trust {
+  /* ── Trust ── */.ssb__trust {
     padding: 0.75rem 1.25rem 1rem;
     display: flex;
     flex-direction: column;
@@ -347,8 +318,7 @@ const servicios = [
     border-top: 1px solid var(--c-border);
     flex-shrink: 0;
     background: #f8fafc;
-  }
-  .ssb__trust-item {
+  }.ssb__trust-item {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -358,8 +328,7 @@ const servicios = [
   }
 
   /* ── Responsive ── */
-  @media (max-width: 1024px) {
-    .ssb {
+  @media (max-width: 1024px) {.ssb {
       max-height: none;
       position: static;
     }

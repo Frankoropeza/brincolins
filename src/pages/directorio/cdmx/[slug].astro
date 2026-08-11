@@ -71,8 +71,7 @@ const salonSchema = {
     "@type": "PostalAddress",
     "streetAddress": salon.address,
     "addressLocality": salon.zone,
-    "addressRegion": "CDMX",
-    ...(salon.postalCode ? { "postalCode": salon.postalCode } : {}),
+    "addressRegion": "CDMX",...(salon.postalCode ? { "postalCode": salon.postalCode } : {}),
     "addressCountry": "MX",
   },
   "geo": {
@@ -416,70 +415,20 @@ const mapsHref = `https://www.google.com/maps/search/${salon.gmapsQuery}`;
     variant="vibrant"
   />
 
-  <style>
-    .page-layout { display: grid; grid-template-columns: 1fr 340px; gap: 2.5rem; align-items: start; }
-    @media (max-width: 1024px) { .page-layout { grid-template-columns: 1fr; } }
-
-    .salon-ficha { background: #fff; border-radius: var(--r-card); padding: 2rem; box-shadow: var(--shadow-sm); border: 1px solid var(--c-border); margin-bottom: 2rem; }
-    .salon-ficha__header { display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem; }
-    .salon-ficha__badge { background: linear-gradient(135deg, #FF3D00, #FF6D00); color: #fff; font-size: 1rem; font-weight: 900; padding: 0.4rem 0.8rem; border-radius: 8px; white-space: nowrap; flex-shrink: 0; }
-    .salon-ficha__title { font-family: var(--font-head); font-weight: 900; font-size: 1.3rem; margin: 0 0 0.25rem; }
-    .salon-ficha__subtitle { font-size: 0.9rem; color: var(--c-text-muted); margin: 0; line-height: 1.6; }
+  <style>.page-layout { display: grid; grid-template-columns: 1fr 340px; gap: 2.5rem; align-items: start; }
+    @media (max-width: 1024px) { .page-layout { grid-template-columns: 1fr; } }.salon-ficha { background: #fff; border-radius: var(--r-card); padding: 2rem; box-shadow: var(--shadow-sm); border: 1px solid var(--c-border); margin-bottom: 2rem; }.salon-ficha__header { display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem; }.salon-ficha__badge { background: linear-gradient(135deg, #FF3D00, #FF6D00); color: #fff; font-size: 1rem; font-weight: 900; padding: 0.4rem 0.8rem; border-radius: 8px; white-space: nowrap; flex-shrink: 0; }.salon-ficha__title { font-family: var(--font-head); font-weight: 900; font-size: 1.3rem; margin: 0 0 0.25rem; }.salon-ficha__subtitle { font-size: 0.9rem; color: var(--c-text-muted); margin: 0; line-height: 1.6; }
     /* Wrapper de scroll: sin él, una tabla de 3+ columnas a 380px empuja el
        ancho del documento. Y como <body> usa overflow-x:clip, no generaría
        scroll — se recortaría en silencio (el mismo modo de fallo que dejó 3
-       enlaces de QuickNav inalcanzables). El scroll se confina a la tabla. */
-    .salon-ficha__table-wrap {
+       enlaces de QuickNav inalcanzables). El scroll se confina a la tabla. */.salon-ficha__table-wrap {
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
       margin-bottom: 1.5rem;
-    }
-    .salon-ficha__table { width: 100%; min-width: 380px; border-collapse: collapse; margin-bottom: 0; font-size: 0.875rem; }
-    .salon-ficha__label { padding: 0.5rem 1rem 0.5rem 0; font-weight: 700; color: var(--c-text); white-space: nowrap; vertical-align: top; width: 140px; border-bottom: 1px solid var(--c-border); }
-    .salon-ficha__value { padding: 0.5rem 0; color: var(--c-text-muted); line-height: 1.5; border-bottom: 1px solid var(--c-border); }
-    .salon-ficha__link { color: var(--c-primary); text-decoration: none; font-weight: 600; }
-    .salon-ficha__link:hover { text-decoration: underline; }
-    .salon-ficha__actions { display: flex; gap: 0.75rem; flex-wrap: wrap; }
-    @media (max-width: 640px) { .salon-ficha__actions { flex-direction: column; } .salon-ficha__actions .btn { width: 100%; justify-content: center; text-align: center; } }
-
-    .salon-editorial { margin-bottom: 2rem; }
-    .salon-editorial__heading { font-family: var(--font-head); font-weight: 900; font-size: 1.3rem; margin: 0 0 1rem; }
-    .salon-editorial__subheading { font-family: var(--font-head); font-weight: 800; font-size: 1.1rem; margin: 1.5rem 0 0.75rem; }
-    .salon-editorial p { font-size: 0.95rem; color: var(--c-text-muted); line-height: 1.8; margin: 0 0 1rem; }
-    .salon-editorial strong { color: var(--c-text); }
-
-    .salon-servicios { margin-bottom: 2.5rem; }
-    .salon-servicios__heading { font-family: var(--font-head); font-weight: 900; font-size: 1.2rem; margin: 0 0 0.5rem; }
-    .salon-servicios__intro { font-size: 0.9rem; color: var(--c-text-muted); line-height: 1.7; margin: 0 0 1.5rem; }
-    .salon-servicios__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+    }.salon-ficha__table { width: 100%; min-width: 380px; border-collapse: collapse; margin-bottom: 0; font-size: 0.875rem; }.salon-ficha__label { padding: 0.5rem 1rem 0.5rem 0; font-weight: 700; color: var(--c-text); white-space: nowrap; vertical-align: top; width: 140px; border-bottom: 1px solid var(--c-border); }.salon-ficha__value { padding: 0.5rem 0; color: var(--c-text-muted); line-height: 1.5; border-bottom: 1px solid var(--c-border); }.salon-ficha__link { color: var(--c-primary); text-decoration: none; font-weight: 600; }.salon-ficha__link:hover { text-decoration: underline; }.salon-ficha__actions { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+    @media (max-width: 640px) { .salon-ficha__actions { flex-direction: column; } .salon-ficha__actions .btn { width: 100%; justify-content: center; text-align: center; } }.salon-editorial { margin-bottom: 2rem; }.salon-editorial__heading { font-family: var(--font-head); font-weight: 900; font-size: 1.3rem; margin: 0 0 1rem; }.salon-editorial__subheading { font-family: var(--font-head); font-weight: 800; font-size: 1.1rem; margin: 1.5rem 0 0.75rem; }.salon-editorial p { font-size: 0.95rem; color: var(--c-text-muted); line-height: 1.8; margin: 0 0 1rem; }.salon-editorial strong { color: var(--c-text); }.salon-servicios { margin-bottom: 2.5rem; }.salon-servicios__heading { font-family: var(--font-head); font-weight: 900; font-size: 1.2rem; margin: 0 0 0.5rem; }.salon-servicios__intro { font-size: 0.9rem; color: var(--c-text-muted); line-height: 1.7; margin: 0 0 1.5rem; }.salon-servicios__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
     @media (max-width: 768px) { .salon-servicios__grid { grid-template-columns: repeat(2, 1fr); } }
-    @media (max-width: 640px) { .salon-servicios__grid { grid-template-columns: 1fr; } }
-    .salon-servicios .product-card__image { min-height: 80px; }
-    .salon-servicios .product-card__name { font-size: 0.85rem; }
-    .salon-servicios .product-card__desc { font-size: 0.8rem; }
-
-    .dir-tip { display: flex; align-items: flex-start; gap: 1rem; background: #FFF8E1; border: 1px solid #FFE0B2; border-radius: 12px; padding: 1.25rem 1.5rem; }
-    .dir-tip__icon { font-size: 1.5rem; flex-shrink: 0; }
-    .dir-tip__content { flex: 1; }
-    .dir-tip__title { font-family: var(--font-head); font-weight: 800; font-size: 0.95rem; margin: 0 0 0.35rem; color: var(--c-text); }
-    .dir-tip__text { font-size: 0.85rem; color: var(--c-text-muted); line-height: 1.6; margin: 0; }
-    @media (max-width: 640px) { .dir-tip { flex-direction: column; } .dir-tip .btn { width: 100%; text-align: center; } }
-
-    .sidebar-card { background: #fff; border-radius: var(--r-card); padding: 1.25rem; box-shadow: var(--shadow-sm); border: 1px solid var(--c-border); margin-bottom: 1.25rem; }
-    .sidebar-card--cta { background: linear-gradient(135deg, #FFF8E1, #FFF3E0); border-color: #FFE0B2; }
-    .sidebar-card--highlight { background: linear-gradient(135deg, #EDE7F6, #E8EAF6); border-color: #D1C4E9; }
-    .sidebar-card__cta-badge { font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: var(--c-primary); margin-bottom: 0.5rem; }
-    .sidebar-card__title { font-family: var(--font-head); font-weight: 800; font-size: 0.95rem; margin: 0 0 0.5rem; color: var(--c-text); }
-    .sidebar-card__text { font-size: 0.85rem; color: var(--c-text-muted); line-height: 1.6; margin: 0 0 1rem; }
-    .sidebar-card__btn { display: block; width: 100%; text-align: center; margin-bottom: 0.5rem; }
-    .sidebar-card__list { display: flex; flex-direction: column; }
-    .sidebar-card__list-item { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.6rem 0; border-bottom: 1px solid var(--c-border); text-decoration: none; color: inherit; }
-    .sidebar-card__list-item:last-child { border-bottom: none; }
-    .sidebar-card__list-item--link:hover { background: var(--c-bg-alt); margin: 0 -0.5rem; padding: 0.6rem 0.5rem; border-radius: 8px; }
-    .sidebar-card__list-name { font-family: var(--font-head); font-weight: 700; font-size: 0.85rem; margin: 0; color: var(--c-text); }
-    .sidebar-card__arrow { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; flex-shrink: 0; }
-    .sidebar-card__link { display: block; text-align: center; font-family: var(--font-head); font-weight: 700; font-size: 0.8rem; color: var(--c-primary); text-decoration: none; margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid var(--c-border); }
-    .sidebar-card__link:hover { text-decoration: underline; }
+    @media (max-width: 640px) { .salon-servicios__grid { grid-template-columns: 1fr; } }.salon-servicios .product-card__image { min-height: 80px; }.salon-servicios .product-card__name { font-size: 0.85rem; }.salon-servicios .product-card__desc { font-size: 0.8rem; }.dir-tip { display: flex; align-items: flex-start; gap: 1rem; background: #FFF8E1; border: 1px solid #FFE0B2; border-radius: 12px; padding: 1.25rem 1.5rem; }.dir-tip__icon { font-size: 1.5rem; flex-shrink: 0; }.dir-tip__content { flex: 1; }.dir-tip__title { font-family: var(--font-head); font-weight: 800; font-size: 0.95rem; margin: 0 0 0.35rem; color: var(--c-text); }.dir-tip__text { font-size: 0.85rem; color: var(--c-text-muted); line-height: 1.6; margin: 0; }
+    @media (max-width: 640px) { .dir-tip { flex-direction: column; } .dir-tip .btn { width: 100%; text-align: center; } }.sidebar-card { background: #fff; border-radius: var(--r-card); padding: 1.25rem; box-shadow: var(--shadow-sm); border: 1px solid var(--c-border); margin-bottom: 1.25rem; }.sidebar-card--cta { background: linear-gradient(135deg, #FFF8E1, #FFF3E0); border-color: #FFE0B2; }.sidebar-card--highlight { background: linear-gradient(135deg, #EDE7F6, #E8EAF6); border-color: #D1C4E9; }.sidebar-card__cta-badge { font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: var(--c-primary); margin-bottom: 0.5rem; }.sidebar-card__title { font-family: var(--font-head); font-weight: 800; font-size: 0.95rem; margin: 0 0 0.5rem; color: var(--c-text); }.sidebar-card__text { font-size: 0.85rem; color: var(--c-text-muted); line-height: 1.6; margin: 0 0 1rem; }.sidebar-card__btn { display: block; width: 100%; text-align: center; margin-bottom: 0.5rem; }.sidebar-card__list { display: flex; flex-direction: column; }.sidebar-card__list-item { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.6rem 0; border-bottom: 1px solid var(--c-border); text-decoration: none; color: inherit; }.sidebar-card__list-item:last-child { border-bottom: none; }.sidebar-card__list-item--link:hover { background: var(--c-bg-alt); margin: 0 -0.5rem; padding: 0.6rem 0.5rem; border-radius: 8px; }.sidebar-card__list-name { font-family: var(--font-head); font-weight: 700; font-size: 0.85rem; margin: 0; color: var(--c-text); }.sidebar-card__arrow { font-size: 0.85rem; color: var(--c-primary); font-weight: 700; flex-shrink: 0; }.sidebar-card__link { display: block; text-align: center; font-family: var(--font-head); font-weight: 700; font-size: 0.8rem; color: var(--c-primary); text-decoration: none; margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid var(--c-border); }.sidebar-card__link:hover { text-decoration: underline; }
 
     @media (max-width: 1024px) { .page-layout__sidebar { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; } .sidebar-card { margin-bottom: 0; } }
     @media (max-width: 640px) { .page-layout__sidebar { grid-template-columns: 1fr; } }

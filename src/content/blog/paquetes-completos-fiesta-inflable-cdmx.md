@@ -106,16 +106,16 @@ Las series de luces LED cálidas transforman cualquier jardín en un espacio má
 
 ### Sonido
 
-Una bocina Bluetooth de buena potencia con micrófono inalámbrico permite poner música durante la fiesta, hacer anuncios (la hora del pastel, el momento de la piñata) y coordinar juegos o dinámicas. Es un servicio que individualmente cuesta $500-800 MXN pero en paquete viene incluido.
+Una bocina Bluetooth de buena potencia con micrófono inalámbrico permite poner música durante la fiesta, hacer anuncios (la hora del pastel, el momento de la piñata) y coordinar juegos o dinámicas. Es un servicio que suele contratarse aparte y que en varios paquetes ya viene incluido: confirma si el tuyo lo trae antes de rentarlo por separado.
 
 ## Cómo ahorrar dinero en tu paquete de fiesta
 
 Más allá de elegir el paquete, hay estrategias para optimizar tu presupuesto:
 
-- **Fiesta entre semana:** Los precios de lunes a jueves suelen ser 20-30% menores que los de fin de semana. Si el cumpleaños cae entre semana, aprovecha.
-- **Reserva con anticipación:** Muchos proveedores ofrecen descuento del 10% por reservar con 3-4 semanas de anticipación.
-- **Temporada baja:** Enero, febrero y agosto son meses de menor demanda. Los precios pueden bajar hasta un 15%.
-- **Negocia el horario:** Si necesitas solo 5 horas en lugar de 8, pregunta si hay un precio reducido.
+- **Fiesta entre semana:** de lunes a jueves hay mucha más disponibilidad. En BRINCOLINS el precio del inflable es el mismo todos los días, pero otros proveedores de mobiliario y banquete sí manejan tarifas distintas: pregúntalo.
+- **Reserva con anticipación:** no baja el precio, pero es lo único que asegura el modelo que quieres en la fecha que quieres.
+- **Temporada baja:** enero, febrero y agosto son los meses de menor demanda y el margen para negociar con los otros proveedores del paquete es mayor.
+- **Ajusta el horario:** la renta estándar del inflable es de 4 a 6 horas por evento. Si necesitas más o menos tiempo, consúltalo al cotizar.
 - **Paquete compartido:** Si dos familias celebran el mismo día en el mismo lugar, pueden compartir el costo del inflable y el mobiliario.
 
 ## Errores comunes al contratar paquetes

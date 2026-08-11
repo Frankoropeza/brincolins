@@ -36,7 +36,7 @@ Durante mucho tiempo, los inflables estuvieron asociados exclusivamente con **fi
 
 El secreto está en la selección del modelo. No todos los inflables son iguales: mientras que un brincolin de colores primarios con personajes de caricatura desentona en un evento formal, un **[castillo blanco](/inflables/castillo-blanco/) con diseño sofisticado** se integra de forma natural con manteles de lino, arreglos florales y centros de mesa elegantes. La diferencia es abismal, y quienes lo han probado confirman que es una de las mejores inversiones para mantener felices a los invitados más jóvenes.
 
-> **Lo que vemos en cada boda:** cuando hay zona infantil, los papás se quedan más tiempo y disfrutan más la fiesta. Es el comentario que más nos llega después del evento. La ficha del modelo pensado para esto está en la [guía del Castillo Blanco para bodas](/blog/renta-castillo-blanco-inflable-bodas-cdmx/).
+> **Lo que vemos en cada boda:** cuando hay zona infantil, los papás se quedan más tiempo y disfrutan más la fiesta. Es el comentario que más nos llega después del evento. Cómo se ubica, a qué hora abre y quién la supervisa está en la guía de [zona infantil en bodas](/blog/renta-castillo-blanco-inflable-bodas-cdmx/).
 
 ## Tipos de eventos formales donde un inflable funciona
 
