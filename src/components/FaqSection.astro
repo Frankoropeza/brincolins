@@ -110,6 +110,13 @@ const { items, whatsapp = WHATSAPP } = Astro.props;
               </select>
             </div>
 
+            <div class="form-consent">
+              <input type="checkbox" id="pf-consent" name="consentimiento" value="Acepta el aviso de privacidad" required />
+              <label for="pf-consent">
+                Acepto el <a href="/aviso-de-privacidad/" target="_blank" rel="noopener">Aviso de Privacidad</a>
+                y que BRINCOLINS use mis datos para responder esta solicitud.
+              </label>
+            </div>
             <button type="submit" class="pfaq-form__submit">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <use href="#i-wa"/>

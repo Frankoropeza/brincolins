@@ -108,7 +108,7 @@ No todos los inflables caben en todos los espacios. El Mini Jungla y el [Mini Ca
 
 ### Paso 4: Define tu presupuesto total
 
-Recuerda que el inflable no es el único gasto. Calcula cuánto invertirás en decoración, comida, pastel y actividades, y elige una temática que se ajuste al presupuesto total. La buena noticia es que en BRINCOLINS **todos los inflables temáticos tienen precios accesibles** e incluyen transporte, instalación y seguro.
+Recuerda que el inflable no es el único gasto. Calcula cuánto invertirás en decoración, comida, pastel y actividades, y elige una temática que se ajuste al presupuesto total. La buena noticia es que en BRINCOLINS **todos los inflables temáticos tienen precios accesibles** e incluyen transporte, instalación y sanitización.
 
 - **Presupuesto ajustado:** Elige Mini Jungla o Mini Castillo + decoración básica con globos y manteles temáticos. Resultado profesional con inversión mínima.
 - **Presupuesto medio:** Cualquier inflable + decoración completa + 2-3 actividades temáticas + mesa de dulces. La combinación más popular entre nuestros clientes.

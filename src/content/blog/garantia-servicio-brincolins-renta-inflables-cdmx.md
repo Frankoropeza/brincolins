@@ -1,6 +1,6 @@
 ---
 title: "Lo que BRINCOLINS Te Promete el Día de tu Fiesta"
-description: "Rentar un inflable con garantía en CDMX: puntualidad, equipo limpio, seguro incluido y alguien que responde si algo falla. Así opera BRINCOLINS."
+description: "Rentar un inflable con garantía en CDMX: puntualidad, equipo limpio, sanitización garantizada y alguien que responde si algo falla. Así opera BRINCOLINS."
 excerpt: "Una promesa de servicio es fácil de escribir. Lo difícil es cumplirla un sábado lluvioso con tráfico en Periférico y la fiesta empezando en dos horas. Eso es lo que hacemos."
 publishDate: "2026-07-02"
 category: "Empresa"

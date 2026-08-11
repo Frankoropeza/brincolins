@@ -189,7 +189,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       copy2: "Nuestro equipo instala el inflable en jardines, terrazas, patios y salones de fiestas. Cada evento queda documentado para que veas exactamente cómo lucirá el castillo en tu celebración.",
     },
     precios: {
-      copy1: "Un solo precio para tu fiesta de princesas: de 4 a 6 horas de renta con instalación, retiro y seguro incluidos sin costo adicional. Sin escalera de paquetes ni cargos sorpresa el día del evento.",
+      copy1: "Un solo precio para tu fiesta de princesas: de 4 a 6 horas de renta con instalación y retiro incluidos sin costo adicional. Sin escalera de paquetes ni cargos sorpresa el día del evento.",
       copy2: "Los precios son en pesos mexicanos antes de IVA e incluyen entrega, instalación profesional y recolección al terminar. Reserva con el 50% de anticipo para asegurar tu fecha.",
     },
     relacionados: {
@@ -561,7 +561,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     },
     precios: {
       copy1: "Un solo precio para tu fiesta safari o de dinosaurios: la Mini Jungla se renta de 4 a 6 horas, la duración típica de un cumpleaños o de una kermés escolar.",
-      copy2: "Precios en pesos mexicanos antes de IVA. La renta incluye todo lo necesario para un evento sin complicaciones: instalación, retiro, motor y seguro. Reserva con el 50% de anticipo.",
+      copy2: "Precios en pesos mexicanos antes de IVA. La renta incluye todo lo necesario para un evento sin complicaciones: instalación, retiro, motor y sanitización. Reserva con el 50% de anticipo.",
     },
     relacionados: {
       copy1: "Explora más opciones para tu fiesta: los Gusanitos son perfectos para temática tropical, el Castillo de Princesas para niñas, los Dragones Rojos para aventuras medievales y el Barco Pirata para grupos más grandes.",

@@ -78,9 +78,10 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
           <span class="pf__cat-dot"></span>
           Más popular
         </span>
+        {/* Antes: "★★★★★ 5.0 · +200 rentas", idéntico en los 8 modelos y sin
+            fuente. Se sustituye por un dato que sí es verificable. */}
         <div class="pf__rating">
-          <span class="pf__stars">★★★★★</span>
-          <span class="pf__rating-text">5.0 · +200 rentas</span>
+          <span class="pf__rating-text">+20 años rentando en CDMX y Edomex</span>
         </div>
       </div>
 
@@ -93,9 +94,11 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
           <span class="pf__price">{price} <span class="pf__price-currency">MXN</span></span>
           <span class="pf__price-note">por evento · entrega incluida</span>
         </div>
+        {/* "Disponible hoy" era estático en los 8 modelos: una promesa de
+            inventario que ningún sistema respalda. */}
         <div class="pf__availability">
           <span class="pf__avail-dot"></span>
-          Disponible hoy
+          Consulta tu fecha
         </div>
       </div>
 

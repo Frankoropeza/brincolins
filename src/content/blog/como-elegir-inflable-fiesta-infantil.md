@@ -31,7 +31,7 @@ howto:
     - name: "Verifica la conexión eléctrica"
       text: "El motor inflador necesita una toma de corriente doméstica a menos de 30 metros. BRINCOLINS incluye la extensión eléctrica."
     - name: "Ajusta al presupuesto y tema de la fiesta"
-      text: "Elige el modelo según la temática (princesas, piratas, jungla) y tu presupuesto: los precios van de $800 a $1,900 MXN con entrega, instalación, sanitización y seguro incluidos."
+      text: "Elige el modelo según la temática (princesas, piratas, jungla) y tu presupuesto: los precios van de $800 a $1,900 MXN con entrega, instalación, sanitización y recolección incluidas."
     - name: "Cotiza y reserva por WhatsApp"
       text: "Envía fecha, zona y modelo al 55 3128 1706. Confirma disponibilidad en minutos y aparta con el 50% de anticipo."
 faqs:

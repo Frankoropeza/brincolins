@@ -448,7 +448,10 @@ img, picture, video, svg, iframe { max-width: 100%; }
   .footer { padding-top: 2.5rem !important; }
   .footer__grid { gap: 1.25rem !important; }
   .footer__col-title { font-size: 0.925rem; margin-bottom: 0.875rem; }
-  .footer__link { padding: 0.35rem 0; font-size: 0.85rem; display: inline-block; }
+  /* Antes: display:inline-block. Los enlaces se pegaban en una sola línea y
+     "Naucalpan y Satélite Todos los municipios Edomex" se leía como una
+     frase, no como dos destinos. global.css ya los declara block. */
+  .footer__link { padding: 0.4rem 0; font-size: 0.85rem; }
   .footer__contact-item { font-size: 0.85rem; }
   .footer__brand-logo { font-size: 1.2rem; }
   .footer__brand-desc { font-size: 0.85rem; }

@@ -8,7 +8,7 @@ import SectionHeader  from "@/components/SectionHeader.astro";
 import QuickNav       from "@/components/QuickNav.astro";
 
 const title = "Renta de Inflables y Brincolines en CDMX | BRINCOLINS";
-const description = "Renta de brincolines e inflables para fiestas infantiles en CDMX y Edomex. Castillos, barco pirata y más desde $800 MXN. Entrega, instalación y seguro incluidos. Cotiza hoy.";
+const description = "Renta de brincolines e inflables para fiestas infantiles en CDMX y Edomex. Castillos, barco pirata y más desde $800 MXN. Entrega, instalación y recolección incluidas. Cotiza hoy.";
 
 const productos = [
   { slug: "dragones-rojos", emoji: "", name: "Dragones Rojos", description: "El inflable más rentado en CDMX y Estado de México. Dos dragones gigantes con resbaladilla integrada y mallas de seguridad.", price: "$1,200", size: "4×4×3.8m", ages: "4-10 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
@@ -28,12 +28,12 @@ const testimonios = [
   { name: "MESPIC", location: "mesaspicnic.com · CDMX", text: "En fiestas infantiles al aire libre, los inflables de BRINCOLINS y nuestras bancas de madera se reparten el espacio sin pisarse: los niños juegan en un lado y se sientan a comer en el otro. Su equipo llega temprano, monta ordenado y no interfiere con los demás proveedores. Ya los incluimos en nuestras recomendaciones para quienes buscan inflables.", isPartner: true, partnerUrl: "https://mesaspicnic.com", partnerEmoji: "🧺" },
   { name: "INFLABLEE", location: "inflablee.com · CDMX", text: "Somos colegas en el mismo giro y eso hace que la referencia valga más. Cuando tenemos la agenda llena o un cliente necesita zona que nosotros no cubrimos, BRINCOLINS es a quien llamamos. Mismo estándar de limpieza, puntualidad y supervisión. Se nota que cuidan su operación igual que nosotros la nuestra.", isPartner: true, partnerUrl: "", partnerEmoji: "🎡" },
   { name: "INFLAPY", location: "inflapy.com · CDMX", text: "Treinta años en el giro te enseñan a reconocer quién trabaja bien. BRINCOLINS tiene el estándar que uno espera de un aliado serio: inflables limpios, equipo puntual y operación sin contratiempos. Cuando un cliente nos busca en fechas que ya tenemos comprometidas, es la primera empresa que recomendamos. Y nunca hemos recibido una queja.", isPartner: true, partnerUrl: "https://inflapy.com", partnerEmoji: "🎠" },
-  { name: "PANTALLA LED", location: "pantalla-led.com · Edomex", text: "Contraté el Barco Pirata para el cumpleaños de mi hijo y fue todo un éxito. Muy profesionales, seguros y a un precio justo. 100% recomendados.", isPartner: true, partnerUrl: "https://pantalla-led.com/", partnerEmoji: "💡" },
+  { name: "PANTALLA LED", location: "pantalla-led.com · Edomex", text: "Coincidimos con BRINCOLINS en eventos donde montamos pantalla y ellos inflables. Llegan a tiempo, montan sin estorbar al resto de proveedores y dejan el área limpia. Es el tipo de aliado que uno recomienda sin pensarlo.", isPartner: true, partnerUrl: "https://pantalla-led.com/", partnerEmoji: "💡" },
   { name: "Karla Domínguez", location: "Tlalnepantla, Edomex",   text: "Perfecto para la kermesse de la escuela. Coordinaron 3 inflables al mismo tiempo sin ningún problema. Los papás y los niños quedaron encantados." },
 ];
 
 const faqs = [
-  { question: "¿Cuáles son los precios de renta de inflables?", answer: "Nuestros precios van desde $800 MXN por evento (Mini Castillo). Los inflables medianos como Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos van de $1,200 a $1,350 MXN. Los grandes como el Castillo Blanco, el Barco Pirata y el Extremo arrancan en $1,700 MXN. Todos incluyen entrega, instalación, motor inflador, seguro y recolección." },
+  { question: "¿Cuáles son los precios de renta de inflables?", answer: "Nuestros precios van desde $800 MXN por evento (Mini Castillo). Los inflables medianos como Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos van de $1,200 a $1,350 MXN. Los grandes como el Castillo Blanco, el Barco Pirata y el Extremo arrancan en $1,700 MXN. Todos incluyen entrega, instalación, motor inflador, sanitización y recolección." },
   { question: "¿Qué incluye el servicio de renta?", answer: "Incluye entrega a domicilio, instalación profesional, motor/soplador silencioso, limpieza y sanitización del inflable y recolección al finalizar el evento. Sin costos ocultos ni sorpresas." },
   { question: "¿Los inflables son seguros para los niños?", answer: "Absolutamente. Todos nuestros inflables se revisan, limpian y desinfectan antes de cada evento. Están fabricados con materiales de grado comercial certificados en resistencia y seguridad." },
   { question: "¿Para qué edades son los inflables?", answer: "Tenemos inflables para todas las edades: el Mini Castillo es ideal para bebés de 1 a 4 años; los medianos como Dragones Rojos y Castillo de Princesas son perfectos de 3 a 10 años; y los grandes como el Barco Pirata o el Extremo funcionan para niños de 3 a 14 años e incluso adultos." },
@@ -157,7 +157,7 @@ const eventos = [
             Renta de <span class="highlight">Inflables</span> y <span class="highlight">Brincolines</span> para <span class="highlight">Fiestas</span> en CDMX
           </h1>
           <p class="hero__desc">
-            Brincolines, castillos inflables, barcos pirata y circuitos de obstáculos para cumpleaños, kermeses y eventos corporativos. Entrega, instalación, limpieza y seguro incluidos en toda la Zona Metropolitana.
+            Brincolines, castillos inflables, barcos pirata y circuitos de obstáculos para cumpleaños, kermeses y eventos corporativos. Entrega, instalación, limpieza y recolección incluidas en toda la Zona Metropolitana.
           </p>
 
           <div class="hero__ctas">
@@ -168,7 +168,6 @@ const eventos = [
             <a href="/inflables/" class="btn btn-outline btn-outline--white btn-lg">Ver catálogo</a>
           </div>
           <p class="hero__trust-line">
-            <span class="hero__stars" aria-hidden="true">★★★★★</span>
             <span>+20 años · miles de fiestas en CDMX y Edomex · entrega e instalación incluida</span>
           </p>
         </div>
@@ -256,7 +255,6 @@ const eventos = [
               <img src={e.image} alt={e.alt} loading="lazy" width="720" height="480" />
               <span class="product-card__category">{e.category}</span>
               <div class="product-card__overlay">
-                <div class="product-card__stars">★★★★★</div>
                 <span class="product-card__price">{e.headline}</span>
               </div>
             </div>
@@ -609,11 +607,11 @@ const eventos = [
   <section class="section section--alt">
     <div class="container">
       <SectionHeader
-        badge="Opiniones verificadas"
-        title="Lo que Dicen Nuestros Clientes y Aliados"
-        subtitle="Más de 500 familias y empresas nos han confiado sus eventos en CDMX y Edomex."
-        copy1="La satisfacción de nuestros clientes es nuestra mejor carta de presentación. Cada reseña refleja nuestro compromiso con la puntualidad, la limpieza de los inflables y la atención personalizada que brindamos en cada evento."
-        copy2="Desde cumpleaños íntimos en Coyoacán hasta grandes kermeses en Naucalpan, cada evento recibe el mismo nivel de dedicación y servicio profesional."
+        badge="Referencias"
+        title="Lo que Dicen Quienes Trabajan con Nosotros"
+        subtitle="Proveedores con los que coincidimos en eventos, y familias que nos han contratado."
+        copy1="La mayoría de estas referencias vienen de empresas del sector de eventos —mesas de dulces, globos, mobiliario, pantallas— con las que compartimos montaje en fiestas de CDMX y Edomex. Son quienes ven de cerca cómo trabaja nuestro equipo."
+        copy2="Están marcadas como aliado comercial para que sepas de dónde viene cada opinión. Las de clientes aparecen con su nombre y su zona."
       />
 
       <div class="testi-grid">
@@ -630,7 +628,9 @@ const eventos = [
           ];
           return (
             <div class={`testi-card${t.isPartner ? ' testi-card--highlighted' : ''}`}>
-              <div class="testi-stars">★★★★★</div>
+              <span class={`testi-tag${t.isPartner ? ' testi-tag--partner' : ''}`}>
+                {t.isPartner ? 'Aliado comercial' : 'Cliente'}
+              </span>
               <p class="testi-card__text">"{t.text}"</p>
               <div class="testi-card__author">
                 {t.isPartner

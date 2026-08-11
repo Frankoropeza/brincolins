@@ -2631,3 +2631,115 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
 }
 .lead-noscript a { color: inherit; font-weight: 700; }
+
+/* ══════════════════════════════════════════════════════════════
+   Footer — bloque legal y redes (ago 2026)
+   ──────────────────────────────────────────────────────────────
+   Antes el footer no tenía aviso de privacidad, términos, política
+   de cancelación, horario ni una sola red social.
+   ══════════════════════════════════════════════════════════════ */
+.footer__legal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: .35rem .75rem;
+  padding: 1.5rem 0 0;
+  margin-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, .12);
+}
+
+.footer__legal-link {
+  color: rgba(255, 255, 255, .82); /* 12.8:1 sobre #1A1A2E */
+  font-size: .875rem;
+  text-decoration: none;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.footer__legal-link:hover { color: #fff; text-decoration: underline; }
+
+.footer__legal-sep { color: rgba(255, 255, 255, .35); }
+
+.footer__social {
+  display: flex;
+  gap: .6rem;
+  margin-top: 1rem;
+}
+
+.footer__social-link {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .1);
+  color: rgba(255, 255, 255, .9);
+  transition: background .15s ease, color .15s ease;
+}
+.footer__social-link:hover { background: var(--c-primary); color: #fff; }
+
+@media (max-width: 640px) {
+  .footer__legal { gap: .1rem .6rem; }
+  .footer__legal-link { font-size: .8125rem; }
+}
+
+/* ══════════════════════════════════════════════════════════════
+   Consentimiento de privacidad en formularios
+   ══════════════════════════════════════════════════════════════ */
+.form-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: .6rem;
+  margin: 1rem 0 .25rem;
+  font-size: .85rem;
+  line-height: 1.5;
+  color: var(--c-text-muted);
+}
+
+.form-consent input[type="checkbox"] {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  margin-top: .1rem;
+  accent-color: var(--c-primary);
+  cursor: pointer;
+}
+
+.form-consent label { cursor: pointer; }
+.form-consent a { color: var(--c-primary-text); font-weight: 600; }
+
+/* ══════════════════════════════════════════════════════════════
+   Etiqueta de origen en testimonios (ago 2026)
+   ──────────────────────────────────────────────────────────────
+   Sustituye a las ★★★★★ fijas de las tarjetas. 7 de los 8
+   testimonios son de empresas aliadas del sector, no de clientes:
+   decirlo de frente vale más que fingir que son reseñas.
+   ══════════════════════════════════════════════════════════════ */
+.testi-tag {
+  display: inline-block;
+  padding: .2rem .6rem;
+  border-radius: 999px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  background: #E8F0FE;
+  color: #1A4FA0; /* 7.1:1 sobre #E8F0FE */
+}
+
+.testi-tag--partner {
+  background: #FFF1E6;
+  color: #A34700; /* 5.4:1 sobre #FFF1E6 */
+}
+
+.footer__disclaimer {
+  max-width: 92ch;
+  margin: .9rem 0 0;
+  padding-bottom: .25rem;
+  font-size: .72rem;
+  line-height: 1.55;
+  font-weight: 400;
+  color: rgba(255, 255, 255, .58);
+}
+.footer__disclaimer a { color: rgba(255, 255, 255, .78); text-decoration: underline; }

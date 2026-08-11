@@ -45,7 +45,9 @@ const waHref = `https://wa.me/${whatsapp}?text=${waMsg}`;
     )}
     <span class="product-card__category">{category}</span>
     <div class="product-card__overlay">
-      <div class="product-card__stars">★★★★★</div>
+      {/* Se retiraron las ★★★★★ fijas (ago 2026): afirmaban 5/5 en 29 páginas
+          sin ninguna reseña detrás, mientras el schema —correctamente— no
+          declara aggregateRating. Volverán cuando haya reseñas reales. */}
       <span class="product-card__price">{price}</span>
     </div>
   </div>

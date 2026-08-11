@@ -38,6 +38,36 @@ export const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
    ────────────────────────────────────────────────────────────── */
 export const GA4_ID = "";
 
+/* ──────────────────────────────────────────────────────────────
+   Perfiles públicos — sameAs del schema + enlaces del footer
+   ──────────────────────────────────────────────────────────────
+   PENDIENTE: pegar las URLs cuando existan los perfiles.
+
+   Esto es lo que conecta el dominio con la entidad de negocio a
+   ojos de Google. Sin `sameAs` apuntando a una ficha de Google
+   Business Profile, Google no asocia brincolins.com con el negocio
+   local — y el Local Pack ocupa la posición 1-2 en las cuatro
+   keywords principales del nicho.
+
+   Sólo se emiten en el HTML las entradas con URL: las cadenas
+   vacías se filtran, así que no hay enlaces rotos ni sameAs vacíos.
+   Ver GUIA-PRESENCIA-LOCAL.md en la raíz del repo.
+   ────────────────────────────────────────────────────────────── */
+export const SOCIAL_PROFILES = {
+  /** Ficha de Google Business Profile (el enlace "Ver perfil de empresa"). */
+  google:    "",
+  facebook:  "",
+  instagram: "",
+  tiktok:    "",
+} as const;
+
+/** URLs no vacías, listas para `sameAs`. */
+export const SAME_AS: string[] = Object.values(SOCIAL_PROFILES).filter(Boolean);
+
+/* Enlace directo para pedir reseñas. Se obtiene en el panel de Google
+   Business Profile → Pide reseñas. Formato: https://g.page/r/XXXX/review */
+export const GOOGLE_REVIEW_URL = "";
+
 /**
  * Genera URL de WhatsApp con mensaje preformateado.
  * @param message Texto del mensaje (sin encodear)

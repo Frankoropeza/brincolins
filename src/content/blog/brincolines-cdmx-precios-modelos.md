@@ -23,7 +23,7 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Cuánto cuesta rentar un brincolín en CDMX?"
-    answer: "Los precios van desde $800 MXN para modelos básicos como el Mini Castillo, hasta $1,900 MXN para inflables grandes como el Extremo. El precio incluye transporte, instalación, seguro y retiro."
+    answer: "Los precios van desde $800 MXN para modelos básicos como el Mini Castillo, hasta $1,900 MXN para inflables grandes como el Extremo. El precio incluye transporte, instalación, sanitización y retiro."
   - question: "¿El precio incluye transporte e instalación?"
     answer: "Sí. En BRINCOLINS el precio que te cotizamos es todo incluido: transporte a tu domicilio en CDMX o Estado de México, instalación profesional, uso durante tu evento y retiro al finalizar. Sin costos ocultos."
   - question: "¿Hay descuento si rento más de un inflable?"
@@ -113,7 +113,7 @@ En un mercado con muchos proveedores, la diferencia no siempre es el precio — 
 
 - **Más de 20 años de trayectoria:** No somos improvisados. Conocemos cada colonia de CDMX, cada tipo de espacio, cada posible complicación logística.
 - **Inflables en excelente estado:** Renovamos nuestro inventario constantemente. No verás inflables descoloridos ni parchados.
-- **Todo incluido de verdad:** Transporte, instalación, seguro, sanitización y retiro. El precio que ves es el precio que pagas.
+- **Todo incluido de verdad:** Transporte, instalación, sanitización y retiro. El precio que ves es el precio que pagas.
 - **Atención por WhatsApp en tiempo real:** Cotizamos en minutos, no en días. Respondemos dudas antes, durante y después del evento.
 - **Flexibilidad:** ¿Cambió tu fecha? ¿Necesitas otro modelo? Nos adaptamos sin problema ni penalizaciones.
 - **Garantía de satisfacción:** Si el inflable falla durante tu evento, lo reemplazamos o te devolvemos tu dinero.

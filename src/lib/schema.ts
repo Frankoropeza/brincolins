@@ -8,7 +8,7 @@
  *  - Cada función devuelve un objeto listo para JSON.stringify().
  */
 
-import { SITE_URL, SITE_NAME, PHONE_TEL, EMAIL } from "@/data/site";
+import { SITE_URL, SITE_NAME, PHONE_TEL, EMAIL, SAME_AS } from "@/data/site";
 
 const SITE = SITE_URL;
 const LOGO = `${SITE}/img/brincolins-logo.png`;
@@ -50,8 +50,13 @@ export function buildOrganizationSchema() {
     "@id": `${SITE}/#org`,
     "name": SITE_NAME,
     "url": SITE,
+    /* sameAs vincula el dominio con la entidad de negocio (ficha de Google
+       Business Profile y perfiles sociales). Se omite mientras no haya
+       perfiles: un sameAs vacío no aporta y ensucia el schema.
+       Pegar las URLs en SOCIAL_PROFILES de src/data/site.ts. */
+    ...(SAME_AS.length ? { "sameAs": SAME_AS } : {}),
     "logo": { "@type": "ImageObject", "url": LOGO },
-    "description": "Renta de inflables para fiestas infantiles en CDMX y Estado de México. Más de 20 años de experiencia. Entrega, instalación y seguro incluidos.",
+    "description": "Renta de inflables para fiestas infantiles en CDMX y Estado de México. Más de 20 años de experiencia. Entrega, instalación y recolección incluidas.",
     "telephone": PHONE_TEL,
     "email": EMAIL,
     "address": {
@@ -81,6 +86,7 @@ export function buildLocalBusinessSchema() {
     "@id": `${SITE}/#negocio`,
     "name": `${SITE_NAME} — Renta de Inflables CDMX`,
     "url": SITE,
+    ...(SAME_AS.length ? { "sameAs": SAME_AS } : {}),
     "logo": LOGO,
     "image": OG,
     "description": "Empresa líder en renta de inflables y brincolines para fiestas infantiles en CDMX y Estado de México. Más de 20 años de experiencia, entrega e instalación incluida.",
@@ -89,16 +95,15 @@ export function buildLocalBusinessSchema() {
     "priceRange": "$800 - $1,900",
     "currenciesAccepted": "MXN",
     "paymentAccepted": "Transferencia, Tarjeta, Efectivo",
+    /* Un solo horario, alineado con lo visible. Antes el schema declaraba
+       Lun-Vie 09:00-19:00 mientras la topbar de la MISMA página decía
+       "Lun–Dom 8:00–20:00": Google penaliza structured data que no coincide
+       con el contenido visible, y el usuario recibía dos horarios distintos.
+       Fuente única: src/data/topbar.md. */
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "09:00",
-        "closes": "19:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
         "opens": "08:00",
         "closes": "20:00",
       },
