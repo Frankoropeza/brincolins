@@ -137,15 +137,11 @@ const serviceSchema = {
       "priceCurrency": "MXN",
       "availability":  "https://schema.org/InStock",
       "seller":        { "@id": `${SITE_URL}/#org` },
-      "itemOffered": {
-        "@type":       "Product",
-        "name":        i.name,
-        "url":         `${SITE_URL}/inflables/${i.slug}/`,
-        "image":       `${SITE_URL}${i.image}`,
-        "category":    "Renta de Inflables",
-        "size":        i.size,
-        "audience":    { "@type": "PeopleAudience", "suggestedMinAge": parseInt(i.ages, 10) || 1 },
-      },
+      /* Sin Product anidado: Google exigía offers/review/aggregateRating
+         al Product y marcaba 35 páginas con error de rich results. */
+      "name":          `Renta de ${i.name}`,
+      "image":         `${SITE_URL}${i.image}`,
+      "category":      "Renta de Inflables",
     })),
   },
 };
@@ -182,6 +178,7 @@ const serviceSchema = {
             Renta de Inflables en <span class="highlight">{zonePhrase}</span>
           </h1>
           <p class="hero__desc">{zone.heroDesc}</p>
+          <p class="hero__desc hero__desc--links">Mismo servicio de <a href="/">renta de inflables en CDMX</a> y <a href="/inflables/brincolines/">renta de brincolines</a> de todo el catálogo BRINCOLINS, con entrega en {zonePhrase}.</p>
           <div class="hero__ctas">
             <a href="/cotizar/" class="btn btn-primary btn-lg">Solicitar cotización</a>
             <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
@@ -349,7 +346,9 @@ const serviceSchema = {
     variant={zone.ctaBannerVariant}
   />
 
-  <style>.inflable-rec-card {
+  <style>.hero__desc--links { font-size: 0.95rem; margin-top: -0.5rem; }
+  .hero__desc--links a { color: inherit; text-decoration: underline; text-underline-offset: 3px; font-weight: 600; }
+  .inflable-rec-card {
       display: block;
       text-decoration: none;
       border-radius: 12px;

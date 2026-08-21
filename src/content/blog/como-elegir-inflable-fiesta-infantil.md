@@ -1,7 +1,7 @@
 ---
-title: "Cómo Elegir el Inflable Perfecto para tu Fiesta en CDMX"
-h1: "Cómo Elegir el Inflable Perfecto para tu Fiesta Infantil"
-description: "Guía para elegir el inflable ideal según la edad, el espacio y el tipo de evento. Consejos de expertos BRINCOLINS para tu fiesta infantil."
+title: "Inflables para Fiestas: Cómo Elegir el Ideal para tu Evento en CDMX"
+h1: "Inflables para Fiestas: Cómo Elegir el Perfecto para tu Fiesta Infantil"
+description: "Guía de inflables para fiestas: cómo elegir el ideal según edad, espacio, temática y presupuesto. Consejos de BRINCOLINS para tu fiesta infantil en CDMX."
 excerpt: "Tamaño, edad, espacio disponible, conexión eléctrica y presupuesto: todo lo que necesitas considerar para no equivocarte al rentar un brincolín en CDMX o Estado de México."
 publishDate: "2025-03-15"
 category: "Guías"
