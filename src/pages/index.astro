@@ -11,6 +11,30 @@ import TablaComparativa from "@/components/TablaComparativa.astro";
 import { CATEGORIAS_P1, inflablesDeCategoria } from "@/data/categorias";
 import { INFLABLES_ACTIVOS, MODELOS_COUNT, PRICE_NOTE_LONG } from "@/data/inflables";
 
+/* ── Rangos de precio para el bloque "¿Cuánto cuesta?" ──────────────
+   Los tres tramos y sus cifras se DERIVAN del catálogo: si mañana entra
+   un modelo nuevo o cambia un precio en inflables.ts, las tarjetas y el
+   párrafo de respuesta se actualizan solos. Ninguna cifra va a mano. */
+const fmt = (n: number) => "$" + n.toLocaleString("en-US");
+const tramo = (label: string, cats: string[]) => {
+  const items = INFLABLES_ACTIVOS.filter(i => cats.includes(i.category));
+  const min = Math.min(...items.map(i => i.priceNumber));
+  const max = Math.max(...items.map(i => i.priceNumber));
+  return {
+    label,
+    items,
+    precio: min === max ? fmt(min) : `${fmt(min)} – ${fmt(max)}`,
+    edades: items[0].ages,
+    espacio: items.reduce((a, b) =>
+      parseFloat(a.spaceRequired) <= parseFloat(b.spaceRequired) ? a : b).spaceRequired,
+  };
+};
+const RANGOS = [
+  { ...tramo("Chicos",   ["pequeño"]),            nota: "Bebés y niños pequeños. Únicos que caben bajo techo.",           destacado: false },
+  { ...tramo("Medianos", ["mediano"]),            nota: "La medida más rentada para una fiesta infantil promedio.",       destacado: true  },
+  { ...tramo("Grandes",  ["grande", "premium"]),  nota: "Con tobogán o circuito de obstáculos, para eventos numerosos.",   destacado: false },
+];
+
 const title = "Renta de Inflables y Brincolines en CDMX | BRINCOLINS";
 const description = "Renta de brincolines e inflables para fiestas infantiles en CDMX y Edomex. 8 modelos desde $800 MXN con entrega e instalación incluidas. Cotiza por WhatsApp.";
 
@@ -204,43 +228,6 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
   </section>
 
   <QuickNav />
-
-
-  <!-- ═══════════════════════════════════════════════════════════
-       RESPUESTA DIRECTA — captura de AI Overview y PAA
-       La SERP de "renta de inflables" abre con un AI Overview y con
-       cuatro preguntas de People Also Ask, todas sobre precio. Google
-       cita párrafos que responden con la cifra primero y tablas con
-       datos comparables. Ambas cosas salen de inflables.ts.
-  ═══════════════════════════════════════════════════════════ -->
-  <section class="section respuesta-section" id="cuanto-cuesta">
-    <div class="container">
-      <div class="respuesta-inner">
-        <h2 class="respuesta-title">¿Cuánto cuesta rentar un inflable en CDMX?</h2>
-        <p class="respuesta-lead">
-          Rentar un inflable en la Ciudad de México cuesta <strong>entre $800 y $1,900 MXN por evento</strong>.
-          El precio depende del tamaño: los inflables chicos para bebés cuestan $800 MXN, los medianos para
-          fiestas infantiles de 4 a 10 años van de $1,200 a $1,350 MXN, y los grandes con tobogán o circuito
-          de obstáculos cuestan de $1,700 a $1,900 MXN. La renta cubre el evento completo, de 4 a 6 horas,
-          e incluye entrega a domicilio, instalación, motor inflador, sanitización y recolección.
-        </p>
-        <p class="respuesta-sub">
-          Estos son los {MODELOS_COUNT} modelos que rentamos en CDMX y Estado de México, con el precio y el
-          espacio libre que necesita cada uno:
-        </p>
-        <TablaComparativa
-          inflables={INFLABLES_ACTIVOS}
-          caption="Precios de renta de inflables en CDMX 2026 — medidas, espacio libre y capacidad por modelo"
-        />
-        <p class="respuesta-nota">
-          {PRICE_NOTE_LONG} En municipios distantes del Estado de México aplica un cargo de envío que te
-          indicamos al cotizar. Consulta el desglose completo en
-          <a href="/precios/">precios de renta de inflables</a> o revisa si llegamos a tu colonia en
-          <a href="/renta-de-inflables-cerca-de-mi/">renta de inflables cerca de mí</a>.
-        </p>
-      </div>
-    </div>
-  </section>
 
 
   <!-- CATEGORÍAS DE INFLABLES -->
@@ -804,6 +791,71 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
   </section>
 
 
+  <!-- ═══════════════════════════════════════════════════════════
+       PRECIOS — RESPUESTA DIRECTA
+       Captura del AI Overview y de las preguntas de People Also Ask:
+       la SERP de "renta de inflables" abre con un AI Overview y cuatro
+       PAA, todas sobre precio. Google cita párrafos que dan la cifra
+       primero y tablas con datos comparables — aquí están las dos.
+
+       Va al final, justo antes del CTA: el visitante llega con el
+       catálogo ya visto y la pregunta del precio resuelta, así que el
+       siguiente paso natural es cotizar.
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="section section--alt precios-section" id="cuanto-cuesta">
+    <div class="container">
+      <SectionHeader
+        badge="Precios 2026"
+        title="¿Cuánto cuesta rentar un inflable en CDMX?"
+        subtitle="Tres tramos de precio según el tamaño del inflable. Sin cargos ocultos."
+        copy1="Rentar un inflable en la Ciudad de México cuesta <strong>entre $800 y $1,900 MXN por evento</strong>. El precio depende del tamaño: los inflables chicos para bebés cuestan $800 MXN, los medianos para fiestas infantiles de 4 a 10 años van de $1,200 a $1,350 MXN, y los grandes con tobogán o circuito de obstáculos cuestan de $1,700 a $1,900 MXN."
+        copy2="La renta cubre el evento completo, de 4 a 6 horas, e incluye entrega a domicilio, instalación, motor inflador, sanitización y recolección. El precio que ves es el que pagas: el motor no se cobra aparte y la instalación tampoco."
+      />
+
+      <!-- Tres tramos de precio -->
+      <div class="precio-tramos">
+        {RANGOS.map(r => (
+          <article class:list={["precio-tramo", { "precio-tramo--destacado": r.destacado }]}>
+            {r.destacado && <span class="precio-tramo__flag">Más rentado</span>}
+            <span class="precio-tramo__label">Inflables {r.label.toLowerCase()}</span>
+            <p class="precio-tramo__monto">{r.precio} <span>MXN</span></p>
+            <p class="precio-tramo__nota">{r.nota}</p>
+            <dl class="precio-tramo__specs">
+              <div><dt>Edades</dt><dd>{r.edades}</dd></div>
+              <div><dt>Espacio desde</dt><dd>{r.espacio}</dd></div>
+              <div><dt>Modelos</dt><dd>{r.items.length}</dd></div>
+            </dl>
+            <ul class="precio-tramo__modelos" role="list">
+              {r.items.map(i => (
+                <li><a href={`/inflables/${i.slug}/`}>{i.name}</a> <span>{i.price}</span></li>
+              ))}
+            </ul>
+          </article>
+        ))}
+      </div>
+
+      <!-- Tabla completa a todo el ancho -->
+      <div class="precio-tabla">
+        <p class="precio-tabla__intro">
+          Estos son los {MODELOS_COUNT} modelos que rentamos en CDMX y Estado de México, con el precio
+          y el espacio libre que necesita cada uno:
+        </p>
+        <TablaComparativa
+          inflables={INFLABLES_ACTIVOS}
+          caption="Precios de renta de inflables en CDMX 2026 — medidas, espacio libre y capacidad por modelo"
+        />
+      </div>
+
+      <p class="pilar-foot precio-foot">
+        {PRICE_NOTE_LONG} En municipios distantes del Estado de México aplica un cargo de envío que te
+        indicamos al cotizar. Consulta el desglose completo en
+        <a href="/precios/">precios de renta de inflables</a> o revisa si llegamos a tu colonia en
+        <a href="/renta-de-inflables-cerca-de-mi/">renta de inflables cerca de mí</a>.
+      </p>
+    </div>
+  </section>
+
+
   <!-- CTA FINAL -->
   <section class="cta-final">
     <div class="container">
@@ -821,30 +873,171 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
 </PageLayout>
 
 
-<style>/* Bloque de respuesta directa — captura de AI Overview y PAA. */
-  .respuesta-section { padding-top: 2.5rem; padding-bottom: 2.5rem; }
-  .respuesta-inner { max-width: 1000px; margin: 0 auto; }
-  .respuesta-title {
-    font-size: clamp(1.5rem, 3.2vw, 2rem);
-    font-weight: 800;
-    line-height: 1.2;
+<style>/* ═══ PRECIOS — respuesta directa ═══════════════════════════════
+     Construido con el vocabulario que ya usa el sitio: el borde naranja
+     de 2px y la sombra de .price-box para el tramo destacado, el gris
+     .c-bg-alt y el radio --r-card de .incluye-card para los otros dos,
+     y .pilar-foot tal cual para la nota final. Cero colores nuevos. */
+  .precios-section { padding-top: 3rem; padding-bottom: 3rem; }
+
+  .precio-tramos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+    /* stretch (no start): las tres tarjetas comparten altura aunque una
+       liste 1 modelo y otra 4. Alturas dispares en una fila de tarjetas
+       es zig-zag, y el sitio no lo usa en ningún otro módulo. */
+    align-items: stretch;
+  }
+
+  .precio-tramo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid var(--c-border, #e2e8f0);
+    border-radius: var(--r-card, 16px);
+    padding: 1.5rem 1.35rem;
+  }
+
+  /* El tramo mediano es el que más se renta: recibe el mismo tratamiento
+     que .price-box en el módulo pilar, para que el sitio hable un solo
+     idioma visual cuando quiere destacar un precio. */
+  .precio-tramo--destacado {
+    border: 2px solid var(--c-primary, #FF3D00);
+    box-shadow: 0 4px 24px rgba(255,61,0,.1);
+  }
+
+  .precio-tramo__flag {
+    position: absolute;
+    top: -0.7rem;
+    left: 1.35rem;
+    padding: 0.25rem 0.85rem;
+    border-radius: var(--r-badge, 50px);
+    background: var(--c-primary, #FF3D00);
+    color: #fff;
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 0.72rem;
+    letter-spacing: 0.02em;
+  }
+
+  .precio-tramo__label {
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--c-text-muted, #475569);
+  }
+
+  .precio-tramo__monto {
+    font-family: var(--font-head);
+    font-size: clamp(1.6rem, 2.6vw, 2rem);
+    font-weight: 900;
+    color: var(--c-primary, #FF3D00);
+    line-height: 1.1;
+    margin: 0.35rem 0 0.5rem;
+  }
+  .precio-tramo__monto span {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--c-text-muted, #475569);
+  }
+
+  .precio-tramo__nota {
+    margin: 0 0 1.1rem;
+    min-height: 2.8em;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--c-text-muted, #475569);
+  }
+
+  .precio-tramo__specs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    margin: 0 0 1.1rem;
+    padding: 0.85rem 0;
+    border-top: 1px solid var(--c-border, #e2e8f0);
+    border-bottom: 1px solid var(--c-border, #e2e8f0);
+  }
+  .precio-tramo__specs div { min-width: 0; }
+  .precio-tramo__specs dt {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--c-text-muted, #475569);
+    margin-bottom: 0.15rem;
+  }
+  .precio-tramo__specs dd {
+    margin: 0;
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 0.88rem;
+    color: var(--c-text, #0f172a);
+    line-height: 1.25;
+  }
+
+  .precio-tramo__modelos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .precio-tramo__modelos li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.75rem;
+    padding: 0.4rem 0;
+    font-size: 0.9rem;
+    border-bottom: 1px dashed var(--c-border, #e2e8f0);
+  }
+  .precio-tramo__modelos li:last-child { border-bottom: 0; }
+  .precio-tramo__modelos a {
+    color: var(--c-text, #0f172a);
+    text-decoration: none;
+    font-weight: 600;
+    min-width: 0;
+  }
+  .precio-tramo__modelos a:hover { color: var(--c-primary-text, #C82D00); text-decoration: underline; }
+  .precio-tramo__modelos span {
+    flex-shrink: 0;
+    font-family: var(--font-head);
+    font-weight: 700;
+    color: var(--c-primary-text, #C82D00);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* La tabla ocupa el ancho completo del contenedor: es la pieza que
+     ningún competidor publica y la que Google puede citar entera. */
+  .precio-tabla { margin-bottom: 1.5rem; }
+  .precio-tabla__intro {
     margin: 0 0 1rem;
-    text-wrap: balance;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: var(--c-text-muted, #475569);
   }
-  .respuesta-lead {
-    font-size: 1.0625rem;
-    line-height: 1.75;
-    max-width: 72ch;
-    margin: 0 0 1.25rem;
+
+  .precio-foot { margin-top: 0; }
+  .precio-foot a {
+    color: var(--c-primary-text, #C82D00);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-weight: 700;
   }
-  .respuesta-sub { margin: 0 0 1rem; max-width: 72ch; }
-  .respuesta-nota {
-    margin: 1rem 0 0;
-    font-size: 0.9375rem;
-    line-height: 1.7;
-    max-width: 72ch;
+
+  /* 900px es el breakpoint del sitio y además el punto medido donde el
+     monto "$1,200 – $1,350" deja de caber en una línea dentro de una
+     columna de tres. Debajo se apilan, con la destacada al frente. */
+  @media (max-width: 900px) {
+    .precio-tramos { grid-template-columns: 1fr; gap: 1.25rem; }
+    .precio-tramo--destacado { order: -1; }
   }
-  .respuesta-nota a { text-decoration: underline; text-underline-offset: 3px; font-weight: 600; }
 
   /* ─── Hero Trust Bar ──────────────────────────────────────── */
 .hero__trust {
