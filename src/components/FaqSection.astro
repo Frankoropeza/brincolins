@@ -7,6 +7,12 @@ import { WHATSAPP } from '../data/site';
 interface FaqItem {
   question: string;
   answer:   string;
+  /** Tema de la pregunta (Precio, Instalación, Reserva…). Sustituye al
+      número correlativo: "01, 02, 03" no codificaba nada — estas
+      preguntas no son una secuencia — mientras que el tema deja escanear
+      la lista y saltar a lo que a cada quien le importa. Si una lista no
+      trae tag, se sigue mostrando el número como antes. */
+  tag?:     string;
 }
 interface Props {
   items:     FaqItem[];
@@ -17,6 +23,12 @@ interface Props {
   servicio?: "inflable" | "mobiliario" | "iluminacion";
 }
 const { items, whatsapp = WHATSAPP, servicio = "inflable" } = Astro.props;
+
+/* Fecha mínima del selector: el campo aceptaba fechas pasadas, así que se
+   podía pedir un inflable para el mes anterior. Se fija en la fecha de
+   build; para un sitio estático que se redespliega con cada cambio es
+   suficiente, y el backend de WhatsApp valida de todos modos. */
+const hoy = new Date().toISOString().slice(0, 10);
 
 const COPY = {
   inflable: {
@@ -62,7 +74,9 @@ const COPY = {
       {items.map((item, i) => (
         <details class="pfaq__item">
           <summary class="pfaq__q">
-            <span class="pfaq__num">{String(i + 1).padStart(2, '0')}</span>
+            <span class:list={["pfaq__num", { "pfaq__num--tag": item.tag }]}>
+              {item.tag ?? String(i + 1).padStart(2, '0')}
+            </span>
             <span class="pfaq__qtext">{item.question}</span>
             <span class="pfaq__chevron" aria-hidden="true">
               <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18">
@@ -73,6 +87,26 @@ const COPY = {
           <div class="pfaq__a"><p>{item.answer}</p></div>
         </details>
       ))}
+
+      {/* La columna de preguntas terminaba ~230px antes que la del
+          formulario y dejaba un hueco blanco. En vez de estirar el
+          acordeón, el hueco se llena con la salida natural de quien no
+          encontró su duda. */}
+      <div class="pfaq__more">
+        <p class="pfaq__more-title">¿No está aquí tu pregunta?</p>
+        <p class="pfaq__more-desc">
+          Tenemos el listado completo por temas —precios, espacio, instalación, cobertura y
+          seguridad— o puedes preguntarnos directo: contesta una persona, no un bot.
+        </p>
+        <div class="pfaq__more-actions">
+          <a href="/preguntas-frecuentes/" class="btn btn-secondary btn-sm">Ver todas las preguntas</a>
+          <a href={`https://wa.me/${whatsapp}?text=${encodeURIComponent('Hola BRINCOLINS, tengo una duda sobre la renta de un inflable.')}`}
+             target="_blank" rel="nofollow noopener noreferrer" class="pfaq__more-wa">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#i-wa"/></svg>
+            Preguntar por WhatsApp
+          </a>
+        </div>
+      </div>
     </div>
 
     <!-- ══════ Columna Formulario ══════ -->
@@ -122,12 +156,12 @@ const COPY = {
             <div class="pfaq-form__row">
               <div class="pfaq-form__group">
                 <label class="pfaq-form__label" for="pf-fecha">Fecha del evento *</label>
-                <input class="pfaq-form__input" type="date" id="pf-fecha" name="fecha" required />
+                <input class="pfaq-form__input" type="date" id="pf-fecha" name="fecha" required min={hoy} />
               </div>
               <div class="pfaq-form__group">
                 <label class="pfaq-form__label" for="pf-zona">Colonia / Zona *</label>
                 <input class="pfaq-form__input" type="text" id="pf-zona" name="zona"
-                  placeholder="Ej. Coyoacán, CDMX" required />
+                  placeholder="Ej. Coyoacán" required />
               </div>
             </div>
 
@@ -209,7 +243,41 @@ const COPY = {
 <style>
   /* ── Grid principal ── */.pfaq {
     /* .container ya da max-width y padding lateral */
-  }.pfaq__grid {
+  }.pfaq__more {
+    margin-top: 1.75rem;
+    padding: 1.4rem 1.5rem;
+    background: var(--c-bg-alt, #f8fafc);
+    border: 1px solid var(--c-border, #e2e8f0);
+    border-left: 4px solid var(--c-primary, #FF3D00);
+    border-radius: 0 var(--r-card, 16px) var(--r-card, 16px) 0;
+  }.pfaq__more-title {
+    margin: 0 0 0.4rem;
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 1.05rem;
+    color: var(--c-text, #0f172a);
+  }.pfaq__more-desc {
+    margin: 0 0 1.1rem;
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: var(--c-text-muted, #475569);
+    max-width: 62ch;
+  }.pfaq__more-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem 1.25rem;
+  }.pfaq__more-wa {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-weight: 700;
+    font-size: 0.92rem;
+    color: #0F7A3D;
+    text-decoration: none;
+    min-height: 44px;
+  }.pfaq__more-wa:hover { text-decoration: underline; }
+.pfaq__grid {
     display: grid;
     grid-template-columns: 1fr 380px;
     gap: 4rem;
@@ -244,6 +312,16 @@ const COPY = {
     min-width: 1.75rem;
     flex-shrink: 0;
     transition: opacity 0.15s;
+  }.pfaq__num--tag {
+    /* El tag lleva más texto que "01", así que necesita su propio ancho y
+       un tratamiento de etiqueta: mayúsculas pequeñas con tracking, el
+       mismo recurso que usan .precio-tramo__label y .price-box__label. */
+    min-width: 5.5rem;
+    font-size: 0.66rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding-top: 0.15rem;
   }.pfaq__qtext {
     flex: 1;
     font-family: var(--font-head);
@@ -472,5 +550,15 @@ const COPY = {
       justify-content: flex-start;
       gap: 0.5rem 1rem;
     }
+  }
+  /* En una columna de 358px el tag y la pregunta compiten por el ancho y
+     la pregunta se parte en tres renglones. Debajo de 640px el tag pasa
+     a ser una línea propia encima, y la pregunta recupera el ancho. */
+  @media (max-width: 640px) {.pfaq__q { flex-wrap: wrap; }.pfaq__num--tag {
+      min-width: 100%;
+      order: -1;
+      margin-bottom: 0.3rem;
+      padding-top: 0;
+    }.pfaq__qtext { flex: 1 1 0; }
   }
 </style>
