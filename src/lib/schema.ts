@@ -106,11 +106,9 @@ export function buildLocalBusinessSchema() {
         "closes": "20:00",
       },
     ],
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 19.4326,
-      "longitude": -99.1332,
-    },
+    /* geo eliminado (ago 2026): 19.4326/-99.1332 era el Zócalo, un
+       placeholder. Coordenadas inventadas contradicen la ficha de Google
+       Business Profile cuando exista. Reponer con la dirección real. */
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Ciudad de México",
