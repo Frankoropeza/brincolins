@@ -81,6 +81,13 @@ img, picture, video, svg, iframe { max-width: 100%; }
 
 @media (max-width: 640px) {
   .hero { padding-top: 2rem !important; padding-bottom: 2.25rem !important; }
+
+  /* Ago 2026 — el H1 rompía en renglones arbitrarios ("Renta de Inflables /
+     y Brincolines para / Fiestas en CDMX"): el navegador parte donde cae,
+     no donde el sentido lo pide. `balance` reparte el texto entre líneas
+     de ancho parecido y respeta las unidades de significado. */
+  .hero__title { text-wrap: balance; }
+  .hero__desc, .hero__copy-text { text-wrap: pretty; }
   .hero__badge {
     font-size: 0.7rem !important;
     padding: 0.35rem 0.875rem !important;
@@ -693,5 +700,106 @@ img, picture, video, svg, iframe { max-width: 100%; }
   .container {
     padding-left: max(var(--container-px, 1rem), env(safe-area-inset-left));
     padding-right: max(var(--container-px, 1rem), env(safe-area-inset-right));
+  }
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   36. PISO TIPOGRÁFICO MÓVIL (ago 2026)
+   ──────────────────────────────────────────────────────────────────
+   Medido en un viewport de 390px: 178 elementos de texto renderizaban
+   por debajo de 13px. No era un caso aislado sino la escala completa
+   corrida un escalón hacia abajo — descripciones de producto a 13.1px,
+   el texto de "por qué elegirnos" y lo que incluye la renta a 12.8px,
+   los botones a 12.5px, la ubicación de los testimonios a 11.2px.
+
+   Un sitio se lee como amateur exactamente por esto: no por el layout,
+   sino porque el contenido pide esfuerzo para leerse en la mano. El
+   piso que se aplica aquí:
+
+     · texto que se LEE (descripciones, párrafos de tarjeta)  ≥ 14px
+     · texto de acción (botones, enlaces de tarjeta)          ≥ 15px
+     · etiquetas y metadatos (badges, tags, categorías)       ≥ 13px
+
+   Sólo cambia font-size y line-height: ninguna regla toca el layout,
+   así que la composición de cada bloque se mantiene idéntica.
+   ══════════════════════════════════════════════════════════════════ */
+@media (max-width: 900px) {
+
+  /* ── Texto de lectura ─────────────────────────────────────────── */
+  .why-sc__desc,
+  .cat-card__desc,
+  .fiesta-card__desc,
+  .dir-tip__text {
+    font-size: 0.9rem !important;
+    line-height: 1.6 !important;
+  }
+
+  .incluye-card__desc,
+  .product-card__desc {
+    font-size: 0.875rem !important;
+    line-height: 1.55 !important;
+  }
+
+  .why-sc__title { font-size: 0.9375rem !important; }
+
+  /* ── Texto de acción ──────────────────────────────────────────── */
+  .btn { font-size: 0.9375rem !important; }
+  .product-card__cta,
+  .cat-card__cta,
+  .fiesta-card__cta { font-size: 0.875rem !important; }
+
+  /* ── Etiquetas y metadatos ────────────────────────────────────── */
+  .product-card__tag,
+  .product-card__category,
+  .testi-tag,
+  .pilar-stat__txt,
+  .hero__spec { font-size: 0.8125rem !important; }
+
+  .testi-card__name { font-size: 0.9rem !important; }
+  .testi-card__loc  { font-size: 0.8125rem !important; }
+
+  .cat-card__badge,
+  .blog-card__cat,
+  .blog-card__readtime,
+  .fiesta-card__ages,
+  .hdr__panel-schedule { font-size: 0.8125rem !important; }
+
+  /* ── Pie de página ────────────────────────────────────────────── */
+  .footer__link,
+  .footer__contact-item,
+  .footer__brand-desc { font-size: 0.9rem !important; }
+  .footer__bottom { font-size: 0.8125rem !important; }
+
+  /* ── Tabla de precios: la columna de modelo es la que se lee ──── */
+  .tabla-comp th,
+  .tabla-comp td { font-size: 0.875rem !important; }
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   37. BLOQUE DE RESPUESTA DIRECTA — respiración en móvil
+   ──────────────────────────────────────────────────────────────────
+   La sección #cuanto-cuesta abre con un párrafo denso de cifras. En
+   móvil necesita más interlineado que un párrafo normal, y la tabla
+   necesita una pista visual de que se desplaza en horizontal.
+   ══════════════════════════════════════════════════════════════════ */
+@media (max-width: 640px) {
+  .respuesta-title { font-size: clamp(1.375rem, 5.5vw, 1.75rem) !important; }
+  .respuesta-lead {
+    font-size: 1rem !important;
+    line-height: 1.7 !important;
+  }
+  .respuesta-sub,
+  .respuesta-nota { font-size: 0.9rem !important; line-height: 1.65 !important; }
+
+  /* Sombra de borde que aparece sólo mientras hay contenido oculto a
+     la derecha: le dice al pulgar que la tabla se puede arrastrar. */
+  .tabla-wrap {
+    background-image: linear-gradient(to right, rgba(0,0,0,0.10), rgba(0,0,0,0)) ;
+    background-position: right center;
+    background-size: 14px 100%;
+    background-repeat: no-repeat;
+    background-attachment: local, scroll;
   }
 }

@@ -14,7 +14,7 @@
   --hdr-text:       #1a1a2e;
   --hdr-text-muted: #6b7280;
   --hdr-border:     rgba(0,0,0,0.07);
-  --hdr-logo-h:     74px;
+  --hdr-logo-h:     92px;
 }
 
 /* ══════════════════════════════════════════
@@ -516,7 +516,7 @@
 }
 
 .hdr__panel-logo {
-  height: 52px;
+  height: 64px;
   width: auto;
   display: block;
   object-fit: contain;
@@ -806,11 +806,26 @@
    El header ya NO es fijo ni encoge al hacer scroll: cada breakpoint
    declara UN solo tamaño de logo. Altura del header = logo + 16px
    (padding de .hdr__inner) + 3px de borde inferior.
+
+   Ago 2026 — el logo se subió un escalón completo en todos los
+   breakpoints (74→92 en desktop, 52→66 en móvil). En móvil el header
+   sólo lleva logo + hamburguesa, así que el ancho sobrante era espacio
+   muerto: el logo ocupaba el 27% del viewport y se leía como un
+   favicon. Ahora ocupa ~35%, que es donde una marca se lee como marca.
    ───────────────────────────────────────────────────────────────── */
-@media (max-width: 1024px) {
+/* Rango intermedio 1025-1200px: con el logo grande, el nav de 7 enlaces
+   y el pill de WhatsApp con texto ya no caben en la misma fila —
+   "Contacto" quedaba montado sobre el botón. Aquí el pill se reduce a
+   icono y el logo cede unos píxeles; el corte a 1200 es donde se midió
+   que la fila vuelve a caber holgada. */
+@media (max-width: 1200px) {
   .hdr__wa-btn span { display: none; }
   .hdr__wa-btn { padding: 0.5rem; border-radius: 10px; }
-  :root { --hdr-logo-h: 66px; }
+  :root { --hdr-logo-h: 84px; }
+}
+
+@media (max-width: 1024px) {
+  :root { --hdr-logo-h: 82px; }
 }
 
 @media (max-width: 900px) {
@@ -821,11 +836,17 @@
   .hdr__nav, .hdr__wa-btn, .hdr__cta { display: none; }
   .hdr__toggle { display: flex; }
   .hdr__panel { display: flex; }
-  :root { --hdr-logo-h: 56px; }
+  :root { --hdr-logo-h: 74px; }
+
+  /* La hamburguesa crece con el logo: con un logo de 74px, un botón de
+     42px se veía huérfano en la esquina. 48px además cumple el mínimo
+     de área táctil sin depender del padding del contenedor. */
+  .hdr__toggle { width: 48px; height: 48px; border-radius: 12px; }
 }
 
 @media (max-width: 640px) {
-  :root { --hdr-logo-h: 52px; }
+  :root { --hdr-logo-h: 66px; }
+  .hdr__inner { padding: 10px var(--container-px); }
 }
 
 @media (max-width: 480px) {
@@ -833,5 +854,6 @@
 }
 
 @media (max-width: 380px) {
-  :root { --hdr-logo-h: 46px; }
+  :root { --hdr-logo-h: 58px; }
+  .hdr__toggle { width: 44px; height: 44px; }
 }
