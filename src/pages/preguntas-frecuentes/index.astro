@@ -1,7 +1,6 @@
 ---
 import { WHATSAPP } from '../../data/site';
-import BaseLayout from "@/layouts/BaseLayout.astro";
-import WaBubble from "@/components/WaBubble.astro";
+import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import FaqItem from "@/components/FaqItem.astro";
@@ -93,9 +92,15 @@ const recursos = [
 
 // Todas las FAQs planas para el schema FAQPage
 const allFaqs = categorias.flatMap(c => c.faqs);
+
+/* Esta página pasó de BaseLayout a PageLayout (ago 2026): era la única del
+   sitio sin el bloque pre-footer y, por tanto, la única sin formulario de
+   cotización al final — justo la página que más visita alguien con dudas
+   antes de reservar. Sus 18 preguntas propias van en faqItems, así que el
+   filtro de faqsPrefooter no las repite abajo. */
 ---
 
-<BaseLayout
+<PageLayout
   title={title}
   description={description}
   pageType="page"
@@ -104,6 +109,7 @@ const allFaqs = categorias.flatMap(c => c.faqs);
     { name: "Preguntas Frecuentes" },
   ]}
   faqItems={allFaqs}
+  faqContext={{ tipo: "generico" }}
 >
   <Fragment slot="breadcrumbs">
     <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Preguntas Frecuentes"}]} />
@@ -193,8 +199,7 @@ const allFaqs = categorias.flatMap(c => c.faqs);
     variant="vibrant"
   />
 
-  <WaBubble whatsapp={WHATSAPP} />
-</BaseLayout>
+</PageLayout>
 
 <style>.recurso-card { text-decoration: none; display: block; }.recurso-link {
     display: inline-block;

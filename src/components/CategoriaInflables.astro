@@ -84,6 +84,7 @@ const schema = {
   description={cat.description}
   pageType="category"
   faqItems={cat.faqs}
+  faqContext={{ tipo: "categoria", nombre: cat.name, modelos: items.length, desde: desde ?? "$800" }}
   schemaMarkup={JSON.stringify(schema)}
   breadcrumbs={[
     { name: "Inicio", href: "/" },

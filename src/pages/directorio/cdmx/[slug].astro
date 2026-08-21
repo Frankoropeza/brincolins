@@ -119,6 +119,7 @@ const mapsHref = `https://www.google.com/maps/search/${salon.gmapsQuery}`;
   pageType="page"
   canonical={`${SITE}/directorio/cdmx/${salon.slug}/`}
   faqItems={faqItems}
+  faqContext={{ tipo: "directorio", salon: salon.name, zona: salon.zone }}
   schemaMarkup={JSON.stringify(salonSchema)}
   breadcrumbs={[
     { name: "Inicio",     href: "/" },

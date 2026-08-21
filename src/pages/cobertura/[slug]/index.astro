@@ -157,6 +157,7 @@ const serviceSchema = {
     { name: zone.zone },
   ]}
   faqItems={zone.faqs}
+  faqContext={{ tipo: "zona", zona: zonePhrase, envio: zone.shippingFee }}
   schemaMarkup={JSON.stringify(serviceSchema)}
 >
   <!-- Breadcrumbs inline -->

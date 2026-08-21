@@ -59,6 +59,7 @@ const ctaBarItems = [
     image: canon.image,
     price: canon.priceNumber,
   }}
+  faqContext={{ tipo: "producto", slug: canon.slug }}
 >
   <Fragment slot="breadcrumbs">
     <Breadcrumbs items={[{label:"Inicio",href:"/"},{label:"Inflables",href:"/inflables/"},{label:canon.name}]} />

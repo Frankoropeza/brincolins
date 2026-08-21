@@ -5,6 +5,7 @@ import type { BreadcrumbItem, FaqSeoItem, ProductSeo } from "@/layouts/BaseLayou
 import WaBubble    from "@/components/WaBubble.astro";
 import FaqSection  from "@/components/FaqSection.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
+import { faqsPrefooter, type FaqContext } from "@/data/faqPool";
 
 /* Los tipos se REUTILIZAN de BaseLayout en vez de redeclararse.
 
@@ -39,6 +40,10 @@ export interface Props {
   email?:       string;
   noindex?:     boolean;
   servicio?:    "inflable" | "mobiliario" | "iluminacion";
+  /** Contexto para las FAQ del pre-footer. Sin él, la página recibe el
+      pool universal; con él, recibe primero las preguntas de su propio
+      tema — la zona que se está viendo, el modelo, el tramo de precio. */
+  faqContext?:  FaqContext;
 }
 
 const {
@@ -54,117 +59,13 @@ const {
   whatsapp = WHATSAPP,
   noindex,
   servicio,
+  faqContext,
 } = Astro.props;
 
-/* ── FAQs universales de respaldo ── */
-/* ── Pool de FAQ del pre-footer ────────────────────────────────────
-   Ago 2026 — pasó de 8 a 16 preguntas. Con sólo 8, el filtro
-   anti-duplicado de abajo dejaba el bloque casi vacío justo en las
-   páginas con más FAQ propias: en la home quedaban TRES.
-
-   Los títulos no se inventaron. Los que llevan la marca (PAA) son las
-   preguntas que Google muestra literalmente en "People also ask" de las
-   SERP de renta de inflables — verificadas con Ahrefs el 21-ago-2026.
-   El resto son fricciones reales de reserva (luz, superficie, quién
-   arma, qué pasa si no cabe) que hoy sólo estaban en
-   /preguntas-frecuentes/, a tres clics de distancia.
-
-   Toda cifra sale de inflables.ts o de una respuesta ya publicada en
-   /preguntas-frecuentes/: nada se responde de memoria. */
-const defaultFaqs = [
-  {
-    /* PAA en las SERP de "inflables para fiestas" e "inflables para fiestas infantiles" */
-    tag:      "Precio",
-    question: "¿Cuánto cuesta un inflable para fiestas?",
-    answer:   "Un inflable para fiesta cuesta de $800 a $1,900 MXN por evento en CDMX y Estado de México. Los chicos para bebés de 1 a 4 años son $800; los medianos —Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos— van de $1,200 a $1,350; y los grandes con tobogán o circuito de obstáculos, de $1,700 a $1,900. El precio es por el evento completo e incluye entrega, instalación, motor, sanitización y recolección.",
-  },
-  {
-    tag:      "Requisitos",
-    question: "¿Necesito conexión eléctrica para el inflable?",
-    answer:   "Sí, y es el requisito que más sorprende: el inflable se mantiene inflado con un motor que trabaja durante todo el evento. Necesitas una toma de corriente de 110V a menos de 20 metros del área de instalación. Nosotros llevamos la extensión. Si tu evento es en un parque o en una zona sin luz, avísanos al cotizar para prever una planta de energía.",
-  },
-  {
-    /* PAA en la SERP de "renta de brincolines" + keyword propia (60 búsquedas/mes) */
-    tag:      "Precio",
-    question: "¿Cuánto cuesta rentar un brincolín grande?",
-    answer:   "Los tres modelos grandes cuestan entre $1,700 y $1,900 MXN por evento: Castillo Blanco $1,700 (6×5 m, para bodas y XV años), Barco Pirata $1,800 (7×5 m, con tobogán) y Circuito Extremo $1,900 (7×4 m, obstáculos para niños grandes y adultos). Necesitan entre 8×7 y 9×7 metros de espacio libre, así que conviene medir el área antes de elegir.",
-  },
-  {
-    tag:      "Espacio",
-    question: "¿Qué pasa si el inflable que quiero no cabe en mi espacio?",
-    answer:   "Te proponemos el modelo más cercano que sí entre, y no cobramos nada por ese cambio. El área libre que pedimos ya incluye un metro de margen por lado: 3×3 m para el Mini Castillo, unos 6×6 m para los medianos y hasta 9×7 m para el Barco Pirata. Si tienes dudas, mándanos una foto del espacio con una medida aproximada por WhatsApp y te confirmamos antes de que apartes la fecha.",
-  },
-  {
-    /* PAA en las SERP de "inflables para fiestas" e "inflables para fiestas infantiles" */
-    tag:      "Precio",
-    question: "¿Cuánto cuesta rentar un inflable en México?",
-    answer:   "El precio varía mucho por ciudad y por proveedor. En la Zona Metropolitana del Valle de México el rango habitual va de $800 a $2,500 MXN por evento según el tamaño. Nuestro catálogo va de $800 a $1,900 MXN con todo incluido. Desconfía de precios muy por debajo del rango: casi siempre significa que la entrega, el motor o la instalación se cobran aparte.",
-  },
-  {
-    tag:      "Instalación",
-    question: "¿Cuánto tarda la instalación y quién arma el inflable?",
-    answer:   "Lo armamos nosotros: llegamos antes de la hora del evento y la instalación toma entre 15 y 30 minutos según el modelo. Al terminar la fiesta regresamos a desmontar y recoger. Tú no tienes que armar, inflar ni guardar nada — eso ya está incluido en el precio.",
-  },
-  {
-    tag:      "Reserva",
-    question: "¿Con cuánta anticipación debo reservar un inflable?",
-    answer:   "Al menos 5 días, y unas 2 semanas si tu evento cae en fin de semana. En temporada alta —diciembre, Semana Santa y fin de cursos— los sábados y domingos se agotan pronto. Si tu fecha ya está encima, pregunta de todos modos: a veces hay disponibilidad de último momento.",
-  },
-  {
-    tag:      "Instalación",
-    question: "¿Se puede instalar un inflable en pasto, cemento o dentro de un salón?",
-    answer:   "Instalamos sobre pasto, tierra firme, concreto, adoquín y pisos de salón. En superficies duras anclamos con pesos y en pasto o tierra con estacas. No instalamos sobre grava suelta, pendientes pronunciadas ni superficies con vidrio u objetos punzantes. Para interiores, el Mini Castillo y Gusanitos son los dos modelos que caben bajo techo.",
-  },
-  {
-    tag:      "Seguridad",
-    question: "¿Se queda alguien a cuidar el inflable durante la fiesta?",
-    answer:   "En kermeses, eventos escolares y corporativos el paquete incluye un operador dedicado que gestiona filas, turnos y seguridad. En fiestas particulares el operador es opcional: pídelo al cotizar. En cualquier caso siempre debe haber una persona adulta supervisando a los niños mientras el inflable esté en uso.",
-  },
-  {
-    tag:      "Modelos",
-    question: "¿Hay inflables para adultos o sólo para niños?",
-    answer:   "También para adultos. El Circuito Extremo de 7 metros está pensado para competencias entre adolescentes y adultos, y el Castillo Blanco se renta para bodas, XV años y eventos de empresa. Son los modelos que más se piden para team building y family days. La única condición es respetar la capacidad indicada de cada uno.",
-  },
-  {
-    tag:      "Requisitos",
-    question: "¿Qué necesito tener listo el día del evento?",
-    answer:   "Tres cosas: el área libre despejada según el modelo que elegiste, una toma de corriente de 110V a menos de 20 metros, y acceso para entrar con el inflable enrollado (una puerta o pasillo normal basta). Si hay escalones, elevador o una reja angosta, avísanos al cotizar para llegar preparados.",
-  },
-  {
-    tag:      "Requisitos",
-    question: "¿El motor hace ruido o gasta mucha luz?",
-    answer:   "El motor inflador es de grado comercial y silencioso: se escucha como un ventilador de fondo, no interrumpe la música ni la conversación. Consume alrededor de 1.1 kW, parecido a una aspiradora doméstica. Tiene que permanecer encendido todo el tiempo que el inflable esté en uso.",
-  },
-  {
-    tag:      "Reserva",
-    question: "¿Cómo reservo mi fecha?",
-    answer:   "Escríbenos por WhatsApp con el inflable que te interesa, la fecha y la zona de entrega. Confirmamos disponibilidad en minutos. Para apartar la fecha se requiere un anticipo del 50%. Aceptamos transferencia bancaria, efectivo y tarjeta. El saldo se liquida el día del evento antes de la instalación.",
-  },
-  {
-    tag:      "Eventos",
-    question: "¿Rentan varios inflables para kermeses o eventos de empresa?",
-    answer:   "Sí, y con precio preferencial por paquete. Coordinamos de 2 a 5 inflables simultáneos para kermeses escolares, festivales, ferias y activaciones de marca, con operador incluido desde tres inflables. Escríbenos con la fecha, el número aproximado de asistentes y el tipo de evento y armamos la propuesta.",
-  },
-  {
-    tag:      "Cancelación",
-    question: "¿Qué pasa si llueve o necesito cancelar?",
-    answer:   "En caso de lluvia reprogramamos tu evento sin costo adicional en la fecha disponible que prefieras. Para cancelaciones con más de 48 horas de anticipación devolvemos el 100% del anticipo. Tu tranquilidad es nuestra prioridad.",
-  },
-  {
-    tag:      "Cobertura",
-    question: "¿Cubren toda la CDMX y el Estado de México?",
-    answer:   "Cubrimos las 16 alcaldías de la Ciudad de México y los principales municipios del Estado de México: Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Atizapán, Cuautitlán Izcalli, Coacalco, Nezahualcóyotl y más. En la mayoría de las alcaldías la entrega va incluida; en municipios distantes aplica un cargo de envío que publicamos en la página de cada zona.",
-  },
-];
-
-/* El pre-footer repetía literalmente las FAQ que la página ya mostraba en su
-   cuerpo: en /precios/ eran 6 preguntas idénticas seguidas, en /cotizar/ 5.
-   Ahora el pre-footer complementa en vez de repetir: muestra las universales
-   que la página NO cubre. Si las cubre todas, el bloque no se renderiza. */
-const ownQuestions = new Set((faqItems ?? []).map(f => f.question.trim().toLowerCase()));
-const resolvedFaqs = (faqItems && faqItems.length > 0)
-  ? defaultFaqs.filter(d => !ownQuestions.has(d.question.trim().toLowerCase())).slice(0, 8)
-  : defaultFaqs.slice(0, 8);   /* mismo corte: /contacto/ y otras sin FAQ propias mostraban las 16 */
+/* Las preguntas del pre-footer viven en src/data/faqPool.ts, que sirve un
+   bloque distinto según el tipo de página (zona, ficha, categoría, precio…)
+   y completa con el pool universal. Aquí sólo se resuelve el contexto. */
+const resolvedFaqs = faqsPrefooter(faqContext ?? { tipo: "generico" }, faqItems ?? [], 8);
 ---
 
 <BaseLayout
