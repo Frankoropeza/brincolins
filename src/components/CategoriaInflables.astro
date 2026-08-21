@@ -115,6 +115,14 @@ const schema = {
         <div class="hero__copy">
           <p class="hero__copy-text">{cat.intro[0]}</p>
           <p class="hero__copy-text">{cat.intro[1]}</p>
+          {/* Enlace contextual a la home y a las páginas dinero. Las 11
+              categorías son las páginas más largas del sitio (~2,000
+              palabras) y no pasaban ninguna señal de keyword hacia arriba. */}
+          <p class="hero__copy-text hero__copy-text--links">
+            Esta categoría es parte del servicio de <a href="/">renta de inflables en CDMX</a> de BRINCOLINS:
+            mismo catálogo de <a href="/inflables/brincolines/">renta de brincolines</a>,
+            los mismos <a href="/precios/">precios de renta de inflables</a> y entrega en toda la Zona Metropolitana.
+          </p>
         </div>
       </div>
     </div>
@@ -196,7 +204,12 @@ const schema = {
   />
 </PageLayout>
 
-<style>.cat-nota {
+<style>.hero__copy-text--links a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-weight: 600;
+  }.cat-nota {
     margin: 1rem 0 0;
     font-size: .9rem;
     color: var(--text-muted, #5a5a66);

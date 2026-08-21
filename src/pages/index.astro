@@ -7,7 +7,9 @@ import CtaBar         from "@/components/CtaBar.astro";
 import SectionHeader  from "@/components/SectionHeader.astro";
 import QuickNav       from "@/components/QuickNav.astro";
 import EnlacesCategoria from "@/components/EnlacesCategoria.astro";
+import TablaComparativa from "@/components/TablaComparativa.astro";
 import { CATEGORIAS_P1, inflablesDeCategoria } from "@/data/categorias";
+import { INFLABLES_ACTIVOS, MODELOS_COUNT, PRICE_NOTE_LONG } from "@/data/inflables";
 
 const title = "Renta de Inflables y Brincolines en CDMX | BRINCOLINS";
 const description = "Renta de brincolines e inflables para fiestas infantiles en CDMX y Edomex. 8 modelos desde $800 MXN con entrega e instalación incluidas. Cotiza por WhatsApp.";
@@ -36,6 +38,9 @@ const testimonios = [
 
 const faqs = [
   { question: "¿Cuánto cuesta rentar un inflable en CDMX?", answer: "La renta de inflables en CDMX va desde $800 MXN por evento (Mini Castillo). Los inflables medianos como Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos van de $1,200 a $1,350 MXN. Los grandes como el Castillo Blanco, el Barco Pirata y el Extremo arrancan en $1,700 MXN. Todos incluyen entrega, instalación, motor inflador, sanitización y recolección." },
+  { question: "¿Cuánto cuesta alquilar un inflable para una fiesta?", answer: "Alquilar un inflable en CDMX cuesta de $800 a $1,900 MXN por evento completo (4 a 6 horas). Para una fiesta infantil típica de 15 a 25 niños, el modelo más rentado es el mediano de $1,200 MXN. La entrega, la instalación, el motor inflador y la recolección van incluidos en ese precio: no se cobran por separado." },
+  { question: "¿Cuál es la diferencia entre un brincolín y un trampolín?", answer: "Un brincolín inflable funciona con aire continuo de un motor soplador, tiene paredes y mallas de seguridad, y se instala y desinstala el mismo día del evento. Un trampolín es una estructura metálica con resortes y lona tensada, pensada para quedarse fija en un jardín. En México ambos se llaman coloquialmente brincolín, pero son productos distintos: nosotros rentamos inflables, no trampolines de resorte." },
+  { question: "¿Cuántos niños se pueden subir a un brincolín al mismo tiempo?", answer: "Depende del modelo: el Mini Castillo admite de 3 a 4 niños pequeños, los medianos como Dragones Rojos y Castillo de Princesas de 5 a 7 niños, y los grandes como el Barco Pirata de 8 a 10. La capacidad indicada es de niños brincando simultáneamente, no del total de invitados: con turnos, un modelo mediano atiende sin problema una fiesta de 25 niños." },
   { question: "¿Qué incluye el servicio de renta?", answer: "Incluye entrega a domicilio, instalación profesional, motor/soplador silencioso, limpieza y sanitización del inflable y recolección al finalizar el evento. Sin costos ocultos ni sorpresas." },
   { question: "¿Los inflables son seguros para los niños?", answer: "Absolutamente. Todos nuestros inflables se revisan, limpian y desinfectan antes de cada evento. Están fabricados con materiales de grado comercial con mallas de seguridad y paredes acolchadas." },
   { question: "¿Para qué edades son los inflables?", answer: "Tenemos inflables para todas las edades: el Mini Castillo es ideal para bebés de 1 a 4 años; los medianos como Dragones Rojos y Castillo de Princesas son perfectos de 3 a 10 años; y los grandes como el Barco Pirata o el Extremo funcionan para niños de 3 a 14 años e incluso adultos." },
@@ -199,6 +204,43 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
   </section>
 
   <QuickNav />
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       RESPUESTA DIRECTA — captura de AI Overview y PAA
+       La SERP de "renta de inflables" abre con un AI Overview y con
+       cuatro preguntas de People Also Ask, todas sobre precio. Google
+       cita párrafos que responden con la cifra primero y tablas con
+       datos comparables. Ambas cosas salen de inflables.ts.
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="section respuesta-section" id="cuanto-cuesta">
+    <div class="container">
+      <div class="respuesta-inner">
+        <h2 class="respuesta-title">¿Cuánto cuesta rentar un inflable en CDMX?</h2>
+        <p class="respuesta-lead">
+          Rentar un inflable en la Ciudad de México cuesta <strong>entre $800 y $1,900 MXN por evento</strong>.
+          El precio depende del tamaño: los inflables chicos para bebés cuestan $800 MXN, los medianos para
+          fiestas infantiles de 4 a 10 años van de $1,200 a $1,350 MXN, y los grandes con tobogán o circuito
+          de obstáculos cuestan de $1,700 a $1,900 MXN. La renta cubre el evento completo, de 4 a 6 horas,
+          e incluye entrega a domicilio, instalación, motor inflador, sanitización y recolección.
+        </p>
+        <p class="respuesta-sub">
+          Estos son los {MODELOS_COUNT} modelos que rentamos en CDMX y Estado de México, con el precio y el
+          espacio libre que necesita cada uno:
+        </p>
+        <TablaComparativa
+          inflables={INFLABLES_ACTIVOS}
+          caption="Precios de renta de inflables en CDMX 2026 — medidas, espacio libre y capacidad por modelo"
+        />
+        <p class="respuesta-nota">
+          {PRICE_NOTE_LONG} En municipios distantes del Estado de México aplica un cargo de envío que te
+          indicamos al cotizar. Consulta el desglose completo en
+          <a href="/precios/">precios de renta de inflables</a> o revisa si llegamos a tu colonia en
+          <a href="/renta-de-inflables-cerca-de-mi/">renta de inflables cerca de mí</a>.
+        </p>
+      </div>
+    </div>
+  </section>
 
 
   <!-- CATEGORÍAS DE INFLABLES -->
@@ -779,7 +821,31 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
 </PageLayout>
 
 
-<style>
+<style>/* Bloque de respuesta directa — captura de AI Overview y PAA. */
+  .respuesta-section { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+  .respuesta-inner { max-width: 1000px; margin: 0 auto; }
+  .respuesta-title {
+    font-size: clamp(1.5rem, 3.2vw, 2rem);
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0 0 1rem;
+    text-wrap: balance;
+  }
+  .respuesta-lead {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    max-width: 72ch;
+    margin: 0 0 1.25rem;
+  }
+  .respuesta-sub { margin: 0 0 1rem; max-width: 72ch; }
+  .respuesta-nota {
+    margin: 1rem 0 0;
+    font-size: 0.9375rem;
+    line-height: 1.7;
+    max-width: 72ch;
+  }
+  .respuesta-nota a { text-decoration: underline; text-underline-offset: 3px; font-weight: 600; }
+
   /* ─── Hero Trust Bar ──────────────────────────────────────── */
 .hero__trust {
     display: flex;

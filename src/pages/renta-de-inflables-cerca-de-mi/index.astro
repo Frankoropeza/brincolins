@@ -58,6 +58,10 @@ const faqs = [
     answer: "Tres cosas: el espacio libre que pide el modelo que elijas (de 3×3 m el más chico a 9×7 m el más grande), una toma de corriente de 110V a menos de 20 metros del área, y una persona adulta que reciba al equipo. Si el evento es en condominio o salón, avísanos para gestionar el acceso del vehículo.",
   },
   {
+    question: "¿Hay renta de inflables cerca de mi colonia?",
+    answer: `Sí: operamos como servicio a domicilio, no como local físico, así que la pregunta correcta no es qué tan cerca estamos sino si tu colonia entra en la ruta. Cubrimos ${zonas.length} zonas — las 16 alcaldías de CDMX y ${zonas.length - 16} municipios del Estado de México — y en ${sinCargo.length} de ellas el traslado ya va incluido en el precio del inflable. Busca tu zona en la lista de abajo o mándanos tu colonia por WhatsApp y te confirmamos en minutos.`,
+  },
+  {
     question: "¿Cuánto cuesta rentar un inflable?",
     answer: `De ${PRICE_RANGE} MXN por evento de 4 a 6 horas, según el modelo. El precio incluye entrega, instalación, motor, sanitización y recolección. Son precios netos: si necesitas factura se agrega el 16% de IVA.`,
   },
@@ -135,6 +139,11 @@ const serviceSchema = {
             Lo que la mayoría quiere saber primero es si llegamos a su colonia y cuánto cuesta
             el traslado. Abajo está la lista completa de zonas, con el cargo de envío real de
             cada una — <strong>en {sinCargo.length} de ellas ya viene incluido en el precio</strong>.
+          </p>
+          <p class="hero__copy-text hero__copy-text--links">
+            Es el mismo servicio de <a href="/">renta de inflables en CDMX</a>, con el catálogo completo de
+            <a href="/inflables/brincolines/">renta de brincolines</a> y los
+            <a href="/precios/">precios de renta de inflables</a> publicados.
           </p>
         </div>
       </div>
@@ -262,7 +271,13 @@ const serviceSchema = {
   />
 </PageLayout>
 
-<style>
+<style>.hero__copy-text--links a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-weight: 600;
+  }
+
   /* ── Pasos ── */.cerca-pasos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
