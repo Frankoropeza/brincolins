@@ -1,7 +1,7 @@
 ---
-title: "Inflables para Fiestas: Cómo Elegir el Ideal para tu Evento en CDMX"
-h1: "Inflables para Fiestas: Cómo Elegir el Perfecto para tu Fiesta Infantil"
-description: "Guía de inflables para fiestas: cómo elegir el ideal según edad, espacio, temática y presupuesto. Consejos de BRINCOLINS para tu fiesta infantil en CDMX."
+title: "Cómo Elegir un Inflable para Fiesta Infantil | Guía CDMX"
+h1: "Cómo Elegir un Inflable para tu Fiesta Infantil"
+description: "Cómo elegir un inflable para fiesta infantil según edad, espacio, temática y presupuesto. Guía práctica para comparar opciones antes de rentar en CDMX."
 excerpt: "Tamaño, edad, espacio disponible, conexión eléctrica y presupuesto: todo lo que necesitas considerar para no equivocarte al rentar un brincolín en CDMX o Estado de México."
 publishDate: "2025-03-15"
 category: "Guías"
@@ -15,7 +15,7 @@ galleryImages:
   - "/img/blog/como-elegir-inflable-fiesta-infantil/img3.avif"
   - "/img/blog/como-elegir-inflable-fiesta-infantil/img4.avif"
 intro:
-  - "Elegir el inflable correcto puede ser la diferencia entre una fiesta inolvidable y una experiencia frustrante. En **BRINCOLINS** llevamos más de 20 años montando fiestas infantiles en la **Ciudad de México y Estado de México**, y sabemos exactamente qué funciona y qué no según el tipo de evento, la edad de los niños, el espacio disponible y el presupuesto de cada familia."
+  - "Para elegir un inflable para fiesta infantil sin equivocarte, empieza por tres datos: la edad de los niños, el espacio disponible y el tipo de evento. Esta guía te ayuda a comparar esos criterios antes de decidir qué modelo rentar en la Ciudad de México y Estado de México."
   - "Esta guía resume todo lo que hemos aprendido en años de experiencia. Desde cómo medir correctamente tu espacio hasta qué modelo de inflable es ideal para cada rango de edad, pasando por tips de seguridad eléctrica y cómo aprovechar al máximo tu presupuesto. Al final, tendrás claridad total para hacer la reserva perfecta — o simplemente escríbenos por **WhatsApp** y te asesoramos personalmente."
 tags:
   - "renta inflables CDMX"
@@ -46,6 +46,8 @@ faqs:
 ## 1. Primero lo más importante: el espacio disponible
 
 Antes de elegir el inflable más bonito del catálogo, **mide el espacio donde lo vas a instalar**. Este es el error más común que cometen los papás al reservar un brincolín: enamorarse de un modelo y luego descubrir que no cabe en su jardín o salón.
+
+Si ya tienes las medidas y las edades de los invitados, puedes comparar los ocho modelos en el [catálogo de inflables para fiestas](/inflables/). Aquí primero te explicamos cómo llegar a esa decisión.
 
 Una regla de oro: necesitas **al menos 1 metro de espacio libre** alrededor del inflable en todos los costados. Las áreas que publicamos ya incluyen ese margen: 3×3 m para el Mini Castillo, 6×6 m para Dragones Rojos y Castillo de Princesas, 6.5×6 m para el Mini Jungla, 7×5 m para los Gusanitos, 8×7 m para el Castillo Blanco, 9×6 m para el Extremo y 9×7 m para el Barco Pirata. También considera la altura: los modelos van de 2.5 m (Mini Castillo y Gusanitos) hasta 4.5 m (Barco Pirata). **Si el evento es en interior, solo dos modelos entran: el Mini Castillo y los Gusanitos**, los dos con 3.2 m de altura libre. El resto del catálogo pide exterior — lo detallamos en la guía de [inflables pequeños para fiestas en interiores](/blog/inflable-pequeno-fiestas-interiores-cdmx/).
 
