@@ -136,7 +136,7 @@ const schema = {
     <div class="container">
       <SectionHeader
         badge="Modelos"
-        title={`${cat.name} disponibles para renta`}
+        title={`¿Qué ${cat.name.toLowerCase()} están disponibles para renta?`}
         subtitle="Precio, medidas, edades y capacidad de cada modelo de esta categoría."
         copy1={cat.intro[0]}
         copy2="Cada ficha incluye las medidas del inflable, el área libre que hay que despejar, la altura necesaria y la capacidad simultánea. Si tienes dudas sobre cuál cabe en tu espacio, mándanos las medidas por WhatsApp y te confirmamos antes de que apartes la fecha."
@@ -162,7 +162,7 @@ const schema = {
     <div class="container">
       <SectionHeader
         badge="Cómo elegir"
-        title={cat.guiaTitle}
+        title={`¿${cat.guiaTitle}?`}
         subtitle={cat.guiaSub}
         copy1={cat.guia[0]}
         copy2={cat.guia[1]}
@@ -182,7 +182,7 @@ const schema = {
     <div class="container">
       <SectionHeader
         badge="FAQ"
-        title={`Preguntas frecuentes sobre ${cat.name.toLowerCase()}`}
+        title={`¿Qué dudas hay sobre ${cat.name.toLowerCase()}?`}
         subtitle="Dudas específicas de esta categoría, no las generales del sitio."
         copy1={cat.guiaSub}
         copy2="Si tu pregunta no está aquí, escríbenos por WhatsApp con las medidas de tu espacio y la edad de los invitados: contestamos en minutos y sin compromiso."

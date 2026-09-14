@@ -22,8 +22,8 @@ import { CATEGORIAS, inflablesDeCategoria } from "@/data/categorias";
 import { INFLABLES_ACTIVOS, PRICE_RANGE, MODELOS_COUNT, PRICE_NOTE_LONG } from "@/data/inflables";
 import { SITE_URL } from "@/data/site";
 
-const title = `Catálogo de Inflables en Renta CDMX y Edomex | ${MODELOS_COUNT} Modelos`;
-const description = `Explora nuestro catálogo de inflables en renta: por tamaño, por tipo y por edad. ${MODELOS_COUNT} modelos desde $800 con entrega e instalación incluidas.`;
+const title = `Inflables para Fiestas en Renta CDMX y Edomex | ${MODELOS_COUNT} Modelos`;
+const description = `Inflables para fiestas en renta en CDMX y Edomex: explora ${MODELOS_COUNT} modelos por tamaño, tipo y edad, desde $800 con entrega e instalación incluidas.`;
 
 /* Tarjeta de categoría: nombre, 3 modelos destacados y anchor con la
    keyword objetivo. 11 categorías × (1 anchor + 3 modelos) ≈ 44 enlaces,
@@ -94,7 +94,7 @@ const hubSchema = {
         <div>
           <span class="hero__badge">Catálogo completo</span>
           <h1 class="hero__title">
-            Catálogo de <span class="highlight">Inflables</span> para Renta en CDMX y Estado de México
+            <span class="highlight">Inflables para Fiestas</span> en Renta en CDMX y Estado de México
           </h1>
           <p class="hero__desc">{MODELOS_COUNT} modelos organizados en {CATEGORIAS.length} categorías: por tamaño, por tipo de inflable y por quién lo va a usar. De {PRICE_RANGE} MXN por evento.</p>
           <div class="hero__ctas">
@@ -121,7 +121,7 @@ const hubSchema = {
     <div class="container">
       <SectionHeader
         badge="Categorías"
-        title="Elige por tamaño, por tipo o por público"
+        title="¿Qué inflables para fiestas elegir según tu evento?"
         subtitle="Cada categoría lista sólo los modelos que aplican, con su tabla comparativa y sus preguntas propias."
         copy1="Un mismo inflable sirve para varios tipos de evento, así que cada modelo aparece en tres o cuatro categorías: el Castillo Blanco es a la vez un castillo, un inflable grande y un modelo para adultos. Entrar por la categoría correcta te ahorra comparar ocho fichas para descubrir que sólo dos caben en tu espacio."
         copy2="Las categorías por tamaño resuelven el problema más frecuente, que es el espacio disponible. Las de tipo sirven cuando ya sabes qué formato buscas —castillo, tobogán, circuito de obstáculos—. Las de público y entorno son para cuando lo que manda es quién lo va a usar o dónde se va a instalar."
