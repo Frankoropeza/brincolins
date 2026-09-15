@@ -309,7 +309,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
         {eventos.map(e => (
           <article class={`product-card product-card--${e.color}`}>
             <div class="product-card__image product-card__image--photo">
-              <img src={e.image} alt={e.alt} loading="lazy" width="720" height="480" />
+              <ResponsiveInflatableImage src={e.image} alt={e.alt} loading="lazy" width={720} height={405} sizes="(max-width: 600px) calc(100vw - 2rem), (max-width: 1024px) calc((100vw - 6rem) / 2), 300px" />
               <span class="product-card__category">{e.category}</span>
               <div class="product-card__overlay">
                 <span class="product-card__price">{e.headline}</span>

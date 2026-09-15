@@ -20,6 +20,8 @@ for (const expected of [
   'const responsiveWidths = {',
   "'/img/inflables/castillo-blanco.avif': 720,",
   "'/img/inflables/extremo.avif': 900,",
+  "'/img/servicios/paquetes-fiesta-completo-cdmx.avif': 800,",
+  "'/img/servicios/mobiliario-fiestas-cdmx.avif': 800,",
   "`${src.replace(/\\.avif$/, '-480w.avif')} 480w`",
   "`${src.replace(/\\.avif$/, '-720w.avif')} 720w`",
 ]) {
@@ -34,6 +36,10 @@ for (const page of [home, catalog]) {
   }
 }
 
+if (!home.includes('<ResponsiveInflatableImage src={e.image}')) {
+  throw new Error('Las tarjetas de eventos deben reutilizar el componente de imagen responsiva.');
+}
+
 await Promise.all(products.flatMap((product) => {
   const assets = [
     access(`public/img/inflables/${product}.avif`),
@@ -46,5 +52,12 @@ await Promise.all(products.flatMap((product) => {
 
   return assets;
 }));
+
+await Promise.all([
+  access('public/img/servicios/paquetes-fiesta-completo-cdmx-480w.avif'),
+  access('public/img/servicios/paquetes-fiesta-completo-cdmx-720w.avif'),
+  access('public/img/servicios/mobiliario-fiestas-cdmx-480w.avif'),
+  access('public/img/servicios/mobiliario-fiestas-cdmx-720w.avif'),
+]);
 
 console.log('OK: las tarjetas usan variantes AVIF responsivas de 720 px.');
