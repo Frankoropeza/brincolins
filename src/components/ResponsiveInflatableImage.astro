@@ -1,0 +1,53 @@
+---
+export interface Props {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  sizes: string;
+  loading?: 'eager' | 'lazy';
+  class?: string;
+}
+
+const {
+  src,
+  alt,
+  width,
+  height,
+  sizes,
+  loading = 'lazy',
+  class: className,
+} = Astro.props;
+
+const responsiveWidths = {
+  '/img/inflables/barco-pirata.avif': 1200,
+  '/img/inflables/castillo-blanco.avif': 720,
+  '/img/inflables/castillo-princesas.avif': 1200,
+  '/img/inflables/dragones-rojos.avif': 1200,
+  '/img/inflables/extremo.avif': 900,
+  '/img/inflables/gusanitos.avif': 1200,
+  '/img/inflables/mini-castillo.avif': 1200,
+  '/img/inflables/mini-jungla.avif': 1200,
+} as const;
+
+const originalWidth = responsiveWidths[src as keyof typeof responsiveWidths];
+const variants = originalWidth
+  ? [
+      `${src.replace(/\.avif$/, '-480w.avif')} 480w`,
+      ...(originalWidth > 720 ? [`${src.replace(/\.avif$/, '-720w.avif')} 720w`] : []),
+      `${src} ${originalWidth}w`,
+    ]
+  : undefined;
+const srcset = variants?.join(', ');
+---
+
+<img
+  src={src}
+  srcset={srcset}
+  sizes={srcset ? sizes : undefined}
+  alt={alt}
+  loading={loading}
+  width={width}
+  height={height}
+  class={className}
+/>

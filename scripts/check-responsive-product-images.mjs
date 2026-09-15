@@ -1,8 +1,13 @@
 import { access, readFile } from 'node:fs/promises';
 
-const component = await readFile('src/components/ProductCard.astro', 'utf8');
+const [component, home, catalog] = await Promise.all([
+  readFile('src/components/ResponsiveInflatableImage.astro', 'utf8'),
+  readFile('src/pages/index.astro', 'utf8'),
+  readFile('src/pages/inflables/index.astro', 'utf8'),
+]);
 const products = [
   'barco-pirata',
+  'castillo-blanco',
   'castillo-princesas',
   'dragones-rojos',
   'extremo',
@@ -11,21 +16,35 @@ const products = [
   'mini-jungla',
 ];
 
-if (!component.includes("const image720 = image && image !== '/img/inflables/castillo-blanco.avif'")) {
-  throw new Error('ProductCard debe derivar la variante de 720 px de cada imagen AVIF.');
+for (const expected of [
+  'const responsiveWidths = {',
+  "'/img/inflables/castillo-blanco.avif': 720,",
+  "'/img/inflables/extremo.avif': 900,",
+  "`${src.replace(/\\.avif$/, '-480w.avif')} 480w`",
+  "`${src.replace(/\\.avif$/, '-720w.avif')} 720w`",
+]) {
+  if (!component.includes(expected)) {
+    throw new Error('El componente compartido debe declarar las variantes y anchos reales de los inflables.');
+  }
 }
 
-if (!component.includes("const imageWidth = image === '/img/inflables/extremo.avif' ? 900 : 1200;")) {
-  throw new Error('ProductCard debe conservar el ancho real de los originales en srcset.');
+for (const page of [home, catalog]) {
+  if (!page.includes('ResponsiveInflatableImage')) {
+    throw new Error('Las tarjetas de categoría deben reutilizar el componente de imagen responsiva.');
+  }
 }
 
-if (!component.includes('srcset={image720 ? `${image720} 720w, ${image} ${imageWidth}w` : undefined}')) {
-  throw new Error('ProductCard debe declarar srcset para que el navegador elija la imagen apropiada.');
-}
+await Promise.all(products.flatMap((product) => {
+  const assets = [
+    access(`public/img/inflables/${product}.avif`),
+    access(`public/img/inflables/${product}-480w.avif`),
+  ];
 
-await Promise.all(products.flatMap((product) => [
-  access(`public/img/inflables/${product}.avif`),
-  access(`public/img/inflables/${product}-720w.avif`),
-]));
+  if (product !== 'castillo-blanco') {
+    assets.push(access(`public/img/inflables/${product}-720w.avif`));
+  }
+
+  return assets;
+}));
 
 console.log('OK: las tarjetas usan variantes AVIF responsivas de 720 px.');

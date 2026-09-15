@@ -1,6 +1,7 @@
 ---
 import PageLayout   from "@/layouts/PageLayout.astro";
 import ProductCard  from "@/components/ProductCard.astro";
+import ResponsiveInflatableImage from "@/components/ResponsiveInflatableImage.astro";
 import BlogCard     from "@/components/BlogCard.astro";
 import CtaBanner      from "@/components/CtaBanner.astro";
 import CtaBar         from "@/components/CtaBar.astro";
@@ -244,7 +245,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
         {categorias.map(c => (
           <a href={c.href} class="cat-card">
             <div class="cat-card__img-wrap">
-              <img src={c.image} alt={c.alt} width="600" height="338" loading="lazy" class="cat-card__img" />
+              <ResponsiveInflatableImage src={c.image} alt={c.alt} width={600} height={338} loading="lazy" class="cat-card__img" sizes="(max-width: 430px) calc(100vw - 2rem), (max-width: 640px) calc((100vw - 3rem) / 2), 378px" />
               <span class="cat-card__badge">{c.badge}</span>
             </div>
             <div class="cat-card__body">

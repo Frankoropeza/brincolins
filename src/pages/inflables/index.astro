@@ -18,6 +18,7 @@ import SectionHeader from "@/components/SectionHeader.astro";
 import FacetasInflables from "@/components/FacetasInflables.astro";
 import TablaComparativa from "@/components/TablaComparativa.astro";
 import CtaBanner    from "@/components/CtaBanner.astro";
+import ResponsiveInflatableImage from "@/components/ResponsiveInflatableImage.astro";
 import { CATEGORIAS, inflablesDeCategoria } from "@/data/categorias";
 import { INFLABLES_ACTIVOS, PRICE_RANGE, MODELOS_COUNT, PRICE_NOTE_LONG } from "@/data/inflables";
 import { SITE_URL } from "@/data/site";
@@ -131,7 +132,7 @@ const hubSchema = {
         {tarjetas.map(({ cat, destacados, total, desde, image }) => (
           <article class={`cat-card cat-card--${cat.color}`}>
             <a class="cat-card__media" href={`/inflables/${cat.slug}/`} tabindex="-1" aria-hidden="true">
-              <img src={image} alt="" loading="lazy" width="720" height="480" />
+              <ResponsiveInflatableImage src={image} alt="" loading="lazy" width={720} height={405} sizes="(max-width: 430px) calc(100vw - 2rem), (max-width: 1024px) calc((100vw - 6rem) / 2), 378px" />
               <span class="cat-card__badge">{cat.badge}</span>
             </a>
             <div class="cat-card__body">

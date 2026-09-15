@@ -1,5 +1,6 @@
 ---
 import { WHATSAPP } from '../data/site';
+import ResponsiveInflatableImage from './ResponsiveInflatableImage.astro';
 export interface Props {
   slug: string;
   emoji?: string;
@@ -32,23 +33,18 @@ const {
 
 const waMsg = encodeURIComponent(`Hola BRINCOLINS, quiero cotizar el inflable "${name}" para mi fiesta.`);
 const waHref = `https://wa.me/${whatsapp}?text=${waMsg}`;
-const image720 = image && image !== '/img/inflables/castillo-blanco.avif'
-  ? image.replace(/\.avif$/, '-720w.avif')
-  : undefined;
-const imageWidth = image === '/img/inflables/extremo.avif' ? 900 : 1200;
 ---
 
 <article class={`product-card product-card--${categoryColor}`}>
   <div class="product-card__image product-card__image--photo">
     {image ? (
-      <img
+      <ResponsiveInflatableImage
         src={image}
-        srcset={image720 ? `${image720} 720w, ${image} ${imageWidth}w` : undefined}
         sizes="(max-width: 600px) calc(100vw - 2rem), (max-width: 1024px) calc((100vw - 6rem) / 2), 300px"
         alt={name}
         loading="lazy"
-        width="720"
-        height="405"
+        width={720}
+        height={405}
       />
     ) : (
       <div class="product-card__image-fallback" style={`background: linear-gradient(135deg, ${gradient});`}>
