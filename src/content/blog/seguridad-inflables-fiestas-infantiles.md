@@ -1,5 +1,5 @@
 ---
-title: "Seguridad en Inflables para Fiestas Infantiles — Guía 2026"
+title: "Seguridad en inflables para fiestas infantiles: guía 2026"
 h1: "Seguridad en Inflables: Lo que Todo Papá Debe Saber Antes de la Fiesta"
 description: "Inflables para fiestas infantiles seguros: todo lo que necesitas saber sobre normas de seguridad, supervisión y protocolos de anclaje."
 excerpt: "Un brincolín es diversión pura — pero como cualquier equipo de juego, hay reglas básicas que marcan la diferencia entre una fiesta perfecta y una visita a urgencias. Esta guía es para todos los papás."

@@ -24,7 +24,7 @@ import { COVERAGE_ZONES } from "@/data/coverage";
 import { INFLABLES_ACTIVOS, PRICE_RANGE, MODELOS_COUNT, BADGE } from "@/data/inflables";
 import { SITE_URL, WHATSAPP } from "@/data/site";
 
-const title = "Renta de Inflables Cerca de Mí — CDMX y Edomex | BRINCOLINS";
+const title = "Renta de inflables cerca de mí en CDMX y Estado de México";
 const description = "¿Buscas renta de inflables cerca de ti? Cubrimos las 16 alcaldías de CDMX y los principales municipios del Edomex. Consulta tu zona y cotiza en minutos.";
 
 /* Zonas reales desde coverage.ts — nunca listas escritas a mano. */
@@ -87,7 +87,7 @@ const serviceSchema = {
     name: "Modelos disponibles",
     itemListElement: INFLABLES_ACTIVOS.map(inf => ({
       "@type": "Offer",
-      itemOffered: { "@type": "Product", name: inf.name, url: `${SITE_URL}/inflables/${inf.slug}/` },
+      itemOffered: { "@type": "Service", name: `Renta de ${inf.name}`, url: `${SITE_URL}/inflables/${inf.slug}/` },
       priceCurrency: "MXN",
       price: inf.priceNumber,
     })),

@@ -1,5 +1,5 @@
 ---
-title: "Inflables para Bodas y XV Años en CDMX — Elegantes"
+title: "Inflables elegantes para bodas y XV años en CDMX"
 h1: "Renta de Inflables para Bodas y XV Años: Diversión en Eventos Formales"
 description: "Inflables para bodas y XV años en CDMX. Castillo Blanco y Castillo de Princesas: diseño elegante y seguro para eventos formales."
 excerpt: "Las bodas y quinceañeras están evolucionando. Las nuevas generaciones buscan celebraciones que combinen elegancia con diversión auténtica. Descubre cómo integrar inflables con estilo."

@@ -1,5 +1,5 @@
 ---
-title: "Cómo Opera BRINCOLINS: 20 Años de Valores que No Cambiamos"
+title: "Cómo opera BRINCOLINS: 20 años de valores que no cambiamos"
 description: "La historia real de BRINCOLINS desde 2005: cómo empezamos, qué nos enseñó la CDMX y los tres compromisos que no hemos cambiado en más de veinte años."
 excerpt: "No somos la empresa más grande ni la más barata. Somos la empresa que lleva 20 años haciendo la misma cosa con el mismo cuidado — y eso, con el tiempo, es lo que más vale."
 publishDate: "2026-07-05"

@@ -108,9 +108,9 @@ if (page.lastPage > 1) {
 }
 
 // ── Meta ───────────────────────────────────────────────────────────────────
-const pageLabel  = page.currentPage > 1 ? ` — Página ${page.currentPage}` : "";
-const title      = `Blog de Inflables — Guías para Fiestas en CDMX${pageLabel}`;
-const description = `Guías de expertos sobre renta de inflables en CDMX: cómo elegir el inflable, precios, seguridad y decoración para tu fiesta.${pageLabel}`;
+const pageLabel  = page.currentPage > 1 ? `, página ${page.currentPage}` : "";
+const title      = `Blog de inflables: guías para fiestas en CDMX${pageLabel}`;
+const description = `Guías de expertos sobre renta de inflables en CDMX: cómo elegir el inflable, precios, seguridad y decoración para tu fiesta.${page.currentPage > 1 ? ` Página ${page.currentPage}.` : ""}`;
 ---
 
 <PageLayout

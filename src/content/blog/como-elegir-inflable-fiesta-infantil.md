@@ -1,5 +1,5 @@
 ---
-title: "Cómo Elegir un Inflable para Fiesta Infantil | Guía CDMX"
+title: "Cómo elegir un inflable para una fiesta infantil en CDMX"
 h1: "Cómo Elegir un Inflable para tu Fiesta Infantil"
 description: "Cómo elegir un inflable para fiesta infantil según edad, espacio, temática y presupuesto. Guía práctica para comparar opciones antes de rentar en CDMX."
 excerpt: "Tamaño, edad, espacio disponible, conexión eléctrica y presupuesto: todo lo que necesitas considerar para no equivocarte al rentar un brincolín en CDMX o Estado de México."

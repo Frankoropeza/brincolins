@@ -1,5 +1,5 @@
 ---
-title: "Lo que BRINCOLINS Te Promete el Día de tu Fiesta"
+title: "Lo que BRINCOLINS te promete el día de tu fiesta"
 description: "Qué promete BRINCOLINS el día de tu fiesta en CDMX: puntualidad, equipo revisado y sanitizado, precio sin cambios y alguien que contesta si algo falla."
 excerpt: "Una promesa de servicio es fácil de escribir. Lo difícil es cumplirla un sábado lluvioso con tráfico en Periférico y la fiesta empezando en dos horas. Eso es lo que hacemos."
 publishDate: "2026-07-02"

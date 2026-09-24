@@ -1,5 +1,5 @@
 ---
-title: "Brincolines para Niños Pequeños en CDMX — Guía Completa"
+title: "Brincolines para niños pequeños en CDMX: guía completa"
 description: "Guía completa de brincolines para niños pequeños en CDMX. Modelos seguros para edades de 1 a 6 años. Renta con entrega e instalación."
 excerpt: "Todo lo que necesitas saber para elegir el brincolín perfecto para tu pequeño."
 publishDate: "2025-03-15"

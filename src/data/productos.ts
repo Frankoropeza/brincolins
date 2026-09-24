@@ -52,7 +52,7 @@ export interface ProductoPagina {
 
 export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
   "barco-pirata": {
-    title: "Renta de Barco Pirata Inflable | Fiestas Temáticas | CDMX",
+    title: "Renta de barco pirata inflable para fiestas en CDMX",
     description: "Renta de Barco Pirata inflable para fiestas temáticas en CDMX y Edomex. El galeón favorito de los niños desde los 4 años. Entrega e instalación incluidas.",
     badge: "Aventura pirata de gran tamaño",
     cta: "Cotizar Barco Pirata",
@@ -116,7 +116,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     ],
   },
   "castillo-blanco": {
-    title: "Renta de Castillo Blanco Inflable | Eventos Premium | CDMX",
+    title: "Renta de castillo blanco inflable para eventos en CDMX",
     description: "Renta de Castillo Blanco inflable en CDMX. Diseño elegante y neutro para XV años, bodas y eventos premium. Instalación profesional incluida.",
     badge: "Premium para bodas y eventos elegantes",
     cta: "Cotizar Castillo Blanco",
@@ -182,7 +182,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     ],
   },
   "castillo-princesas": {
-    title: "Renta de Castillo de Princesas | Fiestas de Niñas | CDMX",
+    title: "Renta de castillo de princesas inflable en CDMX",
     description: "Renta de Castillo de Princesas en CDMX y Edomex. El favorito para cumpleaños de niñas: colores vibrantes y diseño temático. Entrega incluida.",
     badge: "Favorito para fiestas de niñas",
     cta: "Cotizar Castillo de Princesas",
@@ -265,7 +265,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     ],
   },
   "dragones-rojos": {
-    title: "Renta de Dragones Rojos | El Inflable Más Rentado en CDMX",
+    title: "Renta de dragones rojos, el inflable más rentado en CDMX",
     description: "Renta de Dragones Rojos en CDMX y Edomex. El inflable más rentado del catálogo: alta capacidad, colores llamativos y entrega incluida.",
     badge: "Inflable más rentado en CDMX",
     cta: "Cotizar Dragones Rojos",
@@ -346,7 +346,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     ],
   },
   "extremo": {
-    title: "Renta de Inflable Extremo | Kermeses y Eventos en CDMX",
+    title: "Renta de inflable extremo para kermeses y eventos en CDMX",
     description: "Renta de Inflable Extremo para eventos, kermeses y fiestas con muchos niños en CDMX. Circuito de obstáculos de alta capacidad. Cotiza hoy.",
     badge: "Circuito de carreras con doble carril",
     cta: "Cotizar Inflable Extremo",
@@ -488,7 +488,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     ],
   },
   "mini-castillo": {
-    title: "Renta de Mini Castillo Inflable | Fiestas Pequeñas | CDMX",
+    title: "Renta de mini castillo inflable para fiestas chicas en CDMX",
     description: "Renta de Mini Castillo inflable para espacios pequeños. Base de 2×2 m, desde $800 MXN. Ideal para interiores, terrazas y patios en CDMX.",
     badge: "Ideal para bebés y espacios pequeños",
     cta: "Cotizar Mini Castillo",

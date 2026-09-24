@@ -1,5 +1,5 @@
 ---
-title: "Los 8 Inflables de BRINCOLINS: Cuál Elegir en CDMX"
+title: "Los 8 inflables de BRINCOLINS: cuál elegir en CDMX"
 description: "Cada modelo de inflable BRINCOLINS con detalles reales: edades, espacio necesario, tipo de fiesta que potencia y desde qué precio sale."
 excerpt: "No todos los inflables son para todas las fiestas. Aquí te explicamos cada modelo con honestidad — sus virtudes, sus limitaciones y para quién es ideal cada uno."
 publishDate: "2026-07-04"

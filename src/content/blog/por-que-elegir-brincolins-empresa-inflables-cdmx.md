@@ -1,5 +1,5 @@
 ---
-title: "Por Qué Elegir BRINCOLINS: 20 Años de Fiestas en CDMX"
+title: "Por qué elegir BRINCOLINS: 20 años de fiestas en CDMX"
 description: "No somos perfectos, pero sí honestos. Qué hace diferente a BRINCOLINS en la renta de inflables en CDMX tras dos décadas de fiestas."
 excerpt: "Hay cosas que solo aprendes después de 20 años entregando inflables un sábado a las 9 de la mañana en Iztapalapa, en Naucalpan y en Polanco. Esto es lo que hemos aprendido — y lo que te prometemos."
 publishDate: "2026-07-01"
