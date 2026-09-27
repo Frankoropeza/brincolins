@@ -21,7 +21,7 @@ faqs:
   - question: "¿Puede BRINCOLINS coordinar múltiples inflables simultáneos en una kermesse escolar?"
     answer: "Sí, tenemos experiencia operando múltiples inflables en simultáneo en eventos escolares de gran formato. Nuestro equipo asigna un operador por inflable, garantizando supervisión constante, control del tiempo de uso por alumno y mantenimiento de la presión adecuada durante todo el evento. Para kermesses con tres o más inflables coordinamos una reunión previa de planificación con el equipo directivo para definir el layout del espacio, los horarios de operación y los protocolos de seguridad. Comunícate con nosotros al WhatsApp 5531281706 con al menos 3 semanas de anticipación para eventos de esta escala."
   - question: "¿Cuánto espacio necesita cada inflable para instalarse correctamente en un patio escolar?"
-    answer: "Cada inflable requiere un área libre que supere sus dimensiones físicas en un metro por cada lado para el anclaje y la ventilación del motor. Las cifras ya incluyen ese margen: el Mini Castillo ($800) pide 3×3 metros; los medianos —Dragones Rojos y Castillo de Princesas $1,200 con 6×6 m, Mini Jungla $1,300 con 6.5×6 m, Gusanitos $1,350 con 7×5 m—; el Castillo Blanco ($1,700) 8×7 m; el Barco Pirata ($1,800) 9×7 m; y el Extremo ($1,900) 9×6 m. Antes de confirmar el número de inflables, mide el espacio disponible y comparte esas dimensiones con nuestro equipo."
+    answer: "Cada inflable requiere un área libre para el anclaje y la ventilación del motor. El espacio requerido se confirma al cotizar según el modelo y el lugar. Los precios son: Castillo Baby $1,400; Dragones Rojos $1,600; Castillo de Princesas $1,800; Jungla $1,600; Gusanitos $1,600; Castillo Blanco $2,600; Barco Pirata $2,300; y Extremo $2,500. Antes de confirmar el número de inflables, mide el espacio disponible y comparte esas dimensiones con nuestro equipo."
   - question: "¿Con cuánta anticipación debe contratar la escuela los inflables para una kermesse?"
     answer: "Para kermesses escolares en Edomex recomendamos una anticipación mínima de 3 semanas, y de 4 a 6 semanas para kermesses de gran formato con 3 o más inflables. Los fines de semana de temporada alta (mayo, junio, octubre y diciembre) tienen alta demanda y los inflables más populares se agotan rápidamente. Reservar con tiempo también permite hacer una visita previa al espacio para planificar la distribución óptima. Para asegurar disponibilidad, escríbenos al WhatsApp 5531281706 con los detalles de tu evento."
   - question: "¿BRINCOLINS emite factura CFDI para instituciones educativas?"
@@ -54,31 +54,31 @@ Uno de los errores más frecuentes en kermesses escolares es subestimar el núme
 
 | Número de alumnos | Inflables recomendados | Opciones sugeridas | Capacidad por turno |
 |---|---|---|---|
-| Hasta 200 alumnos | 1 inflable grande | Barco Pirata (8-10) o Extremo (6-10 por turno) | 8-10 niños simultáneos |
-| 200 a 350 alumnos | 2 inflables | Barco Pirata (8-10) + Dragones Rojos (5-7) | 13-17 niños simultáneos |
-| 350 a 500 alumnos | 3 inflables | Barco Pirata + Dragones Rojos + Castillo de Princesas | 18-24 niños simultáneos |
-| 500 a 700 alumnos | 3-4 inflables | Extremo + Barco Pirata + dos medianos de $1,200 | 24-31 niños simultáneos |
-| Más de 700 alumnos | 4 o más inflables | Extremo + Barco Pirata + 2 medianos + Mini Castillo para preescolar | 27-34 niños simultáneos |
+| Hasta 200 alumnos | 1 inflable grande | Barco Pirata o Extremo | Se confirma al cotizar |
+| 200 a 350 alumnos | 2 inflables | Barco Pirata + Dragones Rojos | Se confirma al cotizar |
+| 350 a 500 alumnos | 3 inflables | Barco Pirata + Dragones Rojos + Castillo de Princesas | Se confirma al cotizar |
+| 500 a 700 alumnos | 3-4 inflables | Extremo + Barco Pirata + dos medianos | Se confirma al cotizar |
+| Más de 700 alumnos | 4 o más inflables | Extremo + Barco Pirata + 2 medianos + Castillo Baby para preescolar | Se confirma al cotizar |
 
 Antes de decidir cuántos contratar, conviene revisar cuántos niños admite realmente cada modelo: lo desglosamos en la [comparativa de inflable chico contra grande según invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/).
 
-**Nota importante:** la capacidad por turno es la suma de las capacidades reales de cada modelo —3 a 4 niños en el Mini Castillo, 5 a 7 en los medianos, 8 a 10 en el Barco Pirata y 6 a 10 en el Extremo— y no se puede rebasar ni en kermesse. Estas cifras consideran turnos rotatorios de 10 a 15 minutos por grupo. Si la kermesse tiene un formato de acceso libre sin control de turnos, las colas serán significativamente más largas independientemente del número de inflables. Siempre recomendamos implementar un sistema de turnos por grado escolar.
+**Nota importante:** la capacidad por turno se confirma al cotizar para cada modelo y no se puede rebasar ni en kermesse. Estas cifras consideran turnos rotatorios de 10 a 15 minutos por grupo. Si la kermesse tiene un formato de acceso libre sin control de turnos, las colas serán significativamente más largas independientemente del número de inflables. Siempre recomendamos implementar un sistema de turnos por grado escolar.
 
 ## Qué inflables son ideales para una kermesse escolar
 
 No todos los inflables se adaptan igual a un contexto escolar. Los años de trabajo en patios de primarias y secundarias de Edomex nos permiten recomendar con criterio cuál funciona mejor para cada grupo de edad y formato de evento:
 
-### [Dragones Rojos](/inflables/dragones-rojos/) — $1,200
-Perfecto para grupos de primaria (1° a 4° grado). Mide 4×4×3.8 m, pide 6×6 m de patio libre y recibe de 5 a 7 alumnos de 4 a 10 años por turno. Es el modelo más rentado de todo nuestro catálogo, y en kermesse funciona porque mantiene a los niños entretenidos durante períodos prolongados sin que pierdan el interés. El motor hace ese ruido que los niños ya reconocen desde que llegan al patio, y la expectativa que genera es parte del entretenimiento.
+### [Dragones Rojos](/inflables/dragones-rojos/) — $1,600
+Perfecto para grupos de primaria (1° a 4° grado). Mide 5×3×2.80 m y corresponde a niños de 3 a 8 años. Es el modelo más rentado de todo nuestro catálogo, y en kermesse funciona porque mantiene a los niños entretenidos durante períodos prolongados sin que pierdan el interés.
 
-### [Castillo de Princesas](/inflables/castillo-princesas/) — $1,200
-Ideal para primaria baja. Mide 4×4×3.5 m sobre 6×6 m libres y recibe de 5 a 7 alumnos de 4 a 10 años. Si tu escuela tiene nivel preescolar con niños de 3 años o menos, el modelo correcto para ellos es el [Mini Castillo](/inflables/mini-castillo/) de $800, que atiende de 1 a 4 años en grupos de 3 o 4. Su estética de cuento de hadas genera una emoción específica que los niños pequeños adoran, y los papás que los acompañan también lo encuentran visualmente atractivo para las fotos.
+### [Castillo de Princesas](/inflables/castillo-princesas/) — $1,800
+Ideal para primaria baja. Mide 5×3.30×3 m y corresponde a niños de 2 a 10 años. Si tu escuela tiene nivel preescolar con niños de 3 años o menos, el modelo correcto para ellos es el [Castillo Baby](/inflables/mini-castillo/) de $1,400, para niños de 1 a 3 años. Su estética de cuento de hadas genera una emoción específica que los niños pequeños adoran, y los papás que los acompañan también lo encuentran visualmente atractivo para las fotos.
 
-### [Barco Pirata](/inflables/barco-pirata/) — $1,800
-El más versátil de la colección para kermesses. Con 7×5×4.5 m es el modelo más grande del catálogo, pide 9×7 m de patio libre y 5.2 m de altura, recibe de 8 a 10 alumnos desde 4 años y es visible desde cualquier punto del patio. Para escuelas que solo pueden rentar un inflable, el Barco Pirata es la opción más rentable en términos de atención y capacidad. Cuando el Barco Pirata está instalado en el centro del patio, es el primero que ven los niños cuando entran y el último que miran cuando se van.
+### [Barco Pirata](/inflables/barco-pirata/) — $2,300
+El más versátil de la colección para kermesses. Con 6×3.5×3.80 m es un modelo imponente y corresponde a niños de 3 a 12 años. Para escuelas que solo pueden rentar un inflable, el Barco Pirata es una opción muy visible desde cualquier punto del patio.
 
-### [Extremo](/inflables/extremo/) — $1,900
-El modelo que más se renta para kermesses de secundaria y eventos con formato de competencia. Mide 7×4×3.8 m, pide 9×6 m libres, recibe de 6 a 10 participantes por turno desde los 6 años, y su circuito de obstáculos de 7 metros en doble carril permite organizar carreras entre dos participantes simultáneos, lo que genera un espectáculo que entretiene no solo a quien está brincando sino a todos los que esperan en fila. Para los alumnos mayores que ya no se entusiasman con los castillos tradicionales, el Extremo es la solución. Hemos visto alumnos de tercer grado de secundaria haciendo fila voluntariamente —algo que rara vez sucede con otras actividades de kermesse.
+### [Extremo](/inflables/extremo/) — $2,500
+El modelo que más se renta para kermesses y eventos con formato de competencia. Mide 8×4.5×3.50 m, corresponde a niños de 3 a 12 años y su circuito de obstáculos en doble carril permite organizar carreras. Para los alumnos mayores que ya no se entusiasman con los castillos tradicionales, el Extremo es la solución.
 
 ## Checklist de 30 puntos para la kermesse perfecta
 

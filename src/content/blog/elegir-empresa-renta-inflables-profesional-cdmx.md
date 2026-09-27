@@ -73,13 +73,13 @@ Desconfía de perfiles con solo cinco estrellas perfectas sin ningún comentario
 
 ### 6. Precios claros y transparentes desde el primer contacto
 
-En **BRINCOLINS** publicamos nuestros precios sin rodeos en la [página de precios](/precios/): el Mini Castillo **$800 MXN**, los medianos (Dragones Rojos y Castillo de Princesas **$1,200 MXN**, Mini Jungla **$1,300 MXN**, Gusanitos **$1,350 MXN**), Castillo Blanco **$1,700 MXN**, Barco Pirata **$1,800 MXN** y el Extremo **$1,900 MXN**. Son ocho modelos y ocho precios, informados desde el primer contacto. Dos aclaraciones que hacemos siempre por adelantado: son precios netos —el 16% de IVA se agrega solo si necesitas factura— y en zonas lejanas aplica cargo de envío según distancia.
+En **BRINCOLINS** publicamos nuestros precios sin rodeos en la [página de precios](/precios/): Castillo Baby **$1,400 MXN**, Dragones Rojos **$1,600 MXN**, Jungla **$1,600 MXN**, Gusanitos **$1,600 MXN**, Castillo de Princesas **$1,800 MXN**, Barco Pirata **$2,300 MXN**, Extremo **$2,500 MXN** y Castillo Blanco **$2,600 MXN**. Son ocho modelos y ocho precios, informados desde el primer contacto. Dos aclaraciones que hacemos siempre por adelantado: son precios netos —el 16% de IVA se agrega solo si necesitas factura— y el traslado se confirma según zona.
 
 Cuando un proveedor demora mucho en darte un precio o lo condiciona a "muchos factores" antes de cotizar, puede significar que los precios cambian según el cliente —o que hay costos que prefieren revelar tarde, cuando ya reservaste.
 
 ### 7. Cobertura geográfica confirmada
 
-Algunas empresas anuncian cobertura amplia pero cobran extras significativos por zonas específicas o simplemente no llegan a ciertos municipios. Verifica desde el primer contacto que tu colonia o alcaldía está dentro de la cobertura estándar. **BRINCOLINS** atiende Ciudad de México y Estado de México, y publica dónde aplica cargo de envío: $150 a $600 en municipios lejanos de Edomex y $100 a $200 en algunas alcaldías del sur y oriente de la CDMX. Consulta tu zona en la [página de cobertura](/cobertura/).
+Algunas empresas anuncian cobertura amplia pero cobran extras significativos por zonas específicas o simplemente no llegan a ciertos municipios. Verifica desde el primer contacto que tu colonia o alcaldía está dentro de la cobertura. **BRINCOLINS** atiende Ciudad de México y Estado de México; la entrega sin costo adicional aplica solo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco. En el resto se atiende con costo de traslado según zona. Consulta tu zona en la [página de cobertura](/cobertura/).
 
 ### 8. Atención al cliente profesional y oportuna
 
@@ -104,11 +104,11 @@ La calidad de la atención antes de la renta es el mejor predictor de cómo ser�
 
 ## El problema del precio más bajo: lo que no incluye
 
-En el mercado de inflables de CDMX es fácil encontrar opciones que cuestan $200 o $300 menos que una empresa establecida. Esa diferencia de precio no aparece de la nada — refleja exactamente lo que el proveedor decidió omitir para poder cobrar menos:
+En el mercado de inflables de CDMX es fácil encontrar opciones que cuestan menos que una empresa establecida. Esa diferencia de precio no aparece de la nada — refleja exactamente lo que el proveedor decidió omitir para poder cobrar menos:
 
 Sin protocolos de seguridad, el riesgo recae completamente sobre ti como contratante. Sin limpieza adecuada, los inflables acumulan mugre y potenciales focos de infección entre evento y evento. Con motores viejos o de segunda mano, el riesgo de falla a mitad del evento es real. Sin garantía de reposición, si algo falla no hay plan B. Y sin historial verificable, estás confiando en alguien cuya trayectoria no puedes comprobar.
 
-Conocemos casos donde la diferencia de $300 en el precio se convirtió en un problema de varios miles de pesos cuando algo salió mal. Los proveedores serios establecen precios que reflejan el costo real de operar con estándares profesionales: mantenimiento, limpieza, equipo de calidad y personal capacitado. Ese costo está ahí, te lo cobren o no. En [cuánto cuesta rentar un inflable en CDMX](/blog/cuanto-cuesta-rentar-inflable-cdmx/) desglosamos qué debería incluir una cotización honesta.
+Conocemos casos donde una diferencia de precio se convirtió en un problema cuando algo salió mal. Los proveedores serios establecen precios que reflejan el costo real de operar con estándares profesionales: mantenimiento, limpieza, equipo de calidad y personal capacitado. Ese costo está ahí, te lo cobren o no. En [cuánto cuesta rentar un inflable en CDMX](/blog/cuanto-cuesta-rentar-inflable-cdmx/) desglosamos qué debería incluir una cotización honesta.
 
 ---
 
@@ -165,7 +165,7 @@ Hay una señal de calidad que pocas personas conocen al buscar proveedor: a qui�
 
 Ese tipo de reconocimiento entre colegas no se construye con precios bajos ni con campañas de marketing. Se construye con años de hacer las cosas bien, evento tras evento, de forma consistente. Que una empresa seria confíe en referirte a otra empresa es, en sí mismo, la señal más confiable que puedes encontrar.
 
-Si estás buscando un inflable para tu próximo evento, consulta nuestro **[catálogo](/inflables/)** o solicita una **[cotización directa](/cotizar/)** — con precios desde **$800 MXN** y cobertura en toda la zona metropolitana.
+Si estás buscando un inflable para tu próximo evento, consulta nuestro **[catálogo](/inflables/)** o solicita una **[cotización directa](/cotizar/)** — con precios desde **$1,400 MXN** y cobertura en toda la zona metropolitana.
 
 ---
 

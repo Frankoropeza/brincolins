@@ -1,6 +1,6 @@
 ---
 title: "Brincolines en CDMX: Precios y Modelos 2026"
-description: "Precios reales de brincolines en CDMX 2026: los 8 modelos de $800 a $1,900 MXN con medidas, capacidad y edades. Qué incluye la renta y cómo comparar."
+description: "Precios reales de brincolines en CDMX 2026: los 8 modelos de $1,400 a $2,600 MXN con medidas y edades. Qué incluye la renta y cómo comparar."
 excerpt: "La guía más completa de precios de brincolines en la Ciudad de México. Compara modelos, descubre qué incluye cada renta y elige la mejor opción para tu presupuesto."
 publishDate: "2025-03-15"
 updatedDate: "2026-06-16"
@@ -23,9 +23,9 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Cuánto cuesta rentar un brincolín en CDMX?"
-    answer: "Los precios van desde $800 MXN para modelos básicos como el Mini Castillo, hasta $1,900 MXN para inflables grandes como el Extremo. El precio incluye transporte, instalación, sanitización y retiro."
+    answer: "Los precios van desde $1,400 MXN para modelos básicos como el Castillo Baby, hasta $2,600 MXN para inflables grandes como el Castillo Blanco. El precio incluye instalación, sanitización y retiro; la entrega sin costo adicional depende de la zona."
   - question: "¿El precio incluye transporte e instalación?"
-    answer: "Sí: transporte, instalación profesional, uso durante tu evento y retiro al finalizar están incluidos en el precio publicado. Dos salvedades que decimos siempre por adelantado: los precios son netos y se agrega IVA si necesitas factura, y en municipios lejanos de Edomex ($150 a $600 según zona) o en algunas alcaldías del sur y oriente de la CDMX ($100 a $200) se cobra el envío según la distancia."
+    answer: "Sí: instalación profesional, uso durante tu evento y retiro al finalizar están incluidos en el precio publicado. La entrega sin costo adicional aplica solo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco; en el resto de CDMX y Estado de México se cotiza el traslado según la zona. Los precios son netos y se agrega IVA si necesitas factura."
   - question: "¿Hay descuento si rento más de un inflable?"
     answer: "Sí, manejamos precios especiales por paquetes de 2 o más inflables. También tenemos promociones para eventos entre semana. Escríbenos por WhatsApp y te damos la mejor cotización según tu evento."
   - question: "¿Necesito dejar anticipo para reservar?"
@@ -36,16 +36,16 @@ faqs:
 
 ## Rangos de precios por modelo de inflable
 
-El catálogo son **8 modelos**, ni uno más, y todos tienen precio publicado. Estas son las cifras reales de 2026 con las medidas, el área libre que hay que despejar y la capacidad de cada uno:
+El catálogo son **8 modelos**, ni uno más, y todos tienen precio publicado. Estas son las cifras reales de 2026 con las medidas y edades de cada uno:
 
-- **[Mini Castillo](/inflables/mini-castillo/) — $800 MXN.** Mide 2×2×2.5 m y pide 3×3 m libres. El modelo más compacto y económico, para niños de 1 a 4 años. Capacidad: 3 a 4 niños.
-- **[Dragones Rojos](/inflables/dragones-rojos/) — $1,200 MXN.** Mide 4×4×3.8 m y pide 6×6 m libres. Castillo rojo con dragones decorativos, para niños de 4 a 10 años. Es el modelo más rentado del catálogo. Capacidad: 5 a 7 niños.
-- **[Castillo de Princesas](/inflables/castillo-princesas/) — $1,200 MXN.** Mide 4×4×3.5 m y pide 6×6 m libres. Rosa y morado con torres, para niñas de 4 a 10 años. El más pedido para fiestas de niñas. Capacidad: 5 a 7 niños.
-- **[Mini Jungla](/inflables/mini-jungla/) — $1,300 MXN.** Mide 4.5×4×3.5 m y pide 6.5×6 m libres. Temática safari, para niños de 3 a 10 años. Capacidad: 5 a 7 niños.
-- **[Gusanitos](/inflables/gusanitos/) — $1,350 MXN.** Mide 5×3×2.5 m y pide 7×5 m libres. Circuito de túneles de colores para niños de 4 a 10 años; junto con el Mini Castillo, uno de los dos únicos modelos que caben bajo techo. Capacidad: 5 a 7 niños.
-- **[Castillo Blanco](/inflables/castillo-blanco/) — $1,700 MXN.** Mide 6×5×4 m y pide 8×7 m libres. Estética neutra para bodas, XV años y eventos formales, desde 3 años. Capacidad: 8 a 10 personas.
-- **[Barco Pirata](/inflables/barco-pirata/) — $1,800 MXN.** Mide 7×5×4.5 m y pide 9×7 m libres: el modelo más grande del catálogo, desde 4 años. Capacidad: 8 a 10 niños.
-- **[Extremo](/inflables/extremo/) — $1,900 MXN.** Mide 7×4×3.8 m y pide 9×6 m libres. Circuito de obstáculos en doble carril, desde 6 años. Capacidad: 6 a 10 por turno.
+- **[Castillo Baby](/inflables/mini-castillo/) — $1,400 MXN.** Mide 2.5×2×2 m, para niños de 1 a 3 años.
+- **[Dragones Rojos](/inflables/dragones-rojos/) — $1,600 MXN.** Mide 5×3×2.80 m, para niños de 3 a 8 años. Castillo rojo con dragones decorativos; es el modelo más rentado del catálogo.
+- **[Castillo de Princesas](/inflables/castillo-princesas/) — $1,800 MXN.** Mide 5×3.30×3 m, para niños de 2 a 10 años. Rosa y morado con torres; es el más pedido para fiestas de niñas.
+- **[Jungla](/inflables/mini-jungla/) — $1,600 MXN.** Mide 5×3×2.50 m, para niños de 3 a 8 años. Temática safari.
+- **[Gusanitos](/inflables/gusanitos/) — $1,600 MXN.** Mide 5×3×2.80 m, para niños de 2 a 8 años. Circuito de túneles de colores.
+- **[Castillo Blanco](/inflables/castillo-blanco/) — $2,600 MXN.** Mide 5×7×4 m, para niños de 3 a 12 años. Estética neutra para bodas, XV años y eventos formales.
+- **[Barco Pirata](/inflables/barco-pirata/) — $2,300 MXN.** Mide 6×3.5×3.80 m, para niños de 3 a 12 años.
+- **[Extremo](/inflables/extremo/) — $2,500 MXN.** Mide 8×4.5×3.50 m, para niños de 3 a 12 años. Circuito de obstáculos en doble carril.
 
 Si quieres el desglose de qué cubre cada rango de precio, lo ampliamos en la guía de [cuánto cuesta rentar un inflable en CDMX](/blog/cuanto-cuesta-rentar-inflable-cdmx/).
 
@@ -55,7 +55,7 @@ Si quieres el desglose de qué cubre cada rango de precio, lo ampliamos en la gu
 
 Uno de los errores más comunes al comparar precios de inflables es no revisar qué incluye cada cotización. Algunos proveedores te dan un precio bajo y luego cobran transporte o instalación por separado. En **BRINCOLINS** el precio publicado incluye:
 
-- **Transporte ida y vuelta** a tu domicilio en CDMX y zona metropolitana (Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Atizapán y más)
+- **Entrega sin costo adicional** en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco; en el resto de CDMX y Estado de México se cotiza el traslado según la zona
 - **Instalación profesional** por nuestro equipo capacitado — anclaje seguro, inflado correcto y revisión completa
 - **Uso durante tu evento** (generalmente 4-6 horas, flexible según tu necesidad)
 - **Retiro y desmontaje** al finalizar tu evento — no tienes que hacer nada
@@ -68,7 +68,7 @@ Lo que **no** incluye, y lo decimos antes de que preguntes: el IVA (se agrega so
 
 Más allá del modelo elegido, hay factores que pueden influir en el precio final de tu renta de brincolín:
 
-- **Ubicación del evento:** las entregas dentro de la CDMX central y los municipios conurbados cercanos llevan el transporte incluido. En municipios lejanos de Edomex el envío va de $150 a $600 según la zona, y en algunas alcaldías del sur y oriente de la CDMX, de $100 a $200. Te lo decimos al cotizar, nunca el día del evento.
+- **Ubicación del evento:** la entrega sin costo adicional aplica solo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco. En el resto de CDMX y Estado de México se atiende con costo de traslado según zona. Te lo decimos al cotizar, nunca el día del evento.
 - **Duración del evento:** La renta estándar cubre 4-6 horas. Si necesitas el inflable por más tiempo (eventos de día completo), podemos ajustar el precio con un pequeño cargo extra.
 - **Día de la semana:** Los eventos entre semana (lunes a jueves) suelen tener mejor disponibilidad y en ocasiones ofrecemos promociones especiales.
 - **Número de inflables:** Si rentas 2 o más inflables para el mismo evento, aplicamos descuento por paquete. Entre más inflables, mejor precio unitario.
@@ -82,7 +82,7 @@ Queremos que tengas la mejor experiencia al mejor precio. Aquí van consejos pr�
 
 - **Reserva con anticipación:** No esperes a la última semana. Reservar con 2-3 semanas de anticipación te asegura disponibilidad y evita precios de urgencia con otros proveedores.
 - **Considera eventos entre semana:** Si la fiesta puede ser un viernes por la tarde en vez de sábado, la disponibilidad es mayor y en ocasiones hay promociones.
-- **Elige el modelo correcto:** No necesitas el inflable más grande si la fiesta es para 10 niños en un patio pequeño. Un Mini Castillo puede ser la opción perfecta y más económica.
+- **Elige el modelo correcto:** No necesitas el inflable más grande si la fiesta es para un grupo pequeño en un patio pequeño. Un Castillo Baby puede ser la opción perfecta y más económica.
 - **Renta paquetes:** Si necesitas más de un inflable, el precio por unidad baja significativamente. Pregunta por nuestros paquetes de 2 y 3 inflables.
 - **Comparte con vecinos:** Algunos de nuestros clientes más creativos organizan fiestas compartidas entre 2-3 familias del vecindario, dividiendo el costo del inflable entre todos.
 
@@ -92,23 +92,23 @@ Para facilitar tu decisión, aquí va una comparación directa de los 8 modelos 
 
 ### Por presupuesto
 
-- **Presupuesto ajustado ($800):** Mini Castillo — excelente relación calidad-precio para fiestas íntimas
-- **Presupuesto medio ($1,200-$1,350):** Dragones Rojos, Castillo Princesas, Mini Jungla o Gusanitos — modelos temáticos con mayor capacidad
-- **Presupuesto amplio ($1,700-$1,900):** Castillo Blanco, Barco Pirata o Extremo — la experiencia completa
+- **Presupuesto ajustado ($1,400):** Castillo Baby — excelente relación calidad-precio para fiestas íntimas
+- **Presupuesto medio ($1,600-$1,800):** Dragones Rojos, Castillo de Princesas, Jungla o Gusanitos — modelos temáticos
+- **Presupuesto amplio ($2,300-$2,600):** Castillo Blanco, Barco Pirata o Extremo — la experiencia completa
 
 ### Por edad de los niños
 
-- **Niños de 1 a 4 años:** Mini Castillo (el único diseñado para esa edad: acceso fácil, altura baja, 3 a 4 niños)
-- **Niños de 4 a 10 años:** Castillo de Princesas, Dragones Rojos, Mini Jungla o Gusanitos (temáticos, 5 a 7 niños, espacio para jugar en grupo)
-- **Niños desde 4 años en fiestas numerosas:** Barco Pirata (8 a 10 niños a la vez)
-- **Niños desde 6 años y adolescentes:** Extremo (más desafiante, circuito de obstáculos en doble carril)
+- **Niños de 1 a 3 años:** Castillo Baby (diseñado para esa edad: acceso fácil y altura baja)
+- **Niños de 2 a 10 años:** Castillo de Princesas
+- **Niños de 3 a 8 años:** Dragones Rojos, Jungla o Gusanitos
+- **Niños de 3 a 12 años:** Barco Pirata, Extremo o Castillo Blanco
 - **Eventos formales:** Castillo Blanco (estética neutra para bodas y XV años)
 
 ### Por tamaño de espacio
 
-- **Espacio pequeño (3×3 m):** Mini Castillo es tu única opción, pero es excelente
-- **Espacio mediano (6×6 a 7×5 m):** Castillo de Princesas, Dragones Rojos, Mini Jungla o Gusanitos
-- **Espacio grande (8×7 m o más):** Castillo Blanco (8×7 m), Extremo (9×6 m) o Barco Pirata (9×7 m)
+- **Espacio pequeño:** Castillo Baby puede ser una opción, sujeto a confirmación al cotizar
+- **Espacio mediano:** Castillo de Princesas, Dragones Rojos, Jungla o Gusanitos, sujeto a confirmación al cotizar
+- **Espacio grande:** Castillo Blanco, Extremo o Barco Pirata, sujeto a confirmación al cotizar
 
 ## Por qué BRINCOLINS ofrece la mejor relación calidad-precio
 
@@ -116,7 +116,7 @@ En un mercado con muchos proveedores, la diferencia no siempre es el precio — 
 
 - **Más de 20 años de trayectoria:** No somos improvisados. Conocemos cada colonia de CDMX, cada tipo de espacio, cada posible complicación logística.
 - **Inflables en excelente estado:** Renovamos nuestro inventario constantemente. No verás inflables descoloridos ni parchados.
-- **Precio claro desde el primer mensaje:** transporte, instalación, sanitización y retiro entran en el precio publicado. Es precio neto, más IVA si pides factura, y más envío si tu zona está en el rango de cargo por distancia. Nada de eso aparece el día del evento.
+- **Precio claro desde el primer mensaje:** instalación, sanitización y retiro entran en el precio publicado; la entrega sin costo adicional depende de la zona. Es precio neto, más IVA si pides factura, y más traslado cuando corresponda. Nada de eso aparece el día del evento.
 - **Atención por WhatsApp en tiempo real:** Cotizamos en minutos, no en días. Respondemos dudas antes, durante y después del evento.
 - **Flexibilidad:** ¿Cambió tu fecha? ¿Necesitas otro modelo? Nos adaptamos sin problema ni penalizaciones.
 - **Garantía de satisfacción:** Si el inflable falla durante tu evento, lo reemplazamos o te devolvemos tu dinero.

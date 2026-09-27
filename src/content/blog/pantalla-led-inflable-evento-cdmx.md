@@ -21,7 +21,7 @@ faqs:
   - question: "¿Es complicado coordinar la instalación de una pantalla LED y un inflable al mismo tiempo?"
     answer: "No, siempre que se planifique con anticipación. La clave es definir el layout del espacio antes del evento y asignar zonas claras para cada elemento. Pantalla LED y BRINCOLINS son proveedores que trabajan de forma coordinada: se acuerdan los tiempos de llegada, los puntos de alimentación eléctrica y la secuencia de montaje para que todo esté listo antes de que lleguen los invitados. Recomendamos una llamada conjunta de coordinación al menos una semana antes del evento."
   - question: "¿Qué inflables de BRINCOLINS funcionan mejor junto a una pantalla LED?"
-    answer: "Los inflables de mayor impacto visual son el [Barco Pirata](/inflables/barco-pirata/) y el [Extremo](/inflables/extremo/). El Barco Pirata tiene una estética dramática que se complementa con la iluminación LED de la pantalla, mientras que el Extremo, con sus 7 metros de circuito en doble carril, es ideal para eventos donde se transmiten en tiempo real las carreras de los participantes. Ambos generan el tipo de contenido visual que triunfa en Instagram y TikTok."
+    answer: "Los inflables de mayor impacto visual son el [Barco Pirata](/inflables/barco-pirata/) y el [Extremo](/inflables/extremo/). El Barco Pirata tiene una estética dramática que se complementa con la iluminación LED de la pantalla, mientras que el Extremo, con su circuito en doble carril, es ideal para eventos donde se transmiten en tiempo real las carreras de los participantes. Ambos generan el tipo de contenido visual que triunfa en Instagram y TikTok."
   - question: "¿Cuánta energía eléctrica se necesita para tener pantalla LED e inflable al mismo tiempo?"
     answer: "Una pantalla LED de alta resolución para eventos consume entre 1,500 y 3,000 watts dependiendo del tamaño; el motor de un inflable consume entre 700 y 1,500 watts. En total, necesitarás al menos un circuito de 20 amperes dedicado para cada elemento, o una planta de luz si el evento es en exterior sin acceso a red eléctrica. Pantalla LED puede asesorarte sobre los requerimientos técnicos específicos de la pantalla, y BRINCOLINS te indica los requerimientos del inflable."
 ---
@@ -42,7 +42,7 @@ Hemos llevado esta combinación a salones en Polanco, jardines de casas en Coyoa
 
 | Tipo de evento | Inflable recomendado | Uso ideal de la pantalla LED |
 |---|---|---|
-| Cumpleaños infantil (5-12 años) | Castillo Princesas, Dragones Rojos | Fotos en tiempo real, animaciones con el nombre |
+| Cumpleaños infantil (5-12 años) | Castillo de Princesas, Dragones Rojos | Fotos en tiempo real, animaciones con el nombre |
 | Kermesse escolar | Barco Pirata, Extremo | Transmisión de competencias, marcador en vivo |
 | Evento corporativo / Family Day | [Extremo](/inflables/extremo/) | Video institucional, activación de marca |
 | XV años | Castillo Blanco | Galería de fotos de la quinceañera |
@@ -63,7 +63,7 @@ Para cumpleaños de adultos, XV años o eventos corporativos, la pantalla LED pu
 
 ### Marcador en vivo para competencias
 
-Si tienes el [Extremo](/inflables/extremo/) con su circuito de obstáculos de 7 metros en doble carril, la pantalla LED puede mostrar los tiempos de cada participante en tiempo real. Esto convierte una actividad divertida en un verdadero torneo con emoción de estadio: el público anima desde las sillas, los participantes compiten con más intensidad, y el organizador tiene un formato de evento estructurado que se sostiene durante horas sin perder fuerza. Para kermesses escolares con secundaria, este formato funciona especialmente bien porque los alumnos mayores necesitan competencia, no solo brincado.
+Si tienes el [Extremo](/inflables/extremo/) con su circuito de obstáculos en doble carril, la pantalla LED puede mostrar los tiempos de cada participante en tiempo real. Esto convierte una actividad divertida en un verdadero torneo con emoción de estadio: el público anima desde las sillas, los participantes compiten con más intensidad, y el organizador tiene un formato de evento estructurado que se sostiene durante horas sin perder fuerza. Para kermesses escolares con secundaria, este formato funciona especialmente bien porque los alumnos mayores necesitan competencia, no solo brincado.
 
 ### Ambiente visual nocturno
 
@@ -91,11 +91,11 @@ Nunca conectes el motor del inflable y la pantalla LED al mismo circuito. Asegú
 
 No todos los inflables generan el mismo efecto visual junto a una pantalla LED. Llevamos suficientes eventos coordinados como para saber cuáles producen el mayor impacto y por qué:
 
-**[Barco Pirata](/inflables/barco-pirata/) — $1,800:** con 7×5×4.5 m es el modelo más grande del catálogo y pide 9×7 m de área libre. Su estructura vertical y su estética dramática lo convierten en el fondo perfecto para fotografías. Cuando la pantalla LED ilumina el espacio con tonos azules y dorados, el Barco Pirata se transforma en una escenografía de película. En el cumpleaños de Polanco que mencionamos antes, el Barco Pirata y la pantalla LED juntos crearon el tipo de "foto perfecta" que los papás buscan durante todo el evento. Ideal para eventos temáticos, XV años con concepto náutico o celebraciones que quieren impacto visual inmediato desde que los invitados entran al espacio.
+**[Barco Pirata](/inflables/barco-pirata/) — $2,300:** con **6 × 3.5 × 3.80 m** es un modelo de gran impacto visual. Su estructura vertical y su estética dramática lo convierten en el fondo perfecto para fotografías. Cuando la pantalla LED ilumina el espacio con tonos azules y dorados, el Barco Pirata se transforma en una escenografía de película. En el cumpleaños de Polanco que mencionamos antes, el Barco Pirata y la pantalla LED juntos crearon el tipo de "foto perfecta" que los papás buscan durante todo el evento. Ideal para eventos temáticos, XV años con concepto náutico o celebraciones que quieren impacto visual inmediato desde que los invitados entran al espacio.
 
-**[Extremo](/inflables/extremo/) — $1,900:** el circuito de 7 metros en doble carril (7×4×3.8 m sobre 9×6 m libres, desde 6 años, 6 a 10 participantes por turno) es el más fotogénico cuando hay competencia. Ver dos personas recorriéndolo en paralelo mientras sus tiempos aparecen en la pantalla es un momento de alto impacto. Es el modelo que más se renta para eventos corporativos y kermeses de secundaria — las dinámicas están en la guía de [team building con retos físicos](/blog/inflable-extremo-eventos-corporativos-cdmx/).
+**[Extremo](/inflables/extremo/) — $2,500:** el circuito de **8 × 4.5 × 3.50 m** es el más fotogénico cuando hay competencia. Ver dos personas recorriéndolo en paralelo mientras sus tiempos aparecen en la pantalla es un momento de alto impacto. Es el modelo que más se renta para eventos corporativos y kermeses de secundaria — las dinámicas están en la guía de [team building con retos físicos](/blog/inflable-extremo-eventos-corporativos-cdmx/).
 
-**[Castillo Blanco](/inflables/castillo-blanco/) — $1,700:** mide 6×5×4 m, pide 8×7 m libres y recibe de 8 a 10 personas desde los 3 años. Su neutralidad cromática lo hace ideal para eventos donde la pantalla LED define el ambiente visual. Si la pantalla proyecta colores rosas y dorados para una quinceañera, el Castillo Blanco los capta y los amplifica. Si proyecta los colores corporativos de una empresa en su Family Day, se integra sin competir. Es el más versátil de la colección cuando se trabaja con pantallas LED porque actúa como lienzo en lugar de como elemento de decoración independiente.
+**[Castillo Blanco](/inflables/castillo-blanco/) — $2,600:** mide **5 × 7 × 4 m** y es para niños de **3 a 12 años**. Su neutralidad cromática lo hace ideal para eventos donde la pantalla LED define el ambiente visual. Si la pantalla proyecta colores rosas y dorados para una quinceañera, el Castillo Blanco los capta y los amplifica. Si proyecta los colores corporativos de una empresa en su Family Day, se integra sin competir. Es el más versátil de la colección cuando se trabaja con pantallas LED porque actúa como lienzo en lugar de como elemento de decoración independiente.
 
 ## Checklist de instalación coordinada: pantalla LED + inflable
 

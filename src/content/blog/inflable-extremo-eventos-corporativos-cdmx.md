@@ -21,9 +21,9 @@ tags:
   - "integración de equipos"
 faqs:
   - question: "¿Cuántas personas se pueden pasar por un circuito de obstáculos en una jornada?"
-    answer: "El circuito Extremo admite de 6 a 10 participantes por turno y cada recorrido dura entre 30 y 60 segundos. Con rondas bien administradas, en dos horas de operación continua pasan cómodamente entre 100 y 150 personas. El cuello de botella nunca es el inflable: es el tiempo que se pierde entre turnos."
+    answer: "El circuito Extremo admite participantes por turno y cada recorrido dura entre 30 y 60 segundos. Con rondas bien administradas, en una jornada de operación continua pueden participar muchas personas. El cuello de botella nunca es el inflable: es el tiempo que se pierde entre turnos."
   - question: "¿Se puede instalar dentro de un centro de convenciones o un salón?"
-    answer: "Solo si el techo supera los 4.5 metros de altura libre y hay 9×6 m de superficie despejada. Muy pocos recintos cerrados lo cumplen, así que lo habitual es explanada, estacionamiento descubierto o jardín corporativo. Mándanos las medidas del espacio y lo confirmamos antes de reservar."
+    answer: "Solo si el techo y la superficie despejada son adecuados para el modelo. Muy pocos recintos cerrados lo cumplen, así que lo habitual es explanada, estacionamiento descubierto o jardín corporativo. Mándanos las medidas del espacio y lo confirmamos antes de reservar."
   - question: "¿Emiten factura CFDI para empresas?"
     answer: "Sí. Los precios publicados son netos y se agrega el 16% de IVA cuando pides factura. Indícalo al cotizar y te pedimos los datos fiscales. Conviene resolverlo desde la cotización si el gasto pasa por un proceso de compras."
   - question: "¿Con cuánta anticipación hay que reservar un evento corporativo?"
@@ -42,7 +42,7 @@ Con esa expectativa calibrada, el diseño es lo que hace la diferencia.
 
 Esta es la parte que casi nadie hace y la que arruina más agendas. Los números del circuito son fijos y con ellos se calcula todo hacia atrás.
 
-El modelo que usamos para eventos de empresa es el **Extremo**: circuito de obstáculos de 7×4×3.8 m en doble carril, admite de 6 a 10 participantes por turno desde los 6 años, pide 9×6 m de área libre y 4.5 m de altura, se instala en 30 minutos y cuesta $1,900 MXN netos. Las medidas completas y la disponibilidad están en [la ficha del circuito Extremo](/inflables/extremo/).
+El modelo que usamos para eventos de empresa es el **Extremo**: circuito de obstáculos de 8×4.5×3.50 m en doble carril, para edades de 3 a 12 años, se instala en 30 minutos y cuesta $2,500 MXN netos. Las medidas completas y la disponibilidad están en [la ficha del circuito Extremo](/inflables/extremo/).
 
 Con eso, la aritmética:
 
@@ -91,8 +91,8 @@ Añade premiación, aunque sea simbólica. Medallas económicas o un trofeo que 
 
 La lista de verificación operativa antes de dejar anticipo:
 
-- **9×6 metros de superficie despejada**, plana y firme. Explanada, estacionamiento descubierto o jardín corporativo.
-- **4.5 metros de altura libre**, sin cables, ramas ni voladizos. Es lo que descarta la mayoría de los espacios cerrados.
+- **Superficie despejada**, plana y firme, confirmada con nuestro equipo. Explanada, estacionamiento descubierto o jardín corporativo.
+- **Altura libre suficiente**, sin cables, ramas ni voladizos. Es lo que descarta la mayoría de los espacios cerrados.
 - **Toma de 110V a menos de 20 metros** del punto de instalación. En estacionamientos suele ser el punto débil; si no hay, se resuelve con generador y hay que preverlo.
 - **Ventana de montaje de 30 minutos** más el tiempo de acceso. Coordina con seguridad del corporativo la entrada del vehículo.
 - **Protocolo de proveedores.** Muchos parques industriales y hoteles piden alta previa. Empieza el trámite cuando reserves, no la víspera.
@@ -102,7 +102,7 @@ La lista de verificación operativa antes de dejar anticipo:
 
 Los family days cambian el cálculo. El circuito arranca en 6 años, así que cubre a los hijos grandes y a los adolescentes —que suelen ser los que más se aburren en estos eventos— pero deja fuera a los más chicos.
 
-Para los de 1 a 4 años el modelo es el [Mini Castillo](/inflables/mini-castillo/), de $800 MXN, que pide apenas 3×3 m libres. Dos zonas separadas por edad rinden mucho más que una sola vigilada a medias. Qué modelos del catálogo aguantan uso de adultos y cuáles no está en [inflables para eventos corporativos](/blog/inflables-para-adultos-eventos-corporativos/).
+Para los de 1 a 3 años el modelo es el [Castillo Baby](/inflables/mini-castillo/), de $1,400 MXN. Dos zonas separadas por edad rinden mucho más que una sola vigilada a medias. Qué modelos del catálogo aguantan uso de adultos y cuáles no está en [inflables para eventos corporativos](/blog/inflables-para-adultos-eventos-corporativos/).
 
 ## ¿Qué no prometemos?
 
@@ -118,4 +118,4 @@ Si lo que estás organizando es una kermés escolar, un fin de cursos o una fies
 
 Escríbenos por WhatsApp con la fecha, el lugar, el número de participantes y el formato que tienes en mente, o [pide tu cotización en línea](/cotizar/). Te respondemos con precio cerrado y disponibilidad; la fecha se aparta con el 50% de anticipo y atendemos de lunes a domingo de 8:00 a 20:00.
 
-Los $1,900 MXN son precio neto e incluyen transporte, instalación y desmontaje; se agrega el 16% de IVA cuando pides factura CFDI, y en municipios lejanos del Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma un cargo de envío según la distancia. Puedes [ver precio y disponibilidad del circuito Extremo](/inflables/extremo/) o comparar los ocho modelos en la [página de precios](/precios/).
+Los $2,500 MXN son precio neto e incluyen instalación y desmontaje; se agrega el 16% de IVA cuando pides factura CFDI, y el traslado se cotiza según la zona. Puedes [ver precio y disponibilidad del circuito Extremo](/inflables/extremo/) o comparar los ocho modelos en la [página de precios](/precios/).

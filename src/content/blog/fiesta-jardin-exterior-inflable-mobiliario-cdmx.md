@@ -62,7 +62,7 @@ Organizar una fiesta en jardín tiene más variables que una en salón — el cl
 
 **El espacio:** Mide el jardín en metros cuadrados y traza un plano simple con las zonas de sombra natural y las zonas de sol directo. Verifica la disponibilidad de tomas eléctricas — el inflable necesita corriente y mientras más cerca esté del motor, mejor. Confirma el tipo de piso (pasto, concreto, tierra, loseta) para que podamos decirte cuál es el mejor método de anclaje. Verifica el acceso para vehículos de carga, ya que los inflables y las mesas picnic de MESPIC llegan en camioneta y necesitan poder entrar sin maniobras complicadas. Revisa que no haya árboles con ramas bajas que interfieran con la altura del inflable cuando esté inflado.
 
-**El inflable:** Elige el modelo según el tamaño del jardín consultando la tabla de esta misma guía —van de 3×3 m de área libre para el Mini Castillo a 9×7 m para el Barco Pirata— y según la edad de los invitados, criterio que desarrollamos en la guía de [cómo elegir el inflable correcto](/blog/como-elegir-inflable-fiesta-infantil/). Reserva con BRINCOLINS con mínimo 2 o 3 semanas de anticipación escribiéndonos por WhatsApp al 5531281706. Confirma el horario de llegada del equipo de instalación y asegúrate de que haya un adulto en casa para recibirnos. Ten libre el acceso para la camioneta desde temprano — no hay nada más frustrante para todos que llegar a instalar y no poder entrar.
+**El inflable:** Elige el modelo según el tamaño del jardín consultando la tabla de esta misma guía y según la edad de los invitados, criterio que desarrollamos en la guía de [cómo elegir el inflable correcto](/blog/como-elegir-inflable-fiesta-infantil/). Reserva con BRINCOLINS con mínimo 2 o 3 semanas de anticipación escribiéndonos por WhatsApp al 5531281706. Confirma el horario de llegada del equipo de instalación y asegúrate de que haya un adulto en casa para recibirnos. Ten libre el acceso para la camioneta desde temprano — no hay nada más frustrante para todos que llegar a instalar y no poder entrar.
 
 **El mobiliario:** Cuenta el número de adultos invitados y define cuántas mesas picnic necesitas. Las mesas de MESPIC tienen capacidad para unas 8 personas cada una. Reserva con MESPIC coordinando la entrega el mismo día que el inflable. Define si necesitas toldo o carpa — esto es indispensable si no hay sombra natural suficiente o si la fiesta es en temporada de lluvias. Considera sillas adicionales con respaldo para adultos mayores que prefieren no sentarse en las bancas corridas de las mesas picnic.
 
@@ -78,12 +78,12 @@ Elegir el inflable correcto para tu espacio no es solo una cuestión estética �
 
 | Jardín | Metros disponibles | Inflable ideal | Precio aprox. | Capacidad |
 |---|---|---|---|---|
-| Muy pequeño | Hasta 6×6 m (36 m²) | Mini Castillo (3×3 m) | $800 MXN | 3-4 niños de 1 a 4 años |
-| Pequeño | 6×8 m a 8×10 m | Castillo de Princesas o Dragones Rojos (6×6 m), Mini Jungla (6.5×6 m) o Gusanitos (7×5 m) | $1,200 – $1,350 MXN | 5-7 niños |
-| Mediano | 10×12 m a 12×15 m | Castillo Blanco (8×7 m) o Barco Pirata (9×7 m) | $1,700 – $1,800 MXN | 8-10 personas |
-| Grande | 15×20 m o más | Extremo (9×6 m) o 2 inflables medianos | Desde $1,900 MXN | 6-10 por turno, o 10-14 con dos inflables |
+| Muy pequeño | Hasta 6×6 m (36 m²) | Castillo Baby | $1,400 MXN | Se confirma al cotizar |
+| Pequeño | 6×8 m a 8×10 m | Castillo de Princesas, Dragones Rojos, Jungla o Gusanitos | $1,600 – $1,800 MXN | Se confirma al cotizar |
+| Mediano | 10×12 m a 12×15 m | Castillo Blanco o Barco Pirata | $2,300 – $2,600 MXN | Se confirma al cotizar |
+| Grande | 15×20 m o más | Extremo o combinación de inflables | $2,500 MXN | Se confirma al cotizar |
 
-La capacidad de la última columna es la del inflable, no la de la fiesta: con 20 invitados y un mediano de 5 a 7 niños se organizan turnos, no se meten todos. Para confirmar cuál es el modelo más adecuado para las dimensiones exactas de tu jardín, escríbenos por WhatsApp y te orientamos sin compromiso. También puedes revisar las fichas completas en nuestro [catálogo de inflables](/inflables/), los ocho precios en la [página de precios](/precios/) y el paso a paso de la [fiesta infantil en jardín](/blog/fiesta-infantil-jardin-inflable-cdmx/).
+La capacidad de la última columna es la del inflable, no la de la fiesta: con muchos invitados se organizan turnos, no se meten todos. Para confirmar cuál es el modelo más adecuado para las dimensiones exactas de tu jardín, escríbenos por WhatsApp y te orientamos sin compromiso. También puedes revisar las fichas completas en nuestro [catálogo de inflables](/inflables/), los ocho precios en la [página de precios](/precios/) y el paso a paso de la [fiesta infantil en jardín](/blog/fiesta-infantil-jardin-inflable-cdmx/).
 
 ## Cómo protegerse del sol y la lluvia: opciones reales para CDMX
 
@@ -103,33 +103,33 @@ El inflable puede usarse con lluvia ligera sin problema, pero debe detenerse ant
 
 ## Cuánto presupuesto asignar a cada elemento
 
-Organizar una fiesta en jardín en CDMX en 2026 puede costar desde $3,500 hasta más de $15,000 MXN dependiendo del tamaño del evento y los elementos elegidos. Lo que hemos aprendido es que los presupuestos más exitosos no son los más altos sino los mejor distribuidos — priorizando los elementos que más impacto tienen en la experiencia.
+Organizar una fiesta en jardín en CDMX en 2026 depende del tamaño del evento y los elementos elegidos. Lo que hemos aprendido es que los presupuestos más exitosos no son los más altos sino los mejor distribuidos — priorizando los elementos que más impacto tienen en la experiencia.
 
 Los precios de inflable que aparecen abajo son netos: se agrega IVA solo si necesitas factura, y en municipios lejanos de Edomex ($150 a $600) o en algunas alcaldías del sur y oriente de la CDMX ($100 a $200) se suma el envío según la distancia. Consulta si tu zona lleva cargo en la [página de cobertura](/cobertura/).
 
 **Fiesta íntima (hasta 25 invitados):**
-- Inflable BRINCOLINS: $800 - $1,200 MXN
+- Inflable BRINCOLINS: $1,400 - $2,600 MXN
 - Mesas picnic MESPIC (3-4 mesas): $600 - $1,000 MXN
 - Toldo o carpa: $200 - $600 MXN
 - Decoración básica (globos, banderines): $400 - $800 MXN
 - Comida y pastel: $1,500 - $3,000 MXN
-- **Total: $3,500 - $6,600 MXN**
+- **Total: Se confirma al cotizar**
 
 **Fiesta mediana (25-50 invitados):**
-- Inflable BRINCOLINS: $1,200 - $1,800 MXN
+- Inflable BRINCOLINS: $1,400 - $2,600 MXN
 - Mesas picnic MESPIC (6-8 mesas): $1,200 - $2,000 MXN
 - Carpa o toldo grande: $800 - $2,000 MXN
 - Decoración completa: $1,500 - $3,000 MXN
 - Comida y pastel: $3,000 - $6,000 MXN
-- **Total: $7,700 - $14,800 MXN**
+- **Total: Se confirma al cotizar**
 
 **Fiesta grande (+50 invitados):**
-- 2 inflables BRINCOLINS: $2,400 - $3,700 MXN
+- 2 inflables BRINCOLINS: Se confirma al cotizar
 - Mesas picnic MESPIC (12-15 mesas): $2,400 - $4,500 MXN
 - Carpa grande: $2,000 - $4,000 MXN
 - Decoración profesional: $3,000 - $6,000 MXN
 - Comida y pastel: $6,000 - $15,000 MXN
-- **Total: $15,800 - $33,200 MXN**
+- **Total: Se confirma al cotizar**
 
 ## Recomendaciones por temporada: cuándo es ideal en CDMX
 

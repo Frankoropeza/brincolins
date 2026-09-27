@@ -2,14 +2,14 @@
 title: "Primer Cumpleaños: Cómo Organizar la Fiesta de 1 Año"
 h1: "Primer Cumpleaños: Cómo Organizar la Fiesta sin Sobrecargarla"
 description: "Guía para el primer cumpleaños en CDMX: a qué hora hacerlo, cuánto debe durar, qué inflable es apto para bebés y qué se puede montar en un departamento."
-excerpt: "La fiesta de 1 año se planea alrededor de la siesta, no del pastel. Horario, duración, invitados y qué inflable es realmente apto para niños de 1 a 4 años."
+excerpt: "La fiesta de 1 año se planea alrededor de la siesta, no del pastel. Horario, duración, invitados y qué inflable es realmente apto para niños de 1 a 3 años."
 publishDate: "2025-03-15"
 updatedDate: "2026-08-11"
-category: "Mini Castillo"
+category: "Castillo Baby"
 author: "Equipo BRINCOLINS"
 readTime: "7 min"
 heroImage: "/img/inflables/mini-castillo-v3.avif"
-heroImageAlt: "Mini Castillo inflable para bebés en un primer cumpleaños en CDMX"
+heroImageAlt: "Castillo Baby inflable para bebés en un primer cumpleaños en CDMX"
 galleryImages:
   - "/img/blog/renta-mini-castillo-inflable-bebes-cdmx/img1.avif"
   - "/img/blog/renta-mini-castillo-inflable-bebes-cdmx/img3.avif"
@@ -26,9 +26,9 @@ faqs:
   - question: "¿Cuánto debe durar el primer cumpleaños?"
     answer: "Dos horas, dos y media como máximo. Es el tiempo que aguanta un niño de un año antes de saturarse. Alargar la fiesta no la mejora: solo garantiza que el festejado termine llorando y que los invitados con bebés se vayan antes del pastel."
   - question: "¿Qué inflable es apto para un niño de un año?"
-    answer: "El Mini Castillo, que está diseñado para 1 a 4 años y recibe de 3 a 4 niños a la vez. Es el único modelo del catálogo pensado para esa edad. Los medianos arrancan en 3 o 4 años y no deben usarse con bebés, aunque parezca que hay espacio de sobra."
+    answer: "El Castillo Baby, que está diseñado para 1 a 3 años. Es el único modelo del catálogo pensado para esa edad. Los demás modelos no deben usarse con bebés, aunque parezca que hay espacio de sobra."
   - question: "¿Cabe un inflable en un departamento?"
-    answer: "El Mini Castillo mide 2×2×2.5 m y pide 3×3 m de área libre con 3.2 m de altura, así que entra en salas amplias, terrazas y salones de usos múltiples de edificios. Junto con los Gusanitos es uno de los dos únicos modelos del catálogo que caben bajo techo. Lo que hay que revisar antes es el acceso y las reglas del condominio."
+    answer: "El Castillo Baby mide 2.5×2×2 m y requiere un área libre y altura suficientes, así que entra en salas amplias, terrazas y salones de usos múltiples de edificios. Junto con los Gusanitos es uno de los dos únicos modelos del catálogo que caben bajo techo. Lo que hay que revisar antes es el acceso y las reglas del condominio."
 ---
 
 ## ¿Para quién es realmente esta fiesta?
@@ -52,12 +52,12 @@ Estas son las dos decisiones que más determinan si la tarde sale bien:
 
 Esta es la parte donde más nos preguntan y donde más se equivoca la gente. Un inflable mediano tiene mucha superficie y mucho rebote: parece que un niño de un año cabe de sobra, y precisamente por eso es peligroso. La energía que devuelve la lona cuando brinca un niño de nueve años a tres metros de distancia tira a un bebé.
 
-El modelo diseñado para esa edad es el **Mini Castillo**: mide 2×2×2.5 m, pide 3×3 m de área libre y 3.2 m de altura, recibe de 3 a 4 niños de 1 a 4 años, se instala en 15 minutos y cuesta $800 MXN netos. Es el precio de entrada del catálogo. Todos los datos, la galería y la disponibilidad están en [la ficha del Mini Castillo](/inflables/mini-castillo/).
+El modelo diseñado para esa edad es el **Castillo Baby**: mide 2.5×2×2 m, requiere un área libre y altura suficientes, es para niños de 1 a 3 años, se instala en 15 minutos y cuesta $1,400 MXN netos. Es el precio de entrada del catálogo. Todos los datos, la galería y la disponibilidad están en [la ficha del Castillo Baby](/inflables/mini-castillo/).
 
 Tres cosas que conviene saber antes de reservarlo:
 
-- **Es de los dos únicos modelos que caben bajo techo.** El otro son los [Gusanitos](/inflables/gusanitos/), con 5×3×2.5 m y 3.2 m de altura libre. La comparación entre ambos está en [inflables pequeños para fiestas en interiores](/blog/inflable-pequeno-fiestas-interiores-cdmx/).
-- **La capacidad de 3 a 4 niños es literal.** No es una recomendación comercial: es el número con el que un bebé puede estar dentro sin que lo tumben.
+- **Es de los dos únicos modelos que caben bajo techo.** El otro son los [Gusanitos](/inflables/gusanitos/), con 5×3×2.80 m; su espacio de instalación se confirma al cotizar. La comparación entre ambos está en [inflables pequeños para fiestas en interiores](/blog/inflable-pequeno-fiestas-interiores-cdmx/).
+- **La capacidad se confirma al cotizar.** No es una recomendación comercial: el equipo te indica el límite que corresponde al modelo.
 - **Necesita un adulto en la entrada, siempre.** No a diez metros, en la entrada.
 
 Si en la lista hay también niños de 5 años o más, no los metas ahí: la [guía de brincolines para niños pequeños](/blog/brincolines-para-ninos-pequenos-cdmx/) explica cómo repartir a los invitados entre dos modelos, y [qué tamaño de inflable pedir según tus invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/) desglosa el costo de esa combinación.
@@ -66,7 +66,7 @@ Si en la lista hay también niños de 5 años o más, no los metas ahí: la [gu�
 
 Sí, y es lo que hace la mayoría de las familias que atendemos dentro de la ciudad. Pero hay que revisar cuatro cosas antes de apartar, no el día del evento:
 
-- **El rectángulo libre de 3×3 metros.** Mide con cinta, con los muebles ya movidos mentalmente. Una sala de departamento estándar da justo.
+- **El área libre de instalación.** Confirma con el equipo las dimensiones del espacio antes de mover los muebles.
 - **La altura del techo.** Hacen falta 3.2 metros libres. Un techo de 2.4 m —lo habitual en departamento— no alcanza; ahí la opción es la terraza, el patio común o el salón de usos múltiples del edificio.
 - **El acceso.** Ancho libre de al menos 1.5 metros desde la calle. Elevador, escaleras, puerta de reja: todo suma. Avísanos si hay que subir pisos.
 - **Las reglas del condominio.** Muchos edificios piden aviso previo a la administración para entrar con equipo o para usar el salón. Resuélvelo con una semana de anticipación.
@@ -80,7 +80,7 @@ En un primer cumpleaños la lista se arma sola y casi siempre se pasa. Dos crite
 - **Cuenta adultos, no niños.** En una fiesta de un año, la mayoría de los invitados son tíos y abuelos. El espacio se llena de gente de pie, no de niños corriendo.
 - **Los niños que vengan van a ser hermanos y primos.** Ahí está la mezcla de edades que hay que planear: bebés de 1 y 2, y niños de 5 a 9. Son dos grupos distintos y no comparten inflable.
 
-Con más de cinco o seis niños grandes en la lista, conviene un segundo modelo o turnos muy vigilados. Con menos, el Mini Castillo solo resuelve la fiesta entera.
+Si hay niños grandes en la lista, conviene un segundo modelo o turnos muy vigilados. El Castillo Baby está pensado para los más pequeños.
 
 ## ¿Qué preparar el día anterior?
 
@@ -105,4 +105,4 @@ Lo que sí rinde: el inflable, comida decente para los adultos, música ambienta
 
 Escríbenos por WhatsApp con la fecha, el horario y la zona, o [pide tu cotización en línea](/cotizar/). Te respondemos con precio y disponibilidad confirmados; la fecha se aparta con el 50% de anticipo.
 
-Los $800 MXN son precio neto e incluyen entrega, instalación, motor y recolección; se agrega IVA solo si necesitas factura, y en municipios lejanos del Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma un cargo de envío según la distancia — te lo decimos antes de reservar. Si ya tienes fecha, puedes [ver precio y disponibilidad del Mini Castillo](/inflables/mini-castillo/) directamente.
+Los $1,400 MXN son precio neto e incluyen instalación, motor y recolección; el traslado se cotiza según la zona y se agrega IVA solo si necesitas factura. Si ya tienes fecha, puedes [ver precio y disponibilidad del Castillo Baby](/inflables/mini-castillo/) directamente.

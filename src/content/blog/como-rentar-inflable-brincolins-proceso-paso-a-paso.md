@@ -56,7 +56,7 @@ La fecha y el horario son lo primero que necesitamos para verificar disponibilid
 No necesitas medidas exactas, pero sí necesitamos saber si es jardín, terraza, interior, salón rentado. Cada espacio tiene implicaciones distintas para la instalación.
 
 **3. ¿Qué edades tienen los niños?**
-Esto determina qué modelo es el adecuado. El Mini Castillo es de 1 a 4 años; los medianos —Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos— de 3 o 4 a 10; el Barco Pirata desde los 4 y el circuito Extremo desde los 6. Un inflable pensado para adolescentes no es seguro para un bebé de dos años, y uno para bebés aburre a un niño de 8. El criterio completo está en la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/).
+Esto determina qué modelo es el adecuado. El Castillo Baby es de 1 a 3 años; los modelos Jungla y Dragones Rojos son de 3 a 8, Gusanitos de 2 a 8 y Castillo de Princesas de 2 a 10; el Barco Pirata y el circuito Extremo son de 3 a 12. Un inflable pensado para adolescentes no es seguro para un bebé de dos años, y uno para bebés aburre a un niño de 8. El criterio completo está en la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/).
 
 Con esas tres cosas, podemos orientarte en menos de cinco minutos.
 
@@ -70,7 +70,7 @@ Tienes dos caminos:
 
 **Por el formulario en línea** — si prefieres escribir con calma y recibir una propuesta por escrito. [Puedes llenarlo aquí.](/cotizar/)
 
-Cuando cotizamos, te decimos claramente: el modelo que te recomendamos, por qué, el precio total, el horario de entrega e instalación y el de retiro. Los precios van de $800 a $1,900 MXN según el modelo y están publicados en la [página de precios](/precios/). Son netos, así que te avisamos desde el primer mensaje si aplica IVA —solo cuando pides factura— y si tu zona lleva cargo de envío por distancia. Nada de "ese costo lo vemos después".
+Cuando cotizamos, te decimos claramente: el modelo que te recomendamos, por qué, el precio, el horario de entrega e instalación y el de retiro. Los precios van de $1,400 a $2,600 MXN según el modelo y están publicados en la [página de precios](/precios/). Son netos, así que te avisamos desde el primer mensaje si aplica IVA —solo cuando pides factura— y si tu zona lleva cargo de envío por distancia. Nada de "ese costo lo vemos después".
 
 ---
 

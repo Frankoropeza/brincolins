@@ -9,7 +9,7 @@ category: "Jungla"
 author: "Equipo BRINCOLINS"
 readTime: "8 min"
 heroImage: "/img/inflables/mini-jungla-v3.avif"
-heroImageAlt: "Inflable Mini Jungla instalado en una fiesta de fin de cursos en CDMX - BRINCOLINS"
+heroImageAlt: "Inflable Jungla instalado en una fiesta de fin de cursos en CDMX - BRINCOLINS"
 galleryImages:
   - "/img/blog/renta-inflable-jungla-cdmx/img2.avif"
 intro:
@@ -21,11 +21,11 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Cuántos niños aguanta un inflable en una fiesta de fin de cursos?"
-    answer: "Ninguno de los ocho modelos recibe a un salón completo a la vez, y no debería. Los medianos reciben de 5 a 7 niños simultáneos, y los grandes de 8 a 10. Con 20 invitados eso no es un problema: se arman turnos de 15 a 20 minutos y alternas con otra actividad. Rebasar la capacidad para 'que entren todos' es la causa más común de golpes."
+    answer: "Ninguno de los ocho modelos recibe a un salón completo a la vez, y no debería. La capacidad de cada modelo se confirma al cotizar. Con 20 invitados eso no es un problema: se arman turnos de 15 a 20 minutos y alternas con otra actividad. Rebasar la capacidad para 'que entren todos' es la causa más común de golpes."
   - question: "¿Conviene hacer el fin de cursos en la escuela o en un jardín rentado?"
     answer: "Depende del espacio libre real, no del tamaño total del predio. Un patio escolar suele ser la mejor opción porque tiene superficie plana, acceso vehicular y toma de corriente. Un jardín de eventos funciona igual de bien si tiene el área despejada que pide el modelo y 110V a menos de 20 metros del punto de instalación."
-  - question: "¿Qué inflable funciona con niños de 3 a 10 años en el mismo grupo?"
-    answer: "El Mini Jungla es el modelo con el rango de edad más amplio del catálogo: de 3 a 10 años, de 5 a 7 niños por turno. Por eso funciona en grupos de kínder con hermanos mayores presentes. Si hay invitados de 1 y 2 años, no los metas ahí: lo correcto es sumar un Mini Castillo, que es el modelo diseñado para esa edad."
+  - question: "¿Qué inflable funciona con niños de 3 a 8 años en el mismo grupo?"
+    answer: "Jungla es un modelo para niños de 3 a 8 años. Por eso funciona en grupos de kínder y primaria baja. Si hay invitados de 1 y 2 años, no los metas ahí: lo correcto es sumar un Castillo Baby, que es el modelo diseñado para esa edad."
   - question: "¿Con cuánta anticipación hay que reservar para un fin de cursos?"
     answer: "Junio y julio son las semanas más saturadas del año porque todas las escuelas cierran ciclo en el mismo rango de fechas. Recomendamos apartar en cuanto la escuela publique el calendario, con al menos 3 semanas. La fecha se aparta con el 50% de anticipo."
 ---
@@ -46,18 +46,18 @@ La buena noticia es que los tres se resuelven con planeación, no con dinero.
 
 El error número uno es medir el jardín o el patio y dar por hecho que cabe. Lo que hay que medir es el **área libre**: superficie despejada, sin macetas, sin coche, sin mesas, más la altura sin cables ni ramas.
 
-Para un grupo de kínder o primaria baja, el modelo que más nos piden es el **Mini Jungla**: mide 4.5×4×3.5 m, pide 6.5×6 m libres y 4.2 m de altura, recibe de 5 a 7 niños de 3 a 10 años y cuesta $1,300 MXN netos — las medidas completas, la galería y la disponibilidad están en [la ficha del Mini Jungla](/inflables/mini-jungla/).
+Para un grupo de kínder o primaria baja, el modelo que más nos piden es **Jungla**: mide **5 × 3 × 2.50 m**, es para niños de **3 a 8 años** y cuesta **$1,600 MXN** netos. El espacio y la capacidad se confirman al cotizar — las medidas completas, la galería y la disponibilidad están en [la ficha de Jungla](/inflables/mini-jungla/).
 
 Dos aclaraciones que ahorran disgustos el día del evento:
 
-- **Los 4.2 m de altura casi nunca los da un techo.** Solo dos modelos del catálogo caben bajo techo, el Mini Castillo y los Gusanitos. Si el convivio es en un salón cerrado, revisa la [comparativa de inflables pequeños para interiores](/blog/inflable-pequeno-fiestas-interiores-cdmx/) antes de apartar.
+- **La altura libre del techo es decisiva.** Si el convivio es en un salón cerrado, comparte las medidas del lugar y revisa la [comparativa de inflables pequeños para interiores](/blog/inflable-pequeno-fiestas-interiores-cdmx/) antes de apartar.
 - **Necesitas 110V a menos de 20 metros** del punto de instalación. En patios escolares el contacto suele estar lejos; pregúntale al conserje antes, no el mismo día.
 
 Si no estás seguro, mándanos una foto del área por WhatsApp con una referencia de tamaño (una puerta, un coche) y te decimos si entra o qué modelo conviene.
 
 ## ¿Cómo se reparten los turnos con 20 niños?
 
-Esta es la parte que decide si la tarde fluye. La capacidad de un inflable no es una sugerencia: es el número de niños que pueden brincar sin chocarse. Con 20 invitados y un modelo mediano de 5 a 7 por turno, la aritmética es simple.
+Esta es la parte que decide si la tarde fluye. La capacidad de un inflable no es una sugerencia: es el límite que se confirma al cotizar para que los niños puedan brincar sin chocarse. Con 20 invitados hay que organizar turnos.
 
 - **Turnos de 15 a 20 minutos.** Tres o cuatro tandas cubren al salón completo en poco más de una hora.
 - **Agrupa por edad, no por orden de llegada.** Primero los de 3 a 5, después los de 6 a 10. La diferencia de peso entre un niño de 4 y uno de 10 es lo que provoca la mayoría de los golpes.
@@ -68,9 +68,9 @@ Un cronómetro de celular con alarma hace más por el orden de la tarde que cual
 
 ## ¿Y los hermanos menores?
 
-Es el punto ciego clásico. En una graduación de kínder siempre hay bebés de 1 y 2 años, y siempre alguien intenta meterlos al inflable de los grandes "un ratito". No lo hagas: el Mini Jungla arranca en 3 años por una razón.
+Es el punto ciego clásico. En una graduación de kínder siempre hay bebés de 1 y 2 años, y siempre alguien intenta meterlos al inflable de los grandes "un ratito". No lo hagas: Jungla arranca en 3 años por una razón.
 
-La solución barata es rentar un segundo inflable chico. El [Mini Castillo](/inflables/mini-castillo/) cuesta $800 MXN, mide 2×2×2.5 m, pide apenas 3×3 m libres y está diseñado para 1 a 4 años. Repartido entre varias familias sale en unos cuantos pesos por niño y libera a los papás de perseguir bebés toda la tarde. La lógica completa de combinar dos modelos está en la guía de [qué tamaño de inflable pedir según tus invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/).
+La solución es rentar un segundo inflable chico. El [Castillo Baby inflable](/inflables/mini-castillo/) cuesta **$1,400 MXN**, mide **2.5 × 2 × 2 m** y está diseñado para niños de **1 a 3 años**. El espacio y la capacidad se confirman al cotizar. La lógica completa de combinar dos modelos está en la guía de [qué tamaño de inflable pedir según tus invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/).
 
 > **Lo que vemos en campo:** en junio, más de la mitad de los fines de curso que atendemos terminan pidiendo el segundo inflable chico a última hora, cuando ya no hay disponibilidad. Decídelo desde el principio.
 
@@ -92,7 +92,7 @@ Si quieres montar la temática completa, con menú, juegos y decoración detalla
 Cuando el gasto se divide entre varias familias, alguien va a pedir explicaciones. Ten estas respuestas por escrito antes de mandar los datos bancarios al grupo:
 
 - **¿Cuál es el área libre exacta que pide el modelo?** No las medidas del inflable: el área despejada.
-- **¿El precio publicado es final?** Los nuestros son netos, con IVA solo si necesitas factura. En municipios lejanos del Edomex y en algunas alcaldías del sur y oriente de la CDMX se suma un cargo de envío según la distancia, entre $100 y $600. Te lo decimos antes de reservar, no después.
+- **¿El precio publicado es final?** Los nuestros son netos, con IVA solo si necesitas factura. La entrega sin costo adicional aplica solo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco; en el resto de CDMX y Estado de México se atiende con costo de traslado según zona. Te lo decimos antes de reservar, no después.
 - **¿Cuánto tarda la instalación?** Entre 15 y 30 minutos según el modelo. Eso define a qué hora tiene que llegar el equipo.
 - **¿Qué pasa si llueve?** Junio es temporada de lluvias en la ciudad. Nosotros reprogramamos sin costo; pregunta siempre esa condición antes de dejar anticipo.
 - **¿Ofrecen seguro de responsabilidad civil?** Nosotros no, y lo decimos de frente. Lo que sí entregamos es equipo revisado, anclaje verificado y motor profesional durante todo el evento. Los criterios para comparar proveedores están en [7 señales de un proveedor confiable](/blog/senales-proveedor-inflables-confiable-cdmx/).
@@ -111,4 +111,4 @@ Un fin de cursos de tres horas se sostiene solo si tiene estructura. Este repart
 
 El fin de cursos tiene un problema que no tiene ningún cumpleaños: todas las escuelas cierran ciclo en las mismas tres semanas. Los sábados de junio son las fechas que primero se agotan en el año.
 
-Escríbenos por WhatsApp con la fecha, la zona y el número aproximado de niños, o [pide tu cotización en línea](/cotizar/). Te respondemos con precio y disponibilidad confirmados; la fecha se aparta con el 50% de anticipo y atendemos de lunes a domingo de 8:00 a 20:00. Puedes [ver precio y disponibilidad del Mini Jungla](/inflables/mini-jungla/) o comparar los ocho modelos en la [página de precios](/precios/).
+Escríbenos por WhatsApp con la fecha, la zona y el número aproximado de niños, o [pide tu cotización en línea](/cotizar/). Te respondemos con precio y disponibilidad confirmados; la fecha se aparta con el 50% de anticipo y atendemos de lunes a domingo de 8:00 a 20:00. Puedes [ver precio y disponibilidad de Jungla](/inflables/mini-jungla/) o comparar los ocho modelos en la [página de precios](/precios/).

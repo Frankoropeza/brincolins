@@ -1,6 +1,6 @@
 ---
 title: "Castillo Inflable para Cumpleaños Infantil en CDMX"
-description: "Renta de castillos inflables para cumpleaños infantiles en CDMX. Modelos para niñas y niños con distintos temas y tamaños. Entrega incluida."
+description: "Renta de castillos inflables para cumpleaños infantiles en CDMX. Modelos para niñas y niños con distintos temas y tamaños."
 excerpt: "Un castillo inflable transforma cualquier cumpleaños infantil en una experiencia mágica. Te explicamos cómo planear la fiesta perfecta en la Ciudad de México."
 publishDate: "2025-03-15"
 category: "Cumpleaños"
@@ -22,13 +22,13 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿A partir de qué edad pueden usar el castillo inflable?"
-    answer: "Depende del modelo. El Mini Castillo (2×2×2.5 m) está pensado para niños de 1 a 4 años; los castillos medianos —Dragones Rojos y Castillo de Princesas— desde los 4; el Castillo Blanco desde los 3; el Barco Pirata desde los 4 y el circuito Extremo desde los 6."
+    answer: "Depende del modelo. El Castillo Baby (2.5 × 2 × 2 m) está pensado para niños de 1 a 3 años; Dragones Rojos y Jungla son para 3 a 8 años; Castillo de Princesas es para 2 a 10; el Castillo Blanco, Barco Pirata y Extremo son para 3 a 12 años."
   - question: "¿Cuántos niños caben en un castillo inflable al mismo tiempo?"
-    answer: "Depende del modelo, y las cifras son más bajas de lo que la gente supone. El Mini Castillo admite 3 a 4 niños; los medianos como Dragones Rojos o Castillo de Princesas, 5 a 7; el Castillo Blanco y el Barco Pirata, 8 a 10. Respetar la capacidad máxima es la regla de seguridad más importante."
+    answer: "Depende del modelo. La capacidad máxima se confirma al cotizar; respetar la capacidad indicada para cada renta es la regla de seguridad más importante."
   - question: "¿Qué pasa si llueve el día de la fiesta?"
     answer: "Si llueve antes del evento y para a tiempo, podemos instalar sin problema en superficie seca. Si la lluvia es durante el evento, por seguridad se debe desinflar el brincolín. Podemos reagendar sin costo adicional si el clima no permite la instalación."
   - question: "¿Puedo rentar el castillo inflable para un salón de fiestas?"
-    answer: "Sí, pero con una advertencia de altura. Los castillos medianos miden 3.5 y 3.8 m de alto y piden 6×6 m libres más 4.2 m de altura libre, algo que muy pocos salones tienen. Bajo techo, en la práctica solo entran el Mini Castillo (3×3 m, 3.2 m de altura) y los Gusanitos (7×5 m, 3.2 m de altura). Confirma medidas con el salón antes de reservar."
+    answer: "Sí, pero hay que confirmar las medidas del salón antes de reservar. Comparte el largo, ancho y altura libre del lugar para revisar la viabilidad del modelo."
 ---
 
 ## Por qué los castillos inflables son la opción número 1 para cumpleaños
@@ -47,11 +47,11 @@ La planificación es la diferencia entre una fiesta estresante y una que disfrut
 
 ### Define el espacio y confirma medidas
 
-Lo primero es saber dónde será la fiesta. Si es en tu casa, mide el patio o jardín. Si es en un salón, confirma que permiten inflables externos y que hay suficiente espacio y altura. El Mini Castillo necesita **3×3 metros** de área libre; los medianos como Dragones Rojos y Castillo de Princesas, **6×6 metros**; los Gusanitos, **7×5 metros**; el Castillo Blanco, **8×7 metros**; el Extremo, **9×6 metros**; y el Barco Pirata, **9×7 metros**. La [guía para elegir el inflable según edad y espacio](/blog/como-elegir-inflable-fiesta-infantil/) explica cómo medir sin equivocarse.
+Lo primero es saber dónde será la fiesta. Si es en tu casa, mide el patio o jardín. Si es en un salón, confirma que permiten inflables externos y que hay suficiente espacio y altura. El espacio necesario se confirma al cotizar para cada modelo. La [guía para elegir el inflable según edad y espacio](/blog/como-elegir-inflable-fiesta-infantil/) explica cómo medir sin equivocarse.
 
 ### Elige el modelo según la temática
 
-¿Fiesta de princesas? El **[Castillo Princesas](/inflables/castillo-princesas/)** es perfecto. ¿Aventura y fantasía? Los **[Dragones Rojos](/inflables/dragones-rojos/)** son la opción. ¿Algo sencillo y universal? El **[Mini Castillo](/inflables/mini-castillo/)** funciona para cualquier temática. Pregúntale al cumpleañero qué prefiere — los niños siempre tienen opiniones muy claras.
+¿Fiesta de princesas? El **[Castillo de Princesas inflable](/inflables/castillo-princesas/)** es perfecto. ¿Aventura y fantasía? Los **[Dragones Rojos inflables](/inflables/dragones-rojos/)** son la opción. ¿Algo sencillo y universal? El **[Castillo Baby inflable](/inflables/mini-castillo/)** funciona para los más pequeños. Pregúntale al cumpleañero qué prefiere — los niños siempre tienen opiniones muy claras.
 
 ### Reserva con anticipación
 
@@ -65,9 +65,9 @@ El equipo de BRINCOLINS llega **1-2 horas antes** del inicio de tu fiesta para i
 
 No todos los inflables son para todas las edades. Elegir el modelo adecuado según los invitados es fundamental para la seguridad y la diversión:
 
-- **Niños de 1 a 4 años:** El Mini Castillo es el único modelo diseñado para ellos. Altura baja, entrada accesible y capacidad para 3 o 4 niños. Siempre con supervisión adulta cercana.
-- **Niños de 5 a 8 años:** Es la edad donde más disfrutan los inflables temáticos como Dragones Rojos o Castillo de Princesas (4 a 10 años, 5 a 7 niños a la vez).
-- **Niños de 9 a 12 años:** Prefieren modelos más grandes o con elementos extras. El [inflable Extremo](/inflables/extremo/), recomendado desde los 6 años, o el Barco Pirata con tobogán son los favoritos de este grupo.
+- **Niños de 1 a 3 años:** El Castillo Baby es el modelo diseñado para ellos. Siempre con supervisión adulta cercana.
+- **Niños de 3 a 8 años:** Jungla o Dragones Rojos son opciones compatibles con este rango.
+- **Niños de 9 a 12 años:** El [inflable Extremo](/inflables/extremo/), el Barco Pirata o el Castillo Blanco son opciones compatibles con este grupo.
 - **Fiesta mixta (varias edades):** Organiza turnos de 30 minutos para cada grupo de edad. Los pequeños primero, los grandes después. Así todos brincan seguros.
 
 > **Regla de oro:** Nunca permitas que niños menores de 5 años brinquen al mismo tiempo que niños mayores de 10. La diferencia de peso y fuerza puede causar accidentes.
@@ -102,6 +102,6 @@ Reservar con nosotros es rápido y sencillo. Estos consejos te ayudarán a tener
 - **Aparta con anticipación.** Los fines de semana vuelan. Con el 50% de anticipo tu fecha queda reservada.
 - **Confirma los detalles logísticos** una semana antes: dirección exacta, hora de llegada, acceso para descarga y contacto el día del evento.
 
-Nuestro servicio incluye **transporte, instalación profesional y retiro** al finalizar, con precios de $800 a $1,900 MXN publicados en la [página de precios](/precios/). Son precios netos: se agrega IVA solo si necesitas factura, y en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX se cobra el envío según la distancia. Todo eso te lo decimos al cotizar, nunca el día de la fiesta.
+Nuestro servicio incluye **instalación profesional y retiro** al finalizar. Los precios van de **$1,400 a $2,600 MXN** según el modelo; son netos y se agrega IVA solo si necesitas factura. La entrega sin costo adicional aplica solo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco; en el resto de CDMX y Estado de México se atiende con costo de traslado según zona.
 
 > **Tip de cumpleaños:** Reserva tu inflable y pregúntanos por paquetes completos que incluyen más de un brincolín para fiestas grandes. Entre más diversión, mejor precio por inflable.

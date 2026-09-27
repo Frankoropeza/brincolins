@@ -20,7 +20,7 @@ faqs:
   - question: "¿Qué pasa si el inflable tiene un problema el día del evento?"
     answer: "Tienes contacto directo con el responsable de tu entrega — no un call center, no un formulario. Si algo sale mal, respondemos. Hemos llegado a cambiar un motor en el patio de una casa en Ecatepec a las 11 de la mañana de un sábado. Eso es lo que hacemos."
   - question: "¿Por qué BRINCOLINS es más caro que algunas opciones que encuentro en Facebook?"
-    answer: "Porque incluimos cosas que en esas opciones no están en el precio: personal capacitado, mantenimiento del equipo, sanitización entre eventos y soporte durante la fiesta. Nuestros precios van de $800 a $1,900 MXN según el modelo, son netos y se les agrega IVA solo si necesitas factura. No somos la opción más barata — somos la opción más completa."
+    answer: "Porque incluimos cosas que en esas opciones no están en el precio: personal capacitado, mantenimiento del equipo, sanitización entre eventos y soporte durante la fiesta. Nuestros precios van de $1,400 a $2,600 MXN según el modelo, son netos y se les agrega IVA solo si necesitas factura. No somos la opción más barata — somos la opción más completa."
   - question: "¿BRINCOLINS atiende fuera de CDMX?"
     answer: "Sí, cubrimos buena parte del Estado de México también: Naucalpan, Tlalnepantla, Ecatepec, Atizapán, Nicolás Romero, Metepec y más. En los municipios más lejanos aplica un cargo de envío de $150 a $600 según la zona, y en algunas alcaldías del sur y oriente de la CDMX, de $100 a $200. Consulta nuestra página de cobertura para confirmar si llegamos a tu zona y si lleva cargo."
 ---
@@ -52,7 +52,7 @@ Hay conocimiento que no se puede comprar ni estudiar. Solo se acumula. Después 
 - En qué colonias de Iztapalapa las calles son tan angostas que el camión no cabe y hay que cargar el inflable a mano.
 - En qué temporada del año el tráfico en Periférico puede hacer que una entrega de una hora tarde tres.
 - Qué tipo de anclaje funciona en jardines con tierra arcillosa del Estado de México vs. el piso de concreto de un departamento en Polanco.
-- Cuándo una reunión de cuántos niños supera la capacidad de qué modelo: 3 o 4 en el Mini Castillo, 5 a 7 en los medianos, 8 a 10 en el Castillo Blanco y el Barco Pirata, 6 a 10 por turno en el Extremo.
+- Cuándo una reunión supera la capacidad de cada modelo; ese dato se confirma al cotizar.
 
 Ese conocimiento es nuestro activo más valioso, y lo ponemos a trabajar para que tu fiesta salga bien. Si quieres hacer esa cuenta tú mismo, la [comparativa de inflable chico contra grande según invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/) la resuelve con precios.
 
@@ -72,7 +72,7 @@ Esto cambia muchas cosas:
 
 **Cuando el equipo llega a tu casa**, es el mismo que reservaste — no "algo similar" que consiguieron de emergencia.
 
-Nuestra [flota tiene 8 modelos](/inflables/) —ni uno más— para cubrir desde la fiesta de cumpleaños de un bebé hasta un evento corporativo con 200 personas, con precios de $800 a $1,900 MXN publicados en la [página de precios](/precios/). El recorrido modelo por modelo está en [los 8 inflables de BRINCOLINS](/blog/flota-inflables-brincolins-catalogo-modelos-cdmx/). [El Mini Castillo](/inflables/mini-castillo/) para los más chiquitos, [el Barco Pirata](/inflables/barco-pirata/) para los aventureros, [el Circuito Extremo](/inflables/extremo/) para los que quieren adrenalina de verdad, [el Castillo Blanco](/inflables/castillo-blanco/) para bodas y XV años donde la elegancia importa.
+Nuestra [flota tiene 8 modelos](/inflables/) —ni uno más— para cubrir desde la fiesta de cumpleaños de un bebé hasta un evento corporativo con 200 personas, con precios de $1,400 a $2,600 MXN publicados en la [página de precios](/precios/). El recorrido modelo por modelo está en [los 8 inflables de BRINCOLINS](/blog/flota-inflables-brincolins-catalogo-modelos-cdmx/). [El Castillo Baby](/inflables/mini-castillo/) para los más chiquitos, [el Barco Pirata](/inflables/barco-pirata/) para los aventureros, [el Extremo](/inflables/extremo/) para los que quieren adrenalina de verdad, [el Castillo Blanco](/inflables/castillo-blanco/) para bodas y XV años donde la elegancia importa.
 
 ---
 

@@ -2,7 +2,7 @@
 title: "Fiesta de Caballeros y Dragones: Ideas y Juegos"
 h1: "Fiesta de Caballeros y Dragones: Cómo Montarla Paso a Paso"
 description: "Cómo montar una fiesta medieval de caballeros y dragones en CDMX: ambientación barata, juegos por edad, menú de banquete y el cronograma que hace que fluya."
-excerpt: "Escudos de cartón, un torneo de caballeros y un castillo rojo al centro del jardín. La temática medieval es la que mejor aguanta un grupo mixto de 4 a 10 años."
+excerpt: "Escudos de cartón, un torneo de caballeros y un castillo rojo al centro del jardín. La temática medieval funciona muy bien para un grupo mixto de 3 a 8 años."
 publishDate: "2025-03-15"
 updatedDate: "2026-08-11"
 category: "Dragones Rojos"
@@ -23,13 +23,13 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Para qué edades funciona una fiesta de caballeros y dragones?"
-    answer: "De 4 a 10 años es el rango donde mejor funciona, y es también el rango del inflable que suele ir al centro. Los de 4 y 5 entran por el disfraz y el brinco; los de 8 a 10, por la competencia y los torneos. Con invitados de 1 a 4 años conviene sumar un Mini Castillo aparte, porque en un mediano no deben brincar."
+    answer: "De 3 a 8 años es el rango del inflable que suele ir al centro. Con invitados de 1 a 3 años conviene sumar un Castillo Baby aparte, porque en un modelo para mayores no deben brincar."
   - question: "¿Cuánto cuesta ambientar una fiesta medieval?"
     answer: "Poco, si el inflable hace el trabajo pesado. Un castillo inflable de 4 metros de alto llena el jardín visualmente y deja la decoración reducida a banderines, escudos de cartón y una mesa. El gasto grande es el inflable; el resto se resuelve con cartulina, pintura y una tarde de manualidades."
   - question: "¿Qué juegos funcionan con veinte niños y un solo inflable?"
-    answer: "Los que corren en paralelo. Mientras un turno de 5 a 7 niños brinca, el resto está en el torneo de escudos, en la búsqueda del tesoro o en la fábrica de coronas. La regla es que nunca haya fila: si hay fila, falta una segunda actividad, no falta inflable."
+    answer: "Los que corren en paralelo. Mientras un turno confirmado de niños brinca, el resto está en el torneo de escudos, en la búsqueda del tesoro o en la fábrica de coronas. La regla es que nunca haya fila: si hay fila, falta una segunda actividad, no falta inflable."
   - question: "¿El castillo inflable se puede montar en un salón cerrado?"
-    answer: "El Dragones Rojos mide 4×4×3.8 m y pide 4.5 m de altura libre, así que va en exterior: jardín, patio o explanada. Los dos únicos modelos del catálogo que caben bajo techo son el Mini Castillo y los Gusanitos, ambos con 3.2 m de altura libre."
+    answer: "Dragones Rojos mide 5 × 3 × 2.80 m y normalmente va en exterior: jardín, patio o explanada. La viabilidad bajo techo se confirma al cotizar según las medidas del salón."
 ---
 
 ## ¿Por qué la temática medieval aguanta mejor que otras?
@@ -38,7 +38,7 @@ Porque no envejece y no divide. Una fiesta de un personaje concreto tiene fecha 
 
 También es la temática más barata de ambientar, por una razón simple: si pones un castillo de cuatro metros al centro del jardín, ya no necesitas mucho más. El elemento grande hace el trabajo y el resto es cartulina.
 
-El modelo que hace de castillo central es el **Dragones Rojos**: mide 4×4×3.8 m, pide 6×6 m libres y 4.5 m de altura, recibe de 5 a 7 niños de 4 a 10 años y cuesta **$1,200 MXN** netos. Los datos completos, la galería y la disponibilidad están en [la ficha de los Dragones Rojos](/inflables/dragones-rojos/).
+El modelo que hace de castillo central es el **Dragones Rojos**: mide **5 × 3 × 2.80 m**, es para niños de **3 a 8 años** y cuesta **$1,600 MXN** netos. El espacio y la capacidad se confirman al cotizar. Los datos completos, la galería y la disponibilidad están en [la ficha de los Dragones Rojos](/inflables/dragones-rojos/).
 
 ## ¿Cómo se ambienta sin gastar de más?
 
@@ -54,15 +54,15 @@ Lo que no vale la pena: telas caras, arcos de globos que compiten con el inflabl
 
 ## ¿Qué juegos funcionan y con qué edades?
 
-El error clásico es planear un solo juego para todos. Con un rango de 4 a 10 años eso no existe: lo que engancha a un niño de 9 aburre a uno de 5 y al revés.
+El error clásico es planear un solo juego para todos. Con un rango de 3 a 8 años eso no existe: lo que engancha a un niño mayor puede aburrir a uno más pequeño y al revés.
 
-**Para los de 4 a 6 años:**
+**Para los de 3 a 5 años:**
 
 - **Fábrica de escudos.** Pintar, pegar y ponerle nombre al escudo. Aguanta veinte minutos y no requiere reglas.
 - **Domar al dragón.** Un adulto con una cola de tela y los niños intentando quitársela. Cero preparación.
 - **El castillo cerrado.** Turnos cortos en el inflable, sin competencia, solo brincar.
 
-**Para los de 7 a 10 años:**
+**Para los de 6 a 8 años:**
 
 - **Torneo de caballeros.** Combates con espadas de foam, por eliminación, con un árbitro adulto y reglas claras. Es la actividad que más rinde.
 - **Búsqueda del tesoro con mapa.** Cinco pistas por el jardín que terminan en el cofre. Úsala a la mitad de la fiesta, cuando baja la energía.
@@ -75,7 +75,7 @@ Si quieres ver qué otros modelos del catálogo sostienen una temática completa
 Una fiesta de cuatro horas con veinte niños necesita estructura o se desarma sola. Este es el reparto que mejor funciona:
 
 - **0:00 a 0:30 — Llegada y armería.** Cada niño pinta su escudo y recibe su corona. Sirve para que los que llegan tarde no se pierdan nada.
-- **0:30 a 1:15 — Primeros turnos en el castillo.** De 5 a 7 niños por tanda, 15 a 20 minutos cada una, agrupados por edad. Los chicos primero.
+- **0:30 a 1:15 — Primeros turnos en el castillo.** Turnos de 15 a 20 minutos, agrupados por edad. Los chicos primero.
 - **1:15 a 1:45 — Torneo de caballeros.** Con el inflable cerrado y todos mirando. Es el momento de mayor atención de la tarde.
 - **1:45 a 2:15 — Banquete.** Comida y pastel, con el inflable cerrado y un adulto en la entrada. Brincar recién comidos termina mal.
 - **2:15 a 3:00 — Búsqueda del tesoro y segunda ronda de turnos.**
@@ -99,19 +99,19 @@ Con veinte niños brincando tres horas, la fruta y el agua funcionan mejor que e
 
 Son casi siempre los mismos cuatro, y ninguno tiene que ver con el inflable:
 
-- **Meter a todos a la vez.** El Dragones Rojos recibe de 5 a 7 niños. Con veinte invitados eso son tres o cuatro turnos, no una avalancha. Rebasar la capacidad es la causa número uno de golpes.
-- **Mezclar un niño de 4 con uno de 10 en el mismo turno.** La diferencia de peso hace el resto. Agrupa por edad, siempre.
+- **Meter a todos a la vez.** La capacidad del Dragones Rojos se confirma al cotizar. Con veinte invitados hay que organizar turnos y respetar el límite indicado para la renta.
+- **Mezclar edades incompatibles en el mismo turno.** La diferencia de peso hace el resto. Agrupa por edad, siempre.
 - **Dejar la supervisión sin dueño.** Un adulto por turno, rotando entre las familias. No hace falta que sea la misma persona toda la tarde.
-- **Olvidar a los hermanos menores.** En toda fiesta de primaria hay bebés de 1 y 2 años. No deben entrar al mediano: el modelo para ellos es el [Mini Castillo](/inflables/mini-castillo/) de $800 MXN, que pide apenas 3×3 m libres. Cómo combinar dos inflables está en [qué tamaño de inflable pedir según tus invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/).
+- **Olvidar a los hermanos menores.** En toda fiesta de primaria hay bebés de 1 y 2 años. No deben entrar al modelo para mayores: el modelo para ellos es el [Castillo Baby inflable](/inflables/mini-castillo/) de $1,400 MXN. Cómo combinar dos inflables está en [qué tamaño de inflable pedir según tus invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/).
 
 Conviene decirlo con todas sus letras: no ofrecemos seguro de responsabilidad civil. Por eso insistimos tanto en la capacidad y en los turnos. Lo que sí entregamos es equipo revisado y sanitizado, instalación con anclaje verificado y motor profesional durante todo el evento.
 
 ## ¿Y si la festejada quiere princesas?
 
-Pasa seguido en fiestas de hermanos o de grupos mixtos. Los dos modelos cuestan lo mismo, piden el mismo espacio y reciben a los mismos niños, así que la elección es puramente de temática. La comparación en detalle, con los tres criterios que resuelven la duda, está en [Castillo de Princesas o Dragones Rojos](/blog/renta-castillo-princesas-inflable-cdmx/).
+Pasa seguido en fiestas de hermanos o de grupos mixtos. Los dos modelos tienen rangos de edad y medidas distintos, así que la elección depende de la temática y de quiénes van a usarlos. La comparación en detalle está en [Castillo de Princesas o Dragones Rojos](/blog/renta-castillo-princesas-inflable-cdmx/).
 
 ## Aparta la fecha del torneo
 
 Escríbenos por WhatsApp con la fecha, la zona y el número aproximado de niños, o [pide tu cotización en línea](/cotizar/). Te respondemos con precio y disponibilidad confirmados; la fecha se aparta con el 50% de anticipo y atendemos de lunes a domingo de 8:00 a 20:00.
 
-Los precios son netos e incluyen transporte, instalación y retiro; se agrega IVA solo si necesitas factura, y en municipios lejanos del Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma un cargo de envío según la distancia. Puedes [ver precio y disponibilidad de los Dragones Rojos](/inflables/dragones-rojos/) o comparar los ocho modelos en la [página de precios](/precios/).
+El precio es neto; se agrega IVA solo si necesitas factura. La entrega sin costo adicional aplica solo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco; en el resto de CDMX y Estado de México se atiende con costo de traslado según zona. Puedes [ver precio y disponibilidad de los Dragones Rojos](/inflables/dragones-rojos/) o comparar los ocho modelos en la [página de precios](/precios/).

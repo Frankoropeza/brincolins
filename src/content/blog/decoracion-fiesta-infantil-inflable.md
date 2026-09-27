@@ -29,14 +29,14 @@ faqs:
   - question: "¿Qué zonas necesito definir en la fiesta para que fluya bien?"
     answer: "Una fiesta bien organizada tiene al menos 4 zonas: zona de juego con el inflable, zona de alimentos separada, zona de descanso para adultos con línea de vista al inflable, y zona de fotos. Esta separación evita el caos y facilita la supervisión de los niños."
   - question: "¿Los inflables se pueden instalar en salones cerrados?"
-    answer: "Solo dos de los ocho modelos entran bajo techo: el Mini Castillo (2×2×2.5 m, 3×3 m de área) y los Gusanitos (5×3×2.5 m, 7×5 m de área), ambos con 3.2 m de altura libre. Los medianos piden 4.2 m de altura y los grandes hasta 5.2 m, algo que casi ningún salón alcanza. Contáctanos con las medidas de tu espacio y te confirmamos sin costo."
+    answer: "Solo dos de los ocho modelos entran bajo techo: el Castillo Baby (2.5×2×2 m) y los Gusanitos (5×3×2.80 m). Los medianos piden más altura libre y los grandes también requieren espacios amplios, algo que casi ningún salón alcanza. Contáctanos con las medidas de tu espacio y te confirmamos sin costo."
 ---
 
 ## El inflable como centro del diseño
 
 El error más común al decorar una fiesta con inflable es tratar la decoración y el inflable como dos elementos separados. En realidad, el inflable debería ser el punto de partida de toda tu paleta de colores y temática — el mismo criterio que aplicamos en la guía de [inflables temáticos para fiestas infantiles](/blog/inflables-tematicos-infantiles-cdmx/). Si rentaste un [castillo de princesas](/inflables/castillo-princesas/) en tonos rosa y morado, esos deberían ser los colores dominantes en manteles, globos, platos y servilletas. Si elegiste un inflable de [dragones rojos](/inflables/dragones-rojos/), trabaja con tonos rojos, negros y dorados para crear cohesión visual.
 
-Esta coordinación no requiere gastar más dinero, simplemente planificación. Cuando reserves tu inflable, pide fotos del modelo exacto que te entregarán para comprar la decoración con los colores correctos. Los ocho modelos, con foto, medidas y precio de $800 a $1,900 MXN, están en la [página de precios](/precios/).
+Esta coordinación no requiere gastar más dinero, simplemente planificación. Cuando reserves tu inflable, pide fotos del modelo exacto que te entregarán para comprar la decoración con los colores correctos. Los ocho modelos, con foto, medidas y precio de $1,400 a $2,600 MXN, están en la [página de precios](/precios/).
 
 ## Paletas de color según tipo de inflable
 
@@ -48,7 +48,7 @@ Para facilitar la elección, aquí van combinaciones probadas para cada uno de l
 | Dragones rojos | Rojo, negro | Dorado o naranja |
 | [Barco pirata](/inflables/barco-pirata/) | Azul marino, café, rojo | Dorado |
 | [Castillo blanco](/inflables/castillo-blanco/) | Blanco, plateado | Rosa pastel o azul cielo |
-| [Mini jungla](/inflables/mini-jungla/) | Verde, café, amarillo | Naranja |
+| [Jungla](/inflables/mini-jungla/) | Verde, café, amarillo | Naranja |
 | Extremo (obstáculos) | Azul, rojo, amarillo | Verde neón |
 
 ## Distribución del espacio: zonas que toda fiesta necesita
@@ -57,7 +57,7 @@ Una fiesta infantil bien organizada tiene zonas definidas. Esto evita el caos, f
 
 ### Zona de juego (el inflable)
 
-El inflable debe estar en un área despejada: 3×3 m para el Mini Castillo, de 6×6 a 7×5 m para los medianos y hasta 9×7 m para el Barco Pirata, siempre con un metro de margen por lado ya incluido en esas cifras. Coloca un tapete o lona debajo de la entrada para que los niños se quiten los zapatos sin pisar el piso directamente. Puedes delimitar el área con banderines o guirnaldas que combinen con la temática. Un letrero de bienvenida tipo "Zona de diversión" le da un toque profesional.
+El inflable debe estar en un área despejada; confirma el espacio disponible con nuestro equipo antes de reservar. Coloca un tapete o lona debajo de la entrada para que los niños se quiten los zapatos sin pisar el piso directamente. Puedes delimitar el área con banderines o guirnaldas que combinen con la temática. Un letrero de bienvenida tipo "Zona de diversión" le da un toque profesional.
 
 ### Zona de alimentos
 

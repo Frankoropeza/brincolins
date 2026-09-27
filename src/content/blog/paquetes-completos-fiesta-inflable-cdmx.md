@@ -13,7 +13,7 @@ galleryImages:
   - "/img/blog/paquetes-completos-fiesta-inflable-cdmx/img1.avif"
   - "/img/blog/paquetes-completos-fiesta-inflable-cdmx/img4.avif"
 intro:
-  - "Los **paquetes de fiesta con inflable en CDMX**, desde **$4,500 MXN**, te permiten ahorrar respecto a contratar cada servicio por separado. En **BRINCOLINS** armamos paquetes personalizados que combinan brincolín, mobiliario, toldo, iluminación y extras como máquinas de palomitas — todo con un solo responsable y un precio cerrado para familias de la **Ciudad de México y Estado de México**."
+  - "Los **paquetes de fiesta con inflable en CDMX** combinan brincolín, mobiliario y pintacaritas. En **BRINCOLINS** contamos con el Paquete fiesta de **$2,800 MXN** y el Paquete fiesta bebés de **$2,100 MXN** para familias de la **Ciudad de México y Estado de México**."
   - "En esta guía comparamos los 3 niveles de **paquetes para fiesta infantil** más comunes en la ZMVM: básico, intermedio y premium. Incluimos tabla de precios, qué debe incluir cada nivel, errores comunes al contratar y estrategias para ahorrar. Si ya sabes cuántos invitados tendrás, escríbenos por **WhatsApp** y te enviamos una cotización a la medida en minutos."
 tags:
   - "renta inflables CDMX"
@@ -21,7 +21,7 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Qué incluye el paquete básico de fiesta con inflable?"
-    answer: "El paquete básico incluye el inflable elegido de nuestro catálogo de 8 modelos, entrega, instalación y retiro, motor soplador con extensiones y uso por 4 a 6 horas, desde $800 MXN. Los paquetes de fiesta que suman mobiliario y extras arrancan en $4,500 MXN."
+    answer: "El paquete fiesta de $2,800 MXN incluye 1 inflable Jungla o Dragones Rojos, 1 mesa con 10 sillitas y 1 pintacaritas durante 1 hora. El Paquete fiesta bebés cuesta $2,100 MXN e incluye 1 Castillo Baby, 1 mesa con 4 sillitas y pintacaritas para 4 niños."
   - question: "¿Qué ventaja tiene un paquete completo vs contratar todo por separado?"
     answer: "Un solo proveedor coordina inflable, mobiliario y toldo: una sola entrega, una sola instalación y un solo número de WhatsApp si algo falla. El precio queda cerrado desde la cotización, sin costos ocultos. Si prefieres armar tu evento pieza por pieza, también cotizamos cada servicio por separado."
   - question: "¿Puedo personalizar el paquete según mis necesidades?"
@@ -42,8 +42,8 @@ Aunque cada proveedor tiene sus propias opciones, la industria de renta de infla
 
 Es el paquete más accesible y el más contratado para fiestas íntimas de 15-30 invitados. Incluye lo esencial para que la fiesta funcione sin complicaciones.
 
-- 1 inflable a elegir de los 8 del catálogo, de $800 a $1,900 MXN según el modelo
-- Entrega, instalación y retiro incluidos
+- 1 inflable a elegir de los 8 del catálogo, de $1,400 a $2,600 MXN según el modelo
+- Instalación y retiro incluidos; traslado según zona
 - Motor soplador y extensiones eléctricas
 - Uso por 4 a 6 horas
 
@@ -63,7 +63,7 @@ Diseñado para fiestas de 30-60 invitados. Añade mobiliario y elementos que nor
 Para fiestas de 60-100+ invitados que quieren una experiencia completa sin preocuparse por nada.
 
 - Todo lo del paquete intermedio
-- 2 inflables a elegir: lo habitual es un grande (Barco Pirata 8-10 niños desde 4 años, o Extremo 6-10 por turno desde 6) más un mediano o el Mini Castillo para los de 1 a 4 años
+- 2 inflables a elegir: lo habitual es un grande (Barco Pirata, para 3 a 12 años, o Extremo, para 3 a 12 años) más un mediano o el Castillo Baby para los de 1 a 3 años
 - Sistema de sonido con bocina y micrófono
 - Iluminación decorativa (series LED)
 - Máquina de palomitas o algodón de azúcar
@@ -80,7 +80,7 @@ Para fiestas de 60-100+ invitados que quieren una experiencia completa sin preoc
 | Iluminación | No | No | Series LED |
 | Extras | — | — | Máquina palomitas/algodón |
 | Horas de servicio | 4-6 hrs | 4-6 hrs | 4-6 hrs |
-| Precio aproximado | $800 - $1,900 | Desde $4,500 | Desde $7,000 |
+| Precio aproximado | $1,400 - $2,600 | $2,800 | $2,100 |
 
 Los precios son netos: se agrega IVA solo si necesitas factura, y en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma un cargo de envío según la distancia. Puedes verificar tu zona en la [página de cobertura](/cobertura/).
 
@@ -143,4 +143,4 @@ En BRINCOLINS armamos paquetes personalizados según las necesidades de cada cli
 
 ---
 
-**¿Buscas el inflable perfecto para tu fiesta?** Son 8 modelos: el [Mini Castillo](/inflables/mini-castillo/) ($800, de 1 a 4 años), el [Barco Pirata](/inflables/barco-pirata/) ($1,800, el más grande) y el [Circuito Extremo](/inflables/extremo/) ($1,900, desde 6 años), entre otros. Para decidir cuál según tus invitados, revisa la [comparativa de inflable chico contra grande](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/). [Ver catálogo completo →](/inflables/)
+**¿Buscas el inflable perfecto para tu fiesta?** Son 8 modelos: el [Castillo Baby](/inflables/mini-castillo/) ($1,400, de 1 a 3 años), el [Barco Pirata](/inflables/barco-pirata/) ($2,300, el más grande) y el [Circuito Extremo](/inflables/extremo/) ($2,500, de 3 a 12 años), entre otros. Para decidir cuál según tus invitados, revisa la [comparativa de inflable chico contra grande](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/). [Ver catálogo completo →](/inflables/)

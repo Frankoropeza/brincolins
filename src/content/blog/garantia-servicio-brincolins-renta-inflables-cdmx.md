@@ -83,7 +83,7 @@ En todos esos casos, alguien contestó y resolvió.
 
 Nada destroza la confianza más rápido que un precio que sube el día del evento.
 
-Cuando BRINCOLINS te cotiza, el precio que te decimos es el precio que pagas. Incluye el inflable, el transporte de ida y vuelta, la instalación, la sanitización previa y el retiro. Es precio neto: se agrega IVA solo si necesitas factura. Y si tu zona tiene cargo por distancia —$150 a $600 en municipios lejanos de Edomex, $100 a $200 en algunas alcaldías del sur y oriente de la CDMX— te lo decimos antes de confirmar, no cuando ya estamos llegando a tu casa. Las cifras de los ocho modelos están publicadas en la [página de precios](/precios/) y las zonas, en la [página de cobertura](/cobertura/).
+Cuando BRINCOLINS te cotiza, el precio del inflable que te decimos es el precio que pagas. Incluye el inflable, la instalación, la sanitización previa y el retiro; el traslado se cotiza según la zona. Es precio neto: se agrega IVA solo si necesitas factura. Te informamos cualquier cargo antes de confirmar, no cuando ya estamos llegando a tu casa. Las cifras de los ocho modelos están publicadas en la [página de precios](/precios/) y las zonas, en la [página de cobertura](/cobertura/).
 
 Así de simple.
 
@@ -99,7 +99,7 @@ Hay cosas fuera de nuestro control y no vamos a prometerte lo que no podemos gar
 
 **Accesos imposibles.** Si el espacio donde quieres poner el inflable físicamente no lo permite — una azotea sin elevador para un inflable de 6 metros, por ejemplo — lo detectamos durante la cotización preguntando las dimensiones del espacio. Si por alguna razón llegamos y el acceso es inviable, lo resolvemos juntos en el momento, sin cobrarte por un servicio que no pudimos prestar.
 
-**El comportamiento de los usuarios.** Te decimos la capacidad exacta del modelo que rentaste —3 a 4 niños en el Mini Castillo, 5 a 7 en los medianos, 8 a 10 en los grandes— y damos las instrucciones al instalar. Lo que pasa dentro del inflable cuando hay adultos que entran sin avisar, o cuando se supera esa capacidad, ya no depende de nosotros. La [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/) es la que conviene leer antes de la fiesta.
+**El comportamiento de los usuarios.** Te confirmamos al cotizar la capacidad del modelo que rentaste y damos las instrucciones al instalar. Lo que pasa dentro del inflable cuando hay adultos que entran sin avisar, o cuando se supera esa capacidad, ya no depende de nosotros. La [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/) es la que conviene leer antes de la fiesta.
 
 **Un seguro de responsabilidad civil.** No lo ofrecemos, y no vamos a sugerir lo contrario. Lo que entregamos es equipo revisado y sanitizado, instalación con anclaje verificado, motor profesional durante todo el evento y recolección puntual.
 

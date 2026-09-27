@@ -22,7 +22,7 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Cuántos niños pueden usar el inflable a la vez?"
-    answer: "Depende del modelo, y la diferencia es grande. El Mini Castillo (2×2×2.5 m) admite 3 a 4 niños de 1 a 4 años; los medianos —Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos— de 5 a 7 niños; el Castillo Blanco, 8 a 10 personas; el Barco Pirata, 8 a 10 niños desde 4 años; y el Extremo, 6 a 10 por turno desde 6 años. Superar la capacidad es la causa más común de accidentes. Siempre respeta el límite indicado."
+    answer: "Depende del modelo, y la diferencia es grande. El Castillo Baby (2.5×2×2 m) es para niños de 1 a 3 años; Jungla y Dragones Rojos son para 3 a 8 años; Gusanitos para 2 a 8 años; Castillo de Princesas para 2 a 10 años; y Castillo Blanco, Barco Pirata y Extremo para 3 a 12 años. La capacidad se confirma al cotizar. Siempre respeta el límite indicado."
   - question: "¿Qué pasa si hay viento fuerte?"
     answer: "Si el viento supera los 40 km/h, se debe desinflar y asegurar el brincolín. Nunca permitas que los niños usen un inflable con viento fuerte."
   - question: "¿Los inflables son seguros bajo la lluvia?"
@@ -53,7 +53,7 @@ Estas reglas salvan vidas — o al menos, evitan las visitas al hospital. Comun�
 
 - **1. Sin zapatos adentro.** Los zapatos, especialmente los de punta dura, pueden perforar el inflable y lastimar a otros niños.
 - **2. Sin objetos punzantes.** Horquillas, cinturones con hebillas metálicas, juguetes — todo fuera antes de entrar.
-- **3. Respetar la capacidad máxima.** Es el número de la ficha del modelo, no una sugerencia: 3 a 4 niños en el Mini Castillo, 5 a 7 en los medianos, 8 a 10 en el Castillo Blanco y el Barco Pirata, 6 a 10 por turno en el Extremo. Si son 4, son 4.
+- **3. Respetar la capacidad máxima.** Es el dato de la ficha del modelo, no una sugerencia: se confirma al cotizar. Si el equipo indica un límite, se respeta.
 - **4. Separar edades.** No mezcles niños de 3 años con adolescentes de 12. Los más grandes inadvertidamente pueden lastimarlos. Cuando la lista de invitados mezcla edades, la [comparativa de inflable chico contra grande](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/) explica cuándo conviene rentar dos modelos.
 - **5. Un adulto supervisa siempre.** No dejes el inflable sin supervisión adulta. Ni un minuto.
 - **6. Sin comida ni bebidas adentro.** Además del riesgo de atragantamiento, mancha y deteriora el vinilo del inflable.
@@ -66,7 +66,7 @@ No todos los negocios de renta de inflables operan igual. Estas son las pregunta
 - **¿Con qué frecuencia revisan el estado de sus inflables?** Los buenos proveedores hacen revisión después de cada uso.
 - **¿Qué hacen si el inflable falla durante la fiesta?** Deben tener protocolo de respuesta rápida o equipo de respaldo.
 - **¿Tienen reseñas en Google o Facebook?** Busca opiniones reales de otros clientes, no solo los testimonios en su página.
-- **¿Publican la capacidad y las medidas de cada modelo?** Un proveedor que no sabe decirte cuántos niños admite su inflable tampoco va a hacerlos respetar el límite. Nosotros publicamos ambas cifras junto al precio en la [página de precios](/precios/).
+- **¿Publican la capacidad y las medidas de cada modelo?** Un proveedor debe poder confirmar las medidas y la capacidad de cada inflable antes de reservar. Nosotros publicamos las medidas junto al precio y confirmamos la capacidad al cotizar en la [página de precios](/precios/).
 
 Si quieres el checklist largo, lo desarrollamos en las [7 señales de un proveedor de inflables confiable](/blog/senales-proveedor-inflables-confiable-cdmx/).
 
@@ -85,4 +85,4 @@ Seamos claros en algo que muchos proveedores dejan ambiguo: **BRINCOLINS no ofre
 
 ---
 
-**¿Buscas el inflable perfecto para tu fiesta?** Tenemos opciones para todos los eventos: el [Mini Castillo](/inflables/mini-castillo/) para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas y el [Circuito Extremo](/inflables/extremo/) para niños aventureros. [Solicita tu cotización gratuita →](/cotizar/)
+**¿Buscas el inflable perfecto para tu fiesta?** Tenemos opciones para todos los eventos: el [Castillo Baby](/inflables/mini-castillo/) para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas y el [Extremo](/inflables/extremo/) para niños aventureros. [Solicita tu cotización gratuita →](/cotizar/)

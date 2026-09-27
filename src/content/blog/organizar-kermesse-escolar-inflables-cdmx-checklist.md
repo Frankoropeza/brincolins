@@ -258,7 +258,7 @@ La documentación post-kermesse es la inversión más rentable que puede hacer u
 ## Los errores más comunes al organizar kermesses con inflables (y cómo evitarlos)
 
 **Error 1: Contratar tarde**
-El error más frecuente y el más costoso. Los inflables de mayor demanda —Barco Pirata ($1,800) y Extremo ($1,900)— se agotan con semanas de anticipación en temporada alta. En mayo y junio, que es cuando concentramos la mayor parte de las kermesses de fin de ciclo en CDMX y Edomex, la lista de espera puede ser de semanas. Solución: inicia el proceso de cotización y reservación en la Fase 1, cuando faltan 8 semanas.
+El error más frecuente y el más costoso. Los inflables de mayor demanda —Barco Pirata ($2,300) y Extremo ($2,500)— se agotan con semanas de anticipación en temporada alta. En mayo y junio, que es cuando concentramos la mayor parte de las kermesses de fin de ciclo en CDMX y Edomex, la lista de espera puede ser de semanas. Solución: inicia el proceso de cotización y reservación en la Fase 1, cuando faltan 8 semanas.
 
 **Error 2: No verificar la capacidad eléctrica**
 Conectar el motor de un inflable a un circuito sobrecargado provoca cortes de luz que interrumpen el evento en los peores momentos. Solución: habla directamente con el encargado de mantenimiento de la escuela —no con la secretaria, no con el director— y pregúntale cuántos amperes hay disponibles en el área del patio y en qué circuitos.
@@ -276,13 +276,13 @@ Los accidentes en inflables casi siempre ocurren por uso inadecuado: demasiados 
 
 | Asistentes estimados | Inflables recomendados | Costo aproximado inflables | Presupuesto total evento sugerido |
 |---|---|---|---|
-| 100-200 personas | 1 inflable mediano ($1,200, 5-7 niños por turno) | $1,200 | $8,000 - $15,000 |
-| 200-400 personas | 1 inflable grande ($1,800, 8-10 niños por turno) | $1,800 | $15,000 - $25,000 |
-| 400-600 personas | 2 inflables ($1,200 + $1,800) | $3,000 | $25,000 - $40,000 |
-| 600-900 personas | 3 inflables ($1,900 + $1,800 + $1,200) | $4,900 | $40,000 - $65,000 |
-| Más de 900 personas | 4+ inflables (combinación) | $6,000+ | $65,000+ |
+| 100-200 personas | 1 inflable mediano | Se confirma al cotizar | Se confirma al cotizar |
+| 200-400 personas | 1 inflable grande | Se confirma al cotizar | Se confirma al cotizar |
+| 400-600 personas | 2 inflables | Se confirma al cotizar | Se confirma al cotizar |
+| 600-900 personas | 3 inflables | Se confirma al cotizar | Se confirma al cotizar |
+| Más de 900 personas | 4+ inflables | Se confirma al cotizar | Se confirma al cotizar |
 
-*Los costos de inflables corresponden al catálogo vigente de BRINCOLINS: 8 modelos de $800 a $1,900 MXN, publicados con sus medidas y capacidades en la [página de precios](/precios/). Son precios netos —el IVA se agrega si la escuela requiere factura CFDI, que sí emitimos— y en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma el cargo de envío según la distancia; verifícalo en la [página de cobertura](/cobertura/). El presupuesto total del evento incluye comida, decoración, sonido, mobiliario y otros proveedores además de los inflables.*
+*Los precios unitarios de los inflables van de $1,400 a $2,600 MXN según el modelo y se publican con sus medidas en la [página de precios](/precios/). Son precios netos —el IVA se agrega si la escuela requiere factura CFDI, que sí emitimos— y el traslado se confirma según zona. El presupuesto total del evento se confirma al cotizar e incluye, en su caso, comida, decoración, sonido, mobiliario y otros proveedores además de los inflables.*
 
 ## Cómo coordinar con BRINCOLINS para una kermesse: paso a paso
 
@@ -306,7 +306,7 @@ La comunicación con los padres de familia es parte integral del éxito de la ke
 
 - El inflable tiene un límite de usuarios simultáneos por seguridad: la fila avanza rápidamente cuando todos respetan el turno.
 - Los alumnos deben usar ropa cómoda y sin accesorios que puedan dañar el inflable (hebillas grandes, zapatos con punta metálica, objetos en los bolsillos).
-- Cada inflable tiene su rango de edad: el Mini Castillo es de 1 a 4 años y recibe 3 o 4 niños; los medianos, de 4 a 10 años con 5 a 7 por turno; el Barco Pirata desde los 4 con 8 a 10; el circuito Extremo desde los 6, con 6 a 10 por turno.
+- Cada inflable tiene su rango de edad: el Castillo Baby es de 1 a 3 años; Gusanitos, de 2 a 8; Dragones Rojos y Jungla, de 3 a 8; Castillo de Princesas, de 2 a 10; Barco Pirata, Extremo y Castillo Blanco, de 3 a 12. La capacidad se confirma al cotizar.
 - La supervisión adulta se cubre en todo momento entre el personal de BRINCOLINS y los voluntarios de la escuela.
 - Las fotos y videos dentro del inflable son bienvenidos, pero pedimos que no interfieran con el flujo de uso.
 

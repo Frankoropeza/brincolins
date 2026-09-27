@@ -21,13 +21,13 @@ tags:
   - "torneos y carreras"
 faqs:
   - question: "¿Cuántos niños pueden competir a la vez en un circuito de obstáculos?"
-    answer: "El circuito Extremo tiene doble carril, así que compiten dos a la vez cabeza a cabeza, y admite de 6 a 10 participantes por turno dentro del recorrido. Cada pasada dura entre 30 y 60 segundos, lo que permite mover filas grandes rápido si hay alguien administrando los turnos."
+    answer: "El circuito Extremo tiene doble carril, así que compiten dos a la vez cabeza a cabeza. La capacidad se confirma al cotizar. Cada pasada dura entre 30 y 60 segundos, lo que permite mover filas grandes rápido si hay alguien administrando los turnos."
   - question: "¿Desde qué edad pueden participar los niños?"
-    answer: "Desde los 6 años. Por debajo de esa edad el circuito tiene obstáculos que no corresponden al desarrollo motriz del niño y la competencia deja de ser divertida. Para grupos de 1 a 4 años el modelo es el Mini Castillo, y para 4 a 10 los medianos de brinco."
+    answer: "Desde los 3 años. Por debajo de esa edad el circuito tiene obstáculos que no corresponden al desarrollo motriz del niño y la competencia deja de ser divertida. Para grupos de 1 a 3 años el modelo es el Castillo Baby, y para 3 a 8 los modelos Jungla, Dragones Rojos o Gusanitos, según la edad."
   - question: "¿Cómo se evita que la fila se descontrole?"
     answer: "Con tres cosas: un adulto responsable solo de armar los siguientes turnos, grupos por edad anunciados con anticipación y una segunda actividad corriendo en paralelo. Si hay fila larga, no falta inflable: falta una segunda estación."
   - question: "¿Sirve para una kermés escolar?"
-    answer: "Es uno de los usos más habituales, junto con fines de curso y eventos deportivos escolares. Pide 9×6 m de superficie despejada y 4.5 m de altura libre, así que va en patio o explanada. Conviene confirmar con la escuela el acceso vehicular y la toma de corriente antes de reservar."
+    answer: "Es uno de los usos más habituales, junto con fines de curso y eventos deportivos escolares. Requiere un área despejada y altura libre suficientes, así que va en patio o explanada. Conviene confirmar con la escuela el acceso vehicular y la toma de corriente antes de reservar."
 ---
 
 ## ¿Por qué se cae un torneo infantil?
@@ -43,13 +43,13 @@ Todo lo demás —el clima, la comida, la música— es secundario. Si resuelves
 
 ## ¿Qué necesita el circuito y dónde entra?
 
-El modelo que usamos para competencias es el **Extremo**: circuito de obstáculos de 7×4×3.8 m con doble carril, túneles, muro con agarraderas y tobogán de salida. Admite de 6 a 10 participantes por turno desde los 6 años, pide 9×6 m de área libre y 4.5 m de altura, se instala en 30 minutos y cuesta $1,900 MXN netos. Las medidas completas, la galería y la disponibilidad están en [la ficha del circuito Extremo](/inflables/extremo/).
+El modelo que usamos para competencias es el **Extremo**: circuito de obstáculos de 8×4.5×3.50 m con doble carril, túneles, muro con agarraderas y tobogán de salida. Su capacidad se confirma al cotizar, funciona para niños de 3 a 12 años, requiere un área libre y altura suficiente, se instala en 30 minutos y cuesta $2,500 MXN netos. Las medidas completas, la galería y la disponibilidad están en [la ficha del circuito Extremo](/inflables/extremo/).
 
 Con esos números, dónde entra y dónde no:
 
 - **Patio de escuela o explanada:** el escenario natural. Suele tener superficie plana, acceso vehicular y contacto eléctrico.
-- **Jardín grande de casa:** entra si el rectángulo despejado da 9×6 m. Es más largo que ancho, así que muchas veces cabe donde no cabía un castillo.
-- **Salón cerrado:** no. Los 4.5 m de altura libre los cumplen muy pocos recintos.
+- **Jardín grande de casa:** entra si el rectángulo despejado tiene el área suficiente. Es más largo que ancho, así que muchas veces cabe donde no cabía un castillo.
+- **Salón cerrado:** requiere confirmar la altura libre del recinto antes de reservar.
 - **Parque o terreno sin luz:** viable con generador, que llevamos con un costo adicional.
 
 Necesitas además una toma de 110V a menos de 20 metros del punto de instalación. El motor trabaja de forma continua durante todo el evento.
@@ -60,7 +60,7 @@ Esta es la decisión que más cambia el resultado. Tres categorías bastan y con
 
 - **6 a 8 años.** Recorrido sin cronómetro o con cronómetro solo informativo. El objetivo es completar el circuito, no ganar. Un adulto acompaña desde fuera indicando el siguiente obstáculo.
 - **9 a 12 años.** Es el rango donde el formato competitivo funciona mejor. Ya tienen coordinación para el circuito completo y la competencia los engancha sin frustrarlos.
-- **13 años en adelante.** Cronómetro, tabla de posiciones y eliminatorias. Los adolescentes son el grupo que más se toma en serio el torneo, y el que más se aburre si no hay marcador. El repaso de qué funciona con esa edad está en [inflables para adolescentes y jóvenes](/blog/inflables-para-adolescentes-jovenes-cdmx/).
+- **9 a 12 años.** Cronómetro, tabla de posiciones y eliminatorias. A estas edades el grupo suele tomarse en serio el torneo, y se aburre si no hay marcador. El repaso de qué funciona está en [inflables para adolescentes y jóvenes](/blog/inflables-para-adolescentes-jovenes-cdmx/).
 
 Nunca mezcles la categoría chica con la grande en la misma ronda. Ni por tiempo, ni por "es que solo falta uno".
 
@@ -106,7 +106,7 @@ Se dicen una vez, en voz alta, antes de la primera ronda, y se repiten a cada ta
 - **Sin zapatos.** Es la regla que más se rompe y la que más lesiones evita.
 - **Sin objetos en los bolsillos ni en el cuello.** Llaves, celulares, cadenas, lentes.
 - **De uno en uno por obstáculo.** No se rebasa dentro de un túnel.
-- **Se respeta la capacidad.** De 6 a 10 por turno. Meter a quince "porque ya estaban formados" es la causa más común de golpes.
+- **Se respeta la capacidad.** Se confirma al cotizar. Meter a más participantes de los indicados "porque ya estaban formados" es la causa más común de golpes.
 - **Nadie brinca recién comido.** Cierra el circuito durante la comida y el pastel.
 
 Conviene decirlo con claridad: no ofrecemos seguro de responsabilidad civil. Lo que sí entregamos es equipo revisado y sanitizado, instalación con anclaje verificado y motor profesional durante todo el evento; damos las instrucciones y la capacidad al instalar. La supervisión durante el evento corre por cuenta del organizador.
@@ -130,4 +130,4 @@ Si en cambio el grupo es de adultos y el objetivo es integración laboral, el ma
 
 Escríbenos por WhatsApp con la fecha, el lugar, el número de participantes y las edades, o [pide tu cotización en línea](/cotizar/). Te respondemos con precio y disponibilidad confirmados; la fecha se aparta con el 50% de anticipo y atendemos de lunes a domingo de 8:00 a 20:00.
 
-Los $1,900 MXN son precio neto e incluyen transporte, instalación y desmontaje; se agrega IVA solo si necesitas factura, y en municipios lejanos del Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma un cargo de envío según la distancia. Puedes [ver precio y disponibilidad del circuito Extremo](/inflables/extremo/) o comparar los ocho modelos en la [página de precios](/precios/).
+Los $2,500 MXN son precio neto e incluyen instalación y desmontaje; el traslado se cotiza según la zona, y se agrega IVA solo si necesitas factura. Puedes [ver precio y disponibilidad del circuito Extremo](/inflables/extremo/) o comparar los ocho modelos en la [página de precios](/precios/).

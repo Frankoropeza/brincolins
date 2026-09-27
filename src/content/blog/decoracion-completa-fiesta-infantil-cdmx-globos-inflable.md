@@ -18,7 +18,7 @@ tags:
   - "fiestas infantiles cdmx 2026"
 faqs:
   - question: "¿Cuánto cuesta una decoración completa con globos, backdrop e inflable en CDMX?"
-    answer: "Para una fiesta mediana de 20-50 niños, el costo combinado de inflable (desde $1,200 MXN) más decoración completa con globos y backdrop (desde $1,500 MXN) está en el rango de $2,700 a $5,500 MXN. Para fiestas grandes el presupuesto puede escalar a $9,000 MXN o más según los elementos elegidos."
+    answer: "Para una fiesta mediana de 20-50 niños, considera el precio unitario del inflable desde $1,400 MXN más el precio de la decoración completa con globos y backdrop, que depende de los elementos elegidos. Para fiestas grandes el presupuesto se confirma al cotizar."
   - question: "¿Con cuánta anticipación debo reservar el inflable y la decoración para mi fiesta en CDMX?"
     answer: "En temporada alta (mayo, junio y diciembre) se recomienda reservar con mínimo 3-4 semanas de anticipación para garantizar disponibilidad del inflable y del decorador. En temporada normal, 2 semanas suelen ser suficientes, aunque siempre es mejor reservar antes."
   - question: "¿Qué pasa si el día de la fiesta llueve y la decoración es en exterior?"
@@ -39,15 +39,15 @@ Antes de elegir la decoración, hay que tener claro el tema. No porque sea un re
 
 ### 1. Dinosaurios y Era Jurásica
 
-El tema más solicitado para niños de 4 a 8 años en los últimos dos años. Hay algo en los dinosaurios que trasciende generaciones. Los colores dominantes son verde oscuro, café, naranja y rojo. El inflable ideal es la [Mini Jungla](/inflables/mini-jungla/) ($1,300, de 3 a 10 años) o, si los niños ya pasan de 6, el [Extremo](/inflables/extremo/) ($1,900). DEGLOB crea arcos con globos verdes y cromados dorados que simulan la vegetación prehistórica, y cuando el aire mueve ligeramente los globos orgánicos, hay un momento en que el jardín entero parece Jurassic Park.
+El tema más solicitado para niños de 4 a 8 años en los últimos dos años. Hay algo en los dinosaurios que trasciende generaciones. Los colores dominantes son verde oscuro, café, naranja y rojo. El inflable ideal es la [Jungla](/inflables/mini-jungla/) ($1,600, de 3 a 8 años) o el [Extremo](/inflables/extremo/) ($2,500, de 3 a 12 años). DEGLOB crea arcos con globos verdes y cromados dorados que simulan la vegetación prehistórica, y cuando el aire mueve ligeramente los globos orgánicos, hay un momento en que el jardín entero parece Jurassic Park.
 
 ### 2. Unicornios y Fantasía
 
-Favorito absoluto para niñas de 4 a 7 años. La paleta es todo el arcoíris en tonos pastel más cromados rosados y dorados. Combina perfectamente con el [Castillo de Princesas](/inflables/castillo-princesas/) ($1,200, para 5 a 7 niñas de 4 a 10 años); si la festejada tiene 3 años o menos, el modelo es el Mini Castillo. Los backdrops de DEGLOB en este tema suelen incluir telas iridiscentes que capturan la luz de una manera que ninguna foto hace justicia — hay que verlo en persona.
+Favorito absoluto para niñas de 4 a 7 años. La paleta es todo el arcoíris en tonos pastel más cromados rosados y dorados. Combina perfectamente con el [Castillo de Princesas](/inflables/castillo-princesas/) ($1,800, para niños de 2 a 10 años); si la festejada tiene de 1 a 3 años, el modelo es el Castillo Baby. Los backdrops de DEGLOB en este tema suelen incluir telas iridiscentes que capturan la luz de una manera que ninguna foto hace justicia — hay que verlo en persona.
 
 ### 3. Piratas y Aventura Marina
 
-Clásico que nunca falla para niños de 5 a 10 años. Azul marino, negro, rojo y dorado. El [Barco Pirata](/inflables/barco-pirata/) de BRINCOLINS —el modelo más grande del catálogo, 9×7 m de área libre, $1,800 MXN— es la elección obvia, y cuando el inflable llega a una fiesta con este tema, los niños ya están corriendo hacia él antes de que terminemos de inflarlo. La decoración de globos con anclas y calaveras amigables redondea la atmósfera de manera que el espacio entero parece transportado al Caribe.
+Clásico que nunca falla para niños de 5 a 10 años. Azul marino, negro, rojo y dorado. El [Barco Pirata](/inflables/barco-pirata/) de BRINCOLINS —$2,300 MXN y para niños de 3 a 12 años— es la elección obvia, y cuando el inflable llega a una fiesta con este tema, los niños ya están corriendo hacia él antes de que terminemos de inflarlo. La decoración de globos con anclas y calaveras amigables redondea la atmósfera de manera que el espacio entero parece transportado al Caribe.
 
 ### 4. Superheroes
 
@@ -63,14 +63,14 @@ La transparencia en los costos es fundamental para que puedas planear sin sorpre
 
 | Elemento | Fiesta íntima (hasta 20 niños) | Fiesta mediana (20-50 niños) | Fiesta grande (+50 niños) |
 |---|---|---|---|
-| Inflable BRINCOLINS | $800 - $1,200 MXN | $1,200 - $1,800 MXN | $1,700 - $1,900 MXN |
+| Inflable BRINCOLINS | $1,400 - $1,600 MXN | $1,600 - $1,800 MXN | $2,300 - $2,600 MXN |
 | Arco orgánico de globos | $800 - $1,200 MXN | $1,200 - $2,000 MXN | $2,000 - $4,000 MXN |
 | Backdrop temático | $600 - $1,000 MXN | $1,000 - $1,800 MXN | $1,800 - $3,500 MXN |
 | Centros de mesa (por pieza) | $80 - $150 MXN | $80 - $150 MXN | $80 - $150 MXN |
 | Decoración adicional (banderines, etc.) | $200 - $400 MXN | $400 - $700 MXN | $700 - $1,500 MXN |
-| **Total estimado** | **$2,400 - $3,950 MXN** | **$3,880 - $6,450 MXN** | **$6,280 - $11,050 MXN** |
+| **Total estimado** | **Se confirma al cotizar** | **Se confirma al cotizar** | **Se confirma al cotizar** |
 
-Estos rangos son orientativos. Los precios de inflable van de $800 a $1,900 MXN y están publicados con medidas y capacidad en la [página de precios](/precios/); son netos, con IVA solo si necesitas factura y cargo de envío según distancia en las zonas más lejanas. Para una cotización exacta adaptada a tu evento, [pídela en línea](/cotizar/) o escríbenos al **5531281706**. También puedes revisar nuestros [servicios completos](/servicios/), con paquetes de fiesta desde $4,500 MXN.
+Estos rangos son orientativos. Los precios de inflable van de $1,400 a $2,600 MXN y están publicados con medidas en la [página de precios](/precios/); son netos, con IVA solo si necesitas factura y cargo de envío según distancia en las zonas más lejanas. Para una cotización exacta adaptada a tu evento, [pídela en línea](/cotizar/) o escríbenos al **5531281706**. También puedes revisar nuestros [servicios completos](/servicios/), con Paquete fiesta de $2,800 y Paquete fiesta bebés de $2,100.
 
 ## Planificación sin estrés: lo que necesitas hacer y cuándo
 

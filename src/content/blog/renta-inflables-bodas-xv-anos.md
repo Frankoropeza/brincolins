@@ -18,11 +18,11 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Qué inflables son elegantes para una boda o XV años?"
-    answer: "Nuestro Castillo Blanco es el modelo diseñado para eventos formales. Su diseño monocromático en blanco se integra con cualquier paleta de boda o quinceañera sin romper la estética. Para XV años temáticos, el Castillo de Princesas complementa a la perfección una decoración de fantasía."
+    answer: "Nuestro Castillo Blanco es el modelo diseñado para eventos formales. Su diseño monocromático en blanco se integra con cualquier paleta de boda o quinceañera sin romper la estética. Para XV años temáticos, el Castillo de Princesas complementa a la perfección una decoración de fantasía y es para niños de 2 a 10 años."
   - question: "¿El inflable se puede instalar en un salón de eventos con techo?"
-    answer: "Rara vez. El Castillo Blanco mide 6×5×4 m y necesita 8×7 m de área libre con 4.7 m de altura, algo que muy pocos salones tienen. Los únicos dos modelos que caben bajo techo son el Mini Castillo (3×3 m, 3.2 m de altura) y los Gusanitos (7×5 m, 3.2 m). Comparte las medidas del salón y confirmamos viabilidad sin compromiso."
+    answer: "Rara vez. El Castillo Blanco mide 5 × 7 × 4 m y la viabilidad depende de las medidas del salón. Comparte el largo, ancho y altura libre del lugar y confirmamos viabilidad sin compromiso."
   - question: "¿Cuánto cuesta rentar un inflable para boda o XV años en CDMX?"
-    answer: "Los precios son los mismos que para cualquier evento: desde $800 MXN el Mini Castillo, $1,700 el Castillo Blanco —el modelo para eventos formales— y $1,900 el circuito Extremo. Son precios netos por 4 a 6 horas; se agrega IVA solo si necesitas factura y hay cargo de envío según distancia en zonas lejanas. Si tu boda o quinceañera necesita un horario más largo, cotizamos el tiempo adicional caso por caso."
+    answer: "Los precios son los mismos que para cualquier evento: $1,400 MXN el Castillo Baby, $2,600 el Castillo Blanco —el modelo para eventos formales— y $2,500 el circuito Extremo. Son precios netos; se agrega IVA solo si necesitas factura y el traslado se confirma según zona. Si tu boda o quinceañera necesita un horario más largo, cotizamos el tiempo adicional caso por caso."
   - question: "¿Cómo coordino el inflable con el programa del evento?"
     answer: "La secuencia que mejor funciona: cerrado durante la ceremonia; abierto en el cóctel y recepción; cerrado durante la comida y el brindis; abierto nuevamente después del pastel hasta el cierre del evento. Así los niños se entretienen sin interrumpir los momentos importantes."
 ---
@@ -39,7 +39,7 @@ En BRINCOLINS, nuestro modelo **Castillo Blanco** fue pensado específicamente p
 
 Sus características lo hacen ideal para eventos formales:
 
-- **Medidas y capacidad:** 6×5×4 m sobre 8×7 m de área libre, con 4.7 m de altura; recibe de 8 a 10 personas desde los 3 años, a **$1,700 MXN**
+- **Medidas:** 5 × 7 × 4 m; es para niños de 3 a 12 años, a **$2,600 MXN**. El espacio y la capacidad se confirman al cotizar.
 - **Color neutro:** El blanco combina con cualquier paleta de colores de boda o quinceañera
 - **Diseño arquitectónico:** Torres, almenas y arcos que evocan un castillo real, no un juguete
 - **Tamaño adecuado:** Lo suficientemente grande para que sea divertido, pero no tan masivo que domine el espacio
@@ -50,11 +50,11 @@ Sus características lo hacen ideal para eventos formales:
 | Evento | Inflable recomendado | ¿Por qué? |
 | --- | --- | --- |
 | Boda clásica | Castillo Blanco | Color neutro, elegante, fotogénico |
-| Boda en jardín | Castillo Blanco + [Mini Jungla](/inflables/mini-jungla/) | El blanco para fotos, la jungla para niños |
-| XV años temáticos | Castillo Princesas | Temática de fantasía, colores vibrantes |
+| Boda en jardín | Castillo Blanco + [Jungla](/inflables/mini-jungla/) | El blanco para fotos, la jungla para niños |
+| XV años temáticos | Castillo de Princesas | Temática de fantasía, colores vibrantes |
 | XV años modernos | Extremo (obstáculos) | Actividad dinámica para adolescentes |
-| Boda de verano | Castillo Blanco + [Barco Pirata](/inflables/barco-pirata/) | El blanco para la estética del evento, el barco y su tobogán (desde 4 años, 8 a 10 niños) para entretener a los niños |
-| Con bebés en la lista | Castillo Blanco + [Mini Castillo](/inflables/mini-castillo/) | El Mini Castillo es el único modelo para invitados de 1 a 4 años, y cabe en 3×3 m |
+| Boda de verano | Castillo Blanco + [Barco Pirata](/inflables/barco-pirata/) | El blanco para la estética del evento, el barco y su tobogán para entretener a los niños de 3 a 12 años |
+| Con bebés en la lista | Castillo Blanco + [Castillo Baby inflable](/inflables/mini-castillo/) | El Castillo Baby es el modelo para invitados de 1 a 3 años |
 
 ## Ubicación estratégica del inflable en el evento
 
@@ -91,7 +91,7 @@ Es fundamental coordinar los tiempos del inflable con el programa del evento. Aq
 
 ## Quinceañeras: inflables como atracción principal
 
-En las quinceañeras, los inflables tienen un papel más protagónico que en las bodas. La mayoría de los invitados son adolescentes que prefieren actividades físicas antes que quedarse sentados. El [Extremo](/inflables/extremo/) —7×4×3.8 m sobre 9×6 m libres, desde 6 años, 6 a 10 participantes por turno, $1,900 MXN— es el modelo que más se renta para ese perfil, y suele terminar compitiendo con el DJ por la atención de la noche. La [guía de inflables para adolescentes y jóvenes](/blog/inflables-para-adolescentes-jovenes-cdmx/) explica cómo montar el torneo.
+En las quinceañeras, los inflables tienen un papel más protagónico que en las bodas. La mayoría de los invitados son adolescentes que prefieren actividades físicas antes que quedarse sentados. El [Extremo](/inflables/extremo/) —**8 × 4.5 × 3.50 m**, para niños de **3 a 12 años**, **$2,500 MXN**— es el modelo que más se renta para ese perfil, y suele terminar compitiendo con el DJ por la atención de la noche. La [guía de inflables para adolescentes y jóvenes](/blog/inflables-para-adolescentes-jovenes-cdmx/) explica cómo montar el torneo.
 
 Para quinceañeras temáticas de fantasía o princesas, el [Castillo de Princesas](/inflables/castillo-princesas/) o el Castillo Blanco complementan perfectamente la decoración. Muchas quinceañeras usan el castillo inflable como fondo para su sesión de fotos casual. Las ideas de integración visual están en la guía de [decoración con inflable para XV años](/blog/decoracion-inflable-xv-anos-cdmx/).
 
@@ -99,12 +99,12 @@ Para quinceañeras temáticas de fantasía o princesas, el [Castillo de Princesa
 
 Los precios para bodas y quinceañeras son los mismos que para cualquier evento. La diferencia está en que estos eventos suelen requerir horarios extendidos o combinaciones especiales:
 
-- **Inflable individual (4 a 6 horas):** de $800 a $1,900 MXN según el modelo. El Castillo Blanco, que es el indicado para eventos formales, cuesta **$1,700 MXN**
+- **Inflable individual:** de $1,400 a $2,600 MXN según el modelo. El Castillo Blanco, que es el indicado para eventos formales, cuesta **$2,600 MXN**
 - **Horario extendido:** se cotiza según la duración real de tu evento
 - **Dos inflables en el mismo evento:** se cotizan juntos; es la combinación habitual cuando hay bebés y niños grandes en la lista
-- **Paquetes de fiesta completos:** desde $4,500 MXN, con [inflable, mobiliario e iluminación](/servicios/paquetes-de-fiesta/)
+- **Paquetes de fiesta completos:** consulta el **Paquete fiesta $2,800** o el **Paquete fiesta bebés $2,100**; la iluminación se cotiza por separado si aplica.
 
-Todos los precios son netos y están publicados en la [página de precios](/precios/). Se agrega IVA solo si necesitas factura, y si el venue está en un municipio lejano de Edomex o en ciertas alcaldías del sur y oriente de la CDMX, se suma el cargo de envío según la distancia.
+Todos los precios son netos y están publicados en la [página de precios](/precios/). Se agrega IVA solo si necesitas factura. La entrega sin costo adicional aplica solo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco; en el resto de CDMX y Estado de México se atiende con costo de traslado según zona.
 
 ## Consejos finales para integrar inflables en tu evento
 

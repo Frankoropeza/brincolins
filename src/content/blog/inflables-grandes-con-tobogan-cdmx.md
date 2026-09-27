@@ -12,7 +12,7 @@ galleryImages:
   - "/img/blog/inflables-grandes-con-tobogan-cdmx/img1.avif"
   - "/img/blog/inflables-grandes-con-tobogan-cdmx/img3.avif"
 intro:
-  - "Los **inflables grandes con tobogán** son la atracción definitiva para eventos y fiestas que quieren ir más allá del brincolín tradicional. En **BRINCOLINS** contamos con los modelos más impresionantes de la **Ciudad de México**: desde el **barco pirata con tobogán integrado** hasta pistas de obstáculos con deslizaderos de gran altura. Todos incluyen **transporte e instalación profesional**."
+  - "Los **inflables grandes con tobogán** son la atracción definitiva para eventos y fiestas que quieren ir más allá del brincolín tradicional. En **BRINCOLINS** contamos con los modelos más impresionantes de la **Ciudad de México**: desde el **barco pirata con tobogán integrado** hasta pistas de obstáculos con deslizaderos de gran altura. Todos incluyen **instalación profesional**; el traslado se cotiza según la zona."
   - "Si estás organizando un evento grande — una kermés escolar, un festival comunitario, un cumpleaños con muchos invitados o un evento corporativo familiar — un **inflable grande con tobogán** es la pieza central que garantiza diversión para todos. Atendemos toda la **ZMVM** incluyendo **CDMX**, Naucalpan, Huixquilucan, Tlalnepantla, Atizapán y más. **Cotiza por WhatsApp** y recibe respuesta en minutos."
 tags:
   - "renta inflables CDMX"
@@ -20,7 +20,7 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Cuánto espacio necesito para un inflable grande con tobogán?"
-    answer: "El Barco Pirata (7×5×4.5 m) necesita 9×7 metros de área libre y 5.2 metros de altura; el circuito Extremo (7×4×3.8 m), 9×6 metros y 4.5 m de altura. Esas cifras ya incluyen el margen de seguridad por lado. Por la altura, ambos van en exterior: jardines amplios, explanadas o parques. Si no estás seguro, mándanos una foto del espacio por WhatsApp y te asesoramos."
+    answer: "El Barco Pirata mide 6×3.5×3.80 m; el circuito Extremo, 8×4.5×3.50 m. Ambos van en exterior: jardines amplios, explanadas o parques. Si no estás seguro, mándanos una foto del espacio por WhatsApp y te asesoramos."
   - question: "¿Los inflables grandes con tobogán son seguros para niños?"
     answer: "Absolutamente. Todos nuestros inflables cumplen con normas de seguridad comercial. Los toboganes tienen paredes laterales altas, pendiente controlada y zonas de aterrizaje con colchón extra grueso. Además, nuestro equipo de instalación verifica las condiciones de seguridad antes de entregar el inflable."
   - question: "¿Para qué tipo de eventos funcionan los inflables grandes?"
@@ -37,7 +37,7 @@ La primera ventaja es la **variedad de actividades en una sola estructura**. Mie
 
 La segunda ventaja es el **factor impacto visual**. Un inflable grande con tobogán se ve impresionante desde lejos y atrae la atención de todos los asistentes. En eventos como kermeses o festivales, funciona como punto focal que organiza el espacio y genera expectativa. Los niños corren hacia él en cuanto lo ven, y los adultos sacan sus teléfonos para tomar fotos.
 
-- **Mayor capacidad:** el Barco Pirata recibe de 8 a 10 niños y el Extremo de 6 a 10 por turno, contra los 5 a 7 de un modelo mediano. Menos fila, menos pleitos por turno.
+- **Mayor capacidad:** la capacidad de cada modelo se confirma al cotizar. Menos fila, menos pleitos por turno.
 - **Ejercicio completo:** Escalar, brincar y deslizarse trabajan diferentes grupos musculares y mejoran la coordinación motriz.
 - **Entretenimiento prolongado:** Los niños pasan hasta 3 horas usando un inflable con tobogán sin aburrirse, versus 45-60 minutos en un brincolín simple.
 - **Valor percibido:** Los invitados perciben un inflable grande como algo premium, elevando la experiencia general de tu evento.
@@ -50,15 +50,15 @@ En **BRINCOLINS** ofrecemos varios modelos de **inflables grandes con tobogán**
 
 ### [Barco Pirata](/inflables/barco-pirata/) con Tobogán
 
-El modelo más grande del catálogo: 7×5×4.5 m sobre 9×7 m de área libre, para 8 a 10 niños desde los 4 años, a **$1,800 MXN**. Un **galeón pirata inflable** con cubierta de brinco, rampa de escalada y tobogán de gran altura que sale por la popa. Es la opción perfecta para fiestas con **temática pirata**, eventos al aire libre y kermeses escolares. Su diseño detallado con cañones, mástiles y bandera pirata lo convierte en una pieza espectacular que transforma cualquier espacio.
+El modelo más grande del catálogo: 6×3.5×3.80 m, para edades de 3 a 12 años, a **$2,300 MXN**. Un **galeón pirata inflable** con cubierta de brinco, rampa de escalada y tobogán de gran altura que sale por la popa. Es la opción perfecta para fiestas con **temática pirata**, eventos al aire libre y kermeses escolares. Su diseño detallado con cañones, mástiles y bandera pirata lo convierte en una pieza espectacular que transforma cualquier espacio.
 
 ### [Inflable Extremo](/inflables/extremo/)
 
-Para los eventos que buscan la máxima adrenalina. El **inflable Extremo** mide 7×4×3.8 m, pide 9×6 m de área libre y cuesta **$1,900 MXN**. Combina pista de obstáculos y tobogán en un recorrido con túneles, paredes de escalada y deslizadero final, para 6 a 10 participantes por turno. Recomendado **desde los 6 años** y sin tope por arriba: funciona igual con adolescentes y adultos, como explicamos en la guía de [inflables para adolescentes y jóvenes](/blog/inflables-para-adolescentes-jovenes-cdmx/).
+Para los eventos que buscan la máxima adrenalina. El **inflable Extremo** mide 8×4.5×3.50 m y cuesta **$2,500 MXN**. Combina pista de obstáculos y tobogán en un recorrido con túneles, paredes de escalada y deslizadero final. Es para edades de 3 a 12 años, como explicamos en la guía de [inflables para adolescentes y jóvenes](/blog/inflables-para-adolescentes-jovenes-cdmx/).
 
 ### Combinaciones para eventos grandes
 
-Para eventos con más de 30 niños, muchos clientes combinan un **inflable grande con tobogán** con un modelo compacto para los pequeños. Por ejemplo: el Barco Pirata para los de 4 años en adelante y un [Mini Castillo](/inflables/mini-castillo/) de $800 MXN para los de 1 a 4. La cuenta por número de invitados está en la [comparativa de inflable chico contra grande](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/).
+Para eventos numerosos, muchos clientes combinan un **inflable grande con tobogán** con un modelo compacto para los pequeños. Por ejemplo: el Barco Pirata para edades de 3 a 12 años y un [Castillo Baby](/inflables/mini-castillo/) de $1,400 MXN para los de 1 a 3. La cuenta por número de invitados está en la [comparativa de inflable chico contra grande](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/).
 
 > **Tip de selección:** Si no estás seguro de cuál modelo elegir, escríbenos por WhatsApp y cuéntanos los detalles de tu evento: número de niños, edades, espacio disponible y tipo de evento. Te recomendamos la mejor opción en minutos.
 
@@ -66,9 +66,9 @@ Para eventos con más de 30 niños, muchos clientes combinan un **inflable grand
 
 Los **inflables grandes** requieren más espacio que un brincolín estándar. Antes de reservar, es fundamental verificar que tu espacio cumpla con los requisitos mínimos para una instalación segura. Aquí te detallamos las especificaciones generales:
 
-- **Área de instalación:** 9 × 7 metros libres para el Barco Pirata y 9 × 6 para el Extremo. Esas cifras ya incluyen el metro de margen por lado, y deben estar completamente despejadas.
+- **Área de instalación:** debe confirmarse con el equipo para cada modelo y estar completamente despejada.
 - **Perímetro de seguridad:** dentro del área indicada, sin mesas, sillas ni bardas contra las que un niño pueda chocar.
-- **Altura libre:** 5.2 metros para el Barco Pirata y 4.5 para el Extremo, sin cables eléctricos, ramas, lonas ni techos bajos.
+- **Altura libre:** debe confirmarse con el equipo para cada modelo, sin cables eléctricos, ramas, lonas ni techos bajos.
 - **Superficie del piso:** Plana y firme. Funciona en pasto, concreto, adoquín, tierra compacta o piso de loseta. No recomendamos arena suelta ni terrenos inclinados.
 - **Electricidad:** Una toma de corriente de 110V estándar a no más de 20 metros del punto de instalación. El motor de inflado continuo consume aproximadamente lo mismo que una aspiradora doméstica.
 - **Acceso de entrada:** Portón vehicular o puerta amplia por donde pueda pasar el equipo empacado. Los inflables grandes se transportan en bolsas industriales que requieren espacio para maniobrar.

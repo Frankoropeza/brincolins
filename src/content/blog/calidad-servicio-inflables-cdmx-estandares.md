@@ -45,7 +45,7 @@ La calidad no se mide solo por la apariencia del equipo. Un inflable puede verse
 
 **Puntualidad:** llegada dentro del horario acordado, con tiempo suficiente para instalación antes del inicio del evento. No "más o menos a esa hora" — dentro de la ventana comprometida.
 
-**Comunicación transparente:** confirmación de datos por escrito, precios claros desde el primer contacto —incluidos el IVA si pides factura y el cargo de envío si tu zona lo lleva— y canal de atención de lunes a domingo de 8:00 a 20:00 por si surge cualquier situación el día del evento. Nuestras cifras están publicadas en la [página de precios](/precios/), de $800 a $1,900 MXN según el modelo.
+**Comunicación transparente:** confirmación de datos por escrito, precios claros desde el primer contacto —incluidos el IVA si pides factura y el cargo de envío si tu zona lo lleva— y canal de atención de lunes a domingo de 8:00 a 20:00 por si surge cualquier situación el día del evento. Nuestras cifras están publicadas en la [página de precios](/precios/), de $1,400 a $2,600 MXN según el modelo.
 
 Cuando todos estos elementos están presentes, el resultado es un servicio donde el contratante puede confiar antes de que llegue el día de la fiesta — no solo esperar y rezar.
 
@@ -96,7 +96,7 @@ En **BRINCOLINS** aplicamos el siguiente protocolo de higienización después de
 6. **Secado completo:** el inflable se deja secar al aire antes de doblarse para evitar hongos y malos olores.
 7. **Revisión final:** verificación de costuras, válvulas y estado general del motor antes de cada salida.
 
-Este proceso no es opcional y no es un diferenciador de lujo — es parte del costo básico de operar con responsabilidad. Es exactamente por eso que nuestros precios, de $800 a $1,900 MXN según el modelo, reflejan el costo real de un servicio completo. En [cuánto cuesta rentar un inflable en CDMX](/blog/cuanto-cuesta-rentar-inflable-cdmx/) desglosamos a qué corresponde cada peso.
+Este proceso no es opcional y no es un diferenciador de lujo — es parte del costo básico de operar con responsabilidad. Es exactamente por eso que nuestros precios, de $1,400 a $2,600 MXN según el modelo, reflejan el costo real de un servicio completo. En [cuánto cuesta rentar un inflable en CDMX](/blog/cuanto-cuesta-rentar-inflable-cdmx/) desglosamos a qué corresponde cada peso.
 
 ---
 

@@ -41,7 +41,7 @@ Antes de coordinar, necesitas saber quiénes son los jugadores y qué papel cump
 
 ### 1. Entretenimiento: el inflable
 
-El proveedor de inflables como **BRINCOLINS** es, en la mayoría de las fiestas, el ancla de toda la experiencia. Un inflable del [catálogo de inflables](/inflables/) —8 modelos de $800 a $1,900 MXN, con precios publicados en la [página de precios](/precios/)— puede mantener ocupados a los niños durante 3 o 4 horas sin que nadie organice actividades adicionales. El criterio para escoger el modelo según edad y espacio está en la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/). Los niños se autoorganizan alrededor del inflable: turnos espontáneos, amistades que se forman en la fila, reglas inventadas sobre quién salta más alto. Es entretenimiento que se genera solo.
+El proveedor de inflables como **BRINCOLINS** es, en la mayoría de las fiestas, el ancla de toda la experiencia. Un inflable del [catálogo de inflables](/inflables/) —8 modelos de $1,400 a $2,600 MXN, con precios publicados en la [página de precios](/precios/)— puede mantener ocupados a los niños durante 3 o 4 horas sin que nadie organice actividades adicionales. El criterio para escoger el modelo según edad y espacio está en la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/). Los niños se autoorganizan alrededor del inflable: turnos espontáneos, amistades que se forman en la fila, reglas inventadas sobre quién salta más alto. Es entretenimiento que se genera solo.
 
 ### 2. Snacks y antojitos
 
@@ -105,7 +105,7 @@ En más de 20 años de experiencia, hemos visto casi todos los errores posibles.
 
 **Error 3: Hacer llegar a todos al mismo tiempo.** Cuando decoradora, equipo de inflable y proveedor de snacks llegan en el mismo horario de 15 minutos, se genera confusión en el acceso, en el espacio y en las prioridades. Escalona los horarios y designa a alguien — no el anfitrión principal — que reciba y oriente a cada proveedor.
 
-**Error 4: Subestimar el espacio necesario.** El inflable necesita entre 3×3 m (Mini Castillo) y 9×7 m (Barco Pirata) de área completamente libre, la decoración necesita superficie y el animador un área despejada para su show. Hemos llegado a instalaciones donde el espacio prometido tenía un árbol en medio, una pileta que nadie mencionó o un cobertor que ocupaba la mitad del jardín. Haz un "mapa" mental realista de tu espacio antes de confirmar todos los servicios.
+**Error 4: Subestimar el espacio necesario.** El inflable necesita un área completamente libre que debes confirmar con el equipo, la decoración necesita superficie y el animador un área despejada para su show. Hemos llegado a instalaciones donde el espacio prometido tenía un árbol en medio, una pileta que nadie mencionó o un cobertor que ocupaba la mitad del jardín. Haz un "mapa" mental realista de tu espacio antes de confirmar todos los servicios.
 
 **Error 5: No verificar los requerimientos eléctricos.** Un inflable grande requiere una toma estable de 110V a menos de 20 metros. Una máquina de palomitas también consume electricidad. Si ambos van en el mismo circuito de baja capacidad, el interruptor puede dispararse. La combinación exacta de inflable y palomitas la desglosamos en la guía de [palomitas e inflable para fiestas infantiles](/blog/palomita-inflable-fiesta-infantil-cdmx/).
 
@@ -149,7 +149,7 @@ Para reservar tu inflable con BRINCOLINS, escríbenos por WhatsApp al **55312817
 
 Para ayudarte a planear, aquí hay rangos de precios reales en CDMX (2026):
 
-- **Inflable BRINCOLINS:** de $800 a $1,900 MXN según el modelo. Son precios netos, con IVA solo si necesitas factura y cargo de envío según distancia en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX
+- **Inflable BRINCOLINS:** de $1,400 a $2,600 MXN según el modelo. Son precios netos, con IVA solo si necesitas factura y cargo de traslado según zona
 - **Palomitas / snacks (Palomita.mx):** desde $500 MXN dependiendo del paquete
 - **Decoración básica (globos, manteles):** $800 - $2,500 MXN
 - **Comida (taquiza para 30 personas):** $2,000 - $4,000 MXN

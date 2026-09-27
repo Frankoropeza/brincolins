@@ -22,7 +22,7 @@ faqs:
   - question: "¿Cuánto tiempo antes debo instalar el inflable antes de la fiesta?"
     answer: "Lo recomendable es instalar el inflable entre 45 y 60 minutos antes del inicio de la fiesta. Esto da tiempo para inflado, pruebas de seguridad y acomodar el área alrededor. La máquina de palomitas puede estar lista en 15-20 minutos, así que puede llegar un poco después."
   - question: "¿Cuánto cuesta combinar un inflable con palomitas para una fiesta en CDMX?"
-    answer: "Un inflable básico de BRINCOLINS comienza desde $800 MXN y los modelos más grandes o temáticos llegan a $1,900 MXN. El costo de la máquina de palomitas de Palomita.mx varía según la cantidad de porciones. En total, esta combinación representa una de las inversiones más eficientes para el entretenimiento de una fiesta infantil."
+    answer: "Un inflable básico de BRINCOLINS comienza desde $1,400 MXN y los modelos más grandes o temáticos llegan a $2,600 MXN. El costo de la máquina de palomitas de Palomita.mx varía según la cantidad de porciones. Esta combinación representa una de las inversiones más eficientes para el entretenimiento de una fiesta infantil."
 ---
 
 ## La escena que nos enamoró de esta combinación
@@ -39,16 +39,16 @@ Antes de coordinar proveedores, hay que elegir bien el inflable. Esta decisión 
 
 En nuestro [catálogo de inflables](/inflables/) encontrarás opciones para cada tipo de fiesta. Aquí un resumen honesto de cada uno:
 
-- **[Mini Castillo](/inflables/mini-castillo/)** — 2×2×2.5 m sobre 3×3 m libres, para 3 o 4 niños de 1 a 4 años. El único modelo pensado para bebés y uno de los dos que caben bajo techo. **$800 MXN**.
-- **[Castillo de Princesas](/inflables/castillo-princesas/)** — 4×4×3.5 m sobre 6×6 m, para 5 a 7 niñas de 4 a 10 años. Rosa, lila y torres de cuento. **$1,200 MXN**.
-- **[Dragones Rojos](/inflables/dragones-rojos/)** — 4×4×3.8 m sobre 6×6 m, para 5 a 7 niños de 4 a 10 años. Es el modelo más rentado del catálogo. **$1,200 MXN**.
-- **[Mini Jungla](/inflables/mini-jungla/)** — 4.5×4×3.5 m sobre 6.5×6 m, para 5 a 7 niños de 3 a 10 años. Temática safari. **$1,300 MXN**.
-- **[Gusanitos](/inflables/gusanitos/)** — 5×3×2.5 m sobre 7×5 m, circuito de túneles para 5 a 7 niños de 4 a 10 años. Funciona muy bien con edades mezcladas y también entra bajo techo. **$1,350 MXN**.
-- **[Castillo Blanco](/inflables/castillo-blanco/)** — 6×5×4 m sobre 8×7 m, para 8 a 10 personas desde los 3 años. El indicado para eventos formales y XV años. **$1,700 MXN**.
-- **[Barco Pirata](/inflables/barco-pirata/)** — 7×5×4.5 m sobre 9×7 m, para 8 a 10 niños desde los 4 años. El más grande del catálogo. **$1,800 MXN**.
-- **[Extremo](/inflables/extremo/)** — 7×4×3.8 m sobre 9×6 m, circuito de obstáculos para 6 a 10 participantes por turno desde los 6 años. **$1,900 MXN**.
+- **[Castillo Baby](/inflables/mini-castillo/)** — 2.5×2×2 m, para niños de 1 a 3 años. **$1,400 MXN**.
+- **[Castillo de Princesas](/inflables/castillo-princesas/)** — 5×3.30×3 m, para niños de 2 a 10 años. Rosa, lila y torres de cuento. **$1,800 MXN**.
+- **[Dragones Rojos](/inflables/dragones-rojos/)** — 5×3×2.80 m, para niños de 3 a 8 años. Es el modelo más rentado del catálogo. **$1,600 MXN**.
+- **[Jungla](/inflables/mini-jungla/)** — 5×3×2.50 m, para niños de 3 a 8 años. Temática safari. **$1,600 MXN**.
+- **[Gusanitos](/inflables/gusanitos/)** — 5×3×2.80 m, para niños de 2 a 8 años. Circuito de túneles y edades mezcladas. **$1,600 MXN**.
+- **[Castillo Blanco](/inflables/castillo-blanco/)** — 5×7×4 m, para niños de 3 a 12 años. El indicado para eventos formales y XV años. **$2,600 MXN**.
+- **[Barco Pirata](/inflables/barco-pirata/)** — 6×3.5×3.80 m, para niños de 3 a 12 años. **$2,300 MXN**.
+- **[Extremo](/inflables/extremo/)** — 8×4.5×3.50 m, para niños de 3 a 12 años. Circuito de obstáculos. **$2,500 MXN**.
 
-El área libre va de 3×3 metros a 9×7 según el modelo, y esas cifras ya incluyen el metro de margen por lado. Todos los precios son netos —IVA solo si necesitas factura— y están publicados en la [página de precios](/precios/). Si tienes dudas sobre el espacio disponible, escríbenos antes de reservar.
+El espacio requerido se confirma al cotizar según el modelo y el lugar. Todos los precios son netos —IVA solo si necesitas factura— y están publicados en la [página de precios](/precios/). Si tienes dudas sobre el espacio disponible, escríbenos antes de reservar.
 
 ## Tabla de tiempos de instalación: inflable y palomitas
 

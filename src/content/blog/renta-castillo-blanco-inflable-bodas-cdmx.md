@@ -30,7 +30,7 @@ faqs:
   - question: "¿A qué hora conviene abrir la zona infantil?"
     answer: "Al terminar la ceremonia y arrancar el cóctel, que es cuando los niños empiezan a aburrirse. Y conviene cerrarla antes del final: alrededor de las tres horas de operación, los niños más chicos ya están cansados y una zona abierta sin supervisión a esa hora es un riesgo."
   - question: "¿Cuántos niños aguanta un inflable en una boda?"
-    answer: "El Castillo Blanco recibe de 8 a 10 personas a la vez, desde los 3 años. Con más de 15 niños en la lista hay que operar por turnos o sumar un segundo modelo. El Mini Castillo, que atiende de 1 a 4 años, es el complemento habitual porque en una boda casi siempre hay bebés."
+    answer: "El Castillo Blanco es para edades de 3 a 12 años. Con una lista grande de niños hay que operar por turnos o sumar un segundo modelo. El Castillo Baby, que atiende de 1 a 3 años, es el complemento habitual porque en una boda casi siempre hay bebés."
 ---
 
 ## ¿Por qué la zona infantil se planea aparte del resto de la boda?
@@ -52,7 +52,7 @@ Esta es la decisión que más pesa. Las cuatro reglas que aplicamos cuando nos p
 - **Lejos del área de ceremonia.** Por el motor, y también porque durante la ceremonia la zona debe estar cerrada.
 - **Fuera del paso del servicio.** Los meseros necesitan ruta libre entre cocina y mesas. Si la zona infantil parte esa ruta, el banquete se complica toda la noche.
 
-Sobre el espacio: el modelo que más se pide para eventos formales es el **Castillo Blanco**, de diseño neutro. Mide 6×5×4 m, pide 8×7 m de área libre y 4.7 m de altura, recibe de 8 a 10 personas desde los 3 años y cuesta $1,700 MXN netos — todos los datos y la disponibilidad están en [la ficha del Castillo Blanco](/inflables/castillo-blanco/). Esos 8×7 m son la primera medida que hay que confirmar con el venue, antes que cualquier otra cosa.
+Sobre el espacio: el modelo que más se pide para eventos formales es el **Castillo Blanco**, de diseño neutro. Mide 5×7×4 m, es para edades de 3 a 12 años y cuesta $2,600 MXN netos — todos los datos y la disponibilidad están en [la ficha del Castillo Blanco](/inflables/castillo-blanco/). El espacio disponible es la primera medida que hay que confirmar con el venue, antes que cualquier otra cosa.
 
 ## ¿Cómo se resuelve el ruido?
 
@@ -92,7 +92,7 @@ Lo que sí conviene dejar claro con la pareja: nosotros entregamos el equipo rev
 Los puntos que hay que cerrar antes de dejar anticipo, en orden:
 
 - **Permiso del venue.** No todas las haciendas y jardines de eventos permiten inflables. Es la primera pregunta.
-- **Medidas confirmadas del área asignada.** 8×7 m libres y 4.7 m de altura para el Castillo Blanco. Que las confirme el venue, no el ojo.
+- **Medidas confirmadas del área asignada.** Que las confirme el venue y nuestro equipo para el Castillo Blanco, no el ojo.
 - **Toma de 110V a menos de 20 metros** del punto de instalación. En haciendas grandes esto no siempre se cumple; si no hay, se resuelve con generador y hay que preverlo.
 - **Ventana de montaje y de retiro.** Cuánto tiempo antes puede entrar el equipo y a qué hora se recoge. Nuestro montaje toma 30 minutos en este modelo.
 - **Acceso vehicular y protocolo de proveedores.** Muchos venues piden lista de proveedores con anticipación.
@@ -113,10 +113,10 @@ Qué modelos aguantan un código de vestimenta y cuáles no lo desarrollamos en 
 
 En toda boda hay invitados de uno y dos años, y el Castillo Blanco arranca en tres. Meterlos ahí con niños de nueve brincando al lado es exactamente el escenario que produce golpes.
 
-Si la lista tiene bebés, el complemento es el [Mini Castillo](/inflables/mini-castillo/): $800 MXN, 2×2×2.5 m, pide 3×3 m libres y está diseñado para 1 a 4 años. Dos zonas separadas por edad funcionan mucho mejor que una zona grande vigilada a medias.
+Si la lista tiene bebés, el complemento es el [Castillo Baby](/inflables/mini-castillo/): $1,400 MXN, 2.5×2×2 m, y está diseñado para 1 a 3 años. Dos zonas separadas por edad funcionan mucho mejor que una zona grande vigilada a medias.
 
 ## Cotiza con las medidas del venue en la mano
 
 Escríbenos por WhatsApp con la fecha, el nombre del venue, el área asignada y el número aproximado de niños, o [pide tu cotización en línea](/cotizar/). Te respondemos con precio y disponibilidad; la fecha se aparta con el 50% de anticipo y atendemos de lunes a domingo de 8:00 a 20:00.
 
-Los precios son netos e incluyen transporte, instalación y retiro; se agrega IVA solo si necesitas factura, y si el venue queda en un municipio lejano del Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma un cargo de envío según la distancia. Cuando tengas confirmado el espacio, puedes [cotizar el Castillo Blanco](/inflables/castillo-blanco/) o comparar los ocho modelos en la [página de precios](/precios/).
+Los precios son netos e incluyen instalación y retiro; el traslado se cotiza según la zona y se agrega IVA solo si necesitas factura. Cuando tengas confirmado el espacio, puedes [cotizar el Castillo Blanco](/inflables/castillo-blanco/) o comparar los ocho modelos en la [página de precios](/precios/).

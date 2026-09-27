@@ -9,7 +9,7 @@ category: "Barco Pirata"
 author: "Equipo BRINCOLINS"
 readTime: "9 min"
 heroImage: "/img/blog/renta-barco-pirata-inflable-grande-cdmx/main.avif"
-heroImageAlt: "Barco Pirata inflable de 7 metros instalado en un jardín de CDMX - BRINCOLINS"
+heroImageAlt: "Barco Pirata inflable de gran tamaño instalado en un jardín de CDMX - BRINCOLINS"
 galleryImages:
   - "/img/blog/renta-barco-pirata-inflable-grande-cdmx/img1.avif"
   - "/img/blog/renta-barco-pirata-inflable-grande-cdmx/img3.avif"
@@ -24,18 +24,18 @@ faqs:
   - question: "¿Qué se mide exactamente antes de rentar un inflable?"
     answer: "Cuatro cosas, en este orden: el área libre despejada (no las medidas del inflable), la altura libre sin cables ni ramas, el ancho del acceso por donde va a entrar el equipo empacado y la distancia a la toma de corriente de 110V, que debe estar a menos de 20 metros. Si cualquiera de las cuatro falla, la instalación no procede."
   - question: "¿Por qué el área libre es mayor que las medidas del inflable?"
-    answer: "Porque hace falta un metro de margen por lado para el anclaje, para la zona de caída y para que los niños entren y salgan sin pegarse con un muro. Por eso el Barco Pirata mide 7×5 m pero pide 9×7 m libres, y el Castillo de Princesas mide 4×4 m pero pide 6×6 m."
+    answer: "Porque hace falta margen para el anclaje, para la zona de caída y para que los niños entren y salgan sin pegarse con un muro. Por eso el espacio de instalación del Barco Pirata se confirma al cotizar; el inflable mide 6 × 3.5 × 3.80 m."
   - question: "¿Un inflable grande cabe en un salón de fiestas?"
-    answer: "No. Los modelos grandes piden entre 4.5 y 5.2 metros de altura libre y prácticamente ningún salón los alcanza. Solo dos modelos del catálogo caben bajo techo: el Mini Castillo, con 3.2 m de altura libre, y los Gusanitos, también con 3.2 m."
+    answer: "La viabilidad depende de la altura y del espacio del salón. Comparte las medidas del lugar para confirmar si el Barco Pirata u otro modelo puede instalarse bajo techo."
   - question: "¿Qué pasa si el equipo llega y el espacio no alcanza?"
     answer: "Intentamos reubicar el inflable dentro del predio o, si hay disponibilidad, ofrecerte un modelo más chico. Cuando ninguna de las dos es posible, la instalación no se realiza. Por eso insistimos en revisar las medidas antes de apartar: una foto por WhatsApp toma dos minutos y evita el problema completo."
 ---
 
 ## ¿Qué significa "área libre" y por qué no es lo mismo que las medidas?
 
-Cada modelo tiene dos números distintos y confundirlos es el error más caro. Están las **medidas del inflable** —lo que ocupa la lona una vez inflada— y el **área libre**, que es la superficie despejada que hay que dejar alrededor: aproximadamente un metro por lado para el anclaje, la zona de caída y el paso de entrada y salida.
+Cada modelo tiene dos referencias distintas y confundirlas es el error más caro. Están las **medidas del inflable** —lo que ocupa la lona una vez inflada— y el **área libre**, que es la superficie despejada que hay que dejar alrededor para el anclaje, la zona de caída y el paso de entrada y salida.
 
-El caso extremo del catálogo es el [Barco Pirata](/inflables/barco-pirata/): mide 7×5×4.5 m y pide 9×7 m de área libre con 5.2 m de altura, recibe de 8 a 10 niños desde los 4 años y cuesta $1,800 MXN netos — todos los datos, la galería y la disponibilidad están en su ficha. Ese metro de diferencia por lado es lo que separa un montaje limpio de una cancelación en la banqueta.
+El caso extremo del catálogo es el [Barco Pirata](/inflables/barco-pirata/): mide **6 × 3.5 × 3.80 m**, es para niños de **3 a 12 años** y cuesta **$2,300 MXN** netos — todos los datos, la galería y la disponibilidad están en su ficha. El espacio de instalación se confirma al cotizar.
 
 Los ocho modelos, con sus medidas y su área libre lado a lado, están en la [página de precios](/precios/). Anótalos antes de medir.
 
@@ -48,7 +48,7 @@ Con una cinta métrica y treinta minutos. No con la vista.
 - **Marca las esquinas con algo físico.** Cuatro botellas o cuatro sillas en las esquinas del área libre. Verlo dibujado en el piso cambia por completo la percepción del tamaño.
 - **Camina el perímetro.** Si no puedes dar la vuelta completa alrededor de las cuatro botellas sin brincar nada, el espacio está justo.
 
-Si el rectángulo útil te da menos de 9×7 m, el Barco Pirata queda fuera y hay que bajar de categoría. La [comparativa de inflable chico contra grande según tus invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/) explica qué se pierde y qué no al cambiar de tamaño.
+Si el rectángulo útil no alcanza para el espacio confirmado del Barco Pirata, queda fuera y hay que bajar de categoría. La [comparativa de inflable chico contra grande según tus invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/) explica qué se pierde y qué no al cambiar de tamaño.
 
 ## ¿Por qué la altura tumba más eventos que el suelo?
 
@@ -61,7 +61,7 @@ Revisa los cuatro sospechosos habituales:
 - **Tendederos y toldos.** Se quitan, pero hay que decidirlo antes, no el día del evento.
 - **Techos y voladizos parciales.** Media terraza techada no sirve: el inflable no se puede montar en dos alturas.
 
-Los números de referencia: los medianos piden entre 4.2 y 4.5 m de altura libre, el Castillo Blanco 4.7 m, el Extremo 4.5 m y el Barco Pirata 5.2 m. Bajo techo solo entran el Mini Castillo y los Gusanitos, ambos con 3.2 m.
+La altura libre y el espacio de instalación se confirman al cotizar para cada modelo. Comparte las medidas del lugar antes de reservar.
 
 ## ¿Por dónde va a entrar el inflable?
 
@@ -94,17 +94,17 @@ Barre el área el día anterior. Una piedra o un pedazo de vidrio bajo la lona e
 
 Casi siempre da para otro. Bajar de modelo no es bajar de fiesta:
 
-- **Si te falta altura pero te sobra suelo:** los [Gusanitos](/inflables/gusanitos/) son alargados y bajos —5×3×2.5 m sobre 7×5 m libres, 3.2 m de altura— y funcionan donde un castillo no entra.
-- **Si te falta suelo:** el [Mini Castillo](/inflables/mini-castillo/) pide 3×3 m y cuesta $800 MXN. Es el que resuelve patios chicos y niños de 1 a 4 años.
+- **Si te falta altura pero te sobra suelo:** los [Gusanitos](/inflables/gusanitos/) son alargados y funcionan donde un castillo no entra; miden **5 × 3 × 2.80 m** y son para niños de **2 a 8 años**.
+- **Si te falta suelo:** el [Castillo Baby inflable](/inflables/mini-castillo/) cuesta **$1,400 MXN**, mide **2.5 × 2 × 2 m** y es para niños de **1 a 3 años**.
 - **Si lo que buscabas era el tobogán:** el Barco Pirata es el que lo tiene, y la [comparativa entre brincolín y tobogán inflable](/blog/brincolin-vs-tobogan-inflable-cdmx/) explica cuándo vale la pena el modelo grande. El repaso completo de esa categoría está en [inflables grandes con tobogán](/blog/inflables-grandes-con-tobogan-cdmx/).
-- **Si lo que buscabas era competencia y no brinco:** el circuito [Extremo](/inflables/extremo/) pide 9×6 m, un poco menos de ancho que el barco.
+- **Si lo que buscabas era competencia y no brinco:** el circuito [Extremo](/inflables/extremo/) mide **8 × 4.5 × 3.50 m**.
 
 ## Checklist de cinco minutos antes de apartar
 
 Contesta estas seis y ya sabes si tu espacio aguanta un inflable grande:
 
-1. ¿Tengo un rectángulo despejado de al menos 9×7 metros?
-2. ¿Hay 5.2 metros de altura sin cables, ramas ni techos?
+1. ¿Tengo un rectángulo despejado suficiente para el modelo?
+2. ¿Hay altura libre suficiente sin cables, ramas ni techos?
 3. ¿El acceso desde la calle mide más de 1.5 metros de ancho?
 4. ¿La superficie es plana y firme, sin escombro ni vidrio?
 5. ¿Hay una toma de 110V a menos de 20 metros?
@@ -116,4 +116,4 @@ Si dudas de cualquiera, mándanos una foto del área por WhatsApp con algo que d
 
 Cuando el espacio está verificado, lo demás es rápido. Escríbenos por WhatsApp con la fecha, la zona y las medidas que tomaste, o [pide tu cotización en línea](/cotizar/). Te contestamos con precio y disponibilidad; la fecha se aparta con el 50% de anticipo y atendemos de lunes a domingo de 8:00 a 20:00.
 
-Los precios son netos, con IVA solo si necesitas factura, y en municipios lejanos del Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma un cargo de envío según la distancia. Si ya sabes que tu jardín aguanta el modelo grande, puedes [ver precio y disponibilidad del Barco Pirata](/inflables/barco-pirata/); y si la fiesta va con temática, la guía de [fiesta pirata infantil con tobogán](/blog/fiesta-pirata-infantil-tobogan-cdmx/) tiene el resto del plan.
+Los precios son netos, con IVA solo si necesitas factura. La entrega sin costo adicional aplica solo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco; en el resto de CDMX y Estado de México se atiende con costo de traslado según zona. Si ya sabes que tu jardín aguanta el modelo grande, puedes [ver precio y disponibilidad del Barco Pirata](/inflables/barco-pirata/); y si la fiesta va con temática, la guía de [fiesta pirata infantil con tobogán](/blog/fiesta-pirata-infantil-tobogan-cdmx/) tiene el resto del plan.

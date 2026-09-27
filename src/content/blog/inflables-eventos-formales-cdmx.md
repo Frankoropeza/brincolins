@@ -21,7 +21,7 @@ faqs:
   - question: "¿Los inflables son apropiados para eventos formales?"
     answer: "Sí, siempre y cuando elijas el modelo correcto. Los inflables de colores brillantes con personajes no son adecuados para bodas o XV años, pero modelos como el castillo blanco de BRINCOLINS fueron diseñados específicamente para eventos elegantes. Su color neutro y diseño sofisticado se integran perfectamente con cualquier decoración formal."
   - question: "¿Cuánto espacio necesito para instalar un inflable en mi evento?"
-    answer: "Depende del modelo. El Castillo Blanco (6×5×4 m) necesita 8×7 metros de área libre con 4.7 m de altura, margen de seguridad incluido. El Castillo de Princesas pide 6×6 m y el Mini Castillo apenas 3×3 m, ideal para venues compactos. En todos los casos necesitas superficie plana y un contacto de 110V cercano. Envíanos fotos de tu espacio y te asesoramos sin costo."
+    answer: "Depende del modelo. El Castillo Blanco mide 5 × 7 × 4 m; el Castillo de Princesas, 5 × 3.30 × 3 m; y el Castillo Baby, 2.5 × 2 × 2 m. El área libre se confirma al cotizar según tu venue. En todos los casos necesitas superficie plana y un contacto de 110V cercano. Envíanos fotos de tu espacio y te asesoramos sin costo."
   - question: "¿Pueden coordinar la instalación con mi wedding planner o coordinador de eventos?"
     answer: "Por supuesto. Estamos acostumbrados a trabajar con organizadores de eventos, wedding planners y coordinadores de venues en toda la CDMX. Nos adaptamos a sus tiempos de montaje, respetamos sus protocolos y nos comunicamos directamente con ellos para que todo fluya sin contratiempos."
   - question: "¿Ofrecen paquetes especiales para bodas o XV años?"
@@ -64,15 +64,15 @@ En **BRINCOLINS** tenemos un catálogo variado, pero no todos los modelos son ap
 
 ### Castillo Blanco — El favorito para eventos elegantes
 
-El **castillo blanco inflable** es el modelo más rentado para bodas y XV años. Mide 6×5×4 m, pide 8×7 m de área libre con 4.7 m de altura, recibe de 8 a 10 personas desde los 3 años y cuesta **$1,700 MXN**. Su color neutro, torres estilizadas y acabado premium lo hacen perfecto para **bodas, XV años y bautizos**.
+El **Castillo Blanco inflable** es el modelo más rentado para bodas y XV años. Mide 5 × 7 × 4 m, es para niños de 3 a 12 años y cuesta **$2,600 MXN**. Su color neutro, torres estilizadas y acabado premium lo hacen perfecto para **bodas, XV años y bautizos**.
 
 ### [Castillo de Princesas](/inflables/castillo-princesas/) — Para eventos con temática fantástica
 
-Si tu evento tiene una **temática de cuento de hadas** o de princesas, el castillo de princesas rosa es una excelente opción: 4×4×3.5 m sobre 6×6 m de área libre, de 5 a 7 niñas de 4 a 10 años, **$1,200 MXN**. Funciona especialmente bien en quinceañeras con temática de realeza y en primeras comuniones.
+Si tu evento tiene una **temática de cuento de hadas** o de princesas, el Castillo de Princesas rosa es una excelente opción: 5 × 3.30 × 3 m, para niñas de 2 a 10 años, **$1,800 MXN**. Funciona especialmente bien en quinceañeras con temática de realeza y en primeras comuniones.
 
-### [Mini Castillo](/inflables/mini-castillo/) — Para espacios reducidos
+### [Castillo Baby](/inflables/mini-castillo/) — Para espacios reducidos
 
-Cuando el **venue es compacto** o los invitados más chicos tienen entre 1 y 4 años, el Mini Castillo es la opción correcta: 2×2×2.5 m sobre 3×3 m de área, de 3 a 4 niños a la vez y **$800 MXN**. Junto con los Gusanitos, es uno de los dos modelos que caben bajo techo.
+Cuando el **venue es compacto** o los invitados más chicos tienen entre 1 y 3 años, el Castillo Baby es la opción correcta: 2.5 × 2 × 2 m y **$1,400 MXN**. La viabilidad para interiores se confirma al cotizar.
 
 > **Recomendación:** Si no estás seguro de qué modelo elegir, envíanos por WhatsApp las fotos de tu venue y cuéntanos el tipo de evento. Te asesoramos sin costo para que elijas el inflable perfecto.
 
@@ -110,11 +110,11 @@ En **BRINCOLINS** manejamos precios transparentes y competitivos para **eventos 
 
 ### Qué incluye nuestro servicio para eventos formales
 
-- **Transporte ida y vuelta:** Entrega y recolección en cualquier punto de la CDMX y zona metropolitana
+- **Transporte ida y vuelta:** Entrega y recolección en CDMX y zona metropolitana; el costo de traslado se confirma según la zona
 - **Instalación profesional:** Nuestro equipo capacitado monta el inflable de forma rápida y discreta
 - **Inflable limpio y en perfecto estado:** Para eventos formales, verificamos que cada inflable esté impecable
 - **Servicio extendido:** Horarios flexibles que se adaptan a la duración de tu evento
 - **Coordinación con organizadores:** Comunicación directa con tu wedding planner o coordinador de venue
 - **Asesoría de ubicación:** Te ayudamos a definir el mejor lugar para instalar el inflable según tu espacio
 
-Los precios van de $800 a $1,900 MXN según el modelo y están publicados en la [página de precios](/precios/). Son netos: se agrega IVA solo si necesitas factura, y en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma el cargo de envío según la distancia. Si además quieres mobiliario e iluminación, los [paquetes de fiesta](/servicios/paquetes-de-fiesta/) empiezan en $4,500 MXN. Para una **cotización personalizada**, escríbenos por WhatsApp o [pídela en línea](/cotizar/). No esperes a que se llene tu fecha: los fines de semana en temporada de bodas y XV años se reservan con semanas de anticipación, y la [guía de inflables para bodas y XV años](/blog/renta-inflables-bodas-xv-anos/) tiene el cronograma completo.
+Los precios van de $1,400 a $2,600 MXN según el modelo y están publicados en la [página de precios](/precios/). Son netos: se agrega IVA solo si necesitas factura, y en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma el cargo de envío según la distancia. Si además quieres mobiliario e iluminación, consulta los [paquetes de fiesta](/servicios/paquetes-de-fiesta/). Para una **cotización personalizada**, escríbenos por WhatsApp o [pídela en línea](/cotizar/). No esperes a que se llene tu fecha: los fines de semana en temporada de bodas y XV años se reservan con semanas de anticipación, y la [guía de inflables para bodas y XV años](/blog/renta-inflables-bodas-xv-anos/) tiene el cronograma completo.

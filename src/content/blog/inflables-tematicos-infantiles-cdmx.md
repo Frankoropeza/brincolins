@@ -19,13 +19,13 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Cuántos inflables temáticos tiene BRINCOLINS disponibles?"
-    answer: "Son 8 modelos, ni uno más: Mini Jungla (safari), Castillo de Princesas, Barco Pirata, Dragones Rojos (medieval y fantasía), Mini Castillo, Gusanitos, Extremo y Castillo Blanco. Cada uno está diseñado para complementar una temática específica de fiesta, y todos tienen precio publicado, de $800 a $1,900 MXN."
+    answer: "Son 8 modelos, ni uno más: Jungla (safari), Castillo de Princesas, Barco Pirata, Dragones Rojos (medieval y fantasía), Castillo Baby, Gusanitos, Extremo y Castillo Blanco. Cada uno está diseñado para complementar una temática específica de fiesta, y todos tienen precio publicado, de $1,400 a $2,600 MXN."
   - question: "¿Puedo ver los inflables antes de rentarlos?"
     answer: "¡Claro! Puedes ver fotos reales de todos nuestros inflables en nuestra página web, en la sección de catálogo. También puedes pedirnos fotos adicionales o videos por WhatsApp. Si lo prefieres, podemos coordinar una visita a nuestro almacén con cita previa."
   - question: "¿Qué inflable temático recomiendan para una fiesta mixta (niños y niñas)?"
-    answer: "Para fiestas mixtas, los inflables más versátiles son el Mini Jungla (temática safari que encanta a todos) y el Mini Castillo (neutro y colorido). Ambos funcionan perfecto sin importar el género de los invitados y tienen diseños que gustan universalmente."
+    answer: "Para fiestas mixtas, los inflables más versátiles son Jungla (temática safari que encanta a todos) y Castillo Baby (neutro y colorido). Ambos funcionan perfecto sin importar el género de los invitados y tienen diseños que gustan universalmente."
   - question: "¿Los inflables temáticos cuestan más que los genéricos?"
-    answer: "No, en BRINCOLINS todos nuestros inflables tienen precios competitivos sin importar la temática. El precio depende del tamaño del inflable y la duración de la renta, no del diseño. Todos incluyen transporte e instalación."
+    answer: "No, en BRINCOLINS todos nuestros inflables tienen precios competitivos sin importar la temática. El precio depende del tamaño del inflable y la duración de la renta, no del diseño. Todos incluyen instalación; el traslado se confirma según la zona."
 ---
 
 ## Por qué los inflables temáticos marcan la diferencia en una fiesta
@@ -40,39 +40,39 @@ Además, los inflables temáticos facilitan enormemente la planificación de la 
 
 ## Temática Jungla y Safari: aventura tropical
 
-La temática **jungla y safari** es una de las más versátiles y solicitadas en fiestas infantiles de la Ciudad de México. Funciona igual de bien para niños y niñas, de 3 a 10 años, y la decoración es accesible y visualmente espectacular. La desarrollamos completa en la guía de [fiesta temática safari con inflable de jungla](/blog/fiesta-tematica-safari-inflable-cdmx/).
+La temática **jungla y safari** es una de las más versátiles y solicitadas en fiestas infantiles de la Ciudad de México. Funciona igual de bien para niños y niñas, de 3 a 8 años, y la decoración es accesible y visualmente espectacular. La desarrollamos completa en la guía de [fiesta temática safari con inflable de jungla](/blog/fiesta-tematica-safari-inflable-cdmx/).
 
-Nuestro **inflable [Mini Jungla](/inflables/mini-jungla/)** es la estrella de esta temática. Su diseño incorpora animales de la selva en colores tropicales vibrantes — verdes selváticos, amarillos dorados y toques naranjas — que transforman cualquier espacio en una expedición emocionante. Los niños sienten que están brincando en medio de la naturaleza salvaje.
+Nuestro **inflable [Jungla](/inflables/mini-jungla/)** es la estrella de esta temática. Su diseño incorpora animales de la selva en colores tropicales vibrantes — verdes selváticos, amarillos dorados y toques naranjas — que transforman cualquier espacio en una expedición emocionante. Los niños sienten que están brincando en medio de la naturaleza salvaje.
 
-- **Ideal para:** Fiestas mixtas, cumpleaños de 3 a 10 años, fiestas de fin de cursos, eventos en jardines
+- **Ideal para:** Fiestas mixtas, cumpleaños de 3 a 8 años, fiestas de fin de cursos, eventos en jardines
 - **Combina con:** Hojas tropicales, animales de peluche, globos verdes y dorados, mesa de dulces con frutas tropicales
 - **Actividades complementarias:** Safari fotográfico, búsqueda del tesoro selvática, pintura de caras de animales
 
 La paleta de colores del safari (verde, dorado, marrón, animal print) es una de las más fotogénicas. Las fotos de la fiesta quedan profesionales incluso con un celular, lo que los papás valoran muchísimo para compartir en redes sociales.
 
-### El inflable Mini Jungla en detalle
+### El inflable Jungla en detalle
 
-Fabricado en lona comercial de alta resistencia con costuras reforzadas, el Mini Jungla mide 4.5×4×3.5 m y pide 6.5×6 m de área libre con 4.2 m de altura, así que va en jardín o patio, no en salón. Recibe de **5 a 7 niños** de 3 a 10 años brincando a la vez y cuesta **$1,300 MXN**. Incluye paredes de malla protectora y rampa de acceso acolchada.
+Fabricado en lona comercial de alta resistencia con costuras reforzadas, Jungla mide 5 × 3 × 2.50 m. La instalación y la capacidad se confirman al cotizar; es para niños de 3 a 8 años y cuesta **$1,600 MXN**. Incluye paredes de malla protectora y rampa de acceso acolchada.
 
 ## Temática Princesas: magia y elegancia
 
-El **[Castillo de Princesas](/inflables/castillo-princesas/)** es el inflable más solicitado para cumpleaños de niñas. Mide 4×4×3.5 m sobre 6×6 m de área libre, recibe de 5 a 7 niñas de 4 a 10 años y cuesta **$1,200 MXN**. Su diseño en tonos rosa, morado y dorado evoca los castillos de los cuentos de hadas.
+El **[Castillo de Princesas](/inflables/castillo-princesas/)** es el inflable más solicitado para cumpleaños de niñas. Mide 5 × 3.30 × 3 m, es para niñas de 2 a 10 años y cuesta **$1,800 MXN**. Su diseño en tonos rosa, morado y dorado evoca los castillos de los cuentos de hadas.
 
-Pero la temática de princesas ha evolucionado mucho en los últimos años. Ya no se trata solo de vestidos y coronas — las princesas modernas son valientes, aventureras e independientes. Eso hace que el Castillo Princesas funcione perfectamente con temáticas como **Frozen, Encanto, Brave, Rapunzel** y todas las princesas de Disney que priorizan la valentía sobre la pasividad.
+Pero la temática de princesas ha evolucionado mucho en los últimos años. Ya no se trata solo de vestidos y coronas — las princesas modernas son valientes, aventureras e independientes. Eso hace que el Castillo de Princesas funcione perfectamente con temáticas como **Frozen, Encanto, Brave, Rapunzel** y todas las princesas de Disney que priorizan la valentía sobre la pasividad.
 
-- **Ideal para:** Cumpleaños de niñas de 4 a 10 años, fiestas de princesas Disney, fiestas de hadas. Para invitadas de 1 a 4 años, el modelo correcto es el [Mini Castillo](/inflables/mini-castillo/) de $800 MXN
+- **Ideal para:** Cumpleaños de niñas de 2 a 10 años, fiestas de princesas Disney, fiestas de hadas. Para invitadas de 1 a 3 años, el modelo correcto es el [Castillo Baby](/inflables/mini-castillo/) de $1,400 MXN
 - **Combina con:** Globos rosas y morados, guirnaldas de flores, coronas y varitas mágicas, tul y telas brillantes
 - **Actividades complementarias:** Estación de coronas y joyería, desfile de princesas, taller de varitas mágicas
 
-> **Tip de temática:** Si la fiesta incluye niños y niñas, combina la temática de princesas con caballeros. El Castillo Princesas se convierte en el castillo del reino, y los niños pueden ser los caballeros que lo defienden. Todos participan y se divierten por igual.
+> **Tip de temática:** Si la fiesta incluye niños y niñas, combina la temática de princesas con caballeros. El Castillo de Princesas se convierte en el castillo del reino, y los niños pueden ser los caballeros que lo defienden. Todos participan y se divierten por igual.
 
 ## Temática Piratas: aventura en altamar
 
 El **Barco Pirata** es un inflable que genera una emoción instantánea. Su diseño con forma de navío pirata, complementado con detalles de velas, timón y banderas, transporta a los niños a una aventura en altamar donde son capitanes de su propia tripulación.
 
-El Barco Pirata mide 7×5×4.5 m, es el modelo más grande del catálogo, pide 9×7 m de área libre y cuesta **$1,800 MXN**. Está recomendado **desde los 4 años** y recibe de 8 a 10 niños a la vez, aunque la temática pega especialmente fuerte entre los de 5 a 12, una edad donde los juegos de rol son enormemente atractivos. Combinado con accesorios temáticos como parches, sombreros, espadas de foam y mapas del tesoro, el Barco Pirata crea una experiencia de juego completa que mantiene a los niños entretenidos durante horas.
+El Barco Pirata mide 6 × 3.5 × 3.80 m, es uno de los modelos grandes del catálogo y cuesta **$2,300 MXN**. Está recomendado **de 3 a 12 años**. Combinado con accesorios temáticos como parches, sombreros, espadas de foam y mapas del tesoro, el Barco Pirata crea una experiencia de juego completa que mantiene a los niños entretenidos durante horas.
 
-- **Ideal para:** Cumpleaños desde los 4 años, fiestas de aventura, eventos al aire libre y jardines de al menos 9×7 m. Todo el plan está en la guía de [fiesta pirata con tobogán inflable](/blog/fiesta-pirata-infantil-tobogan-cdmx/)
+- **Ideal para:** Cumpleaños de 3 a 12 años, fiestas de aventura y eventos al aire libre. Todo el plan está en la guía de [fiesta pirata con tobogán inflable](/blog/fiesta-pirata-infantil-tobogan-cdmx/)
 - **Combina con:** Banderas piratas, cofres del tesoro, mapas antiguos, globos negros y rojos, red de pesca decorativa
 - **Actividades complementarias:** Búsqueda del tesoro con pistas, taller de sombreros piratas, concurso del mejor grito pirata
 
@@ -84,7 +84,7 @@ Para los niños que sueñan con mundos de fantasía, caballeros medievales y cri
 
 Esta temática ha crecido exponencialmente gracias a la popularidad de películas como **How to Train Your Dragon**, series de fantasía adaptadas para niños y la cultura de juegos de mesa como Calabozos y Dragones en su versión infantil. Los niños que eligen esta temática suelen ser creativos, imaginativos y amantes de las historias épicas.
 
-- **Ideal para:** Cumpleaños de niños de 4 a 10 años, fiestas medievales y temáticas de fantasía. Es el modelo más rentado de todo el catálogo: 4×4×3.8 m sobre 6×6 m libres, 5 a 7 niños y **$1,200 MXN**
+- **Ideal para:** Cumpleaños de niños de 3 a 8 años, fiestas medievales y temáticas de fantasía. Es el modelo más rentado de todo el catálogo: mide 5 × 3 × 2.80 m y cuesta **$1,600 MXN**
 - **Combina con:** Espadas y escudos de foam, capas y coronas, banderines medievales, globos rojos y negros
 - **Actividades complementarias:** Torneo de caballeros con espadas de foam, búsqueda del huevo de dragón, taller de escudos decorados
 
@@ -104,13 +104,13 @@ Si la fiesta es solo para niños del mismo género y edad similar, puedes elegir
 
 ### Paso 3: Evalúa tu espacio
 
-No todos los inflables caben en todos los espacios. El [Mini Castillo](/inflables/mini-castillo/) pide 3×3 m; el Castillo de Princesas y los Dragones Rojos, 6×6 m; el Mini Jungla, 6.5×6 m; los Gusanitos, 7×5 m; y el Barco Pirata, 9×7 m con 5.2 m de altura libre. Bajo techo solo entran el Mini Castillo y los Gusanitos. Si tienes dudas, mándanos una foto de tu espacio por WhatsApp, o revisa la tabla completa en [cómo elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/).
+No todos los inflables caben en todos los espacios. La instalación de cada modelo se confirma al cotizar con las medidas de tu espacio. Si tienes dudas, mándanos una foto por WhatsApp, o revisa la tabla completa en [cómo elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/).
 
 ### Paso 4: Define tu presupuesto total
 
-Recuerda que el inflable no es el único gasto. Calcula cuánto invertirás en decoración, comida, pastel y actividades, y elige una temática que se ajuste al presupuesto total. La buena noticia es que en BRINCOLINS **todos los inflables temáticos tienen precios accesibles** e incluyen transporte, instalación y sanitización.
+Recuerda que el inflable no es el único gasto. Calcula cuánto invertirás en decoración, comida, pastel y actividades, y elige una temática que se ajuste al presupuesto total. La buena noticia es que en BRINCOLINS **todos los inflables temáticos tienen precios accesibles** e incluyen instalación y sanitización; el traslado se confirma según la zona.
 
-- **Presupuesto ajustado:** Elige Mini Jungla o Mini Castillo + decoración básica con globos y manteles temáticos. Resultado profesional con inversión mínima.
+- **Presupuesto ajustado:** Elige Jungla o Castillo Baby + decoración básica con globos y manteles temáticos. Resultado profesional con inversión mínima.
 - **Presupuesto medio:** Cualquier inflable + decoración completa + 2 o 3 actividades temáticas + mesa de dulces. Es la combinación que más nos piden, y la desarrollamos en la guía de [decoración para fiesta infantil con inflable](/blog/decoracion-fiesta-infantil-inflable/).
 - **Presupuesto amplio:** Inflable premium + decoración profesional + entretenimiento adicional (payaso, mago, animador) + menú completo. La fiesta que todo niño sueña.
 

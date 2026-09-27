@@ -28,7 +28,7 @@ faqs:
   - question: "¿Pueden instalar el inflable de noche con iluminación?"
     answer: "Sí, nuestros inflables funcionan perfectamente de noche. Recomendamos colocar reflectores LED apuntando al inflable y series de luces cálidas alrededor para crear un ambiente mágico. El efecto visual es espectacular y le da un toque único a la fiesta de XV años."
   - question: "¿Cuánto espacio necesito para el inflable en mi venue de XV años?"
-    answer: "Depende del modelo, y la cifra ya incluye el margen de seguridad: el Castillo Blanco (6×5×4 m) necesita 8×7 metros libres con 4.7 m de altura; el Castillo de Princesas, 6×6 m; el circuito Extremo, 9×6 m. Nuestro equipo puede visitar tu venue antes del evento o asesorarte por WhatsApp con fotos del espacio."
+    answer: "Depende del modelo: el Castillo Blanco mide 5 × 7 × 4 m; el Castillo de Princesas, 5 × 3.30 × 3 m; y Extremo, 8 × 4.5 × 3.50 m. El área libre se confirma al cotizar. Nuestro equipo puede visitar tu venue antes del evento o asesorarte por WhatsApp con fotos del espacio."
   - question: "¿Incluyen la instalación y decoración del área del inflable?"
     answer: "Incluimos transporte, instalación profesional y recolección del inflable. La decoración alrededor del inflable (globos, telas, luces) corre por cuenta del cliente o su decorador, pero te asesoramos sin costo sobre qué elementos combinan mejor con el modelo que elijas."
 ---
@@ -47,15 +47,15 @@ No todos los inflables funcionan igual en una **fiesta de XV años**. El modelo 
 
 ### Castillo blanco → Para cualquier temática elegante
 
-El [castillo blanco](/inflables/castillo-blanco/) —6×5×4 m, 8 a 10 personas, **$1,700 MXN**— es el modelo que más se renta para **bodas y XV años**, y tiene toda la lógica: su color neutro combina literalmente con todo. Ya sea que tu fiesta tenga temática de rosas, mariposas, vintage, minimalista o princesa, el blanco se adapta sin problema. Es como el vestido blanco de los inflables: siempre elegante, nunca desentona.
+El [Castillo Blanco](/inflables/castillo-blanco/) —5 × 7 × 4 m, **$2,600 MXN**— es el modelo que más se renta para **bodas y XV años**, y tiene toda la lógica: su color neutro combina literalmente con todo. Ya sea que tu fiesta tenga temática de rosas, mariposas, vintage, minimalista o princesa, el blanco se adapta sin problema. Es como el vestido blanco de los inflables: siempre elegante, nunca desentona.
 
 ### Castillo de princesas → Para temáticas de cuento de hadas
 
-Si la quinceañera tiene una temática explícita de princesa o cuento de hadas, el [castillo de princesas](/inflables/castillo-princesas/) refuerza la narrativa visual: 4×4×3.5 m sobre 6×6 m de área libre y **$1,200 MXN**. Sus tonos rosa y lila combinan naturalmente con paletas femeninas y románticas. El truco es que la decoración alrededor repita esos mismos colores para que todo se sienta cohesivo.
+Si la quinceañera tiene una temática explícita de princesa o cuento de hadas, el [Castillo de Princesas](/inflables/castillo-princesas/) refuerza la narrativa visual: 5 × 3.30 × 3 m y **$1,800 MXN**. Sus tonos rosa y lila combinan naturalmente con paletas femeninas y románticas. El truco es que la decoración alrededor repita esos mismos colores para que todo se sienta cohesivo.
 
 ### Inflable extremo → Para quinceañeras modernas y dinámicas
 
-No todas las quinceañeras son tradicionales. Si la festejada prefiere un evento más tipo fiesta que ceremonia, el [inflable extremo con obstáculos](/inflables/extremo/) es lo que los adolescentes piden: 7×4×3.8 m sobre 9×6 m libres, desde 6 años, 6 a 10 participantes por turno y **$1,900 MXN**. Decóralo con luces LED de colores y banderines para integrarlo al ambiente. Los precios de los ocho modelos están en la [página de precios](/precios/).
+No todas las quinceañeras son tradicionales. Si la festejada prefiere un evento más tipo fiesta que ceremonia, el [inflable Extremo con obstáculos](/inflables/extremo/) es lo que los adolescentes piden: 8 × 4.5 × 3.50 m, de 3 a 12 años y **$2,500 MXN**. Decóralo con luces LED de colores y banderines para integrarlo al ambiente. Los precios de los ocho modelos están en la [página de precios](/precios/).
 
 ## Paletas de color que funcionan: inflable + decoración de XV años
 
@@ -82,7 +82,7 @@ Dónde colocas el inflable importa tanto como cómo lo decoras. Una mala ubicaci
 ### En salones cerrados
 
 - **Salón adjunto o área de terraza:** Muchos salones de fiestas en CDMX tienen un espacio secundario perfecto para el inflable. Pregunta al venue por opciones
-- **Rincón con altura suficiente:** el Castillo Blanco pide 4.7 metros de altura libre y el Castillo de Princesas 4.2 m. Verifica esto antes de confirmar la renta: bajo techo, en la práctica, solo entran el Mini Castillo y los Gusanitos
+- **Rincón con altura suficiente:** confirma al cotizar que el venue tenga altura libre suficiente para el modelo elegido; bajo techo, la viabilidad se confirma según el espacio
 - **Separado con cortinas o tules:** Si el salón es un solo espacio grande, usa cortinas decorativas para crear visualmente una "zona juvenil" alrededor del inflable
 
 ## Elementos decorativos alrededor del inflable
@@ -118,9 +118,9 @@ Sabemos que organizar unos XV años implica coordinar muchos gastos. La buena no
 - **Letrero personalizado:** $150 - $300 MXN
 - **Flores artificiales o naturales:** $200 - $500 MXN
 
-A eso súmale el inflable: **$1,700 MXN** el Castillo Blanco o **$1,200 MXN** el Castillo de Princesas, precios netos con IVA solo si necesitas factura y cargo de envío según distancia si el venue queda lejos. Si quieres el panorama completo del evento, la guía de [inflables para bodas y XV años](/blog/renta-inflables-bodas-xv-anos/) incluye la coordinación con el programa de la fiesta, y puedes [pedir tu cotización aquí](/cotizar/).
+A eso súmale el inflable: **$2,600 MXN** el Castillo Blanco o **$1,800 MXN** el Castillo de Princesas, precios netos con IVA solo si necesitas factura y cargo de envío según distancia si el venue queda lejos. Si quieres el panorama completo del evento, la guía de [inflables para bodas y XV años](/blog/renta-inflables-bodas-xv-anos/) incluye la coordinación con el programa de la fiesta, y puedes [pedir tu cotización aquí](/cotizar/).
 
-**Total estimado:** Entre $1,100 y $2,250 MXN puedes tener el área del inflable completamente integrada con la decoración de tus XV años. Si ya tienes decorador, pídele que incluya el área del inflable en su presupuesto general — muchos lo hacen sin costo adicional cuando se los pides desde el inicio.
+**Total estimado:** Se confirma al cotizar según el inflable y la decoración elegidos. Si ya tienes decorador, pídele que incluya el área del inflable en su presupuesto general — muchos lo hacen sin costo adicional cuando se los pides desde el inicio.
 
 ## Errores comunes que debes evitar
 

@@ -23,11 +23,11 @@ faqs:
   - question: "¿Se pueden mezclar niños de distintas edades en el mismo inflable?"
     answer: "En el mismo inflable sí, en el mismo turno no. La diferencia de peso entre un niño de 4 y uno de 10 es la causa más frecuente de golpes: el grande hace rebotar la lona y el chico sale despedido. La solución es organizar turnos por edad de 15 a 20 minutos, no comprar un inflable más grande."
   - question: "¿Qué inflable aguanta mejor un grupo de edades mezcladas?"
-    answer: "Los Gusanitos, porque no es un brincolín cuadrado sino un circuito de túneles de 5 metros con varias entradas y salidas. Al haber recorrido en lugar de una sola superficie de brinco, los niños se distribuyen en vez de concentrarse, y eso reduce los choques. Recibe de 5 a 7 niños de 4 a 10 años."
+    answer: "Los Gusanitos, porque no es un brincolín cuadrado sino un circuito de túneles de 5 metros con varias entradas y salidas. Al haber recorrido en lugar de una sola superficie de brinco, los niños se distribuyen en vez de concentrarse, y eso reduce los choques. Es para niñas y niños de 2 a 8 años."
   - question: "¿Conviene rentar dos inflables en vez de uno grande?"
-    answer: "Cuando hay niños menores de 4 años, sí, casi siempre. Un modelo grande no resuelve el problema de la edad: solo cabe más gente incompatible al mismo tiempo. Dos inflables separados por edad, uno para 1 a 4 años y otro para los mayores, funcionan mejor que uno solo del doble de tamaño."
+    answer: "Cuando hay niños menores de 2 años, sí, casi siempre. Un modelo grande no resuelve el problema de la edad: solo cabe más gente incompatible al mismo tiempo. Dos inflables separados por edad, uno para 1 a 3 años y otro para los mayores, funcionan mejor que uno solo del doble de tamaño."
   - question: "¿Cuántos turnos hacen falta con veinte niños?"
-    answer: "Con un modelo de 5 a 7 niños por turno, tres o cuatro tandas de 15 a 20 minutos cubren a veinte invitados en poco más de una hora. Lo importante no es el número de tandas sino que haya una segunda actividad corriendo en paralelo: si hay fila, la fiesta se rompe."
+    answer: "Con turnos de 15 a 20 minutos puedes organizar la participación de tus invitados. Lo importante no es el número de tandas sino que haya una segunda actividad corriendo en paralelo: si hay fila, la fiesta se rompe."
 ---
 
 ## ¿Por qué la mezcla de edades es un problema real?
@@ -48,7 +48,7 @@ La capacidad publicada de cada modelo no es una sugerencia comercial. Es el núm
 - **Usa alarma de celular, no criterio.** "Ya llevan mucho" nunca es un argumento aceptable para un niño de nueve años; una alarma sí.
 - **Un adulto por turno, rotando entre las familias.** Nadie tiene que perderse la fiesta entera.
 
-Con veinte invitados y un modelo de 5 a 7 niños, son tres o cuatro tandas: poco más de una hora de operación. El resto de la tarde va en la segunda actividad.
+Con tus invitados y turnos organizados según la capacidad confirmada al cotizar, puedes distribuir la operación durante la fiesta. El resto de la tarde va en la segunda actividad.
 
 ## ¿Por qué hace falta una segunda actividad?
 
@@ -62,21 +62,21 @@ Otra ventaja: la segunda estación reparte por edad de forma natural. Los grande
 
 Un brincolín cuadrado concentra a todos en la misma superficie: todos brincan en el mismo metro cuadrado y todos se chocan. Un circuito, en cambio, los distribuye.
 
-Por eso el modelo que más recomendamos para grupos mixtos es **Gusanitos**: no es un brincolín, es un circuito de túneles de colores con varias entradas y salidas. Mide 5×3×2.5 m, pide 7×5 m de área libre y 3.2 m de altura, recibe de 5 a 7 niños de 4 a 10 años, se instala en 20 minutos y cuesta $1,350 MXN netos. Todos los datos y la disponibilidad están en [la ficha de Gusanitos](/inflables/gusanitos/).
+Por eso el modelo que más recomendamos para grupos mixtos es **Gusanitos**: no es un brincolín, es un circuito de túneles de colores con varias entradas y salidas. Mide 5×3×2.80 m, es para niñas y niños de 2 a 8 años, se instala en 20 minutos y cuesta $1,600 MXN netos. Todos los datos y la disponibilidad están en [la ficha de Gusanitos](/inflables/gusanitos/).
 
 Tres cosas que lo hacen distinto en una fiesta con edades mezcladas:
 
 - **Recorrido en lugar de superficie.** Los niños entran, atraviesan y salen; no se quedan brincando encimados.
-- **Es alargado y bajo.** Con 2.5 metros de alto y 3.2 m de altura libre, es uno de los dos únicos modelos del catálogo que caben bajo techo — el otro es el Mini Castillo. La comparación entre los dos está en [inflables pequeños para fiestas en interiores](/blog/inflable-pequeno-fiestas-interiores-cdmx/).
+- **Es alargado y bajo.** Con 2.80 metros de alto, es uno de los dos únicos modelos del catálogo que caben bajo techo — el otro es el Castillo Baby. La comparación entre los dos está en [inflables pequeños para fiestas en interiores](/blog/inflable-pequeno-fiestas-interiores-cdmx/).
 - **Los adultos alcanzan a ver dentro.** No hay que asomarse por una malla a dos metros de altura para saber qué pasa.
 
 Ojo con una cosa: es alargado, así que necesita **largo**, no solo superficie total. Siete metros de un lado es lo que hay que medir.
 
 ## ¿Cuándo conviene rentar dos inflables?
 
-Cuando hay invitados menores de cuatro años. No hay vuelta: los Gusanitos y todos los medianos arrancan en 4 años, y un bebé de dos no debe entrar con niños de nueve por muy grande que sea el inflable.
+Cuando hay invitados menores de dos años. No hay vuelta: los Gusanitos arrancan en 2 años, y un bebé de uno no debe entrar con niños mayores por muy grande que sea el inflable.
 
-El complemento es el [Mini Castillo](/inflables/mini-castillo/): $800 MXN, mide 2×2×2.5 m, pide apenas 3×3 m de área libre y está diseñado para 1 a 4 años, con capacidad de 3 a 4 niños. Ocupa poco y resuelve el grupo entero de los más chicos.
+El complemento es el [Castillo Baby](/inflables/mini-castillo/): $1,400 MXN, mide 2.5×2×2 m y está diseñado para 1 a 3 años. Ocupa poco y resuelve el grupo entero de los más chicos.
 
 Rentar dos modelos chicos casi siempre rinde más que rentar uno grande. Un modelo grande no arregla la incompatibilidad de edades: solo permite que quepan más niños incompatibles a la vez.
 
@@ -90,8 +90,8 @@ Lo que sí funciona: darles un rol. Cronometrista de los turnos, encargado de la
 
 La lista corta, para cualquier modelo:
 
-- **Área libre despejada**, no las medidas del inflable. Para Gusanitos, 7×5 metros.
-- **Altura libre** sin cables, ramas ni tendederos. Para Gusanitos, 3.2 metros.
+- **Área libre despejada**, no las medidas del inflable. Confirma el espacio con nuestro equipo.
+- **Altura libre** sin cables, ramas ni tendederos. Confirma la altura con nuestro equipo.
 - **Superficie plana y firme:** pasto, concreto, adoquín o piso de salón. En pasto se ancla con estacas; en piso duro, con contrapesos.
 - **Toma de 110V a menos de 20 metros** del punto de instalación. El motor trabaja de forma continua durante todo el evento.
 - **Acceso libre de al menos 1.5 metros** desde la calle, y una persona adulta para recibir al equipo.
@@ -112,4 +112,4 @@ Si además quieres que la fiesta se vea bien en las fotos, la selección de mode
 
 Escríbenos por WhatsApp con la fecha, la zona, el número de niños y sus edades, o [pide tu cotización en línea](/cotizar/). Con esos datos te decimos si conviene un modelo o dos. Te respondemos con precio y disponibilidad confirmados; la fecha se aparta con el 50% de anticipo y atendemos de lunes a domingo de 8:00 a 20:00.
 
-Los precios son netos e incluyen entrega, instalación, motor y recolección; se agrega IVA solo si necesitas factura, y en municipios lejanos del Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma un cargo de envío según la distancia. Puedes [ver precio y disponibilidad de Gusanitos](/inflables/gusanitos/) o comparar los ocho modelos en la [página de precios](/precios/).
+Los precios son netos e incluyen instalación, motor y recolección; el traslado se cotiza según la zona y se agrega IVA solo si necesitas factura. Puedes [ver precio y disponibilidad de Gusanitos](/inflables/gusanitos/) o comparar los ocho modelos en la [página de precios](/precios/).

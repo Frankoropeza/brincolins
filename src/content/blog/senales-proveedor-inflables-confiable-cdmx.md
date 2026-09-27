@@ -22,7 +22,7 @@ faqs:
   - question: "¿Qué pasa si llueve el día de mi evento?"
     answer: "Un proveedor confiable tiene política clara de reprogramación por lluvia. BRINCOLINS permite reagendar el evento sin costo adicional cuando las condiciones climáticas impiden el uso seguro del inflable. Esta política debe quedar establecida por escrito antes de la reserva — si el proveedor no la tiene definida, es una señal de alerta."
   - question: "¿Los precios que publica BRINCOLINS en línea son los precios finales?"
-    answer: "Sí, con dos salvedades que decimos por adelantado. Los precios son públicos desde el primer contacto: Mini Castillo $800 MXN, medianos de $1,200 a $1,350, Castillo Blanco $1,700, Barco Pirata $1,800 y Extremo $1,900, todos con entrega, instalación y motor de inflado incluidos. Son precios netos —se agrega IVA solo si necesitas factura— y en municipios lejanos de Edomex ($150 a $600) o en algunas alcaldías del sur y oriente de la CDMX ($100 a $200) se cobra el envío según la distancia."
+    answer: "Sí, con dos salvedades que decimos por adelantado. Los precios son públicos desde el primer contacto: Castillo Baby $1,400 MXN, modelos medianos desde $1,600 hasta $1,800, Castillo Blanco $2,600, Barco Pirata $2,300 y Extremo $2,500, todos con instalación y motor de inflado incluidos. Son precios netos —se agrega IVA solo si necesitas factura— y el traslado se cobra según la zona cuando corresponde."
   - question: "¿Por qué es importante que el proveedor tenga fotos reales de sus inflables?"
     answer: "Las fotos reales muestran el estado actual del equipo — no cómo se veía cuando era nuevo, sino cómo está hoy. Un proveedor que usa imágenes de stock o de catálogo puede estar entregando inflables en peores condiciones de las que muestran. Las fotos reales con sus propios equipos en eventos reales son una señal de transparencia y confianza."
 ---
@@ -61,13 +61,14 @@ La opacidad en precios no es una casualidad ni una estrategia de marketing sofis
 
 **Cómo lo cumple BRINCOLINS:** publicamos precios claros desde el primer contacto, sin sorpresas ni negociaciones:
 
-- Mini Castillo: **$800 MXN**
-- Dragones Rojos y Castillo Princesas: **$1,200 MXN** cada uno
-- Mini Jungla: **$1,300 MXN**
-- Gusanitos: **$1,350 MXN**
-- Castillo Blanco: **$1,700 MXN**
-- Barco Pirata: **$1,800 MXN**
-- Extremo: **$1,900 MXN**
+- Castillo Baby: **$1,400 MXN**
+- Dragones Rojos: **$1,600 MXN**
+- Castillo de Princesas: **$1,800 MXN**
+- Jungla: **$1,600 MXN**
+- Gusanitos: **$1,600 MXN**
+- Castillo Blanco: **$2,600 MXN**
+- Barco Pirata: **$2,300 MXN**
+- Extremo: **$2,500 MXN**
 
 Todos incluyen entrega, instalación y motor de inflado. Y decimos lo que no incluyen antes de que preguntes: son precios netos, así que se agrega el 16% de IVA solo si necesitas factura, y hay cargo de envío según distancia en municipios lejanos de Edomex ($150 a $600) y en algunas alcaldías del sur y oriente de la CDMX ($100 a $200). Puedes verificar si tu zona lleva cargo en la [página de cobertura](/cobertura/) y revisar la tabla completa en la [página de precios](/precios/). Lo que cotizamos en el primer mensaje es lo que cobraremos el día del evento.
 
@@ -178,7 +179,7 @@ Si respondiste sí a los siete puntos, estás eligiendo bien. Si hay dudas en al
 **BRINCOLINS** cumple cada uno de estos criterios como parte de su operación estándar, no como extras opcionales:
 
 1. **Protocolos de seguridad:** anclaje verificado y revisión del inflable antes de cada evento, explicados ante cualquier solicitud antes de la reserva.
-2. **Precios transparentes:** desde $800 MXN, publicados y comunicados sin rodeos desde el primer mensaje.
+2. **Precios transparentes:** desde $1,400 MXN, publicados y comunicados sin rodeos desde el primer mensaje.
 3. **Fotos reales:** galería de eventos propios en sitio y redes sociales — lo que ves es lo que entregaremos.
 4. **Comunicación por WhatsApp:** respuesta ágil al **5531281706** con información clara y sin presión.
 5. **Política de lluvia:** reprogramación sin costo por condiciones climáticas, establecida por escrito antes de reservar.

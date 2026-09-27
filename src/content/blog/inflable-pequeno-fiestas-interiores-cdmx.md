@@ -12,14 +12,14 @@ galleryImages:
   - "/img/blog/inflable-pequeno-fiestas-interiores-cdmx/img2.avif"
 intro:
   - "Organizar una fiesta infantil en la **CDMX** no siempre significa tener un jardín enorme. Muchas familias celebran en **salones de fiestas, departamentos o espacios reducidos**, y la buena noticia es que existen inflables diseñados específicamente para funcionar en interiores. Los **inflables pequeños** son compactos, seguros y tan divertidos como sus versiones de mayor tamaño."
-  - "En **BRINCOLINS** contamos con una línea de **inflables para fiestas en interiores en CDMX** que se adaptan a cualquier espacio cerrado. Desde mini castillos hasta gusanitos, nuestros modelos compactos garantizan que los niños se diviertan al máximo sin importar el tamaño del lugar. Incluimos entrega, instalación profesional y asesoría para elegir el inflable ideal según tu espacio."
+  - "En **BRINCOLINS** contamos con una línea de **inflables para fiestas en interiores en CDMX** que se adaptan a cualquier espacio cerrado. Desde el Castillo Baby hasta Gusanitos, nuestros modelos compactos garantizan que los niños se diviertan al máximo sin importar el tamaño del lugar. Incluimos instalación profesional y asesoría para elegir el inflable ideal según tu espacio; el traslado se cotiza según la zona."
 tags:
   - "renta inflables CDMX"
   - "inflable pequeno fiestas interiores cdmx"
   - "fiestas infantiles"
 faqs:
   - question: "¿Se puede usar un inflable dentro de un departamento?"
-    answer: "Sí, con el Mini Castillo: mide 2×2×2.5 m, necesita 3×3 metros libres y 3.2 metros de altura de techo. El otro modelo que entra bajo techo son los Gusanitos, que también miden 2.5 m de alto pero piden 7×5 metros de superficie. El resto del catálogo va en exterior."
+    answer: "Sí, con el Castillo Baby: mide 2.5×2×2 m. El otro modelo que entra bajo techo son los Gusanitos, que miden 5×3×2.80 m. El resto del catálogo va en exterior."
   - question: "¿El motor del inflable hace mucho ruido en interiores?"
     answer: "Los motores de nuestros inflables pequeños son de bajo ruido, comparables al sonido de un ventilador. No generan molestias significativas durante la fiesta y permiten que la música y la conversación fluyan con normalidad."
   - question: "¿Es necesario tener ventilación especial para usar un inflable en interiores?"
@@ -46,7 +46,7 @@ Los inflables pequeños también son más silenciosos que los modelos grandes, l
 
 Antes de rentar un inflable para interiores, es fundamental conocer los requisitos mínimos de espacio. No todos los inflables son aptos para cualquier espacio cerrado, y elegir el modelo correcto marcará la diferencia entre una fiesta exitosa y un problema logístico.
 
-En interiores solo caben dos de los ocho modelos del catálogo, y la cifra que manda es la altura libre: **3.2 metros**. El Mini Castillo (2×2×2.5 m) pide **3×3 metros** de área; los Gusanitos (5×3×2.5 m), **7×5 metros**, porque son alargados. El resto del catálogo mide de 3.5 a 4.5 m de alto y necesita entre 4.2 y 5.2 m de altura libre, algo que casi ningún salón tiene.
+En interiores solo caben dos de los ocho modelos del catálogo, y la altura libre del salón es el dato que manda. El Castillo Baby mide 2.5×2×2 m; los Gusanitos, 5×3×2.80 m, porque son alargados. El resto del catálogo requiere más altura libre, algo que casi ningún salón tiene.
 
 También debes considerar un margen de seguridad de al menos 50 centímetros alrededor del inflable para que los niños puedan entrar y salir sin obstáculos. Este espacio adicional también facilita la supervisión por parte de los adultos.
 
@@ -71,11 +71,11 @@ Es importante que el contacto eléctrico esté en buen estado y que el circuito 
 
 En **BRINCOLINS** contamos con varios modelos diseñados para funcionar perfectamente en espacios cerrados. Cada uno tiene características únicas que lo hacen ideal para diferentes tipos de fiestas y edades.
 
-El **[Mini Castillo](/inflables/mini-castillo/)** es el modelo más rentado para fiestas bajo techo. Mide 2×2×2.5 m, pide 3×3 m de área con 3.2 m de altura libre, recibe de 3 a 4 niños de 1 a 4 años y cuesta **$800 MXN**. Sus paredes de malla permiten visibilidad completa. Cómo montar una fiesta de 1 año en departamento está en la guía del [primer cumpleaños](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
+El **[Castillo Baby](/inflables/mini-castillo/)** es el modelo más rentado para fiestas bajo techo. Mide 2.5×2×2 m, es para niñas y niños de 1 a 3 años y cuesta **$1,400 MXN**. Sus paredes de malla permiten visibilidad completa. Cómo montar una fiesta de 1 año en departamento está en la guía del [primer cumpleaños](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
 
-Los **[Gusanitos](/inflables/gusanitos/)** son el otro modelo que entra bajo techo: 5×3×2.5 m de circuito de túneles, con la misma altura libre de 3.2 m pero 7×5 m de superficie, para 5 a 7 niños de 4 a 10 años y **$1,350 MXN**. Como es alargado, lo que hay que medir es el largo del salón.
+Los **[Gusanitos](/inflables/gusanitos/)** son el otro modelo que entra bajo techo: 5×3×2.80 m de circuito de túneles, para niñas y niños de 2 a 8 años y **$1,600 MXN**. Como es alargado, lo que hay que medir es el largo del salón.
 
-Y aquí la parte honesta: **no hay un tercer modelo**. El [Castillo de Princesas](/inflables/castillo-princesas/) (4×4×3.5 m) y los demás medianos necesitan 4.2 m o más de altura libre, así que van en exterior aunque el salón parezca amplio. Preferimos decírtelo antes de reservar; el resto de las medidas está en la [comparativa completa de modelos](/blog/flota-inflables-brincolins-catalogo-modelos-cdmx/).
+Y aquí la parte honesta: **no hay un tercer modelo**. El [Castillo de Princesas](/inflables/castillo-princesas/) (5×3.30×3 m) y los demás medianos necesitan más altura libre, así que van en exterior aunque el salón parezca amplio. Preferimos decírtelo antes de reservar; el resto de las medidas está en la [comparativa completa de modelos](/blog/flota-inflables-brincolins-catalogo-modelos-cdmx/).
 
 > **Recomendación:** Si no estás seguro de qué modelo elegir, envíanos fotos de tu espacio por WhatsApp. Nuestro equipo te asesorará de forma gratuita para encontrar el inflable perfecto para tu fiesta en interiores.
 

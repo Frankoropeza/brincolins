@@ -42,9 +42,9 @@ La clave para que la decoración se vea profesional es la coordinación de color
 | Castillo de Princesas | Cuento de hadas / Frozen | Rosa, lila, blanco, dorado | Arco orgánico + corona backdrop |
 | [Dragones Rojos](/inflables/dragones-rojos/) | Dragones / Fantasía épica | Rojo, negro, dorado, naranja | Columnas de globos + guirnalda |
 | [Barco Pirata](/inflables/barco-pirata/) | Piratas del Caribe | Azul marino, negro, rojo, dorado | Arco orgánico + fondo de tela |
-| [Mini Jungla](/inflables/mini-jungla/) | Safari / Animales | Verde, amarillo, café, naranja | Globos orgánicos + palmeras |
+| [Jungla](/inflables/mini-jungla/) | Safari / Animales | Verde, amarillo, café, naranja | Globos orgánicos + palmeras |
 | [Gusanitos](/inflables/gusanitos/) | Bugs / Naturaleza | Verde, rojo, amarillo, azul | Garland colorida + centros mesa |
-| [Mini Castillo](/inflables/mini-castillo/) (1-4 años) | Realeza / Medieval | Azul, dorado, rojo, plateado | Arco de entrada + columnas |
+| [Castillo Baby](/inflables/mini-castillo/) (1-3 años) | Realeza / Medieval | Azul, dorado, rojo, plateado | Arco de entrada + columnas |
 | Extremo | Deportes / Aventura | Rojo, azul, amarillo, verde | Globos cromados + banderines |
 | [Castillo Blanco](/inflables/castillo-blanco/) | Elegancia / Boda infantil | Blanco, plateado, rosa pastel | Arco minimalista + flores |
 
@@ -58,7 +58,7 @@ La primera vez que le explicamos este sistema a una familia en un jardín de Ped
 
 ### Zona 1: El inflable (zona de juego activo)
 
-El inflable debe ocupar el área más amplia y despejada del espacio disponible. Cada modelo pide su superficie: 3×3 m el Mini Castillo, 6×6 m los medianos como Dragones Rojos y Castillo de Princesas, 7×5 m los Gusanitos, 8×7 m el Castillo Blanco, 9×6 m el Extremo y 9×7 m el Barco Pirata — cifras que ya incluyen el margen de seguridad por lado. El motor soplador se coloca a un costado, con acceso a una toma de 110V.
+El inflable debe ocupar el área más amplia y despejada del espacio disponible. Cada modelo requiere un área libre que confirmamos al cotizar. El motor soplador se coloca a un costado, con acceso a una toma de 110V.
 
 La decoración de globos en esta zona debe ser perimetral y elevada: guirnaldas colgadas en las paredes o postes a más de 2 metros de altura, o columnas de globos en los extremos del área, nunca en el centro ni bloqueando el acceso al inflable. Los globos y los niños corriendo a toda velocidad no son buena combinación cuando están al mismo nivel.
 
@@ -86,7 +86,7 @@ Basados en las fiestas que hemos servido en los últimos meses, estos son los te
 2. **Unicornios y arcoíris** — cualquier castillo claro, globos en toda la paleta del arcoíris con cromados rosados
 3. **Superheroes (Avengers o DC)** — [inflable extremo](/inflables/extremo/) o dragones rojos, globos en los colores del héroe favorito
 4. **Princesas Disney** — castillo de princesas, globos en azul cielo o rosa lila según el personaje
-5. **Safari y animales de la selva** — mini jungla o gusanitos, globos en verde, dorado y naranja con animales impresos
+5. **Safari y animales de la selva** — Jungla o Gusanitos, globos en verde, dorado y naranja con animales impresos
 
 Para cada uno de estos temas, DEGLOB tiene experiencia ejecutando decoraciones completas que coordinan perfectamente con los inflables de BRINCOLINS.
 
@@ -132,10 +132,10 @@ Para que puedas planear con claridad, aquí un rango de presupuesto para diferen
 
 | Tipo de evento | Inflable BRINCOLINS | Decoración DEGLOB | Total aproximado |
 |---|---|---|---|
-| Fiesta íntima (hasta 20 niños) | $800 - $1,200 MXN | $800 - $1,500 MXN | $1,600 - $2,700 MXN |
-| Fiesta mediana (20-50 niños) | $1,200 - $1,800 MXN | $1,500 - $3,000 MXN | $2,700 - $4,800 MXN |
-| Fiesta grande (+50 niños) | $1,700 - $1,900 MXN | $3,000 - $6,000 MXN | $4,700 - $7,900 MXN |
+| Fiesta íntima (hasta 20 niños) | $1,400 - $2,600 MXN | $800 - $1,500 MXN | Se confirma al cotizar |
+| Fiesta mediana (20-50 niños) | $1,400 - $2,600 MXN | $1,500 - $3,000 MXN | Se confirma al cotizar |
+| Fiesta grande (+50 niños) | $1,400 - $2,600 MXN | $3,000 - $6,000 MXN | Se confirma al cotizar |
 
-Los precios de inflables de BRINCOLINS incluyen transporte, instalación y retiro, y están publicados modelo por modelo en la [página de precios](/precios/): son netos, con IVA solo si necesitas factura y cargo de envío según distancia en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX. Para cotizar tu combinación personalizada, [pide tu cotización](/cotizar/) o escríbenos por WhatsApp al **5531281706** y te conectamos con el equipo de DEGLOB.
+Los precios de inflables de BRINCOLINS incluyen instalación y retiro; el traslado se confirma según la zona. Están publicados modelo por modelo en la [página de precios](/precios/): son netos, con IVA solo si necesitas factura y cargo de envío según distancia en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX. Para cotizar tu combinación personalizada, [pide tu cotización](/cotizar/) o escríbenos por WhatsApp al **5531281706** y te conectamos con el equipo de DEGLOB.
 
 Lo que aprendimos después de veinte años es que las fiestas que más recordamos no son las más caras — son las mejor planeadas. Un arco en la entrada, un inflable bien elegido para el espacio, colores que hablan el mismo idioma. Si quieres el panorama completo de la decoración, incluidos backdrops y mesa de dulces, está en la guía de [decoración completa para fiestas infantiles](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/). Nosotros ponemos el inflable y la experiencia; DEGLOB pone la magia visual. La fiesta que resulta de esa combinación es tuya.
