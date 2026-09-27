@@ -75,7 +75,7 @@ const ctaBarItems = [
           <div class="hero__specs">
             <span class="hero__spec">Tamaño: {canon.size}</span>
             <span class="hero__spec">Edad: {canon.ages}</span>
-            <span class="hero__spec">Capacidad: {canon.capacity}</span>
+            <span class="hero__spec">Capacidad: Se confirma al cotizar</span>
             <span class="hero__spec">Desde {canon.price} MXN</span>
           </div>
           <div class="hero__ctas">
@@ -123,7 +123,7 @@ const ctaBarItems = [
         copy1={`El ${canon.name} mide ${canon.size} y necesita un área libre de ${canon.spaceRequired} con ${canon.heightClearance} de altura despejada. Ese margen no es capricho: incluye el espacio de anclaje y la zona de seguridad alrededor del inflable, donde no puede haber muros, ramas ni cables.`}
         copy2={canon.indoor
           ? `Con ${canon.heightClearance} de altura libre, es uno de los dos modelos que caben bajo techo: funciona en salones, terrazas cubiertas y departamentos con techo estándar.`
-          : `Por su altura necesita instalarse al aire libre o en un salón con techo alto. Si tu evento es bajo techo, el Mini Castillo y los Gusanitos son los modelos que sí caben.`}
+          : `Por su altura necesita instalarse al aire libre o en un salón con techo alto. Si tu evento es bajo techo, compara la altura del techo con la altura del modelo y confirma el espacio de instalación al cotizar.`}
       />
 
       <div class="spec-layout">
@@ -164,7 +164,7 @@ const ctaBarItems = [
   <!-- Pricing -->
   <section class="section section--alt" id="precios">
     <div class="container">
-      <SectionHeader badge="Paquetes" title={`¿Cuánto cuesta rentar el ${canon.name} en CDMX?`} subtitle="Todos incluyen entrega e instalación en CDMX y Edomex" copy1={page.precios.copy1} copy2={page.precios.copy2} />
+      <SectionHeader badge="Paquetes" title={`¿Cuánto cuesta rentar el ${canon.name} en CDMX?`} subtitle="Instalación incluida; traslado según zona" copy1={page.precios.copy1} copy2={page.precios.copy2} />
       <PricingCards packages={page.pricingPackages} />
     </div>
   </section>
@@ -172,7 +172,7 @@ const ctaBarItems = [
   <!-- Related -->
   <section class="section section--alt">
     <div class="container">
-      <SectionHeader badge="Más inflables" title="Otros inflables que te pueden interesar" subtitle="Todos con entrega, instalación y recolección incluidas" copy1={page.relacionados.copy1} copy2={page.relacionados.copy2} />
+      <SectionHeader badge="Más inflables" title="Otros inflables que te pueden interesar" subtitle="Instalación y recolección incluidas; traslado según zona" copy1={page.relacionados.copy1} copy2={page.relacionados.copy2} />
       <div class="grid-4">
         {page.cards.map((c) => (
           <ProductCard slug={c.slug} emoji="" name={c.name} description={c.description} price={c.price} size={c.size} ages={c.ages} category={c.category} categoryColor={c.categoryColor} gradient={c.gradient} image={c.image} />

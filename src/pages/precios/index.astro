@@ -6,18 +6,18 @@ import FaqItem from "@/components/FaqItem.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 
-const title = "Precios de renta de inflables en CDMX 2026: desde $800";
-const description = "Precios transparentes de renta de inflables en CDMX: de $800 a $1,900 MXN con entrega e instalación incluidas. Sin cargos ocultos. Cotiza hoy.";
+const title = "Precios de renta de inflables en CDMX 2026: desde $1,400";
+const description = "Precios transparentes de renta de inflables en CDMX: de $1,400 a $2,600 MXN con instalación incluida y traslado según zona. Sin cargos ocultos. Cotiza hoy.";
 
 const inflables = [
   {
     slug:        "mini-castillo",
-    name:        "Mini Castillo",
+    name:        "Castillo Baby",
     category:    "Chico",
-    price:       800,
-    size:        "2×2×2.5 m",
-    ages:        "1–4 años",
-    capacity:    "3–4 niños",
+    price:       1400,
+    size:        "2.5×2×2 m",
+    ages:        "1–3 años",
+    capacity:    "Se confirma al cotizar",
     highlight:   false,
     tag:         "El más accesible",
     tagColor:    "green",
@@ -28,10 +28,10 @@ const inflables = [
     slug:        "dragones-rojos",
     name:        "Dragones Rojos",
     category:    "Mediano",
-    price:       1200,
-    size:        "4×4×3.8 m",
-    ages:        "4–10 años",
-    capacity:    "6–8 niños",
+    price:       1600,
+    size:        "5×3×2.80 m",
+    ages:        "3–8 años",
+    capacity:    "Se confirma al cotizar",
     highlight:   true,
     tag:         "El más rentado",
     tagColor:    "primary",
@@ -42,10 +42,10 @@ const inflables = [
     slug:        "castillo-princesas",
     name:        "Castillo de Princesas",
     category:    "Mediano",
-    price:       1200,
-    size:        "4×4×3.5 m",
-    ages:        "4–10 años",
-    capacity:    "6–8 niños",
+    price:       1800,
+    size:        "5×3.30×3 m",
+    ages:        "2–10 años",
+    capacity:    "Se confirma al cotizar",
     highlight:   false,
     tag:         "Favorito para niñas",
     tagColor:    "pink",
@@ -54,12 +54,12 @@ const inflables = [
   },
   {
     slug:        "mini-jungla",
-    name:        "Mini Jungla",
+    name:        "Jungla",
     category:    "Mediano",
-    price:       1300,
-    size:        "4.5×4×3.5 m",
-    ages:        "3–10 años",
-    capacity:    "6–8 niños",
+    price:       1600,
+    size:        "5×3×2.50 m",
+    ages:        "3–8 años",
+    capacity:    "Se confirma al cotizar",
     highlight:   false,
     tag:         "Temático aventura",
     tagColor:    "green",
@@ -70,10 +70,10 @@ const inflables = [
     slug:        "gusanitos",
     name:        "Gusanitos",
     category:    "Mediano",
-    price:       1350,
-    size:        "5×3×2.5 m",
-    ages:        "4–10 años",
-    capacity:    "6–8 niños",
+    price:       1600,
+    size:        "5×3×2.80 m",
+    ages:        "2–8 años",
+    capacity:    "Se confirma al cotizar",
     highlight:   false,
     tag:         "Colores vibrantes",
     tagColor:    "blue",
@@ -84,10 +84,10 @@ const inflables = [
     slug:        "barco-pirata",
     name:        "Barco Pirata",
     category:    "Grande",
-    price:       1800,
-    size:        "7×5×4.5 m",
+    price:       2300,
+    size:        "6×3.5×3.80 m",
     ages:        "3–12 años",
-    capacity:    "10–15 niños",
+    capacity:    "Se confirma al cotizar",
     highlight:   false,
     tag:         "Alto impacto",
     tagColor:    "blue",
@@ -98,10 +98,10 @@ const inflables = [
     slug:        "castillo-blanco",
     name:        "Castillo Blanco",
     category:    "Grande",
-    price:       1700,
-    size:        "6×5×4 m",
-    ages:        "3+ años",
-    capacity:    "8–12 personas",
+    price:       2600,
+    size:        "5×7×4 m",
+    ages:        "3–12 años",
+    capacity:    "Se confirma al cotizar",
     highlight:   false,
     tag:         "Elegante y formal",
     tagColor:    "purple",
@@ -110,12 +110,12 @@ const inflables = [
   },
   {
     slug:        "extremo",
-    name:        "Circuito Extremo",
+    name:        "Extremo",
     category:    "Extremo",
-    price:       1900,
-    size:        "7×4×3.8 m",
-    ages:        "6+ años",
-    capacity:    "2 carriles simultáneos",
+    price:       2500,
+    size:        "8×4.5×3.50 m",
+    ages:        "3–12 años",
+    capacity:    "Se confirma al cotizar",
     highlight:   false,
     tag:         "Para teens y adultos",
     tagColor:    "orange",
@@ -134,7 +134,7 @@ const tagColors: Record<string, { bg: string; text: string }> = {
 };
 
 const includes = [
-  { icon: "🚚", label: "Entrega a domicilio",     desc: "Llevamos el inflable a tu domicilio en CDMX y Edomex sin costo extra." },
+  { icon: "🚚", label: "Entrega a domicilio",     desc: "Llevamos el inflable a tu domicilio; el traslado se confirma según zona." },
   { icon: "🔧", label: "Instalación profesional", desc: "Nuestro equipo monta el inflable en menos de 30 minutos." },
   { icon: "⚡", label: "Motor inflador",           desc: "Motor silencioso de inflado continuo e instalación eléctrica incluidos." },
   { icon: "🧼", label: "Limpieza documentada",     desc: "Cada inflable se desinfecta con protocolo propio antes de entregarse." },
@@ -167,15 +167,15 @@ const factores = [
 const faqs = [
   {
     question: "¿Cuánto cuesta rentar un inflable en CDMX?",
-    answer:   "Los precios de renta de inflables en CDMX van desde $800 MXN por el Mini Castillo (ideal para bebés) hasta $1,900 MXN por el Circuito Extremo de 7 metros. Los inflables medianos — Dragones Rojos, Castillo Princesas, Mini Jungla y Gusanitos — van de $1,200 a $1,350 MXN. Todos los precios incluyen entrega, instalación, motor, limpieza y recolección.",
+    answer:   "Los precios de renta de inflables en CDMX van desde $1,400 MXN por el Castillo Baby (ideal para bebés) hasta $2,500 MXN por Extremo. Los inflables medianos — Dragones Rojos, Castillo de Princesas, Jungla y Gusanitos — van de $1,600 a $1,800 MXN. Todos los precios incluyen instalación, motor, limpieza y recolección; el traslado se confirma según zona.",
   },
   {
     question: "¿Cuánto cuesta rentar un brincolín grande?",
-    answer:   "Los tres modelos grandes cuestan entre $1,700 y $1,900 MXN por evento: Castillo Blanco $1,700 (6×5 m, bodas y XV años), Barco Pirata $1,800 (7×5 m, tobogán) y Circuito Extremo $1,900 (7×4 m, obstáculos para niños grandes y adultos). El precio es por evento completo de 4 a 6 horas e incluye entrega, instalación, motor y recolección.",
+    answer:   "Los tres modelos grandes cuestan entre $2,300 y $2,600 MXN por evento: Barco Pirata $2,300 (6×3.5×3.80 m, tobogán), Extremo $2,500 (8×4.5×3.50 m, obstáculos) y Castillo Blanco $2,600 (5×7×4 m, bodas y XV años). El precio es por evento completo de 4 a 6 horas e incluye instalación, motor y recolección; el traslado se confirma según zona.",
   },
   {
     question: "¿Cuánto se cobra por la renta de un inflable para fiesta infantil?",
-    answer:   "Para una fiesta infantil típica de 15 a 25 niños el modelo más rentado es el mediano ($1,200 a $1,350 MXN): Dragones Rojos o Castillo de Princesas. Si son menos de 10 niños pequeños, el Mini Castillo de $800 MXN es suficiente. No cobramos el motor ni la instalación por separado.",
+    answer:   "Para una fiesta infantil, el modelo se elige según la edad, el espacio y la fecha: Dragones Rojos cuesta $1,600, Castillo de Princesas $1,800 y Castillo Baby $1,400. No cobramos el motor ni la instalación por separado.",
   },
   {
     question: "¿Los precios publicados incluyen todo o hay costos adicionales?",
@@ -183,7 +183,7 @@ const faqs = [
   },
   {
     question: "¿El precio varía según la zona de entrega en CDMX?",
-    answer:   "Para las 16 alcaldías de la Ciudad de México y los principales municipios del Estado de México, el precio de entrega está incluido en el costo del inflable. Solo para zonas fuera de nuestra cobertura habitual puede aplicar un cargo adicional de traslado que te informamos antes de confirmar la reserva.",
+    answer:   "La entrega sin costo adicional aplica solo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco. En el resto de CDMX y Estado de México se atiende con costo de traslado según zona, confirmado antes de reservar.",
   },
   {
     question: "¿Hay descuento si rento más de un inflable?",
@@ -245,17 +245,17 @@ const faqs = [
           <p class="pr-hero-summary__label">Rango de precios 2026</p>
           <div class="pr-hero-summary__range">
             <div class="pr-hero-summary__item">
-              <span class="pr-hero-summary__amount">$800</span>
-              <span class="pr-hero-summary__note">Mini Castillo (bebés)</span>
+              <span class="pr-hero-summary__amount">$1,400</span>
+              <span class="pr-hero-summary__note">Castillo Baby (bebés)</span>
             </div>
             <div class="pr-hero-summary__arrow">→</div>
             <div class="pr-hero-summary__item">
-              <span class="pr-hero-summary__amount">$1,900</span>
+              <span class="pr-hero-summary__amount">$2,600</span>
               <span class="pr-hero-summary__note">Circuito Extremo</span>
             </div>
           </div>
           <ul class="pr-hero-summary__includes">
-            <li>✓ Entrega e instalación incluidas</li>
+            <li>✓ Instalación incluida; traslado según zona</li>
             <li>✓ Motor inflador y extensión eléctrica</li>
             <li>✓ Limpieza y sanitización</li>
             <li>✓ Recolección al finalizar</li>
@@ -280,7 +280,7 @@ const faqs = [
       <SectionHeader
         badge="Precios por modelo"
         title="¿Cuánto cuesta rentar cada inflable en CDMX?"
-        subtitle="Todos los precios incluyen entrega, instalación, motor, sanitización y recolección en CDMX y Edomex."
+        subtitle="Todos los precios incluyen instalación, motor, sanitización y recolección; traslado según zona."
         copy1="Si buscas la opción más accesible, la guía de <a href='/renta-de-inflables-economicos/'>inflables económicos</a> explica qué incluye el precio y cuándo NO conviene el modelo más barato. Publicamos nuestros precios abiertamente porque creemos que la transparencia es parte del buen servicio. Cada precio que ves aquí es el precio neto de la renta: sin cargos por el motor, sin cuotas de instalación y sin sorpresas el día del evento. Las dos únicas cosas que pueden sumarse son el IVA, si necesitas factura, y el envío en zonas distantes — ambas te las decimos por escrito antes de que apartes la fecha."
         copy2="Si tienes dudas sobre qué inflable elegir según el espacio disponible, el número de niños o el tipo de evento, escríbenos por WhatsApp y te asesoramos sin compromiso."
       />
@@ -421,16 +421,16 @@ const faqs = [
 
         <div class="pr-paquete">
           <div class="pr-paquete__header">
-            <h3 class="pr-paquete__name">Paquete kermesse</h3>
+            <h3 class="pr-paquete__name">Paquete fiesta bebés</h3>
             <div class="pr-paquete__price">
-              <span class="pr-paquete__amount">Cotización</span>
-              <span class="pr-paquete__note">2 inflables · evento completo</span>
+              <span class="pr-paquete__amount">$2,100</span>
+              <span class="pr-paquete__note">Castillo Baby · mesa · pintacaritas</span>
             </div>
           </div>
           <ul class="pr-paquete__list">
-            <li>2 inflables a elegir del catálogo estándar</li>
-            <li>Entrega, instalación y recolección de ambos</li>
-            <li>2 motores de inflado incluidos</li>
+            <li>1 Castillo Baby</li>
+            <li>1 mesa con 4 sillitas</li>
+            <li>1 pintacaritas para 4 niños</li>
           </ul>
           <a href="/servicios/inflables-para-eventos/" class="pr-paquete__link">Ver detalles del paquete →</a>
         </div>
@@ -438,24 +438,23 @@ const faqs = [
         <div class="pr-paquete pr-paquete--highlight">
           <div class="pr-paquete__badge">Más solicitado</div>
           <div class="pr-paquete__header">
-            <h3 class="pr-paquete__name">Paquete evento</h3>
+            <h3 class="pr-paquete__name">Paquete fiesta</h3>
             <div class="pr-paquete__price">
-              <span class="pr-paquete__amount">Desde $4,500</span>
-              <span class="pr-paquete__note">3–4 inflables · coordinación incluida</span>
+              <span class="pr-paquete__amount">$2,800</span>
+              <span class="pr-paquete__note">Jungla o Dragones Rojos · mesa · pintacaritas</span>
             </div>
           </div>
           <ul class="pr-paquete__list">
-            <li>3 a 4 inflables a elegir del catálogo</li>
-            <li>Entrega, instalación y recolección de todos</li>
-            <li>Motor de inflado por cada inflable</li>
-            <li>Coordinador logístico en sitio incluido</li>
+            <li>1 inflable Jungla o Dragones Rojos</li>
+            <li>1 mesa con 10 sillitas</li>
+            <li>1 hora de pintacaritas</li>
           </ul>
           <a href="/servicios/inflables-para-eventos/" class="pr-paquete__link">Ver detalles del paquete →</a>
         </div>
 
         <div class="pr-paquete">
           <div class="pr-paquete__header">
-            <h3 class="pr-paquete__name">Paquete corporativo</h3>
+            <h3 class="pr-paquete__name">Evento personalizado</h3>
             <div class="pr-paquete__price">
               <span class="pr-paquete__amount">Cotización</span>
               <span class="pr-paquete__note">5+ inflables · personalizado</span>

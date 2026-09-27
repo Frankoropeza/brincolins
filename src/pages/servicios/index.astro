@@ -9,7 +9,7 @@ import ServicesSidebar from "@/components/ServicesSidebar.astro";
 import CtaBanner     from "@/components/CtaBanner.astro";
 
 const title       = "Servicios para fiestas infantiles y eventos en CDMX";
-const description = "Renta de inflables, mobiliario e iluminación para fiestas en CDMX. Paquetes todo incluido con entrega e instalación. Un solo proveedor.";
+const description = "Renta de inflables, mobiliario e iluminación para fiestas en CDMX. Paquetes con inflable, mesa infantil y pintacaritas. Un solo proveedor.";
 
 /* ─── CATÁLOGO DE SERVICIOS (para el grid) ───────────────────────── */
 const servicios = [
@@ -18,9 +18,9 @@ const servicios = [
     name: "Renta de inflables",
     badge: "Servicio principal",
     badgeColor: "#FF3D00",
-    desc: "Más de 8 modelos: castillos, toboganes, circuitos y más. Entrega e instalación incluida en toda la ZMVM.",
-    tag1: "desde $800 MXN",
-    tag2: "8+ modelos",
+    desc: "8 modelos: castillos, toboganes, circuitos y más. Instalación incluida y traslado según zona.",
+    tag1: "desde $1,400 MXN",
+    tag2: "8 modelos",
     href: "/servicios/renta-de-inflables/",
     image: "/img/inflables/dragones-rojos.avif",
     waMsg: "Hola BRINCOLINS, quiero cotizar la renta de un inflable.",
@@ -30,9 +30,9 @@ const servicios = [
     name: "Paquetes de fiesta",
     badge: "Precio cerrado",
     badgeColor: "#7C3AED",
-    desc: "Combos todo incluido con precio cerrado: inflable + mobiliario + iluminación. Sin sorpresas al final.",
-    tag1: "desde $4,500 MXN",
-    tag2: "Todo incluido",
+    desc: "Combos todo incluido con precio cerrado: inflable + mesa infantil + pintacaritas. Sin sorpresas al final.",
+    tag1: "desde $2,100 MXN",
+    tag2: "2 paquetes",
     href: "/servicios/paquetes-de-fiesta/",
     image: "/img/servicios/paquetes-fiesta-completo-cdmx.avif",
     waMsg: "Hola BRINCOLINS, quiero cotizar un paquete de fiesta todo incluido.",
@@ -44,7 +44,7 @@ const servicios = [
     badgeColor: "#0369a1",
     desc: "Mesas, sillas, toldos y mantelería. Completa tu evento con un solo proveedor para todo.",
     tag1: "Cotización gratis",
-    tag2: "Entrega incluida",
+    tag2: "Traslado según zona",
     href: "/servicios/mobiliario-para-fiestas/",
     image: "/img/servicios/mobiliario-fiestas-cdmx.avif",
     waMsg: "Hola BRINCOLINS, quiero cotizar mobiliario para mi fiesta.",
@@ -81,15 +81,15 @@ const WA = WHATSAPP;
 const faqs = [
   {
     question: "¿Qué incluye cada servicio de BRINCOLINS?",
-    answer: "Todos nuestros servicios incluyen transporte, instalación profesional, mantenimiento durante el evento y recolección al finalizar. Los inflables también incluyen motor inflador y sanitización. Los paquetes incluyen todos los elementos del combo con un solo precio cerrado y un solo responsable."
+    answer: "Todos nuestros servicios incluyen instalación profesional, mantenimiento durante el evento y recolección al finalizar; el traslado se cotiza según zona. Los inflables también incluyen motor inflador y sanitización. Los paquetes incluyen todos los elementos del combo con un solo precio cerrado y un solo responsable."
   },
   {
     question: "¿Puedo contratar varios servicios juntos?",
-    answer: "Sí, y es la forma más conveniente. Nuestros paquetes de fiesta combinan inflable + mobiliario + iluminación con un precio cerrado y un solo responsable para todo el montaje. Si tienes necesidades específicas, también armamos paquetes a la medida — cuéntanos qué buscas por WhatsApp y en minutos te tenemos una cotización."
+    answer: "Sí, y es la forma más conveniente. Nuestros paquetes de fiesta combinan inflable + mobiliario + pintacaritas con un precio cerrado y un solo responsable para todo el montaje. Si tienes necesidades específicas, confírmalas por WhatsApp y te orientamos al cotizar."
   },
   {
     question: "¿Cuánto cuesta la entrega e instalación?",
-    answer: "La entrega e instalación están incluidas en el precio de todos nuestros servicios dentro de la ZMVM — no hay cargos ocultos. Para zonas fuera de la ZMVM, aplica un cargo adicional según la distancia que cotizamos de forma transparente antes de confirmar tu reserva."
+    answer: "La instalación está incluida en nuestros servicios. La entrega sin costo adicional aplica solo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco; en el resto de CDMX y Estado de México se cotiza el traslado según zona antes de confirmar tu reserva."
   },
   {
     question: "¿Con cuánta anticipación debo contratar?",
@@ -101,7 +101,7 @@ const faqs = [
   },
   {
     question: "¿Atienden en toda la CDMX y Estado de México?",
-    answer: "Atendemos toda la Zona Metropolitana del Valle de México: las 16 alcaldías de CDMX y los principales municipios del Estado de México (Naucalpan, Tlalnepantla, Ecatepec, Coacalco, Tultitlán, Atizapán, Cuautitlán Izcalli, Nezahualcóyotl, Chalco, entre otros). La entrega está incluida en toda esta zona."
+    answer: "Atendemos toda la Zona Metropolitana del Valle de México: las 16 alcaldías de CDMX y los principales municipios del Estado de México (Naucalpan, Tlalnepantla, Ecatepec, Coacalco, Tultitlán, Atizapán, Cuautitlán Izcalli, Nezahualcóyotl, Chalco, entre otros). El traslado se cotiza según zona, con entrega sin costo adicional solo en zonas seleccionadas."
   },
   {
     question: "¿Qué pasa si llueve el día de mi evento?",
@@ -169,8 +169,8 @@ const faqs = [
       <SectionHeader
         badge="Catálogo de servicios"
         title="5 servicios para tu fiesta o evento en CDMX"
-        subtitle="Desde inflables hasta mobiliario e iluminación — todo con entrega, instalación y recolección incluidas."
-        copy1="Cada servicio está diseñado para complementarse. Contrata uno o combínalos todos en uno de nuestros paquetes todo incluido con precio cerrado y un solo responsable. Cubrimos toda la Zona Metropolitana del Valle de México."
+        subtitle="Desde inflables hasta mobiliario e iluminación — con instalación y recolección incluidas; traslado según zona."
+        copy1="Cada servicio está diseñado para complementarse. Contrata uno o combínalos en uno de nuestros paquetes con precio cerrado y un solo responsable. Cubrimos toda la Zona Metropolitana del Valle de México; el traslado se cotiza según zona."
         copy2="Nuestros 5 servicios están disponibles para fiestas infantiles, quinceañeras, bodas, eventos corporativos y kermeses escolares. Escríbenos por WhatsApp para una cotización en minutos."
       />
       <div class="svc-grid">
@@ -217,9 +217,9 @@ const faqs = [
       <SectionHeader
         badge="🎪 Servicio principal"
         title="Renta de inflables para fiestas en CDMX"
-        subtitle="El corazón de cada fiesta · 8 modelos · entrega e instalación incluida"
-        copy1="La renta de inflables es nuestro servicio estrella con más de 20 años de experiencia. Contamos con 8 modelos distintos para todas las edades, tamaños y presupuestos: desde el Mini Castillo compacto para bebés hasta el Circuito Extremo de 7 metros para adolescentes y adultos."
-        copy2="Todos los inflables incluyen motor inflador silencioso, sanitización y técnico durante el evento. Fabricados con PVC de grado comercial, más resistente que el de uso doméstico. Entrega en toda CDMX y Estado de México."
+        subtitle="El corazón de cada fiesta · 8 modelos · instalación incluida"
+        copy1="La renta de inflables es nuestro servicio estrella con más de 20 años de experiencia. Contamos con 8 modelos distintos para diferentes edades, tamaños y presupuestos: desde el Castillo Baby compacto para bebés hasta el Extremo para adolescentes."
+        copy2="Todos los inflables incluyen motor inflador silencioso, sanitización y técnico durante el evento. Fabricados con PVC de grado comercial, más resistente que el de uso doméstico. Atendemos toda CDMX y Estado de México; el traslado se cotiza según zona."
       />
       <div class="featured-layout">
         <div class="featured-layout__main">
@@ -228,19 +228,19 @@ const faqs = [
             href="/servicios/renta-de-inflables/"
             badge="Servicio principal"
             accentColor="#FF3D00"
-            price="desde $800"
+            price="desde $1,400"
             priceNote="por evento · instalación incluida"
             description="El servicio más solicitado de BRINCOLINS. Más de 8 modelos de inflables para fiestas infantiles, bodas, XV años, kermeses y eventos corporativos en toda la ZMVM. Cada inflable incluye entrega, instalación, motor inflador y sanitización."
             features={[
               { icon: "🎪", text: "8+ modelos: castillos, toboganes y circuitos" },
-              { icon: "🚚", text: "Entrega a domicilio sin costo en toda la ZMVM" },
+              { icon: "🚚", text: "Entrega sin costo adicional en zonas seleccionadas" },
               { icon: "⚡", text: "Instalación profesional en 15-30 minutos" },
               { icon: "🧼", text: "Sanitización antes de cada evento" },
               { icon: "👨‍🔧", text: "Técnico supervisor disponible durante el evento" },
             ]}
             stat1={{ icon: "🎪", value: "8+", label: "Modelos" }}
-            stat2={{ icon: "👦", value: "1-18 años", label: "Edades" }}
-            stat3={{ icon: "👥", value: "hasta 12", label: "Capacidad" }}
+            stat2={{ icon: "👦", value: "Según modelo", label: "Edades" }}
+            stat3={{ icon: "👥", value: "Se confirma al cotizar", label: "Capacidad" }}
             stat4={{ icon: "⚡", value: "20 min", label: "Instalación" }}
             image="/img/inflables/dragones-rojos.avif"
             imageAlt="Renta de inflables para fiestas en CDMX — Dragones Rojos"
@@ -267,9 +267,9 @@ const faqs = [
       <SectionHeader
         badge="🎁 Todo incluido"
         title="Paquetes de fiesta — todo incluido con precio cerrado"
-        subtitle="Inflable + mobiliario + iluminación · precio cerrado · sin sorpresas al final"
+        subtitle="Inflable + mobiliario + pintacaritas · precio cerrado · sin sorpresas al final"
         copy1="Los paquetes de fiesta son la forma más sencilla de organizar tu evento. Combinamos los servicios que más se complementan en combos con precio cerrado, eliminando la coordinación con múltiples proveedores y dejando un solo responsable de todo el montaje."
-        copy2="Contamos con tres niveles: Paquete Básico para hasta 30 invitados, Paquete Premium para hasta 50 invitados y Paquete VIP para hasta 80 invitados. Cada paquete incluye inflable, mesas y sillas; el VIP suma además iluminación LED completa. Todo entregado, instalado y retirado por nuestro equipo."
+        copy2="Contamos con dos opciones: Paquete fiesta con Jungla o Dragones Rojos, mesa con 10 sillitas y pintacaritas durante 1 hora; y Paquete fiesta bebés con Castillo Baby, mesa con 4 sillitas y pintacaritas para 4 niños. La entrega se cotiza según zona."
       />
       <div class="featured-layout">
         <div class="featured-layout__main">
@@ -278,29 +278,29 @@ const faqs = [
             href="/servicios/paquetes-de-fiesta/"
             badge="Precio cerrado"
             accentColor="#7C3AED"
-            price="desde $4,500"
+            price="desde $2,100"
             priceNote="todo incluido · precio cerrado"
-            description="La solución completa para organizar tu fiesta sin complicaciones. Un solo proveedor, un solo cobro, un solo punto de contacto. Nuestros paquetes combinan inflable + mobiliario + iluminación en tres niveles según el tamaño de tu evento, con un precio cerrado que conoces antes de apartar tu fecha."
+            description="La solución completa para organizar tu fiesta sin complicaciones. Un solo proveedor, un solo cobro, un solo punto de contacto. Nuestros dos paquetes combinan inflable + mesa infantil + pintacaritas, con un precio cerrado que conoces antes de apartar tu fecha."
             features={[
               { icon: "🎪", text: "Inflable incluido en todos los paquetes" },
-              { icon: "🪑", text: "Mesas y sillas para todos los invitados" },
-              { icon: "💡", text: "Kit de iluminación LED en el paquete VIP" },
-              { icon: "🚚", text: "Entrega, instalación y recolección incluidas" },
+              { icon: "🪑", text: "Mesa infantil con sillitas incluida" },
+              { icon: "🎨", text: "Pintacaritas incluido según paquete" },
+              { icon: "🚚", text: "Instalación y recolección incluidas; entrega según zona" },
               { icon: "📋", text: "Precio cerrado — sin cobros sorpresa el día del evento" },
               { icon: "👨‍💼", text: "Un coordinador responsable de todo el montaje" },
             ]}
-            stat1={{ icon: "🎁", value: "3 niveles", label: "Paquetes" }}
-            stat2={{ icon: "👥", value: "30-80", label: "Invitados" }}
+            stat1={{ icon: "🎁", value: "2 opciones", label: "Paquetes" }}
+            stat2={{ icon: "👥", value: "Se confirma al cotizar", label: "Invitados" }}
             stat3={{ icon: "📋", value: "cerrado", label: "Precio" }}
             stat4={{ icon: "👨‍💼", value: "1 proveedor", label: "Coordinación" }}
             image="/img/servicios/paquetes-fiesta-completo-cdmx.avif"
-            imageAlt="Paquetes de fiesta todo incluido en CDMX — inflable, mobiliario e iluminación"
+            imageAlt="Paquetes de fiesta en CDMX — inflable, mobiliario y pintacaritas"
             gallery={[
               { src: "/img/servicios/mobiliario-fiestas-cdmx.avif", alt: "Mobiliario incluido en paquetes de fiesta" },
-              { src: "/img/servicios/iluminacion-eventos-cdmx.avif", alt: "Iluminación incluida en paquetes de fiesta" },
+              { src: "/img/servicios/iluminacion-eventos-cdmx.avif", alt: "Detalle de evento con paquete de fiesta" },
             ]}
             waMessage="Hola BRINCOLINS, quiero cotizar un paquete de fiesta todo incluido."
-            trust={["🎁 3 niveles", "📋 Precio cerrado", "👨‍💼 Un solo responsable"]}
+            trust={["🎁 2 opciones", "📋 Precio cerrado", "👨‍💼 Un solo responsable"]}
           />
         </div>
         <div class="featured-layout__sidebar">
@@ -318,7 +318,7 @@ const faqs = [
       <SectionHeader
         badge="🪑 Complemento esencial"
         title="Mobiliario para fiestas — mesas, sillas y toldos"
-        subtitle="Plegables · mantelería · toldos 3×6 y 6×6 · entrega e instalación incluida"
+        subtitle="Plegables · mantelería · toldos 3×6 y 6×6 · instalación incluida"
         copy1="El mobiliario correcto hace que tu evento sea cómodo para todos los invitados. Contamos con mesas y sillas plegables de alta resistencia, toldos de 3×6 y 6×6 metros para exteriores, y mantelería en múltiples colores para darle un toque profesional a tu celebración."
         copy2="Todo el mobiliario se entrega limpio, en perfecto estado y se instala en el lugar que indiques. Al final del evento, nosotros recogemos todo. Disponible por separado o incluido en nuestros paquetes de fiesta. Cotización en minutos por WhatsApp."
       />
@@ -330,13 +330,13 @@ const faqs = [
             badge="Complemento esencial"
             accentColor="#0369a1"
             price="Cotización gratis"
-            priceNote="según cantidad · entrega incluida"
+            priceNote="según cantidad · entrega según zona"
             description="Mesas, sillas, toldos y mantelería para completar tu evento de principio a fin. Todo el mobiliario es plegable, de alta resistencia y se entrega en perfectas condiciones. Disponible para todos los tipos de eventos: fiestas infantiles, bodas, XV años, reuniones y eventos corporativos en toda la ZMVM."
             features={[
               { icon: "🪑", text: "Mesas y sillas plegables de alta resistencia" },
               { icon: "⛺", text: "Toldos 3×6 m y 6×6 m para exteriores" },
               { icon: "🎀", text: "Mantelería y cubresillas en múltiples colores" },
-              { icon: "🚚", text: "Entrega, instalación y recolección incluidas" },
+              { icon: "🚚", text: "Instalación y recolección incluidas; entrega según zona" },
               { icon: "✨", text: "Mobiliario entregado limpio y en perfecto estado" },
               { icon: "📦", text: "Disponible por separado o en paquetes de fiesta" },
             ]}
@@ -351,7 +351,7 @@ const faqs = [
               { src: "/img/inflables/dragones-rojos.avif", alt: "Inflable con mobiliario para evento familiar" },
             ]}
             waMessage="Hola BRINCOLINS, quiero cotizar mobiliario para mi fiesta."
-            trust={["🚚 Entrega incluida", "✨ Estado impecable", "📦 Con o sin paquete"]}
+            trust={["🚚 Traslado según zona", "✨ Estado impecable", "📦 Con o sin paquete"]}
           />
         </div>
         <div class="featured-layout__sidebar">
@@ -371,7 +371,7 @@ const faqs = [
         title="Iluminación para eventos — LED, neón y proyección"
         subtitle="Series LED · guirnaldas · luz UV · reflectores · transforma cualquier espacio"
         copy1="La iluminación correcta transforma por completo el ambiente de tu evento. Contamos con series LED de colores, guirnaldas cálidas para jardines, neón y luz UV para fiestas temáticas nocturnas, y proyección profesional para quincañeras y bodas."
-        copy2="Cada kit se diseña según el espacio y el tipo de evento para garantizar el ambiente que buscas. La iluminación puede contratarse de forma independiente o como parte de nuestros paquetes de fiesta. Instalación profesional en menos de 1 hora."
+        copy2="Cada kit se diseña según el espacio y el tipo de evento para garantizar el ambiente que buscas. La iluminación se contrata de forma independiente. Instalación profesional en menos de 1 hora."
       />
       <div class="featured-layout">
         <div class="featured-layout__main">
@@ -436,7 +436,7 @@ const faqs = [
             description="Logística profesional de inflables para eventos de gran escala. Coordinamos desde 2 hasta 20+ inflables simultáneos con un solo responsable para todo: transporte, montaje, supervisión y desmontaje. Ideal para kermeses escolares, team building corporativo, ferias y activaciones de marca."
             features={[
               { icon: "🏫", text: "Kermeses escolares: 2-5 inflables simultáneos" },
-              { icon: "🏢", text: "Team building corporativo: circuito extremo para adultos" },
+              { icon: "🏢", text: "Team building corporativo: Extremo para su rango de edad" },
               { icon: "🎪", text: "Ferias y activaciones: 200-500+ personas con coordinación" },
               { icon: "🌿", text: "Garden parties: inflable + mobiliario + catering opcional" },
               { icon: "👨‍💼", text: "Coordinador de logística sin costo desde 3 inflables" },

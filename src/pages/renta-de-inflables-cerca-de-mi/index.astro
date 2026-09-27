@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     question: "¿Cuánto cuesta el envío a mi zona?",
-    answer: `En ${sinCargo.length} zonas el envío ya está incluido en el precio del inflable. En municipios distantes del Estado de México y en algunas zonas del sur y oriente de la CDMX aplica un cargo que va de $100 a $600 según la distancia. Cada página de zona publica su cargo exacto, y te lo confirmamos por escrito antes de que apartes la fecha.`,
+    answer: `En Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco el envío ya está incluido en el precio del inflable. En el resto de CDMX y Estado de México se atiende con costo de traslado según zona. Cada página publica el cargo correspondiente, y te lo confirmamos por escrito antes de que apartes la fecha.`,
   },
   {
     question: "¿Con cuánta anticipación debo reservar?",
@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     question: "¿Hay renta de inflables cerca de mi colonia?",
-    answer: `Sí: operamos como servicio a domicilio, no como local físico, así que la pregunta correcta no es qué tan cerca estamos sino si tu colonia entra en la ruta. Cubrimos ${zonas.length} zonas — las 16 alcaldías de CDMX y ${zonas.length - 16} municipios del Estado de México — y en ${sinCargo.length} de ellas el traslado ya va incluido en el precio del inflable. Busca tu zona en la lista de abajo o mándanos tu colonia por WhatsApp y te confirmamos en minutos.`,
+    answer: `Sí: operamos como servicio a domicilio, no como local físico, así que la pregunta correcta no es qué tan cerca estamos sino si tu colonia entra en la ruta. Cubrimos ${zonas.length} zonas — las 16 alcaldías de CDMX y ${zonas.length - 16} municipios del Estado de México — y solo en Polanco el traslado ya va incluido en el precio del inflable. Busca tu zona en la lista de abajo o mándanos tu colonia por WhatsApp y te confirmamos en minutos.`,
   },
   {
     question: "¿Cuánto cuesta rentar un inflable?",
@@ -139,7 +139,7 @@ const serviceSchema = {
           <p class="hero__copy-text">
             Lo que la mayoría quiere saber primero es si llegamos a su colonia y cuánto cuesta
             el traslado. Abajo está la lista completa de zonas, con el cargo de envío real de
-            cada una — <strong>en {sinCargo.length} de ellas ya viene incluido en el precio</strong>.
+            cada una — <strong>en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco ya viene incluido en el precio</strong>.
           </p>
           <p class="hero__copy-text hero__copy-text--links">
             Es el mismo servicio de <a href="/">renta de inflables en CDMX</a>, con el catálogo completo de
@@ -160,7 +160,7 @@ const serviceSchema = {
         badge="Cómo funciona"
         title="¿Cómo funciona la renta de inflables cerca de ti?"
         subtitle="Cuatro pasos, sin visitas a sucursal ni papeleo."
-        copy1="El proceso completo se resuelve por WhatsApp. Nos dices dónde y cuándo, te confirmamos disponibilidad y precio con el envío ya incluido en la cuenta, y el día del evento llegamos a montar."
+        copy1="El proceso completo se resuelve por WhatsApp. Nos dices dónde y cuándo, te confirmamos disponibilidad y el precio con el traslado de tu zona, y el día del evento llegamos a montar."
         copy2="No hay contrato que firmar en persona ni depósito en garantía por el equipo. Sólo el anticipo del 50% para apartar la fecha, y el resto el día de la fiesta."
       />
       <div class="cerca-pasos">
@@ -199,8 +199,8 @@ const serviceSchema = {
         copy2="Los cargos de envío reflejan la distancia desde nuestro punto de salida. No son un margen extra: son el traslado real del equipo y del personal de montaje."
       />
 
-      <h3 class="cerca-zonas__title">Envío incluido en el precio</h3>
-      <p class="cerca-zonas__note">{sinCargo.length} zonas sin cargo adicional de traslado.</p>
+      <h3 class="cerca-zonas__title">Sin cargo adicional de traslado</h3>
+      <p class="cerca-zonas__note">Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco.</p>
       <ul class="cerca-zonas">
         {sinCargo.map(z => (
           <li>
@@ -268,7 +268,7 @@ const serviceSchema = {
 
   <CtaBanner
     title="Dinos tu colonia y te decimos si llegamos"
-    subtitle="Respuesta por WhatsApp en minutos, con precio cerrado y envío incluido en la cuenta."
+    subtitle="Respuesta por WhatsApp en minutos, con precio y traslado de tu zona confirmados."
   />
 </PageLayout>
 

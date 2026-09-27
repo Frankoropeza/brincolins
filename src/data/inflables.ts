@@ -16,8 +16,7 @@ export interface Inflable {
   price:       string;    // formato "$X,XXX" para display
   priceNumber: number;    // número para schema / ordenamiento
   size:        string;    // medidas del inflable: largo×ancho×alto
-  /** Área libre que hay que despejar: medidas + 1 m de margen por lado.
-      Es la regla de seguridad que el propio sitio publica. */
+  /** Área libre de instalación; se confirma al cotizar. */
   spaceRequired: string;
   /** Altura libre necesaria: alto del inflable + 0.7 m. Determina si cabe bajo techo. */
   heightClearance: string;
@@ -41,7 +40,7 @@ export interface Inflable {
    Antes había dos fuentes en conflicto: las 8 fichas de producto
    mostraban "+ IVA" mientras las otras 133 páginas prometían
    "el precio final, sin cargos ocultos". Un Castillo de Princesas
-   pasaba de $1,200 a $1,392 sin avisar.
+   pasaba de un precio anterior a otro sin avisar.
    ────────────────────────────────────────────────────────────── */
 export const PRICE_NOTE       = "+ IVA si requieres factura";
 export const PRICE_NOTE_LONG  = "Los precios son netos. Si necesitas factura, se agrega el 16% de IVA.";
@@ -55,18 +54,18 @@ export const REQ_ADULT   = "Supervisión de una persona adulta durante todo el e
 export const INFLABLES: Inflable[] = [
   {
     slug:        "mini-castillo",
-    name:        "Mini Castillo",
-    price:       "$800",
-    priceNumber: 800,
-    size:        "2×2×2.5m",
-    spaceRequired:   "3×3 m",
+    name:        "Castillo Baby",
+    price:       "$1,400",
+    priceNumber: 1400,
+    size:        "2.5×2×2m",
+    spaceRequired:   "Se confirma al cotizar",
     heightClearance: "3.2 m",
     indoor:      true,
-    ages:        "1-4 años",
-    capacity:    "3-4 niños",
+    ages:        "1 a 3 años",
+    capacity:    "Se confirma al cotizar",
     installTime: "15 minutos",
     image:       "/img/inflables/mini-castillo.avif",
-    description: "El Mini Castillo es el inflable ideal para los más pequeños. Tamaño compacto perfecto para interiores, terrazas y espacios reducidos. Diseñado para bebés y niños de 1 a 4 años.",
+    description: "El Castillo Baby es el inflable ideal para los más pequeños. Tamaño compacto perfecto para interiores, terrazas y espacios reducidos. Diseñado para bebés y niños de 1 a 3 años.",
     category:    "pequeño",
     active:      true,
     gallery: [
@@ -79,14 +78,14 @@ export const INFLABLES: Inflable[] = [
   {
     slug:        "dragones-rojos",
     name:        "Dragones Rojos",
-    price:       "$1,200",
-    priceNumber: 1200,
-    size:        "4×4×3.8m",
-    spaceRequired:   "6×6 m",
+    price:       "$1,600",
+    priceNumber: 1600,
+    size:        "5×3×2.80m",
+    spaceRequired:   "Se confirma al cotizar",
     heightClearance: "4.5 m",
     indoor:      false,
-    ages:        "4-10 años",
-    capacity:    "5-7 niños",
+    ages:        "3 a 8 años",
+    capacity:    "Se confirma al cotizar",
     installTime: "20 minutos",
     image:       "/img/inflables/dragones-rojos.avif",
     description: "El inflable Dragones Rojos es el más rentado en CDMX. Con dos impresionantes dragones de 3 metros de altura, resbaladilla integrada y mallas de seguridad laterales.",
@@ -96,14 +95,14 @@ export const INFLABLES: Inflable[] = [
   {
     slug:        "castillo-princesas",
     name:        "Castillo de Princesas",
-    price:       "$1,200",
-    priceNumber: 1200,
-    size:        "4×4×3.5m",
-    spaceRequired:   "6×6 m",
+    price:       "$1,800",
+    priceNumber: 1800,
+    size:        "5×3.30×3m",
+    spaceRequired:   "Se confirma al cotizar",
     heightClearance: "4.2 m",
     indoor:      false,
-    ages:        "4-10 años",
-    capacity:    "5-7 niños",
+    ages:        "2 a 10 años",
+    capacity:    "Se confirma al cotizar",
     installTime: "20 minutos",
     image:       "/img/inflables/castillo-princesas.avif",
     description: "El Castillo de Princesas es el inflable favorito para fiestas temáticas. Diseño en rosa y morado con torres decorativas, resbaladilla y mallas de seguridad.",
@@ -118,18 +117,18 @@ export const INFLABLES: Inflable[] = [
   },
   {
     slug:        "mini-jungla",
-    name:        "Mini Jungla",
-    price:       "$1,300",
-    priceNumber: 1300,
-    size:        "4.5×4×3.5m",
-    spaceRequired:   "6.5×6 m",
+    name:        "Jungla",
+    price:       "$1,600",
+    priceNumber: 1600,
+    size:        "5×3×2.50m",
+    spaceRequired:   "Se confirma al cotizar",
     heightClearance: "4.2 m",
     indoor:      false,
-    ages:        "3-10 años",
-    capacity:    "5-7 niños",
+    ages:        "3 a 8 años",
+    capacity:    "Se confirma al cotizar",
     installTime: "15 minutos",
     image:       "/img/inflables/mini-jungla.avif",
-    description: "El inflable Mini Jungla transporta a los niños a una aventura tropical. Con dinosaurios, palmeras y colores vibrantes de la selva, ideal para fiestas de animales y naturaleza.",
+    description: "El inflable Jungla transporta a los niños a una aventura tropical. Con dinosaurios, palmeras y colores vibrantes de la selva, ideal para fiestas de animales y naturaleza.",
     category:    "mediano",
     active:      true,
     gallery: [
@@ -142,14 +141,14 @@ export const INFLABLES: Inflable[] = [
   {
     slug:        "gusanitos",
     name:        "Gusanitos",
-    price:       "$1,350",
-    priceNumber: 1350,
-    size:        "5×3×2.5m",
-    spaceRequired:   "7×5 m",
+    price:       "$1,600",
+    priceNumber: 1600,
+    size:        "5×3×2.80m",
+    spaceRequired:   "Se confirma al cotizar",
     heightClearance: "3.2 m",
     indoor:      true,
-    ages:        "4-10 años",
-    capacity:    "5-7 niños",
+    ages:        "2 a 8 años",
+    capacity:    "Se confirma al cotizar",
     installTime: "20 minutos",
     image:       "/img/inflables/gusanitos.avif",
     description: "El inflable Gusanitos es más un circuito que un brincolín: túneles de colores conectados con varias entradas y salidas. Con 5 metros de largo es el de mayor alcance del catálogo mediano y funciona muy bien con grupos de edades mezcladas.",
@@ -165,17 +164,17 @@ export const INFLABLES: Inflable[] = [
   {
     slug:        "barco-pirata",
     name:        "Barco Pirata",
-    price:       "$1,800",
-    priceNumber: 1800,
-    size:        "7×5×4.5m",
-    spaceRequired:   "9×7 m",
+    price:       "$2,300",
+    priceNumber: 2300,
+    size:        "6×3.5×3.80m",
+    spaceRequired:   "Se confirma al cotizar",
     heightClearance: "5.2 m",
     indoor:      false,
-    ages:        "4+ años",
-    capacity:    "8-10 niños",
+    ages:        "3 a 12 años",
+    capacity:    "Se confirma al cotizar",
     installTime: "30 minutos",
     image:       "/img/inflables/barco-pirata.avif",
-    description: "El Barco Pirata es el inflable más grande del catálogo. Con 7×5×4.5 metros, mástil, velas y un tobogán de alta velocidad por la popa, es el modelo que más impacto genera a la entrada de la fiesta.",
+    description: "El Barco Pirata es un inflable de gran impacto. Con 6×3.5×3.80 metros, mástil, velas y un tobogán de alta velocidad por la popa, es el modelo que más impacto genera a la entrada de la fiesta.",
     category:    "grande",
     active:      true,
     gallery: [
@@ -188,14 +187,14 @@ export const INFLABLES: Inflable[] = [
   {
     slug:        "castillo-blanco",
     name:        "Castillo Blanco",
-    price:       "$1,700",
-    priceNumber: 1700,
-    size:        "6×5×4m",
-    spaceRequired:   "8×7 m",
+    price:       "$2,600",
+    priceNumber: 2600,
+    size:        "5×7×4m",
+    spaceRequired:   "Se confirma al cotizar",
     heightClearance: "4.7 m",
     indoor:      false,
-    ages:        "3+ años",
-    capacity:    "8-10 personas",
+    ages:        "3 a 12 años",
+    capacity:    "Se confirma al cotizar",
     installTime: "30 minutos",
     image:       "/img/inflables/castillo-blanco.avif",
     description: "El Castillo Blanco es nuestro inflable premium para bodas, bautizos y XV años. Diseño blanco puro que se integra perfectamente con la decoración de eventos formales.",
@@ -211,17 +210,17 @@ export const INFLABLES: Inflable[] = [
   {
     slug:        "extremo",
     name:        "Extremo",
-    price:       "$1,900",
-    priceNumber: 1900,
-    size:        "7×4×3.8m",
-    spaceRequired:   "9×6 m",
+    price:       "$2,500",
+    priceNumber: 2500,
+    size:        "8×4.5×3.50m",
+    spaceRequired:   "Se confirma al cotizar",
     heightClearance: "4.5 m",
     indoor:      false,
-    ages:        "6+ años",
-    capacity:    "6-10 niños por turno",
+    ages:        "3 a 12 años",
+    capacity:    "Se confirma al cotizar",
     installTime: "30 minutos",
     image:       "/img/inflables/extremo.avif",
-    description: "El circuito Extremo es el inflable de carreras del catálogo. Con 7 metros de largo, pista de obstáculos, tobogán doble y doble carril para competencias. Ideal para eventos corporativos, kermeses y adolescentes.",
+    description: "El circuito Extremo es el inflable de carreras del catálogo. Con 8 metros de largo, pista de obstáculos, tobogán doble y doble carril para competencias. Ideal para eventos corporativos, kermeses y adolescentes.",
     category:    "grande",
     active:      true,
     gallery: [
@@ -256,9 +255,8 @@ export const INFLABLES_INTERIOR = INFLABLES_ACTIVOS.filter(i => i.indoor);
     "8 modelos", "más de 8 modelos" y "14 modelos". */
 export const MODELOS_COUNT = INFLABLES_ACTIVOS.length;
 
-/** Rango de precios para schema y copy: "$800 - $1,900". */
-export const PRICE_RANGE =
-  `${INFLABLES_ACTIVOS[0].price} - ${INFLABLES_ACTIVOS[INFLABLES_ACTIVOS.length - 1].price}`;
+/** Rango de precios para schema y copy: "$1400-$2600". */
+export const PRICE_RANGE = "$1400-$2600";
 
 /** Etiqueta y color de badge por modelo — los mismos que usa /inflables/,
     para que la tarjeta se vea igual en cualquier página que la consuma. */

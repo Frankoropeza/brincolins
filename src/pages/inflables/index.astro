@@ -24,7 +24,7 @@ import { INFLABLES_ACTIVOS, PRICE_RANGE, MODELOS_COUNT, PRICE_NOTE_LONG } from "
 import { SITE_URL } from "@/data/site";
 
 const title = `Inflables para fiestas en renta en CDMX y Edomex: ${MODELOS_COUNT} modelos`;
-const description = `Inflables para fiestas en renta en CDMX y Edomex: explora ${MODELOS_COUNT} modelos por tamaño, tipo y edad, desde $800 con entrega e instalación incluidas.`;
+const description = `Inflables para fiestas en renta en CDMX y Edomex: explora ${MODELOS_COUNT} modelos por tamaño, tipo y edad, desde $1,400 con entrega e instalación según zona.`;
 
 /* Tarjeta de categoría: nombre, 3 modelos destacados y anchor con la
    keyword objetivo. 11 categorías × (1 anchor + 3 modelos) ≈ 44 enlaces,
@@ -38,13 +38,13 @@ const tarjetas = CATEGORIAS.map((c) => {
 });
 
 const faqs = [
-  { question: "¿Cómo elijo el inflable correcto en el catálogo?", answer: "En tres pasos y en este orden: mide el espacio libre disponible, define la edad de la mayoría de los invitados y calcula cuántos niños brincarán al mismo tiempo. El espacio descarta modelos de inmediato, la edad reduce a dos o tres opciones y la capacidad decide entre ellas. Después ya puedes elegir por temática." },
-  { question: "¿Cuántos modelos de inflables tienen disponibles?", answer: "Ocho modelos propios: Mini Castillo, Dragones Rojos, Castillo de Princesas, Mini Jungla, Gusanitos, Castillo Blanco, Barco Pirata y Circuito Extremo. Los organizamos en 11 categorías —por tamaño, por tipo y por público— porque cada modelo sirve para varios tipos de evento." },
-  { question: "¿Cuál es el inflable más económico del catálogo?", answer: "El Mini Castillo, desde $800 MXN por evento. Está diseñado para niños de 1 a 4 años, mide 2×2×2.5 metros y es uno de los dos modelos aptos para interiores. Los medianos arrancan en $1,200." },
-  { question: "¿Cuál es el inflable más rentado?", answer: "Dragones Rojos. Comparte base de 4×4 metros con el Castillo de Princesas y funciona con público mixto de 4 a 10 años, que es el rango de la mayoría de los cumpleaños infantiles en CDMX." },
-  { question: "¿Qué inflables caben bajo techo?", answer: "Sólo dos: el Mini Castillo y Gusanitos, ambos con 3.2 metros de altura libre requerida. El resto del catálogo supera los 4 metros y es exclusivamente de exterior. En la categoría de inflables para interiores explicamos altura, acceso y anclaje." },
+  { question: "¿Cómo elijo el inflable correcto en el catálogo?", answer: "En tres pasos y en este orden: mide el espacio libre disponible, define la edad de la mayoría de los invitados y confirma la capacidad al cotizar. El espacio descarta modelos de inmediato, la edad reduce a dos o tres opciones y la capacidad ayuda a decidir entre ellas. Después ya puedes elegir por temática." },
+  { question: "¿Cuántos modelos de inflables tienen disponibles?", answer: "Ocho modelos propios: Castillo Baby, Dragones Rojos, Castillo de Princesas, Jungla, Gusanitos, Castillo Blanco, Barco Pirata y Extremo. Los organizamos en 11 categorías —por tamaño, por tipo y por público— porque cada modelo sirve para varios tipos de evento." },
+  { question: "¿Cuál es el inflable más económico del catálogo?", answer: "Castillo Baby, desde $1,400 MXN por evento. Está diseñado para niños de 1 a 3 años y mide 2.5 × 2 × 2 m. Para conocer el espacio de instalación, confirma los detalles al cotizar." },
+  { question: "¿Cuál es el inflable más rentado?", answer: "Dragones Rojos. Mide 5 × 3 × 2.80 m y está indicado para niños de 3 a 8 años, un rango frecuente en cumpleaños infantiles en CDMX." },
+  { question: "¿Qué inflables caben bajo techo?", answer: "La altura del techo debe compararse con la altura de cada modelo: Castillo Baby mide 2 m, Jungla 2.50 m, Dragones Rojos y Gusanitos 2.80 m, Castillo de Princesas 3 m, Extremo 3.50 m, Barco Pirata 3.80 m y Castillo Blanco 4 m. Confirma el espacio de instalación al cotizar." },
   { question: "¿Puedo rentar más de un inflable para el mismo evento?", answer: "Sí, y es lo habitual en kermeses escolares, eventos de empresa y ferias. A partir de tres inflables incluimos coordinador de logística sin costo adicional. Hay que verificar el área libre sumada y que existan tomas de corriente independientes." },
-  { question: "¿Todos los inflables incluyen entrega e instalación?", answer: "Sí: entrega a domicilio, instalación profesional, motor inflador, sanitización y recolección al finalizar, en los ocho modelos. El precio publicado es neto; si necesitas factura se agrega el 16% de IVA, y en municipios distantes del Estado de México aplica un cargo de envío que te indicamos al cotizar." },
+  { question: "¿Todos los inflables incluyen entrega e instalación?", answer: "Sí: entrega a domicilio, instalación profesional, motor inflador, sanitización y recolección al finalizar, en los ocho modelos. La entrega sin costo adicional aplica solo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco; en el resto de CDMX y Estado de México se cotiza el traslado según zona. El precio publicado es neto; si necesitas factura se agrega el 16% de IVA." },
   { question: "¿Cómo aparto una fecha del catálogo?", answer: "Escríbenos por WhatsApp con el modelo, la fecha y la zona de entrega. Confirmamos disponibilidad en minutos. Para apartar se requiere un anticipo del 50% y el saldo se liquida el día del evento, antes de la instalación." },
 ];
 
@@ -74,7 +74,7 @@ const hubSchema = {
 ---
 
 <PageLayout
-  faqContext={{ tipo: "categoria", nombre: "Inflables del Catálogo", modelos: 8, desde: "$800" }}
+  faqContext={{ tipo: "categoria", nombre: "Inflables del Catálogo", modelos: 8, desde: "$1,400" }}
   title={title}
   description={description}
   pageType="category"
@@ -108,7 +108,7 @@ const hubSchema = {
             Entra por la categoría que corresponde a tu evento en lugar de recorrer el catálogo completo: <a href="/inflables/para-ninos/">inflables para niños</a> si buscas por edad, <a href="/inflables/grandes/">inflables grandes</a> o <a href="/inflables/chicos/">inflables pequeños</a> si el problema es el espacio, y <a href="/inflables/para-interiores/">inflables para interiores</a> si la fiesta es bajo techo.
           </p>
           <p class="hero__copy-text">
-            Todos los modelos incluyen entrega, instalación profesional, motor inflador, sanitización y recolección en CDMX y Estado de México. {PRICE_NOTE_LONG}
+            Todos los modelos incluyen instalación profesional, motor inflador, sanitización y recolección. La entrega sin costo adicional aplica solo en zonas seleccionadas; en el resto de CDMX y Estado de México el traslado se cotiza según zona. {PRICE_NOTE_LONG}
           </p>
         </div>
       </div>
@@ -124,7 +124,7 @@ const hubSchema = {
         badge="Categorías"
         title="¿Qué inflables para fiestas elegir según tu evento?"
         subtitle="Cada categoría lista sólo los modelos que aplican, con su tabla comparativa y sus preguntas propias."
-        copy1="Un mismo inflable sirve para varios tipos de evento, así que cada modelo aparece en tres o cuatro categorías: el Castillo Blanco es a la vez un castillo, un inflable grande y un modelo para adultos. Entrar por la categoría correcta te ahorra comparar ocho fichas para descubrir que sólo dos caben en tu espacio."
+        copy1="Un mismo inflable sirve para varios tipos de evento, así que cada modelo aparece en tres o cuatro categorías: el Castillo Blanco es a la vez un castillo y un inflable grande para niños de 3 a 12 años. Entrar por la categoría correcta te ahorra comparar ocho fichas para descubrir cuál se adapta a tu espacio."
         copy2="Las categorías por tamaño resuelven el problema más frecuente, que es el espacio disponible. Las de tipo sirven cuando ya sabes qué formato buscas —castillo, tobogán, circuito de obstáculos—. Las de público y entorno son para cuando lo que manda es quién lo va a usar o dónde se va a instalar."
       />
 
@@ -161,7 +161,7 @@ const hubSchema = {
         badge="Comparativa"
         title={`Los ${MODELOS_COUNT} modelos, lado a lado`}
         subtitle="Precio, medidas, espacio libre necesario, altura, edades y capacidad."
-        copy1="Esta tabla resuelve de una sola pasada la pregunta que más nos hacen por WhatsApp: cuál cabe en mi espacio. La columna de espacio libre ya incluye el metro de margen por lado que exigimos para anclar con seguridad, así que es la medida real que necesitas tener despejada, no las dimensiones del inflable."
+        copy1="Esta tabla resuelve de una sola pasada la pregunta que más nos hacen por WhatsApp: qué medidas tiene cada inflable. El espacio mínimo de instalación se confirma al cotizar según el modelo y el lugar, así que compártenos las dimensiones disponibles antes de apartar la fecha."
         copy2="La columna de altura libre es la que decide si un modelo entra bajo techo. Se mide del piso al punto más bajo del techo, descontando lámparas, ventiladores y trabes. Sólo dos modelos del catálogo trabajan con 3.2 metros; el resto necesita más de 4."
       />
       <TablaComparativa inflables={INFLABLES_ACTIVOS} caption={`Catálogo completo de inflables en renta — ${MODELOS_COUNT} modelos`} />

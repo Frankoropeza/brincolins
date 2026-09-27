@@ -47,16 +47,19 @@ const zonePhrase = zone.zonePhrase ?? zone.zone;
    el FAQ: si hay cargo, la tarjeta lo dice. */
 const fee     = (zone.shippingFee ?? "").trim();
 const hasFee  = fee.length > 0;
+const feeConMonto = /\d/.test(fee);   // "Según zona" = hay cargo pero sin importe publicado
 const feeLabel = hasFee ? fee : "GRATIS";
 const feeTitle = hasFee ? "Costo de envío" : "Costo de envío";
 const feeText  = zone.shippingNote ?? (hasFee
-  ? `Cargo de envío de ${fee} según la colonia, por la distancia desde nuestro almacén. Instalación y retiro van incluidos en el precio del inflable.`
+  ? (feeConMonto
+    ? `Cargo de envío de ${fee} según la colonia, por la distancia desde nuestro almacén. Instalación y retiro van incluidos en el precio del inflable.`
+    : `El costo de traslado a ${zonePhrase} depende de la colonia y te lo confirmamos al cotizar. Instalación y retiro van incluidos en el precio del inflable.`)
   : `Envío incluido en el precio para toda la zona ${zonePhrase}. Sin cargos adicionales de flete.`);
 const feeGradient = hasFee
   ? "linear-gradient(135deg,#FF6F00,#E65100)"
   : "linear-gradient(135deg,#00C853,#2E7D32)";
 const coloniasCopy2 = hasFee
-  ? `Si tu colonia está en ${zonePhrase} o en zonas limítrofes, contáctanos. Te confirmamos disponibilidad y el cargo de envío exacto (${fee}) antes de que apartes la fecha.`
+  ? `Si tu colonia está en ${zonePhrase} o en zonas limítrofes, contáctanos. Te confirmamos disponibilidad y el cargo de envío exacto${feeConMonto ? ` (${fee})` : ""} antes de que apartes la fecha.`
   : `Si tu colonia está en ${zonePhrase} o en zonas limítrofes, contáctanos. Es muy probable que podamos atenderte sin costo adicional de envío.`;
 
 /* ── Schema Service con areaServed de la zona ─────────────────────────

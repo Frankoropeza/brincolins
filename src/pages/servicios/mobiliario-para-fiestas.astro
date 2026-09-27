@@ -9,7 +9,7 @@ import Gallery4x4 from "@/components/Gallery4x4.astro";
 import PricingCards from "@/components/PricingCards.astro";
 
 const title = "Renta de Mobiliario para Fiestas en CDMX";
-const description = "Renta de mesas, sillas, manteles y toldos para fiestas y eventos en CDMX. Combina con inflables y ahorra. Entrega a domicilio incluida.";
+const description = "Renta de mesa infantil con 10 sillas y paquetes para fiestas en CDMX. Combina con un inflable y confirma el traslado según zona.";
 
 const galleryImages = [
   { src: "/img/inflables/castillo-blanco-bautizo-evento-formal.avif", alt: "Evento con inflable y mobiliario para fiestas en CDMX" },
@@ -24,74 +24,64 @@ const galleryImages = [
 
 const pricingPackages = [
   {
-    name: "Paquete sillas",
-    price: "$15",
-    priceNote: "por silla / evento",
-    description: "Sillas plegables resistentes en color blanco o negro. Mínimo 20 piezas.",
+    name: "Mesa infantil con 10 sillas",
+    price: "$550",
+    priceNote: "solo junto con un inflable / evento",
+    description: "Mesa infantil de 1.8 × 0.5 m con 10 sillas para niñas y niños de 1 a 6 años.",
     features: [
-      { text: "Sillas plegables tipo jardín", included: true },
-      { text: "Color blanco o negro", included: true },
-      { text: "Entrega a domicilio", included: true },
-      { text: "Recolección incluida", included: true },
-      { text: "Mínimo 20 piezas", included: true },
-      { text: "Manteles incluidos", included: false },
+      { text: "Mesa infantil de 1.8 × 0.5 m", included: true },
+      { text: "10 sillas infantiles", included: true },
+      { text: "Edades de 1 a 6 años", included: true },
+      { text: "Disponible junto con un inflable", included: true },
     ],
     ctaHref: "/contacto/",
   },
   {
-    name: "Paquete mesas + sillas",
-    badge: "Popular",
+    name: "Mesa infantil con 10 sillas",
+    badge: "Sin inflable",
     highlight: true,
-    price: "$250",
-    priceNote: "por mesa con 8 sillas",
-    description: "Mesa rectangular de 1.80 m con 8 sillas plegables. Lo más solicitado.",
+    price: "$1,600",
+    priceNote: "sin inflable / evento",
+    description: "Mesa infantil de 1.8 × 0.5 m con 10 sillas para niñas y niños de 1 a 6 años.",
     features: [
-      { text: "Mesa rectangular 1.80 m", included: true },
-      { text: "8 sillas plegables incluidas", included: true },
-      { text: "Entrega e instalación", included: true },
-      { text: "Recolección incluida", included: true },
-      { text: "Descuento por volumen", included: true },
-      { text: "Manteles disponibles (+$50 c/u)", included: true },
+      { text: "Mesa infantil de 1.8 × 0.5 m", included: true },
+      { text: "10 sillas infantiles", included: true },
+      { text: "Edades de 1 a 6 años", included: true },
+      { text: "Disponible sin inflable", included: true },
     ],
     ctaHref: "/contacto/",
   },
   {
-    name: "Paquete toldo",
-    price: "$800",
-    priceNote: "toldo 3x3 m / evento",
-    description: "Toldo tipo carpa blanco con instalación profesional. Ideal para exteriores.",
+    name: "Paquete fiesta",
+    price: "$2,800",
+    priceNote: "por evento",
+    description: "1 inflable Jungla o Dragones Rojos, 1 mesa con 10 sillitas y 1 pintacaritas durante 1 hora.",
     features: [
-      { text: "Toldo carpa 3x3 m blanco", included: true },
-      { text: "Estructura metálica resistente", included: true },
-      { text: "Instalación profesional", included: true },
-      { text: "Protección sol y lluvia", included: true },
-      { text: "Recolección incluida", included: true },
-      { text: "Tamaños 3x6 y 6x6 disponibles", included: true },
+      { text: "1 inflable Jungla o Dragones Rojos", included: true },
+      { text: "1 mesa con 10 sillitas", included: true },
+      { text: "1 pintacaritas durante 1 hora", included: true },
     ],
     ctaHref: "/contacto/",
   },
   {
-    name: "Paquete completo",
-    price: "$1,500",
-    priceNote: "30 personas / evento",
-    description: "Todo para 30 invitados: 4 mesas, 30 sillas, manteles y toldo 3x3 m.",
+    name: "Paquete fiesta bebés",
+    price: "$2,100",
+    priceNote: "por evento",
+    description: "1 Castillo Baby, 1 mesa con 4 sillitas y 1 pintacaritas para 4 niños.",
     features: [
-      { text: "4 mesas rectangulares", included: true },
-      { text: "30 sillas plegables", included: true },
-      { text: "Manteles a elegir color", included: true },
-      { text: "Toldo 3x3 m incluido", included: true },
-      { text: "Entrega e instalación", included: true },
-      { text: "Recolección incluida", included: true },
+      { text: "1 Castillo Baby", included: true },
+      { text: "1 mesa con 4 sillitas", included: true },
+      { text: "1 pintacaritas para 4 niños", included: true },
     ],
     ctaHref: "/contacto/",
   },
 ];
 
 const faqs = [
-  { question: "¿Qué tipos de sillas y mesas manejan?", answer: "Contamos con sillas plegables tipo jardín en color blanco y negro, mesas rectangulares de 1.80 m para 8 personas y mesas redondas para 10 personas. Todo nuestro mobiliario es resistente, limpio y en excelentes condiciones para tu evento." },
-  { question: "¿Puedo rentar solo mobiliario sin inflable?", answer: "Por supuesto. Ofrecemos la renta de mobiliario de forma independiente. Sin embargo, al combinarlo con un inflable obtienes un descuento especial en el paquete completo. Pregunta por nuestras promociones vigentes." },
-  { question: "¿Los manteles están incluidos en la renta de mesas?", answer: "Los manteles se rentan por separado para que puedas elegir el color y estilo que mejor combine con la temática de tu fiesta. Tenemos manteles lisos en más de 10 colores diferentes. El precio por mantel es desde $50 MXN." },
-  { question: "¿Ofrecen toldos o carpas para eventos al aire libre?", answer: "Sí, contamos con toldos tipo carpa de 3x3 m, 3x6 m y 6x6 m en color blanco. Son ideales para proteger a tus invitados del sol o la lluvia. La instalación y desinstalación está incluida en el precio de renta." },
+  { question: "¿Qué incluye la mesa infantil?", answer: "La mesa infantil mide 1.8 × 0.5 m e incluye 10 sillas para niñas y niños de 1 a 6 años. Cuesta $550 solo junto con un inflable y $1,600 sin inflable." },
+  { question: "¿Qué incluye el Paquete fiesta?", answer: "Incluye 1 inflable Jungla o Dragones Rojos, 1 mesa con 10 sillitas y 1 pintacaritas durante 1 hora. El precio es $2,800 por evento." },
+  { question: "¿Qué incluye el Paquete fiesta bebés?", answer: "Incluye 1 Castillo Baby, 1 mesa con 4 sillitas y 1 pintacaritas para 4 niños. El precio es $2,100 por evento." },
+  { question: "¿Cómo se confirma el traslado?", answer: "La entrega se atiende en las zonas de cobertura. El traslado no tiene costo adicional en Polanco; en el resto de CDMX y Estado de México se confirma según zona antes de apartar la fecha." },
 ];
 ---
 
@@ -119,11 +109,11 @@ const faqs = [
         <div>
           <span class="hero__badge">Mobiliario</span>
           <h1 class="hero__title">Renta de <span class="highlight">mobiliario</span> para fiestas</h1>
-          <p class="hero__desc">Mesas, sillas, manteles y toldos para que tu evento luzca impecable. Entrega a domicilio en toda la CDMX con instalación incluida.</p>
+          <p class="hero__desc">Mesa infantil con 10 sillas y paquetes para que tu fiesta quede resuelta. Entrega a domicilio en toda la CDMX; traslado según zona e instalación incluida.</p>
         </div>
         <div class="hero__copy">
-          <p class="hero__copy-text">Complementa tu fiesta con el mobiliario perfecto. En BRINCOLINS no solo rentamos inflables: también te ofrecemos todo lo que necesitas para que tus invitados estén cómodos y tu evento se vea profesional. Desde sillas plegables y mesas resistentes hasta manteles de colores y toldos para exteriores, cubrimos cada necesidad.</p>
-          <p class="hero__copy-text">Lo mejor de todo es que al combinar la renta de mobiliario con un inflable, obtienes precios especiales de paquete. Nos encargamos de entregar, instalar y recoger todo el mobiliario para que tú solo te preocupes por pasarla bien con tu familia y amigos.</p>
+          <p class="hero__copy-text">Complementa tu fiesta con una mesa infantil y 10 sillas. La mesa mide 1.8 × 0.5 m y está pensada para niñas y niños de 1 a 6 años.</p>
+          <p class="hero__copy-text">También puedes elegir el Paquete fiesta o el Paquete fiesta bebés, con inflable, mesa y pintacaritas incluidos según la opción. Te confirmamos disponibilidad y traslado antes de apartar.</p>
         </div>
       </div>
     </div>
@@ -137,7 +127,7 @@ const faqs = [
       <SectionHeader
         badge="Galería"
         title="Nuestro mobiliario para fiestas en acción"
-        subtitle="Mesas, sillas y toldos listos para tu celebración."
+        subtitle="Mesa infantil y paquetes listos para tu celebración."
         copy1="Todo nuestro mobiliario se entrega limpio, en excelentes condiciones y listo para usar. Nos aseguramos de que cada pieza luzca impecable para que tu evento se vea profesional y tus invitados estén cómodos."
         copy2="Ya sea una fiesta infantil en el jardín o una celebración más formal, nuestro mobiliario se adapta a cualquier tipo de evento. Consulta disponibilidad para la fecha de tu fiesta."
       />
@@ -152,8 +142,8 @@ const faqs = [
         badge="Precios"
         title="Precios de renta de mobiliario"
         subtitle="Opciones flexibles para cada tipo de evento."
-        copy1="Ofrecemos renta individual de sillas, mesas y toldos, o paquetes completos con descuento. Todos los precios incluyen entrega a domicilio y recolección en CDMX y zona metropolitana."
-        copy2="Al combinar la renta de mobiliario con un inflable, obtienes un descuento adicional. Escríbenos para recibir tu cotización personalizada según el tamaño de tu evento."
+        copy1="Ofrecemos una mesa infantil con 10 sillas: $550 solo junto con un inflable y $1,600 sin inflable. También puedes elegir uno de los dos paquetes de fiesta publicados."
+        copy2="El Paquete fiesta cuesta $2,800 y el Paquete fiesta bebés cuesta $2,100. Escríbenos para confirmar disponibilidad, horario y traslado según tu zona."
       />
       <PricingCards packages={pricingPackages} />
     </div>
@@ -166,8 +156,8 @@ const faqs = [
         badge="Beneficios"
         title="Renta de mobiliario para fiestas — por qué elegirnos"
         subtitle="Calidad, variedad y precios justos para tu evento."
-        copy1="Nuestro mobiliario para fiestas se mantiene en condiciones impecables. Cada mesa, silla y mantel pasa por un proceso de revisión y limpieza antes de ser entregado a tu evento. Trabajamos con materiales resistentes que soportan uso intensivo y lucen elegantes en cualquier celebración."
-        copy2="Ofrecemos la mayor variedad de mobiliario para eventos en la zona: sillas plegables, mesas rectangulares y redondas, manteles en más de 10 colores, y toldos de diferentes tamaños. Además, al ser parte del servicio BRINCOLINS, disfrutas de la misma puntualidad y profesionalismo que nos caracteriza en la renta de inflables."
+        copy1="Nuestro mobiliario para fiestas se mantiene en condiciones impecables. La mesa y las sillas pasan por un proceso de revisión y limpieza antes de ser entregadas a tu evento. Trabajamos con materiales resistentes para el uso de niñas y niños en cualquier celebración."
+        copy2="La mesa infantil y los paquetes publicados están pensados para simplificar la organización de tu fiesta. Además, al ser parte del servicio BRINCOLINS, disfrutas de la misma puntualidad y profesionalismo que nos caracteriza en la renta de inflables."
       />
       <div class="grid-4">
         <div class="why-card">
@@ -175,8 +165,8 @@ const faqs = [
             <span class="why-card__img-label"></span>
           </div>
           <div class="why-card__body">
-            <h3 class="why-card__title">Precios combo con inflables</h3>
-            <p class="why-card__desc">Al rentar mobiliario junto con un inflable te cotizamos todo en un solo paquete con precio cerrado y una sola entrega coordinada.</p>
+            <h3 class="why-card__title">Mesa infantil</h3>
+            <p class="why-card__desc">Mesa de 1.8 × 0.5 m con 10 sillas para niñas y niños de 1 a 6 años.</p>
           </div>
         </div>
         <div class="why-card">
@@ -185,7 +175,7 @@ const faqs = [
           </div>
           <div class="why-card__body">
             <h3 class="why-card__title">Mobiliario impecable</h3>
-            <p class="why-card__desc">Todas las piezas se limpian y revisan antes de cada evento. Recibes mesas firmes, sillas sin daños y manteles planchados.</p>
+            <p class="why-card__desc">Todas las piezas se limpian y revisan antes de cada evento. Recibes una mesa firme y sillas sin daños.</p>
           </div>
         </div>
         <div class="why-card">
@@ -193,8 +183,8 @@ const faqs = [
             <span class="why-card__img-label"></span>
           </div>
           <div class="why-card__body">
-            <h3 class="why-card__title">Variedad de colores</h3>
-            <p class="why-card__desc">Manteles disponibles en más de 10 colores para que combines perfectamente con la temática de tu celebración.</p>
+            <h3 class="why-card__title">Paquete fiesta</h3>
+            <p class="why-card__desc">Jungla o Dragones Rojos, mesa con 10 sillitas y pintacaritas durante 1 hora por $2,800.</p>
           </div>
         </div>
         <div class="why-card">
@@ -202,8 +192,8 @@ const faqs = [
             <span class="why-card__img-label"></span>
           </div>
           <div class="why-card__body">
-            <h3 class="why-card__title">Toldos profesionales</h3>
-            <p class="why-card__desc">Carpas y toldos de diferentes tamaños para proteger tu evento del sol o la lluvia. Instalación incluida en el precio.</p>
+            <h3 class="why-card__title">Paquete fiesta bebés</h3>
+            <p class="why-card__desc">Castillo Baby, mesa con 4 sillitas y pintacaritas para 4 niños por $2,100.</p>
           </div>
         </div>
       </div>
@@ -254,7 +244,7 @@ const faqs = [
           </div>
           <div class="why-card__body">
             <h3 class="why-card__title">Entrega e instalación</h3>
-            <p class="why-card__desc">Llegamos a la hora acordada, acomodamos mesas, sillas y toldos. Al terminar el evento, recogemos todo sin costo extra.</p>
+            <p class="why-card__desc">Llegamos a la hora acordada, acomodamos la mesa y las sillas. Al terminar el evento, recogemos todo según lo acordado.</p>
           </div>
         </div>
       </div>
@@ -269,7 +259,7 @@ const faqs = [
         title="Preguntas sobre renta de mobiliario para fiestas en CDMX"
         subtitle="Todo lo que necesitas saber sobre la renta de mobiliario."
         copy1="Rentar mobiliario para tu fiesta no tiene por qué ser complicado. Aquí respondemos las dudas más frecuentes de nuestros clientes para que tomes la mejor decisión para tu evento."
-        copy2="Recuerda que puedes combinar la renta de mobiliario con nuestros inflables y servicio de iluminación para obtener un paquete integral con precio preferencial. Escríbenos por WhatsApp para más información."
+        copy2="Recuerda que puedes elegir la mesa infantil o uno de los dos paquetes publicados. Escríbenos por WhatsApp para confirmar disponibilidad y traslado."
       />
       <div style="max-width:800px; margin:0 auto;">
         {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
@@ -279,7 +269,7 @@ const faqs = [
 
   <CtaBanner
     title="Completa tu fiesta con el mobiliario perfecto"
-    subtitle="Mesas, sillas, manteles y toldos con entrega a domicilio. Pregunta por nuestros combos con inflable."
+    subtitle="Mesa infantil y paquetes con inflable, mesa y pintacaritas."
     btnText="Cotizar Mobiliario para tu Fiesta"
     btnHref="/cotizar/"
     btnSecondaryText="Ver Catálogo de Inflables"

@@ -9,21 +9,21 @@ import SectionHeader from "@/components/SectionHeader.astro";
 import PricingCards from "@/components/PricingCards.astro";
 
 const title = "Servicio de renta de inflables a domicilio en CDMX";
-const description = "Servicio de renta de inflables en CDMX: entrega, instalación, motor, limpieza y recolección incluidos. Conoce cómo trabajamos y cotiza por WhatsApp.";
+const description = "Servicio de renta de inflables en CDMX: instalación, motor, limpieza y recolección incluidos; traslado según zona. Conoce cómo trabajamos y cotiza por WhatsApp.";
 
 const productos = [
-  { slug: "dragones-rojos", emoji: "", name: "Dragones Rojos", description: "El inflable más rentado en CDMX y Estado de México. Dos dragones gigantes con resbaladilla integrada y mallas de seguridad.", price: "$1,200", size: "4×4×3.8m", ages: "4-10 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
-  { slug: "castillo-princesas", emoji: "", name: "Castillo de Princesas", description: "Castillo inflable rosa y turquesa con dos princesas decorativas y resbaladilla incluida. El favorito para fiestas de niñas.", price: "$1,200", size: "4×4×3.5m", ages: "4-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
-  { slug: "mini-jungla", emoji: "", name: "Mini Jungla", description: "Inflable temático de safari con animales decorativos de 2 metros y palmeras tropicales. Ideal para exploradores y fiestas al aire libre.", price: "$1,300", size: "4.5×4×3.5m", ages: "3-10 años", category: "Aventura", categoryColor: "jungla", gradient: "#2E7D32, #1B5E20", image: "/img/inflables/mini-jungla.avif" },
-  { slug: "gusanitos", emoji: "", name: "Gusanitos", description: "Inflable tropical con gusanitos decorativos y palmeras. Área de salto alargada de 5×3 m con colores vibrantes verde, morado, amarillo y azul.", price: "$1,350", size: "5×3×2.5m", ages: "4-10 años", category: "Tropical", categoryColor: "jungla", gradient: "#558B2F, #827717", image: "/img/inflables/gusanitos.avif" },
-  { slug: "mini-castillo", emoji: "", name: "Mini Castillo", description: "Brincolín compacto diseñado para bebés y niños pequeños. Paredes suaves, fácil supervisión. Perfecto para interiores y espacios reducidos.", price: "$800", size: "2×2×2.5m", ages: "1-4 años", category: "Chico", categoryColor: "castillo", gradient: "#FF3D00, #ff6d3f", image: "/img/inflables/mini-castillo.avif" },
-  { slug: "barco-pirata", emoji: "", name: "Barco Pirata", description: "Épico barco pirata con velas, mástil de 4 metros y tobogán gigante. Capacidad para 8-10 niños simultáneamente.", price: "$1,800", size: "7×5×4.5m", ages: "4+ años", category: "Grande", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
-  { slug: "extremo", emoji: "", name: "Extremo", description: "Circuito de obstáculos de 7 metros con muros para escalar, túneles y tobogán final. Doble carril para carreras simultáneas.", price: "$1,900", size: "7×4×3.8m", ages: "6+ años", category: "Extremo", categoryColor: "extremo", gradient: "#E65100, #BF360C", image: "/img/inflables/extremo.avif" },
-  { slug: "castillo-blanco", emoji: "", name: "Castillo Blanco", description: "El inflable más elegante para bodas, XV años y eventos formales. Torres decorativas de 3 metros en blanco inmaculado.", price: "$1,700", size: "6×5×4m", ages: "3+ años", category: "Bodas", categoryColor: "bodas", gradient: "#7E57C2, #9575CD", image: "/img/inflables/castillo-blanco.avif" },
+  { slug: "dragones-rojos", emoji: "", name: "Dragones Rojos", description: "El inflable más rentado en CDMX y Estado de México. Dos dragones gigantes con resbaladilla integrada y mallas de seguridad.", price: "$1,600", size: "5×3×2.80m", ages: "3-8 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
+  { slug: "castillo-princesas", emoji: "", name: "Castillo de Princesas", description: "Castillo inflable rosa y turquesa con dos princesas decorativas y resbaladilla incluida. El favorito para fiestas de niñas.", price: "$1,800", size: "5×3.30×3m", ages: "2-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
+  { slug: "mini-jungla", emoji: "", name: "Jungla", description: "Inflable temático de safari con animales decorativos de 2 metros y palmeras tropicales. Ideal para exploradores y fiestas al aire libre.", price: "$1,600", size: "5×3×2.50m", ages: "3-8 años", category: "Aventura", categoryColor: "jungla", gradient: "#2E7D32, #1B5E20", image: "/img/inflables/mini-jungla.avif" },
+  { slug: "gusanitos", emoji: "", name: "Gusanitos", description: "Inflable tropical con gusanitos decorativos y palmeras. Área de salto alargada de 5×3 m con colores vibrantes verde, morado, amarillo y azul.", price: "$1,600", size: "5×3×2.80m", ages: "2-8 años", category: "Tropical", categoryColor: "jungla", gradient: "#558B2F, #827717", image: "/img/inflables/gusanitos.avif" },
+  { slug: "mini-castillo", emoji: "", name: "Castillo Baby", description: "Brincolín compacto diseñado para bebés y niños pequeños. Paredes suaves, fácil supervisión. Perfecto para interiores y espacios reducidos.", price: "$1,400", size: "2.5×2×2m", ages: "1-3 años", category: "Chico", categoryColor: "castillo", gradient: "#FF3D00, #ff6d3f", image: "/img/inflables/mini-castillo.avif" },
+  { slug: "barco-pirata", emoji: "", name: "Barco Pirata", description: "Épico barco pirata con velas, mástil de 4 metros y tobogán gigante.", price: "$2,300", size: "6×3.5×3.80m", ages: "3-12 años", category: "Grande", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
+  { slug: "extremo", emoji: "", name: "Extremo", description: "Circuito de obstáculos de 7 metros con muros para escalar, túneles y tobogán final. Doble carril para carreras simultáneas.", price: "$2,500", size: "8×4.5×3.50m", ages: "3-12 años", category: "Extremo", categoryColor: "extremo", gradient: "#E65100, #BF360C", image: "/img/inflables/extremo.avif" },
+  { slug: "castillo-blanco", emoji: "", name: "Castillo Blanco", description: "El inflable más elegante para bodas, XV años y eventos formales. Torres decorativas de 3 metros en blanco inmaculado.", price: "$2,600", size: "5×7×4m", ages: "3-12 años", category: "Bodas", categoryColor: "bodas", gradient: "#7E57C2, #9575CD", image: "/img/inflables/castillo-blanco.avif" },
 ];
 
 const incluye = [
-  { title: "Entrega a domicilio", desc: "En CDMX y Estado de México, sin costo de envío.", icon: '<path d="M3 4a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h.05a2.5 2.5 0 0 1 4.9 0H10a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H3zM14 7a1 1 0 0 0-1 1v5.05a2.5 2.5 0 0 1 4.9.45H18a1 1 0 0 0 1-1v-3.382a1 1 0 0 0-.553-.894l-2-1A1 1 0 0 0 16 7h-2z"/>' },
+  { title: "Entrega a domicilio", desc: "Sin costo adicional solo en zonas específicas; en el resto se confirma el traslado según zona.", icon: '<path d="M3 4a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h.05a2.5 2.5 0 0 1 4.9 0H10a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H3zM14 7a1 1 0 0 0-1 1v5.05a2.5 2.5 0 0 1 4.9.45H18a1 1 0 0 0 1-1v-3.382a1 1 0 0 0-.553-.894l-2-1A1 1 0 0 0 16 7h-2z"/>' },
   { title: "Instalación y recolección", desc: "Montamos en menos de 30 min y recogemos al final.", icon: '<path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 0 1-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 0 1 .947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 0 1 2.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 0 1 2.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 0 1 .947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 0 1-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 0 1-2.287-.947zM10 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" clip-rule="evenodd"/>' },
   { title: "Motor inflador silencioso", desc: "Soplador profesional y extensión eléctrica incluidos.", icon: '<path d="M11.3 1.046A1 1 0 0 1 12 2v5h4a1 1 0 0 1 .82 1.573l-7 10A1 1 0 0 1 8 18v-5H4a1 1 0 0 1-.82-1.573l7-10a1 1 0 0 1 1.12-.38z"/>' },
   { title: "Limpieza documentada", desc: "Sanitización con protocolo propio antes de cada evento.", icon: '<path d="M5 2a1 1 0 0 1 1 1v1h1a1 1 0 0 1 0 2H6v1a1 1 0 0 1-2 0V6H3a1 1 0 0 1 0-2h1V3a1 1 0 0 1 1-1zm0 10a1 1 0 0 1 1 1v1h1a1 1 0 1 1 0 2H6v1a1 1 0 1 1-2 0v-1H3a1 1 0 1 1 0-2h1v-1a1 1 0 0 1 1-1zM12 2a1 1 0 0 1 .967.744L13.92 6.3l3.556.953a1 1 0 0 1 0 1.932L13.92 10.14l-.953 3.555a1 1 0 0 1-1.932 0L10.08 10.14 6.524 9.186a1 1 0 0 1 0-1.932L10.08 6.3l.953-3.556A1 1 0 0 1 12 2z"/>' },
@@ -31,7 +31,7 @@ const incluye = [
 ];
 
 const beneficios = [
-  { img: "/img/why/why-entrega-instalacion-inflables-cdmx.avif", title: "Entrega y recolección a domicilio gratis", desc: "Llevamos y recogemos el inflable en tu domicilio sin costo adicional en toda la CDMX y Estado de México." },
+  { img: "/img/why/why-entrega-instalacion-inflables-cdmx.avif", title: "Entrega y recolección a domicilio", desc: "Llevamos y recogemos el inflable en tu domicilio; el traslado se confirma según zona." },
   { img: "/img/why/why-instalacion-2-horas-inflables-cdmx.avif", title: "Instalación profesional incluida", desc: "Nuestro equipo capacitado instala y asegura el inflable, verificando anclajes y motor antes de retirarse." },
   { img: "/img/why/why-limpieza-inflables-desinfectados.avif", title: "Limpieza y sanitización", desc: "Cada inflable se limpia y desinfecta antes de cada evento con productos seguros para niños." },
 ];
@@ -46,12 +46,12 @@ const proceso = [
 const pricingPackages = [
   {
     name: "Inflable básico",
-    price: "$800",
+    price: "$1,400",
     priceNote: "por evento · 4 a 6 horas",
-    description: "Ideal para fiestas pequeñas con los más chiquitos. Mini castillo para interiores y espacios reducidos.",
+    description: "Ideal para fiestas pequeñas con los más chiquitos. Castillo Baby para interiores y espacios reducidos.",
     features: [
-      { text: "Mini Castillo (1–4 años)", included: true },
-      { text: "Entrega, instalación y recolección", included: true },
+      { text: "Castillo Baby (1–3 años)", included: true },
+      { text: "Instalación y recolección; traslado según zona", included: true },
       { text: "Motor de inflado continuo", included: true },
       { text: "Limpieza y sanitización", included: true },
       { text: "Inflable grande o extremo", included: false },
@@ -63,12 +63,12 @@ const pricingPackages = [
     name: "Inflable clásico",
     badge: "Más popular",
     highlight: true,
-    price: "$1,200",
+    price: "$1,600",
     priceNote: "por evento · 4 a 6 horas",
     description: "El favorito de nuestros clientes. Castillos y temáticos medianos para cumpleaños infantiles.",
     features: [
       { text: "Dragones, Princesas, Jungla o Gusanitos", included: true },
-      { text: "Entrega, instalación y recolección", included: true },
+      { text: "Instalación y recolección; traslado según zona", included: true },
       { text: "Motor de inflado continuo", included: true },
       { text: "Limpieza y sanitización", included: true },
       { text: "Resbaladilla y mallas de seguridad", included: true },
@@ -78,12 +78,12 @@ const pricingPackages = [
   },
   {
     name: "Inflable grande",
-    price: "$1,700",
+    price: "$2,300",
     priceNote: "por evento · 4 a 6 horas",
     description: "Para fiestas grandes con tobogán. Barco Pirata y Castillo Blanco para eventos que impactan.",
     features: [
       { text: "Barco Pirata o Castillo Blanco", included: true },
-      { text: "Entrega, instalación y recolección", included: true },
+      { text: "Instalación y recolección; traslado según zona", included: true },
       { text: "Motor de inflado continuo", included: true },
       { text: "Limpieza y sanitización", included: true },
       { text: "Tobogán gigante integrado", included: true },
@@ -93,12 +93,12 @@ const pricingPackages = [
   },
   {
     name: "Inflable Extremo",
-    price: "$1,900",
+    price: "$2,500",
     priceNote: "por evento · 4 a 6 horas",
     description: "Circuito de obstáculos de 7 m con doble carril. Para adolescentes, adultos y team building.",
     features: [
-      { text: "Circuito Extremo (6+ años)", included: true },
-      { text: "Entrega, instalación y recolección", included: true },
+      { text: "Extremo (3–12 años)", included: true },
+      { text: "Instalación y recolección; traslado según zona", included: true },
       { text: "Motor de inflado continuo", included: true },
       { text: "Limpieza y sanitización", included: true },
       { text: "Doble carril para carreras", included: true },
@@ -110,10 +110,10 @@ const pricingPackages = [
 
 const faqs = [
   { question: "¿Qué incluye la renta de un inflable?", answer: "Cada renta incluye entrega a domicilio, instalación profesional, motor de inflado continuo, limpieza y sanitización previa, y recolección al finalizar tu evento. No hay costos ocultos." },
-  { question: "¿Cuánto cuesta rentar un inflable en CDMX?", answer: "Nuestros precios van desde $800 MXN para el Mini Castillo, de $1,200 a $1,350 MXN para inflables medianos (Dragones, Princesas, Jungla, Gusanitos) y desde $1,700 MXN para grandes como el Castillo Blanco, el Barco Pirata o el Circuito Extremo. Cotiza por WhatsApp para un precio personalizado." },
+  { question: "¿Cuánto cuesta rentar un inflable en CDMX?", answer: "Nuestros precios van desde $1,400 MXN para el Castillo Baby, de $1,600 a $1,800 MXN para inflables medianos (Dragones, Princesas, Jungla, Gusanitos) y de $2,300 a $2,600 MXN para grandes como el Castillo Blanco, el Barco Pirata o Extremo. Cotiza por WhatsApp para un precio personalizado." },
   { question: "¿Cuál es el área de cobertura para la entrega?", answer: "Cubrimos toda la Ciudad de México y zona metropolitana, incluyendo Naucalpan, Tlalnepantla, Ecatepec, Coacalco, Nezahualcóyotl y Huixquilucan. Para zonas alejadas puede aplicar un cargo adicional por traslado." },
   { question: "¿Con cuánta anticipación debo reservar?", answer: "Recomendamos reservar con al menos 5 días de anticipación, especialmente en temporada alta. Para fines de semana, te sugerimos apartar con 2 semanas de anticipación para garantizar disponibilidad del modelo que deseas." },
-  { question: "¿Qué espacio necesito para instalar el inflable?", answer: "Depende del modelo: el Mini Castillo necesita ~3×3 m (con 2.5 m de altura libre), Dragones Rojos y Castillo de Princesas ~5×5 m, la Mini Jungla ~6×5 m, Gusanitos ~6×4 m, el Castillo Blanco ~7×6 m, el Barco Pirata ~8×6 m y el Circuito Extremo al menos 8×5 m. Si tienes dudas, mándanos una foto de tu espacio por WhatsApp y te orientamos." },
+  { question: "¿Qué espacio necesito para instalar el inflable?", answer: "El espacio mínimo se confirma al cotizar según el modelo y el lugar. Mándanos una foto de tu espacio por WhatsApp y te orientamos sobre viabilidad, tipo de piso y altura libre." },
 ];
 ---
 
@@ -140,11 +140,11 @@ const faqs = [
         <div>
           <span class="hero__badge">Servicio principal</span>
           <h1 class="hero__title">Servicio de renta de <span class="highlight">inflables</span>: entrega e instalación en CDMX</h1>
-          <p class="hero__desc">Haz de tu fiesta un evento inolvidable con nuestros inflables profesionales. Servicio completo con entrega, instalación, motor, sanitización y recolección en toda la Ciudad de México y Estado de México.</p>
+          <p class="hero__desc">Haz de tu fiesta un evento inolvidable con nuestros inflables profesionales. Servicio completo con instalación, motor, sanitización y recolección; traslado según zona en la Ciudad de México y Estado de México.</p>
         </div>
         <div class="hero__copy">
           <p class="hero__copy-text">En <strong>BRINCOLINS</strong> ofrecemos el servicio más completo de renta de inflables en la Ciudad de México. Cada renta incluye transporte de ida y vuelta, instalación profesional, motor de inflado continuo, limpieza y sanitización para que tu fiesta sea 100% segura.</p>
-          <p class="hero__copy-text">Contamos con 8 modelos para todas las edades: desde el <strong>Mini Castillo</strong> para los más pequeños hasta el <strong>Circuito Extremo</strong> para adolescentes y adultos. Cubrimos toda la CDMX y zona metropolitana con horarios flexibles y precios desde $800 MXN.</p>
+          <p class="hero__copy-text">Contamos con 8 modelos para distintas edades: desde el <strong>Castillo Baby</strong> para los más pequeños hasta <strong>Extremo</strong> para niños de 3 a 12 años. Cubrimos toda la CDMX y zona metropolitana con horarios flexibles y precios desde $1,400 MXN.</p>
         </div>
       </div>
     </div>
@@ -158,7 +158,7 @@ const faqs = [
       <SectionHeader
         badge="Catálogo"
         title="Inflables disponibles para renta en CDMX"
-        subtitle="Elige tu favorito. Todos incluyen entrega, instalación y recolección."
+        subtitle="Elige tu favorito. Todos incluyen instalación y recolección; traslado según zona."
         copy1="Contamos con la mayor variedad de brincolines e inflables para renta en CDMX y Estado de México: castillos temáticos, barcos pirata con tobogán, circuitos de obstáculos y el elegante Castillo Blanco para bodas y XV años."
         copy2="Cada inflable está fabricado con materiales de grado comercial y pasa por un riguroso proceso de limpieza antes de cada evento. Toca cualquier modelo para ver detalles, dimensiones y edades recomendadas."
       />
@@ -204,7 +204,7 @@ const faqs = [
         badge="Precios"
         title="Precios de renta de inflables en CDMX"
         subtitle="Opciones para cada presupuesto. Todo incluido."
-        copy1="Nuestros precios incluyen entrega, instalación, motor de inflado, limpieza, sanitización y recolección. No hay costos ocultos ni sorpresas al momento de pagar."
+        copy1="Nuestros precios incluyen instalación, motor de inflado, limpieza, sanitización y recolección; el traslado se confirma según zona. No hay costos ocultos ni sorpresas al momento de pagar."
         copy2="El precio final puede variar según la distancia de entrega y la duración del evento. Cotiza por WhatsApp para recibir una propuesta personalizada según las necesidades de tu fiesta."
       />
       <PricingCards packages={pricingPackages} />

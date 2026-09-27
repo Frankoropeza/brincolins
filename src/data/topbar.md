@@ -6,6 +6,6 @@ whatsapp: "525531281706"
 waMessage: "Hola BRINCOLINS, quiero cotizar un inflable para mi fiesta."
 email: ""
 schedule: "Lun–Dom 8:00–20:00"
-delivery: "Entrega e instalación incluida"
+delivery: "Entrega e instalación según zona"
 style: "dark"
 ---

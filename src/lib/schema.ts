@@ -30,7 +30,7 @@ export interface ProductSchemaInput {
   name:        string;
   description: string;
   image:       string;          // ruta relativa, ej. "/img/inflables/extremo.avif"
-  price:       string | number; // acepta "$1,900", "1900" o 1900
+  price:       string | number; // acepta "$2,500", "2500" o 2500
   canonical:   string;
 }
 
@@ -90,7 +90,7 @@ export function buildLocalBusinessSchema() {
     "description": "Empresa líder en renta de inflables y brincolines para fiestas infantiles en CDMX y Estado de México. Más de 20 años de experiencia, entrega e instalación incluida.",
     "telephone": PHONE_TEL,
     "email": EMAIL,
-    "priceRange": "$800 - $1,900",
+    "priceRange": "$1400-$2600",
     "currenciesAccepted": "MXN",
     "paymentAccepted": "Transferencia, Tarjeta, Efectivo",
     /* Un solo horario, alineado con lo visible. Antes el schema declaraba

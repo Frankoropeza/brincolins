@@ -65,7 +65,7 @@ export const FAQ_UNIVERSAL: Faq[] = [
   {
     tag: "Precio",
     question: "¿Cuánto cuesta un inflable para fiestas?",           // PAA
-    answer: `Un inflable para fiesta cuesta de ${PRICE_RANGE} MXN por evento en CDMX y Estado de México. Los chicos para bebés de 1 a 4 años son $800; los medianos —Dragones Rojos, Castillo de Princesas, Mini Jungla y Gusanitos— van de $1,200 a $1,350; y los grandes con tobogán o circuito de obstáculos, de $1,700 a $1,900. El precio es por el evento completo e incluye entrega, instalación, motor, sanitización y recolección.`,
+    answer: `Un inflable para fiesta cuesta de ${PRICE_RANGE} MXN por evento en CDMX y Estado de México. El Castillo Baby para bebés de 1 a 3 años cuesta $1,400; Dragones Rojos, Jungla y Gusanitos cuestan $1,600; Castillo de Princesas cuesta $1,800; y los modelos grandes, de $2,300 a $2,600. El precio es por el evento completo e incluye entrega, instalación, motor, sanitización y recolección.`,
   },
   {
     tag: "Requisitos",
@@ -75,17 +75,17 @@ export const FAQ_UNIVERSAL: Faq[] = [
   {
     tag: "Precio",
     question: "¿Cuánto cuesta rentar un brincolín grande?",          // PAA
-    answer: "Los tres modelos grandes cuestan entre $1,700 y $1,900 MXN por evento: Castillo Blanco $1,700 (6×5 m, para bodas y XV años), Barco Pirata $1,800 (7×5 m, con tobogán) y Circuito Extremo $1,900 (7×4 m, obstáculos para niños grandes y adultos). Necesitan entre 8×7 y 9×7 metros de espacio libre, así que conviene medir el área antes de elegir.",
+    answer: "Los tres modelos grandes cuestan entre $2,300 y $2,600 MXN por evento: Castillo Blanco $2,600 (5×7 m, para bodas y XV años), Barco Pirata $2,300 (6×3.5 m, con tobogán) y Circuito Extremo $2,500 (8×4.5 m, obstáculos para niños grandes y adultos). El espacio se confirma al cotizar, así que conviene medir el área antes de elegir.",
   },
   {
     tag: "Espacio",
     question: "¿Qué pasa si el inflable que quiero no cabe en mi espacio?",
-    answer: "Te proponemos el modelo más cercano que sí entre, y no cobramos nada por ese cambio. El área libre que pedimos ya incluye un metro de margen por lado: 3×3 m para el Mini Castillo, unos 6×6 m para los medianos y hasta 9×7 m para el Barco Pirata. Si tienes dudas, mándanos una foto del espacio con una medida aproximada por WhatsApp y te confirmamos antes de que apartes la fecha.",
+    answer: "Te proponemos el modelo más cercano que sí entre, y no cobramos nada por ese cambio. El espacio libre de cada modelo se confirma al cotizar. Si tienes dudas, mándanos una foto del espacio con una medida aproximada por WhatsApp y te confirmamos antes de que apartes la fecha.",
   },
   {
     tag: "Precio",
     question: "¿Cuánto cuesta rentar un inflable en México?",        // PAA
-    answer: `El precio varía mucho por ciudad y por proveedor. En la Zona Metropolitana del Valle de México el rango habitual va de $800 a $2,500 MXN por evento según el tamaño. Nuestro catálogo va de ${PRICE_RANGE} MXN con todo incluido. Desconfía de precios muy por debajo del rango: casi siempre significa que la entrega, el motor o la instalación se cobran aparte.`,
+    answer: `El precio varía mucho por ciudad y por proveedor. En la Zona Metropolitana del Valle de México el rango depende del tamaño y del proveedor. Nuestro catálogo va de ${PRICE_RANGE} MXN con todo incluido. Desconfía de precios muy por debajo del rango: casi siempre significa que la entrega, el motor o la instalación se cobran aparte.`,
   },
   {
     tag: "Instalación",
@@ -100,7 +100,7 @@ export const FAQ_UNIVERSAL: Faq[] = [
   {
     tag: "Instalación",
     question: "¿Se puede instalar un inflable en pasto, cemento o dentro de un salón?",
-    answer: "Instalamos sobre pasto, tierra firme, concreto, adoquín y pisos de salón. En superficies duras anclamos con pesos y en pasto o tierra con estacas. No instalamos sobre grava suelta, pendientes pronunciadas ni superficies con vidrio u objetos punzantes. Para interiores, el Mini Castillo y Gusanitos son los dos modelos que caben bajo techo.",
+    answer: "Instalamos sobre pasto, tierra firme, concreto, adoquín y pisos de salón. En superficies duras anclamos con pesos y en pasto o tierra con estacas. No instalamos sobre grava suelta, pendientes pronunciadas ni superficies con vidrio u objetos punzantes. Para interiores, el Castillo Baby y Gusanitos son los dos modelos que caben bajo techo.",
   },
   {
     tag: "Seguridad",
@@ -156,19 +156,20 @@ export const FAQ_UNIVERSAL: Faq[] = [
     zona en la pregunta. */
 function faqsZona(zona: string, envio?: string): Faq[] {
   const conCargo = Boolean(envio && envio.trim());
+  const monto = envio && /\d/.test(envio) ? ` de ${envio}` : "";   // "Según zona" no lleva importe
   return [
     {
       tag: "Cobertura",
       question: `¿Entregan inflables en ${zona}?`,
       answer: conCargo
-        ? `Sí, entregamos en ${zona} con nuestro servicio a domicilio: llevamos el inflable, lo instalamos y lo recogemos al terminar. En esta zona aplica un cargo de envío de ${envio} según la colonia, que te confirmamos al cotizar junto con el precio del modelo. Los ${MODELOS_COUNT} inflables del catálogo están disponibles.`
+        ? `Sí, entregamos en ${zona} con nuestro servicio a domicilio: llevamos el inflable, lo instalamos y lo recogemos al terminar. En esta zona aplica un cargo de envío${monto} según la colonia, que te confirmamos al cotizar junto con el precio del modelo. Los ${MODELOS_COUNT} inflables del catálogo están disponibles.`
         : `Sí, y en ${zona} la entrega va incluida en el precio del inflable: no se cobra envío. Llevamos el inflable, lo instalamos, lo sanitizamos antes del evento y lo recogemos al terminar. Los ${MODELOS_COUNT} modelos del catálogo están disponibles en esta zona.`,
     },
     {
       tag: "Precio",
       question: `¿Cuánto cuesta rentar un inflable en ${zona}?`,
       answer: conCargo
-        ? `De ${PRICE_RANGE} MXN por evento según el modelo, más el cargo de envío de ${envio} que aplica en ${zona}. Ese es el precio total: entrega, instalación, motor inflador, sanitización y recolección van incluidos. Si necesitas factura se agrega el 16% de IVA.`
+        ? `De ${PRICE_RANGE} MXN por evento según el modelo, más el cargo de envío${monto} que aplica en ${zona}. Ese es el precio total: entrega, instalación, motor inflador, sanitización y recolección van incluidos. Si necesitas factura se agrega el 16% de IVA.`
         : `De ${PRICE_RANGE} MXN por evento según el modelo, sin cargo de envío en ${zona}. Ese precio ya incluye entrega, instalación, motor inflador, sanitización y recolección. Si necesitas factura se agrega el 16% de IVA.`,
     },
     {
@@ -347,7 +348,7 @@ function faqsDirectorio(salon?: string, zona?: string): Faq[] {
     {
       tag: "Salones",
       question: `¿Puedo llevar un inflable a ${salon ? salon : "un salón de fiestas"}?`,
-      answer: `Casi siempre sí, pero hay que confirmar dos cosas con ${salon ? "el salón" : "el salón"}: que permita inflables y cuánto espacio libre y altura hay disponibles. Nuestro Mini Castillo necesita 3×3 m y Gusanitos 7×5 m — son los dos modelos que caben bajo techo. Si el salón es al aire libre, entra cualquiera del catálogo. Consúltalo antes de apartar la fecha del inflable.`,
+      answer: `Casi siempre sí, pero hay que confirmar dos cosas con ${salon ? "el salón" : "el salón"}: que permita inflables y cuánto espacio libre y altura hay disponibles. El espacio de Castillo Baby y Gusanitos se confirma al cotizar — son los dos modelos que caben bajo techo. Si el salón es al aire libre, entra cualquiera del catálogo. Consúltalo antes de apartar la fecha del inflable.`,
     },
     {
       tag: "Salones",
