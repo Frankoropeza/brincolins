@@ -81,8 +81,12 @@ const topeDe   = (z: CoverageZone) => Number(((z.shippingFee ?? "").split("–")
 const zonasReales = COVERAGE_ZONES.filter(z => z.slug !== "cdmx" && z.slug !== "edomex");
 const sinCargo    = zonasReales.filter(z => !(z.shippingFee ?? "").trim());
 const conCargo    = zonasReales.filter(z =>  (z.shippingFee ?? "").trim());
-const cargoBajo   = conCargo.filter(z => topeDe(z) <= 250);
-const cargoAlto   = conCargo.filter(z => topeDe(z) >  250);
+const conMonto    = conCargo.filter(z => /\d/.test(z.shippingFee ?? ""));
+const segunZona   = conCargo.filter(z => !/\d/.test(z.shippingFee ?? ""));
+const cargoBajo   = conMonto.filter(z => topeDe(z) <= 250);
+const cargoAlto   = conMonto.filter(z => topeDe(z) >  250);
+/* SSoT v2: zonas sin costo adicional (texto fijo del Excel de Frank, 2026-09-27). */
+const ZONAS_SIN_COSTO = "Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco";
 const rangoDe = (zs: CoverageZone[]) =>
   `$${Math.min(...zs.map(pisoDe))}–$${Math.max(...zs.map(topeDe))} MXN`;
 const listaDe = (zs: CoverageZone[]) => zs.map(nombreDe).join(", ");
@@ -90,7 +94,7 @@ const listaDe = (zs: CoverageZone[]) => zs.map(nombreDe).join(", ");
 const faqs = [
   {
     question: "¿El costo de entrega está incluido en el precio del inflable?",
-    answer: `En ${sinCargo.length} de nuestras ${zonasReales.length} zonas sí: ${listaDe(sinCargo)}. Las demás tienen un cargo por distancia desde nuestro almacén, que va de $100 en Iztapalapa o Xochimilco a $600 en Toluca y Metepec. El importe exacto está publicado en la página de cada zona y te lo confirmamos al cotizar, antes de que apartes la fecha.`,
+    answer: `La entrega no tiene costo adicional en ${ZONAS_SIN_COSTO}. En el resto de la CDMX y del Estado de México hay un cargo de traslado según la colonia: donde ya está publicado va de $100 (Iztapalapa y Xochimilco fuera de las zonas sin costo) a $600 (Toluca y Metepec), y en las demás alcaldías te lo confirmamos al cotizar, antes de que apartes la fecha.`,
   },
   {
     question: "¿Cuánto tiempo tardan en llegar a mi evento?",
@@ -264,8 +268,8 @@ const schemaLD = {
       <SectionHeader
         badge="Costos de envío"
         title="¿Cuánto cuesta la entrega?"
-        subtitle="Entrega incluida en las zonas céntricas. Cargo por distancia en las alejadas y en el Edomex."
-        copy1={`En ${sinCargo.length} de nuestras ${zonasReales.length} zonas la entrega va incluida en el precio del inflable y no cobramos flete. En las otras ${conCargo.length} sí hay un cargo por distancia: cubre el traslado de ida y vuelta del vehículo con el inflable y el equipo de instalación.`}
+        subtitle="Sin costo adicional en zonas seleccionadas de la CDMX. En el resto, cargo de traslado según la colonia."
+        copy1={`La entrega no tiene costo adicional en ${ZONAS_SIN_COSTO}. En las demás zonas hay un cargo por distancia: cubre el traslado de ida y vuelta del vehículo con el inflable y el equipo de instalación.`}
         copy2="El importe está publicado en la página de cada zona y te lo confirmamos al cotizar por WhatsApp, antes de que apartes la fecha. Es el único concepto que se suma al precio del inflable: instalación, motor inflador y retiro van incluidos."
       />
 
@@ -274,7 +278,7 @@ const schemaLD = {
           <div class="envio-card__icon" style="background:linear-gradient(135deg,#00C853,#2E7D32);"></div>
           <h3 class="envio-card__title">Zona A — Sin cargo</h3>
           <p class="envio-card__precio">$0 MXN</p>
-          <p class="envio-card__desc">{listaDe(sinCargo)}.</p>
+          <p class="envio-card__desc">{ZONAS_SIN_COSTO}.</p>
         </div>
         <div class="envio-card">
           <div class="envio-card__icon" style="background:linear-gradient(135deg,#FF6F00,#E65100);"></div>
@@ -291,7 +295,7 @@ const schemaLD = {
       </div>
 
       <p style="text-align:center; margin-top:2rem; color:var(--c-text-muted); font-size:.9rem;">
-        * Dentro de cada zona el importe varía según la colonia. El costo exacto se confirma al cotizar con tu dirección.
+        * Dentro de cada zona el importe varía según la colonia. En {listaDe(segunZona)} el costo de traslado se confirma al cotizar con tu dirección.
       </p>
     </div>
   </section>

@@ -156,19 +156,20 @@ export const FAQ_UNIVERSAL: Faq[] = [
     zona en la pregunta. */
 function faqsZona(zona: string, envio?: string): Faq[] {
   const conCargo = Boolean(envio && envio.trim());
+  const monto = envio && /\d/.test(envio) ? ` de ${envio}` : "";   // "Según zona" no lleva importe
   return [
     {
       tag: "Cobertura",
       question: `¿Entregan inflables en ${zona}?`,
       answer: conCargo
-        ? `Sí, entregamos en ${zona} con nuestro servicio a domicilio: llevamos el inflable, lo instalamos y lo recogemos al terminar. En esta zona aplica un cargo de envío de ${envio} según la colonia, que te confirmamos al cotizar junto con el precio del modelo. Los ${MODELOS_COUNT} inflables del catálogo están disponibles.`
+        ? `Sí, entregamos en ${zona} con nuestro servicio a domicilio: llevamos el inflable, lo instalamos y lo recogemos al terminar. En esta zona aplica un cargo de envío${monto} según la colonia, que te confirmamos al cotizar junto con el precio del modelo. Los ${MODELOS_COUNT} inflables del catálogo están disponibles.`
         : `Sí, y en ${zona} la entrega va incluida en el precio del inflable: no se cobra envío. Llevamos el inflable, lo instalamos, lo sanitizamos antes del evento y lo recogemos al terminar. Los ${MODELOS_COUNT} modelos del catálogo están disponibles en esta zona.`,
     },
     {
       tag: "Precio",
       question: `¿Cuánto cuesta rentar un inflable en ${zona}?`,
       answer: conCargo
-        ? `De ${PRICE_RANGE} MXN por evento según el modelo, más el cargo de envío de ${envio} que aplica en ${zona}. Ese es el precio total: entrega, instalación, motor inflador, sanitización y recolección van incluidos. Si necesitas factura se agrega el 16% de IVA.`
+        ? `De ${PRICE_RANGE} MXN por evento según el modelo, más el cargo de envío${monto} que aplica en ${zona}. Ese es el precio total: entrega, instalación, motor inflador, sanitización y recolección van incluidos. Si necesitas factura se agrega el 16% de IVA.`
         : `De ${PRICE_RANGE} MXN por evento según el modelo, sin cargo de envío en ${zona}. Ese precio ya incluye entrega, instalación, motor inflador, sanitización y recolección. Si necesitas factura se agrega el 16% de IVA.`,
     },
     {

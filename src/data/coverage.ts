@@ -26,6 +26,9 @@ export interface CoverageZone {
       Si falta, se usa `zone` tal cual. */
   zonePhrase?:       string;
   /** Cargo de envío REAL de la zona. Ausente o vacío = envío incluido en el precio.
+      "Según zona" (sin cifras) = hay cargo, pero el importe se confirma al cotizar (SSoT v2, 2026-09-27:
+      solo Roma, Polanco, Narvarte, Doctores, Sta. María la Ribera, Reforma y algunas zonas de
+      Iztapalapa y Xochimilco son sin costo).
       Es la única fuente del importe: hero, tarjeta de envío y FAQ citan este mismo
       rango. Antes la tarjeta decía "GRATIS" en 18 zonas donde el propio FAQ cobraba
       $100-$600, y en 6 de ellas el hero y el FAQ ni siquiera coincidían entre sí. */
@@ -59,6 +62,7 @@ export interface CoverageZone {
 export const COVERAGE_ZONES: CoverageZone[] = [
   {
     slug:              "alvaro-obregon",
+    shippingFee:       "Según zona",
     areaType:          "AdministrativeArea",
     areaName:          "Álvaro Obregón",
     areaParent:        "Ciudad de México",
@@ -142,6 +146,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   },
   {
     slug:              "azcapotzalco",
+    shippingFee:       "Según zona",
     areaType:          "AdministrativeArea",
     areaName:          "Azcapotzalco",
     areaParent:        "Ciudad de México",
@@ -183,6 +188,8 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   },
   {
     slug:              "benito-juarez",
+    shippingFee:       "Según zona",
+    shippingNote:      "Sin costo adicional en la Narvarte. En el resto de la alcaldía el costo de traslado depende de la colonia y te lo confirmamos al cotizar. Instalación y retiro van incluidos en el precio del inflable.",
     areaType:          "AdministrativeArea",
     areaName:          "Benito Juárez",
     areaParent:        "Ciudad de México",
@@ -225,7 +232,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   {
     slug:              "cdmx",
     shippingFee:       "$100–$300",
-    shippingNote:      "Depende de la alcaldía: en 12 de las 16 el envío va incluido en el precio y no se cobra flete. Las cuatro más alejadas sí tienen cargo — Iztapalapa y Xochimilco de $100 a $150, Tláhuac de $100 a $200 y Milpa Alta de $200 a $300.",
+    shippingNote:      "Sin costo adicional en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco. En el resto de la CDMX el costo de traslado depende de la colonia: en Iztapalapa y Xochimilco va de $100 a $150, en Tláhuac de $100 a $200 y en Milpa Alta de $200 a $300; en las demás alcaldías te lo confirmamos al cotizar.",
     areaType:          "State",
     areaName:          "Ciudad de México",
     zone:              "CDMX",
@@ -360,6 +367,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   },
   {
     slug:              "coyoacan",
+    shippingFee:       "Según zona",
     areaType:          "AdministrativeArea",
     areaName:          "Coyoacán",
     areaParent:        "Ciudad de México",
@@ -401,6 +409,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   },
   {
     slug:              "cuajimalpa",
+    shippingFee:       "Según zona",
     areaType:          "AdministrativeArea",
     areaName:          "Cuajimalpa de Morelos",
     areaParent:        "Ciudad de México",
@@ -442,6 +451,8 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   },
   {
     slug:              "cuauhtemoc",
+    shippingFee:       "Según zona",
+    shippingNote:      "Sin costo adicional en Roma, Doctores, Santa María la Ribera y Reforma. En el resto de la alcaldía el costo de traslado depende de la colonia y te lo confirmamos al cotizar. Instalación y retiro van incluidos en el precio del inflable.",
     areaType:          "AdministrativeArea",
     areaName:          "Cuauhtémoc",
     areaParent:        "Ciudad de México",
@@ -568,7 +579,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   {
     slug:              "edomex",
     shippingFee:       "$150–$600",
-    shippingNote:      "Depende del municipio: Naucalpan es el único sin cargo. Tlalnepantla y Huixquilucan van de $150 a $250; Atizapán, Coacalco, Neza y Tultitlán de $200 a $300; Ecatepec de $200 a $350; Chalco, Izcalli, Nicolás Romero, Tecámac y Texcoco de $250 a $400; Toluca y Metepec de $400 a $600.",
+    shippingNote:      "Depende del municipio: Naucalpan se cotiza según la colonia. Tlalnepantla y Huixquilucan van de $150 a $250; Atizapán, Coacalco, Neza y Tultitlán de $200 a $300; Ecatepec de $200 a $350; Chalco, Izcalli, Nicolás Romero, Tecámac y Texcoco de $250 a $400; Toluca y Metepec de $400 a $600.",
     areaType:          "State",
     areaName:          "Estado de México",
     zone:              "Estado de México",
@@ -617,6 +628,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   },
   {
     slug:              "gustavo-a-madero",
+    shippingFee:       "Según zona",
     areaType:          "AdministrativeArea",
     areaName:          "Gustavo A. Madero",
     areaParent:        "Ciudad de México",
@@ -700,6 +712,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   },
   {
     slug:              "iztacalco",
+    shippingFee:       "Según zona",
     areaType:          "AdministrativeArea",
     areaName:          "Iztacalco",
     areaParent:        "Ciudad de México",
@@ -742,6 +755,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   {
     slug:              "iztapalapa",
     shippingFee:       "$100–$150",
+    shippingNote:      "Sin costo adicional en algunas zonas de Iztapalapa; en el resto de la alcaldía el cargo de envío va de $100 a $150 según la colonia. Te lo confirmamos al cotizar. Instalación y retiro van incluidos en el precio del inflable.",
     areaType:          "AdministrativeArea",
     areaName:          "Iztapalapa",
     areaParent:        "Ciudad de México",
@@ -783,6 +797,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   },
   {
     slug:              "magdalena-contreras",
+    shippingFee:       "Según zona",
     areaType:          "AdministrativeArea",
     areaName:          "La Magdalena Contreras",
     areaParent:        "Ciudad de México",
@@ -866,6 +881,8 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   },
   {
     slug:              "miguel-hidalgo",
+    shippingFee:       "Según zona",
+    shippingNote:      "Sin costo adicional en Polanco. En el resto de la alcaldía el costo de traslado depende de la colonia y te lo confirmamos al cotizar. Instalación y retiro van incluidos en el precio del inflable.",
     areaType:          "AdministrativeArea",
     areaName:          "Miguel Hidalgo",
     areaParent:        "Ciudad de México",
@@ -949,6 +966,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   },
   {
     slug:              "naucalpan",
+    shippingFee:       "Según zona",
     areaType:          "City",
     areaName:          "Naucalpan de Juárez",
     areaParent:        "Estado de México",
@@ -1287,9 +1305,10 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   },
   {
     slug:              "tlalpan",
+    shippingFee:       "Según zona",
     areaType:          "AdministrativeArea",
     areaName:          "Tlalpan",
-    shippingNote:      "Envío incluido en toda la alcaldía Tlalpan: Centro, Pedregal, Villa Coapa, Héroes de Padierna y Ajusco. Las alcaldías vecinas del sur tienen su propio cargo — Xochimilco $100–$150, Tláhuac $100–$200 y Milpa Alta $200–$300.",
+    shippingNote:      "Atendemos toda la alcaldía Tlalpan: Centro, Pedregal, Villa Coapa, Héroes de Padierna y Ajusco. El costo de traslado depende de la colonia y te lo confirmamos al cotizar. Las alcaldías vecinas del sur tienen su propio cargo — Xochimilco $100–$150, Tláhuac $100–$200 y Milpa Alta $200–$300.",
     areaParent:        "Ciudad de México",
     zone:              "Tlalpan y Sur CDMX",
     title:             "Renta de inflables a domicilio en Tlalpan y Sur, CDMX",
@@ -1413,6 +1432,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   },
   {
     slug:              "venustiano-carranza",
+    shippingFee:       "Según zona",
     areaType:          "AdministrativeArea",
     areaName:          "Venustiano Carranza",
     areaParent:        "Ciudad de México",
@@ -1455,6 +1475,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   {
     slug:              "xochimilco",
     shippingFee:       "$100–$150",
+    shippingNote:      "Sin costo adicional en algunas zonas de Xochimilco; en el resto de la alcaldía el cargo de envío va de $100 a $150 según la colonia. Te lo confirmamos al cotizar. Instalación y retiro van incluidos en el precio del inflable.",
     areaType:          "AdministrativeArea",
     areaName:          "Xochimilco",
     areaParent:        "Ciudad de México",
