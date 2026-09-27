@@ -11,7 +11,7 @@ import { COVERAGE_ZONES } from "@/data/coverage";
 import type { CoverageZone } from "@/data/coverage";
 
 const title = "Renta de Inflables a Domicilio en CDMX y Estado de México";
-const description = "Inflables con entrega en las 16 alcaldías de CDMX y 15 municipios del Edomex. Envío incluido en 13 zonas y cargo por distancia en el resto.";
+const description = "Inflables con entrega en las 16 alcaldías de CDMX y 15 municipios del Edomex. Traslado sin costo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco; en el resto, según zona.";
 
 const WA = WHATSAPP;
 const waBase = `https://wa.me/${WA}?text=`;
@@ -128,7 +128,7 @@ const schemaLD = {
     "name":  nombreDe(z),...(z.areaParent ? { "containedInPlace": { "@type": "State", "name": z.areaParent } } : {}),
   })),
   "serviceType": "Renta de inflables para fiestas a domicilio",
-  "description": "Entregamos e instalamos inflables en las 16 alcaldías de CDMX y 15 municipios del Estado de México. Envío incluido en las alcaldías centrales y en Naucalpan; en el resto aplica un cargo por distancia de $100 a $600.",
+  "description": "Entregamos e instalamos inflables en las 16 alcaldías de CDMX y 15 municipios del Estado de México. Traslado sin costo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco; en el resto de CDMX y del Estado de México el costo de traslado depende de la zona y se confirma al cotizar.",
 };
 ---
 
@@ -194,13 +194,13 @@ const schemaLD = {
         <a href="/cobertura/cdmx/" class="hub-card">
           <span class="hub-card__badge">16 alcaldías</span>
           <h3 class="hub-card__title">Ciudad de México</h3>
-          <p class="hub-card__desc">Envío incluido en 12 alcaldías. En Iztapalapa, Xochimilco, Tláhuac y Milpa Alta el cargo por distancia va de $100 a $300.</p>
+          <p class="hub-card__desc">Traslado sin costo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco. En el resto de las alcaldías el cargo depende de la colonia: de $100 a $300 en Iztapalapa, Xochimilco, Tláhuac y Milpa Alta; en las demás se confirma al cotizar.</p>
           <span class="hub-card__cta">Ver cobertura en CDMX →</span>
         </a>
         <a href="/cobertura/edomex/" class="hub-card">
           <span class="hub-card__badge">15 municipios</span>
           <h3 class="hub-card__title">Estado de México</h3>
-          <p class="hub-card__desc">Naucalpan sin cargo de envío. El resto va de $150 en Tlalnepantla y Huixquilucan a $600 en Toluca y Metepec.</p>
+          <p class="hub-card__desc">Traslado con costo según zona en los 15 municipios: Naucalpan se cotiza según la colonia; el resto va de $150 en Tlalnepantla y Huixquilucan a $600 en Toluca y Metepec.</p>
           <span class="hub-card__cta">Ver cobertura en Edomex →</span>
         </a>
       </div>

@@ -265,7 +265,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { name: "Tlalpan", href: "/cobertura/tlalpan/", note: "Traslado según colonia · Tlalpan Centro, Pedregal, Villa Coapa, Ajusco" },
     { name: "Venustiano Carranza", href: "/cobertura/venustiano-carranza/", note: "Traslado según colonia · Jardín Balbuena, Moctezuma, Merced" },
     { name: "Xochimilco", href: "/cobertura/xochimilco/", note: "Envío $100–$150 · Xochimilco Centro, San Gregorio, Tulyehualco" },
-    { name: "Polanco, Lomas y Santa Fe", href: "/cobertura/polanco/", note: "Envío incluido · página de la zona poniente, con Bosques de las Lomas" },
+    { name: "Polanco, Lomas y Santa Fe", href: "/cobertura/polanco/", note: "Sin costo en Polanco; Lomas y Santa Fe según zona · página de la zona poniente, con Bosques de las Lomas" },
   ],
     faqs:              [
     { question: "¿En qué alcaldías de la Ciudad de México entregan inflables?", answer: "En las 16: Álvaro Obregón, Azcapotzalco, Benito Juárez, Coyoacán, Cuajimalpa, Cuauhtémoc, Gustavo A. Madero, Iztacalco, Iztapalapa, La Magdalena Contreras, Miguel Hidalgo, Milpa Alta, Tláhuac, Tlalpan, Venustiano Carranza y Xochimilco. Cada una tiene su página con las colonias que cubrimos, el cargo de envío y los modelos que mejor funcionan en la zona." },
@@ -1092,6 +1092,8 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   },
   {
     slug:              "polanco",
+    shippingFee:       "Según zona",
+    shippingNote:      "Sin costo adicional en Polanco. En Lomas y Santa Fe el costo de traslado depende de la colonia y te lo confirmamos al cotizar. Instalación y retiro van incluidos en el precio del inflable.",
     areaType:          "Place",
     areaName:          "Polanco",
     areaParent:        "Ciudad de México",

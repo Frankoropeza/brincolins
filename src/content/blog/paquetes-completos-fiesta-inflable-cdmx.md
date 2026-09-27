@@ -14,13 +14,13 @@ galleryImages:
   - "/img/blog/paquetes-completos-fiesta-inflable-cdmx/img4.avif"
 intro:
   - "Los **paquetes de fiesta con inflable en CDMX** combinan brincolín, mobiliario y pintacaritas. En **BRINCOLINS** contamos con el Paquete fiesta de **$2,800 MXN** y el Paquete fiesta bebés de **$2,100 MXN** para familias de la **Ciudad de México y Estado de México**."
-  - "En esta guía comparamos los 3 niveles de **paquetes para fiesta infantil** más comunes en la ZMVM: básico, intermedio y premium. Incluimos tabla de precios, qué debe incluir cada nivel, errores comunes al contratar y estrategias para ahorrar. Si ya sabes cuántos invitados tendrás, escríbenos por **WhatsApp** y te enviamos una cotización a la medida en minutos."
+  - "En esta guía explicamos los 2 **paquetes para fiesta infantil** de BRINCOLINS (Paquete fiesta $2,800 y Paquete fiesta bebés $2,100) y cuándo conviene rentar solo el inflable. Incluimos tabla comparativa, qué incluye cada uno, errores comunes al contratar y estrategias para ahorrar. Si ya sabes cuántos invitados tendrás, escríbenos por **WhatsApp** y te enviamos una cotización a la medida en minutos."
 tags:
   - "renta inflables CDMX"
   - "paquetes completos fiesta inflable cdmx"
   - "fiestas infantiles"
 faqs:
-  - question: "¿Qué incluye el paquete básico de fiesta con inflable?"
+  - question: "¿Qué incluye el Paquete fiesta de BRINCOLINS?"
     answer: "El paquete fiesta de $2,800 MXN incluye 1 inflable Jungla o Dragones Rojos, 1 mesa con 10 sillitas y 1 pintacaritas durante 1 hora. El Paquete fiesta bebés cuesta $2,100 MXN e incluye 1 Castillo Baby, 1 mesa con 4 sillitas y pintacaritas para 4 niños."
   - question: "¿Qué ventaja tiene un paquete completo vs contratar todo por separado?"
     answer: "Un solo proveedor coordina inflable, mobiliario y toldo: una sola entrega, una sola instalación y un solo número de WhatsApp si algo falla. El precio queda cerrado desde la cotización, sin costos ocultos. Si prefieres armar tu evento pieza por pieza, también cotizamos cada servicio por separado."
@@ -34,53 +34,43 @@ Un paquete completo combina la renta de inflable con otros servicios esenciales 
 
 La ventaja principal es la tranquilidad de tener un solo responsable que coordine todos los elementos, con el precio cerrado desde la cotización. Si algo falla, tienes un solo número de WhatsApp al cual llamar. Si prefieres armarlo pieza por pieza, la [guía para coordinar proveedores en una fiesta infantil](/blog/coordinacion-proveedores-fiesta-infantil-cdmx/) explica cómo hacerlo sin que se te caiga el timeline.
 
-## Los 3 niveles de paquete más comunes en CDMX
+## Los 2 paquetes de fiesta de BRINCOLINS
 
-Aunque cada proveedor tiene sus propias opciones, la industria de renta de inflables en la Ciudad de México ha estandarizado aproximadamente tres niveles de paquete:
+BRINCOLINS publica dos paquetes con precio cerrado. Todo lo demás (más inflables, mobiliario para adultos, toldo, sonido o iluminación) se cotiza aparte según tu evento.
 
-### Paquete Básico
+### Paquete fiesta — $2,800 MXN
 
-Es el paquete más accesible y el más contratado para fiestas íntimas de 15-30 invitados. Incluye lo esencial para que la fiesta funcione sin complicaciones.
+Pensado para cumpleaños de 3 a 8 años en casa, jardín o salón.
 
-- 1 inflable a elegir de los 8 del catálogo, de $1,400 a $2,600 MXN según el modelo
+- 1 inflable a elegir: Jungla (5 × 3 × 2.50 m, 3 a 8 años) o Dragones Rojos (5 × 3 × 2.80 m, 3 a 8 años)
+- 1 mesa infantil con 10 sillitas
+- 1 pintacaritas durante 1 hora
 - Instalación y retiro incluidos; traslado según zona
-- Motor soplador y extensiones eléctricas
-- Uso por 4 a 6 horas
 
-Los precios de cada modelo, con medidas y capacidad, están en la [página de precios](/precios/).
+### Paquete fiesta bebés — $2,100 MXN
 
-### Paquete Intermedio
+Para primeros cumpleaños y fiestas de 1 a 3 años.
 
-Diseñado para fiestas de 30-60 invitados. Añade mobiliario y elementos que normalmente tendrías que contratar por separado.
+- 1 Castillo Baby (2.5 × 2 × 2 m, 1 a 3 años)
+- 1 mesa infantil con 4 sillitas
+- 1 pintacaritas para 4 niños
+- Instalación y retiro incluidos; traslado según zona
 
-- Todo lo del paquete básico
-- 5-10 mesas plegables con manteles
-- 30-60 sillas plegables
-- 1 toldo o carpa (3×6 o 6×6 m)
+### Solo inflable
 
-### Paquete Premium
+Si ya tienes resuelto el resto de la fiesta, cualquiera de los 8 modelos se renta por separado, de $1,400 a $2,600 MXN según el modelo, con instalación y retiro incluidos y traslado según zona. Los precios de cada modelo, con medidas y edades, están en la [página de precios](/precios/).
 
-Para fiestas de 60-100+ invitados que quieren una experiencia completa sin preocuparse por nada.
+## Tabla comparativa
 
-- Todo lo del paquete intermedio
-- 2 inflables a elegir: lo habitual es un grande (Barco Pirata, para 3 a 12 años, o Extremo, para 3 a 12 años) más un mediano o el Castillo Baby para los de 1 a 3 años
-- Sistema de sonido con bocina y micrófono
-- Iluminación decorativa (series LED)
-- Máquina de palomitas o algodón de azúcar
-- Operador dedicado durante todo el evento
-
-## Tabla comparativa de precios
-
-| Característica | Básico | Intermedio | Premium |
+| Característica | Solo inflable | Paquete fiesta | Paquete fiesta bebés |
 | --- | --- | --- | --- |
-| Inflables incluidos | 1 | 1 | 2 |
-| Mobiliario | No | Mesas + sillas | Mesas + sillas + mantelería |
-| Toldo/carpa | No | 1 toldo | 1 toldo grande |
-| Sonido | No | No | Bocina + mic |
-| Iluminación | No | No | Series LED |
-| Extras | — | — | Máquina palomitas/algodón |
-| Horas de servicio | 4-6 hrs | 4-6 hrs | 4-6 hrs |
-| Precio aproximado | $1,400 - $2,600 | $2,800 | $2,100 |
+| Inflable | 1 a elegir de los 8 modelos | Jungla o Dragones Rojos | Castillo Baby |
+| Edades | Según modelo | 3 a 8 años | 1 a 3 años |
+| Mobiliario | No | 1 mesa infantil con 10 sillitas | 1 mesa infantil con 4 sillitas |
+| Pintacaritas | No | 1 hora | Para 4 niños |
+| Instalación y retiro | Incluidos | Incluidos | Incluidos |
+| Traslado | Según zona | Según zona | Según zona |
+| Precio | $1,400 - $2,600 | $2,800 | $2,100 |
 
 Los precios son netos: se agrega IVA solo si necesitas factura, y en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma un cargo de envío según la distancia. Puedes verificar tu zona en la [página de cobertura](/cobertura/).
 
@@ -94,11 +84,11 @@ El mobiliario es uno de los gastos más importantes de una fiesta y donde más s
 - **Toldo 3×6 m:** $800-1,200 MXN
 - **Flete de mobiliario:** $300-500 MXN
 
-Para una fiesta de 40 personas con 6 mesas, 40 sillas, manteles y un toldo, el costo individual sería aproximadamente $2,200-3,000 MXN solo en mobiliario. En un paquete intermedio, este mobiliario viene incluido con el inflable por un precio total menor al que pagarías contratando todo por separado.
+Para una fiesta de 40 personas con 6 mesas, 40 sillas, manteles y un toldo, el costo individual sería aproximadamente $2,200-3,000 MXN solo en mobiliario. Los paquetes de BRINCOLINS incluyen la mesa infantil con sillitas para los niños; el mobiliario para adultos (mesas, sillas, manteles y toldo) se cotiza aparte, y conviene pedirlo junto con el inflable para coordinar una sola entrega.
 
 ## Iluminación y sonido: los extras que transforman la fiesta
 
-La iluminación y el sonido son los elementos que elevan una fiesta de "reunión en el jardín" a "evento memorable". En los paquetes premium, estos servicios vienen incluidos y hacen una diferencia enorme, especialmente si la fiesta se extiende hasta la noche.
+La iluminación y el sonido son los elementos que elevan una fiesta de "reunión en el jardín" a "evento memorable". No forman parte de los dos paquetes de BRINCOLINS (se cotizan aparte), pero hacen una diferencia enorme, especialmente si la fiesta se extiende hasta la noche.
 
 ### Iluminación
 
@@ -106,7 +96,7 @@ Las series de luces LED cálidas transforman cualquier jardín en un espacio má
 
 ### Sonido
 
-Una bocina Bluetooth de buena potencia con micrófono inalámbrico permite poner música durante la fiesta, hacer anuncios (la hora del pastel, el momento de la piñata) y coordinar juegos o dinámicas. Es un servicio que suele contratarse aparte y que en varios paquetes ya viene incluido: confirma si el tuyo lo trae antes de rentarlo por separado.
+Una bocina Bluetooth de buena potencia con micrófono inalámbrico permite poner música durante la fiesta, hacer anuncios (la hora del pastel, el momento de la piñata) y coordinar juegos o dinámicas. Es un servicio que se contrata aparte de los paquetes de BRINCOLINS: pídelo al cotizar y lo coordinamos con la entrega del inflable.
 
 ## Cómo ahorrar dinero en tu paquete de fiesta
 
@@ -133,13 +123,13 @@ El paquete conviene cuando necesitas varios servicios y quieres simplicidad. Con
 
 | Situación | Recomendación |
 | --- | --- |
-| Fiesta en casa con jardín | Paquete intermedio o premium |
-| Fiesta en salón de eventos | Solo inflable (paquete básico) |
-| Fiesta en parque público | Paquete intermedio con toldo |
+| Fiesta en casa con jardín | Paquete fiesta (3 a 8 años) o Paquete fiesta bebés (1 a 3 años) |
+| Fiesta en salón de eventos | Solo inflable |
+| Fiesta en parque público | Solo inflable o Paquete fiesta; el toldo se cotiza aparte |
 | Evento escolar o kermés | 2-3 inflables sin mobiliario ([guía de kermesse escolar](/blog/kermesse-escolar-inflables-edomex-guia/)) |
-| Fiesta grande (+80 invitados) | Paquete premium personalizado |
+| Fiesta grande (+80 invitados) | 2 inflables o más, a cotizar |
 
-En BRINCOLINS armamos paquetes personalizados según las necesidades de cada cliente, desde **$4,500 MXN**, y no te obligamos a contratar servicios que no necesitas. Revisa qué incluye cada uno en la página de [paquetes de fiesta](/servicios/paquetes-de-fiesta/), escríbenos por WhatsApp o [pide tu cotización](/cotizar/) con los detalles de tu evento.
+En BRINCOLINS los dos paquetes tienen precio cerrado y, si tu evento necesita algo distinto, lo cotizamos a la medida sin obligarte a contratar servicios que no necesitas. Revisa qué incluye cada uno en la página de [paquetes de fiesta](/servicios/paquetes-de-fiesta/), escríbenos por WhatsApp o [pide tu cotización](/cotizar/) con los detalles de tu evento.
 
 ---
 

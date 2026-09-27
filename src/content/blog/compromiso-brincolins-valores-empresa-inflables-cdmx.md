@@ -35,7 +35,7 @@ Eso no es un slogan — es la forma más honesta que encontramos de describir c�
 
 ## Cómo Empezamos
 
-BRINCOLINS arrancó en **2005** como lo que en México llaman un negocio familiar: una apuesta pequeña, con pocos equipos y mucho trabajo de campo. Los primeros años fueron de aprender haciendo — qué funciona, qué falla, qué problemas se repiten y cómo anticiparlos. Hoy el catálogo son **8 modelos**, de $800 a $1,900 MXN, y están todos en la [página de precios](/precios/).
+BRINCOLINS arrancó en **2005** como lo que en México llaman un negocio familiar: una apuesta pequeña, con pocos equipos y mucho trabajo de campo. Los primeros años fueron de aprender haciendo — qué funciona, qué falla, qué problemas se repiten y cómo anticiparlos. Hoy el catálogo son **8 modelos**, de $1,400 a $2,600 MXN, y están todos en la [página de precios](/precios/).
 
 Había cosas que en ese momento nos parecían obvias y después resultaron ser las que más nos diferenciaban: llegar puntual, entregar el equipo limpio, cobrar lo que se dijo desde el principio. Cosas que deberían ser el estándar mínimo de cualquier servicio — pero que en la práctica muchos no cumplen.
 
