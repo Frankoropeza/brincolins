@@ -54,7 +54,7 @@ function isActive(href: string, children?: { href: string }[]): boolean {
 
 // Servicios — datos ricos (icono + descripción)
 const serviciosItems = [
-  { icon: '🎪', label: 'Renta de Inflables',    desc: 'Entrega e instalación incluida',  href: '/servicios/renta-de-inflables/'      },
+  { icon: '🎪', label: 'Renta de Inflables',    desc: 'Instalación incluida · traslado según zona',  href: '/servicios/renta-de-inflables/'      },
   { icon: '🎉', label: 'Paquetes de Fiesta',     desc: 'Todo incluido para tu evento',    href: '/servicios/paquetes-de-fiesta/'      },
   { icon: '🪑', label: 'Mobiliario para Fiestas',desc: 'Mesas, sillas y decoración',      href: '/servicios/mobiliario-para-fiestas/' },
   { icon: '💡', label: 'Iluminación para Eventos',desc:'Ambiente y efectos de color',     href: '/servicios/iluminacion-eventos/'     },
@@ -106,20 +106,20 @@ const serviciosItems = [
                     <span class="hdr__mega-cat">🔥 Más populares</span>
                     <a href="/inflables/dragones-rojos/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/dragones-rojos/') }]} role="menuitem">
                       <span class="hdr__mega-link-name">Dragones Rojos</span>
-                      <span class="hdr__mega-price">$1,200</span>
+                      <span class="hdr__mega-price">$1,600</span>
                     </a>
                     <a href="/inflables/castillo-princesas/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/castillo-princesas/') }]} role="menuitem">
                       <span class="hdr__mega-link-name">Castillo de Princesas</span>
-                      <span class="hdr__mega-price">$1,200</span>
+                      <span class="hdr__mega-price">$1,800</span>
                     </a>
                     <span class="hdr__mega-cat">🌿 Temáticos</span>
                     <a href="/inflables/mini-jungla/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/mini-jungla/') }]} role="menuitem">
-                      <span class="hdr__mega-link-name">Mini Jungla</span>
-                      <span class="hdr__mega-price">$1,300</span>
+                      <span class="hdr__mega-link-name">Jungla</span>
+                      <span class="hdr__mega-price">$1,600</span>
                     </a>
                     <a href="/inflables/gusanitos/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/gusanitos/') }]} role="menuitem">
                       <span class="hdr__mega-link-name">Gusanitos</span>
-                      <span class="hdr__mega-price">$1,350</span>
+                      <span class="hdr__mega-price">$1,600</span>
                     </a>
                   </div>
 
@@ -127,16 +127,16 @@ const serviciosItems = [
                   <div class="hdr__mega-col">
                     <span class="hdr__mega-cat">📐 Por tamaño</span>
                     <a href="/inflables/mini-castillo/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/mini-castillo/') }]} role="menuitem">
-                      <span class="hdr__mega-link-name">Mini Castillo</span>
-                      <span class="hdr__mega-price">$800</span>
+                      <span class="hdr__mega-link-name">Castillo Baby</span>
+                      <span class="hdr__mega-price">$1,400</span>
                     </a>
                     <a href="/inflables/barco-pirata/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/barco-pirata/') }]} role="menuitem">
                       <span class="hdr__mega-link-name">Barco Pirata</span>
-                      <span class="hdr__mega-price">$1,800</span>
+                      <span class="hdr__mega-price">$2,300</span>
                     </a>
                     <a href="/inflables/extremo/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/extremo/') }]} role="menuitem">
                       <span class="hdr__mega-link-name">Extremo</span>
-                      <span class="hdr__mega-price">$1,900</span>
+                      <span class="hdr__mega-price">$2,500</span>
                     </a>
                     <span class="hdr__mega-cat">👥 Por público</span>
                     <a href="/inflables/brincolines/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/brincolines/') }]} role="menuitem">
@@ -150,7 +150,7 @@ const serviciosItems = [
                     <span class="hdr__mega-cat">💍 Eventos especiales</span>
                     <a href="/inflables/castillo-blanco/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/castillo-blanco/') }]} role="menuitem">
                       <span class="hdr__mega-link-name">Castillo Blanco</span>
-                      <span class="hdr__mega-price">$1,700</span>
+                      <span class="hdr__mega-price">$2,600</span>
                     </a>
                   </div>
 
@@ -310,48 +310,48 @@ const serviciosItems = [
             <a href="/inflables/dragones-rojos/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/dragones-rojos/') }]}>
               <span class="hdr__panel-subdot" aria-hidden="true"></span>
               <span class="hdr__panel-sub-name">Dragones Rojos</span>
-              <span class="hdr__panel-sub-price">$1,200</span>
+              <span class="hdr__panel-sub-price">$1,600</span>
             </a>
             <a href="/inflables/castillo-princesas/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/castillo-princesas/') }]}>
               <span class="hdr__panel-subdot" aria-hidden="true"></span>
               <span class="hdr__panel-sub-name">Castillo de Princesas</span>
-              <span class="hdr__panel-sub-price">$1,200</span>
+              <span class="hdr__panel-sub-price">$1,800</span>
             </a>
             {/* Temáticos */}
             <span class="hdr__panel-group-label">🌿 Temáticos</span>
             <a href="/inflables/mini-jungla/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/mini-jungla/') }]}>
               <span class="hdr__panel-subdot" aria-hidden="true"></span>
-              <span class="hdr__panel-sub-name">Mini Jungla</span>
-              <span class="hdr__panel-sub-price">$1,300</span>
+              <span class="hdr__panel-sub-name">Jungla</span>
+              <span class="hdr__panel-sub-price">$1,600</span>
             </a>
             <a href="/inflables/gusanitos/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/gusanitos/') }]}>
               <span class="hdr__panel-subdot" aria-hidden="true"></span>
               <span class="hdr__panel-sub-name">Gusanitos</span>
-              <span class="hdr__panel-sub-price">$1,350</span>
+              <span class="hdr__panel-sub-price">$1,600</span>
             </a>
             {/* Por tamaño */}
             <span class="hdr__panel-group-label">📐 Por tamaño</span>
             <a href="/inflables/mini-castillo/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/mini-castillo/') }]}>
               <span class="hdr__panel-subdot" aria-hidden="true"></span>
-              <span class="hdr__panel-sub-name">Mini Castillo</span>
-              <span class="hdr__panel-sub-price">$800</span>
+              <span class="hdr__panel-sub-name">Castillo Baby</span>
+              <span class="hdr__panel-sub-price">$1,400</span>
             </a>
             <a href="/inflables/barco-pirata/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/barco-pirata/') }]}>
               <span class="hdr__panel-subdot" aria-hidden="true"></span>
               <span class="hdr__panel-sub-name">Barco Pirata</span>
-              <span class="hdr__panel-sub-price">$1,800</span>
+              <span class="hdr__panel-sub-price">$2,300</span>
             </a>
             <a href="/inflables/extremo/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/extremo/') }]}>
               <span class="hdr__panel-subdot" aria-hidden="true"></span>
               <span class="hdr__panel-sub-name">Extremo</span>
-              <span class="hdr__panel-sub-price">$1,900</span>
+              <span class="hdr__panel-sub-price">$2,500</span>
             </a>
             {/* Especiales */}
             <span class="hdr__panel-group-label">💍 Especiales</span>
             <a href="/inflables/castillo-blanco/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/castillo-blanco/') }]}>
               <span class="hdr__panel-subdot" aria-hidden="true"></span>
               <span class="hdr__panel-sub-name">Castillo Blanco</span>
-              <span class="hdr__panel-sub-price">$1,700</span>
+              <span class="hdr__panel-sub-price">$2,600</span>
             </a>
             {/* Ver todos */}
             <a href="/inflables/" class="hdr__panel-sub-viewall">

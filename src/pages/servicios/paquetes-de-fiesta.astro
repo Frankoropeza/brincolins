@@ -9,84 +9,59 @@ import Gallery4x4 from "@/components/Gallery4x4.astro";
 import PricingCards from "@/components/PricingCards.astro";
 
 const title = "Paquetes de Fiesta Todo Incluido en CDMX";
-const description = "Paquetes de fiesta todo incluido en CDMX: inflable + mobiliario + iluminación. 3 niveles — Básico, Premium y VIP — con precio cerrado y un solo proveedor.";
+const description = "Paquetes de fiesta en CDMX: inflable + mesa infantil + pintacaritas. Dos opciones con precio cerrado y un solo proveedor.";
 
 const galleryImages = [
-  { src: "/img/inflables/castillo-blanco-vista-frontal-evento.avif", alt: "Paquete de fiesta completo con inflable castillo blanco" },
-  { src: "/img/inflables/extremo-evento-corporativo-exterior.avif", alt: "Paquete VIP con inflable extremo y mobiliario" },
-  { src: "/img/inflables/castillo-princesas-salon-cumpleanos.avif", alt: "Paquete de fiesta infantil con castillo de princesas" },
-  { src: "/img/inflables/barco-pirata-vista-lateral-evento.avif", alt: "Paquete Premium con barco pirata e iluminación" },
+  { src: "/img/inflables/castillo-blanco-vista-frontal-evento.avif", alt: "Paquete de fiesta completo con inflable Castillo Blanco" },
+  { src: "/img/inflables/extremo-evento-corporativo-exterior.avif", alt: "Paquete de fiesta con inflable y mobiliario" },
+  { src: "/img/inflables/castillo-princesas-salon-cumpleanos.avif", alt: "Paquete de fiesta infantil con Castillo de Princesas" },
+  { src: "/img/inflables/barco-pirata-vista-lateral-evento.avif", alt: "Paquete de fiesta con inflable y mobiliario" },
   { src: "/img/servicios/paquetes-fiesta-completo-cdmx.avif", alt: "Paquete todo incluido con inflable y mobiliario CDMX" },
-  { src: "/img/inflables/mini-castillo-salon-bebe-renta.avif", alt: "Paquete básico con mini castillo para fiestas" },
-  { src: "/img/inflables/gusanitos-cumpleanos-infantil-cdmx.avif", alt: "Paquete infantil con gusanitos y mesas" },
-  { src: "/img/inflables/mini-jungla-cumpleanos-aventura-cdmx.avif", alt: "Paquete completo con mini jungla y decoración" },
+  { src: "/img/inflables/mini-castillo-salon-bebe-renta.avif", alt: "Paquete con Castillo Baby para fiestas" },
+  { src: "/img/inflables/gusanitos-cumpleanos-infantil-cdmx.avif", alt: "Paquete infantil con Gusanitos y mesas" },
+  { src: "/img/inflables/mini-jungla-cumpleanos-aventura-cdmx.avif", alt: "Paquete completo con Jungla y decoración" },
 ];
 
 const pricingPackages = [
   {
-    name: "Paquete Básico",
+    name: "Paquete fiesta",
     price: "$2,800",
-    priceNote: "hasta 30 invitados / 4 hrs",
-    description: "Ideal para fiestas íntimas. Inflable clásico + mobiliario esencial para 30 personas.",
+    priceNote: "precio cerrado",
+    description: "Incluye un inflable Jungla o Dragones Rojos, una mesa con 10 sillitas y pintacaritas durante 1 hora.",
     features: [
-      { text: "Inflable clásico a elegir", included: true },
-      { text: "3 mesas rectangulares", included: true },
-      { text: "24 sillas plegables", included: true },
-      { text: "Entrega e instalación", included: true },
-      { text: "4 horas de servicio", included: true },
+      { text: "Jungla o Dragones Rojos", included: true },
+      { text: "1 mesa con 10 sillitas", included: true },
+      { text: "Pintacaritas durante 1 hora", included: true },
+      { text: "Instalación incluida; entrega según zona", included: true },
       { text: "Recolección incluida", included: true },
-      { text: "Precio cerrado sin costos ocultos", included: true },
-      { text: "Manteles y toldo", included: false },
-      { text: "Iluminación LED", included: false },
+      { text: "Precio cerrado", included: true },
     ],
     ctaHref: "/contacto/",
   },
   {
-    name: "Paquete Premium",
-    badge: "Recomendado",
+    name: "Paquete fiesta bebés",
+    badge: "Para bebés",
     highlight: true,
-    price: "$4,500",
-    priceNote: "hasta 50 invitados / 6 hrs",
-    description: "El más solicitado. Inflable + mobiliario completo + toldo para 50 personas.",
+    price: "$2,100",
+    priceNote: "precio cerrado",
+    description: "Incluye un Castillo Baby, una mesa con 4 sillitas y pintacaritas para 4 niños.",
     features: [
-      { text: "Inflable a elegir (cualquier modelo)", included: true },
-      { text: "5 mesas rectangulares", included: true },
-      { text: "40 sillas plegables", included: true },
-      { text: "Manteles a elegir color", included: true },
-      { text: "Toldo 3x6 m incluido", included: true },
-      { text: "6 horas de servicio", included: true },
-      { text: "Entrega, instalación y recolección", included: true },
-      { text: "Precio cerrado sin costos ocultos", included: true },
-      { text: "Iluminación LED", included: false },
-    ],
-    ctaHref: "/contacto/",
-  },
-  {
-    name: "Paquete VIP",
-    badge: "Mejor valor",
-    price: "$6,800",
-    priceNote: "hasta 80 invitados / 6 hrs",
-    description: "La experiencia completa. Inflable premium + mobiliario + toldo + iluminación LED.",
-    features: [
-      { text: "Inflable premium (Circuito Extremo)", included: true },
-      { text: "8 mesas rectangulares", included: true },
-      { text: "64 sillas plegables", included: true },
-      { text: "Manteles a elegir color", included: true },
-      { text: "Toldo 6x6 m incluido", included: true },
-      { text: "Iluminación LED completa", included: true },
-      { text: "6 horas de servicio", included: true },
-      { text: "Atención personalizada", included: true },
-      { text: "Precio cerrado sin costos ocultos", included: true },
+      { text: "Castillo Baby", included: true },
+      { text: "1 mesa con 4 sillitas", included: true },
+      { text: "Pintacaritas para 4 niños", included: true },
+      { text: "Instalación incluida; entrega según zona", included: true },
+      { text: "Recolección incluida", included: true },
+      { text: "Precio cerrado", included: true },
     ],
     ctaHref: "/contacto/",
   },
 ];
 
 const faqs = [
-  { question: "¿Qué ventaja tiene un paquete frente a rentar todo por separado?", answer: "Con un paquete contratas a un solo proveedor que coordina inflable, mobiliario e iluminación: un solo contacto, un solo pago y un precio cerrado desde el inicio. Nosotros nos encargamos del transporte, la instalación, los horarios y la recolección de cada elemento, en lugar de que tú tengas que cuadrar tres o cuatro proveedores distintos el día de tu evento." },
-  { question: "¿Puedo personalizar un paquete?", answer: "Sí, todos nuestros paquetes son personalizables. Si necesitas más mesas, un inflable diferente o un tipo específico de iluminación, nos adaptamos a tus necesidades. Escríbenos por WhatsApp con los detalles de tu evento y te armamos un paquete a la medida." },
-  { question: "¿Qué diferencia hay entre el paquete Básico, Premium y VIP?", answer: "El paquete Básico incluye inflable y mobiliario esencial (mesas y sillas) con 4 horas de servicio. El Premium agrega manteles, toldo y servicio extendido de 6 horas. El VIP incluye todo lo anterior más iluminación LED completa, inflable premium y atención personalizada, también con 6 horas de servicio." },
-  { question: "¿Los paquetes tienen algún límite de invitados?", answer: "Los paquetes están diseñados para eventos de 20 a 80 personas. El Básico cubre hasta 30 invitados con el mobiliario incluido, el Premium hasta 50 y el VIP hasta 80 invitados. Si tu evento es más grande, podemos ajustar el paquete agregando más mobiliario." },
+  { question: "¿Qué ventaja tiene un paquete frente a rentar todo por separado?", answer: "Con un paquete contratas a un solo proveedor que coordina inflable, mobiliario y pintacaritas: un solo contacto, un solo pago y un precio cerrado desde el inicio. Nosotros nos encargamos del transporte, la instalación, los horarios y la recolección, en lugar de que tú tengas que cuadrar varios proveedores el día de tu evento." },
+  { question: "¿Puedo personalizar un paquete?", answer: "Puedes confirmar al cotizar si necesitas una configuración distinta. Los paquetes publicados incluyen los elementos indicados: inflable, mesa con sillitas y pintacaritas." },
+  { question: "¿Qué diferencia hay entre el paquete fiesta y el paquete fiesta bebés?", answer: "El paquete fiesta incluye Jungla o Dragones Rojos, una mesa con 10 sillitas y pintacaritas durante 1 hora. El paquete fiesta bebés incluye Castillo Baby, una mesa con 4 sillitas y pintacaritas para 4 niños." },
+  { question: "¿Los paquetes tienen algún límite de invitados?", answer: "El mobiliario incluido es una mesa con 10 sillitas en el paquete fiesta o una mesa con 4 sillitas en el paquete fiesta bebés. Si necesitas una configuración distinta, confírmala al cotizar." },
 ];
 ---
 
@@ -113,11 +88,11 @@ const faqs = [
         <div>
           <span class="hero__badge">Paquetes</span>
           <h1 class="hero__title">Paquetes de Inflables para Fiestas — <span class="highlight">Todo Incluido</span></h1>
-          <p class="hero__desc">Inflable, mobiliario e iluminación en un solo paquete con precio cerrado. Tres niveles para cada presupuesto: Básico, Premium y VIP.</p>
+          <p class="hero__desc">Inflable, mobiliario y pintacaritas en un solo paquete con precio cerrado. Elige entre paquete fiesta y paquete fiesta bebés.</p>
         </div>
         <div class="hero__copy">
-          <p class="hero__copy-text">Organizar una fiesta infantil puede ser abrumador cuando tienes que coordinar múltiples proveedores. Con los paquetes de fiesta de BRINCOLINS, resuelves todo en un solo lugar: inflable, mesas, sillas, manteles, toldos e iluminación. Un solo contacto, un solo pago y la tranquilidad de saber que todo está coordinado y llegará puntualmente.</p>
-          <p class="hero__copy-text">Ofrecemos tres niveles de paquete pensados para diferentes necesidades y presupuestos. Desde el paquete Básico ideal para fiestas íntimas, hasta el VIP que incluye todo lo necesario para una celebración espectacular. Cada uno tiene un precio cerrado que conoces desde el primer mensaje: lo que cotizamos es lo que pagas.</p>
+          <p class="hero__copy-text">Organizar una fiesta infantil puede ser abrumador cuando tienes que coordinar múltiples proveedores. Con los paquetes de fiesta de BRINCOLINS, resuelves todo en un solo lugar: inflable, mesa infantil, sillitas y pintacaritas. Un solo contacto, un solo pago y la tranquilidad de saber que todo está coordinado.</p>
+          <p class="hero__copy-text">Ofrecemos dos paquetes con necesidades distintas: el paquete fiesta con Jungla o Dragones Rojos, y el paquete fiesta bebés con Castillo Baby. Cada uno tiene un precio cerrado que conoces desde el primer mensaje.</p>
         </div>
       </div>
     </div>
@@ -132,7 +107,7 @@ const faqs = [
         badge="Galería"
         title="Nuestros Paquetes de Inflables en Acción"
         subtitle="Así lucen los eventos de nuestros clientes con paquetes completos."
-        copy1="Cada paquete incluye todo lo necesario para una fiesta perfecta: inflable, mobiliario y, en el paquete VIP, iluminación profesional. Nuestro equipo se encarga de la logística completa para que tú solo disfrutes."
+        copy1="Cada paquete incluye lo necesario para una fiesta infantil: inflable, mobiliario y pintacaritas. Nuestro equipo se encarga de la logística completa para que tú solo disfrutes."
         copy2="Mira cómo hemos transformado jardines, patios y terrazas en espacios de fiesta completos. Desde reuniones íntimas hasta grandes celebraciones, tenemos el paquete ideal para tu evento."
       />
       <Gallery4x4 images={galleryImages} />
@@ -144,10 +119,10 @@ const faqs = [
     <div class="container">
       <SectionHeader
         badge="Nuestros paquetes"
-        title="Paquetes de Inflables para Fiestas — Básico, Premium y VIP"
-        subtitle="3 opciones diseñadas para cada tipo de celebración."
+        title="Paquetes de Inflables para Fiestas — Fiesta y Fiesta Bebés"
+        subtitle="2 opciones con precio cerrado."
         copy1="Cada paquete ha sido diseñado pensando en las necesidades reales de nuestros clientes. Sabemos que no todas las fiestas son iguales: algunas son reuniones íntimas en casa y otras son grandes celebraciones en jardines. Por eso ofrecemos opciones que se adaptan a tu evento."
-        copy2="Todos los paquetes incluyen entrega, instalación y recolección sin costo adicional en CDMX y zona metropolitana. Además, puedes personalizar cualquier paquete para ajustarlo exactamente a lo que necesitas. Solo tienes que decirle a nuestro equipo qué quieres cambiar y te cotizamos al instante."
+        copy2="Todos los paquetes incluyen instalación y recolección. La entrega sin costo adicional aplica solo en zonas seleccionadas; en el resto de CDMX y Estado de México el traslado se cotiza según zona. Además, puedes confirmar cualquier necesidad adicional al cotizar."
       />
       <PricingCards packages={pricingPackages} />
     </div>
@@ -179,7 +154,7 @@ const faqs = [
           </div>
           <div class="why-card__body">
             <h3 class="why-card__title">Un Solo Proveedor para Todo tu Evento</h3>
-            <p class="why-card__desc">Olvídate de coordinar con 3 o 4 proveedores diferentes. Nosotros nos encargamos de todo: inflable, mobiliario e iluminación.</p>
+            <p class="why-card__desc">Olvídate de coordinar con varios proveedores. Nosotros nos encargamos del inflable, el mobiliario y el pintacaritas.</p>
           </div>
         </div>
         <div class="why-card">
@@ -188,7 +163,7 @@ const faqs = [
           </div>
           <div class="why-card__body">
             <h3 class="why-card__title">Todo Llega y se Retira el Mismo Día</h3>
-            <p class="why-card__desc">Inflable, mobiliario e iluminación se entregan, instalan y recogen en una sola visita coordinada. Tú no mueves ni cargas nada.</p>
+            <p class="why-card__desc">Inflable y mobiliario se entregan, instalan y recogen en una sola visita coordinada. Tú no mueves ni cargas nada.</p>
           </div>
         </div>
         <div class="why-card">
@@ -273,7 +248,7 @@ const faqs = [
 
   <CtaBanner
     title="Arma tu paquete de fiesta ideal"
-    subtitle="Inflable + mobiliario + iluminación con precio cerrado y un solo proveedor. Cotiza hoy y aparta tu fecha."
+    subtitle="Inflable + mobiliario + pintacaritas con precio cerrado y un solo proveedor. Cotiza hoy y aparta tu fecha."
     btnText="Cotizar Paquete de Inflables para mi Fiesta"
     btnHref="/cotizar/"
     btnSecondaryText="Ver Catálogo de Inflables"

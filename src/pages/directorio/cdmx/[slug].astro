@@ -92,10 +92,10 @@ const salonSchema = {
 
 // ── Inflables populares (fijos — mismos en todas las páginas) ─────
 const inflablesPopulares = [
-  { slug: "dragones-rojos",     emoji: "", name: "Dragones Rojos",      description: "El inflable más popular en CDMX. Castillo con dragones gigantes y resbaladilla.",        price: "$1,200", size: "4×4m",   ages: "4-12 años", category: "Más popular",  categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
-  { slug: "castillo-princesas", emoji: "", name: "Castillo de Princesas", description: "Castillo rosa con resbaladilla incluida para fiestas de princesas.",                    price: "$1,200", size: "4×4m",   ages: "3-10 años", category: "Princesas",    categoryColor: "princesas",gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
-  { slug: "barco-pirata",       emoji: "", name: "Barco Pirata",         description: "Barco pirata gigante con tobogán de alta velocidad incluido.",                           price: "$1,800", size: "7×5m",   ages: "4-14 años", category: "Grande",       categoryColor: "pirata",   gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
-  { slug: "extremo",            emoji: "", name: "Extremo",              description: "Circuito de obstáculos para competencias y diversión extrema.",                           price: "$1,900", size: "7×4m", ages: "6-14 años",category: "Extremo",      categoryColor: "extremo",  gradient: "#E65100, #BF360C", image: "/img/inflables/extremo.avif" },
+  { slug: "dragones-rojos",     emoji: "", name: "Dragones Rojos",      description: "El inflable más popular en CDMX. Castillo con dragones gigantes y resbaladilla.",        price: "$1,600", size: "5×3×2.80m",   ages: "3-8 años", category: "Más popular",  categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
+  { slug: "castillo-princesas", emoji: "", name: "Castillo de Princesas", description: "Castillo rosa con resbaladilla incluida para fiestas de princesas.",                    price: "$1,800", size: "5×3.30×3m",   ages: "2-10 años", category: "Princesas",    categoryColor: "princesas",gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
+  { slug: "barco-pirata",       emoji: "", name: "Barco Pirata",         description: "Barco pirata gigante con tobogán de alta velocidad incluido.",                           price: "$2,300", size: "6×3.5×3.80m",   ages: "3-12 años", category: "Grande",       categoryColor: "pirata",   gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
+  { slug: "extremo",            emoji: "", name: "Extremo",              description: "Circuito de obstáculos para competencias y diversión extrema.",                           price: "$2,500", size: "8×4.5×3.50m", ages: "3-12 años",category: "Extremo",      categoryColor: "extremo",  gradient: "#E65100, #BF360C", image: "/img/inflables/extremo.avif" },
 ];
 
 // ── Artículos del sidebar (fijos) ─────────────────────────────────
@@ -168,7 +168,7 @@ const mapsHref = `https://www.google.com/maps/search/${salon.gmapsQuery}`;
           <p class="hero__copy-text">
             ¿Ya reservaste tu fecha? Lleva la diversión al siguiente nivel con un inflable de{" "}
             <strong>BRINCOLINS</strong>. Entregamos, instalamos y recogemos directamente en {salon.name}{" "}
-            sin costo adicional. Nuestro catálogo incluye castillos, toboganes, pistas de obstáculos y más.
+            El traslado se cotiza según zona. Nuestro catálogo incluye castillos, toboganes, pistas de obstáculos y más.
           </p>
         </div>
       </div>
@@ -340,7 +340,7 @@ const mapsHref = `https://www.google.com/maps/search/${salon.gmapsQuery}`;
           <div class="sidebar-card sidebar-card--highlight">
             <p class="sidebar-card__title">¿Ya tienes tu salón?</p>
             <p class="sidebar-card__text">
-              Agrega un inflable a tu fiesta en {salon.name}. Entrega e instalación incluida.
+              Agrega un inflable a tu fiesta en {salon.name}. Instalación incluida; traslado según zona.
             </p>
             <a href="/cotizar/" class="btn btn-primary btn-sm sidebar-card__btn">Cotizar inflable</a>
           </div>
@@ -359,7 +359,7 @@ const mapsHref = `https://www.google.com/maps/search/${salon.gmapsQuery}`;
           title="Otros salones que te pueden interesar"
           subtitle="Explora más opciones de salones de fiestas infantiles verificados en la Ciudad de México."
           copy1={`Si buscas alternativas a ${salon.name}, aquí encontrarás otros salones con excelente calificación en Google Maps. Todos permiten inflables externos y están dentro de nuestra zona de cobertura.`}
-          copy2="¿Ya elegiste tu salón? No olvides complementar la fiesta con un inflable de BRINCOLINS. Entrega e instalación incluida en cualquier salón de CDMX."
+          copy2="¿Ya elegiste tu salón? No olvides complementar la fiesta con un inflable de BRINCOLINS. Instalación incluida; traslado según zona."
         />
         <div class="grid-4 zonas-grid">
           {salon.relacionados.map(s => <VenueCard {...s} />)}
@@ -374,8 +374,8 @@ const mapsHref = `https://www.google.com/maps/search/${salon.gmapsQuery}`;
       <SectionHeader
         badge="Inflables para tu fiesta"
         title="Lleva un inflable a tu fiesta"
-        subtitle={`Complementa tu evento en ${salon.name} con uno de nuestros inflables. Entrega e instalación incluida.`}
-        copy1="Todos nuestros inflables incluyen entrega, instalación, limpieza y recolección. Solo necesitas una toma de corriente y espacio suficiente en el salón."
+        subtitle={`Complementa tu evento en ${salon.name} con uno de nuestros inflables. Instalación incluida; traslado según zona.`}
+        copy1="Todos nuestros inflables incluyen instalación, limpieza y recolección; el traslado se cotiza según zona. Solo necesitas una toma de corriente y espacio suficiente en el salón."
         copy2="Desde castillos clásicos hasta toboganes y pistas de obstáculos, tenemos opciones para todas las edades y presupuestos."
       />
       <div class="grid-4">
@@ -405,7 +405,7 @@ const mapsHref = `https://www.google.com/maps/search/${salon.gmapsQuery}`;
   <!-- ── CTA Banner ────────────────────────────────────────────────── -->
   <CtaBanner
     title={`¿Te gustó ${salon.name}? ¡Agrega un inflable!`}
-    subtitle="Reserva tu inflable para complementar la fiesta. Entrega e instalación incluida en el salón que elijas."
+    subtitle="Reserva tu inflable para complementar la fiesta. Instalación incluida en el salón que elijas; traslado según zona."
     btnText="Cotizar inflable"
     btnHref="/cotizar/"
     btnSecondaryText="Ver catálogo de inflables"

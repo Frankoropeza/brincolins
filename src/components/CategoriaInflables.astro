@@ -84,7 +84,7 @@ const schema = {
   description={cat.description}
   pageType="category"
   faqItems={cat.faqs}
-  faqContext={{ tipo: "categoria", nombre: cat.name, modelos: items.length, desde: desde ?? "$800" }}
+  faqContext={{ tipo: "categoria", nombre: cat.name, modelos: items.length, desde: desde ?? "$1,400" }}
   schemaMarkup={JSON.stringify(schema)}
   breadcrumbs={[
     { name: "Inicio", href: "/" },
@@ -107,7 +107,7 @@ const schema = {
         <div>
           <span class="hero__badge">{cat.badge}</span>
           <h1 class="hero__title">{cat.h1}</h1>
-          <p class="hero__desc">{items.length} {items.length === 1 ? "modelo disponible" : "modelos disponibles"} en CDMX y Estado de México{desde ? ` desde ${desde} MXN` : ""}, con entrega, instalación y recolección incluidas.</p>
+          <p class="hero__desc">{items.length} {items.length === 1 ? "modelo disponible" : "modelos disponibles"} en CDMX y Estado de México{desde ? ` desde ${desde} MXN` : ""}, con instalación y recolección incluidas; traslado según zona.</p>
           <div class="hero__ctas">
             <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar {cat.name.toLowerCase()}</a>
             <a href="/precios/" class="btn btn-outline btn-lg">Ver precios de renta de inflables</a>
@@ -196,7 +196,7 @@ const schema = {
   <!-- 9 · CTA -->
   <CtaBanner
     title={`¿Listo para rentar ${cat.name.toLowerCase()}?`}
-    subtitle="Cotiza sin compromiso. Entrega en tu alcaldía o municipio, con instalación incluida."
+    subtitle="Cotiza sin compromiso. Servicio en tu alcaldía o municipio, con instalación incluida; traslado según zona."
     btnText="Cotizar ahora"
     btnHref="/cotizar/"
     btnSecondaryText="Ver zonas de entrega"

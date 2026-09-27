@@ -7,7 +7,7 @@
  * precios"). Sumadas rondan las 300/mes y ninguna tenía página.
  *
  * La intención es de presupuesto, y la trampa del nicho es responderla
- * con un "desde $800" y nada más. Aquí se responde de verdad: qué es
+ * con un "desde $1,400" y nada más. Aquí se responde de verdad: qué es
  * lo barato, qué encarece la cuenta y cuándo NO conviene ir al modelo
  * más barato. Eso es lo que diferencia esta página de /precios/, que
  * es la lista completa.
@@ -22,8 +22,8 @@ import { INFLABLES_ACTIVOS, BADGE, PRICE_NOTE_LONG } from "@/data/inflables";
 import { COVERAGE_ZONES } from "@/data/coverage";
 import { SITE_URL } from "@/data/site";
 
-const title = "Renta de inflables económicos en CDMX desde $800";
-const description = "Renta de inflables económicos en CDMX y Edomex desde $800 MXN. Qué incluye el precio, qué lo encarece y cuándo no conviene el modelo más barato.";
+const title = "Renta de inflables económicos en CDMX desde $1,400";
+const description = "Renta de inflables económicos en CDMX y Edomex desde $1,400 MXN. Qué incluye el precio, qué lo encarece y cuándo no conviene el modelo más barato.";
 
 /* Los cuatro más accesibles del catálogo, ordenados por precio. */
 const BARATOS = INFLABLES_ACTIVOS.slice(0, 4);
@@ -33,11 +33,11 @@ const SIN_CARGO = COVERAGE_ZONES.filter(z => !z.shippingFee && !["cdmx", "edomex
 const faqs = [
   {
     question: "¿Cuál es el inflable más barato que rentan?",
-    answer: `El ${MAS_BARATO.name}, desde ${MAS_BARATO.price} MXN por evento de 4 a 6 horas. Mide ${MAS_BARATO.size}, necesita ${MAS_BARATO.spaceRequired} libres y está dimensionado para ${MAS_BARATO.capacity} de ${MAS_BARATO.ages}. Es barato porque es pequeño, no porque sea de menor calidad: se revisa y sanitiza igual que los demás.`,
+    answer: `El ${MAS_BARATO.name}, desde ${MAS_BARATO.price} MXN por evento de 4 a 6 horas. Es el modelo más compacto del catálogo y está pensado para ${MAS_BARATO.ages}. El espacio y la capacidad se confirman al cotizar. Es barato porque es pequeño, no porque sea de menor calidad: se revisa y sanitiza igual que los demás.`,
   },
   {
     question: "¿El precio barato esconde cargos extra?",
-    answer: `No hay cargos ocultos, pero sí dos cosas que pueden sumarse y que preferimos decir por delante. Una: ${PRICE_NOTE_LONG.toLowerCase()} Dos: en municipios distantes del Estado de México y en algunas alcaldías del sur y oriente de la CDMX hay un cargo de envío de $100 a $600 según la distancia, que publicamos en la página de cada zona. En ${SIN_CARGO.length} zonas el envío ya va incluido.`,
+    answer: `No hay cargos ocultos, pero sí dos cosas que pueden sumarse y que preferimos decir por delante. Una: ${PRICE_NOTE_LONG.toLowerCase()} Dos: en municipios distantes del Estado de México y en algunas alcaldías del sur y oriente de la CDMX hay un cargo de envío según la distancia, que publicamos en la página de cada zona. En Polanco el envío ya va incluido.`,
   },
   {
     question: "¿Sale más barato si lo recojo yo?",
@@ -45,11 +45,11 @@ const faqs = [
   },
   {
     question: "¿Hay descuento por rentar varios inflables?",
-    answer: "Para eventos con tres o más inflables —kermeses escolares, ferias, activaciones— armamos un paquete con precio propio e incluimos coordinación en sitio. No es un porcentaje fijo: depende de cuántos modelos, la zona y la duración. Cuéntanos el evento y te lo cotizamos.",
+    answer: "Para eventos con varios inflables —kermeses escolares, ferias, activaciones— revisamos la disponibilidad y te cotizamos el conjunto. El precio depende de los modelos, la zona y la duración. Cuéntanos el evento y te damos el precio por escrito.",
   },
   {
     question: "¿Conviene siempre el más barato?",
-    answer: `Sólo si la edad y el número de niños encajan. El ${MAS_BARATO.name} admite ${MAS_BARATO.capacity} de ${MAS_BARATO.ages}: en una fiesta de ocho niños de siete años se satura en minutos y acaba generando filas y pleitos. Ahorrar $400 para que el inflable no se use es el gasto más caro de la fiesta.`,
+    answer: `Sólo si la edad y las características de tu evento encajan. El ${MAS_BARATO.name} está pensado para ${MAS_BARATO.ages}; confirma el espacio y la capacidad al cotizar para que la elección funcione bien.`,
   },
 ];
 
@@ -98,7 +98,7 @@ const schema = {
         <div>
           <span class="hero__badge">Presupuesto</span>
           <h1 class="hero__title">Renta de <span class="highlight">Inflables Económicos</span> en CDMX</h1>
-          <p class="hero__trust-line"><span>Desde {MAS_BARATO.price} MXN · entrega e instalación incluidas</span></p>
+          <p class="hero__trust-line"><span>Desde {MAS_BARATO.price} MXN · instalación incluida · traslado según zona</span></p>
           <div class="hero__ctas">
             <a href="#opciones" class="btn btn-primary btn-lg">Ver opciones desde {MAS_BARATO.price}</a>
             <a href="/precios/" class="btn btn-outline btn-lg">Lista completa de precios</a>
@@ -129,8 +129,8 @@ const schema = {
         badge="Los más accesibles"
         title={`¿Qué inflables económicos hay de ${BARATOS[0].price} a ${BARATOS[BARATOS.length - 1].price}?`}
         subtitle="Ordenados de menor a mayor precio."
-        copy1={`El ${MAS_BARATO.name} es el más barato del catálogo y funciona muy bien en su rango: ${MAS_BARATO.ages}, ${MAS_BARATO.capacity} a la vez, y sólo pide ${MAS_BARATO.spaceRequired} libres. Es además uno de los dos modelos que caben bajo techo, así que evita el gasto de una carpa si el clima falla.`}
-        copy2="A partir de ahí el salto de precio compra capacidad y edad: los medianos aguantan de 5 a 7 niños de 4 a 10 años. Si tu grupo entra en esa franja, el mediano sale más rentable por niño que el chico."
+        copy1={`El ${MAS_BARATO.name} es el más barato del catálogo y funciona muy bien en su rango: ${MAS_BARATO.ages}. El espacio y la capacidad se confirman al cotizar. Es además uno de los dos modelos que caben bajo techo, así que evita el gasto de una carpa si el clima falla.`}
+        copy2="A partir de ahí el precio cambia según el tamaño, las características y el rango de edad de cada modelo. Si no sabes cuál elegir, revisamos tu evento y el espacio disponible antes de recomendarte uno."
       />
       <div class="grid-4">
         {BARATOS.map((inf) => (
@@ -180,7 +180,7 @@ const schema = {
             <li>
               <strong>Envío</strong> — de $100 a $600 según la distancia, en municipios
               distantes del Estado de México y algunas alcaldías del sur y oriente.
-              En {SIN_CARGO.length} zonas va incluido.
+              En Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco va incluido.
               <a href="/renta-de-inflables-cerca-de-mi/">Consulta el cargo de tu zona</a>.
             </li>
             <li>
@@ -201,7 +201,7 @@ const schema = {
         badge="Consejo honesto"
         title="¿Cuándo no conviene elegir el inflable más barato?"
         subtitle="Ahorrar en el modelo equivocado sale caro."
-        copy1={`El ${MAS_BARATO.name} cuesta ${MAS_BARATO.price} y admite ${MAS_BARATO.capacity} de ${MAS_BARATO.ages}. Si tu fiesta tiene ocho niños de siete años, se satura en los primeros minutos: se forman filas, los grandes desplazan a los chicos y el inflable acaba desocupado a media tarde. La diferencia con un mediano son $400 y evita justo eso.`}
+        copy1={`El ${MAS_BARATO.name} cuesta ${MAS_BARATO.price} y está recomendado para ${MAS_BARATO.ages}. Antes de apartar, confirma con nosotros el espacio disponible y las características del evento para elegir un modelo adecuado.`}
         copy2="La forma barata de verdad de bajar la cuenta no es elegir el modelo más chico, sino ajustar la duración y la fecha: entre semana y en temporada baja hay más disponibilidad. Escríbenos con la fecha y te decimos qué hay libre."
       />
       <div class="eco-regla">
