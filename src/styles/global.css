@@ -2842,3 +2842,54 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Enlaces dentro de los párrafos de SectionHeader. */
 .sh__copy a { color: var(--c-primary-text); font-weight: 600; }
+
+/* ══════════════════════════════════════════════════════════════
+   Mejora profesional 2026-09-27
+   1) «¿Por qué elegir?»: 7 tarjetas → la última fila se centra
+      (antes quedaba un hueco a la derecha).
+   2) «4 pasos»: icono en lugar de imagen IA (tenían texto falso:
+      «PRICE SALE», calendario «0021»).
+   ══════════════════════════════════════════════════════════════ */
+.why-sc-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.why-sc-grid > .why-sc {
+  flex: 0 1 calc((100% - 3 * 1.25rem) / 4);
+}
+@media (max-width: 1024px) {
+  .why-sc-grid > .why-sc { flex-basis: calc((100% - 1.25rem) / 2); }
+}
+@media (max-width: 480px) {
+  .why-sc-grid > .why-sc { flex-basis: calc((100% - 0.75rem) / 2); }
+}
+.why-sc__img-wrap { background: var(--c-border); }
+
+.why-sc__img--icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.5rem 1.25rem 0;
+}
+.paso-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--c-primary) 10%, #fff);
+  color: var(--c-primary);
+}
+.paso-icon svg { width: 28px; height: 28px; }
+.grid-4 > .why-sc { position: relative; }
+.grid-4 > .why-sc .proceso-num {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.25rem;
+  width: 32px;
+  height: 32px;
+  font-size: 0.95rem;
+  margin: 0;
+}
