@@ -23,7 +23,12 @@ const { images } = Astro.props;
   ))}
 </div>
 
-<style>.g4 {
+<style>/* Galerías con número de fotos no múltiplo de 4: la última fila se centra (2026-09-27) */
+  @media (min-width: 1025px) {
+    .g4.g4 { display: flex !important; flex-wrap: wrap; justify-content: center; }
+    .g4.g4 > .g4__item { flex: 0 0 calc((100% - 3 * 0.75rem) / 4); }
+  }
+  .g4 {
     display: grid !important;
     grid-template-columns: repeat(4, 1fr) !important;
     gap: 0.75rem !important;

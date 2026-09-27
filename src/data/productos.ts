@@ -72,15 +72,6 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       { src: "/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif", alt: "Renta inflable Barco Pirata en CDMX - evento exterior" },
       { src: "/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif", alt: "Renta inflable Barco Pirata en CDMX - vista lateral" },
       { src: "/img/inflables/barco-pirata/barco-pirata-renta-cdmx.avif", alt: "Renta inflable Barco Pirata en CDMX - renta a domicilio" },
-      { src: "/img/inflables/barco-pirata-inflable-vista-frontal-cdmx.avif", alt: "Inflable Barco Pirata decoración pirata CDMX" },
-      { src: "/img/inflables/barco-pirata-decoracion-pirata-evento.avif", alt: "Barco Pirata inflable vista frontal para fiesta infantil" },
-      { src: "/img/inflables/barco-pirata-tobogan-altura-fiesta-cdmx.avif", alt: "Renta de Barco Pirata inflable en evento CDMX" },
-      { src: "/img/inflables/barco-pirata-zona-brinco-jardin-cdmx.avif", alt: "Barco Pirata inflable instalado en jardín exterior" },
-      { src: "/img/inflables/barco-pirata-instalacion-exterior-cdmx.avif", alt: "Inflable temático pirata para cumpleaños infantil" },
-      { src: "/img/inflables/barco-pirata-vista-lateral-evento.avif", alt: "Barco Pirata inflable vista lateral con tobogán" },
-      { src: "/img/inflables/barco-pirata-fiesta-tematica-pirata.avif", alt: "Renta Barco Pirata inflable fiesta grande CDMX" },
-      { src: "/img/inflables/barco-pirata-kermess-escolar-cdmx.avif", alt: "Inflable Barco Pirata en evento al aire libre" },
-      { src: "/img/inflables/barco-pirata-renta-evento-grande-cdmx.avif", alt: "Barco Pirata inflable instalado en terraza para kermés" },
     ],
     pricingPackages: [
       {
@@ -138,15 +129,6 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       { src: "/img/inflables/castillo-blanco/alquiler-inflable-blanco-bodas-rosas-cdmx.avif", alt: "Renta inflable Castillo Blanco en CDMX - bodas con rosas" },
       { src: "/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif", alt: "Renta inflable Castillo Blanco en CDMX - ceremonia de boda" },
       { src: "/img/inflables/castillo-blanco/brincolin-blanco-bodas-decoracion-globos.avif", alt: "Renta inflable Castillo Blanco en CDMX - decoración con globos" },
-      { src: "/img/inflables/castillo-blanco-inflable-boda-cdmx.avif", alt: "Castillo Blanco inflable para eventos elegantes CDMX" },
-      { src: "/img/inflables/castillo-blanco-boda-terraza-cdmx.avif", alt: "Inflable blanco premium para bodas en CDMX" },
-      { src: "/img/inflables/castillo-blanco-xv-anos-inflable-cdmx.avif", alt: "Castillo Blanco inflable vista frontal evento formal" },
-      { src: "/img/inflables/castillo-blanco-bautizo-evento-formal.avif", alt: "Renta de castillo inflable blanco para XV años CDMX" },
-      { src: "/img/inflables/castillo-blanco-decoracion-elegante-cdmx.avif", alt: "Castillo Blanco inflable instalado en jardín" },
-      { src: "/img/inflables/castillo-blanco-instalacion-jardin-boda.avif", alt: "Inflable Castillo Blanco en bautizo decoración elegante" },
-      { src: "/img/inflables/castillo-blanco-vista-frontal-evento.avif", alt: "Castillo Blanco inflable vista lateral evento CDMX" },
-      { src: "/img/inflables/castillo-blanco-salon-bodas-cdmx.avif", alt: "Renta inflable blanco para eventos formales Estado de México" },
-      { src: "/img/inflables/castillo-blanco-terraza-boda-edomex.avif", alt: "Castillo Blanco inflable en terraza para boda" },
     ],
     pricingPackages: [
       {
@@ -203,15 +185,6 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       { src: "/img/inflables/castillo-princesas/castillo-princesas-renta-cdmx.avif", alt: "Renta de Castillo de Princesas inflable en CDMX" },
       { src: "/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif", alt: "Castillo de Princesas en fiesta infantil temática" },
       { src: "/img/inflables/castillo-princesas/mini-princess-renta-cdmx.avif", alt: "Inflable princesas disponible para renta en Ciudad de México" },
-      { src: "/img/inflables/castillo-princesas-cumpleanos-nina-cdmx.avif", alt: "Castillo de Princesas inflable rosa cumpleaños niña CDMX" },
-      { src: "/img/inflables/castillo-princesas-fiesta-tematica-rosa.avif", alt: "Renta de castillo inflable princesas fiesta temática" },
-      { src: "/img/inflables/castillo-princesas-vista-frontal-cdmx.avif", alt: "Inflable Castillo de Princesas vista frontal CDMX" },
-      { src: "/img/inflables/castillo-princesas-resbaladilla-decoracion.avif", alt: "Castillo princesas inflable decoración rosa y morado" },
-      { src: "/img/inflables/castillo-princesas-jardin-exterior-fiesta.avif", alt: "Inflable princesas instalado en jardín para cumpleaños" },
-      { src: "/img/inflables/castillo-princesas-salon-cumpleanos.avif", alt: "Renta Castillo Princesas para fiesta de niña CDMX" },
-      { src: "/img/inflables/castillo-princesas-vista-lateral-cdmx.avif", alt: "Castillo de Princesas inflable vista lateral evento" },
-      { src: "/img/inflables/castillo-princesas-terraza-evento-nina.avif", alt: "Inflable princesas en terraza para fiesta infantil" },
-      { src: "/img/inflables/castillo-princesas-renta-domicilio-cdmx.avif", alt: "Castillo de Princesas inflable renta a domicilio CDMX" },
     ],
     pricingPackages: [
       {
@@ -509,15 +482,6 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       { src: "/img/inflables/mini-castillo/mini-castillo-exterior.avif", alt: "Renta inflable Castillo Baby en CDMX - evento exterior" },
       { src: "/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif", alt: "Renta inflable Castillo Baby en CDMX - fiesta en interior" },
       { src: "/img/inflables/mini-castillo/mini-castillo-renta-cdmx.avif", alt: "Renta inflable Castillo Baby en CDMX - traslado según zona" },
-      { src: "/img/inflables/mini-castillo-primer-cumpleanos-bebe.avif", alt: "Castillo Baby inflable compacto para bebés CDMX" },
-      { src: "/img/inflables/mini-castillo-interior-departamento-cdmx.avif", alt: "Renta Castillo Baby inflable para niños pequeños" },
-      { src: "/img/inflables/mini-castillo-fiesta-interior-pequeno.avif", alt: "Inflable Castillo Baby vista frontal en interior de fiesta" },
-      { src: "/img/inflables/mini-castillo-bautizo-nino-pequeno.avif", alt: "Castillo Baby brincolin compacto evento departamento" },
-      { src: "/img/inflables/mini-castillo-vista-frontal-fiesta.avif", alt: "Renta Castillo Baby inflable primer cumpleaños bebé" },
-      { src: "/img/inflables/mini-castillo-salon-bebe-renta.avif", alt: "Castillo Baby inflable en bautizo fiesta familiar" },
-      { src: "/img/inflables/mini-castillo-instalacion-terraza-cdmx.avif", alt: "Inflable Castillo Baby renta a domicilio CDMX" },
-      { src: "/img/inflables/mini-castillo-evento-familiar-cdmx.avif", alt: "Castillo Baby inflable instalado en salón de fiestas" },
-      { src: "/img/inflables/mini-castillo-brincolin-compacto-cdmx.avif", alt: "Brincolin Castillo Baby para bebés Estado de México" },
     ],
     pricingPackages: [
       {

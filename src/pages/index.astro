@@ -192,7 +192,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
   <!-- ═══════════════════════════════════════════════════════════
        HERO — H1 cubre las 3 KWs pilar + trust bar
   ═══════════════════════════════════════════════════════════ -->
-  <section class="hero">
+  <section class="hero hero--home">
     <div class="container">
       <div class="hero__grid">
 
@@ -200,7 +200,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
         <div>
           <span class="hero__badge">+20 años de experiencia · CDMX y Edomex</span>
           <h1 class="hero__title">
-            Renta de <span class="highlight">Inflables</span> y <span class="highlight">Brincolines</span> para <span class="highlight">Fiestas</span> en CDMX
+            Renta de <span class="highlight">inflables</span> y <span class="highlight">brincolines</span> para <span class="highlight">fiestas</span> en CDMX
           </h1>
           <p class="hero__desc">
             Brincolines, castillos inflables, barcos pirata y circuitos de obstáculos para cumpleaños, kermeses y eventos corporativos. Instalación, limpieza y recolección incluidas; traslado según zona.
@@ -217,6 +217,12 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
             <span>+20 años · miles de fiestas en CDMX y Edomex · instalación incluida</span>
           </p>
         </div>
+
+        <!-- Foto real del catálogo (mejora profesional 2026-09-27) -->
+        <figure class="hero__media">
+          <img src="/img/inflables/extremo.avif" alt="Circuito inflable Extremo con túneles y tobogán instalado en un jardín en CDMX" width="1200" height="675" fetchpriority="high" decoding="async" />
+          <figcaption class="hero__media-tag">8 modelos para cumpleaños, kermeses y eventos</figcaption>
+        </figure>
 
         <!-- Columna derecha — párrafos de densidad semántica controlada -->
         <div class="hero__copy">
@@ -299,7 +305,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     <div class="container">
       <SectionHeader
         badge="Eventos Profesionales"
-        title="Inflables para Eventos Corporativos, Kermeses y Celebraciones Masivas"
+        title="Inflables para eventos corporativos, kermeses y celebraciones masivas"
         subtitle="Coordinación de múltiples inflables para kermeses, team building, ferias y activaciones de marca."
         copy1="Más allá de los cumpleaños, BRINCOLINS es el proveedor de confianza para organizadores de eventos profesionales en CDMX y la Zona Metropolitana. Coordinamos la logística de varios inflables simultáneos para kermeses escolares, jornadas de team building corporativo, ferias comunitarias, family days y activaciones de marca, con un coordinador dedicado que se encarga de que todo salga a tiempo."
         copy2="Con más de 20 años de experiencia y capacidad para eventos de hasta 500 personas, garantizamos puntualidad, seguridad y el nivel de servicio que un evento corporativo exige. Emitimos factura y armamos un paquete a la medida de tu presupuesto. Cuéntanos los detalles de tu evento y te cotizamos en minutos."
@@ -461,7 +467,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
           <div class="fiesta-card__icon-wrap fiesta-card__icon-wrap--primary">
             <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.87c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513m-3-4.87v-1.5m-3 1.5v-1.5m-3 4.498-.004.002L9 16.5m6 0 .004-.002L15 16.5m0 0v1.5a.75.75 0 01-.75.75h-4.5A.75.75 0 019 18v-1.5m6 0H9" /></svg>
           </div>
-          <h3 class="fiesta-card__title">Inflables para Cumpleaños Infantiles</h3>
+          <h3 class="fiesta-card__title">Inflables para cumpleaños infantiles</h3>
           <p class="fiesta-card__ages">Niños de 2 a 12 años</p>
           <p class="fiesta-card__desc">Los inflables temáticos más populares de CDMX: Dragones Rojos, Castillo de Princesas, Jungla, Gusanitos y el épico Barco Pirata. Modelos con resbaladillas integradas y mallas de seguridad.</p>
           <ul class="fiesta-card__list">
@@ -477,7 +483,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
           <div class="fiesta-card__icon-wrap fiesta-card__icon-wrap--secondary">
             <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" /></svg>
           </div>
-          <h3 class="fiesta-card__title">Inflable para Bebés y Niños Pequeños</h3>
+          <h3 class="fiesta-card__title">Inflable para bebés y niños pequeños</h3>
           <p class="fiesta-card__ages">Niños de 1 a 3 años</p>
           <p class="fiesta-card__desc">El Castillo Baby fue diseñado especialmente para los más pequeños. Con paredes más bajas, suelo acolchado y apertura amplia para supervisión constante, es perfecto para interiores y espacios reducidos como departamentos.</p>
           <ul class="fiesta-card__list">
@@ -493,7 +499,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
           <div class="fiesta-card__icon-wrap fiesta-card__icon-wrap--accent">
             <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" /></svg>
           </div>
-          <h3 class="fiesta-card__title">Inflables Elegantes para Bodas y XV Años</h3>
+          <h3 class="fiesta-card__title">Inflables elegantes para bodas y XV años</h3>
           <p class="fiesta-card__ages">Niños de 3 a 12 años</p>
           <p class="fiesta-card__desc">El Castillo Blanco es el inflable de lujo para celebraciones formales. Su diseño en blanco inmaculado con detalles dorados armoniza con decoraciones elegantes. Una experiencia diferente que sorprende a los invitados.</p>
           <ul class="fiesta-card__list">
@@ -530,27 +536,27 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
 
         <div class="why-sc">
           <div class="why-sc__img-wrap">
-            <img src="/img/why/why-20-anos-experiencia-inflables-cdmx.avif" alt="Más de 20 años rentando inflables en CDMX" width="400" height="225" loading="lazy" />
+            <img src="/img/inflables/castillo-princesas-720w.avif" alt="Castillo de Princesas inflable con resbaladilla instalado en un jardín" width="400" height="225" loading="lazy" />
           </div>
           <div class="why-sc__body">
-            <h3 class="why-sc__title">+20 Años Rentando Inflables en CDMX</h3>
+            <h3 class="why-sc__title">+20 años rentando inflables en CDMX</h3>
             <p class="why-sc__desc">Miles de fiestas exitosas en CDMX y Estado de México desde 2005 nos respaldan.</p>
           </div>
         </div>
 
         <div class="why-sc">
           <div class="why-sc__img-wrap">
-            <img src="/img/why/why-entrega-instalacion-inflables-cdmx.avif" alt="Entrega e instalación de inflables a domicilio en CDMX" width="400" height="225" loading="lazy" />
+            <img src="/img/inflables/barco-pirata-720w.avif" alt="Inflable Barco Pirata instalado en un jardín para una fiesta" width="400" height="225" loading="lazy" />
           </div>
           <div class="why-sc__body">
-            <h3 class="why-sc__title">Entrega de Inflables a Domicilio</h3>
+            <h3 class="why-sc__title">Entrega de inflables a domicilio</h3>
             <p class="why-sc__desc">Llevamos, instalamos y recogemos; el traslado se confirma según zona. Sin letra chica, sin sorpresas.</p>
           </div>
         </div>
 
         <div class="why-sc">
           <div class="why-sc__img-wrap">
-            <img src="/img/why/why-limpieza-inflables-desinfectados.avif" alt="Inflables limpios y desinfectados para fiestas infantiles" width="400" height="225" loading="lazy" />
+            <img src="/img/inflables/castillo-blanco.avif" alt="Castillo Blanco inflable limpio instalado en una terraza para evento" width="400" height="225" loading="lazy" />
           </div>
           <div class="why-sc__body">
             <h3 class="why-sc__title">Limpieza y sanitización</h3>
@@ -560,7 +566,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
 
         <div class="why-sc">
           <div class="why-sc__img-wrap">
-            <img src="/img/why/why-mejores-precios-inflables-cdmx.avif" alt="Mejores precios en renta de inflables CDMX y Edomex" width="400" height="225" loading="lazy" />
+            <img src="/img/inflables/dragones-rojos-720w.avif" alt="Inflable Dragones Rojos con resbaladilla para fiesta infantil" width="400" height="225" loading="lazy" />
           </div>
           <div class="why-sc__body">
             <h3 class="why-sc__title">Precios transparentes desde $1,400</h3>
@@ -571,7 +577,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
 
         <div class="why-sc">
           <div class="why-sc__img-wrap">
-            <img src="/img/why/why-atencion-24-horas-whatsapp-inflables.avif" alt="Atención 24 horas por WhatsApp renta de inflables" width="400" height="225" loading="lazy" />
+            <img src="/img/inflables/gusanitos-720w.avif" alt="Inflable Gusanitos con resbaladilla para fiestas infantiles" width="400" height="225" loading="lazy" />
           </div>
           <div class="why-sc__body">
             <h3 class="why-sc__title">Respuesta en minutos por WhatsApp</h3>
@@ -581,7 +587,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
 
         <div class="why-sc">
           <div class="why-sc__img-wrap">
-            <img src="/img/why/why-instalacion-2-horas-inflables-cdmx.avif" alt="Instalación profesional de inflables en menos de 30 minutos" width="400" height="225" loading="lazy" />
+            <img src="/img/inflables/mini-jungla-720w.avif" alt="Inflable Jungla con resbaladilla y figuras de selva" width="400" height="225" loading="lazy" />
           </div>
           <div class="why-sc__body">
             <h3 class="why-sc__title">Instalación en menos de 30 minutos</h3>
@@ -591,10 +597,10 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
 
         <div class="why-sc">
           <div class="why-sc__img-wrap">
-            <img src="/img/why/why-cobertura-cdmx-edomex-inflables.avif" alt="Renta de inflables con cobertura en CDMX y Estado de México" width="400" height="225" loading="lazy" />
+            <img src="/img/inflables/mini-castillo-720w.avif" alt="Inflable Mini Castillo instalado en el jardín de una casa" width="400" height="225" loading="lazy" />
           </div>
           <div class="why-sc__body">
-            <h3 class="why-sc__title">Inflables con Cobertura en Toda la ZMVM</h3>
+            <h3 class="why-sc__title">Inflables con cobertura en toda la ZMVM</h3>
             <p class="why-sc__desc">Las 16 alcaldías de CDMX y los principales municipios del Estado de México, con traslado confirmado según zona.</p>
           </div>
         </div>
@@ -616,18 +622,18 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
       />
       <div class="grid-4">
         <div class="why-sc">
-          <div class="why-sc__img">
-            <img src="/img/proceso/proceso-elige-inflable.avif" alt="Elige tu inflable del catálogo BRINCOLINS CDMX" width="400" height="225" loading="lazy" />
+          <div class="why-sc__img why-sc__img--icon">
+            <span class="paso-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span>
           </div>
           <div class="why-sc__body">
             <span class="proceso-num">1</span>
-            <h3 class="why-sc__title">Elige tu Inflable para la Fiesta</h3>
+            <h3 class="why-sc__title">Elige tu inflable para la fiesta</h3>
             <p class="why-sc__desc">Explora nuestro catálogo y elige el inflable perfecto para tu fiesta o evento.</p>
           </div>
         </div>
         <div class="why-sc">
-          <div class="why-sc__img">
-            <img src="/img/proceso/proceso-cotiza-whatsapp.avif" alt="Cotiza tu inflable por WhatsApp con BRINCOLINS" width="400" height="225" loading="lazy" />
+          <div class="why-sc__img why-sc__img--icon">
+            <span class="paso-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8.5 8.5 0 0 1-12.4 7.6L3 21l1.4-5.4A8.5 8.5 0 1 1 21 12z"/><path d="M8.5 10.5h7M8.5 13.5h4.5"/></svg></span>
           </div>
           <div class="why-sc__body">
             <span class="proceso-num">2</span>
@@ -636,8 +642,8 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
           </div>
         </div>
         <div class="why-sc">
-          <div class="why-sc__img">
-            <img src="/img/proceso/proceso-aparta-fecha.avif" alt="Aparta tu fecha con anticipo del 50% BRINCOLINS" width="400" height="225" loading="lazy" />
+          <div class="why-sc__img why-sc__img--icon">
+            <span class="paso-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="16.5" rx="2"/><path d="M3 9.5h18M8 3v3M16 3v3M8.5 15l2.3 2.2L15.5 13"/></svg></span>
           </div>
           <div class="why-sc__body">
             <span class="proceso-num">3</span>
@@ -646,8 +652,8 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
           </div>
         </div>
         <div class="why-sc">
-          <div class="why-sc__img">
-            <img src="/img/proceso/proceso-disfruta-fiesta.avif" alt="Disfruta tu fiesta con inflables BRINCOLINS CDMX" width="400" height="225" loading="lazy" />
+          <div class="why-sc__img why-sc__img--icon">
+            <span class="paso-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l5.5-13.5L17.5 14.5z"/><path d="M13 3.5l.5 2M18 6l-1.5 1.5M20.5 10.5l-2 .5M15 2.5c1 1.5 1 3-.5 4.5"/></svg></span>
           </div>
           <div class="why-sc__body">
             <span class="proceso-num">4</span>
@@ -665,7 +671,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     <div class="container">
       <SectionHeader
         badge="Referencias"
-        title="Lo que Dicen Quienes Trabajan con Nosotros"
+        title="Lo que dicen quienes trabajan con nosotros"
         subtitle="Proveedores con los que coincidimos en eventos, y familias que nos han contratado."
         copy1="La mayoría de estas referencias vienen de empresas del sector de eventos —mesas de dulces, globos, mobiliario, pantallas— con las que compartimos montaje en fiestas de CDMX y Edomex. Son quienes ven de cerca cómo trabaja nuestro equipo."
         copy2="Están marcadas como aliado comercial para que sepas de dónde viene cada opinión. Las de clientes aparecen con su nombre y su zona."
@@ -715,7 +721,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     <div class="container">
       <SectionHeader
         badge="Cobertura"
-        title="Entrega de Inflables en CDMX y Estado de México"
+        title="Entrega de inflables en CDMX y Estado de México"
         subtitle="Cubrimos toda la CDMX y los principales municipios del Estado de México; el traslado se confirma según zona."
         copy1="Nuestra flota de transporte cubre las 16 alcaldías de la Ciudad de México y los principales municipios del Estado de México. La entrega sin costo adicional aplica solo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco; en el resto se confirma el traslado según zona. Cada zona tiene su propia página con información detallada sobre tiempos y disponibilidad."
         copy2="Contamos con rutas optimizadas y un equipo logístico que garantiza puntualidad en cada entrega. Si tu zona no aparece en la lista, contáctanos: frecuentemente atendemos zonas adicionales bajo consulta. La cobertura amplia es parte de nuestro compromiso con las familias de la Zona Metropolitana del Valle de México."
@@ -777,7 +783,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     <div class="container">
       <SectionHeader
         badge="Blog"
-        title="Blog de Inflables — Guías y Consejos para tu Fiesta en CDMX"
+        title="Blog de inflables — guías y consejos para tu fiesta en CDMX"
         subtitle="Todo lo que aprendimos en +20 años organizando fiestas e inflables en CDMX."
         copy1="En nuestro blog compartimos lo que hemos aprendido en más de 20 años atendiendo fiestas infantiles y eventos en CDMX y Estado de México. Desde cómo elegir el inflable ideal según la edad hasta consejos de seguridad y guías de precios actualizadas para 2026."
         copy2="Nuevo contenido cada mes para ayudarte a planear un evento memorable. Ya sea tu primera fiesta con inflable o la número cien, siempre hay algo nuevo que aprender sobre cómo hacer que los niños — y los adultos — lo pasen increíble."
@@ -860,7 +866,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
   <!-- CTA FINAL -->
   <section class="cta-final">
     <div class="container">
-      <h2 class="cta-final__title">Cotiza tu Renta de Inflables — Respuesta en Minutos</h2>
+      <h2 class="cta-final__title">Cotiza tu renta de inflables — respuesta en minutos</h2>
       <p class="cta-final__desc">
         Reserva tu inflable hoy — respondemos en minutos. Más de 20 años rentando inflables en CDMX y Edomex nos respaldan.
       </p>
