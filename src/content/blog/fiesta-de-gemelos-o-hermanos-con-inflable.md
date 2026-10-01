@@ -69,7 +69,7 @@ Tienes tres caminos: una temática que contenga a las dos, dos zonas con colores
 - **Dos zonas con colores propios.** La mesa de cada uno con su temática y un elemento central neutro que los una.
 - **Una temática de competencia.** Si los dos son competitivos, la [fiesta ninja con cintas de colores por nivel](/blog/fiesta-ninja-con-circuito-de-obstaculos/) pone a todos en el mismo entrenamiento y convierte a los festejados en «grandes maestros».
 
-¿Y el inflable? Neutro, por suerte. El Extremo no está atado a un personaje, así que no compite con ninguna de tus dos temáticas. Si una es de cuento o de realeza, el [Castillo de Princesas, rosa y morado](/inflables/castillo-princesas/) es para niños de 2 a 10 años. Si es de piratas, el [Barco Pirata con mástil y velas](/inflables/barco-pirata/) tiene tobogán por la popa.
+¿Y el inflable? Neutro, por suerte. El Extremo no está atado a un personaje, así que no compite con ninguna de tus dos temáticas. Si una es de cuento o de realeza, el [Castillo de Princesas, rosa y azul turquesa](/inflables/castillo-princesas/) es para niños de 2 a 10 años. Si es de piratas, el [Barco Pirata con mástil y velas](/inflables/barco-pirata/) tiene tobogán por la popa.
 
 ## ¿Por qué el doble carril del Extremo hace justas las carreras entre hermanos?
 

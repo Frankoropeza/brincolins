@@ -162,7 +162,7 @@ Cuando tu paleta es rosa y lila, cuando tus invitados son bebés o cuando la tem
 
 ### Cuando la paleta es rosa y lila
 
-El [Castillo de Princesas, en rosa y morado con torres decorativas](/inflables/castillo-princesas/), combina mejor con una fiesta pastel de tonos fuertes. Es para niños de 2 a 10 años, mide 5 × 3.30 × 3 m y cuesta $1,800.
+El [Castillo de Princesas, en rosa y azul turquesa con torres decorativas](/inflables/castillo-princesas/), combina mejor con una fiesta pastel de tonos fuertes. Es para niños de 2 a 10 años, mide 5 × 3.30 × 3 m y cuesta $1,800.
 
 ### Cuando los niños son bebés
 

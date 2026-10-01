@@ -40,7 +40,7 @@ El catálogo son **8 modelos**, ni uno más, y todos tienen precio publicado. Es
 
 - **[Castillo Baby](/inflables/mini-castillo/) — $1,400 MXN.** Mide 2.5×2×2 m, para niños de 1 a 3 años.
 - **[Dragones Rojos](/inflables/dragones-rojos/) — $1,600 MXN.** Mide 5×3×2.80 m, para niños de 3 a 8 años. Castillo rojo con dragones decorativos; es el modelo más rentado del catálogo.
-- **[Castillo de Princesas](/inflables/castillo-princesas/) — $1,800 MXN.** Mide 5×3.30×3 m, para niños de 2 a 10 años. Rosa y morado con torres; es el más pedido para fiestas de niñas.
+- **[Castillo de Princesas](/inflables/castillo-princesas/) — $1,800 MXN.** Mide 5×3.30×3 m, para niños de 2 a 10 años. Rosa y azul turquesa con torres; es el más pedido para fiestas de niñas.
 - **[Jungla](/inflables/mini-jungla/) — $1,600 MXN.** Mide 5×3×2.50 m, para niños de 3 a 8 años. Temática safari.
 - **[Gusanitos](/inflables/gusanitos/) — $1,600 MXN.** Mide 5×3×2.80 m, para niños de 2 a 8 años. Circuito de túneles de colores.
 - **[Castillo Blanco](/inflables/castillo-blanco/) — $2,600 MXN.** Mide 5×7×4 m, para niños de 3 a 12 años. Estética neutra para bodas, XV años y eventos formales.

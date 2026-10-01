@@ -105,7 +105,7 @@ export const INFLABLES: Inflable[] = [
     capacity:    "Se confirma al cotizar",
     installTime: "20 minutos",
     image:       "/img/inflables/castillo-princesas.avif",
-    description: "El Castillo de Princesas es el inflable favorito para fiestas temáticas. Diseño en rosa y morado con torres decorativas, resbaladilla y mallas de seguridad.",
+    description: "El Castillo de Princesas es el inflable favorito para fiestas temáticas. Diseño en rosa y azul turquesa con torres decorativas, resbaladilla y mallas de seguridad.",
     category:    "mediano",
     active:      true,
     gallery: [

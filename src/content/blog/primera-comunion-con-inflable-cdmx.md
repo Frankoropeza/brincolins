@@ -69,9 +69,9 @@ Esta tabla pone lado a lado los castillos que puedes considerar para una recepci
 | ¿Interiores? | No, sólo exterior | No, sólo exterior | Sí |
 | Instalación | 30 min | 20 min | 15 min |
 | Precio neto por evento | $2,600 | $1,800 | $1,400 |
-| Estilo | Blanco, para eventos formales | Rosa y morado con torres decorativas | Compacto, para bebés |
+| Estilo | Blanco, para eventos formales | Rosa y azul turquesa con torres decorativas | Compacto, para bebés |
 
-El precio no es lo que decide. Deciden el rango de edad y el color. El [Castillo de Princesas en rosa y morado](/inflables/castillo-princesas/) luce si tu hija quiere un cuento de hadas, pero llega hasta los 10 años y deja fuera a los primos de 11 y 12. Junto a tu mesa de honor con flores blancas, además, el rosa compite con todo.
+El precio no es lo que decide. Deciden el rango de edad y el color. El [Castillo de Princesas en rosa y azul turquesa](/inflables/castillo-princesas/) luce si tu hija quiere un cuento de hadas, pero llega hasta los 10 años y deja fuera a los primos de 11 y 12. Junto a tu mesa de honor con flores blancas, además, el rosa compite con todo.
 
 ¿Cuántos niños brincan por turno? ¿Cuánto espacio libre necesitas alrededor? Eso te lo confirmamos al cotizar, con las medidas reales de tu jardín. Una foto del lugar ayuda mucho.
 

@@ -72,7 +72,7 @@ Es más circuito que brincolín: túneles de colores conectados, con varias entr
 
 ### Castillo de Princesas: el más vistoso
 
-Rosa y morado, con torres decorativas, resbaladilla y mallas de seguridad. Mide 5 × 3.30 × 3 m, es para niños de 2 a 10 años, pide 4.2 m de altura libre, va sólo en exterior y cuesta $1,800. Si tu fiesta tiene temática de princesas, es el que más se presta. Medidas y fotos en la ficha del [Castillo de Princesas con resbaladilla](/inflables/castillo-princesas/).
+Rosa y azul turquesa, con torres decorativas, resbaladilla y mallas de seguridad. Mide 5 × 3.30 × 3 m, es para niños de 2 a 10 años, pide 4.2 m de altura libre, va sólo en exterior y cuesta $1,800. Si tu fiesta tiene temática de princesas, es el que más se presta. Medidas y fotos en la ficha del [Castillo de Princesas con resbaladilla](/inflables/castillo-princesas/).
 
 ![Torres naranja y rosa del Castillo Baby con techo azul y pelotas adentro, junto a una barda](/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif)
 

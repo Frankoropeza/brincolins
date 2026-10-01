@@ -89,7 +89,7 @@ Con tres opciones, tu hijo decide rápido. Lo que no conviene es elegir una tem�
 | Gusanitos | 2 a 8 años | 5 × 3 × 2.80 m | Sí | $1,600 |
 | Castillo Baby | 1 a 3 años | 2.5 × 2 × 2 m | Sí | $1,400 |
 
-Si escoge dinosaurios, el Jungla ya trae dinosaurios y palmeras, y tienes la ambientación completa en las [ideas de excavación y juegos de paleontólogo](/blog/fiesta-de-dinosaurios-con-inflable-cdmx/). Si escoge princesas, el [Castillo de Princesas rosa y morado](/inflables/castillo-princesas/) trae torres decorativas, resbaladilla y mallas de seguridad. ¿Sigues con dudas? La guía para [elegir inflable según edad, espacio y temática](/blog/como-elegir-inflable-fiesta-infantil/) ordena los criterios, y la categoría de [brincolines para niños por rango de edad](/inflables/para-ninos/) reúne los modelos.
+Si escoge dinosaurios, el Jungla ya trae dinosaurios y palmeras, y tienes la ambientación completa en las [ideas de excavación y juegos de paleontólogo](/blog/fiesta-de-dinosaurios-con-inflable-cdmx/). Si escoge princesas, el [Castillo de Princesas rosa y azul turquesa](/inflables/castillo-princesas/) trae torres decorativas, resbaladilla y mallas de seguridad. ¿Sigues con dudas? La guía para [elegir inflable según edad, espacio y temática](/blog/como-elegir-inflable-fiesta-infantil/) ordena los criterios, y la categoría de [brincolines para niños por rango de edad](/inflables/para-ninos/) reúne los modelos.
 
 ## ¿Cuánto debe durar una fiesta de 4 años y cómo repartes el tiempo?
 

@@ -170,7 +170,7 @@ La tabla compara el barco con tres opciones que suelen entrar en esta conversaci
 | Castillo Baby | 2.5 × 2 × 2 m | 1 a 3 años | Sí | $1,400 |
 | Gusanitos | 5 × 3 × 2.80 m | 2 a 8 años | Sí | $1,600 |
 
-Si la festejada sueña con torres, el [Castillo de Princesas en rosa y morado como palacio de sirenas](/inflables/castillo-princesas/) también cuenta la historia. Si hay hermanos de 1 a 3 años, no entran al barco: el [Castillo Baby para los invitados más pequeños](/inflables/mini-castillo/) va en otra zona con su propio adulto. Todos los diseños con historia están en los [inflables con temática del catálogo](/inflables/tematicos/).
+Si la festejada sueña con torres, el [Castillo de Princesas en rosa y azul turquesa como palacio de sirenas](/inflables/castillo-princesas/) también cuenta la historia. Si hay hermanos de 1 a 3 años, no entran al barco: el [Castillo Baby para los invitados más pequeños](/inflables/mini-castillo/) va en otra zona con su propio adulto. Todos los diseños con historia están en los [inflables con temática del catálogo](/inflables/tematicos/).
 
 ## ¿Qué errores arruinan una fiesta temática doble?
 

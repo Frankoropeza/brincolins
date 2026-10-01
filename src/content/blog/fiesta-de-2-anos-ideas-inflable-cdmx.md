@@ -165,7 +165,7 @@ Les dices que no y les das su propio espacio antes de que lo pidan. El Castillo 
 
 ### Un segundo inflable en exterior
 
-Si hay jardín, el [Castillo de Princesas para los primos mayores](/inflables/castillo-princesas/) recibe niños de 2 a 10 años, mide 5 × 3.30 × 3 m y cuesta $1,800. Pide 4.2 m de altura libre y va sólo en exterior. Rosa y morado, con torres, resbaladilla y mallas de seguridad.
+Si hay jardín, el [Castillo de Princesas para los primos mayores](/inflables/castillo-princesas/) recibe niños de 2 a 10 años, mide 5 × 3.30 × 3 m y cuesta $1,800. Pide 4.2 m de altura libre y va sólo en exterior. Rosa y azul turquesa, con torres, resbaladilla y mallas de seguridad.
 
 ### Sin segundo inflable
 

@@ -50,7 +50,7 @@ Con una paleta de verdes selváticos, cafés tierra y acentos brillantes en los 
 
 ### [Castillo de Princesas](/inflables/castillo-princesas/)
 
-Para quienes buscan una paleta más de fantasía, el **Castillo de Princesas** ofrece rosas, morados, azules cielo y toques dorados. Mide 5 × 3.30 × 3 m, es para niñas de 2 a 10 años y cuesta **$1,800 MXN**. Es el modelo más solicitado para fiestas de niñas — más ideas en la guía de [inflables temáticos para niñas](/blog/inflables-tematicos-ninas-cdmx/).
+Para quienes buscan una paleta más de fantasía, el **Castillo de Princesas** ofrece rosas, azul turquesa y toques dorados. Mide 5 × 3.30 × 3 m, es para niñas de 2 a 10 años y cuesta **$1,800 MXN**. Es el modelo más solicitado para fiestas de niñas — más ideas en la guía de [inflables temáticos para niñas](/blog/inflables-tematicos-ninas-cdmx/).
 
 ## 3. Psicología del color aplicada a fiestas de niños
 
@@ -58,7 +58,7 @@ Cada color genera una respuesta emocional diferente en los niños. Entender esto
 
 - **Rojo y naranja:** Generan energía, emoción y actividad. Perfectos para fiestas donde quieres niños activos y juguetones. Gusanitos tiene estos colores como protagonistas.
 - **Verde y azul:** Transmiten calma, naturaleza y aventura. Jungla aprovecha estos tonos para crear una atmósfera de exploración y descubrimiento.
-- **Rosa y morado:** Asociados con la fantasía, la magia y los cuentos de hadas. El Castillo de Princesas usa esta paleta para transportar a los niños a un mundo imaginario.
+- **Rosa y azul turquesa:** Asociados con la fantasía, la magia y los cuentos de hadas. El Castillo de Princesas usa esta paleta para transportar a los niños a un mundo imaginario.
 - **Amarillo:** El color de la alegría y la creatividad. Presente en varios de nuestros modelos como acento que atrae la mirada y genera sonrisas instantáneas.
 
 > **Consejo de color:** Si tu fiesta tiene una temática específica, elige un inflable cuyos colores complementen la decoración. Gusanitos con decoración de frutas y hojas tropicales crea una experiencia visual coherente e impactante.

@@ -121,7 +121,7 @@ export const CATEGORIAS: Categoria[] = [
     guiaSub:   "Espacio disponible, edad de los invitados y tipo de evento.",
     guia: [
       "El primer filtro siempre es el espacio libre. El espacio de instalación y la altura libre requerida de cada modelo se confirman al cotizar. Mide tu espacio antes de enamorarte de un modelo, porque el margen perimetral no es negociable — es lo que permite anclar y lo que evita que un niño caiga contra una pared.",
-      "El segundo filtro es el tono del evento. Para un cumpleaños de niña de 2 a 10 años el Castillo de Princesas gana por temática: rosa y morado, torres decorativas y resbaladilla integrada. Para bodas, bautizos y XV años el Castillo Blanco es el único que se integra con la decoración en lugar de competir con ella, y su capacidad se confirma al cotizar. Y si los invitados son bebés, el Castillo Baby no tiene sustituto en el catálogo: es el único con paredes lo bastante bajas para que un adulto supervise desde afuera sin perder de vista a nadie.",
+      "El segundo filtro es el tono del evento. Para un cumpleaños de niña de 2 a 10 años el Castillo de Princesas gana por temática: rosa y azul turquesa, torres decorativas y resbaladilla integrada. Para bodas, bautizos y XV años el Castillo Blanco es el único que se integra con la decoración en lugar de competir con ella, y su capacidad se confirma al cotizar. Y si los invitados son bebés, el Castillo Baby no tiene sustituto en el catálogo: es el único con paredes lo bastante bajas para que un adulto supervise desde afuera sin perder de vista a nadie.",
     ],
     productos: ["mini-castillo", "castillo-princesas", "castillo-blanco"],
     faqs: [
@@ -419,7 +419,7 @@ export const CATEGORIAS: Categoria[] = [
     guiaTitle: "Cómo hacer que el inflable sostenga la temática",
     guiaSub:   "Coherencia visual, punto fotográfico y presupuesto de decoración.",
     guia: [
-      "El Barco Pirata es el más literal: mástil, velas y casco de barco de 6 metros de largo. Puesto a la entrada del evento funciona como arco de bienvenida y como fondo de fotos, y con eso una fiesta pirata queda resuelta visualmente sin comprar un solo adorno más. El Castillo de Princesas cumple el mismo papel en rosa y morado, con torres decorativas que combinan con globos del mismo tono y son el punto natural para la mesa de pastel.",
+      "El Barco Pirata es el más literal: mástil, velas y casco de barco de 6 metros de largo. Puesto a la entrada del evento funciona como arco de bienvenida y como fondo de fotos, y con eso una fiesta pirata queda resuelta visualmente sin comprar un solo adorno más. El Castillo de Princesas cumple el mismo papel en rosa y azul turquesa, con torres decorativas que combinan con globos del mismo tono y son el punto natural para la mesa de pastel.",
       "Dragones Rojos y Jungla son las opciones para temáticas de aventura. Los dos dragones de tres metros del primero funcionan igual de bien para una fiesta medieval, de caballeros o de dinosaurios; la Jungla, con animales y palmeras, cubre safari, selva y exploradores. En los cuatro casos el criterio práctico es el mismo: elige primero el inflable temático, porque es la pieza que no puedes modificar, y después ajusta manteles, globos y piñata a su paleta. Al revés se paga más caro y casi nunca coincide.",
     ],
     productos: ["castillo-princesas", "barco-pirata", "dragones-rojos", "mini-jungla"],

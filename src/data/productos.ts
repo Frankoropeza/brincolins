@@ -169,7 +169,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     badge: "Favorito para fiestas de niñas",
     cta: "Cotizar Castillo de Princesas",
     galeria: {
-      copy1: "Estas fotografías muestran el Castillo de Princesas instalado en fiestas reales en CDMX y Estado de México. El diseño en rosa y morado con torres decorativas convierte cualquier espacio en un escenario de cuento de hadas para las niñas.",
+      copy1: "Estas fotografías muestran el Castillo de Princesas instalado en fiestas reales en CDMX y Estado de México. El diseño en rosa y azul turquesa con torres decorativas convierte cualquier espacio en un escenario de cuento de hadas para las niñas.",
       copy2: "Nuestro equipo instala el inflable en jardines, terrazas, patios y salones de fiestas. Cada evento queda documentado para que veas exactamente cómo lucirá el castillo en tu celebración.",
     },
     precios: {
@@ -207,7 +207,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     faqItems: [
       {
         question: "¿El Castillo de Princesas es adecuado para fiestas temáticas de princesas?",
-        answer: "Sí, es el inflable ideal para fiestas temáticas de princesas. Su diseño en rosa y morado con torres decorativas crea la atmósfera perfecta de cuento de hadas. Combina perfectamente con decoraciones de Cenicienta, Rapunzel, Frozen o cualquier temática de princesas que elijas para tu evento.",
+        answer: "Sí, es el inflable ideal para fiestas temáticas de princesas. Su diseño en rosa y azul turquesa con torres decorativas crea la atmósfera perfecta de cuento de hadas. Combina perfectamente con decoraciones de Cenicienta, Rapunzel, Frozen o cualquier temática de princesas que elijas para tu evento.",
       },
       {
         question: "¿Cuántos niños pueden usar el Castillo de Princesas al mismo tiempo?",

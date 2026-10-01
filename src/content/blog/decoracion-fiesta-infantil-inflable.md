@@ -23,7 +23,7 @@ tags:
   - "fiestas infantiles"
 faqs:
   - question: "¿Cómo elijo la decoración para que combine con el inflable?"
-    answer: "Parte del color principal del inflable y úsalo como base de toda la paleta. Si rentaste un castillo de princesas en tonos rosa y morado, esos serán los colores de manteles, globos y vajilla. Al cotizar por WhatsApp te compartimos recomendaciones de paleta para cada modelo."
+    answer: "Parte del color principal del inflable y úsalo como base de toda la paleta. Si rentaste un castillo de princesas en tonos rosa y azul turquesa, esos serán los colores de manteles, globos y vajilla. Al cotizar por WhatsApp te compartimos recomendaciones de paleta para cada modelo."
   - question: "¿Cuánto cuesta decorar una fiesta infantil con inflable en CDMX?"
     answer: "Con $1,000 a $1,500 MXN puedes lograr una decoración DIY espectacular: arco de globos ($200-350 MXN), mantelería y vajilla temática ($300-500 MXN) y detalles decorativos adicionales ($200-400 MXN). Un decorador profesional puede cobrar entre $2,000 y $5,000 MXN por todo el montaje."
   - question: "¿Qué zonas necesito definir en la fiesta para que fluya bien?"
@@ -34,7 +34,7 @@ faqs:
 
 ## El inflable como centro del diseño
 
-El error más común al decorar una fiesta con inflable es tratar la decoración y el inflable como dos elementos separados. En realidad, el inflable debería ser el punto de partida de toda tu paleta de colores y temática — el mismo criterio que aplicamos en la guía de [inflables temáticos para fiestas infantiles](/blog/inflables-tematicos-infantiles-cdmx/). Si rentaste un [castillo de princesas](/inflables/castillo-princesas/) en tonos rosa y morado, esos deberían ser los colores dominantes en manteles, globos, platos y servilletas. Si elegiste un inflable de [dragones rojos](/inflables/dragones-rojos/), trabaja con tonos rojos, negros y dorados para crear cohesión visual.
+El error más común al decorar una fiesta con inflable es tratar la decoración y el inflable como dos elementos separados. En realidad, el inflable debería ser el punto de partida de toda tu paleta de colores y temática — el mismo criterio que aplicamos en la guía de [inflables temáticos para fiestas infantiles](/blog/inflables-tematicos-infantiles-cdmx/). Si rentaste un [castillo de princesas](/inflables/castillo-princesas/) en tonos rosa y azul turquesa, esos deberían ser los colores dominantes en manteles, globos, platos y servilletas. Si elegiste un inflable de [dragones rojos](/inflables/dragones-rojos/), trabaja con tonos rojos, negros y dorados para crear cohesión visual.
 
 Esta coordinación no requiere gastar más dinero, simplemente planificación. Cuando reserves tu inflable, pide fotos del modelo exacto que te entregarán para comprar la decoración con los colores correctos. Los ocho modelos, con foto, medidas y precio de $1,400 a $2,600 MXN, están en la [página de precios](/precios/).
 
