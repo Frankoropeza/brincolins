@@ -5,7 +5,7 @@ description: "Cómo organizar competencias y torneos con niños en kermeses y fi
 excerpt: "Con niños, un torneo se cae por la fila, no por el juego. Turnos por edad, un adulto en la salida y premios que no dejen a nadie fuera."
 publishDate: "2025-03-15"
 updatedDate: "2026-08-11"
-category: "Obstáculos"
+category: "Extremo"
 author: "Equipo BRINCOLINS"
 readTime: "8 min"
 heroImage: "/img/inflables/extremo-v3.avif"

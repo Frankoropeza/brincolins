@@ -90,4 +90,55 @@ export const BLOG_CATEGORIA: Record<string, string> = {
   "fiesta-tematica-safari-inflable-cdmx":                  "tematicos",
   "inflables-tematicos-infantiles-cdmx":                   "tematicos",
   "inflables-tematicos-ninas-cdmx":                        "tematicos",
+
+  /* Guías por modelo (2026-10-01): 5 artículos por inflable. Cada uno
+     apunta a la categoría del catálogo que corresponde a su intención. */
+  /* Castillo Baby */
+  "inflable-para-departamento-altura-techo-cdmx":          "para-interiores",
+  "fiesta-de-2-anos-ideas-inflable-cdmx":                  "chicos",
+  "bautizo-con-inflable-zona-infantil-cdmx":               "para-interiores",
+  "inflable-para-guarderia-estancia-infantil-cdmx":        "chicos",
+  "mejor-inflable-para-ninos-menores-de-3-anos":           "chicos",
+  /* Dragones Rojos */
+  "paquete-fiesta-dragones-rojos-o-jungla":                "medianos",
+  "fiesta-de-5-anos-ideas-juegos-cdmx":                    "para-ninos",
+  "fiesta-infantil-en-privada-o-condominio-cdmx":          "medianos",
+  "donde-instalar-inflable-pasto-cemento-tierra":          "medianos",
+  "inflables-de-1600-comparativa-dragones-jungla-gusanitos":"medianos",
+  /* Castillo de Princesas */
+  "fiesta-de-3-anos-ideas-inflable-cdmx":                  "castillos",
+  "fiesta-de-unicornios-y-hadas-con-inflable":             "tematicos",
+  "inflable-en-salon-de-fiestas-que-preguntar":            "castillos",
+  "cuanto-cuesta-fiesta-de-princesas-en-casa":             "castillos",
+  "castillos-inflables-comparativa-princesas-blanco-baby": "castillos",
+  /* Jungla */
+  "fiesta-de-dinosaurios-con-inflable-cdmx":               "tematicos",
+  "fiesta-de-4-anos-ideas-inflable-cdmx":                  "para-ninos",
+  "dia-del-nino-inflables-escuela-empresa-cdmx":           "para-ninos",
+  "curso-de-verano-con-inflable-cdmx":                     "para-ninos",
+  "jungla-o-gusanitos-cual-elegir":                        "medianos",
+  /* Gusanitos */
+  "inflable-bajo-techo-temporada-de-lluvias-cdmx":         "para-interiores",
+  "fiesta-de-bichitos-insectos-con-inflable":              "tematicos",
+  "posada-navidena-infantil-con-inflable-cdmx":            "para-ninos",
+  "circuito-de-tuneles-vs-brincolin":                      "brincolines",
+  "fiesta-en-patio-pequeno-con-inflable":                  "chicos",
+  /* Barco Pirata */
+  "fiesta-de-sirenas-y-piratas-con-inflable":              "tematicos",
+  "fiesta-de-8-anos-ideas-actividades":                    "grandes",
+  "reglas-de-uso-tobogan-inflable-ninos":                  "toboganes",
+  "fiesta-en-quinta-o-jardin-de-eventos-edomex":           "grandes",
+  "barco-pirata-o-extremo-inflables-grandes":              "grandes",
+  /* Castillo Blanco */
+  "primera-comunion-con-inflable-cdmx":                    "para-adultos",
+  "presentacion-de-3-anos-recepcion-con-inflable":         "castillos",
+  "fiesta-infantil-all-white-boho-decoracion":             "tematicos",
+  "graduacion-kinder-primaria-con-inflable":               "para-adultos",
+  "baby-shower-con-inflable-para-ninos-invitados":         "castillos",
+  /* Extremo */
+  "fiesta-de-10-anos-ideas-actividades":                   "con-obstaculos",
+  "fiesta-ninja-con-circuito-de-obstaculos":               "tematicos",
+  "family-day-empresa-inflables-para-hijos":               "con-obstaculos",
+  "instalar-inflable-en-explanada-cancha-estacionamiento": "con-obstaculos",
+  "fiesta-de-gemelos-o-hermanos-con-inflable":             "con-obstaculos",
 };

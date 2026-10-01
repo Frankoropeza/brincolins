@@ -20,6 +20,7 @@ import PricingCards from "@/components/PricingCards.astro";
 import CtaBar from "@/components/CtaBar.astro";
 import FacetasInflables from "@/components/FacetasInflables.astro";
 import { categoriasDeInflable } from "@/data/categorias";
+import { getCollection } from "astro:content";
 
 export function getStaticPaths() {
   return Object.keys(PRODUCTOS_PAGINAS).map((slug) => ({ params: { slug } }));
@@ -33,6 +34,13 @@ const canon = INFLABLES.find((i) => i.slug === slug)!;
    11 categorías serían hojas muertas: reciben enlaces pero no devuelven
    autoridad al catálogo. */
 const categorias = categoriasDeInflable(canon.slug);
+
+/* Guías del modelo (oct 2026): los artículos del blog cuya `category` es
+   el nombre del modelo. Cierra el circuito ficha ↔ artículos — los
+   artículos enlazan a la ficha y la ficha devuelve el enlace a cada uno. */
+const guias = (await getCollection("blog"))
+  .filter((p) => !p.data.draft && p.data.category === canon.name)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title, "es"));
 
 const ctaBarItems = [
   { label: "Cotizar ahora", href: "/contacto/", icon: "cotizar" },
@@ -169,6 +177,24 @@ const ctaBarItems = [
     </div>
   </section>
 
+  <!-- Guías del modelo -->
+  {guias.length > 0 && (
+    <section class="section" id="guias">
+      <div class="container">
+        <h2 class="guias__title">¿Cómo aprovechar el {canon.name} en tu fiesta?</h2>
+        <p class="guias__lead">Ideas, comparativas y logística escritas a partir de las medidas y edades reales del {canon.name}.</p>
+        <ul class="guias__list">
+          {guias.map((g) => (
+            <li>
+              <a href={`/blog/${g.id}/`}>{g.data.h1 || g.data.title}</a>
+              {g.data.excerpt && <span>{g.data.excerpt}</span>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
   <!-- Related -->
   <section class="section section--alt">
     <div class="container">
@@ -226,4 +252,22 @@ const ctaBarItems = [
     line-height: 1.7;
     color: var(--text-muted, #5a5a66);
   }.tambien-en a { font-weight: 600; }
+  .guias__title { margin: 0 0 .5rem; }
+  .guias__lead { margin: 0 0 1.5rem; color: var(--c-text-muted); }
+  .guias__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  }
+  .guias__list li {
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    background: var(--white);
+  }
+  .guias__list a { display: block; font-weight: 700; line-height: 1.35; margin-bottom: .35rem; }
+  .guias__list span { display: block; font-size: .9rem; line-height: 1.55; color: var(--c-text-muted); }
 </style>

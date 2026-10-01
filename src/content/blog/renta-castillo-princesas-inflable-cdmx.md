@@ -5,7 +5,7 @@ description: "Dos inflables medianos con el mismo precio y casi las mismas medid
 excerpt: "Cuestan lo mismo, piden el mismo espacio y reciben a los mismos niños. La diferencia real está en el grupo que va a brincar y en la fiesta que quieres montar."
 publishDate: "2025-03-15"
 updatedDate: "2026-08-11"
-category: "Princesas"
+category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
 readTime: "7 min"
 heroImage: "/img/inflables/castillo-princesas-v3.avif"

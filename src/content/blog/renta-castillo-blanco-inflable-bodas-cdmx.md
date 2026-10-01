@@ -5,7 +5,7 @@ description: "Cómo montar la zona infantil de una boda en CDMX: dónde ubicarla
 excerpt: "El problema de la zona infantil en una boda casi nunca es el inflable: es dónde va, a qué hora abre, quién la cuida y cómo se coordina con el banquete."
 publishDate: "2025-03-15"
 updatedDate: "2026-08-11"
-category: "Bodas"
+category: "Castillo Blanco"
 author: "Equipo BRINCOLINS"
 readTime: "8 min"
 heroImage: "/img/inflables/castillo-blanco-v3.avif"
