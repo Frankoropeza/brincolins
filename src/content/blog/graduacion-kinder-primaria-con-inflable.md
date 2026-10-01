@@ -179,7 +179,7 @@ Acceso, corriente, área despejada y supervisores con nombre. Si tienes esos cua
 - **Reglas anunciadas.** Sin zapatos, sin comida ni vasos dentro, para que nadie se lastime ni manche la lona.
 - **Togas fuera.** Los niños entran sin toga ni birrete, porque la tela se enreda al brincar.
 
-Si comparas opciones para eventos formales con niños, te sirven los [inflables para eventos formales que organizan adultos](/inflables/para-adultos/); en todos los casos brincan niños dentro del rango de cada ficha. ¿Viene otra celebración en tu familia? Tenemos guías para la [primera comunión con castillo blanco](/blog/primera-comunion-con-inflable-cdmx/), la [presentación de los 3 años con dos castillos](/blog/presentacion-de-3-anos-recepcion-con-inflable/) y el [baby shower con zona para los hijos de los invitados](/blog/baby-shower-con-inflable-para-ninos-invitados/).
+Si comparas opciones para eventos formales con niños, te sirven los [castillos inflables para eventos formales con niños](/inflables/castillos/); en todos los casos brincan niños dentro del rango de cada ficha. ¿Viene otra celebración en tu familia? Tenemos guías para la [primera comunión con castillo blanco](/blog/primera-comunion-con-inflable-cdmx/), la [presentación de los 3 años con dos castillos](/blog/presentacion-de-3-anos-recepcion-con-inflable/) y el [baby shower con zona para los hijos de los invitados](/blog/baby-shower-con-inflable-para-ninos-invitados/).
 
 ## Aparta el inflable de la graduación con tiempo
 

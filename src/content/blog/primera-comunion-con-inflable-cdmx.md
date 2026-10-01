@@ -174,7 +174,7 @@ Para los más chicos tienes el [Castillo Baby, compacto para niños de 1 a 3 añ
 
 ¿Y los de 13 o 14? Se quedan fuera, aunque insistan. Cada modelo tiene su rango. Lo respetamos. Puedes darles una tarea con estatus: organizar los turnos o cuidar la canasta de zapatos.
 
-Si comparas opciones para celebraciones donde organizan los adultos y brincan los niños invitados, te sirven los [modelos para celebraciones de adultos con zona infantil](/inflables/para-adultos/). En todos los casos, quienes brincan son niños dentro de la edad de cada ficha.
+Si comparas opciones para celebraciones donde organizan los adultos y brincan los niños invitados, te sirven los [los tres castillos del catálogo para celebraciones con ambiente formal](/inflables/castillos/). En todos los casos, quienes brincan son niños dentro de la edad de cada ficha.
 
 ## ¿Qué errores arruinan la zona infantil de una comunión?
 
