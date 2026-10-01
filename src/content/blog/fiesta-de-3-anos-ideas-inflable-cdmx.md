@@ -1,110 +1,121 @@
 ---
-title: "Fiesta de 3 años: ideas, horario e inflable en CDMX"
-h1: "Fiesta de 3 años con inflable: horario, actividades, cronograma y checklist"
-description: "Fiesta de 3 años en CDMX: horario corto, actividades sencillas, cronograma y qué inflable rentar para que brinquen el festejado y sus primos mayores."
-excerpt: "A los 3 años la atención dura poco y la lista de invitados mezcla bebés con primos de primaria. Así se arma una fiesta corta, ordenada y con el inflable correcto."
+title: "Fiesta de 3 años: horario, juegos y qué inflable rentar"
+h1: "Fiesta de 3 años con inflable: cronograma, juegos sencillos y el castillo que sí funciona"
+description: "Fiesta de 3 años en CDMX sin berrinches: horario, juegos sencillos, cronograma y qué castillo inflable rentar para el festejado y sus primos. Cotiza hoy."
+excerpt: "A los 3 años la paciencia dura minutos y los invitados van de bebés a primos de primaria. Aquí tienes el horario, los juegos y el castillo que sí funcionan."
 publishDate: "2026-10-01"
 updatedDate: "2026-10-01"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
 readTime: "13 min"
 heroImage: "/img/inflables/castillo-princesas.avif"
-heroImageAlt: "Castillo de Princesas inflable rosa y morado con torres decorativas y resbaladilla, preparado para un cumpleaños infantil"
+heroImageAlt: "Castillo de Princesas inflable rosa con azul turquesa, torres de punta y resbaladilla lateral sobre pasto"
 galleryImages:
-  - "/img/inflables/castillo-princesas/castillo-princesas-exterior-jardin.avif"
-  - "/img/inflables/castillo-princesas/castillo-princesas-renta-cdmx.avif"
-  - "/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif"
+  - "/img/inflables/castillo-princesas/mini-princess-renta-cdmx.avif"
 intro:
-  - "Organizar una fiesta de 3 años tiene trampa: el festejado aguanta poco, se cansa rápido y los invitados van desde bebés que apenas caminan hasta primos de primaria que quieren correr. Lo que funciona en una fiesta de 7 años aquí se desarma en media hora."
-  - "Esta guía te ayuda a decidir **horario, actividades, cronograma y modelo de inflable** para que la fiesta sea corta, ordenada y pensada para el festejado. Al final tienes una checklist para revisar la semana del evento."
+  - "Tu hijo cumple 3 años, la lista de invitados mezcla bebés con primos de primaria y no sabes si aguantará despierto hasta el pastel. Lo que funciona en una fiesta de 7 años aquí se desarma en media hora."
+  - "Esta guía te da **el horario, los juegos, el cronograma y el inflable** que sí funcionan a esta edad, con una checklist para la semana del evento."
 tags:
   - "fiesta de 3 años"
   - "cumpleaños infantil"
   - "castillo de princesas"
   - "ideas para fiestas"
 faqs:
-  - question: "¿Qué inflable rentar para una fiesta de 3 años?"
-    answer: "Si la fiesta es en jardín o patio y vienen niños de 2 a 10 años, el Castillo de Princesas cubre al festejado y a los primos mayores. Si la fiesta es dentro de casa o casi todos los invitados tienen entre 1 y 3 años, conviene el Castillo Baby, que sí se instala en interiores."
-  - question: "¿Un niño de 2 años puede brincar en el Castillo de Princesas?"
-    answer: "Sí. El Castillo de Princesas está recomendado de 2 a 10 años. Lo importante es organizar turnos por edad para que los más pequeños no brinquen junto a niños de primaria, y que una persona adulta supervise todo el tiempo."
-  - question: "¿Cuánto debe durar una fiesta para un niño de 3 años?"
-    answer: "Lo práctico es una fiesta corta, planeada alrededor de la siesta y del humor del festejado. La renta del inflable se cobra por evento, así que el cronograma lo decides tú según la rutina de tu hijo o hija."
-  - question: "¿Se puede poner el Castillo de Princesas dentro de la casa?"
-    answer: "No. El Castillo de Princesas es sólo para exterior y necesita 4.2 m de altura libre. Para sala, terraza techada o espacios reducidos, el modelo indicado es el Castillo Baby, que pide 3.2 m de altura libre."
-  - question: "¿Cuánto cuesta rentar el Castillo de Princesas para un cumpleaños?"
-    answer: "El Castillo de Princesas cuesta $1,800 netos por evento, con instalación y recolección incluidas. Si necesitas factura se agrega 16% de IVA y el traslado se cobra según la zona."
-  - question: "¿Qué se necesita en casa para instalar el inflable?"
-    answer: "Una toma de corriente de 110 V a menos de 20 m del área, una superficie plana y despejada, sin vidrio ni objetos punzantes, y una persona adulta que supervise durante todo el evento. El espacio libre exacto se confirma al cotizar."
+  - question: "¿Un niño de 2 años puede subirse al Castillo de Princesas?"
+    answer: "Sí. El Castillo de Princesas está recomendado para niños de 2 a 10 años, así que un invitado de 2 años puede brincar. Lo indicado es darle un turno con niños de su edad, separado de los primos de primaria, y que una persona adulta supervise la entrada durante todo el evento."
+  - question: "¿Se puede instalar el Castillo de Princesas dentro de la casa?"
+    answer: "No. El Castillo de Princesas es sólo para exterior y pide 4.2 m de altura libre, así que va en jardín, patio o explanada. Si tu fiesta es en la sala, en una terraza techada o en un salón cerrado, el modelo indicado es el Castillo Baby, que sí entra en interiores con 3.2 m de altura libre."
+  - question: "¿Cuánto cuesta rentar un castillo inflable para un cumpleaños de 3 años?"
+    answer: "El Castillo de Princesas cuesta $1,800 netos por evento y el Castillo Baby $1,400, los dos con instalación y recolección incluidas. El traslado se cobra según la zona y, si necesitas factura, se agrega 16% de IVA. La fecha se aparta con 50% de anticipo."
+  - question: "¿Con cuánta anticipación conviene apartar el inflable?"
+    answer: "En cuanto tengas la fecha definida, sobre todo si es sábado o domingo, porque los fines de semana se llenan primero. La disponibilidad se confirma por WhatsApp al 55 3128 1706, de lunes a domingo de 8:00 a 20:00, y la fecha queda apartada con 50% de anticipo."
+  - question: "¿Qué necesito en casa para que instalen el inflable?"
+    answer: "Una toma de corriente de 110 V a menos de 20 m del área, una superficie plana y despejada, sin vidrio ni objetos punzantes, y una persona adulta que supervise todo el evento. El espacio libre exacto alrededor del castillo se confirma al cotizar, con fotos o medidas del lugar."
+  - question: "¿Qué temática combina con el Castillo de Princesas en una fiesta de 3 años?"
+    answer: "Princesas es la opción más directa, pero el castillo rosa con torres también sostiene una fiesta de unicornios, hadas, mariposas o jardín encantado. Basta con repetir el rosa en manteles y globos y sumar un color de acento, como dorado o blanco, para que todo se vea pensado."
 ---
 
-Una fiesta de 3 años no se planea como una versión chiquita de una fiesta de primaria. Cambian el horario, la duración de cada actividad, la comida y el inflable que conviene rentar. Aquí va lo que hemos visto funcionar en jardines y patios de la Ciudad de México y el Estado de México.
+El pastel ya está en el refri. La invitación ya salió. Y tu hijo sigue sin dormir la siesta a la hora que tenías planeada. Así es una fiesta de 3 años: la que más depende del humor del festejado.
 
-## ¿Qué cambia en una fiesta de 3 años frente a una de niños más grandes?
+Aquí tienes lo que sí funciona en jardines y patios de la CDMX y el Estado de México. A qué hora empezar, qué juegos aguantan y cómo repartir la tarde. Y qué inflable rentar para que brinquen él y sus primos grandes. Decisiones claras, sin relleno.
 
-Tres cosas, y las tres afectan cómo se reparte la fiesta. Si las tienes claras desde el principio, el resto de las decisiones sale casi sola.
+> **Respuesta rápida:** Para una fiesta de 3 años en jardín o patio, el [Castillo de Princesas para niños de 2 a 10 años](/inflables/castillo-princesas/) es el modelo más flexible: brincan el festejado y los primos de primaria, por turnos. Cuesta $1,800 netos por evento, con instalación y recolección incluidas. Si la fiesta es bajo techo o casi todos los invitados tienen menos de 3 años, conviene el Castillo Baby, de $1,400.
 
-### La atención dura minutos, no horas
+## ¿Qué hace distinta una fiesta de 3 años de la de un niño de primaria?
 
-A los 3 años un niño cambia de actividad cuando se aburre, no cuando el adulto lo decide. Un juego que con niños de 7 años dura veinte minutos aquí dura diez, y luego hay que tener lista la siguiente opción. Por eso conviene pensar la fiesta en bloques cortos y no en un programa largo con show.
+Tres cosas: la atención dura minutos, los invitados mezclan edades y el horario lo manda la siesta. Si planeas con esas tres reglas, la fiesta fluye. Si copias el programa de una fiesta de 7 años, se desarma antes del pastel.
 
-### La lista de invitados mezcla edades
+### La atención se mide en minutos
 
-El festejado invita a los niños de su guardería o de su grupo de estimulación, pero también llegan los primos, los hijos de los amigos y algún hermano que ya va en primaria. En la práctica la mayoría anda entre los 2 y los 5 años, con algunos mayores y algún bebé en brazos. Esa mezcla es la que decide qué inflable rentar y cómo organizar los turnos.
+Un niño de 3 años deja un juego cuando se aburre. No antes. Ni después. Lo que a un niño de primaria le dura veinte minutos, a él le dura diez. Por eso conviene pensar en estaciones cortas que se puedan abrir y cerrar sin aviso, no en un programa largo con show ni en juegos con instrucciones.
 
-### El horario lo marca la siesta
+Piensa en bloques. Burbujas, brincar, comer, pastel, brincar otra vez. Así nadie se queda esperando y tú no tienes que improvisar.
 
-Muchos niños de 3 años todavía duermen siesta, y un festejado desvelado o recién despertado no disfruta su propia fiesta. Antes de mandar invitaciones, piensa a qué hora está de buen humor tu hijo o tu hija, no a qué hora les acomoda a los adultos.
+### Los invitados van de 2 a 5 años, con primos más grandes
 
-## ¿A qué hora conviene hacer una fiesta de 3 años?
+Llegan los amigos de la guardería, los hijos de tus amigos, la vecina con su bebé en carriola y ese primo de 8 años que sólo quiere correr de un lado a otro del jardín. Casi todos andan entre 2 y 5 años, con un par de mayores y algún bebé en brazos. Esa mezcla es la que decide el inflable y los turnos que vas a necesitar.
 
-Hay dos franjas que funcionan: la mañana tardía y la media tarde. Las dos tienen ventajas y cada familia sabe cuál le queda según la rutina del festejado.
+### La siesta manda más que la agenda de los adultos
 
-- **Mañana tardía.** El niño llega descansado y con energía, y la fiesta termina antes de la comida fuerte o justo con ella. Es la opción más tranquila si el festejado duerme siesta después de comer.
-- **Media tarde.** Funciona cuando la siesta ya pasó o cuando el festejado ya no la toma. Cuida que la fiesta no se alargue hasta la noche, porque el cansancio llega de golpe y casi siempre termina en llanto.
+Un festejado desvelado no disfruta su propia fiesta. Así de simple. Antes de fijar la hora, pregúntate cuándo está de mejor humor tu hijo o tu hija, no cuándo les acomoda a los tíos.
 
-En jardines y patios de la CDMX también cuenta el sol. Al mediodía el inflable y el pasto se calientan, y los niños pequeños se acaloran rápido. Si eliges esa franja, prepara una zona de sombra para descansar entre turnos y agua a la mano. En temporada de lluvias la media tarde es la que más se complica, así que revisa la [política de cancelación de BRINCOLINS](/politica-de-cancelacion/) antes de apartar.
+## ¿A qué hora empezar la fiesta de 3 años para que el festejado llegue de buen humor?
 
-![Castillo de Princesas rosa y morado con torres y resbaladilla para una fiesta de 3 años](/img/inflables/castillo-princesas/castillo-princesas-renta-cdmx.avif)
+Las dos franjas que funcionan son la mañana tardía y la media tarde, ya pasada la siesta. Elige según su rutina. Si duerme después de comer, organiza en la mañana. Si despierta a media tarde, esa franja te da margen sin llegar a la noche.
 
-## ¿Por qué el Castillo de Princesas cubre al festejado y a los primos mayores?
+### Mañana tardía: energía y fin temprano
 
-El rango de edad es el dato que más pesa en una fiesta de 3 años, y el [Castillo de Princesas inflable](/inflables/castillo-princesas/) está recomendado de **2 a 10 años**. Eso significa que entra el festejado, entran sus amigos de 2 y 4 años y entran también los primos de primaria, siempre por turnos. Con pocos modelos del catálogo pasa eso: o empiezan más arriba o terminan antes.
+El festejado llega descansado. La fiesta termina con la comida o poco después, y él duerme su siesta en casa. Es el horario más tranquilo para ti. Tus invitados con bebés también lo agradecen.
 
-### Lo que conviene saber antes de rentarlo
+### Media tarde: cuidado con el cansancio de la noche
 
-Es un castillo rosa y morado con torres decorativas, resbaladilla y mallas de seguridad. Se instala en unos **20 minutos** y cuesta **$1,800** netos por evento, con instalación y recolección incluidas. Hay dos datos que debes revisar en tu casa antes de apartar.
+Funciona si la siesta ya pasó o si tu hijo ya no la toma. El riesgo es alargarla. Cuando el cansancio llega, llega de golpe, y casi siempre en forma de llanto.
+
+En jardines de la ciudad también cuenta el sol. ¿Fiesta al mediodía? Prepara una zona de sombra con un par de sillas y agua a la mano, porque los niños pequeños se acaloran mucho más rápido de lo que avisan. Y si tu fecha cae en temporada de lluvias, lee la [política de cancelación antes de pagar tu anticipo](/politica-de-cancelacion/).
+
+![Vista frontal de castillo inflable rosa y turquesa de dos torres, con rampa de entrada sobre pasto](/img/inflables/castillo-princesas/castillo-princesas-exterior-jardin.avif)
+
+## ¿Por qué el Castillo de Princesas funciona con el festejado y con los primos grandes?
+
+Porque su rango de edad va de 2 a 10 años, y es el único del catálogo con ese rango. Entra tu hijo de 3, entran sus amigos de 2 y 4, y entran los primos de primaria, siempre por turnos. Los demás modelos empiezan en 3 años o terminan antes.
+
+### Lo que trae el castillo y cuánto cuesta
+
+Es rosa, con torres decorativas, resbaladilla y mallas de seguridad laterales. Lo instalamos en unos 20 minutos y cuesta **$1,800** netos por evento, con instalación y recolección incluidas. Antes de decidir, revisa la [ficha con fotos y medidas del castillo rosa](/inflables/castillo-princesas/). Hay dos datos que tienes que comprobar en tu casa.
 
 #### Medidas y altura libre
 
-Mide **5 × 3.30 × 3 m** y necesita **4.2 m de altura libre**. Es un modelo sólo para exterior: jardín, patio o explanada. La altura libre se mide desde el piso hasta lo más bajo que haya encima del área, y en las casas de la ciudad eso suele ser un cable de luz, una rama, un tendedero o el borde de un toldo.
+Mide **5 × 3.30 × 3 m** y necesita **4.2 m de altura libre**. Es sólo para exterior: jardín, patio o explanada. La altura libre va del piso a lo más bajo que haya encima: un cable, una rama, un tendedero o el borde de un toldo. Mídela con cinta. Al ojo engaña.
 
-#### Edades y turnos
+#### Turnos por edad, no todos juntos
 
-Que el castillo reciba de 2 a 10 años no quiere decir que todos brinquen al mismo tiempo. A los 3 años lo que funciona es un turno exclusivo para los chicos, otro para los grandes y un adulto en la entrada que cambie de grupo. La capacidad de niños por turno se confirma al cotizar, según el modelo y el espacio.
+Que reciba de 2 a 10 años no significa que todos brinquen a la vez. A esta edad funciona un turno para los chicos, otro para los grandes y un adulto en la entrada que cambie de grupo. Cuántos niños caben por turno te lo confirmamos al cotizar.
 
-### Funciona aunque la fiesta no sea de princesas
+### Si no es fiesta de princesas, también va
 
-El rosa y el morado no obligan a una temática de corona y vestido. El mismo castillo va bien con unicornios, hadas, mariposas o un jardín encantado, y en fiestas mixtas brincan niños y niñas sin problema. Si te late esa línea, en la guía de [fiesta de unicornios y hadas](/blog/fiesta-de-unicornios-y-hadas-con-inflable/) están las paletas de color y las actividades.
+El rosa no te amarra a coronas y vestidos. El mismo castillo combina con unicornios, hadas o mariposas, y en una fiesta mixta de primos y compañeros de la guardería brincan niños y niñas igual, sin que nadie pregunte por la temática. ¿Te late esa línea? Las paletas y las actividades están en la guía de [fiesta de unicornios, hadas y mariposas](/blog/fiesta-de-unicornios-y-hadas-con-inflable/).
 
-Si la festejada sí pidió princesas, el [plan completo de una fiesta de princesas con inflable](/blog/fiesta-princesas-ninas-inflable-cdmx/) cubre decoración, mesa y pastel. Y si todavía dudas entre este modelo y el rojo, lee [Castillo de Princesas o Dragones Rojos](/blog/renta-castillo-princesas-inflable-cdmx/), donde está la decisión resuelta en tres preguntas.
+Si tu festejada sí pidió princesas, aquí tienes [ideas de decoración y mesa para una fiesta de princesas](/blog/fiesta-princesas-ninas-inflable-cdmx/). Y si dudas entre este modelo y el rojo con dragones, la decisión está resuelta en [Castillo de Princesas o Dragones Rojos: cuál elegir](/blog/renta-castillo-princesas-inflable-cdmx/).
 
-## ¿Cuándo conviene más el Castillo Baby?
+> **¿Ya mediste tu jardín?** Mándanos la altura libre y una foto del área: te decimos si el castillo cabe y cómo organizar los turnos. [Pregunta por WhatsApp si cabe en tu jardín](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20el%20Castillo%20de%20Princesas%20cabe%20en%20mi%20jardin%20para%20una%20fiesta%20de%203%20anos)
 
-Hay fiestas de 3 años donde el Castillo de Princesas no es la respuesta. En esos casos el modelo indicado es el [Castillo Baby para niños de 1 a 3 años](/inflables/mini-castillo/): compacto, pensado para bebés y niños pequeños, y el único castillo del catálogo que se instala en interiores.
+## ¿En qué casos un cumpleaños de 3 años pide el Castillo Baby?
 
-### Si la fiesta es dentro de casa o en un salón techado
+Cuando la fiesta es bajo techo o cuando casi todos los invitados tienen menos de 3 años. Ahí te conviene el [Castillo Baby, compacto y para bebés](/inflables/mini-castillo/). Es el único castillo del catálogo que se instala en interiores, y tu sala o tu terraza techada le bastan si tienen la altura.
 
-El Castillo de Princesas va sólo en exterior. Si la fiesta será en la sala, en una terraza techada o en un salón cerrado, el Castillo Baby pide **3.2 m de altura libre** y entra en espacios reducidos. Revisa también los demás [inflables para interiores](/inflables/para-interiores/) y, si el plan es un salón, lee antes [qué preguntar antes de llevar un inflable al salón](/blog/inflable-en-salon-de-fiestas-que-preguntar/).
+### Fiesta en la sala, una terraza techada o un salón cerrado
 
-### Si casi todos los invitados tienen menos de 3 años
+El Castillo de Princesas va sólo en exterior. El Baby pide **3.2 m de altura libre** y entra en espacios reducidos; también puedes revisar otros [inflables que sí se instalan bajo techo](/inflables/para-interiores/). Si vas a usar un salón, lee antes [las preguntas que conviene hacerle al salón](/blog/inflable-en-salon-de-fiestas-que-preguntar/): techo, horario y contacto eléctrico.
 
-Cuando la lista es de bebés de la guardería y casi no hay niños mayores, un castillo de 5 m queda grande. Para ese caso existe el [paquete fiesta bebés con Castillo Baby](/servicios/paquetes-de-fiesta/) en **$2,100**: incluye el Castillo Baby, una mesa con 4 sillitas y pintacaritas para 4 niños.
+### Una lista de invitados llena de bebés
 
-### Si vienen bebés y también primos grandes
+Si casi toda tu lista viene de la guardería, un castillo de 5 m queda grande. Para ese caso tienes el [paquete para bebés con mesa y pintacaritas](/servicios/paquetes-de-fiesta/), en **$2,100**. Incluye el Castillo Baby, una mesa con 4 sillitas y pintacaritas para 4 niños.
 
-Hay familias que rentan los dos castillos para el mismo evento: el Castillo Baby para los de 1 a 3 años y el Castillo de Princesas para los de 2 a 10. Así nadie espera y los turnos no mezclan pesos tan distintos. Si el espacio da para ambos se confirma al cotizar.
+### Bebés y primos grandes en la misma fiesta
 
-Esta tabla compara los dos modelos que más se piden para una fiesta de 3 años, con los datos del catálogo:
+Puedes rentar los dos castillos. ¿Por qué no? El Baby para los de 1 a 3 años y el de Princesas para los de 2 a 10. Nadie espera y no se mezclan pesos tan distintos. Si tu espacio da para ambos, lo confirmamos al cotizar.
+
+Esta tabla pone frente a frente los dos castillos que tienen sentido a los 3 años. La conclusión práctica: con jardín y primos grandes, Princesas; bajo techo o con puros bebés, Baby.
 
 | Dato | Castillo de Princesas | Castillo Baby |
 |---|---|---|
@@ -115,104 +126,100 @@ Esta tabla compara los dos modelos que más se piden para una fiesta de 3 años,
 | Instalación | 20 min | 15 min |
 | Precio neto por evento | $1,800 | $1,400 |
 
-Si quieres ver también el Castillo Blanco junto a estos dos, la [comparativa de los tres castillos inflables](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) los pone frente a frente por tipo de evento. Y en la [categoría de castillos inflables](/inflables/castillos/) están las fotos de cada uno.
+¿Quieres ver también el Castillo Blanco? La [comparativa de los tres castillos del catálogo](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) los cruza por tipo de evento. Las fotos de cada uno las tienes en la [sección de castillos para fiestas](/inflables/castillos/).
 
-## ¿Qué actividades sencillas funcionan a los 3 años?
+## ¿Qué juegos aguanta un niño de 3 años sin reglas ni eliminados?
 
-La regla es simple: actividades sin reglas. A esta edad un juego con turnos, puntos o eliminación genera más llanto que risa. Lo que funciona es lo que un niño puede empezar y dejar cuando quiera.
+Los que puede empezar y dejar cuando quiera. A esta edad, un juego con turnos, puntos o eliminados termina en llanto. Ten listas dos o tres estaciones fuera del inflable. Mientras un grupo brinca, el otro tiene algo que hacer y no se forma una fila desesperada.
 
-### Actividades que no necesitan explicación
+### Estaciones que funcionan solas
 
-Ten listas dos o tres estaciones fuera del inflable. Así, mientras un turno brinca, el resto tiene algo que hacer y no se forma una fila de niños desesperados en la entrada.
+Ninguna necesita animador. Sólo un adulto cerca que vigile.
 
-#### Burbujas y pelotas
+#### Burbujas y pelotas suaves
 
-Una máquina de burbujas o un par de botes con varitas resuelven veinte minutos sin esfuerzo. Una caja con pelotas de plástico suaves funciona igual. No requieren adulto que explique nada, sólo uno que vigile.
+Una máquina de burbujas o un par de botes con varitas resuelven veinte minutos. Una caja con pelotas de plástico suave, igual. Nadie tiene que explicar nada. Tú sólo rellenas el jabón.
 
-#### Mesa de manualidades
+#### Mesa de colorear y masa
 
-Crayones gruesos, hojas grandes, calcomanías y masa para modelar. Si la temática es de princesas o de unicornios, imprime dibujos para colorear del mismo tema. La mesa sirve también para recibir a los que van llegando.
+Crayones gruesos, hojas grandes, calcomanías y masa para modelar. Si la temática es de princesas o unicornios, imprime dibujos del mismo tema. Esa mesa también recibe a los que van llegando, mientras tú saludas en la puerta.
 
-#### Música para bailar y congelarse
+#### Estatuas musicales
 
-El juego de las estatuas funciona desde los 2 años: suena la música, todos bailan; se detiene, todos se quedan quietos. No hay eliminados, nadie pierde y lo puede dirigir cualquier tío con un celular.
+Suena la música y todos bailan. Se detiene y todos quietos. No hay eliminados, nadie pierde y lo dirige cualquier tío con un celular.
 
-### Lo que conviene dejar para otra edad
+### Lo que conviene guardar para otra edad
 
-Un show largo de animador pierde a los de 3 años a los diez minutos. Los juegos de competencia con eliminación terminan con el festejado llorando. Y la piñata de palo con niños tan pequeños alrededor es un riesgo: si la quieres, que sea de listones, donde cada niño jala uno y nadie batea.
+Un show largo pierde a los de 3 años en diez minutos. Los juegos de competencia, con ganadores, perdedores y premios que no alcanzan para todos, casi siempre terminan con el festejado llorando frente a sus invitados. ¿Y la piñata de palo? Con niños tan chicos alrededor es un riesgo; si la quieres, que sea de listones, donde cada niño jala uno y nadie batea.
 
-![Castillo de Princesas inflable con resbaladilla y mallas laterales para niños pequeños en fiesta infantil](/img/inflables/castillo-princesas/mini-princess-renta-cdmx.avif)
+![Castillo inflable rosa y turquesa con rampa azul en terraza de madera, idea para fiesta de 3 años](/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif)
 
-## ¿Cómo se arma el cronograma de una fiesta de 3 años?
+## ¿Qué cronograma sigue una fiesta de 3 años de principio a fin?
 
-Un cronograma corto evita la parte más difícil de estas fiestas: el momento en que todos los niños están cansados al mismo tiempo. La renta del inflable se cobra por evento, así que el reparto lo ajustas a la rutina del festejado.
+Uno corto, en bloques, con el pastel a la mitad y el inflable cerrado mientras se come. Como la renta es por evento, tú ajustas cada bloque a la rutina del festejado. El objetivo es evitar el momento en que todos los niños están cansados al mismo tiempo.
 
-Esta tabla es un reparto de referencia por bloques; las duraciones son aproximadas y cambian según cuántos niños lleguen:
+Esta tabla es un reparto de referencia; las duraciones son aproximadas y cambian según cuántos niños lleguen. Úsala como punto de partida y muévela a tu gusto:
 
 | Momento | Duración aproximada | Qué pasa | Inflable |
 |---|---|---|---|
-| Llegada | 20 a 30 min | Recepción, mesa de manualidades y burbujas | Abierto para los que ya llegaron, por edad |
-| Primer turno de los chicos | 15 a 20 min | Brincan los de 2 a 5 años | Abierto sólo para los chicos |
-| Turno de los grandes | 15 a 20 min | Brincan los primos mayores | Abierto sólo para los grandes |
+| Llegada | 20 a 30 min | Recepción, mesa de colorear y burbujas | Abierto por edades para los que ya llegaron |
+| Turno de los chicos | 15 a 20 min | Brincan los de 2 a 5 años | Sólo para los chicos |
+| Turno de los grandes | 15 a 20 min | Brincan los primos mayores | Sólo para los grandes |
 | Comida | 25 a 30 min | Comida que se agarra con la mano | Cerrado, con un adulto en la entrada |
 | Pastel y mañanitas | 15 min | Velas, fotos y reparto | Cerrado |
-| Última ronda y despedida | 20 a 30 min | Turnos cortos por edad y recuerditos | Abierto por turnos hasta la recolección |
+| Última ronda y despedida | 20 a 30 min | Turnos cortos y recuerditos | Abierto por turnos hasta la recolección |
 
-Dos detalles hacen que este reparto funcione. El primero: los chicos brincan primero, cuando todavía tienen energía y el castillo está más tranquilo. El segundo: el inflable se cierra durante la comida y el pastel, porque brincar recién comidos termina mal a cualquier edad.
+Dos detalles hacen que funcione. Los chicos brincan primero, cuando tienen energía y el castillo está tranquilo. Y el inflable se cierra durante la comida y el pastel, porque brincar recién comido termina mal a cualquier edad y porque así tienes a todos los niños sentados en el mismo lugar.
 
-## ¿En qué momento va el pastel y qué se sirve?
+Si necesitas el calendario de las semanas previas, la guía para [planear un cumpleaños infantil completo en CDMX](/blog/planear-cumpleanos-infantil-completo-cdmx/) cubre invitaciones, proveedores y tiempos.
 
-En una fiesta de niños pequeños el pastel no se deja para el final. Cuando se deja para el final, el festejado ya está cansado y la foto de las velas sale con un niño llorando.
+> **Aparta antes de mandar invitaciones.** Los fines de semana se llenan; la disponibilidad del castillo se confirma por WhatsApp. [Confirma tu fecha por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Castillo%20de%20Princesas%20para%20un%20cumpleanos%20de%203%20anos.%20Mi%20fecha%20es)
 
-### El pastel antes del cansancio
+## ¿Cuándo partir el pastel y qué servir a niños de 3 años?
 
-Lo ideal es partirlo justo después de la comida, a la mitad de la fiesta. El festejado todavía tiene energía, los invitados siguen completos y después de las mañanitas queda una última ronda de juego para bajar el azúcar.
+A la mitad de la fiesta, justo después de comer. Si lo dejas para el final, el festejado ya está cansado, los primeros invitados se están despidiendo y la foto de las velas sale con llanto. Después de las mañanitas todavía queda una ronda de juego para bajar el azúcar.
 
 ### Comida que se agarra con la mano
 
-Sándwiches cortados en tiras, fruta en trozos, quesadillas chicas, galletas. Nada que necesite cuchillo ni que gotee. Los niños de 3 años comen poco en las fiestas, así que calcula menos de lo que crees y dale prioridad al agua sobre los refrescos.
+Sándwiches en tiras, fruta en trozos, quesadillas chicas, galletas. Nada que pida cuchillo ni que gotee. Los niños de 3 años comen poco en las fiestas. Calcula menos de lo que crees y ten agua a la mano antes que refresco.
 
-### Una mesa a su altura resuelve el desorden
+### Una mesa a su altura
 
-Los niños pequeños comen mejor sentados y en una mesa a su altura. La [mesa infantil con 10 sillas](/servicios/mobiliario-para-fiestas/) mide **1.8 × 0.5 m**, es para niños de **1 a 6 años** y cuesta **$550** cuando la rentas junto con un inflable. Esa misma mesa te sirve de estación de manualidades antes de la comida.
+Los niños pequeños comen mejor sentados. La [mesa chica con sillitas para niños de 1 a 6 años](/servicios/mobiliario-para-fiestas/) mide **1.8 × 0.5 m** y trae 10 sillas. Si la rentas junto con un inflable, cuesta **$550**. Antes de la comida te sirve como mesa de colorear.
 
-Si estás armando las cuentas de la fiesta completa, el [presupuesto de una fiesta de princesas en casa](/blog/cuanto-cuesta-fiesta-de-princesas-en-casa/) separa lo que tiene precio fijo de lo que hay que cotizar. Para el calendario de preparación semana a semana, la [guía para planear un cumpleaños infantil completo](/blog/planear-cumpleanos-infantil-completo-cdmx/) cubre proveedores, invitaciones y tiempos.
+¿Estás sumando cuentas? El [presupuesto de una fiesta de princesas en casa](/blog/cuanto-cuesta-fiesta-de-princesas-en-casa/) separa lo que tiene precio fijo de lo que tienes que cotizar con otros proveedores.
 
-## ¿Qué necesita tu casa para recibir el inflable?
+## ¿Qué revisar en casa y en la agenda la semana de la fiesta?
 
-Antes de apartar, revisa estos puntos en el lugar donde irá el castillo. Son requisitos de instalación, no recomendaciones:
+Tres días antes, revisa espacio, corriente, adultos y horario. Una fiesta con niños tan chicos se cae más por olvidos que por mala planeación. Casi todos los resuelves con una cinta métrica y un par de mensajes.
 
-- **Toma de corriente de 110 V a menos de 20 m del área.** El motor profesional trabaja durante todo el evento, así que la toma debe estar disponible desde la instalación hasta la recolección.
-- **Superficie plana y despejada.** Pasto, cemento o piso firme, sin vidrio, piedras sueltas ni objetos punzantes.
-- **Altura libre de 4.2 m para el Castillo de Princesas.** Mide desde el piso hasta el cable, la rama o el techo más bajo.
-- **Área exterior.** Si sólo tienes espacio techado, el modelo es el Castillo Baby.
-- **Una persona adulta supervisando durante todo el evento.** Desde fuera del inflable, cerca de la entrada.
+### Checklist de la semana
 
-Nosotros entregamos equipo revisado y sanitizado, instalación con anclaje verificado y el motor funcionando todo el tiempo. El espacio libre exacto y la capacidad se confirman al cotizar. El traslado se calcula según la zona; en el mapa de [zonas de cobertura en CDMX y Estado de México](/cobertura/) puedes ver si tu colonia está dentro.
+- **Horario cuadrado con la siesta.** Avísalo en la invitación para que nadie llegue dos horas tarde.
+- **Fecha apartada y hora de instalación confirmada.** Así el castillo está listo antes del primer invitado.
+- **Toma de 110 V probada y libre, a menos de 20 m del área.** El motor trabaja todo el evento, así que mejor que no comparta contacto con la cafetera.
+- **Área barrida.** Sin piedras, vidrio, ramas ni excremento de mascotas, porque todo eso termina bajo el inflable.
+- **Altura libre medida con cinta.** Un cable o una rama por debajo de 4.2 m deja fuera al Castillo de Princesas.
+- **Dos o tres adultos que se turnen en la entrada.** La supervisión cansa; repartida, se sostiene toda la fiesta.
 
-## ¿Qué revisar en la checklist de la semana del evento?
+### Errores comunes en fiestas de niños de 3 años
 
-Una fiesta de 3 años se arruina más por olvidos que por mala planeación. Esta lista es para revisar entre tres días antes y la mañana de la fiesta:
+- **Poner la fiesta a la hora de la siesta.** El festejado no la disfruta y tú lo resientes toda la tarde.
+- **Meter a todos al castillo a la vez.** Los de 2 años terminan entre niños de 9. Turnos por edad, siempre.
+- **Rentar un modelo que no cabe.** Enterarte el mismo día de que el toldo queda bajo es el error más caro.
+- **Dejar la supervisión sin dueño.** Si todos creen que otro vigila, nadie vigila.
 
-- Horario confirmado con la siesta del festejado y avisado en la invitación.
-- Inflable apartado con anticipo y hora de instalación confirmada.
-- Toma de 110 V probada y libre, a menos de 20 m del área.
-- Área barrida: sin piedras, vidrio, ramas ni excremento de mascotas.
-- Altura libre medida con cinta, no al ojo.
-- Dos o tres adultos que se turnen en la entrada del inflable.
-- Estaciones fuera del inflable listas: burbujas, mesa de manualidades, música.
-- Zona de sombra y agua para los niños entre turnos.
-- Pastel programado a la mitad de la fiesta, no al final.
-
-### Errores que vemos seguido
-
-- **Planear la fiesta a la hora de la siesta.** El festejado no la disfruta y los adultos lo resienten toda la tarde.
-- **Meter a todos al castillo a la vez.** Los niños de 2 años terminan aplastados por los de 9. Turnos por edad, siempre.
-- **Rentar un modelo que no cabe.** El error más caro es enterarte el día de la fiesta de que la rama del árbol o el toldo están por debajo de la altura libre que pide el inflable.
-- **Dejar la supervisión sin dueño.** Si todos los adultos creen que otro está vigilando, nadie está vigilando.
+Nosotros llegamos con equipo revisado y sanitizado, anclaje verificado y motor profesional encendido todo el evento. El traslado depende de tu zona; revisa las [colonias con traslado y entrega en CDMX y Edomex](/cobertura/) para saber si tu colonia está dentro.
 
 ## Aparta el castillo para la fiesta de 3 años
 
-Escríbenos por WhatsApp al **55 3128 1706** con la fecha, la zona y el número aproximado de niños, o [pide tu cotización en línea](/cotizar/). Atendemos de lunes a domingo de 8:00 a 20:00 y te respondemos con precio y disponibilidad confirmados. La fecha se aparta con el 50% de anticipo.
+Si ya tienes fecha y mediste tu jardín, sólo falta apartar. Los sábados y domingos se llenan primero, así que conviene escribir en cuanto definas el día, aunque todavía no tengas la lista final de invitados ni el pastel encargado. Para cotizar rápido, mándanos esto:
 
-El precio es neto: si necesitas factura se agrega 16% de IVA. La instalación y la recolección están incluidas y el traslado se cobra según la zona; la entrega sin costo adicional aplica sólo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco. Revisa la [disponibilidad del Castillo de Princesas para tu fecha](/inflables/castillo-princesas/) o compara la [lista de precios de los ocho inflables](/precios/) antes de decidir.
+- **Fecha y horario** de la fiesta, para confirmar disponibilidad y hora de instalación.
+- **Alcaldía o municipio**, para calcular el traslado.
+- **Tipo de superficie** (pasto, cemento o loseta) y la altura libre que mediste.
+- **Edades y cantidad aproximada de niños**, para confirmar modelo y turnos.
+
+La fecha se aparta con 50% de anticipo. El precio es por evento y neto; si necesitas factura se agrega 16% de IVA. La instalación y la recolección están incluidas, y el traslado se cobra según zona. Atendemos de lunes a domingo de 8:00 a 20:00.
+
+Llena la [cotización en línea para tu fiesta de 3 años](/cotizar/) o [escríbenos por WhatsApp al 55 3128 1706](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20un%20castillo%20inflable%20para%20una%20fiesta%20de%203%20anos) y aparta el castillo hoy.

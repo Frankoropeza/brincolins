@@ -1,198 +1,204 @@
 ---
-title: "Fiesta de unicornios y hadas con castillo inflable"
-h1: "Fiesta de unicornios, hadas y mariposas: cómo montarla alrededor de un castillo rosa y morado"
-description: "Fiesta de unicornios, hadas o mariposas con castillo inflable rosa y morado: paletas de color, decoración que no compite, actividades y mesa de dulces."
-excerpt: "El castillo rosa y morado no sólo sirve para princesas. Con la paleta correcta sostiene una fiesta de unicornios, hadas, mariposas o jardín encantado sin gastar de más en decoración."
+title: "Fiesta de unicornios: 4 temáticas, colores y castillo rosa"
+h1: "Fiesta de unicornios, hadas o mariposas: paletas, decoración y actividades alrededor del castillo rosa"
+description: "Fiesta de unicornios, hadas o mariposas con castillo inflable rosa: paletas por temática, decoración que no compite, actividades y mesa de dulces. Cotiza."
+excerpt: "El castillo rosa no es sólo para princesas. Con la paleta correcta sostiene una fiesta de unicornios, hadas o mariposas y te ahorra la mitad de la decoración."
 publishDate: "2026-10-01"
 updatedDate: "2026-10-01"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
-readTime: "11 min"
+readTime: "12 min"
 heroImage: "/img/inflables/castillo-princesas/castillo-princesas-exterior-jardin.avif"
-heroImageAlt: "Castillo de Princesas inflable rosa y morado instalado al aire libre, con torres decorativas y resbaladilla"
+heroImageAlt: "Castillo inflable rosa y azul turquesa de dos torres para fiesta de unicornios, con rampa sobre pasto"
 galleryImages:
   - "/img/inflables/castillo-princesas/castillo-princesas-renta-cdmx.avif"
-  - "/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif"
-  - "/img/inflables/castillo-princesas/mini-princess-renta-cdmx.avif"
 intro:
-  - "La festejada quiere unicornios, o hadas, o mariposas, y no sabes si un castillo de princesas encaja. Encaja, siempre que la decoración no se pelee con él: el rosa y el morado del castillo son la base de casi todas las temáticas de fantasía que se piden hoy."
-  - "Esta guía reúne **cuatro temáticas que combinan con el castillo**, la paleta de color de cada una, cómo decorar sin tapar el inflable, tres actividades que funcionan con niños de 2 a 10 años y cómo armar la mesa de dulces."
+  - "Tu hija pidió unicornios, o hadas, o mariposas, y no sabes si un castillo de princesas encaja con la temática. Encaja, siempre que la decoración no se pelee con él."
+  - "Aquí tienes **cuatro temáticas que combinan con el castillo rosa**, la paleta de cada una, cómo decorar sin taparlo, tres actividades para niños de 2 a 10 años y cómo armar la mesa de dulces."
 tags:
   - "fiesta de unicornios"
   - "fiesta de hadas"
   - "castillo de princesas"
   - "decoración de fiestas infantiles"
 faqs:
-  - question: "¿Un castillo de princesas sirve para una fiesta de unicornios?"
-    answer: "Sí. El Castillo de Princesas es rosa y morado con torres decorativas, que son los colores base de una fiesta de unicornios. Basta con sumar acentos dorados o blancos y algunos cuernos y crines en la mesa para que el conjunto se lea como unicornios."
-  - question: "¿Qué colores van en una fiesta de hadas?"
-    answer: "Lila, verde menta y dorado funcionan muy bien junto al castillo rosa y morado. Conviene evitar colores oscuros o rojos intensos, que cortan la sensación de jardín y compiten con el inflable."
-  - question: "¿Qué actividades se pueden hacer en una fiesta de unicornios para niños pequeños?"
-    answer: "Un taller de cuernos de unicornio con diademas, un taller de alas de hada y una búsqueda de gemas por el jardín. Las tres funcionan con niños de distintas edades y mantienen ocupado al grupo mientras otro turno brinca en el castillo."
-  - question: "¿Se puede pegar decoración al inflable?"
-    answer: "No conviene. Lo recomendable es no pegar cinta, globos ni adornos al inflable y mantener confeti, diamantina y objetos pequeños lejos del área de brinco. La decoración va alrededor, no encima."
-  - question: "¿Qué inflable conviene para una fiesta de hadas formal o un bautizo?"
-    answer: "Para eventos formales como bautizos, bodas o XV años está el Castillo Blanco, recomendado para niños de 3 a 12 años. Mide 5 × 7 × 4 m, es sólo para exterior y cuesta $2,600 netos por evento."
+  - question: "¿Se pueden amarrar globos o pegar adornos al castillo inflable?"
+    answer: "No conviene. La cinta, los globos y las guirnaldas se despegan con el movimiento, caen al área de brinco y estorban a los niños. La decoración funciona mejor alrededor del castillo, en la mesa de dulces, la entrada y la zona de manualidades, a unos pasos del inflable."
+  - question: "¿Una fiesta de unicornios funciona si también van niños?"
+    answer: "Sí. Los unicornios, las hadas y las mariposas funcionan en fiestas mixtas, y el castillo rosa lo usan niños y niñas por igual. Si quieres algo más neutro, la temática de jardín encantado baja el brillo y sube el verde, y las actividades de búsqueda de gemas gustan a todos."
+  - question: "¿Qué recuerdito dar en una fiesta de unicornios?"
+    answer: "El más práctico es el que hacen los propios niños: la diadema con cuerno o las alas de hada del taller. Sirve como actividad, como disfraz durante la fiesta y como regalo de salida, y te ahorra armar bolsitas con juguetes que muchas veces terminan olvidadas."
+  - question: "¿Cuánto cuesta rentar el castillo para una fiesta de unicornios?"
+    answer: "El Castillo de Princesas cuesta $1,800 netos por evento, con instalación y recolección incluidas. El traslado se cobra según la zona y, si necesitas factura, se agrega 16% de IVA. La fecha se aparta con 50% de anticipo por WhatsApp al 55 3128 1706."
+  - question: "¿Puedo usar confeti o diamantina en la fiesta?"
+    answer: "Sí, pero lejos del castillo. El confeti y la diamantina se meten en las costuras del inflable y en los ojos de los niños. Déjalos sólo en la mesa de manualidades o en la mesa de dulces, y usa calcomanías, listones y flores de papel cerca del área de juego."
+  - question: "¿Qué pasa si mi jardín no tiene la altura libre que pide el castillo?"
+    answer: "Mándanos la medida al cotizar. El Castillo de Princesas pide 4.2 m de altura libre; si tu jardín o terraza tiene menos, revisamos modelos que piden 3.2 m, como el Castillo Baby para niños de 1 a 3 años o Gusanitos para niños de 2 a 8 años."
 ---
 
-Una fiesta de unicornios o de hadas se monta con muy poco si el elemento grande del jardín ya tiene los colores correctos. El castillo rosa y morado los tiene. Lo que sigue es cómo elegir la temática, la paleta, la decoración y las actividades para que todo se vea pensado y no amontonado.
+Tu hija quiere unicornios. Su prima quiere hadas. Y tú ya viste el castillo rosa en fotos y te preguntas si se va a ver como fiesta de princesas aunque no lo sea. Buena noticia: no.
 
-## ¿Qué temáticas combinan con un castillo rosa y morado además de princesas?
+Una fiesta de unicornios se monta con muy poco cuando la pieza más grande de tu jardín ya trae el color base. Lo que sigue te ayuda a elegir temática, paleta, decoración y actividades para que todo se vea pensado y no amontonado.
 
-El [Castillo de Princesas rosa y morado](/inflables/castillo-princesas/) tiene torres decorativas, resbaladilla y mallas de seguridad. Por diseño remite a cuento y fantasía, y esa línea abarca mucho más que coronas y vestidos. Estas cuatro temáticas son las que mejor se acomodan a sus colores.
+> **Respuesta rápida:** Una fiesta de unicornios combina muy bien con el [castillo inflable rosa con torres decorativas](/inflables/castillo-princesas/), porque el rosa ya es la base de la paleta. Suma dorado y blanco como acentos, decora alrededor del inflable y no encima, y prepara actividades como cuernos de unicornio o búsqueda de gemas. El Castillo de Princesas es para niños de 2 a 10 años y cuesta $1,800 netos por evento.
+
+## ¿Qué temáticas de fantasía caben en un castillo rosa además de princesas?
+
+Cuatro funcionan especialmente bien: unicornios, hadas, jardín encantado y mariposas. Las cuatro comparten el aire de cuento del castillo. Sus torres decorativas, su resbaladilla y sus mallas de seguridad se leen igual de bien con un cuerno dorado que con una corona.
 
 ### Unicornios
 
-Es la temática que más se pide junto al castillo. El rosa y el morado ya están puestos; lo que hace que se lea como unicornios son los acentos: dorado, blanco, crines de colores pastel y cuernos. Funciona con niñas y niños de 2 a 10 años, y aguanta bien la mirada de los primos más grandes.
+Es la que más se acomoda. Tú ya tienes el rosa puesto; lo que hace que se lea como unicornios son los acentos: dorado, blanco, crines pastel y cuernos. Funciona de los 2 a los 10 años, y los primos grandes no la sienten infantil si las actividades tienen un reto, como diseñar su propio cuerno o encontrar más gemas que nadie en el jardín.
 
 ### Hadas
 
-Las hadas se llevan con el castillo porque comparten el imaginario de cuento. La diferencia está en el verde: hojas, flores y tonos menta que convierten el jardín en un bosque. Es una temática ideal si la fiesta es al aire libre y hay árboles o plantas alrededor.
+Las hadas van con el castillo por el lado del cuento. La diferencia es el verde. Hojas, flores y tonos menta convierten tu jardín en un bosque pequeño. Si tienes árboles, una enredadera en la barda o macetas grandes alrededor del área del castillo, ya tienes la mitad de la decoración hecha sin gastar un peso.
 
 ### Jardín encantado
 
-Es la versión más sobria de las hadas: menos brillo, más flores y follaje. Va bien con familias que no quieren personajes ni colores chillones y prefieren que el jardín luzca como jardín. El castillo queda como pieza central y la decoración natural hace el resto.
+Es la versión sobria de las hadas. Menos brillo, más flores y follaje. Te va si no quieres personajes ni colores chillones. Ideal si prefieres que tu jardín luzca como jardín, con el castillo de pieza central.
 
 ### Mariposas
 
-Las mariposas permiten sumar más colores sin perder armonía: amarillo pastel, turquesa o naranja suave junto al rosa y el morado. Es una temática barata de ambientar porque las mariposas de papel se hacen en casa y se cuelgan de árboles, rejas o cordeles.
+Te deja sumar más color sin perder armonía: amarillo pastel, turquesa o naranja suave junto al rosa. Y te sale barata. Las mariposas de papel se recortan en casa y se cuelgan de árboles, rejas o cordeles.
 
-Si quieres ver cómo se comparan los modelos del catálogo para estas temáticas, el repaso de [inflables temáticos para niñas](/blog/inflables-tematicos-ninas-cdmx/) los ordena por edad y estilo. El resto de opciones con diseño de personaje o de escenario están en los [inflables temáticos del catálogo](/inflables/tematicos/).
+¿Quieres comparar modelos del catálogo para estas temáticas? El repaso de [inflables con diseño pensados para niñas](/blog/inflables-tematicos-ninas-cdmx/) los ordena por edad y estilo. Y el resto de diseños con personaje o escenario los encuentras en la [categoría de inflables con temática](/inflables/tematicos/).
 
-## ¿Qué paleta de color va con cada temática?
+## ¿Qué colores usar en una fiesta de unicornios, hadas o mariposas?
 
-La paleta decide si la fiesta se ve armada o improvisada. La regla práctica es elegir un color base que repita el del castillo, un color de acento que lo complemente y una lista corta de colores a evitar.
+Un color base que repita el rosa del castillo, un acento que lo complemente y una lista corta de colores que evitar. Con esa regla, tu fiesta se ve armada aunque gastes poco. Sin ella, se ve improvisada aunque gastes mucho. Así de directo.
 
-Esta tabla compara la paleta sugerida de cada temática junto al castillo rosa y morado:
+Esta tabla compara la paleta de cada temática junto al castillo rosa. La conclusión práctica: el dorado es el acento que combina con todas, así que si dudas, empieza por ahí.
 
-| Temática | Color base | Color de acento | Evita | Elemento que la identifica |
+| Temática | Color base | Color de acento | Evita | Lo que la identifica |
 |---|---|---|---|---|
 | Unicornios | Rosa y blanco | Dorado y lila | Colores primarios saturados | Cuernos y crines pastel |
-| Hadas | Lila y verde menta | Dorado tenue | Negro y rojo intenso | Alas y flores |
+| Hadas | Verde menta y rosa claro | Dorado tenue | Negro y rojo intenso | Alas y flores |
 | Jardín encantado | Verde hoja y rosa | Blanco y madera natural | Plástico brillante de muchos colores | Follaje y faroles de papel |
-| Mariposas | Rosa y morado | Amarillo pastel y turquesa | Más de cinco colores juntos | Mariposas de papel colgantes |
-| Princesas clásicas | Rosa y dorado | Blanco | Morado oscuro en grandes superficies | Coronas y tiaras |
+| Mariposas | Rosa y amarillo pastel | Turquesa y naranja suave | Más de cinco colores juntos | Mariposas de papel colgantes |
+| Princesas clásicas | Rosa y dorado | Blanco | Tonos oscuros en grandes superficies | Coronas y tiaras |
 
-### Cómo aplicar la paleta sin saturar el jardín
+### Cómo repartir la paleta en capas
 
-Una paleta no se aplica pintando todo del mismo color. Se reparte en capas, y cada capa tiene un trabajo distinto.
+Una paleta no se aplica pintando todo del mismo color. Se reparte en capas, y cada capa tiene un trabajo distinto. Si respetas ese orden, tu jardín se ve completo con pocas piezas. Y tú gastas menos.
 
 #### El color base
 
-Va en las superficies grandes: manteles, servilletas, el fondo de la mesa de dulces. Como el castillo ya aporta mucho rosa y morado, no hace falta repetirlo en exceso; con dos o tres piezas grandes del mismo tono basta.
+Va en las superficies grandes: manteles, servilletas, el fondo de la mesa de dulces. Como el castillo ya aporta mucho rosa, no necesitas repetirlo en todo. Dos o tres piezas grandes bastan.
 
 #### El color de acento
 
-Va en los detalles: listones, platos, cubiertos, etiquetas de comida, el cuerno de la diadema. Es el que hace que la temática se reconozca de lejos. El dorado es el acento más agradecido porque combina con las cuatro temáticas.
+Va en los detalles: listones, platos, etiquetas de comida, el cuerno de la diadema. Es el que hace que la temática se reconozca desde la entrada. Y es el que más fotos te gana.
 
-#### Lo que choca con el castillo
+#### Los colores que chocan con el castillo
 
-Los colores primarios fuertes, el negro y los rojos intensos rompen la armonía con el rosa y el morado. Si la vajilla desechable sólo la encuentras en esos colores, mejor usa blanco liso.
+Los primarios fuertes, el negro y los rojos intensos rompen la armonía con el rosa, y en las fotos se comen al castillo aunque estén en un rincón de la mesa. Si la vajilla desechable sólo la encuentras en esos tonos, usa blanco liso. Nadie lo va a notar, y la mesa se ve más limpia.
 
-![Castillo de Princesas inflable rosa y morado como centro de una fiesta de unicornios](/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif)
+## ¿Cómo decorar una fiesta de unicornios sin tapar el castillo?
 
-## ¿Cómo se decora una fiesta de unicornios sin competir con el inflable?
+Decora alrededor, no encima, y deja limpio el fondo del inflable. Un castillo de **5 × 3.30 × 3 m** ya ocupa la capa visual más alta del jardín. ¿Le pones encima un arco de globos enorme y cortinas de tul? Todo se ve saturado y tus fotos pierden al castillo.
 
-El error que más vemos en una fiesta de unicornios es decorar como si el castillo no existiera. Un castillo de **5 × 3.30 × 3 m** ya ocupa la capa visual más alta del jardín. Si encima pones un arco de globos enorme y cortinas de tul, el resultado se ve saturado y las fotos pierden al inflable.
+### Fondo despejado para las fotos
 
-### Deja despejado el fondo del castillo
-
-Lo que está detrás y a los lados del castillo es el fondo de casi todas las fotos de la fiesta. Mantenlo limpio: sin mesas de regalos, sin cajas, sin bolsas de basura. Si hay una barda fea, una tela lisa de color base la resuelve mejor que cualquier adorno.
+Lo que queda detrás y a los lados del castillo sale en casi todas las fotos de la fiesta. Mantenlo limpio: sin mesa de regalos, sin cajas, sin bolsas de basura. ¿Tienes una barda fea? Una tela lisa en el color base la resuelve mejor que cualquier adorno.
 
 ### Dónde sí va la decoración
 
-La decoración trabaja mejor en tres puntos lejos del inflable:
+Concentra tu presupuesto en tres puntos lejos del inflable. Ahí sí luce:
 
-- **La entrada de la casa o del jardín.** Un letrero con el nombre de la festejada y un par de globos en los colores de la paleta.
-- **La mesa de dulces y pastel.** Es el segundo punto de atención y donde se concentran los detalles de la temática.
+- **La entrada de la casa o del jardín.** Un letrero con el nombre de la festejada y un par de globos en la paleta marcan el tono desde que llegan.
+- **La mesa de dulces y pastel.** Es el segundo punto de atención y donde lucen los detalles de la temática.
 - **La zona de manualidades.** Manteles en color base y materiales a la vista ya decoran solos.
 
-### Globos: pocos, bajos y lejos
+### Globos pocos, bajos y lejos
 
-Los globos funcionan como marco, no como protagonistas. Úsalos en racimos bajos junto a la mesa o la entrada, en los colores base y acento. Nunca los amarres al inflable ni los coloques donde puedan caer dentro del área de brinco. En la guía para [decorar una fiesta infantil alrededor del inflable](/blog/decoracion-fiesta-infantil-inflable/) está el reparto completo por zonas: juego, comida, descanso y fotos.
+Los globos son marco. No protagonistas. Úsalos en racimos bajos junto a la mesa o la entrada, nunca amarrados al inflable ni donde puedan caer al área de brinco. Si quieres el reparto completo por zonas de juego, comida, descanso y fotos, revisa [cómo repartir la decoración alrededor del inflable](/blog/decoracion-fiesta-infantil-inflable/).
 
-## ¿Dónde se instala el castillo y qué necesita el lugar?
+![Entrada de castillo inflable rosa y turquesa con rampa azul en terraza de madera rodeada de plantas](/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif)
 
-El Castillo de Princesas es un modelo **sólo para exterior**. Va en jardín, patio o explanada, sobre una superficie plana y despejada, sin vidrio ni objetos punzantes. Necesita **4.2 m de altura libre**, así que revisa ramas, cables y toldos antes de apartar.
+> **¿Ya tienes la paleta?** Cuéntanos tu temática y tu fecha: te confirmamos disponibilidad del castillo rosa y qué necesita tu jardín. [Cotiza el castillo para tu fiesta de unicornios](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20el%20Castillo%20de%20Princesas%20para%20una%20fiesta%20de%20unicornios.%20Mi%20fecha%20es)
 
-Los otros requisitos son pocos: una toma de corriente de 110 V a menos de 20 m del área y una persona adulta que supervise durante todo el evento. La instalación toma unos 20 minutos y entregamos equipo revisado y sanitizado, con anclaje verificado y motor profesional durante todo el evento. El espacio libre exacto y la capacidad se confirman al cotizar.
+## ¿Dónde va el castillo y qué tiene que tener tu jardín?
 
-Si la fiesta será en un salón, primero confirma que el inflable pueda ir en un área descubierta; en la guía para [llevar el inflable a un salón de fiestas](/blog/inflable-en-salon-de-fiestas-que-preguntar/) están las preguntas que conviene hacer. Para dudas de pago, horario o instalación, revisa las [preguntas frecuentes sobre la renta](/preguntas-frecuentes/).
+Va sólo en exterior: jardín, patio o explanada, con **4.2 m de altura libre** y una superficie plana y despejada, sin vidrio ni objetos punzantes. Antes de apartar, revisa ramas, cables y toldos. Son los que más jardines descartan.
 
-## ¿Qué actividades funcionan en una fiesta de hadas y unicornios?
+Lo demás es poco. Necesitas una toma de corriente de 110 V a menos de 20 m del área y una persona adulta que supervise desde fuera todo el evento. Nosotros lo instalamos en unos 20 minutos, con equipo revisado y sanitizado, anclaje verificado y motor profesional encendido durante toda la fiesta. El espacio libre exacto y cuántos niños brincan por turno te los confirmamos al cotizar.
 
-Las actividades tienen dos trabajos: mantener ocupado al grupo que no está brincando y dejar un recuerdo hecho por los mismos niños. Estas tres funcionan en las cuatro temáticas y sirven para edades mezcladas.
+¿La fiesta será en un salón? Primero confirma que el castillo pueda ir en un área descubierta; en la guía sobre [qué preguntarle al salón antes de llevar inflable](/blog/inflable-en-salon-de-fiestas-que-preguntar/) tienes la lista. Si tus dudas son de pago, horario o instalación, las [respuestas sobre renta, pagos y montaje](/preguntas-frecuentes/) te ahorran la llamada.
+
+## ¿Qué actividades de hadas y unicornios mantienen ocupados a los que no brincan?
+
+Tres que no fallan: taller de alas de hada, cuernos de unicornio y búsqueda de gemas. Mantienen ocupado al grupo que espera turno y dejan un recuerdo hecho por los mismos niños, y las tres funcionan con edades mezcladas.
 
 ### Taller de alas de hada
 
-Es la actividad más vistosa y la que más fotos deja. Cada niño decora unas alas que después usa el resto de la fiesta.
+Es la actividad más vistosa. Y la que más fotos te deja. Cada niño decora unas alas que luego usa el resto de la fiesta, incluso dentro de la foto del pastel.
 
 #### Qué preparar
 
-Alas de cartón o de fieltro ya recortadas, con resorte para los brazos. Sobre la mesa: calcomanías, plumones, flores de papel y listones en los colores de la paleta. Evita la diamantina suelta: se pega en todo y termina dentro del inflable.
+Alas de cartón o de fieltro ya recortadas, con resorte para los brazos. Sobre la mesa pon calcomanías, plumones, flores de papel y listones en los colores de tu paleta. Evita la diamantina suelta, que se pega en todo y termina dentro del inflable.
 
-#### Cómo organizarlo por edades
+#### Cómo adaptarlo por edades
 
-Los de 2 a 4 años pegan calcomanías y listo. Los de 5 en adelante pueden diseñar, combinar colores y ponerle nombre a sus alas. La [mesa infantil con sillitas](/servicios/mobiliario-para-fiestas/) para niños de 1 a 6 años es el lugar natural para este taller y luego se usa para comer.
+Los de 2 a 4 años pegan calcomanías. Listo. Los de 5 en adelante diseñan, combinan colores y le ponen nombre a sus alas. Si rentas la [mesa infantil para el taller y la comida](/servicios/mobiliario-para-fiestas/), para niños de 1 a 6 años, te sirve para las dos cosas.
 
 ### Cuernos de unicornio
 
-Diademas lisas, conos de fieltro dorado ya armados y flores pequeñas de tela. Los niños pegan el cuerno al centro y las flores alrededor; un adulto ayuda con la pistola de silicón, que nunca queda al alcance de los niños. Es la actividad de bienvenida perfecta porque cada quien la hace al llegar y la diadema funciona como recuerdito.
+Necesitas diademas lisas, conos de fieltro dorado ya armados y flores pequeñas de tela, todo separado en charolas para que cada niño tome lo suyo sin esperar a que un adulto le reparta. Los niños pegan el cuerno al centro y las flores alrededor. Tú u otro adulto ayudan con la pistola de silicón, que nunca queda al alcance de los niños. Funciona como bienvenida: cada quien hace la suya al llegar y se la lleva puesta.
 
 ### Búsqueda de gemas
 
-Gemas de plástico grandes escondidas en el pasto, entre las macetas y al pie de los árboles, nunca dentro ni junto a la entrada del inflable. Cada niño recibe una bolsita y busca durante diez minutos. Para los más pequeños, usa gemas grandes y deja algunas a la vista para que nadie se quede con la bolsa vacía.
+Esconde gemas de plástico grandes en el pasto, entre macetas y al pie de los árboles, nunca dentro del inflable ni junto a su entrada. Cada niño recibe una bolsita. Diez minutos de búsqueda. Para los más chicos, deja algunas a la vista; nadie debería terminar con la bolsa vacía.
 
 #### Cuándo ponerla en el programa
 
-Funciona a la mitad de la fiesta, cuando baja la energía y el castillo necesita un respiro. Mientras el grupo busca gemas, el adulto que supervisa el inflable puede cerrar el turno sin que nadie reclame.
+A la mitad de la fiesta, cuando baja la energía y el castillo necesita un respiro. Mientras el grupo busca gemas, el adulto de la entrada cierra el turno sin que nadie reclame. ¿Cumple 3 años? Revisa el [cronograma por bloques para una fiesta de 3 años](/blog/fiesta-de-3-anos-ideas-inflable-cdmx/) y acomoda la búsqueda donde le toca.
 
-![Castillo de Princesas con torres decorativas listo para una fiesta de hadas y mariposas](/img/inflables/castillo-princesas.avif)
+![Castillo inflable rosa y azul con torres de punta visto de frente en un jardín arbolado](/img/inflables/castillo-princesas/mini-princess-renta-cdmx.avif)
 
-## ¿Cómo se arma la mesa de dulces para que combine con el castillo?
+## ¿Cómo armar la mesa de dulces para que hable el mismo idioma que el castillo?
 
-La mesa de dulces es el segundo punto de atención de la fiesta después del castillo. Si los dos hablan el mismo idioma de color, el jardín se ve completo sin necesidad de más decoración.
+Con la misma paleta, a la sombra y lejos de la entrada del inflable. Es el segundo punto de atención de la fiesta. Si repite los colores del castillo, tu jardín se ve completo sin que tengas que comprar más decoración.
 
-### Colores y piezas
+### Colores y piezas por temática
 
-Sigue la paleta de la tabla: mantel en color base, piezas de acento en dorado o blanco y dulces que repitan los tonos. Para unicornios, merengues y malvaviscos rosas y blancos; para hadas, dulces verdes y lilas; para mariposas, galletas decoradas con alas de colores.
+Sigue la tabla de arriba. No tiene ciencia. Para unicornios, merengues y malvaviscos rosas y blancos. Para hadas, dulces verdes y lilas con flores comestibles. Para mariposas, galletas decoradas con alas de colores. El pastel cierra la temática: un cuerno dorado, unas alas o tres mariposas bastan.
 
-### Ubicación lejos del área de brinco
+### Ubicación y tiempos con el proveedor
 
-La mesa va a la sombra y alejada de la entrada del inflable. Así los niños no brincan con dulces en la boca y el azúcar no termina pegado en el castillo. Si combinas proveedores, en la guía de [mesa de dulces junto al inflable](/blog/mesa-dulces-inflable-cumpleanos-cdmx/) está cómo coordinar los tiempos de instalación de ambos.
+Ponla a la sombra y lejos del área de brinco. Así nadie brinca con dulces en la boca. Si contratas otro proveedor para los dulces, coordina horarios de instalación; en la guía de [mesa de dulces y pastel junto al castillo](/blog/mesa-dulces-inflable-cumpleanos-cdmx/) tienes el orden de llegada.
 
-### El pastel como cierre de la temática
+¿Estás haciendo cuentas de dulces, pastel y decoración? En [el desglose de gastos de una fiesta de princesas](/blog/cuanto-cuesta-fiesta-de-princesas-en-casa/) ordenamos esas partidas junto a los precios fijos del inflable y el mobiliario. Te ayuda a decidir dónde recortar. Y dónde no.
 
-Un pastel con cuerno dorado, alas o mariposas cierra el conjunto. No necesita ser grande: lo que importa es que repita la paleta y que quede en la mesa a la vista, para que en la foto de las mañanitas aparezcan el pastel y el castillo al fondo.
+> **Una pieza grande, cero estrés.** Si el castillo ya pone el color, tú sólo resuelves la mesa y las actividades. Escríbenos y te decimos qué día está libre. [Pregunta la disponibilidad del castillo rosa](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20la%20disponibilidad%20del%20castillo%20rosa%20para%20una%20fiesta%20de%20hadas)
 
-Si estás calculando cuánto destinar a dulces, pastel y decoración, el artículo sobre [cuánto cuesta una fiesta de princesas](/blog/cuanto-cuesta-fiesta-de-princesas-en-casa/) ordena esas partidas junto a los precios fijos del inflable y el mobiliario.
+## ¿Qué errores de decoración arruinan las fotos con el castillo?
 
-## ¿Qué errores de decoración se repiten en estas fiestas?
+Casi siempre son los mismos cinco, y todos se evitan con una revisión el día anterior. Ninguno cuesta dinero arreglarlo; lo que cuesta es descubrirlo cuando ya llegaron los invitados y no hay tiempo de mover nada.
 
-Son casi siempre los mismos, y todos se evitan con una revisión el día anterior:
+- **Mezclar las cuatro temáticas.** Unicornios, hadas, mariposas y princesas a la vez parecen pasillo de tienda de fiestas. Elige una y usa las otras como detalle.
+- **Pegar adornos al inflable.** La cinta y los globos se despegan con el movimiento y caen donde brincan los niños.
+- **Usar confeti o diamantina cerca del castillo.** Se meten en las costuras y en los ojos. Que se queden en la mesa de manualidades.
+- **Poner muebles frente al inflable.** La mesa de regalos o las sillas de adultos delante del castillo arruinan el encuadre principal.
+- **Saturar la paleta.** Más de cinco colores juntos rompen la armonía con el rosa y la temática deja de leerse.
 
-- **Mezclar las cuatro temáticas.** Unicornios, hadas, mariposas y princesas a la vez se ven como tienda de fiestas. Elige una y usa las otras sólo como detalle.
-- **Pegar adornos al inflable.** Cinta, globos o guirnaldas sobre el castillo se despegan, se caen al área de brinco y estorban a los niños.
-- **Usar confeti o diamantina cerca del castillo.** Se mete en las costuras y en los ojos de los niños. Que se queden en la mesa de manualidades, lejos.
-- **Tapar el castillo en las fotos.** Mesas, sillas de adultos o la mesa de regalos frente al inflable arruinan el encuadre principal de la fiesta.
-- **Saturar la paleta.** Más de cinco colores rompen la armonía con el rosa y el morado del castillo.
+## ¿Qué castillo conviene si la fiesta de hadas es parte de un bautizo o una boda?
 
-## ¿Qué pasa si la fiesta es formal o la familia prefiere colores neutros?
+El Castillo Blanco. Si tus hadas forman parte de un evento formal, el rosa puede no encajar con la mantelería. Ahí te funciona mejor un castillo blanco que se integra a la decoración.
 
-Hay fiestas de hadas o de jardín encantado que en realidad son parte de un bautizo, una boda o unos XV años, y ahí el rosa y el morado pueden no encajar con la decoración del evento. Para esos casos está el [Castillo Blanco para eventos formales](/inflables/castillo-blanco/): blanco, de **5 × 7 × 4 m**, sólo para exterior, para niños de **3 a 12 años** y con precio de **$2,600** netos por evento.
+El [Castillo Blanco para bodas, bautizos y XV años](/inflables/castillo-blanco/) mide **5 × 7 × 4 m** y pide 4.7 m de altura libre. Es sólo para exterior y recibe a niños de **3 a 12 años**. Su precio es de **$2,600** netos por evento. Quienes brincan son los niños invitados; los adultos acompañan desde fuera.
 
-Si la duda es entre los tres castillos del catálogo, la comparativa de [castillos inflables: Princesas, Blanco y Baby](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) los pone lado a lado por tipo de evento. Y si lo que dudas es entre el castillo rosa y el modelo rojo del catálogo, lee cuándo conviene el [Castillo de Princesas en lugar de los Dragones Rojos](/blog/renta-castillo-princesas-inflable-cdmx/).
-
-## ¿Para qué edades funciona la temática y cómo se reparten los turnos?
-
-El Castillo de Princesas está recomendado de **2 a 10 años**, y las temáticas de esta guía cubren ese mismo rango. A los 3 años los cuernos y las alas encantan; a los 8 todavía funcionan si las actividades tienen un reto, como diseñar sus alas o encontrar más gemas.
-
-Lo que no cambia con la temática es la organización del castillo: turnos por edad, primero los chicos y después los grandes, con una persona adulta en la entrada todo el tiempo. La capacidad por turno se confirma al cotizar. Si el cumpleaños es de una niña o un niño de 3 años, en las [ideas para una fiesta de 3 años con inflable](/blog/fiesta-de-3-anos-ideas-inflable-cdmx/) está el horario y el cronograma pensado para esa edad.
-
-Conviene decirlo claro: no rentamos inflables para adultos. Los adultos acompañan y supervisan desde fuera del castillo, y esa supervisión es la que permite que las actividades y los turnos funcionen.
+¿Dudas entre los tres castillos del catálogo? La [tabla de los castillos rosa, blanco y para bebés](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) los pone lado a lado por tipo de evento. Y si dudas entre el castillo rosa y el modelo rojo, lee [en qué fiestas gana el castillo rosa frente a los dragones](/blog/renta-castillo-princesas-inflable-cdmx/).
 
 ## Aparta el castillo para tu fiesta de unicornios
 
-Escríbenos por WhatsApp al **55 3128 1706** con la fecha, la zona y el número aproximado de niños, o [cotiza tu fiesta en línea](/cotizar/). Atendemos de lunes a domingo de 8:00 a 20:00 y la fecha se aparta con el 50% de anticipo.
+Si ya elegiste temática y paleta, sólo te falta asegurar la fecha. Los fines de semana se llenan primero; la disponibilidad se confirma por WhatsApp. Para que la cotización te llegue completa a la primera, mándanos:
 
-El Castillo de Princesas cuesta **$1,800** netos por evento, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA. El traslado se cobra según la zona, y la entrega sin costo adicional aplica sólo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco. Consulta la [cobertura en CDMX y Estado de México](/cobertura/), revisa las [fotos y medidas del Castillo de Princesas](/inflables/castillo-princesas/) o compara los [precios de todos los modelos](/precios/).
+- **Fecha y horario** de la fiesta.
+- **Alcaldía o municipio**, para calcular el traslado.
+- **Tipo de superficie y altura libre** del jardín o patio.
+- **Edades y cantidad aproximada de niños**, para organizar turnos.
+- **Temática elegida**, por si quieres sumar mesa infantil para el taller.
+
+La fecha se aparta con 50% de anticipo. El precio es por evento y neto, con instalación y recolección incluidas. Si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona; revisa las [zonas de entrega del castillo en CDMX y Edomex](/cobertura/) o los [precios netos de cada inflable del catálogo](/precios/). Atendemos de lunes a domingo de 8:00 a 20:00.
+
+Usa la [cotización en línea para tu fiesta temática](/cotizar/) o [escríbenos al 55 3128 1706 por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Castillo%20de%20Princesas%20para%20una%20fiesta%20de%20unicornios) y aparta tu castillo hoy.

@@ -1,22 +1,20 @@
 ---
-title: "Inflable para niños de 1 a 3 años: comparativa de 3 modelos"
-h1: "Inflable para niños de 1 a 3 años: Castillo Baby, Gusanitos o Castillo de Princesas"
-description: "Comparativa de inflable para niños de 1 a 3 años en CDMX: medidas, edades, altura libre y precio del Castillo Baby, el Gusanitos y el Castillo de Princesas."
-excerpt: "Tres modelos del catálogo reciben a menores de 3 años, pero sólo uno empieza al año. Cómo elegir según la edad exacta, el espacio y quién más viene a la fiesta."
+title: "Inflable para niños de 1 a 3 años: 3 modelos comparados"
+h1: "Inflable para niños de 1 a 3 años: Castillo Baby, Gusanitos o Castillo de Princesas, lado a lado"
+description: "Inflable para niños de 1 a 3 años en CDMX: compara medidas, edades, altura libre y precio del Castillo Baby, el Gusanitos y el Castillo de Princesas."
+excerpt: "Tres modelos aceptan menores de 3 años, pero sólo uno empieza al año. Compara edades, espacio y precio y elige el que de verdad le toca a tu fiesta."
 publishDate: "2026-10-01"
 updatedDate: "2026-10-01"
 category: "Castillo Baby"
 author: "Equipo BRINCOLINS"
 readTime: "12 min"
-heroImage: "/img/inflables/mini-castillo/mini-castillo-renta-cdmx.avif"
-heroImageAlt: "Castillo Baby inflable para niños de 1 a 3 años instalado para una renta en CDMX"
+heroImage: "/img/inflables/mini-castillo.avif"
+heroImageAlt: "Castillo Baby, inflable para niños de 1 a 3 años, con techo azul y arcos amarillos sobre pasto"
 galleryImages:
-  - "/img/inflables/mini-castillo.avif"
-  - "/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif"
-  - "/img/inflables/mini-castillo/mini-castillo-exterior.avif"
+  - "/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif"
 intro:
-  - "Buscas un inflable para un niño que todavía no cumple 3 años y el catálogo te ofrece varios que dicen «desde 2 años». Parecen equivalentes, pero no reciben al mismo grupo ni caben en el mismo lugar."
-  - "Esta comparativa pone lado a lado los tres modelos que aceptan menores de 3 años, el **Castillo Baby**, el **Gusanitos** y el **Castillo de Princesas**, con medidas, edades, altura libre, si van en interior o exterior y precio. Al final sabrás cuál corresponde a tu fiesta y cuándo conviene rentar dos."
+  - "Buscas un inflable para un niño que todavía no cumple 3 años y varios modelos dicen «desde 2 años». Parecen equivalentes. No reciben al mismo grupo ni caben en el mismo lugar."
+  - "Esta comparativa pone lado a lado los tres modelos que aceptan menores de 3 años, el **Castillo Baby**, el **Gusanitos** y el **Castillo de Princesas**, con medidas, edades, altura libre, lugar de instalación y precio, para que elijas el que corresponde a tu fiesta."
 tags:
   - "inflable para niños de 1 a 3 años"
   - "comparativa de inflables"
@@ -24,30 +22,36 @@ tags:
   - "fiestas de bebés"
 faqs:
   - question: "¿Qué inflable puede usar un niño de 1 año?"
-    answer: "Sólo el Castillo Baby, que es para niños de 1 a 3 años. El Gusanitos y el Castillo de Princesas empiezan a los 2 años, así que un niño de 1 año no entra en ellos."
+    answer: "Sólo el Castillo Baby, que es para niños de 1 a 3 años. El Gusanitos y el Castillo de Princesas empiezan a los 2 años, así que un niño de 1 año no entra en ellos aunque esté acompañado o brinque solo."
   - question: "¿Un niño de 2 años puede entrar al Castillo de Princesas?"
-    answer: "Sí, el Castillo de Princesas es para niños de 2 a 10 años. Lo importante es organizar turnos por edad para que no brinque al mismo tiempo que niños mucho más grandes."
+    answer: "Sí, el Castillo de Princesas es para niños de 2 a 10 años. Lo importante es organizar turnos por edad para que no brinque al mismo tiempo que niños mucho más grandes, y que una persona adulta supervise la entrada durante todo el evento."
   - question: "¿Cuál es el inflable más pequeño para bebés en CDMX?"
-    answer: "El Castillo Baby, que mide 2.5 × 2 × 2 m y pide 3.2 m de altura libre. Es el modelo compacto del catálogo, pensado para interiores, terrazas y espacios reducidos, y cuesta $1,400 neto por evento."
+    answer: "El Castillo Baby, que mide 2.5 × 2 × 2 m y pide 3.2 m de altura libre. Es el modelo compacto del catálogo, pensado para interiores, terrazas y espacios reducidos, y cuesta $1,400 netos por evento con instalación y recolección incluidas."
   - question: "¿Se pueden rentar dos inflables para la misma fiesta?"
-    answer: "Sí. Es lo indicado cuando la lista mezcla bebés de 1 a 3 años con niños mayores. Cada inflable va separado del otro y con una persona adulta supervisando su entrada."
-  - question: "¿El Gusanitos sirve para una fiesta en interiores?"
-    answer: "Sí. El Gusanitos mide 5 × 3 × 2.80 m, pide 3.2 m de altura libre y es apto para interiores. Funciona más como circuito de túneles que como brincolín y recibe niños de 2 a 8 años."
+    answer: "Sí. Es lo indicado cuando tu lista mezcla bebés de 1 a 3 años con niños mayores. Cada inflable va separado del otro, con su propia toma de corriente cerca y una persona adulta supervisando su entrada todo el evento."
+  - question: "¿El Gusanitos sirve para una fiesta bajo techo?"
+    answer: "Sí. El Gusanitos mide 5 × 3 × 2.80 m, pide 3.2 m de altura libre y es apto para interiores. Funciona más como circuito de túneles que como brincolín y recibe niños de 2 a 8 años, así que necesita un salón amplio."
+  - question: "¿Qué brincolín conviene para un niño de 3 años?"
+    answer: "Depende de con quién brinque. Si sus invitados tienen de 1 a 3 años, el Castillo Baby sigue funcionando; si la mayoría ya pasó los 3, conviene el Gusanitos bajo techo o el Castillo de Princesas en exterior, con turnos por edad."
 ---
 
-Elegir un inflable para niños de 1 a 3 años no es elegir el más bonito: es elegir el que corresponde a la edad exacta de los invitados y al espacio que tienes. De los ocho modelos del catálogo, tres aceptan menores de 3 años, y sólo uno empieza al año. Esta comparativa te dice cuál conviene en cada caso.
+Tienes tres pestañas abiertas, tres fichas y la misma frase en dos de ellas: «desde 2 años». Tu hijo cumple 2 en un mes. ¿Cuál eliges?
 
-## ¿Qué modelos del catálogo reciben a menores de 3 años?
+Elegir un inflable para niños de 1 a 3 años no va de escoger el más bonito. Va de escoger el que corresponde a la edad exacta de quienes van a brincar y al espacio que tienes. De los ocho modelos del catálogo, tres aceptan menores de 3 años y sólo uno empieza al año. Aquí ves cuál te conviene en cada caso.
 
-Tres. El **Castillo Baby**, de 1 a 3 años; el **Gusanitos**, de 2 a 8 años, y el **Castillo de Princesas**, de 2 a 10 años. Los otros cinco modelos empiezan a los 3 años y quedan fuera de esta comparativa.
+> **Respuesta rápida:** Para un inflable para niños de 1 a 3 años, el modelo es el [Castillo Baby, el único que empieza al año](/inflables/mini-castillo/): 2.5 × 2 × 2 m, apto para interiores con 3.2 m de altura libre y $1,400 netos por evento. Si tu hijo ya tiene 2 o 3, también entran el Gusanitos ($1,600, de 2 a 8 años) y el Castillo de Princesas ($1,800, de 2 a 10 años, sólo exterior).
 
-La diferencia de fondo está en para quién se diseñó cada uno. El Castillo Baby está pensado sólo para los más pequeños. El Gusanitos y el Castillo de Princesas aceptan niños de 2 años, pero comparten su rango con niños de 8 y de 10. Eso cambia cómo se usan, no sólo quién entra.
+## ¿Qué modelos del catálogo aceptan niños menores de 3 años?
 
-Si buscas un panorama más amplio por grupos de edad, la guía de [brincolines para niños pequeños](/blog/brincolines-para-ninos-pequenos-cdmx/) repasa el catálogo de 1 a 6 años, y la [categoría de inflables chicos](/inflables/chicos/) reúne los modelos compactos.
+Tres: el Castillo Baby, de 1 a 3 años; el Gusanitos, de 2 a 8, y el Castillo de Princesas, de 2 a 10. Los otros cinco modelos empiezan a los 3 años y quedan fuera de esta comparativa. La diferencia de fondo es para quién se diseñó cada uno. Eso te cambia la elección.
+
+El Castillo Baby está pensado sólo para los más pequeños. El Gusanitos y el Castillo de Princesas aceptan niños de 2 años, pero comparten su rango con niños de 8 y de 10. Eso cambia cómo se usan. No sólo quién entra.
+
+¿Quieres un panorama más amplio por edades? La guía de [brincolines pensados para niños pequeños](/blog/brincolines-para-ninos-pequenos-cdmx/) repasa el catálogo de 1 a 6 años, y la sección de [inflables chicos para fiestas de bebés](/inflables/chicos/) reúne los modelos compactos.
 
 ## ¿En qué se diferencian Castillo Baby, Gusanitos y Castillo de Princesas?
 
-En casi todo, salvo en que los tres aceptan niños de 2 años. Esta tabla compara medidas, edades, altura libre, lugar de instalación y precio de los tres, con los datos de cada ficha:
+En casi todo, salvo en que los tres aceptan niños de 2 años. El Castillo Baby es el más chico y el único que empieza al año; el Gusanitos es un circuito que también va bajo techo; el Castillo de Princesas es el más vistoso y va sólo en exterior. Esta tabla compara los datos de cada ficha, para que veas de un golpe cuál cabe en tu caso:
 
 | Dato | Castillo Baby | Gusanitos | Castillo de Princesas |
 |---|---|---|---|
@@ -58,23 +62,23 @@ En casi todo, salvo en que los tres aceptan niños de 2 años. Esta tabla compar
 | Instalación | 15 min | 20 min | 20 min |
 | Precio neto por evento | $1,400 | $1,600 | $1,800 |
 
-### Castillo Baby
+### Castillo Baby: todos brincan con su edad
 
-Es el compacto del catálogo: **2.5 × 2 × 2 m**, para bebés y niños de **1 a 3 años**, pensado para interiores, terrazas y espacios reducidos. Se instala en **15 minutos** y cuesta **$1,400**. Es el único de los tres donde todos los que brincan tienen la misma edad que tu festejado. La [galería y precio del Castillo Baby](/inflables/mini-castillo/) están en su ficha.
+Es el compacto: 2.5 × 2 × 2 m, para bebés y niños de 1 a 3 años, pensado para interiores, terrazas y espacios reducidos. Se instala en 15 minutos y cuesta $1,400. Es el único de los tres donde todos los que brincan tienen la edad de tu festejado. Te da tranquilidad.
 
-### Gusanitos
+### Gusanitos: túneles para edades mezcladas
 
-Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas. Mide **5 × 3 × 2.80 m**, es para niños de **2 a 8 años**, también es apto para interiores con **3.2 m** de altura libre y cuesta **$1,600**. Funciona bien con grupos de edades mezcladas, porque los niños recorren los túneles en lugar de brincar todos en el mismo punto. Los detalles están en la ficha de los [túneles del Gusanitos](/inflables/gusanitos/).
+Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas. Mide 5 × 3 × 2.80 m, recibe niños de 2 a 8 años, va bajo techo con 3.2 m libres y cuesta $1,600. Funciona con grupos de edades mezcladas porque los niños recorren los túneles en lugar de brincar todos en el mismo punto. Puedes ver sus fotos en la ficha del [circuito Gusanitos de 2 a 8 años](/inflables/gusanitos/).
 
-### Castillo de Princesas
+### Castillo de Princesas: el más vistoso
 
-Es rosa y morado, con torres decorativas, resbaladilla y mallas de seguridad. Mide **5 × 3.30 × 3 m**, es para niños de **2 a 10 años**, pide **4.2 m** de altura libre, se instala sólo en exterior y cuesta **$1,800**. Es el más vistoso de los tres y el que más se presta para una temática completa. Medidas y fotos en la ficha del [Castillo de Princesas de 2 a 10 años](/inflables/castillo-princesas/).
+Rosa y morado, con torres decorativas, resbaladilla y mallas de seguridad. Mide 5 × 3.30 × 3 m, es para niños de 2 a 10 años, pide 4.2 m de altura libre, va sólo en exterior y cuesta $1,800. Si tu fiesta tiene temática de princesas, es el que más se presta. Medidas y fotos en la ficha del [Castillo de Princesas con resbaladilla](/inflables/castillo-princesas/).
 
-![Inflable para niños de 1 a 3 años Castillo Baby en un cumpleaños infantil con invitados pequeños](/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif)
+![Torres naranja y rosa del Castillo Baby con techo azul y pelotas adentro, junto a una barda](/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif)
 
-## ¿Qué inflable para niños de 1 a 3 años conviene según la edad exacta?
+## ¿Qué inflable para niños de 1 a 3 años te conviene según la edad exacta?
 
-La edad decide primero; el espacio y el grupo, después. Esta tabla compara qué modelos corresponden a cada edad del festejado y de sus invitados principales:
+Primero manda la edad; después, el espacio y el grupo. Entre 1 y 2 años sólo aplica el Castillo Baby. De 2 a 3 años, los tres son válidos y decides por espacio y por quién más va a brincar. La tabla cruza la edad de los niños con cada modelo y te da la recomendación directa:
 
 | Edad de los niños | Castillo Baby | Gusanitos | Castillo de Princesas | Qué elegir |
 |---|---|---|---|---|
@@ -86,57 +90,55 @@ La edad decide primero; el espacio y el grupo, después. Esta tabla compara qué
 
 ### De 1 a 2 años: sólo el Castillo Baby
 
-Mientras el festejado no cumpla 2 años, no hay comparación: el único modelo en su rango es el Castillo Baby. El Gusanitos y el Castillo de Princesas empiezan a los 2, y un rango de edad no se redondea.
+Mientras tu festejado no cumpla 2 años, no hay comparación. El único modelo en su rango es el Castillo Baby. Un rango de edad no se redondea. Así de simple.
 
 #### Por qué no adelantar un modelo para mayores
 
-Porque el rango de edad de cada inflable es una condición de uso, no una sugerencia. Un modelo diseñado para niños de hasta 8 o 10 años está pensado para su tamaño y su forma de jugar. Meter a un niño de 1 año ahí, aunque esté solo, lo pone en un equipo que no es para él.
+Porque el rango de edad de cada inflable es una condición de uso, no una sugerencia. Un modelo para niños de hasta 8 o 10 años está pensado para su tamaño y su forma de jugar. Meter ahí a un niño de 1 año, aunque esté solo, lo pone en un equipo que no es para él.
 
-#### Qué revisar aunque sea el modelo correcto
+#### Lo que revisas aunque elijas bien
 
-Que haya una persona adulta en la entrada durante todo el evento, que los niños entren sin zapatos y sin comida, y que no entren niños mayores "un ratito". El modelo correcto no sustituye a la supervisión.
+Que haya una persona adulta en la entrada durante todo el evento. Que los niños entren sin zapatos y sin comida. Que no entren niños mayores «un ratito». El modelo correcto no sustituye a la supervisión. Te sigue tocando vigilar.
 
-### De 2 a 3 años: tres opciones
+### De 2 a 3 años: tres opciones válidas
 
-Aquí los tres modelos son válidos y la decisión depende de dos cosas: dónde va la fiesta y quién más va a brincar.
+Aquí los tres funcionan. Decides con dos preguntas: ¿dónde es la fiesta? ¿Quién más va a brincar?
 
 #### Cuando el espacio decide
 
-Bajo techo, sólo el Castillo Baby y el Gusanitos, siempre con 3.2 m de altura libre. Si la sala es justa, el Castillo Baby; si es un salón amplio, cualquiera de los dos. En exterior, los tres.
+Bajo techo, sólo el Castillo Baby y el Gusanitos, siempre con 3.2 m de altura libre. Si tu sala es justa, el Castillo Baby; si tienes un salón amplio, cualquiera de los dos. En exterior, los tres.
 
 #### Cuando el grupo decide
 
-Si casi todos los invitados tienen de 1 a 3 años, el Castillo Baby. Si hay hermanos y primos de 4 a 8, el Gusanitos, porque su formato de circuito tolera mejor la mezcla. Si la fiesta tiene temática de princesas y el grupo llega hasta los 10 años, el Castillo de Princesas, con turnos por edad.
+Si casi todos tus invitados tienen de 1 a 3 años, el Castillo Baby. Si hay hermanos y primos de 4 a 8, el Gusanitos, porque su formato de circuito tolera mejor la mezcla. Si quieres temática de princesas y el grupo llega a los 10 años, el Castillo de Princesas, con turnos por edad.
 
-## ¿Qué cambia cuando el festejado está por cumplir 3 años?
+> **¿Todavía dudas entre dos modelos?** Dinos la edad de tu festejado, la de sus invitados y dónde es la fiesta; te decimos cuál corresponde y si está libre. [Preguntar qué modelo me conviene](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20que%20inflable%20conviene%20para%20ninos%20de%201%20a%203%20anos)
 
-Los 3 años son la frontera. El Castillo Baby recibe niños hasta esa edad, así que una fiesta de 3 años todavía cabe en su rango, pero es el último cumpleaños en que funciona como inflable principal. A partir de ahí, el festejado y sus amigos pasan a los modelos de rango amplio.
+## ¿Qué pasa con la elección cuando tu hijo ya va para los 3?
 
-Eso tiene una consecuencia práctica: si el festejado cumple 3 y la mayoría de sus invitados son compañeros de su edad o un poco mayores, conviene mirar ya al Gusanitos o al Castillo de Princesas. Si en cambio los invitados son sobre todo primos de 1 y 2 años, el Castillo Baby sigue siendo el centro de la fiesta.
+Que llegas a la frontera. El Castillo Baby recibe niños hasta los 3 años, así que una fiesta de 3 todavía cabe en su rango, pero es el último cumpleaños en que funciona como inflable principal. A partir de ahí, tu hijo y sus amigos pasan a los modelos de rango amplio.
 
-Una regla sencilla para decidir:
+En la práctica: si tu hijo cumple 3 y la mayoría de sus invitados son compañeros de su edad o un poco mayores, mira ya al Gusanitos o al Castillo de Princesas. Si los invitados son sobre todo primos de 1 y 2 años, el Castillo Baby sigue siendo el centro.
 
-- **La mayoría tiene de 1 a 3 años:** Castillo Baby.
-- **La mayoría tiene 3 años o más:** Gusanitos en interior, Castillo de Princesas en exterior.
+Una regla corta para decidir:
+
+- **La mayoría tiene de 1 a 3 años:** Castillo Baby, en interior o exterior.
+- **La mayoría tiene 3 años o más:** Gusanitos bajo techo, Castillo de Princesas en exterior.
 - **Hay de los dos grupos en cantidad parecida:** dos inflables, uno para cada grupo.
 
-Lo que no conviene es elegir el inflable pensando en la fiesta del año siguiente. Cada fiesta se resuelve con la edad de quienes van a brincar ese día.
+No elijas pensando en la fiesta del año siguiente. Cada fiesta se resuelve con la edad de quienes van a brincar ese día.
 
-## ¿Cuál de los tres cabe en tu espacio?
+## ¿Cuál de los tres modelos cabe en tu casa o salón?
 
-La altura libre descarta antes que el piso. El Castillo Baby y el Gusanitos piden **3.2 m**; el Castillo de Princesas, **4.2 m** y sólo en exterior. En un departamento típico de la Ciudad de México, con techo de 2.3 a 2.7 m, ninguno se instala adentro; la fiesta tiene que moverse a la azotea, al patio o a un salón con más altura.
+La altura libre descarta antes que el piso. El Castillo Baby y el Gusanitos piden 3.2 m; el Castillo de Princesas, 4.2 m y sólo en exterior. En un departamento típico de la Ciudad de México, con techo de 2.3 a 2.7 m, ninguno se instala adentro. Tu fiesta tendría que moverse a la azotea, al patio o a un salón con más altura.
 
-Además de la altura, los tres necesitan lo mismo: superficie plana y despejada, sin vidrio ni objetos punzantes, y una toma de **110 V a menos de 20 m** del área. El espacio libre exacto y la capacidad se confirman al cotizar.
+Además de la altura, los tres necesitan lo mismo: superficie plana y despejada, sin vidrio ni objetos punzantes, y una toma de 110 V a menos de 20 m del área. ¿El espacio libre exacto y la capacidad? Se confirman al cotizar.
 
-Si la fiesta es en casa, la guía de [inflable para departamento y altura de techo](/blog/inflable-para-departamento-altura-techo-cdmx/) explica cómo medir en el punto más bajo, qué pasa con lámparas y ventiladores, y qué hacer si el techo no alcanza.
+Si la fiesta es en casa, la guía de [inflable para departamento según tu techo](/blog/inflable-para-departamento-altura-techo-cdmx/) te explica cómo medir en el punto más bajo y qué hacer si no alcanza. Mide antes de elegir. Te ahorra una vuelta.
 
-## ¿Qué pasa si la fiesta mezcla bebés y niños grandes?
+## ¿Cómo resuelves una fiesta con bebés y niños grandes a la vez?
 
-Es el caso más frecuente: el festejado tiene 2 años, pero vienen hermanos y primos de 5, 7 y 9. Un solo inflable no resuelve los dos grupos sin problemas, y ahí conviene rentar dos.
-
-### La combinación de dos inflables
-
-La que más sentido tiene para menores de 3 años es el Castillo Baby para los pequeños y un segundo modelo para los mayores. Esta tabla compara las combinaciones posibles con precios netos de catálogo:
+Con dos inflables, uno por grupo. Si tu festejado tiene 2 años pero vienen hermanos y primos de 5, 7 y 9, un solo inflable no resuelve a los dos grupos sin problemas. El Castillo Baby se queda con los pequeños y un segundo modelo recibe a los mayores. Esta tabla compara las combinaciones posibles con precios netos de catálogo:
 
 | Combinación | Para quién | Dónde | Precio neto |
 |---|---|---|---|
@@ -147,45 +149,59 @@ La que más sentido tiene para menores de 3 años es el Castillo Baby para los p
 
 ### Cómo se acomodan en el lugar
 
-Los dos inflables van separados entre sí, cada uno con su adulto en la entrada. El de los pequeños, cerca de las mesas de los papás; el de los grandes, más lejos y donde haya más espacio para correr. Cómo calcular el tamaño según el número de invitados está en [inflable chico o grande según tus invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/), y la guía de [fiesta con niños de edades mezcladas](/blog/renta-inflable-gusanitos-cdmx/) explica cómo repartir los turnos.
+Los dos inflables van separados entre sí, cada uno con su adulto en la entrada. El de los pequeños, cerca de las mesas de los papás. El de los grandes, más lejos y donde haya espacio para correr. Tienes dos zonas tranquilas.
 
-![Castillo Baby inflable bajo techo para niños de 1 a 3 años, separado del inflable de los mayores](/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif)
+### Cuántos niños esperas
 
-## ¿Cuánto cuesta cada opción?
+El tamaño también depende de tu lista. La guía para [decidir entre inflable chico o grande por invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/) te ayuda a calcularlo, aunque la capacidad exacta de cada modelo se confirma al cotizar.
 
-Los tres modelos tienen precio neto por evento, con instalación y recolección incluidas: Castillo Baby **$1,400**, Gusanitos **$1,600** y Castillo de Princesas **$1,800**. Si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona.
+![Detalle de la rampa naranja del Castillo Baby, apoyada en una lona azul junto a la pared](/img/inflables/mini-castillo/mini-castillo-exterior.avif)
 
-Para una fiesta de bebés también existe el paquete fiesta bebés, de **$2,100**, que incluye un Castillo Baby, una mesa con 4 sillitas y una pintacaritas para 4 niños. La pintacaritas no se vende por separado. Los detalles están en los [paquetes de fiesta con Castillo Baby](/servicios/paquetes-de-fiesta/) y los ocho modelos en la [página de precios con los ocho modelos](/precios/).
+## ¿Cuánto pagas por cada opción y qué incluye el precio?
 
-## ¿Qué cambia según el tipo de festejo?
+Castillo Baby $1,400, Gusanitos $1,600 y Castillo de Princesas $1,800, precio neto por evento con instalación y recolección incluidas. Si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. El precio es por evento, no por tiempo.
 
-La comparativa sirve para cualquier evento, pero cada uno tiene su propia logística. Estas guías cubren los casos más comunes con niños de 1 a 3 años:
+Para una fiesta de bebés también tienes el paquete fiesta bebés de $2,100: un Castillo Baby, una mesa con 4 sillitas y una pintacaritas para 4 niños. La pintacaritas no se vende por separado. Los detalles están en los [paquetes con Castillo Baby y mesa](/servicios/paquetes-de-fiesta/), y los ocho modelos en la [tabla de precios del catálogo completo](/precios/).
+
+## ¿Qué guía te sirve según el festejo: cumpleaños, bautizo o guardería?
+
+La comparativa sirve para cualquier evento, pero cada festejo tiene su propia logística. Elige el modelo aquí y resuelve el resto con la guía de tu caso; estas son las que cubren fiestas con niños de 1 a 3 años.
 
 ### Cumpleaños
 
-Para el primer año, la [guía para la fiesta del primer año](/blog/renta-mini-castillo-inflable-bebes-cdmx/) cubre horario, duración e invitados. Para el segundo, la [guía de la fiesta de 2 años](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) agrega siestas, actividades, comida y la cuenta entre paquete y renta por separado.
+¿Tu hijo cumple uno o dos? Para el primer año, la guía para [planear el cumpleaños número uno](/blog/renta-mini-castillo-inflable-bebes-cdmx/) cubre horario, duración e invitados. Para el segundo, la guía de la [fiesta de 2 años con horario de siesta](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) agrega actividades, comida y la cuenta entre paquete y renta por separado.
 
-### Bautizos y eventos familiares
+### Bautizos y comidas familiares
 
-En una recepción, el reto es coordinar la instalación con la ceremonia y ubicar la zona infantil lejos de mesas y música. Lo explicamos en [bautizo con inflable y zona infantil](/blog/bautizo-con-inflable-zona-infantil-cdmx/).
+En una recepción, el reto es coordinar la instalación con la ceremonia y ubicar la zona infantil lejos de mesas y música. Lo explica la guía de [bautizo con inflable y logística de la misa](/blog/bautizo-con-inflable-zona-infantil-cdmx/). Te servirá para la recepción.
 
 ### Guarderías y estancias
 
-Con muchos niños de maternal, la clave son los turnos por sala y la supervisión del personal. La guía para [organizar el inflable en una guardería por salas](/blog/inflable-para-guarderia-estancia-infantil-cdmx/) cubre eso y la cotización con factura.
+¿Trabajas en una estancia? Esta es tu guía. Con muchos niños de maternal, la clave son los turnos por sala y la supervisión del personal. La guía para [organizar el inflable de una estancia por salas](/blog/inflable-para-guarderia-estancia-infantil-cdmx/) cubre eso y la cotización con factura.
 
-## ¿Qué errores se cometen al elegir inflable para menores de 3 años?
+## ¿En qué fallan las elecciones de inflable para menores de 3 años?
 
-Estos son los que más vemos, y todos se resuelven antes de apartar:
+En elegir por foto y no por edad, y casi todos los demás errores salen de ahí. Revisa esta lista antes de apartar; cada punto te toma un minuto y te evita un cambio de última hora:
 
-- **Elegir por foto y no por edad.** El modelo más vistoso no siempre corresponde al festejado.
-- **Redondear el rango de edad.** Un niño de 1 año no entra a un modelo que empieza a los 2.
-- **Olvidar la altura libre.** En interiores, 3.2 m como mínimo; el Castillo de Princesas no va bajo techo.
-- **Un solo inflable para bebés y niños de 9.** Si la lista mezcla los dos grupos, lo indicado son dos modelos.
-- **Dejar la supervisión al aire.** Una persona adulta en la entrada durante todo el evento.
-- **Asumir la capacidad.** El número de niños por turno se confirma al cotizar.
+- **Elegir por foto y no por edad.** El modelo más vistoso no siempre corresponde a tu festejado; primero la edad, luego el gusto.
+- **Redondear el rango de edad.** Un niño de 1 año no entra a un modelo que empieza a los 2, aunque «casi» los tenga.
+- **Olvidar la altura libre.** En interiores pide 3.2 m como mínimo, y el Castillo de Princesas no va bajo techo.
+- **Un solo inflable para bebés y niños de 9.** Si tu lista mezcla los dos grupos, lo indicado son dos modelos separados.
+- **Dejar la supervisión al aire.** Una persona adulta en la entrada durante todo el evento, con relevos.
+- **Asumir la capacidad.** El número de niños por turno se confirma al cotizar, no se calcula al ojo.
 
-## Elige y aparta el inflable de los más chicos
+> **Dos inflables, una sola cotización.** Si tu fiesta junta bebés y niños grandes, te cotizamos el Castillo Baby con el Gusanitos o con el Castillo de Princesas. [Cotizar dos inflables para mi fiesta](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Castillo%20Baby%20junto%20con%20otro%20inflable%20para%20ninos%20mayores)
 
-Escríbenos por WhatsApp al 55 3128 1706 con la fecha, la zona, las edades y el número aproximado de niños, o [pide la cotización en línea](/cotizar/). Te recomendamos el modelo o la combinación que corresponde y te confirmamos precio y disponibilidad. La fecha se aparta con el 50% de anticipo y atendemos de lunes a domingo de 8:00 a 20:00.
+## Elige el inflable de los más chicos y aparta tu fecha
 
-Los precios son netos, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA. El traslado se cobra según zona, y la entrega es sin costo adicional sólo en zonas seleccionadas que puedes revisar en las [zonas de cobertura](/cobertura/). Si ya sabes que es para bebés de 1 a 3 años, aparta directo la [renta del Castillo Baby](/inflables/mini-castillo/).
+Los fines de semana se llenan, y la disponibilidad se confirma por WhatsApp. Ya sabes qué modelo te toca. Para confirmarlo en un solo mensaje, mándanos:
+
+- La fecha de la fiesta y la hora de inicio.
+- La alcaldía o el municipio donde será.
+- El tipo de superficie y, si es bajo techo, la altura libre medida.
+- Las edades y la cantidad aproximada de niños, separando a los de 1 a 3 años.
+- El modelo o la combinación que te interesa.
+
+La fecha se aparta con 50% de anticipo. El precio es por evento y neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona, como ves en las [zonas de cobertura para tu fiesta](/cobertura/).
+
+Si ya sabes que es para bebés de 1 a 3 años, revisa la [disponibilidad del Castillo Baby para tu fecha](/inflables/mini-castillo/) y escríbenos al [WhatsApp para apartar el inflable de los más chicos](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20un%20inflable%20para%20ninos%20de%201%20a%203%20anos) o pide la [cotización del inflable para bebés](/cotizar/). Atendemos de lunes a domingo de 8:00 a 20:00.

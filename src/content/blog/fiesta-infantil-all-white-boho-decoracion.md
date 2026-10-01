@@ -1,182 +1,200 @@
 ---
-title: "Fiesta infantil en blanco: decoración boho con inflable"
-h1: "Fiesta infantil en blanco, boho o pastel: cómo decorar alrededor del Castillo Blanco"
-description: "Fiesta infantil en blanco o boho: paletas que combinan con el Castillo Blanco, cómo usar flores, pampas y globos nude, y qué evitar para que nada se manche."
-excerpt: "Una fiesta en blanco, neutros o boho se arruina con un inflable de colores. Paletas, materiales y errores a evitar para decorar alrededor de un castillo blanco."
+title: "Fiesta infantil en blanco: 4 paletas que lucen con el castillo"
+h1: "Fiesta infantil en blanco, boho o pastel: cómo decorar alrededor del Castillo Blanco y mantenerlo limpio toda la tarde"
+description: "Fiesta infantil en blanco con el Castillo Blanco: 4 paletas, qué globos sí van y cuáles compiten, y cómo evitar manchas. Compara ideas y cotiza tu fecha."
+excerpt: "Pampas, globos nude, madera y un castillo blanco se ven preciosos en la foto de referencia. Aquí ves cómo lograr que luzcan igual con niños de verdad brincando."
 publishDate: "2026-10-01"
 updatedDate: "2026-10-01"
 category: "Castillo Blanco"
 author: "Equipo BRINCOLINS"
 readTime: "11 min"
 heroImage: "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-terraza-cdmx.avif"
-heroImageAlt: "Castillo Blanco inflable en una terraza con decoración en tonos neutros, ejemplo de fiesta infantil en blanco"
+heroImageAlt: "Arco de globos blancos junto a un castillo inflable blanco sobre pasto, con edificios detrás"
 galleryImages:
-  - "/img/inflables/castillo-blanco/alquiler-inflable-blanco-bodas-rosas-cdmx.avif"
-  - "/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif"
   - "/img/inflables/castillo-blanco/brincolin-blanco-bodas-decoracion-globos.avif"
+  - "/img/inflables/castillo-blanco.avif"
+  - "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-decoracion.avif"
 intro:
-  - "Planeaste una fiesta con pampas, globos nude, madera clara y flores secas, y luego te das cuenta de que casi todos los inflables son rojos, amarillos o azules. Ponerlo en medio del jardín rompe la paleta que tardaste semanas en armar."
-  - "Esta guía resuelve cómo integrar un inflable en una **fiesta infantil en blanco**, boho, en neutros o en pastel: qué paletas combinan con el **Castillo Blanco**, cómo usar flores, pampas y globos sin que compitan con él, dónde ubicarlo para las fotos y qué hacer para que el blanco siga blanco al final del día."
+  - "Armaste un tablero con pampas, globos nude, madera clara y flores secas. Se ve precioso. Luego recuerdas que vienen veinte niños, un pastel de chocolate y un inflable de colores que no combina con nada."
+  - "Esta guía te ayuda a **integrar el Castillo Blanco a una fiesta en blanco, boho, neutra o pastel**: qué paleta elegir, dónde poner flores y globos, cómo evitar manchas y desde qué ángulo luce mejor en las fotos."
 tags:
   - "fiesta en blanco"
   - "decoración boho"
   - "castillo blanco"
-  - "fiestas infantiles"
+  - "paletas de color"
 faqs:
-  - question: "¿Qué inflable combina con una fiesta boho?"
-    answer: "El Castillo Blanco, porque su color neutro se integra con pampas, madera, flores secas y globos nude sin romper la paleta. Mide 5 × 7 × 4 m, es para niños de 3 a 12 años y se instala sólo en exterior."
-  - question: "¿Qué colores de globos van con un inflable blanco?"
-    answer: "Nude, beige, blanco, transparente, dorado, verde olivo y terracota funcionan bien. Lo que conviene evitar son los globos de colores primarios intensos o los arcos muy grandes pegados al inflable, porque compiten con él y estorban la entrada."
-  - question: "¿El inflable blanco se ensucia durante la fiesta?"
-    answer: "Se ensucia si entran zapatos, comida o bebida. Se brinca sin zapatos, con la comida lejos de la entrada y con una persona adulta que lo supervise todo el evento. Nosotros lo entregamos revisado y sanitizado."
-  - question: "¿Se pueden poner flores o pampas sobre el inflable?"
-    answer: "No sobre la lona ni en la entrada. La decoración va alrededor, a una distancia que no estorbe el paso de los niños ni quede al alcance de quien sale brincando. Nada con alambre, vidrio o piezas punzantes cerca del inflable."
-  - question: "¿Cuánto cuesta el Castillo Blanco para una fiesta infantil?"
-    answer: "El Castillo Blanco cuesta $2,600 MXN netos por evento, con instalación y recolección incluidas. El traslado se cobra según la zona y, si necesitas factura, se agrega 16% de IVA."
+  - question: "¿Qué colores combinan con un brincolín blanco en una fiesta infantil?"
+    answer: "Casi todos los tonos suaves: dorado, verde olivo, pastel, beige, terracota y madera clara. El blanco funciona como base neutra, así que el color va en globos, flores, textiles y mesa de dulces. Lo que choca son los tonos neón y los globos de muchos colores pegados al castillo."
+  - question: "¿El Castillo Blanco se puede decorar con flores pegadas a la lona?"
+    answer: "No conviene pegar nada a la lona. Las flores, pampas y guirnaldas van en bases, macetas o estructuras independientes a los lados, con la entrada libre. Así el inflable trabaja sin obstáculos, los niños no arrancan arreglos al brincar y la decoración no se cae encima de nadie."
+  - question: "¿Cuánto cuesta rentar el Castillo Blanco para una fiesta boho?"
+    answer: "El Castillo Blanco cuesta $2,600 netos por evento, con instalación y recolección incluidas. El traslado se cobra según la zona y, si necesitas factura, se agrega 16% de IVA. La decoración de flores, globos y mobiliario boho la cotizas con tu decorador por separado."
+  - question: "¿Una fiesta infantil en blanco sirve para niños de 2 años?"
+    answer: "La paleta sí, pero el Castillo Blanco es para niños de 3 a 12 años. Si tus invitados son bebés de 1 a 3, el modelo adecuado es el Castillo Baby, que también entra en interiores. Puedes mantener la decoración en blanco y beige alrededor de él sin problema."
+  - question: "¿Se puede poner el Castillo Blanco en una terraza techada para una fiesta en blanco?"
+    answer: "No. El Castillo Blanco se instala sólo en exterior, a cielo abierto, con 4.7 m de altura libre sin techo, toldo, pérgola, ramas ni cables. Si tu terraza está techada, busca otro punto del jardín o considera un modelo que sí entre en interiores, según la edad de los niños."
+  - question: "¿Qué ropa conviene pedir a los invitados en una fiesta infantil en blanco?"
+    answer: "Ropa clara y cómoda, sin accesorios duros. Para el inflable, lo que importa es que los niños brinquen sin zapatos, sin broches ni objetos en los bolsillos. Si pides código blanco, avisa a los papás que traigan calcetines limpios y, si quieren, una muda para después del pastel."
 ---
 
-Una fiesta infantil en blanco se ve limpia, elegante y fotogénica hasta que alguien pone un inflable de colores en el centro. La solución no es renunciar al inflable: es elegir uno que forme parte de la paleta y decorar alrededor de él con criterio. Esta guía explica cómo hacerlo con el Castillo Blanco.
+Armaste el tablero de inspiración. Pampas, globos nude, madera clara, flores secas. Luego llega la realidad: veinte niños de 5 años, un pastel de chocolate y un inflable de colores que no combina con nada de lo que soñaste.
 
-## ¿Por qué una fiesta infantil en blanco funciona mejor con un inflable blanco?
+Una **fiesta infantil en blanco** sí puede tener inflable, y verse bien. El truco es que el inflable forme parte de la paleta desde el principio, en lugar de quedar como un objeto ajeno que luego intentas disimular con globos. Aquí tienes cómo elegir colores de apoyo, dónde poner flores y globos, cómo evitar manchas y cómo lucirlo en las fotos.
 
-Porque en una fiesta de neutros el inflable es el objeto más grande del jardín. Un castillo de **5 × 7 × 4 m** ocupa más espacio visual que la mesa de dulces, el arco de globos y la mesa principal juntos. Si es de colores primarios, todo lo demás queda como decoración de fondo de un juego. Si es blanco, se vuelve el eje de la decoración y lo demás lo acompaña.
+Sin pelear con la decoración. Sin esconder el juego.
 
-El Castillo Blanco es para niños de **3 a 12 años** y cuesta **$2,600 MXN** netos por evento. Se instala sólo en exterior, con **4.7 m de altura libre**, en 30 minutos. Las fotos y la disponibilidad están en la [galería y medidas del Castillo Blanco](/inflables/castillo-blanco/).
+> **Respuesta rápida:** Una fiesta infantil en blanco funciona mejor con un inflable que ya sea blanco: el [Castillo Blanco, el inflable neutro del catálogo](/inflables/castillo-blanco/), mide 5 × 7 × 4 m, recibe a niños de 3 a 12 años y cuesta $2,600 por evento. Combínalo con dorado, verde olivo, pastel o terracota en los detalles, deja libre su entrada y mantén la comida y los globos de colores fuertes lejos de la lona.
 
-Las fiestas en blanco ya no son sólo para eventos religiosos. Las vemos en cumpleaños boho, en fiestas de jardín con temática de picnic, en celebraciones en pastel y en eventos familiares donde la decoración se cuida tanto como en una boda. En todas el problema es el mismo y la respuesta también.
+## ¿Por qué una fiesta infantil en blanco necesita un inflable del mismo tono?
 
-## ¿Qué paletas combinan con el Castillo Blanco?
+Porque el inflable es la pieza más grande de tu fiesta. Si es rojo, verde y amarillo, toda la paleta gira alrededor de él aunque no quieras. Si es blanco, se vuelve fondo: tus flores, tus globos y tu mesa de dulces ponen el color.
 
-El blanco del castillo funciona como un lienzo: acepta casi cualquier paleta suave. Esta tabla resume las cuatro que más se piden y cómo se usan:
+Piensa en las fotos. Un brincolín de colores en una fiesta beige aparece en todas, como invitado que no leyó el código de vestimenta. El castillo blanco, en cambio, se mezcla con cortinas, manteles y flores claras.
 
-| Paleta | Colores de apoyo | Materiales que suman | Eventos donde funciona |
+Hay otra ventaja práctica. No tienes que decorar el inflable. Ya está resuelto, y el presupuesto que ibas a gastar en cubrirlo con globos lo puedes mover a flores, a la mesa de dulces o a un buen fotógrafo.
+
+Si te atrae una temática con personajes, mira la [categoría de inflables temáticos](/inflables/tematicos/) antes de decidir. Pero si tu idea es una paleta y no un personaje, el blanco te conviene.
+
+## ¿Qué paletas de color combinan con el Castillo Blanco?
+
+Cuatro funcionan especialmente bien: blanco con dorado, blanco con verde olivo, pastel y boho terracota. En las cuatro el castillo es la base neutra y el color va en detalles. Elige según el evento, la luz de tu jardín y lo que ya tienes en casa.
+
+Esta tabla compara las cuatro paletas. La conclusión práctica: si tu fiesta es formal, ve a dorado; si es al aire libre y relajada, terracota o verde olivo.
+
+| Paleta | Colores de apoyo | Materiales que van bien | Ideal para |
 |---|---|---|---|
-| Blanco y dorado | Blanco, marfil, dorado, transparente | Bases doradas, velas, flores blancas | Primera comunión, presentación, bautizo |
-| Blanco y verde olivo | Blanco, verde olivo, eucalipto, beige | Follaje, madera clara, lino | Fiesta de jardín, cumpleaños boho |
-| Pastel | Rosa palo, lila, azul cielo, menta, blanco | Globos mate, papel, flores de colores suaves | Cumpleaños infantil, baby shower |
-| Boho terracota | Terracota, mostaza, nude, crema | Pampas, mimbre, macramé, flores secas | Cumpleaños boho, fiesta al aire libre |
+| Blanco y dorado | Dorado, champaña, transparente | Bases metálicas, velas, confeti dorado | Presentación, comunión, eventos formales |
+| Blanco y verde olivo | Verde olivo, eucalipto, beige | Follaje natural, lino, madera clara | Fiestas de jardín de día |
+| Pastel | Rosa palo, lila suave, menta, celeste | Globos mate, papel, telas ligeras | Cumpleaños de 3 a 7 años, baby shower |
+| Boho terracota | Terracota, mostaza, arena, café claro | Pampas, mimbre, macramé, tapetes | Fiestas relajadas de tarde |
 
 ### Blanco y dorado
 
-Es la paleta más formal. El dorado va en detalles pequeños: bases de pastel, letreros, cubiertos, confeti dentro de globos transparentes. No conviene llenar el jardín de dorado, porque compite con el brillo del sol en la lona blanca y en las fotos se ve saturado.
+Es la más formal. El dorado va en las bases de la mesa de dulces, en los números del festejado y en globos transparentes con confeti. No lo pongas en el castillo; ponlo alrededor, para que el blanco del inflable siga funcionando como la pieza limpia que ordena todo lo demás.
 
 #### Dónde poner el dorado
 
-En la mesa principal y en la mesa de dulces, no alrededor del inflable. Alrededor del castillo basta con globos blancos y algún detalle verde. Así el castillo queda como fondo limpio y el dorado se concentra donde está la atención.
+En tres puntos, máximo: mesa de dulces, entrada de la fiesta y centros de mesa. Si repites dorado en todo, pierde fuerza. Tres toques bastan.
 
 ### Blanco y verde olivo
 
-Es la paleta más natural y la que mejor envejece en las fotos. El verde lo pone el follaje: eucalipto, olivo, helechos. Funciona muy bien en jardines con pasto, porque el verde del suelo ya forma parte de la composición.
+Funciona de día, en jardín. El verde olivo del follaje dialoga con el pasto y el castillo resalta como pieza clara. Te conviene si quieres un look natural sin esfuerzo y si tu jardín ya tiene árboles o enredaderas que hacen buena parte del trabajo por ti.
 
 ### Pastel
 
-Las fiestas en pastel aceptan el castillo blanco como pieza neutra. El truco es elegir dos o tres tonos, no todos: rosa palo y menta, o lila y azul cielo. Con todos los pasteles a la vez la fiesta se ve infantil en el mal sentido.
+Es la paleta de los cumpleaños pequeños. Rosa palo, lila suave, menta. Si tu hija quiere más color, el pastel te deja subir el tono sin romper la base blanca, siempre que elijas dos o tres tonos y los repitas en globos, servilletas y letreros.
 
 ### Boho terracota
 
-La paleta boho es la que más contrasta con el blanco del castillo, y eso juega a favor. Las pampas, el mimbre y los tonos tierra hacen que el castillo resalte como pieza central. Funciona mejor en exteriores con luz cálida de tarde.
+Pampas, mimbre, tapetes y tonos tierra. Es la más cálida. Con el castillo blanco al centro, la terracota se ve intencional y no improvisada, y la luz de la tarde en un jardín de la Ciudad de México o del Estado de México le sienta especialmente bien.
 
-![Brincolín blanco en un jardín preparado para ceremonia, base neutra para una fiesta infantil en blanco o boho](/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif)
+![Fiesta infantil en blanco: castillo inflable entre arreglos florales, con una construcción de arcos al fondo](/img/inflables/castillo-blanco/alquiler-inflable-blanco-bodas-rosas-cdmx.avif)
 
-## ¿Cómo se integran flores, pampas y madera sin estorbar al inflable?
+## ¿Cómo usar flores, pampas y madera sin estorbar la entrada del inflable?
 
-La regla de fondo es que la decoración rodea al inflable, nunca lo toca. Todo lo que está sobre la lona o en la entrada estorba a los niños, se cae con el movimiento y puede lastimar.
+Ponlas a los lados y detrás, nunca en la entrada ni pegadas a la lona. La decoración enmarca al castillo; no lo toca. Así los niños entran y salen sin tirar arreglos, y tus flores sobreviven hasta el pastel.
 
 ### Flores naturales y secas
 
-Las flores van en arreglos de piso a los costados del castillo, en la mesa principal y en los centros de mesa. Los arreglos grandes deben estar firmes, con base pesada, porque los niños corren alrededor. Las flores secas aguantan mejor el sol de la tarde que las naturales.
+Las flores secas aguantan mejor el sol y el movimiento. Las naturales lucen más, pero se marchitan si les da el sol directo toda la tarde, y unas rosas caídas junto al castillo se notan en cada foto que te manden después. ¿Tu jardín es soleado? Usa secas cerca del castillo y deja las naturales para las mesas.
 
 #### Distancia de la entrada
 
-Deja la entrada del castillo completamente libre. Es el punto con más tráfico: niños que entran, niños que salen, zapatos que se quedan. Un arreglo floral ahí termina en el suelo en los primeros diez minutos.
+Deja libre el frente del castillo. Los niños salen con prisa, buscando zapatos o jugo. Un arreglo en el paso termina en el suelo.
 
 ### Pampas y follaje
 
-Las pampas son el elemento boho por excelencia y funcionan muy bien en jarrones altos a los lados del castillo o del área de fotos. Sueltan fibras con el viento, así que conviene ponerlas a cierta distancia de la entrada y de la mesa de comida.
+Las pampas dan volumen sin peso. Van en jarrones altos y estables a los costados del inflable, o detrás, como fondo para fotos. Ojo con el viento: un jarrón ligero se cae, así que ponle piedras o arena en la base antes de que lleguen los invitados.
 
 ### Madera, mimbre y textiles
 
-La madera clara y el mimbre van en la zona de padres: mesas, bancas, letreros y tapetes. Un letrero de madera con el nombre del festejado frente al castillo es de los detalles que más se fotografían.
+Los elementos de madera y mimbre funcionan en la zona de papás, no junto al inflable. Una banca de madera, un par de canastas, un tapete. Ahí se sientan a mirar a sus hijos.
 
-#### Tapetes y cojines en la zona de padres
+#### Tapetes y cojines en la zona de papás
 
-Un tapete grande con cojines frente al castillo, a distancia prudente, crea un área de descanso para los papás que supervisan. Ayuda a que la supervisión sea cómoda y constante, en lugar de una persona de pie que se cansa a la media hora. Si necesitas sillas y mesas para los niños, revisa el [mobiliario infantil para la fiesta](/servicios/mobiliario-para-fiestas/).
+Un tapete boho con cojines frente al castillo, a unos pasos, crea un lugar para que los adultos supervisen sentados. También sirve para dejar zapatos en orden. Te resuelve dos cosas con un solo objeto.
 
-## ¿Qué globos acompañan al castillo y cuáles compiten con él?
+> **¿Ya tienes tu paleta?** Mándanos una imagen de referencia y la medida de tu jardín; te confirmamos si el Castillo Blanco cabe y está libre para tu fecha. [Cotizar el Castillo Blanco para fiesta en blanco](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Castillo%20Blanco%20para%20una%20fiesta%20infantil%20en%20blanco)
 
-Los globos son el elemento que más rompe una fiesta en blanco, porque es muy fácil pasarse. Los que funcionan alrededor del castillo son los nude, beige, blancos, transparentes y, con moderación, dorados o verde olivo. Los acabados mate se ven más elegantes que los brillantes.
+## ¿Qué globos acompañan al castillo blanco y cuáles le roban la foto?
 
-Los que compiten son los colores primarios, los globos metálicos gigantes con números y los arcos enormes que encierran la entrada del inflable. Un arco funciona en la entrada de la fiesta o detrás de la mesa de dulces, no pegado al castillo. Las combinaciones de arcos por modelo y las zonas de una fiesta con globos están en nuestra guía de [arcos de globos con inflable](/blog/arcos-globos-inflable-fiesta-infantil-cdmx/).
+Los globos en tonos de tu paleta, mate o transparentes, colocados a los lados o en la mesa de dulces, acompañan. Los globos de muchos colores, metálicos brillantes o pegados al castillo le roban protagonismo. Menos globos, mejor puestos, lucen más.
 
-Una regla práctica: si al tomar una foto del castillo los globos ocupan más espacio que el inflable, sobran globos.
+Los globos nude, beige, blanco perla y transparentes con confeti son la apuesta más tranquila, porque acompañan al castillo sin pelear con él por la atención de la cámara. Si tu paleta es terracota, suma mostaza y arena. Si es pastel, mezcla dos tonos máximo.
 
-## ¿Cómo se evita que el blanco se manche durante la fiesta?
+¿Y el arco? Ponlo en la mesa de dulces o en la entrada de la fiesta. No en la puerta del castillo. Un arco ahí estorba el paso y compite por la foto. La guía de [arcos de globos con inflable](/blog/arcos-globos-inflable-fiesta-infantil-cdmx/) te da combinaciones por modelo.
 
-El blanco es la ventaja estética del castillo y también su punto débil. Lo entregamos revisado y sanitizado; el resto depende de cómo se use durante el evento.
+## ¿Cómo evitar manchas en una decoración toda blanca con niños?
 
-- **Sin zapatos.** Es la regla más importante. La tierra, el pasto húmedo y las suelas de colores marcan la lona.
-- **Sin comida ni bebida dentro o junto a la entrada.** Las aguas de jamaica, el chocolate, los dulces enchilados y las paletas son las manchas más difíciles.
-- **Mesa de dulces lejos.** Los niños salen de brincar y van directo a los dulces; si la mesa está al lado, regresan con las manos llenas.
-- **Superficie limpia.** El área debe estar plana, despejada y sin vidrio ni objetos punzantes. Si el pasto está recién regado, avisa al cotizar.
-- **Una persona adulta en la entrada.** Es quien controla zapatos, comida y turnos durante todo el evento.
+Separa la comida del juego y define una regla clara de entrada. Las manchas en una fiesta blanca casi nunca vienen del inflable: vienen de manos con chocolate, vasos de jamaica y zapatos con lodo. Si cortas ese camino, tu blanco aguanta.
 
-![Castillo Blanco inflable instalado en exterior, con el área limpia y despejada para una fiesta infantil en blanco](/img/inflables/castillo-blanco.avif)
+La mesa de dulces va lejos del castillo. El pastel también. Los niños que salen de brincar van directo a los dulces, y si están junto al inflable, regresan con las manos pegajosas.
 
-## ¿Dónde se ubica el castillo para que la decoración luzca en las fotos?
+Prefiere bebidas claras cerca de la zona infantil: agua, limonada. Deja la jamaica, el chocolate y cualquier salsa en la mesa principal, donde un adulto vigila y donde una mancha cae sobre un mantel y no sobre la lona del juego. ¿Suena exagerado? Una mancha de jamaica en un mantel blanco te dice que no.
 
-Piensa en la foto antes que en el plano. El castillo debe verse completo desde el punto donde se van a tomar las fotos de grupo, con la luz de frente o de costado, no a contraluz. En jardines de la Ciudad de México con luz de tarde, eso suele significar que el castillo no quede orientado hacia donde se pone el sol.
+Y una regla para la entrada: sin zapatos, sin comida, sin vasos. Un adulto la cuida todo el evento. Nosotros entregamos el equipo revisado y sanitizado; tú cuidas que llegue limpio a la foto del pastel.
 
-Tres reglas de ubicación que aplicamos:
+## ¿Desde qué ángulo se ve mejor el castillo en las fotos de la fiesta?
 
-1. **Lejos de la mesa principal.** El castillo es fondo de fotos de grupo, no de la mesa de pastel. Si queda detrás del pastel, el motor se escucha en las mañanitas y los niños pasan corriendo junto a la mesa.
-2. **A cielo abierto y con 4.7 m libres.** Nada de ramas bajas, cables o toldos encima.
-3. **Con línea de vista desde las mesas de los papás.** La decoración no debe tapar la vista de la entrada del inflable.
+De frente, con el castillo completo y algo de decoración a los lados. Retrocede lo suficiente para que quepa entero y deja que las flores o las pampas enmarquen el borde de la foto. Si el fondo tiene árboles o cortinas claras, mejor.
 
-Si tu fiesta es en un jardín de eventos, el criterio para ubicar el inflable en la zona infantil de una boda aplica casi igual; lo explicamos en la guía para [ubicar el inflable en la zona infantil de una boda](/blog/renta-castillo-blanco-inflable-bodas-cdmx/). Y si todavía buscas lugar, hay [jardines para fiestas en el directorio de CDMX](/directorio/cdmx/).
+![Brincolín blanco en un jardín con cortinas y flores, y mesas montadas al fondo](/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif)
 
-## ¿Qué cambia entre una fiesta boho de cumpleaños y un evento formal?
+Evita que detrás del castillo quede la zona de servicio, la cocina o los botes de basura. Antes de instalar, párate donde vas a tomar la foto y mira el fondo con calma, como si ya estuvieras viendo la imagen impresa en un marco. Si ves sillas apiladas, muévelas.
 
-El castillo es el mismo; lo que cambia es la decoración que lo rodea y el tono del evento. Esta tabla compara cómo se ajusta la paleta según la celebración:
+La luz también cuenta. Imagina una fiesta a mediodía con sol de frente. El blanco rebota y la foto sale quemada. Una toma con el sol de lado te da textura.
 
-| Celebración | Paleta habitual | Qué cuidar alrededor del castillo |
-|---|---|---|
-| Cumpleaños boho | Terracota, nude, pampas | Que las pampas no queden junto a la entrada |
-| Primera comunión | Blanco y dorado | Fotos del festejado antes de abrir el inflable |
-| Presentación de 3 años | Blanco y dorado, blanco y beige | Separar a los niños pequeños de los grandes |
-| Baby shower | Pastel o neutros | Que la zona infantil no invada la mesa de regalos |
-| XV años | La paleta de la quinceañera | Que el inflable no compita con la pista |
+Para elegir dónde colocar el castillo pensando en ruido y supervisión, revisa la [zona infantil de boda con castillo blanco](/blog/renta-castillo-blanco-inflable-bodas-cdmx/). Las reglas de ubicación aplican igual a tu fiesta.
 
-Cada uno de esos eventos tiene su propia guía. Para la parte religiosa, explicamos [cómo organizar la primera comunión con un inflable blanco](/blog/primera-comunion-con-inflable-cdmx/) y la [recepción de la presentación de los 3 años](/blog/presentacion-de-3-anos-recepcion-con-inflable/). Para eventos con más adultos que niños está el [baby shower con inflable en tonos neutros](/blog/baby-shower-con-inflable-para-ninos-invitados/), y para festejos escolares, [la graduación de kínder con el Castillo Blanco](/blog/graduacion-kinder-primaria-con-inflable/). Las quinceañeras tienen su propio enfoque en la guía de [decoración con inflable para XV años](/blog/decoracion-inflable-xv-anos-cdmx/).
+## ¿Qué cambia entre una fiesta boho de cumpleaños y un evento religioso en blanco?
 
-## ¿Cuándo conviene otro inflable en lugar del blanco?
+Cambia el tono, no el inflable. En un cumpleaños boho puedes jugar con terracota, mimbre y tapetes. En un evento religioso el blanco y dorado manda, y el castillo se coloca lejos de la mesa de honor. Las reglas de seguridad son las mismas.
 
-El Castillo Blanco no es la respuesta para todas las fiestas en pastel. Hay tres casos en los que otro modelo encaja mejor.
+Si tu fiesta en blanco es una recepción religiosa, tenemos guías específicas. Para la [recepción de primera comunión en blanco](/blog/primera-comunion-con-inflable-cdmx/), los niños son más grandes y la foto del festejado manda. Para la [presentación de 3 años en blanco y dorado](/blog/presentacion-de-3-anos-recepcion-con-inflable/), hay que separar bebés de niños grandes.
+
+¿Es un festejo escolar? El [festejo de graduación en tonos claros](/blog/graduacion-kinder-primaria-con-inflable/) explica la logística con el comité. Y si es un [baby shower con castillo neutro](/blog/baby-shower-con-inflable-para-ninos-invitados/), el reto es ubicar a los niños sin invadir a los adultos. Para quinceañeras, las [paletas de decoración de XV años con inflable](/blog/decoracion-inflable-xv-anos-cdmx/) te dan más ideas.
+
+> **Que el castillo sea parte de tu paleta.** Instalamos en 30 minutos, con anclaje verificado y motor profesional todo el evento; tú sólo terminas de acomodar flores. Los fines de semana se llenan, confirma tu fecha. [Apartar fecha para fiesta boho](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Castillo%20Blanco%20para%20una%20fiesta%20boho%20de%20mi%20hija)
+
+## ¿Cuándo conviene otro inflable en vez del blanco?
+
+Cuando tu paleta es rosa y lila, cuando tus invitados son bebés o cuando la temática manda sobre los colores. En esos tres casos otro modelo encaja mejor y te ahorra forzar la decoración. El blanco no es para todo.
 
 ### Cuando la paleta es rosa y lila
 
-Si la fiesta es en rosa palo y lila, con temática de cuento, el [Castillo de Princesas para paletas rosas](/inflables/castillo-princesas/) puede integrarse mejor. Es rosa y morado, con torres decorativas, mide **5 × 3.30 × 3 m**, es para niños de **2 a 10 años** y cuesta **$1,800 MXN**. También va sólo en exterior.
+El [Castillo de Princesas, en rosa y morado con torres decorativas](/inflables/castillo-princesas/), combina mejor con una fiesta pastel de tonos fuertes. Es para niños de 2 a 10 años, mide 5 × 3.30 × 3 m y cuesta $1,800.
 
 ### Cuando los niños son bebés
 
-El Castillo Blanco es para niños de 3 a 12 años. Si la fiesta es para un bebé y la mayoría de los invitados tiene de 1 a 3 años, el modelo correcto es el [Castillo Baby para fiestas de bebés](/inflables/mini-castillo/), de **2.5 × 2 × 2 m** y **$1,400 MXN**, que además se instala en interiores.
+El Castillo Blanco es para niños de 3 a 12 años. Si tus invitados tienen de 1 a 3, el [Castillo Baby para fiestas de bebés](/inflables/mini-castillo/) es el modelo correcto. Mide 2.5 × 2 × 2 m, entra en interiores y cuesta $1,400.
 
-### Cuando la temática manda sobre la paleta
+### Cuando la temática manda
 
-Si la fiesta tiene una temática definida, como piratas, selva o dragones, el castillo blanco no aporta. En ese caso vale la pena revisar los [otros inflables temáticos del catálogo](/inflables/tematicos/), que traen la ambientación integrada.
+Si tu hijo quiere dinosaurios, piratas o dragones, la paleta pasa a segundo plano. Ahí conviene un modelo temático y decorar alrededor de él, porque ningún tono neutro va a convencer a un niño de 6 años que soñó con un barco pirata.
 
-## ¿Qué errores de decoración vemos con inflables blancos?
+## ¿Qué errores de decoración opacan un inflable blanco?
 
-Son pocos y se repiten mucho:
+Casi todos vienen de querer decorar el castillo en lugar de decorar alrededor. Revisa esta lista antes del día y te ahorras el disgusto de ver tu foto principal llena de distracciones.
 
-- **Llenar de globos la entrada del castillo.** Estorba y le quita protagonismo.
-- **Poner la mesa de dulces junto al inflable.** Es la causa principal de manchas.
-- **Usar demasiados colores.** Una fiesta en blanco aguanta dos colores de apoyo, no cinco.
-- **Decoración con alambre o vidrio cerca.** Jarrones de cristal, faroles y coronas de alambre van lejos.
-- **Olvidar la luz.** Un castillo blanco a contraluz se ve gris en todas las fotos.
-- **No medir la altura.** Un toldo o una rama baja descartan el modelo; mide los 4.7 m antes de apartar.
+- **Pegar globos o flores a la lona.** Estorban, se caen y los niños los arrancan; mejor en bases independientes.
+- **Un arco en la entrada del castillo.** Bloquea el paso y compite por la foto; muévelo a la mesa de dulces.
+- **Globos de muchos colores.** Rompen la paleta; elige dos o tres tonos y repítelos.
+- **Mesa de dulces junto al inflable.** Manos con chocolate directo a la lona; aléjala.
+- **Fondo descuidado.** La cocina o las sillas apiladas detrás arruinan la foto; revisa el ángulo antes.
+- **Instalar bajo techo o pérgola.** El Castillo Blanco va a cielo abierto, con 4.7 m de altura libre.
 
-## Cotiza el Castillo Blanco para tu fiesta en blanco
+Si te faltan sillas o mesa para los niños, la [mesa infantil de 10 sillitas](/servicios/mobiliario-para-fiestas/) cuesta $550 con un inflable. Y si buscas lugar, el [directorio de lugares para fiestas en CDMX](/directorio/cdmx/) te sirve de punto de partida.
 
-Escríbenos por WhatsApp al **55 3128 1706** con la fecha, la zona y el número aproximado de niños, o [pide tu cotización](/cotizar/) en línea. Te confirmamos capacidad, espacio y disponibilidad para tu jardín. La fecha se aparta con el **50% de anticipo** y atendemos de lunes a domingo de 8:00 a 20:00.
+## Cotiza el Castillo Blanco para tu fiesta en tonos claros
 
-El precio del Castillo Blanco es de **$2,600 MXN** netos por evento, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA. El traslado se cobra según la zona: revisa la [cobertura y traslado por zona](/cobertura/). Compara los [precios de todos los inflables](/precios/) o ve directo a la [renta del Castillo Blanco](/inflables/castillo-blanco/) para apartar tu fecha.
+Tu paleta ya está decidida y el castillo te resuelve la pieza más grande de la decoración, la que más se ve en las fotos y la que más trabajo te costaría disimular si fuera de colores. Los fines de semana se llenan, así que hoy es buen día para apartar. Mándanos estos datos y te confirmamos espacio, capacidad y disponibilidad.
+
+- **Fecha de la fiesta** y hora aproximada de inicio.
+- **Alcaldía o municipio**, en CDMX o Estado de México.
+- **Tipo de superficie:** pasto, cemento, tierra o adoquín.
+- **Edades y cantidad aproximada de niños.**
+- **Foto del jardín** y tu imagen de referencia de la decoración.
+
+La fecha se aparta con 50% de anticipo. El precio es por evento y neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según la zona en las [zonas de cobertura](/cobertura/). Compara la [tabla de precios del catálogo](/precios/) o mira el [precio y galería del Castillo Blanco](/inflables/castillo-blanco/).
+
+Pide tu [cotización en línea con tu paleta](/cotizar/) o escríbenos: [Cotizar castillo para fiesta en blanco](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Castillo%20Blanco%20para%20una%20fiesta%20en%20tonos%20claros).

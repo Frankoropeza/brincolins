@@ -1,93 +1,106 @@
 ---
-title: "Fiesta en quinta con inflable: qué revisar antes de rentar"
-h1: "Fiesta en quinta con inflable: permisos, corriente, terreno y altura libre en jardines de eventos"
-description: "Fiesta en quinta con inflable en Edomex o el sur de CDMX: permisos para proveedores, acceso, corriente, terreno y altura libre del Barco Pirata antes de apartar."
-excerpt: "Una quinta tiene espacio de sobra, pero también reglas, horarios y árboles. Lo que hay que preguntar al lugar antes de llevar un inflable grande como el Barco Pirata."
+title: "Fiesta en quinta con inflable: 7 preguntas antes de apartar"
+h1: "Fiesta en quinta con inflable: permisos, acceso, corriente, terreno y altura libre en jardines de eventos"
+description: "Fiesta en quinta con inflable en Edomex o el sur de CDMX: permisos, acceso, corriente, terreno y altura libre del Barco Pirata. Revísalo y cotiza tranquilo."
+excerpt: "La quinta tiene pasto de sobra, pero también reglas, horarios y árboles. Lo que conviene preguntar al lugar antes de llevar un inflable grande como el Barco Pirata."
 publishDate: "2026-10-01"
 updatedDate: "2026-10-01"
 category: "Barco Pirata"
 author: "Equipo BRINCOLINS"
-readTime: "10 min"
+readTime: "12 min"
 heroImage: "/img/inflables/barco-pirata/barco-pirata-renta-cdmx.avif"
-heroImageAlt: "Inflable Barco Pirata rentado e instalado en el jardín de una quinta para una fiesta infantil"
-galleryImages:
-  - "/img/inflables/barco-pirata.avif"
-  - "/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif"
-  - "/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif"
+heroImageAlt: "Barco Pirata sobre pasto entre carpa blanca y árboles, montaje típico de una fiesta en quinta con inflable"
+galleryImages: []
 intro:
-  - "Rentar una quinta o un jardín de eventos parece resolver el problema del espacio: pasto de sobra, estacionamiento y nadie que se queje del ruido. Pero cada lugar tiene sus reglas para proveedores externos, sus horarios de acceso y sus árboles, y un inflable grande depende de todo eso."
-  - "Esta guía reúne lo que conviene preguntar a la quinta **antes de apartar**: permisos, distancia de la camioneta, **corriente de 110 V**, tipo de terreno, horario de montaje y retiro, y dónde cabe un inflable que necesita **5.2 m de altura libre**."
+  - "Rentaste la quinta porque tiene pasto, estacionamiento y nadie se queja del ruido. Pero cada lugar tiene sus reglas para proveedores, sus horarios y sus árboles, y un inflable grande depende de todo eso."
+  - "Esta guía reúne lo que conviene preguntar **antes de apartar**: permisos, distancia de la camioneta, **corriente de 110 V**, terreno, montaje y retiro, y dónde cabe un inflable que necesita **5.2 m de altura libre**."
 tags:
   - "fiesta en quinta con inflable"
   - "jardín de eventos"
   - "estado de méxico"
   - "barco pirata inflable"
 faqs:
-  - question: "¿Las quintas permiten llevar un inflable de un proveedor externo?"
-    answer: "Depende de cada lugar. Algunas lo permiten sin trámite, otras piden datos del proveedor o tienen convenio con uno propio. Pregúntalo por escrito a la administración de la quinta antes de apartar con cualquier proveedor."
-  - question: "¿Cuánto tarda la instalación de un inflable grande en una quinta?"
-    answer: "El Barco Pirata se instala en unos 30 minutos una vez que el equipo está en el área. A eso hay que sumar el traslado del equipo desde la camioneta, que depende de la distancia y del camino dentro de la quinta."
-  - question: "¿Qué pasa si la quinta no tiene contacto de luz cerca del jardín?"
-    answer: "El motor necesita una toma de corriente de 110 V a menos de 20 m del área del inflable. Si la quinta no la tiene, hay que confirmarlo antes y buscar otro punto del jardín donde sí la haya."
-  - question: "¿Se cobra traslado a quintas del Estado de México?"
-    answer: "Sí. El traslado se cobra según zona y se confirma al cotizar con la dirección exacta de la quinta. La instalación y la recolección están incluidas en el precio del inflable."
-  - question: "¿Se puede instalar el inflable debajo de una carpa de la quinta?"
-    answer: "Sólo si la carpa deja la altura libre del modelo. El Barco Pirata necesita 5.2 m libres, una medida que pocas carpas alcanzan, así que casi siempre va a cielo abierto y fuera de la carpa."
-  - question: "¿El inflable se puede quedar instalado de un día para otro en la quinta?"
-    answer: "El montaje y el retiro se coordinan por evento. El horario se acuerda al cotizar según las reglas de acceso de la quinta y el precio es por evento."
+  - question: "¿Las quintas permiten llevar inflables de un proveedor externo?"
+    answer: "Depende de cada lugar. Algunas lo permiten con sólo avisar, otras piden datos del proveedor o tienen convenio con uno propio y cobran una cuota. Pregúntalo por escrito a la administración antes de apartar con cualquier proveedor, para no enterarte el día del evento."
+  - question: "¿Cuánto tarda la instalación del Barco Pirata en un jardín de eventos?"
+    answer: "Unos 30 minutos una vez que el equipo está en el área. A eso hay que sumar el traslado del equipo desde la camioneta, que depende de la distancia, los escalones y el camino dentro de la quinta. Por eso conviene que el inflable quede listo antes de que lleguen los invitados."
+  - question: "¿Qué pasa si la quinta no tiene contacto de luz cerca del pasto?"
+    answer: "El motor necesita una toma de 110 V a menos de 20 m del área del inflable durante todo el evento. Si la quinta no la tiene en el punto que elegiste, la solución es mover el inflable a otra zona del jardín donde sí la haya, y confirmarlo antes de apartar."
+  - question: "¿Se puede poner el inflable debajo de la carpa de la quinta?"
+    answer: "Sólo si la carpa deja la altura libre del modelo. El Barco Pirata necesita 5.2 m libres, una medida que pocas carpas alcanzan, así que casi siempre va a cielo abierto, a un lado de la carpa y con la salida del tobogán hacia una zona sin mesas."
+  - question: "¿El inflable puede quedarse instalado en la quinta de un día para otro?"
+    answer: "No se plantea así: el precio es por evento, y el montaje y el retiro se coordinan para ese evento. El horario exacto se acuerda al cotizar, según las reglas de acceso y la hora de cierre de la quinta, para que el retiro quepa en tu horario contratado."
+  - question: "¿Hay que pagar factura con IVA si la quinta pide comprobante?"
+    answer: "Sólo si tú la necesitas. Los precios son netos y, si requieres factura, se agrega 16% de IVA. El Barco Pirata cuesta $2,300 netos por evento con instalación y recolección incluidas; el traslado a la quinta se cobra según la zona."
 ---
 
-Una **fiesta en quinta con inflable** tiene ventajas claras: espacio, estacionamiento y libertad para el ruido. También tiene reglas que no existen en el jardín de tu casa: permisos para proveedores, horarios de acceso, caminos largos desde el estacionamiento y árboles que tapan el cielo. Esta guía te dice qué preguntar antes de apartar.
+Visitaste la quinta un martes, todo se veía perfecto. Pasto parejo, estacionamiento grande, árboles bonitos. Nadie te preguntó por el inflable. ¿Y si el día de la fiesta el problema son justo esos árboles?
 
-## ¿Qué cambia en una fiesta en quinta con inflable?
+Una **fiesta en quinta con inflable** tiene ventajas claras: espacio, estacionamiento y libertad para el ruido. También tiene reglas que no existen en tu casa. Permisos para proveedores, horarios de acceso, caminos largos desde el estacionamiento y ramas que tapan el cielo.
 
-Cambia quién decide. En tu casa, el inflable va donde tú digas; en una quinta, la administración pone condiciones sobre quién entra, a qué hora y por dónde. Y cambia la escala: las quintas del Estado de México y del sur de la ciudad suelen tener jardines amplios, lo que invita a rentar un modelo grande como el **Barco Pirata**.
+Aquí tienes las siete preguntas para la administración y todo lo que conviene revisar en la visita, antes de pagar un anticipo.
 
-El barco mide **6 × 3.5 × 3.80 m**, necesita **5.2 m de altura libre**, es sólo para exterior y se instala en unos **30 minutos**. Es el modelo de mayor impacto visual del catálogo, con mástil, velas y tobogán por la popa, y en un jardín grande se ve desde la entrada. Las especificaciones completas están en la ficha del [Barco Pirata para quintas y jardines](/inflables/barco-pirata/).
+> **Respuesta rápida:** Antes de una fiesta en quinta con inflable confirma por escrito que el lugar acepta proveedores externos, el horario de montaje y retiro, la distancia de la camioneta al área, una toma de 110 V a menos de 20 m, terreno plano y 5.2 m de altura libre si llevas el [Barco Pirata de 6 × 3.5 × 3.80 m](/inflables/barco-pirata/). El traslado se cobra según zona.
 
-Si la fiesta es en el jardín de tu casa y no en una quinta, la guía de [fiesta en el jardín con inflable y mobiliario](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/) cubre ese caso, y la de [garden party con inflable y mesas picnic](/blog/garden-party-inflable-mesas-picnic-cdmx/) explica cómo distribuir zonas en exterior.
+## ¿Qué cambia en una fiesta en quinta con inflable frente a tu casa?
 
-## ¿Qué hay que preguntarle a la quinta antes de contratar proveedores externos?
+Cambia quién decide. En tu casa el inflable va donde quieres; en una quinta, la administración pone condiciones sobre quién entra, a qué hora y por dónde. Y cambia la escala: los jardines amplios del Estado de México y del sur de la ciudad invitan a rentar un modelo grande.
 
-Antes de pagar el anticipo del inflable, confirma por escrito que la quinta acepta proveedores externos y en qué condiciones. Es la pregunta que más fiestas complica cuando se deja para el final.
+El Barco Pirata es el modelo de mayor impacto visual del catálogo. Tiene mástil, velas y tobogán por la popa, mide 6 × 3.5 × 3.80 m y se instala en unos 30 minutos. En un jardín grande se ve desde la entrada. A cambio, te pide 5.2 m de altura libre. Y exterior siempre.
 
-### Permisos y condiciones para proveedores
+¿La fiesta es en tu jardín y no en una quinta? Entonces te sirve más la guía de [fiesta en el jardín de casa con inflable y mesas](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/). Y si quieres ideas para repartir zonas al aire libre, revisa el [garden party con inflable y mesas picnic](/blog/garden-party-inflable-mesas-picnic-cdmx/).
 
-Cada quinta tiene su política. Algunas aceptan cualquier proveedor con sólo avisar; otras piden nombre del proveedor, placas del vehículo o un horario cerrado de entrada; otras trabajan con un proveedor propio y cobran por permitir uno externo. Ninguna de esas condiciones la decidimos nosotros: pregúntalas a la administración del lugar.
+## ¿Qué le preguntas a la quinta sobre proveedores externos?
 
-#### Preguntas para la administración
+Si acepta inflables de fuera, en qué condiciones y en qué horario. Pídelo por escrito, antes de pagar el anticipo del inflable. Es la pregunta que más fiestas complica cuando se deja para el final. Te toma un mensaje resolverla.
 
-- ¿Se permiten inflables de proveedores externos?
-- ¿Hay que registrar al proveedor o al vehículo con anticipación?
-- ¿Hay zonas del jardín donde no se puede instalar nada?
-- ¿Existe una cuota por proveedor externo o por uso de corriente?
-- ¿Quién de la quinta va a estar presente el día del evento para recibir al equipo?
+### Permisos y registro del proveedor
 
-### Horario de acceso y de salida
+Cada quinta tiene su política. Algunas aceptan cualquier proveedor con sólo avisar. Otras piden nombre, placas del vehículo o un horario cerrado de entrada. Otras trabajan con un proveedor propio y cobran por dejar entrar a uno externo. Esas condiciones las pone el lugar. Tú sólo necesitas conocerlas a tiempo.
 
-La quinta te renta un horario, y ese horario incluye el montaje y el retiro de todos los proveedores. Pregunta a qué hora pueden entrar los proveedores, si pueden entrar antes que los invitados y a qué hora debe quedar libre el jardín.
+#### Las siete preguntas para la administración
 
-#### Por qué importa el horario de salida
+1. ¿Se permiten inflables de proveedores externos?
+2. ¿Hay que registrar al proveedor o al vehículo con anticipación?
+3. ¿Hay zonas del jardín donde no se puede instalar nada?
+4. ¿Existe una cuota por proveedor externo o por uso de corriente?
+5. ¿Dónde están los contactos de 110 V más cercanos al pasto?
+6. ¿A qué hora pueden entrar y a qué hora deben salir los proveedores?
+7. ¿Quién de la quinta va a recibir al equipo el día del evento?
 
-Algunos lugares tienen otro evento después del tuyo o cierran a una hora fija. El inflable se desinfla y se recoge después de que los niños salen, así que ese tiempo de retiro tiene que caber dentro de tu horario contratado. Coordínalo al cotizar.
+### Horario de entrada y salida
+
+La quinta te renta un horario, y ese horario incluye el montaje y el retiro de todos los proveedores. Pregunta si pueden entrar antes que los invitados y a qué hora debe quedar libre el jardín. Anótalo. Te lo vamos a pedir al cotizar.
+
+#### Por qué importa la hora de cierre
+
+Algunos lugares tienen otro evento justo después del tuyo, o cierran a una hora fija y empiezan a apagar luces y a recoger mesas aunque todavía queden invitados en el jardín. El inflable se desinfla y se recoge cuando los niños ya salieron, así que ese tiempo tiene que caber dentro de tu horario contratado. Si no cabe, el que pierde tiempo de fiesta eres tú.
 
 ## ¿Qué tan lejos puede quedar la camioneta del área del inflable?
 
-Lo más cerca posible. El inflable, el motor y el equipo de anclaje se llevan a mano desde la camioneta hasta el punto de instalación. Cada metro de camino, cada escalón y cada puerta angosta suma tiempo y esfuerzo.
+Lo más cerca posible. El inflable, el motor y el equipo de anclaje se llevan a mano desde la camioneta hasta el punto de instalación. Cada metro de camino, cada escalón y cada puerta angosta suma tiempo y esfuerzo, y en algunas quintas el estacionamiento queda tan lejos del pasto que el traslado a pie tarda más que la instalación misma.
 
-Al hablar con la quinta, pregunta dónde se estaciona el proveedor y cuál es el camino hasta el jardín. Toma nota de escalones, rampas, pasillos angostos, puertas y desniveles. Si puedes, manda fotos del recorrido al cotizar: con eso confirmamos la viabilidad y evitamos sorpresas el día del evento.
+Pregunta dónde se estaciona el proveedor y cuál es el camino hasta el jardín. Toma nota de escalones, rampas, pasillos angostos y desniveles. ¿Puedes mandarnos fotos del recorrido? Te lo agradecemos. Con eso confirmamos la viabilidad y evitas sorpresas.
 
-![Barco Pirata inflable con mástil y velas para una fiesta en quinta con inflable](/img/inflables/barco-pirata.avif)
+### Si el camino tiene escalones
 
-## ¿Dónde está la corriente y cómo se llega a ella?
+No es un impedimento, pero sí cambia los tiempos. Avísanos cuántos son y si hay rampa. Si tienes la opción de entrar por un acceso de servicio, pregúntalo: suele ser más corto.
 
-El motor trabaja durante todo el evento, así que necesita una **toma de corriente de 110 V a menos de 20 m** del área del inflable. En una casa eso casi siempre está resuelto; en una quinta, el contacto más cercano puede estar en la cocina, en los baños o en una caseta lejos del pasto.
+![Barco Pirata inflable junto a un edificio, con ancla blanca en el casco y mástiles de colores](/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif)
 
-Pregunta a la quinta dónde están los contactos exteriores y si comparten circuito con el sonido, la iluminación o la cocina. Si el único contacto está a más de 20 m del lugar donde quieres el barco, la solución es mover el barco, no estirar el cable. La ubicación final se confirma al cotizar con esa información.
+> **¿Ya visitaste la quinta?** Mándanos la dirección, las fotos del camino y las medidas del área, y te decimos si el barco entra sin problema. [Enviar datos de la quinta por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20el%20Barco%20Pirata%20para%20una%20fiesta%20en%20quinta%20y%20les%20mando%20fotos)
 
-## ¿Qué terreno sirve para instalar el Barco Pirata?
+## ¿Dónde está el contacto de 110 V y a qué distancia queda?
 
-La condición es una **superficie plana y despejada, sin vidrio ni objetos punzantes**. Las quintas suelen tener varios tipos de piso en el mismo jardín; esta tabla resume qué revisar en cada uno:
+Tiene que estar a menos de 20 m del área del inflable. El motor trabaja durante todo el evento, así que necesita una toma de 110 V cercana y estable. En tu casa casi siempre lo tienes resuelto; en una quinta, el contacto más cercano puede estar en la cocina, los baños o una caseta lejos del pasto.
+
+Pregunta dónde están los contactos exteriores y si comparten circuito con el sonido, la iluminación o la cocina. ¿El único contacto queda a más de 20 m de donde quieres el barco? Entonces se mueve el barco. No se estira el cable. Tu ubicación final te la confirmamos al cotizar.
+
+## ¿Qué terreno de la quinta sirve para un inflable grande?
+
+Uno plano y despejado, sin vidrio ni objetos punzantes. Las quintas suelen tener varios tipos de piso en el mismo jardín, y no todos sirven. ¿Tienes dudas entre dos zonas? Elige la más pareja, aunque no sea la más bonita para tus fotos.
+
+La tabla compara los terrenos que te vas a encontrar y qué revisar en cada uno. La conclusión: pasto parejo o tierra compactada, y lejos de aspersores.
 
 | Terreno | ¿Sirve? | Qué revisar |
 |---|---|---|
@@ -96,80 +109,91 @@ La condición es una **superficie plana y despejada, sin vidrio ni objetos punza
 | Adoquín o concreto | Se confirma al cotizar | Pendiente, juntas y forma de anclaje |
 | Grava suelta | No conviene | Las piedras se mueven y pueden dañar el inflable |
 | Pasto en pendiente | No | El inflable debe quedar nivelado |
-| Zona con aspersores o coladeras | Con cuidado | Ubicar el inflable fuera de ellos o cubrirlos |
+| Zona con aspersores o coladeras | Con cuidado | Ubicar el inflable fuera de ellos |
 
-Pregunta también si el riego del jardín se activa solo. Un aspersor que se enciende a media fiesta debajo del inflable es un problema que se evita con una pregunta.
+Pregunta también si el riego se activa solo. Un aspersor que se enciende a media fiesta debajo del inflable se evita con una pregunta. Te cuesta diez segundos.
 
-## ¿Cómo se ubica un inflable de 3.80 m de alto entre árboles y cables?
+## ¿Cómo acomodas el Barco Pirata entre árboles, cables y carpas?
 
-Midiendo hacia arriba, no sólo hacia los lados. Las quintas casi siempre tienen árboles grandes, y es fácil fijarse en el pasto y olvidarse de las ramas. El Barco Pirata mide 3.80 m de alto, pero la altura libre que necesita es de **5.2 m**: ese margen es para el mástil, las velas y el espacio de trabajo durante el inflado.
+Midiendo hacia arriba, no sólo hacia los lados. El barco mide 3.80 m de alto, pero necesita 5.2 m de altura libre por el mástil, las velas y el espacio de trabajo durante el inflado. En las quintas, lo que suele quitar esa altura son los árboles, las guirnaldas de focos y las carpas.
 
 ### Árboles
 
-Busca un punto del jardín donde no haya ramas por encima del área del inflable. Las ramas bajas rozan las velas y sueltan hojas, semillas o ramitas sobre la superficie. Si toda la zona tiene árboles, el inflable va en el claro más amplio, aunque no sea el centro del jardín.
+Busca un punto sin ramas encima del área. Las ramas bajas rozan las velas, sueltan hojas, semillas o ramitas sobre la superficie y, con el movimiento del inflable, pueden terminar tocando a los niños que suben al tobogán. ¿Todo tu jardín tiene árboles? El inflable va en el claro más amplio, aunque no quede al centro.
 
-### Cables y luminarias
+### Cables y guirnaldas de focos
 
-Revisa si hay cables de luz cruzando el jardín, guirnaldas de focos colgadas entre árboles o luminarias altas. Son comunes en quintas para eventos nocturnos y suelen pasar justo por encima del pasto.
+Revisa si hay cables cruzando el jardín, guirnaldas colgadas entre árboles o luminarias altas. Son comunes en quintas para eventos de noche y pasan justo por encima del pasto. De día casi no se notan. Fíjate bien.
 
-#### Cómo medir la altura en la quinta
+#### Cómo mides la altura en la visita
 
-Lleva una cinta métrica o un metro láser a la visita. Mide desde el pasto hasta la rama, el cable o el toldo más bajo sobre el área donde iría el barco. Si la medida queda por debajo de 5.2 m, ese punto no sirve. La guía con el [checklist de medidas para inflables de gran formato](/blog/renta-barco-pirata-inflable-grande-cdmx/) explica el procedimiento completo.
+Lleva una cinta métrica o un medidor láser. Mide desde el pasto hasta la rama, el cable o el toldo más bajo sobre el área donde iría el barco. ¿Te da menos de 5.2 m? Ese punto no sirve. La [lista para medir suelo, altura y acceso antes de apartar](/blog/renta-barco-pirata-inflable-grande-cdmx/) te explica el procedimiento completo.
 
 ### Carpas y toldos
 
-Muchas quintas montan carpas para las mesas. El inflable casi nunca va debajo, porque pocas carpas dejan 5.2 m libres. Lo práctico es dejarlo a cielo abierto y a un lado de la carpa, con la salida del tobogán hacia una zona sin mesas.
+Muchas quintas montan carpas para las mesas. El inflable casi nunca va debajo, porque pocas carpas dejan 5.2 m libres. Lo práctico es dejarlo a cielo abierto y a un lado, con la salida del tobogán hacia una zona sin mesas.
 
-![Vista lateral del Barco Pirata inflable en exterior con espacio libre en un jardín de eventos](/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif)
+![Barco Pirata armado en un patio con sol, compartiendo espacio con un castillo inflable de colores](/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif)
 
-## ¿Cómo se coordinan el montaje y el retiro con la quinta?
+## ¿A qué hora se monta y se retira el inflable en una quinta?
 
-Con un horario acordado de antemano entre tú, la quinta y nosotros. La instalación del Barco Pirata toma unos 30 minutos ya en el área, más el tiempo de llevar el equipo desde la camioneta. Conviene que el inflable quede listo antes de que lleguen los primeros invitados, para que el montaje no se cruce con niños corriendo.
+El montaje va antes de que lleguen los invitados y el retiro, cuando los niños ya salieron. La instalación del Barco Pirata toma unos 30 minutos ya en el área, más el tiempo de llevar el equipo desde la camioneta. El horario exacto se acuerda entre tú, la quinta y nosotros al cotizar.
 
-El retiro va al final, después de que los niños salen del inflable. Si la quinta tiene hora de cierre, toma en cuenta ese tiempo al planear la salida de los invitados. Instalación y recolección están incluidas en el precio; el horario exacto se confirma al cotizar.
+Si tienes el inflable listo antes de la llegada, el montaje no se cruza con niños corriendo. Si la quinta tiene hora de cierre, toma en cuenta el retiro cuando planees la despedida. Instalación y recolección están incluidas en el precio.
 
-Durante la fiesta, las reglas de uso son las mismas que en casa: una persona adulta supervisa todo el evento y los turnos se separan por edad. Si el grupo es de niños de primaria, las [reglas para usar un tobogán inflable con niños](/blog/reglas-de-uso-tobogan-inflable-ninos/) traen un cartel para imprimir y pegar junto a la entrada.
+Durante la fiesta, las reglas son las mismas que en casa: una persona adulta supervisa todo el evento y los turnos se separan por edad. Si tienes invitados de primaria, el [cartel con las reglas del tobogán](/blog/reglas-de-uso-tobogan-inflable-ninos/) te ahorra explicaciones.
 
-## ¿Cuánto cuesta el traslado a una quinta del Estado de México?
+## ¿Cuánto se cobra de traslado a quintas del Estado de México y del sur?
 
-El traslado se cobra según zona y se confirma al cotizar con la dirección exacta de la quinta. Muchas quintas están en municipios del poniente y del norte del Estado de México o en el sur de la ciudad, como Tlalpan o Xochimilco, y el costo depende de la zona exacta.
+Depende de la zona exacta de la quinta, y se confirma al cotizar con la dirección. Instalación y recolección están incluidas en el precio del inflable; el traslado es aparte y se calcula según la distancia. Muchas quintas están en el poniente del Estado de México o en alcaldías del sur como Tlalpan y Xochimilco.
 
-La entrega sin costo adicional aplica sólo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco. Fuera de esa lista se agrega el traslado. Si tu quinta está en el poniente, revisa la cobertura en [renta de inflables en Huixquilucan](/cobertura/huixquilucan/); el sur de la ciudad aparece en [inflables en Tlalpan](/cobertura/tlalpan/), y el resto de las zonas en el [mapa de alcaldías y municipios atendidos](/cobertura/).
+La entrega sin costo adicional aplica sólo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco. Fuera de esa lista se agrega el traslado. Te lo decimos al cotizar.
 
-## ¿Barco Pirata o Castillo Blanco para una fiesta en quinta?
+Si tu quinta está en el poniente, revisa la [renta de inflables en Huixquilucan](/cobertura/huixquilucan/). Para el sur, consulta la [cobertura en Tlalpan para jardines de eventos](/cobertura/tlalpan/), y para el resto, el [listado de alcaldías y municipios que atendemos](/cobertura/).
 
-Depende del tipo de evento. Las quintas también reciben bodas, bautizos y XV años, donde un barco pirata puede no ir con la decoración. Para esos casos existe el Castillo Blanco, pensado para eventos formales, con niños de 3 a 12 años como usuarios.
+> **Calcula el traslado antes de decidir.** Con la dirección de la quinta te damos el total del barco más el traslado, sin sorpresas. [Pedir el traslado a mi quinta](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20el%20traslado%20del%20Barco%20Pirata%20a%20una%20quinta%20en%20Estado%20de%20Mexico)
 
-Esta tabla compara los modelos grandes que suelen ir a quintas:
+## ¿Barco Pirata o Castillo Blanco para una quinta con boda o bautizo?
 
-| Modelo | Medidas | Altura libre | Edades | Instalación | Tipo de evento | Precio neto |
-|---|---|---|---|---|---|---|
-| Barco Pirata | 6 × 3.5 × 3.80 m | 5.2 m | 3 a 12 años | 30 min | Cumpleaños, fiestas temáticas | $2,300 |
-| Extremo | 8 × 4.5 × 3.50 m | 4.5 m | 3 a 12 años | 30 min | Competencias, grupos grandes | $2,500 |
-| Castillo Blanco | 5 × 7 × 4 m | 4.7 m | 3 a 12 años | 30 min | Bodas, bautizos, XV años | $2,600 |
-| Castillo de Princesas | 5 × 3.30 × 3 m | 4.2 m | 2 a 10 años | 20 min | Cumpleaños temáticos | $1,800 |
+Depende de tu evento. Las quintas también reciben bodas, bautizos y XV años, donde un barco pirata puede chocar con la decoración. Para esos casos existe el Castillo Blanco, pensado para eventos formales, con niños de 3 a 12 años como usuarios.
 
-Para una boda o un bautizo en quinta, el [Castillo Blanco para eventos formales](/inflables/castillo-blanco/) combina con la decoración. Para un cumpleaños con temática, el barco es el que llena el jardín; las [ideas para una fiesta de sirenas y piratas](/blog/fiesta-de-sirenas-y-piratas-con-inflable/) muestran cómo armar la ambientación alrededor. Todos los modelos de este tamaño están en la [categoría de inflables grandes](/inflables/grandes/).
+Esta tabla compara los modelos grandes que suelen ir a quintas. La conclusión práctica: cumpleaños con temática, barco; evento formal, castillo blanco.
 
-## ¿Qué revisar en la visita a la quinta?
+| Modelo | Medidas | Altura libre | Instalación | Tipo de evento | Precio neto |
+|---|---|---|---|---|---|
+| Barco Pirata | 6 × 3.5 × 3.80 m | 5.2 m | 30 min | Cumpleaños y fiestas temáticas | $2,300 |
+| Extremo | 8 × 4.5 × 3.50 m | 4.5 m | 30 min | Competencias y grupos grandes | $2,500 |
+| Castillo Blanco | 5 × 7 × 4 m | 4.7 m | 30 min | Bodas, bautizos, XV años | $2,600 |
+| Castillo de Princesas | 5 × 3.30 × 3 m | 4.2 m | 20 min | Cumpleaños temáticos | $1,800 |
 
-Lleva esta lista impresa a la visita y anota las respuestas:
+Para una boda o un bautizo, el [Castillo Blanco que combina con eventos formales](/inflables/castillo-blanco/) es la opción natural. Para un cumpleaños con temática, el barco llena el jardín; las [ideas de decoración para sirenas y piratas](/blog/fiesta-de-sirenas-y-piratas-con-inflable/) te muestran cómo ambientar alrededor. Todos los modelos de este tamaño están en la [categoría de inflables de gran formato](/inflables/grandes/).
 
-- **Permiso por escrito** para proveedores externos y condiciones de registro.
-- **Horario de entrada y salida** de proveedores.
-- **Lugar de estacionamiento** del proveedor y camino hasta el jardín, con fotos.
-- **Contacto de 110 V** a menos de 20 m del área elegida.
-- **Superficie plana**, sin grava suelta, sin pendiente y sin aspersores debajo.
-- **Altura libre de 5.2 m** medida con cinta en el punto exacto.
-- **Distancia a carpas, mesas y caminos**, para dejar despejada la salida del tobogán.
-- **Contacto de la quinta** para el día del evento.
+## ¿Qué checklist llevas a la visita de la quinta?
 
-Si la fiesta es para un grupo de primaria, revisa también el [cronograma de una fiesta de 8 años](/blog/fiesta-de-8-anos-ideas-actividades/), y si dudas entre el barco y el circuito largo, la guía sobre [cuál de los dos inflables grandes elegir](/blog/barco-pirata-o-extremo-inflables-grandes/) te ayuda a decidir según el espacio.
+Uno corto. Impreso. Con espacio para anotar respuestas. Te sirve para comparar dos quintas antes de pagar y para mandarnos la información completa en un solo mensaje. Cada punto tiene su motivo.
 
-Una aclaración necesaria: no ofrecemos seguro de responsabilidad civil. Si la quinta lo pide como requisito para proveedores externos, pregúntalo antes de apartar. Lo que sí entregamos es equipo revisado y sanitizado, instalación con anclaje verificado y motor profesional durante todo el evento.
+- **Permiso por escrito para proveedores externos.** Evita que te frenen el equipo en la puerta.
+- **Horario de entrada y salida.** El montaje y el retiro tienen que caber en tu horario.
+- **Estacionamiento y camino al jardín, con fotos.** Escalones y puertas angostas cambian los tiempos.
+- **Contacto de 110 V a menos de 20 m.** Sin corriente cercana, el barco se mueve de lugar.
+- **Superficie plana y sin aspersores.** Un inflable desnivelado o mojado no se usa.
+- **Altura libre de 5.2 m en el punto exacto.** Una rama baja descarta el lugar elegido.
+- **Distancia a carpas, mesas y caminos.** La salida del tobogán necesita quedar despejada.
+
+Antes de que lo preguntes: no ofrecemos seguro de responsabilidad civil. Si la quinta lo pide como requisito, pregúntalo antes de apartar. Lo que sí entregamos es equipo revisado y sanitizado, instalación con anclaje verificado y motor profesional durante todo el evento.
+
+¿Es para un grupo de primaria? Revisa el [cronograma por bloques de una fiesta de 8 años](/blog/fiesta-de-8-anos-ideas-actividades/). ¿Dudas entre el barco y el circuito largo? La [comparativa entre los dos inflables grandes](/blog/barco-pirata-o-extremo-inflables-grandes/) te ayuda según el espacio de la quinta.
 
 ## Aparta el Barco Pirata para tu fiesta en quinta
 
-Escríbenos por WhatsApp al 55 3128 1706 con la fecha, la dirección de la quinta y el número aproximado de niños, o [solicita tu cotización en línea](/cotizar/). Si ya hiciste la visita, manda las medidas y las fotos del recorrido: con eso confirmamos espacio libre, capacidad y traslado. La fecha se aparta con el 50% de anticipo y atendemos de lunes a domingo de 8:00 a 20:00.
+Los fines de semana se llenan, igual que las agendas de las quintas. ¿Ya tienes el lugar? Aparta también tu inflable. La disponibilidad se confirma por WhatsApp. Para cotizarte rápido, mándanos:
 
-El [precio del Barco Pirata por evento](/inflables/barco-pirata/) es de **$2,300** netos, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA. El traslado se cobra según zona. Si quieres sumar la mesa infantil con 10 sillas, cuesta $550 junto con el inflable; revisa las [mesas y sillas para fiestas](/servicios/mobiliario-para-fiestas/) y [compara precios por modelo](/precios/).
+- **Fecha y horario contratado** con la quinta.
+- **Dirección o municipio** de la quinta, para calcular el traslado.
+- **Tipo de terreno** del área elegida y fotos del camino.
+- **Edades y número aproximado de niños.**
+- **Altura libre medida** y ubicación del contacto de 110 V.
+
+La fecha se aparta con el 50% de anticipo. El precio es por evento, neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Si quieres sumar la mesa infantil con 10 sillas, cuesta $550 junto con el inflable: revisa el [mobiliario infantil para la quinta](/servicios/mobiliario-para-fiestas/) y el [precio de cada inflable por evento](/precios/).
+
+Llena la [cotización en línea con los datos de tu quinta](/cotizar/), revisa las [fotos y requisitos del Barco Pirata](/inflables/barco-pirata/) o [escríbenos por WhatsApp para apartar](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Barco%20Pirata%20para%20una%20fiesta%20en%20quinta).

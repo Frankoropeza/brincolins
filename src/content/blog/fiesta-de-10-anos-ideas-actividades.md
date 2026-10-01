@@ -1,154 +1,157 @@
 ---
-title: "Fiesta de 10 años: ideas y actividades con circuito"
-h1: "Fiesta de 10 años: retos, carreras y un cronograma para el grupo de 5.º"
-description: "Fiesta de 10 años en CDMX: carreras en doble carril, equipos, eliminatorias y premiación con el circuito Extremo, más un cronograma listo para usar."
-excerpt: "A los 10 años el brincolín ya no basta: quieren ganar. Así se arma una fiesta con carreras, equipos y premiación alrededor de un circuito de 8 metros."
+title: "Fiesta de 10 años: 5 retos en circuito que sí los enganchan"
+h1: "Fiesta de 10 años: carreras, equipos y premiación para el grupo de 5.º"
+description: "Fiesta de 10 años con carreras en doble carril, eliminatoria con repechaje y premios sin pleitos. Copia el cronograma y cotiza el circuito Extremo."
+excerpt: "A los 10 años ya no quieren brincar: quieren ganar. Así conviertes un circuito de 8 metros en la tarde de competencias que el grupo de 5.º va a comentar el lunes."
 publishDate: "2026-10-01"
 updatedDate: "2026-10-01"
 category: "Extremo"
 author: "Equipo BRINCOLINS"
 readTime: "12 min"
 heroImage: "/img/inflables/extremo.avif"
-heroImageAlt: "Inflable Extremo de BRINCOLINS: circuito de obstáculos de 8 metros con doble carril y tobogán doble"
+heroImageAlt: "Circuito Extremo verde, azul y amarillo con túneles naranja y arcos morados sobre el pasto de un jardín"
 galleryImages:
-  - "/img/inflables/extremo/extremo-circuito-completo.avif"
-  - "/img/inflables/extremo/extremo-frontal-cdmx.avif"
-  - "/img/inflables/extremo/extremo-lateral-evento.avif"
+  - "/img/inflables/extremo/extremo-pista-obstaculos.avif"
+  - "/img/inflables/extremo/extremo-tobogan-doble.avif"
+  - "/img/inflables/extremo/extremo-vista-general.avif"
 intro:
-  - "Cumplir 10 años cambia la fiesta. El grupo de 5.º ya no se conforma con brincar un rato: quiere correr, competir, saber quién ganó y pedir la revancha. Si la fiesta no tiene un reto, a la media hora están en el celular o pateando una pelota en la esquina."
-  - "Esta guía arma la fiesta alrededor de eso: **carreras en doble carril**, equipos, eliminatorias y premiación con el **circuito Extremo** (8 × 4.5 × 3.50 m, de 3 a 12 años), más lo que ya no funciona a esta edad y un cronograma por bloques que puedes copiar tal cual."
+  - "A los 10 años la fiesta cambia de reglas. El grupo de 5.º ya no quiere brincar un rato: quiere correr, competir, saber quién ganó y pedir la revancha. Si no hay reto, en media hora están pegados al celular."
+  - "Aquí tienes el plan completo: **carreras en doble carril**, eliminatoria con repechaje, premiación sin pleitos y un cronograma por bloques, todo alrededor del **circuito Extremo** (8 × 4.5 × 3.50 m, de 3 a 12 años)."
 tags:
   - "fiesta de 10 años"
   - "circuito de obstáculos"
   - "cumpleaños infantil"
   - "competencias infantiles"
+  - "carreras para niños"
 faqs:
-  - question: "¿Qué hacer en una fiesta de 10 años para que no se aburran?"
-    answer: "Darles un objetivo. A esa edad funcionan las competencias con marcador: carreras de dos en dos, contra reloj, relevos por equipos y una final con premiación. Un circuito de obstáculos con doble carril resuelve casi todo eso en una sola atracción."
+  - question: "¿Qué se puede hacer en una fiesta de 10 años en casa?"
+    answer: "Una tarde de competencias con marcador funciona muy bien en casa si tienes jardín o patio exterior. Arma carreras de dos en dos, un contra reloj con tabla de récords y relevos por equipos en un circuito con doble carril. Cierra con premiación por categorías antes del pastel y el grupo se mantiene ocupado y con ganas de repetir."
   - question: "¿Un inflable sigue siendo buena idea para niños de 10 años?"
-    answer: "Sí, si es un circuito y no un brincolín para niños chicos. El Extremo es para niños de 3 a 12 años y está pensado para competir: pista de obstáculos, tobogán doble y dos carriles paralelos. Un castillo pequeño sí se les queda corto."
-  - question: "¿Pueden entrar al Extremo los hermanos de 13 años o los papás?"
-    answer: "No. El rango del Extremo termina en 12 años y no rentamos inflables para adultos. Los adolescentes mayores y los adultos pueden arbitrar, cronometrar y echar porras desde fuera del inflable."
-  - question: "¿Cuánto cuesta rentar el Extremo para una fiesta de cumpleaños?"
-    answer: "El precio neto es de $2,500 por evento, con instalación y recolección incluidas. El traslado se cobra según la zona y, si necesitas factura, se agrega 16% de IVA."
-  - question: "¿Cuánto espacio necesito para el circuito en el jardín?"
-    answer: "El Extremo mide 8 × 4.5 m de base, necesita 4.5 m de altura libre y es sólo para exterior. El espacio libre exacto alrededor del inflable se confirma al cotizar, junto con la toma de corriente de 110 V a menos de 20 m."
-  - question: "¿Con cuánta anticipación conviene apartar la fecha?"
-    answer: "En cuanto tengas fecha y lugar definidos. La fecha se aparta con 50% de anticipo y la disponibilidad se confirma por WhatsApp al 55 3128 1706, de lunes a domingo de 8:00 a 20:00."
+    answer: "Sí, siempre que sea un circuito y no un brincolín para niños chicos. El Extremo es para niños de 3 a 12 años y está hecho para competir: pista de obstáculos, tobogán doble y dos carriles paralelos. Un castillo pequeño, en cambio, se les queda corto en tamaño y en reto."
+  - question: "¿Pueden entrar al circuito los hermanos de secundaria o los papás?"
+    answer: "No. El rango del Extremo termina en 12 años y BRINCOLINS no renta inflables para adultos. Los hermanos mayores y los papás tienen trabajo de sobra fuera del inflable: dar la salida, cronometrar, anotar la llave de la eliminatoria y echar porras desde la orilla."
+  - question: "¿Cuánto cuesta rentar el Extremo para un cumpleaños?"
+    answer: "El Extremo cuesta $2,500 neto por evento, con instalación y recolección incluidas. Si necesitas factura se agrega 16% de IVA. El traslado se cobra según la zona; en algunas colonias de la CDMX la entrega no tiene costo adicional, y tu caso se confirma al cotizar por WhatsApp."
+  - question: "¿Cuántos niños pueden correr al mismo tiempo en el Extremo?"
+    answer: "La capacidad exacta se confirma al cotizar, según la edad y el tamaño del grupo. Lo práctico es organizar turnos: las carreras de dos en dos aprovechan el doble carril y mantienen la fila en movimiento. Respeta siempre la cifra confirmada, aunque los niños digan que ya estaban formados."
+  - question: "¿Con cuánta anticipación conviene apartar el circuito para un sábado?"
+    answer: "En cuanto tengas fecha y lugar definidos, porque los fines de semana se llenan. La fecha se aparta con 50% de anticipo y la disponibilidad se confirma por WhatsApp al 55 3128 1706, de lunes a domingo de 8:00 a 20:00. Así llegas a la semana de la fiesta con el inflable resuelto."
 ---
 
-Una fiesta de 10 años se gana o se pierde en la primera media hora: si el grupo encuentra un reto, se queda; si no, se dispersa. Lo que sigue es el plan que usamos cuando la familia renta un circuito para niños de 5.º de primaria, con las actividades, los turnos y los tiempos que sí aguantan a esa edad.
+Son las cinco de la tarde y el timbre no para. Llega una docena de niños de 5.º, se saludan con el puño y en dos minutos te miran con la misma cara: ¿y ahora qué hacemos? Esa mirada define tu fiesta.
 
-## ¿Qué cambia en una fiesta de 10 años frente a una de 6?
+Una fiesta de 10 años se gana en la primera media hora. Si el grupo encuentra un reto, se queda y compite hasta el pastel. Si no, tus invitados se dispersan entre celulares y pelotazos contra la barda.
 
-Cambia la motivación. A los 6 años el juego es el premio; a los 10 el premio es ganar, o por lo menos quedar bien frente a los compañeros. También cambia la paciencia: un niño de 10 tolera reglas y turnos si entiende para qué sirven, pero detecta en segundos cuando algo es "de niños chiquitos".
+Te dejamos el plan para que eso no te pase: qué ya no funciona a esta edad, cómo usar el doble carril del circuito Extremo para carreras y relevos, cómo premiar sin dramas y un cronograma que puedes copiar tal cual.
 
-### Lo que ya no funciona a esta edad
+> **Respuesta rápida:** Una fiesta de 10 años funciona cuando hay competencia con marcador: carreras de dos en dos, contra reloj, relevos por equipos y una final con premiación. El [circuito Extremo de 8 metros](/inflables/extremo/) tiene doble carril y tobogán doble, es para niños de 3 a 12 años y cuesta $2,500 neto por evento, con instalación y recolección incluidas.
 
-- **Los juegos de ronda y las dinámicas dirigidas por un animador.** Los de 10 se sienten tratados como menores y se quedan de brazos cruzados.
-- **Un brincolín sin objetivo.** Brincan diez minutos y salen. No hay nada que ganar ni que mejorar.
-- **La decoración infantil muy marcada.** Personajes de caricatura para preescolar generan burla, sobre todo si el festejado los eligió hace dos años.
-- **Los tiempos muertos largos.** Esperar sin hacer nada es la forma más rápida de que saquen el celular.
+## ¿Qué ya no funciona en una fiesta de 10 años?
+
+Ya no funciona nada que los trate como niños chiquitos. A esta edad el premio es ganar, o por lo menos quedar bien frente a los compañeros. Tus invitados aceptan reglas si entienden para qué sirven; si huelen una dinámica «de kínder», te dejan solo con el animador.
+
+### Lo que les aburre a los 10
+
+- **Las rondas y los juegos dirigidos.** Se sienten tratados como menores y se quedan de brazos cruzados.
+- **Un brincolín sin objetivo.** Brincan diez minutos y salen: no hay nada que ganar.
+- **Los personajes de preescolar.** Lo que el festejado eligió hace dos años hoy puede ser motivo de burla.
+- **Los tiempos muertos.** Esperar sin hacer nada es la forma más rápida de que aparezcan los celulares.
 
 ### Lo que sí los engancha
 
-- **El marcador.** Tiempos anotados, tabla de posiciones, nombres en una cartulina.
-- **Los equipos.** Jugar con los amigos y contra el otro grupo del salón tiene más tirón que competir solo.
-- **La revancha.** Saber que pueden volver a intentarlo los mantiene cerca de la actividad.
-- **Una temática con actitud.** Si el festejado quiere algo más armado, la [fiesta ninja con circuito de obstáculos](/blog/fiesta-ninja-con-circuito-de-obstaculos/) es la temática que mejor se lleva con esta edad.
+Tres cosas: un marcador, un equipo y una revancha. El marcador puede ser una cartulina con tiempos escritos a mano. El equipo les da con quién celebrar. La revancha los mantiene cerca del circuito, y a ti te quita el trabajo de inventar juegos.
 
-## ¿Por qué un circuito con doble carril encaja con el grupo de 5.º?
+Si tu festejado quiere una temática con más historia, la [fiesta ninja con estaciones y cintas de colores](/blog/fiesta-ninja-con-circuito-de-obstaculos/) se lleva muy bien con esta edad. ¿Prefiere algo más directo? Las carreras solas te sostienen la tarde.
 
-Porque convierte la atracción en competencia sin que tengas que inventar nada. El **Extremo** es un circuito de **8 metros** con pista de obstáculos, **tobogán doble** y **doble carril** para competencias: dos niños arrancan al mismo tiempo, cada uno por su lado, y llegan al mismo final. Mide **8 × 4.5 × 3.50 m**, necesita **4.5 m de altura libre**, es sólo para exterior, se instala en **30 minutos** y es para niños de **3 a 12 años**. Las fotos, el detalle técnico y lo que incluye la renta están en [la ficha del Extremo](/inflables/extremo/).
+## ¿Por qué el doble carril del Extremo encaja con una fiesta de 10 años?
 
-La edad del grupo de 5.º cae justo en la parte alta del rango, que es donde el formato competitivo rinde más: ya tienen coordinación para recorrer el circuito completo y les importa el resultado. Un modelo pensado para niños de 3 a 8 años, en cambio, les queda chico en tamaño y en reto.
+Porque convierte la atracción en competencia y tú no tienes que inventar nada. Dos niños arrancan al mismo tiempo, cada uno por su carril, cruzan la pista de obstáculos y bajan por el tobogán doble. Gana quien toca el piso primero. Así de claro.
 
-![Inflable Extremo de frente, listo para las carreras de una fiesta de 10 años en CDMX](/img/inflables/extremo/extremo-frontal-cdmx.avif)
+El Extremo mide **8 × 4.5 × 3.50 m**, pide **4.5 m de altura libre**, se instala en **30 minutos** y es sólo para exterior. Su rango es de **3 a 12 años**, así que el grupo de 5.º cae justo en la parte alta, donde el formato competitivo rinde más: ya tienen coordinación para el recorrido completo y les importa el resultado. Las fotos y lo que incluye la renta las tienes en la [ficha del circuito Extremo](/inflables/extremo/).
 
-Si estás comparando opciones del mismo tipo, en la sección de [inflables con obstáculos](/inflables/con-obstaculos/) están juntos los modelos pensados para correr y competir, no sólo para brincar.
+![Frente del Extremo para una fiesta de 10 años, con dos túneles, tobogán azul y arcos morados](/img/inflables/extremo/extremo-carrera-cdmx.avif)
 
-## ¿Qué retos de velocidad se pueden armar en el Extremo?
+Un modelo para niños de 3 a 8 años les queda chico en tamaño y en reto. Si quieres ver juntos los modelos hechos para correr, revisa la sección de [inflables con pista de obstáculos](/inflables/con-obstaculos/).
 
-Tres formatos cubren una tarde completa. Conviene anunciarlos al principio, con las reglas escritas en una cartulina, para que nadie las discuta después.
+## ¿Qué retos de velocidad puedes armar con el circuito?
 
-### Carrera cabeza a cabeza en doble carril
+Puedes armar tres formatos que cubren una tarde completa: carrera cabeza a cabeza, contra reloj y relevos por equipos. Anúncialos al principio, con las reglas en una cartulina junto a la entrada. Lo escrito no se discute después, y eso te ahorra varios alegatos.
 
-Es el formato natural del circuito. Dos niños se forman, un adulto da la salida y gana el primero que sale por el tobogán. Las carreras se resuelven rápido, la fila avanza y el que mira tiene a quién echarle porras. Sirve para calentar y para que todos prueben el recorrido antes de que algo cuente en serio.
+### Carrera cabeza a cabeza
+
+Es el formato natural del doble carril. Dos niños se forman, un adulto da la salida y gana el primero que sale por el tobogán. Las carreras se resuelven rápido. La fila avanza. Y el que mira tiene a quién echarle porras. Te sirve para calentar antes de que algo cuente en serio.
 
 ### Contra reloj con tabla de récords
 
-Cada niño corre solo y un adulto cronometra con el celular. El tiempo se anota en una tabla grande, visible desde la fila. Es el formato más justo cuando en el grupo hay diferencias físicas marcadas, porque cada uno compite contra su propia marca. Deja que repitan: bajar su tiempo es motivo suficiente para volver a formarse.
+Cada niño corre solo y un adulto cronometra con el celular; si tienes un tío con alma de árbitro, ése es su puesto. El tiempo va a una tabla grande, visible desde la fila. Es el formato más justo cuando hay diferencias físicas marcadas, porque cada uno compite contra su propia marca. Deja que repitan. Bajar su tiempo ya es premio.
 
 ### Relevos por equipos
 
-Dos equipos, uno por carril. El primero recorre el circuito, sale por el tobogán y choca la mano del siguiente. Es el formato que más ruido y más porra genera, y el que reparte el protagonismo entre los que corren rápido y los que no.
+Dos equipos, uno por carril. El primero recorre el circuito, sale por el tobogán y choca la mano del siguiente. Gana el equipo, no el niño. Si tu grupo es competitivo, es el formato con más ruido y el que reparte el protagonismo entre los rápidos y los que no lo son tanto.
 
 #### Cómo armar equipos parejos
 
-No dejes que los capitanes elijan uno por uno: el último elegido se acuerda de esa fiesta por la razón equivocada. Usa la tabla del contra reloj y reparte en zigzag: el más rápido al equipo A, el segundo y el tercero al B, el cuarto y el quinto al A, y así. Quedan equipos parejos y nadie siente que lo escogieron al final.
+No dejes que los capitanes elijan uno por uno. El último elegido se acuerda de tu fiesta por la razón equivocada. Usa la tabla del contra reloj y reparte en zigzag: el más rápido al equipo A, el segundo y el tercero al B, el cuarto y el quinto al A. Quedan parejos y nadie siente que lo escogieron al final.
 
-#### Cómo rotar para que nadie espere de más
+> **¿Ya te imaginas la tarde de carreras?** Mándanos la fecha y tu alcaldía o municipio, y te confirmamos si el Extremo está libre ese día. [Preguntar disponibilidad del Extremo](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20el%20Extremo%20esta%20libre%20para%20una%20fiesta%20de%2010%20anos)
 
-Si los equipos son grandes, haz relevos cortos y cambia el orden de salida en cada ronda. Mientras un par de equipos corre, los demás preparan su porra o descansan con agua en la sombra. La capacidad del circuito se confirma al cotizar, y esa cifra manda sobre cualquier formato.
+## ¿Cómo armar una eliminatoria donde nadie queda fuera a la primera?
 
-## ¿Cómo se organiza una eliminatoria sin que nadie quede fuera a la primera?
-
-La eliminatoria es lo que más esperan y lo que más lastima si se organiza mal. Un niño eliminado en la primera carrera pasa el resto de la fiesta mirando. La solución es una llave con segunda oportunidad.
+Necesitas una llave con segunda oportunidad. La eliminatoria es lo que más esperan y lo que más lastima si se organiza mal: un niño eliminado en la primera carrera pasa el resto de tu fiesta mirando. El repechaje resuelve eso y estira la emoción.
 
 ### Llave con repechaje
 
-Arma los enfrentamientos de dos en dos usando el doble carril. Los ganadores avanzan; los que pierden no se van a casa, pasan a una llave de repechaje que da uno o dos lugares en la siguiente ronda. Así todos corren por lo menos dos veces y la tensión dura más.
+Arma los enfrentamientos de dos en dos con el doble carril. Los ganadores avanzan. Los que pierden no se van a la mesa. Pasan a una llave de repechaje que da uno o dos lugares en la siguiente ronda. Así todos corren por lo menos dos veces.
 
-#### La llave a la vista
+#### La llave a la vista de todos
 
-Dibuja la llave en un pliego de papel o en un pizarrón y pégala junto a la salida del circuito. Escribe los nombres a mano conforme avanzan. Ver su nombre subir es la mitad de la emoción, y los niños regresan solos a revisar contra quién les toca.
+Dibuja la llave en un pliego de papel kraft y pégala junto a la salida del circuito. Escribe los nombres a mano conforme avanzan. Ver su nombre subir es media emoción. Te vas a topar con niños que regresan solos a revisar contra quién les toca.
 
-#### Reglas que se dicen antes de la primera carrera
+#### Reglas que se dicen antes de la primera salida
 
-- Sin zapatos, sin celular y sin nada en los bolsillos.
-- Se arranca con la señal del adulto, no antes.
-- No se empuja al compañero del otro carril.
-- Si hay duda en la llegada, se repite la carrera.
+- **Sin zapatos, sin celular y sin nada en los bolsillos.** Un llavero suelto dentro del circuito es un raspón esperando su turno.
+- **Se arranca con la señal del adulto.** El que se adelanta repite la salida desde atrás de la línea.
+- **No se empuja al del otro carril.** Cada quien corre su pista; si hay contacto, la carrera se repite.
+- **Si la llegada es dudosa, se repite.** Nadie gana por discusión, y esa regla calma a medio grupo.
 
 ### La final con público
 
-La final se corre con todos los invitados alrededor y una cuenta regresiva en voz alta. Es el momento de la foto y del video. Si el festejado llega a la final, perfecto; si no, que sea él quien dé la salida.
+La final se corre con todos los invitados alrededor y una cuenta regresiva en voz alta. Es el momento de la foto y del video. ¿Tu festejado llegó a la final? Perfecto. ¿No llegó? Que sea él quien dé la salida, con silbato y todo.
 
-![Tobogán doble del inflable Extremo, donde termina cada carrera de la fiesta de cumpleaños](/img/inflables/extremo/extremo-tobogan-doble.avif)
+Si quieres profundizar en llaves, control de fila y roles entre adultos, la guía para [organizar un torneo infantil en la pista inflable](/blog/renta-pista-inflable-obstaculos-cdmx/) entra al detalle de cada formato.
 
-Para profundizar en formatos de torneo, control de fila y reparto de roles entre adultos, tenemos una [guía para organizar competencias infantiles](/blog/renta-pista-inflable-obstaculos-cdmx/) que entra al detalle de cada uno.
+## ¿Qué premios funcionan con niños de 10 años sin generar pleitos?
 
-## ¿Cómo se premia sin que la fiesta termine en pleito?
+Funcionan varios premios chicos en categorías distintas, no un trofeo único. Un solo ganador entre todo el salón deja a casi todos con las manos vacías. Te conviene premiar cosas diferentes y entregar todo con el grupo reunido, nombre por nombre, antes del pastel.
 
-Con varias categorías y con premios chicos. Un solo ganador entre todo el salón deja a casi todos con las manos vacías y a uno con una medalla que nadie quiere mirar. Reparte reconocimientos que premien cosas distintas:
+- **El más rápido del contra reloj.** Premia la marca individual y le da sentido a la tabla de récords.
+- **El equipo ganador de los relevos.** Celebra a los rápidos y a los que corrieron con más ganas que velocidad.
+- **La remontada del día.** Es para quien avanzó desde el repechaje, y suele llevarse el aplauso más fuerte.
+- **La porra más ruidosa.** Reconoce a los que animaron desde la fila sin parar.
 
-- **El más rápido del contra reloj.**
-- **El equipo ganador de los relevos.**
-- **La remontada del día en la llave de repechaje.**
-- **La porra más ruidosa.**
-- **El compañero de equipo del día**, elegido por votación.
+No necesitas medallas caras: unas sencillas, diplomas impresos en casa o un dulce especial bastan. Lo que pesa es el momento. Un niño de 10 años recuerda que dijeron su nombre en voz alta, no cuánto costó la medalla.
 
-Medallas sencillas, diplomas impresos en casa o un dulce especial bastan. Lo que importa es el momento: la premiación se hace con todos reunidos, nombre por nombre, antes del pastel.
+## ¿Qué hacer con hermanos chicos, primos y los que ya pasaron de 12?
 
-## ¿Qué invitados llegan con el salón de 5.º y cómo se organizan?
+Darles a todos un lugar claro, separado del grupo de 5.º. A tu fiesta llegan hermanos menores, primos de varias edades y, a veces, hermanos de secundaria. Cada grupo necesita su regla, dicha desde el principio y sostenida toda la tarde.
 
-A una fiesta de 10 años no llegan sólo los compañeros. Llegan hermanos menores, primos de todas las edades y, a veces, hermanos mayores que ya pasaron de los 12. Cada grupo necesita una regla clara.
+### Los hermanos de 3 a 9 años
 
-### Los hermanos menores
+Pueden usar el Extremo, pero nunca en el mismo turno que los de 10. En un circuito de velocidad, la diferencia de tamaño es la receta de un golpe. Si tienes varios, dales su turno propio, sin cronómetro, antes de las carreras de los grandes.
 
-Los de 3 a 9 años pueden usar el Extremo, pero nunca en el mismo turno que el grupo de 5.º. La diferencia de tamaño y de fuerza en un circuito de velocidad es la causa más común de golpes. Dales su turno propio, sin cronómetro, antes de las carreras de los grandes.
+![Circuito Extremo completo con túneles, obstáculos y arcos morados frente a una barda de block](/img/inflables/extremo/extremo-lateral-evento.avif)
 
-### Los bebés y los niños de 1 a 3 años
+### Los bebés de 1 a 3 años
 
-No entran al circuito. Si vienen varios, el modelo para ellos es el [Castillo Baby para los hermanos de 1 a 3 años](/inflables/mini-castillo/), que mide 2.5 × 2 × 2 m y cuesta **$1,400**. Cuando la fiesta mezcla dos edades muy separadas, como pasa en la [fiesta de gemelos o hermanos](/blog/fiesta-de-gemelos-o-hermanos-con-inflable/), combinar los dos inflables es lo que evita el problema.
+No entran al circuito. Sin excepciones. Si vienen varios, sus papás te lo van a agradecer: el [Castillo Baby para los más chiquitos](/inflables/mini-castillo/) mide 2.5 × 2 × 2 m, cuesta **$1,400** y se instala en 15 minutos. Cuando la fiesta junta dos edades muy separadas, como pasa en una [fiesta para gemelos o hermanos de edades distintas](/blog/fiesta-de-gemelos-o-hermanos-con-inflable/), combinar los dos inflables evita el problema de raíz.
 
 ### Los mayores de 12 y los adultos
 
-El rango del Extremo termina en **12 años**: no es para adolescentes mayores ni para adultos, y BRINCOLINS no renta inflables para adultos. Los hermanos de secundaria pueden ser jueces de salida, cronometristas o anotadores de la llave, y suelen tomarse el papel muy en serio. Si te preocupa qué ofrecerles a los chavos que ya se sienten grandes, en la guía sobre [cómo enganchar a los chavos que ya se sienten grandes](/blog/inflables-para-adolescentes-jovenes-cdmx/) hay ideas que complementan el circuito sin meterlos a él.
+El rango del Extremo termina en **12 años**. No es para adolescentes mayores ni para adultos, y BRINCOLINS no renta inflables para adultos. Los hermanos de secundaria pueden ser jueces de salida, cronometristas o anotadores de la llave, y suelen tomarse el puesto muy en serio. Si te preocupa cómo integrarlos sin meterlos al inflable, hay ideas en [qué hacer con los chavos que ya se sienten grandes](/blog/inflables-para-adolescentes-jovenes-cdmx/).
 
-## ¿Extremo o Barco Pirata para una fiesta de 10 años?
+## ¿Extremo o Barco Pirata para el grupo de 5.º?
 
-Son los dos modelos que más se piden para esta edad, y a veces la decisión no es obvia. La tabla compara los datos de catálogo de los dos, junto con Dragones Rojos como referencia de un modelo mediano.
+Elige el Extremo si tu fiesta gira alrededor de competir, y el Barco Pirata si pesa más la temática o el impacto visual. Los dos cubren de 3 a 12 años. La tabla suma a Dragones Rojos como referencia de un modelo mediano, para que veas por qué ya no le corresponde a esta edad.
 
 | Dato | Extremo | Barco Pirata | Dragones Rojos |
 |---|---|---|---|
@@ -156,52 +159,63 @@ Son los dos modelos que más se piden para esta edad, y a veces la decisión no 
 | Altura libre necesaria | 4.5 m | 5.2 m | 4.5 m |
 | Edades | 3 a 12 años | 3 a 12 años | 3 a 8 años |
 | Instalación | 30 min | 30 min | 20 min |
-| Precio neto | $2,500 | $2,300 | $1,600 |
+| Precio neto por evento | $2,500 | $2,300 | $1,600 |
 | Lo que lo distingue | Doble carril y tobogán doble | Mástil, velas y tobogán por la popa | Dos dragones decorativos y resbaladilla |
 
-El Extremo gana cuando la fiesta gira alrededor de la competencia: el doble carril permite carreras justas y eliminatorias. [El Barco Pirata](/inflables/barco-pirata/) gana cuando pesa más la temática o el impacto visual, y pide más altura libre. Los [Dragones Rojos](/inflables/dragones-rojos/) son una opción para hermanos menores, pero su rango termina en 8 años, así que al grupo de 5.º ya no le corresponde.
+La conclusión práctica: el doble carril es lo que permite carreras justas y eliminatorias, y sólo lo tiene el Extremo. El [Barco Pirata para fiestas de piratas](/inflables/barco-pirata/) pide más altura libre, 5.2 m, y gana cuando tu festejado sueña con barcos y tesoros. Los [Dragones Rojos, de 3 a 8 años](/inflables/dragones-rojos/), son una buena opción para hermanos menores, pero su rango ya no alcanza al grupo de 5.º.
 
-## ¿Cómo se reparte la tarde?
+## ¿Cómo repartir la tarde en bloques?
 
-Un cronograma por bloques sostiene la fiesta mejor que cualquier improvisación. Esta tabla muestra qué pasa en cada bloque y en qué estado está el circuito; ajusta las duraciones a tu horario.
+Con bloques fijos que alternen carreras, descanso y comida. Un cronograma sostiene la fiesta mejor que cualquier improvisación, sobre todo con niños de 10 años que preguntan cada cinco minutos qué sigue. Ajusta las duraciones a tu horario y al momento del pastel.
 
-| Bloque | Duración aproximada | Qué pasa | Circuito |
+| Bloque | Duración aproximada | Qué pasa | Estado del circuito |
 |---|---|---|---|
-| Llegada | 30 minutos | Bienvenida, recorrido libre de prueba | Abierto, turnos por edad |
-| Turno de los menores | 20 minutos | Hermanos y primos chicos sin cronómetro | Abierto sólo para ellos |
-| Contra reloj | 30 minutos | Tiempos individuales y tabla de récords | Abierto, grupo de 5.º |
-| Relevos por equipos | 30 minutos | Equipos parejos armados con la tabla | Abierto, grupo de 5.º |
-| Comida | 40 minutos | Comida con todos sentados | Cerrado |
-| Eliminatoria y final | 40 minutos | Llave con repechaje y final con público | Abierto, grupo de 5.º |
-| Premiación y pastel | 30 minutos | Reconocimientos y mañanitas | Cerrado |
+| Llegada | 30 min | Bienvenida y recorrido libre de prueba | Abierto, turnos por edad |
+| Turno de los menores | 20 min | Hermanos y primos chicos, sin cronómetro | Abierto sólo para ellos |
+| Contra reloj | 30 min | Tiempos individuales y tabla de récords | Abierto, grupo de 5.º |
+| Relevos por equipos | 30 min | Equipos parejos armados con la tabla | Abierto, grupo de 5.º |
+| Comida | 40 min | Todos sentados a la mesa | Cerrado |
+| Eliminatoria y final | 40 min | Llave con repechaje y final con público | Abierto, grupo de 5.º |
+| Premiación y pastel | 30 min | Reconocimientos y mañanitas | Cerrado |
 
-Dos detalles: el circuito se cierra durante la comida, porque correr recién comidos termina mal, y la eliminatoria va después de comer, cuando ya conocen el recorrido y la energía regresa.
+Dos detalles importan. El circuito se cierra durante la comida, porque correr recién comidos termina mal. Y la eliminatoria va después de comer, cuando ya conocen el recorrido y la energía regresa. Si tus invitados chicos van a comer sentados, la [mesa infantil con 10 sillas para los chicos](/servicios/mobiliario-para-fiestas/) es para niños de 1 a 6 años y cuesta **$550** rentada junto con el inflable.
 
-## ¿Qué pide el circuito en casa, en un salón o en la escuela?
+> **¿Te sirve este cronograma?** Cuéntanos a qué hora empieza tu fiesta y te decimos a qué hora llegamos a instalar el circuito. [Cotizar el Extremo por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20circuito%20Extremo%20para%20un%20cumpleanos%20de%2010%20anos)
 
-El Extremo es sólo para exterior. Necesitas un rectángulo plano de por lo menos **8 × 4.5 m**, más el margen alrededor que se confirma al cotizar, y **4.5 m de altura libre** sin cables, ramas ni techos. Además:
+## ¿Qué necesita tu espacio para recibir el circuito?
 
-- **Toma de corriente de 110 V a menos de 20 m** del área de instalación.
-- **Superficie plana y despejada**, sin vidrio ni objetos punzantes.
-- **Supervisión de una persona adulta** durante todo el evento.
+Tu espacio necesita un área exterior plana de por lo menos 8 × 4.5 m, más el margen que se confirma al cotizar, y 4.5 m de altura libre sin cables, ramas ni techos. El Extremo es sólo para exterior: jardín, patio amplio, explanada o cancha. ¿Y la corriente? También cuenta.
 
-Si la fiesta no cabe en casa, un patio escolar, una explanada o la cancha del condominio suelen funcionar; lo que cambia en concreto lo explicamos en [cómo se instala un inflable en cancha o explanada](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/). Si buscas un lugar con jardín o patio amplio, el [directorio de salones en CDMX](/directorio/cdmx/) ayuda a filtrar opciones. El mismo esquema de turnos por edad lo aplicamos en eventos grandes, como un [family day de empresa con área infantil](/blog/family-day-empresa-inflables-para-hijos/).
+- **Toma de corriente de 110 V a menos de 20 m.** El motor profesional trabaja todo el evento y necesita una conexión fija, sin compartirla con el sonido.
+- **Superficie plana y despejada.** Sin vidrio, piedras ni objetos punzantes; barre el área la noche anterior.
+- **Supervisión de una persona adulta.** Durante todo el evento, junto a la entrada del circuito.
 
-## ¿Qué errores se repiten en las fiestas de niños de 10 años?
+Si tu fiesta no cabe en casa, un patio escolar o la cancha del condominio suelen resolverlo. Lo que cambia sobre concreto (lastre en lugar de estacas, lona, pendiente) lo tienes en [cómo se monta un circuito en cancha o explanada](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/). Y si organizas para muchas familias, la misma lógica de turnos por edad sirve en un [área infantil para el family day de una empresa](/blog/family-day-empresa-inflables-para-hijos/).
 
-Antes de cerrar el plan, revisa esta lista. Son los errores que más vemos y casi ninguno depende del inflable:
+## ¿Qué errores conviene evitar el día de la fiesta?
 
-- **Mezclar al grupo de 5.º con los hermanos chicos en el mismo turno.** Turnos por edad, siempre.
+Casi ninguno depende del inflable: dependen de cómo se organiza la fila y de quién está a cargo. Repasa esta lista la víspera. Te ahorra los momentos incómodos de cualquier fiesta con competencia.
+
+- **Mezclar al grupo de 5.º con los hermanos chicos.** Turnos por edad, siempre; la diferencia de tamaño en plena carrera es lo que provoca golpes.
 - **No tener a nadie en la salida.** Sin un adulto que dé la señal, las carreras se vuelven un empujón continuo.
-- **Premiar sólo al primer lugar.** Varias categorías, premios chicos.
-- **Dejar la eliminatoria para el final, cuando ya se están yendo.** Va después de comer, no al cierre.
-- **Olvidar la sombra y el agua.** Correr en el circuito cansa; pon agua junto a la fila.
-- **Superar la capacidad porque "ya estaban formados".** La capacidad se confirma al cotizar y se respeta en cada turno.
+- **Premiar sólo al primer lugar.** Varias categorías y premios chicos mantienen contento al grupo completo.
+- **Dejar la eliminatoria para el final.** Cuando ya están pasando por ellos, la final se queda sin público.
+- **Olvidar la sombra y el agua.** Correr cansa más que brincar; pon garrafón y vasos junto a la fila.
+- **Rebasar la capacidad porque «ya estaban formados».** La cifra se confirma al cotizar y se respeta en cada turno.
 
-Vale decirlo claro: no ofrecemos seguro de responsabilidad civil. Lo que sí entregamos es equipo revisado y sanitizado, instalación con anclaje verificado y motor profesional durante todo el evento. Si tienes más dudas sobre la operación del día, las [preguntas frecuentes sobre la renta](/preguntas-frecuentes/) cubren casi todas.
+Vale decirlo claro: no ofrecemos seguro de responsabilidad civil. Lo que sí entregamos es equipo revisado y sanitizado, instalación con anclaje verificado y motor profesional durante todo el evento. Para el resto de tus dudas de operación, las [preguntas frecuentes sobre la operación del día](/preguntas-frecuentes/) cubren casi todo.
 
-## Aparta la fecha de la fiesta de 10 años
+## Aparta la fecha del cumpleaños número 10
 
-Escríbenos por WhatsApp al **55 3128 1706** con la fecha, la zona y el número aproximado de niños, o usa la [cotización en línea](/cotizar/). Te confirmamos precio, disponibilidad y capacidad del circuito para tu espacio. La fecha se aparta con **50% de anticipo** y atendemos de lunes a domingo de 8:00 a 20:00.
+Los fines de semana se llenan, y la disponibilidad se confirma por WhatsApp. Si ya tienes fecha y lugar, apartarla hoy te quita una preocupación. Te deja el resto del mes para lo divertido: la lista, los premios y la cartulina de récords.
 
-El precio es neto, **$2,500** por evento con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA. El traslado se cobra según zona: la entrega sin costo adicional aplica sólo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco, y el resto lo puedes revisar en las [zonas de cobertura y traslado](/cobertura/). Consulta el [precio y disponibilidad del Extremo](/inflables/extremo/) o compara con la [lista de precios de los ocho modelos](/precios/) antes de decidir. Si después necesitas mover la fecha, revisa la [política de cancelación y cambios de fecha](/politica-de-cancelacion/).
+Para cotizar en un solo mensaje, mándanos:
+
+- La fecha y la hora de inicio de la fiesta.
+- La alcaldía o municipio, por ejemplo Coyoacán, Tlalpan o Naucalpan.
+- El tipo de superficie: pasto, tierra o concreto.
+- Las edades y la cantidad aproximada de niños, incluidos los hermanos chicos.
+
+La fecha se aparta con 50% de anticipo. El Extremo cuesta **$2,500** por evento, precio neto con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona, con entrega sin costo adicional sólo en zonas seleccionadas de la [cobertura de traslado en CDMX y Estado de México](/cobertura/). Antes de decidir puedes revisar el [precio y la galería del Extremo](/inflables/extremo/), la [lista de precios de los ocho modelos](/precios/) y la [política de cancelación y cambios de fecha](/politica-de-cancelacion/).
+
+Pide tu [cotización en línea para la fiesta de 10 años](/cotizar/) o [escríbenos directo por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Extremo%20para%20la%20fiesta%20de%2010%20anos%20de%20mi%20hijo).

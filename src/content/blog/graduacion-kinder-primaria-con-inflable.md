@@ -1,94 +1,103 @@
 ---
-title: "Graduación de kínder con inflable: guía para el comité"
-h1: "Graduación de kínder o primaria con inflable: logística del festejo en la escuela o en un jardín"
-description: "Graduación de kínder o primaria con inflable: cómo coordinar al comité de padres, el horario de la ceremonia, la factura y cuándo sumar el Extremo."
-excerpt: "Toga, birrete, discursos y luego un patio lleno de niños sin nada que hacer. Así organiza el comité de padres el festejo de graduación con un inflable que va con la ceremonia."
+title: "Graduación de kínder: ¿cómo organizar el festejo con inflable?"
+h1: "Graduación de kínder o primaria con inflable: logística del festejo para el comité de padres, de la ceremonia a la factura"
+description: "Graduación de kínder o primaria con inflable: dónde instalarlo, cómo encaja con la ceremonia, cuándo sumar el Extremo y cómo pedir factura. Aparta tu fecha."
+excerpt: "Te tocó el comité de padres y la graduación es en junio. Aquí tienes la logística del inflable: escuela o jardín, horarios, anticipo entre familias y factura."
 publishDate: "2026-10-01"
 updatedDate: "2026-10-01"
 category: "Castillo Blanco"
 author: "Equipo BRINCOLINS"
 readTime: "11 min"
 heroImage: "/img/inflables/castillo-blanco/alquiler-inflable-blanco-bodas-rosas-cdmx.avif"
-heroImageAlt: "Inflable blanco con arreglos de rosas, montado al aire libre para el festejo de una graduación de kínder"
+heroImageAlt: "Castillo inflable blanco sobre pasto entre arreglos florales, frente a una construcción con arcos"
 galleryImages:
-  - "/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif"
-  - "/img/inflables/castillo-blanco/brincolin-blanco-bodas-decoracion-globos.avif"
   - "/img/inflables/castillo-blanco.avif"
+  - "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-decoracion.avif"
+  - "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-terraza-cdmx.avif"
 intro:
-  - "La graduación es el único evento escolar con ceremonia formal: toga, birrete, discursos, entrega de diplomas y fotos con la maestra. Cuando termina, hay un grupo completo de niños que llevan una hora sentados y un comité de padres que tiene que resolver qué sigue."
-  - "Esta guía es para ese comité. Explica **cómo organizar el festejo de la graduación de kínder o primaria con un inflable**: dónde se instala, cómo se acomoda con el horario de la ceremonia, quién firma, cómo se pide la factura y cuándo conviene sumar el **Extremo** al **Castillo Blanco**, que recibe niños de **3 a 12 años**."
+  - "Te tocó el comité de padres. La escuela ya fijó la fecha de la ceremonia, el chat del grupo no para y alguien propuso un inflable para el festejo. Ahora te toca resolverlo."
+  - "Esta guía te da la logística completa: **escuela o jardín**, cómo encaja el inflable con el horario de la ceremonia, **cuándo sumar el Extremo para primaria**, cómo reunir el anticipo entre familias y qué pedir para la factura."
 tags:
   - "graduación de kínder"
   - "graduación de primaria"
   - "castillo blanco"
   - "eventos escolares"
+  - "comité de padres"
 faqs:
-  - question: "¿Qué inflable se renta para una graduación de kínder?"
-    answer: "El Castillo Blanco es el modelo que recomendamos para graduaciones, porque su color va con la toga, los diplomas y la decoración formal. Es para niños de 3 a 12 años, mide 5 × 7 × 4 m y se instala sólo en exterior, con 4.7 m de altura libre."
-  - question: "¿Se puede instalar el inflable en el patio de la escuela?"
-    answer: "Sí, si la dirección lo autoriza y el patio cumple los requisitos: área a cielo abierto, superficie plana y despejada, sin objetos punzantes, y toma de corriente de 110 V a menos de 20 m. Bajo techumbre o arcotecho no se instala el Castillo Blanco."
-  - question: "¿El comité de padres puede pedir factura?"
-    answer: "Sí. Los precios son netos y, si se requiere factura, se agrega 16% de IVA. Conviene decidir quién recibe la factura y avisarlo desde la cotización, para que el anticipo y el pago final se hagan con los mismos datos."
-  - question: "¿Cuándo conviene rentar el Extremo además del Castillo Blanco?"
-    answer: "En graduaciones de primaria con niños grandes que quieren competir. El Extremo es un circuito de 8 m con pista de obstáculos, tobogán doble y doble carril, para niños de 3 a 12 años. El Castillo Blanco queda para los más chicos y para las fotos."
-  - question: "¿Con cuánto tiempo hay que apartar para junio o julio?"
-    answer: "En cuanto la escuela confirme la fecha de la ceremonia. Muchas escuelas gradúan en las mismas semanas y las fechas se ocupan. La fecha se aparta con 50% de anticipo."
-  - question: "¿Quién supervisa a los niños durante el festejo?"
-    answer: "Una persona adulta designada por el comité, durante todo el evento, y de preferencia un rol rotativo entre papás. Nosotros instalamos, verificamos el anclaje y dejamos el motor funcionando, pero no cuidamos a los niños ni ofrecemos seguro de responsabilidad civil."
+  - question: "¿Cuánto cuesta rentar un inflable para una graduación de kínder?"
+    answer: "El Castillo Blanco cuesta $2,600 netos por evento y el Extremo $2,500, ambos con instalación y recolección incluidas. Si el comité necesita factura se agrega 16% de IVA, y el traslado se cobra según la zona de la escuela o del jardín. La fecha se aparta con 50% de anticipo."
+  - question: "¿Se puede instalar un inflable en el patio techado de la escuela?"
+    answer: "El Castillo Blanco y el Extremo no, porque se instalan sólo en exterior, a cielo abierto. El Castillo Blanco necesita 4.7 m de altura libre y el Extremo 4.5 m, sin techumbre, arcotecho ni cables encima. Si el patio está techado completo, el festejo tendría que moverse a un jardín."
+  - question: "¿Quién se hace responsable de los niños durante el festejo de graduación?"
+    answer: "La escuela o el comité, que debe designar adultos para supervisar durante todo el evento. Nosotros instalamos con anclaje verificado y dejamos el motor profesional encendido, pero no cuidamos a los niños ni incluimos póliza de responsabilidad civil. Conviene definir los nombres de los supervisores antes del día."
+  - question: "¿El inflable sirve también para niños de sexto de primaria?"
+    answer: "Sí. El Castillo Blanco y el Extremo son para niños de 3 a 12 años, así que cubren desde kínder hasta sexto. Para primaria conviene el Extremo, con circuito de obstáculos, tobogán doble y doble carril para competencias, porque a los grandes les gusta competir más que brincar."
+  - question: "¿Pueden pagar varias familias el anticipo del inflable?"
+    answer: "Lo práctico es que una sola persona o la asociación de padres haga el pago. El comité reúne la cooperación por su cuenta y después paga el 50% de anticipo desde una sola cuenta. Así la factura, los comprobantes y la comunicación con el proveedor quedan claros para todos."
+  - question: "¿A qué hora llegan a instalar si la ceremonia es temprano?"
+    answer: "La hora se acuerda al confirmar, según el horario de acceso que permita la escuela. El Castillo Blanco y el Extremo tardan 30 minutos cada uno en instalarse, más el tiempo de llegada. Lo ideal es que queden listos antes de que empiece la ceremonia para no cruzar el acto."
 ---
 
-La graduación de kínder es el primer evento formal en la vida escolar de un niño, y el festejo posterior suele quedar a cargo del comité de padres. El problema casi nunca es el inflable: es coordinar a muchas familias, a la escuela y al horario de la ceremonia sin que nada choque. Aquí está la logística completa, paso a paso.
+Son las nueve de la noche y el chat del comité tiene cien mensajes sin leer. La directora pidió que todo termine antes de la salida, una mamá quiere globos dorados y otra pregunta si se puede brincar con toga. Tú sólo querías ayudar.
 
-## ¿Por qué una graduación de kínder se festeja distinto a un fin de cursos?
+Organizar la **graduación de kínder** con inflable no tiene por qué ser un caos. Aquí tienes la logística completa: dónde instalar, cómo encaja con la ceremonia, cuándo conviene un segundo modelo para primaria, cómo juntar el anticipo y qué pedir para la factura.
 
-Porque tiene ceremonia. Un fin de cursos es una fiesta informal desde el primer minuto: los niños llegan con ropa cómoda, juegan, comen y se van. Una graduación de kínder empieza con un acto formal, con toga o uniforme de gala, discursos, entrega de documentos y fotos oficiales, y sólo después llega el festejo.
+Todo en orden. Para que tu chat del comité por fin descanse. Y para que tú también disfrutes la ceremonia de tu hijo.
 
-Eso cambia tres cosas. Cambia el horario, porque el inflable no puede abrir mientras hay acto. Cambia la estética, porque un inflable de colores al fondo de las fotos de la ceremonia desentona. Y cambia la organización, porque casi siempre decide un comité y no una sola familia.
+> **Respuesta rápida:** Para una graduación de kínder con festejo formal, el [Castillo Blanco para graduaciones formales](/inflables/castillo-blanco/) recibe a niños de 3 a 12 años, mide 5 × 7 × 4 m y cuesta $2,600 netos por evento, con instalación y recolección incluidas. Necesita un área a cielo abierto con 4.7 m de altura libre. Si es primaria, puedes sumar el Extremo ($2,500). Con factura se agrega 16% de IVA.
 
-Si lo que estás organizando es la fiesta informal del último día de clases, la guía que te sirve es la de la [fiesta de fin de cursos](/blog/renta-inflable-jungla-cdmx/), donde resolvemos turnos, espacio y temática para un grupo mixto. Esta guía es para el caso formal.
+## ¿Qué distingue una graduación de kínder de una fiesta de fin de cursos?
 
-## ¿Dónde se hace el festejo: en la escuela o en un jardín?
+La formalidad y el público. En una graduación tienes ceremonia, togas, fotos de grupo y familias completas vestidas para la ocasión. En un fin de cursos el ambiente es más relajado. Por eso tu inflable de graduación tiene que verse bien en la foto oficial.
 
-Las dos opciones funcionan, pero piden cosas distintas. La decisión suele tomarla la escuela, y el comité trabaja con lo que haya.
+En el fin de cursos puedes elegir un modelo de colores y nadie se queja. ¿Es tu caso? La guía sobre [cómo organizar una fiesta de fin de cursos](/blog/renta-inflable-jungla-cdmx/) resuelve ese caso, con turnos para grupos grandes y temáticas mixtas.
+
+En la graduación cambian tres cosas. Hay un acto que no se puede interrumpir. Hay una dirección que pone reglas. Y estás tú, en un comité que responde ante todas las familias.
+
+¿Tu evento es más kermesse que graduación? Entonces te sirve más el [checklist para organizar una kermesse escolar](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/), con fases y proveedores.
+
+## ¿Conviene festejar en el patio de la escuela o en un jardín?
+
+Las dos opciones funcionan, pero te piden cosas distintas. El patio evita traslados y aprovecha que todos ya están ahí; el jardín te da más espacio y menos reglas. Casi siempre decide la escuela, y tú trabajas con lo que haya disponible.
 
 ### En el patio de la escuela
 
-Es la opción más práctica, porque la ceremonia ya está ahí y no hay traslados de familias. El Castillo Blanco se instala sólo en exterior, así que necesita un área del patio **a cielo abierto**, con **4.7 m de altura libre** y sin techumbre ni arcotecho encima. Si el patio está techado completo, el Castillo Blanco no es opción ahí.
+Es lo más práctico. La ceremonia ya está ahí. Nadie maneja después. El Castillo Blanco se instala sólo en exterior, así que necesitas un área del patio a cielo abierto, con 4.7 m de altura libre y sin techumbre ni arcotecho encima. ¿Tu patio está techado completo? Entonces ahí no va.
 
-#### Lo que hay que preguntar a la dirección
+#### Lo que tienes que preguntar a la dirección
 
-- Si la escuela permite instalar inflables y en qué área.
-- Dónde hay una toma de 110 V a menos de 20 m del punto de instalación.
-- A qué hora puede entrar el equipo y por dónde, para no cruzar el acto.
-- Si hay reglas internas sobre proveedores externos que haya que cumplir.
+- **Si permite inflables y en qué área.** Sin ese sí por escrito, no conviene apartar.
+- **Dónde hay una toma de 110 V.** Tiene que estar a menos de 20 m del punto de instalación.
+- **A qué hora puede entrar el equipo y por dónde.** Así la instalación no cruza el acto ni el paso de las familias.
+- **Si hay reglas para proveedores externos.** Algunas escuelas piden registro previo o identificación del personal.
 
-Esas decisiones son de la escuela, no del comité ni nuestras. Conviene tenerlas por escrito antes de apartar.
+### En un jardín de eventos o en casa de una familia
 
-### En un jardín o salón con jardín
+Cuando la escuela no tiene espacio o no permite inflables, el festejo se mueve a un jardín. Es más cómodo para el juego, pero te obliga a coordinar el traslado de todos después de la ceremonia. Si tienes una familia con jardín amplio dispuesta a prestarlo, pregunta primero ahí.
 
-Cuando la escuela no tiene espacio o no permite inflables, el festejo se mueve a un jardín de eventos o a la casa de una familia con jardín amplio. Es más cómodo para el festejo, pero exige coordinar el traslado de todos después de la ceremonia.
+#### Lo que tienes que confirmar con el lugar
 
-#### Lo que hay que confirmar con el lugar
+- **Que acepte inflables.** Y que el área tenga 4.7 m de altura libre, sin ramas ni cables.
+- **Que la superficie sea plana.** Sin vidrio, piedras sueltas ni objetos punzantes.
+- **Que haya acceso para el equipo.** Y una toma de corriente cerca del área.
 
-- Que el jardín acepte inflables y que el área tenga 4.7 m de altura libre.
-- Que la superficie sea plana, despejada y sin vidrio ni objetos punzantes.
-- Que haya acceso para el equipo y una toma de corriente cerca.
+## ¿Por qué un castillo blanco encaja con toga, birrete y fotos de grupo?
 
-## ¿Por qué el Castillo Blanco encaja en una ceremonia formal?
+Porque no compite con la ceremonia. Un inflable de colores en el fondo de tu foto oficial distrae; uno blanco se integra con la decoración de flores, globos claros y manteles. Además, recibe a niños de 3 a 12 años, así que cubre de kínder a sexto.
 
-Porque se ve como parte del evento y no como un juego de cumpleaños. El blanco repite el color de los diplomas y de las flores, y combina con togas y uniformes de gala de cualquier color. En las fotos grupales, el castillo queda como fondo limpio en lugar de una mancha de colores.
+Imagina la foto del grupo con togas azules frente al castillo. El blanco hace que los niños resalten. Si el fondo fuera rojo y amarillo, tu foto se vería como cualquier cumpleaños. Y esa foto la van a guardar todas las familias.
 
-Los datos que el comité necesita para decidir: mide **5 × 7 × 4 m**, es para niños de **3 a 12 años**, se instala en **30 minutos** y cuesta **$2,600 MXN** netos por evento. El detalle completo y las fotos están en la [ficha técnica del Castillo Blanco](/inflables/castillo-blanco/). La capacidad por turno y el espacio libre alrededor se confirman al cotizar, con las medidas reales del patio o del jardín.
+![Graduación de kínder al aire libre: castillo inflable blanco en jardín con cortinas, flores y mesas](/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif)
 
-![Brincolín blanco con decoración de globos, montado para el festejo de una graduación de kínder](/img/inflables/castillo-blanco/brincolin-blanco-bodas-decoracion-globos.avif)
+¿Quieres ver cómo se integra un castillo blanco en eventos formales más grandes? Revisa la [guía de zona infantil con Castillo Blanco en bodas](/blog/renta-castillo-blanco-inflable-bodas-cdmx/). Para decorar en tonos claros, la [decoración neutra o boho con inflable blanco](/blog/fiesta-infantil-all-white-boho-decoracion/) te da paletas listas.
 
-El mismo criterio estético lo aplicamos en eventos familiares formales, como [la logística de una primera comunión con inflable](/blog/primera-comunion-con-inflable-cdmx/) o [cómo se arma la recepción de una presentación de 3 años](/blog/presentacion-de-3-anos-recepcion-con-inflable/). Y si el comité quiere decorar el área con una paleta neutra, en la guía de [fiesta infantil en blanco o boho](/blog/fiesta-infantil-all-white-boho-decoracion/) hay combinaciones que funcionan con el castillo.
+> **¿El comité ya tiene fecha?** Mándanos el día, la alcaldía de la escuela y si es kínder o primaria; te decimos qué modelo conviene y si está libre. [Cotizar inflable para graduacion](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20somos%20el%20comite%20y%20queremos%20cotizar%20el%20Castillo%20Blanco%20para%20una%20graduacion%20de%20kinder)
 
-## ¿Cuándo conviene sumar el Extremo para primaria?
+## ¿Cuándo sumar el Extremo para una graduación de primaria?
 
-En kínder, un castillo basta: los niños de 5 y 6 años quieren brincar, no competir. En primaria cambia. Los de sexto quieren carreras, retos y algo que no parezca "de chiquitos", y el castillo solo se les queda corto en emoción, aunque estén dentro de su rango de edad.
+Cuando el grupo es de primaria y quieres que los grandes tengan su propio reto. El [Extremo, circuito de obstáculos con doble carril](/inflables/extremo/), recibe a niños de 3 a 12 años y les da algo que el castillo no: competir. El Castillo Blanco se queda para la foto y para los más chicos.
 
-Esta tabla compara los dos modelos para que el comité vea qué aporta cada uno:
+Esta tabla compara los dos modelos para un festejo escolar. La conclusión práctica: en kínder basta el castillo; en primaria, la combinación cubre dos estilos de juego.
 
 | Dato | Castillo Blanco | Extremo |
 |---|---|---|
@@ -97,91 +106,91 @@ Esta tabla compara los dos modelos para que el comité vea qué aporta cada uno:
 | Edades | 3 a 12 años | 3 a 12 años |
 | ¿Interiores? | No, sólo exterior | No, sólo exterior |
 | Instalación | 30 min | 30 min |
-| Precio neto | $2,600 | $2,500 |
-| Tipo de juego | Castillo para brincar | Circuito con obstáculos, tobogán doble y doble carril |
+| Precio neto por evento | $2,600 | $2,500 |
+| Estilo de juego | Brincar; blanco para eventos formales | Pista de obstáculos, tobogán doble y doble carril |
 
 ### Kínder: un solo castillo
 
-Para una graduación de kínder, el Castillo Blanco cubre todo. Organiza turnos cortos por salón o por mesa de familias, y asigna a una mamá o un papá por turno.
+En kínder los niños quieren brincar, no competir. Un Castillo Blanco con turnos organizados te basta. Te ahorra presupuesto y espacio. Y tu foto sale limpia.
 
 ### Primaria: dos estilos de juego
 
-Para primaria, la combinación que funciona es el Castillo Blanco para los grados bajos y los hermanos menores, y el [circuito Extremo de 8 metros](/inflables/extremo/) para los grados altos, con carreras de doble carril. Así cada grupo tiene su zona y no hay niños de 12 brincando junto a niños de 6. Recuerda que ambos van sólo en exterior y necesitan su propio espacio; la viabilidad de instalar los dos se confirma al cotizar.
+En primaria la diferencia de edades pesa. Los de primero quieren brincar; los de sexto quieren ganarle al amigo en el doble carril. Con los dos modelos, cada grupo encuentra su lugar. Nadie se aburre. ¿Cuántos niños por turno en cada uno? Eso te lo confirmamos al cotizar.
 
-Si en el festejo hay hermanos de 1 a 3 años, ninguno de los dos modelos es para ellos. Su opción es el [Castillo Baby para hermanos pequeños](/inflables/mini-castillo/), en una zona aparte.
+## ¿Cómo se organiza el comité de padres para apartar y pagar?
 
-## ¿Cómo se organiza el comité de padres para rentar el inflable?
-
-El mayor riesgo en una renta escolar no es técnico: es que cinco papás pregunten lo mismo por separado, nadie sepa quién apartó y el día del evento no haya responsable. Se evita con tres decisiones.
+Con una persona que decide, una que paga y un solo contacto con el proveedor. Si cinco papás escriben por separado, las cotizaciones se cruzan y nadie sabe qué se apartó. Define los roles antes de escribirnos. Te ahorras muchos mensajes.
 
 ### Quién decide y quién firma
 
-El comité o la mesa directiva elige el modelo en reunión, con los datos de la cotización en la mano. Una vez decidido, una sola persona aparta, paga el anticipo y recibe las confirmaciones. Las votaciones por grupo de WhatsApp con cuarenta familias no terminan nunca; conviene que el comité decida con poder delegado.
+El comité vota el modelo y el presupuesto. Después, una sola persona confirma con nosotros. Si eres tú, ten a la mano la fecha, el horario permitido por la escuela y el contacto de quien recibirá al equipo.
 
 #### Un solo contacto con el proveedor
 
-Designa a una persona como contacto único con nosotros: es quien manda la fecha, la dirección, las medidas del patio y los datos de factura, y quien nos recibe el día del evento. Si hay cambios, pasan por ella. Esto evita confusiones con horarios y direcciones.
+Nombra a una persona y comparte su número en el grupo. Todo pasa por ahí. Cotización, anticipo, dudas y confirmación final. Si hay cambios de horario, ella te avisa a ti y a nosotros.
 
 ### Cómo se reúne el anticipo
 
-La fecha se aparta con el **50% de anticipo**. El comité debe tener ese monto reunido antes de pedir la fecha, no después; si la cooperación de las familias se retrasa, la fecha puede ocuparse. El resto se paga según lo acordado en la cotización. Antes de juntar dinero, revisen juntos las [condiciones de cancelación](/politica-de-cancelacion/), para que todas las familias sepan qué pasa si la escuela mueve la fecha.
+La fecha se aparta con 50% de anticipo. Lo práctico es que tu comité junte la cooperación por su cuenta y que una sola persona o la asociación de padres haga el pago. Así los comprobantes y la factura quedan claros para todos. ¿Falta alguna familia por cooperar? Aparta igual y completa después.
 
-Si la escuela ya organizó antes una kermesse con inflables, el [checklist para organizar una kermesse escolar](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/) tiene una estructura por fases que el comité puede adaptar a la graduación.
+## ¿Cómo encaja el inflable con el horario de la ceremonia?
 
-## ¿Cómo se acomoda el inflable con el horario de la ceremonia?
+Se instala antes de que empiece el acto y se abre cuando termina. Así el equipo no cruza la ceremonia, el motor no suena durante los discursos y tus niños llegan al juego con la emoción de haber recibido su diploma. La hora exacta la acuerdas tú con la escuela.
 
-La regla de oro: el inflable no compite con el acto. El motor trabaja de forma continua durante todo el evento y no se apaga entre momentos, así que se planea con distancia y con horario.
+### Ceremonia por la mañana
 
-| Momento | Qué pasa con el inflable |
-|---|---|
-| Antes de la ceremonia | Instalación en 30 minutos, lejos del escenario y de los micrófonos |
-| Durante la ceremonia | Inflado, pero cerrado y con una persona adulta en la entrada |
-| Fotos oficiales | Cerrado; se aprovecha como fondo para la foto de grupo |
-| Festejo | Abierto, con turnos por salón o por edad |
-| Comida | Cerrado mientras se sirve |
-| Cierre | Recolección al final del evento |
+Imagina un acto a las 10:00 en el patio. El equipo entra antes, instala en 30 minutos en el área acordada y deja el castillo listo. Cuando terminan las fotos, tú das la señal y se abre. El motor profesional sigue encendido todo el evento.
 
-![Castillo Blanco inflable con decoración formal, instalado para el festejo posterior a la ceremonia de graduación](/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-decoracion.avif)
+![Castillo inflable blanco frente a un edificio de arcos, con arreglos florales a ambos lados](/img/inflables/castillo-blanco/brincolin-blanco-bodas-decoracion-globos.avif)
 
-Si la ceremonia es en el mismo patio, la instalación tiene que terminar antes de que lleguen las familias, y el castillo debe quedar en el extremo opuesto al escenario. La misma lógica de horarios y ruido que aplicamos en bodas está desarrollada en la guía sobre la [operación de una zona infantil en bodas](/blog/renta-castillo-blanco-inflable-bodas-cdmx/). El precio es por evento, así que el comité no tiene que calcular horas de renta.
+### Ceremonia por la tarde o festejo en jardín
 
-## ¿Qué datos necesita la escuela o el comité para la factura?
+Si el festejo es en un jardín, instalamos antes de que lleguen las familias. Alguien del comité nos recibe y nos muestra la toma de corriente. El precio es por evento. No tienes que calcular horas.
 
-En eventos escolares casi siempre se pide factura, porque el dinero es de varias familias y el comité tiene que rendir cuentas. Lo que conviene saber:
+## ¿Qué necesita el comité para pedir factura del inflable?
 
-- **Los precios del catálogo son netos.** Si se requiere factura, se agrega **16% de IVA** al monto.
-- **Avisa desde la cotización.** Así el monto con IVA queda claro antes de reunir la cooperación.
-- **Define quién recibe la factura.** Puede ser la asociación de padres, la escuela o la persona que paga; esa decisión la toma el comité con la dirección.
+Avisar desde la cotización y tener claro a nombre de quién se emite. En eventos escolares la factura casi siempre hace falta, porque el dinero es de varias familias y tu comité rinde cuentas. Resuélvelo al principio y evitas recalcular la cooperación.
+
+- **Los precios del catálogo son netos.** Si necesitas factura, se agrega 16% de IVA al monto.
+- **Avisa desde la cotización.** Así el total con IVA queda claro antes de reunir el dinero.
+- **Define quién recibe la factura.** Puede ser la asociación de padres, la escuela o quien paga; lo decide el comité con la dirección.
 - **Un solo pagador.** El anticipo y el pago final conviene hacerlos desde la misma cuenta y con los mismos datos.
 
-Para el resto de dudas sobre pagos, instalación y requisitos, revisa las [dudas frecuentes sobre la renta](/preguntas-frecuentes/).
+¿Te quedan dudas de pagos, instalación o requisitos? Revisa las [preguntas frecuentes sobre pagos e instalación](/preguntas-frecuentes/). Antes de pagar, lee también las [condiciones de cancelación que conviene compartir con el comité](/politica-de-cancelacion/).
 
-## ¿Por qué hay que apartar antes de que empiece junio?
+> **Factura clara desde el día uno.** Dinos al cotizar que el comité necesita factura y te enviamos el total con IVA para que lo compartas en el grupo. Las fechas de junio y julio se llenan. [Pedir cotizacion con factura](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20necesitamos%20cotizacion%20con%20factura%20para%20inflable%20de%20graduacion%20escolar)
 
-Porque la temporada de graduaciones se concentra en junio y julio, y muchas escuelas de la misma zona festejan en las mismas semanas. Los fines de semana de esas fechas se ocupan primero.
+## ¿Por qué apartar la fecha antes de que empiece junio?
 
-El traslado se cobra según la zona. Si la escuela está en la zona poniente, revisa la página de [renta de inflables en Miguel Hidalgo](/cobertura/miguel-hidalgo/); para el resto, la [cobertura en CDMX y Estado de México](/cobertura/). La entrega sin costo adicional aplica sólo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco. En cuanto la escuela confirme la fecha, consulta la [disponibilidad del Castillo Blanco en junio y julio](/inflables/castillo-blanco/).
+Porque la temporada de graduaciones se concentra en junio y julio, y los fines de semana se llenan primero. Si tu escuela ya confirmó la fecha, no esperes a que se junte toda la cooperación: aparta con el 50% y completa después.
 
-## ¿Qué checklist debe revisar el comité el día del festejo?
+El traslado se cobra según la zona. Si tu escuela está en el poniente, revisa la [renta de inflables en Miguel Hidalgo](/cobertura/miguel-hidalgo/): en Polanco el traslado no lleva cargo adicional y en el resto de la alcaldía depende de la colonia. Para otras zonas, consulta la [cobertura en el resto de CDMX y Estado de México](/cobertura/).
 
-Imprime esta lista o compártela con la persona de contacto:
+La entrega sin cargo adicional aplica sólo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco. En cualquier otro punto, te damos el costo al cotizar.
 
-- **Permiso de la escuela o del lugar**, por escrito.
-- **Área a cielo abierto** con 4.7 m de altura libre, plana y despejada.
-- **Toma de 110 V** a menos de 20 m, identificada antes de que lleguemos.
-- **Persona de contacto** presente a la hora de la instalación.
-- **Rol de supervisión** con nombres y horarios: una persona adulta en la entrada durante todo el evento.
-- **Turnos por salón o por edad**, anunciados antes de abrir.
-- **Zapatos fuera**, togas y birretes fuera, nada en los bolsillos.
-- **Comida y bebida lejos** del inflable.
-- **Factura solicitada** desde la cotización, si se necesita.
+## ¿Qué debe revisar el comité el día de la graduación?
 
-Hay algo que el comité debe saber con claridad: no ofrecemos seguro de responsabilidad civil. Entregamos equipo revisado y sanitizado, instalación con anclaje verificado y motor profesional durante todo el evento; la supervisión de los niños es del comité y de las familias.
+Acceso, corriente, área despejada y supervisores con nombre. Si tienes esos cuatro puntos listos cuando llegamos, la instalación es rápida y el festejo arranca a tiempo. Comparte esta lista en tu grupo un día antes y asigna un responsable por punto.
 
-Una aclaración frecuente en graduaciones: los maestros y los papás no brincan. Si en la página de [inflables para eventos de adultos con área infantil](/inflables/para-adultos/) ves modelos para eventos organizados por adultos, recuerda que no rentamos inflables para adultos: quienes brincan son los niños, dentro del rango de edad de cada modelo. Si algún papá del comité organiza después la [zona infantil de un baby shower](/blog/baby-shower-con-inflable-para-ninos-invitados/), el principio es el mismo.
+- **Acceso libre para el equipo.** Puerta abierta y paso sin escalones angostos, para no retrasar la instalación.
+- **Toma de 110 V a menos de 20 m.** Si no hay, el inflable no se puede colocar donde querían.
+- **Área despejada y plana.** Sin sillas apiladas, vidrio ni objetos punzantes, porque todo eso se mueve antes de inflar.
+- **Supervisores con nombre.** Un adulto por inflable durante todo el evento; «todos estamos pendientes» no funciona.
+- **Reglas anunciadas.** Sin zapatos, sin comida ni vasos dentro, para que nadie se lastime ni manche la lona.
+- **Togas fuera.** Los niños entran sin toga ni birrete, porque la tela se enreda al brincar.
 
-## Aparta el inflable para la graduación
+Si comparas opciones para eventos formales con niños, te sirven los [inflables para eventos formales que organizan adultos](/inflables/para-adultos/); en todos los casos brincan niños dentro del rango de cada ficha. ¿Viene otra celebración en tu familia? Tenemos guías para la [primera comunión con castillo blanco](/blog/primera-comunion-con-inflable-cdmx/), la [presentación de los 3 años con dos castillos](/blog/presentacion-de-3-anos-recepcion-con-inflable/) y el [baby shower con zona para los hijos de los invitados](/blog/baby-shower-con-inflable-para-ninos-invitados/).
 
-Que la persona de contacto nos escriba por WhatsApp al **55 3128 1706** con la fecha, la dirección de la escuela o del jardín y el número aproximado de niños, o use el [cotizador en línea](/cotizar/). Respondemos con capacidad, espacio y disponibilidad confirmados. La fecha se aparta con el **50% de anticipo** y atendemos de lunes a domingo de 8:00 a 20:00.
+## Aparta el inflable de la graduación con tiempo
 
-Los precios son netos, con instalación y recolección incluidas; si el comité requiere factura se agrega 16% de IVA, y el traslado se cobra según la zona. Para comparar el Castillo Blanco con el Extremo y el resto del catálogo, revisa el [comparativo de precios](/precios/).
+Junio llega rápido y la fecha de la ceremonia ya no se mueve. Si tu comité ya votó, hoy puedes dejar apartado el juego de los niños y quitarle un pendiente al chat. Mándanos estos datos y te respondemos con disponibilidad, capacidad y espacio confirmados.
+
+- **Fecha y horario de la ceremonia**, y la hora a la que la escuela permite el acceso.
+- **Alcaldía o municipio** de la escuela o del jardín.
+- **Tipo de superficie:** patio de cemento, pasto, tierra o adoquín.
+- **Grado y cantidad aproximada de niños**, kínder o primaria.
+- **Si el comité necesita factura**, y a nombre de quién.
+
+La fecha se aparta con 50% de anticipo. Los precios son netos y por evento, con instalación y recolección incluidas; con factura se agrega 16% de IVA, y el traslado se cobra según la zona. Compara los [precios netos del catálogo](/precios/) o ve directo a [apartar el Castillo Blanco en temporada de graduaciones](/inflables/castillo-blanco/).
+
+Usa la [cotización en línea para el comité](/cotizar/) o escríbenos directo: [Apartar inflable para la graduacion](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20queremos%20apartar%20el%20Castillo%20Blanco%20para%20la%20graduacion%20de%20la%20escuela).

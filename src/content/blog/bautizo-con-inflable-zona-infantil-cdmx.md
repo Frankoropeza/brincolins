@@ -1,22 +1,20 @@
 ---
-title: "Bautizo con inflable: cómo montar la zona infantil en CDMX"
-h1: "Bautizo con inflable: zona infantil para la recepción en casa o jardín"
-description: "Organiza tu bautizo con inflable en CDMX: instalación entre misa y recepción, ubicación lejos de mesas y música, ropa de fiesta y qué modelo va por edad."
-excerpt: "Entre la misa y la recepción hay poco margen. Cómo coordinar la instalación, dónde poner la zona infantil y qué inflable va con bebés y con niños mayores."
+title: "Bautizo con inflable: zona infantil lista antes de la misa"
+h1: "Bautizo con inflable en CDMX: cómo montar la zona infantil de la recepción en casa o jardín"
+description: "Bautizo con inflable en CDMX: coordina la instalación con la misa, ubica la zona infantil lejos de la música y elige el modelo por edad. Cotiza con tu fecha."
+excerpt: "Los niños salen de misa con una hora sentados encima y ropa que no los deja moverse. Así les preparas un espacio propio para que la recepción fluya."
 publishDate: "2026-10-01"
 updatedDate: "2026-10-01"
 category: "Castillo Baby"
 author: "Equipo BRINCOLINS"
 readTime: "12 min"
 heroImage: "/img/inflables/mini-castillo/mini-castillo-exterior.avif"
-heroImageAlt: "Castillo Baby inflable instalado en exterior, listo como zona infantil para la recepción de un bautizo"
+heroImageAlt: "Entrada con rampa naranja del Castillo Baby sobre lona azul, una opción para un bautizo con inflable"
 galleryImages:
-  - "/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif"
-  - "/img/inflables/mini-castillo/mini-castillo-renta-cdmx.avif"
-  - "/img/inflables/mini-castillo.avif"
+  - "/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif"
 intro:
-  - "En un bautizo los adultos quieren comer y platicar, y los niños invitados llevan una hora sentados en la iglesia con ropa que no les deja moverse. Si no hay un lugar para ellos en la recepción, lo van a inventar entre las mesas."
-  - "Esta guía explica cómo montar una **zona infantil con inflable** en una recepción en casa o jardín: cómo coordinar la instalación con la misa, dónde ubicarla, qué hacer con la ropa de fiesta y qué modelo corresponde a cada edad, del **Castillo Baby** para los de 1 a 3 años al **Castillo Blanco** para los mayores."
+  - "En un bautizo los adultos quieren comer y platicar, y los niños llegan de la iglesia con energía guardada y ropa de ceremonia. Si no tienen un lugar propio, lo van a inventar entre las mesas."
+  - "Esta guía te ayuda a montar una **zona infantil con inflable** en una recepción en casa o jardín: cómo coordinar la instalación con la misa, dónde ubicarla, qué hacer con la ropa de fiesta y qué modelo va con cada edad, del **Castillo Baby** al **Castillo Blanco**."
 tags:
   - "bautizo con inflable"
   - "zona infantil"
@@ -24,111 +22,123 @@ tags:
   - "eventos familiares"
 faqs:
   - question: "¿El bebé bautizado puede usar el inflable?"
-    answer: "Sólo si ya tiene al menos un año. El Castillo Baby es para niños de 1 a 3 años, así que un bebé de meses no entra. En ese caso el inflable es para sus primos y los niños invitados."
-  - question: "¿A qué hora se instala el inflable si toda la familia está en misa?"
-    answer: "Antes de salir a la iglesia o con una persona adulta que se quede en casa para recibir al equipo. El Castillo Baby se instala en 15 minutos, pero la hora de llegada se acuerda al cotizar según la zona."
-  - question: "¿Qué inflable va en un bautizo elegante con niños de varias edades?"
-    answer: "Para los de 1 a 3 años, el Castillo Baby. Para los de 3 a 12 años, el Castillo Blanco, que es blanco y está pensado para eventos formales como bodas, bautizos y XV años. Muchas recepciones usan los dos."
-  - question: "¿Los niños pueden brincar con la ropa del bautizo?"
-    answer: "Sí, pero sin zapatos, sin broches ni adornos duros y sin comida en la mano. Conviene tener una zona para dejar zapatos junto a la entrada del inflable y, si es posible, una muda cómoda para los más inquietos."
+    answer: "Sólo si ya cumplió un año. El Castillo Baby es para niños de 1 a 3 años, así que un bebé de meses no entra. En ese caso el inflable es para sus hermanos, primos y los hijos de los padrinos e invitados, y el festejado lo disfruta desde los brazos de alguien."
+  - question: "¿Qué inflable combina con un bautizo elegante?"
+    answer: "El Castillo Blanco, que es blanco y está pensado para bodas, bautizos, XV años y eventos formales. Lo usan niños de 3 a 12 años y va sólo en exterior. Para los de 1 a 3 años, el Castillo Baby completa la zona infantil."
   - question: "¿Cuánto cuesta una zona infantil con inflable para un bautizo?"
-    answer: "El Castillo Baby cuesta $1,400 y el Castillo Blanco $2,600, precio neto por evento con instalación y recolección. Si necesitas factura se agrega 16% de IVA y el traslado se cobra según zona."
-  - question: "¿Se puede instalar el inflable dentro de un salón para el bautizo?"
-    answer: "El Castillo Baby sí, si el salón tiene 3.2 m de altura libre, piso plano y una toma de 110 V a menos de 20 m. El Castillo Blanco se instala sólo en exterior."
+    answer: "El Castillo Baby cuesta $1,400 y el Castillo Blanco $2,600, precio neto por evento con instalación y recolección incluidas. Si necesitas factura se agrega 16% de IVA, y el traslado se cobra según la zona de la recepción."
+  - question: "¿Se puede poner un inflable en la recepción de un bautizo en salón?"
+    answer: "El Castillo Baby sí, si el salón tiene 3.2 m de altura libre, piso plano y una toma de 110 V a menos de 20 m. El Castillo Blanco se instala sólo en exterior. Pregunta al encargado del salón si permite inflables antes de apartar."
+  - question: "¿Qué ropa conviene para los niños en un bautizo con inflable?"
+    answer: "La de la ceremonia sirve, siempre que entren sin zapatos, sin broches ni adornos duros y sin nada en las manos. Pide en la invitación una muda cómoda para los más inquietos y deja un zapatero junto a la entrada del inflable."
+  - question: "¿Se puede rentar mesa infantil para la recepción del bautizo?"
+    answer: "Sí. La mesa infantil con 10 sillas mide 1.8 × 0.5 m, es para niños de 1 a 6 años y cuesta $550 en conjunto con un inflable; sin inflable cuesta $1,600. Así los niños comen juntos, sentados y a su altura."
 ---
 
-Un bautizo con inflable resuelve el problema que casi todas las recepciones tienen y pocas planean: qué hacen los niños mientras los adultos comen. La clave está en coordinar la instalación con la misa, ubicar bien la zona infantil y elegir el modelo según la edad de quienes la van a usar. Aquí va el plan, paso por paso.
+Piensa en la salida de la iglesia. Fotos en la escalinata, abrazos, el padrino buscando las llaves. Los niños llevan una hora quietos y ya no aguantan más.
 
-## ¿Para quién es el inflable en un bautizo?
+Un bautizo con inflable resuelve lo que casi todas las recepciones dejan al aire: qué hacen los niños mientras atiendes a tus invitados. La clave está en tres decisiones que puedes tomar desde hoy: coordinar la instalación con la misa, ubicar bien la zona infantil y elegir el modelo según la edad de quienes la van a usar.
 
-La pregunta parece obvia y no lo es. En muchos bautizos el festejado tiene meses, y un bebé de meses no usa un inflable. El inflable es para los demás: hermanos, primos y los hijos de los padrinos y de los invitados.
+> **Respuesta rápida:** En un bautizo con inflable, la zona infantil se instala antes de que salgas a la iglesia y queda lista para cuando regresen los invitados. Para niños de 1 a 3 años va el [Castillo Baby para la zona infantil](/inflables/mini-castillo/), de 2.5 × 2 × 2 m y $1,400 netos por evento. Si hay varios niños de 3 a 12 años, suma el Castillo Blanco, pensado para eventos formales.
 
-Por eso conviene hacer la lista de niños por edad antes de elegir el modelo. Lo habitual es que haya dos grupos: los de 1 a 3 años, que necesitan un espacio pequeño y tranquilo, y los de 4 en adelante, que quieren brincar fuerte. El primer grupo corresponde al **Castillo Baby**: mide **2.5 × 2 × 2 m**, es para niños de **1 a 3 años** y está pensado para interiores, terrazas y espacios reducidos. La [ficha técnica del Castillo Baby](/inflables/mini-castillo/) tiene fotos, medidas y condiciones.
+## ¿Para quién es el inflable en un bautizo si el bebé tiene meses?
 
-Si el bautizo coincide con el primer año del festejado, la fiesta cambia de tono y de horario; la guía de [primer cumpleaños con Castillo Baby](/blog/renta-mini-castillo-inflable-bebes-cdmx/) explica cómo organizar ese caso sin sobrecargarlo.
+Para los demás niños: tus otros hijos, los primos y los hijos de los padrinos y de tus invitados. Si el festejado tiene meses, no usa el inflable; si ya cumplió un año, entra al Castillo Baby con los de su edad. Por eso tu lista de niños por edad va antes que la elección del modelo.
 
-![Castillo Baby inflable listo para la zona infantil de un bautizo en una recepción en CDMX](/img/inflables/mini-castillo/mini-castillo-renta-cdmx.avif)
+### Dos grupos que casi siempre aparecen
 
-## ¿Cómo se coordina la misa con la recepción?
+El primero son los de 1 a 3 años. Necesitan un espacio pequeño, tranquilo y a la vista de sus papás. El segundo son los de 4 en adelante, que quieren brincar fuerte y correr. ¿Tienes los dos en tu lista? Entonces piensa en dos espacios.
 
-El día del bautizo tiene un hueco que complica todo: la familia sale de casa a la iglesia y regresa con los invitados. El inflable tiene que estar listo cuando la gente llegue, no instalarse con los invitados mirando.
+### El Castillo Baby para los más chicos
 
-Esta tabla ordena el día en bloques, con quién se encarga de cada uno:
+Mide 2.5 × 2 × 2 m, es para niños de 1 a 3 años y está pensado para interiores, terrazas y espacios reducidos. Se instala en 15 minutos. Es compacto y no compite con la decoración. Si tu jardín es chico, sirve igual.
+
+Si el bautizo coincide con el primer año del festejado, la fiesta cambia de tono y de horario; la guía de [cómo festejar el primer año con Castillo Baby](/blog/renta-mini-castillo-inflable-bebes-cdmx/) te ayuda a juntar los dos motivos sin sobrecargar el día.
+
+## ¿Cómo coordinas la misa con la instalación del inflable?
+
+Con la instalación hecha antes de salir a la iglesia, o con una persona adulta que se quede en casa para recibir al equipo. El Castillo Baby se instala en 15 minutos, pero la hora de llegada se acuerda al cotizar según tu zona y la hora de la ceremonia. Así nadie instala con tus invitados mirando.
+
+Esta tabla ordena el día en bloques y te dice quién se encarga de cada uno; la conclusión práctica es que la zona infantil queda lista antes de la misa y abre sólo cuando llegan los invitados:
 
 | Momento | Qué pasa | Quién se encarga |
 |---|---|---|
-| Mañana, antes de la misa | Área despejada, contacto probado, zapatero listo | La familia |
+| Mañana, antes de la misa | Área despejada, contacto probado, zapatero listo | Tu familia |
 | Llegada del equipo | Instalación con anclaje verificado | Nuestro equipo, con una persona adulta que recibe |
 | Misa | Inflable instalado y sin uso | Nadie entra hasta que abra la zona |
 | Llegada de invitados | Se abre la zona infantil | Primer adulto supervisor |
 | Comida | Turnos ordenados o zona cerrada | Supervisores por relevos |
 | Fin del evento | Recolección | Nuestro equipo, con una persona adulta presente |
 
-### Instalación antes de salir a la iglesia
+### Instalar antes de salir a la iglesia
 
-Lo más sencillo es que el equipo llegue antes de la misa. El Castillo Baby se instala en **15 minutos**, así que no hace falta mucho margen, pero sí puntualidad. La hora de llegada se acuerda al cotizar según tu zona y la hora de la ceremonia.
+Es lo más sencillo para ti. No necesitas mucho margen, pero sí puntualidad. Y si la misa se retrasa, no te afecta: la zona infantil ya está lista.
 
-### Si nadie se queda en casa
+### Si toda la familia va a misa
 
-Cuando toda la familia va a la iglesia, hay que dejar resuelto quién recibe. No instalamos sin una persona adulta presente, y eso no cambia el día del evento.
+Necesitas a alguien que reciba. No instalamos sin una persona adulta presente, y eso no cambia el día del evento.
 
 #### Quién recibe al equipo
 
-Un familiar, una vecina de confianza o la persona que ayuda con la comida. Tiene que conocer el punto exacto de instalación y saber dónde está el contacto.
+Un familiar, una vecina de confianza o la persona que te ayuda con la comida. Tiene que conocer el punto exacto de instalación y saber dónde está el contacto.
 
-#### Llaves, caseta y estacionamiento
+#### Caseta, llaves y estacionamiento
 
-Si vives en privada o condominio, deja aviso en caseta con el nombre del servicio y la hora. Un lugar para descargar cerca de la entrada acorta la maniobra.
+Si vives en privada o condominio, deja aviso en caseta con el nombre del servicio y la hora. Si tienes un lugar para descargar cerca de la entrada, la maniobra se acorta. ¿Las llaves? Que las tenga quien recibe, no quien va a la iglesia.
 
-#### Qué pasa si la misa se retrasa
+## ¿Dónde va la zona infantil respecto a mesas, música y postres?
 
-Nada, si la instalación ya está hecha. Por eso conviene instalar antes y no después: el retraso de la ceremonia ya no afecta a la recepción.
-
-## ¿Dónde se coloca la zona infantil respecto a mesas y música?
-
-La ubicación decide si la zona infantil ayuda o estorba. Un inflable mal puesto termina con niños corriendo entre las mesas de los abuelos o con la bocina a dos metros de los más pequeños.
+Lejos de las bocinas, a la vista de las mesas de los papás y separada de la mesa de postres. La ubicación decide si la zona infantil te ayuda o te estorba: mal puesta, termina con niños corriendo entre los abuelos o con la bocina a dos metros de los más pequeños. Ubícala con calma.
 
 ### Lejos de bocinas y pista
 
-La música de una recepción suele ir fuerte. Pon la zona infantil en el extremo contrario a las bocinas y a la pista, para que los niños escuchen a quien los supervisa y los adultos puedan platicar.
+La música de tu recepción va a ir fuerte. Pon la zona infantil en el extremo contrario, para que los niños escuchen a quien los cuida y los adultos puedan platicar. Todos ganan.
 
-### A la vista de las mesas de los papás
+### A la vista de los papás
 
-Los papás de niños de 1 a 3 años quieren ver a sus hijos sin levantarse cada cinco minutos. Ubica el inflable donde lo vean desde sus mesas, pero no en medio del paso de meseros ni junto a la entrada.
+Los papás de niños de 1 a 3 años quieren verlos sin levantarse cada cinco minutos. Ubica el inflable donde lo vean desde sus mesas, pero fuera del paso de meseros y de la entrada. Te lo van a agradecer.
 
-#### Separada de la mesa de postres
+#### Separada de los postres
 
-Los niños con dulces en la mano no deben entrar al inflable, y si la mesa de postres está a un paso, entran. Deja una distancia clara entre la comida y la zona de juego.
+Un niño con un dulce en la mano no debe entrar al inflable. Si la mesa de postres está a un paso, va a entrar. Deja una distancia clara entre comida y juego. Te ahorras manchas.
 
 ### Condiciones del lugar
 
-La superficie tiene que ser plana y despejada, sin vidrio ni objetos punzantes, y con una toma de **110 V a menos de 20 m**. En jardín, revisa que no haya aspersores, piedras ni raíces salidas en el área.
+La superficie tiene que ser plana y despejada, sin vidrio ni objetos punzantes, con una toma de 110 V a menos de 20 m. Si tienes jardín, revisa que no haya aspersores, piedras ni raíces salidas en el área.
 
-## ¿Qué reglas de ropa y zapatos aplican en la zona infantil del bautizo?
+![Castillo Baby compacto con torres de colores instalado en pasto sintético junto a un muro blanco](/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif)
 
-En un bautizo los niños van vestidos para la ceremonia, no para brincar. No hace falta prohibir el inflable; hace falta poner reglas sencillas y dejar todo listo para cumplirlas.
+> **Tu recepción, con la zona infantil resuelta.** Mándanos la hora de la misa y la dirección de la recepción; te proponemos la hora de instalación y te confirmamos la fecha. [Cotizar inflable para mi bautizo](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Castillo%20Baby%20para%20la%20recepcion%20de%20un%20bautizo)
 
-- **Zapatos fuera, siempre.** Coloca un zapatero o una caja junto a la entrada del inflable. Zapatos de charol, tacones de las niñas grandes y botitas se quedan ahí.
-- **Sin broches ni adornos duros.** Prendedores, diademas con piezas rígidas y moños con pasador se quitan antes de entrar.
+## ¿Cómo cuidas la ropa del bautizo dentro del inflable?
+
+Con reglas sencillas y todo preparado para cumplirlas: zapatos fuera, nada duro en la ropa y nada en las manos. En un bautizo los niños van vestidos para la ceremonia, no para brincar. No tienes que prohibir el inflable. Te basta un zapatero, una bolsa y una muda.
+
+- **Zapatos fuera, siempre.** Coloca un zapatero o una caja junto a la entrada; zapatos de charol, botitas y tacones de las niñas grandes se quedan ahí.
+- **Sin broches ni adornos duros.** Prendedores, diademas rígidas y moños con pasador se quitan antes de entrar, para que no se pierdan ni lastimen.
 - **Vestidos largos recogidos o fuera.** Un vestido largo se pisa al brincar; mejor una muda cómoda para los más inquietos.
-- **Nada en las manos.** Ni dulces, ni vasos, ni celulares.
+- **Nada en las manos.** Ni dulces, ni vasos, ni celulares; todo eso se queda en la mesa de su familia.
 - **Recuerdos y velas fuera.** Lo que se reparte en la iglesia se guarda antes de entrar a la zona infantil.
 
-Pide a las familias en la invitación que traigan una muda cómoda. Es un detalle pequeño que resuelve medio problema.
+Pide en la invitación que cada familia traiga una muda. Es un detalle pequeño. Te resuelve medio problema.
 
-## ¿Bautizo con inflable en jardín o en salón?
+## ¿Un bautizo con inflable funciona en jardín y en salón cerrado?
 
-Las dos opciones funcionan con el Castillo Baby, porque está en el [catálogo de inflables para interiores](/inflables/para-interiores/). Lo que cambia son las condiciones a revisar.
+Sí, con el Castillo Baby funciona en los dos, porque está en el catálogo de [inflables para instalar en interiores](/inflables/para-interiores/). Lo que cambia es qué revisas: en jardín, el piso; en salón, la altura. Resuelve esos dos datos y lo demás te queda igual.
 
-En **jardín** el tema es el piso: parejo, sin piedras, sin pendiente y sin agua. Si hay carpa, mide la altura bajo la carpa, porque cuenta como techo. En **salón** el tema es la altura: el Castillo Baby pide **3.2 m de altura libre**, medidos hasta el punto más bajo, incluidas lámparas y trabes.
+### En jardín
 
-Si vas a hacer la recepción en casa o en un salón cerrado, la guía de [cómo medir la altura del techo antes de rentar un inflable](/blog/inflable-para-departamento-altura-techo-cdmx/) explica dónde medir y qué hacer si el techo no alcanza.
+Tu piso tiene que estar parejo, sin piedras, sin pendiente y sin agua. Si tienes carpa, mide la altura bajo ella. Cuenta como techo.
 
-## ¿Cuándo sumar un inflable para niños mayores?
+### En salón o bajo techo
 
-Cuando en la lista hay varios niños de 4 años en adelante. El Castillo Baby no es para ellos, y si no tienen su propio espacio van a querer entrar al de los chiquitos. En un bautizo formal, el modelo para ese grupo es el [Castillo Blanco para eventos formales](/inflables/castillo-blanco/): blanco, para bodas, bautizos, XV años y eventos formales, con usuarios de 3 a 12 años.
+El Castillo Baby pide 3.2 m de altura libre, medidos hasta el punto más bajo, incluidas lámparas y trabes. Si vas a hacer la recepción en casa, la guía para [saber si tu techo da para un inflable](/blog/inflable-para-departamento-altura-techo-cdmx/) explica dónde medir y qué hacer si no alcanza. ¿Tu salón es rentado? Pregunta al encargado si permite inflables antes de pagar el lugar.
 
-Esta tabla compara los dos modelos que suelen convivir en una recepción de bautizo:
+## ¿Cuándo sumas el Castillo Blanco para los niños mayores?
+
+Cuando en tu lista hay varios niños de 4 años en adelante. El Castillo Baby no es para ellos, y si no tienen su propio espacio van a querer entrar al de los chiquitos. En un bautizo formal, el modelo para ese grupo es el [Castillo Blanco para recepciones formales](/inflables/castillo-blanco/): blanco, para niños de 3 a 12 años.
+
+Esta tabla compara los dos modelos que suelen convivir en una recepción de bautizo; la lectura rápida es que el Castillo Baby resuelve a los bebés en cualquier espacio y el Castillo Blanco pide jardín amplio:
 
 | Dato | Castillo Baby | Castillo Blanco |
 |---|---|---|
@@ -139,55 +149,65 @@ Esta tabla compara los dos modelos que suelen convivir en una recepción de baut
 | Instalación | 15 min | 30 min |
 | Precio neto por evento | $1,400 | $2,600 |
 
-### Un solo inflable o dos
+### Uno o dos inflables
 
-Si casi todos los niños tienen de 1 a 3 años, basta el Castillo Baby. Si casi todos son mayores, el Castillo Blanco. Si la lista mezcla los dos grupos, lo correcto son los dos inflables, separados entre sí y cada uno con su adulto en la entrada.
+Depende de tu lista. Si casi todos los niños tienen de 1 a 3 años, basta el Castillo Baby. Si casi todos son mayores, el Castillo Blanco. Si tu lista mezcla los dos grupos, renta los dos, separados entre sí y cada uno con su adulto en la entrada.
 
 ### Cómo se integra con la decoración
 
-El Castillo Blanco está pensado para no romper la estética de un evento formal. El repaso de [inflables en eventos formales](/blog/inflables-eventos-formales-cdmx/) explica cómo encajan en bodas, XV años y bautizos, y la guía de [zona infantil en bodas](/blog/renta-castillo-blanco-inflable-bodas-cdmx/) detalla ubicación, ruido y horarios en recepciones grandes.
+¿Te preocupan las fotos? El Castillo Blanco está pensado para no romper la estética de un evento formal. El repaso de [inflables que encajan en eventos formales](/blog/inflables-eventos-formales-cdmx/) explica cómo se ven en bodas, XV años y bautizos. Y la guía para [diseñar la zona infantil de una boda](/blog/renta-castillo-blanco-inflable-bodas-cdmx/) detalla ubicación, ruido y horarios en recepciones grandes.
 
-![Bautizo con inflable Castillo Baby como zona infantil para los primos de 1 a 3 años](/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif)
+![Castillo Baby armado sobre pasto entre árboles, con torres verde y azul y entrada de arcos amarillos](/img/inflables/mini-castillo.avif)
 
-## ¿Qué más necesita una zona infantil completa?
+## ¿Qué piezas completan la zona infantil de la recepción?
 
-El inflable es el centro, pero una zona infantil que funciona tiene tres o cuatro piezas más alrededor. Sin ellas, los niños vuelven a las mesas de los adultos en cuanto se cansan de brincar.
+Una mesa infantil, sombra, un rincón tranquilo y agua a la mano. El inflable es el centro, pero sin esas piezas alrededor los niños vuelven a las mesas de los adultos en cuanto se cansan de brincar, y tú vuelves a cuidar niños en lugar de atender invitados.
 
-- **Una mesa infantil propia.** Los niños comen mejor sentados juntos y a su altura. La mesa infantil con 10 sillas mide 1.8 × 0.5 m, es para niños de 1 a 6 años y cuesta **$550** en conjunto con un inflable.
-- **Sombra.** En jardín, ubica la zona donde no le pegue el sol de mediodía o junto a una carpa, cuidando que la carpa no quede encima del inflable.
-- **Un rincón tranquilo.** Una manta con cuentos y juguetes suaves para los que se cansan o tienen sueño. En un bautizo, muchos de los invitados de 1 a 3 años necesitan una pausa a media recepción.
+- **Una mesa infantil propia.** La mesa con 10 sillas mide 1.8 × 0.5 m, es para niños de 1 a 6 años y cuesta $550 en conjunto con un inflable; la tienes en el [mesas y sillas infantiles en renta](/servicios/mobiliario-para-fiestas/).
+- **Sombra.** En jardín, ubica la zona donde no pegue el sol de mediodía, cuidando que ninguna carpa quede encima del inflable.
+- **Un rincón tranquilo.** Una manta con cuentos y juguetes suaves para quien tiene sueño a media recepción.
 - **Agua a la mano.** Una jarra y vasos con tapa cerca de la zona, nunca dentro del inflable.
 - **Zapatero y bolsa para adornos.** Para que la ropa de la ceremonia regrese completa a casa.
 
-Si la recepción es pequeña y casi todos los niños son bebés, el [paquete fiesta bebés con Castillo Baby](/servicios/paquetes-de-fiesta/) junta el inflable, una mesa con 4 sillitas y una pintacaritas para 4 niños por **$2,100**. La pintacaritas no se vende por separado, así que sólo llega dentro de un paquete.
+¿Tu recepción es pequeña y casi todos son bebés? El [paquete fiesta bebés para la recepción](/servicios/paquetes-de-fiesta/) junta el Castillo Baby, una mesa con 4 sillitas y una pintacaritas para 4 niños por $2,100. La pintacaritas no se vende por separado.
 
-## ¿Quién supervisa la zona infantil durante la recepción?
+## ¿Quién cuida la zona infantil mientras los adultos comen?
 
-Una persona adulta durante todo el evento. Es un requisito de la renta y es lo que hace que la zona infantil funcione. En un bautizo, todos los adultos están ocupados saludando, y por eso la supervisión tiene que tener nombre y horario.
+Una persona adulta durante todo el evento, con nombre y horario. Es un requisito de la renta. Sin excepciones. Es lo que hace que la zona funcione. En un bautizo todos los adultos están ocupados saludando, y por eso la supervisión no puede quedar en «quien esté libre».
 
 ### Relevos entre familias
 
-Arma relevos de media hora entre tíos, padrinos y papás de los niños invitados. Quien supervisa se queda en la entrada, no a diez metros con un plato en la mano. Las mismas reglas de turnos que usan las estancias infantiles sirven aquí; las explicamos en la guía de [turnos por sala en un inflable para guardería](/blog/inflable-para-guarderia-estancia-infantil-cdmx/).
+Arma relevos de media hora entre tíos, padrinos y papás de los niños invitados. Quien cuida se queda en la entrada, no a diez metros con un plato en la mano. Te conviene escribir los nombres. Las mismas reglas de turnos que usan las estancias infantiles sirven aquí; están en la guía de [turnos por sala en un inflable para guardería](/blog/inflable-para-guarderia-estancia-infantil-cdmx/).
 
-### Lo que hace y no hace nuestro servicio
+### Lo que hace nuestro equipo
 
-Entregamos equipo revisado y sanitizado, instalación con anclaje verificado y motor profesional durante todo el evento. No ofrecemos seguro de responsabilidad civil, y por eso insistimos en la supervisión, en el rango de edad y en la capacidad que se confirma al cotizar.
+Entregamos equipo revisado y sanitizado, instalación con anclaje verificado y motor profesional durante todo el evento. La supervisión, el rango de edad y la capacidad que se confirma al cotizar son la otra mitad. Esa mitad te toca a ti.
 
-## ¿Qué errores se repiten en bautizos con inflable?
+> **Dos grupos de edad, una sola cotización.** Si en tu lista hay bebés y niños de 3 a 12 años, te cotizamos el Castillo Baby y el Castillo Blanco juntos. [Cotizar los dos inflables](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20Castillo%20Baby%20y%20Castillo%20Blanco%20para%20un%20bautizo)
 
-Son casi siempre los mismos, y todos se evitan con una conversación antes del día:
+## ¿Qué detalles conviene revisar la víspera del bautizo?
 
-- **Instalar con los invitados llegando.** Coordina la llegada del equipo antes de la misa.
-- **Poner el inflable junto a las bocinas.** Ni los niños escuchan ni los adultos platican.
-- **Dejar entrar a los niños grandes al Castillo Baby.** Es de 1 a 3 años; los mayores necesitan su propio espacio.
-- **Olvidar el zapatero.** Sin un lugar para dejarlos, los zapatos terminan dentro.
-- **No asignar supervisión.** Una persona adulta en la entrada durante todo el evento.
-- **Meter comida y dulces.** Se come en la mesa, nunca dentro del inflable.
+Los que, si fallan, te cambian la recepción: hora de instalación, contacto, zapatero y supervisión. Ninguno tiene que ver con el inflable. Todos se resuelven con una llamada o una caja. Repasa esta lista la noche anterior:
 
-Si este mismo año viene el cumpleaños del festejado, las [ideas para la fiesta de 2 años con inflable](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) te sirven para el siguiente festejo. Y si dudas entre modelos para los más pequeños, el [inflable para niños de 1 a 3 años comparado](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) pone lado a lado al Castillo Baby, al Gusanitos y al Castillo de Princesas.
+- **Hora de llegada del equipo confirmada.** Si choca con la misa, ajústala ese mismo día y no el domingo temprano.
+- **Bocinas en el extremo contrario.** Si la música queda junto al inflable, ni los niños escuchan ni los adultos platican.
+- **Rango de edad claro para todos.** El Castillo Baby es de 1 a 3 años; avisa a los papás de los grandes que tendrán su propio espacio o actividad.
+- **Zapatero en su lugar.** Sin un sitio para dejarlos, los zapatos terminan dentro.
+- **Relevos de supervisión escritos.** Una persona adulta en la entrada durante todo el evento, con nombres y horarios.
+- **Comida lejos de la zona.** Se come en la mesa, nunca dentro del inflable.
 
-## Cotiza la zona infantil del bautizo
+Si este año viene el cumpleaños del festejado, las [ideas para festejar los 2 años con inflable](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) te sirven para el siguiente festejo. Y si dudas entre modelos para los más pequeños, la [comparativa para niños de 1 a 3 años](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) pone lado a lado al Castillo Baby, al Gusanitos y al Castillo de Princesas.
 
-Escríbenos por WhatsApp al 55 3128 1706 con la fecha, la hora de la misa, la zona y el número aproximado de niños por edad, o usa el [formulario de cotización](/cotizar/). Te confirmamos precio, disponibilidad y hora de instalación. La fecha se aparta con el 50% de anticipo y atendemos de lunes a domingo de 8:00 a 20:00.
+## Cotiza la zona infantil de tu bautizo
 
-Los precios son netos, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA. El traslado se cobra según zona: revisa la [cobertura en Coyoacán](/cobertura/coyoacan/) o el resto de la [cobertura en CDMX y Estado de México](/cobertura/). Si quieres sumar mesa y sillas para los niños, revisa el [mobiliario infantil para fiestas](/servicios/mobiliario-para-fiestas/); los ocho modelos están en la [tabla de precios](/precios/), y puedes [apartar el Castillo Baby para el bautizo](/inflables/mini-castillo/) desde su ficha.
+Los fines de semana se llenan. La disponibilidad se confirma por WhatsApp. Te contestamos con precio y disponibilidad. Para cotizar en un solo mensaje, mándanos:
+
+- La fecha, la hora de la misa y la hora de inicio de la recepción.
+- La alcaldía o el municipio y el tipo de lugar: casa, jardín o salón.
+- La superficie donde iría el inflable y, si es bajo techo, su altura libre.
+- Las edades y la cantidad aproximada de niños, separando a los de 1 a 3 años.
+- Si te interesa sumar mesa infantil o el Castillo Blanco.
+
+La fecha se aparta con 50% de anticipo. El precio es por evento y neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Si la recepción es en Coyoacán, revisa la [cobertura en Coyoacán](/cobertura/coyoacan/); para otras alcaldías y municipios, consulta [dónde entregamos en CDMX y Estado de México](/cobertura/).
+
+Revisa la [ficha del Castillo Baby para bautizos](/inflables/mini-castillo/) y escríbenos al [WhatsApp para la zona infantil del bautizo](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20la%20zona%20infantil%20para%20un%20bautizo) o llena la [cotización en línea de tu bautizo](/cotizar/). Atendemos de lunes a domingo de 8:00 a 20:00.
