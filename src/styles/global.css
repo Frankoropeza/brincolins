@@ -2933,3 +2933,33 @@ h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }
 .product-card__actions .btn:only-child { flex: 1 1 100%; text-align: center; line-height: 1.25; text-wrap: balance; }
+
+/* Cards con un solo botón (oct 2026): se retiró el botón de WhatsApp/Cotizar de
+   las cards para que el único CTA sea el enlace con anchor text a la ficha.
+   El botón pasa a ser el cierre de la card: ancho completo, más alto y
+   pegado al fondo para que todas las cards de una fila queden alineadas. */
+.product-card__actions--single,
+.svc-card__actions--single { display: flex; margin-top: auto; padding-top: 1rem; }
+.product-card__actions--single .btn,
+.svc-card__actions--single .btn {
+  flex: 1 1 100%;
+  width: 100%;
+  min-height: 48px;
+  padding: 0.75rem 1rem;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+.product-card__actions--single .btn-outline:hover,
+.svc-card__actions--single .btn-outline:hover { background: var(--c-primary-deep, #D63200); color: #fff; }
+
+/* Directorio: la card de salón ahora cierra con un solo botón (enlace a la
+   ficha). Se alinea al fondo para que todas las cards de una fila queden
+   a la misma altura aunque la dirección ocupe 2 o 3 líneas. */
+.venue-card { display: flex; flex-direction: column; }
+.venue-card__body { flex: 1; display: flex; flex-direction: column; }
+.venue-card__actions { margin-top: auto; padding-top: 1.25rem; }
+.venue-card__actions .btn { min-height: 48px; text-align: center; line-height: 1.25; text-wrap: balance; }

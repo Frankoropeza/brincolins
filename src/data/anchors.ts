@@ -97,7 +97,9 @@ export const anchorZona = (zona: string) => `Renta de inflables en ${zona}`;
 
 /* ── Salones del directorio ──────────────────────────────────────────── */
 export const anchorSalon = (nombre: string, zona: string) =>
-  `Salón de fiestas ${nombre} en ${zona}`;
+  /^sal[oó]n/i.test(nombre)
+    ? `${nombre} en ${zona}`            // "Salón Wondertown en Tlalpan"
+    : `Salón de fiestas ${nombre} en ${zona}`;
 
 /* ── Servicios (por URL) ─────────────────────────────────────────────── */
 export const SERVICIO_ANCHORS: Record<string, string> = {

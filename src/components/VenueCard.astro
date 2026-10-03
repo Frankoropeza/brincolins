@@ -26,8 +26,6 @@ const {
   highlight,
 } = Astro.props;
 
-const waMsg = encodeURIComponent(`Hola, me interesa información sobre su salón ${name} para una fiesta infantil.`);
-const waHref = `https://wa.me/52${phone.replace(/\s/g, "")}?text=${waMsg}`;
 const telHref = `tel:+52${phone.replace(/\s/g, "")}`;
 ---
 
@@ -52,9 +50,8 @@ const telHref = `tel:+52${phone.replace(/\s/g, "")}`;
       ))}
     </div>
 
-    <div class="product-card__actions product-card__actions--stack">
+    <div class="product-card__actions product-card__actions--single">
       <a href={`/directorio/cdmx/${slug}/`} class="btn btn-outline btn-sm">{anchorSalon(name, zone)}</a>
-      <a href={waHref} target="_blank" rel="nofollow noopener noreferrer" class="btn btn-wa btn-sm">WhatsApp</a>
     </div>
   </div>
 </article>

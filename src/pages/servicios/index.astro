@@ -1,6 +1,5 @@
 ---
 import { SERVICIO_ANCHORS, A } from "@/data/anchors";
-import { WHATSAPP } from '../../data/site';
 import PageLayout    from "@/layouts/PageLayout.astro";
 import QuickNav      from "@/components/QuickNav.astro";
 import Breadcrumbs   from "@/components/Breadcrumbs.astro";
@@ -24,7 +23,6 @@ const servicios = [
     tag2: "8 modelos",
     href: "/servicios/renta-de-inflables/",
     image: "/img/inflables/dragones-rojos.avif",
-    waMsg: "Hola BRINCOLINS, quiero cotizar la renta de un inflable.",
   },
   {
     icon: "🎁",
@@ -36,7 +34,6 @@ const servicios = [
     tag2: "2 paquetes",
     href: "/servicios/paquetes-de-fiesta/",
     image: "/img/servicios/paquetes-fiesta-completo-cdmx.avif",
-    waMsg: "Hola BRINCOLINS, quiero cotizar un paquete de fiesta todo incluido.",
   },
   {
     icon: "🪑",
@@ -48,7 +45,6 @@ const servicios = [
     tag2: "Traslado según zona",
     href: "/servicios/mobiliario-para-fiestas/",
     image: "/img/servicios/mobiliario-fiestas-cdmx.avif",
-    waMsg: "Hola BRINCOLINS, quiero cotizar mobiliario para mi fiesta.",
   },
   {
     icon: "💡",
@@ -60,7 +56,6 @@ const servicios = [
     tag2: "Instalación incluida",
     href: "/servicios/iluminacion-eventos/",
     image: "/img/servicios/iluminacion-eventos-cdmx.avif",
-    waMsg: "Hola BRINCOLINS, quiero cotizar iluminación para mi evento.",
   },
   {
     icon: "🏟️",
@@ -72,11 +67,9 @@ const servicios = [
     tag2: "2–20+ inflables",
     href: "/servicios/inflables-para-eventos/",
     image: "/img/inflables/extremo.avif",
-    waMsg: "Hola BRINCOLINS, quiero cotizar inflables para un evento corporativo o escolar.",
   },
 ];
 
-const WA = WHATSAPP;
 
 /* ─── PREGUNTAS FRECUENTES ───────────────────────────────────────── */
 const faqs = [
@@ -191,17 +184,8 @@ const faqs = [
                 <span class="svc-card__tag">{s.tag1}</span>
                 <span class="svc-card__tag">{s.tag2}</span>
               </div>
-              <div class="svc-card__actions">
+              <div class="svc-card__actions svc-card__actions--single">
                 <a href={s.href} class="btn btn-outline btn-sm">{SERVICIO_ANCHORS[s.href] ?? A.servicios.full}</a>
-                <a
-                  href={`https://wa.me/${WA}?text=${encodeURIComponent(s.waMsg)}`}
-                  target="_blank"
-                  rel="nofollow noopener noreferrer"
-                  class="btn btn-wa btn-sm"
-                >
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#i-wa"/></svg>
-                  Cotizar
-                </a>
               </div>
             </div>
           </article>

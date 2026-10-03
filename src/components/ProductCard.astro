@@ -1,6 +1,5 @@
 ---
 import { anchorInflable } from '../data/anchors';
-import { WHATSAPP } from '../data/site';
 import ResponsiveInflatableImage from './ResponsiveInflatableImage.astro';
 export interface Props {
   slug: string;
@@ -14,7 +13,6 @@ export interface Props {
   categoryColor?: string;
   gradient?: string;
   image?: string;
-  whatsapp?: string;
 }
 
 const {
@@ -29,12 +27,9 @@ const {
   categoryColor = "castillo",
   gradient = "#FF3D00, #FF6D00",
   image,
-  whatsapp = WHATSAPP,
 } = Astro.props;
 
 const anchor = anchorInflable(slug);
-const waMsg = encodeURIComponent(`Hola BRINCOLINS, quiero cotizar el inflable "${name}" para mi fiesta.`);
-const waHref = `https://wa.me/${whatsapp}?text=${waMsg}`;
 ---
 
 <article class={`product-card product-card--${categoryColor}`}>
@@ -71,12 +66,8 @@ const waHref = `https://wa.me/${whatsapp}?text=${waMsg}`;
       <span class="product-card__tag">{ages}</span>
     </div>
 
-    <div class="product-card__actions product-card__actions--stack">
+    <div class="product-card__actions product-card__actions--single">
       <a href={`/inflables/${slug}/`} class="btn btn-outline btn-sm product-card__link">{anchor.full}</a>
-      <a href={waHref} target="_blank" rel="nofollow noopener noreferrer" class="btn btn-wa btn-sm product-card__wa-btn">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#i-wa"/></svg>
-        Cotizar
-      </a>
     </div>
   </div>
 </article>

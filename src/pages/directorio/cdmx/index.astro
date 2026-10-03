@@ -4,9 +4,20 @@ import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
+import { SALONES_CDMX } from "@/data/directorio";
+import { anchorSalon } from "@/data/anchors";
 
 const title = "Salones de fiestas infantiles en CDMX: directorio";
 const description = "Directorio de los mejores salones de fiestas infantiles en CDMX. Salones verificados en Coyoacán, Tlalpan, Iztapalapa, Azcapotzalco y más.";
+
+/* Slug de la ficha del salón (la lista de esta página usa nombres largos,
+   p. ej. "Castillo Mágico Ari Sandy (Parque San Andrés)"). Si un salón no
+   tiene ficha, el build falla en vez de publicar un enlace /undefined/. */
+const slugSalon = (nombre: string): string => {
+  const f = SALONES_CDMX.find((x) => nombre.startsWith(x.name));
+  if (!f) throw new Error(`Salón sin ficha en directorio.ts: ${nombre}`);
+  return f.slug;
+};
 
 const salones = [
   {
@@ -342,9 +353,7 @@ const schemaList = {
                 ))}
               </div>
               <div class="venue-card__actions">
-                <a href={`tel:+52${s.phone.replace(/\s/g, "")}`} class="btn btn-primary btn-sm">Llamar</a>
-                <a href={`https://wa.me/52${s.phone.replace(/\s/g, "")}?text=${encodeURIComponent(`Hola, me interesa información sobre su salón ${s.name} para una fiesta infantil.`)}`}
-                   class="btn btn-wa btn-sm" target="_blank" rel="nofollow noopener noreferrer">WhatsApp</a>
+                <a href={`/directorio/cdmx/${slugSalon(s.name)}/`} class="btn btn-primary btn-sm">{anchorSalon(s.name, s.zone)}</a>
               </div>
             </div>
           </div>

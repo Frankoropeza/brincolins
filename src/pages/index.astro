@@ -162,10 +162,10 @@ const incluye = [
 
 // Servicios para eventos (módulo pilar 3) — mismas cards que el catálogo
 const eventos = [
-  { name: "Kermeses Escolares", category: "Escolar", color: "jungla", headline: "2–5 inflables", tag1: "Coordinador gratis", tag2: "Todos los grados", description: "Coordina 2 a 5 inflables simultáneos para que todos los grados participen al mismo tiempo. Precios especiales por paquete y coordinador de logística sin costo desde 3 inflables.", image: "/img/servicios/paquetes-fiesta-completo-cdmx.avif", alt: "Renta de inflables para kermesse escolar en CDMX", href: "/servicios/inflables-para-eventos/", wa: "Hola BRINCOLINS, quiero cotizar inflables para una kermesse escolar." },
-  { name: "Team Building Corporativo", category: "Corporativo", color: "pirata", headline: "Para adultos", tag1: "Circuito 7 m", tag2: "Family days", description: "El Circuito Extremo de 7 metros con doble carril es ideal para dinámicas de team building. Apto para adultos, con supervisión de seguridad incluida. Perfecto para family days y convenciones.", image: "/img/inflables/extremo.avif", alt: "Inflable para team building corporativo y family day en CDMX", href: "/servicios/inflables-para-eventos/", wa: "Hola BRINCOLINS, quiero cotizar un inflable para team building corporativo." },
-  { name: "Ferias y Activaciones de Marca", category: "Marca", color: "extremo", headline: "200–500+ pers", tag1: "Alto impacto", tag2: "Plazas y ferias", description: "Inflables de alto impacto para plazas, ferias y eventos masivos. Capacidad logística para transportar y montar varios equipos en paralelo. Formatos para 200 a 500+ asistentes.", image: "/img/inflables/barco-pirata.avif", alt: "Inflables para ferias y activaciones de marca en CDMX", href: "/servicios/inflables-para-eventos/", wa: "Hola BRINCOLINS, quiero cotizar inflables para una feria o activación de marca." },
-  { name: "Garden Parties y Reuniones Familiares", category: "Familiar", color: "bodas", headline: "Todo en uno", tag1: "Inflable + mobiliario", tag2: "Multigeneracional", description: "Combina un inflable grande con mobiliario para jardín y crea un ambiente completo. Ideal para reuniones familiares donde adultos y niños comparten el espacio.", image: "/img/servicios/mobiliario-fiestas-cdmx.avif", alt: "Inflables y mobiliario para garden party y reunión familiar en CDMX", href: "/servicios/paquetes-de-fiesta/", wa: "Hola BRINCOLINS, quiero cotizar inflables para un garden party o reunión familiar." },
+  { name: "Kermeses Escolares", category: "Escolar", color: "jungla", headline: "2–5 inflables", tag1: "Coordinador gratis", tag2: "Todos los grados", description: "Coordina 2 a 5 inflables simultáneos para que todos los grados participen al mismo tiempo. Precios especiales por paquete y coordinador de logística sin costo desde 3 inflables.", image: "/img/servicios/paquetes-fiesta-completo-cdmx.avif", alt: "Renta de inflables para kermesse escolar en CDMX", href: "/servicios/inflables-para-eventos/", cta: "Renta de inflables para kermeses escolares" },
+  { name: "Team Building Corporativo", category: "Corporativo", color: "pirata", headline: "Para adultos", tag1: "Circuito 7 m", tag2: "Family days", description: "El Circuito Extremo de 7 metros con doble carril es ideal para dinámicas de team building. Apto para adultos, con supervisión de seguridad incluida. Perfecto para family days y convenciones.", image: "/img/inflables/extremo.avif", alt: "Inflable para team building corporativo y family day en CDMX", href: "/servicios/inflables-para-eventos/", cta: "Inflables para team building corporativo" },
+  { name: "Ferias y Activaciones de Marca", category: "Marca", color: "extremo", headline: "200–500+ pers", tag1: "Alto impacto", tag2: "Plazas y ferias", description: "Inflables de alto impacto para plazas, ferias y eventos masivos. Capacidad logística para transportar y montar varios equipos en paralelo. Formatos para 200 a 500+ asistentes.", image: "/img/inflables/barco-pirata.avif", alt: "Inflables para ferias y activaciones de marca en CDMX", href: "/servicios/inflables-para-eventos/", cta: "Inflables para ferias y activaciones de marca" },
+  { name: "Garden Parties y Reuniones Familiares", category: "Familiar", color: "bodas", headline: "Todo en uno", tag1: "Inflable + mobiliario", tag2: "Multigeneracional", description: "Combina un inflable grande con mobiliario para jardín y crea un ambiente completo. Ideal para reuniones familiares donde adultos y niños comparten el espacio.", image: "/img/servicios/mobiliario-fiestas-cdmx.avif", alt: "Inflables y mobiliario para garden party y reunión familiar en CDMX", href: "/servicios/paquetes-de-fiesta/", cta: "Paquetes de fiesta con inflable y mobiliario" },
 ];
 /* Franja de categorías de la home.
    La home venía canibalizando las keywords específicas del catálogo
@@ -323,12 +323,8 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
                 <span class="product-card__tag">{e.tag1}</span>
                 <span class="product-card__tag">{e.tag2}</span>
               </div>
-              <div class="product-card__actions">
-                <a href={e.href} class="btn btn-outline btn-sm">{SERVICIO_ANCHORS[e.href] ?? A.servicios.full}</a>
-                <a href={`https://wa.me/525531281706?text=${encodeURIComponent(e.wa)}`} target="_blank" rel="nofollow noopener noreferrer" class="btn btn-wa btn-sm product-card__wa-btn">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#i-wa"/></svg>
-                  Cotizar
-                </a>
+              <div class="product-card__actions product-card__actions--single">
+                <a href={e.href} class="btn btn-outline btn-sm">{e.cta ?? SERVICIO_ANCHORS[e.href] ?? A.servicios.full}</a>
               </div>
             </div>
           </article>
