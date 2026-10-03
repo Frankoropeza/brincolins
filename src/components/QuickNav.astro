@@ -15,7 +15,7 @@ const current = Astro.url.pathname;
 
 const MAIN: Link[] = [
   { label: "Inflables",          href: "/inflables/",            color: "#FF1F8E" },
-  { label: "Fiestas Infantiles", href: "/fiestas-infantiles/",   color: "#DF1C86" },
+  { label: "Fiestas Infantiles", href: "/fiestas-infantiles/",   color: "#1565C0" },
   { label: "Servicios",          href: "/servicios/",            color: "#FF8C00" },
   { label: "Precios",            href: "/precios/",              color: "#5C35B1" },
   { label: "Cobertura",          href: "/cobertura/",            color: "#D32F2F" },
@@ -59,21 +59,20 @@ if (!links) {
   else links = MAIN;
 }
 
-/* Contraste automático del texto (WCAG 2.1 AA). Antes el texto era blanco
-   fijo: sobre #FF8C00 daba 2.33:1, muy por debajo del 4.5:1 que exige AA
-   para texto normal (estos items van a 0.68rem, no aplica texto grande).
-   textOn() elige blanco u oscuro según la luminancia del fondo, así el
-   naranja sigue siendo naranja. Ver src/lib/contrast.ts. */
+/* Contraste automático del texto (WCAG 2.1 AA): textOn() elige blanco u
+   oscuro según la luminancia del fondo, así cada color conserva su
+   saturación y el texto siempre cumple 4.5:1. Ver src/lib/contrast.ts. */
+const cols = links.length % 4 === 0 ? 4 : 3; // columnas en tablet (filas parejas)
 ---
 
-<nav class="qnav" aria-label="Navegación rápida">
+<nav class="qnav" aria-label="Navegación rápida" style={`--cols:${cols}`}>
   {links.map(l => {
     const active = current === l.href;
     return (
       <a
         href={l.href}
         class="qnav__item"
-        style={`--dot:${l.color}`}
+        style={`--bg:${l.color};--fg:${textOn(l.color)}`}
         aria-current={active ? "page" : undefined}
       >
         {l.label}
@@ -83,58 +82,68 @@ if (!links) {
 </nav>
 
 <style is:global>
-/* QuickNav — rediseño premium (jul 2026): de barra multicolor (arcoíris)
-   a fila de chips sobrios sobre barra blanca. Cada chip lleva un punto del
-   color de su categoría (identidad) pero el texto es oscuro y legible.
-   Envuelve solo (sin carrusel) en cualquier ancho. El color va por la
-   variable --dot (inline desde el componente). */
+/* QuickNav — barra de ancho completo (oct 2026).
+   Bloques de color sólido, uno por categoría, que reparten todo el ancho
+   del navegador sin huecos. Texto en Outfit 800 con contraste calculado
+   por textOn(). Hover: el bloque se intensifica y aparece la barra
+   inferior; página actual: barra inferior fija y texto en 900.
+   Sin animaciones de entrada (regla del proyecto). El color y el texto
+   llegan por --bg y --fg (inline desde el componente). */
 .qnav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem;
   width: 100%;
-  padding: 1.1rem var(--container-px, 1rem);
   background: #fff;
-  border-bottom: 1px solid var(--c-border, #e2e8f0);
-}.qnav__item {
-  display: inline-flex;
+  box-shadow: 0 6px 16px -8px rgba(16, 24, 40, 0.25);
+  position: relative;
+  z-index: 1;
+}
+.qnav__item {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.62rem 1.15rem;
-  border-radius: 50px;
-  background: var(--c-bg-alt, #f8fafc);
-  border: 1px solid var(--c-border, #e2e8f0);
-  color: var(--c-text, #0f172a);
+  justify-content: center;
+  text-align: center;
+  min-height: 64px;
+  padding: 0.85rem 0.75rem;
+  background: var(--bg, var(--c-primary, #FF3D00));
+  color: var(--fg, #fff);
   font-family: var(--font-head, sans-serif);
-  font-weight: 700;
-  font-size: 0.92rem;
-  line-height: 1;
-  letter-spacing: 0;
-  text-transform: none;
+  font-weight: 800;
+  font-size: 0.98rem;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
   text-decoration: none !important;
-  white-space: nowrap;
-  transition: background .15s ease, border-color .15s ease, color .15s ease;
-}.qnav__item::before {
+  text-wrap: balance;
+  box-shadow: inset -1px -1px 0 rgba(255, 255, 255, 0.35);
+  transition: filter .15s ease;
+}
+.qnav__item::after {
   content: '';
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--dot, var(--c-primary, #FF3D00));
-  flex-shrink: 0;
-}.qnav__item:hover {
-  background: #fff;
-  border-color: var(--c-primary, #FF3D00);
-  color: var(--c-primary-text, #C82D00);
-}.qnav__item[aria-current="page"] {
-  background: var(--c-primary-deep, #D93000);
-  border-color: var(--c-primary-deep, #D93000);
-  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0;
+  background: var(--fg, #fff);
+  opacity: 0.9;
+  transition: height .15s ease;
 }
-.qnav__item[aria-current="page"]::before { background: #fff; }
+.qnav__item:hover { filter: brightness(1.1) saturate(1.1); }
+.qnav__item:hover::after { height: 5px; }
+.qnav__item:focus-visible {
+  outline: 3px solid var(--c-secondary, #1A1A2E);
+  outline-offset: -3px;
+}
+.qnav__item[aria-current="page"] { font-weight: 900; }
+.qnav__item[aria-current="page"]::after { height: 5px; }
 
-@media (max-width: 768px) {.qnav { gap: 0.45rem; padding: 0.9rem 1rem; }.qnav__item { font-size: 0.82rem; padding: 0.55rem 0.95rem; }
+@media (max-width: 1100px) {
+  .qnav__item { flex: 1 1 calc(100% / var(--cols, 4)); min-height: 58px; font-size: 0.95rem; }
 }
-@media (max-width: 380px) {.qnav__item { font-size: 0.78rem; padding: 0.5rem 0.8rem; }
+@media (max-width: 560px) {
+  .qnav__item { flex: 1 1 50%; min-height: 52px; font-size: 0.9rem; padding: 0.7rem 0.6rem; }
 }
 </style>
