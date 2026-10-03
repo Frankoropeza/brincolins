@@ -126,8 +126,8 @@ img, picture, video, svg, iframe { max-width: 100%; }
   .trust-sep { height: 1.5rem; }
   .trust-item__label { font-size: 0.65rem !important; letter-spacing: 0.03em; }
 
-  /* Columna de texto largo oculta — visible en HTML para SEO */
-  .hero__copy { display: none; }
+  /* .hero__copy ya no se oculta en móvil: se apila bajo los CTAs en todas
+     las páginas (ver global.css, "Hero — 2 columnas homologado"). */
 }
 
 @media (max-width: 480px) {

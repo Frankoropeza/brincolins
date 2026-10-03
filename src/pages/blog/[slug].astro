@@ -117,7 +117,7 @@ const howToSchema = d.howto
   {howToSchema && <script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />}
 
   <!-- HERO 2 COLUMNAS -->
-  <section class="hero" style="padding:clamp(2rem,4vw,3rem) 0;">
+  <section class="hero">
     <div class="container">
       <div class="hero__grid">
         <div>
@@ -252,9 +252,9 @@ const howToSchema = d.howto
 .art-hero__back:hover { gap: .6rem; }
 .art-hero__meta {
     display: flex; align-items: center; gap: .5rem; flex-wrap: wrap;
-    font-size: .85rem; color: var(--c-text-muted); margin-bottom: .75rem;
+    font-size: .85rem; color: rgba(255,255,255,.92); font-weight: 600; margin-bottom: .75rem;
   }
-.art-hero__sep { opacity: .4; }
+.art-hero__sep { opacity: .7; }
 
   /* ── Layout artículo + sidebar ── */
 .art-layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 3rem; align-items: start; }

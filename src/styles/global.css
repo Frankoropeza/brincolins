@@ -370,8 +370,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ── Hero ── */
 .hero {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  /* Un solo ritmo vertical para TODOS los heroes del sitio (oct 2026):
+     antes cada página lo fijaba inline (2rem a 6rem). */
+  padding-top: clamp(2.5rem, 5vw, 4rem);
+  padding-bottom: clamp(2.5rem, 5vw, 4rem);
   background: linear-gradient(160deg, #C62800 0%, #E63200 50%, #FF5722 100%);
   color: #fff;
   overflow: hidden;
@@ -2895,23 +2897,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ══════════════════════════════════════════════════════════════
-   Hero de la home — 2 columnas (2026-10-03)
-   Izquierda: badge, H1, descripción, CTAs y línea de confianza.
-   Derecha: los dos párrafos de marca, con el mismo tratamiento de
-   tarjeta del hero del resto del sitio. Sin imagen. En móvil las
-   columnas se apilan y el texto se mantiene visible (mobile.css lo
-   oculta en el hero genérico). Solo aplica a .hero--home.
+   Hero — 2 columnas homologado en todo el sitio (2026-10-03)
+   Izquierda: badge, H1, descripción, CTAs. Derecha: párrafos de marca
+   (.hero__copy) como tarjetas. Sin imagen salvo la ficha de producto.
+   mobile.css ocultaba .hero__copy en móvil; ahora se muestra apilado y
+   con el mismo tratamiento en todas las páginas.
    ══════════════════════════════════════════════════════════════ */
-.hero.hero--home .hero__copy { display: flex; }
-.hero.hero--home .hero__copy-text { font-size: 1rem; line-height: 1.75; }
+.hero .hero__copy { display: flex; }
+.hero .hero__copy-text { font-size: 1rem; line-height: 1.75; }
 @media (max-width: 900px) {
-  .hero.hero--home .hero__grid { gap: 2rem; }
-  .hero.hero--home .hero__copy-text { text-align: left; }
-  .hero.hero--home .hero__trust-line { justify-content: center; }
+  .hero .hero__grid { gap: 2rem; }
+  .hero .hero__copy-text { text-align: left; }
+  .hero .hero__trust-line { justify-content: center; }
 }
 @media (max-width: 640px) {
-  .hero.hero--home .hero__copy { gap: 1rem; }
-  .hero.hero--home .hero__copy-text {
+  .hero .hero__copy { gap: 1rem; }
+  .hero .hero__copy-text {
     font-size: 0.9rem;
     line-height: 1.65;
     padding: 1rem 1.15rem;
