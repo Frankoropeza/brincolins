@@ -194,7 +194,7 @@ Para hacer tu reservación:
 
 - **WhatsApp:** 5531281706
 - **Web:** [Solicitar cotización](/cotizar/)
-- **Catálogo completo:** [Ver todos los inflables](/inflables/)
+- **Catálogo completo:** [Catálogo de renta de inflables para fiestas](/inflables/)
 - **Paquetes de fiesta:** [Ver paquetes completos](/servicios/paquetes-de-fiesta/)
 
 Escríbenos cuando tengas la fecha. No importa si faltan 6 semanas o si faltan 6 días — con gusto te decimos qué tenemos disponible y qué funciona mejor para tu espacio, tu presupuesto y la edad de los niños. Esa conversación es gratis y te ahorra horas de investigación.

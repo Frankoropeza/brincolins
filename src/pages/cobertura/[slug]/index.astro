@@ -1,4 +1,5 @@
 ---
+import { anchorInflableHref, A } from "@/components/../data/anchors";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 /**
  * src/pages/cobertura/[slug]/index.astro
@@ -181,7 +182,7 @@ const serviceSchema = {
           <p class="hero__desc hero__desc--links">Mismo servicio de <a href="/">renta de inflables en CDMX</a> y <a href="/inflables/brincolines/">renta de brincolines</a> de todo el catálogo BRINCOLINS, con entrega en {zonePhrase}.</p>
           <div class="hero__ctas">
             <a href="/cotizar/" class="btn btn-primary btn-lg">Solicitar cotización</a>
-            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Inflables para fiestas en renta</a>
           </div>
         </div>
         <div class="hero__copy">
@@ -308,7 +309,7 @@ const serviceSchema = {
               <div class="inflable-rec-card__body">
                 <h3 class="inflable-rec-card__name">{rec.name}</h3>
                 <p class="inflable-rec-card__desc">{rec.desc}</p>
-                <span class="inflable-rec-card__cta">Ver inflable →</span>
+                <span class="inflable-rec-card__cta">{anchorInflableHref(rec.href) ?? A.catalogo.full} →</span>
               </div>
             </a>
           ))}
@@ -341,7 +342,7 @@ const serviceSchema = {
     subtitle={zone.ctaBannerSubtitle}
     btnText="Solicitar cotización"
     btnHref="/cotizar/"
-    btnSecondaryText="Ver inflables"
+    btnSecondaryText="Catálogo de renta de inflables en CDMX"
     btnSecondaryHref="/inflables/"
     variant={zone.ctaBannerVariant}
   />

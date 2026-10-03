@@ -1,4 +1,5 @@
 ---
+import { anchorInflable } from "@/data/anchors";
 /**
  * ProductFeature — BRINCOLINS
  * Módulo editorial premium: info detallada + galería 1+2
@@ -48,6 +49,7 @@ const {
 const waMsg = waMessage ?? `Hola BRINCOLINS, quiero cotizar el inflable "${name}" para mi fiesta.`;
 const waHref = `https://wa.me/525531281706?text=${encodeURIComponent(waMsg)}`;
 const detailHref = `/inflables/${slug}/`;
+const anchor = anchorInflable(slug);
 
 const categoryColors: Record<string, string> = {
   castillo: "#FF3D00",
@@ -154,7 +156,7 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
           Cotizar por WhatsApp
         </a>
         <a href={detailHref} class="pf__btn pf__btn--detail">
-          Ver todos los detalles
+          {anchor.full}
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M5 12h14M12 5l7 7-7 7"/>
           </svg>
@@ -179,7 +181,7 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
         <div class="pf__gallery-overlay">
           <a href={detailHref} class="pf__gallery-cta">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-            Ver galería completa
+            {anchor.foto}
           </a>
         </div>
       </div>
@@ -192,7 +194,7 @@ const accentColorLight = accentColor + "14"; // ~8% opacity
               <img src={img.src} alt={img.alt} width="360" height="270" loading="lazy" />
               {i === 1 && (
                 <div class="pf__thumb-more">
-                  <a href={detailHref}>+9 fotos →</a>
+                  <a href={detailHref}>Más fotos: {anchor.short} →</a>
                 </div>
               )}
             </div>

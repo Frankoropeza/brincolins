@@ -100,7 +100,7 @@ const hubSchema = {
           <p class="hero__desc">{MODELOS_COUNT} modelos organizados en {CATEGORIAS.length} categorías: por tamaño, por tipo de inflable y por quién lo va a usar. De {PRICE_RANGE} MXN por evento.</p>
           <div class="hero__ctas">
             <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar renta de inflables</a>
-            <a href="/precios/" class="btn btn-outline btn-lg">Ver precios de inflables</a>
+            <a href="/precios/" class="btn btn-outline btn-lg">Precios de inflables en CDMX</a>
           </div>
         </div>
         <div class="hero__copy">
@@ -146,7 +146,7 @@ const hubSchema = {
                   <li><a href={`/inflables/${inf.slug}/`}>{inf.name}</a> <span>{inf.price}</span></li>
                 ))}
               </ul>
-              <a class="cat-card__cta" href={`/inflables/${cat.slug}/`}>Ver {cat.anchor}</a>
+              <a class="cat-card__cta" href={`/inflables/${cat.slug}/`}>{cat.anchor.charAt(0).toUpperCase() + cat.anchor.slice(1)} en renta</a>
             </div>
           </article>
         ))}
@@ -183,7 +183,7 @@ const hubSchema = {
     subtitle="Mándanos las medidas de tu espacio y la edad de los invitados. Te decimos cuál cabe y cuál conviene, sin compromiso."
     btnText="Cotizar renta de inflables"
     btnHref="/cotizar/"
-    btnSecondaryText="Ver zonas de entrega"
+    btnSecondaryText="Zonas de entrega de inflables"
     btnSecondaryHref="/cobertura/"
     variant="warm"
   />

@@ -31,7 +31,7 @@ const porEdad = [
     desc: "Paredes suaves, altura baja y tamaño compacto: ideal para primeros cumpleaños, interiores y departamentos. Desde $1,400 MXN.",
     img: "/img/inflables/mini-castillo.avif",
     href: "/inflables/mini-castillo/",
-    cta: "Ver Castillo Baby",
+    cta: "Renta de Castillo Baby para bebés",
   },
   {
     rango: "2 a 10 años",
@@ -39,7 +39,7 @@ const porEdad = [
     desc: "Dragones Rojos, Castillo de Princesas, Jungla y Gusanitos: resbaladilla integrada y mallas de seguridad. Desde $1,600 MXN.",
     img: "/img/inflables/dragones-rojos.avif",
     href: "/inflables/",
-    cta: "Ver castillos temáticos",
+    cta: "Castillos inflables temáticos en renta",
   },
   {
     rango: "3 a 12 años",
@@ -47,7 +47,7 @@ const porEdad = [
     desc: "6×3.5×3.80 metros con tobogán de altura y zona de brinco para tu evento. Perfecto para fiestas numerosas. Desde $2,300 MXN.",
     img: "/img/inflables/barco-pirata.avif",
     href: "/inflables/barco-pirata/",
-    cta: "Ver Barco Pirata",
+    cta: "Renta de Barco Pirata inflable",
   },
   {
     rango: "3 a 12 años",
@@ -55,7 +55,7 @@ const porEdad = [
     desc: "8 metros de obstáculos con doble carril para competencias. Para kermeses y eventos. Desde $2,500 MXN.",
     img: "/img/inflables/extremo.avif",
     href: "/inflables/extremo/",
-    cta: "Ver Circuito Extremo",
+    cta: "Renta de circuito inflable Extremo",
   },
 ];
 
@@ -224,7 +224,7 @@ const faqs = [
           <p class="hero__desc">Brincolines y castillos inflables para cumpleaños con instalación incluida y traslado según zona. Sanitización antes de cada evento y precios desde $1,400 MXN.</p>
           <div class="hero__ctas">
             <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar mi fiesta infantil</a>
-            <a href="#catalogo" class="btn btn-outline btn-lg">Ver inflables</a>
+            <a href="#catalogo" class="btn btn-outline btn-lg">Inflables para fiestas infantiles</a>
           </div>
         </div>
         <div class="hero__copy">
@@ -283,7 +283,7 @@ const faqs = [
         {productos.map(p => <ProductCard {...p} />)}
       </div>
       <div class="text-center mt-3">
-        <a href="/inflables/" class="btn btn-secondary">Ver catálogo completo de inflables</a>
+        <a href="/inflables/" class="btn btn-secondary">Catálogo completo de inflables para fiestas</a>
       </div>
     </div>
   </section>
@@ -330,7 +330,7 @@ const faqs = [
       />
       <PricingCards packages={pricingPackages} />
       <div class="text-center mt-3">
-        <a href="/precios/" class="btn btn-secondary">Ver lista completa de precios</a>
+        <a href="/precios/" class="btn btn-secondary">Precios de renta de inflables en CDMX</a>
       </div>
     </div>
   </section>
@@ -354,7 +354,7 @@ const faqs = [
         {zonasEdomex.map(z => <ZonaCard {...z} />)}
       </div>
       <div class="text-center mt-3">
-        <a href="/cobertura/" class="btn btn-secondary">Ver todas las zonas de cobertura</a>
+        <a href="/cobertura/" class="btn btn-secondary">Zonas de cobertura de renta de inflables</a>
       </div>
     </div>
   </section>
@@ -425,13 +425,13 @@ const faqs = [
             <div class="why-card__body">
               <h3 class="why-card__title">{g.title}</h3>
               <p class="why-card__desc">{g.desc}</p>
-              <span class="edad-link">Leer guía →</span>
+              <span class="edad-link" aria-hidden="true">→</span>
             </div>
           </a>
         ))}
       </div>
       <div class="text-center mt-3">
-        <a href="/blog/" class="btn btn-secondary">Ver todas las guías del blog</a>
+        <a href="/blog/" class="btn btn-secondary">Guías y consejos para fiestas infantiles</a>
       </div>
     </div>
   </section>
@@ -441,7 +441,7 @@ const faqs = [
     subtitle="Cotiza tu inflable para fiesta infantil hoy. Respuesta en minutos por WhatsApp, instalación incluida y traslado según zona."
     btnText="Cotizar gratis por WhatsApp"
     btnHref="/cotizar/"
-    btnSecondaryText="Ver inflables"
+    btnSecondaryText="Catálogo de renta de inflables en CDMX"
     btnSecondaryHref="/inflables/"
     variant="vibrant"
   />

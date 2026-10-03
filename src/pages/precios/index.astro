@@ -1,4 +1,5 @@
 ---
+import { anchorInflable } from "@/data/anchors";
 import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
@@ -236,7 +237,7 @@ const faqs = [
           </p>
           <div class="hero__ctas">
             <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar mi inflable</a>
-            <a href="/inflables/" class="btn btn-outline btn-lg">Ver catálogo</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Catálogo de inflables</a>
           </div>
         </div>
 
@@ -336,7 +337,7 @@ const faqs = [
                 <p class="pr-card__ideal"><strong>Ideal para:</strong> {inf.ideal}</p>
 
                 <a href={`/inflables/${inf.slug}/`} class="btn btn-outline btn-sm pr-card__btn">
-                  Ver detalles →
+                  {anchorInflable(inf.slug).full} →
                 </a>
               </div>
 
@@ -432,7 +433,7 @@ const faqs = [
             <li>1 mesa con 4 sillitas</li>
             <li>1 pintacaritas para 4 niños</li>
           </ul>
-          <a href="/servicios/inflables-para-eventos/" class="pr-paquete__link">Ver detalles del paquete →</a>
+          <a href="/servicios/paquetes-de-fiesta/" class="pr-paquete__link">Paquetes de fiesta con inflables en CDMX →</a>
         </div>
 
         <div class="pr-paquete pr-paquete--highlight">
@@ -449,7 +450,7 @@ const faqs = [
             <li>1 mesa con 10 sillitas</li>
             <li>1 hora de pintacaritas</li>
           </ul>
-          <a href="/servicios/inflables-para-eventos/" class="pr-paquete__link">Ver detalles del paquete →</a>
+          <a href="/servicios/paquetes-de-fiesta/" class="pr-paquete__link">Paquetes de fiesta con inflables en CDMX →</a>
         </div>
 
         <div class="pr-paquete">
@@ -465,7 +466,7 @@ const faqs = [
             <li>Coordinador logístico dedicado</li>
             <li>Facturación fiscal disponible</li>
           </ul>
-          <a href="/servicios/inflables-para-eventos/" class="pr-paquete__link">Solicitar cotización corporativa →</a>
+          <a href="/servicios/inflables-para-eventos/" class="pr-paquete__link">Cotizar inflables para eventos corporativos →</a>
         </div>
 
       </div>
@@ -490,7 +491,7 @@ const faqs = [
           </p>
           <div class="pr-ventaja__ctas">
             <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar mi inflable gratis</a>
-            <a href="/inflables/" class="btn btn-outline btn-lg">Ver catálogo completo</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Catálogo de inflables para fiestas</a>
           </div>
         </div>
         <div class="pr-ventaja__stats">
@@ -539,7 +540,7 @@ const faqs = [
     subtitle="Escríbenos por WhatsApp con la fecha y modelo — te respondemos con precio y disponibilidad al instante."
     btnText="Cotizar por WhatsApp"
     btnHref="/cotizar/"
-    btnSecondaryText="Ver catálogo de inflables"
+    btnSecondaryText="Catálogo de renta de inflables"
     btnSecondaryHref="/inflables/"
     variant="vibrant"
   />

@@ -58,19 +58,16 @@ const catText  = textOn(catColor);
       <a href={`/blog/${slug}/`}>{title}</a>
     </h3>
     <p class="blog-card__excerpt">{excerpt}</p>
-    {/* WCAG 2.5.3 (Label in Name): el nombre accesible debe CONTENER el
-        texto visible. Antes era aria-label="Leer: {title}" con el texto
-        visible "Leer artículo": un usuario de control por voz que dice
-        "pulsa Leer artículo" no activaba nada, porque el nombre accesible
-        decía otra cosa. Ahora empieza por el texto visible y el título va
-        detrás como contexto — así el enlace sigue siendo distinguible
-        para un lector de pantalla que lista enlaces fuera de contexto. */}
-    <a href={`/blog/${slug}/`} class="blog-card__link" aria-label={`Leer artículo: ${title}`}>
-      Leer artículo
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    {/* Antes había un 2.º enlace "Leer artículo" al mismo destino que el título.
+        Dos anclas a la misma URL = solo cuenta la primera, y la genérica
+        estorbaba. Ahora el ancla es el título (ya lleva la palabra clave) y
+        toda la tarjeta es clicable con un enlace extendido (::after). La
+        flecha es decorativa. */}
+    <span class="blog-card__link" aria-hidden="true">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <path d="M5 12h14M12 5l7 7-7 7"/>
       </svg>
-    </a>
+    </span>
   </div>
 </article>
 
@@ -171,4 +168,7 @@ const catText  = textOn(catColor);
   }.blog-card--featured .blog-card__excerpt {
     -webkit-line-clamp: 4;
   }
+.blog-card { position: relative; }
+.blog-card__title a::after { content: ""; position: absolute; inset: 0; z-index: 1; }
+.blog-card__link { justify-content: flex-end; }
 </style>

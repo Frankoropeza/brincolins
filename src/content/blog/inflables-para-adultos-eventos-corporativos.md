@@ -134,4 +134,4 @@ En BRINCOLINS hemos trabajado con empresas de todos los tamaños en la zona metr
 
 ---
 
-**¿Buscas el inflable perfecto para tu fiesta?** Tenemos opciones para todos los eventos: el [Castillo Baby](/inflables/mini-castillo/) ideal para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas y el [Circuito Extremo](/inflables/extremo/) para niños aventureros. [Ver catálogo completo →](/inflables/)
+**¿Buscas el inflable perfecto para tu fiesta?** Tenemos opciones para todos los eventos: el [Castillo Baby](/inflables/mini-castillo/) ideal para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas y el [Circuito Extremo](/inflables/extremo/) para niños aventureros. [Catálogo de renta de inflables para fiestas →](/inflables/)

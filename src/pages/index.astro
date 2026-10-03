@@ -1,4 +1,5 @@
 ---
+import { anchorInflable, SERVICIO_ANCHORS, A } from "@/data/anchors";
 import PageLayout   from "@/layouts/PageLayout.astro";
 import ProductCard  from "@/components/ProductCard.astro";
 import ResponsiveInflatableImage from "@/components/ResponsiveInflatableImage.astro";
@@ -122,7 +123,7 @@ const categorias = [
     href: "/inflables/mini-castillo/",
     image: "/img/inflables/mini-castillo.avif",
     alt: "Renta de Castillo Baby inflable para niños pequeños CDMX",
-    cta: "Ver inflable para bebés →",
+    cta: "Inflables para bebés de 1 a 3 años →",
   },
   {
     name: "Medianos (2-10 años)",
@@ -131,7 +132,7 @@ const categorias = [
     href: "/inflables/dragones-rojos/",
     image: "/img/inflables/dragones-rojos.avif",
     alt: "Renta de inflables medianos dragones rojos para fiestas infantiles CDMX",
-    cta: "Ver inflables para cumpleaños →",
+    cta: "Inflables medianos para cumpleaños →",
   },
   {
     name: "Grandes (3-12 años)",
@@ -140,7 +141,7 @@ const categorias = [
     href: "/inflables/barco-pirata/",
     image: "/img/inflables/barco-pirata.avif",
     alt: "Renta de barco pirata inflable grande para eventos y kermeses CDMX",
-    cta: "Ver inflables para eventos →",
+    cta: "Inflables grandes para kermeses y eventos →",
   },
 ];
 
@@ -211,7 +212,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#i-wa"/></svg>
               Cotizar por WhatsApp
             </a>
-            <a href="/inflables/" class="btn btn-outline btn-outline--white btn-lg">Ver catálogo</a>
+            <a href="/inflables/" class="btn btn-outline btn-outline--white btn-lg">Catálogo de inflables</a>
           </div>
           <p class="hero__trust-line">
             <span>+20 años · miles de fiestas en CDMX y Edomex · instalación incluida</span>
@@ -274,7 +275,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
         {productos.map(p => <ProductCard {...p} />)}
       </div>
       <div class="text-center mt-3">
-        <a href="/inflables/" class="btn btn-secondary">Ver Catálogo Completo de Inflables para Fiestas</a>
+        <a href="/inflables/" class="btn btn-secondary">Catálogo completo de inflables para fiestas</a>
       </div>
     </div>
   </section>
@@ -323,7 +324,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
                 <span class="product-card__tag">{e.tag2}</span>
               </div>
               <div class="product-card__actions">
-                <a href={e.href} class="btn btn-outline btn-sm">Ver servicio</a>
+                <a href={e.href} class="btn btn-outline btn-sm">{SERVICIO_ANCHORS[e.href] ?? A.servicios.full}</a>
                 <a href={`https://wa.me/525531281706?text=${encodeURIComponent(e.wa)}`} target="_blank" rel="nofollow noopener noreferrer" class="btn btn-wa btn-sm product-card__wa-btn">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#i-wa"/></svg>
                   Cotizar
@@ -408,7 +409,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#i-wa"/></svg>
               Cotizar por WhatsApp
             </a>
-            <a href="/inflables/" class="btn btn-outline price-box__cta">Ver catálogo de inflables</a>
+            <a href="/inflables/" class="btn btn-outline price-box__cta">Catálogo de renta de inflables</a>
             <p class="price-box__reassure">
               <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><use href="#i-check"/></svg>
               <span>Sin anticipo para cotizar · respuesta en minutos</span>
@@ -469,7 +470,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
             <li>Barco Pirata con tobogán desde $2,300</li>
             <li>Extremo para niños mayores desde $2,500</li>
           </ul>
-          <a href="/inflables/" class="fiesta-card__cta">Ver inflables para cumpleaños →</a>
+          <a href="/inflables/" class="fiesta-card__cta">Inflables para cumpleaños infantiles →</a>
         </div>
 
         <!-- Card 2: Bebés -->
@@ -485,7 +486,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
             <li>Ideal para interiores y departamentos</li>
             <li>Precio más accesible: desde $1,400 MXN</li>
           </ul>
-          <a href="/inflables/mini-castillo/" class="fiesta-card__cta">Ver Castillo Baby →</a>
+          <a href="/inflables/mini-castillo/" class="fiesta-card__cta">{anchorInflable("mini-castillo").full} →</a>
         </div>
 
         <!-- Card 3: Bodas y XV -->
@@ -501,13 +502,13 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
             <li>Adecuado para garden parties y eventos de noche</li>
             <li>Precio desde $2,300 MXN</li>
           </ul>
-          <a href="/inflables/castillo-blanco/" class="fiesta-card__cta">Ver Castillo Blanco →</a>
+          <a href="/inflables/castillo-blanco/" class="fiesta-card__cta">{anchorInflable("castillo-blanco").full} →</a>
         </div>
 
       </div>
 
       <div class="text-center mt-3">
-        <a href="/fiestas-infantiles/" class="btn btn-secondary">Ver inflables para fiestas infantiles</a>
+        <a href="/fiestas-infantiles/" class="btn btn-secondary">Inflables para fiestas infantiles</a>
       </div>
     </div>
   </section>
@@ -766,7 +767,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
       </div>
 
       <div class="text-center mt-3">
-        <a href="/cobertura/" class="btn btn-secondary btn-sm">Ver todas las zonas de cobertura</a>
+        <a href="/cobertura/" class="btn btn-secondary btn-sm">{A.zonas.full}</a>
       </div>
     </div>
   </section>
@@ -786,7 +787,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
         {blogArticulos.map(a => <BlogCard {...a} />)}
       </div>
       <div class="text-center mt-3">
-        <a href="/blog/" class="btn btn-secondary btn-sm">Ver todos los artículos del blog</a>
+        <a href="/blog/" class="btn btn-secondary btn-sm">{A.blog.full}</a>
       </div>
     </div>
   </section>
@@ -866,7 +867,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
       </p>
       <div class="cta-final__buttons">
         <a href="/cotizar/" class="btn btn-white btn-lg">Cotizar Renta de Inflables Gratis</a>
-        <a href="/inflables/" class="btn btn-outline--white btn-lg">Ver Catálogo de Inflables</a>
+        <a href="/inflables/" class="btn btn-outline--white btn-lg">Catálogo de renta de inflables</a>
       </div>
     </div>
   </section>

@@ -1,4 +1,5 @@
 ---
+import { SERVICIO_ANCHORS } from "@/data/anchors";
 /**
  * ServiceFeature — BRINCOLINS
  * Módulo editorial premium para servicios: info detallada + galería 1+2
@@ -156,7 +157,7 @@ const accentColorLight = accentColor + "14";
           Cotizar por WhatsApp
         </a>
         <a href={href} class="sf__btn sf__btn--detail">
-          Ver todos los detalles
+          {SERVICIO_ANCHORS[href] ?? `${name} en CDMX`}
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M5 12h14M12 5l7 7-7 7"/>
           </svg>
@@ -179,7 +180,7 @@ const accentColorLight = accentColor + "14";
         <div class="sf__gallery-overlay">
           <a href={href} class="sf__gallery-cta">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-            Ver servicio completo
+            Galería de {name}
           </a>
         </div>
       </div>
@@ -191,7 +192,7 @@ const accentColorLight = accentColor + "14";
               <img src={img.src} alt={img.alt} width="360" height="270" loading="lazy" />
               {i === 1 && (
                 <div class="sf__thumb-more">
-                  <a href={href}>Ver más →</a>
+                  <a href={href}>Más fotos de {name} →</a>
                 </div>
               )}
             </div>

@@ -103,4 +103,4 @@ Entendemos que los imprevistos ocurren. Nuestra política:
 
 ---
 
-**¿Buscas el inflable perfecto para tu fiesta?** Tenemos 8 modelos: el [Castillo Baby](/inflables/mini-castillo/) ($1,400, de 1 a 3 años), el [Barco Pirata](/inflables/barco-pirata/) ($2,300, el más grande) y el [Circuito Extremo](/inflables/extremo/) ($2,500, de 3 a 12 años), entre otros. Si quieres ver cómo funciona el proceso completo de reserva, está en [primera vez rentando un inflable, paso a paso](/blog/como-rentar-inflable-brincolins-proceso-paso-a-paso/). [Ver catálogo completo →](/inflables/)
+**¿Buscas el inflable perfecto para tu fiesta?** Tenemos 8 modelos: el [Castillo Baby](/inflables/mini-castillo/) ($1,400, de 1 a 3 años), el [Barco Pirata](/inflables/barco-pirata/) ($2,300, el más grande) y el [Circuito Extremo](/inflables/extremo/) ($2,500, de 3 a 12 años), entre otros. Si quieres ver cómo funciona el proceso completo de reserva, está en [primera vez rentando un inflable, paso a paso](/blog/como-rentar-inflable-brincolins-proceso-paso-a-paso/). [Catálogo de renta de inflables para fiestas →](/inflables/)

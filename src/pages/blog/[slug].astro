@@ -49,10 +49,10 @@ const catItems   = catPost
 
 // ── Catálogo destacado para el sidebar ──
 const inflablesSidebar = [
-  { href: "/inflables/castillo-princesas/", label: "Castillo de Princesas" },
-  { href: "/inflables/barco-pirata/",       label: "Barco Pirata" },
-  { href: "/inflables/extremo/",            label: "Extremo" },
-  { href: "/inflables/mini-castillo/",      label: "Castillo Baby — desde $1,400" },
+  { href: "/inflables/castillo-princesas/", label: "Castillo inflable de Princesas" },
+  { href: "/inflables/barco-pirata/",       label: "Brincolín Barco Pirata" },
+  { href: "/inflables/extremo/",            label: "Inflable de obstáculos Extremo" },
+  { href: "/inflables/mini-castillo/",      label: "Castillo Baby inflable — desde $1,400" },
 ];
 
 // ── Helpers ──
@@ -133,7 +133,7 @@ const howToSchema = d.howto
           {d.excerpt && <p class="hero__desc">{d.excerpt}</p>}
           <div class="hero__ctas">
             <a href="/cotizar/" class="btn btn-primary btn-lg">Pedir cotización gratis</a>
-            <a href="/inflables/" class="btn btn-outline btn-lg">Ver inflables</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Inflables para fiestas en renta</a>
           </div>
         </div>
         {d.intro?.length ? (
@@ -203,15 +203,15 @@ const howToSchema = d.howto
             {inflablesSidebar.map((it) => (
               <a href={it.href} class="art-sidebar__link">→ {it.label}</a>
             ))}
-            <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Ver catálogo completo</a>
+            <a href="/inflables/" class="art-sidebar__link art-sidebar__link--cta">→ Catálogo de inflables para fiestas</a>
           </div>
 
           <div class="art-sidebar__box art-sidebar__box--links">
             <h2 class="art-sidebar__title">Recursos útiles</h2>
             <a href="/fiestas-infantiles/" class="art-sidebar__link">→ Inflables para fiestas infantiles</a>
-            <a href="/preguntas-frecuentes/" class="art-sidebar__link">→ Preguntas frecuentes</a>
-            <a href="/precios/" class="art-sidebar__link">→ Lista de precios 2026</a>
-            <a href="/cobertura/" class="art-sidebar__link">→ Zonas de cobertura</a>
+            <a href="/preguntas-frecuentes/" class="art-sidebar__link">→ Preguntas frecuentes sobre renta de inflables</a>
+            <a href="/precios/" class="art-sidebar__link">→ Precios de renta de inflables 2026</a>
+            <a href="/cobertura/" class="art-sidebar__link">→ Zonas de cobertura de inflables en CDMX</a>
           </div>
         </aside>
       </div>
@@ -236,7 +236,7 @@ const howToSchema = d.howto
     subtitle="Respondemos en minutos. Entrega puntual, instalación y recolección; traslado según zona."
     btnText="Solicitar cotización"
     btnHref="/cotizar/"
-    btnSecondaryText="Ver inflables"
+    btnSecondaryText="Catálogo de renta de inflables en CDMX"
     btnSecondaryHref="/inflables/"
     variant="vibrant"
   />

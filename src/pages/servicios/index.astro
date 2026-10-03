@@ -1,4 +1,5 @@
 ---
+import { SERVICIO_ANCHORS, A } from "@/data/anchors";
 import { WHATSAPP } from '../../data/site';
 import PageLayout    from "@/layouts/PageLayout.astro";
 import QuickNav      from "@/components/QuickNav.astro";
@@ -139,7 +140,7 @@ const faqs = [
           </h1>
           <div class="hero__ctas">
             <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar mi evento</a>
-            <a href="/inflables/" class="btn btn-outline btn-lg">Ver catálogo de inflables</a>
+            <a href="/inflables/" class="btn btn-outline btn-lg">Catálogo de renta de inflables</a>
           </div>
         </div>
         <div class="hero__copy">
@@ -191,7 +192,7 @@ const faqs = [
                 <span class="svc-card__tag">{s.tag2}</span>
               </div>
               <div class="svc-card__actions">
-                <a href={s.href} class="btn btn-outline btn-sm">Ver servicio</a>
+                <a href={s.href} class="btn btn-outline btn-sm">{SERVICIO_ANCHORS[s.href] ?? A.servicios.full}</a>
                 <a
                   href={`https://wa.me/${WA}?text=${encodeURIComponent(s.waMsg)}`}
                   target="_blank"
@@ -468,7 +469,7 @@ const faqs = [
     subtitle="Combina inflable + mobiliario + iluminación con un precio cerrado. Un solo responsable para todo tu evento."
     btnText="Cotizar mi evento"
     btnHref="/cotizar/"
-    btnSecondaryText="Ver paquetes de fiesta"
+    btnSecondaryText="Paquetes de fiesta con inflables"
     btnSecondaryHref="/servicios/paquetes-de-fiesta/"
     variant="vibrant"
   />

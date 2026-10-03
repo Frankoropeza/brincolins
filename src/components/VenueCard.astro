@@ -1,4 +1,5 @@
 ---
+import { anchorSalon } from '../data/anchors';
 export interface Props {
   slug: string;
   name: string;
@@ -51,8 +52,8 @@ const telHref = `tel:+52${phone.replace(/\s/g, "")}`;
       ))}
     </div>
 
-    <div class="product-card__actions">
-      <a href={`/directorio/cdmx/${slug}/`} class="btn btn-outline btn-sm">Ver salón</a>
+    <div class="product-card__actions product-card__actions--stack">
+      <a href={`/directorio/cdmx/${slug}/`} class="btn btn-outline btn-sm">{anchorSalon(name, zone)}</a>
       <a href={waHref} target="_blank" rel="nofollow noopener noreferrer" class="btn btn-wa btn-sm">WhatsApp</a>
     </div>
   </div>

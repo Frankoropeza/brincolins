@@ -133,4 +133,4 @@ En BRINCOLINS los dos paquetes tienen precio cerrado y, si tu evento necesita al
 
 ---
 
-**¿Buscas el inflable perfecto para tu fiesta?** Son 8 modelos: el [Castillo Baby](/inflables/mini-castillo/) ($1,400, de 1 a 3 años), el [Barco Pirata](/inflables/barco-pirata/) ($2,300, el más grande) y el [Circuito Extremo](/inflables/extremo/) ($2,500, de 3 a 12 años), entre otros. Para decidir cuál según tus invitados, revisa la [comparativa de inflable chico contra grande](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/). [Ver catálogo completo →](/inflables/)
+**¿Buscas el inflable perfecto para tu fiesta?** Son 8 modelos: el [Castillo Baby](/inflables/mini-castillo/) ($1,400, de 1 a 3 años), el [Barco Pirata](/inflables/barco-pirata/) ($2,300, el más grande) y el [Circuito Extremo](/inflables/extremo/) ($2,500, de 3 a 12 años), entre otros. Para decidir cuál según tus invitados, revisa la [comparativa de inflable chico contra grande](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/). [Catálogo de renta de inflables para fiestas →](/inflables/)

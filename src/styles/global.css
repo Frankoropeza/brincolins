@@ -2918,3 +2918,18 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1rem 1.15rem;
   }
 }
+
+/* Cards con ancla con palabra clave (oct 2026): el texto del enlace describe
+   el destino ("Renta de Castillo Baby para bebés"), es más largo que el
+   antiguo "Ver detalles", así que los botones se apilan a todo el ancho de
+   la card y el texto puede partirse en dos líneas. */
+.product-card__actions--stack { flex-direction: column; }
+.product-card__actions--stack .btn {
+  flex: 0 0 auto;
+  width: 100%;
+  min-height: 44px;
+  text-align: center;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+.product-card__actions .btn:only-child { flex: 1 1 100%; text-align: center; line-height: 1.25; text-wrap: balance; }
