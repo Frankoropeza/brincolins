@@ -174,7 +174,7 @@ export const INFLABLES: Inflable[] = [
     capacity:    "Se confirma al cotizar",
     installTime: "30 minutos",
     image:       "/img/inflables/barco-pirata.avif",
-    description: "El Barco Pirata es un inflable de gran impacto. Con 6×3.5×3.80 metros, mástil, velas y un tobogán de alta velocidad por la popa, es el modelo que más impacto genera a la entrada de la fiesta.",
+    description: "Renta de Barco Pirata inflable en CDMX y Edomex para fiestas temáticas. Mástil, velas y tobogán incluidos. Cotiza disponibilidad.",
     category:    "grande",
     active:      true,
     gallery: [

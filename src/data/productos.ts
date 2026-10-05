@@ -53,7 +53,7 @@ export interface ProductoPagina {
 export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
   "barco-pirata": {
     title: "Renta de barco pirata inflable para fiestas en CDMX",
-    description: "Renta de Barco Pirata inflable para fiestas temáticas en CDMX y Edomex. El galeón favorito de los niños de 3 a 12 años. Instalación incluida; traslado según zona.",
+    description: "Renta de Barco Pirata inflable en CDMX y Edomex para fiestas temáticas. Incluye instalación; confirma el traslado y disponibilidad al cotizar.",
     badge: "Aventura pirata de gran tamaño",
     cta: "Cotizar Barco Pirata",
     galeria: {

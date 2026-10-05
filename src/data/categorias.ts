@@ -211,7 +211,7 @@ export const CATEGORIAS: Categoria[] = [
     badge: "Por tamaño",
     h1:   "Inflables Pequeños en Renta: para Espacios y Fiestas Reducidas",
     title: "Inflables pequeños en renta para fiestas chicas en CDMX",
-    description: "Renta de inflables pequeños en CDMX desde $1,400. El espacio de instalación se confirma al cotizar; son ideales para departamentos, patios y fiestas de pocos niños. Traslado según zona.",
+    description: "Renta de inflables pequeños en CDMX desde $1,400 para patios, departamentos y fiestas de pocos niños. Confirma tu espacio al cotizar.",
     keyword: "inflables pequeños",
     anchor:  "inflables pequeños",
     intro: [
