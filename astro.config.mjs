@@ -50,6 +50,8 @@ export default defineConfig({
        /blog/2 → 301 → https://brincolins.com/blog/2/ */
   trailingSlash: "always",
   vite: {
+    // El worktree no puede modificar la caché compartida de node_modules.
+    cacheDir: ".astro/vite",
     resolve: {
       alias: {
         "@": "/src",
