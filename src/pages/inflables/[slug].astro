@@ -40,7 +40,14 @@ const categorias = categoriasDeInflable(canon.slug);
    artículos enlazan a la ficha y la ficha devuelve el enlace a cada uno. */
 const guias = (await getCollection("blog"))
   .filter((p) => !p.data.draft && p.data.category === canon.name)
-  .sort((a, b) => a.data.title.localeCompare(b.data.title, "es"));
+  .sort((a, b) => {
+    const aEsPilar = a.id.endsWith("guia-completa") || a.id.endsWith("-guia");
+    const bEsPilar = b.id.endsWith("guia-completa") || b.id.endsWith("-guia");
+
+    if (aEsPilar !== bEsPilar) return aEsPilar ? -1 : 1;
+
+    return a.data.title.localeCompare(b.data.title, "es");
+  });
 
 const ctaBarItems = [
   { label: "Cotizar ahora", href: "/contacto/", icon: "cotizar" },
