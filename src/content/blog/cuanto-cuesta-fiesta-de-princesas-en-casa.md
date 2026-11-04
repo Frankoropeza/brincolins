@@ -100,7 +100,7 @@ El **traslado**, según la zona, salvo en las zonas seleccionadas que te listamo
 
 ### Lo que no ofrecemos
 
-No ofrecemos seguro de responsabilidad civil, renta de salones ni venta de inflables. La pintacaritas no se vende por separado. Si quieres ver cómo se arma el precio en otros modelos, la guía de [precios de renta de inflables en CDMX](/blog/cuanto-cuesta-rentar-inflable-cdmx/) explica qué debe incluir una cotización.
+No ofrecemos seguro de responsabilidad civil, renta de salones ni venta de inflables. La pintacaritas no se vende por separado. Si quieres ver cómo se arma el precio en otros modelos, la guía de [precios de renta de inflables en CDMX](/precios/) explica qué debe incluir una cotización.
 
 > **¿Quieres el número exacto?** Mándanos tu colonia y la fecha, y te respondemos con castillo, mesa y traslado en un solo mensaje. [Pide el total de tu fiesta de princesas](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20el%20total%20del%20Castillo%20de%20Princesas%20con%20mesa%20infantil%20y%20traslado.%20Vivo%20en)
 
@@ -135,7 +135,7 @@ Esta tabla compara las combinaciones posibles con precios netos de catálogo. Lo
 
 ¿Tu festejada no pasa de 3 años y casi todos los invitados son bebés? El [castillo compacto para bebés](/inflables/mini-castillo/) cuesta **$1,400** por separado y se instala en interiores. Los [paquetes armados con inflable y mesa](/servicios/paquetes-de-fiesta/) te muestran qué incluye cada uno.
 
-¿Dudas entre el castillo y el modelo del paquete fiesta? Lee [Princesas o Dragones: cómo decidir entre los dos](/blog/renta-castillo-princesas-inflable-cdmx/). Y para ver los tres castillos con sus precios, la [comparativa de castillos con precios y medidas](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) los pone lado a lado.
+¿Dudas entre el castillo y el modelo del paquete fiesta? Lee [Princesas o Dragones: cómo decidir entre los dos](/inflables/castillo-princesas/). Y para ver los tres castillos con sus precios, la [comparativa de castillos con precios y medidas](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) los pone lado a lado.
 
 ![Castillo inflable rosa y turquesa de dos torres, de frente, con rampa de acceso sobre pasto](/img/inflables/castillo-princesas/castillo-princesas-exterior-jardin.avif)
 

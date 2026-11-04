@@ -65,7 +65,7 @@ La dirección decide la fecha, el horario y el área. Pide por escrito en qué p
 
 #### Coordinación con maestros
 
-Cada maestro conoce a su grupo. Sabe quién necesita más atención. Arma con ellos el orden de los grupos y asigna un docente por turno en la entrada del inflable. ¿Ya organizaste una kermesse? La lógica es casi idéntica, y la guía de [kermesse con inflables en el Estado de México](/blog/kermesse-escolar-inflables-edomex-guia/) te muestra cómo repartir el espacio por grados.
+Cada maestro conoce a su grupo. Sabe quién necesita más atención. Arma con ellos el orden de los grupos y asigna un docente por turno en la entrada del inflable. ¿Ya organizaste una kermesse? La lógica es casi idéntica, y la guía de [kermesse con inflables en el Estado de México](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/) te muestra cómo repartir el espacio por grados.
 
 ### En la empresa, para hijos de colaboradores
 
@@ -116,7 +116,7 @@ Si hay maternal, guardería o hijos pequeños de colaboradores, el [Castillo Bab
 
 ### El grupo central: Jungla
 
-De 3 a 8 años es el grueso de casi cualquier festejo, entre preescolar y primaria baja. El Jungla es un brincolín temático con dinosaurios, palmeras y colores de selva, y sus [medidas y fotos del modelo Jungla](/inflables/mini-jungla/) están en la ficha. Si el evento tiene que quedar bajo techo, revisa [en qué se distinguen Jungla y Gusanitos](/blog/jungla-o-gusanitos-cual-elegir/), porque Gusanitos sí funciona en interiores.
+De 3 a 8 años es el grueso de casi cualquier festejo, entre preescolar y primaria baja. El Jungla es un brincolín temático con dinosaurios, palmeras y colores de selva, y sus [medidas y fotos del modelo Jungla](/inflables/mini-jungla/) están en la ficha. Si el evento tiene que quedar bajo techo, revisa [en qué se distinguen Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/), porque Gusanitos sí funciona en interiores.
 
 ### Los grandes: Extremo
 
@@ -166,7 +166,7 @@ Juegos de patio, estaciones de manualidades y algo tranquilo para los más chico
 
 Si estás en una escuela, te funcionan los juegos por grado, las mesas de dibujo y una función de cuentos para preescolar. En empresas, una mesa de colorear para los pequeños y un rally por equipos para los grandes, que encaja con las carreras del Extremo. ¿Quieres una temática? El Jungla se presta para [armar una excavación con huevos de dinosaurio](/blog/fiesta-de-dinosaurios-con-inflable-cdmx/).
 
-El mismo plan se adapta a otros momentos del año. Para preescolar, la guía de [juegos y turnos para una fiesta de 4 años](/blog/fiesta-de-4-anos-ideas-inflable-cdmx/) sirve con grupos de kínder. Para el cierre de ciclo está la [fiesta de fin de cursos escolar](/blog/renta-inflable-jungla-cdmx/), y para julio y agosto, cómo [meter un inflable en el curso de verano](/blog/curso-de-verano-con-inflable-cdmx/).
+El mismo plan se adapta a otros momentos del año. Para preescolar, la guía de [juegos y turnos para una fiesta de 4 años](/blog/fiesta-de-4-anos-ideas-inflable-cdmx/) sirve con grupos de kínder. Para el cierre de ciclo está la [fiesta de fin de cursos escolar](/inflables/mini-jungla/), y para julio y agosto, cómo [meter un inflable en el curso de verano](/blog/curso-de-verano-con-inflable-cdmx/).
 
 ## ¿Qué olvida casi todo organizador del Día del Niño?
 

@@ -117,9 +117,9 @@ En un cumpleaños de niños pequeños siempre llegan primos mayores. En uno de p
 
 ### Temáticas de cuento y fantasía
 
-El rosa sostiene princesas, unicornios, hadas y mariposas. Te lo explicamos en las [cuatro temáticas que combinan con el castillo rosa](/blog/fiesta-de-unicornios-y-hadas-con-inflable/), con paleta y actividades. Y el [comparativo de inflables temáticos para niñas](/blog/inflables-tematicos-ninas-cdmx/) lo pone junto a otros modelos con diseño.
+El rosa sostiene princesas, unicornios, hadas y mariposas. Te lo explicamos en las [cuatro temáticas que combinan con el castillo rosa](/blog/fiesta-de-unicornios-y-hadas-con-inflable/), con paleta y actividades. Y el [comparativo de inflables temáticos para niñas](/blog/fiesta-princesas-ninas-inflable-cdmx/) lo pone junto a otros modelos con diseño.
 
-¿Vas a planear todo el cumpleaños alrededor del castillo? La guía de [castillo inflable para un cumpleaños infantil en CDMX](/blog/castillo-inflable-cumpleanos-infantil-cdmx/) cubre espacio, tiempos y actividades. Y si tu duda no es entre castillos sino contra el modelo rojo, lee [Castillo de Princesas contra Dragones Rojos, punto por punto](/blog/renta-castillo-princesas-inflable-cdmx/).
+¿Vas a planear todo el cumpleaños alrededor del castillo? La guía de [castillo inflable para un cumpleaños infantil en CDMX](/inflables/castillos/) cubre espacio, tiempos y actividades. Y si tu duda no es entre castillos sino contra el modelo rojo, lee [Castillo de Princesas contra Dragones Rojos, punto por punto](/inflables/castillo-princesas/).
 
 ![Entrada rosa y turquesa de castillo inflable con rampa azul, montado en terraza de madera con macetas](/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif)
 
@@ -131,7 +131,7 @@ Para bodas, bautizos, XV años y eventos formales donde la decoración no admite
 
 En una boda o unos XV años, los niños necesitan un lugar propio para no aburrirse durante la cena o el baile, y tú necesitas que no anden entre las mesas. El [Castillo Blanco de 5 × 7 m](/inflables/castillo-blanco/) mide **5 × 7 × 4 m** y pide **4.7 m de altura libre**. Va sólo en exterior. Lo instalamos en unos 30 minutos y cuesta **$2,600** netos por evento.
 
-¿Dónde ponerlo junto a la pista o las mesas? La guía de [zona infantil con castillo blanco en una boda](/blog/renta-castillo-blanco-inflable-bodas-cdmx/) te lo explica paso a paso.
+¿Dónde ponerlo junto a la pista o las mesas? La guía de [zona infantil con castillo blanco en una boda](/inflables/castillo-blanco/) te lo explica paso a paso.
 
 ### Bautizos en jardín
 
@@ -147,7 +147,7 @@ Cuando tu fiesta es bajo techo o cuando los niños tienen entre 1 y 3 años. Es 
 
 ### Primer año y fiestas de bebés
 
-Si estás organizando un primer cumpleaños, es tu modelo: **2.5 × 2 × 2 m**, de **1 a 3 años**, en **$1,400** netos por evento. Los detalles de horario e invitados están en la guía de [renta del Castillo Baby para fiestas de bebés](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
+Si estás organizando un primer cumpleaños, es tu modelo: **2.5 × 2 × 2 m**, de **1 a 3 años**, en **$1,400** netos por evento. Los detalles de horario e invitados están en la guía de [renta del Castillo Baby para fiestas de bebés](/inflables/mini-castillo/).
 
 #### Si también necesitas mesa
 

@@ -52,7 +52,7 @@ El [Castillo de Princesas para una fiesta infantil](/inflables/castillo-princesa
 
 Una niña de nueve años suele llegar con amistades de la escuela que ya forman su propio grupo. Si el único plan es entrar y salir del inflable, algunas brincarán mucho y otras se quedarán al margen esperando a que alguien les proponga algo. Un reto sencillo da una razón para participar sin obligar a nadie a ser la más rápida ni la más ruidosa.
 
-El castillo conserva un papel claro: es el momento de movimiento entre actividades que requieren menos energía. La resbaladilla y la zona de brinco ayudan a soltar la tensión al inicio, pero no tienen que competir con el pastel, la conversación o una manualidad. Para entender cómo se ordenan los turnos según las edades reales de las invitadas, consulta la [guía de brincolín de princesas para niñas por edad](/blog/brincolin-de-princesas-para-ninas-por-edad/).
+El castillo conserva un papel claro: es el momento de movimiento entre actividades que requieren menos energía. La resbaladilla y la zona de brinco ayudan a soltar la tensión al inicio, pero no tienen que competir con el pastel, la conversación o una manualidad. Para entender cómo se ordenan los turnos según las edades reales de las invitadas, consulta la [guía de brincolín de princesas para niñas por edad](/blog/fiesta-princesas-ninas-inflable-cdmx/).
 
 Esta diferencia evita dos extremos: llenar el inflable hasta que nadie puede jugar cómodo, o montar un castillo que queda vacío porque el grupo no recibió una propuesta concreta. A los nueve años, una instrucción breve suele bastar: “primero resuelvan la pista, luego tienen diez minutos de castillo”.
 
@@ -68,7 +68,7 @@ Estas señales te ayudan a decidir:
 - El grupo tiene edades parecidas o puedes separar a los hermanos menores en otro momento.
 - Quieres que la parte activa suceda fuera de la mesa de alimentos y de la zona de fotos.
 
-La [guía completa del castillo inflable de princesas](/blog/castillo-inflable-de-princesas-guia-completa/) reúne sus requisitos y te permite revisar si el modelo corresponde al espacio antes de diseñar la invitación. La capacidad simultánea se confirma al cotizar; no es buena idea convertir el castillo en sala de espera ni calcular un número a partir de una imagen.
+La [guía completa del castillo inflable de princesas](/inflables/castillo-princesas/) reúne sus requisitos y te permite revisar si el modelo corresponde al espacio antes de diseñar la invitación. La capacidad simultánea se confirma al cotizar; no es buena idea convertir el castillo en sala de espera ni calcular un número a partir de una imagen.
 
 ## ¿Qué programa de tres horas da espacio para jugar y convivir?
 
@@ -95,7 +95,7 @@ Prueba una combinación como esta:
 3. Con la frase completa, cada equipo obtiene su turno para el castillo mientras el otro prepara una tarjeta o elige la siguiente canción.
 4. Reúne al grupo afuera para una foto antes de abrir el segundo turno.
 
-No hace falta ofrecer premios costosos. Un sello, una pulsera de color o escoger el orden de la foto puede ser suficiente. La fiesta no debería depender de que alguien “gane” el brinco. Si tu prioridad son los encuadres y el orden de las tomas, la [guía para fotografiar el Castillo de Princesas](/blog/fotos-con-inflable-de-princesas-ideas/) indica cómo aprovechar el castillo sin estorbar el juego.
+No hace falta ofrecer premios costosos. Un sello, una pulsera de color o escoger el orden de la foto puede ser suficiente. La fiesta no debería depender de que alguien “gane” el brinco. Si tu prioridad son los encuadres y el orden de las tomas, la [guía para fotografiar el Castillo de Princesas](/blog/fiesta-princesas-ninas-inflable-cdmx/) indica cómo aprovechar el castillo sin estorbar el juego.
 
 ## ¿Cómo mantienes seguros los turnos cuando llegan niñas de otras edades?
 
@@ -117,7 +117,7 @@ El Castillo de Princesas deja de ser la respuesta más fuerte cuando la lista es
 | Salón techado o cochera cubierta | Pedir una recomendación de inflables aptos para interiores |
 | Festejo formal con niñas de distintas edades | Revisar qué papel tendrá la zona de juego antes de elegir modelo |
 
-El [circuito inflable Extremo para retos y obstáculos](/blog/inflable-extremo-circuito-de-obstaculos-guia/) propone una actividad distinta y está recomendado para edades de 3 a 12 años; no es un reemplazo automático, porque mide 8 × 4.5 × 3.50 m y necesita más lugar. Si tu duda está entre tipos de castillo, la [comparativa de Castillo Baby, Castillo de Princesas y Castillo Blanco](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) te ayuda a partir de edad, espacio y tipo de evento, no sólo de colores.
+El [circuito inflable Extremo para retos y obstáculos](/inflables/extremo/) propone una actividad distinta y está recomendado para edades de 3 a 12 años; no es un reemplazo automático, porque mide 8 × 4.5 × 3.50 m y necesita más lugar. Si tu duda está entre tipos de castillo, la [comparativa de Castillo Baby, Castillo de Princesas y Castillo Blanco](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) te ayuda a partir de edad, espacio y tipo de evento, no sólo de colores.
 
 ## ¿Qué debes revisar en una fiesta de 9 años en CDMX?
 

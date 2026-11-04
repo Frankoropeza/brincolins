@@ -44,7 +44,7 @@ El inflable es la opción con mejor **costo por hora de entretenimiento**: un mo
 
 **Ventajas:** funciona toda la fiesta, cubre rangos de edad amplios (hay modelos desde 1 año hasta adolescentes), los niños se autogestionan y el adulto solo supervisa. Con un proveedor serio incluye **entrega, instalación, sanitización y recolección**.
 
-**Desventajas:** requiere espacio y una toma de corriente. Si tu fiesta es en un departamento chico sin acceso a patio, techo alto o salón, quizá no es tu opción — con la excepción del Castillo Baby y los Gusanitos, cuya disponibilidad para interiores se confirma al cotizar. Los comparamos en la guía de [inflables pequeños para fiestas en interiores](/blog/inflable-pequeno-fiestas-interiores-cdmx/).
+**Desventajas:** requiere espacio y una toma de corriente. Si tu fiesta es en un departamento chico sin acceso a patio, techo alto o salón, quizá no es tu opción — con la excepción del Castillo Baby y los Gusanitos, cuya disponibilidad para interiores se confirma al cotizar. Los comparamos en la guía de [inflables pequeños para fiestas en interiores](/inflables/para-interiores/).
 
 ## Payaso o show infantil: atención concentrada
 
@@ -56,7 +56,7 @@ Un buen show infantil genera un momento memorable y concentra a todos los niños
 
 ## Cama elástica o trampolín: la opción austera
 
-Más barata que un inflable mediano, pero con limitaciones serias: capacidad de 1 o 2 niños a la vez (la fila se hace larga), sin temática visual, y el riesgo de lesiones es mayor sin red y supervisión constante. Un inflable mediano recibe de 5 a 7 niños simultáneos por poco más dinero; la cuenta completa está en la [comparativa de inflable chico contra grande](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/).
+Más barata que un inflable mediano, pero con limitaciones serias: capacidad de 1 o 2 niños a la vez (la fila se hace larga), sin temática visual, y el riesgo de lesiones es mayor sin red y supervisión constante. Un inflable mediano recibe de 5 a 7 niños simultáneos por poco más dinero; la cuenta completa está en la [comparativa de inflable chico contra grande](/blog/como-elegir-inflable-fiesta-infantil/).
 
 ## Salón de juegos: cero logística, costo por invitado
 
@@ -71,4 +71,4 @@ Llevar la fiesta a un salón resuelve todo — juegos, mobiliario, a veces comid
 - **Sin espacio propio y pocos invitados:** salón de juegos.
 - **Kermeses y eventos escolares:** varios inflables con operador dedicado — ninguna otra alternativa escala igual para cientos de niños.
 
-Si eliges inflable, verifica siempre que el proveedor incluya **sanitización e instalación profesional** y que te diga la capacidad real del modelo. Es lo que separa a una empresa establecida de un particular con un brincolín en la cochera — el checklist completo está en las [7 señales de un proveedor confiable](/blog/senales-proveedor-inflables-confiable-cdmx/). Cuando tengas la fecha, [pide tu cotización](/cotizar/) y te confirmamos disponibilidad.
+Si eliges inflable, verifica siempre que el proveedor incluya **sanitización e instalación profesional** y que te diga la capacidad real del modelo. Es lo que separa a una empresa establecida de un particular con un brincolín en la cochera — el checklist completo está en las [7 señales de un proveedor confiable](/blog/elegir-empresa-renta-inflables-profesional-cdmx/). Cuando tengas la fecha, [pide tu cotización](/cotizar/) y te confirmamos disponibilidad.

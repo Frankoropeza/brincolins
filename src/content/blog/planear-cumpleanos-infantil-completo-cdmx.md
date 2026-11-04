@@ -116,7 +116,7 @@ Uno de los errores más comunes que vemos es elegir el inflable equivocado para 
 
 A esta edad la seguridad manda, y el Castillo Baby es el modelo del catálogo diseñado para este rango: mide 2.5×2×2 m y su escala compacta no intimida a niños que todavía están aprendiendo a brincar con confianza.
 
-Lo que hemos visto en campo es que los niños de 2 y 3 años no necesitan obstáculos ni retos — necesitan espacio para saltar y explorar a su ritmo, con supervisión adulta obligatoria en todo momento. Cómo se arma la fiesta de 1 año completa —horario, duración e invitados— está en la guía del [primer cumpleaños](/blog/renta-mini-castillo-inflable-bebes-cdmx/).
+Lo que hemos visto en campo es que los niños de 2 y 3 años no necesitan obstáculos ni retos — necesitan espacio para saltar y explorar a su ritmo, con supervisión adulta obligatoria en todo momento. Cómo se arma la fiesta de 1 año completa —horario, duración e invitados— está en la guía del [primer cumpleaños](/inflables/mini-castillo/).
 
 ### 4-6 años: la edad de oro del brincolín
 
@@ -136,7 +136,7 @@ A esta edad les empieza a importar que el inflable sea "cool". Los colores paste
 
 **Recomendados:** [Extremo](/inflables/extremo/) (**$2,500 MXN**) o Barco Pirata (**$2,300 MXN**), ambos para niños de 3 a 12 años.
 
-Los niños de 10 a 12 años pueden disfrutar el inflable más demandante físicamente. El **Extremo** es exactamente eso: un circuito en doble carril, recomendado de 3 a 12 años. Para adolescentes y XV años, el argumento completo está en la guía de [inflables para adolescentes y jóvenes](/blog/inflables-para-adolescentes-jovenes-cdmx/).
+Los niños de 10 a 12 años pueden disfrutar el inflable más demandante físicamente. El **Extremo** es exactamente eso: un circuito en doble carril, recomendado de 3 a 12 años. Para adolescentes y XV años, el argumento completo está en la guía de [inflables para adolescentes y jóvenes](/inflables/para-adultos/).
 
 Puedes ver todos los modelos y sus especificaciones en el [catálogo de inflables](/inflables/).
 

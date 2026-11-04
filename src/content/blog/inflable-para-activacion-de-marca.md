@@ -90,7 +90,7 @@ La marca puede sumar una acción breve antes o después del recorrido, siempre f
 | Salida | Recibe a quienes terminan y libera el final | Staff de activación | Que se acumulen niños o materiales promocionales |
 | Módulo de marca | Conversa con acompañantes y entrega información | Promotor o anfitrión | Que el registro bloquee la entrada o la salida |
 
-Para entender las medidas, edades y requisitos que sostienen esta operación, consulta la [guía completa del circuito Extremo](/blog/inflable-extremo-circuito-de-obstaculos-guia/). Si el volumen será propio de una escuela o feria infantil, la [organización de un juego inflable de obstáculos para escuelas](/blog/juego-inflable-de-obstaculos-para-escuelas/) ayuda a adaptar la fila por bloques sin copiar una operación que no corresponda a tu sede.
+Para entender las medidas, edades y requisitos que sostienen esta operación, consulta la [guía completa del circuito Extremo](/inflables/extremo/). Si el volumen será propio de una escuela o feria infantil, la [organización de un juego inflable de obstáculos para escuelas](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/) ayuda a adaptar la fila por bloques sin copiar una operación que no corresponda a tu sede.
 
 ## ¿Qué debes confirmar con la sede antes de anunciar la activación?
 
@@ -104,7 +104,7 @@ Confirma estos puntos con producción, administración o venue antes de publicar
 4. **Circulación del público.** Deja un lateral para fila, otro para salida y un perímetro sin mesas, muestras, cables ni decoración.
 5. **Plan por clima.** El Extremo es de uso en seco. Si el formato depende de exterior, el programa necesita una decisión clara para lluvia, granizo o viento fuerte.
 
-Si la sede es una calle cerrada o un espacio que requiere autorización local, revisa la [logística de un inflable para fiesta en la calle](/blog/inflable-para-fiesta-en-la-calle-o-cerrada/) y consulta a la alcaldía o municipio antes de anunciar la dinámica. En concreto o estacionamiento descubierto, revisa también superficie, pendiente y acceso con la sede, porque la ruta de público suele cambiar durante el día.
+Si la sede es una calle cerrada o un espacio que requiere autorización local, revisa la [logística de un inflable para fiesta en la calle](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/) y consulta a la alcaldía o municipio antes de anunciar la dinámica. En concreto o estacionamiento descubierto, revisa también superficie, pendiente y acceso con la sede, porque la ruta de público suele cambiar durante el día.
 
 ## ¿Cuánto staff requiere una activación con circuito infantil?
 
@@ -116,7 +116,7 @@ Una operación pequeña puede trabajar con tres puestos claros:
 - **Control de salida:** orienta a los niños fuera de la llegada y evita que vuelvan por el lado equivocado.
 - **Anfitrión de marca:** resuelve preguntas de madres, padres o acompañantes en el módulo, sin invadir el perímetro del juego.
 
-Si habrá varios bloques, agenda relevos. El staff también debe saber cuándo cerrar la estación: durante alimentos, cambios de programa o ante lluvia. La [supervisión de inflables en eventos](/blog/supervision-de-inflables-en-eventos/) desarrolla los roles, la señalización y las reglas que vale la pena comunicar antes de abrir.
+Si habrá varios bloques, agenda relevos. El staff también debe saber cuándo cerrar la estación: durante alimentos, cambios de programa o ante lluvia. La [supervisión de inflables en eventos](/blog/seguridad-inflables-fiestas-infantiles/) desarrolla los roles, la señalización y las reglas que vale la pena comunicar antes de abrir.
 
 ## ¿Cómo cambia la logística en CDMX según la sede de la activación?
 
@@ -128,13 +128,13 @@ En la ciudad, la ubicación define tanto el traslado como el acceso. Una explana
 | [Cobertura de inflables en Polanco, Lomas y Santa Fe](/cobertura/polanco/) | Polanco, Lomas de Chapultepec, Bosques de las Lomas y Santa Fe | Carga, circulación peatonal y punto de corriente | Sin costo adicional en Polanco; según colonia en Lomas y Santa Fe |
 | [Cobertura de inflables en CDMX](/cobertura/cdmx/) | Las 16 alcaldías | Dirección exacta, acceso y restricciones de la sede | Según colonia; consulta condiciones por zona |
 
-No asumas que una terraza o roof garden sirve por estar en una oficina. El Extremo es exterior y necesita sus medidas completas, además de una ruta de acceso viable. En Santa Fe, San Ángel o Las Águilas, la [renta del Extremo en Álvaro Obregón](/blog/inflable-extremo-santa-fe-alvaro-obregon/) baja esa revisión a escenarios de jardines, explanadas y corporativos.
+No asumas que una terraza o roof garden sirve por estar en una oficina. El Extremo es exterior y necesita sus medidas completas, además de una ruta de acceso viable. En Santa Fe, San Ángel o Las Águilas, la [renta del Extremo en Álvaro Obregón](/cobertura/alvaro-obregon/) baja esa revisión a escenarios de jardines, explanadas y corporativos.
 
 ## ¿Qué debe llevar la cotización para que compras la pueda aprobar?
 
 La renta base del Extremo es de $2,500 netos por evento e incluye instalación y recolección. Si necesitas factura, se agrega 16% de IVA. El traslado se define por la zona; por eso, una solicitud que sólo diga “activación en CDMX” no permite cerrar el monto real.
 
-Envía fecha, horario de montaje y de apertura, dirección completa, fotos y medidas del área, acceso para el equipo, edades previstas y si requieres factura. Si la campaña incluye más de un inflable o mobiliario, comparte la lista completa antes de pedir autorización. La [guía de precio de una pista de obstáculos inflable](/blog/pista-de-obstaculos-inflable-precio/) explica qué integra la renta y qué cargos se confirman según el caso; la [lista de precios de inflables en CDMX](/precios/) ayuda a comparar modelos sin suponer descuentos.
+Envía fecha, horario de montaje y de apertura, dirección completa, fotos y medidas del área, acceso para el equipo, edades previstas y si requieres factura. Si la campaña incluye más de un inflable o mobiliario, comparte la lista completa antes de pedir autorización. La [guía de precio de una pista de obstáculos inflable](/inflables/extremo/) explica qué integra la renta y qué cargos se confirman según el caso; la [lista de precios de inflables en CDMX](/precios/) ayuda a comparar modelos sin suponer descuentos.
 
 ## ¿Qué errores le quitan valor a la estación infantil de una marca?
 

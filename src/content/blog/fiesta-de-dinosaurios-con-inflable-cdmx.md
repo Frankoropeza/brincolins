@@ -181,7 +181,7 @@ Este reparto sostiene el ritmo con un solo inflable:
 - **2:15 a 2:45, museo de fósiles.** Segunda ronda de turnos para quien ya hizo la digestión.
 - **2:45 a 3:30, pastel y cierre.** Ruptura de huevos de yeso y salida escalonada.
 
-Pon una alarma para cada cambio. Quien lleva el tiempo no debe ser quien cuida la entrada del inflable. ¿Organizas un cierre de ciclo escolar en lugar de un cumpleaños? La logística cambia, y la tienes en la guía de [fin de cursos con inflable](/blog/renta-inflable-jungla-cdmx/).
+Pon una alarma para cada cambio. Quien lleva el tiempo no debe ser quien cuida la entrada del inflable. ¿Organizas un cierre de ciclo escolar en lugar de un cumpleaños? La logística cambia, y la tienes en la guía de [fin de cursos con inflable](/inflables/mini-jungla/).
 
 ## ¿Jungla o Dragones Rojos si el festejado ama los dinosaurios?
 
@@ -189,7 +189,7 @@ Si el tema es dinosaurios, el Jungla es la opción directa: trae dinosaurios y p
 
 Los [Dragones Rojos, con dos dragones de unos 3 m](/inflables/dragones-rojos/), son el modelo más rentado, con resbaladilla integrada y mallas de seguridad laterales. Miden 5 × 3 × 2.80 m y piden 4.5 m de altura libre, contra 4.2 m del Jungla. Si tu espacio tiene la altura justa, esos 30 centímetros deciden.
 
-¿El festejado mezcla dinosaurios con dragones y castillos? Entonces los Dragones Rojos también funcionan. Para ver todos los diseños con historia propia entra a los [catálogo de inflables con temática](/inflables/tematicos/) o al [repaso de temáticas para fiestas infantiles](/blog/inflables-tematicos-infantiles-cdmx/). Y si la fiesta podría terminar bajo techo, compara antes [Jungla o Gusanitos según tu espacio](/blog/jungla-o-gusanitos-cual-elegir/).
+¿El festejado mezcla dinosaurios con dragones y castillos? Entonces los Dragones Rojos también funcionan. Para ver todos los diseños con historia propia entra a los [catálogo de inflables con temática](/inflables/tematicos/). Y si la fiesta podría terminar bajo techo, compara antes [Jungla o Gusanitos según tu espacio](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/).
 
 > **Los sábados se llenan primero.** La disponibilidad se confirma por WhatsApp: dinos tu fecha y te decimos si el Jungla o los Dragones Rojos están libres para tu fiesta. [Preguntar disponibilidad del Jungla](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20el%20Jungla%20esta%20disponible%20para%20mi%20fiesta%20de%20dinosaurios)
 

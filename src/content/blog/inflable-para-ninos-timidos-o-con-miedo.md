@@ -81,9 +81,9 @@ Este orden también baja la tensión de los adultos. Si alguien de la familia qu
 
 Gusanitos no se usa igual que una cámara de salto. Es un recorrido de túneles conectados con varias entradas y salidas. Para algunos niños, ver que pueden asomarse por una boca y reaparecer pronto les da una sensación más clara de inicio y final. También permite quedarse afuera mirando cómo pasa el resto sin estar frente a una única puerta de acceso.
 
-Eso no significa que el circuito sea “para niños con miedo” ni que todos los niños tímidos prefieran túneles. El modelo se elige por el rango de edades, el espacio y el tipo de juego que busca tu grupo. La [información de Gusanitos antes de reservar](/blog/inflable-gusanitos-guia-completa/) explica sus medidas, condiciones de instalación y dinámica; este artículo se concentra en cómo acompañar la decisión individual de entrar.
+Eso no significa que el circuito sea “para niños con miedo” ni que todos los niños tímidos prefieran túneles. El modelo se elige por el rango de edades, el espacio y el tipo de juego que busca tu grupo. La [información de Gusanitos antes de reservar](/inflables/gusanitos/) explica sus medidas, condiciones de instalación y dinámica; este artículo se concentra en cómo acompañar la decisión individual de entrar.
 
-Si tu hijo disfruta explorar, esconderse un instante y volver a verte, el recorrido puede ser una opción amable. Si le gusta mirar primero, no hay prisa por recorrerlo completo. Las [pautas de juego por edades en los túneles](/blog/inflable-de-tuneles-como-juegan-los-ninos/) te sirven para preparar un turno sin carreras ni cruces en las bocas.
+Si tu hijo disfruta explorar, esconderse un instante y volver a verte, el recorrido puede ser una opción amable. Si le gusta mirar primero, no hay prisa por recorrerlo completo. Las [pautas de juego por edades en los túneles](/blog/circuito-de-tuneles-vs-brincolin/) te sirven para preparar un turno sin carreras ni cruces en las bocas.
 
 | Situación del grupo | Ajuste que puede ayudar | Qué evitar |
 |---|---|---|
@@ -104,7 +104,7 @@ Mantén estas condiciones durante la fiesta:
 - Pon la mesa de pastel, regalos y sillitas fuera del trayecto; una salida tapada puede hacer que el circuito se sienta menos predecible.
 - Haz una pausa de juego para comida, pastel o piñata en vez de pedir a los adultos que supervisen mientras atienden otra actividad.
 
-Para resolver la ubicación de cada zona antes del evento, revisa un [esquema de circulación entre mesa, sillitas y circuito](/blog/montaje-inflable-con-mesa-y-sillas-infantiles/). Si la fiesta será en una cochera, comprueba también la altura al portón, la ventilación y que los autos estén fuera con la [revisión de una cochera como sede de fiesta](/blog/inflable-para-fiesta-en-cochera/).
+Para resolver la ubicación de cada zona antes del evento, revisa un [esquema de circulación entre mesa, sillitas y circuito](/servicios/mobiliario-para-fiestas/). Si la fiesta será en una cochera, comprueba también la altura al portón, la ventilación y que los autos estén fuera con la [revisión de una cochera como sede de fiesta](/blog/fiesta-en-patio-pequeno-con-inflable/).
 
 ## ¿Qué haces si después de mirar decide que no quiere entrar?
 
@@ -112,13 +112,13 @@ Respeta la respuesta. Una fiesta tiene más oportunidades que el inflable: puede
 
 No anuncies su decisión a los demás ni pidas a otros niños que lo convenzan. Es mejor decir con naturalidad: “ahorita está en otra actividad”. Si después se acerca, vuelve a ofrecer la misma puerta abierta: observar, tocar la lona o hacer un tramo corto. Que cambie de opinión es bienvenido; que no la cambie también.
 
-Una propuesta de [juegos y decoración en una fiesta arcoíris](/blog/fiesta-arcoiris-infantil-con-inflable/) puede incorporar mural, búsqueda de colores y una mesa de dibujo fuera de la zona de juego. Esas estaciones no son un premio de consolación: dan opciones reales a niños que alternan movimiento, conversación y descanso.
+Una propuesta de [juegos y decoración en una fiesta arcoíris](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/) puede incorporar mural, búsqueda de colores y una mesa de dibujo fuera de la zona de juego. Esas estaciones no son un premio de consolación: dan opciones reales a niños que alternan movimiento, conversación y descanso.
 
 ## ¿Cómo eliges el inflable sin exigirle demasiado a tu hijo?
 
 Primero compara la edad de los invitados y el lugar. Gusanitos está indicado para 2 a 8 años, mide 5 × 3 × 2.80 m y puede instalarse bajo techo con 3.2 m de altura libre. La base debe ir en una superficie plana, despejada y sin objetos punzantes; también se requiere una toma de 110 V a menos de 20 m. La viabilidad del espacio y la capacidad se confirman al cotizar.
 
-No elijas únicamente porque crees que “lo obligará a socializar”. Un inflable es una actividad dentro de la fiesta, no una prueba. Si habrá niños de un año, el modelo indicado por edad es el [Castillo Baby para niñas y niños de 1 a 3 años](/inflables/mini-castillo/). Para familias que comparan el recorrido contra una zona de salto, la [comparativa entre circuito de túneles y brincolín clásico](/blog/circuito-de-tuneles-vs-brincolin/) ayuda a distinguir el flujo, la supervisión y las edades. Si quieres revisar cómo cambia la elección para los más pequeños, consulta también [desde qué edad puede usar un bebé un brincolín](/blog/brincolin-para-bebes-desde-que-edad/).
+No elijas únicamente porque crees que “lo obligará a socializar”. Un inflable es una actividad dentro de la fiesta, no una prueba. Si habrá niños de un año, el modelo indicado por edad es el [Castillo Baby para niñas y niños de 1 a 3 años](/inflables/mini-castillo/). Para familias que comparan el recorrido contra una zona de salto, la [comparativa entre circuito de túneles y brincolín clásico](/blog/circuito-de-tuneles-vs-brincolin/) ayuda a distinguir el flujo, la supervisión y las edades. Si quieres revisar cómo cambia la elección para los más pequeños, consulta también [desde qué edad puede usar un bebé un brincolín](/blog/mejor-inflable-para-ninos-menores-de-3-anos/).
 
 También importa la fecha y el sitio. Si vas a usar salón o terraza techada, mide al punto más bajo del techo antes de reservar decoración. En los [inflables para interiores de BRINCOLINS](/inflables/para-interiores/) puedes ubicar los modelos que parten de esa condición, pero la confirmación final se hace con los datos reales de tu espacio.
 
@@ -144,4 +144,4 @@ Al pedir cotización, no necesitas etiquetar al niño ni explicar de más. Basta
 - Fotos del área y del acceso; si hay techo, la altura hasta lámparas, vigas o ventiladores.
 - Tipo de piso, ubicación de la toma de corriente y cualquier portería, caseta o restricción de horario.
 
-Si Gusanitos encaja con la edad y el espacio, puedes [cotizar el circuito de túneles para una fiesta infantil](/cotizar/) con esos datos. Tener un plan tranquilo no significa que el juego será silencioso ni que todos participarán igual; significa que nadie tendrá que hacerlo a la fuerza. Para resolver la renta publicada, traslado e IVA antes de apartar, consulta también el [precio de renta del inflable Gusanitos](/blog/renta-inflable-gusanitos-precio/). Puedes comunicarte por WhatsApp al 55 3128 1706 si prefieres compartir las fotografías del lugar por mensaje.
+Si Gusanitos encaja con la edad y el espacio, puedes [cotizar el circuito de túneles para una fiesta infantil](/cotizar/) con esos datos. Tener un plan tranquilo no significa que el juego será silencioso ni que todos participarán igual; significa que nadie tendrá que hacerlo a la fuerza. Para resolver la renta publicada, traslado e IVA antes de apartar, consulta también el [precio de renta del inflable Gusanitos](/inflables/gusanitos/). Puedes comunicarte por WhatsApp al 55 3128 1706 si prefieres compartir las fotografías del lugar por mensaje.

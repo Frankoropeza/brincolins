@@ -71,7 +71,7 @@ Funcionan bien si están despejados. Pide a la administración de la parroquia q
 
 ### Clubes deportivos y casas de cultura
 
-Tienen áreas verdes amplias. Pero el pasto a veces esconde desniveles, piedras o restos de obra. Antes de apartar, lee qué revisar para [preparar un terreno de pasto o tierra](/blog/inflables-jardin-exterior-cdmx/) y camina el área con calma.
+Tienen áreas verdes amplias. Pero el pasto a veces esconde desniveles, piedras o restos de obra. Antes de apartar, lee qué revisar para [preparar un terreno de pasto o tierra](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/) y camina el área con calma.
 
 #### Quién autoriza el espacio
 
@@ -131,7 +131,7 @@ Tu plan B es otro modelo: Gusanitos, apto para interiores. El Jungla no entra ba
 
 [Gusanitos, el circuito de túneles para interiores](/inflables/gusanitos/), es más circuito que brincolín: túneles de colores conectados con varias entradas y salidas, para niños de 2 a 8 años. Mide 5 × 3 × 2.80 m, pide 3.2 m de altura libre, se instala en unos 20 minutos y cuesta $1,600, igual que el Jungla. Funciona con grupos de edades mezcladas, algo muy común en un curso.
 
-Si el pronóstico de tu semana es de lluvia constante, valora Gusanitos en lugar del Jungla. Piensa en una semana de julio con lluvia diaria: si el inflable ya está bajo techo, los turnos siguen su curso aunque truene afuera, y tus monitores no tienen que mover a nadie corriendo. Para comparar los dos con calma, lee [cuándo conviene cada uno, Jungla o Gusanitos](/blog/jungla-o-gusanitos-cual-elegir/). ¿Quieres ver todas las opciones bajo techo? Entra a los [inflables para salones y espacios techados](/inflables/para-interiores/).
+Si el pronóstico de tu semana es de lluvia constante, valora Gusanitos en lugar del Jungla. Piensa en una semana de julio con lluvia diaria: si el inflable ya está bajo techo, los turnos siguen su curso aunque truene afuera, y tus monitores no tienen que mover a nadie corriendo. Para comparar los dos con calma, lee [cuándo conviene cada uno, Jungla o Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/). ¿Quieres ver todas las opciones bajo techo? Entra a los [inflables para salones y espacios techados](/inflables/para-interiores/).
 
 #### Mide la altura del salón
 
@@ -181,7 +181,7 @@ El día temático, el de convivencia con familias o el cierre. Los tres funciona
 
 ### El cierre del curso
 
-Es el día con más energía y el que más se recuerda. La [logística de un fin de cursos con inflable](/blog/renta-inflable-jungla-cdmx/) te ayuda con un grupo grande que llega al mismo tiempo. Y la misma organización sirve en abril, si tu escuela quiere [organizar el Día del Niño con la misma lógica](/blog/dia-del-nino-inflables-escuela-empresa-cdmx/).
+Es el día con más energía y el que más se recuerda. La [logística de un fin de cursos con inflable](/inflables/mini-jungla/) te ayuda con un grupo grande que llega al mismo tiempo. Y la misma organización sirve en abril, si tu escuela quiere [organizar el Día del Niño con la misma lógica](/blog/dia-del-nino-inflables-escuela-empresa-cdmx/).
 
 ## ¿Qué revisas antes de apartar el inflable del curso?
 

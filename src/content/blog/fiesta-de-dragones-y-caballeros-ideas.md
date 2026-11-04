@@ -1,6 +1,6 @@
 ---
-title: "Decoración de fiesta de dragones rojo y dorado"
-h1: "Decoración de fiesta de dragones: rojo, dorado y verde alrededor del inflable"
+title: "Fiesta de dragones y caballeros: juegos y decoración"
+h1: "Fiesta de dragones y caballeros: decoración, juegos y menú alrededor del inflable"
 description: "Planea una decoración de fiesta de dragones rojo y dorado que acompañe el inflable, ordene el espacio y luzca bien en fotos en CDMX."
 excerpt: "Una paleta bien distribuida hace que Dragones Rojos sea parte de la ambientación sin invadir sus entradas ni la resbaladilla. Aquí tienes combinaciones, zonas y una lista para montarlas."
 publishDate: "2026-11-02"
@@ -84,7 +84,7 @@ Para que sea fácil de atender, separa tres áreas:
 - **Dulces o recuerdos:** ponlos a un costado, en recipientes bajos que no tapen la vista.
 - **Servilletas y platos:** sitúalos en el extremo opuesto para que quien se sirva no alcance las velas ni el pastel.
 
-Si hay comida caliente, bebidas o una mesa de adultos, no las mezcles con la estación de fotos. La foto principal se toma más tranquila cuando no hay filas frente al festejado. Para una celebración de seis años, puedes combinar esta mesa con los tiempos y juegos de la [fiesta de 6 años con brincolín de dragón](/blog/brincolin-de-dragon-para-cumpleanos-de-6-anos/), sin pedirle a la decoración que también entretenga a todo el grupo. Si aún estás decidiendo el modelo, la [orientación para elegir un inflable de dragones](/blog/inflable-dragones-rojos-guia-completa/) reúne sus datos de uso, edad y espacio.
+Si hay comida caliente, bebidas o una mesa de adultos, no las mezcles con la estación de fotos. La foto principal se toma más tranquila cuando no hay filas frente al festejado. Para una celebración de seis años, puedes combinar esta mesa con los tiempos y juegos de la [fiesta de 6 años con brincolín de dragón](/blog/fiesta-de-6-anos-ideas-inflable/), sin pedirle a la decoración que también entretenga a todo el grupo. Si aún estás decidiendo el modelo, la [orientación para elegir un inflable de dragones](/inflables/dragones-rojos/) reúne sus datos de uso, edad y espacio.
 
 ## ¿Qué fondo de fotos acompaña un inflable rojo sin competir con él?
 
@@ -99,7 +99,7 @@ También vale decidir qué fotos quieres antes de montar. Estas cuatro suelen ap
 - Un plano abierto desde la entrada donde se distingan las zonas de mesa e inflable.
 - El grupo de niños reunido fuera del inflable, nunca bloqueando su acceso para la foto.
 
-Para una alternativa con vegetación y animales, las [ideas de decoración de selva con globos y hojas](/blog/decoracion-fiesta-de-selva-globos-y-hojas/) pueden inspirar el uso de verde oscuro sin trasladar la temática completa de otro modelo.
+Para una alternativa con vegetación y animales, las [ideas de decoración de selva con globos y hojas](/blog/fiesta-tematica-safari-inflable-cdmx/) pueden inspirar el uso de verde oscuro sin trasladar la temática completa de otro modelo.
 
 ## ¿Cómo conviertes rojo, dorado y verde en juegos para los invitados?
 
@@ -111,7 +111,52 @@ Tres ideas de bajo montaje son suficientes para una tarde:
 2. Usa los escudos de cartulina para llamar a los turnos por color; así no tienes que ordenar a todos a gritos junto a la entrada.
 3. Reserva una mesa pequeña para colorear mientras otros brincan, sin llevar plumones ni papeles cerca de la lona.
 
-Cuando el grupo necesita más actividad física que decoración, revisa primero la [guía para elegir un inflable con resbaladilla](/blog/inflable-con-resbaladilla-para-ninos/). Explica qué cambia entre una resbaladilla integrada y un tobogán, algo útil si el festejado imagina carreras y no sólo un tema de castillo.
+Cuando el grupo necesita más actividad física que decoración, revisa primero la [guía para elegir un inflable con resbaladilla](/inflables/toboganes/). Explica qué cambia entre una resbaladilla integrada y un tobogán, algo útil si el festejado imagina carreras y no sólo un tema de castillo.
+
+## ¿Qué juegos, horario y menú van con una fiesta de caballeros y dragones?
+
+### ¿Qué juegos funcionan y con qué edades?
+
+El error clásico es planear un solo juego para todos. Con un rango de 3 a 8 años eso no existe: lo que engancha a un niño mayor puede aburrir a uno más pequeño y al revés.
+
+**Para los de 3 a 5 años:**
+
+- **Fábrica de escudos.** Pintar, pegar y ponerle nombre al escudo. Aguanta veinte minutos y no requiere reglas.
+- **Domar al dragón.** Un adulto con una cola de tela y los niños intentando quitársela. Cero preparación.
+- **El castillo cerrado.** Turnos cortos en el inflable, sin competencia, solo brincar.
+
+**Para los de 6 a 8 años:**
+
+- **Torneo de caballeros.** Combates con espadas de foam, por eliminación, con un árbitro adulto y reglas claras. Es la actividad que más rinde.
+- **Búsqueda del tesoro con mapa.** Cinco pistas por el jardín que terminan en el cofre. Úsala a la mitad de la fiesta, cuando baja la energía.
+- **Defensa del castillo.** Un equipo dentro del inflable y otro que "ataca" desde afuera lanzando pelotas suaves. Funciona con supervisión y con reglas de no empujar.
+
+Si quieres ver qué otros modelos del catálogo sostienen una temática completa, el repaso está en [inflables temáticos para fiestas infantiles](/inflables/tematicos/).
+
+### ¿Cómo se reparte la tarde?
+
+Una fiesta de cuatro horas con veinte niños necesita estructura o se desarma sola. Este es el reparto que mejor funciona:
+
+- **0:00 a 0:30 — Llegada y armería.** Cada niño pinta su escudo y recibe su corona. Sirve para que los que llegan tarde no se pierdan nada.
+- **0:30 a 1:15 — Primeros turnos en el castillo.** Turnos de 15 a 20 minutos, agrupados por edad. Los chicos primero.
+- **1:15 a 1:45 — Torneo de caballeros.** Con el inflable cerrado y todos mirando. Es el momento de mayor atención de la tarde.
+- **1:45 a 2:15 — Banquete.** Comida y pastel, con el inflable cerrado y un adulto en la entrada. Brincar recién comidos termina mal.
+- **2:15 a 3:00 — Búsqueda del tesoro y segunda ronda de turnos.**
+- **3:00 a 3:30 — Piñata, recuerditos y salida escalonada.**
+
+Un cronómetro de celular con alarma sostiene este plan mejor que cualquier animador contratado.
+
+### ¿Qué menú va con la temática?
+
+Nombrar los platillos hace más por la ambientación que decorarlos. No cambies la comida: cambia la etiqueta.
+
+- **Patas de dragón:** alitas o nuggets.
+- **Botín del cofre:** fruta cortada en un recipiente de madera.
+- **Pócima del mago:** agua de jamaica en vasos oscuros.
+- **Escudos comestibles:** galletas redondas decoradas.
+- **Pan del banquete:** bolillos partidos con crema y jamón, servidos en una tabla.
+
+Con veinte niños brincando tres horas, la fruta y el agua funcionan mejor que el azúcar. La regla que damos siempre: calcula menos comida de la que crees, porque en una fiesta con inflable los niños comen poco.
 
 ## ¿Qué debes considerar al decorar una fiesta de dragones en CDMX?
 
@@ -119,7 +164,7 @@ En CDMX el lugar cambia mucho la forma de montar: un patio en Coyoacán, una zon
 
 La [cobertura de renta de inflables en CDMX](/cobertura/cdmx/) reúne las 16 alcaldías y explica que el traslado depende de la colonia. Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco no tienen costo adicional; en otras ubicaciones se confirma antes de reservar. En una privada de Del Valle o un jardín compartido de Coyoacán, suma a tu checklist el permiso de administración y la ruta del equipo desde el vehículo.
 
-En Iztapalapa, por ejemplo, el área exterior de una casa en Ermita, cerca de la UAM o en Santa Martha debe revisarse con el mismo cuidado que la decoración: piso despejado, corriente cercana y acceso. La [renta de inflables en Iztapalapa con Dragones Rojos](/blog/inflable-de-dragones-iztapalapa/) aterriza esos puntos y el rango de traslado por colonia. Si lo que te preocupa es el monto completo antes de comprar materiales, consulta el [precio de renta del inflable de dragones](/blog/cuanto-cuesta-rentar-inflable-de-dragones/) para separar renta, traslado e IVA.
+En Iztapalapa, por ejemplo, el área exterior de una casa en Ermita, cerca de la UAM o en Santa Martha debe revisarse con el mismo cuidado que la decoración: piso despejado, corriente cercana y acceso. La [renta de inflables en Iztapalapa con Dragones Rojos](/cobertura/iztapalapa/) aterriza esos puntos y el rango de traslado por colonia. Si lo que te preocupa es el monto completo antes de comprar materiales, consulta el [precio de renta del inflable de dragones](/inflables/dragones-rojos/) para separar renta, traslado e IVA.
 
 ## ¿Qué conviene dejar listo antes de que llegue el equipo?
 
@@ -134,7 +179,7 @@ Usa este checklist el día previo:
 - Define una persona adulta que reciba al equipo y supervise los turnos.
 - Arma la mesa de pastel y el fondo de fotos fuera del perímetro confirmado del inflable.
 
-El modelo es de uso en seco. Si la fiesta es al aire libre, no planees decoración de papel o una dinámica de globos que dependa de mantener a los niños dentro si llueve o hay viento fuerte. La [guía para proteger el inflable ante lluvia y viento](/blog/inflable-con-lluvia-o-viento-que-hacer/) y la [política de cancelación por mal clima](/politica-de-cancelacion/) te permiten preparar un plan alterno sin inventar una solución el mismo día.
+El modelo es de uso en seco. Si la fiesta es al aire libre, no planees decoración de papel o una dinámica de globos que dependa de mantener a los niños dentro si llueve o hay viento fuerte. La [guía para proteger el inflable ante lluvia y viento](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/) y la [política de cancelación por mal clima](/politica-de-cancelacion/) te permiten preparar un plan alterno sin inventar una solución el mismo día.
 
 ## ¿Cuándo vale la pena sumar mobiliario o una actividad al tema de dragones?
 

@@ -1,6 +1,6 @@
 ---
-title: "Temas para primer cumpleaños con Castillo Baby"
-h1: "8 temas para primer cumpleaños que combinan con un Castillo Baby"
+title: "Primer cumpleaños con inflable: temas y organización"
+h1: "Primer cumpleaños con inflable: 8 temas y cómo organizar la fiesta de 1 año"
 description: "Elige temas para primer cumpleaños con Castillo Baby: paletas, decoración, fotos y montaje para una fiesta pequeña en casa o CDMX."
 excerpt: "Ocho temas que se ven ordenados alrededor de un Castillo Baby, con decisiones prácticas de color, fotos y circulación para una fiesta de un año."
 publishDate: "2026-11-02"
@@ -54,7 +54,7 @@ El tema debe verse desde la mesa y en las fotos, sin apropiarse del lugar por do
 
 Elige el tema a partir de algo que puedas repetir con mesura: una forma —nube, estrella o fruta—, un par de colores o un animal. No hace falta llenar todos los muros. Para una fiesta de bebés, los detalles visibles a la altura de las fotografías suelen rendir más que una decoración repartida por toda la casa.
 
-Antes de definir proveedores o mobiliario, verifica que el grupo que jugará sí corresponda al modelo. La [guía de brincolín para bebés según la edad](/blog/brincolin-para-bebes-desde-que-edad/) te ayuda a separar el uso de uno, dos y tres años; los hermanos mayores necesitan una actividad distinta, no turnos dentro del mismo castillo.
+Antes de definir proveedores o mobiliario, verifica que el grupo que jugará sí corresponda al modelo. La [guía de brincolín para bebés según la edad](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) te ayuda a separar el uso de uno, dos y tres años; los hermanos mayores necesitan una actividad distinta, no turnos dentro del mismo castillo.
 
 ## ¿Cuáles son 8 temas para primer cumpleaños fáciles de adaptar?
 
@@ -73,7 +73,7 @@ Estas propuestas no dependen de licencias, personajes ni una decoración imposib
 
 Para que la idea no se desordene, elige una paleta y un elemento principal; después repítelos sólo en dos o tres puntos. En una fiesta de frutas, por ejemplo, la mesa, las etiquetas y el fondo bastan. No necesitas adornar también puertas, sillas, pasillos y la entrada al juego.
 
-Si prefieres un tema hecho de color, toma como referencia la [fiesta arcoíris infantil con inflable](/blog/fiesta-arcoiris-infantil-con-inflable/). El enfoque es distinto porque está pensado para otro modelo y edades, pero te puede servir para decidir qué tono domina cada zona sin convertir la decoración en ruido visual.
+Si prefieres un tema hecho de color, toma como referencia la [fiesta arcoíris infantil con inflable](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/). El enfoque es distinto porque está pensado para otro modelo y edades, pero te puede servir para decidir qué tono domina cada zona sin convertir la decoración en ruido visual.
 
 ## ¿Cómo eliges la paleta sin competir con las fotos ni con el espacio?
 
@@ -88,7 +88,7 @@ La luz del lugar cambia la elección. En una terraza luminosa de Narvarte, crema
 | Patio o jardín | Bichitos, granja, frutas de verano | Elementos sueltos que vuelen o se mojen |
 | Área común compacta | Una paleta de dos colores y papel plano | Arcos anchos, bases rígidas y muebles de más |
 
-La decoración no debe fijarse sobre la lona ni bloquear el motor, la entrada o la circulación del adulto que supervisa. Para organizar el entorno de juego, conserva a mano la [guía de turnos y supervisión para bebés](/blog/reglas-seguridad-brincolin-para-bebes/): los adornos pueden esperar; zapatos, comida, objetos duros y niñas o niños fuera del rango no entran al Castillo Baby.
+La decoración no debe fijarse sobre la lona ni bloquear el motor, la entrada o la circulación del adulto que supervisa. Para organizar el entorno de juego, conserva a mano la [guía de turnos y supervisión para bebés](/blog/seguridad-inflables-fiestas-infantiles/): los adornos pueden esperar; zapatos, comida, objetos duros y niñas o niños fuera del rango no entran al Castillo Baby.
 
 ## ¿Dónde pones las fotos para que el primer cumpleaños tenga momentos naturales?
 
@@ -103,7 +103,7 @@ Una secuencia útil para retratos es esta:
 
 El fondo no tiene que medir lo mismo que el inflable. Una tela lisa, letras de cartón y tres o cuatro piezas de papel pueden ser suficientes. Coloca la mesa de pastel cerca de ese muro, pero no pegada a la entrada del juego: la familia debe poder moverse entre ambos espacios sin cruzar cables, bocinas o filas de personas.
 
-Si buscas otras decisiones de composición para una fiesta infantil, una [guía para fotografiar una fiesta con Castillo de Princesas](/blog/fotos-con-inflable-de-princesas-ideas/) explica cómo pensar en luz, horario y tomas. Su modelo y estética son diferentes; la idea que sí puedes trasladar es preparar el momento de foto antes de que el evento esté en su punto más ocupado.
+Si buscas otras decisiones de composición para una fiesta infantil, una [guía para fotografiar una fiesta con Castillo de Princesas](/blog/fiesta-princesas-ninas-inflable-cdmx/) explica cómo pensar en luz, horario y tomas. Su modelo y estética son diferentes; la idea que sí puedes trasladar es preparar el momento de foto antes de que el evento esté en su punto más ocupado.
 
 ## ¿Cómo aprovechas el Castillo Baby sin convertirlo en parte de la decoración?
 
@@ -113,18 +113,44 @@ Su medida es de 2.5 × 2 × 2 m; necesita 3.2 m de altura libre si irá bajo tec
 
 Para una reunión de pocos niños, el [paquete fiesta bebés con Castillo Baby](/servicios/paquetes-de-fiesta/) puede simplificar la mesa infantil y la actividad: incluye el inflable, una mesa con cuatro sillitas y pintacaritas para cuatro niños. Confirma al cotizar qué corresponde a tu fecha; la decoración temática sigue siendo una decisión que puedes coordinar a tu gusto.
 
-## ¿Cómo cambian los temas para primer cumpleaños entre Benito Juárez y Cuauhtémoc?
+## ¿Cómo organizas la fiesta de 1 año?
 
-La idea puede ser la misma, pero el montaje cambia por el tipo de espacio. En Benito Juárez son comunes los departamentos, salones de edificio y terrazas; en Cuauhtémoc puede haber patios interiores, rooftops, calles con descarga limitada y porterías. Antes de comprar un fondo o apartar una mesa grande, confirma el acceso, la altura y las reglas del inmueble.
+### ¿A qué hora y por cuánto tiempo?
 
-| Zona | Colonias para ubicar tu entrega | Traslado publicado | Decisión de montaje |
-|---|---|---|---|
-| Benito Juárez | Narvarte, Del Valle, Portales y Nápoles | Narvarte no tiene cargo adicional; el resto se confirma por colonia | Pregunta por elevador, registro y horario de uso del salón |
-| Cuauhtémoc | Roma Norte, Condesa, Doctores y Santa María la Ribera | Roma, Doctores, Santa María la Ribera y Reforma no tienen cargo adicional; en otras colonias se confirma | Deja libre la descarga y mide el acceso desde la calle |
+Estas son las dos decisiones que más determinan si la tarde sale bien:
 
-En una terraza de Roma Norte, un tema de nubes o un solo color puede concentrarse en una pared sin saturar la vista ni el paso. En un salón de Del Valle, el arcoíris suave o los ositos permiten separar la mesa del área de juego con pocos elementos. El resultado depende menos de la colonia que de preparar el espacio real, pero conocer su logística te evita diseñar un montaje que no pueda entrar.
+- **Horario:** entre las 11:00 y las 13:00. Después de la siesta de la mañana, antes de la de la tarde y coincidiendo con la comida. Las fiestas de 5 de la tarde con bebés de un año terminan en llanto colectivo.
+- **Duración:** dos horas. Dos y media si hay muchos niños grandes. Un bebé de un año se satura con estímulos nuevos mucho antes de lo que los adultos creen.
+- **Pastel temprano.** No lo dejes para el final: hazlo a los 45 o 60 minutos, cuando el festejado todavía está de buen humor. Es la foto que importa.
+- **Salida escalonada.** Avisa en la invitación la hora de cierre. Sin hora de cierre, la fiesta se estira y el festejado paga la cuenta.
 
-Consulta las condiciones de [renta de inflables en Benito Juárez](/cobertura/benito-juarez/) si tu fiesta será en Narvarte, Del Valle, Portales o Nápoles. Para Roma, Condesa, Doctores y las demás colonias centrales, revisa la [cobertura de inflables en Cuauhtémoc](/cobertura/cuauhtemoc/) antes de anunciar un horario de proveedores a tus invitados.
+### ¿A quién invitar y cuántos?
+
+En un primer cumpleaños la lista se arma sola y casi siempre se pasa. Dos criterios ayudan:
+
+- **Cuenta adultos, no niños.** En una fiesta de un año, la mayoría de los invitados son tíos y abuelos. El espacio se llena de gente de pie, no de niños corriendo.
+- **Los niños que vengan van a ser hermanos y primos.** Ahí está la mezcla de edades que hay que planear: bebés de 1 y 2, y niños de 5 a 9. Son dos grupos distintos y no comparten inflable.
+
+Si hay niños grandes en la lista, conviene un segundo modelo o turnos muy vigilados. El Castillo Baby está pensado para los más pequeños.
+
+### ¿Qué preparar el día anterior?
+
+La lista corta que le pasamos a las familias antes de una instalación:
+
+- Barrer el área y quitar piedras, vidrio, juguetes con partes duras y macetas.
+- Despejar el rectángulo completo, incluyendo el margen: nada de dejar una silla "porque cabe".
+- Verificar que el contacto funcione y que no dependa de una extensión endeble.
+- Dejar libre el camino desde la puerta hasta el punto de instalación.
+- Definir quién va a recibir al equipo. Tiene que haber una persona adulta.
+- Acordar quién supervisa el inflable durante la fiesta, por bloques de media hora.
+
+Con eso, el montaje toma 15 minutos y nadie tiene que estar corriendo mientras llegan los invitados.
+
+### Lo que no hace falta contratar
+
+Para un primer cumpleaños, esto es gasto que casi siempre sobra: animador, show, mesa de dulces grande, arco de globos de dos metros y sonido profesional. Un bebé de un año no los aprovecha y los adultos van a estar platicando.
+
+Lo que sí rinde: el inflable, comida decente para los adultos, música ambiental desde una bocina y buena luz para las fotos. Los ocho precios del catálogo están publicados en la [página de precios](/precios/) y el catálogo completo en [inflables](/inflables/).
 
 ## ¿Qué checklist deja lista la decoración sin invadir el área de juego?
 
@@ -138,12 +164,12 @@ Haz esta revisión la víspera, cuando todavía puedes mover muebles sin prisa. 
 - Deja una actividad tranquila para los invitados que tengan más de tres años.
 - Confirma con el edificio o salón el acceso, carga, elevador y hora de retiro.
 
-Para una visión completa de medidas, grupo de edad y condiciones de uso, enlaza esta lista con la [guía del Castillo Baby para fiestas de 1 a 3 años](/blog/castillo-baby-inflable-para-bebes-guia-completa/). Si todavía estás decidiendo el ritmo general de la celebración, la [guía para organizar un primer cumpleaños con inflable](/blog/renta-mini-castillo-inflable-bebes-cdmx/) aborda horario, siesta e invitados sin repetir estas ideas de paleta y fotografía.
+Para una visión completa de medidas, grupo de edad y condiciones de uso, enlaza esta lista con la [guía del Castillo Baby para fiestas de 1 a 3 años](/inflables/mini-castillo/).
 
 ## ¿Qué necesitas definir para cotizar el Castillo Baby y empezar a decorar?
 
 Primero confirma la fecha, colonia, horario, edades de quienes jugarán y las fotos del área, techo y acceso. Con eso puedes saber si el modelo está disponible, si el montaje es viable y qué traslado aplica. Después sí vale la pena cerrar el tema, comprar los materiales y mandar invitaciones.
 
-La renta del Castillo Baby parte de $1,400 netos por evento; el traslado depende de la ubicación y, si requieres factura, se agrega IVA. El artículo sobre [precio de renta de brincolines para bebés en CDMX](/blog/precio-renta-brincolin-para-bebes-cdmx/) desglosa esos conceptos para que la paleta de tu fiesta no se convierta en una estimación de presupuesto.
+La renta del Castillo Baby parte de $1,400 netos por evento; el traslado depende de la ubicación y, si requieres factura, se agrega IVA. El artículo sobre [precio de renta de brincolines para bebés en CDMX](/inflables/mini-castillo/) desglosa esos conceptos para que la paleta de tu fiesta no se convierta en una estimación de presupuesto.
 
 Cuando tengas esos datos, [cotiza el Castillo Baby para tu primer cumpleaños](/cotizar/). Cuéntanos si será en casa, terraza o salón y qué edades tienen los pequeños; así podrás decorar alrededor de un montaje confirmado, no alrededor de una suposición.

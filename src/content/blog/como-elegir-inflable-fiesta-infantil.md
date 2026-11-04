@@ -49,7 +49,7 @@ Antes de elegir el inflable más bonito del catálogo, **mide el espacio donde l
 
 Si ya tienes las medidas y las edades de los invitados, puedes comparar los ocho modelos en el [catálogo de inflables para fiestas](/inflables/). Aquí primero te explicamos cómo llegar a esa decisión.
 
-Una regla de oro: necesitas espacio libre alrededor del inflable en todos los costados. La medida del área y la viabilidad para interiores se confirman al cotizar. También considera la altura del modelo según la tabla de medidas. El resto del catálogo puede requerir exterior — lo detallamos en la guía de [inflables pequeños para fiestas en interiores](/blog/inflable-pequeno-fiestas-interiores-cdmx/).
+Una regla de oro: necesitas espacio libre alrededor del inflable en todos los costados. La medida del área y la viabilidad para interiores se confirman al cotizar. También considera la altura del modelo según la tabla de medidas. El resto del catálogo puede requerir exterior — lo detallamos en la guía de [inflables pequeños para fiestas en interiores](/inflables/para-interiores/).
 
 > **Tip:** Mide largo, ancho y altura del espacio. Compáralo con las dimensiones del inflable que te interesa. Deja siempre 1m extra de cada lado.
 
@@ -63,7 +63,7 @@ Los inflables no son universales. Cada modelo está diseñado para un rango de e
 - **De 2 a 10 años:** [Castillo de Princesas](/inflables/castillo-princesas/) — temática de cuento de hadas
 - **De 3 a 12 años:** [Castillo Blanco](/inflables/castillo-blanco/), [Barco Pirata](/inflables/barco-pirata/) y [Extremo](/inflables/extremo/)
 
-Si tu evento mezcla varias edades, considera rentar **dos inflables de diferentes categorías** para mantener a todos entretenidos y seguros. La [comparativa de inflable chico contra grande según el número de invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/) hace la cuenta con precios reales, y en la [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/) explicamos por qué mezclar edades dentro del mismo brincolín es la causa más común de golpes.
+Si tu evento mezcla varias edades, considera rentar **dos inflables de diferentes categorías** para mantener a todos entretenidos y seguros. El punto 6 de esta guía hace la cuenta por número de invitados, y en la [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/) explicamos por qué mezclar edades dentro del mismo brincolín es la causa más común de golpes.
 
 ## 3. Temática de la fiesta: que el inflable cuente la historia
 
@@ -92,6 +92,33 @@ Nuestros inflables incluyen instalación, soplador y recolección; el traslado s
 - **Anticipo:** 50% para reservar, 50% el día del evento
 
 Los ocho precios, de $1,400 a $2,600 MXN, están publicados con sus medidas en la [página de precios](/precios/).
+
+## 6. Número de invitados: ¿inflable chico o grande?
+
+### La tabla que resuelve la decisión
+
+| Invitados (niños) | Inflable recomendado | Precio 2026 | Capacidad simultánea |
+|---|---|---|---|
+| **Hasta 8** | [Castillo Baby](/inflables/mini-castillo/) (1-3 años) o un modelo para la edad del grupo | $1,400 – $2,600 MXN | Se confirma al cotizar |
+| **8 a 15** | Mediano: [Dragones Rojos](/inflables/dragones-rojos/), [Castillo de Princesas](/inflables/castillo-princesas/) | $1,600 – $1,800 MXN | Se confirma al cotizar |
+| **15 a 30** | Grande: [Castillo Blanco](/inflables/castillo-blanco/) o [Barco Pirata](/inflables/barco-pirata/) | $2,300 – $2,600 MXN | Se confirma al cotizar |
+| **30+ / kermés** | [Circuito Extremo](/inflables/extremo/) o combinación de inflables | $2,500 MXN | Se confirma al cotizar |
+
+### Hasta 8 invitados: no pagues de más
+
+Con pocos niños, el inflable grande puede ser innecesario. Si son bebés de 1 a 3 años, el **Castillo Baby ($1,400 MXN)** es la elección obvia. Es el modelo que usamos en la guía para organizar el [primer cumpleaños](/inflables/mini-castillo/). Para edades mayores, elige un modelo cuyo rango corresponda al grupo.
+
+### 8 a 15 invitados: el punto dulce del mediano
+
+La fiesta infantil típica de CDMX. Un **modelo mediano desde $1,600 MXN** funciona bien mientras unos brincan y otros comen o juegan. Es el rango donde está el modelo más rentado del catálogo —los [Dragones Rojos](/inflables/dragones-rojos/)—. Los ocho precios y medidas están en la [página de precios](/precios/).
+
+### 15 a 30 invitados: aquí ya conviene el grande
+
+Con más de 15 niños, el mediano puede generar fila y turnos. El **Barco Pirata ($2,300 MXN)** tiene un tobogán y el **Castillo Blanco ($2,600 MXN)** ofrece una estética neutra para eventos elegantes. Confirma el espacio requerido antes de reservar. ¿Dudas entre tipos? Revisa la comparativa [brincolín vs. tobogán inflable](/blog/brincolin-vs-tobogan-inflable-cdmx/).
+
+### Más de 30 niños o kermés: combina
+
+Ningún inflable individual entretiene solo a 50+ niños. Las escuelas y kermeses combinan: **Circuito Extremo** para los grandes + un mediano temático + Castillo Baby para preescolar. Separar por edades no es lujo, es seguridad. Cotiza paquete de varios inflables por WhatsApp al 55 3128 1706 — hay precio especial por volumen. Más detalle en la guía de [inflables para kermeses y eventos escolares](/servicios/inflables-para-eventos/) y en el [checklist para organizar una kermesse escolar](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/).
 
 ## Resumen: 5 preguntas antes de reservar
 

@@ -54,7 +54,7 @@ Estas reglas salvan vidas — o al menos, evitan las visitas al hospital. Comun�
 - **1. Sin zapatos adentro.** Los zapatos, especialmente los de punta dura, pueden perforar el inflable y lastimar a otros niños.
 - **2. Sin objetos punzantes.** Horquillas, cinturones con hebillas metálicas, juguetes — todo fuera antes de entrar.
 - **3. Respetar la capacidad máxima.** Es el dato de la ficha del modelo, no una sugerencia: se confirma al cotizar. Si el equipo indica un límite, se respeta.
-- **4. Separar edades.** No mezcles niños de 3 años con adolescentes de 12. Los más grandes inadvertidamente pueden lastimarlos. Cuando la lista de invitados mezcla edades, la [comparativa de inflable chico contra grande](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/) explica cuándo conviene rentar dos modelos.
+- **4. Separar edades.** No mezcles niños de 3 años con adolescentes de 12. Los más grandes inadvertidamente pueden lastimarlos. Cuando la lista de invitados mezcla edades, la [comparativa de inflable chico contra grande](/blog/como-elegir-inflable-fiesta-infantil/) explica cuándo conviene rentar dos modelos.
 - **5. Un adulto supervisa siempre.** No dejes el inflable sin supervisión adulta. Ni un minuto.
 - **6. Sin comida ni bebidas adentro.** Además del riesgo de atragantamiento, mancha y deteriora el vinilo del inflable.
 - **7. Ante cualquier problema, desinflar.** Si hay viento fuerte, lluvia intensa, o el inflable pierde presión — desinflar y esperar.
@@ -68,7 +68,7 @@ No todos los negocios de renta de inflables operan igual. Estas son las pregunta
 - **¿Tienen reseñas en Google o Facebook?** Busca opiniones reales de otros clientes, no solo los testimonios en su página.
 - **¿Publican la capacidad y las medidas de cada modelo?** Un proveedor debe poder confirmar las medidas y la capacidad de cada inflable antes de reservar. Nosotros publicamos las medidas junto al precio y confirmamos la capacidad al cotizar en la [página de precios](/precios/).
 
-Si quieres el checklist largo, lo desarrollamos en las [7 señales de un proveedor de inflables confiable](/blog/senales-proveedor-inflables-confiable-cdmx/).
+Si quieres el checklist largo, lo desarrollamos en las [7 señales de un proveedor de inflables confiable](/blog/elegir-empresa-renta-inflables-profesional-cdmx/).
 
 > **Red flags de un proveedor poco confiable:** precio anormalmente bajo, sin perfil en redes, sin contrato escrito, capacidad y medidas que "ya te digo luego", y pago total por adelantado sin recibo.
 

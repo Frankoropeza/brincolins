@@ -118,7 +118,7 @@ Dibuja la llave en un pliego de papel kraft y pégala junto a la salida del circ
 
 La final se corre con todos los invitados alrededor y una cuenta regresiva en voz alta. Es el momento de la foto y del video. ¿Tu festejado llegó a la final? Perfecto. ¿No llegó? Que sea él quien dé la salida, con silbato y todo.
 
-Si quieres profundizar en llaves, control de fila y roles entre adultos, la guía para [organizar un torneo infantil en la pista inflable](/blog/renta-pista-inflable-obstaculos-cdmx/) entra al detalle de cada formato.
+Si quieres profundizar en llaves, control de fila y roles entre adultos, la guía para [organizar un torneo infantil en la pista inflable](/inflables/extremo/) entra al detalle de cada formato.
 
 ## ¿Qué premios funcionan con niños de 10 años sin generar pleitos?
 
@@ -147,7 +147,7 @@ No entran al circuito. Sin excepciones. Si vienen varios, sus papás te lo van a
 
 ### Los mayores de 12 y los adultos
 
-El rango del Extremo termina en **12 años**. No es para adolescentes mayores ni para adultos, y BRINCOLINS no renta inflables para adultos. Los hermanos de secundaria pueden ser jueces de salida, cronometristas o anotadores de la llave, y suelen tomarse el puesto muy en serio. Si te preocupa cómo integrarlos sin meterlos al inflable, hay ideas en [qué hacer con los chavos que ya se sienten grandes](/blog/inflables-para-adolescentes-jovenes-cdmx/).
+El rango del Extremo termina en **12 años**. No es para adolescentes mayores ni para adultos, y BRINCOLINS no renta inflables para adultos. Los hermanos de secundaria pueden ser jueces de salida, cronometristas o anotadores de la llave, y suelen tomarse el puesto muy en serio. Si te preocupa cómo integrarlos sin meterlos al inflable, hay ideas en [qué hacer con los chavos que ya se sienten grandes](/inflables/para-adultos/).
 
 ## ¿Extremo o Barco Pirata para el grupo de 5.º?
 

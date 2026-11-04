@@ -107,7 +107,7 @@ Mide 2.5 × 2 × 2 m, recibe niños de 1 a 3 años y está pensado para interior
 
 El [modelo Gusanitos, apto para interiores](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y recibe niños de 2 a 8 años. Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas. Pide la misma altura que el Castillo Baby, pero el doble de largo, así que necesita un salón amplio.
 
-Los dos están juntos en la categoría de [inflables que se instalan bajo techo](/inflables/para-interiores/). Y si quieres el repaso general de ventilación y electricidad para fiestas en espacios cerrados, está en la guía de [inflables pequeños para interiores en CDMX](/blog/inflable-pequeno-fiestas-interiores-cdmx/).
+Los dos están juntos en la categoría de [inflables que se instalan bajo techo](/inflables/para-interiores/).
 
 ### Los seis que sólo van al aire libre
 
@@ -152,7 +152,7 @@ Cambiar el lugar, no la fecha. Con un techo de 2.3 a 2.7 m el inflable no entra 
 - **Casa de un familiar con jardín.** La fiesta se mueve y lo demás se queda igual: invitados, pastel y horario.
 - **Salón de fiestas.** No rentamos salones; consigue el lugar por tu cuenta y confirma la altura libre con el encargado antes de pagarlo.
 
-Si es el primer año del bebé, la lógica de espacio, horario e invitados está en la guía para [organizar la fiesta de 1 año sin complicarte](/blog/renta-mini-castillo-inflable-bebes-cdmx/). ¿Es un bautizo? La [zona infantil para la recepción de un bautizo](/blog/bautizo-con-inflable-zona-infantil-cdmx/) tiene su propia logística entre misa y comida.
+Si es el primer año del bebé, la lógica de espacio, horario e invitados está en la guía para [organizar la fiesta de 1 año sin complicarte](/inflables/mini-castillo/). ¿Es un bautizo? La [zona infantil para la recepción de un bautizo](/blog/bautizo-con-inflable-zona-infantil-cdmx/) tiene su propia logística entre misa y comida.
 
 ## ¿Dónde conectas el motor y qué tanto se escucha en el edificio?
 

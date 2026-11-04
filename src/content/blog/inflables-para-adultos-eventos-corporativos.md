@@ -41,7 +41,7 @@ Nuestro catálogo son **8 modelos**, y estos son los que mejor funcionan en un e
 
 ### Extremo — el circuito de obstáculos
 
-Es el modelo que más se renta para eventos corporativos. Un **circuito de obstáculos en doble carril** que permite competencias por equipos. Mide 8×4.5×3.50 m y está recomendado de 3 a 12 años. Las dinámicas que mejor funcionan están en la guía de [team building con retos físicos](/blog/inflable-extremo-eventos-corporativos-cdmx/).
+Es el modelo que más se renta para eventos corporativos. Un **circuito de obstáculos en doble carril** que permite competencias por equipos. Mide 8×4.5×3.50 m y está recomendado de 3 a 12 años. Las dinámicas que mejor funcionan están más abajo, en la sección de team building.
 
 ### Barco Pirata — el más grande del catálogo
 
@@ -99,6 +99,57 @@ Para grupos de 20-50 personas, un inflable grande es suficiente si organizas tur
 ### 4. Planifica la logística eléctrica
 
 Cada inflable necesita un motor soplador conectado permanentemente a la corriente eléctrica. Asegúrate de tener suficientes tomas de corriente o solicita una planta de luz. Para eventos en jardines o terrenos abiertos, la planta de luz es prácticamente obligatoria.
+
+## Team building en circuito: tiempos, formatos y arbitraje
+
+### ¿Cómo se calcula el tiempo según el aforo?
+
+Esta es la parte que casi nadie hace y la que arruina más agendas. Los números del circuito son fijos y con ellos se calcula todo hacia atrás.
+
+El modelo que usamos para eventos de empresa es el **Extremo**: circuito de obstáculos de 8×4.5×3.50 m en doble carril, para edades de 3 a 12 años, se instala en 30 minutos y cuesta $2,500 MXN netos. Las medidas completas y la disponibilidad están en [la ficha del circuito Extremo](/inflables/extremo/).
+
+Con eso, la aritmética:
+
+- **Un recorrido individual:** 30 a 60 segundos.
+- **Una ronda de 8 participantes con relevos:** entre 6 y 10 minutos, contando salidas y regresos.
+- **Un grupo de 40 personas en formato relevos:** cinco equipos de ocho, unos 50 minutos con premiación incluida.
+- **Un grupo de 150 en formato pasarela libre:** dos horas de operación continua, con un responsable de fila.
+
+La regla que damos siempre: calcula el doble del tiempo teórico. La diferencia se la come la logística — gente que se quita los zapatos, que se toma fotos, que no encuentra a su equipo.
+
+### ¿Qué formato de competencia conviene?
+
+Depende del tamaño del grupo y del objetivo. Cuatro formatos que funcionan:
+
+#### Relevos por equipos mixtos
+
+El más recomendable para integración real. Se arman equipos con personas de áreas distintas, sorteadas, no elegidas. Cada integrante recorre el circuito y toca al siguiente. Gana el equipo más rápido.
+
+Funciona porque obliga a coordinarse con gente desconocida bajo presión de tiempo, que es exactamente la habilidad que se quiere trasladar a la oficina. Aforo ideal: de 30 a 80 personas.
+
+#### Torneo interdepartamental
+
+Bracket de eliminación con un equipo por área. Genera rivalidad sana, porras y mucho ruido. Es el formato más espectacular y el que mejor material de video produce.
+
+Cuidado con un efecto secundario: si ya hay fricción real entre dos áreas, el torneo la amplifica. En ese caso, mejor relevos mixtos.
+
+#### Contra reloj individual
+
+Cada persona corre sola y se cronometra. Tabla de posiciones visible durante todo el evento. Es el que menos tiempo de coordinación exige y el que mejor funciona cuando la gente entra y sale del evento a distintas horas — una feria de bienestar, por ejemplo.
+
+#### Actividad de onboarding
+
+Para grupos de nuevo ingreso. Rompe el hielo en la primera semana mejor que cualquier presentación de bienvenida. Grupos chicos, sin competencia formal, sin cronómetro.
+
+### ¿Quién arbitra y qué necesita?
+
+Un evento con arbitraje se siente profesional; uno sin arbitraje se siente improvisado. Hacen falta tres roles y ninguno requiere contratar a nadie:
+
+- **Juez de salida.** Controla que ambos carriles arranquen a la vez. Es el rol que más emoción agrega y el más fácil de cubrir.
+- **Cronometrista.** Un celular y una hoja de cálculo proyectada. La tabla visible es la que mantiene a la gente cerca del circuito.
+- **Responsable de fila.** Arma los siguientes turnos mientras corre el actual. Es el que evita los tiempos muertos, y el que más impacto tiene en el rendimiento del evento.
+
+Añade premiación, aunque sea simbólica. Medallas económicas o un trofeo que se quede en el área ganadora hasta el año siguiente producen más conversación interna que cualquier discurso de cierre.
 
 ## Guía de precios para eventos corporativos
 

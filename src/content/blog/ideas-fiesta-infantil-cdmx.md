@@ -44,7 +44,7 @@ Un brincolín no es solo diversión — es el centro de atención de la fiesta y
 
 En la Ciudad de México tienes varias opciones de espacio. Cada una tiene ventajas:
 
-- **Jardín en casa:** Lo más económico y con mayor libertad. El espacio de instalación se confirma según el modelo; el paso a paso está en la guía de [fiesta infantil en jardín con inflable](/blog/fiesta-infantil-jardin-inflable-cdmx/)
+- **Jardín en casa:** Lo más económico y con mayor libertad. El espacio de instalación se confirma según el modelo; el paso a paso está en la guía de [fiesta infantil en jardín con inflable](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/)
 - **Salón de fiestas:** Incluye instalaciones, meseros y cocina, pero verifica la altura del techo y comparte las medidas al cotizar. El Castillo Baby y los Gusanitos pueden ser opciones para interiores si el lugar es viable.
 - **Parque o jardín público:** Ambiente natural y amplio, pero necesitas generador de electricidad para el inflable
 - **Azotea:** Muy de moda en Condesa, Roma y Polanco. Verifica el piso (necesita ser liso) y la altura libre

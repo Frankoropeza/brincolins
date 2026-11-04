@@ -81,7 +81,7 @@ Es la superficie más común en escuelas y unidades habitacionales, y quizá la 
 
 ### Patio escolar
 
-Suele tener corriente a la mano y acceso controlado, lo que te facilita todo. El punto delicado es el horario: muchas escuelas sólo dejan entrar vehículos antes o después de cierta hora. Si el evento es una kermés, la planeación completa la tienes en la guía de [kermés escolar con inflables en el Estado de México](/blog/kermesse-escolar-inflables-edomex-guia/).
+Suele tener corriente a la mano y acceso controlado, lo que te facilita todo. El punto delicado es el horario: muchas escuelas sólo dejan entrar vehículos antes o después de cierta hora. Si el evento es una kermés, la planeación completa la tienes en la guía de [kermés escolar con inflables en el Estado de México](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/).
 
 ### Explanada de condominio o de empresa
 
@@ -211,7 +211,7 @@ Revisas que el inflable esté firme, el lastre en su lugar, el perímetro libre 
 
 Si quieres más detalle, las [reglas para supervisar a los niños dentro del inflable](/blog/seguridad-inflables-fiestas-infantiles/) lo explican paso a paso. Y lo decimos claro: no ofrecemos seguro de responsabilidad civil, así que la supervisión y la capacidad no se negocian.
 
-Con el circuito instalado, el uso depende de tu evento: un [torneo escolar en la pista de obstáculos](/blog/renta-pista-inflable-obstaculos-cdmx/), una [fiesta de 10 años con carreras en doble carril](/blog/fiesta-de-10-anos-ideas-actividades/), una [fiesta ninja con prueba final](/blog/fiesta-ninja-con-circuito-de-obstaculos/) o un [cumpleaños doble de hermanos](/blog/fiesta-de-gemelos-o-hermanos-con-inflable/). Otros modelos de recorrido están en la sección de [circuitos inflables con obstáculos](/inflables/con-obstaculos/).
+Con el circuito instalado, el uso depende de tu evento: un [torneo escolar en la pista de obstáculos](/inflables/extremo/), una [fiesta de 10 años con carreras en doble carril](/blog/fiesta-de-10-anos-ideas-actividades/), una [fiesta ninja con prueba final](/blog/fiesta-ninja-con-circuito-de-obstaculos/) o un [cumpleaños doble de hermanos](/blog/fiesta-de-gemelos-o-hermanos-con-inflable/). Otros modelos de recorrido están en la sección de [circuitos inflables con obstáculos](/inflables/con-obstaculos/).
 
 ## Agenda el montaje del Extremo en tu cancha
 

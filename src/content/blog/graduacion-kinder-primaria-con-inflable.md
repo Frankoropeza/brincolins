@@ -1,6 +1,6 @@
 ---
-title: "Graduación de kínder: ¿cómo organizar el festejo con inflable?"
-h1: "Graduación de kínder o primaria con inflable: logística del festejo para el comité de padres, de la ceremonia a la factura"
+title: "Graduación y fin de cursos con inflable: cómo organizarlo"
+h1: "Graduación o fin de cursos con inflable: logística del festejo, de la ceremonia a la factura"
 description: "Graduación de kínder o primaria con inflable: dónde instalarlo, cómo encaja con la ceremonia, cuándo sumar el Extremo y cómo pedir factura. Aparta tu fecha."
 excerpt: "Te tocó el comité de padres y la graduación es en junio. Aquí tienes la logística del inflable: escuela o jardín, horarios, anticipo entre familias y factura."
 publishDate: "2026-10-01"
@@ -50,7 +50,7 @@ Todo en orden. Para que tu chat del comité por fin descanse. Y para que tú tam
 
 La formalidad y el público. En una graduación tienes ceremonia, togas, fotos de grupo y familias completas vestidas para la ocasión. En un fin de cursos el ambiente es más relajado. Por eso tu inflable de graduación tiene que verse bien en la foto oficial.
 
-En el fin de cursos puedes elegir un modelo de colores y nadie se queja. ¿Es tu caso? La guía sobre [cómo organizar una fiesta de fin de cursos](/blog/renta-inflable-jungla-cdmx/) resuelve ese caso, con turnos para grupos grandes y temáticas mixtas.
+En el fin de cursos puedes elegir un modelo de colores y nadie se queja. ¿Es tu caso? La guía sobre [cómo organizar una fiesta de fin de cursos](/inflables/mini-jungla/) resuelve ese caso, con turnos para grupos grandes y temáticas mixtas.
 
 En la graduación cambian tres cosas. Hay un acto que no se puede interrumpir. Hay una dirección que pone reglas. Y estás tú, en un comité que responde ante todas las familias.
 
@@ -89,7 +89,7 @@ Imagina la foto del grupo con togas azules frente al castillo. El blanco hace qu
 
 ![Graduación de kínder al aire libre: castillo inflable blanco en jardín con cortinas, flores y mesas](/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif)
 
-¿Quieres ver cómo se integra un castillo blanco en eventos formales más grandes? Revisa la [guía de zona infantil con Castillo Blanco en bodas](/blog/renta-castillo-blanco-inflable-bodas-cdmx/). Para decorar en tonos claros, la [decoración neutra o boho con inflable blanco](/blog/fiesta-infantil-all-white-boho-decoracion/) te da paletas listas.
+¿Quieres ver cómo se integra un castillo blanco en eventos formales más grandes? Revisa la [guía de zona infantil con Castillo Blanco en bodas](/inflables/castillo-blanco/). Para decorar en tonos claros, la [decoración neutra o boho con inflable blanco](/blog/fiesta-infantil-all-white-boho-decoracion/) te da paletas listas.
 
 > **¿El comité ya tiene fecha?** Mándanos el día, la alcaldía de la escuela y si es kínder o primaria; te decimos qué modelo conviene y si está libre. [Cotizar inflable para graduacion](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20somos%20el%20comite%20y%20queremos%20cotizar%20el%20Castillo%20Blanco%20para%20una%20graduacion%20de%20kinder)
 
@@ -116,6 +116,37 @@ En kínder los niños quieren brincar, no competir. Un Castillo Blanco con turno
 ### Primaria: dos estilos de juego
 
 En primaria la diferencia de edades pesa. Los de primero quieren brincar; los de sexto quieren ganarle al amigo en el doble carril. Con los dos modelos, cada grupo encuentra su lugar. Nadie se aburre. ¿Cuántos niños por turno en cada uno? Eso te lo confirmamos al cotizar.
+
+## ¿Y si es la fiesta de fin de cursos del grupo?
+
+### ¿Cómo se reparten los turnos con 20 niños?
+
+Esta es la parte que decide si la tarde fluye. La capacidad de un inflable no es una sugerencia: es el límite que se confirma al cotizar para que los niños puedan brincar sin chocarse. Con 20 invitados hay que organizar turnos.
+
+- **Turnos de 15 a 20 minutos.** Tres o cuatro tandas cubren al salón completo en poco más de una hora.
+- **Agrupa por edad, no por orden de llegada.** Primero los de 3 a 5, después los de 6 a 10. La diferencia de peso entre un niño de 4 y uno de 10 es lo que provoca la mayoría de los golpes.
+- **Pon un adulto por turno, no un adulto para toda la tarde.** Rotar la supervisión entre las familias evita que una sola persona se pierda la fiesta completa.
+- **Ten una segunda actividad corriendo en paralelo.** Pintacaritas, manualidades, una mesa de fruta. El objetivo es que nunca haya fila: quien no está brincando está haciendo otra cosa.
+
+Un cronómetro de celular con alarma hace más por el orden de la tarde que cualquier animador.
+
+### ¿Y los hermanos menores?
+
+Es el punto ciego clásico. En una graduación de kínder siempre hay bebés de 1 y 2 años, y siempre alguien intenta meterlos al inflable de los grandes "un ratito". No lo hagas: Jungla arranca en 3 años por una razón.
+
+La solución es rentar un segundo inflable chico. El [Castillo Baby inflable](/inflables/mini-castillo/) cuesta **$1,400 MXN**, mide **2.5 × 2 × 2 m** y está diseñado para niños de **1 a 3 años**. El espacio y la capacidad se confirman al cotizar. La lógica completa de combinar dos modelos está en la guía de [qué tamaño de inflable pedir según tus invitados](/blog/como-elegir-inflable-fiesta-infantil/).
+
+> **Lo que vemos en campo:** en junio, más de la mitad de los fines de curso que atendemos terminan pidiendo el segundo inflable chico a última hora, cuando ya no hay disponibilidad. Decídelo desde el principio.
+
+### Cronograma sugerido para la tarde
+
+Un fin de cursos de tres horas se sostiene solo si tiene estructura. Este reparto es el que mejor nos ha funcionado:
+
+- **Primeros 30 minutos:** llegada, foto de grupo y turno libre en el inflable para quemar la energía de la salida de clases.
+- **Siguientes 60 minutos:** turnos por edad, con la segunda actividad corriendo en paralelo.
+- **Minuto 90:** comida. Con el inflable apagado o con un adulto firme en la entrada, porque brincar después de comer termina mal.
+- **Minuto 120:** segunda ronda de turnos y juegos organizados.
+- **Últimos 30 minutos:** entrega de recuerditos y despedida escalonada, para que no salgan veinte familias al mismo tiempo.
 
 ## ¿Cómo se organiza el comité de padres para apartar y pagar?
 

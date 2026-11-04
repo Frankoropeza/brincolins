@@ -108,7 +108,7 @@ Esta tabla muestra qué pasa en el inflable y qué hacen los demás niños en ca
 | Pastel y piñata | 2:30 a 3:00 | Cerrado | Todos juntos |
 | Salida | 3:00 a 3:30 | Último turno libre | Recuerditos y despedida |
 
-Cerrar el inflable durante la comida y el pastel no es un capricho. Brincar recién comidos termina mal. Y un inflable abierto mientras cantan las mañanitas te deja la foto del pastel sin niños. ¿Quieres comparar con otra estructura para un grupo parecido? El [cronograma de un fin de cursos de kínder](/blog/renta-inflable-jungla-cdmx/) maneja la tarde con otra lógica.
+Cerrar el inflable durante la comida y el pastel no es un capricho. Brincar recién comidos termina mal. Y un inflable abierto mientras cantan las mañanitas te deja la foto del pastel sin niños. ¿Quieres comparar con otra estructura para un grupo parecido? El [cronograma de un fin de cursos de kínder](/inflables/mini-jungla/) maneja la tarde con otra lógica.
 
 > **¿Ya tienes el sábado elegido?** Dinos la fecha, la alcaldía o municipio y cuántos compañeros de kínder van, y te respondemos con disponibilidad y precio del Jungla. [Cotizar el Jungla para su cumpleaños](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Jungla%20para%20una%20fiesta%20de%204%20anos)
 
@@ -177,7 +177,7 @@ Cabe donde haya exterior plano, 4.2 m de altura libre y una toma de 110 V a meno
 
 ¿Tienes jardín o patio? Es tu opción más cómoda. Conoces el terreno y los niños están en un espacio controlado. Si vives en departamento, el área común del condominio suele funcionar. Eso sí: pide permiso a la administración antes de apartar, no después.
 
-¿Y si la fiesta tiene que ser bajo techo? Entonces el Jungla no es tu modelo. Lee la [comparación entre Jungla y el circuito Gusanitos](/blog/jungla-o-gusanitos-cual-elegir/), porque Gusanitos sí funciona en interiores con 3.2 m de altura libre. Para saber si tu colonia entra en ruta, revisa la [rutas de entrega en CDMX y área metropolitana](/cobertura/).
+¿Y si la fiesta tiene que ser bajo techo? Entonces el Jungla no es tu modelo. Lee la [comparación entre Jungla y el circuito Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/), porque Gusanitos sí funciona en interiores con 3.2 m de altura libre. Para saber si tu colonia entra en ruta, revisa la [rutas de entrega en CDMX y área metropolitana](/cobertura/).
 
 ## ¿Qué incluye la checklist de una fiesta de 4 años?
 

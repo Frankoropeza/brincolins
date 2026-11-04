@@ -57,7 +57,7 @@ Primos e hijos de amigos ya juegan juntos, aunque sea a ratos. No es una fiesta 
 
 Y con el cansancio, el berrinche. Tienes poco margen. Todo lo que sigue en esta guía sirve para que el pastel llegue antes que el sueño.
 
-Si todavía estás en la etapa anterior, la [guía del primer cumpleaños paso a paso](/blog/renta-mini-castillo-inflable-bebes-cdmx/) cubre horario, duración e invitados para un bebé que apenas camina.
+Si todavía estás en la etapa anterior, la [guía del primer cumpleaños paso a paso](/inflables/mini-castillo/) cubre horario, duración e invitados para un bebé que apenas camina.
 
 ## ¿A qué hora conviene la fiesta de 2 años si tu hijo todavía toma siesta?
 
@@ -157,7 +157,7 @@ Cuando la fiesta es chica y quieres pintacaritas. Como no se vende por separado,
 
 Cuando vienen más niños que se van a sentar a comer y la pintacaritas no te interesa. El Castillo Baby más la [mesa infantil de 10 sillas](/servicios/mobiliario-para-fiestas/) da más lugares en la mesa y cuesta menos que el paquete. Ojo: la mesa cuesta $550 sólo en conjunto con un inflable; sin inflable cuesta $1,600.
 
-El paquete fiesta de $2,800 lleva un inflable para niños de 3 a 8 años, así que no es para un festejado de 2. La [comparación de los dos paquetes completos](/blog/paquetes-completos-fiesta-inflable-cdmx/) explica cada uno a detalle, y los [precios netos de los ocho inflables](/precios/) están en una sola página.
+El paquete fiesta de $2,800 lleva un inflable para niños de 3 a 8 años, así que no es para un festejado de 2. La [comparación de los dos paquetes completos](/servicios/paquetes-de-fiesta/) explica cada uno a detalle, y los [precios netos de los ocho inflables](/precios/) están en una sola página.
 
 ## ¿Qué haces cuando los primos de 4 a 6 años quieren entrar al inflable?
 

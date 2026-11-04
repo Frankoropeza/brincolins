@@ -124,11 +124,11 @@ Contratar dos proveedores especializados puede parecer más caro que una sola em
 
 **Reserva con anticipación.** Tanto BRINCOLINS como MEDEDUL tienen mejor disponibilidad — y a veces precios especiales — para reservas con más de 3-4 semanas de anticipación. Cuando reservas tarde, te quedas con lo que queda disponible, que no siempre es lo que quieres.
 
-**Elige el inflable según el espacio y la edad reales, no por tamaño.** Un **Castillo Baby** a $1,400 es adecuado para niños de 1 a 3 años; y para edades mayores conviene elegir un modelo cuyo rango corresponda al grupo. El impacto viene de la adecuación, no de los metros. La comparación por número de invitados está en la [comparativa de inflable chico contra grande](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/).
+**Elige el inflable según el espacio y la edad reales, no por tamaño.** Un **Castillo Baby** a $1,400 es adecuado para niños de 1 a 3 años; y para edades mayores conviene elegir un modelo cuyo rango corresponda al grupo. El impacto viene de la adecuación, no de los metros. La comparación por número de invitados está en la [comparativa de inflable chico contra grande](/blog/como-elegir-inflable-fiesta-infantil/).
 
 **Define el tamaño de la mesa según el número de invitados.** MEDEDUL tiene opciones en varios tamaños. Para 20-25 invitados, una mesa mediana bien diseñada supera en impacto a una mesa grande pero genérica. El diseño siempre importa más que la escala.
 
-**Consulta nuestros [paquetes de fiesta](/servicios/paquetes-de-fiesta/): Paquete fiesta $2,800 y Paquete fiesta bebés $2,100.** Combinan inflable, mobiliario y extras, simplifican la logística; el desglose está en la guía de [paquetes completos para fiesta con inflable](/blog/paquetes-completos-fiesta-inflable-cdmx/).
+**Consulta nuestros [paquetes de fiesta](/servicios/paquetes-de-fiesta/): Paquete fiesta $2,800 y Paquete fiesta bebés $2,100.** Combinan inflable, mobiliario y extras, simplifican la logística.
 
 **Comparte la logística.** Cuando coordinamos los mismos horarios de llegada y recogida con ambos proveedores, el tiempo que necesitas destinar a coordinar se reduce significativamente. Menos gestión, misma calidad.
 

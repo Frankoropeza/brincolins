@@ -95,7 +95,7 @@ Que reciba de 2 a 10 años no significa que todos brinquen a la vez. A esta edad
 
 El rosa no te amarra a coronas y vestidos. El mismo castillo combina con unicornios, hadas o mariposas, y en una fiesta mixta de primos y compañeros de la guardería brincan niños y niñas igual, sin que nadie pregunte por la temática. ¿Te late esa línea? Las paletas y las actividades están en la guía de [fiesta de unicornios, hadas y mariposas](/blog/fiesta-de-unicornios-y-hadas-con-inflable/).
 
-Si tu festejada sí pidió princesas, aquí tienes [ideas de decoración y mesa para una fiesta de princesas](/blog/fiesta-princesas-ninas-inflable-cdmx/). Y si dudas entre este modelo y el rojo con dragones, la decisión está resuelta en [Castillo de Princesas o Dragones Rojos: cuál elegir](/blog/renta-castillo-princesas-inflable-cdmx/).
+Si tu festejada sí pidió princesas, aquí tienes [ideas de decoración y mesa para una fiesta de princesas](/blog/fiesta-princesas-ninas-inflable-cdmx/). Y si dudas entre este modelo y el rojo con dragones, la decisión está resuelta en [Castillo de Princesas o Dragones Rojos: cuál elegir](/inflables/castillo-princesas/).
 
 > **¿Ya mediste tu jardín?** Mándanos la altura libre y una foto del área: te decimos si el castillo cabe y cómo organizar los turnos. [Pregunta por WhatsApp si cabe en tu jardín](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20el%20Castillo%20de%20Princesas%20cabe%20en%20mi%20jardin%20para%20una%20fiesta%20de%203%20anos)
 

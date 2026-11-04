@@ -101,7 +101,7 @@ La lista completa por edades está en los [inflables por edad para fiestas de cu
 
 Mide 5 × 3 × 2.80 m y pide 3.2 m de altura libre. Es más circuito que brincolín: túneles de colores con varias entradas y salidas. Puede ir en una terraza techada, un garage o un salón, y los niños juegan resguardados. Para medir bien tu espacio, sigue la [guía para medir un espacio techado](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/).
 
-Además funciona con grupos de edades mezcladas, justo lo que reúne tu posada familiar. ¿Tienes primos de todas las edades? Mejor. Tienes ideas para [repartir turnos entre primos de 2 y 8 años](/blog/renta-inflable-gusanitos-cdmx/) sin que nadie llore.
+Además funciona con grupos de edades mezcladas, justo lo que reúne tu posada familiar. ¿Tienes primos de todas las edades? Mejor. Tienes ideas para [repartir turnos entre primos de 2 y 8 años](/inflables/gusanitos/) sin que nadie llore.
 
 ### Dragones Rojos si la posada es al aire libre
 
@@ -125,7 +125,7 @@ Pide a los niños que se quiten chamarras gruesas, bufandas y gorros con cordone
 
 #### Una lámpara sobre las entradas
 
-Quien supervisa tiene que ver todas las entradas y salidas. Te basta una lámpara o un reflector apuntando al área, sin deslumbrar a nadie. Para más ideas, revisa la guía de [iluminación e inflables para fiestas de noche](/blog/iluminacion-tecnologia-inflables-fiesta-cdmx/).
+Quien supervisa tiene que ver todas las entradas y salidas. Te basta una lámpara o un reflector apuntando al área, sin deslumbrar a nadie. Para más ideas, revisa la guía de [iluminación e inflables para fiestas de noche](/servicios/iluminacion-eventos/).
 
 #### Series navideñas en su lugar
 

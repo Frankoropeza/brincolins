@@ -53,7 +53,7 @@ Otro dato útil: es apto para interiores, con 3.2 m de altura libre. ¿Tu fiesta
 
 ### Un tema que no deja fuera a nadie
 
-Los bichos no dependen de una película ni de un personaje. Una niña de 2 años se emociona con una catarina de cartón y un niño de 8 se toma en serio su papel de explorador. Ese rango coincide con el del Gusanitos. Si quieres ver cómo se ordenan los turnos con un grupo así, revisa la guía de [fiesta con niños de distintas edades](/blog/renta-inflable-gusanitos-cdmx/).
+Los bichos no dependen de una película ni de un personaje. Una niña de 2 años se emociona con una catarina de cartón y un niño de 8 se toma en serio su papel de explorador. Ese rango coincide con el del Gusanitos. Si quieres ver cómo se ordenan los turnos con un grupo así, revisa la guía de [fiesta con niños de distintas edades](/inflables/gusanitos/).
 
 ## ¿Qué bichos eliges para que la temática se note sin saturar?
 
@@ -89,7 +89,7 @@ Mantel verde, platos amarillos y un centro de mesa con macetas chicas o flores d
 
 Aquí la regla es despejar, y te conviene tomarla en serio. Las entradas y salidas de los túneles necesitan paso libre, y quien supervisa tiene que verlas todas. No pegues ni amarres nada al inflable. La decoración va a un costado. Tú eliges cuál, y los demás quedan libres.
 
-Los colores del Gusanitos te ayudan: verde, amarillo, azul, rojo y morado ya están ahí. Para sacarles partido en fotos y mesa, revisa [cómo aprovechar los colores del inflable](/blog/inflables-coloridos-fiestas-infantiles-cdmx/).
+Los colores del Gusanitos te ayudan: verde, amarillo, azul, rojo y morado ya están ahí. Para sacarles partido en fotos y mesa, revisa [cómo aprovechar los colores del inflable](/inflables/para-ninos/).
 
 > **¿Ya tienes fecha para tu fiesta de bichitos?** Mándanos el día, la zona y las edades de los niños; te confirmamos disponibilidad del Gusanitos y el traslado. [Cotiza el Gusanitos por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Gusanitos%20para%20una%20fiesta%20de%20bichitos)
 

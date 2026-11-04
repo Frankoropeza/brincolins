@@ -1,5 +1,5 @@
 ---
-title: "Fiesta infantil en condominio: 7 pasos para usar el área común"
+title: "Fiesta infantil en condominio: 7 pasos para el área común"
 h1: "Fiesta infantil en condominio, privada o unidad habitacional: permisos, corriente, vecinos e inflable en el área común"
 description: "Fiesta infantil en condominio o privada en CDMX: qué pedir a la administración, qué área común sirve, corriente, camioneta y vecinos. Cotiza tu inflable."
 excerpt: "El jardín común está a unos pasos, pero no es sólo tuyo. Resuelve permiso, corriente, acceso y vecinos antes de apartar, y el día de la fiesta sólo te ocupas de los niños."
@@ -89,7 +89,7 @@ Algunas casetas registran a todo el que entra. Pasa en muchos conjuntos. Pide al
 
 Pregunta en qué condiciones se entrega el área y cómo se devuelve. La instalación y la recolección del inflable están incluidas. La limpieza de comida, basura y decoración corre por tu cuenta. Tenlo en tu lista.
 
-¿Es la primera vez que rentas? Repasa también [lo que nadie te dice al rentar un inflable por primera vez](/blog/consejos-rentar-inflable-primera-vez/): anticipo, supervisión y clima en una lectura corta.
+¿Es la primera vez que rentas? Repasa también [lo que nadie te dice al rentar un inflable por primera vez](/blog/como-rentar-inflable-brincolins-proceso-paso-a-paso/): anticipo, supervisión y clima en una lectura corta.
 
 ## ¿Qué área común del conjunto sirve para el Dragones Rojos?
 
@@ -183,9 +183,9 @@ Pagar el anticipo antes del permiso, reservar sólo la hora de la fiesta y no co
 - **No avisar a los vecinos del horario.** Un aviso a tiempo evita quejas a media fiesta.
 - **Dejar el inflable sin una persona adulta.** La supervisión desde fuera es obligatoria durante todo el evento.
 
-Para los días previos y el clima, la [guía paso a paso de la fiesta en jardín](/blog/fiesta-infantil-jardin-inflable-cdmx/) complementa esta lista. Si el festejado cumple 5, mira también [el plan de juegos y turnos para niños de 5 años](/blog/fiesta-de-5-anos-ideas-juegos-cdmx/). ¿Quieres resolver mesa y actividad con un solo proveedor? Revisa el [paquete fiesta de $2,800 con mesa y pintacaritas](/blog/paquete-fiesta-dragones-rojos-o-jungla/).
+Para los días previos y el clima, la [guía paso a paso de la fiesta en jardín](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/) complementa esta lista. Si el festejado cumple 5, mira también [el plan de juegos y turnos para niños de 5 años](/blog/fiesta-de-5-anos-ideas-juegos-cdmx/). ¿Quieres resolver mesa y actividad con un solo proveedor? Revisa el [paquete fiesta de $2,800 con mesa y pintacaritas](/servicios/paquetes-de-fiesta/).
 
-¿Dudas entre modelos por la altura del área? Las [diferencias de altura e interiores entre Dragones Rojos, Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/) te ayudan a decidir, y la [categoría de inflables medianos](/inflables/medianos/) reúne los modelos de ese tamaño. Si quieres ambientar el jardín común con temática, tienes [ideas para una fiesta medieval con dragones](/blog/inflable-dragones-rojos-cdmx/).
+¿Dudas entre modelos por la altura del área? Las [diferencias de altura e interiores entre Dragones Rojos, Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/) te ayudan a decidir, y la [categoría de inflables medianos](/inflables/medianos/) reúne los modelos de ese tamaño. Si quieres ambientar el jardín común con temática, tienes [ideas para una fiesta medieval con dragones](/inflables/dragones-rojos/).
 
 ## Cotiza tu fiesta en el área común del condominio
 

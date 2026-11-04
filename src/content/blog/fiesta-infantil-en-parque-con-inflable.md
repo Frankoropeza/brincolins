@@ -67,7 +67,7 @@ Este paso va antes de elegir globos o menú. Una zona verde preciosa que prohíb
 
 No instales al centro de la zona más transitada. Busca un extremo visible desde las mesas, con espacio para una fila corta y sin que la entrada o la salida del inflable invada andadores, juegos fijos, ciclovías o el paso hacia los baños. Los adultos deben poder ver a los niños sin cruzar constantemente la zona de brincos.
 
-Para Jungla, revisa una base de 5 × 3 m y, sobre todo, el despeje alrededor que el equipo confirmará contigo. Mira hacia arriba: ramas, guirnaldas, luminarias o cables bajos pueden descartar un claro que desde lejos parecía perfecto. El modelo requiere 4.2 m de altura libre y es sólo para exterior; la [guía completa del inflable Jungla](/blog/inflable-jungla-guia-completa/) explica por qué esa medida no se deduce de los 2.50 m de alto que tiene el inflable.
+Para Jungla, revisa una base de 5 × 3 m y, sobre todo, el despeje alrededor que el equipo confirmará contigo. Mira hacia arriba: ramas, guirnaldas, luminarias o cables bajos pueden descartar un claro que desde lejos parecía perfecto. El modelo requiere 4.2 m de altura libre y es sólo para exterior; la [guía completa del inflable Jungla](/inflables/mini-jungla/) explica por qué esa medida no se deduce de los 2.50 m de alto que tiene el inflable.
 
 | Punto del parque | ¿Puede servir? | Qué confirmar antes de apartarlo |
 |---|---|---|
@@ -108,7 +108,7 @@ La sombra también necesita criterio. Un árbol da alivio a quienes esperan, per
 | Circulación | Mesas y espera separadas | Entrada del inflable sobre un paso público |
 | Sol | Área de descanso sombreada cercana | Único claro sin lugar para hidratarse o sentarse |
 
-Si el cumpleaños se presta a fauna y exploración, el inflable puede ser una estación del programa, no todo el programa. La propuesta de [dinámicas de safari para grupos infantiles](/blog/juegos-para-fiesta-de-animales-salvajes/) te sirve para alternar el brinco con actividades breves fuera del área de montaje.
+Si el cumpleaños se presta a fauna y exploración, el inflable puede ser una estación del programa, no todo el programa. La propuesta de [dinámicas de safari para grupos infantiles](/blog/fiesta-tematica-safari-inflable-cdmx/) te sirve para alternar el brinco con actividades breves fuera del área de montaje.
 
 ## ¿Cómo organizas baños, comida y supervisión sin estorbar el juego?
 
@@ -121,15 +121,15 @@ En un espacio público, asigna funciones concretas, aunque la reunión sea peque
 - **Un punto de reunión visible.** Dile a cada niño dónde encontrar a su familia si se aleja hacia otra sección del parque.
 - **Una pausa para comer.** No dejes platos ni bebidas junto al área de brincos; programa la comida fuera de los turnos.
 
-Jungla está indicado para 3 a 8 años. Si habrá peques de 2 años, no los mezcles con ese grupo dentro del modelo; la comparativa de [Jungla y Gusanitos según edades y techo](/blog/jungla-o-gusanitos-cual-elegir/) aclara qué cambia cuando hay niños más chicos o necesitas una alternativa interior.
+Jungla está indicado para 3 a 8 años. Si habrá peques de 2 años, no los mezcles con ese grupo dentro del modelo; la comparativa de [Jungla y Gusanitos según edades y techo](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/) aclara qué cambia cuando hay niños más chicos o necesitas una alternativa interior.
 
 ## ¿Qué plan preparas si llueve o el parque cierra el área?
 
 Un parque no te ofrece el mismo respaldo que un jardín propio. Puede cerrar una sección por mantenimiento, saturarse en fin de semana o cambiar las condiciones por clima. Antes de enviar invitaciones, decide cuál será tu alternativa: otra fecha, una sede techada distinta o una fiesta sin inflable si el pronóstico obliga a ajustar el plan.
 
-Los inflables son de uso en seco. Si hay lluvia, granizo o viento fuerte, los niños dejan de usarlo. No tapes el problema con una lona improvisada ni mantengas turnos sobre una superficie mojada. Revisa con anticipación qué aplica a tu reserva en la [política de cancelación y reprogramación](/politica-de-cancelacion/) y consulta el protocolo de [qué hacer con un inflable si llueve o hace viento](/blog/inflable-con-lluvia-o-viento-que-hacer/).
+Los inflables son de uso en seco. Si hay lluvia, granizo o viento fuerte, los niños dejan de usarlo. No tapes el problema con una lona improvisada ni mantengas turnos sobre una superficie mojada. Revisa con anticipación qué aplica a tu reserva en la [política de cancelación y reprogramación](/politica-de-cancelacion/) y consulta el protocolo de [qué hacer con un inflable si llueve o hace viento](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/).
 
-Para una fecha de vacaciones, vale la pena considerar un salón o patio alterno desde el inicio. La guía de [actividades para niños en vacaciones de invierno](/blog/actividades-vacaciones-de-invierno-ninos-cdmx-inflable/) ayuda a armar bloques que no dependen por completo de estar al aire libre.
+Para una fecha de vacaciones, vale la pena considerar un salón o patio alterno desde el inicio. La guía de [actividades para niños en vacaciones de invierno](/blog/posada-navidena-infantil-con-inflable-cdmx/) ayuda a armar bloques que no dependen por completo de estar al aire libre.
 
 ## ¿Qué zonas de CDMX conviene considerar al cotizar un parque?
 

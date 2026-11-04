@@ -139,7 +139,7 @@ Por tripulación, con cronómetro y con las reglas dichas antes del primer turno
 
 La base es corta. Te cabe en una tarjeta. Uno a la vez, sentado y con los pies por delante. Esperar a que el anterior salga de la llegada. Sin zapatos, sin lentes, sin nada en las bolsas. Nadie sube por la rampa de bajada. Las [reglas del tobogán con un cartel para imprimir](/blog/reglas-de-uso-tobogan-inflable-ninos/) te explican el porqué de cada una.
 
-El turno lo marca el reloj, no la paciencia del grupo. Mientras una tripulación usa el inflable, la otra está en relevos o estaciones. La capacidad se confirma al cotizar y se respeta en cada turno. Si quieres entender cómo trabaja un modelo con tobogán en eventos grandes, revisa los [modelos grandes con tobogán para eventos](/blog/inflables-grandes-con-tobogan-cdmx/).
+El turno lo marca el reloj, no la paciencia del grupo. Mientras una tripulación usa el inflable, la otra está en relevos o estaciones. La capacidad se confirma al cotizar y se respeta en cada turno. Si quieres entender cómo trabaja un modelo con tobogán en eventos grandes, revisa los [modelos grandes con tobogán para eventos](/inflables/toboganes/).
 
 ## ¿Quién supervisa si muchos papás sólo dejan al niño?
 
@@ -185,7 +185,7 @@ Casi todos vienen de planear como si tuviera 5. Revisa esta lista una semana ant
 - **Suponer que habrá adultos.** Si no asignas la supervisión con nombre y por bloques, nadie la hace.
 - **Dejar el tobogán sin reglas.** Dilas antes del primer turno y repítelas en el segundo, sin regaños.
 - **Mezclar a los hermanos chicos.** Los de 3 o 4 años van en un turno aparte, nunca con los de 9.
-- **No medir hacia arriba.** El barco necesita 5.2 m libres. La [guía para medir tu jardín antes de apartar](/blog/renta-barco-pirata-inflable-grande-cdmx/) te lleva paso a paso.
+- **No medir hacia arriba.** El barco necesita 5.2 m libres. La [guía para medir tu jardín antes de apartar](/inflables/barco-pirata/) te lleva paso a paso.
 
 ¿La fiesta será fuera de casa? Revisa la [lista de preguntas para una quinta o jardín de eventos](/blog/fiesta-en-quinta-o-jardin-de-eventos-edomex/) antes de pagar el lugar.
 

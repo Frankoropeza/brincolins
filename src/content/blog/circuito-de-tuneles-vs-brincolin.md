@@ -1,5 +1,5 @@
 ---
-title: "Circuito inflable de túneles o brincolín: 6 diferencias clave"
+title: "Circuito de túneles inflable o brincolín: 6 diferencias"
 h1: "Circuito inflable de túneles vs. brincolín clásico: qué cambia en el juego, los turnos y el espacio"
 description: "Circuito inflable de túneles o brincolín clásico: compara juego, flujo de niños, edades mixtas, supervisión y espacio con datos de cada modelo. Elige y cotiza."
 excerpt: "Cuestan lo mismo y ocupan casi el mismo suelo, pero no se juegan igual. Compara recorrer túneles contra brincar en una cámara y elige el que va con tu grupo."
@@ -112,7 +112,7 @@ El circuito acomoda mejor a un grupo mezclado: el Gusanitos admite niños desde 
 
 En un brincolín, todos comparten la misma superficie de salto. La diferencia de tamaño entre un niño de 3 y uno de 8 se nota. Por eso te conviene agrupar por edad. Primero los chicos. En el circuito el grupo se reparte, aunque la regla de no mezclar edades muy distintas en el mismo turno sigue valiendo.
 
-¿Tienes primos de 2 a 8 años, hermanos y compañeros de salón? Lee la [guía para fiestas con edades mezcladas](/blog/renta-inflable-gusanitos-cdmx/). Y si hay bebés de 1 año, ninguno de los tres es para ellos: el modelo es el [Castillo Baby para menores de 3 años](/inflables/mini-castillo/).
+¿Tienes primos de 2 a 8 años, hermanos y compañeros de salón? Lee la [guía para fiestas con edades mezcladas](/inflables/gusanitos/). Y si hay bebés de 1 año, ninguno de los tres es para ellos: el modelo es el [Castillo Baby para menores de 3 años](/inflables/mini-castillo/).
 
 Un truco práctico: cuenta cuántos invitados quedan fuera del rango de cada modelo. Si con el brincolín se quedan fuera los de 2 años y con el circuito no queda nadie, ya tienes respuesta. Si todos tienen de 3 a 8, los dos te sirven. Entonces decides por el tipo de juego que tus invitados prefieren.
 

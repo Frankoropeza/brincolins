@@ -59,7 +59,7 @@ En lugar de preparar diez dinámicas, elige cuatro momentos distintos. Así redu
 - Un reto de equipos que no dependa del inflable, por ejemplo encontrar piezas de una corona o llevar mensajes sin que se caigan de una charola.
 - Un cierre tranquilo para pastel, fotos y despedida.
 
-La [guía del Castillo de Princesas para fiestas](/blog/castillo-inflable-de-princesas-guia-completa/) concentra las medidas, el rango de edad y las condiciones de instalación. Aquí el foco es otro: usar esos datos para que la actividad fuerte tenga lugar dentro de un cumpleaños que se siente pensado para primaria.
+La [guía del Castillo de Princesas para fiestas](/inflables/castillo-princesas/) concentra las medidas, el rango de edad y las condiciones de instalación. Aquí el foco es otro: usar esos datos para que la actividad fuerte tenga lugar dentro de un cumpleaños que se siente pensado para primaria.
 
 ## ¿Cómo puede verse un cronograma de tres horas sin correr de una actividad a otra?
 
@@ -86,7 +86,7 @@ Puedes armar una misión de corona en tres estaciones:
 2. Con esas tarjetas forman el orden de una corona de cartulina o descifran dónde está la siguiente pista.
 3. Al terminar, el equipo elige el orden de su turno en la resbaladilla. No necesita haber ganador único: todos llegan al último bloque de juego.
 
-Otra alternativa es el reto de baile por consignas: suena música, se detiene y quien guía indica una pose, una caminata de reina o un saludo de exploradora. Es útil cuando el jardín es estrecho porque requiere poca distancia y no agrega objetos al piso. Si la festejada prefiere una actividad más serena, las estaciones de una [fiesta spa para niñas con inflable](/blog/fiesta-spa-para-ninas-con-inflable/) muestran cómo intercalar cuidado de uñas o mascarillas de papel con el juego activo. Para contrastar una agenda de cumpleaños con temática de aventura, también sirve la [fiesta de 6 años con brincolín de dragón](/blog/brincolin-de-dragon-para-cumpleanos-de-6-anos/): cambia el tema, pero confirma que los turnos y las pausas hacen más manejable un grupo de primaria.
+Otra alternativa es el reto de baile por consignas: suena música, se detiene y quien guía indica una pose, una caminata de reina o un saludo de exploradora. Es útil cuando el jardín es estrecho porque requiere poca distancia y no agrega objetos al piso. Si la festejada prefiere una actividad más serena, las estaciones de una [fiesta spa para niñas con inflable](/blog/fiesta-spa-para-ninas-con-inflable/) muestran cómo intercalar cuidado de uñas o mascarillas de papel con el juego activo. Para contrastar una agenda de cumpleaños con temática de aventura, también sirve la [fiesta de 6 años con brincolín de dragón](/blog/fiesta-de-6-anos-ideas-inflable/): cambia el tema, pero confirma que los turnos y las pausas hacen más manejable un grupo de primaria.
 
 ## ¿Cómo haces que el castillo sea una estación y no un lugar de amontonamiento?
 
@@ -99,7 +99,7 @@ Prueba esta dinámica durante el bloque activo:
 - Da una sola consigna por vuelta, como tocar una torre antes de salir o bajar por la resbaladilla sin detenerse en medio. Evita carreras, empujones o piruetas.
 - Haz pausas si se juntan edades muy distintas. La capacidad simultánea se confirma al cotizar; no la deduzcas por el tamaño que se ve en las fotos.
 
-La [organización de un brincolín de princesas por edad](/blog/brincolin-de-princesas-para-ninas-por-edad/) desarrolla qué tipo de turnos conviene a cada grupo. Para esta fiesta, el punto es que la festejada también tenga un turno con sus amistades más cercanas, sin dejar fuera a hermanos o primos que llegaron antes.
+La [organización de un brincolín de princesas por edad](/blog/fiesta-princesas-ninas-inflable-cdmx/) desarrolla qué tipo de turnos conviene a cada grupo. Para esta fiesta, el punto es que la festejada también tenga un turno con sus amistades más cercanas, sin dejar fuera a hermanos o primos que llegaron antes.
 
 ## ¿Qué decoración acompaña el juego sin invadir el área de seguridad?
 
@@ -114,7 +114,7 @@ Una distribución práctica es poner el fondo de fotos cerca de la mesa de paste
 | Mesa de actividad | A un costado, con sillas estables | Guarda tijeras y marcadores cuando inicia el bloque activo |
 | Alimentos y bebidas | Lejos de la lona y del motor | Programa una pausa completa antes de servir |
 
-Si aún eliges colores y texturas, revisa las [paletas para combinar un inflable rosa en una fiesta de niña](/blog/inflable-rosa-para-fiesta-de-nina/). Si la prioridad son las tomas con la festejada, la próxima guía de [momentos para retratar junto al Castillo de Princesas](/blog/fotos-con-inflable-de-princesas-ideas/) puede ayudarte a decidir qué momentos apartar antes de que empiece el brinco.
+Si aún eliges colores y texturas, revisa las [paletas para combinar un inflable rosa en una fiesta de niña](/blog/fiesta-princesas-ninas-inflable-cdmx/).
 
 ## ¿Qué debes confirmar en un jardín, patio o área común antes de invitar?
 
@@ -140,7 +140,7 @@ La misma agenda se adapta a un jardín en Coyoacán, un patio de casa en Benito 
 | [Renta de inflables en Benito Juárez](/cobertura/benito-juarez/) | Del Valle, Narvarte, Nápoles, Portales y Álamos | Portería, elevador de servicio si aplica y que el área sea exterior | Sin costo adicional en Narvarte; resto según colonia |
 | [Cobertura de renta de inflables en CDMX](/cobertura/cdmx/) | Las 16 alcaldías | Colonia, tipo de espacio, medidas y condiciones de acceso | Según colonia; confirma el importe al cotizar |
 
-En Coyoacán, las casas con patio de Del Carmen o Villa Coapa pueden tener un buen punto para el castillo, pero el recorrido de carga sigue siendo relevante. En Benito Juárez, una azotea o terraza de edificio necesita evaluación por acceso y condiciones del área; no la confundas con un jardín exterior libre. Si tu festejo será al sur, la guía de [renta de castillo de princesas en Coyoacán](/blog/castillo-de-princesas-coyoacan/) profundiza en esas diferencias sin repetir el plan de juegos.
+En Coyoacán, las casas con patio de Del Carmen o Villa Coapa pueden tener un buen punto para el castillo, pero el recorrido de carga sigue siendo relevante. En Benito Juárez, una azotea o terraza de edificio necesita evaluación por acceso y condiciones del área; no la confundas con un jardín exterior libre. Si tu festejo será al sur, la guía de [renta de castillo de princesas en Coyoacán](/cobertura/coyoacan/) profundiza en esas diferencias sin repetir el plan de juegos.
 
 ## ¿Qué plan alterno necesitas si el clima cambia o la fiesta se alarga?
 

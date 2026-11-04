@@ -47,7 +47,7 @@ Cuenta como pequeño cuando el inflable tiene que convivir con la mesa, los invi
 
 En un jardín amplio, el inflable va al centro y lo demás se te acomoda solo. En un patio chico, cada metro tiene dueño. Tú decides el orden antes.
 
-Por eso la pregunta útil no es si cabe el inflable. Es si cabe tu fiesta completa con el inflable dentro. Si tu espacio es amplio y piensas en un modelo grande, el enfoque cambia: revisa [cómo saber si te cabe un inflable grande](/blog/renta-barco-pirata-inflable-grande-cdmx/).
+Por eso la pregunta útil no es si cabe el inflable. Es si cabe tu fiesta completa con el inflable dentro. Si tu espacio es amplio y piensas en un modelo grande, el enfoque cambia: revisa [cómo saber si te cabe un inflable grande](/inflables/barco-pirata/).
 
 ## ¿Qué medidas tomas en un patio chico antes de cotizar?
 
@@ -176,11 +176,11 @@ Es tu caso ideal. El Castillo Baby está pensado para niños de 1 a 3 años y pa
 
 ### Si van niños mayores de 3 años
 
-El Castillo Baby no es para ellos. Puedes mover la fiesta, buscar un lugar en el [directorio de salones infantiles en CDMX](/directorio/cdmx/) o armar juegos sin inflable para los grandes. Para calcular según tu lista, revisa cómo [elegir tamaño de inflable por número de invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/).
+El Castillo Baby no es para ellos. Puedes mover la fiesta, buscar un lugar en el [directorio de salones infantiles en CDMX](/directorio/cdmx/) o armar juegos sin inflable para los grandes. Para calcular según tu lista, revisa cómo [elegir tamaño de inflable por número de invitados](/blog/como-elegir-inflable-fiesta-infantil/).
 
 ### Si tu lista mezcla edades
 
-Si el patio da para el Castillo Baby pero no para el Gusanitos, prioriza a los más chicos y prepara actividades para los mayores. Si sí te da para el Gusanitos, cubres de 2 a 8 años. Te ayuda saber cómo [ordenar la tarde con niños de varias edades](/blog/renta-inflable-gusanitos-cdmx/).
+Si el patio da para el Castillo Baby pero no para el Gusanitos, prioriza a los más chicos y prepara actividades para los mayores. Si sí te da para el Gusanitos, cubres de 2 a 8 años. Te ayuda saber cómo [ordenar la tarde con niños de varias edades](/inflables/gusanitos/).
 
 > **Fiesta de bebés en patio chico.** El Paquete fiesta bebés junta Castillo Baby, mesa con 4 sillitas y pintacaritas para 4 niños en $2,100. [Pregunta por el Paquete fiesta bebés](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Paquete%20fiesta%20bebes%20para%20un%20patio%20pequeno)
 

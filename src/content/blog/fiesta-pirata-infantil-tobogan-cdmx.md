@@ -39,13 +39,13 @@ A diferencia de temáticas basadas en personajes de moda que pierden vigencia r�
 
 Otra gran ventaja es la **versatilidad decorativa**. Los colores clásicos de una fiesta pirata — negro, rojo, dorado y blanco — son fáciles de encontrar y combinan con casi cualquier espacio. No necesitas comprar decoración de licencia cara; con elementos creativos y económicos puedes transformar tu jardín o salón en un puerto pirata espectacular.
 
-> **Dato pirata:** en las fiestas que atendemos, las que tienen una temática clara son siempre las que más participación generan en los juegos. Los niños se involucran más cuando hay una historia que los conecta — y el barco es de los inflables que mejor la cuentan. En la guía de [inflables temáticos infantiles](/blog/inflables-tematicos-infantiles-cdmx/) comparamos las cuatro temáticas del catálogo.
+> **Dato pirata:** en las fiestas que atendemos, las que tienen una temática clara son siempre las que más participación generan en los juegos. Los niños se involucran más cuando hay una historia que los conecta — y el barco es de los inflables que mejor la cuentan. En la guía de [inflables temáticos infantiles](/inflables/tematicos/) comparamos las cuatro temáticas del catálogo.
 
 ## El tobogán inflable como atracción principal de la fiesta
 
 Un **tobogán inflable con temática pirata** no es solo un juego más: es la pieza central que define toda la experiencia de la fiesta. Cuando los niños llegan y ven un [barco pirata](/inflables/barco-pirata/) gigante con tobogán en el jardín, inmediatamente saben que esta fiesta va a ser diferente a todas las que han ido antes.
 
-El **[barco pirata inflable](/inflables/barco-pirata/) de BRINCOLINS** combina tres actividades en una sola estructura: zona de brinco en la cubierta, rampa de escalada y tobogán con aterrizaje acolchado. Mide 6×3.5×3.80 m, requiere un área libre y altura suficientes, es para niños de 3 a 12 años y cuesta **$2,300 MXN**. Antes de apartarlo conviene revisar [si un inflable de 7 metros te cabe en el jardín](/blog/renta-barco-pirata-inflable-grande-cdmx/).
+El **[barco pirata inflable](/inflables/barco-pirata/) de BRINCOLINS** combina tres actividades en una sola estructura: zona de brinco en la cubierta, rampa de escalada y tobogán con aterrizaje acolchado. Mide 6×3.5×3.80 m, requiere un área libre y altura suficientes, es para niños de 3 a 12 años y cuesta **$2,300 MXN**. Antes de apartarlo conviene revisar si un inflable de 7 metros te cabe en el jardín.
 
 ### Ventajas del tobogán integrado
 

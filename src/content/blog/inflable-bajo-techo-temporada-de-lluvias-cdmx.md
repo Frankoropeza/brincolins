@@ -72,7 +72,7 @@ Fíjate en la Jungla. Es más baja que el Gusanitos y aun así va sólo al aire 
 
 El [Gusanitos, el circuito que entra bajo techo](/inflables/gusanitos/), mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años y se instala en 20 minutos. Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas. Bajo techo eso ayuda, porque el juego se reparte a lo largo del recorrido en lugar de amontonarse en un solo punto.
 
-También funciona con grupos de edades mezcladas, que es justo lo que junta una fiesta familiar en casa. Si tu lista va de primos de 2 años a compañeros de 8, revisa los [turnos para niños de edades mezcladas](/blog/renta-inflable-gusanitos-cdmx/) antes de armar el programa.
+También funciona con grupos de edades mezcladas, que es justo lo que junta una fiesta familiar en casa. Si tu lista va de primos de 2 años a compañeros de 8, revisa los [turnos para niños de edades mezcladas](/inflables/gusanitos/) antes de armar el programa.
 
 ![Acercamiento a los gusanos amarillos de antenas verdes del Gusanitos, con una torre morada detrás](/img/inflables/gusanitos/gusanitos-inflable-fiesta.avif)
 
@@ -106,7 +106,7 @@ La superficie tiene que ser plana y estar despejada, sin vidrio ni objetos punza
 
 El motor necesita una toma de 110 V a menos de 20 m del área y trabaja durante todo el evento. Bajo techo suele ser fácil de resolver. Sólo procura que tu contacto no cargue también la licuadora, la bocina y las luces.
 
-Avisa si para llegar hay escaleras, pasillos angostos o puertas chicas. Con eso confirmamos la viabilidad antes de que pagues nada. ¿Es tu primera renta? Repasa [lo básico para rentar un inflable por primera vez](/blog/consejos-rentar-inflable-primera-vez/): espacio, luz y anticipo.
+Avisa si para llegar hay escaleras, pasillos angostos o puertas chicas. Con eso confirmamos la viabilidad antes de que pagues nada. ¿Es tu primera renta? Repasa [lo básico para rentar un inflable por primera vez](/blog/como-rentar-inflable-brincolins-proceso-paso-a-paso/): espacio, luz y anticipo.
 
 ## ¿Terraza, carpa, garage o salón: qué techo te conviene?
 
@@ -120,7 +120,7 @@ Es el escenario más común en casas de la ciudad. Te funciona bien con techo fi
 
 Una carpa convierte el jardín en espacio techado, pero no cualquier carpa sirve. La altura que cuenta es la de las orillas y los travesaños, no la del pico. Si la rentas con otro proveedor, pídele esa medida y compártela al cotizar; su costo es una partida aparte.
 
-Con carpa sobre pasto, el terreno debe estar parejo y sin charcos. Para preparar el suelo, revisa [cómo dejar listo el pasto y el terreno al aire libre](/blog/inflables-jardin-exterior-cdmx/).
+Con carpa sobre pasto, el terreno debe estar parejo y sin charcos. Para preparar el suelo, revisa [cómo dejar listo el pasto y el terreno al aire libre](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/).
 
 ### Garage o cochera
 

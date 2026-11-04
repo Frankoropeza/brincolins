@@ -53,7 +53,7 @@ El primero son los de 1 a 3 años. Necesitan un espacio pequeño, tranquilo y a 
 
 Mide 2.5 × 2 × 2 m, es para niños de 1 a 3 años y está pensado para interiores, terrazas y espacios reducidos. Se instala en 15 minutos. Es compacto y no compite con la decoración. Si tu jardín es chico, sirve igual.
 
-Si el bautizo coincide con el primer año del festejado, la fiesta cambia de tono y de horario; la guía de [cómo festejar el primer año con Castillo Baby](/blog/renta-mini-castillo-inflable-bebes-cdmx/) te ayuda a juntar los dos motivos sin sobrecargar el día.
+Si el bautizo coincide con el primer año del festejado, la fiesta cambia de tono y de horario; la guía de [cómo festejar el primer año con Castillo Baby](/inflables/mini-castillo/) te ayuda a juntar los dos motivos sin sobrecargar el día.
 
 ## ¿Cómo coordinas la misa con la instalación del inflable?
 
@@ -155,7 +155,7 @@ Depende de tu lista. Si casi todos los niños tienen de 1 a 3 años, basta el Ca
 
 ### Cómo se integra con la decoración
 
-¿Te preocupan las fotos? El Castillo Blanco está pensado para no romper la estética de un evento formal. El repaso de [inflables que encajan en eventos formales](/blog/inflables-eventos-formales-cdmx/) explica cómo se ven en bodas, XV años y bautizos. Y la guía para [diseñar la zona infantil de una boda](/blog/renta-castillo-blanco-inflable-bodas-cdmx/) detalla ubicación, ruido y horarios en recepciones grandes.
+¿Te preocupan las fotos? El Castillo Blanco está pensado para no romper la estética de un evento formal. El repaso de [inflables que encajan en eventos formales](/blog/inflables-eventos-formales-cdmx/) explica cómo se ven en bodas, XV años y bautizos. Y la guía para [diseñar la zona infantil de una boda](/inflables/castillo-blanco/) detalla ubicación, ruido y horarios en recepciones grandes.
 
 ![Castillo Baby armado sobre pasto entre árboles, con torres verde y azul y entrada de arcos amarillos](/img/inflables/mini-castillo.avif)
 

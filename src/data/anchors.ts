@@ -103,7 +103,7 @@ export const anchorSalon = (nombre: string, zona: string) =>
 
 /* ── Servicios (por URL) ─────────────────────────────────────────────── */
 export const SERVICIO_ANCHORS: Record<string, string> = {
-  "/servicios/renta-de-inflables/":      "Servicio de renta de inflables en CDMX",
+  "/servicios/renta-de-inflables/":      "Qué incluye la renta de un inflable",
   "/servicios/paquetes-de-fiesta/":      "Paquetes de fiesta con inflables en CDMX",
   "/servicios/mobiliario-para-fiestas/": "Renta de mobiliario para fiestas en CDMX",
   "/servicios/iluminacion-eventos/":     "Iluminación para eventos y fiestas en CDMX",

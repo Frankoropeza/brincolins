@@ -115,7 +115,7 @@ No te sirven. La grava se mueve con el peso de los niños, no permite un anclaje
 
 Una inclinación leve puede resolverse; una pronunciada, no. El instalador decide en sitio. Tú mandas fotos tomadas desde un costado del área para que se aprecie la pendiente.
 
-¿Tu espacio es un jardín amplio y quieres ver qué modelos le quedan? Revisa la guía de [inflables para jardín y exterior en CDMX](/blog/inflables-jardin-exterior-cdmx/).
+¿Tu espacio es un jardín amplio y quieres ver qué modelos le quedan? Revisa la guía de [inflables para jardín y exterior en CDMX](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/).
 
 > **¿Tu piso es de los que dudas?** Mándanos una foto del área y te decimos si sirve y con qué se ancla, antes de apartar. [Mandar foto del piso](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20mi%20piso%20sirve%20para%20instalar%20el%20Dragones%20Rojos)
 
@@ -217,7 +217,7 @@ Si quieres evitar sorpresas, cuida sobre todo tres: medir el suelo y olvidar la 
 - **Orientar la entrada hacia la barda.** Los adultos no ven quién entra y quién sale.
 - **Dejar macetas, bicicletas o juguetes alrededor.** Todo lo que esté cerca estorba la entrada y la salida.
 
-Con el lugar resuelto, puedes armar la fiesta alrededor del inflable: hay ideas para [montar un torneo de caballeros junto al castillo de dragones](/blog/inflable-dragones-rojos-cdmx/). ¿Aún no eliges modelo? Compara [precio y medidas de los tres medianos de $1,600](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/), revisa si te conviene el [paquete con Dragones Rojos o Jungla](/blog/paquete-fiesta-dragones-rojos-o-jungla/) o explora los [modelos medianos del catálogo](/inflables/medianos/).
+Con el lugar resuelto, puedes armar la fiesta alrededor del inflable: hay ideas para [montar un torneo de caballeros junto al castillo de dragones](/inflables/dragones-rojos/). ¿Aún no eliges modelo? Compara [precio y medidas de los tres medianos de $1,600](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/), revisa si te conviene el [paquete con Dragones Rojos o Jungla](/servicios/paquetes-de-fiesta/) o explora los [modelos medianos del catálogo](/inflables/medianos/).
 
 ## Aparta tu inflable con el lugar ya revisado
 

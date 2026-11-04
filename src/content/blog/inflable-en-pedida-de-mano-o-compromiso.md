@@ -52,7 +52,7 @@ El punto no es encender un brincolín desde que llegan los invitados. Es decidir
 
 Una pedida de mano suele reunir a dos familias que quizá conviven por primera vez durante varias horas. Para los adultos, el centro es la conversación, el brindis y la reacción de la pareja. Para los niños, ese ritmo puede ser largo. Una estación de juego evita que terminen corriendo alrededor de la mesa de postres o buscando a sus papás entre quienes toman fotos.
 
-El Castillo Blanco aporta una presencia más sobria que un modelo temático de colores intensos. Eso no significa que sea un adorno ni una atracción para adultos: es una zona de uso infantil con condiciones propias. La [guía completa del castillo inflable blanco](/blog/castillo-inflable-blanco-guia-completa/) explica sus medidas y límites; para una pedida, la diferencia está en integrarlo al orden del evento.
+El Castillo Blanco aporta una presencia más sobria que un modelo temático de colores intensos. Eso no significa que sea un adorno ni una atracción para adultos: es una zona de uso infantil con condiciones propias. La [guía completa del castillo inflable blanco](/inflables/castillo-blanco/) explica sus medidas y límites; para una pedida, la diferencia está en integrarlo al orden del evento.
 
 Piensa en la zona infantil como una respuesta a tres necesidades concretas:
 
@@ -77,7 +77,7 @@ En una pedida no hace falta que la zona infantil opere de principio a fin. De he
 
 Este esquema no pretende imponer un guion. Si la propuesta será al atardecer, quizá convenga abrir el inflable antes del brindis y pausarlo diez minutos antes. Si es una comida de domingo, puede funcionar mejor después de las fotos. La decisión útil es fijar un bloque, comunicarlo a quien supervisa y no dejar que el horario quede a la improvisación.
 
-Para un evento con ceremonia y recepción más largas, la guía de [zona infantil con Castillo Blanco en una boda](/blog/renta-castillo-blanco-inflable-bodas-cdmx/) ofrece otra forma de separar los tiempos sin trasladar automáticamente el programa de una boda a una pedida.
+Para un evento con ceremonia y recepción más largas, la guía de [zona infantil con Castillo Blanco en una boda](/inflables/castillo-blanco/) ofrece otra forma de separar los tiempos sin trasladar automáticamente el programa de una boda a una pedida.
 
 ## ¿Dónde queda bien una zona infantil sin invadir la pedida?
 
@@ -93,7 +93,7 @@ Busca un lateral del jardín que se vea desde una o dos mesas familiares y que q
 
 El área debe estar plana, libre de vidrio y objetos punzantes. También necesitas una toma de 110 V a menos de 20 metros, sin que el cable atraviese la circulación de las familias. Las medidas del inflable no sustituyen la revisión del acceso, la superficie y el espacio perimetral; esa viabilidad se confirma al cotizar.
 
-Si el venue tiene una estética de flores, velas o telas, deja que esos elementos se queden alrededor de la pareja. Para complementar el lado infantil sin sujetar nada a la lona, revisa cómo montar un [brincolín blanco con globos en estructura independiente](/blog/brincolin-blanco-decorado-con-globos/). El arco debe ir a un costado, nunca sobre la entrada, las mallas o la salida de resbaladilla.
+Si el venue tiene una estética de flores, velas o telas, deja que esos elementos se queden alrededor de la pareja. Para complementar el lado infantil sin sujetar nada a la lona, revisa cómo montar un [brincolín blanco con globos en estructura independiente](/blog/arcos-globos-inflable-fiesta-infantil-cdmx/). El arco debe ir a un costado, nunca sobre la entrada, las mallas o la salida de resbaladilla.
 
 ## ¿Qué hay que confirmar con el jardín o salón antes de reservar?
 
@@ -121,9 +121,9 @@ Quien supervise debe poder atender esa tarea sin estar simultáneamente organiza
 - Pausar el uso durante la comida, el brindis o cuando el clima deje de ser seguro.
 - Avisar a las familias dónde recogerán a los niños antes de las fotos grupales.
 
-Si las niñas y los niños llevarán vestidos, camisas claras, trajes o zapatos especiales, define primero la sesión de fotos. Después pueden quitarse el calzado y usar el juego por turnos. La guía para [niños con ropa formal dentro de un inflable](/blog/ninos-con-ropa-de-gala-en-inflable/) profundiza en ese orden sin prometer que las prendas delicadas no se manchen.
+Si las niñas y los niños llevarán vestidos, camisas claras, trajes o zapatos especiales, define primero la sesión de fotos. Después pueden quitarse el calzado y usar el juego por turnos. La guía para [niños con ropa formal dentro de un inflable](/blog/inflables-eventos-formales-cdmx/) profundiza en ese orden sin prometer que las prendas delicadas no se manchen.
 
-La iluminación también pesa. En una propuesta que empieza tarde, abre el juego mientras el jardín aún tiene buena visibilidad y termina el bloque antes de que sea difícil vigilar entradas y salidas. Si quieres fotografías del inflable como parte del montaje, las recomendaciones de [fotos con inflable blanco según luz y horario](/blog/fotos-con-castillo-blanco-luz-y-horario/) te ayudan a elegir el momento sin convertir a los niños en utilería de la pedida.
+La iluminación también pesa. En una propuesta que empieza tarde, abre el juego mientras el jardín aún tiene buena visibilidad y termina el bloque antes de que sea difícil vigilar entradas y salidas. Si quieres fotografías del inflable como parte del montaje, las recomendaciones de [fotos con inflable blanco según luz y horario](/inflables/castillo-blanco/) te ayudan a elegir el momento sin convertir a los niños en utilería de la pedida.
 
 ## ¿Qué cambia si la pedida es en Polanco, Lomas o Miguel Hidalgo?
 
@@ -149,7 +149,7 @@ La renta neta del Castillo Blanco es de $2,600 por evento. Incluye instalación,
 | Factura | 16% de IVA sobre la renta si la solicitas | Que aparezca desglosado |
 | Decoración y actividades extra | No se dan por incluidas | Proveedor, diseño y presupuesto por separado |
 
-Antes de enviar anticipo, compara los conceptos con el [desglose de renta, traslado e IVA del Castillo Blanco](/blog/inflable-blanco-renta-cdmx-precio/) y revisa los [precios publicados de inflables](/precios/). La fecha se aparta con la mitad del total como anticipo; si el plan depende del clima o del venue, lee la [política de cancelación y cambio de fecha](/politica-de-cancelacion/) para saber qué aplica a tu caso.
+Antes de enviar anticipo, compara los conceptos con el [desglose de renta, traslado e IVA del Castillo Blanco](/inflables/castillo-blanco/) y revisa los [precios publicados de inflables](/precios/). La fecha se aparta con la mitad del total como anticipo; si el plan depende del clima o del venue, lee la [política de cancelación y cambio de fecha](/politica-de-cancelacion/) para saber qué aplica a tu caso.
 
 ## ¿Qué detalles debes mandar para cotizar la pedida de mano?
 
@@ -157,6 +157,6 @@ Una cotización útil empieza con la información que permite revisar el lugar, 
 
 También explica cuándo quieres abrir el inflable. Decir “después del anillo, durante el cóctel” ayuda a revisar si el horario de instalación del venue lo permite y a decidir dónde no estorbará la recepción. Si el pronóstico anuncia lluvia o viento fuerte, no intentes resolverlo colocando el Castillo Blanco bajo una carpa baja: el juego se suspende con esas condiciones y el modelo necesita exterior con altura libre.
 
-Si los niños invitados son mayores y quieres una actividad de carreras, no fuerces el Castillo Blanco a cumplir otro papel: compara la [pista de obstáculos inflable y su precio](/blog/pista-de-obstaculos-inflable-precio/) para revisar un formato de juego distinto antes de elegir.
+Si los niños invitados son mayores y quieres una actividad de carreras, no fuerces el Castillo Blanco a cumplir otro papel: compara la [pista de obstáculos inflable y su precio](/inflables/extremo/) para revisar un formato de juego distinto antes de elegir.
 
 Cuando tengas esos datos, [cotiza el Castillo Blanco para tu pedida de mano](/cotizar/) y confirma disponibilidad antes de coordinar decoración o proveedores. También puedes escribir al WhatsApp 55 3128 1706 con fotos del lugar, fecha y horario para revisar la instalación.

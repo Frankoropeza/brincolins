@@ -61,7 +61,7 @@ Es la versión sobria de las hadas. Menos brillo, más flores y follaje. Te va s
 
 Te deja sumar más color sin perder armonía: amarillo pastel, turquesa o naranja suave junto al rosa. Y te sale barata. Las mariposas de papel se recortan en casa y se cuelgan de árboles, rejas o cordeles.
 
-¿Quieres comparar modelos del catálogo para estas temáticas? El repaso de [inflables con diseño pensados para niñas](/blog/inflables-tematicos-ninas-cdmx/) los ordena por edad y estilo. Y el resto de diseños con personaje o escenario los encuentras en la [categoría de inflables con temática](/inflables/tematicos/).
+¿Quieres comparar modelos del catálogo para estas temáticas? El repaso de [inflables con diseño pensados para niñas](/blog/fiesta-princesas-ninas-inflable-cdmx/) los ordena por edad y estilo. Y el resto de diseños con personaje o escenario los encuentras en la [categoría de inflables con temática](/inflables/tematicos/).
 
 ## ¿Qué colores usar en una fiesta de unicornios, hadas o mariposas?
 
@@ -111,7 +111,7 @@ Concentra tu presupuesto en tres puntos lejos del inflable. Ahí sí luce:
 
 ### Globos pocos, bajos y lejos
 
-Los globos son marco. No protagonistas. Úsalos en racimos bajos junto a la mesa o la entrada, nunca amarrados al inflable ni donde puedan caer al área de brinco. Si quieres el reparto completo por zonas de juego, comida, descanso y fotos, revisa [cómo repartir la decoración alrededor del inflable](/blog/decoracion-fiesta-infantil-inflable/).
+Los globos son marco. No protagonistas. Úsalos en racimos bajos junto a la mesa o la entrada, nunca amarrados al inflable ni donde puedan caer al área de brinco. Si quieres el reparto completo por zonas de juego, comida, descanso y fotos, revisa [cómo repartir la decoración alrededor del inflable](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/).
 
 ![Entrada de castillo inflable rosa y turquesa con rampa azul en terraza de madera rodeada de plantas](/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif)
 
@@ -187,7 +187,7 @@ El Castillo Blanco. Si tus hadas forman parte de un evento formal, el rosa puede
 
 El [Castillo Blanco para bodas, bautizos y XV años](/inflables/castillo-blanco/) mide **5 × 7 × 4 m** y pide 4.7 m de altura libre. Es sólo para exterior y recibe a niños de **3 a 12 años**. Su precio es de **$2,600** netos por evento. Quienes brincan son los niños invitados; los adultos acompañan desde fuera.
 
-¿Dudas entre los tres castillos del catálogo? La [tabla de los castillos rosa, blanco y para bebés](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) los pone lado a lado por tipo de evento. Y si dudas entre el castillo rosa y el modelo rojo, lee [en qué fiestas gana el castillo rosa frente a los dragones](/blog/renta-castillo-princesas-inflable-cdmx/).
+¿Dudas entre los tres castillos del catálogo? La [tabla de los castillos rosa, blanco y para bebés](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) los pone lado a lado por tipo de evento. Y si dudas entre el castillo rosa y el modelo rojo, lee [en qué fiestas gana el castillo rosa frente a los dragones](/inflables/castillo-princesas/).
 
 ## Aparta el castillo para tu fiesta de unicornios
 

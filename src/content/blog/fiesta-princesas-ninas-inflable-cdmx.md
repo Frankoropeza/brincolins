@@ -35,7 +35,7 @@ faqs:
 
 No importa la generación: las princesas siguen siendo la temática número uno para **fiestas infantiles de niñas**. Desde las princesas clásicas hasta las heroínas modernas, el concepto de realeza sigue cautivando a las pequeñas. La razón es simple: cada niña quiere sentirse especial, y una fiesta de princesas le dice exactamente eso.
 
-En nuestra experiencia organizando eventos en **CDMX y zona metropolitana**, las princesas son con diferencia la temática que más nos piden cuando la festejada es una niña. Los papás buscan crear una atmósfera mágica y coherente, y el **inflable de [castillo de princesas](/inflables/castillo-princesas/)** —$1,800 MXN, 5×3.30×3 m, para niñas de 2 a 10 años— se ha convertido en el elemento central que une toda la decoración y las actividades. Si quieres comparar con los otros modelos que funcionan para niñas, la guía de [inflables temáticos para niñas](/blog/inflables-tematicos-ninas-cdmx/) los pone lado a lado.
+En nuestra experiencia organizando eventos en **CDMX y zona metropolitana**, las princesas son con diferencia la temática que más nos piden cuando la festejada es una niña. Los papás buscan crear una atmósfera mágica y coherente, y el **inflable de [castillo de princesas](/inflables/castillo-princesas/)** —$1,800 MXN, 5×3.30×3 m, para niñas de 2 a 10 años— se ha convertido en el elemento central que une toda la decoración y las actividades. Si quieres comparar con los otros modelos, revisa los [inflables temáticos](/inflables/tematicos/).
 
 Lo mejor es que una fiesta de princesas no necesita un presupuesto enorme para lucir espectacular. Con los elementos correctos, como un inflable temático, decoración sencilla pero bien pensada y actividades divertidas, puedes crear una celebración que las invitadas y sus mamás no olvidarán.
 
@@ -71,7 +71,7 @@ La combinación más exitosa es **rosa, dorado y blanco**. El rosa combina perfe
 - **Mantel y vajilla temática:** Platos, vasos y servilletas con motivos de princesas o en colores lisos rosa y dorado
 - **Cortina de fondo:** Una cortina de tul rosa detrás de la mesa principal para fotos
 
-> **Tip económico:** No necesitas comprar toda la decoración nueva. Globos, tul y flores artificiales del mercado de Jamaica o Sonora en CDMX te dan resultados hermosos a una fracción del costo. Cómo combinarlos con el inflable sin que se peleen visualmente está en la guía de [decoración para fiesta infantil con inflable](/blog/decoracion-fiesta-infantil-inflable/).
+> **Tip económico:** No necesitas comprar toda la decoración nueva. Globos, tul y flores artificiales del mercado de Jamaica o Sonora en CDMX te dan resultados hermosos a una fracción del costo. Cómo combinarlos con el inflable sin que se peleen visualmente está en la guía de [decoración para fiesta infantil con inflable](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/).
 
 ## Actividades complementarias para la fiesta
 

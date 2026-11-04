@@ -1,5 +1,5 @@
 ---
-title: "Inflable para guardería: qué salas entran y cómo armar turnos"
+title: "Inflable para guardería: qué salas entran y cómo dar turnos"
 h1: "Inflable para guardería y estancia infantil en CDMX: salas, turnos, supervisión y factura"
 description: "Inflable para guardería en CDMX: qué preguntar a la dirección, qué salas entran, cómo armar turnos de maternal y cómo pedir la cotización con factura."
 excerpt: "Día del Niño, fin de cursos o kermés de maternal: lo que conviene resolver con la dirección para que el inflable sea una actividad ordenada y no una fila sin fin."
@@ -55,7 +55,7 @@ Despedida del ciclo, a veces con familias invitadas. El inflable da actividad a 
 
 ### Kermés de maternal
 
-Una versión pequeña de la kermés escolar, con puestos, juegos y comida. Si tu institución también tiene primaria o grupos mayores, la guía de [kermesses escolares con varios inflables](/blog/kermesse-escolar-inflables-edomex-guia/) cubre cuántos inflables hacen falta y cómo repartir el espacio para grupos grandes.
+Una versión pequeña de la kermés escolar, con puestos, juegos y comida. Si tu institución también tiene primaria o grupos mayores, la guía de [kermesses escolares con varios inflables](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/) cubre cuántos inflables hacen falta y cómo repartir el espacio para grupos grandes.
 
 ## ¿Qué inflable para guardería corresponde a cada sala?
 
@@ -193,7 +193,7 @@ Casi ninguno tiene que ver con el inflable; todos salen de la organización del 
 - **Programar el inflable justo después de comer.** Mejor antes del almuerzo o con un margen razonable después.
 - **Pedir la factura al final.** Si la requieren, debe ir en la cotización desde el principio.
 
-Si alguna familia pregunta por el inflable para un festejo propio, puedes compartirle la guía de [actividades para la fiesta de 2 años](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) o la de [zona infantil en la recepción del bautizo](/blog/bautizo-con-inflable-zona-infantil-cdmx/). Y a los papás de lactantes que preguntan desde cuándo podrán usarlo, la respuesta es desde el año; la guía para [festejar el primer cumpleaños con calma](/blog/renta-mini-castillo-inflable-bebes-cdmx/) les da el resto.
+Si alguna familia pregunta por el inflable para un festejo propio, puedes compartirle la guía de [actividades para la fiesta de 2 años](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) o la de [zona infantil en la recepción del bautizo](/blog/bautizo-con-inflable-zona-infantil-cdmx/). Y a los papás de lactantes que preguntan desde cuándo podrán usarlo, la respuesta es desde el año; la guía para [festejar el primer cumpleaños con calma](/inflables/mini-castillo/) les da el resto.
 
 ## ¿Por qué no conviene un inflable grande para toda la estancia?
 

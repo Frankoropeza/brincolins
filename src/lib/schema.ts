@@ -81,7 +81,7 @@ export function buildOrganizationSchema() {
 export function buildLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "EventVenue"],
+    "@type": "LocalBusiness",
     "@id": `${SITE}/#negocio`,
     "name": `${SITE_NAME} — Renta de Inflables CDMX`,
     "url": SITE,...(SAME_AS.length ? { "sameAs": SAME_AS } : {}),

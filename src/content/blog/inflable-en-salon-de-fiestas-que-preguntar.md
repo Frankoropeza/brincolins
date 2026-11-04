@@ -83,7 +83,7 @@ Muchos salones infantiles tienen un jardín o un patio además del área techada
 
 Si todo es techado, tienes dos opciones. El [Castillo Baby para salones techados](/inflables/mini-castillo/), para niños de 1 a 3 años. Y [Gusanitos, el circuito que sí entra bajo techo](/inflables/gusanitos/), para niños de 2 a 8 años. Los dos piden **3.2 m de altura libre**. Gusanitos es más circuito que brincolín: túneles de colores con varias entradas y salidas que funcionan con edades mezcladas.
 
-Puedes verlos junto con los demás [inflables aptos para interiores](/inflables/para-interiores/). Y en la guía de [inflables chicos para fiestas bajo techo](/blog/inflable-pequeno-fiestas-interiores-cdmx/) tienes lo que conviene revisar de ventilación y espacio.
+Puedes verlos junto con los demás [inflables aptos para interiores](/inflables/para-interiores/).
 
 > **¿Tu salón es techado?** Mándanos la altura del techo y una foto del área, y te decimos si entra el Castillo Baby o Gusanitos. [Confirma qué inflable cabe en tu salón](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20que%20inflable%20cabe%20en%20mi%20salon%20de%20fiestas.%20La%20altura%20del%20techo%20es)
 
@@ -193,7 +193,7 @@ Una con estas preguntas, en este orden. Si el salón contesta todo con claridad,
 - **Suponer que cualquier inflable entra bajo techo.** Sólo el Castillo Baby y Gusanitos se instalan en interiores.
 - **Olvidar el horario de recolección.** Si hay otra fiesta después, el desmontaje también tiene hora.
 
-¿Comparas el salón contra hacerla en casa? El [costo de una fiesta de princesas en tu jardín](/blog/cuanto-cuesta-fiesta-de-princesas-en-casa/) te da las partidas para comparar con números. Y si el salón tiene jardín y dudas entre dos modelos, lee [cuándo conviene el castillo rosa y cuándo los dragones](/blog/renta-castillo-princesas-inflable-cdmx/).
+¿Comparas el salón contra hacerla en casa? El [costo de una fiesta de princesas en tu jardín](/blog/cuanto-cuesta-fiesta-de-princesas-en-casa/) te da las partidas para comparar con números. Y si el salón tiene jardín y dudas entre dos modelos, lee [cuándo conviene el castillo rosa y cuándo los dragones](/inflables/castillo-princesas/).
 
 ## Reserva el inflable cuando el salón te confirme
 

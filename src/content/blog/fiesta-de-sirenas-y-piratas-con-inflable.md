@@ -48,7 +48,7 @@ Porque comparten escenario y no se estorban. Los piratas buscan el tesoro, las s
 
 ¿Te suena alguno de estos casos? Hermanos con cumpleaños cercanos que festejan juntos. Un grupo mixto del salón, donde una temática muy marcada deja fuera a la mitad. Primos de 4 y de 10 años en la misma tarde: los chicos son marineros y los grandes son capitanes o guardianas del tesoro.
 
-¿Y si en casa nadie pidió sirenas? Entonces te conviene la versión clásica: la [guía de fiesta pirata con tobogán inflable](/blog/fiesta-pirata-infantil-tobogan-cdmx/) cubre ese caso. Si todavía estás eligiendo temática, el [repaso de temáticas con su inflable correspondiente](/blog/inflables-tematicos-infantiles-cdmx/) te ayuda a comparar antes de decidir.
+¿Y si en casa nadie pidió sirenas? Entonces te conviene la versión clásica: la [guía de fiesta pirata con tobogán inflable](/blog/fiesta-pirata-infantil-tobogan-cdmx/) cubre ese caso. Si todavía estás eligiendo temática, el [repaso de temáticas con su inflable correspondiente](/inflables/tematicos/) te ayuda a comparar antes de decidir.
 
 ## ¿Qué colores unen el mar de las sirenas con el tesoro pirata?
 
@@ -80,7 +80,7 @@ El inflable mide 6 × 3.5 × 3.80 m, pero el número que más pesa es otro. Ante
 
 #### La altura libre de 5.2 m
 
-Mide desde el pasto hasta la primera rama, cable o toldo encima del área. ¿Te da menos de 5.2 m? Ese punto no sirve, por bonito que se vea. La [guía para medir suelo, altura y acceso de un inflable grande](/blog/renta-barco-pirata-inflable-grande-cdmx/) te lleva paso a paso.
+Mide desde el pasto hasta la primera rama, cable o toldo encima del área. ¿Te da menos de 5.2 m? Ese punto no sirve, por bonito que se vea. La [guía para medir suelo, altura y acceso de un inflable grande](/inflables/barco-pirata/) te lleva paso a paso.
 
 #### Corriente, superficie y exterior
 

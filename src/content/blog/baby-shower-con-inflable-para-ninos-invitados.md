@@ -1,5 +1,5 @@
 ---
-title: "Baby shower con inflable: el área infantil que salva la tarde"
+title: "Baby shower con inflable: el área infantil que salva el día"
 h1: "Baby shower con inflable: cómo montar un área infantil para los hijos de tus invitados sin invadir la celebración"
 description: "Baby shower con inflable: qué castillo elegir según la edad de los niños invitados, dónde ubicarlo y quién supervisa. Compara opciones y cotiza en CDMX."
 excerpt: "Tus amigas vienen con sus hijos y tú quieres abrir regalos en paz. Así montas un área infantil con un castillo que combina con tu decoración de baby shower."
@@ -101,7 +101,7 @@ Ahí todos te miran. Es el momento ideal para que los niños estén en el inflab
 
 Lejos no quiere decir escondido. Si una mamá no ve a su hijo desde su silla, se levanta cada cinco minutos. Busca un punto visible desde la mayoría de las mesas. Pruébalo sentada.
 
-La lógica de ubicación, ruido y supervisión está bien explicada en la [ubicación de la zona infantil en una boda](/blog/renta-castillo-blanco-inflable-bodas-cdmx/). Te sirve igual para tu baby shower, sólo que a menor escala.
+La lógica de ubicación, ruido y supervisión está bien explicada en la [ubicación de la zona infantil en una boda](/inflables/castillo-blanco/). Te sirve igual para tu baby shower, sólo que a menor escala.
 
 ## ¿Qué opciones hay si el baby shower es en departamento o espacio cerrado?
 
@@ -155,7 +155,7 @@ Los globos van a los lados o en la mesa de dulces, nunca pegados al inflable. El
 
 #### Mesa infantil a juego
 
-Si vienen varios niños de 1 a 6 años, el [mobiliario infantil a juego](/servicios/mobiliario-para-fiestas/) les da su propio lugar para comer. La mesa con 10 sillas cuesta $550 con un inflable. Para más ideas de distribución, revisa la [decoración de fiestas infantiles con inflable](/blog/decoracion-fiesta-infantil-inflable/).
+Si vienen varios niños de 1 a 6 años, el [mobiliario infantil a juego](/servicios/mobiliario-para-fiestas/) les da su propio lugar para comer. La mesa con 10 sillas cuesta $550 con un inflable. Para más ideas de distribución, revisa la [decoración de fiestas infantiles con inflable](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/).
 
 > **Un área infantil que combine con tu decoración.** Instalamos antes de que lleguen tus invitadas, con anclaje verificado y motor profesional todo el evento. Los fines de semana se llenan. [Apartar castillo para mi baby shower](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Castillo%20Blanco%20para%20el%20area%20infantil%20de%20mi%20baby%20shower)
 

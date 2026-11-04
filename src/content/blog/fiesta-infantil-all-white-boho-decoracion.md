@@ -1,5 +1,5 @@
 ---
-title: "Fiesta infantil en blanco: 4 paletas que lucen con el castillo"
+title: "Fiesta infantil en blanco: 4 paletas con el castillo"
 h1: "Fiesta infantil en blanco, boho o pastel: cómo decorar alrededor del Castillo Blanco y mantenerlo limpio toda la tarde"
 description: "Fiesta infantil en blanco con el Castillo Blanco: 4 paletas, qué globos sí van y cuáles compiten, y cómo evitar manchas. Compara ideas y cotiza tu fecha."
 excerpt: "Pampas, globos nude, madera y un castillo blanco se ven preciosos en la foto de referencia. Aquí ves cómo lograr que luzcan igual con niños de verdad brincando."
@@ -144,7 +144,7 @@ Evita que detrás del castillo quede la zona de servicio, la cocina o los botes 
 
 La luz también cuenta. Imagina una fiesta a mediodía con sol de frente. El blanco rebota y la foto sale quemada. Una toma con el sol de lado te da textura.
 
-Para elegir dónde colocar el castillo pensando en ruido y supervisión, revisa la [zona infantil de boda con castillo blanco](/blog/renta-castillo-blanco-inflable-bodas-cdmx/). Las reglas de ubicación aplican igual a tu fiesta.
+Para elegir dónde colocar el castillo pensando en ruido y supervisión, revisa la [zona infantil de boda con castillo blanco](/inflables/castillo-blanco/). Las reglas de ubicación aplican igual a tu fiesta.
 
 ## ¿Qué cambia entre una fiesta boho de cumpleaños y un evento religioso en blanco?
 

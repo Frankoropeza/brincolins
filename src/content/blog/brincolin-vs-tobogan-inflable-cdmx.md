@@ -53,7 +53,7 @@ Para fiestas de bebés (1 a 3 años) o espacios interiores, el [Castillo Baby](/
 
 ## Cuándo conviene el tobogán inflable
 
-El inflable con tobogán es el rey de las **fiestas numerosas y los espacios grandes**. El [Barco Pirata](/inflables/barco-pirata/) (6 × 3.5 × 3.80 m, **$2,300 MXN**) es uno de los modelos grandes del catálogo y está recomendado de 3 a 12 años entre zona de brinco, mástil y tobogán — con 20 o más invitados, un brincolín mediano se queda corto y se forma fila. La guía de [cómo saber si un inflable de 7 metros te cabe](/blog/renta-barco-pirata-inflable-grande-cdmx/) tiene el repaso completo de espacio, altura y acceso.
+El inflable con tobogán es el rey de las **fiestas numerosas y los espacios grandes**. El [Barco Pirata](/inflables/barco-pirata/) (6 × 3.5 × 3.80 m, **$2,300 MXN**) es uno de los modelos grandes del catálogo y está recomendado de 3 a 12 años entre zona de brinco, mástil y tobogán — con 20 o más invitados, un brincolín mediano se queda corto y se forma fila. Si dudas del espacio, revisa [dónde instalar un inflable](/blog/donde-instalar-inflable-pasto-cemento-tierra/).
 
 Además del rendimiento, está el efecto visual: un barco de 3.80 metros de altura con velas **es la decoración de la fiesta**. Para eventos escolares y kermeses, el [Extremo](/inflables/extremo/) ($2,500 MXN) escala todavía más con doble carril para competencias.
 
@@ -63,4 +63,4 @@ Además del rendimiento, está el efecto visual: un barco de 3.80 metros de altu
 
 Rentar tobogán grande para una fiesta de bebés, o brincolín chico para 25 invitados. La regla práctica: **la edad define el tipo y el número de invitados define el tamaño**. Si tienes mezcla de edades y presupuesto, combina ambos — es lo que hacen las kermeses.
 
-¿Sigues con dudas? Mándanos por WhatsApp la edad de los niños, cuántos invitados esperas y una foto del espacio, o [pide tu cotización en línea](/cotizar/): te recomendamos el modelo exacto en minutos. También sirve la [comparativa por número de invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/). También puedes revisar la comparativa completa de [brincolín vs. otras alternativas de entretenimiento](/blog/brincolin-vs-otras-alternativas-fiesta-infantil/) o la guía de [inflables grandes con tobogán](/blog/inflables-grandes-con-tobogan-cdmx/).
+¿Sigues con dudas? Mándanos por WhatsApp la edad de los niños, cuántos invitados esperas y una foto del espacio, o [pide tu cotización en línea](/cotizar/): te recomendamos el modelo exacto en minutos. También sirve la [comparativa por número de invitados](/blog/como-elegir-inflable-fiesta-infantil/). También puedes revisar la comparativa completa de [brincolín vs. otras alternativas de entretenimiento](/blog/brincolin-vs-otras-alternativas-fiesta-infantil/) o la guía de [inflables grandes con tobogán](/inflables/toboganes/).

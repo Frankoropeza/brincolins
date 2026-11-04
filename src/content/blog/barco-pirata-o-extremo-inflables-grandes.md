@@ -48,7 +48,7 @@ Más de lo que parece. Y eso te simplifica la decisión. Los dos son para niños
 
 Ambos necesitan una toma de 110 V a menos de 20 m, superficie plana y despejada sin vidrio ni objetos punzantes, y una persona adulta supervisando todo el evento. La capacidad y el espacio libre exacto se confirman al cotizar. No decidas por un número de niños leído en internet. Decide con tus medidas y tu lista.
 
-¿Todavía no sabes si necesitas un grande? La guía de [tamaño de inflable según tu número de invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/) te ayuda con ese primer paso. Y si quieres ver los dos junto al resto de su tamaño, revisa los [modelos de mayor formato del catálogo](/inflables/grandes/).
+¿Todavía no sabes si necesitas un grande? La guía de [tamaño de inflable según tu número de invitados](/blog/como-elegir-inflable-fiesta-infantil/) te ayuda con ese primer paso. Y si quieres ver los dos junto al resto de su tamaño, revisa los [modelos de mayor formato del catálogo](/inflables/grandes/).
 
 ## ¿Cómo se comparan medidas, altura libre y precio?
 
@@ -88,7 +88,7 @@ El barco necesita 5.2 m de altura libre; el Extremo, 4.5 m. Esa diferencia desca
 
 #### Cómo mides la altura
 
-Mide desde el piso hasta el primer obstáculo encima del área: cable, rama, toldo o alero. Hazlo en el punto exacto, no en el centro del jardín. La [guía para comprobar si te cabe un inflable de 6 u 8 metros](/blog/renta-barco-pirata-inflable-grande-cdmx/) te explica suelo, altura y acceso paso a paso.
+Mide desde el piso hasta el primer obstáculo encima del área: cable, rama, toldo o alero. Hazlo en el punto exacto, no en el centro del jardín. La [guía para comprobar si te cabe un inflable de 6 u 8 metros](/inflables/barco-pirata/) te explica suelo, altura y acceso paso a paso.
 
 ### Cuando no alcanza para ninguno
 
@@ -146,7 +146,7 @@ Cuando el evento es grande, puedes rentar los dos y repartir grupos.
 
 ### Si rentas los dos a la vez
 
-Los chicos en el barco, los grandes en el Extremo, y luego cambian. Necesitas un adulto por inflable. Y necesitas dos tomas de corriente, cada una a menos de 20 m de su modelo. La logística de una kermés con inflables está en la [guía de kermés escolar en el Estado de México](/blog/kermesse-escolar-inflables-edomex-guia/). El espacio para ambos y la capacidad se confirman al cotizar.
+Los chicos en el barco, los grandes en el Extremo, y luego cambian. Necesitas un adulto por inflable. Y necesitas dos tomas de corriente, cada una a menos de 20 m de su modelo. La logística de una kermés con inflables está en la [guía de kermés escolar en el Estado de México](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/). El espacio para ambos y la capacidad se confirman al cotizar.
 
 ¿El evento es en una quinta o un jardín de eventos? Antes de elegir modelo, revisa [qué confirmar con la quinta sobre permisos y corriente](/blog/fiesta-en-quinta-o-jardin-de-eventos-edomex/).
 
@@ -160,7 +160,7 @@ Pueden usarlo, porque los dos modelos cubren desde los 3 años, pero nunca en el
 
 Lo mismo en los dos. Instalación, recolección y el mismo estándar de equipo. El Barco Pirata cuesta $2,300 y el Extremo $2,500, netos y por evento. En ambos casos recibes equipo revisado y sanitizado, instalación con anclaje verificado y motor profesional durante todo el evento.
 
-Si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Para ver los dos frente al resto, revisa los [precios netos de los ocho modelos por evento](/precios/). ¿Quieres saber cómo se usan los grandes con tobogán en distintos eventos? Revisa el [repaso de inflables grandes con tobogán para eventos](/blog/inflables-grandes-con-tobogan-cdmx/), y los demás modelos están en la [categoría de toboganes inflables](/inflables/toboganes/).
+Si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Para ver los dos frente al resto, revisa los [precios netos de los ocho modelos por evento](/precios/). Los modelos con resbaladilla están juntos en la categoría de [toboganes inflables](/inflables/toboganes/).
 
 Conviene que lo sepas desde ahora: no ofrecemos seguro de responsabilidad civil con ninguno de los dos. Por eso insistimos en supervisión adulta, turnos por edad y respetar la capacidad confirmada.
 

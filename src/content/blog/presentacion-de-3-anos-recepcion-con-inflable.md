@@ -49,7 +49,7 @@ Te adelantamos algo. Casi siempre la respuesta depende de cuántos bebés vienen
 
 Tres cosas: el festejado, la lista y el lugar. Tu hijo tiene 3 años recién cumplidos y llega cansado de misa. Tus invitados traen hijos de todas las edades. Y casi siempre la recepción es en casa, en el jardín de un familiar o en una terraza, no en un lugar de eventos.
 
-Un cumpleaños se diseña para niños de edades parecidas. Una presentación no. Aquí conviven tres generaciones de primos. Por eso la guía del [castillo inflable para un cumpleaños infantil](/blog/castillo-inflable-cumpleanos-infantil-cdmx/) no te basta aquí: tienes que pensar en dos públicos al mismo tiempo y separarlos.
+Un cumpleaños se diseña para niños de edades parecidas. Una presentación no. Aquí conviven tres generaciones de primos. Por eso la guía del [castillo inflable para un cumpleaños infantil](/inflables/castillos/) no te basta aquí: tienes que pensar en dos públicos al mismo tiempo y separarlos.
 
 El tono también cambia. Hay padrinos, misa y comida formal. Tu inflable tiene que verse como parte de la decoración y no como un juego chillante en medio del jardín. Ahí el blanco te hace la mitad del trabajo.
 
@@ -109,7 +109,7 @@ El Castillo Baby va más cerca de las mesas. Los papás de los bebés quieren te
 
 Si vienen varios niños de 1 a 6 años, una [mesa infantil con sillitas para los más chicos](/servicios/mobiliario-para-fiestas/) les da su lugar para comer y pintar. La mesa con 10 sillas mide 1.8 × 0.5 m y cuesta $550 en conjunto con un inflable. ¿Recepción pequeña con pocos bebés? El [paquete para la zona de bebés de la presentación](/servicios/paquetes-de-fiesta/) de $2,100 trae el Castillo Baby, una mesa con 4 sillitas y una pintacaritas para 4 niños.
 
-¿Y cómo se organiza una fiesta pensada para bebés? Ese tema lo desarrollamos en la guía de la [fiesta del primer año con Castillo Baby](/blog/renta-mini-castillo-inflable-bebes-cdmx/). Te sirve casi completa para la zona de los pequeños.
+¿Y cómo se organiza una fiesta pensada para bebés? Ese tema lo desarrollamos en la guía de la [fiesta del primer año con Castillo Baby](/inflables/mini-castillo/). Te sirve casi completa para la zona de los pequeños.
 
 ## ¿Cabe un Castillo Blanco si la recepción es en patio o cochera?
 
@@ -139,7 +139,7 @@ Los globos blancos, dorados y transparentes con confeti dorado combinan sin comp
 
 Mantén la mesa de dulces en la misma paleta, con detalles dorados y un letrero con el nombre de tu hijo. Ubícala lejos del inflable. ¿Por qué? Los niños salen de brincar directo a los dulces, y si la mesa está junto al castillo, la zona se vuelve embudo.
 
-Para más combinaciones, revisa las [paletas para decorar en blanco alrededor del castillo](/blog/fiesta-infantil-all-white-boho-decoracion/), con dorado, verde olivo, pastel y terracota. Y si quieres ver cómo se integra un castillo blanco en un evento más grande, la [integración visual de la zona infantil en bodas](/blog/renta-castillo-blanco-inflable-bodas-cdmx/) aplica igual.
+Para más combinaciones, revisa las [paletas para decorar en blanco alrededor del castillo](/blog/fiesta-infantil-all-white-boho-decoracion/), con dorado, verde olivo, pastel y terracota. Y si quieres ver cómo se integra un castillo blanco en un evento más grande, la [integración visual de la zona infantil en bodas](/inflables/castillo-blanco/) aplica igual.
 
 ## ¿Qué orden del día funciona después de la misa de presentación?
 

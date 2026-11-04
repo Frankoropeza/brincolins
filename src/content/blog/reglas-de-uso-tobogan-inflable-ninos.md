@@ -1,5 +1,5 @@
 ---
-title: "Reglas para tobogán inflable: 8 puntos y cartel para imprimir"
+title: "Reglas para tobogán inflable: 8 puntos y cartel imprimible"
 h1: "Reglas para tobogán inflable con niños: cómo explicarlas, quién las vigila y por qué funcionan"
 description: "Reglas para tobogán inflable con su porqué: uno a la vez, sentado y pies por delante, sin zapatos, turnos por edad y un adulto en la salida. Imprímelas."
 excerpt: "Uno a la vez, sentado, pies por delante y nadie sube por donde se baja. Las reglas del tobogán con su razón de ser y un cartel que puedes pegar en la entrada."
@@ -211,6 +211,6 @@ Los fines de semana se llenan y la disponibilidad se confirma por WhatsApp. ¿Ya
 - **Edades y número aproximado de niños**, para armar turnos y confirmar capacidad.
 - **Altura libre** medida donde iría el inflable.
 
-La fecha se aparta con el 50% de anticipo. El precio es por evento, neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Antes de apartar, usa la [lista para medir el espacio de un inflable alto](/blog/renta-barco-pirata-inflable-grande-cdmx/), revisa la [cobertura y el traslado por zona](/cobertura/) y compara el [precio neto de los ocho inflables](/precios/).
+La fecha se aparta con el 50% de anticipo. El precio es por evento, neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Antes de apartar, usa la [lista para medir el espacio de un inflable alto](/inflables/barco-pirata/), revisa la [cobertura y el traslado por zona](/cobertura/) y compara el [precio neto de los ocho inflables](/precios/).
 
 Llena la [cotización en línea con tu fecha y tu espacio](/cotizar/) o [escríbenos por WhatsApp para apartar](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Barco%20Pirata%20con%20tobogan%20para%20mi%20fiesta).

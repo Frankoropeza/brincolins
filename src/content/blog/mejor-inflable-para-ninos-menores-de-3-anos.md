@@ -47,7 +47,7 @@ Tres: el Castillo Baby, de 1 a 3 años; el Gusanitos, de 2 a 8, y el Castillo de
 
 El Castillo Baby está pensado sólo para los más pequeños. El Gusanitos y el Castillo de Princesas aceptan niños de 2 años, pero comparten su rango con niños de 8 y de 10. Eso cambia cómo se usan. No sólo quién entra.
 
-¿Quieres un panorama más amplio por edades? La guía de [brincolines pensados para niños pequeños](/blog/brincolines-para-ninos-pequenos-cdmx/) repasa el catálogo de 1 a 6 años, y la sección de [inflables chicos para fiestas de bebés](/inflables/chicos/) reúne los modelos compactos.
+¿Quieres un panorama más amplio por edades? La sección de [inflables chicos para fiestas de bebés](/inflables/chicos/) reúne los modelos compactos.
 
 ## ¿En qué se diferencian Castillo Baby, Gusanitos y Castillo de Princesas?
 
@@ -153,7 +153,7 @@ Los dos inflables van separados entre sí, cada uno con su adulto en la entrada.
 
 ### Cuántos niños esperas
 
-El tamaño también depende de tu lista. La guía para [decidir entre inflable chico o grande por invitados](/blog/inflable-chico-vs-grande-cuantos-invitados-cdmx/) te ayuda a calcularlo, aunque la capacidad exacta de cada modelo se confirma al cotizar.
+El tamaño también depende de tu lista. La guía para [decidir entre inflable chico o grande por invitados](/blog/como-elegir-inflable-fiesta-infantil/) te ayuda a calcularlo, aunque la capacidad exacta de cada modelo se confirma al cotizar.
 
 ![Detalle de la rampa naranja del Castillo Baby, apoyada en una lona azul junto a la pared](/img/inflables/mini-castillo/mini-castillo-exterior.avif)
 
@@ -169,7 +169,7 @@ La comparativa sirve para cualquier evento, pero cada festejo tiene su propia lo
 
 ### Cumpleaños
 
-¿Tu hijo cumple uno o dos? Para el primer año, la guía para [planear el cumpleaños número uno](/blog/renta-mini-castillo-inflable-bebes-cdmx/) cubre horario, duración e invitados. Para el segundo, la guía de la [fiesta de 2 años con horario de siesta](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) agrega actividades, comida y la cuenta entre paquete y renta por separado.
+¿Tu hijo cumple uno o dos? Para el primer año, la guía para [planear el cumpleaños número uno](/inflables/mini-castillo/) cubre horario, duración e invitados. Para el segundo, la guía de la [fiesta de 2 años con horario de siesta](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) agrega actividades, comida y la cuenta entre paquete y renta por separado.
 
 ### Bautizos y comidas familiares
 
@@ -178,6 +178,26 @@ En una recepción, el reto es coordinar la instalación con la ceremonia y ubica
 ### Guarderías y estancias
 
 ¿Trabajas en una estancia? Esta es tu guía. Con muchos niños de maternal, la clave son los turnos por sala y la supervisión del personal. La guía para [organizar el inflable de una estancia por salas](/blog/inflable-para-guarderia-estancia-infantil-cdmx/) cubre eso y la cotización con factura.
+
+## Consejos de supervisión durante la fiesta
+
+La supervisión adecuada es clave para que todos los niños se diviertan sin incidentes. Aquí te compartimos los mejores consejos para mantener el control durante la fiesta sin ser el papá o la mamá aguafiestas.
+
+Designa a un adulto como "responsable del brincolín" durante la fiesta. Esta persona se encargará exclusivamente de supervisar que los niños sigan las reglas básicas: no empujarse, no brincar sobre otros niños, quitarse los zapatos y respetar el turno si hay muchos niños esperando.
+
+Establece turnos de 15 a 20 minutos para que todos los niños puedan disfrutar del inflable. Esto evita que el brincolín se sature y permite que los niños descansen, se hidraten y coman algo entre turnos. Es mucho más efectivo que dejar el acceso libre durante toda la fiesta.
+
+> **Tip:** Coloca una mesa con agua y snacks cerca del inflable. Cuando los niños terminan su turno, tienen un lugar atractivo donde ir mientras esperan. Esto facilita enormemente la rotación de grupos.
+
+## Combinar el brincolín con otras actividades
+
+Un brincolín es la estrella de cualquier fiesta infantil, pero combinarlo con otras actividades puede hacer que la celebración sea aún más memorable. Para niños pequeños, te recomendamos actividades complementarias que mantengan la energía y la diversión durante toda la fiesta.
+
+Una mesa de manualidades con plastilina, colores y hojas para dibujar es perfecta para los momentos de descanso entre turnos del brincolín. Los niños pequeños disfrutan mucho las actividades manuales y esto les da una alternativa tranquila cuando necesitan un respiro.
+
+Las burbujas de jabón son otro complemento fantástico. Son económicas, seguras para todas las edades y fascinan a los niños pequeños. Puedes tener una máquina de burbujas cerca del área del inflable para crear un ambiente mágico.
+
+Si el espacio lo permite, una pequeña pista de obstáculos con conos y túneles de tela complementa perfectamente al brincolín y mantiene a los niños activos y entretenidos con variedad de estímulos.
 
 ## ¿En qué fallan las elecciones de inflable para menores de 3 años?
 

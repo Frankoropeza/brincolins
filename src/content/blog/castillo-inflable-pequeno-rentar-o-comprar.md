@@ -69,7 +69,7 @@ Rentar no te libera de preparar el lugar ni de supervisar a los niños. Comprar 
 
 Rentar tiene sentido cuando la necesidad tiene fecha de inicio y fin: un primer cumpleaños, una comida familiar con varios peques o una tarde de juego dentro de un salón de condominio. Evitas guardar un volumen que quizá no volverás a usar durante meses y eliges el modelo según quienes asistirán esa vez.
 
-Con BRINCOLINS, el Castillo Baby corresponde a un grupo de 1 a 3 años. Si tu lista mezcla bebés con niños de primaria, no es buena idea pensar que un castillo compacto resolverá el entretenimiento de todos. La [guía de brincolín para bebés según la edad](/blog/brincolin-para-bebes-desde-que-edad/) ayuda a distinguir qué cambia entre los 1, 2 y 3 años antes de pedir una fecha.
+Con BRINCOLINS, el Castillo Baby corresponde a un grupo de 1 a 3 años. Si tu lista mezcla bebés con niños de primaria, no es buena idea pensar que un castillo compacto resolverá el entretenimiento de todos. La [guía de brincolín para bebés según la edad](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) ayuda a distinguir qué cambia entre los 1, 2 y 3 años antes de pedir una fecha.
 
 Rentar suele ser la ruta razonable si reconoces alguno de estos escenarios:
 
@@ -79,7 +79,7 @@ Rentar suele ser la ruta razonable si reconoces alguno de estos escenarios:
 - El lugar cambia: hoy es una terraza en Del Valle y otra vez puede ser un salón en Coyoacán.
 - Prefieres que el equipo salga de casa al terminar, en vez de sumarlo a tus pendientes de limpieza y guardado.
 
-Si estás organizando todo desde cero, la [preparación previa para tu primera renta de brincolín](/blog/consejos-rentar-inflable-primera-vez/) te permite llegar a la cotización con las medidas y fotos que sí hacen falta.
+Si estás organizando todo desde cero, la [preparación previa para tu primera renta de brincolín](/blog/como-rentar-inflable-brincolins-proceso-paso-a-paso/) te permite llegar a la cotización con las medidas y fotos que sí hacen falta.
 
 ## ¿Qué deberías resolver antes de comprar un inflable doméstico?
 
@@ -124,7 +124,7 @@ No es justo ni útil declarar que cualquier castillo comprado es mejor o peor qu
 | ¿Cómo se define el uso simultáneo? | Se confirma al cotizar | Debe seguirse la capacidad que marque el fabricante |
 | ¿Qué se valida antes? | Espacio, acceso y requisitos del evento | Área, conexión, estado del equipo y manual del producto |
 
-El punto no es sustituir una revisión por una tabla. Es evitar el error de comprar un producto de referencia incierta para un grupo que todavía no conoces bien. Si tu duda es entre un equipo compacto y una alternativa para niños mayores, los [inflables chicos para espacios reducidos](/inflables/chicos/) sirven para ubicar el Castillo Baby frente a otros casos del catálogo. Para un grupo que ya pasó la etapa de bebés, compara también el [inflable con resbaladilla para niños de 3 a 8 años](/blog/inflable-con-resbaladilla-para-ninos/) antes de elegir por apariencia.
+El punto no es sustituir una revisión por una tabla. Es evitar el error de comprar un producto de referencia incierta para un grupo que todavía no conoces bien. Si tu duda es entre un equipo compacto y una alternativa para niños mayores, los [inflables chicos para espacios reducidos](/inflables/chicos/) sirven para ubicar el Castillo Baby frente a otros casos del catálogo. Para un grupo que ya pasó la etapa de bebés, compara también el [inflable con resbaladilla para niños de 3 a 8 años](/inflables/toboganes/) antes de elegir por apariencia.
 
 ## ¿Qué cuidados de seguridad no cambian aunque el inflable sea tuyo o rentado?
 
@@ -140,7 +140,7 @@ Una revisión breve antes de abrir la entrada puede incluir:
 - Detener el uso si la superficie o la lona se moja.
 - Confirmar que no haya cables, muebles o decoración dentro del perímetro de juego.
 
-Para una fiesta de bebés, guarda a la mano las [reglas de seguridad para brincolín de 1 a 3 años](/blog/reglas-seguridad-brincolin-para-bebes/) y compártelas con la persona que se quedará cerca del inflable. Así la decisión de renta o compra no desplaza la conversación importante: cómo se usará ese día.
+Para una fiesta de bebés, guarda a la mano las [reglas de seguridad para brincolín de 1 a 3 años](/blog/seguridad-inflables-fiestas-infantiles/) y compártelas con la persona que se quedará cerca del inflable. Así la decisión de renta o compra no desplaza la conversación importante: cómo se usará ese día.
 
 ## ¿Cómo afecta vivir en CDMX la decisión de rentar un castillo pequeño?
 
@@ -156,7 +156,7 @@ Para un solo cumpleaños, comprar rara vez se justifica sólo por evitar una ren
 
 También vale la pena decidir cuánto quieres coordinar por separado. Si necesitas un montaje pequeño con mesa y actividad, el [paquete fiesta bebés con Castillo Baby](/servicios/paquetes-de-fiesta/) reúne el inflable, una mesa con cuatro sillitas y pintacaritas para cuatro niños por $2,100 netos. Si ya tienes esas partes resueltas, la renta del inflable solo puede ser suficiente.
 
-La [guía completa del Castillo Baby para bebés](/blog/castillo-baby-inflable-para-bebes-guia-completa/) cubre el encaje del modelo con la edad, mientras que el artículo sobre [precio de renta de brincolín para bebés en CDMX](/blog/precio-renta-brincolin-para-bebes-cdmx/) desglosa traslado e IVA. Son dos preguntas distintas: una es si el modelo corresponde a tu fiesta; la otra, cómo queda el total de tu zona.
+La [guía completa del Castillo Baby para bebés](/inflables/mini-castillo/) cubre el encaje del modelo con la edad, y la [página de precios](/precios/) desglosa traslado e IVA.
 
 ## ¿Qué decisión puedes tomar antes de pedir una cotización?
 

@@ -49,7 +49,7 @@ Aquí tienes el plan completo, estación por estación, con las cintas, la decor
 
 Porque cada edad encuentra su reto dentro de la misma historia. Tu invitado de 4 años quiere ponerse la banda y cruzar el circuito sin que nadie lo cronometre. El de 8 quiere su cinta de color. El de 11 quiere el récord del dojo. La temática no cambia; cambia la exigencia.
 
-Tampoco depende de una película de temporada ni te divide al grupo: funciona igual con niñas y niños, primos y compañeros del salón. Si estás comparando ideas, en el repaso de [temáticas infantiles que combinan con un inflable](/blog/inflables-tematicos-infantiles-cdmx/) puedes ver otras rutas, y en la sección de [inflables temáticos del catálogo](/inflables/tematicos/) tienes los modelos ordenados por historia.
+Tampoco depende de una película de temporada ni te divide al grupo: funciona igual con niñas y niños, primos y compañeros del salón. Si estás comparando ideas, en el repaso de [temáticas infantiles que combinan con un inflable](/inflables/tematicos/) tienes los modelos ordenados por historia.
 
 ¿Qué vuelve creíble el entrenamiento? El circuito. El [Extremo de doble carril](/inflables/extremo/) tiene pista de obstáculos y tobogán doble, mide 8 × 4.5 × 3.50 m y es para niños de 3 a 12 años. Es la prueba final de tu dojo.
 
@@ -160,7 +160,7 @@ Cronómetro visible sólo para el grupo de 9 a 12 años, y siempre con opción d
 
 Para los de 6 a 8, el tiempo se dice pero no se escribe. Para los de 3 a 5, ni se mide: se aplaude. Explícales esa diferencia a tus senseis antes de abrir el dojo. ¿Por qué? Porque las ganas de cronometrar a todos son fuertes.
 
-Si quieres un torneo más estructurado, los [formatos de torneo con llaves y relevos](/blog/renta-pista-inflable-obstaculos-cdmx/) te dan el detalle de cada uno.
+Si quieres un torneo más estructurado, los [formatos de torneo con llaves y relevos](/inflables/extremo/) te dan el detalle de cada uno.
 
 ## ¿Qué llevan los diplomas ninja y cuándo se entregan?
 

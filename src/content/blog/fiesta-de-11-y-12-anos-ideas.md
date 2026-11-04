@@ -85,13 +85,13 @@ El truco está en poner un reto que sea claro en menos de un minuto y terminarlo
 | Relevo de objetos | Conos o marcas en el jardín, sin correr hacia el tobogán | 15 minutos | El barco queda fuera de la carrera y se usa después por turnos |
 | Mapa de misión | Cuatro pistas con una decisión en cada estación | 30 minutos | El barco es la base final, no el único juego de la tarde |
 
-La [búsqueda del tesoro para una fiesta pirata](/blog/busqueda-del-tesoro-fiesta-pirata/) desarrolla el cuarto formato con pistas por edad y una secuencia para terminar en el inflable. Para que sea una fiesta mixta y no una historia asignada por adultos, puedes repartir papeles como cartógrafa, capitán, vigía o guardiana del cofre; la guía de [fiesta pirata para niñas y niños](/blog/fiesta-pirata-para-ninas-y-ninos/) da más ideas de roles que no dependen del género.
+La [búsqueda del tesoro para una fiesta pirata](/blog/fiesta-pirata-infantil-tobogan-cdmx/) desarrolla el cuarto formato con pistas por edad y una secuencia para terminar en el inflable. Para que sea una fiesta mixta y no una historia asignada por adultos, puedes repartir papeles como cartógrafa, capitán, vigía o guardiana del cofre; la guía de [fiesta pirata para niñas y niños](/blog/fiesta-de-sirenas-y-piratas-con-inflable/) da más ideas de roles que no dependen del género.
 
 ## ¿Cuándo sigue funcionando el Barco Pirata a los 11 o 12 años?
 
 Funciona cuando el festejado aún disfruta el tema de aventura y el inflable acompaña una dinámica, no cuando se pretende que lo ocupe durante cuatro horas seguidas. Su rango publicado llega hasta los 12 años, así que es una opción válida para este cumpleaños, siempre con turnos y una persona adulta pendiente.
 
-El modelo mide 6 × 3.5 × 3.80 m, requiere 5.2 m de altura libre y se instala en alrededor de 30 minutos. Va únicamente en exterior. Por eso puede ser buena elección para un jardín despejado con una fiesta de piratas, pero no para una cochera techada ni un patio con ramas, cables o toldos bajos. Los [datos del Barco Pirata para una fiesta al aire libre](/blog/inflable-barco-pirata-guia-completa/) reúnen sus requisitos de espacio, energía y acceso antes de que compres decoración.
+El modelo mide 6 × 3.5 × 3.80 m, requiere 5.2 m de altura libre y se instala en alrededor de 30 minutos. Va únicamente en exterior. Por eso puede ser buena elección para un jardín despejado con una fiesta de piratas, pero no para una cochera techada ni un patio con ramas, cables o toldos bajos. Los [datos del Barco Pirata para una fiesta al aire libre](/inflables/barco-pirata/) reúnen sus requisitos de espacio, energía y acceso antes de que compres decoración.
 
 Para mantener el uso ordenado, explica estas reglas antes del primer turno:
 
@@ -115,7 +115,7 @@ El Extremo suele ganar cuando el festejado quiere competencia directa. Tiene obs
 | Jardín con ramas a baja altura | No si no llegan a 5.2 m libres | Puede convenir si alcanza 4.5 m de altura libre |
 | Edades publicadas | 3 a 12 años | 3 a 12 años |
 
-Si el plan se trata de sumar puntos por carrera, empieza por la [guía del circuito Extremo para fiestas infantiles](/blog/inflable-extremo-circuito-de-obstaculos-guia/) y compárala con las medidas de tu jardín. También puedes ver los [inflables grandes para fiestas al aire libre](/inflables/grandes/) antes de descartar una opción por impresión visual.
+Si el plan se trata de sumar puntos por carrera, empieza por la [guía del circuito Extremo para fiestas infantiles](/inflables/extremo/) y compárala con las medidas de tu jardín. También puedes ver los [inflables grandes para fiestas al aire libre](/inflables/grandes/) antes de descartar una opción por impresión visual.
 
 ## ¿Cómo acomodas música, comida y el inflable sin estorbar el juego?
 
@@ -133,7 +133,7 @@ En la ciudad, el espacio puede variar muchísimo entre un jardín en Coyoacán, 
 | [Renta de inflables en Coyoacán](/cobertura/coyoacan/) | Coyoacán Centro, Villa Coapa, Copilco y Pedregal de Santo Domingo | Según la colonia | En jardín o área común, confirma caseta, acceso y altura libre |
 | [Inflables para fiesta en Benito Juárez](/cobertura/benito-juarez/) | Del Valle, Narvarte, Nápoles, Portales y Álamos | Sin costo adicional en Narvarte; en el resto, según colonia | Distingue una terraza techada de un espacio exterior realmente despejado |
 
-En todos los casos, manda fotografías del punto donde irá el inflable, una imagen hacia arriba y otra del camino desde el acceso. También se necesita una toma de 110 V a menos de 20 m, superficie plana y despejada, y supervisión adulta durante el evento. Si tu jardín está en Tlalpan, la guía de [renta de Barco Pirata en Tlalpan](/blog/inflable-barco-pirata-tlalpan/) baja esa revisión a colonias, pendientes y recorridos de entrada.
+En todos los casos, manda fotografías del punto donde irá el inflable, una imagen hacia arriba y otra del camino desde el acceso. También se necesita una toma de 110 V a menos de 20 m, superficie plana y despejada, y supervisión adulta durante el evento. Si tu jardín está en Tlalpan, la guía de [renta de Barco Pirata en Tlalpan](/cobertura/tlalpan/) baja esa revisión a colonias, pendientes y recorridos de entrada.
 
 ## ¿Qué debes decidir con el festejado antes de cotizar?
 

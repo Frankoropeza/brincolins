@@ -163,7 +163,7 @@ Tienes que cerrar el acceso del vehículo, el horario de montaje, la corriente, 
 
 Si el área es de concreto, lo que cambia (lastre, lona, pendiente) lo tienes en la guía para [instalar el circuito en explanada o estacionamiento](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/). ¿Y dónde va el área? Cerca de las mesas de las familias, lejos de las bocinas y de la zona de comida, con sombra para la fila y agua a la mano.
 
-Para la logística del evento completo, con tiempos y flujo de personas, la guía de [tiempos y logística para un team building de RH](/blog/inflable-extremo-eventos-corporativos-cdmx/) complementa este plan.
+Para la logística del evento completo, con tiempos y flujo de personas, la guía de [tiempos y logística para un team building de RH](/blog/inflables-para-adultos-eventos-corporativos/) complementa este plan.
 
 ## ¿Cómo funciona la cotización empresarial y la factura con IVA?
 
@@ -181,7 +181,7 @@ Un torneo por edades o una temática sencilla convierten los inflables en un pro
 
 ### Torneo por categorías
 
-Categorías por edad, llaves de dos en dos y premiación antes del cierre. Los formatos y el control de fila están en la guía para [armar un torneo con niños en la pista inflable](/blog/renta-pista-inflable-obstaculos-cdmx/). Si muchos invitados rondan los 10 años, los [retos por equipos de una fiesta de 10 años](/blog/fiesta-de-10-anos-ideas-actividades/) se trasladan casi tal cual.
+Categorías por edad, llaves de dos en dos y premiación antes del cierre. Los formatos y el control de fila están en la guía para [armar un torneo con niños en la pista inflable](/inflables/extremo/). Si muchos invitados rondan los 10 años, los [retos por equipos de una fiesta de 10 años](/blog/fiesta-de-10-anos-ideas-actividades/) se trasladan casi tal cual.
 
 ![Circuito Extremo en un jardín con palmeras: túneles, pista larga y tobogán azul con amarillo](/img/inflables/extremo/extremo-tobogan-doble.avif)
 

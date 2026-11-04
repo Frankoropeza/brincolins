@@ -144,7 +144,7 @@ En tu mesa principal están el pastel, los recuerdos, la vela y el lugar donde p
 
 Lejos no quiere decir escondido. Si los papás no ven a sus hijos desde su silla, se levantan o no los dejan ir. Busca un punto donde la entrada del castillo se vea desde casi todas tus mesas. ¿Lo encontraste? Ahí va el castillo.
 
-Si quieres la lógica completa de ubicación, ruido y supervisión, está desarrollada en [cómo se diseña la zona infantil de una boda](/blog/renta-castillo-blanco-inflable-bodas-cdmx/). Te sirve casi igual para una comunión.
+Si quieres la lógica completa de ubicación, ruido y supervisión, está desarrollada en [cómo se diseña la zona infantil de una boda](/inflables/castillo-blanco/). Te sirve casi igual para una comunión.
 
 ## ¿Cómo lograr la foto del festejado frente al castillo blanco?
 
@@ -162,7 +162,7 @@ La segunda foto es la del festejado con sus compañeros o primos frente al casti
 
 Primero la foto individual, luego los padrinos, al final el grupo de niños. Cuando termina el grupo, abres la entrada. Los niños ya están ahí, formados y con ganas. El arranque es inmediato.
 
-Si en tu año viene otro festejo, el mismo castillo repite bien. Puedes verlo en el [festejo de fin de ciclo escolar con castillo blanco](/blog/graduacion-kinder-primaria-con-inflable/) y en las [ideas de inflables elegantes para bodas y quince años](/blog/renta-inflables-bodas-xv-anos/).
+Si en tu año viene otro festejo, el mismo castillo repite bien. Puedes verlo en el [festejo de fin de ciclo escolar con castillo blanco](/blog/graduacion-kinder-primaria-con-inflable/) y en las [ideas de inflables elegantes para bodas y quince años](/blog/inflables-eventos-formales-cdmx/).
 
 > **Primero la foto, luego los brincos.** Con el castillo instalado antes de la misa, tú sólo llegas, posas y abres. Los fines de semana se llenan; la disponibilidad se confirma por WhatsApp. [Revisar fecha para la comunion](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20el%20Castillo%20Blanco%20esta%20libre%20para%20la%20comunion%20de%20mi%20hijo)
 

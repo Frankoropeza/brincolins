@@ -1,5 +1,5 @@
 ---
-title: "Decoración Completa para Fiestas Infantiles en CDMX"
+title: "Decoración de Fiesta Infantil con Inflable en CDMX"
 description: "Decoración perfecta combinando globos, backdrop e inflable en tu fiesta infantil en CDMX. Checklist, presupuestos y los 5 temas más populares."
 excerpt: "Globos orgánicos, un backdrop espectacular y un inflable que entretiene a todos los niños: así se ve la fiesta infantil perfecta en la Ciudad de México. Guía completa con checklist, presupuestos reales y los errores que debes evitar a toda costa."
 publishDate: "2026-06-07"
@@ -57,6 +57,39 @@ Marvel o DC, el entusiasmo es el mismo. Los colores varían según el héroe fav
 
 Clásico atemporal que sigue siendo el número uno entre niñas de 3-6 años. La paleta varía según la princesa: azul cielo para Cenicienta, azul hielo para Frozen, amarillo y azul para Bella. El Castillo de Princesas de BRINCOLINS es el complemento perfecto, y DEGLOB tiene experiencia ejecutando coronas de globos y carrozas decorativas para este tema que hacen que las niñas sientan que la fiesta fue organizada especialmente para ellas. Porque lo fue.
 
+## Paletas de color según tipo de inflable
+
+Para facilitar la elección, aquí van combinaciones probadas para cada uno de los modelos del catálogo. Si todavía no sabes cuál rentar, la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/) parte de la edad y el espacio:
+
+| Inflable | Colores principales | Acento |
+| --- | --- | --- |
+| Castillo de princesas | Rosa, lila, blanco | Dorado |
+| Dragones rojos | Rojo, negro | Dorado o naranja |
+| [Barco pirata](/inflables/barco-pirata/) | Azul marino, café, rojo | Dorado |
+| [Castillo blanco](/inflables/castillo-blanco/) | Blanco, plateado | Rosa pastel o azul cielo |
+| [Jungla](/inflables/mini-jungla/) | Verde, café, amarillo | Naranja |
+| Extremo (obstáculos) | Azul, rojo, amarillo | Verde neón |
+
+## Distribución del espacio: zonas que toda fiesta necesita
+
+Una fiesta infantil bien organizada tiene zonas definidas. Esto evita el caos, facilita la supervisión de los niños y hace que el evento fluya naturalmente. Te recomendamos dividir el espacio en estas áreas:
+
+### Zona de juego (el inflable)
+
+El inflable debe estar en un área despejada; confirma el espacio disponible con nuestro equipo antes de reservar. Coloca un tapete o lona debajo de la entrada para que los niños se quiten los zapatos sin pisar el piso directamente. Puedes delimitar el área con banderines o guirnaldas que combinen con la temática. Un letrero de bienvenida tipo "Zona de diversión" le da un toque profesional.
+
+### Zona de alimentos
+
+Ubica la mesa de comida y la mesa de dulces alejadas del inflable para evitar que los niños coman inmediatamente después de brincar (puede causar malestar estomacal). Usa manteles en los colores de tu paleta y coordina los platos, vasos y servilletas. Una mesa de dulces temática con 5-7 tipos de golosinas en recipientes de vidrio o acrílico se ve espectacular en fotos.
+
+### Zona de descanso para adultos
+
+Los papás necesitan un lugar cómodo donde sentarse mientras los niños juegan. Coloca sillas y una mesa con botanas, café y agua. Si el evento es al aire libre, una carpa o sombrilla es indispensable. Desde esta zona, los adultos deben tener línea de vista directa al inflable para supervisar a sus hijos.
+
+### Zona de fotos
+
+Un photobooth o pared de fotos es casi obligatorio en las fiestas actuales. No necesitas invertir mucho: un fondo de tela o papel en un color sólido, algunos globos y un letrero con el nombre del festejado es suficiente. Coloca accesorios divertidos como lentes gigantes, coronas y bigotes en palitos. El inflable mismo también funciona como fondo de fotos espectacular.
+
 ## Tabla de presupuesto por tipo de evento
 
 La transparencia en los costos es fundamental para que puedas planear sin sorpresas. Lo que vemos constantemente es que las familias subestiman el costo total de la decoración porque cotizan cada elemento por separado y sin considerar la mano de obra. Esta tabla te da un desglose realista basado en eventos reales en CDMX:
@@ -94,7 +127,7 @@ Hay un error que vemos repetirse con mucha frecuencia: las familias eligen prime
 
 El orden correcto es este:
 
-El primer paso es anclar todo en el inflable. Es el elemento más grande y menos modificable del evento: su color y temática deben ser el punto de partida de toda la paleta decorativa. Si elegiste el Barco Pirata, todo lo demás gira alrededor del azul marino, el negro, el rojo y el dorado. Cómo emparejar cada modelo con su paleta está resuelto en la guía de [decoración para fiesta infantil con inflable](/blog/decoracion-fiesta-infantil-inflable/).
+El primer paso es anclar todo en el inflable. Es el elemento más grande y menos modificable del evento: su color y temática deben ser el punto de partida de toda la paleta decorativa. Si elegiste el Barco Pirata, todo lo demás gira alrededor del azul marino, el negro, el rojo y el dorado. Cómo emparejar cada modelo con su paleta está más arriba, en la sección de paletas de color.
 
 El segundo paso es definir el backdrop. El backdrop es la declaración de intenciones de tu decoración. Es lo primero que aparece en las fotos del pastel y del festejado. Que DEGLOB lo diseñe teniendo en mente el inflable que rentaste hace que el resultado se vea como si todo viniera de la misma producción.
 

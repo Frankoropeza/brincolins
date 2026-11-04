@@ -48,7 +48,7 @@ Cambia quién decide. En tu casa el inflable va donde quieres; en una quinta, la
 
 El Barco Pirata es el modelo de mayor impacto visual del catálogo. Tiene mástil, velas y tobogán por la popa, mide 6 × 3.5 × 3.80 m y se instala en unos 30 minutos. En un jardín grande se ve desde la entrada. A cambio, te pide 5.2 m de altura libre. Y exterior siempre.
 
-¿La fiesta es en tu jardín y no en una quinta? Entonces te sirve más la guía de [fiesta en el jardín de casa con inflable y mesas](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/). Y si quieres ideas para repartir zonas al aire libre, revisa el [garden party con inflable y mesas picnic](/blog/garden-party-inflable-mesas-picnic-cdmx/).
+¿La fiesta es en tu jardín y no en una quinta? Entonces te sirve más la guía de [fiesta en el jardín de casa con inflable y mesas](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/). Ahí también está cómo repartir zonas al aire libre.
 
 ## ¿Qué le preguntas a la quinta sobre proveedores externos?
 
@@ -127,7 +127,7 @@ Revisa si hay cables cruzando el jardín, guirnaldas colgadas entre árboles o l
 
 #### Cómo mides la altura en la visita
 
-Lleva una cinta métrica o un medidor láser. Mide desde el pasto hasta la rama, el cable o el toldo más bajo sobre el área donde iría el barco. ¿Te da menos de 5.2 m? Ese punto no sirve. La [lista para medir suelo, altura y acceso antes de apartar](/blog/renta-barco-pirata-inflable-grande-cdmx/) te explica el procedimiento completo.
+Lleva una cinta métrica o un medidor láser. Mide desde el pasto hasta la rama, el cable o el toldo más bajo sobre el área donde iría el barco. ¿Te da menos de 5.2 m? Ese punto no sirve. La [lista para medir suelo, altura y acceso antes de apartar](/inflables/barco-pirata/) te explica el procedimiento completo.
 
 ### Carpas y toldos
 

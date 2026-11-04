@@ -1,5 +1,5 @@
 ---
-title: "Fiesta de 5 años: juegos que sí funcionan y turnos sin pleitos"
+title: "Fiesta de 5 años: juegos que funcionan y turnos sin pleitos"
 h1: "Fiesta de 5 años en CDMX: juegos de una regla, invitados del kínder, cronograma y turnos en el inflable"
 description: "Fiesta de 5 años en CDMX: juegos de una sola regla, invitados del kínder, cronograma de 3 a 4 horas y turnos en el Dragones Rojos. Planea y aparta tu fecha."
 excerpt: "A los 5 años las reglas tienen que caber en una frase y las competencias durar poco. Juegos, lista de invitados, horario y turnos en el inflable, listos para usar."
@@ -57,7 +57,7 @@ Las carreras y los retos encienden al grupo, siempre que sean cortos. Cinco minu
 
 ### Su personaje, no el del catálogo de decoración
 
-A los 5 ya tiene personajes propios: un superhéroe, un dinosaurio, un dragón, una caricatura. Pregúntale a él antes de comprar un solo globo. Si su respuesta es un dragón o un caballero, la [temática medieval con castillo rojo](/blog/inflable-dragones-rojos-cdmx/) te resuelve ambientación, juegos y menú.
+A los 5 ya tiene personajes propios: un superhéroe, un dinosaurio, un dragón, una caricatura. Pregúntale a él antes de comprar un solo globo. Si su respuesta es un dragón o un caballero, la [temática medieval con castillo rojo](/inflables/dragones-rojos/) te resuelve ambientación, juegos y menú.
 
 ### Lo que suele fallar a esta edad
 
@@ -154,7 +154,7 @@ Estos seis no piden material especial y los entiende cualquier niño de 5 años 
 - **Dibujo gigante.** Un rollo de papel kraft en el piso y crayones, ideal para quien no quiere brincar.
 - **Piñata por turnos de edad.** Primero los chicos, después los grandes, con un adulto cuidando la distancia.
 
-¿Vas a sentar a los niños para dibujar o comer? Considera sumar [mesas y sillitas infantiles](/servicios/mobiliario-para-fiestas/). Y si prefieres una actividad lista, el [paquete con mesa, sillitas y una hora de pintacaritas](/blog/paquete-fiesta-dragones-rojos-o-jungla/) funciona como segunda estación sin que tú la organices.
+¿Vas a sentar a los niños para dibujar o comer? Considera sumar [mesas y sillitas infantiles](/servicios/mobiliario-para-fiestas/). Y si prefieres una actividad lista, el [paquete con mesa, sillitas y una hora de pintacaritas](/servicios/paquetes-de-fiesta/) funciona como segunda estación sin que tú la organices.
 
 ## ¿Dragones Rojos o Jungla para un festejado de 5 años?
 

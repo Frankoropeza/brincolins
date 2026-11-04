@@ -52,7 +52,7 @@ Para un grupo de 2 a 10 años, el [Castillo de Princesas para fiesta infantil](/
 
 La respuesta está en no pedirle a la misma zona que haga dos trabajos. La mesa de actividad necesita calma, sillas, materiales ordenados y manos limpias; el inflable necesita un acceso despejado, sin vasos, maquillaje ni objetos duros. Cuando están separados, cada invitada entiende dónde toca sentarse y dónde toca brincar.
 
-El Castillo de Princesas sirve como estación activa, no como fondo de la mesa spa. Tiene un rango amplio de edad, así que una niña de preescolar y otra de primaria pueden disfrutarlo en turnos distintos. Si quieres decidir qué dinámica conviene para cada etapa, la guía de [brincolín de princesas para niñas según la edad](/blog/brincolin-de-princesas-para-ninas-por-edad/) separa las necesidades de 2 a 3, 4 a 6 y 7 a 10 años.
+El Castillo de Princesas sirve como estación activa, no como fondo de la mesa spa. Tiene un rango amplio de edad, así que una niña de preescolar y otra de primaria pueden disfrutarlo en turnos distintos. Si quieres decidir qué dinámica conviene para cada etapa, la guía de [brincolín de princesas para niñas según la edad](/blog/fiesta-princesas-ninas-inflable-cdmx/) separa las necesidades de 2 a 3, 4 a 6 y 7 a 10 años.
 
 La parte spa tampoco requiere prometer tratamientos complicados. Elige una actividad que puedas vigilar y retirar rápido antes del siguiente bloque: decorar una banda de tela, armar pulseras, elegir accesorios para una foto o aplicar esmalte con ayuda adulta. Si optas por esmalte, prográmalo al final; una uña recién pintada y una resbaladilla no son buena combinación.
 
@@ -68,7 +68,7 @@ Imagina el lugar en tres zonas, no como una sola fiesta mezclada. El castillo va
 
 El modelo se instala únicamente en exterior, sobre superficie plana y despejada, sin vidrio ni objetos punzantes. También requiere una toma de 110 V a menos de 20 m y supervisión de una persona adulta durante todo el evento. Sus medidas son 5 × 3.30 × 3 m, pero no tomes ese rectángulo como la única medida: el espacio de instalación se confirma al cotizar y debes revisar ramas, cables, lonas o lámparas sobre el punto elegido.
 
-Una buena regla práctica es montar primero el castillo y usar la decoración para acompañarlo, no al revés. La [guía del castillo inflable de princesas](/blog/castillo-inflable-de-princesas-guia-completa/) explica qué medir y cómo preparar el acceso; eso evita descubrir el día de la fiesta que un arco, una mesa o una cuerda bloquea el recorrido del equipo.
+Una buena regla práctica es montar primero el castillo y usar la decoración para acompañarlo, no al revés. La [guía del castillo inflable de princesas](/inflables/castillo-princesas/) explica qué medir y cómo preparar el acceso; eso evita descubrir el día de la fiesta que un arco, una mesa o una cuerda bloquea el recorrido del equipo.
 
 ## ¿Qué horario deja tiempo para brincar y también para las estaciones spa?
 
@@ -140,7 +140,7 @@ Las tres ideas pueden convivir, pero una debe llevar el peso del evento. Si la f
 | Fotos y accesorios | Una estación creativa y un turno breve antes | Escenario de movimiento, no fondo de fotos |
 | Pijamada | Brinco temprano y actividades interiores después | Bloque previo a la cena o película |
 
-Si el tema de cuento es el centro y buscas juegos, mesa y ambiente más allá de la parte spa, la [fiesta de princesas con inflable en CDMX](/blog/fiesta-princesas-ninas-inflable-cdmx/) ofrece un complemento distinto. Si el grupo prefiere animales y exploración en vez de coronas, la [guía del inflable Jungla para fiesta temática](/blog/inflable-jungla-guia-completa/) ayuda a cambiar de temática con un criterio de edad y espacio. Y si lo que te preocupa es que el grupo sea pequeño o incluya bebés, compara antes los casos en que un castillo temático no es la elección adecuada antes de organizar las estaciones.
+Si el tema de cuento es el centro y buscas juegos, mesa y ambiente más allá de la parte spa, la [fiesta de princesas con inflable en CDMX](/blog/fiesta-princesas-ninas-inflable-cdmx/) ofrece un complemento distinto. Si el grupo prefiere animales y exploración en vez de coronas, la [guía del inflable Jungla para fiesta temática](/inflables/mini-jungla/) ayuda a cambiar de temática con un criterio de edad y espacio. Y si lo que te preocupa es que el grupo sea pequeño o incluya bebés, compara antes los casos en que un castillo temático no es la elección adecuada antes de organizar las estaciones.
 
 ## ¿Qué información necesitas para cotizar la fiesta spa con inflable?
 

@@ -42,7 +42,7 @@ Además, la paleta de colores del safari — verdes selváticos, dorados, marron
 
 Finalmente, la temática safari permite crear una **narrativa de aventura** que mantiene a los niños entretenidos durante toda la fiesta. No es solo una decoración bonita; es un mundo entero donde los pequeños se convierten en exploradores, rastreadores de animales y aventureros de la selva.
 
-> **Tendencia real:** en nuestros más de 20 años rentando inflables en CDMX, la safari es la temática que más ha crecido en los últimos años. Nos la piden sobre todo en zonas como [Coyoacán](/cobertura/coyoacan/), Del Valle, [Polanco](/cobertura/polanco/) y Satélite. En la guía de [inflables temáticos infantiles](/blog/inflables-tematicos-infantiles-cdmx/) la comparamos con las otras tres temáticas del catálogo.
+> **Tendencia real:** en nuestros más de 20 años rentando inflables en CDMX, la safari es la temática que más ha crecido en los últimos años. Nos la piden sobre todo en zonas como [Coyoacán](/cobertura/coyoacan/), Del Valle, [Polanco](/cobertura/polanco/) y Satélite. En la guía de [inflables temáticos infantiles](/inflables/tematicos/) la comparamos con las otras tres temáticas del catálogo.
 
 ## Cómo elegir el inflable perfecto para tu fiesta safari
 
@@ -57,7 +57,7 @@ Nuestro **inflable [Jungla](/inflables/mini-jungla/)** es la opción estrella pa
 
 ### Consideraciones de espacio y logística
 
-Antes de elegir el inflable, evalúa el espacio disponible. Jungla mide **5 × 3 × 2.50 metros** y el espacio de instalación se confirma al cotizar. Por su altura va normalmente en exterior — jardín, patio o explanada — con acceso a una toma de 110V para el motor. Si tu fiesta es en salón, comparte las medidas del lugar para confirmar qué modelo entra; los comparamos en la guía de [inflables pequeños para interiores](/blog/inflable-pequeno-fiestas-interiores-cdmx/).
+Antes de elegir el inflable, evalúa el espacio disponible. Jungla mide **5 × 3 × 2.50 metros** y el espacio de instalación se confirma al cotizar. Por su altura va normalmente en exterior — jardín, patio o explanada — con acceso a una toma de 110V para el motor. Si tu fiesta es en salón, comparte las medidas del lugar para confirmar qué modelo entra; los comparamos en la guía de [inflables pequeños para interiores](/inflables/para-interiores/).
 
 ## Ideas de decoración para una fiesta safari completa
 
@@ -114,4 +114,4 @@ Organizar una fiesta temática safari puede parecer abrumador, pero con esta gu�
 - **1-2 días antes:** Compra los ingredientes para el menú, prepara lo que se pueda adelantar (galletas, brochetas de fruta) y arma los centros de mesa.
 - **El día de la fiesta:** El equipo de BRINCOLINS llega 1-2 horas antes para instalar el inflable. Tú te enfocas en la decoración final, la mesa de comida y recibir a los invitados.
 
-Lo más importante es **no querer hacer todo tú solo**. Delega tareas a familiares, contrata lo que puedas permitirte (el inflable es la mejor inversión) y recuerda que los niños se divierten con menos de lo que crees. El inflable + una o dos actividades + comida rica = fiesta safari exitosa garantizada. Las specs y la disponibilidad están en [la ficha de Jungla](/inflables/mini-jungla/); si lo que organizas es un cierre de ciclo escolar, la guía es [fiesta de fin de cursos](/blog/renta-inflable-jungla-cdmx/).
+Lo más importante es **no querer hacer todo tú solo**. Delega tareas a familiares, contrata lo que puedas permitirte (el inflable es la mejor inversión) y recuerda que los niños se divierten con menos de lo que crees. El inflable + una o dos actividades + comida rica = fiesta safari exitosa garantizada. Las specs y la disponibilidad están en [la ficha de Jungla](/inflables/mini-jungla/); si lo que organizas es un cierre de ciclo escolar, revisa la guía de [graduación y fin de cursos con inflable](/blog/graduacion-kinder-primaria-con-inflable/).

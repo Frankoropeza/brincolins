@@ -1,5 +1,5 @@
 ---
-title: "Fiesta de gemelos: qué inflable elegir según sus edades"
+title: "Fiesta de gemelos o hermanos: inflable según sus edades"
 h1: "Fiesta de gemelos o hermanos con inflable: combinaciones por edad para un festejo doble sin celos"
 description: "Fiesta de gemelos o hermanos: compara qué inflable conviene según sus edades, carreras parejas en doble carril y cuándo sumar un Castillo Baby."
 excerpt: "Dos festejados, dos pasteles y una sola tarde. Compara qué inflable conviene según las edades y cuándo vale la pena sumar un Castillo Baby al circuito Extremo."
@@ -85,7 +85,7 @@ El Extremo mide 8 × 4.5 × 3.50 m, tiene pista de obstáculos y tobogán doble,
 - **Diferencia de dos o tres años.** Contra reloj: cada uno compite contra su propio tiempo y nadie gana «por ser grande».
 - **Diferencia mayor.** Cada uno compite dentro de su grupo de edad y la final de hermanos es simbólica, sin marcador.
 
-Si quieres armar un torneo más formal, los [formatos por categoría y edad para la pista inflable](/blog/renta-pista-inflable-obstaculos-cdmx/) te dan llaves, relevos y control de fila.
+Si quieres armar un torneo más formal, los [formatos por categoría y edad para la pista inflable](/inflables/extremo/) te dan llaves, relevos y control de fila.
 
 ## ¿Qué inflable conviene según las edades de los festejados?
 
@@ -101,7 +101,7 @@ Uno solo, si los dos caben en el rango de un mismo modelo; dos, si no. Ésa es l
 | Hermanos de 1 y 5 años | Castillo Baby + Gusanitos | El bebé en su modelo; el mayor en un circuito de 2 a 8 |
 | Hermanos de 6 y 13 años | Extremo para el de 6 | El de 13 queda fuera del rango, que termina en 12 años |
 
-Dos reglas salen de aquí. Si los dos caben en el rango de un mismo modelo, basta uno, con turnos separados por edad. Si no comparten rango, necesitas dos modelos: nunca fuerces a uno de tus hijos a usar un inflable que no le corresponde. ¿Tu fiesta junta a muchos niños de edades repartidas? La guía de [fiesta con niños de edades mezcladas](/blog/renta-inflable-gusanitos-cdmx/) entra al detalle de turnos.
+Dos reglas salen de aquí. Si los dos caben en el rango de un mismo modelo, basta uno, con turnos separados por edad. Si no comparten rango, necesitas dos modelos: nunca fuerces a uno de tus hijos a usar un inflable que no le corresponde. ¿Tu fiesta junta a muchos niños de edades repartidas? La guía de [fiesta con niños de edades mezcladas](/inflables/gusanitos/) entra al detalle de turnos.
 
 > **¿Ya ubicaste tu combinación en la tabla?** Dinos las edades de tus festejados y te confirmamos si conviene uno o dos inflables. [Cotizar inflables para mis gemelos](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20inflables%20para%20una%20fiesta%20de%20gemelos)
 
@@ -161,6 +161,42 @@ Con bloques que alternen quién encabeza cada momento. Si lo escribes antes, nin
 Si tus pequeños comen sentados, la [mesa infantil con 10 sillitas](/servicios/mobiliario-para-fiestas/) es para niños de 1 a 6 años y cuesta **$550** rentada junto con un inflable. Si uno de los festejados cumple 10, suma los [relevos y eliminatorias de una fiesta de 10 años](/blog/fiesta-de-10-anos-ideas-actividades/).
 
 > **¿Te late el plan para los dos?** Mándanos la fecha y tu alcaldía o municipio, y te confirmamos disponibilidad del Extremo, solo o con el Castillo Baby. [Pedir disponibilidad para el festejo doble](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20el%20Extremo%20y%20el%20Castillo%20Baby%20para%20una%20fiesta%20de%20hermanos)
+
+## ¿Qué hacer cuando los invitados tienen edades muy distintas?
+
+### ¿Por qué la mezcla de edades es un problema real?
+
+No es un tema de convivencia: es de física. Un niño de diez años pesa el doble o el triple que uno de cuatro, y cuando brinca hace rebotar la lona debajo de los pies del chico. El resultado es predecible y es el mismo caso que atendemos una y otra vez: el pequeño sale despedido, se pega y no vuelve a entrar en toda la tarde.
+
+Hay un segundo problema, menos grave pero más frecuente: los grandes acaparan. En cuanto entran cinco niños de once años a un inflable, los de cinco se quedan en la orilla mirando. No hay mala intención; simplemente ocupan todo el espacio útil.
+
+Los dos se resuelven con lo mismo, y no es dinero: es organización.
+
+### ¿Cómo se reparten los turnos?
+
+La capacidad publicada de cada modelo no es una sugerencia comercial. Es el número de niños que pueden estar dentro sin chocarse. Con eso como base:
+
+- **Agrupa por edad, no por orden de llegada.** Tres bloques funcionan bien: 1 a 4, 4 a 7 y 8 en adelante.
+- **Turnos de 15 a 20 minutos.** Suficiente para que se cansen, corto para que no haya conflicto por salir.
+- **Empieza por los chicos.** Si los grandes entran primero, sacarlos es una negociación. Al revés no.
+- **Usa alarma de celular, no criterio.** "Ya llevan mucho" nunca es un argumento aceptable para un niño de nueve años; una alarma sí.
+- **Un adulto por turno, rotando entre las familias.** Nadie tiene que perderse la fiesta entera.
+
+Con tus invitados y turnos organizados según la capacidad confirmada al cotizar, puedes distribuir la operación durante la fiesta. El resto de la tarde va en la segunda actividad.
+
+### ¿Por qué hace falta una segunda actividad?
+
+Porque el enemigo de una fiesta mixta es la fila. Un niño de cinco años esperando quince minutos de pie termina jalando el mantel de la mesa de dulces.
+
+La regla es simple: si hay fila, no falta inflable, falta estación. Con una mesa de manualidades, pintacaritas o una zona de juegos organizados corriendo en paralelo, la fila se disuelve sola y los turnos dejan de sentirse como castigo.
+
+Otra ventaja: la segunda estación reparte por edad de forma natural. Los grandes se van al inflable y los chicos a la mesa, y luego al revés.
+
+### ¿Qué se hace con los adolescentes?
+
+En muchas fiestas familiares hay uno o dos de trece o catorce años que llegaron obligados. No van a entrar a un inflable de colores y no hay que insistirles.
+
+Lo que sí funciona: darles un rol. Cronometrista de los turnos, encargado de la música, juez de la carrera de los chicos. Un adolescente con una tarea concreta se involucra; uno al que se le pide "que se divierta" se sienta con el celular.
 
 ## ¿Qué errores se repiten en un cumpleaños doble?
 

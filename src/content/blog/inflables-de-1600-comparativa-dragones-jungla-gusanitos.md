@@ -1,5 +1,5 @@
 ---
-title: "Inflables medianos: precio de $1,600 y cuál elegir de los tres"
+title: "Inflables medianos de $1,600: cuál elegir de los tres"
 h1: "Inflables medianos al mismo precio: Dragones Rojos, Jungla o Gusanitos, comparados por espacio, edad y temática"
 description: "Inflables medianos y su precio: Dragones Rojos, Jungla y Gusanitos cuestan $1,600. Compara medidas, edades, altura libre e interiores y cotiza el tuyo."
 excerpt: "Tres inflables, el mismo precio y diferencias que sí cambian tu fiesta: altura libre, interiores, edades y temática. Compáralos lado a lado y elige en un minuto."
@@ -137,7 +137,7 @@ Cambia más de lo que parece en una foto, y define cómo se forman las filas y c
 
 #### Dragones Rojos: brincar y salir por la resbaladilla
 
-Los niños brincan dentro y salen por la resbaladilla integrada, con mallas a los lados. Su diseño funciona con caballeros, dragones, superhéroes o ninguna temática. Si quieres una temática completa, tienes la [fiesta medieval con el Dragones Rojos al centro](/blog/inflable-dragones-rojos-cdmx/).
+Los niños brincan dentro y salen por la resbaladilla integrada, con mallas a los lados. Su diseño funciona con caballeros, dragones, superhéroes o ninguna temática. Si quieres una temática completa, tienes la [fiesta medieval con el Dragones Rojos al centro](/inflables/dragones-rojos/).
 
 #### Jungla: brincolín de selva
 
@@ -149,7 +149,7 @@ No es un brincolín clásico, y eso te conviene si mezclas edades: los niños en
 
 ### Si la temática no te importa
 
-Si tu plan es pastel, piñata y a brincar, elige por espacio y edad. Para ver estos tres junto a los demás, tienes [los 8 inflables del catálogo explicados uno por uno](/blog/flota-inflables-brincolins-catalogo-modelos-cdmx/).
+Si tu plan es pastel, piñata y a brincar, elige por espacio y edad. Para ver estos tres junto a los demás, tienes [los 8 inflables del catálogo explicados uno por uno](/inflables/).
 
 ## ¿Qué incluye el precio de un inflable mediano y qué se paga aparte?
 
@@ -168,7 +168,7 @@ Para ubicar estos tres en el catálogo completo, esta tabla compara el precio de
 | Extremo | 3 a 12 años | $2,500 |
 | Castillo Blanco | 3 a 12 años | $2,600 |
 
-¿Quieres sumar mesa y actividad? El [paquete fiesta de $2,800 con Dragones Rojos o Jungla](/blog/paquete-fiesta-dragones-rojos-o-jungla/) incluye mesa con 10 sillitas y una hora de pintacaritas; el Gusanitos no entra. Para un repaso general, revisa los [precios de brincolines por modelo](/blog/brincolines-cdmx-precios-modelos/).
+¿Quieres sumar mesa y actividad? El [paquete fiesta de $2,800 con Dragones Rojos o Jungla](/servicios/paquetes-de-fiesta/) incluye mesa con 10 sillitas y una hora de pintacaritas; el Gusanitos no entra. Para un repaso general, revisa los [precios de brincolines por modelo](/precios/).
 
 ### Cuánto tarda la instalación de cada uno
 

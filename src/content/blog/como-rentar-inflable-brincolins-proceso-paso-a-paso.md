@@ -1,5 +1,5 @@
 ---
-title: "Primera Vez Rentando un Inflable en CDMX: Guía Real"
+title: "Rentar un Inflable por Primera Vez en CDMX: Guía"
 description: "Guía honesta para quien renta un inflable por primera vez en CDMX: qué preguntar, qué datos necesitas, cómo confirmar y qué esperar el día de la fiesta."
 excerpt: "Nadie nace sabiendo cómo rentar un inflable. Esta guía es lo que le explicaríamos a un amigo que nos llama por primera vez sin saber por dónde empezar."
 publishDate: "2026-07-03"
@@ -59,6 +59,26 @@ No necesitas medidas exactas, pero sí necesitamos saber si es jardín, terraza,
 Esto determina qué modelo es el adecuado. El Castillo Baby es de 1 a 3 años; los modelos Jungla y Dragones Rojos son de 3 a 8, Gusanitos de 2 a 8 y Castillo de Princesas de 2 a 10; el Barco Pirata y el circuito Extremo son de 3 a 12. Un inflable pensado para adolescentes no es seguro para un bebé de dos años, y uno para bebés aburre a un niño de 8. El criterio completo está en la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/).
 
 Con esas tres cosas, podemos orientarte en menos de cinco minutos.
+
+---
+
+## Espacio y Luz: los Dos Detalles que Más Se Olvidan
+
+**El espacio.** Cada inflable tiene dimensiones específicas y necesitas **al menos 1 metro adicional en cada lado** para que los niños suban y bajen con seguridad. Mide largo, ancho y altura disponibles; si es interior, la altura manda: solo el Castillo Baby y los Gusanitos entran bajo techo. Si es exterior, verifica que no haya ramas bajas ni cables. Lo más rápido: toma fotos del espacio y mándalas por WhatsApp.
+
+**La luz.** Todos los inflables necesitan electricidad para el soplador:
+
+- Una toma de corriente estándar (127V / 15A)
+- A menos de 30 metros del lugar donde irá el inflable
+- Un circuito que soporte la carga (de 500W a 1.5kW según el modelo)
+
+Si tu evento es en un lugar sin electricidad, consúltanos antes de reservar.
+
+### Qué incluye el servicio y qué no
+
+Incluye entrega según la zona cotizada, instalación, soplador durante todo el evento, revisión de seguridad antes de abrir, y desinstalación y recolección al final.
+
+No incluye: IVA (solo si pides factura), traslado fuera de las zonas sin costo (consulta la [página de cobertura](/cobertura/)), supervisión de los niños (responsabilidad de los adultos presentes), horas extra fuera del horario contratado ni seguro de responsabilidad civil.
 
 ---
 
@@ -122,6 +142,17 @@ Firmas la hoja de devolución del equipo y listo. La fiesta terminó, los niños
 
 ---
 
+## Checklist del Anfitrión para el Día de la Fiesta
+
+- Toma de corriente accesible y cerca del área del inflable
+- Espacio limpio y despejado (sin muebles, macetas ni obstáculos)
+- Acceso libre de mínimo 1.5 m para meter el inflable
+- Saldo listo para liquidar antes de la instalación
+- Un adulto disponible para recibir al equipo
+- Reglas de seguridad comunicadas a los papás de los invitados
+
+---
+
 ## Una Cosa Más Que No Mucha Gente Pregunta
 
 ¿Puedes cancelar si algo pasa?
@@ -134,6 +165,6 @@ Si la cancelación viene de nuestro lado — algo que en 20 años ha pasado rar�
 
 Si tienes preguntas que no están aquí, escríbenos. Estamos disponibles de lunes a domingo, de 8:00 a 20:00, para resolver cualquier duda antes de que decidas — sin presión y sin que tengas que comprometerte a nada.
 
-Dos lecturas que complementan esta guía: los [consejos para rentar un inflable por primera vez](/blog/consejos-rentar-inflable-primera-vez/), con el checklist del anfitrión, y [lo que BRINCOLINS te promete el día de tu fiesta](/blog/garantia-servicio-brincolins-renta-inflables-cdmx/), con lo que cubrimos y lo que no.
+Si todavía no decides modelo, la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/) te ayuda a escoger por edad, espacio e invitados.
 
 [Solicitar cotización →](/cotizar/)
