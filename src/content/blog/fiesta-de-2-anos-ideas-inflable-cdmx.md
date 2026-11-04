@@ -4,10 +4,10 @@ h1: "Fiesta de 2 años en CDMX: horario, actividades, comida e inflable a la med
 description: "Fiesta de 2 años en CDMX: arma el horario según la siesta, elige actividades que sí funcionan y compara el paquete fiesta bebés con rentar por separado."
 excerpt: "A los 2 años la fiesta gira alrededor de la siesta. Te contamos cómo acomodar horario, invitados, comida e inflable para que el festejado llegue feliz al pastel."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Castillo Baby"
 author: "Equipo BRINCOLINS"
-readTime: "13 min"
+readTime: "16 min"
 heroImage: "/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif"
 heroImageAlt: "Castillo Baby para una fiesta de 2 años, con pelotas de colores y arcos amarillos en un patio"
 galleryImages:
@@ -39,7 +39,7 @@ Son las cuatro de la tarde. El pastel está listo, los invitados están llegando
 
 La buena noticia: se evita casi por completo si armas la fiesta al revés que las demás, primero el horario de tu hijo y después todo lo demás. Aquí tienes el plan completo, con el inflable que corresponde a su edad y las cuentas para decidir cómo rentarlo.
 
-> **Respuesta rápida:** Una fiesta de 2 años funciona mejor corta, fuera del horario de siesta y con actividades sin reglas complicadas. El inflable que corresponde es el [Castillo Baby para el segundo cumpleaños](/inflables/mini-castillo/), para niños de 1 a 3 años, que cuesta $1,400 netos por evento. Si además quieres mesa y pintacaritas, el paquete fiesta bebés lo junta todo por $2,100.
+> **Respuesta rápida:** Una fiesta de 2 años funciona mejor corta, fuera del horario de siesta y con actividades sin reglas complicadas. El inflable que corresponde es el Castillo Baby, para niños de 1 a 3 años, que cuesta $1,400 netos por evento. Si además quieres mesa y pintacaritas, el paquete fiesta bebés lo junta todo por $2,100.
 
 ## ¿Qué cambia en una fiesta de 2 años frente a la del primer año?
 
@@ -57,7 +57,7 @@ Primos e hijos de amigos ya juegan juntos, aunque sea a ratos. No es una fiesta 
 
 Y con el cansancio, el berrinche. Tienes poco margen. Todo lo que sigue en esta guía sirve para que el pastel llegue antes que el sueño.
 
-Si todavía estás en la etapa anterior, la [guía del primer cumpleaños paso a paso](/inflables/mini-castillo/) cubre horario, duración e invitados para un bebé que apenas camina.
+Si todavía estás en la etapa anterior, la [guía del primer cumpleaños paso a paso](/blog/fiesta-primer-cumpleanos-con-inflable/) cubre horario, duración e invitados para un bebé que apenas camina.
 
 ## ¿A qué hora conviene la fiesta de 2 años si tu hijo todavía toma siesta?
 
@@ -157,7 +157,7 @@ Cuando la fiesta es chica y quieres pintacaritas. Como no se vende por separado,
 
 Cuando vienen más niños que se van a sentar a comer y la pintacaritas no te interesa. El Castillo Baby más la [mesa infantil de 10 sillas](/servicios/mobiliario-para-fiestas/) da más lugares en la mesa y cuesta menos que el paquete. Ojo: la mesa cuesta $550 sólo en conjunto con un inflable; sin inflable cuesta $1,600.
 
-El paquete fiesta de $2,800 lleva un inflable para niños de 3 a 8 años, así que no es para un festejado de 2. La [comparación de los dos paquetes completos](/servicios/paquetes-de-fiesta/) explica cada uno a detalle, y los [precios netos de los ocho inflables](/precios/) están en una sola página.
+El paquete fiesta de $2,800 lleva un inflable para niños de 3 a 8 años, así que no es para un festejado de 2. La página de paquetes que enlazamos arriba explica cada uno a detalle, y los [precios netos de los ocho inflables](/precios/) están en una sola página.
 
 ## ¿Qué haces cuando los primos de 4 a 6 años quieren entrar al inflable?
 
@@ -186,6 +186,36 @@ Es la opción más sencilla. Revisa que el piso esté parejo, quita piedras y ma
 ### Dentro del departamento
 
 Aquí el techo es el filtro. Un departamento típico de la ciudad no llega a 3.2 m, así que mide antes de cotizar. La guía para [medir tu techo antes de rentar un inflable](/blog/inflable-para-departamento-altura-techo-cdmx/) te dice dónde medir y qué hacer si no alcanza. Si el resultado es no, muévete a la azotea, al patio común o a la casa de algún familiar. No pierdes la fecha.
+
+### Azotea, cochera o patio de la unidad
+
+Si el departamento no da, quedan tres salidas habituales en la ciudad. La azotea funciona si tiene pretil o barandal firme, piso parejo y acceso cómodo para subir el inflable; antes de decidir, repasa [qué revisar para instalar un inflable en azotea](/blog/inflable-en-azotea-que-revisar-cdmx/). La cochera sirve si está techada a 3.2 m o más, o si queda descubierta. Y el patio o área común de la unidad habitacional resuelve el espacio, con permiso previo de la administración.
+
+## Fiesta de 2 años en casa en el oriente y el norte de la ciudad
+
+En colonias como Jardín Balbuena o la Moctezuma, Agrícola Oriental o Granjas México, Clavería o Del Gas, muchas fiestas de 2 años se hacen en casas con patio, cocheras amplias o áreas comunes de unidades y privadas. Son espacios que encajan bien con el Castillo Baby, porque mide 2.5 × 2 m y admite interiores. Lo que cambia de un lugar a otro:
+
+| Espacio | Qué revisar | Por qué importa a los 2 años |
+|---|---|---|
+| Patio de casa | Piso parejo, macetas fuera, coladeras tapadas | Los niños de esta edad tropiezan con cualquier desnivel |
+| Cochera techada | 3.2 m de altura libre, coche fuera desde la noche anterior | Sin altura no se instala, aunque el piso alcance |
+| Área común de unidad o privada | Permiso de la administración, horario, contacto de corriente | Evita que te pidan desinstalar a media fiesta |
+| Azotea | Barandal, acceso, sombra | El sol de mediodía calienta el piso y la lona |
+
+El traslado en estas tres alcaldías se confirma según la colonia. Puedes revisar lo que aplica para una [fiesta infantil en Venustiano Carranza](/cobertura/venustiano-carranza/), para [cumpleaños en Iztacalco](/cobertura/iztacalco/) o para [inflables a domicilio en Azcapotzalco](/cobertura/azcapotzalco/). Con tu colonia y una foto del espacio te damos el total antes de apartar.
+
+### Si la fiesta cae en temporada de lluvias
+
+De junio a septiembre suele llover por la tarde en el Valle de México. Para una fiesta de 2 años eso pesa doble: si la siesta te obliga a festejar después de las 4, busca desde el principio un espacio techado con 3.2 m de altura libre. El Castillo Baby funciona bajo techo; los inflables grandes no. Otra opción es mover la fiesta a media mañana, que además suele ser el mejor horario para esta edad.
+
+### Qué preguntar al cotizar
+
+- ¿Cuánto es el traslado exacto a mi colonia?
+- ¿Cabe el Castillo Baby en mi espacio con esta altura? (manda foto y medida)
+- ¿Qué pasa con el anticipo si llueve y la fiesta es en exterior?
+- ¿Cuánto tiempo antes llegan a instalar? El Castillo Baby queda listo en 15 minutos.
+
+Si dudas entre hacerla en casa o rentar un lugar, la guía para decidir entre [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/) compara costos y logística.
 
 ## ¿Qué errores hacen que una fiesta de 2 años termine en berrinche?
 

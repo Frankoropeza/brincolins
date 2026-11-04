@@ -4,10 +4,10 @@ h1: "Fiesta ninja con circuito de obstáculos: entrenamiento por estaciones, cin
 description: "Fiesta ninja para niños de 3 a 12 años: estaciones de entrenamiento, cintas de colores, decoración negro y rojo y el circuito Extremo como prueba final."
 excerpt: "Bandas en la frente, cintas de colores y un circuito de 8 metros como examen final. Así armas una fiesta ninja que engancha igual a un niño de 4 que a uno de 11."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Extremo"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "19 min"
 heroImage: "/img/inflables/extremo/extremo-carrera-cdmx.avif"
 heroImageAlt: "Frente del Extremo para una fiesta ninja: túneles de colores, tobogán azul y arcos morados sobre pasto"
 galleryImages:
@@ -51,7 +51,7 @@ Porque cada edad encuentra su reto dentro de la misma historia. Tu invitado de 4
 
 Tampoco depende de una película de temporada ni te divide al grupo: funciona igual con niñas y niños, primos y compañeros del salón. Si estás comparando ideas, en el repaso de [temáticas infantiles que combinan con un inflable](/inflables/tematicos/) tienes los modelos ordenados por historia.
 
-¿Qué vuelve creíble el entrenamiento? El circuito. El [Extremo de doble carril](/inflables/extremo/) tiene pista de obstáculos y tobogán doble, mide 8 × 4.5 × 3.50 m y es para niños de 3 a 12 años. Es la prueba final de tu dojo.
+¿Qué vuelve creíble el entrenamiento? El circuito. El Extremo de doble carril tiene pista de obstáculos y tobogán doble, mide 8 × 4.5 × 3.50 m y es para niños de 3 a 12 años. Es la prueba final de tu dojo.
 
 ## ¿Cómo montar el entrenamiento ninja por estaciones?
 
@@ -106,11 +106,22 @@ Que lo intente otra vez después de pasar por otra estación. Tú no tienes que 
 
 Porque reúne todo lo que entrenaron: correr, esquivar, mantener el equilibrio y salir por el tobogán. Y porque tiene dos carriles: dos ninjas arrancan al mismo tiempo y se ven competir, lo que le da a la prueba el peso de un examen de verdad.
 
-El circuito se instala en **30 minutos**, necesita **4.5 m de altura libre** y es sólo para exterior. La prueba final se abre cuando el niño tiene sus cuatro cintas de color; antes de eso, el Extremo puede funcionar en turnos libres de práctica, también separados por edad. Te conviene revisar las [medidas y fotos del Extremo](/inflables/extremo/) para ubicar dónde van las estaciones alrededor.
+El circuito se instala en **30 minutos**, necesita **4.5 m de altura libre** y es sólo para exterior. La prueba final se abre cuando el niño tiene sus cuatro cintas de color; antes de eso, el Extremo puede funcionar en turnos libres de práctica, también separados por edad. Te conviene revisar las medidas y fotos del Extremo para ubicar dónde van las estaciones alrededor.
 
 ![Vista larga de la pista del Extremo sobre pasto, con edificios de departamentos al fondo](/img/inflables/extremo/extremo-pista-obstaculos.avif)
 
 ¿Tu jardín se queda corto? La fiesta puede irse a un patio escolar, a la explanada del condominio o a una cancha. Los [requisitos para montar el circuito sobre concreto](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/) te dicen qué revisar antes de apartar.
+
+### ¿Te cabe un circuito de 8 metros?
+
+El Extremo es el inflable más largo del catálogo: 8 m de largo por 4.5 m de ancho. A eso súmale el margen libre alrededor (el exacto se confirma al cotizar), el espacio para la fila de espera en la entrada y la salida del tobogán al otro extremo. Antes de apartar:
+
+1. **Mide el largo útil**, de obstáculo a obstáculo, no de barda a barda. Si apenas llegas a 8 m, el circuito no entra con holgura.
+2. **Ubica entrada y salida.** Los ninjas entran por un lado y salen por el otro. Ninguno de los dos extremos debe quedar contra una pared, una mesa o un escalón.
+3. **Mira hacia arriba** en todo el largo: un solo cable o rama a menos de 4.5 m en cualquier punto del recorrido descarta esa ubicación.
+4. **Deja espacio para las estaciones.** El dojo necesita, además del circuito, cuatro rincones para equilibrio, puntería, sigilo y agilidad. Si el jardín sólo da para el inflable, las estaciones pueden ir en la cochera o bajo techo.
+
+Si al medir no te alcanza, el Dragones Rojos (5 × 3 m) es la alternativa, como verás más abajo. Para ver todos los modelos tipo recorrido, revisa la categoría de [inflables con obstáculos](/inflables/con-obstaculos/).
 
 ## ¿Cómo separar a los ninjas por edad en turnos?
 
@@ -160,7 +171,7 @@ Cronómetro visible sólo para el grupo de 9 a 12 años, y siempre con opción d
 
 Para los de 6 a 8, el tiempo se dice pero no se escribe. Para los de 3 a 5, ni se mide: se aplaude. Explícales esa diferencia a tus senseis antes de abrir el dojo. ¿Por qué? Porque las ganas de cronometrar a todos son fuertes.
 
-Si quieres un torneo más estructurado, los [formatos de torneo con llaves y relevos](/inflables/extremo/) te dan el detalle de cada uno.
+Si quieres un torneo más estructurado, los formatos de torneo con llaves y relevos te dan el detalle de cada uno.
 
 ## ¿Qué llevan los diplomas ninja y cuándo se entregan?
 
@@ -169,6 +180,25 @@ Llevan el nombre del niño, el rango alcanzado, la fecha y la firma del «gran m
 La ceremonia va después del pastel, con todos sentados. El festejado entrega las cintas negras que falten y el diploma, uno por uno, con su reverencia. Es la foto que te van a pedir todas las familias. ¿Y el gran maestro? Recibe el suyo al final, de manos de sus papás.
 
 > **Diplomas listos, falta el circuito.** Dinos tu alcaldía o municipio y cuántos ninjas esperas, y te cotizamos el Extremo con el traslado de tu zona. [Cotizar el Extremo para la fiesta ninja](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Extremo%20para%20una%20fiesta%20tematica%20ninja)
+
+## ¿Cómo queda el horario de una fiesta ninja?
+
+Un orden que funciona para una fiesta de tres a cuatro horas, con el circuito instalado antes de que lleguen los invitados (el montaje del Extremo toma unos 30 minutos):
+
+| Momento | Qué pasa | Duración aproximada |
+|---|---|---|
+| Llegada | Bandas en la frente, explicación del dojo y reglas del circuito | 15 a 20 min |
+| Entrenamiento | Rotación por las cuatro estaciones, en grupos por edad | 45 a 60 min |
+| Práctica libre | Turnos en el circuito, separados por edad | 30 a 45 min |
+| Comida | El circuito se cierra; descanso y agua | 30 a 40 min |
+| Prueba final | Carreras de doble carril y tabla de tiempos | 30 a 45 min |
+| Ceremonia | Cinta negra, diplomas y pastel | 20 a 30 min |
+
+Pon la comida antes de la prueba final, no después: los niños llegan descansados a la carrera y el cierre con diplomas queda como el momento fuerte de la tarde. Para ajustar tiempos según cuántas horas rentes, revisa [cómo organizar el horario de una fiesta con inflable](/blog/horario-fiesta-infantil-cuantas-horas-inflable/).
+
+### La decoración también puede ser hecha en casa
+
+Las cintas de colores, las estrellas de cartulina, las bandas de tela y los diplomas impresos cuestan poco y los puedes preparar con los niños de la casa días antes. Si estás cuidando el gasto, en la guía de [fiesta infantil con poco presupuesto](/blog/fiesta-infantil-con-poco-presupuesto-cdmx/) hay más ideas para que el dinero se vaya al circuito y no a la decoración.
 
 ## ¿Qué errores pueden tumbar tu dojo el día de la fiesta?
 
@@ -200,6 +230,14 @@ La diferencia está en la prueba final. Sin doble carril, deja de ser carrera y 
 Con el [inflable Dragones Rojos](/inflables/dragones-rojos/), el paquete fiesta de **$2,800** incluye el inflable, una mesa con 10 sillitas y una pintacaritas; la pintacaritas sólo viene dentro de los [paquetes de fiesta con mesa incluida](/servicios/paquetes-de-fiesta/). Si te quedas con el Extremo y quieres mesa para los chicos, la [mesa infantil con sillas](/servicios/mobiliario-para-fiestas/) cuesta **$550** rentada junto con el inflable.
 
 El mismo dojo se adapta a otros formatos: un [festejo conjunto de hermanos](/blog/fiesta-de-gemelos-o-hermanos-con-inflable/) o el [family day con área infantil para los hijos del equipo](/blog/family-day-empresa-inflables-para-hijos/).
+
+### Si el dojo es en el norte de la ciudad o en Edomex
+
+Un circuito de 8 metros pide espacio. Si tu patio no alcanza, las opciones habituales son el patio de una escuela, la explanada de una unidad habitacional o una cancha. En esos casos, la autorización la da la escuela o la administración del conjunto, y el piso suele ser concreto, así que avísalo al cotizar para que el equipo lleve lastre.
+
+- Si vives en Azcapotzalco, la página de [inflables a domicilio en Azcapotzalco](/cobertura/azcapotzalco/) confirma el traslado según tu colonia.
+- Para una fiesta del otro lado del límite, en Tlalnepantla, el envío va de $150 a $250; revisa las [entregas en Tlalnepantla](/cobertura/tlalnepantla/).
+- Más al norte, en Coacalco, el traslado va de $200 a $300; los detalles están en la cobertura de [fiestas en Coacalco](/cobertura/coacalco/).
 
 ## Reserva el circuito para tu fiesta ninja
 

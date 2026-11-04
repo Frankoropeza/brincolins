@@ -4,10 +4,10 @@ h1: "Cómo instalar un inflable en cancha, explanada o estacionamiento: el circu
 description: "Instalar inflable en cancha o explanada de concreto: anclaje con lastre, pendiente, acceso, corriente de 110 V y montaje en 30 minutos. Cotiza el Extremo."
 excerpt: "Concreto, pendiente, portón, corriente y sol: lo que revisas antes de que un circuito de 8 metros llegue a tu cancha, patio escolar o estacionamiento."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Extremo"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "20 min"
 heroImage: "/img/inflables/extremo/extremo-pista-obstaculos.avif"
 heroImageAlt: "Pista de obstáculos del Extremo, de 8 metros, extendida sobre pasto frente a edificios de departamentos"
 galleryImages:
@@ -104,7 +104,7 @@ Para comparar, la tabla muestra los modelos grandes del catálogo con sus datos 
 | Castillo Blanco | 5 × 7 × 4 m | 4.7 m | 30 min | 3 a 12 años |
 | Dragones Rojos | 5 × 3 × 2.80 m | 4.5 m | 20 min | 3 a 8 años |
 
-El Extremo es el más largo. El [Barco Pirata de 6 metros](/inflables/barco-pirata/) es más corto, pero pide más altura libre. El Castillo Blanco es el más ancho. ¿Tu cancha es alargada? Un circuito se acomoda mejor que un modelo ancho. La [galería del Extremo para ubicarlo en tu plano](/inflables/extremo/) te ayuda a visualizarlo.
+El Extremo es el más largo. El [Barco Pirata de 6 metros](/inflables/barco-pirata/) es más corto, pero pide más altura libre. El Castillo Blanco es el más ancho. ¿Tu cancha es alargada? Un circuito se acomoda mejor que un modelo ancho. La galería del Extremo para ubicarlo en tu plano te ayuda a visualizarlo.
 
 ![Tobogán azul y amarillo al final de la pista larga del Extremo, en un jardín con palmeras](/img/inflables/extremo/extremo-tobogan-doble.avif)
 
@@ -161,6 +161,8 @@ En una toma de corriente de 110 V a menos de 20 m del área de instalación, ded
 
 En canchas abiertas, tu toma más cercana suele estar en una caseta, una bodega o un salón cercano. Ubícala antes del día y mide la distancia con pasos largos: un paso de adulto anda cerca del metro. ¿Queda a más de 20 m? Avísalo al cotizar y buscamos otra ubicación para el circuito.
 
+Si la única toma está en una bodega que se cierra con llave, consigue la llave desde la víspera y deja dicho quién la tiene. El motor necesita la conexión de principio a fin, y una puerta cerrada a mitad del evento es un problema evitable. Para revisar qué tipo de contacto conviene y cuándo sirve una extensión, consulta la guía de [consumo eléctrico del inflable, contacto y extensión](/blog/cuanta-luz-consume-un-inflable-contacto-extension/).
+
 ## ¿Cómo planear la sombra y el sol sobre el concreto?
 
 Planea dónde quedan la fila, los zapatos y el agua según hacia dónde da el sol durante el evento. El concreto se calienta con sol directo, y una fila sin sombra se vacía rápido. Unos minutos de planeación te ahorran niños acalorados y papás buscando dónde resguardarse.
@@ -211,7 +213,40 @@ Revisas que el inflable esté firme, el lastre en su lugar, el perímetro libre 
 
 Si quieres más detalle, las [reglas para supervisar a los niños dentro del inflable](/blog/seguridad-inflables-fiestas-infantiles/) lo explican paso a paso. Y lo decimos claro: no ofrecemos seguro de responsabilidad civil, así que la supervisión y la capacidad no se negocian.
 
-Con el circuito instalado, el uso depende de tu evento: un [torneo escolar en la pista de obstáculos](/inflables/extremo/), una [fiesta de 10 años con carreras en doble carril](/blog/fiesta-de-10-anos-ideas-actividades/), una [fiesta ninja con prueba final](/blog/fiesta-ninja-con-circuito-de-obstaculos/) o un [cumpleaños doble de hermanos](/blog/fiesta-de-gemelos-o-hermanos-con-inflable/). Otros modelos de recorrido están en la sección de [circuitos inflables con obstáculos](/inflables/con-obstaculos/).
+Con el circuito instalado, el uso depende de tu evento: un torneo escolar en la pista de obstáculos, una [fiesta de 10 años con carreras en doble carril](/blog/fiesta-de-10-anos-ideas-actividades/), una [fiesta ninja con prueba final](/blog/fiesta-ninja-con-circuito-de-obstaculos/) o un [cumpleaños doble de hermanos](/blog/fiesta-de-gemelos-o-hermanos-con-inflable/). Otros modelos de recorrido están en la sección de [circuitos inflables con obstáculos](/inflables/con-obstaculos/).
+
+## Errores comunes al instalar en cancha o estacionamiento
+
+Casi todos los contratiempos en concreto vienen de detalles que nadie revisó la víspera. Estos son los más frecuentes y cómo evitarlos:
+
+| Error | Qué provoca | Cómo evitarlo |
+|---|---|---|
+| Dejar autos en el área "porque se van temprano" | El equipo espera y el montaje se retrasa | Liberar el área desde la noche anterior y avisar por escrito a vecinos |
+| No barrer | Piedras o vidrio bajo la lona | Barrer el mismo día, poco antes de la llegada |
+| Compartir la toma con el sonido | El motor se apaga y el inflable pierde forma | Toma dedicada al inflable todo el evento |
+| Poner la fila al sol | Niños acalorados y fila desordenada | Fila y zapatos en la zona de sombra |
+| No pedir el horario de salida | El circuito no se puede recoger a tiempo | Acordar con la administración la hora de recolección |
+| Armar mesas pegadas al perímetro | Menos margen de seguridad | Mobiliario a distancia, fuera del área del inflable |
+
+### Qué preguntarle a la administración antes de apartar
+
+Con estas respuestas cotizas con certeza y no te enteras de una restricción el mismo día:
+
+1. ¿A qué hora puede entrar el vehículo y hasta qué hora debe salir?
+2. ¿Qué toma de corriente podemos usar y quién tiene acceso a ella?
+3. ¿Se puede cerrar el estacionamiento o la cancha para uso exclusivo del evento?
+4. ¿Hay que registrar el vehículo o al personal en caseta?
+5. ¿El reglamento pide entregar el área limpia o con algún horario de silencio?
+
+Si tu evento ocupa la cancha varias horas, define también cuántas horas va a estar armado el circuito. La guía de [horario de la fiesta y horas de renta del inflable](/blog/horario-fiesta-infantil-cuantas-horas-inflable/) te ayuda a acomodar turnos, comida y recolección.
+
+## Canchas, patios y explanadas en el oriente y el nororiente del valle
+
+Las unidades habitacionales y escuelas del oriente tienen justo el tipo de espacio de este artículo: canchas de concreto compartidas, patios cívicos y estacionamientos comunes. En [Iztapalapa, con entregas en Ermita, Santa Martha o el Peñón](/cobertura/iztapalapa/), el traslado va de $100 a $150, y es común que la cancha de la unidad sea el único espacio plano para un circuito de 8 metros.
+
+Más al oriente, los fraccionamientos y escuelas de [Chalco y Valle de Chalco](/cobertura/chalco/) y de [Texcoco, Coatlinchán y Chiconcuac](/cobertura/texcoco/) suelen tener explanadas amplias; ahí el traslado es de $250 a $400 y conviene apartar con más tiempo para coordinar el acceso con la administración. Al nororiente, los conjuntos de [Tecámac, como Los Héroes, Real del Sol o Ciudad Real](/cobertura/tecamac/), tienen áreas comunes con caseta: pregunta con anticipación por el registro del vehículo y por la toma de corriente que te van a prestar.
+
+En todos los casos aplica lo mismo: superficie plana, 4.5 m de altura libre, toma de 110 V a menos de 20 m y una persona adulta supervisando.
 
 ## Agenda el montaje del Extremo en tu cancha
 
@@ -224,6 +259,6 @@ Para cotizar sin ida y vuelta, mándanos:
 - Fotos del área y de la toma de corriente más cercana.
 - Las edades y la cantidad aproximada de niños.
 
-La fecha se aparta con 50% de anticipo. El Extremo cuesta **$2,500** por evento, precio neto con instalación y recolección incluidas; con factura se agrega 16% de IVA. El traslado se cobra según zona: si tu cancha está al norte del valle, revisa la [renta de inflables en Ecatepec](/cobertura/ecatepec/), y para el resto, la [cobertura completa en CDMX y Edomex](/cobertura/). Consulta también los [requisitos de instalación del Extremo](/inflables/extremo/), la [comparación de precios por modelo](/precios/) y las [dudas frecuentes de instalación y renta](/preguntas-frecuentes/).
+La fecha se aparta con 50% de anticipo. El Extremo cuesta **$2,500** por evento, precio neto con instalación y recolección incluidas; con factura se agrega 16% de IVA. El traslado se cobra según zona: si tu cancha está al norte del valle, revisa la [renta de inflables en Ecatepec](/cobertura/ecatepec/), y para el resto, la [cobertura completa en CDMX y Edomex](/cobertura/). Consulta también los requisitos de instalación del Extremo, la [comparación de precios por modelo](/precios/) y las [dudas frecuentes de instalación y renta](/preguntas-frecuentes/).
 
 Solicita tu [cotización en línea de la instalación](/cotizar/) o [manda las fotos de tu cancha por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Extremo%20para%20instalar%20en%20cancha%20o%20explanada).

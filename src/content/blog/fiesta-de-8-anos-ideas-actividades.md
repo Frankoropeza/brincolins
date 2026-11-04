@@ -4,10 +4,10 @@ h1: "Fiesta de 8 años con inflable: juegos en equipo, búsqueda del tesoro y un
 description: "Fiesta de 8 años sin aburrimiento: retos por equipos, búsqueda del tesoro con mapa, cronograma y un inflable grande con tobogán. Compara y aparta tu fecha."
 excerpt: "A los 8 años ya no basta con brincar: quieren ganar, armar equipos y bajar por algo alto. Así planeas una tarde que aguante a todo tercero de primaria."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Barco Pirata"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "15 min"
 heroImage: "/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif"
 heroImageAlt: "Costado del Barco Pirata con ancla blanca y mástiles de colores, inflable para una fiesta de 8 años"
 galleryImages: []
@@ -176,6 +176,30 @@ La tabla te muestra qué pasa en cada bloque, si el inflable está abierto y qui
 
 > **Arma tu tarde con el barco al centro.** Te confirmamos disponibilidad para tu fecha y la capacidad del modelo para tu número de invitados. [Cotizar el Barco Pirata para la fiesta de mi hijo](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Barco%20Pirata%20para%20el%20cumpleanos%208%20de%20mi%20hijo)
 
+## ¿Qué cambia si tu jardín está en pendiente o detrás de una caseta?
+
+Un inflable grande pide más que uno mediano: más largo, más altura libre y un piso parejo en toda la base. En el poniente de la ciudad y en la zona residencial del Estado de México eso se nota, porque muchos jardines están en terreno con desnivel y muchas casas quedan dentro de fraccionamientos con acceso controlado.
+
+### Álvaro Obregón: jardines con desnivel
+
+Buena parte de Álvaro Obregón está en lomas y barrancas, así que es común encontrar jardines escalonados o con pendiente. El Barco Pirata y el Extremo necesitan una superficie plana bajo toda la base; un jardín que baja hacia un lado no sirve aunque el largo alcance. Manda una foto de lado del jardín, no sólo de frente, para que se vea el desnivel. Los detalles de traslado están en la página de [inflables a domicilio en Álvaro Obregón](/cobertura/alvaro-obregon/).
+
+### Huixquilucan: fraccionamientos y accesos
+
+En Interlomas y otras zonas de Huixquilucan la fiesta suele ser dentro de un fraccionamiento o condominio horizontal. Antes de apartar, confirma con la administración el horario de proveedores y el registro en caseta, y pregunta si el jardín de la casa tiene paso directo desde la calle. Un inflable grande se lleva enrollado, pero pesa y necesita un pasillo libre. El traslado ahí va de $150 a $250; revisa colonias en la [cobertura de Huixquilucan](/cobertura/huixquilucan/).
+
+### Naucalpan: casas con jardín y patios largos
+
+En Ciudad Satélite y otras colonias de Naucalpan hay casas con jardín trasero alargado. Ese formato le queda bien al Extremo, que mide 8 × 4.5 m y se aprovecha a lo largo. Mide el jardín completo y revisa que la toma de 110 V quede a menos de 20 m del punto donde iría el motor. Para colonias y traslado, consulta [qué zonas de Naucalpan atendemos](/cobertura/naucalpan/).
+
+### Lo que conviene preguntar al cotizar un inflable grande
+
+- ¿Cuál de los dos grandes cabe en mi jardín con las medidas que mando?
+- ¿Cuántos niños de 8 y 9 años entran por turno en ese modelo?
+- ¿Por dónde entra el equipo y qué necesitan libre en el acceso?
+- ¿Cuánto es el traslado a mi colonia?
+- ¿A qué hora llegan a instalar? El montaje toma de 15 a 30 minutos, así que la hora de llegada se ajusta al inicio de la fiesta. La guía sobre [cuántas horas dura la renta y cómo armar el horario](/blog/horario-fiesta-infantil-cuantas-horas-inflable/) te ayuda a cuadrarlo.
+
 ## ¿Qué errores se repiten al festejar a un niño de 8?
 
 Casi todos vienen de planear como si tuviera 5. Revisa esta lista una semana antes; cada punto te evita un momento incómodo con el grupo o con los papás que pasan por sus hijos.
@@ -185,7 +209,7 @@ Casi todos vienen de planear como si tuviera 5. Revisa esta lista una semana ant
 - **Suponer que habrá adultos.** Si no asignas la supervisión con nombre y por bloques, nadie la hace.
 - **Dejar el tobogán sin reglas.** Dilas antes del primer turno y repítelas en el segundo, sin regaños.
 - **Mezclar a los hermanos chicos.** Los de 3 o 4 años van en un turno aparte, nunca con los de 9.
-- **No medir hacia arriba.** El barco necesita 5.2 m libres. La [guía para medir tu jardín antes de apartar](/inflables/barco-pirata/) te lleva paso a paso.
+- **No medir hacia arriba.** El barco necesita 5.2 m libres. Mide desde el piso hasta la rama, cable o lámpara más baja sobre el área, no hasta la copa del árbol.
 
 ¿La fiesta será fuera de casa? Revisa la [lista de preguntas para una quinta o jardín de eventos](/blog/fiesta-en-quinta-o-jardin-de-eventos-edomex/) antes de pagar el lugar.
 
@@ -203,4 +227,4 @@ Los fines de semana se llenan y la disponibilidad se confirma por WhatsApp. ¿Ya
 
 La fecha se aparta con el 50% de anticipo. El precio es por evento, neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Antes de pagar, lee las [reglas para cambiar o cancelar tu fecha](/politica-de-cancelacion/) y revisa las [zonas que cubrimos en CDMX y Estado de México](/cobertura/).
 
-Puedes [pedir la cotización en línea para la fiesta de 8 años](/cotizar/), ver la [disponibilidad del barco con tobogán para tu fecha](/inflables/barco-pirata/), comparar el [precio neto de cada modelo](/precios/) o [mandarnos un WhatsApp para apartar](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20un%20inflable%20grande%20para%20una%20fiesta%20de%208%20anos%20en%20casa).
+Puedes [pedir la cotización en línea para la fiesta de 8 años](/cotizar/), comparar el [precio neto de cada modelo](/precios/) o [mandarnos un WhatsApp para apartar](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20un%20inflable%20grande%20para%20una%20fiesta%20de%208%20anos%20en%20casa).

@@ -4,10 +4,10 @@ h1: "Posada con inflable para niños: patio, salón o calle cerrada, sin chocar 
 description: "Posada con inflable en CDMX: dónde instalarlo, qué modelo conviene con frío, cómo encajar piñata y villancicos y cuándo apartar en diciembre. Cotiza tu fecha."
 excerpt: "Una posada no es un cumpleaños: es de noche, hace frío y hay piñata, villancicos y procesión. Así metes un inflable sin que choque con nada y sin quedarte sin fecha."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Gusanitos"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "18 min"
 heroImage: "/img/inflables/gusanitos/gusanitos-lateral-cdmx.avif"
 heroImageAlt: "Gusano amarillo del Gusanitos de perfil con carpa blanca al fondo, opción para una posada con inflable"
 galleryImages:
@@ -101,7 +101,7 @@ La lista completa por edades está en los [inflables por edad para fiestas de cu
 
 Mide 5 × 3 × 2.80 m y pide 3.2 m de altura libre. Es más circuito que brincolín: túneles de colores con varias entradas y salidas. Puede ir en una terraza techada, un garage o un salón, y los niños juegan resguardados. Para medir bien tu espacio, sigue la [guía para medir un espacio techado](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/).
 
-Además funciona con grupos de edades mezcladas, justo lo que reúne tu posada familiar. ¿Tienes primos de todas las edades? Mejor. Tienes ideas para [repartir turnos entre primos de 2 y 8 años](/inflables/gusanitos/) sin que nadie llore.
+Además funciona con grupos de edades mezcladas, justo lo que reúne tu posada familiar. ¿Tienes primos de todas las edades? Mejor. Tienes ideas para repartir turnos entre primos de 2 y 8 años sin que nadie llore.
 
 ### Dragones Rojos si la posada es al aire libre
 
@@ -138,6 +138,15 @@ Las velitas de la procesión y las luces de bengala se quedan lejos del inflable
 ### Algo caliente, lejos de la salida
 
 Ten ponche, atole o chocolate cerca de ti, pero lejos de la entrada y en vasos con tapa. Nadie entra con bebidas. Ni con tamales. Un vaso caliente junto a la salida es un riesgo si un niño sale corriendo.
+
+### Errores que enfrían la posada (literal)
+
+- **Arrancar los turnos ya de noche.** Si el inflable abre hasta que terminan los villancicos, los niños brincan en la hora más fría. Abre desde la llegada, cuando todavía hay algo de luz.
+- **Dejar que salgan sudados al patio sin abrigo.** El cambio de temperatura es lo que más molesta a los niños; el suéter va en la silla de la entrada, no en el coche.
+- **Que el supervisor sea quien sirve el ponche.** Son dos tareas distintas; una sola persona no puede con ambas.
+- **Prender el motor con la extensión de las series.** Si se bota la pastilla, se apagan luces e inflable al mismo tiempo, con niños adentro y a oscuras.
+
+Si la posada es en jardín o patio abierto y quieres más ideas para manejar el frío con niños, revisa la guía de [fiesta infantil en invierno al aire libre](/blog/fiesta-infantil-en-invierno-al-aire-libre-cdmx/).
 
 ## ¿En qué momento van la piñata, los villancicos y los turnos?
 
@@ -178,6 +187,28 @@ No ofrecemos seguro de responsabilidad civil; por eso insistimos en la supervisi
 
 > **Posada de empresa o escuela.** Mándanos número aproximado de niños, rango de edades y si necesitas factura; te armamos la cotización con uno o dos inflables. [Pide la cotización de tu posada](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20inflables%20para%20la%20posada%20de%20mi%20empresa%20o%20escuela)
 
+## ¿Cuánto tiempo conviene tener el inflable en una posada?
+
+Depende de cuánto dure tu programa, no de cuánto quieras que brinquen. Una posada típica junta llegada, procesión, villancicos, piñata y cena; el inflable sólo se usa en los tramos de turnos, así que no necesitas tenerlo abierto todo el tiempo, pero sí instalado desde antes de que lleguen los niños. La instalación toma de 15 a 30 minutos según el modelo; cuenta eso al pedir la hora de llegada.
+
+Al cotizar, dinos a qué hora empieza la posada y a qué hora calculas que se van las familias, y acordamos la recolección. Si quieres armar el horario con más detalle, revisa [cuántas horas conviene rentar el inflable](/blog/horario-fiesta-infantil-cuantas-horas-inflable/).
+
+## Posadas de cuadra, de privada y de fraccionamiento
+
+En diciembre el mismo inflable puede ir a la calle cerrada de una colonia de la capital o al área común de un fraccionamiento del Estado de México. Lo que cambia es quién autoriza y cómo se llega.
+
+### Si la posada es en el norte o el oriente
+
+En Gustavo A. Madero, en colonias como Lindavista, Aragón o La Villa, muchas posadas son de calle cerrada o de unidad habitacional. Ojo con las fechas: alrededor del 12 de diciembre la zona de la Basílica tiene mucho movimiento de peregrinos, así que si tu posada cae cerca de esos días, avisa para planear el acceso. Revisa la cobertura de [inflables a domicilio en Gustavo A. Madero](/cobertura/gustavo-a-madero/).
+
+Al sur oriente, en Tláhuac Centro, La Nopalera o Zapotitla, el envío va de $100 a $200 y abundan los patios amplios y las calles de vecinos que se organizan para la posada; los detalles están en la página de [entregas en Tláhuac](/cobertura/tlahuac/).
+
+### Si es en un fraccionamiento del Edomex
+
+En Tecámac, en conjuntos como Ciudad Real, Real del Sol o Los Héroes, la posada suele ser en el área común o la calle privada del conjunto: la autorización la da la administración, no la alcaldía, y hay que registrar a los proveedores en caseta. El envío va de $250 a $400; consulta la página de [renta de inflables en Tecámac](/cobertura/tecamac/).
+
+En Nicolás Romero varias colonias tienen calles con pendiente, así que busca el tramo más plano antes de proponer el lugar. El envío también va de $250 a $400, con detalle en la cobertura de [inflables para posadas en Nicolás Romero](/cobertura/nicolas-romero/).
+
 ## ¿Qué revisas una semana antes de la posada?
 
 Revisa fecha apartada, espacio medido, corriente, luz y adultos asignados: con eso cubres casi todo lo que puede fallar. Imprime esta lista o pásala al grupo de la familia:
@@ -201,4 +232,4 @@ Diciembre se llena y la disponibilidad se confirma por WhatsApp. Si ya tienes la
 - **El tipo de espacio**: patio, salón, calle cerrada o terraza techada, con medidas.
 - **Las edades y la cantidad aproximada de niños.**
 
-La fecha se aparta con el 50% de anticipo. El precio es por evento y neto; si requieres factura se agrega 16% de IVA. Instalación y recolección incluidas; el traslado se cobra según zona. Consulta las [fotos y datos del Gusanitos](/inflables/gusanitos/), compara los [precios por evento de cada inflable](/precios/), llena la [cotización en línea de tu posada](/cotizar/) o [aparta tu noche por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20un%20inflable%20para%20mi%20posada%20navidena).
+La fecha se aparta con el 50% de anticipo. El precio es por evento y neto; si requieres factura se agrega 16% de IVA. Instalación y recolección incluidas; el traslado se cobra según zona. Consulta las fotos y datos del Gusanitos, compara los [precios por evento de cada inflable](/precios/), llena la [cotización en línea de tu posada](/cotizar/) o [aparta tu noche por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20un%20inflable%20para%20mi%20posada%20navidena).

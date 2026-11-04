@@ -4,10 +4,10 @@ h1: "Family day de empresa: cómo montar el área infantil con inflables para lo
 description: "Family day empresa: arma el área infantil con inflables para hijos de 1 a 12 años, con supervisión, horario y factura con IVA. Cotiza por WhatsApp."
 excerpt: "Para quien organiza desde RH: qué inflables cubren de 1 a 12 años, cómo se reparten los supervisores y qué cerrar con el venue para que las familias se queden todo el día."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Extremo"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "16 min"
 heroImage: "/img/inflables/extremo/extremo-lateral-evento.avif"
 heroImageAlt: "Circuito Extremo armado frente a una barda de block, con túneles, obstáculos y arcos morados sobre pasto"
 galleryImages:
@@ -43,7 +43,7 @@ Un family day empresa funciona cuando los hijos de los colaboradores tienen un e
 
 Te dejamos el orden de decisiones: qué datos pedir, qué inflables cubren de 1 a 12 años, cómo se arma el horario, quién supervisa, qué cerrar con el venue y cómo se factura.
 
-> **Respuesta rápida:** En un family day empresa, el área infantil se cubre con dos inflables: el [Extremo para niños de 3 a 12 años](/inflables/extremo/), a $2,500 neto, y el Castillo Baby para los de 1 a 3, a $1,400. Son sólo para niños; la empresa asigna a los supervisores adultos y, si necesitas factura, se agrega 16% de IVA.
+> **Respuesta rápida:** En un family day empresa, el área infantil se cubre con dos inflables: el Extremo para niños de 3 a 12 años, a $2,500 neto, y el Castillo Baby para los de 1 a 3, a $1,400. Son sólo para niños; la empresa asigna a los supervisores adultos y, si necesitas factura, se agrega 16% de IVA.
 
 ## ¿Qué datos necesitas antes de pedir la cotización del área infantil?
 
@@ -163,7 +163,7 @@ Tienes que cerrar el acceso del vehículo, el horario de montaje, la corriente, 
 
 Si el área es de concreto, lo que cambia (lastre, lona, pendiente) lo tienes en la guía para [instalar el circuito en explanada o estacionamiento](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/). ¿Y dónde va el área? Cerca de las mesas de las familias, lejos de las bocinas y de la zona de comida, con sombra para la fila y agua a la mano.
 
-Para la logística del evento completo, con tiempos y flujo de personas, la guía de [tiempos y logística para un team building de RH](/blog/inflables-para-adultos-eventos-corporativos/) complementa este plan.
+Para la logística del evento completo, con tiempos y flujo de personas, la guía para team building de RH que enlazamos arriba complementa este plan.
 
 ## ¿Cómo funciona la cotización empresarial y la factura con IVA?
 
@@ -181,13 +181,41 @@ Un torneo por edades o una temática sencilla convierten los inflables en un pro
 
 ### Torneo por categorías
 
-Categorías por edad, llaves de dos en dos y premiación antes del cierre. Los formatos y el control de fila están en la guía para [armar un torneo con niños en la pista inflable](/inflables/extremo/). Si muchos invitados rondan los 10 años, los [retos por equipos de una fiesta de 10 años](/blog/fiesta-de-10-anos-ideas-actividades/) se trasladan casi tal cual.
+Categorías por edad, llaves de dos en dos y premiación antes del cierre. El control de fila lo llevan los mismos roles de salida, fila y llegada que repasamos en la sección de supervisión. Si muchos invitados rondan los 10 años, los [retos por equipos de una fiesta de 10 años](/blog/fiesta-de-10-anos-ideas-actividades/) se trasladan casi tal cual.
 
 ![Circuito Extremo en un jardín con palmeras: túneles, pista larga y tobogán azul con amarillo](/img/inflables/extremo/extremo-tobogan-doble.avif)
 
 ### Una historia para los más chicos
 
 La [temática ninja con cintas por nivel](/blog/fiesta-ninja-con-circuito-de-obstaculos/) se adapta bien a un área infantil grande: los niños presumen sus cintas a sus papás toda la tarde. ¿Hay hermanos de edades muy separadas? La lógica de combinar modelos es la misma que en una [fiesta de gemelos con dos inflables](/blog/fiesta-de-gemelos-o-hermanos-con-inflable/).
+
+## ¿Cuántas horas de inflable necesita un family day?
+
+Las mismas que dure la convivencia, más el montaje antes de que lleguen las familias. Un family day suele ser más largo que una fiesta de cumpleaños, así que conviene calcular al revés: hora de llegada de las primeras familias, menos el tiempo de instalación (15 minutos el Castillo Baby, 30 el Extremo), menos un margen para imprevistos en la entrada del venue. Ese resultado es la hora a la que debe estar libre el área.
+
+La recolección también se agenda. Si el evento cierra con premiación, deja que termine antes de que llegue la unidad, para que los niños no vean desinflarse el circuito a media competencia. Para hacer las cuentas con calma, la guía sobre [cuántas horas dura la renta y cómo organizar el horario](/blog/horario-fiesta-infantil-cuantas-horas-inflable/) trae ejemplos por tipo de evento.
+
+### Plan B por clima
+
+En el Valle de México llueve sobre todo de junio a septiembre, casi siempre por la tarde. Si tu family day cae en esa temporada, pide al venue un área techada de respaldo y confirma con nosotros qué modelo cabe ahí (el Extremo no entra bajo techo). Si cae en diciembre o enero, el problema es el frío de la mañana: abre el área infantil cuando ya pegó el sol y avisa en la invitación que traigan chamarra para los ratos fuera del inflable. Hay más ideas para esa temporada en la guía de [fiestas al aire libre en invierno](/blog/fiesta-infantil-en-invierno-al-aire-libre-cdmx/).
+
+## Family day en corporativos del poniente y el norte
+
+Muchas empresas tienen oficinas en Santa Fe, Polanco o los corredores industriales del norte, pero el family day se hace en otro lugar: un club deportivo, un jardín de eventos o las instalaciones de la propia planta. Lo que importa para el inflable es la dirección del venue, no la de la oficina.
+
+- **Si el comité busca venue cerca de Santa Fe**, revisa lo que aplica para [eventos en Cuajimalpa](/cobertura/cuajimalpa/). Hay jardines y clubes con pasto amplio; confirma que el vehículo llegue hasta el área y que haya contacto de corriente cerca.
+- **Si el evento será en la zona de Polanco, Granada o Anzures**, la página de [cobertura en Miguel Hidalgo](/cobertura/miguel-hidalgo/) te sirve de referencia. Ahí abundan las terrazas y los espacios con techo: mide la altura libre antes de elegir entre el Extremo y Gusanitos.
+- **Si es en una planta o un parque industrial de Tlalnepantla**, la explanada o el estacionamiento suelen ser la opción. El envío a [Tlalnepantla de Baz](/cobertura/tlalnepantla/) va de $150 a $250 según la colonia; en concreto, sigue la guía de instalación en explanada que mencionamos arriba.
+
+En Polanco la entrega no tiene costo adicional; en el resto de Miguel Hidalgo y en Cuajimalpa el traslado se confirma según la zona exacta del venue, así que mándanos la dirección completa desde el primer mensaje.
+
+### Qué preguntar al cotizar si el evento es corporativo
+
+- ¿A qué hora llega la unidad y cuánto tarda en quedar listo cada inflable?
+- ¿Qué datos fiscales necesitan para facturar con IVA?
+- ¿Qué pasa con el anticipo si el venue cambia la fecha o llueve?
+- ¿Qué altura libre y qué distancia al contacto necesita cada modelo?
+- ¿Pueden instalar antes de que abra el acceso a las familias?
 
 ## ¿Qué errores arruinan el área infantil de un evento corporativo?
 
@@ -212,6 +240,6 @@ Para que la propuesta salga completa, mándanos:
 - El tipo de espacio: exterior o techado, pasto o concreto, y la altura libre.
 - Si necesitas factura, para considerar el 16% de IVA desde el inicio.
 
-La fecha se aparta con 50% de anticipo. Los precios son netos por evento, con instalación y recolección incluidas; con factura se agrega 16% de IVA, y el traslado se cobra según zona, con entrega sin costo adicional sólo en zonas seleccionadas de la [cobertura por alcaldía y municipio](/cobertura/). Revisa también la [disponibilidad del Extremo para tu evento](/inflables/extremo/).
+La fecha se aparta con 50% de anticipo. Los precios son netos por evento, con instalación y recolección incluidas; con factura se agrega 16% de IVA, y el traslado se cobra según zona, con entrega sin costo adicional sólo en zonas seleccionadas de la [cobertura por alcaldía y municipio](/cobertura/). Revisa también la disponibilidad del Extremo para tu fecha.
 
 Envía tu [cotización en línea para el family day](/cotizar/) o [escríbenos por WhatsApp con los datos del evento](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Extremo%20y%20el%20Castillo%20Baby%20para%20un%20family%20day).

@@ -4,10 +4,10 @@ h1: "¿Cuánto cuesta una fiesta de princesas en casa? Presupuesto por partidas,
 description: "Cuánto cuesta una fiesta de princesas en casa en CDMX: 8 partidas, precios netos del castillo y la mesa infantil, y dónde ahorrar sin que se note. Compara."
 excerpt: "El castillo y la mesa infantil tienen precio fijo; lo demás lo decides tú. Arma el presupuesto partida por partida y elige dónde recortar sin que se note."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "15 min"
 heroImage: "/img/inflables/castillo-princesas/mini-princess-renta-cdmx.avif"
 heroImageAlt: "Castillo inflable rosa y azul con torres de punta, de frente en un jardín rodeado de árboles"
 galleryImages:
@@ -49,7 +49,7 @@ El castillo es la partida grande. Es rosa, con torres decorativas, resbaladilla 
 
 Lo variable depende de ti. Totalmente. Decoración, comida, pastel, recuerditos e invitaciones cambian según el proveedor, la cantidad y cuánto hagas tú. Por eso aquí aparecen como partidas a cotizar. Sin cifras inventadas.
 
-Hacerla en casa te ahorra la renta del salón, que es una partida completa menos, y además te deja manejar tus horarios sin depender de que otra fiesta desocupe el lugar antes de la tuya. ¿Aun así te inclinas por un salón? Revisa antes [qué preguntarle al salón sobre el inflable](/blog/inflable-en-salon-de-fiestas-que-preguntar/), porque el castillo necesita un área descubierta con 4.2 m de altura libre.
+Hacerla en casa te ahorra la renta del salón, que es una partida completa menos (si todavía lo estás decidiendo, compara [salón de fiestas contra fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/)), y además te deja manejar tus horarios sin depender de que otra fiesta desocupe el lugar antes de la tuya. ¿Aun así te inclinas por un salón? Revisa antes [qué preguntarle al salón sobre el inflable](/blog/inflable-en-salon-de-fiestas-que-preguntar/), porque el castillo necesita un área descubierta con 4.2 m de altura libre.
 
 ## ¿Qué partidas lleva el presupuesto y cuáles tienen precio fijo?
 
@@ -135,7 +135,7 @@ Esta tabla compara las combinaciones posibles con precios netos de catálogo. Lo
 
 ¿Tu festejada no pasa de 3 años y casi todos los invitados son bebés? El [castillo compacto para bebés](/inflables/mini-castillo/) cuesta **$1,400** por separado y se instala en interiores. Los [paquetes armados con inflable y mesa](/servicios/paquetes-de-fiesta/) te muestran qué incluye cada uno.
 
-¿Dudas entre el castillo y el modelo del paquete fiesta? Lee [Princesas o Dragones: cómo decidir entre los dos](/inflables/castillo-princesas/). Y para ver los tres castillos con sus precios, la [comparativa de castillos con precios y medidas](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) los pone lado a lado.
+¿Dudas entre el castillo y el modelo del paquete fiesta? Revisa la [ficha de Dragones Rojos con medidas y edades](/inflables/dragones-rojos/): mide 5 × 3 × 2.80 m, es para niños de 3 a 8 años y cuesta $1,600 por separado. Y para ver los tres castillos con sus precios, la [comparativa de castillos con precios y medidas](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) los pone lado a lado.
 
 ![Castillo inflable rosa y turquesa de dos torres, de frente, con rampa de acceso sobre pasto](/img/inflables/castillo-princesas/castillo-princesas-exterior-jardin.avif)
 
@@ -193,6 +193,43 @@ Casi todos se resuelven con una lista y una cinta métrica, y ninguno requiere g
 - **Comprar comida para un ejército.** Con inflable, los niños comen poco; calcula por adultos.
 - **Apartar sin leer las condiciones.** Antes de dejar el anticipo, revisa la [política de cambios y cancelación](/politica-de-cancelacion/), sobre todo en temporada de lluvias.
 
+## Ejemplo con traslado: Nezahualcóyotl, Ecatepec y Chalco
+
+El traslado es la partida que más cambia de una colonia a otra, así que conviene verla con números. Tomamos tres municipios del oriente del Valle de México con cargo de envío publicado y sumamos las dos cifras firmes: castillo ($1,800) más mesa infantil con inflable ($550), es decir, **$2,350 netos** antes de traslado.
+
+| Municipio | Traslado publicado | Castillo + mesa + traslado (neto) |
+|---|---|---|
+| Nezahualcóyotl | $200–$300 | $2,550–$2,650 |
+| Ecatepec | $200–$350 | $2,550–$2,700 |
+| Chalco | $250–$400 | $2,600–$2,750 |
+
+El rango final depende de la colonia y se confirma al cotizar. Si necesitas factura, el 16% de IVA se calcula sobre ese total neto.
+
+### Lo que cambia según el tipo de casa
+
+- **Casa con patio en Neza.** Muchos patios son de cemento y angostos. Mide el largo libre con cinta métrica: el castillo ocupa 5 × 3.30 m y pide 4.2 m de altura libre, sin cables ni lonas encima. Si tu familia vive en Nezahualcóyotl, en [la cobertura de Neza](/cobertura/nezahualcoyotl/) ves colonias y condiciones de entrega.
+- **Unidad habitacional o fraccionamiento en Ecatepec.** Si la fiesta va en el área común, pide permiso a la administración antes de apartar y pregunta dónde está la toma de corriente más cercana. Las colonias y el cargo de envío están en [entregas en Ecatepec](/cobertura/ecatepec/).
+- **Terreno o casa amplia en Chalco.** Suele sobrar espacio, pero el piso de tierra suelta o con piedras se limpia y nivela antes. Revisa [qué cubrimos en Chalco](/cobertura/chalco/) y manda una foto del lugar con tu solicitud.
+
+### Cómo cuadrar el presupuesto si vives lejos
+
+Cuando el traslado sube, recorta en las partidas variables, no en el modelo. Tres ideas que funcionan:
+
+1. **Junta mesa e inflable en la misma cotización.** El traslado se cobra una vez y la mesa baja de $1,600 a $550.
+2. **Pide la cotización con dirección completa desde el primer mensaje.** Así recibes un rango cerrado y no un "depende".
+3. **Aparta con tiempo.** En temporada alta las fechas de fin de semana se van primero; la guía sobre [con cuánta anticipación reservar el inflable](/blog/cuando-reservar-inflable-temporadas-cdmx/) te dice qué meses se llenan.
+
+Si el total todavía no cuadra, en [cómo hacer una fiesta infantil con poco presupuesto](/blog/fiesta-infantil-con-poco-presupuesto-cdmx/) hay más ideas para bajar costos en comida, decoración y recuerditos sin quitarle el inflable a la festejada.
+
+### Qué preguntar antes de dejar el anticipo
+
+- ¿El precio que me das ya incluye traslado a mi colonia?
+- ¿A qué hora llegan a instalar y a qué hora recogen?
+- ¿Qué pasa si llueve el día de la fiesta?
+- ¿El total es neto o ya trae IVA?
+
+Con esas cuatro respuestas por escrito en WhatsApp, tu hoja de presupuesto queda cerrada.
+
 ## Cierra tu presupuesto con el castillo apartado
 
 Con la tabla llena y la fecha definida, apartar el castillo es lo que convierte tu presupuesto en plan. Los sábados y domingos se llenan primero. Para que te respondamos con el total exacto, mándanos:
@@ -205,4 +242,4 @@ Con la tabla llena y la fecha definida, apartar el castillo es lo que convierte 
 
 La fecha se aparta con 50% de anticipo. El precio es por evento y neto; si necesitas factura se agrega 16% de IVA. La instalación y la recolección están incluidas y el traslado se cobra según zona. Atendemos de lunes a domingo de 8:00 a 20:00.
 
-Si quieres comparar antes, revisa la [tabla con los precios netos del catálogo](/precios/). Cuando tengas tus datos, haz tu [cotización en línea con castillo y mesa](/cotizar/) o [pide el total por WhatsApp al 55 3128 1706](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20una%20fiesta%20de%20princesas%20en%20casa%20con%20castillo%20y%20mesa) y aparta tu fecha hoy.
+Cuando tengas tus datos, haz tu [cotización en línea con castillo y mesa](/cotizar/) o [pide el total por WhatsApp al 55 3128 1706](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20una%20fiesta%20de%20princesas%20en%20casa%20con%20castillo%20y%20mesa) y aparta tu fecha hoy.

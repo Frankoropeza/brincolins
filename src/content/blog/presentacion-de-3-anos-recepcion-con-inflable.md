@@ -4,10 +4,10 @@ h1: "Presentación de 3 años con inflable: Castillo Blanco, Castillo Baby o los
 description: "Presentación de 3 años con inflable en CDMX: cuándo basta el Castillo Blanco, cuándo sumar el Castillo Baby y cómo decorar en blanco y dorado. Cotiza hoy."
 excerpt: "Tu festejado cumple 3, sus primos van de bebés a niños de primaria y la recepción es en casa. Así eliges uno o dos castillos sin que nadie brinque con quien no debe."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Castillo Blanco"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "19 min"
 heroImage: "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-decoracion.avif"
 heroImageAlt: "Castillo inflable blanco montado en un jardín, con cortinas blancas colgadas y árboles detrás"
 galleryImages:
@@ -89,7 +89,7 @@ Esta tabla cruza tu lista con el modelo que conviene. La conclusión práctica: 
 | Pocos niños, casi todos bebés, en departamento | Castillo Baby o paquete fiesta bebés | El Castillo Blanco es sólo para exterior |
 | Jardín amplio y niños de 4 a 12 años | Castillo Blanco | Aprovecha el espacio y recibe a los más grandes |
 
-¿Cuántos niños brincan por turno? ¿Cuánto espacio libre necesita cada castillo? Te lo confirmamos al cotizar, con las medidas reales de tu jardín o terraza. Si quieres ver otras formas y tamaños, revisa [la categoría de castillos inflables](/inflables/castillos/).
+¿Cuántos niños brincan por turno? ¿Cuánto espacio libre necesita cada castillo? Te lo confirmamos al cotizar, con las medidas reales de tu jardín o terraza. Si quieres ver otras formas y tamaños, revisa la categoría de castillos inflables.
 
 > **¿Uno o dos castillos?** Mándanos cuántos niños de cada edad vienen y la medida de tu jardín; te decimos qué combinación cabe y si está libre tu fecha. [Preguntar por la presentacion de 3 anos](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20inflables%20para%20una%20presentacion%20de%203%20anos)
 
@@ -109,7 +109,7 @@ El Castillo Baby va más cerca de las mesas. Los papás de los bebés quieren te
 
 Si vienen varios niños de 1 a 6 años, una [mesa infantil con sillitas para los más chicos](/servicios/mobiliario-para-fiestas/) les da su lugar para comer y pintar. La mesa con 10 sillas mide 1.8 × 0.5 m y cuesta $550 en conjunto con un inflable. ¿Recepción pequeña con pocos bebés? El [paquete para la zona de bebés de la presentación](/servicios/paquetes-de-fiesta/) de $2,100 trae el Castillo Baby, una mesa con 4 sillitas y una pintacaritas para 4 niños.
 
-¿Y cómo se organiza una fiesta pensada para bebés? Ese tema lo desarrollamos en la guía de la [fiesta del primer año con Castillo Baby](/inflables/mini-castillo/). Te sirve casi completa para la zona de los pequeños.
+¿Y cómo se organiza una fiesta pensada para bebés? Ese tema lo desarrollamos en la guía de la [fiesta del primer año con inflable](/blog/fiesta-primer-cumpleanos-con-inflable/). Te sirve casi completa para la zona de los pequeños.
 
 ## ¿Cabe un Castillo Blanco si la recepción es en patio o cochera?
 
@@ -139,7 +139,7 @@ Los globos blancos, dorados y transparentes con confeti dorado combinan sin comp
 
 Mantén la mesa de dulces en la misma paleta, con detalles dorados y un letrero con el nombre de tu hijo. Ubícala lejos del inflable. ¿Por qué? Los niños salen de brincar directo a los dulces, y si la mesa está junto al castillo, la zona se vuelve embudo.
 
-Para más combinaciones, revisa las [paletas para decorar en blanco alrededor del castillo](/blog/fiesta-infantil-all-white-boho-decoracion/), con dorado, verde olivo, pastel y terracota. Y si quieres ver cómo se integra un castillo blanco en un evento más grande, la [integración visual de la zona infantil en bodas](/inflables/castillo-blanco/) aplica igual.
+Para más combinaciones, revisa las [paletas para decorar en blanco alrededor del castillo](/blog/fiesta-infantil-all-white-boho-decoracion/), con dorado, verde olivo, pastel y terracota. Y si quieres ver cómo se integra un castillo blanco en un evento más grande, la integración visual de la zona infantil en bodas aplica igual.
 
 ## ¿Qué orden del día funciona después de la misa de presentación?
 
@@ -168,6 +168,27 @@ Casi todos se resuelven con una lista y un adulto por zona. Ninguno depende del 
 
 La lógica de dos zonas se repite en otras fiestas del año. La explicamos para la [zona infantil para una primera comunión](/blog/primera-comunion-con-inflable-cdmx/), donde los niños son más grandes, y para un [baby shower con área infantil para los invitados](/blog/baby-shower-con-inflable-para-ninos-invitados/). Si después viene un festejo escolar, la guía de [graduación de kínder o primaria con inflable](/blog/graduacion-kinder-primaria-con-inflable/) resuelve el caso del grupo completo.
 
+## ¿Y si llueve el día de la presentación?
+
+Si la presentación cae entre junio y septiembre, la temporada de lluvias del Valle de México, ten un plan antes de apartar. El problema no es la misa, que suele ser de mañana o mediodía, sino la recepción: las lluvias suelen llegar por la tarde, justo cuando los niños están en el jardín.
+
+- **El Castillo Blanco va sólo en exterior.** Si llueve, se pausa: los niños salen, se espera a que pare y se seca la lona antes de reabrir. No hay forma de meterlo bajo un toldo.
+- **El Castillo Baby sí tiene plan B.** Con 3.2 m de altura libre puede pasar a una terraza techada, un garage o la sala. Decide desde antes cuál sería ese lugar y que esté despejado.
+- **Adelanta la apertura.** Si el cielo se ve cargado, abre los castillos en cuanto regresen de misa y deja la comida para después; así los niños brincan antes de que llueva.
+- **Avísanos si cambia algo.** Si el pronóstico es muy malo y quieres cambiar el plan, escríbenos con tiempo; las condiciones están en la política de cancelación.
+
+Para revisar con calma qué espacio techado te sirve, consulta la guía de [inflable bajo techo en temporada de lluvias](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/).
+
+## ¿Y si la recepción es en casa de los abuelos, en otro municipio?
+
+Pasa seguido: la misa es en la parroquia de la familia y la recepción, en la casa grande de los abuelos, a media hora o más. En ese caso, alguien tiene que estar en la casa de la recepción mientras ustedes están en misa, para recibirnos, abrir el acceso y mostrar la toma de corriente. Dale a esa persona la medida del jardín, el lugar donde va cada castillo y tu teléfono.
+
+### Recepciones en el oriente del Estado de México
+
+Muchas familias del oriente hacen la recepción en casa propia o de los abuelos, y ahí cada municipio tiene su escenario típico. En Nezahualcóyotl abundan los lotes con patio de cemento y frentes angostos: mide bien antes de pedir el Castillo Blanco, porque su planta de 5 × 7 m no cabe en cualquier patio, y considera el Castillo Baby como zona principal. El envío va de $200 a $300; revisa la página de [inflables a domicilio en Nezahualcóyotl](/cobertura/nezahualcoyotl/).
+
+En Chalco, en zonas como Chalco Centro o San Gregorio, y en Texcoco, en el centro o en pueblos como Coatlinchán, es más común encontrar terrenos y jardines amplios donde caben los dos castillos con buena separación. En ambos el envío va de $250 a $400; consulta los detalles de [entregas en Chalco](/cobertura/chalco/) y de [renta de castillos inflables en Texcoco](/cobertura/texcoco/). Si el terreno es de tierra, pide que lo nivelen y quiten piedras un día antes.
+
 ## ¿Cuánto cuesta cada combinación para la presentación?
 
 Desde $1,400 con sólo el Castillo Baby hasta la suma de los dos castillos, más lo que agregues de mobiliario. Son precios netos por evento, con instalación y recolección incluidas. Así puedes armar la combinación que tu lista necesita sin sorpresas.
@@ -193,6 +214,6 @@ La fecha de la misa ya está fijada y los fines de semana se llenan. Si ya sabes
 - **Cuántos niños vienen de cada grupo**, de 1 a 3 años y de 3 a 12.
 - **Medidas o foto del jardín**, y si hay techo, toldo o árboles.
 
-La fecha se aparta con 50% de anticipo. Los precios son netos y por evento; si necesitas factura se agrega 16% de IVA, y el traslado depende de la zona según el [mapa de cobertura en CDMX y Edomex](/cobertura/). Puedes comparar los [precios de los ocho inflables del catálogo](/precios/) o revisar la [disponibilidad del Castillo Blanco para tu fecha](/inflables/castillo-blanco/).
+La fecha se aparta con 50% de anticipo. Los precios son netos y por evento; si necesitas factura se agrega 16% de IVA, y el traslado depende de la zona según el [mapa de cobertura en CDMX y Edomex](/cobertura/). Puedes comparar los [precios de los ocho inflables del catálogo](/precios/) o revisar la disponibilidad del Castillo Blanco para tu fecha.
 
 Llena el [formulario de cotización en línea](/cotizar/) o escríbenos directo: [Cotizar dos castillos para la presentacion](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20dos%20castillos%20para%20la%20presentacion%20de%203%20anos%20de%20mi%20hijo).

@@ -4,10 +4,10 @@ h1: "Castillos inflables en renta: Castillo de Princesas, Castillo Blanco y Cast
 description: "Castillos inflables en CDMX comparados: medidas, edades, altura libre y precio del Castillo de Princesas, el Blanco y el Baby. Elige el tuyo y cotiza hoy."
 excerpt: "Tres castillos, tres fiestas distintas. Compara medidas, edades, altura libre y precio, y en cinco minutos sabrás cuál encaja con tu evento y tu espacio."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "18 min"
 heroImage: "/img/inflables/castillo-princesas.avif"
 heroImageAlt: "Castillo de Princesas rosa y azul turquesa con torres puntiagudas y resbaladilla rosa en jardín con pasto"
 galleryImages:
@@ -48,7 +48,7 @@ El servicio. Y nada más. Los tres se rentan por evento, con instalación y reco
 
 Cambian el tamaño, la altura libre que piden, si entran en interiores, el rango de edad y el precio. También cambia la fiesta para la que están pensados. El de Princesas, para cumpleaños de cuento. El Blanco, para eventos formales. El Baby, para bebés y espacios reducidos.
 
-¿Quieres verlos antes de leer la comparación? Tienes todas las fotos en la [categoría de castillos para renta](/inflables/castillos/). Y si ya te late el rosa, revisa la [ficha técnica del castillo rosa](/inflables/castillo-princesas/) con medidas y disponibilidad.
+¿Quieres verlos antes de leer la comparación? Tienes todas las fotos en la [categoría de castillos para renta](/inflables/castillos/). Y si ya te late el rosa, abajo tienes sus medidas y en qué fiestas funciona mejor.
 
 ## ¿Cómo se comparan los castillos inflables en medidas, edades y precio?
 
@@ -119,7 +119,7 @@ En un cumpleaños de niños pequeños siempre llegan primos mayores. En uno de p
 
 El rosa sostiene princesas, unicornios, hadas y mariposas. Te lo explicamos en las [cuatro temáticas que combinan con el castillo rosa](/blog/fiesta-de-unicornios-y-hadas-con-inflable/), con paleta y actividades. Y el [comparativo de inflables temáticos para niñas](/blog/fiesta-princesas-ninas-inflable-cdmx/) lo pone junto a otros modelos con diseño.
 
-¿Vas a planear todo el cumpleaños alrededor del castillo? La guía de [castillo inflable para un cumpleaños infantil en CDMX](/inflables/castillos/) cubre espacio, tiempos y actividades. Y si tu duda no es entre castillos sino contra el modelo rojo, lee [Castillo de Princesas contra Dragones Rojos, punto por punto](/inflables/castillo-princesas/).
+¿Vas a planear todo el cumpleaños alrededor del castillo? Si tu festejada cumple 7, la guía de [ideas para una fiesta de 7 años con castillo](/blog/fiesta-de-7-anos-nina-ideas-castillo/) cubre espacio, tiempos y actividades. Y si tu duda no es entre castillos sino contra un modelo de $1,600, lee la [comparativa de Dragones Rojos, Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/).
 
 ![Entrada rosa y turquesa de castillo inflable con rampa azul, montado en terraza de madera con macetas](/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif)
 
@@ -131,7 +131,7 @@ Para bodas, bautizos, XV años y eventos formales donde la decoración no admite
 
 En una boda o unos XV años, los niños necesitan un lugar propio para no aburrirse durante la cena o el baile, y tú necesitas que no anden entre las mesas. El [Castillo Blanco de 5 × 7 m](/inflables/castillo-blanco/) mide **5 × 7 × 4 m** y pide **4.7 m de altura libre**. Va sólo en exterior. Lo instalamos en unos 30 minutos y cuesta **$2,600** netos por evento.
 
-¿Dónde ponerlo junto a la pista o las mesas? La guía de [zona infantil con castillo blanco en una boda](/inflables/castillo-blanco/) te lo explica paso a paso.
+¿Dónde ponerlo junto a la pista o las mesas? A la vista de las mesas de los papás, lejos de las bocinas y del paso de meseros, con la toma de corriente cerca y sin cables cruzando por donde caminan los invitados.
 
 ### Bautizos en jardín
 
@@ -155,7 +155,27 @@ Tienes el paquete fiesta bebés en **$2,100**: Castillo Baby, mesa con 4 sillita
 
 ### Departamentos y salones techados
 
-Se instala en unos 15 minutos. Sólo necesitas una toma de 110 V a menos de 20 m y una superficie plana y despejada. Es la respuesta si tienes departamento, salón techado o terraza cubierta. Las fotos y medidas están en la [ficha del castillo compacto para interiores](/inflables/mini-castillo/).
+Se instala en unos 15 minutos. Sólo necesitas una toma de 110 V a menos de 20 m y una superficie plana y despejada. Es la respuesta si tienes departamento, salón techado o terraza cubierta. Antes de reservarlo, mide la altura hasta la lámpara o viga más baja, no hasta la losa.
+
+## ¿Qué castillo suele funcionar según dónde vives?
+
+El tipo de vivienda cambia más la elección que la decoración. No hay una regla por alcaldía, pero sí patrones que se repiten:
+
+| Tipo de lugar | Dónde es común | Castillo que suele encajar | Qué medir antes |
+|---|---|---|---|
+| Departamento, salón de usos múltiples o terraza techada | Narvarte, Del Valle, Portales, Nápoles | Castillo Baby | Altura al punto más bajo (3.2 m) y ruta de elevador |
+| Patio o jardín de casa | Colonias de casas en el centro y sur de la ciudad | Castillo de Princesas | 4.2 m libres sin ramas ni cables |
+| Jardín de eventos o quinta | Metepec, Toluca y municipios del Valle de Toluca | Castillo Blanco | 4.7 m libres, permiso de proveedores externos y acceso del vehículo |
+
+### Benito Juárez: espacios cerrados y edificios
+
+En Benito Juárez abundan los edificios con salón o roof garden, así que el Castillo Baby es el que más veces pasa el filtro de altura. Si el festejo es en una casa con patio en Del Valle o Narvarte, el de Princesas puede caber; mándanos fotos del patio y de la entrada. Narvarte no tiene cargo de traslado y el resto de las colonias se confirma al cotizar; los detalles están en la [página de cobertura de Benito Juárez](/cobertura/benito-juarez/).
+
+### Metepec y Toluca: jardines amplios y tardes frías
+
+En el Valle de Toluca son comunes los jardines de eventos y las casas con jardín amplio, terreno natural para el Castillo Blanco en bodas, bautizos y XV años. El clima pesa: por la altitud, las tardes refrescan antes que en la Ciudad de México, sobre todo de diciembre a febrero. Conviene programar el inflable a mediodía y tener chamarras a la mano; la [guía para fiestas infantiles al aire libre en temporada de frío](/blog/fiesta-infantil-en-invierno-al-aire-libre-cdmx/) da ideas de horario y ropa.
+
+El traslado a esta zona va de $400 a $600 según la ubicación. Revisa la [cobertura de inflables para eventos en Metepec](/cobertura/metepec/) y la [información de traslado a Toluca](/cobertura/toluca/) antes de cerrar con el jardín, y pregunta al lugar si acepta proveedores externos.
 
 ## ¿Qué decide primero: la edad, el lugar o el estilo de la fiesta?
 
@@ -189,6 +209,16 @@ Elegir por el nombre o por la foto en lugar de por los datos. Todos los errores 
 - **No medir la altura libre.** Una lona, una rama o un cable por debajo de 4.2 m o 4.7 m deja fuera al castillo elegido.
 - **Pensar que el Castillo Blanco es para los novios.** Es para niños de 3 a 12 años; los adultos supervisan desde fuera.
 - **Mezclar bebés y niños de primaria en el mismo castillo.** Si las edades se separan tanto, renta dos castillos o haz turnos estrictos.
+
+## ¿Qué preguntar al cotizar un castillo?
+
+Además de los datos de tu evento, estas preguntas evitan sorpresas:
+
+1. **¿Cuál es el total con traslado a mi colonia?** El precio del castillo es fijo; el traslado cambia por zona.
+2. **¿A qué hora llegan a instalar?** El Baby se instala en unos 15 minutos, el de Princesas en 20 y el Blanco en 30; deja margen antes de que lleguen los invitados.
+3. **¿Cuántos niños pueden entrar por turno con las edades de mi lista?** Se confirma al cotizar según modelo y edades.
+4. **¿Qué pasa si llueve?** Ningún inflable se usa mojado; si llueve durante el evento, el equipo se apaga hasta que pase. Pregunta la política de reprogramación antes de apartar, sobre todo de junio a septiembre.
+5. **¿Con cuánta anticipación debo reservar?** Para bodas y fines de semana de temporada alta conviene apartar antes; la [guía de cuándo reservar según la temporada](/blog/cuando-reservar-inflable-temporadas-cdmx/) te da referencias.
 
 ## Elige tu castillo y aparta la fecha
 

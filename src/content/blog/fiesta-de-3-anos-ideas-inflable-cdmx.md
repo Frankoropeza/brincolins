@@ -4,10 +4,10 @@ h1: "Fiesta de 3 años con inflable: cronograma, juegos sencillos y el castillo 
 description: "Fiesta de 3 años en CDMX sin berrinches: horario, juegos sencillos, cronograma y qué castillo inflable rentar para el festejado y sus primos. Cotiza hoy."
 excerpt: "A los 3 años la paciencia dura minutos y los invitados van de bebés a primos de primaria. Aquí tienes el horario, los juegos y el castillo que sí funcionan."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
-readTime: "13 min"
+readTime: "16 min"
 heroImage: "/img/inflables/castillo-princesas.avif"
 heroImageAlt: "Castillo de Princesas inflable rosa con azul turquesa, torres de punta y resbaladilla lateral sobre pasto"
 galleryImages:
@@ -39,7 +39,7 @@ El pastel ya está en el refri. La invitación ya salió. Y tu hijo sigue sin do
 
 Aquí tienes lo que sí funciona en jardines y patios de la CDMX y el Estado de México. A qué hora empezar, qué juegos aguantan y cómo repartir la tarde. Y qué inflable rentar para que brinquen él y sus primos grandes. Decisiones claras, sin relleno.
 
-> **Respuesta rápida:** Para una fiesta de 3 años en jardín o patio, el [Castillo de Princesas para niños de 2 a 10 años](/inflables/castillo-princesas/) es el modelo más flexible: brincan el festejado y los primos de primaria, por turnos. Cuesta $1,800 netos por evento, con instalación y recolección incluidas. Si la fiesta es bajo techo o casi todos los invitados tienen menos de 3 años, conviene el Castillo Baby, de $1,400.
+> **Respuesta rápida:** Para una fiesta de 3 años en jardín o patio, el Castillo de Princesas, para niños de 2 a 10 años, es el modelo más flexible: brincan el festejado y los primos de primaria, por turnos. Cuesta $1,800 netos por evento, con instalación y recolección incluidas. Si la fiesta es bajo techo o casi todos los invitados tienen menos de 3 años, conviene el Castillo Baby, de $1,400.
 
 ## ¿Qué hace distinta una fiesta de 3 años de la de un niño de primaria?
 
@@ -95,7 +95,7 @@ Que reciba de 2 a 10 años no significa que todos brinquen a la vez. A esta edad
 
 El rosa no te amarra a coronas y vestidos. El mismo castillo combina con unicornios, hadas o mariposas, y en una fiesta mixta de primos y compañeros de la guardería brincan niños y niñas igual, sin que nadie pregunte por la temática. ¿Te late esa línea? Las paletas y las actividades están en la guía de [fiesta de unicornios, hadas y mariposas](/blog/fiesta-de-unicornios-y-hadas-con-inflable/).
 
-Si tu festejada sí pidió princesas, aquí tienes [ideas de decoración y mesa para una fiesta de princesas](/blog/fiesta-princesas-ninas-inflable-cdmx/). Y si dudas entre este modelo y el rojo con dragones, la decisión está resuelta en [Castillo de Princesas o Dragones Rojos: cuál elegir](/inflables/castillo-princesas/).
+Si tu festejada sí pidió princesas, aquí tienes [ideas de decoración y mesa para una fiesta de princesas](/blog/fiesta-princesas-ninas-inflable-cdmx/). Y si dudas entre este modelo y el rojo con dragones, recuerda que Dragones Rojos empieza en 3 años: deja fuera a los invitados de 2.
 
 > **¿Ya mediste tu jardín?** Mándanos la altura libre y una foto del área: te decimos si el castillo cabe y cómo organizar los turnos. [Pregunta por WhatsApp si cabe en tu jardín](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20el%20Castillo%20de%20Princesas%20cabe%20en%20mi%20jardin%20para%20una%20fiesta%20de%203%20anos)
 
@@ -188,6 +188,37 @@ Sándwiches en tiras, fruta en trozos, quesadillas chicas, galletas. Nada que pi
 Los niños pequeños comen mejor sentados. La [mesa chica con sillitas para niños de 1 a 6 años](/servicios/mobiliario-para-fiestas/) mide **1.8 × 0.5 m** y trae 10 sillas. Si la rentas junto con un inflable, cuesta **$550**. Antes de la comida te sirve como mesa de colorear.
 
 ¿Estás sumando cuentas? El [presupuesto de una fiesta de princesas en casa](/blog/cuanto-cuesta-fiesta-de-princesas-en-casa/) separa lo que tiene precio fijo de lo que tienes que cotizar con otros proveedores.
+
+## Departamento céntrico o casa con jardín: cómo cambia la elección
+
+El mismo cumpleaños de 3 años se resuelve distinto según dónde vivas. En la ciudad, la pregunta casi nunca es "¿cuál castillo me gusta?", sino "¿cuál cabe?".
+
+### En departamento, terraza o roof garden
+
+En la Roma, la Condesa o la Juárez, y en los edificios de Polanco, lo común es festejar en la sala, en una terraza techada o en el roof garden del edificio. Ahí el Castillo de Princesas casi siempre queda fuera, porque pide exterior y 4.2 m de altura libre. El Castillo Baby, con 3.2 m, es el que suele caber.
+
+Antes de cotizar en un edificio, revisa tres cosas:
+
+1. **Elevador o escalera.** El inflable y el motor tienen que subir hasta el área; conviene saber si hay elevador de carga y en qué horario lo permite la administración.
+2. **Reglamento del roof garden.** Algunos edificios piden aviso previo o limitan horarios de uso.
+3. **Contacto de corriente** a menos de 20 m del área.
+
+Si el roof garden está descubierto, repasa la guía sobre [qué revisar antes de instalar un inflable en azotea](/blog/inflable-en-azotea-que-revisar-cdmx/): barandal, piso y sol del mediodía. Para la logística de entrega en el centro, consulta lo que aplica para [fiestas en la alcaldía Cuauhtémoc](/cobertura/cuauhtemoc/), donde Roma, Doctores, Santa María la Ribera y Reforma no tienen cargo adicional de traslado, y para [cumpleaños en Polanco y Lomas](/cobertura/polanco/), con entrega sin costo adicional en Polanco.
+
+### En casa con jardín
+
+En colonias de jardines amplios, como San Jerónimo o El Rosal, el Castillo de Princesas entra mejor en juego. Lo que hay que mirar es hacia arriba: árboles grandes y cables sobre el pasto son los que más seguido dejan fuera a un castillo de 4.2 m. En calles con pendiente o accesos angostos, manda una foto del camino desde la calle al jardín. Puedes revisar el traslado para [fiestas infantiles en La Magdalena Contreras](/cobertura/magdalena-contreras/), que se confirma según la colonia.
+
+### Tabla rápida para decidir
+
+| Tu espacio | Modelo que suele funcionar | Lo que confirmas al cotizar |
+|---|---|---|
+| Sala o terraza techada con 3.2 m o más | Castillo Baby | Altura medida y acceso |
+| Roof garden descubierto | Castillo Baby o Castillo de Princesas | Reglamento del edificio y altura libre de toldos |
+| Jardín amplio sin ramas bajas | Castillo de Princesas | Altura libre y distancia al contacto |
+| Jardín con bebés y primos grandes | Los dos castillos | Que el espacio dé para ambos |
+
+Una nota de horario: si la fiesta es de media tarde entre junio y septiembre, en el Valle de México es común que llueva. Para festejos en exterior, ten pensado desde antes un plan bajo techo. Y para decidir cuántas horas rentar sin alargar la fiesta de más, revisa la guía de [cuántas horas dura la renta y cómo organizar el horario](/blog/horario-fiesta-infantil-cuantas-horas-inflable/).
 
 ## ¿Qué revisar en casa y en la agenda la semana de la fiesta?
 

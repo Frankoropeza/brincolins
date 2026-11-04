@@ -4,10 +4,10 @@ h1: "Curso de verano con inflables en CDMX: grupos, estaciones y plan bajo techo
 description: "Curso de verano con inflables en CDMX: renta por día de evento, rotación de grupos por estaciones y plan B bajo techo para las lluvias. Aparta tus fechas."
 excerpt: "Varios grupos, un patio y nubes cargadas después de mediodía. Así metes un día de inflable en tu curso de verano sin que la logística se te caiga en julio."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Jungla"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "15 min"
 heroImage: "/img/inflables/mini-jungla/mini-jungla-vista-general.avif"
 heroImageAlt: "Inflable Jungla completo con palmeras y dinosaurios, junto a una mesa con sillas"
 galleryImages:
@@ -79,7 +79,7 @@ En cada sede hay alguien que decide: la dirección de la escuela, la administrac
 
 #### Toma de corriente y superficie
 
-La toma tiene que ser de 110 V y estar a menos de 20 m del inflable. La superficie, plana y despejada, sin vidrio ni objetos punzantes. ¿Tu curso es en el sur de la ciudad? Revisa la página de [inflables a domicilio en Coyoacán](/cobertura/coyoacan/). Para otras alcaldías y municipios tienes las [zonas de servicio en la CDMX y el Estado de México](/cobertura/).
+La toma tiene que ser de 110 V y estar a menos de 20 m del inflable. Si no sabes si el contacto del patio aguanta o qué extensión usar, revisa [cuánta luz consume un inflable y qué extensión pedir](/blog/cuanta-luz-consume-un-inflable-contacto-extension/). La superficie, plana y despejada, sin vidrio ni objetos punzantes. ¿Tu curso es en el sur de la ciudad? Revisa la página de [inflables a domicilio en Coyoacán](/cobertura/coyoacan/). Para otras alcaldías y municipios tienes las [zonas de servicio en la CDMX y el Estado de México](/cobertura/).
 
 ## ¿Cómo rotas a varios grupos sin que nadie haga fila?
 
@@ -181,7 +181,39 @@ El día temático, el de convivencia con familias o el cierre. Los tres funciona
 
 ### El cierre del curso
 
-Es el día con más energía y el que más se recuerda. La [logística de un fin de cursos con inflable](/inflables/mini-jungla/) te ayuda con un grupo grande que llega al mismo tiempo. Y la misma organización sirve en abril, si tu escuela quiere [organizar el Día del Niño con la misma lógica](/blog/dia-del-nino-inflables-escuela-empresa-cdmx/).
+Es el día con más energía y el que más se recuerda. La [logística de una graduación o fin de cursos con inflable](/blog/graduacion-kinder-primaria-con-inflable/) te ayuda con un grupo grande que llega al mismo tiempo. Y la misma organización sirve en abril, si tu escuela quiere [organizar el Día del Niño con la misma lógica](/blog/dia-del-nino-inflables-escuela-empresa-cdmx/).
+
+## Cursos en el sur: Tlalpan, Xochimilco y Milpa Alta
+
+En el sur de la ciudad muchos cursos de verano se hacen en patios escolares, casas de cultura y atrios de parroquia de los pueblos originarios. Son buenos espacios, pero cada alcaldía tiene sus particularidades.
+
+| Alcaldía | Espacios frecuentes | Qué revisar | Traslado |
+|---|---|---|---|
+| Tlalpan | Escuelas con patio, clubes con áreas verdes | Pendiente del terreno y árboles con ramas bajas | Según zona |
+| Xochimilco | Patios escolares, casas de cultura | Pasto húmedo después de lluvia y acceso por calles angostas | $100–$150 |
+| Milpa Alta | Atrios y patios parroquiales, deportivos | Piso de cemento con desniveles y distancia a la toma de corriente | $200–$300 |
+
+En las partes altas de Tlalpan y en Milpa Alta las mañanas de verano suelen ser frescas. Si programas el inflable a primera hora, pide a los papás que manden a los niños con suéter para la fila de espera y que se lo quiten al entrar.
+
+Para la sede de tu curso, consulta las colonias y condiciones en [cobertura en Tlalpan](/cobertura/tlalpan/), [entregas en Xochimilco](/cobertura/xochimilco/) o [servicio en los pueblos de Milpa Alta](/cobertura/milpa-alta/). Si el atrio o el deportivo es público, el permiso de uso se consulta con la administración del lugar o con la alcaldía antes de apartar la fecha.
+
+## Errores que desordenan el día de inflable
+
+- **Programar el inflable justo después del refrigerio.** Los niños brincan mejor con media hora de margen entre comer y entrar.
+- **Mandar a un grupo de 3 años junto con uno de 8.** Divide los turnos por edad aunque los grupos del curso sean mixtos.
+- **Instalar a la hora en que llegan los niños.** El montaje toma de 15 a 30 minutos; pide que lleguemos antes de la entrada para que el patio esté libre.
+- **No avisar a los papás.** Un aviso el día anterior para que manden calcetines, ropa cómoda y agua evita que la mitad del grupo brinque en uniforme.
+- **Dejar la recolección sin hora.** Acuerda la hora exacta para que no coincida con la salida de los niños.
+
+Si quieres armar el bloque de inflable con tiempos realistas, la guía de [cuántas horas dura la renta y cómo organizar el horario](/blog/horario-fiesta-infantil-cuantas-horas-inflable/) sirve igual para una mañana de curso.
+
+### Mensaje para cotizar varias fechas
+
+Copia y llena esto en WhatsApp:
+
+> Curso de verano en [sede], [colonia y alcaldía]. Fechas: [lista]. Horario: de [hora] a [hora]. Grupos: [número] grupos de [edades]. Espacio: [patio / atrio / salón techado], altura libre [m]. ¿Necesito factura?: [sí/no].
+
+Con eso respondemos disponibilidad por fecha y el total con traslado.
 
 ## ¿Qué revisas antes de apartar el inflable del curso?
 
@@ -208,4 +240,4 @@ Julio llega antes de lo que parece, y las fechas se apartan por orden de anticip
 
 Cada fecha se aparta con el 50% de anticipo. El precio es por evento y neto; con factura se agrega el 16% de IVA, y el traslado se cobra según zona. Atendemos de lunes a domingo de 8:00 a 20:00.
 
-Llena la [cotización en línea del curso](/cotizar/) o escribe por [WhatsApp para tu curso de verano](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20varios%20dias%20de%20inflable%20para%20un%20curso%20de%20verano). Antes, si quieres, revisa la [ficha técnica del Jungla](/inflables/mini-jungla/) con fotos y medidas.
+Llena la [cotización en línea del curso](/cotizar/) o escribe por [WhatsApp para tu curso de verano](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20varios%20dias%20de%20inflable%20para%20un%20curso%20de%20verano).

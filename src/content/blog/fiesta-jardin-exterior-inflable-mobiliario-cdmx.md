@@ -3,9 +3,10 @@ title: "Fiesta Infantil en Jardín con Inflable: Guía CDMX"
 description: "Organiza tu fiesta en el jardín en CDMX con inflable y mesas picnic: checklist completo, presupuesto real por tamaño, salón vs jardín y qué modelo elegir."
 excerpt: "Las fiestas en jardín están viviendo su mejor momento en la Ciudad de México. Aprende a organizar la tuya con inflable, mesas picnic de MESPIC y todo el checklist que necesitas para que no se te escape nada — más una comparativa honesta entre fiesta en salón y fiesta en jardín."
 publishDate: "2026-06-14"
+updatedDate: "2026-11-04"
 category: "Ideas"
 author: "Equipo BRINCOLINS"
-readTime: "11 min"
+readTime: "23 min"
 heroImage: "/img/blog/blog-paquetes-completos-fiesta-inflable-cdmx.avif"
 heroImageAlt: "Fiesta en el jardín en CDMX con inflable y mesas picnic exterior"
 intro:
@@ -25,7 +26,11 @@ faqs:
   - question: "¿Puedo combinar el inflable con mesas picnic de MESPIC en un mismo paquete de BRINCOLINS?"
     answer: "BRINCOLINS y MESPIC son empresas aliadas. Puedes contratar ambos servicios de forma coordinada con una sola comunicación. Escríbenos al WhatsApp 5531281706 indicando que también necesitas mesas picnic y te conectamos con el equipo de MESPIC para que coordinen la entrega en el mismo horario."
   - question: "¿Necesito permiso para poner un inflable en un parque público de CDMX?"
-    answer: "Sí. El uso de inflables en parques públicos de la Ciudad de México requiere permiso de la alcaldía correspondiente. El trámite puede tardar 1-3 semanas. Para eventos en jardines privados o domicilios particulares no se requiere permiso. Consulta siempre con la alcaldía de tu zona antes de planear el evento en un espacio público."
+    answer: "Cada parque tiene sus propias reglas y las define la alcaldía o la administración del lugar. Antes de planear, pregunta directamente ahí si permiten inflables, qué autorización piden, en qué zona y en qué horario. En un jardín de tu casa no necesitas ese permiso; en un condominio o privada, el que autoriza es la administración."
+  - question: "¿Cuánto espacio libre necesito alrededor del inflable en el jardín?"
+    answer: "Además de la huella del modelo (por ejemplo, 5 × 3 m en Jungla, Dragones Rojos o Gusanitos), hace falta margen libre por los lados para anclaje, motor y salida de los niños, y altura libre sin ramas ni cables. El espacio exacto se confirma al cotizar con medidas y fotos del jardín."
+  - question: "¿Pueden llegar el inflable y el mobiliario a la misma hora?"
+    answer: "Sí, y conviene coordinarlo así: primero se instala el inflable (de 15 a 30 minutos) y después se acomodan mesas y sillas alrededor, respetando el pasillo de salida. Si también rentas la mesa infantil con 10 sillas, coordina al cotizar que ambas cosas lleguen en el mismo horario."
 ---
 
 ## Lo que cambia cuando la fiesta es afuera
@@ -83,7 +88,7 @@ Elegir el inflable correcto para tu espacio no es solo una cuestión estética �
 | Mediano | 10×12 m a 12×15 m | Castillo Blanco o Barco Pirata | $2,300 – $2,600 MXN | Se confirma al cotizar |
 | Grande | 15×20 m o más | Extremo o combinación de inflables | $2,500 MXN | Se confirma al cotizar |
 
-La capacidad de la última columna es la del inflable, no la de la fiesta: con muchos invitados se organizan turnos, no se meten todos. Para confirmar cuál es el modelo más adecuado para las dimensiones exactas de tu jardín, escríbenos por WhatsApp y te orientamos sin compromiso. También puedes revisar las fichas completas en nuestro [catálogo de inflables](/inflables/), los ocho precios en la [página de precios](/precios/) y la [guía para elegir el inflable](/blog/como-elegir-inflable-fiesta-infantil/).
+La capacidad de la última columna es la del inflable, no la de la fiesta: con muchos invitados se organizan turnos, no se meten todos. Para confirmar cuál es el modelo más adecuado para las dimensiones exactas de tu jardín, escríbenos por WhatsApp y te orientamos sin compromiso. También puedes revisar las fichas completas en nuestro [catálogo de inflables](/inflables/), los ocho precios en la [página de precios](/precios/) y la guía para elegir el inflable.
 
 ## Cómo dividir el espacio: la distribución que siempre funciona
 
@@ -157,6 +162,20 @@ Los precios de inflable que aparecen abajo son netos: se agrega IVA solo si nece
 - Comida y pastel: $6,000 - $15,000 MXN
 - **Total: Se confirma al cotizar**
 
+## Jardines del sur y del poniente: árboles altos, pendientes y piedra volcánica
+
+Los jardines amplios de la ciudad no son todos iguales, y lo que conviene revisar cambia según la zona:
+
+- **Coyoacán.** Muchas casas tienen jardines con árboles grandes y antiguos. Dan una sombra excelente para las mesas, pero hay que medir la altura libre en el punto exacto del inflable: una rama a 4 metros descarta modelos como el Castillo Blanco o el Barco Pirata. Si tu fiesta es en el sur de la ciudad, revisa las [entregas en Coyoacán](/cobertura/coyoacan/); el traslado se confirma según tu colonia.
+- **Álvaro Obregón.** En zonas como Jardines del Pedregal el suelo es de roca volcánica, y algunos jardines tienen piedra aflorada o pasto sobre una capa delgada de tierra. Busca el área más plana y sin piedra expuesta, y avisa al cotizar para que el equipo lleve la sujeción adecuada. La cobertura de [inflables a domicilio en Álvaro Obregón](/cobertura/alvaro-obregon/) incluye el detalle de traslado.
+- **Magdalena Contreras.** Buena parte de la alcaldía está en ladera, y muchos jardines tienen desnivel o están escalonados. El inflable va en la terraza de pasto más plana, aunque no sea la más grande; las mesas pueden ir en otro nivel si hay línea de vista hacia los niños. Consulta las [fiestas en Magdalena Contreras](/cobertura/magdalena-contreras/) para confirmar la entrega en tu colonia.
+
+En las tres zonas, las tardes de junio a septiembre suelen traer lluvia, así que el plan de horario de la sección de temporadas aplica igual.
+
+### Si la fiesta se alarga hasta que oscurece
+
+En un jardín, la luz natural se acaba antes de lo que parece, sobre todo de noviembre a febrero. Si planeas que la fiesta siga después del pastel, piensa en iluminar el camino entre la casa, las mesas y el inflable; en la página de [iluminación para eventos](/servicios/iluminacion-eventos/) puedes ver las opciones. Y si tu fecha cae en los meses fríos, la guía de [fiestas infantiles al aire libre en invierno](/blog/fiesta-infantil-en-invierno-al-aire-libre-cdmx/) te ayuda a acomodar horarios y ropa para los niños.
+
 ## Prepara el jardín el día anterior
 
 **Un día antes de la fiesta:**
@@ -182,7 +201,7 @@ Provee sombra para los niños pequeños. Los niños menores de 4 años se sobrec
 
 Ten agua fría disponible siempre. Coloca botellas de agua o una hielera cerca del inflable. Cuando los niños están muy entretenidos, no recuerdan que tienen sed hasta que ya están deshidratados.
 
-Designa un supervisor específico. Nombra a un adulto como responsable del inflable durante toda la fiesta. Su única tarea es supervisar el acceso, respetar la capacidad confirmada al cotizar y evitar conductas de riesgo. Cuando todos supervisan, en realidad nadie supervisa; las [7 reglas de oro de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/) son el guion que le puedes pasar a esa persona.
+Designa un supervisor específico. Nombra a un adulto como responsable del inflable durante toda la fiesta. Su única tarea es supervisar el acceso, respetar la capacidad confirmada al cotizar y evitar conductas de riesgo. Cuando todos supervisan, en realidad nadie supervisa; las 7 reglas de oro de seguridad en inflables son el guion que le puedes pasar a esa persona.
 
 Aplica protector solar antes del evento. Si la fiesta es entre las 11 AM y las 4 PM, recuerda aplicar protector solar a los niños antes de que usen el inflable. Una vez que entran al brincolín, conseguir que salgan para ponerse bloqueador es una misión imposible.
 
@@ -191,7 +210,7 @@ Aplica protector solar antes del evento. Si la fiesta es entre las 11 AM y las 4
 Imprímelo y revisa:
 
 1.  ☐ Jardín medido y zona de inflable confirmada con BRINCOLINS
-2.  ☐ Electricidad verificada (enchufe disponible a <30m)
+2.  ☐ Electricidad verificada (contacto de 110 V a menos de 20 m del inflable)
 3.  ☐ Inflable reservado con 50% de anticipo
 4.  ☐ Catering o menú confirmado
 5.  ☐ Pastel ordenado

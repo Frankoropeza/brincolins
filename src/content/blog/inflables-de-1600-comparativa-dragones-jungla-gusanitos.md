@@ -4,10 +4,10 @@ h1: "Inflables medianos al mismo precio: Dragones Rojos, Jungla o Gusanitos, com
 description: "Inflables medianos y su precio: Dragones Rojos, Jungla y Gusanitos cuestan $1,600. Compara medidas, edades, altura libre e interiores y cotiza el tuyo."
 excerpt: "Tres inflables, el mismo precio y diferencias que sí cambian tu fiesta: altura libre, interiores, edades y temática. Compáralos lado a lado y elige en un minuto."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Dragones Rojos"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "17 min"
 heroImage: "/img/inflables/dragones-rojos/dragones-inflable-corporativo.avif"
 heroImageAlt: "Inflable Dragones Rojos con dos dragones rojos y amarillos y torres de colores, sobre duela de madera"
 galleryImages:
@@ -137,7 +137,7 @@ Cambia más de lo que parece en una foto, y define cómo se forman las filas y c
 
 #### Dragones Rojos: brincar y salir por la resbaladilla
 
-Los niños brincan dentro y salen por la resbaladilla integrada, con mallas a los lados. Su diseño funciona con caballeros, dragones, superhéroes o ninguna temática. Si quieres una temática completa, tienes la [fiesta medieval con el Dragones Rojos al centro](/inflables/dragones-rojos/).
+Los niños brincan dentro y salen por la resbaladilla integrada, con mallas a los lados. Su diseño funciona con caballeros, dragones, superhéroes o ninguna temática. Si quieres una temática completa, tienes la fiesta medieval con el Dragones Rojos al centro.
 
 #### Jungla: brincolín de selva
 
@@ -168,7 +168,23 @@ Para ubicar estos tres en el catálogo completo, esta tabla compara el precio de
 | Extremo | 3 a 12 años | $2,500 |
 | Castillo Blanco | 3 a 12 años | $2,600 |
 
-¿Quieres sumar mesa y actividad? El [paquete fiesta de $2,800 con Dragones Rojos o Jungla](/servicios/paquetes-de-fiesta/) incluye mesa con 10 sillitas y una hora de pintacaritas; el Gusanitos no entra. Para un repaso general, revisa los [precios de brincolines por modelo](/precios/).
+¿Quieres sumar mesa y actividad? El [paquete fiesta de $2,800 con Dragones Rojos o Jungla](/servicios/paquetes-de-fiesta/) incluye mesa con 10 sillitas y una hora de pintacaritas; el Gusanitos no entra. Para un repaso general, revisa los precios de brincolines por modelo.
+
+### Cuánto pagas en total con el traslado
+
+El precio del inflable es el mismo en toda la cobertura; lo que mueve el total es el traslado. Para que veas cómo se arma la cuenta, esta tabla suma los $1,600 al rango de traslado publicado para tres municipios del norte del Estado de México. El monto exacto depende de tu colonia y se confirma al cotizar.
+
+| Municipio | Inflable mediano | Traslado según zona | Total aproximado sin factura |
+|---|---|---|---|
+| Ecatepec | $1,600 | $200 a $350 | $1,800 a $1,950 |
+| Tultitlán | $1,600 | $200 a $300 | $1,800 a $1,900 |
+| Nicolás Romero | $1,600 | $250 a $400 | $1,850 a $2,000 |
+
+Si necesitas factura, el 16% de IVA se agrega sobre el monto que te confirmemos. Y si el presupuesto está apretado, la guía para [armar una fiesta económica sin que se note](/blog/fiesta-infantil-con-poco-presupuesto-cdmx/) explica en qué conviene gastar y en qué no.
+
+#### Lo que cambia según el municipio
+
+En Ecatepec muchas fiestas son en patio de casa, en la calle cerrada o en el área común de la unidad; si es en área común, pide el permiso a la administración antes de apartar. Los rangos por colonia están en la página de [inflables con entrega en Ecatepec](/cobertura/ecatepec/). En Tultitlán, fraccionamientos y casas con cochera son lo más común: si el único espacio es la cochera techada, recuerda que ahí sólo entra el Gusanitos con 3.2 m libres. Revisa la [cobertura en Tultitlán](/cobertura/tultitlan/) para tu colonia. En Nicolás Romero hay muchas calles con pendiente y patios con desnivel; el inflable necesita un área plana, así que manda una foto del piso con la [cotización para Nicolás Romero](/cobertura/nicolas-romero/) y confirmamos si alguno de los tres entra.
 
 ### Cuánto tarda la instalación de cada uno
 
@@ -202,6 +218,17 @@ El más común es decidir por la foto sin medir la altura libre; le siguen pensa
 - **Buscar el paquete con Gusanitos.** El paquete fiesta sólo incluye Dragones Rojos o Jungla.
 - **No preguntar la capacidad.** Se confirma al cotizar, y con ella se organizan los turnos.
 - **Dejar el traslado para el final.** Se cobra según zona; pregúntalo junto con la fecha para tener el total claro.
+- **Elegir modelo y luego fecha.** Si tu fecha cae en temporada alta, puede que el modelo que querías ya esté apartado. Ten un segundo favorito de los tres; la guía sobre [con cuánta anticipación reservar](/blog/cuando-reservar-inflable-temporadas-cdmx/) te dice qué meses se llenan primero.
+
+### Qué preguntar antes de pagar el anticipo
+
+Antes de apartar cualquiera de los tres, haz estas preguntas en la misma conversación. Te toman dos minutos y evitan malentendidos el día de la fiesta:
+
+1. ¿Cuánto es el traslado exacto a mi colonia?
+2. ¿Cuántos niños caben por turno en el modelo que elegí?
+3. ¿A qué hora llegan a instalar y a qué hora recogen?
+4. ¿Mi piso y mi altura libre sirven para este modelo? (manda foto)
+5. Si llueve o cambia la fecha, ¿qué pasa con mi anticipo?
 
 Si quieres ver los tres junto al resto de modelos de su tamaño, entra a [todos los inflables medianos](/inflables/medianos/).
 
@@ -215,6 +242,6 @@ Los fines de semana se llenan y la disponibilidad se confirma por WhatsApp. Si y
 - El tipo de piso: pasto, cemento, adoquín o tierra.
 - Las edades y la cantidad aproximada de niños.
 
-La fecha se aparta con 50% de anticipo. El precio es por evento y neto; si requieres factura se agrega 16% de IVA, y el traslado se cobra según zona. Si ya te decidiste por los dragones, puedes [cotizar el Dragones Rojos para tu fecha](/inflables/dragones-rojos/).
+La fecha se aparta con 50% de anticipo. El precio es por evento y neto; si requieres factura se agrega 16% de IVA, y el traslado se cobra según zona. Si ya te decidiste por los dragones, puedes cotizar el Dragones Rojos para tu fecha.
 
 Llena la [cotización en línea del inflable mediano](/cotizar/) o [escríbenos para apartarlo](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20un%20inflable%20mediano%20para%20mi%20fiesta). Atendemos de lunes a domingo de 8:00 a 20:00.

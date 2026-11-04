@@ -4,10 +4,10 @@ h1: "Fiesta de 10 años: carreras, equipos y premiación para el grupo de 5.º"
 description: "Fiesta de 10 años con carreras en doble carril, eliminatoria con repechaje y premios sin pleitos. Copia el cronograma y cotiza el circuito Extremo."
 excerpt: "A los 10 años ya no quieren brincar: quieren ganar. Así conviertes un circuito de 8 metros en la tarde de competencias que el grupo de 5.º va a comentar el lunes."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Extremo"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "16 min"
 heroImage: "/img/inflables/extremo.avif"
 heroImageAlt: "Circuito Extremo verde, azul y amarillo con túneles naranja y arcos morados sobre el pasto de un jardín"
 galleryImages:
@@ -44,7 +44,7 @@ Una fiesta de 10 años se gana en la primera media hora. Si el grupo encuentra u
 
 Te dejamos el plan para que eso no te pase: qué ya no funciona a esta edad, cómo usar el doble carril del circuito Extremo para carreras y relevos, cómo premiar sin dramas y un cronograma que puedes copiar tal cual.
 
-> **Respuesta rápida:** Una fiesta de 10 años funciona cuando hay competencia con marcador: carreras de dos en dos, contra reloj, relevos por equipos y una final con premiación. El [circuito Extremo de 8 metros](/inflables/extremo/) tiene doble carril y tobogán doble, es para niños de 3 a 12 años y cuesta $2,500 neto por evento, con instalación y recolección incluidas.
+> **Respuesta rápida:** Una fiesta de 10 años funciona cuando hay competencia con marcador: carreras de dos en dos, contra reloj, relevos por equipos y una final con premiación. El circuito Extremo de 8 metros tiene doble carril y tobogán doble, es para niños de 3 a 12 años y cuesta $2,500 neto por evento, con instalación y recolección incluidas.
 
 ## ¿Qué ya no funciona en una fiesta de 10 años?
 
@@ -118,7 +118,7 @@ Dibuja la llave en un pliego de papel kraft y pégala junto a la salida del circ
 
 La final se corre con todos los invitados alrededor y una cuenta regresiva en voz alta. Es el momento de la foto y del video. ¿Tu festejado llegó a la final? Perfecto. ¿No llegó? Que sea él quien dé la salida, con silbato y todo.
 
-Si quieres profundizar en llaves, control de fila y roles entre adultos, la guía para [organizar un torneo infantil en la pista inflable](/inflables/extremo/) entra al detalle de cada formato.
+Para el control de fila, basta con tres adultos fijos: uno en la salida, uno armando el siguiente turno y uno en la llegada del tobogán.
 
 ## ¿Qué premios funcionan con niños de 10 años sin generar pleitos?
 
@@ -192,6 +192,30 @@ Tu espacio necesita un área exterior plana de por lo menos 8 × 4.5 m, más el 
 
 Si tu fiesta no cabe en casa, un patio escolar o la cancha del condominio suelen resolverlo. Lo que cambia sobre concreto (lastre en lugar de estacas, lona, pendiente) lo tienes en [cómo se monta un circuito en cancha o explanada](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/). Y si organizas para muchas familias, la misma lógica de turnos por edad sirve en un [área infantil para el family day de una empresa](/blog/family-day-empresa-inflables-para-hijos/).
 
+## ¿Y si vives en un fraccionamiento sin jardín propio?
+
+Es el caso de muchas familias en los conjuntos del norte y oriente del Estado de México: la casa tiene patio chico, pero el fraccionamiento tiene área verde, cancha o explanada común. Para una fiesta de 10 años con circuito, esa área común suele ser mejor opción que el patio, porque el Extremo necesita sus 8 × 4.5 m más margen y 4.5 m de altura libre.
+
+Antes de cotizar, resuelve con la administración o el comité de vecinos estas cuatro cosas:
+
+1. **Permiso por escrito** para usar el área común en la fecha y el horario de la fiesta.
+2. **Acceso del vehículo** hasta el área o lo más cerca posible, con aviso en caseta.
+3. **Contacto de corriente** a menos de 20 m. Si el área no tiene, pregunta si puedes tender una extensión desde una casa cercana.
+4. **Reglas de ruido y hora de cierre**, para que la final con porra no termine con una queja.
+
+Con eso resuelto, el traslado es lo único que cambia según el municipio. En [Coacalco de Berriozábal](/cobertura/coacalco/) el envío va de $200 a $300; en [los fraccionamientos de Tecámac](/cobertura/tecamac/), como Real del Sol o Los Héroes, de $250 a $400; y en [Ecatepec de Morelos](/cobertura/ecatepec/), de $200 a $350. El monto exacto se confirma con tu colonia al cotizar.
+
+Un detalle de horario: si la fiesta es en área común, la hora de cierre del espacio manda. Calcula hacia atrás el bloque de premiación y la recolección para no correr la final con prisa. En la guía sobre [cuántas horas dura la renta y cómo organizar el horario](/blog/horario-fiesta-infantil-cuantas-horas-inflable/) hay ejemplos para fiestas de tarde.
+
+### Qué preguntar al cotizar el circuito
+
+- ¿A qué hora llegan a instalar si la fiesta empieza a las 4 o 5 de la tarde?
+- ¿El circuito se puede instalar sobre concreto o adoquín del área común?
+- ¿Cuánto es el envío exacto a mi colonia?
+- ¿Qué pasa con el anticipo si llueve? En temporada de lluvias, de junio a septiembre, conviene tener la respuesta antes de pagar.
+
+Si el presupuesto está justo, el circuito puede ser casi lo único que rentes: los premios hechos en casa y la cartulina de récords cuestan poco. Hay más ideas para recortar sin que se note en la guía de [fiesta infantil con poco presupuesto](/blog/fiesta-infantil-con-poco-presupuesto-cdmx/).
+
 ## ¿Qué errores conviene evitar el día de la fiesta?
 
 Casi ninguno depende del inflable: dependen de cómo se organiza la fila y de quién está a cargo. Repasa esta lista la víspera. Te ahorra los momentos incómodos de cualquier fiesta con competencia.
@@ -216,6 +240,6 @@ Para cotizar en un solo mensaje, mándanos:
 - El tipo de superficie: pasto, tierra o concreto.
 - Las edades y la cantidad aproximada de niños, incluidos los hermanos chicos.
 
-La fecha se aparta con 50% de anticipo. El Extremo cuesta **$2,500** por evento, precio neto con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona, con entrega sin costo adicional sólo en zonas seleccionadas de la [cobertura de traslado en CDMX y Estado de México](/cobertura/). Antes de decidir puedes revisar el [precio y la galería del Extremo](/inflables/extremo/), la [lista de precios de los ocho modelos](/precios/) y la [política de cancelación y cambios de fecha](/politica-de-cancelacion/).
+La fecha se aparta con 50% de anticipo. El Extremo cuesta **$2,500** por evento, precio neto con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona, con entrega sin costo adicional sólo en zonas seleccionadas de la [cobertura de traslado en CDMX y Estado de México](/cobertura/). Antes de decidir puedes revisar la [lista de precios de los ocho modelos](/precios/) y la [política de cancelación y cambios de fecha](/politica-de-cancelacion/).
 
 Pide tu [cotización en línea para la fiesta de 10 años](/cotizar/) o [escríbenos directo por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Extremo%20para%20la%20fiesta%20de%2010%20anos%20de%20mi%20hijo).

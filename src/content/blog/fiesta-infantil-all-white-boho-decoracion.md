@@ -4,10 +4,10 @@ h1: "Fiesta infantil en blanco, boho o pastel: cómo decorar alrededor del Casti
 description: "Fiesta infantil en blanco con el Castillo Blanco: 4 paletas, qué globos sí van y cuáles compiten, y cómo evitar manchas. Compara ideas y cotiza tu fecha."
 excerpt: "Pampas, globos nude, madera y un castillo blanco se ven preciosos en la foto de referencia. Aquí ves cómo lograr que luzcan igual con niños de verdad brincando."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Castillo Blanco"
 author: "Equipo BRINCOLINS"
-readTime: "11 min"
+readTime: "18 min"
 heroImage: "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-terraza-cdmx.avif"
 heroImageAlt: "Arco de globos blancos junto a un castillo inflable blanco sobre pasto, con edificios detrás"
 galleryImages:
@@ -134,6 +134,26 @@ Prefiere bebidas claras cerca de la zona infantil: agua, limonada. Deja la jamai
 
 Y una regla para la entrada: sin zapatos, sin comida, sin vasos. Un adulto la cuida todo el evento. Nosotros entregamos el equipo revisado y sanitizado; tú cuidas que llegue limpio a la foto del pastel.
 
+## ¿Qué se monta primero: el inflable o la decoración?
+
+El inflable primero. Es la pieza más grande y define dónde va todo lo demás. Si el decorador llega antes y arma el arco, las pampas y la mesa de dulces, es muy probable que el castillo ya no quepa en el punto que habías pensado, o que el equipo tenga que pasar con el inflable doblado entre tus arreglos.
+
+Un orden que funciona el día de la fiesta:
+
+1. **Llega el equipo del inflable.** El montaje del Castillo Blanco toma unos 30 minutos ya en el área.
+2. **Se marca el frente del castillo** y el pasillo libre de entrada y salida.
+3. **El decorador arma alrededor**: bases de flores a los lados, fondo detrás, mesa de dulces lejos de la entrada.
+4. **Se revisa la foto** desde el punto donde va a estar el fotógrafo, antes de que lleguen los invitados.
+
+Coordina los horarios desde que cotizas: dile a tu decorador a qué hora llega el inflable y avísanos a qué hora entra el decorador. Si tu fiesta tiene varios proveedores, la guía de [coordinación de proveedores para la fiesta](/blog/coordinacion-proveedores-fiesta-infantil-cdmx/) te ayuda a armar el cronograma.
+
+### Si el jardín está húmedo o es temporada de lluvias
+
+Un jardín recién regado o mojado por la lluvia de la noche anterior es el enemigo del blanco: los niños salen del castillo, pisan pasto con lodo y regresan. De junio a septiembre pasa seguido en el Valle de México. Dos soluciones sencillas:
+
+- **Un tapete o lona limpia frente a la entrada**, donde los niños se quitan y se ponen los zapatos.
+- **Pide que no rieguen el jardín** la noche anterior ni la mañana de la fiesta, sobre todo si es un lugar rentado.
+
 ## ¿Desde qué ángulo se ve mejor el castillo en las fotos de la fiesta?
 
 De frente, con el castillo completo y algo de decoración a los lados. Retrocede lo suficiente para que quepa entero y deja que las flores o las pampas enmarquen el borde de la foto. Si el fondo tiene árboles o cortinas claras, mejor.
@@ -144,7 +164,7 @@ Evita que detrás del castillo quede la zona de servicio, la cocina o los botes 
 
 La luz también cuenta. Imagina una fiesta a mediodía con sol de frente. El blanco rebota y la foto sale quemada. Una toma con el sol de lado te da textura.
 
-Para elegir dónde colocar el castillo pensando en ruido y supervisión, revisa la [zona infantil de boda con castillo blanco](/inflables/castillo-blanco/). Las reglas de ubicación aplican igual a tu fiesta.
+Para elegir dónde colocar el castillo pensando en ruido y supervisión, revisa la zona infantil de boda con castillo blanco. Las reglas de ubicación aplican igual a tu fiesta.
 
 ## ¿Qué cambia entre una fiesta boho de cumpleaños y un evento religioso en blanco?
 
@@ -185,6 +205,16 @@ Casi todos vienen de querer decorar el castillo en lugar de decorar alrededor. R
 
 Si te faltan sillas o mesa para los niños, la [mesa infantil de 10 sillitas](/servicios/mobiliario-para-fiestas/) cuesta $550 con un inflable. Y si buscas lugar, el [directorio de lugares para fiestas en CDMX](/directorio/cdmx/) te sirve de punto de partida.
 
+## Si la fiesta es en una residencia del poniente o en Polanco
+
+En una casa con jardín cuidado el reto suele ser otro: el pasto está impecable y no quieres que se maltrate, o el único espacio abierto es una terraza. Lo que conviene saber según dónde vivas:
+
+- **Jardín de casa en Interlomas o en otra zona de Huixquilucan.** El castillo necesita su huella de 5 × 7 m a cielo abierto y 4.7 m libres hacia arriba; revisa árboles y luminarias de jardín. Para la entrega de [inflables a domicilio en Huixquilucan](/cobertura/huixquilucan/) el traslado va de $150 a $250.
+- **Casa en Cuajimalpa, rumbo a Contadero o Santa Fe.** Si tu jardín está en niveles o con desnivel, elige el área más plana, aunque no sea la principal. La cobertura de [fiestas en Cuajimalpa](/cobertura/cuajimalpa/) calcula el traslado según tu colonia.
+- **Departamento o casa en Polanco.** Si el único espacio es una terraza techada o un roof garden con pérgola, el Castillo Blanco no entra, porque va siempre a cielo abierto. En ese caso considera el Castillo Baby para niños de 1 a 3 años o busca un jardín cercano. Revisa las [entregas en Polanco](/cobertura/polanco/) y, si el evento será en la azotea del edificio, pregunta antes a la administración.
+
+En los tres casos, la regla del pasto es la misma: el anclaje se hace con cuidado, pero un inflable de este tamaño con niños brincando toda la tarde puede dejar marcas en un pasto delicado. Si eso te preocupa, coméntalo al cotizar.
+
 ## Cotiza el Castillo Blanco para tu fiesta en tonos claros
 
 Tu paleta ya está decidida y el castillo te resuelve la pieza más grande de la decoración, la que más se ve en las fotos y la que más trabajo te costaría disimular si fuera de colores. Los fines de semana se llenan, así que hoy es buen día para apartar. Mándanos estos datos y te confirmamos espacio, capacidad y disponibilidad.
@@ -195,6 +225,6 @@ Tu paleta ya está decidida y el castillo te resuelve la pieza más grande de la
 - **Edades y cantidad aproximada de niños.**
 - **Foto del jardín** y tu imagen de referencia de la decoración.
 
-La fecha se aparta con 50% de anticipo. El precio es por evento y neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según la zona en las [zonas de cobertura](/cobertura/). Compara la [tabla de precios del catálogo](/precios/) o mira el [precio y galería del Castillo Blanco](/inflables/castillo-blanco/).
+La fecha se aparta con 50% de anticipo. El precio es por evento y neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según la zona en las [zonas de cobertura](/cobertura/). Compara la [tabla de precios del catálogo](/precios/) o mira el precio y galería del Castillo Blanco.
 
 Pide tu [cotización en línea con tu paleta](/cotizar/) o escríbenos: [Cotizar castillo para fiesta en blanco](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Castillo%20Blanco%20para%20una%20fiesta%20en%20tonos%20claros).

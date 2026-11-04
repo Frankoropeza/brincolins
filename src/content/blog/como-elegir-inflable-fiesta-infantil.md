@@ -4,9 +4,10 @@ h1: "Cómo Elegir un Inflable para tu Fiesta Infantil"
 description: "Cómo elegir un inflable para fiesta infantil según edad, espacio, temática y presupuesto. Guía práctica para comparar opciones antes de rentar en CDMX."
 excerpt: "Tamaño, edad, espacio disponible, conexión eléctrica y presupuesto: todo lo que necesitas considerar para no equivocarte al rentar un brincolín en CDMX o Estado de México."
 publishDate: "2025-03-15"
+updatedDate: "2026-11-04"
 category: "Guías"
 author: "Equipo BRINCOLINS"
-readTime: "5 min"
+readTime: "13 min"
 heroImage: "/img/blog/como-elegir-inflable-fiesta-infantil/main.avif"
 heroImageAlt: "Cómo elegir inflable para fiesta infantil CDMX — guía BRINCOLINS"
 galleryImages:
@@ -29,7 +30,7 @@ howto:
     - name: "Mide tu espacio disponible"
       text: "El área de instalación se confirma al cotizar según el modelo y el espacio disponible."
     - name: "Verifica la conexión eléctrica"
-      text: "El motor inflador necesita una toma de corriente doméstica a menos de 30 metros. BRINCOLINS incluye la extensión eléctrica."
+      text: "El motor inflador necesita una toma de corriente de 110 V a menos de 20 metros del área de instalación. BRINCOLINS lleva la extensión eléctrica."
     - name: "Ajusta al presupuesto y tema de la fiesta"
       text: "Elige el modelo según la temática (princesas, piratas, jungla) y tu presupuesto: los precios van de $1,400 a $2,600 MXN con instalación, sanitización y recolección; el traslado se confirma según la zona."
     - name: "Cotiza y reserva por WhatsApp"
@@ -41,6 +42,12 @@ faqs:
     answer: "El Castillo Baby es para 1 a 3 años. Gusanitos es para 2 a 8; Dragones Rojos y Jungla, de 3 a 8; Castillo de Princesas, de 2 a 10; y Barco Pirata, Extremo y Castillo Blanco, de 3 a 12 años. Cada inflable tiene su rango de edad especificado."
   - question: "¿Cuántos niños pueden usar el inflable al mismo tiempo?"
     answer: "Depende del modelo. Nuestro equipo te confirma la capacidad exacta al reservar."
+  - question: "¿Qué inflable puedo poner bajo techo?"
+    answer: "Los modelos aptos para interiores son el Castillo Baby, que pide 3.2 m de altura libre, y el circuito Gusanitos, también con 3.2 m. Dragones Rojos, Jungla, Castillo de Princesas, Barco Pirata, Extremo y Castillo Blanco son sólo para exterior. Mide hasta el punto más bajo del techo, no hasta la losa."
+  - question: "¿Qué datos debo mandar para que me recomienden un modelo?"
+    answer: "Fecha y horario, colonia o municipio, edades y número aproximado de niños, fotos del lugar y del acceso, altura libre si hay techo o ramas, tipo de superficie y si necesitas factura. Con eso se confirma qué modelo cabe, la capacidad por turno y el traslado de tu zona."
+  - question: "¿Cuánto tarda la instalación?"
+    answer: "Entre 15 y 30 minutos según el modelo: el Castillo Baby y la Jungla en unos 15, Dragones Rojos, Gusanitos y Castillo de Princesas en unos 20, y Barco Pirata, Extremo y Castillo Blanco en unos 30. Conviene programar la llegada del equipo antes que la de los invitados."
 ---
 
 ## 1. Primero lo más importante: el espacio disponible
@@ -78,9 +85,9 @@ El inflable es el centro de atención visual de cualquier fiesta infantil. Por e
 
 ## 4. Considera la conexión eléctrica
 
-Todos los inflables necesitan una **toma de corriente estándar (127V) a menos de 30 metros** para conectar el soplador. Si tu evento es en un parque o jardín sin luz, consulta con nosotros — tenemos soluciones de generador disponibles.
+Todos los inflables necesitan una **toma de corriente de 110 V a menos de 20 metros** del área de instalación para conectar el soplador, que permanece encendido todo el evento. Si tu fiesta es en un parque o un jardín sin contacto cercano, avísalo al cotizar para revisar el caso antes de apartar.
 
-> **Importante:** El soplador consume entre 500W y 1.5kW dependiendo del modelo. Verifica que tu instalación eléctrica soporte la carga antes del evento.
+> **Importante:** Evita conectar el soplador al mismo contacto que la cafetera, el horno de microondas o el equipo de sonido. Si tienes dudas sobre tu instalación, la [guía sobre consumo eléctrico, contacto y extensión](/blog/cuanta-luz-consume-un-inflable-contacto-extension/) explica qué revisar.
 
 ## 5. Presupuesto: no solo el precio del inflable
 
@@ -99,18 +106,18 @@ Los ocho precios, de $1,400 a $2,600 MXN, están publicados con sus medidas en l
 
 | Invitados (niños) | Inflable recomendado | Precio 2026 | Capacidad simultánea |
 |---|---|---|---|
-| **Hasta 8** | [Castillo Baby](/inflables/mini-castillo/) (1-3 años) o un modelo para la edad del grupo | $1,400 – $2,600 MXN | Se confirma al cotizar |
-| **8 a 15** | Mediano: [Dragones Rojos](/inflables/dragones-rojos/), [Castillo de Princesas](/inflables/castillo-princesas/) | $1,600 – $1,800 MXN | Se confirma al cotizar |
-| **15 a 30** | Grande: [Castillo Blanco](/inflables/castillo-blanco/) o [Barco Pirata](/inflables/barco-pirata/) | $2,300 – $2,600 MXN | Se confirma al cotizar |
-| **30+ / kermés** | [Circuito Extremo](/inflables/extremo/) o combinación de inflables | $2,500 MXN | Se confirma al cotizar |
+| **Hasta 8** | Castillo Baby (1-3 años) o un modelo para la edad del grupo | $1,400 – $2,600 MXN | Se confirma al cotizar |
+| **8 a 15** | Mediano: Dragones Rojos, Castillo de Princesas | $1,600 – $1,800 MXN | Se confirma al cotizar |
+| **15 a 30** | Grande: Castillo Blanco o Barco Pirata | $2,300 – $2,600 MXN | Se confirma al cotizar |
+| **30+ / kermés** | Circuito Extremo o combinación de inflables | $2,500 MXN | Se confirma al cotizar |
 
 ### Hasta 8 invitados: no pagues de más
 
-Con pocos niños, el inflable grande puede ser innecesario. Si son bebés de 1 a 3 años, el **Castillo Baby ($1,400 MXN)** es la elección obvia. Es el modelo que usamos en la guía para organizar el [primer cumpleaños](/inflables/mini-castillo/). Para edades mayores, elige un modelo cuyo rango corresponda al grupo.
+Con pocos niños, el inflable grande puede ser innecesario. Si son bebés de 1 a 3 años, el **Castillo Baby ($1,400 MXN)** es la elección obvia. Es el modelo de la guía para organizar una [fiesta de primer cumpleaños con inflable](/blog/fiesta-primer-cumpleanos-con-inflable/). Para edades mayores, elige un modelo cuyo rango corresponda al grupo.
 
 ### 8 a 15 invitados: el punto dulce del mediano
 
-La fiesta infantil típica de CDMX. Un **modelo mediano desde $1,600 MXN** funciona bien mientras unos brincan y otros comen o juegan. Es el rango donde está el modelo más rentado del catálogo —los [Dragones Rojos](/inflables/dragones-rojos/)—. Los ocho precios y medidas están en la [página de precios](/precios/).
+La fiesta infantil típica de CDMX. Un **modelo mediano desde $1,600 MXN** funciona bien mientras unos brincan y otros comen o juegan. Es el rango donde está el modelo más rentado del catálogo, los Dragones Rojos.
 
 ### 15 a 30 invitados: aquí ya conviene el grande
 
@@ -118,7 +125,53 @@ Con más de 15 niños, el mediano puede generar fila y turnos. El **Barco Pirata
 
 ### Más de 30 niños o kermés: combina
 
-Ningún inflable individual entretiene solo a 50+ niños. Las escuelas y kermeses combinan: **Circuito Extremo** para los grandes + un mediano temático + Castillo Baby para preescolar. Separar por edades no es lujo, es seguridad. Cotiza paquete de varios inflables por WhatsApp al 55 3128 1706 — hay precio especial por volumen. Más detalle en la guía de [inflables para kermeses y eventos escolares](/servicios/inflables-para-eventos/) y en el [checklist para organizar una kermesse escolar](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/).
+Ningún inflable individual entretiene solo a 50+ niños. Las escuelas y kermeses combinan: **Circuito Extremo** para los grandes + un mediano temático + Castillo Baby para preescolar. Separar por edades no es lujo, es seguridad. Cotiza varios inflables juntos por WhatsApp al 55 3128 1706 y recibe el total en una sola respuesta. Más detalle en la guía de [inflables para kermeses y eventos escolares](/servicios/inflables-para-eventos/) y en el [checklist para organizar una kermesse escolar](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/).
+
+## 7. Variantes por tipo de espacio
+
+El mismo cumpleaños puede necesitar un modelo distinto según dónde se haga. Esta tabla cruza los lugares más comunes con lo que conviene revisar:
+
+| Lugar | Modelos que suelen funcionar | Qué revisar antes |
+|---|---|---|
+| Sala, salón techado o terraza cubierta | Castillo Baby o Gusanitos | 3.2 m libres hasta la lámpara o viga más baja y ruta de acceso |
+| Patio de casa | Castillo Baby, Gusanitos, Jungla o Dragones Rojos | Ramas, cables y tendederos por debajo de 4.2 a 4.5 m |
+| Jardín amplio | Castillo de Princesas, Barco Pirata o Castillo Blanco | 4.2 a 5.2 m libres según el modelo y superficie plana |
+| Área común de conjunto o privada | Según edades y altura disponible | Permiso de la administración, horario y contacto cercano |
+| Explanada escolar o cancha | Extremo o combinación de modelos | Superficie despejada, toma de corriente y separación por edades |
+
+Si todavía no decides si la fiesta va en casa o en un salón, la [comparativa entre salón de fiestas y fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/) te ayuda a pesar costos, espacio y logística antes de elegir el inflable.
+
+## 8. Errores comunes al elegir
+
+Estos son los tropiezos que más se repiten al rentar un brincolín por primera vez:
+
+1. **Elegir por la foto.** El modelo más llamativo puede no corresponder a la edad de los invitados.
+2. **Medir el piso y no la altura.** Una rama, un toldo o una lámpara descarta modelos aunque el suelo alcance.
+3. **Pensar en el festejado y olvidar a los primos.** Si vienen bebés y niños de primaria, uno solo rara vez cubre a todos.
+4. **Suponer que hay contacto cerca.** En jardines y áreas comunes el enchufe más próximo puede estar lejos.
+5. **Dejar la reservación para el final.** Los fines de semana se apartan primero; la fecha se asegura con el 50% de anticipo.
+6. **No preguntar el traslado.** El precio del inflable es fijo, pero el traslado depende de tu zona.
+
+## 9. Qué preguntar al cotizar
+
+Una buena cotización responde estas preguntas sin que tengas que insistir:
+
+- ¿El modelo que me interesa cabe en mi espacio con la altura que medí?
+- ¿Cuántos niños pueden entrar por turno con las edades de mi lista?
+- ¿Cuál es el total con traslado a mi colonia o municipio?
+- ¿A qué hora llega el equipo y cuánto tarda en instalarse?
+- ¿Qué pasa si llueve o si necesito reprogramar?
+- ¿El precio cambia si requiero factura? (Sí: se agrega 16% de IVA.)
+
+La atención por WhatsApp es de lunes a domingo de 8:00 a 20:00.
+
+## 10. Si tu fiesta es en Gustavo A. Madero, Ecatepec u otro municipio mexiquense
+
+En el norte de la ciudad y la zona conurbada, el tipo de casa cambia mucho de una colonia a otra. En Gustavo A. Madero hay casas con patio, unidades habitacionales con área común y calles cerradas donde las fiestas se hacen frente a la casa. En la [página de cobertura de Gustavo A. Madero](/cobertura/gustavo-a-madero/) se revisan colonias y modelos sugeridos; el traslado se confirma según la colonia.
+
+En Ecatepec son frecuentes los conjuntos habitacionales con espacios compartidos y las casas con azotea o cochera. Ahí los modelos de 5 × 3 m, como Gusanitos, Jungla o Dragones Rojos, suelen ser los que mejor se acomodan, siempre que la altura libre lo permita. El traslado va de $200 a $350; consulta los detalles en el [servicio de inflables para Ecatepec](/cobertura/ecatepec/).
+
+Si estás en otro municipio del Estado de México, el traslado va de $150 a $600 según la distancia. Revisa la [cobertura en el Estado de México](/cobertura/edomex/) para ubicar tu municipio y pide el total con tu dirección exacta antes de apartar.
 
 ## Resumen: 5 preguntas antes de reservar
 
@@ -126,6 +179,6 @@ Ningún inflable individual entretiene solo a 50+ niños. Las escuelas y kermese
 2.  ¿Qué edades tienen los niños que van a usarlo?
 3.  ¿Tenemos una toma de corriente cerca?
 4.  ¿Va con la temática de la fiesta?
-5.  ¿Cuántas horas necesitamos el inflable?
+5.  ¿Cuántas horas necesitamos el inflable? La [guía de horario para una fiesta infantil con inflable](/blog/horario-fiesta-infantil-cuantas-horas-inflable/) te ayuda a calcularlo.
 
 Con estas respuestas, nuestro equipo puede recomendarte el inflable perfecto en minutos. ¡Solo escríbenos por WhatsApp!

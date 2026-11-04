@@ -4,10 +4,10 @@ h1: "Graduación o fin de cursos con inflable: logística del festejo, de la cer
 description: "Graduación de kínder o primaria con inflable: dónde instalarlo, cómo encaja con la ceremonia, cuándo sumar el Extremo y cómo pedir factura. Aparta tu fecha."
 excerpt: "Te tocó el comité de padres y la graduación es en junio. Aquí tienes la logística del inflable: escuela o jardín, horarios, anticipo entre familias y factura."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Castillo Blanco"
 author: "Equipo BRINCOLINS"
-readTime: "11 min"
+readTime: "19 min"
 heroImage: "/img/inflables/castillo-blanco/alquiler-inflable-blanco-bodas-rosas-cdmx.avif"
 heroImageAlt: "Castillo inflable blanco sobre pasto entre arreglos florales, frente a una construcción con arcos"
 galleryImages:
@@ -50,7 +50,7 @@ Todo en orden. Para que tu chat del comité por fin descanse. Y para que tú tam
 
 La formalidad y el público. En una graduación tienes ceremonia, togas, fotos de grupo y familias completas vestidas para la ocasión. En un fin de cursos el ambiente es más relajado. Por eso tu inflable de graduación tiene que verse bien en la foto oficial.
 
-En el fin de cursos puedes elegir un modelo de colores y nadie se queja. ¿Es tu caso? La guía sobre [cómo organizar una fiesta de fin de cursos](/inflables/mini-jungla/) resuelve ese caso, con turnos para grupos grandes y temáticas mixtas.
+En el fin de cursos puedes elegir un modelo de colores y nadie se queja. ¿Es tu caso? Un modelo de colores como el [inflable Jungla para fin de cursos](/inflables/mini-jungla/) resuelve ese caso; más abajo verás cómo organizar turnos para grupos grandes.
 
 En la graduación cambian tres cosas. Hay un acto que no se puede interrumpir. Hay una dirección que pone reglas. Y estás tú, en un comité que responde ante todas las familias.
 
@@ -89,7 +89,7 @@ Imagina la foto del grupo con togas azules frente al castillo. El blanco hace qu
 
 ![Graduación de kínder al aire libre: castillo inflable blanco en jardín con cortinas, flores y mesas](/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif)
 
-¿Quieres ver cómo se integra un castillo blanco en eventos formales más grandes? Revisa la [guía de zona infantil con Castillo Blanco en bodas](/inflables/castillo-blanco/). Para decorar en tonos claros, la [decoración neutra o boho con inflable blanco](/blog/fiesta-infantil-all-white-boho-decoracion/) te da paletas listas.
+¿Quieres ver cómo se integra un castillo blanco en eventos formales más grandes? Revisa la [guía de inflables para eventos formales](/blog/inflables-eventos-formales-cdmx/). Para decorar en tonos claros, la [decoración neutra o boho con inflable blanco](/blog/fiesta-infantil-all-white-boho-decoracion/) te da paletas listas.
 
 > **¿El comité ya tiene fecha?** Mándanos el día, la alcaldía de la escuela y si es kínder o primaria; te decimos qué modelo conviene y si está libre. [Cotizar inflable para graduacion](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20somos%20el%20comite%20y%20queremos%20cotizar%20el%20Castillo%20Blanco%20para%20una%20graduacion%20de%20kinder)
 
@@ -199,6 +199,24 @@ El traslado se cobra según la zona. Si tu escuela está en el poniente, revisa 
 
 La entrega sin cargo adicional aplica sólo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco. En cualquier otro punto, te damos el costo al cotizar.
 
+## ¿Y si llueve el día de la graduación?
+
+Las graduaciones caen en junio y julio, justo en temporada de lluvias en el Valle de México. Lo habitual es que llueva por la tarde, pero no hay garantía, y el Castillo Blanco y el Extremo se instalan a cielo abierto. Con lluvia o viento fuerte, el inflable no se usa. Por eso el comité necesita un plan B antes de cobrar la cooperación, no el mismo día.
+
+Tres decisiones que conviene tomar desde la junta:
+
+1. **Hacer el festejo temprano.** Si la ceremonia es por la mañana, programa el inflable justo después, en las horas con menos probabilidad de lluvia. Un festejo que empieza a las 4 de la tarde en julio tiene más riesgo.
+2. **Tener un área techada para lo demás.** Pastel, fotos y entrega de recuerdos pueden pasar a la techumbre del patio o a un salón si se suspende el brinco. Así el festejo no se cae completo.
+3. **Valorar un modelo para bajo techo.** Si el patio de la escuela tiene techumbre alta, Gusanitos ($1,600, de 2 a 8 años) necesita 3.2 m de altura libre y está marcado como apto para interiores. Sirve para kínder; para sexto de primaria se queda chico. Mide la altura real del techo (vigas y lámparas incluidas) y mándala al cotizar.
+
+Lee las condiciones de reprogramación por lluvia antes de dar el anticipo y compártelas en el chat del comité, para que nadie se sorprenda. Si quieres más detalle sobre cómo planear en esos meses, la guía de [inflable bajo techo en temporada de lluvias](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/) explica qué medir y qué alternativas hay. Y para saber con cuánta anticipación conviene apartar en temporada alta, revisa [cuándo reservar el inflable según la temporada](/blog/cuando-reservar-inflable-temporadas-cdmx/).
+
+### Escuelas con patio de cemento en el norte y el oriente
+
+Muchas escuelas públicas y colegios particulares tienen patio cívico de cemento, a veces con techumbre parcial. Es una superficie que funciona para instalar, siempre que el área elegida esté a cielo abierto, despejada y plana; las coladeras, escalones y desniveles hay que señalarlos al cotizar.
+
+Si la escuela está en Gustavo A. Madero, por ejemplo en Lindavista, la Industrial o San Juan de Aragón, el traslado se confirma por colonia; revisa la página de [inflables para eventos escolares en Gustavo A. Madero](/cobertura/gustavo-a-madero/). Para escuelas de Ciudad Nezahualcóyotl, el envío va de $200 a $300; los detalles están en [entregas en Nezahualcóyotl](/cobertura/nezahualcoyotl/). Y si el festejo es en Ecatepec, en zonas como Ciudad Azteca, San Cristóbal o Jardines de Morelos, el envío va de $200 a $350, según la página de [renta a domicilio en Ecatepec](/cobertura/ecatepec/). En todos los casos, pregunta a la dirección por dónde puede entrar el equipo: en muchas escuelas el acceso de proveedores es una puerta lateral más angosta que la principal.
+
 ## ¿Qué debe revisar el comité el día de la graduación?
 
 Acceso, corriente, área despejada y supervisores con nombre. Si tienes esos cuatro puntos listos cuando llegamos, la instalación es rápida y el festejo arranca a tiempo. Comparte esta lista en tu grupo un día antes y asigna un responsable por punto.
@@ -222,6 +240,6 @@ Junio llega rápido y la fecha de la ceremonia ya no se mueve. Si tu comité ya 
 - **Grado y cantidad aproximada de niños**, kínder o primaria.
 - **Si el comité necesita factura**, y a nombre de quién.
 
-La fecha se aparta con 50% de anticipo. Los precios son netos y por evento, con instalación y recolección incluidas; con factura se agrega 16% de IVA, y el traslado se cobra según la zona. Compara los [precios netos del catálogo](/precios/) o ve directo a [apartar el Castillo Blanco en temporada de graduaciones](/inflables/castillo-blanco/).
+La fecha se aparta con 50% de anticipo. Los precios son netos y por evento, con instalación y recolección incluidas; con factura se agrega 16% de IVA, y el traslado se cobra según la zona. Compara los [precios netos del catálogo](/precios/) o revisa otra vez la ficha del Castillo Blanco antes de apartar.
 
 Usa la [cotización en línea para el comité](/cotizar/) o escríbenos directo: [Apartar inflable para la graduacion](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20queremos%20apartar%20el%20Castillo%20Blanco%20para%20la%20graduacion%20de%20la%20escuela).

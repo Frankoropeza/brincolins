@@ -4,10 +4,10 @@ h1: "Cómo integrar una zona infantil en una pedida de mano o fiesta de compromi
 description: "Zona infantil en pedida de mano: organiza el Castillo Blanco, horarios, ubicación, supervisión y logística en CDMX sin romper el ambiente."
 excerpt: "Una pedida de mano puede incluir niñas y niños sin convertir la reunión en una fiesta infantil. Planea una zona de juego con horario, distancia y responsables claros."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-02"
+updatedDate: "2026-11-04"
 category: "Castillo Blanco"
 author: "Equipo BRINCOLINS"
-readTime: "10 min"
+readTime: "18 min"
 heroImage: "/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif"
 heroImageAlt: "Castillo Blanco de BRINCOLINS instalado en un espacio exterior"
 galleryImages:
@@ -52,7 +52,7 @@ El punto no es encender un brincolín desde que llegan los invitados. Es decidir
 
 Una pedida de mano suele reunir a dos familias que quizá conviven por primera vez durante varias horas. Para los adultos, el centro es la conversación, el brindis y la reacción de la pareja. Para los niños, ese ritmo puede ser largo. Una estación de juego evita que terminen corriendo alrededor de la mesa de postres o buscando a sus papás entre quienes toman fotos.
 
-El Castillo Blanco aporta una presencia más sobria que un modelo temático de colores intensos. Eso no significa que sea un adorno ni una atracción para adultos: es una zona de uso infantil con condiciones propias. La [guía completa del castillo inflable blanco](/inflables/castillo-blanco/) explica sus medidas y límites; para una pedida, la diferencia está en integrarlo al orden del evento.
+El Castillo Blanco aporta una presencia más sobria que un modelo temático de colores intensos. Eso no significa que sea un adorno ni una atracción para adultos: es una zona de uso infantil con condiciones propias. Su ficha explica medidas y límites; para una pedida, la diferencia está en integrarlo al orden del evento.
 
 Piensa en la zona infantil como una respuesta a tres necesidades concretas:
 
@@ -77,7 +77,7 @@ En una pedida no hace falta que la zona infantil opere de principio a fin. De he
 
 Este esquema no pretende imponer un guion. Si la propuesta será al atardecer, quizá convenga abrir el inflable antes del brindis y pausarlo diez minutos antes. Si es una comida de domingo, puede funcionar mejor después de las fotos. La decisión útil es fijar un bloque, comunicarlo a quien supervisa y no dejar que el horario quede a la improvisación.
 
-Para un evento con ceremonia y recepción más largas, la guía de [zona infantil con Castillo Blanco en una boda](/inflables/castillo-blanco/) ofrece otra forma de separar los tiempos sin trasladar automáticamente el programa de una boda a una pedida.
+En una boda, con ceremonia y recepción más largas, los tiempos se separan de otra forma; no traslades automáticamente ese programa a una pedida.
 
 ## ¿Dónde queda bien una zona infantil sin invadir la pedida?
 
@@ -123,7 +123,7 @@ Quien supervise debe poder atender esa tarea sin estar simultáneamente organiza
 
 Si las niñas y los niños llevarán vestidos, camisas claras, trajes o zapatos especiales, define primero la sesión de fotos. Después pueden quitarse el calzado y usar el juego por turnos. La guía para [niños con ropa formal dentro de un inflable](/blog/inflables-eventos-formales-cdmx/) profundiza en ese orden sin prometer que las prendas delicadas no se manchen.
 
-La iluminación también pesa. En una propuesta que empieza tarde, abre el juego mientras el jardín aún tiene buena visibilidad y termina el bloque antes de que sea difícil vigilar entradas y salidas. Si quieres fotografías del inflable como parte del montaje, las recomendaciones de [fotos con inflable blanco según luz y horario](/inflables/castillo-blanco/) te ayudan a elegir el momento sin convertir a los niños en utilería de la pedida.
+La iluminación también pesa. En una propuesta que empieza tarde, abre el juego mientras el jardín aún tiene buena visibilidad y termina el bloque antes de que sea difícil vigilar entradas y salidas. Si quieres fotografías del inflable como parte del montaje, las fotos de la ficha del Castillo Blanco te ayudan a elegir el momento sin convertir a los niños en utilería de la pedida.
 
 ## ¿Qué cambia si la pedida es en Polanco, Lomas o Miguel Hidalgo?
 
@@ -137,6 +137,32 @@ En la zona poniente, el reto frecuente es coordinar la entrada de proveedores co
 
 La página de [renta de inflables en Polanco, Lomas y Santa Fe](/cobertura/polanco/) reúne la cobertura específica de la zona poniente. Si la sede está en otra colonia de la alcaldía, revisa la [cobertura de inflables en Miguel Hidalgo](/cobertura/miguel-hidalgo/) antes de estimar el traslado. Para una reunión en cualquier otra alcaldía, la [cobertura de inflables en CDMX](/cobertura/cdmx/) indica las zonas atendidas y qué traslados deben confirmarse por colonia.
 
+## ¿Y si también van bebés o niños menores de 3 años?
+
+En las pedidas es común que haya sobrinos de todas las edades. El Castillo Blanco es para 3 a 12 años, así que los bebés no deben entrar ahí, ni siquiera con un adulto. Tienes dos caminos:
+
+- **Un segundo espacio para los más chicos.** El [Castillo Baby](/inflables/mini-castillo/) ($1,400) es para 1 a 3 años, mide 2.5 × 2 × 2 m y está marcado como apto para interiores (necesita 3.2 m de altura libre). Puede ir en una terraza techada o en un rincón del salón, separado del castillo grande, con su propio adulto a cargo.
+- **Una zona sin inflable.** Tapetes, juguetes de bloques y una mesita, cerca de donde están los papás. Para bebés de meses suele ser suficiente y no requiere instalación.
+
+Lo que no conviene es mezclar a un niño de 10 años con uno de 2 en el mismo inflable. La diferencia de tamaño es justo lo que causa choques.
+
+## Checklist del día de la pedida
+
+Quien coordine a los proveedores puede usar esta lista para que la zona infantil no le quite atención al evento:
+
+1. **Antes de que llegue el equipo:** área despejada, toma de 110V ubicada y una persona que reciba en la entrada. El Castillo Blanco tarda unos 30 minutos en instalarse.
+2. **Antes de los invitados:** confirmar que el inflable no aparece en el fondo de fotos de la pareja y que la ruta de meseros no pasa frente a la entrada del juego.
+3. **Durante la llegada y el anillo:** zona cerrada. Si los niños preguntan, ya saben a qué hora abre.
+4. **Al abrir:** anunciar las reglas una sola vez (sin zapatos, sin comida, turnos) y dejar a la persona responsable junto a la entrada.
+5. **Durante la comida y el brindis:** pausa.
+6. **Al caer la tarde:** cerrar antes de que oscurezca o de que baje mucho la temperatura.
+
+### Pedidas en jardines del poniente y del Valle de Toluca
+
+Además de Polanco y Lomas, muchas pedidas se hacen en casas y jardines de eventos fuera del centro. En Metepec, con jardines amplios y quintas, el envío va de $400 a $600; como el Valle de Toluca es más frío por la altitud, conviene abrir la zona infantil temprano y cerrarla antes de que caiga la tarde. Los detalles están en [inflables para eventos en Metepec](/cobertura/metepec/). En Cuajimalpa, entre casas de Contadero, San Mateo Tlaltenango o la zona de Santa Fe, son comunes los terrenos con pendiente y accesos con caseta; manda fotos de la ruta y revisa [el servicio a domicilio en Cuajimalpa](/cobertura/cuajimalpa/). Y si la reunión es en una casa de San Jerónimo o en el área de La Magdalena, el traslado se confirma según la colonia en [renta de brincolines en Magdalena Contreras](/cobertura/magdalena-contreras/).
+
+Si la pedida será en una quinta o jardín de eventos, pregunta lo mismo que en un salón: si aceptan inflables, a qué hora entra el proveedor y dónde está el contacto. La guía de [fiesta en quinta o jardín de eventos](/blog/fiesta-en-quinta-o-jardin-de-eventos-edomex/) tiene la lista completa. Y si la fecha cae entre diciembre y febrero, revisa también cómo cuidar a los niños en [fiestas al aire libre en temporada de frío](/blog/fiesta-infantil-en-invierno-al-aire-libre-cdmx/).
+
 ## ¿Cuánto cuesta planear esta zona infantil sin confundir conceptos?
 
 La renta neta del Castillo Blanco es de $2,600 por evento. Incluye instalación, motor inflador, sanitización y recolección. El traslado depende de la dirección y, si requieres factura, se agrega 16% de IVA a la renta. No incluyas en esa cantidad globos, mobiliario, flores, alimentos ni supervisión adicional si no aparecen expresamente en tu cotización.
@@ -149,7 +175,7 @@ La renta neta del Castillo Blanco es de $2,600 por evento. Incluye instalación,
 | Factura | 16% de IVA sobre la renta si la solicitas | Que aparezca desglosado |
 | Decoración y actividades extra | No se dan por incluidas | Proveedor, diseño y presupuesto por separado |
 
-Antes de enviar anticipo, compara los conceptos con el [desglose de renta, traslado e IVA del Castillo Blanco](/inflables/castillo-blanco/) y revisa los [precios publicados de inflables](/precios/). La fecha se aparta con la mitad del total como anticipo; si el plan depende del clima o del venue, lee la [política de cancelación y cambio de fecha](/politica-de-cancelacion/) para saber qué aplica a tu caso.
+Antes de enviar anticipo, compara los conceptos de la tabla anterior y revisa los [precios publicados de inflables](/precios/). La fecha se aparta con la mitad del total como anticipo; si el plan depende del clima o del venue, lee la [política de cancelación y cambio de fecha](/politica-de-cancelacion/) para saber qué aplica a tu caso.
 
 ## ¿Qué detalles debes mandar para cotizar la pedida de mano?
 

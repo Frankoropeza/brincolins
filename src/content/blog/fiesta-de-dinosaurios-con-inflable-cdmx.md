@@ -4,10 +4,10 @@ h1: "Fiesta de dinosaurios con el inflable Jungla: excavación, juegos de paleon
 description: "Fiesta de dinosaurios con el inflable Jungla en CDMX: zona de excavación, huevos sorpresa, juegos de paleontólogo y menú para 3 a 8 años. Cotiza tu fecha."
 excerpt: "Huellas desde la puerta, huevos que se rompen con cuchara y un inflable que ya trae dinosaurios. Así montas la expedición completa sin gastar de más."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Jungla"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "19 min"
 heroImage: "/img/inflables/mini-jungla.avif"
 heroImageAlt: "Inflable Jungla para fiesta de dinosaurios, con palmeras, resbaladilla naranja y dinosaurios verde y morado"
 galleryImages:
@@ -51,7 +51,7 @@ Piensa en lo que te costaría ese impacto con globos y telones. Te saldría caro
 
 ### Lo que trae el inflable y lo que pones tú
 
-Los datos que te sirven para planear son pocos. Mide 5 × 3 × 2.50 m, es para niños de 3 a 8 años, se instala en unos 15 minutos y cuesta $1,600 por evento. Llega revisado y sanitizado, lo instalamos con anclaje verificado y el motor profesional trabaja durante todo el evento. Las fotos y la disponibilidad están en la [galería del inflable Jungla](/inflables/mini-jungla/). Si tienes dudas sobre la toma, el piso o la altura, mándanos una foto del área y te decimos si tu espacio funciona o si conviene otro modelo.
+Los datos que te sirven para planear son pocos. Mide 5 × 3 × 2.50 m, es para niños de 3 a 8 años, se instala en unos 15 minutos y cuesta $1,600 por evento. Llega revisado y sanitizado, lo instalamos con anclaje verificado y el motor profesional trabaja durante todo el evento. Las fotos y la disponibilidad están en la ficha del modelo, enlazada arriba. Si tienes dudas sobre la toma, el piso o la altura, mándanos una foto del área y te decimos si tu espacio funciona o si conviene otro modelo.
 
 Tu parte es corta, pero no es opcional. Necesitas una toma de corriente, el área despejada y una persona adulta que supervise todo el tiempo. Sin esas tres cosas no hay fiesta, con o sin dinosaurios.
 
@@ -181,7 +181,7 @@ Este reparto sostiene el ritmo con un solo inflable:
 - **2:15 a 2:45, museo de fósiles.** Segunda ronda de turnos para quien ya hizo la digestión.
 - **2:45 a 3:30, pastel y cierre.** Ruptura de huevos de yeso y salida escalonada.
 
-Pon una alarma para cada cambio. Quien lleva el tiempo no debe ser quien cuida la entrada del inflable. ¿Organizas un cierre de ciclo escolar en lugar de un cumpleaños? La logística cambia, y la tienes en la guía de [fin de cursos con inflable](/inflables/mini-jungla/).
+Pon una alarma para cada cambio. Quien lleva el tiempo no debe ser quien cuida la entrada del inflable. ¿Organizas un cierre de ciclo escolar en lugar de un cumpleaños? La logística cambia, y la tienes en la guía de [graduación o fin de cursos con inflable](/blog/graduacion-kinder-primaria-con-inflable/).
 
 ## ¿Jungla o Dragones Rojos si el festejado ama los dinosaurios?
 
@@ -189,9 +189,30 @@ Si el tema es dinosaurios, el Jungla es la opción directa: trae dinosaurios y p
 
 Los [Dragones Rojos, con dos dragones de unos 3 m](/inflables/dragones-rojos/), son el modelo más rentado, con resbaladilla integrada y mallas de seguridad laterales. Miden 5 × 3 × 2.80 m y piden 4.5 m de altura libre, contra 4.2 m del Jungla. Si tu espacio tiene la altura justa, esos 30 centímetros deciden.
 
-¿El festejado mezcla dinosaurios con dragones y castillos? Entonces los Dragones Rojos también funcionan. Para ver todos los diseños con historia propia entra a los [catálogo de inflables con temática](/inflables/tematicos/). Y si la fiesta podría terminar bajo techo, compara antes [Jungla o Gusanitos según tu espacio](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/).
+¿El festejado mezcla dinosaurios con dragones y castillos? Entonces los Dragones Rojos también funcionan. Para ver todos los diseños con historia propia entra al [catálogo de inflables con temática](/inflables/tematicos/). Y si la fiesta podría terminar bajo techo, compara antes [Jungla o Gusanitos según tu espacio](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/).
 
 > **Los sábados se llenan primero.** La disponibilidad se confirma por WhatsApp: dinos tu fecha y te decimos si el Jungla o los Dragones Rojos están libres para tu fiesta. [Preguntar disponibilidad del Jungla](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20el%20Jungla%20esta%20disponible%20para%20mi%20fiesta%20de%20dinosaurios)
+
+## ¿Cómo adaptas la excavación a tu tipo de espacio?
+
+La excavación es la actividad que más ensucia, así que su lugar depende del piso que tengas. El inflable tiene sus propios requisitos; el arenero, otros. Esta tabla resume qué cambia en cada caso:
+
+| Espacio | Dónde va el arenero | Qué cuidar con el Jungla |
+|---|---|---|
+| Jardín con pasto | Sobre una lona, lejos de la entrada del inflable | Pasto corto, sin hoyos ni piedras; 4.2 m libres bajo los árboles |
+| Patio de cemento | En una tina o alberca inflable chica, con tapete alrededor | Avisar al cotizar que es cemento; barrer antes |
+| Área común de condominio | En la orilla del área asignada, lejos de pasillos | Permiso de la administración y toma de corriente cercana |
+| Explanada o terreno | Junto a la mesa, a la sombra | Superficie plana, sin vidrio; distancia a la toma de 110 V |
+
+Tres reglas sirven en cualquier espacio. La arena no se acerca al inflable, porque los niños la meten en los zapatos y luego a la lona. Pon una cubeta con agua o un trapo húmedo para sacudir manos antes de entrar al brincolín. Y al final, la arena se cubre: si queda destapada, el lunes es arenero de gatos.
+
+Si no sabes cómo se comporta tu piso con un inflable, la guía de [instalación en pasto, cemento o tierra](/blog/donde-instalar-inflable-pasto-cemento-tierra/) resuelve las dudas típicas.
+
+## Fiestas de dinosaurios en el norte del valle
+
+En el norte de la Ciudad de México y en los municipios vecinos del Estado de México es común festejar en patios de cemento, en la calle cerrada de una privada o en el área común de un conjunto habitacional. Para el Jungla eso funciona bien siempre que haya superficie plana, 4.2 m libres hacia arriba y una toma cerca. Lo que suele fallar es la altura: cables de luz que cruzan el patio, tendederos y techos de lámina.
+
+Antes de cotizar, toma una foto del lugar desde lejos, de modo que se vea qué hay arriba. Con eso te respondemos más rápido. Si tu fiesta es en una casa de Lindavista o en cualquier colonia de la alcaldía, revisa [cómo llegamos a Gustavo A. Madero](/cobertura/gustavo-a-madero/). Del lado del Estado de México, consulta [traslado y zonas atendidas en Tlalnepantla](/cobertura/tlalnepantla/), la [cobertura en Ecatepec para conjuntos y casas](/cobertura/ecatepec/) y, si tienes jardín en una zona residencial, lo que aplica para [fiestas en Atizapán de Zaragoza](/cobertura/atizapan/). En condominios, pide el permiso a la administración con tiempo y confirma a qué hora se puede instalar.
 
 ## ¿Qué descuidos echan a perder una fiesta de dinosaurios con inflable?
 
@@ -224,7 +245,7 @@ El [paquete fiesta con inflable y pintacaritas](/servicios/paquetes-de-fiesta/) 
 
 ## Aparta la fecha de tu expedición prehistórica
 
-Cada semana que pasa, tu sábado tiene menos opciones libres. No lo dejes al final. Mándanos estos datos y te contestamos con precio, disponibilidad y lo que necesita tu espacio:
+Cada semana que pasa, tu sábado tiene menos opciones libres. No lo dejes al final: en la guía de [cuándo reservar según la temporada](/blog/cuando-reservar-inflable-temporadas-cdmx/) verás qué fechas se llenan antes. Mándanos estos datos y te contestamos con precio, disponibilidad y lo que necesita tu espacio:
 
 - Fecha y hora aproximada de la fiesta.
 - Alcaldía o municipio y colonia, para calcular el traslado.

@@ -4,10 +4,10 @@ h1: "Cómo organizar una fiesta de 6 años con un brincolín de dragón"
 description: "Planea una fiesta de 6 años con brincolín de dragón: horarios, turnos, juegos, menú y consejos para rentarlo en CDMX sin perder tiempo."
 excerpt: "A los seis años los niños ya siguen una consigna corta, disfrutan competir sin que todo sea carrera y todavía quieren brincar. Un inflable de dragón puede ordenar la tarde si lo usas por bloques."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-02"
+updatedDate: "2026-11-04"
 category: "Dragones Rojos"
 author: "Equipo BRINCOLINS"
-readTime: "9 min"
+readTime: "12 min"
 heroImage: "/img/inflables/dragones-rojos/dragones-rojos-brincolin-evento.avif"
 heroImageAlt: "Brincolín Dragones Rojos con dragones decorativos y resbaladilla integrada"
 galleryImages:
@@ -52,7 +52,7 @@ El modelo Dragones Rojos tiene sentido si la mayoría de los invitados está ent
 
 A los seis años un niño ya suele participar en juegos con una regla y un objetivo visible: encontrar una pista, reunir tres piezas o lograr que su equipo termine un reto. El inflable no necesita convertirse en una competencia permanente. Su valor está en darles un lugar claro para brincar y deslizarse entre las demás actividades.
 
-Dragones Rojos es un modelo mediano de exterior que se instala en alrededor de 20 minutos. Su precio de renta es $1,600 por evento, neto; el traslado depende de la colonia y el IVA se agrega únicamente si requieres factura. La [guía para elegir Dragones Rojos](/inflables/dragones-rojos/) explica cuándo este modelo corresponde al espacio y cuándo conviene mirar otra alternativa.
+Dragones Rojos es un modelo mediano de exterior que se instala en alrededor de 20 minutos. Su precio de renta es $1,600 por evento, neto; el traslado depende de la colonia y el IVA se agrega únicamente si requieres factura. La [comparativa de Dragones Rojos, Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/) explica cuándo este modelo corresponde al espacio y cuándo conviene mirar otra alternativa del mismo precio.
 
 Si la lista incluye hermanos mayores de nueve años, no les prometas que usarán el mismo juego: su rango publicado termina a los 8. Para un grupo muy mezclado, puedes organizarles una actividad fuera del inflable o comparar un modelo para mayores. Tampoco entran niños menores de 3; para ellos está el [Castillo Baby para fiestas con niños pequeños](/inflables/mini-castillo/).
 
@@ -80,7 +80,7 @@ El tema de dragones permite que el festejo tenga coherencia sin comprar decoraci
 - **Relevo de tesoros:** lleva una pelota suave o una bolsita de tela de un cono a otro sin empujarse. El punto de regreso debe estar separado del inflable.
 - **Pregunta del guardián:** antes de iniciar un turno, cada niño responde una adivinanza corta o elige una tarjeta de color. No elimina a nadie; sólo organiza la fila con calma.
 
-La [selección de juegos para una fiesta de 5 años](/blog/fiesta-de-5-anos-ideas-juegos-cdmx/) también aporta ideas que siguen funcionando a los seis si simplificas las reglas. Si quieres que el inflable sea una estación de una temática completa, la [fiesta de caballeros y dragones en CDMX](/inflables/dragones-rojos/) desarrolla una ambientación distinta, con escudos y pistas, sin depender de personajes con licencia.
+La [selección de juegos para una fiesta de 5 años](/blog/fiesta-de-5-anos-ideas-juegos-cdmx/) también aporta ideas que siguen funcionando a los seis si simplificas las reglas. Si quieres que el inflable sea una estación de una temática completa, la [fiesta de caballeros y dragones en CDMX](/blog/fiesta-de-dragones-y-caballeros-ideas/) desarrolla una ambientación distinta, con escudos y pistas, sin depender de personajes con licencia.
 
 ## ¿Cómo organizas los turnos en el brincolín de dragón?
 
@@ -110,13 +110,39 @@ Un menú práctico no requiere nombres temáticos ni porciones gigantes. Conside
 
 Pregunta con anticipación si algún invitado tiene una restricción alimentaria; no hace falta anunciarla durante el festejo, basta con reservar una opción identificada. El segundo bloque de juego empieza hasta que el grupo haya tenido un descanso razonable, no al terminar la última mordida.
 
-## ¿Qué revisas en el patio de CDMX antes de reservar?
+## ¿Qué revisas en el patio antes de reservar?
 
 Para esta **fiesta de 6 años**, mide el lugar pensando también en las personas que caminan alrededor. Dragones Rojos mide 5 × 3 × 2.80 m, pero el área de instalación se confirma al cotizar. Revisa hacia arriba: necesita 4.5 m de altura libre, por lo que un toldo, cables, lámparas o ramas bajas pueden cambiar el sitio de montaje.
 
 Ten lista una foto abierta del patio o jardín, otra del acceso desde la calle y una hacia el techo o cielo. La base debe estar plana, despejada y sin vidrio ni objetos punzantes; además, se necesita una toma de 110 V a menos de 20 metros. Si será en un área común, consulta con la administración sobre el registro de proveedor y el horario de acceso antes de dejar anticipo.
 
 BRINCOLINS cubre las 16 alcaldías. La [cobertura de renta de inflables en CDMX](/cobertura/cdmx/) indica que el traslado cuesta entre $100 y $300 según la zona, con condiciones particulares por colonia; Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco no tienen costo adicional. Para una casa en Coyoacán Centro, Villa Coapa o Copilco, el traslado y el acceso se confirman en la [cobertura de inflables en Coyoacán](/cobertura/coyoacan/), no se asumen por cercanía.
+
+## ¿Y si la fiesta es en Tecámac o Texcoco?
+
+Los dos municipios están en el oriente y nororiente del Estado de México, pero el tipo de espacio suele ser distinto, y eso cambia lo que revisas antes de apartar.
+
+**En Tecámac** muchas familias viven en conjuntos habitacionales con jardín o explanada común. Ahí el reto no es el tamaño, sino los permisos: reserva el área con la administración, pregunta de dónde sale la corriente de 110 V y avisa en la caseta la hora de llegada. Si el área común tiene juegos fijos, bancas o postes, el inflable va donde quede despejado de ellos, no donde se vea mejor en las fotos. Para la zona y el traslado, consulta el [servicio de inflables a domicilio en Tecámac](/cobertura/tecamac/).
+
+**En Texcoco** son más comunes las casas con terreno amplio y las quintas que se rentan para fiestas. El espacio sobra, pero el piso no siempre es parejo: tierra suelta, piedras o pasto crecido. Pide que el área esté limpia y plana antes del montaje, y ubica la toma de corriente, porque en un terreno grande es fácil que quede a más de 20 m del punto donde quieres el inflable. Los detalles de traslado están en la [cobertura de BRINCOLINS en Texcoco](/cobertura/texcoco/). Si la fiesta va en un lugar rentado, revisa antes las [preguntas para una quinta o jardín de eventos en Edomex](/blog/fiesta-en-quinta-o-jardin-de-eventos-edomex/).
+
+| Municipio | Espacio frecuente | Lo que más conviene confirmar | Traslado |
+|---|---|---|---|
+| Tecámac | Jardín o explanada de conjunto | Reserva del área, toma de corriente, acceso en caseta | $250 a $400 |
+| Texcoco | Terreno propio o quinta | Piso plano y limpio, distancia a la toma, altura libre bajo árboles | $250 a $400 |
+
+En ambos casos el Dragones Rojos sigue pidiendo lo mismo: exterior, superficie plana, 4.5 m de altura libre y una persona adulta en la entrada durante todo el evento.
+
+## ¿Qué errores conviene evitar en una fiesta de 6 años?
+
+La mayoría salen de tratar a un grupo de primero de primaria como si fuera de kínder, o al revés. Repasa esta lista antes de la fecha:
+
+- **Juegos demasiado infantiles.** A los 6 ya quieren una misión con objetivo; un juego sin meta se acaba en dos minutos.
+- **Competencias con eliminación.** Todavía les cuesta perder frente a todos. Mejor retos por equipo donde todos llegan al final.
+- **Abrir el inflable sin reglas dichas.** Repite las tres reglas (sin zapatos, sin comida, bajar sentado) antes del primer turno, no cuando ya hubo un choque.
+- **Juntar a los de 6 con los de 2 o 3.** El rango del Dragones Rojos empieza en 3, pero la diferencia de tamaño en un mismo turno provoca golpes.
+- **Olvidar el plan de lluvia.** De junio a septiembre llueve con frecuencia en el Valle de México; ten un techo para comida y pastel.
+- **Dar la dirección incompleta al cotizar.** Sin colonia ni fotos no se puede confirmar traslado ni acceso.
 
 ## ¿Cuándo conviene sumar mobiliario o elegir otro modelo?
 
@@ -126,7 +152,7 @@ Si lo que más entusiasma al festejado es deslizarse, Dragones Rojos ofrece una 
 
 Cuando el grupo de amigos ya va a cumplir siete, cambian tanto los retos como la duración de los turnos. Para anticipar ese siguiente festejo, toma ideas de la [fiesta de 7 años con castillo inflable](/blog/fiesta-de-7-anos-nina-ideas-castillo/) y adapta sólo las actividades que hagan sentido para tu grupo.
 
-Cuando el presupuesto sea el punto de partida, revisa el desglose en [precio de renta de un inflable de dragones](/inflables/dragones-rojos/) y contrástalo con la [lista de precios de inflables](/precios/). Ahí verás qué parte corresponde a la renta, qué se confirma por traslado y cuándo aplica IVA.
+Cuando el presupuesto sea el punto de partida, toma el precio del Dragones Rojos ($1,600 netos) y contrástalo con la [lista de precios de inflables](/precios/). Ahí verás qué parte corresponde a la renta, qué se confirma por traslado y cuándo aplica IVA.
 
 ## ¿Cómo dejas lista la fiesta de 6 años para cotizar?
 

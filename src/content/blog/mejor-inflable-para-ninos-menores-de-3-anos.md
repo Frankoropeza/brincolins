@@ -4,10 +4,10 @@ h1: "Inflable para niños de 1 a 3 años: Castillo Baby, Gusanitos o Castillo de
 description: "Inflable para niños de 1 a 3 años en CDMX: compara medidas, edades, altura libre y precio del Castillo Baby, el Gusanitos y el Castillo de Princesas."
 excerpt: "Tres modelos aceptan menores de 3 años, pero sólo uno empieza al año. Compara edades, espacio y precio y elige el que de verdad le toca a tu fiesta."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Castillo Baby"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "20 min"
 heroImage: "/img/inflables/mini-castillo.avif"
 heroImageAlt: "Castillo Baby, inflable para niños de 1 a 3 años, con techo azul y arcos amarillos sobre pasto"
 galleryImages:
@@ -169,7 +169,7 @@ La comparativa sirve para cualquier evento, pero cada festejo tiene su propia lo
 
 ### Cumpleaños
 
-¿Tu hijo cumple uno o dos? Para el primer año, la guía para [planear el cumpleaños número uno](/inflables/mini-castillo/) cubre horario, duración e invitados. Para el segundo, la guía de la [fiesta de 2 años con horario de siesta](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) agrega actividades, comida y la cuenta entre paquete y renta por separado.
+¿Tu hijo cumple uno o dos? Para el primer año, la guía para [planear el cumpleaños número uno](/blog/fiesta-primer-cumpleanos-con-inflable/) cubre horario, duración e invitados. Para el segundo, la guía de la [fiesta de 2 años con horario de siesta](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) agrega actividades, comida y la cuenta entre paquete y renta por separado.
 
 ### Bautizos y comidas familiares
 
@@ -195,7 +195,7 @@ Un brincolín es la estrella de cualquier fiesta infantil, pero combinarlo con o
 
 Una mesa de manualidades con plastilina, colores y hojas para dibujar es perfecta para los momentos de descanso entre turnos del brincolín. Los niños pequeños disfrutan mucho las actividades manuales y esto les da una alternativa tranquila cuando necesitan un respiro.
 
-Las burbujas de jabón son otro complemento fantástico. Son económicas, seguras para todas las edades y fascinan a los niños pequeños. Puedes tener una máquina de burbujas cerca del área del inflable para crear un ambiente mágico.
+Las burbujas de jabón son otro complemento fantástico. Son económicas, seguras para todas las edades y fascinan a los niños pequeños. Puedes tener una máquina de burbujas cerca del área del inflable, pero no dentro: el jabón deja la base resbalosa.
 
 Si el espacio lo permite, una pequeña pista de obstáculos con conos y túneles de tela complementa perfectamente al brincolín y mantiene a los niños activos y entretenidos con variedad de estímulos.
 
@@ -209,6 +209,36 @@ En elegir por foto y no por edad, y casi todos los demás errores salen de ahí.
 - **Un solo inflable para bebés y niños de 9.** Si tu lista mezcla los dos grupos, lo indicado son dos modelos separados.
 - **Dejar la supervisión al aire.** Una persona adulta en la entrada durante todo el evento, con relevos.
 - **Asumir la capacidad.** El número de niños por turno se confirma al cotizar, no se calcula al ojo.
+
+## ¿Cómo armas el horario cuando los invitados son bebés?
+
+Con niños de 1 a 3 años, el reloj lo marcan la siesta y la comida, no el inflable. Una fiesta de bebés rinde mejor si es corta y empieza cuando los niños están descansados. Un esquema que funciona en casa o en jardín:
+
+| Momento | Qué pasa | Detalle para bebés |
+|---|---|---|
+| Antes de que lleguen | Inflable armado y revisado | El montaje del Castillo Baby toma 15 minutos; que quede listo antes del primer invitado |
+| Primera hora | Turnos cortos en el inflable | Grupos chicos, sin zapatos, con un adulto en la entrada |
+| Comida | Inflable en pausa | Nadie entra con comida ni recién comido |
+| Pastel y fotos | Junto al inflable, no adentro | El inflable sirve de fondo para la foto |
+| Cierre | Último turno y despedida | Antes de la hora de la siesta de la tarde |
+
+Para calcular cuántas horas te conviene tener el inflable armado y en qué orden van comida, pastel y turnos, revisa la guía de [cuántas horas dura la fiesta y la renta del inflable](/blog/horario-fiesta-infantil-cuantas-horas-inflable/).
+
+### Qué preguntar al cotizar si la fiesta es para bebés
+
+- ¿El modelo que elegí es apto para la edad exacta de mi festejado?
+- ¿Cuánto espacio libre necesito alrededor en mi patio, terraza o salón?
+- ¿Cuántos niños de esa edad entran por turno?
+- ¿A qué hora llega el equipo para que el inflable quede armado antes de la fiesta?
+- ¿Cuánto es el traslado a mi colonia o municipio?
+
+## Si la fiesta de tu bebé es en el sur de la CDMX, en Atizapán o en Metepec
+
+Las fiestas de 1 y 2 años suelen hacerse en casa, y eso cambia según dónde vives. En [Coyoacán, de Copilco a Villa Coapa](/cobertura/coyoacan/), abundan las casas con patio pequeño y los departamentos: ahí el Castillo Baby suele ser la opción que cabe, y el traslado se confirma según la colonia.
+
+Al poniente del Estado de México, los fraccionamientos de [Atizapán, como Ciudad López Mateos o Rancho Contento](/cobertura/atizapan/), tienen jardines privados y áreas comunes donde puedes poner dos inflables si tu lista mezcla bebés y primos mayores; el traslado ahí va de $200 a $300.
+
+En el valle de Toluca, las [fiestas a domicilio en Metepec](/cobertura/metepec/) tienen una consideración extra: por la altitud, las tardes son más frías que en la Ciudad de México. Con bebés, conviene una fiesta de mediodía, una zona con sombra para el sol fuerte y una cobija o suéter a la mano para cuando baje la temperatura. Si tu fecha cae entre diciembre y febrero, la guía de [fiesta infantil en invierno al aire libre](/blog/fiesta-infantil-en-invierno-al-aire-libre-cdmx/) te da más ideas. El traslado a Metepec va de $400 a $600.
 
 > **Dos inflables, una sola cotización.** Si tu fiesta junta bebés y niños grandes, te cotizamos el Castillo Baby con el Gusanitos o con el Castillo de Princesas. [Cotizar dos inflables para mi fiesta](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Castillo%20Baby%20junto%20con%20otro%20inflable%20para%20ninos%20mayores)
 
@@ -224,4 +254,4 @@ Los fines de semana se llenan, y la disponibilidad se confirma por WhatsApp. Ya 
 
 La fecha se aparta con 50% de anticipo. El precio es por evento y neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona, como ves en las [zonas de cobertura para tu fiesta](/cobertura/).
 
-Si ya sabes que es para bebés de 1 a 3 años, revisa la [disponibilidad del Castillo Baby para tu fecha](/inflables/mini-castillo/) y escríbenos al [WhatsApp para apartar el inflable de los más chicos](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20un%20inflable%20para%20ninos%20de%201%20a%203%20anos) o pide la [cotización del inflable para bebés](/cotizar/). Atendemos de lunes a domingo de 8:00 a 20:00.
+Si ya sabes que es para bebés de 1 a 3 años, revisa la disponibilidad del Castillo Baby para tu fecha y escríbenos al [WhatsApp para apartar el inflable de los más chicos](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20un%20inflable%20para%20ninos%20de%201%20a%203%20anos) o pide la [cotización del inflable para bebés](/cotizar/). Atendemos de lunes a domingo de 8:00 a 20:00.

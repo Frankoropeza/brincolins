@@ -3,9 +3,10 @@ title: "Cómo Planear un Cumpleaños Infantil Completo en CDMX"
 description: "Planea el cumpleaños infantil perfecto en CDMX: timeline de 6 semanas, presupuesto real, inflables por edad y mesa de dulces con MEDEDUL."
 excerpt: "Todo lo que necesitas saber para planear un cumpleaños infantil completo en CDMX: desde 6 semanas antes hasta el día del evento, con inflable, mesa de dulces y un presupuesto claro."
 publishDate: "2026-06-12"
+updatedDate: "2026-11-04"
 category: "Guías"
 author: "Equipo BRINCOLINS"
-readTime: "9 min"
+readTime: "21 min"
 heroImage: "/img/blog/blog-ideas-fiesta-infantil-cdmx.avif"
 heroImageAlt: "Planeación completa de cumpleaños infantil en CDMX con inflable y mesa de dulces"
 intro:
@@ -26,6 +27,8 @@ faqs:
     answer: "Para niños de 5 años, el Castillo de Princesas o los Dragones Rojos son perfectos: tienen elementos temáticos que a esa edad les encantan. La Jungla también es una excelente opción si el grupo de niños es mixto. El Castillo de Princesas cuesta $1,800 MXN, Dragones Rojos $1,600 MXN y Jungla $1,600 MXN."
   - question: "¿Puedo tener inflable y mesa de dulces en mi casa o jardín?"
     answer: "Sí, siempre que confirmemos el espacio requerido al cotizar. El inflable y la mesa de dulces deben distribuirse sin estorbarse; comparte las medidas de tu jardín o patio y te asesoramos."
+  - question: "¿El precio del inflable incluye el envío?"
+    answer: "El precio del modelo es neto y va de $1,400 a $2,600; el traslado se suma según tu zona. Como referencia, en la Ciudad de México el envío va de $100 a $300 y en el Estado de México de $150 a $600. En algunas colonias se calcula con la dirección exacta al cotizar."
 ---
 
 ## Por qué planear con tiempo cambia todo
@@ -48,7 +51,7 @@ Este es el momento de las decisiones grandes, las que determinan todo lo demás.
 
 Segundo: define el número aproximado de invitados. Esta cifra determina el tamaño del inflable, la cantidad de comida y el presupuesto general. Una fiesta de 15 niños y 20 adultos necesita soluciones muy diferentes a una de 40 niños y 60 adultos.
 
-Tercero — y esto es lo más importante de las 6 semanas previas — **reserva el inflable con BRINCOLINS**. Los fines de semana de mayo y diciembre son los más solicitados del año. Hemos tenido semanas donde llegaban tres o cuatro solicitudes para el mismo sábado y solo podíamos cubrir una. El que reservó primero, tiene el inflable. Escríbenos por WhatsApp al **5531281706** o [pide tu cotización](/cotizar/) y aparta con el 50% de anticipo. Los ocho precios, de $1,400 a $2,600 MXN, están publicados en la [página de precios](/precios/).
+Tercero — y esto es lo más importante de las 6 semanas previas — **reserva el inflable con BRINCOLINS**. Los fines de semana de mayo y diciembre son los más solicitados del año. Hemos tenido semanas donde llegaban tres o cuatro solicitudes para el mismo sábado y solo podíamos cubrir una. El que reservó primero, tiene el inflable. Escríbenos por WhatsApp al **5531281706** o [pide tu cotización](/cotizar/) y aparta con el 50% de anticipo. Los ocho precios, de $1,400 a $2,600 MXN, están publicados en la [página de precios](/precios/). Si tu fecha cae en temporada alta, revisa [con cuánta anticipación conviene reservar](/blog/cuando-reservar-inflable-temporadas-cdmx/) según el mes.
 
 En esta misma semana, contacta a [MEDEDUL](https://mededul.com) para comenzar a diseñar la mesa de dulces según la temática. El diseño de una mesa personalizada toma tiempo — no es algo que se improvisa en 48 horas.
 
@@ -106,6 +109,16 @@ Esta tabla te da rangos reales basados en nuestra experiencia. Úsala para plane
 
 Lo que aprendimos después de cientos de fiestas es que las familias que organizan las celebraciones más memorables no son las que gastan más — son las que priorizan mejor. Un inflable de calidad más una mesa de dulces bien diseñada más una taquiza caliente es una fiesta que los niños recuerdan durante años. No necesitas todo en la columna premium para lograr eso.
 
+### Lo que la tabla no incluye: envío y plan de lluvia
+
+Dos renglones que casi nadie suma y que mueven el total:
+
+**El envío del inflable.** El precio del modelo es el mismo en todas partes; lo que cambia es el traslado según tu zona. Como referencia, en la Ciudad de México va de $100 a $300 y en el Estado de México de $150 a $600, según qué tan lejos esté el municipio. En algunas colonias se calcula al cotizar con la dirección exacta. Pídelo junto con el precio del inflable para no llevarte la sorpresa al final.
+
+**El plan B por lluvia.** Si la fiesta es entre junio y septiembre, la temporada de lluvias del Valle de México, presupuesta una lona o carpa para la zona de mesas y piensa dónde iría el inflable si no se puede usar afuera: un garage, una terraza techada o un salón. Decidirlo con semanas de anticipación es mucho más barato que resolverlo el mismo día.
+
+Si el presupuesto es ajustado, prioriza en este orden: inflable, comida caliente y pastel. La decoración y los recuerditos se pueden simplificar sin que los niños lo resientan; en la guía de [fiesta infantil con poco presupuesto](/blog/fiesta-infantil-con-poco-presupuesto-cdmx/) hay más ideas para recortar sin que se note.
+
 ## Inflables recomendados por edad del festejado
 
 Uno de los errores más comunes que vemos es elegir el inflable equivocado para la edad de los niños. Un inflable diseñado para niños de 4 años puede resultar aburrido para niños de 8, y uno diseñado para los más grandes puede ser intimidante o peligroso para los más pequeños. Aquí la guía que usamos en BRINCOLINS:
@@ -116,7 +129,7 @@ Uno de los errores más comunes que vemos es elegir el inflable equivocado para 
 
 A esta edad la seguridad manda, y el Castillo Baby es el modelo del catálogo diseñado para este rango: mide 2.5×2×2 m y su escala compacta no intimida a niños que todavía están aprendiendo a brincar con confianza.
 
-Lo que hemos visto en campo es que los niños de 2 y 3 años no necesitan obstáculos ni retos — necesitan espacio para saltar y explorar a su ritmo, con supervisión adulta obligatoria en todo momento. Cómo se arma la fiesta de 1 año completa —horario, duración e invitados— está en la guía del [primer cumpleaños](/inflables/mini-castillo/).
+Lo que hemos visto en campo es que los niños de 2 y 3 años no necesitan obstáculos ni retos — necesitan espacio para saltar y explorar a su ritmo, con supervisión adulta obligatoria en todo momento. Cómo se arma la fiesta de 1 año completa —horario, duración e invitados— está en la guía del [primer cumpleaños con inflable](/blog/fiesta-primer-cumpleanos-con-inflable/).
 
 ### 4-6 años: la edad de oro del brincolín
 
@@ -138,7 +151,7 @@ A esta edad les empieza a importar que el inflable sea "cool". Los colores paste
 
 Los niños de 10 a 12 años pueden disfrutar el inflable más demandante físicamente. El **Extremo** es exactamente eso: un circuito en doble carril, recomendado de 3 a 12 años. Para adolescentes y XV años, el argumento completo está en la guía de [inflables para adolescentes y jóvenes](/inflables/para-adultos/).
 
-Puedes ver todos los modelos y sus especificaciones en el [catálogo de inflables](/inflables/).
+Puedes ver todos los modelos y sus especificaciones en el catálogo de inflables.
 
 ## Cómo incluir la mesa de dulces de MEDEDUL en tu planeación
 
@@ -150,7 +163,7 @@ Para integrarla bien en tu planeación, decide la temática de manera coordinada
 
 Define el espacio de la mesa con anticipación: necesita una pared o fondo detrás — puede ser un banner temático o simplemente una pared limpia — y entre 1.5 y 2 metros lineales de mesa. Reserva con MEDEDUL con al menos 3 semanas de anticipación, y pide que lleguen 90 a 120 minutos antes del inicio de la fiesta.
 
-Visita [mededul.com](https://mededul.com) para ver su catálogo. Para el inflable, solicita tu [cotización](/cotizar/) directamente en nuestro sitio.
+Visita [mededul.com](https://mededul.com) para ver su catálogo. Para el inflable, solicita tu cotización directamente en nuestro sitio.
 
 ## Los 8 errores más comunes al planear un cumpleaños infantil en CDMX
 
@@ -186,6 +199,14 @@ Durante la fiesta, mantén un adulto designado supervisando el inflable en todo 
 
 Al finalizar: verifica que BRINCOLINS recoja el inflable correctamente y que MEDEDUL recoja todos los elementos de la mesa. Revisa el espacio antes de que se vayan los proveedores para asegurarte de que queda como lo encontraron.
 
+## Cómo cambia la planeación según dónde vivas
+
+El timeline de 6 semanas aplica igual en todo el Valle de México, pero cada zona tiene su propio ajuste:
+
+- **Dentro de la capital**, lo que más complica la logística no es la distancia sino el acceso: edificios, privadas, calles con parquímetro o sin lugar para la camioneta. Avisa todo eso al cotizar. La lista de alcaldías y cargos de traslado está en la página de [inflables a domicilio en la CDMX](/cobertura/cdmx/).
+- **En el Estado de México** suele haber más espacio (jardines, patios grandes, quintas), pero los trayectos son más largos y el envío sube en los municipios más lejanos. Por eso conviene reservar con más tiempo y confirmar el cargo desde el principio; consulta la cobertura de [renta con entrega en municipios del Edomex](/cobertura/edomex/).
+- **En el oriente de la ciudad**, en colonias como Agrícola Oriental, Granjas México o Pantitlán, muchas fiestas son en patio de cemento o en la calle cerrada frente a la casa. Ahí mide bien el espacio libre y pregunta por modelos compactos; el detalle está en la página de [inflables para fiestas en Iztacalco](/cobertura/iztacalco/).
+
 ## Reserva tu inflable hoy con BRINCOLINS
 
 Con más de 20 años en el mercado, somos el aliado de confianza para tu fiesta infantil en CDMX y Estado de México. Nuestros inflables van de **$1,400 a $2,600 MXN** y cubrimos [Benito Juárez](/cobertura/benito-juarez/), [Coyoacán](/cobertura/coyoacan/), [Xochimilco](/cobertura/xochimilco/), [Tlalpan](/cobertura/tlalpan/), [Iztapalapa](/cobertura/iztapalapa/) y municipios del Edomex como [Naucalpan](/cobertura/naucalpan/), [Tlalnepantla](/cobertura/tlalnepantla/) y [Ecatepec](/cobertura/ecatepec/). Son precios netos: se agrega IVA solo si necesitas factura, y en los municipios más lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma un cargo de envío según la distancia.
@@ -193,8 +214,8 @@ Con más de 20 años en el mercado, somos el aliado de confianza para tu fiesta 
 Para hacer tu reservación:
 
 - **WhatsApp:** 5531281706
-- **Web:** [Solicitar cotización](/cotizar/)
-- **Catálogo completo:** [Catálogo de renta de inflables para fiestas](/inflables/)
+- **Web:** Solicitar cotización
+- **Catálogo completo:** Catálogo de renta de inflables para fiestas
 - **Paquetes de fiesta:** [Ver paquetes completos](/servicios/paquetes-de-fiesta/)
 
 Escríbenos cuando tengas la fecha. No importa si faltan 6 semanas o si faltan 6 días — con gusto te decimos qué tenemos disponible y qué funciona mejor para tu espacio, tu presupuesto y la edad de los niños. Esa conversación es gratis y te ahorra horas de investigación.

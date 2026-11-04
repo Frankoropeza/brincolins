@@ -4,10 +4,10 @@ h1: "Inflable para patio pequeño o azotea: medidas, acomodo de la fiesta y plan
 description: "Inflable para patio pequeño o azotea en CDMX: cómo medir, dónde va la mesa, por dónde pasan los adultos y qué modelo cabe por huella de piso. Compara y cotiza."
 excerpt: "Un patio chico no descarta el inflable: te pide medir bien y repartir el espacio. Qué modelo cabe, dónde va la mesa y qué hacer si sólo entra el Castillo Baby."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Gusanitos"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "20 min"
 heroImage: "/img/inflables/gusanitos.avif"
 heroImageAlt: "Gusanitos, inflable para patio pequeño, con gusanos amarillos y arco morado bajo una carpa blanca"
 galleryImages:
@@ -75,7 +75,7 @@ Es la medida que más se olvida. Que no te pase. Tendederos, cables, volados de 
 
 ### La corriente a menos de 20 metros
 
-El motor necesita una toma de 110 V a menos de 20 m del área y trabaja durante todo el evento. En patios chicos el contacto suele quedarte cerca. Punto a tu favor. Revisa por dónde pasa la extensión: nunca por el pasillo de los adultos ni por la zona de la mesa.
+El motor necesita una toma de 110 V a menos de 20 m del área y trabaja durante todo el evento. En patios chicos el contacto suele quedarte cerca. Punto a tu favor. Revisa por dónde pasa la extensión: nunca por el pasillo de los adultos ni por la zona de la mesa. Si dudas del calibre de tu extensión o de si el contacto aguanta, la guía sobre [cuánta luz consume un inflable](/blog/cuanta-luz-consume-un-inflable-contacto-extension/) te dice qué revisar.
 
 ![Gusanos amarillos de antenas verdes del Gusanitos de cerca, con la torre morada al fondo](/img/inflables/gusanitos/gusanitos-inflable-fiesta.avif)
 
@@ -136,7 +136,7 @@ En un patio chico, la piñata casi nunca cabe al mismo tiempo que el inflable en
 
 ## ¿Se puede armar la fiesta con inflable en una azotea?
 
-A veces sí, y funciona bien cuando la azotea es plana, está despejada y tiene un acceso por el que pase el equipo. Antes de cotizar te conviene revisar tres cosas: cómo se sube, qué ocupa el espacio y quién autoriza. Si alguna falla, mejor saberlo hoy.
+A veces sí, y funciona bien cuando la azotea es plana, está despejada y tiene un acceso por el que pase el equipo. Antes de cotizar te conviene revisar tres cosas: cómo se sube, qué ocupa el espacio y quién autoriza. Si alguna falla, mejor saberlo hoy. Hay una guía completa de [qué revisar antes de subir un inflable a la azotea](/blog/inflable-en-azotea-que-revisar-cdmx/); aquí va lo básico.
 
 ### El acceso
 
@@ -156,6 +156,49 @@ Plana, sin vidrio ni objetos punzantes, sin piedras sueltas ni varillas saliente
 
 Si vives en un edificio, la azotea suele ser área común. Pregúntalo a la administración del condominio antes de apartar, junto con el horario permitido.
 
+### ¿Y si el único espacio es la cochera?
+
+La cochera descubierta es el "patio" de muchas casas de la ciudad, y suele funcionar. Lo que cambia frente a un patio interior:
+
+- **Saca el coche desde la noche anterior** y barre bien: manchas de aceite, tornillos y piedritas son lo primero que hay que retirar.
+- **Revisa la pendiente.** Muchas cocheras tienen caída hacia la calle para que escurra el agua. Una inclinación ligera se resuelve; una marcada, no. Menciónalo al cotizar con una foto de lado.
+- **Cierra el portón mientras el inflable está en uso.** Los niños salen corriendo por las salidas y la calle queda a dos pasos.
+- **Mira hacia arriba otra vez.** En cocheras es común el volado del techo, la lámpara o el cableado que entra a la casa justo encima.
+
+## ¿Cómo organizas los turnos cuando el patio es chico?
+
+En un patio grande los niños se reparten solos; en uno chico todos quieren entrar al mismo tiempo. Lo que funciona:
+
+1. **Turnos por edad.** Primero los más chicos, luego los mayores. Diez o quince minutos por turno es suficiente para que nadie espere demasiado.
+2. **Una actividad de espera junto al inflable**, no en otra parte del patio: hojas para colorear, burbujas o gises en el piso. Así la fila no invade la mesa.
+3. **Pausas fijas.** Cerrar el inflable durante la comida y la piñata ordena la tarde y le da descanso a todos.
+
+Si quieres saber cuánto tiempo rentar y cómo repartir esas horas entre comida, juegos y pastel, revisa [cómo armar el horario de la fiesta con inflable](/blog/horario-fiesta-infantil-cuantas-horas-inflable/).
+
+## ¿Cómo acomodas el inflable según la forma de tu patio?
+
+Dos patios con los mismos metros cuadrados pueden dar resultados muy distintos. Lo que manda es la forma. Estos son los casos más comunes en casas de la ciudad y cómo se resuelven:
+
+### Patio angosto y largo
+
+Es el clásico jardín entre bardas o el pasillo lateral que se abre al fondo. Aquí el Gusanitos tiene ventaja: su huella es alargada (5 × 3 m) y se coloca a lo largo del patio. Las salidas deben quedar hacia el lado donde está el adulto que supervisa, no contra la barda. La mesa va del lado de la casa y el inflable al fondo, nunca al revés: si el inflable queda cerca de la puerta, todos los invitados tienen que pasar a un lado de las salidas para llegar a la comida.
+
+### Patio en forma de L
+
+Úsalo a tu favor. El brazo más largo de la L es para el inflable y el más corto para la mesa y los adultos. Así cada zona queda separada sin necesidad de cuerdas ni barreras, y la persona que supervisa puede ver el inflable desde la esquina donde se juntan los dos brazos.
+
+### Patio cuadrado y chico
+
+Si el patio es casi cuadrado y no da para 5 m de largo con margen, el Castillo Baby (2.5 × 2 m) se coloca en una esquina y libera el resto del espacio para la mesa. Pon la mesa en diagonal opuesta y deja el centro libre para circular.
+
+### Patio con escalón o desnivel
+
+Muchos patios tienen un escalón entre la cocina y el jardín o una parte más alta. El inflable va siempre en la parte plana y nunca encima de un escalón, aunque sea bajo. Si la única parte plana es pequeña, coméntalo al cotizar con una foto de lado; ese dato define el modelo más que el largo total del patio.
+
+### Patio con jardinera o árbol al centro
+
+El árbol o la jardinera parten el espacio en dos. Mide cada lado por separado y piensa en cuál de los dos puede ir el inflable sin ramas encima. El otro lado es para la mesa. Si ninguno de los dos alcanza la huella del modelo que quieres, es mejor saberlo antes de apartar.
+
 ## ¿Cómo evitas problemas con los vecinos?
 
 Los evitas avisando antes, ubicando el motor lejos de sus ventanas y respetando las áreas comunes. En un patio chico, tus vecinos están a una barda de distancia. Tres gestos sencillos cambian el tono de toda la tarde:
@@ -164,7 +207,13 @@ Los evitas avisando antes, ubicando el motor lejos de sus ventanas y respetando 
 - **Ubica el motor con criterio.** Trabaja de forma continua todo el evento y se escucha; no lo pongas pegado a la ventana de otra casa.
 - **Respeta las áreas comunes.** En unidades habitacionales y condominios, la extensión no cruza pasillos compartidos sin permiso de la administración.
 
-Si vives en el oriente de la ciudad, consulta la [renta de inflables en Iztacalco](/cobertura/iztacalco/) para ver el traslado a tu colonia. Y si tu fiesta es en diciembre, los mismos criterios aplican a una [posada con inflable en patio o calle cerrada](/blog/posada-navidena-infantil-con-inflable-cdmx/).
+Si vives en el oriente de la ciudad, consulta las [entregas en Iztacalco](/cobertura/iztacalco/) para ver el traslado a tu colonia. Y si tu fiesta es en diciembre, los mismos criterios aplican a una [posada con inflable en patio o calle cerrada](/blog/posada-navidena-infantil-con-inflable-cdmx/).
+
+### Si tu casa está en el oriente o en el norte de la ciudad
+
+En colonias de casas pegadas, con patio trasero angosto o cochera al frente, el Gusanitos y el Castillo Baby son los modelos que más se acomodan. Si tu fiesta es en Venustiano Carranza, revisa la cobertura de [inflables a domicilio en Venustiano Carranza](/cobertura/venustiano-carranza/); el traslado se calcula según tu colonia. Si ya estás del lado del Estado de México, para [fiestas en Nezahualcóyotl](/cobertura/nezahualcoyotl/) el envío va de $200 a $300. Si vives en el norte, en Azcapotzalco, la página de [entregas en Azcapotzalco](/cobertura/azcapotzalco/) tiene el detalle. En cualquiera de los tres casos, las medidas y la foto del patio son lo que define el modelo, no la alcaldía.
+
+En el centro de la ciudad el reto suele ser otro: casas antiguas con patio interior o azotea como único espacio libre, en colonias como la Guerrero, la Santa María la Ribera o la Doctores. Para esos casos, revisa el [servicio a domicilio en Cuauhtémoc](/cobertura/cuauhtemoc/) y avisa si hay escaleras o un zaguán angosto. Más al norte, en colonias de Gustavo A. Madero como Lindavista o la Industrial, hay muchas casas con cochera al frente y patio trasero chico; el detalle está en [inflables para fiestas en Gustavo A. Madero](/cobertura/gustavo-a-madero/). Y en Iztapalapa, donde abundan los patios de cemento y las azoteas con tinaco, el [envío a Iztapalapa](/cobertura/iztapalapa/) va de $100 a $150.
 
 ## ¿Qué haces si tu patio sólo da para el Castillo Baby?
 
@@ -176,11 +225,11 @@ Es tu caso ideal. El Castillo Baby está pensado para niños de 1 a 3 años y pa
 
 ### Si van niños mayores de 3 años
 
-El Castillo Baby no es para ellos. Puedes mover la fiesta, buscar un lugar en el [directorio de salones infantiles en CDMX](/directorio/cdmx/) o armar juegos sin inflable para los grandes. Para calcular según tu lista, revisa cómo [elegir tamaño de inflable por número de invitados](/blog/como-elegir-inflable-fiesta-infantil/).
+El Castillo Baby no es para ellos. Puedes mover la fiesta, buscar un lugar en el [directorio de salones infantiles en CDMX](/directorio/cdmx/) o armar juegos sin inflable para los grandes. Si todavía no decides, la comparación entre [rentar salón o hacer la fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/) te ayuda a poner costos y espacio lado a lado. Para calcular según tu lista, revisa cómo [elegir tamaño de inflable por número de invitados](/blog/como-elegir-inflable-fiesta-infantil/).
 
 ### Si tu lista mezcla edades
 
-Si el patio da para el Castillo Baby pero no para el Gusanitos, prioriza a los más chicos y prepara actividades para los mayores. Si sí te da para el Gusanitos, cubres de 2 a 8 años. Te ayuda saber cómo [ordenar la tarde con niños de varias edades](/inflables/gusanitos/).
+Si el patio da para el Castillo Baby pero no para el Gusanitos, prioriza a los más chicos y prepara actividades para los mayores. Si sí te da para el Gusanitos, cubres de 2 a 8 años. En cualquiera de los dos casos, los turnos por edad que viste arriba son los que ordenan la tarde.
 
 > **Fiesta de bebés en patio chico.** El Paquete fiesta bebés junta Castillo Baby, mesa con 4 sillitas y pintacaritas para 4 niños en $2,100. [Pregunta por el Paquete fiesta bebés](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Paquete%20fiesta%20bebes%20para%20un%20patio%20pequeno)
 
@@ -209,4 +258,4 @@ Los fines de semana se llenan y la disponibilidad se confirma por WhatsApp. Ya t
 - **El tipo de superficie**: loseta, cemento, pasto o azotea.
 - **Las edades y la cantidad aproximada de niños.**
 
-La fecha se aparta con el 50% de anticipo. El precio es por evento y neto; si requieres factura se agrega 16% de IVA. Instalación y recolección incluidas; el traslado se cobra según zona. Revisa la [disponibilidad del Gusanitos para tu fecha](/inflables/gusanitos/), compara los [precios netos de los inflables](/precios/), llena la [cotización en línea con las medidas de tu patio](/cotizar/) o [manda tu croquis por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20un%20inflable%20para%20mi%20patio%20te%20mando%20medidas%20y%20fecha).
+La fecha se aparta con el 50% de anticipo. El precio es por evento y neto; si requieres factura se agrega 16% de IVA. Instalación y recolección incluidas; el traslado se cobra según zona. Pregunta por la disponibilidad del Gusanitos para tu fecha, compara los [precios netos de los inflables](/precios/), llena la [cotización en línea con las medidas de tu patio](/cotizar/) o [manda tu croquis por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20un%20inflable%20para%20mi%20patio%20te%20mando%20medidas%20y%20fecha).

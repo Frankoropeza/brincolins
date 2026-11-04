@@ -4,10 +4,10 @@ h1: "Fiesta de 7 años para niña: ideas, juegos y cronograma con castillo infla
 description: "Fiesta de 7 años niña con retos, juegos de equipos y Castillo de Princesas: organiza tiempos, espacio y actividades para celebrar en CDMX."
 excerpt: "A los siete años, el inflable funciona mejor como una estación dentro de un plan con retos, pausa de comida y juego en equipos."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-02"
+updatedDate: "2026-11-04"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "13 min"
 heroImage: "/img/inflables/castillo-princesas-renta-domicilio-cdmx.avif"
 heroImageAlt: "Castillo de Princesas inflable rosa y azul turquesa para renta a domicilio en CDMX"
 galleryImages:
@@ -59,7 +59,7 @@ En lugar de preparar diez dinámicas, elige cuatro momentos distintos. Así redu
 - Un reto de equipos que no dependa del inflable, por ejemplo encontrar piezas de una corona o llevar mensajes sin que se caigan de una charola.
 - Un cierre tranquilo para pastel, fotos y despedida.
 
-La [guía del Castillo de Princesas para fiestas](/inflables/castillo-princesas/) concentra las medidas, el rango de edad y las condiciones de instalación. Aquí el foco es otro: usar esos datos para que la actividad fuerte tenga lugar dentro de un cumpleaños que se siente pensado para primaria.
+La [comparativa de castillos inflables por edad y medidas](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) pone al Castillo de Princesas junto al Baby y al Blanco, con rango de edad y condiciones de instalación. Aquí el foco es otro: usar esos datos para que la actividad fuerte tenga lugar dentro de un cumpleaños que se siente pensado para primaria.
 
 ## ¿Cómo puede verse un cronograma de tres horas sin correr de una actividad a otra?
 
@@ -114,7 +114,7 @@ Una distribución práctica es poner el fondo de fotos cerca de la mesa de paste
 | Mesa de actividad | A un costado, con sillas estables | Guarda tijeras y marcadores cuando inicia el bloque activo |
 | Alimentos y bebidas | Lejos de la lona y del motor | Programa una pausa completa antes de servir |
 
-Si aún eliges colores y texturas, revisa las [paletas para combinar un inflable rosa en una fiesta de niña](/blog/fiesta-princesas-ninas-inflable-cdmx/).
+Si aún eliges colores y texturas, revisa cómo [combinar globos y decoración alrededor del inflable](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/).
 
 ## ¿Qué debes confirmar en un jardín, patio o área común antes de invitar?
 
@@ -140,7 +140,33 @@ La misma agenda se adapta a un jardín en Coyoacán, un patio de casa en Benito 
 | [Renta de inflables en Benito Juárez](/cobertura/benito-juarez/) | Del Valle, Narvarte, Nápoles, Portales y Álamos | Portería, elevador de servicio si aplica y que el área sea exterior | Sin costo adicional en Narvarte; resto según colonia |
 | [Cobertura de renta de inflables en CDMX](/cobertura/cdmx/) | Las 16 alcaldías | Colonia, tipo de espacio, medidas y condiciones de acceso | Según colonia; confirma el importe al cotizar |
 
-En Coyoacán, las casas con patio de Del Carmen o Villa Coapa pueden tener un buen punto para el castillo, pero el recorrido de carga sigue siendo relevante. En Benito Juárez, una azotea o terraza de edificio necesita evaluación por acceso y condiciones del área; no la confundas con un jardín exterior libre. Si tu festejo será al sur, la guía de [renta de castillo de princesas en Coyoacán](/cobertura/coyoacan/) profundiza en esas diferencias sin repetir el plan de juegos.
+En Coyoacán, las casas con patio de Del Carmen o Villa Coapa pueden tener un buen punto para el castillo, pero el recorrido de carga sigue siendo relevante. En Benito Juárez, una azotea o terraza de edificio necesita evaluación por acceso y condiciones del área; no la confundas con un jardín exterior libre. Si tu festejo será al sur, la página de Coyoacán de la tabla profundiza en esas diferencias sin repetir el plan de juegos.
+
+## ¿Cambia el plan si la fiesta es en Metepec o Toluca?
+
+El programa de juegos es el mismo. Lo que cambia es el clima y el traslado. Toluca y Metepec están a mayor altitud que la Ciudad de México, así que las tardes se enfrían antes y las mañanas tardan más en calentar. Para una fiesta de 7 años en jardín, eso mueve el horario más que la decoración.
+
+Estos ajustes ayudan:
+
+- **Empieza más temprano.** Una fiesta de 12:00 a 15:00 aprovecha las horas más templadas; a las 18:00 el jardín ya puede estar frío para niñas que salen sudadas del inflable.
+- **Pide una chamarra en la invitación.** Que llegue en la mochila, no puesta. Se la quitan para brincar y se la ponen para el pastel.
+- **Bebidas tibias en la pausa.** Agua al tiempo o una bebida tibia después del bloque activo cae mejor que algo frío.
+- **El pasto húmedo cuenta.** Si en la mañana hubo rocío o lluvia la noche anterior, pide que el área esté seca y firme antes del montaje.
+
+En el traslado, Metepec y Toluca tienen el mismo rango: de $400 a $600, según la colonia. Para revisar colonias y acceso, consulta la [cobertura de inflables en Metepec](/cobertura/metepec/) o la página de [entregas a domicilio en Toluca](/cobertura/toluca/). Si la fecha cae entre diciembre y febrero, la guía de [fiesta infantil al aire libre en temporada de frío](/blog/fiesta-infantil-en-invierno-al-aire-libre-cdmx/) trae más ideas para abrigar al grupo sin quitarle el juego.
+
+El Castillo de Princesas pide lo mismo en cualquier ciudad: exterior, superficie plana, 4.2 m de altura libre y toma de 110 V a menos de 20 m.
+
+## ¿Qué errores conviene evitar en una fiesta de 7 años?
+
+La mayoría aparecen cuando la tarde no tiene transiciones claras. Revisa esta lista con la agenda en la mano:
+
+- **Dejar el castillo abierto todo el tiempo.** Se vuelve sala de espera y los retos pierden interés. Ábrelo por bloques.
+- **Pistas que llevan al inflable.** Si la búsqueda termina dentro del castillo, entran con papeles, sobres o premios en la mano. Las pistas van afuera.
+- **Premiar sólo al primer equipo.** A los siete años perder frente a las amigas pesa; da algo a todas y un privilegio pequeño al equipo que terminó primero.
+- **Pastel al final de todo.** Si lo dejas para cuando ya se van, la mitad del grupo se lo pierde. Sigue la agenda.
+- **No nombrar a la persona de la entrada.** «Alguien cuida» significa que nadie cuida. Pon nombre y horario.
+- **Confirmar el lugar después de invitar.** Revisa altura, piso y corriente antes de mandar la invitación con dirección.
 
 ## ¿Qué plan alterno necesitas si el clima cambia o la fiesta se alarga?
 

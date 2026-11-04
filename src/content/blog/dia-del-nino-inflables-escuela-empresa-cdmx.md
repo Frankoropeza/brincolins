@@ -4,10 +4,10 @@ h1: "Inflables para Día del Niño en CDMX: cómo planear el 30 de abril en escu
 description: "Inflables para Día del Niño en CDMX: cuándo apartar el 30 de abril, cómo combinar modelos por edad, horarios entre semana y factura. Cotiza con tiempo."
 excerpt: "El 30 de abril todas las escuelas, empresas y condominios quieren inflable el mismo día. Esto es lo que decides primero para no quedarte con lo que sobra."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Jungla"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "15 min"
 heroImage: "/img/inflables/mini-jungla/mini-jungla-frontal-jardin.avif"
 heroImageAlt: "Vista frontal del inflable Jungla con columna azul, palmeras verdes y sillas al fondo"
 galleryImages:
@@ -47,7 +47,7 @@ Aquí tienes cada decisión en el orden en que te conviene tomarla.
 
 Porque la demanda se concentra en un solo día y en los días hábiles de alrededor. La escuela lo festeja en su horario, la empresa lo pone en su calendario interno y el condominio lo anuncia en el grupo de vecinos con semanas de margen. Todos al mismo tiempo. Y tú compites con ellos.
 
-Para 2027 tienes un dato práctico. El 30 de abril cae en viernes. Muchas escuelas y empresas van a festejar ese mismo viernes y otras el jueves anterior, así que esos dos días se llenan primero y, si escribes tarde, terminas eligiendo entre lo que queda, no entre lo que necesitas.
+Si quieres ver cómo se llena el resto del año, la guía de [cuándo reservar el inflable según la temporada](/blog/cuando-reservar-inflable-temporadas-cdmx/) muestra qué fechas se agotan antes. Para 2027 tienes un dato práctico. El 30 de abril cae en viernes. Muchas escuelas y empresas van a festejar ese mismo viernes y otras el jueves anterior, así que esos dos días se llenan primero y, si escribes tarde, terminas eligiendo entre lo que queda, no entre lo que necesitas.
 
 La regla es sencilla. ¿Tienes fecha autorizada? Aparta. La reserva queda firme con el 50% de anticipo, y las condiciones si algo cambia están en las [reglas para cancelar o mover la fecha](/politica-de-cancelacion/). Léelas antes de pagar, no después.
 
@@ -116,7 +116,7 @@ Si hay maternal, guardería o hijos pequeños de colaboradores, el [Castillo Bab
 
 ### El grupo central: Jungla
 
-De 3 a 8 años es el grueso de casi cualquier festejo, entre preescolar y primaria baja. El Jungla es un brincolín temático con dinosaurios, palmeras y colores de selva, y sus [medidas y fotos del modelo Jungla](/inflables/mini-jungla/) están en la ficha. Si el evento tiene que quedar bajo techo, revisa [en qué se distinguen Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/), porque Gusanitos sí funciona en interiores.
+De 3 a 8 años es el grueso de casi cualquier festejo, entre preescolar y primaria baja. El Jungla es un brincolín temático con dinosaurios, palmeras y colores de selva, y sus medidas y fotos están en la ficha del modelo que enlazamos arriba. Si el evento tiene que quedar bajo techo, revisa [en qué se distinguen Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/), porque Gusanitos sí funciona en interiores.
 
 ### Los grandes: Extremo
 
@@ -141,7 +141,7 @@ Recuerda que el precio es por evento, con instalación y recolección incluidas.
 
 Se factura agregando el 16% de IVA a los precios del catálogo, que son netos. Si la escuela, la empresa o la asociación de colonos necesita comprobante, pídelo desde la cotización para que el monto ya lo considere y tu área administrativa no tenga que pedir ajustes a última hora.
 
-Tu fecha se aparta con el 50% de anticipo. El traslado se cobra según la zona. En la [tabla de precios de los modelos](/precios/) están los ocho inflables con las mismas condiciones. Y si tu evento es al norte de la ciudad, te conviene revisar la página de [renta de inflables en Azcapotzalco](/cobertura/azcapotzalco/); para el resto de alcaldías y municipios está la [cobertura por zona](/cobertura/).
+Tu fecha se aparta con el 50% de anticipo. El traslado se cobra según la zona. En la [tabla de precios de los modelos](/precios/) están los ocho inflables con las mismas condiciones. Y si tu evento es al norte de la ciudad, te conviene revisar la página de [entregas y colonias en Azcapotzalco](/cobertura/azcapotzalco/); para el resto de alcaldías y municipios está la [cobertura por zona](/cobertura/).
 
 Hay un punto que conviene aclarar con tu área administrativa: no ofrecemos seguro de responsabilidad civil. Lo que sí entregamos es equipo revisado y sanitizado, instalación con anclaje verificado y motor profesional durante todo el evento. La supervisión de los niños queda a cargo del personal de la institución.
 
@@ -166,11 +166,44 @@ Juegos de patio, estaciones de manualidades y algo tranquilo para los más chico
 
 Si estás en una escuela, te funcionan los juegos por grado, las mesas de dibujo y una función de cuentos para preescolar. En empresas, una mesa de colorear para los pequeños y un rally por equipos para los grandes, que encaja con las carreras del Extremo. ¿Quieres una temática? El Jungla se presta para [armar una excavación con huevos de dinosaurio](/blog/fiesta-de-dinosaurios-con-inflable-cdmx/).
 
-El mismo plan se adapta a otros momentos del año. Para preescolar, la guía de [juegos y turnos para una fiesta de 4 años](/blog/fiesta-de-4-anos-ideas-inflable-cdmx/) sirve con grupos de kínder. Para el cierre de ciclo está la [fiesta de fin de cursos escolar](/inflables/mini-jungla/), y para julio y agosto, cómo [meter un inflable en el curso de verano](/blog/curso-de-verano-con-inflable-cdmx/).
+El mismo plan se adapta a otros momentos del año. Para preescolar, la guía de [juegos y turnos para una fiesta de 4 años](/blog/fiesta-de-4-anos-ideas-inflable-cdmx/) sirve con grupos de kínder. Para el cierre de ciclo está la guía de [graduación de kínder o primaria con inflable](/blog/graduacion-kinder-primaria-con-inflable/), y para julio y agosto, cómo [meter un inflable en el curso de verano](/blog/curso-de-verano-con-inflable-cdmx/).
+
+## Ejemplo de mañana escolar con dos inflables
+
+Así se ve una mañana de Día del Niño en una primaria con un Jungla para los grados bajos y un Extremo para los altos. Es un ejemplo de organización; los turnos reales dependen de la capacidad que te confirmemos al cotizar.
+
+| Hora | Jungla (1° y 2°) | Extremo (5° y 6°) | Resto de grupos |
+|---|---|---|---|
+| Antes de la entrada | Instalación (15 min) | Instalación (30 min) | Los alumnos entran por otra puerta |
+| 8:30 a 9:15 | 1° A y 1° B | 6° A y 6° B | Juegos de patio por grado |
+| 9:15 a 10:00 | 2° A y 2° B | 5° A y 5° B | Manualidades en salón |
+| 10:00 a 10:30 | Pausa, recreo | Pausa, recreo | Recreo |
+| 10:30 a 12:00 | Segunda ronda | Segunda ronda | 3° y 4° en rally o kermesse |
+
+Con dos inflables y varios motores, revisa que cada uno tenga su propia toma. En [cuánta luz consume un inflable y qué extensión usar](/blog/cuanta-luz-consume-un-inflable-contacto-extension/) está lo que conviene preguntarle al conserje o al área de mantenimiento.
+
+### El calor de abril
+
+Abril y mayo son de los meses más calurosos en la Ciudad de México y todavía no empieza la temporada de lluvias. Para un festejo de mañana o mediodía:
+
+- Pon la fila de espera a la sombra, aunque eso aleje un poco el inflable de la puerta del salón.
+- Ten agua a la mano para cada grupo que sale.
+- Programa a los más chicos en la primera hora, cuando el sol pega menos.
+- Pide a los papás que manden gorra y protector solar.
+
+## Día del Niño en Iztapalapa, Gustavo A. Madero y Tlalnepantla
+
+Estas tres zonas concentran muchas escuelas, unidades habitacionales y empresas con explanadas, y cada una tiene algo que conviene saber antes de cotizar.
+
+**Iztapalapa.** Es la alcaldía más poblada de la ciudad, con muchas primarias y unidades habitacionales que festejan el mismo día. El cargo de envío publicado es de $100 a $150 y en algunas zonas la entrega no tiene costo adicional. Confirma tu colonia en [inflables a domicilio en Iztapalapa](/cobertura/iztapalapa/) y escribe pronto, porque la demanda del 30 de abril aquí es alta.
+
+**Gustavo A. Madero.** Escuelas con patio grande, deportivos y empresas del norte de la ciudad. Si el festejo es en un deportivo o espacio público, el permiso se consulta con la administración del lugar o con la alcaldía. El traslado se calcula según la colonia; revisa [la cobertura en la GAM](/cobertura/gustavo-a-madero/).
+
+**Tlalnepantla.** Además de escuelas y fraccionamientos, el municipio tiene zonas industriales donde muchas empresas festejan a los hijos de sus colaboradores en estacionamientos o patios de maniobra. Ahí hay que despejar autos, revisar el piso y ubicar la toma de corriente. El cargo de envío publicado es de $150 a $250; los detalles están en [servicio para empresas y escuelas en Tlalnepantla](/cobertura/tlalnepantla/).
 
 ## ¿Qué olvida casi todo organizador del Día del Niño?
 
-Olvida lo que no se ve en la invitación: permisos, corriente, acceso y roles. Esta checklist resume los pendientes que más se escapan en festejos institucionales, con el motivo de cada uno. Si quieres una versión por fases, te sirve el [checklist por etapas para kermesse escolar](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/). Funciona casi igual.
+Olvida lo que no se ve en la invitación: permisos, corriente, acceso y roles. Esta checklist resume los pendientes que más se escapan en festejos institucionales, con el motivo de cada uno. Si quieres una versión por fases, te sirve el checklist por etapas de la guía de kermesse que mencionamos antes. Funciona casi igual.
 
 - **Fecha y horario autorizados por escrito.** Sin ese papel, la dirección o recursos humanos pueden mover todo a última hora.
 - **Niños por rango de edad, no sólo el total.** Es el dato que define qué modelos y cuántos inflables te convienen.

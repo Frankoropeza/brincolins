@@ -4,10 +4,10 @@ h1: "Inflable para guardería y estancia infantil en CDMX: salas, turnos, superv
 description: "Inflable para guardería en CDMX: qué preguntar a la dirección, qué salas entran, cómo armar turnos de maternal y cómo pedir la cotización con factura."
 excerpt: "Día del Niño, fin de cursos o kermés de maternal: lo que conviene resolver con la dirección para que el inflable sea una actividad ordenada y no una fila sin fin."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Castillo Baby"
 author: "Equipo BRINCOLINS"
-readTime: "11 min"
+readTime: "18 min"
 heroImage: "/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif"
 heroImageAlt: "Castillo Baby, un inflable para guardería, con torres de colores sobre pasto sintético frente a muro blanco"
 galleryImages:
@@ -142,6 +142,25 @@ Zapatos, agua y regreso a la sala o a la siguiente actividad. Que el grupo que s
 
 Si tu estancia tiene preescolar, lo ideal es un segundo modelo para ellos y un horario separado del de maternal. ¿Sólo hay un inflable? Se asigna al grupo cuyo rango de edad corresponda, y el otro grupo tiene una actividad distinta en ese bloque.
 
+### Un ejemplo de mañana con tres salas
+
+Cada estancia tiene su horario, así que toma esto como plantilla y ajusta las horas a tu rutina. Lo que importa es el orden: el inflable queda listo antes de la primera sala, cada grupo tiene su bloque y entre bloques hay un margen para que el cambio no se cruce.
+
+| Momento | Qué pasa | Quién está a cargo |
+|---|---|---|
+| Antes de la entrada de los niños | Llega el equipo, instala y deja el motor funcionando (15 minutos para el Castillo Baby) | Dirección recibe |
+| Primer bloque | Maternal A, el grupo de los más chicos, en turnos cortos | Personal de maternal A |
+| Margen de cambio | Revisión rápida del interior: nada olvidado, nadie adentro | Persona adulta designada |
+| Segundo bloque | Maternal B | Personal de maternal B |
+| Antes del almuerzo | Último grupo o repaso para quien se quedó con ganas | Dirección decide |
+| Después de la salida de los niños | Recolección del equipo | Dirección entrega |
+
+Dos consejos para que la plantilla funcione. Primero, avisa a cada sala su hora por escrito el día anterior, para que la maestra prepare el cambio de zapatos con tiempo. Segundo, deja un bloque libre al final: siempre hay un grupo que se atrasa por un cambio de pañal o un berrinche, y ese margen evita que todo el horario se recorra.
+
+### Plan de lluvia si el inflable va en el patio
+
+Entre junio y septiembre llueve con frecuencia en el Valle de México, casi siempre por la tarde. Si tu festejo de fin de cursos cae en esas semanas y el inflable va en el patio, decide desde la junta cuál es el plan B: adelantar los turnos a primera hora, pasar el Castillo Baby a un salón con 3.2 m de altura libre o mover la actividad a otro día. Las opciones para [instalar bajo techo en temporada de lluvias](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/) te ayudan a elegir el espacio alterno.
+
 ## ¿Quién supervisa cada turno y qué hace nuestro equipo?
 
 El personal de cada sala supervisa a su grupo desde la entrada; nuestro equipo instala, deja el motor funcionando y recolecta al final. Conviene escribir cada función antes del evento. Esta tabla resume quién hace qué el día del festejo, para que la dirección la pegue en la sala de maestras:
@@ -168,6 +187,10 @@ Los precios publicados son netos. Si tu institución requiere factura, se agrega
 
 La instalación y la recolección están incluidas; el traslado se cobra según zona. La entrega sin costo adicional aplica sólo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco. Si tu plantel está en Iztapalapa, revisa la [cobertura en Iztapalapa](/cobertura/iztapalapa/) para saber si tu colonia entra en esa lista. Para otras alcaldías o el Estado de México, consulta la [cobertura completa por alcaldía y municipio](/cobertura/). Te lo confirmamos al cotizar.
 
+#### Estancias en el oriente y el norte
+
+Muchas estancias trabajan en casas adaptadas, con patio pequeño o cochera en lugar de salón grande. Por eso conviene mandar foto del espacio junto con la dirección del plantel. Si estás en Iztacalco, por ejemplo cerca de Agrícola Oriental o de Viaducto, revisa el [servicio de inflables en Iztacalco](/cobertura/iztacalco/); el traslado ahí se cotiza según colonia. Para planteles en Lindavista, Aragón o cualquier colonia de la alcaldía, la página de [renta con entrega en Gustavo A. Madero](/cobertura/gustavo-a-madero/) funciona igual: costo según colonia, confirmado al cotizar. Y si tu estancia está en el Estado de México, en Coacalco el traslado va de $200 a $300 según la zona; los detalles están en [inflables para estancias y fiestas en Coacalco](/cobertura/coacalco/). En los tres casos, avisa si el acceso de proveedores tiene horario fijo, porque de eso depende a qué hora llegamos.
+
 ### Anticipo
 
 La fecha se aparta con 50% de anticipo. En instituciones, el trámite interno de pago puede tardar. Empiézalo en cuanto tengas la cotización. No lo dejes para el final.
@@ -176,7 +199,7 @@ La fecha se aparta con 50% de anticipo. En instituciones, el trámite interno de
 
 ## ¿Con cuánta anticipación apartas para el Día del Niño o el fin de cursos?
 
-En cuanto la dirección confirme la fecha. Las semanas del Día del Niño y del fin de cursos coinciden para muchas escuelas y estancias, y la disponibilidad se confirma al cotizar. Esperar a la última semana te deja con menos opciones de horario. ¿Ya tienes fecha?
+En cuanto la dirección confirme la fecha. Las semanas del Día del Niño y del fin de cursos coinciden para muchas escuelas y estancias, y la disponibilidad se confirma al cotizar. Esperar a la última semana te deja con menos opciones de horario. ¿Ya tienes fecha? La guía sobre [cuándo reservar en temporada alta](/blog/cuando-reservar-inflable-temporadas-cdmx/) explica qué fechas del año se llenan primero.
 
 Ten claro qué pasa si el evento se mueve. Antes de pagar el anticipo, revisa las [condiciones para cambiar o cancelar la fecha](/politica-de-cancelacion/), sobre todo si tu festejo depende de un calendario que todavía puede cambiar. Así no hay malentendidos con tesorería.
 
@@ -193,7 +216,7 @@ Casi ninguno tiene que ver con el inflable; todos salen de la organización del 
 - **Programar el inflable justo después de comer.** Mejor antes del almuerzo o con un margen razonable después.
 - **Pedir la factura al final.** Si la requieren, debe ir en la cotización desde el principio.
 
-Si alguna familia pregunta por el inflable para un festejo propio, puedes compartirle la guía de [actividades para la fiesta de 2 años](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) o la de [zona infantil en la recepción del bautizo](/blog/bautizo-con-inflable-zona-infantil-cdmx/). Y a los papás de lactantes que preguntan desde cuándo podrán usarlo, la respuesta es desde el año; la guía para [festejar el primer cumpleaños con calma](/inflables/mini-castillo/) les da el resto.
+Si alguna familia pregunta por el inflable para un festejo propio, puedes compartirle la guía de [actividades para la fiesta de 2 años](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) o la de [zona infantil en la recepción del bautizo](/blog/bautizo-con-inflable-zona-infantil-cdmx/). Y a los papás de lactantes que preguntan desde cuándo podrán usarlo, la respuesta es desde el año; la guía para festejar el primer cumpleaños con calma les da el resto.
 
 ## ¿Por qué no conviene un inflable grande para toda la estancia?
 
@@ -211,6 +234,6 @@ Los fines de semana y las fechas escolares se llenan; la disponibilidad se confi
 - Las salas que participan, con edades y cantidad aproximada de niños por sala.
 - Si la institución requiere factura.
 
-La fecha se aparta con 50% de anticipo. El precio es por evento y neto, con instalación y recolección incluidas; se agrega 16% de IVA sólo si tu institución requiere factura, y el traslado se cobra según zona. La [ficha técnica del Castillo Baby para el expediente](/inflables/mini-castillo/) sirve para anexarla al plan del evento, y las [preguntas frecuentes de la renta](/preguntas-frecuentes/) resuelven lo que suele salir en la junta con familias.
+La fecha se aparta con 50% de anticipo. El precio es por evento y neto, con instalación y recolección incluidas; se agrega 16% de IVA sólo si tu institución requiere factura, y el traslado se cobra según zona. La ficha técnica del Castillo Baby para el expediente sirve para anexarla al plan del evento, y las [preguntas frecuentes de la renta](/preguntas-frecuentes/) resuelven lo que suele salir en la junta con familias.
 
-Escríbenos al [WhatsApp para instituciones](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20un%20inflable%20con%20factura%20para%20una%20estancia%20infantil) o llena el [formulario de cotización para instituciones](/cotizar/) y marca que requieres factura. Atendemos de lunes a domingo de 8:00 a 20:00.
+Escríbenos al [WhatsApp para instituciones](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20un%20inflable%20con%20factura%20para%20una%20estancia%20infantil) o llena el formulario de cotización para instituciones y marca que requieres factura. Atendemos de lunes a domingo de 8:00 a 20:00.

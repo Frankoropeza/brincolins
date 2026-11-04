@@ -4,7 +4,7 @@ h1: "Fiesta de 9 años para niña con inflable: cuándo elegir castillo y cuánd
 description: "Planea una fiesta de 9 años con inflable en CDMX: decide si el Castillo de Princesas encaja, organiza retos y elige otra opción cuando el grupo lo pide."
 excerpt: "A los 9 años el inflable puede seguir siendo el punto favorito de la fiesta, pero ya necesita convivir con retos, amigas y tiempos de conversación. Esta guía ayuda a decidir si el Castillo de Princesas es el modelo indicado."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-02"
+updatedDate: "2026-11-04"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
 readTime: "12 min"
@@ -44,7 +44,7 @@ faqs:
 
 Una **fiesta de 9 años** tiene un punto medio muy particular: las niñas todavía quieren brincar, pero también quieren elegir equipo, resolver una pista, tomarse fotos entre amigas y tener ratos que no parezcan un recreo de niños pequeños. Por eso un inflable puede funcionar muy bien, siempre que sea parte de la tarde y no toda la tarde.
 
-El [Castillo de Princesas para una fiesta infantil](/inflables/castillo-princesas/) está recomendado para niñas y niños de 2 a 10 años. Su diseño rosa y turquesa, el brinco y la resbaladilla siguen encajando a los nueve; lo que cambia es la forma de usarlo. En vez de abrirlo sin pausa desde que llega la primera invitada, conviene darle bloques definidos y algo que hacer entre cada uno.
+El Castillo de Princesas está recomendado para niñas y niños de 2 a 10 años. Su diseño rosa y turquesa, el brinco y la resbaladilla siguen encajando a los nueve; lo que cambia es la forma de usarlo. En vez de abrirlo sin pausa desde que llega la primera invitada, conviene darle bloques definidos y algo que hacer entre cada uno.
 
 > **Respuesta rápida:** Una fiesta de 9 años puede aprovechar el [Castillo de Princesas inflable](/inflables/castillo-princesas/) si el grupo principal tiene hasta 10 años y el evento cuenta con jardín o patio exterior. El modelo mide 5 × 3.30 × 3 m, requiere 4.2 m de altura libre y se vuelve más entretenido cuando alternas brinco con retos cortos, fotos y una actividad de mesa.
 
@@ -68,7 +68,7 @@ Estas señales te ayudan a decidir:
 - El grupo tiene edades parecidas o puedes separar a los hermanos menores en otro momento.
 - Quieres que la parte activa suceda fuera de la mesa de alimentos y de la zona de fotos.
 
-La [guía completa del castillo inflable de princesas](/inflables/castillo-princesas/) reúne sus requisitos y te permite revisar si el modelo corresponde al espacio antes de diseñar la invitación. La capacidad simultánea se confirma al cotizar; no es buena idea convertir el castillo en sala de espera ni calcular un número a partir de una imagen.
+La ficha del castillo, enlazada en la respuesta rápida, reúne sus requisitos y te permite revisar si el modelo corresponde al espacio antes de diseñar la invitación. La capacidad simultánea se confirma al cotizar; no es buena idea convertir el castillo en sala de espera ni calcular un número a partir de una imagen.
 
 ## ¿Qué programa de tres horas da espacio para jugar y convivir?
 
@@ -95,7 +95,7 @@ Prueba una combinación como esta:
 3. Con la frase completa, cada equipo obtiene su turno para el castillo mientras el otro prepara una tarjeta o elige la siguiente canción.
 4. Reúne al grupo afuera para una foto antes de abrir el segundo turno.
 
-No hace falta ofrecer premios costosos. Un sello, una pulsera de color o escoger el orden de la foto puede ser suficiente. La fiesta no debería depender de que alguien “gane” el brinco. Si tu prioridad son los encuadres y el orden de las tomas, la [guía para fotografiar el Castillo de Princesas](/blog/fiesta-princesas-ninas-inflable-cdmx/) indica cómo aprovechar el castillo sin estorbar el juego.
+No hace falta ofrecer premios costosos. Un sello, una pulsera de color o escoger el orden de la foto puede ser suficiente. La fiesta no debería depender de que alguien “gane” el brinco. Si tu prioridad son las fotos, tómalas afuera del castillo y entre turnos, para no estorbar el juego.
 
 ## ¿Cómo mantienes seguros los turnos cuando llegan niñas de otras edades?
 
@@ -131,11 +131,36 @@ El plan cambia poco entre alcaldías, pero el acceso puede cambiar mucho. En un 
 
 La instalación estimada del castillo es de 20 minutos, pero las casetas, elevadores, pasillos y permisos de área común toman tiempo aparte. Manda fotos abiertas del espacio y hacia arriba, además de la fecha y las edades. Si el pronóstico cambia, ten una actividad tranquila bajo techo; el inflable no se utiliza con lluvia, granizo ni vientos fuertes. Consulta las condiciones de reprogramación antes de apartar.
 
+## ¿Y si la casa está en Iztapalapa o Nezahualcóyotl?
+
+En el oriente de la ciudad y en Neza muchas fiestas se hacen en casa: en el patio, en la cochera descubierta o en la azotea. Las tres pueden funcionar, pero cada una tiene su revisión.
+
+- **Patio.** Mide largo y ancho. El castillo ocupa 5 × 3.30 m de planta y necesita espacio alrededor para entrar y salir; el espacio total se confirma al cotizar.
+- **Cochera descubierta.** Sirve si no tiene techo ni lámina encima del área. Si tiene techo, el castillo no cabe: pide 4.2 m libres y va sólo en exterior.
+- **Azotea.** Antes de pensar en el castillo, revisa acceso, pretil y que la superficie esté libre. La guía sobre [qué revisar para poner un inflable en azotea](/blog/inflable-en-azotea-que-revisar-cdmx/) explica qué se evalúa.
+
+El traslado se cobra según la colonia: en Iztapalapa va de $100 a $150, y en Nezahualcóyotl de $200 a $300. Para revisar colonias y acceso, consulta la página de [inflables a domicilio en Iztapalapa](/cobertura/iztapalapa/) o la [cobertura en Ciudad Nezahualcóyotl](/cobertura/nezahualcoyotl/).
+
+Si la casa está en una calle cerrada o privada, no pongas el castillo en la banqueta ni en el arroyo vehicular sin preguntar antes. Consulta con tu alcaldía o municipio si se necesita autorización para usar la vía; no lo asumas.
+
 ## ¿Cómo decides el presupuesto sin perder de vista la experiencia de la festejada?
 
 La renta neta del Castillo de Princesas es de $1,800 por evento. Incluye instalación, motor, limpieza y recolección; el traslado se confirma según la colonia y, si requieres factura, se agrega 16% de IVA. La [tabla de precios del catálogo de inflables](/precios/) permite comparar modelos sin confundir el precio base con el traslado.
 
-No compres actividades sólo para llenar una agenda. Antes de sumar mobiliario, accesorios o un segundo juego, pregunta qué es lo que más espera la festejada: brincar con amigas, resolver retos, una temática de color o tener tiempo para platicar. La [fiesta de princesas con inflable en CDMX](/blog/fiesta-princesas-ninas-inflable-cdmx/) puede servirte para aterrizar decoración y estaciones sin repetir el programa de este cumpleaños.
+No compres actividades sólo para llenar una agenda. Antes de sumar mobiliario, accesorios o un segundo juego, pregunta qué es lo que más espera la festejada: brincar con amigas, resolver retos, una temática de color o tener tiempo para platicar. El desglose de [cuánto cuesta una fiesta de princesas en casa](/blog/cuanto-cuesta-fiesta-de-princesas-en-casa/) te sirve para aterrizar decoración y estaciones sin repetir el programa de este cumpleaños.
+
+Si el presupuesto es corto, prioriza en este orden: inflable, comida suficiente y una actividad de mesa barata. La guía de [fiesta infantil con poco presupuesto](/blog/fiesta-infantil-con-poco-presupuesto-cdmx/) trae más ideas para recortar sin que se note.
+
+## ¿Qué errores se repiten en una fiesta de 9 años?
+
+Casi todos vienen de planear como para una niña más chica o, al revés, de dar por hecho que ya no quiere brincar. Revisa esta lista:
+
+- **Decoración demasiado infantil.** Pregúntale a la festejada antes de comprar. A los nueve años puede querer el castillo, pero con colores o una temática que ella elija.
+- **Un solo bloque largo de inflable.** Al principio todas entran; a la media hora la mitad se aburre. Dos bloques cortos funcionan mejor.
+- **Turnos mezclados con primos de 3 o 4 años.** Separa por edad aunque sean de la misma familia.
+- **Celulares y accesorios dentro del castillo.** Pulseras, diademas, lentes y teléfonos se quedan afuera. Ten una charola para guardarlos.
+- **Sin tiempo para platicar.** A esta edad la convivencia es parte del plan. Deja una pausa real para comer y hablar.
+- **Confirmar el espacio tarde.** Revisa altura, piso y corriente antes de mandar invitaciones.
 
 ## ¿Qué información debes enviar al cotizar una fiesta de 9 años?
 

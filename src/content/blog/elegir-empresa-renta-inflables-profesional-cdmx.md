@@ -3,9 +3,10 @@ title: "Cómo Elegir Empresa de Renta de Inflables en CDMX"
 description: "Los 8 criterios para elegir empresa de renta de inflables en CDMX: seguridad, limpieza, motor incluido, puntualidad y precios claros. Con tabla de alertas."
 excerpt: "Protocolos de seguridad verificables, motor de inflado incluido, limpieza documentada, reputación verificable: todo lo que debes exigir antes de rentar un inflable en Ciudad de México."
 publishDate: "2026-06-04"
+updatedDate: "2026-11-04"
 category: "Guías"
 author: "Equipo BRINCOLINS"
-readTime: "9 min"
+readTime: "15 min"
 heroImage: "/img/blog/blog-elegir-inflable-fiesta-infantil-cdmx.avif"
 heroImageAlt: "Cómo elegir empresa de renta de inflables profesional en CDMX"
 intro:
@@ -61,7 +62,7 @@ Un proveedor profesional incluye el motor de inflado en el precio, lo entrega in
 
 ### 4. Puntualidad
 
-La fiesta tiene hora de inicio. Los niños ya están ahí. La logística de entrega e instalación de un inflable requiere entre 20 y 40 minutos dependiendo del espacio. Si el proveedor llega con dos horas de retraso sin avisar —como en el caso de la mamá de Naucalpan— ese tiempo simplemente se pierde.
+La fiesta tiene hora de inicio. Los niños ya están ahí. La logística de entrega e instalación de un inflable requiere entre 15 y 30 minutos dependiendo del espacio. Si el proveedor llega con dos horas de retraso sin avisar —como en el caso de la mamá de Naucalpan— ese tiempo simplemente se pierde.
 
 Una empresa seria confirma el horario de llegada, tiene rutas planificadas con margen para el tráfico de CDMX, y si ocurre algún contratiempo real, llama antes de que el problema llegue al cliente. No después.
 
@@ -73,7 +74,7 @@ Desconfía de perfiles con solo cinco estrellas perfectas sin ningún comentario
 
 ### 6. Precios claros y transparentes desde el primer contacto
 
-En **BRINCOLINS** publicamos nuestros precios sin rodeos en la [página de precios](/precios/): Castillo Baby **$1,400 MXN**, Dragones Rojos **$1,600 MXN**, Jungla **$1,600 MXN**, Gusanitos **$1,600 MXN**, Castillo de Princesas **$1,800 MXN**, Barco Pirata **$2,300 MXN**, Extremo **$2,500 MXN** y Castillo Blanco **$2,600 MXN**. Son ocho modelos y ocho precios, informados desde el primer contacto. Dos aclaraciones que hacemos siempre por adelantado: son precios netos —el 16% de IVA se agrega solo si necesitas factura— y el traslado se confirma según zona.
+En **BRINCOLINS** publicamos nuestros precios sin rodeos en la página de precios: Castillo Baby **$1,400 MXN**, Dragones Rojos **$1,600 MXN**, Jungla **$1,600 MXN**, Gusanitos **$1,600 MXN**, Castillo de Princesas **$1,800 MXN**, Barco Pirata **$2,300 MXN**, Extremo **$2,500 MXN** y Castillo Blanco **$2,600 MXN**. Son ocho modelos y ocho precios, informados desde el primer contacto. Dos aclaraciones que hacemos siempre por adelantado: son precios netos —el 16% de IVA se agrega solo si necesitas factura— y el traslado se confirma según zona.
 
 Cuando un proveedor demora mucho en darte un precio o lo condiciona a "muchos factores" antes de cotizar, puede significar que los precios cambian según el cliente —o que hay costos que prefieren revelar tarde, cuando ya reservaste.
 
@@ -165,7 +166,7 @@ Hay una señal de calidad que pocas personas conocen al buscar proveedor: a qui�
 
 Ese tipo de reconocimiento entre colegas no se construye con precios bajos ni con campañas de marketing. Se construye con años de hacer las cosas bien, evento tras evento, de forma consistente. Que una empresa seria confíe en referirte a otra empresa es, en sí mismo, la señal más confiable que puedes encontrar.
 
-Si estás buscando un inflable para tu próximo evento, consulta nuestro **[catálogo](/inflables/)** o solicita una **[cotización directa](/cotizar/)** — con precios desde **$1,400 MXN** y cobertura en toda la zona metropolitana.
+Si estás buscando un inflable para tu próximo evento, consulta nuestro **catálogo** o solicita una **cotización directa** — con precios desde **$1,400 MXN** y cobertura en toda la zona metropolitana.
 
 ---
 
@@ -198,6 +199,36 @@ Antes de transferir cualquier anticipo a un proveedor, verifica estos siete punt
 7. ¿Tienen reseñas verificables en Google o Facebook de clientes reales con comentarios concretos?
 
 Si respondiste sí a los siete puntos, estás eligiendo bien. Si hay dudas en alguno —especialmente en los primeros dos— sigue buscando.
+
+## Lo que debe quedar por escrito antes del anticipo
+
+Muchos malentendidos del día de la fiesta nacen de una cotización que solo decía "inflable + envío". Antes de transferir, pide que el mensaje de confirmación incluya estos datos. Si el proveedor no puede ponerlos por escrito, tampoco podrá cumplirlos.
+
+| Dato | Ejemplo de cómo debe venir |
+|---|---|
+| Modelo exacto | "Castillo de Princesas, 5 × 3.30 × 3 m" (no "un castillo") |
+| Precio del inflable | Cifra neta y aclaración de si suma 16% de IVA por factura |
+| Envío | Monto o rango para tu colonia, no "lo vemos allá" |
+| Fecha y ventana de llegada | Hora de instalación con margen antes de que lleguen los invitados |
+| Horas de renta | Hora de inicio y de recolección |
+| Requisitos del lugar | Contacto eléctrico cercano, superficie y altura libre que pide el modelo |
+| Política de lluvia y cancelación | Qué pasa con el anticipo si se reprograma |
+
+Dos detalles que conviene preguntar aunque parezcan menores. Primero, la altura libre: cada modelo pide un mínimo (el Castillo Baby necesita 3.2 m; el Barco Pirata, 5.2 m), así que un proveedor serio te pregunta si hay cables, ramas o techo antes de confirmar. Segundo, la corriente: el soplador funciona toda la renta y necesita un contacto cercano; en la guía sobre [consumo eléctrico, contacto y extensión](/blog/cuanta-luz-consume-un-inflable-contacto-extension/) explicamos qué revisar en casa.
+
+Y si tu fecha cae en temporada alta, una empresa ordenada te lo dice desde el primer mensaje. Revisa [con cuánta anticipación conviene apartar en cada temporada](/blog/cuando-reservar-inflable-temporadas-cdmx/) para no elegir con prisa.
+
+## Elegir proveedor según dónde será la fiesta
+
+El mismo criterio de calidad aplica en toda la zona metropolitana, pero lo que preguntas cambia según el lugar. Estas son las diferencias prácticas que conviene tener en mente:
+
+**Dentro de la Ciudad de México.** El tráfico pesa más que la distancia. Pregunta a qué hora sale la unidad y cuánto margen dejan, sobre todo si la fiesta es sábado a mediodía. En la página de [inflables a domicilio en la Ciudad de México](/cobertura/cdmx/) verás que el envío va de $100 a $300 según la alcaldía; si un proveedor no puede decirte en qué parte de ese rango cae tu colonia, falta claridad.
+
+**En el Estado de México.** Las distancias son mayores y el rango de envío se abre: en nuestra [cobertura en municipios del Edomex](/cobertura/edomex/) va de $150 a $600. Ahí la confirmación escrita del monto importa todavía más, porque la diferencia entre un municipio conurbado y uno lejano es grande.
+
+**Naucalpan y Atizapán.** Son zonas con muchas casas con jardín, privadas y conjuntos con área común. Antes de cerrar, confirma con la administración si permiten instalar en el área común y en qué horario. Puedes ver lo que aplica para [fiestas en Naucalpan, incluida Ciudad Satélite](/cobertura/naucalpan/), donde el envío se confirma según la colonia, y para [eventos en Atizapán de Zaragoza](/cobertura/atizapan/), con envío de $200 a $300.
+
+En cualquiera de estas zonas, la regla es la misma: un proveedor profesional te da el costo total antes de que pagues, no cuando ya está descargando el inflable.
 
 ## Conclusión: el mejor inflable es el que llega, funciona y está bien anclado
 

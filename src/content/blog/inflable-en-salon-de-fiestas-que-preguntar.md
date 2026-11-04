@@ -4,10 +4,10 @@ h1: "Inflable en salón de fiestas: lo que debes preguntarle al salón antes de 
 description: "Inflable en salón de fiestas: 8 preguntas antes de reservar sobre altura libre, proveedores externos, montaje, carga y corriente. Evita sorpresas y cotiza."
 excerpt: "El salón te gustó y la fecha está libre. Antes de firmar, confirma si el inflable cabe, si lo dejan entrar y dónde se conecta. Aquí está la lista completa."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "19 min"
 heroImage: "/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif"
 heroImageAlt: "Castillo inflable rosa y turquesa con rampa azul instalado sobre terraza de madera junto a plantas"
 galleryImages:
@@ -173,6 +173,40 @@ Quién tiene la llave del tablero y si estará en el salón durante tu evento. S
 
 Un contacto en el lugar equivocado obliga a cruzar el salón con un cable. Si lo detectas en la visita, puedes pedir que acomoden las mesas para que el cable vaya pegado a la pared.
 
+## ¿Salón infantil con juegos o salón de eventos sin juegos?
+
+No todos los salones son iguales, y la pregunta sobre el inflable cambia según el tipo:
+
+| Tipo de salón | Qué suele tener | ¿Tiene sentido llevar inflable? | Qué preguntar |
+|---|---|---|---|
+| Salón infantil con juegos fijos | Juegos, alberca de pelotas o área de bebés propia | Solo si quieres un modelo distinto o un área extra | Si permiten juegos externos y si cobran cuota |
+| Salón de eventos sin juegos | Mesas, sillas, pista y cocina | Sí, suele ser la actividad principal de los niños | Altura libre, área descubierta y contacto |
+| Jardín de eventos o quinta | Área verde, a veces con terraza techada | Sí, y permite modelos de exterior | Superficie, acceso del equipo y horario |
+
+Si el salón infantil ya tiene sus propios juegos, revisa qué incluye el paquete antes de sumar otro proveedor. En cambio, en un salón de eventos sin juegos, el inflable es lo que va a ocupar a los niños mientras los adultos comen, así que vale la pena revisar el espacio con más cuidado. Si todavía no decides si te conviene salón o casa, la guía de [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/) compara ambos escenarios.
+
+## Lo que preguntas al salón y lo que preguntas al proveedor
+
+Una confusión frecuente es esperar que el salón resuelva dudas del inflable, o al revés. Reparte las preguntas así:
+
+**Al salón:**
+- ¿Permiten proveedores externos de inflables? ¿Hay cuota o registro?
+- ¿Qué altura libre hay en el punto más bajo del área donde iría?
+- ¿A qué hora puede entrar el proveedor y a qué hora hay que desocupar?
+- ¿Dónde está el contacto de 110V y quién controla el tablero?
+
+**Al proveedor del inflable:**
+- ¿Qué modelo cabe con la altura y el área que mide el salón?
+- ¿Cuánto es el traslado a la dirección del salón?
+- ¿Cuánto tarda el montaje? (de 15 a 30 minutos según el modelo)
+- ¿Qué pasa si el salón cambia la hora de acceso?
+
+Si los dos te contestan lo mismo sobre altura y horario, ya puedes apartar.
+
+### Salones del oriente y del Estado de México
+
+En el oriente de la ciudad y en los municipios conurbados hay muchos salones de eventos que no incluyen juegos, y ahí el inflable resuelve la actividad infantil. Si el salón está en Iztapalapa, por ejemplo cerca de Ermita, Santa Martha o la zona de la UAM, el envío va de $100 a $150; revisa [la entrega en Iztapalapa](/cobertura/iztapalapa/). En Ciudad Nezahualcóyotl, el envío va de $200 a $300 y los detalles están en [inflables para salones en Nezahualcóyotl](/cobertura/nezahualcoyotl/). Para salones en Tlalnepantla, en zonas como el Centro o Las Américas, el envío va de $150 a $250; consulta [renta a domicilio en Tlalnepantla](/cobertura/tlalnepantla/). Y si el salón está en Chalco, el envío va de $250 a $400 según la distancia; revisa [el servicio en Chalco](/cobertura/chalco/). En todos los casos, el traslado se calcula a la dirección del salón. Si todavía buscas lugar en esos municipios, el [directorio de salones en el Estado de México](/directorio/edomex/) reúne opciones por zona.
+
 ## ¿Qué lista llevar impresa a la visita del salón?
 
 Una con estas preguntas, en este orden. Si el salón contesta todo con claridad, ya puedes cotizar el inflable con datos reales. ¿Titubea en dos o más? Considera otro lugar antes de dejar tu anticipo.
@@ -193,7 +227,7 @@ Una con estas preguntas, en este orden. Si el salón contesta todo con claridad,
 - **Suponer que cualquier inflable entra bajo techo.** Sólo el Castillo Baby y Gusanitos se instalan en interiores.
 - **Olvidar el horario de recolección.** Si hay otra fiesta después, el desmontaje también tiene hora.
 
-¿Comparas el salón contra hacerla en casa? El [costo de una fiesta de princesas en tu jardín](/blog/cuanto-cuesta-fiesta-de-princesas-en-casa/) te da las partidas para comparar con números. Y si el salón tiene jardín y dudas entre dos modelos, lee [cuándo conviene el castillo rosa y cuándo los dragones](/inflables/castillo-princesas/).
+¿Comparas el salón contra hacerla en casa? El [costo de una fiesta de princesas en tu jardín](/blog/cuanto-cuesta-fiesta-de-princesas-en-casa/) te da las partidas para comparar con números. Y si el salón tiene jardín y dudas entre dos modelos, compara las fichas del Castillo de Princesas y de [Dragones Rojos](/inflables/dragones-rojos/).
 
 ## Reserva el inflable cuando el salón te confirme
 

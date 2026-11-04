@@ -130,4 +130,15 @@ export const BLOG_CATEGORIA: Record<string, string> = {
 
   /* Tanda 80 — Extremo */
   "inflable-para-activacion-de-marca":                    "con-obstaculos",
+
+  /* Contenido geo 2026-11 — guías de planeación (horario, lugar, clima,
+     temporada, presupuesto). Categoría según la intención del lector. */
+  "horario-fiesta-infantil-cuantas-horas-inflable":       "para-ninos",
+  "inflable-en-azotea-que-revisar-cdmx":                  "chicos",
+  "cuanta-luz-consume-un-inflable-contacto-extension":    "para-interiores",
+  "dia-de-reyes-fiesta-infantil-con-inflable":            "castillos",
+  "fiesta-infantil-en-invierno-al-aire-libre-cdmx":       "para-interiores",
+  "cuando-reservar-inflable-temporadas-cdmx":             "brincolines",
+  "fiesta-infantil-con-poco-presupuesto-cdmx":            "medianos",
+  "salon-de-fiestas-o-fiesta-en-casa-cdmx":               "para-interiores",
 };

@@ -4,10 +4,10 @@ h1: "Fiesta de 4 años con inflable: cómo organizar la tarde para un grupo de k
 description: "Fiesta de 4 años en CDMX: juegos con reglas sencillas, cronograma por bloques, estaciones y turnos en el inflable Jungla. Usa la checklist y cotiza tu fecha."
 excerpt: "A los 4 años ya eligen temática, entienden reglas y llegan con medio salón de kínder. Así repartes la tarde para que nadie haga fila ni termine llorando."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Jungla"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "16 min"
 heroImage: "/img/inflables/mini-jungla/mini-jungla-dinosaurios-palmeras.avif"
 heroImageAlt: "Dinosaurio verde y dinosaurio morado en la resbaladilla naranja del Jungla para una fiesta de 4 años"
 galleryImages:
@@ -108,7 +108,7 @@ Esta tabla muestra qué pasa en el inflable y qué hacen los demás niños en ca
 | Pastel y piñata | 2:30 a 3:00 | Cerrado | Todos juntos |
 | Salida | 3:00 a 3:30 | Último turno libre | Recuerditos y despedida |
 
-Cerrar el inflable durante la comida y el pastel no es un capricho. Brincar recién comidos termina mal. Y un inflable abierto mientras cantan las mañanitas te deja la foto del pastel sin niños. ¿Quieres comparar con otra estructura para un grupo parecido? El [cronograma de un fin de cursos de kínder](/inflables/mini-jungla/) maneja la tarde con otra lógica.
+Cerrar el inflable durante la comida y el pastel no es un capricho. Brincar recién comidos termina mal. Y un inflable abierto mientras cantan las mañanitas te deja la foto del pastel sin niños. ¿Quieres comparar con otra estructura para un grupo parecido? El [cronograma de una graduación de kínder con inflable](/blog/graduacion-kinder-primaria-con-inflable/) maneja la tarde con otra lógica, y si todavía no defines cuánto dura tu renta, la guía sobre [cuántas horas dura la renta y cómo armar el horario](/blog/horario-fiesta-infantil-cuantas-horas-inflable/) te ayuda a cuadrar la hora de llegada con la instalación.
 
 > **¿Ya tienes el sábado elegido?** Dinos la fecha, la alcaldía o municipio y cuántos compañeros de kínder van, y te respondemos con disponibilidad y precio del Jungla. [Cotizar el Jungla para su cumpleaños](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Jungla%20para%20una%20fiesta%20de%204%20anos)
 
@@ -156,7 +156,7 @@ Así lo organizas sin pleitos:
 - **Hermanos mayores en otro turno.** Si llegan primos de 7 u 8 años, que brinquen juntos, no con los de 4.
 - **Sin zapatos, sin comida, sin juguetes.** Lo que entra con ellos al inflable termina pisado o tirado.
 
-La supervisión es de una persona adulta durante todo el evento, en la entrada del inflable. Aquí es donde los papás que se quedan te salvan la tarde: arma una rotación de quince o veinte minutos por adulto y nadie se pierde la fiesta. Las fotos del modelo y su disponibilidad están en la [ficha del brincolín Jungla](/inflables/mini-jungla/).
+La supervisión es de una persona adulta durante todo el evento, en la entrada del inflable. Aquí es donde los papás que se quedan te salvan la tarde: arma una rotación de quince o veinte minutos por adulto y nadie se pierde la fiesta. Las fotos del modelo y su disponibilidad están en la ficha del Jungla que enlazamos al principio.
 
 ## ¿Qué necesitan los papás que se quedan toda la fiesta?
 
@@ -177,7 +177,32 @@ Cabe donde haya exterior plano, 4.2 m de altura libre y una toma de 110 V a meno
 
 ¿Tienes jardín o patio? Es tu opción más cómoda. Conoces el terreno y los niños están en un espacio controlado. Si vives en departamento, el área común del condominio suele funcionar. Eso sí: pide permiso a la administración antes de apartar, no después.
 
-¿Y si la fiesta tiene que ser bajo techo? Entonces el Jungla no es tu modelo. Lee la [comparación entre Jungla y el circuito Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/), porque Gusanitos sí funciona en interiores con 3.2 m de altura libre. Para saber si tu colonia entra en ruta, revisa la [rutas de entrega en CDMX y área metropolitana](/cobertura/).
+¿Y si la fiesta tiene que ser bajo techo? Entonces el Jungla no es tu modelo. Lee la [comparación entre Jungla y el circuito Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/), porque Gusanitos sí funciona en interiores con 3.2 m de altura libre. Para saber si tu colonia entra en ruta, revisa las [rutas de entrega en CDMX y área metropolitana](/cobertura/).
+
+### Si tienes jardín grande en el sur de la ciudad
+
+En el sur de la CDMX hay muchas casas con jardín o patio de tierra, y ahí el Jungla suele caber sin problema. Lo que cambia de una casa a otra es el terreno y el acceso, no el plan de la fiesta. Antes de apartar, revisa estos puntos según dónde vivas:
+
+| Zona | Qué revisar en el jardín | Traslado |
+|---|---|---|
+| Coyoacán | Árboles grandes y ramas bajas sobre el área; mide los 4.2 m desde el punto más bajo | Según zona |
+| Xochimilco | Jardines de tierra o pasto que pueden estar húmedos; que el piso esté firme y parejo | $100 a $150 |
+| Tláhuac | Patios con cemento o tierra compactada; la distancia de la toma de corriente al área | $100 a $200 |
+
+Si estás en Coyoacán, los detalles de colonias y acceso los tienes en la página de [entregas de inflables en Coyoacán](/cobertura/coyoacan/). Para Xochimilco, revisa la [cobertura y el traslado en Xochimilco](/cobertura/xochimilco/); y si la fiesta es en Tláhuac, consulta [qué colonias de Tláhuac atendemos](/cobertura/tlahuac/).
+
+Un detalle del sur: de junio a septiembre es temporada de lluvias en el Valle de México y es común que llueva por la tarde. Si tu fiesta de 4 años cae en esa temporada, empieza temprano, a mediodía si puedes, y ten listo un techo para la comida y el pastel. El inflable no se usa con lluvia, así que conviene que los bloques de juego queden antes de la hora en que suele nublarse.
+
+## ¿Qué errores se repiten en una fiesta de 4 años?
+
+Casi todos tienen que ver con el ritmo y con los turnos. Revisa esta lista una semana antes, cuando todavía puedes corregir:
+
+- **Abrir el inflable desde el primer minuto.** Los primeros en llegar se cansan antes de que lleguen los demás, y a la hora de los turnos ya no quieren salir.
+- **Turnos sin reloj.** Si el cambio depende de que «ya se cansen», nunca se cansan. Usa alarma.
+- **Mezclar a los primos grandes con el grupo de kínder.** Un niño de 8 brinca con más fuerza que uno de 4; que vayan en turnos separados.
+- **Dejar la entrada del inflable sin adulto.** Aunque haya muchos papás, si nadie tiene el turno asignado, nadie lo cuida.
+- **Servir el pastel tarde.** Después de las tres horas el grupo ya está cansado y la foto sale con niños llorando.
+- **Apartar la fecha a última hora.** Los sábados se llenan primero; la guía sobre [con cuánta anticipación reservar según la temporada](/blog/cuando-reservar-inflable-temporadas-cdmx/) te dice cuándo conviene moverte.
 
 ## ¿Qué incluye la checklist de una fiesta de 4 años?
 

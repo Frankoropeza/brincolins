@@ -4,10 +4,10 @@ h1: "Cómo organizar una fiesta spa para niñas con inflable sin perder el ritmo
 description: "Planea una fiesta spa para niñas con inflable: estaciones, horarios y logística para combinar actividades tranquilas con brinco en CDMX."
 excerpt: "Una fiesta spa puede tener esmaltes, pijamas y actividades sentadas sin dejar que el Castillo de Princesas se vuelva un rincón aislado. El orden de las estaciones hace que ambas partes funcionen."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-02"
+updatedDate: "2026-11-04"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "17 min"
 heroImage: "/img/inflables/castillo-princesas-fiesta-tematica-rosa.avif"
 heroImageAlt: "Castillo de Princesas inflable rosa y azul turquesa con torres decorativas"
 galleryImages:
@@ -46,7 +46,7 @@ Una **fiesta spa para niñas** no tiene por qué ser una tarde entera sentada fr
 
 Para un grupo de 2 a 10 años, el [Castillo de Princesas para fiesta infantil](/inflables/castillo-princesas/) pone el movimiento: tiene zona de brinco, resbaladilla, mallas laterales y un diseño rosa con azul turquesa. Entre los [castillos inflables para fiestas infantiles](/inflables/castillos/), es el modelo temático que se usa en exterior. La parte spa puede ser tan sencilla como una mesa de pulseras y accesorios o incluir una actividad de manicure infantil; no necesitas convertir toda la casa en salón de belleza para que el tema se entienda.
 
-> **Respuesta rápida:** Una fiesta spa para niñas con inflable se organiza mejor en bloques: actividad tranquila, turno de brinco, alimentos y cierre creativo. El Castillo de Princesas es para edades de 2 a 10 años, se instala en exterior, mide 5 × 3.30 × 3 m y requiere 4.2 m de altura libre. Revisa la [ficha del Castillo de Princesas](/inflables/castillo-princesas/) antes de apartar la fecha.
+> **Respuesta rápida:** Una fiesta spa para niñas con inflable se organiza mejor en bloques: actividad tranquila, turno de brinco, alimentos y cierre creativo. El Castillo de Princesas es para edades de 2 a 10 años, se instala en exterior, mide 5 × 3.30 × 3 m y requiere 4.2 m de altura libre. Revisa la ficha del Castillo de Princesas antes de apartar la fecha.
 
 ## ¿Qué hace que una fiesta spa para niñas y un inflable combinen?
 
@@ -68,7 +68,7 @@ Imagina el lugar en tres zonas, no como una sola fiesta mezclada. El castillo va
 
 El modelo se instala únicamente en exterior, sobre superficie plana y despejada, sin vidrio ni objetos punzantes. También requiere una toma de 110 V a menos de 20 m y supervisión de una persona adulta durante todo el evento. Sus medidas son 5 × 3.30 × 3 m, pero no tomes ese rectángulo como la única medida: el espacio de instalación se confirma al cotizar y debes revisar ramas, cables, lonas o lámparas sobre el punto elegido.
 
-Una buena regla práctica es montar primero el castillo y usar la decoración para acompañarlo, no al revés. La [guía del castillo inflable de princesas](/inflables/castillo-princesas/) explica qué medir y cómo preparar el acceso; eso evita descubrir el día de la fiesta que un arco, una mesa o una cuerda bloquea el recorrido del equipo.
+Una buena regla práctica es montar primero el castillo y usar la decoración para acompañarlo, no al revés. La ficha del Castillo de Princesas explica qué medir y cómo preparar el acceso; eso evita descubrir el día de la fiesta que un arco, una mesa o una cuerda bloquea el recorrido del equipo.
 
 ## ¿Qué horario deja tiempo para brincar y también para las estaciones spa?
 
@@ -140,7 +140,32 @@ Las tres ideas pueden convivir, pero una debe llevar el peso del evento. Si la f
 | Fotos y accesorios | Una estación creativa y un turno breve antes | Escenario de movimiento, no fondo de fotos |
 | Pijamada | Brinco temprano y actividades interiores después | Bloque previo a la cena o película |
 
-Si el tema de cuento es el centro y buscas juegos, mesa y ambiente más allá de la parte spa, la [fiesta de princesas con inflable en CDMX](/blog/fiesta-princesas-ninas-inflable-cdmx/) ofrece un complemento distinto. Si el grupo prefiere animales y exploración en vez de coronas, la [guía del inflable Jungla para fiesta temática](/inflables/mini-jungla/) ayuda a cambiar de temática con un criterio de edad y espacio. Y si lo que te preocupa es que el grupo sea pequeño o incluya bebés, compara antes los casos en que un castillo temático no es la elección adecuada antes de organizar las estaciones.
+Si el tema de cuento es el centro y buscas juegos, mesa y ambiente más allá de la parte spa, la guía de fiesta de princesas con inflable que enlazamos arriba ofrece un complemento distinto. Si el grupo prefiere animales y exploración en vez de coronas, la [guía del inflable Jungla para fiesta temática](/inflables/mini-jungla/) ayuda a cambiar de temática con un criterio de edad y espacio. Y si lo que te preocupa es que el grupo sea pequeño o incluya bebés, compara antes los casos en que un castillo temático no es la elección adecuada antes de organizar las estaciones.
+
+## ¿Y si la fiesta spa es en un departamento?
+
+Muchas fiestas spa se piensan para la sala: esmaltes en la mesa del comedor, colchonetas para la pijamada y películas en la tele. El problema aparece cuando se quiere sumar el castillo rosa. El Castillo de Princesas mide 3 m de alto y necesita 4.2 m de altura libre; un departamento con techo estándar de 2.4 a 3 m no da, y un salón de usos múltiples con plafón bajo tampoco.
+
+Tienes tres caminos realistas:
+
+1. **Cambiar a un modelo apto para interiores.** En el catálogo hay dos que caben bajo techo con 3.2 m de altura libre:
+
+| Modelo | Precio | Medidas | Edades | Uso bajo techo |
+|---|---|---|---|---|
+| [Castillo Baby](/inflables/mini-castillo/) | $1,400 | 2.5 × 2 × 2 m | 1 a 3 años | Sí |
+| [Gusanitos](/inflables/gusanitos/) | $1,600 | 5 × 3 × 2.80 m | 2 a 8 años | Sí |
+
+El Castillo Baby sirve si las invitadas son hermanitas o primas pequeñas; para niñas de primaria se queda corto. Gusanitos cubre de 2 a 8 años, aunque su diseño es tropical y no de princesa. En una fiesta spa eso pesa menos de lo que parece, porque el tema lo cargan las estaciones, las batas y los accesorios, no el inflable.
+
+2. **Usar un área exterior del edificio.** Jardín común, roof garden o patio del condominio. Antes de cotizar, pide permiso a la administración, pregunta si el elevador o la escalera permiten subir el equipo y si hay un contacto a menos de 20 m. Si lo que tienes es azotea, revisa primero la guía de [qué revisar para instalar un inflable en azotea](/blog/inflable-en-azotea-que-revisar-cdmx/).
+
+3. **Dividir la fiesta.** Brinco en el jardín de un familiar o en el área común por la tarde, y la parte spa y la pijamada en el departamento. Es más logística, pero respeta lo que cada espacio puede dar.
+
+Para medir el techo correctamente (vigas, lámparas y ventiladores también cuentan), la guía de [inflable para departamento según la altura del techo](/blog/inflable-para-departamento-altura-techo-cdmx/) explica cómo hacerlo con un flexómetro.
+
+### Si vives en Polanco, la Condesa o Interlomas
+
+En colonias de edificios es donde más se da la duda entre salón, área común y casa de la abuela. En Polanco, Lomas o Anzures, la administración suele pedir aviso con anticipación para usar el jardín o el roof; la página de [inflables a domicilio en Miguel Hidalgo](/cobertura/miguel-hidalgo/) tiene el detalle de traslado por colonia. Si la fiesta es en un departamento de la Roma o la Condesa, con techos altos de casa antigua o con techos bajos de edificio nuevo, conviene medir antes de elegir; revisa [el servicio en Cuauhtémoc](/cobertura/cuauhtemoc/). Y en los conjuntos residenciales de Interlomas, con jardines comunes amplios, el castillo exterior suele ser viable; el envío a [Huixquilucan e Interlomas](/cobertura/huixquilucan/) va de $150 a $250.
 
 ## ¿Qué información necesitas para cotizar la fiesta spa con inflable?
 

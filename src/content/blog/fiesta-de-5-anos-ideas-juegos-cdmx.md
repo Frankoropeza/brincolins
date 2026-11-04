@@ -4,10 +4,10 @@ h1: "Fiesta de 5 años en CDMX: juegos de una regla, invitados del kínder, cron
 description: "Fiesta de 5 años en CDMX: juegos de una sola regla, invitados del kínder, cronograma de 3 a 4 horas y turnos en el Dragones Rojos. Planea y aparta tu fecha."
 excerpt: "A los 5 años las reglas tienen que caber en una frase y las competencias durar poco. Juegos, lista de invitados, horario y turnos en el inflable, listos para usar."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Dragones Rojos"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "14 min"
 heroImage: "/img/inflables/dragones-rojos/dragones-detalle-exterior.avif"
 heroImageAlt: "Inflable Dragones Rojos sobre pasto sintético en una terraza rodeada de edificios y estructura metálica"
 galleryImages:
@@ -57,7 +57,7 @@ Las carreras y los retos encienden al grupo, siempre que sean cortos. Cinco minu
 
 ### Su personaje, no el del catálogo de decoración
 
-A los 5 ya tiene personajes propios: un superhéroe, un dinosaurio, un dragón, una caricatura. Pregúntale a él antes de comprar un solo globo. Si su respuesta es un dragón o un caballero, la [temática medieval con castillo rojo](/inflables/dragones-rojos/) te resuelve ambientación, juegos y menú.
+A los 5 ya tiene personajes propios: un superhéroe, un dinosaurio, un dragón, una caricatura. Pregúntale a él antes de comprar un solo globo. Si su respuesta es un dragón o un caballero, la [temática de dragones y caballeros con su castillo rojo](/blog/fiesta-de-dragones-y-caballeros-ideas/) te resuelve ambientación, juegos y menú.
 
 ### Lo que suele fallar a esta edad
 
@@ -129,6 +129,10 @@ Pon una alarma y nombra a una persona adulta que supervise la entrada durante to
 
 A los 5, salir cuesta. Avisa dos minutos antes, con calma («dos brincos más y salimos»), y ten algo esperando afuera: una estampa, un vaso de agua o el siguiente juego. Funciona mejor que cualquier regaño.
 
+#### El que no se anima a entrar
+
+También pasa lo contrario: un invitado de 5 que mira el inflable y no quiere subir. No lo empujes ni lo metas cargado. Déjalo ver un turno desde fuera, invítalo a entrar con un amigo cuando haya pocos niños y dale una tarea mientras tanto, como tocar la campana del cambio de turno. Hay más ideas en la guía para [niños tímidos o con miedo al inflable](/blog/inflable-para-ninos-timidos-o-con-miedo/).
+
 #### Los hermanos que todavía no cumplen 3
 
 No entran con el grupo de 5 años, aunque insistan. Ni un turno. La diferencia de tamaño es la que provoca golpes. Si vienen varios, un inflable para bebés aparte te resuelve la tarde.
@@ -137,7 +141,7 @@ No entran con el grupo de 5 años, aunque insistan. Ni un turno. La diferencia d
 
 Sin zapatos, sin comida y sin empujar. Nada de lentes, collares ni cosas en las bolsas. La resbaladilla se usa sentado y de uno en uno. ¿Alguien rompe una regla? Sale un turno y vuelve en el siguiente.
 
-Para ver la resbaladilla y la entrada antes de decidir, revisa las [fotos y medidas del inflable de dragones](/inflables/dragones-rojos/). Te das una idea de cómo se forman las filas.
+Para ver la resbaladilla y la entrada antes de decidir, revisa las fotos y medidas en la ficha del Dragones Rojos que enlazamos arriba. Te das una idea de cómo se forman las filas.
 
 ## ¿Qué juegos mantienen ocupados a los que esperan turno?
 
@@ -179,6 +183,26 @@ En un jardín, un patio, una azotea con acceso o el área común descubierta de 
 Si el piso te genera dudas, la guía sobre [pasto, cemento o tierra para el inflable](/blog/donde-instalar-inflable-pasto-cemento-tierra/) explica qué se revisa en cada caso. ¿Vives en privada o condominio? Ahí tienes que pedir permiso y avisar a los vecinos; lo resolvemos en la guía para [festejar en el jardín común del condominio](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/).
 
 ¿La fiesta va en un salón cerrado? Entonces el Dragones Rojos no es tu modelo. Pregunta al cotizar por los que sí funcionan en interiores. Te los decimos con medidas.
+
+### Si festejas en el área común de un fraccionamiento del norte del Edomex
+
+En Cuautitlán Izcalli, Tultitlán y Coacalco muchas fiestas de kínder se hacen en el jardín o la explanada del conjunto habitacional. Funciona bien porque los compañeros suelen vivir cerca y el área común da más espacio que el patio de la casa. Pero ahí no decides solo tú: también decide la administración. Antes de mandar invitaciones, resuelve esto:
+
+1. **Reserva el área con el nombre y la fecha.** Pregunta si el reglamento permite inflables y hasta qué hora.
+2. **Pregunta por la luz.** El motor necesita una toma de 110 V a menos de 20 m. Si la única toma está en la caseta o en el salón de usos múltiples, pide que te la presten ese día. La guía sobre [el contacto y la extensión que necesita el inflable](/blog/cuanta-luz-consume-un-inflable-contacto-extension/) te dice qué revisar.
+3. **Avisa en caseta.** Da el nombre de BRINCOLINS y la hora de llegada para que la instalación no se retrase en la entrada.
+4. **Revisa la altura.** Las áreas comunes suelen tener luminarias y árboles; el Dragones Rojos pide 4.5 m libres.
+5. **Ubica la mesa lejos del paso.** En un jardín compartido pasan vecinos, bicicletas y mascotas; pon el inflable en la esquina menos transitada.
+
+El traslado al norte del Estado de México depende del municipio. Estos son los rangos actuales:
+
+| Municipio | Traslado | Dónde ver colonias y detalles |
+|---|---|---|
+| Cuautitlán Izcalli | $250 a $400 | [inflables a domicilio en Cuautitlán Izcalli](/cobertura/cuautitlan-izcalli/) |
+| Tultitlán | $200 a $300 | [colonias de Tultitlán con entrega](/cobertura/tultitlan/) |
+| Coacalco | $200 a $300 | [cobertura y traslado en Coacalco](/cobertura/coacalco/) |
+
+El precio del inflable es el mismo en los tres: $1,600 netos por evento para el Dragones Rojos.
 
 ## ¿Qué descuidos desordenan una fiesta de 5 años?
 

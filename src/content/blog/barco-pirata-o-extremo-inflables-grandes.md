@@ -4,10 +4,10 @@ h1: "Inflables grandes frente a frente: Barco Pirata o Extremo según tu espacio
 description: "Inflables grandes comparados: Barco Pirata ($2,300) contra Extremo ($2,500). Medidas, altura libre, tobogán y doble carril para elegir bien y apartar."
 excerpt: "Los dos son para niños de 3 a 12 años y van en exterior, pero uno pide altura y el otro pide largo. Mide tu espacio y elige sin adivinar."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Barco Pirata"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "13 min"
 heroImage: "/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif"
 heroImageAlt: "Uno de los inflables grandes: el Barco Pirata de costado, con ancla blanca y mástiles de colores"
 galleryImages: []
@@ -66,7 +66,7 @@ Esta tabla compara las especificaciones tal como aparecen en el catálogo. La co
 | Diseño | Mástil, velas y tobogán por la popa | Pista de obstáculos, tobogán doble y doble carril |
 | Precio neto por evento | $2,300 | $2,500 |
 
-El Extremo mide 2 m más de largo y 1 m más de ancho. El barco pide 70 cm más de altura libre. Esa es toda la historia. Las fotos y detalles están en la [ficha completa del Barco Pirata](/inflables/barco-pirata/) y en las [medidas y fotos del Extremo de 8 metros](/inflables/extremo/).
+El Extremo mide 2 m más de largo y 1 m más de ancho. El barco pide 70 cm más de altura libre. Esa es toda la historia. Las fotos y detalles están en la ficha de cada modelo; la del otro contendiente es la de [medidas y fotos del Extremo de 8 metros](/inflables/extremo/).
 
 ![Barco Pirata inflable y un castillo de colores en el mismo patio soleado, útil para comparar tamaños](/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif)
 
@@ -88,7 +88,7 @@ El barco necesita 5.2 m de altura libre; el Extremo, 4.5 m. Esa diferencia desca
 
 #### Cómo mides la altura
 
-Mide desde el piso hasta el primer obstáculo encima del área: cable, rama, toldo o alero. Hazlo en el punto exacto, no en el centro del jardín. La [guía para comprobar si te cabe un inflable de 6 u 8 metros](/inflables/barco-pirata/) te explica suelo, altura y acceso paso a paso.
+Mide desde el piso hasta el primer obstáculo encima del área: cable, rama, toldo o alero. Hazlo en el punto exacto, no en el centro del jardín. En la ficha del barco tienes los requisitos de suelo, altura y acceso.
 
 ### Cuando no alcanza para ninguno
 
@@ -146,9 +146,30 @@ Cuando el evento es grande, puedes rentar los dos y repartir grupos.
 
 ### Si rentas los dos a la vez
 
-Los chicos en el barco, los grandes en el Extremo, y luego cambian. Necesitas un adulto por inflable. Y necesitas dos tomas de corriente, cada una a menos de 20 m de su modelo. La logística de una kermés con inflables está en la [guía de kermés escolar en el Estado de México](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/). El espacio para ambos y la capacidad se confirman al cotizar.
+Los chicos en el barco, los grandes en el Extremo, y luego cambian. Necesitas un adulto por inflable. Y necesitas dos tomas de corriente, cada una a menos de 20 m de su modelo; antes de conectar dos motores al mismo circuito revisa [cuánta luz consume un inflable y qué extensión usar](/blog/cuanta-luz-consume-un-inflable-contacto-extension/). La logística de una kermés con inflables está en la [guía de kermés escolar en el Estado de México](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/). El espacio para ambos y la capacidad se confirman al cotizar.
 
 ¿El evento es en una quinta o un jardín de eventos? Antes de elegir modelo, revisa [qué confirmar con la quinta sobre permisos y corriente](/blog/fiesta-en-quinta-o-jardin-de-eventos-edomex/).
+
+## Quintas y terrenos del Estado de México: dónde lucen los inflables grandes
+
+Los dos modelos grandes piden exterior y espacio, y eso es justo lo que sobra en muchas quintas, terrenos y casas de campo del Estado de México. Pero en esos lugares aparecen otros obstáculos: árboles altos, pasto disparejo, tierra suelta y contactos lejos del jardín. Esta tabla te ayuda a calcular el total antes de cotizar, con el traslado publicado para cada municipio:
+
+| Municipio | Traslado | Total con Barco Pirata ($2,300) | Total con Extremo ($2,500) |
+|---|---|---|---|
+| Texcoco | $250–$400 | $2,550–$2,700 | $2,750–$2,900 |
+| Chalco | $250–$400 | $2,550–$2,700 | $2,750–$2,900 |
+| Nicolás Romero | $250–$400 | $2,550–$2,700 | $2,750–$2,900 |
+| Metepec | $400–$600 | $2,700–$2,900 | $2,900–$3,100 |
+
+Precios netos; con factura se agrega 16% de IVA.
+
+**Texcoco y Chalco.** En el oriente del Estado de México hay muchas quintas y terrenos amplios donde el largo de 8 m del Extremo no es problema. Lo que más se revisa ahí es el piso: si es tierra suelta, conviene un área de pasto o concreto pareja. Consulta tiempos y condiciones de la [entrega de inflables en Texcoco](/cobertura/texcoco/) y del [servicio en Chalco](/cobertura/chalco/).
+
+**Nicolás Romero.** Muchas fiestas son en terrenos con árboles grandes. Ahí manda la altura: si las ramas quedan por debajo de 5.2 m, el Extremo es la opción segura. Revisa la [cobertura en Nicolás Romero](/cobertura/nicolas-romero/).
+
+**Metepec.** Está junto a Toluca, a mayor altitud que la CDMX, y las mañanas y tardes son más frías. Para un inflable grande en jardín, programa los turnos fuertes en las horas de sol y ten suéteres a la mano para la salida del tobogán. Tienes los detalles en [inflables a domicilio en Metepec](/cobertura/metepec/).
+
+En cualquier quinta, pregunta tres cosas antes de apartar: si permiten inflables, dónde está el contacto más cercano al jardín y por dónde entra el equipo desde el estacionamiento. Los fines de semana con más demanda conviene apartar con anticipación; revisa [cuándo reservar según la temporada](/blog/cuando-reservar-inflable-temporadas-cdmx/).
 
 ## ¿Qué pasa con los niños de 3 a 5 años en un inflable grande?
 
@@ -190,4 +211,4 @@ Los fines de semana se llenan y la disponibilidad se confirma por WhatsApp. Si y
 
 La fecha se aparta con el 50% de anticipo. El precio es por evento, neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Revisa la [cobertura por alcaldía y municipio en CDMX y Edomex](/cobertura/).
 
-Pide una [cotización en línea con los dos modelos](/cotizar/), [aparta el barco con mástil desde su ficha](/inflables/barco-pirata/) o [escríbenos por WhatsApp para apartar](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20un%20inflable%20grande%20Barco%20Pirata%20o%20Extremo%20para%20mi%20fiesta).
+Pide una [cotización en línea con los dos modelos](/cotizar/) o [escríbenos por WhatsApp para apartar](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20un%20inflable%20grande%20Barco%20Pirata%20o%20Extremo%20para%20mi%20fiesta).

@@ -4,10 +4,10 @@ h1: "Fiesta de sirenas y piratas con el Barco Pirata inflable: paleta, zonas, ju
 description: "Fiesta de sirenas y piratas para hermanos o grupos mixtos: paleta, decoración de mar, búsqueda del tesoro y mesa con el Barco Pirata. Cotiza tu fecha."
 excerpt: "Una pide sirenas, el otro quiere piratas y el presupuesto alcanza para una fiesta. Así se arma un solo mar para los dos, con el barco inflable al centro."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Barco Pirata"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "18 min"
 heroImage: "/img/inflables/barco-pirata.avif"
 heroImageAlt: "Barco Pirata inflable morado y verde con mástiles amarillos sobre pasto para una fiesta de sirenas y piratas"
 galleryImages: []
@@ -80,11 +80,11 @@ El inflable mide 6 × 3.5 × 3.80 m, pero el número que más pesa es otro. Ante
 
 #### La altura libre de 5.2 m
 
-Mide desde el pasto hasta la primera rama, cable o toldo encima del área. ¿Te da menos de 5.2 m? Ese punto no sirve, por bonito que se vea. La [guía para medir suelo, altura y acceso de un inflable grande](/inflables/barco-pirata/) te lleva paso a paso.
+Mide desde el pasto hasta la primera rama, cable o toldo encima del área. ¿Te da menos de 5.2 m? Ese punto no sirve, por bonito que se vea. Mide también el acceso: el equipo llega con el barco enrollado y necesita un paso libre desde la calle hasta el jardín.
 
 #### Corriente, superficie y exterior
 
-Necesitas una toma de 110 V a menos de 20 m, superficie plana y despejada, sin vidrio ni objetos punzantes. Y siempre exterior: jardín, patio amplio o explanada. La capacidad y el espacio libre exacto los confirmamos al cotizar.
+Necesitas una toma de 110 V a menos de 20 m, superficie plana y despejada, sin vidrio ni objetos punzantes. Si la toma queda lejos, revisa [qué extensión y contacto aguantan el motor](/blog/cuanta-luz-consume-un-inflable-contacto-extension/). Y siempre exterior: jardín, patio amplio o explanada. La capacidad y el espacio libre exacto los confirmamos al cotizar.
 
 ![Costado del Barco Pirata con ancla blanca en el casco y mástiles de colores junto a un edificio](/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif)
 
@@ -170,7 +170,26 @@ La tabla compara el barco con tres opciones que suelen entrar en esta conversaci
 | Castillo Baby | 2.5 × 2 × 2 m | 1 a 3 años | Sí | $1,400 |
 | Gusanitos | 5 × 3 × 2.80 m | 2 a 8 años | Sí | $1,600 |
 
-Si la festejada sueña con torres, el [Castillo de Princesas en rosa y azul turquesa como palacio de sirenas](/inflables/castillo-princesas/) también cuenta la historia. Si hay hermanos de 1 a 3 años, no entran al barco: el [Castillo Baby para los invitados más pequeños](/inflables/mini-castillo/) va en otra zona con su propio adulto. Todos los diseños con historia están en los [inflables con temática del catálogo](/inflables/tematicos/).
+Si la festejada sueña con torres, el [Castillo de Princesas en rosa y azul turquesa como palacio de sirenas](/inflables/castillo-princesas/) también cuenta la historia. Si hay hermanos de 1 a 3 años, no entran al barco: el [Castillo Baby para los invitados más pequeños](/inflables/mini-castillo/) va en otra zona con su propio adulto. Si quieres comparar más modelos con torres, revisa la [categoría de castillos inflables](/inflables/castillos/).
+
+## ¿Y si el barco no cabe en tu espacio?
+
+El Barco Pirata es el modelo con más altura libre del catálogo: pide 5.2 m. Muchos patios y terrazas no los tienen, y eso no cancela la temática. Esta tabla te dice qué hacer según el espacio que sí tienes:
+
+| Tu espacio | Qué pasa con el barco | Alternativa con la misma historia |
+|---|---|---|
+| Jardín amplio sin árboles bajos | Cabe si hay 5.2 m libres y superficie plana | El barco como escenario central |
+| Patio con cables o tendederos | Probablemente no cabe | Castillo de Princesas como «palacio de sirenas» (4.2 m libres) |
+| Terraza techada o salón | No; es sólo para exterior | Gusanitos como «cueva del tesoro» (3.2 m libres, apto interiores) |
+| Área verde de unidad o parque | Depende de la altura y del permiso | Consultar con la administración antes de cotizar |
+
+La paleta, las dos zonas y la búsqueda del tesoro funcionan igual con cualquiera de esos modelos. Lo único que cambia es dónde termina el mapa. Si piensas en un parque, la guía de [fiesta infantil en parque con inflable](/blog/fiesta-infantil-en-parque-con-inflable/) explica qué revisar antes de llevar el equipo.
+
+## Del jardín de Satélite al patio de la unidad: Naucalpan, Azcapotzalco e Iztacalco
+
+En Ciudad Satélite y otras zonas residenciales de Naucalpan es común encontrar casas con jardín trasero, donde el barco puede ir al fondo como escenario. Ahí el punto a revisar son los árboles maduros: mide debajo de la copa, no junto a la barda. Para traslado y colonias, consulta la [información de servicio en Naucalpan](/cobertura/naucalpan/).
+
+En Azcapotzalco y en Iztacalco muchas fiestas se hacen en el patio de una casa o en el área común de una unidad habitacional. En esos espacios la altura y el ancho suelen quedarse cortos para un inflable de 6 × 3.5 m, así que manda fotos antes de decidir: a veces conviene el Castillo de Princesas y el barco se queda para otra ocasión. Revisa la [cobertura en Azcapotzalco](/cobertura/azcapotzalco/) y las [colonias que atendemos en Iztacalco](/cobertura/iztacalco/); en las dos alcaldías el traslado se confirma según la colonia. En una unidad, pide permiso a la administración y avisa a los vecinos de la hora de instalación.
 
 ## ¿Qué errores arruinan una fiesta temática doble?
 
@@ -199,4 +218,4 @@ Los fines de semana se llenan y la disponibilidad se confirma por WhatsApp. Si y
 
 La fecha se aparta con el 50% de anticipo. El precio es por evento, neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Revisa las [alcaldías y municipios con servicio](/cobertura/) o consulta el [precio del barco junto a los otros siete modelos](/precios/).
 
-Llena la [cotización en línea para el Barco Pirata](/cotizar/), revisa la [galería y medidas del barco de 6 metros](/inflables/barco-pirata/) o [escríbenos por WhatsApp para apartar tu fecha](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Barco%20Pirata%20para%20una%20fiesta%20tematica%20de%20sirenas%20y%20piratas).
+Llena la [cotización en línea para el Barco Pirata](/cotizar/) o [escríbenos por WhatsApp para apartar tu fecha](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Barco%20Pirata%20para%20una%20fiesta%20tematica%20de%20sirenas%20y%20piratas).

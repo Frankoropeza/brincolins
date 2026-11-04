@@ -4,10 +4,10 @@ h1: "Fiesta infantil en condominio, privada o unidad habitacional: permisos, cor
 description: "Fiesta infantil en condominio o privada en CDMX: qué pedir a la administración, qué área común sirve, corriente, camioneta y vecinos. Cotiza tu inflable."
 excerpt: "El jardín común está a unos pasos, pero no es sólo tuyo. Resuelve permiso, corriente, acceso y vecinos antes de apartar, y el día de la fiesta sólo te ocupas de los niños."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Dragones Rojos"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "18 min"
 heroImage: "/img/inflables/dragones-rojos/dragones-frontal-centrado.avif"
 heroImageAlt: "Dragones Rojos visto de frente dentro de un salón, con resbaladilla verde y torres amarilla y azul"
 galleryImages:
@@ -73,6 +73,14 @@ Pide una copia o pregunta directo qué dice sobre fiestas, áreas comunes, horar
 
 En muchos conjuntos el jardín, la terraza o la explanada se reservan con anticipación, a veces con un formato o un depósito. Aparta el área para todo el tiempo que necesitas: la instalación antes de que lleguen los invitados, la fiesta y la recolección al final. No reserves sólo la hora de la invitación. Te quedas corto.
 
+### Un mensaje para pedir el permiso
+
+Si no sabes cómo plantearlo, este texto sirve como base. Ajusta los datos y mándalo por el canal oficial del conjunto (correo, chat de administración o formato de reserva):
+
+> Buen día. Soy [nombre], de la casa/departamento [número]. Quiero reservar [área común] el [fecha] de [hora de inicio] a [hora de fin] para el cumpleaños de mi hijo/a. Incluye un juego inflable de 5 × 3 m que se instala en unos 20 minutos antes de la fiesta y se retira al terminar. Necesitaría usar la toma de corriente de [ubicación]. ¿Me confirman si es posible y si hay alguna condición del reglamento que deba cumplir? Gracias.
+
+Pedirlo así, con medidas, horario completo y la toma de corriente, evita que la respuesta sea un "sí" que luego se complica el mismo día.
+
 ### Las preguntas que te puede hacer la administración
 
 La administración cuida el área y a los demás vecinos, así que es lógico que pregunte. Ten listas estas tres respuestas y la conversación dura cinco minutos.
@@ -127,7 +135,7 @@ Antes de la fiesta confirma tres cosas, y anótalas en el chat con la administra
 
 El inflable se mantiene armado gracias al motor. Si la corriente se corta, pierde aire poco a poco. La persona adulta que supervisa tiene que saber qué hacer: sacar a los niños con calma, uno por uno, y no dejar que nadie vuelva a entrar hasta que el motor funcione de nuevo.
 
-Ten a la mano el teléfono de quien abre el tablero. Guárdalo hoy. ¿La toma más cercana está a más de 20 m? Avísalo al cotizar con una foto. Es mejor resolverlo antes que con los invitados llegando.
+Ten a la mano el teléfono de quien abre el tablero. Guárdalo hoy. Si la toma del área común comparte circuito con la iluminación del jardín o la bomba de agua, pregunta si aguanta otro equipo; la guía sobre [el consumo de luz del inflable y qué extensión usar](/blog/cuanta-luz-consume-un-inflable-contacto-extension/) te ayuda a hacer la pregunta con datos. ¿La toma más cercana está a más de 20 m? Avísalo al cotizar con una foto. Es mejor resolverlo antes que con los invitados llegando.
 
 ## ¿Por dónde entra y dónde se estaciona la camioneta?
 
@@ -157,7 +165,7 @@ Si vas a poner música, mantenla a un volumen que no obligue a gritar. Una regla
 
 ### Fin de semana o entre semana
 
-Los sábados y domingos el área común suele estar más solicitada, igual que el inflable. Si tu conjunto reserva por orden de llegada, aparta el área primero. Luego escríbenos. Una tarde entre semana tiene menos competencia por el espacio, aunque los invitados del kínder llegan más tarde.
+Los sábados y domingos el área común suele estar más solicitada, igual que el inflable. Si tu conjunto reserva por orden de llegada, aparta el área primero. Luego escríbenos. Una tarde entre semana tiene menos competencia por el espacio, aunque los invitados del kínder llegan más tarde. Si tu fecha cae en temporada alta, revisa [con cuánta anticipación conviene reservar el inflable](/blog/cuando-reservar-inflable-temporadas-cdmx/).
 
 ## ¿Cambia algo entre privada, condominio vertical y unidad habitacional?
 
@@ -168,6 +176,16 @@ La lógica es la misma en los tres, pero cambian los detalles: quién autoriza, 
 - **Unidad habitacional:** áreas más grandes y más vecinos. El aviso previo pesa más y la reserva puede tener más trámite.
 
 ¿Tu privada está en el sur de la ciudad? Revisa la página de [renta de inflables en Tlalpan](/cobertura/tlalpan/); para otras alcaldías y municipios, consulta [las zonas donde instalamos](/cobertura/). Y si el área común no se puede usar y no tienes jardín propio, el [directorio de salones en CDMX](/directorio/cdmx/) reúne opciones; recuerda que el Dragones Rojos necesita un espacio exterior.
+
+### Si tu conjunto está en el norte del Estado de México
+
+En municipios como Tecámac, Ecatepec, Cuautitlán Izcalli y Tultitlán hay muchos conjuntos de casas con calle interior, caseta y un área verde compartida. La lógica de esta guía aplica igual, con un par de detalles que conviene revisar:
+
+- **Áreas verdes chicas o con juegos fijos.** Mide el claro libre, no el área completa: columpios, bancas y jardineras se comen espacio. Si no alcanzan los 5 × 3 m más holgura, el Castillo Baby o el Gusanitos pueden ser la alternativa, según la edad de los niños.
+- **La calle interior no es área de juego.** Aunque el conjunto sea cerrado, por ahí circulan autos. Si la administración autoriza usarla, que sea con la calle cerrada a vehículos todo el evento y por escrito.
+- **El traslado sube con la distancia.** Como referencia, el envío a [conjuntos en Tecámac](/cobertura/tecamac/) y a [fraccionamientos de Cuautitlán Izcalli](/cobertura/cuautitlan-izcalli/) va de $250 a $400; a [unidades y privadas de Ecatepec](/cobertura/ecatepec/), de $200 a $350; y la entrega de [inflables a domicilio en Tultitlán](/cobertura/tultitlan/), de $200 a $300.
+
+Con la dirección exacta del conjunto confirmamos el costo al cotizar.
 
 > **Tu fiesta en el jardín común, sin enredos.** Cuéntanos qué tipo de conjunto es y dónde está la toma de corriente, y te decimos qué falta antes de apartar. [Revisar mi caso por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20vivo%20en%20una%20privada%20y%20quiero%20saber%20si%20cabe%20el%20Dragones%20Rojos%20en%20el%20area%20comun)
 
@@ -185,7 +203,7 @@ Pagar el anticipo antes del permiso, reservar sólo la hora de la fiesta y no co
 
 Para los días previos y el clima, la [guía paso a paso de la fiesta en jardín](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/) complementa esta lista. Si el festejado cumple 5, mira también [el plan de juegos y turnos para niños de 5 años](/blog/fiesta-de-5-anos-ideas-juegos-cdmx/). ¿Quieres resolver mesa y actividad con un solo proveedor? Revisa el [paquete fiesta de $2,800 con mesa y pintacaritas](/servicios/paquetes-de-fiesta/).
 
-¿Dudas entre modelos por la altura del área? Las [diferencias de altura e interiores entre Dragones Rojos, Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/) te ayudan a decidir, y la [categoría de inflables medianos](/inflables/medianos/) reúne los modelos de ese tamaño. Si quieres ambientar el jardín común con temática, tienes [ideas para una fiesta medieval con dragones](/inflables/dragones-rojos/).
+¿Dudas entre modelos por la altura del área? Las [diferencias de altura e interiores entre Dragones Rojos, Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/) te ayudan a decidir, y la [categoría de inflables medianos](/inflables/medianos/) reúne los modelos de ese tamaño. Si quieres ambientar el jardín común con temática, tienes ideas para una fiesta medieval con dragones.
 
 ## Cotiza tu fiesta en el área común del condominio
 
@@ -197,6 +215,6 @@ En cuanto tengas el permiso, aparta la fecha: los fines de semana se llenan y la
 - Las edades y la cantidad aproximada de niños.
 - Dónde está la toma de corriente y a qué distancia queda.
 
-La fecha se aparta con 50% de anticipo. El precio es por evento y neto; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Revisa las [condiciones de cancelación y cambio de fecha](/politica-de-cancelacion/) por si la administración mueve algo, o consulta la [ficha técnica del inflable Dragones Rojos](/inflables/dragones-rojos/).
+La fecha se aparta con 50% de anticipo. El precio es por evento y neto; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Revisa las [condiciones de cancelación y cambio de fecha](/politica-de-cancelacion/) por si la administración mueve algo, o consulta la ficha técnica del inflable Dragones Rojos.
 
 Usa el [formulario de cotización](/cotizar/) o [escríbenos con las fotos del área común](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20ya%20tengo%20permiso%20del%20condominio%20y%20quiero%20cotizar%20el%20Dragones%20Rojos). Atendemos de lunes a domingo de 8:00 a 20:00.

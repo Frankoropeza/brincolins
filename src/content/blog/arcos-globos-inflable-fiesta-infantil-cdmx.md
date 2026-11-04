@@ -3,9 +3,10 @@ title: "Arcos de Globos e Inflables para Fiestas en CDMX"
 description: "Combina arcos de globos e inflables en fiestas infantiles en CDMX. Temas, paletas de color, distribución de espacios y tips de instalación."
 excerpt: "El secreto de las fiestas infantiles más fotografiadas en CDMX: combinar un inflable llamativo con la decoración de globos correcta. Aprende a coordinar colores, distribuir el espacio y lograr esas fotos que los papás siempre sueñan."
 publishDate: "2026-06-03"
+updatedDate: "2026-11-04"
 category: "Decoración"
 author: "Equipo BRINCOLINS"
-readTime: "9 min"
+readTime: "17 min"
 heroImage: "/img/blog/blog-decoracion-fiesta-infantil-inflable.avif"
 heroImageAlt: "Arcos de globos e inflable para fiesta infantil en CDMX"
 intro:
@@ -23,6 +24,10 @@ faqs:
     answer: "El inflable generalmente se instala 1-2 horas antes del inicio del evento. Los arcos de globos, dependiendo del tamaño, requieren entre 1 y 3 horas de instalación. Se recomienda que el inflable llegue primero para que la decoración de globos se diseñe alrededor de él, sin interferir en el acceso."
   - question: "¿Los globos de látex se dañan si están cerca del inflable encendido?"
     answer: "No representan riesgo si se instalan correctamente. El motor soplador del inflable genera algo de calor pero no lo suficiente para afectar los globos a distancia normal. Lo importante es no pegar globos directamente sobre la superficie del inflable en movimiento. Un decorador profesional como DEGLOB sabe exactamente cómo posicionarlos con seguridad."
+  - question: "¿Puedo poner guirnaldas de globos colgadas encima del inflable en un salón?"
+    answer: "Solo si sobra altura. Cada modelo pide una altura libre mínima (por ejemplo 3.2 m el Castillo Baby y 4.2 m el Castillo de Princesas) y lo que cuelgue del techo resta espacio. Si el techo queda justo, cuelga las guirnaldas sobre las mesas de adultos y deja libre la zona del inflable."
+  - question: "¿Qué inflable combina mejor con un arco pequeño en un patio angosto?"
+    answer: "Los compactos: Castillo Baby (2.5 × 2 m, de 1 a 3 años) o Gusanitos (5 × 3 m, de 2 a 8 años). Así el arco puede ir en la puerta sin estorbar la salida del inflable. El espacio exacto se confirma al cotizar."
 ---
 
 ## Son las 11 de la mañana en un jardín en Tlalpan
@@ -119,6 +124,41 @@ La foto aérea del jardín completo se toma desde una silla o escalera en el ext
 La foto del grupo de niños en el inflable requiere un asistente adulto dentro del inflable para organizarlos. Los globos de fondo hacen que la foto se vea profesional incluso con un teléfono normal.
 
 La foto del pastel con el backdrop, con buena iluminación de frente, convierte cualquier imagen del pastel en algo que parece de revista.
+
+## Si la fiesta es bajo techo: altura del inflable y del arco
+
+En salón, cochera techada o terraza con lona, el límite es el techo. Cada inflable pide una altura libre mayor a la suya:
+
+| Inflable | Alto del inflable | Altura libre requerida |
+|---|---|---|
+| Castillo Baby | 2 m | 3.2 m |
+| Gusanitos | 2.80 m | 3.2 m |
+| Castillo de Princesas | 3 m | 4.2 m |
+| Castillo Blanco | 4 m | 4.7 m |
+
+Mide el techo en su punto más bajo (vigas, lámparas) y descuenta lo que vaya colgado. El arco de entrada no compite por altura, pero las guirnaldas sobre la zona de juego sí: si el techo queda justo, cuélgalas sobre las mesas de adultos.
+
+En temporada de lluvias (junio a septiembre en el Valle de México) conviene tener un plan B techado o decidir con tiempo entre salón y casa. Ese análisis está desarrollado en [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/), y si tu único espacio libre está arriba, revisa primero [qué checar antes de subir un inflable a la azotea](/blog/inflable-en-azotea-que-revisar-cdmx/).
+
+## Checklist para que globos e inflable no choquen el día de la fiesta
+
+Envía esta lista a ambos proveedores una semana antes:
+
+- Foto o croquis del espacio con medidas reales (largo, ancho y, si es techado, alto).
+- Ubicación del contacto eléctrico para el motor y por dónde pasará la extensión.
+- Hora de llegada del inflable y hora de llegada del decorador, por escrito.
+- Zona exacta del arco de entrada, lejos de la salida del inflable.
+- Paleta de colores confirmada con una foto del inflable elegido.
+
+**Al cotizar el inflable pregunta:** cargo de traslado a tu zona, espacio libre que pide el modelo y si necesitas factura (el IVA se suma solo entonces). El montaje toma de 15 a 30 minutos.
+
+## Patios, azoteas y salones del oriente y norte de la ciudad
+
+En el oriente y el norte de la CDMX muchas fiestas se hacen en el patio de la casa, en la azotea o en un salón de barrio, y eso cambia la decoración. En Venustiano Carranza, colonias como Jardín Balbuena o Moctezuma tienen casas con patio angosto: ahí funciona mejor un arco pequeño en la puerta y un inflable compacto como Gusanitos o Castillo Baby. Si ese es tu caso, revisa la [cobertura en Venustiano Carranza](/cobertura/venustiano-carranza/) para ver tiempos y condiciones de entrega.
+
+En Iztacalco, donde abundan los salones de eventos y las unidades habitacionales con área común, el reto suele ser la altura del techo o el reglamento del condominio; antes de pedir el arco, confirma que el inflable cabe. Tienes los detalles de la [entrega de inflables en Iztacalco](/cobertura/iztacalco/).
+
+Gustavo A. Madero es muy amplia, con jardines grandes y patios chicos; ajusta el tamaño del arco al de la entrada. Consulta cómo llegamos a [Gustavo A. Madero y sus colonias](/cobertura/gustavo-a-madero/).
 
 ## Ventajas de contratar ambos servicios de forma coordinada
 

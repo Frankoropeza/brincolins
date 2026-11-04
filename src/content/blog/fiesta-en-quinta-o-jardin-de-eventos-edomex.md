@@ -4,10 +4,10 @@ h1: "Fiesta en quinta con inflable: permisos, acceso, corriente, terreno y altur
 description: "Fiesta en quinta con inflable en Edomex o el sur de CDMX: permisos, acceso, corriente, terreno y altura libre del Barco Pirata. Revísalo y cotiza tranquilo."
 excerpt: "La quinta tiene pasto de sobra, pero también reglas, horarios y árboles. Lo que conviene preguntar al lugar antes de llevar un inflable grande como el Barco Pirata."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Barco Pirata"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "18 min"
 heroImage: "/img/inflables/barco-pirata/barco-pirata-renta-cdmx.avif"
 heroImageAlt: "Barco Pirata sobre pasto entre carpa blanca y árboles, montaje típico de una fiesta en quinta con inflable"
 galleryImages: []
@@ -48,7 +48,7 @@ Cambia quién decide. En tu casa el inflable va donde quieres; en una quinta, la
 
 El Barco Pirata es el modelo de mayor impacto visual del catálogo. Tiene mástil, velas y tobogán por la popa, mide 6 × 3.5 × 3.80 m y se instala en unos 30 minutos. En un jardín grande se ve desde la entrada. A cambio, te pide 5.2 m de altura libre. Y exterior siempre.
 
-¿La fiesta es en tu jardín y no en una quinta? Entonces te sirve más la guía de [fiesta en el jardín de casa con inflable y mesas](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/). Ahí también está cómo repartir zonas al aire libre.
+¿La fiesta es en tu jardín y no en una quinta? Entonces te sirve más la guía de [fiesta en el jardín de casa con inflable y mesas](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/). Ahí también está cómo repartir zonas al aire libre. Y si todavía no decides entre rentar un lugar o hacerla en casa, compara costos y logística en [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/).
 
 ## ¿Qué le preguntas a la quinta sobre proveedores externos?
 
@@ -127,7 +127,7 @@ Revisa si hay cables cruzando el jardín, guirnaldas colgadas entre árboles o l
 
 #### Cómo mides la altura en la visita
 
-Lleva una cinta métrica o un medidor láser. Mide desde el pasto hasta la rama, el cable o el toldo más bajo sobre el área donde iría el barco. ¿Te da menos de 5.2 m? Ese punto no sirve. La [lista para medir suelo, altura y acceso antes de apartar](/inflables/barco-pirata/) te explica el procedimiento completo.
+Lleva una cinta métrica o un medidor láser. Mide desde el pasto hasta la rama, el cable o el toldo más bajo sobre el área donde iría el barco. ¿Te da menos de 5.2 m? Ese punto no sirve. La lista para medir suelo, altura y acceso antes de apartar te explica el procedimiento completo.
 
 ### Carpas y toldos
 
@@ -150,6 +150,31 @@ Depende de la zona exacta de la quinta, y se confirma al cotizar con la direcci�
 La entrega sin costo adicional aplica sólo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco. Fuera de esa lista se agrega el traslado. Te lo decimos al cotizar.
 
 Si tu quinta está en el poniente, revisa la [renta de inflables en Huixquilucan](/cobertura/huixquilucan/). Para el sur, consulta la [cobertura en Tlalpan para jardines de eventos](/cobertura/tlalpan/), y para el resto, el [listado de alcaldías y municipios que atendemos](/cobertura/).
+
+### Si la quinta está en el oriente, el norte o el valle de Toluca
+
+Si la quinta queda lejos de la ciudad, el traslado del inflable sube con la distancia, así que conviene tenerlo en el presupuesto desde el principio:
+
+| Zona de la quinta | Traslado | Qué tener en cuenta |
+|---|---|---|
+| Texcoco | $250 a $400 | Pregunta por el camino de acceso si la quinta está fuera de la cabecera |
+| Chalco | $250 a $400 | Confirma a qué hora puede entrar el equipo, sobre todo en fin de semana |
+| Nicolás Romero | $250 a $400 | Revisa desniveles del área antes de elegir dónde va el inflable |
+| Metepec | $400 a $600 | Más frío que la CDMX por la altitud; planea la fiesta en las horas de sol |
+
+Para quintas al oriente tienes la cobertura de [inflables a domicilio en Texcoco](/cobertura/texcoco/) y la de [entregas en Chalco](/cobertura/chalco/). Si el jardín está al norponiente, revisa la página de [fiestas en Nicolás Romero](/cobertura/nicolas-romero/). Y si celebras en el valle de Toluca, la de [quintas y jardines en Metepec](/cobertura/metepec/) tiene los detalles de traslado.
+
+En Metepec y Toluca las mañanas y las noches son notablemente más frías que en la ciudad por la altitud. Un inflable al aire libre funciona bien a mediodía y en la tarde; si tu evento empieza temprano o se alarga después de que se oculta el sol, revisa la guía de [fiestas infantiles al aire libre en temporada de frío](/blog/fiesta-infantil-en-invierno-al-aire-libre-cdmx/) para ajustar horarios y ropa de los niños.
+
+### ¿Y si llueve el día de la quinta?
+
+De junio a septiembre llueve con frecuencia por las tardes en el Valle de México, y una quinta al aire libre es justo donde más se nota. Tres cosas que conviene resolver antes:
+
+1. **Pregunta a la quinta qué cubre la carpa** y si hay un área techada donde puedan esperar los niños mientras pasa la lluvia.
+2. **Programa el inflable para la primera parte de la fiesta.** Si la lluvia suele llegar a media tarde, que los niños jueguen antes de la comida y no después.
+3. **Pregunta al cotizar qué pasa si llueve** antes o durante el evento, y revisa la política de cancelación antes de apartar.
+
+Con lluvia, el inflable se desaloja y se detiene: la lona mojada resbala y no se usa hasta que deje de llover y se seque.
 
 > **Calcula el traslado antes de decidir.** Con la dirección de la quinta te damos el total del barco más el traslado, sin sorpresas. [Pedir el traslado a mi quinta](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20el%20traslado%20del%20Barco%20Pirata%20a%20una%20quinta%20en%20Estado%20de%20Mexico)
 
@@ -196,4 +221,4 @@ Los fines de semana se llenan, igual que las agendas de las quintas. ¿Ya tienes
 
 La fecha se aparta con el 50% de anticipo. El precio es por evento, neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Si quieres sumar la mesa infantil con 10 sillas, cuesta $550 junto con el inflable: revisa el [mobiliario infantil para la quinta](/servicios/mobiliario-para-fiestas/) y el [precio de cada inflable por evento](/precios/).
 
-Llena la [cotización en línea con los datos de tu quinta](/cotizar/), revisa las [fotos y requisitos del Barco Pirata](/inflables/barco-pirata/) o [escríbenos por WhatsApp para apartar](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Barco%20Pirata%20para%20una%20fiesta%20en%20quinta).
+Llena la [cotización en línea con los datos de tu quinta](/cotizar/), revisa las fotos y requisitos del Barco Pirata o [escríbenos por WhatsApp para apartar](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Barco%20Pirata%20para%20una%20fiesta%20en%20quinta).

@@ -97,7 +97,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       { question: "¿Tiene resbaladilla el Barco Pirata?", answer: "Sí, el Barco Pirata incluye una resbaladilla de altura integrada en la popa del barco. Es una de las características favoritas de los niños y está diseñada con laterales de seguridad para un descenso controlado." },
       { question: "¿Se puede instalar el Barco Pirata en concreto?", answer: "Sí, el Barco Pirata se instala en pasto, concreto, loseta o cualquier superficie plana. En superficies duras utilizamos anclajes especiales con sacos de arena para garantizar la estabilidad durante todo el evento." },
       { question: "¿El Barco Pirata es apto para fiestas temáticas de piratas?", answer: "Es la opción perfecta. Su diseño con decoración de barco pirata, colores azul marino y detalles de anclas y calaveras complementa cualquier fiesta temática de piratas. Muchos clientes lo combinan con decoración y piñatas del mismo tema." },
-      { question: "¿Cuánto tiempo tardan en instalar el Barco Pirata?", answer: "La instalación toma aproximadamente 30 minutos. Nuestro equipo llega con anticipación para tener todo listo antes de que lleguen los invitados. Necesitamos una toma de corriente 110V a menos de 15 metros del lugar de instalación." },
+      { question: "¿Cuánto tiempo tardan en instalar el Barco Pirata?", answer: "La instalación toma aproximadamente 30 minutos. Nuestro equipo llega con anticipación para tener todo listo antes de que lleguen los invitados. Necesitamos una toma de corriente 110V a menos de 20 metros del lugar de instalación." },
     ],
     cards: [
       { slug: "extremo", name: "Extremo", description: "Circuito de 8m con obstáculos y tobogán doble.", price: "$2,500", size: "8×4.5×3.50m", ages: "3-12 años", category: "Extremo", categoryColor: "extremo", gradient: "#E65100, #BF360C", image: "/img/inflables/extremo.avif" },
@@ -153,7 +153,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       { question: "¿Qué edades pueden usarlo?", answer: "El Castillo Blanco está recomendado para niños de 3 a 12 años. Su diseño neutro y estructura comercial reforzada lo hacen adecuado para eventos formales con supervisión adulta." },
       { question: "¿Es adecuado para XV años y bautizos?", answer: "Perfecto para ambos. En quinceañeras, el Castillo Blanco se convierte en un área de diversión elegante que complementa la estética del evento. Para bautizos, su color neutro y tamaño familiar lo hacen ideal para celebraciones íntimas y formales." },
       { question: "¿Puedo decorar el Castillo Blanco?", answer: "Sí, el Castillo Blanco es un lienzo perfecto para personalizar. Puedes agregar flores, tules, globos, luces LED y letreros. Solo pedimos que la decoración no use tachuelas, grapas o cualquier elemento punzocortante que pueda dañar el material." },
-      { question: "¿Qué espacio necesito para instalar el Castillo Blanco?", answer: "El Castillo Blanco mide 5×7×4 metros. Necesitas un espacio que se confirma al cotizar y una toma de corriente 110V a menos de 15 metros. Se instala en pasto, concreto, loseta o tarimas de madera. La instalación toma 30 minutos." },
+      { question: "¿Qué espacio necesito para instalar el Castillo Blanco?", answer: "El Castillo Blanco mide 5×7×4 metros. Necesitas un espacio que se confirma al cotizar y una toma de corriente 110V a menos de 20 metros. Se instala en pasto, concreto, loseta o tarimas de madera. La instalación toma 30 minutos." },
       { question: "¿El color blanco se mantiene limpio?", answer: "Realizamos limpieza profunda y sanitización antes de cada evento. El Castillo Blanco se entrega impecable y reluciente. Durante el evento, el material de PVC comercial es fácil de limpiar y resistente a manchas superficiales." },
     ],
     cards: [
@@ -215,7 +215,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       },
       {
         question: "¿Qué dimensiones tiene el Castillo de Princesas?",
-        answer: "El inflable mide 5 metros de largo, 3.30 metros de ancho y 3 metros de alto. Necesitas un espacio que se confirma al cotizar y acceso a una toma de corriente 110V a no más de 15 metros. Funciona en jardines y patios.",
+        answer: "El inflable mide 5 metros de largo, 3.30 metros de ancho y 3 metros de alto. Necesitas un espacio que se confirma al cotizar y acceso a una toma de corriente 110V a no más de 20 metros. Funciona en jardines y patios.",
       },
       {
         question: "¿El Castillo de Princesas incluye resbaladilla?",
@@ -292,7 +292,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       },
       {
         question: "¿Qué medidas tiene el inflable Dragones Rojos y cuánto espacio necesito?",
-        answer: "El inflable mide 5 metros de largo, 3 metros de ancho y 2.80 metros de alto, con dos dragones de 3 metros que se distinguen desde la calle. Necesitas un espacio que se confirma al cotizar, más una toma de corriente 110V a no más de 15 metros.",
+        answer: "El inflable mide 5 metros de largo, 3 metros de ancho y 2.80 metros de alto, con dos dragones de 3 metros que se distinguen desde la calle. Necesitas un espacio que se confirma al cotizar, más una toma de corriente 110V a no más de 20 metros.",
       },
       {
         question: "¿El inflable Dragones Rojos incluye resbaladilla?",
@@ -450,7 +450,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       },
       {
         question: "¿Qué necesito tener listo antes de que lleguen a instalar el Gusanitos?",
-        answer: "Necesitas un espacio que se confirma al cotizar en una superficie plana (pasto, concreto o piso firme) y acceso a una toma de corriente 110V a no más de 15 metros. El montaje es ágil gracias a su forma lineal y la extensión eléctrica de 15 metros va incluida en la renta.",
+        answer: "Necesitas un espacio que se confirma al cotizar en una superficie plana (pasto, concreto o piso firme) y acceso a una toma de corriente 110V a no más de 20 metros. El montaje es ágil gracias a su forma lineal y la extensión eléctrica de 15 metros va incluida en la renta.",
       },
     ],
     cards: [
@@ -570,7 +570,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       },
       {
         question: "¿Qué espacio necesita la Jungla?",
-        answer: "La Jungla mide 5×3×2.50 metros y requiere un espacio que se confirma al cotizar, más una toma de corriente 110V a no más de 15 metros. Por su altura no es un modelo para salones con techo estándar; para interiores el Castillo Baby es la opción indicada.",
+        answer: "La Jungla mide 5×3×2.50 metros y requiere un espacio que se confirma al cotizar, más una toma de corriente 110V a no más de 20 metros. Por su altura no es un modelo para salones con techo estándar; para interiores el Castillo Baby es la opción indicada.",
       },
       {
         question: "¿Por qué la Jungla se instala más rápido que otros inflables?",

@@ -1,17 +1,18 @@
 ---
 title: "Inflables para eventos corporativos en CDMX: guía de renta"
 h1: "Inflables para Eventos Corporativos: La Guía Completa"
-description: "Inflables para eventos corporativos en CDMX: family day, kermeses e integración. 8 modelos, precios de $1,400 a $2,600 MXN y factura sin costo."
+description: "Inflables para eventos corporativos en CDMX: family day, kermeses e integración. 8 modelos, precios de $1,400 a $2,600 MXN y factura disponible."
 excerpt: "Cada vez más empresas en CDMX incorporan inflables en su family day, kermés de empresa o cierre de año. Te decimos con qué modelos contamos de verdad, cuánto cuestan y qué necesitas para montarlos."
 publishDate: "2025-03-15"
+updatedDate: "2026-11-04"
 category: "Eventos"
 author: "Equipo BRINCOLINS"
-readTime: "9 min"
+readTime: "17 min"
 heroImage: "/img/blog/blog-inflables-para-adultos-eventos-corporativos.avif"
 heroImageAlt: "Inflables para eventos corporativos y family day en CDMX — BRINCOLINS"
 intro:
   - "Los **inflables en eventos corporativos** son la manera más simple de que un family day o una kermés de empresa deje de sentirse como una junta al aire libre. En **BRINCOLINS** trabajamos con empresas de todos los tamaños en la **ZMVM**, y lo primero que decimos es lo que muchos proveedores callan: **nuestro catálogo son 8 modelos, todos infantiles y juveniles**. No tenemos rings de boxeo ni canchas deportivas inflables."
-  - "Esta guía cubre qué modelos funcionan de verdad en un evento de empresa, cuánto cuestan (de **$1,400 a $2,600 MXN** por inflable), la logística de espacio y electricidad, y cómo armar la dinámica. Generamos **factura fiscal** sin costo adicional. Escríbenos por **WhatsApp** para una cotización sin compromiso."
+  - "Esta guía cubre qué modelos funcionan de verdad en un evento de empresa, cuánto cuestan (de **$1,400 a $2,600 MXN** por inflable), la logística de espacio y electricidad, y cómo armar la dinámica. Si tu empresa necesita **factura fiscal**, se agrega el 16% de IVA. Escríbenos por **WhatsApp** para una cotización sin compromiso."
 tags:
   - "renta inflables CDMX"
   - "inflables para adultos eventos corporativos"
@@ -20,9 +21,9 @@ faqs:
   - question: "¿Qué inflables tiene BRINCOLINS para un evento corporativo?"
     answer: "Nuestro catálogo son 8 modelos: Castillo Baby, Dragones Rojos, Castillo de Princesas, Jungla, Gusanitos, Castillo Blanco, Barco Pirata y Extremo. El más solicitado para eventos de empresa es el Extremo ($2,500 MXN), un circuito de obstáculos en doble carril recomendado de 3 a 12 años. Para un family day con hijos de colaboradores, lo habitual es combinar el Extremo con un modelo para los más pequeños."
   - question: "¿Cuánto cuesta rentar inflables para un evento de empresa en CDMX?"
-    answer: "El precio es por inflable y va de $1,400 a $2,600 MXN por evento de 4 a 6 horas, con instalación, sanitización y recolección incluidos. La entrega sin costo adicional depende de la zona. Si rentas 2 o más inflables aplicamos descuento por paquete: mándanos el número de asistentes y las medidas del espacio por WhatsApp y te armamos la cotización. Generamos factura fiscal sin costo adicional."
+    answer: "El precio es por inflable y va de $1,400 a $2,600 MXN por evento de 4 a 6 horas, con instalación, sanitización y recolección incluidos. La entrega sin costo adicional depende de la zona. Si rentas 2 o más inflables, mándanos el número de asistentes y las medidas del espacio por WhatsApp y te armamos la cotización. Si necesitas factura, se agrega el 16% de IVA."
   - question: "¿Emiten factura para eventos corporativos?"
-    answer: "Sí, en BRINCOLINS generamos factura fiscal sin costo adicional para todos los eventos corporativos. El gasto puede registrarse como evento de integración de personal. Solicítala al cotizar."
+    answer: "Sí, emitimos factura fiscal para eventos corporativos; al pedirla se agrega el 16% de IVA. El gasto puede registrarse como evento de integración de personal. Solicítala al cotizar."
   - question: "¿Con cuánta anticipación debo reservar para un evento de empresa?"
     answer: "Recomendamos reservar con mínimo 2 semanas de anticipación. En temporadas altas como fin de año (noviembre-diciembre) o verano (julio-agosto), lo ideal es hacerlo con 3-4 semanas. Escríbenos por WhatsApp con tu fecha y verificamos disponibilidad al momento."
 ---
@@ -55,8 +56,6 @@ Si tu evento tiene una estética cuidada (aniversario de la empresa, inauguraci�
 
 En un family day siempre hay hijos de colaboradores pequeños, y meterlos al Extremo no es opción. Para los de 1 a 3 años va el **[Castillo Baby](/inflables/mini-castillo/)** (2.5×2×2 m). De 2 a 8 años funcionan los **Gusanitos** (5×3×2.80 m, circuito de túneles) y de 3 a 8 años los temáticos **[Dragones Rojos](/inflables/dragones-rojos/)**, **Jungla** y, de 2 a 10 años, **Castillo de Princesas**.
 
-| Modelo | Espacio requerido | Medidas | Precio |
-| --- | --- | --- | --- |
 | Modelo | Espacio libre | Medidas | Capacidad | Precio |
 | --- | --- | --- | --- | --- |
 | Castillo Baby | Se confirma al cotizar | 2.5×2×2 m | Se confirma al cotizar | $1,400 MXN |
@@ -99,6 +98,24 @@ Para grupos de 20-50 personas, un inflable grande es suficiente si organizas tur
 ### 4. Planifica la logística eléctrica
 
 Cada inflable necesita un motor soplador conectado permanentemente a la corriente eléctrica. Asegúrate de tener suficientes tomas de corriente o solicita una planta de luz. Para eventos en jardines o terrenos abiertos, la planta de luz es prácticamente obligatoria.
+
+El requisito por modelo es una toma de 110 V a menos de 20 m del área de instalación. Si vas a poner dos o tres inflables, pide a mantenimiento que confirme que cada motor va a un contacto distinto y que no comparten circuito con cocina, sonido o pantallas. Las preguntas que conviene hacerle al área de mantenimiento están en la guía sobre [qué contacto y extensión necesita un inflable](/blog/cuanta-luz-consume-un-inflable-contacto-extension/).
+
+### 5. Resuelve el alta de proveedor antes de la fecha
+
+En una empresa la fecha casi nunca se pierde por el inflable; se pierde por el trámite. Antes de apartar, pregunta a compras o a recursos humanos:
+
+- Si necesitan dar de alta al proveedor y qué documentos piden.
+- Si la factura debe llevar un concepto o un número de orden de compra específico.
+- Quién autoriza el anticipo del 50% y cuánto tarda en salir el pago.
+- Si seguridad patrimonial requiere lista de personal y placas del vehículo para dejar entrar al equipo.
+- En qué horario se permite la entrada de proveedores al estacionamiento o a la explanada.
+
+Con esas respuestas, la cotización sale lista para el trámite interno y el día del evento nadie se queda en la caseta.
+
+### 6. Elige la superficie correcta
+
+Los eventos de empresa casi siempre se hacen en estacionamiento, explanada o cancha, no en jardín. Eso cambia el anclaje: sobre concreto o asfalto se usan contrapesos en lugar de estacas, y el piso debe estar libre de topes, rejillas y aceite. La guía para [instalar un inflable en explanada, cancha o estacionamiento](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/) explica qué revisar en cada superficie y cuánto espacio dejar para la fila.
 
 ## Team building en circuito: tiempos, formatos y arbitraje
 
@@ -161,7 +178,7 @@ Aquí no hay tarifa corporativa inflada: **el precio es por inflable y es el mis
 
 Si rentas 2 o más inflables aplicamos **descuento por paquete** — el precio unitario baja. Mándanos por WhatsApp el número de asistentes, el rango de edades y las medidas del espacio, o [pide la cotización en línea](/cotizar/), y te devolvemos el total exacto. Si el evento es escolar y no corporativo, el [checklist para organizar una kermesse](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/) cubre el resto de la logística.
 
-Muchas empresas solicitan factura para deducir el gasto como evento de integración. En BRINCOLINS generamos factura fiscal sin costo adicional para todos los eventos corporativos.
+Muchas empresas solicitan factura para deducir el gasto como evento de integración. En BRINCOLINS emitimos factura fiscal (se agrega el 16% de IVA) para todos los eventos corporativos.
 
 ## Seguridad en un evento de empresa
 
@@ -171,6 +188,23 @@ Nuestros inflables están diseñados para niños — el Extremo y el Barco Pirat
 - Anclaje profesional con estacas o sacos de arena según la superficie
 - Supervisión de un adulto responsable durante todo el uso
 - Turnos por edades: no mezclar a los más pequeños con los grandes en el mismo inflable
+
+## Corporativos y parques industriales: cómo cambia la logística por zona
+
+No es lo mismo montar en el estacionamiento de un corporativo que en la explanada de una planta. Lo que cambia es el acceso, el horario de proveedores y el costo de traslado.
+
+| Zona | Tipo de sede común | Qué conviene confirmar | Traslado |
+|---|---|---|---|
+| Santa Fe (Cuajimalpa) | Torres corporativas con estacionamiento subterráneo o terraza | Altura del acceso vehicular y si el evento es en terraza o en estacionamiento techado | Según zona |
+| Miguel Hidalgo | Oficinas en Polanco y Granada, jardines de hotel | Reglas de carga y descarga del edificio, horario de montaje | Según zona |
+| Tlalnepantla | Zona industrial con naves y explanadas | Ruta de entrada por caseta y piso de la explanada | $150 a $250 |
+| Cuautitlán Izcalli | Parques industriales con patios de maniobras | Que el área esté libre de tráileres y tránsito ese día | $250 a $400 |
+
+Si en Santa Fe el único espacio disponible es un estacionamiento techado, ahí sólo entran los modelos aptos para interiores y con 3.2 m de altura libre, así que mide antes. La página de [entregas en Cuajimalpa y Santa Fe](/cobertura/cuajimalpa/) explica cómo se cotiza el traslado. Para oficinas en Polanco o Granada, revisa el [servicio en Miguel Hidalgo](/cobertura/miguel-hidalgo/). Si tu planta está en la zona industrial de Tlalnepantla, la [cobertura en Tlalnepantla](/cobertura/tlalnepantla/) tiene el rango por colonia. Y para un family day dentro de un parque industrial, consulta la [renta con entrega en Cuautitlán Izcalli](/cobertura/cuautitlan-izcalli/). En las cuatro zonas, comparte al cotizar el nombre del contacto de seguridad del inmueble.
+
+### Family day con hijos de colaboradores
+
+Cuando el evento es para las familias, la lógica se parece más a una fiesta infantil grande que a un team building: turnos por edad, un adulto por inflable y una zona de descanso con sombra. La guía de [family day con inflables para los hijos del equipo](/blog/family-day-empresa-inflables-para-hijos/) cubre cómo repartir los modelos por edad. Y si la dinámica incluye adolescentes o colaboradores, revisa primero qué modelos del catálogo están indicados para [inflables para adolescentes y adultos](/inflables/para-adultos/).
 
 ## Ideas creativas para tu próximo evento de empresa
 
@@ -185,4 +219,4 @@ En BRINCOLINS hemos trabajado con empresas de todos los tamaños en la zona metr
 
 ---
 
-**¿Buscas el inflable perfecto para tu fiesta?** Tenemos opciones para todos los eventos: el [Castillo Baby](/inflables/mini-castillo/) ideal para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas y el [Circuito Extremo](/inflables/extremo/) para niños aventureros. [Catálogo de renta de inflables para fiestas →](/inflables/)
+**¿Buscas el inflable perfecto para tu fiesta?** Tenemos opciones para todos los eventos: el Castillo Baby ideal para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas y el Circuito Extremo para niños aventureros. [Catálogo de renta de inflables para fiestas →](/inflables/)

@@ -4,10 +4,10 @@ h1: "Inflable bajo techo en temporada de lluvias: terraza, carpa, garage o saló
 description: "Inflable bajo techo para la temporada de lluvias en CDMX: qué modelo entra con 3.2 m de altura libre, qué medir y qué hacer si llueve. Cotiza y aparta tu fecha."
 excerpt: "Si tu fiesta cae entre junio y septiembre, el aguacero de la tarde también viene. Mira qué inflable entra bajo techo y cómo medir tu espacio antes de apartar."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Gusanitos"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "19 min"
 heroImage: "/img/inflables/gusanitos.avif"
 heroImageAlt: "Inflable Gusanitos con dos gusanos amarillos de antenas verdes bajo una carpa blanca, sobre pasto sintético"
 galleryImages:
@@ -72,7 +72,7 @@ Fíjate en la Jungla. Es más baja que el Gusanitos y aun así va sólo al aire 
 
 El [Gusanitos, el circuito que entra bajo techo](/inflables/gusanitos/), mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años y se instala en 20 minutos. Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas. Bajo techo eso ayuda, porque el juego se reparte a lo largo del recorrido en lugar de amontonarse en un solo punto.
 
-También funciona con grupos de edades mezcladas, que es justo lo que junta una fiesta familiar en casa. Si tu lista va de primos de 2 años a compañeros de 8, revisa los [turnos para niños de edades mezcladas](/inflables/gusanitos/) antes de armar el programa.
+También funciona con grupos de edades mezcladas, que es justo lo que junta una fiesta familiar en casa. Si tu lista va de primos de 2 años a compañeros de 8, organiza turnos por edad antes de armar el programa.
 
 ![Acercamiento a los gusanos amarillos de antenas verdes del Gusanitos, con una torre morada detrás](/img/inflables/gusanitos/gusanitos-inflable-fiesta.avif)
 
@@ -173,6 +173,28 @@ No vuelvan a entrar con la lona mojada. Seca la superficie con toallas, sobre to
 
 ¿Todavía dudas entre un circuito que va bajo techo y un brincolín clásico de exterior? Compara el [circuito de túneles frente a un brincolín de salto](/blog/circuito-de-tuneles-vs-brincolin/) antes de decidir.
 
+## ¿Y si mejor mueves la fiesta a la mañana?
+
+Antes de pagar carpa o buscar salón, revisa si puedes cambiar el horario. Como en temporada el aguacero suele llegar por la tarde, una fiesta de 11:00 a 15:00 tiene más horas despejadas que una de 16:00 a 20:00. No elimina el riesgo, pero lo baja, y te permite usar cualquier modelo de exterior si el clima acompaña.
+
+Funciona mejor si:
+
+- Los invitados son niños chicos que de todos modos duermen siesta por la tarde.
+- La comida es sencilla (taquiza, pizza) y no necesitas montar cocina temprano.
+- Puedes pedir la instalación temprano; el montaje toma de 15 a 30 minutos según el modelo, así que conviene que llegue antes que los invitados.
+
+Funciona peor si la mayoría de los invitados trabaja el sábado por la mañana o si la fiesta es entre semana. En esos casos, el plan techado sigue siendo lo más seguro. Para acomodar los tiempos de inflable, comida y pastel, la guía de [cuántas horas dura la renta y cómo armar el horario](/blog/horario-fiesta-infantil-cuantas-horas-inflable/) te da un esquema por bloques.
+
+Un detalle que se olvida bajo techo: el contacto. En terrazas y cocheras el enchufe suele estar lejos o en la pared contraria, y la extensión termina cruzando el paso. Antes de cotizar, ubica la toma de 110V a menos de 20 m y revisa la guía de [cuánta luz consume un inflable y qué extensión usar](/blog/cuanta-luz-consume-un-inflable-contacto-extension/).
+
+### Según dónde vivas, el techo que tienes cambia
+
+En la colonia Cuauhtémoc, la Roma, la Condesa o Santa María la Ribera, muchas fiestas se hacen en departamentos, azoteas comunes o patios de casas antiguas. Las casas antiguas pueden tener techos altos, pero con vigas o candiles; mide en el punto más bajo. Las coberturas de cada colonia están en [inflables a domicilio en Cuauhtémoc](/cobertura/cuauhtemoc/).
+
+En Azcapotzalco, en colonias como Clavería, San Álvaro o El Rosario, son comunes las casas con cochera techada o patio con volado de lámina. La cochera suele ser la opción natural para el Gusanitos, siempre que dé 3.2 m libres y quites el coche con tiempo; revisa [el servicio en Azcapotzalco](/cobertura/azcapotzalco/).
+
+En Toluca la lluvia llega en los mismos meses, pero por la altitud las tardes son más frescas que en la capital y, ya mojado, el ambiente se enfría rápido. Una cochera o un salón techado suele ser mejor plan que una carpa abierta por los lados. El envío a Toluca va de $400 a $600; los detalles están en [renta de brincolines en Toluca](/cobertura/toluca/).
+
 ## ¿Qué errores arruinan una fiesta techada en temporada de lluvias?
 
 Casi siempre son los mismos seis, y todos se evitan con diez minutos de planeación antes de cotizar. Úsalos como checklist:
@@ -206,4 +228,4 @@ En temporada de lluvias, los fines de semana se llenan y la disponibilidad se co
 - **Las edades y la cantidad aproximada de niños.**
 - **Una foto del espacio** y del camino hasta él, si hay escaleras o pasillos angostos.
 
-La fecha se aparta con el 50% de anticipo. El precio es por evento y neto; si requieres factura se agrega 16% de IVA. Instalación y recolección incluidas; el traslado se cobra según zona, como ves en las [zonas de cobertura y traslado](/cobertura/). Revisa las [fotos y medidas del Gusanitos](/inflables/gusanitos/), llena la [cotización en línea del inflable bajo techo](/cotizar/) o [escríbenos por WhatsApp con tus medidas](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Gusanitos%20bajo%20techo%20te%20mando%20fecha%20y%20medidas).
+La fecha se aparta con el 50% de anticipo. El precio es por evento y neto; si requieres factura se agrega 16% de IVA. Instalación y recolección incluidas; el traslado se cobra según zona, como ves en las [zonas de cobertura y traslado](/cobertura/). Revisa las fotos y medidas del Gusanitos en su ficha, llena la [cotización en línea del inflable bajo techo](/cotizar/) o [escríbenos por WhatsApp con tus medidas](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Gusanitos%20bajo%20techo%20te%20mando%20fecha%20y%20medidas).

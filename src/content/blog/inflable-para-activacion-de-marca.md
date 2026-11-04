@@ -4,10 +4,10 @@ h1: "Inflable para activación de marca: cómo usar un circuito infantil sin per
 description: "Planea un inflable para activación de marca en CDMX: espacio, flujo, staff, factura y reglas para una dinámica infantil clara y segura."
 excerpt: "Un circuito no sustituye una activación: le da movimiento a una zona infantil si el público, el flujo y los responsables están definidos desde antes."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-02"
+updatedDate: "2026-11-04"
 category: "Extremo"
 author: "Equipo BRINCOLINS"
-readTime: "11 min"
+readTime: "17 min"
 heroImage: "/img/inflables/extremo-circuito-completo-aereo.avif"
 heroImageAlt: "Circuito inflable Extremo de obstáculos visto desde arriba"
 galleryImages:
@@ -48,7 +48,7 @@ El [circuito inflable Extremo](/inflables/extremo/) da una ruta clara: dos carri
 
 La decisión empieza por una pregunta sencilla: ¿tu evento espera familias con niños dentro de ese rango de edad? Si la respuesta es sí, el circuito puede ser una zona infantil útil. Si la respuesta es no, no conviene usarlo para forzar una dinámica que no corresponde al público.
 
-> **Respuesta rápida:** Un **inflable para activación de marca** funciona cuando el público incluye niñas y niños de 3 a 12 años y la sede tiene exterior. El [Extremo, circuito de obstáculos de doble carril](/inflables/extremo/), mide 8 × 4.5 × 3.50 m, requiere 4.5 m de altura libre y cuesta $2,500 netos por evento. Necesita una toma de 110 V a menos de 20 m, superficie plana y supervisión adulta; su uso es infantil.
+> **Respuesta rápida:** Un **inflable para activación de marca** funciona cuando el público incluye niñas y niños de 3 a 12 años y la sede tiene exterior. El Extremo, circuito de obstáculos de doble carril, mide 8 × 4.5 × 3.50 m, requiere 4.5 m de altura libre y cuesta $2,500 netos por evento. Necesita una toma de 110 V a menos de 20 m, superficie plana y supervisión adulta; su uso es infantil.
 
 ## ¿Qué objetivo puede cumplir un inflable para activación de marca?
 
@@ -90,7 +90,7 @@ La marca puede sumar una acción breve antes o después del recorrido, siempre f
 | Salida | Recibe a quienes terminan y libera el final | Staff de activación | Que se acumulen niños o materiales promocionales |
 | Módulo de marca | Conversa con acompañantes y entrega información | Promotor o anfitrión | Que el registro bloquee la entrada o la salida |
 
-Para entender las medidas, edades y requisitos que sostienen esta operación, consulta la [guía completa del circuito Extremo](/inflables/extremo/). Si el volumen será propio de una escuela o feria infantil, la [organización de un juego inflable de obstáculos para escuelas](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/) ayuda a adaptar la fila por bloques sin copiar una operación que no corresponda a tu sede.
+Para entender las medidas, edades y requisitos que sostienen esta operación, consulta la ficha del circuito Extremo. Si el volumen será propio de una escuela o feria infantil, la [organización de un juego inflable de obstáculos para escuelas](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/) ayuda a adaptar la fila por bloques sin copiar una operación que no corresponda a tu sede.
 
 ## ¿Qué debes confirmar con la sede antes de anunciar la activación?
 
@@ -128,13 +128,33 @@ En la ciudad, la ubicación define tanto el traslado como el acceso. Una explana
 | [Cobertura de inflables en Polanco, Lomas y Santa Fe](/cobertura/polanco/) | Polanco, Lomas de Chapultepec, Bosques de las Lomas y Santa Fe | Carga, circulación peatonal y punto de corriente | Sin costo adicional en Polanco; según colonia en Lomas y Santa Fe |
 | [Cobertura de inflables en CDMX](/cobertura/cdmx/) | Las 16 alcaldías | Dirección exacta, acceso y restricciones de la sede | Según colonia; consulta condiciones por zona |
 
-No asumas que una terraza o roof garden sirve por estar en una oficina. El Extremo es exterior y necesita sus medidas completas, además de una ruta de acceso viable. En Santa Fe, San Ángel o Las Águilas, la [renta del Extremo en Álvaro Obregón](/cobertura/alvaro-obregon/) baja esa revisión a escenarios de jardines, explanadas y corporativos.
+No asumas que una terraza o roof garden sirve por estar en una oficina. El Extremo es exterior y necesita sus medidas completas, además de una ruta de acceso viable. En Santa Fe, San Ángel o Las Águilas, esa revisión se hace caso por caso: jardines, explanadas y corporativos tienen reglas distintas.
+
+## ¿Qué cambia si la activación es en una plaza comercial?
+
+Las plazas son una de las sedes más comunes para activaciones familiares, y también donde más reglas hay. Antes de comprometer la estación, resuelve esto con la administración de la plaza:
+
+- **Ubicación exacta.** El Extremo es solo para exterior y necesita 4.5 m de altura libre. Un pasillo interior o un atrio con domo no sirve, aunque se vea amplio. Las opciones reales suelen ser una explanada descubierta, una terraza abierta o un cajón de estacionamiento delimitado.
+- **Horario de montaje.** Muchas plazas solo permiten carga antes de abrir o en un horario de proveedores. El montaje del Extremo toma alrededor de 30 minutos, pero hay que sumar la llegada y la ruta desde el andén.
+- **Corriente.** Pregunta si la plaza da el contacto de 110V o si la producción lleva su propia fuente. La toma tiene que estar a menos de 20 m.
+- **Seguro y registro.** Algunas administraciones piden documentos del proveedor o registro del personal. Pregúntalo al cotizar, no el día antes.
+- **Desmontaje.** Si la activación termina al cierre de la plaza, confirma que el equipo puede entrar a recoger a esa hora.
+
+Si la explanada es de concreto o el área está en un estacionamiento, revisa la guía de [instalar un inflable en explanada, cancha o estacionamiento](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/): pendientes, coladeras y tránsito de autos cambian el plano.
+
+## ¿Un solo circuito o varios inflables?
+
+El Extremo funciona bien cuando el público infantil es de 3 a 12 años y quieres una dinámica de reto. Si esperas muchos niños pequeños, un solo circuito de obstáculos genera fila. En ese caso, considera sumar un modelo más chico para los menores, como Gusanitos (de 2 a 8 años) o el Castillo Baby (de 1 a 3 años), en una zona separada. La capacidad por turno de cada modelo se confirma al cotizar. Para ver qué incluye el servicio cuando son varios equipos en un evento, revisa [inflables para eventos y activaciones](/servicios/inflables-para-eventos/).
+
+### Activaciones fuera de la zona centro
+
+No todas las activaciones son en Polanco o Santa Fe. En Tlalnepantla, con plazas, zonas industriales y corporativos en áreas como el Centro o Las Américas, el envío va de $150 a $250; revisa [el servicio para eventos en Tlalnepantla](/cobertura/tlalnepantla/). En Toluca, donde hay plazas grandes y parques industriales sobre el corredor hacia Lerma, el envío va de $400 a $600; como la ciudad es más fría por la altitud, planea la estación en las horas de más sol. Los detalles están en [inflables para activaciones en Toluca](/cobertura/toluca/). Y si el evento es en un corporativo de Santa Fe del lado de Cuajimalpa, o en la zona de El Contadero, revisa [la cobertura en Cuajimalpa](/cobertura/cuajimalpa/): casi siempre hay caseta, registro de proveedores y horario fijo de carga.
 
 ## ¿Qué debe llevar la cotización para que compras la pueda aprobar?
 
 La renta base del Extremo es de $2,500 netos por evento e incluye instalación y recolección. Si necesitas factura, se agrega 16% de IVA. El traslado se define por la zona; por eso, una solicitud que sólo diga “activación en CDMX” no permite cerrar el monto real.
 
-Envía fecha, horario de montaje y de apertura, dirección completa, fotos y medidas del área, acceso para el equipo, edades previstas y si requieres factura. Si la campaña incluye más de un inflable o mobiliario, comparte la lista completa antes de pedir autorización. La [guía de precio de una pista de obstáculos inflable](/inflables/extremo/) explica qué integra la renta y qué cargos se confirman según el caso; la [lista de precios de inflables en CDMX](/precios/) ayuda a comparar modelos sin suponer descuentos.
+Envía fecha, horario de montaje y de apertura, dirección completa, fotos y medidas del área, acceso para el equipo, edades previstas y si requieres factura. Si la campaña incluye más de un inflable o mobiliario, comparte la lista completa antes de pedir autorización. La ficha del Extremo explica qué integra la renta y qué cargos se confirman según el caso; la [lista de precios de inflables en CDMX](/precios/) ayuda a comparar modelos sin suponer descuentos.
 
 ## ¿Qué errores le quitan valor a la estación infantil de una marca?
 

@@ -3,9 +3,10 @@ title: "Kermesse Escolar con Inflables: Checklist CDMX y Edomex"
 description: "Checklist por fases para una kermesse escolar perfecta con inflables en CDMX y Edomex. Presupuesto, errores comunes y coordinación."
 excerpt: "Desde 8 semanas antes hasta el día del evento: el checklist maestro que todo coordinador escolar necesita para organizar una kermesse con inflables en CDMX y Edomex sin contratiempos ni sorpresas de último momento."
 publishDate: "2026-06-17"
+updatedDate: "2026-11-04"
 category: "Eventos"
 author: "Equipo BRINCOLINS"
-readTime: "11 min"
+readTime: "27 min"
 heroImage: "/img/blog/blog-ideas-fiesta-infantil-cdmx.avif"
 heroImageAlt: "Checklist kermesse escolar con inflables CDMX Edomex — BRINCOLINS"
 intro:
@@ -281,6 +282,39 @@ La distribución espacial de los inflables es el factor logístico que más dete
 **Asignación de inflable por rango de edad:** si tienes múltiples inflables, asigna cada uno a un rango de edad específico. El Castillo Princesas para preescolar y primaria baja, el Barco Pirata para primaria media, el Extremo para primaria alta y secundaria. Esto reduce el conflicto entre alumnos de diferentes edades y garantiza que cada grupo tenga una opción diseñada para su nivel. También hace que los papás que acompañan a sus hijos más pequeños no tengan que competir con adolescentes por el espacio.
 
 **Separación visual de zonas:** usa cintas, conos o vallado temporal para delimitar claramente el área de cada inflable y la fila de espera. Una zona desordenada genera frustración; una zona claramente demarcada y supervisada genera orden y confianza. Los papás que ven orden perciben profesionalismo, y ese profesionalismo se asocia con la institución.
+
+## Qué inflable cabe en cada tipo de espacio escolar
+
+No todas las escuelas tienen el mismo patio, y el espacio decide qué modelos son opción antes que el presupuesto. Estos son los escenarios más comunes:
+
+| Espacio de la escuela | Qué revisar | Modelos que suelen funcionar |
+|---|---|---|
+| Patio de cemento a cielo abierto | Piso parejo, sin coladeras ni escalones en el área; se ancla con lastres | Cualquiera, según medidas y altura libre |
+| Patio con techumbre o arcotecho | Altura libre en el punto más bajo de la estructura, no en el centro | Gusanitos y Castillo Baby (aptos para interiores, 3.2 m de altura libre) |
+| Cancha o jardín de pasto | Que no esté encharcado ni con aspersores; se ancla con estacas | Cualquiera, según medidas |
+| Auditorio o salón de usos múltiples | Altura libre, acceso para el equipo y contacto cercano | Gusanitos y Castillo Baby |
+
+La regla que más se pasa por alto es la de la techumbre: muchos patios escolares tienen arcotecho, y aunque en el centro parezca altísimo, en los costados baja. Si el inflable va a ir bajo techo, mide en el punto exacto donde quedaría. Los modelos grandes como el Barco Pirata (5.2 m de altura libre) o el Extremo (4.5 m) son sólo para exterior. Hay más detalle sobre canchas y explanadas en la guía para [instalar inflables en cancha, explanada o estacionamiento](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/).
+
+### La corriente en una escuela
+
+Para cada inflable necesitas una toma de 110V a menos de 20 m, y cada motor trabaja durante todo el evento. En una kermesse eso compite con el sonido, las parrillas eléctricas de los puestos y las cafeteras. Pide al encargado de mantenimiento que te indique qué contactos están en circuitos distintos y reserva uno para cada inflable. Si quieres entender mejor la carga, revisa [qué consumo tiene un inflable y qué extensión usar](/blog/cuanta-luz-consume-un-inflable-contacto-extension/).
+
+### Qué preguntar al cotizar para una escuela
+
+- ¿Qué modelos caben en el espacio que tenemos y cuál es la capacidad de cada uno para nuestras edades?
+- ¿Cuánto es el envío a la dirección del plantel?
+- ¿A qué hora necesitan entrar y por qué acceso?
+- ¿Cuántos contactos independientes necesitamos?
+- ¿Qué pasa si llueve el día de la kermesse?
+
+## Kermesses en el norte y en el sur del Valle de México
+
+La logística cambia según dónde esté la escuela. En el norte de la ciudad, en Azcapotzalco, muchas primarias y secundarias de colonias como Clavería, Pasteros o Santa Bárbara tienen patios de cemento rodeados de edificios: el acceso para el equipo y la altura libre bajo techumbres son los puntos a revisar. El traslado se calcula según la colonia; consulta la cobertura de [inflables para escuelas en Azcapotzalco](/cobertura/azcapotzalco/).
+
+Siguiendo hacia el Estado de México, en Tultitlán, con zonas como Tultitlán Centro o San Pablo de las Salinas, y en los fraccionamientos de Coacalco, abundan las escuelas con patios amplios donde caben dos o tres inflables con sus filas separadas. En ambos municipios el envío va de $200 a $300; revisa las páginas de [entregas en Tultitlán](/cobertura/tultitlan/) y de [renta de inflables en Coacalco](/cobertura/coacalco/).
+
+Al sur, en Milpa Alta, en pueblos como Villa Milpa Alta o San Pedro Atocpan, el terreno es irregular en muchas zonas: manda foto del patio para confirmar que el área sea plana. El envío va de $200 a $300; los detalles están en la página de [inflables a domicilio en Milpa Alta](/cobertura/milpa-alta/).
 
 ## Tabla de tiempos de instalación para múltiples inflables
 

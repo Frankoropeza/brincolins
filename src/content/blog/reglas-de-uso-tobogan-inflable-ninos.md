@@ -4,10 +4,10 @@ h1: "Reglas para tobogán inflable con niños: cómo explicarlas, quién las vig
 description: "Reglas para tobogán inflable con su porqué: uno a la vez, sentado y pies por delante, sin zapatos, turnos por edad y un adulto en la salida. Imprímelas."
 excerpt: "Uno a la vez, sentado, pies por delante y nadie sube por donde se baja. Las reglas del tobogán con su razón de ser y un cartel que puedes pegar en la entrada."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Barco Pirata"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "19 min"
 heroImage: "/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif"
 heroImageAlt: "Barco Pirata inflable instalado en un patio soleado, con un castillo inflable de colores al lado"
 galleryImages: []
@@ -193,11 +193,34 @@ Te lo decimos de frente: no ofrecemos seguro de responsabilidad civil. Lo que s�
 
 > **Que la llegada del tobogán tenga espacio.** Mándanos una foto del área y te decimos dónde conviene orientar la salida. [Mandar foto del espacio para el tobogán](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20les%20mando%20foto%20del%20espacio%20para%20el%20inflable%20con%20tobogan)
 
+## ¿Hacia dónde conviene orientar la salida del tobogán?
+
+Hacia el lado más despejado y más visible del lugar, nunca hacia la mesa de comida, la puerta de la casa o el camino por donde pasan los adultos con platos. La entrada del inflable puede quedar cerca de la acción; la llegada del tobogán, no. Cuando instalemos, dinos qué zona de tu jardín o patio va a tener más gente y orientamos la salida lejos de ahí.
+
+Según el tipo de espacio:
+
+- **Jardín amplio:** la salida va hacia el pasto libre, con espacio para que el niño se levante y camine de regreso a la fila sin cruzarse con nadie.
+- **Patio de cemento:** revisa que frente a la salida no haya escalones, macetas ni coladeras. Sobre piso duro, la llegada necesita todavía más espacio libre.
+- **Terreno con pendiente:** busca la parte más plana. Si no hay forma de evitar una ligera inclinación, coméntalo al cotizar para decidir juntos la orientación.
+- **Calle cerrada o área común:** la salida nunca apunta hacia donde podría entrar un coche o una bicicleta.
+
+Revisa también el sol. A mediodía la superficie del tobogán puede calentarse; tócala con la palma antes del primer turno y, si está muy caliente, pausa los turnos hasta que le dé sombra.
+
+### El niño que no quiere bajar
+
+En casi todas las fiestas hay uno que sube, ve la altura y se queda congelado arriba. No lo presiones ni dejes que los demás lo empujen. Pausa el turno, pídele que se siente y, si no quiere bajar, que regrese por la subida mientras el adulto de la entrada lo guía desde fuera. Es la única excepción a la regla de la subida, y se hace con el tobogán vacío. Si tu hijo es de los que se asustan, revisa las ideas para [niños tímidos o con miedo al inflable](/blog/inflable-para-ninos-timidos-o-con-miedo/).
+
+### Si la fiesta es en el sur, el oriente o el norte
+
+Las reglas no cambian, pero el terreno sí. En Milpa Alta, en pueblos como Villa Milpa Alta o San Pedro Atocpan, muchas casas están en terreno con pendiente y patios escalonados: manda foto del área para encontrar el tramo plano donde la llegada quede libre. El envío va de $200 a $300; consulta la página de [inflables con tobogán a domicilio en Milpa Alta](/cobertura/milpa-alta/).
+
+En Tláhuac, en Tláhuac Centro, La Nopalera o Zapotitla, abundan los patios y calles planas, lo que facilita orientar la salida; el envío va de $100 a $200, con detalle en la cobertura de [renta para fiestas en Tláhuac](/cobertura/tlahuac/). Y en Cuautitlán Izcalli, donde muchas fiestas se hacen en jardines de fraccionamiento o áreas comunes, pide a la administración el punto exacto antes de reservar; el envío va de $250 a $400 y lo detallamos en la página de [entregas en Cuautitlán Izcalli](/cobertura/cuautitlan-izcalli/).
+
 ## ¿Qué inflables del catálogo tienen tobogán?
 
 Varios, y las reglas aplican igual en todos. Cambia la altura, el número de carriles y el espacio que piden, pero uno a la vez, pies por delante y llegada libre valen en cualquier modelo. Elige por edades y por el espacio que tienes. Las reglas ya las tienes.
 
-El [Barco Pirata, con el tobogán detrás del mástil](/inflables/barco-pirata/), es el de mayor impacto visual. El [Extremo de doble carril y tobogán doble](/inflables/extremo/) admite un niño por carril, y la regla de llegada libre se cumple en los dos. Los medianos con resbaladilla integrada, como los [Dragones Rojos con mallas laterales](/inflables/dragones-rojos/), siguen las mismas reglas a menor altura.
+El Barco Pirata, con el tobogán detrás del mástil, es el de mayor impacto visual. El [Extremo de doble carril y tobogán doble](/inflables/extremo/) admite un niño por carril, y la regla de llegada libre se cumple en los dos. Los medianos con resbaladilla integrada, como los [Dragones Rojos con mallas laterales](/inflables/dragones-rojos/), siguen las mismas reglas a menor altura.
 
 Todos están en la [categoría de inflables con tobogán](/inflables/toboganes/). Si dudas entre los dos grandes, la [comparativa por espacio, altura y tipo de fiesta](/blog/barco-pirata-o-extremo-inflables-grandes/) te ayuda. Y si tu fiesta será fuera de casa, revisa cómo [preparar una quinta o un jardín de eventos para el inflable](/blog/fiesta-en-quinta-o-jardin-de-eventos-edomex/), porque ahí la llegada suele quedar cerca de mesas y caminos.
 
@@ -211,6 +234,6 @@ Los fines de semana se llenan y la disponibilidad se confirma por WhatsApp. ¿Ya
 - **Edades y número aproximado de niños**, para armar turnos y confirmar capacidad.
 - **Altura libre** medida donde iría el inflable.
 
-La fecha se aparta con el 50% de anticipo. El precio es por evento, neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Antes de apartar, usa la [lista para medir el espacio de un inflable alto](/inflables/barco-pirata/), revisa la [cobertura y el traslado por zona](/cobertura/) y compara el [precio neto de los ocho inflables](/precios/).
+La fecha se aparta con el 50% de anticipo. El precio es por evento, neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Antes de apartar, usa la lista para medir el espacio de un inflable alto, revisa la [cobertura y el traslado por zona](/cobertura/) y compara el [precio neto de los ocho inflables](/precios/).
 
 Llena la [cotización en línea con tu fecha y tu espacio](/cotizar/) o [escríbenos por WhatsApp para apartar](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Barco%20Pirata%20con%20tobogan%20para%20mi%20fiesta).

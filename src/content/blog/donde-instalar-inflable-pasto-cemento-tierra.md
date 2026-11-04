@@ -4,10 +4,10 @@ h1: "Dónde instalar un inflable mediano: pasto, cemento, adoquín o tierra, có
 description: "Dónde instalar un inflable: pasto, sintético, cemento, adoquín o tierra. Qué revisar en cada piso, cómo se ancla y qué distancia dejar. Prepara tu espacio."
 excerpt: "Pasto, cemento, adoquín, tierra o grava: cuál aguanta un inflable mediano, cómo se ancla en cada uno y qué te toca revisar antes de que llegue el equipo."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Dragones Rojos"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "15 min"
 heroImage: "/img/inflables/dragones-rojos/dragones-frontal-resbaladilla.avif"
 heroImageAlt: "Cabezas de los dos dragones a los lados de la resbaladilla verde, en un espacio cerrado"
 galleryImages:
@@ -171,7 +171,7 @@ Respecto a muros y bardas: deja espacio para que el inflable no quede recargado.
 
 Te pueden funcionar si están descubiertas, planas y cumplen la planta y la altura libre del modelo. En CDMX muchas casas no tienen jardín y la pregunta llega sola. La respuesta depende de las mismas cinco condiciones, más un par de detalles propios de cada lugar.
 
-- **Azotea:** sirve si está descubierta, plana y con acceso por escalera amplia, porque el inflable sube enrollado. Revisa tinacos, tendederos, antenas y bardas bajas; en edificios, el permiso lo da la administración.
+- **Azotea:** sirve si está descubierta, plana y con acceso por escalera amplia, porque el inflable sube enrollado. Revisa tinacos, tendederos, antenas y bardas bajas; en edificios, el permiso lo da la administración. La lista completa está en [qué revisar antes de subir un inflable a la azotea](/blog/inflable-en-azotea-que-revisar-cdmx/).
 - **Terraza:** funciona si es descubierta. Con techo, pérgola o lona encima, el Dragones Rojos no entra, y la entrada nunca debe quedar hacia un desnivel.
 - **Cochera o patio de servicio:** suele ser de cemento, así que el anclaje va con lastre. Revisa techo y portón; si está descubierta y cumple los 4.5 m libres, sirve. Saca los autos desde la noche anterior.
 
@@ -186,7 +186,7 @@ A menos de 20 m del área del inflable, funcionando y disponible de principio a 
 - **Que el cable no cruce el paso de los invitados** ni la zona de comida.
 - **Que la toma no quede expuesta a agua** si llueve o si alguien riega.
 
-¿La toma más cercana está a más de 20 m? Avísalo al cotizar con una foto. Lo resolvemos antes de la fecha, no con los invitados en la puerta.
+Si dudas del calibre de tu extensión o de cuánto jala el motor, revisa [cuánta luz consume un inflable y qué contacto necesita](/blog/cuanta-luz-consume-un-inflable-contacto-extension/). ¿La toma más cercana está a más de 20 m? Avísalo al cotizar con una foto. Lo resolvemos antes de la fecha, no con los invitados en la puerta.
 
 ## ¿Qué pasa en los 20 minutos de instalación del Dragones Rojos?
 
@@ -205,6 +205,36 @@ Cuenta la instalación en tu horario. Son veinte minutos. Si sigues un [horario 
 
 > **Lugar revisado, fecha apartada.** Dinos qué piso tienes, cuánta altura libre mediste y dónde está la toma, y te confirmamos si el Dragones Rojos entra. [Confirmar mi espacio por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20ya%20medi%20mi%20espacio%20y%20quiero%20cotizar%20la%20instalacion%20del%20Dragones%20Rojos)
 
+## El piso cambia según la zona: sur lacustre, pueblos de la montaña y el centro
+
+El tipo de suelo no es igual en toda la ciudad. Conocer lo típico de tu zona te ayuda a revisar lo correcto antes de cotizar.
+
+| Zona | Piso más común en fiestas en casa | Qué revisar |
+|---|---|---|
+| Xochimilco y Tláhuac | Pasto y tierra húmeda, patios de cemento | Charcos y lodo en temporada de lluvias |
+| Milpa Alta | Tierra, patios de cemento, terrenos con pendiente | Desnivel, piedra suelta y distancia a la toma |
+| Cuauhtémoc | Cemento, adoquín, azoteas y patios de edificio | Altura libre, acceso por escalera y coladeras |
+
+### Xochimilco y Tláhuac: suelo húmedo
+
+Buena parte de estas alcaldías está sobre la antigua zona lacustre del Valle de México, y en temporada de lluvias (junio a septiembre) el pasto y la tierra tardan en secar. Si tu jardín se encharca, elige la parte más alta para el inflable y manda fotos el día anterior. El cargo de envío publicado es de $100 a $150 en Xochimilco y de $100 a $200 en Tláhuac; las colonias están en [entregas en Xochimilco](/cobertura/xochimilco/) y en [la cobertura de Tláhuac](/cobertura/tlahuac/).
+
+### Milpa Alta: tierra y pendiente
+
+En los pueblos de Milpa Alta muchas casas tienen patio de tierra o de cemento y el terreno suele tener inclinación. Antes de cotizar, busca la parte más plana aunque sea más chica y retira piedras sueltas. Si la toma de corriente está dentro de la casa y el patio queda lejos, mide los metros: tienen que ser menos de 20. El envío publicado es de $200 a $300; revisa [inflables a domicilio en Milpa Alta](/cobertura/milpa-alta/).
+
+### Cuauhtémoc: superficies duras y poco espacio
+
+En colonias como Roma, Condesa, Doctores o Santa María la Ribera lo más común es un patio de cemento, una azotea o el área común de un edificio. Aquí el anclaje es con lastre o sacos y lo que más descarta lugares es la altura: tendederos, tinacos y techumbres. Si no llegas a 4.5 m, considera un modelo más bajo. Las condiciones de entrega por colonia están en [servicio en la alcaldía Cuauhtémoc](/cobertura/cuauhtemoc/).
+
+### Cómo revisar la pendiente sin herramientas
+
+1. Pon una pelota en el centro del área y mira si rueda hacia un lado.
+2. Coloca una botella de agua acostada; el nivel del agua te muestra para dónde se inclina.
+3. Toma una foto desde un costado, a la altura de tus rodillas, y mándala al cotizar.
+
+Si la pelota rueda rápido, busca otra zona.
+
 ## ¿Qué errores descartan un buen lugar el mismo día?
 
 Si quieres evitar sorpresas, cuida sobre todo tres: medir el suelo y olvidar la altura, regar el pasto la noche anterior y no avisar que el piso es sintético o de cemento. Todos se evitan con una revisión el día anterior. Repasa la lista y marca lo que ya tienes resuelto:
@@ -217,7 +247,7 @@ Si quieres evitar sorpresas, cuida sobre todo tres: medir el suelo y olvidar la 
 - **Orientar la entrada hacia la barda.** Los adultos no ven quién entra y quién sale.
 - **Dejar macetas, bicicletas o juguetes alrededor.** Todo lo que esté cerca estorba la entrada y la salida.
 
-Con el lugar resuelto, puedes armar la fiesta alrededor del inflable: hay ideas para [montar un torneo de caballeros junto al castillo de dragones](/inflables/dragones-rojos/). ¿Aún no eliges modelo? Compara [precio y medidas de los tres medianos de $1,600](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/), revisa si te conviene el [paquete con Dragones Rojos o Jungla](/servicios/paquetes-de-fiesta/) o explora los [modelos medianos del catálogo](/inflables/medianos/).
+Con el lugar resuelto, puedes armar la fiesta alrededor del inflable: hay ideas para [montar un torneo de caballeros junto al castillo de dragones](/blog/fiesta-de-dragones-y-caballeros-ideas/). ¿Aún no eliges modelo? Compara [precio y medidas de los tres medianos de $1,600](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/), revisa si te conviene el [paquete con Dragones Rojos o Jungla](/servicios/paquetes-de-fiesta/) o explora los [modelos medianos del catálogo](/inflables/medianos/).
 
 ## Aparta tu inflable con el lugar ya revisado
 
@@ -229,6 +259,6 @@ Con el piso, la altura libre y la toma confirmados, sólo te falta la fecha. Los
 - La altura libre que mediste y dónde está la toma de corriente.
 - Las edades y la cantidad aproximada de niños.
 
-La fecha se aparta con 50% de anticipo. El precio es por evento y neto; si requieres factura se agrega 16% de IVA, y el traslado se cobra según zona. Consulta la [cobertura en alcaldías y municipios](/cobertura/), compara los [precios por modelo](/precios/), resuelve [dudas frecuentes sobre la renta](/preguntas-frecuentes/) o revisa la [disponibilidad del inflable Dragones Rojos](/inflables/dragones-rojos/) para tu fecha.
+La fecha se aparta con 50% de anticipo. El precio es por evento y neto; si requieres factura se agrega 16% de IVA, y el traslado se cobra según zona. Consulta la [cobertura en alcaldías y municipios](/cobertura/), compara los [precios por modelo](/precios/), resuelve [dudas frecuentes sobre la renta](/preguntas-frecuentes/) o pregunta por la disponibilidad del Dragones Rojos para tu fecha.
 
 [Pide tu cotización con fotos del espacio](/cotizar/) o [escríbenos para apartar el Dragones Rojos](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Dragones%20Rojos%20y%20ya%20tengo%20el%20lugar%20revisado). Atendemos de lunes a domingo de 8:00 a 20:00.

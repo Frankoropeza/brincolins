@@ -4,10 +4,10 @@ h1: "Primer cumpleaños con inflable: 8 temas y cómo organizar la fiesta de 1 a
 description: "Elige temas para primer cumpleaños con Castillo Baby: paletas, decoración, fotos y montaje para una fiesta pequeña en casa o CDMX."
 excerpt: "Ocho temas que se ven ordenados alrededor de un Castillo Baby, con decisiones prácticas de color, fotos y circulación para una fiesta de un año."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-02"
+updatedDate: "2026-11-04"
 category: "Castillo Baby"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "19 min"
 heroImage: "/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif"
 heroImageAlt: "Castillo Baby inflable compacto para un primer cumpleaños"
 galleryImages:
@@ -46,7 +46,7 @@ Los **temas para primer cumpleaños** no necesitan una producción enorme para v
 
 El [inflable Castillo Baby pensado para 1 a 3 años](/inflables/mini-castillo/) aporta un lugar de juego acotado, no una escenografía que deba cubrirse de adornos. Si eliges primero una paleta y defines dónde irán las fotos, el pastel y la entrada al inflable, puedes dar al festejo una identidad clara sin sacrificar espacio para los pequeños.
 
-> **Respuesta rápida:** Para elegir **temas para primer cumpleaños** con Castillo Baby, usa una idea visual sencilla, dos o tres colores y un fondo de fotos separado del juego. El Castillo Baby mide 2.5 × 2 × 2 m, es para niñas y niños de 1 a 3 años y puede instalarse bajo techo con 3.2 m de altura libre. Revisa la [ficha del Castillo Baby para fiestas de bebés](/inflables/mini-castillo/) antes de diseñar el montaje.
+> **Respuesta rápida:** Para elegir **temas para primer cumpleaños** con Castillo Baby, usa una idea visual sencilla, dos o tres colores y un fondo de fotos separado del juego. El Castillo Baby mide 2.5 × 2 × 2 m, es para niñas y niños de 1 a 3 años y puede instalarse bajo techo con 3.2 m de altura libre. Revisa la ficha del Castillo Baby para fiestas de bebés antes de diseñar el montaje.
 
 ## ¿Qué hace que un tema de primer cumpleaños funcione con un Castillo Baby?
 
@@ -113,6 +113,34 @@ Su medida es de 2.5 × 2 × 2 m; necesita 3.2 m de altura libre si irá bajo tec
 
 Para una reunión de pocos niños, el [paquete fiesta bebés con Castillo Baby](/servicios/paquetes-de-fiesta/) puede simplificar la mesa infantil y la actividad: incluye el inflable, una mesa con cuatro sillitas y pintacaritas para cuatro niños. Confirma al cotizar qué corresponde a tu fecha; la decoración temática sigue siendo una decisión que puedes coordinar a tu gusto.
 
+### ¿Castillo Baby solo o paquete fiesta bebés?
+
+Las dos opciones usan el mismo inflable; cambia lo que llega con él. Esta comparación te ayuda a decidir según cuántos bebés esperas:
+
+| Opción | Qué incluye | Precio | Conviene si… |
+|---|---|---|---|
+| Castillo Baby | Inflable de 2.5 × 2 × 2 m para 1 a 3 años, instalación y recolección | $1,400 | Ya tienes dónde sentar a los niños o casi todos los invitados son adultos |
+| Paquete fiesta bebés | Castillo Baby, una mesa con 4 sillitas y pintacaritas para 4 niños | $2,100 | Vienen varios bebés y primos chicos y quieres resolver su mesa y una actividad |
+
+En ambos casos el traslado se cobra según la zona y, si necesitas factura, se agrega IVA.
+
+## ¿Cabe el Castillo Baby en un departamento?
+
+Es la duda más común cuando la fiesta de un año se hace en casa, y la respuesta depende sobre todo del techo. El Castillo Baby mide 2 m de alto, pero necesita **3.2 m de altura libre** en toda el área donde se coloca. Muchos departamentos no llegan a esa altura dentro de la sala, así que mide antes de imaginar el montaje.
+
+Revisa en este orden:
+
+1. **Altura del techo** en el punto más bajo sobre el área: vigas, lámparas colgantes y ventiladores cuentan.
+2. **Superficie libre** de 2.5 × 2 m más margen, sin muebles que tengas que mover a medias.
+3. **Acceso**: elevador, escaleras, ancho de puertas y pasillos. El inflable llega doblado, pero el equipo debe poder pasar con él y con el motor.
+4. **Contacto de 110 V** cercano y que no comparta línea con el horno o la cafetera.
+
+Si la sala no da la altura, las alternativas suelen ser la terraza, el roof garden del edificio o el salón de usos múltiples, siempre con permiso de la administración. La guía sobre [la altura de techo que necesita un inflable en departamento](/blog/inflable-para-departamento-altura-techo-cdmx/) entra al detalle, y si piensas usar la azotea del edificio, revisa antes [qué revisar para instalar un inflable en azotea](/blog/inflable-en-azotea-que-revisar-cdmx/).
+
+### Si vives en la Benito Juárez, la Cuauhtémoc o Coyoacán
+
+Si vives en un departamento en colonias como la Narvarte, la Del Valle, la Roma o la Condesa, las opciones habituales para el primer cumpleaños son la terraza, el roof garden del edificio o la casa de algún familiar con más espacio. Para esas fiestas, el Castillo Baby es el modelo que más se adapta por tamaño. Revisa la cobertura de [inflables a domicilio en Benito Juárez](/cobertura/benito-juarez/) y la de [entregas en la Cuauhtémoc](/cobertura/cuauhtemoc/); en algunas colonias de esta zona hay entrega sin costo adicional y en las demás el traslado se confirma al cotizar. Si la fiesta es en casa de los abuelos en Coyoacán, con jardín o patio, también puedes considerar ahí el montaje; las [fiestas en Coyoacán](/cobertura/coyoacan/) tienen el traslado según colonia.
+
 ## ¿Cómo organizas la fiesta de 1 año?
 
 ### ¿A qué hora y por cuánto tiempo?
@@ -164,12 +192,12 @@ Haz esta revisión la víspera, cuando todavía puedes mover muebles sin prisa. 
 - Deja una actividad tranquila para los invitados que tengan más de tres años.
 - Confirma con el edificio o salón el acceso, carga, elevador y hora de retiro.
 
-Para una visión completa de medidas, grupo de edad y condiciones de uso, enlaza esta lista con la [guía del Castillo Baby para fiestas de 1 a 3 años](/inflables/mini-castillo/).
+Para una visión completa de medidas, grupo de edad y condiciones de uso, enlaza esta lista con la guía del Castillo Baby para fiestas de 1 a 3 años.
 
 ## ¿Qué necesitas definir para cotizar el Castillo Baby y empezar a decorar?
 
 Primero confirma la fecha, colonia, horario, edades de quienes jugarán y las fotos del área, techo y acceso. Con eso puedes saber si el modelo está disponible, si el montaje es viable y qué traslado aplica. Después sí vale la pena cerrar el tema, comprar los materiales y mandar invitaciones.
 
-La renta del Castillo Baby parte de $1,400 netos por evento; el traslado depende de la ubicación y, si requieres factura, se agrega IVA. El artículo sobre [precio de renta de brincolines para bebés en CDMX](/inflables/mini-castillo/) desglosa esos conceptos para que la paleta de tu fiesta no se convierta en una estimación de presupuesto.
+La renta del Castillo Baby parte de $1,400 netos por evento; el traslado depende de la ubicación y, si requieres factura, se agrega IVA. El artículo sobre precio de renta de brincolines para bebés en CDMX desglosa esos conceptos para que la paleta de tu fiesta no se convierta en una estimación de presupuesto.
 
 Cuando tengas esos datos, [cotiza el Castillo Baby para tu primer cumpleaños](/cotizar/). Cuéntanos si será en casa, terraza o salón y qué edades tienen los pequeños; así podrás decorar alrededor de un montaje confirmado, no alrededor de una suposición.

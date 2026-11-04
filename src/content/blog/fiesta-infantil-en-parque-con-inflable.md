@@ -4,10 +4,10 @@ h1: "Cómo organizar una fiesta infantil en parque con inflable sin fallar en pe
 description: "Planea una fiesta infantil en parque con inflable: confirma permiso, corriente, terreno, sombra y baños antes de cotizar tu fecha en CDMX."
 excerpt: "Un parque da espacio y aire libre, pero no siempre ofrece lo que un inflable necesita. Esta guía te ayuda a revisar el lugar antes de invitar a las familias."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-02"
+updatedDate: "2026-11-04"
 category: "Jungla"
 author: "Equipo BRINCOLINS"
-readTime: "11 min"
+readTime: "17 min"
 heroImage: "/img/inflables/mini-jungla-instalacion-jardin-cdmx.avif"
 heroImageAlt: "Inflable Jungla instalado sobre pasto en un jardín exterior"
 galleryImages:
@@ -45,7 +45,7 @@ Organizar una **fiesta infantil en parque** parece sencillo: eliges una palapa, 
 
 Con una visita corta puedes resolver lo importante. Hazla antes de mandar invitaciones. El [inflable Jungla para fiestas](/inflables/mini-jungla/) es una opción de exterior para niñas y niños de 3 a 8 años, con dinosaurios y palmeras que sirven para una temática de animales; dentro de los [inflables medianos para fiestas infantiles](/inflables/medianos/), el parque debe permitir su instalación y cumplir los requisitos del montaje.
 
-> **Respuesta rápida:** Una fiesta infantil en parque con el Jungla sólo conviene si obtienes autorización del administrador o de la alcaldía, localizas una toma de 110 V a menos de 20 m, encuentras piso plano sin riesgos y puedes definir un plan por lluvia. El modelo mide 5 × 3 × 2.50 m, requiere 4.2 m de altura libre y su [renta de inflable Jungla para fiestas](/inflables/mini-jungla/) cuesta $1,600 netos por evento.
+> **Respuesta rápida:** Una fiesta infantil en parque con el Jungla sólo conviene si obtienes autorización del administrador o de la alcaldía, localizas una toma de 110 V a menos de 20 m, encuentras piso plano sin riesgos y puedes definir un plan por lluvia. El modelo mide 5 × 3 × 2.50 m, requiere 4.2 m de altura libre y su renta de inflable Jungla para fiestas cuesta $1,600 netos por evento.
 
 ## ¿Qué permiso se requiere para usar un inflable en un parque durante una fiesta infantil?
 
@@ -67,7 +67,7 @@ Este paso va antes de elegir globos o menú. Una zona verde preciosa que prohíb
 
 No instales al centro de la zona más transitada. Busca un extremo visible desde las mesas, con espacio para una fila corta y sin que la entrada o la salida del inflable invada andadores, juegos fijos, ciclovías o el paso hacia los baños. Los adultos deben poder ver a los niños sin cruzar constantemente la zona de brincos.
 
-Para Jungla, revisa una base de 5 × 3 m y, sobre todo, el despeje alrededor que el equipo confirmará contigo. Mira hacia arriba: ramas, guirnaldas, luminarias o cables bajos pueden descartar un claro que desde lejos parecía perfecto. El modelo requiere 4.2 m de altura libre y es sólo para exterior; la [guía completa del inflable Jungla](/inflables/mini-jungla/) explica por qué esa medida no se deduce de los 2.50 m de alto que tiene el inflable.
+Para Jungla, revisa una base de 5 × 3 m y, sobre todo, el despeje alrededor que el equipo confirmará contigo. Mira hacia arriba: ramas, guirnaldas, luminarias o cables bajos pueden descartar un claro que desde lejos parecía perfecto. El modelo requiere 4.2 m de altura libre y es sólo para exterior; la guía completa del inflable Jungla explica por qué esa medida no se deduce de los 2.50 m de alto que tiene el inflable.
 
 | Punto del parque | ¿Puede servir? | Qué confirmar antes de apartarlo |
 |---|---|---|
@@ -145,6 +145,33 @@ Un parque en el suroriente puede tener un costo de traslado distinto a uno centr
 | Milpa Alta | Villa Milpa Alta, San Pedro Atocpan | Va de $200 a $300 según colonia |
 
 Si tu sede está junto a parques, jardines o áreas abiertas de Xochimilco, consulta la [cobertura para fiestas en Xochimilco](/cobertura/xochimilco/) con la colonia precisa. Si el parque no autoriza el montaje, no cambies de modelo a ciegas: primero define si cuentas con una sede exterior que sí pueda usarlo.
+
+### Si piensas en un parque grande del sur, el norte o el oriente
+
+Los parques más conocidos de la ciudad tienen su propia administración y reglas, así que la pregunta del permiso va directo con ellos o con la alcaldía, no con nosotros. Algunos ejemplos de cómo plantearlo:
+
+- **Tlalpan.** Si estás pensando en el Bosque de Tlalpan u otro parque de la alcaldía, pregunta en la administración del lugar si admiten juegos inflables, en qué zona y si los vehículos de proveedores pueden acercarse. Si no lo permiten, el jardín de una casa o un salón cercano suele resolverlo; revisa las [entregas a domicilio en Tlalpan](/cobertura/tlalpan/), donde el traslado se confirma según la colonia.
+- **Gustavo A. Madero.** El Bosque de San Juan de Aragón es de los espacios verdes más grandes del norte. Antes de planear ahí, confirma con su administración las reglas para eventos privados y proveedores. Para la logística de entrega, consulta la [cobertura para fiestas en Gustavo A. Madero](/cobertura/gustavo-a-madero/).
+- **Iztapalapa.** Parques como el Cuitláhuac tienen áreas amplias, pero el permiso, la corriente y el acceso se resuelven con quien los administra. La página de [inflables a domicilio en Iztapalapa](/cobertura/iztapalapa/) tiene el detalle del traslado, que va de $100 a $150.
+
+En los tres casos, si la respuesta sobre inflables es "no" o "no sabemos", toma eso como un no. Es mejor mover la fiesta a un patio o jardín privado que llegar con el equipo y que no lo dejen entrar.
+
+## ¿Qué llevas tú que el parque no tiene?
+
+Un parque te da el espacio; lo demás corre por tu cuenta. Antes de salir de casa, revisa:
+
+- **Bolsas para basura** suficientes para toda la fiesta. Lo que la fiesta genera se va contigo, no en el bote del parque.
+- **Sombra para el área de mesas**: un toldo plegable o sombrillas, si la administración lo permite.
+- **Agua para los niños** en garrafón con vasos, ubicada fuera del perímetro del inflable.
+- **Botiquín básico** con curitas, gel antibacterial y toallitas.
+- **Algo para delimitar la zona de juego**, como conos o cinta, para que los niños de otras familias no entren al inflable sin supervisión.
+- **Ropa extra** para los más chicos y una muda por si alguien termina en el lodo.
+
+Una fiesta en parque suele salir más barata que rentar un salón, y es buena opción si estás cuidando el gasto; en la guía de [fiesta infantil con poco presupuesto](/blog/fiesta-infantil-con-poco-presupuesto-cdmx/) hay más ideas para que rinda sin que se note.
+
+### Llega antes que los invitados
+
+En parques sin reservación, el claro que elegiste en la visita puede estar ocupado el día de la fiesta. Que alguien de la familia llegue temprano a apartar el lugar y reciba al equipo. El montaje toma de 15 a 30 minutos, así que el inflable debe estar listo antes de que lleguen las familias. Si todavía no sabes cuántas horas rentar ni cómo repartir el tiempo, revisa [cómo armar el horario de una fiesta con inflable](/blog/horario-fiesta-infantil-cuantas-horas-inflable/).
 
 ## ¿Qué datos mandas para cotizar una fiesta infantil en parque?
 

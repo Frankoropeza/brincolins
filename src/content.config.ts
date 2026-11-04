@@ -38,4 +38,21 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog };
+/* Guía local por zona (/cobertura/<slug>/). Un archivo por zona para que el
+   contenido local crezca sin inflar coverage.ts. El cuerpo Markdown se
+   renderiza como sección "Guía local"; vecinas/guias alimentan el enlazado
+   interno zona↔zona y zona→blog; faqs se suman a las de coverage.ts. */
+const zonas = defineCollection({
+  loader: glob({ base: './src/content/zonas', pattern: '**/*.md' }),
+  schema: z.object({
+    titulo: z.string(),                        // H2 de la sección de guía local
+    vecinas: z.array(z.string()).default([]),  // slugs de COVERAGE_ZONES colindantes
+    guias: z.array(z.string()).default([]),    // slugs de posts del blog relevantes
+    faqs: z.array(z.object({
+      question: z.string(),
+      answer: z.string(),
+    })).default([]),
+  }).strict(),
+});
+
+export const collections = { blog, zonas };

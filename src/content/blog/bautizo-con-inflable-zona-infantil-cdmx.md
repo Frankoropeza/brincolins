@@ -4,10 +4,10 @@ h1: "Bautizo con inflable en CDMX: cómo montar la zona infantil de la recepció
 description: "Bautizo con inflable en CDMX: coordina la instalación con la misa, ubica la zona infantil lejos de la música y elige el modelo por edad. Cotiza con tu fecha."
 excerpt: "Los niños salen de misa con una hora sentados encima y ropa que no los deja moverse. Así les preparas un espacio propio para que la recepción fluya."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Castillo Baby"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "14 min"
 heroImage: "/img/inflables/mini-castillo/mini-castillo-exterior.avif"
 heroImageAlt: "Entrada con rampa naranja del Castillo Baby sobre lona azul, una opción para un bautizo con inflable"
 galleryImages:
@@ -53,7 +53,7 @@ El primero son los de 1 a 3 años. Necesitan un espacio pequeño, tranquilo y a 
 
 Mide 2.5 × 2 × 2 m, es para niños de 1 a 3 años y está pensado para interiores, terrazas y espacios reducidos. Se instala en 15 minutos. Es compacto y no compite con la decoración. Si tu jardín es chico, sirve igual.
 
-Si el bautizo coincide con el primer año del festejado, la fiesta cambia de tono y de horario; la guía de [cómo festejar el primer año con Castillo Baby](/inflables/mini-castillo/) te ayuda a juntar los dos motivos sin sobrecargar el día.
+Si el bautizo coincide con el primer año del festejado, la fiesta cambia de tono y de horario; la guía de [primer cumpleaños con inflable](/blog/fiesta-primer-cumpleanos-con-inflable/) te ayuda a juntar los dos motivos sin sobrecargar el día.
 
 ## ¿Cómo coordinas la misa con la instalación del inflable?
 
@@ -134,6 +134,24 @@ Tu piso tiene que estar parejo, sin piedras, sin pendiente y sin agua. Si tienes
 
 El Castillo Baby pide 3.2 m de altura libre, medidos hasta el punto más bajo, incluidas lámparas y trabes. Si vas a hacer la recepción en casa, la guía para [saber si tu techo da para un inflable](/blog/inflable-para-departamento-altura-techo-cdmx/) explica dónde medir y qué hacer si no alcanza. ¿Tu salón es rentado? Pregunta al encargado si permite inflables antes de pagar el lugar.
 
+## ¿Y si llueve o hace frío el día del bautizo?
+
+Los bautizos se reparten todo el año, así que el clima cambia el plan según la fecha. De junio a septiembre llueve casi todas las tardes en el Valle de México, y muchas recepciones empiezan justo después de mediodía. En diciembre y enero el problema es otro: mañanas frías y el pasto húmedo hasta tarde.
+
+- **Temporada de lluvias.** Ten un plan B techado: cochera, terraza o salón con 3.2 m de altura libre para el Castillo Baby. El Castillo Blanco no tiene versión techada, así que con lluvia fuerte se cierra hasta que deje de llover y se seque. Las opciones están en [inflable bajo techo en temporada de lluvias](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/).
+- **Meses fríos.** Abre la zona infantil a mediodía, cuando calienta el sol, y pide que cada familia traiga un suéter para después de brincar.
+- **Inflable mojado.** Nadie entra con la lona húmeda: resbala. Ten toallas para secar la entrada antes de reabrir.
+
+**Qué preguntar al cotizar:** la hora más temprana de instalación para tu zona, qué pasa si hay que cambiar de fecha por clima y si el lugar techado que tienes da la altura que pide el modelo.
+
+## Recepciones en casa con jardín: del sur de la ciudad a Atizapán
+
+Muchas recepciones de bautizo se hacen en la casa de los abuelos o de los padrinos, y en el sur de la CDMX es común que sea una casa con jardín. En Xochimilco hay casas con jardín grande y terrenos amplios; revisa el piso, porque en zonas cercanas a canales puede estar húmedo o blando. El traslado ahí va de $100 a $150 y lo ves en la [cobertura de Xochimilco](/cobertura/xochimilco/).
+
+En Tlalpan, desde el centro histórico de la alcaldía hasta las colonias hacia el Ajusco, abundan jardines con árboles. El Castillo Baby cabe casi en cualquiera; para el Castillo Blanco mide que las ramas queden por encima de 4.7 m. Consulta las condiciones de [entrega en Tlalpan](/cobertura/tlalpan/).
+
+Si la recepción es en Atizapán de Zaragoza, en el norponiente del Estado de México, muchas casas están en fraccionamientos con caseta: deja el aviso de acceso a nombre del servicio y la hora acordada. El traslado va de $200 a $300; tienes los detalles en [inflables para recepciones en Atizapán](/cobertura/atizapan/).
+
 ## ¿Cuándo sumas el Castillo Blanco para los niños mayores?
 
 Cuando en tu lista hay varios niños de 4 años en adelante. El Castillo Baby no es para ellos, y si no tienen su propio espacio van a querer entrar al de los chiquitos. En un bautizo formal, el modelo para ese grupo es el [Castillo Blanco para recepciones formales](/inflables/castillo-blanco/): blanco, para niños de 3 a 12 años.
@@ -155,7 +173,7 @@ Depende de tu lista. Si casi todos los niños tienen de 1 a 3 años, basta el Ca
 
 ### Cómo se integra con la decoración
 
-¿Te preocupan las fotos? El Castillo Blanco está pensado para no romper la estética de un evento formal. El repaso de [inflables que encajan en eventos formales](/blog/inflables-eventos-formales-cdmx/) explica cómo se ven en bodas, XV años y bautizos. Y la guía para [diseñar la zona infantil de una boda](/inflables/castillo-blanco/) detalla ubicación, ruido y horarios en recepciones grandes.
+¿Te preocupan las fotos? El Castillo Blanco está pensado para no romper la estética de un evento formal. El repaso de [inflables que encajan en eventos formales](/blog/inflables-eventos-formales-cdmx/) explica cómo se ven en bodas, XV años y bautizos.
 
 ![Castillo Baby armado sobre pasto entre árboles, con torres verde y azul y entrada de arcos amarillos](/img/inflables/mini-castillo.avif)
 
@@ -210,4 +228,4 @@ Los fines de semana se llenan. La disponibilidad se confirma por WhatsApp. Te co
 
 La fecha se aparta con 50% de anticipo. El precio es por evento y neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Si la recepción es en Coyoacán, revisa la [cobertura en Coyoacán](/cobertura/coyoacan/); para otras alcaldías y municipios, consulta [dónde entregamos en CDMX y Estado de México](/cobertura/).
 
-Revisa la [ficha del Castillo Baby para bautizos](/inflables/mini-castillo/) y escríbenos al [WhatsApp para la zona infantil del bautizo](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20la%20zona%20infantil%20para%20un%20bautizo) o llena la [cotización en línea de tu bautizo](/cotizar/). Atendemos de lunes a domingo de 8:00 a 20:00.
+Escríbenos al [WhatsApp para la zona infantil del bautizo](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20la%20zona%20infantil%20para%20un%20bautizo) o llena la [cotización en línea de tu bautizo](/cotizar/). Atendemos de lunes a domingo de 8:00 a 20:00.

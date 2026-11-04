@@ -4,10 +4,10 @@ h1: "Inflable para departamento en CDMX: cómo saber si cabe según la altura de
 description: "Inflable para departamento en CDMX: mide tu techo antes de apartar. El Castillo Baby pide 3.2 m libres; compara modelos y cotiza sin sorpresas."
 excerpt: "Mediste la sala y el inflable cabe. Falta mirar hacia arriba. Aprende a medir tu techo en cinco minutos y arma un plan B si no llega a 3.2 m."
 publishDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-04"
 category: "Castillo Baby"
 author: "Equipo BRINCOLINS"
-readTime: "13 min"
+readTime: "20 min"
 heroImage: "/img/inflables/mini-castillo.avif"
 heroImageAlt: "Castillo Baby, inflable para departamento y terraza, con torres de colores sobre pasto junto a árboles"
 galleryImages:
@@ -152,7 +152,33 @@ Cambiar el lugar, no la fecha. Con un techo de 2.3 a 2.7 m el inflable no entra 
 - **Casa de un familiar con jardín.** La fiesta se mueve y lo demás se queda igual: invitados, pastel y horario.
 - **Salón de fiestas.** No rentamos salones; consigue el lugar por tu cuenta y confirma la altura libre con el encargado antes de pagarlo.
 
-Si es el primer año del bebé, la lógica de espacio, horario e invitados está en la guía para [organizar la fiesta de 1 año sin complicarte](/inflables/mini-castillo/). ¿Es un bautizo? La [zona infantil para la recepción de un bautizo](/blog/bautizo-con-inflable-zona-infantil-cdmx/) tiene su propia logística entre misa y comida.
+### Tu medida y lo que sigue, en una tabla
+
+Cuando ya tengas el número del flexómetro, ubícalo aquí. La tabla no reemplaza la confirmación por WhatsApp, pero te dice qué esperar antes de escribir.
+
+| Altura libre que mediste | Qué significa | Siguiente paso |
+|---|---|---|
+| Menos de 3.2 m | Ningún modelo entra bajo techo | Busca azotea, patio común o jardín y mide ese espacio |
+| 3.2 m justos | Entra, pero sin margen para errores de medición | Vuelve a medir en el punto más bajo y manda foto de trabes y lámparas |
+| Más de 3.2 m, con 2.5 × 2 m de piso | Cabe el Castillo Baby | Confirma que el rectángulo quede lejos de vidrio y muebles |
+| Más de 3.2 m, con 5 × 3 m de piso | Pueden entrar el Castillo Baby o el Gusanitos | Elige por edades: de 1 a 3 años o de 2 a 8 años |
+| Espacio sin techo | La altura deja de ser problema | Revisa piso plano, contacto a menos de 20 m y acceso |
+
+### Si eliges la azotea, revisa tres cosas más
+
+Al pasar a la azotea cambias el problema del techo por otros: el piso, el acceso y lo que hay alrededor. Antes de apartar, confirma lo siguiente:
+
+- **Piso parejo.** Impermeabilizante con burbujas, coladeras salidas o desniveles se marcan en el área; debe quedar plana y despejada.
+- **Lo que estorba.** Tinacos, tanques de gas, tendederos y antenas no pueden quedar pegados al inflable ni en el paso de los niños.
+- **Pretil o barandal.** El inflable va lejos del borde, y un adulto vigila también la zona alrededor, no sólo la entrada.
+
+La revisión completa, con preguntas para la administración y qué hacer con el sol de mediodía, está en la guía para [poner un inflable en la azotea del edificio](/blog/inflable-en-azotea-que-revisar-cdmx/).
+
+### Departamentos en el centro y poniente de la ciudad
+
+En las colonias con más edificios de departamentos la conversación casi siempre es la misma: sala sin altura, azotea o patio común como plan B y una administración que pide aviso. Si vives en la Roma, la Condesa, la Juárez o Tlatelolco, revisa los [inflables a domicilio en Cuauhtémoc](/cobertura/cuauhtemoc/); algunos edificios antiguos de esas colonias tienen techos más altos que un departamento reciente, y ahí sí vale la pena medir antes de descartar la sala. En Anzures, Escandón, Tacubaya o la zona de Polanco, la página de [entregas en Miguel Hidalgo](/cobertura/miguel-hidalgo/) te dice cómo se cotiza el traslado. Y si vives en una unidad habitacional como El Rosario, donde los departamentos son de techo estándar pero suele haber áreas comunes al aire libre, pregunta por esa área y consulta la [cobertura en Azcapotzalco](/cobertura/azcapotzalco/). En las tres alcaldías el traslado se cotiza según tu colonia.
+
+Si es el primer año del bebé, la lógica de espacio, horario e invitados está en la guía para organizar la fiesta de 1 año sin complicarte. ¿Es un bautizo? La [zona infantil para la recepción de un bautizo](/blog/bautizo-con-inflable-zona-infantil-cdmx/) tiene su propia logística entre misa y comida.
 
 ## ¿Dónde conectas el motor y qué tanto se escucha en el edificio?
 
@@ -160,7 +186,7 @@ En una toma de 110 V a menos de 20 m del área, fija y confiable. El motor profe
 
 ### El contacto correcto
 
-En departamento casi siempre tienes uno a menos de 20 m; en azotea o patio común, no siempre. Prueba el contacto la víspera con cualquier aparato. Revisa también que el cable llegue sin cruzar el paso de la gente ni la puerta de la cocina.
+En departamento casi siempre tienes uno a menos de 20 m; en azotea o patio común, no siempre. Prueba el contacto la víspera con cualquier aparato. Revisa también que el cable llegue sin cruzar el paso de la gente ni la puerta de la cocina. Si dudas si tu instalación aguanta el motor junto con el refri y las luces, revisa [qué contacto y qué extensión necesita un inflable](/blog/cuanta-luz-consume-un-inflable-contacto-extension/).
 
 ### El zumbido y los vecinos
 
@@ -210,7 +236,7 @@ Para fiestas donde quienes brincan tienen de 1 a 3 años: primer y segundo cumpl
 
 ¿Vas a festejar el segundo año? La guía para [planear una fiesta de 2 años con siesta incluida](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) cubre horario, invitados y comida. ¿Dudas entre el Castillo Baby, el Gusanitos y el Castillo de Princesas? La [comparativa de inflables para menores de 3 años](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) pone los tres lado a lado.
 
-Antes de mandarnos tu medida, revisa las [fotos y medidas del Castillo Baby](/inflables/mini-castillo/). Tendrás todo a la vista para decidir. Y si te queda una duda general, las [respuestas sobre la renta de inflables](/preguntas-frecuentes/) suelen resolverla.
+Antes de mandarnos tu medida, revisa las fotos y medidas del Castillo Baby. Tendrás todo a la vista para decidir. Y si te queda una duda general, las [respuestas sobre la renta de inflables](/preguntas-frecuentes/) suelen resolverla.
 
 ## Aparta el Castillo Baby para tu fiesta en casa
 
