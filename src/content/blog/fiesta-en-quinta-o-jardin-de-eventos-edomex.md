@@ -1,13 +1,13 @@
 ---
 title: "Fiesta en quinta con inflable: 7 preguntas antes de apartar"
 h1: "Fiesta en quinta con inflable: permisos, acceso, corriente, terreno y altura libre en jardines de eventos"
-description: "Fiesta en quinta con inflable en Edomex o el sur de CDMX: permisos, acceso, corriente, terreno y altura libre del Barco Pirata. Revísalo y cotiza tranquilo."
+description: "Fiesta en quinta con inflable en Edomex o el sur de CDMX: permisos, acceso, corriente, terreno y altura libre del Barco Pirata. Revísalo y cotiza."
 excerpt: "La quinta tiene pasto de sobra, pero también reglas, horarios y árboles. Lo que conviene preguntar al lugar antes de llevar un inflable grande como el Barco Pirata."
 publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
 category: "Barco Pirata"
 author: "Equipo BRINCOLINS"
-readTime: "18 min"
+readTime: "14 min"
 heroImage: "/img/inflables/barco-pirata/barco-pirata-renta-cdmx.avif"
 heroImageAlt: "Barco Pirata sobre pasto entre carpa blanca y árboles, montaje típico de una fiesta en quinta con inflable"
 galleryImages: []
@@ -34,13 +34,21 @@ faqs:
     answer: "Sólo si tú la necesitas. Los precios son netos y, si requieres factura, se agrega 16% de IVA. El Barco Pirata cuesta $2,300 netos por evento con instalación y recolección incluidas; el traslado a la quinta se cobra según la zona."
 ---
 
+Antes de una fiesta en quinta con inflable, confirma por escrito que el lugar acepta proveedores externos, el horario de montaje y retiro, la distancia de la camioneta al área, una toma de 110 V a menos de 20 m, terreno plano y 5.2 m de altura libre si llevas el [Barco Pirata de 6 × 3.5 × 3.80 m](/inflables/barco-pirata/).
+
+**Puntos clave**
+
+- Siete preguntas a la administración resuelven permisos, horarios, cuotas y quién recibe al equipo.
+- El montaje y el retiro tienen que caber dentro del horario que te renta la quinta.
+- Mide la altura libre en el punto exacto: árboles, guirnaldas de focos y carpas son lo que más la quita.
+- Elige pasto parejo o tierra compactada, lejos de aspersores y sin pendiente.
+- El traslado depende de la zona de la quinta; con la dirección te damos el total.
+
 Visitaste la quinta un martes, todo se veía perfecto. Pasto parejo, estacionamiento grande, árboles bonitos. Nadie te preguntó por el inflable. ¿Y si el día de la fiesta el problema son justo esos árboles?
 
 Una **fiesta en quinta con inflable** tiene ventajas claras: espacio, estacionamiento y libertad para el ruido. También tiene reglas que no existen en tu casa. Permisos para proveedores, horarios de acceso, caminos largos desde el estacionamiento y ramas que tapan el cielo.
 
 Aquí tienes las siete preguntas para la administración y todo lo que conviene revisar en la visita, antes de pagar un anticipo.
-
-> **Respuesta rápida:** Antes de una fiesta en quinta con inflable confirma por escrito que el lugar acepta proveedores externos, el horario de montaje y retiro, la distancia de la camioneta al área, una toma de 110 V a menos de 20 m, terreno plano y 5.2 m de altura libre si llevas el [Barco Pirata de 6 × 3.5 × 3.80 m](/inflables/barco-pirata/). El traslado se cobra según zona.
 
 ## ¿Qué cambia en una fiesta en quinta con inflable frente a tu casa?
 
@@ -127,7 +135,9 @@ Revisa si hay cables cruzando el jardín, guirnaldas colgadas entre árboles o l
 
 #### Cómo mides la altura en la visita
 
-Lleva una cinta métrica o un medidor láser. Mide desde el pasto hasta la rama, el cable o el toldo más bajo sobre el área donde iría el barco. ¿Te da menos de 5.2 m? Ese punto no sirve. La lista para medir suelo, altura y acceso antes de apartar te explica el procedimiento completo.
+Lleva una cinta métrica o un medidor láser. Mide desde el pasto hasta la rama, el cable o el toldo más bajo sobre el área donde iría el barco. ¿Te da menos de 5.2 m? Ese punto no sirve. Para comparar con otros modelos, la [tabla de medidas de inflables para fiestas](/blog/medidas-de-inflables-para-fiestas-tabla/) reúne huella y altura libre de cada uno.
+
+![Persona de espaldas midiendo con cinta métrica la altura de una rama sobre el pasto de un jardín de eventos con carpa al fondo](/img/blog/fiesta-en-quinta-o-jardin-de-eventos-edomex/escena-1.avif "En la visita, mide desde el pasto hasta la rama, el cable o el toldo más bajo.")
 
 ### Carpas y toldos
 
@@ -172,7 +182,7 @@ De junio a septiembre llueve con frecuencia por las tardes en el Valle de Méxic
 
 1. **Pregunta a la quinta qué cubre la carpa** y si hay un área techada donde puedan esperar los niños mientras pasa la lluvia.
 2. **Programa el inflable para la primera parte de la fiesta.** Si la lluvia suele llegar a media tarde, que los niños jueguen antes de la comida y no después.
-3. **Pregunta al cotizar qué pasa si llueve** antes o durante el evento, y revisa la política de cancelación antes de apartar.
+3. **Ten claro qué pasa si llueve.** Si llueve el día del evento, la fecha del inflable se reprograma sin costo; los detalles están en la [política de cancelación y reprogramación](/politica-de-cancelacion/).
 
 Con lluvia, el inflable se desaloja y se detiene: la lona mojada resbala y no se usa hasta que deje de llover y se seque.
 

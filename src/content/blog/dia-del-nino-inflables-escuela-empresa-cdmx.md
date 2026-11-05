@@ -35,19 +35,23 @@ faqs:
     answer: "El 30 de abril de 2027 cae en viernes. Muchas escuelas y empresas van a festejar ese mismo viernes y algunas el jueves anterior, así que esos dos días suelen llenarse primero. Si tu institución puede moverse a otro día de esa semana, tendrás más opciones."
 ---
 
-Los **inflables para Día del Niño** tienen un problema que ninguna otra fecha tiene: miles de escuelas, empresas y condominios los quieren el mismo día. Un cumpleaños se mueve al sábado siguiente. El 30 de abril no se mueve.
+Los **inflables para Día del Niño** se apartan con varias semanas de anticipación, porque el 30 de abril los piden escuelas, empresas y condominios al mismo tiempo. Combina modelos por edad: Castillo Baby para 1 a 3 años ($1,400), el [inflable Jungla para 3 a 8 años](/inflables/mini-jungla/) ($1,600) y el Extremo para 3 a 12 ($2,500).
 
-Eso te obliga a planear antes y a pensar distinto. Tu trabajo cambia. Ya no organizas una fiesta: coordinas un evento con permisos, horarios, varios rangos de edad y alguien que va a pedir factura.
+**Puntos clave**
 
-Aquí tienes cada decisión en el orden en que te conviene tomarla.
+- En 2027 el 30 de abril cae en viernes; ese día y el jueves anterior se llenan primero.
+- La cantidad de inflables depende de los rangos de edad, la duración del festejo y los niños por rango.
+- La capacidad por turno de cada modelo se confirma al cotizar.
+- Con factura se agrega el 16% de IVA; la fecha se aparta con 50% de anticipo.
+- La supervisión es del personal de la institución, con un responsable fijo por inflable.
 
-> **Respuesta rápida:** Para el Día del Niño, aparta los inflables con varias semanas de anticipación, porque el 30 de abril se llena primero. Combina modelos por edad: Castillo Baby para 1 a 3 años ($1,400), el [inflable Jungla para 3 a 8 años](/inflables/mini-jungla/) ($1,600) y el Extremo para 3 a 12 ($2,500). Cuántos niños recibe cada uno por turno se confirma al cotizar. Con factura se agrega el 16% de IVA.
+Un cumpleaños se mueve al sábado siguiente; el 30 de abril no se mueve. Eso te obliga a planear antes y a pensar distinto: ya no organizas una fiesta, coordinas un evento con permisos, horarios, varios rangos de edad y alguien que va a pedir factura. Aquí tienes cada decisión en el orden en que te conviene tomarla.
 
 ## ¿Por qué los inflables para Día del Niño se apartan con semanas de anticipación?
 
-Porque la demanda se concentra en un solo día y en los días hábiles de alrededor. La escuela lo festeja en su horario, la empresa lo pone en su calendario interno y el condominio lo anuncia en el grupo de vecinos con semanas de margen. Todos al mismo tiempo. Y tú compites con ellos.
+Porque la demanda se concentra en un solo día y en los días hábiles de alrededor. La escuela lo festeja en su horario, la empresa lo pone en su calendario interno y el condominio lo anuncia en el grupo de vecinos con semanas de margen. Todos al mismo tiempo, y tú compites con ellos.
 
-Si quieres ver cómo se llena el resto del año, la guía de [cuándo reservar el inflable según la temporada](/blog/cuando-reservar-inflable-temporadas-cdmx/) muestra qué fechas se agotan antes. Para 2027 tienes un dato práctico. El 30 de abril cae en viernes. Muchas escuelas y empresas van a festejar ese mismo viernes y otras el jueves anterior, así que esos dos días se llenan primero y, si escribes tarde, terminas eligiendo entre lo que queda, no entre lo que necesitas.
+Si quieres ver cómo se llena el resto del año, la guía de [cuándo reservar el inflable según la temporada](/blog/cuando-reservar-inflable-temporadas-cdmx/) muestra qué fechas se agotan antes. Para 2027 tienes un dato práctico: el 30 de abril cae en viernes. Muchas escuelas y empresas van a festejar ese mismo viernes y otras el jueves anterior, así que esos dos días se llenan primero y, si escribes tarde, terminas eligiendo entre lo que queda, no entre lo que necesitas.
 
 La regla es sencilla. ¿Tienes fecha autorizada? Aparta. La reserva queda firme con el 50% de anticipo, y las condiciones si algo cambia están en las [reglas para cancelar o mover la fecha](/politica-de-cancelacion/). Léelas antes de pagar, no después.
 
@@ -168,7 +172,7 @@ Si estás en una escuela, te funcionan los juegos por grado, las mesas de dibujo
 
 El mismo plan se adapta a otros momentos del año. Para preescolar, la guía de [juegos y turnos para una fiesta de 4 años](/blog/fiesta-de-4-anos-ideas-inflable-cdmx/) sirve con grupos de kínder. Para el cierre de ciclo está la guía de [graduación de kínder o primaria con inflable](/blog/graduacion-kinder-primaria-con-inflable/), y para julio y agosto, cómo [meter un inflable en el curso de verano](/blog/curso-de-verano-con-inflable-cdmx/).
 
-## Ejemplo de mañana escolar con dos inflables
+## ¿Cómo se ve una mañana escolar con dos inflables?
 
 Así se ve una mañana de Día del Niño en una primaria con un Jungla para los grados bajos y un Extremo para los altos. Es un ejemplo de organización; los turnos reales dependen de la capacidad que te confirmemos al cotizar.
 
@@ -191,7 +195,9 @@ Abril y mayo son de los meses más calurosos en la Ciudad de México y todavía 
 - Programa a los más chicos en la primera hora, cuando el sol pega menos.
 - Pide a los papás que manden gorra y protector solar.
 
-## Día del Niño en Iztapalapa, Gustavo A. Madero y Tlalnepantla
+![Patio escolar con fila de espera marcada bajo la sombra de una lona, garrafones de agua y vasos en una mesa](/img/blog/dia-del-nino-inflables-escuela-empresa-cdmx/escena-1.avif "Fila a la sombra y agua a la mano: lo básico para un festejo de abril al mediodía")
+
+## ¿Qué conviene saber en Iztapalapa, Gustavo A. Madero y Tlalnepantla?
 
 Estas tres zonas concentran muchas escuelas, unidades habitacionales y empresas con explanadas, y cada una tiene algo que conviene saber antes de cotizar.
 
@@ -215,7 +221,7 @@ Olvida lo que no se ve en la invitación: permisos, corriente, acceso y roles. E
 
 Si también necesitas mesas para comida o manualidades, las [mesas y sillas infantiles para eventos](/servicios/mobiliario-para-fiestas/) se suman a la renta.
 
-## Aparta tus inflables para el 30 de abril
+## Siguiente paso: aparta tus inflables para el 30 de abril
 
 Cada semana que pasa, abril tiene menos huecos. ¿Tu institución ya tiene fecha? Es momento de cotizar. Mándanos estos datos y te respondemos con la combinación de modelos, la disponibilidad y lo que necesita tu espacio:
 

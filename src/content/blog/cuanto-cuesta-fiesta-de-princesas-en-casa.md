@@ -1,7 +1,7 @@
 ---
 title: "Cuánto cuesta una fiesta de princesas en casa: 8 partidas"
 h1: "¿Cuánto cuesta una fiesta de princesas en casa? Presupuesto por partidas, con precios netos del castillo y la mesa"
-description: "Cuánto cuesta una fiesta de princesas en casa en CDMX: 8 partidas, precios netos del castillo y la mesa infantil, y dónde ahorrar sin que se note. Compara."
+description: "Presupuesto de fiesta de princesas en casa: castillo inflable a $1,800, mesa infantil, traslado por zona y dónde ahorrar sin que se note. Arma tu cuenta."
 excerpt: "El castillo y la mesa infantil tienen precio fijo; lo demás lo decides tú. Arma el presupuesto partida por partida y elige dónde recortar sin que se note."
 publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
@@ -35,11 +35,17 @@ faqs:
     answer: "No. El precio es por evento, con instalación y recolección incluidas, así que no tienes que calcular horas extra en tu presupuesto. Lo que sí se coordina al cotizar es la hora de instalación y la de recolección, según el horario de tu fiesta."
 ---
 
-Abres una hoja de cálculo. Escribes «castillo», «pastel», «comida». Y te quedas viendo la columna de precios vacía. Pasa con casi cualquier fiesta en casa: sabes qué quieres, no cuánto suma.
+Una fiesta de princesas en casa parte de **$2,350 netos** en sus dos partidas fijas: el [Castillo de Princesas a $1,800 netos por evento](/inflables/castillo-princesas/) y la mesa infantil con 10 sillas a $550 si la rentas con el inflable. A eso se suma el traslado según tu zona y lo que decidas gastar en decoración, comida, pastel y recuerditos.
 
-Para saber cuánto cuesta una fiesta de princesas en casa, separa lo que tiene precio fijo de lo que depende de tus decisiones. Aquí tienes las partidas, los precios netos que sí podemos darte y los criterios para ajustar el resto sin que la fiesta se vea recortada.
+**Puntos clave**
 
-> **Respuesta rápida:** En una fiesta de princesas en casa sólo dos partidas tienen precio fijo con nosotros: el [Castillo de Princesas a $1,800 netos por evento](/inflables/castillo-princesas/) y la mesa infantil con 10 sillas a $550 si la rentas con el inflable. Súmale el traslado según tu zona. Decoración, comida, pastel y recuerditos dependen de tus proveedores, así que cuánto cuesta una fiesta de princesas lo define tu lista de partidas.
+- El castillo cuesta $1,800 netos por evento, con instalación y recolección incluidas.
+- La mesa infantil con 10 sillas baja de $1,600 a $550 si la pides junto con el inflable.
+- El traslado depende de tu colonia o municipio; en zonas seleccionadas no tiene costo adicional.
+- El 16% de IVA solo se suma si necesitas factura.
+- El castillo pide 4.2 m de altura libre y una toma de 110 V a menos de 20 m.
+
+Abres una hoja de cálculo, escribes «castillo», «pastel», «comida» y te quedas viendo la columna de precios vacía. Pasa con casi cualquier fiesta en casa: sabes qué quieres, pero no cuánto suma. La solución es separar lo que tiene precio fijo de lo que depende de tus decisiones. Aquí tienes las partidas, los precios netos que sí podemos darte y los criterios para ajustar el resto sin que la fiesta se vea recortada.
 
 ## ¿Cuánto cuesta una fiesta de princesas en casa y qué mueve el total?
 
@@ -155,6 +161,8 @@ En una fiesta con inflable los niños comen poco. Brincan, toman agua y vuelven 
 
 El recuerdito más barato es el que hacen los propios niños en la fiesta, como una corona decorada, una varita o unas alas, porque el material cuesta poco y el rato que pasan haciéndolo resuelve parte del entretenimiento. Luego sirve de disfraz y de regalo de salida. Y la invitación digital por WhatsApp cumple la misma función que la impresa, sin imprenta ni entrega.
 
+![Mesa sencilla de fiesta de princesas en un jardín, con mantel rosa, globos y coronas de papel para decorar](/img/blog/cuanto-cuesta-fiesta-de-princesas-en-casa/escena-1.avif "Globos, mantel y coronas hechas en la fiesta: decoración suficiente sin gastar de más")
+
 Si quieres la versión completa de ambientación, menú y actividades, tienes la guía de [ambientación y mesa para una fiesta de princesas](/blog/fiesta-princesas-ninas-inflable-cdmx/) con cada parte en detalle.
 
 ## ¿Qué gastos no conviene recortar aunque el presupuesto apriete?
@@ -193,7 +201,7 @@ Casi todos se resuelven con una lista y una cinta métrica, y ninguno requiere g
 - **Comprar comida para un ejército.** Con inflable, los niños comen poco; calcula por adultos.
 - **Apartar sin leer las condiciones.** Antes de dejar el anticipo, revisa la [política de cambios y cancelación](/politica-de-cancelacion/), sobre todo en temporada de lluvias.
 
-## Ejemplo con traslado: Nezahualcóyotl, Ecatepec y Chalco
+## ¿Cuánto queda el total con traslado en Neza, Ecatepec y Chalco?
 
 El traslado es la partida que más cambia de una colonia a otra, así que conviene verla con números. Tomamos tres municipios del oriente del Valle de México con cargo de envío publicado y sumamos las dos cifras firmes: castillo ($1,800) más mesa infantil con inflable ($550), es decir, **$2,350 netos** antes de traslado.
 

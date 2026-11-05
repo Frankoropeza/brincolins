@@ -7,9 +7,9 @@ publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
 category: "Barco Pirata"
 author: "Equipo BRINCOLINS"
-readTime: "15 min"
-heroImage: "/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif"
-heroImageAlt: "Costado del Barco Pirata con ancla blanca y mástiles de colores, inflable para una fiesta de 8 años"
+readTime: "14 min"
+heroImage: "/img/blog/fiesta-de-8-anos-ideas-actividades/portada.avif"
+heroImageAlt: "Niños de 8 años divididos en dos equipos con pañuelos de colores en el jardín de una casa"
 galleryImages: []
 intro:
   - "Tu hijo cumple 8 y la lista de invitados es medio salón de tercero. Ya no se conforman con brincar: quieren reto, marcador y equipos, y si el plan no los trae, se los inventan."
@@ -34,13 +34,21 @@ faqs:
     answer: "Ropa cómoda y calcetines. Los zapatos se quedan afuera del inflable, igual que lentes y objetos en las bolsas. Una falda larga o un pantalón de vestir estorban para deslizarse, así que conviene avisarlo en la invitación."
 ---
 
+Para una fiesta de 8 años conviene un inflable grande que cubra la edad con margen y traiga reto, más juegos por equipos y bloques cortos. El [Barco Pirata para niños de 3 a 12 años](/inflables/barco-pirata/) tiene tobogán por la popa, mide 6 × 3.5 × 3.80 m y cuesta $2,300 netos por evento.
+
+**Puntos clave**
+
+- A los 8 años quieren reto, equipos y marcador: reparte tripulaciones desde la llegada.
+- Los modelos medianos llegan hasta los 8 años; los grandes cubren de 3 a 12 y no se agotan a la media hora.
+- Una búsqueda del tesoro con mapa de cuadrícula y seis o siete pistas puede ser el centro de la tarde.
+- Asigna la supervisión del inflable por bloques y con nombre, porque muchos papás solo dejan al niño.
+- Comida, pastel y búsqueda van con el inflable cerrado.
+
 Son las cuatro de la tarde. Llegan doce niños de tercero, la mitad sin papá, y en diez minutos ya decidieron que el brincolín «es de bebés». ¿Te suena?
 
 Una **fiesta de 8 años** se planea distinto a una de 5. Tu hijo y sus amigos quieren reto, equipos y algo que ganar. Si tú no se los das, lo inventan, casi siempre a empujones.
 
 Aquí tienes el inflable, los juegos y el cronograma que sostienen a un grupo de tercero de primaria sin que tengas que estar apagando fuegos toda la tarde.
-
-> **Respuesta rápida:** Para una fiesta de 8 años conviene un inflable grande que cubra la edad con margen y traiga reto. El [Barco Pirata para niños de 3 a 12 años](/inflables/barco-pirata/) tiene tobogán por la popa, mide 6 × 3.5 × 3.80 m y cuesta $2,300 netos por evento. Súmale retos por equipos, una búsqueda del tesoro con mapa y bloques cortos de actividad.
 
 ## ¿Qué cambia cuando organizas una fiesta de 8 años?
 
@@ -124,6 +132,8 @@ Con coordenadas y acertijos de verdad. A los 8, si las pistas son obvias, la bú
 ### El mapa con cuadrícula
 
 Dibuja tu jardín o tu casa con una cuadrícula de letras y números. Dale una copia a cada tripulación, con un lápiz para rayarla. La coordenada dice la zona; el acertijo dice el objeto donde está la siguiente pista.
+
+![Mapa del tesoro dibujado a mano con cuadrícula de letras y números sobre una mesa de jardín, junto a lápices y sobres con pistas](/img/blog/fiesta-de-8-anos-ideas-actividades/escena-1.avif "Un mapa con cuadrícula y acertijos hace que la búsqueda dure y les cueste pensar.")
 
 ### Las pistas y el cofre final
 

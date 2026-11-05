@@ -3,6 +3,7 @@ import sitemap from "@astrojs/sitemap";
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import matter from "gray-matter";
+import sharp from "sharp";
 
 /* lastmod REAL por post (updatedDate > publishDate). Antes se marcaba TODA
    URL con new Date() en cada build: Google detecta lastmod inflado y aprende
@@ -37,10 +38,73 @@ function externalLinks() {
   };
 }
 
+/* Imágenes del cuerpo Markdown (blog y guías de zona): sin width/height el
+   navegador no reserva espacio y hay CLS. Se leen las dimensiones reales de
+   public/ al cargar la config; las imágenes nuevas del blog se generan a
+   1200×675. Una imagen sola en su párrafo pasa a <figure>, y su `title`
+   ("pie de foto") a <figcaption>. Además, el bloque "**Puntos clave**" +
+   lista se envuelve en <div class="puntos-clave"> para destacarlo. */
+const imgDims = {};
+async function scanImgs(dir) {
+  for (const e of readdirSync(dir, { withFileTypes: true })) {
+    const f = join(dir, e.name);
+    if (e.isDirectory()) await scanImgs(f);
+    else if (/\.(avif|webp|jpe?g|png)$/i.test(e.name)) {
+      try {
+        const m = await sharp(f).metadata();
+        imgDims[f.slice(join(process.cwd(), "public").length).split("\\").join("/")] = [m.width, m.height];
+      } catch { /* archivo ilegible: sin dimensiones */ }
+    }
+  }
+}
+try { await scanImgs(join(process.cwd(), "public/img/blog")); } catch { /* sin carpeta */ }
+try { await scanImgs(join(process.cwd(), "public/img/inflables")); } catch { /* sin carpeta */ }
+
+function bodyFigures() {
+  const text = (n) => (n.type === "text" ? n.value : (n.children ?? []).map(text).join(""));
+  return (tree) => {
+    const walk = (node) => {
+      const kids = node.children ?? [];
+      for (let i = 0; i < kids.length; i++) {
+        const k = kids[i];
+        if (k.type !== "element") continue;
+        if (k.tagName === "img") {
+          const src = String(k.properties?.src ?? "");
+          const d = imgDims[src];
+          if (d) { k.properties.width = d[0]; k.properties.height = d[1]; }
+          k.properties.loading = "lazy";
+          k.properties.decoding = "async";
+        }
+        if (k.tagName === "p") {
+          const real = (k.children ?? []).filter((c) => !(c.type === "text" && !c.value.trim()));
+          if (real.length === 1 && real[0].type === "element" && real[0].tagName === "img") {
+            walk(k);
+            const img = real[0];
+            const cap = img.properties?.title;
+            if (cap) delete img.properties.title;
+            kids[i] = { type: "element", tagName: "figure", properties: { className: ["art-figure"] },
+              children: [img, ...(cap ? [{ type: "element", tagName: "figcaption", properties: {}, children: [{ type: "text", value: String(cap) }] }] : [])] };
+            continue;
+          }
+          if (/^puntos clave:?$/i.test(text(k).trim())) {
+            let j = i + 1; while (kids[j]?.type === "text" && !kids[j].value.trim()) j++;
+            if (kids[j]?.tagName === "ul") {
+              kids.splice(i, j - i + 1, { type: "element", tagName: "div", properties: { className: ["puntos-clave"] }, children: [k, kids[j]] });
+              continue;
+            }
+          }
+        }
+        walk(k);
+      }
+    };
+    walk(tree);
+  };
+}
+
 export default defineConfig({
   site: "https://brincolins.com",
   markdown: {
-    rehypePlugins: [externalLinks],
+    rehypePlugins: [externalLinks, bodyFigures],
   },
   /* Sin esto, `page.url.prev/next` de paginate() genera enlaces SIN barra
      final (/blog/2) mientras el resto del sitio y las canónicas SÍ la llevan.

@@ -1,7 +1,7 @@
 ---
 title: "Fiesta de 4 años: cronograma, juegos e inflable en CDMX"
 h1: "Fiesta de 4 años con inflable: cómo organizar la tarde para un grupo de kínder"
-description: "Fiesta de 4 años en CDMX: juegos con reglas sencillas, cronograma por bloques, estaciones y turnos en el inflable Jungla. Usa la checklist y cotiza tu fecha."
+description: "Fiesta de 4 años en CDMX: juegos con reglas sencillas, cronograma por bloques, estaciones y turnos en el inflable Jungla. Usa la checklist y cotiza."
 excerpt: "A los 4 años ya eligen temática, entienden reglas y llegan con medio salón de kínder. Así repartes la tarde para que nadie haga fila ni termine llorando."
 publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
@@ -35,25 +35,29 @@ faqs:
     answer: "Algo que se use ese mismo día o en casa: calcomanías de la temática, crayones gruesos, un libro para colorear o el dinosaurio que encontraron en la excavación. A esta edad pesa más lo que hicieron en la fiesta que el tamaño de la bolsa, así que no hace falta gastar mucho."
 ---
 
-Tu hijo cumple 4 y ya tiene opinión sobre todo. Quiere dinosaurios, quiere a sus amigos del kínder y quiere que la **fiesta de 4 años** sea «de grandes». Tú quieres otra cosa: que nadie llore, que nadie se pierda y que la tarde no se te salga de las manos.
+Una **fiesta de 4 años** funciona mejor en tres horas o tres y media, dividida en bloques: llegada, dos rondas de juego, comida, pastel y salida. El [inflable Jungla para niños de 3 a 8 años](/inflables/mini-jungla/) encaja con un grupo de kínder: va solo en exterior y cuesta $1,600 netos. Combínalo con tres estaciones de juego y turnos cortos.
 
-Se puede tener las dos cosas. A esta edad los niños ya juegan con reglas, esperan turno si se lo explicas antes y funcionan como grupo. Eso facilita la tarde, siempre que la organices en bloques claros.
+**Puntos clave**
 
-Aquí tienes el plan: invitados, temática, cronograma, estaciones, turnos en el inflable y una checklist final.
+- A los 4 años ya juegan con reglas sencillas, pero se frustran con juegos de eliminación.
+- Tres estaciones más el inflable reparten al grupo y evitan filas.
+- Turnos de diez a quince minutos, por grupos fijos y con alarma en el celular.
+- Los hermanos de 2 años no entran al Jungla; los primos de 7 u 8 brincan en otro turno.
+- Los papás que se quedan son tu equipo de supervisión si les das horario.
 
-> **Respuesta rápida:** Una fiesta de 4 años funciona mejor en tres horas o tres y media, dividida en bloques: llegada, dos rondas de juego, comida, pastel y salida. El [inflable Jungla para niños de 3 a 8 años](/inflables/mini-jungla/) encaja con un grupo de kínder: mide 5 × 3 × 2.50 m, va sólo en exterior y cuesta $1,600 netos por evento. Combínalo con tres estaciones de juego y turnos cortos por grupo.
+Tu hijo cumple 4 y ya tiene opinión sobre todo: quiere dinosaurios, quiere a sus amigos del kínder y quiere que la fiesta sea «de grandes». Tú quieres que nadie llore, que nadie se pierda y que la tarde no se te salga de las manos. Se pueden tener las dos cosas si organizas la tarde en bloques claros. Aquí tienes el plan: invitados, temática, cronograma, estaciones, turnos y una checklist final.
 
 ## ¿Qué cambia en una fiesta de 4 años frente a la de 3?
 
-Cambia casi todo lo que tiene que ver con el juego. A los 3 años la fiesta gira alrededor de los adultos; a los 4, los niños ya funcionan como grupo, buscan actividades por su cuenta y quieren ganar. Tu papel pasa de acompañar de la mano a dirigir el tráfico. Y eso te deja respirar.
+Cambia casi todo lo que tiene que ver con el juego. A los 3 años la fiesta gira alrededor de los adultos; a los 4, los niños ya funcionan como grupo, buscan actividades por su cuenta y quieren ganar. Tu papel pasa de acompañar de la mano a dirigir el tráfico.
 
 ### Ya juegan con reglas
 
-Un niño de 4 años sigue una instrucción de dos pasos, espera su turno si se lo explicas antes y disfruta ganar. Eso abre la puerta a juegos que antes no funcionaban, como congelados, búsquedas por color o carreras cortas. Lo que todavía no aguantan son los juegos largos o de eliminación. Evita esos juegos por ahora. El que pierde y se queda sentado mirando termina llorando.
+Un niño de 4 años sigue una instrucción de dos pasos, espera su turno si se lo explicas antes y disfruta ganar. Eso abre la puerta a juegos que antes no funcionaban, como congelados, búsquedas por color o carreras cortas. Lo que todavía no aguantan son los juegos largos o de eliminación: el que pierde y se queda sentado mirando termina llorando.
 
 ### Todavía necesitan un adulto cerca
 
-Entender las reglas no significa cumplirlas cuando están emocionados. En el inflable, en la mesa y en los juegos necesitas una persona adulta que ordene, reparta turnos y detenga empujones. La diferencia con los 3 años es que ese adulto ya no carga a nadie. Sólo dirige.
+Entender las reglas no significa cumplirlas cuando están emocionados. En el inflable, en la mesa y en los juegos necesitas una persona adulta que ordene, reparta turnos y detenga empujones. La diferencia con los 3 años es que ese adulto ya no carga a nadie: solo dirige.
 
 ## ¿A quién invitas si el festejado va en 2.º de kínder?
 
@@ -61,7 +65,7 @@ Empieza por el salón, porque a esta edad el kínder es el centro de su vida soc
 
 ### Los compañeros del salón
 
-El festejado va a querer a sus amigos, y sus amigos van a hablar de la fiesta en clase. Prepárate, porque te van a preguntar en la puerta.
+El festejado va a querer a sus amigos, y sus amigos van a hablar de la fiesta en clase, así que conviene decidir la lista antes de que te pregunten en la puerta.
 
 #### Todo el grupo o sólo los cercanos
 
@@ -77,7 +81,7 @@ A los 4 años muchas familias no dejan al niño y se van: se quedan. Haz la cuen
 
 ## ¿Cómo dejas que tu hijo elija la temática sin perder el control?
 
-Dale a escoger entre tres opciones que tú puedas montar. Preguntarle «¿de qué quieres tu fiesta?» abre la puerta a cualquier cosa. Preguntarle «¿dinosaurios, princesas o piratas?» te deja decidir el presupuesto a ti y el tema a él. Todos ganan.
+Dale a escoger entre tres opciones que tú puedas montar. Preguntarle «¿de qué quieres tu fiesta?» abre la puerta a cualquier cosa. Preguntarle «¿dinosaurios, princesas o piratas?» te deja decidir el presupuesto a ti y el tema a él.
 
 Con tres opciones, tu hijo decide rápido. Lo que no conviene es elegir una temática y luego un inflable que no tenga nada que ver con ella. Esta tabla compara los modelos que mejor encajan con un grupo de 4 años, para que veas cuál cabe en tu espacio y en tu tema:
 
@@ -136,6 +140,8 @@ Esconde pelotas o tarjetas de colores por tu área de juego y asigna un color a 
 
 Carreras de diez metros, con salida y meta marcadas con cinta. Corren por parejas, no todos a la vez. Todos reciben una calcomanía al llegar, porque un premio sólo para el primero acaba en lágrimas.
 
+![Pasto de un jardín con línea de salida de cinta, conos pequeños, pelotas de colores escondidas y una hoja de calcomanías sobre una silla](/img/blog/fiesta-de-4-anos-ideas-inflable-cdmx/escena-1.avif "Cinta, conos y pelotas de colores: lo necesario para carreras cortas y búsquedas por color")
+
 ### Rincón tranquilo de cuentos
 
 Una manta en la sombra, cojines y un adulto leyendo en voz alta. Te va a parecer poca cosa. Pero a mitad de la fiesta siempre hay niños que necesitan bajar el ritmo, y si no tienen dónde, lo bajan llorando.
@@ -160,7 +166,7 @@ La supervisión es de una persona adulta durante todo el evento, en la entrada d
 
 ## ¿Qué necesitan los papás que se quedan toda la fiesta?
 
-Necesitan un lugar propio, algo de comer y una tarea concreta. Si la mitad de los adultos se queda, tu fiesta tiene dos públicos: los niños quieren juego y los adultos quieren dónde estar sin estorbar. Resuelve lo segundo. Te ayuda con lo primero.
+Necesitan un lugar propio, algo de comer y una tarea concreta. Si la mitad de los adultos se queda, tu fiesta tiene dos públicos: los niños quieren juego y los adultos quieren dónde estar sin estorbar. Si resuelves lo segundo, lo primero se facilita.
 
 - **Sombra y sillas lejos de la entrada del inflable.** Si los adultos se sientan junto a la entrada, los niños se distraen y salen corriendo hacia ellos.
 - **Una mesa propia con algo de comer y beber.** Lo que vayan a servir lo cotizas aparte con tus proveedores.
@@ -191,7 +197,7 @@ En el sur de la CDMX hay muchas casas con jardín o patio de tierra, y ahí el J
 
 Si estás en Coyoacán, los detalles de colonias y acceso los tienes en la página de [entregas de inflables en Coyoacán](/cobertura/coyoacan/). Para Xochimilco, revisa la [cobertura y el traslado en Xochimilco](/cobertura/xochimilco/); y si la fiesta es en Tláhuac, consulta [qué colonias de Tláhuac atendemos](/cobertura/tlahuac/).
 
-Un detalle del sur: de junio a septiembre es temporada de lluvias en el Valle de México y es común que llueva por la tarde. Si tu fiesta de 4 años cae en esa temporada, empieza temprano, a mediodía si puedes, y ten listo un techo para la comida y el pastel. El inflable no se usa con lluvia, así que conviene que los bloques de juego queden antes de la hora en que suele nublarse.
+Un detalle del sur: de junio a septiembre es temporada de lluvias en el Valle de México y es común que llueva por la tarde. Si tu fiesta de 4 años cae en esa temporada, empieza temprano, a mediodía si puedes, y ten listo un techo para la comida y el pastel. El inflable no se usa con lluvia, así que conviene que los bloques de juego queden antes de la hora en que suele nublarse; si la lluvia impide el evento, la fecha se reprograma sin costo.
 
 ## ¿Qué errores se repiten en una fiesta de 4 años?
 
@@ -206,7 +212,7 @@ Casi todos tienen que ver con el ritmo y con los turnos. Revisa esta lista una s
 
 ## ¿Qué incluye la checklist de una fiesta de 4 años?
 
-Incluye cuatro bloques de pendientes, ordenados por tiempo: lo que decides con semanas de margen, lo que cierras dos semanas antes, lo que confirmas la última semana y lo que revisas el mismo día. Imprímela y táchala conforme avances. Así no se te escapa nada.
+Incluye cuatro bloques de pendientes, ordenados por tiempo: lo que decides con semanas de margen, lo que cierras dos semanas antes, lo que confirmas la última semana y lo que revisas el mismo día. Imprímela y táchala conforme avances.
 
 ### Tres o cuatro semanas antes
 
@@ -231,7 +237,7 @@ Incluye cuatro bloques de pendientes, ordenados por tiempo: lo que decides con s
 
 El mismo cumpleaños se parece bastante a otros festejos del año escolar. Desde [el festejo del 30 de abril en kínder](/blog/dia-del-nino-inflables-escuela-empresa-cdmx/) hasta un [día de inflable en el curso de verano](/blog/curso-de-verano-con-inflable-cdmx/), la lógica de grupos y estaciones se repite.
 
-## Aparta el inflable para el cumpleaños número 4
+## Siguiente paso: aparta el inflable para el cumpleaños número 4
 
 Los fines de semana se llenan primero, y la disponibilidad se confirma por WhatsApp. ¿Ya tienes fecha? No lo dejes para la última semana. Mándanos estos datos y te contestamos con precio, disponibilidad y lo que necesita tu espacio:
 
@@ -243,4 +249,4 @@ Los fines de semana se llenan primero, y la disponibilidad se confirma por Whats
 
 La fecha se aparta con el 50% de anticipo. El precio es por evento y neto; si necesitas factura se agrega el 16% de IVA, y el traslado se cobra según zona. Atendemos de lunes a domingo de 8:00 a 20:00, y si algo cambia, revisa la [política de cancelación si cambia el cumpleaños](/politica-de-cancelacion/).
 
-Envía tus datos por la [cotización en línea del cumpleaños](/cotizar/) o escribe directo por [WhatsApp para apartar el Jungla](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Jungla%20para%20la%20fiesta%20de%204%20anos%20de%20mi%20hijo). También puedes comparar antes los [precios antes de cerrar el cumpleaños](/precios/).
+Envía tus datos por la [cotización en línea del cumpleaños](/cotizar/) o escribe directo por [WhatsApp para apartar el Jungla](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Jungla%20para%20la%20fiesta%20de%204%20anos%20de%20mi%20hijo). También puedes revisar la [lista de precios por modelo](/precios/) antes de cerrar el cumpleaños.

@@ -7,9 +7,9 @@ publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
 category: "Castillo Baby"
 author: "Equipo BRINCOLINS"
-readTime: "20 min"
-heroImage: "/img/inflables/mini-castillo.avif"
-heroImageAlt: "Castillo Baby, inflable para departamento y terraza, con torres de colores sobre pasto junto a árboles"
+readTime: "17 min"
+heroImage: "/img/blog/inflable-para-departamento-altura-techo-cdmx/portada.avif"
+heroImageAlt: "Sala de un departamento en la Ciudad de México con los sillones recorridos y una cinta métrica apoyada en la pared"
 galleryImages:
   - "/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif"
 intro:
@@ -36,19 +36,23 @@ faqs:
     answer: "Depende de las escaleras y del piso, y se confirma antes de apartar. Al cotizar dinos en qué piso es la fiesta, cómo son las escaleras y dónde puede estacionarse el equipo, y te confirmamos la maniobra antes de que pagues el anticipo."
 ---
 
-Imagina el sábado de la fiesta. El pastel espera en el refri, los primos vienen en camino y el equipo del inflable mira hacia arriba antes de abrir la lona. Si el techo no da, no hay instalación.
+Un inflable para departamento necesita, antes que piso, altura. El [Castillo Baby para espacios reducidos](/inflables/mini-castillo/) mide 2.5 × 2 × 2 m, es para niños de 1 a 3 años y pide 3.2 m de altura libre hasta el punto más bajo del techo. En un departamento típico de 2.3 a 2.7 m no se instala: la fiesta se mueve a la azotea, al patio común o a un salón.
 
-Por eso, antes de preguntar si un inflable para departamento cabe en tu sala, levanta la vista. En la Ciudad de México casi siempre sobra piso y falta techo. Aquí tienes cómo medir en cinco minutos, qué modelos entran bajo techo y cuál es tu plan B si no alcanza.
+**Puntos clave**
 
-> **Respuesta rápida:** Un inflable para departamento necesita, antes que piso, altura. El [Castillo Baby para espacios reducidos](/inflables/mini-castillo/) mide 2.5 × 2 × 2 m, es para niños de 1 a 3 años y pide 3.2 m de altura libre, medidos hasta el punto más bajo del techo. Un departamento típico tiene entre 2.3 y 2.7 m, así que ahí no se instala: la fiesta se mueve a la azotea, al patio común o a un salón con más altura.
+- Solo dos modelos van bajo techo, Castillo Baby y Gusanitos, y ambos piden 3.2 m libres.
+- Mide en tres puntos del área real, debajo de trabes, candiles y ventiladores, y quédate con la medida más baja.
+- Si no llegas a 3.2 m, cambia el lugar, no la fecha: azotea, patio común, jardín familiar o salón.
+- El motor trabaja todo el evento con una toma de 110 V a menos de 20 m; avisa a vecinos y administración.
+- Al cotizar indica piso, elevador y escaleras para confirmar la maniobra antes del anticipo.
+
+En la Ciudad de México casi siempre sobra piso y falta techo. Por eso, antes de preguntar si el inflable cabe en tu sala, levanta la vista. Aquí tienes cómo medir en cinco minutos, qué modelos entran bajo techo y cuál es tu plan B si no alcanza.
 
 ## ¿Por qué el techo de tu departamento decide antes que el piso?
 
 Porque tu piso casi siempre alcanza y tu techo casi nunca. El Castillo Baby ocupa 2.5 × 2 m de piso, algo que cabe en tu sala con los sillones recorridos. Lo que descarta la instalación es la altura libre de 3.2 m que pide su ficha, aunque inflado mida 2 m.
 
-No es un capricho. Es el margen para que el inflable tome su forma y trabaje sin rozar techo, lámparas ni ventilador mientras los niños brincan. Sin margen, no se instala. Aunque sobre piso.
-
-Piénsalo así: el piso te dice si cabe acostado y el techo te dice si cabe de pie. Un inflable trabaja de pie. ¿Ya ves por dónde va esto?
+Ese margen permite que el inflable tome su forma y trabaje sin rozar techo, lámparas ni ventilador mientras los niños brincan. Sin margen no se instala, aunque sobre piso. Piénsalo así: el piso te dice si cabe acostado y el techo te dice si cabe de pie, y un inflable trabaja de pie.
 
 ## ¿Qué altura tienen los techos de un departamento en CDMX?
 
@@ -62,7 +66,7 @@ Un departamento de interés social ronda los 2.3 a 2.4 m y uno estándar, de 2.4
 | Salón de usos múltiples o de fiestas | Variable | Se confirma midiendo | Se confirma midiendo |
 | Azotea o patio descubierto | Sin techo | Sí, con piso plano | Sí, con piso plano |
 
-La conclusión es incómoda, pero útil: en un departamento típico ninguno de los dos entra a la sala. Eso no cancela tu fiesta. La cambia de lugar.
+La conclusión es incómoda, pero útil: en un departamento típico ninguno de los dos entra a la sala. Eso no cancela tu fiesta: la cambia de lugar.
 
 ### Departamento de interés social o estándar
 
@@ -97,7 +101,7 @@ Sólo dos de los ocho modelos del catálogo se instalan bajo techo: el Castillo 
 | Castillo Blanco | 5 × 7 × 4 m | 4.7 m | No, sólo exterior |
 | Barco Pirata | 6 × 3.5 × 3.80 m | 5.2 m | No, sólo exterior |
 
-Los precios netos de todos están juntos en la [precios netos de cada modelo](/precios/), por si quieres comparar antes de escribirnos.
+Los [precios netos de cada modelo](/precios/) están juntos en una sola página, por si quieres comparar antes de escribirnos.
 
 ### Castillo Baby: el compacto para bebés
 
@@ -111,7 +115,7 @@ Los dos están juntos en la categoría de [inflables que se instalan bajo techo]
 
 ### Los seis que sólo van al aire libre
 
-Jungla, Castillo de Princesas, Dragones Rojos, Extremo, Castillo Blanco y Barco Pirata piden entre 4.2 y 5.2 m libres y se instalan sólo en exterior. Si alguien te propone meter uno bajo techo, di que no. No es un tema de gusto. Es de operación.
+Jungla, Castillo de Princesas, Dragones Rojos, Extremo, Castillo Blanco y Barco Pirata piden entre 4.2 y 5.2 m libres y se instalan sólo en exterior. Si alguien te propone meter uno bajo techo, di que no: es un tema de operación, no de gusto.
 
 > **Tu medida resuelve la cotización.** Mándanos la altura más baja que mediste y una foto del espacio; te decimos si el Castillo Baby entra y si tu fecha sigue libre. [Enviar mi medida por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20medi%20mi%20techo%20y%20quiero%20saber%20si%20cabe%20el%20Castillo%20Baby%20en%20mi%20departamento)
 
@@ -133,15 +137,17 @@ Si en el centro tienes 3.3 m y la trabe queda a 3 m, tu espacio útil es de 3 m.
 
 #### Lámparas y candiles
 
-Si tienes un candil colgante, te baja la altura justo donde más estorba: en el centro del cuarto. Mide hasta su parte más baja. ¿Se puede desmontar? Desmóntalo antes de la fiesta. Si no, el inflable va en otro lado.
+Si tienes un candil colgante, te baja la altura justo donde más estorba: en el centro del cuarto. Mide hasta su parte más baja. Si se puede desmontar, desmóntalo antes de la fiesta; si no, el inflable va en otro lado.
 
 #### Ventilador de techo
 
-Aunque esté apagado, las aspas ocupan espacio. Mide hasta la punta más baja, déjalo apagado y desconectado durante todo el evento y, si la medida no da, cambia el lugar. Sin negociar.
+Aunque esté apagado, las aspas ocupan espacio. Mide hasta la punta más baja, déjalo apagado y desconectado durante todo el evento y, si la medida no da, cambia el lugar.
+
+![Persona de espaldas midiendo con flexómetro la altura bajo una trabe en la sala de un departamento](/img/blog/inflable-para-departamento-altura-techo-cdmx/escena-1.avif "La medida útil es la del punto más bajo: trabes, candiles y aspas del ventilador.")
 
 ### Paso 3: manda el dato con foto
 
-Anota la medida más baja, toma una foto del espacio con los muebles recorridos y mándalas cuando pidas precio. Con eso confirmamos si cabe antes de que pagues nada. Así de simple.
+Anota la medida más baja, toma una foto del espacio con los muebles recorridos y mándalas cuando pidas precio. Con eso confirmamos si cabe antes de que pagues nada.
 
 ## ¿Qué hacer si tu departamento no llega a 3.2 metros?
 
@@ -212,6 +218,8 @@ Cinco datos bastan para planear la maniobra:
 - **Caseta y vigilancia.** Deja aviso con el nombre del servicio y la hora de llegada.
 - **Quién recibe.** Una persona adulta que conozca el lugar exacto y sepa dónde está el contacto.
 
+![Elevador de servicio abierto en el vestíbulo de un edificio de departamentos, con pasillo despejado hacia la salida](/img/blog/inflable-para-departamento-altura-techo-cdmx/escena-2.avif "Piso, elevador y escaleras: los datos que definen la maniobra de subida.")
+
 La instalación del Castillo Baby toma 15 minutos una vez que el equipo está arriba. La subida depende de tu edificio. Pide que lleguemos antes que los invitados, no con ellos.
 
 > **Cuéntanos cómo es tu edificio.** Piso, elevador y medida del techo bastan para confirmar la maniobra y apartar tu fecha sin vueltas. [Cotizar el Castillo Baby para mi edificio](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Castillo%20Baby%20para%20una%20fiesta%20en%20un%20edificio)
@@ -236,11 +244,11 @@ Para fiestas donde quienes brincan tienen de 1 a 3 años: primer y segundo cumpl
 
 ¿Vas a festejar el segundo año? La guía para [planear una fiesta de 2 años con siesta incluida](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) cubre horario, invitados y comida. ¿Dudas entre el Castillo Baby, el Gusanitos y el Castillo de Princesas? La [comparativa de inflables para menores de 3 años](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) pone los tres lado a lado.
 
-Antes de mandarnos tu medida, revisa las fotos y medidas del Castillo Baby. Tendrás todo a la vista para decidir. Y si te queda una duda general, las [respuestas sobre la renta de inflables](/preguntas-frecuentes/) suelen resolverla.
+Antes de mandarnos tu medida, revisa las fotos y medidas del Castillo Baby en su ficha. Si te queda una duda general, las [respuestas sobre la renta de inflables](/preguntas-frecuentes/) suelen resolverla.
 
 ## Aparta el Castillo Baby para tu fiesta en casa
 
-Los fines de semana se llenan y la disponibilidad se confirma por WhatsApp. Si ya mediste, estás a un mensaje de saber si cabe. Para cotizar rápido, mándanos esto:
+Los fines de semana se llenan y la disponibilidad se confirma por WhatsApp. Si ya mediste, con un mensaje sabes si cabe. Para cotizar rápido, mándanos esto:
 
 - La fecha y la hora en que empieza la fiesta.
 - La alcaldía o el municipio, y la colonia.

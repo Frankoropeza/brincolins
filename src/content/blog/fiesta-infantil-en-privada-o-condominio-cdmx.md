@@ -1,5 +1,5 @@
 ---
-title: "Fiesta infantil en condominio: 7 pasos para el área común"
+title: "Fiesta infantil en condominio: permiso, luz y área común"
 h1: "Fiesta infantil en condominio, privada o unidad habitacional: permisos, corriente, vecinos e inflable en el área común"
 description: "Fiesta infantil en condominio o privada en CDMX: qué pedir a la administración, qué área común sirve, corriente, camioneta y vecinos. Cotiza tu inflable."
 excerpt: "El jardín común está a unos pasos, pero no es sólo tuyo. Resuelve permiso, corriente, acceso y vecinos antes de apartar, y el día de la fiesta sólo te ocupas de los niños."
@@ -7,7 +7,7 @@ publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
 category: "Dragones Rojos"
 author: "Equipo BRINCOLINS"
-readTime: "18 min"
+readTime: "14 min"
 heroImage: "/img/inflables/dragones-rojos/dragones-frontal-centrado.avif"
 heroImageAlt: "Dragones Rojos visto de frente dentro de un salón, con resbaladilla verde y torres amarilla y azul"
 galleryImages:
@@ -35,17 +35,20 @@ faqs:
     answer: "Sí, y puede ayudar con los vecinos, siempre que respeten el rango de edad del modelo y los turnos. El Dragones Rojos es para niños de 3 a 8 años. La capacidad se confirma al cotizar y una persona adulta supervisa la entrada durante todo el evento."
 ---
 
-El jardín común está a veinte pasos de tu puerta. Tiene pasto, sombra y espacio de sobra. Sólo hay un detalle. No es tuyo.
+Para una fiesta infantil en condominio con inflable necesitas permiso de la administración, el área común reservada desde la instalación hasta la recolección, una toma de 110 V a menos de 20 m y una superficie plana. Pide la autorización por escrito antes de pagar el anticipo y avisa a caseta y a los vecinos con tiempo.
 
-Una fiesta infantil en condominio sale bien cuando resuelves con tiempo cuatro cosas que no dependen del inflable: el permiso, la corriente, el acceso de la camioneta y los vecinos. Con eso listo, el día de la fiesta sólo te ocupas de los niños.
+**Puntos clave**
 
-Aquí tienes el orden exacto que te conviene seguir, con el Dragones Rojos como ejemplo de inflable mediano para áreas comunes.
+- Primero el permiso, después el anticipo: si lo haces al revés puedes quedarte con un inflable apartado y sin lugar.
+- Reserva el área para la instalación, la fiesta y la recolección, no solo para la hora de la invitación.
+- La toma de corriente casi siempre la controla la administración: confirma dónde está y quién la enciende.
+- El Dragones Rojos mide 5 × 3 × 2.80 m, es solo de exterior y pide 4.5 m de altura libre; revisa sus [requisitos de instalación](/inflables/dragones-rojos/).
 
-> **Respuesta rápida:** Para una fiesta infantil en condominio con inflable necesitas permiso de la administración, el área común reservada desde la instalación hasta la recolección, una toma de 110 V a menos de 20 m y una superficie plana. El Dragones Rojos mide 5 × 3 × 2.80 m, es sólo de exterior y pide 4.5 m de altura libre; revisa sus [requisitos de instalación](/inflables/dragones-rojos/) antes de hablar con la administración.
+El jardín común está a veinte pasos de tu puerta y tiene pasto, sombra y espacio de sobra, pero no es solo tuyo. Por eso la fiesta sale bien cuando resuelves con tiempo cuatro cosas que no dependen del inflable: el permiso, la corriente, el acceso de la camioneta y los vecinos. Este es el orden que conviene seguir, con el Dragones Rojos como ejemplo de inflable mediano para áreas comunes.
 
 ## ¿Se permite una fiesta infantil en condominio con inflable?
 
-En muchos conjuntos sí puedes, siempre que el reglamento interno lo permita y la administración autorice el uso del área común. El inflable casi nunca es el problema. Tu reto es otro. Lo que tienes que cuidar es que el lugar cumpla los requisitos de instalación y que el resto de los condóminos no salga afectado.
+En muchos conjuntos sí puedes, siempre que el reglamento interno lo permita y la administración autorice el uso del área común. El inflable casi nunca es el problema; lo que tienes que cuidar es que el lugar cumpla los requisitos de instalación y que el resto de los condóminos no salga afectado.
 
 Para el Dragones Rojos los requisitos son concretos, y te conviene llevarlos anotados a la conversación con la administración:
 
@@ -67,11 +70,11 @@ Tres cosas: el reglamento interno, la reserva del área común y las condiciones
 
 ### El reglamento interno
 
-Pide una copia o pregunta directo qué dice sobre fiestas, áreas comunes, horarios y juegos inflables. Cada conjunto tiene sus reglas. Tú vives con las tuyas. No supongas que lo que se permitió en la fiesta del vecino aplica para la tuya.
+Pide una copia o pregunta directo qué dice sobre fiestas, áreas comunes, horarios y juegos inflables. Cada conjunto tiene sus reglas, así que no supongas que lo que se permitió en la fiesta del vecino aplica para la tuya.
 
 ### La reserva del área común
 
-En muchos conjuntos el jardín, la terraza o la explanada se reservan con anticipación, a veces con un formato o un depósito. Aparta el área para todo el tiempo que necesitas: la instalación antes de que lleguen los invitados, la fiesta y la recolección al final. No reserves sólo la hora de la invitación. Te quedas corto.
+En muchos conjuntos el jardín, la terraza o la explanada se reservan con anticipación, a veces con un formato o un depósito. Aparta el área para todo el tiempo que necesitas: la instalación antes de que lleguen los invitados, la fiesta y la recolección al final. Si reservas solo la hora de la invitación, te quedarás corto.
 
 ### Un mensaje para pedir el permiso
 
@@ -91,11 +94,11 @@ Te lo decimos claro: no ofrecemos seguro de responsabilidad civil. Si el reglame
 
 #### Si te piden datos del personal
 
-Algunas casetas registran a todo el que entra. Pasa en muchos conjuntos. Pide al cotizar los datos que te solicite la administración y compártelos con la caseta un día antes. Así nadie espera en la pluma.
+Muchas casetas registran a todo el que entra. Pide al cotizar los datos que te solicite la administración y compártelos con la caseta un día antes. Así nadie espera en la pluma.
 
 #### Si te piden depósito o limpieza del área
 
-Pregunta en qué condiciones se entrega el área y cómo se devuelve. La instalación y la recolección del inflable están incluidas. La limpieza de comida, basura y decoración corre por tu cuenta. Tenlo en tu lista.
+Pregunta en qué condiciones se entrega el área y cómo se devuelve. La instalación y la recolección del inflable están incluidas. La limpieza de comida, basura y decoración corre por tu cuenta.
 
 ¿Es la primera vez que rentas? Repasa también [lo que nadie te dice al rentar un inflable por primera vez](/blog/como-rentar-inflable-brincolins-proceso-paso-a-paso/): anticipo, supervisión y clima en una lectura corta.
 
@@ -113,13 +116,13 @@ Te sirven el jardín con pasto, el pasto sintético y el adoquín o concreto pla
 | Estacionamiento | Depende | Que la administración lo cierre a los autos durante la fiesta |
 | Área con pendiente | Depende | El instalador decide en sitio si se puede nivelar |
 
-Si el único espacio disponible es techado, el [Gusanitos, circuito de túneles apto para interiores](/inflables/gusanitos/), recibe niños de 2 a 8 años. Para bebés en un salón pequeño está el [Castillo Baby de 2.5 × 2 m](/inflables/mini-castillo/). Así no pierdes tu fiesta por el clima ni por el reglamento. Tienes plan B.
+Si el único espacio disponible es techado, el [Gusanitos, circuito de túneles apto para interiores](/inflables/gusanitos/), recibe niños de 2 a 8 años. Para bebés en un salón pequeño está el [Castillo Baby de 2.5 × 2 m](/inflables/mini-castillo/). Así tienes plan B y no pierdes la fiesta por el clima ni por el reglamento.
 
 ### Pasto sintético y adoquín, los pisos de las privadas nuevas
 
 Son los pisos más comunes en privadas recientes. ¿Es tu caso? Los dos sirven, pero cambia el anclaje: en pasto natural se usan estacas; en superficies duras, lastre o sacos. En pasto sintético depende de lo que permita la administración. El detalle de cada piso está en la guía de [anclaje sobre pasto sintético, adoquín o cemento](/blog/donde-instalar-inflable-pasto-cemento-tierra/).
 
-> **Ya tienes el permiso. Sigue la fecha.** Mándanos fotos del área común y la fecha que te autorizaron, y te confirmamos si el Dragones Rojos entra y está libre. [Mandar fotos del área común](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20el%20Dragones%20Rojos%20para%20una%20fiesta%20en%20el%20area%20comun%20de%20mi%20condominio)
+> **¿Ya tienes el permiso?** Mándanos por WhatsApp fotos del área común y la fecha que te autorizaron, y te confirmamos si el Dragones Rojos entra y está libre.
 
 ## ¿Quién te da la corriente en el área común?
 
@@ -135,7 +138,7 @@ Antes de la fiesta confirma tres cosas, y anótalas en el chat con la administra
 
 El inflable se mantiene armado gracias al motor. Si la corriente se corta, pierde aire poco a poco. La persona adulta que supervisa tiene que saber qué hacer: sacar a los niños con calma, uno por uno, y no dejar que nadie vuelva a entrar hasta que el motor funcione de nuevo.
 
-Ten a la mano el teléfono de quien abre el tablero. Guárdalo hoy. Si la toma del área común comparte circuito con la iluminación del jardín o la bomba de agua, pregunta si aguanta otro equipo; la guía sobre [el consumo de luz del inflable y qué extensión usar](/blog/cuanta-luz-consume-un-inflable-contacto-extension/) te ayuda a hacer la pregunta con datos. ¿La toma más cercana está a más de 20 m? Avísalo al cotizar con una foto. Es mejor resolverlo antes que con los invitados llegando.
+Ten a la mano el teléfono de quien abre el tablero. Si la toma del área común comparte circuito con la iluminación del jardín o la bomba de agua, pregunta si aguanta otro equipo; la guía sobre [el consumo de luz del inflable y qué extensión usar](/blog/cuanta-luz-consume-un-inflable-contacto-extension/) te ayuda a hacer la pregunta con datos. ¿La toma más cercana está a más de 20 m? Avísalo al cotizar con una foto. Es mejor resolverlo antes que con los invitados llegando.
 
 ## ¿Por dónde entra y dónde se estaciona la camioneta?
 
@@ -143,33 +146,33 @@ Por el acceso vehicular, con tu aviso previo en caseta y, si se puede, un cajón
 
 ### Caseta, pluma y cajón de visitas
 
-Avisa en caseta el día y la hora aproximada de llegada. Si el acceso tiene pluma o altura limitada, menciónalo al cotizar. Pregunta a la administración si puedes apartar un cajón de visitas para la descarga y la recolección. Te ahorra vueltas.
+Avisa en caseta el día y la hora aproximada de llegada. Si el acceso tiene pluma o altura limitada, menciónalo al cotizar. Pregunta a la administración si puedes apartar un cajón de visitas para la descarga y la recolección. Eso te ahorra vueltas.
 
 ### Del estacionamiento al jardín
 
-Si el área común queda lejos del estacionamiento, con escaleras o pasillos estrechos, compártelo al cotizar con fotos del recorrido. No es un impedimento. Sí cambia la planeación del equipo, y por eso te pedimos las fotos. Una vez en el área, la instalación del Dragones Rojos toma 20 minutos.
+Si el área común queda lejos del estacionamiento, con escaleras o pasillos estrechos, compártelo al cotizar con fotos del recorrido. No es un impedimento, pero sí cambia la planeación del equipo. Una vez en el área, la instalación del Dragones Rojos toma 20 minutos.
 
 ![Dragones Rojos inflado junto a paredes blancas sobre piso de madera, con torres naranja, azul y verde](/img/inflables/dragones-rojos/dragones-inflable-corporativo.avif)
 
 ## ¿Cómo cuidar el horario y el ruido con tus vecinos?
 
-Respeta el horario que fija tu reglamento, incluida la recolección, y avisa a los vecinos con una semana de anticipación. El motor se escucha mientras está encendido y una fiesta con niños siempre hace ruido. Si tus vecinos lo saben desde antes, casi nadie se queja. Avisar cuesta poco.
+Respeta el horario que fija tu reglamento, incluida la recolección, y avisa a los vecinos con una semana de anticipación. El motor se escucha mientras está encendido y una fiesta con niños siempre hace ruido. Si tus vecinos lo saben desde antes, casi nadie se queja.
 
 ### El aviso de una semana antes
 
-Un mensaje en el grupo del condominio o una nota en la puerta de los departamentos más cercanos evita la mayoría de los problemas. Di la fecha, el horario de inicio y de fin y en qué área será. ¿Hay vecinos con niños de la edad? Invítalos. Cambia por completo el tono de la conversación.
+Un mensaje en el grupo del condominio o una nota en la puerta de los departamentos más cercanos evita la mayoría de los problemas. Di la fecha, el horario de inicio y de fin y en qué área será. Si hay vecinos con niños de la edad, invítalos: cambia por completo el tono de la conversación.
 
 ### Música a volumen de conversación
 
-Si vas a poner música, mantenla a un volumen que no obligue a gritar. Una regla práctica: si desde la puerta del departamento más cercano se entiende la letra, está alta. Bájale.
+Si vas a poner música, mantenla a un volumen que no obligue a gritar. Una regla práctica: si desde la puerta del departamento más cercano se entiende la letra, está alta.
 
 ### Fin de semana o entre semana
 
-Los sábados y domingos el área común suele estar más solicitada, igual que el inflable. Si tu conjunto reserva por orden de llegada, aparta el área primero. Luego escríbenos. Una tarde entre semana tiene menos competencia por el espacio, aunque los invitados del kínder llegan más tarde. Si tu fecha cae en temporada alta, revisa [con cuánta anticipación conviene reservar el inflable](/blog/cuando-reservar-inflable-temporadas-cdmx/).
+Los sábados y domingos el área común suele estar más solicitada, igual que el inflable. Si tu conjunto reserva por orden de llegada, aparta el área primero y luego escríbenos. Una tarde entre semana tiene menos competencia por el espacio, aunque los invitados del kínder llegan más tarde. Si tu fecha cae en temporada alta, revisa [con cuánta anticipación conviene reservar el inflable](/blog/cuando-reservar-inflable-temporadas-cdmx/).
 
 ## ¿Cambia algo entre privada, condominio vertical y unidad habitacional?
 
-La lógica es la misma en los tres, pero cambian los detalles: quién autoriza, dónde está la corriente y cuántos vecinos se enteran. Ubica tu caso. Luego ajusta tu lista de pendientes antes de hablar con la administración.
+La lógica es la misma en los tres, pero cambian los detalles: quién autoriza, dónde está la corriente y cuántos vecinos se enteran. Ubica tu caso y ajusta tu lista de pendientes antes de hablar con la administración.
 
 - **Privada de casas:** suele haber calle interior, jardín común y una administración pequeña. El permiso sale rápido; el reto es la corriente si el jardín no tiene toma propia.
 - **Condominio vertical:** el área común puede ser un roof garden o un jardín en planta baja. En azoteas, confirma con la administración si se permite el inflable y revisa la altura libre.
@@ -187,11 +190,11 @@ En municipios como Tecámac, Ecatepec, Cuautitlán Izcalli y Tultitlán hay much
 
 Con la dirección exacta del conjunto confirmamos el costo al cotizar.
 
-> **Tu fiesta en el jardín común, sin enredos.** Cuéntanos qué tipo de conjunto es y dónde está la toma de corriente, y te decimos qué falta antes de apartar. [Revisar mi caso por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20vivo%20en%20una%20privada%20y%20quiero%20saber%20si%20cabe%20el%20Dragones%20Rojos%20en%20el%20area%20comun)
+> **¿No sabes si tu conjunto cumple?** Cuéntanos qué tipo de conjunto es y dónde está la toma de corriente, y te decimos qué falta antes de apartar.
 
 ## ¿Qué olvidos tiran una fiesta en área común?
 
-Pagar el anticipo antes del permiso, reservar sólo la hora de la fiesta y no confirmar quién enciende la corriente encabezan la lista. Revísala una semana antes. Cada punto lleva su motivo para que sepas qué cuidar tú:
+Pagar el anticipo antes del permiso, reservar sólo la hora de la fiesta y no confirmar quién enciende la corriente encabezan la lista. Revisa esta lista una semana antes; cada punto lleva su motivo para que sepas qué cuidar tú:
 
 - **Pagar el anticipo antes de tener el permiso.** Si la administración dice que no, te quedas con una fecha apartada y sin lugar.
 - **Reservar el área sólo para la hora de la fiesta.** La instalación y la recolección también ocupan el espacio y el horario.
@@ -201,9 +204,11 @@ Pagar el anticipo antes del permiso, reservar sólo la hora de la fiesta y no co
 - **No avisar a los vecinos del horario.** Un aviso a tiempo evita quejas a media fiesta.
 - **Dejar el inflable sin una persona adulta.** La supervisión desde fuera es obligatoria durante todo el evento.
 
+![Jardín común de una privada con caseta y calle interior al fondo, preparado para una fiesta infantil](/img/blog/fiesta-infantil-en-privada-o-condominio-cdmx/escena-1.avif "Con el permiso por escrito, la toma ubicada y los vecinos avisados, el área común queda lista para la fiesta.")
+
 Para los días previos y el clima, la [guía paso a paso de la fiesta en jardín](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/) complementa esta lista. Si el festejado cumple 5, mira también [el plan de juegos y turnos para niños de 5 años](/blog/fiesta-de-5-anos-ideas-juegos-cdmx/). ¿Quieres resolver mesa y actividad con un solo proveedor? Revisa el [paquete fiesta de $2,800 con mesa y pintacaritas](/servicios/paquetes-de-fiesta/).
 
-¿Dudas entre modelos por la altura del área? Las [diferencias de altura e interiores entre Dragones Rojos, Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/) te ayudan a decidir, y la [categoría de inflables medianos](/inflables/medianos/) reúne los modelos de ese tamaño. Si quieres ambientar el jardín común con temática, tienes ideas para una fiesta medieval con dragones.
+¿Dudas entre modelos por la altura del área? Las [diferencias de altura e interiores entre Dragones Rojos, Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/) te ayudan a decidir, y la [categoría de inflables medianos](/inflables/medianos/) reúne los modelos de ese tamaño. Si quieres ambientar el jardín común con temática, revisa las ideas para una [fiesta de dragones y caballeros](/blog/fiesta-de-dragones-y-caballeros-ideas/).
 
 ## Cotiza tu fiesta en el área común del condominio
 
@@ -215,6 +220,6 @@ En cuanto tengas el permiso, aparta la fecha: los fines de semana se llenan y la
 - Las edades y la cantidad aproximada de niños.
 - Dónde está la toma de corriente y a qué distancia queda.
 
-La fecha se aparta con 50% de anticipo. El precio es por evento y neto; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Revisa las [condiciones de cancelación y cambio de fecha](/politica-de-cancelacion/) por si la administración mueve algo, o consulta la ficha técnica del inflable Dragones Rojos.
+La fecha se aparta con 50% de anticipo. El precio es por evento y neto; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Revisa las [condiciones de cancelación y cambio de fecha](/politica-de-cancelacion/) por si la administración mueve algo.
 
 Usa el [formulario de cotización](/cotizar/) o [escríbenos con las fotos del área común](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20ya%20tengo%20permiso%20del%20condominio%20y%20quiero%20cotizar%20el%20Dragones%20Rojos). Atendemos de lunes a domingo de 8:00 a 20:00.

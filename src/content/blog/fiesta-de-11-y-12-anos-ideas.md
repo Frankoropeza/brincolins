@@ -36,17 +36,21 @@ faqs:
     answer: "La renta neta del Barco Pirata es de $2,300 por evento. La instalación, el motor y la recolección están incluidos. El traslado depende de la colonia o municipio, y si requieres factura se agrega el 16% de IVA. Confirma disponibilidad, acceso y el espacio de instalación antes de apartar la fecha."
   - question: "¿Cuánto tiempo debe durar una fiesta para niños de 11 y 12 años?"
     answer: "Una fiesta de tres a cuatro horas permite alternar llegada, actividad principal, comida o pastel y un segundo bloque de juego sin saturar la tarde. No es necesario programar cada minuto: deja pausas para que hablen entre ellos. Ajusta los bloques a tu horario, a la luz natural y a la hora acordada de recolección."
-  - question: "¿Se puede poner música durante una fiesta con inflable?"
-    answer: "Sí, si la bocina queda fuera del perímetro de entrada y salida del inflable, con cables protegidos y volumen considerado con los vecinos. La música sirve para las pausas y las dinámicas, pero no sustituye las reglas de uso. Una persona adulta debe seguir pendiente de los turnos y del tobogán."
   - question: "¿Qué se necesita para instalar el Barco Pirata en CDMX?"
-    answer: "Se necesita un área exterior plana y despejada, sin vidrio ni objetos punzantes, una toma de corriente de 110 V a menos de 20 metros y 5.2 metros de altura libre. También hay que revisar la ruta desde el vehículo hasta el jardín. El espacio final y la capacidad se confirman al cotizar."
+    answer: "Se necesita un área exterior plana y despejada, sin vidrio ni objetos punzantes, una toma de corriente de 110 V a menos de 20 metros y 5.2 metros de altura libre. También hay que revisar la ruta desde el vehículo hasta el jardín y que la bocina y los cables queden fuera del acceso al inflable. El espacio final y la capacidad se confirman al cotizar."
 ---
 
-Planear una **fiesta de 12 años** pide una idea distinta a la de un cumpleaños de primaria baja. El grupo quiere tener voz: decidir equipos, elegir una canción para el descanso o resolver una pista sin que alguien les dé la respuesta. Al mismo tiempo, dejar todo libre suele terminar con invitados dispersos y una actividad que se apaga demasiado pronto.
+Para una **fiesta de 12 años** (o de 11), arma dos retos de 20 a 30 minutos, deja una pausa larga para comida y conversación, y cierra con una actividad elegida por el grupo. El Barco Pirata funciona si el jardín es exterior y tiene 5.2 m de altura libre; si la prioridad son las carreras, compara el Extremo.
 
-La solución es una tarde con pocos bloques, pero bien escogidos. Un inflable grande puede funcionar como punto de reunión si el modelo corresponde al espacio y a lo que quiere el festejado. El Barco Pirata ofrece tobogán, zona de brinco y una historia para convertirlo en puerto, base o meta; no hace falta llenar el jardín de decoración para que se entienda la dinámica.
+**Puntos clave**
 
-> **Respuesta rápida:** para una fiesta de 11 o 12 años, arma dos retos de 20 a 30 minutos, deja una pausa larga para comida y conversación, y cierra con una actividad elegida por el grupo. El Barco Pirata inflable con tobogán funciona si el jardín es exterior, tiene 5.2 m de altura libre y las edades están entre 3 y 12 años. Si la prioridad son carreras, compara el Extremo antes de decidir.
+- A esta edad quieren tener voz: decidir equipos, estrategia y música.
+- Los retos funcionan si se entienden en menos de un minuto y terminan antes de perder ritmo.
+- El Barco Pirata ($2,300) es para 3 a 12 años y pide 5.2 m de altura libre; el Extremo pide 8 m de largo.
+- Los invitados de 12 no comparten turno con primos pequeños.
+- Tres a cuatro horas bastan para alternar llegada, reto, comida y cierre activo.
+
+Una fiesta de esta edad pide una idea distinta a la de un cumpleaños de primaria baja. Dejar todo libre suele terminar con invitados dispersos y una actividad que se apaga pronto; llenar cada minuto los aburre. La solución es una tarde con pocos bloques, bien escogidos, y un inflable que funcione como punto de reunión si corresponde al espacio y a lo que quiere el festejado.
 
 ## ¿Qué espera un grupo en una fiesta de 11 y 12 años?
 
@@ -85,6 +89,8 @@ El truco está en poner un reto que sea claro en menos de un minuto y terminarlo
 | Relevo de objetos | Conos o marcas en el jardín, sin correr hacia el tobogán | 15 minutos | El barco queda fuera de la carrera y se usa después por turnos |
 | Mapa de misión | Cuatro pistas con una decisión en cada estación | 30 minutos | El barco es la base final, no el único juego de la tarde |
 
+![Mesa de jardín con sobres numerados, un mapa dibujado a mano, pulseras de colores y un cofre de cartón listos para un reto por equipos](/img/blog/fiesta-de-11-y-12-anos-ideas/escena-1.avif "Sobres con pistas, mapa y pulseras por equipo: el material de un reto de coordenadas")
+
 La [búsqueda del tesoro para una fiesta pirata](/blog/fiesta-pirata-infantil-tobogan-cdmx/) desarrolla el cuarto formato con pistas por edad y una secuencia para terminar en el inflable. Para que sea una fiesta mixta y no una historia asignada por adultos, puedes repartir papeles como cartógrafa, capitán, vigía o guardiana del cofre; la guía de [fiesta pirata para niñas y niños](/blog/fiesta-de-sirenas-y-piratas-con-inflable/) da más ideas de roles que no dependen del género.
 
 ## ¿Cuándo sigue funcionando el Barco Pirata a los 11 o 12 años?
@@ -121,7 +127,7 @@ Si el plan se trata de sumar puntos por carrera, empieza por la [guía del circu
 
 Una fiesta de 12 años suele tener más música y conversación que una de 6, pero la bocina, los cables y la mesa de comida deben quedar fuera del área de acceso. Deja un pasillo libre hacia el inflable y coloca vasos, botanas y pastel en una zona distinta. Así no cruzan quienes brincan con quienes están sirviéndose.
 
-Para elegir música, pregunta al festejado por una lista breve y fija un volumen que permita que el adulto encargado escuche lo que ocurre en el juego. El objetivo no es convertir el inflable en pista de baile, sino usar la música para las pausas y la llegada. Si el clima se complica, se suspende el uso: el Barco Pirata es seco y no se utiliza con lluvia, granizo o viento fuerte. Revisa las [condiciones de cambio de fecha por lluvia](/politica-de-cancelacion/) antes de la fiesta, sobre todo si no cuentas con un plan alterno bajo techo.
+Para elegir música, pregunta al festejado por una lista breve y fija un volumen que permita que el adulto encargado escuche lo que ocurre en el juego. El objetivo no es convertir el inflable en pista de baile, sino usar la música para las pausas y la llegada. Si el clima se complica, se suspende el uso: el Barco Pirata es seco y no se utiliza con lluvia, granizo o viento fuerte. Si la lluvia impide el evento, la fecha se reprograma sin costo; revisa las [condiciones de cambio de fecha por lluvia](/politica-de-cancelacion/) antes de la fiesta, sobre todo si no cuentas con un plan alterno bajo techo.
 
 ## ¿Qué cambia si la fiesta de 12 años es en CDMX?
 
@@ -146,7 +152,7 @@ En el norponiente del Estado de México es común que la fiesta sea en una casa 
 
 Para [fiestas en Atizapán de Zaragoza](/cobertura/atizapan/), el envío publicado va de $200 a $300 según la colonia. Para un terreno o casa en [Nicolás Romero y sus alrededores](/cobertura/nicolas-romero/), va de $250 a $400. En ambos casos, con fotos del jardín te decimos antes de apartar si el Barco Pirata cabe o si conviene el Extremo.
 
-## Errores comunes en fiestas de 11 y 12 años
+## ¿Qué errores son comunes en fiestas de 11 y 12 años?
 
 Casi todos vienen de planear con la cabeza de una fiesta de 6 años:
 
@@ -169,8 +175,8 @@ Una buena fiesta de 12 años se nota cuando la persona que cumple años reconoce
 
 Con esas respuestas puedes ajustar cada estación al grupo y evitar copiar un programa pensado para niños menores. Si ya confirmaste jardín, acceso y modelo, pide el total con traslado y factura, si la necesitas, desde el primer contacto.
 
-## ¿Cómo cierras la planeación de una fiesta de 12 años?
+## Siguiente paso: confirma el espacio y cotiza
 
-El último paso no es comprar más adornos: es validar que la actividad elegida cabe, que el grupo podrá usarla de forma ordenada y que el día tendrá pausas. El Barco Pirata cuesta $2,300 netos por evento; instalación, motor y recolección forman parte del servicio. Si necesitas factura, se agrega IVA, y el traslado se confirma según tu zona.
+El último paso no es comprar más adornos: es validar que la actividad elegida cabe, que el grupo podrá usarla de forma ordenada y que el día tendrá pausas. El Barco Pirata cuesta $2,300 netos por evento; instalación, motor y recolección forman parte del servicio. Si necesitas factura se agrega 16% de IVA, el traslado se confirma según tu zona y la fecha se aparta con 50% de anticipo.
 
-Ten listos fecha, horario, colonia, fotos del jardín, medidas de largo, ancho y altura libre, además de las edades aproximadas de quienes jugarán. Con esa información puedes [cotizar el Barco Pirata para una fiesta de 12 años](/cotizar/) y confirmar si este modelo o el Extremo encaja mejor con la tarde que quiere el festejado.
+Ten listos fecha, horario, colonia, fotos del jardín, medidas de largo, ancho y altura libre, además de las edades aproximadas de quienes jugarán. Con esa información puedes [cotizar el Barco Pirata para una fiesta de 12 años](/cotizar/) o [mandar las fotos por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Barco%20Pirata%20para%20una%20fiesta%20de%2012%20a%C3%B1os), de lunes a domingo de 8:00 a 20:00, y confirmar si este modelo o el Extremo encaja mejor.

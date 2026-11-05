@@ -1,13 +1,13 @@
 ---
-title: "Fiesta ninja: 4 estaciones y un circuito como prueba final"
+title: "Fiesta ninja con circuito de obstáculos: guía por estaciones"
 h1: "Fiesta ninja con circuito de obstáculos: entrenamiento por estaciones, cintas por nivel y diplomas"
-description: "Fiesta ninja para niños de 3 a 12 años: estaciones de entrenamiento, cintas de colores, decoración negro y rojo y el circuito Extremo como prueba final."
+description: "Fiesta ninja de 3 a 12 años: estaciones de entrenamiento, cintas por nivel, decoración negro y rojo y un circuito inflable como prueba final. Cotiza fácil."
 excerpt: "Bandas en la frente, cintas de colores y un circuito de 8 metros como examen final. Así armas una fiesta ninja que engancha igual a un niño de 4 que a uno de 11."
 publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
 category: "Extremo"
 author: "Equipo BRINCOLINS"
-readTime: "19 min"
+readTime: "16 min"
 heroImage: "/img/inflables/extremo/extremo-carrera-cdmx.avif"
 heroImageAlt: "Frente del Extremo para una fiesta ninja: túneles de colores, tobogán azul y arcos morados sobre pasto"
 galleryImages:
@@ -37,13 +37,17 @@ faqs:
     answer: "No. El Extremo es para niños de 3 a 12 años y BRINCOLINS no renta inflables para adultos. Los papás tienen el papel más divertido de la tarde: son los senseis que dan la salida, cronometran, cuidan la fila y entregan las cintas desde fuera del inflable."
 ---
 
-Imagina a tu hijo de 7 años con una banda roja en la frente, serio como si fuera a presentar examen, esperando su turno para la prueba final. Eso logra una fiesta ninja: nadie llega a «jugar», todos llegan a ganarse un rango.
+Una fiesta ninja se arma como un entrenamiento: cuatro estaciones (equilibrio, puntería, sigilo y agilidad), una cinta de color por cada estación superada y una prueba final en un circuito de obstáculos inflable. Funciona de 3 a 12 años si separas los turnos por edad, y se cierra con diplomas y la entrega de la cinta negra.
 
-La temática funciona porque le da a cada invitado algo que conseguir: una cinta, un tiempo, un diploma con su nombre. Si la armas como entrenamiento con niveles, el circuito de obstáculos deja de ser un juego más. Se vuelve la prueba que todos quieren pasar.
+**Puntos clave**
 
-Aquí tienes el plan completo, estación por estación, con las cintas, la decoración, los turnos por edad y el cierre con diplomas.
+- Cada estación vale una cinta; la negra solo se gana al completar el circuito.
+- Las estaciones se arman con material de papelería y un adulto como sensei en cada una.
+- El [circuito de obstáculos Extremo](/inflables/extremo/) mide 8 × 4.5 × 3.50 m, pide 4.5 m de altura libre y cuesta $2,500 netos por evento.
+- Tres grupos por edad (3 a 5, 6 a 8 y 9 a 12 años), cada uno con su turno y su meta.
+- El cronómetro es solo para los grandes; para los pequeños, la meta es terminar.
 
-> **Respuesta rápida:** Una fiesta ninja se arma como un entrenamiento: cuatro estaciones (equilibrio, puntería, sigilo y agilidad), una cinta de color por estación y una prueba final en el [circuito de obstáculos Extremo](/inflables/extremo/). Funciona de 3 a 12 años con turnos separados por edad. El Extremo cuesta $2,500 neto por evento, con instalación y recolección incluidas.
+Imagina a tu hijo de 7 años con una banda roja en la frente, serio como si fuera a presentar examen, esperando su turno para la prueba final. Eso logra una fiesta ninja: nadie llega a «jugar», todos llegan a ganarse un rango. La temática funciona porque le da a cada invitado algo que conseguir: una cinta, un tiempo, un diploma con su nombre. Armada como entrenamiento con niveles, el circuito deja de ser un juego más y se vuelve la prueba que todos quieren pasar.
 
 ## ¿Por qué una fiesta ninja funciona de 3 a 12 años?
 
@@ -55,9 +59,9 @@ Tampoco depende de una película de temporada ni te divide al grupo: funciona ig
 
 ## ¿Cómo montar el entrenamiento ninja por estaciones?
 
-Con cuatro estaciones sencillas alrededor del circuito, cada una a cargo de un adulto que hace de sensei. Tus invitados llegan, reciben banda y cinta blanca, y recorren las estaciones en el orden que quieran. Cada estación superada vale una cinta. Así de simple.
+Con cuatro estaciones sencillas alrededor del circuito, cada una a cargo de un adulto que hace de sensei. Tus invitados llegan, reciben banda y cinta blanca, y recorren las estaciones en el orden que quieran. Cada estación superada vale una cinta.
 
-Todo lo que necesitas está en casa o en la papelería: cinta adhesiva, cartón, estambre, cascabeles y unas botellas con arena. No tienes que comprar juegos ni contratar animador. Con eso basta.
+Todo lo que necesitas está en casa o en la papelería: cinta adhesiva, cartón, estambre, cascabeles y unas botellas con arena. No tienes que comprar juegos ni contratar animador.
 
 ![Vista completa del Extremo con túneles, obstáculos y arcos morados sobre pasto junto a una barda](/img/inflables/extremo/extremo-lateral-evento.avif)
 
@@ -71,11 +75,11 @@ Estrellas ninja de cartón o papel doblado que se lanzan a un blanco pintado en 
 
 ### Estación de sigilo
 
-Un pasillo de estambre amarrado entre dos sillas, con cascabeles colgando. Hay que cruzar sin hacer sonar ninguno. Suena fácil. No lo es. Los de 6 a 9 años la adoran, y los que miran se ríen con cada cascabel.
+Un pasillo de estambre amarrado entre dos sillas, con cascabeles colgando. Hay que cruzar sin hacer sonar ninguno. Suena fácil, pero no lo es. Los de 6 a 9 años la adoran, y los que miran se ríen con cada cascabel.
 
 ### Estación de agilidad
 
-Conos o botellas con arena en zigzag, para correr de ida y vuelta. Es el calentamiento antes del circuito y le sirve al sensei para ver quién va listo para la prueba final. Si tienes pocos adultos, ésta es la estación que puede quedar sin sensei fijo.
+Conos o botellas con arena en zigzag, para correr de ida y vuelta. Es el calentamiento antes del circuito y le sirve al sensei para ver quién va listo para la prueba final. Si tienes pocos adultos, esta es la estación que puede quedar sin sensei fijo.
 
 ## ¿Cómo funcionan las cintas de colores por nivel?
 
@@ -100,13 +104,11 @@ Cada niño lleva la banda en la cabeza y las cintas se amarran en la muñeca o e
 
 Que lo intente otra vez después de pasar por otra estación. Tú no tienes que decidir nada. Nadie se queda sin cinta: todas se pueden conseguir, sólo cambia cuántos intentos toma. Con los de 3 a 5 años, el sensei ayuda lo necesario y celebra como si fuera final olímpica.
 
-> **¿Ya tienes a tus senseis?** Te falta la prueba final. Pregúntanos si el Extremo está libre en la fecha de tu fiesta ninja. [Preguntar por el circuito para mi dojo](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20el%20circuito%20Extremo%20para%20una%20fiesta%20ninja)
-
 ## ¿Por qué el circuito Extremo es la prueba final del dojo?
 
 Porque reúne todo lo que entrenaron: correr, esquivar, mantener el equilibrio y salir por el tobogán. Y porque tiene dos carriles: dos ninjas arrancan al mismo tiempo y se ven competir, lo que le da a la prueba el peso de un examen de verdad.
 
-El circuito se instala en **30 minutos**, necesita **4.5 m de altura libre** y es sólo para exterior. La prueba final se abre cuando el niño tiene sus cuatro cintas de color; antes de eso, el Extremo puede funcionar en turnos libres de práctica, también separados por edad. Te conviene revisar las medidas y fotos del Extremo para ubicar dónde van las estaciones alrededor.
+El circuito se instala en **30 minutos**, necesita **4.5 m de altura libre** y es sólo para exterior. La prueba final se abre cuando el niño tiene sus cuatro cintas de color; antes de eso, el Extremo puede funcionar en turnos libres de práctica, también separados por edad. Con sus medidas a la mano puedes ubicar dónde van las estaciones alrededor.
 
 ![Vista larga de la pista del Extremo sobre pasto, con edificios de departamentos al fondo](/img/inflables/extremo/extremo-pista-obstaculos.avif)
 
@@ -125,7 +127,7 @@ Si al medir no te alcanza, el Dragones Rojos (5 × 3 m) es la alternativa, como 
 
 ## ¿Cómo separar a los ninjas por edad en turnos?
 
-Separar por edad es la regla que no se negocia. En un circuito de velocidad, la diferencia de tamaño entre un niño de 4 y uno de 11 es la receta de un golpe. Arma tres grupos con su propio turno y su propia meta. Te toca cuidar la fila; lo demás fluye solo.
+Separar por edad es la regla que no se negocia. En un circuito de velocidad, la diferencia de tamaño entre un niño de 4 y uno de 11 es la receta de un golpe. Arma tres grupos con su propio turno y su propia meta. Tu tarea es cuidar la fila.
 
 ### Pequeños ninjas: 3 a 5 años
 
@@ -165,13 +167,13 @@ Necesita poca, porque el circuito ya ocupa el centro visual. Con negro y rojo co
 
 ¿Lo que no te conviene? Arcos de globos de varios metros alrededor del circuito o adornos colgados cerca del inflable. Estorban el paso y compiten con la atracción principal. La decoración, la comida y el pastel los cotizas aparte con tus proveedores.
 
+![Mesa de pastel con mantel negro, faroles de papel rojos y estrellas de papel dobladas en un jardín](/img/blog/fiesta-ninja-con-circuito-de-obstaculos/escena-1.avif "Negro, rojo y estrellas de papel hechas en casa bastan para convertir el jardín en dojo.")
+
 ## ¿Cómo usar el cronómetro sin frustrar a los más chicos?
 
 Cronómetro visible sólo para el grupo de 9 a 12 años, y siempre con opción de repetir. El tiempo es lo que más engancha a los grandes y lo que más puede lastimar a los chicos. Un niño que corre tres veces para mejorar su marca está feliz; uno eliminado a la primera, aburrido.
 
-Para los de 6 a 8, el tiempo se dice pero no se escribe. Para los de 3 a 5, ni se mide: se aplaude. Explícales esa diferencia a tus senseis antes de abrir el dojo. ¿Por qué? Porque las ganas de cronometrar a todos son fuertes.
-
-Si quieres un torneo más estructurado, los formatos de torneo con llaves y relevos te dan el detalle de cada uno.
+Para los de 6 a 8, el tiempo se dice pero no se escribe. Para los de 3 a 5, ni se mide: se aplaude. Explícales esa diferencia a tus senseis antes de abrir el dojo, porque las ganas de cronometrar a todos son fuertes.
 
 ## ¿Qué llevan los diplomas ninja y cuándo se entregan?
 
@@ -179,7 +181,7 @@ Llevan el nombre del niño, el rango alcanzado, la fecha y la firma del «gran m
 
 La ceremonia va después del pastel, con todos sentados. El festejado entrega las cintas negras que falten y el diploma, uno por uno, con su reverencia. Es la foto que te van a pedir todas las familias. ¿Y el gran maestro? Recibe el suyo al final, de manos de sus papás.
 
-> **Diplomas listos, falta el circuito.** Dinos tu alcaldía o municipio y cuántos ninjas esperas, y te cotizamos el Extremo con el traslado de tu zona. [Cotizar el Extremo para la fiesta ninja](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Extremo%20para%20una%20fiesta%20tematica%20ninja)
+> **¿Diplomas listos?** Dinos tu alcaldía o municipio y cuántos ninjas esperas, y te cotizamos el Extremo con el traslado de tu zona.
 
 ## ¿Cómo queda el horario de una fiesta ninja?
 

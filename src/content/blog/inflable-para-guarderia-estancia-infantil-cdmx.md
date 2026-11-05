@@ -7,7 +7,7 @@ publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
 category: "Castillo Baby"
 author: "Equipo BRINCOLINS"
-readTime: "18 min"
+readTime: "15 min"
 heroImage: "/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif"
 heroImageAlt: "Castillo Baby, un inflable para guardería, con torres de colores sobre pasto sintético frente a muro blanco"
 galleryImages:
@@ -35,11 +35,17 @@ faqs:
     answer: "El Castillo Baby se instala en 15 minutos una vez que el equipo está en el lugar, con anclaje verificado. Conviene acordar la hora de llegada al cotizar para que quede listo antes de que llegue la primera sala y no interrumpa la rutina del día."
 ---
 
-Imagina el 30 de abril en tu estancia. Lactantes en su sala, maternal emocionado desde la entrada y preescolar preguntando cada cinco minutos cuándo les toca. Sin un plan, el inflable se vuelve fila. Con plan, se vuelve el rato favorito del día.
+El inflable para guardería que corresponde a maternal es el [Castillo Baby para salas de maternal](/inflables/mini-castillo/): mide 2.5 × 2 × 2 m, es para niños de 1 a 3 años, funciona bajo techo con 3.2 m de altura libre y cuesta $1,400 netos por evento. Los lactantes no entran. Si la institución requiere factura, se agrega 16% de IVA.
 
-Un inflable para guardería funciona cuando lo tratas como una actividad más del horario, con salas, turnos y responsables. Aquí tienes lo que necesitas resolver antes, durante y después, con datos que puedes llevar a la junta con la dirección.
+**Puntos clave**
 
-> **Respuesta rápida:** El inflable para guardería que corresponde a maternal es el [Castillo Baby para salas de maternal](/inflables/mini-castillo/): mide 2.5 × 2 × 2 m, es para niños de 1 a 3 años, funciona bajo techo con 3.2 m de altura libre y cuesta $1,400 netos por evento. Los lactantes no entran. Si tu institución requiere factura, se agrega 16% de IVA.
+- Cada sala entra en su propio bloque y con su personal en la entrada; no hay fila libre.
+- Maternal usa el Castillo Baby; preescolar necesita otro modelo, como Gusanitos.
+- Antes de cotizar, la dirección confirma altura libre, contacto de 110 V, horario de acceso y supervisión.
+- La supervisión es del personal de la institución; el equipo de BRINCOLINS instala y recolecta.
+- Para Día del Niño y fin de cursos conviene apartar en cuanto la dirección confirme la fecha.
+
+El 30 de abril, con lactantes en su sala, maternal emocionado desde la entrada y preescolar preguntando cuándo les toca, un inflable sin plan se vuelve fila. Funciona cuando lo tratas como una actividad más del horario, con salas, turnos y responsables. Aquí tienes lo que conviene resolver antes, durante y después, con datos para llevar a la junta con la dirección.
 
 ## ¿Qué festejos de una estancia infantil se prestan para un inflable?
 
@@ -47,7 +53,7 @@ Los que sacan a los niños de la rutina sin romperla: Día del Niño, fin de cur
 
 ### Día del Niño
 
-Es el festejo más esperado del año. Suele hacerse en horario de clases, con todas las salas rotando. Ahí los turnos lo son todo. ¿Tienes tres salas? Necesitas tres horarios.
+Es el festejo más esperado del año. Suele hacerse en horario de clases, con todas las salas rotando, así que los turnos lo son todo: tres salas, tres horarios.
 
 ### Fin de cursos
 
@@ -71,11 +77,11 @@ El que corresponda a la edad de cada niño, no al nombre de la sala. Cada instit
 
 ### Maternal: el Castillo Baby
 
-Mide 2.5 × 2 × 2 m, es para niños de 1 a 3 años, funciona en interiores con 3.2 m de altura libre y se instala en 15 minutos. Es compacto y entra en salones de usos múltiples, terrazas y patios pequeños. Es el modelo de tu grupo de maternal. Nada más.
+Mide 2.5 × 2 × 2 m, es para niños de 1 a 3 años, funciona en interiores con 3.2 m de altura libre y se instala en 15 minutos. Es compacto y entra en salones de usos múltiples, terrazas y patios pequeños. Es el modelo para tu grupo de maternal.
 
 ### Lactantes: se quedan fuera
 
-No hay turno especial ni excepción para los que ya caminan si todavía no cumplen un año. Lo que sí puedes hacer es acercarlos a ver la actividad, en brazos del personal y desde fuera. Ver también es festejar.
+No hay turno especial ni excepción para los que ya caminan si todavía no cumplen un año. Lo que sí puedes hacer es acercarlos a ver la actividad, en brazos del personal y desde fuera.
 
 ### Preescolar: otro modelo
 
@@ -159,7 +165,9 @@ Dos consejos para que la plantilla funcione. Primero, avisa a cada sala su hora 
 
 ### Plan de lluvia si el inflable va en el patio
 
-Entre junio y septiembre llueve con frecuencia en el Valle de México, casi siempre por la tarde. Si tu festejo de fin de cursos cae en esas semanas y el inflable va en el patio, decide desde la junta cuál es el plan B: adelantar los turnos a primera hora, pasar el Castillo Baby a un salón con 3.2 m de altura libre o mover la actividad a otro día. Las opciones para [instalar bajo techo en temporada de lluvias](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/) te ayudan a elegir el espacio alterno.
+Entre junio y septiembre llueve con frecuencia en el Valle de México, casi siempre por la tarde. Si tu festejo de fin de cursos cae en esas semanas y el inflable va en el patio, decide desde la junta cuál es el plan B: adelantar los turnos a primera hora, pasar el Castillo Baby a un salón con 3.2 m de altura libre o mover la actividad a otro día; si la lluvia impide el evento, la reprogramación no tiene costo. Las opciones para [instalar bajo techo en temporada de lluvias](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/) te ayudan a elegir el espacio alterno.
+
+![Salón de usos múltiples de una estancia infantil con colchonetas, zapatos de niños formados junto a la puerta y sillas pequeñas](/img/blog/inflable-para-guarderia-estancia-infantil-cdmx/escena-1.avif "Zapatos fuera y bloque por sala: así se ordena el cambio de turno.")
 
 ## ¿Quién supervisa cada turno y qué hace nuestro equipo?
 
@@ -173,7 +181,7 @@ El personal de cada sala supervisa a su grupo desde la entrada; nuestro equipo i
 | Nuestro equipo | Instala con anclaje verificado y deja el motor funcionando | Al inicio |
 | Nuestro equipo | Recolecta el inflable | Al final |
 
-Entregamos el equipo revisado y sanitizado, con motor profesional durante todo el evento. No ofrecemos seguro de responsabilidad civil, y conviene que tu dirección lo sepa desde la cotización. Las [reglas de seguridad para inflables infantiles](/blog/seguridad-inflables-fiestas-infantiles/) son una buena base para el protocolo interno de tu estancia. Escríbelo en una hoja.
+Entregamos el equipo revisado y sanitizado, con motor profesional durante todo el evento. No ofrecemos seguro de responsabilidad civil, y conviene que tu dirección lo sepa desde la cotización. Las [reglas de seguridad para inflables infantiles](/blog/seguridad-inflables-fiestas-infantiles/) son una buena base para escribir el protocolo interno de tu estancia.
 
 ## ¿Cómo se cotiza un inflable para una institución con factura?
 
@@ -181,7 +189,7 @@ Igual que cualquier renta, con dos datos adicionales: si requieren factura y qui
 
 ### Precio neto y factura
 
-Los precios publicados son netos. Si tu institución requiere factura, se agrega 16% de IVA. Pídela desde la cotización para que el monto ya lo considere. Te evitas ajustes. Los [precios netos para armar el presupuesto](/precios/) te sirven antes de la junta.
+Los precios publicados son netos. Si tu institución requiere factura, se agrega 16% de IVA. Pídela desde la cotización para que el monto ya lo considere y no haya ajustes después. Los [precios netos para armar el presupuesto](/precios/) te sirven antes de la junta.
 
 ### Traslado y zona
 
@@ -193,7 +201,7 @@ Muchas estancias trabajan en casas adaptadas, con patio pequeño o cochera en lu
 
 ### Anticipo
 
-La fecha se aparta con 50% de anticipo. En instituciones, el trámite interno de pago puede tardar. Empiézalo en cuanto tengas la cotización. No lo dejes para el final.
+La fecha se aparta con 50% de anticipo. En instituciones, el trámite interno de pago puede tardar, así que conviene iniciarlo en cuanto tengas la cotización.
 
 ![Entrada del Castillo Baby con arcos amarillos y pelotas de colores, en un patio junto a una barda](/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif)
 
@@ -220,9 +228,9 @@ Si alguna familia pregunta por el inflable para un festejo propio, puedes compar
 
 ## ¿Por qué no conviene un inflable grande para toda la estancia?
 
-Porque la mayoría de tus niños queda fuera de su rango y porque en un salón cerrado no cabe. Los seis modelos que no son aptos para interiores arrancan en 2 o 3 años, piden entre 4.2 y 5.2 m de altura libre y se instalan sólo en exterior. Para maternal no sirven. Y bajo techo, no caben.
+Porque la mayoría de tus niños queda fuera de su rango y porque en un salón cerrado no cabe. Los seis modelos que no son aptos para interiores arrancan en 2 o 3 años, piden entre 4.2 y 5.2 m de altura libre y se instalan sólo en exterior. Para maternal no sirven y bajo techo no caben.
 
-Lo que funciona es un modelo por grupo de edad: Castillo Baby para maternal y, si hay preescolar, un segundo modelo para ellos. La [comparativa de inflables para bebés y niños de 2 años](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) explica las diferencias entre Castillo Baby, Gusanitos y Castillo de Princesas. Tu dirección decide con datos, no con fotos.
+Lo que funciona es un modelo por grupo de edad: Castillo Baby para maternal y, si hay preescolar, un segundo modelo para ellos. La [comparativa de inflables para bebés y niños de 2 años](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) explica las diferencias entre Castillo Baby, Gusanitos y Castillo de Princesas para que la dirección decida con datos.
 
 ## Agenda el inflable de tu estancia infantil
 
@@ -234,6 +242,6 @@ Los fines de semana y las fechas escolares se llenan; la disponibilidad se confi
 - Las salas que participan, con edades y cantidad aproximada de niños por sala.
 - Si la institución requiere factura.
 
-La fecha se aparta con 50% de anticipo. El precio es por evento y neto, con instalación y recolección incluidas; se agrega 16% de IVA sólo si tu institución requiere factura, y el traslado se cobra según zona. La ficha técnica del Castillo Baby para el expediente sirve para anexarla al plan del evento, y las [preguntas frecuentes de la renta](/preguntas-frecuentes/) resuelven lo que suele salir en la junta con familias.
+La fecha se aparta con 50% de anticipo. El precio es por evento y neto, con instalación y recolección incluidas; se agrega 16% de IVA sólo si tu institución requiere factura, y el traslado se cobra según zona. La ficha técnica del Castillo Baby sirve para anexarla al plan del evento, y las [preguntas frecuentes de la renta](/preguntas-frecuentes/) resuelven lo que suele salir en la junta con familias.
 
 Escríbenos al [WhatsApp para instituciones](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20un%20inflable%20con%20factura%20para%20una%20estancia%20infantil) o llena el formulario de cotización para instituciones y marca que requieres factura. Atendemos de lunes a domingo de 8:00 a 20:00.

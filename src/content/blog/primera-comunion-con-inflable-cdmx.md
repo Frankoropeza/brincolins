@@ -1,13 +1,13 @@
 ---
 title: "Primera comunión con inflable: horarios, ropa y fotos"
 h1: "Primera comunión con inflable: cómo integrar el Castillo Blanco a la recepción, de la misa al pastel"
-description: "Primera comunión con inflable en CDMX: a qué hora abrirlo, qué hacer con el vestido y dónde poner el Castillo Blanco. Compara modelos y aparta tu fecha."
+description: "Organiza la primera comunión con inflable: a qué hora abrirlo, cómo cuidar el vestido, dónde ubicar el Castillo Blanco y cómo lograr la foto."
 excerpt: "Sales del templo, los niños traen ropa de fiesta y la comida tarda. Así se organiza una recepción con inflable blanco que cuida la ropa, las fotos y tu paciencia."
 publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
 category: "Castillo Blanco"
 author: "Equipo BRINCOLINS"
-readTime: "19 min"
+readTime: "16 min"
 heroImage: "/img/inflables/castillo-blanco.avif"
 heroImageAlt: "Castillo Blanco inflable con torres de punta sobre pasto, con flores y una pérgola decorada detrás"
 galleryImages:
@@ -26,7 +26,7 @@ faqs:
   - question: "¿Cuánto cuesta rentar un inflable para una primera comunión en CDMX?"
     answer: "El Castillo Blanco cuesta $2,600 netos por evento, con instalación y recolección incluidas. Si necesitas factura se agrega 16% de IVA, y el traslado se cobra según la zona de la recepción. Para hermanitos de 1 a 3 años, el Castillo Baby cuesta $1,400 y puede ir en un rincón aparte."
   - question: "¿Se puede instalar el Castillo Blanco en una terraza techada o bajo una carpa?"
-    answer: "No. El Castillo Blanco se instala sólo en exterior, a cielo abierto, y necesita 4.7 m de altura libre sin ramas, cables, toldos ni pérgolas encima. Si tu recepción es en un espacio techado, el Castillo Baby sí entra en interiores con 3.2 m de altura libre, aunque es para niños de 1 a 3 años."
+    answer: "No. El Castillo Blanco se instala solo en exterior, a cielo abierto, y necesita 4.7 m de altura libre sin ramas, cables, toldos ni pérgolas encima. Si tu recepción es en un espacio techado, el Castillo Baby sí entra en interiores con 3.2 m de altura libre, aunque es para niños de 1 a 3 años."
   - question: "¿Con cuánta anticipación conviene apartar el inflable para la comunión?"
     answer: "En cuanto la parroquia confirme la fecha y tengas el lugar de la recepción. Los fines de semana se llenan y la fecha se aparta con 50% de anticipo. Atendemos de lunes a domingo de 8:00 a 20:00 por WhatsApp al 55 3128 1706, y ahí confirmamos disponibilidad para tu día."
   - question: "¿Quién cuida a los niños mientras brincan durante la recepción?"
@@ -37,13 +37,17 @@ faqs:
     answer: "La capacidad por turno se confirma al cotizar, porque depende de las edades de tus invitados y del espacio real. El modelo recibe niños de 3 a 12 años; lo práctico es organizar turnos por edad para que los de 4 o 5 años no brinquen junto a los de 11 o 12."
 ---
 
-Sales del templo a la una de la tarde. Tu hijo trae su traje recién planchado, o tu hija su vestido blanco. Los padrinos quieren fotos. La comida todavía no sale. Y los primos ya encontraron la manguera del jardín.
+Para una primera comunión con inflable, el modelo que combina con la decoración es el [Castillo Blanco para eventos formales](/inflables/castillo-blanco/): mide 5 × 7 × 4 m, recibe a niños de 3 a 12 años y cuesta $2,600 netos por evento, con instalación y recolección incluidas. Va solo en exterior, con 4.7 m libres. Ábrelo al llegar del templo, ciérralo en la comida y reábrelo tras el pastel.
 
-Ese hueco entre la misa y la comida es justo donde una **primera comunión con inflable** te salva la tarde. Aquí tienes el plan completo: a qué hora abrirlo, qué hacer con la ropa de fiesta, dónde colocarlo y cómo sacar la foto del festejado antes de que el traje cuente otra historia.
+**Puntos clave**
 
-El modelo de referencia es el Castillo Blanco. Va con tus flores, tus velas y tus manteles claros. Y recibe a niños de 3 a 12 años.
+- El castillo se instala antes de salir a misa: en 30 minutos queda listo y no coordinas proveedores con el vestido puesto.
+- La foto del festejado va primero, con el castillo vacío; después se abre la entrada.
+- Se brinca sin zapatos ni accesorios duros, y la prenda más voluminosa se queda afuera.
+- Ubícalo lejos de la mesa de honor, pero a la vista de las mesas de los papás.
+- Los hermanitos de 1 a 3 años van en un Castillo Baby aparte, con su propio adulto.
 
-> **Respuesta rápida:** Para una primera comunión con inflable, el modelo que combina con la decoración es el [Castillo Blanco para eventos formales](/inflables/castillo-blanco/): mide 5 × 7 × 4 m, recibe a niños de 3 a 12 años y cuesta $2,600 netos por evento, con instalación y recolección incluidas. Se instala sólo en exterior, con 4.7 m de altura libre. Ábrelo al llegar del templo, ciérralo durante la comida y reábrelo después del pastel.
+Sales del templo a la una de la tarde. Tu hijo trae su traje recién planchado, o tu hija su vestido blanco. Los padrinos quieren fotos, la comida todavía no sale y los primos ya encontraron la manguera del jardín. Ese hueco entre la misa y la comida es justo donde el inflable te salva la tarde.
 
 ## ¿Por qué una primera comunión con inflable resuelve la espera entre misa y comida?
 
@@ -57,7 +61,7 @@ Si todavía dudas de que un brincolín quepa en un evento serio, te conviene lee
 
 ## ¿Qué medidas y requisitos pide el Castillo Blanco en una comunión?
 
-El Castillo Blanco mide 5 × 7 × 4 m, necesita 4.7 m de altura libre y se instala sólo en exterior: jardín, patio o terraza a cielo abierto. Tú pones una toma de 110 V a menos de 20 m, piso plano sin vidrio ni objetos punzantes y un adulto que supervise todo el evento.
+El Castillo Blanco mide 5 × 7 × 4 m, necesita 4.7 m de altura libre y se instala solo en exterior: jardín, patio o terraza a cielo abierto. Tú pones una toma de 110 V a menos de 20 m, piso plano sin vidrio ni objetos punzantes y un adulto que supervise todo el evento.
 
 Esta tabla pone lado a lado los castillos que puedes considerar para una recepción religiosa. La conclusión práctica: si tus invitados van de 7 a 12 años y tu decoración es clara, el blanco cubre a todos sin romper la paleta.
 
@@ -66,7 +70,7 @@ Esta tabla pone lado a lado los castillos que puedes considerar para una recepci
 | Medidas (largo × ancho × alto) | 5 × 7 × 4 m | 5 × 3.30 × 3 m | 2.5 × 2 × 2 m |
 | Altura libre necesaria | 4.7 m | 4.2 m | 3.2 m |
 | Edades | 3 a 12 años | 2 a 10 años | 1 a 3 años |
-| ¿Interiores? | No, sólo exterior | No, sólo exterior | Sí |
+| ¿Interiores? | No, solo exterior | No, solo exterior | Sí |
 | Instalación | 30 min | 20 min | 15 min |
 | Precio neto por evento | $2,600 | $1,800 | $1,400 |
 | Estilo | Blanco, para eventos formales | Rosa y azul turquesa con torres decorativas | Compacto, para bebés |
@@ -126,6 +130,8 @@ Los vestidos largos, con crinolina o cola, se enredan al brincar. Los sacos dan 
 
 Tienes una salida sencilla. Después de la foto, playera blanca y pantalón cómodo. El vestido se salva entero. Tu hija brinca a gusto. Si la prenda es heredada o delicada, ese cambio te ahorra un disgusto.
 
+![Canasta de mimbre con zapatos de niño y niña de vestir junto a una silla con un saco infantil colgado en el respaldo, sobre pasto](/img/blog/primera-comunion-con-inflable-cdmx/escena-2.avif "Zapatos en la canasta y el saco en la silla: así la ropa de fiesta llega entera a las fotos.")
+
 ### Zapatos de los invitados
 
 Aquí no hay excepción: se brinca sin zapatos. La suela dura y el tacón lastiman a otros niños dentro del inflable. Pon una canasta o un tapete en la entrada. Y avisa en tu chat familiar que los niños traigan calcetines.
@@ -140,11 +146,13 @@ En tu mesa principal están el pastel, los recuerdos, la vela y el lugar donde p
 
 ![Castillo inflable blanco sobre el pasto junto a un arco de globos blancos, con edificios al fondo](/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-terraza-cdmx.avif)
 
+![Jardín de una casa en el Estado de México preparado para una recepción de primera comunión, con mesas de manteles blancos, centros de flores blancas y espacio libre de pasto al fondo](/img/blog/primera-comunion-con-inflable-cdmx/escena-1.avif "La mesa de honor en un extremo y el área de juego al otro, a la vista de los papás.")
+
 ### Línea de vista desde las mesas
 
 Lejos no quiere decir escondido. Si los papás no ven a sus hijos desde su silla, se levantan o no los dejan ir. Busca un punto donde la entrada del castillo se vea desde casi todas tus mesas. ¿Lo encontraste? Ahí va el castillo.
 
-Si quieres la lógica completa de ubicación, ruido y supervisión, está desarrollada en cómo se diseña la zona infantil de una boda. Te sirve casi igual para una comunión.
+La lógica completa de ubicación, ruido y supervisión está en la guía de eventos formales que mencionamos arriba; aplica casi igual a una comunión.
 
 ## ¿Cómo lograr la foto del festejado frente al castillo blanco?
 
@@ -162,9 +170,9 @@ La segunda foto es la del festejado con sus compañeros o primos frente al casti
 
 Primero la foto individual, luego los padrinos, al final el grupo de niños. Cuando termina el grupo, abres la entrada. Los niños ya están ahí, formados y con ganas. El arranque es inmediato.
 
-Si en tu año viene otro festejo, el mismo castillo repite bien. Puedes verlo en el [festejo de fin de ciclo escolar con castillo blanco](/blog/graduacion-kinder-primaria-con-inflable/) y en las ideas de inflables elegantes para bodas y quince años.
+Si en tu año viene otro festejo, el mismo castillo repite bien. Puedes verlo en el [festejo de fin de ciclo escolar con castillo blanco](/blog/graduacion-kinder-primaria-con-inflable/), en las ideas de [decoración con inflable para XV años](/blog/decoracion-inflable-xv-anos-cdmx/) y en la [zona infantil para un bautizo](/blog/bautizo-con-inflable-zona-infantil-cdmx/).
 
-> **Primero la foto, luego los brincos.** Con el castillo instalado antes de la misa, tú sólo llegas, posas y abres. Los fines de semana se llenan; la disponibilidad se confirma por WhatsApp. [Revisar fecha para la comunion](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20el%20Castillo%20Blanco%20esta%20libre%20para%20la%20comunion%20de%20mi%20hijo)
+> **Primero la foto, luego los brincos.** Con el castillo instalado antes de la misa, tú solo llegas, posas y abres. Los fines de semana se llenan; la disponibilidad se confirma por WhatsApp. [Revisar fecha para la comunión](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20el%20Castillo%20Blanco%20esta%20libre%20para%20la%20comunion%20de%20mi%20hijo)
 
 ## ¿Qué hacer con los hermanitos de 2 años y los primos de 14?
 
@@ -174,7 +182,7 @@ Para los más chicos tienes el [Castillo Baby, compacto para niños de 1 a 3 añ
 
 ¿Y los de 13 o 14? Se quedan fuera, aunque insistan. Cada modelo tiene su rango. Lo respetamos. Puedes darles una tarea con estatus: organizar los turnos o cuidar la canasta de zapatos.
 
-Si comparas opciones para celebraciones donde organizan los adultos y brincan los niños invitados, te sirven los [los tres castillos del catálogo para celebraciones con ambiente formal](/inflables/castillos/). En todos los casos, quienes brincan son niños dentro de la edad de cada ficha.
+Si comparas opciones para celebraciones donde organizan los adultos y brincan los niños invitados, te sirven [los tres castillos del catálogo para celebraciones con ambiente formal](/inflables/castillos/). En todos los casos, quienes brincan son niños dentro de la edad de cada ficha.
 
 ## ¿Qué errores arruinan la zona infantil de una comunión?
 
@@ -193,7 +201,7 @@ Casi todos tienen que ver con tu programa, no con el inflable. Abrir antes de la
 
 Muchas comuniones no se festejan en casa sino en un jardín rentado. Ahí no decides tú solo: el lugar pone reglas. Antes de apartar el inflable, haz estas preguntas a la administración y pide las respuestas por escrito:
 
-1. **¿Aceptan inflables de proveedor externo?** Algunos lugares sólo permiten los suyos o cobran por ingresar equipo.
+1. **¿Aceptan inflables de proveedor externo?** Algunos lugares solo permiten los suyos o cobran por ingresar equipo.
 2. **¿Dónde se puede instalar?** Pide que te señalen el punto exacto y revisa que sea a cielo abierto, plano y con 4.7 m libres.
 3. **¿Hay contacto de 110 V a menos de 20 m de ese punto?** Si no, pregunta si te prestan una toma o si debes llevar extensión.
 4. **¿A qué hora se puede entrar a montar?** Si el jardín abre tarde, la instalación tiene que cuadrar con tu regreso del templo.
@@ -210,7 +218,7 @@ En Naucalpan, colonias como Ciudad Satélite, Echegaray o Lomas Verdes tienen ca
 
 Si la recepción es en Metepec, en Pilares, Coaxustenco o el centro, toma en cuenta dos cosas: por la altitud del Valle de Toluca hace más frío que en la capital, sobre todo al caer la tarde, y el envío va de $400 a $600. Ten suéteres para los niños al salir del castillo y revisa la página de [renta del Castillo Blanco con envío a Metepec](/cobertura/metepec/).
 
-## Aparta el Castillo Blanco para la comunión de tu hijo o hija
+## ¿Cómo apartar el Castillo Blanco para la comunión?
 
 La fecha de la parroquia ya no se mueve y los fines de semana se llenan. Si ya tienes el lugar de la recepción, hoy puedes dejar resuelta la parte que más trabajo da: los niños. Mándanos estos datos y te respondemos con disponibilidad, espacio y capacidad confirmados.
 
@@ -220,6 +228,6 @@ La fecha de la parroquia ya no se mueve y los fines de semana se llenan. Si ya t
 - **Edades y cantidad aproximada de niños**, incluidos los hermanitos menores de 3 años.
 - **Una foto o las medidas** del jardín o la terraza.
 
-La fecha se aparta con 50% de anticipo. El precio es por evento y neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona en la [cobertura de CDMX y Estado de México](/cobertura/). Antes de pagar puedes leer la [política de cancelación de la renta](/politica-de-cancelacion/), comparar la [precios netos del Castillo Blanco y sus alternativas](/precios/) o volver a la ficha con fotos del Castillo Blanco.
+La fecha se aparta con 50% de anticipo. El precio es por evento y neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona en la [cobertura de CDMX y Estado de México](/cobertura/). Antes de pagar puedes leer la [política de cancelación de la renta](/politica-de-cancelacion/) y comparar los [precios netos del Castillo Blanco y sus alternativas](/precios/).
 
-Llena la [cotización en línea para tu comunión](/cotizar/) o escríbenos directo: [Apartar el Castillo Blanco para la comunion](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Castillo%20Blanco%20para%20una%20primera%20comunion).
+Llena la [cotización en línea para tu comunión](/cotizar/) o escríbenos directo: [Apartar el Castillo Blanco para la comunión](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Castillo%20Blanco%20para%20una%20primera%20comunion).

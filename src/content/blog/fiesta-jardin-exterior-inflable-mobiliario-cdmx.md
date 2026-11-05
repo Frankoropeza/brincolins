@@ -1,17 +1,18 @@
 ---
-title: "Fiesta Infantil en Jardín con Inflable: Guía CDMX"
-description: "Organiza tu fiesta en el jardín en CDMX con inflable y mesas picnic: checklist completo, presupuesto real por tamaño, salón vs jardín y qué modelo elegir."
-excerpt: "Las fiestas en jardín están viviendo su mejor momento en la Ciudad de México. Aprende a organizar la tuya con inflable, mesas picnic de MESPIC y todo el checklist que necesitas para que no se te escape nada — más una comparativa honesta entre fiesta en salón y fiesta en jardín."
+title: "Fiesta infantil en jardín con inflable: guía completa"
+h1: "Fiesta infantil en jardín con inflable: espacio, clima, mobiliario y presupuesto en CDMX"
+description: "Organiza tu fiesta infantil en jardín con inflable y mesas picnic: qué modelo cabe, cómo repartir el espacio, plan de lluvia y presupuesto. Cotiza hoy."
+excerpt: "Cómo organizar una fiesta infantil en jardín en la Ciudad de México con inflable y mesas picnic de MESPIC: qué modelo cabe en tu espacio, cómo repartir las zonas, qué hacer con el sol y la lluvia, cuánto presupuestar y una comparación honesta entre salón y jardín."
 publishDate: "2026-06-14"
 updatedDate: "2026-11-04"
 category: "Ideas"
 author: "Equipo BRINCOLINS"
-readTime: "23 min"
-heroImage: "/img/blog/blog-paquetes-completos-fiesta-inflable-cdmx.avif"
-heroImageAlt: "Fiesta en el jardín en CDMX con inflable y mesas picnic exterior"
+readTime: "16 min"
+heroImage: "/img/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/portada.avif"
+heroImageAlt: "Jardín de una casa en la Ciudad de México preparado para una fiesta infantil, con mesas de madera tipo picnic a la sombra"
 intro:
-  - "Si estás organizando una fiesta infantil en la **Ciudad de México** y tienes acceso a un jardín, una terraza amplia o un parque privado, estás ante una oportunidad de oro. Las **fiestas en exterior** ofrecen ventajas que los salones tradicionales simplemente no pueden igualar: espacio para que los niños corran, iluminación natural, menos restricciones de ruido y una atmósfera de convivencia que ningún salón cerrado logra replicar."
-  - "En **BRINCOLINS** llevamos más de 20 años ayudando a familias de **CDMX y Estado de México** a convertir jardines en espacios de fiesta memorables con nuestros [inflables](/inflables/). Y nuestros aliados de **MESPIC** (mesaspicnic.com) son los expertos en renta de mesas y bancas de madera tipo picnic para eventos exteriores en la Ciudad de México. Esta guía reúne todo lo que necesitas saber para planear tu fiesta en jardín de principio a fin."
+  - "Si vas a organizar una fiesta infantil en la **Ciudad de México** y tienes acceso a un jardín, una terraza amplia o un parque privado, tienes buena parte del trabajo hecho. Una **fiesta en exterior** da espacio para que los niños corran, luz natural para las fotos, menos restricciones de ruido y un ambiente de convivencia que un salón cerrado difícilmente iguala."
+  - "En **BRINCOLINS** llevamos más de 20 años instalando inflables en jardines de **CDMX y el Estado de México**, y nuestros aliados de **MESPIC** (mesaspicnic.com) rentan mesas y bancas de madera tipo picnic para eventos al aire libre. Esta guía reúne lo que necesitas para planear tu fiesta en jardín de principio a fin."
 tags:
   - "renta inflables CDMX"
   - "fiesta jardin exterior cdmx"
@@ -20,222 +21,234 @@ tags:
   - "organizar fiesta exterior cdmx"
 faqs:
   - question: "¿Cuál es la mejor época del año para una fiesta en el jardín en CDMX?"
-    answer: "Los meses más recomendados para fiestas en exterior en la Ciudad de México son noviembre a mayo. En este período las lluvias son escasas y las temperaturas son agradables, especialmente en la mañana y al mediodía. Junio a octubre es la temporada de lluvias; si tienes que hacer la fiesta en esos meses, incluye un toldo o carpa en el presupuesto."
+    answer: "De noviembre a mayo, cuando casi no llueve y el mediodía es agradable. De junio a octubre es temporada de lluvias; si tu fiesta cae en esos meses, prográmala por la mañana e incluye un toldo o carpa en el presupuesto."
   - question: "¿Qué hago si llueve el día de mi fiesta en jardín?"
-    answer: "Lo ideal es tener un plan B preparado con anticipación: ya sea un toldo suficientemente grande para proteger las zonas principales, o un espacio interior de respaldo donde pueda moverse al menos la mesa de pastel y la zona de adultos. El inflable puede usarse con lluvia ligera, pero debe apagarse con lluvia fuerte o tormentas eléctricas por seguridad."
-  - question: "¿Puedo combinar el inflable con mesas picnic de MESPIC en un mismo paquete de BRINCOLINS?"
-    answer: "BRINCOLINS y MESPIC son empresas aliadas. Puedes contratar ambos servicios de forma coordinada con una sola comunicación. Escríbenos al WhatsApp 5531281706 indicando que también necesitas mesas picnic y te conectamos con el equipo de MESPIC para que coordinen la entrega en el mismo horario."
+    answer: "Ten listo un toldo para la mesa del pastel y la zona de adultos, o un espacio interior de respaldo. El inflable es para uso en seco: con lluvia se deja de usar y, si el clima obliga a cancelar, la fecha se reprograma sin costo a otra disponible."
+  - question: "¿Puedo combinar el inflable con mesas picnic de MESPIC?"
+    answer: "Sí. BRINCOLINS y MESPIC son empresas aliadas y coordinan la entrega en el mismo horario. Escríbenos por WhatsApp al 55 3128 1706, dinos que también necesitas mesas picnic y te ponemos en contacto con el equipo de MESPIC."
   - question: "¿Necesito permiso para poner un inflable en un parque público de CDMX?"
-    answer: "Cada parque tiene sus propias reglas y las define la alcaldía o la administración del lugar. Antes de planear, pregunta directamente ahí si permiten inflables, qué autorización piden, en qué zona y en qué horario. En un jardín de tu casa no necesitas ese permiso; en un condominio o privada, el que autoriza es la administración."
+    answer: "Cada parque tiene sus reglas y las define la alcaldía o la administración del lugar, así que pregunta ahí si permiten inflables, en qué zona y en qué horario. En el jardín de tu casa no necesitas ese permiso; en un condominio o privada, quien autoriza es la administración."
   - question: "¿Cuánto espacio libre necesito alrededor del inflable en el jardín?"
-    answer: "Además de la huella del modelo (por ejemplo, 5 × 3 m en Jungla, Dragones Rojos o Gusanitos), hace falta margen libre por los lados para anclaje, motor y salida de los niños, y altura libre sin ramas ni cables. El espacio exacto se confirma al cotizar con medidas y fotos del jardín."
+    answer: "Además de la huella del modelo (5 × 3 m en Jungla, Dragones Rojos o Gusanitos, por ejemplo), hace falta margen por los lados para anclaje, motor y salida de los niños, y altura libre sin ramas ni cables. El espacio exacto se confirma al cotizar con medidas y fotos del jardín."
   - question: "¿Pueden llegar el inflable y el mobiliario a la misma hora?"
-    answer: "Sí, y conviene coordinarlo así: primero se instala el inflable (de 15 a 30 minutos) y después se acomodan mesas y sillas alrededor, respetando el pasillo de salida. Si también rentas la mesa infantil con 10 sillas, coordina al cotizar que ambas cosas lleguen en el mismo horario."
+    answer: "Sí, y conviene coordinarlo así: primero se instala el inflable, que toma de 15 a 30 minutos, y después se acomodan mesas y sillas alrededor respetando el pasillo de salida. Si también rentas la mesa infantil con 10 sillas, pide al cotizar que todo llegue en el mismo horario."
 ---
 
-## Lo que cambia cuando la fiesta es afuera
+Para organizar una fiesta infantil en jardín con inflable, mide el espacio y elige el modelo que cabe con holgura, ubica un contacto de 110 V a menos de 20 m, reparte el jardín en zonas de juego, comida y circulación, y prepara sombra y un plan de lluvia. De noviembre a mayo el clima juega a tu favor.
 
-Llevamos más de 20 años instalando inflables en la Ciudad de México y Estado de México — en jardines de Coyoacán, en terrazas de Polanco, en privadas de Satélite, en patios de Ecatepec y en parques privados de Huixquilucan. Y hay algo que nunca cambia, sin importar el tamaño del espacio ni el presupuesto de la familia: cuando la fiesta es afuera, la energía es diferente.
+**Puntos clave**
 
-Los niños corren de verdad. Gritan sin que nadie los mande callar. Los adultos se sientan, hablan, toman su agua o su refresco sin estar apretados entre mesas. El inflable se ve más grande, más colorido, más vivo bajo el cielo abierto. Y las fotos — las fotos siempre salen mejor con luz natural que con cualquier iluminación de salón.
+- Un jardín de 6 × 8 m ya recibe un inflable mediano de 5 × 3 m; los modelos grandes piden de 10 × 12 m en adelante.
+- Divide el espacio en cuatro zonas: juego, comida, transición y circulación, sin que una invada a otra.
+- El inflable es para uso en seco: en temporada de lluvias haz la fiesta por la mañana y ten toldo.
+- Coordina inflable y mobiliario para que lleguen el mismo día: primero se instala el inflable y luego se acomodan las mesas.
+- Nombra a un adulto como responsable del inflable durante toda la fiesta.
 
-Hemos estado en fiestas con presupuestos muy ajustados que se veían espectaculares porque aprovechaban bien un jardín con pasto. Y hemos estado en fiestas costosas en salones cerrados que se sentían limitadas, apretadas, sin el aire que una fiesta de niños necesita. El espacio exterior no es un lujo — es un recurso que, bien aprovechado, eleva toda la experiencia.
+## ¿Qué cambia cuando la fiesta es afuera?
 
-Si tienes acceso a un jardín, una terraza o un parque privado en CDMX, esta guía te dice exactamente cómo convertirlo en el escenario de una fiesta que nadie va a olvidar.
+Llevamos más de 20 años instalando inflables en la Ciudad de México y el Estado de México: en jardines de Coyoacán, terrazas de Polanco, privadas de Satélite, patios de Ecatepec y parques privados de Huixquilucan. Hay algo que se repite sin importar el tamaño del espacio ni el presupuesto: cuando la fiesta es afuera, la energía es distinta.
 
-## Comparativa honesta: fiesta en salón vs. fiesta en jardín
+Los niños corren de verdad y nadie los manda callar. Los adultos se sientan y platican sin estar apretados entre mesas. El inflable luce más bajo el cielo abierto, y las fotos con luz natural salen mejor que con la iluminación de un salón.
 
-Queremos ser directos sobre esto, porque hemos visto familias gastar presupuesto importante en salones cuando su jardín era perfectamente viable, y también hemos visto familias frustradas por organizar una fiesta exterior sin la preparación correcta. Esta tabla compara ambas opciones con la honestidad que viene de haber estado en cientos de eventos de los dos tipos:
+Hemos estado en fiestas con presupuestos ajustados que se veían espectaculares porque aprovechaban bien un jardín con pasto, y en fiestas costosas en salones cerrados que se sentían apretadas. El espacio exterior no es un lujo: es un recurso que, bien aprovechado, mejora toda la fiesta.
+
+## ¿Conviene más una fiesta en salón o en jardín?
+
+Hemos visto familias gastar buena parte de su presupuesto en un salón cuando su jardín era perfectamente viable, y también familias frustradas por organizar una fiesta exterior sin preparación. Esta tabla compara ambas opciones a partir de cientos de eventos de los dos tipos:
 
 | Factor | Fiesta en salón | Fiesta en jardín |
 |---|---|---|
-| Costo del espacio | $3,000 - $15,000 MXN | $0 (jardín propio) o $500 - $3,000 MXN (parque privado) |
-| Capacidad de invitados | Alta (hasta 200) | Media (30-80, depende del jardín) |
-| Ruido | Limitado (vecinos, acústica) | Más libertad (según colonia) |
-| Inflable | Restricciones frecuentes | Sin restricciones |
-| Clima | Clima controlado | Depende del día |
-| Fotografías | Iluminación artificial | Luz natural (mejor resultado) |
-| Flexibilidad de horario | Según contrato del salón | Total |
-| Personalización | Limitada por el espacio | Total |
-| Experiencia para niños | Encerrados | Espacio libre para correr |
+| Costo del espacio | $3,000 a $15,000 | $0 (jardín propio) o $500 a $3,000 (parque privado) |
+| Capacidad de invitados | Alta (hasta 200) | Media (30 a 80, según el jardín) |
+| Ruido | Limitado por vecinos y acústica | Más libertad, según la colonia |
+| Inflable | Restricciones frecuentes de altura y horario | Solo se confirma espacio y altura libre |
+| Clima | Controlado | Depende del día |
+| Fotografías | Iluminación artificial | Luz natural |
+| Horario | Según contrato del salón | Lo defines tú |
+| Personalización | Limitada por el espacio | Amplia |
+| Para los niños | Espacio cerrado | Espacio libre para correr |
 
-El veredicto que nos han dado las familias que han probado ambas opciones es consistente: si tienes acceso a un jardín de al menos 80 m² y la temporada es favorable, la fiesta en jardín gana en casi todos los factores que importan para una fiesta infantil memorable. El único riesgo real es el clima, y ese se mitiga con anticipación y un toldo.
+Las familias que han probado ambas opciones coinciden: con un jardín de al menos 80 m² y buena temporada, la fiesta en jardín gana en casi todo lo que importa en una fiesta infantil. El riesgo real es el clima, y se reduce con horario y toldo. Si todavía lo estás decidiendo, la guía de [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/) profundiza en los casos en que el salón sí conviene.
 
-## Planificación completa: todo lo que necesitas organizar antes del evento
+## ¿Qué hay que organizar antes del evento?
 
-Organizar una fiesta en jardín tiene más variables que una en salón — el clima, la distribución del espacio, los proveedores que llegan a domicilio, la toma eléctrica para el inflable. La buena noticia es que todas esas variables son manejables si las atiendes con anticipación. Lo que sigue es el resumen de todo lo que necesitas considerar, organizado por categoría.
+Una fiesta en jardín tiene más variables que una en salón: el clima, la distribución, los proveedores que llegan a domicilio y la toma eléctrica del inflable. Todas se manejan bien si las atiendes con anticipación.
 
-**El espacio:** Mide el jardín en metros cuadrados y traza un plano simple con las zonas de sombra natural y las zonas de sol directo. Verifica la disponibilidad de tomas eléctricas — el inflable necesita corriente y mientras más cerca esté del motor, mejor. Confirma el tipo de piso (pasto, concreto, tierra, loseta) para que podamos decirte cuál es el mejor método de anclaje. Verifica el acceso para vehículos de carga, ya que los inflables y las mesas picnic de MESPIC llegan en camioneta y necesitan poder entrar sin maniobras complicadas. Revisa que no haya árboles con ramas bajas que interfieran con la altura del inflable cuando esté inflado.
+### El espacio
 
-**El inflable:** Elige el modelo según el tamaño del jardín consultando la tabla de esta misma guía y según la edad de los invitados, criterio que desarrollamos en la guía de [cómo elegir el inflable correcto](/blog/como-elegir-inflable-fiesta-infantil/). Reserva con BRINCOLINS con mínimo 2 o 3 semanas de anticipación escribiéndonos por WhatsApp al 5531281706. Confirma el horario de llegada del equipo de instalación y asegúrate de que haya un adulto en casa para recibirnos. Ten libre el acceso para la camioneta desde temprano — no hay nada más frustrante para todos que llegar a instalar y no poder entrar.
+- **Mide el jardín** y traza un plano simple con las zonas de sombra y de sol directo.
+- **Ubica el contacto de luz.** El motor necesita una toma de 110 V a menos de 20 m.
+- **Identifica el piso** (pasto, concreto, tierra o loseta) para definir el anclaje.
+- **Revisa el acceso** de la camioneta: el inflable y las mesas picnic llegan en vehículo.
+- **Mira hacia arriba:** ramas bajas o cables pueden impedir que el inflable quede a su altura completa.
 
-**El mobiliario:** Cuenta el número de adultos invitados y define cuántas mesas picnic necesitas. Las mesas de MESPIC tienen capacidad para unas 8 personas cada una. Reserva con MESPIC coordinando la entrega el mismo día que el inflable. Define si necesitas toldo o carpa — esto es indispensable si no hay sombra natural suficiente o si la fiesta es en temporada de lluvias. Considera sillas adicionales con respaldo para adultos mayores que prefieren no sentarse en las bancas corridas de las mesas picnic.
+### El inflable
 
-**La logística del día:** Confirma que habrá un adulto en casa para recibir a los proveedores. Ten listo el saldo pendiente para el equipo de BRINCOLINS. Prepara una hielera con agua fría para los niños cerca del inflable — el ejercicio físico deshidrata más rápido de lo que los niños perciben. Define la persona responsable de supervisar el inflable durante toda la fiesta. Haz un recorrido del jardín la tarde anterior para revisar que no haya obstáculos nuevos en la zona de instalación.
+Elige el modelo según el tamaño del jardín, con la tabla de la siguiente sección, y según la edad de los invitados, como explica la guía de [cómo elegir el inflable correcto](/blog/como-elegir-inflable-fiesta-infantil/). Reserva con 2 o 3 semanas de anticipación, confirma el horario de llegada del equipo y asegúrate de que haya un adulto en casa para recibirlo. Deja libre el acceso desde temprano: llegar a instalar y no poder entrar retrasa a todos.
 
-**El plan B climático:** Verifica el pronóstico del tiempo 5 días antes y de nuevo el día anterior. Si hay posibilidad de lluvia, confirma la disponibilidad del toldo o carpa. Define un espacio interior de respaldo mínimo para la mesa de pastel y los adultos — no para toda la fiesta, sino para que tengas una opción si la lluvia llega sin avisar.
+### El mobiliario
 
-> **Desde el campo:** en más de 20 años, los eventos que terminan siendo un dolor de cabeza casi siempre tienen el mismo origen: alguien asumió que algo estaría listo sin confirmarlo. El cable de extensión que "ya estaba ahí" y no estaba. El acceso para la camioneta que "seguro cabe" y no cabía. Una llamada de confirmación el día anterior a cada proveedor vale más que cualquier plan B.
+Cuenta a los adultos invitados y calcula cuántas mesas picnic necesitas; cada mesa de MESPIC recibe a unas 8 personas. Coordina la entrega el mismo día que el inflable. Define si hace falta toldo o carpa, indispensable si no hay sombra natural o si la fiesta cae en temporada de lluvias, y suma sillas con respaldo para los adultos mayores que prefieren no sentarse en bancas corridas. Si además necesitas mesa infantil, revisa el [mobiliario para fiestas con inflable](/servicios/mobiliario-para-fiestas/).
 
-## Tabla de inflables según el tamaño del jardín
+### La logística del día
 
-Elegir el inflable correcto para tu espacio no es solo una cuestión estética — es una cuestión de seguridad y de experiencia para los niños. Un inflable muy grande en un jardín pequeño no deja espacio para que los niños salgan corriendo con seguridad. Uno muy pequeño en un jardín grande hace que se formen filas largas y los niños se frustren esperando.
+- Un adulto en casa para recibir a los proveedores.
+- El saldo pendiente listo para el equipo de BRINCOLINS.
+- Una hielera con agua fría cerca del inflable: el ejercicio deshidrata más rápido de lo que los niños perciben.
+- Una persona responsable de supervisar el inflable durante toda la fiesta.
+- Un recorrido por el jardín la tarde anterior para detectar obstáculos nuevos.
 
-| Jardín | Metros disponibles | Inflable ideal | Precio aprox. | Capacidad |
+### El plan B por clima
+
+Revisa el pronóstico 5 días antes y otra vez la víspera. Si hay posibilidad de lluvia, confirma el toldo o la carpa y define un espacio interior mínimo para la mesa del pastel y los adultos.
+
+> **Desde el campo:** en más de 20 años, los eventos que se complican casi siempre tienen el mismo origen: alguien asumió que algo estaría listo sin confirmarlo. La extensión que "ya estaba ahí" y no estaba. El acceso para la camioneta que "seguro cabe" y no cabía. Una llamada de confirmación a cada proveedor el día anterior vale más que cualquier plan B.
+
+## ¿Qué inflable cabe según el tamaño del jardín?
+
+Elegir el modelo correcto es cuestión de seguridad, no solo de estética. Un inflable muy grande en un jardín pequeño no deja espacio para salir con seguridad; uno muy pequeño en un jardín grande genera filas largas y niños aburridos.
+
+| Jardín | Metros disponibles | Inflable recomendado | Precio neto | Capacidad |
 |---|---|---|---|---|
-| Muy pequeño | Hasta 6×6 m (36 m²) | Castillo Baby | $1,400 MXN | Se confirma al cotizar |
-| Pequeño | 6×8 m a 8×10 m | Castillo de Princesas, Dragones Rojos, Jungla o Gusanitos | $1,600 – $1,800 MXN | Se confirma al cotizar |
-| Mediano | 10×12 m a 12×15 m | Castillo Blanco o Barco Pirata | $2,300 – $2,600 MXN | Se confirma al cotizar |
-| Grande | 15×20 m o más | Extremo o combinación de inflables | $2,500 MXN | Se confirma al cotizar |
+| Muy pequeño | Hasta 6 × 6 m (36 m²) | Castillo Baby | $1,400 | Se confirma al cotizar |
+| Pequeño | 6 × 8 m a 8 × 10 m | Castillo de Princesas, Dragones Rojos, Jungla o Gusanitos | $1,600 a $1,800 | Se confirma al cotizar |
+| Mediano | 10 × 12 m a 12 × 15 m | Castillo Blanco o Barco Pirata | $2,300 a $2,600 | Se confirma al cotizar |
+| Grande | 15 × 20 m o más | Extremo o combinación de inflables | $2,500 | Se confirma al cotizar |
 
-La capacidad de la última columna es la del inflable, no la de la fiesta: con muchos invitados se organizan turnos, no se meten todos. Para confirmar cuál es el modelo más adecuado para las dimensiones exactas de tu jardín, escríbenos por WhatsApp y te orientamos sin compromiso. También puedes revisar las fichas completas en nuestro [catálogo de inflables](/inflables/), los ocho precios en la [página de precios](/precios/) y la guía para elegir el inflable.
+La capacidad es la del inflable, no la de la fiesta: con muchos invitados se organizan turnos. Para confirmar el modelo adecuado a las medidas exactas de tu jardín, revisa las fichas del [catálogo de inflables](/inflables/), compara los ocho modelos en la [página de precios](/precios/) o consulta la [tabla de medidas de inflables](/blog/medidas-de-inflables-para-fiestas-tabla/).
 
-## Cómo dividir el espacio: la distribución que siempre funciona
+## ¿Cómo distribuir el jardín para que la fiesta fluya?
 
-La distribución del espacio es el elemento que más determina si una fiesta al aire libre funciona o termina en caos. Esta distribución resuelve la mayoría de los problemas antes de que aparezcan.
-
-La clave es pensar en el jardín como cuatro zonas con funciones distintas, y no dejar que ninguna zona invada la de otra.
+La distribución es lo que más determina si una fiesta al aire libre funciona o termina en caos. La clave es pensar el jardín como cuatro zonas con funciones distintas y no dejar que ninguna invada a otra.
 
 ### Zona de juego activo: el inflable
 
-Ocupa entre el 30-40% del espacio disponible. Debe estar en el área más amplia y despejada, idealmente sobre pasto natural. El espacio requerido se confirma al cotizar según el modelo y el lugar para que los niños puedan entrar y salir con seguridad.
+Ocupa entre 30 y 40% del espacio. Va en el área más amplia y despejada, de preferencia sobre pasto natural. El margen alrededor se confirma al cotizar según el modelo y el lugar.
 
-Conviene que el inflable debe colocarse en el extremo del jardín más alejado de la entrada principal. Esto hace que los niños no interfieran con la llegada de invitados, y que el inflable sea visible desde la zona de descanso adulta — lo que permite supervisión constante sin necesidad de estar parado al lado.
+Conviene colocarlo en el extremo del jardín más alejado de la entrada principal. Así los niños no estorban la llegada de invitados y el inflable queda a la vista desde la zona de adultos, lo que permite supervisar sin estar parado al lado.
 
 ### Zona de comida y convivencia: las mesas picnic
 
-Ocupa entre el 40-50% del espacio. Las mesas picnic de madera de MESPIC se colocan en la zona más sombreada del jardín, idealmente bajo árboles o bajo un toldo si no hay sombra natural. Esta zona debe tener línea de vista directa al inflable — esa visibilidad es lo que permite a los adultos convivir sin perder de vista a los niños.
+Ocupa entre 40 y 50% del espacio. Las mesas de madera de MESPIC van en la zona más sombreada, bajo árboles o bajo un toldo, con línea de vista directa al inflable para que los adultos convivan sin perder de vista a los niños. Agrupar las mesas de 2 en 2 o de 3 en 3, en lugar de en fila, favorece la plática entre familias.
 
-Agrupar las mesas de 2 en 2 o de 3 en 3, en lugar de en fila, favorece que las familias convivan.
+### Zona de transición: juegos de piso
 
-### Zona de transición: juegos de piso y actividades intermedias
-
-Entre el inflable y las mesas picnic, vale la pena dejar un espacio intermedio con actividades de menor intensidad: burbujas de jabón, tizas para el piso, juegos de puntería, una piñata. Esta zona absorbe a los niños que salieron del inflable y aún no quieren ir a comer, evitando que invadan el área de adultos. Es la zona que más se improvisa en el campo, pero cuando existe planeada, la fiesta fluye de manera notablemente más suave.
+Entre el inflable y las mesas conviene dejar un espacio con actividades tranquilas: burbujas, gises para el piso, juegos de puntería o la piñata. Esta zona recibe a los niños que salen del inflable y todavía no quieren comer, y evita que invadan el área de adultos. Es la que más se improvisa, y cuando se planea, la fiesta fluye mucho mejor. Si buscas dinámicas para llenarla, revisa los [juegos para fiesta infantil por edad](/blog/juegos-para-fiesta-infantil-ideas-por-edad/).
 
 ### Zona de acceso y circulación
 
-Al menos el 20% del espacio debe quedar libre para circulación: el camino desde la entrada hasta cada zona, el espacio para que el equipo de BRINCOLINS pueda instalar el inflable con su equipo, y las salidas de emergencia. Suena obvio pero es la zona que más se sacrifica cuando las familias quieren meter más mesas o más decoración. No la sacrifiques.
+Al menos 20% del espacio debe quedar libre: el camino de la entrada a cada zona, el área de trabajo del equipo de instalación y las salidas. Es la zona que más se sacrifica cuando se quieren meter más mesas o más decoración. No la sacrifiques.
 
-## Cómo protegerse del sol y la lluvia: opciones reales para CDMX
+![Jardín con mesas de madera tipo picnic a la sombra y un área de pasto libre al fondo para el juego](/img/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/escena-1.avif "Mesas a la sombra con vista al área de juego y un pasillo libre entre zonas.")
 
-El clima de la Ciudad de México es impredecible pero no incontrolable. Hay soluciones concretas para los dos principales riesgos climáticos de una fiesta exterior, y ninguna de ellas requiere un presupuesto enorme.
+## ¿Cómo protegerse del sol y la lluvia en CDMX?
+
+El clima de la Ciudad de México cambia rápido, pero hay soluciones concretas para los dos riesgos principales de una fiesta exterior, y ninguna exige un presupuesto enorme.
 
 ### Protección solar
 
-Para la zona de adultos y la mesa de pastel, una vela de sombra de tela de 3×3 metros es la opción más económica, entre $200 y $500 MXN. No protege bien con viento fuerte, así que si tu jardín es ventilado, considera una carpa plegable (gazebo) de 3×3 metros — más estable y rápida de armar, en el rango de $600 a $1,500 MXN. Para fiestas grandes donde se necesita proteger toda la zona de mesas, una carpa de renta de 6×12 metros puede costar entre $1,500 y $3,500 MXN pero ofrece protección real para toda el área.
+| Opción | Uso recomendado | Costo aproximado |
+|---|---|---|
+| Vela de sombra de 3 × 3 m | Mesa del pastel o zona de adultos, sin viento | $200 a $500 |
+| Carpa plegable de 3 × 3 m | Jardines con viento; se arma rápido | $600 a $1,500 |
+| Carpa de renta de 6 × 12 m | Toda la zona de mesas en fiestas grandes | $1,500 a $3,500 |
 
-Si tu jardín tiene árboles con buena copa — como muchos jardines en Coyoacán, Tlalpan o El Pedregal — aprovecha esa sombra natural. Es gratis y se ve hermoso en fotos. Las mesas picnic de MESPIC bajo los árboles crean exactamente la atmósfera de garden party auténtico que todos quieren lograr.
+Si tu jardín tiene árboles con buena copa, como muchos de Coyoacán, Tlalpan o El Pedregal, aprovecha esa sombra natural: no cuesta y luce en las fotos. Las mesas picnic bajo los árboles dan el ambiente de fiesta campestre que muchas familias buscan.
 
 ### Protección contra lluvia
 
-En temporada de lluvias (junio-octubre), la lluvia en CDMX suele presentarse entre las 3 PM y las 7 PM. Planear fiestas con inicio a las 11 AM y término a las 3 PM reduce significativamente el riesgo y casi nunca requiere plan B. Si la fiesta necesariamente es vespertina, la carpa es indispensable y no negociable.
+En temporada de lluvias, de junio a octubre, la lluvia en la CDMX suele llegar entre las 15:00 y las 19:00. Una fiesta de 11:00 a 15:00 reduce mucho el riesgo. Si la fiesta tiene que ser por la tarde, la carpa es indispensable.
 
-El inflable puede usarse con lluvia ligera sin problema, pero debe detenerse ante lluvia fuerte o tormentas con rayos. Nuestro equipo te explicará el protocolo de seguridad antes de retirarse — está resumido en la [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/) — y siempre puedes llamarnos si tienes dudas durante la fiesta.
+El inflable es para uso en seco: con lluvia, granizo, tormenta eléctrica o viento fuerte, los niños salen y se deja de usar. Si el clima obliga a cancelar, la fecha se reprograma sin costo. Nuestro equipo te explica el protocolo antes de retirarse, y lo tienes resumido en la [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/).
 
-## Cuánto presupuesto asignar a cada elemento
+![Toldo plegable sobre una mesa de pastel en un jardín con cielo nublado de temporada de lluvias](/img/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/escena-2.avif "En temporada de lluvias, un toldo sobre la mesa del pastel y la zona de adultos es el mejor seguro.")
 
-Organizar una fiesta en jardín en CDMX en 2026 depende del tamaño del evento y los elementos elegidos. Lo que hemos aprendido es que los presupuestos más exitosos no son los más altos sino los mejor distribuidos — priorizando los elementos que más impacto tienen en la experiencia.
+## ¿Cuánto presupuesto asignar a cada elemento?
 
-Los precios de inflable que aparecen abajo son netos: se agrega IVA solo si necesitas factura, y en municipios lejanos de Edomex ($150 a $600) o en algunas alcaldías del sur y oriente de la CDMX ($100 a $200) se suma el envío según la distancia. Consulta si tu zona lleva cargo en la [página de cobertura](/cobertura/).
+El costo de una fiesta en jardín depende del tamaño del evento y de lo que elijas. Los presupuestos que mejor funcionan no son los más altos, sino los mejor repartidos.
 
-**Fiesta íntima (hasta 25 invitados):**
-- Inflable BRINCOLINS: $1,400 - $2,600 MXN
-- Mesas picnic MESPIC (3-4 mesas): $600 - $1,000 MXN
-- Toldo o carpa: $200 - $600 MXN
-- Decoración básica (globos, banderines): $400 - $800 MXN
-- Comida y pastel: $1,500 - $3,000 MXN
-- **Total: Se confirma al cotizar**
+Los precios de inflable son netos: si necesitas factura se agrega 16% de IVA. En municipios del Edomex el envío va de $150 a $600 y en algunas alcaldías del sur y oriente de la CDMX de $100 a $200, según la distancia. Consulta el cargo de tu zona en la [página de cobertura](/cobertura/).
 
-**Fiesta mediana (25-50 invitados):**
-- Inflable BRINCOLINS: $1,400 - $2,600 MXN
-- Mesas picnic MESPIC (6-8 mesas): $1,200 - $2,000 MXN
-- Carpa o toldo grande: $800 - $2,000 MXN
-- Decoración completa: $1,500 - $3,000 MXN
-- Comida y pastel: $3,000 - $6,000 MXN
-- **Total: Se confirma al cotizar**
+| Concepto | Fiesta íntima (hasta 25 invitados) | Fiesta mediana (25 a 50) | Fiesta grande (más de 50) |
+|---|---|---|---|
+| Inflable BRINCOLINS | $1,400 a $2,600 | $1,400 a $2,600 | 2 inflables, se confirma al cotizar |
+| Mesas picnic MESPIC | 3 o 4 mesas: $600 a $1,000 | 6 a 8 mesas: $1,200 a $2,000 | 12 a 15 mesas: $2,400 a $4,500 |
+| Toldo o carpa | $200 a $600 | $800 a $2,000 | $2,000 a $4,000 |
+| Decoración | Básica: $400 a $800 | Completa: $1,500 a $3,000 | Profesional: $3,000 a $6,000 |
+| Comida y pastel | $1,500 a $3,000 | $3,000 a $6,000 | $6,000 a $15,000 |
 
-**Fiesta grande (+50 invitados):**
-- 2 inflables BRINCOLINS: Se confirma al cotizar
-- Mesas picnic MESPIC (12-15 mesas): $2,400 - $4,500 MXN
-- Carpa grande: $2,000 - $4,000 MXN
-- Decoración profesional: $3,000 - $6,000 MXN
-- Comida y pastel: $6,000 - $15,000 MXN
-- **Total: Se confirma al cotizar**
+El total exacto se confirma al cotizar, porque depende del modelo, la zona y los proveedores que elijas. Para un desglose completo partida por partida, revisa [cuánto cuesta una fiesta infantil en CDMX](/blog/cuanto-cuesta-una-fiesta-infantil-cdmx-presupuesto/).
 
-## Jardines del sur y del poniente: árboles altos, pendientes y piedra volcánica
+## ¿Qué revisar en jardines del sur y del poniente?
 
 Los jardines amplios de la ciudad no son todos iguales, y lo que conviene revisar cambia según la zona:
 
-- **Coyoacán.** Muchas casas tienen jardines con árboles grandes y antiguos. Dan una sombra excelente para las mesas, pero hay que medir la altura libre en el punto exacto del inflable: una rama a 4 metros descarta modelos como el Castillo Blanco o el Barco Pirata. Si tu fiesta es en el sur de la ciudad, revisa las [entregas en Coyoacán](/cobertura/coyoacan/); el traslado se confirma según tu colonia.
-- **Álvaro Obregón.** En zonas como Jardines del Pedregal el suelo es de roca volcánica, y algunos jardines tienen piedra aflorada o pasto sobre una capa delgada de tierra. Busca el área más plana y sin piedra expuesta, y avisa al cotizar para que el equipo lleve la sujeción adecuada. La cobertura de [inflables a domicilio en Álvaro Obregón](/cobertura/alvaro-obregon/) incluye el detalle de traslado.
-- **Magdalena Contreras.** Buena parte de la alcaldía está en ladera, y muchos jardines tienen desnivel o están escalonados. El inflable va en la terraza de pasto más plana, aunque no sea la más grande; las mesas pueden ir en otro nivel si hay línea de vista hacia los niños. Consulta las [fiestas en Magdalena Contreras](/cobertura/magdalena-contreras/) para confirmar la entrega en tu colonia.
+- **Coyoacán.** Muchas casas tienen árboles grandes y antiguos. Dan sombra excelente para las mesas, pero hay que medir la altura libre en el punto exacto del inflable: una rama a 4 m descarta modelos como el Castillo Blanco o el Barco Pirata. Revisa las [entregas en Coyoacán](/cobertura/coyoacan/); el traslado se confirma según tu colonia.
+- **Álvaro Obregón.** En zonas como Jardines del Pedregal el suelo es de roca volcánica, y algunos jardines tienen piedra aflorada o pasto sobre una capa delgada de tierra. Busca el área más plana y sin piedra expuesta, y avisa al cotizar para que el equipo lleve la sujeción adecuada. La cobertura de [inflables a domicilio en Álvaro Obregón](/cobertura/alvaro-obregon/) incluye el detalle del traslado.
+- **Magdalena Contreras.** Buena parte de la alcaldía está en ladera y muchos jardines son escalonados. El inflable va en la terraza de pasto más plana, aunque no sea la más grande; las mesas pueden ir en otro nivel si hay línea de vista hacia los niños. Consulta las [fiestas en Magdalena Contreras](/cobertura/magdalena-contreras/) para confirmar la entrega en tu colonia.
 
-En las tres zonas, las tardes de junio a septiembre suelen traer lluvia, así que el plan de horario de la sección de temporadas aplica igual.
+En las tres zonas, las tardes de junio a septiembre suelen traer lluvia, así que aplica el horario matutino de la sección anterior.
 
-### Si la fiesta se alarga hasta que oscurece
+### ¿Y si la fiesta se alarga hasta que oscurece?
 
-En un jardín, la luz natural se acaba antes de lo que parece, sobre todo de noviembre a febrero. Si planeas que la fiesta siga después del pastel, piensa en iluminar el camino entre la casa, las mesas y el inflable; en la página de [iluminación para eventos](/servicios/iluminacion-eventos/) puedes ver las opciones. Y si tu fecha cae en los meses fríos, la guía de [fiestas infantiles al aire libre en invierno](/blog/fiesta-infantil-en-invierno-al-aire-libre-cdmx/) te ayuda a acomodar horarios y ropa para los niños.
+En un jardín la luz natural se acaba antes de lo que parece, sobre todo de noviembre a febrero. Si la fiesta va a seguir después del pastel, ilumina el camino entre la casa, las mesas y el inflable; en la página de [iluminación para eventos](/servicios/iluminacion-eventos/) puedes ver las opciones. Si tu fecha cae en los meses fríos, la guía de [fiestas infantiles al aire libre en invierno](/blog/fiesta-infantil-en-invierno-al-aire-libre-cdmx/) te ayuda con horarios y ropa para los niños.
 
-## Prepara el jardín el día anterior
+## ¿Cómo preparar el jardín el día anterior?
 
-**Un día antes de la fiesta:**
+1. Limpia la zona del inflable: retira juguetes, ramas y piedras.
+2. Corta el pasto si está alto; el pasto crecido resta estabilidad.
+3. Verifica que el piso esté seco.
+4. Retira macetas y objetos decorativos de esa zona.
+5. Marca el perímetro del inflable con cuerda o cinta.
+6. Prevé dónde se estacionarán los invitados, que suelen llegar casi al mismo tiempo.
 
-- ☐ Limpia la zona del inflable: retira juguetes, ramas, piedras
-- ☐ Corta el pasto si lo necesita (pasto alto afecta estabilidad)
-- ☐ Verifica que el piso esté seco o ponlo a secar con cuidado
-- ☐ Retira macetas y objetos decorativos de esa zona
-- ☐ Pon línea de seguridad: cuerda o cintas alrededor del inflable para marcar zona
-- ☐ Prepara estacionamiento: los papás llegarán a la vez, necesitas espacio
+> **Seguridad eléctrica:** acomoda los cables del motor en una zona que los adultos conozcan y donde nadie pueda tropezar. La guía sobre [dónde instalar un inflable](/blog/donde-instalar-inflable-pasto-cemento-tierra/) explica cómo cambia el anclaje según el piso.
 
-> **Seguridad eléctrica:** Aísla los cables del soplador en una zona donde los adultos sepan dónde están. No deben quedar sueltos donde alguien tropiece.
+## ¿Qué cuidados de seguridad pide una fiesta al aire libre?
 
-## Tips de seguridad al aire libre: lo que todo papá debe saber
+Estos son los recordatorios que más repetimos a las familias antes de la fiesta. No por descuido de nadie, sino porque es fácil olvidarlos cuando estás pensando en el pastel, los invitados y la música.
 
-Los eventos al aire libre con inflables requieren algunas consideraciones de seguridad adicionales respecto a los interiores. Estas son las que más veces necesitamos recordarle a las familias antes de la fiesta, no porque sean negligentes — sino porque es fácil olvidar estas cosas cuando estás pensando en el pastel, los invitados y la música.
+- **Revisa el viento antes de la instalación.** Con viento fuerte el inflable se desinfla temporalmente por seguridad. En la CDMX las tardes de marzo y abril suelen ser ventosas; si tu fiesta cae en esa época, empieza más temprano.
+- **Revisa el suelo antes de que lleguemos.** Retira piedras, raíces salidas, juguetes o cualquier objeto que pueda dañar la base o lastimar a un niño. El equipo también lo revisa, pero conviene que esté hecho.
+- **Da sombra a los más pequeños.** Los menores de 4 años se acaloran más rápido. Si el inflable queda al sol, pon una sombrilla o toldo lateral en la entrada y la salida.
+- **Ten agua fría siempre a la mano.** Cuando los niños están entretenidos no recuerdan que tienen sed.
+- **Designa a un supervisor.** Un adulto responsable del inflable durante toda la fiesta: controla el acceso, respeta la capacidad confirmada al cotizar y evita juegos bruscos. Cuando todos supervisan, nadie supervisa. Las [normas de seguridad para juegos inflables](/blog/normas-de-seguridad-juegos-inflables/) son el guion que le puedes pasar a esa persona.
+- **Aplica protector solar antes.** Si la fiesta es entre las 11:00 y las 16:00, ponlo antes de que entren al inflable; una vez dentro, sacarlos para eso es casi imposible.
 
-Verifica el viento antes de la instalación. Con vientos fuertes (más de 40 km/h) el inflable debe deflactarse temporalmente por seguridad. En CDMX los vientos fuertes suelen presentarse en las tardes de marzo y abril. Si tu fiesta es en esa época, programa el inicio más temprano.
+## Lista de verificación: 3 días antes de la fiesta
 
-Revisa el suelo antes de que lleguemos. Retira piedras, raíces salidas, juguetes o cualquier objeto que pueda dañar la base del inflable o lastimar a los niños si caen. Nuestro equipo también lo revisa al llegar, pero siempre es mejor que esté hecho antes.
+1. Jardín medido y zona del inflable confirmada con BRINCOLINS.
+2. Contacto de 110 V a menos de 20 m del inflable.
+3. Inflable reservado con 50% de anticipo.
+4. Comida o banquete confirmado.
+5. Pastel encargado.
+6. Invitaciones enviadas y confirmaciones recibidas.
+7. Decoración comprada.
+8. Botiquín básico listo.
+9. Carpa o plan de lluvia definido.
+10. Adulto designado para vigilar el inflable.
 
-Provee sombra para los niños pequeños. Los niños menores de 4 años se sobrecalientan más rápido que los mayores. Si el inflable queda bajo sol directo, coloca una sombrilla o toldo lateral que dé sombra en la zona de entrada y salida.
+## ¿Cuándo es la mejor temporada para una fiesta en jardín en CDMX?
 
-Ten agua fría disponible siempre. Coloca botellas de agua o una hielera cerca del inflable. Cuando los niños están muy entretenidos, no recuerdan que tienen sed hasta que ya están deshidratados.
+El clima de la Ciudad de México divide el año en dos temporadas muy distintas para los eventos exteriores.
 
-Designa un supervisor específico. Nombra a un adulto como responsable del inflable durante toda la fiesta. Su única tarea es supervisar el acceso, respetar la capacidad confirmada al cotizar y evitar conductas de riesgo. Cuando todos supervisan, en realidad nadie supervisa; las 7 reglas de oro de seguridad en inflables son el guion que le puedes pasar a esa persona.
+| Temporada | Meses | Qué esperar | Recomendación |
+|---|---|---|---|
+| Ideal | Noviembre a mayo | Casi sin lluvia; entre 15 y 25 °C de día | Mediodía; abrigo para los más chicos en diciembre y enero |
+| Con precauciones | Junio a octubre | Lluvia por la tarde; días más cálidos | Fiesta de 10:00 u 11:00 a 15:00 con toldo y agua fría |
 
-Aplica protector solar antes del evento. Si la fiesta es entre las 11 AM y las 4 PM, recuerda aplicar protector solar a los niños antes de que usen el inflable. Una vez que entran al brincolín, conseguir que salgan para ponerse bloqueador es una misión imposible.
+En diciembre y enero las mañanas pueden ser frías si la fiesta empieza muy temprano. Marzo y abril tienen vientos ocasionales, y en esas condiciones usamos anclaje reforzado sin costo adicional.
 
-## Checklist final: 3 días antes de la fiesta
+## ¿Por qué las mesas picnic hacen la diferencia?
 
-Imprímelo y revisa:
+Las mesas de madera de MESPIC no son solo una alternativa estética a las mesas plegables de plástico. Cambian el tono del evento: mientras el plástico blanco dice "esto es práctico", la madera transmite que la fiesta se planeó con cuidado para los invitados.
 
-1.  ☐ Jardín medido y zona de inflable confirmada con BRINCOLINS
-2.  ☐ Electricidad verificada (contacto de 110 V a menos de 20 m del inflable)
-3.  ☐ Inflable reservado con 50% de anticipo
-4.  ☐ Catering o menú confirmado
-5.  ☐ Pastel ordenado
-6.  ☐ Invitaciones enviadas, confirmaciones recibidas
-7.  ☐ Decoración comprada (globos, guirnaldas)
-8.  ☐ Botiquín básico listo
-9.  ☐ Carpa o plan de lluvia definido
-10.  ☐ Adulto designado para vigilancia del inflable
+Ese mensaje se percibe desde que los invitados llegan y ven el jardín montado. Los adultos se sientan más cómodos, se quedan más tiempo en la zona de convivencia y hablan del evento después. Lo hemos visto en muchísimas fiestas: el mobiliario importa más de lo que parece.
 
-## Recomendaciones por temporada: cuándo es ideal en CDMX
+En las fotos, la madera natural combina con el verde del jardín y los colores del inflable, con cualquier luz y sin necesidad de mantelería elaborada.
 
-El clima de la Ciudad de México divide el año en dos temporadas muy distintas para los eventos exteriores. Conocer estas temporadas no es solo para evitar lluvia — es para entender cuándo tu jardín va a estar en sus mejores condiciones.
+## Siguiente paso: cotiza tu fiesta en jardín
 
-**Temporada ideal: noviembre a mayo.** Este período ofrece las mejores condiciones para fiestas en jardín en CDMX. Las lluvias son prácticamente inexistentes. Las temperaturas son agradables: entre 15°C y 25°C durante el día, con mañanas frescas que hacen que el inflable sea aún más atractivo para los niños. Los meses de diciembre y enero pueden ser fríos en las mañanas si la fiesta empieza muy temprano, así que en esas fechas considera tener ropa o cobijas para los invitados más chicos. Marzo y abril tienen vientos ocasionales — nosotros usamos anclaje reforzado en esas condiciones sin costo adicional.
+Para las mesas picnic, visita a nuestros aliados en [mesaspicnic.com](https://mesaspicnic.com) y menciona que vienes de BRINCOLINS. Para el inflable, mándanos las medidas del jardín, fotos del área, la fecha y las edades de los niños, y [cotiza en línea](/cotizar/) o escríbenos por WhatsApp al 55 3128 1706, de lunes a domingo de 8:00 a 20:00.
 
-**Temporada con precauciones: junio a octubre.** La temporada de lluvias concentra sus precipitaciones en las tardes, lo que hace perfectamente viable organizar fiestas matutinas en exterior. Con inicio a las 10-11 AM y término antes de las 3 PM, la probabilidad de lluvia es baja y la experiencia es excelente. Las temperaturas en estos meses son más cálidas, lo que hace que el inflable sea todavía más usable para los niños. Ten agua fría siempre disponible.
-
-## Por qué las mesas picnic marcan la diferencia
-
-Las mesas picnic de madera de MESPIC no son simplemente una alternativa estética a las mesas plegables de plástico. Representan una filosofía diferente del evento. Mientras las mesas de plástico blanco transmiten "esto es práctico y funcional", las mesas picnic de madera dicen algo que los invitados sienten aunque no lo articulen: "planeamos esto con cuidado para que te sintieras especial aquí."
-
-Ese mensaje, transmitido de forma silenciosa desde que los invitados llegan y ven el jardín montado, eleva la percepción de toda la fiesta. Los adultos se sientan más cómodos, permanecen más tiempo en la zona de convivencia y hablan del evento con más entusiasmo después. Lo hemos visto en incontables fiestas — el mobiliario importa más de lo que parece.
-
-Desde el punto de vista fotográfico, la madera natural de las mesas picnic complementa perfectamente el verde del jardín y los colores del inflable. Son las mesas que se ven bien en todas las fotos, con cualquier tipo de luz, sin necesidad de mantelería elaborada ni decoración excesiva.
-
-Para reservar tus mesas picnic para la fiesta, visita a nuestros aliados en [mesaspicnic.com](https://mesaspicnic.com) y menciona que vienes de BRINCOLINS. Y para el inflable que va a entretener a los niños durante horas, escríbenos al WhatsApp **5531281706** o [cotiza directamente aquí](/cotizar/). Para elegir la superficie correcta revisa [dónde instalar un inflable](/blog/donde-instalar-inflable-pasto-cemento-tierra/).
-
-Lo que más nos importa después de 20 años en este negocio no es que reserves con nosotros — es que tu fiesta salga bien. Que los niños briquen, que los papás descansen, que el jardín se vea exactamente como lo imaginaste. Esa satisfacción es la que hace que las familias nos llamen para el siguiente cumpleaños. Y para el siguiente. Y para el siguiente.
+Después de 20 años en esto, lo que más nos importa es que tu fiesta salga bien: que los niños brinquen, que los papás descansen y que el jardín se vea como lo imaginaste.

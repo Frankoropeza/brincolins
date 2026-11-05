@@ -1,15 +1,15 @@
 ---
-title: "Zona infantil en pedida de mano: guía práctica"
+title: "Zona infantil en pedida de mano: horario, lugar y logística"
 h1: "Cómo integrar una zona infantil en una pedida de mano o fiesta de compromiso"
-description: "Zona infantil en pedida de mano: organiza el Castillo Blanco, horarios, ubicación, supervisión y logística en CDMX sin romper el ambiente."
+description: "Cómo sumar una zona infantil a una pedida de mano sin romper el ambiente: horario, ubicación, supervisión y costos del Castillo Blanco. Planea y cotiza."
 excerpt: "Una pedida de mano puede incluir niñas y niños sin convertir la reunión en una fiesta infantil. Planea una zona de juego con horario, distancia y responsables claros."
 publishDate: "2026-11-02"
 updatedDate: "2026-11-04"
 category: "Castillo Blanco"
 author: "Equipo BRINCOLINS"
-readTime: "18 min"
-heroImage: "/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif"
-heroImageAlt: "Castillo Blanco de BRINCOLINS instalado en un espacio exterior"
+readTime: "14 min"
+heroImage: "/img/blog/inflable-en-pedida-de-mano-o-compromiso/portada.avif"
+heroImageAlt: "Jardín de una casa preparado para una pedida de mano, con mesas vestidas de blanco y un área lateral libre para juego infantil"
 galleryImages:
   - "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-terraza-cdmx.avif"
   - "/img/inflables/castillo-blanco-salon-bodas-cdmx.avif"
@@ -32,21 +32,25 @@ faqs:
     answer: "Colócalo en un lateral visible desde las mesas familiares, pero fuera de la entrada, el fondo de fotos, la mesa de alimentos y el recorrido de meseros. El Castillo Blanco es de exterior: el punto elegido debe estar despejado, tener 4.7 metros de altura libre y una toma de 110 V a menos de 20 metros."
   - question: "¿En qué momento se abre la zona infantil durante una pedida?"
     answer: "Lo más práctico es mantenerla cerrada durante la llegada y el momento del anillo, abrirla en el cóctel o después de las fotos familiares, y pausarla durante la comida. Ajusta el bloque al programa real y asigna a una persona adulta que supervise entrada, salida y turnos durante todo el uso."
-  - question: "¿Quién puede usar el Castillo Blanco en una fiesta de compromiso?"
-    answer: "El rango publicado del Castillo Blanco es de 3 a 12 años. No se renta para bebés, adolescentes ni adultos, aunque el evento sea familiar. Si hay niños de edades muy distintas, organiza turnos para evitar choques por tamaño y mantén fuera zapatos, alimentos, bebidas y objetos punzantes."
   - question: "¿Se puede instalar el Castillo Blanco en un salón de eventos?"
     answer: "Sólo en un jardín o área exterior que cumpla las condiciones de instalación. El modelo mide 5 × 7 × 4 metros, requiere 4.7 metros de altura libre y no es apto para interiores. Una carpa, pérgola, ramas, cables o techo bajo pueden impedir su instalación aunque el salón tenga patio."
   - question: "¿Cuánto cuesta una zona infantil con Castillo Blanco en CDMX?"
     answer: "La renta neta publicada del Castillo Blanco es de $2,600 por evento e incluye instalación, motor inflador, sanitización y recolección. El traslado se confirma según la colonia y se agrega 16% de IVA a la renta si requieres factura. Decoración, mobiliario y supervisión adicional no se dan por incluidos."
   - question: "¿Qué ocurre si llueve el día de una pedida al aire libre?"
-    answer: "El inflable no debe usarse con lluvia, granizo o viento fuerte. Antes de apartar, revisa el pronóstico, confirma que el jardín sea exterior y consulta las condiciones de reprogramación. Un toldo bajo no resuelve el problema, porque el Castillo Blanco requiere 4.7 metros de altura libre."
+    answer: "El inflable no debe usarse con lluvia, granizo o viento fuerte. Si la lluvia impide usarlo, la renta se reprograma sin costo a otra fecha disponible. Un toldo bajo no resuelve el problema, porque el Castillo Blanco requiere 4.7 metros de altura libre."
 ---
 
-Una **zona infantil en pedida de mano** no tiene que cambiar el tono de la reunión. Bien puesta, permite que las niñas y los niños tengan su propio espacio mientras las familias platican, se sirven el cóctel y llega el momento de entregar el anillo. Mal ubicada, corta las fotos, invade el servicio y deja a los adultos tratando de vigilar desde lejos.
+Una **zona infantil en pedida de mano** funciona con el [Castillo Blanco para eventos formales](/inflables/castillo-blanco/) si la sede tiene un jardín exterior con 4.7 m de altura libre. Es para niñas y niños de 3 a 12 años, mide 5 × 7 × 4 m y se instala en unos 30 minutos. Ábrelo después del anillo, en un lateral y con una persona adulta a cargo.
 
-El punto no es encender un brincolín desde que llegan los invitados. Es decidir qué bloque del programa necesita actividad infantil y reservar un área lateral donde el juego no le gane visualmente a la pareja ni al montaje principal.
+**Puntos clave**
 
-> **Respuesta rápida:** Una zona infantil en pedida de mano funciona con el [Castillo Blanco para eventos formales](/inflables/castillo-blanco/) si la sede tiene un área exterior viable. El modelo es para niñas y niños de 3 a 12 años, mide 5 × 7 × 4 m, requiere 4.7 m de altura libre y tarda cerca de 30 minutos en instalarse. Ábrelo después del momento del anillo y con una persona adulta a cargo.
+- La zona infantil va cerrada durante la llegada, la entrega del anillo y la comida; se abre en el cóctel.
+- El mejor lugar es un lateral del jardín, visible desde las mesas familiares y fuera del fondo de fotos.
+- El Castillo Blanco es solo para exterior: pérgolas, carpas bajas o techos lo descartan.
+- Bebés y menores de 3 años necesitan un espacio aparte, como el Castillo Baby o una zona de tapetes.
+- La renta es de $2,600 netos por evento con instalación y recolección; el traslado depende de la colonia.
+
+Bien puesta, la zona infantil permite que los niños tengan su espacio mientras las familias platican y llega el momento del anillo. Mal ubicada, corta las fotos, invade el servicio y deja a los adultos vigilando desde lejos. El punto no es encender un brincolín desde que llegan los invitados, sino decidir qué bloque del programa necesita actividad infantil y reservar un área donde el juego no le gane visualmente a la pareja.
 
 ## ¿Por qué una zona infantil ayuda en una pedida de mano con familias?
 
@@ -146,11 +150,13 @@ En las pedidas es común que haya sobrinos de todas las edades. El Castillo Blan
 
 Lo que no conviene es mezclar a un niño de 10 años con uno de 2 en el mismo inflable. La diferencia de tamaño es justo lo que causa choques.
 
-## Checklist del día de la pedida
+![Mesas familiares en un jardín con un área de juego infantil al fondo, separada por un pasillo de pasto](/img/blog/inflable-en-pedida-de-mano-o-compromiso/escena-1.avif "La zona infantil a un costado, visible desde las mesas y lejos del fondo de fotos.")
+
+## ¿Qué revisar el día de la pedida?
 
 Quien coordine a los proveedores puede usar esta lista para que la zona infantil no le quite atención al evento:
 
-1. **Antes de que llegue el equipo:** área despejada, toma de 110V ubicada y una persona que reciba en la entrada. El Castillo Blanco tarda unos 30 minutos en instalarse.
+1. **Antes de que llegue el equipo:** área despejada, toma de 110 V ubicada y una persona que reciba en la entrada. El Castillo Blanco tarda unos 30 minutos en instalarse.
 2. **Antes de los invitados:** confirmar que el inflable no aparece en el fondo de fotos de la pareja y que la ruta de meseros no pasa frente a la entrada del juego.
 3. **Durante la llegada y el anillo:** zona cerrada. Si los niños preguntan, ya saben a qué hora abre.
 4. **Al abrir:** anunciar las reglas una sola vez (sin zapatos, sin comida, turnos) y dejar a la persona responsable junto a la entrada.
@@ -185,4 +191,4 @@ También explica cuándo quieres abrir el inflable. Decir “después del anillo
 
 Si los niños invitados son mayores y quieres una actividad de carreras, no fuerces el Castillo Blanco a cumplir otro papel: compara la [pista de obstáculos inflable y su precio](/inflables/extremo/) para revisar un formato de juego distinto antes de elegir.
 
-Cuando tengas esos datos, [cotiza el Castillo Blanco para tu pedida de mano](/cotizar/) y confirma disponibilidad antes de coordinar decoración o proveedores. También puedes escribir al WhatsApp 55 3128 1706 con fotos del lugar, fecha y horario para revisar la instalación.
+Cuando tengas esos datos, [cotiza el Castillo Blanco para tu pedida de mano](/cotizar/) y confirma disponibilidad antes de coordinar decoración o proveedores. También puedes escribir al WhatsApp 55 3128 1706, de lunes a domingo de 8:00 a 20:00, con fotos del lugar, fecha y horario para revisar la instalación.

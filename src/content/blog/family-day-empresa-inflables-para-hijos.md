@@ -1,13 +1,13 @@
 ---
-title: "Family day empresa: área infantil con inflables en 6 pasos"
+title: "Family day de empresa: área infantil con inflables"
 h1: "Family day de empresa: cómo montar el área infantil con inflables para los hijos de tu equipo"
-description: "Family day empresa: arma el área infantil con inflables para hijos de 1 a 12 años, con supervisión, horario y factura con IVA. Cotiza por WhatsApp."
+description: "Family day de empresa: arma el área infantil con inflables para hijos de 1 a 12 años, con supervisión, horario y factura con IVA. Cotiza por WhatsApp."
 excerpt: "Para quien organiza desde RH: qué inflables cubren de 1 a 12 años, cómo se reparten los supervisores y qué cerrar con el venue para que las familias se queden todo el día."
 publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
 category: "Extremo"
 author: "Equipo BRINCOLINS"
-readTime: "16 min"
+readTime: "15 min"
 heroImage: "/img/inflables/extremo/extremo-lateral-evento.avif"
 heroImageAlt: "Circuito Extremo armado frente a una barda de block, con túneles, obstáculos y arcos morados sobre pasto"
 galleryImages:
@@ -37,13 +37,17 @@ faqs:
     answer: "No ofrecemos seguro de responsabilidad civil. Si el venue lo pide como requisito, pregúntalo a su administración con anticipación para que la empresa lo resuelva por su lado. Lo que sí incluye la renta es equipo revisado y sanitizado, anclaje verificado y motor profesional durante todo el evento."
 ---
 
-Piensa en el sábado del family day. Son las once de la mañana. Las familias van llegando, RH reparte gafetes y un niño de 6 años ya preguntó tres veces dónde están los juegos. Si el área infantil no está lista, sus papás pasan el día cuidándolo en lugar de convivir.
+En un family day de empresa, el área infantil se cubre con dos inflables: el Extremo para niños de 3 a 12 años, a $2,500 netos, y el Castillo Baby para los de 1 a 3, a $1,400. Son solo para niños; la empresa asigna a los supervisores adultos y, si necesitas factura, se agrega 16% de IVA.
 
-Un family day empresa funciona cuando los hijos de los colaboradores tienen un espacio propio, ordenado y supervisado. Si te toca organizarlo desde Recursos Humanos o desde el comité, necesitas resolver esa área como parte del evento. No como un añadido de última hora.
+**Puntos clave**
 
-Te dejamos el orden de decisiones: qué datos pedir, qué inflables cubren de 1 a 12 años, cómo se arma el horario, quién supervisa, qué cerrar con el venue y cómo se factura.
+- Para cotizar, lo que importa es la lista de edades de los niños, no el total de invitados.
+- Si el venue es techado, el Extremo no entra: Gusanitos y Castillo Baby admiten interiores.
+- Los inflables se cierran durante la comida y los turnos se separan por edad.
+- Cada inflable necesita un supervisor con nombre y turno, y una toma de 110 V a menos de 20 m.
+- Los colaboradores no brincan: participan como jueces, cronometristas o porra desde fuera.
 
-> **Respuesta rápida:** En un family day empresa, el área infantil se cubre con dos inflables: el Extremo para niños de 3 a 12 años, a $2,500 neto, y el Castillo Baby para los de 1 a 3, a $1,400. Son sólo para niños; la empresa asigna a los supervisores adultos y, si necesitas factura, se agrega 16% de IVA.
+Piensa en el sábado del family day. Son las once de la mañana, las familias van llegando, RH reparte gafetes y un niño de 6 años ya preguntó tres veces dónde están los juegos. Si el área infantil no está lista, sus papás pasan el día cuidándolo en lugar de convivir. Aquí tienes el orden de decisiones: datos, modelos, horario, supervisión, venue y factura.
 
 ## ¿Qué datos necesitas antes de pedir la cotización del área infantil?
 
@@ -121,7 +125,7 @@ Aquí entran las carreras en doble carril y el contra reloj. Es el bloque con m�
 
 #### Competencias entre áreas
 
-¿Quieres darle identidad corporativa? Que cada niño corra representando el área de su mamá o su papá: Finanzas contra Operaciones, Ventas contra Sistemas. Los papás se pican. En la premiación funciona de maravilla, siempre con los niños dentro del inflable y los adultos fuera.
+¿Quieres darle identidad corporativa? Que cada niño corra representando el área de su mamá o su papá: Finanzas contra Operaciones, Ventas contra Sistemas. Los papás se pican. En la premiación funciona muy bien, siempre con los niños dentro del inflable y los adultos fuera.
 
 ### Cierre durante la comida
 
@@ -163,7 +167,9 @@ Tienes que cerrar el acceso del vehículo, el horario de montaje, la corriente, 
 
 Si el área es de concreto, lo que cambia (lastre, lona, pendiente) lo tienes en la guía para [instalar el circuito en explanada o estacionamiento](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/). ¿Y dónde va el área? Cerca de las mesas de las familias, lejos de las bocinas y de la zona de comida, con sombra para la fila y agua a la mano.
 
-Para la logística del evento completo, con tiempos y flujo de personas, la guía para team building de RH que enlazamos arriba complementa este plan.
+![Jardín de eventos con mesas para familias bajo carpas, un área infantil delimitada con vallas bajas y una mesa con agua junto a la fila](/img/blog/family-day-empresa-inflables-para-hijos/escena-1.avif "El área infantil, a la vista de las mesas y lejos de las bocinas y la cocina")
+
+Para la logística del evento completo, la guía sobre inflables para eventos de empresa que enlazamos arriba complementa este plan.
 
 ## ¿Cómo funciona la cotización empresarial y la factura con IVA?
 
@@ -199,7 +205,7 @@ La recolección también se agenda. Si el evento cierra con premiación, deja qu
 
 En el Valle de México llueve sobre todo de junio a septiembre, casi siempre por la tarde. Si tu family day cae en esa temporada, pide al venue un área techada de respaldo y confirma con nosotros qué modelo cabe ahí (el Extremo no entra bajo techo). Si cae en diciembre o enero, el problema es el frío de la mañana: abre el área infantil cuando ya pegó el sol y avisa en la invitación que traigan chamarra para los ratos fuera del inflable. Hay más ideas para esa temporada en la guía de [fiestas al aire libre en invierno](/blog/fiesta-infantil-en-invierno-al-aire-libre-cdmx/).
 
-## Family day en corporativos del poniente y el norte
+## ¿Qué cambia en corporativos del poniente y el norte?
 
 Muchas empresas tienen oficinas en Santa Fe, Polanco o los corredores industriales del norte, pero el family day se hace en otro lugar: un club deportivo, un jardín de eventos o las instalaciones de la propia planta. Lo que importa para el inflable es la dirección del venue, no la de la oficina.
 
@@ -229,7 +235,7 @@ Casi todos nacen en la planeación, no el día del evento. Revísala con calma. 
 - **Montar el Extremo bajo techo.** Es sólo para exterior; si el venue es techado, cambia de modelo.
 - **Dejar los inflables abiertos durante la comida.** Correr recién comido termina en malestar y en filas desordenadas.
 
-## Cotiza el área infantil de tu family day
+## Siguiente paso: cotiza el área infantil de tu family day
 
 Las fechas de fin de semana se llenan, y la disponibilidad se confirma por WhatsApp. Si tu comité ya tiene fecha y venue, aparta hoy. Tacha de tu lista la parte que más preguntas genera entre los papás.
 

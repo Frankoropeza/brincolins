@@ -1,109 +1,119 @@
 ---
-title: "Inflables para eventos corporativos en CDMX: guía de renta"
-h1: "Inflables para Eventos Corporativos: La Guía Completa"
-description: "Inflables para eventos corporativos en CDMX: family day, kermeses e integración. 8 modelos, precios de $1,400 a $2,600 MXN y factura disponible."
-excerpt: "Cada vez más empresas en CDMX incorporan inflables en su family day, kermés de empresa o cierre de año. Te decimos con qué modelos contamos de verdad, cuánto cuestan y qué necesitas para montarlos."
+title: "Inflables para eventos corporativos: precios y logística"
+h1: "Inflables para eventos corporativos en CDMX: modelos, precios, logística y dinámicas"
+description: "Inflables para eventos corporativos y family day en CDMX: qué modelos usar, precios de $1,400 a $2,600, factura, espacio y dinámicas por edad. Cotiza."
+excerpt: "Cada vez más empresas en CDMX suman inflables a su family day, kermés de empresa o cierre de año. Te decimos con qué modelos contamos de verdad, cuánto cuestan y qué necesitas para montarlos."
 publishDate: "2025-03-15"
 updatedDate: "2026-11-04"
 category: "Eventos"
 author: "Equipo BRINCOLINS"
-readTime: "17 min"
+readTime: "14 min"
 heroImage: "/img/blog/blog-inflables-para-adultos-eventos-corporativos.avif"
-heroImageAlt: "Inflables para eventos corporativos y family day en CDMX — BRINCOLINS"
+heroImageAlt: "Inflables para eventos corporativos y family day en la Ciudad de México"
 intro:
-  - "Los **inflables en eventos corporativos** son la manera más simple de que un family day o una kermés de empresa deje de sentirse como una junta al aire libre. En **BRINCOLINS** trabajamos con empresas de todos los tamaños en la **ZMVM**, y lo primero que decimos es lo que muchos proveedores callan: **nuestro catálogo son 8 modelos, todos infantiles y juveniles**. No tenemos rings de boxeo ni canchas deportivas inflables."
-  - "Esta guía cubre qué modelos funcionan de verdad en un evento de empresa, cuánto cuestan (de **$1,400 a $2,600 MXN** por inflable), la logística de espacio y electricidad, y cómo armar la dinámica. Si tu empresa necesita **factura fiscal**, se agrega el 16% de IVA. Escríbenos por **WhatsApp** para una cotización sin compromiso."
+  - "Los **inflables en eventos corporativos** son una forma simple de que un family day o una kermés de empresa deje de sentirse como una junta al aire libre. En **BRINCOLINS** trabajamos con empresas en la **ZMVM**, y lo primero que aclaramos es esto: **nuestro catálogo son 8 modelos, todos para niñas y niños**. No tenemos rings de boxeo ni canchas deportivas inflables."
+  - "Esta guía cubre qué modelos funcionan en un evento de empresa, cuánto cuestan (de **$1,400 a $2,600 MXN** por inflable), la logística de espacio y electricidad y cómo armar la dinámica para los hijos de los colaboradores. Si tu empresa necesita **factura**, se agrega el 16% de IVA."
 tags:
   - "renta inflables CDMX"
   - "inflables para adultos eventos corporativos"
   - "fiestas infantiles"
 faqs:
   - question: "¿Qué inflables tiene BRINCOLINS para un evento corporativo?"
-    answer: "Nuestro catálogo son 8 modelos: Castillo Baby, Dragones Rojos, Castillo de Princesas, Jungla, Gusanitos, Castillo Blanco, Barco Pirata y Extremo. El más solicitado para eventos de empresa es el Extremo ($2,500 MXN), un circuito de obstáculos en doble carril recomendado de 3 a 12 años. Para un family day con hijos de colaboradores, lo habitual es combinar el Extremo con un modelo para los más pequeños."
+    answer: "El catálogo son 8 modelos: Castillo Baby, Dragones Rojos, Castillo de Princesas, Jungla, Gusanitos, Castillo Blanco, Barco Pirata y Extremo. Para eventos de empresa el más solicitado es el Extremo ($2,500 MXN), un circuito de obstáculos de doble carril para 3 a 12 años. En un family day lo habitual es combinarlo con un modelo para los más pequeños."
+  - question: "¿Los colaboradores adultos pueden usar los inflables?"
+    answer: "Solo en tres modelos: el Circuito Extremo, el Barco Pirata y el Castillo Blanco, hechos con lona reforzada para peso y altura de adolescente o adulto. El resto del catálogo es infantil. Si en tu evento van a participar adultos, avísanos al cotizar para asignar el modelo y organizar turnos separados de los niños."
   - question: "¿Cuánto cuesta rentar inflables para un evento de empresa en CDMX?"
-    answer: "El precio es por inflable y va de $1,400 a $2,600 MXN por evento de 4 a 6 horas, con instalación, sanitización y recolección incluidos. La entrega sin costo adicional depende de la zona. Si rentas 2 o más inflables, mándanos el número de asistentes y las medidas del espacio por WhatsApp y te armamos la cotización. Si necesitas factura, se agrega el 16% de IVA."
+    answer: "El precio es por inflable y va de $1,400 a $2,600 MXN por evento de 4 a 6 horas, con instalación, sanitización y recolección incluidas. El traslado se cobra según la zona. Si rentas dos o más inflables, manda el número de niños y las medidas del espacio por WhatsApp para armar la cotización."
   - question: "¿Emiten factura para eventos corporativos?"
-    answer: "Sí, emitimos factura fiscal para eventos corporativos; al pedirla se agrega el 16% de IVA. El gasto puede registrarse como evento de integración de personal. Solicítala al cotizar."
+    answer: "Sí. Al pedir factura se agrega 16% de IVA al precio neto. Solicítala desde la cotización e indica si tu área de compras necesita un concepto u orden de compra específicos."
   - question: "¿Con cuánta anticipación debo reservar para un evento de empresa?"
-    answer: "Recomendamos reservar con mínimo 2 semanas de anticipación. En temporadas altas como fin de año (noviembre-diciembre) o verano (julio-agosto), lo ideal es hacerlo con 3-4 semanas. Escríbenos por WhatsApp con tu fecha y verificamos disponibilidad al momento."
+    answer: "Conviene reservar en cuanto tengas la fecha autorizada, sobre todo si coincide con fin de año o vacaciones de verano. Considera también el tiempo del alta de proveedor y del anticipo del 50%. Escríbenos por WhatsApp con tu fecha y verificamos disponibilidad."
 ---
 
-## ¿Por qué usar inflables en eventos corporativos?
+Los inflables para eventos corporativos funcionan como zona para los hijos de los colaboradores en un family day, una kermés de empresa o un cierre de año. El catálogo de BRINCOLINS son 8 modelos para niñas y niños, de $1,400 a $2,600 MXN por evento, con instalación y recolección incluidas. El más pedido es el [circuito Extremo de doble carril](/inflables/extremo/), para 3 a 12 años.
 
-La tendencia de integrar actividades lúdicas en el entorno empresarial no es nueva, pero ha crecido significativamente en los últimos años. Los departamentos de recursos humanos y los organizadores de eventos corporativos han descubierto que las actividades físicas y recreativas generan un impacto positivo medible en la moral del equipo, la comunicación entre departamentos y la retención de talento.
+**Puntos clave**
 
-Un inflable bien seleccionado rompe las barreras jerárquicas que suelen existir en una oficina. Cuando el director de finanzas y el becario se cronometran en el mismo circuito de obstáculos, se genera un vínculo que difícilmente se logra con una presentación de PowerPoint o una cena formal. Esa naturalidad es exactamente lo que buscan las empresas modernas.
+- Solo el Extremo, el Barco Pirata y el Castillo Blanco admiten adultos; el resto del catálogo es infantil y los adultos arbitran desde fuera.
+- Un family day típico combina el Extremo con un modelo para los más pequeños.
+- Cada inflable necesita una toma de 110 V a menos de 20 m y su propio contacto.
+- El alta de proveedor, la orden de compra y el anticipo del 50% se resuelven antes de la fecha.
+- Con factura se agrega 16% de IVA; el traslado se cobra según la zona del inmueble.
 
-## Qué modelos tenemos realmente (y cuáles no)
+## ¿Por qué usar inflables en un evento de empresa?
 
-Empecemos por lo que no vas a encontrar aquí: **no tenemos rings de boxeo, canchas deportivas, toboganes gigantes de 6 metros ni inflables acuáticos.** Si un proveedor te los ofrece, perfecto — pero no somos nosotros, y preferimos decírtelo ahora y no el día del evento.
+Las empresas buscan cada vez más eventos donde las familias de los colaboradores también participen. Un inflable resuelve la parte más difícil de esos eventos: tener a los niños ocupados, en un área delimitada y con supervisión, mientras los adultos conviven.
 
-Nuestro catálogo son **8 modelos**, y estos son los que mejor funcionan en un evento de empresa:
+También cambia la dinámica entre adultos. Cuando el director de finanzas y el becario cronometran juntos las carreras de sus hijos o hacen porra desde la orilla del circuito, se genera una convivencia que difícilmente logra una cena formal o una presentación.
 
-### Extremo — el circuito de obstáculos
+## ¿Qué modelos tenemos y cuáles no?
 
-Es el modelo que más se renta para eventos corporativos. Un **circuito de obstáculos en doble carril** que permite competencias por equipos. Mide 8×4.5×3.50 m y está recomendado de 3 a 12 años. Las dinámicas que mejor funcionan están más abajo, en la sección de team building.
+Empecemos por lo que no vas a encontrar aquí: **no tenemos rings de boxeo, canchas deportivas, toboganes gigantes ni inflables acuáticos.** Si otro proveedor te los ofrece, está bien, pero no somos nosotros, y preferimos decírtelo ahora y no el día del evento.
 
-### Barco Pirata — el más grande del catálogo
+El catálogo son **8 modelos**, y estos son los que mejor funcionan en un evento de empresa:
 
-Con 6×3.5×3.80 m es un modelo imponente y el que más llama la atención de lejos: mástil, banderas y tobogán. Está recomendado de 3 a 12 años. En un family day es el que genera la fila de fotos.
+### Extremo: el circuito de obstáculos
 
-### Castillo Blanco — para el evento formal
+Es el modelo que más se renta para eventos corporativos. Un **circuito de obstáculos en doble carril** que permite carreras y relevos por equipos de niños. Mide 8 × 4.5 × 3.50 m y es para niños de 3 a 12 años. Las dinámicas que mejor funcionan están más abajo.
 
-Si tu evento tiene una estética cuidada (aniversario de la empresa, inauguración, activación de marca), el Castillo Blanco de 5×7×4 m tiene la ventaja de ser neutro: no pelea con los colores de tu marca ni con la decoración. Está recomendado de 3 a 12 años.
+### Barco Pirata: el más grande del catálogo
 
-### Los modelos para los más pequeños
+Con 6 × 3.5 × 3.80 m es el que más llama la atención de lejos: mástil, banderas y tobogán. Es para niños de 3 a 12 años y, en un family day, suele ser el favorito para las fotos familiares desde fuera.
 
-En un family day siempre hay hijos de colaboradores pequeños, y meterlos al Extremo no es opción. Para los de 1 a 3 años va el **[Castillo Baby](/inflables/mini-castillo/)** (2.5×2×2 m). De 2 a 8 años funcionan los **Gusanitos** (5×3×2.80 m, circuito de túneles) y de 3 a 8 años los temáticos **[Dragones Rojos](/inflables/dragones-rojos/)**, **Jungla** y, de 2 a 10 años, **Castillo de Princesas**.
+### Castillo Blanco: para eventos con estética cuidada
 
-| Modelo | Espacio libre | Medidas | Capacidad | Precio |
+Si tu evento tiene una imagen cuidada (aniversario de la empresa, inauguración o activación de marca), el Castillo Blanco de 5 × 7 × 4 m tiene la ventaja de ser neutro: no pelea con los colores de tu marca ni con la decoración. Es para niños de 3 a 12 años.
+
+### Modelos para los más pequeños
+
+En un family day siempre hay hijos pequeños, y meterlos al Extremo no es opción. Para los de 1 a 3 años va el **[Castillo Baby](/inflables/mini-castillo/)** (2.5 × 2 × 2 m). De 2 a 8 años funciona **Gusanitos** (5 × 3 × 2.80 m, circuito de túneles); de 3 a 8 años, los temáticos **[Dragones Rojos](/inflables/dragones-rojos/)** y **Jungla**, y de 2 a 10 años, el **Castillo de Princesas**.
+
+| Modelo | Edades | Medidas | Capacidad y espacio libre | Precio |
 | --- | --- | --- | --- | --- |
-| Castillo Baby | Se confirma al cotizar | 2.5×2×2 m | Se confirma al cotizar | $1,400 MXN |
-| Dragones Rojos | Se confirma al cotizar | 5×3×2.80 m | Se confirma al cotizar | $1,600 MXN |
-| Castillo de Princesas | Se confirma al cotizar | 5×3.30×3 m | Se confirma al cotizar | $1,800 MXN |
-| Jungla | Se confirma al cotizar | 5×3×2.50 m | Se confirma al cotizar | $1,600 MXN |
-| Gusanitos | Se confirma al cotizar | 5×3×2.80 m | Se confirma al cotizar | $1,600 MXN |
-| Castillo Blanco | Se confirma al cotizar | 5×7×4 m | Se confirma al cotizar | $2,600 MXN |
-| Barco Pirata | Se confirma al cotizar | 6×3.5×3.80 m | Se confirma al cotizar | $2,300 MXN |
-| Extremo | Se confirma al cotizar | 8×4.5×3.50 m | Se confirma al cotizar | $2,500 MXN |
+| Castillo Baby | 1 a 3 años | 2.5 × 2 × 2 m | Se confirma al cotizar | $1,400 MXN |
+| Dragones Rojos | 3 a 8 años | 5 × 3 × 2.80 m | Se confirma al cotizar | $1,600 MXN |
+| Jungla | 3 a 8 años | 5 × 3 × 2.50 m | Se confirma al cotizar | $1,600 MXN |
+| Gusanitos | 2 a 8 años | 5 × 3 × 2.80 m | Se confirma al cotizar | $1,600 MXN |
+| Castillo de Princesas | 2 a 10 años | 5 × 3.30 × 3 m | Se confirma al cotizar | $1,800 MXN |
+| Barco Pirata | 3 a 12 años | 6 × 3.5 × 3.80 m | Se confirma al cotizar | $2,300 MXN |
+| Extremo | 3 a 12 años | 8 × 4.5 × 3.50 m | Se confirma al cotizar | $2,500 MXN |
+| Castillo Blanco | 3 a 12 años | 5 × 7 × 4 m | Se confirma al cotizar | $2,600 MXN |
 
-Todos los precios son netos, por evento de 4 a 6 horas, e incluyen entrega, instalación, sanitización y recolección. Se agrega el 16% de IVA cuando pides factura CFDI, y en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX se suma el envío según la distancia. La tabla también está publicada en la [página de precios](/precios/).
+Todos los precios son netos, por evento de 4 a 6 horas, e incluyen instalación, sanitización y recolección. Se agrega 16% de IVA cuando pides factura, y el traslado se cobra según la zona. La tabla también está publicada en la [página de precios](/precios/).
 
-## Beneficios comprobados del team building con inflables
+## ¿Qué aporta un inflable a un evento corporativo familiar?
 
-Integrar actividades físicas recreativas en eventos corporativos no es solo diversión. Los beneficios son tangibles y medibles:
+Integrar una zona infantil bien organizada en un evento de empresa tiene beneficios concretos:
 
-- **Mejora la comunicación:** Las actividades en equipo obligan a los participantes a coordinarse, comunicarse y tomar decisiones rápidas fuera de su zona de confort habitual.
-- **Reduce el estrés:** La actividad física libera endorfinas. Después de una sesión de obstáculos inflables, los niveles de cortisol del equipo disminuyen notablemente.
-- **Fortalece vínculos:** Compartir experiencias divertidas y ligeramente retadoras crea memorias compartidas que fortalecen la cohesión del grupo.
-- **Inclusividad:** A diferencia de deportes tradicionales, los inflables nivelan las habilidades. No necesitas ser atleta para disfrutarlos.
-- **Contenido para redes:** Las fotos y videos en inflables corporativos generan engagement orgánico en las redes de la empresa y de los colaboradores.
+- **Los colaboradores con hijos pueden asistir.** Sin una actividad para los niños, muchos papás no van o se van temprano.
+- **Los adultos conviven de verdad.** Con los niños ocupados y supervisados, las conversaciones entre áreas se dan solas.
+- **Se crean momentos compartidos.** Una carrera de relevos con porra de toda la empresa genera conversación interna días después.
+- **Es incluyente.** No hace falta ser atleta para disfrutar el circuito, y cada niño participa a su ritmo.
+- **Deja material para comunicación interna.** Las fotos de la porra y la premiación funcionan para los canales de la empresa, siempre con autorización de las familias.
 
-## Cómo organizar un evento corporativo con inflables en CDMX
+## ¿Cómo organizas un evento corporativo con inflables en CDMX?
 
-Planear un evento corporativo con inflables requiere considerar varios factores logísticos que difieren de una fiesta infantil convencional. Aquí una guía paso a paso:
+Planear un evento de empresa con inflables tiene factores logísticos distintos a los de una fiesta en casa. Estos son los pasos, en orden.
 
 ### 1. Define el objetivo del evento
 
-Antes de elegir el inflable, determina qué quieres lograr. Si el objetivo es integración entre departamentos, el Extremo y su circuito en doble carril es lo indicado: la competencia por equipos se arma sola. Si buscas una celebración relajada tipo family day, combina dos o tres modelos por edades con áreas de descanso.
+Si el objetivo es una dinámica de competencia y porras, el Extremo y su doble carril son lo indicado: los relevos por equipos se arman solos. Si buscas una celebración relajada tipo family day, combina dos o tres modelos por edades con áreas de descanso.
 
 ### 2. Evalúa el espacio disponible
 
-Cada modelo tiene su requerimiento y conviene medir antes de prometer. El Extremo y el Barco Pirata van en exterior. Los estacionamientos corporativos, explanadas y jardines de hoteles suelen ser excelentes opciones. Si tu evento es bajo techo, confirma al cotizar qué modelos son viables para el lugar.
+Cada modelo tiene su requerimiento y conviene medir antes de prometer. El Extremo y el Barco Pirata van en exterior. Los estacionamientos corporativos descubiertos, las explanadas y los jardines de hotel suelen ser buenas opciones. Si el evento es bajo techo, solo entran los modelos aptos para interiores, con 3.2 m de altura libre.
 
-### 3. Considera el número de participantes
+### 3. Calcula cuántos niños van a participar
 
-Para grupos de 20-50 personas, un inflable grande es suficiente si organizas turnos. Para grupos de 50-150 personas, considera rentar 2-3 inflables diferentes para evitar filas largas y mantener a todos activos simultáneamente. Para eventos masivos de más de 150 personas, lo ideal es crear una zona de inflables con 4-5 opciones distintas.
+Para 20 a 50 niños, un inflable grande basta si organizas turnos. Para 50 a 150, considera dos o tres modelos distintos para evitar filas largas. Para eventos de más de 150 niños, arma una zona con varias estaciones por edad. La capacidad exacta de cada modelo se confirma al cotizar.
 
-### 4. Planifica la logística eléctrica
+### 4. Planifica la parte eléctrica
 
-Cada inflable necesita un motor soplador conectado permanentemente a la corriente eléctrica. Asegúrate de tener suficientes tomas de corriente o solicita una planta de luz. Para eventos en jardines o terrenos abiertos, la planta de luz es prácticamente obligatoria.
-
-El requisito por modelo es una toma de 110 V a menos de 20 m del área de instalación. Si vas a poner dos o tres inflables, pide a mantenimiento que confirme que cada motor va a un contacto distinto y que no comparten circuito con cocina, sonido o pantallas. Las preguntas que conviene hacerle al área de mantenimiento están en la guía sobre [qué contacto y extensión necesita un inflable](/blog/cuanta-luz-consume-un-inflable-contacto-extension/).
+Cada inflable necesita un motor conectado de forma continua a una toma de 110 V a menos de 20 m del área de instalación. Si vas a poner dos o tres inflables, pide a mantenimiento que confirme que cada motor va a un contacto distinto y que no comparten circuito con cocina, sonido o pantallas. Si en el área no hay contactos, el evento tiene que prever una planta de luz. Las preguntas para mantenimiento están en la guía sobre [qué contacto y extensión necesita un inflable](/blog/cuanta-luz-consume-un-inflable-contacto-extension/).
 
 ### 5. Resuelve el alta de proveedor antes de la fecha
 
-En una empresa la fecha casi nunca se pierde por el inflable; se pierde por el trámite. Antes de apartar, pregunta a compras o a recursos humanos:
+En una empresa la fecha casi nunca se pierde por el inflable, sino por el trámite. Antes de apartar, pregunta a compras o a recursos humanos:
 
 - Si necesitan dar de alta al proveedor y qué documentos piden.
 - Si la factura debe llevar un concepto o un número de orden de compra específico.
@@ -117,81 +127,78 @@ Con esas respuestas, la cotización sale lista para el trámite interno y el dí
 
 Los eventos de empresa casi siempre se hacen en estacionamiento, explanada o cancha, no en jardín. Eso cambia el anclaje: sobre concreto o asfalto se usan contrapesos en lugar de estacas, y el piso debe estar libre de topes, rejillas y aceite. La guía para [instalar un inflable en explanada, cancha o estacionamiento](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/) explica qué revisar en cada superficie y cuánto espacio dejar para la fila.
 
-## Team building en circuito: tiempos, formatos y arbitraje
+![Explanada de concreto de un corporativo preparada para un family day, con conos, mesas plegables y una carpa de sombra](/img/blog/inflables-para-adultos-eventos-corporativos/escena-1.avif "Explanada despejada, contactos ubicados y fila delimitada antes de que lleguen las familias.")
 
-### ¿Cómo se calcula el tiempo según el aforo?
+## ¿Cómo se arma una competencia en el circuito Extremo?
 
-Esta es la parte que casi nadie hace y la que arruina más agendas. Los números del circuito son fijos y con ellos se calcula todo hacia atrás.
+### ¿Cómo se calcula el tiempo según el número de niños?
 
-El modelo que usamos para eventos de empresa es el **Extremo**: circuito de obstáculos de 8×4.5×3.50 m en doble carril, para edades de 3 a 12 años, se instala en 30 minutos y cuesta $2,500 MXN netos. Las medidas completas y la disponibilidad están en [la ficha del circuito Extremo](/inflables/extremo/).
+Esta es la parte que casi nadie hace y la que más agendas desordena. Los números del circuito son fijos y con ellos se calcula todo hacia atrás.
 
-Con eso, la aritmética:
+El Extremo es un circuito de obstáculos de 8 × 4.5 × 3.50 m en doble carril, para niños de 3 a 12 años; se instala en unos 30 minutos y cuesta $2,500 MXN netos. Con eso, la aritmética aproximada:
 
-- **Un recorrido individual:** 30 a 60 segundos.
-- **Una ronda de 8 participantes con relevos:** entre 6 y 10 minutos, contando salidas y regresos.
-- **Un grupo de 40 personas en formato relevos:** cinco equipos de ocho, unos 50 minutos con premiación incluida.
-- **Un grupo de 150 en formato pasarela libre:** dos horas de operación continua, con un responsable de fila.
+- **Un recorrido individual:** de 30 a 60 segundos.
+- **Una ronda de 8 niños con relevos:** entre 6 y 10 minutos, contando salidas y regresos.
+- **Un grupo de 40 niños en relevos:** cinco equipos de ocho, unos 50 minutos con premiación incluida.
+- **Un grupo de 150 niños en formato libre por turnos:** dos horas de operación continua, con un responsable de fila.
 
-La regla que damos siempre: calcula el doble del tiempo teórico. La diferencia se la come la logística — gente que se quita los zapatos, que se toma fotos, que no encuentra a su equipo.
+La regla que damos siempre: calcula el doble del tiempo teórico. La diferencia se va en logística: niños que se quitan los zapatos, fotos y familias que buscan a su equipo.
 
 ### ¿Qué formato de competencia conviene?
 
-Depende del tamaño del grupo y del objetivo. Cuatro formatos que funcionan:
+Depende del tamaño del grupo y de las edades. Cuatro formatos que funcionan, siempre con turnos de edades cercanas:
 
 #### Relevos por equipos mixtos
 
-El más recomendable para integración real. Se arman equipos con personas de áreas distintas, sorteadas, no elegidas. Cada integrante recorre el circuito y toca al siguiente. Gana el equipo más rápido.
-
-Funciona porque obliga a coordinarse con gente desconocida bajo presión de tiempo, que es exactamente la habilidad que se quiere trasladar a la oficina. Aforo ideal: de 30 a 80 personas.
+El más recomendable. Se arman equipos con hijos de colaboradores de áreas distintas, sorteados y no elegidos, y con edades parecidas. Cada niño recorre el circuito y toca al siguiente; gana el equipo más rápido. Los papás de cada equipo hacen porra juntos aunque no se conozcan, que es justo la integración que se busca. Funciona bien con 30 a 80 niños.
 
 #### Torneo interdepartamental
 
-Bracket de eliminación con un equipo por área. Genera rivalidad sana, porras y mucho ruido. Es el formato más espectacular y el que mejor material de video produce.
-
-Cuidado con un efecto secundario: si ya hay fricción real entre dos áreas, el torneo la amplifica. En ese caso, mejor relevos mixtos.
+Bracket de eliminación con un equipo de niños por área. Genera rivalidad sana, porras y mucho ruido, y es el formato que mejor material de video produce. Cuidado con un efecto secundario: si ya hay fricción real entre dos áreas, el torneo la amplifica. En ese caso, mejor relevos mixtos.
 
 #### Contra reloj individual
 
-Cada persona corre sola y se cronometra. Tabla de posiciones visible durante todo el evento. Es el que menos tiempo de coordinación exige y el que mejor funciona cuando la gente entra y sale del evento a distintas horas — una feria de bienestar, por ejemplo.
+Cada niño corre solo y se cronometra, con una tabla de posiciones por categoría de edad visible durante el evento. Es el que menos coordinación exige y el que mejor funciona cuando las familias llegan y se van a distintas horas, como en una feria de bienestar.
 
-#### Actividad de onboarding
+#### Recorrido libre sin cronómetro
 
-Para grupos de nuevo ingreso. Rompe el hielo en la primera semana mejor que cualquier presentación de bienvenida. Grupos chicos, sin competencia formal, sin cronómetro.
+Para los más pequeños del rango o para grupos que no quieren competir: turnos cortos, sin tabla ni premiación formal. Rompe el hielo entre niños que no se conocen.
 
 ### ¿Quién arbitra y qué necesita?
 
-Un evento con arbitraje se siente profesional; uno sin arbitraje se siente improvisado. Hacen falta tres roles y ninguno requiere contratar a nadie:
+Un evento con arbitraje se siente organizado; uno sin arbitraje se siente improvisado. Hacen falta tres roles, y los cubren colaboradores adultos desde fuera del inflable:
 
-- **Juez de salida.** Controla que ambos carriles arranquen a la vez. Es el rol que más emoción agrega y el más fácil de cubrir.
-- **Cronometrista.** Un celular y una hoja de cálculo proyectada. La tabla visible es la que mantiene a la gente cerca del circuito.
-- **Responsable de fila.** Arma los siguientes turnos mientras corre el actual. Es el que evita los tiempos muertos, y el que más impacto tiene en el rendimiento del evento.
+- **Juez de salida.** Controla que ambos carriles arranquen a la vez. Es el rol que más emoción agrega.
+- **Cronometrista.** Un celular y una hoja de cálculo proyectada. La tabla visible mantiene a las familias cerca del circuito.
+- **Responsable de fila.** Arma los siguientes turnos mientras corre el actual y evita tiempos muertos.
 
-Añade premiación, aunque sea simbólica. Medallas económicas o un trofeo que se quede en el área ganadora hasta el año siguiente producen más conversación interna que cualquier discurso de cierre.
+Además, una persona adulta supervisa el circuito durante todo el uso. Añade premiación, aunque sea simbólica: medallas sencillas para todos los niños y un trofeo que se quede en el área ganadora hasta el año siguiente generan más conversación interna que cualquier discurso de cierre.
 
-## Guía de precios para eventos corporativos
+## ¿Cuánto cuesta un evento corporativo con inflables?
 
-Aquí no hay tarifa corporativa inflada: **el precio es por inflable y es el mismo que para una fiesta infantil**, de $1,400 a $2,600 MXN por evento de 4 a 6 horas. Un evento de empresa normalmente se arma sumando modelos:
+No hay tarifa corporativa distinta: **el precio es por inflable y es el mismo que para una fiesta infantil**, de $1,400 a $2,600 MXN por evento de 4 a 6 horas. Un evento de empresa normalmente se arma sumando modelos:
 
-- **1 inflable (grupo chico):** el Extremo a $2,500 MXN cubre la dinámica de competencia
-- **2 inflables (family day típico):** el Extremo para los grandes + un modelo chico para los hijos pequeños de los colaboradores
-- **3 o más inflables (evento masivo):** conviene combinar por edades y armar estaciones
+- **1 inflable (grupo chico):** el Extremo, a $2,500 MXN, cubre la dinámica de competencia.
+- **2 inflables (family day típico):** el Extremo para los niños de 6 a 12 y un modelo para los más pequeños.
+- **3 o más inflables (evento masivo):** conviene combinar por edades y armar estaciones.
 
-Si rentas 2 o más inflables aplicamos **descuento por paquete** — el precio unitario baja. Mándanos por WhatsApp el número de asistentes, el rango de edades y las medidas del espacio, o [pide la cotización en línea](/cotizar/), y te devolvemos el total exacto. Si el evento es escolar y no corporativo, el [checklist para organizar una kermesse](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/) cubre el resto de la logística.
+Al rentar dos o más inflables para el mismo evento aplican descuentos por volumen. Mándanos por WhatsApp el número de niños, el rango de edades y las medidas del espacio, o [pide la cotización en línea](/cotizar/), y te devolvemos el total exacto. Si el evento es escolar y no corporativo, el [checklist para organizar una kermesse](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/) cubre el resto de la logística.
 
-Muchas empresas solicitan factura para deducir el gasto como evento de integración. En BRINCOLINS emitimos factura fiscal (se agrega el 16% de IVA) para todos los eventos corporativos.
+Emitimos factura para eventos corporativos; al pedirla se agrega 16% de IVA. Cómo se registra el gasto lo define el área contable de tu empresa.
 
-## Seguridad en un evento de empresa
+## ¿Qué reglas de seguridad aplican en un evento de empresa?
 
-Nuestros inflables están diseñados para niños — el Extremo y el Barco Pirata de 3 a 12 años — así que en un evento de empresa la regla es respetar los rangos de edad y no convertir el inflable en algo que no es. Un proveedor serio debe garantizar:
+Los inflables están diseñados para niños, así que en un evento de empresa la regla es respetar los rangos de edad de cada modelo y no convertir el inflable en algo que no es. Lo que debe cumplirse:
 
-- Confirmar la capacidad indicada de cada modelo al cotizar. Las reglas completas están en la [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/)
-- Anclaje profesional con estacas o sacos de arena según la superficie
-- Supervisión de un adulto responsable durante todo el uso
-- Turnos por edades: no mezclar a los más pequeños con los grandes en el mismo inflable
+- Confirmar la capacidad de cada modelo al cotizar. Las reglas completas están en la [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/).
+- Anclaje con estacas o contrapesos según la superficie.
+- Supervisión de una persona adulta durante todo el uso.
+- Turnos por edades: no mezclar a los más pequeños con los grandes en el mismo inflable.
+- Ningún adulto dentro del inflable, aunque sea "solo para la foto".
 
-## Corporativos y parques industriales: cómo cambia la logística por zona
+## ¿Cómo cambia la logística en corporativos y parques industriales?
 
-No es lo mismo montar en el estacionamiento de un corporativo que en la explanada de una planta. Lo que cambia es el acceso, el horario de proveedores y el costo de traslado.
+No es lo mismo montar en el estacionamiento de un corporativo que en la explanada de una planta. Cambian el acceso, el horario de proveedores y el costo de traslado.
 
 | Zona | Tipo de sede común | Qué conviene confirmar | Traslado |
 |---|---|---|---|
@@ -200,23 +207,21 @@ No es lo mismo montar en el estacionamiento de un corporativo que en la explanad
 | Tlalnepantla | Zona industrial con naves y explanadas | Ruta de entrada por caseta y piso de la explanada | $150 a $250 |
 | Cuautitlán Izcalli | Parques industriales con patios de maniobras | Que el área esté libre de tráileres y tránsito ese día | $250 a $400 |
 
-Si en Santa Fe el único espacio disponible es un estacionamiento techado, ahí sólo entran los modelos aptos para interiores y con 3.2 m de altura libre, así que mide antes. La página de [entregas en Cuajimalpa y Santa Fe](/cobertura/cuajimalpa/) explica cómo se cotiza el traslado. Para oficinas en Polanco o Granada, revisa el [servicio en Miguel Hidalgo](/cobertura/miguel-hidalgo/). Si tu planta está en la zona industrial de Tlalnepantla, la [cobertura en Tlalnepantla](/cobertura/tlalnepantla/) tiene el rango por colonia. Y para un family day dentro de un parque industrial, consulta la [renta con entrega en Cuautitlán Izcalli](/cobertura/cuautitlan-izcalli/). En las cuatro zonas, comparte al cotizar el nombre del contacto de seguridad del inmueble.
+Si en Santa Fe el único espacio disponible es un estacionamiento techado, ahí solo entran los modelos aptos para interiores y con 3.2 m de altura libre, así que mide antes. La página de [entregas en Cuajimalpa y Santa Fe](/cobertura/cuajimalpa/) explica cómo se cotiza el traslado. Para oficinas en Polanco o Granada, revisa el [servicio en Miguel Hidalgo](/cobertura/miguel-hidalgo/). Si tu planta está en la zona industrial de Tlalnepantla, la [cobertura en Tlalnepantla](/cobertura/tlalnepantla/) tiene el rango por colonia. Y para un family day dentro de un parque industrial, consulta la [renta con entrega en Cuautitlán Izcalli](/cobertura/cuautitlan-izcalli/). En las cuatro zonas, comparte al cotizar el nombre del contacto de seguridad del inmueble.
 
 ### Family day con hijos de colaboradores
 
-Cuando el evento es para las familias, la lógica se parece más a una fiesta infantil grande que a un team building: turnos por edad, un adulto por inflable y una zona de descanso con sombra. La guía de [family day con inflables para los hijos del equipo](/blog/family-day-empresa-inflables-para-hijos/) cubre cómo repartir los modelos por edad. Y si la dinámica incluye adolescentes o colaboradores, revisa primero qué modelos del catálogo están indicados para [inflables para adolescentes y adultos](/inflables/para-adultos/).
+Cuando el evento es para las familias, la lógica se parece más a una fiesta infantil grande: turnos por edad, un adulto por inflable y una zona de descanso con sombra. La guía de [family day con inflables para los hijos del equipo](/blog/family-day-empresa-inflables-para-hijos/) explica cómo repartir los modelos por edad. Si el público incluye adolescentes, revisa primero qué modelos del catálogo cubren ese rango en [inflables para adolescentes y adultos](/inflables/para-adultos/).
 
-## Ideas creativas para tu próximo evento de empresa
+## ¿Qué ideas funcionan para tu próximo evento de empresa?
 
-Más allá de simplemente colocar un inflable, puedes diseñar experiencias memorables:
+Más allá de colocar un inflable, puedes diseñar la actividad completa:
 
-- **Rally por departamentos:** Aprovecha el doble carril del Extremo, cronometra a cada equipo y premia al más rápido con un trofeo personalizado.
-- **Olimpiadas corporativas:** Combina 3-4 inflables diferentes como estaciones y acumula puntos por equipo.
-- **Family day por edades:** El Castillo Baby o los Gusanitos para los hijos más pequeños de los colaboradores, el Barco Pirata para los medianos y el Extremo para los grandes.
-- **Fiesta de fin de año temática:** Integra el inflable con la temática del evento y complementa con DJ, comida y premiación.
+- **Rally por departamentos:** aprovecha el doble carril del Extremo, cronometra a los equipos de niños de cada área y premia al más rápido con un trofeo para el área.
+- **Olimpiadas familiares:** combina tres o cuatro inflables como estaciones por edad y acumula puntos por equipo.
+- **Family day por edades:** Castillo Baby o Gusanitos para los más pequeños, Barco Pirata para los medianos y Extremo para los grandes.
+- **Fiesta de fin de año temática:** integra la zona infantil con la temática del evento y compleméntala con música, comida y premiación.
 
-En BRINCOLINS hemos trabajado con empresas de todos los tamaños en la zona metropolitana de la Ciudad de México. Nuestro equipo puede ayudarte a diseñar la dinámica perfecta para tu evento, desde la selección de inflables hasta la coordinación logística el día del evento. Contáctanos por WhatsApp para una cotización personalizada sin compromiso.
+## ¿Cómo cotizas los inflables para tu evento?
 
----
-
-**¿Buscas el inflable perfecto para tu fiesta?** Tenemos opciones para todos los eventos: el Castillo Baby ideal para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas y el Circuito Extremo para niños aventureros. [Catálogo de renta de inflables para fiestas →](/inflables/)
+Manda por WhatsApp la fecha, la dirección del inmueble, fotos y medidas del área, el número aproximado de niños por edad y si requieres factura. La fecha se aparta con 50% de anticipo, y atendemos de lunes a domingo de 8:00 a 20:00. Si quieres comparar opciones antes, revisa el [Barco Pirata](/inflables/barco-pirata/) y el resto del [catálogo de renta de inflables](/inflables/).

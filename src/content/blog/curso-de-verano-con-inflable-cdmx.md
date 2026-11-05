@@ -24,7 +24,7 @@ faqs:
   - question: "¿Se puede rentar un inflable para todas las semanas del curso de verano?"
     answer: "La renta es por evento: cada día que el curso necesita el inflable se instala, trabaja durante el evento y se recoge. Cada día se cotiza por separado. Si quieres varios días, manda todas las fechas juntas desde el principio para revisar la disponibilidad de una sola vez."
   - question: "¿Qué pasa si llueve el día que rentamos el inflable?"
-    answer: "Con lluvia se suspenden los turnos, porque la lona mojada resbala y nadie debe brincar. Lo que pasa con la fecha depende de la política de cancelación, que conviene leer antes de apartar. Si tienes espacio techado, valora un modelo apto para interiores desde el inicio."
+    answer: "Con lluvia se suspenden los turnos, porque la lona mojada resbala y nadie debe brincar. Si la lluvia impide el evento, la fecha se reprograma sin costo. Si tu sede tiene un espacio techado, valora desde el inicio un modelo apto para interiores."
   - question: "¿Qué inflable se puede poner bajo techo en un curso de verano?"
     answer: "Gusanitos es apto para interiores si el espacio tiene al menos 3.2 m de altura libre. Es un circuito de túneles para niños de 2 a 8 años, mide 5 × 3 × 2.80 m y cuesta $1,600 por evento. El Jungla, en cambio, es sólo para exterior."
   - question: "¿Quién cuida a los niños en el inflable durante el curso?"
@@ -35,13 +35,17 @@ faqs:
     answer: "Sí. Los precios del catálogo son netos y, si se requiere factura, se agrega el 16% de IVA. Conviene pedirla desde la cotización para que el monto ya la considere. Cada fecha del curso se aparta con el 50% de anticipo."
 ---
 
-Un **curso de verano con inflables** pide algo que un cumpleaños no: logística para varios grupos, monitores que rotan y un horario que compite con la lluvia. Bien planeado, el día de inflable es el que los niños cuentan en casa durante la cena, el que aparece en las fotos del grupo de papás y el que justifica todo tu trabajo de coordinación. Mal planeado, es una fila larga bajo el sol.
+En un **curso de verano con inflables** la renta es por día de evento, con instalación y recolección incluidas. Para grupos de 3 a 8 años, el [Jungla para patios de escuela y parroquia](/inflables/mini-jungla/) cuesta $1,600 netos, va solo en exterior y pide 4.2 m de altura libre. Prográmalo en la mañana y ten Gusanitos como plan B techado.
 
-Y un patio mojado a las cuatro de la tarde.
+**Puntos clave**
 
-Aquí tienes cómo funciona la renta, cómo rotar grupos, qué hacer cuando se nubla y cuál es tu plan B bajo techo. Todo pensado para que tú no tengas que improvisar frente a cuarenta niños.
+- Cada día de inflable se cotiza y se aparta como un evento, con 50% de anticipo.
+- Con tres grupos y cuatro estaciones, nadie hace fila: todos rotan cada media hora.
+- En julio y agosto las lluvias suelen llegar por la tarde; la mañana es más confiable.
+- Gusanitos ($1,600) entra bajo techo con 3.2 m de altura libre; el Jungla no.
+- La supervisión es del personal del curso, con un monitor fijo en la entrada.
 
-> **Respuesta rápida:** En un curso de verano con inflables, la renta es por día de evento: instalamos, el inflable trabaja todo el evento y lo recogemos. Para grupos de 3 a 8 años, el [Jungla para patios de escuela y parroquia](/inflables/mini-jungla/) cuesta $1,600 netos, va sólo en exterior y pide 4.2 m de altura libre. Prográmalo en la mañana por las lluvias de la tarde y, si tienes salón, considera Gusanitos como plan B.
+Un curso de verano pide algo que un cumpleaños no: logística para varios grupos, monitores que rotan y un horario que compite con la lluvia. Bien planeado, el día de inflable es el que los niños cuentan en casa durante la cena. Mal planeado, es una fila larga bajo el sol y un patio mojado a las cuatro de la tarde. Aquí tienes cómo funciona la renta, cómo rotar grupos, qué hacer cuando se nubla y cuál es tu plan B bajo techo.
 
 ## ¿Cómo se cobra el inflable en un curso de verano: por día o por semana?
 
@@ -55,7 +59,7 @@ Para grupos de 3 a 8 años, tu modelo central es el Jungla. Es un brincolín tem
 
 ### Factura y anticipo
 
-Escuelas, parroquias y clubes suelen necesitar comprobante. Los precios son netos y, si requieres factura, se agrega el 16% de IVA. Cada fecha se aparta con el 50% de anticipo. Sin letras chiquitas. Los [precios por evento de cada modelo](/precios/) están publicados con las mismas condiciones.
+Escuelas, parroquias y clubes suelen necesitar comprobante. Los precios son netos y, si requieres factura, se agrega el 16% de IVA. Cada fecha se aparta con el 50% de anticipo. Los [precios por evento de cada modelo](/precios/) están publicados con las mismas condiciones.
 
 ## ¿Qué espacios sirven para un curso de verano con inflables?
 
@@ -113,7 +117,7 @@ Si tu curso lo permite, pon el día de inflable en el horario matutino. Es tu ca
 
 ### Si empieza a llover
 
-Con lluvia se suspenden los turnos. La lona mojada resbala y nadie debe brincar. Saca a los niños, llévalos al área techada y avísanos. ¿Y tu fecha? Lo que pasa con ella si la lluvia impide el evento depende de las [condiciones de cancelación de la renta](/politica-de-cancelacion/). Léelas antes de apartar, no el día que llueve.
+Con lluvia se suspenden los turnos. La lona mojada resbala y nadie debe brincar. Saca a los niños, llévalos al área techada y avísanos. ¿Y tu fecha? Si la lluvia impide el evento, la reprogramamos sin costo; los detalles están en las [condiciones de cancelación de la renta](/politica-de-cancelacion/). Léelas antes de apartar, no el día que llueve.
 
 #### Revisa el pronóstico la víspera
 
@@ -122,6 +126,8 @@ Un día antes, revisa el pronóstico de tu alcaldía. ¿Anuncian lluvia para la 
 #### Ten listo el salón techado
 
 Aunque el inflable sea exterior, tu programa no tiene por qué detenerse. Prepara un salón con actividades de interior para mover a todos los grupos en minutos. Con eso, la lluvia te cambia el plan, pero no te arruina el día.
+
+![Salón de usos múltiples de una escuela preparado con mesas de manualidades y colchonetas como plan para días de lluvia](/img/blog/curso-de-verano-con-inflable-cdmx/escena-1.avif "Un salón techado listo con actividades permite mover a los grupos en minutos si llueve")
 
 ## ¿Cuál es tu plan B bajo techo si llueve toda la semana?
 
@@ -177,13 +183,13 @@ El día temático, el de convivencia con familias o el cierre. Los tres funciona
 
 ### El día temático
 
-¿Tu curso tiene una semana de dinosaurios o de selva? El Jungla encaja directo. Los [juegos de paleontólogo para la semana temática](/blog/fiesta-de-dinosaurios-con-inflable-cdmx/) se adaptan a un grupo de curso sin cambiar casi nada. Cero esfuerzo extra.
+¿Tu curso tiene una semana de dinosaurios o de selva? El Jungla encaja directo. Los [juegos de paleontólogo para la semana temática](/blog/fiesta-de-dinosaurios-con-inflable-cdmx/) se adaptan a un grupo de curso sin cambiar casi nada.
 
 ### El cierre del curso
 
 Es el día con más energía y el que más se recuerda. La [logística de una graduación o fin de cursos con inflable](/blog/graduacion-kinder-primaria-con-inflable/) te ayuda con un grupo grande que llega al mismo tiempo. Y la misma organización sirve en abril, si tu escuela quiere [organizar el Día del Niño con la misma lógica](/blog/dia-del-nino-inflables-escuela-empresa-cdmx/).
 
-## Cursos en el sur: Tlalpan, Xochimilco y Milpa Alta
+## ¿Qué cambia en los cursos del sur: Tlalpan, Xochimilco y Milpa Alta?
 
 En el sur de la ciudad muchos cursos de verano se hacen en patios escolares, casas de cultura y atrios de parroquia de los pueblos originarios. Son buenos espacios, pero cada alcaldía tiene sus particularidades.
 
@@ -197,7 +203,7 @@ En las partes altas de Tlalpan y en Milpa Alta las mañanas de verano suelen ser
 
 Para la sede de tu curso, consulta las colonias y condiciones en [cobertura en Tlalpan](/cobertura/tlalpan/), [entregas en Xochimilco](/cobertura/xochimilco/) o [servicio en los pueblos de Milpa Alta](/cobertura/milpa-alta/). Si el atrio o el deportivo es público, el permiso de uso se consulta con la administración del lugar o con la alcaldía antes de apartar la fecha.
 
-## Errores que desordenan el día de inflable
+## ¿Qué errores desordenan el día de inflable?
 
 - **Programar el inflable justo después del refrigerio.** Los niños brincan mejor con media hora de margen entre comer y entrar.
 - **Mandar a un grupo de 3 años junto con uno de 8.** Divide los turnos por edad aunque los grupos del curso sean mixtos.
@@ -228,7 +234,7 @@ Revisas fechas, grupos, espacio, corriente, acceso, roles y datos fiscales. Esta
 - **Monitores asignados por rol.** Entrada, espera y tiempo, desde antes del día.
 - **Mesas para refrigerio y manualidades.** Las [mesas y sillas para el refrigerio](/servicios/mobiliario-para-fiestas/) se suman a la renta del inflable.
 
-## Aparta los días de inflable de tu curso
+## Siguiente paso: aparta los días de inflable de tu curso
 
 Julio llega antes de lo que parece, y las fechas se apartan por orden de anticipo. ¿Ya tienes el calendario? Cotiza ahora. Mándanos estos datos:
 

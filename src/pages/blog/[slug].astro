@@ -20,7 +20,12 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const d = post.data;
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
+/* Índice: solo H2, y solo si el artículo es lo bastante largo para necesitarlo. */
+const toc = headings.filter((h) => h.depth === 2);
+const fechaAct = d.updatedDate && d.updatedDate !== d.publishDate
+  ? new Date(d.updatedDate).toLocaleDateString("es-MX", { year: "numeric", month: "long", day: "numeric" })
+  : null;
 
 // ── Artículos relacionados (misma categoría, luego recientes) ──
 const all = (await getCollection("blog")).filter((p) => !p.data.draft);
@@ -126,9 +131,10 @@ const howToSchema = d.howto
           <h1 class="hero__title" set:html={mdInline(heading)} />
           <div class="art-hero__meta">
             {d.readTime && (<><span>{d.readTime} lectura</span><span class="art-hero__sep">·</span></>)}
-            <span>{d.author}</span>
+            <a href="/nosotros/" class="art-hero__author">{d.author}</a>
             <span class="art-hero__sep">·</span>
             <time datetime={d.publishDate}>{fechaFmt}</time>
+            {fechaAct && (<><span class="art-hero__sep">·</span><span>Actualizado: <time datetime={d.updatedDate}>{fechaAct}</time></span></>)}
           </div>
           {d.excerpt && <p class="hero__desc">{d.excerpt}</p>}
           <div class="hero__ctas">
@@ -169,6 +175,15 @@ const howToSchema = d.howto
               intro={catPost.guiaSub}
               items={catItems}
             />
+          )}
+
+          {toc.length >= 4 && (
+            <nav class="art-toc" aria-label="Contenido del artículo">
+              <details open>
+                <summary>En este artículo</summary>
+                <ol>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
+              </details>
+            </nav>
           )}
 
           <Content />
@@ -323,4 +338,18 @@ const howToSchema = d.howto
   @media (max-width: 560px) {
 .art-gallery { grid-template-columns: 1fr; }
   }
+.art-hero__author { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.art-toc { margin: 0 0 2rem; padding: 1rem 1.25rem; background: var(--c-bg-alt); border: 1px solid var(--c-border); border-radius: 12px; }
+.art-toc summary { font-family: var(--font-head); font-weight: 800; cursor: pointer; }
+.art-toc ol { margin: .75rem 0 0; padding-left: 1.25rem; display: flex; flex-direction: column; gap: .35rem; font-size: .95rem; }
+.art-toc li { list-style: decimal; }
+.art-toc a { color: var(--c-text); text-decoration: none; }
+.art-toc a:hover { color: var(--c-primary-text); text-decoration: underline; }
+.art-body :global(.art-figure) { margin: 2rem 0; }
+.art-body :global(.art-figure img) { width: 100%; height: auto; border-radius: var(--r-card, 14px); display: block; }
+.art-body :global(.art-figure figcaption) { margin-top: .5rem; font-size: .88rem; color: var(--c-text-muted); text-align: center; }
+.art-body :global(.puntos-clave) { margin: 1.5rem 0 2rem; padding: 1.1rem 1.4rem; background: #fff8f5; border-left: 4px solid var(--c-primary-text); border-radius: 0 12px 12px 0; }
+.art-body :global(.puntos-clave p) { margin: 0 0 .5rem; font-family: var(--font-head); }
+.art-body :global(.puntos-clave ul) { margin: 0; }
+.art-body :global(h2) { scroll-margin-top: 90px; }
 </style>

@@ -1,21 +1,21 @@
 ---
-title: "Primer cumpleaños con inflable: temas y organización"
+title: "Primer cumpleaños con inflable: 8 temas y organización"
 h1: "Primer cumpleaños con inflable: 8 temas y cómo organizar la fiesta de 1 año"
-description: "Elige temas para primer cumpleaños con Castillo Baby: paletas, decoración, fotos y montaje para una fiesta pequeña en casa o CDMX."
+description: "Temas para primer cumpleaños con inflable: 8 ideas con paleta y fondo de fotos, horario ideal y qué medir para el Castillo Baby en casa. Cotiza tu fecha."
 excerpt: "Ocho temas que se ven ordenados alrededor de un Castillo Baby, con decisiones prácticas de color, fotos y circulación para una fiesta de un año."
 publishDate: "2026-11-02"
 updatedDate: "2026-11-04"
 category: "Castillo Baby"
 author: "Equipo BRINCOLINS"
-readTime: "19 min"
-heroImage: "/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif"
-heroImageAlt: "Castillo Baby inflable compacto para un primer cumpleaños"
+readTime: "15 min"
+heroImage: "/img/blog/fiesta-primer-cumpleanos-con-inflable/portada.avif"
+heroImageAlt: "Sala luminosa decorada en tonos suaves para la fiesta de primer cumpleaños de un bebé"
 galleryImages:
   - "/img/inflables/mini-castillo-primer-cumpleanos-bebe.avif"
   - "/img/inflables/mini-castillo-evento-familiar-cdmx.avif"
   - "/img/inflables/mini-castillo-fiesta-interior-pequeno.avif"
 intro:
-  - "Los temas para primer cumpleaños funcionan mejor cuando no obligan a decorar cada rincón. Con un Castillo Baby, una paleta definida, una mesa sencilla y un espacio libre para que el bebé juegue producen una celebración más cómoda que una acumulación de personajes y globos."
+  - "Los temas para primer cumpleaños funcionan mejor cuando no obligan a decorar cada rincón. Un Castillo Baby, una paleta definida, una mesa sencilla y un espacio libre para que el bebé juegue producen una celebración más cómoda que una acumulación de personajes y globos."
   - "Estas ocho ideas están pensadas para una reunión pequeña de niñas y niños de 1 a 3 años: incluyen color, fondo de fotos y detalles que puedes adaptar a una sala, terraza o salón de CDMX sin invadir el área del inflable."
 tags:
   - "temas para primer cumpleaños"
@@ -32,27 +32,31 @@ faqs:
     answer: "BRINCOLINS renta inflables y paquetes seleccionados; la decoración debe confirmarse por separado. El paquete fiesta bebés incluye Castillo Baby, una mesa con cuatro sillitas y pintacaritas para cuatro niños. La disponibilidad, el traslado y los elementos aplicables a tu fecha se confirman al cotizar."
   - question: "¿Dónde conviene poner el fondo para las fotos si hay un inflable?"
     answer: "Colócalo en una pared o zona distinta al acceso del Castillo Baby. Así puedes hacer las fotos de familia sin detener los turnos de juego ni poner globos, bases, cables o mesas cerca de la entrada. Mantén una franja libre entre el fondo, la mesa de alimentos y el inflable para que un adulto pueda circular y supervisar."
-  - question: "¿Qué colores son mejores para una fiesta de un año?"
-    answer: "Depende del tema y de la luz del espacio. Los tonos suaves funcionan bien en interiores; los colores cítricos o contrastantes se leen mejor en jardines. Limita la decoración a dos o tres colores principales y un neutro para que el pastel, las fotos y el inflable no compitan visualmente."
   - question: "¿El Castillo Baby sirve para una fiesta de primer cumpleaños?"
     answer: "Sí, está diseñado para niñas y niños de 1 a 3 años. Mide 2.5 × 2 × 2 metros, requiere 3.2 metros de altura libre y puede instalarse en interiores si el lugar cumple las condiciones. El espacio, acceso y capacidad se confirman al cotizar; una persona adulta debe supervisar durante el uso."
   - question: "¿Pueden usar el inflable hermanos mayores durante la fiesta?"
     answer: "No como juego compartido. El rango del Castillo Baby es de 1 a 3 años y mezclarlo con niñas o niños mayores cambia el ritmo y el rebote. Para quienes ya rebasan esa edad, prepara una actividad aparte o consulta un modelo que corresponda a su grupo."
-  - question: "¿Qué debo medir antes de planear la decoración?"
-    answer: "Antes de comprar un arco o mover muebles, confirma el área del inflable, 3.2 metros de altura libre si habrá techo, piso plano y despejado, una toma de 110 V a menos de 20 metros y el recorrido de entrada. Las bases de globos, mesas y el fondo de fotos deben quedar fuera de ese perímetro."
+  - question: "¿A qué hora conviene hacer una fiesta de un año?"
+    answer: "Entre las 11:00 y las 13:00, después de la siesta de la mañana y antes de la de la tarde. Dos horas de fiesta suelen ser suficientes para un bebé de un año, y conviene partir el pastel a los 45 o 60 minutos, cuando todavía está de buen humor."
 ---
 
-Los **temas para primer cumpleaños** no necesitan una producción enorme para verse cuidados. En una fiesta de un año, el festejado suele alternar entre querer explorar, pedir brazos, comer y descansar. La decoración debe ayudar a que esos cambios ocurran sin que la casa o el salón se conviertan en una pista de obstáculos.
+Para un primer cumpleaños con inflable, elige un tema visual sencillo, dos o tres colores y un fondo de fotos separado del área de juego. El Castillo Baby mide 2.5 × 2 × 2 m, es para niñas y niños de 1 a 3 años y puede instalarse bajo techo con 3.2 m de altura libre.
 
-El [inflable Castillo Baby pensado para 1 a 3 años](/inflables/mini-castillo/) aporta un lugar de juego acotado, no una escenografía que deba cubrirse de adornos. Si eliges primero una paleta y defines dónde irán las fotos, el pastel y la entrada al inflable, puedes dar al festejo una identidad clara sin sacrificar espacio para los pequeños.
+**Puntos clave**
 
-> **Respuesta rápida:** Para elegir **temas para primer cumpleaños** con Castillo Baby, usa una idea visual sencilla, dos o tres colores y un fondo de fotos separado del juego. El Castillo Baby mide 2.5 × 2 × 2 m, es para niñas y niños de 1 a 3 años y puede instalarse bajo techo con 3.2 m de altura libre. Revisa la ficha del Castillo Baby para fiestas de bebés antes de diseñar el montaje.
+- Asigna una zona a cada función: fondo de fotos, mesa del pastel y área de juego con la entrada libre.
+- Ocho temas sin licencias funcionan con papel, tela y globos ligeros fuera del perímetro del inflable.
+- Mide el techo antes de decorar: el [Castillo Baby para 1 a 3 años](/inflables/mini-castillo/) pide 3.2 m de altura libre.
+- Dos horas de fiesta y pastel a los 45 o 60 minutos: un bebé de un año se cansa antes de lo que parece.
+- Los hermanos mayores no comparten el castillo; prepárales otra actividad.
+
+Los **temas para primer cumpleaños** no necesitan una producción enorme para verse cuidados. En una fiesta de un año, el festejado alterna entre explorar, pedir brazos, comer y descansar, y la decoración debe ayudar a que esos cambios ocurran sin que la casa o el salón se conviertan en una pista de obstáculos. El Castillo Baby aporta un lugar de juego acotado, no una escenografía que deba cubrirse de adornos.
 
 ## ¿Qué hace que un tema de primer cumpleaños funcione con un Castillo Baby?
 
 El tema debe verse desde la mesa y en las fotos, sin apropiarse del lugar por donde entran y salen los niños. Una buena regla es asignar una zona a cada función: un fondo ligero para retratos, una mesa de pastel o recuerdos, y el área de juego con su entrada libre. Así no necesitas que el inflable cargue con letras, arcos o accesorios que estorben. Si el departamento o salón es reducido, compara antes los [inflables pequeños para fiestas reducidas](/inflables/chicos/).
 
-Elige el tema a partir de algo que puedas repetir con mesura: una forma —nube, estrella o fruta—, un par de colores o un animal. No hace falta llenar todos los muros. Para una fiesta de bebés, los detalles visibles a la altura de las fotografías suelen rendir más que una decoración repartida por toda la casa.
+Elige el tema a partir de algo que puedas repetir con mesura: una forma (nube, estrella o fruta), un par de colores o un animal. No hace falta llenar todos los muros. Para una fiesta de bebés, los detalles visibles a la altura de las fotografías suelen rendir más que una decoración repartida por toda la casa.
 
 Antes de definir proveedores o mobiliario, verifica que el grupo que jugará sí corresponda al modelo. La [guía de brincolín para bebés según la edad](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) te ayuda a separar el uso de uno, dos y tres años; los hermanos mayores necesitan una actividad distinta, no turnos dentro del mismo castillo.
 
@@ -73,7 +77,7 @@ Estas propuestas no dependen de licencias, personajes ni una decoración imposib
 
 Para que la idea no se desordene, elige una paleta y un elemento principal; después repítelos sólo en dos o tres puntos. En una fiesta de frutas, por ejemplo, la mesa, las etiquetas y el fondo bastan. No necesitas adornar también puertas, sillas, pasillos y la entrada al juego.
 
-Si prefieres un tema hecho de color, toma como referencia la [fiesta arcoíris infantil con inflable](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/). El enfoque es distinto porque está pensado para otro modelo y edades, pero te puede servir para decidir qué tono domina cada zona sin convertir la decoración en ruido visual.
+Si prefieres un tema hecho de color, toma como referencia la guía de [decoración de fiesta infantil con globos e inflable](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/). Está pensada para otros modelos y edades, pero te puede servir para decidir qué tono domina cada zona sin convertir la decoración en ruido visual.
 
 ## ¿Cómo eliges la paleta sin competir con las fotos ni con el espacio?
 
@@ -97,13 +101,15 @@ La foto más difícil no es la que toma un fotógrafo: suele ser la familiar, cu
 Una secuencia útil para retratos es esta:
 
 1. Haz una foto corta del festejado con su familia inmediata al llegar.
-2. Toma grupos pequeños —abuelos, padrinos o primos— antes de que el bebé quiera volver a jugar.
+2. Toma grupos pequeños (abuelos, padrinos o primos) antes de que el bebé quiera volver a jugar.
 3. Deja que el Castillo Baby sea parte de algunas fotos espontáneas desde afuera, sin detener los turnos ni pedir que todos posen dentro.
 4. Reserva el pastel para después de una pausa, cuando el niño esté más cómodo y el área de comida siga limpia.
 
 El fondo no tiene que medir lo mismo que el inflable. Una tela lisa, letras de cartón y tres o cuatro piezas de papel pueden ser suficientes. Coloca la mesa de pastel cerca de ese muro, pero no pegada a la entrada del juego: la familia debe poder moverse entre ambos espacios sin cruzar cables, bocinas o filas de personas.
 
-Si buscas otras decisiones de composición para una fiesta infantil, una [guía para fotografiar una fiesta con Castillo de Princesas](/blog/fiesta-princesas-ninas-inflable-cdmx/) explica cómo pensar en luz, horario y tomas. Su modelo y estética son diferentes; la idea que sí puedes trasladar es preparar el momento de foto antes de que el evento esté en su punto más ocupado.
+La misma lógica de horario aparece en la guía de [fiesta de princesas con inflable](/blog/fiesta-princesas-ninas-inflable-cdmx/): aunque el modelo y la estética son otros, la idea que puedes trasladar es preparar el momento de la foto antes de que la fiesta esté en su punto más ocupado.
+
+![Rincón de fotos con tela lisa color crema, nubes de papel y letras de cartón en una sala luminosa](/img/blog/fiesta-primer-cumpleanos-con-inflable/escena-1.avif "Un fondo sencillo en una pared distinta al área de juego basta para las fotos familiares.")
 
 ## ¿Cómo aprovechas el Castillo Baby sin convertirlo en parte de la decoración?
 
@@ -148,7 +154,7 @@ Si vives en un departamento en colonias como la Narvarte, la Del Valle, la Roma 
 Estas son las dos decisiones que más determinan si la tarde sale bien:
 
 - **Horario:** entre las 11:00 y las 13:00. Después de la siesta de la mañana, antes de la de la tarde y coincidiendo con la comida. Las fiestas de 5 de la tarde con bebés de un año terminan en llanto colectivo.
-- **Duración:** dos horas. Dos y media si hay muchos niños grandes. Un bebé de un año se satura con estímulos nuevos mucho antes de lo que los adultos creen.
+- **Duración:** dos horas, o dos y media si hay muchos niños grandes. Un bebé de un año se satura con estímulos nuevos mucho antes de lo que los adultos creen.
 - **Pastel temprano.** No lo dejes para el final: hazlo a los 45 o 60 minutos, cuando el festejado todavía está de buen humor. Es la foto que importa.
 - **Salida escalonada.** Avisa en la invitación la hora de cierre. Sin hora de cierre, la fiesta se estira y el festejado paga la cuenta.
 
@@ -180,7 +186,7 @@ Para un primer cumpleaños, esto es gasto que casi siempre sobra: animador, show
 
 Lo que sí rinde: el inflable, comida decente para los adultos, música ambiental desde una bocina y buena luz para las fotos. Los ocho precios del catálogo están publicados en la [página de precios](/precios/) y el catálogo completo en [inflables](/inflables/).
 
-## ¿Qué checklist deja lista la decoración sin invadir el área de juego?
+## ¿Qué revisar para que la decoración no invada el área de juego?
 
 Haz esta revisión la víspera, cuando todavía puedes mover muebles sin prisa. Te permitirá saber qué decoración cabe de verdad y qué vale la pena dejar fuera.
 
@@ -192,12 +198,12 @@ Haz esta revisión la víspera, cuando todavía puedes mover muebles sin prisa. 
 - Deja una actividad tranquila para los invitados que tengan más de tres años.
 - Confirma con el edificio o salón el acceso, carga, elevador y hora de retiro.
 
-Para una visión completa de medidas, grupo de edad y condiciones de uso, enlaza esta lista con la guía del Castillo Baby para fiestas de 1 a 3 años.
+Para una visión completa de medidas, grupo de edad y condiciones de uso, complementa esta lista con la ficha del Castillo Baby y la [lista de cosas para una fiesta infantil](/blog/lista-de-cosas-para-fiesta-infantil-checklist/).
 
 ## ¿Qué necesitas definir para cotizar el Castillo Baby y empezar a decorar?
 
 Primero confirma la fecha, colonia, horario, edades de quienes jugarán y las fotos del área, techo y acceso. Con eso puedes saber si el modelo está disponible, si el montaje es viable y qué traslado aplica. Después sí vale la pena cerrar el tema, comprar los materiales y mandar invitaciones.
 
-La renta del Castillo Baby parte de $1,400 netos por evento; el traslado depende de la ubicación y, si requieres factura, se agrega IVA. El artículo sobre precio de renta de brincolines para bebés en CDMX desglosa esos conceptos para que la paleta de tu fiesta no se convierta en una estimación de presupuesto.
+La renta del Castillo Baby es de $1,400 netos por evento; el traslado depende de la ubicación y, si requieres factura, se agrega 16% de IVA. La fecha se aparta con 50% de anticipo.
 
-Cuando tengas esos datos, [cotiza el Castillo Baby para tu primer cumpleaños](/cotizar/). Cuéntanos si será en casa, terraza o salón y qué edades tienen los pequeños; así podrás decorar alrededor de un montaje confirmado, no alrededor de una suposición.
+Cuando tengas esos datos, [cotiza el Castillo Baby para tu primer cumpleaños](/cotizar/) o escríbenos por WhatsApp de lunes a domingo de 8:00 a 20:00. Cuéntanos si será en casa, terraza o salón y qué edades tienen los pequeños; así decorarás alrededor de un montaje confirmado, no de una suposición.

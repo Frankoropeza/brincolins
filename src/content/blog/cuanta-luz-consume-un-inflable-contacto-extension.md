@@ -1,13 +1,13 @@
 ---
 title: "¿Cuánta luz consume un inflable? Contacto y extensión"
 h1: "Cuánta luz consume un inflable: qué contacto, qué extensión y qué no conectar junto al motor"
-description: "El motor del inflable usa un contacto doméstico de 127 V a menos de 20 m. Qué extensión usar, qué no conectar junto y qué hacer si se bota la pastilla."
+description: "Cuánta luz consume un inflable: el motor usa un contacto normal de 110 V a menos de 20 m. Qué no conectar junto y qué hacer si se bota la pastilla."
 excerpt: "El motor del inflable se conecta a un contacto normal de casa y trabaja todo el evento. Te explicamos qué extensión usar, qué aparatos no compartir y cómo evitar que se bote la pastilla."
 publishDate: "2026-11-04"
 updatedDate: "2026-11-04"
 category: "Guías"
 author: "Equipo BRINCOLINS"
-readTime: "11 min"
+readTime: "10 min"
 heroImage: "/img/blog/seguridad-inflables-fiestas-infantiles/img1.avif"
 heroImageAlt: "Inflable instalado con su motor funcionando de forma continua durante una fiesta infantil"
 intro:
@@ -28,7 +28,7 @@ faqs:
   - question: "¿Qué pasa si se va la luz o se bota la pastilla durante la fiesta?"
     answer: "El motor se detiene y el inflable empieza a perder forma poco a poco. La persona adulta que supervisa saca a los niños con calma, sin empujones. Cuando regresa la luz, se vuelve a conectar, se espera a que el inflable quede firme y se reanuda el juego."
   - question: "¿Sirve cualquier extensión para el inflable?"
-    answer: "No. Usa una extensión de uso rudo, de una sola pieza, de calibre adecuado para la distancia y totalmente desenrollada. Evita multicontactos baratos, extensiones delgadas de uso doméstico y cadenas de varias extensiones unidas."
+    answer: "No, y por eso llevamos la extensión para el motor. Si necesitas otra para el resto de aparatos, que sea de uso rudo, de una sola pieza, de calibre adecuado para la distancia y totalmente desenrollada. Evita multicontactos baratos, extensiones delgadas de uso doméstico y cadenas de varias extensiones unidas."
   - question: "¿El inflable funciona en un parque sin contacto de luz?"
     answer: "El motor necesita corriente durante todo el evento. Si el lugar no tiene contacto a menos de 20 m, dilo desde el primer mensaje para revisar las opciones antes de apartar. No conviene descubrirlo el día de la fiesta."
 howto:
@@ -41,17 +41,23 @@ howto:
       text: "Desconecta de ese contacto todo lo demás. El motor trabaja de forma continua y debe tener el contacto para él solo."
     - name: "Revisa qué más hay en ese circuito"
       text: "Identifica en el centro de carga qué pastilla controla ese contacto y evita conectar en el mismo circuito aparatos de alto consumo como microondas, cafetera o plancha."
-    - name: "Prepara la extensión y su ruta"
-      text: "Usa una extensión de uso rudo, de una sola pieza y totalmente desenrollada. Pásala por la orilla, lejos del paso de niños y adultos, y fíjala al piso con cinta."
+    - name: "Define la ruta de la extensión"
+      text: "BRINCOLINS lleva la extensión del motor. Decide por dónde pasará: por la orilla, lejos del paso de niños y adultos, y ten a la mano cinta ancha para fijarla al piso."
     - name: "Asigna a un adulto responsable"
       text: "Que una persona sepa dónde está la pastilla y qué hacer si se corta la luz: sacar a los niños con calma, reconectar y esperar a que el inflable quede firme."
 ---
 
-El motor de un inflable se conecta a un **contacto doméstico normal**, el mismo que usas para la televisión o el refrigerador. En México eso significa 127 V nominales, lo que casi todo el mundo llama "110". No necesitas una instalación especial, ni una toma de 220, ni un electricista para la fiesta.
+El motor de un inflable se conecta a un **contacto doméstico normal** de 110 V (127 V nominales en México), a menos de 20 m del área, y trabaja sin parar durante todo el evento. No necesitas toma de 220 ni electricista: basta un contacto libre solo para el motor, una ruta segura para la extensión y ubicar la pastilla.
 
-Lo que sí necesitas es que ese contacto esté a menos de 20 m del área de instalación, que esté libre para el motor y que la extensión sea la adecuada. Con eso, la luz deja de ser tema.
+**Puntos clave**
 
-> **Respuesta rápida:** el motor del inflable usa un contacto estándar de 127 V a menos de 20 m y trabaja de forma continua durante todo el evento. No compartas ese contacto con aparatos de alto consumo, usa una extensión de uso rudo de una sola pieza y totalmente desenrollada, y ten ubicada la pastilla. Al cotizar confirmamos que tu contacto y la distancia sirvan.
+- El motor no se apaga durante la fiesta: si quieres una pausa, se cierra la entrada.
+- Un contacto para el motor y nada más; microondas, cafetera y bocinas van en otro circuito.
+- Nosotros llevamos la extensión del motor; tú defines por dónde pasa, por la orilla y fijada con cinta.
+- Si se bota la pastilla, primero se saca a los niños con calma y luego se reconecta.
+- Al cotizar confirmamos que tu contacto y la distancia sirvan.
+
+Es el mismo contacto que usas para la televisión o el refrigerador; lo que casi todo el mundo llama "110". Con un contacto confiable, libre y cerca, la luz deja de ser tema.
 
 ## ¿Por qué el motor del inflable trabaja todo el evento?
 
@@ -100,7 +106,7 @@ Ve al centro de carga (la caja de pastillas) de tu casa. Muchas tienen etiquetas
 
 ## ¿Qué extensión usar para el inflable?
 
-La extensión es la parte que más se improvisa y la que más problemas da. Lo que conviene:
+Para el motor, nosotros llevamos la extensión. Aun así, conviene saber qué hace buena a una extensión, porque en las fiestas es lo que más se improvisa para el resto de los aparatos (bocina, luces, palomitas) y lo que más problemas da. Lo que conviene:
 
 - **De uso rudo.** Con forro grueso, que aguante estar en el piso, al sol y con gente caminando cerca.
 - **De calibre adecuado para la distancia.** Entre más larga la extensión, más grueso debe ser el cable. Una extensión delgada de las que se usan para la lámpara del buró no sirve para el motor.
@@ -111,6 +117,8 @@ La extensión es la parte que más se improvisa y la que más problemas da. Lo q
 ### ¿Por dónde pasa la extensión?
 
 Por la orilla, nunca por el pasillo de los adultos ni por la zona de la mesa. Fíjala al piso con cinta ancha en los tramos donde alguien pueda pisarla. Lejos de charcos, de la manguera del jardín y de la zona donde se sirven bebidas. Si cruza una puerta, que no quede prensada al cerrarla.
+
+![Extensión eléctrica naranja fijada con cinta gris por la orilla de un patio de cemento, lejos del paso y de la zona de mesas](/img/blog/cuanta-luz-consume-un-inflable-contacto-extension/escena-1.avif "La extensión va por la orilla, fijada con cinta y lejos de charcos y bebidas")
 
 En azoteas, la extensión suele subir desde el piso de abajo; nunca colgando por una ventana o por la fachada. Lo explicamos en la guía de [inflable en azotea](/blog/inflable-en-azotea-que-revisar-cdmx/).
 
@@ -153,7 +161,7 @@ El motor y la extensión no deben quedar en charcos ni bajo el agua. Los inflabl
 - [ ] Contacto doméstico ubicado a menos de 20 m, probado y libre.
 - [ ] Pastilla de ese contacto identificada en el centro de carga.
 - [ ] Aparatos de alto consumo en otro contacto, de preferencia otro circuito.
-- [ ] Extensión de uso rudo, de una sola pieza y totalmente desenrollada.
+- [ ] Cualquier extensión adicional, de uso rudo, de una sola pieza y totalmente desenrollada.
 - [ ] Ruta de la extensión por la orilla, fijada con cinta.
 - [ ] Extensión y motor lejos de agua, charcos y zona de bebidas.
 - [ ] Adulto responsable que sabe qué hacer si se corta la luz.
@@ -163,4 +171,6 @@ En diciembre, cuando se suman series de luces y calentadores, este checklist pes
 
 ## Confirma tu contacto al cotizar
 
-Al cotizar te preguntamos dónde está el contacto y a qué distancia queda del área. Si tienes dudas, manda una foto del contacto y del recorrido hasta donde irá el inflable. Si buscas más respuestas sobre instalación, anticipo o lluvia, están en las [preguntas frecuentes de renta](/preguntas-frecuentes/). Para un modelo que funcione bajo techo, revisa el catálogo de [inflables para interiores](/inflables/para-interiores/), o [manda la foto de tu contacto por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20confirmar%20si%20mi%20contacto%20sirve%20para%20el%20inflable).
+Al cotizar te preguntamos dónde está el contacto y a qué distancia queda del área. Si tienes dudas, manda una foto del contacto y del recorrido hasta donde irá el inflable. Si buscas más respuestas sobre instalación, anticipo o lluvia, están en las [preguntas frecuentes de renta](/preguntas-frecuentes/). Para un modelo que funcione bajo techo, revisa el catálogo de [inflables para interiores](/inflables/para-interiores/).
+
+**Siguiente paso:** [manda la foto de tu contacto por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20confirmar%20si%20mi%20contacto%20sirve%20para%20el%20inflable) (lunes a domingo, de 8:00 a 20:00) o [pide tu cotización en línea](/cotizar/) y te confirmamos si tu contacto y la distancia sirven.

@@ -1,7 +1,7 @@
 ---
-title: "Fiesta de 6 años: brincolín de dragón y plan de fiesta"
+title: "Fiesta de 6 años con inflable: plan, juegos y turnos"
 h1: "Cómo organizar una fiesta de 6 años con un brincolín de dragón"
-description: "Planea una fiesta de 6 años con brincolín de dragón: horarios, turnos, juegos, menú y consejos para rentarlo en CDMX sin perder tiempo."
+description: "Planea una fiesta de 6 años con brincolín de dragón: horario por bloques, turnos, juegos, menú y qué revisar en el patio antes de rentar en CDMX. Cotiza."
 excerpt: "A los seis años los niños ya siguen una consigna corta, disfrutan competir sin que todo sea carrera y todavía quieren brincar. Un inflable de dragón puede ordenar la tarde si lo usas por bloques."
 publishDate: "2026-11-02"
 updatedDate: "2026-11-04"
@@ -31,28 +31,35 @@ faqs:
   - question: "¿Cuánto dura una fiesta de 6 años con inflable?"
     answer: "Una reunión de tres a cuatro horas permite alternar juego activo, comida y actividades tranquilas. No necesitas mantener el inflable abierto todo el tiempo: reservar dos bloques de brinco, uno al principio y otro después del pastel, ayuda a que los niños descansen y evita que coman justo antes de saltar."
   - question: "¿Qué necesita el lugar para instalar Dragones Rojos?"
-    answer: "El área debe ser exterior, plana y despejada, sin vidrio ni objetos punzantes. Se requiere una toma de 110 V a menos de 20 metros y 4.5 m de altura libre; revisa ramas, cables y toldos. Dragones Rojos mide 5 × 3 × 2.80 m y su instalación toma alrededor de 20 minutos."
+    answer: "El área debe ser exterior, plana y despejada, sin vidrio ni objetos punzantes. Se requiere una toma de 110 V a menos de 20 metros y 4.5 m de altura libre; revisa ramas, cables y toldos. Dragones Rojos mide 5 × 3 × 2.80 m y su instalación toma entre 15 y 30 minutos."
   - question: "¿Qué juegos pueden hacer niños de 6 años además de brincar?"
     answer: "Funcionan bien una búsqueda de pistas cortas, relevos sin contacto, una mesa para decorar escudos y una piñata al final. Alterna un juego de movimiento con uno de mesa para que el grupo no se forme en una sola fila. Evita poner juegos de carrera junto a la entrada o salida del inflable."
-  - question: "¿Pueden entrar niños pequeños al brincolín de dragón?"
-    answer: "Dragones Rojos es para edades de 3 a 8 años. Los menores de 3 no deben usarlo, y tampoco conviene mezclar niños con diferencia importante de tamaño en el mismo turno. Si habrá bebés o niños de uno a tres años, consulta el Castillo Baby, que está diseñado para ese rango."
   - question: "¿Cuánto cuesta un inflable de dragones para una fiesta de 6 años?"
     answer: "La renta de Dragones Rojos cuesta $1,600 por evento. El precio es neto; el traslado se confirma según la colonia y sólo se agrega 16% de IVA si requieres factura. La renta incluye instalación, motor, limpieza y recolección. También hay un paquete con mesa, sillitas y pintacaritas sujeto a disponibilidad."
   - question: "¿Qué pasa si llueve durante la fiesta?"
     answer: "Los inflables de BRINCOLINS son de uso en seco, así que se suspenden los turnos si llueve o hay viento fuerte. La política de cancelación establece la reprogramación sin costo por lluvia el día del evento. Conviene preparar una actividad bajo techo para el grupo mientras se define si las condiciones permiten continuar."
 ---
 
+Para una fiesta de 6 años con inflable, planea de 3 a 4 horas con dos bloques de brinco, turnos cortos por tamaño y una pausa para comer con el juego cerrado. El [Dragones Rojos](/inflables/dragones-rojos/) recibe niños de 3 a 8 años, mide 5 × 3 × 2.80 m, pide 4.5 m de altura libre y cuesta $1,600 por evento.
+
+**Puntos clave**
+
+- Abre el inflable en dos bloques, al llegar y después del pastel, en lugar de dejarlo abierto toda la tarde.
+- Agrupa los turnos por tamaño parecido y nombra a una persona adulta para la entrada en cada bloque.
+- Alterna juegos de movimiento con actividades de mesa para que nadie se quede solo en la fila.
+- Antes de apartar, confirma exterior plano, toma de 110 V a menos de 20 m y 4.5 m libres hacia arriba.
+
 Una **fiesta de 6 años** funciona mejor cuando el festejado tiene momentos para gastar energía y otros para reunirse con sus amigos. A esa edad, dejar a todo el grupo brincando desde que llega hasta que se va suele terminar en cansancio, hambre y filas. Un plan sencillo evita que el inflable compita con el pastel, la piñata y las fotos.
 
 El modelo Dragones Rojos tiene sentido si la mayoría de los invitados está entre 3 y 8 años. Combina el salto con una resbaladilla y sus mallas laterales permiten que el adulto observe el juego desde afuera. Antes de elegirlo por el tema, confirma que el festejo será en un espacio exterior y que el grupo corresponde a ese rango de edad.
 
-> **Respuesta rápida:** para una [fiesta de 6 años con el inflable Dragones Rojos](/inflables/dragones-rojos/), planea dos bloques de juego, turnos cortos y una pausa antes de comer. El modelo mide 5 × 3 × 2.80 m, requiere 4.5 m libres de altura y es para niñas y niños de 3 a 8 años. La capacidad y el espacio final se confirman al cotizar.
+La capacidad y el espacio final se confirman al cotizar, con las edades y el número aproximado de invitados.
 
 ## ¿Por qué un brincolín de dragón encaja a los 6 años?
 
 A los seis años un niño ya suele participar en juegos con una regla y un objetivo visible: encontrar una pista, reunir tres piezas o lograr que su equipo termine un reto. El inflable no necesita convertirse en una competencia permanente. Su valor está en darles un lugar claro para brincar y deslizarse entre las demás actividades.
 
-Dragones Rojos es un modelo mediano de exterior que se instala en alrededor de 20 minutos. Su precio de renta es $1,600 por evento, neto; el traslado depende de la colonia y el IVA se agrega únicamente si requieres factura. La [comparativa de Dragones Rojos, Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/) explica cuándo este modelo corresponde al espacio y cuándo conviene mirar otra alternativa del mismo precio.
+Dragones Rojos es un modelo mediano de exterior que se instala en 15 a 30 minutos. Su precio de renta es $1,600 por evento, neto; el traslado depende de la colonia y el IVA se agrega únicamente si requieres factura. La [comparativa de Dragones Rojos, Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/) explica cuándo este modelo corresponde al espacio y cuándo conviene mirar otra alternativa del mismo precio.
 
 Si la lista incluye hermanos mayores de nueve años, no les prometas que usarán el mismo juego: su rango publicado termina a los 8. Para un grupo muy mezclado, puedes organizarles una actividad fuera del inflable o comparar un modelo para mayores. Tampoco entran niños menores de 3; para ellos está el [Castillo Baby para fiestas con niños pequeños](/inflables/mini-castillo/).
 
@@ -108,6 +115,8 @@ Un menú práctico no requiere nombres temáticos ni porciones gigantes. Conside
 - Pastel después de la comida, cuando todos ya estén fuera del brincolín.
 - Un espacio aparte para que las familias adultas conversen sin atravesar la fila de los niños.
 
+![Mesa infantil con fruta, sándwiches y vasos de agua en un patio, lista para la pausa de la comida](/img/blog/fiesta-de-6-anos-ideas-inflable/escena-1.avif "La comida se sirve con el inflable cerrado y lejos de la zona de juego.")
+
 Pregunta con anticipación si algún invitado tiene una restricción alimentaria; no hace falta anunciarla durante el festejo, basta con reservar una opción identificada. El segundo bloque de juego empieza hasta que el grupo haya tenido un descanso razonable, no al terminar la última mordida.
 
 ## ¿Qué revisas en el patio antes de reservar?
@@ -148,7 +157,7 @@ La mayoría salen de tratar a un grupo de primero de primaria como si fuera de k
 
 Si tienes diez niñas y niños que necesitan sentarse a hacer la actividad o comer, el [paquete de fiesta con Dragones Rojos](/servicios/paquetes-de-fiesta/) reúne el inflable, una mesa con 10 sillitas y una hora de pintacaritas por $2,800, con entrega según zona. Confirma disponibilidad y traslado para tu fecha, porque el paquete no reemplaza la revisión del espacio.
 
-Si lo que más entusiasma al festejado es deslizarse, Dragones Rojos ofrece una resbaladilla integrada sin convertir la tarde en una fila de tobogán. La [elección de un brincolín con resbaladilla](/inflables/toboganes/) separa ese caso de Barco Pirata y Extremo, modelos con recorridos más grandes para otro rango de edad y otra escala de jardín. También puedes revisar los [inflables medianos para niños](/inflables/medianos/) antes de decidir por temática.
+Si lo que más entusiasma al festejado es deslizarse, Dragones Rojos ofrece una resbaladilla integrada sin convertir la tarde en una fila de tobogán. La [selección de inflables con tobogán](/inflables/toboganes/) separa ese caso de Barco Pirata y Extremo, modelos con recorridos más grandes para otro rango de edad y otra escala de jardín. También puedes revisar los [inflables medianos para niños](/inflables/medianos/) antes de decidir por temática.
 
 Cuando el grupo de amigos ya va a cumplir siete, cambian tanto los retos como la duración de los turnos. Para anticipar ese siguiente festejo, toma ideas de la [fiesta de 7 años con castillo inflable](/blog/fiesta-de-7-anos-nina-ideas-castillo/) y adapta sólo las actividades que hagan sentido para tu grupo.
 
@@ -156,6 +165,6 @@ Cuando el presupuesto sea el punto de partida, toma el precio del Dragones Rojos
 
 ## ¿Cómo dejas lista la fiesta de 6 años para cotizar?
 
-Antes de escribir, reúne fecha, horario, colonia, foto del espacio, edades de quienes jugarán y una idea de cuántos niños esperas. Esos datos permiten revisar disponibilidad, capacidad y viabilidad de instalación sin hacer promesas por una foto de referencia. Si la fiesta será en una calle cerrada, verifica con tu alcaldía si necesitas autorización para ocupar la vía y consulta la [logística de un inflable para fiesta en calle](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/).
+Antes de escribir, reúne fecha, horario, colonia, foto del espacio, edades de quienes jugarán y una idea de cuántos niños esperas. Esos datos permiten revisar disponibilidad, capacidad y viabilidad de instalación sin hacer promesas por una foto de referencia. Si la fiesta será en una calle cerrada, verifica con tu alcaldía si necesitas autorización para ocupar la vía y revisa también la guía para [festejar en privada o condominio](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/).
 
 Puedes [cotizar Dragones Rojos para una fiesta de 6 años](/cotizar/) con esa información o pedir apoyo por WhatsApp al 55 3128 1706. Así recibirás una respuesta sobre el modelo, la zona y las condiciones reales de tu fecha antes de apartarla.

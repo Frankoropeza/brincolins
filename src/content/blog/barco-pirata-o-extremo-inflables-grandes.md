@@ -7,9 +7,9 @@ publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
 category: "Barco Pirata"
 author: "Equipo BRINCOLINS"
-readTime: "13 min"
-heroImage: "/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif"
-heroImageAlt: "Uno de los inflables grandes: el Barco Pirata de costado, con ancla blanca y mástiles de colores"
+readTime: "14 min"
+heroImage: "/img/blog/barco-pirata-o-extremo-inflables-grandes/portada.avif"
+heroImageAlt: "Jardín amplio con pasto parejo y árboles altos, listo para instalar un inflable grande"
 galleryImages: []
 intro:
   - "La lista de invitados creció, los niños ya pasan de los 6 años y la conversación llega a los dos grandes del catálogo. Los dos cubren de 3 a 12 años, van en exterior y se instalan en 30 minutos."
@@ -23,7 +23,7 @@ faqs:
   - question: "¿Cuál es el inflable más grande para rentar en CDMX?"
     answer: "Depende de cómo lo midas. En el catálogo, el Extremo es el más largo, con 8 m, y el Castillo Blanco es el más ancho y el más alto, con 7 m de ancho y 4 m de alto. El Barco Pirata es el que pide más altura libre, 5.2 m, por su mástil."
   - question: "¿El Barco Pirata o el Extremo se pueden instalar bajo techo?"
-    answer: "No. Los dos son modelos sólo para exterior. El Barco Pirata necesita 5.2 m de altura libre y el Extremo 4.5 m, medidas que casi ningún espacio cerrado tiene. Van en jardín, patio amplio o explanada, sobre superficie plana y despejada."
+    answer: "No. Los dos son modelos solo para exterior. El Barco Pirata necesita 5.2 m de altura libre y el Extremo 4.5 m, medidas que casi ningún espacio cerrado tiene. Van en jardín, patio amplio o explanada, sobre superficie plana y despejada."
   - question: "¿Se pueden rentar el Barco Pirata y el Extremo para el mismo evento?"
     answer: "Sí, si tu espacio y la disponibilidad de la fecha lo permiten. Es una opción útil en kermés o eventos con muchos niños, porque reparte grupos por edad. El espacio para ambos, la capacidad y el traslado se confirman al cotizar."
   - question: "¿Cuánto tiempo tarda en instalarse un inflable grande?"
@@ -31,20 +31,24 @@ faqs:
   - question: "¿Cuántos niños caben en un inflable grande al mismo tiempo?"
     answer: "Se confirma al cotizar, porque depende del modelo, de las edades y de cómo armes los turnos. Lo que sí aplica siempre es separar a los chicos de los grandes y que una persona adulta supervise durante todo el evento."
   - question: "¿Qué pasa si llueve el día de la fiesta con un inflable grande?"
-    answer: "Se cierra el turno y todos bajan hasta que deje de llover y el inflable esté seco. La superficie mojada resbala de forma imprevisible y el tobogán acelera de más. Si te preocupa el clima, pregunta por las condiciones de cambio de fecha al cotizar."
+    answer: "Se cierra el turno y todos bajan hasta que deje de llover y el inflable esté seco. La superficie mojada resbala de forma imprevisible y el tobogán acelera de más. Si el pronóstico es de lluvia, puedes reprogramar la fecha sin costo."
 ---
 
-Tienes el jardín, tienes la lista de invitados y tienes dos fichas abiertas en el celular. Uno es un barco con mástil. El otro, un circuito de 8 metros. ¿Cuál te conviene?
+Entre los dos inflables grandes, elige el [Barco Pirata de $2,300](/inflables/barco-pirata/) si tu fiesta tiene temática o tu espacio es corto pero despejado hacia arriba: mide 6 × 3.5 × 3.80 m y pide 5.2 m de altura libre. Elige el Extremo de $2,500 si los niños quieren competir o hay ramas bajas: mide 8 × 4.5 × 3.50 m y pide 4.5 m libres.
 
-Entre los **inflables grandes** del catálogo, el Barco Pirata y el Extremo se reparten casi todas las fiestas de niños de primaria. Cuestan parecido, cubren las mismas edades y van en exterior. Pero piden espacios distintos y ofrecen juegos distintos.
+**Puntos clave**
 
-Aquí tienes las diferencias que deciden, con dos tablas y una forma sencilla de medir tu espacio antes de apartar.
+- Los dos cubren de 3 a 12 años, van solo en exterior y se instalan en unos 30 minutos.
+- El Barco Pirata pide más altura (5.2 m libres); el Extremo pide más largo (8 m).
+- Para temática de piratas o sirenas, el barco; para carreras con doble carril, el Extremo.
+- La diferencia de precio es de $200: decide con la cinta métrica, no con la foto.
+- La capacidad y el espacio libre exacto se confirman al cotizar con tus medidas.
 
-> **Respuesta rápida:** Entre los dos inflables grandes, elige el [Barco Pirata de $2,300](/inflables/barco-pirata/) si tu fiesta tiene temática o tu espacio es corto pero despejado hacia arriba: mide 6 × 3.5 × 3.80 m y pide 5.2 m de altura libre. Elige el Extremo de $2,500 si los niños quieren competir o tienes ramas bajas: mide 8 × 4.5 × 3.50 m, pide 4.5 m libres y trae doble carril.
+Tienes el jardín, la lista de invitados y dos fichas abiertas en el celular: un barco con mástil y un circuito de 8 metros. Entre los **inflables grandes** del catálogo, estos dos se reparten casi todas las fiestas de niños de primaria. Cuestan parecido, cubren las mismas edades y van en exterior, pero piden espacios distintos y ofrecen juegos distintos. Aquí tienes las diferencias que deciden, con tablas y una forma sencilla de medir tu espacio antes de apartar.
 
 ## ¿Qué tienen en común los dos inflables grandes del catálogo?
 
-Más de lo que parece. Y eso te simplifica la decisión. Los dos son para niños de 3 a 12 años, los dos van sólo en exterior, los dos se instalan en unos 30 minutos y los dos tienen tobogán. También comparten requisitos de instalación y supervisión.
+Más de lo que parece. Y eso te simplifica la decisión. Los dos son para niños de 3 a 12 años, los dos van solo en exterior, los dos se instalan en unos 30 minutos y los dos tienen tobogán. También comparten requisitos de instalación y supervisión.
 
 Ambos necesitan una toma de 110 V a menos de 20 m, superficie plana y despejada sin vidrio ni objetos punzantes, y una persona adulta supervisando todo el evento. La capacidad y el espacio libre exacto se confirman al cotizar. No decidas por un número de niños leído en internet. Decide con tus medidas y tu lista.
 
@@ -61,7 +65,7 @@ Esta tabla compara las especificaciones tal como aparecen en el catálogo. La co
 | Medidas (largo × ancho × alto) | 6 × 3.5 × 3.80 m | 8 × 4.5 × 3.50 m |
 | Altura libre necesaria | 5.2 m | 4.5 m |
 | Edades | 3 a 12 años | 3 a 12 años |
-| ¿Interiores? | No, sólo exterior | No, sólo exterior |
+| ¿Interiores? | No, solo exterior | No, solo exterior |
 | Instalación | 30 min | 30 min |
 | Diseño | Mástil, velas y tobogán por la popa | Pista de obstáculos, tobogán doble y doble carril |
 | Precio neto por evento | $2,300 | $2,500 |
@@ -88,11 +92,13 @@ El barco necesita 5.2 m de altura libre; el Extremo, 4.5 m. Esa diferencia desca
 
 #### Cómo mides la altura
 
-Mide desde el piso hasta el primer obstáculo encima del área: cable, rama, toldo o alero. Hazlo en el punto exacto, no en el centro del jardín. En la ficha del barco tienes los requisitos de suelo, altura y acceso.
+Mide desde el piso hasta el primer obstáculo encima del área: cable, rama, toldo o alero. Hazlo en el punto exacto, no en el centro del jardín. En la ficha del barco tienes los requisitos de suelo, altura y acceso, y en la [tabla de medidas de inflables](/blog/medidas-de-inflables-para-fiestas-tabla/) puedes comparar todos los modelos.
+
+![Persona de espaldas midiendo con cinta métrica la altura entre el pasto y la rama de un árbol en un jardín amplio](/img/blog/barco-pirata-o-extremo-inflables-grandes/escena-1.avif "Mide la altura libre en el punto exacto donde irá el inflable, no al centro del jardín")
 
 ### Cuando no alcanza para ninguno
 
-Pasa. No es grave. Si te falta largo y altura, mira un mediano como el [Castillo de Princesas de 5 m de largo](/inflables/castillo-princesas/), que pide 4.2 m de altura libre y cubre de 2 a 10 años.
+Pasa, y tiene solución. Si te falta largo y altura, mira un mediano como el [Castillo de Princesas de 5 m de largo](/inflables/castillo-princesas/), que pide 4.2 m de altura libre y cubre de 2 a 10 años.
 
 > **¿No sabes cuál te cabe?** Mándanos largo, ancho y altura libre de tu espacio, y te decimos cuál de los dos entra y cuál conviene. [Preguntar cuál inflable grande me cabe](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20me%20cabe%20el%20Barco%20Pirata%20o%20el%20Extremo)
 
@@ -161,7 +167,7 @@ Los dos modelos grandes piden exterior y espacio, y eso es justo lo que sobra en
 | Nicolás Romero | $250–$400 | $2,550–$2,700 | $2,750–$2,900 |
 | Metepec | $400–$600 | $2,700–$2,900 | $2,900–$3,100 |
 
-Precios netos; con factura se agrega 16% de IVA.
+Precios netos; con factura se agrega 16 % de IVA. La renta cubre un evento de 4 a 6 horas.
 
 **Texcoco y Chalco.** En el oriente del Estado de México hay muchas quintas y terrenos amplios donde el largo de 8 m del Extremo no es problema. Lo que más se revisa ahí es el piso: si es tierra suelta, conviene un área de pasto o concreto pareja. Consulta tiempos y condiciones de la [entrega de inflables en Texcoco](/cobertura/texcoco/) y del [servicio en Chalco](/cobertura/chalco/).
 
@@ -185,16 +191,16 @@ Si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. P
 
 Conviene que lo sepas desde ahora: no ofrecemos seguro de responsabilidad civil con ninguno de los dos. Por eso insistimos en supervisión adulta, turnos por edad y respetar la capacidad confirmada.
 
-> **Compara con tu fecha, no sólo con la tabla.** Te confirmamos cuál de los dos está disponible el día de tu fiesta y el total con traslado. [Cotizar Barco Pirata y Extremo para mi fecha](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20comparar%20precio%20y%20disponibilidad%20del%20Barco%20Pirata%20y%20el%20Extremo)
+> **Compara con tu fecha, no solo con la tabla.** Te confirmamos cuál de los dos está disponible el día de tu fiesta y el total con traslado.
 
 ## ¿Qué errores se cometen al elegir entre el barco y el Extremo?
 
 Casi todos vienen de decidir por la foto en lugar de por la cinta métrica. Revisa esta lista antes de apartar; cada punto te ahorra un cambio de último momento o un modelo que no entra.
 
-- **Medir sólo el suelo.** La altura libre descarta al barco más veces que el largo descarta al Extremo.
+- **Medir solo el suelo.** La altura libre descarta al barco más veces que el largo descarta al Extremo.
 - **Elegir por foto.** El barco se ve más grande por su altura; el Extremo ocupa más piso.
 - **Olvidar el acceso.** Los dos se llevan a mano desde la camioneta; pasillos angostos y escalones cuentan.
-- **Suponer que caben bajo techo.** Los dos son sólo para exterior, sin excepción.
+- **Suponer que caben bajo techo.** Los dos son solo para exterior, sin excepción.
 - **Mezclar edades en el mismo turno.** Aunque los dos cubren de 3 a 12 años, los turnos se separan.
 - **No preguntar por la corriente.** Los dos necesitan 110 V a menos de 20 m del área.
 - **Decidir por la diferencia de precio.** La diferencia es pequeña; lo que decide es tu espacio.

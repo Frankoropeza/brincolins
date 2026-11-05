@@ -1,5 +1,5 @@
 ---
-title: "Fiesta de 9 años: ¿sigue funcionando un inflable?"
+title: "Fiesta de 9 años niña con inflable: ideas y retos"
 h1: "Fiesta de 9 años para niña con inflable: cuándo elegir castillo y cuándo cambiar de dinámica"
 description: "Planea una fiesta de 9 años con inflable en CDMX: decide si el Castillo de Princesas encaja, organiza retos y elige otra opción cuando el grupo lo pide."
 excerpt: "A los 9 años el inflable puede seguir siendo el punto favorito de la fiesta, pero ya necesita convivir con retos, amigas y tiempos de conversación. Esta guía ayuda a decidir si el Castillo de Princesas es el modelo indicado."
@@ -8,8 +8,8 @@ updatedDate: "2026-11-04"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
 readTime: "12 min"
-heroImage: "/img/inflables/castillo-princesas.avif"
-heroImageAlt: "Castillo de Princesas inflable rosa y azul turquesa con torres decorativas y resbaladilla"
+heroImage: "/img/blog/fiesta-de-9-anos-nina-con-inflable/portada.avif"
+heroImageAlt: "Grupo de amigas de 9 años, de espaldas, en un jardín decorado con banderines en tonos pastel"
 galleryImages:
   - "/img/inflables/castillo-princesas-vista-frontal-cdmx.avif"
   - "/img/inflables/castillo-princesas-terraza-evento-nina.avif"
@@ -38,15 +38,21 @@ faqs:
     answer: "La renta neta por evento es de $1,800. Incluye instalación, motor, limpieza y recolección; el traslado se confirma según la colonia. Si requieres factura, se agrega 16% de IVA. Envía fecha, ubicación y fotos del área para conocer el total antes de reservar."
   - question: "¿Cómo organizo el inflable si llegan hermanos menores?"
     answer: "No mezcles a niñas de 9 años con hermanos pequeños en el mismo turno. Da un bloque inicial corto a los menores y reserva después el castillo para el grupo de la festejada. Una persona adulta en la entrada puede hacer el cambio de grupo, mantener libre la resbaladilla y detener el juego durante alimentos."
-  - question: "¿Qué pasa si llueve durante una fiesta con inflable?"
-    answer: "El Castillo de Princesas no se usa con lluvia, granizo ni vientos fuertes. Planea una actividad tranquila bajo techo que no dependa del inflable y consulta las condiciones de reprogramación antes de apartar. No conviene asumir que podrá moverse a una cochera o salón techado de último momento."
 ---
+
+Una fiesta de 9 años puede aprovechar el [Castillo de Princesas inflable](/inflables/castillo-princesas/) si el grupo principal tiene hasta 10 años y hay jardín o patio exterior. Mide 5 × 3.30 × 3 m, pide 4.2 m de altura libre y funciona mejor en dos bloques cortos, alternados con retos por equipos, fotos y una actividad de mesa.
+
+**Puntos clave**
+
+- El castillo cubre de 2 a 10 años: a los 9 encaja como estación, no como todo el programa.
+- Retos de 15 minutos con pistas fuera del inflable dan a todas una razón para participar.
+- Separa los turnos por edad aunque sean hermanas o primas, con una persona adulta en la entrada.
+- Si el grupo pide carreras u obstáculos, o la mayoría pasa de 10 años, compara otro modelo.
+- La renta es de $1,800 netos por evento; el traslado depende de la colonia.
 
 Una **fiesta de 9 años** tiene un punto medio muy particular: las niñas todavía quieren brincar, pero también quieren elegir equipo, resolver una pista, tomarse fotos entre amigas y tener ratos que no parezcan un recreo de niños pequeños. Por eso un inflable puede funcionar muy bien, siempre que sea parte de la tarde y no toda la tarde.
 
 El Castillo de Princesas está recomendado para niñas y niños de 2 a 10 años. Su diseño rosa y turquesa, el brinco y la resbaladilla siguen encajando a los nueve; lo que cambia es la forma de usarlo. En vez de abrirlo sin pausa desde que llega la primera invitada, conviene darle bloques definidos y algo que hacer entre cada uno.
-
-> **Respuesta rápida:** Una fiesta de 9 años puede aprovechar el [Castillo de Princesas inflable](/inflables/castillo-princesas/) si el grupo principal tiene hasta 10 años y el evento cuenta con jardín o patio exterior. El modelo mide 5 × 3.30 × 3 m, requiere 4.2 m de altura libre y se vuelve más entretenido cuando alternas brinco con retos cortos, fotos y una actividad de mesa.
 
 ## ¿Por qué una fiesta de 9 años necesita algo más que brinco libre?
 
@@ -68,7 +74,7 @@ Estas señales te ayudan a decidir:
 - El grupo tiene edades parecidas o puedes separar a los hermanos menores en otro momento.
 - Quieres que la parte activa suceda fuera de la mesa de alimentos y de la zona de fotos.
 
-La ficha del castillo, enlazada en la respuesta rápida, reúne sus requisitos y te permite revisar si el modelo corresponde al espacio antes de diseñar la invitación. La capacidad simultánea se confirma al cotizar; no es buena idea convertir el castillo en sala de espera ni calcular un número a partir de una imagen.
+La ficha del castillo, enlazada al inicio, reúne sus requisitos y te permite revisar si el modelo corresponde al espacio antes de diseñar la invitación. La capacidad simultánea se confirma al cotizar; no es buena idea convertir el castillo en sala de espera ni calcular un número a partir de una imagen.
 
 ## ¿Qué programa de tres horas da espacio para jugar y convivir?
 
@@ -96,6 +102,8 @@ Prueba una combinación como esta:
 4. Reúne al grupo afuera para una foto antes de abrir el segundo turno.
 
 No hace falta ofrecer premios costosos. Un sello, una pulsera de color o escoger el orden de la foto puede ser suficiente. La fiesta no debería depender de que alguien “gane” el brinco. Si tu prioridad son las fotos, tómalas afuera del castillo y entre turnos, para no estorbar el juego.
+
+![Dos equipos de niñas de unos 9 años, de espaldas, leyendo tarjetas de pistas en un jardín](/img/blog/fiesta-de-9-anos-nina-con-inflable/escena-1.avif "Las pistas se resuelven afuera; el turno en el castillo es el premio.")
 
 ## ¿Cómo mantienes seguros los turnos cuando llegan niñas de otras edades?
 
@@ -129,7 +137,7 @@ El plan cambia poco entre alcaldías, pero el acceso puede cambiar mucho. En un 
 | [Benito Juárez](/cobertura/benito-juarez/) | Área común en Del Valle, Portales o Narvarte | Narvarte no tiene cargo adicional; el resto se confirma según colonia |
 | [Cobertura de inflables en CDMX](/cobertura/cdmx/) | Fiesta en cualquier alcaldía de la ciudad | Algunas zonas de Iztapalapa y Xochimilco no tienen costo; el resto se revisa con la colonia |
 
-La instalación estimada del castillo es de 20 minutos, pero las casetas, elevadores, pasillos y permisos de área común toman tiempo aparte. Manda fotos abiertas del espacio y hacia arriba, además de la fecha y las edades. Si el pronóstico cambia, ten una actividad tranquila bajo techo; el inflable no se utiliza con lluvia, granizo ni vientos fuertes. Consulta las condiciones de reprogramación antes de apartar.
+La instalación del castillo toma de 15 a 30 minutos, pero las casetas, elevadores, pasillos y permisos de área común toman tiempo aparte. Manda fotos abiertas del espacio y hacia arriba, además de la fecha y las edades. Si el pronóstico cambia, ten una actividad tranquila bajo techo; el inflable no se utiliza con lluvia, granizo ni vientos fuertes. Si llueve el día del evento, la fecha se reprograma sin costo.
 
 ## ¿Y si la casa está en Iztapalapa o Nezahualcóyotl?
 

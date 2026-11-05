@@ -7,7 +7,7 @@ publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
 category: "Jungla"
 author: "Equipo BRINCOLINS"
-readTime: "19 min"
+readTime: "16 min"
 heroImage: "/img/inflables/mini-jungla.avif"
 heroImageAlt: "Inflable Jungla para fiesta de dinosaurios, con palmeras, resbaladilla naranja y dinosaurios verde y morado"
 galleryImages:
@@ -35,13 +35,21 @@ faqs:
     answer: "En cuanto tengas fecha, sobre todo si la fiesta cae en fin de semana, porque sábados y domingos se llenan primero. La fecha queda reservada con el 50% de anticipo. Escribe por WhatsApp o llena la cotización en línea con la fecha, la zona y el número aproximado de niños."
 ---
 
+Para una fiesta de dinosaurios con niños de 3 a 8 años, el centro natural es el [brincolín Jungla de dinosaurios y palmeras](/inflables/mini-jungla/): mide 5 × 3 × 2.50 m, va solo en exterior con 4.2 m de altura libre y cuesta $1,600 netos por evento. Alrededor suma un camino de huellas, una excavación en arenero y huevos de yeso.
+
+**Puntos clave**
+
+- El Jungla ya trae dinosaurios y palmeras, así que resuelve la mitad de la ambientación.
+- Tres recursos bastan para la decoración: camino de huellas, cinta de zona de excavación y nido de huevos.
+- Prepara juegos distintos para 3 a 5 años y para 6 a 8, en paralelo con los turnos del inflable.
+- El menú se vuelve temático con letreros; la comida se sirve con el inflable cerrado.
+- Antes de apartar, mira hacia arriba: ramas, cables o toldos descartan un lugar aunque el pasto sobre.
+
 Tu hijo ya decidió: quiere una **fiesta de dinosaurios**. Tú tienes tres semanas, un presupuesto con límite y un espacio que hoy se ve de todo menos prehistórico. Respira. Esto se resuelve.
 
 El truco está en poner primero la pieza grande. El inflable Jungla ya trae dinosaurios, palmeras y colores de selva, así que la mitad de la ambientación llega con la instalación. Lo demás es cartón, arena, un guion claro y unos cuantos letreros bien puestos.
 
 Aquí tienes el plan de principio a fin. Qué montar, qué juegos preparar por edad, qué servir y cómo repartir la tarde sin filas eternas.
-
-> **Respuesta rápida:** Para una fiesta de dinosaurios con niños de 3 a 8 años, el centro natural es el [brincolín Jungla de dinosaurios y palmeras](/inflables/mini-jungla/): mide 5 × 3 × 2.50 m, va sólo en exterior con 4.2 m de altura libre y cuesta $1,600 netos por evento, con instalación y recolección incluidas. Alrededor suma un camino de huellas, una excavación en arenero, huevos de yeso y un menú con nombres temáticos.
 
 ## ¿Por qué el Jungla sostiene una fiesta de dinosaurios completa?
 
@@ -51,7 +59,7 @@ Piensa en lo que te costaría ese impacto con globos y telones. Te saldría caro
 
 ### Lo que trae el inflable y lo que pones tú
 
-Los datos que te sirven para planear son pocos. Mide 5 × 3 × 2.50 m, es para niños de 3 a 8 años, se instala en unos 15 minutos y cuesta $1,600 por evento. Llega revisado y sanitizado, lo instalamos con anclaje verificado y el motor profesional trabaja durante todo el evento. Las fotos y la disponibilidad están en la ficha del modelo, enlazada arriba. Si tienes dudas sobre la toma, el piso o la altura, mándanos una foto del área y te decimos si tu espacio funciona o si conviene otro modelo.
+Los datos que te sirven para planear son pocos. Mide 5 × 3 × 2.50 m, es para niños de 3 a 8 años, se instala en 15 a 30 minutos y cuesta $1,600 por evento, con instalación y recolección incluidas. Llega revisado y sanitizado, lo instalamos con anclaje verificado y el motor profesional trabaja durante todo el evento. Las fotos y la disponibilidad están en la ficha del modelo, enlazada arriba. Si tienes dudas sobre la toma, el piso o la altura, mándanos una foto del área y te decimos si tu espacio funciona o si conviene otro modelo.
 
 Tu parte es corta, pero no es opcional. Necesitas una toma de corriente, el área despejada y una persona adulta que supervise todo el tiempo. Sin esas tres cosas no hay fiesta, con o sin dinosaurios.
 
@@ -206,9 +214,11 @@ La excavación es la actividad que más ensucia, así que su lugar depende del p
 
 Tres reglas sirven en cualquier espacio. La arena no se acerca al inflable, porque los niños la meten en los zapatos y luego a la lona. Pon una cubeta con agua o un trapo húmedo para sacudir manos antes de entrar al brincolín. Y al final, la arena se cubre: si queda destapada, el lunes es arenero de gatos.
 
+![Tina con arena sobre una lona en un jardín, con brochas y dinosaurios de plástico a medio enterrar](/img/blog/fiesta-de-dinosaurios-con-inflable-cdmx/escena-1.avif "El arenero va sobre una lona y lejos de la entrada del inflable.")
+
 Si no sabes cómo se comporta tu piso con un inflable, la guía de [instalación en pasto, cemento o tierra](/blog/donde-instalar-inflable-pasto-cemento-tierra/) resuelve las dudas típicas.
 
-## Fiestas de dinosaurios en el norte del valle
+## ¿Qué cambia en una fiesta de dinosaurios en el norte del valle?
 
 En el norte de la Ciudad de México y en los municipios vecinos del Estado de México es común festejar en patios de cemento, en la calle cerrada de una privada o en el área común de un conjunto habitacional. Para el Jungla eso funciona bien siempre que haya superficie plana, 4.2 m libres hacia arriba y una toma cerca. Lo que suele fallar es la altura: cables de luz que cruzan el patio, tendederos y techos de lámina.
 

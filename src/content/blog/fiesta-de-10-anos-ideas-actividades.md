@@ -38,13 +38,17 @@ faqs:
     answer: "En cuanto tengas fecha y lugar definidos, porque los fines de semana se llenan. La fecha se aparta con 50% de anticipo y la disponibilidad se confirma por WhatsApp al 55 3128 1706, de lunes a domingo de 8:00 a 20:00. Así llegas a la semana de la fiesta con el inflable resuelto."
 ---
 
-Son las cinco de la tarde y el timbre no para. Llega una docena de niños de 5.º, se saludan con el puño y en dos minutos te miran con la misma cara: ¿y ahora qué hacemos? Esa mirada define tu fiesta.
+Una fiesta de 10 años funciona cuando hay competencia con marcador: carreras de dos en dos, contra reloj, relevos por equipos y una final con premiación. El circuito Extremo de 8 metros tiene doble carril y tobogán doble, es para niños de 3 a 12 años y cuesta $2,500 netos por evento, con instalación y recolección incluidas.
 
-Una fiesta de 10 años se gana en la primera media hora. Si el grupo encuentra un reto, se queda y compite hasta el pastel. Si no, tus invitados se dispersan entre celulares y pelotazos contra la barda.
+**Puntos clave**
 
-Te dejamos el plan para que eso no te pase: qué ya no funciona a esta edad, cómo usar el doble carril del circuito Extremo para carreras y relevos, cómo premiar sin dramas y un cronograma que puedes copiar tal cual.
+- A los 10 años los enganchan tres cosas: un marcador, un equipo y una revancha.
+- Una eliminatoria con repechaje hace que todos corran al menos dos veces.
+- Premia varias categorías en lugar de un solo ganador para evitar pleitos.
+- Los hermanos menores corren en su propio turno; los mayores de 12 y los adultos no entran.
+- El Extremo pide un área exterior de 8 × 4.5 m más margen y 4.5 m de altura libre.
 
-> **Respuesta rápida:** Una fiesta de 10 años funciona cuando hay competencia con marcador: carreras de dos en dos, contra reloj, relevos por equipos y una final con premiación. El circuito Extremo de 8 metros tiene doble carril y tobogán doble, es para niños de 3 a 12 años y cuesta $2,500 neto por evento, con instalación y recolección incluidas.
+Son las cinco de la tarde y el timbre no para. Llega una docena de niños de 5.º, se saludan con el puño y en dos minutos te miran con la misma cara: ¿y ahora qué hacemos? Una fiesta de 10 años se gana en la primera media hora. Si el grupo encuentra un reto, se queda y compite hasta el pastel; si no, se dispersa entre celulares y pelotazos contra la barda.
 
 ## ¿Qué ya no funciona en una fiesta de 10 años?
 
@@ -106,6 +110,8 @@ Arma los enfrentamientos de dos en dos con el doble carril. Los ganadores avanza
 #### La llave a la vista de todos
 
 Dibuja la llave en un pliego de papel kraft y pégala junto a la salida del circuito. Escribe los nombres a mano conforme avanzan. Ver su nombre subir es media emoción. Te vas a topar con niños que regresan solos a revisar contra quién les toca.
+
+![Pliego de papel kraft pegado en una barda con una llave de eliminatoria dibujada a mano, junto a un cronómetro y un silbato sobre una mesa](/img/blog/fiesta-de-10-anos-ideas-actividades/escena-1.avif "Una llave dibujada a mano y un cronómetro bastan para organizar la eliminatoria")
 
 #### Reglas que se dicen antes de la primera salida
 
@@ -229,7 +235,7 @@ Casi ninguno depende del inflable: dependen de cómo se organiza la fila y de qu
 
 Vale decirlo claro: no ofrecemos seguro de responsabilidad civil. Lo que sí entregamos es equipo revisado y sanitizado, instalación con anclaje verificado y motor profesional durante todo el evento. Para el resto de tus dudas de operación, las [preguntas frecuentes sobre la operación del día](/preguntas-frecuentes/) cubren casi todo.
 
-## Aparta la fecha del cumpleaños número 10
+## Siguiente paso: aparta la fecha del cumpleaños número 10
 
 Los fines de semana se llenan, y la disponibilidad se confirma por WhatsApp. Si ya tienes fecha y lugar, apartarla hoy te quita una preocupación. Te deja el resto del mes para lo divertido: la lista, los premios y la cartulina de récords.
 

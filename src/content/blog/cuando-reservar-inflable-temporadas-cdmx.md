@@ -7,7 +7,7 @@ publishDate: "2026-11-04"
 updatedDate: "2026-11-04"
 category: "Guías"
 author: "Equipo BRINCOLINS"
-readTime: "10 min"
+readTime: "9 min"
 heroImage: "/img/blog/brincolines-cdmx-precios-modelos/main.avif"
 heroImageAlt: "Modelos de inflables disponibles para apartar fecha en la Ciudad de México y el Estado de México"
 intro:
@@ -49,13 +49,17 @@ howto:
 
 Lo recomendable es reservar un inflable con **al menos 5 días de anticipación**, y con **2 semanas si la fiesta es en sábado o domingo**. En temporada alta (diciembre, Semana Santa y fin de cursos) los fines de semana se agotan rápido, así que conviene apartar todavía antes.
 
-Esa es la regla general. Lo que sigue es cómo aplicarla a tu fecha concreta.
+**Puntos clave**
 
-> **Respuesta rápida:** entre semana, aparta con al menos 5 días; en fin de semana, con 2 semanas; en diciembre, Semana Santa, fin de cursos, Día de Reyes y Día del Niño, en cuanto tengas la fecha. Se aparta con 50% de anticipo, y si cancelas con más de 48 horas se devuelve completo. Si tu fecha es pronto, pregunta de todos modos: a veces hay disponibilidad de último momento.
+- Entre semana, aparta con al menos 5 días; en fin de semana, con 2 semanas.
+- En diciembre, Día de Reyes, Semana Santa, Día del Niño y fin de cursos, aparta en cuanto tengas la fecha.
+- La fecha se aparta con 50 % de anticipo y el saldo se paga el día del evento, antes de instalar.
+- Si cancelas con más de 48 horas se devuelve el anticipo completo; si llueve, se reprograma sin costo.
+- Si tu fecha está cerca, pregunta igual: a veces hay disponibilidad de último momento.
 
 ## ¿Por qué se llenan primero los fines de semana?
 
-Porque la mayoría de las fiestas infantiles son sábado o domingo, y cada inflable sólo puede estar en un evento a la vez. Un martes cualquiera casi siempre hay modelos libres; un sábado de diciembre puede no quedar ninguno.
+Porque la mayoría de las fiestas infantiles son sábado o domingo, y cada inflable solo puede estar en un evento a la vez. Un martes cualquiera casi siempre hay modelos libres; un sábado de diciembre puede no quedar ninguno.
 
 Además, no todos los modelos se agotan igual. Los más pedidos para fiestas infantiles se apartan antes. [Dragones Rojos, el más rentado del catálogo](/inflables/dragones-rojos/), suele ser de los primeros en ocuparse en fines de semana. Si tienes un modelo favorito, ese es otro motivo para apartar con tiempo. Si no, ten una segunda opción: el catálogo de [inflables medianos](/inflables/medianos/) agrupa varios modelos de tamaño y precio parecidos.
 
@@ -77,6 +81,8 @@ Este calendario resume el año. No son cifras: es la lógica de cuándo se junta
 ### Diciembre
 
 Es la temporada más concurrida del año: las posadas de escuelas, empresas, unidades habitacionales y familias se suman a los cumpleaños normales. Los sábados se apartan primero. Si vas a organizar una, la guía de [posada infantil con inflable](/blog/posada-navidena-infantil-con-inflable-cdmx/) explica qué modelo conviene con frío y cómo encajar piñata y villancicos.
+
+![Patio de casa decorado para una posada con piñata de estrella, faroles de papel y mesas con mantel rojo al atardecer](/img/blog/cuando-reservar-inflable-temporadas-cdmx/escena-1.avif "En diciembre, posadas y cumpleaños compiten por los mismos fines de semana")
 
 ### Enero: Día de Reyes
 
@@ -171,7 +177,7 @@ Apartar no es el final del trámite. Entre el anticipo y la fiesta hay tres mome
 ### El día anterior
 
 - **Barre el área** y retira piedras, ramas y objetos punzantes.
-- **Prueba el contacto de luz** y deja lista la extensión. La guía de [qué contacto y extensión necesita el motor](/blog/cuanta-luz-consume-un-inflable-contacto-extension/) tiene el detalle.
+- **Prueba el contacto de luz** y define por dónde pasará la extensión del motor. La guía de [qué contacto y extensión necesita el motor](/blog/cuanta-luz-consume-un-inflable-contacto-extension/) tiene el detalle.
 - **Ten el saldo listo.** Se liquida el día del evento, antes de la instalación.
 
 ### El día de la fiesta
@@ -204,4 +210,4 @@ Estos son los que más cuestan, y casi todos se evitan con un mensaje a tiempo:
 
 ## Aparta tu fecha hoy
 
-Revisa los [precios netos por evento de cada inflable](/precios/) y [escríbenos por WhatsApp con tu fecha](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20un%20inflable%20para%20esta%20fecha). Te confirmamos disponibilidad, precio y traslado, y apartas con el 50% de anticipo.
+Revisa los [precios netos por evento de cada inflable](/precios/) y [escríbenos por WhatsApp con tu fecha](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20un%20inflable%20para%20esta%20fecha), o usa la [cotización en línea](/cotizar/). Te confirmamos disponibilidad, precio y traslado, y apartas con el 50 % de anticipo.

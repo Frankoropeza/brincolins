@@ -1,13 +1,13 @@
 ---
 title: "¿Salón de fiestas o fiesta en casa? Cómo decidir"
 h1: "Salón de fiestas o fiesta en casa en CDMX: cómo decidir según invitados, espacio, presupuesto e inflable"
-description: "¿Salón de fiestas o fiesta en casa? Compara espacio, invitados, presupuesto, clima, horarios y dónde cabe el inflable para decidir en CDMX y Edomex."
+description: "Compara salón de fiestas y fiesta en casa por invitados, espacio, clima, horario y costo total, y ve dónde cabe el inflable. Incluye checklist."
 excerpt: "La casa da libertad y ahorra; el salón da espacio y resuelve la limpieza. Una guía para decidir según tus invitados, tu espacio, tu presupuesto y dónde va a ir el inflable."
 publishDate: "2026-11-04"
 updatedDate: "2026-11-04"
 category: "Guías"
 author: "Equipo BRINCOLINS"
-readTime: "11 min"
+readTime: "10 min"
 heroImage: "/img/blog/ideas-fiesta-infantil-cdmx/img1.avif"
 heroImageAlt: "Fiesta infantil con inflable en casa, una de las dos opciones a comparar frente al salón de fiestas"
 intro:
@@ -31,11 +31,17 @@ faqs:
     answer: "Tener techo. En casa, una terraza techada o un garage con 3.2 m de altura libre y un modelo apto para interiores. En salón, confirmar que el área techada tenga la altura suficiente. Si llueve y la fiesta no se puede hacer, la renta del inflable se reprograma sin costo."
 ---
 
-Salón de fiestas o fiesta en casa: no hay una respuesta correcta para todos. Hay una respuesta correcta para tu número de invitados, tu espacio, tu presupuesto y la temporada. La casa da libertad y suele salir más barata; el salón da espacio y te quita la limpieza de encima.
+Haz la fiesta en casa si tus invitados caben con holgura, tienes patio, jardín o azotea donde quepa el inflable y quieres controlar el gasto. Elige salón si la lista es grande, tu casa no tiene espacio exterior, la fecha cae en lluvias sin un techo alto disponible o no quieres encargarte de la limpieza.
 
-Lo que sí hay es un orden para decidir. Primero el número de invitados, luego el espacio, luego el clima y al final el presupuesto.
+**Puntos clave**
 
-> **Respuesta rápida:** haz la fiesta en casa si tus invitados caben con holgura, tienes patio, jardín o azotea donde quepa el inflable y quieres controlar el presupuesto. Elige salón si la lista es grande, tu casa no tiene espacio exterior, la fecha cae en temporada de lluvias y no tienes techo alto, o no quieres encargarte de la limpieza. En ambos casos el inflable funciona si hay espacio, altura libre y contacto de luz.
+- Decide en este orden: número de invitados (con adultos), espacio, clima y presupuesto total.
+- La casa da libertad de proveedores y horario; el salón da capacidad, techo y limpieza resuelta.
+- Antes de firmar un salón, confirma que acepte proveedores externos y su altura libre.
+- Bajo techo solo entran los modelos aptos para interiores, que piden 3.2 m de altura libre.
+- Hay opciones intermedias: casa de un familiar, área común, azotea o jardín de eventos.
+
+No hay una respuesta correcta para todos, sino una correcta para tu número de invitados, tu espacio, tu presupuesto y la temporada. En ambos casos el inflable funciona si hay espacio, altura libre y contacto de luz.
 
 ## ¿Qué preguntas deciden entre salón y casa?
 
@@ -81,6 +87,8 @@ Lo que tienes que resolver:
 - **Espacio para el inflable, la mesa y el paso de los adultos.** La guía de [inflable en patio pequeño](/blog/fiesta-en-patio-pequeno-con-inflable/) explica cómo medir y repartir.
 - **Vecinos.** Avisar fecha y horario.
 - **Baño, limpieza y estacionamiento.**
+
+![Patio de una casa en la Ciudad de México preparado para una fiesta infantil, con mesas, sillas plegables y espacio libre al fondo](/img/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/escena-1.avif "En casa, el espacio se reparte entre inflable, mesa y paso de los adultos.")
 
 ### ¿Y si vives en departamento?
 
@@ -179,6 +187,8 @@ Para los más chicos, la casa casi siempre gana: el niño está en su ambiente, 
 - [ ] Si es casa: vecinos avisados, contacto ubicado y área barrida.
 - [ ] Opciones intermedias consideradas.
 
-## Cotiza el inflable para el lugar que elijas
+Para el resto de la organización, la [lista de cosas para una fiesta infantil](/blog/lista-de-cosas-para-fiesta-infantil-checklist/) cubre todo lo que falta, y la guía de [cuánto cuesta una fiesta infantil en CDMX](/blog/cuanto-cuesta-una-fiesta-infantil-cdmx-presupuesto/) te ayuda a comparar el costo total de las dos opciones.
+
+## ¿Cuál es el siguiente paso?
 
 Cuando tengas el lugar, manda la fecha, el horario, la dirección aproximada, las medidas del área y si es techado o descubierto. Te confirmamos qué modelo cabe y el traslado. También puedes [cotizar en línea con los datos de tu lugar](/cotizar/) o [escribirnos por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20estoy%20decidiendo%20entre%20salon%20y%20casa%20para%20la%20fiesta%20me%20ayudan).

@@ -1,17 +1,18 @@
 ---
-title: "Pantalla LED e Inflable para Eventos en CDMX"
-description: "Cómo combinar pantalla LED e inflable en un evento en CDMX: qué modelos funcionan mejor, distribución del espacio, carga eléctrica y checklist de instalación."
-excerpt: "La combinación de una pantalla LED de alta resolución y un inflable premium transforma cualquier evento en CDMX en una experiencia visual y física que nadie olvida. Descubre cómo lograrlo."
+title: "Pantalla LED e inflable para eventos: cómo combinarlos"
+h1: "Pantalla LED e inflable en un mismo evento: distribución, corriente, seguridad y modelos que funcionan"
+description: "Combina pantalla LED e inflable en tu evento: modelos que lucen más, distribución del espacio, corriente separada y coordinación. Incluye checklist."
+excerpt: "Una pantalla LED y un inflable se potencian: el movimiento de los niños es el mejor contenido para la pantalla, y la pantalla lo convierte en espectáculo para todo el salón."
 publishDate: "2026-06-06"
 updatedDate: "2026-11-04"
 category: "Eventos"
 author: "Equipo BRINCOLINS"
-readTime: "17 min"
+readTime: "12 min"
 heroImage: "/img/servicios/city-color-led.avif"
-heroImageAlt: "Pantalla LED e inflable para eventos de alto impacto en CDMX — BRINCOLINS"
+heroImageAlt: "Pantalla LED e inflable en un evento de alto impacto en la Ciudad de México"
 intro:
-  - "Los eventos modernos en la **Ciudad de México** ya no se limitan a globos y pastel: los anfitriones más exigentes buscan experiencias que combinen tecnología visual y entretenimiento físico para crear momentos que sus invitados compartan en redes sociales durante semanas. La unión de una **pantalla LED de alta resolución** con un [inflable premium](/inflables/) es, hoy por hoy, una de las combinaciones más poderosas que existen para lograrlo."
-  - "En **BRINCOLINS** llevamos más de 20 años rentando inflables en CDMX y hemos visto cómo los eventos evolucionan. Por eso trabajamos de la mano con aliados tecnológicos como [Pantalla LED](https://pantalla-led.com/), empresa especialista en renta de pantallas LED de alta resolución para eventos, para ofrecer a nuestros clientes una experiencia completa que ninguno de los dos proveedores podría dar por separado. Si estás planeando un [evento con inflables](/servicios/inflables-para-eventos/), sigue leyendo: esto va a transformar tu visión."
+  - "Los eventos en la **Ciudad de México** ya no se limitan a globos y pastel: cada vez más anfitriones combinan tecnología visual y juego físico para crear momentos que los invitados comparten durante semanas. Unir una **pantalla LED de alta resolución** con un [inflable para eventos](/inflables/) es una de las combinaciones que mejor lo logran."
+  - "En **BRINCOLINS** llevamos más de 20 años rentando inflables en CDMX y trabajamos de la mano con [Pantalla LED](https://pantalla-led.com/), empresa especialista en renta de pantallas para eventos. Si estás planeando un [evento con inflables](/servicios/inflables-para-eventos/), aquí tienes lo que necesitas para coordinar los dos equipos."
 tags:
   - "renta inflables CDMX"
   - "pantalla LED eventos CDMX"
@@ -20,146 +21,167 @@ tags:
   - "eventos alto impacto CDMX"
 faqs:
   - question: "¿Es complicado coordinar la instalación de una pantalla LED y un inflable al mismo tiempo?"
-    answer: "No, siempre que se planifique con anticipación. La clave es definir el layout del espacio antes del evento y asignar zonas claras para cada elemento. Pantalla LED y BRINCOLINS son proveedores que trabajan de forma coordinada: se acuerdan los tiempos de llegada, los puntos de alimentación eléctrica y la secuencia de montaje para que todo esté listo antes de que lleguen los invitados. Recomendamos una llamada conjunta de coordinación al menos una semana antes del evento."
-  - question: "¿Qué inflables de BRINCOLINS funcionan mejor junto a una pantalla LED?"
-    answer: "Los inflables de mayor impacto visual son el [Barco Pirata](/inflables/barco-pirata/) y el [Extremo](/inflables/extremo/). El Barco Pirata tiene una estética dramática que se complementa con la iluminación LED de la pantalla, mientras que el Extremo, con su circuito en doble carril, es ideal para eventos donde se transmiten en tiempo real las carreras de los participantes. Ambos generan el tipo de contenido visual que triunfa en Instagram y TikTok."
-  - question: "¿Cuánta energía eléctrica se necesita para tener pantalla LED e inflable al mismo tiempo?"
-    answer: "Una pantalla LED de alta resolución para eventos consume entre 1,500 y 3,000 watts dependiendo del tamaño; el motor de un inflable consume entre 700 y 1,500 watts. En total, necesitarás al menos un circuito de 20 amperes dedicado para cada elemento, o una planta de luz si el evento es en exterior sin acceso a red eléctrica. Pantalla LED puede asesorarte sobre los requerimientos técnicos específicos de la pantalla, y BRINCOLINS te indica los requerimientos del inflable."
+    answer: "No, si se planea con anticipación. Lo importante es definir el plano del espacio antes del evento y asignar una zona clara a cada equipo. Pantalla LED y BRINCOLINS acuerdan horarios de llegada, puntos de corriente y orden de montaje; recomendamos una llamada de coordinación al menos una semana antes."
+  - question: "¿Qué inflables funcionan mejor junto a una pantalla LED?"
+    answer: "El Barco Pirata por su silueta vertical, el Extremo cuando hay competencias con marcador en pantalla y el Castillo Blanco cuando la pantalla define la paleta de color del evento. La elección final depende del espacio, las edades y el tipo de evento, y se confirma al cotizar."
+  - question: "¿Cuánta corriente se necesita para tener pantalla LED e inflable al mismo tiempo?"
+    answer: "Cada equipo va en su propio circuito. El motor del inflable necesita una toma de 110 V a menos de 20 m, exclusiva y sin aparatos de alto consumo; el consumo exacto depende del modelo y lo confirmamos al cotizar. Los requerimientos de la pantalla los define Pantalla LED según su tamaño."
   - question: "¿Dónde conviene poner la pantalla LED para que no estorbe a los niños del inflable?"
     answer: "A un costado del inflable, en diagonal o perpendicular, nunca frente a su salida. Así los niños salen hacia un área despejada, la pantalla se ve desde las mesas y los cables van por el perímetro sin cruzar la zona de juego."
   - question: "¿Hacen eventos con pantalla LED e inflable en Toluca o Cuautitlán Izcalli?"
     answer: "Sí, ambos municipios están en nuestra cobertura. El envío del inflable a Cuautitlán Izcalli va de $250 a $400 y a Toluca de $400 a $600. La pantalla se cotiza aparte con Pantalla LED."
 ---
 
-## La primera vez que vimos una pantalla LED junto a un inflable
+Para combinar pantalla LED e inflable en un evento, coloca el inflable al fondo y ligeramente de lado, la pantalla a un costado en diagonal, visible desde las mesas y nunca frente a la salida del inflable, y conecta cada equipo a un circuito independiente. Con una cámara en vivo, el movimiento de los niños se vuelve el contenido de la pantalla.
 
-Fue en un evento corporativo en Santa Fe. Una empresa del sector financiero había contratado el salón completo de un hotel de negocios para su Family Day de fin de año: mesas de banquetes, barra de comida, y en el fondo del salón, un Barco Pirata que llenaba casi toda la pared trasera. Al lado, sobre un pedestal de metal negro, una pantalla LED de alta resolución del tamaño de una pared proyectaba el video institucional del año, con el logo de la empresa animado en colores brillantes. Cuando los niños saltaban dentro del Barco Pirata, sus caras aparecían magnificadas en la pantalla a través de una cámara que transmitía en tiempo real. Los papás, desde las mesas, aplaudían y sacaban el teléfono al mismo tiempo.
+**Puntos clave**
 
-Ese día entendimos que estábamos viendo algo nuevo. No era solo un inflable en una fiesta de empresa, ni era solo una pantalla en una presentación corporativa: era la combinación de ambos creando un circuito de experiencias que ninguno de los dos proveedores hubiera podido generar por separado. Desde entonces, trabajamos de la mano con [Pantalla LED](https://pantalla-led.com/) para que cualquier organizador en CDMX pueda replicar ese efecto en su propio evento.
+- Distribución en L o en U: inflable al fondo, pantalla a un lado, mesas al frente y pasillo libre.
+- Nunca conectes el motor del inflable y la pantalla al mismo circuito.
+- Barco Pirata, Extremo y Castillo Blanco son los modelos que mejor lucen con pantalla.
+- La salida del inflable no apunta a la estructura de la pantalla, y los cables van por el perímetro.
+- Coordina con los dos proveedores una semana antes: plano, corriente y horarios de llegada.
 
-Lo que hace especial a esta combinación es el contraste que genera: la pantalla ancla al público adulto con contenido personalizado de alta resolución, mientras el inflable libera la energía física de los niños. Los dos elementos se alimentan mutuamente: el movimiento dentro del inflable es el mejor contenido que puede proyectar la pantalla, y la pantalla convierte ese movimiento en un espectáculo que todo el salón puede ver al mismo tiempo.
+## ¿Cómo empezó la combinación de pantalla LED e inflable?
 
-> **Desde la operación:** En CDMX, la combinación pantalla LED + inflable sigue siendo un nicho relativamente nuevo. La mayoría de los eventos todavía elige uno u otro por separado. Los organizadores que ya descubrieron la combinación nos dicen lo mismo: "la próxima vez no puedo hacerlo sin los dos."
+Fue en un evento corporativo en Santa Fe. Una empresa del sector financiero había contratado el salón completo de un hotel de negocios para su Family Day de fin de año: mesas de banquete, barra de comida y, al fondo del salón, un Barco Pirata que llenaba casi toda la pared trasera. Al lado, sobre un pedestal de metal negro, una pantalla LED del tamaño de una pared proyectaba el video institucional del año. Cuando los niños brincaban dentro del Barco Pirata, sus caras aparecían en la pantalla a través de una cámara en tiempo real. Los papás, desde las mesas, aplaudían y sacaban el teléfono al mismo tiempo.
 
-## Tipos de eventos donde esta combinación funciona a la perfección
+Ese día entendimos que no era solo un inflable en una fiesta de empresa ni solo una pantalla en una presentación: era la combinación de ambos, algo que ninguno de los dos proveedores podía generar por separado. Desde entonces trabajamos con Pantalla LED para que cualquier organizador en CDMX pueda replicarlo.
 
-Hemos llevado esta combinación a salones en Polanco, jardines de casas en Coyoacán, patios de empresas en Vallejo, y techos de edificios en la Condesa. En cada contexto, el efecto es diferente y al mismo tiempo igual de impactante. La tabla de abajo resume los usos más frecuentes que hemos documentado:
+La pantalla mantiene la atención del público adulto con contenido personalizado, mientras el inflable libera la energía de los niños. Y se alimentan entre sí: el movimiento dentro del inflable es el mejor contenido para la pantalla, y la pantalla convierte ese movimiento en un espectáculo que todo el salón ve al mismo tiempo.
 
-| Tipo de evento | Inflable recomendado | Uso ideal de la pantalla LED |
+> **Desde la operación:** en CDMX esta combinación sigue siendo poco común; la mayoría de los eventos elige uno u otro. Los organizadores que ya la probaron suelen decirnos lo mismo: "la próxima vez no lo hago sin los dos".
+
+## ¿En qué eventos funciona mejor esta combinación?
+
+La hemos llevado a salones en Polanco, jardines de casas en Coyoacán, patios de empresas en Vallejo y azoteas de edificios en la Condesa. Estos son los usos más frecuentes:
+
+| Tipo de evento | Inflable recomendado | Uso de la pantalla LED |
 |---|---|---|
-| Cumpleaños infantil (5-12 años) | Castillo de Princesas, Dragones Rojos | Fotos en tiempo real, animaciones con el nombre |
+| Cumpleaños infantil (5 a 12 años) | Castillo de Princesas, Dragones Rojos | Fotos en tiempo real, animaciones con el nombre |
 | Kermesse escolar | Barco Pirata, Extremo | Transmisión de competencias, marcador en vivo |
-| Evento corporativo / Family Day | [Extremo](/inflables/extremo/) | Video institucional, activación de marca |
+| Evento corporativo o Family Day | Extremo | Video institucional, activación de marca |
 | XV años | Castillo Blanco | Galería de fotos de la quinceañera |
 | Graduación escolar | Extremo, Barco Pirata | Video de recuerdos, fotos grupales en vivo |
 | Posada o cierre de año | Cualquier inflable | Música con visuales, fotos del equipo |
 
-Un caso que recordamos con particular claridad fue un cumpleaños en Polanco donde el papá del festejado había coordinado el Barco Pirata junto a una pantalla LED que proyectaba fotos de los siete años de vida del niño en secuencia. Cuando llegó el momento de la velada del pastel, la pantalla mostró el video de su nacimiento. Los papás presentes dejaron de hablar. Hubo silencio, aplausos, y al menos tres mamás con los ojos húmedos. Eso no lo produce ningún payaso ni ningún globo.
+Un caso que recordamos bien fue un cumpleaños en Polanco. El papá del festejado coordinó el Barco Pirata junto a una pantalla LED que proyectaba fotos de los siete años de vida del niño. En el momento del pastel, la pantalla mostró el video de su nacimiento. Los papás dejaron de hablar; hubo silencio, aplausos y al menos tres mamás con los ojos húmedos.
 
-## Cómo usar la pantalla LED junto al inflable: ideas concretas
+Si tu evento es una kermesse, la [checklist para organizar una kermesse escolar con inflables](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/) cubre permisos, turnos y logística.
 
-### Proyección de fotos en tiempo real
+## ¿Qué ideas concretas funcionan con la pantalla y el inflable?
 
-Uno de los usos más impactantes es colocar a alguien con una cámara — o incluso un smartphone con la aplicación correcta — capturando imágenes de los niños dentro del [inflable](/inflables/) y proyectándolas al instante en la pantalla LED. Los papás que están sentados en las mesas ven a sus hijos brincar en tiempo real en una pantalla de alta resolución, mientras que los niños descubren que son las "estrellas" del evento. El sonido del salón cambia: hay más aplausos, más risas cruzadas entre las mesas, más movimiento general. Esa energía es contagiosa y mantiene el evento en un nivel de emoción que difícilmente decae.
+### Fotos en tiempo real
 
-### Presentaciones y videos personalizados
+Una persona con cámara, o con un celular y la aplicación adecuada, captura a los niños dentro del inflable y la imagen aparece al instante en la pantalla. Los papás ven a sus hijos desde las mesas y los niños descubren que son las estrellas del evento. El ambiente cambia: más aplausos, más risas entre mesas y más movimiento.
 
-Para cumpleaños de adultos, XV años o eventos corporativos, la pantalla LED puede reproducir un video de homenaje o presentación mientras los invitados llegan al espacio donde está el inflable. Este momento de transición entre la entrada y la zona de juego se convierte en un instante emocional que prepara el ambiente. Hemos visto videos de 3 minutos que generaron más conversación que toda la cena posterior.
+### Videos personalizados
+
+En cumpleaños, XV años o eventos corporativos, la pantalla puede reproducir un video de homenaje mientras los invitados llegan a la zona del inflable. Ese momento de transición prepara el ambiente; hemos visto videos de tres minutos que generaron más conversación que toda la cena.
 
 ### Marcador en vivo para competencias
 
-Si tienes el Extremo con su circuito de obstáculos en doble carril, la pantalla LED puede mostrar los tiempos de cada participante en tiempo real. Esto convierte una actividad divertida en un verdadero torneo con emoción de estadio: el público anima desde las sillas, los participantes compiten con más intensidad, y el organizador tiene un formato de evento estructurado que se sostiene durante horas sin perder fuerza. Para kermesses escolares con secundaria, este formato funciona especialmente bien porque los alumnos mayores necesitan competencia, no solo brincado.
+Con el Extremo y su circuito de obstáculos en doble carril, la pantalla puede mostrar los tiempos de cada participante. La actividad se vuelve un torneo: el público anima desde las sillas, los participantes compiten con más ganas y el organizador tiene un formato estructurado que se sostiene durante el evento. En kermesses con alumnos mayores funciona muy bien, porque buscan competencia y no solo brincar.
 
-### Ambiente visual nocturno
+### Ambiente visual de noche
 
-Para eventos nocturnos al aire libre — y en CDMX hay cada vez más eventos en azoteas, jardines nocturnos y terrazas — la pantalla LED resuelve el problema de iluminación del espacio y añade un ambiente visual que transforma completamente la percepción del lugar. Un inflable iluminado por el resplandor de una pantalla LED de alta resolución parece sacado de un festival. El motor del inflable zumba suavemente, los colores se saturan con la oscuridad como fondo, y cada foto que toman los invitados parece editada cuando en realidad no lo está.
+En eventos nocturnos al aire libre, como azoteas, jardines y terrazas, la pantalla aporta luz y cambia la percepción del lugar. Los colores del inflable resaltan con la oscuridad de fondo y las fotos de los invitados salen vistosas sin edición. Aun así, la zona del inflable necesita su propia iluminación, como explicamos más abajo.
 
-## Distribución del espacio: pantalla LED + inflable + mesas
+## ¿Cómo distribuir pantalla, inflable y mesas?
 
-El error más común cuando se combina pantalla LED e inflable es colocar ambos sin un plan de distribución. Hemos llegado a eventos donde el organizador simplemente puso cada elemento donde le quedaba espacio, sin pensar en la línea visual. El resultado: la pantalla queda detrás del inflable, los invitados no pueden verla desde las mesas, y el montaje que costó trabajo y dinero produce la mitad del impacto que podría.
+El error más común es colocar cada equipo donde quedó espacio, sin pensar en la línea de vista. El resultado: la pantalla queda detrás del inflable, nadie la ve desde las mesas y el montaje rinde la mitad. La distribución que mejor nos ha funcionado es esta:
 
-La distribución que mejor funciona la hemos refinado en docenas de eventos. Funciona así:
+### Configuración en L o en U
 
-**Configuración en L o en U:**
-- El inflable se coloca en el fondo del espacio, ligeramente lateral.
-- La pantalla LED se posiciona a uno de los lados, perpendicular al inflable o en diagonal, de modo que sea visible tanto desde la zona de brincado como desde las mesas.
-- Las mesas de invitados se distribuyen frente al inflable, con línea de visión directa a la pantalla.
-- Se deja un pasillo central libre para el tránsito de los participantes hacia el inflable.
+1. El inflable va al fondo del espacio, ligeramente de lado.
+2. La pantalla se coloca a un costado, perpendicular al inflable o en diagonal, visible desde la zona de juego y desde las mesas.
+3. Las mesas se acomodan frente al inflable, con vista directa a la pantalla.
+4. Se deja un pasillo central libre para que los niños lleguen al inflable.
 
-**Zona de cámaras:**
-Define desde el inicio dónde se colocará el fotógrafo o la persona encargada de capturar las imágenes para proyectar en tiempo real. Lo ideal es una posición frontal al inflable, con la pantalla LED visible en el fondo del encuadre. Esa posición produce las mejores fotos: el niño en movimiento, el nombre iluminado detrás, los colores del inflable saturados por la luz de la pantalla.
+![Salón de eventos preparado antes de la llegada de los invitados, con mesas de banquete al frente, una pantalla LED encendida a un costado y un área libre al fondo para el área de juegos](/img/blog/pantalla-led-inflable-evento-cdmx/escena-1.avif "Distribución en L: pantalla a un costado, mesas al frente y el fondo libre para el inflable.")
 
-**Separación eléctrica:**
-Nunca conectes el motor del inflable y la pantalla LED al mismo circuito. Asegúrate de tener tomacorrientes independientes o extensiones de calibre adecuado para cada elemento. Esta es la regla de oro de la logística técnica. Un corte de luz en el momento de la velada del pastel es el tipo de contratiempo que nadie olvida.
+### Zona de cámara
 
-## Qué inflables funcionan mejor junto a una pantalla LED
+Define desde el inicio dónde se para quien captura las imágenes. Lo ideal es una posición frontal al inflable, con la pantalla visible al fondo del encuadre: el niño en movimiento, el nombre iluminado detrás y los colores del inflable realzados por la luz de la pantalla.
 
-No todos los inflables generan el mismo efecto visual junto a una pantalla LED. Llevamos suficientes eventos coordinados como para saber cuáles producen el mayor impacto y por qué:
+### Separación eléctrica
 
-**[Barco Pirata](/inflables/barco-pirata/) — $2,300:** con **6 × 3.5 × 3.80 m** es un modelo de gran impacto visual. Su estructura vertical y su estética dramática lo convierten en el fondo perfecto para fotografías. Cuando la pantalla LED ilumina el espacio con tonos azules y dorados, el Barco Pirata se transforma en una escenografía de película. En el cumpleaños de Polanco que mencionamos antes, el Barco Pirata y la pantalla LED juntos crearon el tipo de "foto perfecta" que los papás buscan durante todo el evento. Ideal para eventos temáticos, XV años con concepto náutico o celebraciones que quieren impacto visual inmediato desde que los invitados entran al espacio.
+Nunca conectes el motor del inflable y la pantalla al mismo circuito. Usa contactos independientes y extensiones del calibre adecuado para cada equipo. Un apagón en el momento del pastel es el contratiempo que nadie olvida.
 
-**Extremo — $2,500:** el circuito de **8 × 4.5 × 3.50 m** es el más fotogénico cuando hay competencia. Ver dos personas recorriéndolo en paralelo mientras sus tiempos aparecen en la pantalla es un momento de alto impacto. Es el modelo que más se renta para eventos corporativos y kermeses de secundaria — las dinámicas están en la guía de [team building con retos físicos](/blog/inflables-para-adultos-eventos-corporativos/).
+## ¿Qué inflables lucen más junto a una pantalla LED?
 
-**[Castillo Blanco](/inflables/castillo-blanco/) — $2,600:** mide **5 × 7 × 4 m** y es para niños de **3 a 12 años**. Su neutralidad cromática lo hace ideal para eventos donde la pantalla LED define el ambiente visual. Si la pantalla proyecta colores rosas y dorados para una quinceañera, el Castillo Blanco los capta y los amplifica. Si proyecta los colores corporativos de una empresa en su Family Day, se integra sin competir. Es el más versátil de la colección cuando se trabaja con pantallas LED porque actúa como lienzo en lugar de como elemento de decoración independiente.
+No todos los modelos producen el mismo efecto. Por lo que hemos visto en eventos coordinados, estos tres destacan:
 
-## Checklist de instalación coordinada: pantalla LED + inflable
+| Modelo | Medidas | Edades | Precio | Por qué funciona con pantalla |
+|---|---|---|---|---|
+| Barco Pirata | 6 × 3.5 × 3.80 m | 3 a 12 años | $2,300 | Silueta vertical, fondo ideal para fotos |
+| Extremo | 8 × 4.5 × 3.50 m | 3 a 12 años | $2,500 | Doble carril para competencias con marcador |
+| Castillo Blanco | 5 × 7 × 4 m | 3 a 12 años | $2,600 | Color neutro que toma la paleta de la pantalla |
 
-Antes del evento, verifica cada uno de estos puntos para garantizar una instalación sin contratiempos. Esta lista la construimos a partir de los imprevistos que más se repiten:
+**[Barco Pirata](/inflables/barco-pirata/).** Su estructura vertical lo vuelve un fondo excelente para fotografías. Cuando la pantalla ilumina el espacio con tonos azules y dorados, el barco parece escenografía. En el cumpleaños de Polanco que mencionamos, esa combinación dio la foto que los papás buscan durante todo el evento. Funciona en eventos temáticos, XV años con concepto náutico y celebraciones que buscan impacto desde la entrada.
+
+**[Extremo](/inflables/extremo/).** Es el más fotogénico cuando hay competencia: dos participantes en paralelo mientras sus tiempos aparecen en la pantalla. Es el modelo que más se renta para eventos corporativos y kermesses de primaria; las dinámicas están en la guía de [team building con retos físicos](/blog/inflables-para-adultos-eventos-corporativos/).
+
+**[Castillo Blanco](/inflables/castillo-blanco/).** Su neutralidad lo hace ideal cuando la pantalla define el ambiente visual. Si la pantalla proyecta rosa y dorado para una quinceañera, el castillo toma esos tonos; si proyecta los colores de una empresa, se integra sin competir. Funciona como lienzo, no como un elemento más de decoración.
+
+## ¿Qué revisar antes y durante la instalación?
+
+Esta lista sale de los imprevistos que más se repiten.
 
 **Una semana antes:**
 
-1. Confirma las dimensiones del espacio disponible con ambos proveedores
-2. Define el layout en papel: dónde va el inflable, dónde va la pantalla, dónde van las mesas
-3. Verifica los requerimientos eléctricos de ambos equipos
-4. Coordina los horarios de llegada (pantalla LED primero, luego inflable)
+1. Confirma las dimensiones del espacio con ambos proveedores.
+2. Dibuja el plano en papel: inflable, pantalla y mesas.
+3. Verifica los requerimientos eléctricos de los dos equipos.
+4. Coordina horarios de llegada: primero la pantalla y luego el inflable.
 
 **El día del evento:**
 
-1. Asegura que haya al menos dos circuitos eléctricos independientes disponibles
-2. Define quién es el contacto único para resolver imprevistos de logística
-3. Configura la proyección de fotos en tiempo real antes de que lleguen los invitados
-4. Prueba el sistema completo 30 minutos antes del inicio
-5. Asigna una persona responsable del inflable y otra de la pantalla durante el evento
+1. Asegura al menos dos circuitos eléctricos independientes.
+2. Define un contacto único para resolver imprevistos de logística.
+3. Configura la proyección de fotos en vivo antes de que lleguen los invitados.
+4. Prueba el sistema completo 30 minutos antes del inicio.
+5. Asigna un responsable del inflable y otro de la pantalla durante todo el evento.
 
-## Seguridad cuando hay estructura de pantalla cerca del inflable
+## ¿Cómo cuidar la seguridad si hay estructura de pantalla cerca?
 
-Una pantalla LED para evento va montada sobre una estructura: pedestal, base con contrapesos o armadura metálica. Los niños que salen del inflable salen corriendo, y esa estructura no debe estar en su camino.
+La pantalla va montada sobre una estructura: pedestal, base con contrapesos o armadura metálica. Los niños salen corriendo del inflable, y esa estructura no debe estar en su camino.
 
 - **La salida del inflable nunca apunta hacia la pantalla.** Oriéntala hacia un área despejada o hacia las mesas, con pasillo libre.
-- **Nada de cables cruzando la zona de juego.** Los cables de señal y de corriente de la pantalla van por el perímetro, cubiertos o pegados al piso. Lo mismo aplica para la extensión del motor del inflable.
-- **Ningún niño se sube a la base de la pantalla** ni se recarga en los contrapesos. Si el supervisor del inflable está en la entrada, puede vigilar las dos cosas.
-- **La cámara para el video en vivo va fuera del inflable.** Quien graba se queda afuera, en la posición frontal que describimos arriba; adentro solo van los niños.
+- **Nada de cables cruzando la zona de juego.** Los cables de señal y corriente van por el perímetro, cubiertos o pegados al piso. Lo mismo aplica para la extensión del motor.
+- **Ningún niño se sube a la base de la pantalla** ni se recarga en los contrapesos. Desde la entrada del inflable, el supervisor puede vigilar las dos cosas.
+- **La cámara se queda fuera del inflable.** Quien graba está en la posición frontal; adentro solo van los niños.
 
-Si el evento es en estacionamiento, cancha o explanada de empresa, revisa también lo que explicamos sobre [instalar inflables en explanadas y canchas](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/): el piso duro cambia la forma de anclar.
+Si el evento es en estacionamiento, cancha o explanada de empresa, revisa cómo [instalar inflables en explanadas y canchas](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/): el piso duro cambia la forma de anclar. Las reglas generales están en la guía de [seguridad en inflables para fiestas infantiles](/blog/seguridad-inflables-fiestas-infantiles/).
 
-## De día, de noche y en clima frío
+## ¿Qué cambia de día, de noche o con frío?
 
-- **Evento de día al aire libre:** el sol pega directo en la pantalla. Pregunta al proveedor de la pantalla qué modelo recomienda para exterior con luz de día y hacia dónde conviene orientarla. El inflable, por su parte, agradece sombra al mediodía.
-- **Evento de noche:** la pantalla aporta luz, pero no basta para la zona del inflable. El supervisor necesita ver a todos los niños; complementa con iluminación dirigida.
+- **De día al aire libre:** el sol pega directo en la pantalla. Pregunta al proveedor qué modelo recomienda para exterior con luz de día y hacia dónde orientarla. El inflable agradece sombra al mediodía.
+- **De noche:** la pantalla aporta luz, pero no basta para la zona del inflable. El supervisor necesita ver a todos los niños; complementa con iluminación dirigida.
 - **Temporada de lluvias (junio a septiembre):** ni la pantalla ni el inflable funcionan bajo lluvia. Si el evento es de tarde en esos meses, ten un plan techado o una hora de corte.
 
-## Qué preguntar antes de cerrar con los dos proveedores
+## ¿Qué preguntar antes de cerrar con los dos proveedores?
 
 1. ¿Cuánto espacio libre necesita cada equipo y en qué orden se montan?
-2. ¿Qué carga eléctrica requiere la pantalla y cuántos contactos independientes necesito? Para el inflable, la regla es una toma de 110V a menos de 20 m; el resto está en la guía sobre [consumo eléctrico de un inflable y extensiones](/blog/cuanta-luz-consume-un-inflable-contacto-extension/).
-3. ¿El montaje de la pantalla necesita acceso con vehículo hasta el lugar?
+2. ¿Qué carga eléctrica requiere la pantalla y cuántos contactos independientes necesito? Para el inflable, la regla es una toma de 110 V a menos de 20 m; el detalle está en la guía sobre [consumo eléctrico de un inflable y extensiones](/blog/cuanta-luz-consume-un-inflable-contacto-extension/).
+3. ¿El montaje de la pantalla necesita acceso con vehículo?
 4. ¿Quién opera la pantalla durante el evento?
 5. ¿A qué hora retiran cada equipo?
 
 ### Eventos fuera de la capital
 
-Esta combinación se pide mucho para Family Days y posadas de empresa en el norte y el poniente del Estado de México, donde hay naves, explanadas y jardines con espacio de sobra. En Cuautitlán Izcalli, con zonas como Izcalli Centro o Hacienda del Parque, el envío va de $250 a $400; consulta la cobertura de [inflables para eventos en Cuautitlán Izcalli](/cobertura/cuautitlan-izcalli/). Para Ciudad López Mateos y el resto de Atizapán de Zaragoza el envío es de $200 a $300, con detalle en la página de [entregas en Atizapán](/cobertura/atizapan/).
+Esta combinación se pide mucho para Family Days y posadas de empresa en el norte y el poniente del Estado de México, donde hay naves, explanadas y jardines amplios. En Cuautitlán Izcalli, con zonas como Izcalli Centro o Hacienda del Parque, el envío va de $250 a $400; consulta la cobertura de [inflables para eventos en Cuautitlán Izcalli](/cobertura/cuautitlan-izcalli/). Para Ciudad López Mateos y el resto de Atizapán de Zaragoza el envío es de $200 a $300, con detalle en la página de [entregas en Atizapán](/cobertura/atizapan/).
 
-Si el evento es en el Valle de Toluca, considera el frío: por la altitud, las noches son más frescas que en la Ciudad de México, y un evento nocturno con pantalla necesita prever abrigo para los invitados y un horario de inflable que no se alargue tanto. El envío a Toluca va de $400 a $600; revisa la página de [renta de inflables con envío a Toluca](/cobertura/toluca/) antes de cotizar.
+Si el evento es en el Valle de Toluca, considera el frío: por la altitud, las noches son más frescas que en la Ciudad de México, así que un evento nocturno con pantalla necesita prever abrigo para los invitados y un horario de inflable que no se alargue. El envío a Toluca va de $400 a $600; revisa la página de [renta de inflables con envío a Toluca](/cobertura/toluca/) antes de cotizar.
 
-## El poder de las redes sociales: por qué esta combinación dispara las fotos
+## ¿Por qué esta combinación genera tantas fotos y videos?
 
-Vivimos en la era del contenido visual. Cada invitado llega a un evento con un smartphone capaz de grabar en 4K, y la pregunta implícita que todos se hacen es: ¿habrá algo aquí que valga la pena compartir? Los organizadores que entienden esta dinámica diseñan espacios pensando no solo en la experiencia de quienes están presentes, sino en el impacto visual que tendrá en pantalla.
+Cada invitado llega con un teléfono capaz de grabar en alta calidad y busca algo que valga la pena compartir. Un niño brincando en un inflable es una foto bonita; un niño brincando con su nombre proyectado en una pantalla detrás es un video que los papás publican sin editar.
 
-El algoritmo de Instagram y TikTok premia el contenido que combina acción, emoción y estética visual. Un niño brincando en un inflable es una foto cute. Un niño brincando en un inflable con una pantalla LED proyectando su nombre detrás es contenido que se comparte solo. Los padres están condicionados a buscar el "momento perfecto" en una fiesta infantil. Cuando combinas inflable + pantalla LED + buena iluminación, esos momentos perfectos suceden cada cinco minutos.
+Para organizadores de eventos y salones, esa visibilidad tiene valor: cada foto etiquetada llega a personas que en algún momento organizarán un evento parecido. Hemos tenido clientes que nos contactaron después de ver publicaciones de invitados a eventos donde trabajamos.
 
-Para los organizadores de eventos o salones de fiestas, esta visibilidad orgánica en redes sociales tiene un valor de marketing enorme. Cada foto etiquetada es publicidad gratuita que llega a redes de personas que en algún momento van a organizar un evento similar. Hemos tenido clientes que nos contactaron directamente después de ver publicaciones de invitados a eventos donde habíamos trabajado. Esa cadena empieza con una buena foto, y una buena foto empieza con un buen setup.
+> **El momento que más se repite:** el papá que pasa el evento grabando a sus hijos en el inflable. Con la pantalla detrás, el video tiene un fondo tan llamativo que lo sube tal cual, con el nombre del festejado, el inflable y la energía de la fiesta en un solo cuadro.
 
-> **El momento que más vemos repetirse:** el papá que pasa todo el evento grabando a sus hijos en el inflable con el teléfono. Cuando hay pantalla LED detrás, ese video tiene un fondo tan impresionante que lo sube a redes sin editar. Y en ese video, sin que nadie lo planeara, aparece el nombre del festejado, el inflable, los colores, y la energía del evento completo. Ese video vale más que cualquier anuncio.
+## ¿Cuál es el siguiente paso?
 
-Consulta los inflables disponibles, los ocho precios en la [página de precios](/precios/) y nuestras opciones de [inflables para eventos](/servicios/inflables-para-eventos/). Si quieres el panorama completo de iluminación y tecnología visual, está en la guía de [iluminación, tecnología e inflables](/servicios/iluminacion-eventos/). Escríbenos al WhatsApp **5531281706** o [pide tu cotización](/cotizar/) para recibir una propuesta que incluya la coordinación con [Pantalla LED](https://pantalla-led.com/).
+Revisa los precios de los ocho modelos en la [página de precios](/precios/) y, si buscas el panorama completo de luz y tecnología, la guía de [iluminación, tecnología e inflables](/servicios/iluminacion-eventos/). Después escríbenos por WhatsApp al **55 3128 1706** o [pide tu cotización](/cotizar/) con fecha, lugar y número de invitados, y te enviamos una propuesta que incluya la coordinación con Pantalla LED.

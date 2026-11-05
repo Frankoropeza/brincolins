@@ -1,7 +1,7 @@
 ---
-title: "Fiesta de 7 años niña: ideas con castillo"
+title: "Fiesta de 7 años niña: ideas, juegos y castillo inflable"
 h1: "Fiesta de 7 años para niña: ideas, juegos y cronograma con castillo inflable"
-description: "Fiesta de 7 años niña con retos, juegos de equipos y Castillo de Princesas: organiza tiempos, espacio y actividades para celebrar en CDMX."
+description: "Fiesta de 7 años para niña: cronograma de 3 horas, retos por equipos, decoración y turnos en el Castillo de Princesas. Revisa tu espacio y cotiza en CDMX."
 excerpt: "A los siete años, el inflable funciona mejor como una estación dentro de un plan con retos, pausa de comida y juego en equipos."
 publishDate: "2026-11-02"
 updatedDate: "2026-11-04"
@@ -38,15 +38,22 @@ faqs:
     answer: "Primero deja un turno para quienes son más pequeños o llegan temprano; después abre bloques de 10 a 15 minutos para el grupo de primaria. Evita mezclar en la resbaladilla a niños que brincan con diferente fuerza y haz una pausa completa durante alimentos, bebidas y pastel."
   - question: "¿Pueden llevar el castillo a una casa o condominio en CDMX?"
     answer: "BRINCOLINS cubre las 16 alcaldías de la CDMX. Comparte la colonia, fotografías del jardín y las reglas de portería o caseta para confirmar traslado y acceso. En Narvarte no hay cargo adicional; en otras colonias el traslado se revisa según la zona."
-  - question: "¿Qué ocurre si llueve el día de una fiesta con inflable?"
-    answer: "El inflable no se usa con lluvia, granizo ni vientos fuertes. Si llueve el día del evento, BRINCOLINS permite reprogramar sin costo conforme a su política. Tener una alternativa tranquila bajo techo ayuda a que la celebración no dependa por completo del clima."
 ---
+
+Para una fiesta de 7 años de niña funciona una agenda de unas tres horas con retos cooperativos, una pausa completa para comer y bloques de 10 a 15 minutos en el inflable. El [Castillo de Princesas](/inflables/castillo-princesas/) recibe de 2 a 10 años, mide 5 × 3.30 × 3 m, pide 4.2 m de altura libre y se instala en exterior.
+
+**Puntos clave**
+
+- Elige cuatro momentos (recibimiento, juego activo, reto de equipos y cierre) en lugar de diez dinámicas.
+- Los retos de cinco a ocho minutos funcionan mejor si nadie queda eliminado.
+- Abre el castillo por bloques, con una persona adulta en la entrada y sin comida cerca de la lona.
+- Revisa altura, piso plano y toma de 110 V a menos de 20 m antes de mandar las invitaciones.
 
 Una **fiesta de 7 años niña** ya no se resuelve dejando a todos en el mismo juego durante tres horas. A esta edad suelen disfrutar una misión, un reto en pareja y unos minutos de descanso para platicar o decorar algo. El objetivo es que la festejada tenga momentos al centro, sin que el resto del grupo se quede esperando.
 
 El Castillo de Princesas encaja como punto de movimiento porque combina brinco y resbaladilla, pero no necesita cargar con toda la fiesta. Dentro de los [castillos inflables para fiestas infantiles](/inflables/castillos/), es la opción temática para un grupo de 2 a 10 años. Si lo alternas con actividades breves, el juego se mantiene ordenado y las familias pueden seguir la agenda sin carreras alrededor de la mesa.
 
-> **Respuesta rápida:** Una [renta de Castillo de Princesas inflable](/inflables/castillo-princesas/) funciona para una fiesta de siete años si cuentas con exterior, 4.2 m de altura libre y un grupo de 2 a 10 años. Planea bloques de juego de 10 a 15 minutos, una pausa para comida y dos retos cooperativos; el modelo mide 5 × 3.30 × 3 m y tarda alrededor de 20 minutos en instalarse.
+El montaje del castillo toma de 15 a 30 minutos, así que conviene pedir que llegue antes que los invitados.
 
 ## ¿Qué cambia en una fiesta cuando la festejada cumple siete años?
 
@@ -113,6 +120,8 @@ Una distribución práctica es poner el fondo de fotos cerca de la mesa de paste
 | Globos y letrero | En base propia, lejos de la entrada | No los amarres al inflable ni bloquees la circulación |
 | Mesa de actividad | A un costado, con sillas estables | Guarda tijeras y marcadores cuando inicia el bloque activo |
 | Alimentos y bebidas | Lejos de la lona y del motor | Programa una pausa completa antes de servir |
+
+![Mesa de pastel con fondo de fotos en tonos rosa y turquesa en un jardín, separada de la zona de juego](/img/blog/fiesta-de-7-anos-nina-ideas-castillo/escena-1.avif "Fondo de fotos y mesa de pastel en un extremo del jardín, lejos de la entrada del inflable.")
 
 Si aún eliges colores y texturas, revisa cómo [combinar globos y decoración alrededor del inflable](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/).
 

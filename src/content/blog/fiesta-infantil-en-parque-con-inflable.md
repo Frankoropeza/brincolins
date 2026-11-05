@@ -1,13 +1,13 @@
 ---
-title: "Fiesta infantil en parque: instalar un inflable"
+title: "Fiesta infantil en parque con inflable: permisos y montaje"
 h1: "Cómo organizar una fiesta infantil en parque con inflable sin fallar en permisos, luz ni montaje"
-description: "Planea una fiesta infantil en parque con inflable: confirma permiso, corriente, terreno, sombra y baños antes de cotizar tu fecha en CDMX."
+description: "Fiesta infantil en parque con inflable: cómo confirmar permiso, contacto de 110 V, piso y plan por lluvia antes de apartar fecha en CDMX. Cotiza en línea."
 excerpt: "Un parque da espacio y aire libre, pero no siempre ofrece lo que un inflable necesita. Esta guía te ayuda a revisar el lugar antes de invitar a las familias."
 publishDate: "2026-11-02"
 updatedDate: "2026-11-04"
 category: "Jungla"
 author: "Equipo BRINCOLINS"
-readTime: "17 min"
+readTime: "13 min"
 heroImage: "/img/inflables/mini-jungla-instalacion-jardin-cdmx.avif"
 heroImageAlt: "Inflable Jungla instalado sobre pasto en un jardín exterior"
 galleryImages:
@@ -37,15 +37,20 @@ faqs:
     answer: "Los inflables de BRINCOLINS son para uso en seco y no se usan bajo lluvia, granizo ni viento fuerte. Define una alternativa antes de invitar: una fecha de cambio o un espacio cubierto distinto. Las condiciones para mover una fecha se revisan en la política de cancelación antes de dar anticipo."
   - question: "¿Cuánto cuesta llevar el Jungla a un parque de CDMX?"
     answer: "La renta del Jungla es de $1,600 netos por evento. El traslado depende de la colonia: en Xochimilco va de $100 a $150 fuera de algunas zonas sin costo adicional, en Tláhuac de $100 a $200 y en otras alcaldías se confirma al cotizar. Si requieres factura, se agrega 16% de IVA."
-  - question: "¿Quién debe vigilar a los niños en el inflable?"
-    answer: "Una persona adulta debe supervisar durante todo el evento. En un parque esto merece más atención porque hay entradas abiertas, personas ajenas a la fiesta y otras actividades alrededor. Define desde el inicio quién controla los turnos y quién acompaña a los niños que esperan afuera."
 ---
+
+Una fiesta infantil en parque con inflable solo conviene si el administrador o la alcaldía autoriza el montaje, hay una toma de 110 V a menos de 20 m que puedas usar, el piso es plano y sin objetos punzantes y tienes un plan por lluvia. Resuelve esos cuatro puntos en una visita antes de mandar invitaciones.
+
+**Puntos clave**
+
+- El permiso depende de cada parque, alcaldía o municipio: pregunta por inflables, no solo por la palapa.
+- Sin contacto eléctrico autorizado no hay inflable; el motor trabaja toda la fiesta.
+- La Jungla mide 5 × 3 × 2.50 m, pide 4.2 m de altura libre y cuesta $1,600 netos por evento.
+- Separa el parque en tres zonas: juego, descanso y servicio, con un adulto en la entrada del inflable.
 
 Organizar una **fiesta infantil en parque** parece sencillo: eliges una palapa, llevas comida y dejas que los niños corran. El detalle cambia cuando sumas un inflable. Ya no basta con que el sitio se vea amplio; necesitas saber si ese parque acepta proveedores, de dónde saldrá la corriente y si el pasto del área elegida está en condiciones.
 
-Con una visita corta puedes resolver lo importante. Hazla antes de mandar invitaciones. El [inflable Jungla para fiestas](/inflables/mini-jungla/) es una opción de exterior para niñas y niños de 3 a 8 años, con dinosaurios y palmeras que sirven para una temática de animales; dentro de los [inflables medianos para fiestas infantiles](/inflables/medianos/), el parque debe permitir su instalación y cumplir los requisitos del montaje.
-
-> **Respuesta rápida:** Una fiesta infantil en parque con el Jungla sólo conviene si obtienes autorización del administrador o de la alcaldía, localizas una toma de 110 V a menos de 20 m, encuentras piso plano sin riesgos y puedes definir un plan por lluvia. El modelo mide 5 × 3 × 2.50 m, requiere 4.2 m de altura libre y su renta de inflable Jungla para fiestas cuesta $1,600 netos por evento.
+El [inflable Jungla para fiestas](/inflables/mini-jungla/) es una opción de exterior para niñas y niños de 3 a 8 años, con dinosaurios y palmeras que sirven para una temática de animales. Como el resto de los [inflables medianos para fiestas infantiles](/inflables/medianos/), solo se instala si el parque lo permite y el punto cumple los requisitos del montaje.
 
 ## ¿Qué permiso se requiere para usar un inflable en un parque durante una fiesta infantil?
 
@@ -67,7 +72,7 @@ Este paso va antes de elegir globos o menú. Una zona verde preciosa que prohíb
 
 No instales al centro de la zona más transitada. Busca un extremo visible desde las mesas, con espacio para una fila corta y sin que la entrada o la salida del inflable invada andadores, juegos fijos, ciclovías o el paso hacia los baños. Los adultos deben poder ver a los niños sin cruzar constantemente la zona de brincos.
 
-Para Jungla, revisa una base de 5 × 3 m y, sobre todo, el despeje alrededor que el equipo confirmará contigo. Mira hacia arriba: ramas, guirnaldas, luminarias o cables bajos pueden descartar un claro que desde lejos parecía perfecto. El modelo requiere 4.2 m de altura libre y es sólo para exterior; la guía completa del inflable Jungla explica por qué esa medida no se deduce de los 2.50 m de alto que tiene el inflable.
+Para Jungla, revisa una base de 5 × 3 m y, sobre todo, el despeje alrededor que el equipo confirmará contigo. Mira hacia arriba: ramas, guirnaldas, luminarias o cables bajos pueden descartar un claro que desde lejos parecía perfecto. El modelo requiere 4.2 m de altura libre y es sólo para exterior; la ficha del modelo explica por qué esa medida no se deduce de los 2.50 m de alto que tiene el inflable.
 
 | Punto del parque | ¿Puede servir? | Qué confirmar antes de apartarlo |
 |---|---|---|
@@ -79,9 +84,11 @@ Para Jungla, revisa una base de 5 × 3 m y, sobre todo, el despeje alrededor que
 
 Una vez que ubiques dos opciones, toma fotos desde cada esquina y otra mirando hacia arriba. Envíalas junto con la fecha y las edades de los invitados para confirmar si el sitio es viable.
 
+![Claro de pasto nivelado en un parque con mesas a la sombra de los árboles a un costado](/img/blog/fiesta-infantil-en-parque-con-inflable/escena-1.avif "Un claro plano, lejos de andadores y con las mesas a la sombra, es el punto ideal para el montaje.")
+
 ## ¿De dónde sale la corriente para el motor del inflable?
 
-Ésta es la pregunta que más cambia el plan. El motor no es un accesorio que se prende un rato: trabaja durante toda la fiesta. Jungla necesita una toma de 110 V a menos de 20 m del área de instalación. No lo soluciones suponiendo que habrá un enchufe en el kiosco; identifica el contacto, consulta si puedes usarlo y verifica que el recorrido del cable no cruce donde pasan niños o carriolas.
+Esta es la pregunta que más cambia el plan. El motor no es un accesorio que se prende un rato: trabaja durante toda la fiesta. Jungla necesita una toma de 110 V a menos de 20 m del área de instalación. No lo soluciones suponiendo que habrá un enchufe en el kiosco; identifica el contacto, consulta si puedes usarlo y verifica que el recorrido del cable no cruce donde pasan niños o carriolas.
 
 En parques grandes, los contactos pueden estar en una caseta, un baño o una bodega que no se abre para eventos privados. Si la administración sí autoriza uno, pregunta quién lo habilita y a qué hora. Si no existe corriente autorizada, cambia de sede antes de reservar. Los inflables de BRINCOLINS no se plantean para improvisar la alimentación eléctrica en un parque.
 
@@ -129,7 +136,7 @@ Un parque no te ofrece el mismo respaldo que un jardín propio. Puede cerrar una
 
 Los inflables son de uso en seco. Si hay lluvia, granizo o viento fuerte, los niños dejan de usarlo. No tapes el problema con una lona improvisada ni mantengas turnos sobre una superficie mojada. Revisa con anticipación qué aplica a tu reserva en la [política de cancelación y reprogramación](/politica-de-cancelacion/) y consulta el protocolo de [qué hacer con un inflable si llueve o hace viento](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/).
 
-Para una fecha de vacaciones, vale la pena considerar un salón o patio alterno desde el inicio. La guía de [actividades para niños en vacaciones de invierno](/blog/posada-navidena-infantil-con-inflable-cdmx/) ayuda a armar bloques que no dependen por completo de estar al aire libre.
+Para una fecha de vacaciones, vale la pena considerar un salón o patio alterno desde el inicio. La guía de [posada infantil con inflable](/blog/posada-navidena-infantil-con-inflable-cdmx/) ayuda a armar bloques que no dependen por completo de estar al aire libre.
 
 ## ¿Qué zonas de CDMX conviene considerar al cotizar un parque?
 

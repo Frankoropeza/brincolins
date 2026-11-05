@@ -1,13 +1,13 @@
 ---
-title: "Fiesta spa para niñas con inflable: guía"
+title: "Fiesta spa para niñas con inflable: estaciones y horario"
 h1: "Cómo organizar una fiesta spa para niñas con inflable sin perder el ritmo"
-description: "Planea una fiesta spa para niñas con inflable: estaciones, horarios y logística para combinar actividades tranquilas con brinco en CDMX."
+description: "Fiesta spa para niñas con inflable: cómo repartir el espacio, qué estaciones montar y un horario de 3 horas que alterna brinco y calma. Cotiza en CDMX."
 excerpt: "Una fiesta spa puede tener esmaltes, pijamas y actividades sentadas sin dejar que el Castillo de Princesas se vuelva un rincón aislado. El orden de las estaciones hace que ambas partes funcionen."
 publishDate: "2026-11-02"
 updatedDate: "2026-11-04"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
-readTime: "17 min"
+readTime: "14 min"
 heroImage: "/img/inflables/castillo-princesas-fiesta-tematica-rosa.avif"
 heroImageAlt: "Castillo de Princesas inflable rosa y azul turquesa con torres decorativas"
 galleryImages:
@@ -32,8 +32,6 @@ faqs:
     answer: "El Castillo de Princesas es una opción para una fiesta spa si las niñas tienen entre 2 y 10 años y cuentas con un área exterior. Mide 5 × 3.30 × 3 m, requiere 4.2 m de altura libre y se instala en aproximadamente 20 minutos. El espacio se confirma al cotizar."
   - question: "¿Se puede hacer una fiesta de pijamas con un inflable?"
     answer: "Sí, si el inflable se usa durante la tarde en un jardín o patio exterior y las actividades de pijamas se dejan para el interior o una zona seca después. El Castillo de Princesas no es para instalarse bajo techo. Si llueve, tampoco debe utilizarse; prepara la parte tranquila como alternativa de horario."
-  - question: "¿Qué materiales necesito para una estación spa infantil?"
-    answer: "Planea materiales lavables y apropiados para las edades del grupo, toallas de papel, recipientes para residuos y una mesa estable. Evita que los artículos pequeños o las bebidas lleguen al área de salto. Si usarás esmalte, programa esa estación después del brinco o deja tiempo suficiente para que seque antes de jugar."
   - question: "¿Cuánto dura una fiesta spa para niñas con inflable?"
     answer: "Una agenda de tres horas permite alternar recepción, una estación creativa, un turno de inflable, alimentos y un cierre tranquilo. La duración exacta depende de la edad y cantidad de invitadas. No hace falta llenar cada minuto: las transiciones para lavarse las manos, tomar agua y cambiar de actividad también ordenan la fiesta."
   - question: "¿Cómo cuido el inflable si habrá manicure infantil?"
@@ -42,17 +40,24 @@ faqs:
     answer: "BRINCOLINS cubre las 16 alcaldías de la CDMX. El traslado depende de la colonia; en Narvarte no hay cargo adicional y en el resto se confirma al cotizar. Comparte la fecha, colonia, foto del jardín o patio, acceso y edades del grupo para validar el montaje exterior."
 ---
 
-Una **fiesta spa para niñas** no tiene por qué ser una tarde entera sentada frente a un espejo, ni un cumpleaños donde el inflable quede desconectado de lo demás. La combinación funciona cuando el brinco tiene un momento propio y las actividades de spa se acomodan antes o después, con una pausa real entre ambas.
+Una fiesta spa para niñas con inflable se organiza en bloques: recepción, turno de brinco, estación spa, comida y cierre tranquilo. Separa la mesa de esmaltes y accesorios del área del inflable y deja el manicure para el final. El Castillo de Princesas es para niñas de 2 a 10 años y se instala en exterior.
 
-Para un grupo de 2 a 10 años, el [Castillo de Princesas para fiesta infantil](/inflables/castillo-princesas/) pone el movimiento: tiene zona de brinco, resbaladilla, mallas laterales y un diseño rosa con azul turquesa. Entre los [castillos inflables para fiestas infantiles](/inflables/castillos/), es el modelo temático que se usa en exterior. La parte spa puede ser tan sencilla como una mesa de pulseras y accesorios o incluir una actividad de manicure infantil; no necesitas convertir toda la casa en salón de belleza para que el tema se entienda.
+**Puntos clave**
 
-> **Respuesta rápida:** Una fiesta spa para niñas con inflable se organiza mejor en bloques: actividad tranquila, turno de brinco, alimentos y cierre creativo. El Castillo de Princesas es para edades de 2 a 10 años, se instala en exterior, mide 5 × 3.30 × 3 m y requiere 4.2 m de altura libre. Revisa la ficha del Castillo de Princesas antes de apartar la fecha.
+- Tres zonas separadas: juego activo, spa creativo y alimentos, sin cruces entre ellas.
+- Un horario de tres horas alterna energía y calma; el esmalte va después del último brinco.
+- Elige una o dos estaciones fáciles de vigilar, no cinco.
+- El castillo mide 5 × 3.30 × 3 m y pide 4.2 m de altura libre; en departamento, Castillo Baby o Gusanitos caben bajo techo.
+
+Una **fiesta spa para niñas** no tiene por qué ser una tarde entera frente a un espejo, ni un cumpleaños donde el inflable quede desconectado de lo demás. La combinación funciona cuando el brinco tiene un momento propio y las actividades de spa se acomodan antes o después, con una pausa real entre ambas.
+
+Para un grupo de 2 a 10 años, el [Castillo de Princesas para fiesta infantil](/inflables/castillo-princesas/) pone el movimiento: tiene zona de brinco, resbaladilla, mallas laterales y un diseño rosa con azul turquesa. Entre los [castillos inflables para fiestas infantiles](/inflables/castillos/), es el modelo temático que se usa en exterior. La parte spa puede ser tan sencilla como una mesa de pulseras y accesorios o incluir manicure infantil; no necesitas convertir la casa en salón de belleza para que el tema se entienda.
 
 ## ¿Qué hace que una fiesta spa para niñas y un inflable combinen?
 
 La respuesta está en no pedirle a la misma zona que haga dos trabajos. La mesa de actividad necesita calma, sillas, materiales ordenados y manos limpias; el inflable necesita un acceso despejado, sin vasos, maquillaje ni objetos duros. Cuando están separados, cada invitada entiende dónde toca sentarse y dónde toca brincar.
 
-El Castillo de Princesas sirve como estación activa, no como fondo de la mesa spa. Tiene un rango amplio de edad, así que una niña de preescolar y otra de primaria pueden disfrutarlo en turnos distintos. Si quieres decidir qué dinámica conviene para cada etapa, la guía de [brincolín de princesas para niñas según la edad](/blog/fiesta-princesas-ninas-inflable-cdmx/) separa las necesidades de 2 a 3, 4 a 6 y 7 a 10 años.
+El Castillo de Princesas sirve como estación activa, no como fondo de la mesa spa. Tiene un rango amplio de edad, así que una niña de preescolar y otra de primaria pueden disfrutarlo en turnos distintos. Si quieres decidir qué castillo conviene según la edad de las invitadas, la guía de [fiesta de princesas con inflable](/blog/fiesta-princesas-ninas-inflable-cdmx/) compara los tres modelos por rango de edad.
 
 La parte spa tampoco requiere prometer tratamientos complicados. Elige una actividad que puedas vigilar y retirar rápido antes del siguiente bloque: decorar una banda de tela, armar pulseras, elegir accesorios para una foto o aplicar esmalte con ayuda adulta. Si optas por esmalte, prográmalo al final; una uña recién pintada y una resbaladilla no son buena combinación.
 
@@ -68,7 +73,7 @@ Imagina el lugar en tres zonas, no como una sola fiesta mezclada. El castillo va
 
 El modelo se instala únicamente en exterior, sobre superficie plana y despejada, sin vidrio ni objetos punzantes. También requiere una toma de 110 V a menos de 20 m y supervisión de una persona adulta durante todo el evento. Sus medidas son 5 × 3.30 × 3 m, pero no tomes ese rectángulo como la única medida: el espacio de instalación se confirma al cotizar y debes revisar ramas, cables, lonas o lámparas sobre el punto elegido.
 
-Una buena regla práctica es montar primero el castillo y usar la decoración para acompañarlo, no al revés. La ficha del Castillo de Princesas explica qué medir y cómo preparar el acceso; eso evita descubrir el día de la fiesta que un arco, una mesa o una cuerda bloquea el recorrido del equipo.
+Una buena regla práctica es montar primero el castillo y usar la decoración para acompañarlo, no al revés. La ficha del modelo explica qué medir y cómo preparar el acceso; eso evita descubrir el día de la fiesta que un arco, una mesa o una cuerda bloquea el recorrido del equipo.
 
 ## ¿Qué horario deja tiempo para brincar y también para las estaciones spa?
 
@@ -100,13 +105,15 @@ Estas opciones suelen ser sencillas de integrar porque ocurren sentadas y lejos 
 
 No metas cuentas, ligas, peines, frascos, espejos ni otros objetos al castillo. Antes de entrar, las niñas se quitan accesorios rígidos y dejan sus materiales con una persona adulta. La [guía de seguridad en inflables para fiestas infantiles](/blog/seguridad-inflables-fiestas-infantiles/) reúne otras reglas para mantener libre el área de salto sin volver el juego una lista de prohibiciones.
 
+![Mesa de estación spa infantil con toallas enrolladas, pulseras de cuentas grandes y frascos de colores en un patio](/img/blog/fiesta-spa-para-ninas-con-inflable/escena-1.avif "Una mesa estable y ordenada, lejos del inflable, facilita limpiar entre turnos.")
+
 Si piensas contratar mobiliario, confirma la configuración exacta desde el inicio. El paquete publicado de BRINCOLINS incluye Jungla o Dragones Rojos, una mesa con 10 sillitas y pintacaritas; no incluye el Castillo de Princesas. Puedes revisar las opciones vigentes de [paquetes de fiesta con inflable](/servicios/paquetes-de-fiesta/) y pedir una cotización separada para el modelo y los elementos que necesites, sin suponer que forman un paquete.
 
 ## ¿Cómo haces los cambios de estación sin que se desordene la fiesta?
 
 Anticipa cada cambio con una tarea concreta. En lugar de gritar que el brinco terminó, avisa que toca dejar los zapatos, tomar agua y elegir material para la siguiente estación. Las niñas pequeñas responden mejor a una transición visible que a una orden desde lejos; las mayores pueden ayudar a recoger si les das un cajón o una charola identificada.
 
-Usa este checklist antes del primer turno:
+Revisa esta lista antes del primer turno:
 
 - Una persona adulta se queda pendiente de la entrada mientras haya niñas usando el inflable.
 - Los alimentos, vasos y decoración con partes pequeñas están fuera del área de juego.
@@ -140,7 +147,7 @@ Las tres ideas pueden convivir, pero una debe llevar el peso del evento. Si la f
 | Fotos y accesorios | Una estación creativa y un turno breve antes | Escenario de movimiento, no fondo de fotos |
 | Pijamada | Brinco temprano y actividades interiores después | Bloque previo a la cena o película |
 
-Si el tema de cuento es el centro y buscas juegos, mesa y ambiente más allá de la parte spa, la guía de fiesta de princesas con inflable que enlazamos arriba ofrece un complemento distinto. Si el grupo prefiere animales y exploración en vez de coronas, la [guía del inflable Jungla para fiesta temática](/inflables/mini-jungla/) ayuda a cambiar de temática con un criterio de edad y espacio. Y si lo que te preocupa es que el grupo sea pequeño o incluya bebés, compara antes los casos en que un castillo temático no es la elección adecuada antes de organizar las estaciones.
+Si el tema de cuento es el centro y buscas juegos, mesa y ambiente más allá de la parte spa, la guía de fiesta de princesas que enlazamos arriba es el complemento. Si el grupo prefiere animales y exploración en vez de coronas, la [guía del inflable Jungla para fiesta temática](/inflables/mini-jungla/) ayuda a cambiar de temática con un criterio de edad y espacio. Y si el grupo es pequeño o incluye bebés, revisa la [comparativa de castillos inflables](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) antes de organizar las estaciones.
 
 ## ¿Y si la fiesta spa es en un departamento?
 
@@ -171,6 +178,6 @@ En colonias de edificios es donde más se da la duda entre salón, área común 
 
 Manda la fecha, el horario, colonia, foto del área exterior, tipo de piso y las edades de quienes usarán el castillo. Añade si será patio, jardín o área común y si existe portería, caseta o una ruta de carga con restricciones. Con esos datos se revisan disponibilidad, traslado y viabilidad del montaje; la instalación estimada del Castillo de Princesas es de 20 minutos.
 
-No dejes la decisión sólo en el color. Confirma también que habrá una toma de 110 V a menos de 20 m, superficie plana y despejada, y un adulto disponible para supervisar el juego. La colonia y las condiciones de acceso son las que completan tu cotización.
+No dejes la decisión solo en el color. Confirma también que habrá una toma de 110 V a menos de 20 m, superficie plana y despejada, y un adulto disponible para supervisar el juego. La colonia y las condiciones de acceso son las que completan tu cotización.
 
-Cuando tengas esa información, [cotiza el Castillo de Princesas para tu fiesta spa](/cotizar/) y explica qué estaciones quieres montar alrededor. También puedes enviar la foto del lugar por WhatsApp al 55 3128 1706 para revisar el espacio antes de organizar las invitaciones.
+Cuando tengas esa información, [cotiza el Castillo de Princesas para tu fiesta spa](/cotizar/) y explica qué estaciones quieres montar alrededor. También puedes enviar la foto del lugar por WhatsApp al 55 3128 1706, de lunes a domingo de 8:00 a 20:00, para revisar el espacio antes de mandar las invitaciones. La fecha se aparta con 50% de anticipo.

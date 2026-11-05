@@ -1,146 +1,136 @@
 ---
-title: "Palomitas e Inflable para Fiestas Infantiles en CDMX"
-description: "Combina un inflable de BRINCOLINS con palomitas de Palomita.mx para una fiesta infantil perfecta en CDMX. Checklist y tiempos de instalación."
-excerpt: "La combinación ganadora para fiestas infantiles en CDMX: inflable + palomitas. Aprende a coordinar ambos proveedores, optimizar tiempos y lograr una fiesta que los niños recordarán."
+title: "Palomitas e inflable para fiesta infantil: cómo coordinarlos"
+h1: "Palomitas e inflable en una fiesta infantil: horarios, ubicación, corriente y qué preguntar a cada proveedor"
+description: "Coordina inflable y máquina de palomitas sin cruces: horarios de llegada, dónde poner cada uno, cómo separar la corriente y qué preguntar a cada proveedor."
+excerpt: "Inflable y palomitas forman un ciclo que funciona solo: los niños brincan, salen por un puñado y vuelven a entrar. Así coordinas a los dos proveedores sin que choquen."
 publishDate: "2026-06-02"
 updatedDate: "2026-11-04"
 category: "Guías"
 author: "Equipo BRINCOLINS"
-readTime: "18 min"
-heroImage: "/img/blog/blog-ideas-fiesta-infantil-cdmx.avif"
-heroImageAlt: "Fiesta infantil con inflable y palomitas en CDMX"
+readTime: "12 min"
+heroImage: "/img/blog/palomita-inflable-fiesta-infantil-cdmx/portada.avif"
+heroImageAlt: "Máquina de palomitas sobre una mesa en el jardín de una fiesta infantil, con un inflable al fondo"
 intro:
-  - "Organizar una fiesta infantil en la Ciudad de México es un arte. Tienes que pensar en el espacio, la decoración, el pastel, la comida y, sobre todo, el entretenimiento. Dos elementos que nunca fallan: un **inflable profesional** y una **máquina de palomitas** que llena el aire de ese olor irresistible que a todos nos encanta. En **BRINCOLINS** llevamos más de 20 años rentando inflables en CDMX y hemos visto de primera mano cómo esta combinación transforma una fiesta ordinaria en algo extraordinario."
-  - "En esta guía te explicamos exactamente cómo coordinar tu [renta de inflables en CDMX](/) con el servicio de palomitas de Palomita.mx, nuestro aliado especialista en snacks para eventos. Encontrarás checklist de coordinación, tabla de tiempos de instalación y todo lo que necesitas para que el día del evento fluya sin contratiempos."
+  - "Organizar una fiesta infantil en la Ciudad de México implica pensar en espacio, decoración, pastel, comida y entretenimiento. Dos elementos que casi nunca fallan son un **inflable profesional** y una **máquina de palomitas**. En **BRINCOLINS** llevamos más de 20 años rentando inflables en CDMX y hemos visto cómo esta combinación cambia el ritmo de una fiesta."
+  - "En esta guía te explicamos cómo coordinar tu [renta de inflables en CDMX](/) con el servicio de palomitas de Palomita.mx, nuestro aliado especialista en snacks para eventos: tabla de tiempos, ubicación, corriente, errores comunes y preguntas para cada proveedor."
 tags:
   - "renta inflables CDMX"
   - "palomitas fiesta infantil"
   - "proveedores fiesta infantil cdmx"
   - "ideas fiesta infantil cdmx"
 faqs:
-  - question: "¿Puedo rentar el inflable y las palomitas al mismo tiempo en CDMX?"
-    answer: "Sí. BRINCOLINS se encarga del inflable y la logística de instalación, mientras que Palomita.mx provee la máquina de palomitas y los insumos. Coordinando ambos con anticipación puedes tener los dos servicios listos antes de que llegue el primer invitado."
-  - question: "¿Cuánto tiempo antes debo instalar el inflable antes de la fiesta?"
-    answer: "Lo recomendable es instalar el inflable entre 45 y 60 minutos antes del inicio de la fiesta. Esto da tiempo para inflado, pruebas de seguridad y acomodar el área alrededor. La máquina de palomitas puede estar lista en 15-20 minutos, así que puede llegar un poco después."
-  - question: "¿Cuánto cuesta combinar un inflable con palomitas para una fiesta en CDMX?"
-    answer: "Un inflable básico de BRINCOLINS comienza desde $1,400 MXN y los modelos más grandes o temáticos llegan a $2,600 MXN. El costo de la máquina de palomitas de Palomita.mx varía según la cantidad de porciones. Esta combinación representa una de las inversiones más eficientes para el entretenimiento de una fiesta infantil."
+  - question: "¿Puedo rentar el inflable y las palomitas para la misma fiesta?"
+    answer: "Sí. BRINCOLINS se encarga del inflable, su instalación y su recolección, y Palomita.mx provee la máquina de palomitas y los insumos. Si coordinas a los dos con anticipación, ambos servicios quedan listos antes de que llegue el primer invitado."
+  - question: "¿Con cuánta anticipación debe llegar cada proveedor?"
+    answer: "El inflable conviene que llegue entre 60 y 75 minutos antes del inicio: el montaje toma de 15 a 30 minutos según el modelo y deja margen para imprevistos. La máquina de palomitas puede llegar entre 30 y 40 minutos antes, cuando el inflable ya está funcionando."
+  - question: "¿Cuánto cuesta combinar un inflable con palomitas?"
+    answer: "Los inflables de BRINCOLINS van de $1,400 a $2,600 netos por evento, con instalación y recolección incluidas, más el envío según tu zona. El costo de las palomitas depende del paquete y del número de porciones, y se cotiza directamente con Palomita.mx."
   - question: "¿Se pueden comer palomitas dentro del inflable?"
-    answer: "No. Ninguna comida ni bebida entra al inflable: la mantequilla y el caramelo manchan el vinilo y brincar con comida en la boca es riesgo de atragantamiento. Pon la máquina a unos pasos de la entrada y una mesa con servilletas en medio para que los niños se limpien antes de volver a brincar."
+    answer: "No. Ninguna comida ni bebida entra al inflable: la mantequilla y el caramelo manchan el vinilo y brincar con comida en la boca es riesgo de atragantamiento. Pon la máquina a unos pasos de la entrada y servilletas a medio camino para que los niños se limpien antes de volver."
   - question: "¿El inflable y la máquina de palomitas pueden usar el mismo contacto?"
-    answer: "No es lo recomendable. El motor del inflable trabaja toda la fiesta y necesita una toma de 110V a menos de 20 m; si comparte contacto o extensión con la máquina de palomitas y otros aparatos, puede botarse la pastilla y el inflable se baja con niños adentro. Lo ideal es usar dos contactos distintos."
+    answer: "No es recomendable. El motor del inflable trabaja toda la fiesta y necesita una toma de 110 V a menos de 20 m; si comparte contacto con la máquina y otros aparatos, puede botarse la pastilla y el inflable se baja con niños adentro. Usa dos contactos distintos."
   - question: "¿Cuánto cuesta el envío del inflable en el sur de la CDMX?"
     answer: "Depende de la alcaldía. En Xochimilco el envío va de $100 a $150; en Tlalpan y La Magdalena Contreras se calcula según la colonia. Te lo confirmamos al cotizar con tu dirección."
 ---
 
-## La escena que nos enamoró de esta combinación
+Para combinar inflable y palomitas en una fiesta infantil, haz que cada proveedor llegue a una hora distinta (el inflable unos 60 minutos antes y las palomitas 30 a 40 minutos antes), coloca la máquina a unos pasos del inflable pero nunca en su entrada y conecta cada equipo a un contacto diferente. Ninguna comida entra al inflable.
 
-Son las 10:30 de un sábado en un jardín de Coyoacán. El inflable lleva 20 minutos encendido y el motor zumba con ese ruido constante y reconfortable que los niños ya aprendieron a reconocer. El olor a palomitas recién hechas ha llegado hasta la calle — dulce, cálido, inconfundible — y los primeros invitados todavía están acomodando su regalo sobre la mesa cuando ya están volteando hacia el castillo inflable con los ojos bien abiertos. No hace falta que nadie los invite dos veces.
+**Puntos clave**
 
-Llevamos más de 20 años en este negocio y hemos presenciado esa escena cientos de veces, en jardines de Tlalpan, azoteas de Naucalpan, salones en Ecatepec y patios en Iztapalapa. Y cada vez funciona igual. El inflable es la actividad que mantiene a los niños en movimiento durante horas. Las palomitas son el snack social por excelencia — esa presencia sensorial que dice "aquí hay fiesta" desde que llegas. Juntos crean un ciclo casi perfecto: los niños brincan, salen del inflable acalorados y con las mejillas rojas, toman un puñado de palomitas y vuelven a entrar. Los adultos también se sirven. Nadie se aburre. Nadie te pide que organices algo más.
+- Escalona las llegadas con al menos 20 minutos de diferencia para no saturar el acceso.
+- La máquina va en mesa firme, lejos de donde corren los niños y con paso libre hacia el inflable.
+- Dos equipos, dos contactos: el motor del inflable trabaja toda la fiesta y no debe compartir circuito.
+- Elige el inflable por edades y espacio; la máquina funciona igual para 15 que para 60 invitados.
+- Confirma con los dos proveedores dos o tres días antes, incluidos los datos de caseta si es privada.
 
-Palomita.mx es nuestro aliado recomendado para snacks en eventos en CDMX. Cuentan con máquinas de palomitas, palomitas dulces, saladas y en sabores especiales, ideales para amenizar cualquier celebración. Nosotros nos enfocamos en el inflable; ellos en los snacks — cada quien en lo que sabe hacer, y el resultado habla solo.
+## ¿Por qué funciona tan bien la combinación de inflable y palomitas?
 
-## El catálogo de inflables de BRINCOLINS para fiestas infantiles
+Son las 10:30 de un sábado en un jardín de Coyoacán. El inflable lleva 20 minutos encendido y el motor zumba con ese ruido constante que los niños ya reconocen. El olor a palomitas recién hechas llega hasta la calle, y los primeros invitados todavía acomodan su regalo cuando ya están volteando hacia el inflable.
 
-Antes de coordinar proveedores, hay que elegir bien el inflable. Esta decisión importa más de lo que parece: el modelo equivocado para la edad de los niños o para el tamaño del espacio puede arruinar la experiencia antes de que empiece. En nuestra experiencia, casi todas las dudas que nos llegan por WhatsApp se resuelven con tres preguntas: ¿cuántos años tiene el festejado?, ¿cuántos metros tienes disponibles? y ¿cuál es el tema de la fiesta? El criterio completo está en la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/).
+Hemos visto esa escena cientos de veces, en jardines de Tlalpan, azoteas de Naucalpan, salones en Ecatepec y patios en Iztapalapa, y siempre funciona igual. El inflable mantiene a los niños en movimiento; las palomitas son el snack social que anuncia que hay fiesta desde que llegas. Juntos crean un ciclo: los niños brincan, salen acalorados, toman un puñado de palomitas y vuelven a entrar. Los adultos también se sirven y nadie te pide que organices algo más.
 
-En nuestro [catálogo de inflables](/inflables/) encontrarás opciones para cada tipo de fiesta. Aquí un resumen honesto de cada uno:
+[Palomita.mx](https://palomita.mx/) es nuestro aliado recomendado para snacks en eventos en CDMX. Cuentan con máquinas de palomitas y palomitas dulces, saladas y de sabores especiales. Nosotros nos enfocamos en el inflable y ellos en los snacks: cada quien en lo que sabe hacer.
 
-- **[Castillo Baby](/inflables/mini-castillo/)** — 2.5×2×2 m, para niños de 1 a 3 años. **$1,400 MXN**.
-- **[Castillo de Princesas](/inflables/castillo-princesas/)** — 5×3.30×3 m, para niños de 2 a 10 años. Rosa, lila y torres de cuento. **$1,800 MXN**.
-- **[Dragones Rojos](/inflables/dragones-rojos/)** — 5×3×2.80 m, para niños de 3 a 8 años. Es el modelo más rentado del catálogo. **$1,600 MXN**.
-- **[Jungla](/inflables/mini-jungla/)** — 5×3×2.50 m, para niños de 3 a 8 años. Temática safari. **$1,600 MXN**.
-- **[Gusanitos](/inflables/gusanitos/)** — 5×3×2.80 m, para niños de 2 a 8 años. Circuito de túneles y edades mezcladas. **$1,600 MXN**.
-- **[Castillo Blanco](/inflables/castillo-blanco/)** — 5×7×4 m, para niños de 3 a 12 años. El indicado para eventos formales y XV años. **$2,600 MXN**.
-- **[Barco Pirata](/inflables/barco-pirata/)** — 6×3.5×3.80 m, para niños de 3 a 12 años. **$2,300 MXN**.
-- **[Extremo](/inflables/extremo/)** — 8×4.5×3.50 m, para niños de 3 a 12 años. Circuito de obstáculos. **$2,500 MXN**.
+## ¿Qué inflable elegir para tu fiesta?
 
-El espacio requerido se confirma al cotizar según el modelo y el lugar. Todos los precios son netos —IVA solo si necesitas factura— y están publicados en la [página de precios](/precios/). Si tienes dudas sobre el espacio disponible, escríbenos antes de reservar.
-
-## Tabla de tiempos de instalación: inflable y palomitas
-
-Una fiesta bien coordinada empieza antes de que llegue el primer invitado. Lo que más nos preguntan los papás que coordinan por primera vez es: ¿a qué hora tiene que llegar cada quién? La respuesta depende de lo que cada servicio necesita para quedar impecable.
-
-Lo que aprendimos después de cientos de eventos es que el error más común no es llegar tarde — es hacer llegar a todos al mismo tiempo. Cuando el equipo de inflable y el de palomitas coinciden en el mismo acceso, se genera un caos perfectamente evitable. La solución es escalonar los horarios con al menos 20 minutos de diferencia; si además tienes decoradora, animador y banquete, el timeline completo está en la [guía para coordinar proveedores](/blog/coordinacion-proveedores-fiesta-infantil-cdmx/).
-
-| Tarea | Quién | Tiempo estimado | ¿Cuándo llegar? |
-|---|---|---|---|
-| Preparar el área del inflable | Responsable de la fiesta | 15-20 min | 90 min antes |
-| Instalación del inflable | BRINCOLINS | 20-30 min | 60-75 min antes |
-| Inflado y prueba de seguridad | BRINCOLINS | 15-20 min | Incluido arriba |
-| Instalación máquina palomitas | Palomita.mx | 10-15 min | 30-40 min antes |
-| Calentamiento y primera tanda | Palomita.mx | 5-10 min | 20-30 min antes |
-| Fiesta lista para comenzar | — | — | 0 min (hora inicio) |
-
-**Consejo clave:** coordina las llegadas por separado. Pide a BRINCOLINS llegar primero para resolver cualquier imprevisto con el espacio; Palomita.mx puede llegar cuando el inflable ya esté funcionando. Así cada equipo trabaja sin estorbarse.
-
-## Coordinación completa: qué hacer y cuándo
-
-La diferencia entre una fiesta que fluye sola y una que se siente improvisada casi siempre está en los detalles previos al evento. No el día del evento — antes. Hemos visto papás llegar al sábado con todo confirmado y disfrutar la fiesta de principio a fin junto con sus hijos. Y hemos visto papás llegar al sábado sin confirmación y pasarla al teléfono mientras los niños brincan sin que nadie los supervise.
-
-Estas son las tres etapas que recomendamos para que nada quede al azar:
-
-**La semana antes del evento** es el momento crítico para cerrar todo. Confirma fecha, hora y dirección exacta con BRINCOLINS por WhatsApp al 5531281706. Haz lo mismo con Palomita.mx: tipo de palomitas, cantidad de porciones, horario exacto de llegada. Verifica que tu espacio tenga una toma de corriente cerca del área del inflable — esto suena obvio hasta que el día del evento descubres que la única salida eléctrica está al otro lado del jardín. Si el evento es en condominio o edificio, avisa a ambos proveedores sobre los protocolos de acceso, el nombre del portero y dónde pueden estacionar su vehículo.
-
-**El día anterior** es para dejar todo listo de tu lado. Limpia y despeja el área donde va el inflable. Prepara la mesa o zona para la máquina de palomitas. Ten lista una extensión eléctrica de al menos 10 metros — calibre adecuado para cargas medianas, no la extensión delgada de la cocina. Si el evento es al aire libre, revisa el pronóstico del clima y ten un plan B si hay viento fuerte.
-
-**El día del evento** solo tienes que recibir a cada quién y guiarlos a su lugar. Estate presente cuando llegue BRINCOLINS para mostrarles exactamente dónde va el inflable — alejado de la mesa de adultos y de la zona de comida. Cuando llegue Palomita.mx, ubica la máquina en una zona accesible pero que no obstaculice el paso natural de la fiesta. Ten vasos o bolsas para las palomitas cerca desde el principio.
-
-> **Lo que vemos en campo:** los papás que asignan a un familiar de confianza como "coordinador del día" — alguien que recibe proveedores y resuelve imprevistos — disfrutan la fiesta el doble que los que intentan hacer todo ellos mismos. El anfitrión principal no puede estar en dos lugares al mismo tiempo.
-
-## Proveedores especializados vs. paquete todo incluido
-
-Esta es la pregunta que más nos hacen, especialmente papás que están organizando una fiesta grande por primera vez. La respuesta no es simple, pero en nuestra experiencia tiene una tendencia clara.
-
-El argumento a favor del paquete todo incluido es la comodidad: un solo proveedor, un solo punto de contacto, una sola llamada para resolver cualquier problema. Lo entendemos. Pero lo que hemos visto en campo es que esa comodidad tiene un costo silencioso: cuando una sola empresa hace todo — inflable, palomitas, decoración, animador — suele hacer todo de forma correcta pero no excepcional. Es el dilema clásico del "jack of all trades, master of none". El inflable es funcional pero no impresionante. Las palomitas están buenas pero no espectaculares. Y si algo falla, falla todo junto.
-
-Con proveedores especializados, cada quien llega a lo que sabe hacer. Nosotros llevamos más de 20 años pensando solo en inflables: su mantenimiento, su seguridad, su instalación, los modelos que funcionan mejor para cada edad. Palomita.mx lleva años pensando solo en snacks para eventos. Cuando dos expertos hacen su parte, el resultado total sube.
-
-Sí, requiere coordinar dos calendarios en lugar de uno. Sí, hay más mensajes de confirmación la semana previa. Pero para fiestas medianas y grandes — donde el entretenimiento y la experiencia sensorial importan — la coordinación extra vale completamente la pena.
-
-## Qué inflable va con qué tipo de fiesta
-
-La máquina de palomitas funciona igual para 15 que para 60 invitados; lo que cambia es el inflable. Esta tabla te ayuda a cruzar el perfil de la fiesta con el modelo, usando solo datos del catálogo:
+Antes de coordinar proveedores hay que elegir bien el inflable: el modelo equivocado para la edad o el espacio arruina la experiencia antes de empezar. Casi todas las dudas que nos llegan por WhatsApp se resuelven con tres preguntas: ¿cuántos años tiene el festejado?, ¿cuántos metros tienes? y ¿cuál es el tema? El criterio completo está en la [guía para elegir el inflable según edad y espacio](/blog/como-elegir-inflable-fiesta-infantil/), y todos los modelos están en el [catálogo de inflables](/inflables/).
 
 | Tu fiesta | Modelo que suele encajar | Edades | Medidas | Precio |
 |---|---|---|---|---|
-| Primer o segundo cumpleaños, invitados muy pequeños | Castillo Baby | 1 a 3 años | 2.5×2×2 m | $1,400 |
-| Hermanos de edades distintas, de 2 a 8 años | Gusanitos | 2 a 8 años | 5×3×2.80 m | $1,600 |
-| Fiesta temática de dragones o safari | Dragones Rojos o Jungla | 3 a 8 años | 5×3 m | $1,600 |
-| Fiesta de princesas o primos de 2 a 10 años | Castillo de Princesas | 2 a 10 años | 5×3.30×3 m | $1,800 |
-| Niños de primaria con mucha energía | Extremo o Barco Pirata | 3 a 12 años | 8×4.5 m / 6×3.5 m | $2,500 / $2,300 |
-| Evento formal, comunión o fiesta en blanco | Castillo Blanco | 3 a 12 años | 5×7×4 m | $2,600 |
+| Primer o segundo cumpleaños, invitados muy pequeños | [Castillo Baby](/inflables/mini-castillo/) | 1 a 3 años | 2.5×2×2 m | $1,400 |
+| Hermanos de edades distintas | [Gusanitos](/inflables/gusanitos/), circuito de túneles | 2 a 8 años | 5×3×2.80 m | $1,600 |
+| Temática de dragones, el más rentado | [Dragones Rojos](/inflables/dragones-rojos/) | 3 a 8 años | 5×3×2.80 m | $1,600 |
+| Temática safari | [Jungla](/inflables/mini-jungla/) | 3 a 8 años | 5×3×2.50 m | $1,600 |
+| Fiesta de princesas o primos de 2 a 10 años | [Castillo de Princesas](/inflables/castillo-princesas/) | 2 a 10 años | 5×3.30×3 m | $1,800 |
+| Niños de primaria con mucha energía | [Barco Pirata](/inflables/barco-pirata/) | 3 a 12 años | 6×3.5×3.80 m | $2,300 |
+| Circuito de obstáculos para los más grandes | [Extremo](/inflables/extremo/) | 3 a 12 años | 8×4.5×3.50 m | $2,500 |
+| Evento formal, comunión o fiesta en blanco | [Castillo Blanco](/inflables/castillo-blanco/) | 3 a 12 años | 5×7×4 m | $2,600 |
 
-Al precio del inflable súmale el envío de tu zona. La capacidad de cada modelo y el espacio exacto se confirman al cotizar.
+Los precios son netos por evento y están publicados en la [página de precios](/precios/); si necesitas factura se agrega 16% de IVA, y el envío depende de tu zona. La capacidad y el espacio exacto se confirman al cotizar.
 
-## Dónde poner la máquina de palomitas respecto al inflable
+## ¿A qué hora debe llegar cada proveedor?
 
-Es el detalle que más se descuida y el que más problemas da. Las palomitas y el inflable deben estar cerca para que los niños vayan y vengan, pero **no pegados**:
+El error más común no es llegar tarde: es citar a todos a la misma hora. Cuando el equipo del inflable y el de palomitas coinciden en el mismo acceso, se genera un caos evitable. La solución es escalonar con al menos 20 minutos de diferencia; si además tienes decoradora, animador y banquete, el horario completo está en la [guía para coordinar proveedores de una fiesta infantil](/blog/coordinacion-proveedores-fiesta-infantil-cdmx/).
 
-- **Nada de comida dentro del inflable.** Ni palomitas, ni dulces, ni bebidas. La mantequilla y el caramelo manchan el vinilo y los granos sueltos se vuelven un riesgo de atragantamiento si un niño brinca con la boca llena.
-- **Deja un paso libre entre ambos.** Si la máquina queda junto a la entrada del inflable, se forma un embudo: niños formados para palomitas, niños quitándose los zapatos y niños saliendo, todos en el mismo metro cuadrado.
-- **Zona de manos limpias.** Pon servilletas o toallitas a medio camino. Los niños salen del inflable, comen palomitas con mantequilla y vuelven a entrar; si traen las manos con grasa, resbalan y dejan el inflable pegajoso.
-- **La máquina va sobre mesa firme**, lejos del área donde corren los niños. Una máquina caliente y un niño corriendo no deben cruzarse.
+| Tarea | Quién | Tiempo estimado | ¿Cuándo empieza? |
+|---|---|---|---|
+| Preparar el área del inflable | Anfitrión | 15 a 20 min | 90 min antes |
+| Instalación, inflado y revisión | BRINCOLINS | 15 a 30 min | 60 a 75 min antes |
+| Instalación de la máquina | Palomita.mx | Según su equipo | 30 a 40 min antes |
+| Primera tanda de palomitas | Palomita.mx | Según su equipo | 20 a 30 min antes |
+| Fiesta lista | Todos | | Hora de inicio |
 
-## La corriente: dos equipos, dos contactos
+**Consejo:** pide que el inflable llegue primero para resolver cualquier imprevisto con el espacio; las palomitas pueden llegar cuando el inflable ya está funcionando. Así cada equipo trabaja sin estorbarse.
 
-El inflable necesita su motor encendido toda la fiesta, con una toma de 110V a menos de 20 m. La máquina de palomitas también se conecta. El error típico es colgar las dos de la misma extensión delgada o del mismo contacto que ya tiene la bocina y la licuadora.
+## ¿Qué hacer la semana antes, el día anterior y el día de la fiesta?
 
-Antes de la fiesta:
+La diferencia entre una fiesta que fluye y una improvisada casi siempre está en lo que se hace antes. Hemos visto papás llegar al sábado con todo confirmado y disfrutar la fiesta completa, y otros pasarla al teléfono mientras los niños brincan sin supervisión.
 
-1. Ubica **dos contactos distintos**, de preferencia de circuitos diferentes (uno del jardín y otro de la cocina, por ejemplo).
-2. Pregunta a Palomita.mx qué necesita su máquina y avísanos a nosotros dónde está tu contacto.
-3. Ten a la mano dónde está tu centro de carga por si se bota una pastilla.
+1. **La semana antes.** Confirma fecha, hora y dirección con BRINCOLINS por WhatsApp y con Palomita.mx (tipo de palomitas, porciones y horario). Verifica que haya una toma de corriente cerca del área del inflable. Si es condominio o edificio, avisa a ambos sobre el acceso, el nombre del portero y dónde estacionar.
+2. **El día anterior.** Limpia y despeja el área del inflable, prepara la mesa para la máquina y ten lista una extensión de uso rudo del largo necesario, no la extensión delgada de la cocina. Si la fiesta es al aire libre, revisa el pronóstico y ten un plan si hay viento fuerte.
+3. **El día de la fiesta.** Recibe a cada proveedor y muéstrale su lugar: el inflable lejos de la mesa de adultos y de la comida, la máquina en una zona accesible que no bloquee el paso. Ten vasos o bolsas para palomitas desde el principio.
 
-Si nunca has calculado esto, revisa la guía sobre [cuánta luz consume un inflable y qué extensión conviene](/blog/cuanta-luz-consume-un-inflable-contacto-extension/).
+> **Lo que vemos en campo:** los papás que nombran a un familiar de confianza como coordinador del día, alguien que recibe proveedores y resuelve imprevistos, disfrutan mucho más la fiesta. El anfitrión no puede estar en dos lugares al mismo tiempo.
 
-## Errores comunes al juntar inflable y palomitas
+Para no olvidar nada del resto de la fiesta, usa la [lista de cosas para una fiesta infantil](/blog/lista-de-cosas-para-fiesta-infantil-checklist/).
 
-- **Pedir que lleguen al mismo tiempo.** Dos camionetas, un solo acceso y tú en medio.
-- **No avisar que es condominio o privada.** Si hay registro en caseta, los dos proveedores lo necesitan, no solo uno.
-- **Olvidar el horario de retiro.** El inflable se recoge al final; si la renta termina antes que la fiesta, los niños se quedan sin actividad justo cuando ya comieron. Para cuadrar los tiempos, revisa [cuántas horas conviene rentar el inflable](/blog/horario-fiesta-infantil-cuantas-horas-inflable/).
+## ¿Dónde poner la máquina de palomitas respecto al inflable?
 
-## Qué preguntar a cada proveedor antes de pagar
+Es el detalle que más se descuida. Palomitas e inflable deben estar cerca para que los niños vayan y vengan, pero **no pegados**:
+
+- **Nada de comida dentro del inflable.** Ni palomitas, ni dulces, ni bebidas. La mantequilla y el caramelo manchan el vinilo y los granos sueltos son riesgo de atragantamiento si un niño brinca con la boca llena.
+- **Paso libre entre ambos.** Si la máquina queda junto a la entrada del inflable, se forma un embudo: niños formados para palomitas, niños quitándose los zapatos y niños saliendo en el mismo metro cuadrado.
+- **Zona de manos limpias.** Servilletas o toallitas a medio camino. Con las manos engrasadas, los niños resbalan y dejan el inflable pegajoso.
+- **Mesa firme y lejos de donde corren.** Una máquina caliente y un niño corriendo no deben cruzarse.
+
+![Mesa con una máquina de palomitas, vasos de papel y servilletas en el jardín de una casa mexicana, a varios pasos de un área de juego al fondo](/img/blog/palomita-inflable-fiesta-infantil-cdmx/escena-1.avif "Cerca pero no pegados: la máquina en mesa firme y un paso libre hacia el área de juego.")
+
+## ¿Cómo repartir la corriente entre los dos equipos?
+
+El motor del inflable trabaja toda la fiesta con una toma de 110 V a menos de 20 m, y la máquina de palomitas también se conecta. El error típico es colgar los dos de la misma extensión o del contacto que ya tiene la bocina y la licuadora.
+
+1. Ubica **dos contactos distintos**, de preferencia de circuitos diferentes, por ejemplo uno del jardín y otro de la cocina.
+2. Pregunta a Palomita.mx qué necesita su máquina y avísanos dónde está tu contacto.
+3. Ten ubicado tu centro de carga por si se bota una pastilla.
+
+Si nunca has revisado esto, consulta la guía sobre [cuánta luz consume un inflable y qué extensión conviene](/blog/cuanta-luz-consume-un-inflable-contacto-extension/).
+
+## ¿Conviene contratar proveedores especializados o un paquete todo incluido?
+
+El paquete todo incluido ofrece comodidad: un solo contacto y una sola llamada. Lo que hemos visto en campo es que esa comodidad tiene un costo: cuando una empresa hace todo, suele hacerlo correcto pero no excelente, y si algo falla, falla todo junto.
+
+Con proveedores especializados, cada quien se dedica a lo suyo. Nosotros llevamos más de 20 años pensando solo en inflables: mantenimiento, seguridad, instalación y modelos para cada edad. Palomita.mx se dedica a los snacks para eventos. Requiere coordinar dos calendarios y mandar algunos mensajes más, pero en fiestas medianas y grandes la coordinación extra vale la pena.
+
+Si prefieres resolver varias piezas con nosotros, revisa los [paquetes de fiesta](/servicios/paquetes-de-fiesta/), que combinan inflable, mesa infantil y otros extras.
+
+## ¿Qué errores son los más comunes?
+
+- **Citar a los dos proveedores a la misma hora.** Dos camionetas, un solo acceso y tú en medio.
+- **No avisar que es condominio o privada.** Si hay registro en caseta, lo necesitan los dos proveedores.
+- **Olvidar el horario de retiro.** Si la renta termina antes que la fiesta, los niños se quedan sin actividad justo después de comer. Para cuadrar los tiempos, revisa [cuántas horas conviene rentar el inflable](/blog/horario-fiesta-infantil-cuantas-horas-inflable/); la renta cubre un evento de 4 a 6 horas.
+- **Ubicar el inflable a pleno sol sin revisarlo.** Al mediodía el vinilo se calienta; tócalo con la palma y, si puedes, busca sombra parcial.
+
+## ¿Qué preguntar a cada proveedor antes de pagar?
 
 **A BRINCOLINS:**
 
@@ -156,38 +146,36 @@ Si nunca has calculado esto, revisa la guía sobre [cuánta luz consume un infla
 - ¿Qué necesita de corriente y de espacio?
 - ¿Incluye vasos o bolsas?
 
-## Si la fiesta es en casa, en salón o en área común
+Para calcular el resto de la comida, revisa [cuánta comida por niño se necesita en una fiesta infantil](/blog/cuanta-comida-por-nino-fiesta-infantil/).
 
-- **Jardín de casa:** el escenario más sencillo. El inflable va en la parte más plana y la máquina cerca de la terraza o de la cocina, donde haya contacto.
-- **Patio de cemento chico:** elige un modelo compacto y pon la máquina en el interior de la casa, junto a la puerta, para no robarle metros al inflable.
-- **Salón de fiestas:** pregunta al salón si permite proveedores externos y si cobra por conectar equipos. Si todavía no decides, compara pros y contras en [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/).
+## ¿Cómo cambia la logística en casa, salón o área común?
+
+- **Jardín de casa:** el escenario más sencillo. El inflable va en la parte más plana y la máquina cerca de la terraza o la cocina, donde haya contacto.
+- **Patio de cemento chico:** elige un modelo compacto y pon la máquina dentro de la casa, junto a la puerta, para no restarle metros al inflable.
+- **Salón de fiestas:** pregunta si permite proveedores externos y si cobra por conectar equipos. Si todavía no decides, compara pros y contras en [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/).
 - **Área común de condominio:** confirma con la administración horario, ruido y uso de contactos.
 
 ### Si festejas en el sur de la ciudad
 
-Muchas de las fiestas con jardín de la capital están en el sur, y ahí la logística tiene sus propias particularidades. En Tlalpan conviven casas con jardín amplio en el Pedregal o en Tlalpan Centro con zonas altas como el Ajusco, donde la tarde se pone fresca antes que en el resto de la ciudad: si la fiesta se alarga, ten suéteres a mano y considera arrancar temprano. Consulta el detalle de [inflables con entrega en Tlalpan](/cobertura/tlalpan/).
+Muchas fiestas con jardín de la capital están en el sur, y ahí la logística tiene sus particularidades. En Tlalpan conviven casas con jardín amplio en el Pedregal o en Tlalpan Centro con zonas altas como el Ajusco, donde la tarde refresca antes que en el resto de la ciudad: si la fiesta se alarga, ten suéteres a mano y considera empezar temprano. Consulta el detalle de [inflables con entrega en Tlalpan](/cobertura/tlalpan/).
 
-En Xochimilco, colonias como San Gregorio o Tulyehualco tienen terrenos y patios grandes que permiten montar el inflable y la mesa de palomitas sin apretarse; el envío ahí va de $100 a $150, como explicamos en la página de [renta a domicilio en Xochimilco](/cobertura/xochimilco/). Y en La Magdalena Contreras, con calles empinadas en muchas colonias, conviene avisar si el acceso es angosto o con pendiente para que los dos proveedores lleguen preparados; revisa la cobertura de [inflables para fiestas en Magdalena Contreras](/cobertura/magdalena-contreras/).
+En Xochimilco, colonias como San Gregorio o Tulyehualco tienen terrenos y patios grandes que permiten montar el inflable y la mesa de palomitas sin apretarse; el envío ahí va de $100 a $150, como explicamos en la página de [renta a domicilio en Xochimilco](/cobertura/xochimilco/). En La Magdalena Contreras, con calles empinadas en muchas colonias, avisa si el acceso es angosto o con pendiente para que los dos proveedores lleguen preparados; revisa la cobertura de [inflables para fiestas en Magdalena Contreras](/cobertura/magdalena-contreras/).
 
-## Cómo hacer la reservación paso a paso
+## ¿Cómo reservar los dos servicios paso a paso?
 
-Reservar ambos servicios es más sencillo de lo que parece. El proceso completo se puede hacer en una tarde:
+1. **Define fecha y espacio** antes de contactar a cualquier proveedor: dónde, cuándo, cuántos metros y cuántos niños.
+2. **Escríbenos por WhatsApp** al 55 3128 1706 para confirmar disponibilidad y modelo.
+3. **Elige tu inflable** según la edad de los niños, el espacio y la temática.
+4. **Confirma con Palomita.mx** el paquete de palomitas según el número de invitados.
+5. **Coordina horarios** con ambos: dirección exacta y hora de inicio. El inflable llega unos 60 minutos antes y las palomitas 30 a 40 minutos antes.
+6. **Envía un mensaje de confirmación** a ambos dos o tres días antes del evento.
 
-1. **Define la fecha y el espacio** antes de contactar a cualquier proveedor. Ten claro dónde y cuándo es la fiesta, cuántos metros tienes disponibles y cuántos niños asistirán.
-2. **Contacta a BRINCOLINS** por WhatsApp al 5531281706 o visita nuestra sección de [paquetes de fiesta](/servicios/paquetes-de-fiesta/) para ver las opciones disponibles ese día.
-3. **Elige tu inflable** basándote en la edad de los niños, el espacio disponible y la temática de la fiesta.
-4. **Confirma con Palomita.mx** visitando palomita.mx y eligiendo el paquete de palomitas según el número de invitados.
-5. **Coordina los horarios** con ambos proveedores: comparte la dirección exacta y la hora de inicio. Pide que BRINCOLINS llegue 60 minutos antes y Palomita.mx 30-40 minutos antes.
-6. **Envía un mensaje de confirmación** a ambos proveedores 2-3 días antes del evento. Un mensaje corto de WhatsApp es suficiente para evitar sorpresas de último minuto.
+## ¿Cómo aprovechar mejor el día de la fiesta?
 
-## Cómo aprovechar al máximo el día del evento
+- **Inflable visible desde la llegada.** La primera impresión de los niños al entrar y verlo encendido no cuesta nada extra; solo requiere buena ubicación.
+- **Máquina cerca de la entrada o del área de adultos.** El olor recibe a los invitados antes de que alguien les diga que hay palomitas, y la fiesta tiene punto de encuentro desde el primer minuto.
+- **Recolección sin trabajo para ti.** Al terminar, BRINCOLINS desinfla y recoge el equipo; solo deja el área accesible.
 
-Veinte años de fiestas nos enseñaron algunos detalles que marcan diferencia sin costar nada extra:
+## ¿Cuál es el siguiente paso?
 
-Coloca el inflable en un área visible desde el punto de llegada. Ese primer "wow" cuando los niños asoman por la reja o entran al jardín y ven el inflable encendido es irreemplazable — y es gratuito, solo requiere buena ubicación. El color del inflable, sus dimensiones, el sonido del motor: todo entra junto y crea la energía de la fiesta en segundos.
-
-Pon la máquina de palomitas cerca de la entrada o del área de adultos. El olor hace el trabajo solo: recibe a los invitados antes de que alguien tenga que decirles que hay palomitas. Los adultos se acercan, los niños siguen a los adultos, y la fiesta tiene punto de encuentro desde el minuto uno.
-
-Si la fiesta es de día en verano — lo cual es muy común en CDMX — verifica que el inflable tenga algo de sombra o pregúntanos sobre modelos con material con filtro UV. Un inflable bajo el sol del mediodía en julio puede calentarse demasiado en la superficie. No es peligroso si hay sombra parcial, pero vale la pena considerar la orientación del espacio.
-
-Y lo último: al terminar la fiesta, BRINCOLINS se encarga de desinflar y recoger el equipo. No tienes que hacer nada, solo tener el área accesible cuando lleguemos — generalmente 30 o 40 minutos después de terminada la fiesta. Para reservar, [pide tu cotización](/cotizar/) o escríbenos al 5531281706, de lunes a domingo de 8:00 a 20:00. Y si quieres sumar mesa de dulces al combo, lo desarrollamos en la guía de [mesa de dulces e inflable para cumpleaños](/blog/mesa-dulces-inflable-cumpleanos-cdmx/).
+Si ya tienes fecha y lugar, [pide tu cotización](/cotizar/) o escríbenos por WhatsApp al 55 3128 1706, de lunes a domingo de 8:00 a 20:00. La fecha se aparta con 50% de anticipo. Y si quieres sumar mesa de dulces al combo, lo desarrollamos en la guía de [mesa de dulces e inflable para cumpleaños](/blog/mesa-dulces-inflable-cumpleanos-cdmx/).

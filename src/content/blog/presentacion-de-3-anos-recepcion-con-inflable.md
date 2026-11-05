@@ -1,13 +1,13 @@
 ---
-title: "Presentación de 3 años: ¿qué inflable va con tus invitados?"
+title: "Presentación de 3 años con inflable: qué castillo elegir"
 h1: "Presentación de 3 años con inflable: Castillo Blanco, Castillo Baby o los dos para la recepción familiar"
-description: "Presentación de 3 años con inflable en CDMX: cuándo basta el Castillo Blanco, cuándo sumar el Castillo Baby y cómo decorar en blanco y dorado. Cotiza hoy."
+description: "Elige el inflable para la presentación de 3 años: cuándo basta el Castillo Blanco, cuándo sumar el Castillo Baby y cómo separar zonas y decorar."
 excerpt: "Tu festejado cumple 3, sus primos van de bebés a niños de primaria y la recepción es en casa. Así eliges uno o dos castillos sin que nadie brinque con quien no debe."
 publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
 category: "Castillo Blanco"
 author: "Equipo BRINCOLINS"
-readTime: "19 min"
+readTime: "16 min"
 heroImage: "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-decoracion.avif"
 heroImageAlt: "Castillo inflable blanco montado en un jardín, con cortinas blancas colgadas y árboles detrás"
 galleryImages:
@@ -30,26 +30,30 @@ faqs:
   - question: "¿El Castillo Baby se puede poner dentro de la casa?"
     answer: "Sí. El Castillo Baby se instala en interiores siempre que haya 3.2 m de altura libre, una superficie plana y despejada y una toma de 110 V a menos de 20 m. Mide 2.5 × 2 × 2 m, así que una sala despejada o una terraza techada pueden funcionar."
   - question: "¿Qué pasa si la recepción de la presentación es en un departamento?"
-    answer: "El Castillo Blanco queda descartado, porque se instala sólo en exterior. El Castillo Baby sí puede ir en un departamento con 3.2 m de altura libre, o puedes elegir el paquete fiesta bebés, que incluye el Castillo Baby, una mesa con 4 sillitas y una pintacaritas para 4 niños por $2,100."
+    answer: "El Castillo Blanco queda descartado, porque se instala solo en exterior. El Castillo Baby sí puede ir en un departamento con 3.2 m de altura libre, o puedes elegir el paquete fiesta bebés, que incluye el Castillo Baby, una mesa con 4 sillitas y una pintacaritas para 4 niños por $2,100."
   - question: "¿Se puede rentar la pintacaritas sola para la presentación?"
-    answer: "No. La pintacaritas no se vende por separado; sólo viene incluida en los paquetes. El paquete fiesta bebés la trae para 4 niños junto con el Castillo Baby y una mesa con 4 sillitas, y el paquete fiesta la incluye con un inflable Jungla o Dragones Rojos y una mesa con 10 sillitas."
+    answer: "No. La pintacaritas no se vende por separado; solo viene incluida en los paquetes. El paquete fiesta bebés la trae para 4 niños junto con el Castillo Baby y una mesa con 4 sillitas, y el paquete fiesta la incluye con un inflable Jungla o Dragones Rojos y una mesa con 10 sillitas."
   - question: "¿A qué hora conviene que lleguen a instalar el inflable el día de la presentación?"
     answer: "Antes de que la familia salga a misa. El Castillo Blanco se instala en 30 minutos y el Castillo Baby en 15, así que con alguien de confianza en casa para recibirnos y mostrar la toma de corriente, todo queda listo cuando regresan del templo. La hora exacta se acuerda al confirmar."
 ---
 
-La misa terminó. Tu hijo de 3 años ya no quiere los zapatos blancos, la abuela tiene la comida casi lista y en el jardín hay bebés de meses, primos de 5 y un sobrino de 11 que ya busca un balón. ¿Dónde juega cada quien?
+Para una presentación de 3 años con invitados de todas las edades, lo práctico es separar zonas: el Castillo Blanco (3 a 12 años, $2,600) para los niños grandes y el [Castillo Baby para bebés de 1 a 3 años](/inflables/mini-castillo/) ($1,400) para los pequeños. Si casi todos pasan de 3 años, basta el blanco. El Castillo Blanco va solo en exterior; el Baby también entra en interiores.
 
-Una **presentación de 3 años** junta a toda la familia, y eso trae niños de todas las edades a la misma recepción. Tu festejado ya tiene edad para brincar, pero no con cualquiera. Aquí tienes cómo resolverlo con uno o con dos castillos, según tu lista.
+**Puntos clave**
 
-Te adelantamos algo. Casi siempre la respuesta depende de cuántos bebés vienen.
+- Tu festejado entra en los dos castillos; lo que decide es con quién va a brincar.
+- Cuenta a los niños en dos grupos, de 1 a 3 y de 3 a 12 años, antes de cotizar.
+- Si rentas los dos, sepáralos y pon un adulto en la entrada de cada uno.
+- El Castillo Blanco pide 5 × 7 m de planta y 4.7 m libres a cielo abierto; el Baby, 3.2 m.
+- Decora en blanco y dorado con globos y mesa de dulces lejos de la entrada del inflable.
 
-> **Respuesta rápida:** Para una presentación de 3 años con invitados de todas las edades, lo práctico es separar zonas: el Castillo Blanco (3 a 12 años, $2,600) para los niños grandes y el [Castillo Baby para bebés de 1 a 3 años](/inflables/mini-castillo/) ($1,400) para los pequeños. Si casi todos tus invitados pasan de 3 años, basta el blanco. El Castillo Blanco va sólo en exterior; el Baby también entra en interiores.
+La misa terminó. Tu hijo de 3 años ya no quiere los zapatos blancos, la abuela tiene la comida casi lista y en el jardín hay bebés de meses, primos de 5 y un sobrino de 11 que ya busca un balón. ¿Dónde juega cada quien? Casi siempre la respuesta depende de cuántos bebés vienen.
 
 ## ¿Qué hace diferente la recepción de una presentación de 3 años?
 
 Tres cosas: el festejado, la lista y el lugar. Tu hijo tiene 3 años recién cumplidos y llega cansado de misa. Tus invitados traen hijos de todas las edades. Y casi siempre la recepción es en casa, en el jardín de un familiar o en una terraza, no en un lugar de eventos.
 
-Un cumpleaños se diseña para niños de edades parecidas. Una presentación no. Aquí conviven tres generaciones de primos. Por eso la guía del [castillo inflable para un cumpleaños infantil](/inflables/castillos/) no te basta aquí: tienes que pensar en dos públicos al mismo tiempo y separarlos.
+Un cumpleaños se diseña para niños de edades parecidas. Una presentación no. Aquí conviven tres generaciones de primos. Por eso elegir entre los [castillos inflables para cumpleaños](/inflables/castillos/) como si fuera una fiesta más no te basta: tienes que pensar en dos públicos al mismo tiempo y separarlos.
 
 El tono también cambia. Hay padrinos, misa y comida formal. Tu inflable tiene que verse como parte de la decoración y no como un juego chillante en medio del jardín. Ahí el blanco te hace la mitad del trabajo.
 
@@ -65,7 +69,7 @@ El rango no es adorno de catálogo. Te dice con quién comparte el inflable cada
 
 ### Cómo decidir dónde brinca tu hijo
 
-La regla práctica es simple. Tamaño con tamaño. Tu festejado brinca donde están los niños de su tamaño. ¿Es de los más chicos de la familia? Su lugar está en el Castillo Baby. ¿Sus primos cercanos tienen 4 o 5 años? Puede brincar en el Castillo Blanco, en un turno sólo para pequeños.
+La regla práctica es simple. Tamaño con tamaño. Tu festejado brinca donde están los niños de su tamaño. ¿Es de los más chicos de la familia? Su lugar está en el Castillo Baby. ¿Sus primos cercanos tienen 4 o 5 años? Puede brincar en el Castillo Blanco, en un turno solo para pequeños.
 
 #### Si la mayoría de sus primos son más grandes
 
@@ -73,7 +77,7 @@ Monta el Castillo Blanco como zona principal y organiza turnos por edad: primero
 
 #### Si la mayoría son de su edad o menores
 
-Entonces manda el chico. El Castillo Baby es tu zona principal. El Castillo Blanco sólo te conviene si además viene un grupo de niños de primaria que necesite su propio espacio. El Baby se instala en 15 minutos y cabe en terrazas pequeñas.
+Entonces manda el chico. El Castillo Baby es tu zona principal. El Castillo Blanco solo te conviene si además viene un grupo de niños de primaria que necesite su propio espacio. El Baby se instala en 15 minutos y cabe en terrazas pequeñas.
 
 ## ¿Qué combinación de castillos conviene según tu lista de niños?
 
@@ -86,12 +90,12 @@ Esta tabla cruza tu lista con el modelo que conviene. La conclusión práctica: 
 | Casi todos de 1 a 3 años | Castillo Baby | Es el modelo de su edad y también entra en interiores |
 | Casi todos de 3 a 12 años | Castillo Blanco | Cubre todo el rango y combina con la decoración formal |
 | Bebés y niños de primaria mezclados | Castillo Blanco y Castillo Baby, separados | Cada grupo brinca con niños de su tamaño |
-| Pocos niños, casi todos bebés, en departamento | Castillo Baby o paquete fiesta bebés | El Castillo Blanco es sólo para exterior |
+| Pocos niños, casi todos bebés, en departamento | Castillo Baby o paquete fiesta bebés | El Castillo Blanco es solo para exterior |
 | Jardín amplio y niños de 4 a 12 años | Castillo Blanco | Aprovecha el espacio y recibe a los más grandes |
 
-¿Cuántos niños brincan por turno? ¿Cuánto espacio libre necesita cada castillo? Te lo confirmamos al cotizar, con las medidas reales de tu jardín o terraza. Si quieres ver otras formas y tamaños, revisa la categoría de castillos inflables.
+¿Cuántos niños brincan por turno? ¿Cuánto espacio libre necesita cada castillo? Te lo confirmamos al cotizar, con las medidas reales de tu jardín o terraza. 
 
-> **¿Uno o dos castillos?** Mándanos cuántos niños de cada edad vienen y la medida de tu jardín; te decimos qué combinación cabe y si está libre tu fecha. [Preguntar por la presentacion de 3 anos](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20inflables%20para%20una%20presentacion%20de%203%20anos)
+> **¿Uno o dos castillos?** Mándanos cuántos niños de cada edad vienen y la medida de tu jardín; te decimos qué combinación cabe y si está libre tu fecha. [Preguntar por la presentación de 3 años](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20inflables%20para%20una%20presentacion%20de%203%20anos)
 
 ## ¿Cómo separar dos zonas de juego en la casa de los abuelos?
 
@@ -104,6 +108,8 @@ El Castillo Blanco va en la parte más amplia del jardín, a cielo abierto, con 
 ### La zona de los pequeños
 
 El Castillo Baby va más cerca de las mesas. Los papás de los bebés quieren tenerlos a la mano. Puede ir en la terraza, en un pórtico o dentro de la casa, siempre que tengas 3.2 m de altura libre. Busca sombra y pide a otro adulto que lo cuide.
+
+![Jardín de la casa de los abuelos con dos zonas de juego separadas: un área de pasto amplia al fondo y una terraza con sombra cerca de las mesas familiares](/img/blog/presentacion-de-3-anos-recepcion-con-inflable/escena-1.avif "Dos zonas separadas: la de los grandes al fondo y la de los bebés cerca de las mesas.")
 
 #### Mesa infantil para los más chicos
 
@@ -139,7 +145,9 @@ Los globos blancos, dorados y transparentes con confeti dorado combinan sin comp
 
 Mantén la mesa de dulces en la misma paleta, con detalles dorados y un letrero con el nombre de tu hijo. Ubícala lejos del inflable. ¿Por qué? Los niños salen de brincar directo a los dulces, y si la mesa está junto al castillo, la zona se vuelve embudo.
 
-Para más combinaciones, revisa las [paletas para decorar en blanco alrededor del castillo](/blog/fiesta-infantil-all-white-boho-decoracion/), con dorado, verde olivo, pastel y terracota. Y si quieres ver cómo se integra un castillo blanco en un evento más grande, la integración visual de la zona infantil en bodas aplica igual.
+![Mesa de dulces en blanco y dorado en un jardín, con globos blancos y dorados, flores blancas y un pastel sencillo de dos pisos](/img/blog/presentacion-de-3-anos-recepcion-con-inflable/escena-2.avif "Blanco y dorado en la mesa de dulces, lejos de la entrada del inflable.")
+
+Para más combinaciones, revisa las [paletas para decorar en blanco alrededor del castillo](/blog/fiesta-infantil-all-white-boho-decoracion/), con dorado, verde olivo, pastel y terracota. Y si quieres ver cómo se integra un castillo blanco en un evento más grande, la guía de [zona infantil en bodas y eventos formales](/blog/inflables-eventos-formales-cdmx/) aplica igual.
 
 ## ¿Qué orden del día funciona después de la misa de presentación?
 
@@ -153,7 +161,7 @@ Instalación antes de misa, fotos al llegar, apertura por zonas, pausa en la com
 
 El precio es por evento. Nada de contar horas. El motor profesional se queda encendido todo el evento y pasamos a recoger al final.
 
-> **Que la foto con los padrinos salga limpia.** Instalamos antes de que salgas a misa; tú llegas, posas y abres las dos zonas. Los fines de semana se llenan, así que confirma tu fecha por WhatsApp. [Apartar los castillos para la presentacion](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Castillo%20Blanco%20y%20el%20Castillo%20Baby%20para%20una%20presentacion)
+> **Que la foto con los padrinos salga limpia.** Instalamos antes de que salgas a misa; tú llegas, posas y abres las dos zonas. Los fines de semana se llenan, así que confirma tu fecha por WhatsApp. [Apartar los castillos para la presentación](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Castillo%20Blanco%20y%20el%20Castillo%20Baby%20para%20una%20presentacion)
 
 ## ¿Qué errores evitar cuando bebés y niños de primaria comparten fiesta?
 
@@ -172,7 +180,7 @@ La lógica de dos zonas se repite en otras fiestas del año. La explicamos para 
 
 Si la presentación cae entre junio y septiembre, la temporada de lluvias del Valle de México, ten un plan antes de apartar. El problema no es la misa, que suele ser de mañana o mediodía, sino la recepción: las lluvias suelen llegar por la tarde, justo cuando los niños están en el jardín.
 
-- **El Castillo Blanco va sólo en exterior.** Si llueve, se pausa: los niños salen, se espera a que pare y se seca la lona antes de reabrir. No hay forma de meterlo bajo un toldo.
+- **El Castillo Blanco va solo en exterior.** Si llueve, se pausa: los niños salen, se espera a que pare y se seca la lona antes de reabrir. No hay forma de meterlo bajo un toldo.
 - **El Castillo Baby sí tiene plan B.** Con 3.2 m de altura libre puede pasar a una terraza techada, un garage o la sala. Decide desde antes cuál sería ese lugar y que esté despejado.
 - **Adelanta la apertura.** Si el cielo se ve cargado, abre los castillos en cuanto regresen de misa y deja la comida para después; así los niños brincan antes de que llueva.
 - **Avísanos si cambia algo.** Si el pronóstico es muy malo y quieres cambiar el plan, escríbenos con tiempo; las condiciones están en la política de cancelación.
@@ -191,7 +199,7 @@ En Chalco, en zonas como Chalco Centro o San Gregorio, y en Texcoco, en el centr
 
 ## ¿Cuánto cuesta cada combinación para la presentación?
 
-Desde $1,400 con sólo el Castillo Baby hasta la suma de los dos castillos, más lo que agregues de mobiliario. Son precios netos por evento, con instalación y recolección incluidas. Así puedes armar la combinación que tu lista necesita sin sorpresas.
+Desde $1,400 con solo el Castillo Baby hasta la suma de los dos castillos, más lo que agregues de mobiliario. Son precios netos por evento, con instalación y recolección incluidas. Así puedes armar la combinación que tu lista necesita sin sorpresas.
 
 Esta tabla resume cada elemento. La conclusión práctica: si tienes pocos bebés y la recepción es en interior, el paquete fiesta bebés te resuelve casi todo.
 
@@ -202,9 +210,9 @@ Esta tabla resume cada elemento. La conclusión práctica: si tienes pocos bebé
 | Paquete fiesta bebés | Castillo Baby, mesa con 4 sillitas y pintacaritas para 4 niños | $2,100 |
 | Mesa infantil con 10 sillas | Mesa de 1.8 × 0.5 m para niños de 1 a 6 años, junto con un inflable | $550 |
 
-El traslado se cobra según la zona. La pintacaritas no se vende por separado: sólo viene en paquete. ¿Te quedan dudas generales? Revisa las [dudas comunes antes de rentar](/preguntas-frecuentes/).
+El traslado se cobra según la zona. La pintacaritas no se vende por separado: solo viene en paquete. ¿Te quedan dudas generales? Revisa las [dudas comunes antes de rentar](/preguntas-frecuentes/).
 
-## Aparta uno o los dos castillos para la presentación
+## ¿Cómo apartar uno o los dos castillos?
 
 La fecha de la misa ya está fijada y los fines de semana se llenan. Si ya sabes dónde será la recepción, hoy puedes dejar resuelto el juego de todos los niños. Mándanos estos datos y te confirmamos espacio, capacidad y disponibilidad de uno o de los dos castillos.
 
@@ -214,6 +222,6 @@ La fecha de la misa ya está fijada y los fines de semana se llenan. Si ya sabes
 - **Cuántos niños vienen de cada grupo**, de 1 a 3 años y de 3 a 12.
 - **Medidas o foto del jardín**, y si hay techo, toldo o árboles.
 
-La fecha se aparta con 50% de anticipo. Los precios son netos y por evento; si necesitas factura se agrega 16% de IVA, y el traslado depende de la zona según el [mapa de cobertura en CDMX y Edomex](/cobertura/). Puedes comparar los [precios de los ocho inflables del catálogo](/precios/) o revisar la disponibilidad del Castillo Blanco para tu fecha.
+La fecha se aparta con 50% de anticipo. Los precios son netos y por evento; si necesitas factura se agrega 16% de IVA, y el traslado depende de la zona según el [mapa de cobertura en CDMX y Edomex](/cobertura/). Puedes comparar los [precios de los ocho inflables del catálogo](/precios/).
 
-Llena el [formulario de cotización en línea](/cotizar/) o escríbenos directo: [Cotizar dos castillos para la presentacion](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20dos%20castillos%20para%20la%20presentacion%20de%203%20anos%20de%20mi%20hijo).
+Llena el [formulario de cotización en línea](/cotizar/) o escríbenos directo: [Cotizar dos castillos para la presentación](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20dos%20castillos%20para%20la%20presentacion%20de%203%20anos%20de%20mi%20hijo).

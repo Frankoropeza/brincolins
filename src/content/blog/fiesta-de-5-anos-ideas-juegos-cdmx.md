@@ -1,7 +1,7 @@
 ---
 title: "Fiesta de 5 años: juegos que funcionan y turnos sin pleitos"
 h1: "Fiesta de 5 años en CDMX: juegos de una regla, invitados del kínder, cronograma y turnos en el inflable"
-description: "Fiesta de 5 años en CDMX: juegos de una sola regla, invitados del kínder, cronograma de 3 a 4 horas y turnos en el Dragones Rojos. Planea y aparta tu fecha."
+description: "Fiesta de 5 años en CDMX: juegos de una sola regla, invitados del kínder, cronograma de 3 a 4 horas y turnos en el Dragones Rojos. Aparta tu fecha."
 excerpt: "A los 5 años las reglas tienen que caber en una frase y las competencias durar poco. Juegos, lista de invitados, horario y turnos en el inflable, listos para usar."
 publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
@@ -35,13 +35,19 @@ faqs:
     answer: "La del personaje favorito del festejado, preguntándole a él antes de comprar decoración. A esa edad ya tiene superhéroes, dinosaurios o caricaturas propias. Si elige dragones o caballeros, el Dragones Rojos ya resuelve buena parte de la ambientación; si elige dinosaurios, la Jungla hace ese papel."
 ---
 
+Una fiesta de 5 años funciona mejor con un plan de 3 a 4 horas: juegos de una sola regla, competencias cortas con premio para todos y un inflable con turnos por tiempo. El [Dragones Rojos](/inflables/dragones-rojos/) recibe niños de 3 a 8 años, cuesta $1,600 por evento y se instala en 15 a 30 minutos.
+
+**Puntos clave**
+
+- Juegos que se expliquen en una frase y retos de cinco minutos; las eliminatorias largas aburren a medio grupo.
+- Cuenta por separado a los niños de 3 a 8 años y a los hermanos menores de 3.
+- Turnos de 10 a 15 minutos agrupados por edad, con una persona adulta en la entrada todo el evento.
+- El Dragones Rojos es de exterior: pide piso plano, toma de 110 V a menos de 20 m y 4.5 m de altura libre.
+- La fecha se aparta con 50% de anticipo y el inflable se renta por evento, no por hora.
+
 Tu hijo cumple 5 y ya opina de todo. Quiere a sus amigos del kínder, quiere a su personaje y quiere brincar. También está en la edad en la que un juego mal explicado termina en llanto a los dos minutos.
 
-Una fiesta de 5 años sale bien cuando la diseñas para niños de 5, no para los gustos de los adultos ni para niños de 8. Eso significa juegos de una regla, retos cortos, su personaje favorito y un inflable con turnos claros.
-
-Aquí tienes el plan completo, pensado para casa, terraza o área común en CDMX y Estado de México. Úsalo tal cual o ajústalo a tu tarde.
-
-> **Respuesta rápida:** Para una fiesta de 5 años funciona un plan de 3 a 4 horas con juegos de una sola regla, competencias cortas con premio para todos y un inflable con turnos por tiempo. El [Dragones Rojos](/inflables/dragones-rojos/) recibe niños de 3 a 8 años, cuesta $1,600 por evento y se instala en 20 minutos; a los 5 años el festejado queda justo a la mitad de su rango.
+Una fiesta de 5 años sale bien cuando la diseñas para niños de 5, no para los gustos de los adultos ni para niños de 8. Aquí tienes el plan completo, pensado para casa, terraza o área común en CDMX y Estado de México. Úsalo tal cual o ajústalo a tu tarde.
 
 ## ¿Qué juegos entiende de verdad un niño de 5 años?
 
@@ -157,6 +163,8 @@ Estos seis no piden material especial y los entiende cualquier niño de 5 años 
 - **Búsqueda de pelotas de colores.** Escondes pelotas por el lugar y cada niño busca las de su color.
 - **Dibujo gigante.** Un rollo de papel kraft en el piso y crayones, ideal para quien no quiere brincar.
 - **Piñata por turnos de edad.** Primero los chicos, después los grandes, con un adulto cuidando la distancia.
+
+![Niños de unos 5 años jugando a las estatuas en un jardín mientras esperan su turno](/img/blog/fiesta-de-5-anos-ideas-juegos-cdmx/escena-1.avif "Un juego de una sola regla mantiene ocupados a los que esperan turno.")
 
 ¿Vas a sentar a los niños para dibujar o comer? Considera sumar [mesas y sillitas infantiles](/servicios/mobiliario-para-fiestas/). Y si prefieres una actividad lista, el [paquete con mesa, sillitas y una hora de pintacaritas](/servicios/paquetes-de-fiesta/) funciona como segunda estación sin que tú la organices.
 

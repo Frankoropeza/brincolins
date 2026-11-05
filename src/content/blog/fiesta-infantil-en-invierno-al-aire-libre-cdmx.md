@@ -1,13 +1,13 @@
 ---
-title: "Fiesta infantil en invierno al aire libre con inflable"
+title: "Fiesta infantil en invierno al aire libre: horario y ropa"
 h1: "Fiesta infantil en invierno al aire libre: horario, ropa y plan con inflable de diciembre a febrero"
-description: "Fiesta infantil al aire libre en invierno en CDMX y Edomex: a qué hora hacerla, cómo abrigar a los niños para el inflable y qué hacer si hace mucho frío."
+description: "Fiesta infantil en invierno al aire libre en CDMX: a qué hora hacerla, cómo abrigar a los niños para el inflable y qué hacer si hace frío. Cotiza en línea."
 excerpt: "De diciembre a febrero casi no llueve, pero hace frío y oscurece temprano. Cómo armar una fiesta infantil al aire libre con inflable en esos meses sin que los niños terminen tiritando."
 publishDate: "2026-11-04"
 updatedDate: "2026-11-04"
 category: "Guías"
 author: "Equipo BRINCOLINS"
-readTime: "11 min"
+readTime: "10 min"
 heroImage: "/img/blog/inflables-jardin-exterior-cdmx/img1.avif"
 heroImageAlt: "Inflable instalado en un jardín exterior a pleno sol, el mejor momento para una fiesta en invierno"
 intro:
@@ -33,11 +33,17 @@ faqs:
     answer: "Los inflables no se usan mojados. Si el pasto amanece con rocío o escarcha, la instalación se hace sobre el área seca o se espera a que el sol la seque. Por eso en invierno conviene que la fiesta no empiece muy temprano."
 ---
 
-En la Ciudad de México y el Estado de México, el invierno tiene algo a favor que casi nadie aprovecha: **casi no llueve**. La temporada de lluvias va de junio a septiembre, y de diciembre a febrero los días suelen ser secos y despejados. El problema es otro: las mañanas son frías, el sol se va más temprano y en cuanto oscurece la temperatura baja rápido.
+Una fiesta infantil en invierno al aire libre funciona si empieza a mediodía y termina antes de que oscurezca. Viste a los niños en capas con calcetines gruesos, instala el inflable sobre un área seca y soleada, mantén braseros y calentadores lejos y ten un plan bajo techo por si el día amanece helado.
 
-Una fiesta infantil al aire libre en invierno funciona muy bien si se arma alrededor del sol. Aquí tienes cómo.
+**Puntos clave**
 
-> **Respuesta rápida:** para una fiesta infantil en invierno al aire libre, empieza a mediodía y termina antes de que oscurezca, viste a los niños en capas con calcetines gruesos para el inflable, instala sobre un área seca y soleada, mantén braseros y calentadores lejos del inflable y ten un plan bajo techo con un modelo apto para interiores por si el día amanece helado.
+- De diciembre a febrero casi no llueve en el Valle de México; el reto es el frío de la mañana y de la noche.
+- El mejor horario va de las 12:00 a las 17:00, con comida caliente a media fiesta.
+- Los niños brincan sin zapatos: calcetines gruesos, capas fáciles de quitar y una zona para chamarras.
+- Ninguna fuente de calor cerca del inflable ni en el contacto del motor.
+- Castillo Baby y Gusanitos caben bajo techo con 3.2 m de altura libre, útiles como plan B.
+
+En la Ciudad de México y el Estado de México, el invierno tiene algo a favor que casi nadie aprovecha: **casi no llueve**. La temporada de lluvias va de junio a septiembre, y de diciembre a febrero los días suelen ser secos y despejados. El problema es otro: las mañanas son frías, el sol se va más temprano y en cuanto oscurece la temperatura baja rápido. Por eso la fiesta se arma alrededor del sol.
 
 ## ¿Qué cambia en una fiesta infantil de invierno?
 
@@ -99,6 +105,8 @@ Los niños entran al inflable sin zapatos. Eso, en invierno, es lo que más hay 
 - **Una zona de zapatos y chamarras** junto a la entrada, con una banca o una caja por niño.
 - **Una cobija o dos** en la mesa para los que se cansan y se sientan.
 
+![Zona de zapatos y chamarras infantiles junto a la entrada de un jardín soleado en invierno](/img/blog/fiesta-infantil-en-invierno-al-aire-libre-cdmx/escena-1.avif "Una banca para zapatos y chamarras junto a la entrada evita que los niños se enfríen al salir.")
+
 Las reglas generales de uso siguen igual: sin objetos en los bolsillos, por grupos de edad y con un adulto supervisando. Las tienes en la guía de [seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/).
 
 ## ¿Dónde instalar el inflable en un jardín de invierno?
@@ -143,7 +151,7 @@ Si tienes una terraza techada, un garage alto o un salón con al menos 3.2 m lib
 
 ## ¿Qué hacer si el día amanece muy frío o con viento?
 
-Pasa: revisas el pronóstico toda la semana, todo bien, y el sábado amanece helado o con viento. Estas son las opciones, en orden:
+Suele pasar: revisas el pronóstico toda la semana, todo bien, y el sábado amanece helado o con viento. Estas son las opciones, en orden:
 
 1. **Recorre el horario.** Si la fiesta era a las 12:00, empieza a las 13:00 para dar tiempo al sol. Avisa a los invitados por mensaje.
 2. **Acorta los bloques de juego** y alarga la comida caliente. Los niños brincan, se abrigan, comen y vuelven a brincar.
@@ -162,7 +170,7 @@ Diciembre es temporada alta: posadas escolares, de empresa y familiares se junta
 
 Para fines de semana, la recomendación general es reservar con al menos 2 semanas de anticipación. En la guía de [cuándo reservar según la temporada](/blog/cuando-reservar-inflable-temporadas-cdmx/) está el calendario completo.
 
-## Checklist para una fiesta de invierno al aire libre
+## Lista de verificación para una fiesta de invierno al aire libre
 
 - [ ] Horario de mediodía, con fin antes de que oscurezca.
 - [ ] Área del inflable revisada a la hora de la fiesta: sol, piso seco, viento.

@@ -7,7 +7,7 @@ publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
-readTime: "19 min"
+readTime: "16 min"
 heroImage: "/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif"
 heroImageAlt: "Castillo inflable rosa y turquesa con rampa azul instalado sobre terraza de madera junto a plantas"
 galleryImages:
@@ -35,11 +35,17 @@ faqs:
     answer: "Avísanos en cuanto lo sepas para revisar disponibilidad en la nueva fecha. Los cambios y cancelaciones se rigen por la política de cancelación publicada en el sitio, así que conviene leerla antes de dejar el anticipo, sobre todo si la fecha del salón todavía no es definitiva."
 ---
 
-Imagina la escena. Sábado, nueve de la mañana, la camioneta en la puerta del salón y el encargado diciendo que ahí no entran proveedores externos. O que el techo mide menos de lo que pensabas. Nadie preguntó a tiempo.
+Antes de llevar un inflable a un salón de fiestas, pregunta si aceptan proveedores externos, si el área es techada o descubierta, cuál es la altura libre en el punto más bajo, a qué hora puedes montar y dónde está el contacto de 110 V. Bajo techo solo entran el Castillo Baby y Gusanitos, con 3.2 m libres.
 
-Llevar un inflable en salón de fiestas es de lo más común en la Ciudad de México y el Estado de México. Casi todos los problemas vienen del lugar. No del inflable. Aquí tienes las preguntas que conviene llevar a la visita, en el orden en que las vas a necesitar.
+**Puntos clave**
 
-> **Respuesta rápida:** Antes de llevar un inflable en salón de fiestas, pregúntale al salón si acepta proveedores externos, si el inflable irá bajo techo o al aire libre, cuál es la altura libre real, a qué hora puedes montar y dónde está el contacto de 110 V. Bajo techo sólo entran el Castillo Baby y Gusanitos, con 3.2 m libres. El [Castillo de Princesas, modelo para exterior](/inflables/castillo-princesas/), necesita jardín o terraza descubierta con 4.2 m.
+- Pregunta por el inflable antes de dejar el anticipo del salón, no después.
+- Si todo el salón es techado, solo hay dos opciones: Castillo Baby (1 a 3 años) y Gusanitos (2 a 8 años).
+- El [Castillo de Princesas, modelo para exterior](/inflables/castillo-princesas/), necesita jardín o terraza descubierta con 4.2 m libres.
+- Horario de montaje, acceso de carga y control del tablero eléctrico se confirman en la visita.
+- El traslado se cobra según la zona del salón, no según dónde vives.
+
+Sábado, nueve de la mañana, la camioneta en la puerta del salón y el encargado dice que ahí no entran proveedores externos, o que el techo mide menos de lo que pensabas. Llevar un inflable a un salón es de lo más común en la Ciudad de México y el Estado de México, y casi todos los problemas vienen del lugar, no del inflable. Aquí tienes las preguntas para la visita, en el orden en que las vas a necesitar.
 
 ## ¿Por qué preguntar por el inflable antes de firmar con el salón?
 
@@ -51,7 +57,7 @@ Hay otra razón. Las respuestas del salón deciden qué modelo te conviene renta
 
 ## ¿El salón deja entrar a un proveedor de inflables externo?
 
-Es la primera pregunta. Y la que más sorpresas da. Hay salones que sólo permiten sus propios inflables, otros que aceptan proveedores externos con condiciones y otros sin ninguna restricción. Pregúntalo directo y pide la respuesta por escrito.
+Es la primera pregunta y la que más sorpresas da. Hay salones que sólo permiten sus propios inflables, otros que aceptan proveedores externos con condiciones y otros sin ninguna restricción. Pregúntalo directo y pide la respuesta por escrito.
 
 ### Cuotas y registro de proveedores
 
@@ -59,17 +65,17 @@ Algunos salones cobran una cuota por proveedor externo o te piden registrarlo co
 
 ### Póliza de responsabilidad civil
 
-Hay salones que piden a los proveedores externos una póliza de responsabilidad civil. Te lo decimos claro desde el principio: no ofrecemos seguro de responsabilidad civil. Si el salón lo exige, mejor que lo sepas antes de firmar. No después.
+Hay salones que piden a los proveedores externos una póliza de responsabilidad civil. Te lo decimos claro desde el principio: no ofrecemos seguro de responsabilidad civil. Si el salón lo exige, mejor que lo sepas antes de firmar.
 
-Lo que sí entregamos en cada renta es equipo revisado y sanitizado, instalación con anclaje verificado y motor profesional encendido durante todo el evento. Sin letras chicas.
+Lo que sí entregamos en cada renta es equipo revisado y sanitizado, instalación con anclaje verificado y motor profesional encendido durante todo el evento.
 
 ### Quién te recibe el día del evento
 
-Pregunta quién estará en el salón cuando llegue la camioneta: un encargado, el capitán de meseros o nadie. Si no hay nadie, alguien de tu familia tiene que estar ahí para indicar dónde va el inflable. Y dónde está el contacto.
+Pregunta quién estará en el salón cuando llegue la camioneta: un encargado, el capitán de meseros o nadie. Si no hay nadie, alguien de tu familia tiene que estar ahí para indicar dónde va el inflable y dónde está el contacto.
 
 ## ¿Hay jardín o terraza descubierta, o todo el salón es techado?
 
-Esta pregunta decide el modelo. Antes que cualquier otra. En el catálogo sólo dos inflables se instalan en interiores; el resto, incluido el Castillo de Princesas, es para exterior. Si el salón no tiene un área al aire libre disponible para tu evento, la lista se reduce a dos opciones.
+Esta pregunta decide el modelo antes que cualquier otra. En el catálogo sólo dos inflables se instalan en interiores; el resto, incluido el Castillo de Princesas, es para exterior. Si el salón no tiene un área al aire libre disponible para tu evento, la lista se reduce a dos opciones.
 
 ### Salón con jardín, patio o terraza al aire libre
 
@@ -108,7 +114,7 @@ Esta tabla ordena los ocho modelos del catálogo de menor a mayor altura libre. 
 
 ### Cómo medir la altura libre en la visita
 
-Lleva una cinta métrica larga o un medidor láser; te toma dos minutos. La medida que importa es la del punto más bajo sobre el área, no la del centro del techo. Parece obvio. Casi nadie lo hace.
+Lleva una cinta métrica larga o un medidor láser; te toma dos minutos. La medida que importa es la del punto más bajo sobre el área, no la del centro del techo.
 
 #### Bajo techo: lámparas, vigas y ventiladores
 
@@ -120,7 +126,7 @@ En jardines y terrazas también hay obstáculos que no ves a primera vista, sobr
 
 #### Si la medida queda justa
 
-No lo decidas al ojo. Ni a la buena suerte. Manda la medida y una foto al cotizar, y te confirmamos si el modelo es viable o conviene otro. El espacio libre exacto alrededor del inflable también se confirma en ese momento.
+No lo decidas al ojo. Manda la medida y una foto al cotizar, y te confirmamos si el modelo es viable o conviene otro. El espacio libre exacto alrededor del inflable también se confirma en ese momento.
 
 ## ¿A qué hora te dejan montar y a qué hora hay que desocupar?
 
@@ -144,7 +150,9 @@ Si la fecha del salón todavía no es definitiva, lee la [política de cancelaci
 
 Por el acceso de carga más corto y sin escalones, si existe. El inflable enrollado y el motor pesan y ocupan espacio. Hay que moverlos de la camioneta al área, y ese recorrido define cuánto tarda la instalación.
 
-Pregunta estas cuatro cosas en la visita, y si tienes dudas, toma fotos del recorrido:
+![Pasillo de servicio de un salón de fiestas con puerta doble abierta hacia un jardín, visto desde el estacionamiento](/img/blog/inflable-en-salon-de-fiestas-que-preguntar/escena-1.avif "El recorrido del estacionamiento al área define cuánto tarda la instalación.")
+
+Pregunta estas cuatro cosas en la visita y, si tienes dudas, toma fotos del recorrido:
 
 - **Distancia del estacionamiento al área.** Si la camioneta puede acercarse o si hay que cargar el equipo por un pasillo largo.
 - **Escaleras y elevador.** Si el área está en un segundo piso o en una terraza, cuántos escalones hay y si existe elevador de carga.
@@ -169,7 +177,7 @@ Dónde está el contacto más cercano y si queda a menos de 20 m. Si comparte ci
 
 #### Acceso al tablero
 
-Quién tiene la llave del tablero y si estará en el salón durante tu evento. Si se baja una pastilla, necesitas a alguien que la suba en un minuto. No en media hora.
+Quién tiene la llave del tablero y si estará en el salón durante tu evento. Si se baja una pastilla, necesitas a alguien que la suba en un minuto, no en media hora.
 
 Un contacto en el lugar equivocado obliga a cruzar el salón con un cable. Si lo detectas en la visita, puedes pedir que acomoden las mesas para que el cable vaya pegado a la pared.
 
@@ -185,17 +193,19 @@ No todos los salones son iguales, y la pregunta sobre el inflable cambia según 
 
 Si el salón infantil ya tiene sus propios juegos, revisa qué incluye el paquete antes de sumar otro proveedor. En cambio, en un salón de eventos sin juegos, el inflable es lo que va a ocupar a los niños mientras los adultos comen, así que vale la pena revisar el espacio con más cuidado. Si todavía no decides si te conviene salón o casa, la guía de [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/) compara ambos escenarios.
 
-## Lo que preguntas al salón y lo que preguntas al proveedor
+## ¿Qué le preguntas al salón y qué al proveedor del inflable?
 
 Una confusión frecuente es esperar que el salón resuelva dudas del inflable, o al revés. Reparte las preguntas así:
 
 **Al salón:**
+
 - ¿Permiten proveedores externos de inflables? ¿Hay cuota o registro?
 - ¿Qué altura libre hay en el punto más bajo del área donde iría?
 - ¿A qué hora puede entrar el proveedor y a qué hora hay que desocupar?
-- ¿Dónde está el contacto de 110V y quién controla el tablero?
+- ¿Dónde está el contacto de 110 V y quién controla el tablero?
 
 **Al proveedor del inflable:**
+
 - ¿Qué modelo cabe con la altura y el área que mide el salón?
 - ¿Cuánto es el traslado a la dirección del salón?
 - ¿Cuánto tarda el montaje? (de 15 a 30 minutos según el modelo)
@@ -241,4 +251,4 @@ Con la altura libre, el tipo de área y el horario confirmados, ya puedes aparta
 
 La fecha se aparta con 50% de anticipo. Los precios son netos, por evento; si necesitas factura se agrega 16% de IVA. La instalación y la recolección están incluidas, y el traslado se cobra según la zona del salón. Atendemos de lunes a domingo de 8:00 a 20:00.
 
-Llena la [cotización en línea con los datos de tu salón](/cotizar/) o [manda tus medidas por WhatsApp al 55 3128 1706](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20ya%20tengo%20las%20medidas%20del%20salon%20y%20quiero%20apartar%20un%20inflable) y aparta tu fecha hoy.
+Llena la [cotización en línea con los datos de tu salón](/cotizar/) o [manda tus medidas por WhatsApp al 55 3128 1706](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20ya%20tengo%20las%20medidas%20del%20salon%20y%20quiero%20apartar%20un%20inflable) y aparta tu fecha.

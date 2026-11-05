@@ -8,8 +8,8 @@ updatedDate: "2026-11-04"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
 readTime: "16 min"
-heroImage: "/img/inflables/castillo-princesas.avif"
-heroImageAlt: "Castillo de Princesas inflable rosa con azul turquesa, torres de punta y resbaladilla lateral sobre pasto"
+heroImage: "/img/blog/fiesta-de-3-anos-ideas-inflable-cdmx/portada.avif"
+heroImageAlt: "Jardín preparado para una fiesta de 3 años con mesa infantil, burbujas y globos, y un castillo inflable rosa al fondo"
 galleryImages:
   - "/img/inflables/castillo-princesas/mini-princess-renta-cdmx.avif"
 intro:
@@ -35,11 +35,17 @@ faqs:
     answer: "Princesas es la opción más directa, pero el castillo rosa con torres también sostiene una fiesta de unicornios, hadas, mariposas o jardín encantado. Basta con repetir el rosa en manteles y globos y sumar un color de acento, como dorado o blanco, para que todo se vea pensado."
 ---
 
-El pastel ya está en el refri. La invitación ya salió. Y tu hijo sigue sin dormir la siesta a la hora que tenías planeada. Así es una fiesta de 3 años: la que más depende del humor del festejado.
+Para una fiesta de 3 años en jardín o patio, el Castillo de Princesas (2 a 10 años) es el modelo más flexible: brincan el festejado y los primos de primaria, por turnos, y cuesta $1,800 netos por evento. Si la fiesta es bajo techo o casi todos los invitados tienen menos de 3 años, conviene el Castillo Baby, de $1,400.
 
-Aquí tienes lo que sí funciona en jardines y patios de la CDMX y el Estado de México. A qué hora empezar, qué juegos aguantan y cómo repartir la tarde. Y qué inflable rentar para que brinquen él y sus primos grandes. Decisiones claras, sin relleno.
+**Puntos clave**
 
-> **Respuesta rápida:** Para una fiesta de 3 años en jardín o patio, el Castillo de Princesas, para niños de 2 a 10 años, es el modelo más flexible: brincan el festejado y los primos de primaria, por turnos. Cuesta $1,800 netos por evento, con instalación y recolección incluidas. Si la fiesta es bajo techo o casi todos los invitados tienen menos de 3 años, conviene el Castillo Baby, de $1,400.
+- Elige mañana tardía o media tarde, según la siesta del festejado.
+- Prepara estaciones cortas sin reglas: burbujas, colorear, estatuas musicales.
+- Parte el pastel a la mitad de la fiesta, justo después de comer.
+- El inflable se usa por turnos de edad y se cierra durante la comida.
+- El Castillo de Princesas pide exterior y 4.2 m de altura libre; el Baby entra bajo techo con 3.2 m.
+
+El pastel ya está en el refri, la invitación ya salió y tu hijo sigue sin dormir la siesta a la hora que tenías planeada. Así es una fiesta de 3 años: la que más depende del humor del festejado. Aquí tienes a qué hora empezar, qué juegos aguantan, cómo repartir la tarde y qué inflable rentar en jardines y patios de la CDMX y el Estado de México.
 
 ## ¿Qué hace distinta una fiesta de 3 años de la de un niño de primaria?
 
@@ -47,9 +53,9 @@ Tres cosas: la atención dura minutos, los invitados mezclan edades y el horario
 
 ### La atención se mide en minutos
 
-Un niño de 3 años deja un juego cuando se aburre. No antes. Ni después. Lo que a un niño de primaria le dura veinte minutos, a él le dura diez. Por eso conviene pensar en estaciones cortas que se puedan abrir y cerrar sin aviso, no en un programa largo con show ni en juegos con instrucciones.
+Un niño de 3 años deja un juego en cuanto se aburre. Lo que a un niño de primaria le dura veinte minutos, a él le dura diez. Por eso conviene pensar en estaciones cortas que se puedan abrir y cerrar sin aviso, no en un programa largo con show ni en juegos con instrucciones.
 
-Piensa en bloques. Burbujas, brincar, comer, pastel, brincar otra vez. Así nadie se queda esperando y tú no tienes que improvisar.
+Piensa en bloques: burbujas, brincar, comer, pastel, brincar otra vez. Así nadie se queda esperando y tú no tienes que improvisar.
 
 ### Los invitados van de 2 a 5 años, con primos más grandes
 
@@ -57,7 +63,7 @@ Llegan los amigos de la guardería, los hijos de tus amigos, la vecina con su be
 
 ### La siesta manda más que la agenda de los adultos
 
-Un festejado desvelado no disfruta su propia fiesta. Así de simple. Antes de fijar la hora, pregúntate cuándo está de mejor humor tu hijo o tu hija, no cuándo les acomoda a los tíos.
+Un festejado desvelado no disfruta su propia fiesta. Antes de fijar la hora, pregúntate cuándo está de mejor humor tu hijo o tu hija, no cuándo les acomoda a los tíos.
 
 ## ¿A qué hora empezar la fiesta de 3 años para que el festejado llegue de buen humor?
 
@@ -71,7 +77,7 @@ El festejado llega descansado. La fiesta termina con la comida o poco después, 
 
 Funciona si la siesta ya pasó o si tu hijo ya no la toma. El riesgo es alargarla. Cuando el cansancio llega, llega de golpe, y casi siempre en forma de llanto.
 
-En jardines de la ciudad también cuenta el sol. ¿Fiesta al mediodía? Prepara una zona de sombra con un par de sillas y agua a la mano, porque los niños pequeños se acaloran mucho más rápido de lo que avisan. Y si tu fecha cae en temporada de lluvias, lee la [política de cancelación antes de pagar tu anticipo](/politica-de-cancelacion/).
+En jardines de la ciudad también cuenta el sol. ¿Fiesta al mediodía? Prepara una zona de sombra con un par de sillas y agua a la mano, porque los niños pequeños se acaloran mucho más rápido de lo que avisan. Y si tu fecha cae en temporada de lluvias, recuerda que si la lluvia impide el evento la fecha se reprograma sin costo; los detalles están en la [política de cancelación](/politica-de-cancelacion/), que conviene leer antes de pagar tu anticipo.
 
 ![Vista frontal de castillo inflable rosa y turquesa de dos torres, con rampa de entrada sobre pasto](/img/inflables/castillo-princesas/castillo-princesas-exterior-jardin.avif)
 
@@ -93,7 +99,7 @@ Que reciba de 2 a 10 años no significa que todos brinquen a la vez. A esta edad
 
 ### Si no es fiesta de princesas, también va
 
-El rosa no te amarra a coronas y vestidos. El mismo castillo combina con unicornios, hadas o mariposas, y en una fiesta mixta de primos y compañeros de la guardería brincan niños y niñas igual, sin que nadie pregunte por la temática. ¿Te late esa línea? Las paletas y las actividades están en la guía de [fiesta de unicornios, hadas y mariposas](/blog/fiesta-de-unicornios-y-hadas-con-inflable/).
+El rosa no te amarra a coronas y vestidos. El mismo castillo combina con unicornios, hadas o mariposas, y en una fiesta mixta de primos y compañeros de la guardería brincan niños y niñas igual, sin que nadie pregunte por la temática. Las paletas y las actividades están en la guía de [fiesta de unicornios, hadas y mariposas](/blog/fiesta-de-unicornios-y-hadas-con-inflable/).
 
 Si tu festejada sí pidió princesas, aquí tienes [ideas de decoración y mesa para una fiesta de princesas](/blog/fiesta-princesas-ninas-inflable-cdmx/). Y si dudas entre este modelo y el rojo con dragones, recuerda que Dragones Rojos empieza en 3 años: deja fuera a los invitados de 2.
 
@@ -113,7 +119,7 @@ Si casi toda tu lista viene de la guardería, un castillo de 5 m queda grande. P
 
 ### Bebés y primos grandes en la misma fiesta
 
-Puedes rentar los dos castillos. ¿Por qué no? El Baby para los de 1 a 3 años y el de Princesas para los de 2 a 10. Nadie espera y no se mezclan pesos tan distintos. Si tu espacio da para ambos, lo confirmamos al cotizar.
+Puedes rentar los dos castillos: el Baby para los de 1 a 3 años y el de Princesas para los de 2 a 10. Nadie espera y no se mezclan pesos tan distintos. Si tu espacio da para ambos, lo confirmamos al cotizar.
 
 Esta tabla pone frente a frente los dos castillos que tienen sentido a los 3 años. La conclusión práctica: con jardín y primos grandes, Princesas; bajo techo o con puros bebés, Baby.
 
@@ -138,11 +144,13 @@ Ninguna necesita animador. Sólo un adulto cerca que vigile.
 
 #### Burbujas y pelotas suaves
 
-Una máquina de burbujas o un par de botes con varitas resuelven veinte minutos. Una caja con pelotas de plástico suave, igual. Nadie tiene que explicar nada. Tú sólo rellenas el jabón.
+Una máquina de burbujas o un par de botes con varitas resuelven veinte minutos. Una caja con pelotas de plástico suave, igual. Nadie tiene que explicar nada.
 
 #### Mesa de colorear y masa
 
 Crayones gruesos, hojas grandes, calcomanías y masa para modelar. Si la temática es de princesas o unicornios, imprime dibujos del mismo tema. Esa mesa también recibe a los que van llegando, mientras tú saludas en la puerta.
+
+![Mesa infantil baja con crayones gruesos, hojas para colorear, calcomanías y masa para modelar en un jardín](/img/blog/fiesta-de-3-anos-ideas-inflable-cdmx/escena-1.avif "Una mesa de colorear recibe a los que van llegando y no necesita animador")
 
 #### Estatuas musicales
 
@@ -189,7 +197,7 @@ Los niños pequeños comen mejor sentados. La [mesa chica con sillitas para niñ
 
 ¿Estás sumando cuentas? El [presupuesto de una fiesta de princesas en casa](/blog/cuanto-cuesta-fiesta-de-princesas-en-casa/) separa lo que tiene precio fijo de lo que tienes que cotizar con otros proveedores.
 
-## Departamento céntrico o casa con jardín: cómo cambia la elección
+## ¿Cómo cambia la elección en departamento o en casa con jardín?
 
 El mismo cumpleaños de 3 años se resuelve distinto según dónde vivas. En la ciudad, la pregunta casi nunca es "¿cuál castillo me gusta?", sino "¿cuál cabe?".
 
@@ -242,7 +250,7 @@ Tres días antes, revisa espacio, corriente, adultos y horario. Una fiesta con n
 
 Nosotros llegamos con equipo revisado y sanitizado, anclaje verificado y motor profesional encendido todo el evento. El traslado depende de tu zona; revisa las [colonias con traslado y entrega en CDMX y Edomex](/cobertura/) para saber si tu colonia está dentro.
 
-## Aparta el castillo para la fiesta de 3 años
+## Siguiente paso: aparta el castillo para la fiesta de 3 años
 
 Si ya tienes fecha y mediste tu jardín, sólo falta apartar. Los sábados y domingos se llenan primero, así que conviene escribir en cuanto definas el día, aunque todavía no tengas la lista final de invitados ni el pastel encargado. Para cotizar rápido, mándanos esto:
 

@@ -1,15 +1,15 @@
 ---
 title: "Inflable para patio pequeño: qué medir antes de apartar"
 h1: "Inflable para patio pequeño o azotea: medidas, acomodo de la fiesta y plan con el Castillo Baby"
-description: "Inflable para patio pequeño o azotea en CDMX: cómo medir, dónde va la mesa, por dónde pasan los adultos y qué modelo cabe por huella de piso. Compara y cotiza."
+description: "Inflable para patio pequeño o azotea en CDMX: cómo medir, dónde va la mesa, por dónde pasan los adultos y qué modelo cabe por huella de piso. Cotiza."
 excerpt: "Un patio chico no descarta el inflable: te pide medir bien y repartir el espacio. Qué modelo cabe, dónde va la mesa y qué hacer si sólo entra el Castillo Baby."
 publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
 category: "Gusanitos"
 author: "Equipo BRINCOLINS"
-readTime: "20 min"
-heroImage: "/img/inflables/gusanitos.avif"
-heroImageAlt: "Gusanitos, inflable para patio pequeño, con gusanos amarillos y arco morado bajo una carpa blanca"
+readTime: "17 min"
+heroImage: "/img/blog/fiesta-en-patio-pequeno-con-inflable/portada.avif"
+heroImageAlt: "Patio pequeño de cemento entre bardas, preparado para una fiesta infantil con mesa angosta y espacio libre al fondo"
 galleryImages:
   - "/img/inflables/gusanitos/gusanitos-vista-general.avif"
 intro:
@@ -24,7 +24,7 @@ faqs:
   - question: "¿Cabe un inflable en un patio de casa en la Ciudad de México?"
     answer: "En muchos casos sí. El Gusanitos ocupa 5 × 3 m de planta y el Castillo Baby 2.5 × 2 m. El espacio libre necesario alrededor y la capacidad se confirman al cotizar con las medidas de tu patio y una foto, así sabes antes de apartar si el modelo entra con la mesa y el paso de los adultos."
   - question: "¿Cuál es el inflable más chico que se puede rentar?"
-    answer: "El Castillo Baby: mide 2.5 × 2 × 2 m, es para niños de 1 a 3 años, se instala en 15 minutos y cuesta $1,400 netos por evento. Es apto para interiores, terrazas y espacios reducidos, y pide 3.2 m de altura libre en toda el área donde se coloca."
+    answer: "El Castillo Baby: mide 2.5 × 2 × 2 m, es para niños de 1 a 3 años, se instala en 15 a 30 minutos y cuesta $1,400 netos por evento. Es apto para interiores, terrazas y espacios reducidos, y pide 3.2 m de altura libre en toda el área donde se coloca."
   - question: "¿A qué distancia tiene que estar el contacto de luz del inflable?"
     answer: "A menos de 20 m del área de instalación, con una toma de 110 V. El motor trabaja durante todo el evento. Lleva la extensión por un lado donde no caminen los niños ni los adultos con platos, y evita que comparta contacto con la licuadora o la bocina."
   - question: "¿El motor del inflable hace ruido?"
@@ -32,14 +32,24 @@ faqs:
   - question: "¿Se puede instalar un inflable sobre loseta o cemento?"
     answer: "Sí, si la superficie es plana y está despejada, sin vidrio ni objetos punzantes. Barre bien el área antes de que llegue el equipo y retira piedras, clavos o restos de macetas. La instalación se hace con anclaje verificado y el tipo de piso se comenta al cotizar."
   - question: "¿Cuánto tarda la instalación del inflable en un patio?"
-    answer: "El Gusanitos se instala en 20 minutos y el Castillo Baby en 15. A eso se suma el traslado del equipo hasta el área, así que avisa al cotizar si hay escaleras, pasillos angostos o puertas chicas. Con esos datos se confirma la viabilidad antes de que apartes."
+    answer: "El montaje del Gusanitos o del Castillo Baby toma de 15 a 30 minutos. A eso se suma el traslado del equipo hasta el área, así que avisa al cotizar si hay escaleras, pasillos angostos o puertas chicas. Con esos datos se confirma la viabilidad antes de que apartes."
 ---
+
+Para un patio pequeño compara dos huellas: el [Gusanitos para patios alargados](/inflables/gusanitos/) ocupa 5 × 3 m, es para niños de 2 a 8 años y cuesta $1,600; el [Castillo Baby compacto](/inflables/mini-castillo/) ocupa 2.5 × 2 m, es para niños de 1 a 3 años y cuesta $1,400. Ambos piden 3.2 m de altura libre.
+
+**Puntos clave**
+
+- Mide con cinta el largo y el ancho útiles, de obstáculo a obstáculo, no de barda a barda.
+- La altura libre se toma en el punto más bajo: tendederos, cables y volados descartan más patios que el largo.
+- El inflable va al fondo, la mesa en el lado opuesto a las entradas y los adultos por un pasillo libre.
+- En azotea o cochera revisa acceso, pendiente, orillas y quién autoriza antes de apartar.
+- Si solo cabe el Castillo Baby, la fiesta funciona para bebés; los mayores de 3 años necesitan otro plan.
 
 Mides el patio con pasos, te salen siete, y dudas. ¿Cabe el inflable? ¿Y la mesa? ¿Y la tía que siempre llega con dos sillas plegables? Respira.
 
 Un patio chico o una azotea no descartan el inflable; te piden medir con cuidado y repartir el espacio antes de que suene el timbre. El inflable para patio pequeño correcto es el que cabe con la mesa, el paso de los adultos y la corriente resueltos. Aquí tienes cómo medir, acomodar y elegir modelo, incluido el plan para cuando sólo entra el Castillo Baby.
 
-> **Respuesta rápida:** Para un inflable para patio pequeño, compara dos huellas: el Gusanitos ocupa 5 × 3 m, es para niños de 2 a 8 años y cuesta $1,600; el [Castillo Baby, compacto para espacios reducidos](/inflables/mini-castillo/) es para niños de 1 a 3 años y cuesta $1,400. Ambos piden 3.2 m de altura libre. El espacio libre alrededor y la capacidad se confirman al cotizar con tus medidas.
+El espacio libre alrededor y la capacidad se confirman al cotizar con tus medidas.
 
 ## ¿Cuándo un patio cuenta como pequeño para rentar un inflable?
 
@@ -47,7 +57,7 @@ Cuenta como pequeño cuando el inflable tiene que convivir con la mesa, los invi
 
 En un jardín amplio, el inflable va al centro y lo demás se te acomoda solo. En un patio chico, cada metro tiene dueño. Tú decides el orden antes.
 
-Por eso la pregunta útil no es si cabe el inflable. Es si cabe tu fiesta completa con el inflable dentro. Si tu espacio es amplio y piensas en un modelo grande, el enfoque cambia: revisa [cómo saber si te cabe un inflable grande](/inflables/barco-pirata/).
+Por eso la pregunta útil no es si cabe el inflable. Es si cabe tu fiesta completa con el inflable dentro. Si tu espacio es amplio y piensas en un modelo grande, el enfoque cambia: revisa las medidas del [Barco Pirata, uno de los modelos grandes](/inflables/barco-pirata/).
 
 ## ¿Qué medidas tomas en un patio chico antes de cotizar?
 
@@ -64,6 +74,8 @@ Macetas grandes, jardineras, tinacos, lavaderos, escalones y medidores de luz o 
 #### Dibuja la forma del patio
 
 Muchos patios no son rectángulos: tienen forma de L, un pasillo lateral o una esquina ocupada. Un croquis a mano con las medidas de cada lado te dice más que dos números sueltos.
+
+![Patio pequeño preparado y medido antes de instalar un inflable, con cinta métrica y libreta en el piso](/img/blog/fiesta-en-patio-pequeno-con-inflable/escena-1.avif "Mide con cinta y anota cada lado en un croquis antes de cotizar.")
 
 #### Ubica puertas y ventanas
 
@@ -100,13 +112,13 @@ La selección completa para espacios reducidos está en el [catálogo de inflabl
 
 ### Gusanitos: alargado y con poca altura
 
-El [Gusanitos para patios alargados](/inflables/gusanitos/) mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años, se instala en 20 minutos y cuesta $1,600 por evento. Su forma alargada se acomoda en patios angostos y jardines entre bardas. Es un circuito con varias entradas y salidas; si quieres entender qué cambia, lee sobre el [circuito inflable de túneles frente a un brincolín](/blog/circuito-de-tuneles-vs-brincolin/).
+El Gusanitos mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años, se instala en 15 a 30 minutos y cuesta $1,600 por evento. Su forma alargada se acomoda en patios angostos y jardines entre bardas. Es un circuito con varias entradas y salidas; si quieres entender qué cambia, lee sobre el [circuito inflable de túneles frente a un brincolín](/blog/circuito-de-tuneles-vs-brincolin/).
 
 ¿Tu patio tiene volado o techo? El Gusanitos también es apto para interiores. Para esos casos, sobre todo en temporada de lluvias, revisa la guía de [inflable bajo techo cuando llueve](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/).
 
 ### Castillo Baby: la mitad de largo
 
-Ocupa la mitad de largo que el Gusanitos. Es para niños de 1 a 3 años, cuesta $1,400 y se instala en 15 minutos. Si tu patio no da para un modelo de 5 m, este es tu punto de partida. Más abajo tienes el plan completo.
+Ocupa la mitad de largo que el Gusanitos. Es para niños de 1 a 3 años, cuesta $1,400 y se instala en 15 a 30 minutos. Si tu patio no da para un modelo de 5 m, este es tu punto de partida. Más abajo tienes el plan completo.
 
 > **¿Te cabe o no te cabe?** Mándanos largo, ancho, altura libre y una foto de tu patio; te confirmamos si entra el Gusanitos o conviene el Castillo Baby. [Manda las medidas de tu patio por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20tengo%20un%20patio%20pequeno%20y%20quiero%20saber%20si%20cabe%20el%20Gusanitos)
 
@@ -158,7 +170,7 @@ Si vives en un edificio, la azotea suele ser área común. Pregúntalo a la admi
 
 ### ¿Y si el único espacio es la cochera?
 
-La cochera descubierta es el "patio" de muchas casas de la ciudad, y suele funcionar. Lo que cambia frente a un patio interior:
+La cochera descubierta es el «patio» de muchas casas de la ciudad, y suele funcionar. Lo que cambia frente a un patio interior:
 
 - **Saca el coche desde la noche anterior** y barre bien: manchas de aceite, tornillos y piedritas son lo primero que hay que retirar.
 - **Revisa la pendiente.** Muchas cocheras tienen caída hacia la calle para que escurra el agua. Una inclinación ligera se resuelve; una marcada, no. Menciónalo al cotizar con una foto de lado.
@@ -209,7 +221,7 @@ Los evitas avisando antes, ubicando el motor lejos de sus ventanas y respetando 
 
 Si vives en el oriente de la ciudad, consulta las [entregas en Iztacalco](/cobertura/iztacalco/) para ver el traslado a tu colonia. Y si tu fiesta es en diciembre, los mismos criterios aplican a una [posada con inflable en patio o calle cerrada](/blog/posada-navidena-infantil-con-inflable-cdmx/).
 
-### Si tu casa está en el oriente o en el norte de la ciudad
+### ¿Y si tu casa está en el oriente, el centro o el norte?
 
 En colonias de casas pegadas, con patio trasero angosto o cochera al frente, el Gusanitos y el Castillo Baby son los modelos que más se acomodan. Si tu fiesta es en Venustiano Carranza, revisa la cobertura de [inflables a domicilio en Venustiano Carranza](/cobertura/venustiano-carranza/); el traslado se calcula según tu colonia. Si ya estás del lado del Estado de México, para [fiestas en Nezahualcóyotl](/cobertura/nezahualcoyotl/) el envío va de $200 a $300. Si vives en el norte, en Azcapotzalco, la página de [entregas en Azcapotzalco](/cobertura/azcapotzalco/) tiene el detalle. En cualquiera de los tres casos, las medidas y la foto del patio son lo que define el modelo, no la alcaldía.
 

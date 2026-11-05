@@ -1,13 +1,13 @@
 ---
 title: "Reglas para tobogán inflable: 8 puntos y cartel imprimible"
 h1: "Reglas para tobogán inflable con niños: cómo explicarlas, quién las vigila y por qué funcionan"
-description: "Reglas para tobogán inflable con su porqué: uno a la vez, sentado y pies por delante, sin zapatos, turnos por edad y un adulto en la salida. Imprímelas."
+description: "Las 8 reglas del tobogán inflable con su porqué: uno a la vez, pies por delante, sin zapatos y turnos por edad. Con cartel listo para imprimir."
 excerpt: "Uno a la vez, sentado, pies por delante y nadie sube por donde se baja. Las reglas del tobogán con su razón de ser y un cartel que puedes pegar en la entrada."
 publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
 category: "Barco Pirata"
 author: "Equipo BRINCOLINS"
-readTime: "19 min"
+readTime: "15 min"
 heroImage: "/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif"
 heroImageAlt: "Barco Pirata inflable instalado en un patio soleado, con un castillo inflable de colores al lado"
 galleryImages: []
@@ -30,7 +30,7 @@ howto:
     - name: "Arma los turnos por edad y tamaño"
       text: "Divide a los niños en grupos de edades y tamaños parecidos, siempre dentro del rango del modelo. Los más chicos pasan primero y los grandes después."
     - name: "Explica las tres reglas centrales"
-      text: "Uno a la vez, sentado y con los pies por delante, y se baja sólo cuando el anterior salió de la llegada. Se sube por la subida y nunca por la rampa de bajada."
+      text: "Uno a la vez, sentado y con los pies por delante, y se baja solo cuando el anterior salió de la llegada. Se sube por la subida y nunca por la rampa de bajada."
     - name: "Coloca a los adultos en entrada y salida"
       text: "Una persona adulta controla quién sube en la entrada y otra, a un lado de la salida del tobogán, da la señal de libre. La supervisión dura todo el evento."
     - name: "Pausa el turno cuando haga falta"
@@ -50,19 +50,23 @@ faqs:
     answer: "Sí, ayuda mucho. Un cartel junto a la entrada le da al adulto que supervisa algo concreto que señalar, y los niños de primaria lo leen y se lo repiten a los chicos. Es más fácil que repetir las reglas de memoria en cada turno."
 ---
 
-Cinco niños en la fila, uno ya arriba, otro todavía sentado en la llegada riéndose. El de arriba se avienta. Así de rápido pasa.
+Las reglas para un tobogán inflable son ocho: uno a la vez, sentado y con los pies por delante, bajar solo cuando el anterior salió de la llegada, sin zapatos ni objetos, turnos por edad, nadie sube por la rampa de bajada, nada de comida adentro y todos bajan si llueve o el inflable pierde forma. Un adulto vigila la entrada y otro la salida.
 
-Las **reglas para tobogán inflable** son pocas y se explican en dos minutos. El problema es que se rompen solas en cuanto nadie las vigila. Aquí las tienes completas, con el motivo de cada una, para que puedas explicarlas a tus invitados y a los otros adultos sin sonar a regaño.
+**Puntos clave**
 
-Al final te dejamos un cartel en texto, listo para imprimir. ¿Tienes dos minutos? Te alcanzan.
+- Tres reglas no se negocian: uno a la vez, pies por delante y llegada libre antes de la siguiente bajada.
+- Casi todo se controla desde la entrada; la llegada se vigila desde un costado de la salida.
+- Los turnos se arman por tamaño y edad, dentro del rango del modelo.
+- Subir por la rampa de bajada es la falta más peligrosa: provoca choques de frente.
+- Al final tienes un cartel en texto, listo para imprimir y pegar junto a la entrada.
 
-> **Respuesta rápida:** Las reglas para tobogán inflable son: uno a la vez, sentado y con los pies por delante, bajar sólo cuando el anterior salió de la llegada, sin zapatos, lentes ni objetos, turnos por edad, nadie sube por la rampa de bajada y un adulto a un lado de la salida. Aplican igual en el [tobogán por la popa del Barco Pirata](/inflables/barco-pirata/) y en cualquier modelo con tobogán.
+Cinco niños en la fila, uno ya arriba, otro todavía sentado en la llegada riéndose. El de arriba se avienta. Así de rápido pasa. Las reglas se explican en dos minutos, pero se rompen solas en cuanto nadie las vigila. Aquí las tienes con el motivo de cada una, para que puedas explicarlas a tus invitados y a los otros adultos sin sonar a regaño. Aplican igual en el [tobogán por la popa del Barco Pirata](/inflables/barco-pirata/) y en cualquier modelo con tobogán.
 
 ## ¿Por qué el tobogán necesita reglas distintas a las de un brincolín?
 
 Porque concentra a todos en un solo punto. En un brincolín los niños se reparten por la superficie; en un tobogán todos suben por el mismo lado, bajan por el mismo carril y llegan a la misma zona. Si dos coinciden en la llegada, chocan. Así de simple. Tú no puedes ver los dos extremos a la vez si nadie te ayuda.
 
-Además, el tobogán suma altura y velocidad: el Barco Pirata mide 3.80 m de alto, y quien baja por la popa llega con un impulso que no se frena con las manos ni con los talones. Las reglas no le quitan diversión al juego. Sólo cuidan que cada bajada termine en un lugar vacío, y eso te deja disfrutar la fiesta en lugar de pasarte la tarde gritando desde la mesa del pastel.
+Además, el tobogán suma altura y velocidad: el Barco Pirata mide 3.80 m de alto, y quien baja por la popa llega con un impulso que no se frena con las manos ni con los talones. Las reglas no le quitan diversión al juego. Solo cuidan que cada bajada termine en un lugar vacío, y eso te deja disfrutar la fiesta en lugar de pasarte la tarde gritando desde la mesa del pastel.
 
 ¿Todavía estás eligiendo entre un modelo de brinco y uno de deslizarse? La [comparativa entre brincolín clásico y tobogán inflable](/blog/brincolin-vs-tobogan-inflable-cdmx/) te explica en qué cambia el uso. Las reglas generales para cualquier inflable están en la [guía de seguridad para inflables en fiestas infantiles](/blog/seguridad-inflables-fiestas-infantiles/). Aquí nos concentramos en tu tobogán.
 
@@ -127,6 +131,8 @@ Todo lo que pueda golpear, romperse o atorarse. Si tienes una caja o una manta, 
 - **Capas largas y accesorios duros.** Coronas, espadas y ganchos de pirata esperan en la caja.
 
 Ese último punto pesa en las fiestas temáticas. En una [fiesta de sirenas y piratas con el barco de escenario](/blog/fiesta-de-sirenas-y-piratas-con-inflable/), todos quieren subir con el disfraz completo. La capa y la espada esperan afuera. Si se lo dices desde la invitación, nadie llora.
+
+![Caja de cartón junto a la entrada de un inflable en un jardín, con zapatos infantiles, lentes y una capa de disfraz dentro](/img/blog/reglas-de-uso-tobogan-inflable-ninos/escena-1.avif "Una caja a la vista del adulto evita que zapatos y accesorios entren al tobogán.")
 
 ## ¿Cómo se arman los turnos por edad y tamaño?
 
@@ -206,6 +212,8 @@ Según el tipo de espacio:
 
 Revisa también el sol. A mediodía la superficie del tobogán puede calentarse; tócala con la palma antes del primer turno y, si está muy caliente, pausa los turnos hasta que le dé sombra.
 
+![Adulto de espaldas parado a un costado de la salida de un tobogán inflable en un jardín amplio, con el pasto libre frente a la llegada](/img/blog/reglas-de-uso-tobogan-inflable-ninos/escena-2.avif "La llegada del tobogán va hacia el lado más despejado, lejos de mesas y caminos.")
+
 ### El niño que no quiere bajar
 
 En casi todas las fiestas hay uno que sube, ve la altura y se queda congelado arriba. No lo presiones ni dejes que los demás lo empujen. Pausa el turno, pídele que se siente y, si no quiere bajar, que regrese por la subida mientras el adulto de la entrada lo guía desde fuera. Es la única excepción a la regla de la subida, y se hace con el tobogán vacío. Si tu hijo es de los que se asustan, revisa las ideas para [niños tímidos o con miedo al inflable](/blog/inflable-para-ninos-timidos-o-con-miedo/).
@@ -224,7 +232,7 @@ El Barco Pirata, con el tobogán detrás del mástil, es el de mayor impacto vis
 
 Todos están en la [categoría de inflables con tobogán](/inflables/toboganes/). Si dudas entre los dos grandes, la [comparativa por espacio, altura y tipo de fiesta](/blog/barco-pirata-o-extremo-inflables-grandes/) te ayuda. Y si tu fiesta será fuera de casa, revisa cómo [preparar una quinta o un jardín de eventos para el inflable](/blog/fiesta-en-quinta-o-jardin-de-eventos-edomex/), porque ahí la llegada suele quedar cerca de mesas y caminos.
 
-## Aparta tu inflable con tobogán y llega con las reglas listas
+## ¿Cómo apartar tu inflable con tobogán?
 
 Los fines de semana se llenan y la disponibilidad se confirma por WhatsApp. ¿Ya tienes fecha? Apártala hoy. Así imprimes tu cartel con calma y asignas a los adultos antes del día. Para cotizarte rápido, mándanos:
 
@@ -234,6 +242,6 @@ Los fines de semana se llenan y la disponibilidad se confirma por WhatsApp. ¿Ya
 - **Edades y número aproximado de niños**, para armar turnos y confirmar capacidad.
 - **Altura libre** medida donde iría el inflable.
 
-La fecha se aparta con el 50% de anticipo. El precio es por evento, neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Antes de apartar, usa la lista para medir el espacio de un inflable alto, revisa la [cobertura y el traslado por zona](/cobertura/) y compara el [precio neto de los ocho inflables](/precios/).
+La fecha se aparta con el 50% de anticipo. El precio es por evento, neto, con instalación y recolección incluidas; si necesitas factura se agrega 16% de IVA, y el traslado se cobra según zona. Antes de apartar, confirma que el modelo cabe con la [tabla de medidas de inflables](/blog/medidas-de-inflables-para-fiestas-tabla/), revisa la [cobertura y el traslado por zona](/cobertura/) y compara el [precio neto de los ocho inflables](/precios/).
 
 Llena la [cotización en línea con tu fecha y tu espacio](/cotizar/) o [escríbenos por WhatsApp para apartar](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20apartar%20el%20Barco%20Pirata%20con%20tobogan%20para%20mi%20fiesta).

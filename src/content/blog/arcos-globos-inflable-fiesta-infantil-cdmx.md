@@ -1,17 +1,18 @@
 ---
-title: "Arcos de Globos e Inflables para Fiestas en CDMX"
-description: "Combina arcos de globos e inflables en fiestas infantiles en CDMX. Temas, paletas de color, distribución de espacios y tips de instalación."
-excerpt: "El secreto de las fiestas infantiles más fotografiadas en CDMX: combinar un inflable llamativo con la decoración de globos correcta. Aprende a coordinar colores, distribuir el espacio y lograr esas fotos que los papás siempre sueñan."
+title: "Arcos de globos e inflables: cómo combinarlos en tu fiesta"
+h1: "Arcos de globos e inflables: cómo combinarlos en una fiesta infantil en CDMX"
+description: "Aprende a combinar arcos de globos con un inflable: colores por modelo, acomodo del espacio, orden de instalación y presupuesto. Cotiza tu evento completo."
+excerpt: "Las fiestas infantiles más fotografiadas en CDMX combinan un inflable llamativo con una decoración de globos bien coordinada. Aquí verás cómo elegir colores, distribuir el espacio y planear las fotos que más se buscan."
 publishDate: "2026-06-03"
 updatedDate: "2026-11-04"
 category: "Decoración"
 author: "Equipo BRINCOLINS"
-readTime: "17 min"
-heroImage: "/img/blog/blog-decoracion-fiesta-infantil-inflable.avif"
-heroImageAlt: "Arcos de globos e inflable para fiesta infantil en CDMX"
+readTime: "14 min"
+heroImage: "/img/blog/arcos-globos-inflable-fiesta-infantil-cdmx/portada.avif"
+heroImageAlt: "Arco de globos en tonos pastel en la entrada de un jardín preparado para una fiesta infantil"
 intro:
-  - "Organizar una fiesta infantil en la **Ciudad de México** que se vea increíble no requiere un presupuesto millonario — requiere saber combinar los elementos correctos. Y la combinación que más impacto visual genera, a cualquier presupuesto, es un **inflable temático + arcos y decoración de globos** coordinados. El resultado: una fiesta que parece de revista y que los niños recordarán por años."
-  - "En **BRINCOLINS**, con más de 20 años rentando inflables en CDMX y Estado de México, hemos visto de cerca cómo esta combinación transforma cualquier jardín o salón en un espacio mágico. Y nuestros aliados de decoración, DEGLOB (Fantasy Globos), son especialistas en arcos orgánicos, backdrops de globos y decoración completa para fiestas en CDMX. Juntos cubrimos todo lo que tu fiesta necesita: la diversión con nuestro [catálogo de inflables](/inflables/) y el impacto visual con su magia en globos."
+  - "Una fiesta infantil en la **Ciudad de México** puede verse muy bien sin un presupuesto enorme. Lo que hace la diferencia es combinar bien los elementos, y la combinación con más impacto visual, a cualquier presupuesto, es un **inflable temático con arcos y decoración de globos** coordinados."
+  - "En **BRINCOLINS** llevamos más de 20 años rentando inflables en CDMX y Estado de México, y hemos visto cómo esta combinación cambia cualquier jardín o salón. Nuestros aliados de decoración, DEGLOB (Fantasy Globos), se especializan en arcos orgánicos, backdrops de globos y decoración completa para fiestas en CDMX. Entre los dos cubrimos la diversión, con nuestro [catálogo de inflables](/inflables/), y el impacto visual, con su trabajo en globos."
 tags:
   - "renta inflables CDMX"
   - "arcos de globos fiesta infantil"
@@ -19,28 +20,38 @@ tags:
   - "inflables y globos combinados"
 faqs:
   - question: "¿Puedo coordinar la renta del inflable y la decoración de globos en un solo paquete?"
-    answer: "Sí. BRINCOLINS y DEGLOB (Fantasy Globos) son aliados, por lo que puedes cotizar ambos servicios de forma coordinada. Escríbenos por WhatsApp al 5531281706 y te conectamos con el equipo de decoración para armar tu evento completo."
+    answer: "Sí. BRINCOLINS y DEGLOB (Fantasy Globos) son aliados, así que puedes cotizar ambos servicios de forma coordinada. Escríbenos por WhatsApp al 5531281706 y te conectamos con el equipo de decoración para armar el evento completo."
   - question: "¿Cuánto tiempo antes del evento deben llegar a instalar los globos y el inflable?"
-    answer: "El inflable generalmente se instala 1-2 horas antes del inicio del evento. Los arcos de globos, dependiendo del tamaño, requieren entre 1 y 3 horas de instalación. Se recomienda que el inflable llegue primero para que la decoración de globos se diseñe alrededor de él, sin interferir en el acceso."
+    answer: "El montaje del inflable toma de 15 a 30 minutos, pero conviene que llegue con margen antes del inicio. Los arcos de globos requieren de 1 a 3 horas según su tamaño. Programa primero el inflable para que la decoración se acomode a su alrededor sin bloquear el acceso."
   - question: "¿Los globos de látex se dañan si están cerca del inflable encendido?"
-    answer: "No representan riesgo si se instalan correctamente. El motor soplador del inflable genera algo de calor pero no lo suficiente para afectar los globos a distancia normal. Lo importante es no pegar globos directamente sobre la superficie del inflable en movimiento. Un decorador profesional como DEGLOB sabe exactamente cómo posicionarlos con seguridad."
+    answer: "No, si se instalan correctamente. El motor soplador genera algo de calor, pero no lo suficiente para afectar globos colocados a una distancia normal. Lo que sí debe evitarse es pegar globos sobre la superficie del inflable mientras los niños juegan."
   - question: "¿Puedo poner guirnaldas de globos colgadas encima del inflable en un salón?"
-    answer: "Solo si sobra altura. Cada modelo pide una altura libre mínima (por ejemplo 3.2 m el Castillo Baby y 4.2 m el Castillo de Princesas) y lo que cuelgue del techo resta espacio. Si el techo queda justo, cuelga las guirnaldas sobre las mesas de adultos y deja libre la zona del inflable."
+    answer: "Solo si sobra altura. Cada modelo pide una altura libre mínima (por ejemplo, 3.2 m el Castillo Baby y 4.2 m el Castillo de Princesas) y lo que cuelgue del techo resta espacio. Si el techo queda justo, cuelga las guirnaldas sobre las mesas de adultos."
   - question: "¿Qué inflable combina mejor con un arco pequeño en un patio angosto?"
     answer: "Los compactos: Castillo Baby (2.5 × 2 m, de 1 a 3 años) o Gusanitos (5 × 3 m, de 2 a 8 años). Así el arco puede ir en la puerta sin estorbar la salida del inflable. El espacio exacto se confirma al cotizar."
 ---
 
-## Son las 11 de la mañana en un jardín en Tlalpan
+Para combinar arcos de globos con un inflable, elige primero el inflable según el espacio y la edad del festejado, y define la paleta de globos a partir de sus colores. Coloca el arco en la entrada, lejos de la salida del inflable, instala el inflable antes que los globos y no cuelgues decoración sobre la zona de juego.
 
-El arco de globos todavía huele a latex fresco. Los tonos rosas y lilas del arco orgánico se curvan sobre la entrada del jardín, y a unos diez metros, el [Castillo de Princesas](/inflables/castillo-princesas/) de BRINCOLINS lleva media hora encendido — ese sonido suave y constante del motor soplador que ya conocemos tan bien después de tantos eventos. Los primeros niños que van llegando se detienen a mitad del camino. No saben a dónde mirar primero: si al arco que los enmarca como si entraran a un cuento de hadas, o al castillo inflable rosado que los espera al fondo del jardín, brillando bajo el sol de la mañana.
+**Puntos clave**
 
-Cuando nuestro equipo llega a una fiesta y ya hay un arco de DEGLOB instalado en la entrada, sabemos que va a ser una fiesta de primer nivel. No porque el arco sea caro — muchas veces no lo es — sino porque la familia tomó una decisión de coordinación que lo cambia todo: decidieron que el inflable y la decoración iban a hablar el mismo idioma visual. Esa decisión, que parece pequeña, es la diferencia entre una fiesta que se ve improvisada y una que parece de producción profesional.
+- El inflable define la paleta: los globos se eligen a partir de sus colores, no al revés.
+- Divide el espacio en cuatro zonas: juego, entrada, mesa de pastel y mesas de adultos.
+- El inflable se instala primero (el montaje toma de 15 a 30 minutos) y el decorador llega después.
+- Deja al menos 1.5 m despejados frente a la salida del inflable.
+- Si el presupuesto es limitado, invierte primero en el arco de entrada.
 
-Hemos estado en cientos de eventos en colonias de toda la ciudad — Coyoacán, Jardines de la Montaña, Satélite, Ecatepec, Polanco, Huixquilucan — y la fórmula se repite con una consistencia que ya no nos sorprende pero sí nos sigue alegrando: inflable temático más arcos de globos coordinados igual a las fiestas más fotografiadas, las más comentadas y las que los niños siguen mencionando meses después.
+## ¿Por qué funciona combinar arco de globos e inflable?
 
-## Tabla de combinaciones: qué globos van con qué inflable
+Son las 11 de la mañana en un jardín de Tlalpan. El arco de globos todavía huele a látex fresco. Los tonos rosas y lilas del arco orgánico se curvan sobre la entrada, y a unos diez metros el [Castillo de Princesas](/inflables/castillo-princesas/) de BRINCOLINS lleva media hora encendido, con ese sonido suave y constante del motor soplador que conocemos tan bien. Los primeros niños se detienen a mitad del camino. No saben a dónde mirar primero: al arco que los enmarca como si entraran a un cuento o al castillo rosado que los espera al fondo del jardín.
 
-La clave para que la decoración se vea profesional es la coordinación de colores y temática. En nuestra experiencia, los errores más comunes no ocurren porque alguien eligió mal un inflable o malos globos — ocurren porque eligieron ambos por separado, sin verse. La paleta del arco de DEGLOB y los colores del inflable de BRINCOLINS deben diseñarse juntos desde el inicio, como si fueran una sola instalación. Aquí te presentamos las combinaciones más exitosas que hemos visto en eventos reales:
+Cuando nuestro equipo llega a una fiesta y ya hay un arco de DEGLOB en la entrada, sabemos que va a salir muy bien. No porque el arco sea caro, que muchas veces no lo es, sino porque la familia tomó una decisión de coordinación: el inflable y la decoración iban a hablar el mismo idioma visual. Esa decisión, que parece pequeña, separa una fiesta que se ve improvisada de una que parece producida por profesionales.
+
+Hemos estado en cientos de eventos en toda la ciudad, de Coyoacán, Jardines de la Montaña y Polanco a Satélite, Ecatepec y Huixquilucan, y la fórmula se repite: inflable temático más arcos de globos coordinados da las fiestas más fotografiadas, las más comentadas y las que los niños siguen mencionando meses después.
+
+## ¿Qué colores de globos van con cada inflable?
+
+La decoración se ve profesional cuando colores y temática están coordinados. En nuestra experiencia, los errores más comunes no vienen de elegir mal el inflable o los globos, sino de elegirlos por separado, sin verse. La paleta del arco de DEGLOB y los colores del inflable de BRINCOLINS deben diseñarse juntos desde el inicio, como una sola instalación. Estas son las combinaciones que mejor han funcionado en eventos reales:
 
 | Inflable BRINCOLINS | Tema sugerido | Colores de globos | Tipo de decoración recomendada |
 |---|---|---|---|
@@ -48,84 +59,78 @@ La clave para que la decoración se vea profesional es la coordinación de color
 | [Dragones Rojos](/inflables/dragones-rojos/) | Dragones / Fantasía épica | Rojo, negro, dorado, naranja | Columnas de globos + guirnalda |
 | [Barco Pirata](/inflables/barco-pirata/) | Piratas del Caribe | Azul marino, negro, rojo, dorado | Arco orgánico + fondo de tela |
 | [Jungla](/inflables/mini-jungla/) | Safari / Animales | Verde, amarillo, café, naranja | Globos orgánicos + palmeras |
-| [Gusanitos](/inflables/gusanitos/) | Bugs / Naturaleza | Verde, rojo, amarillo, azul | Garland colorida + centros mesa |
-| [Castillo Baby](/inflables/mini-castillo/) (1-3 años) | Realeza / Medieval | Azul, dorado, rojo, plateado | Arco de entrada + columnas |
-| Extremo | Deportes / Aventura | Rojo, azul, amarillo, verde | Globos cromados + banderines |
+| [Gusanitos](/inflables/gusanitos/) | Bichos / Naturaleza | Verde, rojo, amarillo, azul | Guirnalda colorida + centros de mesa |
+| [Castillo Baby](/inflables/mini-castillo/) (1 a 3 años) | Realeza / Medieval | Azul, dorado, rojo, plateado | Arco de entrada + columnas |
+| [Extremo](/inflables/extremo/) | Deportes / Aventura | Rojo, azul, amarillo, verde | Globos cromados + banderines |
 | [Castillo Blanco](/inflables/castillo-blanco/) | Elegancia / Boda infantil | Blanco, plateado, rosa pastel | Arco minimalista + flores |
 
-Esta tabla es un punto de partida. Los especialistas de DEGLOB (Fantasy Globos) pueden personalizar cualquier combinación según el tema, el espacio y tu presupuesto. Antes de elegir el inflable conviene revisar dos cosas: la edad del festejado y los metros libres que tienes, criterios que desarrollamos en la [guía para elegir el inflable perfecto](/blog/como-elegir-inflable-fiesta-infantil/).
+Esta tabla es un punto de partida. Los especialistas de DEGLOB (Fantasy Globos) pueden personalizar cualquier combinación según el tema, el espacio y tu presupuesto. Antes de elegir el inflable conviene revisar la edad del festejado y los metros libres que tienes, criterios que desarrollamos en la [guía para elegir inflable según edad y espacio](/blog/como-elegir-inflable-fiesta-infantil/).
 
-## Cómo dividir el espacio: cuatro zonas que cambian todo
+## ¿Cómo distribuir el espacio entre inflable y globos?
 
-Una de las preguntas que más nos hacen los papás cuando empiezan a planear es cómo distribuir el espacio para que el inflable y la decoración de globos coexistan sin estorbarse. Después de dos décadas montando fiestas, tenemos una respuesta clara: hay que pensar en el espacio como si tuviera cuatro zonas con funciones distintas. Cuando cada elemento va a su zona, la fiesta fluye sola. Cuando los elementos se mezclan sin plan, el caos llega antes que los invitados.
+Una de las preguntas más frecuentes de los papás es cómo acomodar el inflable y la decoración de globos sin que se estorben. Después de dos décadas montando fiestas, la respuesta es clara: piensa el espacio en cuatro zonas con funciones distintas. Cuando cada elemento va en su zona, la fiesta fluye sola; cuando se mezclan sin plan, el desorden llega antes que los invitados.
 
-La primera vez que le explicamos este sistema a una familia en un jardín de Pedregal — no sabían cómo acomodar el inflable grande que habían pedido junto con el arco de entrada y la mesa de pastel — la mamá nos dijo que nadie le había dicho eso antes en cinco años de organizar fiestas. Ahora lo aplicamos en todos los eventos y la diferencia es inmediata.
+La primera vez que explicamos este sistema a una familia en un jardín del Pedregal, no sabían cómo acomodar el inflable grande que habían pedido junto con el arco de entrada y la mesa de pastel. La mamá nos dijo que en cinco años organizando fiestas nadie se lo había explicado así. Desde entonces lo aplicamos en todos los eventos y la diferencia se nota de inmediato.
 
-### Zona 1: El inflable (zona de juego activo)
+### Zona 1: el inflable (juego activo)
 
-El inflable debe ocupar el área más amplia y despejada del espacio disponible. Cada modelo requiere un área libre que confirmamos al cotizar. El motor soplador se coloca a un costado, con acceso a una toma de 110V.
+El inflable ocupa el área más amplia y despejada del espacio. Cada modelo requiere un área libre que confirmamos al cotizar, y sus medidas exactas están en la [tabla de medidas de inflables](/blog/medidas-de-inflables-para-fiestas-tabla/). El motor soplador va a un costado, con acceso a una toma de 110 V a menos de 20 m.
 
-La decoración de globos en esta zona debe ser perimetral y elevada: guirnaldas colgadas en las paredes o postes a más de 2 metros de altura, o columnas de globos en los extremos del área, nunca en el centro ni bloqueando el acceso al inflable. Los globos y los niños corriendo a toda velocidad no son buena combinación cuando están al mismo nivel.
+La decoración de globos en esta zona debe ser perimetral y elevada: guirnaldas en paredes o postes a más de 2 metros de altura, o columnas de globos en los extremos del área, nunca al centro ni bloqueando el acceso. Globos y niños corriendo a toda velocidad no combinan cuando están al mismo nivel.
 
-### Zona 2: La entrada y el arco de bienvenida
+### Zona 2: la entrada y el arco de bienvenida
 
-Esta es la zona de mayor impacto visual y la primera foto que todos toman. Un arco orgánico de globos en la entrada del jardín o salón, idealmente coordinado en colores con el inflable, establece el tono de toda la fiesta. El arco puede medir desde 1.5 metros para entradas pequeñas hasta 4-5 metros para espacios amplios.
+Es la zona de mayor impacto visual y la de la primera foto. Un arco orgánico en la entrada del jardín o salón, coordinado en colores con el inflable, marca el tono de toda la fiesta. El arco puede medir desde 1.5 metros para entradas pequeñas hasta 4 o 5 metros para espacios amplios.
 
-Si el presupuesto es limitado, invierte aquí antes que en cualquier otro elemento decorativo. Hemos visto fiestas con decoración mínima en las que un solo arco de entrada bien ejecutado cambió completamente la percepción del evento. Los invitados entran con otra energía. Los niños corren hacia adentro. Los papás sacan el teléfono antes de llegar al jardín.
+Si el presupuesto es limitado, invierte aquí antes que en cualquier otro elemento decorativo. Hemos visto fiestas con decoración mínima en las que un solo arco bien ejecutado cambió por completo la percepción del evento: los invitados entran con otra energía, los niños corren hacia adentro y los papás sacan el teléfono antes de llegar al jardín.
 
-### Zona 3: La mesa de pastel y dulces
+### Zona 3: la mesa de pastel y dulces
 
-Esta zona es el segundo foco de atención después del inflable. Aquí se recomienda un backdrop de globos — una pared de globos o estructura decorativa que sirve como fondo para las fotos del pastel y del festejado. Los especialistas de DEGLOB pueden armar backdrops desde $800 MXN que se ven espectaculares en fotografía.
+Es el segundo foco de atención después del inflable. Aquí se recomienda un backdrop de globos, es decir, una pared o estructura decorativa que sirve de fondo para las fotos del pastel y del festejado. Los especialistas de DEGLOB arman backdrops desde $800 MXN que se ven muy bien en fotografía.
 
-Coloca esta zona a una distancia visual del inflable para que en las fotos amplias aparezcan ambos elementos en el mismo encuadre. Esa composición — backdrop al fondo, pastel en primer plano, inflable visible a un lado — es la foto que los papás siempre quieren y que pocas veces logran cuando no se planeó la distribución desde el inicio.
+Coloca esta zona de modo que, en una foto amplia, aparezcan ambos elementos en el mismo encuadre: backdrop al fondo, pastel en primer plano e inflable visible a un lado. Es la foto que los papás siempre quieren y que pocas veces logran cuando la distribución no se planeó desde el inicio.
 
-### Zona 4: Las mesas de adultos y el área de descanso
+### Zona 4: las mesas de adultos y el área de descanso
 
-Aquí la decoración puede ser más sutil: centros de mesa con globos en los colores de la temática, guirnaldas de letras o números con la edad del festejado, servilleteros temáticos. No es necesario saturar esta zona. En nuestra experiencia, los adultos prefieren visibilidad hacia donde están los niños y comodidad para sentarse sobre cualquier exceso decorativo.
+Aquí la decoración puede ser más sutil: centros de mesa con globos en los colores de la temática, guirnaldas de letras o números con la edad del festejado, servilleteros temáticos. No hace falta saturar. En nuestra experiencia, los adultos prefieren ver bien a los niños y sentarse cómodos antes que cualquier exceso decorativo.
 
-## Los 5 temas más fotografiados en fiestas infantiles CDMX 2026
+![Jardín con mesas, sillas y arco de globos en la entrada, con la zona de juego despejada al fondo](/img/blog/arcos-globos-inflable-fiesta-infantil-cdmx/escena-1.avif "Cada elemento en su zona: arco en la entrada, mesas a un lado y el área de juego libre")
 
-Basados en las fiestas que hemos servido en los últimos meses, estos son los temas que más aparecen en las solicitudes de familias de la Ciudad de México:
+## ¿Qué temas se fotografían más en fiestas infantiles de CDMX?
 
-1. **Dinosaurios y mundo jurásico** — inflable de jungla o extremo, globos en verde, café y rojo con globos con forma de dino
-2. **Unicornios y arcoíris** — cualquier castillo claro, globos en toda la paleta del arcoíris con cromados rosados
-3. **Superheroes (Avengers o DC)** — [inflable extremo](/inflables/extremo/) o dragones rojos, globos en los colores del héroe favorito
-4. **Princesas Disney** — castillo de princesas, globos en azul cielo o rosa lila según el personaje
-5. **Safari y animales de la selva** — Jungla o Gusanitos, globos en verde, dorado y naranja con animales impresos
+Según las fiestas que hemos atendido en los últimos meses, estos son los temas que más piden las familias de la Ciudad de México. Si buscas más opciones, revisa las [tendencias de temáticas para fiesta infantil](/blog/tematicas-fiesta-infantil-tendencias-2027/).
 
-Para cada uno de estos temas, DEGLOB tiene experiencia ejecutando decoraciones completas que coordinan perfectamente con los inflables de BRINCOLINS.
+1. **Dinosaurios y mundo jurásico:** inflable Jungla o Extremo, globos en verde, café y rojo, con globos en forma de dinosaurio.
+2. **Unicornios y arcoíris:** cualquier castillo de tonos claros, globos en toda la paleta del arcoíris con cromados rosados.
+3. **Superhéroes (Avengers o DC):** Extremo o Dragones Rojos, globos en los colores del héroe favorito.
+4. **Princesas Disney:** Castillo de Princesas, globos en azul cielo o rosa lila según el personaje.
+5. **Safari y animales de la selva:** Jungla o Gusanitos, globos en verde, dorado y naranja con animales impresos.
 
-## Tips de instalación: lo que aprendimos de años en campo
+DEGLOB tiene experiencia con decoraciones completas para cada uno de estos temas, coordinadas con los inflables de BRINCOLINS.
 
-La coordinación logística es tan importante como el diseño visual. Hay una verdad que solo se aprende estando en la fiesta: dos proveedores trabajando en el mismo espacio sin coordinación previa crean el doble de estrés para la familia. Estos son los tips que aprendimos después de trabajar cientos de veces con decoradores en el mismo evento:
+## ¿En qué orden se instalan el inflable y los globos?
 
-**El inflable llega primero:** siempre programa la instalación del inflable 30-60 minutos antes de que lleguen los decoradores. Así la decoración de globos se diseña a su alrededor, no al revés. Hemos visto lo que pasa cuando es al revés — el arco de entrada queda exactamente donde necesita ir el cable del motor y hay que desarmarlo todo.
+La logística pesa tanto como el diseño. Hay algo que solo se aprende estando en la fiesta: dos proveedores trabajando en el mismo espacio sin coordinarse generan el doble de estrés para la familia. Este es el orden que funciona después de trabajar cientos de veces con decoradores en el mismo evento:
 
-**Define los cables antes de decorar:** el cable de extensión del motor soplador debe estar oculto o cubierto antes de que lleguen los globos. Moverlo después de que los globos están colocados es garantía de que algo se rompe o se mueve de lugar.
+1. **El inflable llega primero.** Programa su instalación 30 a 60 minutos antes que los decoradores, para que la decoración se diseñe a su alrededor y no al revés. Cuando sucede al revés, el arco suele quedar justo donde debe pasar el cable del motor y hay que desarmarlo.
+2. **Define el recorrido de los cables antes de decorar.** La extensión del motor soplador debe quedar oculta o cubierta antes de que lleguen los globos. Moverla después casi siempre rompe o desacomoda algo.
+3. **Avisa dónde van los anclajes.** El inflable se ancla con sacos de arena o estacas según el piso. Informa al decorador para que no coloque arcos donde irán los anclajes.
+4. **Deja un pasillo de salida.** Nunca decores bloqueando la salida del inflable: debe haber un camino despejado de al menos 1.5 metros, siempre.
+5. **Elige el globo según el sol.** Los globos de mylar (metálicos) duran más y resisten mejor el calor. En exteriores, prefiérelos sobre el látex en zonas expuestas al sol de mediodía.
+6. **Confirma horarios 48 horas antes.** Un mensaje de confirmación entre ambos proveedores la tarde anterior evita casi todos los problemas logísticos que hemos visto. Si vas a coordinar más de dos proveedores, la [guía para coordinar proveedores en una fiesta infantil](/blog/coordinacion-proveedores-fiesta-infantil-cdmx/) tiene el cronograma completo.
 
-**Comunica el peso de anclaje:** el inflable se ancla con sacos de arena o estacas según el piso. Informa al decorador para que no coloque arcos en zonas donde irán los anclajes. Un arco hermoso sobre un anclaje que necesita moverse es un problema evitable.
+> **Desde el campo:** el error que más se repite no es de decoración ni de inflable, es de secuencia. Cuando ambos proveedores llegan al mismo tiempo sin saber quién va primero, la tensión se siente y la familia la vive. La solución es simple: el inflable llega antes y el decorador sabe a qué hora entra. Escríbelo en un chat con ambos, con la hora exacta.
 
-**Deja pasillo de emergencia:** nunca decores bloqueando la salida del inflable. Debe haber un camino despejado de al menos 1.5 metros desde la salida, siempre, sin excepción.
+## ¿Qué fotos conviene planear desde el acomodo?
 
-**Globos de mylar vs. latex:** los globos de mylar (metálicos) duran más y resisten mejor el calor del sol. Para exteriores, préfierlos sobre el latex en zonas expuestas directamente al sol de mediodía.
+Las redes sociales cambiaron lo que significa una fiesta exitosa. Hay encuadres que los papás siempre buscan, y todos son fáciles de conseguir si el espacio está bien distribuido desde el principio.
 
-**Confirma los horarios 48 horas antes:** una llamada o mensaje de confirmación entre ambos proveedores la tarde anterior al evento evita casi todos los problemas logísticos que hemos visto en dos décadas de trabajo. Si vas a coordinar más de dos proveedores, la [guía para coordinar proveedores en una fiesta infantil](/blog/coordinacion-proveedores-fiesta-infantil-cdmx/) tiene el timeline completo.
+- **El festejado frente al arco de entrada.** Es la más pedida: el niño o la niña en primer plano y el arco enmarcando la escena. En exteriores, la mejor luz natural suele estar entre las 10 y las 12 del día.
+- **La vista general del jardín.** Se toma desde una silla o escalera en el extremo opuesto al inflable y captura toda la fiesta, con el inflable al fondo y los globos en primer plano. Si las cuatro zonas están bien definidas, sale bien sin esfuerzo.
+- **El grupo de niños en el inflable.** Requiere un adulto que los organice desde la entrada. Los globos de fondo hacen que la foto se vea profesional incluso con un teléfono normal.
+- **El pastel con el backdrop.** Con buena luz de frente, cualquier foto del pastel se ve como de revista.
 
-> **Desde el campo:** el error que más se repite no es de decoración ni de inflable — es de secuencia. Cuando ambos proveedores llegan al mismo tiempo sin saber quién va primero, la tensión se siente y la familia lo vive. La solución es simple: el inflable siempre llega antes, y el decorador sabe que llegará después. Escríbelo en el chat con ambos, con hora exacta.
-
-## Las fotos que los papás siempre quieren lograr
-
-Las redes sociales han redefinido lo que significa organizar una fiesta exitosa. Hay encuadres específicos que los papás siempre buscan, y la buena noticia es que todos son fáciles de conseguir si el espacio está bien distribuido desde el principio.
-
-La foto del festejado frente al arco de entrada es la más solicitada: el niño o niña en primer plano, el arco de globos enmarcando la escena. Requiere buena iluminación natural, idealmente entre las 10 AM y las 12 PM en exteriores.
-
-La foto aérea del jardín completo se toma desde una silla o escalera en el extremo opuesto al inflable. Captura la distribución completa de la fiesta con el inflable al fondo y la decoración de globos en primer plano. Si las cuatro zonas están bien definidas, esta foto se ve espectacular sin esfuerzo.
-
-La foto del grupo de niños en el inflable requiere un asistente adulto dentro del inflable para organizarlos. Los globos de fondo hacen que la foto se vea profesional incluso con un teléfono normal.
-
-La foto del pastel con el backdrop, con buena iluminación de frente, convierte cualquier imagen del pastel en algo que parece de revista.
-
-## Si la fiesta es bajo techo: altura del inflable y del arco
+## ¿Qué altura necesitas si la fiesta es bajo techo?
 
 En salón, cochera techada o terraza con lona, el límite es el techo. Cada inflable pide una altura libre mayor a la suya:
 
@@ -138,7 +143,7 @@ En salón, cochera techada o terraza con lona, el límite es el techo. Cada infl
 
 Mide el techo en su punto más bajo (vigas, lámparas) y descuenta lo que vaya colgado. El arco de entrada no compite por altura, pero las guirnaldas sobre la zona de juego sí: si el techo queda justo, cuélgalas sobre las mesas de adultos.
 
-En temporada de lluvias (junio a septiembre en el Valle de México) conviene tener un plan B techado o decidir con tiempo entre salón y casa. Ese análisis está desarrollado en [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/), y si tu único espacio libre está arriba, revisa primero [qué checar antes de subir un inflable a la azotea](/blog/inflable-en-azotea-que-revisar-cdmx/).
+En temporada de lluvias (junio a septiembre en el Valle de México) conviene tener un plan B techado o decidir con tiempo entre salón y casa. Ese análisis está en [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/), y si tu único espacio libre está arriba, revisa primero [qué checar antes de subir un inflable a la azotea](/blog/inflable-en-azotea-que-revisar-cdmx/).
 
 ## Checklist para que globos e inflable no choquen el día de la fiesta
 
@@ -146,11 +151,11 @@ Envía esta lista a ambos proveedores una semana antes:
 
 - Foto o croquis del espacio con medidas reales (largo, ancho y, si es techado, alto).
 - Ubicación del contacto eléctrico para el motor y por dónde pasará la extensión.
-- Hora de llegada del inflable y hora de llegada del decorador, por escrito.
+- Hora de llegada del inflable y del decorador, por escrito.
 - Zona exacta del arco de entrada, lejos de la salida del inflable.
 - Paleta de colores confirmada con una foto del inflable elegido.
 
-**Al cotizar el inflable pregunta:** cargo de traslado a tu zona, espacio libre que pide el modelo y si necesitas factura (el IVA se suma solo entonces). El montaje toma de 15 a 30 minutos.
+**Al cotizar el inflable pregunta:** el cargo de traslado a tu zona, el espacio libre que pide el modelo y si necesitas factura (el 16 % de IVA se suma solo en ese caso). El montaje toma de 15 a 30 minutos.
 
 ## Patios, azoteas y salones del oriente y norte de la ciudad
 
@@ -160,22 +165,24 @@ En Iztacalco, donde abundan los salones de eventos y las unidades habitacionales
 
 Gustavo A. Madero es muy amplia, con jardines grandes y patios chicos; ajusta el tamaño del arco al de la entrada. Consulta cómo llegamos a [Gustavo A. Madero y sus colonias](/cobertura/gustavo-a-madero/).
 
-## Ventajas de contratar ambos servicios de forma coordinada
+## ¿Conviene contratar inflable y decoración de forma coordinada?
 
-Contratar el inflable con BRINCOLINS y la decoración con DEGLOB de manera coordinada ofrece ventajas que van más allá del ahorro de tiempo. La más importante, en nuestra experiencia, es el diseño coherente: cuando ambos proveedores coordinan, la paleta de colores y la temática se alinean desde el principio. No hay sorpresas de último minuto cuando el decorador ve que el inflable es de un tono distinto al que esperaba — eso pasa más seguido de lo que uno creería cuando cada proveedor se contrata por separado sin comunicación entre ellos.
+Sí, y no solo por ahorrar tiempo. La ventaja principal es un diseño coherente: cuando ambos proveedores se coordinan, la paleta y la temática se alinean desde el principio. No hay sorpresas de último minuto cuando el decorador descubre que el inflable es de otro tono, algo que pasa más seguido de lo que parece cuando cada proveedor se contrata por separado.
 
-También hay un beneficio real en la logística simplificada: un solo punto de coordinación para las preguntas sobre horarios, accesos y permisos del lugar. Y cuando algo cambia de último minuto — el espacio, la hora, el número de invitados — ambos proveedores se enteran al mismo tiempo y se adaptan en conjunto, sin que la familia tenga que hacer la misma llamada dos veces.
+La logística también se simplifica: un solo punto de coordinación para horarios, accesos y permisos del lugar. Y si algo cambia a última hora (el espacio, la hora o el número de invitados), ambos proveedores se enteran al mismo tiempo y se adaptan juntos, sin que la familia tenga que hacer la misma llamada dos veces.
 
-## Presupuesto orientativo: cuánto cuesta la combinación completa
+## ¿Cuánto cuesta la combinación de inflable y globos?
 
-Para que puedas planear con claridad, aquí un rango de presupuesto para diferentes escalas de evento:
+Este es un rango orientativo para distintas escalas de evento:
 
 | Tipo de evento | Inflable BRINCOLINS | Decoración DEGLOB | Total aproximado |
 |---|---|---|---|
-| Fiesta íntima (hasta 20 niños) | $1,400 - $2,600 MXN | $800 - $1,500 MXN | Se confirma al cotizar |
-| Fiesta mediana (20-50 niños) | $1,400 - $2,600 MXN | $1,500 - $3,000 MXN | Se confirma al cotizar |
-| Fiesta grande (+50 niños) | $1,400 - $2,600 MXN | $3,000 - $6,000 MXN | Se confirma al cotizar |
+| Fiesta íntima (hasta 20 niños) | $1,400 – $2,600 MXN | $800 – $1,500 MXN | Se confirma al cotizar |
+| Fiesta mediana (20 a 50 niños) | $1,400 – $2,600 MXN | $1,500 – $3,000 MXN | Se confirma al cotizar |
+| Fiesta grande (más de 50 niños) | $1,400 – $2,600 MXN | $3,000 – $6,000 MXN | Se confirma al cotizar |
 
-Los precios de inflables de BRINCOLINS incluyen instalación y retiro; el traslado se confirma según la zona. Están publicados modelo por modelo en la [página de precios](/precios/): son netos, con IVA solo si necesitas factura y cargo de envío según distancia en municipios lejanos de Edomex o en algunas alcaldías del sur y oriente de la CDMX. Para cotizar tu combinación personalizada, [pide tu cotización](/cotizar/) o escríbenos por WhatsApp al **5531281706** y te conectamos con el equipo de DEGLOB.
+Los precios de los inflables de BRINCOLINS incluyen instalación y retiro, y están publicados modelo por modelo en la [página de precios](/precios/). Son netos: el IVA se suma solo si necesitas factura, y el traslado depende de la zona (sin costo en varias colonias céntricas, con cargo en municipios lejanos de Edomex y en algunas alcaldías del sur y oriente). Para armar el resto del presupuesto de la fiesta, consulta [cuánto cuesta una fiesta infantil en CDMX](/blog/cuanto-cuesta-una-fiesta-infantil-cdmx-presupuesto/).
 
-Lo que aprendimos después de veinte años es que las fiestas que más recordamos no son las más caras — son las mejor planeadas. Un arco en la entrada, un inflable bien elegido para el espacio, colores que hablan el mismo idioma. Si quieres el panorama completo de la decoración, incluidos backdrops y mesa de dulces, está en la guía de [decoración completa para fiestas infantiles](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/). Nosotros ponemos el inflable y la experiencia; DEGLOB pone la magia visual. La fiesta que resulta de esa combinación es tuya.
+Después de veinte años, lo que más recordamos no son las fiestas más caras sino las mejor planeadas: un arco en la entrada, un inflable adecuado para el espacio y colores que hablan el mismo idioma. Si quieres el panorama completo, con backdrops y mesa de dulces, está en la guía de [decoración completa para fiestas infantiles](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/).
+
+**Siguiente paso:** [pide tu cotización](/cotizar/) o escríbenos por WhatsApp al **5531281706** (lunes a domingo, de 8:00 a 20:00) con la fecha, la zona y el inflable que te interesa, y te conectamos con el equipo de DEGLOB para coordinar la decoración.

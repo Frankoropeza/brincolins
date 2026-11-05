@@ -53,13 +53,17 @@ faqs:
     answer: "Lo suficiente para que el inflable quede nivelado y firme. Una inclinación leve puede resolverse; una pronunciada, no. Manda al cotizar fotos tomadas desde un costado del área para que se aprecie la pendiente y el instalador decida antes de la fecha."
 ---
 
-El equipo toca el timbre. Abres, señalas el fondo del patio y alguien pregunta: «¿Y esto es grava?». Ese momento se puede evitar.
+Un inflable se puede instalar sobre pasto natural, pasto sintético, cemento, concreto, adoquín o tierra compacta, siempre que el lugar sea plano, sin objetos punzantes y con una toma de 110 V a menos de 20 m. La grava no sirve. El [Dragones Rojos](/inflables/dragones-rojos/) pide 5 × 3 m de planta y 4.5 m de altura libre.
 
-Saber dónde instalar un inflable es la mitad de una buena renta. Tu piso define cómo se ancla. Tu altura libre define qué modelo cabe. Tu toma de corriente define dónde puede ir.
+**Puntos clave**
 
-Aquí tienes lo que se revisa, superficie por superficie, con el Dragones Rojos como ejemplo de inflable mediano. Te toma diez minutos y te ahorra una sorpresa el día de la fiesta.
+- En pasto y tierra se ancla con estacas; en cemento, concreto y adoquín, con lastre o sacos.
+- La altura libre descarta más lugares que el piso: mide hasta la rama o el cable más bajo.
+- No riegues el pasto la noche anterior: el lodo complica el anclaje.
+- Avisa al cotizar si el piso es sintético o de cemento, para que el equipo lleve el anclaje correcto.
+- La instalación del Dragones Rojos toma unos 20 minutos con el área despejada.
 
-> **Respuesta rápida:** Para saber dónde instalar un inflable, empieza por el piso: sirven pasto natural, pasto sintético, cemento, concreto, adoquín o tierra compacta, siempre que el lugar sea exterior, plano y sin objetos punzantes, con una toma de 110 V a menos de 20 m. La grava no sirve. El Dragones Rojos pide 5 × 3 m de planta y 4.5 m de altura libre; revisa la [ficha con medidas del Dragones Rojos](/inflables/dragones-rojos/).
+El equipo toca el timbre, señalas el fondo del patio y alguien pregunta: «¿Y esto es grava?». Ese momento se puede evitar. Tu piso define cómo se ancla, tu altura libre define qué modelo cabe y tu toma de corriente define dónde puede ir. Aquí tienes lo que se revisa, superficie por superficie, con el Dragones Rojos como ejemplo de inflable mediano.
 
 ## ¿Dónde instalar un inflable mediano: qué revisas antes del piso?
 
@@ -147,6 +151,8 @@ Recórrela de lado a lado. Si sientes un hoyo, una raíz salida o un escalón, m
 
 Coladeras, registros y aspersores pueden quedar justo debajo del inflable. Márcalos con un objeto visible, como una cubeta o un cono, para que el instalador los vea en cuanto llega y los considere al acomodar el inflable sin que tengas que estar ahí explicándolo.
 
+![Jardín despejado y barrido con una cubeta marcando un aspersor, un rastrillo y una cinta métrica sobre el pasto](/img/blog/donde-instalar-inflable-pasto-cemento-tierra/escena-1.avif "Área barrida, desniveles revisados y aspersores marcados: así conviene recibir al equipo")
+
 ## ¿Cuánta distancia dejar a muros, árboles y cables?
 
 Necesitas la suficiente para que nada toque el inflable, para que un adulto camine alrededor y para que la entrada no quede contra una barda. El espacio libre exacto se confirma al cotizar. Lo que más descarta lugares, sin embargo, es la altura libre, no el suelo.
@@ -205,7 +211,7 @@ Cuenta la instalación en tu horario. Son veinte minutos. Si sigues un [horario 
 
 > **Lugar revisado, fecha apartada.** Dinos qué piso tienes, cuánta altura libre mediste y dónde está la toma, y te confirmamos si el Dragones Rojos entra. [Confirmar mi espacio por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20ya%20medi%20mi%20espacio%20y%20quiero%20cotizar%20la%20instalacion%20del%20Dragones%20Rojos)
 
-## El piso cambia según la zona: sur lacustre, pueblos de la montaña y el centro
+## ¿Cómo cambia el piso según la zona de la ciudad?
 
 El tipo de suelo no es igual en toda la ciudad. Conocer lo típico de tu zona te ayuda a revisar lo correcto antes de cotizar.
 
@@ -249,7 +255,7 @@ Si quieres evitar sorpresas, cuida sobre todo tres: medir el suelo y olvidar la 
 
 Con el lugar resuelto, puedes armar la fiesta alrededor del inflable: hay ideas para [montar un torneo de caballeros junto al castillo de dragones](/blog/fiesta-de-dragones-y-caballeros-ideas/). ¿Aún no eliges modelo? Compara [precio y medidas de los tres medianos de $1,600](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/), revisa si te conviene el [paquete con Dragones Rojos o Jungla](/servicios/paquetes-de-fiesta/) o explora los [modelos medianos del catálogo](/inflables/medianos/).
 
-## Aparta tu inflable con el lugar ya revisado
+## Siguiente paso: aparta tu inflable con el lugar ya revisado
 
 Con el piso, la altura libre y la toma confirmados, sólo te falta la fecha. Los fines de semana se llenan y la disponibilidad se confirma por WhatsApp. Para cotizar en una sola conversación, mándanos:
 

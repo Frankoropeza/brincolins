@@ -7,7 +7,7 @@ publishDate: "2026-11-04"
 updatedDate: "2026-11-04"
 category: "Guías"
 author: "Equipo BRINCOLINS"
-readTime: "12 min"
+readTime: "11 min"
 heroImage: "/img/blog/renta-inflable-gusanitos-cdmx/main.avif"
 heroImageAlt: "Inflable Gusanitos de colores, modelo de 5 × 3 m que suele caber en azoteas planas de casa"
 intro:
@@ -33,11 +33,17 @@ faqs:
     answer: "Los de huella más chica: Castillo Baby (2.5 × 2 m), Gusanitos, Jungla y Dragones Rojos (5 × 3 m). Los grandes como Barco Pirata, Extremo o Castillo Blanco piden mucho más espacio y una maniobra de subida más pesada; se confirman sólo con medidas y fotos."
 ---
 
-La azotea es el espacio libre más grande de muchas casas en la Ciudad de México y en los municipios conurbados. Es plana, está despejada la mayor parte del año y no compite con la sala ni con la cochera. Por eso tantas familias piensan en ella para el inflable.
+Sí puedes instalar un inflable en la azotea si la losa es plana, transitable y está despejada, si el equipo sube por un acceso razonable, si el área de juego queda lejos de pretiles y orillas y si hay un contacto doméstico a menos de 20 m. Manda medidas y fotos del acceso al [cotizar en línea](/cotizar/) y confirmamos antes del anticipo.
 
-Funciona, pero pide una revisión distinta a la de un jardín. En un patio la pregunta es si cabe. En una azotea hay cinco preguntas más: cómo se sube el equipo, qué tan cerca queda la orilla, sobre qué piso se apoya, de dónde sale la corriente y cuánto viento pega.
+**Puntos clave**
 
-> **Respuesta rápida:** un inflable en azotea se puede instalar si la superficie es plana, transitable y despejada, si el equipo puede subir por un acceso razonable, si el área de juego queda lejos de pretiles y orillas y si hay un contacto doméstico a menos de 20 m. Manda medidas y fotos del acceso al [cotizar en línea](/cotizar/) y te confirmamos antes de que pagues anticipo.
+- Lo primero es el acceso: si el equipo no sube por la escalera, lo demás no importa.
+- Las entradas y salidas del inflable miran al centro de la azotea, nunca a una orilla.
+- Domos, láminas y tragaluces no son superficie transitable: ahí no se instala.
+- Los modelos de huella chica (Castillo Baby, Gusanitos, Jungla, Dragones Rojos) se acomodan mejor.
+- Sol, viento y lluvia pegan más arriba: tapete en la entrada, plan B techado y reprogramación sin costo si llueve.
+
+La azotea es el espacio libre más grande de muchas casas en la Ciudad de México y en los municipios conurbados, y no compite con la sala ni con la cochera. Funciona, pero pide una revisión distinta a la de un jardín. En un patio la pregunta es si cabe; en una azotea hay cinco más: cómo se sube el equipo, qué tan cerca queda la orilla, sobre qué piso se apoya, de dónde sale la corriente y cuánto viento pega.
 
 Si tu espacio es un patio chico y no una azotea, la guía de [inflable en patio pequeño](/blog/fiesta-en-patio-pequeno-con-inflable/) cubre medidas y acomodo de mesa. Aquí nos enfocamos en lo que sólo pasa allá arriba.
 
@@ -59,7 +65,7 @@ Si vives en un edificio, la azotea suele ser área común. Antes de apartar, pre
 
 ## ¿Qué tan lejos de la orilla debe quedar el inflable?
 
-Lejos. El área de juego no debe quedar junto a una orilla sin protección, ni junto a un pretil bajo por el que un niño pueda asomarse o trepar. Los niños salen del inflable con impulso y corriendo; lo que está a dos pasos de la salida tiene que ser seguro.
+Lo más lejos que permita el espacio. El área de juego no debe quedar junto a una orilla sin protección, ni junto a un pretil bajo por el que un niño pueda asomarse o trepar. Los niños salen del inflable con impulso y corriendo; lo que está a dos pasos de la salida tiene que ser seguro.
 
 Revisa:
 
@@ -71,6 +77,8 @@ Revisa:
 Una regla práctica: las entradas y salidas del inflable miran hacia el centro de la azotea, donde está el adulto que supervisa, nunca hacia una orilla.
 
 Si después de medir resulta que no puedes separarte de los bordes, es mejor mover la fiesta. Un patio, un salón o un jardín de un familiar resuelven el problema sin riesgo. Si estás en ese punto, revisa la comparación de [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/).
+
+![Azotea plana de una casa con pretil, tinaco al fondo y una cinta métrica extendida sobre el impermeabilizante](/img/blog/inflable-en-azotea-que-revisar-cdmx/escena-1.avif "Antes de apartar: mide de obstáculo a obstáculo y ubica las orillas.")
 
 ## ¿Sobre qué piso se puede apoyar el inflable?
 
@@ -186,4 +194,4 @@ Para confirmar en un solo intercambio si tu azotea funciona, manda:
 - **Distancia aproximada** al contacto más cercano.
 - **Edades** de los niños.
 
-El precio de cada inflable es neto y por evento, con instalación y recolección incluidas; el traslado se cobra según zona. Si quieres resolverlo rápido, [manda las fotos de tu azotea por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20poner%20un%20inflable%20en%20mi%20azotea%20te%20mando%20fotos%20y%20medidas).
+El precio de cada inflable es neto y por evento, con instalación y recolección incluidas; el traslado se cobra según zona y la fecha se aparta con 50% de anticipo. Atendemos por WhatsApp de lunes a domingo, de 8:00 a 20:00. Si quieres resolverlo rápido, [manda las fotos de tu azotea por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20poner%20un%20inflable%20en%20mi%20azotea%20te%20mando%20fotos%20y%20medidas).

@@ -141,4 +141,16 @@ export const BLOG_CATEGORIA: Record<string, string> = {
   "cuando-reservar-inflable-temporadas-cdmx":             "brincolines",
   "fiesta-infantil-con-poco-presupuesto-cdmx":            "medianos",
   "salon-de-fiestas-o-fiesta-en-casa-cdmx":               "para-interiores",
+
+  /* Contenido profesional 2026-11: guías de referencia (juegos, checklist,
+     presupuesto total, temáticas y medidas). Categoría según la intención. */
+  "juegos-para-fiesta-infantil-ideas-por-edad":           "para-ninos",
+  "lista-de-cosas-para-fiesta-infantil-checklist":        "para-ninos",
+  "cuanto-cuesta-una-fiesta-infantil-cdmx-presupuesto":   "medianos",
+  "tematicas-fiesta-infantil-tendencias-2027":            "tematicos",
+  "medidas-de-inflables-para-fiestas-tabla":              "para-interiores",
+  "normas-de-seguridad-juegos-inflables":                  "para-ninos",
+  "como-se-limpia-y-sanitiza-un-inflable":                 "brincolines",
+  "cuanta-comida-por-nino-fiesta-infantil":                "para-ninos",
+  "ideas-de-fiesta-por-edad-1-a-12-anos":                  "para-ninos",
 };

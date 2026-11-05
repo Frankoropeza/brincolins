@@ -1,13 +1,13 @@
 ---
 title: "Inflable para activación de marca: guía de operación"
 h1: "Inflable para activación de marca: cómo usar un circuito infantil sin perder el control del evento"
-description: "Planea un inflable para activación de marca en CDMX: espacio, flujo, staff, factura y reglas para una dinámica infantil clara y segura."
+description: "Cómo usar un inflable en una activación de marca familiar: espacio, flujo de fila, staff, sede y factura para una zona infantil ordenada. Revisa y cotiza."
 excerpt: "Un circuito no sustituye una activación: le da movimiento a una zona infantil si el público, el flujo y los responsables están definidos desde antes."
 publishDate: "2026-11-02"
 updatedDate: "2026-11-04"
 category: "Extremo"
 author: "Equipo BRINCOLINS"
-readTime: "17 min"
+readTime: "13 min"
 heroImage: "/img/inflables/extremo-circuito-completo-aereo.avif"
 heroImageAlt: "Circuito inflable Extremo de obstáculos visto desde arriba"
 galleryImages:
@@ -28,8 +28,6 @@ tags:
 faqs:
   - question: "¿Sirve un inflable para una activación de marca?"
     answer: "Sí, cuando la activación está dirigida a familias y contempla una dinámica infantil. El circuito Extremo es para niñas y niños de 3 a 12 años, no para adultos. Puede dar una actividad visible y ordenada mientras la marca atiende a las familias, siempre que el lugar, el flujo, la supervisión y las reglas estén definidos."
-  - question: "¿Pueden usar el circuito Extremo los adultos en un evento de marca?"
-    answer: "No. El rango publicado del Extremo es de 3 a 12 años. El personal, anfitriones, promotores y acompañantes adultos deben permanecer fuera del inflable; pueden registrar participantes, ordenar la fila, explicar la mecánica y entregar materiales al terminar el recorrido."
   - question: "¿Qué espacio necesita un inflable para activación de marca?"
     answer: "El Extremo mide 8 × 4.5 × 3.50 m, requiere 4.5 m de altura libre y se instala sólo en exterior. Además de la base, hay que dejar circulación para entrada, salida y fila. La superficie debe ser plana, despejada y sin objetos punzantes; el espacio final se confirma al cotizar."
   - question: "¿Cuánto tarda en montarse el circuito para una activación?"
@@ -39,16 +37,20 @@ faqs:
   - question: "¿El precio del inflable para activación incluye factura?"
     answer: "La renta base del Extremo es de $2,500 netos por evento, con instalación y recolección incluidas. Si la empresa requiere factura, se agrega 16% de IVA. El traslado depende de la zona y se confirma con la dirección exacta, por lo que compras debe pedir el total cerrado antes de autorizar el anticipo."
   - question: "¿Qué pasa si llueve durante una activación exterior?"
-    answer: "El Extremo es de uso en seco y no debe operar bajo lluvia, granizo o viento fuerte. Antes de comunicar una dinámica exterior, revisa con la sede qué espacio alterno o ajuste de programa puede tener el evento. Las opciones sobre la fecha se consultan en la política de cancelación antes de reservar."
+    answer: "El Extremo es de uso en seco y no debe operar bajo lluvia, granizo o viento fuerte. Antes de comunicar una dinámica exterior, define con la sede un ajuste de programa. Si la lluvia impide el uso, la renta se reprograma sin costo a otra fecha disponible."
 ---
 
-Una marca puede atraer familias a una feria, una inauguración o una convivencia. Pero un inflable para activación de marca sólo funciona cuando se trata como una estación con reglas, no como un accesorio decorativo. Si la fila invade el pasillo, el staff no sabe quién da la salida o entran adultos al circuito, la dinámica deja de ayudar a la experiencia.
+Un **inflable para activación de marca** funciona cuando el público incluye niñas y niños de 3 a 12 años y la sede tiene exterior. El [circuito inflable Extremo](/inflables/extremo/), de doble carril, mide 8 × 4.5 × 3.50 m, pide 4.5 m de altura libre y una toma de 110 V a menos de 20 m, y cuesta $2,500 netos por evento.
 
-El [circuito inflable Extremo](/inflables/extremo/) da una ruta clara: dos carriles, obstáculos y un tobogán final. Eso puede convertirse en un reto breve para niñas y niños de 3 a 12 años mientras sus acompañantes recorren la activación. No es una atracción para colaboradores, promotores ni visitantes adultos.
+**Puntos clave**
 
-La decisión empieza por una pregunta sencilla: ¿tu evento espera familias con niños dentro de ese rango de edad? Si la respuesta es sí, el circuito puede ser una zona infantil útil. Si la respuesta es no, no conviene usarlo para forzar una dinámica que no corresponde al público.
+- El inflable ordena la parte infantil de la activación; no reemplaza el mensaje de la marca.
+- El Extremo es para 3 a 12 años: staff, promotores y adultos se quedan fuera del circuito.
+- Entrada, fila lateral, salida y módulo de marca necesitan un responsable cada uno.
+- La sede debe confirmar área exterior, ruta de carga, horario de montaje y corriente exclusiva.
+- Con factura se agrega 16% de IVA; el traslado se cierra con la dirección exacta.
 
-> **Respuesta rápida:** Un **inflable para activación de marca** funciona cuando el público incluye niñas y niños de 3 a 12 años y la sede tiene exterior. El Extremo, circuito de obstáculos de doble carril, mide 8 × 4.5 × 3.50 m, requiere 4.5 m de altura libre y cuesta $2,500 netos por evento. Necesita una toma de 110 V a menos de 20 m, superficie plana y supervisión adulta; su uso es infantil.
+Una marca puede atraer familias a una feria, una inauguración o una convivencia, pero el inflable solo suma cuando se trata como una estación con reglas, no como un accesorio decorativo. Si la fila invade el pasillo, el staff no sabe quién da la salida o entran adultos al circuito, la dinámica deja de ayudar. La decisión empieza por una pregunta: ¿tu evento espera familias con niños en ese rango de edad? Si no, no conviene forzar la dinámica.
 
 ## ¿Qué objetivo puede cumplir un inflable para activación de marca?
 
@@ -90,7 +92,9 @@ La marca puede sumar una acción breve antes o después del recorrido, siempre f
 | Salida | Recibe a quienes terminan y libera el final | Staff de activación | Que se acumulen niños o materiales promocionales |
 | Módulo de marca | Conversa con acompañantes y entrega información | Promotor o anfitrión | Que el registro bloquee la entrada o la salida |
 
-Para entender las medidas, edades y requisitos que sostienen esta operación, consulta la ficha del circuito Extremo. Si el volumen será propio de una escuela o feria infantil, la [organización de un juego inflable de obstáculos para escuelas](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/) ayuda a adaptar la fila por bloques sin copiar una operación que no corresponda a tu sede.
+![Fila de niños de espaldas detrás de una cinta delimitadora junto a un módulo informativo en una explanada al aire libre](/img/blog/inflable-para-activacion-de-marca/escena-1.avif "Fila lateral, salida despejada y módulo aparte: así se ordena la estación.")
+
+Si el volumen será propio de una escuela o feria infantil, la [organización de un juego inflable de obstáculos para escuelas](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/) ayuda a adaptar la fila por bloques sin copiar una operación que no corresponda a tu sede.
 
 ## ¿Qué debes confirmar con la sede antes de anunciar la activación?
 
@@ -104,7 +108,7 @@ Confirma estos puntos con producción, administración o venue antes de publicar
 4. **Circulación del público.** Deja un lateral para fila, otro para salida y un perímetro sin mesas, muestras, cables ni decoración.
 5. **Plan por clima.** El Extremo es de uso en seco. Si el formato depende de exterior, el programa necesita una decisión clara para lluvia, granizo o viento fuerte.
 
-Si la sede es una calle cerrada o un espacio que requiere autorización local, revisa la [logística de un inflable para fiesta en la calle](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/) y consulta a la alcaldía o municipio antes de anunciar la dinámica. En concreto o estacionamiento descubierto, revisa también superficie, pendiente y acceso con la sede, porque la ruta de público suele cambiar durante el día.
+Si la sede es una calle cerrada o un espacio que requiere autorización local, revisa la [logística de un inflable en privada o condominio](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/) y consulta a la alcaldía o municipio antes de anunciar la dinámica. En concreto o estacionamiento descubierto, revisa también superficie, pendiente y acceso con la sede, porque la ruta de público suele cambiar durante el día.
 
 ## ¿Cuánto staff requiere una activación con circuito infantil?
 
@@ -136,13 +140,13 @@ Las plazas son una de las sedes más comunes para activaciones familiares, y tam
 
 - **Ubicación exacta.** El Extremo es solo para exterior y necesita 4.5 m de altura libre. Un pasillo interior o un atrio con domo no sirve, aunque se vea amplio. Las opciones reales suelen ser una explanada descubierta, una terraza abierta o un cajón de estacionamiento delimitado.
 - **Horario de montaje.** Muchas plazas solo permiten carga antes de abrir o en un horario de proveedores. El montaje del Extremo toma alrededor de 30 minutos, pero hay que sumar la llegada y la ruta desde el andén.
-- **Corriente.** Pregunta si la plaza da el contacto de 110V o si la producción lleva su propia fuente. La toma tiene que estar a menos de 20 m.
+- **Corriente.** Pregunta si la plaza da el contacto de 110 V o si la producción lleva su propia fuente. La toma tiene que estar a menos de 20 m.
 - **Seguro y registro.** Algunas administraciones piden documentos del proveedor o registro del personal. Pregúntalo al cotizar, no el día antes.
 - **Desmontaje.** Si la activación termina al cierre de la plaza, confirma que el equipo puede entrar a recoger a esa hora.
 
 Si la explanada es de concreto o el área está en un estacionamiento, revisa la guía de [instalar un inflable en explanada, cancha o estacionamiento](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/): pendientes, coladeras y tránsito de autos cambian el plano.
 
-## ¿Un solo circuito o varios inflables?
+## ¿Conviene un solo circuito o varios inflables?
 
 El Extremo funciona bien cuando el público infantil es de 3 a 12 años y quieres una dinámica de reto. Si esperas muchos niños pequeños, un solo circuito de obstáculos genera fila. En ese caso, considera sumar un modelo más chico para los menores, como Gusanitos (de 2 a 8 años) o el Castillo Baby (de 1 a 3 años), en una zona separada. La capacidad por turno de cada modelo se confirma al cotizar. Para ver qué incluye el servicio cuando son varios equipos en un evento, revisa [inflables para eventos y activaciones](/servicios/inflables-para-eventos/).
 
@@ -171,4 +175,4 @@ No se trata de hacer más vistoso el circuito con cualquier elemento. Se trata d
 
 Una activación bien montada empieza con un plano simple: circuito, entrada, salida, fila, módulo y corriente. Junto con la fecha y la dirección, ese plano o unas fotos claras permiten confirmar si el Extremo cabe y qué traslado corresponde. No prometas la estación en la campaña hasta tener disponibilidad y viabilidad confirmadas.
 
-Solicita una [cotización para tu activación con circuito infantil](/cotizar/) y comparte el tipo de sede, el rango de edades y si requieres factura. Si necesitas resolver acceso, medidas o logística de producción, también puedes llamar al 55 3128 1706 antes de difundir la dinámica.
+Solicita una [cotización para tu activación con circuito infantil](/cotizar/) y comparte el tipo de sede, el rango de edades y si requieres factura. Si necesitas resolver acceso, medidas o logística de producción, también puedes llamar o escribir por WhatsApp al 55 3128 1706, de lunes a domingo de 8:00 a 20:00, antes de difundir la dinámica.
