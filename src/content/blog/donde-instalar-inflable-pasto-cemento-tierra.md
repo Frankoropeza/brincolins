@@ -8,8 +8,8 @@ updatedDate: "2026-11-04"
 category: "Dragones Rojos"
 author: "Equipo BRINCOLINS"
 readTime: "15 min"
-heroImage: "/img/inflables/dragones-rojos/dragones-frontal-resbaladilla.avif"
-heroImageAlt: "Cabezas de los dos dragones a los lados de la resbaladilla verde, en un espacio cerrado"
+heroImage: "/img/inflables/dragones-rojos/castillo-dragones-exterior-jardin.avif"
+heroImageAlt: "Dragones Rojos instalado al aire libre sobre piso plano y despejado"
 galleryImages:
   - "/img/inflables/dragones-rojos/dragones-frontal-centrado.avif"
 intro:
@@ -77,7 +77,7 @@ Antes del tipo de piso revisa cinco condiciones: superficie plana y despejada, p
 
 El espacio libre exacto alrededor se confirma al cotizar, con fotos del lugar. Tú sólo mandas las fotos.
 
-![Inflable de dragones armado en interior con paredes blancas, piso de madera y torres de colores](/img/inflables/dragones-rojos/dragones-inflable-corporativo.avif)
+![Dragones Rojos instalado en una terraza exterior sobre pasto sintético, con espacio libre alrededor](/img/inflables/dragones-rojos/dragones-terraza-exterior.avif)
 
 ## ¿Qué superficies aguantan un inflable y cuáles no?
 
