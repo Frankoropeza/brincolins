@@ -4,7 +4,7 @@ h1: "Cuántas horas dura la renta de un inflable y cómo armar el horario de la 
 description: "La renta de un inflable cubre un evento de 4 a 6 horas. Cómo repartir juego, comida, pastel y piñata para que los niños lo aprovechen. Cotiza tu horario."
 excerpt: "La renta cubre un evento completo de 4 a 6 horas. Te mostramos cómo acomodar instalación, juego, comida, pastel y piñata dentro de ese tiempo sin que el inflable se quede vacío."
 publishDate: "2026-11-04"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "10 min"
@@ -107,7 +107,7 @@ No hay un horario único, pero sí un patrón que funciona en casi todas las fie
 | 5:45 a 6:30 | Último bloque de juego | Los más chicos ya se cansaron, los grandes siguen |
 | 6:30 a 7:00 | Despedida y bolos | Inflable cerrado; área despejada para la recolección |
 
-Fíjate que el inflable no está en uso las cinco horas: está disponible las cinco horas, que es distinto. Los niños necesitan pausas para comer, tomar agua y descansar, y esas pausas también reducen golpes entre ellos.
+Fíjate que el inflable no está en uso las cinco horas: está disponible las cinco horas, que es distinto. Los niños necesitan pausas para comer, tomar agua y descansar, y esas pausas también reducen golpes entre ellos. Para acompañar cada bloque, la guía de [música para fiesta infantil con playlist por edad](/blog/musica-para-fiesta-infantil-playlist-por-edad/) propone qué poner en la llegada, la piñata y el pastel.
 
 ### ¿Por qué el primer bloque de juego es el más importante?
 

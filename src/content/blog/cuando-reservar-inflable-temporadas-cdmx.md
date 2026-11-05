@@ -4,7 +4,7 @@ h1: "Con cuánta anticipación reservar un inflable en CDMX: calendario de tempo
 description: "Reserva tu inflable con al menos 5 días, y 2 semanas si es fin de semana. Qué temporadas se llenan primero en CDMX y Edomex y cómo apartar con anticipo."
 excerpt: "Entre semana basta con unos días; los sábados de diciembre, Semana Santa y fin de cursos se apartan mucho antes. Calendario por temporada y pasos para asegurar tu fecha."
 publishDate: "2026-11-04"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "9 min"
@@ -95,6 +95,8 @@ Las vacaciones de Semana Santa juntan reuniones familiares en casas y quintas. U
 ### Fin de cursos y verano
 
 El cierre del ciclo escolar trae graduaciones, convivios y fiestas de fin de año escolar, y luego cursos de verano. Coincide con la temporada de lluvias, que va de junio a septiembre. Si es tu caso, revisa la guía de [graduación de kínder o primaria con inflable](/blog/graduacion-kinder-primaria-con-inflable/) y ten un plan bajo techo; la de [inflable bajo techo en temporada de lluvias](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/) explica qué modelos caben.
+
+Septiembre cierra las lluvias con las fiestas patrias: si planeas una [fiesta mexicana infantil con inflable](/blog/fiesta-mexicana-infantil-con-inflable/), aparta el fin de semana previo al 15 con tiempo. En octubre, los sábados cercanos al 31 se piden primero para la [fiesta de Halloween infantil con inflable](/blog/fiesta-de-halloween-infantil-con-inflable/).
 
 ## ¿Cuándo conviene apartar aunque no tengas todo listo?
 

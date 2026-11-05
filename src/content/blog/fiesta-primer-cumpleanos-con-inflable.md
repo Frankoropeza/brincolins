@@ -4,7 +4,7 @@ h1: "Primer cumpleaños con inflable: 8 temas y cómo organizar la fiesta de 1 a
 description: "Temas para primer cumpleaños con inflable: 8 ideas con paleta y fondo de fotos, horario ideal y qué medir para el Castillo Baby en casa. Cotiza tu fecha."
 excerpt: "Ocho temas que se ven ordenados alrededor de un Castillo Baby, con decisiones prácticas de color, fotos y circulación para una fiesta de un año."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Castillo Baby"
 author: "Equipo BRINCOLINS"
 readTime: "15 min"
@@ -162,7 +162,7 @@ Estas son las dos decisiones que más determinan si la tarde sale bien:
 
 En un primer cumpleaños la lista se arma sola y casi siempre se pasa. Dos criterios ayudan:
 
-- **Cuenta adultos, no niños.** En una fiesta de un año, la mayoría de los invitados son tíos y abuelos. El espacio se llena de gente de pie, no de niños corriendo.
+- **Cuenta adultos, no niños.** En una fiesta de un año, la mayoría de los invitados son tíos y abuelos. El espacio se llena de gente de pie, no de niños corriendo. La guía de [cuántos niños y adultos invitar a una fiesta infantil](/blog/cuantos-ninos-invitar-a-una-fiesta-infantil/) ayuda a calcularlo.
 - **Los niños que vengan van a ser hermanos y primos.** Ahí está la mezcla de edades que hay que planear: bebés de 1 y 2, y niños de 5 a 9. Son dos grupos distintos y no comparten inflable.
 
 Si hay niños grandes en la lista, conviene un segundo modelo o turnos muy vigilados. El Castillo Baby está pensado para los más pequeños.

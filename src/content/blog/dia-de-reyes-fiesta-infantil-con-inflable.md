@@ -4,7 +4,7 @@ h1: "Fiesta de Día de Reyes con inflable: cómo juntar rosca, juguetes nuevos y
 description: "Organiza una fiesta de Día de Reyes con inflable en CDMX: qué fecha elegir, horario con frío de enero, cómo encajar la rosca y qué modelo conviene. Cotiza."
 excerpt: "El 6 de enero los niños estrenan juguetes y la familia parte la rosca. Si quieres sumar un inflable, aquí tienes fecha, horario para el frío, orden de la tarde y modelos que funcionan."
 publishDate: "2026-11-04"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Ideas"
 author: "Equipo BRINCOLINS"
 readTime: "9 min"
@@ -114,7 +114,7 @@ El inflable ocupa el bloque de energía alta. Entre bloques, puedes meter activi
 - **Búsqueda del "muñeco perdido":** esconde muñequitos de juguete en el jardín, lejos del inflable.
 - **Estrenar juguetes por turnos** en una mesa aparte, no dentro del inflable.
 
-Para más ideas de juegos por edad, revisa la guía de [ideas para fiestas infantiles en CDMX](/blog/ideas-fiesta-infantil-cdmx/). Si quieres irte por una temática de reyes y castillos, la de [fiesta de dragones y caballeros](/blog/fiesta-de-dragones-y-caballeros-ideas/) encaja muy bien con coronas y capas.
+Para más ideas de juegos por edad, revisa la guía de [ideas para fiestas infantiles en CDMX](/blog/ideas-fiesta-infantil-cdmx/). Si quieres irte por una temática de reyes y castillos, la de [fiesta de dragones y caballeros](/blog/fiesta-de-dragones-y-caballeros-ideas/) encaja muy bien con coronas y capas. Y si a tu familia le gustan las tradiciones, los juegos de la [fiesta mexicana infantil con inflable](/blog/fiesta-mexicana-infantil-con-inflable/), como lotería, avión y carrera de costales, también funcionan en enero.
 
 ## ¿Qué inflable conviene para una fiesta de Reyes?
 

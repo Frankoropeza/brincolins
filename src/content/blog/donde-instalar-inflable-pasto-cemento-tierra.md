@@ -4,7 +4,7 @@ h1: "Dónde instalar un inflable mediano: pasto, cemento, adoquín o tierra, có
 description: "Dónde instalar un inflable: pasto, sintético, cemento, adoquín o tierra. Qué revisar en cada piso, cómo se ancla y qué distancia dejar. Prepara tu espacio."
 excerpt: "Pasto, cemento, adoquín, tierra o grava: cuál aguanta un inflable mediano, cómo se ancla en cada uno y qué te toca revisar antes de que llegue el equipo."
 publishDate: "2026-10-01"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Dragones Rojos"
 author: "Equipo BRINCOLINS"
 readTime: "15 min"
@@ -97,7 +97,7 @@ Esta tabla compara las superficies más comunes. Léela por la columna de riesgo
 
 ### Pasto natural
 
-Es la superficie más cómoda: amortigua, permite estacas y no se calienta. Pódalo unos días antes y recoge piedras y ramas. No lo riegues la noche anterior, aunque te parezca que se ve seco, porque el lodo que queda por la mañana complica el anclaje, ensucia la base y te deja huellas por toda la casa. Si llovió, el instalador revisa en sitio si el suelo aguanta el anclaje.
+Es la superficie más cómoda: amortigua, permite estacas y no se calienta. Pódalo unos días antes y recoge piedras y ramas. No lo riegues la noche anterior, aunque te parezca que se ve seco, porque el lodo que queda por la mañana complica el anclaje, ensucia la base y te deja huellas por toda la casa. Si llovió, el instalador revisa en sitio si el suelo aguanta el anclaje. Para el cronograma de corte y riego y cómo recuperarlo después, revisa la guía de [inflable sobre pasto: cómo cuidar tu jardín antes y después](/blog/cuidar-el-pasto-antes-y-despues-de-un-inflable/).
 
 ### Pasto sintético
 

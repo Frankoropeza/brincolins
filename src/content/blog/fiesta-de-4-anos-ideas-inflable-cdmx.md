@@ -4,7 +4,7 @@ h1: "Fiesta de 4 años con inflable: cómo organizar la tarde para un grupo de k
 description: "Fiesta de 4 años en CDMX: juegos con reglas sencillas, cronograma por bloques, estaciones y turnos en el inflable Jungla. Usa la checklist y cotiza."
 excerpt: "A los 4 años ya eligen temática, entienden reglas y llegan con medio salón de kínder. Así repartes la tarde para que nadie haga fila ni termine llorando."
 publishDate: "2026-10-01"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Jungla"
 author: "Equipo BRINCOLINS"
 readTime: "16 min"
@@ -93,7 +93,7 @@ Con tres opciones, tu hijo decide rápido. Lo que no conviene es elegir una tem�
 | Gusanitos | 2 a 8 años | 5 × 3 × 2.80 m | Sí | $1,600 |
 | Castillo Baby | 1 a 3 años | 2.5 × 2 × 2 m | Sí | $1,400 |
 
-Si escoge dinosaurios, el Jungla ya trae dinosaurios y palmeras, y tienes la ambientación completa en las [ideas de excavación y juegos de paleontólogo](/blog/fiesta-de-dinosaurios-con-inflable-cdmx/). Si escoge princesas, el [Castillo de Princesas rosa y azul turquesa](/inflables/castillo-princesas/) trae torres decorativas, resbaladilla y mallas de seguridad. ¿Sigues con dudas? La guía para [elegir inflable según edad, espacio y temática](/blog/como-elegir-inflable-fiesta-infantil/) ordena los criterios, y la categoría de [brincolines para niños por rango de edad](/inflables/para-ninos/) reúne los modelos.
+Si escoge dinosaurios, el Jungla ya trae dinosaurios y palmeras, y tienes la ambientación completa en las [ideas de excavación y juegos de paleontólogo](/blog/fiesta-de-dinosaurios-con-inflable-cdmx/). Si escoge princesas, el [Castillo de Princesas rosa y azul turquesa](/inflables/castillo-princesas/) trae torres decorativas, resbaladilla y mallas de seguridad. Si prefiere camiones y cascos, la [fiesta de bomberos con circuito de entrenamiento](/blog/fiesta-de-bomberos-y-oficios-con-inflable/) le da una misión con insignia al final. ¿Sigues con dudas? La guía para [elegir inflable según edad, espacio y temática](/blog/como-elegir-inflable-fiesta-infantil/) ordena los criterios, y la categoría de [brincolines para niños por rango de edad](/inflables/para-ninos/) reúne los modelos.
 
 ## ¿Cuánto debe durar una fiesta de 4 años y cómo repartes el tiempo?
 

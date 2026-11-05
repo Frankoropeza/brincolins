@@ -4,7 +4,7 @@ h1: "Fiesta de 5 años en CDMX: juegos de una regla, invitados del kínder, cron
 description: "Fiesta de 5 años en CDMX: juegos de una sola regla, invitados del kínder, cronograma de 3 a 4 horas y turnos en el Dragones Rojos. Aparta tu fecha."
 excerpt: "A los 5 años las reglas tienen que caber en una frase y las competencias durar poco. Juegos, lista de invitados, horario y turnos en el inflable, listos para usar."
 publishDate: "2026-10-01"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Dragones Rojos"
 author: "Equipo BRINCOLINS"
 readTime: "14 min"
@@ -63,7 +63,7 @@ Las carreras y los retos encienden al grupo, siempre que sean cortos. Cinco minu
 
 ### Su personaje, no el del catálogo de decoración
 
-A los 5 ya tiene personajes propios: un superhéroe, un dinosaurio, un dragón, una caricatura. Pregúntale a él antes de comprar un solo globo. Si su respuesta es un dragón o un caballero, la [temática de dragones y caballeros con su castillo rojo](/blog/fiesta-de-dragones-y-caballeros-ideas/) te resuelve ambientación, juegos y menú.
+A los 5 ya tiene personajes propios: un superhéroe, un dinosaurio, un dragón, una caricatura, un cohete. Pregúntale a él antes de comprar un solo globo. Si sueña con ser astronauta, la [fiesta del espacio con misión de astronautas](/blog/fiesta-del-espacio-astronautas-con-inflable/) se arma con planetas de papel y no depende de ningún personaje. Si su respuesta es un dragón o un caballero, la [temática de dragones y caballeros con su castillo rojo](/blog/fiesta-de-dragones-y-caballeros-ideas/) te resuelve ambientación, juegos y menú.
 
 ### Lo que suele fallar a esta edad
 
@@ -174,7 +174,7 @@ Los dos cuestan $1,600, reciben niños de 3 a 8 años y ocupan 5 × 3 m de plant
 
 ### Cuando su mundo son los dragones, los caballeros o los superhéroes
 
-El Dragones Rojos trae dos dragones decorativos de unos 3 m, resbaladilla y mallas laterales. Encaja con caballeros, superhéroes o ninguna temática en particular. Si no quieres decorar mucho, te sirve tal cual.
+El Dragones Rojos trae dos dragones decorativos de unos 3 m, resbaladilla y mallas laterales. Encaja con caballeros, superhéroes o ninguna temática en particular. Si no quieres decorar mucho, te sirve tal cual. Si su mundo son los héroes con capa, la [fiesta de superhéroes con academia de entrenamiento](/blog/fiesta-de-superheroes-con-inflable/) usa este mismo inflable rojo como prueba final.
 
 ### Cuando su mundo son los dinosaurios y los animales
 

@@ -4,7 +4,7 @@ h1: "Juegos para fiesta infantil: 35 ideas por edad y espacio, con materiales, d
 description: "35 juegos para fiesta infantil por edad y espacio, con materiales, duración y cómo alternarlos con el inflable por turnos para que nadie espere. Inspírate."
 excerpt: "Juegos para niños de 1 a 12 años, separados por edad y por tipo de espacio, con lo que necesitas comprar, cuánto dura cada uno y cómo rotarlos con el inflable."
 publishDate: "2026-11-04"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Ideas"
 author: "Equipo BRINCOLINS"
 readTime: "13 min"
@@ -48,7 +48,7 @@ El inflable es el centro de la fiesta, pero tiene un límite de niños a la vez 
 1. **Forma dos o tres grupos** al llegar los invitados, por edad o estatura. Un pañuelo, una pulsera de color o una calcomanía en la mano ayudan a que cada niño sepa a qué grupo pertenece.
 2. **Asigna turnos de inflable** de duración fija. Para niños pequeños, turnos cortos; para los grandes, un poco más largos. Lo importante es que el tiempo sea igual para todos y que alguien lo cuide con alarma en el celular.
 3. **Mientras un grupo está en el inflable, el otro juega en el piso** con una actividad de la lista. Al sonar la alarma, cambian.
-4. **Deja un juego en grupo antes del pastel** para reunir a todos y bajar la energía: una ronda, un concurso de baile o la piñata.
+4. **Deja un juego en grupo antes del pastel** para reunir a todos y bajar la energía: una ronda, un concurso de baile o la piñata. Para organizarla, revisa la guía de [piñata para fiesta infantil: tamaño y reglas](/blog/pinata-fiesta-infantil-tamano-y-reglas/).
 
 Este sistema también ayuda a los niños que se sienten abrumados con el ruido o la cantidad de gente. Si tienes invitados así, la guía para [niños tímidos o con miedo al inflable](/blog/inflable-para-ninos-timidos-o-con-miedo/) tiene ideas para integrarlos poco a poco. Y antes de abrir el inflable, repasa con los adultos las [normas de seguridad para juegos inflables](/blog/normas-de-seguridad-juegos-inflables/): sin zapatos, sin comida, sin objetos en las bolsas y con grupos de tamaño parecido.
 

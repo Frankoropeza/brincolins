@@ -153,4 +153,27 @@ export const BLOG_CATEGORIA: Record<string, string> = {
   "como-se-limpia-y-sanitiza-un-inflable":                 "brincolines",
   "cuanta-comida-por-nino-fiesta-infantil":                "para-ninos",
   "ideas-de-fiesta-por-edad-1-a-12-anos":                  "para-ninos",
+
+  /* Tanda 2026-11-05 — 20 guías nuevas: temáticas, temporada, eventos
+     familiares y planeación. Categoría según la intención del lector. */
+  "fiesta-de-superheroes-con-inflable":                    "tematicos",
+  "fiesta-de-futbol-infantil-con-inflable":                "con-obstaculos",
+  "fiesta-del-espacio-astronautas-con-inflable":           "tematicos",
+  "fiesta-de-carros-de-carreras-con-inflable":             "con-obstaculos",
+  "fiesta-de-halloween-infantil-con-inflable":             "tematicos",
+  "fiesta-mexicana-infantil-con-inflable":                 "para-ninos",
+  "fiesta-de-granja-animales-con-inflable":                "chicos",
+  "fiesta-de-bomberos-y-oficios-con-inflable":             "con-obstaculos",
+  "fiesta-de-13-a-15-anos-adolescentes-ideas":             "para-adultos",
+  "fiesta-para-adultos-con-zona-infantil-inflable":        "para-ninos",
+  "reunion-familiar-carne-asada-con-inflable":             "medianos",
+  "fiesta-infantil-inclusiva-ninos-con-autismo":           "para-interiores",
+  "invitaciones-fiesta-infantil-cuando-enviar":            "para-ninos",
+  "cuantos-ninos-invitar-a-una-fiesta-infantil":           "grandes",
+  "bolsitas-y-recuerdos-fiesta-infantil-ideas":            "para-ninos",
+  "pinata-fiesta-infantil-tamano-y-reglas":                "para-ninos",
+  "pastel-fiesta-infantil-porciones-y-tamanos":            "para-ninos",
+  "musica-para-fiesta-infantil-playlist-por-edad":         "para-ninos",
+  "fiesta-infantil-sustentable-sin-plasticos":             "brincolines",
+  "cuidar-el-pasto-antes-y-despues-de-un-inflable":        "medianos",
 };

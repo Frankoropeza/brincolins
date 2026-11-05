@@ -4,7 +4,7 @@ h1: "Fiesta infantil en jardín con inflable: espacio, clima, mobiliario y presu
 description: "Organiza tu fiesta infantil en jardín con inflable y mesas picnic: qué modelo cabe, cómo repartir el espacio, plan de lluvia y presupuesto. Cotiza hoy."
 excerpt: "Cómo organizar una fiesta infantil en jardín en la Ciudad de México con inflable y mesas picnic de MESPIC: qué modelo cabe en tu espacio, cómo repartir las zonas, qué hacer con el sol y la lluvia, cuánto presupuestar y una comparación honesta entre salón y jardín."
 publishDate: "2026-06-14"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Ideas"
 author: "Equipo BRINCOLINS"
 readTime: "16 min"
@@ -133,7 +133,7 @@ Ocupa entre 40 y 50% del espacio. Las mesas de madera de MESPIC van en la zona m
 
 ### Zona de transición: juegos de piso
 
-Entre el inflable y las mesas conviene dejar un espacio con actividades tranquilas: burbujas, gises para el piso, juegos de puntería o la piñata. Esta zona recibe a los niños que salen del inflable y todavía no quieren comer, y evita que invadan el área de adultos. Es la que más se improvisa, y cuando se planea, la fiesta fluye mucho mejor. Si buscas dinámicas para llenarla, revisa los [juegos para fiesta infantil por edad](/blog/juegos-para-fiesta-infantil-ideas-por-edad/).
+Entre el inflable y las mesas conviene dejar un espacio con actividades tranquilas: burbujas, gises para el piso, juegos de puntería o la piñata. Esta zona recibe a los niños que salen del inflable y todavía no quieren comer, y evita que invadan el área de adultos. Si en el jardín también hay asador, colócalo en el extremo opuesto al inflable, como se explica en la guía de [reunión familiar con inflable y carne asada](/blog/reunion-familiar-carne-asada-con-inflable/). Es la que más se improvisa, y cuando se planea, la fiesta fluye mucho mejor. Si buscas dinámicas para llenarla, revisa los [juegos para fiesta infantil por edad](/blog/juegos-para-fiesta-infantil-ideas-por-edad/).
 
 ### Zona de acceso y circulación
 

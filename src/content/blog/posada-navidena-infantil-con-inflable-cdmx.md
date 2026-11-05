@@ -4,7 +4,7 @@ h1: "Posada con inflable para niños: patio, salón o calle cerrada, sin chocar 
 description: "Organiza una posada con inflable: dónde instalarlo, qué modelo sirve con frío o bajo techo, cómo encajar piñata y villancicos y cuándo apartar."
 excerpt: "Una posada no es un cumpleaños: es de noche, hace frío y hay piñata, villancicos y procesión. Así metes un inflable sin que choque con nada y sin quedarte sin fecha."
 publishDate: "2026-10-01"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Gusanitos"
 author: "Equipo BRINCOLINS"
 readTime: "15 min"
@@ -54,6 +54,8 @@ Te cambian la hora, el clima y el programa: la posada empieza al caer la tarde, 
 Eso deja tres condiciones que no ves en un cumpleaños de mayo. Hace frío. Oscurece temprano. Y hay más adultos que niños, casi todos platicando.
 
 Nada de esto descarta el inflable. Solo te pide planearlo con más cuidado que una fiesta de tarde, porque en una posada de cuadra la supervisión se diluye si nadie la tiene asignada. ¿La solución? Pon nombre y turno a cada adulto que vigila. Tú decides quién va primero.
+
+Si ya organizaste una tarde de disfraces en octubre, el reto de luz y abrigo es el mismo: la guía de [fiesta de Halloween infantil con inflable](/blog/fiesta-de-halloween-infantil-con-inflable/) explica cómo iluminar la entrada del inflable cuando oscurece temprano.
 
 ## ¿Dónde instalas el inflable: patio, salón o calle cerrada?
 

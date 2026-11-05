@@ -4,7 +4,7 @@ h1: "Cuánta comida por niño en una fiesta infantil: cantidades orientativas, t
 description: "Cuánta comida por niño y por adulto: pizza, tacos, pastel, botanas, bebidas y dulces, con tabla para 10, 20, 30 y 50 invitados y horarios. Calcula la tuya."
 excerpt: "Rebanadas de pizza, tacos, porciones de pastel, litros de bebida y kilos de dulces: cantidades orientativas por niño y por adulto, una tabla lista para 10, 20, 30 y 50 invitados y cómo acomodar la comida con el inflable."
 publishDate: "2026-11-04"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "12 min"
@@ -100,7 +100,7 @@ Con taquero o con guisados, los tacos rinden bien y les gustan a niños y adulto
 
 ### Pastel
 
-Una porción por invitado, contando niños y adultos, más un margen de 10 %. Si hay mesa de dulces o postres, no hace falta subir la cantidad.
+Una porción por invitado, contando niños y adultos, más un margen de 10 %. Si hay mesa de dulces o postres, no hace falta subir la cantidad. Para elegir forma, tamaño y momento de partirlo, revisa la guía de [porciones y tamaños del pastel para fiesta infantil](/blog/pastel-fiesta-infantil-porciones-y-tamanos/).
 
 ### Botanas
 

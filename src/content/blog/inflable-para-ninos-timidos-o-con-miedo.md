@@ -4,7 +4,7 @@ h1: "Niño con miedo al inflable: cómo acompañarlo sin presionarlo en una fies
 description: "Si tu hijo tiene miedo al inflable, acompáñalo sin forzarlo: identifica qué le inquieta, prepara una entrada gradual y elige un juego acorde a su ritmo."
 excerpt: "Un niño que no quiere entrar al brincolín no está arruinando la fiesta ni necesita que lo convenzan a la fuerza. Con tiempo, observación y un adulto disponible puede decidir cómo participar."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Gusanitos"
 author: "Equipo BRINCOLINS"
 readTime: "13 min"
@@ -134,7 +134,7 @@ Respeta la respuesta. Una fiesta tiene más oportunidades que el inflable: puede
 
 No anuncies su decisión a los demás ni pidas a otros niños que lo convenzan. Es mejor decir con naturalidad: “ahorita está en otra actividad”. Si después se acerca, vuelve a ofrecer la misma puerta abierta: observar, tocar la lona o hacer un tramo corto. Que cambie de opinión es bienvenido; que no la cambie también.
 
-Una propuesta de [juegos y decoración en una fiesta arcoíris](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/) puede incorporar mural, búsqueda de colores y una mesa de dibujo fuera de la zona de juego. Esas estaciones no son un premio de consolación: dan opciones reales a niños que alternan movimiento, conversación y descanso.
+Una propuesta de [juegos y decoración en una fiesta arcoíris](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/) puede incorporar mural, búsqueda de colores y una mesa de dibujo fuera de la zona de juego. Esas estaciones no son un premio de consolación: dan opciones reales a niños que alternan movimiento, conversación y descanso. Si el niño es autista o tiene sensibilidad sensorial, la guía de [fiesta infantil inclusiva](/blog/fiesta-infantil-inclusiva-ninos-con-autismo/) suma ideas de agenda visual, zona tranquila y turnos cortos, siempre definidas con su familia.
 
 ## ¿Cómo eliges el inflable sin exigirle demasiado a tu hijo?
 

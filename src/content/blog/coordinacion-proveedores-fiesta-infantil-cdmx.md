@@ -4,7 +4,7 @@ h1: "Cómo coordinar proveedores en una fiesta infantil en CDMX: roles, horarios
 description: "Coordina inflable, palomitas, decoración y comida en tu fiesta infantil: rol de cada proveedor, horarios de llegada, cronograma y 7 errores a evitar."
 excerpt: "Gestionar varios proveedores para una fiesta infantil en CDMX no tiene que ser caótico. Esta guía te da el sistema completo: roles, tiempos, errores comunes y un cronograma probado."
 publishDate: "2026-06-05"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "14 min"
@@ -131,7 +131,7 @@ Este es el ritmo que mejor funciona para una fiesta de 4 horas con inflable y va
 | Hora 0 | Inicio de la fiesta: inflable encendido, decoración lista y palomitas calientes. |
 | Hora 1:00 | Show o actividad central si contrataste animador. El inflable sigue disponible para quien no quiera el show. |
 | Hora 1:30 a 2:00 | Comida principal. El inflable queda en pausa o disponible, según prefiera el anfitrión. |
-| Hora 2:30 a 3:00 | Pastel, velitas y mañanitas. Si hay piñata, es el momento. |
+| Hora 2:30 a 3:00 | Pastel, velitas y mañanitas. Si hay piñata, es el momento: sigue las [reglas para la piñata en una fiesta infantil](/blog/pinata-fiesta-infantil-tamano-y-reglas/). |
 | Hora 3:00 a 4:00 | Tiempo libre: los niños vuelven al inflable y se despiden los invitados. |
 | Después de la fiesta | BRINCOLINS recoge el inflable a la hora acordada; cada proveedor retira su equipo en el orden en que termina. |
 

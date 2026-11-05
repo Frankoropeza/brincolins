@@ -4,7 +4,7 @@ h1: "Lista de cosas para una fiesta infantil: checklist por etapas, de 4 semanas
 description: "Checklist de fiesta infantil por etapas: qué hacer 4 semanas antes, la última semana, el día de la fiesta y después, con tabla por categoría. Úsala."
 excerpt: "La lista completa para no olvidar nada: tareas por semana, lo que se revisa el día de la fiesta, lo que queda pendiente después y una tabla de cosas por categoría."
 publishDate: "2026-11-04"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "13 min"
@@ -79,7 +79,7 @@ Esta es la etapa de las decisiones grandes. Todo lo demás depende de lo que def
 Con lugar y entretenimiento resueltos, toca darle forma a la fiesta.
 
 - [ ] Elegir temática y paleta de colores.
-- [ ] Diseñar y mandar invitaciones (digitales o impresas) con fecha para confirmar asistencia.
+- [ ] Diseñar y mandar invitaciones (digitales o impresas) con fecha para confirmar asistencia. La guía de [invitaciones para fiesta infantil: cuándo enviarlas y qué incluir](/blog/invitaciones-fiesta-infantil-cuando-enviar/) trae textos de ejemplo.
 - [ ] Cotizar pastel, comida, bebidas y mesa de dulces.
 - [ ] Cotizar mobiliario: mesas, sillas, mesa infantil, toldo o lona si hace falta.
 - [ ] Decidir decoración: globos, mantelería, centros de mesa, fondo para fotos.

@@ -4,7 +4,7 @@ h1: "Inflable bajo techo en temporada de lluvias: terraza, carpa, garage o saló
 description: "Qué inflable va bajo techo en temporada de lluvias en CDMX, cómo medir los 3.2 m de altura libre y qué hacer si llueve. Revisa tu espacio y cotiza."
 excerpt: "Si tu fiesta cae entre junio y septiembre, el aguacero de la tarde también viene. Mira qué inflable entra bajo techo y cómo medir tu espacio antes de apartar."
 publishDate: "2026-10-01"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Gusanitos"
 author: "Equipo BRINCOLINS"
 readTime: "16 min"
@@ -128,7 +128,7 @@ Es el escenario más común en casas de la ciudad. Te funciona bien con techo fi
 
 Una carpa convierte el jardín en espacio techado, pero no cualquier carpa sirve. La altura que cuenta es la de las orillas y los travesaños, no la del pico. Si la rentas con otro proveedor, pídele esa medida y compártela al cotizar; su costo es una partida aparte.
 
-Con carpa sobre pasto, el terreno debe estar parejo y sin charcos. Para preparar el suelo, revisa [cómo dejar listo el pasto y el terreno al aire libre](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/).
+Con carpa sobre pasto, el terreno debe estar parejo y sin charcos. Para preparar el suelo, revisa [cómo dejar listo el pasto y el terreno al aire libre](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/). Con lluvias, el pasto húmedo es el punto delicado: los pasos para [cuidar el pasto antes y después de un inflable](/blog/cuidar-el-pasto-antes-y-despues-de-un-inflable/) te dicen cuándo regar, cuándo no y cómo recuperarlo.
 
 ### Garage o cochera
 

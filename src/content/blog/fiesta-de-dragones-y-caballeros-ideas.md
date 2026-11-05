@@ -4,7 +4,7 @@ h1: "Fiesta de dragones y caballeros: decoración, juegos y menú alrededor del 
 description: "Fiesta de dragones y caballeros con inflable: paleta rojo y dorado, juegos por edad, horario de tres horas y menú temático. Revisa tu espacio y cotiza."
 excerpt: "Una paleta bien distribuida hace que Dragones Rojos sea parte de la ambientación sin invadir sus entradas ni la resbaladilla. Aquí tienes combinaciones, zonas y una lista para montarlas."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Dragones Rojos"
 author: "Equipo BRINCOLINS"
 readTime: "16 min"
@@ -121,7 +121,7 @@ Tres ideas de bajo montaje son suficientes para una tarde:
 2. Usa los escudos de cartulina para llamar a los turnos por color; así no tienes que ordenar a todos a gritos junto a la entrada.
 3. Reserva una mesa pequeña para colorear mientras otros brincan, sin llevar plumones ni papeles cerca de la lona.
 
-Cuando el grupo necesita más actividad física que decoración, revisa primero la [selección de inflables con tobogán](/inflables/toboganes/). Explica qué cambia entre una resbaladilla integrada y un tobogán, algo útil si el festejado imagina carreras y no sólo un tema de castillo.
+Cuando el grupo necesita más actividad física que decoración, revisa primero la [selección de inflables con tobogán](/inflables/toboganes/). Explica qué cambia entre una resbaladilla integrada y un tobogán, algo útil si el festejado imagina carreras y no sólo un tema de castillo. Y si a mitad de la planeación el festejado cambia los caballeros por héroes con capa, la [fiesta de superhéroes con inflable](/blog/fiesta-de-superheroes-con-inflable/) aprovecha el mismo Dragones Rojos con estaciones de entrenamiento.
 
 ## ¿Qué juegos, horario y menú van con una fiesta de caballeros y dragones?
 

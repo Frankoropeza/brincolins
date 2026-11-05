@@ -4,7 +4,7 @@ h1: "Cómo planear un cumpleaños infantil completo en CDMX: calendario, presupu
 description: "Planea el cumpleaños infantil paso a paso: calendario de 6 semanas, presupuesto, inflable por edad, temáticas, lugar, proveedores y seguridad."
 excerpt: "La guía central del blog: qué hacer 6 semanas antes, cuánto cuesta, qué inflable va con cada edad, cómo elegir temática y lugar, y cómo coordinar proveedores sin estrés."
 publishDate: "2026-06-12"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "16 min"
@@ -61,7 +61,7 @@ No todas las familias necesitan las 6 semanas para una fiesta sencilla, pero si 
 ### 6 semanas antes: las decisiones grandes
 
 1. **Define el lugar.** ¿Casa, salón, jardín o parque? ¿Cuántos metros tienes? ¿Es de día o de tarde? Eso decide qué inflable cabe, cuánta decoración necesitas y cómo se mueve la gente.
-2. **Calcula invitados.** Una fiesta de 15 niños y 20 adultos necesita soluciones muy distintas a una de 40 niños y 60 adultos.
+2. **Calcula invitados.** Una fiesta de 15 niños y 20 adultos necesita soluciones muy distintas a una de 40 niños y 60 adultos. Para decidir la lista, revisa [cuántos niños invitar a una fiesta infantil según edad, espacio y presupuesto](/blog/cuantos-ninos-invitar-a-una-fiesta-infantil/).
 3. **Aparta el inflable.** Los fines de semana de mayo y diciembre son los más pedidos; hemos tenido sábados con tres o cuatro solicitudes para el mismo modelo. Escríbenos por WhatsApp o cotiza en línea; la fecha se aparta con el 50% de anticipo. Los ocho precios, de $1,400 a $2,600, están en la [página de precios](/precios/), y aquí explicamos [con cuánta anticipación conviene reservar según el mes](/blog/cuando-reservar-inflable-temporadas-cdmx/).
 4. **Contacta a la mesa de dulces.** Una mesa personalizada se diseña con tiempo; no se improvisa en 48 horas.
 
@@ -70,7 +70,7 @@ No todas las familias necesitan las 6 semanas para una fiesta sencilla, pero si 
 1. **Confirma el salón**, si la fiesta no es en casa; los buenos salones de Coyoacán, Benito Juárez o Naucalpan también se apartan con anticipación.
 2. **Encarga el pastel.** Uno temático con decoración elaborada necesita al menos 2 o 3 semanas.
 3. **Define el menú.** ¿Taquiza, pizza, hot dogs? Cotiza dos o tres opciones y calcula porciones con la guía de [cuánta comida por niño en una fiesta infantil](/blog/cuanta-comida-por-nino-fiesta-infantil/).
-4. **Manda las invitaciones** con fecha, hora, dirección y tema. Pregunta por alergias o restricciones alimentarias.
+4. **Manda las invitaciones** con fecha, hora, dirección y tema. Pregunta por alergias o restricciones alimentarias. Si dudas qué poner, la guía sobre [qué datos incluir en las invitaciones de fiesta infantil](/blog/invitaciones-fiesta-infantil-cuando-enviar/) tiene textos listos para WhatsApp.
 
 ### 1 a 2 semanas antes: cierre y comunicación
 

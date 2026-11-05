@@ -4,7 +4,7 @@ h1: "Fiesta de 3 años con inflable: cronograma, juegos sencillos y el castillo 
 description: "Fiesta de 3 años en CDMX sin berrinches: horario, juegos sencillos, cronograma y qué castillo inflable rentar para el festejado y sus primos. Cotiza hoy."
 excerpt: "A los 3 años la paciencia dura minutos y los invitados van de bebés a primos de primaria. Aquí tienes el horario, los juegos y el castillo que sí funcionan."
 publishDate: "2026-10-01"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
 readTime: "16 min"
@@ -99,7 +99,7 @@ Que reciba de 2 a 10 años no significa que todos brinquen a la vez. A esta edad
 
 ### Si no es fiesta de princesas, también va
 
-El rosa no te amarra a coronas y vestidos. El mismo castillo combina con unicornios, hadas o mariposas, y en una fiesta mixta de primos y compañeros de la guardería brincan niños y niñas igual, sin que nadie pregunte por la temática. Las paletas y las actividades están en la guía de [fiesta de unicornios, hadas y mariposas](/blog/fiesta-de-unicornios-y-hadas-con-inflable/).
+El rosa no te amarra a coronas y vestidos. El mismo castillo combina con unicornios, hadas o mariposas, y en una fiesta mixta de primos y compañeros de la guardería brincan niños y niñas igual, sin que nadie pregunte por la temática. Las paletas y las actividades están en la guía de [fiesta de unicornios, hadas y mariposas](/blog/fiesta-de-unicornios-y-hadas-con-inflable/). Otra temática que a esta edad funciona sin esfuerzo es la [fiesta de granja infantil](/blog/fiesta-de-granja-animales-con-inflable/), porque a los 3 años los niños ya imitan el sonido de cada animal.
 
 Si tu festejada sí pidió princesas, aquí tienes [ideas de decoración y mesa para una fiesta de princesas](/blog/fiesta-princesas-ninas-inflable-cdmx/). Y si dudas entre este modelo y el rojo con dragones, recuerda que Dragones Rojos empieza en 3 años: deja fuera a los invitados de 2.
 

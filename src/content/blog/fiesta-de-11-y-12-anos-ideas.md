@@ -4,7 +4,7 @@ h1: "Ideas para una fiesta de 11 y 12 años con retos, música y un inflable que
 description: "Fiesta de 12 años en CDMX: ideas de retos, música y Barco Pirata para mantener al grupo activo sin planes infantiles. Elige según espacio y edades."
 excerpt: "A los 11 y 12 años ya no les basta una mesa de manualidades ni quieren que un adulto les dicte cada juego. Esta guía organiza una fiesta con retos cortos, momentos para convivir y un inflable que corresponda al grupo."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Barco Pirata"
 author: "Equipo BRINCOLINS"
 readTime: "13 min"
@@ -173,7 +173,7 @@ Una buena fiesta de 12 años se nota cuando la persona que cumple años reconoce
 - ¿A quiénes invitará al primer bloque de juego si también habrá hermanos pequeños?
 - ¿Qué premio simbólico sí usarían: escoger la primera canción, elegir postre o quedarse con el mapa de la misión?
 
-Con esas respuestas puedes ajustar cada estación al grupo y evitar copiar un programa pensado para niños menores. Si ya confirmaste jardín, acceso y modelo, pide el total con traslado y factura, si la necesitas, desde el primer contacto.
+Con esas respuestas puedes ajustar cada estación al grupo y evitar copiar un programa pensado para niños menores. Si el festejado ya cumple 13 o el grupo es de secundaria, las [ideas para una fiesta de adolescentes de 13 a 15 años](/blog/fiesta-de-13-a-15-anos-adolescentes-ideas/) explican qué inflables admiten esa edad y cómo acordar reglas de convivencia. Si ya confirmaste jardín, acceso y modelo, pide el total con traslado y factura, si la necesitas, desde el primer contacto.
 
 ## Siguiente paso: confirma el espacio y cotiza
 

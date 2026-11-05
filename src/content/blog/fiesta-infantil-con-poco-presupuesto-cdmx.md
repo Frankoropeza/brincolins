@@ -4,7 +4,7 @@ h1: "Fiesta infantil con poco presupuesto en CDMX: en qué gastar, dónde recort
 description: "Arma una fiesta infantil con poco presupuesto en CDMX: qué partidas priorizar, dónde recortar sin que se note y qué inflable rinde más. Cotiza en línea."
 excerpt: "Con poco presupuesto, la fiesta se gana eligiendo bien dos o tres cosas y soltando el resto. Qué priorizar, qué hacer en casa y cómo el inflable puede cubrir casi todo el entretenimiento."
 publishDate: "2026-11-04"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "9 min"
@@ -147,7 +147,7 @@ En lo que los niños no ven y los adultos olvidan al día siguiente.
 ### Invitaciones y recuerdos
 
 - **Invitaciones digitales** por mensaje.
-- **Bolos sencillos** o un solo detalle por niño.
+- **Bolos sencillos** o un solo detalle por niño. Hay [ideas de recuerdos para fiesta infantil por edad y presupuesto](/blog/bolsitas-y-recuerdos-fiesta-infantil-ideas/) que no pasan de un objeto útil y un puño de dulces.
 
 ![Mesa de merienda casera con aguas frescas en garrafón y pastel sencillo en un patio](/img/blog/fiesta-infantil-con-poco-presupuesto-cdmx/escena-1.avif "Una merienda casera y aguas frescas rinden más que un menú de tres tiempos.")
 

@@ -4,7 +4,7 @@ h1: "Inflables para Día del Niño en CDMX: cómo planear el 30 de abril en escu
 description: "Inflables para Día del Niño en CDMX: cuándo apartar el 30 de abril, cómo combinar modelos por edad, horarios entre semana y factura. Cotiza con tiempo."
 excerpt: "El 30 de abril todas las escuelas, empresas y condominios quieren inflable el mismo día. Esto es lo que decides primero para no quedarte con lo que sobra."
 publishDate: "2026-10-01"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Jungla"
 author: "Equipo BRINCOLINS"
 readTime: "15 min"
@@ -168,7 +168,7 @@ Cuántos niños entran por turno te lo confirmamos al cotizar. Esa cifra se resp
 
 Juegos de patio, estaciones de manualidades y algo tranquilo para los más chicos. Los inflables son la atracción principal, pero nunca deberían ser la única: mientras un grupo brinca, el resto necesita algo que hacer o la fila se convierte en el evento.
 
-Si estás en una escuela, te funcionan los juegos por grado, las mesas de dibujo y una función de cuentos para preescolar. En empresas, una mesa de colorear para los pequeños y un rally por equipos para los grandes, que encaja con las carreras del Extremo. ¿Quieres una temática? El Jungla se presta para [armar una excavación con huevos de dinosaurio](/blog/fiesta-de-dinosaurios-con-inflable-cdmx/).
+Si estás en una escuela, te funcionan los juegos por grado, las mesas de dibujo y una función de cuentos para preescolar. En empresas, una mesa de colorear para los pequeños y un rally por equipos para los grandes, que encaja con las carreras del Extremo. Una temática de oficios también funciona en escuela: el [circuito de entrenamiento de una fiesta de bomberos](/blog/fiesta-de-bomberos-y-oficios-con-inflable/) se adapta a grupos de primaria. ¿Quieres una temática? El Jungla se presta para [armar una excavación con huevos de dinosaurio](/blog/fiesta-de-dinosaurios-con-inflable-cdmx/).
 
 El mismo plan se adapta a otros momentos del año. Para preescolar, la guía de [juegos y turnos para una fiesta de 4 años](/blog/fiesta-de-4-anos-ideas-inflable-cdmx/) sirve con grupos de kínder. Para el cierre de ciclo está la guía de [graduación de kínder o primaria con inflable](/blog/graduacion-kinder-primaria-con-inflable/), y para julio y agosto, cómo [meter un inflable en el curso de verano](/blog/curso-de-verano-con-inflable-cdmx/).
 

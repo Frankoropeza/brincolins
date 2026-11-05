@@ -4,7 +4,7 @@ h1: "Fiesta infantil en blanco, boho o pastel: cómo decorar alrededor del Casti
 description: "Fiesta infantil en blanco con el Castillo Blanco: 4 paletas, qué globos sí van y cuáles compiten, y cómo evitar manchas. Compara ideas y cotiza tu fecha."
 excerpt: "Pampas, globos nude, madera y un castillo blanco se ven preciosos en la foto de referencia. Aquí ves cómo lograr que luzcan igual con niños de verdad brincando."
 publishDate: "2026-10-01"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Castillo Blanco"
 author: "Equipo BRINCOLINS"
 readTime: "15 min"
@@ -116,7 +116,7 @@ Las pampas dan volumen sin peso. Van en jarrones altos y estables a los costados
 
 ### Madera, mimbre y textiles
 
-Los elementos de madera y mimbre funcionan en la zona de papás, no junto al inflable. Una banca de madera, un par de canastas, un tapete. Ahí se sientan a mirar a sus hijos.
+Los elementos de madera y mimbre funcionan en la zona de papás, no junto al inflable. Una banca de madera, un par de canastas, un tapete. Ahí se sientan a mirar a sus hijos. Como se guardan y se vuelven a usar, también son la base de una [fiesta infantil sustentable con menos plástico](/blog/fiesta-infantil-sustentable-sin-plasticos/).
 
 #### Tapetes y cojines en la zona de papás
 

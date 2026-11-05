@@ -4,7 +4,7 @@ h1: "¿Cuánto cuesta una fiesta infantil en CDMX? Presupuesto por partidas en t
 description: "Cuánto cuesta una fiesta infantil en CDMX: presupuesto por partidas en 3 niveles, con precio fijo del inflable y rangos orientativos del resto. Calcula."
 excerpt: "Tres presupuestos armados partida por partida, con precios fijos de inflable, mesa infantil y paquetes, y rangos orientativos para pastel, comida, piñata y decoración."
 publishDate: "2026-11-04"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "13 min"
@@ -96,7 +96,7 @@ Pastel, comida, piñata, decoración y recuerdos los contratas o los haces tú. 
 | Decoración | $500 a $1,000 | $1,000 a $2,500 | $2,500 a $6,000 |
 | Recuerdos (30 piezas) | $300 a $600 | $600 a $1,500 | $1,500 a $3,000 |
 
-Úsalos como punto de partida y reemplázalos con tus cotizaciones reales en cuanto las tengas. Para calcular la comida con más precisión, la guía de [cuánta comida por niño en una fiesta infantil](/blog/cuanta-comida-por-nino-fiesta-infantil/) trae cantidades por tipo de menú.
+Úsalos como punto de partida y reemplázalos con tus cotizaciones reales en cuanto las tengas. Para calcular la comida con más precisión, la guía de [cuánta comida por niño en una fiesta infantil](/blog/cuanta-comida-por-nino-fiesta-infantil/) trae cantidades por tipo de menú. Y para no pagar de más en la partida dulce, la tabla de [tamaños de pastel y porciones por invitado](/blog/pastel-fiesta-infantil-porciones-y-tamanos/) te ayuda a pedir el tamaño justo.
 
 ![Mesa de cocina con hoja de presupuesto impresa, calculadora, pluma y tickets de compra, junto a una bolsa con platos desechables](/img/blog/cuanto-cuesta-una-fiesta-infantil-cdmx-presupuesto/escena-1.avif "Separar partidas fijas y variables hace que el presupuesto se arme en una tarde")
 

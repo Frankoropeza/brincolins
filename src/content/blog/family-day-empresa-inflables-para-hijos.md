@@ -4,7 +4,7 @@ h1: "Family day de empresa: cómo montar el área infantil con inflables para lo
 description: "Family day de empresa: arma el área infantil con inflables para hijos de 1 a 12 años, con supervisión, horario y factura con IVA. Cotiza por WhatsApp."
 excerpt: "Para quien organiza desde RH: qué inflables cubren de 1 a 12 años, cómo se reparten los supervisores y qué cerrar con el venue para que las familias se queden todo el día."
 publishDate: "2026-10-01"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Extremo"
 author: "Equipo BRINCOLINS"
 readTime: "15 min"
@@ -16,7 +16,7 @@ galleryImages:
   - "/img/inflables/extremo/extremo-carrera-cdmx.avif"
 intro:
   - "En un family day, los niños deciden si la familia se queda o se va temprano. Si los hijos de los colaboradores se aburren, los papás pasan el día cuidándolos en lugar de convivir con el equipo, y el evento pierde su razón de ser."
-  - "Si organizas desde **Recursos Humanos** o desde el comité, aquí tienes el orden de decisiones: qué inflables cubren de **1 a 12 años**, horario, supervisión, venue y factura. Los inflables son para los niños: **BRINCOLINS no renta inflables para adultos**."
+  - "Si organizas desde **Recursos Humanos** o desde el comité, aquí tienes el orden de decisiones: qué inflables cubren de **1 a 12 años**, horario, supervisión, venue y factura. Los inflables son ante todo para los niños; si el equipo también quiere subir, solo el Extremo, el Barco Pirata y el Castillo Blanco admiten adultos, en turnos separados."
 tags:
   - "family day empresa"
   - "eventos corporativos"
@@ -26,7 +26,7 @@ faqs:
   - question: "¿Qué es un family day en una empresa?"
     answer: "Es un evento en el que la empresa invita a sus colaboradores a convivir con sus familias, casi siempre en fin de semana y en un jardín, parque o venue. Suele incluir comida, actividades y un área infantil para los hijos, que es la que permite a los papás convivir con el equipo sin estar pendientes todo el tiempo."
   - question: "¿Los colaboradores pueden usar los inflables en el family day?"
-    answer: "No. Los inflables son para niños dentro del rango de edad de cada modelo y BRINCOLINS no renta inflables para adultos. Los colaboradores participan como supervisores, jueces de salida, cronometristas o porra desde fuera del inflable, y conviene avisarlo en la invitación para evitar malentendidos."
+    answer: "Solo en el Extremo, el Barco Pirata y el Castillo Blanco, los tres modelos del catálogo que admiten adultos, y siempre en turnos separados de los niños. Los demás modelos son solo para niños dentro de su rango de edad. Si prefieres que el día sea para los hijos, los colaboradores pueden participar como supervisores, jueces de salida o porra; conviene aclararlo en la invitación."
   - question: "¿Emiten factura para eventos de empresa?"
     answer: "Sí. Los precios del catálogo son netos y, cuando tu empresa requiere factura, se agrega 16% de IVA. Comparte los datos fiscales al confirmar la reservación para que todo quede listo antes del evento y el área de compras pueda tramitar el pago a tiempo."
   - question: "¿Con cuánto tiempo de anticipación se organiza el área infantil de un family day?"
@@ -61,13 +61,13 @@ El dato que más cambia la propuesta no es cuántas personas van. Es cuántos ni
 
 Exterior o techado, superficie, altura libre y distancia a una toma de corriente: eso define qué modelo cabe. El horario te dice cuándo abrir y cerrar el área. Y los supervisores, con nombre y turno, son requisito de la renta. No son un detalle opcional.
 
-## ¿Por qué los inflables del family day son sólo para los hijos?
+## ¿Los inflables del family day son solo para los hijos?
 
-Porque los inflables están hechos para niños dentro de un rango de edad. El Extremo es para niños de 3 a 12 años; el Castillo Baby, de 1 a 3. BRINCOLINS no renta inflables para adultos, tampoco en eventos de empresa: en tu family day, los inflables son para los hijos de los colaboradores.
+En un family day el protagonismo es de los niños, y cada modelo tiene su rango de edad: el Castillo Baby es de 1 a 3 años y el Extremo, de 3 a 12. Si los colaboradores también quieren subir, solo el Extremo, el Barco Pirata y el Castillo Blanco admiten adultos, siempre en turnos separados de los niños y nunca mezclados.
 
-Te conviene decirlo en la invitación. Así nadie llega con la idea de un reto entre gerentes, y el día del evento no tienes que explicar la regla en la fila. Y te ahorras discusiones. Tus colaboradores tienen un papel claro: supervisar, dar la salida en las carreras, cronometrar y echar porras desde fuera.
+Te conviene decidir la regla antes y decirla en la invitación: turnos solo para niños, o un horario aparte para adultos. Así el día del evento no tienes que explicarla en la fila y te ahorras discusiones. Tus colaboradores tienen un papel claro: supervisar, dar la salida en las carreras, cronometrar y echar porras desde fuera.
 
-¿Buscabas algo para el equipo? En la guía sobre [qué inflables hay para eventos de empresa y por qué todos son infantiles](/blog/inflables-para-adultos-eventos-corporativos/) te lo explicamos sin rodeos.
+¿Buscabas algo para el equipo? En la guía sobre [qué inflables hay para eventos de empresa y cuáles admiten adultos](/blog/inflables-para-adultos-eventos-corporativos/) te lo explicamos sin rodeos.
 
 ## ¿Qué inflables cubren de 1 a 12 años en un family day empresa?
 
@@ -228,12 +228,12 @@ En Polanco la entrega no tiene costo adicional; en el resto de Miguel Hidalgo y 
 Casi todos nacen en la planeación, no el día del evento. Revísala con calma. Esta checklist te sirve para revisar el plan con el comité antes de mandar la invitación, cuando todavía puedes corregir sin prisas ni llamadas de emergencia.
 
 - **Cotizar con el total de invitados.** Lo que define los modelos es la lista de edades de los niños, no cuántos adultos van.
-- **Dejar que colaboradores entren a los inflables.** No son para adultos, y decirlo en la invitación evita el momento incómodo.
+- **Mezclar adultos y niños en el mismo turno.** Si el equipo va a subir, que sea en un horario aparte y solo en los modelos que admiten adultos.
 - **No asignar supervisores con nombre y horario.** Sin responsables claros, la fila se desordena en minutos.
 - **Poner el Castillo Baby junto a la salida del circuito.** Los grandes llegan con velocidad; separa las zonas.
 - **Olvidar la corriente.** Cada inflable necesita una toma de 110 V a menos de 20 m.
 - **Montar el Extremo bajo techo.** Es sólo para exterior; si el venue es techado, cambia de modelo.
-- **Dejar los inflables abiertos durante la comida.** Correr recién comido termina en malestar y en filas desordenadas.
+- **Dejar los inflables abiertos durante la comida.** Correr recién comido termina en malestar y en filas desordenadas. Es el mismo criterio que en cualquier [fiesta de adultos con zona infantil](/blog/fiesta-para-adultos-con-zona-infantil-inflable/): bloques abiertos y cerrados según el programa.
 
 ## Siguiente paso: cotiza el área infantil de tu family day
 

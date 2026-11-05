@@ -4,7 +4,7 @@ h1: "Cómo organizar una fiesta de 6 años con un brincolín de dragón"
 description: "Planea una fiesta de 6 años con brincolín de dragón: horario por bloques, turnos, juegos, menú y qué revisar en el patio antes de rentar en CDMX. Cotiza."
 excerpt: "A los seis años los niños ya siguen una consigna corta, disfrutan competir sin que todo sea carrera y todavía quieren brincar. Un inflable de dragón puede ordenar la tarde si lo usas por bloques."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Dragones Rojos"
 author: "Equipo BRINCOLINS"
 readTime: "12 min"
@@ -84,7 +84,7 @@ El tema de dragones permite que el festejo tenga coherencia sin comprar decoraci
 
 - **Mensajes del dragón:** esconde seis tarjetas con una letra o símbolo; cada equipo debe encontrar las suyas y ordenar el mensaje final. Usa zonas visibles y asigna un adulto que indique los límites del patio.
 - **Escudo del equipo:** cartón, crayones y pegatinas bastan para que cada mesa diseñe un escudo. Es una buena actividad para la llegada porque no importa si un niño se incorpora diez minutos después.
-- **Relevo de tesoros:** lleva una pelota suave o una bolsita de tela de un cono a otro sin empujarse. El punto de regreso debe estar separado del inflable.
+- **Relevo de tesoros:** lleva una pelota suave o una bolsita de tela de un cono a otro sin empujarse. El punto de regreso debe estar separado del inflable. Si el festejado prefiere los autos, la [fiesta de carros de carreras con pista de cinta](/blog/fiesta-de-carros-de-carreras-con-inflable/) convierte este relevo en un gran premio.
 - **Pregunta del guardián:** antes de iniciar un turno, cada niño responde una adivinanza corta o elige una tarjeta de color. No elimina a nadie; sólo organiza la fila con calma.
 
 La [selección de juegos para una fiesta de 5 años](/blog/fiesta-de-5-anos-ideas-juegos-cdmx/) también aporta ideas que siguen funcionando a los seis si simplificas las reglas. Si quieres que el inflable sea una estación de una temática completa, la [fiesta de caballeros y dragones en CDMX](/blog/fiesta-de-dragones-y-caballeros-ideas/) desarrolla una ambientación distinta, con escudos y pistas, sin depender de personajes con licencia.

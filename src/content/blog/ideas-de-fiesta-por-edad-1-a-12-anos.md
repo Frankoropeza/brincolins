@@ -4,7 +4,7 @@ h1: "Ideas de fiesta infantil por edad, de 1 a 12 años: qué funciona, qué inf
 description: "Ideas de fiesta para cada edad de 1 a 12 años: qué funciona, qué inflable rentar según la edad, actividades y la guía detallada de cada cumpleaños. Elige."
 excerpt: "Una fiesta de 2 años y una de 10 no se parecen en nada: cambian los horarios, los juegos, el tamaño del grupo y el inflable. Aquí está el resumen edad por edad, con el enlace a la guía completa de cada cumpleaños."
 publishDate: "2026-11-04"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Ideas"
 author: "Equipo BRINCOLINS"
 readTime: "14 min"
@@ -59,7 +59,7 @@ Cada etapa tiene su ritmo. Lo que funciona a los 2 años aburre a los 7, y lo qu
 | 10 años | 4 a 5 h | Carreras, eliminatorias, premiación | Extremo | 3 a 12 años | $2,500 |
 | 11 y 12 años | 4 a 5 h | Retos, música, autonomía | Barco Pirata o Extremo | 3 a 12 años | $2,300 / $2,500 |
 
-Los precios son netos por evento; si necesitas factura, se agrega el 16 % de IVA. Las medidas y la altura libre de cada modelo están en su ficha, y la capacidad se confirma al cotizar.
+Los precios son netos por evento; si necesitas factura, se agrega el 16 % de IVA. Las medidas y la altura libre de cada modelo están en su ficha, y la capacidad se confirma al cotizar. La edad orienta, pero cada niño tiene su ritmo: si el festejado o algún invitado es autista o tiene sensibilidad sensorial, revisa cómo planear una [fiesta infantil inclusiva con agenda visual y zona tranquila](/blog/fiesta-infantil-inclusiva-ninos-con-autismo/).
 
 ## Fiestas de 1 a 3 años: grupos pequeños y horario de siesta
 
@@ -189,7 +189,7 @@ La guía de [fiesta de 10 años](/blog/fiesta-de-10-anos-ideas-actividades/) tra
 
 **Actividades:** retos por equipos, karaoke o pista de baile, juegos de mesa grandes y una mesa de comida libre.
 
-La guía de [fiesta de 11 y 12 años](/blog/fiesta-de-11-y-12-anos-ideas/) tiene ideas de retos, música y cómo elegir el inflable según el espacio.
+La guía de [fiesta de 11 y 12 años](/blog/fiesta-de-11-y-12-anos-ideas/) tiene ideas de retos, música y cómo elegir el inflable según el espacio. Para el siguiente paso, la guía de [fiesta para adolescentes de 13, 14 y 15 años](/blog/fiesta-de-13-a-15-anos-adolescentes-ideas/) cubre competencias, comida y supervisión.
 
 ## ¿Qué hacer si en la fiesta hay niños de varias edades?
 

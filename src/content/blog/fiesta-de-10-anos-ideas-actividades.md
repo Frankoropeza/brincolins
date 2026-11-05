@@ -29,7 +29,7 @@ faqs:
   - question: "¿Un inflable sigue siendo buena idea para niños de 10 años?"
     answer: "Sí, siempre que sea un circuito y no un brincolín para niños chicos. El Extremo es para niños de 3 a 12 años y está hecho para competir: pista de obstáculos, tobogán doble y dos carriles paralelos. Un castillo pequeño, en cambio, se les queda corto en tamaño y en reto."
   - question: "¿Pueden entrar al circuito los hermanos de secundaria o los papás?"
-    answer: "No. El rango del Extremo termina en 12 años y BRINCOLINS no renta inflables para adultos. Los hermanos mayores y los papás tienen trabajo de sobra fuera del inflable: dar la salida, cronometrar, anotar la llave de la eliminatoria y echar porras desde la orilla."
+    answer: "Sí, pero en su propio turno. El Extremo es uno de los tres modelos del catálogo que admiten adolescentes y adultos, junto con el Barco Pirata y el Castillo Blanco; lo que no se hace es mezclarlos con los niños de 10. Mientras corren los festejados, los hermanos mayores y los papás pueden dar la salida, cronometrar y anotar la llave de la eliminatoria."
   - question: "¿Cuánto cuesta rentar el Extremo para un cumpleaños?"
     answer: "El Extremo cuesta $2,500 neto por evento, con instalación y recolección incluidas. Si necesitas factura se agrega 16% de IVA. El traslado se cobra según la zona; en algunas colonias de la CDMX la entrega no tiene costo adicional, y tu caso se confirma al cotizar por WhatsApp."
   - question: "¿Cuántos niños pueden correr al mismo tiempo en el Extremo?"
@@ -45,7 +45,7 @@ Una fiesta de 10 años funciona cuando hay competencia con marcador: carreras de
 - A los 10 años los enganchan tres cosas: un marcador, un equipo y una revancha.
 - Una eliminatoria con repechaje hace que todos corran al menos dos veces.
 - Premia varias categorías en lugar de un solo ganador para evitar pleitos.
-- Los hermanos menores corren en su propio turno; los mayores de 12 y los adultos no entran.
+- Los hermanos menores corren en su propio turno; los mayores de 12 y los adultos corren aparte, al final.
 - El Extremo pide un área exterior de 8 × 4.5 m más margen y 4.5 m de altura libre.
 
 Son las cinco de la tarde y el timbre no para. Llega una docena de niños de 5.º, se saludan con el puño y en dos minutos te miran con la misma cara: ¿y ahora qué hacemos? Una fiesta de 10 años se gana en la primera media hora. Si el grupo encuentra un reto, se queda y compite hasta el pastel; si no, se dispersa entre celulares y pelotazos contra la barda.
@@ -153,7 +153,7 @@ No entran al circuito. Sin excepciones. Si vienen varios, sus papás te lo van a
 
 ### Los mayores de 12 y los adultos
 
-El rango del Extremo termina en **12 años**. No es para adolescentes mayores ni para adultos, y BRINCOLINS no renta inflables para adultos. Los hermanos de secundaria pueden ser jueces de salida, cronometristas o anotadores de la llave, y suelen tomarse el puesto muy en serio. Si te preocupa cómo integrarlos sin meterlos al inflable, hay ideas en [qué hacer con los chavos que ya se sienten grandes](/inflables/para-adultos/).
+El Extremo admite adolescentes y adultos, igual que el Barco Pirata y el Castillo Blanco, pero nunca en el mismo turno que los niños de 10: la diferencia de peso es el riesgo. Lo práctico es darles una ronda propia al final de la eliminatoria y, mientras tanto, ponerlos de jueces de salida, cronometristas o anotadores de la llave. Los modelos que aceptan ese rango están en [inflables para adolescentes y adultos](/inflables/para-adultos/).
 
 ## ¿Extremo o Barco Pirata para el grupo de 5.º?
 

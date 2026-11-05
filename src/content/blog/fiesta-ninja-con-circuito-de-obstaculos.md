@@ -4,7 +4,7 @@ h1: "Fiesta ninja con circuito de obstáculos: entrenamiento por estaciones, cin
 description: "Fiesta ninja de 3 a 12 años: estaciones de entrenamiento, cintas por nivel, decoración negro y rojo y un circuito inflable como prueba final. Cotiza fácil."
 excerpt: "Bandas en la frente, cintas de colores y un circuito de 8 metros como examen final. Así armas una fiesta ninja que engancha igual a un niño de 4 que a uno de 11."
 publishDate: "2026-10-01"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Extremo"
 author: "Equipo BRINCOLINS"
 readTime: "16 min"
@@ -34,7 +34,7 @@ faqs:
   - question: "¿Se puede hacer una fiesta ninja en un lugar cerrado?"
     answer: "Las estaciones de entrenamiento sí pueden ir bajo techo, pero el Extremo no: es sólo para exterior y necesita 4.5 m de altura libre. Lo práctico es poner las estaciones donde tengas techo y el circuito en el jardín, el patio, la explanada o la cancha."
   - question: "¿Los papás pueden hacer el circuito ninja con los niños?"
-    answer: "No. El Extremo es para niños de 3 a 12 años y BRINCOLINS no renta inflables para adultos. Los papás tienen el papel más divertido de la tarde: son los senseis que dan la salida, cronometran, cuidan la fila y entregan las cintas desde fuera del inflable."
+    answer: "Con los niños no, pero sí en su propio turno. El Extremo admite adultos, igual que el Barco Pirata y el Castillo Blanco, siempre sin mezclarlos con los niños para evitar choques por diferencia de peso. Mientras corren los pequeños ninjas, los papás son los senseis: dan la salida, cronometran, cuidan la fila y entregan las cintas."
 ---
 
 Una fiesta ninja se arma como un entrenamiento: cuatro estaciones (equilibrio, puntería, sigilo y agilidad), una cinta de color por cada estación superada y una prueba final en un circuito de obstáculos inflable. Funciona de 3 a 12 años si separas los turnos por edad, y se cierra con diplomas y la entrega de la cinta negra.
@@ -106,7 +106,7 @@ Que lo intente otra vez después de pasar por otra estación. Tú no tienes que 
 
 ## ¿Por qué el circuito Extremo es la prueba final del dojo?
 
-Porque reúne todo lo que entrenaron: correr, esquivar, mantener el equilibrio y salir por el tobogán. Y porque tiene dos carriles: dos ninjas arrancan al mismo tiempo y se ven competir, lo que le da a la prueba el peso de un examen de verdad.
+Porque reúne todo lo que entrenaron: correr, esquivar, mantener el equilibrio y salir por el tobogán. Y porque tiene dos carriles: dos ninjas arrancan al mismo tiempo y se ven competir, lo que le da a la prueba el peso de un examen de verdad. El mismo doble carril sirve de pista en una [fiesta de carros de carreras con circuito inflable](/blog/fiesta-de-carros-de-carreras-con-inflable/), con duelos de dos pilotos.
 
 El circuito se instala en **30 minutos**, necesita **4.5 m de altura libre** y es sólo para exterior. La prueba final se abre cuando el niño tiene sus cuatro cintas de color; antes de eso, el Extremo puede funcionar en turnos libres de práctica, también separados por edad. Con sus medidas a la mano puedes ubicar dónde van las estaciones alrededor.
 

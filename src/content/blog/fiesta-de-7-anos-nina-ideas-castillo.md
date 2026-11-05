@@ -4,7 +4,7 @@ h1: "Fiesta de 7 años para niña: ideas, juegos y cronograma con castillo infla
 description: "Fiesta de 7 años para niña: cronograma de 3 horas, retos por equipos, decoración y turnos en el Castillo de Princesas. Revisa tu espacio y cotiza en CDMX."
 excerpt: "A los siete años, el inflable funciona mejor como una estación dentro de un plan con retos, pausa de comida y juego en equipos."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-05"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
 readTime: "13 min"
@@ -93,7 +93,7 @@ Puedes armar una misión de corona en tres estaciones:
 2. Con esas tarjetas forman el orden de una corona de cartulina o descifran dónde está la siguiente pista.
 3. Al terminar, el equipo elige el orden de su turno en la resbaladilla. No necesita haber ganador único: todos llegan al último bloque de juego.
 
-Otra alternativa es el reto de baile por consignas: suena música, se detiene y quien guía indica una pose, una caminata de reina o un saludo de exploradora. Es útil cuando el jardín es estrecho porque requiere poca distancia y no agrega objetos al piso. Si la festejada prefiere una actividad más serena, las estaciones de una [fiesta spa para niñas con inflable](/blog/fiesta-spa-para-ninas-con-inflable/) muestran cómo intercalar cuidado de uñas o mascarillas de papel con el juego activo. Para contrastar una agenda de cumpleaños con temática de aventura, también sirve la [fiesta de 6 años con brincolín de dragón](/blog/fiesta-de-6-anos-ideas-inflable/): cambia el tema, pero confirma que los turnos y las pausas hacen más manejable un grupo de primaria.
+Otra alternativa es el reto de baile por consignas: suena música, se detiene y quien guía indica una pose, una caminata de reina o un saludo de exploradora. Es útil cuando el jardín es estrecho porque requiere poca distancia y no agrega objetos al piso. Si la festejada y sus amigas prefieren el balón, la [fiesta de futbol infantil con equipos por edad](/blog/fiesta-de-futbol-infantil-con-inflable/) explica cómo armar un torneo corto donde todas juegan. Si la festejada prefiere una actividad más serena, las estaciones de una [fiesta spa para niñas con inflable](/blog/fiesta-spa-para-ninas-con-inflable/) muestran cómo intercalar cuidado de uñas o mascarillas de papel con el juego activo. Para contrastar una agenda de cumpleaños con temática de aventura, también sirve la [fiesta de 6 años con brincolín de dragón](/blog/fiesta-de-6-anos-ideas-inflable/): cambia el tema, pero confirma que los turnos y las pausas hacen más manejable un grupo de primaria.
 
 ## ¿Cómo haces que el castillo sea una estación y no un lugar de amontonamiento?
 
