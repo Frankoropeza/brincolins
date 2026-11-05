@@ -19,25 +19,27 @@ import ProductCard from "@/components/ProductCard.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import { INFLABLES_ACTIVOS, BADGE, PRICE_NOTE_LONG } from "@/data/inflables";
-import { COVERAGE_ZONES } from "@/data/coverage";
 import { SITE_URL } from "@/data/site";
 
-const title = "Renta de inflables económicos en CDMX desde $1,400";
-const description = "Renta de inflables económicos en CDMX y Edomex desde $1,400 MXN. Qué incluye el precio, qué lo encarece y cuándo no conviene el modelo más barato.";
+const title = "Renta de inflables económicos y brincolines desde $1,400";
+const description = "Brincolines e inflables económicos desde $1,400 por evento, con instalación y retiro. Precios de los 4 más accesibles, qué incluye y qué encarece. Cotiza.";
 
 /* Los cuatro más accesibles del catálogo, ordenados por precio. */
 const BARATOS = INFLABLES_ACTIVOS.slice(0, 4);
 const MAS_BARATO = INFLABLES_ACTIVOS[0];
-const SIN_CARGO = COVERAGE_ZONES.filter(z => !z.shippingFee && !["cdmx", "edomex"].includes(z.slug));
 
 const faqs = [
+  {
+    question: "¿Cuánto cuesta la renta de un brincolín?",
+    answer: `De ${MAS_BARATO.price} a $2,600 MXN por evento de 4 a 6 horas. Los cuatro más accesibles son el ${BARATOS.map(i => `${i.name} (${i.price})`).join(", ").replace(/, ([^,]*)$/, " y $1")}. Todos incluyen entrega, instalación, motor y recolección; el envío se suma según tu zona y el IVA solo si pides factura.`,
+  },
   {
     question: "¿Cuál es el inflable más barato que rentan?",
     answer: `El ${MAS_BARATO.name}, desde ${MAS_BARATO.price} MXN por evento de 4 a 6 horas. Es el modelo más compacto del catálogo y está pensado para ${MAS_BARATO.ages}. El espacio y la capacidad se confirman al cotizar. Es barato porque es pequeño, no porque sea de menor calidad: se revisa y sanitiza igual que los demás.`,
   },
   {
     question: "¿El precio barato esconde cargos extra?",
-    answer: `No hay cargos ocultos, pero sí dos cosas que pueden sumarse y que preferimos decir por delante. Una: ${PRICE_NOTE_LONG.toLowerCase()} Dos: en municipios distantes del Estado de México y en algunas alcaldías del sur y oriente de la CDMX hay un cargo de envío según la distancia, que publicamos en la página de cada zona. En Polanco el envío ya va incluido.`,
+    answer: `No hay cargos ocultos, pero sí dos cosas que pueden sumarse y que preferimos decir por delante. Una: ${PRICE_NOTE_LONG.toLowerCase()} Dos: el envío según tu zona, que no tiene costo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco, y en el resto va de $100 a $600 según la distancia. Lo publicamos en la página de cada zona.`,
   },
   {
     question: "¿Sale más barato si lo recojo yo?",
@@ -45,7 +47,7 @@ const faqs = [
   },
   {
     question: "¿Hay descuento por rentar varios inflables?",
-    answer: "Para eventos con varios inflables —kermeses escolares, ferias, activaciones— revisamos la disponibilidad y te cotizamos el conjunto. El precio depende de los modelos, la zona y la duración. Cuéntanos el evento y te damos el precio por escrito.",
+    answer: "Para eventos con varios inflables, como kermeses escolares, ferias o activaciones, revisamos la disponibilidad y te cotizamos el conjunto. El precio depende de los modelos, la zona y la duración. Cuéntanos el evento y te damos el precio por escrito.",
   },
   {
     question: "¿Conviene siempre el más barato?",
@@ -98,7 +100,7 @@ const schema = {
         <div>
           <span class="hero__badge">Presupuesto</span>
           <h1 class="hero__title">Renta de <span class="highlight">inflables económicos</span> en CDMX</h1>
-          <p class="hero__trust-line"><span>Desde {MAS_BARATO.price} MXN · instalación incluida · traslado según zona</span></p>
+          <p class="hero__trust-line"><span>Desde {MAS_BARATO.price} MXN por evento de 4 a 6 horas · instalación y retiro incluidos · envío según zona</span></p>
           <div class="hero__ctas">
             <a href="#opciones" class="btn btn-primary btn-lg">Ver opciones desde {MAS_BARATO.price}</a>
             <a href="/precios/" class="btn btn-outline btn-lg">Lista completa de precios</a>
@@ -112,8 +114,8 @@ const schema = {
             antes de cada evento.
           </p>
           <p class="hero__copy-text">
-            Abajo están los cuatro más accesibles, qué incluye el precio y —lo que casi
-            nadie publica— <strong>qué puede encarecerlo</strong>. Preferimos que lo sepas
+            Abajo están los cuatro más accesibles, qué incluye el precio y, lo que casi
+            nadie publica, <strong>qué puede encarecerlo</strong>. Preferimos que lo sepas
             antes de apartar la fecha y no el día del evento.
           </p>
         </div>
@@ -175,19 +177,19 @@ const schema = {
           <h3 class="eco-col__title">Puede sumarse</h3>
           <ul class="eco-col__list">
             <li>
-              <strong>IVA</strong> — sólo si necesitas factura. Los precios publicados son netos.
+              <strong>IVA:</strong> 16%, solo si necesitas factura. Los precios publicados son netos.
             </li>
             <li>
-              <strong>Envío</strong> — de $100 a $600 según la distancia, en municipios
-              distantes del Estado de México y algunas alcaldías del sur y oriente.
-              En Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco va incluido.
+              <strong>Envío:</strong> de $100 a $300 en las alcaldías de la CDMX con monto publicado y de
+              $150 a $600 en el Estado de México, según la distancia.
+              En Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco no tiene costo.
               <a href="/renta-de-inflables-cerca-de-mi/">Consulta el cargo de tu zona</a>.
             </li>
             <li>
-              <strong>Planta de luz</strong> — sólo si el lugar no tiene toma de corriente.
+              <strong>Planta de luz:</strong> solo si el lugar no tiene toma de corriente.
             </li>
             <li>
-              <strong>Horas extra</strong> — si el evento se alarga más allá de lo contratado.
+              <strong>Horas extra:</strong> si el evento se alarga más allá de lo contratado.
             </li>
           </ul>
         </div>
@@ -208,7 +210,7 @@ const schema = {
         <p><strong>Regla corta:</strong> elige el modelo por el número de niños y su edad, no por el precio. Después ajusta el presupuesto con la duración.</p>
         <p>
           Si dudas entre dos modelos, dinos cuántos niños esperas, sus edades y el espacio
-          que tienes. Te decimos cuál cabe y cuál rinde — incluso si es el más barato.
+          que tienes. Te decimos cuál cabe y cuál rinde, aunque sea el más barato.
         </p>
       </div>
     </div>

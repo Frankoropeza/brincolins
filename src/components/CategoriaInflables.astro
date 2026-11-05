@@ -27,15 +27,36 @@ import CtaBanner     from "@/components/CtaBanner.astro";
 import FacetasInflables from "@/components/FacetasInflables.astro";
 import TablaComparativa from "@/components/TablaComparativa.astro";
 import { inflablesDeCategoria, cardProps, type Categoria } from "@/data/categorias";
-import { PRICE_NOTE_LONG } from "@/data/inflables";
-import { SITE_URL } from "@/data/site";
+import { PRICE_NOTE_LONG, REQ_POWER, REQ_SURFACE, REQ_ADULT } from "@/data/inflables";
+import { SITE_URL, buildWhatsAppUrl } from "@/data/site";
+import { getCoverageZone } from "@/data/coverage";
 
 interface Props { categoria: Categoria; }
 const { categoria: cat } = Astro.props;
 
 const items   = inflablesDeCategoria(cat);
 const desde   = items.length ? items.reduce((m, i) => (i.priceNumber < m.priceNumber ? i : m)).price : "";
+const hasta   = items.length ? items.reduce((m, i) => (i.priceNumber > m.priceNumber ? i : m)).price : "";
+const rango   = desde && hasta && desde !== hasta ? `de ${desde} a ${hasta}` : desde ? `desde ${desde}` : "";
 const url     = `${SITE_URL}/inflables/${cat.slug}/`;
+const waUrl   = buildWhatsAppUrl(`Hola BRINCOLINS, quiero cotizar ${cat.name.toLowerCase()} para mi evento.`);
+
+/* Zonas de cobertura: el nombre y el envío salen de coverage.ts (SSoT).
+   Un slug inexistente se descarta en silencio para no publicar un 404. */
+const zonas = cat.zonas
+  .map((z) => ({ ...z, data: getCoverageZone(z.slug) }))
+  .filter((z) => Boolean(z.data));
+
+/* Qué incluye la renta: mismas condiciones en todo el sitio
+   (reglas de negocio 2026-11-04), más la nota propia de la categoría. */
+const incluye = [
+  "Entrega, instalación y recolección del inflable; el montaje toma de 15 a 30 minutos.",
+  "Motor inflador funcionando durante todo el evento, de 4 a 6 horas.",
+  "Sanitización del inflable antes de cada evento.",
+  "Anclaje con estacas o contrapesos según el tipo de piso.",
+  "Reprogramación sin costo si llueve el día del evento.",
+];
+const requisitos = [REQ_POWER, REQ_SURFACE, REQ_ADULT];
 
 /* CollectionPage + ItemList. Los competidores que rankean en estas
    keywords sólo declaran Organization o SiteNavigationElement. */
@@ -107,22 +128,25 @@ const schema = {
         <div>
           <span class="hero__badge">{cat.badge}</span>
           <h1 class="hero__title">{cat.h1}</h1>
-          <p class="hero__desc">{items.length} {items.length === 1 ? "modelo disponible" : "modelos disponibles"} en CDMX y Estado de México{desde ? ` desde ${desde} MXN` : ""}, con instalación y recolección incluidas; traslado según zona.</p>
+          {/* Respuesta directa a la intención: qué es, para quién, cuánto cuesta y qué incluye. */}
+          <p class="hero__desc">{cat.respuesta}</p>
+          <p class="cat-precio"><strong>{items.length} {items.length === 1 ? "modelo" : "modelos"} {rango} MXN por evento</strong> · instalación y recolección incluidas · traslado según zona</p>
           <div class="hero__ctas">
-            <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar {cat.name.toLowerCase()}</a>
-            <a href="/precios/" class="btn btn-outline btn-lg">Precios de renta de inflables</a>
+            <a href={waUrl} class="btn btn-primary btn-lg" target="_blank" rel="noopener">Apartar por WhatsApp</a>
+            <a href="/cotizar/" class="btn btn-outline btn-lg">Cotizar {cat.name.toLowerCase()}</a>
           </div>
         </div>
         <div class="hero__copy">
-          <p class="hero__copy-text">{cat.intro[0]}</p>
-          <p class="hero__copy-text">{cat.intro[1]}</p>
+          <p class="hero__copy-text"><strong>Puntos clave</strong></p>
+          <ul class="cat-puntos">
+            {cat.puntosClave.map((p) => <li>{p}</li>)}
+          </ul>
           {/* Enlace contextual a la home y a las páginas dinero. Las 11
-              categorías son las páginas más largas del sitio (~2,000
-              palabras) y no pasaban ninguna señal de keyword hacia arriba. */}
+              categorías son las páginas más largas del sitio y no pasaban
+              ninguna señal de keyword hacia arriba. */}
           <p class="hero__copy-text hero__copy-text--links">
-            Esta categoría es parte del servicio de <a href="/">renta de inflables en CDMX</a> de BRINCOLINS:
-            mismo catálogo de <a href="/inflables/brincolines/">renta de brincolines</a>,
-            los mismos <a href="/precios/">precios de renta de inflables</a> y entrega en toda la Zona Metropolitana.
+            Esta categoría es parte del servicio de <a href="/">renta de inflables en CDMX</a> de BRINCOLINS{cat.slug !== "brincolines" ? <>: mismo catálogo de <a href="/inflables/brincolines/">renta de brincolines</a> y</> : <>, con</>}
+            los mismos <a href="/precios/">precios de renta de inflables</a> en toda la Zona Metropolitana.
           </p>
         </div>
       </div>
@@ -139,7 +163,7 @@ const schema = {
         title={`¿Qué ${cat.name.toLowerCase()} están disponibles para renta?`}
         subtitle="Precio, medidas, edades y capacidad de cada modelo de esta categoría."
         copy1={cat.intro[0]}
-        copy2="Cada ficha incluye las medidas del inflable, el área libre que hay que despejar, la altura necesaria y la capacidad simultánea. Si tienes dudas sobre cuál cabe en tu espacio, mándanos las medidas por WhatsApp y te confirmamos antes de que apartes la fecha."
+        copy2={cat.intro[1]}
       />
       <div class="grid-4">
         {items.map((inf) => <ProductCard {...cardProps(inf)} />)}
@@ -151,8 +175,8 @@ const schema = {
   {items.length > 1 && (
     <section class="section section--alt">
       <div class="container">
-        <TablaComparativa inflables={items} caption={`Comparativa de ${cat.name.toLowerCase()} — medidas, espacio y capacidad`} />
-        <p class="cat-nota">{PRICE_NOTE_LONG}</p>
+        <TablaComparativa inflables={items} caption={`Comparativa de ${cat.name.toLowerCase()}: medidas, espacio y capacidad`} />
+        <p class="cat-nota">{PRICE_NOTE_LONG} Si tienes dudas sobre cuál cabe en tu espacio, mándanos las medidas por WhatsApp y te confirmamos antes de que apartes la fecha.</p>
       </div>
     </section>
   )}
@@ -167,6 +191,49 @@ const schema = {
         copy1={cat.guia[0]}
         copy2={cat.guia[1]}
       />
+    </div>
+  </section>
+
+  <!-- 6b · QUÉ INCLUYE LA RENTA -->
+  <section class="section section--alt">
+    <div class="container cat-cols">
+      <div>
+        <h2 class="section-title">¿Qué incluye la renta de {cat.name.toLowerCase()}?</h2>
+        <ul class="cat-lista">
+          {incluye.map((t) => <li>{t}</li>)}
+        </ul>
+        <p class="cat-nota">{cat.incluyeNota}</p>
+      </div>
+      <div>
+        <h3>¿Qué necesitas tener listo?</h3>
+        <ul class="cat-lista">
+          {requisitos.map((t) => <li>{t}.</li>)}
+        </ul>
+        <p class="cat-nota">Se aparta con 50% de anticipo y el resto se paga el día del evento. {PRICE_NOTE_LONG}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6c · GUÍAS Y ZONAS -->
+  <section class="section">
+    <div class="container cat-cols">
+      <div>
+        <h2 class="section-title">Guías para elegir y planear</h2>
+        <ul class="cat-lista cat-lista--links">
+          {cat.guias.map((g) => <li><a href={g.href}>{g.anchor.charAt(0).toUpperCase() + g.anchor.slice(1)}</a></li>)}
+        </ul>
+      </div>
+      <div>
+        <h2 class="section-title">¿Dónde rentamos {cat.name.toLowerCase()}?</h2>
+        <ul class="cat-lista cat-lista--links">
+          {zonas.map((z) => (
+            <li>
+              <a href={`/cobertura/${z.slug}/`}>{cat.anchor.charAt(0).toUpperCase() + cat.anchor.slice(1)} en {z.data!.zone}</a>: {z.motivo}
+              {z.data!.shippingFee ? ` Traslado: ${z.data!.shippingFee.toLowerCase()}.` : " Traslado incluido."}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   </section>
 
@@ -214,5 +281,29 @@ const schema = {
     margin: 1rem 0 0;
     font-size: .9rem;
     color: var(--text-muted, #5a5a66);
+  }.cat-precio {
+    margin: 0 0 1.25rem;
+    font-size: .95rem;
+  }.cat-puntos {
+    margin: 0 0 1rem;
+    padding-left: 1.2rem;
+    display: grid;
+    gap: .4rem;
+  }.cat-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    align-items: start;
+  }.cat-lista {
+    margin: 1rem 0 0;
+    padding-left: 1.2rem;
+    display: grid;
+    gap: .55rem;
+  }.cat-lista--links a {
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  @media (max-width: 768px) {.cat-cols { grid-template-columns: 1fr; gap: 1.5rem; }
   }
 </style>

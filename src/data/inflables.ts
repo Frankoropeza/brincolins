@@ -280,6 +280,6 @@ export function getSpecRows(i: Inflable) {
     { label: "Edades",           value: i.ages },
     { label: "Capacidad",        value: i.capacity },
     { label: "Instalación",      value: i.installTime },
-    { label: "Apto interiores",  value: i.indoor ? "Sí" : "No — sólo exteriores" },
+    { label: "Apto interiores",  value: i.indoor ? "Sí" : "No, solo exteriores" },
   ];
 }

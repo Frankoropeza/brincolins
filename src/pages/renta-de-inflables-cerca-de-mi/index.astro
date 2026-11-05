@@ -24,46 +24,63 @@ import { COVERAGE_ZONES } from "@/data/coverage";
 import { INFLABLES_ACTIVOS, PRICE_RANGE, MODELOS_COUNT, BADGE } from "@/data/inflables";
 import { SITE_URL, WHATSAPP } from "@/data/site";
 
-const title = "Renta de inflables cerca de mí en CDMX y Estado de México";
-const description = "¿Buscas renta de inflables cerca de ti? Cubrimos las 16 alcaldías de CDMX y los principales municipios del Edomex. Consulta tu zona y cotiza en minutos.";
+const title = "Renta de inflables cerca de mí: zonas y costo de envío";
+const description = "¿Llegamos a tu colonia? Revisa las 32 zonas de CDMX y Edomex con su cargo de envío, inflables desde $1,400 con instalación, y cotiza con tu ubicación.";
 
-/* Zonas reales desde coverage.ts — nunca listas escritas a mano. */
+/* Zonas reales desde coverage.ts: nunca listas escritas a mano.
+   El resumen de envío de cada zona sale de la nota que la página hub
+   (/cobertura/cdmx/ o /cobertura/edomex/) publica para esa zona, así la
+   tabla de esta página y la del hub no pueden contradecirse. */
+const hubCdmx   = COVERAGE_ZONES.find(z => z.slug === "cdmx");
+const hubEdomex = COVERAGE_ZONES.find(z => z.slug === "edomex");
+const notaHub = new Map(
+  [...(hubCdmx?.childZones ?? []), ...(hubEdomex?.childZones ?? [])].map((c): [string, string] => [c.href, c.note])
+);
 const zonas = COVERAGE_ZONES.filter(z => !["cdmx", "edomex"].includes(z.slug));
-const sinCargo  = zonas.filter(z => !z.shippingFee);
-const conCargo  = zonas.filter(z => z.shippingFee);
+const filaZona = (z: (typeof zonas)[number]) => {
+  const href = `/cobertura/${z.slug}/`;
+  const nota = notaHub.get(href) ?? "";
+  const [envio, ...resto] = nota.split(" · ");
+  const fee = (z.shippingFee ?? "").trim();
+  return {
+    href,
+    name: z.zone,
+    envio: envio || (fee === "Según zona" ? "Según colonia" : fee || "Incluido"),
+    detalle: resto.join(" · "),
+  };
+};
+const filasCdmx   = zonas.filter(z => z.areaParent === "Ciudad de México").map(filaZona);
+const filasEdomex = zonas.filter(z => z.areaParent === "Estado de México").map(filaZona);
+const N_MUNICIPIOS = filasEdomex.length;
 
 const waHref = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(
-  "Hola BRINCOLINS, quiero saber si llegan a mi zona y cotizar un inflable."
+  "Hola BRINCOLINS, quiero saber si llegan a mi zona. Mi colonia y municipio o alcaldía son: "
 )}`;
 
 const faqs = [
   {
     question: "¿Cómo sé si BRINCOLINS llega hasta mi colonia?",
-    answer: `Cubrimos las 16 alcaldías de la Ciudad de México y ${conCargo.length + sinCargo.length - 16} municipios del Estado de México. Busca tu zona en la lista de esta página y entra a su página para ver las colonias específicas. Si no aparece, escríbenos por WhatsApp con tu colonia: si está en zonas limítrofes casi siempre podemos llegar.`,
+    answer: `Cubrimos las 16 alcaldías de la Ciudad de México y ${N_MUNICIPIOS} municipios del Estado de México. Busca tu alcaldía o municipio en la tabla de esta página y entra a su página para ver las colonias. Si no aparece, mándanos tu colonia o tu ubicación por WhatsApp: en zonas limítrofes casi siempre podemos llegar.`,
   },
   {
     question: "¿Cuánto cuesta el envío a mi zona?",
-    answer: `En Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco el envío ya está incluido en el precio del inflable. En el resto de CDMX y Estado de México se atiende con costo de traslado según zona. Cada página publica el cargo correspondiente, y te lo confirmamos por escrito antes de que apartes la fecha.`,
+    answer: "En Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco el traslado no tiene costo. En el resto de la CDMX va de $100 a $300 donde hay monto publicado, y en el Estado de México de $150 a $600 según el municipio. La tabla muestra el cargo de cada zona y te lo confirmamos por escrito antes de que apartes.",
+  },
+  {
+    question: "¿Puedo mandar mi ubicación por WhatsApp para cotizar?",
+    answer: "Sí, es la forma más rápida. Comparte tu ubicación o escribe calle, colonia y alcaldía o municipio, junto con la fecha y la edad de los niños. Con eso confirmamos cobertura, cargo de envío y disponibilidad del modelo. Atendemos de lunes a domingo, de 8:00 a 20:00.",
   },
   {
     question: "¿Con cuánta anticipación debo reservar?",
-    answer: "Para fines de semana normales, de una a dos semanas. Para mayo, junio y diciembre —y para cualquier sábado de temporada alta— recomendamos tres o cuatro semanas: son las fechas que primero se agotan. Si tu evento es mañana, escríbenos igual: a veces tenemos disponibilidad de último momento.",
-  },
-  {
-    question: "¿A qué hora llegan a instalar?",
-    answer: "Llegamos con anticipación suficiente para dejar el inflable listo antes de la hora de inicio que acordamos. El montaje toma entre 15 y 30 minutos según el modelo. Coordinamos el horario exacto contigo al confirmar la reserva.",
+    answer: "Para fines de semana normales, de una a dos semanas. Para mayo, junio y diciembre, y para cualquier sábado de temporada alta, recomendamos tres o cuatro semanas: son las fechas que primero se agotan. Si tu evento es mañana, escríbenos igual: a veces hay disponibilidad de último momento.",
   },
   {
     question: "¿Qué necesito tener listo en mi domicilio?",
-    answer: "Tres cosas: el espacio libre que pide el modelo que elijas (de 3×3 m el más chico a 9×7 m el más grande), una toma de corriente de 110V a menos de 20 metros del área, y una persona adulta que reciba al equipo. Si el evento es en condominio o salón, avísanos para gestionar el acceso del vehículo.",
+    answer: "Un área plana y despejada para el modelo que elijas, una toma de corriente de 110 V a menos de 20 metros y una persona adulta que reciba al equipo. Si el evento es bajo techo, solo caben el Castillo Baby y los Gusanitos, que piden 3.2 m de altura libre. Si es en condominio o salón, avísanos para gestionar el acceso del vehículo.",
   },
   {
-    question: "¿Hay renta de inflables cerca de mi colonia?",
-    answer: `Sí: operamos como servicio a domicilio, no como local físico, así que la pregunta correcta no es qué tan cerca estamos sino si tu colonia entra en la ruta. Cubrimos ${zonas.length} zonas — las 16 alcaldías de CDMX y ${zonas.length - 16} municipios del Estado de México — y solo en Polanco el traslado ya va incluido en el precio del inflable. Busca tu zona en la lista de abajo o mándanos tu colonia por WhatsApp y te confirmamos en minutos.`,
-  },
-  {
-    question: "¿Cuánto cuesta rentar un inflable?",
-    answer: `De ${PRICE_RANGE} MXN por evento de 4 a 6 horas, según el modelo. El precio incluye entrega, instalación, motor, sanitización y recolección. Son precios netos: si necesitas factura se agrega el 16% de IVA.`,
+    question: "¿Cuánto cuesta rentar un inflable cerca de mí?",
+    answer: `De ${PRICE_RANGE} MXN por evento de 4 a 6 horas, según el modelo, más el envío de tu zona si aplica. El precio incluye entrega, instalación, motor, sanitización y recolección. Son precios netos: si necesitas factura se agrega el 16% de IVA.`,
   },
 ];
 
@@ -119,6 +136,11 @@ const serviceSchema = {
           <h1 class="hero__title">
             Renta de inflables <span class="highlight">cerca de ti</span>
           </h1>
+          <p class="hero__desc">
+            Si tu fiesta es en la CDMX o en {N_MUNICIPIOS} municipios del Estado de México, llegamos a tu domicilio:
+            no hay sucursal a la que ir. Busca tu zona en la tabla, revisa el cargo de envío y mándanos tu
+            ubicación por WhatsApp para confirmar fecha y precio cerrado.
+          </p>
           <p class="hero__trust-line">
             <span>{zonas.length} zonas cubiertas · {MODELOS_COUNT} modelos · de {PRICE_RANGE} MXN</span>
           </p>
@@ -133,18 +155,18 @@ const serviceSchema = {
         <div class="hero__copy">
           <p class="hero__copy-text">
             No tenemos una tienda a la que tengas que ir: <strong>nosotros llegamos a tu domicilio</strong>.
-            Cubrimos las 16 alcaldías de la Ciudad de México y {zonas.length - 16} municipios del
+            Cubrimos las 16 alcaldías de la Ciudad de México y {N_MUNICIPIOS} municipios del
             Estado de México, con entrega, instalación y recolección incluidas en el servicio.
           </p>
           <p class="hero__copy-text">
             Lo que la mayoría quiere saber primero es si llegamos a su colonia y cuánto cuesta
-            el traslado. Abajo está la lista completa de zonas, con el cargo de envío real de
-            cada una — <strong>en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco ya viene incluido en el precio</strong>.
+            el traslado. Abajo está la tabla de zonas con el cargo de envío real de cada una:
+            <strong>en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco no tiene costo</strong>.
           </p>
           <p class="hero__copy-text hero__copy-text--links">
-            Es el mismo servicio de <a href="/">renta de inflables en CDMX</a>, con el catálogo completo de
-            <a href="/inflables/brincolines/">renta de brincolines</a> y los
-            <a href="/precios/">precios de renta de inflables</a> publicados.
+            Antes de escribirnos, revisa los <a href="/precios/">precios de renta de inflables por modelo</a>
+            y la <a href="/blog/medidas-de-inflables-para-fiestas-tabla/">tabla de medidas de inflables</a>
+            para saber cuál cabe en tu espacio.
           </p>
         </div>
       </div>
@@ -158,16 +180,16 @@ const serviceSchema = {
     <div class="container">
       <SectionHeader
         badge="Cómo funciona"
-        title="¿Cómo funciona la renta de inflables cerca de ti?"
-        subtitle="Cuatro pasos, sin visitas a sucursal ni papeleo."
-        copy1="El proceso completo se resuelve por WhatsApp. Nos dices dónde y cuándo, te confirmamos disponibilidad y el precio con el traslado de tu zona, y el día del evento llegamos a montar."
+        title="¿Cómo saber si llegamos a tu domicilio y cotizar?"
+        subtitle="Cuatro pasos por WhatsApp, sin visitas a sucursal ni papeleo."
+        copy1="Busca tu alcaldía o municipio en la tabla de abajo. Si aparece, ya sabes el cargo de envío; si no, mándanos tu ubicación y revisamos la ruta. Con la dirección, la fecha y la edad de los niños te confirmamos disponibilidad y el precio cerrado, y el día del evento llegamos a montar."
         copy2="No hay contrato que firmar en persona ni depósito en garantía por el equipo. Sólo el anticipo del 50% para apartar la fecha, y el resto el día de la fiesta."
       />
       <div class="cerca-pasos">
         <div class="cerca-paso">
           <span class="cerca-paso__num">1</span>
-          <h3 class="cerca-paso__title">Dinos tu colonia y fecha</h3>
-          <p class="cerca-paso__desc">Por WhatsApp o con el formulario. Con eso verificamos cobertura y disponibilidad del modelo que quieres.</p>
+          <h3 class="cerca-paso__title">Comparte tu ubicación y fecha</h3>
+          <p class="cerca-paso__desc">Por WhatsApp (ubicación o calle, colonia y alcaldía o municipio) o con el formulario. Con eso verificamos cobertura y disponibilidad.</p>
         </div>
         <div class="cerca-paso">
           <span class="cerca-paso__num">2</span>
@@ -194,41 +216,51 @@ const serviceSchema = {
       <SectionHeader
         badge="Tu zona"
         title="¿Qué alcaldías y municipios cubrimos?"
-        subtitle="Las zonas donde entregamos, con su cargo de envío real."
+        subtitle="Tabla de zonas con su cargo de envío real y enlace a cada página."
         copy1="Cada zona tiene su propia página con las colonias que cubrimos, los tiempos de llegada y los modelos que mejor funcionan ahí según el tipo de espacio más común. Si tu colonia no aparece por nombre, entra a la página de tu alcaldía o municipio: ahí está el listado completo."
-        copy2="Los cargos de envío reflejan la distancia desde nuestro punto de salida. No son un margen extra: son el traslado real del equipo y del personal de montaje."
+        copy2="Los cargos de envío reflejan la distancia desde nuestro almacén en la Ciudad de México. No son un margen extra: son el traslado real del equipo y del personal de montaje. Instalación y retiro van siempre dentro del precio del inflable."
       />
 
-      <h3 class="cerca-zonas__title">Sin cargo adicional de traslado</h3>
-      <p class="cerca-zonas__note">Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco.</p>
-      <ul class="cerca-zonas">
-        {sinCargo.map(z => (
-          <li>
-            <a href={`/cobertura/${z.slug}/`} class="cerca-zona cerca-zona--free">
-              <span class="cerca-zona__name">{z.zone}</span>
-              <span class="cerca-zona__fee cerca-zona__fee--free">Envío incluido</span>
-            </a>
-          </li>
-        ))}
-      </ul>
+      <h3 class="cerca-zonas__title">Ciudad de México: 16 alcaldías</h3>
+      <p class="cerca-zonas__note">Sin costo de traslado en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco. Resumen completo en la <a href="/cobertura/cdmx/">guía de cobertura de la CDMX</a>.</p>
+      <div class="cerca-tabla-wrap">
+        <table class="cerca-tabla">
+          <caption class="sr-only">Cargo de envío de inflables por alcaldía de la Ciudad de México</caption>
+          <thead><tr><th scope="col">Alcaldía o zona</th><th scope="col">Cargo de envío</th><th scope="col">Colonias y espacios</th></tr></thead>
+          <tbody>
+            {filasCdmx.map(f => (
+              <tr>
+                <th scope="row"><a href={f.href}>{f.name}</a></th>
+                <td>{f.envio}</td>
+                <td>{f.detalle}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
 
-      <h3 class="cerca-zonas__title">Con cargo de envío por distancia</h3>
-      <p class="cerca-zonas__note">El importe exacto se confirma con tu dirección antes de apartar la fecha.</p>
-      <ul class="cerca-zonas">
-        {conCargo.map(z => (
-          <li>
-            <a href={`/cobertura/${z.slug}/`} class="cerca-zona">
-              <span class="cerca-zona__name">{z.zone}</span>
-              <span class="cerca-zona__fee">{z.shippingFee}</span>
-            </a>
-          </li>
-        ))}
-      </ul>
+      <h3 class="cerca-zonas__title">Estado de México: {N_MUNICIPIOS} municipios</h3>
+      <p class="cerca-zonas__note">El envío depende de la distancia desde nuestro almacén y es el mismo para cualquier modelo. Detalle por región en la <a href="/cobertura/edomex/">guía de cobertura del Estado de México</a>.</p>
+      <div class="cerca-tabla-wrap">
+        <table class="cerca-tabla">
+          <caption class="sr-only">Cargo de envío de inflables por municipio del Estado de México</caption>
+          <thead><tr><th scope="col">Municipio</th><th scope="col">Cargo de envío</th><th scope="col">Colonias y espacios</th></tr></thead>
+          <tbody>
+            {filasEdomex.map(f => (
+              <tr>
+                <th scope="row"><a href={f.href}>{f.name}</a></th>
+                <td>{f.envio}</td>
+                <td>{f.detalle}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
 
       <p class="cerca-zonas__foot">
-        ¿No ves tu zona? Escríbenos por
-        <a href={waHref} target="_blank" rel="nofollow noopener noreferrer">WhatsApp</a>
-        con tu colonia — en zonas limítrofes casi siempre podemos llegar. También puedes ver
+        ¿No ves tu zona? Mándanos tu ubicación por
+        <a href={waHref} target="_blank" rel="nofollow noopener noreferrer">WhatsApp</a>:
+        en zonas limítrofes casi siempre podemos llegar. También puedes ver
         el <a href="/cobertura/">mapa completo de cobertura</a>.
       </p>
     </div>
@@ -241,7 +273,7 @@ const serviceSchema = {
         badge="Catálogo"
         title={`¿Qué ${MODELOS_COUNT} modelos de inflables llegan a tu domicilio?`}
         subtitle={`De ${PRICE_RANGE} MXN por evento de 4 a 6 horas.`}
-        copy1="Todos se entregan e instalan igual, sin importar la zona. La diferencia entre modelos es el espacio libre que necesitas, la edad de los niños y la capacidad simultánea."
+        copy1="Todos se entregan e instalan igual, sin importar la zona. La diferencia entre modelos es el espacio que necesitas, la edad de los niños y si caben bajo techo."
         copy2="Si no sabes cuál elegir, dinos cuántos niños esperas y cuánto espacio tienes: con eso te decimos cuál cabe y cuál no. Es más útil que elegir por foto."
       />
       <div class="grid-4">
@@ -260,8 +292,7 @@ const serviceSchema = {
         ))}
       </div>
       <p class="cerca-zonas__foot">
-        Compara medidas, capacidad y espacio libre en el <a href="/inflables/">catálogo completo</a>
-        o revisa la <a href="/precios/">lista de precios</a>.
+        Compara medidas, edades y altura libre en el <a href="/inflables/">catálogo de inflables</a>.
       </p>
     </div>
   </section>
@@ -311,6 +342,18 @@ const serviceSchema = {
     line-height: 1.6;
     color: var(--c-text-muted);
   }
+
+  /* ── Tabla de zonas ── */
+  .cerca-tabla-wrap { overflow-x: auto; margin: 0 0 1.75rem; border: 1px solid var(--c-border); border-radius: 12px; background: #fff; }
+  .cerca-tabla { width: 100%; border-collapse: collapse; font-size: .92rem; }
+  .cerca-tabla th, .cerca-tabla td { text-align: left; padding: .7rem .9rem; border-bottom: 1px solid var(--c-border); vertical-align: top; line-height: 1.5; }
+  .cerca-tabla thead th { background: var(--c-bg-alt, #f7f7f9); font-family: var(--font-head); font-weight: 800; font-size: .85rem; }
+  .cerca-tabla tbody tr:last-child th, .cerca-tabla tbody tr:last-child td { border-bottom: 0; }
+  .cerca-tabla tbody th { font-weight: 700; white-space: nowrap; }
+  .cerca-tabla a { color: var(--c-primary-text); font-weight: 700; }
+  .cerca-tabla td:nth-child(2) { font-weight: 600; color: var(--c-text); }
+  .cerca-tabla td:last-child { color: var(--c-text-muted); }
+  .cerca-zonas__note a { color: var(--c-primary-text); font-weight: 600; }
 
   /* ── Zonas ── */.cerca-zonas__title {
     font-family: var(--font-head);

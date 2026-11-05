@@ -6,9 +6,10 @@ import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import FaqItem from "@/components/FaqItem.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
+import { INFLABLES_ACTIVOS } from "@/data/inflables";
 
-const title = "¿Cuánto cuesta rentar un inflable? Precios 2026 desde $1,400";
-const description = "Precios transparentes de renta de inflables en CDMX: de $1,400 a $2,600 MXN con instalación incluida y traslado según zona. Sin cargos ocultos. Cotiza hoy.";
+const title = "¿Cuánto cuesta rentar un inflable? De $1,400 a $2,600";
+const description = "Tabla de precios de los 8 inflables: de $1,400 a $2,600 por evento de 4 a 6 h con instalación y retiro. Envío por zona e IVA explicados. Cotiza hoy.";
 
 const inflables = [
   {
@@ -135,8 +136,8 @@ const tagColors: Record<string, { bg: string; text: string }> = {
 };
 
 const includes = [
-  { icon: "🚚", label: "Entrega a domicilio",     desc: "Llevamos el inflable a tu domicilio; el traslado se confirma según zona." },
-  { icon: "🔧", label: "Instalación profesional", desc: "Nuestro equipo monta el inflable en menos de 30 minutos." },
+  { icon: "🚚", label: "Entrega a domicilio",     desc: "Llevamos el inflable a tu domicilio; el envío depende de tu zona y te lo decimos al cotizar." },
+  { icon: "🔧", label: "Instalación profesional", desc: "Nuestro equipo monta el inflable en 15 a 30 minutos, según el modelo." },
   { icon: "⚡", label: "Motor inflador",           desc: "Motor silencioso de inflado continuo e instalación eléctrica incluidos." },
   { icon: "🧼", label: "Limpieza documentada",     desc: "Cada inflable se desinfecta con protocolo propio antes de entregarse." },
   { icon: "📦", label: "Recolección",              desc: "Al finalizar el evento recogemos todo. Tú no tienes que hacer nada." },
@@ -145,7 +146,7 @@ const includes = [
 const factores = [
   {
     titulo:  "Zona de entrega",
-    desc:    "Cubrimos las 16 alcaldías de CDMX y los principales municipios de Edomex sin cargo extra. Zonas más alejadas o fuera de nuestra cobertura estándar pueden tener un cargo adicional de traslado.",
+    desc:    "El traslado no tiene costo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco. En el resto de la CDMX va de $100 a $300 donde hay monto publicado, y en el Estado de México de $150 a $600 según el municipio.",
     icono:   "📍",
   },
   {
@@ -167,8 +168,8 @@ const factores = [
 
 const faqs = [
   {
-    question: "¿Cuánto cuesta rentar un inflable en CDMX?",
-    answer:   "Los precios de renta de inflables en CDMX van desde $1,400 MXN por el Castillo Baby (ideal para bebés) hasta $2,500 MXN por Extremo. Los inflables medianos — Dragones Rojos, Castillo de Princesas, Jungla y Gusanitos — van de $1,600 a $1,800 MXN. Todos los precios incluyen instalación, motor, limpieza y recolección; el traslado se confirma según zona.",
+    question: "¿Cuánto cuesta rentar un inflable?",
+    answer:   "De $1,400 a $2,600 MXN por evento de 4 a 6 horas. El Castillo Baby cuesta $1,400; Dragones Rojos, Jungla y Gusanitos, $1,600; Castillo de Princesas, $1,800; Barco Pirata, $2,300; Extremo, $2,500, y Castillo Blanco, $2,600. Todos incluyen instalación, motor, sanitización y recolección; el envío se suma según la zona.",
   },
   {
     question: "¿Cuánto cuesta rentar un brincolín grande?",
@@ -180,11 +181,11 @@ const faqs = [
   },
   {
     question: "¿Los precios publicados incluyen todo o hay costos adicionales?",
-    answer:   "Los precios que publicamos son precios completos sin letra chica. Incluyen entrega a domicilio, instalación, motor inflador silencioso, extensión eléctrica, limpieza y sanitización, y recolección al finalizar el evento. El único cargo adicional posible es por zonas muy alejadas fuera de nuestra cobertura estándar, del cual te informamos al cotizar.",
+    answer:   "Incluyen instalación, motor inflador, extensión eléctrica, sanitización y recolección al finalizar. Pueden sumarse dos cosas: el envío de tu zona y el 16% de IVA si necesitas factura. Ambas te las decimos por escrito antes de que apartes la fecha, nunca el día del evento.",
   },
   {
-    question: "¿El precio varía según la zona de entrega en CDMX?",
-    answer:   "La entrega sin costo adicional aplica solo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco. En el resto de CDMX y Estado de México se atiende con costo de traslado según zona, confirmado antes de reservar.",
+    question: "¿Cuánto cuesta el envío según la zona?",
+    answer:   "Es sin costo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco. En la CDMX, Iztapalapa y Xochimilco van de $100 a $150, Tláhuac de $100 a $200 y Milpa Alta de $200 a $300; en el Estado de México el envío va de $150 a $600 según el municipio. El precio del inflable no cambia con la zona.",
   },
   {
     question: "¿Hay descuento si rento más de un inflable?",
@@ -233,7 +234,9 @@ const faqs = [
             Precios de <span class="highlight">renta de inflables</span> en CDMX 2026
           </h1>
           <p class="hero__desc">
-            Todos nuestros precios incluyen instalación, motor, limpieza y recolección. Son precios netos: Si necesitas factura, se agrega el 16% de IVA. En municipios distantes del Estado de México y en algunas zonas del sur y oriente de la CDMX aplica un cargo de envío que te indicamos al cotizar.
+            Rentar un inflable cuesta de <strong>$1,400 a $2,600 MXN por evento de 4 a 6 horas</strong>, según el modelo.
+            El precio incluye entrega, instalación, motor, sanitización y recolección. Aparte se suman el envío de
+            tu zona, cuando aplica, y el 16% de IVA solo si necesitas factura.
           </p>
           <div class="hero__ctas">
             <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar mi inflable</a>
@@ -252,11 +255,11 @@ const faqs = [
             <div class="pr-hero-summary__arrow">→</div>
             <div class="pr-hero-summary__item">
               <span class="pr-hero-summary__amount">$2,600</span>
-              <span class="pr-hero-summary__note">Circuito Extremo</span>
+              <span class="pr-hero-summary__note">Castillo Blanco</span>
             </div>
           </div>
           <ul class="pr-hero-summary__includes">
-            <li>✓ Instalación incluida; traslado según zona</li>
+            <li>✓ Instalación de 15 a 30 minutos</li>
             <li>✓ Motor inflador y extensión eléctrica</li>
             <li>✓ Limpieza y sanitización</li>
             <li>✓ Recolección al finalizar</li>
@@ -272,6 +275,72 @@ const faqs = [
 
   <QuickNav />
 
+  <!-- ═══════════════════════════════════════════════════════════
+       TABLA RÁPIDA: respuesta directa a "cuánto cuesta rentar un inflable"
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="section pr-rapida" id="tabla-de-precios">
+    <div class="container">
+      <h2 class="pr-rapida__title">Tabla de precios de renta de inflables 2026</h2>
+      <p class="pr-rapida__intro">
+        Precio por evento de 4 a 6 horas, ordenado de menor a mayor. Las medidas son largo × ancho × alto del inflable;
+        la altura libre es la que necesitas sobre el piso para instalarlo.
+      </p>
+      <div class="pr-rapida__wrap">
+        <table class="pr-rapida__tabla">
+          <caption class="sr-only">Precio, medidas, edades y altura libre de los {INFLABLES_ACTIVOS.length} inflables en renta</caption>
+          <thead>
+            <tr>
+              <th scope="col">Modelo</th>
+              <th scope="col">Precio por evento</th>
+              <th scope="col">Medidas</th>
+              <th scope="col">Edades</th>
+              <th scope="col">Altura libre</th>
+              <th scope="col">Bajo techo</th>
+            </tr>
+          </thead>
+          <tbody>
+            {INFLABLES_ACTIVOS.map(i => (
+              <tr>
+                <th scope="row">{i.name}</th>
+                <td class="pr-rapida__precio">{i.price} MXN</td>
+                <td>{i.size.replace(/×/g, " × ")}</td>
+                <td>{i.ages}</td>
+                <td>{i.heightClearance}</td>
+                <td>{i.indoor ? "Sí" : "No"}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="pr-rapida__grid">
+        <div class="pr-rapida__box">
+          <h3>¿Qué incluye el precio?</h3>
+          <ul>
+            <li>Entrega a domicilio e instalación de 15 a 30 minutos.</li>
+            <li>Motor inflador y extensión eléctrica.</li>
+            <li>Sanitización antes de cada evento.</li>
+            <li>Recolección al terminar.</li>
+          </ul>
+        </div>
+        <div class="pr-rapida__box">
+          <h3>¿Qué se cobra aparte?</h3>
+          <ul>
+            <li><strong>Envío por zona:</strong> sin costo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco; de $100 a $300 en otras <a href="/cobertura/cdmx/">alcaldías de la CDMX</a> y de $150 a $600 en los <a href="/cobertura/edomex/">municipios del Estado de México</a>.</li>
+            <li><strong>IVA:</strong> 16% solo si necesitas factura.</li>
+            <li>Para apartar la fecha se deja un anticipo del 50%; el resto se paga el día del evento.</li>
+          </ul>
+          <p>¿No sabes si llegamos a tu colonia? Revisa la <a href="/renta-de-inflables-cerca-de-mi/">tabla de envío por zona</a>.</p>
+        </div>
+      </div>
+      <p class="pr-rapida__foot">
+        Si estás armando la fiesta completa, la guía de <a href="/blog/cuanto-cuesta-una-fiesta-infantil-cdmx-presupuesto/">cuánto cuesta una fiesta infantil en CDMX</a>
+        suma comida, pastel y decoración al precio del inflable. Para confirmar que el modelo cabe en tu espacio, usa la
+        <a href="/blog/medidas-de-inflables-para-fiestas-tabla/">tabla de medidas de inflables</a>.
+      </p>
+    </div>
+  </section>
+
 
   <!-- ═══════════════════════════════════════════════════════════
        TABLA DE PRECIOS POR MODELO — El contenido central de la página
@@ -280,9 +349,9 @@ const faqs = [
     <div class="container">
       <SectionHeader
         badge="Precios por modelo"
-        title="¿Cuánto cuesta rentar cada inflable en CDMX?"
-        subtitle="Todos los precios incluyen instalación, motor, sanitización y recolección; traslado según zona."
-        copy1="Si buscas la opción más accesible, la guía de <a href='/renta-de-inflables-economicos/'>inflables económicos</a> explica qué incluye el precio y cuándo NO conviene el modelo más barato. Publicamos nuestros precios abiertamente porque creemos que la transparencia es parte del buen servicio. Cada precio que ves aquí es el precio neto de la renta: sin cargos por el motor, sin cuotas de instalación y sin sorpresas el día del evento. Las dos únicas cosas que pueden sumarse son el IVA, si necesitas factura, y el envío en zonas distantes — ambas te las decimos por escrito antes de que apartes la fecha."
+        title="¿Para qué sirve cada inflable y cuánto cuesta?"
+        subtitle="Ficha rápida por modelo: precio, medidas, edades y para qué tipo de fiesta conviene."
+        copy1="Si buscas la opción más accesible, la guía de <a href='/renta-de-inflables-economicos/'>inflables económicos</a> explica qué incluye el precio y cuándo no conviene el modelo más barato. Cada precio que ves aquí es el precio neto de la renta: sin cargos por el motor ni cuotas de instalación. Las dos únicas cosas que pueden sumarse son el IVA, si necesitas factura, y el envío de tu zona; ambas te las decimos por escrito antes de que apartes la fecha."
         copy2="Si tienes dudas sobre qué inflable elegir según el espacio disponible, el número de niños o el tipo de evento, escríbenos por WhatsApp y te asesoramos sin compromiso."
       />
 
@@ -358,8 +427,8 @@ const faqs = [
         badge="Todo incluido"
         title="¿Qué incluye el precio de renta de un inflable?"
         subtitle="Cada peso que pagas cubre un servicio completo. Sin extras sorpresa al final."
-        copy1="Una de las preguntas más frecuentes que recibimos es: ¿el precio incluye la entrega? ¿y el motor? ¿y la instalación? La respuesta a todas es sí. En BRINCOLINS el precio que cotizamos es el precio completo del servicio de principio a fin. No existen cargos adicionales por ninguno de estos conceptos."
-        copy2="El único costo que podría añadirse es un cargo de traslado para zonas muy alejadas de nuestra cobertura estándar — y siempre te lo informamos antes de confirmar la reserva. Nunca recibirás una sorpresa el día del evento."
+        copy1="Una de las preguntas más frecuentes que recibimos es si el precio incluye el motor y la instalación. La respuesta es sí: el precio del inflable cubre el servicio completo, del montaje a la recolección."
+        copy2="Lo que puede sumarse es el envío de tu zona, que en varias colonias céntricas no tiene costo, y el IVA si pides factura. Ambos te los informamos antes de confirmar la reserva, nunca el día del evento."
       />
 
       <div class="pr-includes">
@@ -385,8 +454,8 @@ const faqs = [
       <SectionHeader
         badge="Transparencia"
         title="¿Qué factores pueden afectar el precio final?"
-        subtitle="La mayoría de los clientes paga exactamente el precio publicado. Estas son las excepciones."
-        copy1="Para la mayoría de los eventos en las 16 alcaldías de la CDMX y los municipios conurbados, el precio de la tabla es lo que pagas. Estos son los dos factores que en algunos casos lo modifican, y no queremos que te enteres el día del evento."
+        subtitle="Zona, duración, temporada y número de inflables."
+        copy1="El precio del inflable es el mismo en cualquier zona. Estos son los factores que pueden cambiar el total de tu cotización, y preferimos que los conozcas antes de apartar."
         copy2=""
       />
 
@@ -413,7 +482,7 @@ const faqs = [
       <SectionHeader
         badge="Paquetes para eventos"
         title="¿Cuánto cuesta rentar más de un inflable para un evento?"
-        subtitle="Kermeses, team building y ferias — precios especiales al rentar 2 o más inflables."
+        subtitle="Kermeses, team building y ferias: precios especiales al rentar 2 o más inflables."
         copy1="Cuando el evento necesita varios inflables simultáneos, el precio por inflable disminuye gracias a nuestros paquetes. A partir de 2 inflables en el mismo evento aplicamos precios preferenciales que incluyen coordinación logística sin costo adicional para eventos de 3 o más equipos."
         copy2=""
       />
@@ -504,12 +573,12 @@ const faqs = [
             <span class="pr-ventaja__stat-txt">costos ocultos ni sorpresas</span>
           </div>
           <div class="pr-ventaja__stat">
-            <span class="pr-ventaja__stat-num">100%</span>
-            <span class="pr-ventaja__stat-txt">precio todo incluido</span>
+            <span class="pr-ventaja__stat-num">50%</span>
+            <span class="pr-ventaja__stat-txt">de anticipo para apartar</span>
           </div>
           <div class="pr-ventaja__stat">
-            <span class="pr-ventaja__stat-num">+500</span>
-            <span class="pr-ventaja__stat-txt">eventos al año en CDMX</span>
+            <span class="pr-ventaja__stat-num">8</span>
+            <span class="pr-ventaja__stat-txt">modelos de $1,400 a $2,600</span>
           </div>
         </div>
       </div>
@@ -536,8 +605,8 @@ const faqs = [
 
   <!-- CTA FINAL -->
   <CtaBanner
-    title="¿Ya sabes cuál inflable quieres? Cotiza en 2 minutos."
-    subtitle="Escríbenos por WhatsApp con la fecha y modelo — te respondemos con precio y disponibilidad al instante."
+    title="¿Ya sabes qué inflable quieres? Cotiza en 2 minutos"
+    subtitle="Escríbenos por WhatsApp con la fecha, el modelo y tu colonia: te respondemos con precio, envío y disponibilidad."
     btnText="Cotizar por WhatsApp"
     btnHref="/cotizar/"
     btnSecondaryText="Catálogo de renta de inflables"
@@ -549,6 +618,26 @@ const faqs = [
 
 
 <style>
+  /* ─── Tabla rápida de precios ─────────────────────────────── */
+  .pr-rapida { padding-top: clamp(1.5rem, 3vw, 2.25rem); }
+  .pr-rapida__title { font-family: var(--font-head); font-size: clamp(1.4rem, 3vw, 1.9rem); margin: 0 0 .5rem; }
+  .pr-rapida__intro { margin: 0 0 1rem; color: var(--c-text-muted); max-width: 760px; line-height: 1.6; }
+  .pr-rapida__wrap { overflow-x: auto; border: 1px solid var(--c-border, #e5e7eb); border-radius: 12px; background: #fff; }
+  .pr-rapida__tabla { width: 100%; border-collapse: collapse; font-size: .95rem; min-width: 640px; }
+  .pr-rapida__tabla th, .pr-rapida__tabla td { text-align: left; padding: .7rem .9rem; border-bottom: 1px solid var(--c-border, #e5e7eb); }
+  .pr-rapida__tabla thead th { background: var(--c-bg-alt, #f7f7f9); font-size: .85rem; font-weight: 800; }
+  .pr-rapida__tabla tbody tr:last-child th, .pr-rapida__tabla tbody tr:last-child td { border-bottom: 0; }
+  .pr-rapida__tabla tbody th { font-weight: 700; }
+  .pr-rapida__precio { font-weight: 800; color: var(--c-primary-text, #C82D00); white-space: nowrap; }
+  .pr-rapida__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; margin-top: 1.5rem; }
+  .pr-rapida__box { padding: 1.25rem 1.4rem; border: 1px solid var(--c-border, #e5e7eb); border-radius: 12px; background: #fff; }
+  .pr-rapida__box h3 { font-family: var(--font-head); font-size: 1.05rem; margin: 0 0 .6rem; }
+  .pr-rapida__box ul { margin: 0; padding-left: 1.1rem; display: flex; flex-direction: column; gap: .4rem; line-height: 1.55; }
+  .pr-rapida__box li { list-style: disc; }
+  .pr-rapida__box p { margin: .8rem 0 0; line-height: 1.55; }
+  .pr-rapida__box a, .pr-rapida__foot a { color: var(--c-primary-text, #C82D00); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+  .pr-rapida__foot { margin: 1.25rem 0 0; line-height: 1.65; color: var(--c-text-muted); }
+  @media (max-width: 760px) { .pr-rapida__grid { grid-template-columns: 1fr; } }
   /* ─── Hero Precios ───────────────────────────────────────── */.pr-hero { padding: clamp(2rem, 4vw, 3rem) 0; }.pr-hero-summary {
     background: #fff;
     border: 2px solid var(--c-primary, #FF3D00);

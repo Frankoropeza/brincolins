@@ -23,8 +23,8 @@ import { CATEGORIAS, inflablesDeCategoria } from "@/data/categorias";
 import { INFLABLES_ACTIVOS, PRICE_RANGE, MODELOS_COUNT, PRICE_NOTE_LONG } from "@/data/inflables";
 import { SITE_URL } from "@/data/site";
 
-const title = `Inflables para fiestas: ${MODELOS_COUNT} modelos con precios y medidas`;
-const description = `Inflables para fiestas en renta en CDMX y Edomex: explora ${MODELOS_COUNT} modelos por tamaño, tipo y edad, desde $1,400 con entrega e instalación según zona.`;
+const title = `Inflables para fiestas en renta: ${MODELOS_COUNT} modelos desde $1,400`;
+const description = `Catálogo de ${MODELOS_COUNT} inflables para fiestas de $1,400 a $2,600: medidas, edades y cuáles caben bajo techo. Elige por edad, espacio o presupuesto y cotiza.`;
 
 /* Tarjeta de categoría: nombre, 3 modelos destacados y anchor con la
    keyword objetivo. 11 categorías × (1 anchor + 3 modelos) ≈ 44 enlaces,
@@ -42,7 +42,7 @@ const faqs = [
   { question: "¿Cuántos modelos de inflables tienen disponibles?", answer: "Ocho modelos propios: Castillo Baby, Dragones Rojos, Castillo de Princesas, Jungla, Gusanitos, Castillo Blanco, Barco Pirata y Extremo. Los organizamos en 11 categorías —por tamaño, por tipo y por público— porque cada modelo sirve para varios tipos de evento." },
   { question: "¿Cuál es el inflable más económico del catálogo?", answer: "Castillo Baby, desde $1,400 MXN por evento. Está diseñado para niños de 1 a 3 años y mide 2.5 × 2 × 2 m. Para conocer el espacio de instalación, confirma los detalles al cotizar." },
   { question: "¿Cuál es el inflable más rentado?", answer: "Dragones Rojos. Mide 5 × 3 × 2.80 m y está indicado para niños de 3 a 8 años, un rango frecuente en cumpleaños infantiles en CDMX." },
-  { question: "¿Qué inflables caben bajo techo?", answer: "La altura del techo debe compararse con la altura de cada modelo: Castillo Baby mide 2 m, Jungla 2.50 m, Dragones Rojos y Gusanitos 2.80 m, Castillo de Princesas 3 m, Extremo 3.50 m, Barco Pirata 3.80 m y Castillo Blanco 4 m. Confirma el espacio de instalación al cotizar." },
+  { question: "¿Qué inflables caben bajo techo?", answer: "Solo dos: el Castillo Baby y los Gusanitos, que piden 3.2 m de altura libre del piso al punto más bajo del techo. El resto del catálogo necesita de 4.2 a 5.2 m, así que va al aire libre. Mide descontando lámparas, ventiladores y trabes, y confírmalo al cotizar." },
   { question: "¿Puedo rentar más de un inflable para el mismo evento?", answer: "Sí, y es lo habitual en kermeses escolares, eventos de empresa y ferias. A partir de tres inflables incluimos coordinador de logística sin costo adicional. Hay que verificar el área libre sumada y que existan tomas de corriente independientes." },
   { question: "¿Todos los inflables incluyen entrega e instalación?", answer: "Sí: entrega a domicilio, instalación profesional, motor inflador, sanitización y recolección al finalizar, en los ocho modelos. La entrega sin costo adicional aplica solo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco; en el resto de CDMX y Estado de México se cotiza el traslado según zona. El precio publicado es neto; si necesitas factura se agrega el 16% de IVA." },
   { question: "¿Cómo aparto una fecha del catálogo?", answer: "Escríbenos por WhatsApp con el modelo, la fecha y la zona de entrega. Confirmamos disponibilidad en minutos. Para apartar se requiere un anticipo del 50% y el saldo se liquida el día del evento, antes de la instalación." },
@@ -97,7 +97,7 @@ const hubSchema = {
           <h1 class="hero__title">
             <span class="highlight">Inflables para fiestas</span> en renta en CDMX y Estado de México
           </h1>
-          <p class="hero__desc">{MODELOS_COUNT} modelos organizados en {CATEGORIAS.length} categorías: por tamaño, por tipo de inflable y por quién lo va a usar. De {PRICE_RANGE} MXN por evento.</p>
+          <p class="hero__desc">Rentamos {MODELOS_COUNT} inflables para fiestas, de $1,400 a $2,600 MXN por evento de 4 a 6 horas, con entrega, instalación y recolección. Hay modelos para niños de 1 a 3 años, medianos para 2 a 10 años y grandes para 3 a 12 años; solo dos caben bajo techo. Elige por edad, espacio o presupuesto.</p>
           <div class="hero__ctas">
             <a href="/cotizar/" class="btn btn-primary btn-lg">Cotizar renta de inflables</a>
             <a href="/precios/" class="btn btn-outline btn-lg">Precios de inflables en CDMX</a>
@@ -116,6 +116,45 @@ const hubSchema = {
   </section>
 
   <QuickNav />
+
+  <!-- ── CÓMO ELEGIR: edad, espacio, presupuesto ── -->
+  <section class="section elegir" id="como-elegir">
+    <div class="container">
+      <h2 class="elegir__title">¿Cómo elegir inflable por edad, espacio y presupuesto?</h2>
+      <p class="elegir__intro">Decide en este orden: primero el espacio descarta los modelos que no caben, luego la edad deja dos o tres opciones y al final el presupuesto o la temática deciden.</p>
+      <div class="elegir__grid">
+        <div class="elegir__box">
+          <h3>Por edad</h3>
+          <ul>
+            <li><strong>1 a 3 años:</strong> Castillo Baby ($1,400).</li>
+            <li><strong>2 a 10 años:</strong> Castillo de Princesas ($1,800) y Gusanitos, de 2 a 8 años ($1,600).</li>
+            <li><strong>3 a 8 años:</strong> Dragones Rojos y Jungla ($1,600).</li>
+            <li><strong>3 a 12 años:</strong> Barco Pirata ($2,300), Extremo ($2,500) y Castillo Blanco ($2,600).</li>
+          </ul>
+          <p>Ideas de juegos y temática para cada cumpleaños en <a href="/blog/ideas-de-fiesta-por-edad-1-a-12-anos/">ideas de fiesta por edad de 1 a 12 años</a>.</p>
+        </div>
+        <div class="elegir__box">
+          <h3>Por espacio</h3>
+          <ul>
+            <li><strong>Bajo techo:</strong> solo Castillo Baby y Gusanitos, con 3.2 m de altura libre.</li>
+            <li><strong>Patio o jardín mediano:</strong> los modelos de unos 5 × 3 m, como Dragones Rojos, Jungla o Castillo de Princesas.</li>
+            <li><strong>Jardín o terreno amplio:</strong> Barco Pirata (6 × 3.5 m), Castillo Blanco (5 × 7 m) o Extremo (8 × 4.5 m).</li>
+          </ul>
+          <p>Cómo medir largo, ancho y altura en la <a href="/blog/medidas-de-inflables-para-fiestas-tabla/">tabla de medidas de inflables para fiestas</a>.</p>
+        </div>
+        <div class="elegir__box">
+          <h3>Por presupuesto</h3>
+          <ul>
+            <li><strong>$1,400:</strong> Castillo Baby, el más accesible.</li>
+            <li><strong>$1,600 a $1,800:</strong> los cuatro medianos.</li>
+            <li><strong>$2,300 a $2,600:</strong> los tres grandes, para grupos y turnos de juego.</li>
+          </ul>
+          <p>Qué conviene cuando el dinero manda en <a href="/renta-de-inflables-economicos/">renta de inflables económicos</a>, y el total de la fiesta en <a href="/blog/cuanto-cuesta-una-fiesta-infantil-cdmx-presupuesto/">presupuesto de una fiesta infantil</a>.</p>
+        </div>
+      </div>
+      <p class="elegir__foot">¿Sigues con dudas? Los criterios completos están en <a href="/blog/como-elegir-inflable-fiesta-infantil/">cómo elegir inflable para fiesta infantil</a>, o mándanos las medidas de tu espacio y la edad de los niños al cotizar.</p>
+    </div>
+  </section>
 
   <!-- ── 11 CATEGORÍAS ── -->
   <section class="section" style="padding-top:1.5rem;">
@@ -189,7 +228,19 @@ const hubSchema = {
   />
 </PageLayout>
 
-<style>.cat-grid {
+<style>
+  .elegir__title { font-family: var(--font-head); font-size: clamp(1.4rem, 3vw, 1.9rem); margin: 0 0 .5rem; }
+  .elegir__intro, .elegir__foot { color: var(--text-muted, #5a5a66); line-height: 1.65; max-width: 780px; margin: 0 0 1.25rem; }
+  .elegir__foot { margin: 1.25rem 0 0; }
+  .elegir__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .elegir__box { padding: 1.25rem 1.4rem; border: 1px solid var(--border, #e2e2e6); border-radius: 14px; background: var(--surface, #fff); }
+  .elegir__box h3 { font-size: 1.05rem; margin: 0 0 .6rem; }
+  .elegir__box ul { margin: 0; padding-left: 1.1rem; display: flex; flex-direction: column; gap: .4rem; line-height: 1.55; font-size: .95rem; }
+  .elegir__box li { list-style: disc; }
+  .elegir__box p { margin: .8rem 0 0; font-size: .93rem; line-height: 1.55; }
+  .elegir a { color: var(--c-primary-text, #C82D00); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+  @media (max-width: 900px) { .elegir__grid { grid-template-columns: 1fr; } }
+  .cat-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.75rem;

@@ -1,13 +1,22 @@
 ---
 titulo: "Guía por regiones para tu fiesta con inflable en el Estado de México"
 vecinas: ["cdmx", "gustavo-a-madero", "azcapotzalco", "iztapalapa", "cuajimalpa"]
-guias: ["como-rentar-inflable-brincolins-proceso-paso-a-paso", "cuando-reservar-inflable-temporadas-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx", "barco-pirata-o-extremo-inflables-grandes", "donde-instalar-inflable-pasto-cemento-tierra"]
+guias: ["planear-cumpleanos-infantil-completo-cdmx", "como-rentar-inflable-brincolins-proceso-paso-a-paso", "cuando-reservar-inflable-temporadas-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx", "barco-pirata-o-extremo-inflables-grandes", "donde-instalar-inflable-pasto-cemento-tierra"]
 faqs:
   - question: "Mi fiesta es en un municipio del Edomex que no aparece en la lista, ¿pueden ir?"
     answer: "Escríbenos con la dirección exacta. Las páginas de cobertura reúnen los municipios que atendemos de forma habitual; si tu domicilio está cerca de alguno de ellos, revisamos la ruta y te decimos si es posible y cuánto queda el envío antes de que apartes."
   - question: "¿Cómo sé en qué región del Edomex queda mi municipio para calcular el envío?"
     answer: "No necesitas saberlo: con la colonia y el municipio te damos la cifra exacta. Como referencia, los municipios pegados a la Ciudad de México por el norte y el poniente tienen los envíos más bajos, el oriente y el norte lejano quedan en medio, y el Valle de Toluca es el más alto por la distancia."
 ---
+
+Rentar un inflable en el Estado de México cuesta de $1,400 a $2,600 por evento de 4 a 6 horas, igual que en la CDMX, más el envío del municipio: de $150 a $250 en Tlalnepantla y Huixquilucan, hasta $400 a $600 en Toluca y Metepec. En Naucalpan se confirma con la colonia. Instalación y retiro van incluidos.
+
+**Puntos clave**
+
+- Cubrimos 15 municipios; cada uno tiene su página con colonias, cargo de envío y modelos recomendados.
+- El envío depende de la distancia, no del modelo: un inflable grande paga el mismo traslado que uno chico.
+- En fraccionamientos con caseta registramos vehículo y conductor con 24 a 48 horas de anticipación.
+- Apartas con el 50% de anticipo y, si llueve, reprogramamos sin costo.
 
 El Estado de México que rodea a la capital no es un solo tipo de lugar. Una fiesta en un conjunto urbano de Tecámac, una en el jardín de una casa de Satélite, otra en la azotea de una casa de Neza y otra en un fraccionamiento de Metepec piden inflables, permisos y horarios distintos. Esta guía agrupa los municipios que cubrimos por región para que ubiques el tuyo y entres a su guía local.
 
@@ -89,7 +98,7 @@ Si la fiesta va en una quinta o jardín de eventos, que es frecuente en la perif
 | Área común o jardín mediano | Dragones Rojos, Jungla o Castillo de Princesas | 3 a 8 / 2 a 10 años |
 | Jardín o terreno amplio | Barco Pirata, Extremo o Castillo Blanco | 3 a 12 años |
 
-Para ver los ocho modelos con medidas y precio, entra al [catálogo de inflables](/inflables/).
+Para ver los ocho modelos con precio, entra al [catálogo de inflables](/inflables/); si necesitas medir tu patio o salón antes de elegir, la [tabla de medidas de inflables](/blog/medidas-de-inflables-para-fiestas-tabla/) explica cómo hacerlo.
 
 ### Siguiente paso
 

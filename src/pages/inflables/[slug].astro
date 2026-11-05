@@ -20,6 +20,7 @@ import PricingCards from "@/components/PricingCards.astro";
 import CtaBar from "@/components/CtaBar.astro";
 import FacetasInflables from "@/components/FacetasInflables.astro";
 import { categoriasDeInflable } from "@/data/categorias";
+import { getCoverageZone } from "@/data/coverage";
 import { getCollection } from "astro:content";
 
 export function getStaticPaths() {
@@ -38,8 +39,30 @@ const categorias = categoriasDeInflable(canon.slug);
 /* Guías del modelo (oct 2026): los artículos del blog cuya `category` es
    el nombre del modelo. Cierra el circuito ficha ↔ artículos — los
    artículos enlazan a la ficha y la ficha devuelve el enlace a cada uno. */
-const guias = (await getCollection("blog"))
-  .filter((p) => !p.data.draft && p.data.category === canon.name)
+const detalle = page.detalle;
+
+/* Artículo según el género del nombre: "la Jungla", "el Extremo". */
+const FEMENINOS = new Set(["Jungla"]);
+const elDe  = (n: string) => (FEMENINOS.has(n) ? `la ${n}` : `el ${n}`);
+const delDe = (n: string) => (FEMENINOS.has(n) ? `de la ${n}` : `del ${n}`);
+const elN = elDe(canon.name);
+const delN = delDe(canon.name);
+
+/* Guías elegidas a mano para la ficha (nov 2026). Van primero y con nota;
+   las automáticas por categoría se listan después sin repetir destino. */
+const blog = (await getCollection("blog")).filter((p) => !p.data.draft);
+const guiasCuradas = (detalle?.guias ?? [])
+  .map((g) => ({ ...g, post: blog.find((p) => p.id === g.slug) }))
+  .filter((g) => g.post);
+const curadasIds = new Set(guiasCuradas.map((g) => g.slug));
+
+/* Zonas: el costo de envío se lee de coverage.ts, nunca se escribe aquí. */
+const zonas = (detalle?.zonas ?? [])
+  .map((z) => ({ ...z, zona: getCoverageZone(z.slug) }))
+  .filter((z) => z.zona);
+
+const guias = blog
+  .filter((p) => p.data.category === canon.name && !curadasIds.has(p.id))
   .sort((a, b) => {
     const aEsPilar = a.id.endsWith("guia-completa") || a.id.endsWith("-guia");
     const bEsPilar = b.id.endsWith("guia-completa") || b.id.endsWith("-guia");
@@ -53,7 +76,7 @@ const ctaBarItems = [
   { label: "Cotizar ahora", href: "/contacto/", icon: "cotizar" },
   { label: "Ver galería", href: "#galeria", icon: "galeria" },
   { label: "Ver precios", href: "#precios", icon: "precios" },
-  { label: "WhatsApp", href: `https://wa.me/525531281706?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar el ${canon.name}.`)}`, icon: "whatsapp" },
+  { label: "WhatsApp", href: `https://wa.me/525531281706?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar ${elN}.`)}`, icon: "whatsapp" },
 ];
 ---
 
@@ -86,28 +109,31 @@ const ctaBarItems = [
       <div class="hero__grid">
         <div>
           <span class="hero__badge">{page.badge}</span>
-          <h1 class="hero__title">Renta <span class="highlight">{canon.name}</span> para tu fiesta</h1>
+          <h1 class="hero__title">
+            {detalle ? detalle.h1.antes : "Renta del"} <span class="highlight">{canon.name}</span> {detalle ? detalle.h1.despues : "para tu fiesta"}
+          </h1>
+          {detalle && <p class="hero__desc">{detalle.resumen}</p>}
           <div class="hero__specs">
-            <span class="hero__spec">Tamaño: {canon.size}</span>
+            <span class="hero__spec">Medidas: {canon.size}</span>
             <span class="hero__spec">Edad: {canon.ages}</span>
-            <span class="hero__spec">Capacidad: Se confirma al cotizar</span>
-            <span class="hero__spec">Desde {canon.price} MXN</span>
+            <span class="hero__spec">{canon.indoor ? "Apto bajo techo" : "Para exterior"}</span>
+            <span class="hero__spec">{canon.price} MXN, 4 a 6 horas</span>
           </div>
           <div class="hero__ctas">
             <a href="/cotizar/" class="btn btn-primary btn-lg">{page.cta}</a>
-            <a href="/inflables/" class="btn btn-outline btn-lg">Catálogo de renta de inflables</a>
+            <a href={ctaBarItems[3].href} class="btn btn-outline btn-lg" target="_blank" rel="nofollow noopener noreferrer">Apartar por WhatsApp</a>
           </div>
-          {/* Enlace contextual hacia arriba: las 8 fichas sólo enlazaban al
-              catálogo con anchor genérico "Catálogo de renta de inflables". */}
+          {/* Enlace contextual hacia arriba: catálogo, precios y cercanía. */}
           <p class="hero__uplink">
-            Modelo del servicio de <a href="/">renta de inflables en CDMX</a> ·
+            Modelo del <a href="/inflables/">catálogo de renta de inflables</a> ·
+            servicio de <a href="/">renta de inflables en CDMX</a> ·
             <a href="/precios/">precios de renta de inflables</a> ·
             <a href="/renta-de-inflables-cerca-de-mi/">entrega cerca de ti</a>
           </p>
         </div>
         <div class="hero__img-col">
           <div class="hero__img-wrap">
-            <img src={canon.image} alt={`Inflable ${canon.name} — renta BRINCOLINS CDMX`} class="hero__img" width="600" height="450" loading="eager" fetchpriority="high" />
+            <img src={canon.image} alt={`Inflable ${canon.name} en renta para fiestas en CDMX y Edomex`} class="hero__img" width="600" height="450" loading="eager" fetchpriority="high" />
             <div class="hero__img-pill hero__img-pill--top">Desde {canon.price} MXN</div>
             <div class="hero__img-pill hero__img-pill--bottom">⚡ Instalación en {canon.installTime}</div>
           </div>
@@ -123,7 +149,7 @@ const ctaBarItems = [
   <!-- Gallery -->
   <section class="section" id="galeria">
     <div class="container">
-      <SectionHeader badge="Galería" title={`Galería del ${canon.name} en fiestas reales`} subtitle={`El ${canon.name} instalado y en uso`} copy1={page.galeria.copy1} copy2={page.galeria.copy2} />
+      <SectionHeader badge="Galería" title={`Galería ${delN} en fiestas reales`} subtitle={`${elN.charAt(0).toUpperCase() + elN.slice(1)} instalado y en uso`} copy1={page.galeria.copy1} copy2={page.galeria.copy2} />
       <Gallery4x4 images={page.galleryImages} />
     </div>
   </section>
@@ -133,17 +159,17 @@ const ctaBarItems = [
     <div class="container">
       <SectionHeader
         badge="Especificaciones"
-        title={`¿Cabe el ${canon.name} en tu espacio?`}
+        title={`¿Cabe ${elN} en tu espacio?`}
         subtitle="Medidas exactas, área libre necesaria y qué hace falta en el domicilio."
-        copy1={`El ${canon.name} mide ${canon.size} y necesita un área libre de ${canon.spaceRequired} con ${canon.heightClearance} de altura despejada. Ese margen no es capricho: incluye el espacio de anclaje y la zona de seguridad alrededor del inflable, donde no puede haber muros, ramas ni cables.`}
+        copy1={`${elN.charAt(0).toUpperCase() + elN.slice(1)} mide ${canon.size} y necesita ${canon.heightClearance} de altura despejada. ${/cotizar/i.test(canon.spaceRequired) ? "El área libre exacta se confirma al cotizar" : `Pide un área libre de ${canon.spaceRequired}`}: incluye el espacio de anclaje y la zona de seguridad alrededor del inflable, donde no puede haber muros, ramas ni cables.`}
         copy2={canon.indoor
-          ? `Con ${canon.heightClearance} de altura libre, es uno de los dos modelos que caben bajo techo: funciona en salones, terrazas cubiertas y departamentos con techo estándar.`
+          ? `Con ${canon.heightClearance} de altura libre, es uno de los dos modelos aptos para bajo techo: funciona en salones, terrazas cubiertas y departamentos cuyo techo alcance esa altura.`
           : `Por su altura necesita instalarse al aire libre o en un salón con techo alto. Si tu evento es bajo techo, compara la altura del techo con la altura del modelo y confirma el espacio de instalación al cotizar.`}
       />
 
       <div class="spec-layout">
         <table class="spec-table">
-          <caption class="sr-only">Especificaciones del {canon.name}</caption>
+          <caption class="sr-only">Especificaciones {delN}</caption>
           <tbody>
             {getSpecRows(canon).map((r) => (
               <tr>
@@ -176,21 +202,104 @@ const ctaBarItems = [
     </div>
   </section>
 
+  {detalle && (
+    <section class="section" id="para-quien">
+      <div class="container ficha">
+        <div class="ficha__grid">
+          <div>
+            <h2>¿Para quién es {elN}?</h2>
+            <p>{detalle.paraQuien}</p>
+          </div>
+          <div>
+            <h2>Medidas y espacio necesario</h2>
+            <p>{detalle.espacio}</p>
+          </div>
+        </div>
+
+        <h3 class="ficha__h3">Ideas de temática y uso con {elN}</h3>
+        <ul class="ficha__ideas">
+          {detalle.ideas.map((i) => (
+            <li><strong>{i.titulo}.</strong> {i.texto}</li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
   <!-- Pricing -->
   <section class="section section--alt" id="precios">
     <div class="container">
-      <SectionHeader badge="Paquetes" title={`¿Cuánto cuesta rentar el ${canon.name} en CDMX?`} subtitle="Instalación incluida; traslado según zona" copy1={page.precios.copy1} copy2={page.precios.copy2} />
+      <SectionHeader badge="Paquetes" title={`¿Cuánto cuesta rentar ${elN} en CDMX?`} subtitle="Instalación incluida; traslado según zona" copy1={page.precios.copy1} copy2={page.precios.copy2} />
       <PricingCards packages={page.pricingPackages} />
     </div>
   </section>
 
+  {detalle && (
+    <section class="section" id="instalacion">
+      <div class="container ficha">
+        <div class="ficha__grid">
+          <div>
+            <h2>¿Qué incluye la renta {delN}?</h2>
+            <p>{detalle.incluye}</p>
+          </div>
+          <div>
+            <h2>¿Cómo se instala?</h2>
+            <p>{detalle.instalacion}</p>
+          </div>
+        </div>
+
+        <h3 class="ficha__h3">¿{canon.name} o {detalle.comparacion.nombre}?</h3>
+        <p>
+          {detalle.comparacion.texto}{" "}
+          <a href={`/inflables/${detalle.comparacion.slug}/`}>Ver la renta {delDe(detalle.comparacion.nombre)}</a>.
+        </p>
+
+        {zonas.length > 0 && (
+          <>
+            <h3 class="ficha__h3">Entrega {delN} por zona</h3>
+            <ul class="ficha__zonas">
+              {zonas.map((z) => (
+                <li>
+                  <a href={`/cobertura/${z.slug}/`}>{z.anchor}</a>
+                  <span>{z.nota} Envío: {z.zona!.shippingFee ?? "se confirma al cotizar"}.</span>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+      </div>
+    </section>
+  )}
+
+  {page.faqItems.length > 0 && (
+    <section class="section section--alt" id="preguntas-modelo">
+      <div class="container ficha">
+        <h2>Preguntas sobre la renta {delN}</h2>
+        <div class="ficha__faqs">
+          {page.faqItems.map((f) => (
+            <details>
+              <summary>{f.question}</summary>
+              <p>{f.answer}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
   <!-- Guías del modelo -->
-  {guias.length > 0 && (
+  {(guiasCuradas.length > 0 || guias.length > 0) && (
     <section class="section" id="guias">
       <div class="container">
-        <h2 class="guias__title">¿Cómo aprovechar el {canon.name} en tu fiesta?</h2>
-        <p class="guias__lead">Ideas, comparativas y logística escritas a partir de las medidas y edades reales del {canon.name}.</p>
+        <h2 class="guias__title">¿Cómo aprovechar {elN} en tu fiesta?</h2>
+        <p class="guias__lead">Ideas, comparativas y logística escritas a partir de las medidas y edades reales {delN}.</p>
         <ul class="guias__list">
+          {guiasCuradas.map((g) => (
+            <li>
+              <a href={`/blog/${g.slug}/`}>{g.anchor}</a>
+              <span>{g.nota}</span>
+            </li>
+          ))}
           {guias.map((g) => (
             <li>
               <a href={`/blog/${g.id}/`}>{g.data.h1 || g.data.title}</a>
@@ -233,7 +342,7 @@ const ctaBarItems = [
   </section>
 
   <CtaBanner
-    title={`¿Te interesa el ${canon.name}?`}
+    title={`¿Te interesa ${elN}?`}
     subtitle="Reserva ahora y asegura tu fecha. Respondemos en minutos."
     btnText={page.cta}
     btnHref="/cotizar/"
@@ -259,6 +368,29 @@ const ctaBarItems = [
     line-height: 1.7;
     color: var(--text-muted, #5a5a66);
   }.tambien-en a { font-weight: 600; }
+  .ficha { max-width: 960px; }
+  .ficha h2 { margin: 0 0 .75rem; font-size: clamp(1.35rem, 3vw, 1.75rem); line-height: 1.25; }
+  .ficha p { line-height: 1.7; margin: 0 0 1rem; }
+  .ficha__grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+    margin-bottom: 1.5rem;
+  }
+  .ficha__h3 { margin: 1.75rem 0 .75rem; font-size: 1.2rem; }
+  .ficha__ideas, .ficha__zonas { margin: 0; padding-left: 1.25rem; line-height: 1.65; }
+  .ficha__ideas li, .ficha__zonas li { margin-bottom: .5rem; }
+  .ficha__zonas a { font-weight: 700; }
+  .ficha__zonas span { display: block; font-size: .95rem; color: var(--c-text-muted); }
+  .ficha__faqs details {
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    background: var(--white);
+    padding: .9rem 1.15rem;
+    margin-bottom: .75rem;
+  }
+  .ficha__faqs summary { cursor: pointer; font-weight: 700; line-height: 1.4; }
+  .ficha__faqs details p { margin: .75rem 0 0; }
   .guias__title { margin: 0 0 .5rem; }
   .guias__lead { margin: 0 0 1.5rem; color: var(--c-text-muted); }
   .guias__list {

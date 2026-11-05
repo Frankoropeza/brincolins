@@ -110,7 +110,7 @@ export const FAQ_UNIVERSAL: Faq[] = [
   {
     tag: "Modelos",
     question: "¿Hay inflables para adultos o sólo para niños?",
-    answer: "También para adultos. El Circuito Extremo de 7 metros está pensado para competencias entre adolescentes y adultos, y el Castillo Blanco se renta para bodas, XV años y eventos de empresa. Son los modelos que más se piden para team building y family days. La única condición es respetar la capacidad indicada de cada uno.",
+    answer: "También para adultos. El Circuito Extremo de 8 metros está pensado para competencias entre adolescentes y adultos, y el Castillo Blanco se renta para bodas, XV años y eventos de empresa. Son los modelos que más se piden para team building y family days. La única condición es respetar la capacidad indicada de cada uno.",
   },
   {
     tag: "Requisitos",
@@ -140,7 +140,7 @@ export const FAQ_UNIVERSAL: Faq[] = [
   {
     tag: "Cobertura",
     question: "¿Cubren toda la CDMX y el Estado de México?",
-    answer: "Cubrimos las 16 alcaldías de la Ciudad de México y los principales municipios del Estado de México: Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Atizapán, Cuautitlán Izcalli, Coacalco, Nezahualcóyotl y más. En la mayoría de las alcaldías la entrega va incluida; en municipios distantes aplica un cargo de envío que publicamos en la página de cada zona.",
+    answer: "Cubrimos las 16 alcaldías de la Ciudad de México y los principales municipios del Estado de México: Naucalpan, Tlalnepantla, Ecatepec, Huixquilucan, Atizapán, Cuautitlán Izcalli, Coacalco, Nezahualcóyotl y más. La entrega no tiene costo en algunas colonias céntricas de la CDMX; en el resto aplica un cargo de envío según la colonia, que publicamos en la página de cada zona.",
   },
 ];
 
@@ -193,12 +193,12 @@ function faqsProducto(slug: string): Faq[] {
     {
       tag: "Espacio",
       question: `¿Cuánto espacio necesito para el ${i.name}?`,
-      answer: `El ${i.name} mide ${i.size} y necesita un área libre de ${i.spaceRequired}, con ${i.heightClearance} de altura libre. Esa medida ya incluye un metro de margen por lado para el anclaje y para que los niños entren y salgan sin pegarse con nada. ${i.indoor ? "Es uno de los modelos que caben bajo techo, así que funciona en salón o terraza cubierta." : "Por su altura necesita instalarse al aire libre o en un espacio con techo muy alto."}`,
+      answer: `El ${i.name} mide ${i.size} y pide ${i.heightClearance} de altura libre. Alrededor necesita un margen despejado para el anclaje y para que los niños entren y salgan sin pegarse con nada; el área exacta la confirmamos al cotizar con las medidas de tu espacio. ${i.indoor ? "Es uno de los modelos que caben bajo techo, así que funciona en salón o terraza cubierta." : "Por su altura necesita instalarse al aire libre o en un espacio con techo muy alto."}`,
     },
     {
       tag: "Edades",
-      question: `¿Para qué edad es el ${i.name} y cuántos niños admite?`,
-      answer: `Está recomendado para ${i.ages} y admite ${i.capacity} al mismo tiempo. Esa capacidad es de niños brincando a la vez, no del total de invitados: con turnos, atiende sin problema una fiesta bastante más grande. Respetar el número simultáneo es lo que mantiene el juego seguro.`,
+      question: `¿Para qué edad es el ${i.name}?`,
+      answer: `Está recomendado para ${i.ages}. Cuántos niños pueden brincar al mismo tiempo te lo confirmamos al cotizar según sus edades; con turnos atiende sin problema una fiesta más grande, y respetar ese número simultáneo es lo que mantiene el juego seguro.`,
     },
   ];
 }
@@ -368,7 +368,7 @@ const FAQ_CERCA: Faq[] = [
   {
     tag: "Cobertura",
     question: "¿En qué zonas la entrega no tiene costo?",
-    answer: "En la mayoría de las alcaldías de la Ciudad de México la entrega va incluida en el precio del inflable. En municipios distantes del Estado de México aplica un cargo de envío que depende de la colonia y que publicamos en la página de cada zona, para que lo sepas antes de cotizar y no aparezca como sorpresa al final.",
+    answer: "La entrega no tiene costo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco. En el resto de la CDMX y en el Estado de México aplica un cargo de envío según la colonia, que aparece en la página de cada zona y te confirmamos al cotizar.",
   },
 ];
 

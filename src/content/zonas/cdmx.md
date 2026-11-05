@@ -1,13 +1,22 @@
 ---
 titulo: "Guía por regiones: cómo planear tu fiesta con inflable en la Ciudad de México"
 vecinas: ["edomex", "naucalpan", "tlalnepantla", "ecatepec", "nezahualcoyotl", "huixquilucan"]
-guias: ["como-elegir-inflable-fiesta-infantil", "salon-de-fiestas-o-fiesta-en-casa-cdmx", "cuando-reservar-inflable-temporadas-cdmx", "inflable-bajo-techo-temporada-de-lluvias-cdmx", "cuanta-luz-consume-un-inflable-contacto-extension"]
+guias: ["medidas-de-inflables-para-fiestas-tabla", "como-elegir-inflable-fiesta-infantil", "salon-de-fiestas-o-fiesta-en-casa-cdmx", "cuando-reservar-inflable-temporadas-cdmx", "inflable-bajo-techo-temporada-de-lluvias-cdmx"]
 faqs:
   - question: "¿Cómo sé qué inflable cabe en mi casa antes de reservar?"
     answer: "Mide el área libre donde irá el inflable (largo, ancho y, si hay techo, árboles o tendederos, la altura) y mándanos una foto tomada desde una esquina. Con eso, y con la edad de los niños, te decimos qué modelos caben. Lo confirmamos antes de que apartes la fecha."
   - question: "Vivo en el límite entre la CDMX y el Estado de México, ¿qué página de cobertura me corresponde?"
     answer: "La de la alcaldía o el municipio donde está tu domicilio. Si no estás seguro, mándanos tu dirección completa por WhatsApp y te decimos la zona y el cargo de traslado que aplica. Atendemos tanto las 16 alcaldías como los municipios conurbados con página propia."
 ---
+Rentar un inflable en la Ciudad de México cuesta de $1,400 a $2,600 por evento de 4 a 6 horas, con entrega, instalación y retiro incluidos. El envío no tiene costo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco; donde hay monto publicado va de $100 a $300, y en el resto se confirma con tu colonia.
+
+**Puntos clave**
+
+- Llegamos a las 16 alcaldías; cada una tiene su página con colonias, cargo de envío y modelos recomendados.
+- Bajo techo solo caben el Castillo Baby y los Gusanitos, que piden 3.2 m de altura libre.
+- Necesitas una toma de 110 V a menos de 20 m y un piso plano y despejado.
+- Apartas con el 50% de anticipo y, si llueve, reprogramamos sin costo.
+
 La Ciudad de México no se planea igual de norte a sur. En el centro predominan los departamentos y las azoteas; en el poniente, las laderas, las torres y los fraccionamientos con caseta; en el oriente, las unidades habitacionales y las cocheras; y en el sur, los jardines grandes y los terrenos de los pueblos. Esta guía te ayuda a ubicar tu caso por región y a llegar a la página de tu alcaldía, donde está el detalle de colonias, accesos y cargo de envío.
 
 ### Centro: departamentos, azoteas y patios
@@ -33,6 +42,31 @@ En [Azcapotzalco](/cobertura/azcapotzalco/) y [Gustavo A. Madero](/cobertura/gus
 ### Sur: jardines, pueblos y terrenos
 
 En [Coyoacán](/cobertura/coyoacan/) y [Tlalpan](/cobertura/tlalpan/) hay casonas con patio, fraccionamientos del Pedregal con jardines amplios y suelo de roca volcánica, y unidades como las de Villa Coapa. Más al sur, [Xochimilco](/cobertura/xochimilco/), [Tláhuac](/cobertura/tlahuac/) y [Milpa Alta](/cobertura/milpa-alta/) son tierra de pueblos con terreno propio, donde caben los modelos más grandes del catálogo. Por la distancia, el traslado tiene cargo: en Xochimilco de $100 a $150 (con algunas zonas sin costo), en Tláhuac de $100 a $200 y en Milpa Alta de $200 a $300.
+
+### ¿Cuánto cuesta el envío en cada alcaldía?
+
+Esta tabla resume el cargo de traslado de las 16 alcaldías. Instalación y retiro van siempre dentro del precio del inflable; el envío es el mismo para cualquier modelo.
+
+| Alcaldía | Cargo de envío | Espacio más común |
+|---|---|---|
+| Álvaro Obregón | Según colonia | Jardín en pendiente, fraccionamiento con caseta |
+| Azcapotzalco | Según colonia | Patio de casa, explanada de unidad |
+| Benito Juárez | Sin costo en Narvarte; resto según colonia | Azotea, patio de edificio |
+| Coyoacán | Según colonia | Casona con patio, unidad habitacional |
+| Cuajimalpa | Según colonia | Casa junto al bosque, torre |
+| Cuauhtémoc | Sin costo en Roma, Doctores, Santa María la Ribera y Reforma; resto según colonia | Azotea, salón |
+| Gustavo A. Madero | Según colonia | Patio de casa, unidad habitacional |
+| Iztacalco | Según colonia | Cochera, azotea |
+| Iztapalapa | Sin costo en algunas zonas; resto de $100 a $150 | Cochera, azotea, salón |
+| La Magdalena Contreras | Según colonia | Casa escalonada en pendiente |
+| Miguel Hidalgo | Sin costo en Polanco; resto según colonia | Patio, jardín, roof garden |
+| Milpa Alta | $200 a $300 | Terreno de pueblo |
+| Tláhuac | $100 a $200 | Patio amplio, terreno familiar |
+| Tlalpan | Según colonia | Jardín grande, suelo volcánico |
+| Venustiano Carranza | Según colonia | Unidad, cochera, salón |
+| Xochimilco | Sin costo en algunas zonas; resto de $100 a $150 | Terreno de pueblo, jardín |
+
+"Según colonia" significa que el importe se confirma con tu dirección al cotizar, antes de que apartes la fecha.
 
 ### Tabla de referencia por región
 
@@ -75,4 +109,4 @@ Muchas colonias del norte, oriente y poniente de la ciudad colindan con municipi
 
 ### Siguiente paso
 
-En la Ciudad de México el traslado no tiene costo adicional en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco. Donde hay cargo con monto publicado, va de $100 a $300 según la alcaldía y la colonia; en las demás alcaldías se confirma al cotizar. Consulta los montos de cada modelo en [precios](/precios/) o mándanos tus datos desde [cotizar](/cotizar/). Atendemos por WhatsApp de lunes a domingo, de 8:00 a 20:00.
+En la Ciudad de México el traslado no tiene costo adicional en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma y algunas zonas de Iztapalapa y Xochimilco. Donde hay cargo con monto publicado, va de $100 a $300 según la alcaldía y la colonia; en las demás alcaldías se confirma al cotizar. Para calcular la fiesta completa, no solo el inflable, usa la guía de [presupuesto de una fiesta infantil en CDMX](/blog/cuanto-cuesta-una-fiesta-infantil-cdmx-presupuesto/). Consulta los montos de cada modelo en la [tabla de precios de renta de inflables](/precios/) o mándanos tus datos desde [cotizar](/cotizar/). Atendemos por WhatsApp de lunes a domingo, de 8:00 a 20:00.
