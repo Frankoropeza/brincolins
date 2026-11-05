@@ -1,7 +1,7 @@
 ---
-title: "Fiesta de Halloween infantil: ideas sin sustos"
-h1: "Fiesta de Halloween infantil con inflable: decoración sin sustos, disfraces, juegos y luz para la tarde de octubre"
-description: "Fiesta de Halloween infantil en CDMX: decoración sin sustos, desfile de disfraces, juegos, luz para la tarde y reglas en el inflable. Cotiza hoy."
+title: "Fiesta de Halloween para niños: juegos e ideas sin sustos"
+h1: "Fiesta de Halloween para niños con inflable: decoración sin sustos, disfraces, juegos y luz para la tarde de octubre"
+description: "Fiesta de Halloween para niños en CDMX: decoración sin sustos, disfraces, juegos de Halloween, luz para la tarde y reglas en el inflable. Cotiza hoy."
 excerpt: "Cómo armar una fiesta de Halloween para niños con inflable: decoración amable, desfile de disfraces, caza de calabazas, horario para la tarde fresca y qué quitarse antes de brincar."
 publishDate: "2026-11-05"
 updatedDate: "2026-11-05"
@@ -145,7 +145,7 @@ Los disfraces de tela completa (pijamas de animal, mallas, overoles) están bien
 
 La supervisión adulta es obligatoria durante todo el evento. Nombra a un adulto de entrada por bloque de una hora: él revisa que nadie entre con accesorios, pide zapatos fuera y organiza turnos por estatura. Los niños de 2 a 4 años brincan en un turno, los de primaria en otro. Las [normas de seguridad para juegos inflables](/blog/normas-de-seguridad-juegos-inflables/) tienen la lista completa de reglas que puedes imprimir y pegar junto a la entrada.
 
-## ¿Qué juegos de Halloween funcionan con niños de varias edades?
+## ¿Qué juegos de Halloween para niños funcionan con varias edades?
 
 Los mejores juegos de Halloween son los que tienen reglas cortas, no eliminan a nadie y se pueden hacer con luz de tarde. Estos cinco funcionan con grupos mixtos.
 

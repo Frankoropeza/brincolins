@@ -1,7 +1,7 @@
 ---
-title: "Pastel para fiesta infantil: cuántas porciones pedir"
-h1: "Pastel para fiesta infantil: cuántas porciones pedir, qué tamaño elegir y en qué momento partirlo si hay inflable"
-description: "Pastel para fiesta infantil: cuántas porciones pedir para niños y adultos, tabla de tamaños orientativa y cuándo partirlo con inflable. Calcula el tuyo."
+title: "Pastel para 20, 30 o 50 personas en fiesta infantil"
+h1: "Pastel para fiesta infantil: cuántas porciones pedir para 20, 30 o 50 personas y en qué momento partirlo si hay inflable"
+description: "Pastel para 20, 30 o 50 personas en fiesta infantil: porciones para niños y adultos, tabla de tamaños orientativa y cuándo partirlo. Calcula el tuyo."
 excerpt: "Una porción por invitado más un margen, una tabla orientativa de tamaños para llevar a la pastelería, el momento ideal para las mañanitas y cómo cuidar el pastel del calor, del traslado y del inflable."
 publishDate: "2026-11-05"
 updatedDate: "2026-11-05"

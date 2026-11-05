@@ -1,5 +1,5 @@
 ---
-title: "Fiesta mexicana infantil: juegos, comida y decoración"
+title: "Fiesta mexicana para niños: juegos, comida y decoración"
 h1: "Fiesta mexicana infantil con inflable: noche mexicana, antojitos para niños, juegos tradicionales y plan para la lluvia de septiembre"
 description: "Fiesta mexicana infantil en CDMX: antojitos para niños, lotería, juegos tradicionales, papel picado tricolor e inflable, con plan para lluvia. Cotiza ya."
 excerpt: "Ideas para una noche mexicana o fiesta patria para niños: menú de antojitos sin picante, lotería, canicas, balero, carrera de costales, decoración tricolor y qué hacer si llueve en septiembre."

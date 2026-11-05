@@ -54,7 +54,7 @@ Además es una temática que no divide al grupo. Niñas y niños, primos de dist
 
 Muchas familias eligen como temática a un personaje de cine o caricatura. Es válido para el pastel, la ropa del festejado o las invitaciones que compres por tu cuenta. Lo que te recomendamos es construir la fiesta con **héroes propios**: cada niño elige un color de capa y un poder, y así nadie se pelea por ser "el mismo". Considera también que BRINCOLINS no renta inflables ni decoración con personajes con licencia; el inflable entra como escenario por su color y su forma.
 
-## ¿Qué decoración necesita una fiesta de superhéroes?
+## ¿Qué decoración de superhéroes necesita la fiesta?
 
 Menos de lo que crees. La decoración de superhéroes vive de tres cosas: colores fuertes, siluetas de ciudad y textos tipo cómic. Con eso, cualquier patio se vuelve "la ciudad que hay que salvar".
 

@@ -1,5 +1,5 @@
 ---
-title: "Fiesta de carros: pista, pits y circuito inflable"
+title: "Fiesta de carros para niños: pista, pits y circuito inflable"
 h1: "Fiesta de carros de carreras con inflable: pista con cinta, pit stop de comida, relevos y cronograma"
 description: "Fiesta de carros de carreras con inflable: pista con cinta, pit stop de comida, relevos por equipos y el Extremo como pista de obstáculos. Planea y cotiza."
 excerpt: "Una pista marcada con cinta, bandera a cuadros, un pit stop para la comida, carreras por relevos y un circuito inflable como pista de obstáculos. El plan completo para una fiesta de carros."

@@ -1,7 +1,7 @@
 ---
-title: "Fiesta de futbol infantil: torneo, juegos e inflable"
-h1: "Fiesta de futbol infantil con inflable: torneo relámpago, mini cancha, juegos de puntería y medios tiempos"
-description: "Fiesta de futbol infantil con inflable: torneo relámpago, mini cancha, puntería, equipos por edad y medios tiempos en el brincolín. Arma tu plan y cotiza."
+title: "Fiesta de futbol para niños: decoración, torneo e inflable"
+h1: "Fiesta de futbol para niños con inflable: decoración de futbol, torneo relámpago, mini cancha y medios tiempos"
+description: "Fiesta de futbol para niños: decoración de futbol, torneo relámpago, mini cancha, puntería y medios tiempos en el inflable. Arma tu plan y cotiza hoy."
 excerpt: "Un torneo relámpago con equipos por edad, una mini cancha marcada con cinta, juegos de puntería y un inflable para los medios tiempos. Así se organiza una fiesta de futbol infantil sin caos."
 publishDate: "2026-11-05"
 updatedDate: "2026-11-05"
@@ -142,6 +142,17 @@ El momento de formar equipos es donde más se lastiman sentimientos. Evita que l
 - **Capitán rotativo:** cada partido, un niño distinto es capitán y hace el saque inicial.
 
 Si en tu fiesta hay niñas y niños de varias edades, el torneo se puede dividir en categoría pequeña y categoría grande, con su propia final y su propio campeón.
+
+## ¿Cómo hacer la decoración de futbol en casa?
+
+La decoración de futbol más efectiva es la que convierte el patio en un estadio sin gastar de más. Piensa en tres zonas: la entrada, la cancha y la mesa.
+
+- **Entrada tipo túnel de jugadores:** dos columnas de globos con los colores de los equipos del torneo y un tapete verde o una tira de pasto sintético.
+- **Cancha:** líneas de cinta blanca, conos y banderines en las esquinas. Si tienes una red o malla vieja, sirve como fondo de portería para las fotos.
+- **Mesa principal:** mantel verde con líneas blancas de cinta, balones pequeños como centro de mesa y la copa de cartón al frente.
+- **Marcador:** una cartulina grande o un pizarrón con los nombres de los equipos, que también sirve para llevar el torneo.
+
+Usa los colores de los equipos del torneo, no los de un club en particular, para que ningún invitado se sienta visitante en su propia fiesta. Si quieres ir más allá de los globos, la guía de [decoración completa para fiesta infantil](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/) explica cómo integrar arco, mesa e inflable en un solo diseño.
 
 ## ¿Qué comida servir en una fiesta de futbol?
 

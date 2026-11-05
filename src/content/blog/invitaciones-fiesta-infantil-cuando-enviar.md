@@ -1,7 +1,7 @@
 ---
-title: "Invitaciones para fiesta infantil: cuándo y qué incluir"
-h1: "Invitaciones para fiesta infantil: cuándo enviarlas, qué datos poner y textos de ejemplo para WhatsApp o impresas"
-description: "Invitaciones para fiesta infantil: cuántas semanas antes enviarlas, qué datos incluir, textos de ejemplo y cómo pedir confirmación. Úsala hoy."
+title: "Invitaciones de cumpleaños para niños: cuándo enviarlas"
+h1: "Invitaciones de cumpleaños para niños: cuándo enviarlas, qué datos poner y textos de ejemplo para WhatsApp o impresas"
+description: "Invitaciones de cumpleaños para niños: cuántas semanas antes enviarlas, qué datos incluir, textos de ejemplo y cómo pedir confirmación. Úsala hoy."
 excerpt: "Cuándo mandar las invitaciones, los datos que no pueden faltar (horario de fin, ropa para el inflable, alergias), textos de ejemplo listos para copiar y cómo pedir confirmación sin perseguir a nadie."
 publishDate: "2026-11-05"
 updatedDate: "2026-11-05"
@@ -60,7 +60,7 @@ Las invitaciones para fiesta infantil se envían entre 3 y 4 semanas antes del e
 - Si habrá inflable, pide ropa cómoda y calcetines desde la invitación, y pregunta por alergias.
 - Pon fecha límite para confirmar de 7 a 10 días antes y manda recordatorio 2 o 3 días antes.
 
-## ¿Con cuánto tiempo se envían las invitaciones para fiesta infantil?
+## ¿Con cuánto tiempo se envían las invitaciones de cumpleaños para niños?
 
 La regla práctica es de **3 a 4 semanas antes**. Con ese margen las familias pueden apartar la fecha, buscar regalo y organizar quién lleva a los niños, y tú todavía tienes tiempo de ajustar proveedores con el número real de invitados.
 

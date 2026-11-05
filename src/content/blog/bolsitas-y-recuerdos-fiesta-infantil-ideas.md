@@ -1,5 +1,5 @@
 ---
-title: "Recuerdos para fiesta infantil: ideas por edad y precio"
+title: "Recuerdos y dulceros para fiesta infantil: ideas por edad"
 h1: "Recuerdos para fiesta infantil: ideas de bolsitas por edad y presupuesto, qué evitar, cuántas preparar y cuándo entregarlas"
 description: "Recuerdos para fiesta infantil: ideas por edad y presupuesto, qué evitar en menores de 3, cuántos preparar y opciones sin plástico. Arma los tuyos hoy."
 excerpt: "Ideas de recuerdos y bolsitas para cada edad y presupuesto, qué no meter para menores de 3 años, cuántos preparar, cuándo entregarlos y opciones útiles que no terminan en la basura."
@@ -170,7 +170,7 @@ El trompo, el balero y la lotería, además, funcionan como actividad: se enseñ
 
 ![Canasta de mimbre con trompos de madera, baleros, sobres de semillas y bolsitas de tela sobre una mesa en un jardín, con luz suave de tarde](/img/blog/bolsitas-y-recuerdos-fiesta-infantil-ideas/escena-2.avif "Juguetes tradicionales de madera y semillas para sembrar son recuerdos útiles que no se quedan en la basura")
 
-## ¿Bolsita, caja o un solo recuerdo?
+## ¿Dulcero, bolsita, caja o un solo recuerdo?
 
 El formato cambia el costo, el tiempo de armado y lo que llega a casa. Estas son las tres opciones más comunes:
 

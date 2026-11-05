@@ -1,5 +1,5 @@
 ---
-title: "Música para fiesta infantil: playlist por edad y momento"
+title: "Música infantil para fiestas: playlist por edad y momento"
 h1: "Música para fiesta infantil: playlist por edad, canciones para cada momento de la fiesta y cómo acomodar la bocina junto al inflable"
 description: "Música para fiesta infantil: playlist por edad de 1 a 12 años, canciones para llegada, juegos, piñata y pastel, volumen y bocina lejos del inflable."
 excerpt: "Qué música poner según la edad de los niños, una playlist por momento de la fiesta, juegos con música y las reglas de volumen, vecinos y bocina que evitan problemas con el inflable."

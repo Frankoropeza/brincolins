@@ -1,5 +1,5 @@
 ---
-title: "Fiesta de granja infantil: ideas para 1 a 5 años"
+title: "Fiesta de granja para niño: ideas de 1 a 5 años"
 h1: "Fiesta de granja infantil con inflable: decoración, juegos para niños de 1 a 5 años, menú y recuerdos"
 description: "Fiesta de granja para niños de 1 a 5 años: decoración, juegos por edad, menú, recuerdos y qué inflable elegir para bebés y kínder. Cotiza tu fecha."
 excerpt: "Todo para una fiesta de granja con niños pequeños: decoración con cuadros y madera, juegos de animales por edad, menú sencillo, recuerdos con semillas y el inflable correcto para bebés y preescolar."
@@ -81,7 +81,7 @@ Es la situación más común en una fiesta de granja: el festejado de 2 años, s
 
 Los precios son por evento de 4 a 6 horas e incluyen entrega, instalación, motor, sanitización y recolección. Son precios netos; con factura se suma el 16% de IVA.
 
-## ¿Cómo decorar una fiesta de granja infantil?
+## ¿Qué decoración de granja usar en la fiesta infantil?
 
 La decoración de granja se arma con tres materiales: tela de cuadros, madera y animales. Con eso ya tienes la temática. Divide el espacio en zonas para que se vea ordenado.
 

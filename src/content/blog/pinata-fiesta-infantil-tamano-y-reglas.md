@@ -60,7 +60,7 @@ Una piñata para fiesta infantil se elige según el número y la edad de los ni�
 - La piñata es una pausa del inflable: todos fuera, entrada cerrada por un adulto y motor prendido.
 - Zona despejada, círculo de seguridad, turnos por edad y nadie entra al inflable con dulces.
 
-## ¿De dónde viene la tradición de la piñata en México?
+## ¿De dónde viene la tradición de la piñata mexicana?
 
 La piñata llegó a México en la época colonial y se integró a las celebraciones religiosas, sobre todo a las posadas de diciembre. En San Agustín Acolman, en el Estado de México, se celebra cada año la Feria de la Piñata, y el municipio se considera uno de los lugares donde la tradición tomó forma en el país.
 
