@@ -29,7 +29,7 @@ function walkDir(dir, exts = ['.md', '.astro'], files = []) {
 // ── Extraer referencias de imagen ─────────────────────────────────────────────
 const IMG_PATTERNS = [
   /(?:heroImage|image|src|ogImage)\s*[=:]\s*["'`]?(\/img\/[^\s"'`)\]]+)/g,
-  /\(\/img\/([^)]+)\)/g,
+  /\(\/img\/([^)\s]+)(?:\s+"[^"]*")?\)/g,
   /src=["'](\/img\/[^"']+)["']/g,
 ];
 
