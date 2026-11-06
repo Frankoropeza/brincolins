@@ -60,7 +60,9 @@
   --shadow-primary: none;
   --shadow-wa: none;
 
-  --container-max: 1240px;
+  /* Ancho completo (pedido nov 2026): el contenido usa el 100% del
+     navegador; solo el padding lateral (--container-px) lo separa. */
+  --container-max: 100%;
   --section-py: clamp(3.5rem, 7vw, 6rem);
 
   /* Ondita de marca: separador y subrayado de titulares */
@@ -87,12 +89,10 @@ h1, h2, h3, h4, h5, h6 { color: var(--c-ink); letter-spacing: -0.02em; }
 .section--alt {
   background: #fff;
   border-radius: var(--r-sheet);
-  margin-inline: clamp(0.5rem, 1.6vw, 1.5rem);
 }
 .section--dark {
   background: var(--c-ink);
   border-radius: var(--r-sheet);
-  margin-inline: clamp(0.5rem, 1.6vw, 1.5rem);
 }
 /* Dos cojines seguidos no deben pegarse */
 .section--alt + .section--alt { margin-top: clamp(0.5rem, 1.6vw, 1.5rem); }
@@ -358,7 +358,7 @@ h1, h2, h3, h4, h5, h6 { color: var(--c-ink); letter-spacing: -0.02em; }
   overflow: hidden;
   background: var(--c-primary-deep) !important;
   border-radius: var(--r-sheet);
-  margin: clamp(0.5rem, 1.6vw, 1.5rem);
+  margin: clamp(0.5rem, 1.6vw, 1.5rem) 0;
   color: #fff;
 }
 .cta-final::before,

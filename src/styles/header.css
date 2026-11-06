@@ -26,18 +26,15 @@
 .hdr {
   position: relative;   /* NO fijo: viaja con el documento y se va al hacer scroll */
   z-index: 100;         /* mantiene dropdowns / mega-menú por encima del contenido de abajo */
-  /* Nov 2026 — barra flotante: tarjeta blanca redonda sobre el lienzo
-     crema, sin la franja naranja inferior. */
-  width: auto;
-  max-width: calc(var(--container-max, 1240px) + 2 * var(--container-px));
-  margin: 0 auto;
-  padding-inline: clamp(0.5rem, 1.6vw, 1.5rem);
+  /* Nov 2026 — barra blanca a todo el ancho con esquinas inferiores
+     redondas, sin la franja naranja inferior. */
+  width: 100%;
   background: transparent;
 }
 .hdr__inner {
   background: #fff;
-  border: 1px solid rgba(23, 21, 43, 0.08);
-  border-radius: 32px;
+  border-bottom: 1px solid rgba(23, 21, 43, 0.08);
+  border-radius: 0 0 32px 32px;
   box-shadow: 0 10px 30px -18px rgba(23, 21, 43, 0.35);
 }
 
