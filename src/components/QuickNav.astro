@@ -6,7 +6,6 @@
  * muestra enlaces distintos según la sección del sitio.
  * Se puede sobreescribir pasando `links`.
  */
-import { textOn } from '@/lib/contrast';
 
 interface Link { label: string; href: string; color: string; }
 interface Props { links?: Link[]; }
@@ -59,20 +58,18 @@ if (!links) {
   else links = MAIN;
 }
 
-/* Contraste automático del texto (WCAG 2.1 AA): textOn() elige blanco u
-   oscuro según la luminancia del fondo, así cada color conserva su
-   saturación y el texto siempre cumple 4.5:1. Ver src/lib/contrast.ts. */
-const cols = links.length % 4 === 0 ? 4 : 3; // columnas en tablet (filas parejas)
+/* El color de cada enlace solo pinta el punto de la ficha (--bg); el
+   texto siempre es tinta sobre blanco. */
 ---
 
-<nav class="qnav" aria-label="Navegación rápida" style={`--cols:${cols}`}>
+<nav class="qnav" aria-label="Navegación rápida">
   {links.map(l => {
     const active = current === l.href;
     return (
       <a
         href={l.href}
         class="qnav__item"
-        style={`--bg:${l.color};--fg:${textOn(l.color)}`}
+        style={`--bg:${l.color}`}
         aria-current={active ? "page" : undefined}
       >
         {l.label}
@@ -82,68 +79,71 @@ const cols = links.length % 4 === 0 ? 4 : 3; // columnas en tablet (filas pareja
 </nav>
 
 <style is:global>
-/* QuickNav — barra de ancho completo (oct 2026).
-   Bloques de color sólido, uno por categoría, que reparten todo el ancho
-   del navegador sin huecos. Texto en Outfit 800 con contraste calculado
-   por textOn(). Hover: el bloque se intensifica y aparece la barra
-   inferior; página actual: barra inferior fija y texto en 900.
-   Sin animaciones de entrada (regla del proyecto). El color y el texto
-   llegan por --bg y --fg (inline desde el componente). */
+/* QuickNav — fila de fichas (nov 2026, «Patio de aire»).
+   Antes: franja de bloques de color a todo el ancho. Ahora: fichas
+   blancas redondas sobre el lienzo, cada una con un punto del color de
+   su categoría (--bg). El texto siempre es tinta, así que el contraste
+   ya no depende del color. Sin animaciones de entrada; hover = se eleva. */
 .qnav {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  background: #fff;
-  box-shadow: 0 6px 16px -8px rgba(16, 24, 40, 0.25);
+  justify-content: center;
+  gap: 0.6rem;
+  max-width: calc(var(--container-max, 1240px) + 2 * var(--container-px, 1rem));
+  margin: 0 auto;
+  padding: 0.5rem var(--container-px, 1rem) 1.5rem;
   position: relative;
   z-index: 1;
 }
 .qnav__item {
-  position: relative;
-  flex: 1 1 0;
-  min-width: 0;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  min-height: 64px;
-  padding: 0.85rem 0.75rem;
-  background: var(--bg, var(--c-primary, #FF3D00));
-  color: var(--fg, #fff);
+  gap: 0.55rem;
+  min-height: 46px;
+  padding: 0.6rem 1.15rem 0.6rem 0.95rem;
+  background: #fff;
+  color: var(--c-ink, #17152B);
+  border: 1px solid var(--c-line-strong, rgba(23,21,43,.16));
+  border-radius: 999px;
   font-family: var(--font-head, sans-serif);
-  font-weight: 800;
-  font-size: 0.98rem;
+  font-weight: 600;
+  font-size: 0.95rem;
   line-height: 1.2;
-  letter-spacing: 0.01em;
   text-decoration: none !important;
-  text-wrap: balance;
-  box-shadow: inset -1px -1px 0 rgba(255, 255, 255, 0.35);
-  transition: filter .15s ease;
+  white-space: nowrap;
+  transition: transform .18s ease, background .18s ease, border-color .18s ease;
 }
-.qnav__item::after {
+.qnav__item::before {
   content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 0;
-  background: var(--fg, #fff);
-  opacity: 0.9;
-  transition: height .15s ease;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--bg, var(--c-primary, #FF3D00));
+  flex-shrink: 0;
 }
-.qnav__item:hover { filter: brightness(1.1) saturate(1.1); }
-.qnav__item:hover::after { height: 5px; }
+.qnav__item:hover {
+  transform: translateY(-2px);
+  border-color: var(--c-ink, #17152B);
+}
 .qnav__item:focus-visible {
-  outline: 3px solid var(--c-secondary, #1A1A2E);
-  outline-offset: -3px;
+  outline: 3px solid var(--c-ink, #17152B);
+  outline-offset: 2px;
 }
-.qnav__item[aria-current="page"] { font-weight: 900; }
-.qnav__item[aria-current="page"]::after { height: 5px; }
+.qnav__item[aria-current="page"] {
+  background: var(--c-ink, #17152B);
+  border-color: var(--c-ink, #17152B);
+  color: #fff;
+}
 
-@media (max-width: 1100px) {
-  .qnav__item { flex: 1 1 calc(100% / var(--cols, 4)); min-height: 58px; font-size: 0.95rem; }
-}
 @media (max-width: 560px) {
-  .qnav__item { flex: 1 1 50%; min-height: 52px; font-size: 0.9rem; padding: 0.7rem 0.6rem; }
+  .qnav {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .qnav::-webkit-scrollbar { display: none; }
+  .qnav__item { min-height: 44px; font-size: 0.9rem; }
 }
 </style>

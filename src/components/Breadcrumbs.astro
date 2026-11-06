@@ -49,9 +49,9 @@ const { items } = Astro.props;
     border-bottom: 1px solid #e9ecef;
     padding: 0.625rem 0;
   }.crumbs__inner {
-    max-width: var(--container, 1400px);
+    max-width: calc(var(--container-max, 1240px) + 2 * var(--container-px, 1.5rem));
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 var(--container-px, 1.5rem);
   }.crumbs__list {
     display: flex;
     flex-wrap: wrap;

@@ -1,0 +1,440 @@
+/* ════════════════════════════════════════════════════════════════════
+   aire.css — sistema visual «Patio de aire» (nov 2026)
+
+   Capa de diseño que se importa AL FINAL en BaseLayout. Solo cambia la
+   piel: color, forma, tipografía y espaciado. No toca marcado, textos,
+   encabezados ni enlaces, así que el SEO queda intacto.
+
+   Ideas que la guían:
+   · Lienzo crema y tinta casi negra; el naranja de marca se reserva
+     para la acción (como el rojo de un juego: un solo color que manda).
+   · Bloques pastel por edad/categoría — cielo, menta, mango, chicle,
+     lila — para orientar a los papás de un vistazo.
+   · Formas «infladas»: radios grandes y botones con base marcada, como
+     un inflable apoyado en el pasto. Secciones alternas como cojines
+     blancos flotando sobre el lienzo.
+   · Etiqueta pequeña en mayúsculas sobre un titular corto y pesado.
+   · Cero animaciones de entrada (regla del proyecto); solo hover.
+
+   Contraste (calculado):
+     tinta #17152B / crema #FBF8F3      16.9:1
+     tinta-60 #55536A / crema           7.0:1
+     blanco / naranja-deep #D93000      4.80:1
+     #C82D00 / crema                    5.19:1
+     tinta / pasteles (todos)           > 12:1
+   ════════════════════════════════════════════════════════════════════ */
+
+:root {
+  --c-canvas: #FBF8F3;
+  --c-ink: #17152B;
+  --c-ink-60: #55536A;
+  --c-line: rgba(23, 21, 43, 0.09);
+  --c-line-strong: rgba(23, 21, 43, 0.16);
+
+  --c-cielo: #D7EAFF;
+  --c-menta: #D2F1E3;
+  --c-mango: #FFE4A6;
+  --c-chicle: #FFDAE6;
+  --c-lila: #E5DEFF;
+  --c-durazno: #FFE0D3;
+
+  /* Tokens heredados reapuntados a la paleta nueva */
+  --c-secondary: var(--c-ink);
+  --c-text: var(--c-ink);
+  --c-text-muted: var(--c-ink-60);
+  --c-bg: var(--c-canvas);
+  --c-bg-alt: #FFFFFF;
+  --c-bg-dark: var(--c-ink);
+  --c-border: var(--c-line);
+
+  --font-body: "Outfit", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --r-card: 28px;
+  --r-tile: 22px;
+  --r-sheet: clamp(28px, 4vw, 56px);
+  --r-btn: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(23, 21, 43, 0.04);
+  --shadow-md: 0 10px 30px -14px rgba(23, 21, 43, 0.22);
+  --shadow-lg: 0 24px 60px -24px rgba(23, 21, 43, 0.30);
+  --shadow-primary: none;
+  --shadow-wa: none;
+
+  --container-max: 1240px;
+  --section-py: clamp(3.5rem, 7vw, 6rem);
+
+  /* Ondita de marca: separador y subrayado de titulares */
+  --wave: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='10' viewBox='0 0 56 10'%3E%3Cpath d='M2 6c4.5-4 9-4 13 0s8.5 4 13 0 9-4 13 0 8.5 4 13 0' fill='none' stroke='%23FF3D00' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+/* ── Base ─────────────────────────────────────────────────────────── */
+body {
+  background: var(--c-canvas);
+  color: var(--c-ink);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+h1, h2, h3, h4, h5, h6 { color: var(--c-ink); letter-spacing: -0.02em; }
+::selection { background: var(--c-mango); color: var(--c-ink); }
+
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--c-ink);
+  outline-offset: 3px;
+}
+
+/* ── Secciones: lienzo / cojín blanco / tinta ─────────────────────── */
+.section { background: transparent; }
+.section--alt {
+  background: #fff;
+  border-radius: var(--r-sheet);
+  margin-inline: clamp(0.5rem, 1.6vw, 1.5rem);
+}
+.section--dark {
+  background: var(--c-ink);
+  border-radius: var(--r-sheet);
+  margin-inline: clamp(0.5rem, 1.6vw, 1.5rem);
+}
+/* Dos cojines seguidos no deben pegarse */
+.section--alt + .section--alt { margin-top: clamp(0.5rem, 1.6vw, 1.5rem); }
+
+/* Etiqueta: mayúsculas pequeñas con punto naranja */
+.section-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  color: var(--c-ink);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.section-badge::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--c-primary);
+  flex-shrink: 0;
+}
+.section--dark .section-badge { color: #fff; }
+
+.section-title {
+  font-size: clamp(2rem, 4.2vw, 3.1rem);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+}
+.section-separator {
+  width: 56px;
+  height: 10px;
+  border: 0;
+  border-radius: 0;
+  background: var(--wave) no-repeat center / contain;
+}
+.section-subtitle { color: var(--c-ink-60); font-size: 1.1rem; }
+.highlight { color: var(--c-primary-text); }
+
+/* ── Botones «inflados» ───────────────────────────────────────────── */
+.btn {
+  border-radius: var(--r-btn);
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  padding: 0.95rem 1.75rem;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.16);
+  transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease, box-shadow 0.18s ease;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn:active { transform: translateY(0); box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.16); }
+.btn-lg { padding: 1.1rem 2.1rem; font-size: 1.02rem; }
+
+.btn-primary { background: var(--c-primary-deep); color: #fff; }
+.btn-primary:hover { background: #C62800; box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.16); }
+
+.btn-wa { background: var(--c-wa); color: var(--c-on-light-vivid); box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.14); }
+.btn-wa:hover { background: #20C05C; }
+
+.btn-secondary { background: var(--c-ink); color: #fff; }
+.btn-secondary:hover { background: #2A2745; }
+
+.btn-outline {
+  background: transparent;
+  color: var(--c-ink);
+  border: 2px solid var(--c-ink);
+  box-shadow: none;
+}
+.btn-outline:hover { background: var(--c-ink); color: #fff; }
+
+.btn-white { background: #fff; color: var(--c-ink); }
+.btn-white:hover { box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.16); }
+
+/* ── Hero claro (todas las páginas) ───────────────────────────────── */
+.hero {
+  position: relative;
+  isolation: isolate;
+  background: var(--c-canvas);
+  color: var(--c-ink);
+  padding-top: clamp(2.5rem, 6vw, 5rem);
+  padding-bottom: clamp(3rem, 6vw, 5rem);
+}
+/* Dos «globos» pastel detrás del contenido: decoración, sin texto */
+.hero::before,
+.hero::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.hero::before {
+  width: clamp(260px, 34vw, 520px);
+  aspect-ratio: 1;
+  right: -6vw;
+  top: -10%;
+  background: var(--c-mango);
+}
+.hero::after {
+  width: clamp(140px, 16vw, 240px);
+  aspect-ratio: 1;
+  right: 30vw;
+  bottom: -70px;
+  background: var(--c-cielo);
+}
+.hero__grid { gap: clamp(2rem, 5vw, 4.5rem); }
+.hero__badge {
+  background: #fff;
+  border: 1px solid var(--c-line-strong);
+  color: var(--c-ink);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.55rem 1rem 0.55rem 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.hero__badge::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--c-green);
+  box-shadow: 0 0 0 4px rgba(0, 200, 83, 0.18);
+}
+.hero__title {
+  color: var(--c-ink);
+  font-weight: 800;
+  font-size: clamp(2.4rem, 5.6vw, 4.4rem);
+  line-height: 1.02;
+  letter-spacing: -0.045em;
+}
+.hero .highlight {
+  color: var(--c-primary-text);
+  font-weight: 800;
+  background: var(--wave) repeat-x left bottom / 28px 8px;
+  padding-bottom: 0.08em;
+}
+.hero__desc { color: var(--c-ink-60); font-size: 1.12rem; }
+.hero .btn-outline,
+.hero .btn-outline--white {
+  border: 2px solid var(--c-ink);
+  color: var(--c-ink);
+  background: #fff;
+}
+.hero .btn-outline:hover,
+.hero .btn-outline--white:hover { background: var(--c-ink); color: #fff; }
+.hero .btn-primary { background: var(--c-primary-deep); color: #fff; box-shadow: inset 0 -3px 0 rgba(0,0,0,.16); }
+.hero .btn-primary:hover { background: #C62800; }
+.hero .hero__social-proof,
+.hero__trust-line { color: var(--c-ink-60); }
+
+/* Columna derecha: los párrafos se vuelven fichas de color */
+.hero__copy { gap: 0.9rem; }
+.hero__copy-text {
+  background: #fff;
+  color: var(--c-ink);
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-card);
+  padding: 1.5rem 1.6rem;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.hero__copy-text:nth-child(2) { background: var(--c-cielo); border-color: transparent; }
+.hero__copy-text:nth-child(3) { background: var(--c-menta); border-color: transparent; }
+.hero__copy-text strong { color: var(--c-ink); font-weight: 700; }
+.hero__copy-text a { color: var(--c-ink); text-decoration: underline; text-underline-offset: 3px; }
+
+.hero__spec {
+  background: #fff;
+  border: 1px solid var(--c-line-strong);
+  color: var(--c-ink);
+}
+.hero__img-wrap { border-radius: var(--r-card); box-shadow: none; }
+.hero__img-pill { color: var(--c-ink); box-shadow: var(--shadow-md); }
+.hero__shape { display: none; }
+
+/* ── Tarjetas ─────────────────────────────────────────────────────── */
+.product-card,
+.cat-card,
+.why-card,
+.testimonial,
+.venue-card,
+.feat-card {
+  border-radius: var(--r-card) !important;
+  border: 1px solid var(--c-line) !important;
+  box-shadow: none !important;
+  background: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.product-card:hover,
+.cat-card:hover,
+.venue-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg) !important;
+}
+.section--alt .product-card,
+.section--alt .cat-card,
+.section--alt .testimonial { background: var(--c-canvas); }
+
+/* Foto enmarcada dentro de la tarjeta, como un cojín dentro de otro */
+.product-card__image,
+.cat-card__img-wrap {
+  margin: 10px 10px 0;
+  border-radius: calc(var(--r-card) - 10px) !important;
+  overflow: hidden;
+}
+.product-card__category,
+.cat-card__badge {
+  background: #fff !important;
+  color: var(--c-ink) !important;
+  border-radius: 999px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.02em;
+  box-shadow: 0 2px 8px rgba(23, 21, 43, 0.12);
+}
+.product-card__price {
+  background: var(--c-ink);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.3rem 0.85rem;
+  font-weight: 800;
+}
+.product-card__overlay { background: none !important; }
+.product-card__name,
+.cat-card__name { color: var(--c-ink); font-weight: 700; letter-spacing: -0.02em; }
+.product-card__tag {
+  background: var(--c-canvas) !important;
+  color: var(--c-ink) !important;
+  border: 1px solid var(--c-line) !important;
+  border-radius: 999px !important;
+}
+.section--alt .product-card__tag { background: #fff !important; }
+.cat-card__cta { color: var(--c-primary-text); font-weight: 700; }
+
+/* Color por categoría: ya no borde superior, sino tono pastel del tag */
+.product-card--castillo  .product-card__tag:first-child { background: var(--c-durazno) !important; }
+.product-card--princesas .product-card__tag:first-child { background: var(--c-chicle) !important; }
+.product-card--pirata    .product-card__tag:first-child { background: var(--c-cielo) !important; }
+.product-card--jungla    .product-card__tag:first-child { background: var(--c-menta) !important; }
+.product-card--acuatico  .product-card__tag:first-child { background: var(--c-cielo) !important; }
+.product-card--deportivo .product-card__tag:first-child,
+.product-card--extremo   .product-card__tag:first-child { background: var(--c-mango) !important; }
+.product-card--bodas     .product-card__tag:first-child { background: var(--c-lila) !important; }
+.product-card[class*="product-card--"] { border-top: 1px solid var(--c-line) !important; }
+
+/* ── Testimonios ──────────────────────────────────────────────────── */
+.testimonial { padding: 1.75rem; }
+.testimonial__text,
+.testimonial p { color: var(--c-ink); }
+
+/* ── CTA final: bloque naranja inflado ────────────────────────────── */
+.cta-final {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--c-primary-deep) !important;
+  border-radius: var(--r-sheet);
+  margin: clamp(0.5rem, 1.6vw, 1.5rem);
+  color: #fff;
+}
+.cta-final::before,
+.cta-final::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.10);
+  pointer-events: none;
+}
+.cta-final::before { width: 420px; height: 420px; right: -120px; top: -160px; }
+.cta-final::after  { width: 220px; height: 220px; left: -60px; bottom: -110px; }
+.cta-final__title { color: #fff; font-weight: 800; letter-spacing: -0.035em; }
+
+/* ── FAQ ──────────────────────────────────────────────────────────── */
+.faq-item {
+  border-radius: var(--r-tile) !important;
+  border: 1px solid var(--c-line) !important;
+  box-shadow: none !important;
+}
+
+/* ── Footer: tinta con esquinas redondas ──────────────────────────── */
+.footer {
+  background: var(--c-ink) !important;
+  border-radius: var(--r-sheet) var(--r-sheet) 0 0;
+  margin-top: clamp(1rem, 3vw, 2.5rem);
+}
+
+/* ── WhatsApp flotante ────────────────────────────────────────────── */
+.wa-bubble__btn,
+.wa-bubble a { box-shadow: 0 10px 24px -8px rgba(23, 21, 43, 0.35) !important; }
+
+/* ── Breadcrumbs ──────────────────────────────────────────────────── */
+.crumbs { background: transparent !important; border: 0 !important; }
+
+/* ── Tablas ───────────────────────────────────────────────────────── */
+table { border-color: var(--c-line); }
+
+/* ── Ajustes ronda 2 ──────────────────────────────────────────────── */
+/* Globo azul del hero: abajo a la izquierda, lejos de las fichas */
+.hero::after { right: auto; left: -60px; bottom: -90px; }
+
+/* Categorías por edad (home): tarjetas de color, como paneles de juego */
+.cat-grid .cat-card { border-color: transparent !important; }
+.cat-grid .cat-card:nth-child(1) { background: var(--c-chicle); }
+.cat-grid .cat-card:nth-child(2) { background: var(--c-mango); }
+.cat-grid .cat-card:nth-child(3) { background: var(--c-cielo); }
+.cat-grid .cat-card__desc { color: var(--c-ink); }
+.cat-grid .cat-card__cta { color: var(--c-ink); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.cat-grid .cat-card__name { font-size: 1.35rem; }
+
+/* Testimonios de aliados: sin marco naranja */
+.testimonial,
+.testimonial--partner { border: 1px solid var(--c-line) !important; }
+.testi-tag--partner {
+  background: var(--c-mango) !important;
+  color: var(--c-ink) !important;
+  border: 0 !important;
+}
+
+/* CTA final: el botón secundario va en contorno blanco */
+.cta-final .btn-outline--white {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  box-shadow: none;
+}
+.cta-final .btn-outline--white:hover { background: #fff; color: var(--c-ink); }
+.cta-final .btn-white { color: var(--c-ink); }
+
+/* ── Ajustes de contraste (ronda 3) ───────────────────────────────── */
+/* Texto naranja sobre mango baja a 4.4:1 → en fichas mango va tinta */
+.pilar-foot strong,
+.pilar-foot a { color: var(--c-ink) !important; }
+.pilar-foot a { text-decoration: underline; text-underline-offset: 3px; }
+.cta-banner__subtitle { color: #fff !important; }
+/* Categorías sobre pastel: enlace en tinta (naranja sobre pastel < 3:1) */
+.cat-grid .cat-card__cta { color: var(--c-ink) !important; }

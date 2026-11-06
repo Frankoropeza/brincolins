@@ -84,14 +84,19 @@ const target = external ? "_blank" : undefined;
     padding: 2rem 0;
   }
 
-  /* ── Variantes de color ── */.cta-banner--vibrant {
-    background: linear-gradient(135deg, #FF3D00 0%, #FF6D00 25%, #7C3AED 50%, #E91E8C 75%, #FF3D00 100%);
+  /* ── Variantes de color ──
+     Nov 2026 («Patio de aire»): los degradados arcoíris se sustituyen por
+     bloques planos. Las cuatro variantes se conservan para no tocar las
+     páginas que las usan; todas cargan texto blanco con contraste AA. */.cta-banner {
+    border-radius: var(--r-sheet, 40px);
+    margin: clamp(0.5rem, 1.6vw, 1.5rem);
+  }.cta-banner--vibrant,
+  .cta-banner--festa {
+    background: var(--c-ink, #17152B);
   }.cta-banner--warm {
-    background: linear-gradient(135deg, #FF3D00 0%, #FF6F00 30%, #FFD600 60%, #FF3D00 100%);
+    background: var(--c-primary-deep, #D93000);
   }.cta-banner--cool {
-    background: linear-gradient(135deg, #0288D1 0%, #7C3AED 40%, #1565C0 70%, #0288D1 100%);
-  }.cta-banner--festa {
-    background: linear-gradient(135deg, #FF3D00 0%, #E91E8C 20%, #7C3AED 40%, #0288D1 60%, #00C853 80%, #FFD600 100%);
+    background: #1F3A8A;
   }
 
   /* ── Formas decorativas ── */.cta-banner__shape {
@@ -102,13 +107,15 @@ const target = external ? "_blank" : undefined;
   }.cta-banner__shape--1 {
     width: 200px;
     height: 200px;
-    background: rgba(255, 255, 255, 0.08);
-    top: -60px;
+    background: var(--c-mango, #FFE4A6);
+    opacity: 0.9;
+    top: -90px;
     right: 5%;
   }.cta-banner__shape--2 {
     width: 120px;
     height: 120px;
-    background: rgba(255, 255, 255, 0.06);
+    background: var(--c-cielo, #D7EAFF);
+    opacity: 0.18;
     bottom: -40px;
     left: 10%;
   }.cta-banner__shape--3 {
@@ -131,12 +138,12 @@ const target = external ? "_blank" : undefined;
     min-width: 0;
   }.cta-banner__title {
     font-family: var(--font-head);
-    font-weight: 900;
-    font-size: clamp(1.3rem, 3vw, 1.8rem);
+    font-weight: 800;
+    font-size: clamp(1.4rem, 3vw, 2rem);
     color: #fff;
-    line-height: 1.2;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
     margin: 0;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   }.cta-banner__subtitle {
     font-size: clamp(0.9rem, 1.5vw, 1.05rem);
     color: rgba(255, 255, 255, 0.9);
@@ -166,10 +173,10 @@ const target = external ? "_blank" : undefined;
     cursor: pointer;
   }.cta-banner__btn--primary {
     background: #fff;
-    color: var(--c-primary-text);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    color: var(--c-ink, #17152B);
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.14);
   }.cta-banner__btn--primary:hover {
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
   }.cta-banner__btn--secondary {
     background: rgba(255, 255, 255, 0.15);
     color: #fff;

@@ -120,8 +120,9 @@ const variantClass = `topbar--${style}`;
   }
 
   /* ── Variants ── */.topbar--dark {
-    background: #111827;
-    color: rgba(255, 255, 255, 0.85);
+    /* Nov 2026: tira discreta sobre el lienzo crema (antes #111827). */
+    background: var(--c-canvas, #FBF8F3);
+    color: var(--c-ink-60, #55536A);
   }.topbar--primary {
     background: var(--c-primary, #FF3D00);
     color: rgba(255, 255, 255, 0.9);
@@ -185,7 +186,8 @@ const variantClass = `topbar--${style}`;
 
   /* ── WhatsApp highlight ── */.topbar__wa {
     font-weight: 600;
-    color: #25D366;
+    /* #25D366 sobre crema no llega a 3:1; este verde da 5.0:1 */
+    color: #0F7A3C;
   }.topbar--accent .topbar__wa {
     color: #128C7E;
   }.topbar__wa:hover {
