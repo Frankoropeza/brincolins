@@ -39,6 +39,8 @@ faqs:
 
 Para una presentación de 3 años con invitados de todas las edades, lo práctico es separar zonas: el Castillo Blanco (3 a 12 años, $2,600) para los niños grandes y el [Castillo Baby para bebés de 1 a 3 años](/inflables/mini-castillo/) ($1,400) para los pequeños. Si casi todos pasan de 3 años, basta el blanco. El Castillo Blanco va solo en exterior; el Baby también entra en interiores.
 
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+
 **Puntos clave**
 
 - Tu festejado entra en los dos castillos; lo que decide es con quién va a brincar.

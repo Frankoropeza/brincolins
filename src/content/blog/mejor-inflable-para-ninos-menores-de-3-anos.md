@@ -76,6 +76,8 @@ Es el compacto: 2.5 × 2 × 2 m, para bebés y niños de 1 a 3 años, pensado pa
 
 Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas. Mide 5 × 3 × 2.80 m, recibe niños de 2 a 8 años, va bajo techo con 3.2 m libres y cuesta $1,600. Funciona con grupos de edades mezcladas porque los niños recorren los túneles en lugar de brincar todos en el mismo punto. Puedes ver sus fotos en la ficha del [circuito Gusanitos de 2 a 8 años](/inflables/gusanitos/).
 
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+
 ### Castillo de Princesas: el más vistoso
 
 Rosa y azul turquesa, con torres decorativas, resbaladilla y mallas de seguridad. Mide 5 × 3.30 × 3 m, es para niños de 2 a 10 años, pide 4.2 m de altura libre, va sólo en exterior y cuesta $1,800. Si tu fiesta tiene temática de princesas, es el que más se presta. Medidas y fotos en la ficha del [Castillo de Princesas con resbaladilla](/inflables/castillo-princesas/).

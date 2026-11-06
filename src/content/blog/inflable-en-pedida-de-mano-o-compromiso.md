@@ -42,6 +42,8 @@ faqs:
 
 Una **zona infantil en pedida de mano** funciona con el [Castillo Blanco para eventos formales](/inflables/castillo-blanco/) si la sede tiene un jardín exterior con 4.7 m de altura libre. Es para niñas y niños de 3 a 12 años, mide 5 × 7 × 4 m y se instala en unos 30 minutos. Ábrelo después del anillo, en un lateral y con una persona adulta a cargo.
 
+![Inflable Castillo Blanco instalado en el jardín de una casa en CDMX](/img/inflables/castillo-blanco/castillo-blanco-jardin-casa.avif "Castillo Blanco en el jardín de una casa")
+
 **Puntos clave**
 
 - La zona infantil va cerrada durante la llegada, la entrega del anillo y la comida; se abre en el cóctel.
@@ -147,6 +149,8 @@ En las pedidas es común que haya sobrinos de todas las edades. El Castillo Blan
 
 - **Un segundo espacio para los más chicos.** El [Castillo Baby](/inflables/mini-castillo/) ($1,400) es para 1 a 3 años, mide 2.5 × 2 × 2 m y está marcado como apto para interiores (necesita 3.2 m de altura libre). Puede ir en una terraza techada o en un rincón del salón, separado del castillo grande, con su propio adulto a cargo.
 - **Una zona sin inflable.** Tapetes, juguetes de bloques y una mesita, cerca de donde están los papás. Para bebés de meses suele ser suficiente y no requiere instalación.
+
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 Lo que no conviene es mezclar a un niño de 10 años con uno de 2 en el mismo inflable. La diferencia de tamaño es justo lo que causa choques.
 

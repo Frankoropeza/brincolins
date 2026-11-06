@@ -42,6 +42,8 @@ faqs:
 
 Un **inflable para activación de marca** funciona cuando el público incluye niñas y niños de 3 a 12 años y la sede tiene exterior. El [circuito inflable Extremo](/inflables/extremo/), de doble carril, mide 8 × 4.5 × 3.50 m, pide 4.5 m de altura libre y una toma de 110 V a menos de 20 m, y cuesta $2,500 netos por evento.
 
+![Inflable Extremo instalado en el área verde de unas oficinas para un día familiar de empresa](/img/inflables/extremo/extremo-evento-empresa.avif "Extremo en un día familiar de empresa")
+
 **Puntos clave**
 
 - El inflable ordena la parte infantil de la activación; no reemplaza el mensaje de la marca.

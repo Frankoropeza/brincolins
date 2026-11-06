@@ -115,9 +115,13 @@ Además funciona con grupos de edades mezcladas, justo lo que reúne tu posada f
 
 En jardín o calle cerrada, con niños de 3 a 8 años, tienes a los [Dragones Rojos, el más rentado](/inflables/dragones-rojos/), a $1,600. Lleva dos dragones decorativos de unos 3 m, resbaladilla integrada y mallas de seguridad laterales. Es solo para exterior y pide 4.5 m libres. Revisa ramas, cables y lonas de puestos antes de apartar. Mira hacia arriba. Te ahorras sorpresas.
 
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
+
 ### Castillo Baby para los primos más chicos
 
 En tu posada familiar seguramente habrá bebés. El Gusanitos empieza en 2 años; para los de 1 a 3 está el [Castillo Baby inflable para bebés](/inflables/mini-castillo/), de 2.5 × 2 × 2 m y $1,400. También va bajo techo.
+
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 > **Posada con frío, inflable bajo techo.** Dinos si será en terraza, garage, salón o calle cerrada y te confirmamos qué modelo entra y el traslado a tu zona. [Cotiza tu posada por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Gusanitos%20para%20una%20posada%20infantil%20en%20diciembre)
 

@@ -53,6 +53,8 @@ Una **fiesta spa para niñas** no tiene por qué ser una tarde entera frente a u
 
 Para un grupo de 2 a 10 años, el [Castillo de Princesas para fiesta infantil](/inflables/castillo-princesas/) pone el movimiento: tiene zona de brinco, resbaladilla, mallas laterales y un diseño rosa con azul turquesa. Entre los [castillos inflables para fiestas infantiles](/inflables/castillos/), es el modelo temático que se usa en exterior. La parte spa puede ser tan sencilla como una mesa de pulseras y accesorios o incluir manicure infantil; no necesitas convertir la casa en salón de belleza para que el tema se entienda.
 
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+
 ## ¿Qué hace que una fiesta spa para niñas y un inflable combinen?
 
 La respuesta está en no pedirle a la misma zona que haga dos trabajos. La mesa de actividad necesita calma, sillas, materiales ordenados y manos limpias; el inflable necesita un acceso despejado, sin vasos, maquillaje ni objetos duros. Cuando están separados, cada invitada entiende dónde toca sentarse y dónde toca brincar.
@@ -148,6 +150,8 @@ Las tres ideas pueden convivir, pero una debe llevar el peso del evento. Si la f
 | Pijamada | Brinco temprano y actividades interiores después | Bloque previo a la cena o película |
 
 Si el tema de cuento es el centro y buscas juegos, mesa y ambiente más allá de la parte spa, la guía de fiesta de princesas que enlazamos arriba es el complemento. Si el grupo prefiere animales y exploración en vez de coronas, la [guía del inflable Jungla para fiesta temática](/inflables/mini-jungla/) ayuda a cambiar de temática con un criterio de edad y espacio. Y si el grupo es pequeño o incluye bebés, revisa la [comparativa de castillos inflables](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) antes de organizar las estaciones.
+
+![Inflable Jungla instalado en el área verde común de una privada](/img/inflables/mini-jungla/mini-jungla-privada-condominio.avif "Jungla en el área común de una privada")
 
 ## ¿Y si la fiesta spa es en un departamento?
 

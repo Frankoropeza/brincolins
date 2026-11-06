@@ -186,6 +186,8 @@ No existe un inflable "de Halloween" en el catálogo, y no hace falta: la temát
 
 El [inflable Dragones Rojos](/inflables/dragones-rojos/) es el que más se presta a una tarde de monstruos amables: los dos dragones encajan con disfraces de criaturas y caballeros. Si la fiesta será en salón o terraza techada, el [inflable Gusanitos para interiores](/inflables/gusanitos/) evita depender del clima. Para ver más opciones con diseño llamativo, revisa la [categoría de inflables temáticos](/inflables/tematicos/).
 
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
+
 Los precios son por evento de 4 a 6 horas e incluyen entrega, instalación, motor, sanitización y recolección. Son precios netos; si necesitas factura se suma el 16% de IVA.
 
 ## ¿Cómo combinar Halloween con Día de Muertos con respeto?

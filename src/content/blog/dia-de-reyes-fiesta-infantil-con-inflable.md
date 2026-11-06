@@ -131,6 +131,8 @@ Depende de quiénes vienen. En una reunión de Reyes suelen mezclarse primos de 
 
 Para una fiesta de Reyes con tema de corona y castillo, [Dragones Rojos, con dragones de 3 metros y resbaladilla](/inflables/dragones-rojos/) es una opción natural. Si prefieres comparar todos los modelos con forma de castillo, revisa el catálogo de [castillos inflables](/inflables/castillos/).
 
+![Inflable Dragones Rojos instalado en el patio de una escuela para la kermés](/img/inflables/dragones-rojos/dragones-rojos-kermes-escolar.avif "Dragones Rojos en una kermés escolar")
+
 Si el frío te preocupa mucho, recuerda que el Gusanitos y el Castillo Baby son aptos para interiores y piden 3.2 m de altura libre. Un garage techado o una terraza cubierta resuelven la tarde.
 
 ## ¿Y si la fiesta de Reyes es en la escuela o en la empresa?

@@ -129,6 +129,8 @@ En una reunión familiar casi nunca hay un grupo homogéneo. Puede haber un beb�
 
 Para una carne asada típica con primos de 3 a 8 años, el [inflable Dragones Rojos para jardín](/inflables/dragones-rojos/) o cualquiera de los [inflables medianos de $1,600](/inflables/medianos/) cubren bien al grupo en un jardín de casa. Si la reunión es grande y hay muchos de 8 a 12, el [circuito Extremo con doble carril](/inflables/extremo/) convierte la tarde en carreras entre primos y permite turnos aparte para adultos que quieran entrar, ya que es uno de los tres modelos que lo admiten.
 
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
+
 ### ¿Qué hacer con los más chicos y los más grandes?
 
 - **Bebés de 1 a 3 años:** turnos propios, sólo ellos y con un adulto al lado, o un Castillo Baby aparte si hay espacio y alguien que lo vigile.

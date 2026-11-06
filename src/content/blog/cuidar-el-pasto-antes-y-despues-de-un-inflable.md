@@ -196,6 +196,8 @@ Hay jardines en los que no vale la pena arriesgarse: pasto recién sembrado o en
 
 Si la fiesta se puede mover bajo techo, el [Gusanitos, el mediano apto para interiores](/inflables/gusanitos/), y el resto de los modelos de la [categoría de inflables para interiores](/inflables/para-interiores/) piden 3.2 m de altura libre. Si el jardín aguanta pero el espacio es justo, un mediano como el [Dragones Rojos, de 5 × 3 m](/inflables/dragones-rojos/), ocupa menos pasto que los modelos grandes.
 
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
+
 ### Cómo acomodar la fiesta para cuidar el resto del jardín
 
 El inflable no es lo único que pisa el pasto. Mesas, sillas, la mesa de comida y el paso de los invitados también lo marcan. Para repartir el desgaste:

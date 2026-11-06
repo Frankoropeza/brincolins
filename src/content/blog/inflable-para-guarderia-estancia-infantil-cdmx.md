@@ -87,6 +87,8 @@ No hay turno especial ni excepción para los que ya caminan si todavía no cumpl
 
 Los niños que ya pasaron los 3 años salen del rango del Castillo Baby. Para ellos, el [inflable Gusanitos para preescolar](/inflables/gusanitos/) recibe de 2 a 8 años, mide 5 × 3 × 2.80 m y también es apto para interiores con 3.2 m libres. Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas, y funciona con grupos de edades mezcladas. ¿Tienes patio amplio? Dragones Rojos o Jungla reciben de 3 a 8 años, sólo en exterior.
 
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+
 La categoría de [inflables compactos para niños pequeños](/inflables/chicos/) reúne las opciones que caben en tu estancia.
 
 ![Vista completa del Castillo Baby con sus cuatro torres de colores y techo azul, instalado en pasto](/img/inflables/mini-castillo.avif)

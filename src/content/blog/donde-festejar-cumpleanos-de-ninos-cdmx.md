@@ -178,6 +178,8 @@ Y una cuarta: **supervisión adulta todo el evento.** Asigna a una persona que s
 
 Si el lugar es techado, el [inflable Gusanitos para interiores](/inflables/gusanitos/) es el modelo mediano que entra con 3.2 m de altura libre. La categoría de [inflables para interiores](/inflables/para-interiores/) muestra las dos opciones aptas bajo techo. El espacio libre alrededor de cada modelo y la capacidad se confirman al cotizar con tus medidas.
 
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+
 ## ¿Cómo comparar costos entre lugares sin trampas?
 
 Comparar solo la renta del espacio engaña. Un salón caro que incluye mobiliario, limpieza y baños puede salir parecido a una casa donde rentas todo aparte. Suma por lugar:

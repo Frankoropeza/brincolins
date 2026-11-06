@@ -37,6 +37,8 @@ faqs:
 
 Para un patio pequeño compara dos huellas: el [Gusanitos para patios alargados](/inflables/gusanitos/) ocupa 5 × 3 m, es para niños de 2 a 8 años y cuesta $1,600; el [Castillo Baby compacto](/inflables/mini-castillo/) ocupa 2.5 × 2 m, es para niños de 1 a 3 años y cuesta $1,400. Ambos piden 3.2 m de altura libre.
 
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+
 **Puntos clave**
 
 - Mide con cinta el largo y el ancho útiles, de obstáculo a obstáculo, no de barda a barda.
@@ -58,6 +60,8 @@ Cuenta como pequeño cuando el inflable tiene que convivir con la mesa, los invi
 En un jardín amplio, el inflable va al centro y lo demás se te acomoda solo. En un patio chico, cada metro tiene dueño. Tú decides el orden antes.
 
 Por eso la pregunta útil no es si cabe el inflable. Es si cabe tu fiesta completa con el inflable dentro. Si tu espacio es amplio y piensas en un modelo grande, el enfoque cambia: revisa las medidas del [Barco Pirata, uno de los modelos grandes](/inflables/barco-pirata/).
+
+![Inflable Barco Pirata instalado en el área verde común de una privada](/img/inflables/barco-pirata/barco-pirata-privada-condominio.avif "Barco Pirata en el área común de una privada")
 
 ## ¿Qué medidas tomas en un patio chico antes de cotizar?
 

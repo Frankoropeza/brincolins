@@ -99,6 +99,8 @@ Funciona cuando el festejado aún disfruta el tema de aventura y el inflable aco
 
 El modelo mide 6 × 3.5 × 3.80 m, requiere 5.2 m de altura libre y se instala en alrededor de 30 minutos. Va únicamente en exterior. Por eso puede ser buena elección para un jardín despejado con una fiesta de piratas, pero no para una cochera techada ni un patio con ramas, cables o toldos bajos. Los [datos del Barco Pirata para una fiesta al aire libre](/inflables/barco-pirata/) reúnen sus requisitos de espacio, energía y acceso antes de que compres decoración.
 
+![Inflable Barco Pirata instalado sobre lona en el patio de cemento de una casa](/img/inflables/barco-pirata/barco-pirata-patio-cochera.avif "Barco Pirata en un patio de cemento, sobre lona")
+
 Para mantener el uso ordenado, explica estas reglas antes del primer turno:
 
 1. Entran juntas personas de edades y tamaños parecidos; los hermanos pequeños tienen otro bloque.
@@ -122,6 +124,8 @@ El Extremo suele ganar cuando el festejado quiere competencia directa. Tiene obs
 | Edades publicadas | 3 a 12 años | 3 a 12 años |
 
 Si el plan se trata de sumar puntos por carrera, empieza por la [guía del circuito Extremo para fiestas infantiles](/inflables/extremo/) y compárala con las medidas de tu jardín. También puedes ver los [inflables grandes para fiestas al aire libre](/inflables/grandes/) antes de descartar una opción por impresión visual.
+
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
 
 ## ¿Cómo acomodas música, comida y el inflable sin estorbar el juego?
 

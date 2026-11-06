@@ -149,6 +149,8 @@ Cualquiera funciona al aire libre con sol. La diferencia está en el plan B: si 
 
 Si tienes una terraza techada, un garage alto o un salón con al menos 3.2 m libres, elegir un modelo del catálogo de [inflables para interiores](/inflables/para-interiores/) te da la opción de mover la fiesta adentro sin cambiar de inflable. Si vas a estar afuera sí o sí, la [Jungla, para niños de 3 a 8 años](/inflables/mini-jungla/), se instala en 15 minutos y es de las más rápidas de dejar lista.
 
+![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
+
 ## ¿Qué hacer si el día amanece muy frío o con viento?
 
 Suele pasar: revisas el pronóstico toda la semana, todo bien, y el sábado amanece helado o con viento. Estas son las opciones, en orden:

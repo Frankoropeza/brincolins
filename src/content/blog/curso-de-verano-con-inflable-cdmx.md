@@ -137,6 +137,8 @@ Tu plan B es otro modelo: Gusanitos, apto para interiores. El Jungla no entra ba
 
 [Gusanitos, el circuito de túneles para interiores](/inflables/gusanitos/), es más circuito que brincolín: túneles de colores conectados con varias entradas y salidas, para niños de 2 a 8 años. Mide 5 × 3 × 2.80 m, pide 3.2 m de altura libre, se instala en unos 20 minutos y cuesta $1,600, igual que el Jungla. Funciona con grupos de edades mezcladas, algo muy común en un curso.
 
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+
 Si el pronóstico de tu semana es de lluvia constante, valora Gusanitos en lugar del Jungla. Piensa en una semana de julio con lluvia diaria: si el inflable ya está bajo techo, los turnos siguen su curso aunque truene afuera, y tus monitores no tienen que mover a nadie corriendo. Para comparar los dos con calma, lee [cuándo conviene cada uno, Jungla o Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/). ¿Quieres ver todas las opciones bajo techo? Entra a los [inflables para salones y espacios techados](/inflables/para-interiores/).
 
 #### Mide la altura del salón

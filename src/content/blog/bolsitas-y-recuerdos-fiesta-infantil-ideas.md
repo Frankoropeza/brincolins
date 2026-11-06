@@ -208,6 +208,8 @@ No hace falta que el recuerdo sea un objeto de la temática; basta con la presen
 
 Los inflables con temática ayudan a que todo combine sin gastar de más en decoración. El [inflable Gusanitos](/inflables/gusanitos/), apto para interiores y para niños de 2 a 8 años, funciona bien con temas de jardín y bichitos; en la [categoría de inflables temáticos](/inflables/tematicos/) están los demás modelos por tema.
 
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
+
 ## ¿Qué hacer con los recuerdos que sobran?
 
 Si preparaste margen, casi siempre sobran dos o tres. Algunas formas de aprovecharlos:

@@ -32,6 +32,8 @@ faqs:
 
 Los inflables para eventos corporativos funcionan como zona para los hijos de los colaboradores en un family day, una kermés de empresa o un cierre de año. El catálogo de BRINCOLINS son 8 modelos para niñas y niños, de $1,400 a $2,600 MXN por evento, con instalación y recolección incluidas. El más pedido es el [circuito Extremo de doble carril](/inflables/extremo/), para 3 a 12 años.
 
+![Inflable Extremo instalado en el área verde de unas oficinas para un día familiar de empresa](/img/inflables/extremo/extremo-evento-empresa.avif "Extremo en un día familiar de empresa")
+
 **Puntos clave**
 
 - Solo el Extremo, el Barco Pirata y el Castillo Blanco admiten adultos; el resto del catálogo es infantil y los adultos arbitran desde fuera.
@@ -67,6 +69,8 @@ Si tu evento tiene una imagen cuidada (aniversario de la empresa, inauguración 
 ### Modelos para los más pequeños
 
 En un family day siempre hay hijos pequeños, y meterlos al Extremo no es opción. Para los de 1 a 3 años va el **[Castillo Baby](/inflables/mini-castillo/)** (2.5 × 2 × 2 m). De 2 a 8 años funciona **Gusanitos** (5 × 3 × 2.80 m, circuito de túneles); de 3 a 8 años, los temáticos **[Dragones Rojos](/inflables/dragones-rojos/)** y **Jungla**, y de 2 a 10 años, el **Castillo de Princesas**.
+
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 | Modelo | Edades | Medidas | Capacidad y espacio libre | Precio |
 | --- | --- | --- | --- | --- |

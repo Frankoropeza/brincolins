@@ -45,6 +45,8 @@ Para combinar arcos de globos con un inflable, elige primero el inflable según 
 
 Son las 11 de la mañana en un jardín de Tlalpan. El arco de globos todavía huele a látex fresco. Los tonos rosas y lilas del arco orgánico se curvan sobre la entrada, y a unos diez metros el [Castillo de Princesas](/inflables/castillo-princesas/) de BRINCOLINS lleva media hora encendido, con ese sonido suave y constante del motor soplador que conocemos tan bien. Los primeros niños se detienen a mitad del camino. No saben a dónde mirar primero: al arco que los enmarca como si entraran a un cuento o al castillo rosado que los espera al fondo del jardín.
 
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+
 Cuando nuestro equipo llega a una fiesta y ya hay un arco de DEGLOB en la entrada, sabemos que va a salir muy bien. No porque el arco sea caro, que muchas veces no lo es, sino porque la familia tomó una decisión de coordinación: el inflable y la decoración iban a hablar el mismo idioma visual. Esa decisión, que parece pequeña, separa una fiesta que se ve improvisada de una que parece producida por profesionales.
 
 Hemos estado en cientos de eventos en toda la ciudad, de Coyoacán, Jardines de la Montaña y Polanco a Satélite, Ecatepec y Huixquilucan, y la fórmula se repite: inflable temático más arcos de globos coordinados da las fiestas más fotografiadas, las más comentadas y las que los niños siguen mencionando meses después.
@@ -63,6 +65,8 @@ La decoración se ve profesional cuando colores y temática están coordinados. 
 | [Castillo Baby](/inflables/mini-castillo/) (1 a 3 años) | Realeza / Medieval | Azul, dorado, rojo, plateado | Arco de entrada + columnas |
 | [Extremo](/inflables/extremo/) | Deportes / Aventura | Rojo, azul, amarillo, verde | Globos cromados + banderines |
 | [Castillo Blanco](/inflables/castillo-blanco/) | Elegancia / Boda infantil | Blanco, plateado, rosa pastel | Arco minimalista + flores |
+
+![Inflable Dragones Rojos instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/dragones-rojos/dragones-rojos-jardin-eventos.avif "Dragones Rojos en un jardín de eventos")
 
 Esta tabla es un punto de partida. Los especialistas de DEGLOB (Fantasy Globos) pueden personalizar cualquier combinación según el tema, el espacio y tu presupuesto. Antes de elegir el inflable conviene revisar la edad del festejado y los metros libres que tienes, criterios que desarrollamos en la [guía para elegir inflable según edad y espacio](/blog/como-elegir-inflable-fiesta-infantil/).
 

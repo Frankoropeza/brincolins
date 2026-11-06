@@ -66,6 +66,8 @@ Antes de coordinar proveedores hay que elegir bien el inflable: el modelo equivo
 | Circuito de obstáculos para los más grandes | [Extremo](/inflables/extremo/) | 3 a 12 años | 8×4.5×3.50 m | $2,500 |
 | Evento formal, comunión o fiesta en blanco | [Castillo Blanco](/inflables/castillo-blanco/) | 3 a 12 años | 5×7×4 m | $2,600 |
 
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+
 Los precios son netos por evento y están publicados en la [página de precios](/precios/); si necesitas factura se agrega 16% de IVA, y el envío depende de tu zona. La capacidad y el espacio exacto se confirman al cotizar.
 
 ## ¿A qué hora debe llegar cada proveedor?

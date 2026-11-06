@@ -139,6 +139,8 @@ Para bodas, bautizos, XV años y eventos formales donde la decoración no admite
 
 En una boda o unos XV años, los niños necesitan un lugar propio para no aburrirse durante la cena o el baile, y tú necesitas que no anden entre las mesas. El [Castillo Blanco de 5 × 7 m](/inflables/castillo-blanco/) mide **5 × 7 × 4 m** y pide **4.7 m de altura libre**. Va solo en exterior. Lo instalamos en unos 30 minutos y cuesta **$2,600** netos por evento.
 
+![Inflable Castillo Blanco instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-blanco/castillo-blanco-jardin-eventos.avif "Castillo Blanco en un jardín de eventos")
+
 ¿Dónde ponerlo junto a la pista o las mesas? A la vista de las mesas de los papás, lejos de las bocinas y del paso de meseros, con la toma de corriente cerca y sin cables cruzando por donde caminan los invitados.
 
 ### Bautizos en jardín
@@ -156,6 +158,8 @@ Cuando tu fiesta es bajo techo o cuando los niños tienen entre 1 y 3 años. Es 
 ### Primer año y fiestas de bebés
 
 Si estás organizando un primer cumpleaños, es tu modelo: **2.5 × 2 × 2 m**, de **1 a 3 años**, en **$1,400** netos por evento. Los detalles de horario e invitados están en la guía de [renta del Castillo Baby para fiestas de bebés](/inflables/mini-castillo/).
+
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 #### Si también necesitas mesa
 

@@ -145,6 +145,8 @@ No hay un número fijo y no te vamos a inventar uno. Depende de la edad, del cal
 
 Si vienen niños de edades muy distintas, organiza turnos: primero los chicos, luego los grandes. Así nadie le cae encima a un niño de 3 años. Un modelo como [Dragones Rojos, con resbaladilla y mallas laterales](/inflables/dragones-rojos/) funciona bien para el rango de 3 a 8 años, y el catálogo de [inflables para niños por edad](/inflables/para-ninos/) te ayuda a comparar los demás.
 
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
+
 ## ¿Qué pasa si quiero el inflable más de 6 horas?
 
 Se cotiza la extensión. Hay casos en los que tiene sentido:

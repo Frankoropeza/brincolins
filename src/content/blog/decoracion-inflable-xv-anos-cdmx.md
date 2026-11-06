@@ -61,9 +61,13 @@ No todos los inflables funcionan igual en una **fiesta de XV años**. El modelo 
 
 El [Castillo Blanco](/inflables/castillo-blanco/) (5 × 7 × 4 m, **$2,600**) es el modelo que más se renta para **bodas y XV años**, y tiene lógica: su color neutro combina con casi todo. Ya sea que tu fiesta tenga temática de rosas, mariposas, vintage, minimalista o princesa, el blanco se adapta sin problema. Es como el vestido blanco de los inflables: siempre elegante, nunca desentona.
 
+![Inflable Castillo Blanco instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-blanco/castillo-blanco-jardin-eventos.avif "Castillo Blanco en un jardín de eventos")
+
 ### Castillo de Princesas, para temáticas de cuento de hadas
 
 Si la quinceañera tiene una temática explícita de princesa o cuento de hadas, el [Castillo de Princesas](/inflables/castillo-princesas/) refuerza la narrativa visual: 5 × 3.30 × 3 m y **$1,800 MXN**. Sus tonos rosa y lila combinan naturalmente con paletas femeninas y románticas. El truco es que la decoración alrededor repita esos mismos colores para que todo se sienta cohesivo.
+
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
 
 ### Extremo, para quinceañeras modernas y dinámicas
 

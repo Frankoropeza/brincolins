@@ -104,6 +104,8 @@ No es lo mismo vestir a un bebé que gatea en el inflable chico que a un niño d
 
 Si el festejado o los invitados están en la primera infancia, un inflable como [Gusanitos, para niños de 2 a 8 años](/inflables/gusanitos/), apto para interiores, funciona bien. Para niños más grandes que buscan retos, el [circuito Extremo](/inflables/extremo/) pide ropa que permita trepar y deslizarse, con pantalón largo de preferencia. Todos los modelos por edad están en la categoría de [inflables para niños](/inflables/para-ninos/).
 
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+
 ## ¿Qué outfit para fiesta infantil funciona para una mujer?
 
 El outfit para fiesta infantil de una mujer, sea mamá organizadora o invitada, tiene que resolver cuatro cosas: estar de pie muchas horas, caminar en pasto o tierra, agacharse a cargar, limpiar o ayudar a un niño, y aguantar el cambio de temperatura de la tarde. Sin renunciar a verte arreglada.

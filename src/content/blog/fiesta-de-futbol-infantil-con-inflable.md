@@ -109,6 +109,8 @@ El inflable resuelve el problema de los medios tiempos. Mientras dos equipos jue
 
 Para niños de 6 a 12 años, el [circuito de obstáculos Extremo](/inflables/extremo/) se vuelve una prueba más del torneo: dos jugadores de equipos rivales salen al mismo tiempo, cruzan los obstáculos y bajan por el tobogán doble. El ganador suma un punto extra a su equipo. Mide 8 × 4.5 × 3.50 m y pide 4.5 m de altura libre. Además, es uno de los modelos que admite adultos, así que en una fiesta de papás futboleros también puede haber relevo de grandes en su propio turno.
 
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
+
 ### ¿Qué modelo elegir?
 
 | Modelo | Edades | Base | Precio | Mejor uso en la fiesta de futbol |
@@ -118,6 +120,8 @@ Para niños de 6 a 12 años, el [circuito de obstáculos Extremo](/inflables/ext
 | Jungla | 3 a 8 años | 5 × 3 m | $1,600 | Zona de descanso activo con menos altura libre (4.2 m) |
 
 Si tu grupo es grande o mixto, revisa la categoría de [inflables grandes](/inflables/grandes/). Para los más pequeños, el [inflable Dragones Rojos](/inflables/dragones-rojos/) cabe en patios medianos y tiene resbaladilla integrada. Todos los precios son netos por evento de 4 a 6 horas, con entrega, instalación, motor, sanitización y recolección. Con factura se agrega 16% de IVA.
+
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 ## ¿Qué juegos de puntería acompañan al torneo?
 

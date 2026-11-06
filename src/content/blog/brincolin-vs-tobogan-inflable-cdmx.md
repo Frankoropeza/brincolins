@@ -62,6 +62,8 @@ Los dos hacen cosas distintas. El **brincolín clásico** es una zona de brinco 
 
 El brincolín es la opción correcta para **la mayoría de los cumpleaños en casa**. Un modelo mediano como los [Dragones Rojos](/inflables/dragones-rojos/), el más rentado del catálogo, o el [Castillo de Princesas](/inflables/castillo-princesas/) cuesta **$1,600 o $1,800 MXN por 4 a 6 horas**. El espacio libre y la capacidad se confirman al cotizar, y los ocho precios están en la [página de precios](/precios/).
 
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
+
 Para fiestas de bebés (1 a 3 años) o espacios interiores, el [Castillo Baby](/inflables/mini-castillo/) de **$1,400 MXN** es la opción indicada: paredes suaves y sin escaleras.
 
 **Elígelo si:** la fiesta es en casa, los niños tienen menos de 10 años, tu espacio es más limitado que el de un inflable grande o tu presupuesto de entretenimiento está entre $1,400 y $1,800 MXN.

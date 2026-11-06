@@ -253,6 +253,8 @@ El plato fuerte es el centro, pero la fiesta también necesita qué picar al lle
 
 Si la fiesta tiene muchos niños de 3 a 8 años, el [inflable Dragones Rojos](/inflables/dragones-rojos/) ocupa una base de 5 × 3 m y deja espacio en un jardín mediano para la mesa de comida aparte. Si hay muchos bebés y niños de 1 a 3 años, el Castillo Baby es el modelo para esa edad. Revisa todas las opciones en los [inflables para niños](/inflables/para-ninos/). Los precios van de $1,400 a $2,600 netos por evento de 4 a 6 horas, con entrega, instalación, motor, sanitización y recolección incluidas; con factura se agrega 16% de IVA.
 
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
+
 ## ¿Cambia el menú según la zona donde festejas?
 
 Cambia sobre todo la logística. En la [renta de inflables en Coyoacán](/cobertura/coyoacan/) muchas fiestas son en casas con jardín donde cabe una taquiza con mesas largas; conviene ubicar la cocina y el contacto de 110 V antes de acomodar. En la [renta de inflables en Iztapalapa](/cobertura/iztapalapa/) son comunes los patios y las calles cerradas con permiso, así que la mesa de comida debe quedar lejos de la entrada del inflable y del paso de los coches. En la [renta de inflables en Naucalpan](/cobertura/naucalpan/) hay muchos jardines de fraccionamiento y salones de área común, donde conviene confirmar si se puede cocinar ahí o si la comida llega lista. En municipios distantes del Estado de México se agrega un cargo de envío que te confirmamos al cotizar.

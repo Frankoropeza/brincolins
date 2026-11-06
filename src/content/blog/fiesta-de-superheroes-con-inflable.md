@@ -88,9 +88,13 @@ Los tres son para exterior y el precio es neto por evento de 4 a 6 horas, con en
 
 El [inflable Dragones Rojos](/inflables/dragones-rojos/) tiene dos dragones decorativos, resbaladilla integrada y mallas laterales. Su color rojo empata con la paleta de héroes y no necesitas decorarlo. Para un grupo de kínder y primeros años de primaria es la opción más práctica.
 
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
+
 ### Extremo: retos por parejas para grupos grandes
 
 Si tus invitados van de 6 a 12 años o son muchos, el [circuito de obstáculos Extremo](/inflables/extremo/) cambia la dinámica: dos héroes salen al mismo tiempo, cruzan obstáculos y bajan por el tobogán doble. Mide 8 m de largo, así que necesitas jardín, patio amplio o explanada. Puedes ver otros modelos con pista en la categoría de [inflables con obstáculos](/inflables/con-obstaculos/).
+
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
 
 ### Jungla: héroes de la selva
 

@@ -59,9 +59,13 @@ El modelo más rentado del catálogo. Mide 5 × 3 × 2.80 m, es para niños de 3
 
 Aventura tropical con dinosaurios, palmeras y colores de selva. Mide 5 × 3 × 2.50 m, es para niños de 3 a 8 años y se instala en 15 minutos. Es el más bajo de los tres. También es sólo para exterior. Tienes más fotos en la [ficha de la Jungla](/inflables/mini-jungla/).
 
+![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
+
 ### Gusanitos
 
 Más circuito que brincolín: túneles de colores conectados con varias entradas y salidas. Mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años, se instala en 20 minutos y es el único de los tres que funciona en interiores. Revisa la [ficha del Gusanitos con sus túneles](/inflables/gusanitos/).
+
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 
 ## ¿En qué cambian si los tres tienen el mismo precio?
 

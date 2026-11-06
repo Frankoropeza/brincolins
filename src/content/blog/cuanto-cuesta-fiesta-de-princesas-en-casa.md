@@ -141,6 +141,8 @@ Esta tabla compara las combinaciones posibles con precios netos de catálogo. Lo
 
 ¿Tu festejada no pasa de 3 años y casi todos los invitados son bebés? El [castillo compacto para bebés](/inflables/mini-castillo/) cuesta **$1,400** por separado y se instala en interiores. Los [paquetes armados con inflable y mesa](/servicios/paquetes-de-fiesta/) te muestran qué incluye cada uno.
 
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+
 ¿Dudas entre el castillo y el modelo del paquete fiesta? Revisa la [ficha de Dragones Rojos con medidas y edades](/inflables/dragones-rojos/): mide 5 × 3 × 2.80 m, es para niños de 3 a 8 años y cuesta $1,600 por separado. Y para ver los tres castillos con sus precios, la [comparativa de castillos con precios y medidas](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) los pone lado a lado.
 
 ![Castillo inflable rosa y turquesa de dos torres, de frente, con rampa de acceso sobre pasto](/img/inflables/castillo-princesas/castillo-princesas-exterior-jardin.avif)

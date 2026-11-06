@@ -42,6 +42,8 @@ faqs:
 
 Para una fiesta de 6 años con inflable, planea de 3 a 4 horas con dos bloques de brinco, turnos cortos por tamaño y una pausa para comer con el juego cerrado. El [Dragones Rojos](/inflables/dragones-rojos/) recibe niños de 3 a 8 años, mide 5 × 3 × 2.80 m, pide 4.5 m de altura libre y cuesta $1,600 por evento.
 
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
+
 **Puntos clave**
 
 - Abre el inflable en dos bloques, al llegar y después del pastel, en lugar de dejarlo abierto toda la tarde.
@@ -62,6 +64,8 @@ A los seis años un niño ya suele participar en juegos con una regla y un objet
 Dragones Rojos es un modelo mediano de exterior que se instala en 15 a 30 minutos. Su precio de renta es $1,600 por evento, neto; el traslado depende de la colonia y el IVA se agrega únicamente si requieres factura. La [comparativa de Dragones Rojos, Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/) explica cuándo este modelo corresponde al espacio y cuándo conviene mirar otra alternativa del mismo precio.
 
 Si la lista incluye hermanos mayores de nueve años, no les prometas que usarán el mismo juego: su rango publicado termina a los 8. Para un grupo muy mezclado, puedes organizarles una actividad fuera del inflable o comparar un modelo para mayores. Tampoco entran niños menores de 3; para ellos está el [Castillo Baby para fiestas con niños pequeños](/inflables/mini-castillo/).
+
+![Inflable Castillo Baby instalado en el área verde común de una privada](/img/inflables/mini-castillo/mini-castillo-privada-condominio.avif "Castillo Baby en el área común de una privada")
 
 ## ¿Cómo repartes una fiesta de 6 años sin correr todo el tiempo?
 

@@ -34,6 +34,8 @@ faqs:
 
 Sí puedes incluir un inflable en una boda, unos XV años o un bautizo sin romper la estética. El [Castillo Blanco para eventos elegantes](/inflables/castillo-blanco/) es el modelo indicado en jardín: mide 5 × 7 × 4 m, es para niños de 3 a 12 años y cuesta $2,600 netos. Ubícalo a un costado, ábrelo después de la ceremonia y asigna a una persona que supervise.
 
+![Inflable Castillo Blanco instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-blanco/castillo-blanco-jardin-eventos.avif "Castillo Blanco en un jardín de eventos")
+
 **Puntos clave**
 
 - El modelo decide la estética: tonos neutros y diseño de castillo se integran con decoración formal.
@@ -81,6 +83,8 @@ El Castillo Blanco mide 5 × 7 × 4 m, es para niños de 3 a 12 años y cuesta *
 ### Castillo de Princesas: para temáticas de cuento
 
 Si tu evento tiene una **temática de cuento de hadas** o de realeza, el [Castillo de Princesas rosa](/inflables/castillo-princesas/) es una buena opción: 5 × 3.30 × 3 m, para niñas y niños de 2 a 10 años, **$1,800 MXN**. Funciona bien en quinceañeras con temática de realeza y en primeras comuniones.
+
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
 
 ### Castillo Baby: para espacios reducidos y bebés
 

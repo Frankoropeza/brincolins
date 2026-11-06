@@ -220,7 +220,11 @@ El Castillo Blanco. Si tus hadas forman parte de un evento formal, el rosa puede
 
 El [Castillo Blanco para bodas, bautizos y XV años](/inflables/castillo-blanco/) mide **5 × 7 × 4 m** y pide 4.7 m de altura libre. Es sólo para exterior y recibe a niños de **3 a 12 años**. Su precio es de **$2,600** netos por evento. Quienes brincan son los niños invitados; los adultos acompañan desde fuera.
 
+![Inflable Castillo Blanco instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-blanco/castillo-blanco-jardin-eventos.avif "Castillo Blanco en un jardín de eventos")
+
 ¿Dudas entre los tres castillos del catálogo? La [tabla de los castillos rosa, blanco y para bebés](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) los pone lado a lado por tipo de evento. Y si dudas entre el castillo rosa y el modelo rojo, compara edades y altura en la [ficha de Dragones Rojos](/inflables/dragones-rojos/): es de 3 a 8 años y pide 4.5 m libres.
+
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
 
 ## Aparta el castillo para tu fiesta de unicornios
 

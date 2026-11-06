@@ -100,6 +100,8 @@ Mide desde el piso hasta el primer obstáculo encima del área: cable, rama, tol
 
 Pasa, y tiene solución. Si te falta largo y altura, mira un mediano como el [Castillo de Princesas de 5 m de largo](/inflables/castillo-princesas/), que pide 4.2 m de altura libre y cubre de 2 a 10 años.
 
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+
 > **¿No sabes cuál te cabe?** Mándanos largo, ancho y altura libre de tu espacio, y te decimos cuál de los dos entra y cuál conviene. [Preguntar cuál inflable grande me cabe](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20me%20cabe%20el%20Barco%20Pirata%20o%20el%20Extremo)
 
 ## ¿Cuál de los dos inflables grandes luce más en una fiesta temática?

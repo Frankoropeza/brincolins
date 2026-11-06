@@ -72,6 +72,8 @@ Una evolución de la clásica fiesta de sirenas, con más peso en el océano: pe
 - **Decoración clave:** globos en tonos de agua, redes de pesca con conchas de papel y una mesa principal con mantel arena.
 - **Actividad:** búsqueda del tesoro con monedas doradas escondidas.
 
+![Inflable Barco Pirata instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/barco-pirata/barco-pirata-jardin-eventos.avif "Barco Pirata en un jardín de eventos")
+
 ### Mini olimpiadas
 
 Para niños que aman competir. Funciona muy bien de los 7 a los 12 años y con grupos grandes de primos o compañeros de escuela.
@@ -89,6 +91,8 @@ Una versión más suave y natural de la fiesta de princesas: flores, mariposas, 
 - **Paleta:** lila, verde salvia y crema.
 - **Decoración clave:** arco de flores o de globos con follaje, mariposas de papel y series de luces cálidas si la fiesta sigue al atardecer.
 - **Actividad:** coronas de flores hechas por los propios niños. Si te gusta esta línea, la fiesta de [unicornios y hadas con inflable](/blog/fiesta-de-unicornios-y-hadas-con-inflable/) tiene más ideas.
+
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
 
 ### Granja y vida de campo
 

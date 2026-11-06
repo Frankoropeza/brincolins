@@ -233,6 +233,8 @@ En [Xochimilco](/cobertura/xochimilco/) son comunes las fiestas largas en jardí
 
 El número de niños también define qué inflable conviene. Para grupos pequeños de 1 a 3 años, el [Castillo Baby](/inflables/mini-castillo/) es el modelo pensado para esa edad. Para grupos grandes o edades mezcladas, los modelos de 3 a 12 años, como el Barco Pirata o el Extremo, funcionan mejor por turnos. Puedes ver todas las opciones en los [inflables para niños](/inflables/para-ninos/).
 
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+
 ## Siguiente paso
 
 Con el número de invitados ya calculado, revisa la [lista de precios de inflables](/precios/) o pide tu cotización con la fecha, el lugar, el número de niños y sus edades. Te recomendamos el modelo que mejor encaja con tu grupo y tu espacio.

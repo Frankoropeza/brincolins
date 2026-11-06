@@ -50,6 +50,8 @@ Para un primer cumpleaños con inflable, elige un tema visual sencillo, dos o tr
 - Dos horas de fiesta y pastel a los 45 o 60 minutos: un bebé de un año se cansa antes de lo que parece.
 - Los hermanos mayores no comparten el castillo; prepárales otra actividad.
 
+![Inflable Castillo Baby instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-castillo/mini-castillo-jardin-eventos.avif "Castillo Baby en un jardín de eventos")
+
 Los **temas para primer cumpleaños** no necesitan una producción enorme para verse cuidados. En una fiesta de un año, el festejado alterna entre explorar, pedir brazos, comer y descansar, y la decoración debe ayudar a que esos cambios ocurran sin que la casa o el salón se conviertan en una pista de obstáculos. El Castillo Baby aporta un lugar de juego acotado, no una escenografía que deba cubrirse de adornos.
 
 ## ¿Qué hace que un tema de primer cumpleaños funcione con un Castillo Baby?

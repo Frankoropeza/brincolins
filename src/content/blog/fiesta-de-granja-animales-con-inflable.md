@@ -71,9 +71,13 @@ La temática de granja no necesita un inflable con vacas pintadas: la decoració
 
 El [Castillo Baby para bebés](/inflables/mini-castillo/) es el modelo pensado para esta edad. Es compacto, cabe en terrazas y salones, y deja que los bebés gateen y brinquen bajito sin que los niños grandes los arrollen. Si la mayoría de los invitados tiene menos de 3 años, es la opción. La guía sobre el [mejor inflable para niños menores de 3 años](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) compara opciones y reglas de uso para esa edad.
 
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+
 ### Para preescolar de 3 a 5 años
 
 Aquí hay dos caminos. El [inflable Gusanitos](/inflables/gusanitos/) es un circuito de túneles de colores con varias entradas y salidas: a los niños de kínder les encanta entrar por un lado y salir por otro, y como es apto para interiores sirve si la fiesta es techada. El Jungla, con palmeras y dinosaurios, va al aire libre y le da un toque de animales que combina bien con la granja si tu jardín tiene espacio.
+
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 ### Si hay bebés y niños de kínder juntos
 

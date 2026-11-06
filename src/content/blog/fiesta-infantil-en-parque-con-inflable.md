@@ -52,6 +52,8 @@ Organizar una **fiesta infantil en parque** parece sencillo: eliges una palapa, 
 
 El [inflable Jungla para fiestas](/inflables/mini-jungla/) es una opción de exterior para niñas y niños de 3 a 8 años, con dinosaurios y palmeras que sirven para una temática de animales. Como el resto de los [inflables medianos para fiestas infantiles](/inflables/medianos/), solo se instala si el parque lo permite y el punto cumple los requisitos del montaje.
 
+![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
+
 ## ¿Qué permiso se requiere para usar un inflable en un parque durante una fiesta infantil?
 
 El permiso no tiene una respuesta universal porque cada parque, alcaldía o municipio administra sus áreas con reglas distintas. Llama o acude a la oficina responsable del lugar que elegiste y pregunta por el uso de inflables, no sólo por la reservación de una palapa. También consulta si admiten proveedores externos, si hay horarios de montaje y retiro, y si piden que el equipo entre por un acceso específico.

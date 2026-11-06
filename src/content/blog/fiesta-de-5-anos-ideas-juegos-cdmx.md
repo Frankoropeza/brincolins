@@ -96,6 +96,8 @@ Es más fácil de controlar y te sale más barato en comida. Si eliges este cami
 
 Cada niño del kínder llega con al menos un adulto y, muchas veces, con un hermano. Haz dos cuentas: niños de 3 a 8 años, que pueden usar el Dragones Rojos, y menores de 3, que necesitan otra cosa. Esa segunda cuenta decide si te hace falta un [Castillo Baby para hermanitos de 1 a 3 años](/inflables/mini-castillo/).
 
+![Inflable Castillo Baby instalado en el área verde común de una privada](/img/inflables/mini-castillo/mini-castillo-privada-condominio.avif "Castillo Baby en el área común de una privada")
+
 Con el número aproximado de niños en la mano, compártelo al cotizar. Con ese dato confirmamos la capacidad del inflable y te sugerimos cómo armar los turnos para que nadie se quede esperando demasiado mientras los demás brincan, comen pastel o rompen la piñata. Es tu mejor herramienta.
 
 ## ¿Cómo repartir una fiesta de 5 años de tres horas y media?
@@ -179,6 +181,8 @@ El Dragones Rojos trae dos dragones decorativos de unos 3 m, resbaladilla y mall
 ### Cuando su mundo son los dinosaurios y los animales
 
 La [Jungla con dinosaurios y palmeras](/inflables/mini-jungla/) mide 2.50 m de alto y hace buena parte del trabajo de la decoración. ¿Está entre dinosaurios y dragones? Deja que él elija viendo las fotos.
+
+![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
 
 ¿Dudas también con el Gusanitos? Revisa la [comparación de los tres inflables del mismo precio](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/). Para ver otros modelos ordenados por edad, entra a [inflables para niños por rango de edad](/inflables/para-ninos/).
 

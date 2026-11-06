@@ -185,11 +185,15 @@ La pintacaritas no se vende por separado; sólo viene en los [paquetes con pinta
 
 Cambia de modelo. El [inflable Jungla con dinosaurios y palmeras](/inflables/mini-jungla/) mide 5 × 3 × 2.50 m, es para niños de 3 a 8 años y lleva colores de selva que también combinan con bichos. Eso sí: es sólo para exterior y pide 4.2 m de altura libre.
 
+![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
+
 ¿No sabes si te conviene un circuito o un brincolín? Lee la [comparativa entre circuito de túneles y brincolín](/blog/circuito-de-tuneles-vs-brincolin/) antes de decidir. Tienes más modelos con historia propia en el [catálogo de inflables temáticos](/inflables/tematicos/).
 
 ### Si prefieres quedarte con el Gusanitos
 
 Resuelve las caritas con antenas, alas de papel y calcomanías de bichos. Te sale más simple. Con niños de 2 a 4 años funciona igual de bien. Y si hay bebés de 1 año, suma el [Castillo Baby para bebés](/inflables/mini-castillo/), de 1 a 3 años.
+
+![Inflable Castillo Baby instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-castillo/mini-castillo-jardin-eventos.avif "Castillo Baby en un jardín de eventos")
 
 > **Bichos en diciembre, en lluvias o en patio chico.** El Gusanitos se adapta a terraza, garage o jardín; dinos dónde será y te confirmamos si cabe. [Pregunta por el Gusanitos en WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20el%20Gusanitos%20cabe%20en%20mi%20espacio%20para%20fiesta%20de%20insectos)
 

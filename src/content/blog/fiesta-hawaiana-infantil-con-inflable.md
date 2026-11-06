@@ -151,6 +151,8 @@ En una fiesta tropical, el inflable se vuelve el centro del jardín: la isla. To
 
 El [inflable Jungla con palmeras](/inflables/mini-jungla/) es el que mejor se lee como isla: verde, con palmeras y colores vivos, sin necesidad de decorarlo. Si en la fiesta hay muchos bebés, suma el [Castillo Baby para niños de 1 a 3 años](/inflables/mini-castillo/) en otra esquina, para que los pequeños no compartan espacio con los de primaria. Para comparar más modelos con diseño, revisa la categoría de [inflables temáticos](/inflables/tematicos/).
 
+![Inflable Jungla instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-jungla/mini-jungla-jardin-eventos.avif "Jungla en un jardín de eventos")
+
 Todos los precios son netos por evento de 4 a 6 horas e incluyen entrega, instalación, motor, sanitización y recolección. Con factura se agrega 16% de IVA. La capacidad para tu grupo se confirma al cotizar.
 
 ### ¿Por qué no se usa agua en el inflable?

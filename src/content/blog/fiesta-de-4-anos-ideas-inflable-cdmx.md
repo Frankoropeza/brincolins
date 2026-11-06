@@ -75,6 +75,8 @@ Invitar a todo el salón evita niños que se quedan fuera y conversaciones incó
 
 Cada compañero puede llegar con un hermano menor o mayor. Pregúntalo al confirmar. Cuenta a esos niños aparte, porque sus edades cambian lo que necesitas. Un hermano de 2 años no puede entrar al Jungla, que arranca en 3. Para ese caso existe el [Castillo Baby para niños de 1 a 3 años](/inflables/mini-castillo/), compacto y apto para interiores.
 
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+
 ### Cómo contar a los invitados reales
 
 A los 4 años muchas familias no dejan al niño y se van: se quedan. Haz la cuenta completa. Tu lista real es de niños más adultos, y esos adultos necesitan sombra, sillas y algo de comer. La buena noticia es que también son ayuda disponible para supervisar, si la organizas desde antes.
@@ -94,6 +96,8 @@ Con tres opciones, tu hijo decide rápido. Lo que no conviene es elegir una tem�
 | Castillo Baby | 1 a 3 años | 2.5 × 2 × 2 m | Sí | $1,400 |
 
 Si escoge dinosaurios, el Jungla ya trae dinosaurios y palmeras, y tienes la ambientación completa en las [ideas de excavación y juegos de paleontólogo](/blog/fiesta-de-dinosaurios-con-inflable-cdmx/). Si escoge princesas, el [Castillo de Princesas rosa y azul turquesa](/inflables/castillo-princesas/) trae torres decorativas, resbaladilla y mallas de seguridad. Si prefiere camiones y cascos, la [fiesta de bomberos con circuito de entrenamiento](/blog/fiesta-de-bomberos-y-oficios-con-inflable/) le da una misión con insignia al final. ¿Sigues con dudas? La guía para [elegir inflable según edad, espacio y temática](/blog/como-elegir-inflable-fiesta-infantil/) ordena los criterios, y la categoría de [brincolines para niños por rango de edad](/inflables/para-ninos/) reúne los modelos.
+
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
 
 ## ¿Cuánto debe durar una fiesta de 4 años y cómo repartes el tiempo?
 

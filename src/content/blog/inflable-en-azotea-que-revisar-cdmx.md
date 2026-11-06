@@ -124,6 +124,8 @@ Los modelos grandes (Barco Pirata de 6 × 3.5 m, Extremo de 8 × 4.5 m y Castill
 
 Para azoteas de casa, el [Gusanitos, alargado y de poca altura](/inflables/gusanitos/) suele ser el que mejor se acomoda: 5 × 3 m, para niños de 2 a 8 años, con varias entradas y salidas. Si tu espacio es todavía más chico, revisa el catálogo de [inflables chicos para espacios reducidos](/inflables/chicos/).
 
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
+
 El espacio libre alrededor de cada modelo se confirma al cotizar con tus medidas.
 
 ## ¿De dónde sale la corriente para el motor?

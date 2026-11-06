@@ -150,6 +150,8 @@ La edad es donde más se equivocan las compras impulsivas. Un trampolín para ni
 
 Sí, pero no es una cama elástica. Para el primer o segundo cumpleaños, el [Castillo Baby para niños de 1 a 3 años](/inflables/mini-castillo/) mide 2.5 × 2 × 2 m, pide 3.2 m de altura libre, se monta en unos 15 minutos y es apto para interiores. Si el festejado es muy pequeño, la guía del [mejor inflable para niños menores de 3 años](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) compara opciones y cuidados.
 
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+
 ## ¿Qué medidas de seguridad pide un trampolín para niños?
 
 Si decides comprar, la seguridad depende de ti cada día. La Academia Americana de Pediatría, en su declaración de política de 2012 "Trampoline Safety in Childhood and Adolescence", desaconseja el uso recreativo de trampolines en casa. No lo decimos para asustar: es una postura pública de un organismo médico y vale la pena conocerla antes de comprar. Si aun así decides tener uno, estas reglas reducen riesgos:
@@ -209,6 +211,8 @@ Si pensabas comprar un trampolín para niños para el cumpleaños, estos modelos
 - **Para niños de 2 a 8 años con poca altura disponible:** Gusanitos ($1,600), con 3.2 m de altura libre y apto para interiores.
 - **Para niños de 3 a 8 años en jardín:** el [inflable Dragones Rojos](/inflables/dragones-rojos/) ($1,600), con resbaladilla integrada.
 - **Para grupos mixtos o niños de hasta 12 años:** Barco Pirata ($2,300), Extremo ($2,500) o Castillo Blanco ($2,600).
+
+![Inflable Dragones Rojos instalado en el área verde común de una privada](/img/inflables/dragones-rojos/dragones-rojos-privada-condominio.avif "Dragones Rojos en el área común de una privada")
 
 Si quieres ver todos los modelos que funcionan como brincolín clásico, revisa la categoría de [brincolines para fiestas infantiles](/inflables/brincolines/). Y antes del evento, vale la pena que los invitados sepan qué ponerse: la guía de [qué ropa llevar a una fiesta infantil con inflable](/blog/que-ropa-llevar-a-una-fiesta-infantil-con-inflable/) resuelve calcetines, accesorios y outfit para los adultos.
 

@@ -154,6 +154,8 @@ El traslado del inflable se cobra según la alcaldía o municipio, así que tamb
 
 Para una fiesta de niñas en jardín o salón con área descubierta, el [Castillo de Princesas, para niñas y niños de 2 a 10 años](/inflables/castillo-princesas/), funciona bien. Si el salón sólo tiene área techada, el catálogo de [inflables para interiores](/inflables/para-interiores/) te dice cuáles entran.
 
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+
 En todos los casos, el espacio libre alrededor del modelo se confirma al cotizar con tus medidas.
 
 ## ¿Cambia la decisión según la edad del festejado?

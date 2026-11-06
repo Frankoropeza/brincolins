@@ -190,6 +190,8 @@ Lo mismo aplica al [mobiliario para fiestas](/servicios/mobiliario-para-fiestas/
 
 Para una fiesta con temática de naturaleza o animales, la [Jungla, el inflable de 3 a 8 años](/inflables/mini-jungla/), combina con decoración de plantas, madera y tela. Si la fiesta es en tonos neutros con flores y textiles, el [Castillo Blanco](/inflables/castillo-blanco/) funciona como base clara. Puedes comparar todos los tamaños intermedios en la [categoría de inflables medianos](/inflables/medianos/).
 
+![Inflable Jungla instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-jungla/mini-jungla-jardin-eventos.avif "Jungla en un jardín de eventos")
+
 ## Checklist de la fiesta infantil sustentable
 
 Marca lo que ya tienes resuelto:

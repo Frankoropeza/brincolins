@@ -85,6 +85,8 @@ Elige por la edad de los niños, no por el tamaño. Un inflable más grande no h
 
 Para la mayoría de las fiestas de niños de 3 a 8 años, los tres modelos de $1,600 resuelven la tarde. La guía que compara [Dragones Rojos, Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/) te ayuda a elegir entre ellos. La [Jungla](/inflables/mini-jungla/), por ejemplo, se instala en 15 minutos y es para niños de 3 a 8 años.
 
+![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
+
 Si quieres ver sólo los modelos de precio más bajo, revisa la selección de [modelos más accesibles del catálogo](/renta-de-inflables-economicos/).
 
 ### ¿Y si los niños son más grandes?

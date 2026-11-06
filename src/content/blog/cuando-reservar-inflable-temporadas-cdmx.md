@@ -63,6 +63,8 @@ Porque la mayoría de las fiestas infantiles son sábado o domingo, y cada infla
 
 Además, no todos los modelos se agotan igual. Los más pedidos para fiestas infantiles se apartan antes. [Dragones Rojos, el más rentado del catálogo](/inflables/dragones-rojos/), suele ser de los primeros en ocuparse en fines de semana. Si tienes un modelo favorito, ese es otro motivo para apartar con tiempo. Si no, ten una segunda opción: el catálogo de [inflables medianos](/inflables/medianos/) agrupa varios modelos de tamaño y precio parecidos.
 
+![Inflable Dragones Rojos instalado en el área verde de unas oficinas para un día familiar de empresa](/img/inflables/dragones-rojos/dragones-rojos-evento-empresa.avif "Dragones Rojos en un día familiar de empresa")
+
 ## ¿Qué temporadas se llenan primero?
 
 Este calendario resume el año. No son cifras: es la lógica de cuándo se juntan los eventos familiares, escolares y de empresa.
