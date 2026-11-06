@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en La Magdalena Contreras"
 vecinas: ["alvaro-obregon", "tlalpan"]
-guias: ["fiesta-infantil-en-privada-o-condominio-cdmx", "donde-instalar-inflable-pasto-cemento-tierra", "fiesta-en-patio-pequeno-con-inflable", "inflable-bajo-techo-temporada-de-lluvias-cdmx"]
+guias: ["fiesta-infantil-en-privada-o-condominio-cdmx", "donde-instalar-inflable-pasto-cemento-tierra", "fiesta-en-patio-pequeno-con-inflable", "inflable-bajo-techo-temporada-de-lluvias-cdmx", "fiesta-de-granja-animales-con-inflable", "cuidar-el-pasto-antes-y-despues-de-un-inflable"]
 faqs:
   - question: "¿Pueden instalar en los jardines comunes de la Unidad Independencia?"
     answer: "Sí, siempre que la administración de la unidad autorice el uso del área y haya una toma de 110 V a menos de 20 m. Pide el permiso por escrito y confirma el horario permitido. Te damos las medidas exactas del modelo para que las presentes."

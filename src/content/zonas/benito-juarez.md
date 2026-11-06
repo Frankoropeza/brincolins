@@ -1,7 +1,7 @@
 ---
 titulo: "Fiestas con inflable en Benito Juárez: edificios, azoteas y patios"
 vecinas: ["cuauhtemoc", "miguel-hidalgo", "alvaro-obregon", "coyoacan", "iztapalapa", "iztacalco"]
-guias: ["inflable-para-departamento-altura-techo-cdmx", "inflable-en-azotea-que-revisar-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx", "salon-de-fiestas-o-fiesta-en-casa-cdmx"]
+guias: ["inflable-para-departamento-altura-techo-cdmx", "inflable-en-azotea-que-revisar-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx", "salon-de-fiestas-o-fiesta-en-casa-cdmx", "pijamada-infantil-con-inflable-ideas", "centros-de-mesa-para-cumpleanos-infantil"]
 faqs:
   - question: "Mi edificio en Benito Juárez no tiene elevador, ¿pueden subir el inflable por la escalera?"
     answer: "En muchos casos sí, porque el inflable viaja enrollado. Lo que necesitamos saber es en qué piso está el área de instalación, cuántos tramos de escalera hay y qué tan ancha es. Mándanos esos datos con una foto al cotizar y te confirmamos si es viable antes de apartar."

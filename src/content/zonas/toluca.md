@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Toluca"
 vecinas: ["metepec", "edomex", "cuajimalpa"]
-guias: ["barco-pirata-o-extremo-inflables-grandes", "horario-fiesta-infantil-cuantas-horas-inflable", "cuando-reservar-inflable-temporadas-cdmx", "inflable-bajo-techo-temporada-de-lluvias-cdmx"]
+guias: ["barco-pirata-o-extremo-inflables-grandes", "horario-fiesta-infantil-cuantas-horas-inflable", "cuando-reservar-inflable-temporadas-cdmx", "inflable-bajo-techo-temporada-de-lluvias-cdmx", "pijamada-infantil-con-inflable-ideas", "fiesta-del-espacio-astronautas-con-inflable"]
 faqs:
   - question: "En Toluca hace frío en la tarde, ¿a qué hora conviene que esté el inflable?"
     answer: "Lo mejor es que el bloque fuerte de juego sea entre el mediodía y media tarde, cuando el sol calienta. Por altitud, en Toluca refresca rápido al caer la tarde, sobre todo de noviembre a febrero. Si la fiesta sigue en la noche, deja para esa parte el pastel y la convivencia bajo techo."

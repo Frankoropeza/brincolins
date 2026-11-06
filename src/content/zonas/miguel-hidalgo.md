@@ -1,7 +1,7 @@
 ---
 titulo: "Dónde y cómo hacer tu fiesta con inflable en Miguel Hidalgo"
 vecinas: ["polanco", "cuauhtemoc", "azcapotzalco", "benito-juarez", "alvaro-obregon", "naucalpan"]
-guias: ["fiesta-en-patio-pequeno-con-inflable", "fiesta-infantil-en-privada-o-condominio-cdmx", "inflable-para-departamento-altura-techo-cdmx", "instalar-inflable-en-explanada-cancha-estacionamiento"]
+guias: ["fiesta-en-patio-pequeno-con-inflable", "fiesta-infantil-en-privada-o-condominio-cdmx", "inflable-para-departamento-altura-techo-cdmx", "instalar-inflable-en-explanada-cancha-estacionamiento", "fiesta-neon-infantil-con-inflable", "que-ropa-llevar-a-una-fiesta-infantil-con-inflable"]
 faqs:
   - question: "Vivo en Tacuba o en el Pensil, ¿qué inflable cabe en un patio de casa?"
     answer: "Depende de la medida libre del patio. Para patios chicos, el Castillo Baby (2.5 × 2 × 2 m) es el más fácil de acomodar; si el patio llega a unos 5 m de largo, entran modelos como los Dragones Rojos o la Jungla. Mándanos medidas y una foto y te confirmamos."

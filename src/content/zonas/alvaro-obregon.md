@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para organizar tu fiesta con inflable en Álvaro Obregón"
 vecinas: ["benito-juarez", "coyoacan", "tlalpan", "magdalena-contreras", "cuajimalpa", "miguel-hidalgo"]
-guias: ["donde-instalar-inflable-pasto-cemento-tierra", "fiesta-en-patio-pequeno-con-inflable", "fiesta-jardin-exterior-inflable-mobiliario-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx"]
+guias: ["donde-instalar-inflable-pasto-cemento-tierra", "fiesta-en-patio-pequeno-con-inflable", "fiesta-jardin-exterior-inflable-mobiliario-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx", "cuidar-el-pasto-antes-y-despues-de-un-inflable", "donde-festejar-cumpleanos-de-ninos-cdmx"]
 faqs:
   - question: "Mi casa en Las Águilas tiene el patio abajo y hay que bajar escaleras, ¿pueden instalar?"
     answer: "En la mayoría de los casos sí, porque el inflable viaja enrollado y se carga a mano. Lo que necesitamos saber es cuántos escalones hay, qué tan anchos son y si hay vueltas cerradas. Mándanos fotos del recorrido desde la calle hasta el patio al cotizar."

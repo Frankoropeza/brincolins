@@ -1,7 +1,7 @@
 ---
 titulo: "Guía local: fiestas con inflable en Azcapotzalco"
 vecinas: ["miguel-hidalgo", "cuauhtemoc", "gustavo-a-madero", "tlalnepantla", "naucalpan"]
-guias: ["instalar-inflable-en-explanada-cancha-estacionamiento", "fiesta-infantil-en-privada-o-condominio-cdmx", "fiesta-en-patio-pequeno-con-inflable", "organizar-kermesse-escolar-inflables-cdmx-checklist"]
+guias: ["instalar-inflable-en-explanada-cancha-estacionamiento", "fiesta-infantil-en-privada-o-condominio-cdmx", "fiesta-en-patio-pequeno-con-inflable", "organizar-kermesse-escolar-inflables-cdmx-checklist", "fiesta-de-futbol-infantil-con-inflable", "cuantos-ninos-invitar-a-una-fiesta-infantil"]
 faqs:
   - question: "¿Pueden instalar un inflable en la Unidad El Rosario?"
     answer: "Sí, en explanadas, jardines o estacionamientos de la unidad, siempre que la administración o el comité del edificio autorice el uso del área común. Indícanos el edificio o sección, dónde puede detenerse el vehículo y de qué departamento o local se tomará la corriente de 110 V, que debe quedar a menos de 20 m."

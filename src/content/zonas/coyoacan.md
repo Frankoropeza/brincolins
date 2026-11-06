@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Coyoacán"
 vecinas: ["benito-juarez", "alvaro-obregon", "tlalpan", "xochimilco", "iztapalapa"]
-guias: ["fiesta-en-patio-pequeno-con-inflable", "fiesta-infantil-en-privada-o-condominio-cdmx", "donde-instalar-inflable-pasto-cemento-tierra", "fiesta-infantil-en-parque-con-inflable"]
+guias: ["fiesta-en-patio-pequeno-con-inflable", "fiesta-infantil-en-privada-o-condominio-cdmx", "donde-instalar-inflable-pasto-cemento-tierra", "fiesta-infantil-en-parque-con-inflable", "fiesta-hawaiana-infantil-con-inflable", "fiesta-infantil-inclusiva-ninos-con-autismo"]
 faqs:
   - question: "¿Se puede instalar un inflable en una casa de Santo Domingo o Ajusco, Coyoacán, donde la calle es angosta?"
     answer: "Sí, siempre que podamos acercar el vehículo a una distancia razonable y que el inflable pase enrollado por la entrada de la casa. Al cotizar mándanos foto de la fachada, el ancho de la puerta o zaguán y la medida del área donde irá el inflable. Con eso confirmamos el modelo antes de apartar la fecha."

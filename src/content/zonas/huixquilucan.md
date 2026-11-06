@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Huixquilucan e Interlomas"
 vecinas: ["naucalpan", "cuajimalpa", "polanco"]
-guias: ["fiesta-infantil-all-white-boho-decoracion", "castillos-inflables-comparativa-princesas-blanco-baby", "baby-shower-con-inflable-para-ninos-invitados", "inflable-en-pedida-de-mano-o-compromiso"]
+guias: ["fiesta-infantil-all-white-boho-decoracion", "castillos-inflables-comparativa-princesas-blanco-baby", "baby-shower-con-inflable-para-ninos-invitados", "inflable-en-pedida-de-mano-o-compromiso", "fiesta-para-adultos-con-zona-infantil-inflable", "centros-de-mesa-para-cumpleanos-infantil"]
 faqs:
   - question: "Vivo en un edificio de Interlomas con roof garden, ¿se puede poner ahí el inflable?"
     answer: "Depende de tres cosas que decide el edificio: si la administración lo autoriza, si el inflable y el equipo caben por el elevador o la escalera, y si el área tiene pretil o barandal a la altura adecuada. Del lado del inflable revisamos medidas, altura libre y distancia al contacto. Mándanos fotos y el reglamento de amenidades."

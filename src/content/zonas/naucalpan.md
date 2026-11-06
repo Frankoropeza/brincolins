@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Naucalpan y Satélite"
 vecinas: ["atizapan", "tlalnepantla", "huixquilucan", "azcapotzalco", "miguel-hidalgo"]
-guias: ["fiesta-jardin-exterior-inflable-mobiliario-cdmx", "castillos-inflables-comparativa-princesas-blanco-baby", "fiesta-primer-cumpleanos-con-inflable", "brincolin-vs-tobogan-inflable-cdmx"]
+guias: ["fiesta-jardin-exterior-inflable-mobiliario-cdmx", "castillos-inflables-comparativa-princesas-blanco-baby", "fiesta-primer-cumpleanos-con-inflable", "brincolin-vs-tobogan-inflable-cdmx", "fiesta-de-superheroes-con-inflable", "fiesta-infantil-sustentable-sin-plasticos"]
 faqs:
   - question: "Mi casa en Satélite tiene el jardín al frente y el contacto adentro, ¿cómo se conecta el inflable?"
     answer: "Con una extensión de uso rudo desde el contacto más cercano, siempre que la distancia al motor no pase de 20 m. Si la extensión tiene que cruzar la cochera o un pasillo, se acomoda pegada a la pared para que nadie tropiece. Avísanos al cotizar dónde está el contacto."

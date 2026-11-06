@@ -1,7 +1,7 @@
 ---
 titulo: "Cómo organizar una fiesta con inflable en la Roma, la Condesa y el Centro"
 vecinas: ["miguel-hidalgo", "benito-juarez", "venustiano-carranza", "iztacalco", "gustavo-a-madero", "azcapotzalco"]
-guias: ["inflable-en-azotea-que-revisar-cdmx", "inflable-para-departamento-altura-techo-cdmx", "mejor-inflable-para-ninos-menores-de-3-anos", "inflable-bajo-techo-temporada-de-lluvias-cdmx"]
+guias: ["inflable-en-azotea-que-revisar-cdmx", "inflable-para-departamento-altura-techo-cdmx", "mejor-inflable-para-ninos-menores-de-3-anos", "inflable-bajo-techo-temporada-de-lluvias-cdmx", "pijamada-infantil-con-inflable-ideas", "fiesta-de-halloween-infantil-con-inflable"]
 faqs:
   - question: "¿Pueden entregar un domingo en la Juárez o la Roma si Reforma está cerrada?"
     answer: "Sí. Los domingos en la mañana Paseo de la Reforma se cierra a autos por el paseo ciclista, así que planeamos la llegada por calles laterales. Al cotizar dinos el cruce exacto de tu edificio para elegir el acceso."

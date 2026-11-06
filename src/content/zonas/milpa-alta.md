@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en los pueblos de Milpa Alta"
 vecinas: ["tlahuac", "xochimilco", "tlalpan", "chalco"]
-guias: ["donde-instalar-inflable-pasto-cemento-tierra", "fiesta-infantil-en-invierno-al-aire-libre-cdmx", "fiesta-en-quinta-o-jardin-de-eventos-edomex", "horario-fiesta-infantil-cuantas-horas-inflable"]
+guias: ["donde-instalar-inflable-pasto-cemento-tierra", "fiesta-infantil-en-invierno-al-aire-libre-cdmx", "fiesta-en-quinta-o-jardin-de-eventos-edomex", "horario-fiesta-infantil-cuantas-horas-inflable", "fiesta-de-granja-animales-con-inflable", "reunion-familiar-carne-asada-con-inflable"]
 faqs:
   - question: "¿La Feria del Mole en San Pedro Atocpan afecta la entrega del inflable?"
     answer: "Durante la feria, que se celebra en otoño, llegan muchos visitantes a San Pedro Atocpan y el tránsito en la carretera y las calles del pueblo aumenta, sobre todo en fin de semana. Si tu fiesta coincide, avísanos al cotizar para acordar una hora de entrega y retiro temprana."

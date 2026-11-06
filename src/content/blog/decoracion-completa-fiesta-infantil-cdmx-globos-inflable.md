@@ -4,7 +4,7 @@ h1: "Decoración completa de fiesta infantil con globos, backdrop e inflable en 
 description: "Cómo decorar una fiesta infantil con globos, backdrop e inflable: paletas por modelo, zonas, presupuesto orientativo y orden de montaje. Planea la tuya."
 excerpt: "Globos, backdrop e inflable en la misma paleta: temas más pedidos, colores por modelo, zonas de la fiesta, presupuesto orientativo y el orden de montaje que evita choques entre proveedores."
 publishDate: "2026-06-07"
-updatedDate: "2026-11-05"
+updatedDate: "2026-11-06"
 category: "Decoración"
 author: "Equipo BRINCOLINS"
 readTime: "16 min"
@@ -98,7 +98,7 @@ El inflable debe estar en un área despejada; confirma el espacio disponible con
 
 ### Zona de alimentos
 
-Ubica la mesa de comida y la mesa de dulces alejadas del inflable para evitar que los niños coman inmediatamente después de brincar (puede causar malestar estomacal). Usa manteles en los colores de tu paleta y coordina los platos, vasos y servilletas. Una mesa de dulces temática con 5-7 tipos de golosinas en recipientes de vidrio o acrílico se ve espectacular en fotos.
+Ubica la mesa de comida y la mesa de dulces alejadas del inflable para evitar que los niños coman inmediatamente después de brincar (puede causar malestar estomacal). Usa manteles en los colores de tu paleta y coordina los platos, vasos y servilletas. Una mesa de dulces temática con 5-7 tipos de golosinas en recipientes de vidrio o acrílico se ve espectacular en fotos. Para las mesas de invitados, la guía de [centros de mesa para cumpleaños infantil](/blog/centros-de-mesa-para-cumpleanos-infantil/) explica qué altura, materiales y bases aguantan una fiesta con niños.
 
 ### Zona de descanso para adultos
 

@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Nicolás Romero"
 vecinas: ["atizapan", "cuautitlan-izcalli", "naucalpan"]
-guias: ["donde-instalar-inflable-pasto-cemento-tierra", "barco-pirata-o-extremo-inflables-grandes", "fiesta-pirata-infantil-tobogan-cdmx", "organizar-kermesse-escolar-inflables-cdmx-checklist"]
+guias: ["donde-instalar-inflable-pasto-cemento-tierra", "barco-pirata-o-extremo-inflables-grandes", "fiesta-pirata-infantil-tobogan-cdmx", "organizar-kermesse-escolar-inflables-cdmx-checklist", "trampolin-para-ninos-comprar-o-rentar-inflable", "fiesta-charra-y-vaquera-infantil-con-inflable"]
 faqs:
   - question: "Mi terreno en Nicolás Romero es de tierra, ¿qué preparo antes de que llegue el inflable?"
     answer: "Barre o rastrilla el área para quitar piedras, ramas, vidrios y clavos, y si hay hoyos, rellénalos. El inflable se coloca sobre una lona, pero no corrige desniveles: el área tiene que quedar plana. Si llovió la noche anterior y hay lodo, avísanos antes de que salga el equipo."

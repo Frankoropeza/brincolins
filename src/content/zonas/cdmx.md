@@ -1,7 +1,7 @@
 ---
 titulo: "Guía por regiones: cómo planear tu fiesta con inflable en la Ciudad de México"
 vecinas: ["edomex", "naucalpan", "tlalnepantla", "ecatepec", "nezahualcoyotl", "huixquilucan"]
-guias: ["medidas-de-inflables-para-fiestas-tabla", "como-elegir-inflable-fiesta-infantil", "salon-de-fiestas-o-fiesta-en-casa-cdmx", "cuando-reservar-inflable-temporadas-cdmx", "inflable-bajo-techo-temporada-de-lluvias-cdmx"]
+guias: ["medidas-de-inflables-para-fiestas-tabla", "como-elegir-inflable-fiesta-infantil", "salon-de-fiestas-o-fiesta-en-casa-cdmx", "cuando-reservar-inflable-temporadas-cdmx", "inflable-bajo-techo-temporada-de-lluvias-cdmx", "donde-festejar-cumpleanos-de-ninos-cdmx", "comida-para-fiesta-infantil-menu-ideas"]
 faqs:
   - question: "¿Cómo sé qué inflable cabe en mi casa antes de reservar?"
     answer: "Mide el área libre donde irá el inflable (largo, ancho y, si hay techo, árboles o tendederos, la altura) y mándanos una foto tomada desde una esquina. Con eso, y con la edad de los niños, te decimos qué modelos caben. Lo confirmamos antes de que apartes la fecha."

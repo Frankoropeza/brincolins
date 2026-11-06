@@ -4,7 +4,7 @@ h1: "Fiesta de granja infantil con inflable: decoración, juegos para niños de 
 description: "Fiesta de granja para niños de 1 a 5 años: decoración, juegos por edad, menú, recuerdos y qué inflable elegir para bebés y kínder. Cotiza tu fecha."
 excerpt: "Todo para una fiesta de granja con niños pequeños: decoración con cuadros y madera, juegos de animales por edad, menú sencillo, recuerdos con semillas y el inflable correcto para bebés y preescolar."
 publishDate: "2026-11-05"
-updatedDate: "2026-11-05"
+updatedDate: "2026-11-06"
 category: "Ideas"
 author: "Equipo BRINCOLINS"
 readTime: "12 min"
@@ -107,6 +107,8 @@ Nada se amarra al inflable. Coloca una cerca de cartón blanca o de madera liger
 2. **Animales de cerámica o vidrio** en el piso o en mesas bajas.
 3. **Globos sueltos al alcance de bebés:** un globo reventado es riesgo de asfixia para menores de 3 años.
 4. **Piezas pequeñas** de decoración en mesas donde comen los bebés.
+
+Para niños más grandes que ya piden algo más tropical que el corral, la [fiesta hawaiana con inflable como isla](/blog/fiesta-hawaiana-infantil-con-inflable/) mantiene la decoración de flores y fruta con juegos de limbo y hula hula.
 
 ![Mesa de cumpleaños de granja en un jardín con mantel de cuadros rojos, huacales de madera, animalitos de peluche y globos blancos con manchas negras](/img/blog/fiesta-de-granja-animales-con-inflable/escena-1.avif "Tela de cuadros, madera y animalitos de peluche bastan para que la temática de granja se note")
 

@@ -1,7 +1,7 @@
 ---
 titulo: "Cómo planear tu fiesta con inflable en Tultitlán"
 vecinas: ["coacalco", "cuautitlan-izcalli", "tlalnepantla", "ecatepec"]
-guias: ["donde-instalar-inflable-pasto-cemento-tierra", "inflables-de-1600-comparativa-dragones-jungla-gusanitos", "organizar-kermesse-escolar-inflables-cdmx-checklist", "fiesta-infantil-con-poco-presupuesto-cdmx"]
+guias: ["donde-instalar-inflable-pasto-cemento-tierra", "inflables-de-1600-comparativa-dragones-jungla-gusanitos", "organizar-kermesse-escolar-inflables-cdmx-checklist", "fiesta-infantil-con-poco-presupuesto-cdmx", "fiesta-de-futbol-infantil-con-inflable", "musica-para-fiesta-infantil-playlist-por-edad"]
 faqs:
   - question: "¿Por qué me preguntan si estoy en Tultitlán o en San Pablo de las Salinas?"
     answer: "Porque el municipio tiene dos porciones separadas y la ruta para llegar a cada una es distinta. Con la colonia exacta calculamos el envío dentro del rango de $200 a $300 y elegimos el camino. Si nos mandas el pin de ubicación por WhatsApp se evita cualquier confusión."

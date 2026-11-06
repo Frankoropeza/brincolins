@@ -176,4 +176,16 @@ export const BLOG_CATEGORIA: Record<string, string> = {
   "musica-para-fiesta-infantil-playlist-por-edad":         "para-ninos",
   "fiesta-infantil-sustentable-sin-plasticos":             "brincolines",
   "cuidar-el-pasto-antes-y-despues-de-un-inflable":        "medianos",
+
+  /* Tanda 2026-11-06 — 10 guías con keyword medida en Ahrefs MX. */
+  "pijamada-infantil-con-inflable-ideas":                  "para-interiores",
+  "fiesta-neon-infantil-con-inflable":                     "para-adultos",
+  "fiesta-hawaiana-infantil-con-inflable":                 "tematicos",
+  "fiesta-charra-y-vaquera-infantil-con-inflable":         "tematicos",
+  "comida-para-fiesta-infantil-menu-ideas":                "para-ninos",
+  "mesa-de-snacks-y-postres-fiesta-infantil":              "para-ninos",
+  "centros-de-mesa-para-cumpleanos-infantil":              "castillos",
+  "donde-festejar-cumpleanos-de-ninos-cdmx":               "grandes",
+  "trampolin-para-ninos-comprar-o-rentar-inflable":        "brincolines",
+  "que-ropa-llevar-a-una-fiesta-infantil-con-inflable":    "para-ninos",
 };

@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Cuautitlán Izcalli"
 vecinas: ["tultitlan", "atizapan", "nicolas-romero", "tlalnepantla", "coacalco"]
-guias: ["fiesta-infantil-con-poco-presupuesto-cdmx", "inflables-de-1600-comparativa-dragones-jungla-gusanitos", "fiesta-de-gemelos-o-hermanos-con-inflable", "graduacion-kinder-primaria-con-inflable"]
+guias: ["fiesta-infantil-con-poco-presupuesto-cdmx", "inflables-de-1600-comparativa-dragones-jungla-gusanitos", "fiesta-de-gemelos-o-hermanos-con-inflable", "graduacion-kinder-primaria-con-inflable", "bolsitas-y-recuerdos-fiesta-infantil-ideas", "fiesta-de-carros-de-carreras-con-inflable"]
 faqs:
   - question: "Vivo en una calle cerrada con retorno en Izcalli, ¿se puede poner el inflable en el retorno?"
     answer: "El retorno es vía de uso común, así que primero necesitas el acuerdo de los vecinos y, si aplica, la autorización de la administración o del municipio. Del lado técnico revisamos que el piso esté plano, que no haya cables bajos ni coladeras en el área y que el contacto de luz quede a menos de 20 m. Mándanos una foto del retorno completo."

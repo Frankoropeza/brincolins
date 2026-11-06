@@ -4,7 +4,7 @@ h1: "Cuánta comida por niño en una fiesta infantil: cantidades orientativas, t
 description: "Cuánta comida por niño y por adulto: pizza, tacos, pastel, botanas, bebidas y dulces, con tabla para 10, 20, 30 y 50 invitados y horarios. Calcula la tuya."
 excerpt: "Rebanadas de pizza, tacos, porciones de pastel, litros de bebida y kilos de dulces: cantidades orientativas por niño y por adulto, una tabla lista para 10, 20, 30 y 50 invitados y cómo acomodar la comida con el inflable."
 publishDate: "2026-11-04"
-updatedDate: "2026-11-05"
+updatedDate: "2026-11-06"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "12 min"
@@ -190,7 +190,7 @@ La guía de [seguridad en inflables para fiestas infantiles](/blog/seguridad-inf
 
 ## ¿Qué servir según la edad de los niños?
 
-Las cantidades cambian con la edad, pero también cambia qué comen y cómo lo comen. Ajustar el menú a la edad evita que sobre la mitad de la comida.
+Las cantidades cambian con la edad, pero también cambia qué comen y cómo lo comen. Ajustar el menú a la edad evita que sobre la mitad de la comida. Si todavía no decides qué servir, revisa estas [ideas de menú para fiesta infantil](/blog/comida-para-fiesta-infantil-menu-ideas/), con taquiza, pizza, hot dogs y pasta fría.
 
 ### De 1 a 3 años
 

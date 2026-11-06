@@ -1,7 +1,7 @@
 ---
 titulo: "Guía por regiones para tu fiesta con inflable en el Estado de México"
 vecinas: ["cdmx", "gustavo-a-madero", "azcapotzalco", "iztapalapa", "cuajimalpa"]
-guias: ["planear-cumpleanos-infantil-completo-cdmx", "como-rentar-inflable-brincolins-proceso-paso-a-paso", "cuando-reservar-inflable-temporadas-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx", "barco-pirata-o-extremo-inflables-grandes", "donde-instalar-inflable-pasto-cemento-tierra"]
+guias: ["planear-cumpleanos-infantil-completo-cdmx", "como-rentar-inflable-brincolins-proceso-paso-a-paso", "cuando-reservar-inflable-temporadas-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx", "barco-pirata-o-extremo-inflables-grandes", "donde-instalar-inflable-pasto-cemento-tierra", "mesa-de-snacks-y-postres-fiesta-infantil", "trampolin-para-ninos-comprar-o-rentar-inflable"]
 faqs:
   - question: "Mi fiesta es en un municipio del Edomex que no aparece en la lista, ¿pueden ir?"
     answer: "Escríbenos con la dirección exacta. Las páginas de cobertura reúnen los municipios que atendemos de forma habitual; si tu domicilio está cerca de alguno de ellos, revisamos la ruta y te decimos si es posible y cuánto queda el envío antes de que apartes."

@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Chalco y Valle de Chalco"
 vecinas: ["tlahuac", "iztapalapa", "milpa-alta", "nezahualcoyotl"]
-guias: ["barco-pirata-o-extremo-inflables-grandes", "fiesta-de-dinosaurios-con-inflable-cdmx", "cuando-reservar-inflable-temporadas-cdmx", "bautizo-con-inflable-zona-infantil-cdmx"]
+guias: ["barco-pirata-o-extremo-inflables-grandes", "fiesta-de-dinosaurios-con-inflable-cdmx", "cuando-reservar-inflable-temporadas-cdmx", "bautizo-con-inflable-zona-infantil-cdmx", "fiesta-mexicana-infantil-con-inflable", "reunion-familiar-carne-asada-con-inflable"]
 faqs:
   - question: "¿Mi fiesta en Valle de Chalco cuenta como Chalco para el envío?"
     answer: "Valle de Chalco Solidaridad es un municipio distinto, pero lo cubrimos con el mismo rango de envío de $250 a $400. La cifra exacta depende de la colonia; mándanos la dirección y te la confirmamos antes de apartar."

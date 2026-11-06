@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Metepec"
 vecinas: ["toluca", "edomex", "cuajimalpa"]
-guias: ["castillos-inflables-comparativa-princesas-blanco-baby", "fiesta-infantil-all-white-boho-decoracion", "fiesta-de-unicornios-y-hadas-con-inflable", "bautizo-con-inflable-zona-infantil-cdmx"]
+guias: ["castillos-inflables-comparativa-princesas-blanco-baby", "fiesta-infantil-all-white-boho-decoracion", "fiesta-de-unicornios-y-hadas-con-inflable", "bautizo-con-inflable-zona-infantil-cdmx", "fiesta-charra-y-vaquera-infantil-con-inflable", "pastel-fiesta-infantil-porciones-y-tamanos"]
 faqs:
   - question: "Mi casa en un fraccionamiento de Metepec no tiene jardín, ¿puedo usar el área verde común?"
     answer: "Si la administración del fraccionamiento lo autoriza, sí. Pide por escrito la reserva del área, el horario permitido y de dónde puedes tomar la corriente; el motor necesita una toma de 110 V a menos de 20 m. Con esa información y las medidas del área te confirmamos qué modelo cabe."

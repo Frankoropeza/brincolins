@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para organizar tu fiesta con inflable en Iztapalapa"
 vecinas: ["iztacalco", "benito-juarez", "coyoacan", "xochimilco", "tlahuac", "nezahualcoyotl"]
-guias: ["inflable-en-salon-de-fiestas-que-preguntar", "instalar-inflable-en-explanada-cancha-estacionamiento", "fiesta-infantil-con-poco-presupuesto-cdmx", "cuando-reservar-inflable-temporadas-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx"]
+guias: ["inflable-en-salon-de-fiestas-que-preguntar", "instalar-inflable-en-explanada-cancha-estacionamiento", "fiesta-infantil-con-poco-presupuesto-cdmx", "cuando-reservar-inflable-temporadas-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx", "mesa-de-snacks-y-postres-fiesta-infantil", "fiesta-de-13-a-15-anos-adolescentes-ideas"]
 faqs:
   - question: "¿Se puede hacer una fiesta con inflable en Semana Santa cerca de Iztapalapa Centro?"
     answer: "Sí, pero hay que planearla con tiempo. Durante la representación de la Pasión hay cierres y muchísima gente en los ocho barrios y alrededor del Cerro de la Estrella. Si vives en esa zona, avísanos al cotizar para acordar una hora de entrega y retiro que evite los recorridos."

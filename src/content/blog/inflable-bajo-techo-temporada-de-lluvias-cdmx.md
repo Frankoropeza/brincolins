@@ -4,7 +4,7 @@ h1: "Inflable bajo techo en temporada de lluvias: terraza, carpa, garage o saló
 description: "Qué inflable va bajo techo en temporada de lluvias en CDMX, cómo medir los 3.2 m de altura libre y qué hacer si llueve. Revisa tu espacio y cotiza."
 excerpt: "Si tu fiesta cae entre junio y septiembre, el aguacero de la tarde también viene. Mira qué inflable entra bajo techo y cómo medir tu espacio antes de apartar."
 publishDate: "2026-10-01"
-updatedDate: "2026-11-05"
+updatedDate: "2026-11-06"
 category: "Gusanitos"
 author: "Equipo BRINCOLINS"
 readTime: "16 min"
@@ -78,7 +78,7 @@ Fíjate en la Jungla. Es más baja que el Gusanitos y aun así va sólo al aire 
 
 El [Gusanitos, el circuito que entra bajo techo](/inflables/gusanitos/), mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años y se instala en 20 minutos. Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas. Bajo techo eso ayuda, porque el juego se reparte a lo largo del recorrido en lugar de amontonarse en un solo punto.
 
-También funciona con grupos de edades mezcladas, que es justo lo que junta una fiesta familiar en casa. Si tu lista va de primos de 2 años a compañeros de 8, organiza turnos por edad antes de armar el programa.
+También funciona con grupos de edades mezcladas, que es justo lo que junta una fiesta familiar en casa. Si tu lista va de primos de 2 años a compañeros de 8, organiza turnos por edad antes de armar el programa. También es el inflable que mejor encaja en una [pijamada infantil con inflable bajo techo](/blog/pijamada-infantil-con-inflable-ideas/), siempre usado por la tarde y recogido antes de dormir.
 
 ![Acercamiento a los gusanos amarillos de antenas verdes del Gusanitos, con una torre morada detrás](/img/inflables/gusanitos/gusanitos-inflable-fiesta.avif)
 

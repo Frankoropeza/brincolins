@@ -4,7 +4,7 @@ h1: "Mesa de dulces e inflable para cumpleaños en CDMX: horarios, acomodo y tem
 description: "Cómo combinar mesa de dulces e inflable en un cumpleaños en CDMX: orden de los proveedores, acomodo, cuándo abrir la mesa y temáticas. Planea y cotiza."
 excerpt: "Mesa de dulces e inflable cubren momentos distintos de la fiesta. Aprende a sincronizar a ambos proveedores, repartir el espacio, elegir la temática y cuidar el presupuesto."
 publishDate: "2026-06-09"
-updatedDate: "2026-11-05"
+updatedDate: "2026-11-06"
 category: "Ideas"
 author: "Equipo BRINCOLINS"
 readTime: "11 min"
@@ -117,7 +117,7 @@ Si además vas a rentar mesas y sillas para los invitados, el acomodo completo e
 
 ### ¿Cuándo abrir la mesa de dulces?
 
-Hay dos formas que funcionan. La primera es abrirla desde el inicio como decoración, con los dulces tapados o fuera del alcance, y repartirlos al final en bolsitas, junto con los [recuerdos de la fiesta infantil](/blog/bolsitas-y-recuerdos-fiesta-infantil-ideas/). La segunda es abrirla después del pastel, cuando los niños ya brincaron un buen rato. Lo que conviene evitar es abrirla justo antes de un turno largo: niños con la boca llena de dulces no deben entrar al inflable. Para acomodar pastel, piñata, turnos y mesa en el mismo horario, revisa la guía sobre [cuántas horas dura la renta y cómo repartir la tarde](/blog/horario-fiesta-infantil-cuantas-horas-inflable/).
+Hay dos formas que funcionan. La primera es abrirla desde el inicio como decoración, con los dulces tapados o fuera del alcance, y repartirlos al final en bolsitas, junto con los [recuerdos de la fiesta infantil](/blog/bolsitas-y-recuerdos-fiesta-infantil-ideas/). La segunda es abrirla después del pastel, cuando los niños ya brincaron un buen rato. Lo que conviene evitar es abrirla justo antes de un turno largo: niños con la boca llena de dulces no deben entrar al inflable. Si además quieres algo salado para la tarde, la guía de [mesa de snacks y postres para fiesta infantil](/blog/mesa-de-snacks-y-postres-fiesta-infantil/) explica cómo armar una mesa de botanas aparte de la de dulces. Para acomodar pastel, piñata, turnos y mesa en el mismo horario, revisa la guía sobre [cuántas horas dura la renta y cómo repartir la tarde](/blog/horario-fiesta-infantil-cuantas-horas-inflable/).
 
 ## ¿Qué temáticas funcionan para el inflable y la mesa?
 

@@ -4,7 +4,7 @@ h1: "Palomitas e inflable en una fiesta infantil: horarios, ubicación, corrient
 description: "Coordina inflable y máquina de palomitas sin cruces: horarios de llegada, dónde poner cada uno, cómo separar la corriente y qué preguntar a cada proveedor."
 excerpt: "Inflable y palomitas forman un ciclo que funciona solo: los niños brincan, salen por un puñado y vuelven a entrar. Así coordinas a los dos proveedores sin que choquen."
 publishDate: "2026-06-02"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-06"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "12 min"
@@ -101,7 +101,7 @@ Es el detalle que más se descuida. Palomitas e inflable deben estar cerca para 
 - **Nada de comida dentro del inflable.** Ni palomitas, ni dulces, ni bebidas. La mantequilla y el caramelo manchan el vinilo y los granos sueltos son riesgo de atragantamiento si un niño brinca con la boca llena.
 - **Paso libre entre ambos.** Si la máquina queda junto a la entrada del inflable, se forma un embudo: niños formados para palomitas, niños quitándose los zapatos y niños saliendo en el mismo metro cuadrado.
 - **Zona de manos limpias.** Servilletas o toallitas a medio camino. Con las manos engrasadas, los niños resbalan y dejan el inflable pegajoso.
-- **Mesa firme y lejos de donde corren.** Una máquina caliente y un niño corriendo no deben cruzarse.
+- **Mesa firme y lejos de donde corren.** Una máquina caliente y un niño corriendo no deben cruzarse. Si las palomitas forman parte de una estación más grande, la guía de [mesa de snacks para fiesta infantil](/blog/mesa-de-snacks-y-postres-fiesta-infantil/) explica qué otras botanas sumar y cómo acomodarla.
 
 ![Mesa con una máquina de palomitas, vasos de papel y servilletas en el jardín de una casa mexicana, a varios pasos de un área de juego al fondo](/img/blog/palomita-inflable-fiesta-infantil-cdmx/escena-1.avif "Cerca pero no pegados: la máquina en mesa firme y un paso libre hacia el área de juego.")
 

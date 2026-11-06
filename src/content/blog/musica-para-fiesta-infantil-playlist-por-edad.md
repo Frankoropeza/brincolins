@@ -4,7 +4,7 @@ h1: "Música para fiesta infantil: playlist por edad, canciones para cada moment
 description: "Música para fiesta infantil: playlist por edad de 1 a 12 años, canciones para llegada, juegos, piñata y pastel, volumen y bocina lejos del inflable."
 excerpt: "Qué música poner según la edad de los niños, una playlist por momento de la fiesta, juegos con música y las reglas de volumen, vecinos y bocina que evitan problemas con el inflable."
 publishDate: "2026-11-05"
-updatedDate: "2026-11-05"
+updatedDate: "2026-11-06"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "12 min"
@@ -108,7 +108,7 @@ Los juegos musicales son la mejor pausa activa entre turnos de inflable: ocupan 
 - **Las sillas.** Una silla menos que jugadores; cuando la música para, todos se sientan. Funciona de 5 a 12 años. Usa sillas firmes y en pasto o piso plano.
 - **Estatuas.** Bailan mientras suena la música y se congelan cuando para. Ideal de 3 a 8 años, sin eliminados si son pequeños.
 - **La papa caliente.** Pasan una pelota mientras suena la música; quien la tiene cuando para hace una prueba sencilla. De 4 a 10 años.
-- **Concurso de baile.** Por equipos o libre, con aplausos para todos. De 6 a 12 años.
+- **Concurso de baile.** Por equipos o libre, con aplausos para todos. De 6 a 12 años. Con luz negra y pulseras luminosas se vuelve el centro de una [fiesta neón para niños de 8 a 15 años](/blog/fiesta-neon-infantil-con-inflable/).
 - **Limbo.** Con un palo de escoba o una cuerda sostenida por dos adultos. De 5 a 12 años, en pasto.
 - **Rondas tradicionales.** A la víbora de la mar o Doña Blanca, con papás incluidos. De 3 a 9 años.
 
