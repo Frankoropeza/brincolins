@@ -1,11 +1,15 @@
 ---
 import { A } from "@/data/anchors";
 import { WHATSAPP, PHONE_TEL } from '../data/site';
+import { INFLABLES } from '../data/inflables';
 /**
  * Header — BRINCOLINS
  * ─────────────────────────────
- * Desktop: mega-menu Inflables (2 cols agrupadas + CTA), dropdown rico Servicios
- * Mobile: panel acordeón con labels de categoría no-clickeables
+ * Escritorio: mega-menú Inflables (2 columnas agrupadas + enlace al
+ *   catálogo) y desplegable Servicios (nombre + descripción). Se abre con
+ *   hover con intención, con teclado (Enter/↓ en el enlace, Esc cierra) y
+ *   se cierra al hacer clic fuera. Sin íconos ni emojis.
+ * Móvil: panel lateral con acordeones (aria-expanded / aria-controls).
  * Config base desde /src/data/header.md
  * Estilos en /src/styles/header.css (extraídos del componente, jul 2026 —
  * eran 857 líneas de <style> dentro de un archivo de 1,399).
@@ -53,15 +57,51 @@ function isActive(href: string, children?: { href: string }[]): boolean {
   return false;
 }
 
-// Servicios — datos ricos (icono + descripción)
-const serviciosItems = [
-  { icon: '🎪', label: 'Renta de Inflables',    desc: 'Instalación incluida · traslado según zona',  href: '/servicios/renta-de-inflables/'      },
-  { icon: '🎉', label: 'Paquetes de Fiesta',     desc: 'Todo incluido para tu evento',    href: '/servicios/paquetes-de-fiesta/'      },
-  { icon: '🪑', label: 'Mobiliario para Fiestas',desc: 'Mesas, sillas y decoración',      href: '/servicios/mobiliario-para-fiestas/' },
-  { icon: '💡', label: 'Iluminación para Eventos',desc:'Ambiente y efectos de color',     href: '/servicios/iluminacion-eventos/'     },
-  { icon: '🎈', label: 'Inflables para Eventos', desc: 'Corporativos y eventos sociales', href: '/servicios/inflables-para-eventos/'  },
-  { icon: '🏛️', label: 'Directorio de Salones',  desc: 'Dónde hacer la fiesta en CDMX',   href: '/directorio/'                        },
+/* ── Datos del menú ─────────────────────────────────────────────────
+   Precios y nombres salen del catálogo (src/data/inflables.ts): si cambia
+   un precio allá, el menú se actualiza solo. Antes estaban escritos a mano
+   en tres lugares (mega-menú, panel móvil y datos) y podían desfasarse. */
+const bySlug = Object.fromEntries(INFLABLES.map(i => [i.slug, i]));
+const modelo = (slug: string) => ({
+  label: bySlug[slug]?.name ?? slug,
+  href:  `/inflables/${slug}/`,
+  meta:  bySlug[slug]?.price ?? '',
+});
+
+/* Mega-menú de escritorio: dos columnas agrupadas */
+const megaCols = [
+  [
+    { title: 'Más populares', items: [modelo('dragones-rojos'), modelo('castillo-princesas')] },
+    { title: 'Temáticos',     items: [modelo('mini-jungla'), modelo('gusanitos')] },
+  ],
+  [
+    { title: 'Por tamaño', items: [modelo('mini-castillo'), modelo('barco-pirata'), modelo('extremo')] },
+    { title: 'Por público', items: [
+      { label: 'Brincolines para niños', href: '/inflables/brincolines/', meta: 'Por edad' },
+      { label: 'Inflables para adultos', href: '/inflables/para-adultos/', meta: 'Eventos' },
+    ] },
+    { title: 'Eventos especiales', items: [modelo('castillo-blanco')] },
+  ],
 ];
+
+/* Panel móvil: solo modelos, agrupados */
+const panelGroups = [
+  { title: 'Más populares', items: [modelo('dragones-rojos'), modelo('castillo-princesas')] },
+  { title: 'Temáticos',     items: [modelo('mini-jungla'), modelo('gusanitos')] },
+  { title: 'Por tamaño',    items: [modelo('mini-castillo'), modelo('barco-pirata'), modelo('extremo')] },
+  { title: 'Especiales',    items: [modelo('castillo-blanco')] },
+];
+
+const serviciosItems = [
+  { label: 'Renta de Inflables',       desc: 'Instalación incluida · traslado según zona', href: '/servicios/renta-de-inflables/'      },
+  { label: 'Paquetes de Fiesta',       desc: 'Todo incluido para tu evento',               href: '/servicios/paquetes-de-fiesta/'      },
+  { label: 'Mobiliario para Fiestas',  desc: 'Mesas, sillas y decoración',                 href: '/servicios/mobiliario-para-fiestas/' },
+  { label: 'Iluminación para Eventos', desc: 'Ambiente y efectos de color',                href: '/servicios/iluminacion-eventos/'     },
+  { label: 'Inflables para Eventos',   desc: 'Corporativos y eventos sociales',            href: '/servicios/inflables-para-eventos/'  },
+  { label: 'Directorio de Salones',    desc: 'Dónde hacer la fiesta en CDMX',              href: '/directorio/'                        },
+];
+
+const chev = 'M1 1l4.5 4.5L10 1';
 ---
 
 <header class="hdr" id="hdr">
@@ -84,145 +124,94 @@ const serviciosItems = [
     <nav class="hdr__nav" aria-label="Navegación principal">
       <ul class="hdr__list">
         {navLinks.map((link) => {
+          const isMega = link.href === '/inflables/';
+          const isSvc  = link.href === '/servicios/';
+          const hasSub = isMega || isSvc || !!link.children;
+          const subId  = `hdr-sub-${link.href.replace(/\W+/g, '') || 'home'}`;
 
-          /* ── INFLABLES — mega-menu ── */
-          if (link.href === '/inflables/') return (
-            <li class="hdr__item hdr__item--mega">
-              <a
-                href={link.href}
-                class:list={['hdr__link', { 'hdr__link--active': isActive(link.href, link.children) }]}
-                aria-haspopup="true"
-              >
-                {link.label}
-                <svg class="hdr__chev" width="11" height="7" viewBox="0 0 11 7" fill="none" aria-hidden="true">
-                  <path d="M1 1l4.5 4.5L10 1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </a>
-
-              <div class="hdr__mega" role="menu">
-                <div class="hdr__mega-inner">
-
-                  {/* Col A — Populares + Temáticos */}
-                  <div class="hdr__mega-col">
-                    <span class="hdr__mega-cat">🔥 Más populares</span>
-                    <a href="/inflables/dragones-rojos/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/dragones-rojos/') }]} role="menuitem">
-                      <span class="hdr__mega-link-name">Dragones Rojos</span>
-                      <span class="hdr__mega-price">$1,600</span>
-                    </a>
-                    <a href="/inflables/castillo-princesas/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/castillo-princesas/') }]} role="menuitem">
-                      <span class="hdr__mega-link-name">Castillo de Princesas</span>
-                      <span class="hdr__mega-price">$1,800</span>
-                    </a>
-                    <span class="hdr__mega-cat">🌿 Temáticos</span>
-                    <a href="/inflables/mini-jungla/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/mini-jungla/') }]} role="menuitem">
-                      <span class="hdr__mega-link-name">Jungla</span>
-                      <span class="hdr__mega-price">$1,600</span>
-                    </a>
-                    <a href="/inflables/gusanitos/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/gusanitos/') }]} role="menuitem">
-                      <span class="hdr__mega-link-name">Gusanitos</span>
-                      <span class="hdr__mega-price">$1,600</span>
-                    </a>
-                  </div>
-
-                  {/* Col B — Por tamaño + Especiales */}
-                  <div class="hdr__mega-col">
-                    <span class="hdr__mega-cat">📐 Por tamaño</span>
-                    <a href="/inflables/mini-castillo/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/mini-castillo/') }]} role="menuitem">
-                      <span class="hdr__mega-link-name">Castillo Baby</span>
-                      <span class="hdr__mega-price">$1,400</span>
-                    </a>
-                    <a href="/inflables/barco-pirata/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/barco-pirata/') }]} role="menuitem">
-                      <span class="hdr__mega-link-name">Barco Pirata</span>
-                      <span class="hdr__mega-price">$2,300</span>
-                    </a>
-                    <a href="/inflables/extremo/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/extremo/') }]} role="menuitem">
-                      <span class="hdr__mega-link-name">Extremo</span>
-                      <span class="hdr__mega-price">$2,500</span>
-                    </a>
-                    <span class="hdr__mega-cat">👥 Por público</span>
-                    <a href="/inflables/brincolines/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/brincolines/') }]} role="menuitem">
-                      <span class="hdr__mega-link-name">Brincolines para niños</span>
-                      <span class="hdr__mega-price">Por edad</span>
-                    </a>
-                    <a href="/inflables/para-adultos/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/para-adultos/') }]} role="menuitem">
-                      <span class="hdr__mega-link-name">Inflables para adultos</span>
-                      <span class="hdr__mega-price">Eventos</span>
-                    </a>
-                    <span class="hdr__mega-cat">💍 Eventos especiales</span>
-                    <a href="/inflables/castillo-blanco/" class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith('/inflables/castillo-blanco/') }]} role="menuitem">
-                      <span class="hdr__mega-link-name">Castillo Blanco</span>
-                      <span class="hdr__mega-price">$2,600</span>
-                    </a>
-                  </div>
-
-
-                </div>
-              </div>
-            </li>
-          );
-
-          /* ── SERVICIOS — dropdown enriquecido ── */
-          if (link.href === '/servicios/') return (
-            <li class="hdr__item hdr__item--sub">
-              <a
-                href={link.href}
-                class:list={['hdr__link', { 'hdr__link--active': isActive(link.href, link.children) }]}
-                aria-haspopup="true"
-              >
-                {link.label}
-                <svg class="hdr__chev" width="11" height="7" viewBox="0 0 11 7" fill="none" aria-hidden="true">
-                  <path d="M1 1l4.5 4.5L10 1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </a>
-              <div class="hdr__dropdown hdr__dropdown--svc" role="menu">
-                <ul class="hdr__drop-list">
-                  {serviciosItems.map((svc) => (
-                    <li role="none">
-                      <a
-                        href={svc.href}
-                        role="menuitem"
-                        class:list={['hdr__drop-link hdr__drop-link--rich', { 'hdr__drop-link--active': currentPath.startsWith(svc.href) }]}
-                      >
-                        <span class="hdr__drop-icon">{svc.icon}</span>
-                        <span class="hdr__drop-body">
-                          <span class="hdr__drop-name">{svc.label}</span>
-                          <span class="hdr__drop-desc">{svc.desc}</span>
-                        </span>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </li>
-          );
-
-          /* ── Resto de items nav ── */
           return (
-            <li class:list={['hdr__item', { 'hdr__item--sub': !!link.children }]}>
+            <li class:list={['hdr__item', { 'hdr__item--sub': hasSub, 'hdr__item--mega': isMega }]}>
               <a
                 href={link.href}
                 class:list={['hdr__link', { 'hdr__link--active': isActive(link.href, link.children) }]}
-                aria-haspopup={link.children ? 'true' : undefined}
+                aria-current={currentPath === link.href ? 'page' : undefined}
+                aria-expanded={hasSub ? 'false' : undefined}
+                aria-controls={hasSub ? subId : undefined}
               >
                 {link.label}
-                {link.children && (
+                {hasSub && (
                   <svg class="hdr__chev" width="11" height="7" viewBox="0 0 11 7" fill="none" aria-hidden="true">
-                    <path d="M1 1l4.5 4.5L10 1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d={chev} stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 )}
               </a>
-              {link.children && (
-                <div class="hdr__dropdown" role="menu">
+
+              {isMega && (
+                <div class="hdr__mega" id={subId}>
+                  <div class="hdr__mega-inner">
+                    {megaCols.map((col) => (
+                      <div class="hdr__mega-col">
+                        {col.map((g) => (
+                          <div class="hdr__mega-group">
+                            <span class="hdr__mega-cat">{g.title}</span>
+                            <ul class="hdr__mega-list">
+                              {g.items.map((it) => (
+                                <li>
+                                  <a
+                                    href={it.href}
+                                    class:list={['hdr__mega-link', { 'hdr__mega-link--active': currentPath.startsWith(it.href) }]}
+                                    aria-current={currentPath === it.href ? 'page' : undefined}
+                                  >
+                                    <span class="hdr__mega-link-name">{it.label}</span>
+                                    <span class="hdr__mega-price">{it.meta}</span>
+                                  </a>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                  <div class="hdr__mega-foot">
+                    <a href="/inflables/" class="hdr__mega-all">
+                      {A.catalogo.full}
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                  </div>
+                </div>
+              )}
+
+              {isSvc && (
+                <div class="hdr__dropdown hdr__dropdown--svc" id={subId}>
+                  <ul class="hdr__drop-list">
+                    {serviciosItems.map((svc) => (
+                      <li>
+                        <a
+                          href={svc.href}
+                          class:list={['hdr__drop-link hdr__drop-link--rich', { 'hdr__drop-link--active': currentPath.startsWith(svc.href) }]}
+                          aria-current={currentPath === svc.href ? 'page' : undefined}
+                        >
+                          <span class="hdr__drop-name">{svc.label}</span>
+                          <span class="hdr__drop-desc">{svc.desc}</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {!isMega && !isSvc && link.children && (
+                <div class="hdr__dropdown" id={subId}>
                   <ul class="hdr__drop-list">
                     {link.children.map((sub) => (
-                      <li role="none">
+                      <li>
                         <a
                           href={sub.href}
-                          role="menuitem"
                           class:list={['hdr__drop-link', { 'hdr__drop-link--active': currentPath === sub.href }]}
+                          aria-current={currentPath === sub.href ? 'page' : undefined}
                         >
-                          <span class="hdr__drop-dot" aria-hidden="true"></span>
-                          {sub.label}
+                          <span class="hdr__drop-name">{sub.label}</span>
                         </a>
                       </li>
                     ))}
@@ -295,136 +284,62 @@ const serviciosItems = [
   {/* Nav items */}
   <ul class="hdr__panel-list">
     {navLinks.map((link) => {
+      const isMega = link.href === '/inflables/';
+      const isSvc  = link.href === '/servicios/';
+      const hasSub = isMega || isSvc || !!link.children;
+      const subId  = `hdr-panel-${link.href.replace(/\W+/g, '') || 'home'}`;
 
-      /* ── INFLABLES — acordeón con categorías ── */
-      if (link.href === '/inflables/') return (
-        <li class="hdr__panel-item hdr__panel-item--sub">
-          <button class="hdr__panel-link hdr__panel-subtoggle" type="button" data-sub>
-            <span>Inflables</span>
-            <svg class="hdr__panel-chev" width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true">
-              <path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </button>
-          <div class="hdr__panel-sub hdr__panel-sub--tall">
-            {/* Más populares */}
-            <span class="hdr__panel-group-label">🔥 Más populares</span>
-            <a href="/inflables/dragones-rojos/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/dragones-rojos/') }]}>
-              <span class="hdr__panel-subdot" aria-hidden="true"></span>
-              <span class="hdr__panel-sub-name">Dragones Rojos</span>
-              <span class="hdr__panel-sub-price">$1,600</span>
-            </a>
-            <a href="/inflables/castillo-princesas/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/castillo-princesas/') }]}>
-              <span class="hdr__panel-subdot" aria-hidden="true"></span>
-              <span class="hdr__panel-sub-name">Castillo de Princesas</span>
-              <span class="hdr__panel-sub-price">$1,800</span>
-            </a>
-            {/* Temáticos */}
-            <span class="hdr__panel-group-label">🌿 Temáticos</span>
-            <a href="/inflables/mini-jungla/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/mini-jungla/') }]}>
-              <span class="hdr__panel-subdot" aria-hidden="true"></span>
-              <span class="hdr__panel-sub-name">Jungla</span>
-              <span class="hdr__panel-sub-price">$1,600</span>
-            </a>
-            <a href="/inflables/gusanitos/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/gusanitos/') }]}>
-              <span class="hdr__panel-subdot" aria-hidden="true"></span>
-              <span class="hdr__panel-sub-name">Gusanitos</span>
-              <span class="hdr__panel-sub-price">$1,600</span>
-            </a>
-            {/* Por tamaño */}
-            <span class="hdr__panel-group-label">📐 Por tamaño</span>
-            <a href="/inflables/mini-castillo/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/mini-castillo/') }]}>
-              <span class="hdr__panel-subdot" aria-hidden="true"></span>
-              <span class="hdr__panel-sub-name">Castillo Baby</span>
-              <span class="hdr__panel-sub-price">$1,400</span>
-            </a>
-            <a href="/inflables/barco-pirata/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/barco-pirata/') }]}>
-              <span class="hdr__panel-subdot" aria-hidden="true"></span>
-              <span class="hdr__panel-sub-name">Barco Pirata</span>
-              <span class="hdr__panel-sub-price">$2,300</span>
-            </a>
-            <a href="/inflables/extremo/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/extremo/') }]}>
-              <span class="hdr__panel-subdot" aria-hidden="true"></span>
-              <span class="hdr__panel-sub-name">Extremo</span>
-              <span class="hdr__panel-sub-price">$2,500</span>
-            </a>
-            {/* Especiales */}
-            <span class="hdr__panel-group-label">💍 Especiales</span>
-            <a href="/inflables/castillo-blanco/" class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith('/inflables/castillo-blanco/') }]}>
-              <span class="hdr__panel-subdot" aria-hidden="true"></span>
-              <span class="hdr__panel-sub-name">Castillo Blanco</span>
-              <span class="hdr__panel-sub-price">$2,600</span>
-            </a>
-            {/* Ver todos */}
-            <a href="/inflables/" class="hdr__panel-sub-viewall">
-              {A.catalogo.full}
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </a>
-          </div>
+      if (!hasSub) return (
+        <li class="hdr__panel-item">
+          <a
+            href={link.href}
+            class:list={['hdr__panel-link', { 'hdr__panel-link--active': isActive(link.href) }]}
+            aria-current={currentPath === link.href ? 'page' : undefined}
+          >
+            {link.label}
+          </a>
         </li>
       );
 
-      /* ── SERVICIOS — acordeón con iconos ── */
-      if (link.href === '/servicios/') return (
+      return (
         <li class="hdr__panel-item hdr__panel-item--sub">
-          <button class="hdr__panel-link hdr__panel-subtoggle" type="button" data-sub>
-            <span>Servicios</span>
+          <button class="hdr__panel-link hdr__panel-subtoggle" type="button" data-sub aria-expanded="false" aria-controls={subId}>
+            <span>{link.label}</span>
             <svg class="hdr__panel-chev" width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true">
               <path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </button>
-          <div class="hdr__panel-sub">
-            {serviciosItems.map((svc) => (
-              <a
-                href={svc.href}
-                class:list={['hdr__panel-sublink hdr__panel-sublink--svc', { 'hdr__panel-sublink--active': currentPath.startsWith(svc.href) }]}
-              >
-                <span class="hdr__panel-svc-icon">{svc.icon}</span>
+          <div class:list={['hdr__panel-sub', { 'hdr__panel-sub--tall': isMega }]} id={subId}>
+            {isMega && panelGroups.map((g) => (
+              <>
+                <span class="hdr__panel-group-label">{g.title}</span>
+                {g.items.map((it) => (
+                  <a href={it.href} class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith(it.href) }]}>
+                    <span class="hdr__panel-sub-name">{it.label}</span>
+                    <span class="hdr__panel-sub-price">{it.meta}</span>
+                  </a>
+                ))}
+              </>
+            ))}
+            {isSvc && serviciosItems.map((svc) => (
+              <a href={svc.href} class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath.startsWith(svc.href) }]}>
                 <span class="hdr__panel-sub-name">{svc.label}</span>
               </a>
             ))}
-            <a href="/servicios/" class="hdr__panel-sub-viewall">
-              {A.servicios.full}
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </a>
-          </div>
-        </li>
-      );
-
-      /* ── Resto de items ── */
-      return (
-        <li class:list={['hdr__panel-item', { 'hdr__panel-item--sub': !!link.children }]}>
-          {link.children ? (
-            <>
-              <button class="hdr__panel-link hdr__panel-subtoggle" type="button" data-sub>
-                <span>{link.label}</span>
-                <svg class="hdr__panel-chev" width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true">
-                  <path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            {!isMega && !isSvc && link.children?.map((sub) => (
+              <a href={sub.href} class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath === sub.href }]}>
+                <span class="hdr__panel-sub-name">{sub.label}</span>
+              </a>
+            ))}
+            {(isMega || isSvc) && (
+              <a href={link.href} class="hdr__panel-sub-viewall">
+                {isMega ? A.catalogo.full : A.servicios.full}
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
                 </svg>
-              </button>
-              <div class="hdr__panel-sub">
-                {link.children.map((sub) => (
-                  <a
-                    href={sub.href}
-                    class:list={['hdr__panel-sublink', { 'hdr__panel-sublink--active': currentPath === sub.href }]}
-                  >
-                    <span class="hdr__panel-subdot" aria-hidden="true"></span>
-                    {sub.label}
-                  </a>
-                ))}
-              </div>
-            </>
-          ) : (
-            <a
-              href={link.href}
-              class:list={['hdr__panel-link', { 'hdr__panel-link--active': isActive(link.href) }]}
-            >
-              {link.label}
-            </a>
-          )}
+              </a>
+            )}
+          </div>
         </li>
       );
     })}
@@ -512,34 +427,81 @@ const serviciosItems = [
     });
   }
 
-  /* ── Accordion móvil ── */
+  /* ── Acordeón móvil ── */
   document.querySelectorAll('[data-sub]').forEach(function (btn) {
     btn.addEventListener('click', function () {
-      this.classList.toggle('hdr__panel-subtoggle--open');
-      var sub = this.nextElementSibling;
-      if (sub) sub.classList.toggle('hdr__panel-sub--open');
+      var open = btn.getAttribute('aria-expanded') !== 'true';
+      btn.setAttribute('aria-expanded', String(open));
+      btn.classList.toggle('hdr__panel-subtoggle--open', open);
+      var sub = document.getElementById(btn.getAttribute('aria-controls'));
+      if (sub) sub.classList.toggle('hdr__panel-sub--open', open);
     });
   });
 
-  /* ── Hover con delay para dropdowns desktop ──
-     Reemplaza :hover CSS para evitar que el dropdown se cierre
-     al mover el cursor diagonalmente del link al panel.
-  ── */
-  var CLOSE_DELAY = 150; // ms de gracia al salir
+  /* ── Desplegables de escritorio ──
+     · Hover con intención: abre a los 80 ms y cierra a los 220 ms, para
+       que no se cierre al cruzar el cursor en diagonal hacia el panel.
+     · Teclado: ↓ o Espacio en el enlace abre y enfoca el primer elemento;
+       Esc cierra y regresa el foco; salir con Tab cierra.
+     · Clic o toque fuera cierra. Solo uno abierto a la vez.
+     · aria-expanded refleja el estado real para lectores de pantalla. */
+  var items = Array.prototype.slice.call(document.querySelectorAll('.hdr__item--sub'));
 
-  document.querySelectorAll('.hdr__item--sub, .hdr__item--mega').forEach(function (item) {
-    var timer;
+  function setOpen(item, open) {
+    item.classList.toggle('hdr__item--open', open);
+    var trigger = item.querySelector('.hdr__link');
+    if (trigger) trigger.setAttribute('aria-expanded', String(open));
+    /* Panel cerrado = fuera del orden de Tab (sigue en el DOM para SEO) */
+    var panel = item.querySelector('.hdr__mega, .hdr__dropdown');
+    if (panel) panel.inert = !open;
+  }
+  function closeAll(except) {
+    items.forEach(function (it) { if (it !== except) setOpen(it, false); });
+  }
+  closeAll(null);   // estado inicial: todos cerrados e inert
+
+  items.forEach(function (item) {
+    var openTimer, closeTimer;
+    var trigger = item.querySelector('.hdr__link');
 
     item.addEventListener('mouseenter', function () {
-      clearTimeout(timer);
-      item.classList.add('hdr__item--open');
+      clearTimeout(closeTimer);
+      openTimer = setTimeout(function () { closeAll(item); setOpen(item, true); }, 80);
+    });
+    item.addEventListener('mouseleave', function () {
+      clearTimeout(openTimer);
+      closeTimer = setTimeout(function () { setOpen(item, false); }, 220);
     });
 
-    item.addEventListener('mouseleave', function () {
-      timer = setTimeout(function () {
-        item.classList.remove('hdr__item--open');
-      }, CLOSE_DELAY);
+    item.addEventListener('focusin', function () {
+      if (item.classList.contains('hdr__item--dismissed')) return;   // tras Esc, el foco vuelve sin reabrir
+      closeAll(item); setOpen(item, true);
     });
+    item.addEventListener('focusout', function (e) {
+      if (!item.contains(e.relatedTarget)) {
+        setOpen(item, false);
+        item.classList.remove('hdr__item--dismissed');
+      }
+    });
+
+    item.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        item.classList.add('hdr__item--dismissed');   // antes del focus: evita que focusin lo reabra
+        setOpen(item, false);
+        if (trigger) trigger.focus();
+      } else if (e.target === trigger && (e.key === 'ArrowDown' || e.key === ' ')) {
+        e.preventDefault();
+        item.classList.remove('hdr__item--dismissed');
+        setOpen(item, true);
+        var first = item.querySelector('.hdr__mega a, .hdr__dropdown a');
+        if (first) first.focus();
+      }
+    });
+    item.addEventListener('mouseleave', function () { item.classList.remove('hdr__item--dismissed'); });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.hdr__item--sub')) closeAll(null);
   });
 
   /* El header ya NO es fijo: sin shrink ni auto-hide en scroll.

@@ -10,7 +10,7 @@
    Variables internas
    ══════════════════════════════════════════ */
 :root {
-  --hdr-primary:    var(--c-primary-text);
+  --hdr-primary:    var(--c-ink);   /* estado activo/hover del menú: tinta, no naranja */
   --hdr-text:       var(--c-ink);
   --hdr-text-muted: var(--c-ink-60);
   --hdr-border:     var(--c-line);
@@ -119,255 +119,192 @@
 }
 
 .hdr__chev {
-  opacity: 0.5;
+  opacity: 0.55;
   flex-shrink: 0;
+  transition: transform 0.18s ease;
 }
-
-.hdr__item--sub.hdr__item--open .hdr__chev,
-.hdr__item--sub:focus-within .hdr__chev,
-.hdr__item--mega.hdr__item--open .hdr__chev,
-.hdr__item--mega:focus-within .hdr__chev {
+.hdr__item--open > .hdr__link .hdr__chev {
   transform: rotate(180deg);
   opacity: 1;
-  color: var(--hdr-primary);
+}
+.hdr__item--open > .hdr__link {
+  background: var(--c-canvas);
 }
 
 /* ══════════════════════════════════════════
-   Dropdown genérico
+   Paneles desplegables (Servicios y Mega)
+   ──────────────────────────────────────────
+   El estado lo controla el JS del componente con .hdr__item--open
+   (hover con intención, teclado, clic fuera). Sin íconos: jerarquía solo
+   con tipografía, aire y una línea fina entre bloques.
    ══════════════════════════════════════════ */
-.hdr__dropdown {
+.hdr__dropdown,
+.hdr__mega {
   position: absolute;
-  top: calc(100% + 4px);
-  left: 50%;
-  transform: translateX(-50%);
-  min-width: 210px;
+  top: calc(100% + 10px);
+  z-index: 9999;
   background: #fff;
-  border-radius: 20px;
   border: 1px solid var(--c-line);
-  box-shadow: var(--shadow-md);
-  padding: 0.5rem;
+  border-radius: 24px;
+  box-shadow: var(--shadow-lg);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  z-index: 9999;
-  overflow: hidden;
+  transform: translateY(-4px);
+  transition: opacity 0.16s ease, transform 0.16s ease, visibility 0s linear 0.16s;
 }
-
-.hdr__dropdown::before {
-  content: '';
-  display: block;
-  height: 3px;
-  background: transparent;
-  border-radius: 3px 3px 0 0;
-  margin: -0.5rem -0.5rem 0.5rem;
+/* Puente invisible: el cursor no "cae" en el hueco entre enlace y panel */
+.hdr__dropdown::before,
+.hdr__mega::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -12px;
+  height: 12px;
 }
-
-.hdr__item--sub.hdr__item--open .hdr__dropdown,
-.hdr__item--sub:focus-within .hdr__dropdown {
+.hdr__item--open > .hdr__dropdown,
+.hdr__item--open > .hdr__mega {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  transform: translateY(0);
+  transition: opacity 0.16s ease, transform 0.16s ease;
 }
 
+/* ── Desplegable (Servicios) ── */
+.hdr__dropdown {
+  left: 50%;
+  translate: -50% 0;
+  min-width: 240px;
+  padding: 0.6rem;
+}
+.hdr__dropdown--svc {
+  width: min(560px, calc(100vw - 2rem));
+}
 .hdr__drop-list {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 2px;
 }
-
-/* Link genérico de dropdown */
+.hdr__dropdown--svc .hdr__drop-list {
+  grid-template-columns: 1fr 1fr;
+}
 .hdr__drop-link {
-  display: flex;
-  align-items: center;
-  gap: 0.65rem;
-  padding: 0.55rem 0.85rem;
-  border-radius: 12px;
-  font-size: 0.86rem;
-  font-weight: 600;
-  color: var(--hdr-text);
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.hdr__drop-link:hover,
-.hdr__drop-link--active {
-  background: var(--c-canvas);
-  color: var(--hdr-primary);
-}
-
-.hdr__drop-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--c-durazno);
-  flex-shrink: 0;
-}
-
-.hdr__drop-link:hover .hdr__drop-dot,
-.hdr__drop-link--active .hdr__drop-dot {
-  background: var(--hdr-primary);
-}
-
-/* ── Dropdown Servicios — más ancho, con icono + desc ── */
-.hdr__dropdown--svc {
-  min-width: 290px;
-}
-
-.hdr__drop-link--rich {
-  align-items: flex-start;
-  gap: 0.75rem;
-  padding: 0.6rem 0.85rem;
-  white-space: normal;
-}
-
-.hdr__drop-icon {
-  font-size: 1.25rem;
-  line-height: 1;
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-
-.hdr__drop-body {
   display: flex;
   flex-direction: column;
   gap: 0.15rem;
-}
-
-.hdr__drop-name {
-  font-size: 0.875rem;
-  font-weight: 700;
+  padding: 0.7rem 0.9rem;
+  border-radius: 14px;
+  text-decoration: none;
   color: var(--hdr-text);
-  display: block;
 }
-
+.hdr__drop-link:hover,
+.hdr__drop-link:focus-visible {
+  background: var(--c-canvas);
+}
+.hdr__drop-link--active {
+  background: var(--c-mango);
+}
+.hdr__drop-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--hdr-text);
+}
 .hdr__drop-desc {
-  font-size: 0.75rem;
+  font-size: 0.78rem;
+  line-height: 1.4;
   color: var(--hdr-text-muted);
-  display: block;
-  font-weight: 400;
 }
 
-.hdr__drop-link--rich:hover .hdr__drop-name,
-.hdr__drop-link--active .hdr__drop-name {
-  color: var(--hdr-primary);
-}
-
-/* ══════════════════════════════════════════
-   MEGA-MENU — Inflables
-   ══════════════════════════════════════════ */
+/* ── Mega-menú (Inflables) ── */
 .hdr__mega {
-  position: absolute;
-  top: calc(100% + 4px);
   left: 0;
-  width: min(480px, calc(100vw - 2rem));
-  background: #fff;
-  border-radius: 20px;
-  border: 1px solid var(--c-line);
-  box-shadow: var(--shadow-md);
+  width: min(600px, calc(100vw - 2rem));
   overflow: hidden;
-  padding-top: 4px;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  z-index: 9999;
 }
-
-/* Gradient accent bar */
-.hdr__mega::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: transparent;
-  z-index: 1;
-}
-
-.hdr__item--mega.hdr__item--open .hdr__mega,
-.hdr__item--mega:focus-within .hdr__mega {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
 .hdr__mega-inner {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
-/* Columnas de inflables */
 .hdr__mega-col {
-  padding: 1.25rem;
   display: flex;
   flex-direction: column;
-  gap: 2px;
-  border-right: 1px solid var(--c-line);
+  gap: 1.1rem;
+  padding: 1.4rem 1.25rem 1.25rem;
 }
-
-/* Label de categoría — NO es clickeable */
+.hdr__mega-col + .hdr__mega-col {
+  border-left: 1px solid var(--c-line);
+}
 .hdr__mega-cat {
   display: block;
-  font-size: 0.67rem;
-  font-weight: 800;
+  padding: 0 0.6rem 0.4rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
   color: var(--hdr-text-muted);
-  padding: 0.75rem 0.5rem 0.3rem;
-  user-select: none;
-  cursor: default;
 }
-
-.hdr__mega-col .hdr__mega-cat:first-child {
-  padding-top: 0.25rem;
+.hdr__mega-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 2px;
 }
-
-/* Link individual de inflable */
 .hdr__mega-link {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
-  gap: 0.5rem;
-  padding: 0.42rem 0.6rem;
-  border-radius: 10px;
+  gap: 1rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: 12px;
   text-decoration: none;
   color: var(--hdr-text);
 }
-
-.hdr__mega-link:hover {
+.hdr__mega-link:hover,
+.hdr__mega-link:focus-visible {
   background: var(--c-canvas);
-  color: var(--hdr-primary);
 }
-
 .hdr__mega-link--active {
-  background: var(--c-canvas);
-  color: var(--hdr-primary);
-}
-
-.hdr__mega-link-name {
-  font-size: 0.875rem;
-  font-weight: 600;
-  flex: 1;
-}
-
-.hdr__mega-price {
-  font-size: 0.72rem;
-  font-weight: 700;
-  color: var(--hdr-text-muted);
-  background: var(--c-canvas);
-  padding: 0.15rem 0.5rem;
-  border-radius: var(--r-btn);
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-
-.hdr__mega-link:hover .hdr__mega-price,
-.hdr__mega-link--active .hdr__mega-price {
   background: var(--c-mango);
-  color: var(--c-ink);
+}
+.hdr__mega-link-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.hdr__mega-price {
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  color: var(--hdr-text-muted);
+}
+.hdr__mega-foot {
+  border-top: 1px solid var(--c-line);
+  background: var(--c-canvas);
+  padding: 0.85rem 1.85rem;
+}
+.hdr__mega-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--hdr-text);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--c-primary);
+  text-underline-offset: 4px;
+}
+.hdr__mega-all svg { transition: transform 0.18s ease; }
+.hdr__mega-all:hover svg { transform: translateX(3px); }
+
+@media (prefers-reduced-motion: reduce) {
+  .hdr__dropdown, .hdr__mega, .hdr__chev { transition: none; }
 }
 
 /* ══════════════════════════════════════════
@@ -628,7 +565,7 @@
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.09em;
-  color: var(--hdr-primary);
+  color: var(--hdr-text-muted);
   padding: 0.7rem 1.5rem 0.2rem 2rem;
   user-select: none;
   cursor: default;
@@ -637,7 +574,7 @@
 /* Separador entre grupos */
 .hdr__panel-group-label:not(:first-child) {
   margin-top: 0.25rem;
-  border-top: 1px dashed var(--c-line-strong);
+  border-top: 1px solid var(--c-line);
   padding-top: 0.75rem;
 }
 
@@ -650,27 +587,14 @@
   padding: 0 1.25rem 0 2rem;
   font-size: 0.875rem;
   font-weight: 500;
-  color: var(--hdr-text-muted);
+  color: var(--hdr-text);
   text-decoration: none;
 }
 
 .hdr__panel-sublink:hover,
 .hdr__panel-sublink--active {
   color: var(--hdr-primary);
-  background: var(--c-canvas);
-}
-
-.hdr__panel-subdot {
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--c-line-strong);
-  flex-shrink: 0;
-}
-
-.hdr__panel-sublink:hover .hdr__panel-subdot,
-.hdr__panel-sublink--active .hdr__panel-subdot {
-  background: var(--hdr-primary);
+  background: var(--c-mango);
 }
 
 /* Price badge in mobile sublinks */
@@ -682,10 +606,11 @@
   font-size: 0.72rem;
   font-weight: 700;
   color: var(--hdr-text-muted);
-  background: var(--c-canvas);
+  background: transparent;
   padding: 0.1rem 0.45rem;
   border-radius: var(--r-btn);
   flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
 }
 
 .hdr__panel-sublink:hover .hdr__panel-sub-price,
@@ -695,15 +620,6 @@
 }
 
 /* Servicios — con icono */
-.hdr__panel-sublink--svc {
-  padding-left: 1.5rem;
-  gap: 0.7rem;
-}
-
-.hdr__panel-svc-icon {
-  font-size: 1.15rem;
-  flex-shrink: 0;
-}
 
 /* Ver todos link */
 .hdr__panel-sub-viewall {
@@ -715,9 +631,12 @@
   font-size: 0.82rem;
   font-weight: 700;
   color: var(--hdr-primary);
-  text-decoration: none;
+  text-decoration: underline;
   border-top: 1px solid var(--c-line);
   margin-top: 0.25rem;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--c-primary);
+  text-underline-offset: 4px;
 }
 
 .hdr__panel-sub-viewall:hover {
