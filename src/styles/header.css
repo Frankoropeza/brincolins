@@ -32,13 +32,6 @@
   background: transparent;
 }
 .hdr__inner {
-  background: #fff;
-  border-bottom: 1px solid var(--c-line);
-  border-radius: 0 0 32px 32px;
-  box-shadow: 0 10px 30px -18px rgba(23, 21, 43, 0.35);
-}
-
-.hdr__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -47,6 +40,10 @@
   max-width: var(--container-max);
   margin: 0 auto;
   padding: 8px var(--container-px);
+  background: #fff;
+  border-bottom: 1px solid var(--c-line);
+  border-radius: 0 0 32px 32px;
+  box-shadow: 0 10px 30px -18px rgba(23, 21, 43, 0.35);
 }
 
 /* ══════════════════════════════════════════
@@ -334,7 +331,7 @@
 }
 
 .hdr__wa-btn:hover {
-  background: #BDEBD6;
+  background: var(--c-menta-hover);
 }
 
 .hdr__cta {
@@ -354,7 +351,7 @@
 }
 
 .hdr__cta:hover {
-  background: #C62800;
+  background: var(--c-primary-hover);
   transform: translateY(-2px);
 }
 
@@ -671,7 +668,7 @@
 }
 
 .hdr__panel-cta:hover {
-  background: #C62800;
+  background: var(--c-primary-hover);
   transform: translateY(-2px);
 }
 
@@ -692,7 +689,7 @@
 }
 
 .hdr__panel-wa:hover {
-  background: #BDEBD6;
+  background: var(--c-menta-hover);
 }
 
 .hdr__panel-phone {
@@ -758,14 +755,13 @@
      el cliente). El acceso persistente a conversión en móvil son la
      WaBubble flotante (abajo-derecha) y la TopBar superior. */
   .hdr__nav, .hdr__wa-btn, .hdr__cta { display: none; }
-  .hdr__toggle { display: flex; }
   .hdr__panel { display: flex; }
   :root { --hdr-logo-h: 74px; }
 
   /* La hamburguesa crece con el logo: con un logo de 74px, un botón de
      42px se veía huérfano en la esquina. 48px además cumple el mínimo
      de área táctil sin depender del padding del contenedor. */
-  .hdr__toggle { width: 48px; height: 48px; border-radius: 12px; }
+  .hdr__toggle { display: flex; width: 48px; height: 48px; border-radius: 12px; }
 }
 
 @media (max-width: 640px) {

@@ -165,13 +165,13 @@ const schemaList = {
   <QuickNav />
 
   <!-- Municipios cubiertos -->
-  <section class="section" style="padding-top:0; padding-bottom:2rem;">
+  <section class="section section--band">
     <div class="container">
       <div class="dir-tip">
         <div class="dir-tip__icon"></div>
         <div class="dir-tip__content">
           <p class="dir-tip__title">Municipios con salones en este directorio</p>
-          <div class="coverage__badges" style="margin-top:0.5rem;">
+          <div class="coverage__badges dir-tip__badges">
             {salones.map(s => <span class="coverage__badge">{s.zone}</span>)}
           </div>
         </div>
@@ -222,10 +222,10 @@ const schemaList = {
 
   <!-- Navegación entre zonas -->
   <section class="section">
-    <div class="container" style="text-align:center;">
-      <p style="font-family:var(--font-head); font-weight:800; font-size:1.1rem; margin-bottom:0.5rem;">¿Buscas salones en otra zona?</p>
-      <p style="color:var(--c-text-muted); margin-bottom:1.5rem;">También tenemos directorio de salones en la Ciudad de México.</p>
-      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+    <div class="container text-center">
+      <p class="dir-nav__title">¿Buscas salones en otra zona?</p>
+      <p class="dir-nav__text">También tenemos directorio de salones en la Ciudad de México.</p>
+      <div class="dir-nav__actions">
         <a href="/directorio/cdmx/" class="btn btn-primary btn-lg">Salones de fiestas infantiles en CDMX</a>
         <a href="/directorio/" class="btn btn-outline btn-lg">Volver al directorio</a>
       </div>

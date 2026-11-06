@@ -253,7 +253,7 @@ const faqs = [
         {porEdad.map(e => (
           <div class="why-card">
             <div class="why-card__img">
-              <img src={e.img} alt={`Inflable para niños de ${e.rango} — ${e.title}`} width="400" height="225" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+              <img class="img-cover" src={e.img} alt={`Inflable para niños de ${e.rango} — ${e.title}`} width="400" height="225" loading="lazy" />
               <span class="edad-chip">{e.rango}</span>
             </div>
             <div class="why-card__body">
@@ -375,7 +375,7 @@ const faqs = [
         {proceso.map(p => (
           <div class="why-card">
             <div class="why-card__img">
-              <img src={p.img} alt={p.title} width="400" height="225" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+              <img class="img-cover" src={p.img} alt={p.title} width="400" height="225" loading="lazy" />
               <span class="proc-num">{p.n}</span>
             </div>
             <div class="why-card__body">
@@ -420,7 +420,7 @@ const faqs = [
         {guias.map(g => (
           <a href={g.href} class="why-card guia-card">
             <div class="why-card__img">
-              <img src={g.img} alt={g.title} width="400" height="225" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+              <img class="img-cover" src={g.img} alt={g.title} width="400" height="225" loading="lazy" />
             </div>
             <div class="why-card__body">
               <h3 class="why-card__title">{g.title}</h3>

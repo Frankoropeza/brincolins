@@ -80,12 +80,6 @@ img, picture, video, svg, iframe { max-width: 100%; }
 @media (max-width: 640px) {
   .hero { padding-top: 2rem !important; padding-bottom: 2.25rem !important; }
 
-  /* Ago 2026 — el H1 rompía en renglones arbitrarios ("Renta de Inflables /
-     y Brincolines para / Fiestas en CDMX"): el navegador parte donde cae,
-     no donde el sentido lo pide. `balance` reparte el texto entre líneas
-     de ancho parecido y respeta las unidades de significado. */
-  .hero__title { text-wrap: balance; }
-  .hero__desc, .hero__copy-text { text-wrap: pretty; }
   .hero__badge {
     font-size: 0.7rem !important;
     padding: 0.35rem 0.875rem !important;
@@ -355,17 +349,6 @@ img, picture, video, svg, iframe { max-width: 100%; }
 
 
 /* ──────────────────────────────────────────────────────────────────
-   22. HAMBURGER — touch target 44px
-   ────────────────────────────────────────────────────────────────── */
-@media (max-width: 900px) {
-  .hdr__toggle {
-    width: 44px !important;
-    height: 44px !important;
-  }
-}
-
-
-/* ──────────────────────────────────────────────────────────────────
    23. BLOG — featured card y grid apilados con imagen contenida
    ────────────────────────────────────────────────────────────────── */
 @media (max-width: 640px) {
@@ -380,11 +363,14 @@ img, picture, video, svg, iframe { max-width: 100%; }
 
 /* ──────────────────────────────────────────────────────────────────
    24. WHATSAPP BUBBLE — único CTA flotante del sitio
-       Circular, esquina inferior derecha, respetando home indicator.
+       Circular, esquina inferior derecha, por encima de la safe-area.
+       Sin tooltip: «Cotizar ahora» pisaba el texto de la columna
+       derecha. El body reserva un hueco al final para que el círculo
+       nunca tape el último elemento interactivo.
    ────────────────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .wa-bubble {
-    bottom: max(1rem, env(safe-area-inset-bottom));
+    bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
     right: 1rem;
   }
   .wa-bubble__btn {
@@ -392,17 +378,7 @@ img, picture, video, svg, iframe { max-width: 100%; }
     height: 52px;
   }
   .wa-bubble__tooltip { display: none; }
-}
-
-
-/* ──────────────────────────────────────────────────────────────────
-   25. SAFE-AREA iOS — notch + landscape
-   ────────────────────────────────────────────────────────────────── */
-@supports (padding: max(0px)) {
-  .container {
-    padding-left:  max(var(--container-px), env(safe-area-inset-left));
-    padding-right: max(var(--container-px), env(safe-area-inset-right));
-  }
+  body { padding-bottom: 4.5rem; }
 }
 
 
@@ -584,30 +560,6 @@ img, picture, video, svg, iframe { max-width: 100%; }
 
 
 /* ══════════════════════════════════════════════════════════════════
-   33. BURBUJA DE WHATSAPP — dejar de tapar contenido
-   ──────────────────────────────────────────────────────────────────
-   En móvil el círculo flotante se superponía a los chips del QuickNav
-   (recortaba "Cobertura" a "Cobertur") y al badge de la foto de
-   producto. Se sube por encima de la safe-area y se reserva un hueco
-   al final del documento para que nunca quede encima del último
-   elemento interactivo.
-   ══════════════════════════════════════════════════════════════════ */
-@media (max-width: 768px) {
-  .wa-bubble {
-    bottom: calc(1rem + env(safe-area-inset-bottom, 0px)) !important;
-    right: 1rem !important;
-  }
-
-  /* El tooltip "Cotizar ahora" pisaba el texto de la columna derecha. */
-  .wa-bubble span:not([class]) {
-    display: none !important;
-  }
-
-  body { padding-bottom: 4.5rem; }
-}
-
-
-/* ══════════════════════════════════════════════════════════════════
    34. BADGE DE CATEGORÍA — recorte en la home móvil
    ──────────────────────────────────────────────────────────────────
    Medido en 390px: .cat-card__badge de "Medianos" se extendía 78px
@@ -738,4 +690,25 @@ img, picture, video, svg, iframe { max-width: 100%; }
     background-repeat: no-repeat;
     background-attachment: local, scroll;
   }
+}
+
+
+/* ── Cobertura / Directorio: rejilla de ZONAS a 2 columnas en móvil ──────
+   Las ZonaCard son .product-card completas; a 1 columna la página de
+   cobertura medía ~22,000px. En 2 columnas compactas (sin descripción)
+   se navega mucho mejor. Solo afecta rejillas marcadas .zonas-grid — el
+   catálogo (.grid-4 sin la marca) sigue a 1 columna en móvil chico. */
+@media (max-width: 640px) {
+  .zonas-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 0.75rem !important; }
+  .zonas-grid .product-card__desc { display: none; }
+  .zonas-grid .product-card__body { padding: 0.8rem 0.85rem 0.9rem !important; gap: 0.5rem; }
+  .zonas-grid .product-card__name { font-size: 0.98rem !important; }
+  .zonas-grid .product-card__info { gap: 0.3rem !important; }
+  .zonas-grid .product-card__tag { font-size: 0.66rem !important; padding: 0.15rem 0.5rem !important; }
+  .zonas-grid .product-card__actions { margin-top: 0.25rem; }
+  .zonas-grid .product-card__actions .btn { width: 100%; justify-content: center; }
+}
+@media (max-width: 360px) {
+  .zonas-grid { gap: 0.6rem !important; }
+  .zonas-grid .product-card__name { font-size: 0.9rem !important; }
 }

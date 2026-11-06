@@ -292,7 +292,7 @@ const serviceSchema = {
         copy1={`Conocemos la vialidad y los accesos en ${zonePhrase}. Nuestros equipos planifican la ruta con anticipación para llegar a tiempo, sin importar el tipo de colonia o fraccionamiento.`}
         copy2="Para zonas con calles angostas o accesos controlados, coordinamos de antemano. Tu comodidad y la puntualidad de entrega son nuestra prioridad."
       />
-      <div class="grid-3" style="max-width:900px;margin:0 auto;">
+      <div class="grid-3 narrow--wide">
         <div class="why-card">
           <div class:list={["why-card__img", hasFee ? "why-card__img--fee" : "why-card__img--free"]}>
             <span class="why-card__img-label" style={hasFee ? "font-size:1.35rem;" : undefined}>{feeLabel}</span>
@@ -335,7 +335,7 @@ const serviceSchema = {
           copy1={`En ${zonePhrase} los espacios varían mucho: desde jardines amplios hasta patios más compactos. Tenemos el modelo correcto para cada situación.`}
           copy2="¿No sabes cuál elegir? Mándanos una foto de tu espacio por WhatsApp y te recomendamos el inflable ideal para tu evento."
         />
-        <div class="grid-3" style="max-width:900px;margin:0 auto;">
+        <div class="grid-3 narrow--wide">
           {zone.inflablesRec.map(rec => (
             <a href={rec.href} class="inflable-rec-card">
               <div class="inflable-rec-card__head">

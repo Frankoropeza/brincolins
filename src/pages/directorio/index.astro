@@ -97,7 +97,7 @@ const directorySchema = {
   <QuickNav />
 
   <!-- Tip banner -->
-  <section class="section" style="padding-top:0; padding-bottom:2rem;">
+  <section class="section section--band">
     <div class="container">
       <div class="dir-tip">
         <div class="dir-tip__icon"></div>
@@ -120,7 +120,7 @@ const directorySchema = {
         copy1="Nuestro directorio está organizado por zona geográfica para facilitarte la búsqueda. Cada sección incluye salones verificados con información completa: dirección, capacidad, precios, teléfono y servicios incluidos."
         copy2="Todos los salones del directorio permiten inflables externos. <strong>BRINCOLINS</strong> entrega e instala el inflable directamente en el salón que elijas, sin complicaciones."
       />
-      <div class="grid-2" style="max-width:1000px; margin:0 auto;">
+      <div class="grid-2 narrow--wide">
         {categorias.map(c => (
           <a href={c.href} class="dir-zone-card">
             <div class="dir-zone-card__header">

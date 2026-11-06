@@ -268,7 +268,7 @@ const schemaLD = {
         copy2="El importe está publicado en la página de cada zona y te lo confirmamos al cotizar por WhatsApp, antes de que apartes la fecha. Es el único concepto que se suma al precio del inflable: instalación, motor inflador y retiro van incluidos."
       />
 
-      <div class="grid-3" style="max-width:960px; margin:0 auto;">
+      <div class="grid-3 narrow--wide">
         <div class="envio-card">
           <div class="envio-card__icon" aria-hidden="true"></div>
           <h3 class="envio-card__title">Zona A — sin cargo</h3>
@@ -289,7 +289,7 @@ const schemaLD = {
         </div>
       </div>
 
-      <p style="text-align:center; margin-top:2rem; color:var(--c-text-muted); font-size:.9rem;">
+      <p class="envio-nota">
         * Dentro de cada zona el importe varía según la colonia. En {listaDe(segunZona)} el costo de traslado se confirma al cotizar con tu dirección.
       </p>
     </div>
@@ -409,4 +409,5 @@ const schemaLD = {
   line-height: 1.6;
   margin: 0;
 }
+  .envio-nota { margin-top: 2rem; text-align: center; font-size: .9rem; color: var(--c-text-muted); }
 </style>
