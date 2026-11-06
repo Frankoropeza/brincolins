@@ -155,6 +155,8 @@ Un adulto cronometra con el celular y otro anota en una cartulina negra con plum
 
 ¿Vienen bebés de 1 a 3 años? No entran al circuito. Para ellos está el [Castillo Baby como dojo de los más chiquitos](/inflables/mini-castillo/), que mide 2.5 × 2 × 2 m y cuesta **$1,400**.
 
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+
 ## ¿Qué decoración negro y rojo necesita una fiesta ninja?
 
 Necesita poca, porque el circuito ya ocupa el centro visual. Con negro y rojo como base y cinco elementos bien puestos, tu jardín se convierte en dojo sin gastar en arcos ni escenografías. Concentra la decoración en la entrada y en la mesa del pastel.
@@ -230,6 +232,8 @@ La diferencia está en la prueba final. Sin doble carril, deja de ser carrera y 
 | Precio neto por evento | $2,500 | $1,600 |
 
 Con el [inflable Dragones Rojos](/inflables/dragones-rojos/), el paquete fiesta de **$2,800** incluye el inflable, una mesa con 10 sillitas y una pintacaritas; la pintacaritas sólo viene dentro de los [paquetes de fiesta con mesa incluida](/servicios/paquetes-de-fiesta/). Si te quedas con el Extremo y quieres mesa para los chicos, la [mesa infantil con sillas](/servicios/mobiliario-para-fiestas/) cuesta **$550** rentada junto con el inflable.
+
+![Inflable Dragones Rojos instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/dragones-rojos/dragones-rojos-jardin-eventos.avif "Dragones Rojos en un jardín de eventos")
 
 El mismo dojo se adapta a otros formatos: un [festejo conjunto de hermanos](/blog/fiesta-de-gemelos-o-hermanos-con-inflable/) o el [family day con área infantil para los hijos del equipo](/blog/family-day-empresa-inflables-para-hijos/).
 

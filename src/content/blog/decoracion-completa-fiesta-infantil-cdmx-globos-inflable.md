@@ -59,6 +59,8 @@ Antes de elegir la decoración, hay que tener claro el tema. No porque sea un re
 
 El tema más solicitado para niños de 4 a 8 años en los últimos dos años. Hay algo en los dinosaurios que trasciende generaciones. Los colores dominantes son verde oscuro, café, naranja y rojo. El inflable ideal es la [Jungla](/inflables/mini-jungla/) ($1,600, de 3 a 8 años) o el [Extremo](/inflables/extremo/) ($2,500, de 3 a 12 años). DEGLOB crea arcos con globos verdes y cromados dorados que simulan la vegetación prehistórica, y cuando el aire mueve ligeramente los globos orgánicos, hay un momento en que el jardín entero parece Jurassic Park.
 
+![Inflable Jungla instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-jungla/mini-jungla-jardin-eventos.avif "Jungla en un jardín de eventos")
+
 ### 2. Unicornios y fantasía
 
 Uno de los favoritos para niñas de 4 a 7 años. La paleta es todo el arcoíris en tonos pastel más cromados rosados y dorados. Combina perfectamente con el [Castillo de Princesas](/inflables/castillo-princesas/) ($1,800, para niños de 2 a 10 años); si la festejada tiene de 1 a 3 años, el modelo es el Castillo Baby. Los backdrops de DEGLOB en este tema suelen incluir telas iridiscentes que capturan la luz de una forma que las fotos no alcanzan a mostrar.

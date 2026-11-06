@@ -139,6 +139,8 @@ Antes de elegir, pide a las familias invitadas cuántos niños llevarán y de qu
 
 Para la mayoría de las fiestas de adultos con niños de varias edades, el [inflable Gusanitos para grupos mezclados](/inflables/gusanitos/) es una elección práctica: sus túneles con varias entradas y salidas evitan filas largas y funcionan con edades de 2 a 8 años. Si la mayoría son bebés y niños que apenas caminan, el [Castillo Baby para niños de 1 a 3 años](/inflables/mini-castillo/) es el adecuado por tamaño y altura. Puedes ver todas las opciones en la [categoría de inflables para niños](/inflables/para-ninos/).
 
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
+
 ### ¿Y si hay bebés y niños de 10 años al mismo tiempo?
 
 Es lo más común en fiestas de adultos. Hay dos caminos: rentar un solo inflable y separar turnos por edad, o sumar un Castillo Baby para los más pequeños junto a un modelo mediano o grande para los mayores. La segunda opción requiere más espacio y, sobre todo, más supervisión: un adulto por inflable. La [renta de inflables para eventos](/servicios/inflables-para-eventos/) permite cotizar ambos en una sola solicitud.

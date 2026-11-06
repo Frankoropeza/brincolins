@@ -118,6 +118,8 @@ Te sirven el jardín con pasto, el pasto sintético y el adoquín o concreto pla
 
 Si el único espacio disponible es techado, el [Gusanitos, circuito de túneles apto para interiores](/inflables/gusanitos/), recibe niños de 2 a 8 años. Para bebés en un salón pequeño está el [Castillo Baby de 2.5 × 2 m](/inflables/mini-castillo/). Así tienes plan B y no pierdes la fiesta por el clima ni por el reglamento.
 
+![Inflable Gusanitos instalado en el área verde común de una privada](/img/inflables/gusanitos/gusanitos-privada-condominio.avif "Gusanitos en el área común de una privada")
+
 ### Pasto sintético y adoquín, los pisos de las privadas nuevas
 
 Son los pisos más comunes en privadas recientes. ¿Es tu caso? Los dos sirven, pero cambia el anclaje: en pasto natural se usan estacas; en superficies duras, lastre o sacos. En pasto sintético depende de lo que permita la administración. El detalle de cada piso está en la guía de [anclaje sobre pasto sintético, adoquín o cemento](/blog/donde-instalar-inflable-pasto-cemento-tierra/).

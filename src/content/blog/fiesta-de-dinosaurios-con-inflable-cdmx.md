@@ -161,6 +161,8 @@ Cuántos niños entran por turno lo confirmamos al cotizar, y esa cifra se respe
 
 Siempre aparecen. El Jungla arranca en 3 años, así que no los metas «un ratito» aunque lloren en la entrada. Tu hijo va a querer a todos sus primos adentro, pero un turno bien separado por edades te ahorra llantos, golpes y la discusión con la tía que insiste en meter al bebé. Para ellos existe el [Castillo Baby para los hermanitos de la expedición](/inflables/mini-castillo/), de 2.5 × 2 × 2 m, para niños de 1 a 3 años, a $1,400. Si el festejado cumple 4 y sus invitados son de kínder, revisa también [cómo organizar una fiesta de 4 años](/blog/fiesta-de-4-anos-ideas-inflable-cdmx/).
 
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+
 ## ¿Qué menú de dinosaurios se resuelve sólo con letreros?
 
 No cambies la comida: cambia la etiqueta. Un letrero de cartulina junto a cada platillo hace más por la temática que cualquier pastel esculpido. Y te ahorra cocinar algo especial la víspera, cuando ya tienes la cabeza llena.
@@ -196,6 +198,8 @@ Pon una alarma para cada cambio. Quien lleva el tiempo no debe ser quien cuida l
 Si el tema es dinosaurios, el Jungla es la opción directa: trae dinosaurios y palmeras y no hay nada que explicar. Los dos modelos cuestan $1,600, son para niños de 3 a 8 años y van sólo en exterior. Cambian el diseño y la altura libre.
 
 Los [Dragones Rojos, con dos dragones de unos 3 m](/inflables/dragones-rojos/), son el modelo más rentado, con resbaladilla integrada y mallas de seguridad laterales. Miden 5 × 3 × 2.80 m y piden 4.5 m de altura libre, contra 4.2 m del Jungla. Si tu espacio tiene la altura justa, esos 30 centímetros deciden.
+
+![Inflable Dragones Rojos instalado en el área verde común de una privada](/img/inflables/dragones-rojos/dragones-rojos-privada-condominio.avif "Dragones Rojos en el área común de una privada")
 
 ¿El festejado mezcla dinosaurios con dragones y castillos? Entonces los Dragones Rojos también funcionan. Para ver todos los diseños con historia propia entra al [catálogo de inflables con temática](/inflables/tematicos/). Y si la fiesta podría terminar bajo techo, compara antes [Jungla o Gusanitos según tu espacio](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/).
 

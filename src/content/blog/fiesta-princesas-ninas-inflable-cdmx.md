@@ -50,6 +50,8 @@ Las princesas siguen siendo una de las temáticas favoritas para **fiestas infan
 
 En los eventos que atendemos en la **CDMX y la zona metropolitana**, las princesas son la temática que más nos piden cuando la festejada es niña. Las familias buscan un ambiente coherente, y el [castillo de princesas inflable](/inflables/castillo-princesas/), de 5 × 3.30 × 3 m, para niñas de 2 a 10 años y a $1,800, se ha vuelto el elemento que une decoración y actividades. Si quieres compararlo con otros modelos, revisa los [inflables temáticos](/inflables/tematicos/).
 
+![Inflable Castillo de Princesas instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-princesas/castillo-princesas-jardin-eventos.avif "Castillo de Princesas en un jardín de eventos")
+
 Una fiesta de princesas no necesita un presupuesto enorme para lucir. Con un inflable temático, decoración sencilla bien pensada y actividades divertidas, la celebración queda completa.
 
 > **Tendencia:** las fiestas de princesas actuales mezclan el estilo clásico con historias de princesas valientes y aventureras. Las niñas ya no solo quieren vestidos bonitos: también quieren retos.
@@ -121,6 +123,8 @@ El tema es el mismo, pero el inflable cambia según quién va a brincar. Antes d
 | [Castillo Baby](/inflables/mini-castillo/) | $1,400 | 2.5 × 2 × 2 m | 1 a 3 años | 3.2 m |
 | Castillo de Princesas | $1,800 | 5 × 3.30 × 3 m | 2 a 10 años | 4.2 m |
 | [Castillo Blanco](/inflables/castillo-blanco/) | $2,600 | 5 × 7 × 4 m | 3 a 12 años | 4.7 m |
+
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 - **Festejada de 1 a 3 años con primas de la misma edad:** el Castillo Baby es más bajo y tranquilo, y es el que cabe bajo techo.
 - **Festejada de 4 a 8 años:** el Castillo de Princesas rosa encaja con la temática y con la edad.

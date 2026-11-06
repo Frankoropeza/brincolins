@@ -117,6 +117,8 @@ Si quieres más dinámicas por equipo, la [fiesta de futbol infantil con inflabl
 
 El [circuito inflable Extremo](/inflables/extremo/) es la pieza que convierte la fiesta de carros en una carrera de verdad. Tiene pista de obstáculos, tobogán doble y doble carril, así que dos pilotos salen al mismo tiempo. Mide 8 × 4.5 × 3.50 m, pide 4.5 m de altura libre y es para niños de 3 a 12 años. Su precio es de $2,500 netos por evento de 4 a 6 horas, con entrega, instalación, motor, sanitización y recolección.
 
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
+
 ### Dinámicas en el circuito
 
 - **Duelo de pilotos:** dos niños de la misma edad salen con la señal del semáforo. Un adulto marca quién llega primero al tobogán.
@@ -135,6 +137,8 @@ Si dudas entre el circuito y un brincolín tradicional, la comparación entre [c
 ### ¿Y si no cabe el Extremo?
 
 Si tu patio no tiene 8 m de largo libres con holgura, el [inflable Gusanitos](/inflables/gusanitos/) es la alternativa: túneles de colores con varias entradas y salidas, 5 × 3 m de base, para niños de 2 a 8 años y apto para interiores. En la historia de la carrera, es el túnel de la pista. Puedes ver otros modelos que caben en patios medianos en la categoría de [inflables medianos](/inflables/medianos/).
+
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 
 | Modelo | Edades | Base | Altura libre | Precio | Papel en la fiesta de carros |
 |---|---|---|---|---|---|

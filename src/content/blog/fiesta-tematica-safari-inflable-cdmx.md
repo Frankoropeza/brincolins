@@ -46,6 +46,8 @@ Para una fiesta temática safari con inflable, elige el Jungla como pieza centra
 - La decoración rodea el inflable; nada encima ni en la entrada.
 - Las actividades de explorador van fuera del inflable y la pintura de caras, después del primer turno de brinco.
 
+![Inflable Jungla instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-jungla/mini-jungla-jardin-eventos.avif "Jungla en un jardín de eventos")
+
 ## ¿Por qué la temática safari es tan popular?
 
 Cada vez más familias de la Ciudad de México eligen el safari por encima de temas clásicos como princesas o superhéroes, y hay razones claras para ello.
@@ -68,6 +70,8 @@ El **Jungla** es la opción principal. Su diseño incorpora animales de la selva
 - **[Gusanitos](/inflables/gusanitos/) ($1,600):** mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años, su paleta combina con el safari y funciona bajo techo si el espacio es viable.
 - **[Castillo Baby](/inflables/mini-castillo/) ($1,400):** si en la lista hay bebés de 1 a 3 años, es el modelo pensado para ellos.
 - **[Barco Pirata](/inflables/barco-pirata/) ($2,300):** si quieres darle un giro de expedición y descubrimiento con niños de hasta 12 años.
+
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 
 El espacio y la capacidad de cada modelo se confirman al cotizar.
 

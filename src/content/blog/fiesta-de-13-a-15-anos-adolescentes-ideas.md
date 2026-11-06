@@ -95,7 +95,11 @@ Los tres son de exterior, se montan en unos 30 minutos y se usan por turnos, sin
 
 Para la mayoría de las fiestas de 13 y 14 años, el [circuito Extremo para competencias](/inflables/extremo/) es la elección más directa: el doble carril convierte cualquier ronda en una carrera, genera público alrededor y ordena los turnos de forma natural. Pide 8 m de largo y 4.5 m de altura libre.
 
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
+
 El [Barco Pirata para fiestas al aire libre](/inflables/barco-pirata/) conviene cuando el grupo prefiere una misión con historia o cuando el jardín es más corto (6 m de largo), siempre que tenga 5.2 m libres hacia arriba, sin ramas ni cables. El Castillo Blanco, por su parte, queda bien cuando la fiesta de 15 tiene una estética definida y el inflable debe integrarse a la decoración en lugar de dominarla.
+
+![Inflable Barco Pirata instalado en el área verde común de una privada](/img/inflables/barco-pirata/barco-pirata-privada-condominio.avif "Barco Pirata en el área común de una privada")
 
 ## ¿Qué música poner en una fiesta de 13 a 15 años?
 

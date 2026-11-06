@@ -151,6 +151,8 @@ Pueden usar el Extremo, pero nunca en el mismo turno que los de 10. En un circui
 
 No entran al circuito. Sin excepciones. Si vienen varios, sus papás te lo van a agradecer: el [Castillo Baby para los más chiquitos](/inflables/mini-castillo/) mide 2.5 × 2 × 2 m, cuesta **$1,400** y se instala en 15 minutos. Cuando la fiesta junta dos edades muy separadas, como pasa en una [fiesta para gemelos o hermanos de edades distintas](/blog/fiesta-de-gemelos-o-hermanos-con-inflable/), combinar los dos inflables evita el problema de raíz.
 
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+
 ### Los mayores de 12 y los adultos
 
 El Extremo admite adolescentes y adultos, igual que el Barco Pirata y el Castillo Blanco, pero nunca en el mismo turno que los niños de 10: la diferencia de peso es el riesgo. Lo práctico es darles una ronda propia al final de la eliminatoria y, mientras tanto, ponerlos de jueces de salida, cronometristas o anotadores de la llave. Los modelos que aceptan ese rango están en [inflables para adolescentes y adultos](/inflables/para-adultos/).
@@ -169,6 +171,8 @@ Elige el Extremo si tu fiesta gira alrededor de competir, y el Barco Pirata si p
 | Lo que lo distingue | Doble carril y tobogán doble | Mástil, velas y tobogán por la popa | Dos dragones decorativos y resbaladilla |
 
 La conclusión práctica: el doble carril es lo que permite carreras justas y eliminatorias, y sólo lo tiene el Extremo. El [Barco Pirata para fiestas de piratas](/inflables/barco-pirata/) pide más altura libre, 5.2 m, y gana cuando tu festejado sueña con barcos y tesoros. Los [Dragones Rojos, de 3 a 8 años](/inflables/dragones-rojos/), son una buena opción para hermanos menores, pero su rango ya no alcanza al grupo de 5.º.
+
+![Inflable Barco Pirata instalado en el área verde común de una privada](/img/inflables/barco-pirata/barco-pirata-privada-condominio.avif "Barco Pirata en el área común de una privada")
 
 ## ¿Cómo repartir la tarde en bloques?
 

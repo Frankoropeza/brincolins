@@ -194,9 +194,13 @@ Cuando tu paleta es rosa y lila, cuando tus invitados son bebés o cuando la tem
 
 El [Castillo de Princesas, en rosa y azul turquesa con torres decorativas](/inflables/castillo-princesas/), combina mejor con una fiesta pastel de tonos fuertes. Es para niños de 2 a 10 años, mide 5 × 3.30 × 3 m y cuesta $1,800.
 
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+
 ### Cuando los niños son bebés
 
 El Castillo Blanco es para niños de 3 a 12 años. Si tus invitados tienen de 1 a 3, el [Castillo Baby para fiestas de bebés](/inflables/mini-castillo/) es el modelo correcto. Mide 2.5 × 2 × 2 m, entra en interiores y cuesta $1,400.
+
+![Inflable Castillo Baby instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-castillo/mini-castillo-jardin-eventos.avif "Castillo Baby en un jardín de eventos")
 
 ### Cuando la temática manda
 

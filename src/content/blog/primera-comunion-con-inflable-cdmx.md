@@ -77,6 +77,8 @@ Esta tabla pone lado a lado los castillos que puedes considerar para una recepci
 
 El precio no es lo que decide. Deciden el rango de edad y el color. El [Castillo de Princesas en rosa y azul turquesa](/inflables/castillo-princesas/) luce si tu hija quiere un cuento de hadas, pero llega hasta los 10 años y deja fuera a los primos de 11 y 12. Junto a tu mesa de honor con flores blancas, además, el rosa compite con todo.
 
+![Inflable Castillo de Princesas instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-princesas/castillo-princesas-jardin-eventos.avif "Castillo de Princesas en un jardín de eventos")
+
 ¿Cuántos niños brincan por turno? ¿Cuánto espacio libre necesitas alrededor? Eso te lo confirmamos al cotizar, con las medidas reales de tu jardín. Una foto del lugar ayuda mucho.
 
 ![Idea para una primera comunión con inflable: castillo blanco en un jardín con cortinas blancas y árboles](/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-decoracion.avif)
@@ -179,6 +181,8 @@ Si en tu año viene otro festejo, el mismo castillo repite bien. Puedes verlo en
 Ninguno de los dos entra al Castillo Blanco. Los de 1 a 3 años necesitan su propio inflable, y los mayores de 12 se quedan fuera por rango de edad. No es capricho: la diferencia de peso y fuerza entre un niño de 2 y uno de 11 es la que provoca golpes, y tú no quieres ese llanto en la foto.
 
 Para los más chicos tienes el [Castillo Baby, compacto para niños de 1 a 3 años](/inflables/mini-castillo/). Mide 2.5 × 2 × 2 m, cuesta $1,400 y puede ir en un rincón separado, con su propio adulto. Es la misma idea de dos zonas que explicamos para la [recepción de una presentación de 3 años](/blog/presentacion-de-3-anos-recepcion-con-inflable/), donde los pequeños son mayoría.
+
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 ¿Y los de 13 o 14? Se quedan fuera, aunque insistan. Cada modelo tiene su rango. Lo respetamos. Puedes darles una tarea con estatus: organizar los turnos o cuidar la canasta de zapatos.
 

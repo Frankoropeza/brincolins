@@ -99,7 +99,11 @@ Con niños de 3 y 4 años, deja solo arrastre, túnel y rescate. Con niños de 7
 
 El [circuito inflable Extremo](/inflables/extremo/) es el que mejor encaja con el entrenamiento: tiene 8 metros de largo, pista de obstáculos, tobogán doble y doble carril para que dos cadetes corran al mismo tiempo. Es para niños de 3 a 12 años, pide 4.5 m de altura libre y va al aire libre. También es uno de los modelos donde pueden entrar adultos, así que el capitán puede retar a los papás al final.
 
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
+
 Si tu espacio no da para 8 × 4.5 m, el [inflable Dragones Rojos](/inflables/dragones-rojos/) mide 5 × 3 m, es para 3 a 8 años y su rojo combina con la decoración de bomberos. Para ver otras opciones de reto, revisa la [categoría de inflables con obstáculos](/inflables/con-obstaculos/), y la comparativa de [circuito de túneles o brincolín](/blog/circuito-de-tuneles-vs-brincolin/) explica qué tipo de inflable conviene según la edad.
+
+![Inflable Dragones Rojos instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/dragones-rojos/dragones-rojos-jardin-eventos.avif "Dragones Rojos en un jardín de eventos")
 
 | Modelo | Medidas | Altura libre | Edades | Precio por evento |
 |---|---|---|---|---|

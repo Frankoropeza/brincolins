@@ -150,9 +150,13 @@ En una fiesta charra o vaquera, el inflable puede ser más que una zona de brinc
 
 El [circuito inflable Extremo](/inflables/extremo/) tiene doble carril y tobogán, así que dos niños salen al mismo tiempo, cruzan los obstáculos y bajan. El que llega primero suma un punto a su equipo. Mide 8 × 4.5 × 3.50 m y pide 4.5 m de altura libre. Es uno de los tres modelos que admiten adolescentes y adultos, en turno aparte de los niños, así que también puede haber un rodeo de papás al final.
 
+![Inflable Extremo instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/extremo/extremo-jardin-eventos.avif "Extremo en un jardín de eventos")
+
 ### Inflable como corral de descanso
 
 Para niños de 3 a 8 años, el [inflable Dragones Rojos](/inflables/dragones-rojos/) cabe en patios medianos, tiene resbaladilla integrada y su rojo combina con sarapes y paliacates. El Jungla, al mismo precio, es la opción si el espacio pide menos altura libre (4.2 m). Funcionan como corral: los equipos que no están en el jaripeo brincan por turnos.
+
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
 
 ### ¿Qué modelo elegir?
 

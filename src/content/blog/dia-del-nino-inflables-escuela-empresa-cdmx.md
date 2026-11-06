@@ -118,6 +118,8 @@ Esta tabla compara los modelos que mejor se combinan para el Día del Niño. Fí
 
 Si hay maternal, guardería o hijos pequeños de colaboradores, el [Castillo Baby para maternal](/inflables/mini-castillo/) es compacto y entra en interiores y espacios reducidos. Ponlo separado de los demás. Así los grandes no cruzan por su área. Los papás de los bebés te lo van a agradecer.
 
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
+
 ### El grupo central: Jungla
 
 De 3 a 8 años es el grueso de casi cualquier festejo, entre preescolar y primaria baja. El Jungla es un brincolín temático con dinosaurios, palmeras y colores de selva, y sus medidas y fotos están en la ficha del modelo que enlazamos arriba. Si el evento tiene que quedar bajo techo, revisa [en qué se distinguen Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/), porque Gusanitos sí funciona en interiores.
@@ -125,6 +127,8 @@ De 3 a 8 años es el grueso de casi cualquier festejo, entre preescolar y primar
 ### Los grandes: Extremo
 
 Los de 9 a 12 años se aburren en un brincolín. La [pista de obstáculos Extremo](/inflables/extremo/) es un circuito de 8 m con tobogán doble y doble carril para competencias. Pide 4.5 m de altura libre y un área amplia. Mide tu espacio antes que nada.
+
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 Para revisar el resto de opciones por rango, entra al [catálogo de inflables infantiles por edad](/inflables/para-ninos/).
 

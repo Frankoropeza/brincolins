@@ -47,6 +47,8 @@ Para una fiesta pirata infantil con tobogán inflable, usa el Barco Pirata como 
 - En el tobogán se baja sentado, con los pies por delante y uno por uno.
 - Si van niños de 1 a 3 años, dales un turno exclusivo o un inflable aparte.
 
+![Inflable Barco Pirata instalado sobre lona en el patio de cemento de una casa](/img/inflables/barco-pirata/barco-pirata-patio-cochera.avif "Barco Pirata en un patio de cemento, sobre lona")
+
 ## ¿Por qué la temática pirata funciona tan bien?
 
 De todas las temáticas para fiestas infantiles, la pirata es de las que mejor resultado dan. Los piratas representan aventura, tesoros escondidos y exploración, ideas que atrapan a los niños sin importar la edad. Tampoco es una temática solo para niños: las niñas se emocionan igual con historias de capitanas y búsquedas del tesoro.
@@ -150,6 +152,8 @@ El Barco Pirata es para niños de 3 a 12 años. Si van bebés o niños de 1 y 2 
 
 - **Un turno exclusivo para los más chicos** al inicio de la fiesta, sin niños grandes y con un adulto al pendiente.
 - **Un segundo inflable pequeño**, como el [Castillo Baby](/inflables/mini-castillo/) (2.5 × 2 × 2 m, de 1 a 3 años, $1,400), en otra esquina del patio. Así los chiquitos tienen su propio "bote" y los grandes juegan sin cuidarse de pisar a nadie.
+
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 ## ¿Qué errores son comunes en una fiesta pirata con inflable?
 

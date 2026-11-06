@@ -42,6 +42,8 @@ faqs:
 
 Para una fiesta de 7 años de niña funciona una agenda de unas tres horas con retos cooperativos, una pausa completa para comer y bloques de 10 a 15 minutos en el inflable. El [Castillo de Princesas](/inflables/castillo-princesas/) recibe de 2 a 10 años, mide 5 × 3.30 × 3 m, pide 4.2 m de altura libre y se instala en exterior.
 
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+
 **Puntos clave**
 
 - Elige cuatro momentos (recibimiento, juego activo, reto de equipos y cierre) en lugar de diez dinámicas.

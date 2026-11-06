@@ -92,9 +92,13 @@ Es un circuito de 8 metros con pista de obstáculos, tobogán doble y doble carr
 
 Los más chicos no deben entrar a un circuito donde corren niños de 10. Para ellos está el [Castillo Baby para hijos de 1 a 3 años](/inflables/mini-castillo/): mide 2.5 × 2 × 2 m, admite interiores y se instala en 15 minutos. Ubícalo lejos de la salida del circuito. Los papás de bebés te lo van a agradecer.
 
+![Inflable Castillo Baby instalado en el área verde de unas oficinas para un día familiar de empresa](/img/inflables/mini-castillo/mini-castillo-evento-empresa.avif "Castillo Baby en un día familiar de empresa")
+
 ### Venue techado o evento grande
 
 Si el venue es bajo techo, el Extremo queda fuera. El [circuito de túneles Gusanitos](/inflables/gusanitos/) admite interiores, es para niños de 2 a 8 años y aguanta grupos de edades mezcladas. En eventos grandes al aire libre, el [Barco Pirata como segunda atracción](/inflables/barco-pirata/) reparte a los de 3 a 12 años entre dos inflables. Todos los modelos de recorrido están en la sección de [inflables con obstáculos para eventos](/inflables/con-obstaculos/).
+
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 
 > **¿Ya tienes la lista de edades?** Mándanosla con la fecha y la dirección del venue, y te proponemos la combinación de inflables para tu family day. [Enviar los datos del family day](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20area%20infantil%20de%20un%20family%20day%20de%20empresa)
 

@@ -153,6 +153,8 @@ Para que se cumpla sin pelear:
 
 Si el festejado es pequeño y la fiesta se arma alrededor del [Castillo Baby para niños de 1 a 3 años](/inflables/mini-castillo/), la regla aplica igual: los bebés llevan el pastel en la cara y en las manos, así que el lavado antes de volver a jugar es obligatorio.
 
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+
 ## ¿Cómo transportar el pastel y cuidarlo del calor?
 
 En la CDMX y el Estado de México, de marzo a mayo las tardes pueden ser calurosas, y un pastel de crema batida no aguanta mucho en un jardín al sol. Lo mismo pasa en un coche estacionado. Estas medidas evitan la mayoría de los accidentes:
@@ -227,6 +229,8 @@ Calendario práctico:
 ## ¿Qué inflable combina con la mesa del pastel?
 
 El inflable no compite con el pastel: lo acompaña en la foto y ocupa a los niños mientras se arma la mesa. Si la fiesta es de princesas, el [Castillo de Princesas, en rosa y azul turquesa](/inflables/castillo-princesas/), queda muy bien como fondo de la mesa del pastel, siempre con unos metros de distancia entre la mesa y la entrada. Para ver todos los modelos según la edad, revisa la [categoría de inflables para niños](/inflables/para-ninos/).
+
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 ## ¿Cambia algo según dónde sea la fiesta?
 

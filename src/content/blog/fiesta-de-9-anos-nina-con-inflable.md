@@ -42,6 +42,8 @@ faqs:
 
 Una fiesta de 9 años puede aprovechar el [Castillo de Princesas inflable](/inflables/castillo-princesas/) si el grupo principal tiene hasta 10 años y hay jardín o patio exterior. Mide 5 × 3.30 × 3 m, pide 4.2 m de altura libre y funciona mejor en dos bloques cortos, alternados con retos por equipos, fotos y una actividad de mesa.
 
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+
 **Puntos clave**
 
 - El castillo cubre de 2 a 10 años: a los 9 encaja como estación, no como todo el programa.
@@ -112,6 +114,8 @@ El hecho de que el Castillo de Princesas cubra de 2 a 10 años no significa que 
 Una persona adulta debe vigilar el área durante todo el evento. Puede hacer tres cosas muy concretas: esperar a que un grupo salga antes de llamar al siguiente, impedir que se suba por la resbaladilla y mantener alimentos, bebidas, calzado y objetos duros fuera de la lona. Si alguna invitada no quiere entrar, puede ser quien lea una pista o tome las fotos del equipo; participar no tiene que significar brincar.
 
 Para los hermanos menores de 1 a 3 años, el modelo que corresponde es el [Castillo Baby para bebés](/inflables/mini-castillo/). Cambiar de grupo no es excluirlos: es darles un juego acorde con su etapa y dejar que las amigas de la festejada tengan un turno cómodo.
+
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 ## ¿Cuándo es mejor cambiar a un modelo con otra dinámica?
 

@@ -166,6 +166,8 @@ Si la recepción es en Atizapán de Zaragoza, en el norponiente del Estado de M�
 
 Cuando en tu lista hay varios niños de 4 años en adelante. El Castillo Baby no es para ellos, y si no tienen su propio espacio van a querer entrar al de los chiquitos. En un bautizo formal, el modelo para ese grupo es el [Castillo Blanco para recepciones formales](/inflables/castillo-blanco/): blanco, para niños de 3 a 12 años.
 
+![Inflable Castillo Blanco instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-blanco/castillo-blanco-jardin-eventos.avif "Castillo Blanco en un jardín de eventos")
+
 Esta tabla compara los dos modelos que suelen convivir en una recepción de bautizo; la lectura rápida es que el Castillo Baby resuelve a los bebés en cualquier espacio y el Castillo Blanco pide jardín amplio:
 
 | Dato | Castillo Baby | Castillo Blanco |

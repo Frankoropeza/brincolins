@@ -67,6 +67,8 @@ A esta edad el juego es corto, sensorial y con un adulto cerca. No esperes regla
 
 **Cómo combinarlo con el inflable:** para esta edad el modelo adecuado es uno compacto como el [Castillo Baby](/inflables/mini-castillo/), pensado para niños de 1 a 3 años. Los turnos deben ser cortos y con pocos niños, siempre con un adulto mirando de frente. Las burbujas cerca del inflable funcionan muy bien como zona de espera.
 
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+
 ## ¿Qué juegos funcionan con niños de 4 a 6 años?
 
 Es la edad de oro de los juegos de fiesta: entienden reglas sencillas, quieren moverse y les encanta ganar un premio pequeño. Funcionan los juegos de 10 a 15 minutos con instrucciones de una sola frase.

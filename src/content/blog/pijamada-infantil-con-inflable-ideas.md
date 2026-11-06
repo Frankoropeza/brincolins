@@ -66,6 +66,8 @@ La decisión depende de una pregunta: ¿el inflable va dentro de casa o en el ja
 
 Solo dos modelos del catálogo son aptos para interiores. El [Gusanitos, circuito de túneles para interiores](/inflables/gusanitos/), mide 5 × 3 × 2.80 m, pide 3.2 m de altura libre y es para niños de 2 a 8 años. El [Castillo Baby para hermanitos de 1 a 3 años](/inflables/mini-castillo/) mide 2.5 × 2 × 2 m y pide la misma altura libre. Este segundo no es para los invitados de la pijamada, sino para los hermanos pequeños que a veces se quedan la tarde.
 
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+
 Mide el punto más bajo del techo: viga, lámpara o ventilador. La categoría de [inflables para interiores](/inflables/para-interiores/) tiene las fichas completas, y si vives en departamento, revisa antes la guía de [altura de techo para un inflable en departamento](/blog/inflable-para-departamento-altura-techo-cdmx/).
 
 ### Pijamada con jardín

@@ -163,6 +163,8 @@ La temática la dan el papel picado, los juegos y la comida. El inflable se elig
 
 El [inflable Dragones Rojos](/inflables/dragones-rojos/) es el más rentado del catálogo y su rojo se integra sin esfuerzo con la decoración tricolor. Si la fiesta junta a muchos primos de primaria, el [circuito inflable Extremo](/inflables/extremo/) permite carreras en doble carril, que funcionan como continuación natural de la carrera de costales; además es uno de los modelos donde también pueden entrar adultos. Para ver todos los modelos clásicos, revisa la [categoría de brincolines](/inflables/brincolines/).
 
+![Inflable Dragones Rojos instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/dragones-rojos/dragones-rojos-jardin-eventos.avif "Dragones Rojos en un jardín de eventos")
+
 Todos los precios son por evento de 4 a 6 horas e incluyen entrega, instalación, motor, sanitización y recolección. Son precios netos; con factura se agrega el 16% de IVA.
 
 ## ¿Qué pasa si llueve en la fiesta mexicana de septiembre?

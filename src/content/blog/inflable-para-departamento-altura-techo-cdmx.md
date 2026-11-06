@@ -111,6 +111,8 @@ Mide 2.5 × 2 × 2 m, recibe niños de 1 a 3 años y está pensado para interior
 
 El [modelo Gusanitos, apto para interiores](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y recibe niños de 2 a 8 años. Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas. Pide la misma altura que el Castillo Baby, pero el doble de largo, así que necesita un salón amplio.
 
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+
 Los dos están juntos en la categoría de [inflables que se instalan bajo techo](/inflables/para-interiores/).
 
 ### Los seis que sólo van al aire libre

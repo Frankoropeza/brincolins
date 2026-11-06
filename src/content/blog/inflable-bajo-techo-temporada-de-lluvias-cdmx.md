@@ -86,6 +86,8 @@ También funciona con grupos de edades mezcladas, que es justo lo que junta una 
 
 Si la fiesta es de bebés o tu espacio techado es reducido, mira el [Castillo Baby, de 1 a 3 años](/inflables/mini-castillo/). Mide 2.5 × 2 × 2 m, pide los mismos 3.2 m de altura libre, se instala en 15 minutos y cuesta $1,400. Es compacto y está pensado para interiores, terrazas y espacios reducidos.
 
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+
 Los dos pueden compartir techo. Así cubres de 1 a 8 años y nadie se queda mirando desde la orilla. Tu sobrina de un año también juega.
 
 ## ¿Cuánta altura libre necesita un inflable para interiores?

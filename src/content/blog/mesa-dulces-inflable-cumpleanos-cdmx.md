@@ -65,6 +65,8 @@ Este es el catálogo con sus precios netos por evento:
 - **[Barco Pirata](/inflables/barco-pirata/)**: 6 × 3.5 × 3.80 m, para niños de 3 a 12 años. **$2,300 MXN**.
 - **[Extremo](/inflables/extremo/)**: 8 × 4.5 × 3.50 m, circuito de obstáculos para niños de 3 a 12 años. **$2,500 MXN**.
 
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+
 Son precios netos con instalación y recolección incluidas; se agrega 16% de IVA solo si necesitas factura, y el traslado se cobra según la zona. Revisa el [catálogo completo de inflables](/inflables/) o la [página de precios](/precios/) para ver medidas y disponibilidad.
 
 ### MEDEDUL: mesas de dulces

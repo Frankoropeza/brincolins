@@ -81,6 +81,8 @@ Tienes tres caminos: una temática que contenga a las dos, dos zonas con colores
 
 ¿Y el inflable? Neutro, por suerte. El Extremo no está atado a un personaje, así que no compite con ninguna de tus dos temáticas. Si una es de cuento o de realeza, el [Castillo de Princesas, rosa y azul turquesa](/inflables/castillo-princesas/) es para niños de 2 a 10 años. Si es de piratas, el [Barco Pirata con mástil y velas](/inflables/barco-pirata/) tiene tobogán por la popa.
 
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+
 ## ¿Por qué el doble carril del Extremo hace justas las carreras entre hermanos?
 
 Porque los dos arrancan al mismo tiempo, en carriles paralelos, y llegan al mismo final. Nadie sale con ventaja ni recorre un camino más fácil. Sin trampas. Entre tus gemelos, esa igualdad vale oro: la carrera se decide en la pista, no en la discusión de quién empezó primero.

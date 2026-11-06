@@ -138,9 +138,13 @@ Precios netos por evento de 4 a 6 horas, con entrega, instalación, motor, sanit
 
 El [inflable Gusanitos](/inflables/gusanitos/) es más un circuito que un brincolín: túneles de colores conectados, con varias entradas y salidas. En la historia de la misión, cada túnel es un pasillo de la estación espacial. Funciona con grupos de edades mezcladas de 2 a 8 años y es apto para interiores.
 
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+
 ### Castillo Baby: para los astronautas de 1 a 3 años
 
 Si el festejado es pequeño o hay muchos hermanos menores, el [Castillo Baby para interiores](/inflables/mini-castillo/) mide 2.5 × 2 × 2 m y entra en terrazas, salones y departamentos con techo suficiente. Puedes decorarlo alrededor con estrellas y planetas para que sea el módulo de los más chiquitos.
+
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 ### Extremo: entrenamiento en exterior
 

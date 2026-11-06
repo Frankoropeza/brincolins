@@ -171,6 +171,8 @@ Para la mayoría de las fiestas en casa, una bocina portátil con batería es su
 
 Si la fiesta tiene bloques de baile y juegos musicales, conviene que el inflable sea un espacio de juego por turnos que complemente, no que compita. Para niños de 2 a 8 años y espacios techados, el [Gusanitos, el mediano apto para interiores](/inflables/gusanitos/), funciona bien en salones donde la música y el inflable comparten espacio. Para grupos grandes de 3 a 12 años en exterior, el [Extremo, con circuito de obstáculos](/inflables/extremo/), canaliza la energía de los más grandes entre bloques de baile. Puedes comparar todos los modelos en la [categoría de brincolines](/inflables/brincolines/).
 
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+
 ## ¿Cambia la música según la zona donde sea la fiesta?
 
 La playlist no cambia, pero el volumen y el espacio sí. En la [renta de inflables en Iztapalapa](/cobertura/iztapalapa/) muchas fiestas son en patios y azoteas de casas pegadas, donde el volumen moderado y el aviso a los vecinos hacen la diferencia. En la [renta de inflables en Gustavo A. Madero](/cobertura/gustavo-a-madero/) es común festejar en patios y calles cerradas de unidades habitacionales, con varios vecinos alrededor. En la [renta de inflables en Naucalpan](/cobertura/naucalpan/) abundan las privadas y condominios con reglamento de horarios: confírmalo antes de la fecha.

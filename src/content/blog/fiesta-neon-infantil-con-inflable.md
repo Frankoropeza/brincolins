@@ -83,6 +83,8 @@ Depende de las edades y del espacio. Todos los modelos de esta tabla son de exte
 
 Para un grupo de 8 a 12 años, el [circuito Extremo para carreras por parejas](/inflables/extremo/) da competencia, que es lo que más buscan a esa edad. El [Castillo Blanco con lona blanca](/inflables/castillo-blanco/) tiene un detalle práctico: su color neutro hace que la decoración neón alrededor resalte en las fotos.
 
+![Inflable Extremo instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/extremo/extremo-jardin-eventos.avif "Extremo en un jardín de eventos")
+
 Los precios son netos por evento de 4 a 6 horas, con entrega, instalación, motor, sanitización y recolección. Con factura se suma 16% de IVA. La capacidad para tu grupo se confirma al cotizar.
 
 ### Fiesta neón para adolescentes de 13 a 15 años

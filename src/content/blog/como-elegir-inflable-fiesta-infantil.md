@@ -82,6 +82,8 @@ Los inflables no son universales. Cada modelo está diseñado para un rango de e
 - **De 2 a 10 años:** [Castillo de Princesas](/inflables/castillo-princesas/), temática de cuento de hadas.
 - **De 3 a 12 años:** [Castillo Blanco](/inflables/castillo-blanco/), [Barco Pirata](/inflables/barco-pirata/) y [Extremo](/inflables/extremo/).
 
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+
 Si tu evento mezcla varias edades, considera rentar **dos inflables de diferentes categorías** para que todos jueguen con niños de su tamaño. Más abajo hacemos la cuenta por número de invitados, y en la [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/) explicamos por qué mezclar edades dentro del mismo brincolín es la causa más común de golpes.
 
 ## ¿Qué inflable va con la temática de tu fiesta?

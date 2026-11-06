@@ -6,6 +6,7 @@ import QuickNav from "@/components/QuickNav.astro";
 import CtaBanner  from "@/components/CtaBanner.astro";
 import FaqItem    from "@/components/FaqItem.astro";
 import EnlacesCategoria from "@/components/EnlacesCategoria.astro";
+import InflableDestacado from "@/components/InflableDestacado.astro";
 import { BLOG_CATEGORIA } from "@/data/blogCategorias";
 import { getCategoria, inflablesDeCategoria } from "@/data/categorias";
 
@@ -187,6 +188,8 @@ const howToSchema = d.howto
           )}
 
           <Content />
+
+          <InflableDestacado postId={post.id} body={post.body ?? ""} />
 
           {d.galleryImages?.length ? (
             <div class="art-gallery">

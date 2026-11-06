@@ -215,6 +215,8 @@ Prueba la resistencia con un golpe suave antes de colgarla: si se rompe con muy 
 
 Cualquier modelo funciona si hay espacio para separar las dos zonas. En un patio mediano, un inflable de 5 × 3 m como el de [Dragones Rojos](/inflables/dragones-rojos/), para niños de 3 a 8 años, deja lugar a un lado para colgar la piñata con su círculo. Para ver modelos clásicos de brinco, revisa la categoría de [brincolines para fiestas](/inflables/brincolines/).
 
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
+
 La piñata se cuelga donde se pueda amarrar bien la cuerda y quede espacio libre alrededor. En la [renta de inflables en Álvaro Obregón](/cobertura/alvaro-obregon/) son comunes los terrenos con desnivel, así que conviene elegir para la piñata la parte más plana del jardín. En la [renta de inflables en Azcapotzalco](/cobertura/azcapotzalco/) y en la [renta de inflables en Nezahualcóyotl](/cobertura/nezahualcoyotl/) muchas fiestas se hacen en patio o calle cerrada, donde la cuerda se amarra de pared a pared y hay que cuidar que el círculo no invada la entrada del inflable.
 
 ## ¿Ya tienes lista la piñata? Aparta el inflable

@@ -146,6 +146,8 @@ Lo práctico es dividir en dos o tres grupos: chicos, medianos y grandes. Los ch
 
 Si en tu fiesta hay niños de 1 a 3 años, no entran a un modelo grande. Para ellos está el [Castillo Baby en una zona aparte para bebés](/inflables/mini-castillo/), con su propio adulto. Y si tu grupo es de 8 o 9 años, las [actividades por tripulación para una fiesta de 8 años](/blog/fiesta-de-8-anos-ideas-actividades/) mantienen ocupados a los que esperan.
 
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+
 ## ¿Dónde se paran los adultos que vigilan el tobogán?
 
 En dos puntos: la entrada y un costado de la salida. La condición de uso es que una persona adulta supervise durante todo el evento. Con un tobogán, lo ideal es que tengas dos, o que quien supervisa vea los dos puntos al mismo tiempo.
@@ -229,6 +231,8 @@ En Tláhuac, en Tláhuac Centro, La Nopalera o Zapotitla, abundan los patios y c
 Varios, y las reglas aplican igual en todos. Cambia la altura, el número de carriles y el espacio que piden, pero uno a la vez, pies por delante y llegada libre valen en cualquier modelo. Elige por edades y por el espacio que tienes. Las reglas ya las tienes.
 
 El Barco Pirata, con el tobogán detrás del mástil, es el de mayor impacto visual. El [Extremo de doble carril y tobogán doble](/inflables/extremo/) admite un niño por carril, y la regla de llegada libre se cumple en los dos. Los medianos con resbaladilla integrada, como los [Dragones Rojos con mallas laterales](/inflables/dragones-rojos/), siguen las mismas reglas a menor altura.
+
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 Todos están en la [categoría de inflables con tobogán](/inflables/toboganes/). Si dudas entre los dos grandes, la [comparativa por espacio, altura y tipo de fiesta](/blog/barco-pirata-o-extremo-inflables-grandes/) te ayuda. Y si tu fiesta será fuera de casa, revisa cómo [preparar una quinta o un jardín de eventos para el inflable](/blog/fiesta-en-quinta-o-jardin-de-eventos-edomex/), porque ahí la llegada suele quedar cerca de mesas y caminos.
 

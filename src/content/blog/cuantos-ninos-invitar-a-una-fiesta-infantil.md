@@ -161,6 +161,8 @@ Los precios son netos por evento de 4 a 6 horas, con entrega, instalación, moto
 
 Si la lista pasa de un grupo mediano, los modelos de la [categoría de inflables grandes](/inflables/grandes/) dan más espacio de juego. El [Castillo Blanco](/inflables/castillo-blanco/) mide 5 × 7 × 4 m y es de los más amplios del catálogo, pensado para niños de 3 a 12 años. Para comparar opciones con calma, la guía de [cómo elegir un inflable para una fiesta infantil](/blog/como-elegir-inflable-fiesta-infantil/) ordena los criterios paso a paso.
 
+![Inflable Castillo Blanco instalado en el patio de una escuela para la kermés](/img/inflables/castillo-blanco/castillo-blanco-kermes-escolar.avif "Castillo Blanco en una kermés escolar")
+
 ### ¿Cómo funcionan los turnos con muchos niños?
 
 Con grupos grandes, nadie debería brincar con niños mucho más grandes o más chicos que él. Los turnos resuelven eso:

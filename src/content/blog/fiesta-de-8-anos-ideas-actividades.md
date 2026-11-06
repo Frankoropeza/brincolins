@@ -94,6 +94,8 @@ El barco funciona si tu fiesta tiene algo de juego de rol. Es la base de una tri
 
 ¿Tu hijo sólo habla de ganar? El [circuito Extremo con doble carril para competir](/inflables/extremo/) deja que dos niños recorran la pista lado a lado. Ocupa más largo y menos alto que el barco, y forma parte de la [categoría de circuitos con obstáculos](/inflables/con-obstaculos/). Si dudas entre los dos, la [comparativa de los dos grandes por espacio y tipo de fiesta](/blog/barco-pirata-o-extremo-inflables-grandes/) te ayuda a decidir.
 
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
+
 > **¿Barco o Extremo para tu grupo?** Dinos cuántos niños vienen y cuánto mide tu jardín, y te decimos cuál cabe y cuál conviene. [Preguntar qué inflable grande me conviene](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20un%20inflable%20grande%20para%20una%20fiesta%20de%208%20anos)
 
 ## ¿Qué retos y competencias enganchan a niños de 8 años?
@@ -166,6 +168,8 @@ Un teléfono de contacto por cada niño que llegue solo. Así no tienes que busc
 #### Si vienen hermanos chicos
 
 Si tu festejado tiene hermanos de 1 a 3 años, no entran al inflable grande. Para ellos existe el [Castillo Baby, pensado para los hermanos más chicos](/inflables/mini-castillo/), en otra zona con su propio adulto. Las dudas de edades, montaje y horarios están en las [respuestas a dudas comunes sobre la renta](/preguntas-frecuentes/).
+
+![Inflable Castillo Baby instalado en el área verde común de una privada](/img/inflables/mini-castillo/mini-castillo-privada-condominio.avif "Castillo Baby en el área común de una privada")
 
 ## ¿Cómo repartes la tarde en bloques sin que baje la energía?
 

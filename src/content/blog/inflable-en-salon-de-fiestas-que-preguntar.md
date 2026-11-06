@@ -89,6 +89,8 @@ Muchos salones infantiles tienen un jardín o un patio además del área techada
 
 Si todo es techado, tienes dos opciones. El [Castillo Baby para salones techados](/inflables/mini-castillo/), para niños de 1 a 3 años. Y [Gusanitos, el circuito que sí entra bajo techo](/inflables/gusanitos/), para niños de 2 a 8 años. Los dos piden **3.2 m de altura libre**. Gusanitos es más circuito que brincolín: túneles de colores con varias entradas y salidas que funcionan con edades mezcladas.
 
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+
 Puedes verlos junto con los demás [inflables aptos para interiores](/inflables/para-interiores/).
 
 > **¿Tu salón es techado?** Mándanos la altura del techo y una foto del área, y te decimos si entra el Castillo Baby o Gusanitos. [Confirma qué inflable cabe en tu salón](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20que%20inflable%20cabe%20en%20mi%20salon%20de%20fiestas.%20La%20altura%20del%20techo%20es)

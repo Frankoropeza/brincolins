@@ -236,6 +236,8 @@ Si quieres la lista completa de tareas por semana, la [checklist de cosas para u
 
 No hace falta poner el modelo, pero sí que habrá inflable, porque cambia lo que las familias traen (ropa y calcetines). Si ya lo elegiste, puedes usarlo como parte del tema: un castillo para una fiesta de princesas o un barco para una de piratas. El [Castillo de Princesas](/inflables/castillo-princesas/), por ejemplo, funciona para niños de 2 a 10 años y combina con invitaciones en tonos rosa y lila. Para ver todas las opciones por edad, revisa los [inflables para niños](/inflables/para-ninos/) del catálogo.
 
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+
 ## ¿Cambia algo según la zona donde vives?
 
 El contenido de la invitación es el mismo, pero los datos de acceso cambian mucho por zona. En la [renta de inflables en Benito Juárez](/cobertura/benito-juarez/) son comunes los edificios y privadas, donde conviene indicar en la invitación el registro en caseta o el número de departamento. En la [renta de inflables en Gustavo A. Madero](/cobertura/gustavo-a-madero/) muchas fiestas son en casa con patio o en la calle cerrada, y una referencia visual en la dirección ayuda a que los invitados lleguen. En municipios como [Ecatepec, con renta de inflables en el Estado de México](/cobertura/ecatepec/), vale la pena agregar la ubicación en mapa siempre, porque hay calles con nombres repetidos en distintas colonias.

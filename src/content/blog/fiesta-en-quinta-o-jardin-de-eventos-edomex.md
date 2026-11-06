@@ -203,6 +203,8 @@ Esta tabla compara los modelos grandes que suelen ir a quintas. La conclusión p
 
 Para una boda o un bautizo, el [Castillo Blanco que combina con eventos formales](/inflables/castillo-blanco/) es la opción natural. Para un cumpleaños con temática, el barco llena el jardín; las [ideas de decoración para sirenas y piratas](/blog/fiesta-de-sirenas-y-piratas-con-inflable/) te muestran cómo ambientar alrededor. Todos los modelos de este tamaño están en la [categoría de inflables de gran formato](/inflables/grandes/).
 
+![Inflable Castillo Blanco instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-blanco/castillo-blanco-jardin-eventos.avif "Castillo Blanco en un jardín de eventos")
+
 ## ¿Qué checklist llevas a la visita de la quinta?
 
 Uno corto. Impreso. Con espacio para anotar respuestas. Te sirve para comparar dos quintas antes de pagar y para mandarnos la información completa en un solo mensaje. Cada punto tiene su motivo.

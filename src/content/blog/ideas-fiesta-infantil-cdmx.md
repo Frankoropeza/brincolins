@@ -55,6 +55,8 @@ Antes de comprar un solo globo, **pregúntale al festejado qué temática quiere
 
 Un brincolín es diversión y también el centro de atención de la fiesta: mantiene a los niños ocupados buena parte de la tarde. Elige uno que **vaya con la temática y con la edad**: el [Castillo de Princesas](/inflables/castillo-princesas/) ($1,800, de 2 a 10 años) para fiestas de cuento, el [Barco Pirata](/inflables/barco-pirata/) ($2,300, de 3 a 12 años) para aventureros, el [Jungla](/inflables/mini-jungla/) ($1,600, de 3 a 8 años) para safaris o el [Extremo](/inflables/extremo/) ($2,500, de 3 a 12 años) para quienes quieren retos y carreras. Si el festejado tiene de 1 a 3 años, el modelo correcto es el [Castillo Baby](/inflables/mini-castillo/), de $1,400. La comparación completa está en la [guía para elegir el inflable](/blog/como-elegir-inflable-fiesta-infantil/).
 
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+
 > Coloca el inflable lejos de la mesa de adultos para que los papás platiquen con calma, y respeta la capacidad confirmada para el modelo.
 
 ### ¿Qué modelo encaja con cada temática?

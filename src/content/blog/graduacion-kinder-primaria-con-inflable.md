@@ -56,6 +56,8 @@ La formalidad y el público. En una graduación tienes ceremonia, togas, fotos d
 
 En el fin de cursos puedes elegir un modelo de colores sin problema; el [inflable Jungla para fin de cursos](/inflables/mini-jungla/) resuelve ese caso, y más abajo verás cómo organizar turnos para grupos grandes.
 
+![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
+
 En la graduación cambian tres cosas: hay un acto que no se puede interrumpir, una dirección que pone reglas y un comité que responde ante todas las familias.
 
 ¿Tu evento es más kermesse que graduación? Entonces te sirve más el [checklist para organizar una kermesse escolar](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/), con fases y proveedores.
@@ -102,6 +104,8 @@ Imagina la foto del grupo con togas azules frente al castillo: el blanco hace qu
 ## ¿Cuándo sumar el Extremo para una graduación de primaria?
 
 Cuando el grupo es de primaria y quieres que los grandes tengan su propio reto. El [Extremo, circuito de obstáculos con doble carril](/inflables/extremo/), recibe a niños de 3 a 12 años y les da algo que el castillo no: competir. El Castillo Blanco se queda para la foto y para los más chicos.
+
+![Inflable Extremo instalado en el patio de una escuela para la kermés](/img/inflables/extremo/extremo-kermes-escolar.avif "Extremo en una kermés escolar")
 
 Esta tabla compara los dos modelos para un festejo escolar. La conclusión práctica: en kínder basta el castillo; en primaria, la combinación cubre dos estilos de juego.
 

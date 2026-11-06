@@ -109,6 +109,8 @@ Si tu festejada sí pidió princesas, aquí tienes [ideas de decoración y mesa 
 
 Cuando la fiesta es bajo techo o cuando casi todos los invitados tienen menos de 3 años. Ahí te conviene el [Castillo Baby, compacto y para bebés](/inflables/mini-castillo/). Es el único castillo del catálogo que se instala en interiores, y tu sala o tu terraza techada le bastan si tienen la altura.
 
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+
 ### Fiesta en la sala, una terraza techada o un salón cerrado
 
 El Castillo de Princesas va sólo en exterior. El Baby pide **3.2 m de altura libre** y entra en espacios reducidos; también puedes revisar otros [inflables que sí se instalan bajo techo](/inflables/para-interiores/). Si vas a usar un salón, lee antes [las preguntas que conviene hacerle al salón](/blog/inflable-en-salon-de-fiestas-que-preguntar/): techo, horario y contacto eléctrico.

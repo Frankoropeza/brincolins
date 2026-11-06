@@ -54,6 +54,8 @@ Una **decoración de fiesta de dragones** no necesita llenar cada rincón de glo
 
 Para una fiesta infantil en CDMX, rojo, dorado y verde oscuro permiten cambiar de tono sin comprar elementos distintos para cada zona. El rojo conversa con el inflable; el dorado ilumina los detalles, y el verde puede llevar la idea hacia bosque, castillo o aventura. Antes de comprar decoración, revisa la [ficha del inflable Dragones Rojos](/inflables/dragones-rojos/): es para niñas y niños de 3 a 8 años, mide 5 × 3 × 2.80 m, se instala en exterior y requiere 4.5 m de altura libre.
 
+![Inflable Dragones Rojos instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/dragones-rojos/dragones-rojos-jardin-eventos.avif "Dragones Rojos en un jardín de eventos")
+
 El espacio final, la capacidad y la instalación se confirman al cotizar.
 
 ## ¿Qué paleta funciona para una decoración de fiesta de dragones?
@@ -201,6 +203,8 @@ Casi todos vienen de mezclar el juego de rol con el brincolín. Las espadas, las
 - **Meter a los hermanitos de 1 o 2 años.** Dragones Rojos es de 3 a 8 años. Para los más chicos existe el [Castillo Baby para niños de 1 a 3 años](/inflables/mini-castillo/), que se instala aparte.
 - **Gastar en decoración antes de medir.** Si el lugar no tiene 4.5 m libres, el inflable no se instala y la decoración pensada a su alrededor no sirve. Primero medidas y fotos, después compras.
 - **Decorar con lo que no se va a usar.** Escudos y coronas que sirven para formar equipos rinden doble. Si buscas recortar gastos, la guía de [fiesta infantil con poco presupuesto](/blog/fiesta-infantil-con-poco-presupuesto-cdmx/) te ayuda a decidir en qué sí gastar.
+
+![Inflable Castillo Baby instalado en el área verde común de una privada](/img/inflables/mini-castillo/mini-castillo-privada-condominio.avif "Castillo Baby en el área común de una privada")
 
 ## ¿Qué cambia en patios, terrenos y quintas del oriente?
 

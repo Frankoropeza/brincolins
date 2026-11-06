@@ -184,6 +184,8 @@ La tabla compara el barco con tres opciones que suelen entrar en esta conversaci
 
 Si la festejada sueña con torres, el [Castillo de Princesas en rosa y azul turquesa como palacio de sirenas](/inflables/castillo-princesas/) también cuenta la historia. Si hay hermanos de 1 a 3 años, no entran al barco: el [Castillo Baby para los invitados más pequeños](/inflables/mini-castillo/) va en otra zona con su propio adulto. Si quieres comparar más modelos con torres, revisa la [categoría de castillos inflables](/inflables/castillos/).
 
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+
 ## ¿Y si el barco no cabe en tu espacio?
 
 El Barco Pirata es el modelo con más altura libre del catálogo: pide 5.2 m. Muchos patios y terrazas no los tienen, y eso no cancela la temática. Esta tabla te dice qué hacer según el espacio que sí tienes:

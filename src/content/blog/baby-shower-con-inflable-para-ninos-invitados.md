@@ -75,6 +75,8 @@ Esta tabla cruza las edades de tus niños invitados con el modelo que conviene. 
 
 Cuando los hijos de tus invitadas son pequeños. El [Castillo Baby, que también entra en interiores](/inflables/mini-castillo/), mide 2.5 × 2 × 2 m, es para niños de 1 a 3 años y se instala en 15 minutos. Cabe en una sala despejada o una terraza. Es compacto. Y es suyo.
 
+![Inflable Castillo Baby instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-castillo/mini-castillo-jardin-eventos.avif "Castillo Baby en un jardín de eventos")
+
 ### Cuándo conviene el Castillo Blanco
 
 Cuando los niños ya van al kínder o a la primaria. El Castillo Blanco mide 5 × 7 × 4 m, recibe a niños de 3 a 12 años y es blanco, así que se integra con tu decoración sin que tengas que esconderlo detrás de globos o cambiar la paleta que ya elegiste para el baby shower. Va solo en exterior, con 4.7 m de altura libre.

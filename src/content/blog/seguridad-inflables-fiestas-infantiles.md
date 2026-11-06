@@ -178,3 +178,5 @@ Un punto que muchos proveedores dejan ambiguo: **BRINCOLINS no ofrece seguro**. 
 ## Siguiente paso
 
 Elige el modelo según la edad de tus invitados y el espacio que tienes: el [Castillo Baby](/inflables/mini-castillo/) para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas o el [Extremo](/inflables/extremo/) para niños que buscan reto. Después, [solicita tu cotización](/cotizar/) con la foto del área y te confirmamos anclaje, capacidad y envío a tu zona.
+
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")

@@ -59,6 +59,8 @@ El niño entra por una boca, avanza y sale por otra. No hay un centro donde todo
 
 Un brincolín clásico tiene una cámara de salto con paredes o mallas. Puede llevar resbaladilla o decoración temática. Pero el juego principal es brincar. El [brincolín Dragones Rojos](/inflables/dragones-rojos/) y la Jungla son los ejemplos, y tienes la lista completa en los [brincolines del catálogo](/inflables/brincolines/).
 
+![Inflable Dragones Rojos instalado en el área verde común de una privada](/img/inflables/dragones-rojos/dragones-rojos-privada-condominio.avif "Dragones Rojos en el área común de una privada")
+
 ¿Tu duda real es entre brincolín y tobogán? Ese es otro tema. Te lo resolvemos en [brincolín clásico contra tobogán inflable](/blog/brincolin-vs-tobogan-inflable-cdmx/).
 
 ## ¿Qué modelos del catálogo son circuito y cuáles brincolín?
@@ -76,6 +78,8 @@ Esta tabla compara los cinco modelos por tipo, medidas, altura libre, edades y p
 | Castillo Baby | Compacto para bebés | 2.5 × 2 × 2 m | 3.2 m | Sí | 1 a 3 años | $1,400 |
 
 Tres lecturas rápidas para ti. El único circuito que entra bajo techo es el Gusanitos. Los brincolines empiezan en 3 años. Y si buscas un circuito para niños mayores, el [circuito Extremo con pista de obstáculos](/inflables/extremo/) mide 8 m, lleva tobogán doble y doble carril para competencias, y cubre de 3 a 12 años.
+
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
 
 La Jungla es aventura tropical con dinosaurios, palmeras y colores de selva; el detalle está en el [brincolín Jungla de selva](/inflables/mini-jungla/). Los Dragones Rojos llevan dos dragones decorativos de unos 3 m, resbaladilla integrada y mallas de seguridad laterales.
 

@@ -41,6 +41,8 @@ faqs:
 
 Si hay un **niño con miedo al inflable**, no lo metas ni lo convenzas con presión. Deja que observe, pregúntale qué le inquieta y ofrécele una prueba breve con salida fácil. El [inflable Gusanitos, un circuito de túneles](/inflables/gusanitos/) para 2 a 8 años, puede ayudar porque tiene varias entradas y salidas visibles. Entrar siempre es decisión del niño.
 
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+
 **Puntos clave**
 
 - Ruido, movimiento, un grupo intenso o no conocer la salida son causas comunes de inquietud.
@@ -141,6 +143,8 @@ Una propuesta de [juegos y decoración en una fiesta arcoíris](/blog/decoracion
 Primero compara la edad de los invitados y el lugar. Gusanitos está indicado para 2 a 8 años, mide 5 × 3 × 2.80 m y puede instalarse bajo techo con 3.2 m de altura libre. La base debe ir en una superficie plana, despejada y sin objetos punzantes; también se requiere una toma de 110 V a menos de 20 m. La viabilidad del espacio y la capacidad se confirman al cotizar.
 
 No elijas únicamente porque crees que “lo obligará a socializar”. Un inflable es una actividad dentro de la fiesta, no una prueba. Si habrá niños de un año, el modelo indicado por edad es el [Castillo Baby para niñas y niños de 1 a 3 años](/inflables/mini-castillo/). Si quieres revisar cómo cambia la elección para los más pequeños, consulta también [desde qué edad puede usar un bebé un brincolín](/blog/mejor-inflable-para-ninos-menores-de-3-anos/).
+
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 También importa la fecha y el sitio. Si vas a usar salón o terraza techada, mide al punto más bajo del techo antes de reservar decoración. En los [inflables para interiores de BRINCOLINS](/inflables/para-interiores/) puedes ubicar los modelos que parten de esa condición, pero la confirmación final se hace con los datos reales de tu espacio.
 

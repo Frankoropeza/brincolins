@@ -84,6 +84,8 @@ Las temáticas más pedidas para niñas suelen ir hacia princesas, unicornios, h
 
 Para una fiesta de princesas con inflable, el [Castillo de Princesas para niñas y niños de 2 a 10 años](/inflables/castillo-princesas/) marca la paleta: puedes tomar sus colores para los centros de mesa y que todo se vea parte de la misma idea.
 
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+
 ## ¿Hechos en casa o comprados? Comparativa por presupuesto
 
 No hay una opción mejor; depende de cuánto tiempo tienes y de cuántas mesas vas a vestir. Así se comparan:

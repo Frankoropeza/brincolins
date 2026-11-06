@@ -171,6 +171,8 @@ Esta tabla compara la altura libre que pide cada inflable mediano y grande del c
 
 Mide con cinta desde el piso hasta el punto más bajo de la rama o del cable. ¿Menos de 4.5 m? El Dragones Rojos no entra ahí. Con 4.2 m, la [Jungla, que mide 2.50 m de alto](/inflables/mini-jungla/), sí puede. En el otro extremo, el [inflable Barco Pirata](/inflables/barco-pirata/) pide 5.2 m y es de los que más espacio vertical necesitan. Si tu lugar es techado, el [Gusanitos, el mediano que va bajo techo](/inflables/gusanitos/), es la opción.
 
+![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
+
 Respecto a muros y bardas: deja espacio para que el inflable no quede recargado. Evita colocarlo junto a escalones, albercas, macetas grandes o bordes de terraza. Si tienes duda, pregúntanos.
 
 ## ¿Funcionan la azotea, la terraza o la cochera?
