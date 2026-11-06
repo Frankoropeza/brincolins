@@ -4,7 +4,7 @@ h1: "Salón de fiestas o fiesta en casa en CDMX: cómo decidir según invitados,
 description: "Compara salón de fiestas y fiesta en casa por invitados, espacio, clima, horario y costo total, y ve dónde cabe el inflable. Incluye checklist."
 excerpt: "La casa da libertad y ahorra; el salón da espacio y resuelve la limpieza. Una guía para decidir según tus invitados, tu espacio, tu presupuesto y dónde va a ir el inflable."
 publishDate: "2026-11-04"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-06"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "10 min"
@@ -130,7 +130,7 @@ Sí, y muchas veces son la mejor respuesta:
 | Jardín de eventos o quinta | Lista grande, quieres espacio exterior | Proveedores externos, horario y contacto |
 | Parque público | Espacio abierto, presupuesto corto | Permiso con la alcaldía o la administración del parque; contacto de luz |
 
-Si vives en una privada, la guía de [fiesta en privada o condominio](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/) explica qué pedir a la administración. Si la lista es grande y piensas en un jardín de eventos, la de [fiesta en quinta o jardín de eventos](/blog/fiesta-en-quinta-o-jardin-de-eventos-edomex/) cubre lo que conviene revisar.
+Si vives en una privada, la guía de [fiesta en privada o condominio](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/) explica qué pedir a la administración. Si la lista es grande y piensas en un jardín de eventos, la de [fiesta en quinta o jardín de eventos](/blog/fiesta-en-quinta-o-jardin-de-eventos-edomex/) cubre lo que conviene revisar. Si quieres ver también ludotecas, restaurantes con área infantil y parques, la guía de [dónde festejar cumpleaños de niños en CDMX y Edomex](/blog/donde-festejar-cumpleanos-de-ninos-cdmx/) compara los ocho tipos de lugar.
 
 ## ¿Cómo cambia la decisión según la zona?
 

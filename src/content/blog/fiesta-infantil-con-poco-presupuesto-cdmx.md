@@ -4,7 +4,7 @@ h1: "Fiesta infantil con poco presupuesto en CDMX: en qué gastar, dónde recort
 description: "Arma una fiesta infantil con poco presupuesto en CDMX: qué partidas priorizar, dónde recortar sin que se note y qué inflable rinde más. Cotiza en línea."
 excerpt: "Con poco presupuesto, la fiesta se gana eligiendo bien dos o tres cosas y soltando el resto. Qué priorizar, qué hacer en casa y cómo el inflable puede cubrir casi todo el entretenimiento."
 publishDate: "2026-11-04"
-updatedDate: "2026-11-05"
+updatedDate: "2026-11-06"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "9 min"
@@ -130,7 +130,7 @@ En lo que los niños no ven y los adultos olvidan al día siguiente.
 ### Comida
 
 - **Horario de merienda en vez de comida completa.** Una fiesta de 4 a 8 de la tarde pide botana y pastel, no tres tiempos.
-- **Menú casero que rinde:** tacos de guisado, sándwiches, molletes, tostadas, sopa de pasta.
+- **Menú casero que rinde:** tacos de guisado, sándwiches, molletes, tostadas, sopa de pasta. La guía de [comida para fiesta infantil con ideas de menú económico](/blog/comida-para-fiesta-infantil-menu-ideas/) compara cuánto rinde cada opción y qué se prepara un día antes.
 - **Aguas frescas en garrafón** en vez de refrescos individuales.
 
 ### Pastel y dulces

@@ -4,7 +4,7 @@ h1: "Fiesta de sirenas y piratas con el Barco Pirata inflable: paleta, zonas, ju
 description: "Fiesta de sirenas y piratas para hermanos o grupos mixtos: paleta, decoración de mar, búsqueda del tesoro y mesa con el Barco Pirata. Cotiza tu fecha."
 excerpt: "Una pide sirenas, el otro quiere piratas y el presupuesto alcanza para una fiesta. Así se arma un solo mar para los dos, con el barco inflable al centro."
 publishDate: "2026-10-01"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-06"
 category: "Barco Pirata"
 author: "Equipo BRINCOLINS"
 readTime: "15 min"
@@ -146,6 +146,8 @@ Juegos tranquilos, sin agua y con algo que llevarse a casa. Mientras una tripula
 - **El canto de las sirenas.** Un juego de estatuas: cuando para la música, los piratas quedan hechizados y nadie se mueve.
 - **Rescate en la red.** Una red de tela sobre el pasto con peces de cartón que se sacan con cucharas de madera, por equipos.
 - **Collares de perlas.** Cuentas grandes e hilo grueso para los mayores de 5 años; los chicos pegan estrellas.
+
+Si a la festejada le gustan más las playas que el fondo del mar, la [fiesta hawaiana infantil con inflable](/blog/fiesta-hawaiana-infantil-con-inflable/) usa los mismos juegos de estatuas y collares con limbo y hula hula.
 
 ![Barco Pirata inflable en un patio soleado junto a un castillo inflable de colores](/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif)
 

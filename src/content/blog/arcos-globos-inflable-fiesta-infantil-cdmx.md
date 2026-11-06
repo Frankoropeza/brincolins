@@ -4,7 +4,7 @@ h1: "Arcos de globos e inflables: cómo combinarlos en una fiesta infantil en CD
 description: "Aprende a combinar arcos de globos con un inflable: colores por modelo, acomodo del espacio, orden de instalación y presupuesto. Cotiza tu evento completo."
 excerpt: "Las fiestas infantiles más fotografiadas en CDMX combinan un inflable llamativo con una decoración de globos bien coordinada. Aquí verás cómo elegir colores, distribuir el espacio y planear las fotos que más se buscan."
 publishDate: "2026-06-03"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-06"
 category: "Decoración"
 author: "Equipo BRINCOLINS"
 readTime: "14 min"
@@ -92,7 +92,7 @@ Coloca esta zona de modo que, en una foto amplia, aparezcan ambos elementos en e
 
 ### Zona 4: las mesas de adultos y el área de descanso
 
-Aquí la decoración puede ser más sutil: centros de mesa con globos en los colores de la temática, guirnaldas de letras o números con la edad del festejado, servilleteros temáticos. No hace falta saturar. En nuestra experiencia, los adultos prefieren ver bien a los niños y sentarse cómodos antes que cualquier exceso decorativo.
+Aquí la decoración puede ser más sutil: centros de mesa con globos en los colores de la temática, guirnaldas de letras o números con la edad del festejado, servilleteros temáticos. No hace falta saturar. En nuestra experiencia, los adultos prefieren ver bien a los niños y sentarse cómodos antes que cualquier exceso decorativo. Si vas a armarlos tú, revisa estas [ideas de centros de mesa para fiesta infantil por temática y presupuesto](/blog/centros-de-mesa-para-cumpleanos-infantil/), con medidas para que no tapen la vista.
 
 ![Jardín con mesas, sillas y arco de globos en la entrada, con la zona de juego despejada al fondo](/img/blog/arcos-globos-inflable-fiesta-infantil-cdmx/escena-1.avif "Cada elemento en su zona: arco en la entrada, mesas a un lado y el área de juego libre")
 
@@ -177,9 +177,9 @@ Este es un rango orientativo para distintas escalas de evento:
 
 | Tipo de evento | Inflable BRINCOLINS | Decoración DEGLOB | Total aproximado |
 |---|---|---|---|
-| Fiesta íntima (hasta 20 niños) | $1,400 – $2,600 MXN | $800 – $1,500 MXN | Se confirma al cotizar |
-| Fiesta mediana (20 a 50 niños) | $1,400 – $2,600 MXN | $1,500 – $3,000 MXN | Se confirma al cotizar |
-| Fiesta grande (más de 50 niños) | $1,400 – $2,600 MXN | $3,000 – $6,000 MXN | Se confirma al cotizar |
+| Fiesta íntima (hasta 20 niños) | $1,400 a $2,600 MXN | $800 a $1,500 MXN | Se confirma al cotizar |
+| Fiesta mediana (20 a 50 niños) | $1,400 a $2,600 MXN | $1,500 a $3,000 MXN | Se confirma al cotizar |
+| Fiesta grande (más de 50 niños) | $1,400 a $2,600 MXN | $3,000 a $6,000 MXN | Se confirma al cotizar |
 
 Los precios de los inflables de BRINCOLINS incluyen instalación y retiro, y están publicados modelo por modelo en la [página de precios](/precios/). Son netos: el IVA se suma solo si necesitas factura, y el traslado depende de la zona (sin costo en varias colonias céntricas, con cargo en municipios lejanos de Edomex y en algunas alcaldías del sur y oriente). Para armar el resto del presupuesto de la fiesta, consulta [cuánto cuesta una fiesta infantil en CDMX](/blog/cuanto-cuesta-una-fiesta-infantil-cdmx-presupuesto/).
 

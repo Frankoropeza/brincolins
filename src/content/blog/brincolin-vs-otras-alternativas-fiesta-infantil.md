@@ -4,7 +4,7 @@ h1: "¿Brincolín, payaso, show o trampolín? Comparativa real para tu fiesta in
 description: "Brincolín, payaso, show, cama elástica o salón: costo por hora, edades y espacio de cada opción. Compara con precios de CDMX y elige sin gastar de más."
 excerpt: "¿Conviene más rentar un inflable, contratar un show o llevar la fiesta a un salón de juegos? Comparativa honesta con precios reales de CDMX para decidir sin gastar de más."
 publishDate: "2026-07-04"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-06"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "9 min"
@@ -48,10 +48,10 @@ Si tienes jardín, patio o un techo de más de 3.2 m, el brincolín suele ser la
 
 | Opción | Costo típico CDMX | Duración | Edades | Espacio requerido |
 |---|---|---|---|---|
-| **Brincolín / inflable** | $1,400 – $2,600 MXN | Todo el evento (4 a 6 h) | 1 a 12 años | Se confirma al cotizar |
-| **Payaso / show infantil** | $2,500 – $6,000 MXN | 1 a 2 horas | 3 a 9 años | Mínimo |
-| **Cama elástica / trampolín** | $700 – $1,500 MXN | Todo el evento | 5 años en adelante | 4 × 4 m aprox. |
-| **Salón de juegos** | $250 – $500 MXN por niño | 2 a 3 horas | 2 a 12 años | No aplica |
+| **Brincolín / inflable** | $1,400 a $2,600 MXN | Todo el evento (4 a 6 h) | 1 a 12 años | Se confirma al cotizar |
+| **Payaso / show infantil** | $2,500 a $6,000 MXN | 1 a 2 horas | 3 a 9 años | Mínimo |
+| **Cama elástica / trampolín** | $700 a $1,500 MXN | Todo el evento | 5 años en adelante | 4 × 4 m aprox. |
+| **Salón de juegos** | $250 a $500 MXN por niño | 2 a 3 horas | 2 a 12 años | No aplica |
 
 ## ¿Por qué el brincolín es la opción más usada?
 
@@ -71,7 +71,7 @@ Un buen show concentra a todos los niños en una sola actividad y crea un moment
 
 ## ¿Una cama elástica o trampolín sale mejor?
 
-Es más barata que un inflable mediano, pero con limitaciones serias: recibe a 1 o 2 niños a la vez (la fila se hace larga), no tiene temática visual y el riesgo de lesiones aumenta sin red y supervisión constante. Un inflable mediano recibe a varios niños a la vez por poco más dinero (la capacidad exacta se confirma al cotizar); la cuenta completa está en la [guía para elegir el tamaño de inflable](/blog/como-elegir-inflable-fiesta-infantil/). Si quieres más ideas de actividades por edad, revisa los [juegos para fiesta infantil por edad](/blog/juegos-para-fiesta-infantil-ideas-por-edad/).
+Es más barata que un inflable mediano, pero con limitaciones serias: recibe a 1 o 2 niños a la vez (la fila se hace larga), no tiene temática visual y el riesgo de lesiones aumenta sin red y supervisión constante. Un inflable mediano recibe a varios niños a la vez por poco más dinero (la capacidad exacta se confirma al cotizar); la cuenta completa está en la [guía para elegir el tamaño de inflable](/blog/como-elegir-inflable-fiesta-infantil/). Si lo que estás pensando es comprar una cama elástica para que tus hijos la usen en casa, la guía de [trampolín para niños: comprar o rentar un inflable](/blog/trampolin-para-ninos-comprar-o-rentar-inflable/) compara espacio, edades, seguridad y mantenimiento. Si quieres más ideas de actividades por edad, revisa los [juegos para fiesta infantil por edad](/blog/juegos-para-fiesta-infantil-ideas-por-edad/).
 
 ## ¿Cuándo tiene sentido el salón de juegos?
 

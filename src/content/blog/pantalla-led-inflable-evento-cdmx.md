@@ -4,7 +4,7 @@ h1: "Pantalla LED e inflable en un mismo evento: distribución, corriente, segur
 description: "Combina pantalla LED e inflable en tu evento: modelos que lucen más, distribución del espacio, corriente separada y coordinación. Incluye checklist."
 excerpt: "Una pantalla LED y un inflable se potencian: el movimiento de los niños es el mejor contenido para la pantalla, y la pantalla lo convierte en espectáculo para todo el salón."
 publishDate: "2026-06-06"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-06"
 category: "Eventos"
 author: "Equipo BRINCOLINS"
 readTime: "12 min"
@@ -85,7 +85,7 @@ Con el Extremo y su circuito de obstáculos en doble carril, la pantalla puede m
 
 ### Ambiente visual de noche
 
-En eventos nocturnos al aire libre, como azoteas, jardines y terrazas, la pantalla aporta luz y cambia la percepción del lugar. Los colores del inflable resaltan con la oscuridad de fondo y las fotos de los invitados salen vistosas sin edición. Aun así, la zona del inflable necesita su propia iluminación, como explicamos más abajo.
+En eventos nocturnos al aire libre, como azoteas, jardines y terrazas, la pantalla aporta luz y cambia la percepción del lugar. Los colores del inflable resaltan con la oscuridad de fondo y las fotos de los invitados salen vistosas sin edición. Aun así, la zona del inflable necesita su propia iluminación, como explicamos más abajo. Si la fiesta tiene temática nocturna, la guía de [fiesta neón infantil con inflable y luz negra](/blog/fiesta-neon-infantil-con-inflable/) explica cómo separar la zona glow del área de brinco.
 
 ## ¿Cómo distribuir pantalla, inflable y mesas?
 

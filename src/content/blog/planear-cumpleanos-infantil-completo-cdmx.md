@@ -4,7 +4,7 @@ h1: "Cómo planear un cumpleaños infantil completo en CDMX: calendario, presupu
 description: "Planea el cumpleaños infantil paso a paso: calendario de 6 semanas, presupuesto, inflable por edad, temáticas, lugar, proveedores y seguridad."
 excerpt: "La guía central del blog: qué hacer 6 semanas antes, cuánto cuesta, qué inflable va con cada edad, cómo elegir temática y lugar, y cómo coordinar proveedores sin estrés."
 publishDate: "2026-06-12"
-updatedDate: "2026-11-05"
+updatedDate: "2026-11-06"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "16 min"
@@ -177,7 +177,7 @@ Para decorar alrededor del inflable, revisa la [decoración de fiesta infantil c
 
 ## ¿Dónde hacer la fiesta y cómo saber si cabe el inflable?
 
-El lugar define casi todo lo demás. Si todavía no decides, empieza por [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/). Antes de elegir modelo, mide largo, ancho y altura libre, y compáralos con la [tabla de medidas de inflables](/blog/medidas-de-inflables-para-fiestas-tabla/).
+El lugar define casi todo lo demás. Si todavía no decides, empieza por [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/). Si buscas más opciones, revisa los [lugares para festejar cumpleaños de niños en CDMX](/blog/donde-festejar-cumpleanos-de-ninos-cdmx/) con pros, contras y qué preguntar. Antes de elegir modelo, mide largo, ancho y altura libre, y compáralos con la [tabla de medidas de inflables](/blog/medidas-de-inflables-para-fiestas-tabla/).
 
 | Tu espacio | Qué revisar | Guía |
 |---|---|---|

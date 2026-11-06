@@ -4,7 +4,7 @@ h1: "Castillo inflable pequeño para casa: cómo decidir entre rentar y comprar 
 description: "¿Rentar o comprar un castillo inflable pequeño? Compara espacio, guardado, motor y seguridad, con el precio real del Castillo Baby en CDMX. Decide bien."
 excerpt: "Un inflable propio parece práctico para una fiesta pequeña, pero el costo real también incluye guardado, revisión, motor y responsabilidad de uso. Esta guía te ayuda a elegir según tu caso."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-06"
 category: "Castillo Baby"
 author: "Equipo BRINCOLINS"
 readTime: "14 min"
@@ -99,7 +99,7 @@ No se pueden generalizar la lona, el motor, el peso plegado ni las indicaciones 
 4. La forma de limpiar y secar la lona antes de guardarla, conforme a las instrucciones del producto.
 5. La disponibilidad de refacciones, reparación o soporte si aparece una fuga o falla.
 
-La compra puede convenir si estas respuestas están resueltas antes de pagar, no si quedan como tareas para después del cumpleaños. Cuando el uso real será esporádico, una renta concentra el esfuerzo en disfrutar una fecha específica en lugar de añadir un equipo más a la casa.
+La compra puede convenir si estas respuestas están resueltas antes de pagar, no si quedan como tareas para después del cumpleaños. Cuando el uso real será esporádico, una renta concentra el esfuerzo en disfrutar una fecha específica en lugar de añadir un equipo más a la casa. Si la compra que estás considerando es una cama elástica y no un inflable, revisa la guía sobre [trampolín para niños o inflable rentado](/blog/trampolin-para-ninos-comprar-o-rentar-inflable/) antes de decidir.
 
 ## ¿Qué espacio necesita un castillo inflable pequeño para casa?
 

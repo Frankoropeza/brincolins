@@ -4,7 +4,7 @@ h1: "Seguridad en inflables: lo que debes revisar antes, durante y después de l
 description: "Revisa el inflable al llegar, elige el anclaje según tu piso, organiza la supervisión y sabe cuándo desinflar. Guía para papás con checklist y tablas."
 excerpt: "Un brincolín es pura diversión, pero como cualquier juego tiene reglas básicas. Con un buen proveedor, anclaje correcto y un adulto en la entrada, el riesgo es mínimo."
 publishDate: "2025-03-15"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-06"
 category: "Seguridad"
 author: "Equipo BRINCOLINS"
 readTime: "10 min"
@@ -70,7 +70,7 @@ Si te interesa cómo se deja listo el equipo entre una fiesta y otra, lo contamo
 Comunícalas a los niños antes de empezar. Funcionan mejor si el adulto supervisor las repite en la entrada.
 
 1. **Sin zapatos adentro.** Los zapatos de punta dura pueden perforar el vinilo y lastimar a otros niños.
-2. **Sin objetos punzantes.** Horquillas, cinturones con hebilla y juguetes se quedan afuera.
+2. **Sin objetos punzantes.** Horquillas, cinturones con hebilla y juguetes se quedan afuera. La guía de [ropa para fiesta infantil con inflable](/blog/que-ropa-llevar-a-una-fiesta-infantil-con-inflable/) detalla qué ponerles a los niños para brincar.
 3. **Respetar la capacidad máxima.** Es el dato del modelo, no una sugerencia, y se confirma al cotizar.
 4. **Separar edades.** Un niño de 12 años puede lastimar sin querer a uno de 3. Si tus invitados tienen edades muy distintas, conviene rentar dos modelos: uno de la [categoría de inflables chicos](/inflables/chicos/) para los pequeños y otro para los grandes.
 5. **Un adulto supervisa siempre.** El inflable nunca se queda solo, ni un minuto.

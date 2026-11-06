@@ -4,7 +4,7 @@ h1: "Fiesta mexicana infantil con inflable: noche mexicana, antojitos para niño
 description: "Fiesta mexicana infantil en CDMX: antojitos para niños, lotería, juegos tradicionales, papel picado tricolor e inflable, con plan para lluvia. Cotiza ya."
 excerpt: "Ideas para una noche mexicana o fiesta patria para niños: menú de antojitos sin picante, lotería, canicas, balero, carrera de costales, decoración tricolor y qué hacer si llueve en septiembre."
 publishDate: "2026-11-05"
-updatedDate: "2026-11-05"
+updatedDate: "2026-11-06"
 category: "Eventos"
 author: "Equipo BRINCOLINS"
 readTime: "13 min"
@@ -148,7 +148,7 @@ La decoración mexicana tiene una ventaja: es barata, colorida y se consigue en 
 
 ### Disfraces de charro y china poblana
 
-Muchos niños llegan vestidos con traje típico. Pueden brincar con la ropa del traje, pero antes se quitan sombrero, rebozo, moño, aretes, collares, botas y zapatos. Deja una caja en la entrada del inflable y un adulto que la cuide.
+Muchos niños llegan vestidos con traje típico. Pueden brincar con la ropa del traje, pero antes se quitan sombrero, rebozo, moño, aretes, collares, botas y zapatos. Deja una caja en la entrada del inflable y un adulto que la cuide. Si el traje de charro es el tema de toda la fiesta, la guía de [fiesta charra infantil con jaripeo de caballitos de palo](/blog/fiesta-charra-y-vaquera-infantil-con-inflable/) tiene decoración, juegos y menú propios.
 
 ## ¿Qué inflable elegir para una fiesta mexicana?
 

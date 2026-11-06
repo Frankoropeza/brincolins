@@ -4,7 +4,7 @@ h1: "Cómo organizar una fiesta spa para niñas con inflable sin perder el ritmo
 description: "Fiesta spa para niñas con inflable: cómo repartir el espacio, qué estaciones montar y un horario de 3 horas que alterna brinco y calma. Cotiza en CDMX."
 excerpt: "Una fiesta spa puede tener esmaltes, pijamas y actividades sentadas sin dejar que el Castillo de Princesas se vuelva un rincón aislado. El orden de las estaciones hace que ambas partes funcionen."
 publishDate: "2026-11-02"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-06"
 category: "Castillo de Princesas"
 author: "Equipo BRINCOLINS"
 readTime: "14 min"
@@ -90,7 +90,7 @@ Un plan de tres horas permite que la energía suba y baje sin forzar a las niña
 
 El primer turno permite que las niñas se ubiquen y gasten energía antes de sentarse. La estación spa después les baja el ritmo sin cortar la diversión. Tras los alimentos, decide si conviene un segundo turno de juego o si el grupo ya está listo para fotos y una actividad tranquila. Para una festejada de siete años, puedes tomar ideas de retos y bloques en la [planeación de fiesta de 7 años con castillo](/blog/fiesta-de-7-anos-nina-ideas-castillo/) sin transformar la tarde en una competencia.
 
-Si el plan es una fiesta de pijamas, el castillo es una actividad de tarde. Deja la lectura, película, cena o sleeping bags para después, en el espacio interior. Así no intentas instalar un modelo de exterior dentro de una sala ni haces que los accesorios de pijamada circulen por el área de brinco.
+Si el plan es una fiesta de pijamas, el castillo es una actividad de tarde. Deja la lectura, película, cena o sleeping bags para después, en el espacio interior. Así no intentas instalar un modelo de exterior dentro de una sala ni haces que los accesorios de pijamada circulen por el área de brinco. Para el plan completo de la noche, revisa la guía de [pijamada infantil: ideas, reglas y cronograma](/blog/pijamada-infantil-con-inflable-ideas/).
 
 ## ¿Qué estaciones spa son fáciles de vigilar en una fiesta infantil?
 

@@ -4,7 +4,7 @@ h1: "Invitaciones de cumpleaños para niños: cuándo enviarlas, qué datos pone
 description: "Invitaciones de cumpleaños para niños: cuántas semanas antes enviarlas, qué datos incluir, textos de ejemplo y cómo pedir confirmación. Úsala hoy."
 excerpt: "Cuándo mandar las invitaciones, los datos que no pueden faltar (horario de fin, ropa para el inflable, alergias), textos de ejemplo listos para copiar y cómo pedir confirmación sin perseguir a nadie."
 publishDate: "2026-11-05"
-updatedDate: "2026-11-05"
+updatedDate: "2026-11-06"
 category: "Guías"
 author: "Equipo BRINCOLINS"
 readTime: "12 min"
@@ -112,7 +112,7 @@ Tres líneas resuelven casi todo:
 - "No olvides calcetines: al inflable se entra sin zapatos."
 - "Habrá un adulto supervisando el inflable todo el tiempo."
 
-La tercera línea tranquiliza a las familias que no conocen el lugar. Y es real: el inflable necesita supervisión adulta durante todo el evento. Si la fiesta es en una privada o un condominio, revisa también la guía para [fiestas infantiles en privada o condominio](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/), que incluye qué avisar a la administración y a los invitados sobre el acceso.
+La tercera línea tranquiliza a las familias que no conocen el lugar. Si te preguntan qué más deben traer, la guía de [qué ropa llevar a una fiesta infantil con inflable](/blog/que-ropa-llevar-a-una-fiesta-infantil-con-inflable/) explica qué accesorios dejar en casa y qué outfit funciona para los adultos. Y es real: el inflable necesita supervisión adulta durante todo el evento. Si la fiesta es en una privada o un condominio, revisa también la guía para [fiestas infantiles en privada o condominio](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/), que incluye qué avisar a la administración y a los invitados sobre el acceso.
 
 ![Mano de un adulto escribiendo nombres en sobres de colores sobre una mesa de comedor, con una lista de invitados impresa al lado y luz de tarde](/img/blog/invitaciones-fiesta-infantil-cuando-enviar/escena-1.avif "Tener la lista de invitados a la mano mientras escribes los sobres evita repetir u olvidar a alguien")
 
