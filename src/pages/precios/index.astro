@@ -3,7 +3,6 @@ import { anchorInflable } from "@/data/anchors";
 import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
-import FaqItem from "@/components/FaqItem.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import { INFLABLES_ACTIVOS } from "@/data/inflables";
@@ -572,23 +571,6 @@ const faqs = [
             <span class="pr-ventaja__stat-txt">modelos de $1,400 a $2,600</span>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- FAQ DE PRECIOS -->
-  <section class="section">
-    <div class="container">
-      <SectionHeader
-        badge="Preguntas frecuentes"
-        title="¿Qué dudas hay sobre precios y pagos?"
-        subtitle="Todo lo que necesitas saber sobre costos, anticipos y formas de pago."
-        copy1="Reunimos las dudas más comunes sobre precios de renta de inflables en CDMX para que no tengas que buscar más. Si algo no quedó claro, escríbenos directamente por WhatsApp."
-        copy2=""
-      />
-      <div style="max-width: 800px; margin: 0 auto;">
-        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
       </div>
     </div>
   </section>

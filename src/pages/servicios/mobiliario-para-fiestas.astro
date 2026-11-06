@@ -2,7 +2,6 @@
 import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
-import FaqItem from "@/components/FaqItem.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import Gallery4x4 from "@/components/Gallery4x4.astro";
@@ -247,22 +246,6 @@ const faqs = [
             <p class="why-card__desc">Llegamos a la hora acordada, acomodamos la mesa y las sillas. Al terminar el evento, recogemos todo según lo acordado.</p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="section section--alt">
-    <div class="container">
-      <SectionHeader
-        badge="FAQ"
-        title="Preguntas sobre renta de mobiliario para fiestas en CDMX"
-        subtitle="Todo lo que necesitas saber sobre la renta de mobiliario."
-        copy1="Rentar mobiliario para tu fiesta no tiene por qué ser complicado. Aquí respondemos las dudas más frecuentes de nuestros clientes para que tomes la mejor decisión para tu evento."
-        copy2="Recuerda que puedes elegir la mesa infantil o uno de los dos paquetes publicados. Escríbenos por WhatsApp para confirmar disponibilidad y traslado."
-      />
-      <div style="max-width:800px; margin:0 auto;">
-        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
       </div>
     </div>
   </section>

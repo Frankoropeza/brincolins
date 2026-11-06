@@ -3,7 +3,6 @@ import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import ProductCard from "@/components/ProductCard.astro";
-import FaqItem from "@/components/FaqItem.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import PricingCards from "@/components/PricingCards.astro";
@@ -260,22 +259,6 @@ const faqs = [
             </div>
           </div>
         ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="section section--alt">
-    <div class="container">
-      <SectionHeader
-        badge="Preguntas frecuentes"
-        title="Preguntas frecuentes sobre renta de inflables"
-        subtitle="Resolvemos tus dudas antes de reservar."
-        copy1="Sabemos que organizar una fiesta implica muchas decisiones. Aquí respondemos las preguntas más comunes que recibimos para que tengas toda la información antes de reservar."
-        copy2="Si tu pregunta no aparece aquí, escríbenos por WhatsApp. Nuestro equipo está listo para ayudarte con disponibilidad, modelos o cobertura en tu zona."
-      />
-      <div style="max-width:800px; margin:0 auto;">
-        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
       </div>
     </div>
   </section>

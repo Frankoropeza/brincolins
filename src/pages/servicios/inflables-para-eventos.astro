@@ -2,7 +2,6 @@
 import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
-import FaqItem from "@/components/FaqItem.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import Gallery4x4 from "@/components/Gallery4x4.astro";
@@ -418,23 +417,6 @@ const faqs = [
 
       <div class="text-center mt-3">
         <a href="/cotizar/" class="btn btn-primary btn-lg">Iniciar cotización de evento</a>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- FAQ ESPECÍFICO PARA EVENTOS -->
-  <section class="section">
-    <div class="container">
-      <SectionHeader
-        badge="Preguntas Frecuentes"
-        title="Dudas sobre inflables para eventos"
-        subtitle="Las preguntas más frecuentes de organizadores, coordinadores de RRHH y directivos escolares."
-        copy1="Reunimos las preguntas más comunes que recibimos de organizadores de eventos profesionales para que tengas toda la información antes de contactarnos. Si algo no quedó claro, escríbenos directamente."
-        copy2=""
-      />
-      <div style="max-width: 800px; margin: 0 auto;">
-        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
       </div>
     </div>
   </section>

@@ -44,6 +44,9 @@ export interface Props {
       pool universal; con él, recibe primero las preguntas de su propio
       tema — la zona que se está viendo, el modelo, el tramo de precio. */
   faqContext?:  FaqContext;
+  /** false en /preguntas-frecuentes/: ahí las preguntas de la página son
+      el contenido mismo, no se repiten en el pre-footer. */
+  faqEnPrefooter?: boolean;
 }
 
 const {
@@ -60,12 +63,23 @@ const {
   noindex,
   servicio,
   faqContext,
+  faqEnPrefooter = true,
 } = Astro.props;
 
 /* Las preguntas del pre-footer viven en src/data/faqPool.ts, que sirve un
    bloque distinto según el tipo de página (zona, ficha, categoría, precio…)
-   y completa con el pool universal. Aquí sólo se resuelve el contexto. */
-const resolvedFaqs = faqsPrefooter(faqContext ?? { tipo: "generico" }, faqItems ?? [], 8);
+   y completa con el pool universal.
+   Las preguntas propias de la página (faqItems) van primero: el pre-footer
+   es el único módulo de FAQ de cada página, y el schema FAQPage que arma
+   BaseLayout con faqItems coincide así con lo que se ve. */
+const ctx = faqContext ?? { tipo: "generico" as const };
+const TEMA: Record<FaqContext["tipo"], string> = {
+  home: "General", zona: "Zona", producto: "Modelo", categoria: "Categoría", precio: "Precio",
+  cotizar: "Reserva", servicio: "Servicio", blog: "Guía", directorio: "Salones", cerca: "Cobertura", generico: "General",
+};
+const propias = faqEnPrefooter ? (faqItems ?? []).map((f) => ({ ...f, tag: TEMA[ctx.tipo] })) : [];
+const faltan = 8 - propias.length;   // faqsPrefooter no acepta límite 0: devolvería todo el pool
+const resolvedFaqs = [...propias, ...(faltan > 0 ? faqsPrefooter(ctx, faqItems ?? [], faltan) : [])];
 ---
 
 <BaseLayout

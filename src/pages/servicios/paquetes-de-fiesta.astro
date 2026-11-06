@@ -2,7 +2,6 @@
 import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
-import FaqItem from "@/components/FaqItem.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import Gallery4x4 from "@/components/Gallery4x4.astro";
@@ -226,22 +225,6 @@ const faqs = [
             <p class="why-card__desc">Llegamos puntualmente con todo el equipo, instalamos cada elemento y al finalizar recogemos. Tú solo disfruta tu fiesta.</p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="section">
-    <div class="container">
-      <SectionHeader
-        badge="FAQ"
-        title="Preguntas sobre paquetes de inflables para fiestas en CDMX"
-        subtitle="Todo sobre nuestros paquetes de fiesta."
-        copy1="Entendemos que elegir el paquete correcto puede generar dudas. Aquí recopilamos las preguntas más comunes de nuestros clientes para ayudarte a tomar la mejor decisión para tu celebración."
-        copy2="Si después de leer estas respuestas aún tienes preguntas, nuestro equipo está disponible por WhatsApp para darte una asesoría personalizada sin compromiso. Queremos que tengas toda la información que necesitas antes de decidir."
-      />
-      <div style="max-width:800px; margin:0 auto;">
-        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
       </div>
     </div>
   </section>

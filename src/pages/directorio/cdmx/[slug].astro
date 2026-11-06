@@ -17,7 +17,6 @@ import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import VenueCard from "@/components/VenueCard.astro";
 import ProductCard from "@/components/ProductCard.astro";
-import FaqItem from "@/components/FaqItem.astro";
 import { SALONES_CDMX } from "@/data/directorio";
 import { SITE_URL } from "@/data/site";
 
@@ -376,24 +375,6 @@ const mapsHref = `https://www.google.com/maps/search/${salon.gmapsQuery}`;
       />
       <div class="grid-4">
         {inflablesPopulares.map(p => <ProductCard {...p} />)}
-      </div>
-    </div>
-  </section>
-
-  <!-- ── FAQ ──────────────────────────────────────────────────────── -->
-  <section class="section">
-    <div class="container">
-      <SectionHeader
-        badge="Preguntas frecuentes"
-        title={`Sobre ${salon.name}`}
-        subtitle="Resolvemos las dudas más comunes sobre este salón de fiestas infantiles."
-        copy1="Antes de reservar, es importante que tengas toda la información necesaria. Aquí respondemos las preguntas más frecuentes sobre el salón y cómo complementar tu evento con un inflable de BRINCOLINS."
-        copy2="Si tienes alguna duda adicional, contacta directamente al salón por teléfono o WhatsApp. También puedes escribirnos para cotizar un inflable."
-      />
-      <div class="faq" style="max-width:800px; margin:0 auto;">
-        {faqItems.map(faq => (
-          <FaqItem question={faq.question} answer={faq.answer} />
-        ))}
       </div>
     </div>
   </section>

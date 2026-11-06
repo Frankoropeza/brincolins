@@ -17,7 +17,6 @@ import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
-import FaqItem from "@/components/FaqItem.astro";
 import { COVERAGE_ZONES } from "@/data/coverage";
 import {
   INFLABLES_ACTIVOS,
@@ -349,24 +348,6 @@ const serviceSchema = {
               </div>
             </a>
           ))}
-        </div>
-      </div>
-    </section>
-  )}
-
-  <!-- ── FAQ ──────────────────────────────────────────────────────── -->
-  {faqs.length > 0 && (
-    <section class="section section--alt">
-      <div class="container">
-        <SectionHeader
-          badge="FAQ"
-          title={`¿Tienes dudas sobre entrega en ${zonePhrase}?`}
-          subtitle="Preguntas frecuentes de clientes en esta zona."
-          copy1={`Hemos atendido decenas de eventos en ${zonePhrase} y conocemos las particularidades de cada colonia. Aquí respondemos las dudas más comunes de la zona.`}
-          copy2="¿Tienes otra pregunta? Escríbenos por WhatsApp y te respondemos en minutos con todo lo que necesitas para tu evento."
-        />
-        <div style="max-width:800px;margin:0 auto;">
-          {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
         </div>
       </div>
     </section>

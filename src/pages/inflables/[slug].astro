@@ -271,22 +271,6 @@ const ctaBarItems = [
     </section>
   )}
 
-  {page.faqItems.length > 0 && (
-    <section class="section section--alt" id="preguntas-modelo">
-      <div class="container ficha">
-        <h2>Preguntas sobre la renta {delN}</h2>
-        <div class="ficha__faqs">
-          {page.faqItems.map((f) => (
-            <details>
-              <summary>{f.question}</summary>
-              <p>{f.answer}</p>
-            </details>
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
-
   <!-- Guías del modelo -->
   {(guiasCuradas.length > 0 || guias.length > 0) && (
     <section class="section" id="guias">
@@ -392,16 +376,6 @@ const ctaBarItems = [
   .ficha__ideas li::marker, .ficha__zonas li::marker { color: var(--c-primary); }
   .ficha__zonas a { font-weight: 700; }
   .ficha__zonas span { display: block; font-size: .95rem; color: var(--c-ink-60); }
-  .ficha__faqs details {
-    border: 1px solid var(--c-line);
-    border-radius: var(--r-tile);
-    background: var(--c-canvas);
-    padding: .9rem 1.15rem;
-    margin-bottom: .75rem;
-  }
-  .ficha__faqs summary { cursor: pointer; font-weight: 700; line-height: 1.4; color: var(--c-ink); }
-  .ficha__faqs summary:focus-visible { outline: 3px solid var(--c-ink); outline-offset: 3px; border-radius: 6px; }
-  .ficha__faqs details p { margin: .75rem 0 0; color: var(--c-ink-60); }
 
   .guias__title { margin: 0 0 .5rem; font-family: var(--font-head); font-weight: 800; letter-spacing: -0.03em; color: var(--c-ink); }
   .guias__lead { margin: 0 0 1.5rem; max-width: 75ch; color: var(--c-ink-60); }

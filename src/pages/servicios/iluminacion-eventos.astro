@@ -2,7 +2,6 @@
 import PageLayout from "@/layouts/PageLayout.astro";
 import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
-import FaqItem from "@/components/FaqItem.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import Gallery4x4 from "@/components/Gallery4x4.astro";
@@ -242,22 +241,6 @@ const faqs = [
             <p class="why-card__desc">Al terminar tu evento, nuestro equipo retira toda la iluminación y cableado. Dejamos tu espacio tal como lo encontramos.</p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="section section--alt">
-    <div class="container">
-      <SectionHeader
-        badge="FAQ"
-        title="Preguntas sobre iluminación para eventos y fiestas en CDMX"
-        subtitle="Dudas comunes sobre nuestro servicio de iluminación."
-        copy1="La iluminación es un elemento que muchas veces se pasa por alto al organizar una fiesta, pero marca una diferencia enorme en la experiencia de tus invitados. Aquí respondemos las preguntas más frecuentes para que tomes una decisión informada."
-        copy2="Si tienes un requerimiento especial de iluminación o necesitas cubrir un espacio particularmente grande, escríbenos por WhatsApp y con gusto te hacemos una propuesta a la medida de tu evento."
-      />
-      <div style="max-width:800px; margin:0 auto;">
-        {faqs.map(f => <FaqItem question={f.question} answer={f.answer} />)}
       </div>
     </div>
   </section>

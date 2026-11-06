@@ -4,10 +4,16 @@ import QuickNav from "@/components/QuickNav.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
-import FaqItem from "@/components/FaqItem.astro";
 
 const title = "Salones de fiestas infantiles en CDMX y Edomex";
 const description = "Encuentra los mejores salones de fiestas infantiles en CDMX y Estado de México. Directorio completo con ubicación, capacidad, precios y servicios incluidos.";
+
+const faqs = [
+  { question: "¿Puedo llevar un inflable de BRINCOLINS a cualquier salón?", answer: "Sí, la mayoría de los salones listados en nuestro directorio permiten inflables externos. Nosotros nos encargamos de la entrega, instalación, supervisión y recolección. Solo necesitamos que el salón cuente con espacio suficiente y una toma de corriente cercana." },
+  { question: "¿Los precios de los salones incluyen inflable?", answer: "Los precios mostrados son del salón únicamente. La renta del inflable se cotiza por separado con BRINCOLINS. Algunos salones incluyen brincolines propios dentro de sus paquetes — verifica directamente con el salón." },
+  { question: "¿Cómo reservo un salón del directorio?", answer: "Contacta directamente al salón de tu interés usando el teléfono o WhatsApp que aparece en su ficha. Una vez confirmado tu salón, cotiza tu inflable favorito con nosotros y coordinamos la entrega el día del evento." },
+  { question: "¿BRINCOLINS cobra extra por entregar en un salón?", answer: "No. La entrega e instalación en cualquier salón dentro de nuestra zona de cobertura (CDMX y Edomex) ya está incluida en el precio de renta del inflable. Consulta nuestra página de cobertura para más detalles." },
+];
 
 const categorias = [
   {
@@ -49,6 +55,7 @@ const directorySchema = {
 
 <PageLayout
   faqContext={{ tipo: "directorio" }}
+  faqItems={faqs}
   title={title}
   description={description}
   pageType="page"
@@ -167,35 +174,6 @@ const directorySchema = {
   </section>
 
   <!-- FAQ -->
-  <section class="section section--alt">
-    <div class="container">
-      <SectionHeader
-        badge="Preguntas frecuentes"
-        title="Sobre el directorio"
-        subtitle="Resolvemos tus dudas sobre los salones y nuestro servicio de inflables."
-        copy1="Sabemos que organizar una fiesta infantil requiere coordinar muchos detalles. Por eso, además de listar los mejores salones, te brindamos información útil para que tomes la mejor decisión."
-        copy2="Si tienes alguna duda adicional, no dudes en contactarnos por WhatsApp. Nuestro equipo puede ayudarte a elegir el salón ideal y coordinamos la entrega del inflable."
-      />
-      <div class="faq" style="max-width:800px; margin:0 auto;">
-        <FaqItem
-          question="¿Puedo llevar un inflable de BRINCOLINS a cualquier salón?"
-          answer="Sí, la mayoría de los salones listados en nuestro directorio permiten inflables externos. Nosotros nos encargamos de la entrega, instalación, supervisión y recolección. Solo necesitamos que el salón cuente con espacio suficiente y una toma de corriente cercana."
-        />
-        <FaqItem
-          question="¿Los precios de los salones incluyen inflable?"
-          answer="Los precios mostrados son del salón únicamente. La renta del inflable se cotiza por separado con BRINCOLINS. Algunos salones incluyen brincolines propios dentro de sus paquetes — verifica directamente con el salón."
-        />
-        <FaqItem
-          question="¿Cómo reservo un salón del directorio?"
-          answer="Contacta directamente al salón de tu interés usando el teléfono o WhatsApp que aparece en su ficha. Una vez confirmado tu salón, cotiza tu inflable favorito con nosotros y coordinamos la entrega el día del evento."
-        />
-        <FaqItem
-          question="¿BRINCOLINS cobra extra por entregar en un salón?"
-          answer="No. La entrega e instalación en cualquier salón dentro de nuestra zona de cobertura (CDMX y Edomex) ya está incluida en el precio de renta del inflable. Consulta nuestra página de cobertura para más detalles."
-        />
-      </div>
-    </div>
-  </section>
 
   <CtaBanner
     title="¿Ya elegiste tu salón? ¡Agrega un inflable!"
