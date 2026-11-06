@@ -351,48 +351,60 @@ const ctaBarItems = [
 
 </PageLayout>
 
-<style>.hero__uplink {
+<style>
+  .hero__uplink {
     margin: 1rem 0 0;
     font-size: 0.9375rem;
     line-height: 1.7;
-    opacity: 0.9;
+    color: var(--c-ink-60);
   }
   .hero__uplink a {
-    color: inherit;
+    color: var(--c-ink);
     text-decoration: underline;
     text-underline-offset: 3px;
     font-weight: 600;
-  }.tambien-en {
+  }
+  .hero__uplink a:hover { color: var(--c-primary-text); }
+
+  .tambien-en {
     margin: 0 0 1.5rem;
+    max-width: 75ch;
     font-size: .95rem;
     line-height: 1.7;
-    color: var(--text-muted, #5a5a66);
-  }.tambien-en a { font-weight: 600; }
-  .ficha { max-width: 960px; }
-  .ficha h2 { margin: 0 0 .75rem; font-size: clamp(1.35rem, 3vw, 1.75rem); line-height: 1.25; }
-  .ficha p { line-height: 1.7; margin: 0 0 1rem; }
+    color: var(--c-ink-60);
+  }
+  .tambien-en strong { color: var(--c-ink); }
+  .tambien-en a { color: var(--c-primary-text); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+
+  .ficha { color: var(--c-ink); }
+  .ficha h2 { margin: 0 0 .75rem; font-family: var(--font-head); font-weight: 800; letter-spacing: -0.03em; font-size: clamp(1.35rem, 3vw, 1.75rem); line-height: 1.25; }
+  .ficha p { line-height: 1.7; margin: 0 0 1rem; max-width: 75ch; }
+  .ficha a { color: var(--c-primary-text); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
   .ficha__grid {
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
     margin-bottom: 1.5rem;
   }
-  .ficha__h3 { margin: 1.75rem 0 .75rem; font-size: 1.2rem; }
-  .ficha__ideas, .ficha__zonas { margin: 0; padding-left: 1.25rem; line-height: 1.65; }
+  .ficha__h3 { margin: 1.75rem 0 .75rem; font-family: var(--font-head); font-weight: 800; letter-spacing: -0.02em; font-size: 1.2rem; }
+  .ficha__ideas, .ficha__zonas { margin: 0; padding-left: 1.25rem; line-height: 1.65; max-width: 75ch; }
   .ficha__ideas li, .ficha__zonas li { margin-bottom: .5rem; }
+  .ficha__ideas li::marker, .ficha__zonas li::marker { color: var(--c-primary); }
   .ficha__zonas a { font-weight: 700; }
-  .ficha__zonas span { display: block; font-size: .95rem; color: var(--c-text-muted); }
+  .ficha__zonas span { display: block; font-size: .95rem; color: var(--c-ink-60); }
   .ficha__faqs details {
-    border: 1px solid var(--c-border);
-    border-radius: var(--r-card);
-    background: var(--white);
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-tile);
+    background: var(--c-canvas);
     padding: .9rem 1.15rem;
     margin-bottom: .75rem;
   }
-  .ficha__faqs summary { cursor: pointer; font-weight: 700; line-height: 1.4; }
-  .ficha__faqs details p { margin: .75rem 0 0; }
-  .guias__title { margin: 0 0 .5rem; }
-  .guias__lead { margin: 0 0 1.5rem; color: var(--c-text-muted); }
+  .ficha__faqs summary { cursor: pointer; font-weight: 700; line-height: 1.4; color: var(--c-ink); }
+  .ficha__faqs summary:focus-visible { outline: 3px solid var(--c-ink); outline-offset: 3px; border-radius: 6px; }
+  .ficha__faqs details p { margin: .75rem 0 0; color: var(--c-ink-60); }
+
+  .guias__title { margin: 0 0 .5rem; font-family: var(--font-head); font-weight: 800; letter-spacing: -0.03em; color: var(--c-ink); }
+  .guias__lead { margin: 0 0 1.5rem; max-width: 75ch; color: var(--c-ink-60); }
   .guias__list {
     list-style: none;
     margin: 0;
@@ -402,11 +414,14 @@ const ctaBarItems = [
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
   }
   .guias__list li {
-    padding: 1rem 1.25rem;
-    border: 1px solid var(--c-border);
-    border-radius: var(--r-card);
-    background: var(--white);
+    padding: 1.25rem 1.4rem;
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-tile);
+    background: #fff;
+    transition: transform .2s ease, box-shadow .2s ease;
   }
-  .guias__list a { display: block; font-weight: 700; line-height: 1.35; margin-bottom: .35rem; }
-  .guias__list span { display: block; font-size: .9rem; line-height: 1.55; color: var(--c-text-muted); }
+  .guias__list li:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+  .guias__list a { display: block; color: var(--c-ink); font-weight: 700; line-height: 1.35; margin-bottom: .35rem; text-decoration: none; }
+  .guias__list a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .guias__list span { display: block; font-size: .9rem; line-height: 1.55; color: var(--c-ink-60); }
 </style>

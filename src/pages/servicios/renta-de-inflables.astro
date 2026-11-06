@@ -293,33 +293,47 @@ const faqs = [
 </PageLayout>
 
 <style>
-  /* Tarjetas "todo incluido" con chip de icono (homologado con el index) */.inc-grid {
+  /* Tarjetas "todo incluido" con chip de icono */
+  .inc-grid {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     padding: 0;
     margin: 0;
-  }.inc-card {
+  }
+  .inc-card {
     display: flex;
     align-items: flex-start;
     gap: .8rem;
-    background: var(--c-bg);
-    border: 1px solid var(--c-border);
-    border-radius: var(--r-card);
+    background: var(--c-canvas);
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-tile);
     padding: 1.1rem 1.25rem;
-  }.inc-card__icon {
+  }
+  .inc-card__icon {
     flex-shrink: 0;
     width: 2.3rem;
     height: 2.3rem;
     display: grid;
     place-items: center;
     border-radius: 50%;
-    background: rgba(255,61,0,.1);
-    color: var(--c-primary);
-  }.inc-card__icon svg { width: 1.2rem; height: 1.2rem; }.inc-card__text { display: flex; flex-direction: column; gap: .15rem; min-width: 0; }.inc-card__title { font-family: var(--font-head); font-weight: 700; font-size: .95rem; color: var(--c-text); line-height: 1.25; }.inc-card__desc { font-size: .82rem; color: var(--c-text-muted); line-height: 1.45; }
+    background: var(--c-durazno);
+    color: var(--c-ink);
+  }
+  .inc-card:nth-child(6n+2) .inc-card__icon { background: var(--c-cielo); }
+  .inc-card:nth-child(6n+3) .inc-card__icon { background: var(--c-menta); }
+  .inc-card:nth-child(6n+4) .inc-card__icon { background: var(--c-mango); }
+  .inc-card:nth-child(6n+5) .inc-card__icon { background: var(--c-chicle); }
+  .inc-card:nth-child(6n+6) .inc-card__icon { background: var(--c-lila); }
+  .inc-card__icon svg { width: 1.2rem; height: 1.2rem; }
+  .inc-card__text { display: flex; flex-direction: column; gap: .15rem; min-width: 0; }
+  .inc-card__title { font-family: var(--font-head); font-weight: 700; font-size: .95rem; color: var(--c-ink); line-height: 1.25; }
+  .inc-card__desc { font-size: .82rem; color: var(--c-ink-60); line-height: 1.45; }
 
-  /* Número de paso sobre la imagen del proceso */.why-card__img { position: relative; }.proc-num {
+  /* Número de paso sobre la imagen del proceso */
+  .why-card__img { position: relative; }
+  .proc-num {
     position: absolute;
     top: .65rem;
     left: .65rem;
@@ -327,17 +341,14 @@ const faqs = [
     height: 2rem;
     display: grid;
     place-items: center;
-    background: var(--c-primary);
+    background: var(--c-ink);
     color: #fff;
     font-family: var(--font-head);
-    font-weight: 900;
+    font-weight: 800;
     font-size: 1rem;
     border-radius: 50%;
-    box-shadow: 0 2px 8px rgba(0,0,0,.25);
   }
 
-  @media (max-width: 900px) {.inc-grid { grid-template-columns: repeat(2, 1fr); }
-  }
-  @media (max-width: 560px) {.inc-grid { grid-template-columns: 1fr; }
-  }
+  @media (max-width: 900px) { .inc-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .inc-grid { grid-template-columns: 1fr; } }
 </style>

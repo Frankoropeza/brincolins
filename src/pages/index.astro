@@ -878,10 +878,9 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
 
 
 <style>/* ═══ PRECIOS — respuesta directa ═══════════════════════════════
-     Construido con el vocabulario que ya usa el sitio: el borde naranja
-     de 2px y la sombra de .price-box para el tramo destacado, el gris
-     .c-bg-alt y el radio --r-card de .incluye-card para los otros dos,
-     y .pilar-foot tal cual para la nota final. Cero colores nuevos. */
+     Sistema «Patio de aire»: tarjetas planas con borde var(--c-line),
+     el tramo destacado con borde tinta de 2px y la nota final con el
+     mismo aviso mango de .pilar-foot. Solo tokens, cero hex sueltos. */
   .precios-section { padding-top: 3rem; padding-bottom: 3rem; }
 
   .precio-tramos {
@@ -890,8 +889,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     gap: 1rem;
     margin-bottom: 2.5rem;
     /* stretch (no start): las tres tarjetas comparten altura aunque una
-       liste 1 modelo y otra 4. Alturas dispares en una fila de tarjetas
-       es zig-zag, y el sitio no lo usa en ningún otro módulo. */
+       liste 1 modelo y otra 4. */
     align-items: stretch;
   }
 
@@ -899,18 +897,15 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     position: relative;
     display: flex;
     flex-direction: column;
-    background: #fff;
-    border: 1px solid var(--c-border, #e2e8f0);
-    border-radius: var(--r-card, 16px);
+    background: var(--c-canvas);
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-card);
     padding: 1.5rem 1.35rem;
   }
 
-  /* El tramo mediano es el que más se renta: recibe el mismo tratamiento
-     que .price-box en el módulo pilar, para que el sitio hable un solo
-     idioma visual cuando quiere destacar un precio. */
+  /* El tramo mediano es el que más se renta: borde tinta, sin sombra. */
   .precio-tramo--destacado {
-    border: 2px solid var(--c-primary, #FF3D00);
-    box-shadow: 0 4px 24px rgba(255,61,0,.1);
+    border: 2px solid var(--c-ink);
   }
 
   .precio-tramo__flag {
@@ -918,7 +913,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     top: -0.7rem;
     left: 1.35rem;
     padding: 0.25rem 0.85rem;
-    border-radius: var(--r-badge, 50px);
+    border-radius: var(--r-btn);
     background: var(--c-primary-deep);
     color: #fff;
     font-family: var(--font-head);
@@ -933,21 +928,23 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.07em;
-    color: var(--c-text-muted, #475569);
+    color: var(--c-ink-60);
   }
 
   .precio-tramo__monto {
     font-family: var(--font-head);
     font-size: clamp(1.6rem, 2.6vw, 2rem);
-    font-weight: 900;
-    color: var(--c-primary, #FF3D00);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--c-ink);
     line-height: 1.1;
     margin: 0.35rem 0 0.5rem;
   }
   .precio-tramo__monto span {
     font-size: 0.9rem;
     font-weight: 600;
-    color: var(--c-text-muted, #475569);
+    letter-spacing: 0;
+    color: var(--c-ink-60);
   }
 
   .precio-tramo__nota {
@@ -955,7 +952,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     min-height: 2.8em;
     font-size: 0.9rem;
     line-height: 1.55;
-    color: var(--c-text-muted, #475569);
+    color: var(--c-ink-60);
   }
 
   .precio-tramo__specs {
@@ -964,15 +961,15 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     gap: 0.5rem;
     margin: 0 0 1.1rem;
     padding: 0.85rem 0;
-    border-top: 1px solid var(--c-border, #e2e8f0);
-    border-bottom: 1px solid var(--c-border, #e2e8f0);
+    border-top: 1px solid var(--c-line);
+    border-bottom: 1px solid var(--c-line);
   }
   .precio-tramo__specs div { min-width: 0; }
   .precio-tramo__specs dt {
     font-size: 0.72rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: var(--c-text-muted, #475569);
+    color: var(--c-ink-60);
     margin-bottom: 0.15rem;
   }
   .precio-tramo__specs dd {
@@ -980,7 +977,7 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     font-family: var(--font-head);
     font-weight: 700;
     font-size: 0.88rem;
-    color: var(--c-text, #0f172a);
+    color: var(--c-ink);
     line-height: 1.25;
   }
 
@@ -999,148 +996,80 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     gap: 0.75rem;
     padding: 0.4rem 0;
     font-size: 0.9rem;
-    border-bottom: 1px dashed var(--c-border, #e2e8f0);
+    border-bottom: 1px dashed var(--c-line-strong);
   }
   .precio-tramo__modelos li:last-child { border-bottom: 0; }
   .precio-tramo__modelos a {
-    color: var(--c-text, #0f172a);
+    color: var(--c-ink);
     text-decoration: none;
     font-weight: 600;
     min-width: 0;
   }
-  .precio-tramo__modelos a:hover { color: var(--c-primary-text, #C82D00); text-decoration: underline; }
+  .precio-tramo__modelos a:hover { color: var(--c-primary-text); text-decoration: underline; }
   .precio-tramo__modelos span {
     flex-shrink: 0;
     font-family: var(--font-head);
     font-weight: 700;
-    color: var(--c-primary-text, #C82D00);
+    color: var(--c-ink);
     font-variant-numeric: tabular-nums;
   }
 
-  /* La tabla ocupa el ancho completo del contenedor: es la pieza que
-     ningún competidor publica y la que Google puede citar entera. */
+  /* La tabla ocupa el ancho completo del contenedor. */
   .precio-tabla { margin-bottom: 1.5rem; }
   .precio-tabla__intro {
     margin: 0 0 1rem;
+    max-width: 75ch;
     font-size: 0.95rem;
     line-height: 1.65;
-    color: var(--c-text-muted, #475569);
+    color: var(--c-ink-60);
   }
 
   .precio-foot { margin-top: 0; }
-  .precio-foot a {
-    color: var(--c-primary-text, #C82D00);
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    font-weight: 700;
-  }
 
-  /* 900px es el breakpoint del sitio y además el punto medido donde el
-     monto del tramo central deja de caber en una línea dentro de una
-     columna de tres. Debajo se apilan, con la destacada al frente. */
+  /* Debajo de 900px se apilan, con la destacada al frente. */
   @media (max-width: 900px) {
     .precio-tramos { grid-template-columns: 1fr; gap: 1.25rem; }
     .precio-tramo--destacado { order: -1; }
   }
 
-  /* ─── Hero Trust Bar ──────────────────────────────────────── */
-.hero__trust {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: .5rem 1.25rem;
-    margin-top: 1.5rem;
-    padding-top: 1.25rem;
-    border-top: 1px solid rgba(255,255,255,.2);
-  }
-.trust-item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: .1rem;
-  }
-.trust-item__stars {
-    color: #FBBF24;
-    font-size: 1rem;
-    letter-spacing: .05em;
-  }
-.trust-item__num {
-    font-weight: 800;
-    font-size: 1.15rem;
-    color: #fff;
-    line-height: 1;
-  }
-.trust-item__label {
-    font-size: .72rem;
-    color: rgba(255,255,255,.75);
-    text-transform: uppercase;
-    letter-spacing: .04em;
-    white-space: nowrap;
-  }
-.trust-sep {
-    width: 1px;
-    height: 2rem;
-    background: rgba(255,255,255,.25);
-  }
-
   /* ─── Módulos Pilar — Shared ──────────────────────────────── */
-.section-badge {
-    display: inline-block;
-    /* texto blanco a 0.72rem sobre naranja → --c-primary-deep (5.69:1) */
-    background: var(--c-primary-deep, #C42B00);
-    color: #fff;
-    font-size: .72rem;
-    font-weight: 700;
-    letter-spacing: .08em;
-    text-transform: uppercase;
-    padding: .3rem .75rem;
-    border-radius: 99px;
-    margin-bottom: 1rem;
-  }
-.section-badge--eventos {
-    background: #1A1A2E;
-  }
-.pilar-title {
+  .pilar-title {
     font-size: clamp(1.5rem, 2.5vw, 2rem);
     font-weight: 800;
-    color: #1A1A2E;
+    letter-spacing: -0.03em;
+    color: var(--c-ink);
     line-height: 1.2;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
   }
-.pilar-title--center { text-align: center; }
-.pilar-desc {
+  .pilar-desc {
     font-size: 1rem;
-    color: #4B5563;
+    color: var(--c-ink-60);
     line-height: 1.7;
     max-width: 64ch;
     margin-bottom: 2rem;
   }
-  /* Pilar 1: el texto ocupa el ancho completo de la columna (sin hueco a la derecha) */
-.pilar-content .pilar-desc {
+  .pilar-desc strong { color: var(--c-ink); }
+  /* Pilar 1: el texto ocupa el ancho completo de la columna */
+  .pilar-content .pilar-desc {
     max-width: none;
     margin-bottom: 1.25rem;
   }
-.pilar-content .pilar-desc:last-of-type {
+  .pilar-content .pilar-desc:last-of-type {
     margin-bottom: 1.75rem;
-  }
-.pilar-desc--center {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   /* ─── Pilar 1 Layout ─────────────────────────────────────── */
-.pilar-inner {
+  .pilar-inner {
     display: grid;
     grid-template-columns: 1fr 340px;
     gap: 3rem;
     align-items: start;
   }
   @media (max-width: 900px) {
-.pilar-inner { grid-template-columns: 1fr; }
+    .pilar-inner { grid-template-columns: 1fr; }
   }
 
-.incluye-grid {
+  .incluye-grid {
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1149,202 +1078,208 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     margin: 0;
   }
   @media (max-width: 520px) {
-.incluye-grid { grid-template-columns: 1fr; }
+    .incluye-grid { grid-template-columns: 1fr; }
   }
-.incluye-card {
+  .incluye-card {
     display: flex;
     align-items: flex-start;
     gap: .7rem;
-    background: var(--c-bg-alt, #f8fafc);
-    border: 1px solid var(--c-border, #e2e8f0);
-    border-radius: var(--r-card, 16px);
+    background: #fff;
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-tile);
     padding: .9rem 1rem;
+    transition: border-color .2s ease;
   }
-.incluye-card:hover {
-    border-color: var(--c-primary, #FF3D00);
-    box-shadow: var(--shadow-sm);
-  }
-.incluye-card__icon {
+  .incluye-card:hover { border-color: var(--c-line-strong); }
+  .incluye-card__icon {
     flex-shrink: 0;
     width: 2.1rem;
     height: 2.1rem;
     display: grid;
     place-items: center;
     border-radius: 50%;
-    background: rgba(255,61,0,.1);
-    color: var(--c-primary, #FF3D00);
+    background: var(--c-menta);
+    color: var(--c-ink);
   }
-.incluye-card__icon svg { width: 1.15rem; height: 1.15rem; }
-.incluye-card__text { display: flex; flex-direction: column; gap: .12rem; min-width: 0; }
-.incluye-card__title {
+  .incluye-card__icon svg { width: 1.15rem; height: 1.15rem; }
+  .incluye-card__text { display: flex; flex-direction: column; gap: .12rem; min-width: 0; }
+  .incluye-card__title {
     font-family: var(--font-head);
     font-weight: 700;
     font-size: .92rem;
-    color: var(--c-text, #0f172a);
+    color: var(--c-ink);
     line-height: 1.25;
   }
-.incluye-card__desc {
+  .incluye-card__desc {
     font-size: .8rem;
-    color: var(--c-text-muted, #475569);
+    color: var(--c-ink-60);
     line-height: 1.4;
   }
-.pilar-foot {
+
+  /* Aviso mango: texto, negritas y enlaces en tinta (nunca naranja sobre pastel) */
+  .pilar-foot {
     margin: 1.25rem 0 0;
     padding: 1.1rem 1.35rem;
-    background: var(--c-mango, #FFE4A6);
-    border-radius: var(--r-tile, 22px);
+    background: var(--c-mango);
+    border-radius: var(--r-tile);
     font-size: .92rem;
     line-height: 1.65;
-    color: var(--c-text, #0f172a);
+    color: var(--c-ink);
   }
-.pilar-foot strong { color: var(--c-primary-text); font-weight: 700; }
+  .pilar-foot strong { color: var(--c-ink); font-weight: 700; }
+  .pilar-foot a {
+    color: var(--c-ink);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+  .pilar-foot a:hover { text-decoration-color: var(--c-primary); }
 
   /* ─── Price Box ──────────────────────────────────────────── */
-.price-box {
+  .price-box {
     background: #fff;
-    border: 2px solid var(--c-primary, #FF3D00);
-    border-radius: 1rem;
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-card);
     padding: 1.75rem;
     margin-bottom: 1.5rem;
-    box-shadow: 0 4px 24px rgba(255,61,0,.1);
   }
-.price-box__label {
+  .price-box__label {
     font-size: .8rem;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .07em;
-    color: #6B7280;
+    color: var(--c-ink-60);
     margin-bottom: .25rem;
   }
-.price-box__amount {
+  .price-box__amount {
     font-size: 2.5rem;
-    font-weight: 900;
-    color: var(--c-primary, #FF3D00);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--c-ink);
     line-height: 1;
     margin-bottom: .35rem;
   }
-.price-box__amount span {
+  .price-box__amount span {
     font-size: 1rem;
     font-weight: 600;
-    color: #6B7280;
+    letter-spacing: 0;
+    color: var(--c-ink-60);
   }
-.price-box__note {
+  .price-box__note {
     font-size: .8rem;
-    color: #6B7280;
+    color: var(--c-ink-60);
     margin-bottom: 1.25rem;
   }
-.price-box__rating {
-    display: flex;
-    align-items: center;
-    gap: .4rem;
-    margin-bottom: .9rem;
-  }
-.price-box__stars { color: #FBBF24; font-size: .95rem; letter-spacing: .02em; }
-.price-box__rating-txt { font-size: .8rem; color: var(--c-text-muted, #475569); }
-.price-box__rating-txt strong { color: var(--c-text, #0f172a); font-weight: 800; }
-.price-box__cta {
+  .price-box__cta {
     width: 100%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: .5rem;
   }
-.price-box__cta + .price-box__cta { margin-top: .6rem; }
-.price-box__reassure {
+  .price-box__cta + .price-box__cta { margin-top: .6rem; }
+  .price-box__reassure {
     display: flex;
     align-items: center;
     gap: .45rem;
     margin: 1rem 0 0;
     font-size: .76rem;
     line-height: 1.3;
-    color: var(--c-text-muted, #475569);
+    color: var(--c-ink-60);
   }
-.price-box__reassure svg { width: 1rem; height: 1rem; flex-shrink: 0; color: var(--c-green, #00C853); }
+  .price-box__reassure svg { width: 1rem; height: 1rem; flex-shrink: 0; color: #0F7A3C; }
 
   /* ─── Pilar Stats ────────────────────────────────────────── */
-.pilar-stat-grid {
+  .pilar-stat-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: .75rem;
   }
-.pilar-stat {
-    background: #F9FAFB;
-    border-radius: .75rem;
+  .pilar-stat {
+    background: var(--c-cielo);
+    border-radius: var(--r-tile);
     padding: 1rem;
     display: flex;
     flex-direction: column;
     gap: .2rem;
   }
-.pilar-stat__num {
+  .pilar-stat:nth-child(2) { background: var(--c-mango); }
+  .pilar-stat:nth-child(3) { background: var(--c-chicle); }
+  .pilar-stat:nth-child(4) { background: var(--c-menta); }
+  .pilar-stat__num {
     font-size: 1.5rem;
-    font-weight: 900;
-    color: var(--c-primary, #FF3D00);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--c-ink);
     line-height: 1;
   }
-.pilar-stat__txt {
+  .pilar-stat__txt {
     font-size: .75rem;
-    color: #6B7280;
+    color: var(--c-ink);
     line-height: 1.3;
   }
 
   /* ─── Pilar 2 Fiesta Cards ───────────────────────────────── */
-.fiesta-grid {
+  .fiesta-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     margin-bottom: 2rem;
   }
   @media (max-width: 860px) {
-.fiesta-grid { grid-template-columns: 1fr; }
+    .fiesta-grid { grid-template-columns: 1fr; }
   }
-.fiesta-card {
-    background: #fff;
-    border: 1px solid #E5E7EB;
-    border-radius: 1rem;
+  .fiesta-card {
+    background: var(--c-canvas);
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-card);
     padding: 1.75rem;
     display: flex;
     flex-direction: column;
     gap: .75rem;
+    transition: transform .25s ease, box-shadow .25s ease;
   }
-.fiesta-card:hover {
-    box-shadow: 0 8px 32px rgba(0,0,0,.1);
+  .fiesta-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
   }
-.fiesta-card__icon-wrap {
+  .fiesta-card__icon-wrap {
     width: 2.75rem;
     height: 2.75rem;
-    border-radius: .75rem;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: .25rem;
+    color: var(--c-ink);
   }
-.fiesta-card__icon-wrap svg { width: 1.5rem; height: 1.5rem; }
-.fiesta-card__icon-wrap--primary { background: #FEF2F2; color: #DC2626; }
-.fiesta-card__icon-wrap--secondary { background: #F0FDF4; color: #16A34A; }
-.fiesta-card__icon-wrap--accent { background: #FFFBEB; color: #D97706; }
-.fiesta-card__title {
+  .fiesta-card__icon-wrap svg { width: 1.5rem; height: 1.5rem; }
+  .fiesta-card__icon-wrap--primary { background: var(--c-chicle); }
+  .fiesta-card__icon-wrap--secondary { background: var(--c-menta); }
+  .fiesta-card__icon-wrap--accent { background: var(--c-lila); }
+  .fiesta-card__title {
     font-size: 1.1rem;
     font-weight: 700;
-    color: #1A1A2E;
+    color: var(--c-ink);
     margin: 0;
   }
-.fiesta-card__ages {
+  .fiesta-card__ages {
     font-size: .78rem;
-    font-weight: 600;
-    /* 3.54:1 sobre blanco a .78rem → --c-primary-text (5.48:1) */
-    color: var(--c-primary-text, #C82D00);
+    font-weight: 700;
+    color: var(--c-primary-text);
     text-transform: uppercase;
     letter-spacing: .05em;
     margin: 0;
   }
-.fiesta-card__desc {
+  .fiesta-card__desc {
     font-size: .9rem;
-    color: #4B5563;
+    color: var(--c-ink-60);
     line-height: 1.6;
     margin: 0;
     flex-grow: 1;
   }
-.fiesta-card__list {
+  .fiesta-card__list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -1352,14 +1287,14 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     flex-direction: column;
     gap: .3rem;
     font-size: .83rem;
-    color: #6B7280;
+    color: var(--c-ink-60);
   }
-.fiesta-card__list li::before {
+  .fiesta-card__list li::before {
     content: "✓ ";
-    color: #16A34A;
+    color: #0F7A3C;
     font-weight: 700;
   }
-.fiesta-card__cta {
+  .fiesta-card__cta {
     display: inline-block;
     font-size: .88rem;
     font-weight: 700;
@@ -1367,132 +1302,99 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     text-decoration: none;
     margin-top: .25rem;
   }
-.fiesta-card__cta:hover { text-decoration: underline; }
+  .fiesta-card__cta:hover { text-decoration: underline; }
 
-  /* ─── Pilar 3 Evento Cards ───────────────────────────────── */
-.evento-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-  }
-  @media (max-width: 700px) {
-.evento-grid { grid-template-columns: 1fr; }
-  }
-.evento-card {
-    background: #fff;
-    border: 1px solid var(--c-line, #E5E7EB);
-    border-radius: var(--r-card, 28px);
-    padding: 1.5rem 1.75rem;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-  }
-.evento-card__num {
-    font-size: .75rem;
-    font-weight: 800;
-    color: var(--c-primary, #FF3D00);
-    letter-spacing: .1em;
-    text-transform: uppercase;
-  }
-.evento-card__title {
-    font-size: 1.05rem;
-    font-weight: 700;
-    color: #1A1A2E;
-    margin: 0;
-  }
-.evento-card__desc {
-    font-size: .88rem;
-    color: #4B5563;
-    line-height: 1.65;
-    margin: 0;
-    flex-grow: 1;
-  }
-.evento-card__link {
-    font-size: .85rem;
-    font-weight: 700;
-    color: var(--c-primary, #FF3D00);
-    text-decoration: none;
-    margin-top: .25rem;
-  }
-.evento-card__link:hover { text-decoration: underline; }
-
-  /* ─── B2B Differentiators ─────────────────────────────────── */
-.evento-diffs {
+  /* ─── Pilar 3: diferenciadores B2B ────────────────────────── */
+  .evento-diffs {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     padding: 1.5rem;
-    background: #F9FAFB;
-    border-radius: 1rem;
+    background: #fff;
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-tile);
   }
-.evento-diff {
+  .evento-diff {
     display: flex;
     align-items: center;
     gap: .5rem;
     font-size: .9rem;
     font-weight: 600;
-    color: #374151;
+    color: var(--c-ink);
   }
-.evento-diff svg {
+  .evento-diff svg {
     width: 1.15rem;
     height: 1.15rem;
-    color: var(--c-primary, #FF3D00);
+    color: var(--c-primary-text);
     flex-shrink: 0;
   }
 
+  /* ─── Pasos del proceso: número en círculo tinta, ícono en pastel ─ */
+  .why-sc .proceso-num {
+    background: var(--c-ink);
+    color: #fff;
+    font-weight: 800;
+  }
+  .why-sc .paso-icon {
+    border-radius: 50%;
+    background: var(--c-cielo);
+    color: var(--c-ink);
+  }
+  .why-sc:nth-child(2) .paso-icon { background: var(--c-menta); }
+  .why-sc:nth-child(3) .paso-icon { background: var(--c-mango); }
+  .why-sc:nth-child(4) .paso-icon { background: var(--c-chicle); }
+
   /* ─── Coverage panels ────────────────────────────────────── */
-.cob-grid {
+  .cob-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
     margin-bottom: 2rem;
   }
-.cob-panel {
+  .cob-panel {
+    border: 1px solid var(--c-line);
     border-radius: var(--r-card);
     overflow: hidden;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
   }
 
-  /* ── Cabeceras ── */
-.cob-panel__head {
+  /* ── Cabeceras pastel con texto tinta ── */
+  .cob-panel__head {
     display: flex;
     align-items: center;
     gap: 1rem;
     padding: 1.25rem 1.5rem;
-    background: var(--c-durazno, #FFE0D3);
-    color: var(--c-ink, #17152B);
+    background: var(--c-durazno);
+    color: var(--c-ink);
   }
-.cob-panel__head--edomex {
-    background: var(--c-cielo, #D7EAFF);
+  .cob-panel__head--edomex {
+    background: var(--c-cielo);
   }
-.cob-panel__icon {
+  .cob-panel__icon {
     font-size: 1.8rem;
     line-height: 1;
     flex-shrink: 0;
-    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.25));
   }
-.cob-panel__title {
+  .cob-panel__title {
     font-family: var(--font-head);
     font-weight: 800;
     font-size: 1.1rem;
     margin: 0;
     line-height: 1.2;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
   }
-.cob-panel__sub {
+  .cob-panel__sub {
     font-size: 0.75rem;
-    opacity: 0.8;
     margin: 0.2rem 0 0;
-    font-weight: 500;
-    letter-spacing: 0.02em;
+    font-weight: 600;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
+    color: var(--c-ink);
   }
 
-  /* ── Cuerpo con botones ── */
-.cob-panel__list {
+  /* ── Cuerpo: chips pill ── */
+  .cob-panel__list {
     list-style: none;
     padding: 1.25rem;
     margin: 0;
@@ -1502,53 +1404,49 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
     background: #fff;
   }
 
-  /* Botón CDMX — rojo */
-.cob-panel__link {
+  /* Chip CDMX — durazno; hover primary-deep con blanco (4.8:1) */
+  .cob-panel__link {
     display: inline-flex;
     align-items: center;
     gap: 0.3rem;
     padding: 0.4rem 0.85rem;
-    border-radius: 999px;
-    border: 1.5px solid #fca5a5;
-    background: #fff5f5;
+    border-radius: var(--r-btn);
+    border: 1px solid transparent;
+    background: var(--c-durazno);
     font-size: 0.82rem;
     font-weight: 600;
-    color: #c62800;
+    color: var(--c-ink);
     text-decoration: none;
     white-space: nowrap;
     line-height: 1;
+    transition: background-color .2s ease, color .2s ease;
   }
-  /* El hover pintaba blanco sobre #FF4500 (3.44:1). --c-primary-deep
-     mantiene el naranja y llega a 4.80:1. */
-.cob-panel__link:hover {
-    background: var(--c-primary-deep, #D93000);
-    border-color: var(--c-primary-deep, #D93000);
+  .cob-panel__link:hover {
+    background: var(--c-primary-deep);
     color: #fff;
   }
-.cob-panel__link svg {
+  .cob-panel__link svg {
     width: 0.75rem;
     height: 0.75rem;
     flex-shrink: 0;
   }
 
-  /* Botón Edomex — azul */
-.cob-panel--edomex .cob-panel__link {
-    border-color: #93c5fd;
-    background: #eff6ff;
-    color: #1e3a8a;
+  /* Chip Edomex — cielo; hover tinta con blanco */
+  .cob-panel--edomex .cob-panel__link {
+    background: var(--c-cielo);
+    color: var(--c-ink);
   }
-.cob-panel--edomex .cob-panel__link:hover {
-    background: #1d4ed8; /* blanco encima: 6.70:1 */
-    border-color: #1d4ed8;
+  .cob-panel--edomex .cob-panel__link:hover {
+    background: var(--c-ink);
     color: #fff;
   }
 
   @media (max-width: 640px) {
-.cob-grid { grid-template-columns: 1fr; }
+    .cob-grid { grid-template-columns: 1fr; }
   }
 
   /* ─── Testimonios grid 4 columnas ───────────────────────── */
-.testi-grid {
+  .testi-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
@@ -1558,103 +1456,72 @@ const categoriasHome = CATEGORIAS_P1.map((c) => {
   @media (max-width: 540px)  { .testi-grid { grid-template-columns: 1fr; } }
 
   /* ─── Card base ─────────────────────────────────────────── */
-.testi-card {
+  .testi-card {
     background: #fff;
-    border: 1px solid var(--c-border, #e2e8f0);
-    border-radius: var(--r-card, 28px);
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-card);
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: .75rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,.05);
   }
-
-  /* ─── Badge verificado ──────────────────────────────────── */
-.testi-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: .3rem;
-    font-size: .65rem;
-    font-weight: 700;
-    letter-spacing: .07em;
-    text-transform: uppercase;
-    color: var(--c-ink, #17152B);
-    background: var(--c-mango, #FFE4A6);
-    padding: .3rem .75rem;
-    border-radius: 99px;
-    width: fit-content;
-  }
-
-  /* ─── Estrellas ─────────────────────────────────────────── */
-.testi-stars {
-    color: #FFD700;
-    font-size: .95rem;
-    letter-spacing: 2px;
-    line-height: 1;
-  }
-
-  /* ─── Card individual de cliente ────────────────────────── */
-.testi-card__text {
+  .testi-card__text {
     font-size: .83rem;
-    color: #4B5563;
+    color: var(--c-ink-60);
     line-height: 1.7;
     margin: 0;
     font-style: italic;
     flex: 1;
   }
-.testi-card__author {
+  .testi-card__author {
     display: flex;
     align-items: center;
     gap: .6rem;
     padding-top: .75rem;
-    border-top: 1px solid var(--c-border, #e2e8f0);
+    border-top: 1px solid var(--c-line);
     margin-top: auto;
   }
-.testi-card__avatar {
+  .testi-card__avatar {
     width: 38px;
     height: 38px;
     border-radius: 50%;
     object-fit: cover;
     flex-shrink: 0;
   }
-.testi-card__name {
+  .testi-card__name {
     font-weight: 700;
     font-size: .8rem;
-    color: #1A1A2E;
+    color: var(--c-ink);
     margin: 0;
   }
-.testi-card__loc {
+  .testi-card__loc {
     font-size: .7rem;
-    color: #6B7280; /* 2.53 → 4.83 */
+    color: var(--c-ink-60);
     margin: .1rem 0 0 0;
   }
 
-  /* ─── Card destacada (Palomita.mx) ─────────────────────── */
-.testi-card--highlighted {
-    background: var(--c-canvas, #FBF8F3);
+  /* ─── Card de aliado comercial ──────────────────────────── */
+  .testi-card--highlighted {
+    background: var(--c-canvas);
   }
-.testi-card__avatar-icon {
+  .testi-card__avatar-icon {
     width: 38px;
     height: 38px;
     border-radius: 50%;
-    background: var(--c-mango, #FFE4A6);
+    background: var(--c-mango);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.1rem;
     flex-shrink: 0;
   }
-.testi-card__loc--link {
+  .testi-card__loc--link {
     display: block;
     font-size: .7rem;
-    color: var(--c-primary-text, #C82D00);
+    color: var(--c-primary-text);
     font-weight: 600;
     text-decoration: none;
     margin: .1rem 0 0 0;
   }
-.testi-card__loc--link:hover { text-decoration: underline; }
-
-  /* ─── Limpiar estilos viejos de .testimonial ────────────── */
-.testimonial__quote,
-.testimonial__header { display: none; }
+  .testi-card__loc--link:hover { text-decoration: underline; }
 </style>

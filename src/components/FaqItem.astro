@@ -39,3 +39,55 @@ const { question, answer } = Astro.props;
     });
   });
 </script>
+
+<style>
+  /* Sistema «Patio de aire». La base (.faq__*) vive en global.css; aquí se
+     sobrescribe con selectores calificados por elemento para ganar la
+     cascada sin depender del orden de carga. */
+  div.faq__item {
+    background: #fff;
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-tile);
+    margin-bottom: 0.75rem;
+    transition: border-color 0.15s ease;
+  }
+  :global(.section--alt) div.faq__item { background: var(--c-canvas); }
+  div.faq__item:hover { border-color: var(--c-line-strong); }
+
+  button.faq__question {
+    min-height: 56px;
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 1.0625rem;
+    line-height: 1.4;
+    color: var(--c-ink);
+    border-radius: var(--r-tile);
+  }
+  button.faq__question:focus-visible {
+    outline: 3px solid var(--c-ink);
+    outline-offset: 2px;
+  }
+
+  span.faq__icon {
+    width: 32px;
+    height: 32px;
+    background: #fff;
+    border: 1px solid var(--c-line-strong);
+    color: var(--c-ink);
+    font-weight: 700;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  button.faq__question[aria-expanded="true"] span.faq__icon {
+    background: var(--c-ink);
+    border-color: var(--c-ink);
+    color: #fff;
+  }
+
+  div.faq__answer p {
+    margin: 0;
+    max-width: 70ch;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: var(--c-ink-60);
+  }
+</style>

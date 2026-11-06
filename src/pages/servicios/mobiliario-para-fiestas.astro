@@ -161,7 +161,7 @@ const faqs = [
       />
       <div class="grid-4">
         <div class="why-card">
-          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+          <div class="why-card__img">
             <span class="why-card__img-label"></span>
           </div>
           <div class="why-card__body">
@@ -170,7 +170,7 @@ const faqs = [
           </div>
         </div>
         <div class="why-card">
-          <div class="why-card__img" style="background: linear-gradient(135deg, #2962FF, #448AFF);">
+          <div class="why-card__img">
             <span class="why-card__img-label"></span>
           </div>
           <div class="why-card__body">
@@ -179,7 +179,7 @@ const faqs = [
           </div>
         </div>
         <div class="why-card">
-          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #69F0AE);">
+          <div class="why-card__img">
             <span class="why-card__img-label"></span>
           </div>
           <div class="why-card__body">
@@ -188,7 +188,7 @@ const faqs = [
           </div>
         </div>
         <div class="why-card">
-          <div class="why-card__img" style="background: linear-gradient(135deg, #AA00FF, #D500F9);">
+          <div class="why-card__img">
             <span class="why-card__img-label"></span>
           </div>
           <div class="why-card__body">
@@ -212,7 +212,7 @@ const faqs = [
       />
       <div class="grid-4">
         <div class="why-card">
-          <div class="why-card__img" style="background: linear-gradient(135deg, #FF3D00, #FF6D00);">
+          <div class="why-card__img">
             <span class="why-card__img-label"></span>
           </div>
           <div class="why-card__body">
@@ -221,7 +221,7 @@ const faqs = [
           </div>
         </div>
         <div class="why-card">
-          <div class="why-card__img" style="background: linear-gradient(135deg, #2962FF, #448AFF);">
+          <div class="why-card__img">
             <span class="why-card__img-label"></span>
           </div>
           <div class="why-card__body">
@@ -230,7 +230,7 @@ const faqs = [
           </div>
         </div>
         <div class="why-card">
-          <div class="why-card__img" style="background: linear-gradient(135deg, #00C853, #69F0AE);">
+          <div class="why-card__img">
             <span class="why-card__img-label"></span>
           </div>
           <div class="why-card__body">
@@ -239,7 +239,7 @@ const faqs = [
           </div>
         </div>
         <div class="why-card">
-          <div class="why-card__img" style="background: linear-gradient(135deg, #AA00FF, #D500F9);">
+          <div class="why-card__img">
             <span class="why-card__img-label"></span>
           </div>
           <div class="why-card__body">
@@ -278,3 +278,11 @@ const faqs = [
   />
 
 </PageLayout>
+
+<style>
+  /* Bloque decorativo de cada tarjeta: pastel plano (antes degradado inline) */
+  .why-card__img { background: var(--c-durazno); }
+  .why-card:nth-child(4n+2) .why-card__img { background: var(--c-cielo); }
+  .why-card:nth-child(4n+3) .why-card__img { background: var(--c-menta); }
+  .why-card:nth-child(4n+4) .why-card__img { background: var(--c-lila); }
+</style>

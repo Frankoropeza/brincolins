@@ -335,7 +335,7 @@ const schemaList = {
       <div class="grid-4">
         {salones.map(s => (
           <div class="venue-card">
-            <div class="venue-card__header" style={`background: ${s.gradient};`}>
+            <div class="venue-card__header">
               
               <h3 class="venue-card__name">{s.name}</h3>
               <span class="venue-card__zone">{s.zone}, CDMX · {s.rating}★</span>
@@ -383,5 +383,53 @@ const schemaList = {
     btnSecondaryHref="/inflables/"
     variant="vibrant"
   />
+
+  <style>
+    /* Aviso: ficha plana mango, sin degradado ni borde de color */
+    .dir-tip {
+      background: var(--c-mango);
+      border: 0;
+      border-radius: var(--r-tile);
+    }
+    .dir-tip__icon:empty { display: none; }
+    .coverage__badge {
+      background: #fff;
+      border: 1px solid var(--c-line-strong);
+      border-radius: var(--r-btn);
+      color: var(--c-ink);
+      font-weight: 600;
+    }
+
+    /* Tarjetas de salón: lienzo dentro de .section--alt y cabecera pastel
+       por posición (el `gradient` de los datos ya no se pinta) */
+    .section--alt .venue-card { background: var(--c-canvas); }
+    .venue-card__header {
+      margin: 10px 10px 0;
+      border-radius: calc(var(--r-card) - 10px);
+      background: var(--c-cielo);
+    }
+    .venue-card:nth-child(6n+1) .venue-card__header { background: var(--c-mango); }
+    .venue-card:nth-child(6n+2) .venue-card__header { background: var(--c-cielo); }
+    .venue-card:nth-child(6n+3) .venue-card__header { background: var(--c-menta); }
+    .venue-card:nth-child(6n+4) .venue-card__header { background: var(--c-chicle); }
+    .venue-card:nth-child(6n+5) .venue-card__header { background: var(--c-lila); }
+    .venue-card:nth-child(6n+6) .venue-card__header { background: var(--c-durazno); }
+    .venue-card__name {
+      color: var(--c-ink);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      text-shadow: none;
+    }
+    .venue-card__zone { color: var(--c-ink); }
+    /* Antes var(--c-primary) sobre blanco (3.55:1) */
+    .venue-card__highlight { color: var(--c-primary-text); }
+    .venue-card__tag {
+      background: #fff;
+      border: 1px solid var(--c-line-strong);
+      border-radius: var(--r-btn);
+      color: var(--c-ink);
+      font-weight: 600;
+    }
+  </style>
 
 </PageLayout>

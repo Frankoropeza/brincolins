@@ -272,38 +272,56 @@ const schema = {
   />
 </PageLayout>
 
-<style>.hero__copy-text--links a {
-    color: inherit;
+<style>
+  .hero__copy-text--links a {
+    color: var(--c-ink);
     text-decoration: underline;
     text-underline-offset: 3px;
     font-weight: 600;
-  }.cat-nota {
+  }
+  .hero__copy-text--links a:hover { color: var(--c-primary-text); }
+  .cat-nota {
     margin: 1rem 0 0;
+    max-width: 75ch;
     font-size: .9rem;
-    color: var(--text-muted, #5a5a66);
-  }.cat-precio {
+    color: var(--c-ink-60);
+  }
+  .cat-precio {
     margin: 0 0 1.25rem;
     font-size: .95rem;
-  }.cat-puntos {
+    color: var(--c-ink-60);
+  }
+  .cat-precio strong { color: var(--c-ink); }
+  .cat-puntos {
     margin: 0 0 1rem;
     padding-left: 1.2rem;
     display: grid;
     gap: .4rem;
-  }.cat-cols {
+    color: var(--c-ink);
+  }
+  .cat-puntos li::marker,
+  .cat-lista li::marker { color: var(--c-primary); }
+  .cat-cols {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
     align-items: start;
-  }.cat-lista {
+  }
+  .cat-cols h3 { font-family: var(--font-head); font-weight: 800; letter-spacing: -0.02em; color: var(--c-ink); }
+  .cat-lista {
     margin: 1rem 0 0;
     padding-left: 1.2rem;
     display: grid;
     gap: .55rem;
-  }.cat-lista--links a {
+    color: var(--c-ink);
+    max-width: 75ch;
+  }
+  .cat-lista--links a {
+    color: var(--c-primary-text);
     font-weight: 600;
     text-decoration: underline;
     text-underline-offset: 3px;
   }
-  @media (max-width: 768px) {.cat-cols { grid-template-columns: 1fr; gap: 1.5rem; }
-  }
+  .cat-lista--links a:hover { color: var(--c-ink); }
+  @media (max-width: 768px) { .cat-cols { grid-template-columns: 1fr; gap: 1.5rem; } }
 </style>

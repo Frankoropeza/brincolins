@@ -118,7 +118,7 @@ const directorySchema = {
       <div class="grid-2" style="max-width:1000px; margin:0 auto;">
         {categorias.map(c => (
           <a href={c.href} class="dir-zone-card">
-            <div class="dir-zone-card__header" style={`background: ${c.gradient};`}>
+            <div class="dir-zone-card__header">
               <span class="dir-zone-card__icon">{c.icon}</span>
               <h3 class="dir-zone-card__title">{c.title}</h3>
               <p class="dir-zone-card__subtitle">{c.subtitle}</p>
@@ -145,22 +145,22 @@ const directorySchema = {
   <!-- Stats -->
   <section class="section">
     <div class="container">
-      <div class="grid-4" style="max-width:900px; margin:0 auto;">
-        <div style="text-align:center;">
-          <p style="font-size:2.5rem; font-weight:900; font-family:var(--font-head); color:var(--c-primary);">24+</p>
-          <p style="color:var(--c-text-muted); font-size:0.85rem;">Salones verificados</p>
+      <div class="grid-4 dir-stats">
+        <div class="dir-stat">
+          <p class="dir-stat__num">24+</p>
+          <p class="dir-stat__label">Salones verificados</p>
         </div>
-        <div style="text-align:center;">
-          <p style="font-size:2.5rem; font-weight:900; font-family:var(--font-head); color:var(--c-secondary);">2</p>
-          <p style="color:var(--c-text-muted); font-size:0.85rem;">Zonas cubiertas</p>
+        <div class="dir-stat">
+          <p class="dir-stat__num">2</p>
+          <p class="dir-stat__label">Zonas cubiertas</p>
         </div>
-        <div style="text-align:center;">
-          <p style="font-size:2.5rem; font-weight:900; font-family:var(--font-head); color:var(--c-green);">4.4+</p>
-          <p style="color:var(--c-text-muted); font-size:0.85rem;">Estrellas en Google</p>
+        <div class="dir-stat">
+          <p class="dir-stat__num">4.4+</p>
+          <p class="dir-stat__label">Estrellas en Google</p>
         </div>
-        <div style="text-align:center;">
-          <p style="font-size:2.5rem; font-weight:900; font-family:var(--font-head); color:var(--c-wa);">14</p>
-          <p style="color:var(--c-text-muted); font-size:0.85rem;">Alcaldías y municipios</p>
+        <div class="dir-stat">
+          <p class="dir-stat__num">14</p>
+          <p class="dir-stat__label">Alcaldías y municipios</p>
         </div>
       </div>
     </div>
@@ -206,5 +206,79 @@ const directorySchema = {
     btnSecondaryHref="/inflables/"
     variant="festa"
   />
+
+  <style>
+    /* Aviso: ficha plana mango, sin degradado ni borde de color */
+    .dir-tip {
+      background: var(--c-mango);
+      border: 0;
+      border-radius: var(--r-tile);
+    }
+    .dir-tip__icon:empty { display: none; }
+
+    /* Tarjetas de zona: cabecera pastel por posición (los datos traen
+       `gradient`, que ya no se pinta) */
+    .dir-zone-card {
+      box-shadow: none;
+      border: 1px solid var(--c-line);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .dir-zone-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+    }
+    .dir-zone-card:focus-visible {
+      outline: 3px solid var(--c-ink);
+      outline-offset: 3px;
+    }
+    .dir-zone-card__header {
+      margin: 10px 10px 0;
+      border-radius: calc(var(--r-card) - 10px);
+      background: var(--c-cielo);
+    }
+    .dir-zone-card:nth-child(2n+1) .dir-zone-card__header { background: var(--c-mango); }
+    .dir-zone-card:nth-child(2n) .dir-zone-card__header { background: var(--c-menta); }
+    .dir-zone-card__icon:empty { display: none; }
+    .dir-zone-card__title {
+      color: var(--c-ink);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      text-shadow: none;
+    }
+    .dir-zone-card__subtitle { color: var(--c-ink); }
+    .dir-zone-card__stats { flex-wrap: wrap; }
+    .dir-zone-card__stat {
+      background: #fff;
+      color: var(--c-ink);
+      border-radius: var(--r-btn);
+    }
+    .dir-zone-card__desc { color: var(--c-ink-60); }
+    .dir-zone-card__zone-tag {
+      background: var(--c-canvas);
+      border: 1px solid var(--c-line-strong);
+      border-radius: var(--r-btn);
+      color: var(--c-ink);
+      font-weight: 600;
+    }
+    .dir-zone-card__cta { color: var(--c-primary-text); }
+
+    /* Cifras: tinta sobre lienzo (antes verde/WhatsApp con contraste ~2:1) */
+    .dir-stat { text-align: center; }
+    .dir-stat__num {
+      font-family: var(--font-head);
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      color: var(--c-ink);
+      margin: 0 0 0.25rem;
+    }
+    .dir-stat:first-child .dir-stat__num { color: var(--c-primary-text); }
+    .dir-stat__label {
+      color: var(--c-ink-60);
+      font-size: 0.85rem;
+      margin: 0;
+    }
+  </style>
 
 </PageLayout>

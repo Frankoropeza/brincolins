@@ -448,19 +448,23 @@ const faqs = [
 </PageLayout>
 
 <style>
-  /* Chip de rango de edad sobre la imagen (mismo lenguaje visual que proc-num) */.why-card__img { position: relative; }.edad-chip {
+  /* Chip de rango de edad sobre la imagen: pill blanca con texto tinta */
+  .why-card__img { position: relative; }
+  .edad-chip {
     position: absolute;
     top: .65rem;
     left: .65rem;
-    background: var(--c-primary);
-    color: #fff;
+    background: #fff;
+    color: var(--c-ink);
+    border: 1px solid var(--c-line-strong);
     font-family: var(--font-head);
-    font-weight: 800;
+    font-weight: 700;
     font-size: .75rem;
-    padding: .3rem .7rem;
-    border-radius: 999px;
-    box-shadow: 0 2px 8px rgba(0,0,0,.25);
-  }.proc-num {
+    padding: .3rem .75rem;
+    border-radius: var(--r-btn);
+  }
+  /* Número de paso: círculo tinta con número blanco */
+  .proc-num {
     position: absolute;
     top: .65rem;
     left: .65rem;
@@ -468,53 +472,69 @@ const faqs = [
     height: 2rem;
     display: grid;
     place-items: center;
-    background: var(--c-primary);
+    background: var(--c-ink);
     color: #fff;
     font-family: var(--font-head);
-    font-weight: 900;
+    font-weight: 800;
     font-size: 1rem;
     border-radius: 50%;
-    box-shadow: 0 2px 8px rgba(0,0,0,.25);
   }
 
-  /* Link de tarjeta (homologado con fiesta-card__cta del index) */.edad-link {
+  /* Link de tarjeta: naranja de texto (5.2:1) */
+  .edad-link {
     display: inline-block;
     margin-top: .5rem;
     font-family: var(--font-head);
     font-weight: 700;
     font-size: .85rem;
-    color: var(--c-primary);
+    color: var(--c-primary-text);
     text-decoration: none;
-  }.edad-link:hover { text-decoration: underline; }.guia-card { text-decoration: none; display: block; }
+  }
+  .edad-link:hover { text-decoration: underline; }
+  .guia-card {
+    text-decoration: none;
+    display: block;
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+  .guia-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
 
-  /* Tarjetas "todo incluido" (homologado con /servicios/renta-de-inflables/) */.inc-grid {
+  /* Tarjetas "todo incluido": blanco sobre el lienzo, ícono en círculo menta */
+  .inc-grid {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     padding: 0;
     margin: 0;
-  }.inc-card {
+  }
+  .inc-card {
     display: flex;
     align-items: flex-start;
     gap: .8rem;
-    background: var(--c-bg);
-    border: 1px solid var(--c-border);
-    border-radius: var(--r-card);
+    background: #fff;
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-tile);
     padding: 1.1rem 1.25rem;
-  }.inc-card__icon {
+  }
+  .inc-card__icon {
     flex-shrink: 0;
     width: 2.3rem;
     height: 2.3rem;
     display: grid;
     place-items: center;
     border-radius: 50%;
-    background: rgba(255,61,0,.1);
-    color: var(--c-primary);
-  }.inc-card__icon svg { width: 1.2rem; height: 1.2rem; }.inc-card__text { display: flex; flex-direction: column; gap: .15rem; min-width: 0; }.inc-card__title { font-family: var(--font-head); font-weight: 700; font-size: .95rem; color: var(--c-text); line-height: 1.25; }.inc-card__desc { font-size: .82rem; color: var(--c-text-muted); line-height: 1.45; }
-
-  @media (max-width: 900px) {.inc-grid { grid-template-columns: repeat(2, 1fr); }
+    background: var(--c-menta);
+    color: var(--c-ink);
   }
-  @media (max-width: 560px) {.inc-grid { grid-template-columns: 1fr; }
+  .inc-card__icon svg { width: 1.2rem; height: 1.2rem; }
+  .inc-card__text { display: flex; flex-direction: column; gap: .15rem; min-width: 0; }
+  .inc-card__title { font-family: var(--font-head); font-weight: 700; font-size: .95rem; color: var(--c-ink); line-height: 1.25; }
+  .inc-card__desc { font-size: .82rem; color: var(--c-ink-60); line-height: 1.45; }
+
+  @media (max-width: 900px) {
+    .inc-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 560px) {
+    .inc-grid { grid-template-columns: 1fr; }
   }
 </style>

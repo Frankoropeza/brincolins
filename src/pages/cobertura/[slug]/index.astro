@@ -70,9 +70,6 @@ const feeText  = zone.shippingNote ?? (hasFee
     ? `Cargo de envío de ${fee} según la colonia, por la distancia desde nuestro almacén. Instalación y retiro van incluidos en el precio del inflable.`
     : `El costo de traslado a ${zonePhrase} depende de la colonia y te lo confirmamos al cotizar. Instalación y retiro van incluidos en el precio del inflable.`)
   : `Envío incluido en el precio para toda la zona ${zonePhrase}. Sin cargos adicionales de flete.`);
-const feeGradient = hasFee
-  ? "linear-gradient(135deg,#FF6F00,#E65100)"
-  : "linear-gradient(135deg,#00C853,#2E7D32)";
 const coloniasCopy2 = hasFee
   ? `Si tu colonia está en ${zonePhrase} o en zonas limítrofes, contáctanos. Te confirmamos disponibilidad y el cargo de envío exacto${feeConMonto ? ` (${fee})` : ""} antes de que apartes la fecha.`
   : `Si tu colonia está en ${zonePhrase} o en zonas limítrofes, contáctanos. Es muy probable que podamos atenderte sin costo adicional de envío.`;
@@ -298,7 +295,7 @@ const serviceSchema = {
       />
       <div class="grid-3" style="max-width:900px;margin:0 auto;">
         <div class="why-card">
-          <div class="why-card__img" style={`background:${feeGradient};`}>
+          <div class:list={["why-card__img", hasFee ? "why-card__img--fee" : "why-card__img--free"]}>
             <span class="why-card__img-label" style={hasFee ? "font-size:1.35rem;" : undefined}>{feeLabel}</span>
           </div>
           <div class="why-card__body">
@@ -307,7 +304,7 @@ const serviceSchema = {
           </div>
         </div>
         <div class="why-card">
-          <div class="why-card__img" style="background:linear-gradient(135deg,#1565C0,#0288D1);">
+          <div class="why-card__img why-card__img--cielo">
             <span class="why-card__img-label">30min</span>
           </div>
           <div class="why-card__body">
@@ -316,7 +313,7 @@ const serviceSchema = {
           </div>
         </div>
         <div class="why-card">
-          <div class="why-card__img" style="background:linear-gradient(135deg,#FF3D00,#FF6D00);">
+          <div class="why-card__img why-card__img--durazno">
             <span class="why-card__img-label">8-20</span>
           </div>
           <div class="why-card__body">
@@ -342,7 +339,7 @@ const serviceSchema = {
         <div class="grid-3" style="max-width:900px;margin:0 auto;">
           {zone.inflablesRec.map(rec => (
             <a href={rec.href} class="inflable-rec-card">
-              <div class="inflable-rec-card__head" style={`background:${rec.gradient};`}>
+              <div class="inflable-rec-card__head">
                 <span class="inflable-rec-card__tag">{rec.tag}</span>
               </div>
               <div class="inflable-rec-card__body">
@@ -386,87 +383,133 @@ const serviceSchema = {
     variant={zone.ctaBannerVariant}
   />
 
-  <style>.hero__desc--links { font-size: 0.95rem; margin-top: -0.5rem; }
-  .hero__desc--links a { color: inherit; text-decoration: underline; text-underline-offset: 3px; font-weight: 600; }
-  .inflable-rec-card {
+  <style>
+    .hero__desc--links { font-size: 0.95rem; margin-top: -0.5rem; }
+    .hero__desc--links a { color: inherit; text-decoration: underline; text-underline-offset: 3px; font-weight: 600; }
+
+    /* ── Tarjetas de envío / instalación / horario: fichas pastel planas ── */
+    .section--alt .why-card { background: var(--c-canvas); }
+    .why-card__img {
+      margin: 10px 10px 0;
+      border-radius: calc(var(--r-card) - 10px);
+    }
+    .why-card__img--fee { background: var(--c-mango); }
+    .why-card__img--free { background: var(--c-menta); }
+    .why-card__img--cielo { background: var(--c-cielo); }
+    .why-card__img--durazno { background: var(--c-durazno); }
+    .why-card__img-label {
+      color: var(--c-ink);
+      text-shadow: none;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+
+    /* ── Inflables recomendados (el color de datos se ignora: pastel por posición) ── */
+    .inflable-rec-card {
       display: block;
       text-decoration: none;
-      border-radius: 12px;
+      border-radius: var(--r-card);
       overflow: hidden;
-      border: 1px solid rgba(0,0,0,0.08);
-      background: var(--color-bg-card, #fff);
-      color: inherit;
-      transition: box-shadow 0.2s ease;
-    }.inflable-rec-card:hover {
-      box-shadow: 0 12px 32px rgba(0,0,0,0.12);
-    }.inflable-rec-card__head {
+      border: 1px solid var(--c-line);
+      background: #fff;
+      color: var(--c-ink);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .inflable-rec-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+    }
+    .inflable-rec-card:focus-visible,
+    .zone-hub-card:focus-visible { outline: 3px solid var(--c-ink); outline-offset: 3px; }
+    .inflable-rec-card__head {
       height: 88px;
       display: flex;
       align-items: flex-end;
       padding: 10px 14px;
-    }.inflable-rec-card__tag {
-      background: rgba(0,0,0,0.3);
-      color: #fff;
-      font-size: 11px;
+      margin: 10px 10px 0;
+      border-radius: calc(var(--r-card) - 10px);
+      background: var(--c-cielo);
+    }
+    .inflable-rec-card:nth-child(3n+2) .inflable-rec-card__head { background: var(--c-chicle); }
+    .inflable-rec-card:nth-child(3n) .inflable-rec-card__head { background: var(--c-mango); }
+    .inflable-rec-card__tag {
+      background: #fff;
+      color: var(--c-ink);
+      font-size: 0.75rem;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 0.04em;
-      padding: 3px 8px;
-      border-radius: 20px;
-    }.inflable-rec-card__body { padding: 16px; }.inflable-rec-card__name {
-      font-size: 1rem;
-      font-weight: 700;
-      margin: 0 0 6px;
-    }.inflable-rec-card__desc {
-      font-size: 0.875rem;
-      color: var(--color-text-muted, #666);
-      line-height: 1.5;
-      margin-bottom: 12px;
-    }.inflable-rec-card__cta {
-      font-size: 0.875rem;
-      font-weight: 600;
-      color: var(--c-primary-text, #C82D00);
+      letter-spacing: 0.06em;
+      padding: 4px 10px;
+      border-radius: var(--r-btn);
     }
-
-    /* ── Zonas hijas de las páginas hub ── */.zone-hub-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 12px;
-    }.zone-hub-card {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-      padding: 14px 16px;
-      border-radius: 12px;
-      border: 1px solid rgba(0,0,0,0.08);
-      background: var(--color-bg-card, #fff);
-      text-decoration: none;
-      color: inherit;
-      transition: box-shadow 0.2s ease, border-color 0.2s ease;
-    }.zone-hub-card:hover {
-      border-color: var(--color-primary, #FF3D00);
-      box-shadow: 0 10px 24px rgba(0,0,0,0.10);
-    }.zone-hub-card__name {
+    .inflable-rec-card__body { padding: 16px 18px 20px; }
+    .inflable-rec-card__name {
       font-family: var(--font-head);
       font-size: 1rem;
       font-weight: 800;
-    }.zone-hub-card__note {
+      letter-spacing: -0.02em;
+      margin: 0 0 6px;
+    }
+    .inflable-rec-card__desc {
+      font-size: 0.875rem;
+      color: var(--c-ink-60);
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+    .inflable-rec-card__cta {
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--c-primary-text);
+    }
+
+    /* ── Zonas hijas de las páginas hub ── */
+    .zone-hub-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 12px;
+    }
+    .zone-hub-card {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      padding: 16px 18px;
+      border-radius: var(--r-tile);
+      border: 1px solid var(--c-line);
+      background: #fff;
+      text-decoration: none;
+      color: var(--c-ink);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .zone-hub-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+    }
+    .zone-hub-card__name {
+      font-family: var(--font-head);
+      font-size: 1rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .zone-hub-card__note {
       font-size: 0.8125rem;
       line-height: 1.5;
-      color: var(--c-text-muted, #666);
+      color: var(--c-ink-60);
     }
-    .zona-guia { max-width: 820px; }
-    .zona-guia__title { font-family: var(--font-head); font-size: clamp(1.5rem, 3vw, 2rem); margin: 0 0 1.25rem; }
+
+    .zona-guia__title { font-family: var(--font-head); font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 800; letter-spacing: -0.03em; margin: 0 0 1.25rem; }
+    .zona-guia__body { max-width: 75ch; }
     .zona-guia__body :global(h3) { font-family: var(--font-head); font-size: 1.2rem; margin: 2rem 0 .6rem; }
-    .zona-guia__body :global(p), .zona-guia__body :global(li) { line-height: 1.75; color: var(--c-text); }
+    .zona-guia__body :global(p), .zona-guia__body :global(li) { line-height: 1.75; color: var(--c-ink); }
     .zona-guia__body :global(ul) { padding-left: 1.4rem; display: flex; flex-direction: column; gap: .4rem; margin: 0 0 1.25rem; }
     .zona-guia__body :global(ul li) { list-style: disc; }
     .zona-guia__body :global(a), .zona-guia__links a { color: var(--c-primary-text); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
-    .zona-guia__body :global(table) { width: 100%; border-collapse: collapse; margin: 1.25rem 0; font-size: .95rem; }
-    .zona-guia__body :global(th), .zona-guia__body :global(td) { text-align: left; padding: .6rem; border-bottom: 1px solid var(--c-border); }
-    .zona-guia__links { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-top: 2rem; padding: 1.25rem 1.5rem; background: var(--c-bg-alt); border-radius: 12px; }
+    .zona-guia__body :global(table) { width: 100%; border-collapse: collapse; margin: 1.25rem 0; font-size: .95rem; border-radius: var(--r-tile); overflow: hidden; border: 1px solid var(--c-line); }
+    .zona-guia__body :global(th) { background: var(--c-canvas); color: var(--c-ink); font-weight: 700; }
+    .zona-guia__body :global(th), .zona-guia__body :global(td) { text-align: left; padding: .6rem; border-bottom: 1px solid var(--c-line); }
+    .zona-guia__links { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-top: 2rem; padding: 1.25rem 1.5rem; background: var(--c-cielo); border-radius: var(--r-tile); }
     .zona-guia__links h3 { font-size: 1rem; margin: 0 0 .6rem; }
     .zona-guia__links ul { margin: 0; padding-left: 1.1rem; display: flex; flex-direction: column; gap: .35rem; }
     .zona-guia__links li { list-style: disc; }
+    .zona-guia__links a { color: var(--c-ink); }
   </style>
 </PageLayout>

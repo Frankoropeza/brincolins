@@ -5,7 +5,7 @@ import { PHONE_TEL } from '../data/site';
  * ─────────────────────────────────────
  * Configurable via /src/data/topbar.md (frontmatter).
  * Supports: promo message, phone, WhatsApp, email, schedule, delivery note.
- * Variants: dark | primary | accent
+ * Variante: dark (única con estilos; «primary»/«accent» se retiraron nov 2026)
  * Responsive: single promo line on mobile, full row on desktop.
  * Enable/disable from markdown without touching code.
  */
@@ -121,14 +121,8 @@ const variantClass = `topbar--${style}`;
 
   /* ── Variants ── */.topbar--dark {
     /* Nov 2026: tira discreta sobre el lienzo crema (antes #111827). */
-    background: var(--c-canvas, #FBF8F3);
-    color: var(--c-ink-60, #55536A);
-  }.topbar--primary {
-    background: var(--c-primary, #FF3D00);
-    color: rgba(255, 255, 255, 0.9);
-  }.topbar--accent {
-    background: var(--c-accent, #FFD600);
-    color: #1a1a1a;
+    background: var(--c-canvas);
+    color: var(--c-ink-60);
   }
 
   /* ── Inner layout ── */.topbar__inner {
@@ -188,8 +182,6 @@ const variantClass = `topbar--${style}`;
     font-weight: 600;
     /* #25D366 sobre crema no llega a 3:1; este verde da 5.0:1 */
     color: #0F7A3C;
-  }.topbar--accent .topbar__wa {
-    color: #128C7E;
   }.topbar__wa:hover {
     opacity: 0.85;
   }

@@ -201,12 +201,16 @@ const allFaqs = categorias.flatMap(c => c.faqs);
 
 </PageLayout>
 
-<style>.recurso-card { text-decoration: none; display: block; }.recurso-link {
+<style>
+  .recurso-card { text-decoration: none; display: block; }
+  .recurso-link {
     display: inline-block;
     margin-top: .5rem;
     font-family: var(--font-head);
     font-weight: 700;
-    font-size: .85rem;
-    color: var(--c-primary);
-  }.recurso-card:hover .recurso-link { text-decoration: underline; }
+    font-size: 1rem;
+    color: var(--c-primary-text);
+    transition: transform .15s ease;
+  }
+  .recurso-card:hover .recurso-link { transform: translateX(4px); }
 </style>

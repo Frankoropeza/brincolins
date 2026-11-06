@@ -8,7 +8,8 @@ export interface Props {
   description: string;
   colonias: string[];
   envio: string;
-  gradient: string;
+  /** Heredado de coverage.ts; ya no se pinta (sistema plano de pasteles). */
+  gradient?: string;
   image?: string;
   whatsapp?: string;
   tipo?: "cdmx" | "edomex";
@@ -21,7 +22,6 @@ const {
   description,
   colonias,
   envio,
-  gradient,
   image,
   whatsapp = WHATSAPP,
   tipo = "cdmx",
@@ -42,7 +42,7 @@ const waHref = `https://wa.me/${whatsapp}?text=${waMsg}`;
       <span class="product-card__category">{envioLabel}</span>
     </div>
   ) : (
-    <div class="product-card__image" style={`background: ${gradient};`}>
+    <div class="product-card__image zona-card__emoji">
       <span>{emoji}</span>
       <span class="product-card__category">{envioLabel}</span>
     </div>
@@ -63,3 +63,13 @@ const waHref = `https://wa.me/${whatsapp}?text=${waMsg}`;
     </div>
   </div>
 </article>
+
+<style>
+  /* Sin foto: ficha pastel plana por posición (sin degradados de datos). */
+  .zona-card__emoji { background: var(--c-cielo); }
+  .product-card:nth-child(6n+2) .zona-card__emoji { background: var(--c-menta); }
+  .product-card:nth-child(6n+3) .zona-card__emoji { background: var(--c-mango); }
+  .product-card:nth-child(6n+4) .zona-card__emoji { background: var(--c-chicle); }
+  .product-card:nth-child(6n+5) .zona-card__emoji { background: var(--c-lila); }
+  .product-card:nth-child(6n) .zona-card__emoji { background: var(--c-durazno); }
+</style>

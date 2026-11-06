@@ -25,3 +25,12 @@ const href = `https://wa.me/${whatsapp}?text=${encodeURIComponent(message)}`;
     </svg>
   </span>
 </a>
+
+<style>
+  /* Etiqueta flotante en pill, con borde fino en vez de sombra dura */
+  .wa-bubble__tooltip {
+    color: var(--c-ink);
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-btn);
+  }
+</style>

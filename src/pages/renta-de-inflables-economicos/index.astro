@@ -227,26 +227,37 @@ const schema = {
   />
 </PageLayout>
 
-<style>.eco-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }.eco-col {
-    padding: 1.5rem;
-    border: 1px solid var(--c-border);
-    border-radius: 14px;
-    background: #fff;
-  }.eco-col--in  { border-left: 4px solid #0B7A3B; }.eco-col--out { border-left: 4px solid var(--c-primary); }.eco-col__title {
+<style>
+  .eco-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+  .eco-col {
+    padding: 1.75rem 1.5rem;
+    border-radius: var(--r-tile);
+    color: var(--c-ink);
+  }
+  .eco-col--in  { background: var(--c-menta); }
+  .eco-col--out { background: var(--c-mango); }
+  .eco-col__title {
     font-family: var(--font-head);
     font-weight: 800;
+    letter-spacing: -0.02em;
     font-size: 1.1rem;
     margin: 0 0 .9rem;
-    color: var(--c-text);
-  }.eco-col__list { margin: 0; padding-left: 1.15rem; color: var(--c-text-muted); line-height: 1.7; }.eco-col__list li { margin-bottom: .6rem; }.eco-col__list a { color: var(--c-primary-text); font-weight: 600; }.eco-regla {
-    max-width: 760px;
+    color: var(--c-ink);
+  }
+  .eco-col__list { margin: 0; padding-left: 1.15rem; color: var(--c-ink); line-height: 1.7; }
+  .eco-col__list li { margin-bottom: .6rem; }
+  .eco-col__list a { color: var(--c-ink); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+  .eco-regla {
+    max-width: 75ch;
     margin: 0 auto;
     padding: 1.35rem 1.5rem;
-    border-left: 4px solid var(--c-primary);
-    border-radius: 0 12px 12px 0;
-    background: #FFF6F3;
-  }.eco-regla p { margin: 0 0 .75rem; line-height: 1.7; color: var(--c-text); }.eco-regla p:last-child { margin-bottom: 0; color: var(--c-text-muted); }
+    border-radius: var(--r-tile);
+    background: var(--c-durazno);
+  }
+  .eco-regla p { margin: 0 0 .75rem; line-height: 1.7; color: var(--c-ink); }
+  .eco-regla p:last-child { margin-bottom: 0; }
 
-  @media (max-width: 760px) {.eco-cols { grid-template-columns: 1fr; }
+  @media (max-width: 760px) {
+    .eco-cols { grid-template-columns: 1fr; }
   }
 </style>

@@ -14,10 +14,10 @@ const description = "Conoce BRINCOLINS: +20 años de experiencia en renta de inf
    nadie fuera del equipo entiende. Ahora la cifra dice algo verificable y
    el dato clave va como pie. */
 const diferenciales = [
-  { num: "2005",  unit: "año de fundación", gradient: "linear-gradient(135deg, #FF3D00, #FF6D00)", title: "Más de 20 años en el oficio", desc: "Desde 2005 montando fiestas infantiles en la Ciudad de México y el Estado de México. Empezamos con un inflable." },
-  { num: "8",     unit: "modelos en flota",  gradient: "linear-gradient(135deg, #7C3AED, #9C27B0)", title: "Flota propia y revisada", desc: "No subcontratamos. Cada inflable se revisa, limpia y sanitiza antes de salir a un evento." },
-  { num: "32",    unit: "zonas de entrega",  gradient: "linear-gradient(135deg, #1565C0, #0288D1)", title: "Entrega, montaje y recolección", desc: "Las 16 alcaldías de la CDMX y 16 municipios del Estado de México, con el cargo de envío publicado por zona." },
-  { num: "15-30", unit: "min de montaje",    gradient: "linear-gradient(135deg, #00695C, #00897B)", title: "Llegamos antes de tu hora", desc: "El montaje toma de 15 a 30 minutos según el modelo, y llegamos con antelación para que esté listo a tiempo." },
+  { num: "2005",  unit: "año de fundación", title: "Más de 20 años en el oficio", desc: "Desde 2005 montando fiestas infantiles en la Ciudad de México y el Estado de México. Empezamos con un inflable." },
+  { num: "8",     unit: "modelos en flota",  title: "Flota propia y revisada", desc: "No subcontratamos. Cada inflable se revisa, limpia y sanitiza antes de salir a un evento." },
+  { num: "32",    unit: "zonas de entrega",  title: "Entrega, montaje y recolección", desc: "Las 16 alcaldías de la CDMX y 16 municipios del Estado de México, con el cargo de envío publicado por zona." },
+  { num: "15-30", unit: "min de montaje",    title: "Llegamos antes de tu hora", desc: "El montaje toma de 15 a 30 minutos según el modelo, y llegamos con antelación para que esté listo a tiempo." },
 ];
 
 const timeline = [
@@ -89,18 +89,18 @@ const timeline = [
 
   <section class="section section--alt">
     <div class="container">
-      <div class="grid-3" style="max-width:900px; margin:0 auto;">
-        <div style="text-align:center; padding:2rem; background:#fff; border-radius:var(--r-card); border:1px solid var(--c-border);">
-          <h3 style="color:var(--c-primary); margin-bottom:.75rem;">Misión</h3>
-          <p style="color:var(--c-text-muted); line-height:1.7; font-size:0.9rem;">Brindar momentos de diversión seguros e inolvidables a las familias de CDMX y Edomex, con inflables de calidad y un servicio integral de excelencia.</p>
+      <div class="grid-3">
+        <div class="mvv__card">
+          <h3 class="mvv__title">Misión</h3>
+          <p class="mvv__text">Brindar momentos de diversión seguros e inolvidables a las familias de CDMX y Edomex, con inflables de calidad y un servicio integral de excelencia.</p>
         </div>
-        <div style="text-align:center; padding:2rem; background:#fff; border-radius:var(--r-card); border:1px solid var(--c-border);">
-          <h3 style="color:var(--c-secondary); margin-bottom:.75rem;">Visión</h3>
-          <p style="color:var(--c-text-muted); line-height:1.7; font-size:0.9rem;">Ser la empresa líder en renta de inflables en la zona metropolitana, reconocida por nuestra seguridad, innovación y atención al cliente.</p>
+        <div class="mvv__card">
+          <h3 class="mvv__title">Visión</h3>
+          <p class="mvv__text">Ser la empresa líder en renta de inflables en la zona metropolitana, reconocida por nuestra seguridad, innovación y atención al cliente.</p>
         </div>
-        <div style="text-align:center; padding:2rem; background:#fff; border-radius:var(--r-card); border:1px solid var(--c-border);">
-          <h3 style="color:var(--c-green); margin-bottom:.75rem;">Valores</h3>
-          <p style="color:var(--c-text-muted); line-height:1.7; font-size:0.9rem;">Seguridad, puntualidad, limpieza, honestidad y compromiso con la diversión de los niños y la tranquilidad de los padres.</p>
+        <div class="mvv__card">
+          <h3 class="mvv__title">Valores</h3>
+          <p class="mvv__text">Seguridad, puntualidad, limpieza, honestidad y compromiso con la diversión de los niños y la tranquilidad de los padres.</p>
         </div>
       </div>
     </div>
@@ -115,10 +115,10 @@ const timeline = [
         copy1="Somos la empresa de renta de inflables con más trayectoria en la Zona Metropolitana del Valle de México. Con más de 20 años en el mercado, hemos perfeccionado cada detalle del servicio."
         copy2="Nuestro compromiso va más allá de entregar un inflable. Cada renta incluye supervisión de seguridad, motor/soplador profesional y un equipo capacitado."
       />
-      <div class="grid-4">
+      <div class="grid-4 nos-dif">
         {diferenciales.map(d => (
           <div class="why-card">
-            <div class="why-card__img" style={`background: ${d.gradient};`}>
+            <div class="why-card__img">
               <span class="why-card__img-label">{d.num}</span>
               <span class="why-card__img-unit">{d.unit}</span>
             </div>
@@ -141,7 +141,7 @@ const timeline = [
         copy1="Desde nuestros inicios con un solo inflable hasta convertirnos en referencia del sector, cada año ha sido un paso más hacia la excelencia en servicio y seguridad para fiestas infantiles."
         copy2="Hoy contamos con 8 modelos de inflables, cobertura en toda la ZMVM y un equipo profesional dedicado a hacer de cada evento una experiencia inolvidable."
       />
-      <div style="max-width:600px; margin:0 auto;">
+      <div class="nos-timeline">
         <div class="timeline">
           {timeline.map(t => (
             <div class="timeline__item">
@@ -168,38 +168,89 @@ const timeline = [
 
 <style>
   /* Rejilla de flota — /nosotros/ no tenía ni una imagen, siendo la página
-     donde se construye la confianza. */.nos-flota {
+     donde se construye la confianza. */
+  .nos-flota {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
-  }.nos-flota__item {
+  }
+  .nos-flota__item {
     display: block;
-    border: 1px solid var(--c-border);
-    border-radius: 12px;
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-tile);
     overflow: hidden;
     background: #fff;
     text-decoration: none;
-    transition: transform .15s ease, border-color .15s ease;
-  }.nos-flota__item:hover { transform: translateY(-2px); border-color: var(--c-primary); }.nos-flota__item img {
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+  .nos-flota__item:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+  .nos-flota__item img {
     display: block;
     width: 100%;
     height: 150px;
     object-fit: cover;
-  }.nos-flota__name {
+  }
+  .nos-flota__name {
     display: block;
     padding: .7rem .85rem;
     font-family: var(--font-head);
     font-weight: 700;
     font-size: .9rem;
-    color: var(--c-text);
-  }.why-card__img-unit {
+    color: var(--c-ink);
+  }
+
+  /* Misión / Visión / Valores: fichas planas sobre la sección blanca */
+  .mvv__card {
+    text-align: center;
+    padding: 2rem;
+    background: var(--c-canvas);
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-card);
+  }
+  .mvv__title {
+    margin-bottom: .75rem;
+    color: var(--c-ink);
+    letter-spacing: -0.03em;
+  }
+  .mvv__text {
+    color: var(--c-ink-60);
+    line-height: 1.7;
+    font-size: 0.9rem;
+  }
+
+  /* Diferenciales: bloque pastel con la cifra en tinta (antes degradados) */
+  /* Cifra arriba, unidad debajo */
+  .nos-dif .why-card__img { flex-direction: column; gap: 0.35rem; }
+  .nos-dif .why-card__img-unit { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--c-ink); }
+  .nos-dif .why-card:nth-child(4n+1) .why-card__img { background: var(--c-durazno); }
+  .nos-dif .why-card:nth-child(4n+2) .why-card__img { background: var(--c-lila); }
+  .nos-dif .why-card:nth-child(4n+3) .why-card__img { background: var(--c-cielo); }
+  .nos-dif .why-card:nth-child(4n+4) .why-card__img { background: var(--c-menta); }
+  .why-card__img-label {
+    color: var(--c-ink);
+    text-shadow: none;
+    letter-spacing: -0.03em;
+  }
+  .why-card__img-unit {
     display: block;
     margin-top: .2rem;
     font-size: .7rem;
-    font-weight: 600;
-    letter-spacing: .03em;
+    font-weight: 700;
+    letter-spacing: .16em;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, .88);
+    color: var(--c-ink);
+  }
+
+  /* Trayectoria */
+  .nos-timeline { max-width: 600px; margin: 0 auto; }
+  .timeline::before { background: var(--c-line-strong); }
+  .timeline__year {
+    display: inline-block;
+    padding: .2rem .8rem;
+    border-radius: var(--r-btn);
+    background: var(--c-mango);
+    color: var(--c-ink);
+    font-weight: 800;
   }
 
   @media (max-width: 900px) { .nos-flota { grid-template-columns: repeat(2, 1fr); } }

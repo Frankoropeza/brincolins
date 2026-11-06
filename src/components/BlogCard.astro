@@ -1,6 +1,4 @@
 ---
-import { textOn } from '@/lib/contrast';
-
 interface Props {
   slug:      string;
   emoji:     string;
@@ -8,49 +6,42 @@ interface Props {
   title:     string;
   excerpt:   string;
   readTime:  string;
-  gradient:  string;
   image?:    string;
   featured?: boolean;
   // legacy props (ignored)
+  gradient?: string;
   date?:     string;
 }
 
-const { slug, emoji, category, title, excerpt, readTime, gradient, image, featured } = Astro.props;
+const { slug, emoji, category, title, excerpt, readTime, image, featured } = Astro.props;
 
-// Color por categoría
-const catColors: Record<string, string> = {
-  'Guías':       '#FF3D00',
-  'Ideas':       '#1A1A2E',
-  'Consejos':    '#0288D1',
-  'Precios':     '#D97706',
-  'Seguridad':   '#059669',
-  'Acuáticos':   '#0EA5E9',
-  'Eventos':     '#E65100',
-  'Decoración':  '#E91E8C',
-  'Paquetes':    '#2E7D32',
+/* Sistema «Patio de aire»: el badge de categoría pasó de color saturado con
+   texto calculado por textOn() a pill pastel con texto tinta (contraste
+   ≥ 12:1 en todos los tonos). La prop `gradient` se ignora: el respaldo sin
+   imagen usa el mismo pastel plano. */
+const CAT_TONE: Record<string, string> = {
+  'Guías':      'durazno',
+  'Ideas':      'lila',
+  'Consejos':   'cielo',
+  'Precios':    'mango',
+  'Seguridad':  'menta',
+  'Acuáticos':  'cielo',
+  'Eventos':    'durazno',
+  'Decoración': 'chicle',
+  'Paquetes':   'menta',
 };
-
-/* El badge llevaba `color:#fff` fijo sobre estos fondos. Varios reprobaban
-   WCAG AA a 0.66rem: #FF3D00 → 3.54:1, #D97706 → 3.18:1, #059669 → 3.76:1.
-   textOn() elige blanco u oscuro según la luminancia, conservando el color
-   de la categoría. Ver src/lib/contrast.ts.
-
-   Ojo con el fallback: era la cadena 'var(--c-primary)', que NO es un hex y
-   haría que textOn() devolviera NaN. Se usa el literal y se resuelve el
-   color de marca aquí mismo. */
-const catColor = catColors[category] ?? '#FF3D00';
-const catText  = textOn(catColor);
+const tone = `tone-${CAT_TONE[category] ?? 'durazno'}`;
 ---
 
 <article class={`blog-card${featured ? ' blog-card--featured' : ''}`}>
   <div class="blog-card__thumb-link">
     {image
       ? <img src={image} alt={title} width="800" height="450" loading="lazy" class="blog-card__img" />
-      : <div class="blog-card__gradient" style={`background: ${gradient};`}>
+      : <div class={`blog-card__gradient ${tone}`}>
           <span class="blog-card__emoji" aria-hidden="true">{emoji}</span>
         </div>
     }
-    <span class="blog-card__cat" style={`background:${catColor};color:${catText};`}>{category}</span>
+    <span class={`blog-card__cat ${tone}`}>{category}</span>
   </div>
   <div class="blog-card__body">
     <span class="blog-card__readtime">{readTime} lectura</span>
@@ -71,78 +62,107 @@ const catText  = textOn(catColor);
   </div>
 </article>
 
-<style>.blog-card {
-    background: var(--c-bg);
-    border: 1px solid var(--c-border);
+<style>
+  .tone-cielo   { background: var(--c-cielo); }
+  .tone-menta   { background: var(--c-menta); }
+  .tone-mango   { background: var(--c-mango); }
+  .tone-chicle  { background: var(--c-chicle); }
+  .tone-lila    { background: var(--c-lila); }
+  .tone-durazno { background: var(--c-durazno); }
+
+  .blog-card {
+    position: relative;
+    background: #fff;
+    border: 1px solid var(--c-line);
     border-radius: var(--r-card);
-    overflow: hidden;
-    box-shadow: var(--shadow-sm);
+    padding: 10px;
     display: flex;
     flex-direction: column;
     height: 100%;
-  }.blog-card:hover {
-    box-shadow: var(--shadow-md);
+    transition: transform .25s ease, box-shadow .25s ease;
   }
+  .blog-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+  }
+  :global(.section--alt) .blog-card { background: var(--c-canvas); }
 
-  /* Thumbnail */.blog-card__thumb-link {
+  /* Thumbnail */
+  .blog-card__thumb-link {
     position: relative;
     display: block;
     aspect-ratio: 16/9;
     overflow: hidden;
     flex-shrink: 0;
-    text-decoration: none;
-  }.blog-card__img {
+    border-radius: calc(var(--r-card) - 10px);
+  }
+  .blog-card__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-  }.blog-card__gradient {
+  }
+  .blog-card__gradient {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-  }.blog-card__emoji {
+  }
+  .blog-card__emoji {
     font-size: 3.5rem;
     line-height: 1;
-    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
-  }.blog-card__cat {
+  }
+  .blog-card__cat {
     position: absolute;
     top: 0.75rem;
     left: 0.75rem;
     font-family: var(--font-head);
-    font-weight: 800;
-    font-size: 0.66rem;
+    font-weight: 700;
+    font-size: 0.72rem;
     text-transform: uppercase;
-    letter-spacing: 0.09em;
-    padding: 0.22rem 0.65rem;
-    border-radius: 99px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    letter-spacing: 0.08em;
+    color: var(--c-ink);
+    padding: 0.28rem 0.75rem;
+    border-radius: var(--r-btn);
   }
 
-  /* Cuerpo */.blog-card__body {
-    padding: 1.1rem 1.4rem 1.4rem;
+  /* Cuerpo */
+  .blog-card__body {
+    padding: 1rem 0.9rem 0.9rem;
     display: flex;
     flex-direction: column;
     gap: 0.55rem;
     flex: 1;
-  }.blog-card__readtime {
-    font-size: 0.75rem;
-    color: var(--c-text-muted);
-    font-weight: 500;
-  }.blog-card__title {
+  }
+  .blog-card__readtime {
+    font-size: 0.78rem;
+    color: var(--c-ink-60);
+    font-weight: 600;
+  }
+  .blog-card__title {
     font-family: var(--font-head);
     font-weight: 800;
-    font-size: clamp(0.95rem, 2vw, 1.08rem);
-    color: var(--c-text);
+    letter-spacing: -0.02em;
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: var(--c-ink);
     line-height: 1.3;
     margin: 0;
-  }.blog-card__title a {
+  }
+  .blog-card__title a {
     color: inherit;
     text-decoration: none;
-  }.blog-card__title a:hover { color: var(--c-primary); }.blog-card__excerpt {
-    font-size: 0.875rem;
-    color: var(--c-text-muted);
+  }
+  .blog-card__title a::after { content: ""; position: absolute; inset: 0; z-index: 1; }
+  .blog-card__title a:hover { color: var(--c-primary-text); }
+  .blog-card__title a:focus-visible { outline: none; }
+  .blog-card:has(.blog-card__title a:focus-visible) {
+    outline: 3px solid var(--c-ink);
+    outline-offset: 3px;
+  }
+  .blog-card__excerpt {
+    font-size: 0.9rem;
+    color: var(--c-ink-60);
     line-height: 1.65;
     margin: 0;
     flex: 1;
@@ -150,25 +170,23 @@ const catText  = textOn(catColor);
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-  }.blog-card__link {
+  }
+  .blog-card__link {
     display: inline-flex;
     align-items: center;
+    justify-content: flex-end;
     gap: 0.35rem;
-    /* 3.54:1 sobre blanco a .82rem */
-    color: var(--c-primary-text, #C82D00);
-    font-family: var(--font-head);
-    font-weight: 700;
-    font-size: 0.82rem;
-    text-decoration: none;
+    color: var(--c-ink);
     margin-top: auto;
-  }.blog-card__link:hover { gap: 0.65rem; }
+    transition: transform .2s ease;
+  }
+  .blog-card:hover .blog-card__link { transform: translateX(4px); }
 
-  /* Featured */.blog-card--featured .blog-card__title {
-    font-size: clamp(1.1rem, 2.5vw, 1.35rem);
-  }.blog-card--featured .blog-card__excerpt {
+  /* Featured */
+  .blog-card--featured .blog-card__title {
+    font-size: clamp(1.15rem, 2.5vw, 1.4rem);
+  }
+  .blog-card--featured .blog-card__excerpt {
     -webkit-line-clamp: 4;
   }
-.blog-card { position: relative; }
-.blog-card__title a::after { content: ""; position: absolute; inset: 0; z-index: 1; }
-.blog-card__link { justify-content: flex-end; }
 </style>

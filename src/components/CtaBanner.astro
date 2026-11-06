@@ -88,15 +88,15 @@ const target = external ? "_blank" : undefined;
      Nov 2026 («Patio de aire»): los degradados arcoíris se sustituyen por
      bloques planos. Las cuatro variantes se conservan para no tocar las
      páginas que las usan; todas cargan texto blanco con contraste AA. */.cta-banner {
-    border-radius: var(--r-sheet, 40px);
+    border-radius: var(--r-sheet);
     margin: clamp(0.5rem, 1.6vw, 1.5rem) 0;
   }.cta-banner--vibrant,
   .cta-banner--festa {
-    background: var(--c-ink, #17152B);
+    background: var(--c-ink);
   }.cta-banner--warm {
-    background: var(--c-primary-deep, #D93000);
+    background: var(--c-primary-deep);
   }.cta-banner--cool {
-    background: #1F3A8A;
+    background: #1F3A8A; /* azul profundo propio de la variante: blanco 10.4:1 */
   }
 
   /* ── Formas decorativas ── */.cta-banner__shape {
@@ -105,25 +105,26 @@ const target = external ? "_blank" : undefined;
     pointer-events: none;
     z-index: -1;
   }.cta-banner__shape--1 {
-    width: 200px;
-    height: 200px;
-    background: var(--c-mango, #FFE4A6);
-    opacity: 0.9;
-    top: -90px;
-    right: 5%;
+    /* Globo mango asomando por la esquina; no llega a los botones */
+    width: 180px;
+    height: 180px;
+    background: var(--c-mango);
+    top: -120px;
+    right: -50px;
   }.cta-banner__shape--2 {
     width: 120px;
     height: 120px;
-    background: var(--c-cielo, #D7EAFF);
+    background: var(--c-cielo);
     opacity: 0.18;
     bottom: -40px;
-    left: 10%;
+    left: -30px;
   }.cta-banner__shape--3 {
+    /* Decoración lejos del texto: entre el copy y los botones */
     width: 80px;
     height: 80px;
-    background: rgba(255, 255, 255, 0.1);
-    top: 20%;
-    left: 30%;
+    background: rgba(255, 255, 255, 0.08);
+    bottom: -30px;
+    right: 28%;
   }
 
   /* ── Layout del contenido ── */.cta-banner__content {
@@ -146,7 +147,7 @@ const target = external ? "_blank" : undefined;
     margin: 0;
   }.cta-banner__subtitle {
     font-size: clamp(0.9rem, 1.5vw, 1.05rem);
-    color: rgba(255, 255, 255, 0.9);
+    color: #fff;
     margin: 0.5rem 0 0;
     line-height: 1.5;
     max-width: 600px;
@@ -167,13 +168,13 @@ const target = external ? "_blank" : undefined;
     font-weight: 800;
     font-size: 0.95rem;
     text-decoration: none;
-    transition: background 0.2s ease, color 0.2s ease;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
     white-space: nowrap;
     line-height: 1.2;
     cursor: pointer;
   }.cta-banner__btn--primary {
     background: #fff;
-    color: var(--c-ink, #17152B);
+    color: var(--c-ink);
     box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.14);
   }.cta-banner__btn--primary:hover {
     transform: translateY(-2px);

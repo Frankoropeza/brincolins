@@ -19,7 +19,7 @@
 6. Imágenes AVIF
 7. CTAs de conversión → `/cotizar/`
 8. CSS scoped por componente; tokens globales en `src/styles/global.css`
-9. Sistema visual «Patio de aire» (nov 2026): `src/styles/aire.css` se importa al final en BaseLayout y define paleta (lienzo crema, tinta, naranja de acción, pasteles), radios y botones. Colores nuevos → usar sus variables (`--c-ink`, `--c-canvas`, `--c-mango`…), no hex sueltos
+9. Sistema visual «Patio de aire» (nov 2026): tokens en el `:root` de `src/styles/global.css` (lienzo crema, tinta, naranja de acción, pasteles, radios). Usar siempre variables (`--c-ink`, `--c-canvas`, `--c-mango`, `--c-primary-text`…), nunca hex sueltos ni degradados. Naranja como texto → `--c-primary-text`; fondo naranja con texto blanco → `--c-primary-deep`
 
 ## Blog (Markdown)
 - El contenido vive en `src/content/blog/*.md` (Content Collection `blog`, schema en `src/content.config.ts`).

@@ -241,57 +241,26 @@ const COPY = {
 </script>
 
 <style>
-  /* ── Grid principal ── */.pfaq {
-    /* .container ya da max-width y padding lateral */
-  }.pfaq__more {
-    margin-top: 1.75rem;
-    padding: 1.4rem 1.5rem;
-    background: var(--c-bg-alt, #f8fafc);
-    border: 1px solid var(--c-border, #e2e8f0);
-    border-left: 4px solid var(--c-primary, #FF3D00);
-    border-radius: 0 var(--r-card, 16px) var(--r-card, 16px) 0;
-  }.pfaq__more-title {
-    margin: 0 0 0.4rem;
-    font-family: var(--font-head);
-    font-weight: 800;
-    font-size: 1.05rem;
-    color: var(--c-text, #0f172a);
-  }.pfaq__more-desc {
-    margin: 0 0 1.1rem;
-    font-size: 0.92rem;
-    line-height: 1.6;
-    color: var(--c-text-muted, #475569);
-    max-width: 62ch;
-  }.pfaq__more-actions {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.75rem 1.25rem;
-  }.pfaq__more-wa {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.45rem;
-    font-weight: 700;
-    font-size: 0.92rem;
-    color: #0F7A3D;
-    text-decoration: none;
-    min-height: 44px;
-  }.pfaq__more-wa:hover { text-decoration: underline; }
-.pfaq__grid {
+  /* ── Grid principal ── */
+  .pfaq__grid {
     display: grid;
     grid-template-columns: 1fr 380px;
-    gap: 4rem;
+    gap: clamp(2.5rem, 5vw, 4.5rem);
     align-items: start;
   }
 
-  /* ── Columna FAQ ── */.pfaq__faq-col {
+  /* ── Columna FAQ ── */
+  .pfaq__faq-col {
     display: flex;
     flex-direction: column;
-  }.pfaq__item {
-    border-bottom: 1px solid var(--c-border, #e2e8f0);
-  }.pfaq__item:first-child {
-    border-top: 1px solid var(--c-border, #e2e8f0);
-  }.pfaq__q {
+  }
+  .pfaq__item {
+    border-bottom: 1px solid var(--c-line-strong);
+  }
+  .pfaq__item:first-child {
+    border-top: 1px solid var(--c-line-strong);
+  }
+  .pfaq__q {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -299,266 +268,339 @@ const COPY = {
     cursor: pointer;
     list-style: none;
     user-select: none;
-    transition: background 0.15s;
-  }.pfaq__q::-webkit-details-marker { display: none; }.pfaq__num {
+  }
+  .pfaq__q::-webkit-details-marker { display: none; }
+  .pfaq__q:focus-visible {
+    outline: 3px solid var(--c-ink);
+    outline-offset: 2px;
+    border-radius: 8px;
+  }
+  .pfaq__num {
     font-family: var(--font-head);
-    font-size: 0.7rem;
-    font-weight: 800;
-    /* La opacity:0.6 mezclaba #FF3D00 con el blanco del fondo y daba
-       #FF8B66 → 2.29:1. Se sustituye por un color sólido ya validado en
-       vez de un naranja aguado: mismo efecto visual, 5.48:1. */
-    color: var(--c-primary-text, #C82D00);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--c-ink-60);
     letter-spacing: 0.06em;
     min-width: 1.75rem;
     flex-shrink: 0;
-    transition: opacity 0.15s;
-  }.pfaq__num--tag {
-    /* El tag lleva más texto que "01", así que necesita su propio ancho y
-       un tratamiento de etiqueta: mayúsculas pequeñas con tracking, el
-       mismo recurso que usan .precio-tramo__label y .price-box__label. */
-    min-width: 5.5rem;
-    font-size: 0.66rem;
-    font-weight: 700;
+  }
+  .pfaq__num--tag {
+    /* El tag lleva más texto que "01": pill pastel con texto tinta. */
+    min-width: 0;
+    width: 6.5rem;
+    text-align: center;
+    font-size: 0.68rem;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    padding-top: 0.15rem;
-  }.pfaq__qtext {
+    color: var(--c-ink);
+    background: var(--c-durazno);
+    padding: 0.25rem 0.6rem;
+    border-radius: var(--r-btn);
+  }
+  .pfaq__qtext {
     flex: 1;
     font-family: var(--font-head);
-    font-size: 0.9375rem;
-    font-weight: 600;
-    color: var(--c-text, #0f172a);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--c-ink);
     line-height: 1.4;
-    transition: color 0.15s;
-  }.pfaq__chevron {
+  }
+  .pfaq__chevron {
     flex-shrink: 0;
-    color: var(--c-text-muted, #64748b);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid var(--c-line-strong);
+    color: var(--c-ink);
     display: flex;
     align-items: center;
-    transition: transform 0.25s ease, color 0.15s;
+    justify-content: center;
+    transition: transform 0.25s ease, background 0.15s ease, color 0.15s ease;
   }
+  .pfaq__q:hover .pfaq__chevron { border-color: var(--c-ink); }
 
-  /* Estado abierto */.pfaq__item[open] .pfaq__num    { opacity: 1; }.pfaq__item[open] .pfaq__qtext  { color: var(--c-primary, #FF3D00); }.pfaq__item[open] .pfaq__chevron {
+  /* Estado abierto */
+  .pfaq__item[open] .pfaq__chevron {
     transform: rotate(180deg);
-    color: var(--c-primary, #FF3D00);
-  }.pfaq__a {
+    background: var(--c-ink);
+    border-color: var(--c-ink);
+    color: #fff;
+  }
+  .pfaq__a {
     padding: 0 0.25rem 1.25rem calc(1.75rem + 1rem);
-    animation: pfaq-in 0.2s ease both;
   }
-
-  @keyframes pfaq-in {
-    from { opacity: 0; transform: translateY(-4px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }.pfaq__a p {
+  .pfaq__a p {
     margin: 0;
-    font-size: 0.9rem;
-    line-height: 1.8;
-    color: var(--c-text-muted, #475569);
+    font-size: 0.95rem;
+    line-height: 1.75;
+    color: var(--c-ink-60);
+    max-width: 70ch;
   }
 
-  /* ── Columna formulario ── */.pfaq__form-col {
+  /* ── Bloque "¿No está aquí tu pregunta?" ── */
+  .pfaq__more {
+    margin-top: 1.75rem;
+    padding: 1.4rem 1.5rem;
+    background: #fff;
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-tile);
+  }
+  .pfaq__more-title {
+    margin: 0 0 0.4rem;
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: var(--c-ink);
+  }
+  .pfaq__more-desc {
+    margin: 0 0 1.1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--c-ink-60);
+    max-width: 62ch;
+  }
+  .pfaq__more-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem 1.25rem;
+  }
+  .pfaq__more-wa {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #0F7A3C;
+    text-decoration: none;
+    min-height: 44px;
+  }
+  .pfaq__more-wa:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+  /* ── Columna formulario ── */
+  .pfaq__form-col {
     position: sticky;
     top: calc(var(--header-height, 70px) + 1.5rem);
   }
 
-  /* Tarjeta */.pfaq__card {
-    border-radius: 16px;
+  /* Tarjeta */
+  .pfaq__card {
+    border-radius: var(--r-card);
     overflow: hidden;
-    box-shadow:
-      0 1px 3px rgba(0,0,0,0.06),
-      0 8px 24px rgba(0,0,0,0.1),
-      0 24px 48px -12px rgba(0,0,0,0.08);
-    border: 1px solid rgba(0,0,0,0.05);
+    border: 1px solid var(--c-line);
+    background: #fff;
   }
 
-  /* Cabecera dark */.pfaq__card-head {
-    position: relative;
-    background: #0f172a;
+  /* Cabecera tinta */
+  .pfaq__card-head {
+    background: var(--c-ink);
     padding: 1.75rem 1.5rem 1.5rem;
-    overflow: hidden;
-  }.pfaq__card-head::before {
-    content: '';
-    position: absolute;
-    inset-block-start: 0;
-    left: 0; right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, #FF3D00 0%, #FF6B00 100%);
-  }.pfaq__card-eyebrow {
-    display: inline-block;
-    font-size: 0.68rem;
+  }
+  .pfaq__card-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.72rem;
     font-weight: 700;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: rgba(255,255,255,0.45);
-    margin-bottom: 0.5rem;
-  }.pfaq__card-title {
+    color: #fff;
+    margin-bottom: 0.6rem;
+  }
+  .pfaq__card-eyebrow::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--c-primary);
+    flex-shrink: 0;
+  }
+  .pfaq__card-title {
     font-family: var(--font-head);
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     font-weight: 800;
+    letter-spacing: -0.03em;
     color: #fff;
     margin: 0 0 0.5rem;
-    line-height: 1.25;
-  }.pfaq__card-desc {
-    font-size: 0.8rem;
-    color: rgba(255,255,255,0.6);
-    line-height: 1.65;
+    line-height: 1.2;
+  }
+  .pfaq__card-desc {
+    font-size: 0.875rem;
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
     margin: 0 0 1.25rem;
   }
 
-  /* Stats bar */.pfaq__stats {
+  /* Stats bar */
+  .pfaq__stats {
     display: flex;
     align-items: center;
-    gap: 0;
     padding-top: 1rem;
-    border-top: 1px solid rgba(255,255,255,0.07);
-  }.pfaq__stat {
+    border-top: 1px solid rgba(255,255,255,0.14);
+  }
+  .pfaq__stat {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.15rem;
+    gap: 0.2rem;
     text-align: center;
-  }.pfaq__stat strong {
+  }
+  .pfaq__stat strong {
     font-family: var(--font-head);
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 800;
     color: #fff;
     line-height: 1;
-  }.pfaq__stat span {
-    font-size: 0.62rem;
-    color: rgba(255,255,255,0.4);
+  }
+  .pfaq__stat span {
+    font-size: 0.68rem;
+    color: rgba(255,255,255,0.75);
     text-transform: uppercase;
-    letter-spacing: 0.04em;
-  }.pfaq__stat-sep {
+    letter-spacing: 0.06em;
+  }
+  .pfaq__stat-sep {
     width: 1px;
     height: 2rem;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.14);
     flex-shrink: 0;
   }
 
-  /* Cuerpo blanco */.pfaq__card-body {
+  /* Cuerpo blanco */
+  .pfaq__card-body {
     background: #fff;
     padding: 1.5rem;
   }
 
-  /* Formulario */.pfaq-form {
+  /* Formulario */
+  .pfaq-form {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
-  }.pfaq-form__row {
+    gap: 0.8rem;
+  }
+  .pfaq-form__row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.75rem;
-  }.pfaq-form__group {
+  }
+  .pfaq-form__group {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
-  }.pfaq-form__label {
-    font-size: 0.74rem;
-    font-weight: 600;
-    color: var(--c-text, #0f172a);
-    letter-spacing: 0.01em;
-  }.pfaq-form__input,.pfaq-form__select {
+  }
+  .pfaq-form__label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--c-ink);
+  }
+  .pfaq-form__input,
+  .pfaq-form__select {
     width: 100%;
-    padding: 0.625rem 0.875rem;
-    border: 1.5px solid var(--c-border, #e2e8f0);
-    border-radius: 8px;
-    font-size: 0.875rem;
-    color: var(--c-text, #0f172a);
-    background: #fff;
+    padding: 0.65rem 0.9rem;
+    border: 1px solid var(--c-line-strong);
+    border-radius: 14px;
+    font-size: 0.9rem;
+    color: var(--c-ink);
+    background: var(--c-canvas);
     font-family: var(--font-body);
-    transition: border-color 0.15s, box-shadow 0.15s;
+    transition: border-color 0.15s, background 0.15s;
     line-height: 1.4;
     appearance: none;
     -webkit-appearance: none;
-  }.pfaq-form__input::placeholder { color: #94a3b8; }.pfaq-form__input:focus,.pfaq-form__select:focus {
+  }
+  .pfaq-form__input::placeholder { color: var(--c-ink-60); opacity: .8; }
+  .pfaq-form__input:focus,
+  .pfaq-form__select:focus {
     outline: none;
-    border-color: var(--c-primary, #FF3D00);
-    box-shadow: 0 0 0 3px rgba(255,61,0,0.1);
-  }.pfaq-form__select {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%2394a3b8'%3E%3Cpath fill-rule='evenodd' d='M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z' clip-rule='evenodd'/%3E%3C/svg%3E");
+    border-color: var(--c-ink);
+    background: #fff;
+    box-shadow: 0 0 0 3px var(--c-line-strong);
+  }
+  .pfaq-form__select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%2355536A'%3E%3Cpath fill-rule='evenodd' d='M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z' clip-rule='evenodd'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 0.75rem center;
     background-size: 1.1rem;
     padding-right: 2.25rem;
-  }.pfaq-form__submit {
+  }
+  .pfaq-form__submit {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.625rem;
     width: 100%;
+    min-height: 48px;
     padding: 0.9rem 1.25rem;
-    background: #15803D; /* blanco sobre #22c55e daba 2.27 → 5.5 */
-    color: #fff;
+    background: var(--c-wa);
+    color: var(--c-on-light-vivid);
     font-family: var(--font-head);
-    font-size: 0.9375rem;
+    font-size: 0.95rem;
     font-weight: 700;
     border: none;
-    border-radius: 10px;
+    border-radius: var(--r-btn);
     cursor: pointer;
-    transition: background 0.2s, transform 0.1s, box-shadow 0.2s;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.16);
+    transition: transform 0.15s ease;
     margin-top: 0.25rem;
-    letter-spacing: 0.01em;
-    box-shadow: 0 4px 12px rgba(34,197,94,0.3);
-  }.pfaq-form__submit:hover {
-    background: #126634;
-    box-shadow: 0 6px 16px rgba(34,197,94,0.35);
-  }.pfaq-form__submit:active { transform: scale(0.98); }
+  }
+  .pfaq-form__submit:hover { transform: translateY(-2px); }
+  .pfaq-form__submit:focus-visible {
+    outline: 3px solid var(--c-ink);
+    outline-offset: 3px;
+  }
 
-  /* Trust signals */.pfaq-trust {
+  /* Trust signals */
+  .pfaq-trust {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    /* Antes: space-between sin wrap. El tercer badge ("Respuesta en
-       minutos") se salía de la tarjeta y quedaba cortado a media palabra. */
     flex-wrap: wrap;
     gap: 0.45rem 0.9rem;
     margin-top: 1rem;
     padding-top: 0.875rem;
-    border-top: 1px solid var(--c-border, #e2e8f0);
-  }.pfaq-trust__item {
+    border-top: 1px solid var(--c-line);
+  }
+  .pfaq-trust__item {
     display: flex;
     align-items: center;
-    white-space: nowrap;
     gap: 0.3rem;
-    font-size: 0.69rem;
-    color: var(--c-text-muted, #64748b);
+    font-size: 0.72rem;
+    color: var(--c-ink-60);
     line-height: 1.3;
     white-space: nowrap;
-  }.pfaq-trust__item svg { color: #22c55e; flex-shrink: 0; }
+  }
+  .pfaq-trust__item svg { color: #0F7A3C; flex-shrink: 0; }
 
   /* ── Responsive ── */
-  @media (max-width: 1100px) {.pfaq__grid {
-      grid-template-columns: 1fr 340px;
-      gap: 3rem;
-    }
+  @media (max-width: 1100px) {
+    .pfaq__grid { grid-template-columns: 1fr 340px; gap: 3rem; }
   }
-
-  @media (max-width: 860px) {.pfaq__grid {
-      grid-template-columns: 1fr;
-      gap: 2.5rem;
-    }.pfaq__form-col {
+  @media (max-width: 860px) {
+    .pfaq__grid { grid-template-columns: 1fr; gap: 2.5rem; }
+    .pfaq__form-col {
       position: static;
       max-width: 520px;
       margin: 0 auto;
       width: 100%;
     }
   }
-
-  @media (max-width: 520px) {.pfaq-form__row { grid-template-columns: 1fr; }.pfaq-trust {
-      flex-wrap: wrap;
-      justify-content: flex-start;
+  @media (max-width: 520px) {
+    .pfaq-form__row { grid-template-columns: 1fr; }
+  }
+  /* Debajo de 640px el tag pasa a ser una línea propia encima de la
+     pregunta, y la pregunta recupera el ancho. */
+  @media (max-width: 640px) {
+    .pfaq__q:has(.pfaq__num--tag) {
+      display: grid;
+      grid-template-columns: 1fr auto;
       gap: 0.5rem 1rem;
     }
-  }
-  /* En una columna de 358px el tag y la pregunta compiten por el ancho y
-     la pregunta se parte en tres renglones. Debajo de 640px el tag pasa
-     a ser una línea propia encima, y la pregunta recupera el ancho. */
-  @media (max-width: 640px) {.pfaq__q { flex-wrap: wrap; }.pfaq__num--tag {
-      min-width: 100%;
-      order: -1;
-      margin-bottom: 0.3rem;
-      padding-top: 0;
-    }.pfaq__qtext { flex: 1 1 0; }
+    .pfaq__num--tag {
+      grid-column: 1 / -1;
+      justify-self: start;
+      width: auto;
+    }
+    .pfaq__a { padding-left: 0.25rem; }
   }
 </style>

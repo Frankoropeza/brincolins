@@ -46,8 +46,8 @@ const icons: Record<string, string> = {
 <style>.ctabar {
     /* Nov 2026: bloque tinta redondeado (antes franja naranja a todo el
        ancho). Blanco sobre tinta + 10% blanco: > 12:1. */
-    background: var(--c-ink, #17152B);
-    border-radius: var(--r-sheet, 40px);
+    background: var(--c-ink);
+    border-radius: var(--r-sheet);
     padding: 1.5rem 0;
   }.ctabar__headline {
     text-align: center;
@@ -68,7 +68,7 @@ const icons: Record<string, string> = {
     padding: 0.875rem 1rem;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 999px;
+    border-radius: var(--r-btn);
     color: #fff;
     font-size: 0.9375rem;
     font-weight: 600;

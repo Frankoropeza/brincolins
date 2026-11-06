@@ -25,7 +25,6 @@ const {
   ages,
   category,
   categoryColor = "castillo",
-  gradient = "#FF3D00, #FF6D00",
   image,
 } = Astro.props;
 
@@ -44,7 +43,7 @@ const anchor = anchorInflable(slug);
         height={405}
       />
     ) : (
-      <div class="product-card__image-fallback" style={`background: linear-gradient(135deg, ${gradient});`}>
+      <div class="product-card__image-fallback">
         
       </div>
     )}
@@ -71,3 +70,13 @@ const anchor = anchorInflable(slug);
     </div>
   </div>
 </article>
+
+<style>
+  /* Sin foto: fondo pastel plano según la familia del modelo (sin degradado).
+     La prop `gradient` se conserva en la interfaz pero ya no pinta nada. */
+  .product-card__image-fallback { background: var(--c-durazno); }
+  .product-card--princesas .product-card__image-fallback { background: var(--c-chicle); }
+  .product-card--pirata .product-card__image-fallback { background: var(--c-cielo); }
+  .product-card--jungla .product-card__image-fallback { background: var(--c-menta); }
+  .product-card--extremo .product-card__image-fallback { background: var(--c-mango); }
+</style>

@@ -21,7 +21,6 @@ const {
   capacity,
   phone,
   label,
-  gradient,
   features,
   highlight,
 } = Astro.props;
@@ -30,7 +29,7 @@ const telHref = `tel:+52${phone.replace(/\s/g, "")}`;
 ---
 
 <article class="product-card">
-  <div class="product-card__image" style={`background: ${gradient};`}>
+  <div class="product-card__image">
     <span class="product-card__category">{rating}★</span>
   </div>
 
@@ -44,7 +43,7 @@ const telHref = `tel:+52${phone.replace(/\s/g, "")}`;
       <span class="product-card__tag">{phone}</span>
     </div>
 
-    <div class="venue-card__features" style="margin-bottom:1rem;">
+    <div class="venue-card__features">
       {features.map(f => (
         <span class="venue-card__tag">✓ {f}</span>
       ))}
@@ -55,3 +54,23 @@ const telHref = `tel:+52${phone.replace(/\s/g, "")}`;
     </div>
   </div>
 </article>
+
+<style>
+  /* Fondo pastel por posición en la rejilla; la prop `gradient` de
+     src/data/directorio.ts ya no se pinta. */
+  .product-card__image { background: var(--c-cielo); }
+  .product-card:nth-child(6n+1) .product-card__image { background: var(--c-mango); }
+  .product-card:nth-child(6n+2) .product-card__image { background: var(--c-cielo); }
+  .product-card:nth-child(6n+3) .product-card__image { background: var(--c-menta); }
+  .product-card:nth-child(6n+4) .product-card__image { background: var(--c-chicle); }
+  .product-card:nth-child(6n+5) .product-card__image { background: var(--c-lila); }
+  .product-card:nth-child(6n+6) .product-card__image { background: var(--c-durazno); }
+  .venue-card__features { margin-bottom: 1rem; }
+  .venue-card__tag {
+    background: #fff;
+    border: 1px solid var(--c-line-strong);
+    border-radius: var(--r-btn);
+    color: var(--c-ink);
+    font-weight: 600;
+  }
+</style>

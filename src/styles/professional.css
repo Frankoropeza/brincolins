@@ -8,8 +8,8 @@
 /* Foco visible accesible y consistente (navegación por teclado, WCAG 2.4.7).
    :where() mantiene especificidad 0 para no pisar estilos de componente. */
 :where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
-  outline: 3px solid var(--c-primary);
-  outline-offset: 2px;
+  outline: 3px solid var(--c-ink);
+  outline-offset: 3px;
 }
 
 /* ── Cobertura / Directorio: rejilla de ZONAS a 2 columnas en móvil ──────
@@ -45,8 +45,7 @@ p, .hero__desc, .section-subtitle, .why-sc__desc {
   text-wrap: pretty;
 }
 
-/* Hero de home: CTAs + línea de confianza en la primera pantalla.
-   La línea va sobre el fondo naranja → texto blanco, estrellas ámbar. */
+/* Hero de home: línea de confianza bajo los CTAs. */
 .hero__trust-line {
   display: flex;
   align-items: center;
@@ -55,10 +54,5 @@ p, .hero__desc, .section-subtitle, .why-sc__desc {
   margin-top: 0.5rem;
   font-size: 0.9rem;
   font-weight: 600;
-  color: rgba(255,255,255,0.92);
-}
-.hero__trust-line .hero__stars {
-  color: var(--c-accent);
-  letter-spacing: 2px;
-  font-size: 1rem;
+  color: var(--c-ink-60);
 }

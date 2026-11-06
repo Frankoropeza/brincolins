@@ -100,10 +100,10 @@ if (!links) {
   min-height: 46px;
   padding: 0.6rem 1.15rem 0.6rem 0.95rem;
   background: #fff;
-  color: var(--c-ink, #17152B);
-  border: 1px solid var(--c-line-strong, rgba(23,21,43,.16));
-  border-radius: 999px;
-  font-family: var(--font-head, sans-serif);
+  color: var(--c-ink);
+  border: 1px solid var(--c-line-strong);
+  border-radius: var(--r-btn);
+  font-family: var(--font-head);
   font-weight: 600;
   font-size: 0.95rem;
   line-height: 1.2;
@@ -116,20 +116,20 @@ if (!links) {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: var(--bg, var(--c-primary, #FF3D00));
+  background: var(--bg, var(--c-primary));
   flex-shrink: 0;
 }
 .qnav__item:hover {
   transform: translateY(-2px);
-  border-color: var(--c-ink, #17152B);
+  border-color: var(--c-ink);
 }
 .qnav__item:focus-visible {
-  outline: 3px solid var(--c-ink, #17152B);
+  outline: 3px solid var(--c-ink);
   outline-offset: 2px;
 }
 .qnav__item[aria-current="page"] {
-  background: var(--c-ink, #17152B);
-  border-color: var(--c-ink, #17152B);
+  background: var(--c-ink);
+  border-color: var(--c-ink);
   color: #fff;
 }
 
