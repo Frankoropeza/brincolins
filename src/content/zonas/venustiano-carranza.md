@@ -1,7 +1,7 @@
 ---
 titulo: "Fiestas con inflable en Venustiano Carranza: patios, vecindades y unidades"
 vecinas: ["cuauhtemoc", "gustavo-a-madero", "iztacalco", "nezahualcoyotl"]
-guias: ["decoracion-completa-fiesta-infantil-cdmx-globos-inflable", "fiesta-en-patio-pequeno-con-inflable", "fiesta-infantil-en-privada-o-condominio-cdmx", "fiesta-infantil-con-poco-presupuesto-cdmx"]
+guias: ["decoracion-completa-fiesta-infantil-cdmx-globos-inflable", "fiesta-en-patio-pequeno-con-inflable", "fiesta-infantil-en-privada-o-condominio-cdmx", "fiesta-infantil-con-poco-presupuesto-cdmx", "mesa-de-snacks-y-postres-fiesta-infantil", "fiesta-del-espacio-astronautas-con-inflable"]
 faqs:
   - question: "¿Pueden instalar en los jardines de la Unidad Kennedy o de otros conjuntos de Jardín Balbuena?"
     answer: "Sí, con autorización de la administración del conjunto. Los jardines entre edificios suelen ser planos y amplios, pero la toma de corriente puede quedar lejos. Dinos de qué departamento o local se puede tomar la corriente de 110 V; debe estar a menos de 20 m del inflable."

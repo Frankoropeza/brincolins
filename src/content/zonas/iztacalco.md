@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Iztacalco"
 vecinas: ["venustiano-carranza", "iztapalapa", "benito-juarez", "cuauhtemoc", "nezahualcoyotl"]
-guias: ["fiesta-en-patio-pequeno-con-inflable", "fiesta-infantil-en-privada-o-condominio-cdmx", "cuando-reservar-inflable-temporadas-cdmx", "fiesta-infantil-con-poco-presupuesto-cdmx"]
+guias: ["fiesta-en-patio-pequeno-con-inflable", "fiesta-infantil-en-privada-o-condominio-cdmx", "cuando-reservar-inflable-temporadas-cdmx", "fiesta-infantil-con-poco-presupuesto-cdmx", "pastel-fiesta-infantil-porciones-y-tamanos", "musica-para-fiesta-infantil-playlist-por-edad"]
 faqs:
   - question: "¿Un concierto o evento en la Ciudad Deportiva puede retrasar la entrega en Iztacalco?"
     answer: "Puede cargar mucho el tránsito en Viaducto, Río Churubusco y las calles alrededor de la Magdalena Mixhuca. Si tu fiesta coincide con un evento grande en el Autódromo, el Palacio de los Deportes o el estadio de beisbol, avísanos al cotizar para planear la ruta y acordar una hora de instalación con margen."

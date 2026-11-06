@@ -1,7 +1,7 @@
 ---
 titulo: "Guía práctica para tu fiesta con inflable en Coacalco"
 vecinas: ["ecatepec", "tultitlan", "tecamac", "cuautitlan-izcalli"]
-guias: ["fiesta-infantil-en-privada-o-condominio-cdmx", "castillos-inflables-comparativa-princesas-blanco-baby", "fiesta-de-5-anos-ideas-juegos-cdmx", "dia-de-reyes-fiesta-infantil-con-inflable"]
+guias: ["fiesta-infantil-en-privada-o-condominio-cdmx", "castillos-inflables-comparativa-princesas-blanco-baby", "fiesta-de-5-anos-ideas-juegos-cdmx", "dia-de-reyes-fiesta-infantil-con-inflable", "invitaciones-fiesta-infantil-cuando-enviar", "fiesta-de-superheroes-con-inflable"]
 faqs:
   - question: "En mi fraccionamiento de Coacalco el área verde está en desnivel, ¿se puede poner ahí el inflable?"
     answer: "Sólo si hay un tramo plano del tamaño del inflable. Sobre una pendiente el inflable se recarga hacia un lado y no es seguro para los niños. Mándanos fotos del área desde dos ángulos y te decimos si hay un punto que sirva o si conviene un modelo más chico que quepa en la parte plana."

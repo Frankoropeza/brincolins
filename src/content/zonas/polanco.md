@@ -1,7 +1,7 @@
 ---
 titulo: "Fiestas con inflable en Polanco, Lomas y Santa Fe: torres, roof gardens y residencias"
 vecinas: ["miguel-hidalgo", "cuajimalpa", "alvaro-obregon", "cuauhtemoc", "huixquilucan", "naucalpan"]
-guias: ["inflable-en-azotea-que-revisar-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx", "inflables-eventos-formales-cdmx", "bautizo-con-inflable-zona-infantil-cdmx", "fiesta-jardin-exterior-inflable-mobiliario-cdmx"]
+guias: ["inflable-en-azotea-que-revisar-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx", "inflables-eventos-formales-cdmx", "bautizo-con-inflable-zona-infantil-cdmx", "fiesta-jardin-exterior-inflable-mobiliario-cdmx", "fiesta-para-adultos-con-zona-infantil-inflable", "fiesta-infantil-sustentable-sin-plasticos"]
 faqs:
   - question: "Mi torre en Santa Fe pide registrar con anticipación a cualquier proveedor, ¿qué datos nos mandan?"
     answer: "Al confirmar la reserva te enviamos los nombres del equipo de instalación y los datos del vehículo para que los registres en recepción o seguridad. Si la torre pide algún documento adicional, como póliza o carta responsiva, avísanos al cotizar para revisar si podemos cubrirlo."

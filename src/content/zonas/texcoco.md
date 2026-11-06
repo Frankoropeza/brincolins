@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Texcoco"
 vecinas: ["nezahualcoyotl", "ecatepec", "chalco", "tecamac"]
-guias: ["primera-comunion-con-inflable-cdmx", "presentacion-de-3-anos-recepcion-con-inflable", "barco-pirata-o-extremo-inflables-grandes", "fiesta-tematica-safari-inflable-cdmx"]
+guias: ["primera-comunion-con-inflable-cdmx", "presentacion-de-3-anos-recepcion-con-inflable", "barco-pirata-o-extremo-inflables-grandes", "fiesta-tematica-safari-inflable-cdmx", "fiesta-charra-y-vaquera-infantil-con-inflable", "fiesta-de-granja-animales-con-inflable"]
 faqs:
   - question: "Mi fiesta es en un pueblo de la parte alta de Texcoco, ¿pueden subir?"
     answer: "Mándanos el pin de ubicación y una foto del camino y del área. Lo que revisamos es hasta dónde llega la camioneta, cuántos metros hay que cargar el equipo y si el área de instalación está plana. Con eso te confirmamos antes de apartar y te damos el envío dentro del rango de $250 a $400."

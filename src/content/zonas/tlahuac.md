@@ -1,7 +1,7 @@
 ---
 titulo: "Cómo organizar tu fiesta con inflable en Tláhuac"
 vecinas: ["iztapalapa", "xochimilco", "milpa-alta", "chalco"]
-guias: ["fiesta-en-patio-pequeno-con-inflable", "donde-instalar-inflable-pasto-cemento-tierra", "fiesta-infantil-en-privada-o-condominio-cdmx", "cuando-reservar-inflable-temporadas-cdmx"]
+guias: ["fiesta-en-patio-pequeno-con-inflable", "donde-instalar-inflable-pasto-cemento-tierra", "fiesta-infantil-en-privada-o-condominio-cdmx", "cuando-reservar-inflable-temporadas-cdmx", "fiesta-mexicana-infantil-con-inflable", "bolsitas-y-recuerdos-fiesta-infantil-ideas"]
 faqs:
   - question: "¿Se puede hacer una fiesta con inflable en Mixquic en la temporada de Día de Muertos?"
     answer: "Sí, pero hay que planearla. A finales de octubre y principios de noviembre San Andrés Mixquic recibe muchísimos visitantes y las calles de acceso se saturan. Si tu fiesta cae en esas fechas, avísanos al cotizar para acordar una hora de entrega y retiro temprana, fuera de los horarios de más afluencia."

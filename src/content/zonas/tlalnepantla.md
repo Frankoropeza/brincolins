@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Tlalnepantla"
 vecinas: ["naucalpan", "atizapan", "azcapotzalco", "gustavo-a-madero", "cuautitlan-izcalli", "ecatepec"]
-guias: ["fiesta-jardin-exterior-inflable-mobiliario-cdmx", "family-day-empresa-inflables-para-hijos", "castillos-inflables-comparativa-princesas-blanco-baby", "posada-navidena-infantil-con-inflable-cdmx"]
+guias: ["fiesta-jardin-exterior-inflable-mobiliario-cdmx", "family-day-empresa-inflables-para-hijos", "castillos-inflables-comparativa-princesas-blanco-baby", "posada-navidena-infantil-con-inflable-cdmx", "fiesta-de-13-a-15-anos-adolescentes-ideas", "fiesta-de-carros-de-carreras-con-inflable"]
 faqs:
   - question: "Vivo en la zona oriente de Tlalnepantla, ¿también la cubren?"
     answer: "Sí. La zona oriente está separada de la cabecera y se llega por otra ruta, pero forma parte de la cobertura en Tlalnepantla. El envío se calcula por colonia dentro del rango de $150 a $250; con tu dirección exacta te damos la cifra."

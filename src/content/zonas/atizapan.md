@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Atizapán de Zaragoza"
 vecinas: ["naucalpan", "tlalnepantla", "cuautitlan-izcalli", "nicolas-romero"]
-guias: ["fiesta-jardin-exterior-inflable-mobiliario-cdmx", "bautizo-con-inflable-zona-infantil-cdmx", "primera-comunion-con-inflable-cdmx", "donde-instalar-inflable-pasto-cemento-tierra"]
+guias: ["fiesta-jardin-exterior-inflable-mobiliario-cdmx", "bautizo-con-inflable-zona-infantil-cdmx", "primera-comunion-con-inflable-cdmx", "donde-instalar-inflable-pasto-cemento-tierra", "fiesta-para-adultos-con-zona-infantil-inflable", "fiesta-charra-y-vaquera-infantil-con-inflable"]
 faqs:
   - question: "Mi jardín en Atizapán tiene dos niveles, ¿en cuál conviene poner el inflable?"
     answer: "En el que tenga un rectángulo plano del tamaño del modelo y un contacto de luz a menos de 20 m. Muchas casas en ladera tienen un nivel con pasto y otro con terraza: el inflable no se instala sobre escalones ni entre dos niveles. Mándanos fotos de ambos y te decimos cuál sirve."

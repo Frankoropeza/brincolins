@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Ecatepec"
 vecinas: ["tecamac", "coacalco", "tlalnepantla", "nezahualcoyotl", "gustavo-a-madero"]
-guias: ["fiesta-infantil-en-privada-o-condominio-cdmx", "inflable-en-salon-de-fiestas-que-preguntar", "fiesta-infantil-con-poco-presupuesto-cdmx", "inflable-bajo-techo-temporada-de-lluvias-cdmx"]
+guias: ["fiesta-infantil-en-privada-o-condominio-cdmx", "inflable-en-salon-de-fiestas-que-preguntar", "fiesta-infantil-con-poco-presupuesto-cdmx", "inflable-bajo-techo-temporada-de-lluvias-cdmx", "comida-para-fiesta-infantil-menu-ideas", "pinata-fiesta-infantil-tamano-y-reglas"]
 faqs:
   - question: "¿Se puede instalar el inflable en la calle frente a mi casa en Ecatepec?"
     answer: "Sólo si tienes autorización para usar ese tramo de calle. Cerrar o apartar la vía pública lo decide el municipio, así que consulta con el ayuntamiento o tu autoridad auxiliar antes de apartar la fecha. Del lado del inflable necesitamos piso plano, sin cables bajos encima y una toma de 110 V a menos de 20 m."

@@ -1,7 +1,7 @@
 ---
 titulo: "Fiestas con inflable en Cuajimalpa: de las torres de Santa Fe a los pueblos del bosque"
 vecinas: ["alvaro-obregon", "miguel-hidalgo", "polanco", "huixquilucan"]
-guias: ["donde-instalar-inflable-pasto-cemento-tierra", "fiesta-infantil-en-invierno-al-aire-libre-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx", "horario-fiesta-infantil-cuantas-horas-inflable"]
+guias: ["donde-instalar-inflable-pasto-cemento-tierra", "fiesta-infantil-en-invierno-al-aire-libre-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx", "horario-fiesta-infantil-cuantas-horas-inflable", "cuidar-el-pasto-antes-y-despues-de-un-inflable", "fiesta-neon-infantil-con-inflable"]
 faqs:
   - question: "¿En los pueblos de Cuajimalpa como Acopilco o Chimalpa se puede instalar sobre tierra?"
     answer: "Sí, si el terreno está plano y despejado de piedras, ramas o vidrio. Antes del montaje se coloca una lona de protección. Si la tierra está muy suelta o hay charcos por la lluvia, avísanos para valorar otro punto del terreno."

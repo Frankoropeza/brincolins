@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Tlalpan: del Pedregal al Ajusco"
 vecinas: ["coyoacan", "alvaro-obregon", "magdalena-contreras", "xochimilco", "milpa-alta"]
-guias: ["fiesta-jardin-exterior-inflable-mobiliario-cdmx", "fiesta-infantil-en-invierno-al-aire-libre-cdmx", "donde-instalar-inflable-pasto-cemento-tierra", "fiesta-infantil-en-privada-o-condominio-cdmx"]
+guias: ["fiesta-jardin-exterior-inflable-mobiliario-cdmx", "fiesta-infantil-en-invierno-al-aire-libre-cdmx", "donde-instalar-inflable-pasto-cemento-tierra", "fiesta-infantil-en-privada-o-condominio-cdmx", "trampolin-para-ninos-comprar-o-rentar-inflable", "fiesta-hawaiana-infantil-con-inflable"]
 faqs:
   - question: "¿Hace mucho frío para una fiesta con inflable en Topilejo, Parres o el Ajusco?"
     answer: "Los pueblos de la parte alta de Tlalpan son más fríos que el resto de la ciudad por su altitud, sobre todo en las mañanas y al anochecer de diciembre a febrero. Se puede hacer la fiesta al aire libre; conviene programar el inflable de mediodía a media tarde y tener abrigo para los niños al salir."

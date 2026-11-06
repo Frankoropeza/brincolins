@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para organizar tu fiesta con inflable en Tecámac"
 vecinas: ["ecatepec", "coacalco", "tultitlan", "texcoco"]
-guias: ["mejor-inflable-para-ninos-menores-de-3-anos", "inflables-de-1600-comparativa-dragones-jungla-gusanitos", "fiesta-infantil-con-poco-presupuesto-cdmx", "horario-fiesta-infantil-cuantas-horas-inflable"]
+guias: ["mejor-inflable-para-ninos-menores-de-3-anos", "inflables-de-1600-comparativa-dragones-jungla-gusanitos", "fiesta-infantil-con-poco-presupuesto-cdmx", "horario-fiesta-infantil-cuantas-horas-inflable", "fiesta-del-espacio-astronautas-con-inflable", "invitaciones-fiesta-infantil-cuando-enviar"]
 faqs:
   - question: "Mi casa en Tecámac es de conjunto y el patio de atrás es muy chico, ¿qué opción tengo?"
     answer: "Si el patio sólo da para algo compacto, el Castillo Baby mide 2.5 × 2 m y es para niños de 1 a 3 años. Si los niños son más grandes, lo práctico es pedir a la administración el área verde o el parque del conjunto y llevar ahí un modelo de 5 × 3 m como el Dragones Rojos. Mándanos las medidas del patio y lo confirmamos."

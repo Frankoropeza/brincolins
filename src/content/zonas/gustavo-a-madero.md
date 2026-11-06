@@ -1,7 +1,7 @@
 ---
 titulo: "Cómo planear tu fiesta con inflable en Gustavo A. Madero"
 vecinas: ["azcapotzalco", "cuauhtemoc", "venustiano-carranza", "tlalnepantla", "ecatepec"]
-guias: ["instalar-inflable-en-explanada-cancha-estacionamiento", "posada-navidena-infantil-con-inflable-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx", "donde-instalar-inflable-pasto-cemento-tierra"]
+guias: ["instalar-inflable-en-explanada-cancha-estacionamiento", "posada-navidena-infantil-con-inflable-cdmx", "fiesta-infantil-en-privada-o-condominio-cdmx", "donde-instalar-inflable-pasto-cemento-tierra", "fiesta-mexicana-infantil-con-inflable", "fiesta-de-bomberos-y-oficios-con-inflable"]
 faqs:
   - question: "¿Pueden entregar cerca de la Basílica el 11 y 12 de diciembre?"
     answer: "Esos días hay cierres y muchísima gente alrededor de La Villa por la peregrinación guadalupana. Se puede atender, pero hay que planear la ruta con tiempo y acordar un horario de entrega con margen. Si tu fiesta cae en esas fechas y vives cerca de la Calzada de Guadalupe o de Misterios, avísanos al cotizar."

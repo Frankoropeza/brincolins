@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Xochimilco: barrios, pueblos y terrenos"
 vecinas: ["tlalpan", "coyoacan", "iztapalapa", "tlahuac", "milpa-alta"]
-guias: ["donde-instalar-inflable-pasto-cemento-tierra", "fiesta-jardin-exterior-inflable-mobiliario-cdmx", "fiesta-infantil-en-parque-con-inflable", "inflable-bajo-techo-temporada-de-lluvias-cdmx"]
+guias: ["donde-instalar-inflable-pasto-cemento-tierra", "fiesta-jardin-exterior-inflable-mobiliario-cdmx", "fiesta-infantil-en-parque-con-inflable", "inflable-bajo-techo-temporada-de-lluvias-cdmx", "fiesta-hawaiana-infantil-con-inflable", "reunion-familiar-carne-asada-con-inflable"]
 faqs:
   - question: "En mi barrio de Xochimilco cierran la calle por fiestas patronales, ¿cómo coordinamos la entrega?"
     answer: "En los barrios y pueblos de Xochimilco hay fiestas y procesiones a lo largo del año que cierran calles por horas. Si sabes que tu fecha coincide con una, avísanos al cotizar y dinos qué calles se cierran y a qué hora; así acordamos una ruta y un horario de entrega y retiro que no choque con el recorrido."

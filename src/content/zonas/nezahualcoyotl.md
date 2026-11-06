@@ -1,7 +1,7 @@
 ---
 titulo: "Guía para tu fiesta con inflable en Nezahualcóyotl"
 vecinas: ["iztacalco", "iztapalapa", "venustiano-carranza", "gustavo-a-madero", "ecatepec"]
-guias: ["fiesta-infantil-con-poco-presupuesto-cdmx", "inflable-para-departamento-altura-techo-cdmx", "inflable-en-salon-de-fiestas-que-preguntar", "fiesta-de-3-anos-ideas-inflable-cdmx"]
+guias: ["fiesta-infantil-con-poco-presupuesto-cdmx", "inflable-para-departamento-altura-techo-cdmx", "inflable-en-salon-de-fiestas-que-preguntar", "fiesta-de-3-anos-ideas-inflable-cdmx", "pinata-fiesta-infantil-tamano-y-reglas", "fiesta-de-halloween-infantil-con-inflable"]
 faqs:
   - question: "Mi patio en Neza tiene techo de lámina, ¿qué inflable puedo meter?"
     answer: "Mide la altura del piso al punto más bajo del techo o de la viga. Si llega a 3.2 m libres, caben el Castillo Baby (de 1 a 3 años) o el Gusanitos (de 2 a 8 años). Si no llega, el inflable tiene que ir en la parte descubierta del patio o en la azotea. Mándanos la medida y una foto."
