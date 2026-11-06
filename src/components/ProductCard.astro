@@ -3,7 +3,6 @@ import { anchorInflable } from '../data/anchors';
 import ResponsiveInflatableImage from './ResponsiveInflatableImage.astro';
 export interface Props {
   slug: string;
-  emoji?: string;
   name: string;
   description: string;
   price: string;
@@ -11,13 +10,11 @@ export interface Props {
   ages: string;
   category: string;
   categoryColor?: string;
-  gradient?: string;
   image?: string;
 }
 
 const {
   slug,
-  emoji = "",
   name,
   description,
   price,
@@ -72,8 +69,7 @@ const anchor = anchorInflable(slug);
 </article>
 
 <style>
-  /* Sin foto: fondo pastel plano según la familia del modelo (sin degradado).
-     La prop `gradient` se conserva en la interfaz pero ya no pinta nada. */
+  /* Sin foto: fondo pastel plano según la familia del modelo. */
   .product-card__image-fallback { background: var(--c-durazno); }
   .product-card--princesas .product-card__image-fallback { background: var(--c-chicle); }
   .product-card--pirata .product-card__image-fallback { background: var(--c-cielo); }

@@ -248,9 +248,6 @@ export function getInflableBySlug(slug: string): Inflable | undefined {
   return INFLABLES.find(i => i.slug === slug);
 }
 
-/** Modelos que caben bajo techo (altura libre ≤ 3.2 m). */
-export const INFLABLES_INTERIOR = INFLABLES_ACTIVOS.filter(i => i.indoor);
-
 /** Número real de modelos activos. Había 3 cifras circulando por el sitio:
     "8 modelos", "más de 8 modelos" y "14 modelos". */
 export const MODELOS_COUNT = INFLABLES_ACTIVOS.length;

@@ -8,7 +8,6 @@ export interface Props {
   capacity: string;
   phone: string;
   label: string;
-  gradient: string;
   features: string[];
   highlight: string;
 }
@@ -56,8 +55,7 @@ const telHref = `tel:+52${phone.replace(/\s/g, "")}`;
 </article>
 
 <style>
-  /* Fondo pastel por posición en la rejilla; la prop `gradient` de
-     src/data/directorio.ts ya no se pinta. */
+  /* Fondo pastel por posición en la rejilla. */
   .product-card__image { background: var(--c-cielo); }
   .product-card:nth-child(6n+1) .product-card__image { background: var(--c-mango); }
   .product-card:nth-child(6n+2) .product-card__image { background: var(--c-cielo); }

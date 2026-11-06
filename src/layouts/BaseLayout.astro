@@ -146,10 +146,6 @@ const ogType = (pageType === "product") ? "product" : "website";
       src: url('/fonts/outfit-latin-var.woff2') format('woff2');
     }
     :root {
-      --topbar-height: 36px;
-      --header-height: 64px;
-      --c-primary: #FF3D00;
-      --c-secondary: #17152B;
       --font-head: 'Outfit', system-ui, -apple-system, sans-serif;
       --font-body: 'Outfit', system-ui, -apple-system, sans-serif;
     }
@@ -204,26 +200,6 @@ const ogType = (pageType === "product") ? "product" : "website";
   {schemaFaq && <script type="application/ld+json" set:html={JSON.stringify(schemaFaq)} />}
   {schemaProduct && <script type="application/ld+json" set:html={JSON.stringify(schemaProduct)} />}
   {schemaMarkup && <script type="application/ld+json" set:html={schemaMarkup} />}
-
-  <!-- Measure TopBar height dynamically for hero padding -->
-  <script is:inline>
-    (function(){
-      function setHeights(){
-        var tb = document.querySelector('.topbar');
-        var hdr = document.getElementById('hdr');
-        var h = tb ? tb.offsetHeight : 36;
-        var hh = hdr ? hdr.offsetHeight : 70;
-        document.documentElement.style.setProperty('--topbar-height', h + 'px');
-        document.documentElement.style.setProperty('--header-height', hh + 'px');
-      }
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', setHeights);
-      } else {
-        setHeights();
-      }
-      window.addEventListener('resize', setHeights, {passive:true});
-    })();
-  </script>
 
   {/* ── Analítica (GA4) ──────────────────────────────────────────
        Nada se carga mientras GA4_ID esté vacío en src/data/site.ts:

@@ -27,7 +27,6 @@
  * ══════════════════════════════════════════════════════════════════ */
 
 import {
-  INFLABLES_ACTIVOS,
   MODELOS_COUNT,
   PRICE_RANGE,
   getInflableBySlug,
@@ -420,6 +419,3 @@ export function faqsPrefooter(
   return out;
 }
 
-/** Sólo para pruebas: cuántas preguntas distintas puede servir el sistema. */
-export const FAQ_UNIVERSAL_COUNT = FAQ_UNIVERSAL.length;
-export const CATALOGO_COUNT = INFLABLES_ACTIVOS.length;

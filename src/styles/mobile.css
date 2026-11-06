@@ -115,15 +115,6 @@ img, picture, video, svg, iframe { max-width: 100%; }
   .hero__img-wrap { max-width: 420px; margin-inline: auto; }
   .hero__img-pill { font-size: 11px !important; padding: 0.35rem 0.875rem !important; }
 
-  /* Trust bar compacta */
-  .hero__trust {
-    gap: 0.4rem 0.875rem !important;
-    margin-top: 1.25rem !important;
-    padding-top: 1rem !important;
-  }
-  .trust-sep { height: 1.5rem; }
-  .trust-item__label { font-size: 0.65rem !important; letter-spacing: 0.03em; }
-
   /* .hero__copy ya no se oculta en móvil: se apila bajo los CTAs en todas
      las páginas (ver global.css, "Hero — 2 columnas homologado"). */
 }
@@ -131,7 +122,6 @@ img, picture, video, svg, iframe { max-width: 100%; }
 @media (max-width: 480px) {
   .hero { padding-top: 1.75rem !important; padding-bottom: 2rem !important; }
   .hero__title { font-size: clamp(1.75rem, 8vw, 2.25rem) !important; }
-  .trust-sep { display: none; }
 }
 
 
@@ -251,7 +241,6 @@ img, picture, video, svg, iframe { max-width: 100%; }
 @media (max-width: 480px) {
   .fiesta-card { padding: 1.25rem !important; gap: 0.625rem !important; }
   .fiesta-card__title { font-size: 1rem !important; }
-  .evento-card { padding: 1.25rem 1.375rem !important; }
 }
 
 
@@ -436,14 +425,6 @@ img, picture, video, svg, iframe { max-width: 100%; }
 
 
 /* ──────────────────────────────────────────────────────────────────
-   27. TESTIMONIALS — compactos
-   ────────────────────────────────────────────────────────────────── */
-@media (max-width: 480px) {
-  .testimonial { padding: 1.25rem !important; }
-}
-
-
-/* ──────────────────────────────────────────────────────────────────
    28. PRODUCT CARDS — body compacto, acciones tocables
    ────────────────────────────────────────────────────────────────── */
 @media (max-width: 480px) {
@@ -550,8 +531,7 @@ img, picture, video, svg, iframe { max-width: 100%; }
   .pr-paquete__link,
   .fiesta-card__cta,
   .art-sidebar__link,
-  .art-hero__back,
-  .cerca-zona {
+  .art-hero__back {
     min-height: 44px !important;
     display: inline-flex !important;
     align-items: center !important;

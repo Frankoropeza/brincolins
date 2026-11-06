@@ -1,24 +1,20 @@
 ---
 interface Props {
   slug:      string;
-  emoji:     string;
   category:  string;
   title:     string;
   excerpt:   string;
   readTime:  string;
   image?:    string;
   featured?: boolean;
-  // legacy props (ignored)
-  gradient?: string;
-  date?:     string;
 }
 
-const { slug, emoji, category, title, excerpt, readTime, image, featured } = Astro.props;
+const { slug, category, title, excerpt, readTime, image, featured } = Astro.props;
 
 /* Sistema «Patio de aire»: el badge de categoría pasó de color saturado con
    texto calculado por textOn() a pill pastel con texto tinta (contraste
-   ≥ 12:1 en todos los tonos). La prop `gradient` se ignora: el respaldo sin
-   imagen usa el mismo pastel plano. */
+   ≥ 12:1 en todos los tonos). Sin imagen, el respaldo usa el mismo pastel
+   plano. */
 const CAT_TONE: Record<string, string> = {
   'Guías':      'durazno',
   'Ideas':      'lila',
@@ -37,9 +33,7 @@ const tone = `tone-${CAT_TONE[category] ?? 'durazno'}`;
   <div class="blog-card__thumb-link">
     {image
       ? <img src={image} alt={title} width="800" height="450" loading="lazy" class="blog-card__img" />
-      : <div class={`blog-card__gradient ${tone}`}>
-          <span class="blog-card__emoji" aria-hidden="true">{emoji}</span>
-        </div>
+      : <div class={`blog-card__fallback ${tone}`} />
     }
     <span class={`blog-card__cat ${tone}`}>{category}</span>
   </div>
@@ -102,16 +96,9 @@ const tone = `tone-${CAT_TONE[category] ?? 'durazno'}`;
     object-fit: cover;
     display: block;
   }
-  .blog-card__gradient {
+  .blog-card__fallback {
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .blog-card__emoji {
-    font-size: 3.5rem;
-    line-height: 1;
   }
   .blog-card__cat {
     position: absolute;

@@ -23,7 +23,6 @@ const categorias = [
     count: "16 salones",
     price: "⭐ 4.4+ en Google",
     href: "/directorio/cdmx/",
-    gradient: "linear-gradient(135deg, #FF3D00, #FF6D00, #7C3AED)",
     icon: "",
     zones: ["Coyoacán", "Tlalpan", "Iztapalapa", "Azcapotzalco", "Xochimilco", "Gustavo A. Madero", "Venustiano Carranza"],
   },
@@ -34,7 +33,6 @@ const categorias = [
     count: "8 salones",
     price: "Desde $2,500 MXN",
     href: "/directorio/edomex/",
-    gradient: "linear-gradient(135deg, #00C853, #0288D1, #1565C0)",
     icon: "",
     zones: ["Naucalpan", "Tlalnepantla", "Ecatepec", "Huixquilucan", "Nezahualcóyotl", "Cuautitlán Izcalli", "Toluca", "Metepec"],
   },
@@ -194,8 +192,7 @@ const directorySchema = {
     }
     .dir-tip__icon:empty { display: none; }
 
-    /* Tarjetas de zona: cabecera pastel por posición (los datos traen
-       `gradient`, que ya no se pinta) */
+    /* Tarjetas de zona: cabecera pastel por posición */
     .dir-zone-card {
       box-shadow: none;
       border: 1px solid var(--c-line);

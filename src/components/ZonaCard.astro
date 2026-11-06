@@ -3,13 +3,10 @@ import { anchorZona } from '../data/anchors';
 import { WHATSAPP } from '../data/site';
 export interface Props {
   slug: string;
-  emoji: string;
   name: string;
   description: string;
   colonias: string[];
   envio: string;
-  /** Heredado de coverage.ts; ya no se pinta (sistema plano de pasteles). */
-  gradient?: string;
   image?: string;
   whatsapp?: string;
   tipo?: "cdmx" | "edomex";
@@ -17,7 +14,6 @@ export interface Props {
 
 const {
   slug,
-  emoji,
   name,
   description,
   colonias,
@@ -43,7 +39,6 @@ const waHref = `https://wa.me/${whatsapp}?text=${waMsg}`;
     </div>
   ) : (
     <div class="product-card__image zona-card__emoji">
-      <span>{emoji}</span>
       <span class="product-card__category">{envioLabel}</span>
     </div>
   )}

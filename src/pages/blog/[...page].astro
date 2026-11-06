@@ -75,7 +75,6 @@ const inflablesSidebar = [
 // ── Cards de la página actual ──────────────────────────────────────────────
 const toCard = (p: typeof allPosts[number]) => ({
   slug:     p.id,
-  emoji:    "",
   category: p.data.category,
   title:    p.data.title,
   excerpt:  p.data.excerpt || p.data.description,
@@ -179,7 +178,7 @@ const description = `Guías de expertos sobre renta de inflables en CDMX: cómo 
             {featured.data.heroImage
               ? <img src={featured.data.heroImage} alt={featured.data.title}
                      width="1200" height="675" loading="eager" class="featured-card__img" />
-              : <div class={`featured-card__gradient ${toneFor(featured.data.category)}`} />
+              : <div class={`featured-card__fallback ${toneFor(featured.data.category)}`} />
             }
             <div class="featured-card__overlay">
               <span class="pill pill--white">{featured.data.category}</span>
@@ -411,7 +410,7 @@ const description = `Guías de expertos sobre renta de inflables en CDMX: cómo 
     transition: transform .4s ease;
   }
   .featured-card__thumb:hover .featured-card__img { transform: scale(1.04); }
-  .featured-card__gradient { width: 100%; height: 100%; }
+  .featured-card__fallback { width: 100%; height: 100%; }
   .featured-card__overlay {
     position: absolute;
     bottom: .85rem; left: .85rem;

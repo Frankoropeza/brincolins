@@ -16,7 +16,6 @@ const salones = [
     capacity: "70–180 personas",
     price: "Desde $4,000 MXN",
     features: ["Salón y jardín", "Área de inflables", "Taquiza incluida", "Estacionamiento techado"],
-    gradient: "linear-gradient(135deg, #2E7D32, #00C853)",
     label: "Salón",
     highlight: "El más completo de Naucalpan",
   },
@@ -27,7 +26,6 @@ const salones = [
     capacity: "50–120 personas",
     price: "Desde $3,500 MXN",
     features: ["Trampolines", "Ludoteca", "Pintacaritas", "Paquetes desde 20 niños"],
-    gradient: "linear-gradient(135deg, #9C27B0, #E91E8C)",
     label: "Teatro",
     highlight: "Ideal para grupos pequeños y medianos",
   },
@@ -38,7 +36,6 @@ const salones = [
     capacity: "80–200 personas",
     price: "Desde $2,800 MXN",
     features: ["El más grande de la zona", "Banquete completo", "DJ profesional", "Brincolines incluidos"],
-    gradient: "linear-gradient(135deg, #FF3D00, #E91E8C)",
     label: "Música",
     highlight: "Mayor capacidad al mejor precio",
   },
@@ -49,7 +46,6 @@ const salones = [
     capacity: "40–100 personas",
     price: "Desde $6,500 MXN",
     features: ["Zona residencial", "Terraza con vista", "Menú gourmet infantil", "Seguridad privada"],
-    gradient: "linear-gradient(135deg, #1565C0, #0288D1)",
     label: "Montaña",
     highlight: "Experiencia premium en Interlomas",
   },
@@ -60,7 +56,6 @@ const salones = [
     capacity: "60–150 personas",
     price: "Desde $2,500 MXN",
     features: ["Precios populares", "Paquetes completos", "Payasos y magia", "Pastel incluido"],
-    gradient: "linear-gradient(135deg, #FFD600, #FF6F00)",
     label: "Festejo",
     highlight: "La opción más económica del Edomex",
   },
@@ -71,7 +66,6 @@ const salones = [
     capacity: "50–130 personas",
     price: "Desde $3,800 MXN",
     features: ["Salón moderno", "Área de bebés", "Piñatas y dulceros", "Estacionamiento vigilado"],
-    gradient: "linear-gradient(135deg, #00C853, #0288D1)",
     label: "Decoración",
     highlight: "Moderno y familiar al norte del Edomex",
   },
@@ -82,7 +76,6 @@ const salones = [
     capacity: "70–160 personas",
     price: "Desde $3,200 MXN",
     features: ["Salón amplio", "Juegos interactivos", "Shows temáticos", "Servicio de meseros"],
-    gradient: "linear-gradient(135deg, #7C3AED, #1565C0)",
     label: "Diversión",
     highlight: "El favorito de la capital mexiquense",
   },
@@ -93,7 +86,6 @@ const salones = [
     capacity: "40–100 personas",
     price: "Desde $4,200 MXN",
     features: ["Ambiente familiar", "Decoración premium", "Área verde", "Banquete y bebidas"],
-    gradient: "linear-gradient(135deg, #E91E8C, #7C3AED)",
     label: "Casa",
     highlight: "Decoración premium en el pueblo mágico",
   },
@@ -267,7 +259,7 @@ const schemaList = {
     }
 
     /* Tarjetas de salón: lienzo dentro de .section--alt y cabecera pastel
-       por posición (el `gradient` de los datos ya no se pinta) */
+       por posición */
     .section--alt .venue-card { background: var(--c-canvas); }
     .venue-card__header {
       margin: 10px 10px 0;

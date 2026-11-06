@@ -696,9 +696,6 @@ export const CATEGORIAS: Categoria[] = [
    Derivados — nada de esto se escribe a mano
    ────────────────────────────────────────────────────────────── */
 
-/** Todas las categorías, ordenadas por prioridad SEO. */
-export const CATEGORIAS_POR_PRIORIDAD = [...CATEGORIAS].sort((a, b) => a.prioridad - b.prioridad);
-
 /** Busca una categoría por slug. */
 export function getCategoria(slug: string): Categoria | undefined {
   return CATEGORIAS.find((c) => c.slug === slug);
@@ -749,9 +746,6 @@ export function categoriasDeGrupo(grupo: GrupoFaceta): Categoria[] {
   return CATEGORIAS.filter((c) => c.grupo === grupo);
 }
 
-/** Slugs de categoría — se usa en el build para verificar que ninguno
-    colisiona con un slug de producto de /inflables/[slug].astro. */
-export const CATEGORIA_SLUGS = CATEGORIAS.map((c) => c.slug);
 
 /* ──────────────────────────────────────────────────────────────
    Enlazado interno — las categorías sólo valen si algo las enlaza

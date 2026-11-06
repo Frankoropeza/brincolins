@@ -29,44 +29,44 @@ const envioDe = (slug: string): string => {
 };
 
 const alcaldias = [
-  { slug: "alvaro-obregon",       emoji: "", name: "Álvaro Obregón",       description: "Entregamos en Santa Fe, San Ángel, Pedregal y todo Álvaro Obregón con instalación incluida.",       colonias: ["Santa Fe", "San Ángel", "Pedregal", "Lomas Altas"] },
-  { slug: "azcapotzalco",         emoji: "", name: "Azcapotzalco",          description: "Cobertura total en Del Gas, Clavería, Pasteros y colonias industriales de Azcapotzalco.",           colonias: ["Del Gas", "Clavería", "Pasteros", "Santa Bárbara"] },
-  { slug: "benito-juarez",        emoji: "", name: "Benito Juárez",          description: "Zona más solicitada. Del Valle, Narvarte, Nápoles y Portales con entrega sin costo adicional.",    colonias: ["Del Valle", "Narvarte", "Nápoles", "Portales"] },
-  { slug: "coyoacan",             emoji: "", name: "Coyoacán",               description: "Renta de inflables en Coyoacán Centro, Pedregal, Villa Coapa, Copilco y colonias aledañas.",        colonias: ["Coyoacán Centro", "Pedregal", "Villa Coapa", "Copilco"] },
-  { slug: "cuajimalpa",           emoji: "", name: "Cuajimalpa",             description: "Cubrimos Santa Fe, Cuajimalpa Centro, Contadero y El Molinito con entrega a la hora acordada.",        colonias: ["Santa Fe", "Cuajimalpa Centro", "Contadero", "El Molinito"] },
-  { slug: "cuauhtemoc",           emoji: "", name: "Cuauhtémoc",            description: "Centro Histórico, Roma, Condesa y Juárez: entrega rápida en el corazón de la Ciudad de México.",   colonias: ["Centro Histórico", "Roma Norte", "Condesa", "Juárez"] },
-  { slug: "gustavo-a-madero",     emoji: "", name: "Gustavo A. Madero",      description: "Inflables en Lindavista, Vallejo, Tepeyac, La Villa y toda la alcaldía de GAM.",                   colonias: ["Lindavista", "Vallejo", "Tepeyac", "Aragón"] },
-  { slug: "iztacalco",            emoji: "", name: "Iztacalco",              description: "Entrega en Pantitlán, Agrícola Oriental, Granjas México y colonias de Iztacalco.",                  colonias: ["Pantitlán", "Agrícola Oriental", "Granjas México", "Viaducto"] },
-  { slug: "iztapalapa",           emoji: "", name: "Iztapalapa",             description: "Renta de inflables en Ermita, UAM, Santa Martha y todas las colonias de Iztapalapa.",               colonias: ["Ermita Iztapalapa", "UAM", "Santa Martha", "Peñón"] },
-  { slug: "magdalena-contreras",  emoji: "", name: "Magdalena Contreras",    description: "Llegamos a La Magdalena, San Jerónimo, Barranca del Muerto y colonias de la delegación.",         colonias: ["La Magdalena", "San Jerónimo", "Barranca del Muerto", "El Rosal"] },
-  { slug: "miguel-hidalgo",       emoji: "", name: "Miguel Hidalgo",         description: "Polanco, Lomas de Chapultepec, Anzures y las colonias más exclusivas de la ciudad.",               colonias: ["Polanco", "Lomas de Chapultepec", "Tacuba", "Anzures"] },
-  { slug: "milpa-alta",           emoji: "", name: "Milpa Alta",             description: "Cobertura en Milpa Alta Centro, San Pedro Atocpan y San Pablo Oztotepec con programación.",        colonias: ["Milpa Alta Centro", "San Pedro Atocpan", "San Pablo Oztotepec", "Villa Milpa Alta"] },
-  { slug: "tlahuac",              emoji: "", name: "Tláhuac",                description: "Inflables en Tláhuac Centro, La Nopalera, Zapotitla y Los Olivos con entrega programada.",         colonias: ["Tláhuac Centro", "La Nopalera", "Zapotitla", "Los Olivos"] },
-  { slug: "tlalpan",              emoji: "", name: "Tlalpan",               description: "Villa Coapa, Pedregal de San Nicolás, Ajusco y toda la alcaldía de Tlalpan.",                      colonias: ["Villa Coapa", "Pedregal de San Nicolás", "Topilejo", "Ajusco"] },
-  { slug: "venustiano-carranza",  emoji: "", name: "Venustiano Carranza",    description: "Jardín Balbuena, Moctezuma, Merced y colonias cercanas al aeropuerto con entrega puntual.",       colonias: ["Jardín Balbuena", "Moctezuma", "Aeropuerto", "Merced"] },
-  { slug: "xochimilco",           emoji: "", name: "Xochimilco",             description: "Renta de inflables en Xochimilco Centro, San Gregorio, Tulyehualco y Tepepan.",                   colonias: ["Xochimilco Centro", "San Gregorio", "Tulyehualco", "Tepepan"] },
+  { slug: "alvaro-obregon", name: "Álvaro Obregón",       description: "Entregamos en Santa Fe, San Ángel, Pedregal y todo Álvaro Obregón con instalación incluida.",       colonias: ["Santa Fe", "San Ángel", "Pedregal", "Lomas Altas"] },
+  { slug: "azcapotzalco", name: "Azcapotzalco",          description: "Cobertura total en Del Gas, Clavería, Pasteros y colonias industriales de Azcapotzalco.",           colonias: ["Del Gas", "Clavería", "Pasteros", "Santa Bárbara"] },
+  { slug: "benito-juarez", name: "Benito Juárez",          description: "Zona más solicitada. Del Valle, Narvarte, Nápoles y Portales con entrega sin costo adicional.",    colonias: ["Del Valle", "Narvarte", "Nápoles", "Portales"] },
+  { slug: "coyoacan", name: "Coyoacán",               description: "Renta de inflables en Coyoacán Centro, Pedregal, Villa Coapa, Copilco y colonias aledañas.",        colonias: ["Coyoacán Centro", "Pedregal", "Villa Coapa", "Copilco"] },
+  { slug: "cuajimalpa", name: "Cuajimalpa",             description: "Cubrimos Santa Fe, Cuajimalpa Centro, Contadero y El Molinito con entrega a la hora acordada.",        colonias: ["Santa Fe", "Cuajimalpa Centro", "Contadero", "El Molinito"] },
+  { slug: "cuauhtemoc", name: "Cuauhtémoc",            description: "Centro Histórico, Roma, Condesa y Juárez: entrega rápida en el corazón de la Ciudad de México.",   colonias: ["Centro Histórico", "Roma Norte", "Condesa", "Juárez"] },
+  { slug: "gustavo-a-madero", name: "Gustavo A. Madero",      description: "Inflables en Lindavista, Vallejo, Tepeyac, La Villa y toda la alcaldía de GAM.",                   colonias: ["Lindavista", "Vallejo", "Tepeyac", "Aragón"] },
+  { slug: "iztacalco", name: "Iztacalco",              description: "Entrega en Pantitlán, Agrícola Oriental, Granjas México y colonias de Iztacalco.",                  colonias: ["Pantitlán", "Agrícola Oriental", "Granjas México", "Viaducto"] },
+  { slug: "iztapalapa", name: "Iztapalapa",             description: "Renta de inflables en Ermita, UAM, Santa Martha y todas las colonias de Iztapalapa.",               colonias: ["Ermita Iztapalapa", "UAM", "Santa Martha", "Peñón"] },
+  { slug: "magdalena-contreras", name: "Magdalena Contreras",    description: "Llegamos a La Magdalena, San Jerónimo, Barranca del Muerto y colonias de la delegación.",         colonias: ["La Magdalena", "San Jerónimo", "Barranca del Muerto", "El Rosal"] },
+  { slug: "miguel-hidalgo", name: "Miguel Hidalgo",         description: "Polanco, Lomas de Chapultepec, Anzures y las colonias más exclusivas de la ciudad.",               colonias: ["Polanco", "Lomas de Chapultepec", "Tacuba", "Anzures"] },
+  { slug: "milpa-alta", name: "Milpa Alta",             description: "Cobertura en Milpa Alta Centro, San Pedro Atocpan y San Pablo Oztotepec con programación.",        colonias: ["Milpa Alta Centro", "San Pedro Atocpan", "San Pablo Oztotepec", "Villa Milpa Alta"] },
+  { slug: "tlahuac", name: "Tláhuac",                description: "Inflables en Tláhuac Centro, La Nopalera, Zapotitla y Los Olivos con entrega programada.",         colonias: ["Tláhuac Centro", "La Nopalera", "Zapotitla", "Los Olivos"] },
+  { slug: "tlalpan", name: "Tlalpan",               description: "Villa Coapa, Pedregal de San Nicolás, Ajusco y toda la alcaldía de Tlalpan.",                      colonias: ["Villa Coapa", "Pedregal de San Nicolás", "Topilejo", "Ajusco"] },
+  { slug: "venustiano-carranza", name: "Venustiano Carranza",    description: "Jardín Balbuena, Moctezuma, Merced y colonias cercanas al aeropuerto con entrega puntual.",       colonias: ["Jardín Balbuena", "Moctezuma", "Aeropuerto", "Merced"] },
+  { slug: "xochimilco", name: "Xochimilco",             description: "Renta de inflables en Xochimilco Centro, San Gregorio, Tulyehualco y Tepepan.",                   colonias: ["Xochimilco Centro", "San Gregorio", "Tulyehualco", "Tepepan"] },
   /* Zona transversal: agrupa el poniente (Polanco y Lomas están en Miguel
      Hidalgo, Santa Fe entre Cuajimalpa y Álvaro Obregón). Sólo se llegaba
      a ella desde el footer. */
-  { slug: "polanco",              emoji: "", name: "Polanco, Lomas y Santa Fe", description: "Página de la zona poniente: Polanco, Lomas de Chapultepec, Bosques de las Lomas y Santa Fe.",   colonias: ["Polanco", "Lomas de Chapultepec", "Santa Fe", "Bosques de las Lomas"] },
+  { slug: "polanco", name: "Polanco, Lomas y Santa Fe", description: "Página de la zona poniente: Polanco, Lomas de Chapultepec, Bosques de las Lomas y Santa Fe.",   colonias: ["Polanco", "Lomas de Chapultepec", "Santa Fe", "Bosques de las Lomas"] },
 ].map(z => ({ ...z, envio: envioDe(z.slug) }));
 
 const municipios = [
-  { slug: "naucalpan",          emoji: "", name: "Naucalpan",              description: "Satélite, Lomas Verdes, Interlomas y San Rafael: renta de inflables en el municipio más grande del poniente.",  colonias: ["Satélite", "Lomas Verdes", "Interlomas", "San Rafael"] },
-  { slug: "tlalnepantla",       emoji: "", name: "Tlalnepantla",          description: "Entrega en Tlalnepantla Centro, Las Américas, Vallejo y zona industrial del municipio.",                        colonias: ["Centro", "Las Américas", "Vallejo", "Industrial"] },
-  { slug: "ecatepec",           emoji: "", name: "Ecatepec",               description: "Ciudad Azteca, San Cristóbal, Las Américas y todo Ecatepec con inflables entregados a domicilio.",              colonias: ["Ciudad Azteca", "Las Américas", "San Cristóbal", "Ecatepec Centro"] },
-  { slug: "nezahualcoyotl",     emoji: "", name: "Nezahualcóyotl",        description: "Ciudad Neza, Jardines de Morelos, Los Reyes y colonias de Nezahualcóyotl con entrega puntual.",                colonias: ["Ciudad Neza", "Jardines de Morelos", "Los Reyes", "Benito Juárez"] },
-  { slug: "huixquilucan",       emoji: "", name: "Huixquilucan",           description: "La Herradura, Interlomas, Jesús del Monte: inflables para las zonas residenciales más exclusivas del Edomex.",  colonias: ["Interlomas", "La Herradura", "El Molinito", "Jesús del Monte"] },
-  { slug: "atizapan",           emoji: "", name: "Atizapán de Zaragoza",   description: "Renta de inflables en Ciudad López Mateos, Rancho Contento y colonias de Atizapán.",                           colonias: ["Cd. López Mateos", "Rancho Contento", "Satélite", "Las Fuentes"] },
-  { slug: "cuautitlan-izcalli", emoji: "", name: "Cuautitlán Izcalli",   description: "Izcalli Centro, Hacienda del Parque y Ojo de Agua con entrega programada de inflables.",                        colonias: ["Izcalli Centro", "Hacienda del Parque", "Ojo de Agua", "Cumbria"] },
-  { slug: "coacalco",           emoji: "", name: "Coacalco",               description: "Coacalco Centro, Bosques de Morelos y La Quebrada con inflables entregados a domicilio.",                       colonias: ["Coacalco Centro", "Bosques de Morelos", "La Quebrada", "San Crisanto"] },
-  { slug: "toluca",             emoji: "", name: "Toluca",                 description: "Llegamos a Toluca Centro, San Mateo Atenco, Zinacantepec y zonas del Valle de Toluca.",                         colonias: ["Toluca Centro", "San Mateo Atenco", "Zinacantepec", "Almoloya"] },
-  { slug: "metepec",            emoji: "", name: "Metepec",                description: "Metepec Centro, San Salvador la Gavia y Pilares: inflables para los eventos más elegantes del Valle.",          colonias: ["Metepec Centro", "San Salvador la Gavia", "Pilares", "Coaxustenco"] },
-  { slug: "texcoco",            emoji: "", name: "Texcoco",               description: "Renta de inflables en Texcoco Centro, San Miguel Coatlinchán y municipios del Oriente.",                        colonias: ["Texcoco Centro", "San Miguel Coatlinchán", "Atenco", "Chiconcuac"] },
-  { slug: "chalco",             emoji: "", name: "Chalco",                 description: "Chalco Centro, Valle de Chalco y San Gregorio con entrega de inflables a domicilio en el Oriente.",             colonias: ["Chalco Centro", "Valle de Chalco", "San Gregorio", "Tlapala"] },
-  { slug: "nicolas-romero",     emoji: "", name: "Nicolás Romero",         description: "Ciudad Cuauhtémoc, El Progreso y colonias de Nicolás Romero con servicio de entrega a domicilio.",              colonias: ["Nicolás Romero Centro", "Ciudad Cuauhtémoc", "El Progreso", "La Aurora"] },
-  { slug: "tecamac",            emoji: "", name: "Tecámac",                description: "Ciudad Real, Real del Sol y Tecámac Centro: inflables con entrega en el norte del Estado de México.",           colonias: ["Ciudad Real", "Real del Sol", "Tecámac Centro", "Ozumbilla"] },
-  { slug: "tultitlan",          emoji: "", name: "Tultitlán",              description: "San Pablo de las Salinas, Lechería y Tultitlán Centro con inflables entregados en tiempo y forma.",             colonias: ["Tultitlán Centro", "San Pablo de las Salinas", "Lechería", "Buenavista"] },
+  { slug: "naucalpan", name: "Naucalpan",              description: "Satélite, Lomas Verdes, Interlomas y San Rafael: renta de inflables en el municipio más grande del poniente.",  colonias: ["Satélite", "Lomas Verdes", "Interlomas", "San Rafael"] },
+  { slug: "tlalnepantla", name: "Tlalnepantla",          description: "Entrega en Tlalnepantla Centro, Las Américas, Vallejo y zona industrial del municipio.",                        colonias: ["Centro", "Las Américas", "Vallejo", "Industrial"] },
+  { slug: "ecatepec", name: "Ecatepec",               description: "Ciudad Azteca, San Cristóbal, Las Américas y todo Ecatepec con inflables entregados a domicilio.",              colonias: ["Ciudad Azteca", "Las Américas", "San Cristóbal", "Ecatepec Centro"] },
+  { slug: "nezahualcoyotl", name: "Nezahualcóyotl",        description: "Ciudad Neza, Jardines de Morelos, Los Reyes y colonias de Nezahualcóyotl con entrega puntual.",                colonias: ["Ciudad Neza", "Jardines de Morelos", "Los Reyes", "Benito Juárez"] },
+  { slug: "huixquilucan", name: "Huixquilucan",           description: "La Herradura, Interlomas, Jesús del Monte: inflables para las zonas residenciales más exclusivas del Edomex.",  colonias: ["Interlomas", "La Herradura", "El Molinito", "Jesús del Monte"] },
+  { slug: "atizapan", name: "Atizapán de Zaragoza",   description: "Renta de inflables en Ciudad López Mateos, Rancho Contento y colonias de Atizapán.",                           colonias: ["Cd. López Mateos", "Rancho Contento", "Satélite", "Las Fuentes"] },
+  { slug: "cuautitlan-izcalli", name: "Cuautitlán Izcalli",   description: "Izcalli Centro, Hacienda del Parque y Ojo de Agua con entrega programada de inflables.",                        colonias: ["Izcalli Centro", "Hacienda del Parque", "Ojo de Agua", "Cumbria"] },
+  { slug: "coacalco", name: "Coacalco",               description: "Coacalco Centro, Bosques de Morelos y La Quebrada con inflables entregados a domicilio.",                       colonias: ["Coacalco Centro", "Bosques de Morelos", "La Quebrada", "San Crisanto"] },
+  { slug: "toluca", name: "Toluca",                 description: "Llegamos a Toluca Centro, San Mateo Atenco, Zinacantepec y zonas del Valle de Toluca.",                         colonias: ["Toluca Centro", "San Mateo Atenco", "Zinacantepec", "Almoloya"] },
+  { slug: "metepec", name: "Metepec",                description: "Metepec Centro, San Salvador la Gavia y Pilares: inflables para los eventos más elegantes del Valle.",          colonias: ["Metepec Centro", "San Salvador la Gavia", "Pilares", "Coaxustenco"] },
+  { slug: "texcoco", name: "Texcoco",               description: "Renta de inflables en Texcoco Centro, San Miguel Coatlinchán y municipios del Oriente.",                        colonias: ["Texcoco Centro", "San Miguel Coatlinchán", "Atenco", "Chiconcuac"] },
+  { slug: "chalco", name: "Chalco",                 description: "Chalco Centro, Valle de Chalco y San Gregorio con entrega de inflables a domicilio en el Oriente.",             colonias: ["Chalco Centro", "Valle de Chalco", "San Gregorio", "Tlapala"] },
+  { slug: "nicolas-romero", name: "Nicolás Romero",         description: "Ciudad Cuauhtémoc, El Progreso y colonias de Nicolás Romero con servicio de entrega a domicilio.",              colonias: ["Nicolás Romero Centro", "Ciudad Cuauhtémoc", "El Progreso", "La Aurora"] },
+  { slug: "tecamac", name: "Tecámac",                description: "Ciudad Real, Real del Sol y Tecámac Centro: inflables con entrega en el norte del Estado de México.",           colonias: ["Ciudad Real", "Real del Sol", "Tecámac Centro", "Ozumbilla"] },
+  { slug: "tultitlan", name: "Tultitlán",              description: "San Pablo de las Salinas, Lechería y Tultitlán Centro con inflables entregados en tiempo y forma.",             colonias: ["Tultitlán Centro", "San Pablo de las Salinas", "Lechería", "Buenavista"] },
 ].map(z => ({ ...z, envio: envioDe(z.slug) }));
 
 /* ── Grupos de envío, calculados desde coverage.ts ───────────────────
@@ -221,7 +221,6 @@ const schemaLD = {
         {alcaldias.map(a => (
           <ZonaCard
             slug={a.slug}
-            emoji={a.emoji}
             name={a.name}
             description={a.description}
             colonias={a.colonias}
@@ -247,7 +246,6 @@ const schemaLD = {
         {municipios.map(m => (
           <ZonaCard
             slug={m.slug}
-            emoji={m.emoji}
             name={m.name}
             description={m.description}
             colonias={m.colonias}

@@ -10,7 +10,6 @@ export interface InflableRec {
   name:     string;
   desc:     string;
   tag:      string;
-  gradient: string;
 }
 
 export interface ChildZone {
@@ -97,9 +96,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Qué inflable recomiendan para una casa en Olivar del Conde o Tetelpan?", answer: "Para jardines medianos en Olivar del Conde o Tetelpan los Dragones Rojos son la opción ideal. Si el espacio es más compacto, el Castillo Baby puede funcionar; confirmamos el espacio por foto antes de reservar. Mándanos una imagen y te recomendamos al instante." },
   ],
     inflablesRec:      [
-    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "Diseño elegante y neutro. El favorito en residencias de San Ángel y Santa Fe donde se busca estética cuidada para el evento.", tag: "San Ángel premium", gradient: "linear-gradient(135deg,#546E7A,#37474F);" },
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El más solicitado en Álvaro Obregón. Jardines en el Pedregal y Altavista son el escenario perfecto para este modelo de gran capacidad.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/mini-castillo/", name: "Castillo Baby", desc: "Para patios compactos en Olivar del Conde o Tetelpan. Solo necesita espacio suficiente y altura suficiente. Pensado para niños de 1 a 3 años.", tag: "Espacios compactos", gradient: "linear-gradient(135deg,#7C3AED,#9C27B0);" },
+    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "Diseño elegante y neutro. El favorito en residencias de San Ángel y Santa Fe donde se busca estética cuidada para el evento.", tag: "San Ángel premium" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El más solicitado en Álvaro Obregón. Jardines en el Pedregal y Altavista son el escenario perfecto para este modelo de gran capacidad.", tag: "Más rentado" },
+    { href: "/inflables/mini-castillo/", name: "Castillo Baby", desc: "Para patios compactos en Olivar del Conde o Tetelpan. Solo necesita espacio suficiente y altura suficiente. Pensado para niños de 1 a 3 años.", tag: "Espacios compactos" },
   ],
   },
   {
@@ -139,9 +138,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Con cuánta anticipación reservar para Atizapán en temporada alta?", answer: "Recomendamos reservar con 2-3 semanas de anticipación para fines de semana normales. En temporada alta (Semana Santa, verano, diciembre) la disponibilidad se llena rápido — reserva con un mes de margen para garantizar tu fecha." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en Atizapán. Funciona perfecto en los jardines de Ciudad López Mateos y Rancho Contento. Alta capacidad y gran diversión.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El más solicitado para fiestas de niñas en toda Atizapán. Colores vibrantes y diseño temático que hace brillar cualquier cumpleaños.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
-    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "Para los eventos más cuidados en Atizapán. Diseño neutro y elegante que combina con cualquier decoración en fraccionamientos residenciales.", tag: "Eventos premium", gradient: "linear-gradient(135deg,#546E7A,#37474F);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en Atizapán. Funciona perfecto en los jardines de Ciudad López Mateos y Rancho Contento. Alta capacidad y gran diversión.", tag: "Más rentado" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El más solicitado para fiestas de niñas en toda Atizapán. Colores vibrantes y diseño temático que hace brillar cualquier cumpleaños.", tag: "Favorito niñas" },
+    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "Para los eventos más cuidados en Atizapán. Diseño neutro y elegante que combina con cualquier decoración en fraccionamientos residenciales.", tag: "Eventos premium" },
   ],
   },
   {
@@ -181,9 +180,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Cubren la zona industrial de Azcapotzalco para eventos corporativos?", answer: "Sí. También atendemos eventos corporativos en la zona industrial de Azcapotzalco — activaciones, kermeses de empresa y días familiares. Consulta nuestros paquetes para eventos en /servicios/inflables-para-eventos/." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Azcapotzalco. Resistente, colorido y con capacidad para grupos grandes. El favorito en fiestas del norte de la ciudad.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "Diseño de galeón que encanta a niños de 3 a 12 años. Muy popular en las fiestas familiares de colonias como Del Gas y Pasteros.", tag: "Favorito temático", gradient: "linear-gradient(135deg,#0277BD,#01579B);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "El modelo de mayor capacidad. Perfecto para kermeses escolares y eventos con muchos niños en los amplios espacios de Azcapotzalco.", tag: "Kermeses", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Azcapotzalco. Resistente, colorido y con capacidad para grupos grandes. El favorito en fiestas del norte de la ciudad.", tag: "Más rentado" },
+    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "Diseño de galeón que encanta a niños de 3 a 12 años. Muy popular en las fiestas familiares de colonias como Del Gas y Pasteros.", tag: "Favorito temático" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "El modelo de mayor capacidad. Perfecto para kermeses escolares y eventos con muchos niños en los amplios espacios de Azcapotzalco.", tag: "Kermeses" },
   ],
   },
   {
@@ -224,9 +223,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Cuánto tiempo antes debo reservar en Benito Juárez?", answer: "Benito Juárez es nuestra zona de mayor demanda en CDMX — los fines de semana se agotan rápido. Reserva con al menos 2 semanas de anticipación. En temporadas altas (Semana Santa, verano, diciembre) reserva con 3 semanas para garantizar disponibilidad." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El más solicitado en Del Valle y Narvarte. Mide 5 × 3 × 2.80 m y pide espacio suficiente: ideal para jardines de casa o áreas comunes de condominio en Benito Juárez.", tag: "Más rentado BJ", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El hit para cumpleaños de niñas en Portales, Álamos e Insurgentes. Colores vivos que hacen brillar cualquier festejo en Benito Juárez.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
-    { href: "/inflables/mini-castillo/", name: "Castillo Baby", desc: "El modelo para terrazas y azoteas de los edificios en Narvarte y Del Valle. Solo espacio suficiente de base. El más fácil de instalar en espacios reducidos.", tag: "Azoteas y terrazas", gradient: "linear-gradient(135deg,#7C3AED,#9C27B0);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El más solicitado en Del Valle y Narvarte. Mide 5 × 3 × 2.80 m y pide espacio suficiente: ideal para jardines de casa o áreas comunes de condominio en Benito Juárez.", tag: "Más rentado BJ" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El hit para cumpleaños de niñas en Portales, Álamos e Insurgentes. Colores vivos que hacen brillar cualquier festejo en Benito Juárez.", tag: "Favorito niñas" },
+    { href: "/inflables/mini-castillo/", name: "Castillo Baby", desc: "El modelo para terrazas y azoteas de los edificios en Narvarte y Del Valle. Solo espacio suficiente de base. El más fácil de instalar en espacios reducidos.", tag: "Azoteas y terrazas" },
   ],
   },
   {
@@ -276,9 +275,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Con cuánta anticipación hay que reservar en la CDMX?", answer: "Con 2 semanas basta para un fin de semana normal. En Benito Juárez, Cuauhtémoc y Miguel Hidalgo, que son las alcaldías de mayor demanda, conviene reservar con 3 semanas. En temporada alta (Semana Santa, verano y diciembre) reserva con 3 o 4 semanas de margen." },
   ],
     inflablesRec:      [
-    { href: "/inflables/mini-castillo/", name: "Castillo Baby", desc: "El único modelo pensado para niños de 1 a 3 años. Mide 2.5 × 2 × 2 m y pide 3.2 m de altura libre, así que entra en departamentos, salones y terrazas techadas de las alcaldías centrales.", tag: "Departamentos y bebés", gradient: "linear-gradient(135deg,#7C3AED,#9C27B0);" },
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El más rentado de la CDMX. Es para niños de 3 a 8 años y encaja en muchos jardines y patios de la ciudad; confirmamos el espacio antes de reservar.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "Circuito de carreras de doble carril para niños de 3 a 12 años. El habitual en kermeses escolares de la capital.", tag: "Kermeses y grupos", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/mini-castillo/", name: "Castillo Baby", desc: "El único modelo pensado para niños de 1 a 3 años. Mide 2.5 × 2 × 2 m y pide 3.2 m de altura libre, así que entra en departamentos, salones y terrazas techadas de las alcaldías centrales.", tag: "Departamentos y bebés" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El más rentado de la CDMX. Es para niños de 3 a 8 años y encaja en muchos jardines y patios de la ciudad; confirmamos el espacio antes de reservar.", tag: "Más rentado" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "Circuito de carreras de doble carril para niños de 3 a 12 años. El habitual en kermeses escolares de la capital.", tag: "Kermeses y grupos" },
   ],
   },
   {
@@ -318,9 +317,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Con cuánta anticipación hay que reservar para Chalco?", answer: "Por la distancia desde nuestro almacén, recomendamos reservar con al menos 2-3 semanas de anticipación para coordinar la logística. En temporadas altas reserva con un mes para garantizar disponibilidad y tiempo de entrega." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Chalco. Resistente, colorido y de alta capacidad para las fiestas grandes de la zona. El favorito de las familias en Chalco.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El diseño pirata arrasa en las fiestas de Chalco. Los niños de 3 a 12 años se vuelven locos con este inflable de aventura.", tag: "Favorito temático", gradient: "linear-gradient(135deg,#0277BD,#01579B);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "Para las fiestas grandes en los amplios espacios de Chalco y Valle de Chalco. El circuito más completo del catálogo: para turnos de juego.", tag: "Eventos grandes", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Chalco. Resistente, colorido y de alta capacidad para las fiestas grandes de la zona. El favorito de las familias en Chalco.", tag: "Más rentado" },
+    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El diseño pirata arrasa en las fiestas de Chalco. Los niños de 3 a 12 años se vuelven locos con este inflable de aventura.", tag: "Favorito temático" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "Para las fiestas grandes en los amplios espacios de Chalco y Valle de Chalco. El circuito más completo del catálogo: para turnos de juego.", tag: "Eventos grandes" },
   ],
   },
   {
@@ -360,9 +359,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Qué inflables son más populares en Coacalco?", answer: "En Coacalco los más solicitados son los Dragones Rojos por su alta capacidad y el Castillo de Princesas para cumpleaños de niñas. El Extremo es muy popular para eventos con muchos niños en los jardines y áreas comunes de la zona." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en Coacalco. Alta capacidad y colores vivos. Funciona perfecto en jardines de fraccionamientos y casas de la zona norte del Edomex.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El más solicitado para cumpleaños de niñas en Coacalco. Sus colores y diseño temático hacen de cualquier fiesta una celebración especial.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "Para fiestas con muchos niños en Coacalco. El modelo de mayor capacidad de BRINCOLINS, ideal para eventos en áreas comunes de fraccionamientos.", tag: "Eventos con grupos grandes", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en Coacalco. Alta capacidad y colores vivos. Funciona perfecto en jardines de fraccionamientos y casas de la zona norte del Edomex.", tag: "Más rentado" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El más solicitado para cumpleaños de niñas en Coacalco. Sus colores y diseño temático hacen de cualquier fiesta una celebración especial.", tag: "Favorito niñas" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "Para fiestas con muchos niños en Coacalco. El modelo de mayor capacidad de BRINCOLINS, ideal para eventos en áreas comunes de fraccionamientos.", tag: "Eventos con grupos grandes" },
   ],
   },
   {
@@ -402,9 +401,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Cubren Pedregal de San Ángel y los límites con Tlalpan?", answer: "Sí. Toda la zona del Pedregal hasta los límites de Coyoacán con Tlalpan y Álvaro Obregón está cubierta. El costo de traslado depende de la colonia y se confirma al cotizar. Si tu colonia limita con otra alcaldía, escríbenos y confirmamos en minutos." },
   ],
     inflablesRec:      [
-    { href: "/inflables/extremo/", name: "Extremo", desc: "Circuito de obstáculos, tobogán doble y doble carril. Perfecto para los amplios jardines del Pedregal y Villa Coapa; confirmamos el espacio antes de reservar.", tag: "Jardines grandes", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El más solicitado para cumpleaños de niñas en Coyoacán. Colores vibrantes y diseño temático que hace brillar cualquier festejo familiar.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
-    { href: "/inflables/mini-castillo/", name: "Castillo Baby", desc: "Ideal para los patios coloniales del Centro de Coyoacán. Solo necesita espacio suficiente — la solución perfecta para casas históricas con espacio limitado.", tag: "Espacios compactos", gradient: "linear-gradient(135deg,#7C3AED,#9C27B0);" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "Circuito de obstáculos, tobogán doble y doble carril. Perfecto para los amplios jardines del Pedregal y Villa Coapa; confirmamos el espacio antes de reservar.", tag: "Jardines grandes" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El más solicitado para cumpleaños de niñas en Coyoacán. Colores vibrantes y diseño temático que hace brillar cualquier festejo familiar.", tag: "Favorito niñas" },
+    { href: "/inflables/mini-castillo/", name: "Castillo Baby", desc: "Ideal para los patios coloniales del Centro de Coyoacán. Solo necesita espacio suficiente — la solución perfecta para casas históricas con espacio limitado.", tag: "Espacios compactos" },
   ],
   },
   {
@@ -444,9 +443,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Qué inflable recomiendan para un jardín amplio en Contadero o Cuajimalpa Centro?", answer: "Para los jardines amplios del Contadero y Cuajimalpa Centro, los Dragones Rojos (para grupos de niños, espacio suficiente) y el circuito Extremo (para turnos de juego, espacio suficiente) son perfectos. Para jardines más compactos, el Castillo de Princesas (espacio suficiente) o el Castillo Baby (espacio suficiente) son los ideales." },
   ],
     inflablesRec:      [
-    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "El modelo elegante para residencias y eventos en Santa Fe. Diseño neutro y sofisticado que encaja en cualquier decoración de fiesta.", tag: "Santa Fe premium", gradient: "linear-gradient(135deg,#546E7A,#37474F);" },
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito para los jardines amplios del Contadero y Cuajimalpa Centro. Alta capacidad y diversión para grupos grandes de niños.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/mini-castillo/", name: "Castillo Baby", desc: "Para espacios más compactos en Santa Fe o Cuajimalpa. Solo espacio suficiente de base. Ideal cuando el jardín tiene espacio limitado.", tag: "Terrazas y patios", gradient: "linear-gradient(135deg,#7C3AED,#9C27B0);" },
+    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "El modelo elegante para residencias y eventos en Santa Fe. Diseño neutro y sofisticado que encaja en cualquier decoración de fiesta.", tag: "Santa Fe premium" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito para los jardines amplios del Contadero y Cuajimalpa Centro. Alta capacidad y diversión para grupos grandes de niños.", tag: "Más rentado" },
+    { href: "/inflables/mini-castillo/", name: "Castillo Baby", desc: "Para espacios más compactos en Santa Fe o Cuajimalpa. Solo espacio suficiente de base. Ideal cuando el jardín tiene espacio limitado.", tag: "Terrazas y patios" },
   ],
   },
   {
@@ -487,9 +486,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Tienen inflables para bebés menores de 3 años para primer año en Condesa?", answer: "Para primer año y bebés el modelo es el Castillo Baby: está diseñado para niños de 1 a 3 años, cabe en espacio suficiente y funciona bajo techo. Los Gusanitos son para niños de 2 a 8 años y la Jungla de 3 a 8, y necesitan bastante más espacio (espacio suficiente y espacio suficiente), así que van a patio o jardín." },
   ],
     inflablesRec:      [
-    { href: "/inflables/mini-castillo/", name: "Castillo Baby", desc: "El favorito para terrazas y azoteas en Roma y Condesa. Solo necesita espacio suficiente y altura suficiente. Pensado para niños de 1 a 3 años en departamentos con espacio reducido.", tag: "Espacios compactos", gradient: "linear-gradient(135deg,#7C3AED,#9C27B0);" },
-    { href: "/inflables/gusanitos/", name: "Gusanitos", desc: "Circuito de túneles que funciona bajo techo. Para niños de 2 a 8 años en patios de vecindad y salones de Condesa y Juárez; confirmamos el espacio antes de reservar.", tag: "Bebés y primer año", gradient: "linear-gradient(135deg,#2E7D32,#00C853);" },
-    { href: "/inflables/mini-jungla/", name: "Jungla", desc: "Temática de selva con tobogán, para niños de 3 a 8 años. Pide espacio suficiente al aire libre: va a los patios y jardines de Santa María la Ribera y San Rafael, no a una terraza.", tag: "Temático compacto", gradient: "linear-gradient(135deg,#1565C0,#0288D1);" },
+    { href: "/inflables/mini-castillo/", name: "Castillo Baby", desc: "El favorito para terrazas y azoteas en Roma y Condesa. Solo necesita espacio suficiente y altura suficiente. Pensado para niños de 1 a 3 años en departamentos con espacio reducido.", tag: "Espacios compactos" },
+    { href: "/inflables/gusanitos/", name: "Gusanitos", desc: "Circuito de túneles que funciona bajo techo. Para niños de 2 a 8 años en patios de vecindad y salones de Condesa y Juárez; confirmamos el espacio antes de reservar.", tag: "Bebés y primer año" },
+    { href: "/inflables/mini-jungla/", name: "Jungla", desc: "Temática de selva con tobogán, para niños de 3 a 8 años. Pide espacio suficiente al aire libre: va a los patios y jardines de Santa María la Ribera y San Rafael, no a una terraza.", tag: "Temático compacto" },
   ],
   },
   {
@@ -529,9 +528,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Con cuánta anticipación hay que reservar para Cuautitlán Izcalli?", answer: "Recomendamos reservar con 2-3 semanas de anticipación. Cuautitlán Izcalli tiene alta demanda los fines de semana. En temporadas altas (Semana Santa, verano, diciembre) reserva con un mes de anticipación para asegurar disponibilidad." },
   ],
     inflablesRec:      [
-    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "Diseño elegante para los eventos en los fraccionamientos residenciales de Cuautitlán Izcalli. Neutro y sofisticado para cualquier celebración.", tag: "Eventos premium", gradient: "linear-gradient(135deg,#546E7A,#37474F);" },
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El más solicitado en Izcalli. Alta capacidad y mucha diversión. Perfecto para las amplias áreas comunes de los fraccionamientos de la zona.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "La elección número uno para cumpleaños de niñas en Cuautitlán Izcalli. Colorido y temático para hacer de la fiesta una experiencia especial.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
+    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "Diseño elegante para los eventos en los fraccionamientos residenciales de Cuautitlán Izcalli. Neutro y sofisticado para cualquier celebración.", tag: "Eventos premium" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El más solicitado en Izcalli. Alta capacidad y mucha diversión. Perfecto para las amplias áreas comunes de los fraccionamientos de la zona.", tag: "Más rentado" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "La elección número uno para cumpleaños de niñas en Cuautitlán Izcalli. Colorido y temático para hacer de la fiesta una experiencia especial.", tag: "Favorito niñas" },
   ],
   },
   {
@@ -571,9 +570,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Tienen inflables para eventos con muchos niños en Ecatepec?", answer: "Sí. Para fiestas grandes en Ecatepec recomendamos el Extremo o el Barco Pirata. Los Dragones Rojos son una opción muy solicitada. Para kermeses escolares o eventos corporativos, consulta nuestros paquetes multi-inflable." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Ecatepec. Alta capacidad para grupos numerosos de niños. Funciona en patios, jardines y salones de fiestas de toda la zona.", tag: "Más rentado Ecatepec", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El diseño pirata es un hit en Ecatepec. Encanta a niños de 3 a 12 años y convierte cualquier fiesta en una aventura épica.", tag: "Favorito temático", gradient: "linear-gradient(135deg,#0277BD,#01579B);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "Para kermeses escolares y eventos grandes en Ecatepec. El modelo de mayor capacidad, ideal para grupos numerosos de niños.", tag: "Kermeses", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Ecatepec. Alta capacidad para grupos numerosos de niños. Funciona en patios, jardines y salones de fiestas de toda la zona.", tag: "Más rentado Ecatepec" },
+    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El diseño pirata es un hit en Ecatepec. Encanta a niños de 3 a 12 años y convierte cualquier fiesta en una aventura épica.", tag: "Favorito temático" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "Para kermeses escolares y eventos grandes en Ecatepec. El modelo de mayor capacidad, ideal para grupos numerosos de niños.", tag: "Kermeses" },
   ],
   },
   {
@@ -621,9 +620,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Entregan en fraccionamientos con caseta de seguridad?", answer: "Sí. Es lo habitual en Interlomas, La Herradura, Bosque Real, Ciudad Real y los fraccionamientos de Cuautitlán Izcalli. Necesitamos el nombre del residente y del fraccionamiento para registrar vehículo y conductor con 24 a 48 horas de anticipación." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El más rentado del Estado de México. Mide 5 × 3 × 2.80 m, es para niños de 3 a 8 años y encaja en jardines y áreas comunes de fraccionamiento al aire libre.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "Diseño blanco y neutro de 5 × 7 × 4 m para niños de 3 a 12 años. El favorito en las residencias de Interlomas, La Herradura y los fraccionamientos de Metepec.", tag: "Estética premium", gradient: "linear-gradient(135deg,#546E7A,#37474F);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "Circuito completo para turnos de juego. En municipios lejanos rinde más: el cargo de envío es el mismo para cualquier modelo.", tag: "Mejor para Toluca", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El más rentado del Estado de México. Mide 5 × 3 × 2.80 m, es para niños de 3 a 8 años y encaja en jardines y áreas comunes de fraccionamiento al aire libre.", tag: "Más rentado" },
+    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "Diseño blanco y neutro de 5 × 7 × 4 m para niños de 3 a 12 años. El favorito en las residencias de Interlomas, La Herradura y los fraccionamientos de Metepec.", tag: "Estética premium" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "Circuito completo para turnos de juego. En municipios lejanos rinde más: el cargo de envío es el mismo para cualquier modelo.", tag: "Mejor para Toluca" },
   ],
   },
   {
@@ -663,9 +662,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Atienden en unidades habitacionales como Aragón o Vallejo?", answer: "Sí. Tenemos experiencia en unidades habitacionales de toda la alcaldía. Coordinamos con la administración del conjunto para horarios de carga y permisos de acceso al área común o jardín. Solo necesitamos el nombre del solicitante y número de unidad." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Gustavo A. Madero. Colores llamativos, resistente y con espacio para que varios niños brinquen al mismo tiempo. El hit de Lindavista a Cuautepec.", tag: "Más rentado GAM", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El galeón pirata más popular de la alcaldía. Mide 6 × 3.5 × 3.80 m y entusiasma a niños de 3 a 12 años.", tag: "Favorito temático", gradient: "linear-gradient(135deg,#0277BD,#01579B);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "Circuito de obstáculos, doble carril y tobogán para niños de 3 a 12 años. Indispensable para kermeses escolares en GAM.", tag: "Kermeses y eventos", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Gustavo A. Madero. Colores llamativos, resistente y con espacio para que varios niños brinquen al mismo tiempo. El hit de Lindavista a Cuautepec.", tag: "Más rentado GAM" },
+    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El galeón pirata más popular de la alcaldía. Mide 6 × 3.5 × 3.80 m y entusiasma a niños de 3 a 12 años.", tag: "Favorito temático" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "Circuito de obstáculos, doble carril y tobogán para niños de 3 a 12 años. Indispensable para kermeses escolares en GAM.", tag: "Kermeses y eventos" },
   ],
   },
   {
@@ -705,9 +704,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Pueden llevar varios inflables a un evento grande en Huixquilucan?", answer: "Sí. Gestionamos paquetes multi-inflable para eventos en residencias de La Herradura y salones de Interlomas. Coordinamos el montaje de 2-4 unidades con un coordinador asignado. Consulta disponibilidad con al menos 3 semanas de anticipación." },
   ],
     inflablesRec:      [
-    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "El modelo elegante por excelencia. Neutro, sofisticado y perfecto para las residencias de La Herradura e Interlomas en Huixquilucan.", tag: "Estética premium", gradient: "linear-gradient(135deg,#546E7A,#37474F);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El favorito en cumpleaños de niñas en Huixquilucan. Diseño temático y colorido que hace brillar cualquier fiesta en las residencias de la zona.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El inflable más solicitado en general. Perfecto para los amplios jardines de La Herradura y eventos con grupos mixtos de niños de distintas edades.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
+    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "El modelo elegante por excelencia. Neutro, sofisticado y perfecto para las residencias de La Herradura e Interlomas en Huixquilucan.", tag: "Estética premium" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El favorito en cumpleaños de niñas en Huixquilucan. Diseño temático y colorido que hace brillar cualquier fiesta en las residencias de la zona.", tag: "Favorito niñas" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El inflable más solicitado en general. Perfecto para los amplios jardines de La Herradura y eventos con grupos mixtos de niños de distintas edades.", tag: "Más rentado" },
   ],
   },
   {
@@ -747,9 +746,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Qué inflables recomiendan para eventos en Iztacalco con muchos niños?", answer: "Para eventos con muchos niños en Iztacalco los más solicitados son los Dragones Rojos y el Extremo. Para menores de 4 años el modelo correcto es el Castillo Baby, diseñado para edades de 1 a 3." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en Iztacalco. Alta capacidad y colores vibrantes. Funciona perfectamente en patios, jardines y áreas comunes de la alcaldía.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "La reina de los inflables en fiestas de niñas en Iztacalco. Diseño temático con colores pastel que alegra cualquier celebración.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
-    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El aventurero más popular entre los niños de Iztacalco. Diseño de galeón que hace de cualquier cumpleaños una fiesta épica.", tag: "Favorito niños", gradient: "linear-gradient(135deg,#0277BD,#01579B);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en Iztacalco. Alta capacidad y colores vibrantes. Funciona perfectamente en patios, jardines y áreas comunes de la alcaldía.", tag: "Más rentado" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "La reina de los inflables en fiestas de niñas en Iztacalco. Diseño temático con colores pastel que alegra cualquier celebración.", tag: "Favorito niñas" },
+    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El aventurero más popular entre los niños de Iztacalco. Diseño de galeón que hace de cualquier cumpleaños una fiesta épica.", tag: "Favorito niños" },
   ],
   },
   {
@@ -790,9 +789,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Con cuánta anticipación debo reservar para un fin de semana en Iztapalapa?", answer: "Recomendamos reservar con al menos 2 semanas de anticipación. Iztapalapa es una zona de alta demanda los fines de semana. En temporadas altas (Semana Santa, vacaciones de verano y diciembre) la disponibilidad se llena rápido — reserva con 3–4 semanas de margen." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en Iztapalapa. Colores llamativos, alta capacidad y diversión asegurada para los niños para grupos grandes de niños en cualquier tipo de espacio.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El diseño pirata es un hit en las fiestas infantiles de Iztapalapa. Recibe para grupos de niños de 3 a 12 años con ganas de aventura.", tag: "Favorito temático", gradient: "linear-gradient(135deg,#0277BD,#01579B);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "El modelo de mayor capacidad. Circuito de obstáculos para grupos numerosos. Ideal para kermeses escolares y fiestas grandes en patios amplios de Iztapalapa.", tag: "Kermeses y eventos", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en Iztapalapa. Colores llamativos, alta capacidad y diversión asegurada para los niños para grupos grandes de niños en cualquier tipo de espacio.", tag: "Más rentado" },
+    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El diseño pirata es un hit en las fiestas infantiles de Iztapalapa. Recibe para grupos de niños de 3 a 12 años con ganas de aventura.", tag: "Favorito temático" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "El modelo de mayor capacidad. Circuito de obstáculos para grupos numerosos. Ideal para kermeses escolares y fiestas grandes en patios amplios de Iztapalapa.", tag: "Kermeses y eventos" },
   ],
   },
   {
@@ -830,9 +829,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Tienen inflables adecuados para los jardines de La Contreras?", answer: "Sí. Las casas en La Magdalena Contreras suelen tener jardines bien establecidos y espacio generoso. Los Dragones Rojos y el Castillo de Princesas son los más rentados en la zona. Para eventos grandes, el Extremo es la mejor opción." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en los jardines de La Contreras. Colores vibrantes y espacio para varios niños jugando al mismo tiempo en terrenos planos.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El más solicitado para cumpleaños de niñas en toda la alcaldía. Destaca especialmente en los jardines verdes del sur de la ciudad.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "Para los jardines más amplios de La Magdalena Contreras. El circuito más completo de BRINCOLINS, perfecto para grupos numerosos de niños.", tag: "Eventos grandes", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en los jardines de La Contreras. Colores vibrantes y espacio para varios niños jugando al mismo tiempo en terrenos planos.", tag: "Más rentado" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El más solicitado para cumpleaños de niñas en toda la alcaldía. Destaca especialmente en los jardines verdes del sur de la ciudad.", tag: "Favorito niñas" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "Para los jardines más amplios de La Magdalena Contreras. El circuito más completo de BRINCOLINS, perfecto para grupos numerosos de niños.", tag: "Eventos grandes" },
   ],
   },
   {
@@ -872,9 +871,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Qué inflables recomiendan para las residencias exclusivas de Metepec?", answer: "Para los eventos en las colonias premium de Metepec, el Castillo Blanco es nuestra recomendación por su estética sofisticada. Para cumpleaños de niñas el Castillo de Princesas es el favorito. Para eventos grandes, el Barco Pirata o el Extremo." },
   ],
     inflablesRec:      [
-    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "El modelo más elegante de BRINCOLINS. Diseño neutro y sofisticado para las residencias exclusivas de Pilares, San Salvador la Gavia y Metepec Centro.", tag: "Estética premium", gradient: "linear-gradient(135deg,#546E7A,#37474F);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El hit para cumpleaños de niñas en Metepec. Colores vibrantes y diseño temático que destaca en los amplios jardines de la zona.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El inflable favorito para eventos con grupos de niños en Metepec. Capacidad alta y colores llamativos para jardines amplios del Valle de Toluca.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
+    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "El modelo más elegante de BRINCOLINS. Diseño neutro y sofisticado para las residencias exclusivas de Pilares, San Salvador la Gavia y Metepec Centro.", tag: "Estética premium" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El hit para cumpleaños de niñas en Metepec. Colores vibrantes y diseño temático que destaca en los amplios jardines de la zona.", tag: "Favorito niñas" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El inflable favorito para eventos con grupos de niños en Metepec. Capacidad alta y colores llamativos para jardines amplios del Valle de Toluca.", tag: "Más rentado" },
   ],
   },
   {
@@ -915,9 +914,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Pueden llevar varios inflables a un evento en Miguel Hidalgo?", answer: "Sí. Gestionamos paquetes multi-inflable para residencias en Lomas, salones en Polanco o eventos corporativos en la zona. Coordinamos el montaje de 2 a 4 unidades con un coordinador asignado. Consulta disponibilidad con al menos 3 semanas de anticipación." },
   ],
     inflablesRec:      [
-    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "El modelo más elegante de BRINCOLINS. Diseño neutro y sofisticado que encaja perfecto en residencias de Lomas de Chapultepec y salones de Polanco.", tag: "Estética premium", gradient: "linear-gradient(135deg,#546E7A,#37474F);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El favorito en cumpleaños de niñas en Polanco y Anzures. Colores pastel y diseño temático que combina con cualquier decoración de fiesta.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El inflable más solicitado a nivel general. Perfecto para jardines en Lomas y eventos con grupos mixtos de niños de distintas edades.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
+    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "El modelo más elegante de BRINCOLINS. Diseño neutro y sofisticado que encaja perfecto en residencias de Lomas de Chapultepec y salones de Polanco.", tag: "Estética premium" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El favorito en cumpleaños de niñas en Polanco y Anzures. Colores pastel y diseño temático que combina con cualquier decoración de fiesta.", tag: "Favorito niñas" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El inflable más solicitado a nivel general. Perfecto para jardines en Lomas y eventos con grupos mixtos de niños de distintas edades.", tag: "Más rentado" },
   ],
   },
   {
@@ -956,9 +955,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Con cuánta anticipación hay que reservar para Milpa Alta?", answer: "Por ser una zona con mayor tiempo de traslado, recomendamos reservar con al menos 2-3 semanas de anticipación para coordinar la logística correctamente. Para fines de semana en temporada alta, reserva con un mes de margen." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito para las fiestas grandes en Milpa Alta. Gran capacidad y colores llamativos. Ideal para los amplios espacios de la alcaldía.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El diseño pirata es un hit en las fiestas de Milpa Alta. Niños de todas las edades lo disfrutan en los amplios jardines de la zona.", tag: "Temático popular", gradient: "linear-gradient(135deg,#0277BD,#01579B);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "El circuito más completo de BRINCOLINS, con doble carril y obstáculos. Perfecto para eventos comunitarios y kermeses en los espacios generosos de Milpa Alta.", tag: "Para eventos grandes", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito para las fiestas grandes en Milpa Alta. Gran capacidad y colores llamativos. Ideal para los amplios espacios de la alcaldía.", tag: "Más rentado" },
+    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El diseño pirata es un hit en las fiestas de Milpa Alta. Niños de todas las edades lo disfrutan en los amplios jardines de la zona.", tag: "Temático popular" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "El circuito más completo de BRINCOLINS, con doble carril y obstáculos. Perfecto para eventos comunitarios y kermeses en los espacios generosos de Milpa Alta.", tag: "Para eventos grandes" },
   ],
   },
   {
@@ -998,9 +997,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Cuánto tiempo antes debo reservar para un evento en Naucalpan?", answer: "Recomendamos reservar con al menos 1-2 semanas de anticipación, especialmente para fines de semana. En temporada alta (abril-junio y noviembre-diciembre) sugerimos 3-4 semanas de anticipación para garantizar disponibilidad." },
   ],
     inflablesRec:      [
-    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "El favorito en las residencias de Satélite e Interlomas. Diseño elegante y neutro que combina con cualquier decoración de evento en zonas residenciales de Naucalpan.", tag: "Estética premium", gradient: "linear-gradient(135deg,#546E7A,#37474F);" },
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El inflable más solicitado en todo Naucalpan. Perfecto para los jardines amplios de Lomas Verdes y Valle Dorado. Grupos grandes de niños, garantía total.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "Para kermeses en Satélite o eventos en clubes de Naucalpan. Circuito de obstáculos con doble carril para turnos de juego.", tag: "Eventos grandes", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "El favorito en las residencias de Satélite e Interlomas. Diseño elegante y neutro que combina con cualquier decoración de evento en zonas residenciales de Naucalpan.", tag: "Estética premium" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El inflable más solicitado en todo Naucalpan. Perfecto para los jardines amplios de Lomas Verdes y Valle Dorado. Grupos grandes de niños, garantía total.", tag: "Más rentado" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "Para kermeses en Satélite o eventos en clubes de Naucalpan. Circuito de obstáculos con doble carril para turnos de juego.", tag: "Eventos grandes" },
   ],
   },
   {
@@ -1040,9 +1039,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Cubren toda Neza, incluyendo Benito Juárez y Los Reyes?", answer: "Sí, cubrimos todo el municipio de Nezahualcóyotl — desde Ciudad Neza Centro hasta Benito Juárez, Los Reyes, Jardines de Morelos y todas las demás colonias. El cargo de envío aplica por ser Edomex." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Nezahualcóyotl. Alta capacidad para grupos numerosos de niños. Ideal para patios, jardines y salones de fiestas de toda la zona.", tag: "Más rentado Neza", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El diseño pirata arrasa en las fiestas de Neza. Perfecto para cumpleaños temáticos, con capacidad para grupos de niños de 3 a 12 años.", tag: "Favorito temático", gradient: "linear-gradient(135deg,#0277BD,#01579B);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "Para los eventos más grandes en Nezahualcóyotl. El circuito de obstáculos más completo de BRINCOLINS para grupos numerosos de niños.", tag: "Grupos grandes", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Nezahualcóyotl. Alta capacidad para grupos numerosos de niños. Ideal para patios, jardines y salones de fiestas de toda la zona.", tag: "Más rentado Neza" },
+    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El diseño pirata arrasa en las fiestas de Neza. Perfecto para cumpleaños temáticos, con capacidad para grupos de niños de 3 a 12 años.", tag: "Favorito temático" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "Para los eventos más grandes en Nezahualcóyotl. El circuito de obstáculos más completo de BRINCOLINS para grupos numerosos de niños.", tag: "Grupos grandes" },
   ],
   },
   {
@@ -1082,9 +1081,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Pueden llevar inflables a kermeses en Nicolás Romero?", answer: "Sí, atendemos kermeses escolares y eventos comunitarios en Nicolás Romero. Para kermeses coordinamos directamente con la escuela o el organizador. Tenemos paquetes multi-inflable especiales — ver /servicios/inflables-para-eventos/ para detalles." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en Nicolás Romero. Alta capacidad y colores llamativos para las fiestas familiares en Ciudad Cuauhtémoc y toda la zona.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El más solicitado para cumpleaños de niñas en Nicolás Romero. Diseño temático y colorido que convierte cualquier festejo en una celebración especial.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
-    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El diseño pirata es muy popular en Nicolás Romero. Ideal para cumpleaños temáticos de niños de 3 a 12 años, con espacio para grupos de niños a la vez.", tag: "Favorito niños", gradient: "linear-gradient(135deg,#0277BD,#01579B);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en Nicolás Romero. Alta capacidad y colores llamativos para las fiestas familiares en Ciudad Cuauhtémoc y toda la zona.", tag: "Más rentado" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El más solicitado para cumpleaños de niñas en Nicolás Romero. Diseño temático y colorido que convierte cualquier festejo en una celebración especial.", tag: "Favorito niñas" },
+    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El diseño pirata es muy popular en Nicolás Romero. Ideal para cumpleaños temáticos de niños de 3 a 12 años, con espacio para grupos de niños a la vez.", tag: "Favorito niños" },
   ],
   },
   {
@@ -1129,9 +1128,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Cubren también Santa Fe y Bosques de las Lomas?", answer: "Sí, toda la zona de Santa Fe, Bosques de las Lomas y Bosque Real está dentro de nuestra cobertura. El costo de traslado depende de la colonia y se confirma al cotizar. Incluso cubrimos los centros comerciales y salones de eventos de la zona." },
   ],
     inflablesRec:      [
-    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "El más solicitado en Polanco y Lomas de Chapultepec. Diseño neutral y elegante que combina con cualquier decoración en zonas exclusivas.", tag: "Estética premium", gradient: "linear-gradient(135deg,#546E7A,#37474F);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El hit para cumpleaños de niñas en Polanco y Bosques de las Lomas. Diseño temático y colores pastel que encajan con cualquier fiesta sofisticada.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El inflable más solicitado a nivel general. Perfecto para jardines en Lomas y Bosques de las Lomas con grupos mixtos de niños.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
+    { href: "/inflables/castillo-blanco/", name: "Castillo Blanco", desc: "El más solicitado en Polanco y Lomas de Chapultepec. Diseño neutral y elegante que combina con cualquier decoración en zonas exclusivas.", tag: "Estética premium" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El hit para cumpleaños de niñas en Polanco y Bosques de las Lomas. Diseño temático y colores pastel que encajan con cualquier fiesta sofisticada.", tag: "Favorito niñas" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El inflable más solicitado a nivel general. Perfecto para jardines en Lomas y Bosques de las Lomas con grupos mixtos de niños.", tag: "Más rentado" },
   ],
   },
   {
@@ -1171,9 +1170,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Con cuánta anticipación hay que reservar para Tecámac?", answer: "Recomendamos reservar con 2-3 semanas de anticipación. Tecámac tiene alta demanda los fines de semana, especialmente en los fraccionamientos nuevos. En temporadas altas, reserva con un mes para garantizar disponibilidad." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en los fraccionamientos de Tecámac. Alta capacidad para grupos de niños en las áreas comunes y jardines de Ciudad Real y Real del Sol.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "La elección preferida para cumpleaños de niñas en Tecámac. Colores vibrantes y diseño temático que destaca en los jardines de la zona.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "Para las áreas comunes amplias en los fraccionamientos de Tecámac. El modelo de mayor capacidad para eventos con muchos niños.", tag: "Áreas comunes grandes", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en los fraccionamientos de Tecámac. Alta capacidad para grupos de niños en las áreas comunes y jardines de Ciudad Real y Real del Sol.", tag: "Más rentado" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "La elección preferida para cumpleaños de niñas en Tecámac. Colores vibrantes y diseño temático que destaca en los jardines de la zona.", tag: "Favorito niñas" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "Para las áreas comunes amplias en los fraccionamientos de Tecámac. El modelo de mayor capacidad para eventos con muchos niños.", tag: "Áreas comunes grandes" },
   ],
   },
   {
@@ -1213,9 +1212,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Con cuánta anticipación reservar para Texcoco?", answer: "Por la distancia al oriente del Edomex, recomendamos reservar con 2-3 semanas de anticipación. La logística al oriente requiere mayor coordinación. En temporadas altas reserva con al menos un mes para garantizar disponibilidad." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en Texcoco. Alta capacidad y colores vivos. Los amplios espacios del oriente del Edomex son perfectos para este inflable.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El diseño pirata es muy popular en las fiestas del oriente. Ideal para cumpleaños temáticos y eventos con niños de todas las edades en Texcoco.", tag: "Temático popular", gradient: "linear-gradient(135deg,#0277BD,#01579B);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "Para los amplios terrenos de Texcoco y las zonas rurales del oriente. Circuito completo con doble carril y obstáculos.", tag: "Espacios grandes", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en Texcoco. Alta capacidad y colores vivos. Los amplios espacios del oriente del Edomex son perfectos para este inflable.", tag: "Más rentado" },
+    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El diseño pirata es muy popular en las fiestas del oriente. Ideal para cumpleaños temáticos y eventos con niños de todas las edades en Texcoco.", tag: "Temático popular" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "Para los amplios terrenos de Texcoco y las zonas rurales del oriente. Circuito completo con doble carril y obstáculos.", tag: "Espacios grandes" },
   ],
   },
   {
@@ -1255,9 +1254,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Qué inflables son los más populares en Tláhuac?", answer: "En Tláhuac los más rentados son los Dragones Rojos por su alta capacidad y el Barco Pirata por su diseño temático. Para fiestas de XV años o eventos más grandes, el Extremo es la mejor opción con espacio para grupos numerosos." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Tláhuac. Resistente, colorido y con espacio para varios niños jugando simultáneamente. El favorito en toda la alcaldía.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El favorito temático en Tláhuac. Los niños se vuelven locos con el diseño de galeón pirata en los jardines y espacios de la alcaldía.", tag: "Temático popular", gradient: "linear-gradient(135deg,#0277BD,#01579B);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "Para kermeses y eventos con muchos niños en los amplios terrenos de Tláhuac. El circuito más completo de BRINCOLINS.", tag: "Eventos grandes", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Tláhuac. Resistente, colorido y con espacio para varios niños jugando simultáneamente. El favorito en toda la alcaldía.", tag: "Más rentado" },
+    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El favorito temático en Tláhuac. Los niños se vuelven locos con el diseño de galeón pirata en los jardines y espacios de la alcaldía.", tag: "Temático popular" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "Para kermeses y eventos con muchos niños en los amplios terrenos de Tláhuac. El circuito más completo de BRINCOLINS.", tag: "Eventos grandes" },
   ],
   },
   {
@@ -1297,9 +1296,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Pueden llevar varios inflables para una kermesse en Tlalnepantla?", answer: "Sí. Gestionamos paquetes multi-inflable para kermeses escolares y eventos corporativos en Tlalnepantla. Coordinamos el montaje de 2-4 unidades con logística incluida. Consulta disponibilidad con 3+ semanas de anticipación." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Tlalnepantla. Alta capacidad para grupos grandes. Funciona perfecto tanto en jardines residenciales como en áreas de eventos corporativos.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "El favorito para kermeses de empresa en Tlalnepantla. El circuito de obstáculos más completo de BRINCOLINS para grupos numerosos en espacios abiertos.", tag: "Eventos corporativos", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
-    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El hit en fiestas familiares de Tlalnepantla. Diseño temático de aventura que entusiasma a niños de todas las edades en la zona.", tag: "Favorito fiestas", gradient: "linear-gradient(135deg,#0277BD,#01579B);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Tlalnepantla. Alta capacidad para grupos grandes. Funciona perfecto tanto en jardines residenciales como en áreas de eventos corporativos.", tag: "Más rentado" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "El favorito para kermeses de empresa en Tlalnepantla. El circuito de obstáculos más completo de BRINCOLINS para grupos numerosos en espacios abiertos.", tag: "Eventos corporativos" },
+    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "El hit en fiestas familiares de Tlalnepantla. Diseño temático de aventura que entusiasma a niños de todas las edades en la zona.", tag: "Favorito fiestas" },
   ],
   },
   {
@@ -1340,9 +1339,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Pueden instalar en jardines y terrenos irregulares?", answer: "Sí, nuestro equipo tiene experiencia instalando en todo tipo de terrenos. En zonas del Pedregal o Ajusco donde el terreno puede ser irregular, llevamos equipo adicional de nivelación y anclaje para garantizar una instalación segura." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito para los jardines de Tlalpan y Coapa. Gran capacidad, colores vibrantes y diversión asegurada para los niños para grupos de niños de distintas edades.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "El circuito de carreras con doble carril, tobogán y obstáculos. Perfecto para los jardines amplios del Pedregal y el sur de Tlalpan, para niños de 3 a 12 años.", tag: "Para jardines grandes", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El más solicitado para fiestas de niñas en Tlalpan y Xochimilco. Colores llamativos que resaltan perfectamente en los jardines verdes del sur.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito para los jardines de Tlalpan y Coapa. Gran capacidad, colores vibrantes y diversión asegurada para los niños para grupos de niños de distintas edades.", tag: "Más rentado" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "El circuito de carreras con doble carril, tobogán y obstáculos. Perfecto para los jardines amplios del Pedregal y el sur de Tlalpan, para niños de 3 a 12 años.", tag: "Para jardines grandes" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El más solicitado para fiestas de niñas en Tlalpan y Xochimilco. Colores llamativos que resaltan perfectamente en los jardines verdes del sur.", tag: "Favorito niñas" },
   ],
   },
   {
@@ -1382,9 +1381,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Qué inflables recomiendan para Toluca?", answer: "Para Toluca recomendamos los modelos con mayor relación costo-capacidad para que el cargo de envío valga la pena. Los Dragones Rojos y el Extremo son la mejor inversión para eventos con muchos niños. Para fiestas de niñas, el Castillo de Princesas es el favorito." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El modelo con mejor relación capacidad-precio para Toluca. Alta capacidad para grupos grandes de niños que justifica el traslado desde la CDMX.", tag: "Mejor relación costo", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El favorito para fiestas de niñas en Toluca. Colores vibrantes y diseño temático que hace de cualquier cumpleaños una celebración especial.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "El circuito de obstáculos con doble carril y tobogán. Para eventos y kermeses en Toluca donde el inflable se aprovecha al máximo.", tag: "Mayor capacidad", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El modelo con mejor relación capacidad-precio para Toluca. Alta capacidad para grupos grandes de niños que justifica el traslado desde la CDMX.", tag: "Mejor relación costo" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El favorito para fiestas de niñas en Toluca. Colores vibrantes y diseño temático que hace de cualquier cumpleaños una celebración especial.", tag: "Favorito niñas" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "El circuito de obstáculos con doble carril y tobogán. Para eventos y kermeses en Toluca donde el inflable se aprovecha al máximo.", tag: "Mayor capacidad" },
   ],
   },
   {
@@ -1424,9 +1423,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Qué inflables recomiendan para eventos en Tultitlán?", answer: "Los Dragones Rojos (para grupos de niños) y el circuito Extremo (para turnos de juego) son los más solicitados en Tultitlán para grupos numerosos. Para fiestas de niñas, el Castillo de Princesas es el favorito. Tenemos modelos para todo tipo de espacio y presupuesto." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Tultitlán. Alta capacidad y colores vibrantes para fiestas familiares en San Pablo de las Salinas y Lechería.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "Para eventos con muchos niños en Tultitlán. El circuito de obstáculos más completo de BRINCOLINS para kermeses y fiestas grandes.", tag: "Grupos grandes", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "La elección preferida para cumpleaños de niñas en Tultitlán. Diseño temático y colorido que hace brillar cualquier celebración en la zona.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El número uno en Tultitlán. Alta capacidad y colores vibrantes para fiestas familiares en San Pablo de las Salinas y Lechería.", tag: "Más rentado" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "Para eventos con muchos niños en Tultitlán. El circuito de obstáculos más completo de BRINCOLINS para kermeses y fiestas grandes.", tag: "Grupos grandes" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "La elección preferida para cumpleaños de niñas en Tultitlán. Diseño temático y colorido que hace brillar cualquier celebración en la zona.", tag: "Favorito niñas" },
   ],
   },
   {
@@ -1466,9 +1465,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Atienden eventos en Jamaica y colonias populares de Venustiano Carranza?", answer: "Por supuesto. Jamaica y Morelos son dos de las colonias con mayor demanda de inflables en la alcaldía. Atendemos desde pequeñas fiestas de cumpleaños hasta eventos más grandes en salones de la zona." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El más rentado en Venustiano Carranza. Colores brillantes y gran capacidad. El hit de las fiestas en Jamaica y Morelos.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "Diseño de aventura pirata que entusiasma a niños de todas las edades. Muy solicitado en cumpleaños y eventos familiares en Venustiano Carranza.", tag: "Temático popular", gradient: "linear-gradient(135deg,#0277BD,#01579B);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "La reina de las fiestas de niñas en la alcaldía. Colores vivos y diseño temático que convierte cualquier cumpleaños en un evento mágico.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El más rentado en Venustiano Carranza. Colores brillantes y gran capacidad. El hit de las fiestas en Jamaica y Morelos.", tag: "Más rentado" },
+    { href: "/inflables/barco-pirata/", name: "Barco Pirata", desc: "Diseño de aventura pirata que entusiasma a niños de todas las edades. Muy solicitado en cumpleaños y eventos familiares en Venustiano Carranza.", tag: "Temático popular" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "La reina de las fiestas de niñas en la alcaldía. Colores vivos y diseño temático que convierte cualquier cumpleaños en un evento mágico.", tag: "Favorito niñas" },
   ],
   },
   {
@@ -1509,9 +1508,9 @@ export const COVERAGE_ZONES: CoverageZone[] = [
     { question: "¿Pueden entregar en colonias como San Gregorio Atlapulco o Santiago Tulyehualco?", answer: "Sí, cubrimos toda la alcaldía Xochimilco incluyendo San Gregorio Atlapulco, Santiago Tulyehualco y las principales localidades. El costo de traslado depende de la colonia y se confirma al cotizar; algunas zonas tienen traslado sin costo adicional." },
   ],
     inflablesRec:      [
-    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en Xochimilco. Alta capacidad y colores llamativos. Perfecto para los amplios jardines y espacios al aire libre de la alcaldía.", tag: "Más rentado", gradient: "linear-gradient(135deg,#B71C1C,#E53935);" },
-    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El más solicitado para cumpleaños de niñas en Xochimilco. Sus colores vibrantes destacan especialmente en los jardines verdes de la zona.", tag: "Favorito niñas", gradient: "linear-gradient(135deg,#E91E8C,#C2185B);" },
-    { href: "/inflables/extremo/", name: "Extremo", desc: "Para las fiestas grandes de Xochimilco. El modelo de mayor capacidad de BRINCOLINS, ideal para eventos familiares y comunitarios.", tag: "Eventos grandes", gradient: "linear-gradient(135deg,#FF3D00,#FF6D00);" },
+    { href: "/inflables/dragones-rojos/", name: "Dragones Rojos", desc: "El favorito en Xochimilco. Alta capacidad y colores llamativos. Perfecto para los amplios jardines y espacios al aire libre de la alcaldía.", tag: "Más rentado" },
+    { href: "/inflables/castillo-princesas/", name: "Castillo de Princesas", desc: "El más solicitado para cumpleaños de niñas en Xochimilco. Sus colores vibrantes destacan especialmente en los jardines verdes de la zona.", tag: "Favorito niñas" },
+    { href: "/inflables/extremo/", name: "Extremo", desc: "Para las fiestas grandes de Xochimilco. El modelo de mayor capacidad de BRINCOLINS, ideal para eventos familiares y comunitarios.", tag: "Eventos grandes" },
   ],
   },
 ];

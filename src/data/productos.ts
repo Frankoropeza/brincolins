@@ -30,7 +30,7 @@ export interface FaqEntry { question: string; answer: string; }
 export interface RelatedCard {
   slug: string; name: string; description: string; price: string;
   size: string; ages: string; category: string; categoryColor: string;
-  gradient: string; image: string;
+  image: string;
 }
 export interface SectionCopy { copy1: string; copy2: string; }
 /** Enlace interno con nota de contexto (guías del blog y zonas). */
@@ -151,10 +151,10 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       ],
     },
     cards: [
-      { slug: "extremo", name: "Extremo", description: "Circuito de 8m con obstáculos y tobogán doble.", price: "$2,500", size: "8×4.5×3.50m", ages: "3-12 años", category: "Extremo", categoryColor: "extremo", gradient: "#E65100, #BF360C", image: "/img/inflables/extremo.avif" },
-      { slug: "castillo-blanco", name: "Castillo Blanco", description: "Elegante para bodas, bautizos y XV años.", price: "$2,600", size: "5×7×4m", ages: "3-12 años", category: "Bodas", categoryColor: "bodas", gradient: "#7E57C2, #9575CD", image: "/img/inflables/castillo-blanco.avif" },
-      { slug: "dragones-rojos", name: "Dragones Rojos", description: "El más popular con dragones de 3m y resbaladilla.", price: "$1,600", size: "5×3×2.80m", ages: "3-8 años", category: "Castillo", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
-      { slug: "castillo-princesas", name: "Castillo de Princesas", description: "Castillo rosa con princesas de 3m y resbaladilla.", price: "$1,800", size: "5×3.30×3m", ages: "2-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
+      { slug: "extremo", name: "Extremo", description: "Circuito de 8m con obstáculos y tobogán doble.", price: "$2,500", size: "8×4.5×3.50m", ages: "3-12 años", category: "Extremo", categoryColor: "extremo", image: "/img/inflables/extremo.avif" },
+      { slug: "castillo-blanco", name: "Castillo Blanco", description: "Elegante para bodas, bautizos y XV años.", price: "$2,600", size: "5×7×4m", ages: "3-12 años", category: "Bodas", categoryColor: "bodas", image: "/img/inflables/castillo-blanco.avif" },
+      { slug: "dragones-rojos", name: "Dragones Rojos", description: "El más popular con dragones de 3m y resbaladilla.", price: "$1,600", size: "5×3×2.80m", ages: "3-8 años", category: "Castillo", categoryColor: "castillo", image: "/img/inflables/dragones-rojos.avif" },
+      { slug: "castillo-princesas", name: "Castillo de Princesas", description: "Castillo rosa con princesas de 3m y resbaladilla.", price: "$1,800", size: "5×3.30×3m", ages: "2-10 años", category: "Princesas", categoryColor: "princesas", image: "/img/inflables/castillo-princesas.avif" },
     ],
   },
   "castillo-blanco": {
@@ -236,10 +236,10 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       ],
     },
     cards: [
-      { slug: "barco-pirata", name: "Barco Pirata", description: "Aventura pirata con resbaladilla de altura.", price: "$2,300", size: "6×3.5×3.80m", ages: "3-12 años", category: "Aventura", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
-      { slug: "extremo", name: "Extremo", description: "Circuito de 8m con obstáculos y tobogán doble.", price: "$2,500", size: "8×4.5×3.50m", ages: "3-12 años", category: "Extremo", categoryColor: "extremo", gradient: "#E65100, #BF360C", image: "/img/inflables/extremo.avif" },
-      { slug: "castillo-princesas", name: "Castillo de Princesas", description: "Castillo rosa con princesas de 3m y resbaladilla.", price: "$1,800", size: "5×3.30×3m", ages: "2-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
-      { slug: "dragones-rojos", name: "Dragones Rojos", description: "El más popular con dragones de 3m y resbaladilla.", price: "$1,600", size: "5×3×2.80m", ages: "3-8 años", category: "Castillo", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
+      { slug: "barco-pirata", name: "Barco Pirata", description: "Aventura pirata con resbaladilla de altura.", price: "$2,300", size: "6×3.5×3.80m", ages: "3-12 años", category: "Aventura", categoryColor: "pirata", image: "/img/inflables/barco-pirata.avif" },
+      { slug: "extremo", name: "Extremo", description: "Circuito de 8m con obstáculos y tobogán doble.", price: "$2,500", size: "8×4.5×3.50m", ages: "3-12 años", category: "Extremo", categoryColor: "extremo", image: "/img/inflables/extremo.avif" },
+      { slug: "castillo-princesas", name: "Castillo de Princesas", description: "Castillo rosa con princesas de 3m y resbaladilla.", price: "$1,800", size: "5×3.30×3m", ages: "2-10 años", category: "Princesas", categoryColor: "princesas", image: "/img/inflables/castillo-princesas.avif" },
+      { slug: "dragones-rojos", name: "Dragones Rojos", description: "El más popular con dragones de 3m y resbaladilla.", price: "$1,600", size: "5×3×2.80m", ages: "3-8 años", category: "Castillo", categoryColor: "castillo", image: "/img/inflables/dragones-rojos.avif" },
     ],
   },
   "castillo-princesas": {
@@ -319,10 +319,10 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       ],
     },
     cards: [
-      { slug: "dragones-rojos", name: "Dragones Rojos", description: "El más rentado en CDMX con dragones de 3m y resbaladilla.", price: "$1,600", size: "5×3×2.80m", ages: "3-8 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
-      { slug: "mini-jungla", name: "Jungla", description: "Inflable temático con animales y palmeras tropicales.", price: "$1,600", size: "5×3×2.50m", ages: "3-8 años", category: "Aventura", categoryColor: "jungla", gradient: "#2E7D32, #1B5E20", image: "/img/inflables/mini-jungla.avif" },
-      { slug: "mini-castillo", name: "Castillo Baby", description: "Compacto para bebés. Perfecto para interiores y espacios reducidos.", price: "$1,400", size: "2.5×2×2m", ages: "1-3 años", category: "Chico", categoryColor: "castillo", gradient: "#FF3D00, #ff6d3f", image: "/img/inflables/mini-castillo.avif" },
-      { slug: "gusanitos", name: "Gusanitos", description: "Inflable tropical con gusanitos y colores vibrantes.", price: "$1,600", size: "5×3×2.80m", ages: "2-8 años", category: "Tropical", categoryColor: "jungla", gradient: "#558B2F, #827717", image: "/img/inflables/gusanitos.avif" },
+      { slug: "dragones-rojos", name: "Dragones Rojos", description: "El más rentado en CDMX con dragones de 3m y resbaladilla.", price: "$1,600", size: "5×3×2.80m", ages: "3-8 años", category: "Más popular", categoryColor: "castillo", image: "/img/inflables/dragones-rojos.avif" },
+      { slug: "mini-jungla", name: "Jungla", description: "Inflable temático con animales y palmeras tropicales.", price: "$1,600", size: "5×3×2.50m", ages: "3-8 años", category: "Aventura", categoryColor: "jungla", image: "/img/inflables/mini-jungla.avif" },
+      { slug: "mini-castillo", name: "Castillo Baby", description: "Compacto para bebés. Perfecto para interiores y espacios reducidos.", price: "$1,400", size: "2.5×2×2m", ages: "1-3 años", category: "Chico", categoryColor: "castillo", image: "/img/inflables/mini-castillo.avif" },
+      { slug: "gusanitos", name: "Gusanitos", description: "Inflable tropical con gusanitos y colores vibrantes.", price: "$1,600", size: "5×3×2.80m", ages: "2-8 años", category: "Tropical", categoryColor: "jungla", image: "/img/inflables/gusanitos.avif" },
     ],
   },
   "dragones-rojos": {
@@ -409,10 +409,10 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       ],
     },
     cards: [
-      { slug: "castillo-princesas", name: "Castillo de Princesas", description: "Castillo rosa con princesas de 3m y resbaladilla incluida.", price: "$1,800", size: "5×3.30×3m", ages: "2-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
-      { slug: "mini-jungla", name: "Jungla", description: "Inflable temático con animales y palmeras tropicales.", price: "$1,600", size: "5×3×2.50m", ages: "3-8 años", category: "Aventura", categoryColor: "jungla", gradient: "#2E7D32, #1B5E20", image: "/img/inflables/mini-jungla.avif" },
-      { slug: "gusanitos", name: "Gusanitos", description: "Inflable tropical con gusanitos y colores vibrantes.", price: "$1,600", size: "5×3×2.80m", ages: "2-8 años", category: "Tropical", categoryColor: "jungla", gradient: "#558B2F, #827717", image: "/img/inflables/gusanitos.avif" },
-      { slug: "mini-castillo", name: "Castillo Baby", description: "Compacto para bebés. Perfecto para interiores y espacios reducidos.", price: "$1,400", size: "2.5×2×2m", ages: "1-3 años", category: "Chico", categoryColor: "castillo", gradient: "#FF3D00, #ff6d3f", image: "/img/inflables/mini-castillo.avif" },
+      { slug: "castillo-princesas", name: "Castillo de Princesas", description: "Castillo rosa con princesas de 3m y resbaladilla incluida.", price: "$1,800", size: "5×3.30×3m", ages: "2-10 años", category: "Princesas", categoryColor: "princesas", image: "/img/inflables/castillo-princesas.avif" },
+      { slug: "mini-jungla", name: "Jungla", description: "Inflable temático con animales y palmeras tropicales.", price: "$1,600", size: "5×3×2.50m", ages: "3-8 años", category: "Aventura", categoryColor: "jungla", image: "/img/inflables/mini-jungla.avif" },
+      { slug: "gusanitos", name: "Gusanitos", description: "Inflable tropical con gusanitos y colores vibrantes.", price: "$1,600", size: "5×3×2.80m", ages: "2-8 años", category: "Tropical", categoryColor: "jungla", image: "/img/inflables/gusanitos.avif" },
+      { slug: "mini-castillo", name: "Castillo Baby", description: "Compacto para bebés. Perfecto para interiores y espacios reducidos.", price: "$1,400", size: "2.5×2×2m", ages: "1-3 años", category: "Chico", categoryColor: "castillo", image: "/img/inflables/mini-castillo.avif" },
     ],
   },
   "extremo": {
@@ -503,10 +503,10 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       ],
     },
     cards: [
-      { slug: "barco-pirata", name: "Barco Pirata", description: "Aventura pirata con resbaladilla de altura.", price: "$2,300", size: "6×3.5×3.80m", ages: "3-12 años", category: "Aventura", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
-      { slug: "castillo-blanco", name: "Castillo Blanco", description: "Elegante para bodas, bautizos y XV años.", price: "$2,600", size: "5×7×4m", ages: "3-12 años", category: "Bodas", categoryColor: "bodas", gradient: "#7E57C2, #9575CD", image: "/img/inflables/castillo-blanco.avif" },
-      { slug: "dragones-rojos", name: "Dragones Rojos", description: "El más popular con dragones de 3m y resbaladilla.", price: "$1,600", size: "5×3×2.80m", ages: "3-8 años", category: "Castillo", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
-      { slug: "castillo-princesas", name: "Castillo de Princesas", description: "Castillo rosa con princesas de 3m y resbaladilla.", price: "$1,800", size: "5×3.30×3m", ages: "2-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
+      { slug: "barco-pirata", name: "Barco Pirata", description: "Aventura pirata con resbaladilla de altura.", price: "$2,300", size: "6×3.5×3.80m", ages: "3-12 años", category: "Aventura", categoryColor: "pirata", image: "/img/inflables/barco-pirata.avif" },
+      { slug: "castillo-blanco", name: "Castillo Blanco", description: "Elegante para bodas, bautizos y XV años.", price: "$2,600", size: "5×7×4m", ages: "3-12 años", category: "Bodas", categoryColor: "bodas", image: "/img/inflables/castillo-blanco.avif" },
+      { slug: "dragones-rojos", name: "Dragones Rojos", description: "El más popular con dragones de 3m y resbaladilla.", price: "$1,600", size: "5×3×2.80m", ages: "3-8 años", category: "Castillo", categoryColor: "castillo", image: "/img/inflables/dragones-rojos.avif" },
+      { slug: "castillo-princesas", name: "Castillo de Princesas", description: "Castillo rosa con princesas de 3m y resbaladilla.", price: "$1,800", size: "5×3.30×3m", ages: "2-10 años", category: "Princesas", categoryColor: "princesas", image: "/img/inflables/castillo-princesas.avif" },
     ],
   },
   "gusanitos": {
@@ -588,10 +588,10 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       ],
     },
     cards: [
-      { slug: "mini-jungla", name: "Jungla", description: "Inflable temático con animales y palmeras tropicales.", price: "$1,600", size: "5×3×2.50m", ages: "3-8 años", category: "Aventura", categoryColor: "jungla", gradient: "#2E7D32, #1B5E20", image: "/img/inflables/mini-jungla.avif" },
-      { slug: "castillo-princesas", name: "Castillo de Princesas", description: "Castillo rosa con torres decorativas y resbaladilla incluida.", price: "$1,800", size: "5×3.30×3m", ages: "2-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
-      { slug: "dragones-rojos", name: "Dragones Rojos", description: "El más rentado en CDMX con dragones de 3m y resbaladilla.", price: "$1,600", size: "5×3×2.80m", ages: "3-8 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
-      { slug: "mini-castillo", name: "Castillo Baby", description: "Compacto para bebés. Perfecto para interiores y espacios reducidos.", price: "$1,400", size: "2.5×2×2m", ages: "1-3 años", category: "Chico", categoryColor: "castillo", gradient: "#FF3D00, #ff6d3f", image: "/img/inflables/mini-castillo.avif" },
+      { slug: "mini-jungla", name: "Jungla", description: "Inflable temático con animales y palmeras tropicales.", price: "$1,600", size: "5×3×2.50m", ages: "3-8 años", category: "Aventura", categoryColor: "jungla", image: "/img/inflables/mini-jungla.avif" },
+      { slug: "castillo-princesas", name: "Castillo de Princesas", description: "Castillo rosa con torres decorativas y resbaladilla incluida.", price: "$1,800", size: "5×3.30×3m", ages: "2-10 años", category: "Princesas", categoryColor: "princesas", image: "/img/inflables/castillo-princesas.avif" },
+      { slug: "dragones-rojos", name: "Dragones Rojos", description: "El más rentado en CDMX con dragones de 3m y resbaladilla.", price: "$1,600", size: "5×3×2.80m", ages: "3-8 años", category: "Más popular", categoryColor: "castillo", image: "/img/inflables/dragones-rojos.avif" },
+      { slug: "mini-castillo", name: "Castillo Baby", description: "Compacto para bebés. Perfecto para interiores y espacios reducidos.", price: "$1,400", size: "2.5×2×2m", ages: "1-3 años", category: "Chico", categoryColor: "castillo", image: "/img/inflables/mini-castillo.avif" },
     ],
   },
   "mini-castillo": {
@@ -671,10 +671,10 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       ],
     },
     cards: [
-      { slug: "castillo-princesas", name: "Castillo de Princesas", description: "Castillo rosa con princesas de 3m y resbaladilla.", price: "$1,800", size: "5×3.30×3m", ages: "2-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
-      { slug: "dragones-rojos", name: "Dragones Rojos", description: "El más popular con dragones de 3m y resbaladilla.", price: "$1,600", size: "5×3×2.80m", ages: "3-8 años", category: "Castillo", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
-      { slug: "gusanitos", name: "Gusanitos", description: "Tropical con gusanitos y colores vibrantes.", price: "$1,600", size: "5×3×2.80m", ages: "2-8 años", category: "Tropical", categoryColor: "jungla", gradient: "#558B2F, #827717", image: "/img/inflables/gusanitos.avif" },
-      { slug: "mini-jungla", name: "Jungla", description: "Temático con animales y palmeras tropicales.", price: "$1,600", size: "5×3×2.50m", ages: "3-8 años", category: "Aventura", categoryColor: "jungla", gradient: "#2E7D32, #1B5E20", image: "/img/inflables/mini-jungla.avif" },
+      { slug: "castillo-princesas", name: "Castillo de Princesas", description: "Castillo rosa con princesas de 3m y resbaladilla.", price: "$1,800", size: "5×3.30×3m", ages: "2-10 años", category: "Princesas", categoryColor: "princesas", image: "/img/inflables/castillo-princesas.avif" },
+      { slug: "dragones-rojos", name: "Dragones Rojos", description: "El más popular con dragones de 3m y resbaladilla.", price: "$1,600", size: "5×3×2.80m", ages: "3-8 años", category: "Castillo", categoryColor: "castillo", image: "/img/inflables/dragones-rojos.avif" },
+      { slug: "gusanitos", name: "Gusanitos", description: "Tropical con gusanitos y colores vibrantes.", price: "$1,600", size: "5×3×2.80m", ages: "2-8 años", category: "Tropical", categoryColor: "jungla", image: "/img/inflables/gusanitos.avif" },
+      { slug: "mini-jungla", name: "Jungla", description: "Temático con animales y palmeras tropicales.", price: "$1,600", size: "5×3×2.50m", ages: "3-8 años", category: "Aventura", categoryColor: "jungla", image: "/img/inflables/mini-jungla.avif" },
     ],
   },
   "mini-jungla": {
@@ -756,10 +756,10 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       ],
     },
     cards: [
-      { slug: "gusanitos", name: "Gusanitos", description: "Inflable tropical con gusanitos y colores vibrantes.", price: "$1,600", size: "5×3×2.80m", ages: "2-8 años", category: "Tropical", categoryColor: "jungla", gradient: "#558B2F, #827717", image: "/img/inflables/gusanitos.avif" },
-      { slug: "castillo-princesas", name: "Castillo de Princesas", description: "Castillo rosa con torres decorativas y resbaladilla incluida.", price: "$1,800", size: "5×3.30×3m", ages: "2-10 años", category: "Princesas", categoryColor: "princesas", gradient: "#E91E8C, #7C3AED", image: "/img/inflables/castillo-princesas.avif" },
-      { slug: "dragones-rojos", name: "Dragones Rojos", description: "El más rentado en CDMX con dragones de 3m y resbaladilla.", price: "$1,600", size: "5×3×2.80m", ages: "3-8 años", category: "Más popular", categoryColor: "castillo", gradient: "#B71C1C, #E53935", image: "/img/inflables/dragones-rojos.avif" },
-      { slug: "barco-pirata", name: "Barco Pirata", description: "Barco pirata de gran escala con velas y tobogán gigante.", price: "$2,300", size: "6×3.5×3.80m", ages: "3-12 años", category: "Grande", categoryColor: "pirata", gradient: "#1565C0, #0D47A1", image: "/img/inflables/barco-pirata.avif" },
+      { slug: "gusanitos", name: "Gusanitos", description: "Inflable tropical con gusanitos y colores vibrantes.", price: "$1,600", size: "5×3×2.80m", ages: "2-8 años", category: "Tropical", categoryColor: "jungla", image: "/img/inflables/gusanitos.avif" },
+      { slug: "castillo-princesas", name: "Castillo de Princesas", description: "Castillo rosa con torres decorativas y resbaladilla incluida.", price: "$1,800", size: "5×3.30×3m", ages: "2-10 años", category: "Princesas", categoryColor: "princesas", image: "/img/inflables/castillo-princesas.avif" },
+      { slug: "dragones-rojos", name: "Dragones Rojos", description: "El más rentado en CDMX con dragones de 3m y resbaladilla.", price: "$1,600", size: "5×3×2.80m", ages: "3-8 años", category: "Más popular", categoryColor: "castillo", image: "/img/inflables/dragones-rojos.avif" },
+      { slug: "barco-pirata", name: "Barco Pirata", description: "Barco pirata de gran escala con velas y tobogán gigante.", price: "$2,300", size: "6×3.5×3.80m", ages: "3-12 años", category: "Grande", categoryColor: "pirata", image: "/img/inflables/barco-pirata.avif" },
     ],
   },
 };
