@@ -12,8 +12,10 @@ interface Props {
   evento?: string;
   /** En las páginas de estación no se ofrecen otras estaciones */
   sinEstaciones?: boolean;
+  /** Fondo alterno para el bloque del aliado */
+  aliadoAlt?: boolean;
 }
-const { evento, sinEstaciones = false } = Astro.props;
+const { evento, sinEstaciones = false, aliadoAlt = false } = Astro.props;
 ---
 
 {!sinEstaciones && (
@@ -46,7 +48,7 @@ const { evento, sinEstaciones = false } = Astro.props;
 </section>
 )}
 
-<section class="section">
+<section class={aliadoAlt ? "section section--alt" : "section"}>
   <div class="container">
     <div class="aliado">
       <div>

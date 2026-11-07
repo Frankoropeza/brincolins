@@ -6,8 +6,11 @@ import SectionHeader from "@/components/SectionHeader.astro";
 import PricingCards from "@/components/PricingCards.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import DulcesComplementos from "@/components/DulcesComplementos.astro";
+import DulcesConfianza from "@/components/DulcesConfianza.astro";
+import DulcesCotizador from "@/components/DulcesCotizador.astro";
+import DulcesCombo from "@/components/DulcesCombo.astro";
 import { WHATSAPP } from "@/data/site";
-import { EVENTOS, TIPOS, ESTACIONES_PAG, PAGINAS, FAQS_GENERALES, BASE_URL, IMG, fmt, enFrase, serviceSchema, type Evento } from "@/data/mesasDeDulces";
+import { EVENTOS, TIPOS, ESTACIONES_PAG, PAGINAS, FAQS_GENERALES, BASE_URL, IMG, fmt, enFrase, serviceSchema, COMBO, type Evento } from "@/data/mesasDeDulces";
 
 export function getStaticPaths() {
   return PAGINAS.map((e) => ({ params: { slug: e.slug }, props: { e } }));
@@ -90,7 +93,7 @@ const schema = serviceSchema(`https://brincolins.com${url}`, e.h1, [e]);
           <p class="hero__desc">{e.intro[1]}</p>
           <div class="hero__ctas">
             <a href={wa(`Hola, quiero cotizar ${frase}.`)} class="btn btn-wa btn-lg" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
-            <a href="#precios" class="btn btn-outline btn-lg">Ver precios</a>
+            <a href="#cotizador" class="btn btn-outline btn-lg">Calcular mi precio</a>
           </div>
         </div>
         <div class="hero__img-col">
@@ -103,6 +106,8 @@ const schema = serviceSchema(`https://brincolins.com${url}`, e.h1, [e]);
       </div>
     </div>
   </section>
+
+  <DulcesConfianza />
 
   <QuickNav />
 
@@ -119,7 +124,9 @@ const schema = serviceSchema(`https://brincolins.com${url}`, e.h1, [e]);
     </div>
   </section>
 
-  <section class="section section--alt">
+  <DulcesCotizador slug={e.slug} />
+
+  <section class="section">
     <div class="container">
       <div class="estilo">
         <img src={`${IMG}/${e.img.detalle}.avif`} alt={e.img.altDetalle} width="1600" height="900" loading="lazy" decoding="async" class="estilo__img" />
@@ -135,9 +142,11 @@ const schema = serviceSchema(`https://brincolins.com${url}`, e.h1, [e]);
     </div>
   </section>
 
-  <DulcesComplementos evento={grupo === "evento" ? `la mesa de ${enFrase(e)}` : tema} sinEstaciones={grupo === "estacion"} />
+  <DulcesComplementos evento={grupo === "evento" ? `la mesa de ${enFrase(e)}` : tema} sinEstaciones={grupo === "estacion"} aliadoAlt={grupo === "estacion"} />
 
-  <section class="section section--alt">
+  <DulcesCombo slugs={COMBO[e.slug]} evento={grupo === "evento" ? `tu ${enFrase(e)}` : undefined} alt={grupo !== "estacion"} />
+
+  <section class={grupo === "estacion" ? "section section--alt" : "section"}>
     <div class="container">
       <h2 class="section-title otros__title">¿Qué más puedes sumar a tu evento?</h2>
       <p class="otros__all"><a href={BASE_URL}>Todas las mesas de dulces, estaciones y precios</a></p>

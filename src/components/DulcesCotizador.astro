@@ -1,0 +1,144 @@
+---
+/**
+ * DulcesCotizador — BRINCOLINS
+ * Eliges servicio y número de invitados; recomienda el nivel del catálogo,
+ * muestra su precio y abre WhatsApp con el mensaje ya escrito.
+ * Datos: src/data/mesasDeDulces.ts. JS mínimo, sin animaciones de entrada.
+ */
+import SectionHeader from "@/components/SectionHeader.astro";
+import { WHATSAPP } from "@/data/site";
+import { PAGINAS, EVENTOS, TIPOS, ESTACIONES_PAG, enFrase, type Evento } from "@/data/mesasDeDulces";
+
+interface Props {
+  /** Servicio preseleccionado (slug); por defecto, el primero */
+  slug?: string;
+  alt?: boolean;
+}
+const { slug, alt = true } = Astro.props;
+
+const etiqueta = (e: Evento) => (e.grupo ?? "evento") === "evento" ? `Mesa de dulces para ${enFrase(e)}` : e.nombre;
+const datos = PAGINAS.map((e) => ({
+  slug: e.slug,
+  label: etiqueta(e),
+  unidad: e.unidad,
+  niveles: e.niveles.map((n) => ({ nombre: n.nombre, precio: n.precio, invitados: n.invitados, incluye: n.incluye.slice(0, 3) })),
+}));
+const grupos = [
+  { label: "Por evento", items: EVENTOS },
+  { label: "Tipos de mesa", items: TIPOS },
+  { label: "Estaciones", items: ESTACIONES_PAG },
+];
+const inicial = slug ?? PAGINAS[0].slug;
+---
+
+<section class={alt ? "section section--alt" : "section"} id="cotizador">
+  <div class="container">
+    <SectionHeader
+      badge="Calcula tu precio"
+      title="¿Qué nivel necesitas y cuánto cuesta?"
+      subtitle="Elige el servicio y cuántos invitados esperas."
+      copy1="El cálculo usa los mismos rangos de invitados y precios del catálogo. Te dice qué nivel te corresponde y qué incluye, sin dejar tus datos."
+      copy2="Si te convence, el botón abre WhatsApp con tu selección ya escrita. Te confirmamos fecha, horario y traslado según tu zona."
+    />
+    <div class="cot" data-cot data-wa={WHATSAPP}>
+      <script type="application/json" data-cot-datos set:html={JSON.stringify(datos)} />
+      <div class="cot__form">
+        <label class="cot__label">
+          Servicio
+          <select class="cot__input" data-cot-servicio>
+            {grupos.map((g) => (
+              <optgroup label={g.label}>
+                {g.items.map((e) => <option value={e.slug} selected={e.slug === inicial}>{etiqueta(e)}</option>)}
+              </optgroup>
+            ))}
+          </select>
+        </label>
+        <label class="cot__label">
+          Número de invitados
+          <input class="cot__input" type="number" min="1" max="1000" step="1" value="40" inputmode="numeric" data-cot-invitados />
+        </label>
+      </div>
+      <div class="cot__res" aria-live="polite">
+        <p class="cot__kicker">Nivel recomendado</p>
+        <p class="cot__nivel" data-cot-nivel>—</p>
+        <p class="cot__precio"><span data-cot-precio>—</span> <small>MXN + IVA</small></p>
+        <p class="cot__rango" data-cot-rango></p>
+        <ul class="cot__inc" data-cot-incluye></ul>
+        <a class="btn btn-wa btn-lg cot__cta" href="#" target="_blank" rel="noopener" data-cot-cta>Cotizar por WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  type Nivel = { nombre: string; precio: number; invitados: string; incluye: string[] };
+  type Dato = { slug: string; label: string; unidad: string; niveles: Nivel[] };
+
+  /* "15-30" → 30 · "60+" / "150-400+" → sin tope */
+  const tope = (r: string) => (r.trim().endsWith("+") ? Infinity : Number(r.split("-").pop()));
+  const fmt = (n: number) => `$${n.toLocaleString("es-MX")}`;
+
+  document.querySelectorAll<HTMLElement>("[data-cot]").forEach((root) => {
+    const datos: Dato[] = JSON.parse(root.querySelector("[data-cot-datos]")!.textContent || "[]");
+    const sel = root.querySelector<HTMLSelectElement>("[data-cot-servicio]")!;
+    const inv = root.querySelector<HTMLInputElement>("[data-cot-invitados]")!;
+    const out = {
+      nivel: root.querySelector("[data-cot-nivel]")!,
+      precio: root.querySelector("[data-cot-precio]")!,
+      rango: root.querySelector("[data-cot-rango]")!,
+      incluye: root.querySelector("[data-cot-incluye]")!,
+      cta: root.querySelector<HTMLAnchorElement>("[data-cot-cta]")!,
+    };
+    const wa = root.dataset.wa;
+
+    const render = () => {
+      const d = datos.find((x) => x.slug === sel.value) ?? datos[0];
+      const n = Math.max(1, Math.round(Number(inv.value) || 1));
+      const nivel = d.niveles.find((l) => n <= tope(l.invitados)) ?? d.niveles[d.niveles.length - 1];
+      out.nivel.textContent = nivel.nombre;
+      out.precio.textContent = `Desde ${fmt(nivel.precio)}`;
+      out.rango.textContent = `Pensado para ${nivel.invitados} ${d.unidad}.`;
+      out.incluye.replaceChildren(...nivel.incluye.map((t) => Object.assign(document.createElement("li"), { textContent: t })));
+      const msg = `Hola, quiero cotizar: ${d.label}, nivel ${nivel.nombre}, para ${n} ${d.unidad}.`;
+      out.cta.href = `https://wa.me/${wa}?text=${encodeURIComponent(msg)}`;
+    };
+    sel.addEventListener("change", render);
+    inv.addEventListener("input", render);
+    render();
+  });
+</script>
+
+<style>
+  .cot {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 2rem;
+    background: #fff;
+    border-radius: var(--r-card);
+    box-shadow: var(--shadow-md);
+    padding: clamp(1.25rem, 3vw, 2.25rem);
+  }
+  .cot__form { display: grid; gap: 1.25rem; align-content: start; }
+  .cot__label { display: grid; gap: 0.4rem; font-weight: 700; font-size: 14px; color: var(--c-ink); }
+  .cot__input {
+    font: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0.8rem 1rem;
+    border: 1.5px solid rgba(0, 0, 0, 0.14);
+    border-radius: 12px;
+    background: var(--c-canvas, #fff);
+    color: var(--c-ink);
+    width: 100%;
+  }
+  .cot__input:focus-visible { outline: 3px solid var(--c-menta); outline-offset: 1px; }
+  .cot__res { background: var(--c-durazno); border-radius: var(--r-card); padding: 1.5rem; }
+  .cot__kicker { margin: 0; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--c-ink); }
+  .cot__nivel { margin: 0.2rem 0 0; font-size: 1.6rem; font-weight: 800; color: var(--c-ink); }
+  .cot__precio { margin: 0.25rem 0 0; font-size: 1.35rem; font-weight: 800; color: var(--c-primary-text); }
+  .cot__precio small { font-size: 13px; font-weight: 600; color: var(--c-ink); }
+  .cot__rango { margin: 0.35rem 0 0.9rem; font-size: 14px; color: var(--c-ink); }
+  .cot__inc { margin: 0 0 1.25rem; padding-left: 1.1rem; display: grid; gap: 0.35rem; font-size: 14px; color: var(--c-ink); }
+  .cot__cta { width: 100%; justify-content: center; }
+  @media (max-width: 860px) { .cot { grid-template-columns: 1fr; } }
+</style>

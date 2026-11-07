@@ -1,0 +1,58 @@
+---
+/**
+ * DulcesConfianza — BRINCOLINS
+ * Franja de garantías bajo el hero de las páginas de mesas de dulces.
+ * Solo hechos verificables del servicio (catálogo y FAQ de MEDEDUL).
+ */
+const items = [
+  { t: "Precio publicado", d: "Sabes cuánto cuesta antes de escribirnos." },
+  { t: "Montaje incluido", d: "Llega lista antes que tus invitados y se desmonta al final." },
+  { t: "Los sobrantes son tuyos", d: "Lo que quede se empaca para ti." },
+  { t: "Un solo contacto", d: "Mesa e inflable en la misma cotización." },
+];
+---
+
+<section class="conf" aria-label="Lo que incluye el servicio">
+  <div class="container">
+    <ul class="conf__list">
+      {items.map((i) => (
+        <li class="conf__item">
+          <svg class="conf__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          <div>
+            <strong class="conf__t">{i.t}</strong>
+            <span class="conf__d">{i.d}</span>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<style>
+  .conf { padding: 0 0 clamp(1.5rem, 3vw, 2.5rem); }
+  .conf__list {
+    list-style: none;
+    margin: 0;
+    padding: 1.25rem 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem 2rem;
+    background: #fff;
+    border-radius: var(--r-card);
+    box-shadow: var(--shadow-md);
+  }
+  .conf__item { display: flex; gap: 0.75rem; align-items: flex-start; }
+  .conf__ico {
+    flex: none;
+    width: 1.75rem;
+    height: 1.75rem;
+    padding: 0.3rem;
+    border-radius: 50%;
+    background: var(--c-menta);
+    color: var(--c-ink);
+  }
+  .conf__t { display: block; font-size: 15px; color: var(--c-ink); }
+  .conf__d { display: block; font-size: 13.5px; line-height: 1.5; color: var(--c-ink); opacity: 0.8; }
+  @media (max-width: 1024px) { .conf__list { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .conf__list { grid-template-columns: 1fr; } }
+</style>

@@ -801,3 +801,14 @@ export function serviceSchema(url: string, nombre: string, eventos: Evento[]) {
 
 /* Nombre del evento dentro de una frase: en minúscula salvo siglas («XV años»). */
 export const enFrase = (e: Pick<Evento, "nombre">) => e.nombre.replace(/^(?!XV)\S+/, (w) => w.toLowerCase());
+
+/* Inflables recomendados para acompañar cada servicio (slugs de inflables.ts).
+   Por edad y tono del evento: bebés → Castillo Baby; formales → Castillo Blanco. */
+export const COMBO: Record<string, string[]> = {
+  "cumpleanos-infantil": ["dragones-rojos", "castillo-princesas", "mini-jungla"],
+  "bautizo":             ["mini-castillo", "castillo-blanco", "gusanitos"],
+  "baby-shower":         ["mini-castillo", "castillo-princesas", "gusanitos"],
+  "primera-comunion":    ["castillo-blanco", "dragones-rojos", "barco-pirata"],
+  "xv-anos":             ["castillo-blanco", "extremo", "barco-pirata"],
+  "boda":                ["castillo-blanco", "extremo", "mini-castillo"],
+};

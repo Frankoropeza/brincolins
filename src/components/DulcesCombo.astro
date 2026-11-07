@@ -1,0 +1,68 @@
+---
+/**
+ * DulcesCombo — BRINCOLINS
+ * Venta cruzada: inflables recomendados para acompañar la mesa de dulces.
+ * Precios y fotos salen de src/data/inflables.ts (nada a mano).
+ */
+import { getInflableBySlug, PRICE_NOTE } from "@/data/inflables";
+
+interface Props {
+  /** Slugs de inflables a recomendar (3) */
+  slugs?: string[];
+  /** Texto del evento para el título */
+  evento?: string;
+  alt?: boolean;
+}
+const { slugs = ["dragones-rojos", "castillo-princesas", "barco-pirata"], evento, alt = true } = Astro.props;
+const inflables = slugs.map(getInflableBySlug).filter((i) => i !== undefined);
+---
+
+<section class={alt ? "section section--alt" : "section"}>
+  <div class="container">
+    <div class="combo">
+      <div class="combo__head">
+        <span class="section-badge">Fiesta completa</span>
+        <h2 class="section-title">{evento ? `¿Y si sumas un inflable a ${evento}?` : "¿Y si sumas un inflable?"}</h2>
+        <p class="combo__txt">
+          Mientras los adultos disfrutan la mesa, los niños tienen dónde jugar. Cotizas los dos en el mismo mensaje y
+          coordinamos que lleguen el mismo día, cada uno con su equipo de montaje.
+        </p>
+        <a href="/inflables/" class="btn btn-outline">Ver los inflables</a>
+      </div>
+      <div class="combo__grid">
+        {inflables.map((i) => (
+          <a href={`/inflables/${i.slug}/`} class="inf">
+            <img src={i.image} alt={`Inflable ${i.name} en renta para fiestas en CDMX`} width="600" height="450" loading="lazy" decoding="async" class="inf__img" />
+            <div class="inf__body">
+              <h3 class="inf__name">{i.name}</h3>
+              <p class="inf__price"><strong>{i.price}</strong> <span>{PRICE_NOTE}</span></p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .combo { display: grid; grid-template-columns: 0.8fr 1.6fr; gap: 2.5rem; align-items: center; }
+  .combo__txt { margin: 1rem 0 1.5rem; line-height: 1.7; color: var(--c-ink); }
+  .combo__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .inf {
+    background: #fff;
+    border-radius: var(--r-card);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    color: var(--c-ink);
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+  .inf:hover { transform: translateY(-3px); }
+  .inf__img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
+  .inf__body { padding: 0.9rem 1rem 1.1rem; }
+  .inf__name { margin: 0 0 0.25rem; font-size: 1rem; }
+  .inf__price { margin: 0; font-size: 13px; }
+  .inf__price strong { color: var(--c-primary-text); font-size: 15px; }
+  @media (max-width: 1024px) { .combo { grid-template-columns: 1fr; } }
+  @media (max-width: 640px) { .combo__grid { grid-template-columns: 1fr 1fr; } }
+</style>

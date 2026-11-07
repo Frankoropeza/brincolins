@@ -5,6 +5,9 @@ import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import DulcesComplementos from "@/components/DulcesComplementos.astro";
+import DulcesConfianza from "@/components/DulcesConfianza.astro";
+import DulcesCotizador from "@/components/DulcesCotizador.astro";
+import DulcesCombo from "@/components/DulcesCombo.astro";
 import { WHATSAPP } from "@/data/site";
 import { EVENTOS, TIPOS, ESTACIONES_PAG, FAQS_GENERALES, BASE_URL, IMG, fmt, enFrase, serviceSchema } from "@/data/mesasDeDulces";
 
@@ -25,6 +28,12 @@ const incluye = [
   { t: "Mesa y montaje", d: "Mesa, mantelería, bases y cristalería; el equipo monta antes de que lleguen los invitados." },
   { t: "Dulces seleccionados", d: "De 8 a más de 20 variedades según el nivel, con opciones para alergias." },
   { t: "Desmontaje y sobrantes", d: "Al terminar se desmonta todo y los dulces que sobran son tuyos." },
+];
+
+const porque = [
+  { t: "Sabes el precio desde hoy", d: "Cada evento y cada nivel tiene su precio publicado. No hay que pedir cotización para saber si te alcanza." },
+  { t: "Se adapta a tu evento", d: "Paleta, temática y etiquetas con el nombre del festejado. Desde Premium recibes backdrop y una propuesta visual." },
+  { t: "Nadie de tu familia trabaja", d: "Montaje antes de la fiesta, reposición durante el evento desde Premium y desmontaje al cierre." },
 ];
 
 const pasos = [
@@ -60,14 +69,14 @@ const pasos = [
       <div class="hero__grid">
         <div>
           <span class="hero__badge">Mesas de dulces</span>
-          <h1 class="hero__title">Mesa de dulces <span class="highlight">para tu fiesta</span> en CDMX</h1>
+          <h1 class="hero__title">Mesa de dulces en CDMX, <span class="highlight">lista antes que tus invitados</span></h1>
           <p class="hero__desc">
-            Mesas de dulces para cumpleaños infantil, bautizo, baby shower, primera comunión, XV años y boda, con diseño en la
-            paleta de tu evento, montaje y desmontaje incluidos. Las opera nuestro aliado MEDEDUL y las coordinamos junto con tu inflable.
+            Tú eliges el evento y los colores. El equipo llega antes, monta la mesa, la repone durante la fiesta y al final te
+            empaca los dulces que sobraron. Precios publicados desde {fmt(minimo)} + IVA, y una sola cotización junto con tu inflable.
           </p>
           <div class="hero__ctas">
-            <a href={wa} class="btn btn-wa btn-lg" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
-            <a href="#precios" class="btn btn-outline btn-lg">Ver precios</a>
+            <a href={wa} class="btn btn-wa btn-lg" target="_blank" rel="noopener">Cotizar mi mesa por WhatsApp</a>
+            <a href="#cotizador" class="btn btn-outline btn-lg">Calcular mi precio</a>
           </div>
         </div>
         <div class="hero__img-col">
@@ -80,6 +89,8 @@ const pasos = [
       </div>
     </div>
   </section>
+
+  <DulcesConfianza />
 
   <QuickNav />
 
@@ -118,7 +129,9 @@ const pasos = [
     </div>
   </section>
 
-  <section class="section section--alt">
+  <DulcesCotizador />
+
+  <section class="section">
     <div class="container">
       <SectionHeader
         badge="Eventos"
@@ -141,7 +154,7 @@ const pasos = [
     </div>
   </section>
 
-  <section class="section">
+  <section class="section section--alt">
     <div class="container">
       <div class="inc">
         <img src={`${IMG}/hub-detalle.avif`} alt="Frascos de cristal con gomitas, chocolates y dulces mexicanos en una mesa de dulces" width="1600" height="900" loading="lazy" decoding="async" class="inc__img" />
@@ -157,7 +170,7 @@ const pasos = [
   </section>
 
   {grupos.map((g, gi) => (
-    <section class={gi === 0 ? "section section--alt" : "section"} id={g.id}>
+    <section class={gi === 0 ? "section" : "section section--alt"} id={g.id}>
       <div class="container">
         <div class="grp-head">
           <span class="section-badge">{g.badge}</span>
@@ -179,7 +192,29 @@ const pasos = [
     </section>
   ))}
 
-  <DulcesComplementos sinEstaciones />
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        badge="Por qué con nosotros"
+        title="¿Por qué contratar la mesa de dulces con BRINCOLINS?"
+        subtitle="Porque organizar una fiesta ya es suficiente trabajo."
+        copy1="Una fiesta suele juntar a tres o cuatro proveedores que no se conocen: cada uno con su horario, su anticipo y su número de WhatsApp. El día del evento, alguien tiene que coordinarlos."
+        copy2="Aquí la mesa de dulces la monta un equipo especializado y el inflable el nuestro, pero tú hablas con un solo contacto y recibes una sola propuesta."
+      />
+      <div class="pq">
+        {porque.map((p) => (
+          <div class="pq__item">
+            <h3 class="pq__t">{p.t}</h3>
+            <p class="pq__d">{p.d}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <DulcesComplementos sinEstaciones aliadoAlt />
+
+  <DulcesCombo alt={false} />
 
   <section class="section section--alt">
     <div class="container">
@@ -249,6 +284,11 @@ const pasos = [
   .inc__list { margin: 1.25rem 0 0; padding: 0; list-style: none; display: grid; gap: 0.9rem; }
   .inc__list li { line-height: 1.6; color: var(--c-ink); padding-left: 1.1rem; border-left: 3px solid var(--c-menta); }
 
+  .pq { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  .pq__item { background: #fff; border-radius: var(--r-card); padding: 1.5rem; box-shadow: var(--shadow-md); border-top: 4px solid var(--c-primary-deep); }
+  .pq__t { margin: 0 0 0.5rem; font-size: 1.1rem; color: var(--c-ink); }
+  .pq__d { margin: 0; line-height: 1.6; color: var(--c-ink); }
+
   .pasos { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
   .paso { background: #fff; border-radius: var(--r-card); padding: 1.5rem; box-shadow: var(--shadow-md); }
   .paso__n {
@@ -268,6 +308,7 @@ const pasos = [
     .grp-head { margin-bottom: 2rem; max-width: 46rem; }
   .ev-grid { grid-template-columns: repeat(2, 1fr); }
     .pasos { grid-template-columns: repeat(2, 1fr); }
+    .pq { grid-template-columns: 1fr; }
   }
   @media (max-width: 640px) {
     .ev-grid, .pasos, .inc { grid-template-columns: 1fr; gap: 1.25rem; }
