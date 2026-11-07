@@ -108,8 +108,8 @@ export const EVENTOS: Evento[] = [
     ],
     img: {
       hero: "cumple-hero", detalle: "cumple-unicornio",
-      alt: "Mesa de dulces temática de dinosaurios para cumpleaños infantil en jardín de CDMX",
-      altDetalle: "Mesa de dulces de unicornios en tonos pastel para cumpleaños de niña",
+      alt: "Mesa de dulces de dinosaurios en tonos salvia y terracota para cumpleaños infantil",
+      altDetalle: "Mesa de dulces de unicornio en rosa palo y lila para cumpleaños de niña",
     },
   },
   {
@@ -161,7 +161,7 @@ export const EVENTOS: Evento[] = [
     ],
     img: {
       hero: "bautizo-hero", detalle: "bautizo-detalle",
-      alt: "Mesa de dulces para bautizo en blanco y dorado con cruz decorativa",
+      alt: "Mesa de dulces para bautizo en blanco y celeste con pastel y galletas de paloma",
       altDetalle: "Galletas con forma de cruz y paloma y macarons blancos para bautizo",
     },
   },
@@ -530,8 +530,8 @@ export const ESTACIONES_PAG: Evento[] = [
       FAQ_RESERVA_ESTACION,
     ],
     img: { hero: "pared-hero", detalle: "pared-detalle",
-      alt: "Pared de dulces con dispensadores de acrílico e iluminación LED en salón",
-      altDetalle: "Dispensadores de dulces de acrílico con gomitas y chocolates" },
+      alt: "Pared de dulces con dispensadores de acrílico en tonos rosa palo y durazno",
+      altDetalle: "Dispensadores de dulces de acrílico montados en madera blanca" },
   },
   {
     grupo: "estacion", slug: "stand-para-pastel", nombre: "Stand para pastel", frase: "un stand para pastel",
