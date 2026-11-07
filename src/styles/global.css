@@ -224,7 +224,6 @@ p, .hero__desc, .section-subtitle, .why-sc__desc {
 .section-subtitle {
   font-size: 1.1rem;
   color: var(--c-text-muted);
-  max-width: 65ch;
   margin: 0 auto;
 }
 
@@ -607,7 +606,6 @@ p, .hero__desc, .section-subtitle, .why-sc__desc {
   color: #fff;
 }
 .cta-final__desc {
-  max-width: 550px;
   margin: 0 auto 2rem;
   font-size: 1.1rem;
 }
@@ -778,7 +776,6 @@ p, .hero__desc, .section-subtitle, .why-sc__desc {
 }
 
 .faq__answer p {
-  max-width: 70ch;
   margin: 0;
   padding: 0 1.5rem 1.25rem;
   font-size: 1rem;
@@ -985,8 +982,8 @@ p, .hero__desc, .section-subtitle, .why-sc__desc {
 .mt-2 { margin-top: 2rem; }
 .mt-3 { margin-top: 3rem; }
 /* Columna de lectura centrada (FAQ, bloques de texto, rejillas cortas) */
-.narrow { max-width: 820px; margin-inline: auto; }
-.narrow--wide { max-width: 960px; margin-inline: auto; }
+/* .narrow y .narrow--wide sin tope: todo al 100 % del navegador (2026-11-06). */
+.narrow, .narrow--wide { margin-inline: auto; }
 /* Sección pegada al hero/QuickNav: menos aire arriba */
 .section--snug { padding-top: 1.5rem; }
 /* Imagen que llena su marco */
@@ -1892,7 +1889,6 @@ p, .hero__desc, .section-subtitle, .why-sc__desc {
 }
 
 .footer__disclaimer {
-  max-width: 92ch;
   margin: .9rem 0 0;
   padding-bottom: .25rem;
   font-size: .72rem;

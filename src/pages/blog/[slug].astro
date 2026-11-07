@@ -278,13 +278,11 @@ const howToSchema = d.howto
   }
 
   /* ── Layout artículo + sidebar ──
-     Columna de lectura (~72ch) y sidebar juntas y centradas: antes la
-     prosa se quedaba a la izquierda y abría un hueco de 250px frente al
-     sidebar en pantallas anchas. La portada usa el mismo ancho. */
-  .art-shell { max-width: calc(46rem + 20rem + clamp(2.5rem, 5vw, 4.5rem) + 2 * var(--container-px)); }
+     Al 100 % del navegador (decisión de Frank, 2026-11-06): la prosa llena
+     todo el ancho que deja el sidebar. La portada usa el mismo contenedor. */
   .art-layout {
-    display: grid; grid-template-columns: minmax(0, 46rem) 20rem;
-    justify-content: space-between; gap: clamp(2.5rem, 5vw, 4.5rem);
+    display: grid; grid-template-columns: minmax(0, 1fr) 20rem;
+    gap: clamp(2.5rem, 5vw, 4.5rem);
   }
   .art-body { min-width: 0; }
 
