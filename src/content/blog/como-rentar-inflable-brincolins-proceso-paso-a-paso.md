@@ -165,7 +165,7 @@ Para el resto de la organización, la [lista de cosas para fiesta infantil](/blo
 ## ¿Qué errores se cometen la primera vez?
 
 1. **Cotizar sin decir las edades.** Sin ese dato no se puede recomendar un modelo; un inflable para niños de 3 a 12 no es para un bebé de 1 año.
-2. **Medir el piso y olvidar la altura.** Bajo techo solo entran el Castillo Baby y el Gusanitos, con 3.2 m libres. Afuera, una rama baja puede descartar un modelo.
+2. **Medir el piso y olvidar la altura.** Bajo techo solo entran el Castillo Baby, con 3.2 m libres, y el Gusanitos, que se confirma según la altura del lugar al cotizar. Afuera, una rama baja puede descartar un modelo.
 3. **No avisar del acceso.** Escaleras, pasillos angostos o un elevador chico cambian la logística. Dilo desde el primer mensaje.
 4. **Programar la llegada del equipo junto con la de los invitados.** Deja margen para que la instalación termine antes de que lleguen los niños.
 5. **No definir quién recibe al equipo.** Alguien tiene que estar en el lugar para indicar el área, el contacto y firmar la entrega.

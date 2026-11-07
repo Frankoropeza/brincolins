@@ -159,7 +159,7 @@ La temática la dan el papel picado, los juegos y la comida. El inflable se elig
 |---|---|---|---|---|
 | Patio o jardín, niños de 3 a 8 años | Dragones Rojos | 5 × 3 × 2.80 m | 4.5 m | $1,600 |
 | Fiesta de primos con muchos niños de primaria | Extremo | 8 × 4.5 × 3.50 m | 4.5 m | $2,500 |
-| Espacio techado o salón, niños de 2 a 8 | Gusanitos | 5 × 3 × 2.80 m | 3.2 m | $1,600 |
+| Espacio techado o salón, niños de 2 a 8 | Gusanitos | 5 × 3 × 2.80 m | Se confirma al cotizar | $1,600 |
 | Bebés y niños de 1 a 3 años | Castillo Baby | 2.5 × 2 × 2 m | 3.2 m | $1,400 |
 
 El [inflable Dragones Rojos](/inflables/dragones-rojos/) es el más rentado del catálogo y su rojo se integra sin esfuerzo con la decoración tricolor. Si la fiesta junta a muchos primos de primaria, el [circuito inflable Extremo](/inflables/extremo/) permite carreras en doble carril, que funcionan como continuación natural de la carrera de costales; además es uno de los modelos donde también pueden entrar adultos. Para ver todos los modelos clásicos, revisa la [categoría de brincolines](/inflables/brincolines/).

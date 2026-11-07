@@ -53,7 +53,7 @@ Los dos hacen cosas distintas. El **brincolín clásico** es una zona de brinco 
 | **Modelos** | Castillo Baby, Gusanitos, Jungla, Dragones Rojos, Castillo de Princesas | Barco Pirata, Extremo |
 | **Precio neto por evento** | $1,400 – $1,800 MXN | $2,300 – $2,500 MXN |
 | **Edades recomendadas** | De 1 a 10 años, según el modelo | 3 a 12 años |
-| **Altura libre** | 3.2 a 4.5 m, según el modelo | 4.5 a 5.2 m |
+| **Altura libre** | 3.2 a 4.5 m, según el modelo (Gusanitos, al cotizar) | 4.5 a 5.2 m |
 | **Interior o salón** | Castillo Baby y Gusanitos, con instalación confirmada al cotizar | No, solo exterior |
 | **Capacidad simultánea** | Se confirma al cotizar | Se confirma al cotizar |
 | **Impacto visual** | Medio | Alto: es la foto de la fiesta |

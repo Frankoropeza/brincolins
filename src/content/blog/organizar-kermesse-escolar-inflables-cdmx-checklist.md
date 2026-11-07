@@ -25,7 +25,7 @@ faqs:
   - question: "¿Cómo se maneja el anticipo y el pago para una escuela?"
     answer: "La fecha se aparta con 50% de anticipo y el saldo se cubre según lo acordado en la cotización. Los precios son netos; si la escuela necesita factura se agrega 16% de IVA. Si el pago pasa por orden de compra o tesorería, inicia el trámite al menos 4 semanas antes para que los tiempos internos no pongan en riesgo la reservación."
   - question: "¿Qué pasa si llueve el día de la kermesse?"
-    answer: "Los inflables no se usan bajo lluvia. Si la escuela tiene techumbre o auditorio con 3.2 m de altura libre, el Gusanitos y el Castillo Baby pueden ir ahí. Si no hay plan techado y la lluvia impide el evento, la renta se reprograma sin costo; de junio a septiembre conviene definir el plan B desde la primera fase."
+    answer: "Los inflables no se usan bajo lluvia. Si la escuela tiene techumbre o auditorio, el Castillo Baby puede ir ahí con 3.2 m de altura libre, y el Gusanitos también es apto para interiores; en su caso, la altura del lugar se confirma al cotizar. Si no hay plan techado y la lluvia impide el evento, la renta se reprograma sin costo; de junio a septiembre conviene definir el plan B desde la primera fase."
   - question: "¿Pueden revisar el espacio de la escuela antes de la kermesse?"
     answer: "Sí. Mándanos por WhatsApp fotos y medidas del patio, la ubicación de los contactos y el acceso para el equipo, y te decimos qué modelos caben y cómo distribuirlos. Para kermesses con varios inflables o espacios complicados, pregunta al cotizar por una revisión previa en sitio."
   - question: "¿Quién supervisa los inflables durante la kermesse?"
@@ -234,7 +234,7 @@ El espacio decide qué modelos son opción antes que el presupuesto:
 | Espacio de la escuela | Qué revisar | Modelos que suelen funcionar |
 |---|---|---|
 | Patio de cemento a cielo abierto | Piso parejo, sin coladeras ni escalones; se ancla con lastres | Cualquiera, según medidas y altura libre |
-| Patio con techumbre o arcotecho | Altura libre en el punto más bajo, no en el centro | Gusanitos y Castillo Baby (aptos para interiores, 3.2 m de altura libre) |
+| Patio con techumbre o arcotecho | Altura libre en el punto más bajo, no en el centro | Gusanitos y Castillo Baby (aptos para interiores; el Castillo Baby pide 3.2 m de altura libre y en el Gusanitos se confirma al cotizar) |
 | Cancha o jardín de pasto | Que no esté encharcado ni tenga aspersores; se ancla con estacas | Cualquiera, según medidas |
 | Auditorio o salón de usos múltiples | Altura libre, acceso para el equipo y contacto cercano | Gusanitos y Castillo Baby |
 

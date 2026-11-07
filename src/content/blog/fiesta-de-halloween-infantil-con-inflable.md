@@ -26,7 +26,7 @@ faqs:
   - question: "¿A qué hora conviene hacer una fiesta de Halloween infantil?"
     answer: "Para niños de kínder y primaria baja funciona de 14:00 a 19:00. Así juegan con luz de día, ven encenderse las luces cuando oscurece, alrededor de las 18:00 a finales de octubre en CDMX, y se van antes de que enfríe demasiado. Con niños más grandes puedes recorrer el horario una hora."
   - question: "¿Qué inflable conviene para una fiesta de Halloween?"
-    answer: "Para exterior con niños de 3 a 8 años, Dragones Rojos encaja con una temática de criaturas sin dar miedo. Si la fiesta es bajo techo, Gusanitos es apto para interiores con 3.2 m de altura libre. Para bebés de 1 a 3 años, el Castillo Baby. El modelo final se confirma con tus medidas al cotizar."
+    answer: "Para exterior con niños de 3 a 8 años, Dragones Rojos encaja con una temática de criaturas sin dar miedo. Si la fiesta es bajo techo, Gusanitos es apto para interiores; la altura del lugar se confirma al cotizar. Para bebés de 1 a 3 años, el Castillo Baby. El modelo final se confirma con tus medidas al cotizar."
   - question: "¿Qué pasa si llueve el día de la fiesta de Halloween?"
     answer: "A finales de octubre la temporada de lluvias en CDMX suele ir de salida, pero todavía puede caer un aguacero. Si llueve, la fecha se reprograma sin costo. Si cancelas con más de 48 horas de anticipación, se devuelve el 100% del anticipo."
   - question: "¿Cómo hago una fiesta de Halloween que no asuste a los más chicos?"
@@ -179,7 +179,7 @@ No existe un inflable "de Halloween" en el catálogo, y no hace falta: la temát
 | Situación | Modelo sugerido | Por qué | Precio por evento |
 |---|---|---|---|
 | Jardín o patio, niños de 3 a 8 años | Dragones Rojos | Criaturas fantásticas sin dar miedo, resbaladilla y mallas laterales | $1,600 |
-| Fiesta en salón o bajo techo, niños de 2 a 8 | Gusanitos | Apto para interiores, 3.2 m de altura libre, túneles con varias salidas | $1,600 |
+| Fiesta en salón o bajo techo, niños de 2 a 8 | Gusanitos | Apto para interiores, túnel de entrada y resbaladilla doble; la altura se confirma al cotizar | $1,600 |
 | Muchos bebés y niños de 1 a 3 años | Castillo Baby | Compacto, 2.5 × 2 m, apto para interiores | $1,400 |
 | Grupo grande de primaria, jardín amplio | Extremo | Circuito de 8 m con doble carril para relevos | $2,500 |
 

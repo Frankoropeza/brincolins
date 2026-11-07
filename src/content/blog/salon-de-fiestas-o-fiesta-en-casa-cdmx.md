@@ -22,13 +22,13 @@ faqs:
   - question: "¿Qué es más barato, salón de fiestas o fiesta en casa?"
     answer: "En general, la fiesta en casa, porque no pagas renta del espacio y contratas sólo lo que necesitas. El salón puede compensar si incluye mobiliario, comida o limpieza que de otro modo contratarías aparte. Compara paquetes completos, no sólo la renta del salón."
   - question: "¿Puedo llevar un inflable a un salón de fiestas?"
-    answer: "Depende del salón. Antes de firmar pregunta si permite proveedores externos, si hay jardín o terraza descubierta, cuál es la altura libre del área techada, a qué hora se puede montar y dónde está el contacto de luz. Los modelos aptos bajo techo piden 3.2 m de altura libre."
+    answer: "Depende del salón. Antes de firmar pregunta si permite proveedores externos, si hay jardín o terraza descubierta, cuál es la altura libre del área techada, a qué hora se puede montar y dónde está el contacto de luz. El Castillo Baby, apto bajo techo, pide 3.2 m de altura libre; en el Gusanitos se confirma según la altura del lugar al cotizar."
   - question: "¿Cuántos invitados caben en una fiesta en casa con inflable?"
     answer: "Depende del espacio libre que quede después de instalar el inflable, la mesa y el paso de los adultos. Mide tu patio o jardín y mándanos las medidas al cotizar; el espacio libre y la capacidad de cada modelo se confirman con tus datos."
   - question: "¿Qué hago si en mi casa no cabe el inflable?"
     answer: "Revisa opciones intermedias: el jardín o la casa de un familiar, el área común o el salón de usos múltiples de tu condominio con permiso de la administración, una azotea plana y segura o un jardín de eventos. Si ninguna funciona, un salón con jardín es la salida."
   - question: "¿Qué conviene si la fiesta es en temporada de lluvias?"
-    answer: "Tener techo. En casa, una terraza techada o un garage con 3.2 m de altura libre y un modelo apto para interiores. En salón, confirmar que el área techada tenga la altura suficiente. Si llueve y la fiesta no se puede hacer, la renta del inflable se reprograma sin costo."
+    answer: "Tener techo. En casa, una terraza techada o un garage con altura libre suficiente y un modelo apto para interiores. En salón, confirmar que el área techada tenga la altura suficiente. Si llueve y la fiesta no se puede hacer, la renta del inflable se reprograma sin costo."
 ---
 
 Haz la fiesta en casa si tus invitados caben con holgura, tienes patio, jardín o azotea donde quepa el inflable y quieres controlar el gasto. Elige salón si la lista es grande, tu casa no tiene espacio exterior, la fecha cae en lluvias sin un techo alto disponible o no quieres encargarte de la limpieza.
@@ -38,7 +38,7 @@ Haz la fiesta en casa si tus invitados caben con holgura, tienes patio, jardín 
 - Decide en este orden: número de invitados (con adultos), espacio, clima y presupuesto total.
 - La casa da libertad de proveedores y horario; el salón da capacidad, techo y limpieza resuelta.
 - Antes de firmar un salón, confirma que acepte proveedores externos y su altura libre.
-- Bajo techo solo entran los modelos aptos para interiores, que piden 3.2 m de altura libre.
+- Bajo techo solo entran los modelos aptos para interiores: el Castillo Baby pide 3.2 m de altura libre y en el Gusanitos se confirma al cotizar.
 - Hay opciones intermedias: casa de un familiar, área común, azotea o jardín de eventos.
 
 No hay una respuesta correcta para todos, sino una correcta para tu número de invitados, tu espacio, tu presupuesto y la temporada. En ambos casos el inflable funciona si hay espacio, altura libre y contacto de luz.
@@ -93,7 +93,7 @@ Lo que tienes que resolver:
 
 ### ¿Y si vives en departamento?
 
-La sala sólo funciona si el techo tiene la altura libre suficiente; los modelos aptos para interiores piden 3.2 m. La mayoría de los departamentos tienen techos más bajos. Antes de descartar la casa, revisa la guía de [inflable para departamento según la altura del techo](/blog/inflable-para-departamento-altura-techo-cdmx/). En zonas con muchos edificios sin jardín, como [Polanco y sus calles de departamentos](/cobertura/polanco/), lo común es usar el área común del edificio, la casa de un familiar o un salón.
+La sala sólo funciona si el techo tiene la altura libre suficiente; el Castillo Baby pide 3.2 m y en el Gusanitos se confirma al cotizar. La mayoría de los departamentos tienen techos más bajos. Antes de descartar la casa, revisa la guía de [inflable para departamento según la altura del techo](/blog/inflable-para-departamento-altura-techo-cdmx/). En zonas con muchos edificios sin jardín, como [Polanco y sus calles de departamentos](/cobertura/polanco/), lo común es usar el área común del edificio, la casa de un familiar o un salón.
 
 ### ¿Y la azotea?
 
@@ -126,7 +126,7 @@ Sí, y muchas veces son la mejor respuesta:
 |---|---|---|
 | Casa de un familiar con jardín | Tu casa no tiene espacio exterior | Contacto, piso, acceso y vecinos |
 | Área común del condominio | Vives en privada o unidad habitacional | Permiso de la administración, horario y contacto |
-| Salón de usos múltiples del edificio | Lluvia o frío; edificio sin jardín | Altura libre de 3.2 m para modelos de interior |
+| Salón de usos múltiples del edificio | Lluvia o frío; edificio sin jardín | Altura libre suficiente para modelos de interior (3.2 m el Castillo Baby) |
 | Azotea | Casa sin patio pero con azotea plana | Acceso, pretiles, piso y contacto |
 | Jardín de eventos o quinta | Lista grande, quieres espacio exterior | Proveedores externos, horario y contacto |
 | Parque público | Espacio abierto, presupuesto corto | Permiso con la alcaldía o la administración del parque; contacto de luz |
@@ -151,7 +151,7 @@ El traslado del inflable se cobra según la alcaldía o municipio, así que tamb
 | Patio chico o azotea | Castillo Baby, Gusanitos | Huella pequeña: 2.5 × 2 m y 5 × 3 m |
 | Jardín mediano | Dragones Rojos, Jungla, Castillo de Princesas | 5 × 3 m a 5 × 3.30 m, exterior |
 | Jardín grande o quinta | Barco Pirata, Extremo, Castillo Blanco | Huellas de 6 × 3.5 m a 5 × 7 m |
-| Salón techado o terraza cubierta | Castillo Baby, Gusanitos | Únicos aptos para interiores; piden 3.2 m libres |
+| Salón techado o terraza cubierta | Castillo Baby, Gusanitos | Únicos aptos para interiores; Castillo Baby pide 3.2 m libres, Gusanitos se confirma al cotizar |
 
 Para una fiesta de niñas en jardín o salón con área descubierta, el [Castillo de Princesas, para niñas y niños de 2 a 10 años](/inflables/castillo-princesas/), funciona bien. Si el salón sólo tiene área techada, el catálogo de [inflables para interiores](/inflables/para-interiores/) te dice cuáles entran.
 

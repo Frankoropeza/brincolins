@@ -26,13 +26,13 @@ faqs:
   - question: "¿Quién cuida a los niños en la zona infantil?"
     answer: "Una persona designada que no esté atendiendo la fiesta: una niñera contratada por la familia, un familiar de confianza que acepte el rol o un turno entre papás. Esa persona vigila el inflable todo el tiempo. BRINCOLINS instala y recoge el inflable, pero la supervisión durante el evento corresponde a un adulto de la fiesta."
   - question: "¿Qué inflable conviene para una zona infantil en una boda civil?"
-    answer: "Depende de las edades y del espacio. Para niños de 1 a 3 años, el Castillo Baby ($1,400). Para grupos mezclados de 2 a 8 años, Gusanitos ($1,600), que además puede ir bajo techo con 3.2 m de altura libre. Si la decoración es blanca o formal y hay jardín amplio, el Castillo Blanco ($2,600) se integra sin romper la estética."
+    answer: "Depende de las edades y del espacio. Para niños de 1 a 3 años, el Castillo Baby ($1,400). Para grupos mezclados de 2 a 8 años, Gusanitos ($1,600), que además puede ir bajo techo; si cabe en tu espacio se confirma según la altura del lugar al cotizar. Si la decoración es blanca o formal y hay jardín amplio, el Castillo Blanco ($2,600) se integra sin romper la estética."
   - question: "¿Cuántas horas debe estar abierta la zona infantil?"
     answer: "La renta cubre un evento de 4 a 6 horas, que suele coincidir con la parte de la fiesta en la que los niños están despiertos y activos. Conviene abrir la zona desde la llegada de invitados y cerrarla durante la comida o los momentos formales, como el brindis o la ceremonia, para que los niños coman y la persona encargada descanse."
   - question: "¿Los adultos pueden usar el inflable de la zona infantil?"
     answer: "No en los modelos infantiles. Sólo el Extremo, el Barco Pirata y el Castillo Blanco se rentan también para adolescentes y adultos, siempre por turnos y con supervisión. En una zona infantil lo recomendable es que el inflable sea sólo para niños durante toda la fiesta, para evitar mezclas de tamaño y peso."
   - question: "¿Se puede montar la zona infantil bajo techo si llueve?"
-    answer: "Sólo con modelos aptos para interiores: el Castillo Baby y Gusanitos, que piden 3.2 m de altura libre. Los demás son de exterior. Si la lluvia impide instalar, la fecha del inflable se reprograma sin costo; conviene tener definido un rincón techado con altura suficiente como plan alterno."
+    answer: "Sólo con modelos aptos para interiores: el Castillo Baby, que pide 3.2 m de altura libre, y Gusanitos, cuya instalación bajo techo se confirma según la altura del lugar al cotizar. Los demás son de exterior. Si la lluvia impide instalar, la fecha del inflable se reprograma sin costo; conviene tener definido un rincón techado con altura suficiente como plan alterno."
 howto:
   name: "Cómo montar una zona infantil con inflable en una fiesta de adultos"
   totalTime: "PT1H"
@@ -133,12 +133,12 @@ Antes de elegir, pide a las familias invitadas cuántos niños llevarán y de qu
 | Edades de los niños invitados | Modelo sugerido | Precio | Medidas | Notas |
 |---|---|---|---|---|
 | Sobre todo de 1 a 3 años | Castillo Baby | $1,400 | 2.5 × 2 × 2 m | Apto para interiores con 3.2 m de altura libre |
-| Mezcla de 2 a 8 años | Gusanitos | $1,600 | 5 × 3 × 2.80 m | Túneles con varias entradas; apto para interiores con 3.2 m |
+| Mezcla de 2 a 8 años | Gusanitos | $1,600 | 5 × 3 × 2.80 m | Túnel de entrada, zona de brinco y resbaladilla doble; apto para interiores (altura a confirmar al cotizar) |
 | De 2 a 10 años, fiesta con estética cuidada | Castillo de Princesas | $1,800 | 5 × 3.30 × 3 m | Exterior, 4.2 m de altura libre |
 | De 3 a 8 años, jardín mediano | Dragones Rojos o Jungla | $1,600 | 5 × 3 m de base | Exterior, 4.5 m y 4.2 m de altura libre |
 | De 3 a 12 años, boda o decoración blanca | Castillo Blanco | $2,600 | 5 × 7 × 4 m | Exterior, 4.7 m; se integra a decoración formal |
 
-Para la mayoría de las fiestas de adultos con niños de varias edades, el [inflable Gusanitos para grupos mezclados](/inflables/gusanitos/) es una elección práctica: sus túneles con varias entradas y salidas evitan filas largas y funcionan con edades de 2 a 8 años. Si la mayoría son bebés y niños que apenas caminan, el [Castillo Baby para niños de 1 a 3 años](/inflables/mini-castillo/) es el adecuado por tamaño y altura. Puedes ver todas las opciones en la [categoría de inflables para niños](/inflables/para-ninos/).
+Para la mayoría de las fiestas de adultos con niños de varias edades, el [inflable Gusanitos para grupos mezclados](/inflables/gusanitos/) es una elección práctica: los niños entran por un túnel, brincan bajo los arcos y bajan por una resbaladilla doble, así que el grupo se reparte a lo largo de sus 5 m y funciona con edades de 2 a 8 años. Si la mayoría son bebés y niños que apenas caminan, el [Castillo Baby para niños de 1 a 3 años](/inflables/mini-castillo/) es el adecuado por tamaño y altura. Puedes ver todas las opciones en la [categoría de inflables para niños](/inflables/para-ninos/).
 
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")

@@ -32,7 +32,7 @@ faqs:
   - question: "¿La temática safari funciona para niños y niñas por igual?"
     answer: "Sí. A casi todos los niños les atraen los animales de la selva, así que la temática funciona bien con grupos mixtos y de edades distintas. Por eso es una opción segura cuando la lista de invitados es variada."
   - question: "¿Jungla se puede instalar dentro de un salón?"
-    answer: "Normalmente no. Jungla mide 2.50 m de alto y necesita 4.2 m de altura libre, así que es un modelo para exterior. Si la fiesta safari será bajo techo, Gusanitos (2 a 8 años, $1,600) necesita 3.2 m de altura libre y es apto para interiores."
+    answer: "Normalmente no. Jungla mide 2.50 m de alto y necesita 4.2 m de altura libre, así que es un modelo para exterior. Si la fiesta safari será bajo techo, Gusanitos (2 a 8 años, $1,600) es apto para interiores; si cabe se confirma según la altura del lugar al cotizar."
   - question: "¿Qué pasa si mi jardín tiene desnivel o tierra suelta?"
     answer: "El inflable necesita una superficie plana y despejada, sin vidrio ni objetos punzantes. Manda una foto del jardín al cotizar para revisar si hay un punto viable; si no lo hay, conviene buscar otra área, como un patio de cemento o una explanada."
 ---
@@ -42,7 +42,7 @@ Para una fiesta temática safari con inflable, elige el Jungla como pieza centra
 **Puntos clave**
 
 - El [inflable Jungla](/inflables/mini-jungla/) mide 5 × 3 × 2.50 m y pide 4.2 m de altura libre: va al aire libre.
-- Si la fiesta es bajo techo, Gusanitos cabe con 3.2 m de altura libre.
+- Si la fiesta es bajo techo, Gusanitos es apto para interiores; se confirma según la altura del lugar al cotizar.
 - La decoración rodea el inflable; nada encima ni en la entrada.
 - Las actividades de explorador van fuera del inflable y la pintura de caras, después del primer turno de brinco.
 
@@ -88,7 +88,7 @@ Los tres modelos de $1,600 tienen un tamaño parecido, así que la decisión dep
 | Modelo | Medidas | Edades | Altura libre | Bajo techo | Cómo encaja en un safari |
 |---|---|---|---|---|---|
 | Jungla | 5 × 3 × 2.50 m | 3 a 8 años | 4.2 m | No | Es el que lleva animales y selva en el diseño |
-| Gusanitos | 5 × 3 × 2.80 m | 2 a 8 años | 3.2 m | Sí | Colores tropicales; buena opción si hay que meterlo a un salón |
+| Gusanitos | 5 × 3 × 2.80 m | 2 a 8 años | Se confirma al cotizar | Sí | Colores tropicales; buena opción si hay que meterlo a un salón |
 | [Dragones Rojos](/inflables/dragones-rojos/) | 5 × 3 × 2.80 m | 3 a 8 años | 4.5 m | No | Funciona si el safari se mezcla con dinosaurios o criaturas |
 
 Si dudas entre ellos, la [comparativa de los inflables de $1,600](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/) entra en más detalle. Y si el festejado prefiere dinosaurios a leones, la guía de [fiesta de dinosaurios con inflable](/blog/fiesta-de-dinosaurios-con-inflable-cdmx/) propone otra decoración con el mismo modelo.

@@ -6,7 +6,7 @@ faqs:
   - question: "Mi torre en Santa Fe pide registrar con anticipación a cualquier proveedor, ¿qué datos nos mandan?"
     answer: "Al confirmar la reserva te enviamos los nombres del equipo de instalación y los datos del vehículo para que los registres en recepción o seguridad. Si la torre pide algún documento adicional, como póliza o carta responsiva, avísanos al cotizar para revisar si podemos cubrirlo."
   - question: "¿Se puede instalar el inflable en el salón de usos múltiples de un edificio de Polanco o Santa Fe?"
-    answer: "Solo si el salón tiene la altura libre que pide el modelo. El Castillo Baby y los Gusanitos son los aptos bajo techo y necesitan 3.2 m. Mide del piso al punto más bajo del techo, incluyendo lámparas o plafones, y mándanos el dato con una foto."
+    answer: "Solo si el salón tiene la altura libre que pide el modelo. El Castillo Baby y los Gusanitos son los aptos bajo techo: el Castillo Baby necesita 3.2 m y para los Gusanitos se confirma según la altura del lugar al cotizar. Mide del piso al punto más bajo del techo, incluyendo lámparas o plafones, y mándanos el dato con una foto."
 ---
 Esta página cubre tres zonas que comparten frontera pero no tipo de vivienda. Polanco es sobre todo departamento: edificios de cinco a quince pisos con roof garden, terraza privada o salón de usos múltiples. Lomas de Chapultepec y Bosques de las Lomas son residencias con jardín detrás de una caseta. Santa Fe son torres con amenidades, jardines en podio y reglas estrictas para proveedores. La logística y el modelo cambian mucho entre una y otra.
 
@@ -31,7 +31,7 @@ Las calles de Lomas tienen muchas curvas y pendientes, y varias secciones operan
 
 En Santa Fe las fiestas se hacen en el jardín del podio, en la terraza del edificio o en el salón de usos múltiples. Las torres suelen exigir registro de proveedores con anticipación, horario de carga y descarga, y a veces que el equipo entre por un acceso específico del estacionamiento. Pide a la administración su reglamento para eventos antes de reservar fecha. Si la fiesta es en un área común, la guía de [fiesta en privada o condominio](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/) explica cómo plantearla.
 
-Para salones de usos múltiples bajo techo solo funcionan los [inflables para interiores](/inflables/para-interiores/), y únicamente si hay 3.2 m de altura libre.
+Para salones de usos múltiples bajo techo solo funcionan los [inflables para interiores](/inflables/para-interiores/), y únicamente si hay la altura libre que pide el modelo (3.2 m para el Castillo Baby; para los Gusanitos se confirma al cotizar).
 
 ### Resumen por tipo de espacio
 
@@ -40,7 +40,7 @@ Para salones de usos múltiples bajo techo solo funcionan los [inflables para in
 | Roof garden en Polanco | Área libre sin muebles, barandal, contacto | Castillo Baby o Gusanitos; mediano si hay espacio |
 | Jardín en Lomas o Bosques | Área plana real, árboles, escalones | Castillo Blanco, Barco Pirata o Extremo |
 | Jardín de podio en Santa Fe | Reglamento y registro de proveedores | Modelo mediano como Castillo de Princesas |
-| Salón de usos múltiples | Altura libre de 3.2 m | Castillo Baby o Gusanitos |
+| Salón de usos múltiples | Altura libre de 3.2 m para el Castillo Baby; Gusanitos, se confirma al cotizar | Castillo Baby o Gusanitos |
 
 Si los invitados son de edades muy distintas, por ejemplo bebés y niños de 10 años en la misma fiesta, conviene separar: un modelo chico para los pequeños y uno mediano o grande para los mayores, siempre que el espacio lo permita.
 

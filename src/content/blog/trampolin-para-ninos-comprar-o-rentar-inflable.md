@@ -132,7 +132,7 @@ Cada modelo tiene medidas y altura libre fijas. Estos son los que suelen elegir 
 | Modelo | Medidas | Altura libre | Edades | Precio por evento |
 |---|---|---|---|---|
 | Castillo Baby | 2.5 × 2 × 2 m | 3.2 m | 1 a 3 años | $1,400 |
-| Gusanitos | 5 × 3 × 2.80 m | 3.2 m | 2 a 8 años | $1,600 |
+| Gusanitos | 5 × 3 × 2.80 m | Se confirma al cotizar | 2 a 8 años | $1,600 |
 | Dragones Rojos | 5 × 3 × 2.80 m | 4.5 m | 3 a 8 años | $1,600 |
 | Castillo de Princesas | 5 × 3.30 × 3 m | 4.2 m | 2 a 10 años | $1,800 |
 
@@ -208,7 +208,7 @@ Ese último caso es más común de lo que parece. Si ya tienes cama elástica en
 Si pensabas comprar un trampolín para niños para el cumpleaños, estos modelos cubren lo que buscabas sin quedarte con un juego permanente:
 
 - **Para niños de 1 a 3 años:** Castillo Baby ($1,400), apto para interiores.
-- **Para niños de 2 a 8 años con poca altura disponible:** Gusanitos ($1,600), con 3.2 m de altura libre y apto para interiores.
+- **Para niños de 2 a 8 años en un espacio cerrado:** Gusanitos ($1,600), apto para interiores; se confirma según la altura del lugar al cotizar.
 - **Para niños de 3 a 8 años en jardín:** el [inflable Dragones Rojos](/inflables/dragones-rojos/) ($1,600), con resbaladilla integrada.
 - **Para grupos mixtos o niños de hasta 12 años:** Barco Pirata ($2,300), Extremo ($2,500) o Castillo Blanco ($2,600).
 

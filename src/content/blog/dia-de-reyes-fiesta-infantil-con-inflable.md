@@ -38,7 +38,7 @@ Para una fiesta de Día de Reyes con inflable, elige el 6 de enero o el fin de s
 - En 2027 el 6 de enero cae en miércoles; muchas familias prefieren el fin de semana anterior o el siguiente.
 - El horario de mediodía aprovecha el sol; la rosca va cuando empieza a bajar la temperatura.
 - La rosca se parte en la mesa, nunca dentro del inflable, y con niños pequeños se vigila el muñeco.
-- Gusanitos y Castillo Baby son aptos para interiores si hace mucho frío (3.2 m de altura libre).
+- Gusanitos y Castillo Baby son aptos para interiores si hace mucho frío (3.2 m de altura libre el Castillo Baby; la del Gusanitos se confirma al cotizar).
 - Enero llega pegado a la temporada alta de diciembre, así que conviene apartar con tiempo.
 
 El 6 de enero tiene una ventaja sobre cualquier cumpleaños: los niños ya traen la emoción puesta. Despertaron con juguetes nuevos, la familia está de buen humor y la rosca es pretexto para reunirse. Pero enero tiene sus reglas: hace frío, oscurece temprano y la fecha cae justo después de la temporada más pedida del año. Aquí tienes cómo resolver cada una.
@@ -135,7 +135,7 @@ Para una fiesta de Reyes con tema de corona y castillo, [Dragones Rojos, con dra
 ![Inflable Dragones Rojos instalado en el patio de una escuela para la kermés](/img/inflables/dragones-rojos/dragones-rojos-kermes-escolar.avif "Dragones Rojos en una kermés escolar")
 ![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
-Si el frío te preocupa mucho, recuerda que el Gusanitos y el Castillo Baby son aptos para interiores y piden 3.2 m de altura libre. Un garage techado o una terraza cubierta resuelven la tarde.
+Si el frío te preocupa mucho, recuerda que el Gusanitos y el Castillo Baby son aptos para interiores. El Castillo Baby pide 3.2 m de altura libre; en el Gusanitos se confirma según la altura del lugar al cotizar. Un garage techado o una terraza cubierta resuelven la tarde.
 
 ## ¿Y si la fiesta de Reyes es en la escuela o en la empresa?
 

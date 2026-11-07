@@ -84,11 +84,13 @@ const ctaBarItems = [
 
 /* Medidas sueltas para las cifras de "Medidas y espacio": "6×3.5×3.80m" → [6, 3.5, 3.80]. */
 const [largo, ancho, alto] = canon.size.replace(/m$/, "").split("×");
+const alturaConCifra = /^\d/.test(canon.heightClearance);
 const medidas = [
   { valor: largo, label: "de largo" },
   { valor: ancho, label: "de ancho" },
   { valor: alto, label: "de alto" },
-  { valor: canon.heightClearance.replace(/\s*m$/, ""), label: "altura libre" },
+  /* La altura libre solo va como cifra si la ficha la publica; si dice "Se confirma al cotizar", se omite aquí. */
+  ...(alturaConCifra ? [{ valor: canon.heightClearance.replace(/\s*m$/, ""), label: "altura libre" }] : []),
 ];
 const IDEA_TONOS = ["durazno", "cielo", "menta", "lila", "mango"];
 
@@ -225,9 +227,11 @@ const sidebarIndice = [
         badge="Especificaciones"
         title={`¿Cabe ${elN} en tu espacio?`}
         subtitle="Medidas exactas, área libre necesaria y qué hace falta en el domicilio."
-        copy1={`${elN.charAt(0).toUpperCase() + elN.slice(1)} mide ${canon.size} y necesita ${canon.heightClearance} de altura despejada. ${/cotizar/i.test(canon.spaceRequired) ? "El área libre exacta se confirma al cotizar" : `Pide un área libre de ${canon.spaceRequired}`}: incluye el espacio de anclaje y la zona de seguridad alrededor del inflable, donde no puede haber muros, ramas ni cables.`}
+        copy1={`${elN.charAt(0).toUpperCase() + elN.slice(1)} mide ${canon.size}${alturaConCifra ? ` y necesita ${canon.heightClearance} de altura despejada` : "; la altura despejada que pide se confirma al cotizar según el lugar"}. ${/cotizar/i.test(canon.spaceRequired) ? "El área libre exacta se confirma al cotizar" : `Pide un área libre de ${canon.spaceRequired}`}: incluye el espacio de anclaje y la zona de seguridad alrededor del inflable, donde no puede haber muros, ramas ni cables.`}
         copy2={canon.indoor
-          ? `Con ${canon.heightClearance} de altura libre, es uno de los dos modelos aptos para bajo techo: funciona en salones, terrazas cubiertas y departamentos cuyo techo alcance esa altura.`
+          ? (alturaConCifra
+            ? `Con ${canon.heightClearance} de altura libre, es uno de los dos modelos aptos para bajo techo: funciona en salones, terrazas cubiertas y departamentos cuyo techo alcance esa altura.`
+            : `Es uno de los dos modelos aptos para bajo techo. La instalación en interiores se confirma al cotizar según la altura y las condiciones del lugar: mándanos la altura del techo, medida al punto más bajo.`)
           : `Por su altura necesita instalarse al aire libre o en un salón con techo alto. Si tu evento es bajo techo, compara la altura del techo con la altura del modelo y confirma el espacio de instalación al cotizar.`}
       />
 

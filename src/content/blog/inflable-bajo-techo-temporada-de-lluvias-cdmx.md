@@ -1,7 +1,7 @@
 ---
 title: "Inflable bajo techo en temporada de lluvias: qué medir"
 h1: "Inflable bajo techo en temporada de lluvias: terraza, carpa, garage o salón en CDMX"
-description: "Qué inflable va bajo techo en temporada de lluvias en CDMX, cómo medir los 3.2 m de altura libre y qué hacer si llueve. Revisa tu espacio y cotiza."
+description: "Qué inflable va bajo techo en temporada de lluvias en CDMX, cómo medir la altura libre y qué hacer si llueve. Revisa tu espacio y cotiza."
 excerpt: "Si tu fiesta cae entre junio y septiembre, el aguacero de la tarde también viene. Mira qué inflable entra bajo techo y cómo medir tu espacio antes de apartar."
 publishDate: "2026-10-01"
 updatedDate: "2026-11-06"
@@ -22,7 +22,7 @@ tags:
   - "gusanitos"
 faqs:
   - question: "¿Qué inflable se puede poner dentro de una casa?"
-    answer: "Sólo dos modelos del catálogo son aptos para interiores: el Gusanitos, para niños de 2 a 8 años, y el Castillo Baby, para niños de 1 a 3 años. Los dos piden 3.2 m de altura libre en toda el área de instalación. Los otros seis modelos se instalan únicamente al aire libre."
+    answer: "Sólo dos modelos del catálogo son aptos para interiores: el Gusanitos, para niños de 2 a 8 años, y el Castillo Baby, para niños de 1 a 3 años. El Castillo Baby pide 3.2 m de altura libre en toda el área de instalación; en el Gusanitos se confirma según la altura del lugar al cotizar. Los otros seis modelos se instalan únicamente al aire libre."
   - question: "¿Se puede instalar un inflable dentro de una carpa?"
     answer: "Sí, siempre que la carpa deje la altura libre del modelo en las orillas y bajo los travesaños, no sólo en el pico central. La carpa se renta con otro proveedor; pídele esa medida y compártela al cotizar para confirmar que el inflable entra sin rozar la lona."
   - question: "¿Cuándo es la temporada de lluvias en la Ciudad de México?"
@@ -32,14 +32,14 @@ faqs:
   - question: "¿Qué superficie necesita un inflable en interiores?"
     answer: "Una superficie plana y despejada, sin vidrio ni objetos punzantes. El concreto de un garage, la loseta de una terraza o el piso de un salón funcionan bien si están limpios y sin desniveles. Si hay un escalón o una jardinera empotrada, descríbelo al cotizar."
   - question: "¿Puedo rentar dos inflables para el mismo espacio techado?"
-    answer: "Sí, cuando el espacio lo permite. El Gusanitos y el Castillo Baby piden la misma altura libre de 3.2 m, así que pueden compartir techo y cubrir juntos de 1 a 8 años. El espacio libre que necesita cada uno se confirma al cotizar con tus medidas."
+    answer: "Sí, cuando el espacio lo permite. El Gusanitos y el Castillo Baby son los dos aptos para interiores, así que pueden compartir techo y cubrir juntos de 1 a 8 años. La altura y el espacio libre que necesita cada uno se confirman al cotizar con tus medidas."
 ---
 
-Para la temporada de lluvias en CDMX, el inflable bajo techo indicado es el Gusanitos (2 a 8 años, $1,600) o el Castillo Baby (1 a 3 años, $1,400). Los dos piden 3.2 m de altura libre medidos en el punto más bajo del techo, una toma de 110 V a menos de 20 m y piso plano. Los otros seis modelos son solo para exterior.
+Para la temporada de lluvias en CDMX, el inflable bajo techo indicado es el Gusanitos (2 a 8 años, $1,600) o el Castillo Baby (1 a 3 años, $1,400). Los dos piden una toma de 110 V a menos de 20 m y piso plano; el Castillo Baby necesita 3.2 m de altura libre medidos en el punto más bajo del techo, y en el Gusanitos la altura se confirma según el lugar al cotizar. Los otros seis modelos son solo para exterior.
 
 **Puntos clave**
 
-- Solo el Gusanitos y el Castillo Baby se instalan bajo techo; ambos piden 3.2 m de altura libre.
+- Solo el Gusanitos y el Castillo Baby se instalan bajo techo; el Castillo Baby pide 3.2 m de altura libre y en el Gusanitos se confirma al cotizar.
 - La altura se mide debajo de vigas, candiles y travesaños, no en el centro del cuarto.
 - Terraza, carpa, garage o salón funcionan si cumplen altura, piso parejo y corriente cerca.
 - Si llueve con un modelo de exterior instalado: niños fuera, motor apagado si truena y lona seca antes de reabrir.
@@ -57,14 +57,14 @@ El problema no es sólo mojarse. Un inflable de exterior con lluvia se pone resb
 
 ## ¿Qué inflable bajo techo puedes rentar y cuál descartar?
 
-Puedes rentar dos modelos bajo techo: el Gusanitos y el Castillo Baby, ambos con 3.2 m de altura libre. Los otros seis son sólo para exterior, aunque algunos parezcan bajos. Lo que manda es la altura libre que pide cada modelo y la indicación del catálogo, no sólo su alto.
+Puedes rentar dos modelos bajo techo: el Gusanitos y el Castillo Baby. El Castillo Baby pide 3.2 m de altura libre; en el Gusanitos, la altura se confirma según tu espacio al cotizar. Los otros seis son sólo para exterior, aunque algunos parezcan bajos. Lo que manda es la altura libre que pide cada modelo y la indicación del catálogo, no sólo su alto.
 
-Esta tabla compara los ocho modelos por medidas, altura libre y uso en interiores. La conclusión práctica: si tu techo no da 3.2 m libres, ningún modelo entra.
+Esta tabla compara los ocho modelos por medidas, altura libre y uso en interiores. La conclusión práctica: si tu techo no da 3.2 m libres, el Castillo Baby no entra, y para el Gusanitos la altura se confirma según tu espacio al cotizar.
 
 | Modelo | Medidas (largo × ancho × alto) | Altura libre necesaria | ¿Interiores? | Edades | Precio neto |
 |---|---|---|---|---|---|
 | Castillo Baby | 2.5 × 2 × 2 m | 3.2 m | Sí | 1 a 3 años | $1,400 |
-| Gusanitos | 5 × 3 × 2.80 m | 3.2 m | Sí | 2 a 8 años | $1,600 |
+| Gusanitos | 5 × 3 × 2.80 m | Se confirma al cotizar | Sí | 2 a 8 años | $1,600 |
 | Jungla | 5 × 3 × 2.50 m | 4.2 m | No, sólo exterior | 3 a 8 años | $1,600 |
 | Dragones Rojos | 5 × 3 × 2.80 m | 4.5 m | No, sólo exterior | 3 a 8 años | $1,600 |
 | Castillo de Princesas | 5 × 3.30 × 3 m | 4.2 m | No, sólo exterior | 2 a 10 años | $1,800 |
@@ -74,18 +74,18 @@ Esta tabla compara los ocho modelos por medidas, altura libre y uso en interiore
 
 Fíjate en la Jungla. Es más baja que el Gusanitos y aun así va sólo al aire libre. No adivines con la cinta en la mano. El dato que te sirve es el de la ficha.
 
-### Gusanitos: túneles que caben bajo techo
+### Gusanitos: túnel, brinco y resbaladilla bajo techo
 
-El [Gusanitos, el circuito que entra bajo techo](/inflables/gusanitos/), mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años y se instala en 20 minutos. Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas. Bajo techo eso ayuda, porque el juego se reparte a lo largo del recorrido en lugar de amontonarse en un solo punto.
+El [Gusanitos, el recorrido corto que entra bajo techo](/inflables/gusanitos/), mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años y se instala en 20 minutos. Los niños entran por un túnel verde, brincan bajo arcos morados y turquesa y bajan por una resbaladilla doble con dos gusanos amarillos. Bajo techo eso ayuda, porque el grupo se reparte a lo largo de sus 5 m en lugar de amontonarse en un solo punto.
 
 También funciona con grupos de edades mezcladas, que es justo lo que junta una fiesta familiar en casa. Si tu lista va de primos de 2 años a compañeros de 8, organiza turnos por edad antes de armar el programa. También es el inflable que mejor encaja en una [pijamada infantil con inflable bajo techo](/blog/pijamada-infantil-con-inflable-ideas/), siempre usado por la tarde y recogido antes de dormir.
 
-![Acercamiento a los gusanos amarillos de antenas verdes del Gusanitos, con una torre morada detrás](/img/inflables/gusanitos/gusanitos-inflable-fiesta.avif)
+![Acercamiento a los gusanos amarillos de antenas verdes del Gusanitos, con los arcos morados detrás](/img/inflables/gusanitos/gusanitos-inflable-fiesta.avif)
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 ### Castillo Baby: el plan para bebés y espacios chicos
 
-Si la fiesta es de bebés o tu espacio techado es reducido, mira el [Castillo Baby, de 1 a 3 años](/inflables/mini-castillo/). Mide 2.5 × 2 × 2 m, pide los mismos 3.2 m de altura libre, se instala en 15 minutos y cuesta $1,400. Es compacto y está pensado para interiores, terrazas y espacios reducidos.
+Si la fiesta es de bebés o tu espacio techado es reducido, mira el [Castillo Baby, de 1 a 3 años](/inflables/mini-castillo/). Mide 2.5 × 2 × 2 m, pide 3.2 m de altura libre, se instala en 15 minutos y cuesta $1,400. Es compacto y está pensado para interiores, terrazas y espacios reducidos.
 
 ![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 ![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
@@ -94,7 +94,7 @@ Los dos pueden compartir techo. Así cubres de 1 a 8 años y nadie se queda mira
 
 ## ¿Cuánta altura libre necesita un inflable para interiores?
 
-Necesita 3.2 m de altura libre, medidos en el punto más bajo del techo sobre toda el área donde va el inflable. Dentro de una casa, el error típico no está en el piso: está arriba, en la viga que nadie vio.
+El Castillo Baby necesita 3.2 m de altura libre, medidos en el punto más bajo del techo sobre toda el área donde va el inflable; en el Gusanitos, la altura se confirma según tu espacio al cotizar. Dentro de una casa, el error típico no está en el piso: está arriba, en la viga que nadie vio.
 
 No basta con medir el centro del cuarto, porque la viga, el candil o el ventilador que cuelga en una esquina es lo que de verdad decide si el inflable cabe ahí o si hay que buscar otro lugar. Mide con cinta, no al ojo. Anota cada dato y mándalo con una foto cuando cotices. Te toma cinco minutos. Te ahorra un mal rato.
 
@@ -123,7 +123,7 @@ Avisa si para llegar hay escaleras, pasillos angostos o puertas chicas. Con eso 
 
 ## ¿Terraza, carpa, garage o salón: qué techo te conviene?
 
-Te conviene el techo que dé 3.2 m libres en toda el área, tenga piso parejo y una toma de corriente cerca. Cada opción resuelve la lluvia de forma distinta, y cada una tiene un punto débil que conviene revisar antes de apartar la fecha.
+Te conviene el techo que dé la altura libre del modelo en toda el área, tenga piso parejo y una toma de corriente cerca. Cada opción resuelve la lluvia de forma distinta, y cada una tiene un punto débil que conviene revisar antes de apartar la fecha.
 
 ### Terraza techada
 
@@ -137,23 +137,23 @@ Con carpa sobre pasto, el terreno debe estar parejo y sin charcos. Para preparar
 
 ### Garage o cochera
 
-Es de los espacios más prácticos: concreto plano y contacto cerca. Saca los coches desde la víspera y barre a fondo. Mide el techo, porque muchas cocheras son bajas. ¿Tu garage da menos de 3.2 m? Entonces tampoco entra el Castillo Baby, porque los dos modelos piden lo mismo.
+Es de los espacios más prácticos: concreto plano y contacto cerca. Saca los coches desde la víspera y barre a fondo. Mide el techo, porque muchas cocheras son bajas. ¿Tu garage da menos de 3.2 m? Entonces no entra el Castillo Baby; para el Gusanitos, mándanos la medida y lo confirmamos al cotizar.
 
 ### Salón de fiestas
 
 Si no tienes techo propio, un salón te resuelve la lluvia de raíz. Nosotros no rentamos salones, pero en el [directorio de salones en la Ciudad de México](/directorio/cdmx/) puedes buscar opciones. Antes de apartarlo, pide a la administración la altura libre, la ubicación de los contactos y si permiten inflables.
 
-> **¿Tu terraza da los 3.2 m?** Mándanos la medida del punto más bajo del techo y una foto; te decimos si entra el Gusanitos antes de que apartes. [Pregunta por WhatsApp si cabe](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20el%20Gusanitos%20cabe%20bajo%20techo%20en%20mi%20terraza)
+> **¿Tu terraza da la altura?** Mándanos la medida del punto más bajo del techo y una foto; te decimos si entra el Gusanitos antes de que apartes. [Pregunta por WhatsApp si cabe](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20el%20Gusanitos%20cabe%20bajo%20techo%20en%20mi%20terraza)
 
 ## ¿Cómo repartes inflable, mesa e invitados en un espacio cerrado?
 
-Pon el inflable al fondo, la mesa de los niños a un lado y deja un pasillo libre entre los dos para que los adultos circulen sin cruzar frente a las salidas. Bajo techo todo comparte espacio, así que el plano se decide antes de que suene el timbre.
+Pon el inflable al fondo, la mesa de los niños a un lado y deja un pasillo libre entre los dos para que los adultos circulen sin cruzar frente a la resbaladilla. Bajo techo todo comparte espacio, así que el plano se decide antes de que suene el timbre.
 
-Piensa en tu cochera con veinte invitados. Si la mesa queda frente a una boca del túnel, cada niño que sale choca con un plato. Si queda a un lado, nadie se estorba. Esto es lo que funciona:
+Piensa en tu cochera con veinte invitados. Si la mesa queda frente a la resbaladilla, cada niño que baja choca con un plato. Si queda a un lado, nadie se estorba. Esto es lo que funciona:
 
-- **El inflable al fondo**, lejos de la entrada y de la comida, para que nadie pase frente a las salidas de los túneles.
+- **El inflable al fondo**, lejos de la entrada y de la comida, para que nadie pase frente a la entrada del túnel ni al pie de la resbaladilla.
 - **La mesa de los niños a un costado.** La [mesa infantil con 10 sillas](/servicios/mobiliario-para-fiestas/) mide 1.8 × 0.5 m y cuesta $550 junto con un inflable.
-- **Un pasillo libre** entre el inflable y el resto de la fiesta, para que quien supervisa vea todas las entradas y salidas.
+- **Un pasillo libre** entre el inflable y el resto de la fiesta, para que quien supervisa vea el túnel de entrada y la resbaladilla.
 - **La piñata fuera del área**, o en un momento en que el inflable esté cerrado.
 
 ¿Parte de la fiesta será afuera? Adelanta lo del jardín a la primera mitad de la tarde y deja lo techado para después. Cuando llegue el aguacero, tu fiesta ya estará donde tiene que estar, sin carreras.
@@ -185,7 +185,7 @@ Mientras tanto, mete bajo techo extensiones, regalos y la mesa de dulces. Ningun
 
 No vuelvan a entrar con la lona mojada. Seca la superficie con toallas, sobre todo la entrada, y revisa que no haya agua en la base. Si apagaste el motor, enciéndelo cuando la tormenta haya pasado del todo y espera a que el inflable recupere su forma.
 
-¿Todavía dudas entre un circuito que va bajo techo y un brincolín clásico de exterior? Compara el [circuito de túneles frente a un brincolín de salto](/blog/circuito-de-tuneles-vs-brincolin/) antes de decidir.
+¿Todavía dudas entre un recorrido corto que va bajo techo y un brincolín clásico de exterior? Revisa la [comparativa entre circuito y brincolín](/blog/circuito-de-tuneles-vs-brincolin/) antes de decidir.
 
 ## ¿Y si mejor mueves la fiesta a la mañana?
 
@@ -205,7 +205,7 @@ Un detalle que se olvida bajo techo: el contacto. En terrazas y cocheras el ench
 
 En la colonia Cuauhtémoc, la Roma, la Condesa o Santa María la Ribera, muchas fiestas se hacen en departamentos, azoteas comunes o patios de casas antiguas. Las casas antiguas pueden tener techos altos, pero con vigas o candiles; mide en el punto más bajo. Las coberturas de cada colonia están en [inflables a domicilio en Cuauhtémoc](/cobertura/cuauhtemoc/).
 
-En Azcapotzalco, en colonias como Clavería, San Álvaro o El Rosario, son comunes las casas con cochera techada o patio con volado de lámina. La cochera suele ser la opción natural para el Gusanitos, siempre que dé 3.2 m libres y quites el coche con tiempo; revisa [el servicio en Azcapotzalco](/cobertura/azcapotzalco/).
+En Azcapotzalco, en colonias como Clavería, San Álvaro o El Rosario, son comunes las casas con cochera techada o patio con volado de lámina. La cochera suele ser la opción natural para el Gusanitos, siempre que confirmes la altura al cotizar y quites el coche con tiempo; revisa [el servicio en Azcapotzalco](/cobertura/azcapotzalco/).
 
 En Toluca la lluvia llega en los mismos meses, pero por la altitud las tardes son más frescas que en la capital y, ya mojado, el ambiente se enfría rápido. Una cochera o un salón techado suele ser mejor plan que una carpa abierta por los lados. El envío a Toluca va de $400 a $600; los detalles están en [renta de brincolines en Toluca](/cobertura/toluca/).
 

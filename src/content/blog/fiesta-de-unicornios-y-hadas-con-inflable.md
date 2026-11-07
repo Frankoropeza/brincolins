@@ -32,7 +32,7 @@ faqs:
   - question: "¿Puedo usar confeti o diamantina en la fiesta?"
     answer: "Sí, pero lejos del castillo. El confeti y la diamantina se meten en las costuras del inflable y en los ojos de los niños. Déjalos sólo en la mesa de manualidades o en la mesa de dulces, y usa calcomanías, listones y flores de papel cerca del área de juego."
   - question: "¿Qué pasa si mi jardín no tiene la altura libre que pide el castillo?"
-    answer: "Mándanos la medida al cotizar. El Castillo de Princesas pide 4.2 m de altura libre; si tu jardín o terraza tiene menos, revisamos modelos que piden 3.2 m, como el Castillo Baby para niños de 1 a 3 años o Gusanitos para niños de 2 a 8 años."
+    answer: "Mándanos la medida al cotizar. El Castillo de Princesas pide 4.2 m de altura libre; si tu jardín o terraza tiene menos, revisamos modelos aptos para interiores, como el Castillo Baby para niños de 1 a 3 años, que pide 3.2 m, o Gusanitos para niños de 2 a 8 años, cuya altura se confirma según el lugar."
 ---
 
 Una fiesta de unicornios o de hadas combina muy bien con el [castillo inflable rosa con torres decorativas](/inflables/castillo-princesas/), porque el rosa ya es la base de la paleta. Suma dorado y blanco como acentos, decora alrededor del inflable y no encima. Es para niños de 2 a 10 años y cuesta $1,800 netos.
@@ -201,7 +201,7 @@ Si no sabes cuántas horas de renta te convienen o a qué hora empezar, revisa l
 
 El lugar cambia el plan más que la temática. Tres casos frecuentes:
 
-**Departamento o terraza en Polanco.** Muchos edificios tienen roof garden o terraza, pero el Castillo de Princesas pide 4.2 m libres y va sólo en exterior: una pérgola o un toldo lo descartan. Si el espacio es techado o bajo, la fiesta de unicornios se arma igual con el Castillo Baby (1 a 3 años) o el Gusanitos (2 a 8 años), que piden 3.2 m y admiten interiores. Antes de decidir, revisa [qué hay que revisar para un inflable en azotea](/blog/inflable-en-azotea-que-revisar-cdmx/) y la [información de traslado en Polanco](/cobertura/polanco/), que está entre las colonias sin costo adicional de traslado.
+**Departamento o terraza en Polanco.** Muchos edificios tienen roof garden o terraza, pero el Castillo de Princesas pide 4.2 m libres y va sólo en exterior: una pérgola o un toldo lo descartan. Si el espacio es techado o bajo, la fiesta de unicornios se arma igual con el Castillo Baby (1 a 3 años) o el Gusanitos (2 a 8 años), que admiten interiores; el Castillo Baby pide 3.2 m y en el Gusanitos se confirma según la altura del lugar al cotizar. Antes de decidir, revisa [qué hay que revisar para un inflable en azotea](/blog/inflable-en-azotea-que-revisar-cdmx/) y la [información de traslado en Polanco](/cobertura/polanco/), que está entre las colonias sin costo adicional de traslado.
 
 **Casa con jardín en Álvaro Obregón.** En colonias como San Ángel, Las Águilas o Jardines del Pedregal hay jardines con árboles grandes, ideales para la temática de hadas. Mide la altura debajo de las ramas y busca la parte plana del pasto; consulta la [cobertura en Álvaro Obregón](/cobertura/alvaro-obregon/) para el traslado según tu colonia.
 

@@ -80,7 +80,7 @@ La distinción evita dos problemas: diseñar una convocatoria equivocada y poner
 | Familias con bebés y niños mayores | Parcialmente | Separa a los bebés; el Extremo empieza en 3 años |
 | Evento bajo techo | No | El Extremo es sólo para exterior |
 
-Antes de elegir el formato, compara los [inflables con obstáculos para eventos infantiles](/inflables/con-obstaculos/). Ahí se distinguen dos dinámicas: el Extremo para carreras exteriores y Gusanitos para recorrido y exploración. Elegir uno u otro depende del lugar y de las edades, no del nombre de la campaña.
+Antes de elegir el formato, compara los [inflables con obstáculos para eventos infantiles](/inflables/con-obstaculos/). Ahí se distinguen dos dinámicas: el Extremo para carreras exteriores y Gusanitos para un recorrido corto de túnel, brinco y resbaladilla. Elegir uno u otro depende del lugar y de las edades, no del nombre de la campaña.
 
 ## ¿Cómo conviertes el doble carril en una estación de marca sin hacer una fila caótica?
 

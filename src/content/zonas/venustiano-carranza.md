@@ -29,7 +29,7 @@ Venustiano Carranza es una alcaldía de contrastes en pocas cuadras. Al sur est�
 
 ### Si vives en un departamento de unidad
 
-En los conjuntos de Balbuena y en muchos edificios de la alcaldía los departamentos están en edificios de cuatro o cinco pisos sin elevador, y adentro casi nunca hay altura para un inflable: incluso los modelos aptos bajo techo piden 3.2 m libres. Lo práctico es hacer la fiesta en el jardín o estacionamiento de la unidad, a nivel de calle. Dos detalles que ayudan:
+En los conjuntos de Balbuena y en muchos edificios de la alcaldía los departamentos están en edificios de cuatro o cinco pisos sin elevador, y adentro casi nunca hay altura para un inflable: incluso el Castillo Baby, apto bajo techo, pide 3.2 m libres. Lo práctico es hacer la fiesta en el jardín o estacionamiento de la unidad, a nivel de calle. Dos detalles que ayudan:
 
 - Pide a un vecino de planta baja que te preste el contacto eléctrico; así evitas bajar extensiones desde un piso alto.
 - Deja un adulto pendiente del inflable todo el tiempo. En espacios comunes llegan niños de otros departamentos y conviene ordenar turnos.

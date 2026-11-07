@@ -179,7 +179,7 @@ La mesa va a la sombra, bajo un toldo, un árbol o junto a una pared, y a dos o 
 ### Quién lo usa
 
 - El [inflable Jungla](/inflables/mini-jungla/) mide 5 × 3 × 2.50 m, es para niños de 3 a 8 años y lleva dinosaurios, palmeras y colores de selva. Va solo en exterior: jardín, patio o terraza descubierta. Con una mesa en verde y amarillo hace pareja natural.
-- El [inflable Gusanitos](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y es para niños de 2 a 8 años: entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos. Puede ir bajo techo si el lugar tiene al menos 3.2 m de altura libre, y funciona bien con grupos de edades mezcladas.
+- El [inflable Gusanitos](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y es para niños de 2 a 8 años: entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos. Puede ir bajo techo, según la altura del lugar, que se confirma al cotizar, y funciona bien con grupos de edades mezcladas.
 
 ### Corriente
 

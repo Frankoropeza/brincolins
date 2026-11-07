@@ -26,7 +26,7 @@ faqs:
   - question: "¿Qué inflable conviene para una fiesta de granja de 1 año?"
     answer: "El Castillo Baby, pensado para niños de 1 a 3 años. Mide 2.5 × 2 × 2 m, pide 3.2 m de altura libre y es apto para interiores, así que cabe en terrazas, salones y departamentos con techo suficiente. Cuesta $1,400 por evento de 4 a 6 horas."
   - question: "¿Y para niños de kínder de 3 a 5 años?"
-    answer: "Gusanitos, para 2 a 8 años, es un circuito de túneles apto para interiores. Jungla, para 3 a 8 años, tiene palmeras y dinosaurios y va al aire libre. Ambos cuestan $1,600 por evento. Si en la fiesta hay bebés y niños de kínder, Gusanitos cubre mejor el rango."
+    answer: "Gusanitos, para 2 a 8 años, tiene túnel de entrada, zona de brinco y resbaladilla doble, y es apto para interiores. Jungla, para 3 a 8 años, tiene palmeras y dinosaurios y va al aire libre. Ambos cuestan $1,600 por evento. Si en la fiesta hay bebés y niños de kínder, Gusanitos cubre mejor el rango."
   - question: "¿Puedo llevar animales vivos a la fiesta de granja?"
     answer: "No lo recomendamos cuando hay un inflable instalado. El ruido del motor y los gritos estresan a los animales, y se suman riesgos de mordidas, alergias e higiene. Si contratas una granja didáctica por tu cuenta, que tenga su propio espacio separado, su cuidador y lavado de manos. BRINCOLINS no ofrece animales."
   - question: "¿Qué recuerdos dar en una fiesta de granja?"
@@ -64,7 +64,7 @@ La temática de granja no necesita un inflable con vacas pintadas: la decoració
 | Modelo | Edades | Medidas | Altura libre | Interiores | Precio por evento |
 |---|---|---|---|---|---|
 | Castillo Baby | 1 a 3 años | 2.5 × 2 × 2 m | 3.2 m | Sí | $1,400 |
-| Gusanitos | 2 a 8 años | 5 × 3 × 2.80 m | 3.2 m | Sí | $1,600 |
+| Gusanitos | 2 a 8 años | 5 × 3 × 2.80 m | Se confirma al cotizar | Sí | $1,600 |
 | Jungla | 3 a 8 años | 5 × 3 × 2.50 m | 4.2 m | No | $1,600 |
 
 ### Para bebés de 1 a 3 años
@@ -76,7 +76,7 @@ El [Castillo Baby para bebés](/inflables/mini-castillo/) es el modelo pensado p
 
 ### Para preescolar de 3 a 5 años
 
-Aquí hay dos caminos. El [inflable Gusanitos](/inflables/gusanitos/) es un circuito de túneles de colores con varias entradas y salidas: a los niños de kínder les encanta entrar por un lado y salir por otro, y como es apto para interiores sirve si la fiesta es techada. El Jungla, con palmeras y dinosaurios, va al aire libre y le da un toque de animales que combina bien con la granja si tu jardín tiene espacio.
+Aquí hay dos caminos. El [inflable Gusanitos](/inflables/gusanitos/) tiene un túnel verde de entrada, una zona de brinco bajo arcos y una resbaladilla doble con dos gusanos amarillos: a los niños de kínder les encanta entrar por el túnel y bajar por la resbaladilla, y como es apto para interiores sirve si la fiesta es techada. El Jungla, con palmeras y dinosaurios, va al aire libre y le da un toque de animales que combina bien con la granja si tu jardín tiene espacio.
 
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
@@ -201,7 +201,7 @@ Una checklist corta para no olvidar nada:
 
 1. Área del inflable plana, sin vidrio, piedras ni objetos punzantes.
 2. Contacto de 110 V a menos de 20 m del área.
-3. Altura libre suficiente si la fiesta es bajo techo: 3.2 m para Castillo Baby o Gusanitos.
+3. Altura libre suficiente si la fiesta es bajo techo: 3.2 m para Castillo Baby; para Gusanitos se confirma según la altura del lugar al cotizar.
 4. Adulto asignado al inflable durante toda la fiesta; con bebés, un adulto dentro del área.
 5. Turnos separados por estatura: bebés con bebés, kínder con kínder.
 6. Comida cortada en trozos pequeños y lejos del inflable.

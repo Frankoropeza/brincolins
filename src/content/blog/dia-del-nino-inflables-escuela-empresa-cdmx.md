@@ -111,7 +111,7 @@ Esta tabla compara los modelos que mejor se combinan para el Día del Niño. Fí
 | Modelo | Edades | Medidas | Altura libre | ¿Interiores? | Instalación | Precio neto |
 |---|---|---|---|---|---|---|
 | Castillo Baby | 1 a 3 años | 2.5 × 2 × 2 m | 3.2 m | Sí | 15 min | $1,400 |
-| Gusanitos | 2 a 8 años | 5 × 3 × 2.80 m | 3.2 m | Sí | 20 min | $1,600 |
+| Gusanitos | 2 a 8 años | 5 × 3 × 2.80 m | Se confirma al cotizar | Sí | 20 min | $1,600 |
 | Jungla | 3 a 8 años | 5 × 3 × 2.50 m | 4.2 m | No, sólo exterior | 15 min | $1,600 |
 | Extremo | 3 a 12 años | 8 × 4.5 × 3.50 m | 4.5 m | No, sólo exterior | 30 min | $2,500 |
 

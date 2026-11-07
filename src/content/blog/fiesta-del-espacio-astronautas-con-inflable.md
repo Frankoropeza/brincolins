@@ -24,9 +24,9 @@ faqs:
   - question: "¿Qué actividades hacer en una fiesta del espacio para niños?"
     answer: "La más completa es una misión de astronautas por etapas: registro con credencial, entrenamiento de gravedad cero, construcción de un cohete, exploración de planetas y viaje a la estación espacial, que es el inflable. Al final cada niño recibe un certificado de astronauta. Se adapta a cualquier edad cambiando la dificultad de cada etapa."
   - question: "¿Qué inflable combina con una fiesta del espacio?"
-    answer: "BRINCOLINS no tiene un inflable con forma de nave, pero Gusanitos funciona como túnel de la estación espacial y es apto para interiores. Para niños de 1 a 3 años, el Castillo Baby también va bajo techo. Para niños mayores en exterior, el circuito Extremo se presta para un entrenamiento de astronautas por turnos."
+    answer: "BRINCOLINS no tiene un inflable con forma de nave, pero Gusanitos, con su túnel de entrada, funciona como acceso a la estación espacial y es apto para interiores. Para niños de 1 a 3 años, el Castillo Baby también va bajo techo. Para niños mayores en exterior, el circuito Extremo se presta para un entrenamiento de astronautas por turnos."
   - question: "¿Puedo hacer la fiesta del espacio con inflable en un salón?"
-    answer: "Sí, con un modelo apto para interiores. El Castillo Baby y Gusanitos piden 3.2 m de altura libre. Antes de reservar, mide del piso al obstáculo más bajo del salón, incluidas lámparas y vigas, y confirma que haya un contacto de 110 V a menos de 20 m."
+    answer: "Sí, con un modelo apto para interiores. El Castillo Baby pide 3.2 m de altura libre; en el Gusanitos se confirma según la altura del lugar al cotizar. Antes de reservar, mide del piso al obstáculo más bajo del salón, incluidas lámparas y vigas, y confirma que haya un contacto de 110 V a menos de 20 m."
   - question: "¿Qué colores usar en la decoración de una fiesta del espacio?"
     answer: "La paleta más usada es azul marino, negro, plateado y blanco, con acentos en naranja o amarillo para el fuego del cohete y los planetas. Si quieres algo más alegre para niños pequeños, suma morado y turquesa en los planetas."
   - question: "¿Cuánto cuesta el inflable para una fiesta del espacio?"
@@ -41,7 +41,7 @@ Una fiesta del espacio se arma como una misión de astronautas: los invitados re
 
 - La temática no depende de personajes con licencia: planetas, cohetes y estrellas se hacen con papel, globos y luces.
 - La misión de astronautas en cinco etapas ocupa a los niños y le da historia al inflable.
-- Para salón o departamento, Gusanitos ($1,600) y Castillo Baby ($1,400) son aptos para interiores con 3.2 m de altura libre.
+- Para salón o departamento, Gusanitos ($1,600) y Castillo Baby ($1,400) son aptos para interiores; el Castillo Baby pide 3.2 m y en el Gusanitos la altura se confirma al cotizar.
 - En exterior y con niños de 6 a 12 años, el circuito Extremo ($2,500) se vuelve el entrenamiento de astronautas.
 
 ## ¿Por qué una fiesta del espacio funciona tan bien con niños?
@@ -129,15 +129,15 @@ No hay un inflable con forma de nave en el catálogo, pero tres modelos se adapt
 
 | Modelo | Edades | Medidas | Altura libre | Interiores | Precio | Uso en la misión |
 |---|---|---|---|---|---|---|
-| Gusanitos | 2 a 8 años | 5 × 3 × 2.80 m | 3.2 m | Sí | $1,600 | Túneles de la estación espacial |
+| Gusanitos | 2 a 8 años | 5 × 3 × 2.80 m | Se confirma al cotizar | Sí | $1,600 | Túnel de acceso a la estación espacial |
 | Castillo Baby | 1 a 3 años | 2.5 × 2 × 2 m | 3.2 m | Sí | $1,400 | Módulo de los astronautas más pequeños |
 | Extremo | 3 a 12 años | 8 × 4.5 × 3.50 m | 4.5 m | No | $2,500 | Entrenamiento de astronautas con obstáculos |
 
 Precios netos por evento de 4 a 6 horas, con entrega, instalación, motor, sanitización y recolección incluidas. Con factura se agrega 16% de IVA.
 
-### Gusanitos: los túneles de la estación
+### Gusanitos: el túnel de acceso a la estación
 
-El [inflable Gusanitos](/inflables/gusanitos/) es más un circuito que un brincolín: túneles de colores conectados, con varias entradas y salidas. En la historia de la misión, cada túnel es un pasillo de la estación espacial. Funciona con grupos de edades mezcladas de 2 a 8 años y es apto para interiores.
+El [inflable Gusanitos](/inflables/gusanitos/) tiene un túnel verde de entrada, una zona de brinco bajo arcos morado y turquesa y una resbaladilla doble con dos gusanos amarillos. En la historia de la misión, el túnel es el acceso a la estación espacial y la resbaladilla, el regreso a la Tierra. Funciona con grupos de edades mezcladas de 2 a 8 años y es apto para interiores.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 ![Inflable Gusanitos instalado en el patio de una escuela para la kermés](/img/inflables/gusanitos/gusanitos-kermes-escolar.avif "Gusanitos en una kermés escolar")
@@ -157,7 +157,7 @@ Para niños de 6 a 12 años y una fiesta en jardín, explanada o patio amplio, e
 
 La fiesta del espacio es de las pocas temáticas que lucen más bajo techo: con luces bajas, las estrellas y los planetas se ven mejor. Para hacerla en salón, terraza techada o departamento, revisa esto antes de reservar:
 
-1. **Altura libre.** Mide del piso al obstáculo más bajo: techo, viga, lámpara o ventilador. Gusanitos y Castillo Baby piden 3.2 m. La guía de [altura de techo para un inflable en departamento](/blog/inflable-para-departamento-altura-techo-cdmx/) explica cómo medir.
+1. **Altura libre.** Mide del piso al obstáculo más bajo: techo, viga, lámpara o ventilador. El Castillo Baby pide 3.2 m; en el Gusanitos se confirma según la altura del lugar al cotizar. La guía de [altura de techo para un inflable en departamento](/blog/inflable-para-departamento-altura-techo-cdmx/) explica cómo medir.
 2. **Planetas colgantes lejos del inflable.** Nada debe colgar sobre el área del inflable; cuélgalos sobre la mesa y las paredes.
 3. **Piso despejado.** Superficie plana, sin vidrio ni objetos punzantes. Retira muebles bajos del área.
 4. **Contacto de 110 V a menos de 20 m.** La extensión la llevamos nosotros.

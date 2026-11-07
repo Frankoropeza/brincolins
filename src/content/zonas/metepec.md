@@ -33,7 +33,7 @@ Antes de elegir, confirma con la administración si el inflable puede ir en el �
 
 ### Casa club y salones
 
-Cuando la fiesta es en la casa club o en un salón, la pregunta clave es la altura del techo. Sólo el Castillo Baby y el Gusanitos caben bajo techo, con 3.2 m de altura libre. Para los demás modelos, la casa club tiene que tener jardín o terraza descubierta. La sección de [castillos inflables](/inflables/castillos/) muestra la altura que pide cada uno.
+Cuando la fiesta es en la casa club o en un salón, la pregunta clave es la altura del techo. Sólo el Castillo Baby y el Gusanitos son aptos bajo techo: el primero pide 3.2 m de altura libre y para el segundo se confirma según la altura del lugar al cotizar. Para los demás modelos, la casa club tiene que tener jardín o terraza descubierta. La sección de [castillos inflables](/inflables/castillos/) muestra la altura que pide cada uno.
 
 ### Qué pedir a la casa club antes de apartar
 

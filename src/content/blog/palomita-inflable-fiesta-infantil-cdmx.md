@@ -58,7 +58,7 @@ Antes de coordinar proveedores hay que elegir bien el inflable: el modelo equivo
 | Tu fiesta | Modelo que suele encajar | Edades | Medidas | Precio |
 |---|---|---|---|---|
 | Primer o segundo cumpleaños, invitados muy pequeños | [Castillo Baby](/inflables/mini-castillo/) | 1 a 3 años | 2.5×2×2 m | $1,400 |
-| Hermanos de edades distintas | [Gusanitos](/inflables/gusanitos/), circuito de túneles | 2 a 8 años | 5×3×2.80 m | $1,600 |
+| Hermanos de edades distintas | [Gusanitos](/inflables/gusanitos/), túnel, brinco y resbaladilla doble | 2 a 8 años | 5×3×2.80 m | $1,600 |
 | Temática de dragones, el más rentado | [Dragones Rojos](/inflables/dragones-rojos/) | 3 a 8 años | 5×3×2.80 m | $1,600 |
 | Temática safari | [Jungla](/inflables/mini-jungla/) | 3 a 8 años | 5×3×2.50 m | $1,600 |
 | Fiesta de princesas o primos de 2 a 10 años | [Castillo de Princesas](/inflables/castillo-princesas/) | 2 a 10 años | 5×3.30×3 m | $1,800 |

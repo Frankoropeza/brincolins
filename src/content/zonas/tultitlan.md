@@ -27,13 +27,13 @@ En los dos casos, lo que más pesa al elegir modelo es si el espacio es privado 
 
 **Patio escolar o explanada.** Para kermeses, festivales y fiestas de fin de curso en escuelas del municipio, el circuito [Extremo](/inflables/extremo/) (8 × 4.5 m, de 3 a 12 años) permite turnos de carrera de dos en dos. Lo que hay que revisar en una cancha está en la guía de [inflable en explanada, cancha o estacionamiento](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/).
 
-**Salón o techado.** Sólo el Castillo Baby y el Gusanitos caben bajo techo, con 3.2 m de altura libre.
+**Salón o techado.** Sólo el Castillo Baby y el Gusanitos son aptos bajo techo: el Castillo Baby pide 3.2 m de altura libre y para el Gusanitos se confirma según la altura del lugar al cotizar.
 
 ### Si vives en departamento sin área común
 
 En varias unidades del municipio el área común es mínima o no se presta para fiestas. En ese caso hay dos caminos:
 
-- **Juego en interior.** El Castillo Baby (de 1 a 3 años) y el Gusanitos (de 2 a 8 años) piden 3.2 m de altura libre. Muchos departamentos tienen techo de 2.4 a 2.6 m, así que mide antes: si no llega, no cabe.
+- **Juego en interior.** El Castillo Baby (de 1 a 3 años) pide 3.2 m de altura libre; para el Gusanitos (de 2 a 8 años) se confirma según la altura del lugar al cotizar. Muchos departamentos tienen techo de 2.4 a 2.6 m, así que mide antes: si no llega, no cabe.
 - **Otro espacio cercano.** Un salón de fiestas con patio, la casa de un familiar con jardín o la explanada de la unidad con permiso de la administración.
 
 La guía sobre [altura de techo para un inflable en departamento](/blog/inflable-para-departamento-altura-techo-cdmx/) explica cómo medir y qué alternativas hay si no cabe.

@@ -22,7 +22,7 @@ tags:
   - "castillo de princesas"
 faqs:
   - question: "¿Se puede meter un inflable dentro de un salón de fiestas cerrado?"
-    answer: "Sí, pero sólo dos modelos del catálogo: el Castillo Baby, para niños de 1 a 3 años, y Gusanitos, para niños de 2 a 8 años. Los dos piden 3.2 m de altura libre medidos hasta la lámpara o viga más baja. Los demás modelos, incluido el Castillo de Princesas, son sólo para exterior."
+    answer: "Sí, pero sólo dos modelos del catálogo: el Castillo Baby, para niños de 1 a 3 años, y Gusanitos, para niños de 2 a 8 años. El Castillo Baby pide 3.2 m de altura libre medidos hasta la lámpara o viga más baja; en Gusanitos se confirma según la altura del salón al cotizar. Los demás modelos, incluido el Castillo de Princesas, son sólo para exterior."
   - question: "¿BRINCOLINS tiene seguro de responsabilidad civil para presentar al salón?"
     answer: "No, no ofrecemos seguro de responsabilidad civil. Si el salón lo exige a los proveedores externos, conviene saberlo antes de firmar para buscar otro lugar o resolverlo con la administración. Lo que sí entregamos es equipo revisado y sanitizado, anclaje verificado y motor profesional durante todo el evento."
   - question: "¿Cuánto tarda en instalarse el inflable en el salón?"
@@ -35,7 +35,7 @@ faqs:
     answer: "Avísanos en cuanto lo sepas para revisar disponibilidad en la nueva fecha. Los cambios y cancelaciones se rigen por la política de cancelación publicada en el sitio, así que conviene leerla antes de dejar el anticipo, sobre todo si la fecha del salón todavía no es definitiva."
 ---
 
-Antes de llevar un inflable a un salón de fiestas, pregunta si aceptan proveedores externos, si el área es techada o descubierta, cuál es la altura libre en el punto más bajo, a qué hora puedes montar y dónde está el contacto de 110 V. Bajo techo solo entran el Castillo Baby y Gusanitos, con 3.2 m libres.
+Antes de llevar un inflable a un salón de fiestas, pregunta si aceptan proveedores externos, si el área es techada o descubierta, cuál es la altura libre en el punto más bajo, a qué hora puedes montar y dónde está el contacto de 110 V. Bajo techo solo entran el Castillo Baby, con 3.2 m libres, y Gusanitos, que se confirma según la altura del salón al cotizar.
 
 **Puntos clave**
 
@@ -88,7 +88,7 @@ Muchos salones infantiles tienen un jardín o un patio además del área techada
 
 ### Salón completamente techado
 
-Si todo es techado, tienes dos opciones. El [Castillo Baby para salones techados](/inflables/mini-castillo/), para niños de 1 a 3 años. Y [Gusanitos, el circuito que sí entra bajo techo](/inflables/gusanitos/), para niños de 2 a 8 años. Los dos piden **3.2 m de altura libre**. Gusanitos es más circuito que brincolín: túneles de colores con varias entradas y salidas que funcionan con edades mezcladas.
+Si todo es techado, tienes dos opciones. El [Castillo Baby para salones techados](/inflables/mini-castillo/), para niños de 1 a 3 años. Y [Gusanitos, el recorrido corto que sí entra bajo techo](/inflables/gusanitos/), para niños de 2 a 8 años. El Castillo Baby pide **3.2 m de altura libre**; en Gusanitos, la altura se confirma según el salón al cotizar. En Gusanitos los niños entran por un túnel, brincan bajo arcos de colores y bajan por una resbaladilla doble, algo que funciona con edades mezcladas.
 
 ![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 ![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
@@ -106,7 +106,7 @@ Esta tabla ordena los ocho modelos del catálogo de menor a mayor altura libre. 
 | Modelo | Altura libre necesaria | ¿Interiores? | Medidas (largo × ancho × alto) | Edades |
 |---|---|---|---|---|
 | Castillo Baby | 3.2 m | Sí | 2.5 × 2 × 2 m | 1 a 3 años |
-| Gusanitos | 3.2 m | Sí | 5 × 3 × 2.80 m | 2 a 8 años |
+| Gusanitos | Se confirma al cotizar | Sí | 5 × 3 × 2.80 m | 2 a 8 años |
 | Jungla | 4.2 m | No, sólo exterior | 5 × 3 × 2.50 m | 3 a 8 años |
 | Castillo de Princesas | 4.2 m | No, sólo exterior | 5 × 3.30 × 3 m | 2 a 10 años |
 | Dragones Rojos | 4.5 m | No, sólo exterior | 5 × 3 × 2.80 m | 3 a 8 años |

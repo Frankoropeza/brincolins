@@ -39,7 +39,7 @@ Si el jardín delantero no tiene reja, el inflable puede ir ahí sólo con un ad
 En Lomas Verdes y otras zonas del municipio hay conjuntos de departamentos y privadas con jardín común, salón de usos múltiples o roof garden. En estos casos:
 
 1. La administración decide si se permite el inflable y en qué área.
-2. Si el área es un salón techado, sólo caben los modelos para interiores: el Castillo Baby y el [Gusanitos](/inflables/gusanitos/), que necesitan 3.2 m de altura libre.
+2. Si el área es un salón techado, sólo caben los modelos para interiores: el Castillo Baby, que necesita 3.2 m de altura libre, y el [Gusanitos](/inflables/gusanitos/), que se confirma según la altura del lugar al cotizar.
 3. Si es roof garden, hay que revisar la carga, el acceso por elevador o escalera y el pretil.
 
 ### Colonias en lomerío y pueblos del poniente

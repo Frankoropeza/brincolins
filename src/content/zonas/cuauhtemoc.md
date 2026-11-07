@@ -16,7 +16,7 @@ Cuauhtémoc concentra edificios de departamentos, vecindades, casonas convertida
 
 **Patio interior de vecindad o casona (Centro, Guerrero, Santa María la Ribera).** Muchos son de piedra o mosaico, con macetas y lavaderos. El suelo duro se resuelve con lona de protección; lo que importa es el área libre y que el inflable entre enrollado por el zaguán. Si los niños son menores de 3 años, conviene leer [el mejor inflable para menores de 3 años](/blog/mejor-inflable-para-ninos-menores-de-3-anos/).
 
-**Departamento.** Si la fiesta será dentro, mide la altura del techo. El [Castillo Baby](/inflables/mini-castillo/) y los Gusanitos son los únicos aptos bajo techo y ambos piden 3.2 m de altura libre. Los departamentos de edificios antiguos de la Roma a veces tienen techos altos; los nuevos, casi nunca. Lo explicamos en [inflable para departamento y altura de techo](/blog/inflable-para-departamento-altura-techo-cdmx/).
+**Departamento.** Si la fiesta será dentro, mide la altura del techo. El [Castillo Baby](/inflables/mini-castillo/) y los Gusanitos son los únicos aptos bajo techo: el Castillo Baby pide 3.2 m de altura libre y para los Gusanitos se confirma según la altura del lugar al cotizar. Los departamentos de edificios antiguos de la Roma a veces tienen techos altos; los nuevos, casi nunca. Lo explicamos en [inflable para departamento y altura de techo](/blog/inflable-para-departamento-altura-techo-cdmx/).
 
 **Salón o terraza de eventos.** Hay muchos en la Roma, la Juárez y la Doctores. Pide la medida del techo y pregunta si aceptan proveedores externos.
 
@@ -54,7 +54,7 @@ De junio a septiembre las tormentas de la tarde son casi diarias. En una azotea 
 |---|---|
 | Azotea con pretil bajo | Medir área útil lejos del borde |
 | Patio de vecindad | Medir zaguán y área libre |
-| Departamento | Medir altura del techo (3.2 m mínimo) |
+| Departamento | Medir altura del techo (3.2 m mínimo para el Castillo Baby) |
 | Salón en la Roma o la Juárez | Pedir altura de techo y reglas para proveedores |
 
 ### Siguiente paso

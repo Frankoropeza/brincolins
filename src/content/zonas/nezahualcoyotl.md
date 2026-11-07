@@ -4,7 +4,7 @@ vecinas: ["iztacalco", "iztapalapa", "venustiano-carranza", "gustavo-a-madero", 
 guias: ["fiesta-infantil-con-poco-presupuesto-cdmx", "inflable-para-departamento-altura-techo-cdmx", "inflable-en-salon-de-fiestas-que-preguntar", "fiesta-de-3-anos-ideas-inflable-cdmx", "pinata-fiesta-infantil-tamano-y-reglas", "fiesta-de-halloween-infantil-con-inflable"]
 faqs:
   - question: "Mi patio en Neza tiene techo de lámina, ¿qué inflable puedo meter?"
-    answer: "Mide la altura del piso al punto más bajo del techo o de la viga. Si llega a 3.2 m libres, caben el Castillo Baby (de 1 a 3 años) o el Gusanitos (de 2 a 8 años). Si no llega, el inflable tiene que ir en la parte descubierta del patio o en la azotea. Mándanos la medida y una foto."
+    answer: "Mide la altura del piso al punto más bajo del techo o de la viga. Si llega a 3.2 m libres, cabe el Castillo Baby (de 1 a 3 años). El Gusanitos (de 2 a 8 años) también es apto para interiores y se confirma según la altura del lugar al cotizar. Si no hay altura, el inflable tiene que ir en la parte descubierta del patio o en la azotea. Mándanos la medida y una foto."
   - question: "¿Me sirve que la casa esté en la Zona Norte de Neza para el envío?"
     answer: "La Zona Norte está separada del resto del municipio y se llega por otra ruta, del lado de Ecatepec y Gustavo A. Madero. También la cubrimos; el envío se calcula por colonia dentro del rango de $200 a $300. Con tu dirección exacta te damos la cifra."
 ---
@@ -16,9 +16,9 @@ Nezahualcóyotl tiene algo que pocos municipios ofrecen para una fiesta con infl
 La casa típica de Neza tiene patio de cemento, muchas veces con una parte techada con lámina o con losa, y cuartos que se han ido construyendo con los años. Para elegir el inflable hay dos medidas que importan más que el largo:
 
 1. **El área descubierta.** Si el inflable va al aire libre, mide sólo la parte del patio sin techo.
-2. **La altura bajo el techo.** Si va bajo lámina o losa, necesitas 3.2 m libres para el Castillo Baby o el Gusanitos. Los demás modelos piden 4.2 m o más y no caben bajo techo.
+2. **La altura bajo el techo.** Si va bajo lámina o losa, necesitas 3.2 m libres para el Castillo Baby; para el Gusanitos se confirma según la altura del lugar al cotizar. Los demás modelos piden 4.2 m o más y no caben bajo techo.
 
-Para fiestas de niños de 1 a 3 años, el [Castillo Baby](/inflables/mini-castillo/) es el más fácil de acomodar: mide 2.5 × 2 m. Para niños de 2 a 8 años en un espacio techado, el [Gusanitos](/inflables/gusanitos/) es un circuito de túneles de 5 × 3 m que funciona bajo techo.
+Para fiestas de niños de 1 a 3 años, el [Castillo Baby](/inflables/mini-castillo/) es el más fácil de acomodar: mide 2.5 × 2 m. Para niños de 2 a 8 años en un espacio techado, el [Gusanitos](/inflables/gusanitos/) mide 5 × 3 m, tiene túnel de entrada, zona de brinco y resbaladilla doble, y es apto para interiores.
 
 ### Azoteas
 

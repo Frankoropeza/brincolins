@@ -21,14 +21,14 @@ Ecatepec es enorme y muy distinto de una punta a otra. No es lo mismo armar la f
 
 **Conjuntos y unidades habitacionales.** En el norte del municipio y en zonas como Los Héroes Ecatepec hay conjuntos de casas en serie con áreas verdes compartidas y caseta. Ahí el inflable suele ir en el área común, con autorización de la administración. Un modelo que aprovecha bien esos jardines es la [categoría de brincolines medianos](/inflables/medianos/), que reúne los tres modelos de 5 × 3 m.
 
-**Salones de fiestas.** Si vas a salón, la pregunta clave es la altura del techo. Sólo el Castillo Baby y el Gusanitos caben bajo techo estándar (piden 3.2 m libres). Para todo lo demás necesitas patio o jardín del salón.
+**Salones de fiestas.** Si vas a salón, la pregunta clave es la altura del techo. Sólo el Castillo Baby y el Gusanitos son aptos bajo techo: el Castillo Baby pide 3.2 m libres y para el Gusanitos se confirma según la altura del salón al cotizar. Para todo lo demás necesitas patio o jardín del salón.
 
 ### Qué modelo conviene según el espacio
 
 | Espacio típico en Ecatepec | Modelo sugerido | Por qué |
 |---|---|---|
 | Patio chico o cochera | Castillo Baby | Compacto y apto para interiores, de 1 a 3 años |
-| Salón techado | [Gusanitos](/inflables/gusanitos/) | Circuito de túneles que cabe con 3.2 m libres |
+| Salón techado | [Gusanitos](/inflables/gusanitos/) | Túnel de entrada, zona de brinco y resbaladilla doble; la altura del salón se confirma al cotizar |
 | Patio largo o calle cerrada | Dragones Rojos | 5 × 3 m, de 3 a 8 años |
 | Área común amplia o escuela | Extremo | Circuito de 8 m para grupos por turnos |
 

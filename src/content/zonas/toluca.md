@@ -31,7 +31,7 @@ Antes de elegir, revisa:
 
 ### Salones y espacios techados
 
-Por el frío, muchas fiestas en Toluca se hacen en salón o en un espacio cerrado. Si todavía no decides, compara [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/) según invitados y presupuesto. Bajo techo sólo caben los modelos que piden 3.2 m de altura libre: el [Castillo Baby](/inflables/mini-castillo/), para niños de 1 a 3 años, y el Gusanitos, para niños de 2 a 8 años. La sección de [inflables para interiores](/inflables/para-interiores/) los compara.
+Por el frío, muchas fiestas en Toluca se hacen en salón o en un espacio cerrado. Si todavía no decides, compara [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/) según invitados y presupuesto. Bajo techo sólo caben el [Castillo Baby](/inflables/mini-castillo/), para niños de 1 a 3 años, que pide 3.2 m de altura libre, y el Gusanitos, para niños de 2 a 8 años, que se confirma según la altura del lugar al cotizar. La sección de [inflables para interiores](/inflables/para-interiores/) los compara.
 
 Pregunta al salón la altura libre real, no la del punto más alto: lámparas, vigas y adornos colgantes reducen la medida.
 

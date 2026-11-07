@@ -23,7 +23,7 @@ faqs:
   - question: "¿Cómo elijo la temática de la fiesta infantil?"
     answer: "Empieza por lo que le gusta al festejado hoy, no hace seis meses, y cruza esa idea con tu espacio y tu presupuesto. Si la fiesta lleva inflable, revisa qué modelo combina con la temática y cabe en tu lugar antes de comprar decoración."
   - question: "¿Necesito un inflable de la misma temática?"
-    answer: "No. Un inflable puede integrarse a la temática con colores y decoración alrededor. El Castillo Blanco, por ejemplo, funciona con casi cualquier paleta, y un circuito como Gusanitos se adapta a temáticas de bichos, jardín o exploración."
+    answer: "No. Un inflable puede integrarse a la temática con colores y decoración alrededor. El Castillo Blanco, por ejemplo, funciona con casi cualquier paleta, y un inflable como Gusanitos, con sus gusanos sonrientes, se adapta a temáticas de bichos, jardín o exploración."
   - question: "¿Cuántos colores debe tener la paleta?"
     answer: "Funciona bien una paleta de tres colores: uno principal, uno de apoyo y un neutro como blanco, crema o dorado. Con más de cuatro colores la decoración se ve dispersa, sobre todo en fotos."
   - question: "¿Se pueden usar personajes de películas o caricaturas?"
@@ -58,10 +58,10 @@ Para cada temática encontrarás:
 
 Planetas, cohetes, estrellas y astronautas. Es una temática que funciona de los 4 a los 10 años y que no depende de un personaje concreto, así que no pasa de moda en meses.
 
-- **Inflable que combina:** no hay un modelo espacial en el catálogo, pero un circuito de túneles como Gusanitos funciona como "túnel de la nave", y para niños mayores el Extremo se presta para un "entrenamiento de astronautas" por turnos.
+- **Inflable que combina:** no hay un modelo espacial en el catálogo, pero Gusanitos, con su túnel verde de entrada, funciona como "túnel de la nave", y para niños mayores el Extremo se presta para un "entrenamiento de astronautas" por turnos.
 - **Paleta:** azul marino, plateado y blanco, con acentos en naranja.
 - **Decoración clave:** globos plateados y azul marino, planetas de papel colgados y un fondo para fotos con estrellas.
-- **Actividad:** "certificado de astronauta" para cada niño que complete el circuito. La guía de [fiesta del espacio con inflable](/blog/fiesta-del-espacio-astronautas-con-inflable/) desarrolla la misión por etapas y la opción bajo techo.
+- **Actividad:** "certificado de astronauta" para cada niño que complete la misión. La guía de [fiesta del espacio con inflable](/blog/fiesta-del-espacio-astronautas-con-inflable/) desarrolla la misión por etapas y la opción bajo techo.
 
 ### Fondo del mar y sirenas
 
@@ -154,7 +154,7 @@ El inflable Dragones Rojos, de 3 a 8 años, con dos dragones de 3 m y resbaladil
 
 ### Bichitos y jardín
 
-Catarinas, abejas, mariposas y gusanos. Gusanitos, el circuito de túneles de colores, encaja directo.
+Catarinas, abejas, mariposas y gusanos. Gusanitos, con sus dos gusanos amarillos sonrientes, encaja directo.
 
 - **Paleta:** verde, amarillo y rojo catarina.
 - **Decoración clave:** antenas para los invitados, flores de papel y lupas para explorar.

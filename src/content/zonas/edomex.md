@@ -84,7 +84,7 @@ Hay cuatro puntos que aplican en cualquier municipio:
 
 1. **Corriente.** El motor necesita una toma de 110 V a menos de 20 m durante toda la renta.
 2. **Piso plano** y libre de piedras, vidrios y objetos punzantes.
-3. **Altura libre.** Bajo techo sólo caben los modelos que piden 3.2 m: el Castillo Baby y el Gusanitos. La sección de [inflables para interiores](/inflables/para-interiores/) los muestra.
+3. **Altura libre.** Bajo techo sólo caben el Castillo Baby, que pide 3.2 m, y el Gusanitos, que se confirma según la altura del lugar al cotizar. La sección de [inflables para interiores](/inflables/para-interiores/) los muestra.
 4. **Permisos.** En áreas comunes decide la administración; en calles, parques y espacios públicos, el municipio o la administración del lugar. Nosotros no tramitamos permisos.
 
 Si la fiesta va en una quinta o jardín de eventos, que es frecuente en la periferia de varios municipios, revisa las [preguntas para una fiesta en quinta](/blog/fiesta-en-quinta-o-jardin-de-eventos-edomex/) antes de apartar el lugar. Y si es en un área verde pública, la guía de [fiesta infantil en parque](/blog/fiesta-infantil-en-parque-con-inflable/) explica qué resolver primero.
@@ -94,7 +94,7 @@ Si la fiesta va en una quinta o jardín de eventos, que es frecuente en la perif
 | Espacio | Modelo | Edades |
 |---|---|---|
 | Patio chico o interior | Castillo Baby | 1 a 3 años |
-| Salón o techado con 3.2 m | Gusanitos | 2 a 8 años |
+| Salón o techado (altura a confirmar al cotizar) | Gusanitos | 2 a 8 años |
 | Área común o jardín mediano | Dragones Rojos, Jungla o Castillo de Princesas | 3 a 8 / 2 a 10 años |
 | Jardín o terreno amplio | Barco Pirata, Extremo o Castillo Blanco | 3 a 12 años |
 

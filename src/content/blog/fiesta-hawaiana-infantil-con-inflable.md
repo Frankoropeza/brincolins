@@ -28,7 +28,7 @@ faqs:
   - question: "¿Se puede meter agua al inflable en una fiesta hawaiana?"
     answer: "No. Los inflables de BRINCOLINS son para brincar en seco: no se mojan, no se usan con mangueras ni con globos de agua, y tampoco se coloca una alberca junto a ellos. El piso mojado resbala, el motor es eléctrico y la lona húmeda se ensucia. La temática se logra con decoración, juegos y comida, no con agua."
   - question: "¿Qué inflable combina con una fiesta hawaiana?"
-    answer: "El Jungla ($1,600, 3 a 8 años) tiene palmeras y colores de selva, así que funciona como la isla de la fiesta. Gusanitos ($1,600, 2 a 8 años) tiene túneles de colores y entra en interiores. Para bebés, el Castillo Baby ($1,400). Si hay muchos niños de primaria, el Extremo ($2,500) suma carreras de obstáculos."
+    answer: "El Jungla ($1,600, 3 a 8 años) tiene palmeras y colores de selva, así que funciona como la isla de la fiesta. Gusanitos ($1,600, 2 a 8 años) tiene túnel de entrada y resbaladilla doble, y entra en interiores. Para bebés, el Castillo Baby ($1,400). Si hay muchos niños de primaria, el Extremo ($2,500) suma carreras de obstáculos."
   - question: "¿Qué ropa llevar a una fiesta hawaiana infantil?"
     answer: "Ropa fresca y cómoda: camisa estampada de flores o playera de colores, short o falda con short abajo, y una gorra o sombrero para las zonas sin sombra. Las faldas de hojas y los collares se quitan antes de entrar al inflable, igual que zapatos, sandalias y lentes de sol. Calcetas antiderrapantes ayudan si el niño no quiere brincar descalzo."
   - question: "¿A qué hora conviene hacer una fiesta hawaiana al aire libre en CDMX?"
@@ -146,7 +146,7 @@ En una fiesta tropical, el inflable se vuelve el centro del jardín: la isla. To
 | Modelo | Edades | Medidas | Altura libre | Precio | Por qué encaja en la fiesta hawaiana |
 |---|---|---|---|---|---|
 | Jungla | 3 a 8 años | 5 × 3 × 2.50 m | 4.2 m | $1,600 | Palmeras y colores de selva: es la isla visual |
-| Gusanitos | 2 a 8 años | 5 × 3 × 2.80 m | 3.2 m | $1,600 | Túneles de colores; entra en terraza techada o salón |
+| Gusanitos | 2 a 8 años | 5 × 3 × 2.80 m | Se confirma al cotizar | $1,600 | Túnel de entrada y resbaladilla doble; entra en terraza techada o salón |
 | Castillo Baby | 1 a 3 años | 2.5 × 2 × 2 m | 3.2 m | $1,400 | Para bebés y primer cumpleaños |
 | Extremo | 3 a 12 años | 8 × 4.5 × 3.50 m | 4.5 m | $2,500 | Carrera de obstáculos para grupos grandes de primaria |
 

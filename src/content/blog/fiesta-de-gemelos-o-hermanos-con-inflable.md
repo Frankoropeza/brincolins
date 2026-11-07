@@ -113,7 +113,7 @@ Uno solo, si los dos caben en el rango de un mismo modelo; dos, si no. Ésa es l
 | Gemelos o hermanos de 4 a 8 años | Extremo, Gusanitos o Dragones Rojos | Los tres cubren el rango; el Extremo agrega doble carril |
 | Gemelos o hermanos de 9 a 12 años | Extremo o Barco Pirata | Ambos son de 3 a 12 años; el Extremo permite carreras |
 | Hermanos de 2 y 9 años | Extremo + Castillo Baby | Ningún modelo cubre a los dos; uno para cada uno |
-| Hermanos de 1 y 5 años | Castillo Baby + Gusanitos | El bebé en su modelo; el mayor en un circuito de 2 a 8 |
+| Hermanos de 1 y 5 años | Castillo Baby + Gusanitos | El bebé en su modelo; el mayor en un modelo de 2 a 8 |
 | Hermanos de 6 y 13 años | Extremo para el de 6 | El de 13 queda fuera del rango, que termina en 12 años |
 
 Dos reglas salen de aquí. Si los dos caben en el rango de un mismo modelo, basta uno, con turnos separados por edad. Si no comparten rango, necesitas dos modelos: nunca fuerces a uno de tus hijos a usar un inflable que no le corresponde. ¿Tu fiesta junta a muchos niños de edades repartidas? Más abajo, en «¿Qué hacer cuando los invitados tienen edades muy distintas?», está el detalle de turnos.
@@ -151,12 +151,12 @@ Depende del tipo de fiesta: el Extremo gana si tus festejados son competitivos y
 | Modelo | Medidas (largo × ancho × alto) | Edades | ¿Interiores? | Precio neto | A favor en una fiesta de hermanos |
 |---|---|---|---|---|---|
 | Extremo | 8 × 4.5 × 3.50 m | 3 a 12 años | No, sólo exterior | $2,500 | Doble carril para carreras parejas |
-| Gusanitos | 5 × 3 × 2.80 m | 2 a 8 años | Sí | $1,600 | Túneles conectados con varias entradas; edades mezcladas |
+| Gusanitos | 5 × 3 × 2.80 m | 2 a 8 años | Sí | $1,600 | Túnel de entrada, zona de brinco y resbaladilla doble; edades mezcladas |
 | Barco Pirata | 6 × 3.5 × 3.80 m | 3 a 12 años | No, sólo exterior | $2,300 | Impacto visual para una temática pirata |
 | Castillo de Princesas | 5 × 3.30 × 3 m | 2 a 10 años | No, sólo exterior | $1,800 | Torres decorativas y resbaladilla |
 | Castillo Baby | 2.5 × 2 × 2 m | 1 a 3 años | Sí | $1,400 | Espacio propio para el festejado más pequeño |
 
-La conclusión: si tus hijos van a competir, el doble carril no tiene sustituto. ¿Prefieren explorar túneles que competir? El [inflable Gusanitos](/inflables/gusanitos/) funciona mejor con hermanos pequeños o en interiores. Más opciones de recorrido las tienes en los [inflables con obstáculos del catálogo](/inflables/con-obstaculos/).
+La conclusión: si tus hijos van a competir, el doble carril no tiene sustituto. ¿Prefieren brincar y deslizarse que competir? El [inflable Gusanitos](/inflables/gusanitos/) funciona mejor con hermanos pequeños o en interiores. Más opciones de recorrido las tienes en los [inflables con obstáculos del catálogo](/inflables/con-obstaculos/).
 
 ![Túneles naranja, tobogán y arcos morados del Extremo verde, azul y amarillo sobre pasto de un jardín](/img/inflables/extremo.avif)
 ![Inflable Extremo instalado en el patio de una escuela para la kermés](/img/inflables/extremo/extremo-kermes-escolar.avif "Extremo en una kermés escolar")

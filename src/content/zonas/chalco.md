@@ -26,7 +26,7 @@ Valle de Chalco tiene colonias planas, de calles rectas y casas de patio de ceme
 
 | Espacio | Qué revisar | Modelo posible |
 |---|---|---|
-| Patio con techo de lámina o losa | 3.2 m de altura libre | Castillo Baby o Gusanitos |
+| Patio con techo de lámina o losa | 3.2 m de altura libre para el Castillo Baby; Gusanitos, se confirma al cotizar | Castillo Baby o Gusanitos |
 | Patio descubierto de 5 m o más | Largo, ancho y cables | Dragones Rojos, Jungla o Castillo de Princesas |
 | Calle cerrada | Permiso del municipio, coladeras, cables | Modelo mediano |
 | Azotea | Acceso, pretil, tinacos | Se revisa caso por caso |

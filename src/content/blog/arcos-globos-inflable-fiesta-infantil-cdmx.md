@@ -139,12 +139,12 @@ Las redes sociales cambiaron lo que significa una fiesta exitosa. Hay encuadres 
 
 ## ¿Qué altura necesitas si la fiesta es bajo techo?
 
-En salón, cochera techada o terraza con lona, el límite es el techo. Cada inflable pide una altura libre mayor a la suya:
+En salón, cochera techada o terraza con lona, el límite es el techo. Cada inflable pide una altura libre mayor a la suya (la del Gusanitos se confirma según la altura del lugar al cotizar):
 
 | Inflable | Alto del inflable | Altura libre requerida |
 |---|---|---|
 | Castillo Baby | 2 m | 3.2 m |
-| Gusanitos | 2.80 m | 3.2 m |
+| Gusanitos | 2.80 m | Se confirma al cotizar |
 | Castillo de Princesas | 3 m | 4.2 m |
 | Castillo Blanco | 4 m | 4.7 m |
 

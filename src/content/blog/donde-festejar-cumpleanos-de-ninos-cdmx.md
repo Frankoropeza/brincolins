@@ -93,7 +93,7 @@ Esta tabla resume los ocho tipos de lugar. El costo es relativo entre ellos; los
 
 **A favor:** espacio, baños, limpieza y techo resueltos; ideal para listas grandes.
 **En contra:** horario fijo de montaje y desocupar, algunos exigen sus proveedores o cobran por externos.
-**Inflable:** depende. Si el salón tiene jardín o terraza descubierta, caben modelos medianos y grandes. Si todo es techado, solo los modelos aptos para interiores con 3.2 m de altura libre.
+**Inflable:** depende. Si el salón tiene jardín o terraza descubierta, caben modelos medianos y grandes. Si todo es techado, solo los modelos aptos para interiores, según la altura libre del lugar.
 
 ### Jardín de eventos o quinta
 
@@ -175,9 +175,9 @@ Y una cuarta: **supervisión adulta todo el evento.** Asigna a una persona que s
 | Patio chico o azotea | Castillo Baby (2.5 × 2 m), Gusanitos (5 × 3 m) | Acceso, pretiles, contacto |
 | Jardín mediano o área común | Dragones Rojos, Jungla, Castillo de Princesas (5 × 3 m a 5 × 3.30 m) | Permiso, piso plano, cables aéreos |
 | Quinta o jardín grande | Barco Pirata, Extremo, Castillo Blanco | Acceso de la camioneta, árboles, horario |
-| Salón techado | Castillo Baby, Gusanitos | 3.2 m de altura libre |
+| Salón techado | Castillo Baby, Gusanitos | Altura libre (3.2 m el Castillo Baby; Gusanitos al cotizar) |
 
-Si el lugar es techado, el [inflable Gusanitos para interiores](/inflables/gusanitos/) es el modelo mediano que entra con 3.2 m de altura libre. La categoría de [inflables para interiores](/inflables/para-interiores/) muestra las dos opciones aptas bajo techo. El espacio libre alrededor de cada modelo y la capacidad se confirman al cotizar con tus medidas.
+Si el lugar es techado, el [inflable Gusanitos para interiores](/inflables/gusanitos/) es el modelo mediano apto para interiores; se confirma según la altura del lugar al cotizar. La categoría de [inflables para interiores](/inflables/para-interiores/) muestra las dos opciones aptas bajo techo. El espacio libre alrededor de cada modelo y la capacidad se confirman al cotizar con tus medidas.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")

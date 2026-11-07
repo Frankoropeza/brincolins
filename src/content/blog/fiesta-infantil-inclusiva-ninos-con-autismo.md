@@ -28,7 +28,7 @@ faqs:
   - question: "¿Cómo hacer una agenda visual para una fiesta?"
     answer: "Con fotos o dibujos sencillos de cada momento en orden: llegada, inflable, comida, pastel, piñata, despedida. Se puede imprimir en una hoja o tarjetas y revisarla con el niño días antes y durante la fiesta. Si la familia ya usa un sistema de pictogramas o apoyos visuales, lo mejor es seguir ese mismo formato."
   - question: "¿Qué inflable es más cómodo para una fiesta inclusiva?"
-    answer: "No hay un modelo universal. Gusanitos ($1,600) es un recorrido de túneles con varias entradas y salidas, apto para interiores con 3.2 m de altura libre, y permite asomarse y salir rápido. El Castillo Baby ($1,400) es pequeño y para niños de 1 a 3 años. La elección depende de edades, espacio y lo que la familia sepa que le acomoda al niño."
+    answer: "No hay un modelo universal. Gusanitos ($1,600) es un recorrido corto: túnel de entrada, zona de brinco y resbaladilla doble. Es apto para interiores (la altura del lugar se confirma al cotizar) y cada niño puede ir a su ritmo. El Castillo Baby ($1,400) es pequeño y para niños de 1 a 3 años. La elección depende de edades, espacio y lo que la familia sepa que le acomoda al niño."
   - question: "¿Hay que avisar a las demás familias?"
     answer: "Sólo si la familia del niño está de acuerdo y con la información que ellos decidan compartir. Muchas veces basta con avisar en la invitación que habrá turnos cortos en el inflable, volumen moderado y una zona tranquila, sin señalar a nadie. Eso ayuda a que todos los invitados sigan las mismas reglas."
   - question: "¿Cómo cuidar las alergias alimentarias en la fiesta?"
@@ -144,7 +144,7 @@ El inflable puede ser una de las partes más disfrutables de la fiesta para algu
 
 ### ¿Qué modelo conviene?
 
-No hay un inflable "para niños con autismo" y no conviene pensarlo así. Hay modelos que, por su forma, dan más opciones de control. El [inflable Gusanitos de túneles](/inflables/gusanitos/) es un recorrido con varias entradas y salidas: el niño puede asomarse, avanzar un tramo y salir sin quedar atrapado en un espacio cerrado con otros niños. Mide 5 × 3 × 2.80 m, es para 2 a 8 años y puede ir bajo techo con 3.2 m de altura libre, lo cual permite hacer la fiesta en un espacio más controlado.
+No hay un inflable "para niños con autismo" y no conviene pensarlo así. Hay modelos que, por su forma, dan más opciones de control. El [inflable Gusanitos con resbaladilla doble](/inflables/gusanitos/) es un recorrido corto: entra por el túnel, brinca bajo los arcos y baja por la resbaladilla, a su ritmo, mientras un adulto lo espera al pie de la resbaladilla. Mide 5 × 3 × 2.80 m, es para 2 a 8 años y puede ir bajo techo (la altura del lugar se confirma al cotizar), lo cual permite hacer la fiesta en un espacio más controlado.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")

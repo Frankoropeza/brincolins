@@ -25,7 +25,7 @@ faqs:
   - question: "¿Un brincolín entretiene a los niños toda la fiesta?"
     answer: "Sí, y es su principal ventaja: los niños entran y salen durante todo el evento sin coordinar horarios. Un show dura 1 o 2 horas; el inflable trabaja las 4 a 6 horas de la fiesta, incluidos los ratos muertos antes de la comida y del pastel."
   - question: "¿Qué conviene para un espacio pequeño o departamento?"
-    answer: "Para interiores y espacios reducidos hay dos modelos: el Castillo Baby de 2.5 × 2 × 2 m ($1,400 MXN) y el Gusanitos de 5 × 3 × 2.80 m ($1,600 MXN), ambos con 3.2 m de altura libre. La instalación en interiores se confirma al cotizar. Si ni así cabe, la alternativa realista es un show o una mesa de actividades."
+    answer: "Para interiores y espacios reducidos hay dos modelos: el Castillo Baby de 2.5 × 2 × 2 m ($1,400 MXN), que pide 3.2 m de altura libre, y el Gusanitos de 5 × 3 × 2.80 m ($1,600 MXN), cuya altura libre se confirma según el lugar. La instalación en interiores se confirma al cotizar. Si ni así cabe, la alternativa realista es un show o una mesa de actividades."
   - question: "¿Se puede combinar inflable con show o payaso?"
     answer: "Es la fórmula más común en fiestas de CDMX. El inflable mantiene a los niños activos toda la tarde y el show concentra la atención una hora alrededor del pastel, así que no compiten entre sí."
   - question: "¿Cuánto cuesta el traslado del inflable en el oriente de la CDMX?"
@@ -41,7 +41,7 @@ Si tienes jardín, patio o un techo de más de 3.2 m, el brincolín suele ser la
 - El inflable entretiene toda la fiesta; el show concentra la atención una hora.
 - La combinación más común en CDMX es inflable toda la tarde y show cerca del pastel.
 - El salón resuelve la logística, pero su costo crece con cada niño invitado.
-- Para departamentos existen modelos compactos con 3.2 m de altura libre.
+- Para departamentos existen modelos compactos; la altura libre que pide cada uno se confirma al cotizar.
 - Compara totales: suma traslado, horas cubiertas y número de invitados.
 
 ## ¿Cómo se comparan las cuatro alternativas?
@@ -117,7 +117,7 @@ Contesta estas preguntas antes de cotizar cualquier cosa. Te ahorran comparar op
 - **Patio de cemento o cochera:** se ancla con sacos; revisa que el piso esté parejo y sin desniveles.
 - **Azotea:** posible con modelos compactos si el acceso y el pretil lo permiten; aquí está [qué revisar antes de subir un inflable a la azotea](/blog/inflable-en-azotea-que-revisar-cdmx/).
 - **Área común de unidad habitacional:** pide permiso a la administración antes de apartar fecha.
-- **Departamento:** solo Castillo Baby o Gusanitos, con la altura libre que pide cada uno (3.2 m en ambos casos).
+- **Departamento:** solo Castillo Baby o Gusanitos, con la altura libre que pide cada uno (3.2 m el Castillo Baby; la del Gusanitos se confirma según la altura del lugar al cotizar).
 
 ## Fiestas en el oriente de la ciudad: qué opción rinde más
 

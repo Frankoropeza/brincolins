@@ -25,7 +25,7 @@ Iztapalapa es la alcaldía más poblada de la ciudad y tiene de todo: unidades h
 | Explanada de unidad | Permiso y corriente | Extremo o Barco Pirata |
 | Cochera o patio mediano | Largo libre | Dragones Rojos o Jungla |
 | Azotea | Pretil y obstáculos | Castillo Baby |
-| Salón techado | Altura libre de 3.2 m | Castillo Baby o Gusanitos |
+| Salón techado | Altura libre de 3.2 m para el Castillo Baby; Gusanitos, se confirma al cotizar | Castillo Baby o Gusanitos |
 
 ### Fiestas con muchos niños: turnos y supervisión
 

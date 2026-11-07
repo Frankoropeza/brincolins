@@ -198,7 +198,7 @@ El Barco Pirata es el modelo con más altura libre del catálogo: pide 5.2 m. Mu
 |---|---|---|
 | Jardín amplio sin árboles bajos | Cabe si hay 5.2 m libres y superficie plana | El barco como escenario central |
 | Patio con cables o tendederos | Probablemente no cabe | Castillo de Princesas como «palacio de sirenas» (4.2 m libres) |
-| Terraza techada o salón | No; es sólo para exterior | Gusanitos como «cueva del tesoro» (3.2 m libres, apto interiores) |
+| Terraza techada o salón | No; es sólo para exterior | Gusanitos como «cueva del tesoro» (apto interiores; altura se confirma al cotizar) |
 | Área verde de unidad o parque | Depende de la altura y del permiso | Consultar con la administración antes de cotizar |
 
 La paleta, las dos zonas y la búsqueda del tesoro funcionan igual con cualquiera de esos modelos. Lo único que cambia es dónde termina el mapa. Si piensas en un parque, la guía de [fiesta infantil en parque con inflable](/blog/fiesta-infantil-en-parque-con-inflable/) explica qué revisar antes de llevar el equipo.

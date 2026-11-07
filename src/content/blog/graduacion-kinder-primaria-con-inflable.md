@@ -222,7 +222,7 @@ Tres decisiones que conviene tomar desde la junta:
 
 1. **Hacer el festejo temprano.** Si la ceremonia es por la mañana, programa el inflable justo después, en las horas con menos probabilidad de lluvia. Un festejo que empieza a las 4 de la tarde en julio tiene más riesgo.
 2. **Tener un área techada para lo demás.** Pastel, fotos y entrega de recuerdos pueden pasar a la techumbre del patio o a un salón si se suspende el brinco. Así el festejo no se cae completo.
-3. **Valorar un modelo para bajo techo.** Si el patio de la escuela tiene techumbre alta, Gusanitos ($1,600, de 2 a 8 años) necesita 3.2 m de altura libre y está marcado como apto para interiores. Sirve para kínder; para sexto de primaria se queda chico. Mide la altura real del techo (vigas y lámparas incluidas) y mándala al cotizar.
+3. **Valorar un modelo para bajo techo.** Si el patio de la escuela tiene techumbre alta, Gusanitos ($1,600, de 2 a 8 años) está marcado como apto para interiores; si cabe se confirma según la altura del lugar al cotizar. Sirve para kínder; para sexto de primaria se queda chico. Mide la altura real del techo (vigas y lámparas incluidas) y mándala al cotizar.
 
 Si llueve, la fecha se reprograma sin costo a otra disponible. Lee las condiciones antes de dar el anticipo y compártelas en el chat del comité, para que nadie se sorprenda. Si quieres más detalle sobre cómo planear en esos meses, la guía de [inflable bajo techo en temporada de lluvias](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/) explica qué medir y qué alternativas hay. Y para saber con cuánta anticipación conviene apartar en temporada alta, revisa [cuándo reservar el inflable según la temporada](/blog/cuando-reservar-inflable-temporadas-cdmx/).
 

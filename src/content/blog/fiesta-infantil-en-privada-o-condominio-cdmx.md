@@ -117,7 +117,7 @@ Te sirven el jardín con pasto, el pasto sintético y el adoquín o concreto pla
 | Estacionamiento | Depende | Que la administración lo cierre a los autos durante la fiesta |
 | Área con pendiente | Depende | El instalador decide en sitio si se puede nivelar |
 
-Si el único espacio disponible es techado, el [Gusanitos, circuito de túneles apto para interiores](/inflables/gusanitos/), recibe niños de 2 a 8 años. Para bebés en un salón pequeño está el [Castillo Baby de 2.5 × 2 m](/inflables/mini-castillo/). Así tienes plan B y no pierdes la fiesta por el clima ni por el reglamento.
+Si el único espacio disponible es techado, el [Gusanitos, con resbaladilla doble y apto para interiores](/inflables/gusanitos/), recibe niños de 2 a 8 años. Para bebés en un salón pequeño está el [Castillo Baby de 2.5 × 2 m](/inflables/mini-castillo/). Así tienes plan B y no pierdes la fiesta por el clima ni por el reglamento.
 
 ![Inflable Gusanitos instalado en el área verde común de una privada](/img/inflables/gusanitos/gusanitos-privada-condominio.avif "Gusanitos en el área común de una privada")
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")

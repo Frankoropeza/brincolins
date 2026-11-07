@@ -28,7 +28,7 @@ faqs:
   - question: "¿Cuánto dulce calcular para los aguinaldos de una posada?"
     answer: "Como referencia, de 350 a 400 g por persona si cada invitado se lleva bolsita, y de 150 a 200 g por niño o de 250 a 300 g por adulto si los dulces solo se comen en la posada. La colación y los cacahuates pesan bastante, así que rinden en volumen."
   - question: "¿Se puede poner un inflable en una posada?"
-    answer: "Sí. Si la posada es bajo techo o en una noche fría, el inflable Gusanitos es apto para interiores con 3.2 m de altura libre y es para niños de 2 a 8 años. El inflable se cierra durante la procesión, la piñata y la cena, y nadie entra con dulces ni bebidas."
+    answer: "Sí. Si la posada es bajo techo o en una noche fría, el inflable Gusanitos es apto para interiores, según la altura del lugar que se confirma al cotizar, y es para niños de 2 a 8 años. El inflable se cierra durante la procesión, la piñata y la cena, y nadie entra con dulces ni bebidas."
 ---
 
 Los **dulces navideños mexicanos** de siempre son la colación, los buñuelos con piloncillo, los tejocotes, los cacahuates, la caña de azúcar y las mandarinas, junto con el ponche caliente. Van en la piñata, en los aguinaldos y en la mesa de posada. Con niños, lo importante es separar dulces duros, bebidas calientes e inflable en momentos distintos.
@@ -154,7 +154,7 @@ En una posada el inflable es la pausa de los niños entre la procesión, la piñ
 
 ### ¿Qué inflable elegir?
 
-- **[Inflable Gusanitos](/inflables/gusanitos/):** 5 × 3 × 2.80 m, para niños de 2 a 8 años. Es un recorrido corto: túnel verde de entrada, zona de brinco bajo arcos y resbaladilla doble con dos gusanos. Es apto para interiores si el techo deja 3.2 m de altura libre, así que entra en salones, garages altos y terrazas techadas cuando la noche está fría.
+- **[Inflable Gusanitos](/inflables/gusanitos/):** 5 × 3 × 2.80 m, para niños de 2 a 8 años. Es un recorrido corto: túnel verde de entrada, zona de brinco bajo arcos y resbaladilla doble con dos gusanos. Es apto para interiores, así que puede ir en salones, garages altos y terrazas techadas cuando la noche está fría; la altura del lugar se confirma al cotizar.
 - **[Inflable Jungla](/inflables/mini-jungla/):** 5 × 3 × 2.50 m, para niños de 3 a 8 años, con dinosaurios y palmeras. Solo en exterior: patio descubierto, jardín o calle cerrada.
 
 ### Corriente

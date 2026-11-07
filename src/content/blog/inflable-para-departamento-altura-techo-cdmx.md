@@ -25,7 +25,7 @@ faqs:
   - question: "¿Cuánto mide de alto el inflable más chico para casa?"
     answer: "El Castillo Baby mide 2 m de alto ya inflado, con 2.5 m de largo y 2 m de ancho. Aun así, pide 3.2 m de altura libre para instalarse bajo techo, así que la medida que debes comparar es la del techo de tu casa y no la del inflable."
   - question: "¿Un techo de 2.40 m sirve para un brincolín?"
-    answer: "No. Con 2.40 m no se instala ningún modelo del catálogo bajo techo, porque los dos aptos para interiores piden 3.2 m libres. Las alternativas son la azotea, el patio común, el salón de usos múltiples del edificio o la casa de un familiar con techo alto o jardín."
+    answer: "No. Con 2.40 m no se instala ningún modelo del catálogo bajo techo: el Castillo Baby pide 3.2 m libres y el Gusanitos mide 2.80 m de alto ya inflado. Las alternativas son la azotea, el patio común, el salón de usos múltiples del edificio o la casa de un familiar con techo alto o jardín."
   - question: "¿Se puede poner un inflable en la azotea de un edificio?"
     answer: "Sí, siempre que el piso sea plano y esté despejado, sin vidrio ni objetos punzantes, y haya una toma de 110 V a menos de 20 m. Antes de apartar, pide autorización a la administración del condominio y confirma por dónde se sube el equipo."
   - question: "¿El motor del inflable se apaga en algún momento de la fiesta?"
@@ -40,9 +40,9 @@ Un inflable para departamento necesita, antes que piso, altura. El [Castillo Bab
 
 **Puntos clave**
 
-- Solo dos modelos van bajo techo, Castillo Baby y Gusanitos, y ambos piden 3.2 m libres.
+- Solo dos modelos van bajo techo, Castillo Baby y Gusanitos; el Castillo Baby pide 3.2 m libres y en el Gusanitos se confirma con tu medida al cotizar.
 - Mide en tres puntos del área real, debajo de trabes, candiles y ventiladores, y quédate con la medida más baja.
-- Si no llegas a 3.2 m, cambia el lugar, no la fecha: azotea, patio común, jardín familiar o salón.
+- Si tu techo no da la altura, cambia el lugar, no la fecha: azotea, patio común, jardín familiar o salón.
 - El motor trabaja todo el evento con una toma de 110 V a menos de 20 m; avisa a vecinos y administración.
 - Al cotizar indica piso, elevador y escaleras para confirmar la maniobra antes del anticipo.
 
@@ -56,13 +56,13 @@ Ese margen permite que el inflable tome su forma y trabaje sin rozar techo, lám
 
 ## ¿Qué altura tienen los techos de un departamento en CDMX?
 
-Un departamento de interés social ronda los 2.3 a 2.4 m y uno estándar, de 2.4 a 2.7 m; las casas antiguas suelen pasar de 3 m. Esta tabla compara cada tipo de espacio contra los 3.2 m que piden los dos modelos aptos para interiores, para que ubiques tu renglón antes de medir.
+Un departamento de interés social ronda los 2.3 a 2.4 m y uno estándar, de 2.4 a 2.7 m; las casas antiguas suelen pasar de 3 m. Esta tabla compara cada tipo de espacio contra los dos modelos aptos para interiores (el Castillo Baby pide 3.2 m libres; el Gusanitos mide 2.80 m de alto y su altura libre se confirma al cotizar), para que ubiques tu renglón antes de medir.
 
-| Tipo de espacio | Altura típica del techo | Castillo Baby (3.2 m libres) | Gusanitos (3.2 m libres) |
+| Tipo de espacio | Altura típica del techo | Castillo Baby (3.2 m libres) | Gusanitos (2.80 m de alto) |
 |---|---|---|---|
 | Departamento de interés social | 2.3 a 2.4 m | No cabe | No cabe |
 | Departamento estándar | 2.4 a 2.7 m | No cabe | No cabe |
-| Casa antigua de techos altos | 3 m o más | Sólo si mides 3.2 m o más | Sólo si mides 3.2 m o más |
+| Casa antigua de techos altos | 3 m o más | Sólo si mides 3.2 m o más | Se confirma con tu medida |
 | Salón de usos múltiples o de fiestas | Variable | Se confirma midiendo | Se confirma midiendo |
 | Azotea o patio descubierto | Sin techo | Sí, con piso plano | Sí, con piso plano |
 
@@ -89,12 +89,12 @@ Muchos edificios tienen uno en planta baja, y la altura cambia de uno a otro: ha
 
 ## ¿Qué inflable para departamento cabe bajo techo y cuál no?
 
-Sólo dos de los ocho modelos del catálogo se instalan bajo techo: el Castillo Baby y el Gusanitos, ambos con 3.2 m de altura libre. Los otros seis van únicamente en exterior. La tabla junta medidas y altura libre de los ocho para que no tengas que abrir ficha por ficha.
+Sólo dos de los ocho modelos del catálogo se instalan bajo techo: el Castillo Baby y el Gusanitos. El Castillo Baby pide 3.2 m de altura libre; la del Gusanitos se confirma según el lugar al cotizar. Los otros seis van únicamente en exterior. La tabla junta medidas y altura libre de los ocho para que no tengas que abrir ficha por ficha.
 
 | Modelo | Medidas (largo × ancho × alto) | Altura libre necesaria | ¿Interiores? |
 |---|---|---|---|
 | Castillo Baby | 2.5 × 2 × 2 m | 3.2 m | Sí |
-| Gusanitos | 5 × 3 × 2.80 m | 3.2 m | Sí |
+| Gusanitos | 5 × 3 × 2.80 m | Se confirma al cotizar | Sí |
 | Jungla | 5 × 3 × 2.50 m | 4.2 m | No, sólo exterior |
 | Castillo de Princesas | 5 × 3.30 × 3 m | 4.2 m | No, sólo exterior |
 | Dragones Rojos | 5 × 3 × 2.80 m | 4.5 m | No, sólo exterior |
@@ -108,9 +108,9 @@ Los [precios netos de cada modelo](/precios/) están juntos en una sola página,
 
 Mide 2.5 × 2 × 2 m, recibe niños de 1 a 3 años y está pensado para interiores, terrazas y espacios reducidos. Se instala en 15 minutos y cuesta $1,400 netos por evento. Si la fiesta es de bebés y tu sala es justa, es tu modelo.
 
-### Gusanitos: circuito para edades mezcladas
+### Gusanitos: túnel, brinco y resbaladilla para edades mezcladas
 
-El [modelo Gusanitos, apto para interiores](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y recibe niños de 2 a 8 años. Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas. Pide la misma altura que el Castillo Baby, pero el doble de largo, así que necesita un salón amplio.
+El [modelo Gusanitos, apto para interiores](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y recibe niños de 2 a 8 años. Los niños entran por un túnel verde, brincan bajo arcos de colores y bajan por una resbaladilla doble con dos gusanos. Mide el doble de largo que el Castillo Baby, así que necesita un salón amplio; la altura libre se confirma según el lugar al cotizar.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
@@ -169,10 +169,10 @@ Cuando ya tengas el número del flexómetro, ubícalo aquí. La tabla no reempla
 
 | Altura libre que mediste | Qué significa | Siguiente paso |
 |---|---|---|
-| Menos de 3.2 m | Ningún modelo entra bajo techo | Busca azotea, patio común o jardín y mide ese espacio |
-| 3.2 m justos | Entra, pero sin margen para errores de medición | Vuelve a medir en el punto más bajo y manda foto de trabes y lámparas |
+| Menos de 3.2 m | No entra el Castillo Baby; el Gusanitos se confirma con tu medida | Mándanos la medida; si no alcanza, busca azotea, patio común o jardín |
+| 3.2 m justos | Entra el Castillo Baby, pero sin margen para errores de medición | Vuelve a medir en el punto más bajo y manda foto de trabes y lámparas |
 | Más de 3.2 m, con 2.5 × 2 m de piso | Cabe el Castillo Baby | Confirma que el rectángulo quede lejos de vidrio y muebles |
-| Más de 3.2 m, con 5 × 3 m de piso | Pueden entrar el Castillo Baby o el Gusanitos | Elige por edades: de 1 a 3 años o de 2 a 8 años |
+| Más de 3.2 m, con 5 × 3 m de piso | Cabe el Castillo Baby; el Gusanitos se confirma con tu medida | Elige por edades: de 1 a 3 años o de 2 a 8 años |
 | Espacio sin techo | La altura deja de ser problema | Revisa piso plano, contacto a menos de 20 m y acceso |
 
 ### Si eliges la azotea, revisa tres cosas más

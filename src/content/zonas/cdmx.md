@@ -13,7 +13,7 @@ Rentar un inflable en la Ciudad de México cuesta de $1,400 a $2,600 por evento 
 **Puntos clave**
 
 - Llegamos a las 16 alcaldías; cada una tiene su página con colonias, cargo de envío y modelos recomendados.
-- Bajo techo solo caben el Castillo Baby y los Gusanitos, que piden 3.2 m de altura libre.
+- Bajo techo solo caben el Castillo Baby, que pide 3.2 m de altura libre, y los Gusanitos, que se confirman según la altura del lugar al cotizar.
 - Necesitas una toma de 110 V a menos de 20 m y un piso plano y despejado.
 - Apartas con el 50% de anticipo y, si llueve, reprogramamos sin costo.
 
@@ -21,7 +21,7 @@ La Ciudad de México no se planea igual de norte a sur. En el centro predominan 
 
 ### Centro: departamentos, azoteas y patios
 
-En [Cuauhtémoc](/cobertura/cuauhtemoc/) y [Benito Juárez](/cobertura/benito-juarez/) la mayoría de las fiestas se hacen en azoteas, patios de edificio, estacionamientos o salones. Lo que más pesa es el acceso: elevador o escaleras, dónde se detiene el vehículo y la altura libre si el espacio está techado. Los modelos aptos bajo techo, el Castillo Baby y los Gusanitos, piden 3.2 m de altura libre; los encuentras en [inflables para interiores](/inflables/para-interiores/).
+En [Cuauhtémoc](/cobertura/cuauhtemoc/) y [Benito Juárez](/cobertura/benito-juarez/) la mayoría de las fiestas se hacen en azoteas, patios de edificio, estacionamientos o salones. Lo que más pesa es el acceso: elevador o escaleras, dónde se detiene el vehículo y la altura libre si el espacio está techado. Los modelos aptos bajo techo son el Castillo Baby, que pide 3.2 m de altura libre, y los Gusanitos, que se confirman según la altura del lugar al cotizar; los encuentras en [inflables para interiores](/inflables/para-interiores/).
 
 Es también la zona donde el traslado no tiene costo adicional en más colonias: Roma, Narvarte, Doctores, Santa María la Ribera y Reforma.
 

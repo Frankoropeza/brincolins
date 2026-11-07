@@ -60,7 +60,7 @@ Este es el catálogo con sus precios netos por evento:
 - **[Dragones Rojos](/inflables/dragones-rojos/)**: 5 × 3 × 2.80 m, para niños de 3 a 8 años. El modelo más rentado del catálogo. **$1,600 MXN**.
 - **[Castillo de Princesas](/inflables/castillo-princesas/)**: 5 × 3.30 × 3 m, para niños de 2 a 10 años, en rosa y azul turquesa. **$1,800 MXN**.
 - **[Jungla](/inflables/mini-jungla/)**: 5 × 3 × 2.50 m, para niños de 3 a 8 años. **$1,600 MXN**.
-- **[Gusanitos](/inflables/gusanitos/)**: 5 × 3 × 2.80 m, circuito de túneles para niños de 2 a 8 años; funciona bien con edades mezcladas. **$1,600 MXN**.
+- **[Gusanitos](/inflables/gusanitos/)**: 5 × 3 × 2.80 m, túnel de entrada, zona de brinco bajo arcos y resbaladilla doble para niños de 2 a 8 años; funciona bien con edades mezcladas. **$1,600 MXN**.
 - **[Castillo Blanco](/inflables/castillo-blanco/)**: 5 × 7 × 4 m, para niños de 3 a 12 años; también se usa en eventos formales. **$2,600 MXN**.
 - **[Barco Pirata](/inflables/barco-pirata/)**: 6 × 3.5 × 3.80 m, para niños de 3 a 12 años. **$2,300 MXN**.
 - **[Extremo](/inflables/extremo/)**: 8 × 4.5 × 3.50 m, circuito de obstáculos para niños de 3 a 12 años. **$2,500 MXN**.

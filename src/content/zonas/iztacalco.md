@@ -18,7 +18,7 @@ Iztacalco es la alcaldía más pequeña de la Ciudad de México, y eso se nota e
 
 **Azotea.** En casas donde la planta baja es comercio o cochera ocupada, la azotea es el único espacio libre. Revisa pretil, piso y tinacos; lo detallamos en [qué revisar antes de instalar en azotea](/blog/inflable-en-azotea-que-revisar-cdmx/).
 
-**Departamento.** Si la fiesta es adentro, el [Castillo Baby](/inflables/mini-castillo/) y los Gusanitos son los únicos aptos bajo techo y piden 3.2 m de altura libre, más de lo que tiene un departamento estándar.
+**Departamento.** Si la fiesta es adentro, el [Castillo Baby](/inflables/mini-castillo/) y los Gusanitos son los únicos aptos bajo techo. El Castillo Baby pide 3.2 m de altura libre, más de lo que tiene un departamento estándar, y para los Gusanitos se confirma según la altura del lugar al cotizar.
 
 | Espacio | Lo que hay que medir | Punto de partida |
 |---|---|---|

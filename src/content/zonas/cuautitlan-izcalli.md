@@ -17,7 +17,7 @@ En colonias como **Arcos del Alba**, **Cumbria** o las secciones Infonavit, la c
 
 - Si el patio es chico y la fiesta es de bebé, el [Castillo Baby](/inflables/mini-castillo/) ocupa 2.5 × 2 m.
 - Si el patio da 5 m de largo y los niños tienen de 3 a 8 años, cualquiera de los modelos medianos puede funcionar.
-- Si el patio tiene techo, sólo caben los que piden 3.2 m de altura libre: el Castillo Baby y el Gusanitos.
+- Si el patio tiene techo, sólo caben el Castillo Baby, que pide 3.2 m de altura libre, y el Gusanitos, que se confirma según la altura del lugar al cotizar.
 
 Para escoger entre los modelos de 5 × 3 m, revisa la sección de [brincolines para niños](/inflables/para-ninos/).
 

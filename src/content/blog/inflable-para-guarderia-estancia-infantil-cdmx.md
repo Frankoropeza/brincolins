@@ -24,13 +24,13 @@ faqs:
   - question: "¿Los lactantes pueden usar el inflable de la guardería?"
     answer: "No. El Castillo Baby es para niños de 1 a 3 años, así que los lactantes se quedan fuera aunque ya den sus primeros pasos. Pueden ver la actividad desde su sala o en brazos del personal, pero no entran en ningún turno."
   - question: "¿Se puede instalar un inflable dentro de la guardería?"
-    answer: "Sí, si el espacio tiene 3.2 m de altura libre, piso plano y despejado y una toma de 110 V a menos de 20 m. El Castillo Baby y el Gusanitos son los dos modelos del catálogo aptos para interiores; los demás van sólo en exterior."
+    answer: "Sí, si el espacio tiene la altura libre del modelo (3.2 m para el Castillo Baby; en el Gusanitos se confirma al cotizar), piso plano y despejado y una toma de 110 V a menos de 20 m. El Castillo Baby y el Gusanitos son los dos modelos del catálogo aptos para interiores; los demás van sólo en exterior."
   - question: "¿Dan factura a guarderías y escuelas?"
     answer: "Sí. Los precios publicados son netos y, si la institución requiere factura, se agrega 16% de IVA. Pide la factura desde la cotización para que el monto ya lo considere y el trámite interno de pago no se atore después."
   - question: "¿El proveedor del inflable cuida a los niños?"
     answer: "No. La supervisión durante todo el evento la hace el personal de la institución o una persona adulta designada. Nosotros entregamos el equipo revisado y sanitizado, instalamos con anclaje verificado, dejamos el motor funcionando y recolectamos al final."
   - question: "¿Qué inflable sirve para preescolar en una estancia?"
-    answer: "Para niños de más de 3 años, el Gusanitos recibe de 2 a 8 años y funciona en interiores con 3.2 m de altura libre. Si la estancia tiene patio amplio, Dragones Rojos o Jungla reciben de 3 a 8 años, sólo en exterior."
+    answer: "Para niños de más de 3 años, el Gusanitos recibe de 2 a 8 años y es apto para interiores; la altura del lugar se confirma al cotizar. Si la estancia tiene patio amplio, Dragones Rojos o Jungla reciben de 3 a 8 años, sólo en exterior."
   - question: "¿Cuánto tarda en instalarse el inflable en la guardería?"
     answer: "El Castillo Baby se instala en 15 minutos una vez que el equipo está en el lugar, con anclaje verificado. Conviene acordar la hora de llegada al cotizar para que quede listo antes de que llegue la primera sala y no interrumpa la rutina del día."
 ---
@@ -85,7 +85,7 @@ No hay turno especial ni excepción para los que ya caminan si todavía no cumpl
 
 ### Preescolar: otro modelo
 
-Los niños que ya pasaron los 3 años salen del rango del Castillo Baby. Para ellos, el [inflable Gusanitos para preescolar](/inflables/gusanitos/) recibe de 2 a 8 años, mide 5 × 3 × 2.80 m y también es apto para interiores con 3.2 m libres. Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas, y funciona con grupos de edades mezcladas. ¿Tienes patio amplio? Dragones Rojos o Jungla reciben de 3 a 8 años, sólo en exterior.
+Los niños que ya pasaron los 3 años salen del rango del Castillo Baby. Para ellos, el [inflable Gusanitos para preescolar](/inflables/gusanitos/) recibe de 2 a 8 años, mide 5 × 3 × 2.80 m y también es apto para interiores; la altura del salón se confirma al cotizar. Los niños entran por un túnel, brincan bajo arcos de colores y bajan por una resbaladilla doble, y funciona con grupos de edades mezcladas. ¿Tienes patio amplio? Dragones Rojos o Jungla reciben de 3 a 8 años, sólo en exterior.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")

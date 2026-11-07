@@ -142,11 +142,11 @@ export const CATEGORIAS: Categoria[] = [
     productos: ["mini-castillo", "dragones-rojos", "castillo-princesas", "mini-jungla", "gusanitos"],
     faqs: [
       { question: "¿Desde qué edad puede un niño usar un inflable?", answer: "Desde los 12 meses, en un modelo de paredes bajas y con un adulto vigilando todo el tiempo. El Castillo Baby es el único del catálogo pensado para 1 a 3 años. Los modelos con resbaladilla se recomiendan a partir de los 2 o 3 años, según la ficha de cada uno." },
-      { question: "¿Pueden brincar juntos niños de edades muy distintas?", answer: "Sí, pero conviene separarlos por turnos cuando la diferencia de edad es grande, porque el rebote desequilibra a los más chicos. Un turno para pequeños y otro para grandes evita empujones. En fiestas mixtas recomendamos Gusanitos, que reparte a los niños entre varias entradas y salidas." },
+      { question: "¿Pueden brincar juntos niños de edades muy distintas?", answer: "Sí, pero conviene separarlos por turnos cuando la diferencia de edad es grande, porque el rebote desequilibra a los más chicos. Un turno para pequeños y otro para grandes evita empujones. En fiestas mixtas recomendamos Gusanitos: los niños entran por el túnel, brincan y bajan por la resbaladilla doble, así que el grupo se reparte a lo largo de sus 5 m." },
       { question: "¿Qué inflable conviene para un niño de 5 o 6 años?", answer: "Dragones Rojos y Jungla, ambos de 3 a 8 años y con resbaladilla corta, son los más pedidos en esa edad. Si la fiesta es de niña y tiene temática, el Castillo de Princesas cubre de 2 a 10 años. Los tres requieren espacio al aire libre." },
       { question: "¿Necesito a alguien que cuide a los niños en el inflable?", answer: "Sí. Nosotros entregamos, instalamos y recogemos, pero durante la fiesta un adulto de tu evento debe estar atento al área de salto. Es un requisito de seguridad, no un servicio adicional." },
       { question: "¿Qué pasa si llueve el día de la fiesta infantil?", answer: "Un inflable no debe usarse con lluvia porque la lona se vuelve resbalosa. Si el pronóstico es malo, avísanos y reprogramamos la fecha sin costo. Si ya está instalado, se apaga hasta que pase la lluvia." },
-      { question: "¿Hay un inflable para niños que quepa bajo techo?", answer: "Sí, dos: el Castillo Baby y Gusanitos, ambos con altura libre requerida de 3.2 m según su ficha. Los otros tres modelos para niños son de exterior. Mándanos la altura del techo por WhatsApp antes de apartar." },
+      { question: "¿Hay un inflable para niños que quepa bajo techo?", answer: "Sí, dos: el Castillo Baby, con altura libre requerida de 3.2 m según su ficha, y Gusanitos, cuya instalación en interiores se confirma según la altura del lugar al cotizar. Los otros tres modelos para niños son de exterior. Mándanos la altura del techo por WhatsApp antes de apartar." },
     ],
     grupo: "publico",
     prioridad: 1,
@@ -325,11 +325,11 @@ export const CATEGORIAS: Categoria[] = [
     description: "Inflables chicos para patios, terrazas y fiestas de pocos niños: Castillo Baby $1,400 y Gusanitos $1,600, con instalación. Mándanos tus medidas y cotiza.",
     keyword: "renta de inflables chicos",
     anchor:  "inflables pequeños",
-    respuesta: "Para espacios reducidos rentamos dos inflables chicos: el Castillo Baby ($1,400), de 2.5×2×2 m para niños de 1 a 3 años, y Gusanitos ($1,600), de 5×3×2.80 m para 2 a 8 años. Ambos se instalan bajo techo con 3.2 m de altura libre e incluyen instalación y recolección.",
+    respuesta: "Para espacios reducidos rentamos dos inflables chicos: el Castillo Baby ($1,400), de 2.5×2×2 m para niños de 1 a 3 años, y Gusanitos ($1,600), de 5×3×2.80 m para 2 a 8 años. Ambos se instalan bajo techo (el Castillo Baby con 3.2 m de altura libre; en Gusanitos la altura se confirma al cotizar) e incluyen instalación y recolección.",
     puntosClave: [
       "Castillo Baby: el inflable más compacto y económico del catálogo.",
       "Gusanitos: forma alargada para patios largos, pasillos de jardín o salones.",
-      "Los dos funcionan en interiores con 3.2 m de altura libre.",
+      "Los dos funcionan en interiores: Castillo Baby con 3.2 m de altura libre; Gusanitos, según la altura del lugar al cotizar.",
       "Ideales para fiestas de pocos invitados o patios de casa.",
     ],
     intro: [
@@ -428,12 +428,12 @@ export const CATEGORIAS: Categoria[] = [
     badge: "Bajo techo",
     h1:   "Renta de inflables para interiores: los 2 modelos que caben en un salón",
     title: "Renta de inflables para interiores: desde $1,400",
-    description: "Inflables para salón o espacio techado: Castillo Baby $1,400 y Gusanitos $1,600, con 3.2 m de altura libre e instalación incluida. Revisa requisitos.",
+    description: "Inflables para salón o espacio techado: Castillo Baby $1,400 y Gusanitos $1,600, con instalación incluida. Revisa altura libre y requisitos.",
     keyword: "renta de inflables para interiores",
     anchor:  "inflables para interiores",
-    respuesta: "Sólo dos de nuestros inflables se instalan bajo techo: el Castillo Baby ($1,400), para 1 a 3 años, y Gusanitos ($1,600), para 2 a 8 años. Ambos necesitan 3.2 m de altura libre, un acceso de 90 cm y una toma de 110 V a menos de 20 m. Incluyen instalación y recolección.",
+    respuesta: "Sólo dos de nuestros inflables se instalan bajo techo: el Castillo Baby ($1,400), para 1 a 3 años, y Gusanitos ($1,600), para 2 a 8 años. El Castillo Baby necesita 3.2 m de altura libre; en Gusanitos la altura se confirma al cotizar. Ambos piden un acceso de 90 cm y una toma de 110 V a menos de 20 m. Incluyen instalación y recolección.",
     puntosClave: [
-      "Altura libre requerida: 3.2 m, medida al punto más bajo del techo.",
+      "Altura libre: 3.2 m para el Castillo Baby; en Gusanitos se confirma al cotizar. Se mide al punto más bajo del techo.",
       "Anclaje con contrapesos: nunca perforamos el piso.",
       "Acceso mínimo de 90 cm; el inflable llega enrollado.",
       "Precios de $1,400 y $1,600 por evento; traslado según zona.",
@@ -445,7 +445,7 @@ export const CATEGORIAS: Categoria[] = [
     guiaTitle: "Requisitos para instalar un inflable bajo techo",
     guiaSub:   "Altura libre, acceso, piso y toma de corriente.",
     guia: [
-      "La altura libre es el primer filtro. Se mide del piso al punto más bajo del techo en el área de instalación, descontando lámparas colgantes, ventiladores, ductos y trabes. El Castillo Baby y Gusanitos piden 3.2 m según su ficha. Si tu salón tiene techo más bajo, mándanos la medida antes de reservar y te decimos si es viable.",
+      "La altura libre es el primer filtro. Se mide del piso al punto más bajo del techo en el área de instalación, descontando lámparas colgantes, ventiladores, ductos y trabes. El Castillo Baby pide 3.2 m según su ficha; en Gusanitos se confirma según la altura del lugar al cotizar. Si tu salón tiene techo más bajo, mándanos la medida antes de reservar y te decimos si es viable.",
       "Después vienen el acceso, el piso y la corriente. El inflable necesita una puerta de al menos 90 cm y un recorrido sin escalones estrechos. El piso debe estar seco y sin objetos punzantes; como en interiores no se estaca, anclamos con contrapesos. La toma de 110 V debe quedar a menos de 20 metros y conviene no compartirla con el equipo de sonido.",
     ],
     incluyeNota: "En salones de fiestas coordinamos con el encargado del lugar el horario de acceso y el punto de corriente antes del día del evento.",
@@ -463,7 +463,7 @@ export const CATEGORIAS: Categoria[] = [
     ],
     productos: ["mini-castillo", "gusanitos"],
     faqs: [
-      { question: "¿Qué altura de techo necesito para un inflable en interiores?", answer: "3.2 m de altura libre para el Castillo Baby y Gusanitos, según su ficha. Se mide al punto más bajo del techo, descontando lámparas, ventiladores y trabes." },
+      { question: "¿Qué altura de techo necesito para un inflable en interiores?", answer: "3.2 m de altura libre para el Castillo Baby, según su ficha; en Gusanitos se confirma según la altura del lugar al cotizar. Se mide al punto más bajo del techo, descontando lámparas, ventiladores y trabes." },
       { question: "¿Pasa el inflable por una puerta estándar?", answer: "Sí. Llega desinflado y enrollado y necesita un acceso de al menos 90 cm. Avísanos si hay escaleras, pasillos con vuelta cerrada o elevadores pequeños, porque cambian el tiempo de montaje." },
       { question: "¿Cómo se ancla un inflable si no se puede estacar el piso?", answer: "Con contrapesos, que forman parte del equipo de instalación. En loseta, cemento o duela nunca perforamos el piso. El margen alrededor del inflable se respeta igual que en exteriores." },
       { question: "¿Cuánto ruido hace el motor dentro de un salón?", answer: "El motor trabaja de forma continua y en un espacio cerrado se nota más que al aire libre. Lo colocamos lo más lejos posible de las mesas y del área de sonido." },
@@ -556,7 +556,7 @@ export const CATEGORIAS: Categoria[] = [
     guiaSub:   "Con medidas parecidas, deciden el tema y el techo.",
     guia: [
       "Tres de los cuatro comparten formato: Dragones Rojos mide 5×3×2.80 m, Castillo de Princesas 5×3.30×3 m y Jungla 5×3×2.50 m; los tres son de exterior y piden de 4.2 a 4.5 m de altura libre. Entre ellos decide la temática: Dragones Rojos es el más rentado y funciona con público mixto, el Castillo de Princesas es el favorito en cumpleaños de niña y la Jungla cubre safari, dinosaurios y naturaleza.",
-      "Gusanitos mide 5×3×2.80 m y pide sólo 3.2 m de altura libre, así que es el único mediano apto para interiores. Su recorrido de túnel, brinco y resbaladilla doble reparte a los niños en lugar de concentrarlos en un solo punto. Si tu espacio es techado o alargado, Gusanitos es la respuesta directa; si es un jardín abierto, elige por tema.",
+      "Gusanitos mide 5×3×2.80 m y es el único mediano apto para interiores; la altura libre se confirma según el lugar al cotizar. Su recorrido de túnel, brinco y resbaladilla doble reparte a los niños en lugar de concentrarlos en un solo punto. Si tu espacio es techado o alargado, Gusanitos es la respuesta directa; si es un jardín abierto, elige por tema.",
     ],
     incluyeNota: "Los medianos son los que más se rentan en fin de semana: conviene apartar con anticipación en temporada alta.",
     guias: [
@@ -577,7 +577,7 @@ export const CATEGORIAS: Categoria[] = [
       { question: "¿Cuál es el inflable mediano más rentado?", answer: "Dragones Rojos. Combina resbaladilla integrada, mallas laterales y una temática que funciona con niños y niñas de 3 a 8 años." },
       { question: "¿Qué diferencia hay entre un mediano de $1,600 y uno de $1,800?", answer: "El Castillo de Princesas ($1,800) es un poco más ancho y alto, 5×3.30×3 m, y cubre un rango de edad más amplio, de 2 a 10 años. Los de $1,600 se diferencian entre sí por temática y tipo de juego." },
       { question: "¿Un inflable mediano sirve para una fiesta de 20 niños?", answer: "Sí, organizando turnos. La capacidad simultánea se confirma al cotizar. Si prefieres que todos brinquen a la vez, compara con un modelo grande." },
-      { question: "¿Algún inflable mediano se puede poner en un salón?", answer: "Gusanitos, que pide 3.2 m de altura libre. Dragones Rojos, Castillo de Princesas y Jungla son de exterior." },
+      { question: "¿Algún inflable mediano se puede poner en un salón?", answer: "Gusanitos, que es apto para interiores; la altura del salón se confirma al cotizar. Dragones Rojos, Castillo de Princesas y Jungla son de exterior." },
     ],
     grupo: "tamano",
     prioridad: 3,
@@ -609,7 +609,7 @@ export const CATEGORIAS: Categoria[] = [
     guiaSub:   "La edad y el lugar deciden cuál de los dos formatos funciona.",
     guia: [
       "El Extremo está hecho para competir. Sus 8 metros de pista con obstáculos terminan en un tobogán dividido en dos carriles, así que dos participantes recorren el trayecto al mismo tiempo. Ese formato genera público, turnos y ganadores, y por eso es el más contratado para kermeses escolares y eventos de empresa. Es de exterior y pide 4.5 m de altura libre.",
-      "Gusanitos aplica la misma lógica a una edad menor. Su túnel de entrada, la zona de brinco y la resbaladilla doble forman un recorrido de exploración, no una carrera: los niños de 2 a 8 años entran por un lado y bajan por el otro, lo que reparte al grupo. Pide 3.2 m de altura libre, así que funciona en salones donde el Extremo no cabe. Si el evento es competitivo y al aire libre, Extremo; si es infantil o bajo techo, Gusanitos.",
+      "Gusanitos aplica la misma lógica a una edad menor. Su túnel de entrada, la zona de brinco y la resbaladilla doble forman un recorrido de exploración, no una carrera: los niños de 2 a 8 años entran por un lado y bajan por el otro, lo que reparte al grupo. Es apto para interiores (la altura del lugar se confirma al cotizar), así que funciona en salones donde el Extremo no cabe. Si el evento es competitivo y al aire libre, Extremo; si es infantil o bajo techo, Gusanitos.",
     ],
     incluyeNota: "En kermeses y eventos escolares instalamos el circuito antes de la llegada de los grupos para que los turnos arranquen a tiempo.",
     guias: [
@@ -630,7 +630,7 @@ export const CATEGORIAS: Categoria[] = [
       { question: "¿Se pueden hacer carreras de dos participantes?", answer: "Sí, es el diseño del Extremo: dos carriles paralelos para recorrer el trayecto al mismo tiempo y llegar juntos al tobogán. Cuántas personas entran por turno se confirma al cotizar." },
       { question: "¿Cuánto cuesta rentar un circuito inflable?", answer: "El Extremo cuesta $2,500 y Gusanitos $1,600 por evento, con instalación, motor inflador, sanitización y recolección. El traslado depende de la zona." },
       { question: "¿Sirve un circuito inflable para una kermés o el Día del Niño?", answer: "Es uno de sus mejores usos: genera fila ordenada y turnos cortos cuando hay muchos niños. Recomendamos un adulto encargado del inflable y turnos por grado o grupo." },
-      { question: "¿Qué espacio necesita un circuito inflable?", answer: "El Extremo mide 8×4.5 m y sólo se instala en exteriores con 4.5 m de altura libre. Gusanitos mide 5×3 m y puede ir bajo techo con 3.2 m de altura libre." },
+      { question: "¿Qué espacio necesita un circuito inflable?", answer: "El Extremo mide 8×4.5 m y sólo se instala en exteriores con 4.5 m de altura libre. Gusanitos mide 5×3 m y puede ir bajo techo; en interiores se confirma según la altura del lugar al cotizar." },
     ],
     grupo: "tipo",
     prioridad: 3,

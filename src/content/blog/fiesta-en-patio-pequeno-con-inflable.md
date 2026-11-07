@@ -35,7 +35,7 @@ faqs:
     answer: "El montaje del Gusanitos o del Castillo Baby toma de 15 a 30 minutos. A eso se suma el traslado del equipo hasta el área, así que avisa al cotizar si hay escaleras, pasillos angostos o puertas chicas. Con esos datos se confirma la viabilidad antes de que apartes."
 ---
 
-Para un patio pequeño compara dos huellas: el [Gusanitos para patios alargados](/inflables/gusanitos/) ocupa 5 × 3 m, es para niños de 2 a 8 años y cuesta $1,600; el [Castillo Baby compacto](/inflables/mini-castillo/) ocupa 2.5 × 2 m, es para niños de 1 a 3 años y cuesta $1,400. Ambos piden 3.2 m de altura libre.
+Para un patio pequeño compara dos huellas: el [Gusanitos para patios alargados](/inflables/gusanitos/) ocupa 5 × 3 m, es para niños de 2 a 8 años y cuesta $1,600; el [Castillo Baby compacto](/inflables/mini-castillo/) ocupa 2.5 × 2 m, es para niños de 1 a 3 años y cuesta $1,400. El Castillo Baby pide 3.2 m de altura libre; en el Gusanitos se confirma según la altura del lugar al cotizar.
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 ![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
@@ -90,7 +90,7 @@ Marca las puertas que se usan durante la fiesta y las ventanas bajas. El inflabl
 
 ### Altura libre: tendederos, cables y volados
 
-Es la medida que más se olvida. Que no te pase. Tendederos, cables, volados de techo y ramas cruzan a poca altura. El Gusanitos y el Castillo Baby piden 3.2 m libres; los modelos de exterior, entre 4.2 y 5.2 m. Mide en el punto más bajo sobre el área del inflable.
+Es la medida que más se olvida. Que no te pase. Tendederos, cables, volados de techo y ramas cruzan a poca altura. El Castillo Baby pide 3.2 m libres y en el Gusanitos se confirma al cotizar; los modelos de exterior, entre 4.2 y 5.2 m. Mide en el punto más bajo sobre el área del inflable.
 
 ### La corriente a menos de 20 metros
 
@@ -108,7 +108,7 @@ Esta tabla compara los ocho modelos ordenados por huella de piso, con altura lib
 | Modelo | Huella (largo × ancho) | Alto | Altura libre | ¿Interiores? | Edades | Precio neto |
 |---|---|---|---|---|---|---|
 | Castillo Baby | 2.5 × 2 m | 2 m | 3.2 m | Sí | 1 a 3 años | $1,400 |
-| Gusanitos | 5 × 3 m | 2.80 m | 3.2 m | Sí | 2 a 8 años | $1,600 |
+| Gusanitos | 5 × 3 m | 2.80 m | Se confirma al cotizar | Sí | 2 a 8 años | $1,600 |
 | Jungla | 5 × 3 m | 2.50 m | 4.2 m | No, sólo exterior | 3 a 8 años | $1,600 |
 | Dragones Rojos | 5 × 3 m | 2.80 m | 4.5 m | No, sólo exterior | 3 a 8 años | $1,600 |
 | Castillo de Princesas | 5 × 3.30 m | 3 m | 4.2 m | No, sólo exterior | 2 a 10 años | $1,800 |
@@ -120,7 +120,7 @@ La selección completa para espacios reducidos está en el [catálogo de inflabl
 
 ### Gusanitos: alargado y con poca altura
 
-El Gusanitos mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años, se instala en 15 a 30 minutos y cuesta $1,600 por evento. Su forma alargada se acomoda en patios angostos y jardines entre bardas. Es un circuito con varias entradas y salidas; si quieres entender qué cambia, lee sobre el [circuito inflable de túneles frente a un brincolín](/blog/circuito-de-tuneles-vs-brincolin/).
+El Gusanitos mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años, se instala en 15 a 30 minutos y cuesta $1,600 por evento. Su forma alargada se acomoda en patios angostos y jardines entre bardas. Tiene túnel de entrada, zona de brinco bajo arcos y resbaladilla doble; si dudas entre tipos de inflable, lee la [comparativa entre circuito y brincolín](/blog/circuito-de-tuneles-vs-brincolin/).
 
 ¿Tu patio tiene volado o techo? El Gusanitos también es apto para interiores. Para esos casos, sobre todo en temporada de lluvias, revisa la guía de [inflable bajo techo cuando llueve](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/).
 

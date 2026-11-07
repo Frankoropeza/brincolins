@@ -30,7 +30,7 @@ faqs:
   - question: "¿Se puede usar el inflable mientras se come?"
     answer: "Es mejor cerrarlo durante la comida. Los niños comen sentados, la persona que supervisa también come y se evita que entren con comida en la boca o en las manos. Además, ningún alimento ni bebida debe entrar al inflable en ningún momento."
   - question: "¿Qué pasa si llueve el día de la reunión?"
-    answer: "Si la lluvia impide el evento, la fecha se reprograma sin costo. Si empieza a llover durante la reunión, se suspende el uso del inflable hasta que pare y la superficie esté seca. Los modelos aptos para interiores son el Castillo Baby y Gusanitos, con 3.2 m de altura libre, por si tienes un espacio techado amplio."
+    answer: "Si la lluvia impide el evento, la fecha se reprograma sin costo. Si empieza a llover durante la reunión, se suspende el uso del inflable hasta que pare y la superficie esté seca. Los modelos aptos para interiores son el Castillo Baby, con 3.2 m de altura libre, y Gusanitos, cuya altura se confirma según el lugar al cotizar, por si tienes un espacio techado amplio."
   - question: "¿Los adultos pueden subirse al inflable en la reunión?"
     answer: "Sólo en los tres modelos que lo permiten: Extremo, Barco Pirata y Castillo Blanco, con turnos aparte y sin mezclar con niños pequeños. El número de personas por turno se confirma al cotizar. En los demás modelos, el inflable es sólo para niños."
 howto:
@@ -121,7 +121,7 @@ En una reunión familiar casi nunca hay un grupo homogéneo. Puede haber un beb�
 | Si la mayoría de los primos tiene... | Modelo | Precio | Medidas | Altura libre |
 |---|---|---|---|---|
 | 1 a 3 años | Castillo Baby | $1,400 | 2.5 × 2 × 2 m | 3.2 m |
-| 2 a 8 años, edades mezcladas | Gusanitos | $1,600 | 5 × 3 × 2.80 m | 3.2 m |
+| 2 a 8 años, edades mezcladas | Gusanitos | $1,600 | 5 × 3 × 2.80 m | Se confirma al cotizar |
 | 3 a 8 años | Dragones Rojos | $1,600 | 5 × 3 × 2.80 m | 4.5 m |
 | 3 a 8 años | Jungla | $1,600 | 5 × 3 × 2.50 m | 4.2 m |
 | 2 a 10 años | Castillo de Princesas | $1,800 | 5 × 3.30 × 3 m | 4.2 m |

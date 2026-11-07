@@ -42,7 +42,7 @@ const faqs = [
   { question: "¿Cuántos modelos de inflables tienen disponibles?", answer: "Ocho modelos propios: Castillo Baby, Dragones Rojos, Castillo de Princesas, Jungla, Gusanitos, Castillo Blanco, Barco Pirata y Extremo. Los organizamos en 11 categorías —por tamaño, por tipo y por público— porque cada modelo sirve para varios tipos de evento." },
   { question: "¿Cuál es el inflable más económico del catálogo?", answer: "Castillo Baby, desde $1,400 MXN por evento. Está diseñado para niños de 1 a 3 años y mide 2.5 × 2 × 2 m. Para conocer el espacio de instalación, confirma los detalles al cotizar." },
   { question: "¿Cuál es el inflable más rentado?", answer: "Dragones Rojos. Mide 5 × 3 × 2.80 m y está indicado para niños de 3 a 8 años, un rango frecuente en cumpleaños infantiles en CDMX." },
-  { question: "¿Qué inflables caben bajo techo?", answer: "Solo dos: el Castillo Baby y los Gusanitos, que piden 3.2 m de altura libre del piso al punto más bajo del techo. El resto del catálogo necesita de 4.2 a 5.2 m, así que va al aire libre. Mide descontando lámparas, ventiladores y trabes, y confírmalo al cotizar." },
+  { question: "¿Qué inflables caben bajo techo?", answer: "Solo dos: el Castillo Baby, que pide 3.2 m de altura libre del piso al punto más bajo del techo, y los Gusanitos, cuya instalación en interiores se confirma según la altura del lugar al cotizar. El resto del catálogo necesita de 4.2 a 5.2 m, así que va al aire libre. Mide descontando lámparas, ventiladores y trabes, y confírmalo al cotizar." },
   { question: "¿Puedo rentar más de un inflable para el mismo evento?", answer: "Sí, y es lo habitual en kermeses escolares, eventos de empresa y ferias. A partir de tres inflables incluimos coordinador de logística sin costo adicional. Hay que verificar el área libre sumada y que existan tomas de corriente independientes." },
   { question: "¿Todos los inflables incluyen entrega e instalación?", answer: "Sí: entrega a domicilio, instalación profesional, motor inflador, sanitización y recolección al finalizar, en los ocho modelos. La entrega sin costo adicional aplica solo en Roma, Polanco, Narvarte, Doctores, Santa María la Ribera, Reforma, algunas zonas de Iztapalapa y algunas zonas de Xochimilco; en el resto de CDMX y Estado de México se cotiza el traslado según zona. El precio publicado es neto; si necesitas factura se agrega el 16% de IVA." },
   { question: "¿Cómo aparto una fecha del catálogo?", answer: "Escríbenos por WhatsApp con el modelo, la fecha y la zona de entrega. Confirmamos disponibilidad en minutos. Para apartar se requiere un anticipo del 50% y el saldo se liquida el día del evento, antes de la instalación." },
@@ -136,7 +136,7 @@ const hubSchema = {
         <div class="elegir__box">
           <h3>Por espacio</h3>
           <ul>
-            <li><strong>Bajo techo:</strong> solo Castillo Baby y Gusanitos, con 3.2 m de altura libre.</li>
+            <li><strong>Bajo techo:</strong> solo Castillo Baby (3.2 m de altura libre) y Gusanitos (la altura se confirma al cotizar).</li>
             <li><strong>Patio o jardín mediano:</strong> los modelos de unos 5 × 3 m, como Dragones Rojos, Jungla o Castillo de Princesas.</li>
             <li><strong>Jardín o terreno amplio:</strong> Barco Pirata (6 × 3.5 m), Castillo Blanco (5 × 7 m) o Extremo (8 × 4.5 m).</li>
           </ul>
@@ -201,7 +201,7 @@ const hubSchema = {
         title={`Los ${MODELOS_COUNT} modelos, lado a lado`}
         subtitle="Precio, medidas, espacio libre necesario, altura, edades y capacidad."
         copy1="Esta tabla resuelve de una sola pasada la pregunta que más nos hacen por WhatsApp: qué medidas tiene cada inflable. El espacio mínimo de instalación se confirma al cotizar según el modelo y el lugar, así que compártenos las dimensiones disponibles antes de apartar la fecha."
-        copy2="La columna de altura libre es la que decide si un modelo entra bajo techo. Se mide del piso al punto más bajo del techo, descontando lámparas, ventiladores y trabes. Sólo dos modelos del catálogo trabajan con 3.2 metros; el resto necesita más de 4."
+        copy2="La columna de altura libre es la que decide si un modelo entra bajo techo. Se mide del piso al punto más bajo del techo, descontando lámparas, ventiladores y trabes. Sólo dos modelos del catálogo van bajo techo: el Castillo Baby, con 3.2 metros, y el Gusanitos, cuya altura se confirma al cotizar; el resto necesita más de 4."
       />
       <TablaComparativa inflables={INFLABLES_ACTIVOS} caption={`Catálogo completo de inflables en renta — ${MODELOS_COUNT} modelos`} />
     </div>

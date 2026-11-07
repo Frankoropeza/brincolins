@@ -30,7 +30,7 @@ faqs:
   - question: "¿Se pueden rentar dos inflables para la misma fiesta?"
     answer: "Sí. Es lo indicado cuando tu lista mezcla bebés de 1 a 3 años con niños mayores. Cada inflable va separado del otro, con su propia toma de corriente cerca y una persona adulta supervisando su entrada todo el evento."
   - question: "¿El Gusanitos sirve para una fiesta bajo techo?"
-    answer: "Sí. El Gusanitos mide 5 × 3 × 2.80 m, pide 3.2 m de altura libre y es apto para interiores. Funciona más como circuito de túneles que como brincolín y recibe niños de 2 a 8 años, así que necesita un salón amplio."
+    answer: "Sí. El Gusanitos mide 5 × 3 × 2.80 m, es apto para interiores y la altura del lugar se confirma al cotizar. Los niños entran por un túnel, brincan bajo arcos y bajan por una resbaladilla doble; recibe niños de 2 a 8 años y, por su largo, necesita un salón amplio."
   - question: "¿Qué brincolín conviene para un niño de 3 años?"
     answer: "Depende de con quién brinque. Si sus invitados tienen de 1 a 3 años, el Castillo Baby sigue funcionando; si la mayoría ya pasó los 3, conviene el Gusanitos bajo techo o el Castillo de Princesas en exterior, con turnos por edad."
 ---
@@ -41,7 +41,7 @@ El mejor inflable para niños de 1 a 3 años es el [Castillo Baby, el único que
 
 - Entre 1 y 2 años solo aplica el Castillo Baby: el rango de edad no se redondea.
 - De 2 a 3 años los tres modelos son válidos; decides por espacio y por quién más va a brincar.
-- Bajo techo solo entran Castillo Baby y Gusanitos, con 3.2 m libres; el Castillo de Princesas es de exterior.
+- Bajo techo solo entran Castillo Baby (3.2 m libres) y Gusanitos (altura a confirmar al cotizar); el Castillo de Princesas es de exterior.
 - Si la lista mezcla bebés con niños de 5 a 10 años, lo indicado son dos inflables separados.
 - El paquete fiesta bebés de $2,100 incluye Castillo Baby, mesa con 4 sillitas y pintacaritas para 4 niños.
 
@@ -57,13 +57,13 @@ El Castillo Baby está pensado sólo para los más pequeños. El Gusanitos y el 
 
 ## ¿En qué se diferencian Castillo Baby, Gusanitos y Castillo de Princesas?
 
-En casi todo, salvo en que los tres aceptan niños de 2 años. El Castillo Baby es el más chico y el único que empieza al año; el Gusanitos es un circuito que también va bajo techo; el Castillo de Princesas es el más vistoso y va sólo en exterior. Esta tabla compara los datos de cada ficha, para que veas de un golpe cuál cabe en tu caso:
+En casi todo, salvo en que los tres aceptan niños de 2 años. El Castillo Baby es el más chico y el único que empieza al año; el Gusanitos es un recorrido corto con resbaladilla doble que también va bajo techo; el Castillo de Princesas es el más vistoso y va sólo en exterior. Esta tabla compara los datos de cada ficha, para que veas de un golpe cuál cabe en tu caso:
 
 | Dato | Castillo Baby | Gusanitos | Castillo de Princesas |
 |---|---|---|---|
 | Medidas (largo × ancho × alto) | 2.5 × 2 × 2 m | 5 × 3 × 2.80 m | 5 × 3.30 × 3 m |
 | Edades | 1 a 3 años | 2 a 8 años | 2 a 10 años |
-| Altura libre necesaria | 3.2 m | 3.2 m | 4.2 m |
+| Altura libre necesaria | 3.2 m | Se confirma al cotizar | 4.2 m |
 | ¿Interiores? | Sí | Sí | No, sólo exterior |
 | Instalación | 15 min | 20 min | 20 min |
 | Precio neto por evento | $1,400 | $1,600 | $1,800 |
@@ -72,9 +72,9 @@ En casi todo, salvo en que los tres aceptan niños de 2 años. El Castillo Baby 
 
 Es el compacto: 2.5 × 2 × 2 m, para bebés y niños de 1 a 3 años, pensado para interiores, terrazas y espacios reducidos. Se instala en 15 minutos y cuesta $1,400. Es el único de los tres donde todos los que brincan tienen la edad de tu festejado.
 
-### Gusanitos: túneles para edades mezcladas
+### Gusanitos: recorrido corto para edades mezcladas
 
-Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas. Mide 5 × 3 × 2.80 m, recibe niños de 2 a 8 años, va bajo techo con 3.2 m libres y cuesta $1,600. Funciona con grupos de edades mezcladas porque los niños recorren los túneles en lugar de brincar todos en el mismo punto. Puedes ver sus fotos en la ficha del [circuito Gusanitos de 2 a 8 años](/inflables/gusanitos/).
+Tiene túnel verde de entrada, zona de brinco bajo arcos morados y turquesa y resbaladilla doble con dos gusanos amarillos. Mide 5 × 3 × 2.80 m, recibe niños de 2 a 8 años, va bajo techo (la altura del lugar se confirma al cotizar) y cuesta $1,600. Funciona con grupos de edades mezcladas porque los niños entran, brincan y bajan por la resbaladilla, y el grupo se reparte a lo largo de sus 5 m en lugar de brincar todos en el mismo punto. Puedes ver sus fotos en la ficha del [inflable Gusanitos de 2 a 8 años](/inflables/gusanitos/).
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 ![Inflable Gusanitos instalado en el patio de una escuela para la kermés](/img/inflables/gusanitos/gusanitos-kermes-escolar.avif "Gusanitos en una kermés escolar")
@@ -119,11 +119,11 @@ Aquí los tres funcionan. Decides con dos preguntas: dónde es la fiesta y quié
 
 #### Cuando el espacio decide
 
-Bajo techo, sólo el Castillo Baby y el Gusanitos, siempre con 3.2 m de altura libre. Si tu sala es justa, el Castillo Baby; si tienes un salón amplio, cualquiera de los dos. En exterior, los tres.
+Bajo techo, sólo el Castillo Baby, con 3.2 m de altura libre, y el Gusanitos, cuya altura se confirma al cotizar. Si tu sala es justa, el Castillo Baby; si tienes un salón amplio, cualquiera de los dos. En exterior, los tres.
 
 #### Cuando el grupo decide
 
-Si casi todos tus invitados tienen de 1 a 3 años, el Castillo Baby. Si hay hermanos y primos de 4 a 8, el Gusanitos, porque su formato de circuito tolera mejor la mezcla. Si quieres temática de princesas y el grupo llega a los 10 años, el Castillo de Princesas, con turnos por edad.
+Si casi todos tus invitados tienen de 1 a 3 años, el Castillo Baby. Si hay hermanos y primos de 4 a 8, el Gusanitos, porque su recorrido de túnel, brinco y resbaladilla tolera mejor la mezcla. Si quieres temática de princesas y el grupo llega a los 10 años, el Castillo de Princesas, con turnos por edad.
 
 > **¿Todavía dudas entre dos modelos?** Dinos la edad de tu festejado, la de sus invitados y dónde es la fiesta; te decimos cuál corresponde y si está libre. [Preguntar qué modelo me conviene](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20que%20inflable%20conviene%20para%20ninos%20de%201%20a%203%20anos)
 
@@ -143,7 +143,7 @@ No elijas pensando en la fiesta del año siguiente. Cada fiesta se resuelve con 
 
 ## ¿Cuál de los tres modelos cabe en tu casa o salón?
 
-La altura libre descarta antes que el piso. El Castillo Baby y el Gusanitos piden 3.2 m; el Castillo de Princesas, 4.2 m y sólo en exterior. En un departamento típico de la Ciudad de México, con techo de 2.3 a 2.7 m, ninguno se instala adentro. Tu fiesta tendría que moverse a la azotea, al patio o a un salón con más altura.
+La altura libre descarta antes que el piso. El Castillo Baby pide 3.2 m; el Castillo de Princesas, 4.2 m y sólo en exterior; en el Gusanitos, que mide 2.80 m de alto, se confirma al cotizar. En un departamento típico de la Ciudad de México, con techo de 2.3 a 2.7 m, ninguno se instala adentro. Tu fiesta tendría que moverse a la azotea, al patio o a un salón con más altura.
 
 Además de la altura, los tres necesitan lo mismo: superficie plana y despejada, sin vidrio ni objetos punzantes, y una toma de 110 V a menos de 20 m del área. ¿El espacio libre exacto y la capacidad? Se confirman al cotizar.
 
@@ -219,7 +219,7 @@ En elegir por foto y no por edad, y casi todos los demás errores salen de ahí.
 
 - **Elegir por foto y no por edad.** El modelo más vistoso no siempre corresponde a tu festejado; primero la edad, luego el gusto.
 - **Redondear el rango de edad.** Un niño de 1 año no entra a un modelo que empieza a los 2, aunque «casi» los tenga.
-- **Olvidar la altura libre.** En interiores pide 3.2 m como mínimo, y el Castillo de Princesas no va bajo techo.
+- **Olvidar la altura libre.** En interiores el Castillo Baby pide 3.2 m y en el Gusanitos se confirma al cotizar; el Castillo de Princesas no va bajo techo.
 - **Un solo inflable para bebés y niños de 9.** Si tu lista mezcla los dos grupos, lo indicado son dos modelos separados.
 - **Dejar la supervisión al aire.** Una persona adulta en la entrada durante todo el evento, con relevos.
 - **Asumir la capacidad.** El número de niños por turno se confirma al cotizar, no se calcula al ojo.

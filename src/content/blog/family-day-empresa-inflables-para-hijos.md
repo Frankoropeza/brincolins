@@ -77,7 +77,7 @@ Con dos modelos cubres casi toda la lista: el Extremo para los de 3 a 12 años y
 |---|---|---|---|---|---|
 | Extremo | 8 × 4.5 × 3.50 m | 4.5 m | No, sólo exterior | 3 a 12 años | $2,500 |
 | Barco Pirata | 6 × 3.5 × 3.80 m | 5.2 m | No, sólo exterior | 3 a 12 años | $2,300 |
-| Gusanitos | 5 × 3 × 2.80 m | 3.2 m | Sí | 2 a 8 años | $1,600 |
+| Gusanitos | 5 × 3 × 2.80 m | Se confirma al cotizar | Sí | 2 a 8 años | $1,600 |
 | Castillo Baby | 2.5 × 2 × 2 m | 3.2 m | Sí | 1 a 3 años | $1,400 |
 
 La conclusión te cabe en dos líneas. ¿Tu venue es exterior? Extremo más Castillo Baby. ¿Es techado? Gusanitos más Castillo Baby.
@@ -98,7 +98,7 @@ Los más chicos no deben entrar a un circuito donde corren niños de 10. Para el
 
 ### Venue techado o evento grande
 
-Si el venue es bajo techo, el Extremo queda fuera. El [circuito de túneles Gusanitos](/inflables/gusanitos/) admite interiores, es para niños de 2 a 8 años y aguanta grupos de edades mezcladas. En eventos grandes al aire libre, el [Barco Pirata como segunda atracción](/inflables/barco-pirata/) reparte a los de 3 a 12 años entre dos inflables. Todos los modelos de recorrido están en la sección de [inflables con obstáculos para eventos](/inflables/con-obstaculos/).
+Si el venue es bajo techo, el Extremo queda fuera. El [inflable Gusanitos](/inflables/gusanitos/), con túnel de entrada y resbaladilla doble, admite interiores, es para niños de 2 a 8 años y aguanta grupos de edades mezcladas. En eventos grandes al aire libre, el [Barco Pirata como segunda atracción](/inflables/barco-pirata/) reparte a los de 3 a 12 años entre dos inflables. Todos los modelos de recorrido están en la sección de [inflables con obstáculos para eventos](/inflables/con-obstaculos/).
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")

@@ -25,7 +25,7 @@ faqs:
   - question: "¿Cómo cuidar los cupcakes del frío en una posada al aire libre?"
     answer: "El frío endurece el betún y lo vuelve quebradizo, y la humedad de la noche hace sudar al fondant. Monta la mesa bajo techo o en un patio techado, saca los cupcakes poco antes de servir y evita pasarlos del refrigerador directo al exterior. Tápalos si hay sereno."
   - question: "¿Qué inflable conviene para una posada con frío?"
-    answer: "Si la posada es bajo techo, el Gusanitos, para niños de 2 a 8 años, puede ir en interior con al menos 3.2 m de altura libre. Si hay patio o jardín al aire libre, la Jungla, para niños de 3 a 8 años, funciona en exterior. En los dos casos el inflable se cierra durante la piñata y la cena."
+    answer: "Si la posada es bajo techo, el Gusanitos, para niños de 2 a 8 años, puede ir en interior; se confirma según la altura del lugar al cotizar. Si hay patio o jardín al aire libre, la Jungla, para niños de 3 a 8 años, funciona en exterior. En los dos casos el inflable se cierra durante la piñata y la cena."
   - question: "¿Cuánto cuesta una mesa de donas y cupcakes para posada?"
     answer: "La mesa de donas y cupcakes que opera MEDEDUL y coordina BRINCOLINS cuesta desde $4,200 más IVA para 30 a 50 personas en el nivel Esencial, $7,300 más IVA para 50 a 100 en el Destacado y $11,800 más IVA para más de 100 en el Luxury. El diseño se adapta a la temporada."
   - question: "¿Los niños pueden decorar sus propios cupcakes en la posada?"
@@ -143,7 +143,7 @@ En una posada el inflable y la mesa compiten con la procesión, los villancicos,
 
 ### Quién lo usa
 
-- Para posadas bajo techo con edades mezcladas, de 2 a 8 años, el [inflable Gusanitos](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y puede ir en interior si el lugar tiene al menos 3.2 m de altura libre. Los niños entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos.
+- Para posadas bajo techo con edades mezcladas, de 2 a 8 años, el [inflable Gusanitos](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y puede ir en interior; la altura libre se confirma según el lugar al cotizar. Los niños entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos.
 - Para posadas en patio o jardín al aire libre, con niños de 3 a 8 años, el [inflable Jungla](/inflables/mini-jungla/) mide 5 × 3 × 2.50 m, con dinosaurios, palmeras y colores de selva. Va solo en exterior.
 
 ### Corriente

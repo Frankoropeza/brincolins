@@ -206,7 +206,7 @@ Si en la fiesta hay hermanos con edades distintas que celebran juntos, la guía 
 La edad es el primer filtro, pero no el único. Antes de apartar, revisa estos tres puntos:
 
 - **Espacio.** Mide el área con margen alrededor. Los modelos medianos miden alrededor de 5×3 m; el Extremo, 8×4.5 m.
-- **Altura libre.** Va desde 3.2 m para el Castillo Baby y Gusanitos hasta 5.2 m para el Barco Pirata. Si la fiesta es bajo techo, solo los modelos aptos para interiores caben.
+- **Altura libre.** Va desde 3.2 m para el Castillo Baby hasta 5.2 m para el Barco Pirata; en Gusanitos se confirma según la altura del lugar al cotizar. Si la fiesta es bajo techo, solo los modelos aptos para interiores caben.
 - **Corriente.** Todos necesitan una toma de 110 V a menos de 20 m del área de instalación.
 
 La guía para [elegir inflable para fiesta infantil](/blog/como-elegir-inflable-fiesta-infantil/) desarrolla estos criterios, y la guía de [seguridad en inflables para fiestas infantiles](/blog/seguridad-inflables-fiestas-infantiles/) explica la supervisión y las reglas de uso que aplican a cualquier edad.

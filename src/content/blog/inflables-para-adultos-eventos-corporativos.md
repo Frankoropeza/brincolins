@@ -69,7 +69,7 @@ Si tu evento tiene una imagen cuidada (aniversario de la empresa, inauguración 
 
 ### Modelos para los más pequeños
 
-En un family day siempre hay hijos pequeños, y meterlos al Extremo no es opción. Para los de 1 a 3 años va el **[Castillo Baby](/inflables/mini-castillo/)** (2.5 × 2 × 2 m). De 2 a 8 años funciona **Gusanitos** (5 × 3 × 2.80 m, circuito de túneles); de 3 a 8 años, los temáticos **[Dragones Rojos](/inflables/dragones-rojos/)** y **Jungla**, y de 2 a 10 años, el **Castillo de Princesas**.
+En un family day siempre hay hijos pequeños, y meterlos al Extremo no es opción. Para los de 1 a 3 años va el **[Castillo Baby](/inflables/mini-castillo/)** (2.5 × 2 × 2 m). De 2 a 8 años funciona **Gusanitos** (5 × 3 × 2.80 m, con túnel de entrada y resbaladilla doble); de 3 a 8 años, los temáticos **[Dragones Rojos](/inflables/dragones-rojos/)** y **Jungla**, y de 2 a 10 años, el **Castillo de Princesas**.
 
 ![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
@@ -109,7 +109,7 @@ Si el objetivo es una dinámica de competencia y porras, el Extremo y su doble c
 
 ### 2. Evalúa el espacio disponible
 
-Cada modelo tiene su requerimiento y conviene medir antes de prometer. El Extremo y el Barco Pirata van en exterior. Los estacionamientos corporativos descubiertos, las explanadas y los jardines de hotel suelen ser buenas opciones. Si el evento es bajo techo, solo entran los modelos aptos para interiores, con 3.2 m de altura libre.
+Cada modelo tiene su requerimiento y conviene medir antes de prometer. El Extremo y el Barco Pirata van en exterior. Los estacionamientos corporativos descubiertos, las explanadas y los jardines de hotel suelen ser buenas opciones. Si el evento es bajo techo, solo entran los modelos aptos para interiores, y la altura del lugar se confirma al cotizar.
 
 ### 3. Calcula cuántos niños van a participar
 
@@ -216,7 +216,7 @@ No es lo mismo montar en el estacionamiento de un corporativo que en la explanad
 | Tlalnepantla | Zona industrial con naves y explanadas | Ruta de entrada por caseta y piso de la explanada | $150 a $250 |
 | Cuautitlán Izcalli | Parques industriales con patios de maniobras | Que el área esté libre de tráileres y tránsito ese día | $250 a $400 |
 
-Si en Santa Fe el único espacio disponible es un estacionamiento techado, ahí solo entran los modelos aptos para interiores y con 3.2 m de altura libre, así que mide antes. La página de [entregas en Cuajimalpa y Santa Fe](/cobertura/cuajimalpa/) explica cómo se cotiza el traslado. Para oficinas en Polanco o Granada, revisa el [servicio en Miguel Hidalgo](/cobertura/miguel-hidalgo/). Si tu planta está en la zona industrial de Tlalnepantla, la [cobertura en Tlalnepantla](/cobertura/tlalnepantla/) tiene el rango por colonia. Y para un family day dentro de un parque industrial, consulta la [renta con entrega en Cuautitlán Izcalli](/cobertura/cuautitlan-izcalli/). En las cuatro zonas, comparte al cotizar el nombre del contacto de seguridad del inmueble.
+Si en Santa Fe el único espacio disponible es un estacionamiento techado, ahí solo entran los modelos aptos para interiores y la altura se confirma al cotizar, así que mide antes. La página de [entregas en Cuajimalpa y Santa Fe](/cobertura/cuajimalpa/) explica cómo se cotiza el traslado. Para oficinas en Polanco o Granada, revisa el [servicio en Miguel Hidalgo](/cobertura/miguel-hidalgo/). Si tu planta está en la zona industrial de Tlalnepantla, la [cobertura en Tlalnepantla](/cobertura/tlalnepantla/) tiene el rango por colonia. Y para un family day dentro de un parque industrial, consulta la [renta con entrega en Cuautitlán Izcalli](/cobertura/cuautitlan-izcalli/). En las cuatro zonas, comparte al cotizar el nombre del contacto de seguridad del inmueble.
 
 ### Family day con hijos de colaboradores
 

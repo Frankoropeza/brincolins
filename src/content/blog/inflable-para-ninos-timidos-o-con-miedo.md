@@ -9,37 +9,37 @@ category: "Gusanitos"
 author: "Equipo BRINCOLINS"
 readTime: "13 min"
 heroImage: "/img/inflables/gusanitos-v3.avif"
-heroImageAlt: "Inflable Gusanitos de túneles conectados en colores vivos"
+heroImageAlt: "Inflable Gusanitos con túnel de entrada y resbaladilla doble en colores vivos"
 galleryImages:
   - "/img/inflables/gusanitos-cumpleanos-infantil-cdmx.avif"
   - "/img/inflables/gusanitos-instalacion-jardin-cdmx.avif"
 intro:
   - "Un niño con miedo al inflable puede quedarse junto a ti, mirar desde lejos o decir que no quiere entrar aunque los demás ya estén jugando. Esa reacción no se corrige con una foto, una cuenta regresiva o la promesa de que sus primos lo esperan. Primero necesita entender el lugar y sentir que conserva el control."
-  - "Los túneles de Gusanitos dan una forma más gradual de acercarse: se pueden mirar las entradas, tocar la lona, asomarse un momento y salir. Esta guía te ayuda a acompañar sin forzar, organizar el ambiente y decidir si ese tipo de juego encaja con tu fiesta."
+  - "El recorrido corto de Gusanitos da una forma más gradual de acercarse: se puede mirar el túnel de entrada, tocar la lona, asomarse un momento y salir. Esta guía te ayuda a acompañar sin forzar, organizar el ambiente y decidir si ese tipo de juego encaja con tu fiesta."
 tags:
   - "niño con miedo al inflable"
   - "niños tímidos en fiesta infantil"
   - "cómo ayudar a un niño a entrar al brincolín"
-  - "inflable de túneles para niños"
+  - "inflable con túnel y resbaladilla para niños"
   - "Gusanitos para fiesta infantil"
   - "supervisión en brincolines"
   - "fiesta infantil tranquila CDMX"
 faqs:
   - question: "¿Qué hago si mi hijo tiene miedo de entrar al inflable?"
-    answer: "Quédate cerca, valida que puede esperar y deja que observe primero. Puedes invitarlo a tocar la lona o asomarse por una entrada sin pedirle que complete el recorrido. Evita cargarlo para meterlo o compararlo con otros niños. Si decide no entrar, ofrece otra actividad y conserva la invitación abierta para más tarde."
+    answer: "Quédate cerca, valida que puede esperar y deja que observe primero. Puedes invitarlo a tocar la lona o asomarse por el túnel de entrada sin pedirle que complete el recorrido. Evita cargarlo para meterlo o compararlo con otros niños. Si decide no entrar, ofrece otra actividad y conserva la invitación abierta para más tarde."
   - question: "¿Por qué algunos niños tienen miedo al brincolín?"
     answer: "Puede inquietarles el ruido del motor, el movimiento de la lona, un grupo muy activo, una entrada estrecha o simplemente llegar a un lugar desconocido. No hace falta adivinarlo: pregúntale qué parte no le gusta y escucha la respuesta. Saber si prefiere silencio, compañía o espacio te permite ajustar la situación."
-  - question: "¿Un inflable de túneles puede ser mejor para un niño tímido?"
-    answer: "Puede resultar más fácil para algunos niños porque permite mirar varias entradas, hacer un tramo corto y salir sin quedar en una zona de salto con muchos niños. No es una garantía ni una obligación. Gusanitos es un circuito de túneles para edades de 2 a 8 años; el niño debe elegir si quiere probarlo y cuándo."
+  - question: "¿Un inflable con túnel de entrada puede ser mejor para un niño tímido?"
+    answer: "Puede resultar más fácil para algunos niños porque el recorrido es corto y se ve desde fuera: entrar por el túnel, brincar un poco y bajar por la resbaladilla, donde un adulto puede esperarlo. No es una garantía ni una obligación. Gusanitos es un inflable de recorrido corto para edades de 2 a 8 años; el niño debe elegir si quiere probarlo y cuándo."
   - question: "¿Debo entrar con mi hijo al inflable para que pierda el miedo?"
-    answer: "No des por hecho que un adulto debe entrar. Conserva el acompañamiento desde fuera y confirma al cotizar cualquier duda sobre el uso. A veces basta con estar visible junto a una entrada, hablarle y permitir que salga de inmediato. La prioridad es que no se sienta atrapado ni obligado a demostrar algo."
+    answer: "No des por hecho que un adulto debe entrar. Conserva el acompañamiento desde fuera y confirma al cotizar cualquier duda sobre el uso. A veces basta con estar visible junto a la entrada, hablarle y permitir que salga de inmediato. La prioridad es que no se sienta atrapado ni obligado a demostrar algo."
   - question: "¿Cómo organizo los turnos si hay niños nerviosos y niños muy activos?"
-    answer: "Abre primero un turno pequeño y tranquilo, con edades cercanas y una persona adulta observando las entradas y salidas. Después deja pasar al grupo más activo. Mantén una opción paralela, como dibujo o burbujas, para que nadie tenga que esperar dentro de la fila ni entrar sólo porque los demás lo hacen."
+    answer: "Abre primero un turno pequeño y tranquilo, con edades cercanas y una persona adulta observando la entrada y la resbaladilla. Después deja pasar al grupo más activo. Mantén una opción paralela, como dibujo o burbujas, para que nadie tenga que esperar dentro de la fila ni entrar sólo porque los demás lo hacen."
   - question: "¿Gusanitos se puede instalar bajo techo?"
-    answer: "Sí, Gusanitos es apto para interiores cuando el sitio tiene 3.2 m de altura libre hasta el punto más bajo del techo. También requiere piso plano, despejado y sin objetos punzantes, además de una toma de 110 V a menos de 20 m. El espacio y la ruta de acceso se confirman al cotizar."
+    answer: "Sí, Gusanitos es apto para interiores; si cabe en tu lugar se confirma al cotizar, según la altura hasta el punto más bajo del techo. También requiere piso plano, despejado y sin objetos punzantes, además de una toma de 110 V a menos de 20 m. El espacio y la ruta de acceso se confirman al cotizar."
 ---
 
-Si hay un **niño con miedo al inflable**, no lo metas ni lo convenzas con presión. Deja que observe, pregúntale qué le inquieta y ofrécele una prueba breve con salida fácil. El [inflable Gusanitos, un circuito de túneles](/inflables/gusanitos/) para 2 a 8 años, puede ayudar porque tiene varias entradas y salidas visibles. Entrar siempre es decisión del niño.
+Si hay un **niño con miedo al inflable**, no lo metas ni lo convenzas con presión. Deja que observe, pregúntale qué le inquieta y ofrécele una prueba breve con salida fácil. El [inflable Gusanitos, de recorrido corto](/inflables/gusanitos/) para 2 a 8 años, puede ayudar porque la entrada y la salida se ven desde fuera: un túnel para entrar y una resbaladilla para bajar. Entrar siempre es decisión del niño.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
@@ -78,7 +78,7 @@ Haz una entrada gradual, sin prometer que terminará dentro:
 
 1. **Lleguen antes del grupo.** Si el montaje ya está listo, muéstrale el inflable cuando todavía no hay fila ni música encima.
 2. **Nombra lo que ve.** Señala por dónde se entra, por dónde se sale y dónde estarás tú. Saber la ruta le da referencias.
-3. **Propón una prueba mínima.** Puede tocar la lona, mirar por una boca o poner un pie dentro. Si ahí quiere parar, se acabó la prueba.
+3. **Propón una prueba mínima.** Puede tocar la lona, mirar por el túnel o poner un pie dentro. Si ahí quiere parar, se acabó la prueba.
 4. **Deja que elija compañía.** Puede mirar a un hermano, entrar con un amigo de edad similar o seguir fuera. No negocies con premios para que lo haga.
 5. **Celebra la decisión, no el avance.** “Me dijiste que querías esperar y te escuché” puede darle más seguridad que aplaudir sólo si logra entrar.
 
@@ -100,18 +100,18 @@ Animarse a entrar no significa que deba quedarse. Sácalo sin regaño si notas q
 
 Este orden también baja la tensión de los adultos. Si alguien de la familia quiere ayudar, pídele que no haga una rueda alrededor del niño ni tome fotos de su primer intento. Un solo adulto tranquilo resulta más útil que varios dando instrucciones.
 
-## ¿Por qué los túneles pueden dar una primera experiencia más manejable?
+## ¿Por qué un recorrido corto puede dar una primera experiencia más manejable?
 
-Gusanitos no se usa igual que una cámara de salto. Es un recorrido de túneles conectados con varias entradas y salidas. Para algunos niños, ver que pueden asomarse por una boca y reaparecer pronto les da una sensación más clara de inicio y final. También permite quedarse afuera mirando cómo pasa el resto sin estar frente a una única puerta de acceso.
+Gusanitos no es sólo una cámara de salto. Es un recorrido corto: se entra por un túnel verde, se brinca bajo arcos de colores y se baja por una resbaladilla doble con dos gusanos. Para algunos niños, ver desde fuera dónde empieza y dónde termina les da una sensación más clara de inicio y final. También permite quedarse afuera mirando cómo bajan los demás por la resbaladilla antes de animarse.
 
-Eso no significa que el circuito sea “para niños con miedo” ni que todos los niños tímidos prefieran túneles. El modelo se elige por el rango de edades, el espacio y el tipo de juego que busca tu grupo; su ficha explica medidas, condiciones de instalación y dinámica. Este artículo se concentra en cómo acompañar la decisión individual de entrar.
+Eso no significa que el Gusanitos sea “para niños con miedo” ni que todos los niños tímidos lo prefieran. El modelo se elige por el rango de edades, el espacio y el tipo de juego que busca tu grupo; su ficha explica medidas, condiciones de instalación y dinámica. Este artículo se concentra en cómo acompañar la decisión individual de entrar.
 
-Si tu hijo disfruta explorar, esconderse un instante y volver a verte, el recorrido puede ser una opción amable. Si le gusta mirar primero, no hay prisa por recorrerlo completo. Las [pautas de juego por edades en los túneles](/blog/circuito-de-tuneles-vs-brincolin/) te sirven para preparar un turno sin carreras ni cruces en las bocas.
+Si a tu hijo le gusta entrar por el túnel y volver a verte al pie de la resbaladilla, el recorrido puede ser una opción amable. Si le gusta mirar primero, no hay prisa por recorrerlo completo. Las [pautas de juego por edades](/blog/circuito-de-tuneles-vs-brincolin/) te sirven para preparar un turno sin carreras ni empujones en el túnel o la resbaladilla.
 
 | Situación del grupo | Ajuste que puede ayudar | Qué evitar |
 |---|---|---|
-| Primeros minutos de la fiesta | Abrir el circuito para dos o tres niños calmados | Esperar a que se forme una fila larga para el primer intento |
-| Niño que observa desde fuera | Dejar una silla o espacio contigo a la vista de una salida | Llamarlo desde el otro extremo del inflable |
+| Primeros minutos de la fiesta | Abrir el inflable para dos o tres niños calmados | Esperar a que se forme una fila larga para el primer intento |
+| Niño que observa desde fuera | Dejar una silla o espacio contigo a la vista de la resbaladilla | Llamarlo desde el otro extremo del inflable |
 | Hermanos de distinta edad | Separar turnos por edades cercanas | Pedir al mayor que “lo cuide” mientras juega con fuerza |
 | Mucho ruido en el salón | Bajar la bocina durante el primer bloque de juego | Añadir consignas gritadas o música junto a la entrada |
 
@@ -120,21 +120,21 @@ Si tu hijo disfruta explorar, esconderse un instante y volver a verte, el recorr
 
 ## ¿Qué reglas hacen más fácil que un niño se anime cuando quiera?
 
-El niño necesita saber que dentro no habrá sorpresas evitables. Antes de abrir el juego, explica una regla corta para todos: entrar por un lado, avanzar sin empujar y dejar libre la salida. No hace falta un discurso largo; la constancia vale más.
+El niño necesita saber que dentro no habrá sorpresas evitables. Antes de abrir el juego, explica una regla corta para todos: entrar por el túnel, avanzar sin empujar y dejar libre el pie de la resbaladilla. No hace falta un discurso largo; la constancia vale más.
 
 Mantén estas condiciones durante la fiesta:
 
-- Designa a una persona adulta para vigilar las entradas y salidas todo el tiempo, no sólo durante el primer turno.
+- Designa a una persona adulta para vigilar la entrada y la resbaladilla todo el tiempo, no sólo durante el primer turno.
 - Separa a los niños por edades o tamaños cercanos cuando notes diferencias marcadas en la energía del grupo.
 - Deja alimentos, bebidas, lentes, juguetes rígidos y mascotas fuera del inflable.
-- Pon la mesa de pastel, regalos y sillitas fuera del trayecto; una salida tapada puede hacer que el circuito se sienta menos predecible.
+- Pon la mesa de pastel, regalos y sillitas fuera del trayecto; una resbaladilla con la salida tapada hace que el recorrido se sienta menos predecible.
 - Haz una pausa de juego para comida, pastel o piñata en vez de pedir a los adultos que supervisen mientras atienden otra actividad.
 
-Para resolver la ubicación de cada zona antes del evento, revisa un [esquema de circulación entre mesa, sillitas y circuito](/servicios/mobiliario-para-fiestas/). Si la fiesta será en una cochera, comprueba también la altura al portón, la ventilación y que los autos estén fuera con la [revisión de una cochera como sede de fiesta](/blog/fiesta-en-patio-pequeno-con-inflable/).
+Para resolver la ubicación de cada zona antes del evento, revisa un [esquema de circulación entre mesa, sillitas e inflable](/servicios/mobiliario-para-fiestas/). Si la fiesta será en una cochera, comprueba también la altura al portón, la ventilación y que los autos estén fuera con la [revisión de una cochera como sede de fiesta](/blog/fiesta-en-patio-pequeno-con-inflable/).
 
 ## ¿Qué haces si después de mirar decide que no quiere entrar?
 
-Respeta la respuesta. Una fiesta tiene más oportunidades que el inflable: puede ayudar a repartir platos, armar una torre de bloques, dibujar, jugar burbujas o acompañarte a recibir invitados. Tener una actividad paralela evita que el niño sienta que estar fuera del circuito equivale a quedar fuera de la reunión.
+Respeta la respuesta. Una fiesta tiene más oportunidades que el inflable: puede ayudar a repartir platos, armar una torre de bloques, dibujar, jugar burbujas o acompañarte a recibir invitados. Tener una actividad paralela evita que el niño sienta que estar fuera del inflable equivale a quedar fuera de la reunión.
 
 No anuncies su decisión a los demás ni pidas a otros niños que lo convenzan. Es mejor decir con naturalidad: “ahorita está en otra actividad”. Si después se acerca, vuelve a ofrecer la misma puerta abierta: observar, tocar la lona o hacer un tramo corto. Que cambie de opinión es bienvenido; que no la cambie también.
 
@@ -142,7 +142,7 @@ Una propuesta de [juegos y decoración en una fiesta arcoíris](/blog/decoracion
 
 ## ¿Cómo eliges el inflable sin exigirle demasiado a tu hijo?
 
-Primero compara la edad de los invitados y el lugar. Gusanitos está indicado para 2 a 8 años, mide 5 × 3 × 2.80 m y puede instalarse bajo techo con 3.2 m de altura libre. La base debe ir en una superficie plana, despejada y sin objetos punzantes; también se requiere una toma de 110 V a menos de 20 m. La viabilidad del espacio y la capacidad se confirman al cotizar.
+Primero compara la edad de los invitados y el lugar. Gusanitos está indicado para 2 a 8 años, mide 5 × 3 × 2.80 m y puede instalarse bajo techo; la altura del lugar se confirma al cotizar. La base debe ir en una superficie plana, despejada y sin objetos punzantes; también se requiere una toma de 110 V a menos de 20 m. La viabilidad del espacio y la capacidad se confirman al cotizar.
 
 No elijas únicamente porque crees que “lo obligará a socializar”. Un inflable es una actividad dentro de la fiesta, no una prueba. Si habrá niños de un año, el modelo indicado por edad es el [Castillo Baby para niñas y niños de 1 a 3 años](/inflables/mini-castillo/). Si quieres revisar cómo cambia la elección para los más pequeños, consulta también [desde qué edad puede usar un bebé un brincolín](/blog/mejor-inflable-para-ninos-menores-de-3-anos/).
 
@@ -159,13 +159,13 @@ La [cobertura de renta de inflables en CDMX](/cobertura/cdmx/) distingue el tras
 
 | Escenario | Preparación para un niño que prefiere observar | Dato local que conviene confirmar |
 |---|---|---|
-| Salón en Narvarte o Del Valle | Llega temprano y aparta una silla lejos de la entrada, con vista al circuito | Horario de acceso, techo y ruta de carga |
+| Salón en Narvarte o Del Valle | Llega temprano y aparta una silla lejos de la entrada, con vista al inflable | Horario de acceso, techo y ruta de carga |
 | Patio en Coyoacán | Deja una zona de burbujas o dibujo antes del área de juego | Piso plano, ramas bajas y toma eléctrica |
 | Área común en Iztapalapa | Planea un primer turno pequeño cuando aún no llega todo el grupo | Autorización, horario y traslado de acuerdo con la colonia |
 
 ### Si tu fiesta es en el oriente o en Naucalpan
 
-En el oriente de la ciudad muchas fiestas se hacen en patio o cochera de casa, con familia que llega por tandas. Eso le conviene a un niño tímido: puedes abrir el circuito con los primeros primos y dejar que él mire antes de que llegue todo el grupo. Si celebras en Tláhuac, el traslado va de $100 a $200 según la colonia; los detalles están en la página de [inflables a domicilio en Tláhuac](/cobertura/tlahuac/). Para casas o salones cerca del aeropuerto, en colonias como Jardín Balbuena o Moctezuma, revisa las [entregas en Venustiano Carranza](/cobertura/venustiano-carranza/), donde el costo se confirma según la zona.
+En el oriente de la ciudad muchas fiestas se hacen en patio o cochera de casa, con familia que llega por tandas. Eso le conviene a un niño tímido: puedes abrir el inflable con los primeros primos y dejar que él mire antes de que llegue todo el grupo. Si celebras en Tláhuac, el traslado va de $100 a $200 según la colonia; los detalles están en la página de [inflables a domicilio en Tláhuac](/cobertura/tlahuac/). Para casas o salones cerca del aeropuerto, en colonias como Jardín Balbuena o Moctezuma, revisa las [entregas en Venustiano Carranza](/cobertura/venustiano-carranza/), donde el costo se confirma según la zona.
 
 En el Estado de México, muchas fiestas en Ciudad Satélite y sus alrededores son en jardín o en salón de fraccionamiento. Si es tu caso, manda fotos del área y pregunta en la [cobertura de Naucalpan](/cobertura/naucalpan/) cómo se cotiza el traslado a tu colonia. En los tres lugares, menciona al cotizar a qué hora empieza la fiesta: tener el inflable listo antes de que lleguen los invitados es justo lo que le da a tu hijo esos minutos de observación tranquila. Si todavía no defines el horario, la guía sobre [cuántas horas dura la renta y cómo organizar la tarde](/blog/horario-fiesta-infantil-cuantas-horas-inflable/) te ayuda a acomodar los bloques.
 
@@ -179,4 +179,4 @@ Al pedir cotización, no necesitas etiquetar al niño ni explicar de más. Basta
 - Fotos del área y del acceso; si hay techo, la altura hasta lámparas, vigas o ventiladores.
 - Tipo de piso, ubicación de la toma de corriente y cualquier portería, caseta o restricción de horario.
 
-Si Gusanitos encaja con la edad y el espacio, puedes [cotizar el circuito de túneles para una fiesta infantil](/cotizar/) con esos datos. Tener un plan tranquilo no significa que el juego será silencioso ni que todos participarán igual; significa que nadie tendrá que hacerlo a la fuerza. Gusanitos cuesta $1,600 netos por evento con instalación y recolección incluidas; el traslado depende de la zona, la factura agrega 16% de IVA y la fecha se aparta con 50% de anticipo. Si prefieres compartir las fotografías del lugar por mensaje, escribe por WhatsApp al 55 3128 1706, de lunes a domingo de 8:00 a 20:00.
+Si Gusanitos encaja con la edad y el espacio, puedes [cotizar el Gusanitos para una fiesta infantil](/cotizar/) con esos datos. Tener un plan tranquilo no significa que el juego será silencioso ni que todos participarán igual; significa que nadie tendrá que hacerlo a la fuerza. Gusanitos cuesta $1,600 netos por evento con instalación y recolección incluidas; el traslado depende de la zona, la factura agrega 16% de IVA y la fecha se aparta con 50% de anticipo. Si prefieres compartir las fotografías del lugar por mensaje, escribe por WhatsApp al 55 3128 1706, de lunes a domingo de 8:00 a 20:00.

@@ -163,7 +163,7 @@ Esta tabla compara la altura libre que pide cada inflable mediano y grande del c
 
 | Modelo | Alto del inflable | Altura libre necesaria | ¿Interiores? |
 |---|---|---|---|
-| Gusanitos | 2.80 m | 3.2 m | Sí |
+| Gusanitos | 2.80 m | Se confirma al cotizar | Sí |
 | Jungla | 2.50 m | 4.2 m | No, sólo exterior |
 | Castillo de Princesas | 3 m | 4.2 m | No, sólo exterior |
 | Dragones Rojos | 2.80 m | 4.5 m | No, sólo exterior |

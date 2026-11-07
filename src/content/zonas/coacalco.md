@@ -23,7 +23,7 @@ En estos jardines funcionan bien el [Dragones Rojos](/inflables/dragones-rojos/)
 
 ### Casas con patio y cochera
 
-En la casa típica de fraccionamiento, el patio de atrás es angosto y el espacio más amplio es la cochera. Para niños de 1 a 3 años, el Castillo Baby ocupa 2.5 × 2 m y es el que mejor se adapta a cocheras techadas porque sólo pide 3.2 m de altura libre. El otro modelo apto para bajo techo es el [Gusanitos](/inflables/gusanitos/), un circuito de túneles de 5 × 3 m que también pide 3.2 m libres y sirve de 2 a 8 años.
+En la casa típica de fraccionamiento, el patio de atrás es angosto y el espacio más amplio es la cochera. Para niños de 1 a 3 años, el Castillo Baby ocupa 2.5 × 2 m y es el que mejor se adapta a cocheras techadas porque sólo pide 3.2 m de altura libre. El otro modelo apto para bajo techo es el [Gusanitos](/inflables/gusanitos/), de 5 × 3 m, con túnel de entrada, zona de brinco y resbaladilla doble; sirve de 2 a 8 años y en interiores se confirma según la altura del lugar al cotizar.
 
 Si tu cochera tiene portón, mide el ancho de la puerta y la altura de la viga más baja, no sólo el piso.
 

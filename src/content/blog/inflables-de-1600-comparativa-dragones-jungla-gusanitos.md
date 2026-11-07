@@ -24,11 +24,11 @@ faqs:
   - question: "¿Cuánto cuesta rentar un inflable mediano en CDMX?"
     answer: "Dragones Rojos, Jungla y Gusanitos cuestan $1,600 netos por evento cada uno, con instalación y recolección incluidas. El traslado se cobra según la zona de CDMX o del Estado de México y, si necesitas factura, se agrega el 16% de IVA al precio."
   - question: "¿Cuál de los tres inflables de $1,600 se puede poner bajo techo?"
-    answer: "Sólo el Gusanitos, que necesita 3.2 m de altura libre y funciona en interiores como salones o cocheras techadas. Dragones Rojos y Jungla son sólo para exterior, así que necesitan un jardín, patio, azotea o área común descubierta con la altura libre de cada modelo."
+    answer: "Sólo el Gusanitos, que funciona en interiores como salones o cocheras techadas; si cabe se confirma según la altura del lugar al cotizar. Dragones Rojos y Jungla son sólo para exterior, así que necesitan un jardín, patio, azotea o área común descubierta con la altura libre de cada modelo."
   - question: "¿Cuál es el más bajo de los tres inflables medianos?"
     answer: "La Jungla, con 2.50 m de alto. Aun así, como es de exterior, pide 4.2 m de altura libre sobre el área de instalación. Si tu espacio tiene una rama o un cable entre 4.2 y 4.5 m, la Jungla entra y el Dragones Rojos no."
   - question: "¿Qué inflable de $1,600 conviene para niños de 2 años?"
-    answer: "El Gusanitos, porque su rango es de 2 a 8 años y su formato de túneles funciona con edades mezcladas. Dragones Rojos y Jungla empiezan en 3 años. Si el grupo es de bebés de 1 a 3 años, el modelo indicado es el Castillo Baby, de $1,400."
+    answer: "El Gusanitos, porque su rango es de 2 a 8 años y su recorrido corto de túnel, brinco y resbaladilla funciona con edades mezcladas. Dragones Rojos y Jungla empiezan en 3 años. Si el grupo es de bebés de 1 a 3 años, el modelo indicado es el Castillo Baby, de $1,400."
   - question: "¿Cuántos niños caben en cada inflable mediano?"
     answer: "La capacidad de cada modelo se confirma al cotizar, junto con el espacio libre exacto alrededor. Comparte el número aproximado de niños y sus edades; con eso se definen los turnos. Una persona adulta supervisa desde fuera durante todo el evento."
   - question: "¿El precio cambia si la fiesta es entre semana?"
@@ -39,7 +39,7 @@ Los tres inflables medianos de BRINCOLINS cuestan $1,600 netos por evento: Drago
 
 **Puntos clave**
 
-- Altura libre: Gusanitos pide 3.2 m, Jungla 4.2 m y Dragones Rojos 4.5 m.
+- Altura libre: Jungla pide 4.2 m y Dragones Rojos 4.5 m; la del Gusanitos se confirma al cotizar.
 - Bajo techo solo entra Gusanitos; los otros dos son de exterior.
 - Con niños de 2 años, Gusanitos es el único de los tres que los recibe.
 - El paquete fiesta de $2,800 incluye Dragones Rojos o Jungla, no Gusanitos.
@@ -64,7 +64,7 @@ Aventura tropical con dinosaurios, palmeras y colores de selva. Mide 5 × 3 × 2
 
 ### Gusanitos
 
-Más circuito que brincolín: túneles de colores conectados con varias entradas y salidas. Mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años, se instala en 20 minutos y es el único de los tres que funciona en interiores. Revisa la [ficha del Gusanitos con sus túneles](/inflables/gusanitos/).
+Recorrido corto: túnel verde de entrada, zona de brinco bajo arcos morados y turquesa y resbaladilla doble con dos gusanos amarillos. Mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años, se instala en 20 minutos y es el único de los tres que funciona en interiores. Revisa la [ficha del Gusanitos con sus fotos](/inflables/gusanitos/).
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
@@ -77,15 +77,15 @@ Te cambian la altura libre, el uso en interiores, edad mínima, tiempo de instal
 |---|---|---|---|
 | Precio neto por evento | $1,600 | $1,600 | $1,600 |
 | Medidas (largo × ancho × alto) | 5 × 3 × 2.80 m | 5 × 3 × 2.50 m | 5 × 3 × 2.80 m |
-| Altura libre necesaria | 4.5 m | 4.2 m | 3.2 m |
+| Altura libre necesaria | 4.5 m | 4.2 m | Se confirma al cotizar |
 | ¿Interiores? | No, sólo exterior | No, sólo exterior | Sí |
 | Edades | 3 a 8 años | 3 a 8 años | 2 a 8 años |
 | Instalación | 20 min | 15 min | 20 min |
-| Tipo de juego | Brincolín con resbaladilla | Brincolín temático | Circuito de túneles |
-| Temática | Dos dragones de unos 3 m | Selva, dinosaurios y palmeras | Túneles de colores |
+| Tipo de juego | Brincolín con resbaladilla | Brincolín temático | Túnel, brinco y resbaladilla doble |
+| Temática | Dos dragones de unos 3 m | Selva, dinosaurios y palmeras | Gusanos sonrientes y arcos de colores |
 | ¿Entra en el paquete fiesta? | Sí | Sí | No |
 
-Tres datos saltan a la vista. La altura libre: 3.2, 4.2 y 4.5 m. El techo: sólo el Gusanitos va bajo techo. La edad: el Gusanitos acepta niños desde los 2 años. Todo lo demás es cuestión de gusto.
+Tres datos saltan a la vista. La altura libre: 4.2 m la Jungla y 4.5 m el Dragones Rojos; la del Gusanitos se confirma al cotizar. El techo: sólo el Gusanitos va bajo techo. La edad: el Gusanitos acepta niños desde los 2 años. Todo lo demás es cuestión de gusto.
 
 ![Uno de los inflables medianos de $1,600, el Dragones Rojos, sobre pasto sintético entre edificios](/img/inflables/dragones-rojos/dragones-detalle-exterior.avif)
 ![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
@@ -94,16 +94,16 @@ Tres datos saltan a la vista. La altura libre: 3.2, 4.2 y 4.5 m. El techo: sólo
 
 ## ¿Cuál de los tres entra en el espacio que tienes?
 
-En un jardín sin nada encima caben los tres. Con ramas o cables entre 4.2 y 4.5 m, sólo Jungla o Gusanitos. Bajo techo, sólo el Gusanitos. En planta ocupan lo mismo, así que el suelo rara vez decide; decide lo que tienes arriba y si el lugar es techado.
+En un jardín sin nada encima caben los tres. Con ramas o cables entre 4.2 y 4.5 m, la Jungla sí y el Dragones Rojos no; el Gusanitos se confirma con tu medida. Bajo techo, sólo el Gusanitos. En planta ocupan lo mismo, así que el suelo rara vez decide; decide lo que tienes arriba y si el lugar es techado.
 
 Esta segunda tabla cruza los escenarios más comunes con cada modelo. La conclusión práctica: mide la altura antes de enamorarte de una foto.
 
 | Tu espacio | Dragones Rojos | Jungla | Gusanitos |
 |---|---|---|---|
 | Jardín o patio descubierto, sin obstáculos arriba | Sí | Sí | Sí |
-| Exterior con 4.2 m libres, pero menos de 4.5 m | No | Sí | Sí |
-| Exterior con 3.2 m libres, pero menos de 4.2 m | No | No | Sí |
-| Salón, cochera techada o espacio interior | No | No | Sí, con 3.2 m libres |
+| Exterior con 4.2 m libres, pero menos de 4.5 m | No | Sí | Se confirma con tu medida |
+| Exterior con menos de 4.2 m libres | No | No | Se confirma con tu medida |
+| Salón, cochera techada o espacio interior | No | No | Sí; la altura se confirma al cotizar |
 | Piso de grava o piedra suelta | No | No | No |
 
 ### Jardín sin nada encima
@@ -112,7 +112,7 @@ Caben los tres. Decide por edad y temática. Antes de apartar, confirma que tu p
 
 ### Ramas, cables o techos parciales
 
-Mide con cinta desde el piso hasta el obstáculo más bajo sobre el área. ¿4.5 m o más? Cualquiera. ¿Entre 4.2 y 4.5 m? Jungla o Gusanitos. ¿Entre 3.2 y 4.2 m? Sólo Gusanitos.
+Mide con cinta desde el piso hasta el obstáculo más bajo sobre el área. ¿4.5 m o más? Cualquiera. ¿Entre 4.2 y 4.5 m? Jungla, y el Gusanitos según tu medida. ¿Menos de 4.2 m? Sólo el Gusanitos podría entrar; mándanos la medida y lo confirmamos al cotizar.
 
 ### Fiesta bajo techo o en área común
 
@@ -131,7 +131,7 @@ Cualquiera de los tres te sirve. Organiza turnos por edad, primero los chicos y 
 
 ### Hay niños de 2 años
 
-El Gusanitos es el único de los tres que los recibe. Por su formato de túneles, además, funciona con grupos de edades mezcladas, donde un brincolín clásico obliga a separar turnos con más cuidado.
+El Gusanitos es el único de los tres que los recibe. Como los niños entran por el túnel, brincan y bajan por la resbaladilla, el grupo se reparte a lo largo de sus 5 m y además funciona con grupos de edades mezcladas, donde un brincolín clásico obliga a separar turnos con más cuidado.
 
 ### Hay bebés o niños mayores de 8
 
@@ -143,7 +143,7 @@ A veces conviene rentar dos. La combinación más útil es Gusanitos para los m�
 
 ## ¿Cómo se juega en cada uno y qué temática acompaña?
 
-En el Dragones Rojos se brinca y se sale por la resbaladilla; en la Jungla se brinca rodeado de selva; en el Gusanitos se recorre un circuito de túneles. Si el espacio y la edad no te deciden, decide la fiesta: en tipo de juego los tres son distintos.
+En el Dragones Rojos se brinca y se sale por la resbaladilla; en la Jungla se brinca rodeado de selva; en el Gusanitos se entra por un túnel, se brinca bajo arcos y se baja por una resbaladilla doble. Si el espacio y la edad no te deciden, decide la fiesta: en tipo de juego los tres son distintos.
 
 ### El tipo de juego, modelo por modelo
 
@@ -157,9 +157,9 @@ Los niños brincan dentro y salen por la resbaladilla integrada, con mallas a lo
 
 Es la elección obvia si tu fiesta es de animales, safari o dinosaurios. Su decoración hace parte del trabajo de ambientación y te ahorra globos y adornos.
 
-#### Gusanitos: circuito de túneles
+#### Gusanitos: túnel, brinco y resbaladilla doble
 
-No es un brincolín clásico, y eso te conviene si mezclas edades: los niños entran por un lado, recorren túneles de colores y salen por otro. Además funciona en espacios techados.
+No es un brincolín clásico, y eso te conviene si mezclas edades: los niños entran por un túnel verde, brincan bajo arcos morados y turquesa y bajan por una resbaladilla doble con dos gusanos sonrientes. Además funciona en espacios techados.
 
 ### Si la temática no te importa
 
@@ -199,7 +199,7 @@ Si necesitas factura, el 16% de IVA se agrega sobre el monto que te confirmemos.
 
 #### Lo que cambia según el municipio
 
-En Ecatepec muchas fiestas son en patio de casa, en la calle cerrada o en el área común de la unidad; si es en área común, pide el permiso a la administración antes de apartar. Los rangos por colonia están en la página de [inflables con entrega en Ecatepec](/cobertura/ecatepec/). En Tultitlán, fraccionamientos y casas con cochera son lo más común: si el único espacio es la cochera techada, recuerda que ahí sólo entra el Gusanitos con 3.2 m libres. Revisa la [cobertura en Tultitlán](/cobertura/tultitlan/) para tu colonia. En Nicolás Romero hay muchas calles con pendiente y patios con desnivel; el inflable necesita un área plana, así que manda una foto del piso con la [cotización para Nicolás Romero](/cobertura/nicolas-romero/) y confirmamos si alguno de los tres entra.
+En Ecatepec muchas fiestas son en patio de casa, en la calle cerrada o en el área común de la unidad; si es en área común, pide el permiso a la administración antes de apartar. Los rangos por colonia están en la página de [inflables con entrega en Ecatepec](/cobertura/ecatepec/). En Tultitlán, fraccionamientos y casas con cochera son lo más común: si el único espacio es la cochera techada, recuerda que ahí sólo entra el Gusanitos, y la altura de la cochera se confirma al cotizar. Revisa la [cobertura en Tultitlán](/cobertura/tultitlan/) para tu colonia. En Nicolás Romero hay muchas calles con pendiente y patios con desnivel; el inflable necesita un área plana, así que manda una foto del piso con la [cotización para Nicolás Romero](/cobertura/nicolas-romero/) y confirmamos si alguno de los tres entra.
 
 ### Cuánto tarda la instalación de cada uno
 

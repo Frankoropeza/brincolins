@@ -189,7 +189,7 @@ Es el escenario típico de una comida de domingo: los adultos en la mesa del pat
 
 ### Quién lo usa
 
-Para reuniones familiares con niños pequeños, dos modelos medianos encajan bien. El [inflable Gusanitos](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y es para niños de 2 a 8 años: entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos. Puede ir en interior, en un salón o terraza techada con 3.2 m de altura libre. El [inflable Jungla](/inflables/mini-jungla/) mide 5 × 3 × 2.50 m, es para niños de 3 a 8 años, con dinosaurios y palmeras, y va en exterior, en patio o jardín.
+Para reuniones familiares con niños pequeños, dos modelos medianos encajan bien. El [inflable Gusanitos](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y es para niños de 2 a 8 años: entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos. Puede ir en interior, en un salón o terraza techada; la altura del lugar se confirma al cotizar. El [inflable Jungla](/inflables/mini-jungla/) mide 5 × 3 × 2.50 m, es para niños de 3 a 8 años, con dinosaurios y palmeras, y va en exterior, en patio o jardín.
 
 ### Corriente
 
@@ -216,7 +216,7 @@ Con tres quesos, la regla más fácil sirve: tinto para el manchego y el queso d
 
 Cuando el grupo pasa de 30 personas, cuando el evento es formal o cuando no quieres pasar la tarde cortando y reponiendo. La mesa de quesos y carnes frías de nuestro aliado [MEDEDUL](https://mededul.com/) parte de $5,200 más IVA para 30 a 50 personas e incluye la tabla con manchego, brie y queso de cabra, jamón serrano y salami, pan baguette, galletas, fruta y desmontaje al finalizar. Si te interesa la parte de embutidos, la guía de [qué es la charcutería](/blog/que-es-charcuteria/) explica qué pedir.
 
-Los niveles completos están en la página de la [mesa de quesos y carnes frías](/servicios/mesas-de-dulces/mesa-de-quesos/) y el resto de opciones en las [mesas de dulces para eventos](/servicios/mesas-de-dulces/). En casas de la [renta de inflables en Tlalpan](/cobertura/tlalpan/), con patios y terrazas techadas, el Gusanitos suele caber bajo techo si la altura libre llega a 3.2 m.
+Los niveles completos están en la página de la [mesa de quesos y carnes frías](/servicios/mesas-de-dulces/mesa-de-quesos/) y el resto de opciones en las [mesas de dulces para eventos](/servicios/mesas-de-dulces/). En casas de la [renta de inflables en Tlalpan](/cobertura/tlalpan/), con patios y terrazas techadas, el Gusanitos suele caber bajo techo; la altura libre se confirma al cotizar.
 
 ## ¿Cómo cotizar el inflable para tu reunión?
 

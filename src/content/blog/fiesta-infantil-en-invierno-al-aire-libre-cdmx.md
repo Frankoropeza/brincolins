@@ -28,7 +28,7 @@ faqs:
   - question: "¿Se puede poner un calentador o un brasero junto al inflable?"
     answer: "No. Braseros, fogatas, calentadores de gas o de leña y velas deben quedar lejos del inflable y de la zona donde corren los niños. Si usas un calentador eléctrico en la mesa de los adultos, conéctalo en otro contacto, no en el del motor."
   - question: "¿Qué inflable conviene si hace mucho frío?"
-    answer: "Si quieres la opción de meter la fiesta bajo techo, elige un modelo apto para interiores: el Castillo Baby (1 a 3 años, $1,400) o el Gusanitos (2 a 8 años, $1,600). Ambos piden 3.2 m de altura libre, así que caben en algunas terrazas techadas, garages altos o salones."
+    answer: "Si quieres la opción de meter la fiesta bajo techo, elige un modelo apto para interiores: el Castillo Baby (1 a 3 años, $1,400) o el Gusanitos (2 a 8 años, $1,600). Caben en algunas terrazas techadas, garages altos o salones: el Castillo Baby pide 3.2 m de altura libre y en el Gusanitos se confirma según la altura del lugar al cotizar."
   - question: "¿El rocío de la mañana afecta al inflable?"
     answer: "Los inflables no se usan mojados. Si el pasto amanece con rocío o escarcha, la instalación se hace sobre el área seca o se espera a que el sol la seque. Por eso en invierno conviene que la fiesta no empiece muy temprano."
 ---
@@ -41,7 +41,7 @@ Una fiesta infantil en invierno al aire libre funciona si empieza a mediodía y 
 - El mejor horario va de las 12:00 a las 17:00, con comida caliente a media fiesta.
 - Los niños brincan sin zapatos: calcetines gruesos, capas fáciles de quitar y una zona para chamarras.
 - Ninguna fuente de calor cerca del inflable ni en el contacto del motor.
-- Castillo Baby y Gusanitos caben bajo techo con 3.2 m de altura libre, útiles como plan B.
+- Castillo Baby y Gusanitos caben bajo techo, útiles como plan B; el Castillo Baby pide 3.2 m y en el Gusanitos la altura se confirma al cotizar.
 
 En la Ciudad de México y el Estado de México, el invierno tiene algo a favor que casi nadie aprovecha: **casi no llueve**. La temporada de lluvias va de junio a septiembre, y de diciembre a febrero los días suelen ser secos y despejados. El problema es otro: las mañanas son frías, el sol se va más temprano y en cuanto oscurece la temperatura baja rápido. Por eso la fiesta se arma alrededor del sol.
 
@@ -142,13 +142,13 @@ Cualquiera funciona al aire libre con sol. La diferencia está en el plan B: si 
 | Modelo | Edades | Altura libre | ¿Apto bajo techo? | Precio neto |
 |---|---|---|---|---|
 | Castillo Baby | 1 a 3 años | 3.2 m | Sí | $1,400 |
-| Gusanitos | 2 a 8 años | 3.2 m | Sí | $1,600 |
+| Gusanitos | 2 a 8 años | Se confirma al cotizar | Sí | $1,600 |
 | Jungla | 3 a 8 años | 4.2 m | No | $1,600 |
 | Dragones Rojos | 3 a 8 años | 4.5 m | No | $1,600 |
 | Castillo de Princesas | 2 a 10 años | 4.2 m | No | $1,800 |
 | Barco Pirata | 3 a 12 años | 5.2 m | No | $2,300 |
 
-Si tienes una terraza techada, un garage alto o un salón con al menos 3.2 m libres, elegir un modelo del catálogo de [inflables para interiores](/inflables/para-interiores/) te da la opción de mover la fiesta adentro sin cambiar de inflable. Si vas a estar afuera sí o sí, la [Jungla, para niños de 3 a 8 años](/inflables/mini-jungla/), se instala en 15 minutos y es de las más rápidas de dejar lista.
+Si tienes una terraza techada, un garage alto o un salón con altura suficiente (3.2 m para el Castillo Baby; en el Gusanitos se confirma al cotizar), elegir un modelo del catálogo de [inflables para interiores](/inflables/para-interiores/) te da la opción de mover la fiesta adentro sin cambiar de inflable. Si vas a estar afuera sí o sí, la [Jungla, para niños de 3 a 8 años](/inflables/mini-jungla/), se instala en 15 minutos y es de las más rápidas de dejar lista.
 
 ![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
 ![Inflable Jungla instalado en el área verde común de una privada](/img/inflables/mini-jungla/mini-jungla-privada-condominio.avif "Jungla en el área común de una privada")
@@ -159,7 +159,7 @@ Suele pasar: revisas el pronóstico toda la semana, todo bien, y el sábado aman
 
 1. **Recorre el horario.** Si la fiesta era a las 12:00, empieza a las 13:00 para dar tiempo al sol. Avisa a los invitados por mensaje.
 2. **Acorta los bloques de juego** y alarga la comida caliente. Los niños brincan, se abrigan, comen y vuelven a brincar.
-3. **Mueve la fiesta bajo techo** si contrataste un modelo apto para interiores y tienes dónde ponerlo con 3.2 m de altura libre.
+3. **Mueve la fiesta bajo techo** si contrataste un modelo apto para interiores y tienes dónde ponerlo con la altura libre que pide.
 4. **Con viento fuerte, el inflable no se usa.** Se desinfla por seguridad y se reanuda cuando calme. Que el adulto que supervisa lo sepa desde antes.
 
 Si en lugar de frío lo que cae es lluvia, aplica la política de siempre: se reprograma sin costo a otra fecha disponible.

@@ -26,7 +26,7 @@ faqs:
   - question: "¿Qué pasa si llueve el día que rentamos el inflable?"
     answer: "Con lluvia se suspenden los turnos, porque la lona mojada resbala y nadie debe brincar. Si la lluvia impide el evento, la fecha se reprograma sin costo. Si tu sede tiene un espacio techado, valora desde el inicio un modelo apto para interiores."
   - question: "¿Qué inflable se puede poner bajo techo en un curso de verano?"
-    answer: "Gusanitos es apto para interiores si el espacio tiene al menos 3.2 m de altura libre. Es un circuito de túneles para niños de 2 a 8 años, mide 5 × 3 × 2.80 m y cuesta $1,600 por evento. El Jungla, en cambio, es sólo para exterior."
+    answer: "Gusanitos es apto para interiores; se confirma según la altura del lugar al cotizar. Tiene túnel de entrada, zona de brinco bajo arcos y resbaladilla doble, es para niños de 2 a 8 años, mide 5 × 3 × 2.80 m y cuesta $1,600 por evento. El Jungla, en cambio, es sólo para exterior."
   - question: "¿Quién cuida a los niños en el inflable durante el curso?"
     answer: "El personal del curso. Se necesita una persona adulta durante todo el evento en la entrada del inflable. Nosotros entregamos el equipo revisado y sanitizado, lo instalamos con anclaje verificado y dejamos el motor profesional funcionando hasta la recolección."
   - question: "¿Qué necesita el espacio del curso para instalar el Jungla?"
@@ -42,7 +42,7 @@ En un **curso de verano con inflables** la renta es por día de evento, con inst
 - Cada día de inflable se cotiza y se aparta como un evento, con 50% de anticipo.
 - Con tres grupos y cuatro estaciones, nadie hace fila: todos rotan cada media hora.
 - En julio y agosto las lluvias suelen llegar por la tarde; la mañana es más confiable.
-- Gusanitos ($1,600) entra bajo techo con 3.2 m de altura libre; el Jungla no.
+- Gusanitos ($1,600) es apto bajo techo, según la altura del lugar; el Jungla no.
 - La supervisión es del personal del curso, con un monitor fijo en la entrada.
 
 Un curso de verano pide algo que un cumpleaños no: logística para varios grupos, monitores que rotan y un horario que compite con la lluvia. Bien planeado, el día de inflable es el que los niños cuentan en casa durante la cena. Mal planeado, es una fila larga bajo el sol y un patio mojado a las cuatro de la tarde. Aquí tienes cómo funciona la renta, cómo rotar grupos, qué hacer cuando se nubla y cuál es tu plan B bajo techo.
@@ -133,11 +133,11 @@ Aunque el inflable sea exterior, tu programa no tiene por qué detenerse. Prepar
 
 ## ¿Cuál es tu plan B bajo techo si llueve toda la semana?
 
-Tu plan B es otro modelo: Gusanitos, apto para interiores. El Jungla no entra bajo techo porque es sólo para exterior. Si tu sede tiene gimnasio techado, salón de usos múltiples o cancha cubierta con 3.2 m de altura libre, puedes rentar Gusanitos desde el inicio.
+Tu plan B es otro modelo: Gusanitos, apto para interiores. El Jungla no entra bajo techo porque es sólo para exterior. Si tu sede tiene gimnasio techado, salón de usos múltiples o cancha cubierta, puedes rentar Gusanitos desde el inicio; la altura del lugar se confirma al cotizar.
 
 ### Cuándo conviene Gusanitos
 
-[Gusanitos, el circuito de túneles para interiores](/inflables/gusanitos/), es más circuito que brincolín: túneles de colores conectados con varias entradas y salidas, para niños de 2 a 8 años. Mide 5 × 3 × 2.80 m, pide 3.2 m de altura libre, se instala en unos 20 minutos y cuesta $1,600, igual que el Jungla. Funciona con grupos de edades mezcladas, algo muy común en un curso.
+[Gusanitos, el inflable apto para interiores](/inflables/gusanitos/), es un recorrido corto: túnel verde de entrada, zona de brinco bajo arcos morados y turquesa y resbaladilla doble con dos gusanos, para niños de 2 a 8 años. Mide 5 × 3 × 2.80 m, se instala en unos 20 minutos y cuesta $1,600, igual que el Jungla; en interiores se confirma según la altura del lugar al cotizar. Funciona con grupos de edades mezcladas, algo muy común en un curso: el grupo se reparte a lo largo de 5 m y los tímidos van a su ritmo mientras un monitor espera al pie de la resbaladilla.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 ![Inflable Gusanitos instalado en el patio de una escuela para la kermés](/img/inflables/gusanitos/gusanitos-kermes-escolar.avif "Gusanitos en una kermés escolar")
@@ -234,7 +234,7 @@ Revisas fechas, grupos, espacio, corriente, acceso, roles y datos fiscales. Esta
 - **Todas las fechas juntas.** Así revisamos la disponibilidad de una vez y apartas sin sorpresas.
 - **Niños por grupo y rango de edad.** Definen el modelo y los turnos de cada bloque.
 - **Espacio exterior autorizado por escrito.** Con 4.2 m de altura libre para el Jungla.
-- **Espacio techado alternativo.** Con al menos 3.2 m de altura libre si consideras Gusanitos.
+- **Espacio techado alternativo.** Si consideras Gusanitos, la altura libre del lugar se confirma al cotizar.
 - **Toma de 110 V a menos de 20 m.** El motor trabaja todo el evento.
 - **Horario de acceso para el vehículo.** Que no choque con la entrada de los niños.
 - **Monitores asignados por rol.** Entrada, espera y tiempo, desde antes del día.

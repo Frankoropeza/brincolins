@@ -12,7 +12,7 @@ Cuajimalpa reúne en una sola alcaldía dos realidades opuestas. Del lado orient
 
 ### Qué tipo de espacio tienes
 
-**Departamento en torre de Santa Fe o Contadero.** La fiesta suele ir en el jardín del conjunto, en la terraza o en el salón de usos múltiples. El salón solo sirve si tiene 3.2 m de altura libre, que es lo que piden los [inflables para interiores](/inflables/para-interiores/). Para jardines de conjunto, un modelo mediano como el [Castillo de Princesas](/inflables/castillo-princesas/) o la Jungla suele entrar sin problema. Pide el reglamento de eventos a la administración y revisa la guía de [fiesta en privada o condominio](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/).
+**Departamento en torre de Santa Fe o Contadero.** La fiesta suele ir en el jardín del conjunto, en la terraza o en el salón de usos múltiples. El salón solo sirve si tiene la altura libre que pide el modelo de [inflables para interiores](/inflables/para-interiores/): 3.2 m para el Castillo Baby; para el Gusanitos se confirma según la altura del lugar al cotizar. Para jardines de conjunto, un modelo mediano como el [Castillo de Princesas](/inflables/castillo-princesas/) o la Jungla suele entrar sin problema. Pide el reglamento de eventos a la administración y revisa la guía de [fiesta en privada o condominio](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/).
 
 **Casa con jardín en Cuajimalpa Centro, Contadero o Lomas de Vista Hermosa.** Es el espacio con más posibilidades. Si el jardín es amplio y plano, entran los [inflables grandes](/inflables/grandes/) como el Barco Pirata (6 × 3.5 × 3.80 m) o el [Extremo](/inflables/extremo/) (8 × 4.5 × 3.50 m), que funciona muy bien cuando hay niños mayores o primos de varias edades.
 
@@ -65,7 +65,7 @@ Si vives en la parte de Santa Fe que colinda con Lomas o con Bosques de las Loma
 | Tu espacio | Punto de partida |
 |---|---|
 | Jardín de conjunto en Santa Fe | Castillo de Princesas o Jungla |
-| Salón de usos múltiples con 3.2 m libres | Castillo Baby o Gusanitos |
+| Salón de usos múltiples techado | Castillo Baby (3.2 m libres) o Gusanitos (se confirma según la altura al cotizar) |
 | Jardín grande en Contadero o Cuajimalpa Centro | Barco Pirata o Extremo |
 | Patio de tierra en un pueblo | Mediano, si el área está nivelada |
 

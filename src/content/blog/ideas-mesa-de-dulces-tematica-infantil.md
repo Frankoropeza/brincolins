@@ -142,7 +142,7 @@ Es una temática neutra, alegre y fácil de armar, ideal cuando hay niños peque
 
 **Atrezzo:** macetas pequeñas, flores de papel y mariposas de cartulina.
 
-**Inflable:** el [inflable Gusanitos](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y es para niños de 2 a 8 años. Los niños entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos sonrientes. Puede ir bajo techo si el lugar tiene al menos 3.2 m de altura libre, lo que lo vuelve una buena opción para salones o terrazas techadas.
+**Inflable:** el [inflable Gusanitos](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y es para niños de 2 a 8 años. Los niños entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos sonrientes. Puede ir bajo techo (la altura del lugar se confirma al cotizar), lo que lo vuelve una buena opción para salones o terrazas techadas.
 
 ## ¿Cómo combinar la mesa temática con el inflable sin que se estorben?
 
@@ -167,7 +167,7 @@ La mesa va a la sombra y a dos o tres metros del inflable como mínimo. Nunca fr
 | Jungla | 5 × 3 × 2.50 m | 3 a 8 años | No, solo exterior |
 | Barco Pirata | 6 × 3.5 × 3.80 m | 3 a 12 años | No, solo exterior |
 | Castillo de Princesas | 5 × 3.30 × 3 m | 2 a 10 años | No, solo exterior |
-| Gusanitos | 5 × 3 × 2.80 m | 2 a 8 años | Sí, con 3.2 m de altura libre |
+| Gusanitos | 5 × 3 × 2.80 m | 2 a 8 años | Sí; la altura se confirma al cotizar |
 
 ### Corriente
 

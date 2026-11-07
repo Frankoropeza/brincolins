@@ -102,7 +102,7 @@ Aquí ya hay competencia de verdad y ganas de demostrar habilidad. Los juegos en
 | 21. Basta o stop gigante | Hojas, plumas y cronómetro | 10 min | Mesa |
 | 22. Torneo de piedra, papel o tijera | Ninguno | 10 min | Cualquiera |
 
-**Cómo combinarlo con el inflable:** con niños de esta edad un circuito suma mucho, porque convierte el inflable en otra estación de competencia. El [inflable Gusanitos](/inflables/gusanitos/), de túneles con varias entradas y salidas, funciona bien para recorridos por turnos. Los relevos y la búsqueda del tesoro pueden terminar con una vuelta al inflable como premio.
+**Cómo combinarlo con el inflable:** con niños de esta edad un recorrido suma mucho, porque convierte el inflable en otra estación de competencia. El [inflable Gusanitos](/inflables/gusanitos/), con túnel de entrada, zona de brinco y resbaladilla doble, funciona bien para recorridos por turnos. Los relevos y la búsqueda del tesoro pueden terminar con una vuelta al inflable como premio.
 
 ![Mesa con materiales para juegos de fiesta infantil: costales, conos, aros, pañuelos y una cubeta con pelotas](/img/blog/juegos-para-fiesta-infantil-ideas-por-edad/escena-1.avif "Tener los materiales separados por juego agiliza los cambios de estación")
 ![Jardín de casa con niños de espaldas formando fila a distancia de un inflable al fondo mientras otro grupo juega con aros en el pasto](/img/blog/juegos-para-fiesta-infantil-ideas-por-edad/escena-2.avif "Dos estaciones a la vez: un grupo espera turno en el inflable y otro juega en el pasto")

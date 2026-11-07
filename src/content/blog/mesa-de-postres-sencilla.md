@@ -194,7 +194,7 @@ En un cumpleaños o una reunión familiar, la mesa de postres es para todos y el
 
 ### Quién lo usa
 
-Para niños de 2 a 10 años en exterior, el [inflable Castillo de Princesas](/inflables/castillo-princesas/) mide 5 × 3.30 × 3 m, tiene torres decorativas, resbaladilla y mallas de seguridad. Si la fiesta es bajo techo o hay niños de 2 a 8 años, el [inflable Gusanitos](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y puede ir en interior si hay al menos 3.2 m de altura libre: los niños entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos.
+Para niños de 2 a 10 años en exterior, el [inflable Castillo de Princesas](/inflables/castillo-princesas/) mide 5 × 3.30 × 3 m, tiene torres decorativas, resbaladilla y mallas de seguridad. Si la fiesta es bajo techo o hay niños de 2 a 8 años, el [inflable Gusanitos](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y puede ir en interior, según la altura del lugar, que se confirma al cotizar: los niños entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos.
 
 ### Corriente
 

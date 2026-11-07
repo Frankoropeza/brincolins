@@ -138,7 +138,7 @@ Si dudas entre el circuito y un brincolín tradicional, la comparación entre [c
 
 ### ¿Y si no cabe el Extremo?
 
-Si tu patio no tiene 8 m de largo libres con holgura, el [inflable Gusanitos](/inflables/gusanitos/) es la alternativa: túneles de colores con varias entradas y salidas, 5 × 3 m de base, para niños de 2 a 8 años y apto para interiores. En la historia de la carrera, es el túnel de la pista. Puedes ver otros modelos que caben en patios medianos en la categoría de [inflables medianos](/inflables/medianos/).
+Si tu patio no tiene 8 m de largo libres con holgura, el [inflable Gusanitos](/inflables/gusanitos/) es la alternativa: túnel de entrada, zona de brinco y resbaladilla doble, 5 × 3 m de base, para niños de 2 a 8 años y apto para interiores. En la historia de la carrera, es el túnel de la pista. Puedes ver otros modelos que caben en patios medianos en la categoría de [inflables medianos](/inflables/medianos/).
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
@@ -146,7 +146,7 @@ Si tu patio no tiene 8 m de largo libres con holgura, el [inflable Gusanitos](/i
 | Modelo | Edades | Base | Altura libre | Precio | Papel en la fiesta de carros |
 |---|---|---|---|---|---|
 | Extremo | 3 a 12 años | 8 × 4.5 m | 4.5 m | $2,500 | Pista de obstáculos con duelos de dos pilotos |
-| Gusanitos | 2 a 8 años | 5 × 3 m | 3.2 m | $1,600 | Túnel de la pista para patios medianos o bajo techo |
+| Gusanitos | 2 a 8 años | 5 × 3 m | Se confirma al cotizar | $1,600 | Túnel de la pista para patios medianos o bajo techo |
 
 ## ¿Cómo montar el pit stop de comida?
 

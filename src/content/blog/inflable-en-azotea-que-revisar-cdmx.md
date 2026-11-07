@@ -107,7 +107,7 @@ Más de los que parece. Antes de medir, haz una lista de todo lo que no se mueve
 - Cuartos de servicio, jaulas de tendido y bodegas.
 - Macetas grandes y jardineras.
 
-Mide de obstáculo a obstáculo, no de barda a barda. Y mide también hacia arriba: un tendedero o un cable que cruza a dos metros y medio descarta la instalación de casi cualquier modelo. Los modelos aptos para interiores piden 3.2 m de altura libre; los de exterior, entre 4.2 y 5.2 m.
+Mide de obstáculo a obstáculo, no de barda a barda. Y mide también hacia arriba: un tendedero o un cable que cruza a dos metros y medio descarta la instalación de casi cualquier modelo. El Castillo Baby pide 3.2 m de altura libre y los de exterior, entre 4.2 y 5.2 m; en el Gusanitos se confirma al cotizar.
 
 ## ¿Qué inflable cabe mejor en una azotea?
 
@@ -116,14 +116,14 @@ Los de huella más chica, por dos razones: ocupan menos piso y son más fáciles
 | Modelo | Huella | Altura libre | Edades | Precio neto |
 |---|---|---|---|---|
 | Castillo Baby | 2.5 × 2 m | 3.2 m | 1 a 3 años | $1,400 |
-| Gusanitos | 5 × 3 m | 3.2 m | 2 a 8 años | $1,600 |
+| Gusanitos | 5 × 3 m | Se confirma al cotizar | 2 a 8 años | $1,600 |
 | Jungla | 5 × 3 m | 4.2 m | 3 a 8 años | $1,600 |
 | Dragones Rojos | 5 × 3 m | 4.5 m | 3 a 8 años | $1,600 |
 | Castillo de Princesas | 5 × 3.30 m | 4.2 m | 2 a 10 años | $1,800 |
 
 Los modelos grandes (Barco Pirata de 6 × 3.5 m, Extremo de 8 × 4.5 m y Castillo Blanco de 5 × 7 m) piden azoteas muy amplias y una subida más pesada. No están descartados, pero se confirman sólo con medidas, fotos y el recorrido de acceso.
 
-Para azoteas de casa, el [Gusanitos, alargado y de poca altura](/inflables/gusanitos/) suele ser el que mejor se acomoda: 5 × 3 m, para niños de 2 a 8 años, con varias entradas y salidas. Si tu espacio es todavía más chico, revisa el catálogo de [inflables chicos para espacios reducidos](/inflables/chicos/).
+Para azoteas de casa, el [Gusanitos, alargado y de poca altura](/inflables/gusanitos/) suele ser el que mejor se acomoda: 5 × 3 m, para niños de 2 a 8 años, con túnel de entrada, zona de brinco y resbaladilla doble. Si tu espacio es todavía más chico, revisa el catálogo de [inflables chicos para espacios reducidos](/inflables/chicos/).
 
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 ![Inflable Gusanitos instalado en el área verde común de una privada](/img/inflables/gusanitos/gusanitos-privada-condominio.avif "Gusanitos en el área común de una privada")

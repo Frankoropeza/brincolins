@@ -20,7 +20,7 @@ Buena parte de las familias de Interlomas vive en departamento. Las fiestas se h
 3. Altura libre del salón, si el evento es bajo techo.
 4. Ubicación del contacto de 110 V más cercano.
 
-Si el área es techada, sólo caben los modelos para interiores, que necesitan 3.2 m de altura libre: el [Castillo Baby](/inflables/mini-castillo/), para niños de 1 a 3 años, y el Gusanitos, un circuito de túneles de 2 a 8 años. La sección de [inflables para interiores](/inflables/para-interiores/) muestra los dos con sus medidas. Si tu salón no llega a esa altura, la guía sobre [altura de techo para un inflable](/blog/inflable-para-departamento-altura-techo-cdmx/) explica cómo medir.
+Si el área es techada, sólo caben los modelos para interiores: el [Castillo Baby](/inflables/mini-castillo/), para niños de 1 a 3 años, que necesita 3.2 m de altura libre, y el Gusanitos, de 2 a 8 años, con túnel de entrada y resbaladilla doble, cuya instalación en interiores se confirma según la altura del lugar al cotizar. La sección de [inflables para interiores](/inflables/para-interiores/) muestra los dos con sus medidas. Si no sabes cuánto mide tu techo, la guía sobre [altura de techo para un inflable](/blog/inflable-para-departamento-altura-techo-cdmx/) explica cómo medir.
 
 ### Residencias de La Herradura y Bosque Real
 

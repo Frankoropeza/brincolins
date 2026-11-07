@@ -162,7 +162,7 @@ Muchas fiestas spa se piensan para la sala: esmaltes en la mesa del comedor, col
 
 Tienes tres caminos realistas:
 
-1. **Cambiar a un modelo apto para interiores.** En el catálogo hay dos que caben bajo techo con 3.2 m de altura libre:
+1. **Cambiar a un modelo apto para interiores.** En el catálogo hay dos que caben bajo techo (el Castillo Baby pide 3.2 m de altura libre; en Gusanitos se confirma según la altura del lugar al cotizar):
 
 | Modelo | Precio | Medidas | Edades | Uso bajo techo |
 |---|---|---|---|---|

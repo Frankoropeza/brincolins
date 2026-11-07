@@ -145,7 +145,7 @@ export const INFLABLES: Inflable[] = [
     priceNumber: 1600,
     size:        "5×3×2.80m",
     spaceRequired:   "Se confirma al cotizar",
-    heightClearance: "3.2 m",
+    heightClearance: "Se confirma al cotizar",
     indoor:      true,
     ages:        "2 a 8 años",
     capacity:    "Se confirma al cotizar",

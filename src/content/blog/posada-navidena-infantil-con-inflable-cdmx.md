@@ -30,16 +30,16 @@ faqs:
   - question: "¿Qué pasa si la posada cambia de día?"
     answer: "Las condiciones para cambiar la fecha están en la política de cancelación publicada en el sitio. Léela antes de pagar el anticipo y pregunta tu caso al cotizar. En diciembre la disponibilidad se mueve rápido, así que conviene avisar en cuanto sepas del cambio."
   - question: "¿Se puede usar un inflable de noche en una posada?"
-    answer: "Sí, siempre que el área tenga luz propia y quien supervisa vea todas las entradas y salidas. El motor trabaja durante todo el evento y el precio es por evento. Coloca una lámpara o un reflector sobre el área, sin deslumbrar a los niños, y deja las series navideñas en paredes y árboles."
+    answer: "Sí, siempre que el área tenga luz propia y quien supervisa vea la entrada y la salida del inflable. El motor trabaja durante todo el evento y el precio es por evento. Coloca una lámpara o un reflector sobre el área, sin deslumbrar a los niños, y deja las series navideñas en paredes y árboles."
   - question: "¿Qué inflable sirve para los bebés en una posada familiar?"
     answer: "El Castillo Baby, para niños de 1 a 3 años. Mide 2.5 × 2 × 2 m, cuesta $1,400 netos por evento y es apto para interiores, con 3.2 m de altura libre. Puede compartir espacio con el Gusanitos, que cubre de 2 a 8 años, si el lugar lo permite."
 ---
 
-Para una posada con frío o bajo techo, el modelo indicado es el [Gusanitos para posadas bajo techo](/inflables/gusanitos/): apto para interiores con 3.2 m de altura libre, para niños de 2 a 8 años y a $1,600 netos por evento. Al aire libre también funciona Dragones Rojos. El inflable cierra durante la procesión, la piñata y la cena, y conviene apartar pronto.
+Para una posada con frío o bajo techo, el modelo indicado es el [Gusanitos para posadas bajo techo](/inflables/gusanitos/): apto para interiores (la altura del lugar se confirma al cotizar), para niños de 2 a 8 años y a $1,600 netos por evento. Al aire libre también funciona Dragones Rojos. El inflable cierra durante la procesión, la piñata y la cena, y conviene apartar pronto.
 
 **Puntos clave**
 
-- Bajo techo solo entran el Gusanitos y el Castillo Baby; ambos piden 3.2 m de altura libre.
+- Bajo techo solo entran el Gusanitos y el Castillo Baby; el Castillo Baby pide 3.2 m de altura libre y en el Gusanitos se confirma según la altura del lugar al cotizar.
 - En calle cerrada: asfalto parejo, acuerdo con vecinos y toma de 110 V a menos de 20 m.
 - Contra el frío y la noche: chamarras fuera al entrar, luz propia sobre el área y bebidas lejos de la salida.
 - Turnos cortos antes y después del ritual; piñata y cena con el inflable cerrado.
@@ -59,7 +59,7 @@ Si ya organizaste una tarde de disfraces en octubre, el reto de luz y abrigo es 
 
 ## ¿Dónde instalas el inflable: patio, salón o calle cerrada?
 
-Lo instalas donde haya superficie plana y despejada, una toma de 110 V a menos de 20 m y, si hace frío, techo con 3.2 m libres para el Gusanitos. Cada escenario tiene su punto crítico, y conviene resolverlo antes de cotizar para no toparte con el problema el mismo 16 de diciembre.
+Lo instalas donde haya superficie plana y despejada, una toma de 110 V a menos de 20 m y, si hace frío, techo con altura suficiente para el Gusanitos, que se confirma al cotizar. Cada escenario tiene su punto crítico, y conviene resolverlo antes de cotizar para no toparte con el problema el mismo 16 de diciembre.
 
 ### Patio o jardín de la casa
 
@@ -92,13 +92,13 @@ Si tu posada es en el oriente de la ciudad, te conviene revisar la [renta de inf
 
 ## ¿Qué inflable conviene para una posada con frío?
 
-Con frío o bajo techo te conviene el Gusanitos, porque es apto para interiores y cubre de 2 a 8 años; al aire libre, con niños de 3 a 8, también funcionan Dragones Rojos o Jungla. Lo que decide es si tienes techo con 3.2 m libres y qué edades vienen.
+Con frío o bajo techo te conviene el Gusanitos, porque es apto para interiores y cubre de 2 a 8 años; al aire libre, con niños de 3 a 8, también funcionan Dragones Rojos o Jungla. Lo que decide es si tienes techo con altura suficiente, que se confirma al cotizar, y qué edades vienen.
 
 Esta tabla compara los modelos que más sentido tienen en una posada. La conclusión práctica: si la posada va bajo techo, solo el Gusanitos y el Castillo Baby entran.
 
 | Modelo | Medidas | Altura libre | ¿Interiores? | Edades | Precio neto |
 |---|---|---|---|---|---|
-| Gusanitos | 5 × 3 × 2.80 m | 3.2 m | Sí | 2 a 8 años | $1,600 |
+| Gusanitos | 5 × 3 × 2.80 m | Se confirma al cotizar | Sí | 2 a 8 años | $1,600 |
 | Castillo Baby | 2.5 × 2 × 2 m | 3.2 m | Sí | 1 a 3 años | $1,400 |
 | Dragones Rojos | 5 × 3 × 2.80 m | 4.5 m | No, solo exterior | 3 a 8 años | $1,600 |
 | Jungla | 5 × 3 × 2.50 m | 4.2 m | No, solo exterior | 3 a 8 años | $1,600 |
@@ -108,7 +108,7 @@ La lista completa por edades está en los [inflables por edad para fiestas de cu
 
 ### Gusanitos si la noche está fría
 
-Mide 5 × 3 × 2.80 m y pide 3.2 m de altura libre. Es más circuito que brincolín: túneles de colores con varias entradas y salidas. Puede ir en una terraza techada, un garage o un salón, y los niños juegan resguardados. Para medir bien tu espacio, sigue la [guía para medir un espacio techado](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/).
+Mide 5 × 3 × 2.80 m; en interiores se confirma según la altura del lugar al cotizar. Es un recorrido corto: túnel verde de entrada, zona de brinco bajo arcos morados y turquesa, y resbaladilla doble con dos gusanos amarillos. Puede ir en una terraza techada, un garage o un salón, y los niños juegan resguardados. Para medir bien tu espacio, sigue la [guía para medir un espacio techado](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/).
 
 Además funciona con grupos de edades mezcladas, justo lo que reúne tu posada familiar. Si tienes primos de todas las edades, las [ideas de juegos para fiesta infantil por edad](/blog/juegos-para-fiesta-infantil-ideas-por-edad/) te ayudan a repartir turnos y actividades sin que nadie llore.
 
@@ -138,9 +138,9 @@ Pide a los niños que se quiten chamarras gruesas, bufandas y gorros con cordone
 
 ### La luz del área
 
-#### Una lámpara sobre las entradas
+#### Una lámpara sobre la entrada y la resbaladilla
 
-Quien supervisa tiene que ver todas las entradas y salidas. Te basta una lámpara o un reflector apuntando al área, sin deslumbrar a nadie. Para más ideas, revisa la guía de [iluminación e inflables para fiestas de noche](/servicios/iluminacion-eventos/).
+Quien supervisa tiene que ver la entrada del túnel y el pie de la resbaladilla. Te basta una lámpara o un reflector apuntando al área, sin deslumbrar a nadie. Para más ideas, revisa la guía de [iluminación e inflables para fiestas de noche](/servicios/iluminacion-eventos/).
 
 #### Series navideñas en su lugar
 
@@ -148,7 +148,7 @@ Las series se cuelgan en paredes y árboles, no sobre el inflable. Procura que e
 
 #### Velas y bengalas, lejos
 
-Las velitas de la procesión y las luces de bengala se quedan lejos del inflable. Define un camino para la procesión que no pase junto a los túneles.
+Las velitas de la procesión y las luces de bengala se quedan lejos del inflable. Define un camino para la procesión que no pase junto al inflable.
 
 ### Algo caliente, lejos de la salida
 
@@ -168,7 +168,7 @@ Si la posada es en jardín o patio abierto y quieres más ideas para manejar el 
 
 ## ¿En qué momento van la piñata, los villancicos y los turnos?
 
-Van con el inflable cerrado: cuando empieza el ritual, el inflable cierra y nadie corre de los túneles al palo de la piñata. Con frío, además, los turnos cortos y frecuentes te funcionan mejor que uno largo. Este orden sirve en posadas de casa y de cuadra:
+Van con el inflable cerrado: cuando empieza el ritual, el inflable cierra y nadie corre del inflable al palo de la piñata. Con frío, además, los turnos cortos y frecuentes te funcionan mejor que uno largo. Este orden sirve en posadas de casa y de cuadra:
 
 1. **Llegada y primeros turnos.** Mientras llegan las familias, el inflable abre por edades, primero los chicos.
 2. **Pedir posada.** El inflable cierra y los niños se suman a la procesión con sus velitas.
@@ -200,7 +200,7 @@ La organiza con un solo contacto responsable, supervisión asignada por turnos y
 
 ### Posada escolar
 
-El patio de una escuela te funciona si es plano y está despejado. La autorización la da la dirección del plantel. Pídela por escrito. Confirma con ellos la toma de corriente, el horario de acceso y quién supervisa. Si dudas con un grupo escolar, revisa [en qué cambia un circuito de túneles frente a un brincolín](/blog/circuito-de-tuneles-vs-brincolin/).
+El patio de una escuela te funciona si es plano y está despejado. La autorización la da la dirección del plantel. Pídela por escrito. Confirma con ellos la toma de corriente, el horario de acceso y quién supervisa. Si dudas con un grupo escolar, revisa la [comparativa entre circuito y brincolín](/blog/circuito-de-tuneles-vs-brincolin/).
 
 No ofrecemos seguro de responsabilidad civil; por eso insistimos en la supervisión y en respetar la capacidad confirmada. Lo que sí te entregamos: equipo revisado y sanitizado, instalación con anclaje verificado y motor profesional durante todo el evento.
 
@@ -238,7 +238,7 @@ Revisa fecha apartada, espacio medido, corriente, luz y adultos asignados: con e
 - **Superficie plana y despejada**, sin vidrio ni objetos punzantes.
 - **Permiso o acuerdo vecinal** si la posada es en calle cerrada.
 - **Luz sobre el área del inflable**, sin series encima.
-- **Camino de la procesión** lejos de las entradas de los túneles.
+- **Camino de la procesión** lejos de la entrada del inflable.
 - **Adultos asignados** a la supervisión durante todo el evento, con relevos claros.
 - **Piñata y cena** programadas con el inflable cerrado.
 

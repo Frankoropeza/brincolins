@@ -192,7 +192,7 @@ function faqsProducto(slug: string): Faq[] {
     {
       tag: "Espacio",
       question: `¿Cuánto espacio necesito para el ${i.name}?`,
-      answer: `El ${i.name} mide ${i.size} y pide ${i.heightClearance} de altura libre. Alrededor necesita un margen despejado para el anclaje y para que los niños entren y salgan sin pegarse con nada; el área exacta la confirmamos al cotizar con las medidas de tu espacio. ${i.indoor ? "Es uno de los modelos que caben bajo techo, así que funciona en salón o terraza cubierta." : "Por su altura necesita instalarse al aire libre o en un espacio con techo muy alto."}`,
+      answer: `El ${i.name} mide ${i.size}${/^\d/.test(i.heightClearance) ? ` y pide ${i.heightClearance} de altura libre` : "; la altura libre que necesita se confirma al cotizar según el lugar"}. Alrededor necesita un margen despejado para el anclaje y para que los niños entren y salgan sin pegarse con nada; el área exacta la confirmamos al cotizar con las medidas de tu espacio. ${i.indoor ? "Es uno de los modelos que caben bajo techo, así que funciona en salón o terraza cubierta." : "Por su altura necesita instalarse al aire libre o en un espacio con techo muy alto."}`,
     },
     {
       tag: "Edades",

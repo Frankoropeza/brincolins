@@ -25,7 +25,7 @@ faqs:
   - question: "¿Cuál es el inflable más grande?"
     answer: "Por superficie, el Extremo, con 8 × 4.5 m de base y 3.50 m de alto. Por altura, el Castillo Blanco, que llega a 4 m y pide 4.7 m libres. El Barco Pirata pide la mayor altura libre del catálogo: 5.2 m."
   - question: "¿Qué inflables se pueden poner bajo techo?"
-    answer: "Según la ficha de cada modelo, el Castillo Baby y Gusanitos son los aptos para interiores, ambos con 3.2 m de altura libre. El resto del catálogo está pensado para exterior. Aun así, confirmamos cada espacio techado al cotizar, con la medida real de tu techo."
+    answer: "Según la ficha de cada modelo, el Castillo Baby y Gusanitos son los aptos para interiores; el Castillo Baby pide 3.2 m de altura libre y en Gusanitos se confirma al cotizar. El resto del catálogo está pensado para exterior. Aun así, confirmamos cada espacio techado al cotizar, con la medida real de tu techo."
   - question: "¿Basta con que el inflable quepa justo en el patio?"
     answer: "No. Además de la base del inflable se necesita espacio libre alrededor para circular, para el motor y para la entrada de los niños. Por eso el área libre exacta se confirma al cotizar, con las medidas y fotos de tu espacio."
   - question: "¿Qué medidas debo mandar al cotizar?"
@@ -55,7 +55,7 @@ Las medidas de un inflable se expresan como largo × ancho × alto. En el catál
 **Puntos clave**
 
 - Cada modelo tiene tres medidas que importan: base (largo × ancho), alto del inflable y altura libre que pide el espacio.
-- Los modelos aptos para interiores son el Castillo Baby y Gusanitos, con 3.2 m de altura libre.
+- Los modelos aptos para interiores son el Castillo Baby, con 3.2 m de altura libre, y Gusanitos, cuya altura se confirma al cotizar.
 - La base del inflable no es el área total: el área libre incluye espacio para circular y para el motor, y se confirma al cotizar.
 - El acceso más angosto (zaguán, pasillo, escalera) y un contacto de 110 V a menos de 20 m deciden tanto como el tamaño.
 
@@ -69,7 +69,7 @@ Esta es la tabla de referencia. Todas las cifras salen de la ficha técnica de c
 | Dragones Rojos | 5 × 3 × 2.80 m | 15 m² | 4.5 m | No | 3 a 8 años | 20 min |
 | Castillo de Princesas | 5 × 3.30 × 3 m | 16.5 m² | 4.2 m | No | 2 a 10 años | 20 min |
 | Jungla | 5 × 3 × 2.50 m | 15 m² | 4.2 m | No | 3 a 8 años | 15 min |
-| Gusanitos | 5 × 3 × 2.80 m | 15 m² | 3.2 m | Sí | 2 a 8 años | 20 min |
+| Gusanitos | 5 × 3 × 2.80 m | 15 m² | Se confirma al cotizar | Sí | 2 a 8 años | 20 min |
 | Barco Pirata | 6 × 3.5 × 3.80 m | 21 m² | 5.2 m | No | 3 a 12 años | 30 min |
 | Castillo Blanco | 5 × 7 × 4 m | 35 m² | 4.7 m | No | 3 a 12 años | 30 min |
 | Extremo | 8 × 4.5 × 3.50 m | 36 m² | 4.5 m | No | 3 a 12 años | 30 min |
@@ -130,7 +130,7 @@ Esta tabla cruza los tipos de espacio más comunes con los modelos que suelen fu
 
 | Tipo de espacio | Qué revisar primero | Modelos que suelen funcionar |
 |---|---|---|
-| Departamento o salón con techo estándar | Altura libre de al menos 3.2 m | Castillo Baby, Gusanitos |
+| Departamento o salón con techo estándar | Altura libre: 3.2 m para el Castillo Baby; en Gusanitos se confirma al cotizar | Castillo Baby, Gusanitos |
 | Patio pequeño de casa | Rectángulo despejado y acceso | Castillo Baby; medianos si hay 5 m de largo libres con holgura |
 | Patio o cochera amplia | Cables, tendederos, pendiente | Dragones Rojos, Jungla, Gusanitos, Castillo de Princesas |
 | Jardín de casa | Ramas, aspersores, terreno parejo | Medianos y, con espacio, Barco Pirata |

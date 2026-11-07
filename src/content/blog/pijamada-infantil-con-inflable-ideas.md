@@ -9,7 +9,7 @@ category: "Ideas"
 author: "Equipo BRINCOLINS"
 readTime: "13 min"
 heroImage: "/img/blog/pijamada-infantil-con-inflable-ideas/portada.avif"
-heroImageAlt: "Pijamada infantil en una casa de la Ciudad de México: sala con bolsas de dormir en fila, cojines, una tienda de tela y luces cálidas, por la ventana se ve un inflable de túneles en el jardín al atardecer, niños de espaldas"
+heroImageAlt: "Pijamada infantil en una casa de la Ciudad de México: sala con bolsas de dormir en fila, cojines, una tienda de tela y luces cálidas, por la ventana se ve un inflable en el jardín al atardecer, niños de espaldas"
 intro:
   - "La pijamada es de los planes que más emocionan entre los 6 y los 12 años: dormir fuera de casa, con amigos, y desvelarse un poco. También es de los que más preguntas generan entre las familias invitadas, porque implica cena, noche y desayuno con niños ajenos."
   - "Aquí tienes cómo organizarla con un inflable por la tarde para que gasten energía, actividades nocturnas tranquilas, lista de qué lleva cada invitado, reglas acordadas con las familias, cuántos niños caben y un cronograma de tarde, noche y mañana."
@@ -24,7 +24,7 @@ faqs:
   - question: "¿Se puede dormir dentro del inflable en una pijamada?"
     answer: "No. El inflable se usa por la tarde, durante un evento de 4 a 6 horas, y se recoge antes de que los niños se duerman. Funciona con un motor que debe estar encendido todo el tiempo y requiere supervisión adulta mientras se usa. Para dormir se usan bolsas de dormir, colchonetas o colchones inflables en una habitación."
   - question: "¿Qué inflable conviene para una pijamada en casa?"
-    answer: "Si va bajo techo, Gusanitos ($1,600), para niños de 2 a 8 años y con 3.2 m de altura libre. Si hay hermanitos de 1 a 3 años, el Castillo Baby ($1,400) también entra en interiores. Para niños de 9 a 12 años en jardín, el Barco Pirata, el Castillo Blanco o el Extremo, que van solo en exterior."
+    answer: "Si va bajo techo, Gusanitos ($1,600), para niños de 2 a 8 años; en interiores se confirma según la altura del lugar al cotizar. Si hay hermanitos de 1 a 3 años, el Castillo Baby ($1,400) también entra en interiores, con 3.2 m de altura libre. Para niños de 9 a 12 años en jardín, el Barco Pirata, el Castillo Blanco o el Extremo, que van solo en exterior."
   - question: "¿Cuántos niños invitar a una pijamada?"
     answer: "Depende de cuántas bolsas de dormir caben en tu habitación y de cuántos adultos se quedan despiertos a cuidar. Para una primera pijamada, de 4 a 6 invitados es manejable; con grupos de 8 o más conviene un segundo adulto toda la noche y dos espacios para dormir."
   - question: "¿Qué debe llevar cada invitado a una pijamada?"
@@ -32,7 +32,7 @@ faqs:
   - question: "¿A qué edad es buena idea la primera pijamada?"
     answer: "Muchos niños están listos alrededor de los 6 a 8 años, pero depende de cada uno. Si un invitado nunca ha dormido fuera, acuerda con su familia una salida a medianoche o una pijamada sin dormir, donde lo recogen después de la película."
   - question: "¿Qué pasa si llueve el día de la pijamada?"
-    answer: "Si el inflable iba en exterior, la renta se reprograma sin costo. Si tienes un espacio techado con 3.2 m de altura libre, Gusanitos o Castillo Baby pueden ir bajo techo y la tarde sigue igual."
+    answer: "Si el inflable iba en exterior, la renta se reprograma sin costo. Si tienes un espacio techado, Gusanitos o Castillo Baby pueden ir bajo techo y la tarde sigue igual: el Castillo Baby pide 3.2 m de altura libre y en el Gusanitos se confirma según la altura del lugar al cotizar."
 ---
 
 Una pijamada infantil con inflable funciona en tres tiempos: brinco por la tarde, de 4 a 6 horas, para que los niños de 6 a 12 años gasten energía; actividades tranquilas en la noche (película, manualidades, cena) y desayuno al día siguiente. El inflable se recoge antes de dormir y nadie duerme dentro. Las reglas se acuerdan antes con las familias.
@@ -64,7 +64,7 @@ La decisión depende de una pregunta: ¿el inflable va dentro de casa o en el ja
 
 ### Fiesta de pijamas bajo techo
 
-Solo dos modelos del catálogo son aptos para interiores. El [Gusanitos, circuito de túneles para interiores](/inflables/gusanitos/), mide 5 × 3 × 2.80 m, pide 3.2 m de altura libre y es para niños de 2 a 8 años. El [Castillo Baby para hermanitos de 1 a 3 años](/inflables/mini-castillo/) mide 2.5 × 2 × 2 m y pide la misma altura libre. Este segundo no es para los invitados de la pijamada, sino para los hermanos pequeños que a veces se quedan la tarde.
+Solo dos modelos del catálogo son aptos para interiores. El [Gusanitos, apto para interiores](/inflables/gusanitos/), mide 5 × 3 × 2.80 m y es para niños de 2 a 8 años: túnel de entrada, zona de brinco bajo arcos y resbaladilla doble; en interiores se confirma según la altura del lugar al cotizar. El [Castillo Baby para hermanitos de 1 a 3 años](/inflables/mini-castillo/) mide 2.5 × 2 × 2 m y pide 3.2 m de altura libre. Este segundo no es para los invitados de la pijamada, sino para los hermanos pequeños que a veces se quedan la tarde.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
@@ -77,7 +77,7 @@ Con jardín o patio amplio se abre el catálogo. Para niños de 9 a 12 años, lo
 
 | Modelo | Dónde va | Edades | Medidas | Altura libre | Precio |
 |---|---|---|---|---|---|
-| Gusanitos | Interior o exterior | 2 a 8 años | 5 × 3 × 2.80 m | 3.2 m | $1,600 |
+| Gusanitos | Interior o exterior | 2 a 8 años | 5 × 3 × 2.80 m | Se confirma al cotizar | $1,600 |
 | Castillo Baby | Interior o exterior | 1 a 3 años | 2.5 × 2 × 2 m | 3.2 m | $1,400 |
 | Barco Pirata | Solo exterior | 3 a 12 años | 6 × 3.5 × 3.80 m | 5.2 m | $2,300 |
 | Extremo | Solo exterior | 3 a 12 años | 8 × 4.5 × 3.50 m | 4.5 m | $2,500 |
@@ -171,7 +171,7 @@ Cuando el inflable se recoge, la fiesta baja de ritmo. Estas ideas para pijamada
 Si quieres que la noche tenga temática, la [fiesta neón infantil con pulseras luminosas](/blog/fiesta-neon-infantil-con-inflable/) combina bien con una pijamada de 9 a 12 años: brillo después de que se recoge el inflable, nunca dentro de él. Para una festejada a la que le gustan los esmaltes y las mascarillas, la [fiesta spa para niñas con inflable](/blog/fiesta-spa-para-ninas-con-inflable/) explica cómo ordenar las estaciones spa con un bloque de brinco.
 
 ![Sala de una casa en Coyoacán de noche: fuerte de cobijas hecho con sábanas blancas y pinzas sobre sillas, linternas encendidas, cojines y una pantalla de televisión fuera de foco, niños en pijama de espaldas](/img/blog/pijamada-infantil-con-inflable-ideas/escena-1.avif "Un fuerte de cobijas es actividad y cama a la vez: la mejor transición entre la tarde de inflable y la hora de dormir")
-![Jardín de una casa en el Estado de México al atardecer con un inflable de túneles de colores, una mesa con jarras de agua y vasos, mochilas de colores sobre una banca y luz dorada, niños fuera de foco al fondo](/img/blog/pijamada-infantil-con-inflable-ideas/escena-2.avif "La tarde de inflable va primero: con la energía gastada, la noche de pijamada es más tranquila")
+![Jardín de una casa en el Estado de México al atardecer con un inflable de colores, una mesa con jarras de agua y vasos, mochilas de colores sobre una banca y luz dorada, niños fuera de foco al fondo](/img/blog/pijamada-infantil-con-inflable-ideas/escena-2.avif "La tarde de inflable va primero: con la energía gastada, la noche de pijamada es más tranquila")
 
 ## ¿Qué dar de cenar y de desayunar en una pijamada?
 

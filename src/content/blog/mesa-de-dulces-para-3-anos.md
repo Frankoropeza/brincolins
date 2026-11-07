@@ -27,7 +27,7 @@ faqs:
   - question: "¿A qué hora conviene abrir la mesa de dulces en una fiesta de 3 años?"
     answer: "Después de que los niños comieron algo y lejos de la hora de su siesta. Una mesa de dulces abierta desde el inicio, con niños cansados y sin comer, termina en llanto. Muchas familias eligen fiesta en la mañana o a media tarde, después de la siesta."
   - question: "¿Qué inflable es para niños de 1 a 3 años?"
-    answer: "El Castillo Baby, de 2.5 × 2 × 2 m, pensado para niños de 1 a 3 años. Es compacto y puede ir en interiores con al menos 3.2 m de altura libre. Si hay hermanos mayores, el Gusanitos, para niños de 2 a 8 años, también puede ir bajo techo con esa altura."
+    answer: "El Castillo Baby, de 2.5 × 2 × 2 m, pensado para niños de 1 a 3 años. Es compacto y puede ir en interiores con al menos 3.2 m de altura libre. Si hay hermanos mayores, el Gusanitos, para niños de 2 a 8 años, también puede ir bajo techo; en su caso, la altura del lugar se confirma al cotizar."
   - question: "¿Cuántos dulces calcular para una fiesta de 3 años?"
     answer: "La referencia de MEDEDUL es de 150 a 200 gramos por niño y de 250 a 300 gramos por adulto. En fiestas de bebés, los niños comen menos dulce que el promedio y los adultos son mayoría, así que conviene calcular con el rango bajo para los niños."
 ---
@@ -133,12 +133,12 @@ La mesa va a la sombra, o en interior, y a dos o tres metros del inflable como m
 ### Quién lo usa
 
 - El [inflable Castillo Baby](/inflables/mini-castillo/) mide 2.5 × 2 × 2 m y está pensado para niños de 1 a 3 años. Es compacto y puede ir en interiores: salón, terraza techada o una casa con al menos 3.2 m de altura libre.
-- El [inflable Gusanitos](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y es para niños de 2 a 8 años: entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos. También puede ir bajo techo con 3.2 m de altura libre, y funciona bien si hay hermanos y primos mayores.
+- El [inflable Gusanitos](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y es para niños de 2 a 8 años: entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos. También puede ir bajo techo, según la altura del lugar, que se confirma al cotizar, y funciona bien si hay hermanos y primos mayores.
 
 | Inflable | Medidas | Edades | Interior | Precio |
 |---|---|---|---|---|
 | Castillo Baby | 2.5 × 2 × 2 m | 1 a 3 años | Sí, con 3.2 m de altura libre | $1,400 neto |
-| Gusanitos | 5 × 3 × 2.80 m | 2 a 8 años | Sí, con 3.2 m de altura libre | $1,600 neto |
+| Gusanitos | 5 × 3 × 2.80 m | 2 a 8 años | Sí, la altura se confirma al cotizar | $1,600 neto |
 
 ### Corriente
 

@@ -2,7 +2,7 @@
 title: "Fiesta de bichitos: ideas con inflable para niños de 2 a 8"
 h1: "Fiesta de bichitos con el inflable Gusanitos: decoración, juegos, manualidades y menú"
 description: "Fiesta de bichitos con el inflable Gusanitos: decoración verde y amarilla, cacería con lupa, manualidades y menú para niños de 2 a 8 años. Cotiza tu fecha."
-excerpt: "Gusanos, catarinas, abejas y mariposas: una temática fácil de montar que gusta igual a los de 3 que a los de 7. Aquí la armas completa alrededor de un circuito de túneles."
+excerpt: "Gusanos, catarinas, abejas y mariposas: una temática fácil de montar que gusta igual a los de 3 que a los de 7. Aquí la armas completa alrededor de un inflable con túnel de entrada y resbaladilla doble."
 publishDate: "2026-10-01"
 updatedDate: "2026-11-04"
 category: "Gusanitos"
@@ -22,7 +22,7 @@ tags:
   - "gusanitos"
 faqs:
   - question: "¿Qué se necesita para una fiesta de bichitos infantil?"
-    answer: "Un elemento central, una paleta de colores y dos o tres actividades. El inflable Gusanitos hace de centro, la decoración va en verde y amarillo con acentos rojos y negros, y las actividades pueden ser una cacería de bichos con lupa, una mesa de manualidades y turnos en los túneles."
+    answer: "Un elemento central, una paleta de colores y dos o tres actividades. El inflable Gusanitos hace de centro, la decoración va en verde y amarillo con acentos rojos y negros, y las actividades pueden ser una cacería de bichos con lupa, una mesa de manualidades y turnos en el inflable."
   - question: "¿Qué colores se usan en una fiesta temática de insectos?"
     answer: "Verde y amarillo como base, porque recuerdan al pasto y al sol. Encima se agregan acentos de rojo con puntos negros para las catarinas y franjas negras para las abejas. Con tres colores bien repetidos en mantel, globos y letreros, la temática se reconoce de inmediato."
   - question: "¿Para qué edades es el inflable Gusanitos?"
@@ -30,34 +30,34 @@ faqs:
   - question: "¿Qué recuerditos dar en una fiesta de insectos?"
     answer: "Los que salen de las mismas actividades: la lupa de la cacería, las antenas de limpiapipas y la catarina de piedra pintada. Así no necesitas comprar bolsitas aparte. Si quieres algo extra, una bolsa de papel kraft con un sello de hoja y una paleta es suficiente."
   - question: "¿Se puede hacer una fiesta de bichitos dentro de casa?"
-    answer: "Sí. El Gusanitos es apto para interiores y pide 3.2 m de altura libre, así que puede ir en una terraza techada, un garage o un salón. La decoración de bichos se cuelga en paredes y se coloca a ras de piso, sin ocupar el espacio que necesitan las entradas del inflable."
+    answer: "Sí. El Gusanitos es apto para interiores, así que puede ir en una terraza techada, un garage o un salón; en interiores se confirma según la altura del lugar al cotizar. La decoración de bichos se cuelga en paredes y se coloca a ras de piso, sin ocupar el espacio que necesitan la entrada y la resbaladilla del inflable."
   - question: "¿Qué temática combina con el inflable Gusanitos además de bichos?"
-    answer: "Cualquier temática de jardín o naturaleza: huerto, mariposas, primavera o exploradores. Sus túneles de colores y sus gusanos amarillos encajan con paletas verdes, amarillas y moradas. Si buscas dinosaurios o selva, el modelo que va mejor con esa idea es la Jungla, que es sólo para exterior."
+    answer: "Cualquier temática de jardín o naturaleza: huerto, mariposas, primavera o exploradores. Su túnel verde, sus arcos morado y turquesa y sus gusanos amarillos encajan con paletas verdes, amarillas y moradas. Si buscas dinosaurios o selva, el modelo que va mejor con esa idea es la Jungla, que es sólo para exterior."
 ---
 
-Para una fiesta de bichitos, el centro natural es el [inflable Gusanitos de túneles de colores](/inflables/gusanitos/): mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años y cuesta $1,600 netos por evento. Decora en verde y amarillo, elige dos o tres bichos y combina turnos en los túneles con una cacería de bichos con lupa.
+Para una fiesta de bichitos, el centro natural es el [inflable Gusanitos con resbaladilla doble](/inflables/gusanitos/): mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años y cuesta $1,600 netos por evento. Decora en verde y amarillo, elige dos o tres bichos y combina turnos en el inflable con una cacería de bichos con lupa.
 
 **Puntos clave**
 
 - Con gusano, catarina y abeja ya tienes la paleta completa: verde, amarillo, rojo y negro.
-- La decoración va alrededor del inflable, nunca encima ni frente a las salidas de los túneles.
-- Actividades en paralelo (túneles, cacería y mesa de manualidades) evitan filas con niños de 2 a 8 años.
-- El Gusanitos es apto para interiores con 3.2 m de altura libre, útil en temporada de lluvias.
+- La decoración va alrededor del inflable, nunca encima ni frente a la entrada o el pie de la resbaladilla.
+- Actividades en paralelo (inflable, cacería y mesa de manualidades) evitan filas con niños de 2 a 8 años.
+- El Gusanitos es apto para interiores, útil en temporada de lluvias; la altura del lugar se confirma al cotizar.
 - Las lupas, antenas y catarinas de piedra sirven de recuerdito, así que no compras bolsitas aparte.
 
 Imagina tu jardín a las cuatro de la tarde. Una niña de 3 años persigue mariposas de papel. Su primo de 7 revisa una maceta con lupa, muy serio. Nadie pelea por el control de la temática.
 
-Eso logra una fiesta de bichitos: todos entienden el juego sin explicación. Con el inflable Gusanitos al centro, el tema tiene además un circuito que recorrer. Aquí te dejamos el plan completo, de la decoración al menú, para que lo montes sin gastar de más.
+Eso logra una fiesta de bichitos: todos entienden el juego sin explicación. Con el inflable Gusanitos al centro, el tema tiene además un recorrido corto: túnel, brinco y resbaladilla. Aquí te dejamos el plan completo, de la decoración al menú, para que lo montes sin gastar de más.
 
 ## ¿Por qué una fiesta de bichitos funciona tan bien con el Gusanitos?
 
-Funciona porque el inflable ya cuenta la historia: un gusano de túneles de colores, con varias entradas y salidas, se lee como parte del jardín y no como un juego aparte. Los niños entran por un lado, avanzan como orugas y salen por otro. La temática se arma sola.
+Funciona porque el inflable ya cuenta la historia: un túnel verde de entrada, una zona de brinco bajo arcos morado y turquesa y una resbaladilla doble con dos gusanos amarillos sonrientes se leen como parte del jardín y no como un juego aparte. Los niños entran por el túnel como orugas, brincan y bajan por la resbaladilla. La temática se arma sola.
 
 ### Datos del Gusanitos que necesitas
 
-El circuito mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años, se instala en 15 a 30 minutos y cuesta $1,600 por evento, con instalación y recolección incluidas. Es más circuito que brincolín. Funciona con grupos de edades mezcladas.
+El inflable mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años, se instala en 15 a 30 minutos y cuesta $1,600 por evento, con instalación y recolección incluidas. Tiene túnel de entrada, zona de brinco y resbaladilla doble. Funciona con grupos de edades mezcladas.
 
-Otro dato útil: es apto para interiores, con 3.2 m de altura libre. ¿Tu fiesta cae en junio o julio? Ten a mano el [inflable bajo techo para días de aguacero](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/) y te olvidas del pronóstico.
+Otro dato útil: es apto para interiores; en ese caso la altura del lugar se confirma al cotizar. ¿Tu fiesta cae en junio o julio? Ten a mano el [inflable bajo techo para días de aguacero](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/) y te olvidas del pronóstico.
 
 ### Un tema que no deja fuera a nadie
 
@@ -71,7 +71,7 @@ Esta tabla compara los bichos más fáciles de usar por color, decoración y act
 
 | Bicho | Colores | Idea de decoración | Actividad asociada |
 |---|---|---|---|
-| Gusano u oruga | Verde y amarillo | Globos en fila formando un cuerpo largo | Recorrido por los túneles del Gusanitos |
+| Gusano u oruga | Verde y amarillo | Globos en fila formando un cuerpo largo | Recorrido por el túnel y la resbaladilla del Gusanitos |
 | Catarina | Rojo con puntos negros | Platos y vasos con puntos | Piedras pintadas como catarinas |
 | Abeja | Amarillo con franjas negras | Panal de hexágonos de cartulina en la pared | Relevo de polen con pompones |
 | Mariposa | Varios colores | Mariposas de papel colgadas con hilo | Alas de papel para colorear |
@@ -81,7 +81,7 @@ No necesitas los cinco. Menos bichos, mejor repetidos. Tu presupuesto también l
 
 ## ¿Cómo decoras en verde y amarillo sin tapar el inflable?
 
-Decora a la altura de los niños y alrededor del inflable, nunca encima ni frente a sus salidas. El Gusanitos ya ocupa la vista con sus gusanos amarillos y su arco morado, así que tu decoración acompaña y no compite. Con verde y amarillo como base, el resto son acentos.
+Decora a la altura de los niños y alrededor del inflable, nunca encima ni frente a sus salidas. El Gusanitos ya ocupa la vista con sus gusanos amarillos y sus arcos morado y turquesa, así que tu decoración acompaña y no compite. Con verde y amarillo como base, el resto son acentos.
 
 ### La entrada: un sendero de jardín
 
@@ -96,7 +96,7 @@ Mantel verde, platos amarillos y un centro de mesa con macetas chicas o flores d
 
 ### Alrededor del inflable
 
-Aquí la regla es despejar, y te conviene tomarla en serio. Las entradas y salidas de los túneles necesitan paso libre, y quien supervisa tiene que verlas todas. No pegues ni amarres nada al inflable. La decoración va a un costado. Tú eliges cuál, y los demás quedan libres.
+Aquí la regla es despejar, y te conviene tomarla en serio. La entrada del túnel y el pie de la resbaladilla necesitan paso libre, y quien supervisa tiene que ver los dos. No pegues ni amarres nada al inflable. La decoración va a un costado. Tú eliges cuál, y los demás quedan libres.
 
 Los colores del Gusanitos te ayudan: verde, amarillo, azul, rojo y morado ya están ahí. Repite dos de ellos en mesa y globos y las fotos salen coordinadas. Si todavía comparas modelos, aquí están los demás [inflables para niños de kínder y primaria](/inflables/para-ninos/).
 
@@ -104,7 +104,7 @@ Los colores del Gusanitos te ayudan: verde, amarillo, azul, rojo y morado ya est
 
 ## ¿Qué juegos entretienen a niños de 2 a 8 años al mismo tiempo?
 
-Ningún juego sirve igual para un niño de 2 que para uno de 8, así que la salida es tener actividades en paralelo: mientras unos recorren los túneles, otros buscan bichos o trabajan en la mesa. Así nunca se forma una fila larga frente al inflable y nadie se aburre esperando.
+Ningún juego sirve igual para un niño de 2 que para uno de 8, así que la salida es tener actividades en paralelo: mientras unos brincan en el Gusanitos, otros buscan bichos o trabajan en la mesa. Así nunca se forma una fila larga frente al inflable y nadie se aburre esperando.
 
 ### Cacería de bichos con lupa
 
@@ -124,13 +124,13 @@ Pistas escritas o dibujadas que llevan de un escondite al siguiente. La última 
 
 ### La ruta del gusano
 
-Turnos en el Gusanitos con una consigna sencilla: entras como oruga y sales como mariposa, con alas de papel que te pones al salir. Agrupa los turnos por edad, primero los chicos. La capacidad por turno se confirma al cotizar y conviene respetarla aunque haya fila.
+Turnos en el Gusanitos con una consigna sencilla: entras por el túnel como oruga y bajas por la resbaladilla como mariposa, con alas de papel que te pones al salir. Agrupa los turnos por edad, primero los chicos. La capacidad por turno se confirma al cotizar y conviene respetarla aunque haya fila.
 
 ### Relevo de polen
 
 Dos equipos de abejas pasan pompones amarillos de una canasta a otra con cucharas. Es corto y ruidoso. Sólo necesitas dos canastas y tienes juego para un buen rato.
 
-Después de comer, ¿notas que baja la energía? Es de esperarse. Es buen momento para un cuento de bichos en voz alta o para que cada explorador muestre lo que encontró. Esos minutos de calma evitan empujones en la siguiente ronda de túneles.
+Después de comer, ¿notas que baja la energía? Es de esperarse. Es buen momento para un cuento de bichos en voz alta o para que cada explorador muestre lo que encontró. Esos minutos de calma evitan empujones en la siguiente ronda del inflable.
 
 ## ¿Qué manualidades pones en la mesa de exploradores?
 
@@ -148,7 +148,7 @@ Para que trabajen sentados, la [mesa infantil con sillitas](/servicios/mobiliari
 
 ### Recuerditos que salen de la misma mesa
 
-La lupa, las antenas y la catarina de piedra ya son recuerditos. No necesitas bolsitas extra, y te ahorras una compra. Entrega todo al final, en la puerta, para que nada termine dentro de los túneles.
+La lupa, las antenas y la catarina de piedra ya son recuerditos. No necesitas bolsitas extra, y te ahorras una compra. Entrega todo al final, en la puerta, para que nada termine dentro del inflable.
 
 ## ¿Qué menú temático sirves sin complicarte la cocina?
 
@@ -167,12 +167,12 @@ Programa la comida con el inflable cerrado. Brincar recién comidos termina mal.
 
 ## ¿En qué orden corre la tarde de una fiesta de bichitos?
 
-Corre mejor si alternas energía y calma: túneles, cacería, comida, mesa y otra vez túneles. Sin estructura, una fiesta con muchos niños se desarma sola. Con este orden, cada actividad le da descanso a la anterior:
+Corre mejor si alternas energía y calma: inflable, cacería, comida, mesa y otra vez inflable. Sin estructura, una fiesta con muchos niños se desarma sola. Con este orden, cada actividad le da descanso a la anterior:
 
 1. **Llegada y antenas.** Cada niño hace su diadema al entrar y los que llegan tarde se suman sin perderse nada.
 2. **Primeros turnos en el Gusanitos.** Por edades, empezando por los más chicos.
 3. **Cacería de bichos.** Con el inflable en pausa y todos explorando el jardín.
-4. **Comida con el inflable cerrado.** Un adulto se queda en la entrada de los túneles.
+4. **Comida con el inflable cerrado.** Un adulto se queda en la entrada del túnel.
 5. **Mesa de manualidades y segunda ronda de turnos.** En paralelo, para que no haya fila.
 6. **Pastel, piñata y salida.** La piñata, lejos del área del inflable.
 
@@ -207,7 +207,7 @@ Resuelve las caritas con antenas, alas de papel y calcomanías de bichos. Te sal
 Evita los que ponen en riesgo a los niños o bloquean el inflable: bichos vivos, decoración frente a las salidas y supervisión sin dueño. Revisa esta lista una semana antes de la fiesta, con calma:
 
 - **Usar bichos vivos.** Las abejas reales pican y los niños chicos se llevan todo a la boca. Usa bichos de plástico, cartón o papel.
-- **Decorar frente a las salidas de los túneles.** Bloquea el paso y tapa la vista de quien supervisa.
+- **Decorar frente a la entrada o la resbaladilla.** Bloquea el paso y tapa la vista de quien supervisa.
 - **Pegar o amarrar decoración al inflable.** Se queda como llega; la ambientación va alrededor.
 - **Un solo juego para todos.** Con niños de 2 a 8 años juntos, siempre hace falta una segunda actividad.
 - **Mezclar edades en el mismo turno.** Primero los chicos, después los grandes.
@@ -243,7 +243,7 @@ Con esta lista cubres decoración, juegos, manualidades y recuerditos sin compra
 
 La temática de bichos luce más donde hay verde de verdad, y en el sur de la ciudad abundan las casas con jardín, los terrenos con árboles y las fiestas al aire libre. Ese mismo paisaje trae dos cosas que conviene revisar antes de apartar.
 
-La primera es la altura. El Gusanitos pide 3.2 m libres; un pirul o un fresno con ramas bajas puede quitarte el mejor punto del jardín. Mide debajo de la copa, no junto al tronco. La segunda es el piso: en jardines con pendiente busca la parte más plana, aunque quede lejos de la casa, y calcula la extensión desde ahí.
+La primera es la altura. Las ramas también cuentan: un pirul o un fresno con ramas bajas puede quitarte el mejor punto del jardín, y la altura libre se confirma al cotizar. Mide debajo de la copa, no junto al tronco. La segunda es el piso: en jardines con pendiente busca la parte más plana, aunque quede lejos de la casa, y calcula la extensión desde ahí.
 
 Si tu fiesta es en una casa con jardín en Xochimilco, consulta los [detalles de traslado y cobertura en Xochimilco](/cobertura/xochimilco/). Para el sur de Tlalpan, donde muchas casas tienen terreno amplio, revisa [cómo llegamos a tu colonia en Tlalpan](/cobertura/tlalpan/). Y si vives en las colonias con jardín de [La Magdalena Contreras, aquí está la información de cobertura](/cobertura/magdalena-contreras/). En temporada de lluvias, de junio a septiembre, el sur suele recibir aguaceros por la tarde: programa la fiesta temprano o ten lista una terraza techada, porque el Gusanitos también funciona bajo techo.
 

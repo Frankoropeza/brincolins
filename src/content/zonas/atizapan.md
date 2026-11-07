@@ -27,7 +27,7 @@ En las colonias más antiguas y densas del municipio, la casa típica tiene pati
 
 | Espacio | Modelo que suele caber | Edades |
 |---|---|---|
-| Cochera techada | Castillo Baby o Gusanitos (3.2 m de altura libre) | 1 a 3 / 2 a 8 años |
+| Cochera techada | Castillo Baby (3.2 m de altura libre) o Gusanitos (se confirma según la altura al cotizar) | 1 a 3 / 2 a 8 años |
 | Patio de 5 m de largo o más | Dragones Rojos, Jungla o Castillo de Princesas | 3 a 8 / 2 a 10 años |
 | Azotea | Según acceso, pretil y carga | Se revisa en cada caso |
 

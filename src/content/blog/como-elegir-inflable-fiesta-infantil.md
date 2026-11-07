@@ -43,7 +43,7 @@ faqs:
   - question: "¿Cuántos niños pueden usar el inflable al mismo tiempo?"
     answer: "Depende del modelo y de las edades del grupo, por eso la capacidad exacta se confirma al cotizar. En todos los casos conviene organizar turnos por edad y tener a una persona adulta en la entrada."
   - question: "¿Qué inflable puedo poner bajo techo?"
-    answer: "Los modelos aptos para interiores son el Castillo Baby y el circuito Gusanitos, ambos con 3.2 m de altura libre. Dragones Rojos, Jungla, Castillo de Princesas, Barco Pirata, Extremo y Castillo Blanco son solo para exterior. Mide hasta el punto más bajo del techo, no hasta la losa."
+    answer: "Los modelos aptos para interiores son el Castillo Baby, que pide 3.2 m de altura libre, y el Gusanitos, cuya instalación en interiores se confirma según la altura del lugar al cotizar. Dragones Rojos, Jungla, Castillo de Princesas, Barco Pirata, Extremo y Castillo Blanco son solo para exterior. Mide hasta el punto más bajo del techo, no hasta la losa."
   - question: "¿Qué datos debo mandar para que me recomienden un modelo?"
     answer: "Fecha y horario, colonia o municipio, edades y número aproximado de niños, fotos del lugar y del acceso, altura libre si hay techo o ramas, tipo de superficie y si necesitas factura. Con eso se confirma qué modelo cabe, la capacidad por turno y el traslado de tu zona."
   - question: "¿Cuánto tarda la instalación?"
@@ -56,7 +56,7 @@ Para elegir un inflable para una fiesta infantil, revisa en este orden: la edad 
 
 - La edad define el modelo: de 1 a 3 años, Castillo Baby; de 3 a 12, los grandes.
 - Mide largo, ancho y altura libre hasta el obstáculo más bajo, no hasta la losa.
-- Bajo techo solo van el Castillo Baby y el Gusanitos (3.2 m libres).
+- Bajo techo solo van el Castillo Baby (3.2 m libres) y el Gusanitos (altura libre a confirmar al cotizar).
 - Con más de 15 niños conviene un modelo grande; con 30 o más, combinar inflables.
 - El precio incluye instalación, motor, extensión, sanitización y recolección; el traslado depende de la zona.
 
@@ -78,7 +78,7 @@ Una regla de oro: necesitas espacio libre alrededor del inflable en todos los co
 Los inflables no son universales. Cada modelo está diseñado para un rango de edad específico, por seguridad y por diversión:
 
 - **De 1 a 3 años:** [Castillo Baby](/inflables/mini-castillo/), sin tobogán y con entrada baja.
-- **De 2 a 8 años:** [Gusanitos](/inflables/gusanitos/), circuito de túneles para edades mezcladas.
+- **De 2 a 8 años:** [Gusanitos](/inflables/gusanitos/), túnel de entrada, zona de brinco y resbaladilla doble para edades mezcladas.
 - **De 3 a 8 años:** [Jungla](/inflables/mini-jungla/) y [Dragones Rojos](/inflables/dragones-rojos/), con temáticas definidas.
 - **De 2 a 10 años:** [Castillo de Princesas](/inflables/castillo-princesas/), temática de cuento de hadas.
 - **De 3 a 12 años:** [Castillo Blanco](/inflables/castillo-blanco/), [Barco Pirata](/inflables/barco-pirata/) y [Extremo](/inflables/extremo/).
@@ -151,7 +151,7 @@ El mismo cumpleaños puede necesitar un modelo distinto según dónde se haga. E
 
 | Lugar | Modelos que suelen funcionar | Qué revisar antes |
 |---|---|---|
-| Sala, salón techado o terraza cubierta | Castillo Baby o Gusanitos | 3.2 m libres hasta la lámpara o viga más baja y ruta de acceso |
+| Sala, salón techado o terraza cubierta | Castillo Baby o Gusanitos | Altura libre hasta la lámpara o viga más baja (3.2 m el Castillo Baby; la del Gusanitos se confirma al cotizar) y ruta de acceso |
 | Patio de casa | Castillo Baby, Gusanitos, Jungla o Dragones Rojos | Ramas, cables y tendederos por debajo de 4.2 a 4.5 m |
 | Jardín amplio | Castillo de Princesas, Barco Pirata o Castillo Blanco | 4.2 a 5.2 m libres según el modelo y superficie plana |
 | Área común de conjunto o privada | Según edades y altura disponible | Permiso de la administración, horario y contacto cercano |

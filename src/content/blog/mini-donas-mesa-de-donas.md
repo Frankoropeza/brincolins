@@ -160,7 +160,7 @@ La pared de donas y el inflable son los dos imanes de la fiesta. Planearlos junt
 
 ### Quién lo usa
 
-- Para grupos de edades mezcladas, de 2 a 8 años, el [inflable Gusanitos](/inflables/gusanitos/) mide 5 × 3 × 2.80 m: los niños entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos. Puede ir bajo techo si el lugar tiene al menos 3.2 m de altura libre, así que sirve también en salón o terraza techada.
+- Para grupos de edades mezcladas, de 2 a 8 años, el [inflable Gusanitos](/inflables/gusanitos/) mide 5 × 3 × 2.80 m: los niños entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos. Puede ir bajo techo, así que sirve también en salón o terraza techada; en interiores se confirma según la altura del lugar al cotizar.
 - Para una fiesta de princesas con niños de 2 a 10 años, el [inflable Castillo de Princesas](/inflables/castillo-princesas/) mide 5 × 3.30 × 3 m, en rosa y azul turquesa, con torres, resbaladilla y mallas de seguridad. Va solo en exterior.
 
 ### Corriente

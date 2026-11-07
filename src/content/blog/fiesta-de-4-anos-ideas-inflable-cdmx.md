@@ -192,7 +192,7 @@ Cabe donde haya exterior plano, 4.2 m de altura libre y una toma de 110 V a meno
 
 ¿Tienes jardín o patio? Es tu opción más cómoda. Conoces el terreno y los niños están en un espacio controlado. Si vives en departamento, el área común del condominio suele funcionar. Eso sí: pide permiso a la administración antes de apartar, no después.
 
-¿Y si la fiesta tiene que ser bajo techo? Entonces el Jungla no es tu modelo. Lee la [comparación entre Jungla y el circuito Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/), porque Gusanitos sí funciona en interiores con 3.2 m de altura libre. Para saber si tu colonia entra en ruta, revisa las [rutas de entrega en CDMX y área metropolitana](/cobertura/).
+¿Y si la fiesta tiene que ser bajo techo? Entonces el Jungla no es tu modelo. Lee la [comparación entre Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/), porque Gusanitos sí es apto para interiores; la altura del lugar se confirma al cotizar. Para saber si tu colonia entra en ruta, revisa las [rutas de entrega en CDMX y área metropolitana](/cobertura/).
 
 ### Si tienes jardín grande en el sur de la ciudad
 
