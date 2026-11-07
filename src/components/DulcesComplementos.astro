@@ -14,12 +14,14 @@ interface Props {
   sinEstaciones?: boolean;
   /** Fondo alterno para el bloque del aliado */
   aliadoAlt?: boolean;
+  /** Fondo alterno para el bloque de estaciones */
+  estAlt?: boolean;
 }
-const { evento, sinEstaciones = false, aliadoAlt = false } = Astro.props;
+const { evento, sinEstaciones = false, aliadoAlt = false, estAlt = true } = Astro.props;
 ---
 
 {!sinEstaciones && (
-<section class="section section--alt">
+<section class={estAlt ? "section section--alt" : "section"}>
   <div class="container">
     <SectionHeader
       badge="Estaciones"

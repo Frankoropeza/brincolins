@@ -1,0 +1,80 @@
+---
+/**
+ * DulcesGuia — BRINCOLINS
+ * Guía editorial de cada página de mesas de dulces: índice lateral + prosa.
+ * El contenido vive en src/data/mesasDeDulcesGuias.ts (H2 = búsquedas
+ * reales de Ahrefs MX). Los párrafos admiten <a>, <strong> y <em>
+ * escritos por nosotros, por eso se renderizan con set:html.
+ */
+import type { Seccion } from "@/data/mesasDeDulcesGuias";
+
+interface Props {
+  titulo: string;
+  intro?: string;
+  secciones: Seccion[];
+  alt?: boolean;
+}
+const { titulo, intro, secciones, alt = false } = Astro.props;
+const slug = (s: string) =>
+  s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[¿?¡!]/g, "").trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+---
+
+<section class={alt ? "section section--alt" : "section"} id="guia">
+  <div class="container">
+    <div class="guia">
+      <aside class="guia__toc" aria-label="Contenido de la guía">
+        <p class="guia__toc-t">En esta guía</p>
+        <ol>
+          {secciones.map((s) => <li><a href={`#${slug(s.h2)}`}>{s.h2}</a></li>)}
+        </ol>
+      </aside>
+      <article class="guia__body">
+        <span class="section-badge">Guía</span>
+        <h2 class="section-title guia__title">{titulo}</h2>
+        {intro && <p class="guia__intro" set:html={intro} />}
+        {secciones.map((s) => (
+          <section class="guia__sec" id={slug(s.h2)}>
+            <h3 class="guia__h">{s.h2}</h3>
+            {s.p.map((t) => <p set:html={t} />)}
+            {s.lista && (
+              <ul class="guia__list">
+                {s.lista.map((t) => <li set:html={t} />)}
+              </ul>
+            )}
+            {s.cierre && <p set:html={s.cierre} />}
+          </section>
+        ))}
+      </article>
+    </div>
+  </div>
+</section>
+
+<style>
+  .guia { display: grid; grid-template-columns: 16rem minmax(0, 46rem); gap: 3.5rem; justify-content: center; }
+  .guia__toc { position: sticky; top: 6.5rem; align-self: start; }
+  .guia__toc-t { margin: 0 0 0.75rem; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--c-ink); }
+  .guia__toc ol { margin: 0; padding: 0; list-style: none; display: grid; gap: 0.15rem; border-left: 2px solid rgba(0, 0, 0, 0.08); }
+  .guia__toc a {
+    display: block;
+    padding: 0.4rem 0 0.4rem 0.9rem;
+    margin-left: -2px;
+    border-left: 2px solid transparent;
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--c-ink);
+    text-decoration: none;
+  }
+  .guia__toc a:hover { border-left-color: var(--c-primary-deep); color: var(--c-primary-text); }
+  .guia__title { margin: 0.5rem 0 1rem; }
+  .guia__intro { font-size: 1.1rem; line-height: 1.75; color: var(--c-ink); margin: 0 0 1.5rem; }
+  .guia__sec { scroll-margin-top: 7rem; padding-top: 1.75rem; margin-top: 1.75rem; border-top: 1px solid rgba(0, 0, 0, 0.08); }
+  .guia__h { margin: 0 0 0.85rem; font-size: clamp(1.2rem, 2vw, 1.45rem); line-height: 1.3; color: var(--c-ink); }
+  .guia__body p, .guia__list li { font-size: 1.02rem; line-height: 1.8; color: var(--c-ink); }
+  .guia__body p { margin: 0 0 1rem; }
+  .guia__list { margin: 0 0 1rem; padding-left: 1.2rem; display: grid; gap: 0.45rem; }
+  .guia__body :global(a) { color: var(--c-primary-text); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+  @media (max-width: 1024px) {
+    .guia { grid-template-columns: 1fr; gap: 1.5rem; }
+    .guia__toc { position: static; background: #fff; border-radius: var(--r-card); padding: 1.25rem; box-shadow: var(--shadow-md); }
+  }
+</style>
