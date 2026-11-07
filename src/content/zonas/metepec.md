@@ -77,7 +77,8 @@ Metepec tiene espacios públicos conocidos como el **Parque Ambiental Bicentenar
 | Bautizo o comunión en jardín, decoración clara | Castillo Blanco |
 | Cumpleaños de niña en jardín | Castillo de Princesas |
 | Muchos niños de 3 a 12 años | Barco Pirata o Extremo |
-| Casa club techada o bebé de 1 a 3 años | Castillo Baby o Gusanitos |
+| Bebés de 1 a 3 años | Castillo Baby |
+| Casa club techada con niños de 2 a 8 años | Gusanitos (la altura se confirma al cotizar) |
 
 Si la decoración va en tonos claros, la guía de [primera comunión con inflable](/blog/primera-comunion-con-inflable-cdmx/) explica horarios y cuidado de la ropa de los niños.
 
