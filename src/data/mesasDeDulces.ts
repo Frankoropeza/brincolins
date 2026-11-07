@@ -94,7 +94,7 @@ export const EVENTOS: Evento[] = [
       ] },
     ],
     faqs: [
-      { question: "¿Cuánto cuesta una mesa de dulces para cumpleaños infantil?", answer: "Desde $3,500 para 15 a 30 niños (Esencial), $5,800 para 30 a 60 niños (Premium) y $9,500 para más de 60 niños (Luxury). El precio final depende de la temática y del número de invitados." },
+      { question: "¿Cuánto cuesta una mesa de dulces para cumpleaños infantil?", answer: "Desde $3,500 para 15 a 30 niños (Esencial), $5,800 para 30 a 60 niños (Premium) y $9,500 para más de 60 niños (Luxury). El precio final depende de la temática y del número de invitados. Precios más IVA." },
       { question: "¿Pueden hacer la mesa del mismo personaje que el inflable?", answer: "Sí. Al cotizar nos dices la temática y armamos la mesa con esa paleta. El inflable y la mesa se coordinan para llegar el mismo día." },
       { question: "¿Qué pasa si un niño tiene alergias?", answer: "Todos los niveles incluyen control de alergias. Indícanos las restricciones al cotizar y se eligen dulces sin esos ingredientes; el nivel Premium ofrece opción sin nueces y sin gluten." },
     ],
@@ -147,7 +147,7 @@ export const EVENTOS: Evento[] = [
       ] },
     ],
     faqs: [
-      { question: "¿Cuánto cuesta una mesa de dulces para bautizo?", answer: "Desde $3,800 para 30 a 50 invitados (Esencial), $6,200 para 50 a 100 (Premium) y $10,500 para más de 100 (Luxury)." },
+      { question: "¿Cuánto cuesta una mesa de dulces para bautizo?", answer: "Desde $3,800 para 30 a 50 invitados (Esencial), $6,200 para 50 a 100 (Premium) y $10,500 para más de 100 (Luxury). Precios más IVA." },
       { question: "¿Qué lleva una mesa de dulces para bautizo?", answer: "Dulces en paleta blanca con dorado, celeste o rosa, una cruz decorativa al centro, etiquetas con el nombre del bebé y bolos sorpresa. Desde el nivel Premium se suman backdrop con monograma, macarons con la inicial y hostias dulces." },
       { question: "¿La montan en el salón o en casa?", answer: "En ambos. El equipo llega 1 a 2 horas antes de la celebración para montar y coordina el acceso con el salón o la parroquia." },
     ],
@@ -200,7 +200,7 @@ export const EVENTOS: Evento[] = [
       ] },
     ],
     faqs: [
-      { question: "¿Cuánto cuesta una mesa de dulces para baby shower?", answer: "Desde $4,500 para 20 a 40 invitadas (Esencial), $7,200 para 40 a 80 (Premium) y $11,800 para más de 80 (Luxury)." },
+      { question: "¿Cuánto cuesta una mesa de dulces para baby shower?", answer: "Desde $4,500 para 20 a 40 invitadas (Esencial), $7,200 para 40 a 80 (Premium) y $11,800 para más de 80 (Luxury). Precios más IVA." },
       { question: "¿Incluyen la revelación de género?", answer: "Sí, desde el nivel Premium se incluye la mecánica de gender reveal; en Luxury es con humo y globo." },
       { question: "¿Qué lleva una mesa de dulces para baby shower?", answer: "Dulces y postres en la paleta del bebé, atrezzo de ositos o nubes, etiquetas con su nombre y bolos sorpresa. Desde Premium suma backdrop, macarons con la inicial y una estación para la futura mamá." },
     ],
@@ -253,7 +253,7 @@ export const EVENTOS: Evento[] = [
       ] },
     ],
     faqs: [
-      { question: "¿Cuánto cuesta una mesa de dulces para primera comunión?", answer: "Desde $4,200 para 40 a 60 invitados (Esencial), $7,500 para 60 a 100 (Premium) y $12,800 para más de 100 (Luxury)." },
+      { question: "¿Cuánto cuesta una mesa de dulces para primera comunión?", answer: "Desde $4,200 para 40 a 60 invitados (Esencial), $7,500 para 60 a 100 (Premium) y $12,800 para más de 100 (Luxury). Precios más IVA." },
       { question: "¿Incluyen los recuerdos?", answer: "El nivel Esencial incluye bolos con medalla y galleta hostia. Premium suma recuerdos con medalla, rosario y estampa, y Luxury el juego completo con libro y mini cáliz." },
       { question: "¿Se puede hacer bautizo y comunión el mismo día?", answer: "Sí. Dinos los dos festejos al cotizar y se arma una sola mesa con los símbolos de ambos." },
     ],
@@ -307,7 +307,7 @@ export const EVENTOS: Evento[] = [
       ] },
     ],
     faqs: [
-      { question: "¿Cuánto cuesta una mesa de dulces para XV años?", answer: "Desde $7,500 para 50 a 100 invitados (Esencial), $12,500 para 100 a 200 (Premium) y $18,500 para más de 200 (Luxury)." },
+      { question: "¿Cuánto cuesta una mesa de dulces para XV años?", answer: "Desde $7,500 para 50 a 100 invitados (Esencial), $12,500 para 100 a 200 (Premium) y $18,500 para más de 200 (Luxury). Precios más IVA." },
       { question: "¿Pueden igualar los colores del vestido o la decoración?", answer: "Sí. Todos los niveles se diseñan en la paleta de la quinceañera; desde Premium recibes una propuesta visual con render antes del evento." },
       { question: "¿A qué hora montan?", answer: "El equipo monta 2 horas antes del evento y opera la mesa durante la recepción." },
     ],
@@ -361,7 +361,7 @@ export const EVENTOS: Evento[] = [
       ] },
     ],
     faqs: [
-      { question: "¿Cuánto cuesta una mesa de dulces para boda?", answer: "Desde $8,500 para 50 a 100 invitados (Esencial), $13,500 para 100 a 200 (Premium) y $22,000 para más de 200 (Luxury)." },
+      { question: "¿Cuánto cuesta una mesa de dulces para boda?", answer: "Desde $8,500 para 50 a 100 invitados (Esencial), $13,500 para 100 a 200 (Premium) y $22,000 para más de 200 (Luxury). Precios más IVA." },
       { question: "¿Con cuánta anticipación conviene reservar?", answer: "Para bodas en temporada alta, de 3 a 6 meses. Para otras fechas, escríbenos y confirmamos disponibilidad." },
       { question: "¿Se coordinan con el wedding planner?", answer: "Sí, desde el nivel Premium la coordinación con el planner está incluida; en Luxury también con el catering." },
     ],
@@ -387,13 +387,13 @@ export const ESTACIONES = [
    sitio publica con versiones distintas (anticipación, cancelación, costo
    de traslado) NO se afirma aquí: se confirma por escrito al cotizar. */
 export const FAQS_GENERALES = [
-  { question: "¿Cuánto cuesta una mesa de dulces?", answer: "Depende del evento y del número de invitados: desde $3,500 para un cumpleaños infantil de 15 a 30 niños, $3,800 para un bautizo de 30 a 50 invitados y $8,500 para una boda de 50 a 100 invitados. Cada evento tiene tres niveles: Esencial, Premium y Luxury." },
+  { question: "¿Cuánto cuesta una mesa de dulces?", answer: "Depende del evento y del número de invitados: desde $3,500 para un cumpleaños infantil de 15 a 30 niños, $3,800 para un bautizo de 30 a 50 invitados y $8,500 para una boda de 50 a 100 invitados. Cada evento tiene tres niveles: Esencial, Premium y Luxury. Los precios son más IVA." },
   { question: "¿Qué incluye el servicio de mesa de dulces?", answer: "Diseño en la paleta de tu evento, dulces seleccionados, mesa, mantelería, bases y cristalería, montaje antes de la llegada de los invitados y desmontaje al terminar. Desde el nivel Premium se incluye personal para reponer la mesa durante el evento." },
   { question: "¿Quién opera la mesa de dulces?", answer: "Nuestro aliado MEDEDUL, especialista en mesas de dulces y candy bar en CDMX. BRINCOLINS coordina la cotización, la fecha y la combinación con el inflable para que trates con un solo contacto." },
   { question: "¿Cómo se aparta la fecha?", answer: "Con un anticipo del 50%. Las condiciones de liquidación, cambio de fecha y cancelación de la mesa de dulces se confirman por escrito en la cotización." },
   { question: "¿Los dulces que sobran son para mí?", answer: "Sí. Los dulces que sobran son tuyos: puedes repartirlos entre los invitados o llevártelos." },
   { question: "¿Pueden adaptar la mesa a alergias o dietas?", answer: "Sí. Indica las restricciones al cotizar y se seleccionan dulces que no las contengan." },
-  { question: "¿Emiten factura?", answer: "Sí, se emite CFDI. Indica que la necesitas al cotizar para que el precio y los datos fiscales queden confirmados desde el inicio." },
+  { question: "¿Los precios de la mesa de dulces incluyen IVA?", answer: "No. Los precios publicados son más IVA (16%) y se emite CFDI. Comparte tus datos fiscales al cotizar para que la factura salga correcta desde el inicio." },
 ];
 
 /* JSON-LD Service + OfferCatalog para una o varias páginas. */
@@ -414,6 +414,7 @@ export function serviceSchema(url: string, nombre: string, eventos: Evento[]) {
         name: `${e.h1} — ${n.nombre} (${n.invitados} ${e.unidad})`,
         price: n.precio,
         priceCurrency: "MXN",
+        priceSpecification: { "@type": "PriceSpecification", price: n.precio, priceCurrency: "MXN", valueAddedTaxIncluded: false },
         url: `https://brincolins.com${BASE_URL}${e.slug}/`,
       }))),
     },

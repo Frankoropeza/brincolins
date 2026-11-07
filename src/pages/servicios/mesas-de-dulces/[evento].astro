@@ -23,7 +23,7 @@ const packages = e.niveles.map((n, i) => ({
   badge: i === 1 ? "Más solicitado" : undefined,
   highlight: i === 1,
   price: fmt(n.precio),
-  priceNote: `desde · ${n.invitados} ${e.unidad}`,
+  priceNote: `desde, más IVA · ${n.invitados} ${e.unidad}`,
   description: n.lema,
   features: n.incluye.map((text) => ({ text, included: true })),
   ctaLabel: `Cotizar ${n.nombre}`,
@@ -77,7 +77,7 @@ const schema = serviceSchema(`https://brincolins.com${url}`, e.h1, [e]);
         <div class="hero__img-col">
           <div class="hero__img-wrap">
             <img src={`${IMG}/${e.img.hero}.avif`} alt={e.img.alt} class="hero__img" width="1600" height="900" loading="eager" fetchpriority="high" />
-            <div class="hero__img-pill hero__img-pill--top">Desde {fmt(desde.precio)} MXN</div>
+            <div class="hero__img-pill hero__img-pill--top">Desde {fmt(desde.precio)} + IVA</div>
             <div class="hero__img-pill hero__img-pill--bottom">{desde.invitados} {e.unidad}</div>
           </div>
         </div>
@@ -92,9 +92,9 @@ const schema = serviceSchema(`https://brincolins.com${url}`, e.h1, [e]);
       <SectionHeader
         badge="Precios"
         title={`¿Cuánto cuesta una mesa de dulces para ${enFrase(e)}?`}
-        subtitle={`Tres niveles, de ${fmt(e.niveles[0].precio)} a ${fmt(e.niveles[2].precio)} MXN.`}
+        subtitle={`Tres niveles, de ${fmt(e.niveles[0].precio)} a ${fmt(e.niveles[2].precio)} MXN más IVA.`}
         copy1={`El precio depende del número de ${e.unidad} y del nivel de diseño. Esencial resuelve una celebración íntima; Premium agrega backdrop, más variedades y personal durante el evento; Luxury es una mesa de autor con estaciones incluidas.`}
-        copy2="Los precios son «desde» y salen del catálogo de nuestro aliado MEDEDUL. La cotización final por WhatsApp confirma variedades, horario, traslado según zona y, si la necesitas, la factura."
+        copy2="Los precios son «desde», más IVA, y salen del catálogo de nuestro aliado MEDEDUL. La cotización final por WhatsApp confirma variedades, horario y traslado según zona."
       />
       <PricingCards packages={packages} />
     </div>

@@ -69,7 +69,7 @@ const pasos = [
         <div class="hero__img-col">
           <div class="hero__img-wrap">
             <img src={`${IMG}/hub-hero.avif`} alt="Mesa de dulces pastel en jardín de CDMX con un inflable al fondo" class="hero__img" width="1600" height="900" loading="eager" fetchpriority="high" />
-            <div class="hero__img-pill hero__img-pill--top">Desde {fmt(minimo)} MXN</div>
+            <div class="hero__img-pill hero__img-pill--top">Desde {fmt(minimo)} + IVA</div>
             <div class="hero__img-pill hero__img-pill--bottom">6 tipos de evento</div>
           </div>
         </div>
@@ -84,13 +84,13 @@ const pasos = [
       <SectionHeader
         badge="Precios"
         title="¿Cuánto cuesta una mesa de dulces en CDMX?"
-        subtitle={`De ${fmt(minimo)} a ${fmt(maximo)} MXN según el evento y el número de invitados.`}
+        subtitle={`De ${fmt(minimo)} a ${fmt(maximo)} MXN más IVA, según el evento y el número de invitados.`}
         copy1="Cada evento tiene tres niveles. Esencial resuelve una celebración íntima; Premium agrega backdrop, más variedades y personal que repone la mesa; Luxury es una mesa de autor con estaciones incluidas."
-        copy2="Los precios son «desde» y salen del catálogo de nuestro aliado MEDEDUL. La cotización confirma variedades, horario, traslado según zona y factura si la necesitas."
+        copy2="Los precios son «desde», más IVA, y salen del catálogo de nuestro aliado MEDEDUL. La cotización confirma variedades, horario y traslado según zona."
       />
       <div class="tabla-wrap">
         <table class="tabla">
-          <caption class="sr-only">Precios de mesa de dulces por evento y número de invitados</caption>
+          <caption class="tabla__nota">Precios «desde» en MXN, más IVA, por evento y número de invitados.</caption>
           <thead>
             <tr>
               <th scope="col">Evento</th>
@@ -129,7 +129,7 @@ const pasos = [
             <img src={`${IMG}/${e.img.hero}.avif`} alt={e.img.alt} width="1600" height="900" loading="lazy" decoding="async" class="ev__img" />
             <div class="ev__body">
               <h3 class="ev__title">Mesa de dulces para {enFrase(e)}</h3>
-              <p class="ev__price">Desde <strong>{fmt(e.niveles[0].precio)}</strong> · {e.niveles[0].invitados} {e.unidad}</p>
+              <p class="ev__price">Desde <strong>{fmt(e.niveles[0].precio)}</strong> + IVA · {e.niveles[0].invitados} {e.unidad}</p>
             </div>
           </a>
         ))}
@@ -195,6 +195,7 @@ const pasos = [
   .tabla td strong { display: block; color: var(--c-primary-text); font-size: 1.05rem; }
   .tabla td span { font-size: 13px; color: var(--c-ink); opacity: 0.75; }
   .tabla tbody tr:last-child > * { border-bottom: 0; }
+  .tabla__nota { caption-side: bottom; padding: 0.85rem 1.25rem; font-size: 13px; text-align: left; color: var(--c-ink); }
 
   .ev-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
   .ev {
