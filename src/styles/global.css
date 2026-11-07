@@ -2092,6 +2092,10 @@ p, .hero__desc, .section-subtitle, .why-sc__desc {
   padding-block: var(--section-py);
 }
 .con-sidebar > .sbe { align-self: stretch; }
+/* Dentro de la columna las secciones van más juntas: el padding completo
+   de página (hasta 6rem arriba y abajo) dejaba franjas vacías apiladas. */
+.con-sidebar__main > .section { padding-block: clamp(2rem, 3.5vw, 3rem); }
+.con-sidebar__main > .section--alt { margin-block: clamp(.5rem, 1.5vw, 1rem); }
 .con-sidebar__main > .section:first-child { padding-top: 0; }
 .con-sidebar__main > .section:last-child { padding-bottom: 0; }
 .con-sidebar__main .container { padding-inline: 0; }

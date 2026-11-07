@@ -82,6 +82,24 @@ const ctaBarItems = [
   { label: "WhatsApp", href: `https://wa.me/525531281706?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar ${elN}.`)}`, icon: "whatsapp" },
 ];
 
+/* Medidas sueltas para las cifras de "Medidas y espacio": "6×3.5×3.80m" → [6, 3.5, 3.80]. */
+const [largo, ancho, alto] = canon.size.replace(/m$/, "").split("×");
+const medidas = [
+  { valor: largo, label: "de largo" },
+  { valor: ancho, label: "de ancho" },
+  { valor: alto, label: "de alto" },
+  { valor: canon.heightClearance.replace(/\s*m$/, ""), label: "altura libre" },
+];
+const IDEA_TONOS = ["durazno", "cielo", "menta", "lila", "mango"];
+
+/* Cómo apartar: mismas condiciones que publica el resto del sitio. */
+const pasosReserva = [
+  { titulo: "Cotiza", texto: "Mándanos fecha, colonia y medidas del espacio por WhatsApp o el formulario." },
+  { titulo: "Aparta con 50 %", texto: "El resto se paga el día del evento." },
+  { titulo: "Instalamos", texto: `Llegamos antes de tu hora; el montaje toma ${canon.installTime}.` },
+  { titulo: "Recogemos", texto: "Al terminar las 4 a 6 horas lo desinflamos y nos lo llevamos." },
+];
+
 /* Sidebar de enlaces (nov 2026): reparte autoridad de la ficha hacia el
    resto del catálogo, categorías, guías, zonas y servicios. */
 const sidebarGrupos = [
@@ -250,24 +268,48 @@ const sidebarIndice = [
 
   {detalle && (
     <section class="section" id="para-quien">
-      <div class="container ficha">
-        <div class="ficha__grid">
-          <div>
-            <h2>¿Para quién es {elN}?</h2>
+      <div class="container">
+        <div class="pq">
+          <article class="pq__card">
+            <span class="pq__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="3.5"/><path d="M2.5 20c0-3.6 2.9-6.5 6.5-6.5s6.5 2.9 6.5 6.5"/><circle cx="17.5" cy="8.5" r="2.5"/><path d="M16 13.7c3.1-.4 5.5 1.8 5.5 5"/></svg>
+            </span>
+            <h2 class="pq__title">¿Para quién es {elN}?</h2>
+            <ul class="pq__chips" role="list">
+              <li>{canon.ages}</li>
+              <li>{canon.indoor ? "Apto bajo techo" : "Para exterior"}</li>
+              <li>Montaje en {canon.installTime}</li>
+            </ul>
             <p>{detalle.paraQuien}</p>
-          </div>
-          <div>
-            <h2>Medidas y espacio necesario</h2>
+          </article>
+
+          <article class="pq__card">
+            <span class="pq__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17 17 3l4 4L7 21z"/><path d="m7 13 2 2M10 10l2 2M13 7l2 2"/></svg>
+            </span>
+            <h2 class="pq__title">Medidas y espacio necesario</h2>
+            <dl class="pq__dims">
+              {medidas.map((m) => (
+                <div>
+                  <dt>{m.label}</dt>
+                  <dd>{m.valor}<span> m</span></dd>
+                </div>
+              ))}
+            </dl>
             <p>{detalle.espacio}</p>
-          </div>
+          </article>
         </div>
 
-        <h3 class="ficha__h3">Ideas de temática y uso con {elN}</h3>
-        <ul class="ficha__ideas">
-          {detalle.ideas.map((i) => (
-            <li><strong>{i.titulo}.</strong> {i.texto}</li>
+        <h3 class="ideas__title">Ideas de temática y uso con {elN}</h3>
+        <ol class="ideas" role="list">
+          {detalle.ideas.map((i, n) => (
+            <li class={`ideas__item ideas__item--${IDEA_TONOS[n % IDEA_TONOS.length]}`}>
+              <span class="ideas__num" aria-hidden="true">{String(n + 1).padStart(2, "0")}</span>
+              <strong>{i.titulo}</strong>
+              <p>{i.texto}</p>
+            </li>
           ))}
-        </ul>
+        </ol>
       </div>
     </section>
   )}
@@ -276,38 +318,62 @@ const sidebarIndice = [
   <section class="section section--alt" id="precios">
     <div class="container">
       <SectionHeader badge="Paquetes" title={`¿Cuánto cuesta rentar ${elN} en CDMX?`} subtitle="Instalación incluida; traslado según zona" copy1={page.precios.copy1} copy2={page.precios.copy2} />
-      <PricingCards packages={page.pricingPackages} />
+      <div class="precio">
+        <PricingCards packages={page.pricingPackages} />
+        <div class="reserva">
+          <h3 class="reserva__title">Cómo apartar tu fecha</h3>
+          <ol class="reserva__pasos" role="list">
+            {pasosReserva.map((r, n) => (
+              <li>
+                <span class="reserva__n" aria-hidden="true">{n + 1}</span>
+                <div><strong>{r.titulo}</strong><p>{r.texto}</p></div>
+              </li>
+            ))}
+          </ol>
+          <a href={ctaBarItems[3].href} class="reserva__wa" target="_blank" rel="nofollow noopener noreferrer">Preguntar disponibilidad por WhatsApp →</a>
+        </div>
+      </div>
     </div>
   </section>
 
   {detalle && (
     <section class="section" id="instalacion">
-      <div class="container ficha">
-        <div class="ficha__grid">
-          <div>
-            <h2>¿Qué incluye la renta {delN}?</h2>
+      <div class="container">
+        <div class="pq">
+          <article class="pq__card">
+            <span class="pq__icon pq__icon--menta" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            </span>
+            <h2 class="pq__title">¿Qué incluye la renta {delN}?</h2>
             <p>{detalle.incluye}</p>
-          </div>
-          <div>
-            <h2>¿Cómo se instala?</h2>
+          </article>
+          <article class="pq__card">
+            <span class="pq__icon pq__icon--cielo" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            </span>
+            <h2 class="pq__title">¿Cómo se instala?</h2>
             <p>{detalle.instalacion}</p>
-          </div>
+          </article>
         </div>
 
-        <h3 class="ficha__h3">¿{canon.name} o {detalle.comparacion.nombre}?</h3>
-        <p>
-          {detalle.comparacion.texto}{" "}
-          <a href={`/inflables/${detalle.comparacion.slug}/`}>Ver la renta {delDe(detalle.comparacion.nombre)}</a>.
-        </p>
+        <aside class="vs">
+          <div>
+            <span class="vs__badge">Comparativa</span>
+            <h3 class="vs__title">¿{canon.name} o {detalle.comparacion.nombre}?</h3>
+            <p>{detalle.comparacion.texto}</p>
+          </div>
+          <a class="btn btn-outline vs__btn" href={`/inflables/${detalle.comparacion.slug}/`}>Ver la renta {delDe(detalle.comparacion.nombre)} →</a>
+        </aside>
 
         {zonas.length > 0 && (
           <>
-            <h3 class="ficha__h3">Entrega {delN} por zona</h3>
-            <ul class="ficha__zonas">
+            <h3 class="ideas__title">Entrega {delN} por zona</h3>
+            <ul class="zn" role="list">
               {zonas.map((z) => (
                 <li>
-                  <a href={`/cobertura/${z.slug}/`}>{z.anchor}</a>
-                  <span>{z.nota} Envío: {z.zona!.shippingFee ?? "se confirma al cotizar"}.</span>
+                  <a href={`/cobertura/${z.slug}/`}>{z.anchor.charAt(0).toUpperCase() + z.anchor.slice(1)}</a>
+                  <p>{z.nota}</p>
+                  <span class="zn__fee">Envío: {z.zona!.shippingFee ?? "se confirma al cotizar"}</span>
                 </li>
               ))}
             </ul>
@@ -419,22 +485,153 @@ const sidebarIndice = [
   .tambien-en strong { color: var(--c-ink); }
   .tambien-en a { color: var(--c-primary-text); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
 
-  .ficha { color: var(--c-ink); }
-  .ficha h2 { margin: 0 0 .75rem; font-family: var(--font-head); font-weight: 800; letter-spacing: -0.03em; font-size: clamp(1.35rem, 3vw, 1.75rem); line-height: 1.25; }
-  .ficha p { line-height: 1.7; margin: 0 0 1rem; }
-  .ficha a { color: var(--c-primary-text); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
-  .ficha__grid {
+  /* ── Para quién / Medidas / Qué incluye: tarjetas (nov 2026) ── */
+  .pq {
     display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
-    margin-bottom: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+    gap: 1.25rem;
   }
-  .ficha__h3 { margin: 1.75rem 0 .75rem; font-family: var(--font-head); font-weight: 800; letter-spacing: -0.02em; font-size: 1.2rem; }
-  .ficha__ideas, .ficha__zonas { margin: 0; padding-left: 1.25rem; line-height: 1.65; }
-  .ficha__ideas li, .ficha__zonas li { margin-bottom: .5rem; }
-  .ficha__ideas li::marker, .ficha__zonas li::marker { color: var(--c-primary); }
-  .ficha__zonas a { font-weight: 700; }
-  .ficha__zonas span { display: block; font-size: .95rem; color: var(--c-ink-60); }
+  .pq__card {
+    padding: clamp(1.5rem, 2.5vw, 2rem);
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-card);
+    background: #fff;
+    color: var(--c-ink);
+  }
+  .pq__card p { margin: 0; line-height: 1.7; color: var(--c-ink-60); }
+  .pq__icon {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 1rem;
+    border-radius: 14px;
+    background: var(--c-durazno);
+    color: var(--c-primary-text);
+  }
+  .pq__icon--menta { background: var(--c-menta); color: #0F7A3C; }
+  .pq__icon--cielo { background: var(--c-cielo); color: #0B5CAD; }
+  .pq__title {
+    margin: 0 0 .9rem;
+    font-family: var(--font-head);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    font-size: clamp(1.3rem, 2.4vw, 1.6rem);
+    line-height: 1.2;
+  }
+  .pq__chips { list-style: none; margin: 0 0 1rem; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+  .pq__chips li {
+    padding: .35rem .8rem;
+    border-radius: var(--r-badge);
+    background: var(--c-canvas);
+    border: 1px solid var(--c-line);
+    font-size: .875rem;
+    font-weight: 600;
+  }
+  .pq__dims {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+    margin: 0 0 1.1rem;
+  }
+  .pq__dims div {
+    padding: .8rem .5rem;
+    border-radius: 14px;
+    background: var(--c-canvas);
+    text-align: center;
+  }
+  .pq__dims dt { font-size: .75rem; color: var(--c-ink-60); }
+  .pq__dims div { display: flex; flex-direction: column-reverse; gap: .15rem; }
+  .pq__dims dd { margin: 0; font-family: var(--font-head); font-weight: 800; font-size: clamp(1.3rem, 2.4vw, 1.65rem); letter-spacing: -0.03em; line-height: 1; }
+  .pq__dims dd span { font-size: .55em; font-weight: 700; color: var(--c-ink-60); }
+
+  .ideas__title {
+    margin: clamp(2rem, 4vw, 2.75rem) 0 1rem;
+    font-family: var(--font-head);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    font-size: 1.25rem;
+    color: var(--c-ink);
+  }
+  .ideas {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
+    gap: 1rem;
+  }
+  .ideas__item { padding: 1.25rem 1.25rem 1.35rem; border-radius: var(--r-tile); color: var(--c-ink); }
+  .ideas__item--durazno { background: var(--c-durazno); }
+  .ideas__item--cielo { background: var(--c-cielo); }
+  .ideas__item--menta { background: var(--c-menta); }
+  .ideas__item--lila { background: var(--c-lila); }
+  .ideas__item--mango { background: var(--c-mango); }
+  .ideas__num { display: block; margin-bottom: .6rem; font-family: var(--font-head); font-weight: 800; font-size: .9rem; opacity: .55; }
+  .ideas__item strong { display: block; margin-bottom: .35rem; font-size: 1.05rem; line-height: 1.3; }
+  .ideas__item p { margin: 0; font-size: .925rem; line-height: 1.6; }
+
+  /* ── Precio + cómo apartar ── */
+  .precio {
+    display: grid;
+    grid-template-columns: minmax(0, 460px) minmax(0, 1fr);
+    gap: clamp(1.5rem, 3vw, 2.5rem);
+    align-items: center;
+  }
+  .reserva__title { margin: 0 0 1.1rem; font-family: var(--font-head); font-weight: 800; letter-spacing: -0.02em; font-size: 1.3rem; color: var(--c-ink); }
+  .reserva__pasos { list-style: none; margin: 0 0 1.25rem; padding: 0; display: grid; gap: 1rem; }
+  .reserva__pasos li { display: grid; grid-template-columns: 2.25rem 1fr; gap: .9rem; align-items: start; }
+  .reserva__n {
+    display: grid; place-items: center;
+    width: 2.25rem; height: 2.25rem;
+    border-radius: 999px;
+    background: var(--c-ink); color: #fff;
+    font-weight: 800; font-size: .95rem;
+  }
+  .reserva__pasos strong { display: block; color: var(--c-ink); }
+  .reserva__pasos p { margin: .15rem 0 0; font-size: .925rem; line-height: 1.55; color: var(--c-ink-60); }
+  .reserva__wa { font-weight: 700; color: var(--c-wa-text); text-decoration: none; }
+  .reserva__wa:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+  /* ── Comparativa y zonas ── */
+  .vs {
+    display: flex;
+    align-items: center;
+    gap: clamp(1rem, 3vw, 2.5rem);
+    margin-top: 1.25rem;
+    padding: clamp(1.5rem, 2.5vw, 2rem);
+    border-radius: var(--r-card);
+    background: var(--c-ink);
+    color: #fff;
+  }
+  .vs p { margin: 0; line-height: 1.65; color: rgba(255,255,255,.78); }
+  .vs__badge { display: inline-block; margin-bottom: .6rem; padding: .25rem .7rem; border-radius: 999px; background: rgba(255,255,255,.12); font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+  .vs__title { color: #fff; margin: 0 0 .5rem; font-family: var(--font-head); font-weight: 800; letter-spacing: -0.02em; font-size: 1.3rem; }
+  .vs__btn { flex: none; background: #fff; color: var(--c-ink); border-color: #fff; }
+  .vs__btn:hover { background: var(--c-canvas); }
+  .zn {
+    list-style: none; margin: 0; padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+    gap: 1rem;
+  }
+  .zn li {
+    display: flex; flex-direction: column; gap: .4rem;
+    padding: 1.15rem 1.25rem;
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-tile);
+    background: #fff;
+  }
+  .zn a { font-weight: 700; color: var(--c-ink); text-decoration: none; line-height: 1.3; }
+  .zn a:hover { color: var(--c-primary-text); text-decoration: underline; text-underline-offset: 3px; }
+  .zn p { margin: 0; font-size: .9rem; line-height: 1.55; color: var(--c-ink-60); flex: 1; }
+  .zn__fee { align-self: flex-start; padding: .25rem .65rem; border-radius: 999px; background: var(--c-menta); font-size: .8rem; font-weight: 700; color: #0F7A3C; }
+
+  @media (max-width: 760px) {
+    .precio { grid-template-columns: 1fr; }
+    .vs { flex-direction: column; align-items: flex-start; }
+    .pq__dims { grid-template-columns: repeat(2, 1fr); }
+  }
 
   .guias__title { margin: 0 0 .5rem; font-family: var(--font-head); font-weight: 800; letter-spacing: -0.03em; color: var(--c-ink); }
   .guias__lead { margin: 0 0 1.5rem; color: var(--c-ink-60); }
@@ -447,6 +644,8 @@ const sidebarIndice = [
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
   }
   .guias__list li {
+    display: flex;
+    flex-direction: column;
     padding: 1.25rem 1.4rem;
     border: 1px solid var(--c-line);
     border-radius: var(--r-tile);
@@ -456,5 +655,13 @@ const sidebarIndice = [
   .guias__list li:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
   .guias__list a { display: block; color: var(--c-ink); font-weight: 700; line-height: 1.35; margin-bottom: .35rem; text-decoration: none; }
   .guias__list a:hover { text-decoration: underline; text-underline-offset: 3px; }
-  .guias__list span { display: block; font-size: .9rem; line-height: 1.55; color: var(--c-ink-60); }
+  .guias__list span {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: .9rem;
+    line-height: 1.55;
+    color: var(--c-ink-60);
+  }
 </style>
