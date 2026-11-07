@@ -22,6 +22,9 @@ const blog = defineCollection({
     intro: z.array(z.string()).optional(),     // párrafos de entrada (columna derecha del hero)
     tags: z.array(z.string()).optional(),
     draft: z.boolean().default(false),
+    /** Slug de la página de servicio de mesas de dulces que apoya el post
+        (PAGINAS de src/data/mesasDeDulces.ts). Enlaza post ↔ servicio. */
+    servicio: z.string().optional(),
     faqs: z.array(z.object({
       question: z.string(),
       answer: z.string(),

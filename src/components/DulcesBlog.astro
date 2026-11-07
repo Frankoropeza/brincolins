@@ -1,0 +1,85 @@
+---
+/**
+ * DulcesBlog — BRINCOLINS
+ * Guías del blog que apoyan las páginas de mesas de dulces.
+ *
+ * La relación vive en el frontmatter de cada post (`servicio: <slug>`), no en
+ * una lista a mano: si se publica una guía nueva con su `servicio`, aparece
+ * sola en su página.
+ *  - Con `servicio`: tarjetas de las guías de ese servicio (página de detalle).
+ *  - Sin `servicio`: índice de todas las guías agrupadas por servicio (hub).
+ */
+import { getCollection } from "astro:content";
+import BlogCard from "@/components/BlogCard.astro";
+import { PAGINAS, BASE_URL } from "@/data/mesasDeDulces";
+
+interface Props {
+  servicio?: string;
+  /** Nombre del servicio dentro de una frase: «la mesa de dulces para bautizo» */
+  tema?: string;
+  alt?: boolean;
+}
+const { servicio, tema, alt = false } = Astro.props;
+
+const posts = (await getCollection("blog")).filter((p) => !p.data.draft && p.data.servicio);
+const propias = servicio ? posts.filter((p) => p.data.servicio === servicio) : [];
+const grupos = servicio
+  ? []
+  : PAGINAS.map((s) => ({ s, items: posts.filter((p) => p.data.servicio === s.slug) })).filter((g) => g.items.length);
+---
+
+{(propias.length > 0 || grupos.length > 0) && (
+  <section class={alt ? "section section--alt" : "section"}>
+    <div class="container">
+      <span class="section-badge">Guías del blog</span>
+      {servicio ? (
+        <>
+          <h2 class="section-title dblog__title">¿Qué más conviene saber antes de contratar {tema}?</h2>
+          <div class="dblog__grid">
+            {propias.map((p) => (
+              <BlogCard
+                slug={p.id}
+                category={p.data.category}
+                title={p.data.title}
+                excerpt={p.data.excerpt ?? p.data.description}
+                readTime={p.data.readTime ?? "8 min"}
+                image={p.data.heroImage}
+              />
+            ))}
+          </div>
+        </>
+      ) : (
+        <>
+          <h2 class="section-title dblog__title">¿Buscas ideas antes de cotizar? Guías por tipo de mesa y evento</h2>
+          <div class="dblog__idx">
+            {grupos.map(({ s, items }) => (
+              <div>
+                <h3 class="dblog__h"><a href={`${BASE_URL}${s.slug}/`}>{s.h1}</a></h3>
+                <ul class="dblog__list">
+                  {items.map((p) => <li><a href={`/blog/${p.id}/`}>{p.data.title}</a></li>)}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  </section>
+)}
+
+<style>
+  .dblog__title { margin-bottom: 1.75rem; }
+  .dblog__grid {
+    display: grid; gap: 1.25rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr));
+  }
+  .dblog__idx {
+    display: grid; gap: 1.75rem 2.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr));
+  }
+  .dblog__h { font-family: var(--font-head); font-size: 1.0625rem; font-weight: 800; margin: 0 0 .6rem; }
+  .dblog__h a { color: var(--c-ink); text-decoration: none; }
+  .dblog__h a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .dblog__list { list-style: none; margin: 0; padding: 0; display: grid; gap: .45rem; }
+  .dblog__list a { color: var(--c-primary-text); font-weight: 600; font-size: .95rem; text-underline-offset: 3px; }
+</style>

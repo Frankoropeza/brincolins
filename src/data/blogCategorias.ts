@@ -188,4 +188,103 @@ export const BLOG_CATEGORIA: Record<string, string> = {
   "donde-festejar-cumpleanos-de-ninos-cdmx":               "grandes",
   "trampolin-para-ninos-comprar-o-rentar-inflable":        "brincolines",
   "que-ropa-llevar-a-una-fiesta-infantil-con-inflable":    "para-ninos",
+
+  /* Tanda 2026-11-07 — 80 guías de mesas de dulces × inflables (5 por
+     servicio). Categoría = la del primer inflable que recomienda cada guía. */
+  /* cumpleanos-infantil */
+  "golosinas-para-mesa-de-dulces-fiesta-infantil":       "medianos",
+  "mesa-de-dulces-sencilla-para-cumpleanos":             "medianos",
+  "ideas-mesa-de-dulces-tematica-infantil":              "medianos",
+  "mesa-de-dulces-para-3-anos":                          "chicos",
+  "mesa-de-dulces-para-cumpleanos-adultos":              "con-obstaculos",
+  /* bautizo */
+  "mesa-de-dulces-para-bautizo-economica":               "para-interiores",
+  "mesa-de-dulces-para-bautizo-nina":                    "chicos",
+  "mesa-de-dulces-para-bautizo-nino":                    "para-adultos",
+  "centros-de-mesa-para-bautizo-con-dulces":             "chicos",
+  "como-decorar-mesa-de-dulces-para-bautizo":            "para-interiores",
+  /* baby-shower */
+  "mesa-de-dulces-baby-shower-nina-sencilla":            "chicos",
+  "mesa-de-dulces-baby-shower-nino-sencilla":            "para-interiores",
+  "que-lleva-una-mesa-de-dulces-para-baby-shower":       "chicos",
+  "centros-de-mesa-para-baby-shower-con-dulces":         "castillos",
+  "ideas-mesa-de-dulces-baby-shower-tematicas":          "para-interiores",
+  /* primera-comunion */
+  "centros-de-mesa-primera-comunion-con-dulces":         "para-adultos",
+  "mesa-de-dulces-primera-comunion-nina":                "para-adultos",
+  "mesa-de-dulces-primera-comunion-nino":                "grandes",
+  "mesa-de-dulces-elegante-primera-comunion":            "para-adultos",
+  "mesa-de-postres-para-primera-comunion":               "para-adultos",
+  /* xv-anos */
+  "mesa-de-dulces-para-15-anos-economica":               "para-adultos",
+  "mesa-de-dulces-juvenil-quinceanera":                  "con-obstaculos",
+  "centros-de-mesa-con-dulces-para-15-anos":             "para-adultos",
+  "mesa-de-dulces-xv-anos-por-color":                    "para-adultos",
+  "mesa-de-dulces-para-xv-anos-100-personas":            "para-adultos",
+  /* boda */
+  "mesa-de-dulces-para-boda-civil":                      "para-adultos",
+  "mesa-de-dulces-vintage-para-boda":                    "para-adultos",
+  "mesa-de-dulces-para-boda-economica":                  "para-adultos",
+  "centros-de-mesa-con-dulces-para-boda":                "para-adultos",
+  "que-dulces-lleva-una-mesa-de-dulces-para-boda":       "para-adultos",
+  /* fuente-de-chocolate */
+  "chocolate-para-fuente-de-chocolate":                  "castillos",
+  "que-poner-en-una-fuente-de-chocolate":                "castillos",
+  "como-funciona-una-fuente-de-chocolate":               "medianos",
+  "mini-fuente-de-chocolate-comprar-o-rentar":           "castillos",
+  "fresas-con-chocolate-para-fiesta":                    "castillos",
+  /* fuente-de-chamoy */
+  "que-es-una-chamoyada":                                "medianos",
+  "chamoyada-de-mango-para-fiesta":                      "medianos",
+  "frutas-con-chamoy-para-fiesta":                       "medianos",
+  "dulces-mexicanos-picantes":                           "medianos",
+  "gomitas-con-chamoy-para-fiesta":                      "medianos",
+  /* pared-de-dulces */
+  "que-lleva-un-candy-bar":                              "castillos",
+  "candy-bar-facil-y-economico":                         "medianos",
+  "candy-bar-para-boda":                                 "para-adultos",
+  "carrito-candy-bar":                                   "castillos",
+  "backdrop-para-fotos-mesa-de-dulces":                  "castillos",
+  /* stand-para-pastel */
+  "pastel-para-bautizo":                                 "chicos",
+  "pastel-para-primera-comunion":                        "para-adultos",
+  "pastel-de-xv-anos-por-invitados":                     "para-adultos",
+  "pastel-para-boda-civil":                              "para-adultos",
+  "mesa-de-pastel-decoracion":                           "castillos",
+  /* mesa-de-frutas */
+  "mesa-de-frutas-sencilla":                             "medianos",
+  "mesa-de-frutas-para-fiesta-infantil":                 "medianos",
+  "centros-de-mesa-con-frutas":                          "medianos",
+  "mesa-de-frutas-y-botanas":                            "medianos",
+  "mesa-de-fruta-para-fiesta-cuanta-fruta":              "grandes",
+  /* mesa-de-postres */
+  "mini-postres-para-mesa-de-dulces":                    "castillos",
+  "mesa-de-postres-para-boda":                           "para-adultos",
+  "mesa-de-postres-para-15-anos":                        "para-adultos",
+  "mesa-de-postres-sencilla":                            "castillos",
+  "mesa-de-postres-para-baby-shower":                    "chicos",
+  /* mesa-de-quesos */
+  "tabla-de-quesos-y-carnes-frias":                      "con-obstaculos",
+  "tabla-de-quesos-sencilla":                            "para-interiores",
+  "que-lleva-una-tabla-de-quesos":                       "para-adultos",
+  "tabla-de-quesos-y-vino":                              "para-adultos",
+  "que-es-charcuteria":                                  "con-obstaculos",
+  /* mesa-de-botanas */
+  "botanas-para-fiesta":                                 "medianos",
+  "botanas-mexicanas-para-fiestas":                      "medianos",
+  "mesa-de-botanas-para-adultos":                        "con-obstaculos",
+  "mesa-de-botanas-sencilla":                            "medianos",
+  "botanas-para-el-15-de-septiembre":                    "medianos",
+  /* mesa-de-dulces-mexicanos */
+  "dulces-tipicos-mexicanos":                            "medianos",
+  "lista-de-dulces-mexicanos":                           "medianos",
+  "dulces-mexicanos-antiguos":                           "para-adultos",
+  "centros-de-mesa-mexicanos-con-dulces":                "medianos",
+  "dulces-navidenos-mexicanos":                          "para-interiores",
+  /* mesa-de-donas-y-cupcakes */
+  "donas-decoradas":                                     "castillos",
+  "mini-donas-mesa-de-donas":                            "para-interiores",
+  "cupcakes-de-cumpleanos":                              "medianos",
+  "pastel-de-cupcakes":                                  "chicos",
+  "cupcakes-navidenos":                                  "para-interiores",
 };

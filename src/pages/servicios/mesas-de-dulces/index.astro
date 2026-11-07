@@ -9,6 +9,7 @@ import DulcesConfianza from "@/components/DulcesConfianza.astro";
 import DulcesCotizador from "@/components/DulcesCotizador.astro";
 import DulcesCombo from "@/components/DulcesCombo.astro";
 import DulcesGuia from "@/components/DulcesGuia.astro";
+import DulcesBlog from "@/components/DulcesBlog.astro";
 import { GUIA_HUB } from "@/data/mesasDeDulcesGuias";
 import { WHATSAPP } from "@/data/site";
 import { EVENTOS, TIPOS, ESTACIONES_PAG, FAQS_GENERALES, BASE_URL, IMG, fmt, enFrase, serviceSchema } from "@/data/mesasDeDulces";
@@ -225,6 +226,8 @@ const pasos = [
   <DulcesCombo alt={false} />
 
   <DulcesGuia titulo={GUIA_HUB.titulo} intro={GUIA_HUB.intro} secciones={GUIA_HUB.secciones} alt />
+
+  <DulcesBlog />
 
   <section class="section">
     <div class="container">

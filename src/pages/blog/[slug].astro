@@ -8,6 +8,7 @@ import EnlacesCategoria from "@/components/EnlacesCategoria.astro";
 import InflableDestacado from "@/components/InflableDestacado.astro";
 import { BLOG_CATEGORIA } from "@/data/blogCategorias";
 import { getCategoria, inflablesDeCategoria } from "@/data/categorias";
+import { PAGINAS, BASE_URL, fmt } from "@/data/mesasDeDulces";
 import BlogSidebar from "@/components/BlogSidebar.astro";
 
 type BlogPost = CollectionEntry<"blog">;
@@ -28,12 +29,12 @@ const fechaAct = d.updatedDate && d.updatedDate !== d.publishDate
   ? new Date(d.updatedDate).toLocaleDateString("es-MX", { year: "numeric", month: "long", day: "numeric" })
   : null;
 
-// ── Artículos relacionados (misma categoría, luego recientes) ──
+// ── Artículos relacionados (mismo servicio, misma categoría, luego recientes) ──
 const all = (await getCollection("blog")).filter((p) => !p.data.draft);
 const byDate = (a: BlogPost, b: BlogPost) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime();
-let related = all
-.filter((p) => p.id !== post.id && p.data.category === d.category)
-.sort(byDate)
+const mismoServicio = d.servicio ? all.filter((p) => p.id !== post.id && p.data.servicio === d.servicio) : [];
+let related = mismoServicio
+.concat(all.filter((p) => p.id !== post.id && p.data.category === d.category && !mismoServicio.includes(p)).sort(byDate))
 .slice(0, 3);
 if (related.length < 3) {
   const ids = new Set([post.id, ...related.map((r) => r.id)]);
@@ -50,6 +51,16 @@ const catItems   = catPost
   ? [
       { href: `/inflables/${catPost.slug}/`, anchor: catPost.anchor, nota: `${catModelos.length} ${catModelos.length === 1 ? "modelo" : "modelos"} con medidas, capacidad y precio` },
 ...catModelos.slice(0, 2).map((i) => ({ href: `/inflables/${i.slug}/`, anchor: i.name, nota: `desde ${i.price}` })),
+    ]
+  : [];
+
+/* ── Servicio de mesas de dulces que apoya el post (frontmatter `servicio`) ──
+   Anchor = keyword principal de la página de servicio. */
+const serv = d.servicio ? PAGINAS.find((p) => p.slug === d.servicio) : undefined;
+const servItems = serv
+  ? [
+      { href: `${BASE_URL}${serv.slug}/`, anchor: serv.h1, nota: `desde ${fmt(serv.niveles[0].precio)} más IVA` },
+      { href: BASE_URL, anchor: "Mesas de dulces para eventos en CDMX", nota: "eventos, tipos de mesa y estaciones" },
     ]
   : [];
 
@@ -167,6 +178,14 @@ const howToSchema = d.howto
     <div class="container art-shell">
       <div class="art-layout">
         <article class="art-body">
+          {serv && (
+            <EnlacesCategoria
+              variante="inline"
+              titulo={`Servicio: ${serv.nombre.toLowerCase()}`}
+              intro="La opera nuestro aliado MEDEDUL y la coordinamos con la entrega de tu inflable, en una sola cotización."
+              items={servItems}
+            />
+          )}
           {catPost && (
             <EnlacesCategoria
               variante="inline"

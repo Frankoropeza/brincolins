@@ -10,6 +10,7 @@ import DulcesConfianza from "@/components/DulcesConfianza.astro";
 import DulcesCotizador from "@/components/DulcesCotizador.astro";
 import DulcesCombo from "@/components/DulcesCombo.astro";
 import DulcesGuia from "@/components/DulcesGuia.astro";
+import DulcesBlog from "@/components/DulcesBlog.astro";
 import { GUIAS } from "@/data/mesasDeDulcesGuias";
 import { WHATSAPP } from "@/data/site";
 import { EVENTOS, TIPOS, ESTACIONES_PAG, PAGINAS, FAQS_GENERALES, BASE_URL, IMG, fmt, enFrase, serviceSchema, COMBO, type Evento } from "@/data/mesasDeDulces";
@@ -146,6 +147,8 @@ const schema = serviceSchema(`https://brincolins.com${url}`, e.h1, [e]);
   </section>
 
   {guia && <DulcesGuia titulo={guia.titulo} intro={guia.intro} secciones={guia.secciones} alt />}
+
+  <DulcesBlog servicio={e.slug} tema={tema} />
 
   <DulcesComplementos evento={grupo === "evento" ? `la mesa de ${enFrase(e)}` : tema} sinEstaciones={grupo === "estacion"} estAlt={false} aliadoAlt={grupo !== "estacion"} />
 
