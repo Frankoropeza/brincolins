@@ -47,6 +47,10 @@ export interface Props {
   /** false en /preguntas-frecuentes/: ahí las preguntas de la página son
       el contenido mismo, no se repiten en el pre-footer. */
   faqEnPrefooter?: boolean;
+  /** Título y subtítulo del bloque de FAQ del pre-footer, para páginas que
+      no son de inflables (p. ej. mesas de dulces). */
+  faqTitle?:    string;
+  faqSubtitle?: string;
 }
 
 const {
@@ -64,6 +68,8 @@ const {
   servicio,
   faqContext,
   faqEnPrefooter = true,
+  faqTitle = "Resolvemos tus dudas sobre renta de inflables",
+  faqSubtitle = "Las preguntas más comunes sobre precios, servicio, seguridad y cobertura.",
 } = Astro.props;
 
 /* Las preguntas del pre-footer viven en src/data/faqPool.ts, que sirve un
@@ -106,8 +112,8 @@ const resolvedFaqs = [...propias, ...(faltan > 0 ? faqsPrefooter(ctx, faqItems ?
     <div class="container">
       <SectionHeader
         badge="Preguntas frecuentes"
-        title="Resolvemos tus dudas sobre renta de inflables"
-        subtitle="Las preguntas más comunes sobre precios, servicio, seguridad y cobertura."
+        title={faqTitle}
+        subtitle={faqSubtitle}
         copy1="Reunimos aquí las dudas que más nos llegan antes de una reserva: precios, qué incluye el servicio, cómo apartar la fecha y qué pasa si llueve. Si no encuentras lo que buscas, escríbenos por WhatsApp y una persona real te responde en minutos."
         copy2="Con más de 20 años atendiendo fiestas infantiles y eventos en CDMX y Estado de México, sabemos exactamente qué necesitas saber para reservar con confianza. Sin bots, sin esperas largas."
       />

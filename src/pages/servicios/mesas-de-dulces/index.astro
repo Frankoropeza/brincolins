@@ -1,0 +1,248 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import QuickNav from "@/components/QuickNav.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import SectionHeader from "@/components/SectionHeader.astro";
+import CtaBanner from "@/components/CtaBanner.astro";
+import DulcesComplementos from "@/components/DulcesComplementos.astro";
+import { WHATSAPP } from "@/data/site";
+import { EVENTOS, FAQS_GENERALES, BASE_URL, IMG, fmt, enFrase, serviceSchema } from "@/data/mesasDeDulces";
+
+const title = "Mesa de dulces en CDMX: precios por evento desde $3,500";
+const description = "Renta de mesa de dulces en CDMX para cumpleaños infantil, bautizo, baby shower, primera comunión, XV años y boda. Precios desde $3,500, montaje incluido.";
+
+const minimo = Math.min(...EVENTOS.map((e) => e.niveles[0].precio));
+const maximo = Math.max(...EVENTOS.map((e) => e.niveles[2].precio));
+const wa = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hola, quiero cotizar una mesa de dulces.")}`;
+const schema = serviceSchema(`https://brincolins.com${BASE_URL}`, "Mesa de dulces en CDMX", EVENTOS);
+
+const incluye = [
+  { t: "Diseño en tu paleta", d: "Colores, temática y etiquetas con el nombre del festejado." },
+  { t: "Mesa y montaje", d: "Mesa, mantelería, bases y cristalería; el equipo monta antes de que lleguen los invitados." },
+  { t: "Dulces seleccionados", d: "De 8 a más de 20 variedades según el nivel, con opciones para alergias." },
+  { t: "Desmontaje y sobrantes", d: "Al terminar se desmonta todo y los dulces que sobran son tuyos." },
+];
+
+const pasos = [
+  { t: "Cuéntanos tu evento", d: "Tipo de fiesta, fecha, número de invitados, colonia y temática." },
+  { t: "Recibe la cotización", d: "Nivel recomendado, precio y, si lo quieres, el inflable en la misma propuesta." },
+  { t: "Aparta con 50%", d: "El anticipo confirma la fecha; las condiciones quedan por escrito." },
+  { t: "Montaje el día del evento", d: "El equipo llega antes de la celebración, monta y desmonta al cierre." },
+];
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  pageType="page"
+  ogImage={`${IMG}/og/hub-hero.jpg`}
+  faqItems={FAQS_GENERALES}
+  faqContext={{ tipo: "servicio", servicio: "dulces" }}
+  faqTitle="Resolvemos tus dudas sobre mesas de dulces"
+  faqSubtitle="Precios, qué incluye, cómo apartar la fecha y quién monta la mesa."
+  schemaMarkup={JSON.stringify(schema)}
+  breadcrumbs={[
+    { name: "Inicio", href: "/" },
+    { name: "Servicios", href: "/servicios/" },
+    { name: "Mesas de dulces" },
+  ]}
+>
+  <Fragment slot="breadcrumbs">
+    <Breadcrumbs items={[{ label: "Inicio", href: "/" }, { label: "Servicios", href: "/servicios/" }, { label: "Mesas de dulces" }]} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="hero__badge">Mesas de dulces</span>
+          <h1 class="hero__title">Mesa de dulces <span class="highlight">para tu fiesta</span> en CDMX</h1>
+          <p class="hero__desc">
+            Mesas de dulces para cumpleaños infantil, bautizo, baby shower, primera comunión, XV años y boda, con diseño en la
+            paleta de tu evento, montaje y desmontaje incluidos. Las opera nuestro aliado MEDEDUL y las coordinamos junto con tu inflable.
+          </p>
+          <div class="hero__ctas">
+            <a href={wa} class="btn btn-wa btn-lg" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+            <a href="#precios" class="btn btn-outline btn-lg">Ver precios</a>
+          </div>
+        </div>
+        <div class="hero__img-col">
+          <div class="hero__img-wrap">
+            <img src={`${IMG}/hub-hero.avif`} alt="Mesa de dulces pastel en jardín de CDMX con un inflable al fondo" class="hero__img" width="1600" height="900" loading="eager" fetchpriority="high" />
+            <div class="hero__img-pill hero__img-pill--top">Desde {fmt(minimo)} MXN</div>
+            <div class="hero__img-pill hero__img-pill--bottom">6 tipos de evento</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <QuickNav />
+
+  <section class="section" id="precios">
+    <div class="container">
+      <SectionHeader
+        badge="Precios"
+        title="¿Cuánto cuesta una mesa de dulces en CDMX?"
+        subtitle={`De ${fmt(minimo)} a ${fmt(maximo)} MXN según el evento y el número de invitados.`}
+        copy1="Cada evento tiene tres niveles. Esencial resuelve una celebración íntima; Premium agrega backdrop, más variedades y personal que repone la mesa; Luxury es una mesa de autor con estaciones incluidas."
+        copy2="Los precios son «desde» y salen del catálogo de nuestro aliado MEDEDUL. La cotización confirma variedades, horario, traslado según zona y factura si la necesitas."
+      />
+      <div class="tabla-wrap">
+        <table class="tabla">
+          <caption class="sr-only">Precios de mesa de dulces por evento y número de invitados</caption>
+          <thead>
+            <tr>
+              <th scope="col">Evento</th>
+              <th scope="col">Esencial</th>
+              <th scope="col">Premium</th>
+              <th scope="col">Luxury</th>
+            </tr>
+          </thead>
+          <tbody>
+            {EVENTOS.map((e) => (
+              <tr>
+                <th scope="row"><a href={`${BASE_URL}${e.slug}/`}>{e.nombre}</a></th>
+                {e.niveles.map((n) => (
+                  <td><strong>{fmt(n.precio)}</strong><span>{n.invitados} {e.unidad}</span></td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="Eventos"
+        title="¿Para qué evento es tu mesa de dulces?"
+        subtitle="Cada evento tiene su paleta, sus símbolos y sus propios niveles."
+        copy1="Un cumpleaños infantil pide temática y bolos; un bautizo o una comunión, blanco con dorado y símbolos religiosos; una boda o unos XV, cristalería, backdrop floral y repostería fina."
+        copy2="Entra a tu evento para ver qué incluye cada nivel, los estilos más pedidos y las preguntas frecuentes."
+      />
+      <div class="ev-grid">
+        {EVENTOS.map((e) => (
+          <a href={`${BASE_URL}${e.slug}/`} class="ev">
+            <img src={`${IMG}/${e.img.hero}.avif`} alt={e.img.alt} width="1600" height="900" loading="lazy" decoding="async" class="ev__img" />
+            <div class="ev__body">
+              <h3 class="ev__title">Mesa de dulces para {enFrase(e)}</h3>
+              <p class="ev__price">Desde <strong>{fmt(e.niveles[0].precio)}</strong> · {e.niveles[0].invitados} {e.unidad}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="inc">
+        <img src={`${IMG}/hub-detalle.avif`} alt="Frascos de cristal con gomitas, chocolates y dulces mexicanos en una mesa de dulces" width="1600" height="900" loading="lazy" decoding="async" class="inc__img" />
+        <div>
+          <span class="section-badge">Qué incluye</span>
+          <h2 class="section-title">¿Qué incluye una mesa de dulces?</h2>
+          <ul class="inc__list">
+            {incluye.map((i) => <li><strong>{i.t}.</strong> {i.d}</li>)}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <DulcesComplementos />
+
+  <section class="section section--alt">
+    <div class="container">
+      <SectionHeader
+        badge="Proceso"
+        title="¿Cómo se contrata la mesa de dulces?"
+        subtitle="Todo por WhatsApp, en una sola conversación."
+        copy1="Escríbenos con la fecha y el tipo de evento. Si también rentas un inflable, va en la misma cotización y los dos equipos se coordinan para el mismo día."
+        copy2="Para bodas en temporada alta conviene reservar con 3 a 6 meses de anticipación; para otras fechas, pregunta disponibilidad."
+      />
+      <ol class="pasos">
+        {pasos.map((p, i) => (
+          <li class="paso">
+            <span class="paso__n">{i + 1}</span>
+            <h3 class="paso__t">{p.t}</h3>
+            <p class="paso__d">{p.d}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="Cotiza tu mesa de dulces"
+    subtitle="Mesa de dulces e inflable en una sola cotización."
+    btnText="Cotizar mi evento"
+    btnHref="/cotizar/"
+    btnSecondaryText="Ver inflables"
+    btnSecondaryHref="/inflables/"
+    variant="warm"
+  />
+</PageLayout>
+
+<style>
+  .tabla-wrap { overflow-x: auto; border-radius: var(--r-card); box-shadow: var(--shadow-md); background: #fff; }
+  .tabla { width: 100%; border-collapse: collapse; min-width: 560px; }
+  .tabla th, .tabla td { padding: 1rem 1.25rem; text-align: left; border-bottom: 1px solid rgba(0, 0, 0, 0.07); }
+  .tabla thead th { background: var(--c-durazno); color: var(--c-ink); font-size: 14px; }
+  .tabla tbody th a { color: var(--c-ink); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+  .tabla td strong { display: block; color: var(--c-primary-text); font-size: 1.05rem; }
+  .tabla td span { font-size: 13px; color: var(--c-ink); opacity: 0.75; }
+  .tabla tbody tr:last-child > * { border-bottom: 0; }
+
+  .ev-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  .ev {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: var(--r-card);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    color: var(--c-ink);
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+  .ev:hover { transform: translateY(-3px); }
+  .ev__img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+  .ev__body { padding: 1.1rem 1.25rem 1.3rem; }
+  .ev__title { margin: 0 0 0.35rem; font-size: 1.1rem; }
+  .ev__price { margin: 0; font-size: 14px; }
+  .ev__price strong { color: var(--c-primary-text); }
+
+  .inc { display: grid; grid-template-columns: 1.1fr 1fr; gap: 3rem; align-items: center; }
+  .inc__img { display: block; width: 100%; height: auto; border-radius: var(--r-card); }
+  .inc__list { margin: 1.25rem 0 0; padding: 0; list-style: none; display: grid; gap: 0.9rem; }
+  .inc__list li { line-height: 1.6; color: var(--c-ink); padding-left: 1.1rem; border-left: 3px solid var(--c-menta); }
+
+  .pasos { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+  .paso { background: #fff; border-radius: var(--r-card); padding: 1.5rem; box-shadow: var(--shadow-md); }
+  .paso__n {
+    display: inline-grid;
+    place-items: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    background: var(--c-primary-deep);
+    color: #fff;
+    font-weight: 800;
+  }
+  .paso__t { margin: 0.9rem 0 0.4rem; font-size: 1.05rem; color: var(--c-ink); }
+  .paso__d { margin: 0; line-height: 1.6; color: var(--c-ink); }
+
+  @media (max-width: 1024px) {
+    .ev-grid { grid-template-columns: repeat(2, 1fr); }
+    .pasos { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 640px) {
+    .ev-grid, .pasos, .inc { grid-template-columns: 1fr; gap: 1.25rem; }
+  }
+  @media (max-width: 860px) {
+    .inc { grid-template-columns: 1fr; gap: 1.5rem; }
+  }
+</style>

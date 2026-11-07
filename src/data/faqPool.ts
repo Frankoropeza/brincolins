@@ -49,7 +49,7 @@ export type FaqContext =
   | { tipo: "categoria"; nombre: string; modelos: number; desde: string }
   | { tipo: "precio" }
   | { tipo: "cotizar" }
-  | { tipo: "servicio";  servicio: "eventos" | "paquetes" | "mobiliario" | "iluminacion" | "renta" }
+  | { tipo: "servicio";  servicio: "eventos" | "paquetes" | "mobiliario" | "iluminacion" | "renta" | "dulces" }
   | { tipo: "blog" }
   | { tipo: "directorio"; salon?: string; zona?: string }
   | { tipo: "cerca" }
@@ -286,6 +286,13 @@ const FAQ_SERVICIO: Record<string, Faq[]> = {
       tag: "Paquetes",
       question: "¿Puedo armar un paquete a mi medida?",
       answer: "Sí. Dinos cuántos invitados esperas, el espacio con el que cuentas y qué necesitas resolver, y armamos la combinación. Lo más pedido es inflable más mesas y sillas; lo segundo, inflable más toldo cuando el evento es en jardín y el clima es incierto.",
+    },
+  ],
+  dulces: [
+    {
+      tag: "Dulces",
+      question: "¿Puedo contratar la mesa de dulces junto con el inflable?",
+      answer: "Sí, y es lo más práctico: cotizas los dos servicios en una sola conversación por WhatsApp y coordinamos que el inflable y la mesa de dulces lleguen el mismo día. La mesa la monta el equipo de nuestro aliado MEDEDUL y el inflable el equipo de BRINCOLINS.",
     },
   ],
   mobiliario: [

@@ -1,0 +1,98 @@
+---
+/**
+ * DulcesComplementos — BRINCOLINS
+ * Estaciones que se suman a la mesa de dulces + bloque del aliado MEDEDUL.
+ * Datos en src/data/mesasDeDulces.ts. CSS scoped, sin animaciones.
+ */
+import SectionHeader from "@/components/SectionHeader.astro";
+import { ESTACIONES, ALIADO, IMG, fmt } from "@/data/mesasDeDulces";
+
+interface Props {
+  /** Texto del evento para el título ("tu bautizo"); vacío en el hub */
+  evento?: string;
+}
+const { evento } = Astro.props;
+---
+
+<section class="section section--alt">
+  <div class="container">
+    <SectionHeader
+      badge="Estaciones"
+      title={evento ? `¿Qué estaciones puedes sumar a ${evento}?` : "¿Qué estaciones puedes sumar a la mesa de dulces?"}
+      subtitle="Fuentes con operador, cotizadas junto con la mesa."
+      copy1="Las fuentes se colocan al lado de la mesa de dulces y llevan su propio operador, que sirve y cuida la estación durante el tiempo contratado."
+      copy2="El precio depende del número de invitados. Pídela en la misma cotización de la mesa para que llegue y se monte con el mismo equipo."
+    />
+    <div class="est-grid">
+      {ESTACIONES.map((e) => (
+        <article class="est">
+          <img src={`${IMG}/${e.img}.avif`} alt={e.alt} width="1600" height="900" loading="lazy" decoding="async" class="est__img" />
+          <div class="est__body">
+            <h3 class="est__title">{e.nombre}</h3>
+            <p class="est__desc">{e.desc}</p>
+            <ul class="est__precios">
+              {e.niveles.map(([precio, inv]) => (
+                <li><span>{inv} invitados</span><strong>desde {fmt(precio)}</strong></li>
+              ))}
+            </ul>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="aliado">
+      <div>
+        <span class="section-badge">Aliado</span>
+        <h2 class="section-title">¿Quién monta la mesa de dulces?</h2>
+      </div>
+      <div class="aliado__copy">
+        <p>
+          La mesa de dulces la diseña y la opera <a href={ALIADO.url} rel="noopener" target="_blank">{ALIADO.nombre}</a>,
+          empresa especializada en mesas de dulces y candy bar en la Ciudad de México. Los precios publicados aquí son los
+          mismos de su catálogo.
+        </p>
+        <p>
+          BRINCOLINS coordina la cotización, la fecha y la llegada junto con el inflable, así que hablas con un solo contacto
+          por WhatsApp aunque en tu fiesta trabajen dos equipos especializados.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .est-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; }
+  .est {
+    background: #fff;
+    border-radius: var(--r-card);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    display: flex;
+    flex-direction: column;
+  }
+  .est__img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+  .est__body { padding: 1.5rem; }
+  .est__title { font-size: 1.25rem; margin: 0 0 0.5rem; color: var(--c-ink); }
+  .est__desc { margin: 0 0 1rem; color: var(--c-ink); line-height: 1.6; }
+  .est__precios { list-style: none; margin: 0; padding: 0; }
+  .est__precios li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  .est__precios strong { color: var(--c-primary-text); }
+
+  .aliado { display: grid; grid-template-columns: 1fr 1.4fr; gap: 3rem; align-items: start; }
+  .aliado__copy p { margin: 0 0 1rem; line-height: 1.7; color: var(--c-ink); }
+  .aliado__copy a { color: var(--c-primary-text); font-weight: 700; }
+
+  @media (max-width: 860px) {
+    .est-grid, .aliado { grid-template-columns: 1fr; gap: 1.5rem; }
+  }
+</style>
