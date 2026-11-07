@@ -219,6 +219,8 @@ Si el inflable va a funcionar ya de noche, las [opciones de iluminación para ev
 - ¿A qué hora pueden entrar los proveedores y a qué hora deben salir?
 - ¿Hay otro evento el mismo día en el lugar?
 
+Si la mesa de dulces también está en tu lista, la guía de [mesa de dulces juvenil para quinceañera](/blog/mesa-de-dulces-juvenil-quinceanera/) reúne estilos que gustan a los adolescentes y la de [mesa de dulces de XV años por color](/blog/mesa-de-dulces-xv-anos-por-color/) propone dulces para cada paleta de vestido.
+
 ## Siguiente paso: cotiza el inflable de tus XV años
 
 Cuéntanos la temática, los colores, la fecha y el lugar de tus XV años y te recomendamos el modelo que mejor se integra. La instalación y la recolección van incluidas; el traslado se cobra según la zona de la **Ciudad de México o el Estado de México**, y la fecha se aparta con 50% de anticipo.

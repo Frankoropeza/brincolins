@@ -232,6 +232,8 @@ Los que, si fallan, te cambian la recepción: hora de instalación, contacto, za
 
 Si este año viene el cumpleaños del festejado, las [ideas para festejar los 2 años con inflable](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) te sirven para el siguiente festejo. Y si dudas entre modelos para los más pequeños, la [comparativa para niños de 1 a 3 años](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) pone lado a lado al Castillo Baby, al Gusanitos y al Castillo de Princesas.
 
+Si además vas a montar mesa de dulces, revisa la guía de [mesa de dulces para bautizo económica](/blog/mesa-de-dulces-para-bautizo-economica/), que compara hacerla tú contra contratarla, y las ideas de [pastel para bautizo](/blog/pastel-para-bautizo/) por tamaño y número de invitados.
+
 ## Cotiza la zona infantil de tu bautizo
 
 Los fines de semana se llenan, así que conviene confirmar disponibilidad en cuanto tengas la fecha de la misa. Para cotizar en un solo mensaje, mándanos:

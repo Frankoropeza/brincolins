@@ -224,6 +224,8 @@ Los precios van de $1,400 a $2,600 MXN según el modelo y están publicados en l
 
 Si además quieres mobiliario e iluminación, consulta los [paquetes de fiesta](/servicios/paquetes-de-fiesta/). Para quinceañeras, la guía de [inflable para XV años](/blog/decoracion-inflable-xv-anos-cdmx/) tiene ideas de decoración y logística.
 
+Para la mesa de dulces del evento, revisa las guías de [mesa de dulces para boda civil](/blog/mesa-de-dulces-para-boda-civil/) y de [mesa de postres para boda](/blog/mesa-de-postres-para-boda/), que explican cantidades, horario de apertura y dónde colocarla respecto a la zona infantil.
+
 ## ¿Cómo apartas el inflable para tu evento formal?
 
 Los fines de semana de temporada de bodas y XV años se reservan con anticipación. Para cotizar en un solo intercambio, manda fecha, horario, dirección del venue, fotos del área y edades aproximadas de los niños. La fecha se aparta con 50% de anticipo. Pide tu [cotización en línea](/cotizar/) o escríbenos por WhatsApp de lunes a domingo, de 8:00 a 20:00.

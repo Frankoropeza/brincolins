@@ -232,6 +232,8 @@ Si el fraccionamiento tiene caseta, avisa con tiempo y deja nuestro nombre en la
 - **No avisar a las mamás que vienen niños de varias edades.** Si saben que habrá dos castillos separados, llegan preparadas y explican las reglas a sus hijos.
 - **Poner el inflable bajo el sol de mediodía sin sombra cerca.** Deja una sombrilla o un toldo junto a la entrada para la persona que supervisa.
 
+Para la mesa de las invitadas, la guía de [qué lleva una mesa de dulces para baby shower](/blog/que-lleva-una-mesa-de-dulces-para-baby-shower/) reúne la lista por capas y las cantidades, y la de [mesa de postres para baby shower](/blog/mesa-de-postres-para-baby-shower/) explica qué postres conviene elegir para la futura mamá.
+
 ## Aparta el área infantil de tu baby shower
 
 Tu fecha ya está y los fines de semana se llenan. Si ya sabes dónde será, hoy puedes dejar resuelto el espacio de los niños y dedicarte a lo tuyo. Mándanos estos datos y te confirmamos disponibilidad, capacidad y espacio.

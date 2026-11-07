@@ -218,6 +218,8 @@ Si después de septiembre te quedas con ganas de otra fiesta temática, la de [f
 
 Las fiestas patrias se celebran en toda la ciudad, pero cada zona tiene su escenario típico. En la [renta de inflables en Iztapalapa](/cobertura/iztapalapa/) abundan los patios, cocheras y calles cerradas, donde el acceso y la altura libre bajo cables son lo primero que revisamos. En la [renta de inflables en Xochimilco](/cobertura/xochimilco/) muchas fiestas son en jardines y terrenos amplios, donde la lluvia de la tarde pide tener toldo a la mano. En la [renta de inflables en Tlalnepantla](/cobertura/tlalnepantla/) son comunes las fiestas en privadas y unidades habitacionales con área común. En municipios distantes del Estado de México se suma un cargo de envío que se indica al cotizar.
 
+Para la mesa de la fiesta, la guía de [dulces típicos mexicanos](/blog/dulces-tipicos-mexicanos/) los organiza por región y explica cuáles aguantan en mesa, y la de [botanas mexicanas para fiestas](/blog/botanas-mexicanas-para-fiestas/) propone cantidades y presentación en barro.
+
 ## ¿Listo para armar tu fiesta mexicana infantil?
 
 Elige fecha, mide tu espacio y define tu plan bajo techo. Después [cotiza tu inflable en línea](/cotizar/) o escríbenos por [WhatsApp al 55 3128 1706](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20un%20inflable%20para%20una%20fiesta%20mexicana%20infantil), de lunes a domingo de 8:00 a 20:00. Te confirmamos disponibilidad, el modelo que cabe y el traslado a tu zona. La fecha se aparta con 50% de anticipo.

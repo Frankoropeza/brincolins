@@ -225,6 +225,8 @@ En Naucalpan, colonias como Ciudad Satélite, Echegaray o Lomas Verdes tienen ca
 
 Si la recepción es en Metepec, en Pilares, Coaxustenco o el centro, toma en cuenta dos cosas: por la altitud del Valle de Toluca hace más frío que en la capital, sobre todo al caer la tarde, y el envío va de $400 a $600. Ten suéteres para los niños al salir del castillo y revisa la página de [renta del Castillo Blanco con envío a Metepec](/cobertura/metepec/).
 
+Para el resto de la recepción, las ideas de [centros de mesa con dulces para primera comunión](/blog/centros-de-mesa-primera-comunion-con-dulces/) y la guía de [mesa de postres para primera comunión](/blog/mesa-de-postres-para-primera-comunion/) te ayudan a cerrar la decoración con la misma paleta del Castillo Blanco.
+
 ## ¿Cómo apartar el Castillo Blanco para la comunión?
 
 La fecha de la parroquia ya no se mueve y los fines de semana se llenan. Si ya tienes el lugar de la recepción, hoy puedes dejar resuelta la parte que más trabajo da: los niños. Mándanos estos datos y te respondemos con disponibilidad, espacio y capacidad confirmados.

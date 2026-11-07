@@ -179,6 +179,8 @@ El proceso se resuelve en una tarde:
 
 Los fines de semana de mayo y diciembre se llenan rápido en ambas empresas, así que conviene apartar en cuanto tengas la fecha.
 
+Si todavía estás decidiendo qué poner, la lista de [golosinas para la mesa de dulces de una fiesta infantil](/blog/golosinas-para-mesa-de-dulces-fiesta-infantil/) separa lo que funciona por edad de lo que conviene dejar fuera cuando hay inflable, y las [ideas de mesa de dulces por temática](/blog/ideas-mesa-de-dulces-tematica-infantil/) proponen una paleta para cada modelo del catálogo.
+
 ## ¿Qué recuerdan los niños de una fiesta así?
 
 Los niños no recuerdan cuánto costó su fiesta. Recuerdan el inflable donde brincaron hasta cansarse, la mesa donde eligieron su dulce favorito y el momento en que todos cantaron las mañanitas. Eso es lo que da esta combinación: no una fiesta cara, sino una fiesta bien pensada.

@@ -242,6 +242,8 @@ Revisa fecha apartada, espacio medido, corriente, luz y adultos asignados: con e
 - **Adultos asignados** a la supervisión durante todo el evento, con relevos claros.
 - **Piñata y cena** programadas con el inflable cerrado.
 
+Para la mesa de la posada, la guía de [dulces navideños mexicanos](/blog/dulces-navidenos-mexicanos/) reúne colación, buñuelos y tejocotes, y la de [cupcakes navideños](/blog/cupcakes-navidenos/) da ideas sencillas para que los niños tengan un postre en porción individual.
+
 ## ¿Cómo apartar tu posada con inflable?
 
 Diciembre se llena y la disponibilidad se confirma por WhatsApp. Si ya tienes la noche, apártala hoy. Tu energía queda libre para el ponche. Para cotizar, mándanos:

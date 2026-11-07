@@ -237,6 +237,8 @@ El inflable no compite con el pastel: lo acompaña en la foto y ocupa a los niñ
 
 La regla de porciones es la misma en cualquier zona; lo que cambia es el espacio y el trayecto del pastel. En la [renta de inflables en Coyoacán](/cobertura/coyoacan/) muchas fiestas son en jardín, así que la sombra para la mesa del pastel es lo primero que conviene resolver. En la [renta de inflables en Benito Juárez](/cobertura/benito-juarez/) abundan los patios y terrazas de edificio, donde el pastel suele subir por escalera: pide que lleve base firme y caja con asas. En la [renta de inflables en Ecatepec](/cobertura/ecatepec/) las fiestas grandes en patio o explanada piden planchas rectangulares, que rinden más porciones y se transportan mejor.
 
+Si prefieres no partir pastel, el [pastel de cupcakes](/blog/pastel-de-cupcakes/) se reparte sin cuchillo, y la guía de [mesa de pastel](/blog/mesa-de-pastel-decoracion/) explica cómo decorarla y dónde ponerla en una fiesta con inflable.
+
 ## ¿Listo para armar la fiesta alrededor del pastel?
 
 Con tu número de porciones calculado y la hora de las mañanitas definida, solo falta el juego que ocupe a los niños antes y después. [Cotiza tu inflable en línea](/cotizar/) o escríbenos por [WhatsApp al 55 3128 1706](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20ya%20tengo%20listo%20el%20pastel%20y%20quiero%20cotizar%20un%20inflable%20para%20la%20fiesta) de lunes a domingo de 8:00 a 20:00. El precio es por evento de 4 a 6 horas e incluye entrega, instalación, motor, sanitización y recolección; la fecha se aparta con 50 % de anticipo.
