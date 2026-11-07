@@ -77,13 +77,21 @@ function bodyFigures() {
         }
         if (k.tagName === "p") {
           const real = (k.children ?? []).filter((c) => !(c.type === "text" && !c.value.trim()));
-          if (real.length === 1 && real[0].type === "element" && real[0].tagName === "img") {
+          /* Una imagen sola → <figure>. Dos o más en el mismo párrafo (líneas
+             seguidas en el Markdown) → rejilla de figuras lado a lado: una
+             foto sola a todo el ancho del artículo se veía demasiado grande. */
+          const soloImgs = real.length > 0 && real.every((c) => c.type === "element" && (c.tagName === "img" || c.tagName === "br"));
+          const imgs = soloImgs ? real.filter((c) => c.tagName === "img") : [];
+          if (imgs.length) {
             walk(k);
-            const img = real[0];
-            const cap = img.properties?.title;
-            if (cap) delete img.properties.title;
-            kids[i] = { type: "element", tagName: "figure", properties: { className: ["art-figure"] },
-              children: [img, ...(cap ? [{ type: "element", tagName: "figcaption", properties: {}, children: [{ type: "text", value: String(cap) }] }] : [])] };
+            const figura = (img) => {
+              const cap = img.properties?.title;
+              if (cap) delete img.properties.title;
+              return { type: "element", tagName: "figure", properties: { className: ["art-figure"] },
+                children: [img, ...(cap ? [{ type: "element", tagName: "figcaption", properties: {}, children: [{ type: "text", value: String(cap) }] }] : [])] };
+            };
+            kids[i] = imgs.length === 1 ? figura(imgs[0])
+              : { type: "element", tagName: "div", properties: { className: ["art-figuras"] }, children: imgs.map(figura) };
             continue;
           }
           if (/^puntos clave:?$/i.test(text(k).trim())) {

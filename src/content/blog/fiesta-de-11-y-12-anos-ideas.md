@@ -90,6 +90,7 @@ El truco está en poner un reto que sea claro en menos de un minuto y terminarlo
 | Mapa de misión | Cuatro pistas con una decisión en cada estación | 30 minutos | El barco es la base final, no el único juego de la tarde |
 
 ![Mesa de jardín con sobres numerados, un mapa dibujado a mano, pulseras de colores y un cofre de cartón listos para un reto por equipos](/img/blog/fiesta-de-11-y-12-anos-ideas/escena-1.avif "Sobres con pistas, mapa y pulseras por equipo: el material de un reto de coordenadas")
+![Inflable Barco Pirata instalado en el patio de una escuela para la kermés](/img/inflables/barco-pirata/barco-pirata-kermes-escolar.avif "Barco Pirata en una kermés escolar")
 
 La [búsqueda del tesoro para una fiesta pirata](/blog/fiesta-pirata-infantil-tobogan-cdmx/) desarrolla el cuarto formato con pistas por edad y una secuencia para terminar en el inflable. Para que sea una fiesta mixta y no una historia asignada por adultos, puedes repartir papeles como cartógrafa, capitán, vigía o guardiana del cofre; la guía de [fiesta pirata para niñas y niños](/blog/fiesta-de-sirenas-y-piratas-con-inflable/) da más ideas de roles que no dependen del género.
 
@@ -100,6 +101,7 @@ Funciona cuando el festejado aún disfruta el tema de aventura y el inflable aco
 El modelo mide 6 × 3.5 × 3.80 m, requiere 5.2 m de altura libre y se instala en alrededor de 30 minutos. Va únicamente en exterior. Por eso puede ser buena elección para un jardín despejado con una fiesta de piratas, pero no para una cochera techada ni un patio con ramas, cables o toldos bajos. Los [datos del Barco Pirata para una fiesta al aire libre](/inflables/barco-pirata/) reúnen sus requisitos de espacio, energía y acceso antes de que compres decoración.
 
 ![Inflable Barco Pirata instalado sobre lona en el patio de cemento de una casa](/img/inflables/barco-pirata/barco-pirata-patio-cochera.avif "Barco Pirata en un patio de cemento, sobre lona")
+![Inflable Barco Pirata instalado en el área verde común de una privada](/img/inflables/barco-pirata/barco-pirata-privada-condominio.avif "Barco Pirata en el área común de una privada")
 
 Para mantener el uso ordenado, explica estas reglas antes del primer turno:
 
@@ -126,6 +128,7 @@ El Extremo suele ganar cuando el festejado quiere competencia directa. Tiene obs
 Si el plan se trata de sumar puntos por carrera, empieza por la [guía del circuito Extremo para fiestas infantiles](/inflables/extremo/) y compárala con las medidas de tu jardín. También puedes ver los [inflables grandes para fiestas al aire libre](/inflables/grandes/) antes de descartar una opción por impresión visual.
 
 ![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 ## ¿Cómo acomodas música, comida y el inflable sin estorbar el juego?
 

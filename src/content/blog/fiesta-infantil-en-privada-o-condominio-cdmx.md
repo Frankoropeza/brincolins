@@ -63,6 +63,7 @@ Para el Dragones Rojos los requisitos son concretos, y te conviene llevarlos ano
 Separa las dos conversaciones y te ahorras vueltas. La administración decide si puedes usar el área, en qué horario y con qué condiciones. Nosotros confirmamos al cotizar si el inflable cabe, la capacidad del modelo, el espacio libre exacto y el traslado a tu zona. ¿Llegas con la autorización y fotos del área? La cotización sale en una sola conversación.
 
 ![Resbaladilla verde del inflable de dragones, vista un poco de lado en un espacio cerrado](/img/inflables/dragones-rojos/dragones-frontal-resbaladilla.avif)
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
 
 ## ¿Qué tienes que pedir a la administración antes de dar el anticipo?
 
@@ -119,6 +120,7 @@ Te sirven el jardín con pasto, el pasto sintético y el adoquín o concreto pla
 Si el único espacio disponible es techado, el [Gusanitos, circuito de túneles apto para interiores](/inflables/gusanitos/), recibe niños de 2 a 8 años. Para bebés en un salón pequeño está el [Castillo Baby de 2.5 × 2 m](/inflables/mini-castillo/). Así tienes plan B y no pierdes la fiesta por el clima ni por el reglamento.
 
 ![Inflable Gusanitos instalado en el área verde común de una privada](/img/inflables/gusanitos/gusanitos-privada-condominio.avif "Gusanitos en el área común de una privada")
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 ### Pasto sintético y adoquín, los pisos de las privadas nuevas
 
@@ -155,6 +157,7 @@ Avisa en caseta el día y la hora aproximada de llegada. Si el acceso tiene plum
 Si el área común queda lejos del estacionamiento, con escaleras o pasillos estrechos, compártelo al cotizar con fotos del recorrido. No es un impedimento, pero sí cambia la planeación del equipo. Una vez en el área, la instalación del Dragones Rojos toma 20 minutos.
 
 ![Dragones Rojos inflado junto a paredes blancas sobre piso de madera, con torres naranja, azul y verde](/img/inflables/dragones-rojos/dragones-inflable-corporativo.avif)
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 ## ¿Cómo cuidar el horario y el ruido con tus vecinos?
 
@@ -207,6 +210,7 @@ Pagar el anticipo antes del permiso, reservar sólo la hora de la fiesta y no co
 - **Dejar el inflable sin una persona adulta.** La supervisión desde fuera es obligatoria durante todo el evento.
 
 ![Jardín común de una privada con caseta y calle interior al fondo, preparado para una fiesta infantil](/img/blog/fiesta-infantil-en-privada-o-condominio-cdmx/escena-1.avif "Con el permiso por escrito, la toma ubicada y los vecinos avisados, el área común queda lista para la fiesta.")
+![Inflable Dragones Rojos instalado en el patio de una escuela para la kermés](/img/inflables/dragones-rojos/dragones-rojos-kermes-escolar.avif "Dragones Rojos en una kermés escolar")
 
 Para los días previos y el clima, la [guía paso a paso de la fiesta en jardín](/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/) complementa esta lista. Si el festejado cumple 5, mira también [el plan de juegos y turnos para niños de 5 años](/blog/fiesta-de-5-anos-ideas-juegos-cdmx/). ¿Quieres resolver mesa y actividad con un solo proveedor? Revisa el [paquete fiesta de $2,800 con mesa y pintacaritas](/servicios/paquetes-de-fiesta/).
 

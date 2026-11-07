@@ -97,6 +97,7 @@ Los aspersores emergentes y las tuberías superficiales son el punto más delica
 - **Avísalo al cotizar** si hay tuberías de riego cerca de la superficie, para que el instalador acomode el inflable y las estacas lejos de ellas.
 
 ![Jardín con pasto cortado a altura media, una cubeta volteada marcando un aspersor, rastrillo y una pequeña pila de piedras recogidas a un lado, luz de mañana](/img/blog/cuidar-el-pasto-antes-y-despues-de-un-inflable/escena-1.avif "Pasto cortado, piedras recogidas y aspersores marcados un día antes: así conviene recibir al equipo")
+![Jardín de casa al día siguiente de una fiesta, con una zona rectangular de pasto ligeramente aplastado y más claro, rastrillo de hojas y manguera enrollada a un lado, luz suave de mañana](/img/blog/cuidar-el-pasto-antes-y-despues-de-un-inflable/escena-2.avif "Al día siguiente, el pasto aplastado se levanta con un rastrillo suave y riego temprano")
 
 ### Piedras, raíces y desniveles
 
@@ -152,8 +153,6 @@ La recuperación es sencilla y la mayoría de las veces basta con riego y pacien
 
 Si llovió y quedaron zonas con lodo, no las pises ni las rastrilles mientras estén húmedas. Espera a que el suelo se seque, rompe con cuidado la costra superficial con un rastrillo y riega con normalidad. Si quedó un hundimiento, rellena con un poco de tierra.
 
-![Jardín de casa al día siguiente de una fiesta, con una zona rectangular de pasto ligeramente aplastado y más claro, rastrillo de hojas y manguera enrollada a un lado, luz suave de mañana](/img/blog/cuidar-el-pasto-antes-y-despues-de-un-inflable/escena-2.avif "Al día siguiente, el pasto aplastado se levanta con un rastrillo suave y riego temprano")
-
 ### ¿Influye el tipo de pasto?
 
 Sí. Cada pasto responde distinto al peso y a unas horas sin luz. Sin entrar en tecnicismos, en jardines de la CDMX y el Estado de México se ven sobre todo tres:
@@ -197,6 +196,7 @@ Hay jardines en los que no vale la pena arriesgarse: pasto recién sembrado o en
 Si la fiesta se puede mover bajo techo, el [Gusanitos, el mediano apto para interiores](/inflables/gusanitos/), y el resto de los modelos de la [categoría de inflables para interiores](/inflables/para-interiores/) piden 3.2 m de altura libre. Si el jardín aguanta pero el espacio es justo, un mediano como el [Dragones Rojos, de 5 × 3 m](/inflables/dragones-rojos/), ocupa menos pasto que los modelos grandes.
 
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 
 ### Cómo acomodar la fiesta para cuidar el resto del jardín
 

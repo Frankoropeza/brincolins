@@ -91,6 +91,7 @@ Pide al menos dos cotizaciones de decoración, comida, pastel y recuerditos, y a
 La última columna es la que más mueve el total. Una decoración de globos y mantel cuesta muy distinto a una mesa temática completa. Decide primero el nivel. Luego cotiza. Al revés terminas pagando de más.
 
 ![Castillo de Princesas rosa y turquesa con resbaladilla, partida fija al calcular cuánto cuesta una fiesta de princesas](/img/inflables/castillo-princesas.avif)
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 ## ¿Qué cubren los $1,800 del castillo y qué queda fuera?
 
@@ -142,10 +143,12 @@ Esta tabla compara las combinaciones posibles con precios netos de catálogo. Lo
 ¿Tu festejada no pasa de 3 años y casi todos los invitados son bebés? El [castillo compacto para bebés](/inflables/mini-castillo/) cuesta **$1,400** por separado y se instala en interiores. Los [paquetes armados con inflable y mesa](/servicios/paquetes-de-fiesta/) te muestran qué incluye cada uno.
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 ¿Dudas entre el castillo y el modelo del paquete fiesta? Revisa la [ficha de Dragones Rojos con medidas y edades](/inflables/dragones-rojos/): mide 5 × 3 × 2.80 m, es para niños de 3 a 8 años y cuesta $1,600 por separado. Y para ver los tres castillos con sus precios, la [comparativa de castillos con precios y medidas](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) los pone lado a lado.
 
-![Castillo inflable rosa y turquesa de dos torres, de frente, con rampa de acceso sobre pasto](/img/inflables/castillo-princesas/castillo-princesas-exterior-jardin.avif)
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado en el área verde común de una privada](/img/inflables/castillo-princesas/castillo-princesas-privada-condominio.avif "Castillo de Princesas en el área común de una privada")
 
 ## ¿Dónde recortar sin que la fiesta se note más pobre?
 
@@ -164,6 +167,7 @@ En una fiesta con inflable los niños comen poco. Brincan, toman agua y vuelven 
 El recuerdito más barato es el que hacen los propios niños en la fiesta, como una corona decorada, una varita o unas alas, porque el material cuesta poco y el rato que pasan haciéndolo resuelve parte del entretenimiento. Luego sirve de disfraz y de regalo de salida. Y la invitación digital por WhatsApp cumple la misma función que la impresa, sin imprenta ni entrega.
 
 ![Mesa sencilla de fiesta de princesas en un jardín, con mantel rosa, globos y coronas de papel para decorar](/img/blog/cuanto-cuesta-fiesta-de-princesas-en-casa/escena-1.avif "Globos, mantel y coronas hechas en la fiesta: decoración suficiente sin gastar de más")
+![Inflable Castillo de Princesas instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-princesas/castillo-princesas-jardin-eventos.avif "Castillo de Princesas en un jardín de eventos")
 
 Si quieres la versión completa de ambientación, menú y actividades, tienes la guía de [ambientación y mesa para una fiesta de princesas](/blog/fiesta-princesas-ninas-inflable-cdmx/) con cada parte en detalle.
 

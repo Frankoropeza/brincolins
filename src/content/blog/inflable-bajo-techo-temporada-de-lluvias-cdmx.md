@@ -81,12 +81,14 @@ El [Gusanitos, el circuito que entra bajo techo](/inflables/gusanitos/), mide 5 
 También funciona con grupos de edades mezcladas, que es justo lo que junta una fiesta familiar en casa. Si tu lista va de primos de 2 años a compañeros de 8, organiza turnos por edad antes de armar el programa. También es el inflable que mejor encaja en una [pijamada infantil con inflable bajo techo](/blog/pijamada-infantil-con-inflable-ideas/), siempre usado por la tarde y recogido antes de dormir.
 
 ![Acercamiento a los gusanos amarillos de antenas verdes del Gusanitos, con una torre morada detrás](/img/inflables/gusanitos/gusanitos-inflable-fiesta.avif)
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 ### Castillo Baby: el plan para bebés y espacios chicos
 
 Si la fiesta es de bebés o tu espacio techado es reducido, mira el [Castillo Baby, de 1 a 3 años](/inflables/mini-castillo/). Mide 2.5 × 2 × 2 m, pide los mismos 3.2 m de altura libre, se instala en 15 minutos y cuesta $1,400. Es compacto y está pensado para interiores, terrazas y espacios reducidos.
 
 ![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 Los dos pueden compartir techo. Así cubres de 1 a 8 años y nadie se queda mirando desde la orilla. Tu sobrina de un año también juega.
 
@@ -111,6 +113,7 @@ En una terraza con lámina inclinada o con toldo, la altura cambia de un extremo
 La superficie tiene que ser plana y estar despejada, sin vidrio ni objetos punzantes. Un escalón a media terraza o una jardinera empotrada cambian dónde puede ir el inflable. Si hay desnivel, mándalo en la foto.
 
 ![Persona midiendo con cinta métrica la altura bajo una viga en una cochera techada](/img/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/escena-1.avif "La altura útil se mide en el punto más bajo: debajo de vigas, lámparas y travesaños.")
+![Terraza techada con mesa infantil, sillas y un pasillo libre mientras llueve en el jardín](/img/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/escena-2.avif "Mesa a un costado y pasillo libre: así se reparte una fiesta techada.")
 
 ### Corriente y acceso hasta el área
 
@@ -155,11 +158,10 @@ Piensa en tu cochera con veinte invitados. Si la mesa queda frente a una boca de
 
 ¿Parte de la fiesta será afuera? Adelanta lo del jardín a la primera mitad de la tarde y deja lo techado para después. Cuando llegue el aguacero, tu fiesta ya estará donde tiene que estar, sin carreras.
 
-![Terraza techada con mesa infantil, sillas y un pasillo libre mientras llueve en el jardín](/img/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/escena-2.avif "Mesa a un costado y pasillo libre: así se reparte una fiesta techada.")
-
 ¿Quieres darle temática? El Gusanitos se presta para jardín y bichos: puedes montar [una fiesta de bichitos bajo la terraza](/blog/fiesta-de-bichitos-insectos-con-inflable/) con decoración que no ocupa suelo.
 
 ![Inflable bajo techo de carpa blanca: lateral del Gusanitos con el gusano amarillo al frente](/img/inflables/gusanitos/gusanitos-lateral-cdmx.avif)
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 
 ## ¿Qué haces si llueve con un inflable de exterior instalado?
 

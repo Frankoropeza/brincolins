@@ -76,6 +76,7 @@ Invitar a todo el salón evita niños que se quedan fuera y conversaciones incó
 Cada compañero puede llegar con un hermano menor o mayor. Pregúntalo al confirmar. Cuenta a esos niños aparte, porque sus edades cambian lo que necesitas. Un hermano de 2 años no puede entrar al Jungla, que arranca en 3. Para ese caso existe el [Castillo Baby para niños de 1 a 3 años](/inflables/mini-castillo/), compacto y apto para interiores.
 
 ![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 ### Cómo contar a los invitados reales
 
@@ -98,12 +99,14 @@ Con tres opciones, tu hijo decide rápido. Lo que no conviene es elegir una tem�
 Si escoge dinosaurios, el Jungla ya trae dinosaurios y palmeras, y tienes la ambientación completa en las [ideas de excavación y juegos de paleontólogo](/blog/fiesta-de-dinosaurios-con-inflable-cdmx/). Si escoge princesas, el [Castillo de Princesas rosa y azul turquesa](/inflables/castillo-princesas/) trae torres decorativas, resbaladilla y mallas de seguridad. Si prefiere camiones y cascos, la [fiesta de bomberos con circuito de entrenamiento](/blog/fiesta-de-bomberos-y-oficios-con-inflable/) le da una misión con insignia al final. ¿Sigues con dudas? La guía para [elegir inflable según edad, espacio y temática](/blog/como-elegir-inflable-fiesta-infantil/) ordena los criterios, y la categoría de [brincolines para niños por rango de edad](/inflables/para-ninos/) reúne los modelos.
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 ## ¿Cuánto debe durar una fiesta de 4 años y cómo repartes el tiempo?
 
 Tres horas, tres y media como máximo. Es el tiempo que un grupo de kínder sostiene energía y buen humor; después vienen el cansancio, el llanto y los papás mirando el reloj. La clave es dividir la tarde en bloques cortos y que el inflable nunca sea la única opción disponible.
 
 ![Frente del inflable Jungla con palmeras verdes, columna azul y resbaladilla naranja, y sillas al fondo](/img/inflables/mini-jungla/mini-jungla-frontal-jardin.avif)
+![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
 
 Esta tabla muestra qué pasa en el inflable y qué hacen los demás niños en cada bloque. Si la sigues, nadie hace fila más de unos minutos:
 
@@ -145,6 +148,7 @@ Esconde pelotas o tarjetas de colores por tu área de juego y asigna un color a 
 Carreras de diez metros, con salida y meta marcadas con cinta. Corren por parejas, no todos a la vez. Todos reciben una calcomanía al llegar, porque un premio sólo para el primero acaba en lágrimas.
 
 ![Pasto de un jardín con línea de salida de cinta, conos pequeños, pelotas de colores escondidas y una hoja de calcomanías sobre una silla](/img/blog/fiesta-de-4-anos-ideas-inflable-cdmx/escena-1.avif "Cinta, conos y pelotas de colores: lo necesario para carreras cortas y búsquedas por color")
+![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
 
 ### Rincón tranquilo de cuentos
 
@@ -157,6 +161,7 @@ Una manta en la sombra, cojines y un adulto leyendo en voz alta. Te va a parecer
 Funcionan con grupos fijos desde la llegada, turnos de diez a quince minutos y un adulto en la entrada. Los grupos los decides tú. El Jungla es para niños de 3 a 8 años y se instala en unos 15 minutos, así que un grupo de kínder está justo en su rango y los turnos se simplifican mucho.
 
 ![Inflable Jungla con palmeras y dinosaurios junto a una mesa con sillas, vista completa del modelo](/img/inflables/mini-jungla/mini-jungla-vista-general.avif)
+![Inflable Jungla instalado en el patio de una escuela para la kermés](/img/inflables/mini-jungla/mini-jungla-kermes-escolar.avif "Jungla en una kermés escolar")
 
 Así lo organizas sin pleitos:
 

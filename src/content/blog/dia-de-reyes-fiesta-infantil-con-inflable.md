@@ -103,6 +103,7 @@ La rosca es el momento central de la tarde, y conviene que tenga su propio espac
 Y la tradición manda: a quien le salga el muñeco le toca invitar los tamales el 2 de febrero, Día de la Candelaria. Es una buena excusa para cerrar la fiesta con risas y para que los adultos ya tengan su siguiente reunión.
 
 ![Mesa con rosca de Reyes partida, tazas de chocolate caliente y coronas de papel, colocada lejos de la zona de juego en un patio](/img/blog/dia-de-reyes-fiesta-infantil-con-inflable/escena-1.avif "La rosca tiene su propia mesa, lejos del inflable, durante la pausa del juego")
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
 
 ## ¿Qué actividades de Reyes funcionan junto al inflable?
 
@@ -132,6 +133,7 @@ Depende de quiénes vienen. En una reunión de Reyes suelen mezclarse primos de 
 Para una fiesta de Reyes con tema de corona y castillo, [Dragones Rojos, con dragones de 3 metros y resbaladilla](/inflables/dragones-rojos/) es una opción natural. Si prefieres comparar todos los modelos con forma de castillo, revisa el catálogo de [castillos inflables](/inflables/castillos/).
 
 ![Inflable Dragones Rojos instalado en el patio de una escuela para la kermés](/img/inflables/dragones-rojos/dragones-rojos-kermes-escolar.avif "Dragones Rojos en una kermés escolar")
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 Si el frío te preocupa mucho, recuerda que el Gusanitos y el Castillo Baby son aptos para interiores y piden 3.2 m de altura libre. Un garage techado o una terraza cubierta resuelven la tarde.
 

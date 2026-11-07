@@ -91,7 +91,8 @@ Las medidas de la tabla son las del inflable. El área que tú necesitas alreded
 
 El precio de la tabla es neto, con instalación y recolección incluidas. El traslado se cobra según la zona, y si necesitas factura se agrega 16% de IVA. Para ver dónde entra el castillo en el resto de tus gastos, revisa [cuánto cuesta en total una fiesta de princesas](/blog/cuanto-cuesta-fiesta-de-princesas-en-casa/).
 
-![Uno de los castillos inflables del catálogo, rosa y turquesa, con dos torres y rampa sobre pasto](/img/inflables/castillo-princesas/castillo-princesas-exterior-jardin.avif)
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado en el área verde común de una privada](/img/inflables/castillo-princesas/castillo-princesas-privada-condominio.avif "Castillo de Princesas en el área común de una privada")
 
 ## ¿Qué castillo elegir para cumpleaños, boda, bautizo o primer año?
 
@@ -114,6 +115,7 @@ Si el estilo pide Castillo Blanco y la mayoría de tus invitados tiene 2 años, 
 > **¿Ya sabes cuál te toca?** Dinos el tipo de evento, la fecha y las edades, y te confirmamos el castillo y si cabe en tu espacio. [Pregunta qué castillo conviene para tu evento](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20que%20castillo%20inflable%20conviene%20para%20mi%20evento.%20Es%20un)
 
 ![Jardín de eventos con mesas de mantel blanco al frente y un área de juego infantil despejada a un costado, a la vista de las mesas](/img/blog/castillos-inflables-comparativa-princesas-blanco-baby/escena-1.avif "En eventos formales, el área de juego va a la vista de las mesas y lejos de las bocinas")
+![Inflable Castillo de Princesas instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-princesas/castillo-princesas-jardin-eventos.avif "Castillo de Princesas en un jardín de eventos")
 
 ## ¿En qué fiestas gana el Castillo de Princesas?
 
@@ -129,7 +131,8 @@ El rosa sostiene princesas, unicornios, hadas y mariposas. Te lo explicamos en l
 
 ¿Vas a planear todo el cumpleaños alrededor del castillo? Si tu festejada cumple 7, la guía de [ideas para una fiesta de 7 años con castillo](/blog/fiesta-de-7-anos-nina-ideas-castillo/) cubre espacio, tiempos y actividades. Y si tu duda no es entre castillos sino contra un modelo de $1,600, lee la [comparativa de Dragones Rojos, Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/).
 
-![Entrada rosa y turquesa de castillo inflable con rampa azul, montado en terraza de madera con macetas](/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif)
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
+![Inflable Castillo de Princesas instalado en el área verde de unas oficinas para un día familiar de empresa](/img/inflables/castillo-princesas/castillo-princesas-evento-empresa.avif "Castillo de Princesas en un día familiar de empresa")
 
 ## ¿Para qué eventos está hecho el Castillo Blanco?
 
@@ -140,6 +143,7 @@ Para bodas, bautizos, XV años y eventos formales donde la decoración no admite
 En una boda o unos XV años, los niños necesitan un lugar propio para no aburrirse durante la cena o el baile, y tú necesitas que no anden entre las mesas. El [Castillo Blanco de 5 × 7 m](/inflables/castillo-blanco/) mide **5 × 7 × 4 m** y pide **4.7 m de altura libre**. Va solo en exterior. Lo instalamos en unos 30 minutos y cuesta **$2,600** netos por evento.
 
 ![Inflable Castillo Blanco instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-blanco/castillo-blanco-jardin-eventos.avif "Castillo Blanco en un jardín de eventos")
+![Inflable Castillo Blanco instalado en el jardín de una casa en CDMX](/img/inflables/castillo-blanco/castillo-blanco-jardin-casa.avif "Castillo Blanco en el jardín de una casa")
 
 ¿Dónde ponerlo junto a la pista o las mesas? A la vista de las mesas de los papás, lejos de las bocinas y del paso de meseros, con la toma de corriente cerca y sin cables cruzando por donde caminan los invitados.
 
@@ -160,6 +164,7 @@ Cuando tu fiesta es bajo techo o cuando los niños tienen entre 1 y 3 años. Es 
 Si estás organizando un primer cumpleaños, es tu modelo: **2.5 × 2 × 2 m**, de **1 a 3 años**, en **$1,400** netos por evento. Los detalles de horario e invitados están en la guía de [renta del Castillo Baby para fiestas de bebés](/inflables/mini-castillo/).
 
 ![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 #### Si también necesitas mesa
 

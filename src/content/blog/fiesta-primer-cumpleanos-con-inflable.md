@@ -51,6 +51,7 @@ Para un primer cumpleaños con inflable, elige un tema visual sencillo, dos o tr
 - Los hermanos mayores no comparten el castillo; prepárales otra actividad.
 
 ![Inflable Castillo Baby instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-castillo/mini-castillo-jardin-eventos.avif "Castillo Baby en un jardín de eventos")
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 Los **temas para primer cumpleaños** no necesitan una producción enorme para verse cuidados. En una fiesta de un año, el festejado alterna entre explorar, pedir brazos, comer y descansar, y la decoración debe ayudar a que esos cambios ocurran sin que la casa o el salón se conviertan en una pista de obstáculos. El Castillo Baby aporta un lugar de juego acotado, no una escenografía que deba cubrirse de adornos.
 
@@ -112,6 +113,7 @@ El fondo no tiene que medir lo mismo que el inflable. Una tela lisa, letras de c
 La misma lógica de horario aparece en la guía de [fiesta de princesas con inflable](/blog/fiesta-princesas-ninas-inflable-cdmx/): aunque el modelo y la estética son otros, la idea que puedes trasladar es preparar el momento de la foto antes de que la fiesta esté en su punto más ocupado.
 
 ![Rincón de fotos con tela lisa color crema, nubes de papel y letras de cartón en una sala luminosa](/img/blog/fiesta-primer-cumpleanos-con-inflable/escena-1.avif "Un fondo sencillo en una pared distinta al área de juego basta para las fotos familiares.")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 ## ¿Cómo aprovechas el Castillo Baby sin convertirlo en parte de la decoración?
 

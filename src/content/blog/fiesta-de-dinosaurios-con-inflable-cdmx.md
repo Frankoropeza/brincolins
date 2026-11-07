@@ -98,6 +98,7 @@ Moldea yeso o masa de sal alrededor de un dinosaurio de juguete pequeño y deja 
 Junta los huevos en una caja con paja o papel kraft arrugado frente a la mesa del pastel. Es el fondo de foto más fácil de montar.
 
 ![Dinosaurios verde y morado sobre la resbaladilla naranja del inflable Jungla, con palmeras al fondo](/img/inflables/mini-jungla/mini-jungla-dinosaurios-palmeras.avif)
+![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
 
 Fuera de eso, menos es más. Evita arcos de globos altos o telones detrás del inflable. El Jungla ya ocupa la parte alta del paisaje y cualquier adorno de más de un metro te compite en las fotos. ¿Prefieres animales actuales, con leones, jirafas y binoculares? Esa variante está en la [fiesta safari con inflable de selva](/blog/fiesta-tematica-safari-inflable-cdmx/).
 
@@ -162,6 +163,7 @@ Cuántos niños entran por turno lo confirmamos al cotizar, y esa cifra se respe
 Siempre aparecen. El Jungla arranca en 3 años, así que no los metas «un ratito» aunque lloren en la entrada. Tu hijo va a querer a todos sus primos adentro, pero un turno bien separado por edades te ahorra llantos, golpes y la discusión con la tía que insiste en meter al bebé. Para ellos existe el [Castillo Baby para los hermanitos de la expedición](/inflables/mini-castillo/), de 2.5 × 2 × 2 m, para niños de 1 a 3 años, a $1,400. Si el festejado cumple 4 y sus invitados son de kínder, revisa también [cómo organizar una fiesta de 4 años](/blog/fiesta-de-4-anos-ideas-inflable-cdmx/).
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 ## ¿Qué menú de dinosaurios se resuelve sólo con letreros?
 
@@ -181,6 +183,7 @@ Con niños brincando, la fruta, la verdura y el agua funcionan mejor que el azú
 Se ve como una fiesta de tres horas y media dividida en seis bloques, con el inflable cerrado durante la comida y el pastel. Sin estructura, un grupo de kínder se desarma en la primera hora. Con ella, cada niño sabe qué sigue y tú no improvisas.
 
 ![Vista de frente del inflable Jungla con columna azul y resbaladilla naranja, con sillas al fondo](/img/inflables/mini-jungla/mini-jungla-frontal-jardin.avif)
+![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
 
 Este reparto sostiene el ritmo con un solo inflable:
 
@@ -200,6 +203,7 @@ Si el tema es dinosaurios, el Jungla es la opción directa: trae dinosaurios y p
 Los [Dragones Rojos, con dos dragones de unos 3 m](/inflables/dragones-rojos/), son el modelo más rentado, con resbaladilla integrada y mallas de seguridad laterales. Miden 5 × 3 × 2.80 m y piden 4.5 m de altura libre, contra 4.2 m del Jungla. Si tu espacio tiene la altura justa, esos 30 centímetros deciden.
 
 ![Inflable Dragones Rojos instalado en el área verde común de una privada](/img/inflables/dragones-rojos/dragones-rojos-privada-condominio.avif "Dragones Rojos en el área común de una privada")
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
 
 ¿El festejado mezcla dinosaurios con dragones y castillos? Entonces los Dragones Rojos también funcionan. Para ver todos los diseños con historia propia entra al [catálogo de inflables con temática](/inflables/tematicos/). Y si la fiesta podría terminar bajo techo, compara antes [Jungla o Gusanitos según tu espacio](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/).
 
@@ -219,6 +223,7 @@ La excavación es la actividad que más ensucia, así que su lugar depende del p
 Tres reglas sirven en cualquier espacio. La arena no se acerca al inflable, porque los niños la meten en los zapatos y luego a la lona. Pon una cubeta con agua o un trapo húmedo para sacudir manos antes de entrar al brincolín. Y al final, la arena se cubre: si queda destapada, el lunes es arenero de gatos.
 
 ![Tina con arena sobre una lona en un jardín, con brochas y dinosaurios de plástico a medio enterrar](/img/blog/fiesta-de-dinosaurios-con-inflable-cdmx/escena-1.avif "El arenero va sobre una lona y lejos de la entrada del inflable.")
+![Inflable Jungla instalado en el patio de una escuela para la kermés](/img/inflables/mini-jungla/mini-jungla-kermes-escolar.avif "Jungla en una kermés escolar")
 
 Si no sabes cómo se comporta tu piso con un inflable, la guía de [instalación en pasto, cemento o tierra](/blog/donde-instalar-inflable-pasto-cemento-tierra/) resuelve las dudas típicas.
 

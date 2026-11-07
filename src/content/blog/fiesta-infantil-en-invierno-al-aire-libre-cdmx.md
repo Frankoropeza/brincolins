@@ -106,6 +106,7 @@ Los niños entran al inflable sin zapatos. Eso, en invierno, es lo que más hay 
 - **Una cobija o dos** en la mesa para los que se cansan y se sientan.
 
 ![Zona de zapatos y chamarras infantiles junto a la entrada de un jardín soleado en invierno](/img/blog/fiesta-infantil-en-invierno-al-aire-libre-cdmx/escena-1.avif "Una banca para zapatos y chamarras junto a la entrada evita que los niños se enfríen al salir.")
+![Inflable Jungla instalado en el patio de una escuela para la kermés](/img/inflables/mini-jungla/mini-jungla-kermes-escolar.avif "Jungla en una kermés escolar")
 
 Las reglas generales de uso siguen igual: sin objetos en los bolsillos, por grupos de edad y con un adulto supervisando. Las tienes en la guía de [seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/).
 
@@ -150,6 +151,7 @@ Cualquiera funciona al aire libre con sol. La diferencia está en el plan B: si 
 Si tienes una terraza techada, un garage alto o un salón con al menos 3.2 m libres, elegir un modelo del catálogo de [inflables para interiores](/inflables/para-interiores/) te da la opción de mover la fiesta adentro sin cambiar de inflable. Si vas a estar afuera sí o sí, la [Jungla, para niños de 3 a 8 años](/inflables/mini-jungla/), se instala en 15 minutos y es de las más rápidas de dejar lista.
 
 ![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
+![Inflable Jungla instalado en el área verde común de una privada](/img/inflables/mini-jungla/mini-jungla-privada-condominio.avif "Jungla en el área común de una privada")
 
 ## ¿Qué hacer si el día amanece muy frío o con viento?
 

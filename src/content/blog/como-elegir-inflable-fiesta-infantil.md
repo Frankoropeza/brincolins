@@ -71,6 +71,7 @@ Una regla de oro: necesitas espacio libre alrededor del inflable en todos los co
 > **Tip:** mide largo, ancho y altura del espacio y compáralos con las dimensiones del inflable que te interesa. Deja siempre 1 m extra de cada lado.
 
 ![Jardín de una casa con cinta métrica extendida sobre el pasto y una libreta con medidas sobre una silla plegable](/img/blog/como-elegir-inflable-fiesta-infantil/escena-1.avif "Medir largo, ancho y altura libre es el primer paso antes de elegir modelo")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 ## ¿Qué inflable corresponde a cada edad?
 
@@ -83,6 +84,7 @@ Los inflables no son universales. Cada modelo está diseñado para un rango de e
 - **De 3 a 12 años:** [Castillo Blanco](/inflables/castillo-blanco/), [Barco Pirata](/inflables/barco-pirata/) y [Extremo](/inflables/extremo/).
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado en el área verde común de una privada](/img/inflables/mini-castillo/mini-castillo-privada-condominio.avif "Castillo Baby en el área común de una privada")
 
 Si tu evento mezcla varias edades, considera rentar **dos inflables de diferentes categorías** para que todos jueguen con niños de su tamaño. Más abajo hacemos la cuenta por número de invitados, y en la [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/) explicamos por qué mezclar edades dentro del mismo brincolín es la causa más común de golpes.
 

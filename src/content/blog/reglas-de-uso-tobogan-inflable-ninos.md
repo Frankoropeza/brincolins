@@ -116,6 +116,7 @@ La tabla reúne las ocho reglas. La conclusión práctica para tu equipo: casi t
 | Todos bajan si llueve o el inflable pierde forma | La superficie cambia y el tobogán se vuelve impredecible | Quien organiza |
 
 ![Barco Pirata morado, negro y verde sobre pasto bajo carpa blanca, listo para aplicar reglas de tobogán inflable](/img/inflables/barco-pirata/barco-pirata-renta-cdmx.avif)
+![Inflable Barco Pirata instalado en el jardín de una casa en CDMX](/img/inflables/barco-pirata/barco-pirata-jardin-casa.avif "Barco Pirata en el jardín de una casa")
 
 > **¿Quieres un tobogán para tu fiesta?** Dinos la fecha, la zona y cuántos niños vienen, y te confirmamos disponibilidad y capacidad. [Cotizar un inflable con tobogán](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20un%20inflable%20con%20tobogan%20para%20una%20fiesta%20infantil)
 
@@ -133,6 +134,7 @@ Todo lo que pueda golpear, romperse o atorarse. Si tienes una caja o una manta, 
 Ese último punto pesa en las fiestas temáticas. En una [fiesta de sirenas y piratas con el barco de escenario](/blog/fiesta-de-sirenas-y-piratas-con-inflable/), todos quieren subir con el disfraz completo. La capa y la espada esperan afuera. Si se lo dices desde la invitación, nadie llora.
 
 ![Caja de cartón junto a la entrada de un inflable en un jardín, con zapatos infantiles, lentes y una capa de disfraz dentro](/img/blog/reglas-de-uso-tobogan-inflable-ninos/escena-1.avif "Una caja a la vista del adulto evita que zapatos y accesorios entren al tobogán.")
+![Adulto de espaldas parado a un costado de la salida de un tobogán inflable en un jardín amplio, con el pasto libre frente a la llegada](/img/blog/reglas-de-uso-tobogan-inflable-ninos/escena-2.avif "La llegada del tobogán va hacia el lado más despejado, lejos de mesas y caminos.")
 
 ## ¿Cómo se arman los turnos por edad y tamaño?
 
@@ -147,6 +149,7 @@ Lo práctico es dividir en dos o tres grupos: chicos, medianos y grandes. Los ch
 Si en tu fiesta hay niños de 1 a 3 años, no entran a un modelo grande. Para ellos está el [Castillo Baby en una zona aparte para bebés](/inflables/mini-castillo/), con su propio adulto. Y si tu grupo es de 8 o 9 años, las [actividades por tripulación para una fiesta de 8 años](/blog/fiesta-de-8-anos-ideas-actividades/) mantienen ocupados a los que esperan.
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 ## ¿Dónde se paran los adultos que vigilan el tobogán?
 
@@ -161,6 +164,7 @@ Controla quién sube, revisa que no lleve zapatos ni objetos y cuenta a los niñ
 Cuida que la llegada quede libre. Da la señal. Se para a un costado, nunca enfrente ni dentro del área de llegada. Desde ahí también ve si alguien intenta subir por la rampa.
 
 ![Casco del Barco Pirata con un ancla blanca y mástiles de colores, a un costado de un edificio](/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif)
+![Inflable Barco Pirata instalado sobre lona en el patio de cemento de una casa](/img/inflables/barco-pirata/barco-pirata-patio-cochera.avif "Barco Pirata en un patio de cemento, sobre lona")
 
 Por eso, cuando decidas dónde va tu inflable, piensa también dónde va a estar ese adulto. La salida necesita espacio libre alrededor: sin mesas, sin sillas, sin hieleras y lejos del camino de los platos. El espacio libre exacto de cada modelo lo confirmamos al cotizar.
 
@@ -214,8 +218,6 @@ Según el tipo de espacio:
 
 Revisa también el sol. A mediodía la superficie del tobogán puede calentarse; tócala con la palma antes del primer turno y, si está muy caliente, pausa los turnos hasta que le dé sombra.
 
-![Adulto de espaldas parado a un costado de la salida de un tobogán inflable en un jardín amplio, con el pasto libre frente a la llegada](/img/blog/reglas-de-uso-tobogan-inflable-ninos/escena-2.avif "La llegada del tobogán va hacia el lado más despejado, lejos de mesas y caminos.")
-
 ### El niño que no quiere bajar
 
 En casi todas las fiestas hay uno que sube, ve la altura y se queda congelado arriba. No lo presiones ni dejes que los demás lo empujen. Pausa el turno, pídele que se siente y, si no quiere bajar, que regrese por la subida mientras el adulto de la entrada lo guía desde fuera. Es la única excepción a la regla de la subida, y se hace con el tobogán vacío. Si tu hijo es de los que se asustan, revisa las ideas para [niños tímidos o con miedo al inflable](/blog/inflable-para-ninos-timidos-o-con-miedo/).
@@ -233,6 +235,7 @@ Varios, y las reglas aplican igual en todos. Cambia la altura, el número de car
 El Barco Pirata, con el tobogán detrás del mástil, es el de mayor impacto visual. El [Extremo de doble carril y tobogán doble](/inflables/extremo/) admite un niño por carril, y la regla de llegada libre se cumple en los dos. Los medianos con resbaladilla integrada, como los [Dragones Rojos con mallas laterales](/inflables/dragones-rojos/), siguen las mismas reglas a menor altura.
 
 ![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
 
 Todos están en la [categoría de inflables con tobogán](/inflables/toboganes/). Si dudas entre los dos grandes, la [comparativa por espacio, altura y tipo de fiesta](/blog/barco-pirata-o-extremo-inflables-grandes/) te ayuda. Y si tu fiesta será fuera de casa, revisa cómo [preparar una quinta o un jardín de eventos para el inflable](/blog/fiesta-en-quinta-o-jardin-de-eventos-edomex/), porque ahí la llegada suele quedar cerca de mesas y caminos.
 

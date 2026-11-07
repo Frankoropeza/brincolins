@@ -94,6 +94,7 @@ No necesitas una cancha de verdad. Con cinta, conos y dos porterías pequeñas t
 En el extremo opuesto o en un área distinta, nunca detrás de una portería. Un balón fuerte que golpee a un niño mientras brinca es un riesgo evitable. Si el espacio es limitado, prioriza el inflable y reduce la cancha. Para revisar qué piso necesita cada zona, la guía de [cómo instalar un inflable en explanada, cancha o estacionamiento](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/) explica anclaje, superficie y conexión.
 
 ![Patio amplio de una casa en el Estado de México con líneas de cinta blanca en el piso, dos porterías plegables pequeñas, conos naranjas y balones, sin personas, luz de mañana](/img/blog/fiesta-de-futbol-infantil-con-inflable/escena-1.avif "Cinta, conos y dos porterías plegables bastan para una mini cancha en patio o jardín")
+![Mesa en un jardín con medallas de listón tricolor, una copa de cartón dorado, pañoletas de colores dobladas y una cartulina con tabla de resultados, sin personas, luz de atardecer](/img/blog/fiesta-de-futbol-infantil-con-inflable/escena-2.avif "Medallas para todos y una tabla de resultados visible mantienen el torneo emocionante hasta el final")
 
 ## ¿Qué papel tiene el inflable en una fiesta de futbol?
 
@@ -110,6 +111,7 @@ El inflable resuelve el problema de los medios tiempos. Mientras dos equipos jue
 Para niños de 6 a 12 años, el [circuito de obstáculos Extremo](/inflables/extremo/) se vuelve una prueba más del torneo: dos jugadores de equipos rivales salen al mismo tiempo, cruzan los obstáculos y bajan por el tobogán doble. El ganador suma un punto extra a su equipo. Mide 8 × 4.5 × 3.50 m y pide 4.5 m de altura libre. Además, es uno de los modelos que admite adultos, así que en una fiesta de papás futboleros también puede haber relevo de grandes en su propio turno.
 
 ![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 ### ¿Qué modelo elegir?
 
@@ -122,6 +124,7 @@ Para niños de 6 a 12 años, el [circuito de obstáculos Extremo](/inflables/ext
 Si tu grupo es grande o mixto, revisa la categoría de [inflables grandes](/inflables/grandes/). Para los más pequeños, el [inflable Dragones Rojos](/inflables/dragones-rojos/) cabe en patios medianos y tiene resbaladilla integrada. Todos los precios son netos por evento de 4 a 6 horas, con entrega, instalación, motor, sanitización y recolección. Con factura se agrega 16% de IVA.
 
 ![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
+![Inflable Dragones Rojos instalado en el patio de una escuela para la kermés](/img/inflables/dragones-rojos/dragones-rojos-kermes-escolar.avif "Dragones Rojos en una kermés escolar")
 
 ## ¿Qué juegos de puntería acompañan al torneo?
 
@@ -183,8 +186,6 @@ Este cronograma está pensado para cuatro horas y un grupo de 16 a 24 niños de 
 7. **3:50 a 4:00, despedida.** Entrega de recuerdos.
 
 Si tu horario es más corto, la guía sobre [cuántas horas dura una fiesta infantil con inflable](/blog/horario-fiesta-infantil-cuantas-horas-inflable/) explica cómo recortar bloques.
-
-![Mesa en un jardín con medallas de listón tricolor, una copa de cartón dorado, pañoletas de colores dobladas y una cartulina con tabla de resultados, sin personas, luz de atardecer](/img/blog/fiesta-de-futbol-infantil-con-inflable/escena-2.avif "Medallas para todos y una tabla de resultados visible mantienen el torneo emocionante hasta el final")
 
 ## ¿Qué premios y recuerdos dar?
 

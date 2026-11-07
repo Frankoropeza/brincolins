@@ -125,6 +125,7 @@ Doña Blanca, La víbora de la mar y A la rueda de San Miguel funcionan muy bien
 Si quieres más opciones por edad, la guía de [juegos para fiesta infantil por edad](/blog/juegos-para-fiesta-infantil-ideas-por-edad/) complementa estas ideas.
 
 ![Patio de cemento con un avión dibujado en gis de colores, costales de yute doblados y una tabla de lotería sobre una mesa con sarape](/img/blog/fiesta-mexicana-infantil-con-inflable/escena-1.avif "Los juegos tradicionales necesitan poco material: gis, costales, lotería y un patio despejado")
+![Área común de un condominio con mesas largas cubiertas con manteles de rayas, papel picado verde blanco y rojo colgado y sillas plegables, luz de mediodía](/img/blog/fiesta-mexicana-infantil-con-inflable/escena-2.avif "En áreas comunes, el papel picado va sobre las mesas y el área del inflable queda despejada")
 
 ## ¿Cómo decorar una fiesta mexicana infantil con papel picado tricolor?
 
@@ -164,6 +165,7 @@ La temática la dan el papel picado, los juegos y la comida. El inflable se elig
 El [inflable Dragones Rojos](/inflables/dragones-rojos/) es el más rentado del catálogo y su rojo se integra sin esfuerzo con la decoración tricolor. Si la fiesta junta a muchos primos de primaria, el [circuito inflable Extremo](/inflables/extremo/) permite carreras en doble carril, que funcionan como continuación natural de la carrera de costales; además es uno de los modelos donde también pueden entrar adultos. Para ver todos los modelos clásicos, revisa la [categoría de brincolines](/inflables/brincolines/).
 
 ![Inflable Dragones Rojos instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/dragones-rojos/dragones-rojos-jardin-eventos.avif "Dragones Rojos en un jardín de eventos")
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 Todos los precios son por evento de 4 a 6 horas e incluyen entrega, instalación, motor, sanitización y recolección. Son precios netos; con factura se agrega el 16% de IVA.
 
@@ -194,8 +196,6 @@ Muchas noches mexicanas se hacen en áreas comunes, a veces entre varias familia
 5. Nombra un adulto responsable del inflable por cada hora de fiesta.
 
 La guía de [fiesta infantil en privada o condominio](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/) detalla qué preguntar a la administración.
-
-![Área común de un condominio con mesas largas cubiertas con manteles de rayas, papel picado verde blanco y rojo colgado y sillas plegables, luz de mediodía](/img/blog/fiesta-mexicana-infantil-con-inflable/escena-2.avif "En áreas comunes, el papel picado va sobre las mesas y el área del inflable queda despejada")
 
 ## ¿Cuándo apartar el inflable para fiestas patrias?
 

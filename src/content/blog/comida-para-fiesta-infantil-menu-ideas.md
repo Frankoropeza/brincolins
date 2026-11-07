@@ -202,6 +202,7 @@ Lo que se deja listo antes es lo que te permite estar en la fiesta y no en la co
 - Rellenar agua y retirar platos sucios.
 
 ![Cocina de una casa en la Ciudad de México con ollas tapadas de guisados, recipientes con salsas, una charola de flautas enrolladas cubierta con plástico y un vitrolero de agua de jamaica sobre la barra, sin personas, luz de mañana entrando por la ventana](/img/blog/comida-para-fiesta-infantil-menu-ideas/escena-1.avif "Guisados, salsas, flautas enrolladas y aguas frescas pueden quedar listos desde un día antes")
+![Mesa larga con mantel en un patio de casa en el Estado de México, platos de cartón con tacos de guisado, vasos con nombre, servilletas y un vitrolero de horchata, a varios metros de un inflable de colores que se ve al fondo y fuera de foco, luz de tarde](/img/blog/comida-para-fiesta-infantil-menu-ideas/escena-2.avif "La mesa de comida va a varios metros del inflable, con vasos marcados y la entrada cerrada durante la pausa")
 
 ## ¿Cómo servir la comida sin batidero cerca del inflable?
 
@@ -247,13 +248,12 @@ El plato fuerte es el centro, pero la fiesta también necesita qué picar al lle
 5. **Mesa de comida junto al inflable.** Tarde o temprano alguien entra con comida en la mano.
 6. **Olvidar preguntar por alergias.** Es un mensaje que evita un mal rato.
 
-![Mesa larga con mantel en un patio de casa en el Estado de México, platos de cartón con tacos de guisado, vasos con nombre, servilletas y un vitrolero de horchata, a varios metros de un inflable de colores que se ve al fondo y fuera de foco, luz de tarde](/img/blog/comida-para-fiesta-infantil-menu-ideas/escena-2.avif "La mesa de comida va a varios metros del inflable, con vasos marcados y la entrada cerrada durante la pausa")
-
 ## ¿Qué inflable encaja con una fiesta de comida familiar?
 
 Si la fiesta tiene muchos niños de 3 a 8 años, el [inflable Dragones Rojos](/inflables/dragones-rojos/) ocupa una base de 5 × 3 m y deja espacio en un jardín mediano para la mesa de comida aparte. Si hay muchos bebés y niños de 1 a 3 años, el Castillo Baby es el modelo para esa edad. Revisa todas las opciones en los [inflables para niños](/inflables/para-ninos/). Los precios van de $1,400 a $2,600 netos por evento de 4 a 6 horas, con entrega, instalación, motor, sanitización y recolección incluidas; con factura se agrega 16% de IVA.
 
 ![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 ## ¿Cambia el menú según la zona donde festejas?
 

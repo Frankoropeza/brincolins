@@ -66,6 +66,7 @@ Este es el catálogo con sus precios netos por evento:
 - **[Extremo](/inflables/extremo/)**: 8 × 4.5 × 3.50 m, circuito de obstáculos para niños de 3 a 12 años. **$2,500 MXN**.
 
 ![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 Son precios netos con instalación y recolección incluidas; se agrega 16% de IVA solo si necesitas factura, y el traslado se cobra según la zona. Revisa el [catálogo completo de inflables](/inflables/) o la [página de precios](/precios/) para ver medidas y disponibilidad.
 
@@ -116,6 +117,7 @@ El error más común es poner la mesa de dulces justo enfrente de la salida del 
 Si además vas a rentar mesas y sillas para los invitados, el acomodo completo está en la sección de [mobiliario para fiestas](/servicios/mobiliario-para-fiestas/).
 
 ![Mesa de dulces a la sombra en un patio, separada por un pasillo libre de la zona de juego infantil al fondo](/img/blog/mesa-dulces-inflable-cumpleanos-cdmx/escena-1.avif "La mesa a la sombra y lejos de la salida del juego: así no se cruzan los dos flujos.")
+![Inflable Castillo Baby instalado en el área verde común de una privada](/img/inflables/mini-castillo/mini-castillo-privada-condominio.avif "Castillo Baby en el área común de una privada")
 
 ### ¿Cuándo abrir la mesa de dulces?
 

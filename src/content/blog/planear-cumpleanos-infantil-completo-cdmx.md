@@ -95,6 +95,7 @@ Manda un mensaje corto a cada proveedor: "Confirmamos el sábado [fecha] a las [
 Para decidir cuánto tiempo tener el inflable, revisa [cuántas horas dura la renta de un inflable](/blog/horario-fiesta-infantil-cuantas-horas-inflable/); el precio cubre un evento de 4 a 6 horas.
 
 ![Mesa de jardín con una libreta de pendientes, invitaciones impresas, cinta métrica y un teléfono, en una casa de la Ciudad de México semanas antes de un cumpleaños infantil](/img/blog/planear-cumpleanos-infantil-completo-cdmx/escena-1.avif "La planeación se gana semanas antes: lista, medidas y proveedores confirmados.")
+![Mesa de dulces armada contra una pared en el patio de una casa mexicana, con frascos de dulces, pastel y globos, y un área de pasto libre al fondo](/img/blog/planear-cumpleanos-infantil-completo-cdmx/escena-2.avif "Mesa de dulces con fondo propio y el área de juego separada, sin que se estorben.")
 
 ## ¿Cuánto cuesta un cumpleaños infantil?
 
@@ -136,12 +137,14 @@ Elegir mal el inflable para la edad es uno de los errores más comunes: uno pens
 El [Castillo Baby](/inflables/mini-castillo/) es el modelo del catálogo para este rango: mide 2.5×2×2 m y su escala compacta no intimida a niños que apenas aprenden a brincar. A esta edad no necesitan obstáculos, sino espacio para saltar a su ritmo con un adulto siempre al lado. Compara opciones en [inflable para niños de 1 a 3 años](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) y arma la fiesta con las guías del [primer cumpleaños con inflable](/blog/fiesta-primer-cumpleanos-con-inflable/), la [fiesta de 2 años](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) y la [fiesta de 3 años](/blog/fiesta-de-3-anos-ideas-inflable-cdmx/).
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 ### 4 a 6 años: la mejor edad para el brincolín
 
 Es la edad en que los inflables causan más impacto. El [Castillo de Princesas](/inflables/castillo-princesas/) ($1,800) es el más pedido para fiestas de princesas; los [Dragones Rojos](/inflables/dragones-rojos/), el modelo más rentado, son la opción de aventura; la [Jungla](/inflables/mini-jungla/) funciona en grupos mixtos, y el [Gusanitos](/inflables/gusanitos/), con su circuito de túneles, cubre de 2 a 8 años. Los tres de $1,600 están comparados en [Dragones Rojos, Jungla o Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/). Para el plan del día: [fiesta de 4 años](/blog/fiesta-de-4-anos-ideas-inflable-cdmx/), [fiesta de 5 años](/blog/fiesta-de-5-anos-ideas-juegos-cdmx/) y [fiesta de 6 años](/blog/fiesta-de-6-anos-ideas-inflable/).
 
 ![Inflable Castillo de Princesas instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-princesas/castillo-princesas-jardin-eventos.avif "Castillo de Princesas en un jardín de eventos")
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
 
 ### 7 a 9 años: buscan más emoción
 
@@ -205,8 +208,6 @@ La mesa de dulces es uno de los elementos de mayor impacto visual: es lo primero
 3. **Aparta con al menos 3 semanas** y pide que lleguen 90 a 120 minutos antes del inicio.
 
 La combinación completa está en [mesa de dulces e inflable para cumpleaños](/blog/mesa-dulces-inflable-cumpleanos-cdmx/). Si quieres sumar snacks, revisa cómo coordinar [palomitas e inflable](/blog/palomita-inflable-fiesta-infantil-cdmx/), y si dudas entre entretenimientos, compara [brincolín, payaso, show o salón](/blog/brincolin-vs-otras-alternativas-fiesta-infantil/). Si prefieres resolver varias piezas con un solo proveedor, mira los [paquetes de fiesta](/servicios/paquetes-de-fiesta/).
-
-![Mesa de dulces armada contra una pared en el patio de una casa mexicana, con frascos de dulces, pastel y globos, y un área de pasto libre al fondo](/img/blog/planear-cumpleanos-infantil-completo-cdmx/escena-2.avif "Mesa de dulces con fondo propio y el área de juego separada, sin que se estorben.")
 
 ## ¿Cómo mantener segura la fiesta?
 

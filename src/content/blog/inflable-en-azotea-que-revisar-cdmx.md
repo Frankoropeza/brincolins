@@ -79,6 +79,7 @@ Una regla práctica: las entradas y salidas del inflable miran hacia el centro d
 Si después de medir resulta que no puedes separarte de los bordes, es mejor mover la fiesta. Un patio, un salón o un jardín de un familiar resuelven el problema sin riesgo. Si estás en ese punto, revisa la comparación de [salón de fiestas o fiesta en casa](/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/).
 
 ![Azotea plana de una casa con pretil, tinaco al fondo y una cinta métrica extendida sobre el impermeabilizante](/img/blog/inflable-en-azotea-que-revisar-cdmx/escena-1.avif "Antes de apartar: mide de obstáculo a obstáculo y ubica las orillas.")
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 
 ## ¿Sobre qué piso se puede apoyar el inflable?
 
@@ -125,6 +126,7 @@ Los modelos grandes (Barco Pirata de 6 × 3.5 m, Extremo de 8 × 4.5 m y Castill
 Para azoteas de casa, el [Gusanitos, alargado y de poca altura](/inflables/gusanitos/) suele ser el que mejor se acomoda: 5 × 3 m, para niños de 2 a 8 años, con varias entradas y salidas. Si tu espacio es todavía más chico, revisa el catálogo de [inflables chicos para espacios reducidos](/inflables/chicos/).
 
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
+![Inflable Gusanitos instalado en el área verde común de una privada](/img/inflables/gusanitos/gusanitos-privada-condominio.avif "Gusanitos en el área común de una privada")
 
 El espacio libre alrededor de cada modelo se confirma al cotizar con tus medidas.
 

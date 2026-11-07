@@ -67,6 +67,7 @@ Antes de coordinar proveedores hay que elegir bien el inflable: el modelo equivo
 | Evento formal, comunión o fiesta en blanco | [Castillo Blanco](/inflables/castillo-blanco/) | 3 a 12 años | 5×7×4 m | $2,600 |
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 Los precios son netos por evento y están publicados en la [página de precios](/precios/); si necesitas factura se agrega 16% de IVA, y el envío depende de tu zona. La capacidad y el espacio exacto se confirman al cotizar.
 
@@ -106,6 +107,7 @@ Es el detalle que más se descuida. Palomitas e inflable deben estar cerca para 
 - **Mesa firme y lejos de donde corren.** Una máquina caliente y un niño corriendo no deben cruzarse. Si las palomitas forman parte de una estación más grande, la guía de [mesa de snacks para fiesta infantil](/blog/mesa-de-snacks-y-postres-fiesta-infantil/) explica qué otras botanas sumar y cómo acomodarla.
 
 ![Mesa con una máquina de palomitas, vasos de papel y servilletas en el jardín de una casa mexicana, a varios pasos de un área de juego al fondo](/img/blog/palomita-inflable-fiesta-infantil-cdmx/escena-1.avif "Cerca pero no pegados: la máquina en mesa firme y un paso libre hacia el área de juego.")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 ## ¿Cómo repartir la corriente entre los dos equipos?
 

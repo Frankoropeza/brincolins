@@ -43,6 +43,7 @@ faqs:
 Para una fiesta de 7 años de niña funciona una agenda de unas tres horas con retos cooperativos, una pausa completa para comer y bloques de 10 a 15 minutos en el inflable. El [Castillo de Princesas](/inflables/castillo-princesas/) recibe de 2 a 10 años, mide 5 × 3.30 × 3 m, pide 4.2 m de altura libre y se instala en exterior.
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado en el patio de una escuela para la kermés](/img/inflables/castillo-princesas/castillo-princesas-kermes-escolar.avif "Castillo de Princesas en una kermés escolar")
 
 **Puntos clave**
 
@@ -124,6 +125,7 @@ Una distribución práctica es poner el fondo de fotos cerca de la mesa de paste
 | Alimentos y bebidas | Lejos de la lona y del motor | Programa una pausa completa antes de servir |
 
 ![Mesa de pastel con fondo de fotos en tonos rosa y turquesa en un jardín, separada de la zona de juego](/img/blog/fiesta-de-7-anos-nina-ideas-castillo/escena-1.avif "Fondo de fotos y mesa de pastel en un extremo del jardín, lejos de la entrada del inflable.")
+![Inflable Castillo de Princesas instalado en el área verde común de una privada](/img/inflables/castillo-princesas/castillo-princesas-privada-condominio.avif "Castillo de Princesas en el área común de una privada")
 
 Si aún eliges colores y texturas, revisa cómo [combinar globos y decoración alrededor del inflable](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/).
 

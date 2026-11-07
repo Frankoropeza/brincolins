@@ -95,6 +95,7 @@ Pregunta dónde se estaciona el proveedor y cuál es el camino hasta el jardín.
 No es un impedimento, pero sí cambia los tiempos. Avísanos cuántos son y si hay rampa. Si tienes la opción de entrar por un acceso de servicio, pregúntalo: suele ser más corto.
 
 ![Barco Pirata inflable junto a un edificio, con ancla blanca en el casco y mástiles de colores](/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif)
+![Inflable Barco Pirata instalado sobre lona en el patio de cemento de una casa](/img/inflables/barco-pirata/barco-pirata-patio-cochera.avif "Barco Pirata en un patio de cemento, sobre lona")
 
 > **¿Ya visitaste la quinta?** Mándanos la dirección, las fotos del camino y las medidas del área, y te decimos si el barco entra sin problema. [Enviar datos de la quinta por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20el%20Barco%20Pirata%20para%20una%20fiesta%20en%20quinta%20y%20les%20mando%20fotos)
 
@@ -138,12 +139,14 @@ Revisa si hay cables cruzando el jardín, guirnaldas colgadas entre árboles o l
 Lleva una cinta métrica o un medidor láser. Mide desde el pasto hasta la rama, el cable o el toldo más bajo sobre el área donde iría el barco. ¿Te da menos de 5.2 m? Ese punto no sirve. Para comparar con otros modelos, la [tabla de medidas de inflables para fiestas](/blog/medidas-de-inflables-para-fiestas-tabla/) reúne huella y altura libre de cada uno.
 
 ![Persona de espaldas midiendo con cinta métrica la altura de una rama sobre el pasto de un jardín de eventos con carpa al fondo](/img/blog/fiesta-en-quinta-o-jardin-de-eventos-edomex/escena-1.avif "En la visita, mide desde el pasto hasta la rama, el cable o el toldo más bajo.")
+![Inflable Barco Pirata instalado en el patio de una escuela para la kermés](/img/inflables/barco-pirata/barco-pirata-kermes-escolar.avif "Barco Pirata en una kermés escolar")
 
 ### Carpas y toldos
 
 Muchas quintas montan carpas para las mesas. El inflable casi nunca va debajo, porque pocas carpas dejan 5.2 m libres. Lo práctico es dejarlo a cielo abierto y a un lado, con la salida del tobogán hacia una zona sin mesas.
 
 ![Barco Pirata armado en un patio con sol, compartiendo espacio con un castillo inflable de colores](/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif)
+![Inflable Barco Pirata instalado en el área verde común de una privada](/img/inflables/barco-pirata/barco-pirata-privada-condominio.avif "Barco Pirata en el área común de una privada")
 
 ## ¿A qué hora se monta y se retira el inflable en una quinta?
 
@@ -204,6 +207,7 @@ Esta tabla compara los modelos grandes que suelen ir a quintas. La conclusión p
 Para una boda o un bautizo, el [Castillo Blanco que combina con eventos formales](/inflables/castillo-blanco/) es la opción natural. Para un cumpleaños con temática, el barco llena el jardín; las [ideas de decoración para sirenas y piratas](/blog/fiesta-de-sirenas-y-piratas-con-inflable/) te muestran cómo ambientar alrededor. Todos los modelos de este tamaño están en la [categoría de inflables de gran formato](/inflables/grandes/).
 
 ![Inflable Castillo Blanco instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-blanco/castillo-blanco-jardin-eventos.avif "Castillo Blanco en un jardín de eventos")
+![Inflable Castillo Blanco instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-blanco/castillo-blanco-patio-cochera.avif "Castillo Blanco en un patio de cemento, sobre lona")
 
 ## ¿Qué checklist llevas a la visita de la quinta?
 

@@ -147,6 +147,7 @@ Lleva esta lista en el celular cuando visites o llames. Sirve para salón, quint
 Para salones, la guía de [qué preguntarle al salón de fiestas antes de llevar un inflable](/blog/inflable-en-salon-de-fiestas-que-preguntar/) profundiza en altura, horario y tablero eléctrico.
 
 ![Área común de una privada en el Estado de México con pasto recortado, bancas de concreto, un salón de usos múltiples con puertas abiertas al fondo y un contacto eléctrico en la pared exterior, sin personas, luz de media tarde](/img/blog/donde-festejar-cumpleanos-de-ninos-cdmx/escena-1.avif "Un área común con pasto plano, contacto cercano y salón techado resuelve espacio y plan de lluvia")
+![Jardín de eventos en las afueras de la Ciudad de México con pasto amplio, árboles grandes, un toldo blanco con mesas y un inflable grande de colores a un costado, cerros al fondo, luz de mediodía, sin personas](/img/blog/donde-festejar-cumpleanos-de-ninos-cdmx/escena-2.avif "En una quinta o jardín de eventos cabe un inflable grande, pero conviene tener toldo como plan de lluvia")
 
 ## ¿Qué permisos se necesitan según el lugar?
 
@@ -179,6 +180,7 @@ Y una cuarta: **supervisión adulta todo el evento.** Asigna a una persona que s
 Si el lugar es techado, el [inflable Gusanitos para interiores](/inflables/gusanitos/) es el modelo mediano que entra con 3.2 m de altura libre. La categoría de [inflables para interiores](/inflables/para-interiores/) muestra las dos opciones aptas bajo techo. El espacio libre alrededor de cada modelo y la capacidad se confirman al cotizar con tus medidas.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 ## ¿Cómo comparar costos entre lugares sin trampas?
 
@@ -205,8 +207,6 @@ El tipo de vivienda de cada zona empuja hacia ciertos lugares:
 - **Zonas de departamentos**, como gran parte de la [renta de inflables en Miguel Hidalgo](/cobertura/miguel-hidalgo/), empujan hacia el salón de usos múltiples, la azotea, la casa de un familiar o un salón de fiestas.
 
 El traslado del inflable se calcula según la alcaldía o el municipio; en municipios distantes del Estado de México hay un cargo de envío que te decimos al cotizar.
-
-![Jardín de eventos en las afueras de la Ciudad de México con pasto amplio, árboles grandes, un toldo blanco con mesas y un inflable grande de colores a un costado, cerros al fondo, luz de mediodía, sin personas](/img/blog/donde-festejar-cumpleanos-de-ninos-cdmx/escena-2.avif "En una quinta o jardín de eventos cabe un inflable grande, pero conviene tener toldo como plan de lluvia")
 
 ## ¿Qué errores se repiten al elegir dónde festejar cumpleaños de niños?
 

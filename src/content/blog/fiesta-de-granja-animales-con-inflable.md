@@ -72,12 +72,14 @@ La temática de granja no necesita un inflable con vacas pintadas: la decoració
 El [Castillo Baby para bebés](/inflables/mini-castillo/) es el modelo pensado para esta edad. Es compacto, cabe en terrazas y salones, y deja que los bebés gateen y brinquen bajito sin que los niños grandes los arrollen. Si la mayoría de los invitados tiene menos de 3 años, es la opción. La guía sobre el [mejor inflable para niños menores de 3 años](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) compara opciones y reglas de uso para esa edad.
 
 ![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 ### Para preescolar de 3 a 5 años
 
 Aquí hay dos caminos. El [inflable Gusanitos](/inflables/gusanitos/) es un circuito de túneles de colores con varias entradas y salidas: a los niños de kínder les encanta entrar por un lado y salir por otro, y como es apto para interiores sirve si la fiesta es techada. El Jungla, con palmeras y dinosaurios, va al aire libre y le da un toque de animales que combina bien con la granja si tu jardín tiene espacio.
 
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 
 ### Si hay bebés y niños de kínder juntos
 
@@ -115,6 +117,7 @@ Nada se amarra al inflable. Coloca una cerca de cartón blanca o de madera liger
 Para niños más grandes que ya piden algo más tropical que el corral, la [fiesta hawaiana con inflable como isla](/blog/fiesta-hawaiana-infantil-con-inflable/) mantiene la decoración de flores y fruta con juegos de limbo y hula hula.
 
 ![Mesa de cumpleaños de granja en un jardín con mantel de cuadros rojos, huacales de madera, animalitos de peluche y globos blancos con manchas negras](/img/blog/fiesta-de-granja-animales-con-inflable/escena-1.avif "Tela de cuadros, madera y animalitos de peluche bastan para que la temática de granja se note")
+![Niños pequeños de espaldas buscando huevos de plástico de colores en el pasto de un jardín, con una canasta de mimbre y un inflable fuera de foco al fondo](/img/blog/fiesta-de-granja-animales-con-inflable/escena-2.avif "La búsqueda de huevos se adapta a cada edad: a la vista para los de 2 años, escondidos para los de 5")
 
 ## ¿Qué juegos de granja funcionan con niños de 1 a 5 años?
 
@@ -179,8 +182,6 @@ Es una pregunta frecuente y la respuesta corta es: **no lo recomendamos** cuando
 - **Espacio.** Un corral ocupa área que el inflable y los juegos necesitan.
 
 Si aun así decides contratar una granja didáctica por tu cuenta, que tenga su propio espacio lejos del inflable, un cuidador responsable, lavado de manos a la salida y horario separado de los brincos. BRINCOLINS no ofrece animales vivos ni granjas didácticas. Si lo que te gusta es la idea de animales salvajes, la guía de [fiesta temática safari con inflable](/blog/fiesta-tematica-safari-inflable-cdmx/) es una alternativa que se resuelve solo con decoración.
-
-![Niños pequeños de espaldas buscando huevos de plástico de colores en el pasto de un jardín, con una canasta de mimbre y un inflable fuera de foco al fondo](/img/blog/fiesta-de-granja-animales-con-inflable/escena-2.avif "La búsqueda de huevos se adapta a cada edad: a la vista para los de 2 años, escondidos para los de 5")
 
 ## ¿Cómo se ve el horario de una fiesta de granja de 3 horas?
 

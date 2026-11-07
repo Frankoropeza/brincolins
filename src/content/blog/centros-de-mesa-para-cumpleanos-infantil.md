@@ -85,6 +85,7 @@ Las temáticas más pedidas para niñas suelen ir hacia princesas, unicornios, h
 Para una fiesta de princesas con inflable, el [Castillo de Princesas para niñas y niños de 2 a 10 años](/inflables/castillo-princesas/) marca la paleta: puedes tomar sus colores para los centros de mesa y que todo se vea parte de la misma idea.
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 ## ¿Hechos en casa o comprados? Comparativa por presupuesto
 
@@ -150,6 +151,7 @@ Otras ideas útiles:
 Si el centro de mesa ya es el recuerdo, ajusta las bolsitas. La guía de [bolsitas y recuerdos para fiesta infantil](/blog/bolsitas-y-recuerdos-fiesta-infantil-ideas/) explica cómo no duplicar gasto.
 
 ![Mesa infantil baja en el patio de una casa de Coyoacán con vasos forrados de papel kraft llenos de crayones gruesos, hojas para colorear con dibujos de animales y macetas pequeñas con suculentas, sillitas de colores alrededor, sin personas, luz de mañana](/img/blog/centros-de-mesa-para-cumpleanos-infantil/escena-1.avif "Crayones, hojas para colorear y una maceta pequeña: un centro de mesa que entretiene y luego se va a casa")
+![Mesa redonda de adultos en un jardín del Estado de México con un frasco bajo de plástico lleno de dulces de colores, base con arena y listón, mantel sujeto con pinzas y un inflable de colores fuera de foco al fondo, luz de tarde](/img/blog/centros-de-mesa-para-cumpleanos-infantil/escena-2.avif "Centro bajo, con peso y mantel sujeto: así aguanta el viento de la tarde en jardín")
 
 ## ¿A qué altura deben ir los centros de mesa?
 
@@ -227,8 +229,6 @@ La edad cambia lo que el centro de mesa puede ofrecer:
 El inflable suele ser lo más grande y colorido de la fiesta, así que conviene que los centros de mesa repitan su paleta en lugar de competir con ella. Si rentas un modelo temático, toma de él dos o tres colores y úsalos en listones, forros y papel picado. En la categoría de [inflables temáticos](/inflables/tematicos/) puedes ver los colores de cada modelo antes de comprar material.
 
 También piensa en la distribución: las mesas de los niños van cerca del inflable para que los papás vean ambos espacios, pero no tan cerca como para que el motor sople sobre los centros ni que los niños pasen corriendo junto a las mesas con vasos. El inflable se instala antes que la decoración de mesas.
-
-![Mesa redonda de adultos en un jardín del Estado de México con un frasco bajo de plástico lleno de dulces de colores, base con arena y listón, mantel sujeto con pinzas y un inflable de colores fuera de foco al fondo, luz de tarde](/img/blog/centros-de-mesa-para-cumpleanos-infantil/escena-2.avif "Centro bajo, con peso y mantel sujeto: así aguanta el viento de la tarde en jardín")
 
 ## ¿Qué errores se repiten con los centros de mesa?
 

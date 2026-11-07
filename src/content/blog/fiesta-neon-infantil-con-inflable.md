@@ -84,6 +84,7 @@ Depende de las edades y del espacio. Todos los modelos de esta tabla son de exte
 Para un grupo de 8 a 12 años, el [circuito Extremo para carreras por parejas](/inflables/extremo/) da competencia, que es lo que más buscan a esa edad. El [Castillo Blanco con lona blanca](/inflables/castillo-blanco/) tiene un detalle práctico: su color neutro hace que la decoración neón alrededor resalte en las fotos.
 
 ![Inflable Extremo instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/extremo/extremo-jardin-eventos.avif "Extremo en un jardín de eventos")
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
 
 Los precios son netos por evento de 4 a 6 horas, con entrega, instalación, motor, sanitización y recolección. Con factura se suma 16% de IVA. La capacidad para tu grupo se confirma al cotizar.
 
@@ -105,6 +106,7 @@ Puedes conseguir esto por tu cuenta o con el servicio de [iluminación para even
 El motor del inflable necesita una toma de 110 V a menos de 20 m. Si vas a conectar luces y bocina, usa otro circuito o contacto, y avísalo al cotizar para planear dónde va cada cable.
 
 ![Jardín de una casa en Tlalpan al anochecer: inflable de colores iluminado con reflectores de luz cálida desde el pasto, series de focos en la barda, zapatos acomodados en la entrada, sin personas](/img/blog/fiesta-neon-infantil-con-inflable/escena-1.avif "Al anochecer, el inflable se ilumina con luz general desde fuera; la luz negra queda para la zona glow")
+![Cochera de una casa en el Estado de México convertida en zona glow: manta blanca en la pared con salpicaduras de pintura fluorescente bajo luz negra, globos neón en el piso y cinta luminosa marcando el paso, adolescentes bailando de espaldas y fuera de foco](/img/blog/fiesta-neon-infantil-con-inflable/escena-2.avif "La zona glow va separada del inflable: luz negra, manta blanca y espacio despejado para bailar")
 
 ## ¿Cómo armar la zona de fiesta glow con luz negra?
 
@@ -169,8 +171,6 @@ La música marca el cambio de la tarde a la noche. Dos bloques:
 - **Al atardecer, en la zona glow:** canciones para bailar, juegos con música como estatuas o la silla, y un momento de baile libre.
 
 Para armar la lista por edades, la guía de [música para fiesta infantil por edad](/blog/musica-para-fiesta-infantil-playlist-por-edad/) tiene playlists y reglas de volumen. Revisa el reglamento de tu condominio o privada; en muchos hay horario de silencio.
-
-![Cochera de una casa en el Estado de México convertida en zona glow: manta blanca en la pared con salpicaduras de pintura fluorescente bajo luz negra, globos neón en el piso y cinta luminosa marcando el paso, adolescentes bailando de espaldas y fuera de foco](/img/blog/fiesta-neon-infantil-con-inflable/escena-2.avif "La zona glow va separada del inflable: luz negra, manta blanca y espacio despejado para bailar")
 
 ## ¿Cómo queda el cronograma de la fiesta neón?
 

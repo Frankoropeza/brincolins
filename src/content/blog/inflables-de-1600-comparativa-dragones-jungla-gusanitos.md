@@ -60,12 +60,14 @@ El modelo más rentado del catálogo. Mide 5 × 3 × 2.80 m, es para niños de 3
 Aventura tropical con dinosaurios, palmeras y colores de selva. Mide 5 × 3 × 2.50 m, es para niños de 3 a 8 años y se instala en 15 minutos. Es el más bajo de los tres. También es sólo para exterior. Tienes más fotos en la [ficha de la Jungla](/inflables/mini-jungla/).
 
 ![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
+![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
 
 ### Gusanitos
 
 Más circuito que brincolín: túneles de colores conectados con varias entradas y salidas. Mide 5 × 3 × 2.80 m, es para niños de 2 a 8 años, se instala en 20 minutos y es el único de los tres que funciona en interiores. Revisa la [ficha del Gusanitos con sus túneles](/inflables/gusanitos/).
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 ## ¿En qué cambian si los tres tienen el mismo precio?
 
@@ -86,6 +88,7 @@ Te cambian la altura libre, el uso en interiores, edad mínima, tiempo de instal
 Tres datos saltan a la vista. La altura libre: 3.2, 4.2 y 4.5 m. El techo: sólo el Gusanitos va bajo techo. La edad: el Gusanitos acepta niños desde los 2 años. Todo lo demás es cuestión de gusto.
 
 ![Uno de los inflables medianos de $1,600, el Dragones Rojos, sobre pasto sintético entre edificios](/img/inflables/dragones-rojos/dragones-detalle-exterior.avif)
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 > **¿Ya sabes cuál de los tres quieres?** Mándanos la fecha y tu alcaldía o municipio, y te confirmamos si está libre ese día. [Preguntar por un inflable mediano](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20un%20inflable%20mediano%20de%20los%20de%201600)
 
@@ -116,6 +119,7 @@ Mide con cinta desde el piso hasta el obstáculo más bajo sobre el área. ¿4.5
 Si es bajo techo, la decisión ya está tomada: Gusanitos. Si el espacio techado es muy pequeño, revisa los [inflables que funcionan en interiores](/inflables/para-interiores/). Y si la fiesta va en el jardín de tu conjunto, lee antes los [permisos para una fiesta infantil en unidad habitacional](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/).
 
 ![Persona de espaldas midiendo con cinta métrica la altura de una rama sobre el pasto de un jardín familiar](/img/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/escena-1.avif "Una rama a 4.3 m deja fuera a un modelo y no a otro: mide antes de elegir.")
+![Inflable Dragones Rojos instalado en el patio de una escuela para la kermés](/img/inflables/dragones-rojos/dragones-rojos-kermes-escolar.avif "Dragones Rojos en una kermés escolar")
 
 ## ¿Cuál conviene según la edad de los invitados?
 
@@ -166,6 +170,7 @@ Si tu plan es pastel, piñata y a brincar, elige por espacio y edad. Para ver es
 Los $1,600 son netos y por evento. Incluyen instalación, recolección, equipo revisado y sanitizado, anclaje verificado y motor profesional durante todo el evento. Aparte se paga el traslado, según zona, y el 16% de IVA sólo si necesitas factura.
 
 ![Toma frontal del inflable de dragones con resbaladilla verde centrada y torres amarilla y azul](/img/inflables/dragones-rojos/dragones-frontal-centrado.avif)
+![Inflable Dragones Rojos instalado en el área verde común de una privada](/img/inflables/dragones-rojos/dragones-rojos-privada-condominio.avif "Dragones Rojos en el área común de una privada")
 
 Para ubicar estos tres en el catálogo completo, esta tabla compara el precio de los ocho modelos. La lectura: los de $1,600 son el punto de entrada para fiestas de 3 a 8 años.
 

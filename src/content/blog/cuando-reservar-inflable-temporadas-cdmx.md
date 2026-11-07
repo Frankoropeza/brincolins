@@ -64,6 +64,7 @@ Porque la mayoría de las fiestas infantiles son sábado o domingo, y cada infla
 Además, no todos los modelos se agotan igual. Los más pedidos para fiestas infantiles se apartan antes. [Dragones Rojos, el más rentado del catálogo](/inflables/dragones-rojos/), suele ser de los primeros en ocuparse en fines de semana. Si tienes un modelo favorito, ese es otro motivo para apartar con tiempo. Si no, ten una segunda opción: el catálogo de [inflables medianos](/inflables/medianos/) agrupa varios modelos de tamaño y precio parecidos.
 
 ![Inflable Dragones Rojos instalado en el área verde de unas oficinas para un día familiar de empresa](/img/inflables/dragones-rojos/dragones-rojos-evento-empresa.avif "Dragones Rojos en un día familiar de empresa")
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
 
 ## ¿Qué temporadas se llenan primero?
 
@@ -85,6 +86,7 @@ Este calendario resume el año. No son cifras: es la lógica de cuándo se junta
 Es la temporada más concurrida del año: las posadas de escuelas, empresas, unidades habitacionales y familias se suman a los cumpleaños normales. Los sábados se apartan primero. Si vas a organizar una, la guía de [posada infantil con inflable](/blog/posada-navidena-infantil-con-inflable-cdmx/) explica qué modelo conviene con frío y cómo encajar piñata y villancicos.
 
 ![Patio de casa decorado para una posada con piñata de estrella, faroles de papel y mesas con mantel rojo al atardecer](/img/blog/cuando-reservar-inflable-temporadas-cdmx/escena-1.avif "En diciembre, posadas y cumpleaños compiten por los mismos fines de semana")
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 ### Enero: Día de Reyes
 

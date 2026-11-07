@@ -40,6 +40,7 @@ faqs:
 Para una presentación de 3 años con invitados de todas las edades, lo práctico es separar zonas: el Castillo Blanco (3 a 12 años, $2,600) para los niños grandes y el [Castillo Baby para bebés de 1 a 3 años](/inflables/mini-castillo/) ($1,400) para los pequeños. Si casi todos pasan de 3 años, basta el blanco. El Castillo Blanco va solo en exterior; el Baby también entra en interiores.
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 **Puntos clave**
 
@@ -68,6 +69,7 @@ En cualquiera de los dos, porque los rangos se tocan justo en su edad. El Castil
 El rango no es adorno de catálogo. Te dice con quién comparte el inflable cada niño. En el Castillo Blanco, que mide 5 × 7 × 4 m, brincan niños de hasta 12 años, con su peso y su fuerza. En el Castillo Baby, de 2.5 × 2 × 2 m, brincan bebés y niños pequeños. Las [medidas y fotos del Castillo Blanco](/inflables/castillo-blanco/) te ayudan a imaginarlo en tu jardín.
 
 ![Presentación de 3 años al aire libre: castillo blanco sobre pasto junto a un arco de globos blancos](/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-terraza-cdmx.avif)
+![Inflable Castillo Blanco instalado en el jardín de una casa en CDMX](/img/inflables/castillo-blanco/castillo-blanco-jardin-casa.avif "Castillo Blanco en el jardín de una casa")
 
 ### Cómo decidir dónde brinca tu hijo
 
@@ -112,6 +114,7 @@ El Castillo Blanco va en la parte más amplia del jardín, a cielo abierto, con 
 El Castillo Baby va más cerca de las mesas. Los papás de los bebés quieren tenerlos a la mano. Puede ir en la terraza, en un pórtico o dentro de la casa, siempre que tengas 3.2 m de altura libre. Busca sombra y pide a otro adulto que lo cuide.
 
 ![Jardín de la casa de los abuelos con dos zonas de juego separadas: un área de pasto amplia al fondo y una terraza con sombra cerca de las mesas familiares](/img/blog/presentacion-de-3-anos-recepcion-con-inflable/escena-1.avif "Dos zonas separadas: la de los grandes al fondo y la de los bebés cerca de las mesas.")
+![Mesa de dulces en blanco y dorado en un jardín, con globos blancos y dorados, flores blancas y un pastel sencillo de dos pisos](/img/blog/presentacion-de-3-anos-recepcion-con-inflable/escena-2.avif "Blanco y dorado en la mesa de dulces, lejos de la entrada del inflable.")
 
 #### Mesa infantil para los más chicos
 
@@ -142,12 +145,11 @@ Deja que el castillo sea la pieza blanca grande y pon el dorado en detalles: glo
 Los globos blancos, dorados y transparentes con confeti dorado combinan sin competir. Lo que no funciona es un arco enorme pegado al inflable: le quita protagonismo y estorba la entrada. Pon el arco en la mesa de dulces o en la puerta de la casa. Las flores blancas van mejor en los centros de mesa.
 
 ![Castillo inflable blanco en un jardín rodeado de arreglos florales, con una construcción de arcos detrás](/img/inflables/castillo-blanco/alquiler-inflable-blanco-bodas-rosas-cdmx.avif)
+![Inflable Castillo Blanco instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-blanco/castillo-blanco-patio-cochera.avif "Castillo Blanco en un patio de cemento, sobre lona")
 
 ### La mesa de dulces y el pastel
 
 Mantén la mesa de dulces en la misma paleta, con detalles dorados y un letrero con el nombre de tu hijo. Ubícala lejos del inflable. ¿Por qué? Los niños salen de brincar directo a los dulces, y si la mesa está junto al castillo, la zona se vuelve embudo.
-
-![Mesa de dulces en blanco y dorado en un jardín, con globos blancos y dorados, flores blancas y un pastel sencillo de dos pisos](/img/blog/presentacion-de-3-anos-recepcion-con-inflable/escena-2.avif "Blanco y dorado en la mesa de dulces, lejos de la entrada del inflable.")
 
 Para más combinaciones, revisa las [paletas para decorar en blanco alrededor del castillo](/blog/fiesta-infantil-all-white-boho-decoracion/), con dorado, verde olivo, pastel y terracota. Y si quieres ver cómo se integra un castillo blanco en un evento más grande, la guía de [zona infantil en bodas y eventos formales](/blog/inflables-eventos-formales-cdmx/) aplica igual.
 

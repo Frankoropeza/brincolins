@@ -43,6 +43,7 @@ faqs:
 Para un cumpleaños o una reunión con fecha concreta, conviene rentar un **castillo inflable pequeño para casa**: evitas guardarlo, darle mantenimiento y retirarlo. El [Castillo Baby para niños de 1 a 3 años](/inflables/mini-castillo/) cuesta $1,400 netos por evento, mide 2.5 × 2 × 2 m y va bajo techo con 3.2 m libres. Comprar solo conviene con uso frecuente y lugar de guardado.
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 **Puntos clave**
 
@@ -88,6 +89,7 @@ Rentar suele ser la ruta razonable si reconoces alguno de estos escenarios:
 Si estás organizando todo desde cero, la [preparación previa para tu primera renta de brincolín](/blog/como-rentar-inflable-brincolins-proceso-paso-a-paso/) te permite llegar a la cotización con las medidas y fotos que sí hacen falta.
 
 ![Sala de departamento despejada con muebles recorridos a la pared y una cinta métrica junto a la ventana, lista para medir el espacio](/img/blog/castillo-inflable-pequeno-rentar-o-comprar/escena-1.avif "Antes de rentar o comprar, despeja y mide el lugar exacto donde iría el inflable")
+![Inflable Castillo Baby instalado en el área verde común de una privada](/img/inflables/mini-castillo/mini-castillo-privada-condominio.avif "Castillo Baby en el área común de una privada")
 
 ## ¿Qué deberías resolver antes de comprar un inflable doméstico?
 

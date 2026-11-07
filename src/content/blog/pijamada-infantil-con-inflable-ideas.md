@@ -67,6 +67,7 @@ La decisión depende de una pregunta: ¿el inflable va dentro de casa o en el ja
 Solo dos modelos del catálogo son aptos para interiores. El [Gusanitos, circuito de túneles para interiores](/inflables/gusanitos/), mide 5 × 3 × 2.80 m, pide 3.2 m de altura libre y es para niños de 2 a 8 años. El [Castillo Baby para hermanitos de 1 a 3 años](/inflables/mini-castillo/) mide 2.5 × 2 × 2 m y pide la misma altura libre. Este segundo no es para los invitados de la pijamada, sino para los hermanos pequeños que a veces se quedan la tarde.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 Mide el punto más bajo del techo: viga, lámpara o ventilador. La categoría de [inflables para interiores](/inflables/para-interiores/) tiene las fichas completas, y si vives en departamento, revisa antes la guía de [altura de techo para un inflable en departamento](/blog/inflable-para-departamento-altura-techo-cdmx/).
 
@@ -170,6 +171,7 @@ Cuando el inflable se recoge, la fiesta baja de ritmo. Estas ideas para pijamada
 Si quieres que la noche tenga temática, la [fiesta neón infantil con pulseras luminosas](/blog/fiesta-neon-infantil-con-inflable/) combina bien con una pijamada de 9 a 12 años: brillo después de que se recoge el inflable, nunca dentro de él. Para una festejada a la que le gustan los esmaltes y las mascarillas, la [fiesta spa para niñas con inflable](/blog/fiesta-spa-para-ninas-con-inflable/) explica cómo ordenar las estaciones spa con un bloque de brinco.
 
 ![Sala de una casa en Coyoacán de noche: fuerte de cobijas hecho con sábanas blancas y pinzas sobre sillas, linternas encendidas, cojines y una pantalla de televisión fuera de foco, niños en pijama de espaldas](/img/blog/pijamada-infantil-con-inflable-ideas/escena-1.avif "Un fuerte de cobijas es actividad y cama a la vez: la mejor transición entre la tarde de inflable y la hora de dormir")
+![Jardín de una casa en el Estado de México al atardecer con un inflable de túneles de colores, una mesa con jarras de agua y vasos, mochilas de colores sobre una banca y luz dorada, niños fuera de foco al fondo](/img/blog/pijamada-infantil-con-inflable-ideas/escena-2.avif "La tarde de inflable va primero: con la energía gastada, la noche de pijamada es más tranquila")
 
 ## ¿Qué dar de cenar y de desayunar en una pijamada?
 
@@ -221,8 +223,6 @@ La decoración de una fiesta de pijamas se concentra donde se duerme, no en una 
 - **Una caja para celulares** decorada, si las familias acordaron guardarlos.
 
 En el jardín, la decoración va alrededor del inflable y no encima de él: globos lejos de las entradas y nada colgando sobre la lona.
-
-![Jardín de una casa en el Estado de México al atardecer con un inflable de túneles de colores, una mesa con jarras de agua y vasos, mochilas de colores sobre una banca y luz dorada, niños fuera de foco al fondo](/img/blog/pijamada-infantil-con-inflable-ideas/escena-2.avif "La tarde de inflable va primero: con la energía gastada, la noche de pijamada es más tranquila")
 
 ## ¿Qué errores evitar en una pijamada infantil?
 

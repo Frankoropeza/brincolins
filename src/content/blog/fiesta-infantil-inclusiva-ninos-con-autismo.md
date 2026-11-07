@@ -100,6 +100,7 @@ Algunas ideas para usarla:
 Si quieres ideas sobre cómo preparar a un niño que se siente inseguro frente al inflable, la guía para [acompañar a un niño con miedo al inflable](/blog/inflable-para-ninos-timidos-o-con-miedo/) tiene recursos que también sirven aquí.
 
 ![Mesa de cocina con tarjetas impresas en fila que muestran una casa, un inflable de túneles, un plato de comida, un pastel y una piñata, junto a un plumón y una hoja con horario, luz natural de ventana, sin personas](/img/blog/fiesta-infantil-inclusiva-ninos-con-autismo/escena-1.avif "Una agenda visual con fotos reales del lugar y del inflable ayuda a anticipar cada momento de la fiesta")
+![Rincón de un jardín con una carpa de tela clara, cojines, una manta en el piso, unos audífonos de protección auditiva y libros, separado de un inflable de túneles que se ve al fondo, luz suave de tarde, sin personas en primer plano](/img/blog/fiesta-infantil-inclusiva-ninos-con-autismo/escena-2.avif "Una zona tranquila lejos del motor y la música es una opción para cualquier niño que necesite descansar")
 
 ## ¿Cómo armar una zona tranquila?
 
@@ -146,6 +147,7 @@ El inflable puede ser una de las partes más disfrutables de la fiesta para algu
 No hay un inflable "para niños con autismo" y no conviene pensarlo así. Hay modelos que, por su forma, dan más opciones de control. El [inflable Gusanitos de túneles](/inflables/gusanitos/) es un recorrido con varias entradas y salidas: el niño puede asomarse, avanzar un tramo y salir sin quedar atrapado en un espacio cerrado con otros niños. Mide 5 × 3 × 2.80 m, es para 2 a 8 años y puede ir bajo techo con 3.2 m de altura libre, lo cual permite hacer la fiesta en un espacio más controlado.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 Si la fiesta es bajo techo, revisa los [inflables aptos para interiores](/inflables/para-interiores/): sólo el Castillo Baby y Gusanitos lo son. El Castillo Baby es para niños de 1 a 3 años y ocupa 2.5 × 2 m.
 
@@ -186,8 +188,6 @@ La comida es otro punto sensible. Algunos niños tienen alergias o intolerancias
 6. **Nada de comida dentro del inflable**, para nadie.
 
 Para calcular cantidades sin desperdicio, la guía de [cuánta comida por niño en una fiesta infantil](/blog/cuanta-comida-por-nino-fiesta-infantil/) sirve como base.
-
-![Rincón de un jardín con una carpa de tela clara, cojines, una manta en el piso, unos audífonos de protección auditiva y libros, separado de un inflable de túneles que se ve al fondo, luz suave de tarde, sin personas en primer plano](/img/blog/fiesta-infantil-inclusiva-ninos-con-autismo/escena-2.avif "Una zona tranquila lejos del motor y la música es una opción para cualquier niño que necesite descansar")
 
 ## ¿Cómo comunicarlo a las demás familias?
 

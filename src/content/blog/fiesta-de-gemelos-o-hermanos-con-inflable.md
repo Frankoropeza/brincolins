@@ -62,6 +62,7 @@ Repartiendo el protagonismo con decisiones que se vean: dos pasteles, dos mañan
 Dos pasteles chicos funcionan mejor que uno grande con dos nombres. Cada uno apaga sus velas, cada uno tiene su canción y su foto. ¿Tu presupuesto aprieta? Un pastel con dos mitades distintas también sirve. Lo que no funciona: un solo nombre. El pastel, la comida y la decoración los cotizas aparte con tus proveedores.
 
 ![Mesa de jardín con dos pasteles pequeños de colores distintos, cada uno con sus velas, listos para dos mañanitas](/img/blog/fiesta-de-gemelos-o-hermanos-con-inflable/escena-1.avif "Dos pasteles chicos: cada festejado apaga sus velas y tiene su propia foto.")
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
 
 ### Dos momentos de protagonismo
 
@@ -82,6 +83,7 @@ Tienes tres caminos: una temática que contenga a las dos, dos zonas con colores
 ¿Y el inflable? Neutro, por suerte. El Extremo no está atado a un personaje, así que no compite con ninguna de tus dos temáticas. Si una es de cuento o de realeza, el [Castillo de Princesas, rosa y azul turquesa](/inflables/castillo-princesas/) es para niños de 2 a 10 años. Si es de piratas, el [Barco Pirata con mástil y velas](/inflables/barco-pirata/) tiene tobogán por la popa.
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 ## ¿Por qué el doble carril del Extremo hace justas las carreras entre hermanos?
 
@@ -90,6 +92,7 @@ Porque los dos arrancan al mismo tiempo, en carriles paralelos, y llegan al mism
 El Extremo mide 8 × 4.5 × 3.50 m, tiene pista de obstáculos y tobogán doble, y es para niños de 3 a 12 años. Si tienes gemelos, la carrera entre ellos se vuelve el momento de tu fiesta. ¿Tus hijos se llevan dos o tres años? Ajusta el formato.
 
 ![Patio con cipreses y una casa al fondo donde el Extremo muestra sus túneles y arcos morados](/img/inflables/extremo/extremo-vista-general.avif)
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 ### Cómo ajustar la carrera según la diferencia de edad
 
@@ -156,6 +159,7 @@ Depende del tipo de fiesta: el Extremo gana si tus festejados son competitivos y
 La conclusión: si tus hijos van a competir, el doble carril no tiene sustituto. ¿Prefieren explorar túneles que competir? El [inflable Gusanitos](/inflables/gusanitos/) funciona mejor con hermanos pequeños o en interiores. Más opciones de recorrido las tienes en los [inflables con obstáculos del catálogo](/inflables/con-obstaculos/).
 
 ![Túneles naranja, tobogán y arcos morados del Extremo verde, azul y amarillo sobre pasto de un jardín](/img/inflables/extremo.avif)
+![Inflable Extremo instalado en el patio de una escuela para la kermés](/img/inflables/extremo/extremo-kermes-escolar.avif "Extremo en una kermés escolar")
 
 ## ¿Cómo repartir el protagonismo durante la tarde?
 

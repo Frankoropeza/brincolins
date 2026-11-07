@@ -60,6 +60,7 @@ El niño entra por una boca, avanza y sale por otra. No hay un centro donde todo
 Un brincolín clásico tiene una cámara de salto con paredes o mallas. Puede llevar resbaladilla o decoración temática. Pero el juego principal es brincar. El [brincolín Dragones Rojos](/inflables/dragones-rojos/) y la Jungla son los ejemplos, y tienes la lista completa en los [brincolines del catálogo](/inflables/brincolines/).
 
 ![Inflable Dragones Rojos instalado en el área verde común de una privada](/img/inflables/dragones-rojos/dragones-rojos-privada-condominio.avif "Dragones Rojos en el área común de una privada")
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 ¿Tu duda real es entre brincolín y tobogán? Ese es otro tema. Te lo resolvemos en [brincolín clásico contra tobogán inflable](/blog/brincolin-vs-tobogan-inflable-cdmx/).
 
@@ -80,10 +81,12 @@ Esta tabla compara los cinco modelos por tipo, medidas, altura libre, edades y p
 Tres lecturas rápidas para ti. El único circuito que entra bajo techo es el Gusanitos. Los brincolines empiezan en 3 años. Y si buscas un circuito para niños mayores, el [circuito Extremo con pista de obstáculos](/inflables/extremo/) mide 8 m, lleva tobogán doble y doble carril para competencias, y cubre de 3 a 12 años.
 
 ![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 La Jungla es aventura tropical con dinosaurios, palmeras y colores de selva; el detalle está en el [brincolín Jungla de selva](/inflables/mini-jungla/). Los Dragones Rojos llevan dos dragones decorativos de unos 3 m, resbaladilla integrada y mallas de seguridad laterales.
 
 ![Gusanitos sobre pasto sintético bajo carpa blanca, con gusanos amarillos y base azul y roja](/img/inflables/gusanitos.avif)
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 ## ¿Cómo se juega dentro de un circuito y dentro de una cámara de salto?
 
@@ -145,6 +148,7 @@ Si los niños entran y salen por cualquier lado, se cruzan en las bocas. Marca u
 Tú, o el adulto que asignes, controlas cuántos entran y miras la cámara de salto. En los Dragones Rojos, las mallas laterales ayudan a ver lo que pasa adentro. Vigila que no se mezclen tamaños en el mismo turno y que nadie brinque junto a la resbaladilla mientras otro baja.
 
 ![Detalle de los gusanos amarillos con antenas verdes del circuito Gusanitos y su torre morada detrás](/img/inflables/gusanitos/gusanitos-inflable-fiesta.avif)
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 
 ## ¿Cuál pide menos espacio y menos altura libre?
 
@@ -153,6 +157,7 @@ En suelo te piden casi lo mismo, 5 × 3 m de planta; la diferencia está arriba.
 Por eso el circuito es la opción natural cuando la fiesta va bajo techo. ¿Estás en temporada de lluvias? Revisa el [inflable bajo techo en temporada de lluvias](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/). ¿Tu problema es el tamaño del patio? Lee cómo elegir un [inflable para patio pequeño o azotea](/blog/fiesta-en-patio-pequeno-con-inflable/). El espacio libre exacto se confirma al cotizar, y puedes comparar todos los modelos en la [tabla de medidas de inflables](/blog/medidas-de-inflables-para-fiestas-tabla/).
 
 ![Salón de usos múltiples techado de un conjunto habitacional, con piso despejado, sillas apiladas a un lado y una cinta métrica apuntando al techo](/img/blog/circuito-de-tuneles-vs-brincolin/escena-1.avif "Bajo techo, la altura libre decide antes que el precio o la temática")
+![Inflable Gusanitos instalado en el área verde común de una privada](/img/inflables/gusanitos/gusanitos-privada-condominio.avif "Gusanitos en el área común de una privada")
 
 ### Requisitos que comparten
 

@@ -111,6 +111,7 @@ Los postres de la mesa no compiten con el pastel: lo acompañan. Elige dos o tre
 Para calcular el pastel y no quedarte corto, la guía de [porciones y tamaños del pastel para fiesta infantil](/blog/pastel-fiesta-infantil-porciones-y-tamanos/) trae una fórmula sencilla. Si hay mesa de postres, no hace falta subir el tamaño del pastel.
 
 ![Mesa de postres en el jardín de una casa en la Ciudad de México con gelatinas de colores en vasitos transparentes, cupcakes con betún pastel en una base de dos niveles, galletas decoradas en un frasco de vidrio y servilletas de papel, a la sombra de un árbol, sin personas, luz suave de tarde](/img/blog/mesa-de-snacks-y-postres-fiesta-infantil/escena-1.avif "Gelatinas, cupcakes y galletas en porción individual: se sirven solos y no hay que partir nada")
+![Patio de una casa en el Estado de México con una mesa de snacks bajo la sombra de un techo de lámina, conos de palomitas y vasos de fruta con chile, un bote de basura a un lado y, a varios metros, un inflable de colores fuera de foco al fondo, luz de tarde](/img/blog/mesa-de-snacks-y-postres-fiesta-infantil/escena-2.avif "La mesa a la sombra y a varios metros del inflable: las filas no se cruzan y nadie entra a brincar con comida")
 
 ## ¿Cuánto poner en una mesa de snack para fiesta infantil?
 
@@ -165,8 +166,6 @@ Es la decisión que más evita accidentes. La mesa atrae a los niños igual que 
 - **Un adulto en la entrada del inflable** que revise manos y bocas antes de cada turno.
 
 Si tu espacio es reducido, elige un inflable de base compacta. El [Castillo de Princesas](/inflables/castillo-princesas/) mide 5 × 3.30 m de base y funciona para niños de 2 a 10 años; puedes comparar otros modelos de tamaño similar en los [inflables medianos](/inflables/medianos/). Si además necesitas una mesa con sillitas para los niños, los [paquetes de fiesta](/servicios/paquetes-de-fiesta/) incluyen inflable, mesa con sillitas y pintacaritas.
-
-![Patio de una casa en el Estado de México con una mesa de snacks bajo la sombra de un techo de lámina, conos de palomitas y vasos de fruta con chile, un bote de basura a un lado y, a varios metros, un inflable de colores fuera de foco al fondo, luz de tarde](/img/blog/mesa-de-snacks-y-postres-fiesta-infantil/escena-2.avif "La mesa a la sombra y a varios metros del inflable: las filas no se cruzan y nadie entra a brincar con comida")
 
 ## ¿Cómo mantener la higiene de la mesa de snacks toda la fiesta?
 

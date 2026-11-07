@@ -115,6 +115,7 @@ Tres líneas resuelven casi todo:
 La tercera línea tranquiliza a las familias que no conocen el lugar. Si te preguntan qué más deben traer, la guía de [qué ropa llevar a una fiesta infantil con inflable](/blog/que-ropa-llevar-a-una-fiesta-infantil-con-inflable/) explica qué accesorios dejar en casa y qué outfit funciona para los adultos. Y es real: el inflable necesita supervisión adulta durante todo el evento. Si la fiesta es en una privada o un condominio, revisa también la guía para [fiestas infantiles en privada o condominio](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/), que incluye qué avisar a la administración y a los invitados sobre el acceso.
 
 ![Mano de un adulto escribiendo nombres en sobres de colores sobre una mesa de comedor, con una lista de invitados impresa al lado y luz de tarde](/img/blog/invitaciones-fiesta-infantil-cuando-enviar/escena-1.avif "Tener la lista de invitados a la mano mientras escribes los sobres evita repetir u olvidar a alguien")
+![Mesa de jardín con un celular mostrando una lista de confirmaciones, una libreta con nombres palomeados y una taza de café, en una casa de la Ciudad de México](/img/blog/invitaciones-fiesta-infantil-cuando-enviar/escena-2.avif "Una lista sencilla con niños, adultos y alergias por familia es todo lo que necesitas para cerrar confirmaciones")
 
 ## ¿Invitaciones digitales por WhatsApp o impresas?
 
@@ -230,13 +231,12 @@ Las invitaciones son el paso que sigue a cerrar fecha, lugar y entretenimiento p
 
 Si quieres la lista completa de tareas por semana, la [checklist de cosas para una fiesta infantil](/blog/lista-de-cosas-para-fiesta-infantil-checklist/) tiene todo ordenado, y la guía para [planear un cumpleaños infantil completo en CDMX](/blog/planear-cumpleanos-infantil-completo-cdmx/) explica el calendario de 6 semanas con más detalle.
 
-![Mesa de jardín con un celular mostrando una lista de confirmaciones, una libreta con nombres palomeados y una taza de café, en una casa de la Ciudad de México](/img/blog/invitaciones-fiesta-infantil-cuando-enviar/escena-2.avif "Una lista sencilla con niños, adultos y alergias por familia es todo lo que necesitas para cerrar confirmaciones")
-
 ## ¿Qué inflable mencionar en la invitación?
 
 No hace falta poner el modelo, pero sí que habrá inflable, porque cambia lo que las familias traen (ropa y calcetines). Si ya lo elegiste, puedes usarlo como parte del tema: un castillo para una fiesta de princesas o un barco para una de piratas. El [Castillo de Princesas](/inflables/castillo-princesas/), por ejemplo, funciona para niños de 2 a 10 años y combina con invitaciones en tonos rosa y lila. Para ver todas las opciones por edad, revisa los [inflables para niños](/inflables/para-ninos/) del catálogo.
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 ## ¿Cambia algo según la zona donde vives?
 

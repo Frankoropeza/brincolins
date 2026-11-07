@@ -96,6 +96,7 @@ La guía de [fiesta de 2 años](/blog/fiesta-de-2-anos-ideas-inflable-cdmx/) ord
 La guía de [fiesta de 3 años](/blog/fiesta-de-3-anos-ideas-inflable-cdmx/) incluye cronograma, juegos sencillos y qué castillo rentar.
 
 ![Patio pequeño con un inflable genérico de baja altura, tapete en la entrada y sillitas infantiles alrededor](/img/blog/ideas-de-fiesta-por-edad-1-a-12-anos/escena-1.avif "Fiesta para los más pequeños: espacio compacto y adultos cerca")
+![Grupo de niños de primaria de espaldas formando equipos en un jardín, con banderines de colores y mesa de premios](/img/blog/ideas-de-fiesta-por-edad-1-a-12-anos/escena-2.avif "De los 7 años en adelante, los equipos y los retos mandan")
 
 ## Fiestas de 4 a 6 años: juegos de una regla y turnos
 
@@ -164,8 +165,6 @@ La guía de [fiesta de 8 años](/blog/fiesta-de-8-anos-ideas-actividades/) inclu
 **Actividades:** retos con cronómetro, karaoke, manualidades más elaboradas y juegos de equipos con premios.
 
 La guía de [fiesta de 9 años para niña con inflable](/blog/fiesta-de-9-anos-nina-con-inflable/) ayuda a decidir cuándo conviene el castillo y cuándo cambiar de dinámica.
-
-![Grupo de niños de primaria de espaldas formando equipos en un jardín, con banderines de colores y mesa de premios](/img/blog/ideas-de-fiesta-por-edad-1-a-12-anos/escena-2.avif "De los 7 años en adelante, los equipos y los retos mandan")
 
 ## Fiestas de 10 a 12 años: competencia, música y autonomía
 

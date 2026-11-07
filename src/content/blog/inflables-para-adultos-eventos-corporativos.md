@@ -33,6 +33,7 @@ faqs:
 Los inflables para eventos corporativos funcionan como zona para los hijos de los colaboradores en un family day, una kermés de empresa o un cierre de año. El catálogo de BRINCOLINS son 8 modelos para niñas y niños, de $1,400 a $2,600 MXN por evento, con instalación y recolección incluidas. El más pedido es el [circuito Extremo de doble carril](/inflables/extremo/), para 3 a 12 años.
 
 ![Inflable Extremo instalado en el área verde de unas oficinas para un día familiar de empresa](/img/inflables/extremo/extremo-evento-empresa.avif "Extremo en un día familiar de empresa")
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 **Puntos clave**
 
@@ -71,6 +72,7 @@ Si tu evento tiene una imagen cuidada (aniversario de la empresa, inauguración 
 En un family day siempre hay hijos pequeños, y meterlos al Extremo no es opción. Para los de 1 a 3 años va el **[Castillo Baby](/inflables/mini-castillo/)** (2.5 × 2 × 2 m). De 2 a 8 años funciona **Gusanitos** (5 × 3 × 2.80 m, circuito de túneles); de 3 a 8 años, los temáticos **[Dragones Rojos](/inflables/dragones-rojos/)** y **Jungla**, y de 2 a 10 años, el **Castillo de Princesas**.
 
 ![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 | Modelo | Edades | Medidas | Capacidad y espacio libre | Precio |
 | --- | --- | --- | --- | --- |
@@ -134,6 +136,7 @@ Con esas respuestas, la cotización sale lista para el trámite interno y el dí
 Los eventos de empresa casi siempre se hacen en estacionamiento, explanada o cancha, no en jardín. Eso cambia el anclaje: sobre concreto o asfalto se usan contrapesos en lugar de estacas, y el piso debe estar libre de topes, rejillas y aceite. La guía para [instalar un inflable en explanada, cancha o estacionamiento](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/) explica qué revisar en cada superficie y cuánto espacio dejar para la fila.
 
 ![Explanada de concreto de un corporativo preparada para un family day, con conos, mesas plegables y una carpa de sombra](/img/blog/inflables-para-adultos-eventos-corporativos/escena-1.avif "Explanada despejada, contactos ubicados y fila delimitada antes de que lleguen las familias.")
+![Inflable Extremo instalado en el patio de una escuela para la kermés](/img/inflables/extremo/extremo-kermes-escolar.avif "Extremo en una kermés escolar")
 
 ## ¿Cómo se arma una competencia en el circuito Extremo?
 

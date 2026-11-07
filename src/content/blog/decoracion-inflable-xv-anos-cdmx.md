@@ -62,12 +62,14 @@ No todos los inflables funcionan igual en una **fiesta de XV años**. El modelo 
 El [Castillo Blanco](/inflables/castillo-blanco/) (5 × 7 × 4 m, **$2,600**) es el modelo que más se renta para **bodas y XV años**, y tiene lógica: su color neutro combina con casi todo. Ya sea que tu fiesta tenga temática de rosas, mariposas, vintage, minimalista o princesa, el blanco se adapta sin problema. Es como el vestido blanco de los inflables: siempre elegante, nunca desentona.
 
 ![Inflable Castillo Blanco instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-blanco/castillo-blanco-jardin-eventos.avif "Castillo Blanco en un jardín de eventos")
+![Inflable Castillo Blanco instalado en el jardín de una casa en CDMX](/img/inflables/castillo-blanco/castillo-blanco-jardin-casa.avif "Castillo Blanco en el jardín de una casa")
 
 ### Castillo de Princesas, para temáticas de cuento de hadas
 
 Si la quinceañera tiene una temática explícita de princesa o cuento de hadas, el [Castillo de Princesas](/inflables/castillo-princesas/) refuerza la narrativa visual: 5 × 3.30 × 3 m y **$1,800 MXN**. Sus tonos rosa y lila combinan naturalmente con paletas femeninas y románticas. El truco es que la decoración alrededor repita esos mismos colores para que todo se sienta cohesivo.
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 ### Extremo, para quinceañeras modernas y dinámicas
 
@@ -124,6 +126,7 @@ Un letrero que diga "Zona de diversión", "Kids & Teens Lounge" o una frase pers
 > **Extra:** El inflable decorado funciona como fondo de fotos. Coloca un letrero de "Photo Zone" y accesorios (coronas, lentes gigantes, letreros con frases) para que los invitados se tomen fotos.
 
 ![Área de un jardín de eventos preparada para XV años con arco de globos rosa y dorado, tul blanco y series de luces cálidas al anochecer](/img/blog/decoracion-inflable-xv-anos-cdmx/escena-1.avif "Globos, tul y luz cálida en los colores de la fiesta integran el área del inflable")
+![Inflable Castillo Blanco instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-blanco/castillo-blanco-patio-cochera.avif "Castillo Blanco en un patio de cemento, sobre lona")
 
 ## ¿En qué momento de la fiesta se usa el inflable?
 

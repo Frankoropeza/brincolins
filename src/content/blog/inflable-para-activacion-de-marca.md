@@ -43,6 +43,7 @@ faqs:
 Un **inflable para activación de marca** funciona cuando el público incluye niñas y niños de 3 a 12 años y la sede tiene exterior. El [circuito inflable Extremo](/inflables/extremo/), de doble carril, mide 8 × 4.5 × 3.50 m, pide 4.5 m de altura libre y una toma de 110 V a menos de 20 m, y cuesta $2,500 netos por evento.
 
 ![Inflable Extremo instalado en el área verde de unas oficinas para un día familiar de empresa](/img/inflables/extremo/extremo-evento-empresa.avif "Extremo en un día familiar de empresa")
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
 
 **Puntos clave**
 
@@ -95,6 +96,7 @@ La marca puede sumar una acción breve antes o después del recorrido, siempre f
 | Módulo de marca | Conversa con acompañantes y entrega información | Promotor o anfitrión | Que el registro bloquee la entrada o la salida |
 
 ![Fila de niños de espaldas detrás de una cinta delimitadora junto a un módulo informativo en una explanada al aire libre](/img/blog/inflable-para-activacion-de-marca/escena-1.avif "Fila lateral, salida despejada y módulo aparte: así se ordena la estación.")
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 Si el volumen será propio de una escuela o feria infantil, la [organización de un juego inflable de obstáculos para escuelas](/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/) ayuda a adaptar la fila por bloques sin copiar una operación que no corresponda a tu sede.
 

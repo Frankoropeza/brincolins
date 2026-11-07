@@ -95,6 +95,7 @@ Mide desde el pasto hasta la primera rama, cable o toldo encima del área. ¿Te 
 Necesitas una toma de 110 V a menos de 20 m, superficie plana y despejada, sin vidrio ni objetos punzantes. Si la toma queda lejos, revisa [qué extensión y contacto aguantan el motor](/blog/cuanta-luz-consume-un-inflable-contacto-extension/). Y siempre exterior: jardín, patio amplio o explanada. La capacidad y el espacio libre exacto los confirmamos al cotizar.
 
 ![Costado del Barco Pirata con ancla blanca en el casco y mástiles de colores junto a un edificio](/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif)
+![Inflable Barco Pirata instalado en el jardín de una casa en CDMX](/img/inflables/barco-pirata/barco-pirata-jardin-casa.avif "Barco Pirata en el jardín de una casa")
 
 > **¿Ya tienes fecha y jardín?** Mándanos las medidas y te decimos si el barco cabe donde lo imaginas, antes de que compres decoración. [Cotizar el Barco Pirata por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Barco%20Pirata%20para%20una%20fiesta%20de%20sirenas%20y%20piratas)
 
@@ -115,6 +116,7 @@ Es la zona activa. Banderines azul marino y dorado, cajas de madera como barrile
 Aquí está el truco que hace que todo parezca un solo mar. Un camino de arena con tela blanca o papel kraft, de la laguna al barco. Monedas doradas de chocolate repartidas en ambas zonas. Letreros de madera con nombres compartidos: «Bahía de las sirenas», «Muelle del capitán», «Isla del tesoro».
 
 ![Zona de juego de sirenas en un jardín con telas turquesa en el piso, conchas de plástico y estrellas de mar de cartón](/img/blog/fiesta-de-sirenas-y-piratas-con-inflable/escena-1.avif "La laguna de las sirenas: la zona tranquila, a la sombra y con mesa baja para manualidades.")
+![Inflable Barco Pirata instalado sobre lona en el patio de cemento de una casa](/img/inflables/barco-pirata/barco-pirata-patio-cochera.avif "Barco Pirata en un patio de cemento, sobre lona")
 
 ## ¿Cómo se organiza la búsqueda del tesoro con equipos mixtos?
 
@@ -150,6 +152,7 @@ Juegos tranquilos, sin agua y con algo que llevarse a casa. Mientras una tripula
 Si a la festejada le gustan más las playas que el fondo del mar, la [fiesta hawaiana infantil con inflable](/blog/fiesta-hawaiana-infantil-con-inflable/) usa los mismos juegos de estatuas y collares con limbo y hula hula.
 
 ![Barco Pirata inflable en un patio soleado junto a un castillo inflable de colores](/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif)
+![Inflable Barco Pirata instalado en el área verde común de una privada](/img/inflables/barco-pirata/barco-pirata-privada-condominio.avif "Barco Pirata en el área común de una privada")
 
 ¿Te preocupa el orden en el tobogán? Con razón. Es lo que más se descompone cuando hay disfraces y emoción. Las [reglas del tobogán explicadas con su porqué](/blog/reglas-de-uso-tobogan-inflable-ninos/) traen un cartel listo para imprimir y pegar junto a la entrada.
 
@@ -185,6 +188,7 @@ La tabla compara el barco con tres opciones que suelen entrar en esta conversaci
 Si la festejada sueña con torres, el [Castillo de Princesas en rosa y azul turquesa como palacio de sirenas](/inflables/castillo-princesas/) también cuenta la historia. Si hay hermanos de 1 a 3 años, no entran al barco: el [Castillo Baby para los invitados más pequeños](/inflables/mini-castillo/) va en otra zona con su propio adulto. Si quieres comparar más modelos con torres, revisa la [categoría de castillos inflables](/inflables/castillos/).
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 ## ¿Y si el barco no cabe en tu espacio?
 

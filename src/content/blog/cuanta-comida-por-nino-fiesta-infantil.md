@@ -115,6 +115,7 @@ Los niños que brincan sudan y toman más agua de lo que esperas. Calcula de med
 Para bolsitas o bolos, de 100 a 200 g por niño. Si además hay mesa de dulces, cuenta de 6 a 10 piezas por niño entre ambas cosas. La guía para montar una [mesa de dulces con inflable en tu cumpleaños](/blog/mesa-dulces-inflable-cumpleanos-cdmx/) te da ideas de presentación y cantidades.
 
 ![Mesa de comida para fiesta infantil en un patio con pizzas, vasos con nombre y jarras de agua de sabor](/img/blog/cuanta-comida-por-nino-fiesta-infantil/escena-1.avif "La mesa lista antes de la pausa de comida")
+![Niños de espaldas sentados en una mesa de jardín comiendo pastel mientras un inflable genérico espera al fondo](/img/blog/cuanta-comida-por-nino-fiesta-infantil/escena-2.avif "La comida se sirve en una pausa, lejos de la entrada del inflable")
 
 ## Tabla para 10, 20, 30 y 50 niños
 
@@ -186,8 +187,6 @@ Para que se cumpla sin pelear con los niños:
 
 La guía de [seguridad en inflables para fiestas infantiles](/blog/seguridad-inflables-fiestas-infantiles/) reúne esta y las demás reglas de uso.
 
-![Niños de espaldas sentados en una mesa de jardín comiendo pastel mientras un inflable genérico espera al fondo](/img/blog/cuanta-comida-por-nino-fiesta-infantil/escena-2.avif "La comida se sirve en una pausa, lejos de la entrada del inflable")
-
 ## ¿Qué servir según la edad de los niños?
 
 Las cantidades cambian con la edad, pero también cambia qué comen y cómo lo comen. Ajustar el menú a la edad evita que sobre la mitad de la comida. Si todavía no decides qué servir, revisa estas [ideas de menú para fiesta infantil](/blog/comida-para-fiesta-infantil-menu-ideas/), con taquiza, pizza, hot dogs y pasta fría.
@@ -234,6 +233,7 @@ En [Xochimilco](/cobertura/xochimilco/) son comunes las fiestas largas en jardí
 El número de niños también define qué inflable conviene. Para grupos pequeños de 1 a 3 años, el [Castillo Baby](/inflables/mini-castillo/) es el modelo pensado para esa edad. Para grupos grandes o edades mezcladas, los modelos de 3 a 12 años, como el Barco Pirata o el Extremo, funcionan mejor por turnos. Puedes ver todas las opciones en los [inflables para niños](/inflables/para-ninos/).
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 ## Siguiente paso
 

@@ -77,6 +77,7 @@ La decoración de una fiesta del espacio se divide en tres zonas: el cielo (lo q
 6. **Globos plateados y azul marino.** En racimos a los lados del inflable, sin invadir su área ni la entrada.
 
 ![Salón de fiestas en CDMX decorado con planetas de distintos tamaños colgados del techo, globos azul marino y plateados en racimos y estrellas de papel metálico en la pared, sin personas, luz cálida](/img/blog/fiesta-del-espacio-astronautas-con-inflable/escena-1.avif "Planetas colgados a distintas alturas y una pared estrellada transforman cualquier salón sin gastar de más")
+![Terraza techada de un departamento en CDMX con un inflable de túneles de colores, estrellas de papel en la pared y una serie de luces blancas, sin personas, luz tenue de tarde](/img/blog/fiesta-del-espacio-astronautas-con-inflable/escena-2.avif "Con un modelo apto para interiores, la estación espacial cabe en una terraza techada con 3.2 m libres")
 
 ## ¿Cómo organizar la misión de astronautas?
 
@@ -139,12 +140,14 @@ Precios netos por evento de 4 a 6 horas, con entrega, instalación, motor, sanit
 El [inflable Gusanitos](/inflables/gusanitos/) es más un circuito que un brincolín: túneles de colores conectados, con varias entradas y salidas. En la historia de la misión, cada túnel es un pasillo de la estación espacial. Funciona con grupos de edades mezcladas de 2 a 8 años y es apto para interiores.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+![Inflable Gusanitos instalado en el patio de una escuela para la kermés](/img/inflables/gusanitos/gusanitos-kermes-escolar.avif "Gusanitos en una kermés escolar")
 
 ### Castillo Baby: para los astronautas de 1 a 3 años
 
 Si el festejado es pequeño o hay muchos hermanos menores, el [Castillo Baby para interiores](/inflables/mini-castillo/) mide 2.5 × 2 × 2 m y entra en terrazas, salones y departamentos con techo suficiente. Puedes decorarlo alrededor con estrellas y planetas para que sea el módulo de los más chiquitos.
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 ### Extremo: entrenamiento en exterior
 
@@ -161,8 +164,6 @@ La fiesta del espacio es de las pocas temáticas que lucen más bajo techo: con 
 5. **Reglas del salón.** Si rentas un salón, pregunta por horario de montaje y si permiten inflables. La guía de [qué preguntar al salón de fiestas antes de llevar un inflable](/blog/inflable-en-salon-de-fiestas-que-preguntar/) trae la lista.
 
 Si quieres ver todos los modelos que entran bajo techo, la categoría de [inflables para interiores](/inflables/para-interiores/) los reúne con sus medidas.
-
-![Terraza techada de un departamento en CDMX con un inflable de túneles de colores, estrellas de papel en la pared y una serie de luces blancas, sin personas, luz tenue de tarde](/img/blog/fiesta-del-espacio-astronautas-con-inflable/escena-2.avif "Con un modelo apto para interiores, la estación espacial cabe en una terraza techada con 3.2 m libres")
 
 ## ¿Qué comida servir en una fiesta del espacio?
 

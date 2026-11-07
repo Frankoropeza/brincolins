@@ -63,6 +63,7 @@ Los dos hacen cosas distintas. El **brincolín clásico** es una zona de brinco 
 El brincolín es la opción correcta para **la mayoría de los cumpleaños en casa**. Un modelo mediano como los [Dragones Rojos](/inflables/dragones-rojos/), el más rentado del catálogo, o el [Castillo de Princesas](/inflables/castillo-princesas/) cuesta **$1,600 o $1,800 MXN por 4 a 6 horas**. El espacio libre y la capacidad se confirman al cotizar, y los ocho precios están en la [página de precios](/precios/).
 
 ![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 Para fiestas de bebés (1 a 3 años) o espacios interiores, el [Castillo Baby](/inflables/mini-castillo/) de **$1,400 MXN** es la opción indicada: paredes suaves y sin escaleras.
 
@@ -94,6 +95,7 @@ Precios netos por evento, con instalación y recolección; con factura se suma 1
 Fíjate en la columna de altura libre. El Barco Pirata pide 5.2 m: una rama, un cable de luz o un toldo por debajo de esa altura lo descartan aunque el piso sobre. El Extremo pide menos altura (4.5 m), pero 8 m de largo. Los modelos con tobogán son de exterior; si la fiesta es bajo techo, la decisión se reduce a brincolín.
 
 ![Jardín amplio y plano con pasto parejo, árboles al fondo y una cinta métrica extendida sobre el piso](/img/blog/brincolin-vs-tobogan-inflable-cdmx/escena-1.avif "Un tobogán inflable necesita largo, altura libre y piso plano en toda el área")
+![Inflable Dragones Rojos instalado en el patio de una escuela para la kermés](/img/inflables/dragones-rojos/dragones-rojos-kermes-escolar.avif "Dragones Rojos en una kermés escolar")
 
 ## ¿Qué tipos de resbaladilla hay en el catálogo?
 

@@ -79,7 +79,8 @@ Funciona si la siesta ya pasó o si tu hijo ya no la toma. El riesgo es alargarl
 
 En jardines de la ciudad también cuenta el sol. ¿Fiesta al mediodía? Prepara una zona de sombra con un par de sillas y agua a la mano, porque los niños pequeños se acaloran mucho más rápido de lo que avisan. Y si tu fecha cae en temporada de lluvias, recuerda que si la lluvia impide el evento la fecha se reprograma sin costo; los detalles están en la [política de cancelación](/politica-de-cancelacion/), que conviene leer antes de pagar tu anticipo.
 
-![Vista frontal de castillo inflable rosa y turquesa de dos torres, con rampa de entrada sobre pasto](/img/inflables/castillo-princesas/castillo-princesas-exterior-jardin.avif)
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado en el patio de una escuela para la kermés](/img/inflables/castillo-princesas/castillo-princesas-kermes-escolar.avif "Castillo de Princesas en una kermés escolar")
 
 ## ¿Por qué el Castillo de Princesas funciona con el festejado y con los primos grandes?
 
@@ -110,6 +111,7 @@ Si tu festejada sí pidió princesas, aquí tienes [ideas de decoración y mesa 
 Cuando la fiesta es bajo techo o cuando casi todos los invitados tienen menos de 3 años. Ahí te conviene el [Castillo Baby, compacto y para bebés](/inflables/mini-castillo/). Es el único castillo del catálogo que se instala en interiores, y tu sala o tu terraza techada le bastan si tienen la altura.
 
 ![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 ### Fiesta en la sala, una terraza techada o un salón cerrado
 
@@ -153,6 +155,7 @@ Una máquina de burbujas o un par de botes con varitas resuelven veinte minutos.
 Crayones gruesos, hojas grandes, calcomanías y masa para modelar. Si la temática es de princesas o unicornios, imprime dibujos del mismo tema. Esa mesa también recibe a los que van llegando, mientras tú saludas en la puerta.
 
 ![Mesa infantil baja con crayones gruesos, hojas para colorear, calcomanías y masa para modelar en un jardín](/img/blog/fiesta-de-3-anos-ideas-inflable-cdmx/escena-1.avif "Una mesa de colorear recibe a los que van llegando y no necesita animador")
+![Inflable Castillo de Princesas instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-princesas/castillo-princesas-jardin-eventos.avif "Castillo de Princesas en un jardín de eventos")
 
 #### Estatuas musicales
 
@@ -162,7 +165,8 @@ Suena la música y todos bailan. Se detiene y todos quietos. No hay eliminados, 
 
 Un show largo pierde a los de 3 años en diez minutos. Los juegos de competencia, con ganadores, perdedores y premios que no alcanzan para todos, casi siempre terminan con el festejado llorando frente a sus invitados. ¿Y la piñata de palo? Con niños tan chicos alrededor es un riesgo; si la quieres, que sea de listones, donde cada niño jala uno y nadie batea.
 
-![Castillo inflable rosa y turquesa con rampa azul en terraza de madera, idea para fiesta de 3 años](/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif)
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
+![Inflable Castillo de Princesas instalado en el área verde de unas oficinas para un día familiar de empresa](/img/inflables/castillo-princesas/castillo-princesas-evento-empresa.avif "Castillo de Princesas en un día familiar de empresa")
 
 ## ¿Qué cronograma sigue una fiesta de 3 años de principio a fin?
 

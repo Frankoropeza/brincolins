@@ -88,6 +88,7 @@ Pon el inflable en un extremo de la calle, lejos del ponche y del lugar de la pi
 Si tu posada es en el oriente de la ciudad, te conviene revisar la [renta de inflables en Venustiano Carranza](/cobertura/venustiano-carranza/) para ver el traslado a tu colonia.
 
 ![Vista completa del Gusanitos con túnel verde, arco morado y gusano amarillo sobre un patio de loseta](/img/inflables/gusanitos/gusanitos-vista-general.avif)
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 ## ¿Qué inflable conviene para una posada con frío?
 
@@ -116,12 +117,14 @@ Además funciona con grupos de edades mezcladas, justo lo que reúne tu posada f
 En jardín o calle cerrada, con niños de 3 a 8 años, tienes a los [Dragones Rojos, el más rentado](/inflables/dragones-rojos/), a $1,600. Lleva dos dragones decorativos de unos 3 m, resbaladilla integrada y mallas de seguridad laterales. Es solo para exterior y pide 4.5 m libres. Revisa ramas, cables y lonas de puestos antes de apartar. Mira hacia arriba. Te ahorras sorpresas.
 
 ![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 ### Castillo Baby para los primos más chicos
 
 En tu posada familiar seguramente habrá bebés. El Gusanitos empieza en 2 años; para los de 1 a 3 está el [Castillo Baby inflable para bebés](/inflables/mini-castillo/), de 2.5 × 2 × 2 m y $1,400. También va bajo techo.
 
 ![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 > **Posada con frío, inflable bajo techo.** Dinos si será en terraza, garage, salón o calle cerrada y te confirmamos qué modelo entra y el traslado a tu zona. [Cotiza tu posada por WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Gusanitos%20para%20una%20posada%20infantil%20en%20diciembre)
 
@@ -161,6 +164,7 @@ Ten ponche, atole o chocolate cerca de ti, pero lejos de la entrada y en vasos c
 Si la posada es en jardín o patio abierto y quieres más ideas para manejar el frío con niños, revisa la guía de [fiesta infantil en invierno al aire libre](/blog/fiesta-infantil-en-invierno-al-aire-libre-cdmx/).
 
 ![Patio de una casa mexicana de noche en diciembre, con series navideñas en la pared, un perchero con chamarras infantiles y una mesa con jarras de ponche al fondo](/img/blog/posada-navidena-infantil-con-inflable-cdmx/escena-1.avif "Perchero para chamarras, luz propia y el ponche lejos de la zona de juego.")
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 
 ## ¿En qué momento van la piñata, los villancicos y los turnos?
 
@@ -176,6 +180,7 @@ Van con el inflable cerrado: cuando empieza el ritual, el inflable cierra y nadi
 Para que los niños cenen sentados existe la [mesa infantil para que cenen sentados](/servicios/mobiliario-para-fiestas/), con 10 sillas y a $550 junto con un inflable. ¿Coordinas también comida, ponche y decoración con varios proveedores? Te sirve saber cómo [coordinar proveedores de una fiesta infantil](/blog/coordinacion-proveedores-fiesta-infantil-cdmx/) sin cruces de horario.
 
 ![Dos gusanos amarillos de ojos grandes sobre base azul y roja del Gusanitos, bajo una carpa blanca](/img/inflables/gusanitos.avif)
+![Inflable Gusanitos instalado en el patio de una escuela para la kermés](/img/inflables/gusanitos/gusanitos-kermes-escolar.avif "Gusanitos en una kermés escolar")
 
 ## ¿Con cuánta anticipación apartas un inflable para diciembre?
 

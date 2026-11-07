@@ -158,6 +158,7 @@ Firmas la hoja de devolución del equipo y listo: los niños terminan cansados y
 - Reglas de seguridad comunicadas a los papás de los invitados.
 
 ![Patio de casa despejado y barrido, con una extensión enrollada junto al contacto de la pared y sillas plegables recargadas a un lado](/img/blog/como-rentar-inflable-brincolins-proceso-paso-a-paso/escena-1.avif "Así conviene recibir al equipo: área despejada, contacto ubicado y acceso libre")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 Para el resto de la organización, la [lista de cosas para fiesta infantil](/blog/lista-de-cosas-para-fiesta-infantil-checklist/) te ayuda a no olvidar nada.
 

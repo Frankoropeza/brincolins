@@ -100,6 +100,7 @@ Pocos niños pequeños y con sus papás cerca. La lista de una fiesta de 2 años
 Para los más pequeños, la categoría de [inflables chicos del catálogo](/inflables/chicos/) reúne los modelos compactos. ¿Cuántos niños caben a la vez? Se confirma al cotizar según el modelo; no lo calcules al ojo.
 
 ![Acercamiento a la entrada del Castillo Baby y su rampa naranja, sobre lona azul junto a una pared](/img/inflables/mini-castillo/mini-castillo-exterior.avif)
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 ## ¿Qué actividades disfrutan los niños de 2 años en una fiesta?
 
@@ -126,6 +127,7 @@ La pintacaritas viene sólo dentro de un paquete; no se vende por separado. Con 
 Una manta grande con pelotas suaves, bloques de espuma y cuentos resuelve los ratos en que el inflable está cerrado. Para quien se cansa antes, es el lugar de descanso sin salir de la fiesta.
 
 ![Manta grande extendida en el patio con pelotas suaves, bloques de espuma y cuentos de cartón para niños pequeños](/img/blog/fiesta-de-2-anos-ideas-inflable-cdmx/escena-1.avif "Una zona de juego en el piso sostiene los ratos en que el inflable está cerrado")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 #### Música y burbujas
 
@@ -176,6 +178,7 @@ Les dices que no y les das su propio espacio antes de que lo pidan. El Castillo 
 Si hay jardín, el [Castillo de Princesas para los primos mayores](/inflables/castillo-princesas/) recibe niños de 2 a 10 años, mide 5 × 3.30 × 3 m y cuesta $1,800. Pide 4.2 m de altura libre y va sólo en exterior. Rosa y azul turquesa, con torres, resbaladilla y mallas de seguridad.
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 ### Sin segundo inflable
 
@@ -184,6 +187,7 @@ Turnos estrictos por edad: los grandes no entran al Castillo Baby en ningún tur
 Cómo cambia la elección del modelo entre 1 y 3 años, y cuándo tiene sentido sumar otro inflable, lo explica la guía de [qué inflable conviene antes de los 3 años](/blog/mejor-inflable-para-ninos-menores-de-3-anos/).
 
 ![Castillo Baby chico de torres de colores sobre pasto sintético, frente a un muro blanco](/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif)
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 ## ¿Se puede hacer la fiesta de 2 años en casa o en departamento?
 

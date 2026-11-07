@@ -100,10 +100,12 @@ Con niños de 3 y 4 años, deja solo arrastre, túnel y rescate. Con niños de 7
 El [circuito inflable Extremo](/inflables/extremo/) es el que mejor encaja con el entrenamiento: tiene 8 metros de largo, pista de obstáculos, tobogán doble y doble carril para que dos cadetes corran al mismo tiempo. Es para niños de 3 a 12 años, pide 4.5 m de altura libre y va al aire libre. También es uno de los modelos donde pueden entrar adultos, así que el capitán puede retar a los papás al final.
 
 ![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 Si tu espacio no da para 8 × 4.5 m, el [inflable Dragones Rojos](/inflables/dragones-rojos/) mide 5 × 3 m, es para 3 a 8 años y su rojo combina con la decoración de bomberos. Para ver otras opciones de reto, revisa la [categoría de inflables con obstáculos](/inflables/con-obstaculos/), y la comparativa de [circuito de túneles o brincolín](/blog/circuito-de-tuneles-vs-brincolin/) explica qué tipo de inflable conviene según la edad.
 
 ![Inflable Dragones Rojos instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/dragones-rojos/dragones-rojos-jardin-eventos.avif "Dragones Rojos en un jardín de eventos")
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
 
 | Modelo | Medidas | Altura libre | Edades | Precio por evento |
 |---|---|---|---|---|
@@ -113,6 +115,7 @@ Si tu espacio no da para 8 × 4.5 m, el [inflable Dragones Rojos](/inflables/dra
 Los precios son por evento de 4 a 6 horas e incluyen entrega, instalación, motor, sanitización y recolección. Son netos; con factura se suma el 16% de IVA.
 
 ![Jardín con un circuito de conos naranjas, una cuerda gruesa extendida en el pasto, cubetas de plástico rojas y un túnel de tela, con un inflable fuera de foco al fondo](/img/blog/fiesta-de-bomberos-y-oficios-con-inflable/escena-1.avif "El circuito de entrenamiento se arma con conos, cuerdas y cubetas, y termina en el inflable")
+![Mesa de jardín con estaciones de oficios: cascos amarillos de juguete, estetoscopios de juguete, tarjetas con huellas de tinta azul y bloques de cartón, luz de mediodía](/img/blog/fiesta-de-bomberos-y-oficios-con-inflable/escena-2.avif "Una fiesta de oficios por estaciones deja que cada niño pase por bomberos, policías, doctores y constructores")
 
 ## ¿Cómo hacer la misión de rescate?
 
@@ -172,8 +175,6 @@ No todos los niños quieren ser bomberos. Una fiesta de oficios con estaciones p
 - **Cascos amarillos** para las fotos, que se quitan antes de brincar.
 
 Para que las estaciones no se mezclen, asigna un adulto a cada una y que los niños roten cada 10 a 15 minutos con un silbatazo. Si buscas otra temática con disfraz, la guía de [fiesta de superhéroes con inflable](/blog/fiesta-de-superheroes-con-inflable/) usa la misma lógica de misión y entrenamiento, y la de [fiesta de carros de carreras con inflable](/blog/fiesta-de-carros-de-carreras-con-inflable/) combina bien con los fanáticos de los vehículos.
-
-![Mesa de jardín con estaciones de oficios: cascos amarillos de juguete, estetoscopios de juguete, tarjetas con huellas de tinta azul y bloques de cartón, luz de mediodía](/img/blog/fiesta-de-bomberos-y-oficios-con-inflable/escena-2.avif "Una fiesta de oficios por estaciones deja que cada niño pase por bomberos, policías, doctores y constructores")
 
 ## ¿Qué reglas de seguridad aplicar en una fiesta de bomberos con inflable?
 

@@ -120,6 +120,7 @@ No hace falta gastar mucho. Lo que hace un buen recuerdo es que sirva o que divi
 La guía de [fiesta infantil con poco presupuesto en CDMX](/blog/fiesta-infantil-con-poco-presupuesto-cdmx/) explica en qué partidas recortar y en cuáles no.
 
 ![Mesa de comedor con bolsitas de papel kraft abiertas, crayones, libretas pequeñas y etiquetas escritas a mano, mientras un adulto las arma con luz de tarde](/img/blog/bolsitas-y-recuerdos-fiesta-infantil-ideas/escena-1.avif "Armar los recuerdos 2 o 3 días antes, con una lista por edades, evita compras de última hora")
+![Canasta de mimbre con trompos de madera, baleros, sobres de semillas y bolsitas de tela sobre una mesa en un jardín, con luz suave de tarde](/img/blog/bolsitas-y-recuerdos-fiesta-infantil-ideas/escena-2.avif "Juguetes tradicionales de madera y semillas para sembrar son recuerdos útiles que no se quedan en la basura")
 
 ## ¿Cuántos recuerdos preparar?
 
@@ -168,8 +169,6 @@ Muchas familias buscan recuerdos que no terminen en la basura. Algunas ideas que
 
 El trompo, el balero y la lotería, además, funcionan como actividad: se enseñan a usar durante la fiesta y luego cada niño se lleva el suyo. Si quieres llevar la idea de menos plástico a toda la celebración, la guía de [fiesta infantil sustentable sin plásticos](/blog/fiesta-infantil-sustentable-sin-plasticos/) cubre decoración, desechables y comida.
 
-![Canasta de mimbre con trompos de madera, baleros, sobres de semillas y bolsitas de tela sobre una mesa en un jardín, con luz suave de tarde](/img/blog/bolsitas-y-recuerdos-fiesta-infantil-ideas/escena-2.avif "Juguetes tradicionales de madera y semillas para sembrar son recuerdos útiles que no se quedan en la basura")
-
 ## ¿Dulcero, bolsita, caja o un solo recuerdo?
 
 El formato cambia el costo, el tiempo de armado y lo que llega a casa. Estas son las tres opciones más comunes:
@@ -209,6 +208,7 @@ No hace falta que el recuerdo sea un objeto de la temática; basta con la presen
 Los inflables con temática ayudan a que todo combine sin gastar de más en decoración. El [inflable Gusanitos](/inflables/gusanitos/), apto para interiores y para niños de 2 a 8 años, funciona bien con temas de jardín y bichitos; en la [categoría de inflables temáticos](/inflables/tematicos/) están los demás modelos por tema.
 
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 
 ## ¿Qué hacer con los recuerdos que sobran?
 

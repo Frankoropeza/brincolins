@@ -92,6 +92,7 @@ Marca el camino de tu puerta al jardín con hojas de papel verde en el piso. Una
 Mantel verde, platos amarillos y un centro de mesa con macetas chicas o flores de papel. Las catarinas en vasos y servilletas se hacen con un plumón negro y una tarde libre. Si quieres un montaje más producido, la guía de [decoración completa con globos y backdrop](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/) te explica cómo coordinar todo.
 
 ![Vista lateral del Gusanitos para una fiesta de bichitos, con gusano amarillo y carpa blanca](/img/inflables/gusanitos/gusanitos-lateral-cdmx.avif)
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 
 ### Alrededor del inflable
 
@@ -141,6 +142,7 @@ Pon manualidades que se terminen en pocos minutos y que el niño pueda usar o ll
 - **Frasco de bichos:** un frasco de plástico con bichos de papel que cada niño colorea y recorta. Es la actividad más tranquila de la mesa.
 
 ![Mesa de manualidades al aire libre con antenas de limpiapipas, piedras pintadas como catarinas y mariposas de pinza](/img/blog/fiesta-de-bichitos-insectos-con-inflable/escena-1.avif "Todo cortado desde la mañana: los niños solo pegan, pintan y se llevan su trabajo.")
+![Inflable Gusanitos instalado en el patio de una escuela para la kermés](/img/inflables/gusanitos/gusanitos-kermes-escolar.avif "Gusanitos en una kermés escolar")
 
 Para que trabajen sentados, la [mesa infantil con sillitas](/servicios/mobiliario-para-fiestas/) mide 1.8 × 0.5 m, es para niños de 1 a 6 años y cuesta $550 si la rentas junto con un inflable.
 
@@ -161,6 +163,7 @@ Sirve la comida de siempre con otro nombre: un letrero junto a cada platillo hac
 Programa la comida con el inflable cerrado. Brincar recién comidos termina mal. El pastel y los bocadillos son partidas que cotizas con tus proveedores.
 
 ![Túnel verde de entrada, arco morado y gusano amarillo del Gusanitos en un patio con loseta](/img/inflables/gusanitos/gusanitos-vista-general.avif)
+![Inflable Gusanitos instalado en el área verde común de una privada](/img/inflables/gusanitos/gusanitos-privada-condominio.avif "Gusanitos en el área común de una privada")
 
 ## ¿En qué orden corre la tarde de una fiesta de bichitos?
 
@@ -186,6 +189,7 @@ La pintacaritas no se vende por separado; sólo viene en los [paquetes con pinta
 Cambia de modelo. El [inflable Jungla con dinosaurios y palmeras](/inflables/mini-jungla/) mide 5 × 3 × 2.50 m, es para niños de 3 a 8 años y lleva colores de selva que también combinan con bichos. Eso sí: es sólo para exterior y pide 4.2 m de altura libre.
 
 ![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
+![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
 
 ¿No sabes si te conviene un circuito o un brincolín? Lee la [comparativa entre circuito de túneles y brincolín](/blog/circuito-de-tuneles-vs-brincolin/) antes de decidir. Tienes más modelos con historia propia en el [catálogo de inflables temáticos](/inflables/tematicos/).
 
@@ -194,6 +198,7 @@ Cambia de modelo. El [inflable Jungla con dinosaurios y palmeras](/inflables/min
 Resuelve las caritas con antenas, alas de papel y calcomanías de bichos. Te sale más simple. Con niños de 2 a 4 años funciona igual de bien. Y si hay bebés de 1 año, suma el [Castillo Baby para bebés](/inflables/mini-castillo/), de 1 a 3 años.
 
 ![Inflable Castillo Baby instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-castillo/mini-castillo-jardin-eventos.avif "Castillo Baby en un jardín de eventos")
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 > **Bichos en diciembre, en lluvias o en patio chico.** El Gusanitos se adapta a terraza, garage o jardín; dinos dónde será y te confirmamos si cabe. [Pregunta por el Gusanitos en WhatsApp](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20el%20Gusanitos%20cabe%20en%20mi%20espacio%20para%20fiesta%20de%20insectos)
 

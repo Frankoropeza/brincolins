@@ -99,6 +99,7 @@ El error más común es colocar cada equipo donde quedó espacio, sin pensar en 
 4. Se deja un pasillo central libre para que los niños lleguen al inflable.
 
 ![Salón de eventos preparado antes de la llegada de los invitados, con mesas de banquete al frente, una pantalla LED encendida a un costado y un área libre al fondo para el área de juegos](/img/blog/pantalla-led-inflable-evento-cdmx/escena-1.avif "Distribución en L: pantalla a un costado, mesas al frente y el fondo libre para el inflable.")
+![Inflable Barco Pirata instalado en el jardín de una casa en CDMX](/img/inflables/barco-pirata/barco-pirata-jardin-casa.avif "Barco Pirata en el jardín de una casa")
 
 ### Zona de cámara
 
@@ -121,10 +122,12 @@ No todos los modelos producen el mismo efecto. Por lo que hemos visto en eventos
 **[Barco Pirata](/inflables/barco-pirata/).** Su estructura vertical lo vuelve un fondo excelente para fotografías. Cuando la pantalla ilumina el espacio con tonos azules y dorados, el barco parece escenografía. En el cumpleaños de Polanco que mencionamos, esa combinación dio la foto que los papás buscan durante todo el evento. Funciona en eventos temáticos, XV años con concepto náutico y celebraciones que buscan impacto desde la entrada.
 
 ![Inflable Barco Pirata instalado en el área verde de unas oficinas para un día familiar de empresa](/img/inflables/barco-pirata/barco-pirata-evento-empresa.avif "Barco Pirata en un día familiar de empresa")
+![Inflable Barco Pirata instalado sobre lona en el patio de cemento de una casa](/img/inflables/barco-pirata/barco-pirata-patio-cochera.avif "Barco Pirata en un patio de cemento, sobre lona")
 
 **[Extremo](/inflables/extremo/).** Es el más fotogénico cuando hay competencia: dos participantes en paralelo mientras sus tiempos aparecen en la pantalla. Es el modelo que más se renta para eventos corporativos y kermesses de primaria; las dinámicas están en la guía de [team building con retos físicos](/blog/inflables-para-adultos-eventos-corporativos/).
 
 ![Inflable Extremo instalado en el patio de una escuela para la kermés](/img/inflables/extremo/extremo-kermes-escolar.avif "Extremo en una kermés escolar")
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
 
 **[Castillo Blanco](/inflables/castillo-blanco/).** Su neutralidad lo hace ideal cuando la pantalla define el ambiente visual. Si la pantalla proyecta rosa y dorado para una quinceañera, el castillo toma esos tonos; si proyecta los colores de una empresa, se integra sin competir. Funciona como lienzo, no como un elemento más de decoración.
 

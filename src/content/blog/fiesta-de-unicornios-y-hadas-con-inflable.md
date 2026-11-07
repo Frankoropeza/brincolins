@@ -121,7 +121,8 @@ Concentra tu presupuesto en tres puntos lejos del inflable. Ahí sí luce:
 
 Los globos son marco. No protagonistas. Úsalos en racimos bajos junto a la mesa o la entrada, nunca amarrados al inflable ni donde puedan caer al área de brinco. Si quieres el reparto completo por zonas de juego, comida, descanso y fotos, revisa [cómo repartir la decoración alrededor del inflable](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/).
 
-![Entrada de castillo inflable rosa y turquesa con rampa azul en terraza de madera rodeada de plantas](/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif)
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
+![Inflable Castillo de Princesas instalado en el patio de una escuela para la kermés](/img/inflables/castillo-princesas/castillo-princesas-kermes-escolar.avif "Castillo de Princesas en una kermés escolar")
 
 > **¿Ya tienes la paleta?** Cuéntanos tu temática y tu fecha: te confirmamos disponibilidad del castillo rosa y qué necesita tu jardín. [Cotiza el castillo para tu fiesta de unicornios](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20el%20Castillo%20de%20Princesas%20para%20una%20fiesta%20de%20unicornios.%20Mi%20fecha%20es)
 
@@ -150,6 +151,7 @@ Alas de cartón o de fieltro ya recortadas, con resorte para los brazos. Sobre l
 Los de 2 a 4 años pegan calcomanías. Listo. Los de 5 en adelante diseñan, combinan colores y le ponen nombre a sus alas. Si rentas la [mesa infantil para el taller y la comida](/servicios/mobiliario-para-fiestas/), para niños de 1 a 6 años, te sirve para las dos cosas.
 
 ![Mesa de taller con alas de hada de fieltro, diademas con cuerno dorado, flores de papel y listones en tonos rosa y lila](/img/blog/fiesta-de-unicornios-y-hadas-con-inflable/escena-1.avif "Alas y cuernos ya recortados: cada niño decora el suyo y se lo lleva puesto.")
+![Inflable Castillo de Princesas instalado en el área verde común de una privada](/img/inflables/castillo-princesas/castillo-princesas-privada-condominio.avif "Castillo de Princesas en el área común de una privada")
 
 ### Cuernos de unicornio
 
@@ -164,6 +166,7 @@ Esconde gemas de plástico grandes en el pasto, entre macetas y al pie de los á
 A la mitad de la fiesta, cuando baja la energía y el castillo necesita un respiro. Mientras el grupo busca gemas, el adulto de la entrada cierra el turno sin que nadie reclame. ¿Cumple 3 años? Revisa el [cronograma por bloques para una fiesta de 3 años](/blog/fiesta-de-3-anos-ideas-inflable-cdmx/) y acomoda la búsqueda donde le toca.
 
 ![Castillo inflable rosa y azul con torres de punta visto de frente en un jardín arbolado](/img/inflables/castillo-princesas/mini-princess-renta-cdmx.avif)
+![Inflable Castillo de Princesas instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-princesas/castillo-princesas-jardin-eventos.avif "Castillo de Princesas en un jardín de eventos")
 
 ## ¿Cómo armar la mesa de dulces para que hable el mismo idioma que el castillo?
 
@@ -221,10 +224,12 @@ El Castillo Blanco. Si tus hadas forman parte de un evento formal, el rosa puede
 El [Castillo Blanco para bodas, bautizos y XV años](/inflables/castillo-blanco/) mide **5 × 7 × 4 m** y pide 4.7 m de altura libre. Es sólo para exterior y recibe a niños de **3 a 12 años**. Su precio es de **$2,600** netos por evento. Quienes brincan son los niños invitados; los adultos acompañan desde fuera.
 
 ![Inflable Castillo Blanco instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-blanco/castillo-blanco-jardin-eventos.avif "Castillo Blanco en un jardín de eventos")
+![Inflable Castillo Blanco instalado en el jardín de una casa en CDMX](/img/inflables/castillo-blanco/castillo-blanco-jardin-casa.avif "Castillo Blanco en el jardín de una casa")
 
 ¿Dudas entre los tres castillos del catálogo? La [tabla de los castillos rosa, blanco y para bebés](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) los pone lado a lado por tipo de evento. Y si dudas entre el castillo rosa y el modelo rojo, compara edades y altura en la [ficha de Dragones Rojos](/inflables/dragones-rojos/): es de 3 a 8 años y pide 4.5 m libres.
 
 ![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 ## Aparta el castillo para tu fiesta de unicornios
 

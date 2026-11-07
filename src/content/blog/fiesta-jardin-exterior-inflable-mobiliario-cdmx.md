@@ -140,6 +140,7 @@ Entre el inflable y las mesas conviene dejar un espacio con actividades tranquil
 Al menos 20% del espacio debe quedar libre: el camino de la entrada a cada zona, el área de trabajo del equipo de instalación y las salidas. Es la zona que más se sacrifica cuando se quieren meter más mesas o más decoración. No la sacrifiques.
 
 ![Jardín con mesas de madera tipo picnic a la sombra y un área de pasto libre al fondo para el juego](/img/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/escena-1.avif "Mesas a la sombra con vista al área de juego y un pasillo libre entre zonas.")
+![Toldo plegable sobre una mesa de pastel en un jardín con cielo nublado de temporada de lluvias](/img/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/escena-2.avif "En temporada de lluvias, un toldo sobre la mesa del pastel y la zona de adultos es el mejor seguro.")
 
 ## ¿Cómo protegerse del sol y la lluvia en CDMX?
 
@@ -160,8 +161,6 @@ Si tu jardín tiene árboles con buena copa, como muchos de Coyoacán, Tlalpan o
 En temporada de lluvias, de junio a octubre, la lluvia en la CDMX suele llegar entre las 15:00 y las 19:00. Una fiesta de 11:00 a 15:00 reduce mucho el riesgo. Si la fiesta tiene que ser por la tarde, la carpa es indispensable.
 
 El inflable es para uso en seco: con lluvia, granizo, tormenta eléctrica o viento fuerte, los niños salen y se deja de usar. Si el clima obliga a cancelar, la fecha se reprograma sin costo. Nuestro equipo te explica el protocolo antes de retirarse, y lo tienes resumido en la [guía de seguridad en inflables](/blog/seguridad-inflables-fiestas-infantiles/).
-
-![Toldo plegable sobre una mesa de pastel en un jardín con cielo nublado de temporada de lluvias](/img/blog/fiesta-jardin-exterior-inflable-mobiliario-cdmx/escena-2.avif "En temporada de lluvias, un toldo sobre la mesa del pastel y la zona de adultos es el mejor seguro.")
 
 ## ¿Cuánto presupuesto asignar a cada elemento?
 

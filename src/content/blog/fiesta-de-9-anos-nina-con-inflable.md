@@ -43,6 +43,7 @@ faqs:
 Una fiesta de 9 años puede aprovechar el [Castillo de Princesas inflable](/inflables/castillo-princesas/) si el grupo principal tiene hasta 10 años y hay jardín o patio exterior. Mide 5 × 3.30 × 3 m, pide 4.2 m de altura libre y funciona mejor en dos bloques cortos, alternados con retos por equipos, fotos y una actividad de mesa.
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 **Puntos clave**
 
@@ -106,6 +107,7 @@ Prueba una combinación como esta:
 No hace falta ofrecer premios costosos. Un sello, una pulsera de color o escoger el orden de la foto puede ser suficiente. La fiesta no debería depender de que alguien “gane” el brinco. Si tu prioridad son las fotos, tómalas afuera del castillo y entre turnos, para no estorbar el juego.
 
 ![Dos equipos de niñas de unos 9 años, de espaldas, leyendo tarjetas de pistas en un jardín](/img/blog/fiesta-de-9-anos-nina-con-inflable/escena-1.avif "Las pistas se resuelven afuera; el turno en el castillo es el premio.")
+![Inflable Castillo de Princesas instalado en el patio de una escuela para la kermés](/img/inflables/castillo-princesas/castillo-princesas-kermes-escolar.avif "Castillo de Princesas en una kermés escolar")
 
 ## ¿Cómo mantienes seguros los turnos cuando llegan niñas de otras edades?
 
@@ -116,6 +118,7 @@ Una persona adulta debe vigilar el área durante todo el evento. Puede hacer tre
 Para los hermanos menores de 1 a 3 años, el modelo que corresponde es el [Castillo Baby para bebés](/inflables/mini-castillo/). Cambiar de grupo no es excluirlos: es darles un juego acorde con su etapa y dejar que las amigas de la festejada tengan un turno cómodo.
 
 ![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 ## ¿Cuándo es mejor cambiar a un modelo con otra dinámica?
 

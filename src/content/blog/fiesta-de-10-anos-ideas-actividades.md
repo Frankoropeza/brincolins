@@ -74,6 +74,7 @@ Porque convierte la atracción en competencia y tú no tienes que inventar nada.
 El Extremo mide **8 × 4.5 × 3.50 m**, pide **4.5 m de altura libre**, se instala en **30 minutos** y es sólo para exterior. Su rango es de **3 a 12 años**, así que el grupo de 5.º cae justo en la parte alta, donde el formato competitivo rinde más: ya tienen coordinación para el recorrido completo y les importa el resultado. Las fotos y lo que incluye la renta las tienes en la [ficha del circuito Extremo](/inflables/extremo/).
 
 ![Frente del Extremo para una fiesta de 10 años, con dos túneles, tobogán azul y arcos morados](/img/inflables/extremo/extremo-carrera-cdmx.avif)
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 Un modelo para niños de 3 a 8 años les queda chico en tamaño y en reto. Si quieres ver juntos los modelos hechos para correr, revisa la sección de [inflables con pista de obstáculos](/inflables/con-obstaculos/).
 
@@ -112,6 +113,7 @@ Arma los enfrentamientos de dos en dos con el doble carril. Los ganadores avanza
 Dibuja la llave en un pliego de papel kraft y pégala junto a la salida del circuito. Escribe los nombres a mano conforme avanzan. Ver su nombre subir es media emoción. Te vas a topar con niños que regresan solos a revisar contra quién les toca.
 
 ![Pliego de papel kraft pegado en una barda con una llave de eliminatoria dibujada a mano, junto a un cronómetro y un silbato sobre una mesa](/img/blog/fiesta-de-10-anos-ideas-actividades/escena-1.avif "Una llave dibujada a mano y un cronómetro bastan para organizar la eliminatoria")
+![Inflable Extremo instalado en el patio de una escuela para la kermés](/img/inflables/extremo/extremo-kermes-escolar.avif "Extremo en una kermés escolar")
 
 #### Reglas que se dicen antes de la primera salida
 
@@ -146,12 +148,14 @@ Darles a todos un lugar claro, separado del grupo de 5.º. A tu fiesta llegan he
 Pueden usar el Extremo, pero nunca en el mismo turno que los de 10. En un circuito de velocidad, la diferencia de tamaño es la receta de un golpe. Si tienes varios, dales su turno propio, sin cronómetro, antes de las carreras de los grandes.
 
 ![Circuito Extremo completo con túneles, obstáculos y arcos morados frente a una barda de block](/img/inflables/extremo/extremo-lateral-evento.avif)
+![Inflable Extremo instalado en el área verde común de una privada](/img/inflables/extremo/extremo-privada-condominio.avif "Extremo en el área común de una privada")
 
 ### Los bebés de 1 a 3 años
 
 No entran al circuito. Sin excepciones. Si vienen varios, sus papás te lo van a agradecer: el [Castillo Baby para los más chiquitos](/inflables/mini-castillo/) mide 2.5 × 2 × 2 m, cuesta **$1,400** y se instala en 15 minutos. Cuando la fiesta junta dos edades muy separadas, como pasa en una [fiesta para gemelos o hermanos de edades distintas](/blog/fiesta-de-gemelos-o-hermanos-con-inflable/), combinar los dos inflables evita el problema de raíz.
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 ### Los mayores de 12 y los adultos
 
@@ -173,6 +177,7 @@ Elige el Extremo si tu fiesta gira alrededor de competir, y el Barco Pirata si p
 La conclusión práctica: el doble carril es lo que permite carreras justas y eliminatorias, y sólo lo tiene el Extremo. El [Barco Pirata para fiestas de piratas](/inflables/barco-pirata/) pide más altura libre, 5.2 m, y gana cuando tu festejado sueña con barcos y tesoros. Los [Dragones Rojos, de 3 a 8 años](/inflables/dragones-rojos/), son una buena opción para hermanos menores, pero su rango ya no alcanza al grupo de 5.º.
 
 ![Inflable Barco Pirata instalado en el área verde común de una privada](/img/inflables/barco-pirata/barco-pirata-privada-condominio.avif "Barco Pirata en el área común de una privada")
+![Inflable Barco Pirata instalado en el jardín de una casa en CDMX](/img/inflables/barco-pirata/barco-pirata-jardin-casa.avif "Barco Pirata en el jardín de una casa")
 
 ## ¿Cómo repartir la tarde en bloques?
 

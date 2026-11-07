@@ -87,18 +87,21 @@ La conclusión te cabe en dos líneas. ¿Tu venue es exterior? Extremo más Cast
 Es un circuito de 8 metros con pista de obstáculos, tobogán doble y doble carril para competencias. Permite carreras entre los hijos de distintas áreas y mueve la fila rápido. Se instala en 30 minutos. La galería y lo que incluye la renta están en la [ficha técnica del circuito Extremo](/inflables/extremo/).
 
 ![Pista larga del Extremo sobre pasto para el family day de una empresa, con edificios al fondo](/img/inflables/extremo/extremo-pista-obstaculos.avif)
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 ### Castillo Baby: la zona tranquila de 1 a 3 años
 
 Los más chicos no deben entrar a un circuito donde corren niños de 10. Para ellos está el [Castillo Baby para hijos de 1 a 3 años](/inflables/mini-castillo/): mide 2.5 × 2 × 2 m, admite interiores y se instala en 15 minutos. Ubícalo lejos de la salida del circuito. Los papás de bebés te lo van a agradecer.
 
 ![Inflable Castillo Baby instalado en el área verde de unas oficinas para un día familiar de empresa](/img/inflables/mini-castillo/mini-castillo-evento-empresa.avif "Castillo Baby en un día familiar de empresa")
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 ### Venue techado o evento grande
 
 Si el venue es bajo techo, el Extremo queda fuera. El [circuito de túneles Gusanitos](/inflables/gusanitos/) admite interiores, es para niños de 2 a 8 años y aguanta grupos de edades mezcladas. En eventos grandes al aire libre, el [Barco Pirata como segunda atracción](/inflables/barco-pirata/) reparte a los de 3 a 12 años entre dos inflables. Todos los modelos de recorrido están en la sección de [inflables con obstáculos para eventos](/inflables/con-obstaculos/).
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 > **¿Ya tienes la lista de edades?** Mándanosla con la fecha y la dirección del venue, y te proponemos la combinación de inflables para tu family day. [Enviar los datos del family day](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20area%20infantil%20de%20un%20family%20day%20de%20empresa)
 
@@ -172,6 +175,7 @@ Tienes que cerrar el acceso del vehículo, el horario de montaje, la corriente, 
 Si el área es de concreto, lo que cambia (lastre, lona, pendiente) lo tienes en la guía para [instalar el circuito en explanada o estacionamiento](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/). ¿Y dónde va el área? Cerca de las mesas de las familias, lejos de las bocinas y de la zona de comida, con sombra para la fila y agua a la mano.
 
 ![Jardín de eventos con mesas para familias bajo carpas, un área infantil delimitada con vallas bajas y una mesa con agua junto a la fila](/img/blog/family-day-empresa-inflables-para-hijos/escena-1.avif "El área infantil, a la vista de las mesas y lejos de las bocinas y la cocina")
+![Inflable Extremo instalado en el patio de una escuela para la kermés](/img/inflables/extremo/extremo-kermes-escolar.avif "Extremo en una kermés escolar")
 
 Para la logística del evento completo, la guía sobre inflables para eventos de empresa que enlazamos arriba complementa este plan.
 
@@ -194,6 +198,7 @@ Un torneo por edades o una temática sencilla convierten los inflables en un pro
 Categorías por edad, llaves de dos en dos y premiación antes del cierre. El control de fila lo llevan los mismos roles de salida, fila y llegada que repasamos en la sección de supervisión. Si muchos invitados rondan los 10 años, los [retos por equipos de una fiesta de 10 años](/blog/fiesta-de-10-anos-ideas-actividades/) se trasladan casi tal cual.
 
 ![Circuito Extremo en un jardín con palmeras: túneles, pista larga y tobogán azul con amarillo](/img/inflables/extremo/extremo-tobogan-doble.avif)
+![Inflable Extremo instalado en el área verde común de una privada](/img/inflables/extremo/extremo-privada-condominio.avif "Extremo en el área común de una privada")
 
 ### Una historia para los más chicos
 

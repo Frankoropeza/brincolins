@@ -68,6 +68,7 @@ A esta edad el juego es corto, sensorial y con un adulto cerca. No esperes regla
 **Cómo combinarlo con el inflable:** para esta edad el modelo adecuado es uno compacto como el [Castillo Baby](/inflables/mini-castillo/), pensado para niños de 1 a 3 años. Los turnos deben ser cortos y con pocos niños, siempre con un adulto mirando de frente. Las burbujas cerca del inflable funcionan muy bien como zona de espera.
 
 ![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 ## ¿Qué juegos funcionan con niños de 4 a 6 años?
 
@@ -104,6 +105,7 @@ Aquí ya hay competencia de verdad y ganas de demostrar habilidad. Los juegos en
 **Cómo combinarlo con el inflable:** con niños de esta edad un circuito suma mucho, porque convierte el inflable en otra estación de competencia. El [inflable Gusanitos](/inflables/gusanitos/), de túneles con varias entradas y salidas, funciona bien para recorridos por turnos. Los relevos y la búsqueda del tesoro pueden terminar con una vuelta al inflable como premio.
 
 ![Mesa con materiales para juegos de fiesta infantil: costales, conos, aros, pañuelos y una cubeta con pelotas](/img/blog/juegos-para-fiesta-infantil-ideas-por-edad/escena-1.avif "Tener los materiales separados por juego agiliza los cambios de estación")
+![Jardín de casa con niños de espaldas formando fila a distancia de un inflable al fondo mientras otro grupo juega con aros en el pasto](/img/blog/juegos-para-fiesta-infantil-ideas-por-edad/escena-2.avif "Dos estaciones a la vez: un grupo espera turno en el inflable y otro juega en el pasto")
 
 ## ¿Qué juegos funcionan con niños de 10 a 12 años?
 
@@ -157,8 +159,6 @@ La renta del inflable cubre un evento de 4 a 6 horas, así que conviene organiza
 | Cierre (30 min) | Último turno para todos | Entrega de premios o recuerdos |
 
 Cerrar el inflable durante la comida tiene dos ventajas: los niños comen sentados y nadie brinca con el estómago lleno. Si estás definiendo la duración total, la guía de [cuántas horas dura una fiesta infantil con inflable](/blog/horario-fiesta-infantil-cuantas-horas-inflable/) te ayuda a cuadrar horarios con la instalación y la recolección.
-
-![Jardín de casa con niños de espaldas formando fila a distancia de un inflable al fondo mientras otro grupo juega con aros en el pasto](/img/blog/juegos-para-fiesta-infantil-ideas-por-edad/escena-2.avif "Dos estaciones a la vez: un grupo espera turno en el inflable y otro juega en el pasto")
 
 ## ¿Qué materiales conviene tener listos?
 

@@ -48,6 +48,7 @@ Para una fiesta pirata infantil con tobogán inflable, usa el Barco Pirata como 
 - Si van niños de 1 a 3 años, dales un turno exclusivo o un inflable aparte.
 
 ![Inflable Barco Pirata instalado sobre lona en el patio de cemento de una casa](/img/inflables/barco-pirata/barco-pirata-patio-cochera.avif "Barco Pirata en un patio de cemento, sobre lona")
+![Inflable Barco Pirata instalado en el jardín de una casa en CDMX](/img/inflables/barco-pirata/barco-pirata-jardin-casa.avif "Barco Pirata en el jardín de una casa")
 
 ## ¿Por qué la temática pirata funciona tan bien?
 
@@ -85,6 +86,7 @@ Con el barco como elemento central, la mitad de la decoración ya está resuelta
 > **Idea de decoración:** arma una "entrada al puerto pirata" con un arco de globos negros y dorados y un letrero de "Bienvenidos a la Isla del Tesoro" con el nombre del festejado como capitán.
 
 ![Mesa de fiesta pirata con cofre de cartón lleno de monedas doradas, mapas de papel kraft y banderas negras en un jardín](/img/blog/fiesta-pirata-infantil-tobogan-cdmx/escena-1.avif "Cofres, mapas y banderas bastan para completar el ambiente pirata alrededor del inflable.")
+![Inflable Barco Pirata instalado en el patio de una escuela para la kermés](/img/inflables/barco-pirata/barco-pirata-kermes-escolar.avif "Barco Pirata en una kermés escolar")
 
 ## ¿Qué juegos piratas complementan el inflable?
 
@@ -154,6 +156,7 @@ El Barco Pirata es para niños de 3 a 12 años. Si van bebés o niños de 1 y 2 
 - **Un segundo inflable pequeño**, como el [Castillo Baby](/inflables/mini-castillo/) (2.5 × 2 × 2 m, de 1 a 3 años, $1,400), en otra esquina del patio. Así los chiquitos tienen su propio "bote" y los grandes juegan sin cuidarse de pisar a nadie.
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 ## ¿Qué errores son comunes en una fiesta pirata con inflable?
 

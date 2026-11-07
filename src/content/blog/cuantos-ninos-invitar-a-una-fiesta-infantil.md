@@ -88,6 +88,7 @@ Algunas señales de que el espacio no da para más invitados:
 En un departamento el número cómodo de invitados es menor. Ahí conviene un inflable chico apto para interiores, como el [Castillo Baby](/inflables/mini-castillo/), pensado para niños de 1 a 3 años, y una lista corta. Si la familia es grande, una opción es hacer la fiesta en dos momentos: niños por la tarde y adultos más tarde, o mover la celebración a un patio o salón.
 
 ![Patio de una casa con mesas plegables acomodadas a un costado, sillas infantiles y un área de pasto libre al fondo, luz de mediodía](/img/blog/cuantos-ninos-invitar-a-una-fiesta-infantil/escena-1.avif "Repartir el patio en zona de juego, zona de mesas y pasillos ayuda a saber cuántos invitados caben de verdad")
+![Grupo de niños de espaldas formados en fila junto a la entrada de un inflable en un jardín, con un adulto a un lado organizando el turno](/img/blog/cuantos-ninos-invitar-a-una-fiesta-infantil/escena-2.avif "Con listas grandes, los turnos por edad y un adulto en la entrada mantienen el orden en el inflable")
 
 ## ¿Cuántos niños alcanzan con tu presupuesto?
 
@@ -162,6 +163,7 @@ Los precios son netos por evento de 4 a 6 horas, con entrega, instalación, moto
 Si la lista pasa de un grupo mediano, los modelos de la [categoría de inflables grandes](/inflables/grandes/) dan más espacio de juego. El [Castillo Blanco](/inflables/castillo-blanco/) mide 5 × 7 × 4 m y es de los más amplios del catálogo, pensado para niños de 3 a 12 años. Para comparar opciones con calma, la guía de [cómo elegir un inflable para una fiesta infantil](/blog/como-elegir-inflable-fiesta-infantil/) ordena los criterios paso a paso.
 
 ![Inflable Castillo Blanco instalado en el patio de una escuela para la kermés](/img/inflables/castillo-blanco/castillo-blanco-kermes-escolar.avif "Castillo Blanco en una kermés escolar")
+![Inflable Castillo Blanco instalado en el jardín de una casa en CDMX](/img/inflables/castillo-blanco/castillo-blanco-jardin-casa.avif "Castillo Blanco en el jardín de una casa")
 
 ### ¿Cómo funcionan los turnos con muchos niños?
 
@@ -173,8 +175,6 @@ Con grupos grandes, nadie debería brincar con niños mucho más grandes o más 
 4. Rota hasta que todos hayan pasado varias veces.
 
 La piñata es un buen momento para mover a todos fuera del inflable a la vez. La guía de [piñata para fiesta infantil: tamaño y reglas](/blog/pinata-fiesta-infantil-tamano-y-reglas/) explica cómo ordenar los turnos y a qué distancia del inflable colgarla.
-
-![Grupo de niños de espaldas formados en fila junto a la entrada de un inflable en un jardín, con un adulto a un lado organizando el turno](/img/blog/cuantos-ninos-invitar-a-una-fiesta-infantil/escena-2.avif "Con listas grandes, los turnos por edad y un adulto en la entrada mantienen el orden en el inflable")
 
 ## ¿Familia, escuela o solo amigos?
 

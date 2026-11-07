@@ -43,6 +43,7 @@ faqs:
 Una **zona infantil en pedida de mano** funciona con el [Castillo Blanco para eventos formales](/inflables/castillo-blanco/) si la sede tiene un jardín exterior con 4.7 m de altura libre. Es para niñas y niños de 3 a 12 años, mide 5 × 7 × 4 m y se instala en unos 30 minutos. Ábrelo después del anillo, en un lateral y con una persona adulta a cargo.
 
 ![Inflable Castillo Blanco instalado en el jardín de una casa en CDMX](/img/inflables/castillo-blanco/castillo-blanco-jardin-casa.avif "Castillo Blanco en el jardín de una casa")
+![Inflable Castillo Blanco instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-blanco/castillo-blanco-patio-cochera.avif "Castillo Blanco en un patio de cemento, sobre lona")
 
 **Puntos clave**
 
@@ -151,10 +152,12 @@ En las pedidas es común que haya sobrinos de todas las edades. El Castillo Blan
 - **Una zona sin inflable.** Tapetes, juguetes de bloques y una mesita, cerca de donde están los papás. Para bebés de meses suele ser suficiente y no requiere instalación.
 
 ![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 Lo que no conviene es mezclar a un niño de 10 años con uno de 2 en el mismo inflable. La diferencia de tamaño es justo lo que causa choques.
 
 ![Mesas familiares en un jardín con un área de juego infantil al fondo, separada por un pasillo de pasto](/img/blog/inflable-en-pedida-de-mano-o-compromiso/escena-1.avif "La zona infantil a un costado, visible desde las mesas y lejos del fondo de fotos.")
+![Inflable Castillo Blanco instalado en el área verde común de una privada](/img/inflables/castillo-blanco/castillo-blanco-privada-condominio.avif "Castillo Blanco en el área común de una privada")
 
 ## ¿Qué revisar el día de la pedida?
 

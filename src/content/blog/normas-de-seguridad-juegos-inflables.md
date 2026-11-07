@@ -105,6 +105,7 @@ En superficies duras no se pueden clavar estacas. Ahí se usan lastres o sacos d
 Si un punto de anclaje queda libre, el inflable no está listo. Da igual que sea "solo uno" o que el patio esté protegido del viento.
 
 ![Estacas y cintas de anclaje bien tensadas en la base de un inflable sobre pasto](/img/blog/normas-de-seguridad-juegos-inflables/escena-1.avif "Cada punto de anclaje sujeto y con la cinta tensa")
+![Familia retirando a los niños de un inflable genérico mientras el cielo se nubla sobre un jardín](/img/blog/normas-de-seguridad-juegos-inflables/escena-2.avif "Ante viento o lluvia, primero se baja a los niños")
 
 ## ¿Qué deben tener las paredes y las mallas?
 
@@ -185,8 +186,6 @@ Una lona mojada es resbalosa y el agua acumulada pesa. Con lluvia, el juego se s
 ### Calor y sol directo
 
 En días de mucho sol, la lona se calienta. Conviene revisar la temperatura con la mano antes de cada turno, programar pausas con agua y, si se puede, orientar el inflable para que reciba sombra por la tarde.
-
-![Familia retirando a los niños de un inflable genérico mientras el cielo se nubla sobre un jardín](/img/blog/normas-de-seguridad-juegos-inflables/escena-2.avif "Ante viento o lluvia, primero se baja a los niños")
 
 ## ¿Qué preguntarle al proveedor sobre seguridad?
 

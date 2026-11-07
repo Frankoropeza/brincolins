@@ -56,6 +56,7 @@ Antes de comprar un solo globo, **pregúntale al festejado qué temática quiere
 Un brincolín es diversión y también el centro de atención de la fiesta: mantiene a los niños ocupados buena parte de la tarde. Elige uno que **vaya con la temática y con la edad**: el [Castillo de Princesas](/inflables/castillo-princesas/) ($1,800, de 2 a 10 años) para fiestas de cuento, el [Barco Pirata](/inflables/barco-pirata/) ($2,300, de 3 a 12 años) para aventureros, el [Jungla](/inflables/mini-jungla/) ($1,600, de 3 a 8 años) para safaris o el [Extremo](/inflables/extremo/) ($2,500, de 3 a 12 años) para quienes quieren retos y carreras. Si el festejado tiene de 1 a 3 años, el modelo correcto es el [Castillo Baby](/inflables/mini-castillo/), de $1,400. La comparación completa está en la [guía para elegir el inflable](/blog/como-elegir-inflable-fiesta-infantil/).
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 > Coloca el inflable lejos de la mesa de adultos para que los papás platiquen con calma, y respeta la capacidad confirmada para el modelo.
 
@@ -165,6 +166,7 @@ Los papás también necesitan su espacio: sillas, mesa y una botana lejos del ru
 Eso sí, que la zona de adultos tenga vista al inflable y no quede de espaldas a los niños. Asigna a un adulto por turno para vigilar la entrada y la salida del brincolín, y rota cada media hora para que nadie se quede sin comer.
 
 ![Zona de descanso para adultos con sillas y mesa a la sombra, con vista despejada al área de juego del jardín](/img/blog/ideas-fiesta-infantil-cdmx/escena-1.avif "La zona de adultos funciona mejor a la sombra y con vista directa al área de juego.")
+![Inflable Castillo de Princesas instalado en el patio de una escuela para la kermés](/img/inflables/castillo-princesas/castillo-princesas-kermes-escolar.avif "Castillo de Princesas en una kermés escolar")
 
 ## 10. Contrata con anticipación
 

@@ -47,6 +47,7 @@ Para una fiesta temática safari con inflable, elige el Jungla como pieza centra
 - Las actividades de explorador van fuera del inflable y la pintura de caras, después del primer turno de brinco.
 
 ![Inflable Jungla instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-jungla/mini-jungla-jardin-eventos.avif "Jungla en un jardín de eventos")
+![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
 
 ## ¿Por qué la temática safari es tan popular?
 
@@ -72,6 +73,7 @@ El **Jungla** es la opción principal. Su diseño incorpora animales de la selva
 - **[Barco Pirata](/inflables/barco-pirata/) ($2,300):** si quieres darle un giro de expedición y descubrimiento con niños de hasta 12 años.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 El espacio y la capacidad de cada modelo se confirman al cotizar.
 
@@ -123,6 +125,7 @@ Rodea el Jungla con plantas artificiales altas, palmeras de cartón y animales d
 > **Idea de presupuesto:** las hojas artificiales, los peluches y las guirnaldas se reutilizan en futuras fiestas o se revenden con facilidad. Invierte una vez y amortiza el costo.
 
 ![Mesa de fiesta safari con mantel verde, camino de mesa de leopardo, hojas tropicales y animales de juguete en un jardín](/img/blog/fiesta-tematica-safari-inflable-cdmx/escena-1.avif "Verdes, dorados y un toque de animal print bastan para la mesa principal.")
+![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
 
 ## ¿Qué actividades complementan la aventura safari?
 

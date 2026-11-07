@@ -42,6 +42,7 @@ faqs:
 Si hay un **niño con miedo al inflable**, no lo metas ni lo convenzas con presión. Deja que observe, pregúntale qué le inquieta y ofrécele una prueba breve con salida fácil. El [inflable Gusanitos, un circuito de túneles](/inflables/gusanitos/) para 2 a 8 años, puede ayudar porque tiene varias entradas y salidas visibles. Entrar siempre es decisión del niño.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 **Puntos clave**
 
@@ -115,6 +116,7 @@ Si tu hijo disfruta explorar, esconderse un instante y volver a verte, el recorr
 | Mucho ruido en el salón | Bajar la bocina durante el primer bloque de juego | Añadir consignas gritadas o música junto a la entrada |
 
 ![Niño pequeño de espaldas tomado de la mano de un adulto, observando a distancia una zona de juego en un patio con globos](/img/blog/inflable-para-ninos-timidos-o-con-miedo/escena-1.avif "Mirar primero, de la mano de alguien conocido, también es participar.")
+![Inflable Gusanitos instalado en el patio de una escuela para la kermés](/img/inflables/gusanitos/gusanitos-kermes-escolar.avif "Gusanitos en una kermés escolar")
 
 ## ¿Qué reglas hacen más fácil que un niño se anime cuando quiera?
 
@@ -145,6 +147,7 @@ Primero compara la edad de los invitados y el lugar. Gusanitos está indicado pa
 No elijas únicamente porque crees que “lo obligará a socializar”. Un inflable es una actividad dentro de la fiesta, no una prueba. Si habrá niños de un año, el modelo indicado por edad es el [Castillo Baby para niñas y niños de 1 a 3 años](/inflables/mini-castillo/). Si quieres revisar cómo cambia la elección para los más pequeños, consulta también [desde qué edad puede usar un bebé un brincolín](/blog/mejor-inflable-para-ninos-menores-de-3-anos/).
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 También importa la fecha y el sitio. Si vas a usar salón o terraza techada, mide al punto más bajo del techo antes de reservar decoración. En los [inflables para interiores de BRINCOLINS](/inflables/para-interiores/) puedes ubicar los modelos que parten de esa condición, pero la confirmación final se hace con los datos reales de tu espacio.
 

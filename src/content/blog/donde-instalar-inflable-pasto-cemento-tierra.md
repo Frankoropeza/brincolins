@@ -78,6 +78,7 @@ Antes del tipo de piso revisa cinco condiciones: superficie plana y despejada, p
 El espacio libre exacto alrededor se confirma al cotizar, con fotos del lugar. Tú sólo mandas las fotos.
 
 ![Dragones Rojos instalado en una terraza exterior sobre pasto sintético, con espacio libre alrededor](/img/inflables/dragones-rojos/dragones-terraza-exterior.avif)
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
 
 ## ¿Qué superficies aguantan un inflable y cuáles no?
 
@@ -152,6 +153,7 @@ Recórrela de lado a lado. Si sientes un hoyo, una raíz salida o un escalón, m
 Coladeras, registros y aspersores pueden quedar justo debajo del inflable. Márcalos con un objeto visible, como una cubeta o un cono, para que el instalador los vea en cuanto llega y los considere al acomodar el inflable sin que tengas que estar ahí explicándolo.
 
 ![Jardín despejado y barrido con una cubeta marcando un aspersor, un rastrillo y una cinta métrica sobre el pasto](/img/blog/donde-instalar-inflable-pasto-cemento-tierra/escena-1.avif "Área barrida, desniveles revisados y aspersores marcados: así conviene recibir al equipo")
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 ## ¿Cuánta distancia dejar a muros, árboles y cables?
 
@@ -168,10 +170,12 @@ Esta tabla compara la altura libre que pide cada inflable mediano y grande del c
 | Barco Pirata | 3.80 m | 5.2 m | No, sólo exterior |
 
 ![Dragones Rojos instalado sobre pasto sintético en una terraza urbana con estructura metálica al fondo](/img/inflables/dragones-rojos/dragones-detalle-exterior.avif)
+![Inflable Dragones Rojos instalado en el patio de una escuela para la kermés](/img/inflables/dragones-rojos/dragones-rojos-kermes-escolar.avif "Dragones Rojos en una kermés escolar")
 
 Mide con cinta desde el piso hasta el punto más bajo de la rama o del cable. ¿Menos de 4.5 m? El Dragones Rojos no entra ahí. Con 4.2 m, la [Jungla, que mide 2.50 m de alto](/inflables/mini-jungla/), sí puede. En el otro extremo, el [inflable Barco Pirata](/inflables/barco-pirata/) pide 5.2 m y es de los que más espacio vertical necesitan. Si tu lugar es techado, el [Gusanitos, el mediano que va bajo techo](/inflables/gusanitos/), es la opción.
 
 ![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
+![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
 
 Respecto a muros y bardas: deja espacio para que el inflable no quede recargado. Evita colocarlo junto a escalones, albercas, macetas grandes o bordes de terraza. Si tienes duda, pregúntanos.
 

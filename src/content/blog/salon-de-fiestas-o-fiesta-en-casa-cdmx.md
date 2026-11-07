@@ -89,6 +89,7 @@ Lo que tienes que resolver:
 - **Baño, limpieza y estacionamiento.**
 
 ![Patio de una casa en la Ciudad de México preparado para una fiesta infantil, con mesas, sillas plegables y espacio libre al fondo](/img/blog/salon-de-fiestas-o-fiesta-en-casa-cdmx/escena-1.avif "En casa, el espacio se reparte entre inflable, mesa y paso de los adultos.")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 ### ¿Y si vives en departamento?
 
@@ -155,6 +156,7 @@ El traslado del inflable se cobra según la alcaldía o municipio, así que tamb
 Para una fiesta de niñas en jardín o salón con área descubierta, el [Castillo de Princesas, para niñas y niños de 2 a 10 años](/inflables/castillo-princesas/), funciona bien. Si el salón sólo tiene área techada, el catálogo de [inflables para interiores](/inflables/para-interiores/) te dice cuáles entran.
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado en el patio de una escuela para la kermés](/img/inflables/castillo-princesas/castillo-princesas-kermes-escolar.avif "Castillo de Princesas en una kermés escolar")
 
 En todos los casos, el espacio libre alrededor del modelo se confirma al cotizar con tus medidas.
 

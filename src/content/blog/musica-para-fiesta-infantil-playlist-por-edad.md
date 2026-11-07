@@ -77,6 +77,7 @@ Siguen bailando, pero ya no quieren canciones "de bebés". Funcionan las cumbias
 Pregúntale al festejado. A esta edad la música es parte de su identidad y a veces la lista que armaron sus papás les da vergüenza frente a sus amigos. Pídele que proponga canciones y revisa tú las letras antes: casi todas las plataformas tienen versiones sin contenido explícito. Si la fiesta es de preadolescentes, conviene sumar actividades que los hagan sentir grandes, como un concurso de baile por equipos o un karaoke.
 
 ![Mesa de jardín con una bocina portátil, un celular y una libreta con lista de canciones escrita a mano, junto a vasos y una jarra de agua, luz de mediodía](/img/blog/musica-para-fiesta-infantil-playlist-por-edad/escena-1.avif "Separar la música en listas por momento evita buscar canciones con la fiesta encima")
+![Patio de casa con una bocina sobre una mesa firme junto a la pared de la casa, orientada hacia el interior del patio, con el área de juego despejada al fondo, luz de tarde](/img/blog/musica-para-fiesta-infantil-playlist-por-edad/escena-2.avif "La bocina sobre una mesa firme, orientada hacia la casa y lejos del área de juego, se escucha bien sin molestar")
 
 ## ¿Qué canciones poner en cada momento de la fiesta infantil?
 
@@ -129,8 +130,6 @@ En casas pegadas, privadas y edificios, la música es lo que más se escucha del
 - **Baja el volumen al anochecer** y apágala a una hora razonable.
 - **En privadas y condominios**, revisa el reglamento: muchos fijan horarios de ruido. La guía sobre [fiestas infantiles en privada o condominio](/blog/fiesta-infantil-en-privada-o-condominio-cdmx/) explica qué preguntar a la administración.
 
-![Patio de casa con una bocina sobre una mesa firme junto a la pared de la casa, orientada hacia el interior del patio, con el área de juego despejada al fondo, luz de tarde](/img/blog/musica-para-fiesta-infantil-playlist-por-edad/escena-2.avif "La bocina sobre una mesa firme, orientada hacia la casa y lejos del área de juego, se escucha bien sin molestar")
-
 ## ¿Dónde poner la bocina si hay inflable?
 
 La bocina va lejos del inflable, de su motor y del paso de los niños. Parece un detalle, pero una bocina mal ubicada es de los tropiezos más comunes en una fiesta: un cable cruzado en el pasto, una bocina en el piso junto a la entrada o una extensión compartida con el motor.
@@ -172,6 +171,7 @@ Para la mayoría de las fiestas en casa, una bocina portátil con batería es su
 Si la fiesta tiene bloques de baile y juegos musicales, conviene que el inflable sea un espacio de juego por turnos que complemente, no que compita. Para niños de 2 a 8 años y espacios techados, el [Gusanitos, el mediano apto para interiores](/inflables/gusanitos/), funciona bien en salones donde la música y el inflable comparten espacio. Para grupos grandes de 3 a 12 años en exterior, el [Extremo, con circuito de obstáculos](/inflables/extremo/), canaliza la energía de los más grandes entre bloques de baile. Puedes comparar todos los modelos en la [categoría de brincolines](/inflables/brincolines/).
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+![Inflable Gusanitos instalado en el patio de una escuela para la kermés](/img/inflables/gusanitos/gusanitos-kermes-escolar.avif "Gusanitos en una kermés escolar")
 
 ## ¿Cambia la música según la zona donde sea la fiesta?
 

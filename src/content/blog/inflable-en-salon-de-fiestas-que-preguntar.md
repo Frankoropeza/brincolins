@@ -84,12 +84,14 @@ Muchos salones infantiles tienen un jardín o un patio además del área techada
 ¿La temática es de fantasía? Las [paletas para unicornios, hadas y mariposas](/blog/fiesta-de-unicornios-y-hadas-con-inflable/) combinan con el castillo y te ayudan a decorar sin saturar el jardín del salón.
 
 ![Castillo rosa y azul de torres en jardín con árboles, área descubierta para inflable en salón de fiestas](/img/inflables/castillo-princesas/mini-princess-renta-cdmx.avif)
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
 
 ### Salón completamente techado
 
 Si todo es techado, tienes dos opciones. El [Castillo Baby para salones techados](/inflables/mini-castillo/), para niños de 1 a 3 años. Y [Gusanitos, el circuito que sí entra bajo techo](/inflables/gusanitos/), para niños de 2 a 8 años. Los dos piden **3.2 m de altura libre**. Gusanitos es más circuito que brincolín: túneles de colores con varias entradas y salidas que funcionan con edades mezcladas.
 
 ![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 Puedes verlos junto con los demás [inflables aptos para interiores](/inflables/para-interiores/).
 
@@ -147,12 +149,14 @@ Pregunta cuánto tiempo tienes para desmontar. Si el salón tiene otra fiesta en
 Si la fecha del salón todavía no es definitiva, lee la [política de cancelación de BRINCOLINS](/politica-de-cancelacion/) antes de apartar el inflable.
 
 ![Castillo de Princesas rosa con azul turquesa, torres de punta y resbaladilla rosa al costado en un jardín](/img/inflables/castillo-princesas.avif)
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 ## ¿Por dónde entra el equipo desde el estacionamiento?
 
 Por el acceso de carga más corto y sin escalones, si existe. El inflable enrollado y el motor pesan y ocupan espacio. Hay que moverlos de la camioneta al área, y ese recorrido define cuánto tarda la instalación.
 
 ![Pasillo de servicio de un salón de fiestas con puerta doble abierta hacia un jardín, visto desde el estacionamiento](/img/blog/inflable-en-salon-de-fiestas-que-preguntar/escena-1.avif "El recorrido del estacionamiento al área define cuánto tarda la instalación.")
+![Inflable Castillo de Princesas instalado en el patio de una escuela para la kermés](/img/inflables/castillo-princesas/castillo-princesas-kermes-escolar.avif "Castillo de Princesas en una kermés escolar")
 
 Pregunta estas cuatro cosas en la visita y, si tienes dudas, toma fotos del recorrido:
 

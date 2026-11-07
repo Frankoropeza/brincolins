@@ -51,6 +51,7 @@ Las princesas siguen siendo una de las temáticas favoritas para **fiestas infan
 En los eventos que atendemos en la **CDMX y la zona metropolitana**, las princesas son la temática que más nos piden cuando la festejada es niña. Las familias buscan un ambiente coherente, y el [castillo de princesas inflable](/inflables/castillo-princesas/), de 5 × 3.30 × 3 m, para niñas de 2 a 10 años y a $1,800, se ha vuelto el elemento que une decoración y actividades. Si quieres compararlo con otros modelos, revisa los [inflables temáticos](/inflables/tematicos/).
 
 ![Inflable Castillo de Princesas instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-princesas/castillo-princesas-jardin-eventos.avif "Castillo de Princesas en un jardín de eventos")
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
 
 Una fiesta de princesas no necesita un presupuesto enorme para lucir. Con un inflable temático, decoración sencilla bien pensada y actividades divertidas, la celebración queda completa.
 
@@ -89,6 +90,7 @@ La combinación más usada es **rosa, dorado y blanco**: el rosa combina con el 
 > **Idea económica:** globos, tul y flores artificiales de los mercados de Jamaica o Sonora dan buen resultado a una fracción del costo. Cómo combinarlos con el inflable sin que compitan está en la guía de [decoración para fiesta infantil con inflable](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/).
 
 ![Mesa de manualidades con coronas de cartón dorado, brillantina y flores de papel rosa en un jardín](/img/blog/fiesta-princesas-ninas-inflable-cdmx/escena-1.avif "Una estación de coronas da a las invitadas una actividad tranquila entre turnos de brinco.")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 ## ¿Qué actividades complementan el castillo?
 
@@ -125,6 +127,7 @@ El tema es el mismo, pero el inflable cambia según quién va a brincar. Antes d
 | [Castillo Blanco](/inflables/castillo-blanco/) | $2,600 | 5 × 7 × 4 m | 3 a 12 años | 4.7 m |
 
 ![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 - **Festejada de 1 a 3 años con primas de la misma edad:** el Castillo Baby es más bajo y tranquilo, y es el que cabe bajo techo.
 - **Festejada de 4 a 8 años:** el Castillo de Princesas rosa encaja con la temática y con la edad.

@@ -35,6 +35,7 @@ faqs:
 Sí puedes incluir un inflable en una boda, unos XV años o un bautizo sin romper la estética. El [Castillo Blanco para eventos elegantes](/inflables/castillo-blanco/) es el modelo indicado en jardín: mide 5 × 7 × 4 m, es para niños de 3 a 12 años y cuesta $2,600 netos. Ubícalo a un costado, ábrelo después de la ceremonia y asigna a una persona que supervise.
 
 ![Inflable Castillo Blanco instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-blanco/castillo-blanco-jardin-eventos.avif "Castillo Blanco en un jardín de eventos")
+![Inflable Castillo Blanco instalado en el jardín de una casa en CDMX](/img/inflables/castillo-blanco/castillo-blanco-jardin-casa.avif "Castillo Blanco en el jardín de una casa")
 
 **Puntos clave**
 
@@ -85,6 +86,7 @@ El Castillo Blanco mide 5 × 7 × 4 m, es para niños de 3 a 12 años y cuesta *
 Si tu evento tiene una **temática de cuento de hadas** o de realeza, el [Castillo de Princesas rosa](/inflables/castillo-princesas/) es una buena opción: 5 × 3.30 × 3 m, para niñas y niños de 2 a 10 años, **$1,800 MXN**. Funciona bien en quinceañeras con temática de realeza y en primeras comuniones.
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado en el patio de una escuela para la kermés](/img/inflables/castillo-princesas/castillo-princesas-kermes-escolar.avif "Castillo de Princesas en una kermés escolar")
 
 ### Castillo Baby: para espacios reducidos y bebés
 
@@ -107,6 +109,7 @@ Una buena ubicación hace que el inflable se sienta parte del evento; una mala l
 - **Sombra si es posible:** en eventos de día, la sombra parcial de un árbol grande hace la zona más cómoda, siempre que no reduzca la altura libre.
 
 ![Jardín de eventos con mesas vestidas de blanco y, a un costado, un área de juego infantil separada por un pasillo de pasto](/img/blog/inflables-eventos-formales-cdmx/escena-1.avif "Visible desde las mesas, pero a un costado: así no compite con la pista ni con las fotos.")
+![Inflable Castillo Blanco instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-blanco/castillo-blanco-patio-cochera.avif "Castillo Blanco en un patio de cemento, sobre lona")
 
 ## ¿Cómo se organiza la zona infantil en una boda?
 

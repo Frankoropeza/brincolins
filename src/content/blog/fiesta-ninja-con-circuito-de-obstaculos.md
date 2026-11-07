@@ -64,6 +64,7 @@ Con cuatro estaciones sencillas alrededor del circuito, cada una a cargo de un a
 Todo lo que necesitas está en casa o en la papelería: cinta adhesiva, cartón, estambre, cascabeles y unas botellas con arena. No tienes que comprar juegos ni contratar animador.
 
 ![Vista completa del Extremo con túneles, obstáculos y arcos morados sobre pasto junto a una barda](/img/inflables/extremo/extremo-lateral-evento.avif)
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
 
 ### Estación de equilibrio
 
@@ -111,6 +112,7 @@ Porque reúne todo lo que entrenaron: correr, esquivar, mantener el equilibrio y
 El circuito se instala en **30 minutos**, necesita **4.5 m de altura libre** y es sólo para exterior. La prueba final se abre cuando el niño tiene sus cuatro cintas de color; antes de eso, el Extremo puede funcionar en turnos libres de práctica, también separados por edad. Con sus medidas a la mano puedes ubicar dónde van las estaciones alrededor.
 
 ![Vista larga de la pista del Extremo sobre pasto, con edificios de departamentos al fondo](/img/inflables/extremo/extremo-pista-obstaculos.avif)
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 ¿Tu jardín se queda corto? La fiesta puede irse a un patio escolar, a la explanada del condominio o a una cancha. Los [requisitos para montar el circuito sobre concreto](/blog/instalar-inflable-en-explanada-cancha-estacionamiento/) te dicen qué revisar antes de apartar.
 
@@ -156,6 +158,7 @@ Un adulto cronometra con el celular y otro anota en una cartulina negra con plum
 ¿Vienen bebés de 1 a 3 años? No entran al circuito. Para ellos está el [Castillo Baby como dojo de los más chiquitos](/inflables/mini-castillo/), que mide 2.5 × 2 × 2 m y cuesta **$1,400**.
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 ## ¿Qué decoración negro y rojo necesita una fiesta ninja?
 
@@ -170,6 +173,7 @@ Necesita poca, porque el circuito ya ocupa el centro visual. Con negro y rojo co
 ¿Lo que no te conviene? Arcos de globos de varios metros alrededor del circuito o adornos colgados cerca del inflable. Estorban el paso y compiten con la atracción principal. La decoración, la comida y el pastel los cotizas aparte con tus proveedores.
 
 ![Mesa de pastel con mantel negro, faroles de papel rojos y estrellas de papel dobladas en un jardín](/img/blog/fiesta-ninja-con-circuito-de-obstaculos/escena-1.avif "Negro, rojo y estrellas de papel hechas en casa bastan para convertir el jardín en dojo.")
+![Inflable Extremo instalado en el patio de una escuela para la kermés](/img/inflables/extremo/extremo-kermes-escolar.avif "Extremo en una kermés escolar")
 
 ## ¿Cómo usar el cronómetro sin frustrar a los más chicos?
 
@@ -234,6 +238,7 @@ La diferencia está en la prueba final. Sin doble carril, deja de ser carrera y 
 Con el [inflable Dragones Rojos](/inflables/dragones-rojos/), el paquete fiesta de **$2,800** incluye el inflable, una mesa con 10 sillitas y una pintacaritas; la pintacaritas sólo viene dentro de los [paquetes de fiesta con mesa incluida](/servicios/paquetes-de-fiesta/). Si te quedas con el Extremo y quieres mesa para los chicos, la [mesa infantil con sillas](/servicios/mobiliario-para-fiestas/) cuesta **$550** rentada junto con el inflable.
 
 ![Inflable Dragones Rojos instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/dragones-rojos/dragones-rojos-jardin-eventos.avif "Dragones Rojos en un jardín de eventos")
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
 
 El mismo dojo se adapta a otros formatos: un [festejo conjunto de hermanos](/blog/fiesta-de-gemelos-o-hermanos-con-inflable/) o el [family day con área infantil para los hijos del equipo](/blog/family-day-empresa-inflables-para-hijos/).
 

@@ -104,6 +104,7 @@ En esta fase se cierran proveedores y empieza la comunicación con la comunidad.
 27. Informar a los maestros su papel durante la kermesse.
 
 ![Coordinadora escolar de espaldas revisando un plano dibujado a mano sobre una mesa en el patio de una escuela, con conos y cinta métrica a un lado](/img/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/escena-1.avif "El plano en papel se dibuja a las 4 semanas: inflables, puestos, mesas, baños y enfermería.")
+![Fila ordenada de alumnos de primaria vistos de espaldas, separados por conos y cinta en un patio escolar, con una maestra a un costado](/img/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/escena-2.avif "Filas marcadas con conos y cinta: cada grado sabe dónde esperar su turno.")
 
 ## ¿Qué se prepara 2 semanas antes?
 
@@ -225,8 +226,6 @@ La distribución es el factor logístico que más define el éxito de la kermess
 - **Zonas bien marcadas.** Usa cinta, conos o vallas para delimitar cada inflable y su fila. El orden se nota, y los papás lo asocian con la institución.
 
 Para que los que esperan tengan algo que hacer, revisa las [ideas de juegos por edad](/blog/juegos-para-fiesta-infantil-ideas-por-edad/); funcionan como estaciones junto a la fila.
-
-![Fila ordenada de alumnos de primaria vistos de espaldas, separados por conos y cinta en un patio escolar, con una maestra a un costado](/img/blog/organizar-kermesse-escolar-inflables-cdmx-checklist/escena-2.avif "Filas marcadas con conos y cinta: cada grado sabe dónde esperar su turno.")
 
 ## ¿Qué inflable cabe en cada tipo de espacio escolar?
 

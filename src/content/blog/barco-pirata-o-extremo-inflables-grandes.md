@@ -73,6 +73,7 @@ Esta tabla compara las especificaciones tal como aparecen en el catálogo. La co
 El Extremo mide 2 m más de largo y 1 m más de ancho. El barco pide 70 cm más de altura libre. Esa es toda la historia. Las fotos y detalles están en la ficha de cada modelo; la del otro contendiente es la de [medidas y fotos del Extremo de 8 metros](/inflables/extremo/).
 
 ![Barco Pirata inflable y un castillo de colores en el mismo patio soleado, útil para comparar tamaños](/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif)
+![Inflable Barco Pirata instalado sobre lona en el patio de cemento de una casa](/img/inflables/barco-pirata/barco-pirata-patio-cochera.avif "Barco Pirata en un patio de cemento, sobre lona")
 
 ## ¿Qué pesa más en tu espacio, el largo o la altura?
 
@@ -95,12 +96,14 @@ El barco necesita 5.2 m de altura libre; el Extremo, 4.5 m. Esa diferencia desca
 Mide desde el piso hasta el primer obstáculo encima del área: cable, rama, toldo o alero. Hazlo en el punto exacto, no en el centro del jardín. En la ficha del barco tienes los requisitos de suelo, altura y acceso, y en la [tabla de medidas de inflables](/blog/medidas-de-inflables-para-fiestas-tabla/) puedes comparar todos los modelos.
 
 ![Persona de espaldas midiendo con cinta métrica la altura entre el pasto y la rama de un árbol en un jardín amplio](/img/blog/barco-pirata-o-extremo-inflables-grandes/escena-1.avif "Mide la altura libre en el punto exacto donde irá el inflable, no al centro del jardín")
+![Inflable Barco Pirata instalado en el patio de una escuela para la kermés](/img/inflables/barco-pirata/barco-pirata-kermes-escolar.avif "Barco Pirata en una kermés escolar")
 
 ### Cuando no alcanza para ninguno
 
 Pasa, y tiene solución. Si te falta largo y altura, mira un mediano como el [Castillo de Princesas de 5 m de largo](/inflables/castillo-princesas/), que pide 4.2 m de altura libre y cubre de 2 a 10 años.
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 > **¿No sabes cuál te cabe?** Mándanos largo, ancho y altura libre de tu espacio, y te decimos cuál de los dos entra y cuál conviene. [Preguntar cuál inflable grande me cabe](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20saber%20si%20me%20cabe%20el%20Barco%20Pirata%20o%20el%20Extremo)
 
@@ -111,6 +114,7 @@ El Barco Pirata, casi siempre. Es el modelo de mayor impacto visual del catálog
 El Extremo es otra cosa. Es un circuito. Su atractivo está en la pista y en la carrera, no en el decorado, así que encaja en fiestas sin temática o con temáticas deportivas. ¿Vas a ambientar alrededor del inflable? Las ideas para una [fiesta de sirenas y piratas con el barco de fondo](/blog/fiesta-de-sirenas-y-piratas-con-inflable/) te muestran cómo hacerlo con poco.
 
 ![Barco Pirata morado, negro y verde, con mástiles amarillos y rojos, montado bajo una carpa blanca entre árboles](/img/inflables/barco-pirata.avif)
+![Inflable Barco Pirata instalado en el área verde común de una privada](/img/inflables/barco-pirata/barco-pirata-privada-condominio.avif "Barco Pirata en el área común de una privada")
 
 ## ¿Cuál conviene si los niños quieren competir?
 

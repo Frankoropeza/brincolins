@@ -85,6 +85,7 @@ En una casona antigua es fácil encontrar arcos entre habitaciones o vigas a la 
 Muchos edificios tienen uno en planta baja, y la altura cambia de uno a otro: hay sótanos adaptados con techo bajo y salones de doble altura. Mídelo igual que tu sala. Si prefieres un lugar fuera de casa, en el [directorio de salones para fiestas infantiles en la ciudad](/directorio/cdmx/) puedes buscar opciones cerca; pregunta la altura libre antes de pagar el lugar.
 
 ![Frente del Castillo Baby con torres naranja y rosa y pelotas de colores, en un patio con barda](/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif)
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 ## ¿Qué inflable para departamento cabe bajo techo y cuál no?
 
@@ -112,6 +113,7 @@ Mide 2.5 × 2 × 2 m, recibe niños de 1 a 3 años y está pensado para interior
 El [modelo Gusanitos, apto para interiores](/inflables/gusanitos/) mide 5 × 3 × 2.80 m y recibe niños de 2 a 8 años. Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas. Pide la misma altura que el Castillo Baby, pero el doble de largo, así que necesita un salón amplio.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 Los dos están juntos en la categoría de [inflables que se instalan bajo techo](/inflables/para-interiores/).
 
@@ -146,6 +148,7 @@ Si tienes un candil colgante, te baja la altura justo donde más estorba: en el 
 Aunque esté apagado, las aspas ocupan espacio. Mide hasta la punta más baja, déjalo apagado y desconectado durante todo el evento y, si la medida no da, cambia el lugar.
 
 ![Persona de espaldas midiendo con flexómetro la altura bajo una trabe en la sala de un departamento](/img/blog/inflable-para-departamento-altura-techo-cdmx/escena-1.avif "La medida útil es la del punto más bajo: trabes, candiles y aspas del ventilador.")
+![Elevador de servicio abierto en el vestíbulo de un edificio de departamentos, con pasillo despejado hacia la salida](/img/blog/inflable-para-departamento-altura-techo-cdmx/escena-2.avif "Piso, elevador y escaleras: los datos que definen la maniobra de subida.")
 
 ### Paso 3: manda el dato con foto
 
@@ -205,6 +208,7 @@ En una casa sola el zumbido pasa casi desapercibido. En un edificio viaja por pi
 Tu reglamento puede pedir registro de proveedores, horario de maniobras o uso del elevador de servicio. Cada edificio decide, así que pregúntalo con tiempo. Un recado a los vecinos de junto, con hora de inicio y de fin, evita más quejas que cualquier otra medida.
 
 ![Rampa naranja y entrada del Castillo Baby sobre una lona azul, junto a la pared](/img/inflables/mini-castillo/mini-castillo-exterior.avif)
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 ## ¿Cómo suben el inflable a tu piso por escaleras o elevador?
 
@@ -219,8 +223,6 @@ Cinco datos bastan para planear la maniobra:
 - **Descarga.** Un lugar para estacionarse cerca de la entrada acorta todo el proceso.
 - **Caseta y vigilancia.** Deja aviso con el nombre del servicio y la hora de llegada.
 - **Quién recibe.** Una persona adulta que conozca el lugar exacto y sepa dónde está el contacto.
-
-![Elevador de servicio abierto en el vestíbulo de un edificio de departamentos, con pasillo despejado hacia la salida](/img/blog/inflable-para-departamento-altura-techo-cdmx/escena-2.avif "Piso, elevador y escaleras: los datos que definen la maniobra de subida.")
 
 La instalación del Castillo Baby toma 15 minutos una vez que el equipo está arriba. La subida depende de tu edificio. Pide que lleguemos antes que los invitados, no con ellos.
 

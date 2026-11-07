@@ -116,6 +116,7 @@ Porque es cuando llegan los invitados y todavía no hay comida servida. Si el in
 Por eso la instalación va antes de la hora de inicio y no a la mitad de la fiesta.
 
 ![Patio con mesa de comida servida y una piñata colgada a media tarde durante una fiesta infantil](/img/blog/horario-fiesta-infantil-cuantas-horas-inflable/escena-1.avif "Comida, pastel y piñata son pausas naturales del juego dentro del horario de la fiesta.")
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 ### ¿Qué pasa con el inflable durante la comida y la piñata?
 
@@ -146,6 +147,7 @@ No hay un número fijo y no te vamos a inventar uno. Depende de la edad, del cal
 Si vienen niños de edades muy distintas, organiza turnos: primero los chicos, luego los grandes. Así nadie le cae encima a un niño de 3 años. Un modelo como [Dragones Rojos, con resbaladilla y mallas laterales](/inflables/dragones-rojos/) funciona bien para el rango de 3 a 8 años, y el catálogo de [inflables para niños por edad](/inflables/para-ninos/) te ayuda a comparar los demás.
 
 ![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
+![Inflable Dragones Rojos instalado en el patio de una escuela para la kermés](/img/inflables/dragones-rojos/dragones-rojos-kermes-escolar.avif "Dragones Rojos en una kermés escolar")
 
 ## ¿Qué pasa si quiero el inflable más de 6 horas?
 

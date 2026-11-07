@@ -119,6 +119,7 @@ Para el motor, nosotros llevamos la extensión. Aun así, conviene saber qué ha
 Por la orilla, nunca por el pasillo de los adultos ni por la zona de la mesa. Fíjala al piso con cinta ancha en los tramos donde alguien pueda pisarla. Lejos de charcos, de la manguera del jardín y de la zona donde se sirven bebidas. Si cruza una puerta, que no quede prensada al cerrarla.
 
 ![Extensión eléctrica naranja fijada con cinta gris por la orilla de un patio de cemento, lejos del paso y de la zona de mesas](/img/blog/cuanta-luz-consume-un-inflable-contacto-extension/escena-1.avif "La extensión va por la orilla, fijada con cinta y lejos de charcos y bebidas")
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 En azoteas, la extensión suele subir desde el piso de abajo; nunca colgando por una ventana o por la fachada. Lo explicamos en la guía de [inflable en azotea](/blog/inflable-en-azotea-que-revisar-cdmx/).
 

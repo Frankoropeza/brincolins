@@ -97,6 +97,7 @@ Aquí la decoración va despacio. El inflable ya es el elemento más colorido de
 | Manteles de colores | 1 por mesa | Mesas de invitados | Verde, turquesa o estampado de hojas |
 
 ![Mesa principal de una fiesta hawaiana infantil en una terraza de la Ciudad de México: mantel verde, faldón de rafia, piñas naturales como centro, flores de papel rosas y amarillas en un panel blanco y una canasta con collares de flores, sin personas, luz suave de mediodía](/img/blog/fiesta-hawaiana-infantil-con-inflable/escena-1.avif "Piñas naturales, flores de papel y una canasta de collares: la mesa hawaiana se arma con poco y se reconoce de lejos")
+![Jardín de una casa en Tlalpan con un toldo blanco sobre mesas infantiles con manteles verdes, vitroleros con aguas de sandía y piña, gorras de paja sobre las sillas y un inflable verde con palmeras al fondo, niños fuera de foco, luz de tarde](/img/blog/fiesta-hawaiana-infantil-con-inflable/escena-2.avif "Toldo, aguas frescas y el inflable al fondo: la fiesta hawaiana se organiza alrededor de la sombra y de la isla")
 
 ## ¿Qué juegos hacer en una fiesta hawaiana infantil?
 
@@ -152,6 +153,7 @@ En una fiesta tropical, el inflable se vuelve el centro del jardín: la isla. To
 El [inflable Jungla con palmeras](/inflables/mini-jungla/) es el que mejor se lee como isla: verde, con palmeras y colores vivos, sin necesidad de decorarlo. Si en la fiesta hay muchos bebés, suma el [Castillo Baby para niños de 1 a 3 años](/inflables/mini-castillo/) en otra esquina, para que los pequeños no compartan espacio con los de primaria. Para comparar más modelos con diseño, revisa la categoría de [inflables temáticos](/inflables/tematicos/).
 
 ![Inflable Jungla instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-jungla/mini-jungla-jardin-eventos.avif "Jungla en un jardín de eventos")
+![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
 
 Todos los precios son netos por evento de 4 a 6 horas e incluyen entrega, instalación, motor, sanitización y recolección. Con factura se agrega 16% de IVA. La capacidad para tu grupo se confirma al cotizar.
 
@@ -237,8 +239,6 @@ Este cronograma es para un grupo de 15 a 25 niños de edades parecidas, en jard�
 5. **2:30 a 3:00, pastel y mañanitas.** Mesa principal, fotos con el arco de palmas.
 6. **3:00 a 3:45, inflable y baile.** Último bloque de brincar y estatuas tropicales.
 7. **3:45 a 4:00, despedida.** Paletas de fruta y entrega de recuerdos.
-
-![Jardín de una casa en Tlalpan con un toldo blanco sobre mesas infantiles con manteles verdes, vitroleros con aguas de sandía y piña, gorras de paja sobre las sillas y un inflable verde con palmeras al fondo, niños fuera de foco, luz de tarde](/img/blog/fiesta-hawaiana-infantil-con-inflable/escena-2.avif "Toldo, aguas frescas y el inflable al fondo: la fiesta hawaiana se organiza alrededor de la sombra y de la isla")
 
 ## ¿Qué revisar antes de la fiesta hawaiana?
 

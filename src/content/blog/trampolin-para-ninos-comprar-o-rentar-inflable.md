@@ -112,6 +112,7 @@ Rentar tiene ventajas claras para una fiesta:
 Si estás comparando también con show, payaso o salón de juegos, la comparativa de [brincolín frente a otras alternativas para fiesta infantil](/blog/brincolin-vs-otras-alternativas-fiesta-infantil/) pone costos y duración lado a lado. Y si la duda es entre comprar o rentar un inflable chico para casa, revisa la guía sobre [castillo inflable pequeño: rentar o comprar](/blog/castillo-inflable-pequeno-rentar-o-comprar/), que va a fondo en ese caso.
 
 ![Jardín de una casa en Tlalpan con un brincolín inflable mediano de colores ya instalado sobre pasto, motor junto a la base, sillas plegables al fondo y globos en una barda, luz de mediodía, sin personas](/img/blog/trampolin-para-ninos-comprar-o-rentar-inflable/escena-1.avif "Un inflable rentado se instala para el evento y el jardín queda libre al terminar la renta")
+![Cama elástica para niños con red y protector acolchado azul, cubierta parcialmente con una lona impermeable en un patio de Naucalpan durante una tarde nublada de temporada de lluvias, hojas en el piso, sin personas](/img/blog/trampolin-para-ninos-comprar-o-rentar-inflable/escena-2.avif "Un trampolín comprado pide revisión constante y un plan para la temporada de lluvias")
 
 ## ¿Qué espacio necesita un trampolín para niños y qué espacio necesita un inflable?
 
@@ -151,6 +152,7 @@ La edad es donde más se equivocan las compras impulsivas. Un trampolín para ni
 Sí, pero no es una cama elástica. Para el primer o segundo cumpleaños, el [Castillo Baby para niños de 1 a 3 años](/inflables/mini-castillo/) mide 2.5 × 2 × 2 m, pide 3.2 m de altura libre, se monta en unos 15 minutos y es apto para interiores. Si el festejado es muy pequeño, la guía del [mejor inflable para niños menores de 3 años](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) compara opciones y cuidados.
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 ## ¿Qué medidas de seguridad pide un trampolín para niños?
 
@@ -186,8 +188,6 @@ La temporada de lluvias en el Valle de México suele ir de mayo a octubre, con a
 
 Con la renta, el problema no aparece: el inflable llega limpio y sanitizado, y al terminar se lo llevan. Si llueve el día de tu fiesta, la renta se reprograma sin costo.
 
-![Cama elástica para niños con red y protector acolchado azul, cubierta parcialmente con una lona impermeable en un patio de Naucalpan durante una tarde nublada de temporada de lluvias, hojas en el piso, sin personas](/img/blog/trampolin-para-ninos-comprar-o-rentar-inflable/escena-2.avif "Un trampolín comprado pide revisión constante y un plan para la temporada de lluvias")
-
 ## ¿Qué conviene según tu situación?
 
 No hay una respuesta única. Estos casos ayudan a decidir:
@@ -213,6 +213,7 @@ Si pensabas comprar un trampolín para niños para el cumpleaños, estos modelos
 - **Para grupos mixtos o niños de hasta 12 años:** Barco Pirata ($2,300), Extremo ($2,500) o Castillo Blanco ($2,600).
 
 ![Inflable Dragones Rojos instalado en el área verde común de una privada](/img/inflables/dragones-rojos/dragones-rojos-privada-condominio.avif "Dragones Rojos en el área común de una privada")
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
 
 Si quieres ver todos los modelos que funcionan como brincolín clásico, revisa la categoría de [brincolines para fiestas infantiles](/inflables/brincolines/). Y antes del evento, vale la pena que los invitados sepan qué ponerse: la guía de [qué ropa llevar a una fiesta infantil con inflable](/blog/que-ropa-llevar-a-una-fiesta-infantil-con-inflable/) resuelve calcetines, accesorios y outfit para los adultos.
 

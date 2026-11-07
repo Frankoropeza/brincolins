@@ -95,6 +95,7 @@ Antes de acomodar, revisa:
 | Contacto del motor | A menos de 20 m del inflable | Requisito de 110 V; la extensión la lleva BRINCOLINS |
 
 ![Jardín de una casa en la periferia de la Ciudad de México con un asador de carbón en una esquina, humo yéndose hacia la barda, mesa larga con mantel en medio y un inflable mediano en el extremo opuesto, luz de mediodía](/img/blog/reunion-familiar-carne-asada-con-inflable/escena-1.avif "Asador e inflable en extremos opuestos, con las mesas de adultos en medio y el humo yéndose hacia la barda")
+![Mesa larga en un jardín familiar con platos de carne asada, tortillas, salsas y aguas frescas, sillas alrededor y al fondo un inflable sin niños dentro durante la hora de la comida, luz de tarde](/img/blog/reunion-familiar-carne-asada-con-inflable/escena-2.avif "Durante la comida el inflable se cierra: los niños comen sentados y quien supervisa también")
 
 ### ¿Y si el jardín es pequeño?
 
@@ -130,6 +131,7 @@ En una reunión familiar casi nunca hay un grupo homogéneo. Puede haber un beb�
 Para una carne asada típica con primos de 3 a 8 años, el [inflable Dragones Rojos para jardín](/inflables/dragones-rojos/) o cualquiera de los [inflables medianos de $1,600](/inflables/medianos/) cubren bien al grupo en un jardín de casa. Si la reunión es grande y hay muchos de 8 a 12, el [circuito Extremo con doble carril](/inflables/extremo/) convierte la tarde en carreras entre primos y permite turnos aparte para adultos que quieran entrar, ya que es uno de los tres modelos que lo admiten.
 
 ![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
+![Inflable Dragones Rojos instalado en el patio de una escuela para la kermés](/img/inflables/dragones-rojos/dragones-rojos-kermes-escolar.avif "Dragones Rojos en una kermés escolar")
 
 ### ¿Qué hacer con los más chicos y los más grandes?
 
@@ -155,8 +157,6 @@ La renta cubre un evento de 4 a 6 horas. Para una comida de domingo que empieza 
 | 18:30 | Recolección | La reunión sigue sin inflable |
 
 Dos detalles que hacen diferencia: el inflable instalado antes de que lleguen los primos (así no esperan) y cerrado durante la comida (así comen y la persona que supervisa también).
-
-![Mesa larga en un jardín familiar con platos de carne asada, tortillas, salsas y aguas frescas, sillas alrededor y al fondo un inflable sin niños dentro durante la hora de la comida, luz de tarde](/img/blog/reunion-familiar-carne-asada-con-inflable/escena-2.avif "Durante la comida el inflable se cierra: los niños comen sentados y quien supervisa también")
 
 ## ¿Qué juegos mixtos funcionan entre primos?
 

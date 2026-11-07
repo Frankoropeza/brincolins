@@ -54,6 +54,7 @@ Una **fiesta spa para niñas** no tiene por qué ser una tarde entera frente a u
 Para un grupo de 2 a 10 años, el [Castillo de Princesas para fiesta infantil](/inflables/castillo-princesas/) pone el movimiento: tiene zona de brinco, resbaladilla, mallas laterales y un diseño rosa con azul turquesa. Entre los [castillos inflables para fiestas infantiles](/inflables/castillos/), es el modelo temático que se usa en exterior. La parte spa puede ser tan sencilla como una mesa de pulseras y accesorios o incluir manicure infantil; no necesitas convertir la casa en salón de belleza para que el tema se entienda.
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 ## ¿Qué hace que una fiesta spa para niñas y un inflable combinen?
 
@@ -108,6 +109,7 @@ Estas opciones suelen ser sencillas de integrar porque ocurren sentadas y lejos 
 No metas cuentas, ligas, peines, frascos, espejos ni otros objetos al castillo. Antes de entrar, las niñas se quitan accesorios rígidos y dejan sus materiales con una persona adulta. La [guía de seguridad en inflables para fiestas infantiles](/blog/seguridad-inflables-fiestas-infantiles/) reúne otras reglas para mantener libre el área de salto sin volver el juego una lista de prohibiciones.
 
 ![Mesa de estación spa infantil con toallas enrolladas, pulseras de cuentas grandes y frascos de colores en un patio](/img/blog/fiesta-spa-para-ninas-con-inflable/escena-1.avif "Una mesa estable y ordenada, lejos del inflable, facilita limpiar entre turnos.")
+![Inflable Castillo de Princesas instalado en el área verde común de una privada](/img/inflables/castillo-princesas/castillo-princesas-privada-condominio.avif "Castillo de Princesas en el área común de una privada")
 
 Si piensas contratar mobiliario, confirma la configuración exacta desde el inicio. El paquete publicado de BRINCOLINS incluye Jungla o Dragones Rojos, una mesa con 10 sillitas y pintacaritas; no incluye el Castillo de Princesas. Puedes revisar las opciones vigentes de [paquetes de fiesta con inflable](/servicios/paquetes-de-fiesta/) y pedir una cotización separada para el modelo y los elementos que necesites, sin suponer que forman un paquete.
 
@@ -152,6 +154,7 @@ Las tres ideas pueden convivir, pero una debe llevar el peso del evento. Si la f
 Si el tema de cuento es el centro y buscas juegos, mesa y ambiente más allá de la parte spa, la guía de fiesta de princesas que enlazamos arriba es el complemento. Si el grupo prefiere animales y exploración en vez de coronas, la [guía del inflable Jungla para fiesta temática](/inflables/mini-jungla/) ayuda a cambiar de temática con un criterio de edad y espacio. Y si el grupo es pequeño o incluye bebés, revisa la [comparativa de castillos inflables](/blog/castillos-inflables-comparativa-princesas-blanco-baby/) antes de organizar las estaciones.
 
 ![Inflable Jungla instalado en el área verde común de una privada](/img/inflables/mini-jungla/mini-jungla-privada-condominio.avif "Jungla en el área común de una privada")
+![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
 
 ## ¿Y si la fiesta spa es en un departamento?
 

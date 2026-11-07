@@ -134,6 +134,7 @@ Para calcular porciones sin que sobre ni falte, la guía de [cuánta comida por 
 - [ ] Dejar efectivo o transferencias listas para liquidar proveedores.
 
 ![Mesa plegable con una caja de plástico con extensión eléctrica, cinta adhesiva, encendedor, servilletas y botiquín, junto a sillas apiladas](/img/blog/lista-de-cosas-para-fiesta-infantil-checklist/escena-1.avif "La caja de imprevistos se arma la noche anterior y se deja a la mano")
+![Patio de casa al final de una fiesta infantil con bolsas de basura cerradas, sillas apiladas y una mesa limpia, luz de atardecer](/img/blog/lista-de-cosas-para-fiesta-infantil-checklist/escena-2.avif "El cierre ordenado también es parte de la lista: basura, devoluciones y pagos")
 
 ## ¿Qué revisar el día de la fiesta?
 
@@ -261,8 +262,6 @@ Una caja de plástico con estas cosas resuelve casi cualquier apuro del día:
 - Protector solar y repelente.
 - Cargador de celular.
 - Plumones y hojas para letreros de último momento.
-
-![Patio de casa al final de una fiesta infantil con bolsas de basura cerradas, sillas apiladas y una mesa limpia, luz de atardecer](/img/blog/lista-de-cosas-para-fiesta-infantil-checklist/escena-2.avif "El cierre ordenado también es parte de la lista: basura, devoluciones y pagos")
 
 ## ¿Qué errores se repiten al usar una checklist?
 

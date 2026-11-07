@@ -99,6 +99,7 @@ Pastel, comida, piñata, decoración y recuerdos los contratas o los haces tú. 
 Úsalos como punto de partida y reemplázalos con tus cotizaciones reales en cuanto las tengas. Para calcular la comida con más precisión, la guía de [cuánta comida por niño en una fiesta infantil](/blog/cuanta-comida-por-nino-fiesta-infantil/) trae cantidades por tipo de menú. Y para no pagar de más en la partida dulce, la tabla de [tamaños de pastel y porciones por invitado](/blog/pastel-fiesta-infantil-porciones-y-tamanos/) te ayuda a pedir el tamaño justo.
 
 ![Mesa de cocina con hoja de presupuesto impresa, calculadora, pluma y tickets de compra, junto a una bolsa con platos desechables](/img/blog/cuanto-cuesta-una-fiesta-infantil-cdmx-presupuesto/escena-1.avif "Separar partidas fijas y variables hace que el presupuesto se arme en una tarde")
+![Patio de casa con mesa de pastel decorada de forma sencilla con globos de dos colores y mantel liso, sillas alrededor, luz natural](/img/blog/cuanto-cuesta-una-fiesta-infantil-cdmx-presupuesto/escena-2.avif "Pocos elementos bien puestos rinden más que mucha decoración dispersa")
 
 ## ¿Cuánto cuesta una fiesta infantil básica?
 
@@ -218,8 +219,6 @@ Sí. Hacer la fiesta en casa elimina una partida completa, la renta del lugar, y
 - **El modelo adecuado:** un inflable que no cabe o no corresponde a la edad complica la fiesta.
 - **La supervisión:** una persona adulta junto al inflable todo el evento.
 - **Los requisitos de instalación:** superficie plana y despejada, sin vidrio ni objetos punzantes, y toma de 110 V a menos de 20 m.
-
-![Patio de casa con mesa de pastel decorada de forma sencilla con globos de dos colores y mantel liso, sillas alrededor, luz natural](/img/blog/cuanto-cuesta-una-fiesta-infantil-cdmx-presupuesto/escena-2.avif "Pocos elementos bien puestos rinden más que mucha decoración dispersa")
 
 ## ¿Cómo armar tu propio presupuesto en cinco pasos?
 

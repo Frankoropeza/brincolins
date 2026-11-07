@@ -89,12 +89,14 @@ Esta tabla pone los tres grandes junto al Dragones Rojos, el más rentado del ca
 El barco funciona si tu fiesta tiene algo de juego de rol. Es la base de una tripulación, el tobogán es la salida al abordaje y el mástil marca el centro del jardín. Va sólo en exterior y necesita 5.2 m de altura libre. ¿Tienes ramas bajas? Mídelas antes.
 
 ![Patio soleado con el Barco Pirata inflable y, a un lado, un castillo inflable de colores](/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif)
+![Inflable Barco Pirata instalado en el jardín de una casa en CDMX](/img/inflables/barco-pirata/barco-pirata-jardin-casa.avif "Barco Pirata en el jardín de una casa")
 
 ### El Extremo, cuando todo se vuelve carrera
 
 ¿Tu hijo sólo habla de ganar? El [circuito Extremo con doble carril para competir](/inflables/extremo/) deja que dos niños recorran la pista lado a lado. Ocupa más largo y menos alto que el barco, y forma parte de la [categoría de circuitos con obstáculos](/inflables/con-obstaculos/). Si dudas entre los dos, la [comparativa de los dos grandes por espacio y tipo de fiesta](/blog/barco-pirata-o-extremo-inflables-grandes/) te ayuda a decidir.
 
 ![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 > **¿Barco o Extremo para tu grupo?** Dinos cuántos niños vienen y cuánto mide tu jardín, y te decimos cuál cabe y cuál conviene. [Preguntar qué inflable grande me conviene](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20un%20inflable%20grande%20para%20una%20fiesta%20de%208%20anos)
 
@@ -136,6 +138,7 @@ Con coordenadas y acertijos de verdad. A los 8, si las pistas son obvias, la bú
 Dibuja tu jardín o tu casa con una cuadrícula de letras y números. Dale una copia a cada tripulación, con un lápiz para rayarla. La coordenada dice la zona; el acertijo dice el objeto donde está la siguiente pista.
 
 ![Mapa del tesoro dibujado a mano con cuadrícula de letras y números sobre una mesa de jardín, junto a lápices y sobres con pistas](/img/blog/fiesta-de-8-anos-ideas-actividades/escena-1.avif "Un mapa con cuadrícula y acertijos hace que la búsqueda dure y les cueste pensar.")
+![Inflable Barco Pirata instalado sobre lona en el patio de cemento de una casa](/img/inflables/barco-pirata/barco-pirata-patio-cochera.avif "Barco Pirata en un patio de cemento, sobre lona")
 
 ### Las pistas y el cofre final
 
@@ -144,6 +147,7 @@ Usa seis o siete pistas. Más, y se cansan. Menos, y se acaba rápido. La últim
 ¿Quieres darle historia de mar? La guía de [fiesta de sirenas y piratas alrededor del barco](/blog/fiesta-de-sirenas-y-piratas-con-inflable/) trae el reparto de pistas por zonas, y lo puedes adaptar a esta edad subiendo la dificultad.
 
 ![Barco Pirata morado, negro y verde con mástiles rojos y amarillos instalado en pasto bajo una carpa blanca](/img/inflables/barco-pirata/barco-pirata-renta-cdmx.avif)
+![Inflable Barco Pirata instalado en el área verde común de una privada](/img/inflables/barco-pirata/barco-pirata-privada-condominio.avif "Barco Pirata en el área común de una privada")
 
 ## ¿Cómo se ordenan los turnos del tobogán con un grupo del salón?
 
@@ -170,6 +174,7 @@ Un teléfono de contacto por cada niño que llegue solo. Así no tienes que busc
 Si tu festejado tiene hermanos de 1 a 3 años, no entran al inflable grande. Para ellos existe el [Castillo Baby, pensado para los hermanos más chicos](/inflables/mini-castillo/), en otra zona con su propio adulto. Las dudas de edades, montaje y horarios están en las [respuestas a dudas comunes sobre la renta](/preguntas-frecuentes/).
 
 ![Inflable Castillo Baby instalado en el área verde común de una privada](/img/inflables/mini-castillo/mini-castillo-privada-condominio.avif "Castillo Baby en el área común de una privada")
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 ## ¿Cómo repartes la tarde en bloques sin que baje la energía?
 

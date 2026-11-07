@@ -91,6 +91,7 @@ El inflable se seca por completo, por dentro de los pliegues y en las costuras, 
 Con el inflable limpio y seco es más fácil revisar costuras, mallas, parches y puntos de anclaje. Muchos proveedores aprovechan este momento para detectar desgaste antes del siguiente evento.
 
 ![Lona de un inflable genérico extendida al sol sobre un patio de cemento para secarse por completo](/img/blog/como-se-limpia-y-sanitiza-un-inflable/escena-1.avif "El secado completo evita moho y mal olor")
+![Entrada de un inflable genérico con tapete, caja para zapatos y bote de basura acomodados en un jardín](/img/blog/como-se-limpia-y-sanitiza-un-inflable/escena-2.avif "Tapete, caja para zapatos y bote de basura en la entrada")
 
 ## ¿Qué productos se usan y cuáles se evitan?
 
@@ -185,8 +186,6 @@ La limpieza también depende de cómo se use el inflable durante el evento. Con 
 Si se derrama una bebida o un niño se siente mal dentro del inflable, pausa el turno, saca a todos y avísale al proveedor. No intentes limpiar con productos de casa como cloro o desengrasante, porque pueden dañar la lona.
 
 Con los más pequeños, la higiene pesa todavía más porque juegan más tiempo en el piso del inflable. Si la fiesta es para niños de 1 a 3 años, la guía del [mejor inflable para niños menores de 3 años](/blog/mejor-inflable-para-ninos-menores-de-3-anos/) te ayuda a elegir el modelo y organizar el espacio.
-
-![Entrada de un inflable genérico con tapete, caja para zapatos y bote de basura acomodados en un jardín](/img/blog/como-se-limpia-y-sanitiza-un-inflable/escena-2.avif "Tapete, caja para zapatos y bote de basura en la entrada")
 
 ## ¿Cómo se maneja la limpieza en BRINCOLINS?
 

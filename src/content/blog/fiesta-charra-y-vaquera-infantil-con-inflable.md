@@ -80,6 +80,7 @@ La fiesta charra se decora con textiles y colores mexicanos, la mayoría fácile
 La guía de [fiesta mexicana infantil con inflable](/blog/fiesta-mexicana-infantil-con-inflable/) tiene la lista de decoración con papel picado y lo que hay que cuidar con barro y vidrio cerca del inflable; aplica igual para la variante charra.
 
 ![Mesa principal de fiesta charra infantil en un patio de Naucalpan: sarape de colores como mantel, sombrero de charro pequeño al centro, jarritos de barro con flores de papel rosa mexicano y amarillo, caballitos de palo recargados en una cerca de madera, sin personas, luz cálida de tarde](/img/blog/fiesta-charra-y-vaquera-infantil-con-inflable/escena-1.avif "Sarape, sombrero de charro y jarritos con flores: la mesa charra se arma con textiles de mercado")
+![Jardín amplio en el Estado de México con una cerca de cartón pintada como madera, pacas de tela forradas como asientos, conos naranjas en zigzag, caballitos de palo en el pasto y un inflable de obstáculos con doble carril al fondo, niños de espaldas fuera de foco, luz de tarde](/img/blog/fiesta-charra-y-vaquera-infantil-con-inflable/escena-2.avif "Conos, caballitos de palo y el circuito al fondo: el rodeo se juega afuera y la final se corre en el inflable")
 
 ## ¿Cómo hacer la decoración de una fiesta vaquera infantil?
 
@@ -151,12 +152,14 @@ En una fiesta charra o vaquera, el inflable puede ser más que una zona de brinc
 El [circuito inflable Extremo](/inflables/extremo/) tiene doble carril y tobogán, así que dos niños salen al mismo tiempo, cruzan los obstáculos y bajan. El que llega primero suma un punto a su equipo. Mide 8 × 4.5 × 3.50 m y pide 4.5 m de altura libre. Es uno de los tres modelos que admiten adolescentes y adultos, en turno aparte de los niños, así que también puede haber un rodeo de papás al final.
 
 ![Inflable Extremo instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/extremo/extremo-jardin-eventos.avif "Extremo en un jardín de eventos")
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 ### Inflable como corral de descanso
 
 Para niños de 3 a 8 años, el [inflable Dragones Rojos](/inflables/dragones-rojos/) cabe en patios medianos, tiene resbaladilla integrada y su rojo combina con sarapes y paliacates. El Jungla, al mismo precio, es la opción si el espacio pide menos altura libre (4.2 m). Funcionan como corral: los equipos que no están en el jaripeo brincan por turnos.
 
 ![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
+![Inflable Dragones Rojos instalado en el patio de una escuela para la kermés](/img/inflables/dragones-rojos/dragones-rojos-kermes-escolar.avif "Dragones Rojos en una kermés escolar")
 
 ### ¿Qué modelo elegir?
 
@@ -219,8 +222,6 @@ Pensado para 15 a 25 niños de edades parecidas. El inflable se instala antes de
 5. **2:30 a 3:00, rodeo de relevos en el inflable.** Final por equipos.
 6. **3:00 a 3:30, pastel y piñata.** Mañanitas, fotos en la cerca y piñata en forma de sombrero o de caballo.
 7. **3:30 a 4:00, juego libre y despedida.** Último bloque de inflable y entrega de recuerdos.
-
-![Jardín amplio en el Estado de México con una cerca de cartón pintada como madera, pacas de tela forradas como asientos, conos naranjas en zigzag, caballitos de palo en el pasto y un inflable de obstáculos con doble carril al fondo, niños de espaldas fuera de foco, luz de tarde](/img/blog/fiesta-charra-y-vaquera-infantil-con-inflable/escena-2.avif "Conos, caballitos de palo y el circuito al fondo: el rodeo se juega afuera y la final se corre en el inflable")
 
 ## ¿Qué recuerdos dar en una fiesta charra o vaquera?
 

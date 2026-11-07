@@ -38,6 +38,7 @@ faqs:
 Para un patio pequeño compara dos huellas: el [Gusanitos para patios alargados](/inflables/gusanitos/) ocupa 5 × 3 m, es para niños de 2 a 8 años y cuesta $1,600; el [Castillo Baby compacto](/inflables/mini-castillo/) ocupa 2.5 × 2 m, es para niños de 1 a 3 años y cuesta $1,400. Ambos piden 3.2 m de altura libre.
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 **Puntos clave**
 
@@ -62,6 +63,7 @@ En un jardín amplio, el inflable va al centro y lo demás se te acomoda solo. E
 Por eso la pregunta útil no es si cabe el inflable. Es si cabe tu fiesta completa con el inflable dentro. Si tu espacio es amplio y piensas en un modelo grande, el enfoque cambia: revisa las medidas del [Barco Pirata, uno de los modelos grandes](/inflables/barco-pirata/).
 
 ![Inflable Barco Pirata instalado en el área verde común de una privada](/img/inflables/barco-pirata/barco-pirata-privada-condominio.avif "Barco Pirata en el área común de una privada")
+![Inflable Barco Pirata instalado en el jardín de una casa en CDMX](/img/inflables/barco-pirata/barco-pirata-jardin-casa.avif "Barco Pirata en el jardín de una casa")
 
 ## ¿Qué medidas tomas en un patio chico antes de cotizar?
 
@@ -80,6 +82,7 @@ Macetas grandes, jardineras, tinacos, lavaderos, escalones y medidores de luz o 
 Muchos patios no son rectángulos: tienen forma de L, un pasillo lateral o una esquina ocupada. Un croquis a mano con las medidas de cada lado te dice más que dos números sueltos.
 
 ![Patio pequeño preparado y medido antes de instalar un inflable, con cinta métrica y libreta en el piso](/img/blog/fiesta-en-patio-pequeno-con-inflable/escena-1.avif "Mide con cinta y anota cada lado en un croquis antes de cotizar.")
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 #### Ubica puertas y ventanas
 
@@ -94,6 +97,7 @@ Es la medida que más se olvida. Que no te pase. Tendederos, cables, volados de 
 El motor necesita una toma de 110 V a menos de 20 m del área y trabaja durante todo el evento. En patios chicos el contacto suele quedarte cerca. Punto a tu favor. Revisa por dónde pasa la extensión: nunca por el pasillo de los adultos ni por la zona de la mesa. Si dudas del calibre de tu extensión o de si el contacto aguanta, la guía sobre [cuánta luz consume un inflable](/blog/cuanta-luz-consume-un-inflable-contacto-extension/) te dice qué revisar.
 
 ![Gusanos amarillos de antenas verdes del Gusanitos de cerca, con la torre morada al fondo](/img/inflables/gusanitos/gusanitos-inflable-fiesta.avif)
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 
 ## ¿Qué inflable para patio pequeño cabe según su huella de piso?
 
@@ -149,6 +153,7 @@ En un patio chico, la piñata casi nunca cabe al mismo tiempo que el inflable en
 ¿Quieres temática? La [decoración de fiesta de bichitos](/blog/fiesta-de-bichitos-insectos-con-inflable/) se resuelve con elementos en las bardas y a ras de piso, sin quitarte suelo.
 
 ![Costado del Gusanitos con gusano amarillo en primer plano y carpa blanca detrás, de forma alargada](/img/inflables/gusanitos/gusanitos-lateral-cdmx.avif)
+![Inflable Gusanitos instalado en el patio de una escuela para la kermés](/img/inflables/gusanitos/gusanitos-kermes-escolar.avif "Gusanitos en una kermés escolar")
 
 ## ¿Se puede armar la fiesta con inflable en una azotea?
 

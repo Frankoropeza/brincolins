@@ -87,6 +87,7 @@ La mejor vajilla es la que ya existe: la tuya, la de la familia o una rentada. L
 Para el pastel sirven platitos pequeños de la casa o de peltre y cucharas de metal. Si usas compostables, que sean solo para este momento y sepáralos aparte.
 
 ![Mesa de jardín con platos de peltre de colores apilados, vasos de vidrio con pinzas de madera marcadas con nombres, servilletas de tela dobladas y cubiertos de metal en un frasco](/img/blog/fiesta-infantil-sustentable-sin-plasticos/escena-1.avif "Un vaso marcado por niño y vajilla que se lava recortan la mayor parte de la basura de la fiesta")
+![Estación de residuos en el patio de una casa con tres botes de colores rotulados con dibujos sencillos, junto a una mesa de comida, con el jardín al fondo y luz de tarde](/img/blog/fiesta-infantil-sustentable-sin-plasticos/escena-2.avif "Botes rotulados con dibujos junto a la mesa de comida: la separación se hace en el momento, no al día siguiente")
 
 ## ¿Cómo servir bebidas sin botellitas?
 
@@ -172,8 +173,6 @@ Aunque reduzcas los desechables, siempre habrá residuos. Separarlos en el momen
 
 Los niños de 5 años en adelante pueden ayudar: convertir la separación en un juego de puntería con los envases vacíos funciona mejor que un sermón.
 
-![Estación de residuos en el patio de una casa con tres botes de colores rotulados con dibujos sencillos, junto a una mesa de comida, con el jardín al fondo y luz de tarde](/img/blog/fiesta-infantil-sustentable-sin-plasticos/escena-2.avif "Botes rotulados con dibujos junto a la mesa de comida: la separación se hace en el momento, no al día siguiente")
-
 ## ¿Por qué rentar en vez de comprar ayuda a una fiesta sustentable?
 
 Muchas cosas de una fiesta infantil se usan unas horas al año: mesas, sillas, manteles, carpas, iluminación y juegos. Comprarlas significa almacenarlas, y muchas terminan rotas, olvidadas o en la basura antes de volver a usarse. Rentarlas hace que un mismo objeto sirva en muchas fiestas.
@@ -191,6 +190,7 @@ Lo mismo aplica al [mobiliario para fiestas](/servicios/mobiliario-para-fiestas/
 Para una fiesta con temática de naturaleza o animales, la [Jungla, el inflable de 3 a 8 años](/inflables/mini-jungla/), combina con decoración de plantas, madera y tela. Si la fiesta es en tonos neutros con flores y textiles, el [Castillo Blanco](/inflables/castillo-blanco/) funciona como base clara. Puedes comparar todos los tamaños intermedios en la [categoría de inflables medianos](/inflables/medianos/).
 
 ![Inflable Jungla instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-jungla/mini-jungla-jardin-eventos.avif "Jungla en un jardín de eventos")
+![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
 
 ## Checklist de la fiesta infantil sustentable
 

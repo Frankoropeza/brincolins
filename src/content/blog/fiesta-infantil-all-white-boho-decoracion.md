@@ -97,6 +97,7 @@ Es la paleta de los cumpleaños pequeños. Rosa palo, lila suave, menta. Si tu h
 Pampas, mimbre, tapetes y tonos tierra. Es la más cálida. Con el castillo blanco al centro, la terracota se ve intencional y no improvisada, y la luz de la tarde en un jardín de la Ciudad de México o del Estado de México le sienta especialmente bien.
 
 ![Fiesta infantil en blanco: castillo inflable entre arreglos florales, con una construcción de arcos al fondo](/img/inflables/castillo-blanco/alquiler-inflable-blanco-bodas-rosas-cdmx.avif)
+![Inflable Castillo Blanco instalado en el jardín de una casa en CDMX](/img/inflables/castillo-blanco/castillo-blanco-jardin-casa.avif "Castillo Blanco en el jardín de una casa")
 
 ## ¿Cómo usar flores, pampas y madera sin estorbar la entrada del inflable?
 
@@ -123,6 +124,7 @@ Los elementos de madera y mimbre funcionan en la zona de papás, no junto al inf
 Un tapete boho con cojines frente al castillo, a unos pasos, crea un lugar para que los adultos supervisen sentados. También sirve para dejar zapatos en orden. Te resuelve dos cosas con un solo objeto.
 
 ![Zona de papás estilo boho en un jardín con tapete, cojines, banca de madera y jarrones con pampas](/img/blog/fiesta-infantil-all-white-boho-decoracion/escena-1.avif "Tapete y cojines a unos pasos del inflable: los adultos supervisan sentados.")
+![Inflable Castillo Blanco instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-blanco/castillo-blanco-patio-cochera.avif "Castillo Blanco en un patio de cemento, sobre lona")
 
 > **¿Ya tienes tu paleta?** Mándanos una imagen de referencia y la medida de tu jardín; te confirmamos si el Castillo Blanco cabe y está libre para tu fecha. [Cotizar el Castillo Blanco para fiesta en blanco](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Castillo%20Blanco%20para%20una%20fiesta%20infantil%20en%20blanco)
 
@@ -169,6 +171,7 @@ Un jardín recién regado o mojado por la lluvia de la noche anterior es el enem
 De frente, con el castillo completo y algo de decoración a los lados. Retrocede lo suficiente para que quepa entero y deja que las flores o las pampas enmarquen el borde de la foto. Si el fondo tiene árboles o cortinas claras, mejor.
 
 ![Brincolín blanco en un jardín con cortinas y flores, y mesas montadas al fondo](/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif)
+![Inflable Castillo Blanco instalado en el patio de una escuela para la kermés](/img/inflables/castillo-blanco/castillo-blanco-kermes-escolar.avif "Castillo Blanco en una kermés escolar")
 
 Evita que detrás del castillo quede la zona de servicio, la cocina o los botes de basura. Antes de instalar, párate donde vas a tomar la foto y mira el fondo con calma, como si ya estuvieras viendo la imagen impresa en un marco. Si ves sillas apiladas, muévelas.
 
@@ -195,12 +198,14 @@ Cuando tu paleta es rosa y lila, cuando tus invitados son bebés o cuando la tem
 El [Castillo de Princesas, en rosa y azul turquesa con torres decorativas](/inflables/castillo-princesas/), combina mejor con una fiesta pastel de tonos fuertes. Es para niños de 2 a 10 años, mide 5 × 3.30 × 3 m y cuesta $1,800.
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 ### Cuando los niños son bebés
 
 El Castillo Blanco es para niños de 3 a 12 años. Si tus invitados tienen de 1 a 3, el [Castillo Baby para fiestas de bebés](/inflables/mini-castillo/) es el modelo correcto. Mide 2.5 × 2 × 2 m, entra en interiores y cuesta $1,400.
 
 ![Inflable Castillo Baby instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-castillo/mini-castillo-jardin-eventos.avif "Castillo Baby en un jardín de eventos")
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 ### Cuando la temática manda
 

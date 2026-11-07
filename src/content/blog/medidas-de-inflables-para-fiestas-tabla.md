@@ -116,6 +116,7 @@ Necesitas una cinta métrica de al menos 5 metros (mejor de 8), una libreta o el
 Con esas seis medidas y dos fotos (una general del área y otra del acceso) podemos decirte qué modelos entran. Si te falta alguna, mándanos lo que tengas y lo completamos juntos.
 
 ![Patio de una casa con el área de instalación marcada en el piso, cinta métrica y gis](/img/blog/medidas-de-inflables-para-fiestas-tabla/escena-1.avif "Medir el área despejada y anotar la medida más corta evita sorpresas el día de la fiesta")
+![Jardín de una casa con mesas plegables a un lado y un área de pasto despejada al centro, luz de tarde](/img/blog/medidas-de-inflables-para-fiestas-tabla/escena-2.avif "El acomodo de mesas y sillas se decide después de reservar el área del inflable")
 
 ### ¿Qué hacer si el espacio es irregular?
 
@@ -171,8 +172,6 @@ Estos son los errores que más vemos al revisar fotos y medidas antes de una ins
 4. **Contar con mover el coche el mismo día.** Si la cochera es el área, asegúrate de que el auto se pueda sacar antes de la hora de instalación.
 5. **Ignorar la pendiente.** Un terreno inclinado se nota poco a simple vista y mucho cuando el inflable está arriba.
 6. **Planear el acomodo de mesas después.** Las mesas, la zona de pastel y las sillas de los adultos también ocupan espacio. Decide primero dónde va el inflable y acomoda lo demás alrededor, dejando el pasillo de circulación libre.
-
-![Jardín de una casa con mesas plegables a un lado y un área de pasto despejada al centro, luz de tarde](/img/blog/medidas-de-inflables-para-fiestas-tabla/escena-2.avif "El acomodo de mesas y sillas se decide después de reservar el área del inflable")
 
 ## ¿Cómo elegir el modelo una vez que sabes tus medidas?
 

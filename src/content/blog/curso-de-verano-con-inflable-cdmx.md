@@ -90,6 +90,7 @@ La toma tiene que ser de 110 V y estar a menos de 20 m del inflable. Si no sabes
 Convirtiendo el inflable en una estación más de un circuito. Con un solo inflable y varios grupos, ningún grupo espera parado. Mientras uno brinca, los demás están en otra actividad con su monitor, y cada media hora todos cambian de lugar al mismo tiempo.
 
 ![Inflable Jungla con palmeras verdes, columna azul y resbaladilla naranja ante un muro de madera](/img/inflables/mini-jungla.avif)
+![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
 
 Esta tabla muestra una rotación de mañana con tres grupos y cuatro estaciones. Ajusta los tiempos al tamaño de cada grupo y a la capacidad por turno que te confirmemos al cotizar:
 
@@ -128,6 +129,7 @@ Un día antes, revisa el pronóstico de tu alcaldía. ¿Anuncian lluvia para la 
 Aunque el inflable sea exterior, tu programa no tiene por qué detenerse. Prepara un salón con actividades de interior para mover a todos los grupos en minutos. Con eso, la lluvia te cambia el plan, pero no te arruina el día.
 
 ![Salón de usos múltiples de una escuela preparado con mesas de manualidades y colchonetas como plan para días de lluvia](/img/blog/curso-de-verano-con-inflable-cdmx/escena-1.avif "Un salón techado listo con actividades permite mover a los grupos en minutos si llueve")
+![Inflable Jungla instalado en el patio de una escuela para la kermés](/img/inflables/mini-jungla/mini-jungla-kermes-escolar.avif "Jungla en una kermés escolar")
 
 ## ¿Cuál es tu plan B bajo techo si llueve toda la semana?
 
@@ -138,6 +140,7 @@ Tu plan B es otro modelo: Gusanitos, apto para interiores. El Jungla no entra ba
 [Gusanitos, el circuito de túneles para interiores](/inflables/gusanitos/), es más circuito que brincolín: túneles de colores conectados con varias entradas y salidas, para niños de 2 a 8 años. Mide 5 × 3 × 2.80 m, pide 3.2 m de altura libre, se instala en unos 20 minutos y cuesta $1,600, igual que el Jungla. Funciona con grupos de edades mezcladas, algo muy común en un curso.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+![Inflable Gusanitos instalado en el patio de una escuela para la kermés](/img/inflables/gusanitos/gusanitos-kermes-escolar.avif "Gusanitos en una kermés escolar")
 
 Si el pronóstico de tu semana es de lluvia constante, valora Gusanitos en lugar del Jungla. Piensa en una semana de julio con lluvia diaria: si el inflable ya está bajo techo, los turnos siguen su curso aunque truene afuera, y tus monitores no tienen que mover a nadie corriendo. Para comparar los dos con calma, lee [cuándo conviene cada uno, Jungla o Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/). ¿Quieres ver todas las opciones bajo techo? Entra a los [inflables para salones y espacios techados](/inflables/para-interiores/).
 
@@ -150,6 +153,7 @@ Mide del piso al punto más bajo del techo: lámparas, vigas, ductos o canastas.
 El piso tiene que estar plano y despejado. Retira sillas, mesas y cualquier objeto punzante antes de que llegue la instalación, para que montar no te robe tiempo del programa.
 
 ![Dinosaurios del Jungla sobre la resbaladilla naranja, un atractivo para el curso de verano con inflables](/img/inflables/mini-jungla/mini-jungla-dinosaurios-palmeras.avif)
+![Inflable Jungla instalado en el área verde común de una privada](/img/inflables/mini-jungla/mini-jungla-privada-condominio.avif "Jungla en el área común de una privada")
 
 ## ¿Quién del personal supervisa y cómo se reparten los roles?
 

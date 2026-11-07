@@ -117,6 +117,7 @@ Tres cosas mueven estas cifras:
 - **Pastel chico más pastel de apoyo:** un pastel decorado pequeño para la foto y una plancha sencilla en la cocina para repartir. Es una forma común de ahorrar en decoración sin quedarse corto.
 
 ![Mesa de cocina con un pastel redondo de dos pisos y una plancha rectangular sencilla al lado, cuchillo, espátula y platitos apilados, luz de ventana](/img/blog/pastel-fiesta-infantil-porciones-y-tamanos/escena-1.avif "Un pastel decorado para la foto y una plancha sencilla para repartir es una forma práctica de que alcance para todos")
+![Mesa de jardín con un pastel redondo al centro y a un lado cupcakes en un platón con pequeñas etiquetas de papel en blanco, servilletas de tela y cucharas, luz de tarde](/img/blog/pastel-fiesta-infantil-porciones-y-tamanos/escena-2.avif "Las porciones especiales se sirven primero y con utensilios limpios, etiquetadas para que nadie se confunda")
 
 ## ¿Cuándo se parte el pastel en una fiesta con inflable?
 
@@ -154,6 +155,7 @@ Para que se cumpla sin pelear:
 Si el festejado es pequeño y la fiesta se arma alrededor del [Castillo Baby para niños de 1 a 3 años](/inflables/mini-castillo/), la regla aplica igual: los bebés llevan el pastel en la cara y en las manos, así que el lavado antes de volver a jugar es obligatorio.
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 ## ¿Cómo transportar el pastel y cuidarlo del calor?
 
@@ -204,8 +206,6 @@ Al hablar con la pastelería, pregunta tres cosas:
 
 Ojo con la decoración: chispas, figuras de chocolate, galletas y rellenos pueden llevar el alérgeno aunque el pan no lo tenga. Y en la mesa, sirve primero las porciones especiales con utensilios limpios, antes de cortar el resto.
 
-![Mesa de jardín con un pastel redondo al centro y a un lado cupcakes en un platón con pequeñas etiquetas de papel en blanco, servilletas de tela y cucharas, luz de tarde](/img/blog/pastel-fiesta-infantil-porciones-y-tamanos/escena-2.avif "Las porciones especiales se sirven primero y con utensilios limpios, etiquetadas para que nadie se confunda")
-
 ## ¿Cuánto cuesta el pastel y cuándo encargarlo?
 
 El precio del pastel depende de tu pastelería, del tamaño, del sabor y de la decoración, así que no hay una cifra única. Lo que sí puedes controlar es el momento de encargarlo y cómo encaja en tu presupuesto. En la guía de [cuánto cuesta una fiesta infantil en la CDMX](/blog/cuanto-cuesta-una-fiesta-infantil-cdmx-presupuesto/) el pastel aparece como partida variable, junto a comida, piñata y decoración.
@@ -231,6 +231,7 @@ Calendario práctico:
 El inflable no compite con el pastel: lo acompaña en la foto y ocupa a los niños mientras se arma la mesa. Si la fiesta es de princesas, el [Castillo de Princesas, en rosa y azul turquesa](/inflables/castillo-princesas/), queda muy bien como fondo de la mesa del pastel, siempre con unos metros de distancia entre la mesa y la entrada. Para ver todos los modelos según la edad, revisa la [categoría de inflables para niños](/inflables/para-ninos/).
 
 ![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
 
 ## ¿Cambia algo según dónde sea la fiesta?
 

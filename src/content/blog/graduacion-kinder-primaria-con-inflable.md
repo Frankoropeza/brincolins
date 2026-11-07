@@ -57,6 +57,7 @@ La formalidad y el público. En una graduación tienes ceremonia, togas, fotos d
 En el fin de cursos puedes elegir un modelo de colores sin problema; el [inflable Jungla para fin de cursos](/inflables/mini-jungla/) resuelve ese caso, y más abajo verás cómo organizar turnos para grupos grandes.
 
 ![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
+![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
 
 En la graduación cambian tres cosas: hay un acto que no se puede interrumpir, una dirección que pone reglas y un comité que responde ante todas las familias.
 
@@ -88,6 +89,7 @@ Cuando la escuela no tiene espacio o no permite inflables, el festejo se mueve a
 - **Que haya acceso para el equipo.** Y una toma de corriente cerca del área.
 
 ![Patio cívico de una escuela con área a cielo abierto, sillas acomodadas para la ceremonia y un templete con flores blancas](/img/blog/graduacion-kinder-primaria-con-inflable/escena-1.avif "Antes de apartar, confirma con la dirección qué área del patio queda a cielo abierto y dónde está la toma de corriente.")
+![Inflable Castillo Blanco instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-blanco/castillo-blanco-patio-cochera.avif "Castillo Blanco en un patio de cemento, sobre lona")
 
 ## ¿Por qué un castillo blanco encaja con toga, birrete y fotos de grupo?
 
@@ -96,6 +98,7 @@ Porque no compite con la ceremonia. Un inflable de colores en el fondo de tu fot
 Imagina la foto del grupo con togas azules frente al castillo: el blanco hace que los niños resalten. Con un fondo rojo y amarillo, la foto se vería como la de cualquier cumpleaños, y esa foto la van a guardar todas las familias.
 
 ![Castillo inflable blanco instalado en un jardín con cortinas, flores y mesas para un evento formal](/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif)
+![Inflable Castillo Blanco instalado en el patio de una escuela para la kermés](/img/inflables/castillo-blanco/castillo-blanco-kermes-escolar.avif "Castillo Blanco en una kermés escolar")
 
 ¿Quieres ver cómo se integra un castillo blanco en eventos formales más grandes? Revisa la [guía de inflables para eventos formales](/blog/inflables-eventos-formales-cdmx/). Para decorar en tonos claros, la [decoración neutra o boho con inflable blanco](/blog/fiesta-infantil-all-white-boho-decoracion/) te da paletas listas.
 
@@ -106,6 +109,7 @@ Imagina la foto del grupo con togas azules frente al castillo: el blanco hace qu
 Cuando el grupo es de primaria y quieres que los grandes tengan su propio reto. El [Extremo, circuito de obstáculos con doble carril](/inflables/extremo/), recibe a niños de 3 a 12 años y les da algo que el castillo no: competir. El Castillo Blanco se queda para la foto y para los más chicos.
 
 ![Inflable Extremo instalado en el patio de una escuela para la kermés](/img/inflables/extremo/extremo-kermes-escolar.avif "Extremo en una kermés escolar")
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
 
 Esta tabla compara los dos modelos para un festejo escolar. La conclusión práctica: en kínder basta el castillo; en primaria, la combinación cubre dos estilos de juego.
 
@@ -183,6 +187,7 @@ Se instala antes de que empiece el acto y se abre cuando termina. Así el equipo
 Imagina un acto a las 10:00 en el patio. El equipo entra antes, instala en 30 minutos en el área acordada y deja el castillo listo. Cuando terminan las fotos, tú das la señal y se abre. El motor profesional sigue encendido todo el evento.
 
 ![Castillo inflable blanco frente a un edificio de arcos, con arreglos florales a ambos lados](/img/inflables/castillo-blanco/brincolin-blanco-bodas-decoracion-globos.avif)
+![Inflable Castillo Blanco instalado en el área verde común de una privada](/img/inflables/castillo-blanco/castillo-blanco-privada-condominio.avif "Castillo Blanco en el área común de una privada")
 
 ### Ceremonia por la tarde o festejo en jardín
 

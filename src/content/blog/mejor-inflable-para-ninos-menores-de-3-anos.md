@@ -77,12 +77,14 @@ Es el compacto: 2.5 × 2 × 2 m, para bebés y niños de 1 a 3 años, pensado pa
 Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas. Mide 5 × 3 × 2.80 m, recibe niños de 2 a 8 años, va bajo techo con 3.2 m libres y cuesta $1,600. Funciona con grupos de edades mezcladas porque los niños recorren los túneles en lugar de brincar todos en el mismo punto. Puedes ver sus fotos en la ficha del [circuito Gusanitos de 2 a 8 años](/inflables/gusanitos/).
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+![Inflable Gusanitos instalado en el patio de una escuela para la kermés](/img/inflables/gusanitos/gusanitos-kermes-escolar.avif "Gusanitos en una kermés escolar")
 
 ### Castillo de Princesas: el más vistoso
 
 Rosa y azul turquesa, con torres decorativas, resbaladilla y mallas de seguridad. Mide 5 × 3.30 × 3 m, es para niños de 2 a 10 años, pide 4.2 m de altura libre, va sólo en exterior y cuesta $1,800. Si tu fiesta tiene temática de princesas, es el que más se presta. Medidas y fotos en la ficha del [Castillo de Princesas con resbaladilla](/inflables/castillo-princesas/).
 
 ![Torres naranja y rosa del Castillo Baby con techo azul y pelotas adentro, junto a una barda](/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif)
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 ## ¿Qué inflable para niños de 1 a 3 años te conviene según la edad exacta?
 
@@ -109,6 +111,7 @@ Porque el rango de edad de cada inflable es una condición de uso, no una sugere
 Que haya una persona adulta en la entrada durante todo el evento. Que los niños entren sin zapatos y sin comida. Que no entren niños mayores «un ratito». El modelo correcto no sustituye a la supervisión.
 
 ![Mesa infantil baja con vasitos, plastilina y burbujas en el patio de una casa, junto a una zona de juego para bebés](/img/blog/mejor-inflable-para-ninos-menores-de-3-anos/escena-1.avif "Con bebés, la zona de juego va cerca de las mesas de los papás y con actividades tranquilas a un lado.")
+![Jardín familiar con dos zonas de juego separadas por un pasillo de pasto, una cerca de las mesas y otra al fondo](/img/blog/mejor-inflable-para-ninos-menores-de-3-anos/escena-2.avif "Dos zonas separadas: los pequeños cerca de las mesas, los grandes al fondo.")
 
 ### De 2 a 3 años: tres opciones válidas
 
@@ -157,8 +160,6 @@ Con dos inflables, uno por grupo. Si tu festejado tiene 2 años pero vienen herm
 | Castillo Baby + Castillo de Princesas | Bebés y niños de 2 a 10 años | El de Princesas, sólo exterior | $1,400 + $1,800 |
 | Paquete fiesta bebés | Fiesta chica de bebés, con mesa y pintacaritas | Interior o exterior | $2,100 |
 
-![Jardín familiar con dos zonas de juego separadas por un pasillo de pasto, una cerca de las mesas y otra al fondo](/img/blog/mejor-inflable-para-ninos-menores-de-3-anos/escena-2.avif "Dos zonas separadas: los pequeños cerca de las mesas, los grandes al fondo.")
-
 ### Cómo se acomodan en el lugar
 
 Los dos inflables van separados entre sí, cada uno con su adulto en la entrada. El de los pequeños, cerca de las mesas de los papás. El de los grandes, más lejos y donde haya espacio para correr.
@@ -168,6 +169,7 @@ Los dos inflables van separados entre sí, cada uno con su adulto en la entrada.
 El tamaño también depende de tu lista. La guía para [decidir entre inflable chico o grande por invitados](/blog/como-elegir-inflable-fiesta-infantil/) te ayuda a calcularlo, aunque la capacidad exacta de cada modelo se confirma al cotizar.
 
 ![Detalle de la rampa naranja del Castillo Baby, apoyada en una lona azul junto a la pared](/img/inflables/mini-castillo/mini-castillo-exterior.avif)
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 ## ¿Cuánto pagas por cada opción y qué incluye el precio?
 

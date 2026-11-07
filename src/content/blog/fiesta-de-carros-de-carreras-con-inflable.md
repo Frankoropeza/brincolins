@@ -75,6 +75,7 @@ La decoración de una fiesta de carros vive de un patrón muy reconocible: la ba
 Pon el arco de meta al final de la pista, el semáforo en la salida y el pit stop del lado opuesto al inflable. Los banderines a cuadros pueden ir en la barda o colgados entre dos puntos altos, siempre lejos del área del inflable: nada debe colgar sobre él.
 
 ![Patio de una casa en CDMX con banderines a cuadros blanco y negro colgados en la barda, conos naranjas, llantas de cartón pintadas de negro y un arco de meta, sin personas, luz de mañana](/img/blog/fiesta-de-carros-de-carreras-con-inflable/escena-1.avif "Banderines a cuadros, conos y un arco de meta bastan para convertir el patio en autódromo")
+![Mesa de comida en un jardín con mantel a cuadros blanco y negro, dispensadores de agua de sabor con etiquetas, donas en un plato y cupcakes con banderitas, sin personas, luz de tarde](/img/blog/fiesta-de-carros-de-carreras-con-inflable/escena-2.avif "El pit stop concentra la comida lejos de la pista y del inflable, con nombres de taller en cada platillo")
 
 ## ¿Cómo armar la pista con cinta?
 
@@ -118,6 +119,7 @@ Si quieres más dinámicas por equipo, la [fiesta de futbol infantil con inflabl
 El [circuito inflable Extremo](/inflables/extremo/) es la pieza que convierte la fiesta de carros en una carrera de verdad. Tiene pista de obstáculos, tobogán doble y doble carril, así que dos pilotos salen al mismo tiempo. Mide 8 × 4.5 × 3.50 m, pide 4.5 m de altura libre y es para niños de 3 a 12 años. Su precio es de $2,500 netos por evento de 4 a 6 horas, con entrega, instalación, motor, sanitización y recolección.
 
 ![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
 
 ### Dinámicas en el circuito
 
@@ -139,6 +141,7 @@ Si dudas entre el circuito y un brincolín tradicional, la comparación entre [c
 Si tu patio no tiene 8 m de largo libres con holgura, el [inflable Gusanitos](/inflables/gusanitos/) es la alternativa: túneles de colores con varias entradas y salidas, 5 × 3 m de base, para niños de 2 a 8 años y apto para interiores. En la historia de la carrera, es el túnel de la pista. Puedes ver otros modelos que caben en patios medianos en la categoría de [inflables medianos](/inflables/medianos/).
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 | Modelo | Edades | Base | Altura libre | Precio | Papel en la fiesta de carros |
 |---|---|---|---|---|---|
@@ -156,8 +159,6 @@ El pit stop es la mesa de comida con temática de taller. Los pilotos entran a r
 - **Bandera de meta:** pastel con betún blanco y cuadros negros, o cupcakes con banderitas.
 
 Coloca el pit stop lejos de la pista y del inflable, con una línea en el piso que marque "zona de pits: se camina". Programa la comida como un descanso real entre las carreras y el circuito, no a mitad de un relevo. Para no olvidar nada del montaje, la [lista de cosas para una fiesta infantil](/blog/lista-de-cosas-para-fiesta-infantil-checklist/) sirve de checklist general.
-
-![Mesa de comida en un jardín con mantel a cuadros blanco y negro, dispensadores de agua de sabor con etiquetas, donas en un plato y cupcakes con banderitas, sin personas, luz de tarde](/img/blog/fiesta-de-carros-de-carreras-con-inflable/escena-2.avif "El pit stop concentra la comida lejos de la pista y del inflable, con nombres de taller en cada platillo")
 
 ## ¿Cómo queda el cronograma de la fiesta de carros?
 

@@ -117,6 +117,7 @@ En más de 20 años hemos visto casi todos los errores posibles. No los comparti
 7. **No tener un coordinador designado.** El anfitrión no puede coordinar proveedores y atender invitados al mismo tiempo. Nombra a un familiar de confianza y dale la información de todos los proveedores.
 
 ![Mesa de jardín con una lista de horarios escrita a mano, un celular y un rollo de cinta adhesiva, con proveedores de espaldas descargando cajas al fondo](/img/blog/coordinacion-proveedores-fiesta-infantil-cdmx/escena-1.avif "Una lista de horarios y una persona que reciba a cada proveedor evitan casi todos los tropiezos")
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 ## ¿Cómo es un cronograma de fiesta infantil de 4 horas?
 

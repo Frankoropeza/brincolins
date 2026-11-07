@@ -71,6 +71,7 @@ Menos de lo que crees. La decoración de superhéroes vive de tres cosas: colore
 El inflable es la pieza más grande de la decoración, así que acomoda lo demás a su alrededor sin invadir su área. Pon el horizonte de ciudad en la barda detrás de la mesa de pastel, el tendedero de capas en la entrada y deja libre la franja alrededor del inflable para la fila y la circulación.
 
 ![Barda de un patio en CDMX decorada con siluetas de edificios recortadas en cartón negro, globos rojos, azules y amarillos y estrellas de cartulina, sin personas, luz de mediodía](/img/blog/fiesta-de-superheroes-con-inflable/escena-1.avif "Un horizonte de ciudad en cartón y tres colores de globo bastan para ambientar la fiesta de superhéroes")
+![Mesa de madera en una terraza con capas de fieltro dobladas, antifaces de colores, credenciales de cartulina y medallas de cartón dorado listas para entregar, sin personas](/img/blog/fiesta-de-superheroes-con-inflable/escena-2.avif "Capa, antifaz y credencial se entregan al llegar; la medalla y el certificado, al final")
 
 ## ¿Qué inflable elegir para una fiesta de superhéroes según la edad?
 
@@ -89,12 +90,14 @@ Los tres son para exterior y el precio es neto por evento de 4 a 6 horas, con en
 El [inflable Dragones Rojos](/inflables/dragones-rojos/) tiene dos dragones decorativos, resbaladilla integrada y mallas laterales. Su color rojo empata con la paleta de héroes y no necesitas decorarlo. Para un grupo de kínder y primeros años de primaria es la opción más práctica.
 
 ![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
 
 ### Extremo: retos por parejas para grupos grandes
 
 Si tus invitados van de 6 a 12 años o son muchos, el [circuito de obstáculos Extremo](/inflables/extremo/) cambia la dinámica: dos héroes salen al mismo tiempo, cruzan obstáculos y bajan por el tobogán doble. Mide 8 m de largo, así que necesitas jardín, patio amplio o explanada. Puedes ver otros modelos con pista en la categoría de [inflables con obstáculos](/inflables/con-obstaculos/).
 
 ![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 ### Jungla: héroes de la selva
 
@@ -176,8 +179,6 @@ El mejor recuerdo es el que se usa durante la fiesta. Así no gastas en cosas qu
 | Medalla | En la ceremonia final | Cartón dorado y listón |
 
 Si quieres más ideas para armar las bolsitas, la guía de [bolsitas y recuerdos para fiesta infantil](/blog/bolsitas-y-recuerdos-fiesta-infantil-ideas/) separa opciones por presupuesto y edad.
-
-![Mesa de madera en una terraza con capas de fieltro dobladas, antifaces de colores, credenciales de cartulina y medallas de cartón dorado listas para entregar, sin personas](/img/blog/fiesta-de-superheroes-con-inflable/escena-2.avif "Capa, antifaz y credencial se entregan al llegar; la medalla y el certificado, al final")
 
 ## ¿Cómo queda el cronograma de una fiesta de superhéroes?
 

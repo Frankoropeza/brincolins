@@ -92,6 +92,7 @@ Si la fiesta es de disfraces, aplica lo mismo: capas largas, alas, coronas, espa
 Desde la invitación. Una línea como "trae ropa cómoda y calcetines para el inflable" evita que los invitados lleguen con zapatos de charol y vestido de tul sin nada abajo. La guía de [cuándo enviar invitaciones de fiesta infantil y qué datos poner](/blog/invitaciones-fiesta-infantil-cuando-enviar/) incluye textos listos para copiar con esa línea.
 
 ![Hilera de zapatos infantiles de colores acomodados sobre un tapete junto a la entrada de un inflable en un jardín de Iztapalapa, con una canasta para accesorios y lentes al lado, luz de tarde, niños desenfocados de espaldas al fondo](/img/blog/que-ropa-llevar-a-una-fiesta-infantil-con-inflable/escena-1.avif "Un tapete para zapatos y una canasta para accesorios junto a la entrada ordenan el acceso al inflable")
+![Mamá de espaldas con pantalón cómodo, blusa ligera, tenis blancos y suéter amarrado a la cintura, agachada junto a la entrada de un inflable en un jardín de Atizapán ayudando a un niño desenfocado a quitarse los zapatos, luz dorada de tarde](/img/blog/que-ropa-llevar-a-una-fiesta-infantil-con-inflable/escena-2.avif "Un outfit para fiesta infantil cómodo te deja agacharte, cargar y supervisar sin preocuparte por la ropa")
 
 ## ¿Qué ropa ponerle a los niños según la edad?
 
@@ -105,6 +106,7 @@ No es lo mismo vestir a un bebé que gatea en el inflable chico que a un niño d
 Si el festejado o los invitados están en la primera infancia, un inflable como [Gusanitos, para niños de 2 a 8 años](/inflables/gusanitos/), apto para interiores, funciona bien. Para niños más grandes que buscan retos, el [circuito Extremo](/inflables/extremo/) pide ropa que permita trepar y deslizarse, con pantalón largo de preferencia. Todos los modelos por edad están en la categoría de [inflables para niños](/inflables/para-ninos/).
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 ## ¿Qué outfit para fiesta infantil funciona para una mujer?
 
@@ -164,8 +166,6 @@ El lugar define los zapatos y las capas más que la temporada.
 | Salón de fiestas | Ropa ligera; dentro puede hacer calor | Puedes ir más arreglada, con un suéter para la salida |
 | Parque público | Muda de ropa, chamarra, zapatos que aguanten tierra | Tenis, mochila o bolsa cruzada, capa para el viento |
 | Departamento o casa con techo | Ropa ligera y calcetines antiderrapantes | Casual cómodo; en espacio reducido vas a estar más cerca del inflable |
-
-![Mamá de espaldas con pantalón cómodo, blusa ligera, tenis blancos y suéter amarrado a la cintura, agachada junto a la entrada de un inflable en un jardín de Atizapán ayudando a un niño desenfocado a quitarse los zapatos, luz dorada de tarde](/img/blog/que-ropa-llevar-a-una-fiesta-infantil-con-inflable/escena-2.avif "Un outfit para fiesta infantil cómodo te deja agacharte, cargar y supervisar sin preocuparte por la ropa")
 
 ### ¿Y el outfit del festejado?
 

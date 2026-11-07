@@ -73,6 +73,7 @@ Una evolución de la clásica fiesta de sirenas, con más peso en el océano: pe
 - **Actividad:** búsqueda del tesoro con monedas doradas escondidas.
 
 ![Inflable Barco Pirata instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/barco-pirata/barco-pirata-jardin-eventos.avif "Barco Pirata en un jardín de eventos")
+![Inflable Barco Pirata instalado en el jardín de una casa en CDMX](/img/inflables/barco-pirata/barco-pirata-jardin-casa.avif "Barco Pirata en el jardín de una casa")
 
 ### Mini olimpiadas
 
@@ -93,6 +94,7 @@ Una versión más suave y natural de la fiesta de princesas: flores, mariposas, 
 - **Actividad:** coronas de flores hechas por los propios niños. Si te gusta esta línea, la fiesta de [unicornios y hadas con inflable](/blog/fiesta-de-unicornios-y-hadas-con-inflable/) tiene más ideas.
 
 ![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
+![Inflable Castillo de Princesas instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-princesas/castillo-princesas-patio-cochera.avif "Castillo de Princesas en un patio de cemento, sobre lona")
 
 ### Granja y vida de campo
 
@@ -115,6 +117,7 @@ Más que una temática, un estilo: toda la fiesta en un solo color con sus tonos
 - **Actividad:** cabina de fotos con accesorios del color elegido.
 
 ![Jardín de casa con mesa principal decorada en lila, verde salvia y crema, guirnalda de flores y series de luces cálidas](/img/blog/tematicas-fiesta-infantil-tendencias-2027/escena-1.avif "Una paleta de tres colores ordena toda la decoración, del mantel al pastel")
+![Patio de casa con un arco de globos en tonos turquesa y coral detrás de una mesa de pastel, piñata colgada a un lado y mesas para invitados](/img/blog/tematicas-fiesta-infantil-tendencias-2027/escena-2.avif "Fondo para fotos, mesa principal y piñata: tres piezas que resuelven la temática")
 
 ## ¿Qué temáticas clásicas siguen funcionando?
 
@@ -238,8 +241,6 @@ No necesitas decorar cada rincón. En casi cualquier temática, estas cuatro pie
 4. **El inflable:** con la paleta alrededor (globos a los lados de la entrada, sin atar nada al inflable), se vuelve parte de la escenografía.
 
 Si quieres profundizar en globos, mesas y montaje, la guía de [decoración completa para fiesta infantil con globos e inflable](/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/) lo explica por zonas.
-
-![Patio de casa con un arco de globos en tonos turquesa y coral detrás de una mesa de pastel, piñata colgada a un lado y mesas para invitados](/img/blog/tematicas-fiesta-infantil-tendencias-2027/escena-2.avif "Fondo para fotos, mesa principal y piñata: tres piezas que resuelven la temática")
 
 ## ¿Qué errores evitar al elegir temática?
 

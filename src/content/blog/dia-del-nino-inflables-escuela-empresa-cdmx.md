@@ -104,6 +104,7 @@ Mándanos esos tres datos y te decimos qué combinación te conviene. ¿Siguen s
 La combinación más útil cubre tres franjas: los más chicos, el grupo central de 3 a 8 años y los grandes que quieren reto. En un festejo institucional casi nunca hay un solo rango de edad, así que un único modelo deja fuera a alguien o mezcla tamaños que no deben brincar juntos.
 
 ![Vista general del Jungla, con palmeras, dinosaurios, una mesa y sillas a un costado](/img/inflables/mini-jungla/mini-jungla-vista-general.avif)
+![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
 
 Esta tabla compara los modelos que mejor se combinan para el Día del Niño. Fíjate sobre todo en la columna de edades y en la de altura libre, porque son las que descartan opciones:
 
@@ -119,6 +120,7 @@ Esta tabla compara los modelos que mejor se combinan para el Día del Niño. Fí
 Si hay maternal, guardería o hijos pequeños de colaboradores, el [Castillo Baby para maternal](/inflables/mini-castillo/) es compacto y entra en interiores y espacios reducidos. Ponlo separado de los demás. Así los grandes no cruzan por su área. Los papás de los bebés te lo van a agradecer.
 
 ![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 ### El grupo central: Jungla
 
@@ -129,6 +131,7 @@ De 3 a 8 años es el grueso de casi cualquier festejo, entre preescolar y primar
 Los de 9 a 12 años se aburren en un brincolín. La [pista de obstáculos Extremo](/inflables/extremo/) es un circuito de 8 m con tobogán doble y doble carril para competencias. Pide 4.5 m de altura libre y un área amplia. Mide tu espacio antes que nada.
 
 ![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
 
 Para revisar el resto de opciones por rango, entra al [catálogo de inflables infantiles por edad](/inflables/para-ninos/).
 
@@ -163,6 +166,7 @@ Con roles fijos, no con buena voluntad. Cuando hay muchos niños y varios inflab
 - **Separación por edades.** Cada modelo recibe sólo a su rango; un niño de 2 años no entra al Jungla aunque su hermano esté adentro.
 
 ![Inflable Jungla para Día del Niño con dinosaurios verde y morado frente a un muro de madera](/img/inflables/mini-jungla.avif)
+![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
 
 Cuántos niños entran por turno te lo confirmamos al cotizar. Esa cifra se respeta en todos los turnos. Incluso al final, cuando la fila crece y todos tienen prisa.
 
@@ -200,6 +204,7 @@ Abril y mayo son de los meses más calurosos en la Ciudad de México y todavía 
 - Pide a los papás que manden gorra y protector solar.
 
 ![Patio escolar con fila de espera marcada bajo la sombra de una lona, garrafones de agua y vasos en una mesa](/img/blog/dia-del-nino-inflables-escuela-empresa-cdmx/escena-1.avif "Fila a la sombra y agua a la mano: lo básico para un festejo de abril al mediodía")
+![Inflable Jungla instalado en el patio de una escuela para la kermés](/img/inflables/mini-jungla/mini-jungla-kermes-escolar.avif "Jungla en una kermés escolar")
 
 ## ¿Qué conviene saber en Iztapalapa, Gustavo A. Madero y Tlalnepantla?
 

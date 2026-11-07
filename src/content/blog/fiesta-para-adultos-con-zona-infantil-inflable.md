@@ -99,6 +99,7 @@ La ubicación decide casi todo. Un inflable en el lugar equivocado puede generar
 | Mesa infantil | Junto a la zona, fuera del acceso al inflable | Comer, dibujar y descansar sin bloquear la entrada |
 
 ![Jardín de una casa con mesas redondas de mantel blanco en primer plano y, al fondo, un área infantil con inflable de túneles, tapete de colores y mesita con sillitas, luz de tarde](/img/blog/fiesta-para-adultos-con-zona-infantil-inflable/escena-1.avif "La zona infantil queda a la vista de las mesas de adultos y lejos de bocinas y barra")
+![Mesa infantil con mantel de colores, sillitas, hojas para dibujar, crayones y vasos de agua junto a un tapete, en un patio de casa con luz suave de tarde, sin personas en primer plano](/img/blog/fiesta-para-adultos-con-zona-infantil-inflable/escena-2.avif "Una mesa con sillitas y una actividad tranquila reparten a los niños y bajan la fila del inflable")
 
 ### ¿Y si el espacio es pequeño?
 
@@ -140,6 +141,7 @@ Antes de elegir, pide a las familias invitadas cuántos niños llevarán y de qu
 Para la mayoría de las fiestas de adultos con niños de varias edades, el [inflable Gusanitos para grupos mezclados](/inflables/gusanitos/) es una elección práctica: sus túneles con varias entradas y salidas evitan filas largas y funcionan con edades de 2 a 8 años. Si la mayoría son bebés y niños que apenas caminan, el [Castillo Baby para niños de 1 a 3 años](/inflables/mini-castillo/) es el adecuado por tamaño y altura. Puedes ver todas las opciones en la [categoría de inflables para niños](/inflables/para-ninos/).
 
 ![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
+![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
 
 ### ¿Y si hay bebés y niños de 10 años al mismo tiempo?
 
@@ -158,8 +160,6 @@ El inflable es el centro, pero una zona infantil completa tiene lugares para des
 - **Bote de basura** propio, para que no lleven platos a la zona de adultos.
 
 El [paquete de fiesta con inflable, mesa con sillitas y pintacaritas](/servicios/paquetes-de-fiesta/) resuelve juntos los tres elementos principales; si sólo necesitas mobiliario, puedes cotizarlo aparte.
-
-![Mesa infantil con mantel de colores, sillitas, hojas para dibujar, crayones y vasos de agua junto a un tapete, en un patio de casa con luz suave de tarde, sin personas en primer plano](/img/blog/fiesta-para-adultos-con-zona-infantil-inflable/escena-2.avif "Una mesa con sillitas y una actividad tranquila reparten a los niños y bajan la fila del inflable")
 
 ## ¿Qué horario seguir en la zona infantil?
 

@@ -78,6 +78,7 @@ Comunícalas a los niños antes de empezar. Funcionan mejor si el adulto supervi
 7. **Ante cualquier problema, desinflar.** Viento fuerte, lluvia o pérdida de presión: se sacan los niños y se espera.
 
 ![Adulto de espaldas en la entrada de un brincolín supervisando a niños que se quitan los zapatos en un jardín](/img/blog/seguridad-inflables-fiestas-infantiles/escena-1.avif "La entrada es el mejor lugar para supervisar: desde ahí se controla quién sube y cuántos hay.")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 ## ¿Cómo cambia la seguridad según el piso?
 
@@ -180,3 +181,4 @@ Un punto que muchos proveedores dejan ambiguo: **BRINCOLINS no ofrece seguro**. 
 Elige el modelo según la edad de tus invitados y el espacio que tienes: el [Castillo Baby](/inflables/mini-castillo/) para los más pequeños, el [Barco Pirata](/inflables/barco-pirata/) para fiestas temáticas o el [Extremo](/inflables/extremo/) para niños que buscan reto. Después, [solicita tu cotización](/cotizar/) con la foto del área y te confirmamos anclaje, capacidad y envío a tu zona.
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")

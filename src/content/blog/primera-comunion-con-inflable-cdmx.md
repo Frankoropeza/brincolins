@@ -78,10 +78,12 @@ Esta tabla pone lado a lado los castillos que puedes considerar para una recepci
 El precio no es lo que decide. Deciden el rango de edad y el color. El [Castillo de Princesas en rosa y azul turquesa](/inflables/castillo-princesas/) luce si tu hija quiere un cuento de hadas, pero llega hasta los 10 años y deja fuera a los primos de 11 y 12. Junto a tu mesa de honor con flores blancas, además, el rosa compite con todo.
 
 ![Inflable Castillo de Princesas instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-princesas/castillo-princesas-jardin-eventos.avif "Castillo de Princesas en un jardín de eventos")
+![Inflable Castillo de Princesas instalado en el jardín de una casa en CDMX](/img/inflables/castillo-princesas/castillo-princesas-jardin-casa.avif "Castillo de Princesas en el jardín de una casa")
 
 ¿Cuántos niños brincan por turno? ¿Cuánto espacio libre necesitas alrededor? Eso te lo confirmamos al cotizar, con las medidas reales de tu jardín. Una foto del lugar ayuda mucho.
 
 ![Idea para una primera comunión con inflable: castillo blanco en un jardín con cortinas blancas y árboles](/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-decoracion.avif)
+![Inflable Castillo Blanco instalado en el jardín de una casa en CDMX](/img/inflables/castillo-blanco/castillo-blanco-jardin-casa.avif "Castillo Blanco en el jardín de una casa")
 
 Para el resto de tu decoración, las combinaciones de blanco con dorado, verde olivo o pastel están en la guía sobre [cómo decorar una fiesta infantil en blanco](/blog/fiesta-infantil-all-white-boho-decoracion/). El castillo ya te pone la mitad del trabajo.
 
@@ -133,6 +135,7 @@ Los vestidos largos, con crinolina o cola, se enredan al brincar. Los sacos dan 
 Tienes una salida sencilla. Después de la foto, playera blanca y pantalón cómodo. El vestido se salva entero. Tu hija brinca a gusto. Si la prenda es heredada o delicada, ese cambio te ahorra un disgusto.
 
 ![Canasta de mimbre con zapatos de niño y niña de vestir junto a una silla con un saco infantil colgado en el respaldo, sobre pasto](/img/blog/primera-comunion-con-inflable-cdmx/escena-2.avif "Zapatos en la canasta y el saco en la silla: así la ropa de fiesta llega entera a las fotos.")
+![Jardín de una casa en el Estado de México preparado para una recepción de primera comunión, con mesas de manteles blancos, centros de flores blancas y espacio libre de pasto al fondo](/img/blog/primera-comunion-con-inflable-cdmx/escena-1.avif "La mesa de honor en un extremo y el área de juego al otro, a la vista de los papás.")
 
 ### Zapatos de los invitados
 
@@ -147,8 +150,7 @@ Lejos de la mesa de honor y del pastel, pero a la vista de las mesas de los pap�
 En tu mesa principal están el pastel, los recuerdos, la vela y el lugar donde posan los padrinos. Si el brincolín queda pegado, los niños pasan corriendo junto al pastel y el motor suena durante el brindis. Coloca el castillo en el extremo opuesto del jardín o en un costado, fuera del paso entre cocina y mesas.
 
 ![Castillo inflable blanco sobre el pasto junto a un arco de globos blancos, con edificios al fondo](/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-terraza-cdmx.avif)
-
-![Jardín de una casa en el Estado de México preparado para una recepción de primera comunión, con mesas de manteles blancos, centros de flores blancas y espacio libre de pasto al fondo](/img/blog/primera-comunion-con-inflable-cdmx/escena-1.avif "La mesa de honor en un extremo y el área de juego al otro, a la vista de los papás.")
+![Inflable Castillo Blanco instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-blanco/castillo-blanco-patio-cochera.avif "Castillo Blanco en un patio de cemento, sobre lona")
 
 ### Línea de vista desde las mesas
 
@@ -183,6 +185,7 @@ Ninguno de los dos entra al Castillo Blanco. Los de 1 a 3 años necesitan su pro
 Para los más chicos tienes el [Castillo Baby, compacto para niños de 1 a 3 años](/inflables/mini-castillo/). Mide 2.5 × 2 × 2 m, cuesta $1,400 y puede ir en un rincón separado, con su propio adulto. Es la misma idea de dos zonas que explicamos para la [recepción de una presentación de 3 años](/blog/presentacion-de-3-anos-recepcion-con-inflable/), donde los pequeños son mayoría.
 
 ![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 ¿Y los de 13 o 14? Se quedan fuera, aunque insistan. Cada modelo tiene su rango. Lo respetamos. Puedes darles una tarea con estatus: organizar los turnos o cuidar la canasta de zapatos.
 

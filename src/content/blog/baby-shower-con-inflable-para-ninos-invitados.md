@@ -76,6 +76,7 @@ Esta tabla cruza las edades de tus niños invitados con el modelo que conviene. 
 Cuando los hijos de tus invitadas son pequeños. El [Castillo Baby, que también entra en interiores](/inflables/mini-castillo/), mide 2.5 × 2 × 2 m, es para niños de 1 a 3 años y se instala en 15 minutos. Cabe en una sala despejada o una terraza. Es compacto. Y es suyo.
 
 ![Inflable Castillo Baby instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-castillo/mini-castillo-jardin-eventos.avif "Castillo Baby en un jardín de eventos")
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 ### Cuándo conviene el Castillo Blanco
 
@@ -86,6 +87,7 @@ Cuando los niños ya van al kínder o a la primaria. El Castillo Blanco mide 5 �
 Cuando vienen bebés y niños de primaria. ¿Por qué no uno solo? Un bebé de 1 año no brinca con un niño de 9. Pon cada castillo en un punto distinto, con su propio adulto. Otras formas y tamaños están en la [selección de castillos inflables](/inflables/castillos/).
 
 ![Baby shower con inflable: castillo blanco frente a un edificio de arcos con flores a los lados](/img/inflables/castillo-blanco/brincolin-blanco-bodas-decoracion-globos.avif)
+![Inflable Castillo Blanco instalado en el jardín de una casa en CDMX](/img/inflables/castillo-blanco/castillo-blanco-jardin-casa.avif "Castillo Blanco en el jardín de una casa")
 
 > **¿Cuántos niños vienen y de qué edades?** Mándanos la lista aproximada y la fecha; te decimos si te conviene el Castillo Blanco, el Castillo Baby o los dos. [Cotizar inflable para baby shower](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20un%20inflable%20para%20los%20ninos%20de%20mi%20baby%20shower)
 
@@ -108,6 +110,7 @@ Lejos no quiere decir escondido. Si una mamá no ve a su hijo desde su silla, se
 La misma lógica de ubicación, ruido y supervisión que se usa en la zona infantil de una boda te sirve para tu baby shower, solo que a menor escala.
 
 ![Jardín preparado para un baby shower con mesas decoradas en tonos pastel al frente y un área de juego infantil separada al fondo](/img/blog/baby-shower-con-inflable-para-ninos-invitados/escena-1.avif "El área infantil queda a un costado: lejos de la mesa de regalos, pero a la vista de las mesas")
+![Inflable Castillo Blanco instalado sobre lona en el patio de cemento de una casa](/img/inflables/castillo-blanco/castillo-blanco-patio-cochera.avif "Castillo Blanco en un patio de cemento, sobre lona")
 
 ## ¿Qué opciones hay si el baby shower es en departamento o espacio cerrado?
 
@@ -142,6 +145,7 @@ Nosotros instalamos con anclaje verificado, dejamos el motor profesional encendi
 Instala antes de que lleguen las invitadas, abre al recibirlas, cierra durante la comida y reabre para la parte de regalos. Así los niños llegan a un espacio listo y tú no coordinas proveedores con la casa llena. La renta cubre un evento de 4 a 6 horas, suficiente para un baby shower típico.
 
 ![Vista del Castillo Blanco inflable en pasto, con flores alrededor y una pérgola adornada al fondo](/img/inflables/castillo-blanco.avif)
+![Inflable Castillo Blanco instalado en el patio de una escuela para la kermés](/img/inflables/castillo-blanco/castillo-blanco-kermes-escolar.avif "Castillo Blanco en una kermés escolar")
 
 El Castillo Blanco se instala en 30 minutos y el Castillo Baby en 15. Alguien de tu confianza nos recibe y nos muestra la toma de corriente, de preferencia mientras tú terminas de arreglarte o de acomodar la mesa de postres. Cuando llegan tus invitadas, el castillo ya está inflado.
 

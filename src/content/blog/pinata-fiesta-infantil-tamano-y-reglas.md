@@ -114,6 +114,7 @@ Hay familias que prefieren pastel primero y piñata después; las dos funcionan.
 Si tienes varios proveedores, comparte este horario con todos para que nadie llegue a mitad de la piñata: la guía de [coordinación de proveedores para fiesta infantil](/blog/coordinacion-proveedores-fiesta-infantil-cdmx/) explica cómo armar el cronograma.
 
 ![Patio de una casa con una piñata de colores colgada de una cuerda, niños de espaldas formados en semicírculo detrás de una línea de gis y un adulto sosteniendo la cuerda, luz de tarde](/img/blog/pinata-fiesta-infantil-tamano-y-reglas/escena-1.avif "Una línea marcada en el piso y un adulto en la cuerda mantienen a los niños fuera del alcance del palo")
+![Piñata de cartón en forma de caja decorada con papel de colores y varios listones colgando, sostenida por un adulto en una terraza, con niños pequeños fuera de foco al fondo](/img/blog/pinata-fiesta-infantil-tamano-y-reglas/escena-2.avif "La piñata de listones permite que los más chiquitos participen sin palo ni golpes")
 
 ## ¿En qué orden pasan los niños a la piñata?
 
@@ -185,8 +186,6 @@ Ventajas para esta edad:
 
 Rellénala con cosas seguras: galletas en bolsita, fruta suave, juguetes grandes y nada con piezas pequeñas, dulces duros, cacahuates ni chicles. En fiestas con edades mezcladas, usa la de listones para los pequeños y una de palo para los mayores. La guía de [juegos para fiesta infantil por edad](/blog/juegos-para-fiesta-infantil-ideas-por-edad/) tiene más dinámicas para combinar con la piñata.
 
-![Piñata de cartón en forma de caja decorada con papel de colores y varios listones colgando, sostenida por un adulto en una terraza, con niños pequeños fuera de foco al fondo](/img/blog/pinata-fiesta-infantil-tamano-y-reglas/escena-2.avif "La piñata de listones permite que los más chiquitos participen sin palo ni golpes")
-
 ## ¿Cómo hacer una piñata en casa?
 
 Hacer la piñata en casa ahorra dinero y, si la fiesta es para niños de 5 años en adelante, se convierte en una actividad del fin de semana anterior. Necesitas una caja de cartón o un globo grande, papel periódico, engrudo (harina y agua cocidas), papel de china o crepé, cinta, tijeras y una cuerda resistente.
@@ -216,6 +215,7 @@ Prueba la resistencia con un golpe suave antes de colgarla: si se rompe con muy 
 Cualquier modelo funciona si hay espacio para separar las dos zonas. En un patio mediano, un inflable de 5 × 3 m como el de [Dragones Rojos](/inflables/dragones-rojos/), para niños de 3 a 8 años, deja lugar a un lado para colgar la piñata con su círculo. Para ver modelos clásicos de brinco, revisa la categoría de [brincolines para fiestas](/inflables/brincolines/).
 
 ![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
 
 La piñata se cuelga donde se pueda amarrar bien la cuerda y quede espacio libre alrededor. En la [renta de inflables en Álvaro Obregón](/cobertura/alvaro-obregon/) son comunes los terrenos con desnivel, así que conviene elegir para la piñata la parte más plana del jardín. En la [renta de inflables en Azcapotzalco](/cobertura/azcapotzalco/) y en la [renta de inflables en Nezahualcóyotl](/cobertura/nezahualcoyotl/) muchas fiestas se hacen en patio o calle cerrada, donde la cuerda se amarra de pared a pared y hay que cuidar que el círculo no invada la entrada del inflable.
 

@@ -113,6 +113,7 @@ Un niño con un dulce en la mano no debe entrar al inflable. Si la mesa de postr
 La superficie tiene que ser plana y despejada, sin vidrio ni objetos punzantes, con una toma de 110 V a menos de 20 m. Si tienes jardín, revisa que no haya aspersores, piedras ni raíces salidas en el área.
 
 ![Castillo Baby compacto con torres de colores instalado en pasto sintético junto a un muro blanco](/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif)
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 > **Tu recepción, con la zona infantil resuelta.** Mándanos la hora de la misa y la dirección de la recepción; te proponemos la hora de instalación y te confirmamos la fecha. [Cotizar inflable para mi bautizo](https://wa.me/525531281706?text=Hola%20BRINCOLINS%20quiero%20cotizar%20el%20Castillo%20Baby%20para%20la%20recepcion%20de%20un%20bautizo)
 
@@ -129,6 +130,7 @@ Con reglas sencillas y todo preparado para cumplirlas: zapatos fuera, nada duro 
 Pide en la invitación que cada familia traiga una muda. Es un detalle pequeño que resuelve medio problema.
 
 ![Zapatero de madera con zapatos infantiles de ceremonia junto a la entrada de un área de juego en un jardín decorado en blanco](/img/blog/bautizo-con-inflable-zona-infantil-cdmx/escena-1.avif "Un zapatero junto a la entrada mantiene la ropa de la ceremonia a salvo")
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 ## ¿Un bautizo con inflable funciona en jardín y en salón cerrado?
 
@@ -167,6 +169,7 @@ Si la recepción es en Atizapán de Zaragoza, en el norponiente del Estado de M�
 Cuando en tu lista hay varios niños de 4 años en adelante. El Castillo Baby no es para ellos, y si no tienen su propio espacio van a querer entrar al de los chiquitos. En un bautizo formal, el modelo para ese grupo es el [Castillo Blanco para recepciones formales](/inflables/castillo-blanco/): blanco, para niños de 3 a 12 años.
 
 ![Inflable Castillo Blanco instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/castillo-blanco/castillo-blanco-jardin-eventos.avif "Castillo Blanco en un jardín de eventos")
+![Inflable Castillo Blanco instalado en el jardín de una casa en CDMX](/img/inflables/castillo-blanco/castillo-blanco-jardin-casa.avif "Castillo Blanco en el jardín de una casa")
 
 Esta tabla compara los dos modelos que suelen convivir en una recepción de bautizo; la lectura rápida es que el Castillo Baby resuelve a los bebés en cualquier espacio y el Castillo Blanco pide jardín amplio:
 
@@ -188,6 +191,7 @@ Depende de tu lista. Si casi todos los niños tienen de 1 a 3 años, basta el Ca
 ¿Te preocupan las fotos? El Castillo Blanco está pensado para no romper la estética de un evento formal. El repaso de [inflables que encajan en eventos formales](/blog/inflables-eventos-formales-cdmx/) explica cómo se ven en bodas, XV años y bautizos.
 
 ![Castillo Baby armado sobre pasto entre árboles, con torres verde y azul y entrada de arcos amarillos](/img/inflables/mini-castillo.avif)
+![Inflable Castillo Baby instalado en el área verde común de una privada](/img/inflables/mini-castillo/mini-castillo-privada-condominio.avif "Castillo Baby en el área común de una privada")
 
 ## ¿Qué piezas completan la zona infantil de la recepción?
 

@@ -210,6 +210,7 @@ Muchos malentendidos del día de la fiesta nacen de una cotización que solo dec
 | Política de lluvia y cancelación | Qué pasa con el anticipo si se reprograma |
 
 ![Manos con un celular mostrando una cotización por mensaje, junto a una libreta con la lista de datos a confirmar](/img/blog/elegir-empresa-renta-inflables-profesional-cdmx/escena-1.avif "Modelo, horario, envío y política de lluvia, por escrito antes de transferir")
+![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
 
 Dos detalles que conviene preguntar aunque parezcan menores. Primero, la altura libre: cada modelo pide un mínimo (el Castillo Baby necesita 3.2 m; el Barco Pirata, 5.2 m), así que un proveedor serio te pregunta si hay cables, ramas o techo antes de confirmar. Segundo, la corriente: el soplador funciona toda la renta y necesita un contacto cercano; en la guía sobre [consumo eléctrico, contacto y extensión](/blog/cuanta-luz-consume-un-inflable-contacto-extension/) explicamos qué revisar en casa.
 

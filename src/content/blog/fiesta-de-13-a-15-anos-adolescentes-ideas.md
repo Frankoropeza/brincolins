@@ -78,6 +78,7 @@ Los retos que mejor funcionan a esta edad comparten tres rasgos: se entienden en
 La clave está en no encadenar todos. Elige dos, máximo tres, y deja lo demás como opción por si el ánimo da para más.
 
 ![Jardín de una casa en la Ciudad de México con un circuito inflable de doble carril, una mesa con cronómetro, marcador de pizarrón y vasos apilados, luz de tarde, grupo de adolescentes de espaldas](/img/blog/fiesta-de-13-a-15-anos-adolescentes-ideas/escena-1.avif "Un marcador visible y rondas cortas convierten el inflable en un torneo que el grupo sigue de principio a fin")
+![Patio de una casa con mesa de botanas y vasos de agua, cojines en el piso y una bocina sobre una repisa lejos de un inflable, luz de atardecer y guirnaldas de focos, sin personas en primer plano](/img/blog/fiesta-de-13-a-15-anos-adolescentes-ideas/escena-2.avif "La zona de convivencia, la comida y la bocina van separadas del acceso al inflable")
 
 ## ¿Qué inflables admiten adolescentes de 13, 14 y 15 años?
 
@@ -96,10 +97,12 @@ Los tres son de exterior, se montan en unos 30 minutos y se usan por turnos, sin
 Para la mayoría de las fiestas de 13 y 14 años, el [circuito Extremo para competencias](/inflables/extremo/) es la elección más directa: el doble carril convierte cualquier ronda en una carrera, genera público alrededor y ordena los turnos de forma natural. Pide 8 m de largo y 4.5 m de altura libre.
 
 ![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
+![Inflable Extremo instalado sobre lona en el patio de cemento de una casa](/img/inflables/extremo/extremo-patio-cochera.avif "Extremo en un patio de cemento, sobre lona")
 
 El [Barco Pirata para fiestas al aire libre](/inflables/barco-pirata/) conviene cuando el grupo prefiere una misión con historia o cuando el jardín es más corto (6 m de largo), siempre que tenga 5.2 m libres hacia arriba, sin ramas ni cables. El Castillo Blanco, por su parte, queda bien cuando la fiesta de 15 tiene una estética definida y el inflable debe integrarse a la decoración en lugar de dominarla.
 
 ![Inflable Barco Pirata instalado en el área verde común de una privada](/img/inflables/barco-pirata/barco-pirata-privada-condominio.avif "Barco Pirata en el área común de una privada")
+![Inflable Barco Pirata instalado en el jardín de una casa en CDMX](/img/inflables/barco-pirata/barco-pirata-jardin-casa.avif "Barco Pirata en el jardín de una casa")
 
 ## ¿Qué música poner en una fiesta de 13 a 15 años?
 
@@ -151,8 +154,6 @@ Más que una cifra, piensa en cuántos puede supervisar bien tu equipo de adulto
 ## ¿Qué reglas de convivencia y supervisión necesita una fiesta de 13 a 15 años?
 
 Las reglas funcionan mejor cuando se acuerdan antes con el festejado y no se anuncian como sermón al inicio de la fiesta. Él o ella puede comunicarlas a sus amistades a su manera. Lo que sí debe quedar claro desde el principio es que hay acuerdos que no se negocian.
-
-![Patio de una casa con mesa de botanas y vasos de agua, cojines en el piso y una bocina sobre una repisa lejos de un inflable, luz de atardecer y guirnaldas de focos, sin personas en primer plano](/img/blog/fiesta-de-13-a-15-anos-adolescentes-ideas/escena-2.avif "La zona de convivencia, la comida y la bocina van separadas del acceso al inflable")
 
 ### Acuerdos con el festejado, antes de la fiesta
 

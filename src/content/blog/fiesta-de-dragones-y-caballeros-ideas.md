@@ -55,6 +55,7 @@ Una **decoración de fiesta de dragones** no necesita llenar cada rincón de glo
 Para una fiesta infantil en CDMX, rojo, dorado y verde oscuro permiten cambiar de tono sin comprar elementos distintos para cada zona. El rojo conversa con el inflable; el dorado ilumina los detalles, y el verde puede llevar la idea hacia bosque, castillo o aventura. Antes de comprar decoración, revisa la [ficha del inflable Dragones Rojos](/inflables/dragones-rojos/): es para niñas y niños de 3 a 8 años, mide 5 × 3 × 2.80 m, se instala en exterior y requiere 4.5 m de altura libre.
 
 ![Inflable Dragones Rojos instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/dragones-rojos/dragones-rojos-jardin-eventos.avif "Dragones Rojos en un jardín de eventos")
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 El espacio final, la capacidad y la instalación se confirman al cotizar.
 
@@ -95,6 +96,7 @@ Para que sea fácil de atender, separa tres áreas:
 - **Servilletas y platos:** sitúalos en el extremo opuesto para que quien se sirva no alcance las velas ni el pastel.
 
 ![Mesa de pastel con mantel verde oscuro, platos dorados y escudos de cartón rojos contra una barda de jardín](/img/blog/fiesta-de-dragones-y-caballeros-ideas/escena-1.avif "Una base, una altura y un detalle personal: la mesa cuenta el tema sin sobrecargarse.")
+![Inflable Dragones Rojos instalado en el patio de una escuela para la kermés](/img/inflables/dragones-rojos/dragones-rojos-kermes-escolar.avif "Dragones Rojos en una kermés escolar")
 
 Si hay comida caliente, bebidas o una mesa de adultos, no las mezcles con la estación de fotos. La foto principal se toma más tranquila cuando no hay filas frente al festejado. Para una celebración de seis años, puedes combinar esta mesa con los tiempos y juegos de la [fiesta de 6 años con brincolín de dragón](/blog/fiesta-de-6-anos-ideas-inflable/), sin pedirle a la decoración que también entretenga a todo el grupo. Si aún dudas entre modelos del mismo precio, la [comparativa de Dragones Rojos, Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/) pone lado a lado edad, altura y uso en interior.
 
@@ -205,6 +207,7 @@ Casi todos vienen de mezclar el juego de rol con el brincolín. Las espadas, las
 - **Decorar con lo que no se va a usar.** Escudos y coronas que sirven para formar equipos rinden doble. Si buscas recortar gastos, la guía de [fiesta infantil con poco presupuesto](/blog/fiesta-infantil-con-poco-presupuesto-cdmx/) te ayuda a decidir en qué sí gastar.
 
 ![Inflable Castillo Baby instalado en el área verde común de una privada](/img/inflables/mini-castillo/mini-castillo-privada-condominio.avif "Castillo Baby en el área común de una privada")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 ## ¿Qué cambia en patios, terrenos y quintas del oriente?
 

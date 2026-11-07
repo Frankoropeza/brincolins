@@ -60,6 +60,7 @@ Antes de elegir la decoración, hay que tener claro el tema. No porque sea un re
 El tema más solicitado para niños de 4 a 8 años en los últimos dos años. Hay algo en los dinosaurios que trasciende generaciones. Los colores dominantes son verde oscuro, café, naranja y rojo. El inflable ideal es la [Jungla](/inflables/mini-jungla/) ($1,600, de 3 a 8 años) o el [Extremo](/inflables/extremo/) ($2,500, de 3 a 12 años). DEGLOB crea arcos con globos verdes y cromados dorados que simulan la vegetación prehistórica, y cuando el aire mueve ligeramente los globos orgánicos, hay un momento en que el jardín entero parece Jurassic Park.
 
 ![Inflable Jungla instalado en un jardín de eventos junto a las mesas de la fiesta](/img/inflables/mini-jungla/mini-jungla-jardin-eventos.avif "Jungla en un jardín de eventos")
+![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
 
 ### 2. Unicornios y fantasía
 
@@ -154,6 +155,7 @@ El orden que funciona es este:
 5. **Cierra con los detalles.** Banderines, guirnaldas, letreros e iluminación completan el conjunto sin competir con los elementos principales.
 
 ![Persona de espaldas armando un arco de globos verdes y dorados en la entrada de un jardín, con un inflable al fondo](/img/blog/decoracion-completa-fiesta-infantil-cdmx-globos-inflable/escena-1.avif "El arco se arma cuando el inflable ya está en su lugar, para que ambos queden alineados")
+![Inflable Jungla instalado en el patio de una escuela para la kermés](/img/inflables/mini-jungla/mini-jungla-kermes-escolar.avif "Jungla en una kermés escolar")
 
 ## ¿Qué errores arruinan la decoración?
 

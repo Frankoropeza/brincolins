@@ -58,6 +58,7 @@ Si tienes jardín, patio o un techo de más de 3.2 m, el brincolín suele ser la
 Porque tiene el mejor **costo por hora de entretenimiento**: un modelo mediano como los [Dragones Rojos](/inflables/dragones-rojos/) o el [Castillo de Princesas](/inflables/castillo-princesas/) cuesta **$1,600 o $1,800 MXN por 4 a 6 horas**, sin coordinar horarios ni depender de un artista. La capacidad exacta se confirma al cotizar. Los ocho precios del catálogo, de $1,400 a $2,600 MXN, están en la [página de precios](/precios/).
 
 ![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 **Ventajas:** funciona toda la fiesta, cubre rangos de edad amplios (hay modelos de 1 a 3 años y otros que llegan a los 12), los niños se organizan solos y el adulto solo supervisa. Con un proveedor serio incluye **entrega, instalación, sanitización y recolección**.
 
@@ -98,6 +99,7 @@ Ejemplo de cuenta: un Gusanitos ($1,600) más la mesa infantil ($550) suman $2,1
 Si el presupuesto es el límite principal, revisa la guía de [fiesta infantil con poco presupuesto](/blog/fiesta-infantil-con-poco-presupuesto-cdmx/), donde repartimos el gasto por prioridades, o el desglose de [cuánto cuesta una fiesta infantil en CDMX](/blog/cuanto-cuesta-una-fiesta-infantil-cdmx-presupuesto/).
 
 ![Mesa con libreta, calculadora y lista de invitados junto a la ventana de una casa, con un patio preparado al fondo](/img/blog/brincolin-vs-otras-alternativas-fiesta-infantil/escena-1.avif "Antes de cotizar, suma horas cubiertas, traslado y número de niños")
+![Inflable Dragones Rojos instalado en el área verde común de una privada](/img/inflables/dragones-rojos/dragones-rojos-privada-condominio.avif "Dragones Rojos en el área común de una privada")
 
 ## ¿Qué preguntas te ayudan a decidir en diez minutos?
 

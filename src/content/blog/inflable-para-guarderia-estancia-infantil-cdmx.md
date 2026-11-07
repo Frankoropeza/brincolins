@@ -88,10 +88,12 @@ No hay turno especial ni excepción para los que ya caminan si todavía no cumpl
 Los niños que ya pasaron los 3 años salen del rango del Castillo Baby. Para ellos, el [inflable Gusanitos para preescolar](/inflables/gusanitos/) recibe de 2 a 8 años, mide 5 × 3 × 2.80 m y también es apto para interiores con 3.2 m libres. Es más circuito que brincolín: túneles de colores conectados, con varias entradas y salidas, y funciona con grupos de edades mezcladas. ¿Tienes patio amplio? Dragones Rojos o Jungla reciben de 3 a 8 años, sólo en exterior.
 
 ![Inflable Gusanitos instalado dentro de un salón de fiestas infantiles](/img/inflables/gusanitos/gusanitos-salon-fiestas.avif "Gusanitos en un salón de fiestas")
+![Inflable Gusanitos instalado en el jardín de una casa en CDMX](/img/inflables/gusanitos/gusanitos-jardin-casa.avif "Gusanitos en el jardín de una casa")
 
 La categoría de [inflables compactos para niños pequeños](/inflables/chicos/) reúne las opciones que caben en tu estancia.
 
 ![Vista completa del Castillo Baby con sus cuatro torres de colores y techo azul, instalado en pasto](/img/inflables/mini-castillo.avif)
+![Inflable Castillo Baby instalado en el jardín de una casa en CDMX](/img/inflables/mini-castillo/mini-castillo-jardin-casa.avif "Castillo Baby en el jardín de una casa")
 
 ## ¿Qué tienes que preguntar a la dirección antes de cotizar?
 
@@ -170,6 +172,7 @@ Dos consejos para que la plantilla funcione. Primero, avisa a cada sala su hora 
 Entre junio y septiembre llueve con frecuencia en el Valle de México, casi siempre por la tarde. Si tu festejo de fin de cursos cae en esas semanas y el inflable va en el patio, decide desde la junta cuál es el plan B: adelantar los turnos a primera hora, pasar el Castillo Baby a un salón con 3.2 m de altura libre o mover la actividad a otro día; si la lluvia impide el evento, la reprogramación no tiene costo. Las opciones para [instalar bajo techo en temporada de lluvias](/blog/inflable-bajo-techo-temporada-de-lluvias-cdmx/) te ayudan a elegir el espacio alterno.
 
 ![Salón de usos múltiples de una estancia infantil con colchonetas, zapatos de niños formados junto a la puerta y sillas pequeñas](/img/blog/inflable-para-guarderia-estancia-infantil-cdmx/escena-1.avif "Zapatos fuera y bloque por sala: así se ordena el cambio de turno.")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 ## ¿Quién supervisa cada turno y qué hace nuestro equipo?
 
@@ -206,6 +209,7 @@ Muchas estancias trabajan en casas adaptadas, con patio pequeño o cochera en lu
 La fecha se aparta con 50% de anticipo. En instituciones, el trámite interno de pago puede tardar, así que conviene iniciarlo en cuanto tengas la cotización.
 
 ![Entrada del Castillo Baby con arcos amarillos y pelotas de colores, en un patio junto a una barda](/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif)
+![Inflable Castillo Baby instalado en el patio de una escuela para la kermés](/img/inflables/mini-castillo/mini-castillo-kermes-escolar.avif "Castillo Baby en una kermés escolar")
 
 ## ¿Con cuánta anticipación apartas para el Día del Niño o el fin de cursos?
 

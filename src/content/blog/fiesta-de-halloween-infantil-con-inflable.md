@@ -92,6 +92,7 @@ Lista rápida de compras para decorar:
 6. Mantel temático y platos de un solo color, que salen más baratos que los estampados.
 
 ![Mesa de Halloween infantil en un patio de casa con mantel naranja, calabazas pequeñas sonrientes y frascos de dulces, luz de tarde](/img/blog/fiesta-de-halloween-infantil-con-inflable/escena-1.avif "Calabazas sonrientes y colores alegres funcionan para niños de todas las edades")
+![Niños disfrazados de espaldas caminando en fila por un jardín con guirnaldas de luz cálida al anochecer, fuera de foco](/img/blog/fiesta-de-halloween-infantil-con-inflable/escena-2.avif "El desfile de disfraces se hace con la última luz de la tarde, antes de encender las guirnaldas")
 
 ## ¿A qué hora conviene hacer la fiesta de Halloween infantil?
 
@@ -171,8 +172,6 @@ Suena la música y todos bailan como monstruos; cuando para, se congelan en su p
 
 Si quieres más ideas por grupo de edad, la guía de [juegos para fiesta infantil por edad](/blog/juegos-para-fiesta-infantil-ideas-por-edad/) tiene opciones de 1 a 12 años.
 
-![Niños disfrazados de espaldas caminando en fila por un jardín con guirnaldas de luz cálida al anochecer, fuera de foco](/img/blog/fiesta-de-halloween-infantil-con-inflable/escena-2.avif "El desfile de disfraces se hace con la última luz de la tarde, antes de encender las guirnaldas")
-
 ## ¿Qué inflable conviene para una fiesta de Halloween infantil?
 
 No existe un inflable "de Halloween" en el catálogo, y no hace falta: la temática la pone la decoración y los disfraces. Lo que decide el modelo es la edad, el espacio y si la fiesta es al aire libre o bajo techo.
@@ -187,6 +186,7 @@ No existe un inflable "de Halloween" en el catálogo, y no hace falta: la temát
 El [inflable Dragones Rojos](/inflables/dragones-rojos/) es el que más se presta a una tarde de monstruos amables: los dos dragones encajan con disfraces de criaturas y caballeros. Si la fiesta será en salón o terraza techada, el [inflable Gusanitos para interiores](/inflables/gusanitos/) evita depender del clima. Para ver más opciones con diseño llamativo, revisa la [categoría de inflables temáticos](/inflables/tematicos/).
 
 ![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 Los precios son por evento de 4 a 6 horas e incluyen entrega, instalación, motor, sanitización y recolección. Son precios netos; si necesitas factura se suma el 16% de IVA.
 

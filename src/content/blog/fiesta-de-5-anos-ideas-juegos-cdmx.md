@@ -81,6 +81,7 @@ No necesitas diez actividades. Necesitas dos o tres que funcionen y repetirlas. 
 Las dos opciones funcionan; lo que cambia es la logística. Invitar a todo el grupo evita que alguien se quede fuera, pero multiplica turnos, comida y adultos. Invitar sólo a los cercanos te da una fiesta más tranquila. Antes de decidir, pregunta a la maestra cuántos niños son exactamente.
 
 ![Frente del inflable Dragones Rojos: resbaladilla verde entre los dos dragones, con torres amarilla y azul](/img/inflables/dragones-rojos/dragones-frontal-centrado.avif)
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 ### Invitar a todo el salón
 
@@ -97,6 +98,7 @@ Es más fácil de controlar y te sale más barato en comida. Si eliges este cami
 Cada niño del kínder llega con al menos un adulto y, muchas veces, con un hermano. Haz dos cuentas: niños de 3 a 8 años, que pueden usar el Dragones Rojos, y menores de 3, que necesitan otra cosa. Esa segunda cuenta decide si te hace falta un [Castillo Baby para hermanitos de 1 a 3 años](/inflables/mini-castillo/).
 
 ![Inflable Castillo Baby instalado en el área verde común de una privada](/img/inflables/mini-castillo/mini-castillo-privada-condominio.avif "Castillo Baby en el área común de una privada")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 Con el número aproximado de niños en la mano, compártelo al cotizar. Con ese dato confirmamos la capacidad del inflable y te sugerimos cómo armar los turnos para que nadie se quede esperando demasiado mientras los demás brincan, comen pastel o rompen la piñata. Es tu mejor herramienta.
 
@@ -156,6 +158,7 @@ Para ver la resbaladilla y la entrada antes de decidir, revisa las fotos y medid
 Te sirven juegos de cero preparación que caben entre una ronda y otra: estatuas, Simón dice, carreras de cucharas y un dibujo gigante. Con un solo inflable siempre hay niños esperando. La regla es simple: que la espera tenga algo que hacer.
 
 ![Resbaladilla verde del Dragones Rojos vista de frente, entre las cabezas de los dos dragones](/img/inflables/dragones-rojos/dragones-frontal-resbaladilla.avif)
+![Inflable Dragones Rojos instalado en el patio de una escuela para la kermés](/img/inflables/dragones-rojos/dragones-rojos-kermes-escolar.avif "Dragones Rojos en una kermés escolar")
 
 Estos seis no piden material especial y los entiende cualquier niño de 5 años a la primera:
 
@@ -167,6 +170,7 @@ Estos seis no piden material especial y los entiende cualquier niño de 5 años 
 - **Piñata por turnos de edad.** Primero los chicos, después los grandes, con un adulto cuidando la distancia.
 
 ![Niños de unos 5 años jugando a las estatuas en un jardín mientras esperan su turno](/img/blog/fiesta-de-5-anos-ideas-juegos-cdmx/escena-1.avif "Un juego de una sola regla mantiene ocupados a los que esperan turno.")
+![Inflable Dragones Rojos instalado en el área verde común de una privada](/img/inflables/dragones-rojos/dragones-rojos-privada-condominio.avif "Dragones Rojos en el área común de una privada")
 
 ¿Vas a sentar a los niños para dibujar o comer? Considera sumar [mesas y sillitas infantiles](/servicios/mobiliario-para-fiestas/). Y si prefieres una actividad lista, el [paquete con mesa, sillitas y una hora de pintacaritas](/servicios/paquetes-de-fiesta/) funciona como segunda estación sin que tú la organices.
 
@@ -183,6 +187,7 @@ El Dragones Rojos trae dos dragones decorativos de unos 3 m, resbaladilla y mall
 La [Jungla con dinosaurios y palmeras](/inflables/mini-jungla/) mide 2.50 m de alto y hace buena parte del trabajo de la decoración. ¿Está entre dinosaurios y dragones? Deja que él elija viendo las fotos.
 
 ![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
+![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
 
 ¿Dudas también con el Gusanitos? Revisa la [comparación de los tres inflables del mismo precio](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/). Para ver otros modelos ordenados por edad, entra a [inflables para niños por rango de edad](/inflables/para-ninos/).
 

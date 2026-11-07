@@ -86,6 +86,7 @@ Elige por la edad de los niños, no por el tamaño. Un inflable más grande no h
 Para la mayoría de las fiestas de niños de 3 a 8 años, los tres modelos de $1,600 resuelven la tarde. La guía que compara [Dragones Rojos, Jungla y Gusanitos](/blog/inflables-de-1600-comparativa-dragones-jungla-gusanitos/) te ayuda a elegir entre ellos. La [Jungla](/inflables/mini-jungla/), por ejemplo, se instala en 15 minutos y es para niños de 3 a 8 años.
 
 ![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
+![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
 
 Si quieres ver sólo los modelos de precio más bajo, revisa la selección de [modelos más accesibles del catálogo](/renta-de-inflables-economicos/).
 
@@ -152,6 +153,7 @@ En lo que los niños no ven y los adultos olvidan al día siguiente.
 - **Bolos sencillos** o un solo detalle por niño. Hay [ideas de recuerdos para fiesta infantil por edad y presupuesto](/blog/bolsitas-y-recuerdos-fiesta-infantil-ideas/) que no pasan de un objeto útil y un puño de dulces.
 
 ![Mesa de merienda casera con aguas frescas en garrafón y pastel sencillo en un patio](/img/blog/fiesta-infantil-con-poco-presupuesto-cdmx/escena-1.avif "Una merienda casera y aguas frescas rinden más que un menú de tres tiempos.")
+![Inflable Jungla instalado en el patio de una escuela para la kermés](/img/inflables/mini-jungla/mini-jungla-kermes-escolar.avif "Jungla en una kermés escolar")
 
 ## ¿Qué no conviene recortar?
 

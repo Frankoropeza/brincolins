@@ -43,6 +43,7 @@ faqs:
 Para una fiesta de 6 años con inflable, planea de 3 a 4 horas con dos bloques de brinco, turnos cortos por tamaño y una pausa para comer con el juego cerrado. El [Dragones Rojos](/inflables/dragones-rojos/) recibe niños de 3 a 8 años, mide 5 × 3 × 2.80 m, pide 4.5 m de altura libre y cuesta $1,600 por evento.
 
 ![Inflable Dragones Rojos instalado en el jardín de una casa en CDMX](/img/inflables/dragones-rojos/dragones-rojos-jardin-casa.avif "Dragones Rojos en el jardín de una casa")
+![Inflable Dragones Rojos instalado sobre lona en el patio de cemento de una casa](/img/inflables/dragones-rojos/dragones-rojos-patio-cochera.avif "Dragones Rojos en un patio de cemento, sobre lona")
 
 **Puntos clave**
 
@@ -66,6 +67,7 @@ Dragones Rojos es un modelo mediano de exterior que se instala en 15 a 30 minuto
 Si la lista incluye hermanos mayores de nueve años, no les prometas que usarán el mismo juego: su rango publicado termina a los 8. Para un grupo muy mezclado, puedes organizarles una actividad fuera del inflable o comparar un modelo para mayores. Tampoco entran niños menores de 3; para ellos está el [Castillo Baby para fiestas con niños pequeños](/inflables/mini-castillo/).
 
 ![Inflable Castillo Baby instalado en el área verde común de una privada](/img/inflables/mini-castillo/mini-castillo-privada-condominio.avif "Castillo Baby en el área común de una privada")
+![Inflable Castillo Baby instalado dentro de un salón de fiestas infantiles](/img/inflables/mini-castillo/mini-castillo-salon-fiestas.avif "Castillo Baby en un salón de fiestas")
 
 ## ¿Cómo repartes una fiesta de 6 años sin correr todo el tiempo?
 
@@ -120,6 +122,7 @@ Un menú práctico no requiere nombres temáticos ni porciones gigantes. Conside
 - Un espacio aparte para que las familias adultas conversen sin atravesar la fila de los niños.
 
 ![Mesa infantil con fruta, sándwiches y vasos de agua en un patio, lista para la pausa de la comida](/img/blog/fiesta-de-6-anos-ideas-inflable/escena-1.avif "La comida se sirve con el inflable cerrado y lejos de la zona de juego.")
+![Inflable Dragones Rojos instalado en el patio de una escuela para la kermés](/img/inflables/dragones-rojos/dragones-rojos-kermes-escolar.avif "Dragones Rojos en una kermés escolar")
 
 Pregunta con anticipación si algún invitado tiene una restricción alimentaria; no hace falta anunciarla durante el festejo, basta con reservar una opción identificada. El segundo bloque de juego empieza hasta que el grupo haya tenido un descanso razonable, no al terminar la última mordida.
 

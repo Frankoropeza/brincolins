@@ -53,6 +53,7 @@ Organizar una **fiesta infantil en parque** parece sencillo: eliges una palapa, 
 El [inflable Jungla para fiestas](/inflables/mini-jungla/) es una opción de exterior para niñas y niños de 3 a 8 años, con dinosaurios y palmeras que sirven para una temática de animales. Como el resto de los [inflables medianos para fiestas infantiles](/inflables/medianos/), solo se instala si el parque lo permite y el punto cumple los requisitos del montaje.
 
 ![Inflable Jungla instalado en el jardín de una casa en CDMX](/img/inflables/mini-jungla/mini-jungla-jardin-casa.avif "Jungla en el jardín de una casa")
+![Inflable Jungla instalado sobre lona en el patio de cemento de una casa](/img/inflables/mini-jungla/mini-jungla-patio-cochera.avif "Jungla en un patio de cemento, sobre lona")
 
 ## ¿Qué permiso se requiere para usar un inflable en un parque durante una fiesta infantil?
 
@@ -87,6 +88,7 @@ Para Jungla, revisa una base de 5 × 3 m y, sobre todo, el despeje alrededor que
 Una vez que ubiques dos opciones, toma fotos desde cada esquina y otra mirando hacia arriba. Envíalas junto con la fecha y las edades de los invitados para confirmar si el sitio es viable.
 
 ![Claro de pasto nivelado en un parque con mesas a la sombra de los árboles a un costado](/img/blog/fiesta-infantil-en-parque-con-inflable/escena-1.avif "Un claro plano, lejos de andadores y con las mesas a la sombra, es el punto ideal para el montaje.")
+![Inflable Jungla instalado en el patio de una escuela para la kermés](/img/inflables/mini-jungla/mini-jungla-kermes-escolar.avif "Jungla en una kermés escolar")
 
 ## ¿De dónde sale la corriente para el motor del inflable?
 

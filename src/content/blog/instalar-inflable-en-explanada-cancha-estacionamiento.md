@@ -111,6 +111,7 @@ Para comparar, la tabla muestra los modelos grandes del catálogo con sus datos 
 El Extremo es el más largo. El [Barco Pirata de 6 metros](/inflables/barco-pirata/) es más corto, pero pide más altura libre. El Castillo Blanco es el más ancho. Si tu cancha es alargada, un circuito se acomoda mejor que un modelo ancho.
 
 ![Tobogán azul y amarillo al final de la pista larga del Extremo, en un jardín con palmeras](/img/inflables/extremo/extremo-tobogan-doble.avif)
+![Inflable Extremo instalado en el jardín de una casa en CDMX](/img/inflables/extremo/extremo-jardin-casa.avif "Extremo en el jardín de una casa")
 
 ## ¿Cómo se ancla el inflable sobre concreto sin estacas?
 
@@ -143,6 +144,7 @@ En concreto se tiende una lona debajo del inflable para proteger la base del roc
 La superficie debe ser plana. Muchas canchas y estacionamientos se inclinan un poco hacia las coladeras; si es leve y uniforme, suele bastar con orientar bien el circuito. Si es marcada, te toca buscar otra zona del mismo lugar, porque los dos carriles tienen que quedar parejos.
 
 ![Pelota sobre una cancha de concreto de una escuela, junto a una coladera, para revisar la pendiente](/img/blog/instalar-inflable-en-explanada-cancha-estacionamiento/escena-1.avif "La prueba de la pelota: si rueda rápido, el área tiene pendiente.")
+![Cancha escolar con una carpa de sombra a un costado, garrafón de agua y zapatos de niños formados sobre una banca](/img/blog/instalar-inflable-en-explanada-cancha-estacionamiento/escena-2.avif "Fila, zapatos y agua a la sombra, fuera del perímetro del inflable.")
 
 ### Dos pruebas caseras
 
@@ -179,8 +181,7 @@ Planea dónde quedan la fila, los zapatos y el agua según hacia dónde da el so
 - **El agua junto a la fila.** Garrafón y vasos a la mano, porque correr en el circuito cansa.
 
 ![Extremo inflado en un patio con cipreses y una casa al fondo, con túneles y arcos morados](/img/inflables/extremo/extremo-vista-general.avif)
-
-![Cancha escolar con una carpa de sombra a un costado, garrafón de agua y zapatos de niños formados sobre una banca](/img/blog/instalar-inflable-en-explanada-cancha-estacionamiento/escena-2.avif "Fila, zapatos y agua a la sombra, fuera del perímetro del inflable.")
+![Inflable Extremo instalado en el patio de una escuela para la kermés](/img/inflables/extremo/extremo-kermes-escolar.avif "Extremo en una kermés escolar")
 
 ## ¿En qué orden se instala, paso a paso?
 
