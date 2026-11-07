@@ -6,9 +6,9 @@
  * ocho modelos reciban enlaces desde el blog. Foto: una escena del modelo,
  * también fija por artículo, para no repetir siempre la misma.
  */
-import { INFLABLES, PRICE_NOTE } from "@/data/inflables";
+import { PRICE_NOTE } from "@/data/inflables";
 import { anchorInflable } from "@/data/anchors";
-import { ESCENAS_INFLABLES } from "@/data/escenasInflables";
+import { ESCENAS_INFLABLES, modelosRecomendados, hashPost } from "@/data/escenasInflables";
 
 export interface Props {
   postId: string;
@@ -17,29 +17,12 @@ export interface Props {
 
 const { postId, body } = Astro.props;
 
-const hash = (s: string) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
-
-const activos = INFLABLES.filter((i) => i.active);
-const porEnlaces = activos
-  .map((i) => {
-    const ruta = `/inflables/${i.slug}/`;
-    return { i, n: body.split(ruta).length - 1, primero: body.indexOf(ruta) };
-  })
-  .filter((x) => x.n > 0)
-  .sort((a, b) => b.n - a.n || a.primero - b.primero)
-  .map((x) => x.i);
-
-const elegidos = porEnlaces.slice(0, 2);
-const base = hash(postId);
-for (let k = 0; elegidos.length < 2 && k < activos.length; k++) {
-  const cand = activos[(base + k) % activos.length];
-  if (!elegidos.includes(cand)) elegidos.push(cand);
-}
+const elegidos = modelosRecomendados(postId, body);
 
 const tarjetas = elegidos.map((i) => {
   const escenas = ESCENAS_INFLABLES[i.slug] ?? [];
   const foto = escenas.length
-    ? escenas[hash(postId + i.slug) % escenas.length]
+    ? escenas[hashPost(postId + i.slug) % escenas.length]
     : { src: i.image, alt: `Inflable ${i.name}` };
   return { i, foto, anchor: anchorInflable(i.slug) };
 });

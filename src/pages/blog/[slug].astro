@@ -7,12 +7,8 @@ import CtaBanner  from "@/components/CtaBanner.astro";
 import EnlacesCategoria from "@/components/EnlacesCategoria.astro";
 import InflableDestacado from "@/components/InflableDestacado.astro";
 import { BLOG_CATEGORIA } from "@/data/blogCategorias";
-import { getCategoria, inflablesDeCategoria, CATEGORIAS } from "@/data/categorias";
-import SidebarEnlaces from "@/components/SidebarEnlaces.astro";
-import { INFLABLES_ACTIVOS } from "@/data/inflables";
-import { COVERAGE_ZONES } from "@/data/coverage";
-import { anchorInflable, anchorZona, A } from "@/data/anchors";
-import { grupoServicios, grupoReservar } from "@/data/sidebar";
+import { getCategoria, inflablesDeCategoria } from "@/data/categorias";
+import BlogSidebar from "@/components/BlogSidebar.astro";
 
 type BlogPost = CollectionEntry<"blog">;
 
@@ -60,38 +56,6 @@ const catItems   = catPost
 // ── Sidebar de enlaces (nov 2026) ──
 /* Más artículos: los 3 relacionados de arriba + recientes hasta 6. */
 const masArticulos = [...related, ...all.filter((p) => p.id !== post.id && !related.includes(p)).sort(byDate)].slice(0, 6);
-/* Zonas: los 2 hubs + 5 zonas que rotan según el post, para que los 59
-   artículos no repartan siempre el mismo enlace. */
-const zonasHub = COVERAGE_ZONES.filter((z) => z.childZones);
-const zonasHoja = COVERAGE_ZONES.filter((z) => !z.childZones);
-const semilla = [...post.id].reduce((acc, c) => acc + c.charCodeAt(0), 0);
-const zonasRot = Array.from({ length: Math.min(5, zonasHoja.length) }, (_, k) => zonasHoja[(semilla + k * 7) % zonasHoja.length]);
-const sidebarGrupos = [
-  {
-    titulo: "Más artículos",
-    enlaces: masArticulos.map((r) => ({ href: `/blog/${r.id}/`, label: r.data.title })),
-    todos: { href: "/blog/", label: A.blog.short },
-  },
-  {
-    titulo: "Nuestros inflables",
-    enlaces: INFLABLES_ACTIVOS.map((i) => ({ href: `/inflables/${i.slug}/`, label: anchorInflable(i.slug).short, meta: i.price })),
-    todos: { href: "/inflables/", label: A.catalogo.short },
-  },
-  {
-    titulo: "Categorías",
-    enlaces: [...(catPost ? [catPost] : []), ...CATEGORIAS.filter((c) => c !== catPost)].map((c) => ({ href: `/inflables/${c.slug}/`, label: c.anchor })),
-  },
-  {
-    titulo: "Zonas de entrega",
-    enlaces: [...zonasHub, ...new Set(zonasRot)].map((z) => ({ href: `/cobertura/${z.slug}/`, label: anchorZona(z.zonePhrase ?? z.zone) })),
-    todos: { href: "/cobertura/", label: A.zonas.short },
-  },
-  grupoServicios(),
-  {
-    ...grupoReservar(),
-    enlaces: [{ href: "/fiestas-infantiles/", label: "Inflables para fiestas infantiles" }, ...grupoReservar().enlaces],
-  },
-];
 
 // ── Helpers ──
 const esc = (s: unknown) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
@@ -234,15 +198,13 @@ const howToSchema = d.howto
           ) : null}
         </article>
 
-        <SidebarEnlaces
-          grupos={sidebarGrupos}
-          indice={toc.length >= 4 ? toc.map((h) => ({ href: `#${h.slug}`, label: h.text })) : []}
-          cta={{
-            titulo: "¿Listo para tu fiesta?",
-            texto: "Cotiza en minutos. Instalación y recolección incluidas; traslado según zona.",
-            href: "/cotizar/",
-            label: "Pedir cotización gratis",
-          }}
+        <BlogSidebar
+          postId={post.id}
+          body={post.body ?? ""}
+          titulo={heading}
+          categoria={catPost?.slug}
+          articulos={masArticulos.slice(0, 4).map((r) => ({ href: `/blog/${r.id}/`, titulo: r.data.title, imagen: r.data.heroImage, alt: r.data.heroImageAlt }))}
+          indice={toc.map((h) => ({ href: `#${h.slug}`, label: h.text }))}
         />
       </div>
     </div>
