@@ -6,7 +6,7 @@ import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import DulcesComplementos from "@/components/DulcesComplementos.astro";
 import { WHATSAPP } from "@/data/site";
-import { EVENTOS, FAQS_GENERALES, BASE_URL, IMG, fmt, enFrase, serviceSchema } from "@/data/mesasDeDulces";
+import { EVENTOS, TIPOS, ESTACIONES_PAG, FAQS_GENERALES, BASE_URL, IMG, fmt, enFrase, serviceSchema } from "@/data/mesasDeDulces";
 
 const title = "Mesa de dulces en CDMX: precios por evento desde $3,500";
 const description = "Renta de mesa de dulces en CDMX para cumpleaños infantil, bautizo, baby shower, primera comunión, XV años y boda. Precios desde $3,500, montaje incluido.";
@@ -14,7 +14,11 @@ const description = "Renta de mesa de dulces en CDMX para cumpleaños infantil, 
 const minimo = Math.min(...EVENTOS.map((e) => e.niveles[0].precio));
 const maximo = Math.max(...EVENTOS.map((e) => e.niveles[2].precio));
 const wa = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hola, quiero cotizar una mesa de dulces.")}`;
-const schema = serviceSchema(`https://brincolins.com${BASE_URL}`, "Mesa de dulces en CDMX", EVENTOS);
+const schema = serviceSchema(`https://brincolins.com${BASE_URL}`, "Mesa de dulces en CDMX", [...EVENTOS, ...TIPOS, ...ESTACIONES_PAG]);
+const grupos = [
+  { id: "tipos", badge: "Tipos de mesa", titulo: "¿Qué otros tipos de mesa hay?", sub: "Frutas, postres, quesos, botanas, dulces mexicanos y donas.", items: TIPOS },
+  { id: "estaciones", badge: "Estaciones", titulo: "¿Qué estaciones se pueden rentar?", sub: "Fuentes, pared de dulces y stand para pastel, con o sin mesa.", items: ESTACIONES_PAG },
+];
 
 const incluye = [
   { t: "Diseño en tu paleta", d: "Colores, temática y etiquetas con el nombre del festejado." },
@@ -70,7 +74,7 @@ const pasos = [
           <div class="hero__img-wrap">
             <img src={`${IMG}/hub-hero.avif`} alt="Mesa de dulces pastel en jardín de CDMX con un inflable al fondo" class="hero__img" width="1600" height="900" loading="eager" fetchpriority="high" />
             <div class="hero__img-pill hero__img-pill--top">Desde {fmt(minimo)} + IVA</div>
-            <div class="hero__img-pill hero__img-pill--bottom">6 tipos de evento</div>
+            <div class="hero__img-pill hero__img-pill--bottom">{EVENTOS.length + TIPOS.length + ESTACIONES_PAG.length} servicios</div>
           </div>
         </div>
       </div>
@@ -152,7 +156,30 @@ const pasos = [
     </div>
   </section>
 
-  <DulcesComplementos />
+  {grupos.map((g, gi) => (
+    <section class={gi === 0 ? "section section--alt" : "section"} id={g.id}>
+      <div class="container">
+        <div class="grp-head">
+          <span class="section-badge">{g.badge}</span>
+          <h2 class="section-title">{g.titulo}</h2>
+          <p class="section-subtitle">{g.sub}</p>
+        </div>
+        <div class="ev-grid">
+          {g.items.map((e) => (
+            <a href={`${BASE_URL}${e.slug}/`} class="ev">
+              <img src={`${IMG}/${e.img.hero}.avif`} alt={e.img.alt} width="1600" height="900" loading="lazy" decoding="async" class="ev__img" />
+              <div class="ev__body">
+                <h3 class="ev__title">{e.nombre}</h3>
+                <p class="ev__price">Desde <strong>{fmt(e.niveles[0].precio)}</strong> + IVA · {e.niveles[0].invitados} {e.unidad}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <DulcesComplementos sinEstaciones />
 
   <section class="section section--alt">
     <div class="container">
@@ -197,6 +224,7 @@ const pasos = [
   .tabla tbody tr:last-child > * { border-bottom: 0; }
   .tabla__nota { caption-side: bottom; padding: 0.85rem 1.25rem; font-size: 13px; text-align: left; color: var(--c-ink); }
 
+  .grp-head { margin-bottom: 2rem; max-width: 46rem; }
   .ev-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
   .ev {
     display: flex;
@@ -237,7 +265,8 @@ const pasos = [
   .paso__d { margin: 0; line-height: 1.6; color: var(--c-ink); }
 
   @media (max-width: 1024px) {
-    .ev-grid { grid-template-columns: repeat(2, 1fr); }
+    .grp-head { margin-bottom: 2rem; max-width: 46rem; }
+  .ev-grid { grid-template-columns: repeat(2, 1fr); }
     .pasos { grid-template-columns: repeat(2, 1fr); }
   }
   @media (max-width: 640px) {

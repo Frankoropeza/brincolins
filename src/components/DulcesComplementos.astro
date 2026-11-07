@@ -5,15 +5,18 @@
  * Datos en src/data/mesasDeDulces.ts. CSS scoped, sin animaciones.
  */
 import SectionHeader from "@/components/SectionHeader.astro";
-import { ESTACIONES, ALIADO, IMG, fmt } from "@/data/mesasDeDulces";
+import { ESTACIONES, ALIADO, BASE_URL, IMG, fmt } from "@/data/mesasDeDulces";
 
 interface Props {
   /** Texto del evento para el título ("tu bautizo"); vacío en el hub */
   evento?: string;
+  /** En las páginas de estación no se ofrecen otras estaciones */
+  sinEstaciones?: boolean;
 }
-const { evento } = Astro.props;
+const { evento, sinEstaciones = false } = Astro.props;
 ---
 
+{!sinEstaciones && (
 <section class="section section--alt">
   <div class="container">
     <SectionHeader
@@ -28,7 +31,7 @@ const { evento } = Astro.props;
         <article class="est">
           <img src={`${IMG}/${e.img}.avif`} alt={e.alt} width="1600" height="900" loading="lazy" decoding="async" class="est__img" />
           <div class="est__body">
-            <h3 class="est__title">{e.nombre}</h3>
+            <h3 class="est__title"><a href={`${BASE_URL}${e.slug}/`}>{e.nombre}</a></h3>
             <p class="est__desc">{e.desc}</p>
             <ul class="est__precios">
               {e.niveles.map(([precio, inv]) => (
@@ -41,17 +44,18 @@ const { evento } = Astro.props;
     </div>
   </div>
 </section>
+)}
 
 <section class="section">
   <div class="container">
     <div class="aliado">
       <div>
         <span class="section-badge">Aliado</span>
-        <h2 class="section-title">¿Quién monta la mesa de dulces?</h2>
+        <h2 class="section-title">¿Quién opera el servicio?</h2>
       </div>
       <div class="aliado__copy">
         <p>
-          La mesa de dulces la diseña y la opera <a href={ALIADO.url} rel="noopener" target="_blank">{ALIADO.nombre}</a>,
+          Las mesas de dulces y estaciones las diseña y las opera <a href={ALIADO.url} rel="noopener" target="_blank">{ALIADO.nombre}</a>,
           empresa especializada en mesas de dulces y candy bar en la Ciudad de México. Los precios publicados aquí son los
           mismos de su catálogo.
         </p>
@@ -77,6 +81,7 @@ const { evento } = Astro.props;
   .est__img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
   .est__body { padding: 1.5rem; }
   .est__title { font-size: 1.25rem; margin: 0 0 0.5rem; color: var(--c-ink); }
+  .est__title a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
   .est__desc { margin: 0 0 1rem; color: var(--c-ink); line-height: 1.6; }
   .est__precios { list-style: none; margin: 0; padding: 0; }
   .est__precios li {

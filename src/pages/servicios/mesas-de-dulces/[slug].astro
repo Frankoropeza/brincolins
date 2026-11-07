@@ -7,16 +7,28 @@ import PricingCards from "@/components/PricingCards.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
 import DulcesComplementos from "@/components/DulcesComplementos.astro";
 import { WHATSAPP } from "@/data/site";
-import { EVENTOS, FAQS_GENERALES, BASE_URL, IMG, fmt, enFrase, serviceSchema, type Evento } from "@/data/mesasDeDulces";
+import { EVENTOS, TIPOS, ESTACIONES_PAG, PAGINAS, FAQS_GENERALES, BASE_URL, IMG, fmt, enFrase, serviceSchema, type Evento } from "@/data/mesasDeDulces";
 
 export function getStaticPaths() {
-  return EVENTOS.map((e) => ({ params: { evento: e.slug }, props: { e } }));
+  return PAGINAS.map((e) => ({ params: { slug: e.slug }, props: { e } }));
 }
 
 const { e } = Astro.props as { e: Evento };
 const url = `${BASE_URL}${e.slug}/`;
 const desde = e.niveles[0];
 const wa = (txt: string) => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(txt)}`;
+
+/* Textos según el grupo: evento («una mesa de dulces para bautizo»),
+   tipo de mesa («una mesa de frutas») o estación («un stand para pastel»). */
+const grupo = e.grupo ?? "evento";
+const frase = e.frase ?? `una mesa de dulces para ${enFrase(e)}`;
+const tema = frase.replace(/^una /, "la ").replace(/^un /, "el ");
+const badge = { evento: "Mesa de dulces", tipo: "Tipos de mesa", estacion: "Estaciones" }[grupo];
+const lista = e.lista ?? {
+  titulo: `¿Qué estilos se pueden pedir para ${enFrase(e)}?`,
+  texto: "Estos son los estilos más pedidos. Al cotizar puedes mandar una foto de referencia o los colores de tu decoración y la mesa se diseña con esa paleta.",
+};
+const [n0, n1, n2] = e.niveles.map((n) => n.nombre);
 
 const packages = e.niveles.map((n, i) => ({
   name: n.nombre,
@@ -27,11 +39,18 @@ const packages = e.niveles.map((n, i) => ({
   description: n.lema,
   features: n.incluye.map((text) => ({ text, included: true })),
   ctaLabel: `Cotizar ${n.nombre}`,
-  ctaHref: wa(`Hola, quiero cotizar una mesa de dulces para ${enFrase(e)} (${n.nombre}, ${n.invitados} ${e.unidad}).`),
+  ctaHref: wa(`Hola, quiero cotizar ${frase} (${n.nombre}, ${n.invitados} ${e.unidad}).`),
 }));
 
-const faqs = [...e.faqs, ...FAQS_GENERALES.slice(1, 5)];
-const otros = EVENTOS.filter((o) => o.slug !== e.slug);
+/* Generales: 0 precio · 1 qué incluye · 2 quién opera · 3 apartar · 4 sobrantes · 5 alergias · 6 IVA */
+const generales = grupo === "evento" ? [1, 2, 3, 4] : grupo === "tipo" ? [2, 3, 6] : [2, 6];
+const faqs = [...e.faqs, ...generales.map((i) => FAQS_GENERALES[i])];
+const otros = [
+  { titulo: "Mesas de dulces por evento", items: EVENTOS },
+  { titulo: "Tipos de mesa", items: TIPOS },
+  { titulo: "Estaciones", items: ESTACIONES_PAG },
+].map((g) => ({ ...g, items: g.items.filter((o) => o.slug !== e.slug) }));
+const linkTxt = (o: Evento) => (o.grupo ?? "evento") === "evento" ? `Mesa de dulces para ${enFrase(o)}` : o.nombre;
 const schema = serviceSchema(`https://brincolins.com${url}`, e.h1, [e]);
 ---
 
@@ -42,8 +61,8 @@ const schema = serviceSchema(`https://brincolins.com${url}`, e.h1, [e]);
   ogImage={`${IMG}/og/${e.img.hero}.jpg`}
   faqItems={faqs}
   faqContext={{ tipo: "servicio", servicio: "dulces" }}
-  faqTitle={`Resolvemos tus dudas sobre la mesa de dulces para ${enFrase(e)}`}
-  faqSubtitle="Precios, qué incluye, cómo apartar la fecha y quién monta la mesa."
+  faqTitle={`Resolvemos tus dudas sobre ${tema}`}
+  faqSubtitle="Precios, qué incluye, cómo apartar la fecha y quién opera el servicio."
   schemaMarkup={JSON.stringify(schema)}
   breadcrumbs={[
     { name: "Inicio", href: "/" },
@@ -65,12 +84,12 @@ const schema = serviceSchema(`https://brincolins.com${url}`, e.h1, [e]);
     <div class="container">
       <div class="hero__grid">
         <div>
-          <span class="hero__badge">Mesa de dulces · {e.nombre}</span>
+          <span class="hero__badge">{badge} · {e.nombre}</span>
           <h1 class="hero__title">{e.h1} <span class="highlight">en CDMX</span></h1>
           <p class="hero__desc">{e.intro[0]}</p>
           <p class="hero__desc">{e.intro[1]}</p>
           <div class="hero__ctas">
-            <a href={wa(`Hola, quiero cotizar una mesa de dulces para ${enFrase(e)}.`)} class="btn btn-wa btn-lg" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+            <a href={wa(`Hola, quiero cotizar ${frase}.`)} class="btn btn-wa btn-lg" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
             <a href="#precios" class="btn btn-outline btn-lg">Ver precios</a>
           </div>
         </div>
@@ -91,9 +110,9 @@ const schema = serviceSchema(`https://brincolins.com${url}`, e.h1, [e]);
     <div class="container">
       <SectionHeader
         badge="Precios"
-        title={`¿Cuánto cuesta una mesa de dulces para ${enFrase(e)}?`}
+        title={`¿Cuánto cuesta ${frase}?`}
         subtitle={`Tres niveles, de ${fmt(e.niveles[0].precio)} a ${fmt(e.niveles[2].precio)} MXN más IVA.`}
-        copy1={`El precio depende del número de ${e.unidad} y del nivel de diseño. Esencial resuelve una celebración íntima; Premium agrega backdrop, más variedades y personal durante el evento; Luxury es una mesa de autor con estaciones incluidas.`}
+        copy1={`El precio depende del número de ${e.unidad} y del nivel: ${n0} para una celebración íntima, ${n1} es el más solicitado y ${n2} está pensado para eventos grandes. Abajo está lo que incluye cada uno.`}
         copy2="Los precios son «desde», más IVA, y salen del catálogo de nuestro aliado MEDEDUL. La cotización final por WhatsApp confirma variedades, horario y traslado según zona."
       />
       <PricingCards packages={packages} />
@@ -105,9 +124,9 @@ const schema = serviceSchema(`https://brincolins.com${url}`, e.h1, [e]);
       <div class="estilo">
         <img src={`${IMG}/${e.img.detalle}.avif`} alt={e.img.altDetalle} width="1600" height="900" loading="lazy" decoding="async" class="estilo__img" />
         <div>
-          <span class="section-badge">Diseño</span>
-          <h2 class="section-title">¿Qué estilos se pueden pedir para {enFrase(e)}?</h2>
-          <p class="estilo__txt">Estos son los estilos más pedidos. Al cotizar puedes mandar una foto de referencia o los colores de tu decoración y la mesa se diseña con esa paleta.</p>
+          <span class="section-badge">{grupo === "evento" ? "Diseño" : "Qué lleva"}</span>
+          <h2 class="section-title">{lista.titulo}</h2>
+          <p class="estilo__txt">{lista.texto}</p>
           <ul class="chips">
             {e.estilo.map((s) => <li>{s}</li>)}
           </ul>
@@ -116,23 +135,30 @@ const schema = serviceSchema(`https://brincolins.com${url}`, e.h1, [e]);
     </div>
   </section>
 
-  <DulcesComplementos evento={`la mesa de ${enFrase(e)}`} />
+  <DulcesComplementos evento={grupo === "evento" ? `la mesa de ${enFrase(e)}` : tema} sinEstaciones={grupo === "estacion"} />
 
   <section class="section section--alt">
     <div class="container">
-      <h2 class="section-title otros__title">¿Buscas una mesa de dulces para otro evento?</h2>
-      <ul class="otros">
-        <li><a href={BASE_URL}>Todas las mesas de dulces y precios</a></li>
-        {otros.map((o) => (
-          <li><a href={`${BASE_URL}${o.slug}/`}>Mesa de dulces para {enFrase(o)} · desde {fmt(o.niveles[0].precio)}</a></li>
+      <h2 class="section-title otros__title">¿Qué más puedes sumar a tu evento?</h2>
+      <p class="otros__all"><a href={BASE_URL}>Todas las mesas de dulces, estaciones y precios</a></p>
+      <div class="otros-grid">
+        {otros.map((g) => (
+          <div>
+            <h3 class="otros__h">{g.titulo}</h3>
+            <ul class="otros">
+              {g.items.map((o) => (
+                <li><a href={`${BASE_URL}${o.slug}/`}>{linkTxt(o)} · desde {fmt(o.niveles[0].precio)}</a></li>
+              ))}
+            </ul>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   </section>
 
   <CtaBanner
-    title={`Cotiza tu mesa de dulces para ${enFrase(e)}`}
-    subtitle="Mesa de dulces e inflable en una sola cotización."
+    title={`Cotiza ${frase}`}
+    subtitle={`${e.nombre} e inflable en una sola cotización.`}
     btnText="Cotizar mi evento"
     btnHref="/cotizar/"
     btnSecondaryText="Ver inflables"
@@ -157,9 +183,13 @@ const schema = serviceSchema(`https://brincolins.com${url}`, e.h1, [e]);
   .chips li:nth-child(3n+2) { background: var(--c-menta); }
   .chips li:nth-child(3n+3) { background: var(--c-lila); }
   .otros__title { margin-bottom: 1.5rem; }
-  .otros { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem 2rem; }
+  .otros__all { margin: 0 0 1.75rem; }
+  .otros__all a { color: var(--c-primary-text); font-weight: 700; }
+  .otros-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+  .otros__h { margin: 0 0 0.75rem; font-size: 1.05rem; color: var(--c-ink); }
+  .otros { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; }
   .otros a { color: var(--c-primary-text); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
   @media (max-width: 860px) {
-    .estilo, .otros { grid-template-columns: 1fr; gap: 1.5rem; }
+    .estilo, .otros-grid { grid-template-columns: 1fr; gap: 1.5rem; }
   }
 </style>
