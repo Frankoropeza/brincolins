@@ -2076,3 +2076,26 @@ p, .hero__desc, .section-subtitle, .why-sc__desc {
 .product-card__actions--single .btn-outline:hover,
 .svc-card__actions--single .btn-outline:hover { background: var(--c-primary-deep); color: #fff; }
 
+
+/* ── Columna principal + sidebar de enlaces (nov 2026) ──
+   <div class="container con-sidebar">
+     <div class="con-sidebar__main"> …secciones con su .container… </div>
+     <SidebarEnlaces … />
+   </div>
+   Las secciones internas conservan su marcado; aquí se anula el padding
+   lateral duplicado de su .container. */
+.con-sidebar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: clamp(2rem, 3vw, 3.5rem);
+  align-items: start;
+  padding-block: var(--section-py);
+}
+.con-sidebar > .sbe { align-self: stretch; }
+.con-sidebar__main > .section:first-child { padding-top: 0; }
+.con-sidebar__main > .section:last-child { padding-bottom: 0; }
+.con-sidebar__main .container { padding-inline: 0; }
+.con-sidebar__main .section--alt { padding-inline: clamp(1.25rem, 3vw, 2.5rem); }
+@media (max-width: 1100px) {
+  .con-sidebar { grid-template-columns: minmax(0, 1fr); }
+}

@@ -1,0 +1,202 @@
+---
+/**
+ * SidebarEnlaces — BRINCOLINS
+ * Barra lateral de enlaces internos para plantillas con columna principal
+ * (fichas de inflables primero; reutilizable en categorías, zonas y blog).
+ * Recibe grupos ya armados: la página decide QUÉ enlazar, este componente
+ * solo los pinta. Va dentro de `.con-sidebar` (layout en global.css).
+ */
+interface Enlace {
+  href: string;
+  label: string;
+  /** Dato corto a la derecha: precio, envío, etc. */
+  meta?: string;
+}
+
+interface Grupo {
+  titulo: string;
+  enlaces: Enlace[];
+  /** Enlace "ver todo" al pie del grupo */
+  todos?: Enlace;
+}
+
+interface Props {
+  grupos: Grupo[];
+  /** Índice de secciones de la página (#anclas); se fija al hacer scroll */
+  indice?: Enlace[];
+  cta?: {
+    titulo: string;
+    texto: string;
+    href: string;
+    label: string;
+    waHref?: string;
+  };
+}
+
+const { grupos, indice = [], cta } = Astro.props;
+const visibles = grupos.filter((g) => g.enlaces.length > 0);
+/* Las anclas de categoría vienen en minúscula para usarse a media frase */
+const cap = (t: string) => t.charAt(0).toUpperCase() + t.slice(1);
+---
+
+<aside class="sbe" aria-label="Enlaces relacionados">
+  {cta && (
+    <div class="sbe__cta">
+      <p class="sbe__cta-title">{cta.titulo}</p>
+      <p class="sbe__cta-text">{cta.texto}</p>
+      <a href={cta.href} class="btn btn-primary sbe__btn">{cta.label}</a>
+      {cta.waHref && (
+        <a href={cta.waHref} class="sbe__wa" target="_blank" rel="nofollow noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#i-wa"/></svg>
+          Preguntar por WhatsApp
+        </a>
+      )}
+    </div>
+  )}
+
+  {visibles.map((g) => (
+    <nav class="sbe__group" aria-label={g.titulo}>
+      <p class="sbe__title">{g.titulo}</p>
+      <ul class="sbe__list" role="list">
+        {g.enlaces.map((e) => (
+          <li>
+            <a href={e.href}>
+              <span class="sbe__label">{cap(e.label)}</span>
+              {e.meta && <span class="sbe__meta">{e.meta}</span>}
+            </a>
+          </li>
+        ))}
+      </ul>
+      {g.todos && <a class="sbe__all" href={g.todos.href}>{g.todos.label} →</a>}
+    </nav>
+  ))}
+
+  {indice.length > 0 && (
+    <nav class="sbe__group sbe__indice" aria-label="En esta página">
+      <p class="sbe__title">En esta página</p>
+      <ul class="sbe__list" role="list">
+        {indice.map((e) => (
+          <li><a href={e.href}><span class="sbe__label">{e.label}</span></a></li>
+        ))}
+      </ul>
+    </nav>
+  )}
+</aside>
+
+<style>
+  .sbe {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .sbe__cta,
+  .sbe__group {
+    padding: 1.25rem 1.25rem 1.1rem;
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-tile);
+    background: #fff;
+  }
+  .sbe__cta {
+    background: var(--c-ink);
+    border-color: var(--c-ink);
+    color: #fff;
+  }
+  .sbe__cta-title {
+    margin: 0 0 0.35rem;
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 1.25rem;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+  .sbe__cta-text {
+    margin: 0 0 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.78);
+  }
+  .sbe__btn { width: 100%; justify-content: center; }
+  .sbe__wa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    min-height: 44px;
+    margin-top: 0.5rem;
+    border-radius: var(--r-btn);
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    border: 1.5px solid rgba(255, 255, 255, 0.28);
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .sbe__wa:hover { border-color: #fff; background: rgba(255, 255, 255, 0.06); }
+
+  .sbe__title {
+    margin: 0 0 0.6rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--c-ink-60);
+  }
+  .sbe__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .sbe__list li + li { border-top: 1px solid var(--c-line); }
+  .sbe__list a {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.55rem 0;
+    color: var(--c-ink);
+    font-size: 0.9375rem;
+    line-height: 1.35;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .sbe__list a:hover .sbe__label {
+    color: var(--c-primary-text);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .sbe__meta {
+    flex: none;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--c-ink-60);
+    white-space: nowrap;
+  }
+  .sbe__all {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--c-primary-text);
+    text-decoration: none;
+  }
+  .sbe__all:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+  .sbe__indice .sbe__list a { font-weight: 500; color: var(--c-ink-60); }
+
+  /* Escritorio: el índice se queda fijo al bajar */
+  @media (min-width: 1101px) {
+    .sbe { height: 100%; }
+    .sbe__indice { position: sticky; top: 6.5rem; }
+  }
+
+  /* Tablet/móvil: el sidebar baja al final como rejilla de tarjetas */
+  @media (max-width: 1100px) {
+    .sbe {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+      align-items: start;
+    }
+    .sbe__cta,
+    .sbe__indice { display: none; }
+  }
+</style>

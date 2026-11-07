@@ -80,8 +80,8 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     badge: "Aventura pirata de gran tamaño",
     cta: "Cotizar Barco Pirata",
     galeria: {
-      copy1: "El Barco Pirata impresiona desde cualquier ángulo: su imponente estructura de 3.80 metros de altura con decoración de anclas, calaveras y colores azul marino lo convierte en el centro de atención de cualquier evento al aire libre.",
-      copy2: "Estas fotografías son de fiestas reales en CDMX y Estado de México donde el Barco Pirata fue la atracción estrella. Los niños no quieren bajarse de esta aventura inflable.",
+      copy1: "El Barco Pirata impresiona desde cualquier ángulo: su imponente estructura de 3.80 metros de altura con ancla, banderas piratas y franjas morada, negra, verde y azul lo convierte en el centro de atención de cualquier evento al aire libre.",
+      copy2: "Míralo desde todos los ángulos y en detalle: la proa con el ancla, el mástil con su cofa y cañón, el túnel lateral y la rampa de acceso. Así sabes exactamente cómo luce armado antes de reservar.",
     },
     precios: {
       copy1: "El Barco Pirata es ideal para fiestas grandes donde necesitas una atracción que mantenga entretenidos a varios niños al mismo tiempo. Sus 6 metros de largo y el tobogán integrado lo convierten en uno de los modelos de mayor impacto del catálogo.",
@@ -92,9 +92,15 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       copy2: "Todos nuestros inflables pasan por sanitización antes de cada evento. Cotiza y recibe respuesta en minutos.",
     },
     galleryImages: [
-      { src: "/img/inflables/barco-pirata/barco-pirata-exterior-evento.avif", alt: "Renta inflable Barco Pirata en CDMX - evento exterior" },
-      { src: "/img/inflables/barco-pirata/barco-pirata-lateral-cdmx.avif", alt: "Renta inflable Barco Pirata en CDMX - vista lateral" },
-      { src: "/img/inflables/barco-pirata/barco-pirata-renta-cdmx.avif", alt: "Renta inflable Barco Pirata en CDMX - renta a domicilio" },
+      { src: "/img/inflables/barco-pirata/barco-pirata-tres-cuartos-jardin-casa.avif", alt: "Barco Pirata inflable visto desde la proa en jardín de casa en CDMX" },
+      { src: "/img/inflables/barco-pirata/barco-pirata-perfil-jardin-eventos.avif", alt: "Barco Pirata inflable de perfil en jardín de eventos" },
+      { src: "/img/inflables/barco-pirata/barco-pirata-popa-rampa-acceso.avif", alt: "Barco Pirata inflable visto desde la popa con rampa de acceso" },
+      { src: "/img/inflables/barco-pirata/barco-pirata-detalle-mastil.avif", alt: "Detalle del mástil con cofa, cañón, bandera y loro del Barco Pirata inflable" },
+      { src: "/img/inflables/barco-pirata/barco-pirata-detalle-proa-ancla.avif", alt: "Detalle de la proa del Barco Pirata inflable con ancla y franjas de colores" },
+      { src: "/img/inflables/barco-pirata/barco-pirata-cochera-privada.avif", alt: "Barco Pirata inflable en cochera de casa en privada" },
+      { src: "/img/inflables/barco-pirata/barco-pirata-patio-escolar-cdmx.avif", alt: "Barco Pirata inflable en patio de escuela en CDMX" },
+      { src: "/img/inflables/barco-pirata/barco-pirata-jardin-atardecer.avif", alt: "Barco Pirata inflable en jardín de salón de eventos al atardecer" },
+      { src: "/img/inflables/barco-pirata/barco-pirata-vista-aerea-cubierta.avif", alt: "Barco Pirata inflable visto desde arriba con cubierta, torres y rampa de acceso" },
     ],
     pricingPackages: [
       {
@@ -164,7 +170,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     cta: "Cotizar Castillo Blanco",
     galeria: {
       copy1: "El Castillo Blanco se ve espectacular en bodas, bautizos y quinceañeras. Estas fotos muestran cómo nuestros clientes lo han integrado en eventos elegantes con decoraciones de flores, globos y tules que complementan el diseño blanco puro.",
-      copy2: "Cada imagen es de un evento real en CDMX y Estado de México. El Castillo Blanco es el inflable más fotografiado de nuestro catálogo gracias a su apariencia premium que eleva la estética de cualquier celebración.",
+      copy2: "Míralo desde varios ángulos y en detalle: columnas con remate cónico, paredes acolchadas y base perimetral, todo en blanco. Así sabes cómo luce armado antes de reservar.",
     },
     precios: {
       copy1: "El Castillo Blanco es un inflable premium con acabados superiores, pensado para eventos donde la estética importa tanto como la diversión. La renta incluye sanitización para mantener el blanco impecable.",
@@ -175,9 +181,13 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       copy2: "Todos nuestros inflables pasan por sanitización antes de cada evento. Cotiza y recibe respuesta en minutos.",
     },
     galleryImages: [
-      { src: "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-decoracion.avif", alt: "Renta inflable Castillo Blanco en CDMX - bodas decoración" },
+      { src: "/img/inflables/castillo-blanco/castillo-blanco-terraza-jardin-bodas.avif", alt: "Castillo Blanco inflable en terraza jardín de salón de bodas" },
+      { src: "/img/inflables/castillo-blanco/castillo-blanco-frontal-hacienda.avif", alt: "Castillo Blanco inflable de frente en jardín de hacienda para bodas" },
+      { src: "/img/inflables/castillo-blanco/castillo-blanco-perfil-lateral.avif", alt: "Castillo Blanco inflable visto de perfil sobre pasto" },
+      { src: "/img/inflables/castillo-blanco/castillo-blanco-vista-aerea-jardin.avif", alt: "Castillo Blanco inflable visto desde arriba sobre pasto" },
+      { src: "/img/inflables/castillo-blanco/castillo-blanco-jardin-bodas-atardecer.avif", alt: "Castillo Blanco inflable en jardín de bodas al atardecer" },
+      { src: "/img/inflables/castillo-blanco/castillo-blanco-detalle-columna.avif", alt: "Detalle de columna y paredes acolchadas del Castillo Blanco inflable" },
       { src: "/img/inflables/castillo-blanco/alquiler-castillo-blanco-bodas-terraza-cdmx.avif", alt: "Renta inflable Castillo Blanco en CDMX - bodas terraza" },
-      { src: "/img/inflables/castillo-blanco/alquiler-inflable-blanco-bodas-rosas-cdmx.avif", alt: "Renta inflable Castillo Blanco en CDMX - bodas con rosas" },
       { src: "/img/inflables/castillo-blanco/brincolin-blanco-bodas-ceremonia-cdmx.avif", alt: "Renta inflable Castillo Blanco en CDMX - ceremonia de boda" },
       { src: "/img/inflables/castillo-blanco/brincolin-blanco-bodas-decoracion-globos.avif", alt: "Renta inflable Castillo Blanco en CDMX - decoración con globos" },
     ],
@@ -248,8 +258,8 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     badge: "Favorito para fiestas de niñas",
     cta: "Cotizar Castillo de Princesas",
     galeria: {
-      copy1: "Estas fotografías muestran el Castillo de Princesas instalado en fiestas reales en CDMX y Estado de México. El diseño en rosa y azul turquesa con torres decorativas convierte cualquier espacio en un escenario de cuento de hadas para las niñas.",
-      copy2: "Nuestro equipo instala el inflable en jardines, terrazas, patios y salones de fiestas. Cada evento queda documentado para que veas exactamente cómo lucirá el castillo en tu celebración.",
+      copy1: "El Castillo de Princesas en jardín, patio, cochera y salón, visto de frente, desde arriba y en tres cuartos. El diseño en rosa y azul turquesa con torres decorativas convierte cualquier espacio en un escenario de cuento de hadas para las niñas.",
+      copy2: "Nuestro equipo instala el inflable en jardines, terrazas, patios y salones de fiestas. Las fotos lo muestran desde varios ángulos para que veas cómo lucirá el castillo en tu celebración.",
     },
     precios: {
       copy1: "Un solo precio para tu fiesta de princesas: de 4 a 6 horas de renta con instalación y retiro incluidos sin costo adicional. Sin escalera de paquetes ni cargos sorpresa el día del evento.",
@@ -260,10 +270,15 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       copy2: "Todos nuestros inflables incluyen sanitización, entrega y motor silencioso. Cotiza varios modelos sin compromiso y arma la combinación perfecta para tu evento.",
     },
     galleryImages: [
-      { src: "/img/inflables/castillo-princesas/castillo-princesas-exterior-jardin.avif", alt: "Castillo de Princesas inflable instalado en jardín exterior" },
+      { src: "/img/inflables/castillo-princesas/castillo-princesas-tres-cuartos-jardin.avif", alt: "Castillo de Princesas inflable con resbaladilla en jardín de casa en CDMX" },
+      { src: "/img/inflables/castillo-princesas/castillo-princesas-frontal-jardin-eventos.avif", alt: "Castillo de Princesas inflable de frente en jardín de eventos" },
+      { src: "/img/inflables/castillo-princesas/castillo-princesas-vista-aerea-jardin.avif", alt: "Castillo de Princesas inflable visto desde arriba en jardín" },
+      { src: "/img/inflables/castillo-princesas/castillo-princesas-salon-fiestas.avif", alt: "Castillo de Princesas inflable dentro de salón de fiestas" },
+      { src: "/img/inflables/castillo-princesas/castillo-princesas-patio-escolar-cdmx.avif", alt: "Castillo de Princesas inflable en patio de escuela en CDMX" },
+      { src: "/img/inflables/castillo-princesas/castillo-princesas-cochera-privada.avif", alt: "Castillo de Princesas inflable en cochera de casa en privada" },
+      { src: "/img/inflables/castillo-princesas/castillo-princesas-jardin-atardecer.avif", alt: "Castillo de Princesas inflable en jardín al atardecer" },
+      { src: "/img/inflables/castillo-princesas/castillo-princesas-detalle-torres.avif", alt: "Detalle de torres, almenas y puerta del Castillo de Princesas inflable" },
       { src: "/img/inflables/castillo-princesas/castillo-princesas-renta-cdmx.avif", alt: "Renta de Castillo de Princesas inflable en CDMX" },
-      { src: "/img/inflables/castillo-princesas/mini-castillo-princesas-fiesta.avif", alt: "Castillo de Princesas en fiesta infantil temática" },
-      { src: "/img/inflables/castillo-princesas/mini-princess-renta-cdmx.avif", alt: "Inflable princesas disponible para renta en Ciudad de México" },
     ],
     pricingPackages: [
       {
@@ -421,7 +436,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     badge: "Circuito de carreras con doble carril",
     cta: "Cotizar Inflable Extremo",
     galeria: {
-      copy1: "El circuito Extremo impresiona por su recorrido: 8 metros de pura diversión inflable que domina cualquier espacio al aire libre. Estas fotos muestran el Extremo en eventos reales como kermeses, fiestas corporativas y cumpleaños en CDMX y Estado de México.",
+      copy1: "El circuito Extremo impresiona por su recorrido: 8 metros de pura diversión inflable que domina cualquier espacio al aire libre. Las fotos lo muestran desde varios ángulos y en distintos espacios, para que calcules si cabe en el tuyo.",
       copy2: "Desde la pista de obstáculos hasta el tobogán doble, cada sección del Extremo ofrece una experiencia diferente. Los participantes corren, escalan, esquivan y se deslizan en un circuito que no deja a nadie sentado.",
     },
     precios: {
@@ -510,8 +525,8 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     ],
   },
   "gusanitos": {
-    title: "Renta de inflable Gusanitos: circuito de túneles $1,600",
-    description: "Inflable Gusanitos, circuito de túneles para niños de 2 a 8 años y apto bajo techo: $1,600 MXN por 4 a 6 horas con instalación y recolección. Cotiza hoy.",
+    title: "Renta de inflable Gusanitos con túnel y resbaladilla $1,600",
+    description: "Inflable Gusanitos con túnel y resbaladilla doble para niños de 2 a 8 años, apto bajo techo: $1,600 MXN por 4 a 6 horas con instalación y recolección. Cotiza hoy.",
     badge: "El más colorido y tropical",
     cta: "Cotizar Gusanitos",
     galeria: {
@@ -527,12 +542,15 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       copy2: "Todos nuestros inflables pasan por sanitización antes de cada evento. Cotiza sin compromiso y recibe respuesta en minutos. Reserva con el 50% de anticipo para asegurar tu fecha.",
     },
     galleryImages: [
-      { src: "/img/inflables/gusanitos/gusanitos-brincolin-evento.avif", alt: "Brincolin Gusanitos instalado en evento infantil" },
-      { src: "/img/inflables/gusanitos/gusanitos-exterior-jardin.avif", alt: "Inflable Gusanitos en jardín exterior para fiesta" },
-      { src: "/img/inflables/gusanitos/gusanitos-inflable-fiesta.avif", alt: "Gusanitos inflable en fiesta infantil con niños jugando" },
-      { src: "/img/inflables/gusanitos/gusanitos-lateral-cdmx.avif", alt: "Vista lateral del inflable Gusanitos en CDMX" },
-      { src: "/img/inflables/gusanitos/gusanitos-renta-cdmx.avif", alt: "Renta de inflable Gusanitos en Ciudad de México" },
+      { src: "/img/inflables/gusanitos/gusanitos-tres-cuartos-jardin.avif", alt: "Inflable Gusanitos con resbaladilla y dos gusanos en jardín de casa en CDMX" },
+      { src: "/img/inflables/gusanitos/gusanitos-tres-cuartos-terraza.avif", alt: "Inflable Gusanitos en terraza con piso de adoquín" },
+      { src: "/img/inflables/gusanitos/gusanitos-vista-aerea-andador.avif", alt: "Inflable Gusanitos visto desde arriba sobre andador de adoquín" },
+      { src: "/img/inflables/gusanitos/gusanitos-patio-concreto-cdmx.avif", alt: "Inflable Gusanitos en patio de concreto de casa en CDMX" },
+      { src: "/img/inflables/gusanitos/gusanitos-salon-fiestas-interior.avif", alt: "Inflable Gusanitos dentro de salón de fiestas" },
+      { src: "/img/inflables/gusanitos/gusanitos-patio-escolar-cdmx.avif", alt: "Inflable Gusanitos en patio de escuela en CDMX" },
+      { src: "/img/inflables/gusanitos/gusanitos-cochera-privada.avif", alt: "Inflable Gusanitos en cochera de casa en privada" },
       { src: "/img/inflables/gusanitos/gusanitos-vista-general.avif", alt: "Vista general del inflable Gusanitos con colores vibrantes" },
+      { src: "/img/inflables/gusanitos/gusanitos-exterior-jardin.avif", alt: "Inflable Gusanitos en jardín exterior para fiesta" },
     ],
     pricingPackages: [
       {
@@ -553,15 +571,15 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       },
     ],
     faqItems: [
-      { question: "¿En qué se diferencia el Gusanitos de un brincolín normal?", answer: "El Gusanitos es un circuito de túneles de colores con varias entradas y salidas, no una sola cama de salto. Los niños gatean, se persiguen y se esconden a lo largo del recorrido, así que se reparten en lugar de amontonarse en un punto. Por eso funciona bien con edades mezcladas." },
-      { question: "¿El Gusanitos sirve para niños tímidos o que nunca han subido a un inflable?", answer: "Sí, suele ser la mejor entrada. Los túneles tienen varias salidas a la vista, el niño avanza a su ritmo y no tiene que brincar junto a otros más grandes. Un adulto puede acompañarlo desde afuera y animarlo a salir por la siguiente abertura." },
+      { question: "¿En qué se diferencia el Gusanitos de un brincolín normal?", answer: "El Gusanitos no es una sola cama de salto: los niños entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos. Como el juego avanza por partes, se reparten en lugar de amontonarse en un punto. Por eso funciona bien con edades mezcladas." },
+      { question: "¿El Gusanitos sirve para niños tímidos o que nunca han subido a un inflable?", answer: "Sí, suele ser la mejor entrada. El túnel de entrada es corto y la resbaladilla es de poca altura, así que el niño avanza a su ritmo y no tiene que brincar junto a otros más grandes. Un adulto puede acompañarlo desde afuera y esperarlo al pie de la resbaladilla." },
       { question: "¿Se puede instalar el Gusanitos bajo techo?", answer: "Sí, es uno de los dos modelos del catálogo aptos para interiores, junto con el Castillo Baby. Necesita 3.2 m de altura libre y una toma de 110 V a menos de 20 m. Funciona en salones, terrazas techadas y patios cubiertos, útil en temporada de lluvias." },
       { question: "¿Con qué temáticas combina el Gusanitos?", answer: "Con fiestas de bichitos e insectos, jardín encantado, colores o arcoíris y temáticas tropicales. Su paleta verde, morado, amarillo y azul también queda bien en posadas infantiles y fiestas sin temática donde quieres mucho color." },
-      { question: "¿Sirve el Gusanitos para kermeses o guarderías?", answer: "Sí. Como es un recorrido con varias entradas, permite que los niños pasen en fila de forma ordenada y sin competir por el mismo espacio. Para eventos escolares conviene un adulto en cada extremo del circuito. Con factura se agrega el 16% de IVA." },
+      { question: "¿Sirve el Gusanitos para kermeses o guarderías?", answer: "Sí. Como es un recorrido con entrada por el túnel y salida por la resbaladilla, permite que los niños pasen en fila de forma ordenada y sin competir por el mismo espacio. Para eventos escolares conviene un adulto en la entrada y otro al pie de la resbaladilla. Con factura se agrega el 16% de IVA." },
     ],
     detalle: {
       h1: { antes: "Renta de inflable", despues: "circuito de túneles para fiestas" },
-      resumen: "El Gusanitos es un inflable de túneles de colores con varias entradas y salidas, para niños de 2 a 8 años, que también puede instalarse bajo techo. La renta cuesta $1,600 MXN por 4 a 6 horas e incluye instalación, motor, sanitización y recolección. Apartas tu fecha con 50% de anticipo.",
+      resumen: "El Gusanitos es un inflable con túnel de entrada, zona de brinco y resbaladilla doble con dos gusanos, para niños de 2 a 8 años, que también puede instalarse bajo techo. La renta cuesta $1,600 MXN por 4 a 6 horas e incluye instalación, motor, sanitización y recolección. Apartas tu fecha con 50% de anticipo.",
       paraQuien: "Es para fiestas con niños de 2 a 8 años y edades mezcladas, donde un brincolín tradicional haría que los grandes acaparen el espacio. Funciona muy bien con niños tímidos o que suben por primera vez a un inflable, en posadas, guarderías, kermeses y fiestas de bichitos o de colores. Por ser apto para interiores, es una de las opciones para temporada de lluvias.",
       espacio: "Mide 5 m de largo, 3 m de ancho y 2.80 m de alto, con 3.2 m de altura libre según su ficha técnica. Es uno de los dos modelos aptos para interiores, así que funciona en jardín, patio, terraza techada o salón con techo suficiente. Por su forma alargada se acomoda bien en patios estrechos; deja libres los extremos para las entradas y salidas.",
       instalacion: "El montaje toma unos 20 minutos. Extendemos el circuito, lo anclamos con estacas en pasto o sacos de arena en piso firme y lo inflamos con el motor conectado a una toma de 110 V a menos de 20 m. Bajo techo revisamos antes que no haya lámparas ni ventiladores encima. Al terminar lo desinflamos y lo recogemos.",
@@ -572,7 +590,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
         { titulo: "Posada infantil", texto: "El circuito bajo techo mantiene ocupados a los niños mientras los adultos rompen la piñata." },
         { titulo: "Fiesta de lluvia o bajo techo", texto: "En terraza techada o salón con altura suficiente, sin depender del clima." },
       ],
-      comparacion: { slug: "mini-castillo", nombre: "Castillo Baby", texto: "Son los dos modelos aptos para interiores. El Castillo Baby ($1,400) es más pequeño (2.5 × 2 m) y está pensado para bebés de 1 a 3 años. El Gusanitos ($1,600) mide 5 m de largo, es un circuito de túneles y cubre de 2 a 8 años, así que conviene cuando hay niños más grandes o muchos invitados bajo techo." },
+      comparacion: { slug: "mini-castillo", nombre: "Castillo Baby", texto: "Son los dos modelos aptos para interiores. El Castillo Baby ($1,400) es más pequeño (2.5 × 2 m) y está pensado para bebés de 1 a 3 años. El Gusanitos ($1,600) mide 5 m de largo, suma túnel y resbaladilla doble y cubre de 2 a 8 años, así que conviene cuando hay niños más grandes o muchos invitados bajo techo." },
       zonas: [
         { slug: "iztacalco", anchor: "Gusanitos en Iztacalco", nota: "Patios y terrazas techadas; confirma la altura libre al cotizar." },
         { slug: "venustiano-carranza", anchor: "renta de inflable en Venustiano Carranza", nota: "Patios estrechos donde su forma alargada se acomoda bien." },
@@ -600,7 +618,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
     badge: "Ideal para bebés y espacios pequeños",
     cta: "Cotizar Castillo Baby",
     galeria: {
-      copy1: "El Castillo Baby luce increíble en cualquier espacio: desde jardines amplios hasta salones de departamento. Estas fotos son de eventos reales donde nuestros clientes rentaron este inflable para cumpleaños y bautizos en CDMX.",
+      copy1: "El Castillo Baby luce increíble en cualquier espacio: desde jardines amplios hasta salones de departamento. Aquí lo ves de frente, de perfil, en jardín, patio, cochera y dentro de un salón, para que compares con tu espacio.",
       copy2: "Cada imagen muestra el Castillo Baby en diferentes escenarios para que puedas visualizar cómo quedaría en tu evento. Solo necesitas 3.2 m de altura libre, piso plano y una toma de 110 V a menos de 20 m.",
     },
     precios: {
@@ -612,10 +630,15 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       copy2: "Todos nuestros inflables pasan por sanitización antes de cada evento. Cotiza y recibe respuesta en minutos.",
     },
     galleryImages: [
+      { src: "/img/inflables/mini-castillo/mini-castillo-baby-jardin-casa.avif", alt: "Castillo Baby inflable con alberca de pelotas en jardín de casa en CDMX" },
+      { src: "/img/inflables/mini-castillo/mini-castillo-baby-frontal-jardin.avif", alt: "Castillo Baby inflable de frente con entrada y escalón" },
+      { src: "/img/inflables/mini-castillo/mini-castillo-baby-lateral-patio.avif", alt: "Castillo Baby inflable de perfil con alberca de pelotas" },
+      { src: "/img/inflables/mini-castillo/mini-castillo-baby-salon-interior.avif", alt: "Castillo Baby inflable dentro de salón de fiestas" },
+      { src: "/img/inflables/mini-castillo/mini-castillo-baby-cochera-adoquin.avif", alt: "Castillo Baby inflable en cochera con piso de adoquín" },
+      { src: "/img/inflables/mini-castillo/mini-castillo-baby-patio-escolar.avif", alt: "Castillo Baby inflable en patio de escuela" },
+      { src: "/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif", alt: "Renta inflable Castillo Baby en CDMX - fiesta en interior" },
       { src: "/img/inflables/mini-castillo/mini-castillo-cumpleanos-infantil.avif", alt: "Renta inflable Castillo Baby en CDMX - cumpleaños infantil" },
       { src: "/img/inflables/mini-castillo/mini-castillo-exterior.avif", alt: "Renta inflable Castillo Baby en CDMX - evento exterior" },
-      { src: "/img/inflables/mini-castillo/mini-castillo-interior-fiesta.avif", alt: "Renta inflable Castillo Baby en CDMX - fiesta en interior" },
-      { src: "/img/inflables/mini-castillo/mini-castillo-renta-cdmx.avif", alt: "Renta inflable Castillo Baby en CDMX - traslado según zona" },
     ],
     pricingPackages: [
       {
@@ -656,7 +679,7 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
         { titulo: "Presentación de 3 años", texto: "Juegos tranquilos después de la ceremonia, con los primos más pequeños." },
         { titulo: "Guardería o estancia infantil", texto: "Turnos cortos por sala durante un festejo o el día del niño." },
       ],
-      comparacion: { slug: "gusanitos", nombre: "Gusanitos", texto: "Son los dos modelos aptos para interiores. El Castillo Baby ($1,400) es el más pequeño y se pensó para bebés de 1 a 3 años. El Gusanitos ($1,600) es un circuito de túneles de 5 m que cubre de 2 a 8 años, así que conviene cuando en la fiesta también hay niños más grandes." },
+      comparacion: { slug: "gusanitos", nombre: "Gusanitos", texto: "Son los dos modelos aptos para interiores. El Castillo Baby ($1,400) es el más pequeño y se pensó para bebés de 1 a 3 años. El Gusanitos ($1,600) mide 5 m, tiene túnel y resbaladilla doble y cubre de 2 a 8 años, así que conviene cuando en la fiesta también hay niños más grandes." },
       zonas: [
         { slug: "cuauhtemoc", anchor: "Castillo Baby en Cuauhtémoc", nota: "Departamentos y salones en Roma, Doctores y Santa María la Ribera." },
         { slug: "benito-juarez", anchor: "inflable para departamento en Benito Juárez", nota: "Salas amplias y terrazas techadas." },
@@ -695,12 +718,15 @@ export const PRODUCTOS_PAGINAS: Record<string, ProductoPagina> = {
       copy2: "Todos los inflables incluyen sanitización y motor silencioso. Cotiza varios modelos sin compromiso por WhatsApp y arma la combinación ideal para tu evento.",
     },
     galleryImages: [
-      { src: "/img/inflables/mini-jungla/mini-jungla-dinosaurios-palmeras.avif", alt: "Inflable Jungla con dinosaurios y palmeras tropicales" },
-      { src: "/img/inflables/mini-jungla/mini-jungla-exterior-evento.avif", alt: "Jungla inflable instalada en evento al aire libre" },
+      { src: "/img/inflables/mini-jungla/mini-jungla-tres-cuartos-jardin.avif", alt: "Inflable Jungla con palmeras y resbaladilla en jardín de casa en CDMX" },
+      { src: "/img/inflables/mini-jungla/mini-jungla-frontal-resbaladilla.avif", alt: "Inflable Jungla de frente con resbaladilla y dos dinosaurios" },
+      { src: "/img/inflables/mini-jungla/mini-jungla-perfil-lateral.avif", alt: "Inflable Jungla visto de perfil con resbaladilla y dinosaurios" },
+      { src: "/img/inflables/mini-jungla/mini-jungla-vista-aerea-jardin.avif", alt: "Inflable Jungla visto desde arriba en jardín" },
+      { src: "/img/inflables/mini-jungla/mini-jungla-salon-fiestas-interior.avif", alt: "Inflable Jungla dentro de salón de fiestas" },
+      { src: "/img/inflables/mini-jungla/mini-jungla-patio-escolar-cdmx.avif", alt: "Inflable Jungla en patio de escuela en CDMX" },
+      { src: "/img/inflables/mini-jungla/mini-jungla-cochera-privada.avif", alt: "Inflable Jungla en cochera de casa en privada" },
+      { src: "/img/inflables/mini-jungla/mini-jungla-detalle-dinosaurios.avif", alt: "Detalle de los dinosaurios y palmeras del inflable Jungla" },
       { src: "/img/inflables/mini-jungla/mini-jungla-frontal-jardin.avif", alt: "Vista frontal del inflable Jungla en jardín" },
-      { src: "/img/inflables/mini-jungla/mini-jungla-lateral-cdmx.avif", alt: "Vista lateral del inflable Jungla en CDMX" },
-      { src: "/img/inflables/mini-jungla/mini-jungla-renta-cdmx.avif", alt: "Renta de inflable Jungla en Ciudad de México" },
-      { src: "/img/inflables/mini-jungla/mini-jungla-vista-general.avif", alt: "Vista general del inflable Jungla con decoración selvática" },
     ],
     pricingPackages: [
       {

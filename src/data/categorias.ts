@@ -124,7 +124,7 @@ export const CATEGORIAS: Categoria[] = [
     guiaSub:   "La edad del festejado decide el modelo antes que el tema.",
     guia: [
       "De 1 a 3 años el criterio es la contención, no la emoción: el Castillo Baby tiene paredes bajas, no tiene resbaladilla y permite que un adulto vigile de cerca. Es el modelo indicado para primer y segundo cumpleaños, donde varios invitados todavía no caminan con seguridad. De 3 a 8 años funcionan mejor Dragones Rojos y Jungla, que combinan área de salto con resbaladilla corta y mallas laterales.",
-      "Cuando la fiesta mezcla edades, por ejemplo primos de 4 y de 10 años, el mejor resultado no lo da el inflable más grande sino el que reparte a los niños. Gusanitos, de 2 a 8 años, tiene túneles con varias entradas y salidas, y el Castillo de Princesas cubre de 2 a 10 años con resbaladilla integrada. Si la mayoría de los invitados pasa de 8 años, revisa los inflables grandes, recomendados de 3 a 12 años.",
+      "Cuando la fiesta mezcla edades, por ejemplo primos de 4 y de 10 años, el mejor resultado no lo da el inflable más grande sino el que reparte a los niños. Gusanitos, de 2 a 8 años, combina túnel de entrada, zona de brinco y resbaladilla doble, y el Castillo de Princesas cubre de 2 a 10 años con resbaladilla integrada. Si la mayoría de los invitados pasa de 8 años, revisa los inflables grandes, recomendados de 3 a 12 años.",
     ],
     incluyeNota: "En fiestas con bebés y niños pequeños dejamos el inflable listo antes de que lleguen los invitados y te explicamos las reglas de uso para el adulto que supervisa.",
     guias: [
@@ -361,7 +361,7 @@ export const CATEGORIAS: Categoria[] = [
       { question: "¿Cabe un inflable en una cochera o patio pequeño?", answer: "En muchos casos sí, sobre todo el Castillo Baby. Gusanitos entra si el espacio es alargado. Mándanos por WhatsApp largo, ancho y altura del lugar y te confirmamos antes de apartar." },
       { question: "¿Un inflable chico es más barato?", answer: "Sí: el Castillo Baby cuesta $1,400 y Gusanitos $1,600. El servicio es el mismo que en los modelos grandes: instalación, motor inflador, sanitización y recolección; el traslado depende de la zona." },
       { question: "¿Cuántos niños caben en un inflable chico?", answer: "La capacidad se confirma al cotizar según la edad de los niños. Si esperas muchos invitados brincando al mismo tiempo, conviene un modelo mediano o grande en lugar de turnos muy largos." },
-      { question: "¿Qué inflable chico conviene para niños de 4 a 8 años?", answer: "Gusanitos, recomendado de 2 a 8 años. Sus túneles con varias entradas mantienen ocupados a niños más grandes que el Castillo Baby, que está pensado para 1 a 3 años." },
+      { question: "¿Qué inflable chico conviene para niños de 4 a 8 años?", answer: "Gusanitos, recomendado de 2 a 8 años. Su túnel, zona de brinco y resbaladilla doble mantienen ocupados a niños más grandes que el Castillo Baby, que está pensado para 1 a 3 años." },
     ],
     grupo: "tamano",
     prioridad: 2,
@@ -556,7 +556,7 @@ export const CATEGORIAS: Categoria[] = [
     guiaSub:   "Con medidas parecidas, deciden el tema y el techo.",
     guia: [
       "Tres de los cuatro comparten formato: Dragones Rojos mide 5×3×2.80 m, Castillo de Princesas 5×3.30×3 m y Jungla 5×3×2.50 m; los tres son de exterior y piden de 4.2 a 4.5 m de altura libre. Entre ellos decide la temática: Dragones Rojos es el más rentado y funciona con público mixto, el Castillo de Princesas es el favorito en cumpleaños de niña y la Jungla cubre safari, dinosaurios y naturaleza.",
-      "Gusanitos mide 5×3×2.80 m y pide sólo 3.2 m de altura libre, así que es el único mediano apto para interiores. Su recorrido de túneles reparte a los niños en lugar de concentrarlos en una resbaladilla. Si tu espacio es techado o alargado, Gusanitos es la respuesta directa; si es un jardín abierto, elige por tema.",
+      "Gusanitos mide 5×3×2.80 m y pide sólo 3.2 m de altura libre, así que es el único mediano apto para interiores. Su recorrido de túnel, brinco y resbaladilla doble reparte a los niños en lugar de concentrarlos en un solo punto. Si tu espacio es techado o alargado, Gusanitos es la respuesta directa; si es un jardín abierto, elige por tema.",
     ],
     incluyeNota: "Los medianos son los que más se rentan en fin de semana: conviene apartar con anticipación en temporada alta.",
     guias: [
@@ -591,25 +591,25 @@ export const CATEGORIAS: Categoria[] = [
     badge: "Por tipo",
     h1:   "Renta de inflables con obstáculos y circuitos de carreras",
     title: "Renta de inflables con obstáculos: desde $1,600",
-    description: "Circuitos inflables con obstáculos: Extremo de doble carril $2,500 y túneles Gusanitos $1,600, con instalación. Para kermeses, escuelas y empresas. Cotiza.",
+    description: "Circuitos inflables con obstáculos: Extremo de doble carril $2,500 y recorrido Gusanitos $1,600, con instalación. Para kermeses, escuelas y empresas. Cotiza.",
     keyword: "renta de inflables con obstáculos",
     anchor:  "inflables con obstáculos",
-    respuesta: "Rentamos dos inflables de recorrido: el Extremo ($2,500), un circuito de 8 metros con obstáculos y tobogán de doble carril para 3 a 12 años, y Gusanitos ($1,600), un recorrido de túneles para 2 a 8 años que también se instala bajo techo. Ambos incluyen instalación, motor inflador y recolección.",
+    respuesta: "Rentamos dos inflables de recorrido: el Extremo ($2,500), un circuito de 8 metros con obstáculos y tobogán de doble carril para 3 a 12 años, y Gusanitos ($1,600), un recorrido corto de túnel, brinco y resbaladilla doble para 2 a 8 años que también se instala bajo techo. Ambos incluyen instalación, motor inflador y recolección.",
     puntosClave: [
       "Extremo: carreras de dos participantes a la vez, al aire libre.",
-      "Gusanitos: túneles de exploración para niños pequeños, apto para interiores.",
+      "Gusanitos: túnel de entrada, zona de brinco y resbaladilla doble para niños pequeños, apto para interiores.",
       "Precios de $1,600 y $2,500 por evento; traslado según zona.",
       "Ideales para kermeses, Día del Niño y eventos de empresa.",
     ],
     intro: [
       "Un inflable con obstáculos no se salta: se recorre. El niño avanza por túneles, muros y rampas hasta la meta, y el juego se vuelve una carrera con reglas y turnos naturales.",
-      "Tenemos dos modelos de este tipo: el Extremo, con doble carril para competir, y Gusanitos, un recorrido de túneles conectados para niños más pequeños.",
+      "Tenemos dos modelos de este tipo: el Extremo, con doble carril para competir, y Gusanitos, un recorrido corto con túnel y resbaladilla doble para niños más pequeños.",
     ],
     guiaTitle: "Circuito de competencia o recorrido de exploración",
     guiaSub:   "La edad y el lugar deciden cuál de los dos formatos funciona.",
     guia: [
       "El Extremo está hecho para competir. Sus 8 metros de pista con obstáculos terminan en un tobogán dividido en dos carriles, así que dos participantes recorren el trayecto al mismo tiempo. Ese formato genera público, turnos y ganadores, y por eso es el más contratado para kermeses escolares y eventos de empresa. Es de exterior y pide 4.5 m de altura libre.",
-      "Gusanitos aplica la misma lógica a una edad menor. Sus túneles con varias entradas y salidas forman un recorrido de exploración, no una carrera: los niños de 2 a 8 años entran y salen por puntos distintos, lo que reparte al grupo. Pide 3.2 m de altura libre, así que funciona en salones donde el Extremo no cabe. Si el evento es competitivo y al aire libre, Extremo; si es infantil o bajo techo, Gusanitos.",
+      "Gusanitos aplica la misma lógica a una edad menor. Su túnel de entrada, la zona de brinco y la resbaladilla doble forman un recorrido de exploración, no una carrera: los niños de 2 a 8 años entran por un lado y bajan por el otro, lo que reparte al grupo. Pide 3.2 m de altura libre, así que funciona en salones donde el Extremo no cabe. Si el evento es competitivo y al aire libre, Extremo; si es infantil o bajo techo, Gusanitos.",
     ],
     incluyeNota: "En kermeses y eventos escolares instalamos el circuito antes de la llegada de los grupos para que los turnos arranquen a tiempo.",
     guias: [
@@ -626,7 +626,7 @@ export const CATEGORIAS: Categoria[] = [
     ],
     productos: ["extremo", "gusanitos"],
     faqs: [
-      { question: "¿Qué obstáculos tiene el circuito inflable?", answer: "El Extremo tiene una pista de 8 metros con obstáculos y un tobogán final de doble carril. Gusanitos es un recorrido de túneles conectados con varias entradas y salidas, sin caídas altas." },
+      { question: "¿Qué obstáculos tiene el circuito inflable?", answer: "El Extremo tiene una pista de 8 metros con obstáculos y un tobogán final de doble carril. Gusanitos es un recorrido corto: túnel de entrada, zona de brinco y resbaladilla doble de poca altura." },
       { question: "¿Se pueden hacer carreras de dos participantes?", answer: "Sí, es el diseño del Extremo: dos carriles paralelos para recorrer el trayecto al mismo tiempo y llegar juntos al tobogán. Cuántas personas entran por turno se confirma al cotizar." },
       { question: "¿Cuánto cuesta rentar un circuito inflable?", answer: "El Extremo cuesta $2,500 y Gusanitos $1,600 por evento, con instalación, motor inflador, sanitización y recolección. El traslado depende de la zona." },
       { question: "¿Sirve un circuito inflable para una kermés o el Día del Niño?", answer: "Es uno de sus mejores usos: genera fila ordenada y turnos cortos cuando hay muchos niños. Recomendamos un adulto encargado del inflable y turnos por grado o grupo." },

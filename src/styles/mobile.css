@@ -506,7 +506,7 @@ img, picture, video, svg, iframe { max-width: 100%; }
   .cob-panel__link,
   .pr-paquete__link,
   .fiesta-card__cta,
-  .art-sidebar__link,
+
   .art-hero__back {
     min-height: 44px !important;
     display: inline-flex !important;

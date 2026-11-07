@@ -25,8 +25,11 @@ import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner     from "@/components/CtaBanner.astro";
 import FacetasInflables from "@/components/FacetasInflables.astro";
 import TablaComparativa from "@/components/TablaComparativa.astro";
-import { inflablesDeCategoria, cardProps, type Categoria } from "@/data/categorias";
-import { PRICE_NOTE_LONG, REQ_POWER, REQ_SURFACE, REQ_ADULT } from "@/data/inflables";
+import SidebarEnlaces from "@/components/SidebarEnlaces.astro";
+import { inflablesDeCategoria, cardProps, CATEGORIAS, type Categoria } from "@/data/categorias";
+import { INFLABLES, PRICE_NOTE_LONG, REQ_POWER, REQ_SURFACE, REQ_ADULT } from "@/data/inflables";
+import { anchorInflable, A } from "@/data/anchors";
+import { grupoServicios, grupoReservar } from "@/data/sidebar";
 import { SITE_URL, buildWhatsAppUrl } from "@/data/site";
 import { getCoverageZone } from "@/data/coverage";
 
@@ -56,6 +59,46 @@ const incluye = [
   "Reprogramación sin costo si llueve el día del evento.",
 ];
 const requisitos = [REQ_POWER, REQ_SURFACE, REQ_ADULT];
+
+/* Sidebar de enlaces (nov 2026): modelos de la categoría, el resto del
+   catálogo, las otras 10 categorías, guías y zonas. */
+const enCategoria = new Set(items.map((i) => i.slug));
+const sidebarGrupos = [
+  {
+    titulo: `Modelos de ${cat.nav.toLowerCase()}`,
+    enlaces: items.map((i) => ({ href: `/inflables/${i.slug}/`, label: anchorInflable(i.slug).short, meta: i.price })),
+  },
+  {
+    titulo: "Otras categorías",
+    enlaces: CATEGORIAS.filter((c) => c.slug !== cat.slug).map((c) => ({ href: `/inflables/${c.slug}/`, label: c.anchor })),
+    todos: { href: "/inflables/", label: A.catalogo.short },
+  },
+  {
+    titulo: "Más inflables del catálogo",
+    enlaces: INFLABLES.filter((i) => i.active && !enCategoria.has(i.slug))
+      .map((i) => ({ href: `/inflables/${i.slug}/`, label: anchorInflable(i.slug).short, meta: i.price })),
+  },
+  {
+    titulo: "Guías para elegir",
+    enlaces: cat.guias.map((g) => ({ href: g.href, label: g.anchor })),
+    todos: { href: "/blog/", label: A.blog.short },
+  },
+  {
+    titulo: "Zonas de entrega",
+    enlaces: zonas.map((z) => ({ href: `/cobertura/${z.slug}/`, label: `${cat.anchor} en ${z.data!.zone}`, meta: z.data!.shippingFee })),
+    todos: { href: "/cobertura/", label: A.zonas.short },
+  },
+  grupoServicios(),
+  grupoReservar(),
+];
+const sidebarIndice = [
+  { href: "#modelos", label: "Modelos" },
+  ...(items.length > 1 ? [{ href: "#comparativa", label: "Comparativa" }] : []),
+  { href: "#como-elegir", label: "Cómo elegir" },
+  { href: "#que-incluye", label: "Qué incluye" },
+  { href: "#guias-zonas", label: "Guías y zonas" },
+  { href: "#facetas", label: "Más categorías" },
+];
 
 /* CollectionPage + ItemList. Los competidores que rankean en estas
    keywords sólo declaran Organization o SiteNavigationElement. */
@@ -154,8 +197,11 @@ const schema = {
 
   <QuickNav />
 
+  <div class="container con-sidebar">
+  <div class="con-sidebar__main">
+
   <!-- 4 · GRID DE PRODUCTOS -->
-  <section class="section section--snug">
+  <section class="section section--snug" id="modelos">
     <div class="container">
       <SectionHeader
         badge="Modelos"
@@ -172,7 +218,7 @@ const schema = {
 
   <!-- 5 · TABLA COMPARATIVA -->
   {items.length > 1 && (
-    <section class="section section--alt">
+    <section class="section section--alt" id="comparativa">
       <div class="container">
         <TablaComparativa inflables={items} caption={`Comparativa de ${cat.name.toLowerCase()}: medidas, espacio y capacidad`} />
         <p class="cat-nota">{PRICE_NOTE_LONG} Si tienes dudas sobre cuál cabe en tu espacio, mándanos las medidas por WhatsApp y te confirmamos antes de que apartes la fecha.</p>
@@ -181,7 +227,7 @@ const schema = {
   )}
 
   <!-- 6 · BLOQUE GUÍA -->
-  <section class="section">
+  <section class="section" id="como-elegir">
     <div class="container">
       <SectionHeader
         badge="Cómo elegir"
@@ -194,7 +240,7 @@ const schema = {
   </section>
 
   <!-- 6b · QUÉ INCLUYE LA RENTA -->
-  <section class="section section--alt">
+  <section class="section section--alt" id="que-incluye">
     <div class="container cat-cols">
       <div>
         <h2 class="section-title">¿Qué incluye la renta de {cat.name.toLowerCase()}?</h2>
@@ -214,7 +260,7 @@ const schema = {
   </section>
 
   <!-- 6c · GUÍAS Y ZONAS -->
-  <section class="section">
+  <section class="section" id="guias-zonas">
     <div class="container cat-cols">
       <div>
         <h2 class="section-title">Guías para elegir y planear</h2>
@@ -237,11 +283,25 @@ const schema = {
   </section>
 
   <!-- 7 · FACETAS (el silo) -->
-  <section class="section section--alt">
+  <section class="section section--alt" id="facetas">
     <div class="container">
       <FacetasInflables activeSlug={cat.slug} />
     </div>
   </section>
+
+  </div>
+  <SidebarEnlaces
+    grupos={sidebarGrupos}
+    indice={sidebarIndice}
+    cta={{
+      titulo: `${cat.name} ${rango}`,
+      texto: "Por evento de 4 a 6 horas, con instalación y recolección. Traslado según zona.",
+      href: "/cotizar/",
+      label: `Cotizar ${cat.name.toLowerCase()}`,
+      waHref: waUrl,
+    }}
+  />
+  </div>
 
   <!-- 9 · CTA -->
   <CtaBanner

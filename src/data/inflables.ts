@@ -151,7 +151,7 @@ export const INFLABLES: Inflable[] = [
     capacity:    "Se confirma al cotizar",
     installTime: "20 minutos",
     image:       "/img/inflables/gusanitos.avif",
-    description: "El inflable Gusanitos es más un circuito que un brincolín: túneles de colores conectados con varias entradas y salidas. Con 5 metros de largo es el de mayor alcance del catálogo mediano y funciona muy bien con grupos de edades mezcladas.",
+    description: "El inflable Gusanitos es un recorrido corto: los niños entran por un túnel verde, brincan bajo los arcos y bajan por una resbaladilla doble con dos gusanos sonrientes. Con 5 metros de largo es el de mayor alcance del catálogo mediano y funciona muy bien con grupos de edades mezcladas.",
     category:    "mediano",
     active:      true,
     gallery: [

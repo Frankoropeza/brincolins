@@ -1,0 +1,367 @@
+---
+/**
+ * GaleriaProducto — BRINCOLINS
+ * Galería de la ficha de inflable: mosaico con foto principal 2×2 en escritorio,
+ * carrusel con scroll-snap en móvil y visor a pantalla completa (<dialog>)
+ * con flechas, teclado, swipe, contador y miniaturas. CSS scoped.
+ */
+interface GalleryImage {
+  src: string;
+  alt: string;
+}
+
+interface Props {
+  images: GalleryImage[];
+}
+
+const { images } = Astro.props;
+const total = images.length;
+---
+
+<div class="gp" data-gp>
+  <ul class="gp__grid" role="list">
+    {images.map((img, i) => (
+      <li class:list={["gp__cell", { "gp__cell--hero": i === 0 }]}>
+        <button type="button" class="gp__open" data-gp-open={i} aria-label={`Ampliar foto ${i + 1} de ${total}: ${img.alt}`}>
+          <img
+            src={img.src}
+            alt={img.alt}
+            width="1200"
+            height="675"
+            loading={i === 0 ? "eager" : "lazy"}
+            decoding="async"
+          />
+          <span class="gp__zoom" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </span>
+        </button>
+      </li>
+    ))}
+  </ul>
+
+  <div class="gp__bar">
+    <p class="gp__hint">Desliza para ver las {total} fotos</p>
+    <button type="button" class="gp__all" data-gp-open="0">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+      Ver las {total} fotos
+    </button>
+  </div>
+
+  <dialog class="gp__lb" aria-label="Galería de fotos">
+    <div class="gp__lb-top">
+      <span class="gp__count" aria-live="polite"><b data-gp-n>1</b> / {total}</span>
+      <button type="button" class="gp__x" data-gp-close aria-label="Cerrar galería">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+
+    <figure class="gp__stage">
+      <img data-gp-img src={images[0]?.src} alt={images[0]?.alt} width="1200" height="675" />
+      <figcaption data-gp-cap>{images[0]?.alt}</figcaption>
+    </figure>
+
+    <button type="button" class="gp__nav gp__nav--prev" data-gp-prev aria-label="Foto anterior">
+      <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <button type="button" class="gp__nav gp__nav--next" data-gp-next aria-label="Foto siguiente">
+      <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+
+    <ol class="gp__thumbs" role="list">
+      {images.map((img, i) => (
+        <li>
+          <button type="button" data-gp-thumb={i} aria-label={`Ver foto ${i + 1}`}>
+            <img src={img.src} alt="" width="120" height="68" loading="lazy" decoding="async" />
+          </button>
+        </li>
+      ))}
+    </ol>
+  </dialog>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>("[data-gp]").forEach((root) => {
+    const dialog = root.querySelector<HTMLDialogElement>(".gp__lb")!;
+    const stageImg = root.querySelector<HTMLImageElement>("[data-gp-img]")!;
+    const cap = root.querySelector<HTMLElement>("[data-gp-cap]")!;
+    const num = root.querySelector<HTMLElement>("[data-gp-n]")!;
+    const thumbs = [...root.querySelectorAll<HTMLButtonElement>("[data-gp-thumb]")];
+    const sources = [...root.querySelectorAll<HTMLImageElement>(".gp__open img")].map((img) => ({ src: img.src, alt: img.alt }));
+    let current = 0;
+
+    const show = (i: number) => {
+      current = (i + sources.length) % sources.length;
+      const { src, alt } = sources[current];
+      stageImg.src = src;
+      stageImg.alt = alt;
+      cap.textContent = alt;
+      num.textContent = String(current + 1);
+      thumbs.forEach((t, k) => t.setAttribute("aria-current", k === current ? "true" : "false"));
+      thumbs[current]?.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
+    };
+
+    root.querySelectorAll<HTMLElement>("[data-gp-open]").forEach((btn) =>
+      btn.addEventListener("click", () => {
+        show(Number(btn.dataset.gpOpen));
+        dialog.showModal();
+      })
+    );
+    thumbs.forEach((t) => t.addEventListener("click", () => show(Number(t.dataset.gpThumb))));
+    root.querySelector("[data-gp-prev]")!.addEventListener("click", () => show(current - 1));
+    root.querySelector("[data-gp-next]")!.addEventListener("click", () => show(current + 1));
+    root.querySelector("[data-gp-close]")!.addEventListener("click", () => dialog.close());
+
+    dialog.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowLeft") show(current - 1);
+      if (e.key === "ArrowRight") show(current + 1);
+    });
+    // Clic en el fondo oscuro (fuera de la foto y los controles) cierra
+    dialog.addEventListener("click", (e) => {
+      if (e.target === dialog) dialog.close();
+    });
+
+    let x0: number | null = null;
+    dialog.addEventListener("touchstart", (e) => { x0 = e.touches[0].clientX; }, { passive: true });
+    dialog.addEventListener("touchend", (e) => {
+      if (x0 === null) return;
+      const dx = e.changedTouches[0].clientX - x0;
+      if (Math.abs(dx) > 45) show(current + (dx < 0 ? 1 : -1));
+      x0 = null;
+    });
+  });
+</script>
+
+<style>
+  .gp__grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-flow: dense;
+    gap: 0.75rem;
+  }
+  .gp__cell--hero {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  .gp__open {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    border-radius: calc(var(--r-tile) - 6px);
+    overflow: hidden;
+    background: var(--c-line);
+    cursor: zoom-in;
+    aspect-ratio: 16 / 9;
+    isolation: isolate;
+  }
+  .gp__cell--hero .gp__open {
+    border-radius: var(--r-tile);
+  }
+  /* La principal ocupa exactamente dos filas de miniaturas */
+  @media (min-width: 1025px) {
+    .gp__cell--hero .gp__open { aspect-ratio: auto; }
+  }
+  .gp__open img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  .gp__open::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(23, 21, 43, 0.28), transparent 45%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .gp__zoom {
+    position: absolute;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.92);
+    color: var(--c-ink);
+    box-shadow: var(--shadow-md);
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  .gp__open:hover img { transform: scale(1.045); }
+  .gp__open:hover::after,
+  .gp__open:hover .gp__zoom,
+  .gp__open:focus-visible .gp__zoom { opacity: 1; transform: none; }
+  .gp__open:focus-visible {
+    outline: 3px solid var(--c-primary);
+    outline-offset: 3px;
+  }
+
+  .gp__bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .gp__hint { display: none; margin: 0; font-size: 0.875rem; color: var(--c-ink-60); }
+  .gp__all {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 44px;
+    padding: 0.6rem 1.15rem;
+    border: 1.5px solid var(--c-line-strong);
+    border-radius: var(--r-btn);
+    background: #fff;
+    color: var(--c-ink);
+    font: 600 0.9375rem/1 var(--font-body);
+    cursor: pointer;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .gp__all:hover { border-color: var(--c-ink); box-shadow: var(--shadow-md); }
+
+  /* Visor */
+  .gp__lb {
+    width: 100vw;
+    height: 100dvh;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: rgba(12, 11, 22, 0.96);
+    color: #fff;
+    overflow: hidden;
+  }
+  .gp__lb[open] {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+  .gp__lb::backdrop { background: rgba(12, 11, 22, 0.6); }
+  .gp__lb-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+  }
+  .gp__count { font-size: 0.9375rem; color: rgba(255, 255, 255, 0.75); }
+  .gp__count b { color: #fff; }
+  .gp__x,
+  .gp__nav {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .gp__x:hover,
+  .gp__nav:hover { background: rgba(255, 255, 255, 0.24); }
+  .gp__stage {
+    margin: 0;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 0 clamp(0.5rem, 6vw, 5.5rem);
+  }
+  .gp__stage img {
+    max-width: 100%;
+    max-height: calc(100% - 2.5rem);
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px;
+  }
+  .gp__stage figcaption {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+  }
+  .gp__nav {
+    position: absolute;
+    top: 50%;
+    width: 52px;
+    height: 52px;
+    transform: translateY(-50%);
+  }
+  .gp__nav--prev { left: clamp(0.5rem, 1.5vw, 1.5rem); }
+  .gp__nav--next { right: clamp(0.5rem, 1.5vw, 1.5rem); }
+  .gp__thumbs {
+    list-style: none;
+    margin: 0;
+    padding: 0.75rem 1rem 1rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: safe center;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .gp__thumbs button {
+    display: block;
+    padding: 0;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    overflow: hidden;
+    background: none;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.2s, border-color 0.2s;
+  }
+  .gp__thumbs button:hover { opacity: 0.85; }
+  .gp__thumbs button[aria-current="true"] { opacity: 1; border-color: #fff; }
+  .gp__thumbs img { display: block; width: 88px; height: 50px; object-fit: cover; }
+
+  @media (max-width: 1024px) {
+    .gp__grid { grid-template-columns: repeat(3, 1fr); }
+    .gp__cell--hero { grid-column: 1 / -1; grid-row: auto; }
+  }
+
+  /* Móvil: carrusel horizontal con la siguiente foto asomándose */
+  @media (max-width: 640px) {
+    .gp__grid {
+      display: flex;
+      gap: 0.625rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-padding-inline: var(--container-px);
+      margin-inline: calc(-1 * var(--container-px));
+      padding-inline: var(--container-px);
+      scrollbar-width: none;
+    }
+    .gp__grid::-webkit-scrollbar { display: none; }
+    .gp__cell,
+    .gp__cell--hero { flex: 0 0 86%; scroll-snap-align: start; }
+    .gp__open,
+    .gp__cell--hero .gp__open { aspect-ratio: 4 / 3; border-radius: 16px; }
+    .gp__zoom { opacity: 1; transform: none; }
+    .gp__bar { justify-content: space-between; }
+    .gp__hint { display: block; }
+    .gp__nav { display: none; }
+    .gp__stage { padding: 0; }
+    .gp__stage img { border-radius: 0; }
+    .gp__stage figcaption { padding-inline: 1rem; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .gp__open img,
+    .gp__zoom { transition: none; }
+  }
+</style>

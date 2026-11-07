@@ -52,8 +52,8 @@ export const INFLABLE_ANCHORS: Record<string, Anchor> = {
     foto:  "Fotos del inflable Jungla",
   },
   "gusanitos": {
-    full:  "Renta de inflable Gusanitos con túneles",
-    short: "Circuito inflable Gusanitos",
+    full:  "Renta de inflable Gusanitos con túnel y resbaladilla",
+    short: "Brincolín Gusanitos con resbaladilla",
     foto:  "Fotos del inflable Gusanitos",
   },
   "barco-pirata": {

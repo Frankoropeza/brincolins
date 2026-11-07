@@ -487,7 +487,7 @@ export const COVERAGE_ZONES: CoverageZone[] = [
   ],
     inflablesRec:      [
     { href: "/inflables/mini-castillo/", name: "Castillo Baby", desc: "El favorito para terrazas y azoteas en Roma y Condesa. Solo necesita espacio suficiente y altura suficiente. Pensado para niños de 1 a 3 años en departamentos con espacio reducido.", tag: "Espacios compactos" },
-    { href: "/inflables/gusanitos/", name: "Gusanitos", desc: "Circuito de túneles que funciona bajo techo. Para niños de 2 a 8 años en patios de vecindad y salones de Condesa y Juárez; confirmamos el espacio antes de reservar.", tag: "Bebés y primer año" },
+    { href: "/inflables/gusanitos/", name: "Gusanitos", desc: "Túnel, brinco y resbaladilla doble; funciona bajo techo. Para niños de 2 a 8 años en patios de vecindad y salones de Condesa y Juárez; confirmamos el espacio antes de reservar.", tag: "Bebés y primer año" },
     { href: "/inflables/mini-jungla/", name: "Jungla", desc: "Temática de selva con tobogán, para niños de 3 a 8 años. Pide espacio suficiente al aire libre: va a los patios y jardines de Santa María la Ribera y San Rafael, no a una terraza.", tag: "Temático compacto" },
   ],
   },

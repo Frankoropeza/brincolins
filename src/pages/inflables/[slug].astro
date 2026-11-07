@@ -15,10 +15,13 @@ import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import ProductCard from "@/components/ProductCard.astro";
 import SectionHeader from "@/components/SectionHeader.astro";
 import CtaBanner from "@/components/CtaBanner.astro";
-import Gallery4x4 from "@/components/Gallery4x4.astro";
+import GaleriaProducto from "@/components/GaleriaProducto.astro";
 import PricingCards from "@/components/PricingCards.astro";
 import CtaBar from "@/components/CtaBar.astro";
 import FacetasInflables from "@/components/FacetasInflables.astro";
+import SidebarEnlaces from "@/components/SidebarEnlaces.astro";
+import { anchorInflable, A } from "@/data/anchors";
+import { grupoServicios, grupoReservar } from "@/data/sidebar";
 import { categoriasDeInflable } from "@/data/categorias";
 import { getCoverageZone } from "@/data/coverage";
 import { getCollection } from "astro:content";
@@ -77,6 +80,46 @@ const ctaBarItems = [
   { label: "Ver galería", href: "#galeria", icon: "galeria" },
   { label: "Ver precios", href: "#precios", icon: "precios" },
   { label: "WhatsApp", href: `https://wa.me/525531281706?text=${encodeURIComponent(`Hola BRINCOLINS, me interesa rentar ${elN}.`)}`, icon: "whatsapp" },
+];
+
+/* Sidebar de enlaces (nov 2026): reparte autoridad de la ficha hacia el
+   resto del catálogo, categorías, guías, zonas y servicios. */
+const sidebarGrupos = [
+  {
+    titulo: "Otros inflables",
+    enlaces: INFLABLES.filter((i) => i.active && i.slug !== canon.slug)
+      .map((i) => ({ href: `/inflables/${i.slug}/`, label: anchorInflable(i.slug).short, meta: i.price })),
+    todos: { href: "/inflables/", label: A.catalogo.short },
+  },
+  {
+    titulo: `Categorías con ${elN}`,
+    enlaces: categorias.map((c) => ({ href: `/inflables/${c.slug}/`, label: c.anchor })),
+  },
+  {
+    titulo: "Guías para tu fiesta",
+    enlaces: [
+      ...guiasCuradas.map((g) => ({ href: `/blog/${g.slug}/`, label: g.anchor })),
+      ...guias.map((g) => ({ href: `/blog/${g.id}/`, label: g.data.h1 || g.data.title })),
+    ].slice(0, 6),
+    todos: { href: "/blog/", label: A.blog.short },
+  },
+  {
+    titulo: "Zonas de entrega",
+    enlaces: zonas.map((z) => ({ href: `/cobertura/${z.slug}/`, label: z.anchor, meta: z.zona!.shippingFee })),
+    todos: { href: "/cobertura/", label: A.zonas.short },
+  },
+  grupoServicios(),
+  grupoReservar(),
+];
+
+const sidebarIndice = [
+  { href: "#galeria", label: "Galería" },
+  { href: "#especificaciones", label: "Medidas y requisitos" },
+  ...(detalle ? [{ href: "#para-quien", label: "Para quién es" }] : []),
+  { href: "#precios", label: "Precios" },
+  ...(detalle ? [{ href: "#instalacion", label: "Qué incluye e instalación" }] : []),
+  ...(guiasCuradas.length || guias.length ? [{ href: "#guias", label: "Guías" }] : []),
+  { href: "#relacionados", label: "Otros inflables" },
 ];
 ---
 
@@ -146,11 +189,14 @@ const ctaBarItems = [
 
   <CtaBar items={ctaBarItems} />
 
+  <div class="container con-sidebar">
+  <div class="con-sidebar__main">
+
   <!-- Gallery -->
   <section class="section" id="galeria">
     <div class="container">
-      <SectionHeader badge="Galería" title={`Galería ${delN} en fiestas reales`} subtitle={`${elN.charAt(0).toUpperCase() + elN.slice(1)} instalado y en uso`} copy1={page.galeria.copy1} copy2={page.galeria.copy2} />
-      <Gallery4x4 images={page.galleryImages} />
+      <SectionHeader badge="Galería" title={`Galería ${delN}`} subtitle={`Así luce ${elN} armado, desde todos los ángulos`} copy1={page.galeria.copy1} copy2={page.galeria.copy2} />
+      <GaleriaProducto images={page.galleryImages} />
     </div>
   </section>
 
@@ -296,7 +342,7 @@ const ctaBarItems = [
   )}
 
   <!-- Related -->
-  <section class="section section--alt">
+  <section class="section section--alt" id="relacionados">
     <div class="container">
       <SectionHeader badge="Más inflables" title="Otros inflables que te pueden interesar" subtitle="Instalación y recolección incluidas; traslado según zona" copy1={page.relacionados.copy1} copy2={page.relacionados.copy2} />
       <div class="grid-4">
@@ -324,6 +370,20 @@ const ctaBarItems = [
       <FacetasInflables />
     </div>
   </section>
+
+  </div>
+  <SidebarEnlaces
+    grupos={sidebarGrupos}
+    indice={sidebarIndice}
+    cta={{
+      titulo: `${canon.name} desde ${canon.price}`,
+      texto: "4 a 6 horas con instalación y recolección. Traslado según zona.",
+      href: "/cotizar/",
+      label: page.cta,
+      waHref: ctaBarItems[3].href,
+    }}
+  />
+  </div>
 
   <CtaBanner
     title={`¿Te interesa ${elN}?`}

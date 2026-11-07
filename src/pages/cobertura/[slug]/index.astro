@@ -1,5 +1,8 @@
 ---
-import { anchorInflableHref, A } from "@/components/../data/anchors";
+import { anchorInflableHref, anchorInflable, anchorSalon, A } from "@/components/../data/anchors";
+import SidebarEnlaces from "@/components/SidebarEnlaces.astro";
+import { grupoServicios, grupoReservar } from "@/data/sidebar";
+import { SALONES_CDMX } from "@/data/directorio";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 /**
  * src/pages/cobertura/[slug]/index.astro
@@ -26,7 +29,7 @@ import {
 } from "@/data/inflables";
 import { SITE_URL } from "@/data/site";
 import EnlacesCategoria from "@/components/EnlacesCategoria.astro";
-import { categoriasParaZona, anchorEnZona } from "@/data/categorias";
+import { categoriasParaZona, anchorEnZona, CATEGORIAS } from "@/data/categorias";
 import { getEntry, getCollection, render } from "astro:content";
 
 export async function getStaticPaths() {
@@ -109,6 +112,46 @@ const areaServed = {
    canónico para que el precio del schema sea el real de inflables.ts. */
 const recModels = zone.inflablesRec.map(r => getInflableBySlug(r.href.replace("/inflables/", "").replace(/\/$/, ""))).filter((i): i is NonNullable<typeof i> => Boolean(i));
 const catalog = recModels.length > 0 ? recModels : INFLABLES_ACTIVOS;
+
+/* ── Sidebar de enlaces (nov 2026) ─────────────────────────────────────
+   Catálogo completo, categorías, zonas cercanas, salones de la zona y
+   guías. Sin `vecinas` en la guía local se usan las zonas de la misma
+   entidad para que ninguna página quede sin enlaces laterales. */
+const cercanas = (vecinas.length > 0
+  ? vecinas
+  : COVERAGE_ZONES.filter((z) => z.slug !== zone.slug && !z.childZones && z.areaParent && z.areaParent === zone.areaParent)
+).slice(0, 8);
+const porPrecio = [...INFLABLES_ACTIVOS].sort((a, b) => a.priceNumber - b.priceNumber);
+const [precioMin, precioMax] = [porPrecio[0]?.price, porPrecio.at(-1)?.price];
+const salonesZona = SALONES_CDMX.filter((s) => s.zone.includes(areaName) || areaName.includes(s.zone)).slice(0, 5);
+const sidebarGrupos = [
+  {
+    titulo: `Inflables con entrega en ${zonePhrase}`,
+    enlaces: INFLABLES_ACTIVOS.map((i) => ({ href: `/inflables/${i.slug}/`, label: anchorInflable(i.slug).short, meta: i.price })),
+    todos: { href: "/inflables/", label: A.catalogo.short },
+  },
+  {
+    titulo: "Categorías",
+    enlaces: CATEGORIAS.map((c) => ({ href: `/inflables/${c.slug}/`, label: c.anchor })),
+  },
+  {
+    titulo: "Zonas cercanas",
+    enlaces: cercanas.map((z) => ({ href: `/cobertura/${z.slug}/`, label: `Inflables en ${z.zonePhrase ?? z.zone}`, meta: z.shippingFee || "Sin costo" })),
+    todos: { href: "/cobertura/", label: A.zonas.short },
+  },
+  {
+    titulo: `Salones de fiestas en ${zonePhrase}`,
+    enlaces: salonesZona.map((s) => ({ href: `/directorio/cdmx/${s.slug}/`, label: anchorSalon(s.name, s.zone) })),
+    todos: { href: "/directorio/", label: "Directorio de salones" },
+  },
+  {
+    titulo: "Guías para tu fiesta",
+    enlaces: guiasBlog.slice(0, 6).map((p) => ({ href: `/blog/${p.id}/`, label: p.data.h1 ?? p.data.title })),
+    todos: { href: "/blog/", label: A.blog.short },
+  },
+  grupoServicios(),
+  grupoReservar(),
+];
 
 const serviceSchema = {
   "@context":    "https://schema.org",
@@ -203,6 +246,9 @@ const serviceSchema = {
   </section>
 
   <QuickNav />
+
+  <div class="container con-sidebar">
+  <div class="con-sidebar__main">
 
   <!-- ── Categorías del catálogo con anchor de zona ── -->
   <section class="section">
@@ -352,6 +398,18 @@ const serviceSchema = {
       </div>
     </section>
   )}
+
+  </div>
+  <SidebarEnlaces
+    grupos={sidebarGrupos}
+    cta={{
+      titulo: `Inflables en ${zonePhrase}`,
+      texto: `${MODELOS_COUNT} modelos de ${precioMin} a ${precioMax} por evento. Envío: ${zone.shippingFee?.trim() || "sin costo"}.`,
+      href: "/cotizar/",
+      label: "Solicitar cotización",
+    }}
+  />
+  </div>
 
   <!-- ── CTA Banner ────────────────────────────────────────────────── -->
   <CtaBanner
