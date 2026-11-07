@@ -11,8 +11,14 @@ import DulcesCombo from "@/components/DulcesCombo.astro";
 import { WHATSAPP } from "@/data/site";
 import { EVENTOS, TIPOS, ESTACIONES_PAG, FAQS_GENERALES, BASE_URL, IMG, fmt, enFrase, serviceSchema } from "@/data/mesasDeDulces";
 
-const title = "Mesa de dulces en CDMX: precios por evento desde $3,500";
-const description = "Renta de mesa de dulces en CDMX para cumpleaños infantil, bautizo, baby shower, primera comunión, XV años y boda. Precios desde $3,500, montaje incluido.";
+const title = "Mesa de dulces y candy bar en CDMX: precios desde $3,500";
+const description = "Mesa de dulces y candy bar en CDMX para cumpleaños, bautizo, baby shower, comunión, XV y boda. Precios desde $3,500 + IVA, montaje incluido.";
+
+/* «mesa de dulces sencilla» es la búsqueda más grande del tema (7.7K, Ahrefs MX nov 2026). */
+const FAQ_SENCILLA = {
+  question: "¿Hay mesa de dulces sencilla y económica?",
+  answer: "Sí: el nivel Esencial. Para un cumpleaños infantil de 15 a 30 niños cuesta desde $3,500 + IVA e incluye de 8 a 10 variedades, temática, cristalería, montaje y empaque de sobrantes. Está pensada para fiestas íntimas en casa.",
+};
 
 const minimo = Math.min(...EVENTOS.map((e) => e.niveles[0].precio));
 const maximo = Math.max(...EVENTOS.map((e) => e.niveles[2].precio));
@@ -49,7 +55,7 @@ const pasos = [
   description={description}
   pageType="page"
   ogImage={`${IMG}/og/hub-hero.jpg`}
-  faqItems={FAQS_GENERALES}
+  faqItems={[...FAQS_GENERALES.slice(0, 1), FAQ_SENCILLA, ...FAQS_GENERALES.slice(1)]}
   faqContext={{ tipo: "servicio", servicio: "dulces" }}
   faqTitle="Resolvemos tus dudas sobre mesas de dulces"
   faqSubtitle="Precios, qué incluye, cómo apartar la fecha y quién monta la mesa."

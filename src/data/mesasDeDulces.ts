@@ -391,10 +391,10 @@ const FAQ_RESERVA_ESTACION = { question: "¿Con cuánta anticipación conviene r
 export const ESTACIONES_PAG: Evento[] = [
   {
     grupo: "estacion", slug: "fuente-de-chocolate", nombre: "Fuente de chocolate", frase: "una fuente de chocolate",
-    keyword: "renta de fuente de chocolate", unidad: "invitados",
-    title: "Renta de fuente de chocolate en CDMX desde $3,500",
+    keyword: "fuente de chocolate", unidad: "invitados",
+    title: "Fuente de chocolate para fiestas y eventos en CDMX desde $3,500",
     description: "Renta de fuente de chocolate con operador en CDMX desde $3,500 (20 a 40 invitados). Chocolate belga con leche, blanco, oscuro o ruby y hasta 8 productos para bañar.",
-    h1: "Renta de fuente de chocolate",
+    h1: "Fuente de chocolate para fiestas y eventos",
     intro: [
       "Fuente profesional de acero inoxidable de 5, 15, 30 o 50 kg con chocolate belga, productos para bañar y un operador que sirve y repone durante el evento.",
       "La opera nuestro aliado MEDEDUL y se coordina desde BRINCOLINS junto con la mesa de dulces o el inflable, en una sola cotización.",
@@ -487,10 +487,10 @@ export const ESTACIONES_PAG: Evento[] = [
   },
   {
     grupo: "estacion", slug: "pared-de-dulces", nombre: "Pared de dulces", frase: "una pared de dulces",
-    keyword: "pared de dulces", unidad: "invitados",
-    title: "Renta de pared de dulces (candy wall) en CDMX",
+    keyword: "candy wall", unidad: "invitados",
+    title: "Candy wall: pared de dulces para eventos en CDMX desde $4,500",
     description: "Pared de dulces con dispensadores para autoservicio en CDMX desde $4,500 (40 a 80 invitados). De 2×2 m con 50 dispensadores hasta 6×3 m con más de 200.",
-    h1: "Renta de pared de dulces",
+    h1: "Candy wall: pared de dulces para eventos",
     intro: [
       "Estructura modular con dispensadores de acrílico llenos de dulces para que los invitados se sirvan en bolsitas. Funciona como mesa de dulces y como fondo para fotos.",
       "La opera nuestro aliado MEDEDUL; BRINCOLINS la coordina junto con el inflable y el resto de la fiesta en una sola cotización.",
@@ -537,7 +537,7 @@ export const ESTACIONES_PAG: Evento[] = [
     grupo: "estacion", slug: "stand-para-pastel", nombre: "Stand para pastel", frase: "un stand para pastel",
     keyword: "stand para pastel", unidad: "invitados",
     title: "Renta de stand para pastel en CDMX desde $2,800",
-    description: "Renta de stand para pastel con marco decorativo en CDMX desde $2,800. Soporte para pasteles de 2 a 5+ pisos, flores, globos o neón. Coordinación con tu pastelero.",
+    description: "Renta de stand y base decorativa para pastel en CDMX desde $2,800. Soporte para pasteles de 2 a 5+ pisos con flores, globos o neón. Coordinación con tu pastelero.",
     h1: "Renta de stand para pastel",
     intro: [
       "Marco decorativo y soporte reforzado para lucir el pastel en el momento del corte, con decoración coordinada con la mesa de dulces.",
@@ -602,11 +602,11 @@ export const ESTACIONES = ESTACIONES_PAG.filter((e) => e.slug.startsWith("fuente
 const tipo = (
   slug: string, nombre: string, frase: string, keyword: string,
   precios: [number, number, number], medio: string,
-  rest: Pick<Evento, "description" | "intro" | "lista" | "estilo" | "faqs" | "img"> & { lemas: [string, string, string]; incluye: [string[], string[], string[]] },
+  rest: Pick<Evento, "description" | "intro" | "lista" | "estilo" | "faqs" | "img"> & Partial<Pick<Evento, "title" | "h1">> & { lemas: [string, string, string]; incluye: [string[], string[], string[]] },
 ): Evento => ({
   grupo: "tipo", slug, nombre, frase, keyword, unidad: "personas",
-  title: `${nombre} para eventos en CDMX desde ${fmt(precios[0])}`,
-  h1: `${nombre} para eventos`,
+  title: rest.title ?? `${nombre} para eventos en CDMX desde ${fmt(precios[0])}`,
+  h1: rest.h1 ?? `${nombre} para eventos`,
   niveles: [
     { nombre: "Esencial", precio: precios[0], invitados: "30-50", lema: rest.lemas[0], incluye: rest.incluye[0] },
     { nombre: medio,      precio: precios[1], invitados: "50-100", lema: rest.lemas[1], incluye: rest.incluye[1] },
@@ -645,6 +645,8 @@ export const TIPOS: Evento[] = [
       altDetalle: "Brochetas de fruta fresca en charola de cristal" },
   }),
   tipo("mesa-de-postres", "Mesa de postres", "una mesa de postres", "mesa de postres", [4500, 7900, 12500], "Favorito", {
+    title: "Mesa de postres para fiestas en CDMX desde $4,500",
+    h1: "Mesa de postres para fiestas",
     description: "Mesa de postres para fiestas, bodas y XV años en CDMX desde $4,500 (30 a 50 personas). Tartas, brownies, cupcakes, macarons, cheesecakes y petit fours.",
     intro: [
       "Barra de repostería con tartas, brownies, mini pasteles, cheesecakes, cupcakes, macarons y petit fours, montada en bases doradas y cake stands.",
@@ -667,13 +669,15 @@ export const TIPOS: Evento[] = [
       alt: "Mesa de postres con tartaletas, brownies, macarons y cupcakes en salón",
       altDetalle: "Mini cheesecakes, tartaletas y macarons en charola dorada" },
   }),
-  tipo("mesa-de-quesos-y-embutidos", "Mesa de quesos y embutidos", "una mesa de quesos y embutidos", "mesa de quesos", [5200, 8900, 13900], "Favorito", {
-    description: "Mesa de quesos y embutidos para eventos en CDMX desde $5,200 (30 a 50 personas). Manchego, brie, cabra, jamón serrano, salami, pan, fruta y maridaje.",
+  tipo("mesa-de-quesos", "Mesa de quesos y carnes frías", "una mesa de quesos y carnes frías", "mesa de quesos", [5200, 8900, 13900], "Favorito", {
+    title: "Mesa de quesos y carnes frías para eventos en CDMX",
+    h1: "Mesa de quesos y tabla de carnes frías para eventos",
+    description: "Mesa y tabla de quesos con carnes frías para eventos en CDMX desde $5,200 (30 a 50 personas). Manchego, brie, cabra, jamón serrano, salami, pan, fruta y maridaje.",
     intro: [
       "Tablas con quesos nacionales e importados, jamón serrano, chorizo y salami, acompañados de pan, galletas, fruta, frutos secos y mermeladas.",
       "La opera nuestro aliado MEDEDUL; BRINCOLINS la coordina con el resto de tu evento. No es la opción recomendada para fiestas solo de niños.",
     ],
-    lista: { titulo: "¿Qué quesos y embutidos lleva?", texto: "La selección crece con el nivel. Si hay invitados con restricciones, se proponen acompañamientos sin gluten o una selección vegetariana al cotizar." },
+    lista: { titulo: "¿Qué quesos y carnes frías lleva la tabla?", texto: "La selección crece con el nivel. Si hay invitados con restricciones, se proponen acompañamientos sin gluten o una selección vegetariana al cotizar." },
     estilo: ["Manchego", "Brie", "Queso de cabra", "Chihuahua", "Monterrey", "Jamón serrano", "Chorizo de Pamplona", "Salami", "Baguette", "Higos", "Frutos secos", "Maridaje con vino"],
     lemas: ["Para reuniones íntimas", "La opción más solicitada", "Para bodas y celebraciones"],
     incluye: [
@@ -682,12 +686,12 @@ export const TIPOS: Evento[] = [
       ["Selección ampliada", "Quesos de España y Francia", "Jamón serrano y chorizo artesanal", "Operación en sitio extendida", "Configuración para grandes reuniones"],
     ],
     faqs: [
-      precioFaq("una mesa de quesos y embutidos", [5200, 8900, 13900]),
+      precioFaq("una mesa de quesos y carnes frías", [5200, 8900, 13900]),
       { question: "¿Qué acompañamientos incluye?", answer: "Baguette, galletas, fresas, higos, frutos secos y mermeladas de temporada." },
       { question: "¿Asesoran el maridaje?", answer: "Sí, desde el nivel Favorito: vino tinto para manchego y queso de cabra, y blanco para brie y quesos cremosos." },
     ],
     img: { hero: "tipo-quesos-hero", detalle: "tipo-quesos-detalle",
-      alt: "Mesa de quesos y embutidos con tablas de madera y mármol",
+      alt: "Mesa de quesos y carnes frías con tablas de madera y mármol",
       altDetalle: "Tabla con brie, manchego, salami, jamón serrano, uvas e higos" },
   }),
   tipo("mesa-de-botanas", "Mesa de botanas", "una mesa de botanas", "mesa de botanas", [3800, 6500, 10200], "Favorito", {
@@ -712,7 +716,9 @@ export const TIPOS: Evento[] = [
       alt: "Mesa de botanas mexicanas con cacahuates, palomitas y frituras en jardín",
       altDetalle: "Tazones de barro con cacahuates japoneses y garapiñados" },
   }),
-  tipo("mesa-de-dulces-tradicionales", "Mesa de dulces tradicionales", "una mesa de dulces tradicionales mexicanos", "mesa de dulces mexicanos", [4300, 7200, 11500], "Favorito", {
+  tipo("mesa-de-dulces-mexicanos", "Mesa de dulces mexicanos", "una mesa de dulces mexicanos", "mesa de dulces mexicanos", [4300, 7200, 11500], "Favorito", {
+    title: "Mesa de dulces mexicanos tradicionales en CDMX desde $4,300",
+    h1: "Mesa de dulces mexicanos tradicionales",
     description: "Mesa de dulces tradicionales mexicanos en CDMX desde $4,300 (30 a 50 personas). Cocadas, jamoncillos, glorias, mazapán, obleas, tamarindos y alegrías con papel picado.",
     intro: [
       "Dulces típicos mexicanos —cocadas, jamoncillos, glorias, mazapán, obleas, tamarindos, palanquetas y alegrías— con papel picado y decoración tradicional.",
@@ -727,7 +733,7 @@ export const TIPOS: Evento[] = [
       ["Surtido de alto volumen", "Dulces típicos de cada región", "Dirección estética tradicional", "Configuración para grandes fiestas", "Golosinas artesanales"],
     ],
     faqs: [
-      precioFaq("una mesa de dulces tradicionales", [4300, 7200, 11500]),
+      precioFaq("una mesa de dulces mexicanos", [4300, 7200, 11500]),
       { question: "¿Sirve para fiestas patrias y posadas?", answer: "Sí. Es la opción para fiestas patrias, posadas y Día de Muertos; en temporada se incluyen calaveritas de azúcar y decoración acorde." },
     ],
     img: { hero: "tipo-tradicionales-hero", detalle: "tipo-tradicionales-detalle",
