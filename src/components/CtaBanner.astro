@@ -40,10 +40,9 @@ const target = external ? "_blank" : undefined;
 ---
 
 <section class={`cta-banner cta-banner--${variant}${compact ? " cta-banner--compact" : ""}`}>
-  <!-- Decorative shapes -->
-  <div class="cta-banner__shape cta-banner__shape--1"></div>
-  <div class="cta-banner__shape cta-banner__shape--2"></div>
-  <div class="cta-banner__shape cta-banner__shape--3"></div>
+  <!-- Globos decorativos: solo en las esquinas, nunca bajo el texto -->
+  <div class="cta-banner__shape cta-banner__shape--1" aria-hidden="true"></div>
+  <div class="cta-banner__shape cta-banner__shape--2" aria-hidden="true"></div>
 
   <div class="container">
     <div class="cta-banner__content">
@@ -75,131 +74,130 @@ const target = external ? "_blank" : undefined;
 </section>
 
 <style>
-  /* ── CTA Banner Component ── */.cta-banner {
+  .cta-banner {
     position: relative;
-    overflow: hidden;
-    padding: 3rem 0;
     isolation: isolate;
-  }.cta-banner--compact {
-    padding: 2rem 0;
+    overflow: hidden;
+    margin: clamp(0.5rem, 1.6vw, 1.5rem) 0;
+    padding: 3rem 0;
+    border-radius: var(--r-sheet);
   }
+  .cta-banner--compact { padding: 2rem 0; }
 
   /* ── Variantes de color ──
-     Nov 2026 («Patio de aire»): los degradados arcoíris se sustituyen por
-     bloques planos. Las cuatro variantes se conservan para no tocar las
-     páginas que las usan; todas cargan texto blanco con contraste AA. */.cta-banner {
-    border-radius: var(--r-sheet);
-    margin: clamp(0.5rem, 1.6vw, 1.5rem) 0;
-  }.cta-banner--vibrant,
-  .cta-banner--festa {
-    background: var(--c-ink);
-  }.cta-banner--warm {
-    background: var(--c-primary-deep);
-  }.cta-banner--cool {
-    background: #1F3A8A; /* azul profundo propio de la variante: blanco 10.4:1 */
-  }
+     Bloques planos («Patio de aire»); todas cargan texto blanco con
+     contraste AA. */
+  .cta-banner--vibrant,
+  .cta-banner--festa { background: var(--c-ink); }
+  .cta-banner--warm  { background: var(--c-primary-deep); }
+  .cta-banner--cool  { background: #1F3A8A; } /* azul profundo: blanco 10.4:1 */
 
-  /* ── Formas decorativas ── */.cta-banner__shape {
+  /* ── Globos decorativos ── */
+  .cta-banner__shape {
     position: absolute;
+    z-index: -1;
     border-radius: 50%;
     pointer-events: none;
-    z-index: -1;
-  }.cta-banner__shape--1 {
-    /* Globo mango asomando por la esquina; no llega a los botones */
+  }
+  /* Mango asomando por la esquina superior derecha */
+  .cta-banner__shape--1 {
+    top: -120px;
+    right: -50px;
     width: 180px;
     height: 180px;
     background: var(--c-mango);
-    top: -120px;
-    right: -50px;
-  }.cta-banner__shape--2 {
+  }
+  /* Cielo tenue en la esquina inferior izquierda, fuera del bloque de texto */
+  .cta-banner__shape--2 {
+    bottom: -70px;
+    left: -60px;
     width: 120px;
     height: 120px;
     background: var(--c-cielo);
     opacity: 0.18;
-    bottom: -40px;
-    left: -30px;
-  }.cta-banner__shape--3 {
-    /* Decoración lejos del texto: entre el copy y los botones */
-    width: 80px;
-    height: 80px;
-    background: rgba(255, 255, 255, 0.08);
-    bottom: -30px;
-    right: 28%;
   }
 
-  /* ── Layout del contenido ── */.cta-banner__content {
+  /* ── Contenido ── */
+  .cta-banner__content {
+    position: relative;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    position: relative;
-    z-index: 1;
-  }.cta-banner__text {
+  }
+  .cta-banner__text {
     flex: 1;
     min-width: 0;
-  }.cta-banner__title {
+  }
+  .cta-banner__title {
+    margin: 0;
     font-family: var(--font-head);
-    font-weight: 800;
     font-size: clamp(1.4rem, 3vw, 2rem);
-    color: #fff;
+    font-weight: 800;
     line-height: 1.1;
     letter-spacing: -0.03em;
-    margin: 0;
-  }.cta-banner__subtitle {
-    font-size: clamp(0.9rem, 1.5vw, 1.05rem);
     color: #fff;
-    margin: 0.5rem 0 0;
-    line-height: 1.5;
+  }
+  .cta-banner__subtitle {
     max-width: 600px;
+    margin: 0.5rem 0 0;
+    font-size: clamp(0.9rem, 1.5vw, 1.05rem);
+    line-height: 1.5;
+    color: #fff;
   }
 
-  /* ── Botones ── */.cta-banner__actions {
+  /* ── Botones ── */
+  .cta-banner__actions {
     display: flex;
-    gap: 0.75rem;
-    flex-shrink: 0;
     flex-wrap: wrap;
-  }.cta-banner__btn {
+    flex-shrink: 0;
+    gap: 0.75rem;
+  }
+  .cta-banner__btn {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     padding: 0.85rem 2rem;
     border-radius: var(--r-btn);
     font-family: var(--font-head);
-    font-weight: 800;
     font-size: 0.95rem;
-    text-decoration: none;
-    transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
-    white-space: nowrap;
+    font-weight: 800;
     line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
     cursor: pointer;
-  }.cta-banner__btn--primary {
+    transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  }
+  .cta-banner__btn--primary {
     background: #fff;
     color: var(--c-ink);
     box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.14);
-  }.cta-banner__btn--primary:hover {
-    transform: translateY(-2px);
-  }.cta-banner__btn--secondary {
+  }
+  .cta-banner__btn--primary:hover { transform: translateY(-2px); }
+  .cta-banner__btn--secondary {
+    border: 2px solid rgba(255, 255, 255, 0.5);
     background: rgba(255, 255, 255, 0.15);
     color: #fff;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-  }.cta-banner__btn--secondary:hover {
-    background: rgba(255, 255, 255, 0.25);
+  }
+  .cta-banner__btn--secondary:hover {
     border-color: #fff;
+    background: rgba(255, 255, 255, 0.25);
   }
 
-  /* ── Responsive ── */
-  @media (max-width: 768px) {.cta-banner__content {
+  @media (max-width: 768px) {
+    .cta-banner__content {
       flex-direction: column;
       text-align: center;
-    }.cta-banner__subtitle {
-      margin-left: auto;
-      margin-right: auto;
-    }.cta-banner__actions {
+    }
+    .cta-banner__subtitle { margin-inline: auto; }
+    .cta-banner__actions {
       justify-content: center;
       width: 100%;
-    }.cta-banner__btn {
-      width: 100%;
+    }
+    .cta-banner__btn {
       justify-content: center;
+      width: 100%;
     }
   }
 </style>

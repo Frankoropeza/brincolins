@@ -1,93 +1,30 @@
 ---
+/**
+ * FaqItem — una pregunta frecuente como acordeón nativo.
+ *
+ * <details> en lugar de botón + JS: se abre sin JavaScript, el lector de
+ * pantalla anuncia el estado solo y la respuesta no se recorta (el
+ * acordeón anterior animaba max-height hasta 500px y cortaba las
+ * respuestas largas). Con `name` compartido el navegador mantiene una
+ * sola pregunta abierta por grupo, igual que antes.
+ * Estilos: .faq__* en global.css.
+ */
 export interface Props {
   question: string;
   answer:   string;
+  /** Grupo de exclusión: abrir una pregunta cierra las demás del grupo. */
+  group?:   string;
 }
 
-const { question, answer } = Astro.props;
+const { question, answer, group = "faq" } = Astro.props;
 ---
 
-<div class="faq__item">
-  <button class="faq__question" aria-expanded="false">
+<details class="faq__item" name={group}>
+  <summary class="faq__question">
     <span>{question}</span>
-    <span class="faq__icon" aria-hidden="true">+</span>
-  </button>
+    <span class="faq__icon" aria-hidden="true"></span>
+  </summary>
   <div class="faq__answer">
     <p>{answer}</p>
   </div>
-</div>
-
-<!-- Acordeón FAQ. Antes vivía inline en BaseLayout y se enviaba en TODAS
-     las páginas, tuvieran FAQ o no. Astro deduplica este script aunque el
-     componente se renderice N veces, y solo lo incluye en páginas que usan
-     FaqItem. -->
-<script>
-  document.querySelectorAll('.faq__question').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const item   = btn.closest('.faq__item');
-      const answer = item ? item.querySelector('.faq__answer') : null;
-      const icon   = btn.querySelector('.faq__icon');
-      const isOpen = answer && answer.classList.contains('faq__answer--open');
-      document.querySelectorAll('.faq__answer--open').forEach((a) => a.classList.remove('faq__answer--open'));
-      document.querySelectorAll('.faq__question').forEach((b) => b.setAttribute('aria-expanded', 'false'));
-      document.querySelectorAll('.faq__icon').forEach((i) => { i.textContent = '+'; });
-      if (!isOpen && answer) {
-        answer.classList.add('faq__answer--open');
-        btn.setAttribute('aria-expanded', 'true');
-        if (icon) icon.textContent = '−';
-      }
-    });
-  });
-</script>
-
-<style>
-  /* Sistema «Patio de aire». La base (.faq__*) vive en global.css; aquí se
-     sobrescribe con selectores calificados por elemento para ganar la
-     cascada sin depender del orden de carga. */
-  div.faq__item {
-    background: #fff;
-    border: 1px solid var(--c-line);
-    border-radius: var(--r-tile);
-    margin-bottom: 0.75rem;
-    transition: border-color 0.15s ease;
-  }
-  :global(.section--alt) div.faq__item { background: var(--c-canvas); }
-  div.faq__item:hover { border-color: var(--c-line-strong); }
-
-  button.faq__question {
-    min-height: 56px;
-    font-family: var(--font-head);
-    font-weight: 700;
-    font-size: 1.0625rem;
-    line-height: 1.4;
-    color: var(--c-ink);
-    border-radius: var(--r-tile);
-  }
-  button.faq__question:focus-visible {
-    outline: 3px solid var(--c-ink);
-    outline-offset: 2px;
-  }
-
-  span.faq__icon {
-    width: 32px;
-    height: 32px;
-    background: #fff;
-    border: 1px solid var(--c-line-strong);
-    color: var(--c-ink);
-    font-weight: 700;
-    transition: background 0.15s ease, color 0.15s ease;
-  }
-  button.faq__question[aria-expanded="true"] span.faq__icon {
-    background: var(--c-ink);
-    border-color: var(--c-ink);
-    color: #fff;
-  }
-
-  div.faq__answer p {
-    margin: 0;
-    max-width: 70ch;
-    font-size: 1rem;
-    line-height: 1.75;
-    color: var(--c-ink-60);
-  }
-</style>
+</details>

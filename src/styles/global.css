@@ -348,10 +348,13 @@ p, .hero__desc, .section-subtitle, .why-sc__desc {
   right: -6vw;
   background: var(--c-mango);
 }
+/* El globo chico asoma por el borde izquierdo de la pantalla, no por el
+   borde inferior: cortado contra el lienzo de la sección siguiente se
+   leía como un recorte, no como un globo. */
 .hero::after {
-  width: clamp(140px, 16vw, 240px);
-  left: -60px;
-  bottom: -90px;
+  width: clamp(120px, 13vw, 200px);
+  left: calc(clamp(120px, 13vw, 200px) / -2);
+  bottom: clamp(1.5rem, 5vw, 4rem);
   background: var(--c-cielo);
 }
 
@@ -711,58 +714,76 @@ p, .hero__desc, .section-subtitle, .why-sc__desc {
   opacity: 0.6;
 }
 
-/* ── FAQ ── */
+/* ── FAQ (FaqItem.astro: <details> nativo) ── */
 .faq__item {
-  border: 1px solid var(--c-border);
-  border-radius: 12px;
   margin-bottom: 0.75rem;
-  overflow: hidden;
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-tile);
+  background: #fff;
+  transition: border-color 0.15s ease;
 }
+.section--alt .faq__item { background: var(--c-canvas); }
+.faq__item:hover,
+.faq__item[open] { border-color: var(--c-line-strong); }
 
 .faq__question {
-  width: 100%;
-  text-align: left;
-  padding: 1.2rem 1.5rem;
-  background: none;
-  border: none;
-  cursor: pointer;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
-  font-family: var(--font-head);
-  font-weight: 700;
-  font-size: 1rem;
-  color: var(--c-text);
   gap: 1rem;
+  min-height: 56px;
+  padding: 1.1rem 1.5rem;
+  border-radius: var(--r-tile);
+  cursor: pointer;
+  list-style: none;
+  font-family: var(--font-head);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--c-ink);
 }
+.faq__question::-webkit-details-marker { display: none; }
+.faq__question:focus-visible { outline-offset: 2px; }
 
+/* «+» que gira a «×» al abrir; dibujado con CSS, sin cambiar texto por JS */
 .faq__icon {
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background: var(--c-bg-alt);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
+  position: relative;
   flex-shrink: 0;
-  color: var(--c-primary-text);
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--c-line-strong);
+  border-radius: 50%;
+  background: #fff;
+  color: var(--c-ink);
+  transition: background 0.15s ease, color 0.15s ease, transform 0.2s ease;
 }
-
-.faq__answer {
-  max-height: 0;
-  overflow: hidden;
+.faq__icon::before,
+.faq__icon::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+  transform: translate(-50%, -50%);
 }
-
-.faq__answer--open {
-  max-height: 500px;
+.faq__icon::after { transform: translate(-50%, -50%) rotate(90deg); }
+.faq__item[open] .faq__icon {
+  transform: rotate(45deg);
+  border-color: var(--c-ink);
+  background: var(--c-ink);
+  color: #fff;
 }
 
 .faq__answer p {
-  font-size: 0.95rem;
-  color: var(--c-text-muted);
-  line-height: 1.7;
-  padding: 0 1.5rem 1.2rem;
+  max-width: 70ch;
+  margin: 0;
+  padding: 0 1.5rem 1.25rem;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--c-ink-60);
 }
 
 /* ── Breadcrumbs ── */

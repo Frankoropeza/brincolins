@@ -313,11 +313,11 @@ img, picture, video, svg, iframe { max-width: 100%; }
    ────────────────────────────────────────────────────────────────── */
 @media (max-width: 640px) {
   .faq__question {
-    padding: 1rem 1.1rem !important;
-    font-size: 0.9375rem !important;
     min-height: 52px;
+    padding: 1rem 1.1rem;
+    font-size: 0.9375rem;
   }
-  .faq__answer p { font-size: 0.875rem !important; }
+  .faq__answer p { padding-inline: 1.1rem; font-size: 0.9375rem; }
 }
 
 

@@ -24,7 +24,10 @@ const {
 } = Astro.props;
 
 const esGratis = envio === "Incluido";
-const envioLabel = esGratis ? "Envío incluido" : `Envío ${envio}`;
+/* `envio` llega como "Según zona" o "$100–$150"; tras "Envío" va en minúscula. */
+const envioLabel = esGratis
+  ? "Envío incluido"
+  : `Envío ${envio.charAt(0).toLowerCase()}${envio.slice(1)}`;
 const envioColor = esGratis ? "castillo" : "pirata";
 
 const waMsg = encodeURIComponent(`Hola BRINCOLINS, quiero cotizar un inflable con entrega en ${name}.`);
@@ -38,7 +41,7 @@ const waHref = `https://wa.me/${whatsapp}?text=${waMsg}`;
       <span class="product-card__category">{envioLabel}</span>
     </div>
   ) : (
-    <div class="product-card__image zona-card__emoji">
+    <div class="product-card__image zona-card__band">
       <span class="product-card__category">{envioLabel}</span>
     </div>
   )}
@@ -60,11 +63,23 @@ const waHref = `https://wa.me/${whatsapp}?text=${waMsg}`;
 </article>
 
 <style>
-  /* Sin foto: ficha pastel plana por posición (sin degradados de datos). */
-  .zona-card__emoji { background: var(--c-cielo); }
-  .product-card:nth-child(6n+2) .zona-card__emoji { background: var(--c-menta); }
-  .product-card:nth-child(6n+3) .zona-card__emoji { background: var(--c-mango); }
-  .product-card:nth-child(6n+4) .zona-card__emoji { background: var(--c-chicle); }
-  .product-card:nth-child(6n+5) .zona-card__emoji { background: var(--c-lila); }
-  .product-card:nth-child(6n) .zona-card__emoji { background: var(--c-durazno); }
+  /* Sin foto: franja pastel compacta por posición que sólo lleva el badge
+     de envío. Antes era un bloque 16:9 vacío (~170px) en cada una de las
+     33 tarjetas de zona. */
+  .zona-card__band {
+    justify-content: flex-start;
+    aspect-ratio: auto;
+    min-height: 3.25rem;
+    padding: 0 0.75rem;
+    background: var(--c-cielo);
+  }
+  .zona-card__band .product-card__category {
+    position: static;
+    box-shadow: none;
+  }
+  .product-card:nth-child(6n+2) .zona-card__band { background: var(--c-menta); }
+  .product-card:nth-child(6n+3) .zona-card__band { background: var(--c-mango); }
+  .product-card:nth-child(6n+4) .zona-card__band { background: var(--c-chicle); }
+  .product-card:nth-child(6n+5) .zona-card__band { background: var(--c-lila); }
+  .product-card:nth-child(6n) .zona-card__band { background: var(--c-durazno); }
 </style>

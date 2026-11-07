@@ -148,7 +148,10 @@ const { titulo, intro, items, variante = "cards" } = Astro.props;
     box-shadow: var(--shadow-lg);
   }
   .enl-cards__link:focus-visible { outline: 3px solid var(--c-ink); outline-offset: 3px; }
-  .enl-cards__anchor { font-weight: 700; line-height: 1.35; }
+  .enl-cards__anchor { display: block; font-weight: 700; line-height: 1.35; }
+  /* El anchor es la keyword exacta en minúscula («inflables para niños»);
+     como título de tarjeta se muestra con mayúscula inicial. */
+  .enl-cards__anchor::first-letter { text-transform: uppercase; }
   .enl-cards__nota {
     font-size: .88rem;
     color: var(--c-ink-60);
