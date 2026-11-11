@@ -38,8 +38,6 @@ export const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
 export const GA4_ID = "";
 
 /* Ahrefs: verificación de propiedad + Web Analytics (sin cookies). */
-export const AHREFS_SITE_VERIFICATION = "40cd9b4cc4c260d40efb96782881710bbb25965aa5bbb6d072dee8e4bf18b4f5";
-export const AHREFS_ANALYTICS_KEY = "H8Mc7ZRR5lJmtD4d3BsZIA";
 
 /* ──────────────────────────────────────────────────────────────
    Perfiles públicos — sameAs del schema + enlaces del footer

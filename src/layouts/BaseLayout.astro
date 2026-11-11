@@ -12,7 +12,7 @@ import {
   buildFaqSchema,
   buildProductSchema,
 } from "@/lib/schema";
-import { SITE_URL, SITE_NAME, GA4_ID, AHREFS_SITE_VERIFICATION, AHREFS_ANALYTICS_KEY } from "@/data/site";
+import { SITE_URL, SITE_NAME, GA4_ID } from "@/data/site";
 import { COVERAGE_ZONES } from "@/data/coverage";
 import { INFLABLES } from "@/data/inflables";
 import { existsSync } from "node:fs";
@@ -126,9 +126,7 @@ const ogType = (pageType === "product") ? "product" : "website";
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="ahrefs-site-verification" content={AHREFS_SITE_VERIFICATION}>
   <!-- Ahrefs Web Analytics -->
-  <script is:inline src="https://analytics.ahrefs.com/analytics.js" data-key={AHREFS_ANALYTICS_KEY} async></script>
 
   <!-- Fuente self-hosted (antes: Google Fonts render-blocking, 6 pesos,
        2 conexiones externas). Un solo WOFF2 variable (400-900, latin, 32KB)
